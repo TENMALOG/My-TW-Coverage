@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-008",
+  "reviewed_at": "2026-10-05T13:45:51Z",
+  "reviewer_role": "author",
+  "method": "manual review of directly opened official issuer pages and annual report; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:fd708de33a7d0e86",
+      "normalized_claim_hash": "fd708de33a7d0e8643d8fad8ef6b92934ddf934b7e9e40ccae17fa8232b0c837",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全台各級農會系統 — 「農友牌」肥料最大經銷通路",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taifer.com.tw/Products/Products/aboutnongyou.htm",
+          "title": "農友牌簡介 - 台灣肥料股份有限公司",
+          "source_level": 3,
+          "period_binding": "台肥現行官網產品頁未標示發布日期；於 2026-10-05 查閱，支持頁面所列農友牌產品資訊，未提供通路排名期間。",
+          "accessed_at": "2026-10-05",
+          "note": "台肥官網確認「農友牌」為其肥料產品品牌，但頁面未列出各級農會為最大經銷通路。"
+        },
+        {
+          "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=0684f8ce-a497-436b-8213-d73f9285ecff&type=FileUpload&no=1&sourceType=0",
+          "title": "114年度台肥公司年報",
+          "source_level": 2,
+          "period_binding": "民國 114 年度（2025 會計年度）公司年報；發行人年報清單列示更新日期為 2026-05-18。",
+          "accessed_at": "2026-10-05",
+          "note": "年報肥料產業上下游關聯圖列示農會、肥料商及農民為下游／農業用戶；未比較通路規模，亦未稱農會系統為最大經銷通路。"
+        }
+      ],
+      "rationale": "台肥官網支持「農友牌」是公司肥料品牌，114 年度年報的產業關聯圖支持農會為下游相關通路之一；查閱來源未明確支持農會系統為最大經銷通路，因此不能接受該排名 qualifier。未將來源未列排名推斷為相反事實。",
+      "proposed_text": "台肥 114 年度年報的肥料產業關聯圖列出農會、肥料商與農民等下游參與者；台肥官網介紹「農友牌」肥料。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

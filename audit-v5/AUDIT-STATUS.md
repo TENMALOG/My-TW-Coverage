@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 13:43 UTC
+Updated: 2026-10-05 13:45 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **15 / 1,399**
-- Remaining author review: **1,384**
-- Latest batch: **author-007** (1 claim)
+- Author-reviewed: **16 / 1,399**
+- Remaining author review: **1,383**
+- Latest batch: **author-008** (1 claim)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **5**
-- `PARTIALLY_SUPPORTED`: **7**
+- `PARTIALLY_SUPPORTED`: **8**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **2**
@@ -30,8 +30,9 @@ Branch: `audit-v5`
 - `1722:objective_ranking_or_market_share:991de260b51083b7` — `PARTIALLY_SUPPORTED`; official sources support about 170 hectares of land and C2/C3 project existence, not the claimed city ranking or project amounts.
 - `1722:objective_ranking_or_market_share:584c29afa2ffa73c` — `PARTIALLY_SUPPORTED`; official sources support the wholly owned Taiwan Ocean Deep Water subsidiary and Hualien production facilities, but not the Asia-largest ranking.
 - `1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7` — `SOURCE_UNAVAILABLE`; OCP official pages and the attempted USGS report returned HTTP 403, so no company-level ranking evidence was inspectable.
-- Proposed wording from partial claims is recorded in their author ledgers; no issuer report was changed.
-- Next pending claim in priority order: `1722:objective_ranking_or_market_share:fd708de33a7d0e86` (台肥).
+- `1722:objective_ranking_or_market_share:fd708de33a7d0e86` — `PARTIALLY_SUPPORTED`; sources support the 農友牌 brand and farmer associations as one downstream channel, not the largest-channel qualifier.
+- Proposed wording is recorded in `semantic/author-008.json`; no issuer report was changed.
+- Next pending claim in priority order: `2610:objective_ranking_or_market_share:a74fba6da2dc6742` (華航).
 
 ## Source access
 

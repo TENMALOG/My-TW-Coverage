@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **15 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), and `author-007` (1).
+Author-reviewed: **16 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), and `author-008` (1).
 
 - ACCEPTED by author: 5
-- PARTIALLY_SUPPORTED: 7
+- PARTIALLY_SUPPORTED: 8
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 2
 - Other allowed author decisions: 0
-- Remaining author queue: 1,384
+- Remaining author queue: 1,383
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -91,3 +91,10 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - Decision: `SOURCE_UNAVAILABLE`. OCP Group 官網多個頁面回應 HTTP 403；USGS 官方磷礦摘要 PDF 端點也回應 HTTP 403，因此無法檢視能支持公司層級全球最大出口商排名的正式來源。
 - 存取結果僅記錄來源限制，不代表排名為真或為假；完整來源 URL、標題欄位、來源層級、期間與證據摘記記錄於 `semantic/author-007.json`。
 - Author-reviewed total: 15 / 1,399; remaining author queue: 1,384. 獨立複核仍待處理。
+
+## Author batch `author-008` — 2026-10-05
+
+- Reviewed 1 previously unreviewed HIGH claim at claim level: `1722:objective_ranking_or_market_share:fd708de33a7d0e86`.
+- Decision: `PARTIALLY_SUPPORTED`. 台肥官網支持「農友牌」品牌，114 年度年報將農會列為肥料下游參與者；查閱來源未明確支持全台各級農會系統為最大經銷通路。
+- Evidence URL、標題、來源層級、期間、查閱日期、evidence note 與 proposed wording 記錄於 `semantic/author-008.json`；未修改發行人報告。
+- Author-reviewed total: 16 / 1,399; remaining author queue: 1,383. 獨立複核仍待處理。
