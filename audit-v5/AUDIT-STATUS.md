@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 13:04 UTC
+Updated: 2026-10-06 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **196 / 1,399**
-- Remaining author review: **1,203**
-- Latest batch: **author-037** (7 claims)
+- Author-reviewed: **204 / 1,399**
+- Remaining author review: **1,195**
+- Latest batch: **author-038** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **41**
-- `PARTIALLY_SUPPORTED`: **126**
+- `ACCEPTED`: **42**
+- `PARTIALLY_SUPPORTED`: **131**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **25**
+- `UNKNOWN_AFTER_RESEARCH`: **27**
 
 ## Latest claim batch
 
-- `3363:objective_ranking_or_market_share:26fa475a285812b8` — `PARTIALLY_SUPPORTED`; 上詮2025年報第72頁載ReLFACon光纖陣列元件FAU精準對位與封裝技術、第73頁二維光纖陣列精密對準共封裝技術、第68頁載長期目標為CPO光纖陣列元件主要供應商；惟「COUPE」與「獨家」皆0次，「台積電」2次均與CPO認證無關。
-- `3491:objective_ranking_or_market_share:94f1a06238faac2a` — `PARTIALLY_SUPPORTED`; 昇達科2026簡報第3頁載1999年9月成立、產品為微波&毫米波元件及天線；惟「唯一」0次。
-- `3491:objective_ranking_or_market_share:b1519b89f78df062` — `PARTIALLY_SUPPORTED`; 簡報第4頁低軌衛星主要客戶列Amazon Leo／SpaceX／AST SpaceMobile／Intellian；惟「最大客戶」官方僅1次且未具名，其發射時程（2025/4/28首批、6/13第二批）與Amazon Leo相符，無法確立SpaceX為最大客戶。
-- `3491:objective_ranking_or_market_share:e76f95644dba4f6a` — `PARTIALLY_SUPPORTED`; 產品定位成立；「台灣唯一」未獲支持。
-- `3558:objective_ranking_or_market_share:b07caacadd76de3a` — `UNKNOWN_AFTER_RESEARCH`; 神準2022簡報載OEM/ODM占92%，但未出現Cisco或Meraki，亦未具名任何客戶。
-- `3596:objective_ranking_or_market_share:6e94f9bb077f0c5b`、`f3bf92f9c38ba724` — `PARTIALLY_SUPPORTED` ×2; 智易114年報第5/87頁支持IAD、PON、5G FWA、Wi-Fi 7產品線，第116頁載仁寶為法人董事暨大股東；惟「全球最大」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-037.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` (海華).
+- `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` — `PARTIALLY_SUPPORTED`; 研華113年報採權益法附註載其對海華持股由19.38%→19.39%→**19.37%**（非claim的10%）；惟和碩集團歸屬、工業物聯網與PC出海口、五成市占均未載。
+- `3704:objective_ranking_or_market_share:f2f3c18024370d07` — `ACCEPTED`; 合勤控官方新聞稿標題「蟬聯入選標普全球永續年鑑 獲全球通訊設備產業第一」，內文載 Communications Equipment 前 Top 1%。
+- `4905:objective_ranking_or_market_share:4172615a2601a106` — `PARTIALLY_SUPPORTED`; 台聯電113Q4個體財報第36頁載欣德芮持股61.36%並具控制力、成為投資子公司；惟未載「擴廠」，達亞國際23.66%為採權益法之關聯企業而非「最大股東」。
+- `4905:objective_ranking_or_market_share:f8236f9419738a17` — `PARTIALLY_SUPPORTED`; 達亞23.66%持股成立；惟財報未載台聯電為其單一最大股東。
+- `6143:objective_ranking_or_market_share:eacb93af3612d24a`、`55422f78287ce5eb` — `PARTIALLY_SUPPORTED` ×2; 振曜2024永續報告第6頁載其為「電子書閱讀器代工之領導廠商」、ODM/OEM服務；惟「全球最大」0次。
+- `6143:objective_ranking_or_market_share:93413fcf26dee269`、`73dfb069f9845e04` — `UNKNOWN_AFTER_RESEARCH` ×2; 振曜官方文件未具名客戶，Kobo／樂天／Rakuten 皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-038.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6216:objective_ranking_or_market_share:35cb5307cb38ee31` (居易).
 
 ## Source access
 

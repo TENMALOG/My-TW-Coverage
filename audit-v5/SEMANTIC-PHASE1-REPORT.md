@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **196 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), and `author-037` (7).
+Author-reviewed: **204 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), and `author-038` (8).
 
-- ACCEPTED by author: 41
-- PARTIALLY_SUPPORTED: 126
+- ACCEPTED by author: 42
+- PARTIALLY_SUPPORTED: 131
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 25
-- Remaining author queue: 1,203
+- Other allowed author decisions: 27
+- Remaining author queue: 1,195
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -450,6 +450,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-037.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **196 / 1,399**; remaining: **1,203**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 126, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 25. Next pending claim by priority: `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` (海華).
+
+## Author batch `author-038` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (海華 3694, 合勤控 3704, 台聯電 4905 ×2, 振曜 6143 ×4). Evidence came from directly downloaded and inspected official disclosures: 研華113年度年報、合勤控官方新聞稿、台聯電113年第4季個體財務報告、振曜2024永續報告書與2025年法人說明會簡報。
+- `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` — `PARTIALLY_SUPPORTED`. 研華113年度年報「採用權益法之投資」附註載：「海華於民國112年第3季將買回之限制員工權利新股註銷減資，致本集團持股比例從19.38%增加至19.39%，另本集團於民國112年第4季以現金$1,445處分海華部分股權，其持股比例從19.39%下降至19.37%」——即研華持股約 **19.37%**，與 claim 之「約佔10%股權」不符；年報並列「海華科技股份有限公司(海華)」於關聯企業份額表（帳面金額775,429仟元）。另年報載研華為艾訊、融程、華電網、鴻呈、旭人科技及恒商之單一最大股東，海華不在該名單。惟和碩集團歸屬、工業物聯網與 PC 代工出海口、筆電與電競品牌通路「市佔率高達五成」等均未載於查閱文件。
+- `3704:objective_ranking_or_market_share:f2f3c18024370d07` — `ACCEPTED`. 合勤控官方新聞稿（2026-02-24）標題為「合勤控蟬聯入選標普全球永續年鑑 **獲全球通訊設備產業第一**」，內文載其「榮獲通訊設備產業（Communications Equipment）前 Top 1% 榮譽」，與 claim 相符（官方類別用語為通訊設備）。
+- `4905:objective_ranking_or_market_share:4172615a2601a106` 與 `f8236f9419738a17` — `PARTIALLY_SUPPORTED`. 台聯電113年第4季個體財報第36頁註3載其對欣德芮持股達61.36%、「經評估對該公司具有控制力，自該日起成為本公司之投資子公司」，支持「子公司欣德芮」；註4則載其對達亞國際持股23.66%、取得一席董事、具重大影響力並改採權益法認列（第37頁列為「投資關聯企業」）。惟財報未載欣德芮「擴廠」，亦未載台聯電為達亞國際之單一最大股東（該報告僅就艾訊、融程、華電網、鴻呈、旭人科技及恒商等公司載明其為單一最大股東）。
+- `6143:objective_ranking_or_market_share:eacb93af3612d24a` 與 `55422f78287ce5eb` — `PARTIALLY_SUPPORTED`. 振曜2024年永續報告第6頁載其成立於1997年、自2008年起投入電子書開發、提供 ODM 與 OEM 服務，並載「現為電子書閱讀器代工之領導廠商」，第21頁載電子書閱讀器出貨成長58%；惟「為全球最大電子書閱讀器代工製造廠」未獲支持——兩份官方文件「全球最大」出現次數均為0。
+- `6143:objective_ranking_or_market_share:93413fcf26dee269` 與 `73dfb069f9845e04` — `UNKNOWN_AFTER_RESEARCH`. 振曜2024年永續報告與2025年法人說明會簡報均未具名任何客戶，「Kobo」「樂天」「Rakuten」「Amazon」出現次數均為0，故最大單一（代工）客戶身分未獲確立。
+- Proposed wording is recorded for the partial claims in `semantic/author-038.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **204 / 1,399**; remaining: **1,195**. Outcome counts: ACCEPTED 42, PARTIALLY_SUPPORTED 131, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 27. Next pending claim by priority: `6216:objective_ranking_or_market_share:35cb5307cb38ee31` (居易).
+
 
 
 

@@ -1,0 +1,233 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-038",
+  "reviewed_at": "2026-10-05T17:07:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (研華113年度年報; 合勤控官方新聞稿; 台聯電113年第4季個體財務報告; 振曜2024永續報告書與2025年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3694:objective_ranking_or_market_share:411bb8cf29a1b2fb",
+      "normalized_claim_hash": "411bb8cf29a1b2fba22e3c448326ba333e07e9436e2f1d110bbf9b596fb82881",
+      "ticker": "3694",
+      "company": "海華",
+      "path": "Pilot_Reports/Communication Equipment/3694_海華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "極度高度仰賴其背靠之[[和碩]]集團與超大型 IPC 龍頭 [[研華]] (約佔 10% 股權) 兩大富爸爸所帶來之工業物聯網與龐大 PC 代工出海口，並長期穩定且大量供貨給全球市佔最高之筆電與電競品牌通路 (市佔率高達驚人的五成)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://advcloudfiles.advantech.com/investor/Shareholder-Annual-Report/113/1.pdf",
+          "title": "研華股份有限公司（研華，2395）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度（含112年度比較資訊）；持股比例變動敘述截至112年第4季。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域（advantech.com）下載並以 PDF 文字檢視。年報「採用權益法之投資」附註載：「(12)海華於民國112年第3季將買回之限制員工權利新股註銷減資，致本集團持股比例從19.38%增加至19.39%，另本集團於民國112年第4季以現金$1,445處分海華部分股權，其持股比例從19.39%下降至19.37%。」另載「本集團分別為艾訊、融程、華電網、鴻呈、旭人科技及恒商等公司之單一最大股東」，海華不在該名單內。關聯企業份額表中列「海華科技股份有限公司(海華)」帳面金額775,429仟元（112年度）。"
+        }
+      ],
+      "rationale": "「研華持有海華股權」獲研華113年度年報支持，但持股比例與 claim 不符：年報「採用權益法之投資」附註載研華對海華之持股於民國112年第3季由19.38%增至19.39%、第4季處分部分股權後降至19.37%，即約**19.37%**，而非 claim 所稱之「約佔10%股權」。另年報關聯企業份額表亦列「海華科技股份有限公司(海華)」帳面金額775,429仟元。惟多項陳述未獲支持：(1)「背靠和碩集團」——查閱之研華年報未載海華之集團歸屬（本批次未能取得和碩／海華自身之官方年報）；(2)「兩大富爸爸帶來工業物聯網與龐大 PC 代工出海口」——屬評價性敘述，年報未載；(3)「長期穩定供貨給全球市佔最高之筆電與電競品牌通路（市佔率高達五成）」——年報未載海華之客戶別或市占率。故部分成立。",
+      "proposed_text": "[[研華]]（2395）持有海華科技約 19.37% 股權（113年度年報採權益法之投資附註）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3704:objective_ranking_or_market_share:f2f3c18024370d07",
+      "normalized_claim_hash": "f2f3c18024370d07c4dbf6fe60f4760f8c233c4b506fbf2d7d2d3fb1aa9a9056",
+      "ticker": "3704",
+      "company": "合勤控",
+      "path": "Pilot_Reports/Communication Equipment/3704_合勤控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司 2026 年獲選入 S&P Global 永續年鑑，在全球電信設備製造商中排名第一。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.zyxelgroup.com/Press_Room&show_type=D&id=296",
+          "title": "合勤投控（合勤控，3704）官方新聞稿「合勤控蟬聯入選標普全球永續年鑑 獲全球通訊設備產業第一」（2026-02-24）",
+          "source_level": 3,
+          "period_binding": "2026年2月24日發布；評鑑年度為 S&P Global Sustainability Yearbook 2026。",
+          "accessed_at": "2026-10-06",
+          "note": "直接開啟發行人官方網站新聞室頁面（HTTP 200）。標題載「合勤控蟬聯入選標普全球永續年鑑 獲全球通訊設備產業第一」；內文載「蟬聯入選國際知名－標普全球永續年鑑（The S&P Global Sustainability Yearbook 2026），榮獲通訊設備產業（Communications Equipment）前 Top 1% 榮譽」，並載2025年超過9,200家公司受評、僅848家入選。"
+        }
+      ],
+      "rationale": "claim 獲發行人官方新聞稿直接支持：標題即為「合勤控蟬聯入選標普全球永續年鑑 獲全球通訊設備產業第一」（2026-02-24），內文並載其「蟬聯入選…標普全球永續年鑑（The S&P Global Sustainability Yearbook 2026），榮獲通訊設備產業（Communications Equipment）前 Top 1% 榮譽」。官方用語之產業類別為「通訊設備（Communications Equipment）」，與 claim 之「電信設備」屬同一類別之不同譯法；「排名第一」與官方標題之「獲全球通訊設備產業第一」一致。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4905:objective_ranking_or_market_share:4172615a2601a106",
+      "normalized_claim_hash": "4172615a2601a106ccc7c82b898d1186c9cee7d4517952f84d7461993a5acd90",
+      "ticker": "4905",
+      "company": "台聯電",
+      "path": "Pilot_Reports/Communication Equipment/4905_台聯電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "子公司欣德芮持續擴廠，並取得生技公司達亞 (6762) 最大股東地位。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tainet.com.tw/wp-content/uploads/24Q4_%E5%8F%B0%E8%81%AF%E5%80%8B%E9%AB%94_%E8%B2%A1%E5%A0%B1%E7%94%A8%E5%8D%B0v0328.pdf",
+          "title": "台聯電訊股份有限公司（台聯電，4905）民國113年第4季個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國113年度（截至113年12月31日）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第36頁附註載：「註3：…於民國113年1月26日向非關係人購入欣德芮(股)公司1,232千股…本公司對欣德芮(股)公司之持股比例達61.36%。本公司經評估對該公司具有控制力，自該日起成為本公司之投資子公司」；「註4：…於增加前述持股後，對達亞國際(股)公司之持股總股數達6,124千股，比例達23.66%，後續並取得該公司一席董事席位。本公司經評估對該公司具有重大影響力，遂改以『採權益法之投資』…進行認列」。第37頁載「投資關聯企業：A. 公司名稱：達亞國際(股)公司…集團持股比例23.66%」，並載其於證券櫃檯買賣中心上櫃、113及112年底公允價值分別1,969,314仟元及1,647,474仟元。第76頁附表五列欣德芮持股61.36%、達亞國際23.66%。全份報告未載欣德芮「擴廠」之敘述，亦未載台聯電為達亞國際最大股東。"
+        }
+      ],
+      "rationale": "「子公司欣德芮」獲發行人個體財報支持：第36頁註3載台聯電於民國113年1月26日購入欣德芮持股後比例達61.36%，並載「本公司經評估對該公司具有控制力，自該日起成為本公司之投資子公司」。惟兩項陳述未獲支持：(1)「欣德芮持續擴廠」——查閱之財務報告未載擴廠計畫或資本支出擴充敘述；(2)「取得生技公司達亞(6762)最大股東地位」——財報第36頁註4及第37頁載其對達亞國際持股23.66%、取得一席董事、具重大影響力並採權益法認列（即屬關聯企業而非子公司），但全份報告未載其為達亞之最大股東（且達亞國際之主要業務為醫療器材製造與銷售）。故部分成立。",
+      "proposed_text": "台聯電子公司欣德芮（持股 61.36%）持續營運；另台聯電持有達亞國際 (6762) 23.66% 股權並取得一席董事，採權益法認列。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4905:objective_ranking_or_market_share:f8236f9419738a17",
+      "normalized_claim_hash": "f8236f9419738a17c0e6500d00ed9f137b10ffa4020cfdbb0e7293dc5f178f8d",
+      "ticker": "4905",
+      "company": "台聯電",
+      "path": "Pilot_Reports/Communication Equipment/4905_台聯電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達亞 (6762，生技公司最大股東)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tainet.com.tw/wp-content/uploads/24Q4_%E5%8F%B0%E8%81%AF%E5%80%8B%E9%AB%94_%E8%B2%A1%E5%A0%B1%E7%94%A8%E5%8D%B0v0328.pdf",
+          "title": "台聯電訊股份有限公司（台聯電，4905）民國113年第4季個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國113年度（截至113年12月31日）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第36頁附註載：「註3：…於民國113年1月26日向非關係人購入欣德芮(股)公司1,232千股…本公司對欣德芮(股)公司之持股比例達61.36%。本公司經評估對該公司具有控制力，自該日起成為本公司之投資子公司」；「註4：…於增加前述持股後，對達亞國際(股)公司之持股總股數達6,124千股，比例達23.66%，後續並取得該公司一席董事席位。本公司經評估對該公司具有重大影響力，遂改以『採權益法之投資』…進行認列」。第37頁載「投資關聯企業：A. 公司名稱：達亞國際(股)公司…集團持股比例23.66%」，並載其於證券櫃檯買賣中心上櫃、113及112年底公允價值分別1,969,314仟元及1,647,474仟元。第76頁附表五列欣德芮持股61.36%、達亞國際23.66%。全份報告未載欣德芮「擴廠」之敘述，亦未載台聯電為達亞國際最大股東。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「達亞 (6762，生技公司最大股東)」）。台聯電持有達亞國際23.66%股權一事獲財報支持（第37頁「集團持股比例23.66%」），達亞國際亦確為上櫃之醫療器材製造與銷售公司。惟「最大股東」之身分未獲支持：財報未載台聯電為達亞國際之單一最大股東（該報告在同段落僅就艾訊、融程、華電網、鴻呈、旭人科技及恒商等公司載明台聯電為單一最大股東，未包含達亞國際）。故部分成立。",
+      "proposed_text": "台聯電持有[[達亞]]國際 (6762) 23.66% 股權，為採權益法認列之關聯企業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6143:objective_ranking_or_market_share:eacb93af3612d24a",
+      "normalized_claim_hash": "eacb93af3612d24a9c176dd7939680717d95732c814cb42d8e22b9503fa035b5",
+      "ticker": "6143",
+      "company": "振曜",
+      "path": "Pilot_Reports/Communication Equipment/6143_振曜.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "振曜科技 (6143，[[Netronix]]) 為全球最大電子書閱讀器 (e-Reader) 代工製造廠，具備強大軟硬體整合能力，專精於電子紙 ([[E Ink]]) 應用技術。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
+          "title": "振曜科技股份有限公司（振曜，6143）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載振曜成立於1997年、總部設於新竹縣竹北市，主要營業項目為通訊傳輸設備、工業用電腦、電聲元件、電子書等之設計製造，「自2008年起投入電子書開發」，提供 ODM 與 OEM 服務，「現為電子書閱讀器代工之領導廠商」。第21頁載「產品電子書閱讀器出貨大幅成長58%」。全份報告中「全球最大」「Kobo」「樂天」「Amazon」之出現次數均為0；「E Ink」「元太」相關字樣出現2次（屬電子紙技術描述）。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/614320250225M001.pdf",
+          "title": "振曜科技股份有限公司（6143）法人說明會簡報（2025-02-25）",
+          "source_level": 3,
+          "period_binding": "2025年初現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁載「電子書閱讀器訂單持續成長」、「客戶市占率提昇，市場需求強勁」。簡報篇幅精簡，未載「全球最大」、未具名任何客戶（無 Kobo 字樣），亦未載市占率數字。"
+        }
+      ],
+      "rationale": "「電子書閱讀器代工製造廠、專精電子紙應用」獲發行人永續報告支持：第6頁載其成立於1997年、自2008年起投入電子書開發，提供 ODM 與 OEM 服務，並載「現為電子書閱讀器代工之領導廠商」；第21頁載電子書閱讀器出貨大幅成長58%；2025年簡報第3頁載「電子書閱讀器訂單持續成長」。惟「為全球最大電子書閱讀器代工製造廠」未獲支持：永續報告與簡報中「全球最大」出現次數均為0，官方用語為「代工之領導廠商」。故部分成立。",
+      "proposed_text": "振曜科技 (6143，Netronix) 自 2008 年起投入電子書開發，為電子書閱讀器代工之領導廠商，專精電子紙應用。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6143:objective_ranking_or_market_share:55422f78287ce5eb",
+      "normalized_claim_hash": "55422f78287ce5ebfd3ed12795dbfeccea8dd354a324bd2c54416e8609e4aae3",
+      "ticker": "6143",
+      "company": "振曜",
+      "path": "Pilot_Reports/Communication Equipment/6143_振曜.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**振曜** (全球最大非 [[Amazon]] 電子書組裝廠)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
+          "title": "振曜科技股份有限公司（振曜，6143）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載振曜成立於1997年、總部設於新竹縣竹北市，主要營業項目為通訊傳輸設備、工業用電腦、電聲元件、電子書等之設計製造，「自2008年起投入電子書開發」，提供 ODM 與 OEM 服務，「現為電子書閱讀器代工之領導廠商」。第21頁載「產品電子書閱讀器出貨大幅成長58%」。全份報告中「全球最大」「Kobo」「樂天」「Amazon」之出現次數均為0；「E Ink」「元太」相關字樣出現2次（屬電子紙技術描述）。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「振曜（全球最大非 Amazon 電子書組裝廠）」）。其電子書閱讀器組裝與代工業務獲支持（永續報告第6頁載 ODM/OEM 服務與「電子書閱讀器代工之領導廠商」）；惟「全球最大」與「非 Amazon」之區隔均未獲支持：報告中「全球最大」出現次數為0，「Amazon」亦為0，官方未以排除 Amazon 後之最大組裝廠自稱。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6143:objective_ranking_or_market_share:93413fcf26dee269",
+      "normalized_claim_hash": "93413fcf26dee26972d7c26d8a4d47b4f86b3b2277f93984be36bf3f02fd8098",
+      "ticker": "6143",
+      "company": "振曜",
+      "path": "Pilot_Reports/Communication Equipment/6143_振曜.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一客戶",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
+          "title": "振曜科技股份有限公司（振曜，6143）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載振曜成立於1997年、總部設於新竹縣竹北市，主要營業項目為通訊傳輸設備、工業用電腦、電聲元件、電子書等之設計製造，「自2008年起投入電子書開發」，提供 ODM 與 OEM 服務，「現為電子書閱讀器代工之領導廠商」。第21頁載「產品電子書閱讀器出貨大幅成長58%」。全份報告中「全球最大」「Kobo」「樂天」「Amazon」之出現次數均為0；「E Ink」「元太」相關字樣出現2次（屬電子紙技術描述）。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/614320250225M001.pdf",
+          "title": "振曜科技股份有限公司（6143）法人說明會簡報（2025-02-25）",
+          "source_level": 3,
+          "period_binding": "2025年初現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁載「電子書閱讀器訂單持續成長」、「客戶市占率提昇，市場需求強勁」。簡報篇幅精簡，未載「全球最大」、未具名任何客戶（無 Kobo 字樣），亦未載市占率數字。"
+        }
+      ],
+      "rationale": "「Kobo（Rakuten 樂天集團）為最大單一客戶」未獲確立：振曜2024年永續報告與2025年法人說明會簡報均未具名任何客戶，兩份文件中「Kobo」「樂天」「Rakuten」出現次數均為0（報告中「客戶」多為通稱）。故客戶身分既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6143:objective_ranking_or_market_share:73dfb069f9845e04",
+      "normalized_claim_hash": "73dfb069f9845e0424c4a4b3e9d3aed1ee515ff2f5ed382432fee5ce6df0bdd5",
+      "ticker": "6143",
+      "company": "振曜",
+      "path": "Pilot_Reports/Communication Equipment/6143_振曜.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一代工客戶",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
+          "title": "振曜科技股份有限公司（振曜，6143）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載振曜成立於1997年、總部設於新竹縣竹北市，主要營業項目為通訊傳輸設備、工業用電腦、電聲元件、電子書等之設計製造，「自2008年起投入電子書開發」，提供 ODM 與 OEM 服務，「現為電子書閱讀器代工之領導廠商」。第21頁載「產品電子書閱讀器出貨大幅成長58%」。全份報告中「全球最大」「Kobo」「樂天」「Amazon」之出現次數均為0；「E Ink」「元太」相關字樣出現2次（屬電子紙技術描述）。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/614320250225M001.pdf",
+          "title": "振曜科技股份有限公司（6143）法人說明會簡報（2025-02-25）",
+          "source_level": 3,
+          "period_binding": "2025年初現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁載「電子書閱讀器訂單持續成長」、「客戶市占率提昇，市場需求強勁」。簡報篇幅精簡，未載「全球最大」、未具名任何客戶（無 Kobo 字樣），亦未載市占率數字。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「Kobo（Rakuten 樂天集團）— 最大單一代工客戶」）。查閱之官方文件未具名任何客戶，「Kobo」「樂天」「Rakuten」出現次數均為0，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
