@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **60 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), and `author-020` (8).
+Author-reviewed: **70 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), and `author-021` (10).
 
-- ACCEPTED by author: 17
-- PARTIALLY_SUPPORTED: 37
+- ACCEPTED by author: 23
+- PARTIALLY_SUPPORTED: 41
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 2
-- Remaining author queue: 1,339
+- Remaining author queue: 1,329
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -228,6 +228,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - 方法註記：本批次首次發現需以「市場佔有率」等變體字串檢索，先前以「市佔／市占」檢索大億年報得到零命中，改用「佔有率」後取得官方80%之數字；後續批次將以多變體檢索，避免漏檢。
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **60 / 1,399**; remaining: **1,339**. Outcome counts: ACCEPTED 17, PARTIALLY_SUPPORTED 37, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` (車王電).
+
+## Author batch `author-021` — 2026-10-05
+
+- Reviewed the next ten unreviewed objective ranking/market-share claims in checkpoint order (車王電 1533, 和大 1536 ×3, 巧新 1563, 正新 2105, 建大 2106, 鑫永銓 2114 ×3). Evidence came from directly downloaded and inspected official disclosures: 車王電112年度年報、和大114年度年報與2026法說會簡報、德國 IHK Weltmarktführer OTTO FUCHS 條目、正新2022永續報告書與2025Q4法說會簡報、建大2022永續報告書、鑫永銓2024法說會簡報。
+- `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` — `PARTIALLY_SUPPORTED`. 車王電112年度年報第184頁載設立於民國71年7月19日、主要營業項目為汽車用引擎傳動控制系統（電子點火器、電壓調整器及整流器），支持逾41年與引擎電子零組件業務；惟年報未使用「唯一」描述其地位，亦無市場結構證據支持台灣唯一。
+- `1536:objective_ranking_or_market_share:0a8bd467b7db2e7b` — `ACCEPTED`. 和大2026法說會簡報第2頁標題「TAIWAN TOP 1 GEAR MAKER」，113年度年報第62頁載「更為國內汽車齒輪產業第一把交椅」，114年度年報第67頁載其為台灣第一家外銷國外OEM之（齒輪軸類）上市公司。
+- `1536:objective_ranking_or_market_share:cce96a49ba94ccaf` 與 `fd8ac95e7e36addc` — `PARTIALLY_SUPPORTED`. 和大114年度年報第71頁以代號揭露第一大銷貨客戶（甲公司）占銷貨淨額113年度43.94%、114年度51.19%，高度集中之事實成立；惟全份年報無 BorgWarner 字樣（客戶一律以代號表示），且「約40%」低於官方43.94%／51.19%。油泵齒輪與扭力轉換系統零組件之產品別則獲年報支持。
+- `1563:objective_ranking_or_market_share:a0f33eff27b93300` — `ACCEPTED`. 德國工商會（IHK）「世界市場領導者」名錄之 OTTO FUCHS KG 條目明載「We are the world market leader in forged wheels, chassis parts and synchronizer rings for the automotive industry」，產品欄首位為 Forged wheels，總部位於德國 Meinerzhagen。
+- `2105:objective_ranking_or_market_share:daa2ec046bdc0d7f` — `PARTIALLY_SUPPORTED`. 正新2022永續報告第8頁載「正新為華人地區最大的輪胎專業製造公司，營業額持續維持台灣第一」、外銷比73%、行銷逾180國；惟永續報告與2025Q4法說會簡報均未載全球輪胎廠排名，「全球前十大」未獲確立。
+- `2106:objective_ranking_or_market_share:0bd79cfdcec25a2d` — `ACCEPTED`. 建大2022永續報告第12頁載「以自有品牌KENDA 行銷全球，現已成為台灣第2大、全球第26大的輪胎廠」。
+- `2114:objective_ranking_or_market_share:1bcf873b591901ce`、`83a4decf054d606c`、`7279073e1958fd1e` — `ACCEPTED` ×3. 鑫永銓2024法說會簡報第22頁載其開發製造之橡皮壩「已成功打入日本市場，目前為日本第一大進口製造廠」，並載橡皮壩屬水利應用（含小水力發電、國內多項水利工程實績）。
+- Proposed wording is recorded for the partial claims in `semantic/author-021.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **70 / 1,399**; remaining: **1,329**. Outcome counts: ACCEPTED 23, PARTIALLY_SUPPORTED 41, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `2115:objective_ranking_or_market_share:62d5c63efe920f40` (六暉-KY).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 20:04 UTC
+Updated: 2026-10-05 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **60 / 1,399**
-- Remaining author review: **1,339**
-- Latest batch: **author-020** (8 claims)
+- Author-reviewed: **70 / 1,399**
+- Remaining author review: **1,329**
+- Latest batch: **author-021** (10 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **17**
-- `PARTIALLY_SUPPORTED`: **37**
+- `ACCEPTED`: **23**
+- `PARTIALLY_SUPPORTED`: **41**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,15 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1521:objective_ranking_or_market_share:b0344d1922014380` — `PARTIALLY_SUPPORTED`; 大億114年度年報第57頁「市場佔有率：國內約為80%」、112年度年報第71頁「國內為80%」，支持OEM車燈龍頭與高市占；惟 claim 所述「72%」與官方80%不符。
-- `1522:objective_ranking_or_market_share:c39cb97e670a83a1` — `PARTIALLY_SUPPORTED`; 堤維西2023永續報告第22頁載其為「全球領先OEM車廠及AM售服市場的夥伴與供應商之一」、TYC品牌行銷全球130多國；惟「北美AM車燈市佔約12%」與「全球前五大」均未見於官方來源。
-- `1522:objective_ranking_or_market_share:9f7b131fa64ec7b2` — `PARTIALLY_SUPPORTED`; 官方簡報僅載TYC自建北美發貨倉，未具名 LKQ 等經銷商，亦無12%市佔數字。
-- `1524:objective_ranking_or_market_share:37a66df6e8c59992`、`3fdf0568b0589c62`、`7bfdfa0fb2fba733` — `PARTIALLY_SUPPORTED` ×3; 耿鼎112年度年報第9頁載105年獲 LKQ 供應商評估獎（LKQ為客戶），第57頁載其為北美AM鈑金件最主要供應商之一；惟第59頁銷貨客戶表以代號揭露（最大客戶為客戶A、24.66%），未具名 LKQ，且無「市佔近40%」（相關40.6%為耿鼎自身北美銷售占比）。
-- `1525:objective_ranking_or_market_share:fd492ed31d1ccf47`、`67775914202401b9` — `PARTIALLY_SUPPORTED` ×2; 江申2019 CSR第10頁載其為「國內目前最大商用車車架生產公司」、涵蓋3.5噸~35噸及巴士底盤，年報公司沿革載車架供應國瑞與中華；惟年報僅載車架「屬寡占產品」、木床市場占有率90%，無車架市占100%。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-020.json`。未修改發行人報告。
-- Next pending claim by priority: `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` (車王電).
+- `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` — `PARTIALLY_SUPPORTED`; 車王電112年度年報第184頁載設立於民國71年、主要業務為汽車引擎傳動控制系統（電子點火器、電壓調整器及整流器），支持逾41年與引擎零組件業務；惟年報未以「唯一」描述其地位。
+- `1536:objective_ranking_or_market_share:0a8bd467b7db2e7b` — `ACCEPTED`; 和大2026法說會簡報標題「TAIWAN TOP 1 GEAR MAKER」，113年度年報載其為「國內汽車齒輪產業第一把交椅」。
+- `1536:objective_ranking_or_market_share:cce96a49ba94ccaf`、`fd8ac95e7e36addc` — `PARTIALLY_SUPPORTED` ×2; 和大114年度年報第71頁以代號揭露第一大銷貨客戶（甲公司）占銷貨淨額113年度43.94%、114年度51.19%；惟全篇無 BorgWarner 字樣，且「約40%」低於官方數字。
+- `1563:objective_ranking_or_market_share:a0f33eff27b93300` — `ACCEPTED`; 德國 IHK「世界市場領導者」名錄 OTTO FUCHS 條目載其為汽車鍛造輪圈、底盤零件及同步環之世界市場領導者（產品欄首位為 Forged wheels，總部 Meinerzhagen）。
+- `2105:objective_ranking_or_market_share:daa2ec046bdc0d7f` — `PARTIALLY_SUPPORTED`; 正新2022永續報告第8頁載「華人地區最大的輪胎專業製造公司，營業額持續維持台灣第一」；惟永續報告與2025Q4法說會簡報均未載全球輪胎廠排名。
+- `2106:objective_ranking_or_market_share:0bd79cfdcec25a2d` — `ACCEPTED`; 建大2022永續報告第12頁載「以自有品牌KENDA行銷全球，現已成為台灣第2大、全球第26大的輪胎廠」。
+- `2114:objective_ranking_or_market_share:1bcf873b591901ce`、`83a4decf054d606c`、`7279073e1958fd1e` — `ACCEPTED` ×3; 鑫永銓2024法說會第22頁載其橡皮壩「已成功打入日本市場，目前為日本第一大進口製造廠」。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-021.json`。未修改發行人報告。
+- Next pending claim by priority: `2115:objective_ranking_or_market_share:62d5c63efe920f40` (六暉-KY).
 
 ## Source access
 

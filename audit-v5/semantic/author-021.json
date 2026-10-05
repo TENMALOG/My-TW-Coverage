@@ -1,0 +1,275 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-021",
+  "reviewed_at": "2026-10-05T15:32:15Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (車王電子112年度年報; 和大工業114年度年報與2026法人說明會簡報; 德國IHK Weltmarktführer OTTO FUCHS條目; 正新橡膠2022永續報告書與2025Q4法說會簡報; 建大工業2022永續報告書; 鑫永銓2024法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1533:objective_ranking_or_market_share:7a6d45cabd1f1a81",
+      "normalized_claim_hash": "7a6d45cabd1f1a814f1ca4a5c5f7be1f4af7a9450763221c1fd840b229eb351c",
+      "ticker": "1533",
+      "company": "車王電",
+      "path": "Pilot_Reports/Auto Parts/1533_車王電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "車王電子 (1533，Mobiletron Electronics) 深耕汽車電子逾 41 年，為台灣唯一引擎關鍵零組件製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.more.com.tw/Investor/Download?filename=zh2024_meeting_report3.pdf",
+          "title": "車王電子股份有限公司 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023）；公司設立日為民國71年7月19日。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第184及281頁載「車王電子股份有限公司…設立於民國71年7月19日」，主要營業項目為「汽車用引擎傳動控制系統(電子點火器、電壓調整器及整流器)及車用安全系統」。第103及121頁載其汽車電子零組件以電子點火模組為主，功能在控制點火線圈、提供正確點火能量及角度送入引擎室。全份年報未出現「台灣唯一」或類似排他性陳述；「唯一」在年報中之出現處與本 claim 無關。"
+        }
+      ],
+      "rationale": "車王電以汽車引擎傳動控制系統（電子點火器、電壓調整器、整流器）為主要營業項目一節獲發行人年報支持，且公司設立於民國71年（1982），至年報所屬112年度已逾41年，故「深耕汽車電子逾41年」與其引擎電子零組件業務可獲支持。惟「台灣唯一引擎關鍵零組件製造商」此一排他性最高級陳述未獲年報支持：年報未使用「唯一」描述其業務地位，亦未提供可據以認定其為台灣唯一引擎關鍵零組件製造商之市場結構證據。故部分成立。",
+      "proposed_text": "車王電子 (1533，Mobiletron) 深耕汽車電子逾 40 年，主要業務為汽車引擎傳動控制系統（電子點火器、電壓調整器及整流器）等關鍵零組件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:objective_ranking_or_market_share:0a8bd467b7db2e7b",
+      "normalized_claim_hash": "0a8bd467b7db2e7b193aa5d65973cea10504dbdf666ea5845dee2a2562154fab",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "和大工業 (1536，Hota Industrial) 為台灣最大汽車齒輪與傳動零件製造商。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf",
+          "title": "和大工業股份有限公司 法人說明會簡報（2026-07-22）",
+          "source_level": 3,
+          "period_binding": "2026年7月現況；公司成立於1966年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人官方簡報。第2及3頁標題載「TAIWAN TOP 1 GEAR MAKER · PRODUCE >20 MILLION PIECES/YEAR · OVER 60 YEARS KNOW-HOW」，並載「和大成立於1966年，於2001年成功上市」、「核心競爭力在於高精密傳動系統零組件之設計與製造」、「為歐美日車廠之一階供應商」。第4頁載應用別：汽車85%、機車4%、其他11%。"
+        },
+        {
+          "url": "https://www.hota.com.tw/upload/25/114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "和大工業股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第67頁「市場佔有率」載「本公司114年度生產之汽機車齒輪及軸類佔國內汽車零組件市場總產值約2.19%，而汽車齒輪及軸類係目前台灣第一家外銷國外OEM之上市公司」；113年度年報第62頁載其「更為國內汽車齒輪產業第一把交椅」。第64頁載其為傳動系統專業製造商，且為「目前將零件銷至歐美O.E.M廠比例最高之傳動系統專業製造廠」。"
+        }
+      ],
+      "rationale": "和大為台灣最大汽車齒輪與傳動零件製造商一節獲發行人官方來源支持：2026年法說會簡報以「TAIWAN TOP 1 GEAR MAKER」為標題，113年度年報載其為「國內汽車齒輪產業第一把交椅」，114年度年報載其為「台灣第一家外銷國外OEM之上市公司」及「將零件銷至歐美O.E.M廠比例最高之傳動系統專業製造廠」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:objective_ranking_or_market_share:cce96a49ba94ccaf",
+      "normalized_claim_hash": "cce96a49ba94ccafa130d765c49ed31099ec2174348ca22476ebeecea0d70ec9",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "第一大客戶[[BorgWarner]] (佔營收約 40%)，透過其出貨油泵齒輪及扭力轉換系統。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.hota.com.tw/upload/25/114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "和大工業股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第71頁「最近二年度主要銷貨客戶資料」以代號揭露：113年度甲公司占銷貨淨額43.94%、乙公司18.94%；114年度甲公司51.19%、乙公司16.55%；115年度截至第一季止甲公司54.61%。全份年報（含113與114年度）中 BorgWarner 出現次數為 0，年報未具名任何客戶，亦未出現「40%」之客戶占比數字。第65頁載其與「變速箱組裝大廠A公司」、「美國B公司」（扭力轉換系統）、「美國C公司」（油泵齒輪）等協同研發，均以代號表示。"
+        }
+      ],
+      "rationale": "「第一大客戶」之存在與集中度可獲年報支持：114年度年報第71頁以代號揭露第一大銷貨客戶（甲公司）占銷貨淨額51.19%（113年度為43.94%）。惟兩點未獲支持：(1) 客戶身分——和大年報全篇未出現 BorgWarner，客戶一律以代號表示，故「第一大客戶為BorgWarner」未獲官方來源確立；(2) 占比數字——官方揭露之第一大客戶占比為113年度43.94%、114年度51.19%，claim 所述「約40%」低於官方兩個年度的數字。故就第一大客戶與高度集中之事實成立，就其具名與40%數字不成立。",
+      "proposed_text": "第一大客戶（年報以代號揭露）佔營收逾四成，透過其出貨油泵齒輪及扭力轉換系統。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:objective_ranking_or_market_share:fd8ac95e7e36addc",
+      "normalized_claim_hash": "fd8ac95e7e36addcacfe3fb514c2f0e79481187072af8ef4e9a895b8412d9da4",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[BorgWarner]] (第一大，40%) — 油泵齒輪/扭力轉換",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.hota.com.tw/upload/25/114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "和大工業 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度及113年度。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 cce96a49ba94ccaf 相同之揭露：第71頁以代號A（甲公司）揭露第一大銷貨客戶占比113年度43.94%、114年度51.19%；年報全篇無 BorgWarner 字樣。第63及71頁載其產品包含「油泵齒輪及軸類」與「扭力轉換系統」零組件，且第78頁研發項目列「美國汽車扭力轉換系統零組件」與「美國產業機械之油泵齒輪」。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「BorgWarner（第一大，40%）— 油泵齒輪/扭力轉換」）。產品別（油泵齒輪、扭力轉換系統零組件）獲年報支持；第一大客戶之高度集中（43.94%→51.19%）亦獲支持；惟客戶具名（BorgWarner）未獲官方來源確立，40%之數字亦與官方43.94%／51.19%不符。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1563:objective_ranking_or_market_share:a0f33eff27b93300",
+      "normalized_claim_hash": "a0f33eff27b93300267ea7687b34c13f784728f1503e93613d400261e35d4921",
+      "ticker": "1563",
+      "company": "巧新",
+      "path": "Pilot_Reports/Auto Parts/1563_巧新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Otto Fuchs]] — 全球第一大鍛造輪圈廠 (德國)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://weltmarktfuehrer-sw.de/en/unternehmen/otto-fuchs/",
+          "title": "IHK Weltmarktführer（德國工商會「世界市場領導者」名錄）：OTTO FUCHS KG",
+          "source_level": 2,
+          "period_binding": "名錄現行條目；所載銷售額為2023年（13億歐元）、員工5,104人；公司成立於1910年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視德國工商會（IHK）「世界市場領導者」名錄之 OTTO FUCHS 條目。原文載：「OTTO FUCHS KG — We are the world market leader in forged wheels, chassis parts and synchronizer rings for the automotive industry.」WORLD MARKET LEADER PRODUCT/S 欄列「Forged wheels, chassis parts and synchronizer rings」，Location 為 Meinerzhagen（德國），並載 1910 年成立、1963 年導入鍛造鋁輪圈、2023 年銷售額13億歐元。此為德國官方工商會之世界市場領導者名錄，支持 OTTO FUCHS 為鍛造輪圈之世界市場領導者。"
+        }
+      ],
+      "rationale": "claim 敘述「Otto Fuchs — 全球第一大鍛造輪圈廠（德國）」獲德國工商會（IHK）「世界市場領導者」名錄直接支持：該名錄明載 OTTO FUCHS KG 為汽車產業鍛造輪圈、底盤零件及同步環之世界市場領導者，產品欄首位即為「Forged wheels」，公司位於德國 Meinerzhagen。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2105:objective_ranking_or_market_share:daa2ec046bdc0d7f",
+      "normalized_claim_hash": "daa2ec046bdc0d7f53225ae92621fec1cabb8166a168371d5beb2b7f8b37dfb3",
+      "ticker": "2105",
+      "company": "正新",
+      "path": "Pilot_Reports/Auto Parts/2105_正新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "正新橡膠 (2105，Cheng Shin Rubber) 為台灣最大輪胎集團，全球前十大輪胎廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2105_111.pdf",
+          "title": "正新橡膠工業股份有限公司 永續報告書（該端點於查證日回傳之2022年CSR報告，報告書編號 CST ESG 2022）",
+          "source_level": 3,
+          "period_binding": "2022年度資料；外銷比例與銷售國家數為報告書所載期間。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視。第8頁載「正新為華人地區最大的輪胎專業製造公司，營業額持續維持台灣第一」，並載外銷比例佔總銷售額73%、銷售全球超過180個國家、以MAXXIS、CST、PRESA等多品牌銷售。全報告未出現「全球前十大」或任何全球輪胎廠排名之陳述。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/210520260330M001.pdf",
+          "title": "正新橡膠工業股份有限公司 2025年第四季法人說明會簡報（2026-03-31）",
+          "source_level": 3,
+          "period_binding": "2025年全年；產能基準日2025-12-31。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人官方簡報。第6頁載成立於1969年12月19日、2022年營收NTD 986億、11座生產據點橫跨六國；第8頁載集團日產能1,432千條。全份簡報未載全球輪胎廠排名或「全球前十大」之陳述。"
+        }
+      ],
+      "rationale": "「台灣最大輪胎集團」獲發行人來源支持：2022年永續報告第8頁載「正新為華人地區最大的輪胎專業製造公司，營業額持續維持台灣第一」。惟「全球前十大輪胎廠」未獲支持：查閱之永續報告與2026年法說會簡報均未載任何全球輪胎廠排名（簡報僅載成立年、營收與產能），故該最高級排名未獲官方來源確立。故部分成立。",
+      "proposed_text": "正新橡膠 (2105，Cheng Shin Rubber) 為華人地區最大、台灣營收第一的輪胎製造公司，以 MAXXIS 等品牌行銷全球逾 180 國。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2106:objective_ranking_or_market_share:0bd79cfdcec25a2d",
+      "normalized_claim_hash": "0bd79cfdcec25a2da6a9d0ef4ef86e77fcfe0bfe84ddcd99e1c0435b78ee21f7",
+      "ticker": "2106",
+      "company": "建大",
+      "path": "Pilot_Reports/Auto Parts/2106_建大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "建大工業 (2106，Kenda Rubber Industrial) 為全球前 30 大輪胎廠，自有品牌[[Kenda]]行銷全球。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.esg.kenda.com.tw/_files/ugd/1efe60_f60bffe61fa649b5a378bb46c88af2af.pdf",
+          "title": "建大工業股份有限公司 2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度資料。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第12頁「關於建大」載：「…並以自有品牌KENDA 行銷全球，現已成為台灣第2 大、全球第26 大的輪胎廠。」此直接支持「全球前30大輪胎廠」與「自有品牌Kenda行銷全球」。報告另載其為「臺灣第一家取得AEO認證的輪胎製造廠」及多項產品與品牌獎項。"
+        }
+      ],
+      "rationale": "claim 兩項內容均獲發行人官方永續報告支持：建大自述「以自有品牌KENDA行銷全球」，並載其為「台灣第2大、全球第26大的輪胎廠」，故「全球前30大輪胎廠」（第26大）與「自有品牌Kenda行銷全球」皆成立。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:1bcf873b591901ce",
+      "normalized_claim_hash": "1bcf873b591901ce06e8c04bdb788153caa3a55d946c94847b6d03d03c924821",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 橡皮壩 — 日本進口第一大供應商，應用於水利基礎設施；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "鑫永銓股份有限公司 法人說明會簡報（2024-12-20）",
+          "source_level": 3,
+          "period_binding": "2024年12月現況；橡皮壩產線自2011年設置。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人官方簡報。第22頁「水利應用(橡皮壩)」載：「所開發製造的橡皮壩，已成功打入日本市場，目前為日本第一大進口製造廠」，並載可製作產品包括橡皮壩、發電用波能板、海洋攔汙壩等大型橡膠板材，另舉國內實績（雲林後庄子碑放水門改善工程獲優良農建工程優等獎）。第23頁列國內橡皮壩工程實績。"
+        }
+      ],
+      "rationale": "claim 敘述「橡皮壩 — 日本進口第一大供應商，應用於水利基礎設施」獲發行人官方簡報直接支持：第22頁明載其開發製造之橡皮壩已打入日本市場、「目前為日本第一大進口製造廠」，且橡皮壩屬水利應用產品（報告列多項國內水利工程實績與小水力發電應用）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:83a4decf054d606c",
+      "normalized_claim_hash": "83a4decf054d606cc17251cad6d8474ba6962ff0ae01e7f077a41d9b728bace5",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "橡皮壩 — 日本進口第一",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "鑫永銓 法人說明會簡報（2024-12-20）",
+          "source_level": 3,
+          "period_binding": "2024年12月現況。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 1bcf873b591901ce 相同之揭露：第22頁載其橡皮壩「已成功打入日本市場，目前為日本第一大進口製造廠」；第24頁並載每年固定提供橡皮壩給日本電力公司等小水力發電應用。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「橡皮壩 — 日本進口第一」），證據與 1bcf873b591901ce 相同：鑫永銓官方簡報第22頁明載其橡皮壩為日本第一大進口製造廠。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:7279073e1958fd1e",
+      "normalized_claim_hash": "7279073e1958fd1e6e95b424b262bde264de1177ca632aecefa327cd0e8aadf8",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "日本水利基礎設施 — 橡皮壩進口第一",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "鑫永銓 法人說明會簡報（2024-12-20）",
+          "source_level": 3,
+          "period_binding": "2024年12月現況。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 1bcf873b591901ce 相同之揭露：第22頁載橡皮壩已打入日本市場並為日本第一大進口製造廠；第23頁列國內水利工程實績；第24頁載小水力發電產業應用（每年提供橡皮壩給日本電力公司）。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之供應鏈條目表述（「日本水利基礎設施 — 橡皮壩進口第一」），證據與 1bcf873b591901ce 相同：官方簡報第22頁明載其橡皮壩為日本第一大進口製造廠，並載橡皮壩屬水利應用產品。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
