@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-258",
+  "reviewed_at": "2026-10-05T23:23:41Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (IKKA-KY 2023英文版年報; 晶呈科技2022法說會; 台特化2022法說會); 巨庭與鼎基端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "2250:material_named_relationship:905ace00ffdd5c7a",
+      "normalized_claim_hash": "905ace00ffdd5c7abbfb6537da8a692d003ee8476619e3ae39826c50591c781d",
+      "ticker": "2250",
+      "company": "IKKA-KY",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2250_IKKA-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "汽車零件透過日系 Tier 1 如[[住友電工]]、[[愛信]] (AISIN) 供應[[Toyota]]、[[Nissan]]、[[Honda]]等車廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ikka.com.tw/proimages/pdf/2024/2023%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E8%8B%B1%E6%96%87%E7%89%88.pdf",
+          "title": "IKKA Holdings (Cayman) Limited（IKKA-KY，2250）2023 年度年報（英文版）",
+          "source_level": 3,
+          "period_binding": "2023年度。**文件為英文版。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取597,554字元，**英文版年報**）。年報載「⚫ IKKA Dongguan was awarded the **annual best supplier of Sumitomo**」「⚫ IKKA Vietnam was awarded **annual top tier supplier of Sumitomo**」「⚫ IKKA Vietnam was awarded a certificate of appreciation by Sumitomo」（「**Sumitomo**」7次、「**AISIN**」25次、「**Tier 1**」4次、「supplier」34次、「**Toyota**」8次、「**Nissan**」2次），**逐項支持其為日系 Tier 1（住友、愛信）之供應商並供應 Toyota／Nissan**。**關鍵發現**：全份年報中「**Honda**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「汽車零件透過日系 **Tier 1** 如**[[住友電工]]**、**[[愛信]]（AISIN）**供應 **[[Toyota]]、[[Nissan]]**…等車廠」獲發行人年報**逐項支持**：年報載「⚫ IKKA Dongguan was awarded the **annual best supplier of Sumitomo**」「⚫ IKKA Vietnam was awarded **annual top tier supplier of Sumitomo**」（「**Sumitomo**」7次、「**AISIN**」25次、「**Tier 1**」4次、「**Toyota**」8次、「**Nissan**」2次），**充分支持其為日系 Tier 1（住友、愛信）之供應商並供應 Toyota／Nissan**。**惟「[[Honda]]」未獲支持**——全份年報中「**Honda**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "IKKA-KY (2250，IKKA Holdings) 之汽車零件透過日系 Tier 1 如住友（Sumitomo）、愛信（AISIN）供應 Toyota、Nissan 等車廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4768:material_named_relationship:2a1b1bc0ddbd85ff",
+      "normalized_claim_hash": "2a1b1bc0ddbd85ff1a8977a0d33ecb57d36bfcb2954de93b1ccc758d54784170",
+      "ticker": "4768",
+      "company": "晶呈科技",
+      "path": "Pilot_Reports/Specialty Chemicals/4768_晶呈科技.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] (主要客戶)、[[聯電]]、[[Micron]] — [[蝕刻]]/[[CVD]]/[[微影]]用氣體",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/476820220607E001.pdf",
+          "title": "晶呈科技股份有限公司（晶呈科技，4768，JCS）法人說明會簡報（2022-06-07）",
+          "source_level": 3,
+          "period_binding": "2022年6月7日。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,836字元，以圖形排版為主）。簡報中「**特殊氣體**」出現43次、「**蝕刻**」12次，**充分支持其為半導體特殊氣體（含蝕刻用）供應商**。**關鍵發現**：全份簡報中「**台積**」「**TSMC**」「**聯電**」「**UMC**」「**Micron**」之出現次數**均為0**（「CVD」「微影」與「主要客戶」亦均為0）。"
+        }
+      ],
+      "rationale": "「**[[蝕刻]]**（用氣體）」之產品類別獲發行人簡報**充分支持**：簡報中「**特殊氣體**」出現43次、「**蝕刻**」12次，**充分支持其為半導體特殊氣體（含蝕刻用）供應商**。**惟多項陳述未獲支持**：(1)「**台積電**（主要客戶）」、「**聯電**」與「**Micron**」——「台積」「TSMC」「聯電」「UMC」「Micron」之出現次數**均為0**，**未具名任何客戶**；(2)「**CVD**」與「**微影**」用氣體——兩者**均為0**；(3)「主要客戶」之排序性表述亦為**0**。故部分成立。",
+      "proposed_text": "晶呈科技 (4768，JCS) 供應半導體特殊氣體（含蝕刻用）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4772:material_named_relationship:ea95514bb8419145",
+      "normalized_claim_hash": "ea95514bb84191459248830bb4fd1bf0323e645caaa8ba6a6f9436fdf2223c61",
+      "ticker": "4772",
+      "company": "台特化",
+      "path": "Pilot_Reports/Specialty Chemicals/4772_台特化.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]佔營收約 60% (首年供貨即獲卓越供應商獎)，另供應[[世界先進]]、[[Texas Instruments]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/477220220915E002.pdf",
+          "title": "台灣特品化學股份有限公司（台特化，4772，TPEC）法人說明會簡報（2022-09-15）",
+          "source_level": 3,
+          "period_binding": "2022年9月15日。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取11,119字元，以圖形排版為主）。簡報載「**矽乙烷**」「四家可量產半導體級高純**矽乙烷**工廠之一」「本公司**矽乙烷**生產工廠為全球單一產線最大產能」「全球**矽乙烷**產品」（「**矽乙烷**」5次、「**60%**」4次、「**CVD**」3次），**支持其矽乙烷產品及用於 CVD 製程**。**關鍵發現**：全份簡報中「**台積**」「**TSMC**」「**2nm**」「**3nm**」「**Texas**」「**世界先進**」與「**卓越**」之出現次數**均為0**——**未具名該客戶，亦未載獲獎事實與製程節點**。"
+        }
+      ],
+      "rationale": "「（佔營收約）**60%**」與「**[[矽乙烷]]**」獲發行人簡報**支持**：簡報中「**60%**」出現4次、「**矽乙烷**」5次（並載「四家可量產半導體級高純**矽乙烷**工廠之一」「本公司**矽乙烷**生產工廠為全球單一產線最大產能」），**支持其矽乙烷產品及該佔比之敘述**。**惟多項陳述未獲支持**：(1)「**[[台積電]]**」——「台積」與「TSMC」之出現次數**均為0**，**未具名該客戶**；(2)「首年供貨即獲**卓越供應商獎**」——「**卓越**」為**0**；(3)「另供應**[[世界先進]]**、**[[Texas Instruments]]**」——「世界先進」「Texas」與「德儀」均為**0**。故部分成立。",
+      "proposed_text": "台灣特品化學 (4772，TPEC) 生產半導體級高純矽乙烷。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4772:material_named_relationship:3a0d22b29d62a4aa",
+      "normalized_claim_hash": "3a0d22b29d62a4aaf9f4201f57ffa6948b73efdc31ae6d433d4d0cfc42ecf845",
+      "ticker": "4772",
+      "company": "台特化",
+      "path": "Pilot_Reports/Specialty Chemicals/4772_台特化.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] — 佔營收約 60%，[[矽乙烷]]供 2nm/3nm [[CVD]] (首年獲卓越供應商)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/477220220915E002.pdf",
+          "title": "台灣特品化學股份有限公司（台特化，4772，TPEC）法人說明會簡報（2022-09-15）",
+          "source_level": 3,
+          "period_binding": "2022年9月15日。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取11,119字元，以圖形排版為主）。簡報載「**矽乙烷**」「四家可量產半導體級高純**矽乙烷**工廠之一」「本公司**矽乙烷**生產工廠為全球單一產線最大產能」「全球**矽乙烷**產品」（「**矽乙烷**」5次、「**60%**」4次、「**CVD**」3次），**支持其矽乙烷產品及用於 CVD 製程**。**關鍵發現**：全份簡報中「**台積**」「**TSMC**」「**2nm**」「**3nm**」「**Texas**」「**世界先進**」與「**卓越**」之出現次數**均為0**——**未具名該客戶，亦未載獲獎事實與製程節點**。"
+        }
+      ],
+      "rationale": "「**[[矽乙烷]]**供（應）… **[[CVD]]**（製程）」獲發行人簡報**逐項支持**：簡報中「**矽乙烷**」5次、「**CVD**」3次、「**60%**」4次，**支持其矽乙烷產品用於 CVD 製程**。**惟三項陳述未獲支持**：(1)「**[[台積電]]**」——「台積」與「TSMC」均為**0**；(2)「供 **2nm/3nm**」——「2nm」與「3nm」之出現次數**均為0**；(3)「首年獲**卓越供應商**」——「卓越」為**0**。故部分成立。",
+      "proposed_text": "台灣特品化學 (4772，TPEC) 之矽乙烷產品應用於 CVD 製程。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1539:export_concentration:a187a02cbe2816a9",
+      "normalized_claim_hash": "a187a02cbe2816a972eef44c4dbc5d3f82923137a82e9f79c4ebfbde9dd902b4",
+      "ticker": "1539",
+      "company": "巨庭",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1539_巨庭.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "99%+ 外銷北美。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153920250401M001.pdf",
+          "title": "巨庭機械（1539）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之巨庭機械端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得巨庭機械可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**99%+** **外銷北美**」未獲確立：本批次所嘗試之巨庭端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6585:profitability_assertion:b1d02f442a3fb4d1",
+      "normalized_claim_hash": "b1d02f442a3fb4d116c21277590470169ddd6a6f933a01cc0010f32eb1f61fa9",
+      "ticker": "6585",
+      "company": "鼎基",
+      "path": "Pilot_Reports/Specialty Chemicals/6585_鼎基.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "高毛利新品涵蓋汽車 PPF (漆面保護膜，對標[[XPEL]]、[[3M]])、[[Intuitive Surgical]]達文西手術機器人無菌保護套、防爆玻璃膜。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/658520250401M001.pdf",
+          "title": "鼎基先進材料（6585）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之鼎基先進材料端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得鼎基先進材料可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「高毛利新品涵蓋汽車 **PPF（漆面保護膜）**（對標 **[[XPEL]]**、**[[3M]]**）、**[[Intuitive Surgical]]** 達文西手術機器人**無菌保護套**、**防爆玻璃膜**」未獲確立：本批次所嘗試之鼎基端點回應 **HTTP 404**（官方端點亦未取得），以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
