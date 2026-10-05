@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:26:32Z",
+  "generated_at": "2026-10-05T22:27:51Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -224,16 +224,17 @@
     "author-218",
     "author-219",
     "author-220",
-    "author-221"
+    "author-221",
+    "author-222"
   ],
-  "source_batch_count": 221,
-  "total_unknown": 310,
+  "source_batch_count": 222,
+  "total_unknown": 317,
   "failure_signature_counts": {
     "no_official_endpoint_found": 135,
     "other_unclassified": 117,
     "tls_failure": 14,
-    "mops_non_document": 39,
-    "non_document_response": 38,
+    "mops_non_document": 46,
+    "non_document_response": 45,
     "http_404": 65,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
@@ -4776,6 +4777,111 @@
         "https://mopsov.twse.com.tw/nas/STR/309520250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3037:material_named_relationship:fc84aa5e0c3063d9",
+      "ticker": "3037",
+      "company": "欣興",
+      "claim": "[[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜獨家供應",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3305:profitability_assertion:7baabc1e5460a78a",
+      "ticker": "3305",
+      "company": "昇貿",
+      "claim": "技術優勢與成長引擎：(1) 低溫錫膏 (LTS) 先驅 — 與 [[Intel]] 深度合作開發低溫焊接技術，可降低焊接溫度約 40%，減少能耗與板材變形，已大量應用於 [[AI 伺服器]]主板與高階筆電；",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3305:profitability_assertion:17948c52e4a11c29",
+      "ticker": "3305",
+      "company": "昇貿",
+      "claim": "(2) [[AI 伺服器]]紅利 — 隨算力中心擴建，CPU/GPU Socket 對高可靠度焊接材料需求激增，帶動高毛利錫膏產品占比提升；",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3311:material_named_relationship:ed63220cb3bf1c75",
+      "ticker": "3311",
+      "company": "閎暉",
+      "claim": "三大事業引擎：(1) 車用內飾 — 供應 [[Continental]]、[[Bosch]]、[[Denso]] 等 Tier 1 大廠中控台按鍵、裝飾膜、氣氛燈與車用玻璃，獨家供應 [[BMW]] 智慧鑰匙玻璃按鍵 (7/5/3 系列，8 年供貨週期)，車用玻璃已打入日系車廠；",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3311:material_named_relationship:e934797be7ba5805",
+      "ticker": "3311",
+      "company": "閎暉",
+      "claim": "(2) 穿戴裝置 — 與 [[Garmin]] 合作密切，為其智慧手錶/手環之錶帶與機構件主要供應商；",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3311:material_named_relationship:f8cb824b540d0ac2",
+      "ticker": "3311",
+      "company": "閎暉",
+      "claim": "[[BMW]] — 智慧鑰匙玻璃按鍵 (獨家供應)",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3310:material_named_relationship:1c626cdf7c25b3bb",
+      "ticker": "3310",
+      "company": "佳穎",
+      "claim": "車用產品佔比最高，主要供應 [[Bosch]]、[[TE Connectivity]] 等國際 Tier 1 大廠，應用於含氧感知器、噴油嘴、車用[[連接器]]端子等關鍵零組件。",
+      "batch_id": "author-222",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        null
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
     }
   ]
 }

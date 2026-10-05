@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 05:04 UTC
+Updated: 2026-10-14 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,122 / 1,399**
-- Remaining author review: **277**
-- Latest batch: **author-221** (4 claims)
+- Author-reviewed: **1,131 / 1,399**
+- Remaining author review: **268**
+- Latest batch: **author-222** (9 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **709**
+- `PARTIALLY_SUPPORTED`: **711**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **310**
+- `UNKNOWN_AFTER_RESEARCH`: **317**
 
 ## Latest claim batch
 
-- `3149:material_named_relationship:03278f3ab45f2eff` — `UNKNOWN_AFTER_RESEARCH`；正達114年度年報（文字可讀，94,182字元，含「客戶」65 次）中「**Apple／蘋果／iPhone／主要客戶」皆 0 次**。
-- `3217:material_named_relationship:9249a974b3559c5a` — `UNKNOWN_AFTER_RESEARCH`；優群文件為**個體財務報告（非年報）**，「**Long-DIMM／Supermicro／Meta／AI 伺服器／記憶體」皆 0 次**。
-- `3051:material_named_relationship:5805bf0a9682fc9a`、`3095:bfc3dcdc6a25b820` — `UNKNOWN_AFTER_RESEARCH` ×2；力特與及成端點 **HTTP 404**。
-- 🎯 **里程碑：author 已審 **1,122** 筆 claim（80.2%），突破八成。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-221.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `3037:material_named_relationship:fc84aa5e0c3063d9` (欣興).
+- `3294:profitability_assertion:21bafa305ebd8c84` — `PARTIALLY_SUPPORTED`；英濟永續報告書載「**精密生醫材事業**」「3.43% **生醫材**」並見「模具」11次、「AR」9次；**惟「高毛利」0 次**。
+- `3294:material_named_relationship:779e8c461700907e` — `PARTIALLY_SUPPORTED`；報告書「**英錡」3 次、「智慧眼鏡」1 次**；**惟「LCoS／LBS／光機／立方公分」皆 0 次**。
+- `3037:material_named_relationship:fc84aa5e0c3063d9` — `UNKNOWN_AFTER_RESEARCH`；欣興 MOPS 年報端點回 **320 bytes 空殼**。
+- `3305:profitability_assertion:7baabc1e5460a78a`、`17948c52e4a11c29` — `UNKNOWN_AFTER_RESEARCH` ×2；昇貿端點回 **320 bytes 空殼**。
+- `3311:material_named_relationship:ed63220cb3bf1c75`、`e934797be7ba5805`、`f8cb824b540d0ac2` — `UNKNOWN_AFTER_RESEARCH` ×3；閎暉端點回 **320 bytes 空殼**。
+- `3310:material_named_relationship:1c626cdf7c25b3bb` — `UNKNOWN_AFTER_RESEARCH`；佳穎端點回 **320 bytes 空殼**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-222.json`（9 筆）。未修改發行人報告。
+- Next pending claim by priority: `3191:identity_changing_event:98fd69deb068be8d` (雲嘉南).
 
 ## Source access
 
