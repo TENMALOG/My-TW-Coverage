@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-124",
+  "reviewed_at": "2026-10-05T20:31:24Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (GOGOLOOK法人說明會簡報; 三竹年報; 實威公司簡介文件; 凌網投資人簡報); 悠遊卡端點SSL/TLS憑證信任失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed",
+      "normalized_claim_hash": "f2d0f66b5bcf6aedb16a4421ada2bd480d098f02e1f6697f6f9273e27d433e8d",
+      "ticker": "6902",
+      "company": "GOGOLOOK",
+      "path": "Pilot_Reports/Software - Application/6902_GOGOLOOK.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NAVER]] ([[LINE]] 母公司，早期最大外部控股)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/690220260813M001.pdf",
+          "title": "走著瞧股份有限公司（GOGOLOOK，6902，Gogolook）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年8月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取15,478字元）。簡報中「**Whoscall**」出現21次、「**防詐**」73次、「全球」13次，支持其防詐及 Whoscall 業務。全份簡報中「**NAVER**」（區分大小寫）之出現次數為**0**；唯一含「Nav」字串者為**經營團隊經歷**——「Naver Business Platform 行銷與營運部門負責人」（該公司營運長之經歷）；「**LINE**」2次之上下文分別為「（詐騙）誘導家長加入**Line 群組**進行（…）」與「**LINE OA**」；「**最大**」1次之上下文為「菲律賓**最大**民營配電公司 Meralco 集團」（係客戶／合作對象之描述）。全份簡報中「控股」出現次數為0。"
+        }
+      ],
+      "rationale": "「[[NAVER]]（[[LINE]] 母公司，早期最大外部控股）」未獲確立：所取得之官方簡報中「**NAVER**」（區分大小寫）之出現次數為**0**；唯一含「Nav」字串者為**經營團隊經歷**——「**Naver Business Platform 行銷與營運部門負責人**」，即該公司營運長之過往任職，**並非股東或控股關係**。「**LINE**」2次之上下文分別為「（詐騙）誘導家長加入 **Line 群組**進行（…）」與「**LINE OA**」；「控股」出現次數為0。故該股東關係未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8284:objective_ranking_or_market_share:f6ddbfcfc3bb8e15",
+      "normalized_claim_hash": "f6ddbfcfc3bb8e156d03e962d3c9044eb99c42a2e7616ea0a1bb029deaa92277",
+      "ticker": "8284",
+      "company": "三竹",
+      "path": "Pilot_Reports/Software - Application/8284_三竹.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為簡訊業界唯一獲行政院頒發電信防堵感謝狀之企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mitake.com.tw/Upload/8c917f59-0718-42a3-aec4-9beec0839241/637305084370510328.pdf",
+          "title": "三竹資訊股份有限公司（三竹，8284，Mitake Information）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取96,736字元）。年報中「**簡訊**」出現103次，支持其簡訊相關業務。全份年報中「**行政院**」與「**感謝狀**」之出現次數**均為0**；「**唯一**」2次之上下文均為**智慧電視看盤下單產品**——「（辨）識能力之智慧電視看盤下單產品，目前是市場中**唯一**與（…）」「並多元支援各電視平台系統，也是國內**唯一**成功上架（…）」，**非**電信防堵感謝狀之敘述。"
+        }
+      ],
+      "rationale": "「為簡訊業者」獲發行人年報支持：年報中「**簡訊**」出現103次，支持其簡訊相關業務。惟「是簡訊業界**唯一**獲**行政院**頒發電信防堵**感謝狀**之企業」未獲支持：全份年報中「**行政院**」與「**感謝狀**」之出現次數**均為0**，「**唯一**」2次之上下文均為**智慧電視看盤下單產品**（「目前是市場中唯一與（…）」「也是國內唯一成功上架（…）」），**非**該表揚事蹟。故部分成立。",
+      "proposed_text": "三竹資訊 (8284，Mitake Information) 從事簡訊相關業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8416:objective_ranking_or_market_share:4ac1005c2eaa974f",
+      "normalized_claim_hash": "4ac1005c2eaa974fa38f3ec7d04240eebe49a2d9f9d033aff32f89b01aa2ffe0",
+      "ticker": "8416",
+      "company": "實威",
+      "path": "Pilot_Reports/Software - Application/8416_實威.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "實威國際 (8416，SolidWizard) 成立於 1997 年，為法國 [[Dassault Systemes]] 在亞洲最大專業代理商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/841620251202E001.pdf",
+          "title": "實威國際股份有限公司（實威，8416，SolidWizard）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取12,239字元，以圖形排版為主）。文件中「**SolidWorks**」出現17次、「**Dassault**」1次，支持其為 Dassault Systemes／SolidWorks 相關產品之代理商。全份文件中「**亞洲最大**」與「**代理商**」之出現次數均為0；「1997」未見於可檢索文字。"
+        }
+      ],
+      "rationale": "「為法國 [[Dassault Systemes]] 相關產品之代理商」獲發行人文件支持：文件中「**SolidWorks**」出現17次、「**Dassault**」1次，支持其為 Dassault Systemes／SolidWorks 產品之代理商。惟兩項陳述未獲支持：(1)「為 Dassault Systemes 在**亞洲最大**專業代理商」——「亞洲最大」與「代理商」之出現次數均為0；(2)「成立於 **1997** 年」——未見於可檢索文字。故部分成立（並註記該文件文字擷取僅12,239字元，以圖形排版為主）。",
+      "proposed_text": "實威國際 (8416，SolidWizard) 為 Dassault Systemes／SolidWorks 相關產品之代理商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5212:objective_ranking_or_market_share:79f144a9e5531357",
+      "normalized_claim_hash": "79f144a9e5531357b26721dec87998d38fcebb690572de3449204f4eb1dba60f",
+      "ticker": "5212",
+      "company": "凌網",
+      "path": "Pilot_Reports/Software - Infrastructure/5212_凌網.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **智慧圖書館 (Smart Library)**: **HyRead** 電子書平台 (市佔第一)、圖書館[[自動化]]系統、自助借還書機。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/521220260826E001.pdf",
+          "title": "凌網科技股份有限公司（凌網，5212，HYweb Technology）投資人簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年8月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取17,391字元，以圖形排版為主）。簡報中「**HyRead**」出現11次，支持其 HyRead 電子書平台業務。全份簡報中「**電子書**」「**市佔**」「**第一**」與「**圖書館**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「**HyRead** 電子書平台」獲發行人簡報支持：簡報中「**HyRead**」出現11次，支持其 HyRead 平台業務。惟三項陳述未獲支持：(1)「**市佔第一**」——「市佔」與「第一」之出現次數均為0；(2)「**圖書館**自動化系統」——「圖書館」為0；(3)「自助借還書機」——未見於可檢索文字。故部分成立（並註記該簡報文字擷取僅17,391字元，以圖形排版為主）。",
+      "proposed_text": "凌網科技 (5212，HYweb Technology) 經營 HyRead 電子書平台。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6035:objective_ranking_or_market_share:c0678fc201114b7d",
+      "normalized_claim_hash": "c0678fc201114b7d40c79725ff5622e72d87c740ff8002c28f26514c494db6a4",
+      "ticker": "6035",
+      "company": "悠遊卡",
+      "path": "Pilot_Reports/Software - Infrastructure/6035_悠遊卡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "悠遊卡股份有限公司 (6035) 為台灣電子票證與電子支付領域市佔率超過九成的龍頭企業。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://event.easycard.com.tw/_upload/files/20170407-1.pdf",
+          "title": "悠遊卡股份有限公司（悠遊卡，6035，EasyCard）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人相關網域下載文件時回應 **SSL/TLS 安全通道信任關係失敗**（另一次嘗試則因路徑問題未取得檔案），未取得可檢視之官方文件；本批次未取得悠遊卡可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「悠遊卡股份有限公司為台灣電子票證與電子支付領域市佔率超過九成的龍頭企業」未獲確立：本批次自發行人相關網域下載文件時遭 **SSL/TLS 安全通道信任關係失敗**，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 03:04 UTC
+Updated: 2026-10-10 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **744 / 1,399**
-- Remaining author review: **655**
-- Latest batch: **author-123** (8 claims)
+- Author-reviewed: **749 / 1,399**
+- Remaining author review: **650**
+- Latest batch: **author-124** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **483**
+- `PARTIALLY_SUPPORTED`: **486**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **174**
+- `UNKNOWN_AFTER_RESEARCH`: **176**
 
 ## Latest claim batch
 
-- `5202:objective_ranking_or_market_share:0a310a8ce7f2645f` — `UNKNOWN_AFTER_RESEARCH`；所取得力新文件為**永續報告書**，「第一金」「富邦金」皆0次。
-- `5403:objective_ranking_or_market_share:5c94bad17f7166b3`、`e50a246d694f5936`、`6ea45e064b9f4141` — `UNKNOWN_AFTER_RESEARCH` ×3；中菲官方網域 **DNS 解析失敗**（兩度嘗試）。
-- `6231:objective_ranking_or_market_share:1da870e8d9816ee5` — `PARTIALLY_SUPPORTED`；系微簡介「**BIOS」5 次、「Intel」8 次、「AMD」3 次、「Snapdragon」1 次**；惟「AI PC」「市佔」皆0次。
-- `6590:objective_ranking_or_market_share:b5dc93a1541f6920` — `PARTIALLY_SUPPORTED`；普鴻簡報「**資安」10 次、「支付」3 次**、「票交」1次；惟「跨行」「清算」「市佔」皆0次。
-- `6738:objective_ranking_or_market_share:16908d8f6cf3d1a7` — `PARTIALLY_SUPPORTED`；鼎恒年報「**超過95%高續約率**」✓；惟「**1,300」3 次皆為財務數字**（17,300／51,300／11,300），「**緯創」1 次為「緯創軟體董事李紹唐」之個人職稱**，「遠雄」0次。
-- `6738:objective_ranking_or_market_share:7d16cd36e6e8ebf5` — `PARTIALLY_SUPPORTED`；「Azure」9次；惟「唯一」為「台灣區唯一合作夥伴**代表**」（活動身分），「創新合作夥伴」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-123.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed` (GOGOLOOK).
+- `6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed` — `UNKNOWN_AFTER_RESEARCH`；GOGOLOOK 簡報「**NAVER」（區分大小寫）0 次**；唯一含 Nav 字串者為**經營團隊經歷**「**Naver Business Platform 行銷與營運部門負責人**」；「LINE」2次為「加入 Line 群組」「LINE OA」；「控股」0次。
+- `8284:objective_ranking_or_market_share:f6ddbfcfc3bb8e15` — `PARTIALLY_SUPPORTED`；三竹年報「**簡訊」103 次**；惟「行政院」「感謝狀」皆0次，且「唯一」2次均指**智慧電視看盤產品**。
+- `8416:objective_ranking_or_market_share:4ac1005c2eaa974f` — `PARTIALLY_SUPPORTED`；實威文件「**SolidWorks」17 次、「Dassault」1 次**；惟「亞洲最大」「代理商」「1997」皆未見。
+- `5212:objective_ranking_or_market_share:79f144a9e5531357` — `PARTIALLY_SUPPORTED`；凌網簡報「**HyRead」11 次**；惟「電子書」「市佔」「第一」「圖書館」皆0次。
+- `6035:objective_ranking_or_market_share:c0678fc201114b7d` — `UNKNOWN_AFTER_RESEARCH`；悠遊卡端點 **SSL/TLS 憑證信任失敗**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-124.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6462:objective_ranking_or_market_share:d15da7bf0a3e513d` (神盾).
 
 ## Source access
 
