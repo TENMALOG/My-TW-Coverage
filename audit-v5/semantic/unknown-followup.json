@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:59:14Z",
+  "generated_at": "2026-10-05T22:00:16Z",
   "classification_note": "failure_signature 係由各筆 evidence.note 依固定規則判定，規則如下：http_404／http_403 依回應碼；mops_non_document 依「320 bytes|690 bytes|111 bytes|244 bytes」；garbled_text_layer 依「亂碼|mojibake|字元位移|字形映射錯誤」；tls_failure 依「SSL|TLS|安全通道」；download_timeout 依「逾時|timeout」；connection_failure 依「無法連線|連接意外關閉|無法解析遠端名稱|DNS|中止」；image_only_or_tiny_text 依「僅[數字]字元|僅得4頁|擷取0字元」；client_rendered_only 依「前端渲染|JavaScript|靜態 HTML|導覽／下載頁|網站選單」；no_official_endpoint_found 依「未查得|未取得可檢視|未取得可判讀|未具名任何|未具名該客戶|未載該第三人|未取得…本身|實質營運內容未見|無法用以判讀」；non_document_response 依「非文件內容|顯非完整文件|並非年報本身」；source_identity_mismatch 依「身分不符|屬另一法人|並非同一法人|並非…之文件|為香港聯合交易所之上市文件」。未命中任一規則者歸為 other_unclassified。一筆可同時帶有多個標記。",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -200,17 +200,18 @@
     "author-194",
     "author-195",
     "author-196",
-    "author-197"
+    "author-197",
+    "author-198"
   ],
-  "source_batch_count": 197,
-  "total_unknown": 263,
+  "source_batch_count": 198,
+  "total_unknown": 266,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 106,
+    "no_official_endpoint_found": 109,
     "other_unclassified": 105,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 37,
-    "http_404": 43,
+    "http_404": 46,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
@@ -4065,6 +4066,51 @@
       ],
       "attempted_sources": [
         "https://www.arcadyan.com.tw/media/investor/shm/annual-report/%E6%99%BA%E6%98%93%E7%A7%91%E6%8A%80114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3694:material_named_relationship:3908e3ba4e8cd7ae",
+      "ticker": "3694",
+      "company": "海華",
+      "claim": "4. **智能家電佈局**: 產品已廣泛打入全球一線品牌印表機及白色家電 (如三星/[[LG]] 的連網冰箱、空調) 供應鏈，具備優異的交叉認證實力。",
+      "batch_id": "author-198",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3694:profitability_assertion:65466b27d8393dcb",
+      "ticker": "3694",
+      "company": "海華",
+      "claim": "專注於挑戰極限縮小化設計與封裝之 SiP (系統級封裝) 無線通訊模組與高階數位影像處理模組製造大廠，目前正積極從傳統中低利潤 PC 模組市場，強勢轉型跨足至高毛利之 AI 邊緣運算與次世代穿戴式微型模組)。",
+      "batch_id": "author-198",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3694:material_named_relationship:dadb426643e6fced",
+      "ticker": "3694",
+      "company": "海華",
+      "claim": "不甘於傳統電腦框架，其無線模組已強勢打入全球頂層白色家電巨頭生態系 (如韓國三星、[[LG]] 之高單價連網智慧家電)，且市場盛傳其極致微型化封裝技術已獲特定神秘外資大廠青睞，強勢切入下一世代 AI 智慧眼鏡與穿戴系統裝置核心供應鏈。",
+      "batch_id": "author-198",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

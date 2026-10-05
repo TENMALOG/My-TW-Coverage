@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 05:04 UTC
+Updated: 2026-10-13 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,027 / 1,399**
-- Remaining author review: **372**
-- Latest batch: **author-197** (5 claims)
+- Author-reviewed: **1,032 / 1,399**
+- Remaining author review: **367**
+- Latest batch: **author-198** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **664**
+- `PARTIALLY_SUPPORTED`: **666**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **263**
+- `UNKNOWN_AFTER_RESEARCH`: **266**
 
 ## Latest claim batch
 
-- `2485:material_named_relationship:20b0b1c34022aee9` — `UNKNOWN_AFTER_RESEARCH`；兆赫簡報「**DirecTV／Dish／SpaceX／星鏈／低軌」皆 0 次**。
-- `3491:material_named_relationship:01090b65e377130f` — `PARTIALLY_SUPPORTED`；簡報「**低軌」23 次**支持其供應商地位；**惟簡報明載「低軌衛星產品占比從23年的15.2%提高到42.8%」——與 claim 之「已突破 80%」不符（數字矛盾）**。
-- `3491:material_named_relationship:7b383e1fa939f2a4` — `UNKNOWN_AFTER_RESEARCH`；「**Kuiper／柯伊伯／Amazon／獨家／四年」皆 0 次**。
-- `3596:material_named_relationship:b62201e689d59f0c` — `PARTIALLY_SUPPORTED`；智易年報「**5G FWA」11 次**；惟「T-Mobile／Vodafone／Deutsche Telekom」皆0次。
-- `3596:material_named_relationship:6f767b0b0a1b829f` — `UNKNOWN_AFTER_RESEARCH`；「T-Mobile」0次。
-- ⚠️ **本批次發現一筆「數字矛盾」**：`3491:01090b65e377130f` 之 claim 稱低軌衛星營收佔比「突破 80%」，**官方簡報則載 42.8%**——**已於 rationale 中明確標示，建議複核者優先檢視。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-197.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `3558:profitability_assertion:9f4ccf27dd9b4c28` (神準).
+- `3558:profitability_assertion:9f4ccf27dd9b4c28` — `PARTIALLY_SUPPORTED`；神準簡報「**邊緣運算」2 次、「Edge」4 次、「代工」1 次**；惟「神腦／高毛利／自有品牌」皆0次。
+- `3664:profitability_assertion:29e87a23c32ceb1c` — `PARTIALLY_SUPPORTED`；安瑞簡報「**樺漢」3 次、「零信任」1 次**；惟「大宇資／鴻海／ESaaS／訂閱／高毛利」皆0次。
+- `3694:material_named_relationship:3908e3ba4e8cd7ae`、`3694:profitability_assertion:65466b27d8393dcb`、`3694:material_named_relationship:dadb426643e6fced` — `UNKNOWN_AFTER_RESEARCH` ×3；海華官方端點（含官網2020／2018年報）**皆回傳 HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-198.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `4906:profitability_assertion:9a8f9ab180b50bc8` (正文).
 
 ## Source access
 

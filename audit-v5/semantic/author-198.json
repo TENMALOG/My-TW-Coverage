@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-198",
+  "reviewed_at": "2026-10-05T22:00:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (神準2025年度財報法人說明會簡報; 安瑞法人說明會簡報); 海華端點皆HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3558:profitability_assertion:9f4ccf27dd9b4c28",
+      "normalized_claim_hash": "9f4ccf27dd9b4c28362eb37440fe9c6d36171ced38fa84a1a644270e4f79d7bc",
+      "ticker": "3558",
+      "company": "神準",
+      "path": "Pilot_Reports/Communication Equipment/3558_神準.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**神準 (3558)** (隸屬於神腦集團，為台灣極具研發實力與高毛利產品組合之企業級網通與邊緣運算 (Edge Computing) 產品代工及自有品牌廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/355820260320M001.pdf",
+          "title": "神準科技股份有限公司（神準，3558，Senao Networks）2025年度財報法人說明會簡報（2026-03-20）",
+          "source_level": 3,
+          "period_binding": "2026年3月20日（2025年度財報）。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,791字元，以圖形排版為主）。簡報中「**邊緣運算**」出現2次、「**Edge**」4次、「**代工**」1次，支持其企業級網通與邊緣運算產品之敘述。**關鍵發現**：全份簡報中「**神腦**」「**高毛利**」與「**自有品牌**」之出現次數**均為0**——未載集團歸屬、毛利結構或自有品牌之敘述。"
+        }
+      ],
+      "rationale": "「為**企業級網通**與**邊緣運算（Edge Computing）**產品之**代工**廠」獲發行人簡報支持：簡報中「**邊緣運算**」2次、「**Edge**」4次、「**代工**」1次。**惟三項陳述未獲支持**：(1)「隸屬於**神腦集團**」——「**神腦**」出現次數為**0**；(2)「具**高毛利產品組合**」——「**高毛利**」為**0**；(3)「及**自有品牌**廠」——「**自有品牌**」為**0**。故部分成立。",
+      "proposed_text": "神準科技 (3558，Senao Networks) 為企業級網通與邊緣運算（Edge Computing）產品之代工廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3664:profitability_assertion:29e87a23c32ceb1c",
+      "normalized_claim_hash": "29e87a23c32ceb1c5450ffdd4f087c2147ea2a3117380ea836ad0a07046e85a5",
+      "ticker": "3664",
+      "company": "安瑞-KY",
+      "path": "Pilot_Reports/Communication Equipment/3664_安瑞-KY.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年獲泛[[鴻海]]集團之工業大老 [[樺漢]] 及 [[大宇資]] 強勢入股引進，不甩傳統硬體賣斷，強攻高毛利之雲端 ESaaS 訂閱制及端對端企業級零信任 (Zero Trust) 防禦生態系)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/366420231127M001.pdf",
+          "title": "安瑞科技股份有限公司（安瑞-KY，3664，Array Networks）法人說明會簡報（2023-11-27）",
+          "source_level": 3,
+          "period_binding": "2023年11月27日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,662字元，以圖形排版為主）。簡報中「**樺漢**」出現3次、「**零信任**」1次，**支持樺漢之股東關係與零信任（Zero Trust）業務方向之敘述**。**關鍵發現**：全份簡報中「**大宇資**」「**鴻海**」「**ESaaS**」「**Zero Trust**」（英文）與「**訂閱**」之出現次數**均為0**；「高毛利」亦為0。"
+        }
+      ],
+      "rationale": "「獲泛[[鴻海]]集團之工業大老 [[樺漢]]…入股引進，強攻…企業級**零信任**（Zero Trust）防禦生態系」獲發行人簡報之**部分支持**：簡報中「**樺漢**」出現3次、「**零信任**」1次，**支持樺漢之股東關係與零信任業務方向**。**惟多項陳述未獲支持**：(1)「及[[大宇資]]」——「**大宇資**」出現次數為**0**；(2)「泛**鴻海**集團」——「**鴻海**」為**0**；(3)「高毛利之雲端 **ESaaS 訂閱制**」——「**ESaaS**」「**訂閱**」與「高毛利」之出現次數**均為0**（英文「Zero Trust」亦為0）；(4)「端對端」之完整表述未見。故部分成立。",
+      "proposed_text": "安瑞科技 (3664，Array Networks) 獲樺漢入股，並發展企業級零信任（Zero Trust）防禦產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3694:material_named_relationship:3908e3ba4e8cd7ae",
+      "normalized_claim_hash": "3908e3ba4e8cd7ae70f0661713784a6375b18e816b9de26ef88f7b130661c67a",
+      "ticker": "3694",
+      "company": "海華",
+      "path": "Pilot_Reports/Communication Equipment/3694_海華.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "4. **智能家電佈局**: 產品已廣泛打入全球一線品牌印表機及白色家電 (如三星/[[LG]] 的連網冰箱、空調) 供應鏈，具備優異的交叉認證實力。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）",
+          "title": "海華科技股份有限公司（海華，3694，AzureWave）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次就海華（**3694**）進行官方文件檢索，**所嘗試之端點（公開資訊觀測站簡報端點與發行人官網之年度報告端點，含 2020 年與 2018 年版）皆回應 HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得海華可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「智能家電佈局：產品已廣泛打入全球一線品牌**印表機**及**白色家電**（如**三星／[[LG]]** 的連網冰箱、空調）供應鏈」未獲確立：本批次就海華（3694）所嘗試之官方端點**皆回應 HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3694:profitability_assertion:65466b27d8393dcb",
+      "normalized_claim_hash": "65466b27d8393dcbad81f19d1eea746a589bebd7a26631fd4d3917fbabe73248",
+      "ticker": "3694",
+      "company": "海華",
+      "path": "Pilot_Reports/Communication Equipment/3694_海華.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "專注於挑戰極限縮小化設計與封裝之 SiP (系統級封裝) 無線通訊模組與高階數位影像處理模組製造大廠，目前正積極從傳統中低利潤 PC 模組市場，強勢轉型跨足至高毛利之 AI 邊緣運算與次世代穿戴式微型模組)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）",
+          "title": "海華科技股份有限公司（海華，3694，AzureWave）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次就海華（**3694**）進行官方文件檢索，**所嘗試之端點（公開資訊觀測站簡報端點與發行人官網之年度報告端點，含 2020 年與 2018 年版）皆回應 HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得海華可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「專注於 **SiP（系統級封裝）無線通訊模組**與高階數位影像處理模組製造大廠…轉型跨足至高毛利之 **AI 邊緣運算**」未獲確立：所嘗試之官方端點**皆回應 HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3694:material_named_relationship:dadb426643e6fced",
+      "normalized_claim_hash": "dadb426643e6fced0d5f9bb71030656c8482ec0cc97b0cd5906a57a5dc527585",
+      "ticker": "3694",
+      "company": "海華",
+      "path": "Pilot_Reports/Communication Equipment/3694_海華.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "不甘於傳統電腦框架，其無線模組已強勢打入全球頂層白色家電巨頭生態系 (如韓國三星、[[LG]] 之高單價連網智慧家電)，且市場盛傳其極致微型化封裝技術已獲特定神秘外資大廠青睞，強勢切入下一世代 AI 智慧眼鏡與穿戴系統裝置核心供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）",
+          "title": "海華科技股份有限公司（海華，3694，AzureWave）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次就海華（**3694**）進行官方文件檢索，**所嘗試之端點（公開資訊觀測站簡報端點與發行人官網之年度報告端點，含 2020 年與 2018 年版）皆回應 HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得海華可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「其無線模組已強勢打入全球頂層**白色家電巨頭**生態系（如**韓國三星、[[LG]]** 之高單價連網智慧家電）…」未獲確立：所嘗試之官方端點**皆回應 HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
