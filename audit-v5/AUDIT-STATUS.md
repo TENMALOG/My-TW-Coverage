@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 09:04 UTC
+Updated: 2026-10-12 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,25 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **953 / 1,399**
-- Remaining author review: **446**
-- Latest batch: **author-177** (2 claims)
+- Author-reviewed: **958 / 1,399**
+- Remaining author review: **441**
+- Latest batch: **author-178** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **622**
+- `PARTIALLY_SUPPORTED`: **623**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **235**
+- `UNKNOWN_AFTER_RESEARCH`: **239**
 
 ## Latest claim batch
 
-- `6508:export_concentration:d679e0352a3e6a29`、`9321018679533bfd` — `UNKNOWN_AFTER_RESEARCH` ×2；惠光官方端點（年報與永續報告書）**皆回傳 HTTP 403**（**經加入 User-Agent 與 Referer 標頭重試仍為 403**）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-177.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `2610:material_named_relationship:2e40073714d0a5be` (華航).
+- `2610:material_named_relationship:2e40073714d0a5be` — `UNKNOWN_AFTER_RESEARCH`；華航官方年報端點 **HTTP 403**。
+- `2646:material_named_relationship:bb36b2baf871ecc0`、`2646:export_concentration:3f957a41898c043c` — `UNKNOWN_AFTER_RESEARCH` ×2；星宇文件「AI 伺服器」「北美」「72%」皆0次（且為**2022年版本，早於貨運業務**）。
+- `2646:material_named_relationship:2da1bdd0a02eaff8` — `PARTIALLY_SUPPORTED`；文件載「引進**A321neo**、**A330-900neo**及**A350-900**三種新世代機種」；惟「**Airbus」0 次**、「A330neo」（文件作 A330-900neo）、「A350-1000」「A350F」「獨家」皆0次。
+- `8942:material_named_relationship:3ed45ecdbb814b9b` — `UNKNOWN_AFTER_RESEARCH`；森鉅文件為 **101年度年報（2012年）**，「北美」「拖車」及五家拖車廠名稱皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-178.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `4558:material_named_relationship:bd9a41e2bb96675f` (寶緯).
 
 ## Source access
 

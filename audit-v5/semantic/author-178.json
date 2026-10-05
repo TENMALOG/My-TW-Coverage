@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-178",
+  "reviewed_at": "2026-10-05T21:36:45Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (星宇航空公司概況資料表; 森鉅101年度年報); 華航端點HTTP 403，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2610:material_named_relationship:2e40073714d0a5be",
+      "normalized_claim_hash": "2e40073714d0a5be13a69cb005b05f4d2607fa30a18a622782bdef30749d2771",
+      "ticker": "2610",
+      "company": "華航",
+      "path": "Pilot_Reports/Airlines/2610_華航.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]] — 航空燃油獨家供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.china-airlines.com/Images/2023_CAL_Annual_Report_ZH_tcm182-48861.pdf",
+          "title": "中華航空股份有限公司（華航，2610，China Airlines）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域（china-airlines.com）下載2023年報時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得華航可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[台灣中油]] — 航空燃油獨家供應」未獲確立：本批次自發行人官方網域下載年報時回應 **HTTP 403（禁止）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2646:material_named_relationship:bb36b2baf871ecc0",
+      "normalized_claim_hash": "bb36b2baf871ecc0329636dbcd1ec741379d38f9f78c87e8c8d5510fee4dde22",
+      "ticker": "2646",
+      "company": "星宇航空",
+      "path": "Pilot_Reports/Airlines/2646_星宇航空.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "貨運受惠於台灣[[AI 伺服器]]供應鏈出口，北美貨運營收佔比達 72%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2022/09/1663837975_10636_CH_2646.pdf",
+          "title": "星宇航空股份有限公司（星宇航空，2646，STARLUX Airlines）公司概況資料表（2022年9月）",
+          "source_level": 3,
+          "period_binding": "2022年9月登錄資料。**非近期版本，早於其貨運業務之開展**。",
+          "accessed_at": "2026-10-12",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取10,721字元）。文件載「首架**A321neo**客機交機」與「星宇航空公司依整體策略規劃選擇引進**A321neo**窄體客機、**A330-900neo**中長程廣體客機及**A350-900**長程廣體客機三種新世代機種」（「**A321neo**」3次、「**A350**」2次、「機隊」3次），支持其機隊機型引進之敘述。**關鍵發現**：(1)「**Airbus**」與「**A330neo**」之出現次數**均為0**（文件僅載機型代號「A330-**900**neo」）；(2)「**A350-1000**」「**A350F**」與「**獨家**」均為0；(3)「**AI 伺服器**」與「**72%**」均為0（該文件為2022年版本，**早於**其貨運業務之開展）。"
+        }
+      ],
+      "rationale": "「貨運受惠於台灣 [[AI 伺服器]]供應鏈出口，北美貨運營收佔比達 **72%**」未獲確立：所取得之星宇公司概況資料表中「**AI 伺服器**」「**北美**」與「**72%**」之出現次數**均為0**；且該文件為 **2022 年**版本，**早於**其貨運業務之開展。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2646:export_concentration:3f957a41898c043c",
+      "normalized_claim_hash": "3f957a41898c043c2882b26ef2631dafbb0ff4a5e8f0505fe7179480c48c8fb1",
+      "ticker": "2646",
+      "company": "星宇航空",
+      "path": "Pilot_Reports/Airlines/2646_星宇航空.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[AI 伺服器]]出口商 — 北美線高價值科技貨物 (佔貨運營收 72%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2022/09/1663837975_10636_CH_2646.pdf",
+          "title": "星宇航空股份有限公司（星宇航空，2646，STARLUX Airlines）公司概況資料表（2022年9月）",
+          "source_level": 3,
+          "period_binding": "2022年9月登錄資料。**非近期版本，早於其貨運業務之開展**。",
+          "accessed_at": "2026-10-12",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取10,721字元）。文件載「首架**A321neo**客機交機」與「星宇航空公司依整體策略規劃選擇引進**A321neo**窄體客機、**A330-900neo**中長程廣體客機及**A350-900**長程廣體客機三種新世代機種」（「**A321neo**」3次、「**A350**」2次、「機隊」3次），支持其機隊機型引進之敘述。**關鍵發現**：(1)「**Airbus**」與「**A330neo**」之出現次數**均為0**（文件僅載機型代號「A330-**900**neo」）；(2)「**A350-1000**」「**A350F**」與「**獨家**」均為0；(3)「**AI 伺服器**」與「**72%**」均為0（該文件為2022年版本，**早於**其貨運業務之開展）。"
+        }
+      ],
+      "rationale": "「[[AI 伺服器]]出口商 — 北美線高價值科技貨物（佔貨運營收 **72%**）」未獲確立：同上，文件中「**AI 伺服器**」「**北美**」與「**72%**」均為0，且該文件為2022年版本。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2646:material_named_relationship:2da1bdd0a02eaff8",
+      "normalized_claim_hash": "2da1bdd0a02eaff8581491683342776ef4203712152cc5ce6c3fcd33482b422e",
+      "ticker": "2646",
+      "company": "星宇航空",
+      "path": "Pilot_Reports/Airlines/2646_星宇航空.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Airbus]] — 全機隊獨家供應 (A321neo/A330neo/A350-900/A350-1000/A350F)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2022/09/1663837975_10636_CH_2646.pdf",
+          "title": "星宇航空股份有限公司（星宇航空，2646，STARLUX Airlines）公司概況資料表（2022年9月）",
+          "source_level": 3,
+          "period_binding": "2022年9月登錄資料。**非近期版本，早於其貨運業務之開展**。",
+          "accessed_at": "2026-10-12",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取10,721字元）。文件載「首架**A321neo**客機交機」與「星宇航空公司依整體策略規劃選擇引進**A321neo**窄體客機、**A330-900neo**中長程廣體客機及**A350-900**長程廣體客機三種新世代機種」（「**A321neo**」3次、「**A350**」2次、「機隊」3次），支持其機隊機型引進之敘述。**關鍵發現**：(1)「**Airbus**」與「**A330neo**」之出現次數**均為0**（文件僅載機型代號「A330-**900**neo」）；(2)「**A350-1000**」「**A350F**」與「**獨家**」均為0；(3)「**AI 伺服器**」與「**72%**」均為0（該文件為2022年版本，**早於**其貨運業務之開展）。"
+        }
+      ],
+      "rationale": "「機隊引進 **A321neo**、**A330neo**、**A350-900** 等機型」獲發行人相關資料支持：文件載「首架**A321neo**客機交機」與「引進**A321neo**窄體客機、**A330-900neo**中長程廣體客機及**A350-900**長程廣體客機三種新世代機種」（「**A321neo**」3次、「**A350**」2次）。惟四項陳述未獲支持：(1)「[[Airbus]]」——出現次數為**0**（文件僅載機型代號，未載製造商名）；(2)「（**A330neo**）」——文件作「**A330-900neo**」（**型號命名差異**）；(3)「A350-1000」與「A350F」——均為0；(4)「全機隊**獨家**供應」——「獨家」為0。故部分成立。",
+      "proposed_text": "星宇航空 (2646，STARLUX Airlines) 機隊引進 A321neo、A330-900neo 及 A350-900 等新世代機型。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8942:material_named_relationship:3ed45ecdbb814b9b",
+      "normalized_claim_hash": "3ed45ecdbb814b9bb4e63da675d305096b1829b7f8f5562553af0ab2158a06ed",
+      "ticker": "8942",
+      "company": "森鉅",
+      "path": "Pilot_Reports/Aluminum/8942_森鉅.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://xxentria-tech.com/assets/uploads/invester/financialreport/3/report5ff92928e090f.pdf",
+          "title": "森鉅科技材料股份有限公司（森鉅，8942，Xxentria Technology Materials）101 年度年報",
+          "source_level": 3,
+          "period_binding": "民國101年度（2012年）。**非近期版本**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取194,608字元）。年報封面載「**森鉅**科技材料股份有限公司 **XXENTRIA TECHNOLOGY MATERIALS CO.,LTD.**」「**101** 年度 年報」「中華民國 **102** 年 4 月 19 日刊印」（「**森鉅**」189次、「客戶」50次、「XXENTRIA」4次），確認文件歸屬。**關鍵發現**：全份年報中「**北美**」「**拖車**」「**trailer**」「**Wabash**」「**Great Dane**」「**Utility**」「**Vanguard**」「**Stoughton**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群」未獲確立：所取得之森鉅年報（**101 年度＝2012年，非近期版本**）中，「**北美**」「**拖車**」「**trailer**」與該五家廠商名稱之出現次數**均為0**（「客戶」50次顯示年報有客戶相關敘述，惟未具名該等對象）。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
