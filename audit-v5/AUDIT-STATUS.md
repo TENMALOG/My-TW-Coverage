@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 16:04 UTC
+Updated: 2026-10-14 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,180 / 1,399**
-- Remaining author review: **219**
-- Latest batch: **author-232** (6 claims)
+- Author-reviewed: **1,186 / 1,399**
+- Remaining author review: **213**
+- Latest batch: **author-233** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **101**
-- `PARTIALLY_SUPPORTED`: **739**
+- `PARTIALLY_SUPPORTED`: **744**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **335**
+- `UNKNOWN_AFTER_RESEARCH`: **336**
 
 ## Latest claim batch
 
-- `6116:profitability_assertion:fee901f6415a0400` — `PARTIALLY_SUPPORTED`；彩晶年報「**車載」42 次、「面板」185 次**；**惟「高毛利」1 次且係泛用敘述**。
-- `6116:material_named_relationship:aba5c3b20e5397e2` — `UNKNOWN_AFTER_RESEARCH`；**「HP」1 次係地址「Hempstead HP2 4TZ」之子字串**，「**宏碁／Dell」皆 0 次**。
-- `6155:material_named_relationship:7c03d4361ff42950` — `PARTIALLY_SUPPORTED`；鈞寶簡報「**電感」6 次、「5G」4 次**；**惟「LTCC／低溫共燒／陶瓷」皆 0 次**。
-- `6158:material_named_relationship:abe99517d07e32de` — `PARTIALLY_SUPPORTED`；禾昌文件**逐字載**「軟板暨軟排線**連接器**、**液晶面板**及顯示器**連接器**」（連接器36次、液晶面板4次）；**惟具名客戶未獲支持**。
-- `5474:material_named_relationship:8a46d7cd77b269e6` — `PARTIALLY_SUPPORTED`；聰泰ESG「**影像擷取」11 次、「AI」28 次**；**惟「歐美／人形」皆 0 次，且「機器人」1 次係產業協會名稱**。
-- `5251:material_named_relationship:7a2e178397650de7` — `UNKNOWN_AFTER_RESEARCH`；天鉞電**未取得官方文件**（搜尋僅導向第三方資訊站，不予採用）。
-- 證據記錄於 `semantic/author-232.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,180 ＝ 條目總數 1,180。
-- Next pending claim by priority: `5315:profitability_assertion:a8d38d9aef0affb8` (光聯).
+- `5315:profitability_assertion:a8d38d9aef0affb8` — `PARTIALLY_SUPPORTED`；光聯年報「**車載」4 次、「利基」3 次**；**惟「Porsche／高毛利」皆 0 次**。
+- `5328:material_named_relationship:6e569e23de500446` — `PARTIALLY_SUPPORTED`；華容手冊「**電容」11 次、「電動車」1 次**並載「綠色新能源配套用**電容器**」；**惟「充電樁／中國車廠」皆 0 次**。
+- ⚠️ `5345:profitability_assertion:a313145adca2eb03` — `PARTIALLY_SUPPORTED`；**馥鴻（5345）現已為「馥鴻建設」（FullHome）**，其2025年法說會內容為**建設事業**（「**電源**」與「**科技**」各僅1次），**與 claim 所述之「智慧電源控制技術」方向不同**——**已標示此業務變更供複核者優先檢視**。
+- `6114:material_named_relationship:95a80caca976facc` — `UNKNOWN_AFTER_RESEARCH`；所取得檔案僅 **2,753 bytes**（**無文字層**）。
+- `6205:profitability_assertion:3622ea1b4a869dfe` — `PARTIALLY_SUPPORTED`；詮欣簡報載「**車用**高速傳輸技術」「以高速高頻技術突破 **Tier 1 車用客戶供應鏈**」（車用4次、PC 8次、轉型1次）。
+- `6207:material_named_relationship:500ab024118bcd98` — `PARTIALLY_SUPPORTED`；雷科簡報載「**COWOS 設備**」「**CoWoS CT**」（CoWoS 4次、量測3次）；**惟「台積電／雷射切割」皆 0 次**。
+- 證據記錄於 `semantic/author-233.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,186 ＝ 條目總數 1,186。
+- Next pending claim by priority: `6210:material_named_relationship:735bde0845d750f2` (慶生).
 
 ## Source access
 

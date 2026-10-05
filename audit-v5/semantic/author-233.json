@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-233",
+  "reviewed_at": "2026-10-05T22:48:17Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (光聯112年度年報; 華容股東會議事手冊; 馥鴻建設2025年法人說明會簡報; 詮欣2025年法人說明會簡報; 雷科法人說明會簡報); 久威檔案無文字層",
+  "items": [
+    {
+      "claim_id": "5315:profitability_assertion:a8d38d9aef0affb8",
+      "normalized_claim_hash": "a8d38d9aef0affb842b4723353196790a251f6e7060f82d9b44ada787fbe092c",
+      "ticker": "5315",
+      "company": "光聯",
+      "path": "Pilot_Reports/Electronic Components/5315_光聯.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.urt.com.tw/upload-files/Investors/CSR/Shareholder/112_Annual_Report.pdf",
+          "title": "光聯科技股份有限公司（光聯，5315，URT）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取214,618字元）。年報載「案，產品聚焦於工控、醫療、白色家電、戶外應用和**車載**/船舶。年度營業目標如下」「的電容式觸控產品，打入**車載**應用市場」（「**車載**」4次、「**利基**」3次），**支持其車載應用與利基市場方向**。**關鍵發現**：全份年報中「**Porsche**」與「**高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「近年積極轉型至**利基型**市場：(1) **車載顯示**」獲發行人年報之**部分支持**：年報載「產品聚焦於工控、醫療、白色家電、戶外應用和**車載**/船舶」「的電容式觸控產品，打入**車載**應用市場」（「**車載**」4次、「**利基**」3次），**支持其車載應用與利基市場方向**。**惟兩項陳述未獲支持**：(1)「為 **[[Porsche]]**（供應商）」——「**Porsche**」之出現次數**為0**；(2)「**高毛利**市場」——「高毛利」為**0**。故部分成立。",
+      "proposed_text": "光聯科技 (5315，URT) 之產品應用涵蓋車載顯示等利基市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5328:material_named_relationship:6e569e23de500446",
+      "normalized_claim_hash": "6e569e23de500446e2e1194fa5bbae192ce970f326351332e0dc6ac71651241e",
+      "ticker": "5328",
+      "company": "華容",
+      "path": "Pilot_Reports/Electronic Components/5328_華容.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) **[[電動車]]** — 充電樁電容 (已打入中國車廠供應鏈)；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://hjc.com.tw/doc/Investor/Inv-Governance/Gov-Shareholder/Sha-Agenda/115Agenda-zh.pdf",
+          "title": "華容股份有限公司（華容，5328，HJC）一一五年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國115年股東常會。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取36,113字元）。文件載「本公司針對**塑膜電容**未來將朝向」「1.綠色新能源配套用**電容器**」「2.戶外惡劣環境及長壽命配套用**電容器**」（「**電容**」11次、「**電動車**」1次），**支持其電容器業務與新能源方向**。**關鍵發現**：全份文件中「**充電樁**」與「中國車廠」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「(3) **[[電動車]]** —（**電容**）」獲發行人股東會議事手冊之**部分支持**：文件載「本公司針對**塑膜電容**未來將朝向」「1.綠色新能源配套用**電容器**」「2.戶外惡劣環境及長壽命配套用**電容器**」（「**電容**」11次、「**電動車**」1次），**支持其電容器業務與新能源應用**。**惟兩項陳述未獲支持**：(1)「**充電樁**電容」——「**充電樁**」之出現次數**為0**；(2)「已打入**中國車廠供應鏈**」——「中國車廠」為**0**。故部分成立。",
+      "proposed_text": "華容 (5328，HJC) 之電容器產品應用於綠色新能源等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5345:profitability_assertion:a313145adca2eb03",
+      "normalized_claim_hash": "a313145adca2eb03955aa981c51a5dc0ef5a5783bcd5de71c78c516870177778",
+      "ticker": "5345",
+      "company": "馥鴻",
+      "path": "Pilot_Reports/Electronic Components/5345_馥鴻.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司持續投入研發智慧電源控制技術，期望科技事業成為未來成長引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/534520251216M001.pdf",
+          "title": "馥鴻建設股份有限公司（馥鴻，5345，FullHome）2025年法人說明會簡報（2025-12-16）",
+          "source_level": 3,
+          "period_binding": "2025年12月16日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,238字元）。簡報封面載「**馥鴻建設**(股票代號5345) 2025年法人說明會 2025.12.16 **馥鴻FullHome**」，目錄為「一、公司簡介 二、產業概況 三、經營績效 四、未來展望 五、Q&A」（「**馥鴻**」11次、「**建設**」4次）。**關鍵發現（業務性質）**：**該公司現名為「馥鴻建設」，其2025年法人說明會之內容為建設事業**；「**電源**」與「**科技**」之出現次數**各僅1次**，**未見「智慧電源控制技術」之敘述**。"
+        }
+      ],
+      "rationale": "「公司持續投入研發**智慧電源控制技術**，期望**科技事業**成為未來成長引擎」**部分未獲支持**：所取得之馥鴻2025年法人說明會簡報封面載「**馥鴻建設**(股票代號5345) 2025年法人說明會 2025.12.16 **馥鴻FullHome**」，目錄為「公司簡介／產業概況／經營績效／未來展望」——**該公司現名為「馥鴻建設」，其2025年法人說明會之內容為建設事業**；「**電源**」與「**科技**」之出現次數**各僅1次**，**未見「智慧電源控制技術」之敘述**。**業務性質註記**：**該公司之業務已由（原）科技事業轉為建設事業**，本 claim 所述之科技事業方向與現行官方揭露不同，故部分成立並標示此一業務變更，供複核者優先檢視。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6114:material_named_relationship:95a80caca976facc",
+      "normalized_claim_hash": "95a80caca976facc6325044821e86a3129a632b84e5cd72441a2aa9f745ce69d",
+      "ticker": "6114",
+      "company": "久威",
+      "path": "Pilot_Reports/Electronic Components/6114_久威.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "憑藉精準供應鏈管理，成功打入美國科技品牌大廠 ([[Apple]] 供應鏈) 及中國大型電子製造服務商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.juic.com.tw/mdb/docs/524/5243_113.pdf",
+          "title": "久威國際股份有限公司（久威，6114，JUIC）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自發行人官方網域所取得之檔案**僅 2,753 bytes**，**文字擷取僅得20字元**（僅「===== PAGE 1 =====」）——**屬無文字層之檔案**，未能判讀其內容；本批次未取得久威可判讀之官方文件。"
+        }
+      ],
+      "rationale": "「憑藉精準供應鏈管理，成功打入美國科技品牌大廠（[[Apple]] **供應鏈**）及中國大型電（子）…」未獲確立：本批次自發行人官方網域所取得之檔案**僅 2,753 bytes**，**文字擷取僅得20字元**——**屬無文字層之檔案**，未能判讀其內容；故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6205:profitability_assertion:3622ea1b4a869dfe",
+      "normalized_claim_hash": "3622ea1b4a869dfe45a11ee48a650aba3c70ab4b89a1f2cf1f80848a6cab366b",
+      "ticker": "6205",
+      "company": "詮欣",
+      "path": "Pilot_Reports/Electronic Components/6205_詮欣.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "過去以PC及[[消費性電子]][[連接器]]為主，近年來詮欣成功且大幅度地轉型至「車用」及「高速[[網通]]」高毛利市場。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/620520250731E001.pdf",
+          "title": "詮欣股份有限公司（詮欣，6205，Chant Sincere）2025年法人說明會簡報（2025-07-31）",
+          "source_level": 3,
+          "period_binding": "2025年7月31日。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,749字元，以圖形排版為主）。簡報載「**車用**高速傳輸技術」「•以高速高頻技術突破 **Tier 1 車用客戶供應鏈**」（「**車用**」4次、「**PC**」8次、「**消費性**」1次、「**轉型**」1次、「**連接器**」2次），**支持其車用高速傳輸業務與車用 Tier 1 客戶關係**。"
+        }
+      ],
+      "rationale": "「過去以 **PC** 及**消費性**電子**連接器**為主，近年來成功且大幅度地**轉型**至『**車用**』」獲發行人簡報**充分支持**：簡報載「**車用**高速傳輸技術」「•以高速高頻技術突破 **Tier 1 車用客戶供應鏈**」（「**車用**」4次、「**PC**」8次、「**消費性**」1次、「**轉型**」1次、「**連接器**」2次），**支持其車用高速傳輸業務與車用 Tier 1 客戶關係**。**惟該 claim 之後續要素未於本簡報中一一對應**（簡報為5,749字元之精簡版本），故部分成立。",
+      "proposed_text": "詮欣 (6205，Chant Sincere) 以高速高頻技術切入 Tier 1 車用客戶供應鏈。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6207:material_named_relationship:500ab024118bcd98",
+      "normalized_claim_hash": "500ab024118bcd9815a95fc4f1ace5e08254ffb304a8bdf35a8c57806964a023",
+      "ticker": "6207",
+      "company": "雷科",
+      "path": "Pilot_Reports/Electronic Components/6207_雷科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "更重要的是，其[[半導體]]雷射切割機與量測設備已成功打入[[台積電]] [[CoWoS]]先進封裝及[[NVIDIA]](輝達)主力封測廠供應鏈，受惠[[AI[[伺服器]]]]擴產潮，訂單能見度極高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lasertek.com.tw/download/service/20241218_investor_tw.pdf",
+          "title": "雷科股份有限公司（雷科，6207，Lasertek）法人說明會簡報（2024-12-18）",
+          "source_level": 3,
+          "period_binding": "2024年12月18日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取4,440字元，以圖形排版為主）。簡報載「**COWOS 設備**」「**CoWoS CT**」（「**CoWoS**」4次、「**量測**」3次），**支持其具備 CoWoS 相關設備與量測能力**。**關鍵發現**：全份簡報中「**台積電**」與「**雷射切割**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「其 [[半導體]]…與**量測設備**已成功打入（[[台積電]]）**[[CoWoS]]**（供應鏈）」獲發行人簡報之**部分支持**：簡報載「**COWOS 設備**」「**CoWoS CT**」（「**CoWoS**」4次、「**量測**」3次），**支持其具備 CoWoS 相關設備與量測能力**。**惟兩項陳述未獲支持**：(1)「**台積電**」——出現次數**為0**，**未具名該客戶**；(2)「**雷射切割**機」——「雷射切割」為**0**。故部分成立。",
+      "proposed_text": "雷科 (6207，Lasertek) 之量測設備應用於 CoWoS 相關製程。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
