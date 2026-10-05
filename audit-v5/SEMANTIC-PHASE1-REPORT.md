@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **12 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), and `author-004` (2).
+Author-reviewed: **13 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), and `author-005` (1).
 
 - ACCEPTED by author: 5
-- PARTIALLY_SUPPORTED: 5
+- PARTIALLY_SUPPORTED: 6
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 1
 - Other allowed author decisions: 0
-- Remaining author queue: 1,387
+- Remaining author queue: 1,386
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -70,3 +70,10 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - 完整 evidence 與 proposed wording 記錄於 `semantic/author-004.json`；沒有修改發行人報告。
 - Author-reviewed total: 12 / 1,399; remaining author queue: 1,387. 獨立複核仍待處理。
 - 本次已直接開啟台肥官網並下載、檢視 114 年度年報 PDF；興農與 MOPS 公司年報內容仍無法檢視。
+
+## Author batch `author-005` — 2026-10-05
+
+- Reviewed 1 previously unreviewed HIGH claim at claim level: `1722:objective_ranking_or_market_share:991de260b51083b7`.
+- Decision: `PARTIALLY_SUPPORTED`. 台肥官網支持其持有土地約 170 公頃及南港開發方式；114 年度年報列出 C2、C3 案件，但查閱來源未支持「台北市最大地主」、3.58 萬坪或 150 億／逾 100 億元等排名與金額。
+- Evidence URL、標題、來源層級、期間、查閱日期、evidence note 與 proposed wording 記錄於 `semantic/author-005.json`；未修改發行人報告。
+- Author-reviewed total: 13 / 1,399; remaining author queue: 1,386. 獨立複核仍待處理。

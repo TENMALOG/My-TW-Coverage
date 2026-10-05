@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-005",
+  "reviewed_at": "2026-10-05T13:36:32Z",
+  "reviewer_role": "author",
+  "method": "manual review of opened official issuer real-estate page and annual report; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:991de260b51083b7",
+      "normalized_claim_hash": "991de260b51083b7baa2cc6e7cc250c4177c273e1c2fb60c39f796fd5423b3e0",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 不動產 — 持有全台土地約 53 萬坪，南港經貿園區為台北市最大地主 (約 3.58 萬坪)，南港 C3 地上權案帶來 150 億元現金、C2 觀光旅館暨辦公大樓總投資逾 100 億元；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taifer.com.tw/Products/Realestatedevelopment/Businessintroduction.htm",
+          "title": "業務簡介 - 台灣肥料股份有限公司",
+          "source_level": 3,
+          "period_binding": "台肥現行官網頁面未標示發布日期；於 2026-10-05 查閱，僅支持查閱時列示的持地與開發現況。",
+          "accessed_at": "2026-10-05",
+          "note": "官網稱台肥持有土地面積約 170 公頃，位於台北、基隆、新竹、苗栗、高雄及花蓮等地，並說明南港經貿園區採自建、合建及設定地上權等方式開發。170 公頃換算約 51.4 萬坪；頁面未稱台肥為台北市最大地主，也未列南港土地 3.58 萬坪或相關現金、投資金額。"
+        },
+        {
+          "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=0684f8ce-a497-436b-8213-d73f9285ecff&type=FileUpload&no=1&sourceType=0",
+          "title": "114年度台肥公司年報",
+          "source_level": 2,
+          "period_binding": "民國 114 年度（2025 會計年度）公司年報；發行人年報清單列示更新日期為 2026-05-18。",
+          "accessed_at": "2026-10-05",
+          "note": "年報記載南港經貿園區 C2 旅館及辦公室開發案與 C3 土地地上權案，並描述 C2 開發營運進度；查閱段落未列出『台北市最大地主』、3.58 萬坪、C3 帶來 150 億元現金或 C2 總投資逾 100 億元等數值。"
+        }
+      ],
+      "rationale": "台肥官網支持其持有約 170 公頃、分布於多個縣市的土地及南港經貿園區開發方式；114 年度年報支持 C2、C3 案件存在。這些正式來源未明確支持台北市最大地主排名、3.58 萬坪及 150 億元、逾 100 億元金額，因此不能接受完整原句；不把來源未載明數字或排名當作反證。",
+      "proposed_text": "台肥官網稱其持有土地約 170 公頃，分布於台北、基隆、新竹、苗栗、高雄及花蓮；114 年度年報列有南港經貿園區 C2 旅館及辦公室開發案與 C3 土地地上權案。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
