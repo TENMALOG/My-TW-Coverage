@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-193",
+  "reviewed_at": "2026-10-05T21:54:46Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (振樺電法人說明會簡報; 東鹼/東南實業2025英文年報)",
+  "items": [
+    {
+      "claim_id": "8114:material_named_relationship:921e6972ef8ae42f",
+      "normalized_claim_hash": "921e6972ef8ae42fbcdddb9bfe8da6065a86427b475d065bf31cae5638e11da2",
+      "ticker": "8114",
+      "company": "振樺電",
+      "path": "Pilot_Reports/Business Equipment & Supplies/8114_振樺電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在車用智聯網端，成功打入 [[比亞迪]]、吉利汽車等供應鏈，以及電池巨頭 [[寧德時代]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/811420250916M001.pdf",
+          "title": "振樺電子股份有限公司（振樺電，8114，Posiflex）法人說明會簡報（2025-09-16）",
+          "source_level": 3,
+          "period_binding": "2025年9月16日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取7,534字元，以圖形排版為主）。簡報首頁為「SAFE HARBOR」前瞻性聲明，內容含「Posiflex」與「IoT」（「**IoT**」7次、「AI」26次）。**關鍵發現**：全份簡報中「**BYD**」「**Geely**」「**CATL**」「**automotive**」「**vehicle**」「**battery**」及中文「比亞迪」「吉利」「寧德」「車用」之出現次數**均為0**——未具名任何車廠或電池業者。"
+        }
+      ],
+      "rationale": "「在**車用智聯網**端，成功打入 [[比亞迪]]、吉利汽車等供應鏈，以及電池巨頭 [[寧德時代]]」未獲確立：所取得之振樺電簡報（**英文版**）中「**BYD**」「**Geely**」「**CATL**」「**automotive**」「**vehicle**」「**battery**」及中文「比亞迪」「吉利」「寧德」「車用」之出現次數**均為0**（簡報內容以前瞻性聲明與 IoT、AI 字樣為主），**未具名任何車廠或電池業者**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1708:export_concentration:f1f882d8f1abeb7f",
+      "normalized_claim_hash": "f1f882d8f1abeb7fb5f79c7711507c9799288ae030190928b5b01c8d359aa902",
+      "ticker": "1708",
+      "company": "東鹼",
+      "path": "Pilot_Reports/Chemicals/1708_東鹼.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "SOP 肥料 98% 以上外銷至印度、巴基斯坦、日本、澳洲、越南、泰國及中南美洲，應用於葡萄、菸草、柑橘等忌氯高價值作物。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.sesoda.com.tw/en/putFiles/890ZidcJifTU1gU1",
+          "title": "東南實業股份有限公司（東鹼，1708，Sesoda Corporation）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年報（2026年3月22日刊印）。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取362,279字元，以表格排版為主）。年報中「**SOP**」出現4次、「**sulfate**」53次、「**fertilizer**」46次、「**chlor**」53次、「**export**」21次，支持其**肥料（含硫酸鉀）**業務；國別方面「**India**」3次、「**Pakistan**」1次、「**Japan**」12次、「**Australia**」3次，作物方面「**grape**」2次、「**tobacco**」3次、「**citrus**」2次，**該等國別與作物均有對應敘述**。**關鍵發現**：全份年報中「**Vietnam**」與「**Thailand**」之出現次數**均為0**；「**98**」之51次出現**多屬表格數字而無可判讀之上下文**（該檔以表格排版為主，文字擷取多為斷片），**故「98% 以上外銷」之敘述無法確認**。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「**SOP 肥料**外銷至**印度、巴基斯坦、日本、澳洲**，應用於**葡萄、菸草、柑橘**等忌氯高價值作物」獲發行人年報**充分支持**：年報中「**SOP**」4次、「**sulfate**」53次、「**fertilizer**」46次、「**export**」21次，「**India**」3次、「**Pakistan**」1次、「**Japan**」12次、「**Australia**」3次，「**grape**」2次、「**tobacco**」3次、「**citrus**」2次。**惟兩項陳述未獲支持**：(1)「**越南、泰國**」——「**Vietnam**」與「**Thailand**」之出現次數**均為0**；(2)「**98% 以上**外銷」——「98」之51次出現多屬表格數字而**無可判讀之上下文**，**無法確認該比例**。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "東南實業 (1708，Sesoda) 之 SOP 肥料外銷至印度、巴基斯坦、日本、澳洲等國，應用於葡萄、菸草、柑橘等忌氯作物。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1708:export_concentration:caa88c48de42de01",
+      "normalized_claim_hash": "caa88c48de42de015576bdb2d01903046613449cf2df655365b9717e7f8177a6",
+      "ticker": "1708",
+      "company": "東鹼",
+      "path": "Pilot_Reports/Chemicals/1708_東鹼.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "印度/巴基斯坦/日本/澳洲等國經銷商 (98%+ 外銷)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.sesoda.com.tw/en/putFiles/890ZidcJifTU1gU1",
+          "title": "東南實業股份有限公司（東鹼，1708，Sesoda Corporation）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年報（2026年3月22日刊印）。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取362,279字元，以表格排版為主）。年報中「**SOP**」出現4次、「**sulfate**」53次、「**fertilizer**」46次、「**chlor**」53次、「**export**」21次，支持其**肥料（含硫酸鉀）**業務；國別方面「**India**」3次、「**Pakistan**」1次、「**Japan**」12次、「**Australia**」3次，作物方面「**grape**」2次、「**tobacco**」3次、「**citrus**」2次，**該等國別與作物均有對應敘述**。**關鍵發現**：全份年報中「**Vietnam**」與「**Thailand**」之出現次數**均為0**；「**98**」之51次出現**多屬表格數字而無可判讀之上下文**（該檔以表格排版為主，文字擷取多為斷片），**故「98% 以上外銷」之敘述無法確認**。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「**印度／巴基斯坦／日本／澳洲**等國經銷商」獲發行人年報支持——「**India**」3次、「**Pakistan**」1次、「**Japan**」12次、「**Australia**」3次，**該四國均有對應敘述**。**惟「98%+ 外銷」未獲確認**：「98」之出現多屬表格數字而無可判讀之上下文。故部分成立。",
+      "proposed_text": "東南實業 (1708，Sesoda) 之外銷市場涵蓋印度、巴基斯坦、日本、澳洲等國。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1708:export_concentration:c24aa34e9be5f666",
+      "normalized_claim_hash": "c24aa34e9be5f666f674fe7962d64ff36e49dd3f2f764bf35531d4cdc57a0ed5",
+      "ticker": "1708",
+      "company": "東鹼",
+      "path": "Pilot_Reports/Chemicals/1708_東鹼.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "印度/巴基斯坦/日本/澳洲經銷商 (98%+ 外銷)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.sesoda.com.tw/en/putFiles/890ZidcJifTU1gU1",
+          "title": "東南實業股份有限公司（東鹼，1708，Sesoda Corporation）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年報（2026年3月22日刊印）。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取362,279字元，以表格排版為主）。年報中「**SOP**」出現4次、「**sulfate**」53次、「**fertilizer**」46次、「**chlor**」53次、「**export**」21次，支持其**肥料（含硫酸鉀）**業務；國別方面「**India**」3次、「**Pakistan**」1次、「**Japan**」12次、「**Australia**」3次，作物方面「**grape**」2次、「**tobacco**」3次、「**citrus**」2次，**該等國別與作物均有對應敘述**。**關鍵發現**：全份年報中「**Vietnam**」與「**Thailand**」之出現次數**均為0**；「**98**」之51次出現**多屬表格數字而無可判讀之上下文**（該檔以表格排版為主，文字擷取多為斷片），**故「98% 以上外銷」之敘述無法確認**。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「**印度／巴基斯坦／日本／澳洲**經銷商」獲發行人年報支持（「India」3次、「Pakistan」1次、「Japan」12次、「Australia」3次）。**惟「98%+ 外銷」未獲確認**——「98」之出現多屬表格數字而無可判讀之上下文。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

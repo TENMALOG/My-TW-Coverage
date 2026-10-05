@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 00:04 UTC
+Updated: 2026-10-13 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,007 / 1,399**
-- Remaining author review: **392**
-- Latest batch: **author-192** (3 claims)
+- Author-reviewed: **1,011 / 1,399**
+- Remaining author review: **388**
+- Latest batch: **author-193** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **653**
+- `PARTIALLY_SUPPORTED`: **656**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **254**
+- `UNKNOWN_AFTER_RESEARCH`: **255**
 
 ## Latest claim batch
 
-- `5258:profitability_assertion:058c3be540bc456a` — `PARTIALLY_SUPPORTED`；虹堡簡報載「**Unattended**」「應用於**停車場**、**販賣機**、**充電樁**等場域」；**惟「自助洗衣」0 次**（簡報所載為**停車場**），「高成長／高毛利」亦0次。
-- `6128:control_acquisition:1e2385e0d1322572` — `UNKNOWN_AFTER_RESEARCH`；上福簡報**文字擷取僅1,539字元**且幾無敘述性內容，「**Katun」0 次**、「併購／收購／通路」皆0次。
-- `6026:identity_changing_event:504673eb4d7df212` — `PARTIALLY_SUPPORTED`；福邦證年報載「**78 年09 月 三陽證券公司成立**」（**民國78年＝1989年**）、「三陽證券」6次；惟「**2016」0 次**（上櫃年分未載）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-192.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `8114:material_named_relationship:921e6972ef8ae42f` (振樺電).
+- `8114:material_named_relationship:921e6972ef8ae42f` — `UNKNOWN_AFTER_RESEARCH`；振樺電簡報（英文）「**BYD／Geely／CATL／automotive／vehicle／battery」皆 0 次**。
+- `1708:export_concentration:f1f882d8f1abeb7f` — `PARTIALLY_SUPPORTED`；東鹼英文年報「**fertilizer」46 次、「India」3 次、「Pakistan」1 次、「Japan」12 次、「Australia」3 次**、「grape／tobacco／citrus」皆有；惟「**Vietnam／Thailand」0 次**，「98%」上下文不可判讀。
+- `1708:export_concentration:caa88c48de42de01`、`c24aa34e9be5f666` — `PARTIALLY_SUPPORTED` ×2；四國經銷商成立；惟「98%+ 外銷」未獲確認。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-193.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6021:identity_changing_event:f82a5e3c9c501cda` (美好證).
 
 ## Source access
 
