@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 10:04 UTC
+Updated: 2026-10-09 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,32 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **639 / 1,399**
-- Remaining author review: **760**
-- Latest batch: **author-106** (5 claims)
+- Author-reviewed: **647 / 1,399**
+- Remaining author review: **752**
+- Latest batch: **author-107** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **416**
+- `PARTIALLY_SUPPORTED`: **419**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **142**
+- `UNKNOWN_AFTER_RESEARCH`: **147**
 
 ## Latest claim batch
 
-- `2455:objective_ranking_or_market_share:0c9b77b516d1cc7d`、`3efdbb27a667196e` — `PARTIALLY_SUPPORTED` ×2；全新年報「**穩懋」10 次**，惟上下文**均將穩懋與宏捷定位為「同業」**（「相較於台灣**同業宏捷與穩懋**…」），另有數筆為人員經歷；「最大客戶」「營收占比」「宏捷科」皆0次，「28%」5次為財務比率。
-- `3016:objective_ranking_or_market_share:40c7fe6e149af7e4` — `PARTIALLY_SUPPORTED`；嘉晶114年報「磊晶」80次、「**漢磊」32 次**、「碳化矽」9次、「氮化鎵」9次；惟「唯一」「4吋」「6吋」皆0次。
-- `3131:objective_ranking_or_market_share:9ac9f9c3666d39ed` — `PARTIALLY_SUPPORTED`；弘塑簡報「台積電」1次、「**CoWoS」3 次**、「先進封裝」2次；惟「最大客戶」0次。
-- `3532:objective_ranking_or_market_share:2d49a09b19587fc8` — `PARTIALLY_SUPPORTED`；台勝科113年報「矽晶圓」13次、「台塑」3次、「**SUMCO」2 次**；惟「最大」「8吋」「12吋」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-106.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `3189:objective_ranking_or_market_share:d30c008603686d3a` (景碩).
+- `3189:objective_ranking_or_market_share:d30c008603686d3a` — `UNKNOWN_AFTER_RESEARCH`；景碩官方年報端點（114與112年度）皆回應 **HTTP 401**。
+- `3413:objective_ranking_or_market_share:ebe2223d339ab310` — `UNKNOWN_AFTER_RESEARCH`；京鼎MOPS簡報端點回應 **HTTP 404**。
+- `3551:objective_ranking_or_market_share:21c365ea8b4c5152` — `UNKNOWN_AFTER_RESEARCH`；世禾2025簡報「台積電」0次（營收5次、清洗3次），「最大」2次為泛用語。
+- `3563:objective_ranking_or_market_share:678d0af119707979` — `UNKNOWN_AFTER_RESEARCH`；牧德官方簡報端點**連線中斷**。
+- `5222:objective_ranking_or_market_share:dbde28318bead583` — `PARTIALLY_SUPPORTED`；全訊114年報載「本公司自**1998年成立**以來」與「**化合物半導體**…（氮化鎵10次）」；惟「唯一」0次。
+- `5222:objective_ranking_or_market_share:ac86f330feeaa01a` — `PARTIALLY_SUPPORTED`；年報「**雷達」32 次、「飛彈」4 次**（國防應用成立）；惟「最大客戶」「8成」皆0次。
+- `5272:objective_ranking_or_market_share:5a22c41a58004d2c` — `UNKNOWN_AFTER_RESEARCH`；笙科102年報**文字層僅擷取3,559字元**，SRD／LNB／聯笙／RF IC 皆0次。
+- `5483:objective_ranking_or_market_share:f9ec0490463350f9` — `PARTIALLY_SUPPORTED`；中美晶110年報「矽晶圓」53次、「太陽能」139次、「藍寶石」6次；惟「3吋」「12吋」「台灣最大」皆0次（「最大」7次為泛用語）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-107.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `5483:objective_ranking_or_market_share:330863256f88c588` (中美晶).
 
 ## Source access
 

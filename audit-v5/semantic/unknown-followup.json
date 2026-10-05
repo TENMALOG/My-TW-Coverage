@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:03:20Z",
+  "generated_at": "2026-10-05T20:05:10Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -108,20 +108,21 @@
     "author-103",
     "author-104",
     "author-105",
-    "author-106"
+    "author-106",
+    "author-107"
   ],
-  "source_batch_count": 106,
-  "total_unknown": 142,
+  "source_batch_count": 107,
+  "total_unknown": 147,
   "failure_signature_counts": {
-    "other_unclassified": 57,
+    "other_unclassified": 59,
     "tls_failure": 6,
     "mops_non_document": 32,
     "non_document_response": 30,
-    "no_official_endpoint_found": 59,
-    "http_404": 32,
+    "no_official_endpoint_found": 62,
+    "http_404": 33,
     "image_only_or_tiny_text": 20,
-    "http_403": 8,
-    "connection_failure": 6,
+    "http_403": 9,
+    "connection_failure": 7,
     "garbled_text_layer": 5,
     "client_rendered_only": 4,
     "download_timeout": 2,
@@ -2245,6 +2246,79 @@
       ],
       "attempted_sources": [
         "https://www.everfocus.com/download/144/"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3189:objective_ranking_or_market_share:d30c008603686d3a",
+      "ticker": "3189",
+      "company": "景碩",
+      "claim": "[[和碩]] (最大股東)",
+      "batch_id": "author-107",
+      "failure_signature": [
+        "http_403",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.kinsus.com.tw/zh-TW/Download/annual-general-meeting/FileDownload/114%20_meeting_report/1"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3413:objective_ranking_or_market_share:ebe2223d339ab310",
+      "ticker": "3413",
+      "company": "京鼎",
+      "claim": "[[Applied Materials]] (AMAT，最大委託方及股東)",
+      "batch_id": "author-107",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mops.twse.com.tw/nas/STR/341320221209M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3551:objective_ranking_or_market_share:21c365ea8b4c5152",
+      "ticker": "3551",
+      "company": "世禾",
+      "claim": "[[台積電]] - 營收貢獻最大.",
+      "batch_id": "author-107",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3563:objective_ranking_or_market_share:678d0af119707979",
+      "ticker": "3563",
+      "company": "牧德",
+      "claim": "牧德科技 (3563) 是全球唯一的光學檢測設備一條龍廠商，專注於 [[PCB]] 及半導體用 [[AOI]] (自動光學檢測)、[[AVI]] (自動視覺檢測) 及 [[3D 檢測]]設備。",
+      "batch_id": "author-107",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.machvision.com.tw/images/InvestorRelations/Investor-Conference/20170427.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "5272:objective_ranking_or_market_share:5a22c41a58004d2c",
+      "ticker": "5272",
+      "company": "笙科",
+      "claim": "笙科電子 (5272) 是亞洲唯一同時專長於 [[SRD]] (短距離無線通訊) 及 [[LNB]] (低雜訊降頻器) 之 [[RF IC]] 設計公司，前身為聯笙無線事業部門。",
+      "batch_id": "author-107",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "http://www.amiccom.com.tw/UPLOAD/2014060914291985774.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

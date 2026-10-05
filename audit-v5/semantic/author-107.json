@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-107",
+  "reviewed_at": "2026-10-05T20:04:50Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (全訊114年度年報; 中美晶110年度年報); 景碩端點HTTP 401、京鼎端點HTTP 404、牧德端點連線中斷、世禾簡報未具名客戶、笙科年報文字層僅3,559字元，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3189:objective_ranking_or_market_share:d30c008603686d3a",
+      "normalized_claim_hash": "d30c008603686d3a02c99b6017b03aa52f7aee7c4bf71d608bafd14677aeb3d9",
+      "ticker": "3189",
+      "company": "景碩",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3189_景碩.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[和碩]] (最大股東)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.kinsus.com.tw/zh-TW/Download/annual-general-meeting/FileDownload/114%20_meeting_report/1",
+          "title": "景碩科技股份有限公司（景碩，3189，Kinsus）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載114年度年報端點時回應 **HTTP 401（未經授權）**（本批次另曾嘗試112年度端點，亦為 **401**），未取得可檢視之檔案；本批次未取得景碩可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「和碩（最大股東）」未獲確立：本批次自景碩官方網域下載114年度年報端點時回應 **HTTP 401（未經授權）**，另曾嘗試112年度端點亦為401，未取得可檢視之檔案，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3413:objective_ranking_or_market_share:ebe2223d339ab310",
+      "normalized_claim_hash": "ebe2223d339ab310f6cdabe7202e3ac5333683721f9af7ac94e06de6d62d4ae4",
+      "ticker": "3413",
+      "company": "京鼎",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3413_京鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Applied Materials]] (AMAT，最大委託方及股東)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/341320221209M001.pdf",
+          "title": "京鼎精密科技股份有限公司（京鼎，3413，Foxsemicon）法人說明會簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自公開資訊觀測站端點下載京鼎法人說明會簡報時回應 **HTTP 404**，未取得可檢視之檔案；本批次未取得京鼎可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「Applied Materials（AMAT，最大委託方及股東）」未獲確立：本批次自公開資訊觀測站端點下載京鼎法人說明會簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3551:objective_ranking_or_market_share:21c365ea8b4c5152",
+      "normalized_claim_hash": "21c365ea8b4c515211d034d909b4dad0d787d5bfda7da2521dfb49eaaad52110",
+      "ticker": "3551",
+      "company": "世禾",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3551_世禾.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] - 營收貢獻最大.",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf",
+          "title": "世禾科技股份有限公司（世禾，3551，Shih-Her Technologies）法人說明會簡報（2025-12-11）",
+          "source_level": 3,
+          "period_binding": "2025年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取4,393字元）。簡報載「**營收分布**」與「清洗」等內容（「營收」5次、「清洗」3次），支持其設備清洗服務業務。全份簡報中「**台積電**」出現次數為0；「最大」2次之上下文為「最大限度地發揮（…）」「達到最大的利益」等泛用語。故其「台積電為營收貢獻最大客戶」之具名客戶敘述未獲支持。"
+        }
+      ],
+      "rationale": "「[[台積電]] - 營收貢獻最大」未獲確立：查閱之世禾2025年官方簡報中「**台積電**」出現次數為0（「營收」5次、「清洗」3次支持其設備清洗服務業務，但未具名客戶）；「最大」2次之上下文為「最大限度地發揮（…）」「達到最大的利益」等泛用語。因該 claim 之實質內容為具名客戶之營收貢獻，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3563:objective_ranking_or_market_share:678d0af119707979",
+      "normalized_claim_hash": "678d0af119707979f25b810935bc68a4f26f4b2346e3bf638f0439d545de67fd",
+      "ticker": "3563",
+      "company": "牧德",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3563_牧德.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "牧德科技 (3563) 是全球唯一的光學檢測設備一條龍廠商，專注於 [[PCB]] 及半導體用 [[AOI]] (自動光學檢測)、[[AVI]] (自動視覺檢測) 及 [[3D 檢測]]設備。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.machvision.com.tw/images/InvestorRelations/Investor-Conference/20170427.pdf",
+          "title": "牧德科技股份有限公司（牧德，3563，Machvision）法人說明會簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載法人說明會簡報端點時，連線**「要求已經中止: 連接意外關閉」**（連線失敗），未取得可檢視之檔案；本批次未取得牧德可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「牧德科技是全球唯一的光學檢測設備一條龍廠商，專注於 PCB 及半導體用 AOI、AVI 及 3D 檢測設備」未獲確立：本批次自發行人官方網域下載法人說明會簡報端點時連線**「要求已經中止: 連接意外關閉」**（連線失敗），未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5222:objective_ranking_or_market_share:dbde28318bead583",
+      "normalized_claim_hash": "dbde28318bead5830c6f8ab69bd2fb599194f5f78a45e9738e5c21e3be6b8de4",
+      "ticker": "5222",
+      "company": "全訊",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/5222_全訊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全訊科技（5222）成立於1998年，是台灣唯一專精於化合物[[半導體]]（GaAs/[[氮化鎵]]）製程的整合元件製造廠（IDM），專注於高頻微波功率放大器（PA）的設計、製造與封測。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.transcominc.com.tw/upload/ckfinder_upload/files/data1/5222_115_%E5%85%A8%E8%A8%8A_114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87)_compressed.pdf",
+          "title": "全訊科技股份有限公司（全訊，5222，Transcom）114 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「本公司自 **1998 年成立**以來，從設立半導體廠房、開發 pHEMT 元件積體電路製程…」，並載「砷化鎵及**氮化鎵**元件係無線通訊產業之關鍵性零組件…**化合物半導體**已成為手機及各種無線通訊設備不可或缺的重要功率元件」（「氮化鎵」10次、「雷達」32次、「飛彈」4次、「化合物」4次、「IDM」1次、「1998」1次），支持其成立年度、化合物半導體製程及國防應用。全份年報中「**唯一**」「**最大客戶**」與「**8成**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「成立於1998年，專精於化合物半導體（GaAs／氮化鎵）製程，專注於高頻微波功率放大器之設計與製造」獲發行人年報支持：114年度年報載「本公司自 **1998 年成立**以來，從設立半導體廠房、開發 pHEMT 元件積體電路製程…」，並載「砷化鎵及**氮化鎵**元件係無線通訊產業之關鍵性零組件…**化合物半導體**已成為…重要功率元件」（「氮化鎵」10次、「化合物」4次、「1998」1次），支持其成立年度與化合物半導體製程及功率元件業務。惟「是台灣**唯一**專精於化合物半導體製程的**整合元件製造廠（IDM）**」未獲支持：「**唯一**」出現次數為0（「IDM」1次之上下文未載唯一性）。故部分成立。",
+      "proposed_text": "全訊科技 (5222，Transcom) 成立於1998年，專精於化合物半導體（GaAs／氮化鎵）製程及高頻微波功率放大器。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5222:objective_ranking_or_market_share:ac86f330feeaa01a",
+      "normalized_claim_hash": "ac86f330feeaa01a9be5145198b32e9c13bbcf225c4001d5e06a912f23d9f64c",
+      "ticker": "5222",
+      "company": "全訊",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/5222_全訊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶，佔營收比重極高（曾達8成），主要供應飛彈及雷達系統用PA。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.transcominc.com.tw/upload/ckfinder_upload/files/data1/5222_115_%E5%85%A8%E8%A8%8A_114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87)_compressed.pdf",
+          "title": "全訊科技股份有限公司（全訊，5222，Transcom）114 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「本公司自 **1998 年成立**以來，從設立半導體廠房、開發 pHEMT 元件積體電路製程…」，並載「砷化鎵及**氮化鎵**元件係無線通訊產業之關鍵性零組件…**化合物半導體**已成為手機及各種無線通訊設備不可或缺的重要功率元件」（「氮化鎵」10次、「雷達」32次、「飛彈」4次、「化合物」4次、「IDM」1次、「1998」1次），支持其成立年度、化合物半導體製程及國防應用。全份年報中「**唯一**」「**最大客戶**」與「**8成**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「主要供應飛彈及雷達系統用 PA」獲發行人年報支持：年報中「**雷達**」出現32次、「**飛彈**」4次，支持其功率放大器產品之國防應用領域。惟兩項陳述未獲支持：(1)「**最大客戶**」——出現次數為0；(2)「佔營收比重極高（曾達 **8成**）」——「8成」出現次數為0，未載客戶集中度之量化敘述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5272:objective_ranking_or_market_share:5a22c41a58004d2c",
+      "normalized_claim_hash": "5a22c41a58004d2c0683ad8431b87879e05d39e5e12a20ce58bd032a8acc648b",
+      "ticker": "5272",
+      "company": "笙科",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/5272_笙科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "笙科電子 (5272) 是亞洲唯一同時專長於 [[SRD]] (短距離無線通訊) 及 [[LNB]] (低雜訊降頻器) 之 [[RF IC]] 設計公司，前身為聯笙無線事業部門。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.amiccom.com.tw/UPLOAD/2014060914291985774.pdf",
+          "title": "笙科電子股份有限公司（笙科，5272，AMICCOM）民國一○二年度年報（文字擷取限制）",
+          "source_level": 3,
+          "period_binding": "民國102年度（2013年）；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。該年報（6.8 MB）之文字層**僅能擷取3,559字元**，內容為封面與發言人頁等，**實質業務敘述無法擷取**；以關鍵字檢索「SRD」「LNB」「聯笙」「RF IC」與「唯一」之出現次數**均為0**（係因文字層不完整所致，非必然代表文件未載）。"
+        }
+      ],
+      "rationale": "「笙科電子是亞洲唯一同時專長於 SRD 及 LNB 之 RF IC 設計公司，前身為聯笙無線事業部門」未獲確立：笙科官方網域之民國102年度年報（6.8 MB）之**文字層僅能擷取3,559字元**（內容為封面與發言人頁），實質業務敘述無法擷取；以關鍵字檢索「SRD」「LNB」「聯笙」「RF IC」與「唯一」之出現次數均為0。故以 UNKNOWN_AFTER_RESEARCH 結案（**文字層限制**）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5483:objective_ranking_or_market_share:f9ec0490463350f9",
+      "normalized_claim_hash": "f9ec0490463350f9f4bcbc8083fc9025733a07271272d73e3e960b57fffaafc0",
+      "ticker": "5483",
+      "company": "中美晶",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/5483_中美晶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中美晶 (5483，中美矽晶) 是台灣最大的 3 吋至 12 吋[[矽晶圓]]供應商，集團涵蓋半導體、[[太陽能]]及藍寶石三大事業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.saswafer.com/wp-content/uploads/2022/05/110%e5%b9%b4%e4%b8%ad%e7%be%8e%e7%9f%bd%e6%99%b6%e8%a3%bd%e5%93%81%e5%b9%b4%e5%a0%b1%e4%b8%8a%e5%82%b3%e9%9b%bb%e5%ad%90%e6%aa%94.pdf",
+          "title": "中美矽晶製品股份有限公司（中美晶，5483，Sino-American Silicon Products）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**矽晶圓**」出現53次、「**太陽能**」139次、「**藍寶石**」6次，支持其矽晶圓業務及集團涵蓋半導體、太陽能與藍寶石三大事業之敘述。全份年報中「**3吋**」「**12吋**」與「台灣最大」之出現次數均為0；「**最大**」7次之上下文為「解決**最大**的土地限制因素」「追求組織**最大**利益」「為其單一**最大**股東」「代表**最大**信用暴險金額」等，**均非**「台灣最大矽晶圓供應商」之表述。"
+        }
+      ],
+      "rationale": "「集團涵蓋半導體、太陽能及藍寶石三大事業」獲發行人年報支持：110年度年報中「**矽晶圓**」出現53次、「**太陽能**」139次、「**藍寶石**」6次，支持其矽晶圓業務及三大事業之敘述。惟兩項陳述未獲支持：(1)「為台灣**最大**的矽晶圓供應商」——「台灣最大」出現次數為0，且「**最大**」7次之上下文為「解決最大（的）土地限制因素」「追求組織最大利益」「為其單一最大股東」「代表最大信用暴險金額」等，**均非**該表述；(2)「**3 吋至 12 吋**矽晶圓」——「3吋」與「12吋」出現次數均為0。故部分成立。",
+      "proposed_text": "中美矽晶製品 (5483，Sino-American Silicon Products) 從事矽晶圓業務，集團涵蓋半導體、太陽能及藍寶石三大事業。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
