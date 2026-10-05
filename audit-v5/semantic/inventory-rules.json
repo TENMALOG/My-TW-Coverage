@@ -1,0 +1,35 @@
+{
+  "schema": "semantic-inventory-rules-1",
+  "frozen_at": "2026-10-05T22:12:06Z",
+  "purpose": "凍結 UNKNOWN 清單之 failure_signature 分類規則，供每一輪直接讀取，避免人工重打正則造成統計漂移。",
+  "order": [
+    "http_404",
+    "http_403",
+    "mops_non_document",
+    "garbled_text_layer",
+    "tls_failure",
+    "download_timeout",
+    "connection_failure",
+    "image_only_or_tiny_text",
+    "client_rendered_only",
+    "no_official_endpoint_found",
+    "non_document_response",
+    "source_identity_mismatch"
+  ],
+  "patterns": {
+    "http_404": "404",
+    "http_403": "403",
+    "mops_non_document": "320 bytes|690 bytes|111 bytes|244 bytes",
+    "garbled_text_layer": "亂碼|mojibake|字元位移|字形映射錯誤",
+    "tls_failure": "SSL|TLS|安全通道",
+    "download_timeout": "逾時|timeout|Time-out|time out",
+    "connection_failure": "無法連線|連接意外關閉|無法解析遠端名稱|DNS|連接至遠端伺服器|中止|連線失敗|未預期 EOF",
+    "image_only_or_tiny_text": "僅[0-9,]+字元|僅得4頁|擷取0字元|文字層僅能擷取",
+    "client_rendered_only": "前端渲染|JavaScript|靜態 HTML|樣式表|導覽／下載頁|網站選單",
+    "no_official_endpoint_found": "未查得|未取得可檢視|未取得可判讀|未具名任何|未具名該客戶|未載該第三人|未載該分割|未取得.*本身|實質營運內容未見|無法用以判讀",
+    "non_document_response": "非文件內容|顯非完整文件|顯非 PDF|並非年報本身",
+    "source_identity_mismatch": "身分不符|屬另一法人|並非同一法人|並非[^\\n]{0,20}之文件|經檢視並非[^\\n]{0,20}之文件|為香港聯合交易所之上市文件"
+  },
+  "fallback": "other_unclassified",
+  "note": "一筆可同時帶有多個標記；未命中任一規則者歸為 fallback。"
+}
