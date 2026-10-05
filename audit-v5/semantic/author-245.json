@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-245",
+  "reviewed_at": "2026-10-05T23:05:27Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (新日興公司文件; 勤美113年度合併財務報告; 四維航股東常會議事手冊); 永冠-KY與錩新端點HTTP 404; 熱映未取得文件",
+  "items": [
+    {
+      "claim_id": "3376:material_named_relationship:0b2c2a2680424ff6",
+      "normalized_claim_hash": "0b2c2a2680424ff64e0fd34b6b3ff81ea473c83274756a8b22d0deb8e27afba2",
+      "ticker": "3376",
+      "company": "新日興",
+      "path": "Pilot_Reports/Metal Fabrication/3376_新日興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "與[[鴻海]]合資取得[[Apple]]摺疊iPhone (iPhone Fold) 鉸鏈約65%訂單 (另35%由[[Amphenol]]供應)，採液態金屬技術，預計2026下半年推出。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.szs-group.com/download/829zH04yR5RndXM4",
+          "title": "新日興股份有限公司（新日興，3376，Shin Zu Shing）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（內文提及114年）。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取100,438字元）。文件載「隨著之前不斷的投入技術開發，新日興於**114 年**在各類應用的**摺疊**產品也有（…）」「數位攝影機、**摺疊手機**及電子資訊等3C產品及音訊配件之連結**樞紐**」「為全球品牌廠商的重要代工夥伴。國際知名品牌如 **Dell、HP、Lenovo** 及 **Apple**」（「**摺疊**」13次、「**Apple**」1次、「**鴻海**」2次、「樞紐」），**支持其摺疊產品、鉸鏈（樞紐）業務及與 Apple 等品牌之供應關係**。**關鍵發現**：全份文件中「**鉸鏈**」「**iPhone**」「**合資**」與「**Fold**」之出現次數**均為0**（文件以「樞紐」稱之）。"
+        }
+      ],
+      "rationale": "「與 **[[鴻海]]** …取得 **[[Apple]]** **摺疊**（裝置）鉸鏈（訂單）」獲發行人文件之**部分支持**：文件載「新日興於**114年**在各類應用的**摺疊**產品也有（…）」「數位攝影機、**摺疊手機**及電子資訊等3C產品及音訊配件之連結**樞紐**」「國際知名品牌如 Dell、HP、Lenovo 及 **Apple**」（「**摺疊**」13次、「**Apple**」1次、「**鴻海**」2次），**支持其摺疊產品、樞紐（鉸鏈）業務及與 Apple 之供應關係**。**惟三項具體陳述未獲支持**：(1)「**合資**」——出現次數**為0**，**未見與鴻海之合資敘述**；(2)「**iPhone**」與「**Fold**」——均為**0**；(3)「**鉸鏈**」一詞未見（文件以「**樞紐**」稱之）。故部分成立。",
+      "proposed_text": "新日興 (3376，Shin Zu Shing) 為摺疊裝置樞紐（鉸鏈）之供應商，並為 Apple 等國際品牌之供應夥伴。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1532:material_named_relationship:f2fd37357c35dea2",
+      "normalized_claim_hash": "f2fd37357c35dea253d8c918383cb7ed78f9e18da7710dc38ad3a6043304245a",
+      "ticker": "1532",
+      "company": "勤美",
+      "path": "Pilot_Reports/Metal Fabrication/1532_勤美.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "金屬成型事業供應汽車 Tier 1 如[[ZF]]、[[Continental]]、[[Bosch]]、[[KNORR-BREMSE]]、[[ADVICS]]；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cmp.com.tw/uimg/financialreport/20250411104435502.pdf",
+          "title": "勤美股份有限公司（勤美，1532，CMP）民國一一三年度合併財務報告",
+          "source_level": 3,
+          "period_binding": "民國113年度。**文件性質為合併財務報告，非年報。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取約83頁）。**文件性質為合併財務報告暨會計師查核報告**；文中「**勤美**」168次、「**金屬成型**」4次、「汽車」19次。**關鍵發現**：全份文件中「**ZF**」「**Continental**」「**Bosch**」與「**Tier 1**」之出現次數**均為0**——**未載產品別或客戶關係（財務報告不含此類敘述）**。"
+        }
+      ],
+      "rationale": "「**金屬成型**事業」獲發行人文件之**部分支持**：文件（合併財務報告）中「**金屬成型**」出現4次、「勤美」168次，**確認其設有該事業**。**惟四項具名客戶與客戶層級未獲支持**：「**ZF**」「**Continental**」「**Bosch**」與「**Tier 1**」之出現次數**均為0**。**文件性質註記**：本件為**合併財務報告**，**其內容不含產品別與客戶別敘述**，故部分成立，**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": "勤美 (1532，CMP) 設有金屬成型事業。（本筆所據文件為財務報告，建議以年報或法人說明會簡報複核客戶關係）",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5608:material_named_relationship:1a2dfe39ec2a2efd",
+      "normalized_claim_hash": "1a2dfe39ec2a2efdb45d8a0ba25576d8b317425684d1f8cb9d00417d7d26441f",
+      "ticker": "5608",
+      "company": "四維航",
+      "path": "Pilot_Reports/Marine Shipping/5608_四維航.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為大型鋼鐵廠 (如[[POSCO]]、[[中鋼]]) 及國際原物料貿易商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.swnav.com.tw/uploads/files/shares/shareholders/2024/shareholders-meeting_113.pdf",
+          "title": "四維航業股份有限公司（四維航，5608，Shih Wei Navigation）一一三年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國113年股東常會。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取45,382字元）。**文件性質為股東常會議事手冊**；文中**僅見產業景氣之敘述**——「唯水泥及部份房產相關**鋼鐵**業，受中國房市未恢復呈現下滑」「仍存在地緣政治緊張、戰爭經濟問題、鬆綁金融政策後**原物料**價格及通膨回（升）」（「鋼鐵」1次、「原物料」1次）。**關鍵發現**：全份文件中「**POSCO**」「**中鋼**」與「客戶」之出現次數**均為0**——**未具名任何客戶，該等關鍵字之出現屬產業敘述而非客戶揭露**。"
+        }
+      ],
+      "rationale": "「主要客戶為大型**鋼鐵**廠（如 **[[POSCO]]**、**[[中鋼]]**）及國際**原物料**貿易商」未獲確立：所取得之四維航股東常會議事手冊中「**POSCO**」「**中鋼**」與「客戶」之出現次數**均為0**；**「鋼鐵」1次與「原物料」1次之上下文均為產業景氣敘述**（「唯水泥及部份房產相關**鋼鐵**業，受中國房市未恢復呈現下滑」「**原物料**價格及通膨」），**並非客戶揭露**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1589:material_named_relationship:960b9825be6d7658",
+      "normalized_claim_hash": "960b9825be6d7658d48a65272f208813b4d72f97b4960027918a772c25ecbc8f",
+      "ticker": "1589",
+      "company": "永冠-KY",
+      "path": "Pilot_Reports/Metal Fabrication/1589_永冠-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "永冠-KY (1589，Yeong Guan) 為全球風機鑄件核心供應商，客戶涵蓋全球前五大風機廠[[Siemens Gamesa]]、[[Vestas]]、[[GE]]、[[Goldwind]] (金風)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/158920250401M001.pdf",
+          "title": "永冠-KY（1589）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之永冠-KY端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得永冠-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「永冠-KY (1589，Yeong Guan) 為全球**風機鑄件**核心供應商，客戶涵蓋全球前五（大）…」未獲確立：本批次所嘗試之永冠-KY端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2415:material_named_relationship:7b99bddf699419a9",
+      "normalized_claim_hash": "7b99bddf699419a9a30e1498c88de0d6a5c6a912f82591cba653d5ae8cb9555b",
+      "ticker": "2415",
+      "company": "錩新",
+      "path": "Pilot_Reports/Metal Fabrication/2415_錩新.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "前三大客戶為[[Harman]] (含[[JBL]]，佔20-30%)、[[Pioneer]] (20-30%)、[[Bose]] (10-20%)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/241520250401M001.pdf",
+          "title": "錩新科技（2415）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之錩新科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得錩新科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「前三大客戶為 **[[Harman]]**（含 **[[JBL]]**，佔 **20-30%**）、**[[Pioneer]]**（…）」未獲確立：本批次所嘗試之錩新端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3373:export_concentration:634df8821bef335f",
+      "normalized_claim_hash": "634df8821bef335f2b17bb22935d7b14e601ef761670839a558f1f623a3ed34e",
+      "ticker": "3373",
+      "company": "熱映",
+      "path": "Pilot_Reports/Medical Devices/3373_熱映.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "外銷比重達 97%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/337320250401M001.pdf",
+          "title": "熱映光電股份有限公司（熱映，3373）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次未就熱映取得可檢視之官方文件（**本批次之下載集中於其他標的**）；故未能就 claim 所述之外銷比重進行驗證。"
+        }
+      ],
+      "rationale": "「外銷比重達 **97%**」未獲確立：本批次未就熱映取得可檢視之官方文件（本批次之下載集中於其他標的），未能就該比例進行驗證，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

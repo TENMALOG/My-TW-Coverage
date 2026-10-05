@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 04:04 UTC
+Updated: 2026-10-15 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,254 / 1,399**
-- Remaining author review: **145**
-- Latest batch: **author-244** (6 claims)
+- Author-reviewed: **1,260 / 1,399**
+- Remaining author review: **139**
+- Latest batch: **author-245** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **774**
+- `PARTIALLY_SUPPORTED`: **776**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **372**
+- `UNKNOWN_AFTER_RESEARCH`: **376**
 
 ## Latest claim batch
 
-- `8924:material_named_relationship:737bd19f1360d702` — `PARTIALLY_SUPPORTED`；大田年報載「是高爾夫及自行車國際知名品牌的重要供應商」（**高爾夫 250 次、自行車 114 次、Callaway 1 次**）；**惟「TaylorMade」0 次**。
-- `8938:material_named_relationship:7f702e5df65e7ef6` — `PARTIALLY_SUPPORTED`；明安年報載「高爾夫球頭…**碳纖維**布、**自行車碳纖維**零組件…複合材料之專業製造公司」（**碳纖維 53 次、自行車 31 次**）；**惟「Toray／東麗／碳纖維紗」皆 0 次**。
-- `2724:identity_changing_event:f0208bc4004081cd` — `PARTIALLY_SUPPORTED`；藝舍簡報「**立信」13 次、「賴運興」1 次、「建設」2 次**；**惟「入主」與「更名／2023」皆 0 次**。
-- `6655:material_named_relationship:44b32eca6d1374f8`、`e43d28680738ba3b` — `PARTIALLY_SUPPORTED` ×2；科定簡報「**FSC」1 次**；**惟「原木／木皮／北美／歐洲」皆 0 次**（**該簡報為英文版**）。
-- `8933:export_concentration:d68998658367f462` — `UNKNOWN_AFTER_RESEARCH`；愛地雅端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-244.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,254 ＝ 條目總數 1,254。
-- Next pending claim by priority: `5608:material_named_relationship:1a2dfe39ec2a2efd` (四維航).
+- `3376:material_named_relationship:0b2c2a2680424ff6` — `PARTIALLY_SUPPORTED`；新日興文件載「**摺疊**產品」「國際知名品牌如 Dell、HP、Lenovo 及 **Apple**」（**摺疊 13 次、Apple 1 次、鴻海 2 次**）；**惟「合資／iPhone／Fold／鉸鏈」（文件以「樞紐」稱之）皆 0 次**。
+- `1532:material_named_relationship:f2fd37357c35dea2` — `PARTIALLY_SUPPORTED`；勤美文件（**合併財務報告**）「**金屬成型」4 次**；**惟「ZF／Continental／Bosch／Tier 1」皆 0 次**。
+- `5608:material_named_relationship:1a2dfe39ec2a2efd` — `UNKNOWN_AFTER_RESEARCH`；四維航手冊「**鋼鐵／原物料」各 1 次均屬產業景氣敘述**，**「POSCO／中鋼／客戶」皆 0 次**。
+- `1589:960b9825be6d7658`、`2415:7b99bddf699419a9` — `UNKNOWN_AFTER_RESEARCH` ×2；永冠-KY與錩新端點 **HTTP 404**。
+- `3373:634df8821bef335f` — `UNKNOWN_AFTER_RESEARCH`；未取得熱映文件。
+- 證據記錄於 `semantic/author-245.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,260 ＝ 條目總數 1,260。**覆蓋率達 90.06%**。
+- Next pending claim by priority: `4553:material_named_relationship:da1544701e031d80` (盛復).
 
 ## Source access
 

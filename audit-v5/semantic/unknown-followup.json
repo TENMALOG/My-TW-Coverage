@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:04:28Z",
+  "generated_at": "2026-10-05T23:06:00Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -247,17 +247,18 @@
     "author-241",
     "author-242",
     "author-243",
-    "author-244"
+    "author-244",
+    "author-245"
   ],
-  "source_batch_count": 244,
-  "total_unknown": 372,
+  "source_batch_count": 245,
+  "total_unknown": 376,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 164,
-    "other_unclassified": 141,
+    "no_official_endpoint_found": 167,
+    "other_unclassified": 142,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 93,
+    "http_404": 95,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5702,6 +5703,64 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5608:material_named_relationship:1a2dfe39ec2a2efd",
+      "ticker": "5608",
+      "company": "四維航",
+      "claim": "主要客戶為大型鋼鐵廠 (如[[POSCO]]、[[中鋼]]) 及國際原物料貿易商。",
+      "batch_id": "author-245",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.swnav.com.tw/uploads/files/shares/shareholders/2024/shareholders-meeting_113.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1589:material_named_relationship:960b9825be6d7658",
+      "ticker": "1589",
+      "company": "永冠-KY",
+      "claim": "永冠-KY (1589，Yeong Guan) 為全球風機鑄件核心供應商，客戶涵蓋全球前五大風機廠[[Siemens Gamesa]]、[[Vestas]]、[[GE]]、[[Goldwind]] (金風)。",
+      "batch_id": "author-245",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/158920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2415:material_named_relationship:7b99bddf699419a9",
+      "ticker": "2415",
+      "company": "錩新",
+      "claim": "前三大客戶為[[Harman]] (含[[JBL]]，佔20-30%)、[[Pioneer]] (20-30%)、[[Bose]] (10-20%)。",
+      "batch_id": "author-245",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/241520250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3373:export_concentration:634df8821bef335f",
+      "ticker": "3373",
+      "company": "熱映",
+      "claim": "外銷比重達 97%。",
+      "batch_id": "author-245",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/337320250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
