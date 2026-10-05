@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 13:04 UTC
+Updated: 2026-10-09 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **659 / 1,399**
-- Remaining author review: **740**
-- Latest batch: **author-109** (4 claims)
+- Author-reviewed: **663 / 1,399**
+- Remaining author review: **736**
+- Latest batch: **author-110** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **427**
+- `PARTIALLY_SUPPORTED`: **430**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **151**
+- `UNKNOWN_AFTER_RESEARCH`: **152**
 
 ## Latest claim batch
 
-- `6830:objective_ranking_or_market_share:f1578b23f3b713fe`、`261e22e52765eec0` — `PARTIALLY_SUPPORTED` ×2；汎銓2024永續報告載「**展現在高科技檢測領域中的領導地位**」與「**材料分析」24 次**、「TEM」9次、「FIB」2次；惟「市占」0次，且「**50%」1 次係「朝2025年前節能50%的目標」**，非市占率。
-- `8028:objective_ranking_or_market_share:36af13fbf6f495ec` — `PARTIALLY_SUPPORTED`；昇陽2023永續報告「**晶圓再生」10 次**；惟「**台積電」0 次**，且「最大」4次為「盡最大努力」「最大宗廢棄物」「資源再利用最大化」等泛用語。
-- `8028:objective_ranking_or_market_share:6f62e2054fe7535b` — `UNKNOWN_AFTER_RESEARCH`；報告書「台積電」0次，未具名客戶。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-109.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2330:objective_ranking_or_market_share:69b238d963f6d1c7` (台積電).
+- `2330:objective_ranking_or_market_share:69b238d963f6d1c7` — `UNKNOWN_AFTER_RESEARCH`；台積電**四個官方端點**（年報PDF、索引頁、Business Overview、年報電子書HTML）**均回應 HTTP 403**。
+- `2337:objective_ranking_or_market_share:53d3a9c34ff6edb7` — `PARTIALLY_SUPPORTED`；旺宏2023永續報告「**NOR」35 次、「ROM」10 次、「車用」12 次**；惟「全球最大」「任天堂」「Nintendo」皆0次，「領先」3次為論文／保險／設施等非市場地位敘述。
+- `2342:objective_ranking_or_market_share:b2bd16648dd7b771` — `PARTIALLY_SUPPORTED`；茂矽文件載「**朋程科技…取得本公司之控制力**」（朋程12次）——**朋程為控制股東／母公司**；惟「最大客戶」「整流二極體」「車用」皆0次（**關係角色與claim不同**）。
+- `2379:objective_ranking_or_market_share:c21c8f86d0573984` — `PARTIALLY_SUPPORTED`；瑞昱2024年報（**英文版**）「Ethernet」50次、「Audio」77次、「Wi-Fi」37次、「Bluetooth」36次、「market share」14次；惟未見以「PC音效晶片」為對象之市占率專述。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-110.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2408:objective_ranking_or_market_share:c4377f2679307d07` (南亞科).
 
 ## Source access
 

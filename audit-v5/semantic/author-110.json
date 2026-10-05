@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-110",
+  "reviewed_at": "2026-10-05T20:10:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (旺宏2023年永續報告書; 茂矽公司文件; 瑞昱2024 Annual Report英文版); 台積電四個官方端點均回應HTTP 403，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2330:objective_ranking_or_market_share:69b238d963f6d1c7",
+      "normalized_claim_hash": "69b238d963f6d1c7e6aeaff86f7c6de4d2b6e2965849c05fdec7b01eca1de707",
+      "ticker": "2330",
+      "company": "台積電",
+      "path": "Pilot_Reports/Semiconductors/2330_台積電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司是**全球最大**且最先進的專用積體電路製造服務公司 (Pure-play Foundry)，市佔率超過 60%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Business%20Overview.pdf",
+          "title": "台灣積體電路製造股份有限公司（台積電，2330，TSMC）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次就台積電嘗試多個官方端點，**均回應 HTTP 403（禁止）**：(1) investor.tsmc.com 之2024年報 PDF 路徑（`2024_Annual_Report_c.pdf`）；(2) 年報索引頁 `chinese/annual-reports`；(3) 2024年報之 Business Overview PDF；(4) 年報電子書之頁面 HTML（並已附加一般瀏覽器 User-Agent）。該網域對自動化請求採取封鎖措施，本批次未能取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司是全球最大且最先進的專用積體電路製造服務公司（Pure-play Foundry），市佔率超過60%」未獲確立：本批次就台積電嘗試**四個官方端點**（年報 PDF、年報索引頁、Business Overview PDF、年報電子書 HTML），**均回應 HTTP 403（禁止）**——該網域對自動化請求採取封鎖措施。故本批次未能取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2337:objective_ranking_or_market_share:53d3a9c34ff6edb7",
+      "normalized_claim_hash": "53d3a9c34ff6edb748d4e5317e028cc63d772737b9f95b1523aae379b08b86f4",
+      "ticker": "2337",
+      "company": "旺宏",
+      "path": "Pilot_Reports/Semiconductors/2337_旺宏.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旺宏在 ROM 市場為全球最大供應商 (主要受惠於 Nintendo 遊戲機)，在車用及工業用 NOR Flash 市場也居全球領先地位。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mxic.com.tw/zh-tw/about/CSR/Documents/2023_Macronix_ESG_Report_Chinese.pdf",
+          "title": "旺宏電子股份有限公司（旺宏，2337，Macronix）2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「**ROM** 唯讀記憶體、**NOR** 型快閃記憶體以及NAND 型快閃記憶體解決方（案）」（「NOR」35次、「ROM」10次、「車用」12次），支持其 ROM 及 NOR Flash 業務與車用應用。全份報告書中「**全球最大**」「**任天堂**」與「**Nintendo**」之出現次數均為0；「**最大**」4次之上下文為獎項與產品名稱等（如「2023亞洲金選（獎）」），非市場地位之表述；「領先」3次之上下文為「領先發表全球首篇Flash 前瞻技術之3D NOR論文」「領先國內業界投保董事責任保險」「領先業界興建設備最齊全（的）」，均非市場地位。"
+        }
+      ],
+      "rationale": "「為 ROM 與 NOR Flash 供應商，並應用於車用市場」獲發行人永續報告書支持：報告書載「**ROM** 唯讀記憶體、**NOR** 型快閃記憶體以及NAND 型快閃記憶體解決方（案）」（「NOR」35次、「ROM」10次、「車用」12次），支持其產品線與應用領域。惟三項市場地位陳述未獲支持：(1)「在 ROM 市場為**全球最大**供應商」——「全球最大」出現次數為0（「最大」4次為獎項與產品名稱）;(2)「主要受惠於 **Nintendo** 遊戲機」——「任天堂」與「Nintendo」均為0；(3)「在車用及工業用 NOR Flash 市場也居**全球領先地位**」——「領先」3次之上下文為「領先發表全球首篇Flash 前瞻技術之3D NOR論文」「領先國內業界投保董事責任保險」「領先業界興建設備最齊全（的）」，均非市場地位。故部分成立。",
+      "proposed_text": "旺宏電子 (2337，Macronix) 為 ROM 唯讀記憶體及 NOR 型快閃記憶體供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2342:objective_ranking_or_market_share:b2bd16648dd7b771",
+      "normalized_claim_hash": "b2bd16648dd7b7710a0ac98654b0a534761990d03534a6b17e9469f1696f3b13",
+      "ticker": "2342",
+      "company": "茂矽",
+      "path": "Pilot_Reports/Semiconductors/2342_茂矽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[朋程]] (車用整流二極體模組，最大客戶)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mosel.com.tw/File_Upload/20240919041026.pdf",
+          "title": "茂矽電子股份有限公司（茂矽，2342，Mosel Vitelic）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件（內容含民國112年事項）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「註1:**朋程科技股份有限公司**於民國112年6月2日**取得本公司之控制力**，成為（本公司之母公司）」與「註2:中美矽晶公司於民國112年10月2日取得母公司朋程科技股份有限公司（…）」（「朋程」12次），**顯示朋程為茂矽之控制股東／母公司**。全份文件中「**整流二極體**」「**最大客戶**」與「**車用**」之出現次數均為0，未以客戶關係描述朋程。"
+        }
+      ],
+      "rationale": "「朋程科技與茂矽具集團關係」獲發行人文件支持：文件載「註1:**朋程科技股份有限公司**於民國112年6月2日**取得本公司之控制力**，成為（本公司之母公司）」（「朋程」12次），顯示朋程為茂矽之控制股東／母公司。惟「（車用整流二極體模組，**最大客戶**）」未獲支持：全份文件中「**最大客戶**」「**整流二極體**」與「**車用**」之出現次數**均為0**。**須特別註記：本件所揭露之朋程角色為「取得控制力」之母公司／控制股東，而非客戶**（關係角色與 claim 不同）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2379:objective_ranking_or_market_share:c21c8f86d0573984",
+      "normalized_claim_hash": "c21c8f86d0573984c319ab890bff030854e631c7f3d7050183bb35582697c137",
+      "ticker": "2379",
+      "company": "瑞昱",
+      "path": "Pilot_Reports/Semiconductors/2379_瑞昱.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要產品包括乙太網路控制晶片、Wi-Fi 晶片、藍牙晶片、Switch 控制器、Audio Codec (PC 音效晶片市佔極高)、電視/顯示器控制晶片及其它電腦周邊 IC。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.realtek.com/images/ar/2024_Annual_Report_.pdf",
+          "title": "瑞昱半導體股份有限公司（瑞昱，2379，Realtek Semiconductor）2024 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取289,897字元）。年報中「**Ethernet**」出現50次、「**Audio**」77次、「**Wi-Fi**」37次、「**Bluetooth**」36次、「**market share**」14次與「**leading**」21次，支持其乙太網路、音效、Wi-Fi 及藍牙晶片之產品線及市場地位敘述（如「leading market share」）。全份年報中「Switch 控制器」「電視／顯示器控制晶片」之對應中文詞彙為0次（係因以英文詞彙表述）；**未見**以「PC 音效晶片」為對象之市占率專述。**方法論註記：本件為英文版文件，中文關鍵字檢索結果不具意義。**"
+        }
+      ],
+      "rationale": "「主要產品包括乙太網路控制晶片、Wi-Fi 晶片、藍牙晶片、Audio Codec 等」獲發行人年報支持：2024年報（**英文版**）中「**Ethernet**」出現50次、「**Audio**」77次、「**Wi-Fi**」37次、「**Bluetooth**」36次，支持其各產品線之敘述。惟兩項具體陳述未獲支持：(1)「Audio Codec（**PC 音效晶片市佔極高**）」——年報中「market share」14次、「leading」21次（含「leading market share」），**惟未見以 PC 音效晶片為對象之市占率專述**；(2)「Switch 控制器」與「電視／顯示器控制晶片」之對應表述未見於本件之可檢索文字。故部分成立。**方法論註記：本件為英文版文件，以中文關鍵字檢索不具意義，須以英文詞彙比對。**",
+      "proposed_text": "瑞昱半導體 (2379，Realtek Semiconductor) 主要產品包括乙太網路控制晶片、Wi-Fi 晶片、藍牙晶片及音效晶片。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
