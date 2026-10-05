@@ -68,3 +68,16 @@ The former 1,029 METHOD_UNRESOLVED population is no longer treated as 1,029 issu
 The 26 true non-operating current-period differences were cross-checked against a second official MOPSFIN statement source. All 26 were confirmed as repository errors and repaired across 20 issuer reports. The post-repair official checker reports FINANCIAL_DIFFERENCE = 0.
 
 See `FINANCIAL-PHASE1-REPORT.md` and `generated/financial-difference-resolution.json`.
+
+
+## Financial Phase 1 final closure
+
+Financial Phase 1 is complete for all deterministically comparable current-period cells:
+
+- 6,207 / 6,207 AUTO_VERIFIED
+- 0 FINANCIAL_DIFFERENCE
+- 0 METHOD_UNRESOLVED
+- 0 SOURCE_DEFINITION_DIFFERENCE
+- 0 REPO_VALUE_UNAVAILABLE
+
+3659, 4546 and 6618 are explicitly handled as 2026H1 semiannual/YTD cases; no synthetic Q1 split was invented.

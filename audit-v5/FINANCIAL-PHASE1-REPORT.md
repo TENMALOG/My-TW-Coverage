@@ -87,3 +87,28 @@ The 1,019 SOURCE_DEFINITION_DIFFERENCE items are known legacy-source differences
 - valuation reproducibility.
 
 These are separate later phases and do not reopen the completed general-industry current-period mapping or the 26 resolved exceptions.
+
+
+## Final closure
+
+The two residual Phase 1 categories have now been closed:
+
+- `SOURCE_DEFINITION_DIFFERENCE`: 38 -> **0**
+- `REPO_VALUE_UNAVAILABLE`: 44 -> **0**
+
+For the 38 legacy Operating Income residuals, the repository now preserves Q1 and derives Q2 single-quarter Operating Income from the approved official H1/YTD MOPS value.
+
+For 33 of the 44 missing-value items, Q1/Q2 values were reconstructed from official MOPS Q1 plus official H1/YTD evidence or from an existing quarter plus the official H1/YTD total.
+
+The final 11 items belonged to 3659 百辰, 4546 長亨 and 6618 永虹先進. These are handled as 2026H1 semiannual/YTD issuers rather than inventing an unavailable Q1/Q2 split. Their 2026-06-30 cells are stored and checked directly as official H1/YTD values.
+
+Final deterministic current-period result:
+
+- comparison cells: **6,207**
+- AUTO_VERIFIED: **6,207**
+- FINANCIAL_DIFFERENCE: **0**
+- METHOD_UNRESOLVED: **0**
+- SOURCE_DEFINITION_DIFFERENCE: **0**
+- REPO_VALUE_UNAVAILABLE: **0**
+
+Official Net Income is absent from the general current-period feed for 129 matched issuers; those cells are outside the 6,207 comparable-cell denominator and are not falsely counted as verified.
