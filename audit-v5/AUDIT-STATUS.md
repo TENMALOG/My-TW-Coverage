@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 01:04 UTC
+Updated: 2026-10-11 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **836 / 1,399**
-- Remaining author review: **563**
-- Latest batch: **author-145** (3 claims)
+- Author-reviewed: **841 / 1,399**
+- Remaining author review: **558**
+- Latest batch: **author-146** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **543**
+- `PARTIALLY_SUPPORTED`: **548**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6618:objective_ranking_or_market_share:43a37be574cd8eb6` — `UNKNOWN_AFTER_RESEARCH`；永虹先進官方端點 **HTTP 404**。
-- `6727:objective_ranking_or_market_share:396efdcf88c26ee4`、`addbac4d018e6d92` — `UNKNOWN_AFTER_RESEARCH` ×2；亞泰金屬年報**文字層為字元位移亂碼**（如「$VLD 0HWDO ,QGXVWULHV」＝Asia Metal Industries），「含浸」「塗佈」「CCL」「七成」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-145.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `6793:objective_ranking_or_market_share:9972aa426778a50b` (天力離岸).
+- `6793:objective_ranking_or_market_share:9972aa426778a50b` — `PARTIALLY_SUPPORTED`；天力文件（**英文版**）載「**manufacturing of offshore wind power blades**」，「blade」21次、「offshore」23次、「carbon」3次；惟「台灣唯一」未獲支持。
+- `6793:objective_ranking_or_market_share:90e8d4fffb58444d`、`8a637f74762efb6c` — `PARTIALLY_SUPPORTED` ×2；「Vestas」5次係 **MHI Vestas Offshore Wind 合資**敘述；「唯一」「終止」皆0次（該文件為2020年版本）。
+- `6909:objective_ranking_or_market_share:257a1dfe814cf98a` — `PARTIALLY_SUPPORTED`；創控文件「**MiTAP」3 次、「AMC」19 次**；惟「台積電」「唯一」「高度推薦」皆0次。
+- `6909:objective_ranking_or_market_share:16496bc64a01509f` — `PARTIALLY_SUPPORTED`；AMC 監測業務成立；惟「台積電」「唯一高度推薦」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-146.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6982:objective_ranking_or_market_share:6ce0f1f566a2483c` (大井泵浦).
 
 ## Source access
 

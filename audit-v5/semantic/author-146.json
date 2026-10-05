@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-146",
+  "reviewed_at": "2026-10-05T20:59:28Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (天力離岸Company Profile英文版; 創控科技公司文件)",
+  "items": [
+    {
+      "claim_id": "6793:objective_ranking_or_market_share:9972aa426778a50b",
+      "normalized_claim_hash": "9972aa426778a50bb70667b3729865f21a24b3e406c47668ccd69118171ab32d",
+      "ticker": "6793",
+      "company": "天力離岸",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6793_天力離岸.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "天力離岸工程 (6793) 曾為台灣唯一離岸風機巨型[[碳纖維]]葉片製造廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/679320201021E001.pdf",
+          "title": "天力離岸風電科技股份有限公司（天力離岸，6793，Tien Li Offshore Wind Technology）Company Profile（英文版）",
+          "source_level": 3,
+          "period_binding": "2020年10月。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取9,212字元，以圖形排版為主）。文件載「**Business item：manufacturing of offshore wind power blades**」，並見「**blade／Blade**」合計21次、「**offshore**」23次、「**manufactur**」6次、「**carbon**」3次、「**only**」4次，支持其離岸風機葉片製造業務。「**Vestas**」5次之上下文主要為**合資公司**敘述——「About **MHI Vestas Offshore Wind (MVOW)**」「MHI Vestas Offshore Wind is 50% owned by **Vestas** Wind Systems A/S and 50% by Mitsubishi Heavy Industries (MHI)」；「2025」6次之上下文為離岸風電容量目標（如「seizing 5.7GW of offshore wind power in Taiwan before **2025**」）。中文關鍵字（葉片、碳纖維、唯一、終止）均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「曾為離岸風機巨型[[碳纖維]]葉片製造廠」獲發行人文件支持：文件（**英文版**）載「**Business item：manufacturing of offshore wind power blades**」，並見「**blade／Blade**」合計21次、「**offshore**」23次、「**manufactur**」6次、「**carbon**」3次，支持其離岸風機葉片製造業務。惟「台灣**唯一**」未獲支持：「only」4次之上下文未見台灣唯一之表述；「巨型」與「碳纖維」之完整敘述亦未見。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "天力離岸風電科技 (6793，Tien Li Offshore Wind Technology) 從事離岸風機葉片製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6793:objective_ranking_or_market_share:90e8d4fffb58444d",
+      "normalized_claim_hash": "90e8d4fffb58444dc767d7ef893b43017b2db8dda5ac502ca43f4c316a44cfb2",
+      "ticker": "6793",
+      "company": "天力離岸",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6793_天力離岸.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Vestas]] (唯一客戶, 2025終止)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/679320201021E001.pdf",
+          "title": "天力離岸風電科技股份有限公司（天力離岸，6793，Tien Li Offshore Wind Technology）Company Profile（英文版）",
+          "source_level": 3,
+          "period_binding": "2020年10月。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取9,212字元，以圖形排版為主）。文件載「**Business item：manufacturing of offshore wind power blades**」，並見「**blade／Blade**」合計21次、「**offshore**」23次、「**manufactur**」6次、「**carbon**」3次、「**only**」4次，支持其離岸風機葉片製造業務。「**Vestas**」5次之上下文主要為**合資公司**敘述——「About **MHI Vestas Offshore Wind (MVOW)**」「MHI Vestas Offshore Wind is 50% owned by **Vestas** Wind Systems A/S and 50% by Mitsubishi Heavy Industries (MHI)」；「2025」6次之上下文為離岸風電容量目標（如「seizing 5.7GW of offshore wind power in Taiwan before **2025**」）。中文關鍵字（葉片、碳纖維、唯一、終止）均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「與 [[Vestas]] 具業務關聯」獲發行人文件支持：「**Vestas**」出現5次。惟兩項陳述未獲支持：(1)「（**唯一客戶**）」——文件所載為**合資公司**敘述（「About **MHI Vestas Offshore Wind (MVOW)**」「MHI Vestas Offshore Wind is 50% owned by **Vestas** Wind Systems A/S and 50% by Mitsubishi Heavy Industries (MHI)」），**非**唯一客戶之表述；(2)「（**2025 終止**）」——「2025」6次之上下文為離岸風電容量目標（「seizing 5.7GW of offshore wind power in Taiwan before **2025**」），**非**合作終止之敘述。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義；且該文件為2020年版本，早於 claim 所述之2025年事件。**",
+      "proposed_text": "天力離岸風電科技 (6793) 與 Vestas 集團具業務關聯。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6793:objective_ranking_or_market_share:8a637f74762efb6c",
+      "normalized_claim_hash": "8a637f74762efb6c8aa51ab4ca56237aec05bddffb489afb2303d27895e74784",
+      "ticker": "6793",
+      "company": "天力離岸",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6793_天力離岸.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Vestas]] (唯一, 2025終止合作)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/679320201021E001.pdf",
+          "title": "天力離岸風電科技股份有限公司（天力離岸，6793，Tien Li Offshore Wind Technology）Company Profile（英文版）",
+          "source_level": 3,
+          "period_binding": "2020年10月。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取9,212字元，以圖形排版為主）。文件載「**Business item：manufacturing of offshore wind power blades**」，並見「**blade／Blade**」合計21次、「**offshore**」23次、「**manufactur**」6次、「**carbon**」3次、「**only**」4次，支持其離岸風機葉片製造業務。「**Vestas**」5次之上下文主要為**合資公司**敘述——「About **MHI Vestas Offshore Wind (MVOW)**」「MHI Vestas Offshore Wind is 50% owned by **Vestas** Wind Systems A/S and 50% by Mitsubishi Heavy Industries (MHI)」；「2025」6次之上下文為離岸風電容量目標（如「seizing 5.7GW of offshore wind power in Taiwan before **2025**」）。中文關鍵字（葉片、碳纖維、唯一、終止）均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[Vestas]]（**唯一**，**2025 終止合作**）」）。文件支持其與 Vestas 之關聯（5次，見於 MHI Vestas Offshore Wind 合資敘述）；惟「**唯一**」與「**終止合作**」未獲支持（「2025」6次均為風電容量目標）。故部分成立（並註記該文件為2020年版本）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6909:objective_ranking_or_market_share:257a1dfe814cf98a",
+      "normalized_claim_hash": "257a1dfe814cf98a3b767d196d32f22c3003ac21258d1b4e07bd16b2332660be",
+      "ticker": "6909",
+      "company": "創控",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6909_創控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "MiTAP被[[台積電]]認可為唯一高度推薦之實驗室級現場系統。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tricorntech.com/download/0/20250528F02/",
+          "title": "創控科技股份有限公司（創控，6909，TricornTech）公司文件（2025-05-28）",
+          "source_level": 3,
+          "period_binding": "2025年5月28日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取59,276字元）。文件載「**MiTAP M3**量測酸性、鹼性（…）」「創控 **MiTAP** 系列產品從半導體廠務環境的監控，進一步擴展到個別製程段及半（導體）」「創控 **MiTAP** 系列產品，具有移動性、即時性和高彈性佈建的特點」（「**MiTAP**」3次、「**AMC**」19次、「實驗室」1次），支持其 MiTAP 系列監測產品及 AMC（氣態分子污染物）監測業務。全份文件中「**台積電**」「**唯一**」與「**高度推薦**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**MiTAP** 為實驗室級現場系統」獲發行人文件支持：文件載「**MiTAP M3**量測酸性、鹼性（…）」「創控 **MiTAP** 系列產品從半導體廠務環境的監控，進一步擴展到個別製程段及半（導體）」「創控 **MiTAP** 系列產品，具有移動性、即時性和高彈性佈建的特點」（「**MiTAP**」3次、「**AMC**」19次、「實驗室」1次）。惟兩項陳述未獲支持：(1)「被[[台積電]]認可」——「台積電」出現次數為0；(2)「為**唯一高度推薦**」——「唯一」與「高度推薦」均為0。故部分成立。",
+      "proposed_text": "創控科技 (6909，TricornTech) 之 MiTAP 系列產品為實驗室級現場監測系統，應用於 AMC 監測。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6909:objective_ranking_or_market_share:16496bc64a01509f",
+      "normalized_claim_hash": "16496bc64a01509f190771cf2659ef900068f38c2d6096de8bdb33dd89671214",
+      "ticker": "6909",
+      "company": "創控",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6909_創控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] — [[AMC]]監測 (唯一高度推薦)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tricorntech.com/download/0/20250528F02/",
+          "title": "創控科技股份有限公司（創控，6909，TricornTech）公司文件（2025-05-28）",
+          "source_level": 3,
+          "period_binding": "2025年5月28日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取59,276字元）。文件載「**MiTAP M3**量測酸性、鹼性（…）」「創控 **MiTAP** 系列產品從半導體廠務環境的監控，進一步擴展到個別製程段及半（導體）」「創控 **MiTAP** 系列產品，具有移動性、即時性和高彈性佈建的特點」（「**MiTAP**」3次、「**AMC**」19次、「實驗室」1次），支持其 MiTAP 系列監測產品及 AMC（氣態分子污染物）監測業務。全份文件中「**台積電**」「**唯一**」與「**高度推薦**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「[[台積電]] — [[AMC]]監測（**唯一高度推薦**）」）。文件支持其 AMC 監測業務（「**AMC**」19次、「**MiTAP**」3次）；惟「**台積電**」（0次）與「**唯一高度推薦**」（「唯一」「高度推薦」均0次）未獲支持。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
