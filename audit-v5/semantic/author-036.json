@@ -1,0 +1,234 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-036",
+  "reviewed_at": "2026-10-05T16:52:17Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (智邦2016年股東會年報; 波若威2020年公開說明書; 台嘉碩2026年5月法人說明會簡報); 訊舟科技與康全電訊之官方來源於本批次全數取得失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2345:objective_ranking_or_market_share:45533474be4d6591",
+      "normalized_claim_hash": "45533474be4d6591f5276b0388cf6439895ab4376991ab74b209edab39228c84",
+      "ticker": "2345",
+      "company": "智邦",
+      "path": "Pilot_Reports/Communication Equipment/2345_智邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "智邦科技 (2345，[[Accton Technology]]) 為全球白牌網路交換器 (White-box Switch) 龍頭廠商，市佔率近 49%，同時為開放運算計畫 ([[OCP]]) 核心成員。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.accton.com.tw/pdf/doc/2016%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "智邦科技股份有限公司（智邦，2345）2016 年股東會年報",
+          "source_level": 3,
+          "period_binding": "2016年度（含2015年財務數據）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第4頁載持續投入 SDN 交換器研發並「積極參與開放組織平台如OCP (Open Compute Project，開放運算計畫)」。第44頁載「針對新興的Data Center Switch 數據中心專用10G/40G/100G交換器部分，智邦提供ONIE的開放式軟體架構，是第一家通過OCP(Open Compute Project)認證的10G交換器」。第42頁載其為「享譽全球的OEM/ODM領導廠商」。全份年報中未出現「白牌」或「49%」等市占數字；第44頁所引市占數字（如企業級無線品牌思科46.8%）係引用 Gartner 之市場環境資料，並非智邦自身市占率。"
+        }
+      ],
+      "rationale": "「為開放運算計畫 (OCP) 成員」及開放架構交換器能力獲發行人年報支持：第4頁載其積極參與 OCP 等開放組織平台，第44頁載其為「第一家通過OCP(Open Compute Project)認證的10G交換器」，第42頁載其為享譽全球的 OEM/ODM 領導廠商。惟兩項陳述未獲支持：(1)「全球白牌網路交換器 (White-box Switch) 龍頭廠商」——全份年報未出現「白牌」字樣，亦未以龍頭描述其白牌交換器地位；(2)「市佔率近49%」——年報未載智邦自身之市占率（第44頁所引數字為 Gartner 之市場環境資料，如思科在企業級無線品牌之46.8%，非智邦市占）。故部分成立。",
+      "proposed_text": "智邦科技為開放運算計畫 ([[OCP]]) 成員，其 10G 資料中心交換器為第一家通過 OCP 認證者，並為全球網通設備 OEM/ODM 領導廠商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3047:objective_ranking_or_market_share:8d08849b1db7901e",
+      "normalized_claim_hash": "8d08849b1db7901e4d2e0d4ae3ea8b008e11cc329a4749a729cec90bb49e972e",
+      "ticker": "3047",
+      "company": "訊舟",
+      "path": "Pilot_Reports/Communication Equipment/3047_訊舟.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司持有子公司 [[康全電訊]] (8089，Comtrend，持股約 33%)，康全專注於電信營運商標案與寬頻設備，近年在印度市場表現亮眼，成功取得印度最大行動電信業者之 [[5G]] 標案，帶動營收大幅成長，成為集團重要獲利引擎。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.edimax.com/edimax/mw/cufiles/files/investor/Investor_relations/AnnualReport/2014_Annual_Report.pdf",
+          "title": "訊舟科技（3047）官方投資人年報端點（查證失敗）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得訊舟科技官方文件之結果均為失敗：(1) 發行人官網年報端點 2014_Annual_Report.pdf 與 2013_Annual_Report.pdf 均回應 HTTP 404；(2) 公開資訊觀測站年報端點 t100sa11_3047_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 公開資訊觀測站簡報端點 304720250326M001.pdf 回應 HTTP 404。另嘗試取得與 claim 相關之子公司康全電訊（8089）文件：其法說會端點 808920250321M001.pdf 回應 404，年報端點 t100sa11_8089_113.pdf 回傳320 bytes。故本批次未取得任何可檢視之訊舟或康全官方文件。"
+        }
+      ],
+      "rationale": "「持有子公司康全電訊(8089，Comtrend)約33%股權、康全取得印度最大行動電信業者5G標案並帶動營收大幅成長」於本批次未能查證：訊舟科技官方年報端點（2014與2013年度）均回應 HTTP 404，公開資訊觀測站之訊舟年報端點回傳320 bytes 非文件內容、簡報端點回應 404；與該 claim 直接相關之康全電訊（8089）法說會端點回應 404、年報端點亦回傳320 bytes。故本批次未取得任何可檢視之官方文件，持股比例、標案對象與營收成長幅度均無權威來源可確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3047:objective_ranking_or_market_share:ccd9decfc4baa78c",
+      "normalized_claim_hash": "ccd9decfc4baa78c0c7fda0513d80298b332a10a24fe6285ac7c8336fe5a7253",
+      "ticker": "3047",
+      "company": "訊舟",
+      "path": "Pilot_Reports/Communication Equipment/3047_訊舟.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "印度最大行動電信業者 5G 標案 ([[康全電訊]] 主導)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.edimax.com/edimax/mw/cufiles/files/investor/Investor_relations/AnnualReport/2014_Annual_Report.pdf",
+          "title": "訊舟科技（3047）官方投資人年報端點（查證失敗）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得訊舟科技官方文件之結果均為失敗：(1) 發行人官網年報端點 2014_Annual_Report.pdf 與 2013_Annual_Report.pdf 均回應 HTTP 404；(2) 公開資訊觀測站年報端點 t100sa11_3047_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 公開資訊觀測站簡報端點 304720250326M001.pdf 回應 HTTP 404。另嘗試取得與 claim 相關之子公司康全電訊（8089）文件：其法說會端點 808920250321M001.pdf 回應 404，年報端點 t100sa11_8089_113.pdf 回傳320 bytes。故本批次未取得任何可檢視之訊舟或康全官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「印度最大行動電信業者 5G 標案（康全電訊主導）」）。訊舟科技與康全電訊之官方文件於本批次皆無法取得（訊舟官網年報 404、MOPS 端點回傳非文件內容；康全 MOPS 端點同樣失敗），故無法確認標案對象與主導關係，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3047:objective_ranking_or_market_share:6665972999a4ae24",
+      "normalized_claim_hash": "6665972999a4ae245e1cdc8b4742997fd4454268f33088f00eb085f2a28bb415",
+      "ticker": "3047",
+      "company": "訊舟",
+      "path": "Pilot_Reports/Communication Equipment/3047_訊舟.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "印度最大行動電信業者 — [[康全電訊]] 5G 標案 (營收成長五成以上)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.edimax.com/edimax/mw/cufiles/files/investor/Investor_relations/AnnualReport/2014_Annual_Report.pdf",
+          "title": "訊舟科技（3047）官方投資人年報端點（查證失敗）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得訊舟科技官方文件之結果均為失敗：(1) 發行人官網年報端點 2014_Annual_Report.pdf 與 2013_Annual_Report.pdf 均回應 HTTP 404；(2) 公開資訊觀測站年報端點 t100sa11_3047_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 公開資訊觀測站簡報端點 304720250326M001.pdf 回應 HTTP 404。另嘗試取得與 claim 相關之子公司康全電訊（8089）文件：其法說會端點 808920250321M001.pdf 回應 404，年報端點 t100sa11_8089_113.pdf 回傳320 bytes。故本批次未取得任何可檢視之訊舟或康全官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「印度最大行動電信業者 — 康全電訊 5G 標案（營收成長五成以上）」）。因本批次無法取得訊舟或康全之官方文件，「營收成長五成以上」之具體數字亦無權威來源可核對，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3163:objective_ranking_or_market_share:f4538d7b4e0ae3de",
+      "normalized_claim_hash": "f4538d7b4e0ae3ded4841c2701692ea4039f4f93c8d5573ab21c98262f693c6a",
+      "ticker": "3163",
+      "company": "波若威",
+      "path": "Pilot_Reports/Communication Equipment/3163_波若威.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "波若威科技 (3163，[[Browave]]) 為台灣最大光纖被動元件與模組製造商，專精於 [[WDM]] (波分複用器)、[[PLC]] 分光器及光纖連接器等高精度光學元件之 OEM/ODM 代工。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.browave.com/uploads/images/Prospectus_2020004.pdf",
+          "title": "波若威科技股份有限公司（波若威，3163）公開說明書（2020年）",
+          "source_level": 3,
+          "period_binding": "2020年刊印；財務與業務資料至民國108年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第36及37頁載「本公司及子公司經營範圍為5G、數據中心(Data Center)及光纖到戶(FTTH)之光通訊被動元件、模組及次系統之設計、生產與銷售服務」，產品含光波長分合產品（TFF DWDM/CWDM、Miniature WDM module）、平面光波導分路器（PLC splitter）、光纖連接產品（光纖連接器、MPO/MTP、AOC）等。第47頁載其「在2003/2004年成為日本FTTH市場供應光纖耦合器及波分複用器的最主（要）」。第43頁所引「市占率約5.18%」係指其占台灣光電產業產值之比率，非光纖被動元件市占率。全份說明書中「台灣最大」「唯一」「CPO」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「專精於 WDM、PLC 分光器及光纖連接器等光學元件之 OEM/ODM 代工」獲發行人公開說明書支持：第36及37頁載其經營範圍為5G、數據中心與光纖到戶之光通訊被動元件、模組及次系統之設計生產銷售，產品含濾片式 DWDM/CWDM 模組、平面光波導分光器（PLC splitter）、光纖耦合器與光纖連接器（含 MPO/MTP、AOC）。惟「為台灣最大光纖被動元件與模組製造商」未獲支持：全份說明書中「台灣最大」與「唯一」之出現次數均為0；第43頁所引「市占率約5.18%」係其占台灣光電產業產值之比率，非光纖被動元件市場之占有率。故部分成立。",
+      "proposed_text": "波若威科技 (3163) 專注於光通訊被動元件、模組及次系統，產品包含 [[WDM]]（DWDM/CWDM 模組）、[[PLC]] 分光器及光纖連接器之 OEM/ODM。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3163:objective_ranking_or_market_share:db69c04b1b9da86f",
+      "normalized_claim_hash": "db69c04b1b9da86f717d42c6668cd10a0d141a04dbd2a746902df0e5e4f62e1a",
+      "ticker": "3163",
+      "company": "波若威",
+      "path": "Pilot_Reports/Communication Equipment/3163_波若威.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**波若威** (台灣最大光纖被動元件 OEM/ODM，WDM/PLC 分光器/CPO 光纖套件)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.browave.com/uploads/images/Prospectus_2020004.pdf",
+          "title": "波若威科技股份有限公司（波若威，3163）公開說明書（2020年）",
+          "source_level": 3,
+          "period_binding": "2020年刊印；財務與業務資料至民國108年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第36及37頁載「本公司及子公司經營範圍為5G、數據中心(Data Center)及光纖到戶(FTTH)之光通訊被動元件、模組及次系統之設計、生產與銷售服務」，產品含光波長分合產品（TFF DWDM/CWDM、Miniature WDM module）、平面光波導分路器（PLC splitter）、光纖連接產品（光纖連接器、MPO/MTP、AOC）等。第47頁載其「在2003/2004年成為日本FTTH市場供應光纖耦合器及波分複用器的最主（要）」。第43頁所引「市占率約5.18%」係指其占台灣光電產業產值之比率，非光纖被動元件市占率。全份說明書中「台灣最大」「唯一」「CPO」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「波若威（台灣最大光纖被動元件 OEM/ODM，WDM/PLC 分光器/CPO 光纖套件）」）。WDM 與 PLC 分光器之產品能力獲公開說明書支持；惟「台灣最大」與「CPO 光纖套件」均未獲支持：說明書中「台灣最大」出現次數為0，「CPO」亦為0（其載之光收發器內用元件為 Fiber Array 與微光學元件，未以 CPO 稱之）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3221:objective_ranking_or_market_share:1c545b7df1052ede",
+      "normalized_claim_hash": "1c545b7df1052ede6cec71d1149349eb25953430482c20da8475a5801252a883",
+      "ticker": "3221",
+      "company": "台嘉碩",
+      "path": "Pilot_Reports/Communication Equipment/3221_台嘉碩.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台嘉碩科技 (3221，[[Tai-Saw]]) 為台灣唯一具備表面聲波 ([[SAW]]) 元件全製程能力之頻率元件製造商，核心技術團隊源自 [[Motorola]] 電子通訊零件事業部。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/322120260507M001.pdf",
+          "title": "台灣嘉碩科技股份有限公司（台嘉碩，3221）2026年5月法人投資說明會簡報",
+          "source_level": 3,
+          "period_binding": "2026年第一季（26Q1）財務；產品應用為2026年現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第1頁標語為「Your Best Partner for Frequency Devices」；第4頁載「6' & 4' Wafer Lithography and Foundry」「MLCSP Assembly and Packaging」，顯示其具晶圓製程與封裝組裝能力；第5頁載「完整的頻率元件產品線」含 SAW/BAW Filter、DR Filter、Crystal/Oscillator（XO/TCXO/OCXO/VCXO）、Antenna 等；第10頁載車用應用（TPMS、Keyless Entry RKE/PEPS/UWB、GNSS、SDARS）；第11頁載高速數據通信應用（Optical/Smart NIC 400G/800G/1.6T、GPU Module、伺服器與交換器）。全份簡報未出現「唯一」「台灣最大」或「全球非手機用 SAW 濾波器市占領先」等陳述，亦未載技術團隊源自 Motorola 之沿革。"
+        }
+      ],
+      "rationale": "「具備 SAW 元件製程能力」獲發行人官方簡報支持：第4頁載其具「6' & 4' Wafer Lithography and Foundry」與「MLCSP Assembly and Packaging」，顯示 SAW 元件之晶圓製程與封裝組裝係自行進行；第5頁並載其具「完整的頻率元件產品線」含 SAW/BAW Filter 等。惟兩項陳述未獲支持：(1)「台灣唯一具備全製程能力」——簡報未使用「唯一」或「全製程」表述，亦未與同業比較；(2)「核心技術團隊源自 Motorola 電子通訊零件事業部」——簡報未載技術團隊沿革或 Motorola 字樣。故部分成立。",
+      "proposed_text": "台嘉碩科技 (3221，Tai-Saw) 具備 SAW 元件之晶圓製程與封裝組裝能力，提供完整頻率元件產品線。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3221:objective_ranking_or_market_share:9bfb232098e92952",
+      "normalized_claim_hash": "9bfb232098e929522e8ff7e65f7c7d0f0ae81ab9ecf60fad2a31482ab417f165",
+      "ticker": "3221",
+      "company": "台嘉碩",
+      "path": "Pilot_Reports/Communication Equipment/3221_台嘉碩.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球非手機用 SAW 濾波器市佔率領先廠商，產品廣泛應用於 [[Wi-Fi]] 網通設備、車用電子 (TPMS 胎壓偵測、Keyless 無鑰匙系統、[[GNSS]] 衛星定位)、[[低軌衛星]]地面接收站及 [[AI 伺服器]]光通訊模組。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/322120260507M001.pdf",
+          "title": "台灣嘉碩科技股份有限公司（台嘉碩，3221）2026年5月法人投資說明會簡報",
+          "source_level": 3,
+          "period_binding": "2026年第一季（26Q1）財務；產品應用為2026年現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第1頁標語為「Your Best Partner for Frequency Devices」；第4頁載「6' & 4' Wafer Lithography and Foundry」「MLCSP Assembly and Packaging」，顯示其具晶圓製程與封裝組裝能力；第5頁載「完整的頻率元件產品線」含 SAW/BAW Filter、DR Filter、Crystal/Oscillator（XO/TCXO/OCXO/VCXO）、Antenna 等；第10頁載車用應用（TPMS、Keyless Entry RKE/PEPS/UWB、GNSS、SDARS）；第11頁載高速數據通信應用（Optical/Smart NIC 400G/800G/1.6T、GPU Module、伺服器與交換器）。全份簡報未出現「唯一」「台灣最大」或「全球非手機用 SAW 濾波器市占領先」等陳述，亦未載技術團隊源自 Motorola 之沿革。"
+        }
+      ],
+      "rationale": "claim 所述之產品應用獲發行人官方簡報支持：第10頁車用應用列 TPMS、Keyless Entry (RKE/PEPS/UWB)、GNSS 導航與 SDARS；第11頁高速數據通信應用列 Optical/Smart NIC 400G/800G/1.6T、GPU Module 與伺服器／交換器；第13頁列 EV、5G、無人機與衛星網路應用；第5頁載 Wi-Fi 7 6GHz 等。惟「為全球非手機用 SAW 濾波器市佔率領先廠商」未獲支持：全份簡報未載市占率、排名或「領先」等陳述，亦未以「非手機用」區隔市場。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3209:objective_ranking_or_market_share:375fbb618f362445",
+      "normalized_claim_hash": "375fbb618f3624452a74eb84be32cf6552d6037f0d6b5d001ab283125708e97d",
+      "ticker": "3209",
+      "company": "全科",
+      "path": "Pilot_Reports/Communication Equipment/3209_全科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其代理獲利命脈極度高度、且具備不可替代性地長期綁定全球最大網通晶片寡佔廠 [[Broadcom 博通]] (及併購之 Cypress)，確保最先進之 5G 基地台聯網、Wi-Fi 7 無線模組及超級 AI 資料中心高速網路處理器之絕對穩定第一手貨源。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.alltek.com/wp-content/uploads/2023/08/111%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "全科科技股份有限公司（全科，3209）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度；公司沿革自2001年起。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域（alltek.com）下載並以 PDF 文字檢視。第8頁公司沿革載2003年「取得Broadcom 公司產品代理權」，另載「子公司與Broadcom 簽訂產品大陸經銷合約」及「榮獲Broadcom 頒發『2012年傑出通路商』」「『2014年傑出通路商』」。沿革並載「取得Cypress 及Zilltek 之代理權」與「榮獲Cypress 頒發『2018年台灣區傑出代理商- IoT BU』」。年報另載「（Infineon）業務移轉及整合協議，為使Infineon 與Cypress 業務銷售系統整合強化」，顯示 Cypress 係與 Infineon 進行業務整合。全份年報中「博通」出現次數為0（Broadcom 出現4次），「Wi-Fi」「5G」「資料中心」「主要供應商」之出現次數均為0；「最大」僅2處且係財務信用風險用語。"
+        }
+      ],
+      "rationale": "「代理 Broadcom（博通）產品」獲發行人年報支持：111年度年報公司沿革載2003年「取得Broadcom 公司產品代理權」，其後並載子公司與 Broadcom 簽訂大陸經銷合約、以及獲 Broadcom 頒發2012與2014年傑出通路商，支持其與 Broadcom 之長期代理關係（自2003年起）；「及 Cypress」亦成立——沿革載取得 Cypress 代理權並獲其2018年台灣區傑出代理商獎。惟多項陳述未獲支持：(1)「全球最大網通晶片寡佔廠」——年報未以該定位描述 Broadcom，亦未載其市占或市場結構；(2)「Broadcom 併購之 Cypress」——年報所載之整合關係為「（Infineon）業務移轉及整合協議，為使Infineon 與Cypress 業務銷售系統整合強化」，並非 Broadcom 併購 Cypress；(3)「確保最先進之5G基地台聯網、Wi-Fi 7無線模組及超級AI資料中心高速網路處理器之絕對穩定第一手貨源」——年報中「5G」「Wi-Fi」「資料中心」出現次數均為0，「第一手貨源」「不可替代性」等亦未載。故部分成立。",
+      "proposed_text": "全科科技 (3209) 自 2003 年起取得 [[Broadcom]] 產品代理權，並代理 [[Cypress]] 產品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

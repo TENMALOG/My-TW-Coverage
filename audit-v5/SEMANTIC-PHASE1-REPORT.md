@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **180 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), and `author-035` (8).
+Author-reviewed: **189 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), and `author-036` (9).
 
 - ACCEPTED by author: 41
-- PARTIALLY_SUPPORTED: 114
+- PARTIALLY_SUPPORTED: 120
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 21
-- Remaining author queue: 1,219
+- Other allowed author decisions: 24
+- Remaining author queue: 1,210
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -425,6 +425,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-035.json`; no issuer report was modified. Independent review remains pending.
 - 來源檢索限制：機光科技簡報為圖形排版 PDF、昶昕簡報文字層稀疏；此為檢索限制之紀錄，未用以推論 claim 真偽。`local-recheck-queue.json` 維持 **15** 筆。
 - Author-reviewed total: **180 / 1,399**; remaining: **1,219**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 114, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 21. Next pending claim by priority: `2345:objective_ranking_or_market_share:45533474be4d6591` (智邦).
+
+## Author batch `author-036` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (智邦 2345, 訊舟 3047 ×3, 波若威 3163 ×2, 台嘉碩 3221 ×2). Evidence came from directly downloaded and inspected official disclosures: 智邦2016年股東會年報、波若威2020年公開說明書、台嘉碩2026年5月法人投資說明會簡報；訊舟與康全電訊之官方來源於本批次全數取得失敗。
+- `2345:objective_ranking_or_market_share:45533474be4d6591` — `PARTIALLY_SUPPORTED`. 智邦2016年年報第4頁載其積極參與 OCP（開放運算計畫），第44頁載其為「第一家通過OCP(Open Compute Project)認證的10G交換器」，第42頁載其為享譽全球的 OEM/ODM 領導廠商；惟「白牌」於全份年報出現次數為0，「市佔率近49%」亦未載（第44頁所引數字係 Gartner 之市場環境資料，非智邦自身市占）。
+- `3047:objective_ranking_or_market_share:8d08849b1db7901e`、`ccd9decfc4baa78c`、`6665972999a4ae24` — `UNKNOWN_AFTER_RESEARCH`. 本批次嘗試之訊舟科技官方來源全數失敗：官網年報端點（2014、2013年度）均 HTTP 404，公開資訊觀測站年報端點回傳320 bytes 非文件內容、簡報端點 404；與 claim 直接相關之康全電訊（8089）法說會端點 404、年報端點亦回傳320 bytes。故持股約33%、印度最大行動電信業者5G標案與營收成長幅度均無權威來源可確認或否證。
+- `3163:objective_ranking_or_market_share:f4538d7b4e0ae3de` 與 `db69c04b1b9da86f` — `PARTIALLY_SUPPORTED`. 波若威2020年公開說明書第36及37頁載其經營範圍為5G、數據中心與光纖到戶之光通訊被動元件、模組及次系統，產品含濾片式 DWDM/CWDM 模組、平面光波導分光器（PLC splitter）與光纖連接產品（含 MPO/MTP、AOC）；第47頁載其於2003/2004年為日本 FTTH 市場光纖耦合器及波分複用器之主要供應商。惟「台灣最大」與「CPO」出現次數均為0（第43頁之5.18%係其占台灣光電產業產值之比率）。
+- `3209:objective_ranking_or_market_share:375fbb618f362445` — `PARTIALLY_SUPPORTED`（本筆係於本批次追加，以維持佇列順序）。全科科技111年度年報第8頁公司沿革載2003年「取得Broadcom 公司產品代理權」，並載子公司與 Broadcom 簽訂大陸經銷合約、獲 Broadcom 頒發2012與2014年傑出通路商；沿革亦載「取得Cypress 及Zilltek 之代理權」。惟：年報所載之 Cypress 整合關係為「（Infineon）業務移轉及整合協議，為使Infineon 與Cypress 業務銷售系統整合強化」，即 Cypress 係與 Infineon 整併而非由 Broadcom 併購，claim 之「Broadcom（及併購之Cypress）」在併購主體上不成立；「全球最大網通晶片寡佔廠」「5G基地台聯網」「Wi-Fi 7」「AI資料中心第一手貨源」等於年報中出現次數均為0。
+- `3221:objective_ranking_or_market_share:1c545b7df1052ede` 與 `9bfb232098e92952` — `PARTIALLY_SUPPORTED`. 台嘉碩2026年5月官方簡報第4頁載「6' & 4' Wafer Lithography and Foundry」與「MLCSP Assembly and Packaging」（支持其具 SAW 元件晶圓製程與封裝組裝能力），第5頁載完整頻率元件產品線，第10頁車用應用列 TPMS、Keyless Entry (RKE/PEPS/UWB) 與 GNSS，第11頁高速數據通信應用列 Optical/Smart NIC 400G/800G/1.6T。惟「台灣唯一具備全製程能力」「全球非手機用 SAW 濾波器市佔領先」及「核心技術團隊源自 Motorola」均未見於簡報。
+- Proposed wording is recorded for the partial claims in `semantic/author-036.json`; no issuer report was modified. Independent review remains pending.
+- 方法備註：本批次於 3163 與 3221 之間漏檢 `3209`（全科），經複核佇列順序後立即補做並追加為同批次第9筆，使佇列順序維持不中斷。
+- 來源檢索限制：訊舟科技官網年報端點失效、公開資訊觀測站多個端點對該公司回傳非文件內容；此為檢索限制之紀錄，未用以推論 claim 真偽。`local-recheck-queue.json` 維持 **15** 筆。
+- Author-reviewed total: **189 / 1,399**; remaining: **1,210**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 120, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 24. Next pending claim by priority: `3363:objective_ranking_or_market_share:26fa475a285812b8` (上詮).
+
 
 
 

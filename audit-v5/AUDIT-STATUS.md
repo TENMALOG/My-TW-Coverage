@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 11:04 UTC
+Updated: 2026-10-06 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **180 / 1,399**
-- Remaining author review: **1,219**
-- Latest batch: **author-035** (8 claims)
+- Author-reviewed: **189 / 1,399**
+- Remaining author review: **1,210**
+- Latest batch: **author-036** (9 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **41**
-- `PARTIALLY_SUPPORTED`: **114**
+- `PARTIALLY_SUPPORTED`: **120**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **21**
+- `UNKNOWN_AFTER_RESEARCH`: **24**
 
 ## Latest claim batch
 
-- `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` — `ACCEPTED`; 中碳2025法說會第5頁載「國內唯一 煤化學工廠」「國內第一家 專業石墨化工廠」，第6頁主要股東第1名中國鋼鐵29.04%，第7頁載產業位置為煤化學中游。
-- `1723:objective_ranking_or_market_share:abedfbeca6ee0f1f` — `PARTIALLY_SUPPORTED`; 軟瀝青6處、雜酚油4處、介相石墨碳微球6處並載其為24M半固態電池唯一驗證合格負極材料；惟「寡占」「綠色金雞母」未載。
-- `6729:objective_ranking_or_market_share:878a1a9ec489e500` — `PARTIALLY_SUPPORTED`; 機光公司簡介第1頁載「We are shipping to over 70（國）」支持行銷逾70國；惟檔案多為圖形排版、僅第1頁可擷取文字，「台灣唯一完全自主研發」未獲支持。
-- `8435:objective_ranking_or_market_share:e80d2822023c88a7` — `PARTIALLY_SUPPORTED`; 鉅邁2025法說會第8頁列冷卻水／廢水／鍋爐水／RO等服務項目；惟「前三大」「市佔」出現0次，20%未獲支持。
-- `8438:objective_ranking_or_market_share:fc6a98646b04f985` — `PARTIALLY_SUPPORTED`; 昶昕簡報中「硫酸銅」4次、「銅」16次；惟「PCB」0次、「市佔」0次、「80%」0次、「3萬」0次。
-- `8438:objective_ranking_or_market_share:4d8d631a88512604`、`c76e972ea99e7f8f`、`53bcfea6d2bddac1` — `UNKNOWN_AFTER_RESEARCH` ×3; 昶昕官方簡報未具名任何客戶，臻鼎／欣興／健鼎／華通／敬鵬出現次數皆為0。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-035.json`。未修改發行人報告。
-- Next pending claim by priority: `2345:objective_ranking_or_market_share:45533474be4d6591` (智邦).
+- `2345:objective_ranking_or_market_share:45533474be4d6591` — `PARTIALLY_SUPPORTED`; 智邦2016年報第4頁載參與OCP、第44頁「第一家通過OCP認證的10G交換器」；惟「白牌」出現0次、49%市占未載（第44頁數字為Gartner市場環境資料）。
+- `3047:objective_ranking_or_market_share:8d08849b1db7901e`、`ccd9decfc4baa78c`、`6665972999a4ae24` — `UNKNOWN_AFTER_RESEARCH` ×3; 訊舟官網年報2014/2013皆404、MOPS年報端點回320 bytes、簡報端點404；康全電訊法說會404、年報端點320 bytes，未取得任何可檢視官方文件。
+- `3163:objective_ranking_or_market_share:f4538d7b4e0ae3de`、`db69c04b1b9da86f` — `PARTIALLY_SUPPORTED` ×2; 波若威2020公開說明書第36/37頁支持WDM／PLC分光器／光纖連接器OEM/ODM；「台灣最大」「CPO」皆0次（第43頁5.18%為其占台灣光電產業產值比率）。
+- `3209:objective_ranking_or_market_share:375fbb618f362445` — `PARTIALLY_SUPPORTED`; 全科111年報第8頁沿革載2003年取得Broadcom代理權、並取得Cypress代理權；惟年報載Cypress係與Infineon業務整合（非Broadcom併購），「5G」「Wi-Fi」「資料中心」皆0次。
+- `3221:objective_ranking_or_market_share:1c545b7df1052ede`、`9bfb232098e92952` — `PARTIALLY_SUPPORTED` ×2; 台嘉碩2026簡報第4頁載6'/4'晶圓微影與MLCSP封裝、第5頁完整頻率元件產品線、第10/11頁應用含TPMS／Keyless／GNSS與400G-1.6T Smart NIC；惟「唯一」「台灣最大」「全球非手機用SAW市占領先」與Motorola沿革未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-036.json`（9 筆）。未修改發行人報告。
+- Next pending claim by priority: `3363:objective_ranking_or_market_share:26fa475a285812b8` (上詮).
 
 ## Source access
 
