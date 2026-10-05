@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 02:04 UTC
+Updated: 2026-10-10 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **736 / 1,399**
-- Remaining author review: **663**
-- Latest batch: **author-122** (4 claims)
+- Author-reviewed: **744 / 1,399**
+- Remaining author review: **655**
+- Latest batch: **author-123** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **479**
+- `PARTIALLY_SUPPORTED`: **483**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **170**
+- `UNKNOWN_AFTER_RESEARCH`: **174**
 
 ## Latest claim batch
 
-- `3570:objective_ranking_or_market_share:35138bf9d920ff85` — `PARTIALLY_SUPPORTED`；大塚簡報「**白金級全產品代理商**」「*獲得**Autodesk**唯一」「*獲得**PTC**唯一白金級」「Siemens」6次；惟「AutoCAD／Inventor／Revit／Creo／Windchill／Chaos」皆0次（圖形排版）。
-- `3570:objective_ranking_or_market_share:ecc5b3d321654048` — `PARTIALLY_SUPPORTED`；Autodesk 唯一白金級全產品代理商成立；惟「佔進貨比逾六成」0次。
-- `3632:objective_ranking_or_market_share:ddac08bae5982648` — `UNKNOWN_AFTER_RESEARCH`；研勤官方年報端點 **HTTP 404**。
-- `5201:objective_ranking_or_market_share:b747625e09fd4b18` — `PARTIALLY_SUPPORTED`；凱衛102年報「證券」88次；惟「市佔」3次**全為目標敘述**、「七成」0次（**非近期版本**）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-122.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `5202:objective_ranking_or_market_share:0a310a8ce7f2645f` (力新).
+- `5202:objective_ranking_or_market_share:0a310a8ce7f2645f` — `UNKNOWN_AFTER_RESEARCH`；所取得力新文件為**永續報告書**，「第一金」「富邦金」皆0次。
+- `5403:objective_ranking_or_market_share:5c94bad17f7166b3`、`e50a246d694f5936`、`6ea45e064b9f4141` — `UNKNOWN_AFTER_RESEARCH` ×3；中菲官方網域 **DNS 解析失敗**（兩度嘗試）。
+- `6231:objective_ranking_or_market_share:1da870e8d9816ee5` — `PARTIALLY_SUPPORTED`；系微簡介「**BIOS」5 次、「Intel」8 次、「AMD」3 次、「Snapdragon」1 次**；惟「AI PC」「市佔」皆0次。
+- `6590:objective_ranking_or_market_share:b5dc93a1541f6920` — `PARTIALLY_SUPPORTED`；普鴻簡報「**資安」10 次、「支付」3 次**、「票交」1次；惟「跨行」「清算」「市佔」皆0次。
+- `6738:objective_ranking_or_market_share:16908d8f6cf3d1a7` — `PARTIALLY_SUPPORTED`；鼎恒年報「**超過95%高續約率**」✓；惟「**1,300」3 次皆為財務數字**（17,300／51,300／11,300），「**緯創」1 次為「緯創軟體董事李紹唐」之個人職稱**，「遠雄」0次。
+- `6738:objective_ranking_or_market_share:7d16cd36e6e8ebf5` — `PARTIALLY_SUPPORTED`；「Azure」9次；惟「唯一」為「台灣區唯一合作夥伴**代表**」（活動身分），「創新合作夥伴」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-123.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed` (GOGOLOOK).
 
 ## Source access
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:28:30Z",
+  "generated_at": "2026-10-05T20:29:57Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -124,20 +124,21 @@
     "author-119",
     "author-120",
     "author-121",
-    "author-122"
+    "author-122",
+    "author-123"
   ],
-  "source_batch_count": 122,
-  "total_unknown": 170,
+  "source_batch_count": 123,
+  "total_unknown": 174,
   "failure_signature_counts": {
-    "other_unclassified": 67,
+    "other_unclassified": 68,
     "tls_failure": 9,
     "mops_non_document": 33,
     "non_document_response": 31,
-    "no_official_endpoint_found": 68,
+    "no_official_endpoint_found": 71,
     "http_404": 34,
     "image_only_or_tiny_text": 25,
     "http_403": 10,
-    "connection_failure": 8,
+    "connection_failure": 11,
     "garbled_text_layer": 7,
     "client_rendered_only": 4,
     "download_timeout": 2,
@@ -2664,6 +2665,65 @@
         "http://tw.papagoinc.com/Company/files/%e7%a0%94%e5%8b%a42023%e5%b9%b4%e5%a0%b1.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5202:objective_ranking_or_market_share:0a310a8ce7f2645f",
+      "ticker": "5202",
+      "company": "力新",
+      "claim": "[[第一金]]、[[富邦金]] 等金融機構",
+      "batch_id": "author-123",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5202_111.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:5c94bad17f7166b3",
+      "ticker": "5403",
+      "company": "中菲",
+      "claim": "公司以航運海運系統軟體起家，後成功切入金融業信託系統，目前在台灣銀行信託系統市佔率高達約 80%，證券業系統市佔率約 30%，形成極高轉換成本之產業護城河。",
+      "batch_id": "author-123",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:e50a246d694f5936",
+      "ticker": "5403",
+      "company": "中菲",
+      "claim": "台灣各大公股行庫與民營銀行 (信託系統，市佔約 80%)",
+      "batch_id": "author-123",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:6ea45e064b9f4141",
+      "ticker": "5403",
+      "company": "中菲",
+      "claim": "數十家證券商 (交易與帳務平台，市佔約 30%)",
+      "batch_id": "author-123",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }

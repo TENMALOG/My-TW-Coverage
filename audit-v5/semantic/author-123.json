@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-123",
+  "reviewed_at": "2026-10-05T20:29:42Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (力新永續報告書; 系微公司簡介文件; 普鴻法人說明會簡報; 鼎恒112年股東會年報); 中菲官方網域DNS解析失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "5202:objective_ranking_or_market_share:0a310a8ce7f2645f",
+      "normalized_claim_hash": "0a310a8ce7f2645f78bb6b2efe54a5cbda40e9c94fb1cda36a9959e6f859855b",
+      "ticker": "5202",
+      "company": "力新",
+      "path": "Pilot_Reports/Software - Application/5202_力新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[第一金]]、[[富邦金]] 等金融機構",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5202_111.pdf",
+          "title": "力新國際科技股份有限公司（力新，5202，NewSoft Technology）111 年度文件（書面資料）",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取36,601字元）。經檢視該文件之內容為**永續報告書性質**（含「關於本報告書」「永續力新」「董事會組成」等章節），資訊揭露型態與年報不同；其中「客戶」出現31次、「金融」3次，而「**金融**」之上下文為**董事會專長**敘述（「整體董事會專長面向需包含企業策略與管理、會計與稅務、**財務金融**、法律、危機處理」）。全份文件中「**第一金**」與「**富邦金**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[第一金]]、[[富邦金]] 等金融機構」未獲確立：所取得之力新文件經檢視為**永續報告書性質**（非年報），其中「**金融**」3次之上下文為**董事會專長**敘述（「財務金融」），且「**第一金**」與「**富邦金**」之出現次數**均為0**。因該 claim 之實質內容為具名金融機構客戶，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:5c94bad17f7166b3",
+      "normalized_claim_hash": "5c94bad17f7166b370357e5a32fb5b7068287804e3b08c1ee10c8c295c71f129",
+      "ticker": "5403",
+      "company": "中菲",
+      "path": "Pilot_Reports/Software - Application/5403_中菲.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以航運海運系統軟體起家，後成功切入金融業信託系統，目前在台灣銀行信託系統市佔率高達約 80%，證券業系統市佔率約 30%，形成極高轉換成本之產業護城河。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf",
+          "title": "中菲電腦股份有限公司（中菲，5403，DDSC）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次兩度自發行人官方網域（www.ddsc.com.tw）下載年報，**均回應「無法解析遠端名稱: 'www.ddsc.com.tw'」（DNS 解析失敗）**，未取得可檢視之檔案；本批次未取得中菲可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司以航運海運系統軟體起家，後成功切入金融業信託系統，目前在台灣銀行信託系統市佔率高達約 80%，證券業系統市佔率約 30%（…）」未獲確立：本批次兩度自發行人官方網域下載年報，**均回應 DNS 解析失敗**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:e50a246d694f5936",
+      "normalized_claim_hash": "e50a246d694f5936b3ffd4e95635ea19c47bf7f5744eb03f3842f66e14f60b6a",
+      "ticker": "5403",
+      "company": "中菲",
+      "path": "Pilot_Reports/Software - Application/5403_中菲.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣各大公股行庫與民營銀行 (信託系統，市佔約 80%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf",
+          "title": "中菲電腦股份有限公司（中菲，5403，DDSC）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次兩度自發行人官方網域（www.ddsc.com.tw）下載年報，**均回應「無法解析遠端名稱: 'www.ddsc.com.tw'」（DNS 解析失敗）**，未取得可檢視之檔案；本批次未取得中菲可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「台灣各大公股行庫與民營銀行（信託系統，市佔約 80%）」）。因發行人官方網域 DNS 解析失敗、未取得可檢視之官方文件，該具名客群與市占率未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5403:objective_ranking_or_market_share:6ea45e064b9f4141",
+      "normalized_claim_hash": "6ea45e064b9f41419df89e2f41f66c21bc235ffe730d9052cb230aae9cc05e29",
+      "ticker": "5403",
+      "company": "中菲",
+      "path": "Pilot_Reports/Software - Application/5403_中菲.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "數十家證券商 (交易與帳務平台，市佔約 30%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ddsc.com.tw/Upload/202306160314213560321.pdf",
+          "title": "中菲電腦股份有限公司（中菲，5403，DDSC）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次兩度自發行人官方網域（www.ddsc.com.tw）下載年報，**均回應「無法解析遠端名稱: 'www.ddsc.com.tw'」（DNS 解析失敗）**，未取得可檢視之檔案；本批次未取得中菲可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「數十家證券商（交易與帳務平台，市佔約 30%）」）。因發行人官方網域 DNS 解析失敗、未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6231:objective_ranking_or_market_share:1da870e8d9816ee5",
+      "normalized_claim_hash": "1da870e8d9816ee5be72ff12f1b5fd14b3c8093584258d7a106c91a14085c133",
+      "ticker": "6231",
+      "company": "系微",
+      "path": "Pilot_Reports/Software - Application/6231_系微.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，受惠於[[AI]] PC浪潮(如[[Intel]]/[[AMD]]新晶片及高通Snapdragon X平台)與[[AI[[伺服器]]]]的強勁需求，系微的BIOS授權金及NRE(委託設計)收入穩健增長，在[[AI]] PC市場擁有極高市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/623120260609E001.pdf",
+          "title": "系微股份有限公司（系微，6231，Insyde Software）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,413字元，以圖形排版為主）。文件中「**BIOS**」出現5次、「**Intel**」8次、「**AMD**」3次、「**Snapdragon**」1次、「NRE」2次，支持其 BIOS 韌體業務及與 Intel、AMD、高通 Snapdragon 平台之關聯。全份文件中「**AI PC**」與「**市佔**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「BIOS 授權金及 NRE（委託設計）收入增長，並與[[Intel]]／[[AMD]] 新晶片及高通 Snapdragon X 平台相關」獲發行人文件支持：文件中「**BIOS**」出現5次、「**Intel**」8次、「**AMD**」3次、「**Snapdragon**」1次、「**NRE**」2次，支持其 BIOS 韌體業務及與該等平台之關聯。惟「在 **AI PC** 市場擁有**極高市佔率**」未獲支持：全份文件中「**AI PC**」與「**市佔**」之出現次數均為0。故部分成立（並註記該文件文字擷取僅9,413字元，以圖形排版為主）。",
+      "proposed_text": "系微 (6231，Insyde Software) 從事 BIOS 韌體業務，並與 Intel、AMD、高通 Snapdragon 平台相關。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6590:objective_ranking_or_market_share:b5dc93a1541f6920",
+      "normalized_claim_hash": "b5dc93a1541f6920873989de0a1f4102164d69b44a9e85552492b97e4bfcd503",
+      "ticker": "6590",
+      "company": "普鴻",
+      "path": "Pilot_Reports/Software - Application/6590_普鴻.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司專注於金融業核心支付應用、清算系統及企業級資安解決方案，在台灣銀行圈的票交/跨行支付系統市佔率極高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/659020251114M001.pdf",
+          "title": "普鴻資訊股份有限公司（普鴻，6590，Provision Information）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年11月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,517字元，以圖形排版為主）。簡報中「**資安**」出現10次、「**支付**」3次、「**票交**」1次，支持其金融業支付應用及資安解決方案業務。全份簡報中「**跨行**」「**清算**」與「**市佔**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「專注於金融業核心支付應用及企業級資安解決方案」獲發行人簡報支持：簡報中「**資安**」出現10次、「**支付**」3次、「**票交**」1次，支持其該等業務。惟三項陳述未獲支持：(1)「**清算**系統」——「清算」出現次數為0；(2)「台灣銀行圈票交／**跨行**支付系統」——「跨行」為0；(3)「**市佔率極高**」——「市佔」為0。故部分成立（並註記該簡報文字擷取僅4,517字元，以圖形排版為主）。",
+      "proposed_text": "普鴻資訊 (6590，Provision Information) 從事金融業支付應用及企業級資安解決方案業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6738:objective_ranking_or_market_share:16908d8f6cf3d1a7",
+      "normalized_claim_hash": "16908d8f6cf3d1a78f456afad6fc21cd6d2e1b8abf17961dc6156a0c53597703",
+      "ticker": "6738",
+      "company": "鼎恒",
+      "path": "Pilot_Reports/Software - Application/6738_鼎恒.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為台灣 [[Microsoft]] 在 HR 領域唯一創新合作夥伴，成功服務超過 1,300 家企業，客戶續約率高達 95% 以上，客群涵蓋[[緯創]]集團、[[遠雄]]集團及多家歐美日跨國企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mayohr.com/uploads/images/blog/MKT/ir/112%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "鼎恒數位科技股份有限公司（鼎恒，6738，MAYO Human Capital）112 年股東會年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**Microsoft**」出現11次、「**微軟**」8次、「**Azure**」9次、「**唯一**」3次，並載「微軟大中華區合作夥伴生態大會，**台灣區唯一合作夥伴代表**」與「在**超過 95% 高續約率**的推升（下）」，支持其與微軟之合作關係及高續約率敘述。全份年報中「**1,300**」3次之上下文**均為財務數字**（如「辦理增資17,300 仟元，實收資本額51,300 仟元」），**非客戶家數**；「**緯創**」1次之上下文為**個人職稱**（「**緯創軟體董事李紹唐**也指出：…」）；「**遠雄**」與「創新合作夥伴」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「客戶續約率高達 **95% 以上**」獲發行人年報支持：年報載「在**超過 95% 高續約率**的推升（下）」。惟三項陳述未獲支持：(1)「服務超過 **1,300** 家企業」——「1,300」3次之上下文**均為財務數字**（如「辦理增資17,300 仟元，實收資本額51,300 仟元」），**非客戶家數**；(2)「客群涵蓋[[緯創]]集團」——「緯創」1次之上下文為**個人職稱**（「**緯創軟體董事李紹唐**也指出：…」），**非客戶關係**；(3)「[[遠雄]]集團」——出現次數為0。另「台灣 Microsoft 在 HR 領域**唯一創新合作夥伴**」部分獲支持（年報載「微軟大中華區合作夥伴生態大會，**台灣區唯一合作夥伴代表**」），惟「創新合作夥伴」一詞本身為0次。故部分成立。",
+      "proposed_text": "鼎恒數位科技 (6738，MAYO Human Capital) 與微軟具合作關係，客戶續約率超過 95%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6738:objective_ranking_or_market_share:7d16cd36e6e8ebf5",
+      "normalized_claim_hash": "7d16cd36e6e8ebf5d956cee3cc515baaefa9ea19ab495ac973e115aeb9d3dcfa",
+      "ticker": "6738",
+      "company": "鼎恒",
+      "path": "Pilot_Reports/Software - Application/6738_鼎恒.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Microsoft]] Azure (台灣微軟唯一 HR 創新合作夥伴)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mayohr.com/uploads/images/blog/MKT/ir/112%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "鼎恒數位科技股份有限公司（鼎恒，6738，MAYO Human Capital）112 年股東會年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**Microsoft**」出現11次、「**微軟**」8次、「**Azure**」9次、「**唯一**」3次，並載「微軟大中華區合作夥伴生態大會，**台灣區唯一合作夥伴代表**」與「在**超過 95% 高續約率**的推升（下）」，支持其與微軟之合作關係及高續約率敘述。全份年報中「**1,300**」3次之上下文**均為財務數字**（如「辦理增資17,300 仟元，實收資本額51,300 仟元」），**非客戶家數**；「**緯創**」1次之上下文為**個人職稱**（「**緯創軟體董事李紹唐**也指出：…」）；「**遠雄**」與「創新合作夥伴」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與 [[Microsoft]] Azure 具合作關係」獲發行人年報支持：年報中「**Azure**」出現9次、「**Microsoft**」11次、「**微軟**」8次，支持其與微軟雲端平台之合作。惟「（台灣微軟**唯一 HR 創新合作夥伴**）」未獲完整支持：年報中「**唯一**」3次之上下文為「微軟大中華區合作夥伴生態大會，**台灣區唯一合作夥伴代表**」（屬活動代表身分），而「**創新合作夥伴**」一詞出現次數為0，未以該表述描述雙方關係。故部分成立。",
+      "proposed_text": "鼎恒數位科技 (6738) 與 Microsoft Azure 具合作關係。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
