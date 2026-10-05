@@ -1,0 +1,74 @@
+name: Audit v5 close source definition residuals
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [audit-v5]
+    paths:
+      - "audit-v5/close_source_definition_differences.py"
+      - ".github/workflows/audit-v5-close-source-definition.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-financial-final-writer
+  cancel-in-progress: true
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Patch source-definition residuals
+        run: python -X utf8 audit-v5/close_source_definition_differences.py
+
+      - name: Re-run official checker
+        run: |
+          mkdir -p audit-v5/work
+          python -X utf8 audit-v5/official_financial_check.py --root Pilot_Reports --summary audit-v5/generated/official-financial-summary.json --details audit-v5/work/official-financial-details-after-source-close.json
+
+      - name: Require source-definition differences to be zero
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("audit-v5/generated/official-financial-summary.json").read_text(encoding="utf-8"))
+          n=p.get("status_counts",{}).get("SOURCE_DEFINITION_DIFFERENCE",0)
+          print("SOURCE_DEFINITION_DIFFERENCE =",n)
+          raise SystemExit(0 if n==0 else 2)
+          PY
+
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-v5-source-definition-close-${{ github.run_id }}
+          path: |
+            audit-v5/generated/source-definition-close.json
+            audit-v5/generated/official-financial-summary.json
+            audit-v5/work/official-financial-details-after-source-close.json
+          retention-days: 90
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Pilot_Reports audit-v5/generated/source-definition-close.json audit-v5/generated/official-financial-summary.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "data: close source definition residuals [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
+            git push origin HEAD:audit-v5
+          fi
