@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 16:34 UTC
+Updated: 2026-10-05 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **31 / 1,399**
-- Remaining author review: **1,368**
-- Latest batch: **author-016** (3 claims)
+- Author-reviewed: **37 / 1,399**
+- Remaining author review: **1,362**
+- Latest batch: **author-017** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **7**
-- `PARTIALLY_SUPPORTED`: **19**
+- `ACCEPTED`: **10**
+- `PARTIALLY_SUPPORTED`: **22**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `4414:objective_ranking_or_market_share:cb90ae7e677cf480` — `PARTIALLY_SUPPORTED`; 如興民國114年法說會簡報第11頁標題「全球布局之牛仔褲專業製造商」、第8頁列示被收購公司「玖地製造有限公司及Tooku Holdings Limited」明細，支持牛仔褲製造商定位與玖地收購；惟第4頁自述為「全球前三牛仔成衣廠」而非最大，且2024年全年銷量60,913仟件與 claim 的1.2億件訂單／9,000萬件製造量不符，故「全球最大」及所述數字不成立。
-- `4432:objective_ranking_or_market_share:5839812e308b4ea7` — `UNKNOWN_AFTER_RESEARCH`; 銘旺實113年度年報第87頁以代號揭露最大客戶（客戶甲）占銷貨淨額29.38%，與 claim 所述「約20%」不符，且231頁年報與官方網站均未出現 Under Armour；既不能確認亦無證據否定，依政策以 UNKNOWN_AFTER_RESEARCH 結案。
-- `4438:objective_ranking_or_market_share:05ea182e0e761907` — `PARTIALLY_SUPPORTED`; 廣越2025年11月官方法說會簡報第14頁「成立於1995年」支持成立時間；惟第15頁自述「全球前三大高端戶外機能服飾製造商」，未使用「最大」，故「全球最大高階羽絨外套製造商」不成立。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-016.json`。未修改發行人報告。
-- Next pending claim by priority: `8932:objective_ranking_or_market_share:39298f531ff2064c` (智通).
+- `8932:objective_ranking_or_market_share:39298f531ff2064c` — `PARTIALLY_SUPPORTED`; 智通2024永續報告書第17頁載「創立於西元1978年」及2023年6月更名、第21頁列客戶 Wal-Mart／Target／JCPenney／MACYS／Kohl's，支持成立、MAX拉鍊產品與零售客戶；惟「三大事業體」官方稱「兩大核心事業體」、「Toyota等60餘家汽車品牌」官方所述為「近60個國際大型品牌認證」（涵蓋成衣箱包，未出現 Toyota），故該部分不成立。
+- `8932:objective_ranking_or_market_share:2c4e8e723b5b77d9` — `PARTIALLY_SUPPORTED`; YKK 官方統合報告書《This is YKK 2025》第11頁載2014年獲 Porter Prize 之「global leader in zippers」、第58頁載業務遍及70國與拉鍊年產能逾300萬公里，支持其日本企業與全球領導地位；惟全篇未揭露全球市占率，「市佔約35%」未獲確立。
+- `2207:objective_ranking_or_market_share:12f16578b4009931` — `ACCEPTED`; 和泰年報第112頁載多年位居汽車產業市場領先、法說會第15頁載「蟬聯台灣車市冠軍24年」，第5頁載「總代理：TOYOTA、LEXUS、HINO」，第10頁載2025年三品牌合計市佔38.6%（近16年最高），與「約40%」相當。
+- `2207:objective_ranking_or_market_share:ea263c42d696e282` — `ACCEPTED`; 和泰年報第121頁主要原料供應表將 TOYOTA 與 HINO 之國內供應商均列為 Kuozui Motors（唯一國內製造商），第132頁產品銷售合約載國瑞提供授權製造車輛供在台銷售。
+- `2207:objective_ranking_or_market_share:41ac99c4757c51d2` — `ACCEPTED`; 與 ea263c42d696e282 同源證據（年報第121、132頁），支持「國瑞汽車 — Toyota/Hino 台灣唯一組裝廠」。
+- `2207:objective_ranking_or_market_share:f0cf847d4e06fec3` — `PARTIALLY_SUPPORTED`; 官方揭露之38.6%係 TOYOTA＋LEXUS＋HINO 三品牌合計口徑，TOYOTA 單一品牌為30.1%、LEXUS 為豪華車市場28.0%；claim 以「Toyota、Lexus」為範圍與官方口徑不符。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-017.json`。未修改發行人報告。
+- Next pending claim by priority: `2206:objective_ranking_or_market_share:2206926921111339` (三陽工業).
 
 ## Source access
 

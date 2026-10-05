@@ -1,0 +1,183 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-017",
+  "reviewed_at": "2026-10-05T15:11:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official issuer disclosures (智通 2024 永續報告書與2024年法說會簡報; YKK This is YKK 2025 整合報告書; 和泰汽車 Annual Report 2025 與2025年第4季法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "8932:objective_ranking_or_market_share:39298f531ff2064c",
+      "normalized_claim_hash": "39298f531ff2064c50a8c6840a3806c1e854581c0753fff2b608865777c06209",
+      "ticker": "8932",
+      "company": "智通",
+      "path": "Pilot_Reports/Apparel Manufacturing/8932_智通.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "智通科創 (8932，Wiselink，原名宏大拉鏈) 成立於 1978 年，2023 年 9 月更名並積極轉型為三大事業體：(1) MAX 品牌拉鏈 — 生產[[尼龍]]拉鏈、塑鋼拉鏈、隱形拉鏈及拉片配件，供應[[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]]等零售通路及[[Toyota]]等 60 餘家汽車品牌，與日本[[YKK]] (全球市佔約 35%) 及中國[[SBS]]競爭；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://wiselink.tw/wp-content/uploads/2025/08/%E6%99%BA%E9%80%9A_2024_ESG-%E5%A0%B1%E5%91%8A%E6%9B%B8%E7%A2%BA%E5%AE%9A%E7%89%88.pdf",
+          "title": "智通科創股份有限公司 2024年永續報告書",
+          "source_level": 3,
+          "period_binding": "資料期間2024年1月1日至12月31日；公司沿革敘述至2023年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第17頁載「智通科創(原名: 宏大拉鍊)創立於西元1978年(民國67年)…2023年6月公司中文名稱變更為『智通科創股份有限公司』，英文名稱變更為…」，並載2023年併購馬來西亞GLOBAL LINE NETWORK SDN BHD（持股97.71%）。第18頁載MAX多元完整產品線包含尼龍拉鍊、塑鋼拉鍊、金屬拉鍊、隱形拉鍊、其它特殊拉鍊，並提供各式拉頭、拉鍊配件。第21頁客戶群載「涵蓋Wal-Mart、Target、JCPenney、MACYS、Kohl's、BONTON、VF、Samsonite、M&S、TESCO」，並載「已取得近60個國際大型品牌的認證」。第20頁載公司以雙核心事業體─傳統拉鍊製造（MAX品牌）與科技創新應用（GLN）為營運主軸。"
+        },
+        {
+          "url": "https://wiselink.tw/wp-content/uploads/2025/05/CHN%E6%99%BA%E9%80%9A%E7%A7%91%E5%89%B5%E6%B3%95%E8%AA%AA%E6%9C%83%E4%B8%AD%E6%96%8720240827-1.pdf",
+          "title": "智通科創股份有限公司 2024年法人說明會簡報（2024/08/27）",
+          "source_level": 3,
+          "period_binding": "2024年8月現況；公司沿革自1978年起。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第3頁標題「智通科創兩大核心事業體」；第4頁列「製造業事業體（拉鍊-MAX品牌）」與「軟體資訊新事業」，並載MAX「行銷世界40多國，取得近60個國際品牌認證」；第5頁載「自1978年創立至今，總部位於台灣，MAX品牌成功行銷全球，並成為臺灣第一家拉鍊上櫃公司」；第7頁列取得近60個國際知名品牌認證，並出現 Target 客戶圖示。全份簡報未出現 Toyota 或任何汽車品牌數量之陳述。"
+        }
+      ],
+      "rationale": "公司成立於1978年、MAX品牌之拉鍊產品線（尼龍、塑鋼、金屬、隱形等）及零售通路客戶（Wal-Mart、Target、JCPenney、MACYS、Kohl's）均獲發行人官方永續報告書與法說會簡報支持。惟以下部分不獲支持：(1) 更名時點：官方記載為2023年6月中文名稱變更，claim 所述「2023年9月更名」與官方不符；(2) 事業體數目：官方一貫敘述為「兩大核心事業體」（MAX拉鍊製造與GLN軟體科技），claim 所述「三大事業體」未獲官方文件支持（另有印度Fintech業務但未列為三大）；(3) 「Toyota等60餘家汽車品牌」：官方所述為「近60個國際大型品牌認證」，涵蓋成衣、箱包等領域，並非60餘家汽車品牌，且官方文件中未出現 Toyota；(4) 「與日本YKK及中國SBS競爭」未獲查閱之官方來源陳述，YKK市佔數字另見同批次2c4e8e723b5b77d9之判定。",
+      "proposed_text": "智通科創（原名宏大拉鏈）成立於1978年，2023年6月更名，採雙核心事業體：MAX品牌拉鏈（尼龍、塑鋼、金屬、隱形拉鏈及配件，客戶涵蓋 Wal-Mart、Target、JCPenney、Macy's、Kohl's 等）與 GLN 軟體科技事業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8932:objective_ranking_or_market_share:2c4e8e723b5b77d9",
+      "normalized_claim_hash": "2c4e8e723b5b77d96ad83157c42422204477a30823454ed0e7e285481db1b2fe",
+      "ticker": "8932",
+      "company": "智通",
+      "path": "Pilot_Reports/Apparel Manufacturing/8932_智通.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[YKK]] — 全球拉鏈龍頭 (日本，市佔約 35%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ykk.com/english/csr/eco/report/pdf/2025/this_is_YKK_2025_all_en.pdf",
+          "title": "This is YKK 2025 (YKK Corporation integrated report, English)",
+          "source_level": 3,
+          "period_binding": "整合報告書2025年版；財務數據為FY2024（截至2025年3月31日）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自 YKK 官方網域下載並以 PDF 文字檢視。第11頁年表載2014年「Received the Porter Prize as a global leader in zippers」，為公司自述其於拉鍊領域之全球領導地位。第58頁主要數據載：業務遍及70國／地區、68家集團公司、27,210名員工、Annual Zipper Production Output 超過300萬公里、FY2024淨銷售額4,331億日圓；公司為日本企業（總部東京，官網会社概要載創業1934年）。全份報告未出現全球市占率百分比，亦未出現35%之數字。"
+        }
+      ],
+      "rationale": "YKK 為日本企業並具全球拉鍊領導地位一節，獲 YKK 官方整合報告書支持（第11頁載2014年獲 Porter Prize 之 global leader in zippers；第58頁載業務遍及70國、拉鍊年產能逾300萬公里、FY2024淨銷售4,331億日圓）。惟「全球市佔約35%」未獲查閱之權威來源確立：YKK 2025年整合報告書全篇未揭露全球市占率百分比，亦未出現35%，故該具體數值僅部分成立。",
+      "proposed_text": "[[YKK]] — 全球拉鏈龍頭（日本）",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:12f16578b4009931",
+      "normalized_claim_hash": "12f16578b400993102359c1cb7753795d0157b2aa05b000a33b5a5f02662e181",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "和泰汽車 (2207，Hotai Motor) 為台灣最大汽車經銷商，獨家代理[[Toyota Motor Corporation]]、[[Lexus]]及[[日野汽車]] (Hino) 品牌，國內新車市佔率約 40%。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "Hotai Motor Co., Ltd. Annual Report 2025 (English translation)",
+          "source_level": 3,
+          "period_binding": "2025會計年度（民國114年度）及2024年比較數；簽約與代理關係截至2025年12月31日。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6及14頁股東報告書載：「the combined number of registered vehicles from the three brands distributed by Hotai Motor exceeded 160 thousand units, achieving a market share of 38.6%, marking the highest in 16 years. TOYOTA had 125 thousand units of registered vehicles, which accounted for 30.1% of the market share. … LEXUS recorded over 28,000 units in vehicle sales, achieving a market share of 28.0%, and continued to rank top in the luxury vehicles market … HINO and TOYOTA commercial vehicles … 6,611 units … accounted for 37.6% of the market share」。第112頁載「we have consistently held the position of market leader in the automotive industry for many years」。第87頁載「As the exclusive distributor of Toyota vehicles in Taiwan, Hotai Motor relies primarily on Toyota Motor Corporation」。第132頁「Material Agreements」載與 Toyota Motor Corporation 之 Distributor Agreement（TOYOTA/LEXUS，2025-01-01至2027-12-31）、與 Hino Motors, Ltd. 之代理關係（2021-04-01至2026-03-31）及與 Kuozui Motors 之 Product Sales Agreement。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/220720260317M001.pdf",
+          "title": "和泰汽車股份有限公司 2025年第4季法人說明會簡報（115年3月17日，公開資訊觀測站）",
+          "source_level": 3,
+          "period_binding": "2025年全年（2025年1-12月）及近5年比較。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人置於公開資訊觀測站之官方簡報。第5頁載「總代理：TOYOTA、LEXUS、HINO、YOKOHAMA」，並載2025全年營業額2,826億元。第10頁獲利說明載「三品牌銷售表現穩健，市佔率提升至 38.6% (+3.7%)」。第15頁銷售回顧載「蟬聯台灣車市冠軍24年、市佔率38.6%、3品牌合計總登錄逾16萬台」。第7頁近5年市佔率顯示2021–2025年分別約38%、35%、33%、33%、38.6%。"
+        }
+      ],
+      "rationale": "「台灣最大汽車經銷商（總代理）」獲發行人年報與法說會支持：年報載其多年來持續位居汽車產業市場領先地位，法說會載「蟬聯台灣車市冠軍24年」；「獨家代理 TOYOTA、LEXUS、HINO」獲年報第87頁 exclusive distributor 及法說會第5頁「總代理：TOYOTA、LEXUS、HINO、YOKOHAMA」支持，並有第132頁與 Toyota／Hino 之正式代理合約。「國內新車市佔率約40%」與官方2025年三品牌合計38.6%（近16年最高）相當，且公司2026年目標為40.2%，故以「約40%」之近似表述可接受；精確值應以官方38.6%（2025年）為準。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:ea263c42d696e282",
+      "normalized_claim_hash": "ea263c42d696e282271a897ed6385414c56c33e9e168ed93a1791fd71bd98c37",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在台製造夥伴為[[國瑞汽車]] ([[Toyota]]/Hino 台灣唯一組裝廠)。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "Hotai Motor Co., Ltd. Annual Report 2025 (English translation)",
+          "source_level": 3,
+          "period_binding": "供應商與合約關係截至2025年12月31日。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第121頁「(III) Supply of Main Raw Materials」載 TOYOTA 客車／商用車及零件之國內供應商為 Kuozui Motors, Ltd.（國外為 Toyota Motor Corporation 與 Toyota Motor Asia），HINO 卡車及大型商用車之國內供應商亦為 Kuozui Motors, Ltd.（國外為 Hino Motors, Ltd.）。第132頁「Material Agreements」之 Product Sales Agreement 載「Kuozui Motors, Ltd. agrees to provide vehicles, parts and accessories, which are manufactured under license, to the Company for the purpose of sales and distribution in Taiwan」。第139頁載「TMC and Kuozui Motors are responsible for the manufacturing and research and development of our products」。供應表中 TOYOTA 與 HINO 之國內製造商均僅列國瑞汽車一家。"
+        }
+      ],
+      "rationale": "和泰汽車官方年報之主要原料供應表，將國瑞汽車（Kuozui Motors, Ltd.）列為 TOYOTA 與 HINO 在台灣之唯一國內供應／製造商；物料合約明載國瑞提供在台銷售之授權製造車輛、零件與配件；年報並載 TMC 與國瑞汽車負責和泰所售產品之製造與研發。故「在台製造夥伴為國瑞汽車（Toyota/Hino 台灣唯一組裝廠）」獲發行人正式揭露支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:41ac99c4757c51d2",
+      "normalized_claim_hash": "41ac99c4757c51d2ca5a7fbc4537b9eca19ce6436391ead0b5a129fb5e3d0e63",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[國瑞汽車]] — [[Toyota]]/Hino 台灣唯一組裝廠",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "Hotai Motor Co., Ltd. Annual Report 2025 (English translation)",
+          "source_level": 3,
+          "period_binding": "供應商與合約關係截至2025年12月31日。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 ea263c42d696e282 相同之揭露：第121頁主要原料供應表將 TOYOTA 與 HINO 之國內供應商均列為 Kuozui Motors, Ltd.，且未列其他國內製造商；第132頁 Product Sales Agreement 載國瑞汽車提供授權製造之車輛、零件與配件供和泰在台銷售；第139頁載 TMC 與國瑞汽車負責產品製造與研發。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之供應鏈條目表述（「國瑞汽車 — Toyota/Hino 台灣唯一組裝廠」），證據與 ea263c42d696e282 相同：和泰汽車官方年報之供應表將國瑞汽車列為 TOYOTA 與 HINO 在台灣之唯一國內供應商／製造商。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:f0cf847d4e06fec3",
+      "normalized_claim_hash": "f0cf847d4e06fec3bd586fd1bc4dd90ebb7fd9b167979141ef843000b398db14",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣新車買家 — [[Toyota]]、[[Lexus]] 品牌市佔約 40%",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "Hotai Motor Co., Ltd. Annual Report 2025 (English translation)",
+          "source_level": 3,
+          "period_binding": "2025會計年度（民國114年度）新車登錄數據。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第14頁載2025年「the combined number of registered vehicles from the three brands distributed by Hotai Motor」逾16萬台、市佔38.6%；其中 TOYOTA 12.5萬台、市占30.1%；LEXUS 逾2.8萬台、於豪華車市場市占28.0%；HINO 與 TOYOTA 商用車3.49噸以上6,611台、市占37.6%。官方揭露之38.6%係三品牌（TOYOTA、LEXUS、HINO）合計口徑，並未單獨揭露「TOYOTA＋LEXUS」兩品牌之全體市場合計市占率。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/220720260317M001.pdf",
+          "title": "和泰汽車股份有限公司 2025年第4季法人說明會簡報（115年3月17日）",
+          "source_level": 3,
+          "period_binding": "2025年全年。",
+          "accessed_at": "2026-10-05",
+          "note": "第10頁載「三品牌銷售表現穩健，市佔率提升至 38.6%」；第15頁載「蟬聯台灣車市冠軍24年、市佔率38.6%、3品牌合計總登錄逾16萬台」。官方口徑同為三品牌合計。"
+        }
+      ],
+      "rationale": "官方揭露之2025年38.6%係「TOYOTA、LEXUS、HINO 三品牌合計」之新車市占率，其中 TOYOTA 單一品牌為30.1%、LEXUS 為豪華車市場28.0%（非全體市場）、HINO 與 TOYOTA 商用車為37.6%。claim 以「Toyota、Lexus 品牌」為範圍主張約40%，與官方三品牌合計之口徑不一致，且若僅計 TOYOTA 品牌則為30.1%；約40%之數字本身接近官方三品牌合計值，但品牌範圍與官方揭露不符，故為部分成立。",
+      "proposed_text": "台灣新車買家 — TOYOTA、LEXUS、HINO 三品牌合計市佔約 38.6%（2025年）",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

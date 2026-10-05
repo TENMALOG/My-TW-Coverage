@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **31 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), and `author-016` (3).
+Author-reviewed: **37 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), and `author-017` (6).
 
-- ACCEPTED by author: 7
-- PARTIALLY_SUPPORTED: 19
+- ACCEPTED by author: 10
+- PARTIALLY_SUPPORTED: 22
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 1
-- Remaining author queue: 1,368
+- Remaining author queue: 1,362
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -176,6 +176,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording for the two partial claims is recorded in `semantic/author-016.json`; no issuer report was modified. Independent review remains pending.
 - 檢索紀錄：如興官網 `/data/qa/` 端點因 TLS 憑證信任問題無法下載（僅為檢索限制，未用以推論 claim）；銘旺實官網首次比對 Under Armour 時因未加字詞邊界而誤判，經逐一取出出現位置後確認為零命中，已改正。上述均未達 `local-recheck-queue.json` 應記錄之重大暫時性失敗門檻，佇列維持 **15** 筆。
 - Author-reviewed total: **31 / 1,399**; remaining: **1,368**. Outcome counts: ACCEPTED 7, PARTIALLY_SUPPORTED 19, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `8932:objective_ranking_or_market_share:39298f531ff2064c` (智通).
+
+## Author batch `author-017` — 2026-10-05
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (智通 8932 ×2, 和泰車 2207 ×4). Evidence came from directly downloaded and inspected official issuer disclosures: 智通 2024永續報告書與2024年法說會簡報, YKK《This is YKK 2025》統合報告書, 和泰汽車 Annual Report 2025 與2025年第4季法說會簡報.
+- `8932:objective_ranking_or_market_share:39298f531ff2064c` — `PARTIALLY_SUPPORTED`. 智通2024永續報告書第17頁載公司原名宏大拉鏈、創立於1978年，並載2023年6月中文名稱變更為智通科創；第18與21頁載MAX產品線（尼龍、塑鋼、金屬、隱形拉鍊及配件）與客戶群（Wal-Mart、Target、JCPenney、MACYS、Kohl's 等）。惟官方一貫敘述為「兩大核心事業體」（MAX拉鍊與GLN軟體），非「三大事業體」；「Toyota等60餘家汽車品牌」不獲支持（官方為「近60個國際大型品牌認證」，涵蓋成衣箱包，文件中未出現 Toyota）；更名時點官方為2023年6月，非 claim 所述9月。
+- `8932:objective_ranking_or_market_share:2c4e8e723b5b77d9` — `PARTIALLY_SUPPORTED`. YKK《This is YKK 2025》第11頁載2014年獲 Porter Prize 之「global leader in zippers」，第58頁載業務遍及70國、拉鍊年產能逾300萬公里、FY2024淨銷售4,331億日圓，支持其日本企業與全球拉鏈領導地位；惟全報告未揭露全球市占率百分比，「市佔約35%」未獲確立。
+- `2207:objective_ranking_or_market_share:12f16578b4009931` — `ACCEPTED`. 和泰年報第112頁載多年持續位居汽車產業市場領先；第87頁載其為 Toyota 在台 exclusive distributor；第132頁載與 TMC（TOYOTA/LEXUS）及 Hino Motors 之代理合約；第14頁載2025年三品牌合計登錄逾16萬台、市佔38.6%（近16年最高），TOYOTA 30.1%。法說會第15頁載「蟬聯台灣車市冠軍24年」。「約40%」與官方38.6%相當。
+- `2207:objective_ranking_or_market_share:ea263c42d696e282` — `ACCEPTED`. 年報第121頁主要原料供應表將 TOYOTA 與 HINO 之國內供應商均列為 Kuozui Motors, Ltd.，且未列其他國內製造商；第132頁 Product Sales Agreement 載國瑞提供授權製造車輛、零件與配件供和泰在台銷售；第139頁載 TMC 與國瑞負責產品製造與研發。
+- `2207:objective_ranking_or_market_share:41ac99c4757c51d2` — `ACCEPTED`. 與 ea263c42d696e282 同源證據之供應鏈條目表述，支持「國瑞汽車 — Toyota/Hino 台灣唯一組裝廠」。
+- `2207:objective_ranking_or_market_share:f0cf847d4e06fec3` — `PARTIALLY_SUPPORTED`. 官方揭露之2025年38.6%係 TOYOTA、LEXUS、HINO 三品牌合計口徑；TOYOTA 單一品牌30.1%、LEXUS 於豪華車市場28.0%、HINO 與 TOYOTA 商用車37.6%。claim 以「Toyota、Lexus 品牌」為範圍與官方三品牌合計口徑不符，故僅部分成立。
+- Proposed wording is recorded for the partial claims in `semantic/author-017.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆 `LOCAL_RECHECK_PENDING`（HTTP 500 × 8、HTTP 503 × 7），Cloud 觀測未被覆寫。
+- Author-reviewed total: **37 / 1,399**; remaining: **1,362**. Outcome counts: ACCEPTED 10, PARTIALLY_SUPPORTED 22, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `2206:objective_ranking_or_market_share:2206926921111339` (三陽工業).
+
 
 
 
