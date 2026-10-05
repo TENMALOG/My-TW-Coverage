@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-192",
+  "reviewed_at": "2026-10-05T21:53:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (虹堡法人說明會簡報; 上福線上法人說明會簡報; 福邦證113年度年報)",
+  "items": [
+    {
+      "claim_id": "5258:profitability_assertion:058c3be540bc456a",
+      "normalized_claim_hash": "058c3be540bc456a35613859d96e1648bfbd87790bf9e42f380cd0ec192a4c1a",
+      "ticker": "5258",
+      "company": "虹堡",
+      "path": "Pilot_Reports/Business Equipment & Supplies/5258_虹堡.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 無人自助設備 (Unattended) — 應用於充電樁、販賣機、自助洗衣 (高成長、高毛利)；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/525820260312M001.pdf",
+          "title": "虹堡科技股份有限公司（虹堡，5258，Castles Technology）法人說明會簡報（2026-03-12）",
+          "source_level": 3,
+          "period_binding": "2026年3月12日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,468字元，以圖形排版為主）。簡報載「**Unattended**」「應用於**停車場**、**販賣機**、**充電樁**等場域」與「終端機及**無人自助設備**的汰換升級潮」（「無人」1次、「充電樁」1次、「販賣機」1次、「Unattended」1次），支持其無人自助設備業務及充電樁、販賣機之應用場域。**關鍵發現**：**簡報所載之第三個場域為「停車場」而非 claim 之「自助洗衣」**；全份簡報中「**自助洗衣**」「**高成長**」與「**高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**無人自助設備**（**Unattended**）應用於**充電樁**、**販賣機**」獲發行人簡報**逐字支持**：簡報載「**Unattended**」「應用於**停車場**、**販賣機**、**充電樁**等場域」與「終端機及**無人自助設備**的汰換升級潮」。**惟兩項陳述未獲支持**：(1)「**自助洗衣**」——出現次數為**0**（簡報所載之第三個場域為「**停車場**」）；(2)「（**高成長**、**高毛利**）」——「高成長」與「高毛利」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "虹堡科技 (5258，Castles Technology) 之無人自助設備（Unattended）應用於停車場、販賣機、充電樁等場域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6128:control_acquisition:1e2385e0d1322572",
+      "normalized_claim_hash": "1e2385e0d132257258131aa1288d48a839b11dd238ca84c6e93d4ab31043b183",
+      "ticker": "6128",
+      "company": "上福",
+      "path": "Pilot_Reports/Business Equipment & Supplies/6128_上福.md",
+      "signal_type": "control_acquisition",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "上福透過併購美國事務機耗材通路商[[Katun]] (100% 全資收購)，成功達成上下游垂直整合，強化對歐美終端市場的定價話語權。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/612820221122M001.pdf",
+          "title": "上福全球科技股份有限公司（上福，6128，GPI）線上法人說明會簡報（2022-11-22）",
+          "source_level": 3,
+          "period_binding": "2022年11月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**文字擷取僅1,539字元**，且內容以投影片編號、據點名稱與財務比率表為主——如各季毛利率、營業利益率、稅後淨利率與EPS之數字列）。簡報含「美國總部-明尼蘇達州」「墨西哥」「北美愛荷華」「荷蘭物流倉」「台灣總部-台中市」「研發／組裝／充填／包裝」等字樣。**關鍵發現**：全份擷取內容中「**Katun**」「**併購**」「**收購**」「通路」與「整合」之出現次數**均為0**（「上福」1次）。**該簡報之文字層幾無敘述性內容，無法用以判讀本 claim。**"
+        }
+      ],
+      "rationale": "「上福透過併購美國事務機耗材通路商 [[Katun]]（**100% 全資收購**），成功達成**上下游垂直整合**，強化對歐美終端市場的**定價話語權**」未獲確立：所取得之上福線上法人說明會簡報**文字擷取僅1,539字元**，內容以投影片編號、據點名稱與財務比率表為主，**幾無敘述性內容**；其中「**Katun**」「**併購**」「**收購**」「通路」與「整合」之出現次數**均為0**。因該 claim 之實質內容為具名併購標的與整合效益，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6026:identity_changing_event:504673eb4d7df212",
+      "normalized_claim_hash": "504673eb4d7df2120df7bd5030441bb49634034081377db2ececabcaa646d567",
+      "ticker": "6026",
+      "company": "福邦證",
+      "path": "Pilot_Reports/Capital Markets/6026_福邦證.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "福邦證券 (6026，G. Fortune Securities) 成立於 1989 年 (原名三陽證券)，2003 年更名為福邦證券，2016 年上櫃。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gfortune.com.tw/Static/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E8%82%A1%E6%9D%B1%E5%B0%88%E5%8D%80/113%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "福邦證券股份有限公司（福邦證，6026，G. Fortune Securities）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取280,546字元）。年報載「**78 年09 月 三陽證券公司成立**；初期投資新台幣300,000 仟元，專營經紀業務」（**民國78年＝1989年**）及多次「**三陽證券**」（「**三陽證券**」6次、「**原名**」6次、「**福邦**」248次、「2003」1次），**逐項支持其成立年分與原名**。**關鍵發現**：全份年報中「**2016**」之出現次數為**0**——**未載「2016年上櫃」之敘述**（本 claim 所述之上櫃事件未獲支持）。"
+        }
+      ],
+      "rationale": "「成立於 **1989** 年（原名[[三陽證券]]）」獲發行人年報**逐字支持**：年報載「**78 年09 月 三陽證券公司成立**；初期投資新台幣300,000 仟元，專營經紀業務」（**民國78年＝1989年**；「**三陽證券**」6次、「**原名**」6次）。惟兩項陳述未獲支持：(1)「**2003 年更名為福邦證券**」——「2003」出現1次，**惟其上下文未載更名事件**，「更名為福邦」之完整敘述未見；(2)「**2016 年上櫃**」——「**2016**」之出現次數為**0**。故部分成立。",
+      "proposed_text": "福邦證券 (6026，G. Fortune Securities) 成立於1989年，原名三陽證券。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

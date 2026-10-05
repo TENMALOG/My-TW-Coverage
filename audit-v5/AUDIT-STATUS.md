@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 23:04 UTC
+Updated: 2026-10-13 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,004 / 1,399**
-- Remaining author review: **395**
-- Latest batch: **author-191** (2 claims)
+- Author-reviewed: **1,007 / 1,399**
+- Remaining author review: **392**
+- Latest batch: **author-192** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **651**
+- `PARTIALLY_SUPPORTED`: **653**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **253**
+- `UNKNOWN_AFTER_RESEARCH`: **254**
 
 ## Latest claim batch
 
-- `9924:profitability_assertion:dd5629ab6030e38f` — `PARTIALLY_SUPPORTED`；福興年報載「內銷、外銷各約佔總營業額**7%、93%**；外銷部分以**北美市場佔75%為最大宗**」與「**泰國新廠**…因應**關稅政策與物流風險**」；**惟「75%」係外銷之佔比，換算總營收約 69.75%，略低於「逾七成」**。
-- `8466:material_named_relationship:4186b19ffa74dbe9` — `UNKNOWN_AFTER_RESEARCH`；美吉吉簡報「**麥當勞」0 次**（且為2018年版本，早於所述之2019年事件）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-191.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `5258:profitability_assertion:058c3be540bc456a` (虹堡).
+- `5258:profitability_assertion:058c3be540bc456a` — `PARTIALLY_SUPPORTED`；虹堡簡報載「**Unattended**」「應用於**停車場**、**販賣機**、**充電樁**等場域」；**惟「自助洗衣」0 次**（簡報所載為**停車場**），「高成長／高毛利」亦0次。
+- `6128:control_acquisition:1e2385e0d1322572` — `UNKNOWN_AFTER_RESEARCH`；上福簡報**文字擷取僅1,539字元**且幾無敘述性內容，「**Katun」0 次**、「併購／收購／通路」皆0次。
+- `6026:identity_changing_event:504673eb4d7df212` — `PARTIALLY_SUPPORTED`；福邦證年報載「**78 年09 月 三陽證券公司成立**」（**民國78年＝1989年**）、「三陽證券」6次；惟「**2016」0 次**（上櫃年分未載）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-192.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `8114:material_named_relationship:921e6972ef8ae42f` (振樺電).
 
 ## Source access
 
