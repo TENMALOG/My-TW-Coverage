@@ -1,0 +1,35 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-224",
+  "reviewed_at": "2026-10-05T22:29:42Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泰碩113年度年報; 群創114年度年報; 由田2025法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "3455:material_named_relationship:82a4ffc86eb92f92",
+      "normalized_claim_hash": "82a4ffc86eb92f926152cfe2a8738c4caa7052dec191b12f6d5c686d326178bb",
+      "ticker": "3455",
+      "company": "由田",
+      "path": "Pilot_Reports/Electronic Components/3455_由田.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "並切入 **先進封裝** ([[CoWoS]], [[FOPLP]]) 檢測設備，已打入封測代工大廠 (OSAT) 供應鏈，[[半導體]]營收比重顯著提升。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.utechzone.com/upload/editor/files/20251229201612.pdf",
+          "title": "由田新技股份有限公司（由田，3455，Utechzone）2025 法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2025年12月29日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取1,634字元，以圖形排版為主）。簡報載「1. **CoWoS** RDL AOI Series」（「**CoWoS**」1次）與「**OSAT**」，並見「**FOPLP**」2次、「**先進封裝**」2次、「**半導體**」6次、「**檢測**」（AOI），**支持其切入先進封裝檢測設備與封測代工（OSAT）領域**。**關鍵發現**：全份簡報中未見「營收比重」之量化敘述（簡報篇幅僅1,634字元）。"
+        }
+      ],
+      "rationale": "「並切入**先進封裝**（[[CoWoS]], [[FOPLP]]）**檢測設備**，已打入封測代工大廠（**OSAT**）供應鏈」獲發行人簡報**逐字支持**：簡報載「1. **CoWoS** RDL **AOI** Series」與「**OSAT**」（「**CoWoS**」1次、「**FOPLP**」2次、「**先進封裝**」2次、「**OSAT**」1次、「**半導體**」6次、「AOI」即光學檢測），**支持其切入先進封裝檢測與封測代工領域**。**惟最後一項陳述未獲支持**：「[[半導體]]**營收比重顯著**」——該簡報（1,634字元）**未載營收比重之量化敘述**。故部分成立。",
+      "proposed_text": "由田新技 (3455，Utechzone) 切入先進封裝（CoWoS、FOPLP）AOI 檢測設備，並服務封測代工（OSAT）客戶。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ],
+  "note": "本批次原另含 4 筆已於 author-223 結案之 claim（3338 ×3 與 3481），係重複審查；為維持「每個 claim_id 僅一筆判定」，該 4 筆之複審結果已移入 author-223 作為 amendment（見 author-223.json 之 corrections），本批次僅保留真正新增之 1 筆。"
+}

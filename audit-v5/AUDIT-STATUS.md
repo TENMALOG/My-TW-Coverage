@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 07:04 UTC
+Updated: 2026-10-14 08:34 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,140 / 1,399**
-- Remaining author review: **259**
-- Latest batch: **author-223** (9 claims)
+- Author-reviewed: **1,141 / 1,399**
+- Remaining author review: **258**
+- Latest batch: **author-224** (1 new claim; 4 re-reviews recorded as amendments in author-223)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **712**
+- `ACCEPTED`: **100**
+- `PARTIALLY_SUPPORTED`: **715**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **325**
+- `UNKNOWN_AFTER_RESEARCH`: **321**
 
 ## Latest claim batch
 
-- `3191:identity_changing_event:98fd69deb068be8d` — `PARTIALLY_SUPPORTED`；雲嘉南簡報封面**逐字載**「雲嘉南科技(股)公司**（原和進電子）**」並見集團成員「**和進塑電科技(深圳)**」「**昆山和進電子科技**」（和進3次）；**惟「更名」與「2024」皆 0 次**。
-- `3311:material_named_relationship:d84da2c8e18d086f` — `UNKNOWN_AFTER_RESEARCH`；閎暉年報端點（111年度）仍回 **320 bytes 空殼**。
-- `3321:177edf4d42f7d28b`、`3322:6a19ecdd50c3ef9b`、`3338:f05e7d30c8a03bef`、`3338:d8fd097329e5101b`、`3338:f2a716d3ac6b0cbc`、`3362:2deae2e6e89ce420`、`3481:1a7976baa56b151f` — `UNKNOWN_AFTER_RESEARCH` ×7；同泰／建舜電／泰碩／先進光／群創之所嘗試端點皆 **HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-223.json`（9 筆）。未修改發行人報告。
+- 🟢 `3338:material_named_relationship:f05e7d30c8a03bef` — **`ACCEPTED`**；泰碩113年度年報載「供應完整 **NVIDIA/AMD/Intel** CPU 與 GPU 之高效運算伺服器」（「**散熱」125 次、「液冷」19 次、「AI 伺服器」8 次、「NVIDIA」2 次**）——**逐項對應**。
+- 🟢 `3481:material_named_relationship:1a7976baa56b151f` — **`ACCEPTED`**；群創114年度年報載「隨著子公司 **CarUX** 民國一一四年底完成對 **Pioneer** 的收購」（「**CarUX」26 次、「Pioneer」46 次、「雙軌」2 次、「More than Panel」3 次**）——**逐項對應**。
+- `3338:d8fd097329e5101b` — `PARTIALLY_SUPPORTED`；年報載「F. **CDU**、Manifold 研究開發」（CDU 2次）；**惟「CDM」與「LCM」皆 0 次**。
+- `3338:f2a716d3ac6b0cbc` — `PARTIALLY_SUPPORTED`；年報載「緊密配合 Intel、AMD、**NVIDIA** 等晶片大廠開發時程」；**惟「RVL」0 次**。
+- `3455:material_named_relationship:82a4ffc86eb92f92` — `PARTIALLY_SUPPORTED`；由田簡報載「1. **CoWoS** RDL AOI Series」與「**OSAT**」（FOPLP 2次、先進封裝2次）；**惟「半導體營收比重顯著」未載**。
+- ⚠️ **記帳更正**：本輪原重複審查 4 筆已於 author-223 結案之 claim（3338 ×3、3481）。**為維持「每個 claim_id 僅一筆判定」，該 4 筆之複審結果已移入 author-223 作為 `amendment`（保留原判定），author-224 僅保留真正新增之 1 筆。** 現況：**唯一 claim 數 1,141 ＝ 條目總數 1,141（一致）**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-223.json`（9 筆，其中 4 筆經 amendment）與 `semantic/author-224.json`（1 筆）。未修改發行人報告。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access
