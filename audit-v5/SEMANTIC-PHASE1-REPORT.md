@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **164 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), and `author-033` (8).
+Author-reviewed: **172 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), and `author-034` (8).
 
 - ACCEPTED by author: 40
-- PARTIALLY_SUPPORTED: 103
+- PARTIALLY_SUPPORTED: 110
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 17
-- Remaining author queue: 1,235
+- Other allowed author decisions: 18
+- Remaining author queue: 1,227
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -398,6 +398,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-033.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **164 / 1,399**; remaining: **1,235**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 103, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 17. Next pending claim by priority: `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` (台化).
+
+## Author batch `author-034` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (台化 1326 ×3, 東鹼 1708, 和桐 1714 ×4). Evidence came from directly downloaded and inspected official disclosures: 台化2017年法人說明會簡報、東鹼2025年度英文年報、和桐110年度年報與2025年法人說明會簡報。
+- `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` — `PARTIALLY_SUPPORTED`. 台化簡報第4頁「市場地位」載「全球第2大苯乙烯(SM)製造商；全球第3大ABS、合成酚(PHENOL)製造商；全球第5大PS製造商；全球第7大芳香烴(AROMA)、PTA、PC製造商」，第5頁歷史沿革載其1973至1994年陸續加入耐隆、PTA、PS、ABS 生產，支持垂直整合之產品線。惟官方未以「台灣最大」描述該四項產品，其表述為全球排名（更強但不同之陳述）。
+- `1326:objective_ranking_or_market_share:f1c330ef2220ac46` — `PARTIALLY_SUPPORTED`. 全球排名支持其芳香烴與 PTA/SM 之領先地位；惟「台塑集團四大核心旗艦成員」與「全台產能最大」未見於簡報（第13頁僅列個別產品目前與擴建後年產能）。
+- `1326:objective_ranking_or_market_share:ab200ad4f1ede1d8` — `UNKNOWN_AFTER_RESEARCH`. 台化簡報第6頁僅列投資架構（含台塑集團(開曼)等），全份未載原料供應來源、未提及台塑化為其供料中心，亦無「獨家」或能源效率之陳述。
+- `1708:objective_ranking_or_market_share:1769e438bc571e76` — `PARTIALLY_SUPPORTED`. 東鹼2025年年報載主要產品線為 Potassium sulfate 與 Soda ash，並詳列 Liquid calcium chloride、Hydrochloric Acid、Soda Ash、Baking Soda 等，對應 claim 之產品組合；惟全份年報「the only」出現次數為0，「唯一」未獲支持。
+- `1714:objective_ranking_or_market_share:849ab16abec60b83` — `PARTIALLY_SUPPORTED`. 和桐110年度年報第10頁載「作為世界界面活性劑原料工業的龍頭企業」，第18頁載其以成為界面活性劑產業領導者為目標，官方層級高於 claim 之「亞洲最大」；惟「亞洲最大」於年報出現次數為0，正烷屬烴之「龍頭」亦未載（僅載其供應亞洲其他客戶）。
+- `1714:objective_ranking_or_market_share:adfae1c40f1b5b8e` — `PARTIALLY_SUPPORTED`. 年報載「目前本公司主要生產原料－煤油均係向台灣中油股份有限公司購入」，支持煤油來自台灣本土大型煉油廠；惟「純苯 (Benzene)」於年報出現次數為0。
+- `1714:objective_ranking_or_market_share:1ec145cda72231d8` 與 `54021868aa7d2922` — `PARTIALLY_SUPPORTED`. 兩岸產能佈局（年報第9頁載其為第一家赴大陸投資石化廠之台灣企業）與 LAB/NP 產品線獲支持；客戶部分獲年報第21頁「供給下游清潔劑產品製造商如P&G、Unilever等」支持，惟「花王」「獅王」出現次數均為0，且「全亞洲產量最大」「絕對規模經濟與高度定價優勢」「極高單一供料市占率」均未載。
+- Proposed wording is recorded for the partial claims in `semantic/author-034.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **172 / 1,399**; remaining: **1,227**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 110, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 18. Next pending claim by priority: `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` (中碳).
+
 
 
 

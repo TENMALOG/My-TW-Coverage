@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 09:04 UTC
+Updated: 2026-10-06 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,32 +8,32 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **164 / 1,399**
-- Remaining author review: **1,235**
-- Latest batch: **author-033** (8 claims)
+- Author-reviewed: **172 / 1,399**
+- Remaining author review: **1,227**
+- Latest batch: **author-034** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **40**
-- `PARTIALLY_SUPPORTED`: **103**
+- `PARTIALLY_SUPPORTED`: **110**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **17**
+- `UNKNOWN_AFTER_RESEARCH`: **18**
 
 ## Latest claim batch
 
-- `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` — `PARTIALLY_SUPPORTED`; 統一證111年報第324/87頁載「證券經紀市佔率為2.82%，市佔排名為國內本土券商中第11名」（非前十），另載單點平均市佔率0.09%在前十大本土券商第5名；第101頁載電子下單108年為79.37%。
-- `2889:objective_ranking_or_market_share:9f8aba6960121ca6` — `PARTIALLY_SUPPORTED`; 國票金永續報告第15/17頁載2002年3月26日由國際票券、協和證券及大東綜合證券設立；惟「唯一以票券業務為核心」之「唯一」未獲支持。
-- `6005:objective_ranking_or_market_share:083b365bd1c581fa` — `PARTIALLY_SUPPORTED`; 群益證簡報第16頁經紀市佔3.71%排名9（2025）、第22頁3.53%排名8（2026年1-2月），與「約4%」相符；惟官方排名為第8～9名而非「第六」。
-- `6005:objective_ranking_or_market_share:5130bfc55573a836` — `PARTIALLY_SUPPORTED`; 市占約4%相符；惟據點數與客戶結構未載。
-- `6023:objective_ranking_or_market_share:cec62e122390ab9a` — `PARTIALLY_SUPPORTED`; 元大期113年報第9頁載期貨經紀市占22.62%、客戶保證金占全市場32.89%「市場存量第一」、稅後淨利21.67億「位居14家專營期貨商之首」；惟資本額與淨值「第一」未載。
-- `6026:objective_ranking_or_market_share:f276a5441599570d` — `PARTIALLY_SUPPORTED`; 福邦證113年報第89頁載「以投資銀行業務為核心…聚焦耕耘中型及中小企業客戶」；惟「中小型企業的全方位策略夥伴」字樣未出現。
-- `1313:objective_ranking_or_market_share:f7e881e9038a20ac` — `PARTIALLY_SUPPORTED`; 聯成2025簡報第5/7頁載「全球最大苯酐及可塑劑製造商」；惟「大中華區30%」出自2020簡報，2025簡報第17頁載中國大陸可塑劑市占約23%。
-- `1313:objective_ranking_or_market_share:440a3c16130704da` — `PARTIALLY_SUPPORTED`; 全球最大成立；惟「龍頭」（0次）、「一站式垂直海運物流競爭壁壘」與集團隸屬陳述未獲支持。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-033.json`。未修改發行人報告。
-- Next pending claim by priority: `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` (台化).
+- `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` — `PARTIALLY_SUPPORTED`; 台化2017法說會第4頁載「全球第2大SM」、「全球第3大ABS／苯酚」、「全球第7大芳香烴／PTA／PC」，第5頁沿革支持尼龍／嫘縈／PS／ABS／PP／PC 垂直整合；惟官方未以「台灣最大」描述該四項產品。
+- `1326:objective_ranking_or_market_share:f1c330ef2220ac46` — `PARTIALLY_SUPPORTED`; 全球排名支持其領先地位；惟「台塑集團四大核心旗艦成員」與「全台產能最大」字樣未載。
+- `1326:objective_ranking_or_market_share:ab200ad4f1ede1d8` — `UNKNOWN_AFTER_RESEARCH`; 台化簡報第6頁僅列投資架構，全份未載原料供應來源或台塑化為其供料中心。
+- `1708:objective_ranking_or_market_share:1769e438bc571e76` — `PARTIALLY_SUPPORTED`; 東鹼2025英文年報載主要產品線 Potassium sulfate 與 Soda ash，並列 Liquid calcium chloride、Hydrochloric Acid、Baking Soda；惟「the only」出現0次，「唯一」未獲支持。
+- `1714:objective_ranking_or_market_share:849ab16abec60b83` — `PARTIALLY_SUPPORTED`; 和桐110年報第10頁載「作為世界界面活性劑原料工業的龍頭企業」；惟「亞洲最大」0次、正烷屬烴「龍頭」未載。
+- `1714:objective_ranking_or_market_share:adfae1c40f1b5b8e` — `PARTIALLY_SUPPORTED`; 年報載「主要生產原料－煤油均係向台灣中油股份有限公司購入」；惟「純苯」出現0次。
+- `1714:objective_ranking_or_market_share:1ec145cda72231d8` — `PARTIALLY_SUPPORTED`; 兩岸 LAB/NP 佈局 supported；「全亞洲產量最大」「絕對規模經濟與定價優勢」未載。
+- `1714:objective_ranking_or_market_share:54021868aa7d2922` — `PARTIALLY_SUPPORTED`; 年報第21頁載「供給下游清潔劑產品製造商如P&G、Unilever等」；惟花王／獅王0次、市佔數字未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-034.json`。未修改發行人報告。
+- Next pending claim by priority: `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` (中碳).
 
 ## Source access
 
