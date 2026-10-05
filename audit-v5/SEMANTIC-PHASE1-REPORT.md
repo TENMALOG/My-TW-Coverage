@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **655 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), and `author-108` (8).
+Author-reviewed: **659 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), `author-108` (8), and `author-109` (4).
 
 - ACCEPTED by author: 77
-- PARTIALLY_SUPPORTED: 424
+- PARTIALLY_SUPPORTED: 427
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 150
-- Remaining author queue: 744
+- Other allowed author decisions: 151
+- Remaining author queue: 740
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1294,6 +1294,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **150 筆**。
 - Author-reviewed total: **655 / 1,399**; remaining: **744**. Outcome counts: ACCEPTED 77, PARTIALLY_SUPPORTED 424, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 150. Next pending claim by priority: `6830:objective_ranking_or_market_share:f1578b23f3b713fe` (汎銓).
+
+## Author batch `author-109` — 2026-10-09
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (汎銓 6830 ×2, 昇陽半導體 8028 ×2). Evidence came from directly downloaded and inspected official disclosures: 汎銓2024年永續報告書、昇陽半導體2023年永續報告書。
+- `6830:objective_ranking_or_market_share:f1578b23f3b713fe` — `PARTIALLY_SUPPORTED`. 汎銓2024年永續報告書載「鼓勵員工激發產能，進一步提升汎銓科技整體競爭力，**展現在高科技檢測領域中的領導地位**」，並見「**材料分析**」24次、「**TEM**」9次、「FIB」2次、「先進製程」11次，支持其材料分析業務與檢測領域領導地位之敘述；惟「全球先進製程材料分析市占率**超過50%**」未獲支持——全份報告書中「**市占**」與「超過50」均為0次，且「**50%**」1次之上下文為「朝2025年前**節能50%**的目標邁進」，**非市占率**。
+- `6830:objective_ranking_or_market_share:261e22e52765eec0` — `PARTIALLY_SUPPORTED`. 本 claim 為同一事實之條目表述（「汎銓（TEM/FIB 材料分析，全球市占 50%+）」）。報告書支持其 TEM／FIB 材料分析業務；惟「全球市占 50%+」未獲支持（「市占」0次；「50%」為節能目標）。
+- `8028:objective_ranking_or_market_share:36af13fbf6f495ec` — `PARTIALLY_SUPPORTED`. 昇陽半導體2023年永續報告書中「**晶圓再生**」出現10次，支持其晶圓再生業務；惟「為**台灣最大**的矽晶圓再生廠之一」未獲支持——「**最大**」4次之上下文為「盡**最大**努力與責任」「廠內**最大宗**廢棄物」「達到資源再利用**最大**化」等泛用語；「主要客戶為**台積電**等晶圓代工廠」亦未獲支持（「**台積電**」0次）。
+- `8028:objective_ranking_or_market_share:6f62e2054fe7535b` — `UNKNOWN_AFTER_RESEARCH`. 昇陽半導體2023年永續報告書中「**台積電**」出現次數為0，未具名該客戶，依具名客戶身分規則以 UNKNOWN 結案。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **151 筆**。
+- Author-reviewed total: **659 / 1,399**; remaining: **740**. Outcome counts: ACCEPTED 77, PARTIALLY_SUPPORTED 427, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 151. Next pending claim by priority: `2330:objective_ranking_or_market_share:69b238d963f6d1c7` (台積電).
+
 
 
 

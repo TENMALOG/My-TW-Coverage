@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 12:04 UTC
+Updated: 2026-10-09 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **655 / 1,399**
-- Remaining author review: **744**
-- Latest batch: **author-108** (8 claims)
+- Author-reviewed: **659 / 1,399**
+- Remaining author review: **740**
+- Latest batch: **author-109** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **424**
+- `PARTIALLY_SUPPORTED`: **427**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **150**
+- `UNKNOWN_AFTER_RESEARCH`: **151**
 
 ## Latest claim batch
 
-- `5483:objective_ranking_or_market_share:330863256f88c588` — `PARTIALLY_SUPPORTED`；中美晶110年報「矽晶圓」53次；惟「3-12吋」「台灣最大」皆0次。
-- `6147:objective_ranking_or_market_share:b5110c677f121bef`、`55e95765fe157fbc`、`6bdc058d1011e062` — `PARTIALLY_SUPPORTED` ×3；頎邦110年報「**驅動IC」8 次**、「**凸塊」13 次**、「COF」5次、「COG」5次；惟「全球最大」「南茂」皆0次，且「**50%」9 次為「削減50%」「50%提升至75%」「25.50%」**等，非市占率。
-- `6261:objective_ranking_or_market_share:37228631f06f5ce4` — `UNKNOWN_AFTER_RESEARCH`；久元年報「**晶元」0 次**（客戶108次、光電36次均為通稱），「最大客戶」「占營收」皆0次。
-- `6532:objective_ranking_or_market_share:9f3fc56944fd9568` — `PARTIALLY_SUPPORTED`；瑞耘113年報「**OEM」4 次**、「晶圓旋乾」3次、「SRD」2次；惟「應用材料」「Applied Materials」皆0次（「Applied」2次之一為**學術期刊名**）。
-- `6532:objective_ranking_or_market_share:7e0ba7530f386152` — `UNKNOWN_AFTER_RESEARCH`；年報「應用材料」「台積電」「日月光」「最大客戶」「六成」皆0次。
-- `6533:objective_ranking_or_market_share:de4c47986928bfbe` — `UNKNOWN_AFTER_RESEARCH`；所取得文件為**股東常會議事手冊**（非年報），「Meta」「MTIA」「聯發科」「聯詠」「Renesas」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-108.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6830:objective_ranking_or_market_share:f1578b23f3b713fe` (汎銓).
+- `6830:objective_ranking_or_market_share:f1578b23f3b713fe`、`261e22e52765eec0` — `PARTIALLY_SUPPORTED` ×2；汎銓2024永續報告載「**展現在高科技檢測領域中的領導地位**」與「**材料分析」24 次**、「TEM」9次、「FIB」2次；惟「市占」0次，且「**50%」1 次係「朝2025年前節能50%的目標」**，非市占率。
+- `8028:objective_ranking_or_market_share:36af13fbf6f495ec` — `PARTIALLY_SUPPORTED`；昇陽2023永續報告「**晶圓再生」10 次**；惟「**台積電」0 次**，且「最大」4次為「盡最大努力」「最大宗廢棄物」「資源再利用最大化」等泛用語。
+- `8028:objective_ranking_or_market_share:6f62e2054fe7535b` — `UNKNOWN_AFTER_RESEARCH`；報告書「台積電」0次，未具名客戶。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-109.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2330:objective_ranking_or_market_share:69b238d963f6d1c7` (台積電).
 
 ## Source access
 
