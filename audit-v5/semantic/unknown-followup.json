@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:52:50Z",
+  "generated_at": "2026-10-05T20:54:02Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -142,10 +142,11 @@
     "author-137",
     "author-138",
     "author-139",
-    "author-140"
+    "author-140",
+    "author-141"
   ],
-  "source_batch_count": 140,
-  "total_unknown": 194,
+  "source_batch_count": 141,
+  "total_unknown": 195,
   "failure_signature_counts": {
     "other_unclassified": 76,
     "tls_failure": 13,
@@ -153,7 +154,7 @@
     "non_document_response": 31,
     "no_official_endpoint_found": 78,
     "http_404": 35,
-    "image_only_or_tiny_text": 30,
+    "image_only_or_tiny_text": 31,
     "http_403": 11,
     "connection_failure": 11,
     "garbled_text_layer": 7,
@@ -3028,6 +3029,20 @@
         "https://www.aether-tek.com/wp-content/uploads/2024/06/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4568:objective_ranking_or_market_share:14f79b7b43f1f4b4",
+      "ticker": "4568",
+      "company": "科際精密",
+      "claim": "[[Alfmeier]]、[[Faurecia]]、[[Continental]] — 座椅氣動系統 (市占 80%)",
+      "batch_id": "author-141",
+      "failure_signature": [
+        "image_only_or_tiny_text"
+      ],
+      "attempted_sources": [
+        "https://emops.twse.com.tw/nas/STR/456820251222E002.pdf"
+      ],
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     }
   ]
 }

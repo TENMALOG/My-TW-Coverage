@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 20:04 UTC
+Updated: 2026-10-10 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **816 / 1,399**
-- Remaining author review: **583**
-- Latest batch: **author-140** (6 claims)
+- Author-reviewed: **820 / 1,399**
+- Remaining author review: **579**
+- Latest batch: **author-141** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **531**
+- `PARTIALLY_SUPPORTED`: **534**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **194**
+- `UNKNOWN_AFTER_RESEARCH`: **195**
 
 ## Latest claim batch
 
-- `2421:objective_ranking_or_market_share:7f00f533ae4191d0` — `PARTIALLY_SUPPORTED`；建準簡報（**英文版**）「cooling」16次、「Fan」合計13次、「**AI」38 次**，並載「The Company ranks among the **top 3** leading brands in terms of（…）」；惟「market share」片段無法判讀、「20%」上下文不足。
-- `2464:objective_ranking_or_market_share:251a126c32c2c2ec` — `PARTIALLY_SUPPORTED`；盟立簡報「自動化」6次、「**OHT」3 次、「Stocker」2 次**；惟「最大」「AS/RS」「機器人」皆0次。
-- `2476:objective_ranking_or_market_share:e9cbf6611b6656f4` — `UNKNOWN_AFTER_RESEARCH`；鉅祥端點 **SSL/TLS 憑證信任失敗**。
-- `3219:objective_ranking_or_market_share:0ef62b067682d21f`、`9bca902ddfd55250`、`96e9ac24bd44c81e` — `UNKNOWN_AFTER_RESEARCH` ×3；倚強科113年報「**Meta」0 次**、「最大客戶」0次、「BFT」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-140.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `3616:objective_ranking_or_market_share:da6309bf6fbd75aa` (泓辰).
+- `3616:objective_ranking_or_market_share:da6309bf6fbd75aa` — `PARTIALLY_SUPPORTED`；泓辰簡報「**LMFP」26 次**、「LMFP居領先地位」「**首座LMFP量產線**」；惟「2001」「平鎮」「桃園」「唯一」「非中國」「台灣」皆0次（沿革載「粉體設備**1997**」）。
+- `4565:objective_ranking_or_market_share:e8f4df672e4b53fe` — `PARTIALLY_SUPPORTED`；宏偉簡報「**電梯」11 次、「歐賓」2 次**；惟「貨梯」「VOLBIN」「市佔」「龍頭」皆0次，且「**30%」係圖表座標軸刻度**（0% 10% 20% 30% 40%…）。
+- `4568:objective_ranking_or_market_share:9189892b50ee5bb9` — `PARTIALLY_SUPPORTED`；科際簡報「腰托」3次、「按摩」3次；惟「微型泵浦」「電磁閥」「80%」皆0次。
+- `4568:objective_ranking_or_market_share:14f79b7b43f1f4b4` — `UNKNOWN_AFTER_RESEARCH`；「Alfmeier」「Faurecia」「Continental」「80%」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-141.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `4575:objective_ranking_or_market_share:8ef602a5b67e7880` (銓寶).
 
 ## Source access
 

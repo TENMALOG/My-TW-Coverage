@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-141",
+  "reviewed_at": "2026-10-05T20:53:47Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泓辰法人說明會簡報; 宏偉法人說明會簡報; 科際精密公司簡報)",
+  "items": [
+    {
+      "claim_id": "3616:objective_ranking_or_market_share:da6309bf6fbd75aa",
+      "normalized_claim_hash": "da6309bf6fbd75aaf72a9c3f2e85bb49406b6a51a5dfe930a2579c3e4b19079f",
+      "ticker": "3616",
+      "company": "泓辰",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/3616_泓辰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "泓辰材料 (3616，HCM Co.) 成立於 2001 年，總部位於桃園市平鎮區，是全球少數具備[[磷酸錳鐵鋰]] ([[LMFP]]) 正極材料量產能力的企業，亦為全球唯一「非中國」之 [[LMFP]] 正極材料製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/361620250827E001.pdf",
+          "title": "泓辰材料股份有限公司（泓辰，3616，HCM Co.）法人說明會簡報（2025-08-27）",
+          "source_level": 3,
+          "period_binding": "2025年8月27日。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,279字元，以圖形排版為主）。簡報載「**LMFP居領先地位**」與「泓辰設備沿革」時序（「粉體設備 1997」「AOI設備 2003」「**LMFP正極材料開發** 2010」「2016」「整廠輸出專案 2022」「模組示範線 2025」「**首座LMFP量產線**」），並見「**LMFP**」26次、「**正極**」7次、「磷酸錳鐵鋰」1次、「量產」2次、「全球」3次，支持其 LMFP 正極材料開發與量產能力。全份簡報中「**2001**」「**平鎮**」「**桃園**」「**唯一**」「**非中國**」與「**台灣**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「具備 [[磷酸錳鐵鋰]]（[[LMFP]]）正極材料量產能力」獲發行人簡報支持：簡報載「**LMFP居領先地位**」與「**LMFP正極材料開發**」「**首座LMFP量產線**」（「**LMFP**」26次、「**正極**」7次、「量產」2次），支持其該項能力。惟三項陳述未獲支持：(1)「成立於 **2001** 年」——「2001」出現次數為0（簡報之設備沿革載「粉體設備 **1997**」）；(2)「總部位於**桃園市平鎮區**」——「平鎮」與「桃園」均為0；(3)「為全球**唯一『非中國』**之 LMFP 正極材料製造商」——「唯一」「非中國」與「台灣」均為0。故部分成立。",
+      "proposed_text": "泓辰材料 (3616，HCM Co.) 從事磷酸錳鐵鋰（LMFP）正極材料之開發與量產。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4565:objective_ranking_or_market_share:e8f4df672e4b53fe",
+      "normalized_claim_hash": "e8f4df672e4b53fe1546516eea93c473a61e8fd96c70ffb9fff0ee676aa46026",
+      "ticker": "4565",
+      "company": "宏偉",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4565_宏偉.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏偉工業 (4565) 為台灣工業[[貨梯]]龍頭，市佔逾 30%，自有品牌 VOLBIN (歐賓)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/456520160929E001.pdf",
+          "title": "宏偉電機工業股份有限公司（宏偉，4565，Volbin Industrial）法人說明會簡報（2016-09-29）",
+          "source_level": 3,
+          "period_binding": "2016年9月29日。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,526字元，以圖形排版為主）。簡報中「**電梯**」出現11次、「**歐賓**」2次，支持其電梯業務與品牌。全份簡報中「**貨梯**」「**VOLBIN**」「**市佔**」與「**龍頭**」之出現次數**均為0**；「**30%**」1次之上下文為**圖表座標軸刻度**——「0% 10% 20% **30%** 40% 50% 60% 70% 80% 90% 100% 營收比重」，**非**市占率。"
+        }
+      ],
+      "rationale": "「為電梯業者，自有品牌『**歐賓**』」獲發行人簡報支持：簡報中「**電梯**」出現11次、「**歐賓**」2次，支持其電梯業務與品牌。惟三項陳述未獲支持：(1)「為台灣工業**貨梯龍頭**」——「貨梯」與「龍頭」之出現次數**均為0**；(2)「**市佔逾 30%**」——「市佔」為0，且「**30%**」1次之上下文為**圖表座標軸刻度**（「0% 10% 20% **30%** 40% 50% …營收比重」），**非**市占率；(3)「自有品牌 **VOLBIN**」——「VOLBIN」為0（僅見中文品牌「歐賓」）。故部分成立。",
+      "proposed_text": "宏偉電機工業 (4565，Volbin Industrial) 從事電梯業務，自有品牌「歐賓」。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4568:objective_ranking_or_market_share:9189892b50ee5bb9",
+      "normalized_claim_hash": "9189892b50ee5bb917470ba8f4abdeaa36c19aa7691f3af629add7b9f2ca0dda",
+      "ticker": "4568",
+      "company": "科際精密",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4568_科際精密.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "科際精密 (4568，Koge Micro Tech) 為微型泵浦與電磁閥專業廠，汽車座椅氣動腰托/按摩系統用氣泵全球市占約 80%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/456820251222E002.pdf",
+          "title": "科際精密股份有限公司（科際精密，4568，Koge Micro Tech）公司簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年12月簡報）。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,210字元，以圖形排版為主）。簡報中「**腰托**」出現3次、「**按摩**」3次，支持其汽車座椅氣動應用之業務。全份簡報中「**微型泵浦**」「**電磁閥**」「**80%**」「**Alfmeier**」「**Faurecia**」與「**Continental**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「從事汽車座椅氣動**腰托／按摩**系統相關產品」獲發行人簡報支持：簡報中「**腰托**」出現3次、「**按摩**」3次，支持其汽車座椅氣動應用之業務。惟兩項陳述未獲支持：(1)「為**微型泵浦與電磁閥**專業廠」——「微型泵浦」與「電磁閥」之出現次數**均為0**；(2)「汽車座椅氣動腰托／按摩系統用氣泵**全球市占約 80%**」——「80%」出現次數為0。故部分成立（並註記該簡報文字擷取僅3,210字元）。",
+      "proposed_text": "科際精密 (4568，Koge Micro Tech) 從事汽車座椅氣動腰托／按摩系統相關產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4568:objective_ranking_or_market_share:14f79b7b43f1f4b4",
+      "normalized_claim_hash": "14f79b7b43f1f4b434233710bd275f374156739123e259a3f6138a6bf221ac15",
+      "ticker": "4568",
+      "company": "科際精密",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4568_科際精密.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Alfmeier]]、[[Faurecia]]、[[Continental]] — 座椅氣動系統 (市占 80%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/456820251222E002.pdf",
+          "title": "科際精密股份有限公司（科際精密，4568，Koge Micro Tech）公司簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年12月簡報）。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,210字元，以圖形排版為主）。簡報中「**腰托**」出現3次、「**按摩**」3次，支持其汽車座椅氣動應用之業務。全份簡報中「**微型泵浦**」「**電磁閥**」「**80%**」「**Alfmeier**」「**Faurecia**」與「**Continental**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[Alfmeier]]、[[Faurecia]]、[[Continental]] — 座椅氣動系統（市占 80%）」未獲確立：所取得之科際精密簡報中「**Alfmeier**」「**Faurecia**」「**Continental**」與「**80%**」之出現次數**均為0**，未具名該等客戶／夥伴或載明市占率。因該 claim 之實質內容為具名對象身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
