@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **289 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), and `author-052` (8).
+Author-reviewed: **293 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), and `author-053` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 185
+- PARTIALLY_SUPPORTED: 189
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 47
-- Remaining author queue: 1,110
+- Remaining author queue: 1,106
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -624,6 +624,16 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **289 / 1,399**; remaining: **1,110**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 185, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 47. Next pending claim by priority: `6592:objective_ranking_or_market_share:2860da8fae309c7a` (和潤企業).
+
+## Author batch `author-053` — 2026-10-07
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (和潤企業 6592, 裕融 9941 ×3). Evidence came from directly downloaded and inspected official disclosures: 和潤2026年法人說明會簡報、裕融110年度年報。
+- `6592:objective_ranking_or_market_share:2860da8fae309c7a` — `PARTIALLY_SUPPORTED`. 和潤2026年官方簡報第5頁載「成立時間：1999/5/25」「上市日期：2019/12/9」，並載集團架構圖（豊田財務服務株式會社45.4%、和泰汽車股份有限公司22.96%持有和潤企業），以及台灣事業含新車/中古車分期、商用車/大客車分期、企業融資與創能等。惟「為台灣非銀行金融機構中車輛分期租賃市佔率第一之龍頭」未獲支持：全份簡報中「市佔」出現次數為0，「市占」2次均為新車品牌登錄市占（「TOYOTA及LEXUS登錄市占合計達38%」）與市場規模敘述，「第一」與「龍頭」亦均為0。
+- `9941:objective_ranking_or_market_share:e7f6d06661d25993`、`fd6ccb1d3918b0e9`、`72928707fcb8c094` — `PARTIALLY_SUPPORTED` ×3. 裕融110年度年報第14頁沿革載「1990.04 裕融企業成立，由裕隆汽車（股）公司與美國奇異財務公司各持50%股權，資本額6仟萬元」、其後「裕融企業在台灣證券交易所上市掛牌交易。（股票代號：9941）」、「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」、「收購格上汽車租賃（股）公司45%股權」、「與格上汽車租賃（股）公司共同購買行將企業（股）公司股權，綜合持股59%…取得SAVE中古車聯盟經營權」（年報中「新鑫」3次、「格上」20次、「行將」1次、「裕富」2次）。惟「台灣第一家上市之汽車融資企業」（「第一家」0次）、「新鑫為商用車融資龍頭、市佔第一」（「龍頭」0次、「市佔」僅1次泛用語）、「裕富數位與新鑫合計貢獻集團約半數獲利」（「半數」0次）與「格上租車每年貢獻約2億元獲利」（「2億」「兩億」皆0次）均未獲支持。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **293 / 1,399**; remaining: **1,106**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 189, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 47. Next pending claim by priority: `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` (寶雅).
+
 
 
 

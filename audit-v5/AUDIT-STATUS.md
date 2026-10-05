@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 04:04 UTC
+Updated: 2026-10-07 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **289 / 1,399**
-- Remaining author review: **1,110**
-- Latest batch: **author-052** (8 claims)
+- Author-reviewed: **293 / 1,399**
+- Remaining author review: **1,106**
+- Latest batch: **author-053** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **185**
+- `PARTIALLY_SUPPORTED`: **189**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,15 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6225:objective_ranking_or_market_share:328bec4589432b52` — `PARTIALLY_SUPPORTED`; 天瀚111年報沿革載美/德/上海 AIPTEK 行銷公司，及「2000年04月推出**全球第一台3合1筆式數位視訊相機**」；惟「HyperPen」0次。
-- `6728:objective_ranking_or_market_share:d66093d3d854cbc7` — `UNKNOWN_AFTER_RESEARCH`; 上洋114年報文字層為亂碼無法判讀，「AQUA」「Huebsch」「總代理」等皆0次。
-- `2009:objective_ranking_or_market_share:40ef15d8963c4f66`、`99c95bc4f4f81779` — `PARTIALLY_SUPPORTED` ×2; 第一銅112年報第75/77頁載其為台灣銅片製造廠、台灣全部合金總銷售量約占**30%**、黃銅12次與磷青銅7次；惟「白銅」0次。
-- `5871:objective_ranking_or_market_share:5462990384cd01df` — `PARTIALLY_SUPPORTED`; 第10頁「穩居台灣租賃業領先地位」、「中租迪和」29次、海外布局含中國大陸與東協7國；惟未以「最大」自稱。
-- `5871:objective_ranking_or_market_share:0d13f2e2c5782586` — `PARTIALLY_SUPPORTED`; 業務項目與中小企業客群獲支持；惟「市佔率」0次、「裕融」「和潤」皆0次。
-- `5871:objective_ranking_or_market_share:87162f778667a426` — `UNKNOWN_AFTER_RESEARCH`; 110年報中「zingala」「銀角」皆0次，未載BNPL平台。
-- `5871:objective_ranking_or_market_share:8a01608f52e45045` — `PARTIALLY_SUPPORTED`; 第5/66頁載2018年裝置容量全台第一、2021年底2,655座電廠、發電總容量**918.22MW**、全民電廠平台；惟「2024年底超過1.5GW」未載。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-052.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6592:objective_ranking_or_market_share:2860da8fae309c7a` (和潤企業).
+- `6592:objective_ranking_or_market_share:2860da8fae309c7a` — `PARTIALLY_SUPPORTED`; 和潤2026簡報第5頁載「成立時間：1999/5/25」與集團架構（豊田財務45.4%、和泰汽車22.96%）；惟「市佔」0次、「第一」「龍頭」皆0次。
+- `9941:objective_ranking_or_market_share:e7f6d06661d25993` — `PARTIALLY_SUPPORTED`; 裕融110年報第14頁載「1990.04 裕融企業成立，由裕隆汽車與美國奇異財務各持50%股權」；惟「第一家」0次。
+- `9941:objective_ranking_or_market_share:fd6ccb1d3918b0e9` — `PARTIALLY_SUPPORTED`; 第14頁載購買新鑫100%股權、收購格上45%、與格上共同購買行將59%並取得**SAVE中古車聯盟經營權**；惟「龍頭」「半數」「2億」皆0次。
+- `9941:objective_ranking_or_market_share:72928707fcb8c094` — `PARTIALLY_SUPPORTED`; 新鑫之商用車分期業務與其證券代號6871獲確認；惟「市佔第一」未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-053.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` (寶雅).
 
 ## Source access
 

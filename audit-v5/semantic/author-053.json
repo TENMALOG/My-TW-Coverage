@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-053",
+  "reviewed_at": "2026-10-05T17:54:01Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (和潤2026年法人說明會簡報; 裕融110年度年報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6592:objective_ranking_or_market_share:2860da8fae309c7a",
+      "normalized_claim_hash": "2860da8fae309c7a5a416ae1bd7473d4d455d306fc379342072571e775778d8e",
+      "ticker": "6592",
+      "company": "和潤企業",
+      "path": "Pilot_Reports/Credit Services/6592_和潤企業.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[和潤]] (6592) 為[[和泰車]]集團旗下核心融資子公司，成立於 1999 年，為台灣非銀行金融機構中車輛分期租賃市佔率第一之龍頭。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/659220260819M001.pdf",
+          "title": "和潤企業股份有限公司（和潤，6592）法人說明會簡報（2026-08-19）",
+          "source_level": 3,
+          "period_binding": "2026年8月；財務與營運數據含2026年上半年。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第5頁載「成立時間：1999/5/25」「上市日期：2019/12/9」，並載集團架構圖：「豊田財務服務株式會社 45.4%」「和泰汽車股份有限公司 22.96%」指向「和潤企業股份有限公司」，另列台灣事業（新車/中古車分期、機車/商品分期、醫療/工具機/營建機具、商用車/大客車分期、企業融資、創能(太陽能)等）與大陸、東南亞轉投資。第10頁載「TOYOTA及LEXUS登錄市占合計達38%」與分期台數、分期比（38%至42%）等市場數據。全份簡報中「市佔」出現次數為0；「市占」2次均為新車品牌登錄市占與市場規模敘述，非其自身車輛分期事業之市占率；「第一」與「龍頭」出現次數均為0。"
+        }
+      ],
+      "rationale": "「為和泰車集團旗下核心融資子公司」與「成立於1999年」獲發行人簡報支持：第5頁載「成立時間：1999/5/25」與集團架構圖（豊田財務服務株式會社45.4%、和泰汽車股份有限公司22.96%持有和潤企業），並載台灣事業含新車/中古車分期、商用車/大客車分期等。惟「為台灣非銀行金融機構中車輛分期租賃市佔率第一之龍頭」未獲支持：全份簡報中「市佔」出現次數為0，「市占」2次均為新車品牌登錄市占（如「TOYOTA及LEXUS登錄市占合計達38%」）與市場規模敘述，非其自身車輛分期事業之市占率；「第一」與「龍頭」出現次數亦均為0。故部分成立。",
+      "proposed_text": "和潤企業 (6592) 為和泰汽車集團核心融資子公司，1999 年 5 月成立、2019 年 12 月上市，業務涵蓋新車與中古車分期、商用車分期、企業融資及創能等。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9941:objective_ranking_or_market_share:e7f6d06661d25993",
+      "normalized_claim_hash": "e7f6d06661d25993bd4805eafee95a96e8c51d2b6c7ececfe6889922cd1f5591",
+      "ticker": "9941",
+      "company": "裕融",
+      "path": "Pilot_Reports/Credit Services/9941_裕融.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[裕融]]企業 (9941) 為[[裕隆集團]]旗下汽車金融旗艦公司，成立於 1990 年，為台灣第一家上市之汽車融資企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_9941_110.pdf",
+          "title": "裕融企業股份有限公司（裕融，9941，Taiwan Acceptance）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（沿革敘述自1990年起）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第12頁載「第一個十年由裕隆汽車與美國奇異融資成立合資公司，從事新車銷售分期業務…並成功上櫃與上市」，並載「1990年04月12日」與上市日期欄、業務為「新車分期、中古車分期、設備（車輛）租賃、商品分期」。第14頁沿革載「1990.04 裕融企業成立，由裕隆汽車（股）公司與美國奇異財務公司各持50%股權，資本額6仟萬元」，其後載「裕融企業在台灣證券交易所上市掛牌交易。（股票代號：9941）」「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」「收購格上汽車租賃（股）公司45%股權」「與格上汽車租賃（股）公司共同購買行將企業（股）公司股權，綜合持股59%，進入中古車拍賣、查定市場，取得SAVE中古車聯盟經營權」。全份年報中「新鑫」3次、「格上」20次、「行將」1次、「裕富」2次；「龍頭」「第一家」「半數」之出現次數均為0；「市佔」與「市占」各1次且為風險指標敘述中之泛用語。"
+        }
+      ],
+      "rationale": "「裕隆集團旗下汽車金融旗艦公司」與「成立於1990年」獲發行人年報支持：110年度年報第14頁沿革載「1990.04 裕融企業成立，由裕隆汽車（股）公司與美國奇異財務公司各持50%股權，資本額6仟萬元」，第12頁載其以汽車分期服務事業為發展核心並「成功上櫃與上市」。惟「為台灣第一家上市之汽車融資企業」未獲支持：全份年報中「第一家」出現次數為0，年報雖載其上市掛牌（股票代號9941）與上市日期，但未載其為台灣汽車融資業第一家上市公司。故部分成立。",
+      "proposed_text": "裕融企業 (9941，Taiwan Acceptance) 為裕隆集團旗下汽車金融公司，1990 年 4 月成立，以新車與中古車分期為核心業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9941:objective_ranking_or_market_share:fd6ccb1d3918b0e9",
+      "normalized_claim_hash": "fd6ccb1d3918b0e9f0899a2f0e8768b3989c63cdad3f7982080e4fd399922522",
+      "ticker": "9941",
+      "company": "裕融",
+      "path": "Pilot_Reports/Credit Services/9941_裕融.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "重要轉投資子公司包括：[[新鑫]] (6871，商用車融資龍頭，商用車市佔第一)、裕富數位 (數位消費金融，與新鑫合計貢獻集團約半數獲利)、[[格上租車]] (Car Plus，台灣知名租車品牌，每年貢獻約 2 億元獲利) 及[[行將]] (SAVE 中古車聯盟經營權，中古車拍賣與查定市場)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_9941_110.pdf",
+          "title": "裕融企業股份有限公司（裕融，9941，Taiwan Acceptance）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（沿革敘述自1990年起）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第12頁載「第一個十年由裕隆汽車與美國奇異融資成立合資公司，從事新車銷售分期業務…並成功上櫃與上市」，並載「1990年04月12日」與上市日期欄、業務為「新車分期、中古車分期、設備（車輛）租賃、商品分期」。第14頁沿革載「1990.04 裕融企業成立，由裕隆汽車（股）公司與美國奇異財務公司各持50%股權，資本額6仟萬元」，其後載「裕融企業在台灣證券交易所上市掛牌交易。（股票代號：9941）」「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」「收購格上汽車租賃（股）公司45%股權」「與格上汽車租賃（股）公司共同購買行將企業（股）公司股權，綜合持股59%，進入中古車拍賣、查定市場，取得SAVE中古車聯盟經營權」。全份年報中「新鑫」3次、「格上」20次、「行將」1次、「裕富」2次；「龍頭」「第一家」「半數」之出現次數均為0；「市佔」與「市占」各1次且為風險指標敘述中之泛用語。"
+        }
+      ],
+      "rationale": "「重要轉投資子公司」之清單獲發行人年報支持：110年度年報第14頁沿革載「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」「收購格上汽車租賃（股）公司45%股權，擴大租賃業務」「與格上汽車租賃（股）公司共同購買行將企業（股）公司股權，綜合持股59%，進入中古車拍賣、查定市場，**取得SAVE中古車聯盟經營權**」，年報中「新鑫」3次、「格上」20次、「行將」1次、「裕富」2次。惟三項敘述未獲支持：(1)「新鑫為商用車融資龍頭、商用車市佔第一」——「龍頭」與「市佔第一」均未見；(2)「裕富數位與新鑫合計貢獻集團約半數獲利」——全份年報中「半數」出現次數為0，未載子公司別獲利占比；(3)「格上租車每年貢獻約2億元獲利」——未載該數字（「2億」「兩億」均為0）。故部分成立。",
+      "proposed_text": "裕融 (9941) 重要轉投資包含新鑫（大貨車、大客車分期）、格上汽車租賃、行將企業（中古車拍賣，取得 SAVE 中古車聯盟經營權）與裕富數位等。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9941:objective_ranking_or_market_share:72928707fcb8c094",
+      "normalized_claim_hash": "72928707fcb8c094c46bea1a942e9d22b845e06a73a6b04bb046b6cceb826a50",
+      "ticker": "9941",
+      "company": "裕融",
+      "path": "Pilot_Reports/Credit Services/9941_裕融.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[新鑫]] (6871) — 商用車分期市佔第一",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_9941_110.pdf",
+          "title": "裕融企業股份有限公司（裕融，9941，Taiwan Acceptance）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（沿革敘述自1990年起）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第12頁載「第一個十年由裕隆汽車與美國奇異融資成立合資公司，從事新車銷售分期業務…並成功上櫃與上市」，並載「1990年04月12日」與上市日期欄、業務為「新車分期、中古車分期、設備（車輛）租賃、商品分期」。第14頁沿革載「1990.04 裕融企業成立，由裕隆汽車（股）公司與美國奇異財務公司各持50%股權，資本額6仟萬元」，其後載「裕融企業在台灣證券交易所上市掛牌交易。（股票代號：9941）」「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」「收購格上汽車租賃（股）公司45%股權」「與格上汽車租賃（股）公司共同購買行將企業（股）公司股權，綜合持股59%，進入中古車拍賣、查定市場，取得SAVE中古車聯盟經營權」。全份年報中「新鑫」3次、「格上」20次、「行將」1次、「裕富」2次；「龍頭」「第一家」「半數」之出現次數均為0；「市佔」與「市占」各1次且為風險指標敘述中之泛用語。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「新鑫（6871）— 商用車分期市佔第一」）。年報第14頁載「購買新鑫（股）公司100%股權，進軍大貨車、大客車分期業務」，支持新鑫之商用車分期業務，且年報第15頁載其子公司新鑫首次公開發行（證券代號6871）。惟「市佔第一」未獲支持：全份年報中「市佔」與「市占」各僅1次且為風險指標敘述之泛用語，未載新鑫於商用車分期之市占率或排名。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
