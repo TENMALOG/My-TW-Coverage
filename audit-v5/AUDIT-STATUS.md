@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 19:04 UTC
+Updated: 2026-10-10 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **810 / 1,399**
-- Remaining author review: **589**
-- Latest batch: **author-139** (4 claims)
+- Author-reviewed: **816 / 1,399**
+- Remaining author review: **583**
+- Latest batch: **author-140** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **529**
+- `PARTIALLY_SUPPORTED`: **531**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **190**
+- `UNKNOWN_AFTER_RESEARCH`: **194**
 
 ## Latest claim batch
 
-- `1590:objective_ranking_or_market_share:9214f561cebb3418` — `PARTIALLY_SUPPORTED`；亞德客文件「**氣動元件」9 次、「中國」45 次**；惟「市佔」1次為「**提高市佔**」之目標，「30%」片段上下文不完整（無法確認主詞）。
-- `1595:objective_ranking_or_market_share:59183f089735bcd1` — `PARTIALLY_SUPPORTED`；川寶年報「**PCB」56 次**、「曝光」2次；惟「曝光機」「半自動」「全球最大」皆0次。
-- `2233:objective_ranking_or_market_share:c9096bb9c6aa992d` — `PARTIALLY_SUPPORTED`；宇隆文件「**Bosch」12 次**並載「**成為BOSCH優選供應商**」；惟「最大客戶」「72%」皆0次。
-- `2233:objective_ranking_or_market_share:bf4ac0b6acfe8253` — `PARTIALLY_SUPPORTED`；Bosch 供應關係成立；惟「最大」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-139.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2421:objective_ranking_or_market_share:7f00f533ae4191d0` (建準).
+- `2421:objective_ranking_or_market_share:7f00f533ae4191d0` — `PARTIALLY_SUPPORTED`；建準簡報（**英文版**）「cooling」16次、「Fan」合計13次、「**AI」38 次**，並載「The Company ranks among the **top 3** leading brands in terms of（…）」；惟「market share」片段無法判讀、「20%」上下文不足。
+- `2464:objective_ranking_or_market_share:251a126c32c2c2ec` — `PARTIALLY_SUPPORTED`；盟立簡報「自動化」6次、「**OHT」3 次、「Stocker」2 次**；惟「最大」「AS/RS」「機器人」皆0次。
+- `2476:objective_ranking_or_market_share:e9cbf6611b6656f4` — `UNKNOWN_AFTER_RESEARCH`；鉅祥端點 **SSL/TLS 憑證信任失敗**。
+- `3219:objective_ranking_or_market_share:0ef62b067682d21f`、`9bca902ddfd55250`、`96e9ac24bd44c81e` — `UNKNOWN_AFTER_RESEARCH` ×3；倚強科113年報「**Meta」0 次**、「最大客戶」0次、「BFT」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-140.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `3616:objective_ranking_or_market_share:da6309bf6fbd75aa` (泓辰).
 
 ## Source access
 
