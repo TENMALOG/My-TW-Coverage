@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **125 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), and `author-028` (8).
+Author-reviewed: **133 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), and `author-029` (8).
 
-- ACCEPTED by author: 34
-- PARTIALLY_SUPPORTED: 75
+- ACCEPTED by author: 35
+- PARTIALLY_SUPPORTED: 80
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 12
-- Remaining author queue: 1,274
+- Other allowed author decisions: 14
+- Remaining author queue: 1,266
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -329,6 +329,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-028.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **125 / 1,399**; remaining: **1,274**. Outcome counts: ACCEPTED 34, PARTIALLY_SUPPORTED 75, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 12. Next pending claim by priority: `5880:objective_ranking_or_market_share:a7669e207f28c0b5` (合庫金).
+
+## Author batch `author-029` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (合庫金 5880 ×2, 台泥 1101 ×2, 環泥 1104, 信大 1109 ×2, 台玻 1802). Evidence came from directly downloaded and inspected official disclosures: 台泥官方簡報（刊於臺灣證券交易所公司治理中心）與2024企業ESG年鑑、環球水泥2025下半年度法說會簡報、信大水泥法人說明會簡報、台玻2019企業社會責任報告書、合庫金官方網站。
+- `5880:objective_ranking_or_market_share:a7669e207f28c0b5` 與 `0f3b5a58ad55e774` — `UNKNOWN_AFTER_RESEARCH`. 合庫金官網首頁與投資人路徑回應 HTTP 200 但內容為前端框架、未含可下載之年報或股東結構文件；立法院泛公股金融機構公聽會報告（115年8月）全文檢索未含「廣義公股」「財政部直接持股」等表格文字。故主要股東名單與中小企業放款市占均未獲確立。
+- `1101:objective_ranking_or_market_share:70c0cf57f148a361` — `ACCEPTED`. 台泥官方簡報第3頁時間軸載「1946 • 日本浅野水泥株式会社(前身) • 國營台灣水泥成立」、「1954 • 台灣水泥民營化」、「• 第一家股票上市公司(1962年)」，且該頁標題為「從水泥產業到綠色環境工程公司」，三項敘述均獲支持。
+- `1101:objective_ranking_or_market_share:1d1eb04d19b03299` — `PARTIALLY_SUPPORTED`. 簡報第3頁載2018年「全球化佈局歐亞非」，2024企業ESG年鑑第485頁載台泥2024年完成歐洲低碳水泥交割、成為「跨五大洲13市場」之集團；年鑑第498頁明載其與「土耳其最大水泥公司 OYAK 成立子公司」。惟「台泥國際」出現次數為0，該子公司名稱未獲確認。
+- `1104:objective_ranking_or_market_share:9a15f087597b0139` — `PARTIALLY_SUPPORTED`. 環泥2025年法說會第6頁產品別營收列混凝土67%、水泥20%、石膏板13%，支持主要產品；惟全份簡報未載石膏板市占率或「全台第一約90%」，亦未使用「深耕南台灣」表述（第8頁混凝土地區占比為台南34%、高雄40%、屏東8%）。
+- `1109:objective_ranking_or_market_share:7c6d8b2d2057eb58` 與 `5fd4ab936a526e30` — `PARTIALLY_SUPPORTED`. 信大簡報第6至9頁載大陸子公司江蘇信寧新型建材（南京市浦口區）、以南京市江北江南等為主要目標市場、並為江蘇省A級水泥企業；惟第9頁官方市占為「占南京市區域市場約17%左右」，與 claim 之15%不同。
+- `1802:objective_ranking_or_market_share:75e14cf20248f928` — `PARTIALLY_SUPPORTED`. 台玻2019年CSR報告第13頁載「1964年8月25日」、「台玻成立於1964年」，並列平板玻璃、玻璃纖維、玻璃器皿等主要產品與多家生產子公司；惟「國內最大」「台灣最大」「龍頭」「名列前茅」於全份報告出現次數均為0。
+- Proposed wording is recorded for the partial claims in `semantic/author-029.json`; no issuer report was modified. Independent review remains pending.
+- 方法備註：台泥之公司沿革與上市地位於其自身ESG年鑑章節中未載明，改由刊載於臺灣證券交易所公司治理中心之發行人簡報取得，屬發行人自製文件，來源等級與 MOPS 簡報相同。
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **133 / 1,399**; remaining: **1,266**. Outcome counts: ACCEPTED 35, PARTIALLY_SUPPORTED 80, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 14. Next pending claim by priority: `2504:objective_ranking_or_market_share:271a4f0e71b4103a` (國產).
+
 
 
 

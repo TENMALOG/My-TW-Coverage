@@ -1,0 +1,217 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-029",
+  "reviewed_at": "2026-10-05T16:27:43Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台泥官方簡報與2024企業ESG年鑑; 環球水泥2025下半年度法說會簡報; 信大水泥法人說明會簡報; 台玻2019企業社會責任報告書; 合庫金官方網站); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "5880:objective_ranking_or_market_share:a7669e207f28c0b5",
+      "normalized_claim_hash": "a7669e207f28c0b555c137ce34131f866c6975eee11a55666aa6e3a0eab4d2cc",
+      "ticker": "5880",
+      "company": "合庫金",
+      "path": "Pilot_Reports/Banks - Regional/5880_合庫金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[財政部]]透過[[台灣銀行]]間接為最大股東。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tcfhc.com.tw/",
+          "title": "合作金庫金融控股股份有限公司官方網站（首頁與投資人專區）",
+          "source_level": 3,
+          "period_binding": "查證日現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接開啟發行人官網首頁與投資人路徑，頁面回應 HTTP 200 但內容為前端框架（長度126,822字元），未包含可直接下載之年報或股東結構 PDF 連結。另查閱之立法院泛公股金融機構公聽會報告（115年8月）以討論提綱與發言紀錄為主，經全文檢索未含「廣義公股」「財政部直接持股」等股東結構表格文字。未能取得合庫金主要股東名單。"
+        }
+      ],
+      "rationale": "查證範圍內未能取得合庫金之主要股東名單，故無法判定「財政部透過台灣銀行間接為最大股東」是否成立：發行人官方網站之投資人路徑未提供可下載之年報或股東結構文件，公開資訊觀測站年報端點於本批次查證中對其他公司多次回傳非文件內容，立法院公聽會報告全文亦未含股東結構表。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5880:objective_ranking_or_market_share:0f3b5a58ad55e774",
+      "normalized_claim_hash": "0f3b5a58ad55e774c205a6bcfa4123699ddf72af62e6539b482c4f5e1ed7c715",
+      "ticker": "5880",
+      "company": "合庫金",
+      "path": "Pilot_Reports/Banks - Regional/5880_合庫金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全台中小企業 — 放款餘額市佔居冠",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tcfhc.com.tw/",
+          "title": "合作金庫金融控股股份有限公司官方網站",
+          "source_level": 3,
+          "period_binding": "查證日現況。",
+          "accessed_at": "2026-10-06",
+          "note": "同前項查證：官網未提供可下載之年報或業務統計文件；本批次未取得合庫金或合作金庫銀行之官方簡報、年報或統計資料以檢視其中小企業放款餘額市占之揭露。"
+        }
+      ],
+      "rationale": "「全台中小企業 — 放款餘額市佔居冠」屬市占排名陳述，須有官方統計支持。本批次未能取得合作金庫銀行之中小企業放款餘額市占資料（官網無可下載文件，亦未取得其年報或法說會簡報），故無法確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1101:objective_ranking_or_market_share:70c0cf57f148a361",
+      "normalized_claim_hash": "70c0cf57f148a361a6c85f2535aa5605de61141d5173cd715da05afc3378a7e5",
+      "ticker": "1101",
+      "company": "台泥",
+      "path": "Pilot_Reports/Building Materials/1101_台泥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣水泥股份有限公司 (1101，TCC Group) 成立於 1946 年，為台灣第一家股票上市公司，已從傳統水泥製造廠轉型為「綠色環境工程集團」。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://cgc.twse.com.tw/static/20210111/8a828e1776d0b23d0176f01303a70011_%E4%BC%81%E6%A5%AD%E6%B0%B8%E7%BA%8C%E7%AD%96%E7%95%A5%E8%88%87%E6%B7%B1%E5%8C%96%E6%8A%95%E8%B3%87%E4%BA%BA%E9%97%9C%E4%BF%82_%E5%8F%B0%E7%81%A3%E6%B0%B4%E6%B3%A5%E5%85%AC%E5%8F%B8-%E4%B8%8B%E8%BC%89%E7%94%A8.pdf",
+          "title": "台灣水泥股份有限公司簡報「企業永續發展策略與深化投資人關係」（刊載於臺灣證券交易所公司治理中心）",
+          "source_level": 3,
+          "period_binding": "公司沿革自1946年起；簡報為2020–2021年間之公開文件。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自臺灣證券交易所公司治理中心（cgc.twse.com.tw）下載並以 PDF 文字檢視發行人簡報。第3頁標題為「從水泥產業到綠色環境工程公司」，時間軸載「1946 • 日本浅野水泥株式会社(前身) • 國營台灣水泥成立」、「1954 • 台灣水泥民營化」、「• 第一家股票上市公司(1962年)」、「2018 • 企業新CI融入循環經濟 • 全球化佈局歐亞非」。第2頁載「1962年2月9日，台灣證交所開幕」。"
+        }
+      ],
+      "rationale": "claim 三項敘述均獲發行人官方簡報支持：第3頁時間軸載「1946 • 日本浅野水泥株式会社(前身) • 國營台灣水泥成立」，支持成立於1946年；同頁載「1954 • 台灣水泥民營化」與「• 第一家股票上市公司(1962年)」，支持「台灣第一家股票上市公司」；第3頁標題即為「從水泥產業到綠色環境工程公司」，支持其轉型為綠色環境工程集團之敘述。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1101:objective_ranking_or_market_share:1d1eb04d19b03299",
+      "normalized_claim_hash": "1d1eb04d19b0329926172abd1f35cd246109eab67b4a664c196dda9f659f3d74",
+      "ticker": "1101",
+      "company": "台泥",
+      "path": "Pilot_Reports/Building Materials/1101_台泥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "營運版圖橫跨歐、亞、非三洲，子公司[[台泥國際]]深耕中國市場，土耳其[[OYAK]]水泥為當地最大水泥廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cgc.twse.com.tw/static/20210111/8a828e1776d0b23d0176f01303a70011_%E4%BC%81%E6%A5%AD%E6%B0%B8%E7%BA%8C%E7%AD%96%E7%95%A5%E8%88%87%E6%B7%B1%E5%8C%96%E6%8A%95%E8%B3%87%E4%BA%BA%E9%97%9C%E4%BF%82_%E5%8F%B0%E7%81%A3%E6%B0%B4%E6%B3%A5%E5%85%AC%E5%8F%B8-%E4%B8%8B%E8%BC%89%E7%94%A8.pdf",
+          "title": "台灣水泥股份有限公司簡報「企業永續發展策略與深化投資人關係」（刊載於臺灣證券交易所公司治理中心）",
+          "source_level": 3,
+          "period_binding": "公司沿革自1946年起；簡報為2020–2021年間之公開文件。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自臺灣證券交易所公司治理中心（cgc.twse.com.tw）下載並以 PDF 文字檢視發行人簡報。第3頁標題為「從水泥產業到綠色環境工程公司」，時間軸載「1946 • 日本浅野水泥株式会社(前身) • 國營台灣水泥成立」、「1954 • 台灣水泥民營化」、「• 第一家股票上市公司(1962年)」、「2018 • 企業新CI融入循環經濟 • 全球化佈局歐亞非」。第2頁載「1962年2月9日，台灣證交所開幕」。"
+        },
+        {
+          "url": "https://cgc.twse.com.tw/static/20251103/8a828e179a37cb91019a47499d9f0008_2024%e4%bc%81%e6%a5%adESG%e5%b9%b4%e9%91%91.pdf",
+          "title": "2024 企業 ESG 年鑑（臺灣證券交易所公司治理中心；含台灣水泥標竿企業章節）",
+          "source_level": 3,
+          "period_binding": "2024年版；涵蓋2023年11月至2024年11月之大事紀。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視。第485頁載台泥「（2024年春天）…完成關鍵的歐洲低碳水泥交割程序，成為一個跨五大洲13市場的低碳與新能源集團，2024年5月正式更名為 TCC Group Holdings」。第498頁「OYAK & CIMPOR 海外水泥事業」載「（與）土耳其最大水泥公司 OYAK 成立子公司」、「2019年併購葡萄牙水泥公司 CIMPOR」，並載 OYAK 為土耳其第一家宣布淨零承諾的水泥公司。全份年鑑中「台泥國際」出現次數為0。"
+        }
+      ],
+      "rationale": "「營運版圖橫跨歐、亞、非三洲」與「土耳其 OYAK 水泥為當地最大水泥廠」獲支持：發行人簡報第3頁載2018年「全球化佈局歐亞非」，2024年企業ESG年鑑第485頁載台泥2024年完成歐洲低碳水泥交割、成為「跨五大洲13市場」之集團；年鑑第498頁「OYAK & CIMPOR 海外水泥事業」明載其與「土耳其最大水泥公司 OYAK 成立子公司」，支持 OYAK 為土耳其最大水泥公司。惟「子公司台泥國際深耕中國市場」未獲支持：查閱之文件中「台泥國際」出現次數為0，簡報所列之中國佈局為各廠（台玻式列舉未出現於台泥文件），故未能確認該子公司名稱。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1104:objective_ranking_or_market_share:9a15f087597b0139",
+      "normalized_claim_hash": "9a15f087597b013936c733dd8a71c3d1a4541dd9d2eee671d08a7c22a3d6c5c2",
+      "ticker": "1104",
+      "company": "環泥",
+      "path": "Pilot_Reports/Building Materials/1104_環泥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司深耕南台灣，主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]] (市佔率全台第一，約 90%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/110420251118M001.pdf",
+          "title": "環球水泥股份有限公司（環泥，1104）2025年下半年度法人說明會簡報（2025-11-18）",
+          "source_level": 3,
+          "period_binding": "2025年第三季；客戶與區域占比基準為2025年9月。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第6頁產品別營收：混凝土38.72億元（67%）、水泥11.65億元（20%）、石膏板7.29億元（13%）；銷售量混凝土1,296.1千M3、水泥372.0千公噸、石膏板10,629.5千M2。第8頁混凝土事業群地區別占比：新竹8%、台中10%、台南34%、高雄40%、屏東8%。第3頁列海湖石膏板廠、路竹石膏板廠、阿蓮水泥廠等。全份簡報未載石膏板之市占率或「全台第一」之表述。"
+        }
+      ],
+      "rationale": "「主要產品為水泥、預拌混凝土及石膏板」獲發行人官方簡報支持：第6頁產品別營收列混凝土（67%）、水泥（20%）、石膏板（13%），並載各產品銷售量。惟兩項未獲支持：(1)「深耕南台灣」——簡報第8頁混凝土地區別占比為台南34%、高雄40%、屏東8%（合計82%）確以南部為主，但簡報未使用「深耕南台灣」之表述，且新竹8%、台中10%亦屬其營運區域；(2)「石膏板市佔率全台第一，約90%」——全份簡報未載石膏板之任何市占率或排名。故部分成立。",
+      "proposed_text": "公司主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]]。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1109:objective_ranking_or_market_share:7c6d8b2d2057eb58",
+      "normalized_claim_hash": "7c6d8b2d2057eb589c4cb1c46a192518f6451868767a54d24cda455c6172ad4d",
+      "ticker": "1109",
+      "company": "信大",
+      "path": "Pilot_Reports/Building Materials/1109_信大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "信大水泥深耕台灣建材市場，同時透過子公司[[江蘇信寧新型建材]]拓展中國大陸南京市場 (當地市佔率約 15%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/110920241213M001.pdf",
+          "title": "信大水泥股份有限公司（1109）法人說明會簡報（2024-12-13）",
+          "source_level": 3,
+          "period_binding": "2024年（含2024年1-9月大陸銷售數字）；市占率為簡報所載期間。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第9頁載市占率資訊：信大水泥「市占率-水泥熟料 占台灣國產水泥約7.1%」；江蘇信寧「占南京市區域市場約17%左右」，並載其主要目標市場為南京市江北、江南、安徽烏江等近廠區域。第6、7、8頁載大陸子公司為江蘇信寧新型建材、南京信融環保新材料，江蘇信寧位址為江蘇省南京市浦口區星綽路88號，主要營業項目為水泥製造及銷售，並載其為江蘇省A級水泥企業。"
+        }
+      ],
+      "rationale": "「透過子公司江蘇信寧新型建材拓展中國大陸南京市場」獲發行人官方簡報支持：第6、7、8頁載大陸子公司為江蘇信寧新型建材（位址江蘇省南京市浦口區星綽路88號，主要營業項目為水泥製造及銷售，並獲江蘇省A級水泥企業），第9頁載其主要目標市場為南京市江北、江南、安徽烏江等近廠區域。惟「當地市佔率約15%」與官方數字不同：第9頁載江蘇信寧「占南京市區域市場約17%左右」。故部分成立。",
+      "proposed_text": "信大水泥深耕台灣建材市場，同時透過子公司[[江蘇信寧新型建材]]拓展中國大陸南京市場（官方簡報載占南京市區域市場約 17%）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1109:objective_ranking_or_market_share:5fd4ab936a526e30",
+      "normalized_claim_hash": "5fd4ab936a526e309268f5b87c9dfa14c402cdb16278ba751708581f06fc8ce1",
+      "ticker": "1109",
+      "company": "信大",
+      "path": "Pilot_Reports/Building Materials/1109_信大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[江蘇信寧新型建材]] — 南京地區建材通路 (市佔約 15%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/110920241213M001.pdf",
+          "title": "信大水泥股份有限公司（1109）法人說明會簡報（2024-12-13）",
+          "source_level": 3,
+          "period_binding": "2024年（含2024年1-9月大陸銷售數字）；市占率為簡報所載期間。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第9頁載市占率資訊：信大水泥「市占率-水泥熟料 占台灣國產水泥約7.1%」；江蘇信寧「占南京市區域市場約17%左右」，並載其主要目標市場為南京市江北、江南、安徽烏江等近廠區域。第6、7、8頁載大陸子公司為江蘇信寧新型建材、南京信融環保新材料，江蘇信寧位址為江蘇省南京市浦口區星綽路88號，主要營業項目為水泥製造及銷售，並載其為江蘇省A級水泥企業。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之供應鏈條目表述（「江蘇信寧新型建材 — 南京地區建材通路（市佔約15%）」）。江蘇信寧新型建材為信大水泥之大陸子公司、以南京為主要市場一節獲官方簡報支持（第8、9頁）；惟「約15%」與官方所載「占南京市區域市場約17%左右」不同，且簡報未以「建材通路」描述其業務（其登記營業項目為水泥製造及銷售）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1802:objective_ranking_or_market_share:75e14cf20248f928",
+      "normalized_claim_hash": "75e14cf20248f928e00d03a356753233fbd2415a41a3e63268e3d3950e3f7340",
+      "ticker": "1802",
+      "company": "台玻",
+      "path": "Pilot_Reports/Building Materials/1802_台玻.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台玻 (Taiwan Glass Ind. Corp.) 成立於 1964 年，總部位於台灣[[台北]]，為國內最大、全球名列前茅的玻璃製造集團。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.taiwanglass.com/tc/pdf/TG2019responsibility.pdf",
+          "title": "台灣玻璃工業股份有限公司 2019 企業社會責任報告書",
+          "source_level": 3,
+          "period_binding": "2019年度；公司設立日期載於報告書沿革。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第13頁載「1964年8月25日 台玻成立於1964年，超過半個世紀以來…使台灣在全球玻璃工業佔有重要的（地位）」，並列平板玻璃、玻璃纖維、玻璃器皿等主要產品及各子公司（台玻東元真空節能玻璃、台玻青島、台玻長江、台嘉玻璃纖維、台灣汽車玻璃等）。全份報告書中「國內最大」「台灣最大」「龍頭」「名列前茅」之出現次數均為0（「最大」僅出現1次，指原物料使用矽砂為最大宗）。"
+        }
+      ],
+      "rationale": "「成立於1964年」獲發行人社會責任報告支持：第13頁載「1964年8月25日」、「台玻成立於1964年，超過半個世紀以來…使台灣在全球玻璃工業佔有重要的（地位）」；報告亦支持其為涵蓋平板玻璃、玻璃纖維與玻璃器皿之玻璃製造集團，旗下有多家生產子公司。惟「為國內最大、全球名列前茅的玻璃製造集團」未獲支持：全份報告中「國內最大」「台灣最大」「龍頭」「名列前茅」出現次數均為0。故部分成立。",
+      "proposed_text": "台玻 (1802) 成立於 1964 年，總部位於台灣，為涵蓋平板玻璃、玻璃纖維及玻璃器皿之玻璃製造集團。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

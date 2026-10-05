@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 04:04 UTC
+Updated: 2026-10-06 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **125 / 1,399**
-- Remaining author review: **1,274**
-- Latest batch: **author-028** (8 claims)
+- Author-reviewed: **133 / 1,399**
+- Remaining author review: **1,266**
+- Latest batch: **author-029** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **34**
-- `PARTIALLY_SUPPORTED`: **75**
+- `ACCEPTED`: **35**
+- `PARTIALLY_SUPPORTED`: **80**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **12**
+- `UNKNOWN_AFTER_RESEARCH`: **14**
 
 ## Latest claim batch
 
-- `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` — `PARTIALLY_SUPPORTED`; 第一金現增公開說明書第3/11頁載設立日期「民國92年1月2日」→ 2003年成立成立；惟「歷史最悠久的泛公股金控之一」未獲查閱來源比較。
-- `2892:objective_ranking_or_market_share:76b816df512daafe` — `PARTIALLY_SUPPORTED`; 公開說明書支持第一銀行為核心子公司（占金控收益93.98%）；惟「1899」於查閱文件中出現0次，CSR報告載全台188個營運據點與33處海外營運點（與claim的182／31不同）。
-- `2892:objective_ranking_or_market_share:ca7ce41d34befae1` — `PARTIALLY_SUPPORTED`; 公開說明書子公司摘要表列第一金證券、第一金證券投資信託、第一金人壽；惟明台產物保險不在現行子公司表內（第33頁註2顯示其於民國92年曾為股份轉換對象）。
-- `2892:objective_ranking_or_market_share:88dd8b6be75d5904` — `PARTIALLY_SUPPORTED`; 中小企業放款獲CSR報告「市占連續第八年居國銀首位」支持；惟「房貸」「進出口」出現0次，「財富管理」僅見於董事經歷。
-- `2892:objective_ranking_or_market_share:e8187bb231e1e142`、`3f5488a25cf9016f`、`2f5c3c2bb8f9797b` — `ACCEPTED` ×3; 公開說明書子公司摘要表列第一金證券（經紀）、第一金證券投資信託（投信／基金管理）、第一金人壽保險（壽險）。
-- `2897:objective_ranking_or_market_share:de51a64a7f203960` — `PARTIALLY_SUPPORTED`; 王道銀行官方文件載其2017年改制後為「全台第一家原生數位銀行」、2017年取得B型企業認證並於2021／2025重新認證；惟未主張其為「首家取得B型企業認證之上市銀行」（官方載其為當時臺灣第21家B型企業）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-028.json`。未修改發行人報告。
-- Next pending claim by priority: `5880:objective_ranking_or_market_share:a7669e207f28c0b5` (合庫金).
+- `5880:objective_ranking_or_market_share:a7669e207f28c0b5`、`0f3b5a58ad55e774` — `UNKNOWN_AFTER_RESEARCH` ×2; 合庫金官網投資人路徑未提供可下載年報或股東結構文件，立法院公聽會報告全文未含股東結構表，未能取得主要股東名單與中小企業放款市占資料。
+- `1101:objective_ranking_or_market_share:70c0cf57f148a361` — `ACCEPTED`; 台泥官方簡報第3頁時間軸載「1946 • 國營台灣水泥成立」「第一家股票上市公司(1962年)」，標題為「從水泥產業到綠色環境工程公司」。
+- `1101:objective_ranking_or_market_share:1d1eb04d19b03299` — `PARTIALLY_SUPPORTED`; 簡報載2018年「全球化佈局歐亞非」、2024 ESG年鑑載「跨五大洲13市場」、年鑑第498頁載「土耳其最大水泥公司 OYAK」；惟「台泥國際」出現0次。
+- `1104:objective_ranking_or_market_share:9a15f087597b0139` — `PARTIALLY_SUPPORTED`; 環泥2025法說會第6頁支持水泥／混凝土／石膏板為主要產品（13%營收）；惟石膏板市占率與「全台第一約90%」全份未載。
+- `1109:objective_ranking_or_market_share:7c6d8b2d2057eb58`、`5fd4ab936a526e30` — `PARTIALLY_SUPPORTED` ×2; 信大簡報第6/7/8/9頁支持江蘇信寧新型建材為大陸子公司、以南京為主要市場；惟官方載「占南京市區域市場約17%左右」，與claim的15%不同。
+- `1802:objective_ranking_or_market_share:75e14cf20248f928` — `PARTIALLY_SUPPORTED`; 台玻2019 CSR第13頁載「1964年8月25日 台玻成立於1964年」及三大產品線；惟「國內最大」「名列前茅」等字樣全份出現0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-029.json`。未修改發行人報告。
+- Next pending claim by priority: `2504:objective_ranking_or_market_share:271a4f0e71b4103a` (國產).
 
 ## Source access
 
