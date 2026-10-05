@@ -39,3 +39,19 @@ HIGH requires at least one of:
 Generic export language, generic supply-chain language and other dynamic business descriptions are MEDIUM.
 
 This calibration intentionally optimizes precision over recall at the issuer HIGH level: borderline cases stay MEDIUM and may still be sampled or escalated later.
+
+
+## Calibration v3 — immediate HIGH versus reviewable MEDIUM
+
+The second calibration showed that treating every named relationship and every "leader/leading" phrase as HIGH would classify 1,304 of 1,733 issuers as HIGH, which defeats risk-based triage.
+
+v3 therefore reserves immediate HIGH for:
+
+- objective largest/first/only/market-share/ranking assertions;
+- profitability or earnings-contribution assertions;
+- identity-changing legal events;
+- acquisitions implying full control/succession;
+- named commercial relationships with materiality or inference-risk qualifiers such as major/core/largest customer or supplier, revenue share, Tier 1, direct supply, exclusive, design-in, supply-chain entry, end customer, designated supplier or certification;
+- export concentration/share assertions.
+
+Ordinary named supplier/customer relationships, geography-only export assertions, acquisitions without identity/control implications, and subjective "leader/leading" positioning are MEDIUM. They remain reviewable and sampleable; they are simply not immediate HIGH.

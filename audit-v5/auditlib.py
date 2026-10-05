@@ -195,28 +195,48 @@ def _has_named_entity(claim: str) -> bool:
 
 
 def risk_signals(text: str) -> list[dict[str, str]]:
-    """Extract calibrated semantic risk signals from narrative claims."""
+    """Extract calibrated semantic risk signals from narrative claims.
+
+    HIGH is reserved for material/fragile assertions that deserve immediate semantic review.
+    Ordinary named relationships and marketing positioning remain MEDIUM.
+    """
     signals: list[dict[str, str]] = []
     for claim in _claim_lines(text):
         normalized = re.sub(r"\s+", " ", claim).strip()
 
-        # Ranking / market-position assertions.
-        if re.search(r"(?:全球|世界|台灣|國內|亞洲|業界|市場)?(?:最大|第一|唯一|領先|龍頭)", normalized) or re.search(r"市[占佔](?:率)?", normalized):
-            signals.append({"level": "HIGH", "type": "ranking_or_market_share", "claim": normalized})
+        # Objective ranking / market-share claims are HIGH. Subjective "leader/leading"
+        # language is MEDIUM unless accompanied by a measurable ranking/share assertion.
+        objective_ranking = (
+            re.search(r"(?:全球|世界|台灣|國內|亞洲|業界|市場)?(?:最大|第一(?:大)?|唯一)", normalized)
+            or re.search(r"市[占佔](?:率)?", normalized)
+            or re.search(r"(?:全球|世界|台灣|國內|亞洲).{0,8}前\s*\d+\s*(?:大|名)", normalized)
+        )
+        if objective_ranking:
+            signals.append({"level": "HIGH", "type": "objective_ranking_or_market_share", "claim": normalized})
+            continue
+        if re.search(r"(?:龍頭|領先|領導(?:廠商|品牌|地位)?)", normalized):
+            signals.append({"level": "MEDIUM", "type": "positioning_puffery", "claim": normalized})
             continue
 
-        # Profitability / earnings-contribution assertions.
+        # Profitability / earnings-contribution assertions remain HIGH.
         if re.search(r"(?:高毛利|獲利引擎|核心獲利|主要獲利|主要獲利來源|成長引擎)", normalized):
             signals.append({"level": "HIGH", "type": "profitability_assertion", "claim": normalized})
             continue
 
-        # Material corporate-history events.
-        if re.search(r"(?:併購|收購|合併|分割|下市|改名|更名)", normalized):
-            signals.append({"level": "HIGH", "type": "corporate_event", "claim": normalized})
+        # Identity-changing legal events are HIGH; ordinary acquisitions are MEDIUM unless
+        # they imply full control/succession.
+        if re.search(r"(?:分割|下市|改名|更名|吸收合併|合併承繼)", normalized):
+            signals.append({"level": "HIGH", "type": "identity_changing_event", "claim": normalized})
+            continue
+        if re.search(r"(?:併購|收購)", normalized):
+            if re.search(r"(?:100\s*%|全資|全部股權|控制權|承繼)", normalized):
+                signals.append({"level": "HIGH", "type": "control_acquisition", "claim": normalized})
+            else:
+                signals.append({"level": "MEDIUM", "type": "acquisition_event", "claim": normalized})
             continue
 
-        # Named customer/supplier/commercial relationships. A relationship word alone
-        # is not enough; require a named entity in the same claim.
+        # Named commercial relationships are common in this database. Only material or
+        # especially inference-prone relationships are immediate HIGH.
         relation = re.search(
             r"(?:主要客戶|主要供應商|客戶包括|客戶為|供應商包括|供應商為|"
             r"向.+採購|採購自|供應(?:給|予|商)?|出貨(?:給|予|至)?|打入.+供應鏈|"
@@ -225,18 +245,30 @@ def risk_signals(text: str) -> list[dict[str, str]]:
             flags=re.IGNORECASE,
         )
         if relation and _has_named_entity(normalized):
-            signals.append({"level": "HIGH", "type": "named_commercial_relationship", "claim": normalized})
+            material_relation = re.search(
+                r"(?:主要客戶|主要供應商|核心客戶|核心供應商|最大客戶|最大供應商|"
+                r"占營收|佔營收|\d+(?:\.\d+)?\s*%|Tier\s*1|一階|直供|獨家|"
+                r"打入|Design[- ]?in|終端客戶|指定供應商|認證)",
+                normalized,
+                flags=re.IGNORECASE,
+            )
+            if material_relation:
+                signals.append({"level": "HIGH", "type": "material_named_relationship", "claim": normalized})
+            else:
+                signals.append({"level": "MEDIUM", "type": "ordinary_named_relationship", "claim": normalized})
             continue
 
-        # Export assertions become HIGH only when a concrete geography or percentage is asserted.
+        # Export geography is dynamic but not inherently high risk. Concentration/share
+        # assertions are HIGH; geography-only assertions are MEDIUM.
         if re.search(r"(?:出口|外銷)", normalized):
-            if any(term in normalized for term in GEOGRAPHY_TERMS) or re.search(r"\d+(?:\.\d+)?\s*%", normalized):
-                signals.append({"level": "HIGH", "type": "specific_export_assertion", "claim": normalized})
+            if re.search(r"\d+(?:\.\d+)?\s*%", normalized) or re.search(r"(?:主要|核心).{0,6}(?:出口|外銷).{0,10}(?:市場|地區)", normalized):
+                signals.append({"level": "HIGH", "type": "export_concentration", "claim": normalized})
+            elif any(term in normalized for term in GEOGRAPHY_TERMS):
+                signals.append({"level": "MEDIUM", "type": "specific_export_geography", "claim": normalized})
             else:
                 signals.append({"level": "MEDIUM", "type": "generic_export", "claim": normalized})
             continue
 
-        # General dynamic business assertions remain MEDIUM.
         medium_patterns = (
             r"主要產品", r"產能", r"應用", r"策略", r"總部", r"地址",
             r"市場定位", r"合作", r"產品組合", r"供應鏈",

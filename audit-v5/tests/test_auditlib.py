@@ -74,24 +74,33 @@ class AuditV5Tests(unittest.TestCase):
         level, reasons = __import__("auditlib").classify_risk(text)
         self.assertNotEqual(level, "HIGH")
 
-    def test_named_customer_relationship_is_high(self):
+    def test_material_named_customer_relationship_is_high(self):
         text = """主要客戶包括 [[Apple]] 與 [[NVIDIA]]。"""
         level, reasons = __import__("auditlib").classify_risk(text)
         self.assertEqual(level, "HIGH")
-        self.assertIn("high-signal:named_commercial_relationship", reasons)
+        self.assertIn("high-signal:material_named_relationship", reasons)
+
+    def test_ordinary_named_supplier_relation_is_medium(self):
+        text = """[[中鋼]] — 造船用鋼板供應商。"""
+        level, reasons = __import__("auditlib").classify_risk(text)
+        self.assertNotEqual(level, "HIGH")
 
     def test_ranking_assertion_is_high(self):
         text = """公司為台灣最大玻璃製造商。"""
         level, reasons = __import__("auditlib").classify_risk(text)
         self.assertEqual(level, "HIGH")
-        self.assertIn("high-signal:ranking_or_market_share", reasons)
+        self.assertIn("high-signal:objective_ranking_or_market_share", reasons)
 
-    def test_specific_export_is_high_but_generic_export_is_medium(self):
+    def test_export_geography_is_medium_but_concentration_is_high(self):
         mod = __import__("auditlib")
-        high, _ = mod.classify_risk("產品主要出口美國與日本。")
-        medium, _ = mod.classify_risk("產品以出口為主。")
-        self.assertEqual(high, "HIGH")
-        self.assertEqual(medium, "MEDIUM")
+        medium_geo, _ = mod.classify_risk("產品出口美國與日本。")
+        high_share, _ = mod.classify_risk("產品外銷美國占營收 60%。")
+        self.assertEqual(medium_geo, "MEDIUM")
+        self.assertEqual(high_share, "HIGH")
+
+    def test_leader_puffery_is_medium(self):
+        level, reasons = __import__("auditlib").classify_risk("公司為台灣產業龍頭。")
+        self.assertEqual(level, "MEDIUM")
 
     def test_financial_section_keywords_do_not_affect_report_risk(self):
         report = GOOD_REPORT.replace(
