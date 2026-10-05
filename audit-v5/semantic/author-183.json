@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-183",
+  "reviewed_at": "2026-10-05T21:42:21Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大億2024年度年報; 江申115年股東會年報; 和大法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "1521:material_named_relationship:3643e47a5051e4fd",
+      "normalized_claim_hash": "3643e47a5051e4fd3a85a30702e832fdba5c136ea7216b3fe525cca58c84f7a6",
+      "ticker": "1521",
+      "company": "大億",
+      "path": "Pilot_Reports/Auto Parts/1521_大億.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司成功將照明技術延伸至航太 (與[[漢翔]]合作機外燈光系統) 及軌道車輛 (取得[[Alstom]]合格供應商認證，已交付台北捷運環狀線二期燈具)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2024.pdf",
+          "title": "大億交通工業製造股份有限公司（大億，1521，TA YIH INDUSTRIAL）2024 年度年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取90,020字元）。年報中「**軌道**」出現13次、「**航太**」5次、「捷運」2次、「機外」1次。**關鍵發現**：(1)「**軌道**」之多次出現屬**登記營業項目代碼**（「(5)CD01020 **軌道**車輛及其零件製造業」「(6)F114080 **軌道**車輛及其零件批發業」）與**產品研發方向**（「(9)大眾運輸 (巴士/**軌道**/航空) 空氣消毒燈研發：」），**非已交付之實績**；(2) 全份年報中「**漢翔**」「**Alstom**」與「**環狀線**」之出現次數**均為0**。「機外」1次之上下文未載合作對象。"
+        }
+      ],
+      "rationale": "「照明技術延伸至**航太**及**軌道車輛**領域」獲發行人年報之**部分支持**：年報中「**軌道**」13次、「**航太**」5次、「捷運」2次、「機外」1次。**惟多數「軌道」之出現屬登記營業項目或研發方向**——「(5)CD01020 **軌道**車輛及其零件製造業」「(6)F114080 **軌道**車輛及其零件批發業」「(9)大眾運輸 (巴士/**軌道**/航空) 空氣消毒燈研發：」，**非已交付實績**。另三項陳述未獲支持：(1)「與[[漢翔]]合作**機外燈光系統**」——「**漢翔**」出現次數為**0**；(2)「取得[[Alstom]]合格供應商認證」——「**Alstom**」為**0**；(3)「已交付**台北捷運環狀線二期**燈具」——「**環狀線**」為**0**。故部分成立。",
+      "proposed_text": "大億交通工業製造 (1521，TA YIH INDUSTRIAL) 將照明技術延伸至航太及軌道車輛領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1525:material_named_relationship:1413ebbb5d206bf5",
+      "normalized_claim_hash": "1413ebbb5d206bf53ffb3bc10f414d3d0b2b9698198ebfbd412806272c95231b",
+      "ticker": "1525",
+      "company": "江申",
+      "path": "Pilot_Reports/Auto Parts/1525_江申.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中國子公司成功打入新能源車供應鏈，供應[[寧德時代]] (電池盒)、[[小米汽車]]、[[蔚來汽車]]等，另與[[Toyota]]、[[Nissan]]、[[Honda]]、[[Mazda]]、[[Volvo]]、[[廈門金龍]]合作。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/115%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83/%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1(%e5%b0%9a%e6%9c%aa%e9%81%a9%e7%94%a8%e6%b0%b8%e7%ba%8c%e6%8f%ad%e9%9c%b2%e6%ba%96%e5%89%87).pdf",
+          "title": "江申工業股份有限公司（江申，1525，Kian Shen）115 年股東會年報",
+          "source_level": 3,
+          "period_binding": "民國115年股東會年報。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取88,467字元）。**關鍵發現（外國公司中譯名落差）**：年報使用**中文廠名**而非英文原名——「**豐田**」出現5次、「**日產**」2次、「**金龍**」8次、「**合資**」6次，**支持其與 Toyota、Nissan、廈門金龍之合作敘述**；**惟以英文名（Toyota、Nissan）檢索將得 0 次**。另「**本田**」（Honda）0次、「**馬自達**」（Mazda）0次、「**富豪**」（Volvo）0次、「**寧德**」0次、「**蔚來**」0次、「**小米**」0次、「**電池盒**」0次。"
+        }
+      ],
+      "rationale": "「與 [[Toyota]]、[[Nissan]] 及[[廈門金龍]]合作」獲發行人年報支持——**惟須以中文廠名檢索**：年報中「**豐田**」出現5次、「**日產**」2次、「**金龍**」8次（另「合資」6次），**支持該等具名合作敘述**（**以英文名 Toyota／Nissan 檢索將得0次**）。惟多項陳述未獲支持：(1)「中國子公司**打入新能源車供應鏈**」——未見該敘述之完整表述；(2)「供應[[寧德時代]]（**電池盒**）」——「**寧德**」與「**電池盒**」均為**0**；(3)「[[小米汽車]]」——「**小米**」為**0**；(4)「[[蔚來汽車]]」——「**蔚來**」為**0**；(5)「[[Honda]]」——「**本田**」為0；(6)「[[Mazda]]」——「**馬自達**」為0；(7)「[[Volvo]]」——「**富豪**」為0。故部分成立。",
+      "proposed_text": "江申工業 (1525，Kian Shen) 之中國業務與豐田、日產及廈門金龍等車廠合作。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:material_named_relationship:155354e2481c1bb3",
+      "normalized_claim_hash": "155354e2481c1bb3435962e7dde2d375e6280112fb652e77fcea5a5c447648b7",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "第二大客戶[[Tesla]] (佔營收約 20%)，為其電動車減速齒輪箱獨家供應商，供應 Model S/X、Semi 電動卡車及中國以外 Model 3/Y。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf",
+          "title": "和大工業股份有限公司（和大，1536，Hota Industrial Mfg.）法人說明會簡報（2026-07-22）",
+          "source_level": 3,
+          "period_binding": "2026年7月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,914字元，以圖形排版為主）。簡報載「核心競爭力在於高精密**傳動**系統零組件之設計與製造，為客戶創造高附加價值」「為歐美日車廠之一階供應商」「產品應用於**電動車**、燃油車、重機、航太、機（換行）器（換行）人、電輔車、農機及產業機械」，並見「**減速**」3次、「**齒輪**」4次、「**電動車**」2次、「**行星**」1次，支持其傳動系統零組件業務與產品應用領域。**關鍵發現**：全份簡報中「**Tesla**」「**特斯拉**」「**Optimus**」「**人形**」「**Model**」與「**Semi**」之出現次數**均為0**。**字形註記**：簡報中「機器人」一詞**被換行拆為「機器」與「人」**（「航太、機」／「器」／「人」），故以「機器人」為連續字串檢索將**失準**。"
+        }
+      ],
+      "rationale": "「為**電動車減速齒輪箱**供應商」獲發行人簡報支持：簡報中「**減速**」3次、「**齒輪**」4次、「**電動車**」2次，並載其為「歐美日車廠之一階供應商」及「產品應用於**電動車**、燃油車、重機、航太、機（換行）器（換行）人、電輔車、農機及產業機械」。**惟多項陳述未獲支持**：(1)「第二大客戶 [[Tesla]]」——「**Tesla**」與「**特斯拉**」之出現次數**均為0**；(2)「佔營收約 **20%**」——未見該數字；(3)「**獨家**供應商」——未見；(4)「供應 **Model S/X**、**Semi** 電動卡車及中國以外 **Model 3/Y**」——「**Model**」與「**Semi**」均為0。故部分成立。**字形註記**：簡報中「機器人」一詞被**換行拆為「機器」與「人」**，故以「機器人」連續字串檢索將失準。",
+      "proposed_text": "和大工業 (1536，Hota Industrial Mfg.) 為歐美日車廠之一階供應商，生產電動車減速齒輪箱等傳動系統零組件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:material_named_relationship:1b0a30cf02a7f3d9",
+      "normalized_claim_hash": "1b0a30cf02a7f3d9470dccf6911ed465a29eb65bfac9e5080aff0acb741fbb90",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "更獲[[Tesla]]邀請成為 Optimus 人形機器人「行星減速機」台灣獨家供應商 (每台需約 40 組)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf",
+          "title": "和大工業股份有限公司（和大，1536，Hota Industrial Mfg.）法人說明會簡報（2026-07-22）",
+          "source_level": 3,
+          "period_binding": "2026年7月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,914字元，以圖形排版為主）。簡報載「核心競爭力在於高精密**傳動**系統零組件之設計與製造，為客戶創造高附加價值」「為歐美日車廠之一階供應商」「產品應用於**電動車**、燃油車、重機、航太、機（換行）器（換行）人、電輔車、農機及產業機械」，並見「**減速**」3次、「**齒輪**」4次、「**電動車**」2次、「**行星**」1次，支持其傳動系統零組件業務與產品應用領域。**關鍵發現**：全份簡報中「**Tesla**」「**特斯拉**」「**Optimus**」「**人形**」「**Model**」與「**Semi**」之出現次數**均為0**。**字形註記**：簡報中「機器人」一詞**被換行拆為「機器」與「人」**（「航太、機」／「器」／「人」），故以「機器人」為連續字串檢索將**失準**。"
+        }
+      ],
+      "rationale": "「行星**減速**機」之產品類別獲發行人簡報之部分支持：簡報中「**減速**」3次、「**行星**」1次、「**齒輪**」4次，且其產品應用載明包含「機器」與「人」（**換行分隔**，即機器人）。**惟多項陳述未獲支持**：「獲 [[Tesla]] 邀請」（「**Tesla**」「**特斯拉**」均0次）、「[[Optimus]] 人形機器人」（「**Optimus**」「**人形**」均0次）、「台灣**獨家**供應商」（未見「獨家」）與「每台需約 **40 組**」（未見）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1536:material_named_relationship:896f01fa3513114d",
+      "normalized_claim_hash": "896f01fa3513114dca515515e99932f326a23cb0ad88e62171480dbab17e1f8c",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Tesla]] (第二大，20%) — 減速齒輪箱獨家供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf",
+          "title": "和大工業股份有限公司（和大，1536，Hota Industrial Mfg.）法人說明會簡報（2026-07-22）",
+          "source_level": 3,
+          "period_binding": "2026年7月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,914字元，以圖形排版為主）。簡報載「核心競爭力在於高精密**傳動**系統零組件之設計與製造，為客戶創造高附加價值」「為歐美日車廠之一階供應商」「產品應用於**電動車**、燃油車、重機、航太、機（換行）器（換行）人、電輔車、農機及產業機械」，並見「**減速**」3次、「**齒輪**」4次、「**電動車**」2次、「**行星**」1次，支持其傳動系統零組件業務與產品應用領域。**關鍵發現**：全份簡報中「**Tesla**」「**特斯拉**」「**Optimus**」「**人形**」「**Model**」與「**Semi**」之出現次數**均為0**。**字形註記**：簡報中「機器人」一詞**被換行拆為「機器」與「人」**（「航太、機」／「器」／「人」），故以「機器人」為連續字串檢索將**失準**。"
+        }
+      ],
+      "rationale": "「[[Tesla]]（第二大，**20%**）— 減速齒輪箱**獨家供應**」未獲確立：所取得之大和法人說明會簡報中「**Tesla**」與「**特斯拉**」之出現次數**均為0**，**未具名該客戶**，亦未載 20% 營收占比與獨家供應之敘述。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

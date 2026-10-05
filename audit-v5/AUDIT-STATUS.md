@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 14:04 UTC
+Updated: 2026-10-12 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **973 / 1,399**
-- Remaining author review: **426**
-- Latest batch: **author-182** (4 claims)
+- Author-reviewed: **978 / 1,399**
+- Remaining author review: **421**
+- Latest batch: **author-183** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **634**
+- `PARTIALLY_SUPPORTED`: **638**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **241**
+- `UNKNOWN_AFTER_RESEARCH`: **242**
 
 ## Latest claim batch
 
-- `2258:control_acquisition:a2cce4203b591026`、`2258:material_named_relationship:918bd151a76df137` — `UNKNOWN_AFTER_RESEARCH` ×2；鴻華先進端點 **HTTP 404**。
-- `1336:material_named_relationship:060ea61467d8c536` — `PARTIALLY_SUPPORTED`；台翰年報「**事務機」9 次、「日系」7 次、「Brother」1 次**；惟「**Canon／Kyocera／Epson」皆 0 次**。
-- `1506:material_named_relationship:bfd3eddf17697b9b` — `PARTIALLY_SUPPORTED`；正道年報（107年度）「**壓縮機」5 次、「Thermo」4 次、「BRP」2 次**；惟「**Trane／Polaris／Yamaha」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-182.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1521:material_named_relationship:3643e47a5051e4fd` (大億).
+- `1521:material_named_relationship:3643e47a5051e4fd` — `PARTIALLY_SUPPORTED`；大億年報「軌道」13次、「航太」5次；**惟多數「軌道」屬登記營業項目或研發方向**；「漢翔」「Alstom」「環狀線」皆0次。
+- `1525:material_named_relationship:1413ebbb5d206bf5` — `PARTIALLY_SUPPORTED`；江申年報**以中文廠名**載「**豐田」5 次、「日產」2 次**、「金龍」8次；惟「寧德」「小米」「蔚來」「本田」「馬自達」「富豪」「電池盒」皆0次。
+- `1536:material_named_relationship:155354e2481c1bb3` — `PARTIALLY_SUPPORTED`；和大簡報「減速」3次、「齒輪」4次、「電動車」2次；**惟「Tesla」「特斯拉」皆 0 次**，「Model」「Semi」亦0次。
+- `1536:material_named_relationship:1b0a30cf02a7f3d9` — `PARTIALLY_SUPPORTED`；「行星」1次；「Tesla」「Optimus」「人形」「40組」皆0次。
+- `1536:material_named_relationship:896f01fa3513114d` — `UNKNOWN_AFTER_RESEARCH`；「Tesla」「特斯拉」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-183.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `1568:material_named_relationship:1946ef9117a00ea3` (倉佑).
 
 ## Source access
 
