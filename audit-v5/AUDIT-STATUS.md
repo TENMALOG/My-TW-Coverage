@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 23:04 UTC
+Updated: 2026-10-14 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,101 / 1,399**
-- Remaining author review: **298**
-- Latest batch: **author-215** (4 claims)
+- Author-reviewed: **1,104 / 1,399**
+- Remaining author review: **295**
+- Latest batch: **author-216** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **705**
-- `UNSUPPORTED`: **1**
+- `PARTIALLY_SUPPORTED`: **706**
+- `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **294**
+- `UNKNOWN_AFTER_RESEARCH`: **295**
 
 ## Latest claim batch
 
-- `3015:material_named_relationship:01056723fc00bfbf` — `PARTIALLY_SUPPORTED`（**並標示數字矛盾**）；全漢年報「**80 PLUS」4 次、「80PLUS」2 次**並載「全球第一通過**80Plus 鈦金牌**認證400瓦電源供應器」；**惟「前十大」（4次）全數指「前十大股東／前十大銷售客戶」，且年報載「研發人員 3 百多人」與 claim 之「逾 600 人」不符**。
-- `3015:profitability_assertion:216c65fa804875f8` — `PARTIALLY_SUPPORTED`；年報「**醫療」24 次、「儲能」22 次、「逆變器」6 次**；**惟「Edge AI」與「高毛利」皆 0 次**。
-- `3058:identity_changing_event:b0f8839a8a894a73` — `UNKNOWN_AFTER_RESEARCH`；立德端點 **HTTP 404**。
-- `1609:material_named_relationship:3141fcab82381e1e` — `UNKNOWN_AFTER_RESEARCH`；大亞端點 **HTTP 404**（官網僅有2017年CSR）。
-- ⚠️ **本批次第 3 度發現「數字矛盾」**：`3015:01056723fc00bfbf` 之研發人數（claim 逾 600 人 vs 年報「研發人員 3 百多人」）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-215.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `3541:export_concentration:23aa0cac81532d07` (西柏).
+- `1617:material_named_relationship:1f14e00f8c9b676c` — `PARTIALLY_SUPPORTED`；榮星年報**逐字載**「**裸銅線即佔漆包線成本達85%左右**，係直接向國內**裸銅線大廠**進貨」與「**提煉銅**」（裸銅線9次、85% 4次、**大亞 22 次、華新麗華 1 次**）；**惟「華榮」0 次**。
+- `3541:export_concentration:23aa0cac81532d07` — `UNKNOWN_AFTER_RESEARCH`；西柏年報端點 **HTTP 404**。
+- 🔴 `6225:export_concentration:e4146e23ad193cf5` — **`UNSUPPORTED`**；天瀚年報載「**銷售市場以台灣為主要市場**」「**註：112 年度無外銷**」「外銷產品約 **7.2%**」——**與 claim「產品以歐美為主要外銷市場」方向相反**。**本審核第 2 筆 UNSUPPORTED。**
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-216.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `3071:material_named_relationship:2d5f28d692feacbe` (協禧).
 
 ## Source access
 

@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-216",
+  "reviewed_at": "2026-10-05T22:21:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (榮星年報; 天瀚112年度年報); 西柏年報端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "1617:material_named_relationship:1f14e00f8c9b676c",
+      "normalized_claim_hash": "1f14e00f8c9b676c3d8fbe5e3aa3e0d0ee52e70387e38f8dae8f8d5d42af3280",
+      "ticker": "1617",
+      "company": "榮星",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1617_榮星.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "裸銅線約佔成本 85%，向[[華榮]]、[[華新麗華]]、[[大亞]]等具煉銅能力之大廠採購。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://en.jswire.com.tw/userfiles/files/20220223015331226.pdf",
+          "title": "榮星電線工業股份有限公司（榮星，1617，JUNG SHING WIRE）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取212,872字元）。年報載「塗料,其中**裸銅線即佔漆包線成本達85%左右**,係直接向國內**裸銅線大廠**進貨」（「**裸銅線**」9次、「**85%**」4次）與「本公司**裸銅線等原料供應商係國內知名之大廠**,所提供之裸銅線等原料種類完整」，並載「其上游包括作為絕緣材料之塑化業,及**提煉銅**或鋁等金屬作為線纜基（材）」（「**煉銅**」1次），**逐項支持該 claim**。就具名供應商而言，年報中「**大亞**」出現22次、「**華新麗華**」1次。**關鍵發現**：全份年報中「**華榮**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**裸銅線約佔成本 85%**」與「向…具**煉銅**能力之大廠採購」獲發行人年報**逐字支持**：年報載「塗料,其中**裸銅線即佔漆包線成本達85%左右**,係直接向國內**裸銅線大廠**進貨」（「裸銅線」9次、「85%」4次）與「本公司**裸銅線等原料供應商係國內知名之大廠**」「其上游包括…及**提煉銅**或鋁等金屬作為線纜基（材）」（「煉銅」1次）。就具名供應商而言，年報中「**大亞**」出現22次、「**華新麗華**」1次，**二者獲支持**。**惟「[[華榮]]」未獲支持**——「**華榮**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "榮星電線 (1617，JUNG SHING WIRE) 之裸銅線約佔漆包線成本 85%，係向國內裸銅線大廠（如大亞、華新麗華等）採購。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3541:export_concentration:23aa0cac81532d07",
+      "normalized_claim_hash": "23aa0cac81532d07101ad36811d81d41b5a21e0c8672fc868c79daa9272335fa",
+      "ticker": "3541",
+      "company": "西柏",
+      "path": "Pilot_Reports/Consumer Electronics/3541_西柏.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品高達 90% 外銷，近 70% 客戶在北美洲。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.cypress.com.tw/uploads/investor/2023_annual_report.pdf",
+          "title": "西柏科技股份有限公司（西柏，3541，Cypress Technology）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之西柏年報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案（公開檢索亦未取得其年報全文）；本批次未取得西柏可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「產品高達 **90% 外銷**，近 **70%** 客戶在**北美洲**」未獲確立：本批次所嘗試之西柏年報端點回應 **HTTP 404**，公開檢索亦未取得其年報全文，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6225:export_concentration:e4146e23ad193cf5",
+      "normalized_claim_hash": "e4146e23ad193cf514ab606be7bf62b4934d3bfa8a2f086a5dbc279b36f7d03d",
+      "ticker": "6225",
+      "company": "天瀚",
+      "path": "Pilot_Reports/Consumer Electronics/6225_天瀚.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品以歐美為主要外銷市場。",
+      "decision": "UNSUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.aiptek.com.tw/uploads/information_shareholders/tw/112%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "天瀚科技股份有限公司（天瀚，6225，AIPTEK）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023年）。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取136,236字元）。年報載「天瀚科技目前所營主要業務集中在**行車記錄器**，**銷售市場以台灣為主要市場**」，並載「產品主要以**內銷台灣市場**為主，以新台幣為報價基礎，**外銷產品約7.2%**以（…）」，**且於部門／地區別資訊明載「註：112 年度無外銷。」**（「**外銷**」3次、「**歐洲**」3次、「**美國**」3次、「**美洲**」1次、「**主要市場**」1次）。**關鍵發現**：年報所載之主要市場為**台灣（內銷）**，且**明載112年度無外銷**、外銷比重僅約7.2%，**與 claim 所述「產品以歐美為主要外銷市場」直接矛盾**。"
+        }
+      ],
+      "rationale": "「產品以**歐美為主要外銷市場**」經所取得之發行人年報**否定**：天瀚112年度年報載「天瀚科技目前所營主要業務集中在**行車記錄器**，**銷售市場以台灣為主要市場**」，並載「產品主要以**內銷台灣市場**為主，以新台幣為報價基礎，**外銷產品約7.2%**以（…）」，**且於部門／地區別資訊明載「註：112 年度無外銷。」**——**即該年度並無外銷金額**。**該 claim 之實質內容（以歐美為主要外銷市場）與官方文件所載（以台灣內銷為主、112年度無外銷、外銷比重約7.2%）方向相反**，故判定為 UNSUPPORTED。",
+      "proposed_text": "天瀚科技 (6225，AIPTEK) 主要業務為行車記錄器，以台灣內銷市場為主；依其112年度年報，該年度無外銷。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
