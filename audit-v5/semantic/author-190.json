@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-190",
+  "reviewed_at": "2026-10-05T21:51:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中信金法人說明會簡報; 王道銀行年報)",
+  "items": [
+    {
+      "claim_id": "2891:profitability_assertion:8c8dbd5c92337bba",
+      "normalized_claim_hash": "8c8dbd5c92337bbad37f21b3034c70ff38c8883746e0aae5defa9a5421aa6825",
+      "ticker": "2891",
+      "company": "中信金",
+      "path": "Pilot_Reports/Banks - Regional/2891_中信金.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旗下[[台灣人壽]]為集團第二大獲利引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/289120260519M002.pdf",
+          "title": "中國信託金融控股股份有限公司（中信金，2891，CTBC Financial Holding）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "簡報所載期間請見文件（含2026年5月版本）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取31,637字元，以圖形排版為主）。簡報中「**台灣人壽**」出現20次、「**中信銀行**」33次、「**中信證券**」4次、「獲利」11次，**支持台灣人壽為集團主要子公司之一**（並載「台灣人壽資本適足率/新一代清償能力(%)」「台灣人壽數字為合併基礎；台灣人壽自2026年起採用IFRS17及IFRS15」等）。**關鍵發現**：全份簡報中「**第二大**」與「**引擎**」之出現次數**均為0**，未載「第二大獲利引擎」之敘述。"
+        }
+      ],
+      "rationale": "「旗下[[台灣人壽]]為集團**主要子公司**之一」獲發行人簡報支持：簡報中「**台灣人壽**」出現20次、「**中信銀行**」33次、「**中信證券**」4次、「獲利」11次，並載台灣人壽之資本適足率與 IFRS17／IFRS15 適用等資訊。**惟本 claim 之核心（「**第二大**獲利**引擎**」）未獲支持**：全份簡報中「**第二大**」與「**引擎**」之出現次數**均為0**，**未載任何獲利規模之排序敘述**。故部分成立。",
+      "proposed_text": "中信金控 (2891，CTBC Financial Holding) 旗下主要子公司包括台灣人壽、中信銀行及中信證券。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2897:identity_changing_event:6d5aa86c6d912f37",
+      "normalized_claim_hash": "6d5aa86c6d912f379393b3b233d2176ba51c232fe6b74114a0bf46dfb06476af",
+      "ticker": "2897",
+      "company": "王道銀行",
+      "path": "Pilot_Reports/Banks - Regional/2897_王道銀行.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[王道商業銀行]] (2897) 前身為[[台灣工業銀行]]，2017 年改制為商業銀行並更名。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.o-bank.com/-/media/D2D3D45E89C848EFA8194480355ED7BF.pdf",
+          "title": "王道商業銀行股份有限公司（王道銀行，2897，O-Bank）年報",
+          "source_level": 3,
+          "period_binding": "年報所載期間請見文件。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取381,233字元）。年報載「一、**獲准改制為商業銀行**」「於董事會及股東臨時會決議通過申請**改制並變更登記為「王道商業銀行」**，英文（名稱…）」「**2017 年1 月1 日**」「已於民國一○四年年底由金管會正式核准，未來本行將**更名為「王道商業銀行」**」，並多次載「**台灣工業銀行**」（「**台灣工業銀行**」45次、「**王道**」13次、「**改制**」49次、「**商業銀行**」83次、「更名」6次、「2017」4次），**逐項支持該 claim**（**民國104年＝2015年獲准、2017年1月1日生效**）。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報**逐字支持**：(1)「前身為[[台灣工業銀行]]」——年報中「**台灣工業銀行**」出現45次；(2)「**2017 年**改制為**商業銀行**」——年報載「一、**獲准改制為商業銀行**」與「**2017 年1 月1 日**」（「改制」49次、「商業銀行」83次、「2017」4次）；(3)「並**更名**」——年報載「於董事會及股東臨時會決議通過申請**改制並變更登記為「王道商業銀行」**」及「已於民國一○四年年底由金管會正式核准，未來本行將**更名為「王道商業銀行」**」（「更名」6次、「王道」13次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

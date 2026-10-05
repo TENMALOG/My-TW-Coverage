@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 21:04 UTC
+Updated: 2026-10-12 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,000 / 1,399**
-- Remaining author review: **399**
-- Latest batch: **author-189** (4 claims)
+- Author-reviewed: **1,002 / 1,399**
+- Remaining author review: **397**
+- Latest batch: **author-190** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **95**
-- `PARTIALLY_SUPPORTED`: **649**
+- `ACCEPTED`: **96**
+- `PARTIALLY_SUPPORTED`: **650**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2884:identity_changing_event:f537d8ed70d49074` — `ACCEPTED`；玉山金公開說明書**逐字載**「註：於**114 年3 月18 日**經董事會決議通過**收購保德信證券投資信託股份有限公司**（**後更名為玉山證券**投資信託股份有限公司…）」及「旗下包含玉山銀行、**玉山證券**、玉山創投、**玉山投信**等子公司」——**民國114年＝2025年**。
-- `2890:profitability_assertion:87eb0db69c8e92ab` — `UNKNOWN_AFTER_RESEARCH`；永豐金端點 **HTTP 404**。
-- `1802:material_named_relationship:77200a0fed86febc` — `PARTIALLY_SUPPORTED`；台玻年報「**玻璃纖維」16 次、「纖維布」3 次**；惟「**電子級／Low DK／Low CTE／銅箔／基板／CCL／伺服器」皆 0 次**。
-- `1802:material_named_relationship:1fbc93875da47f15` — `UNKNOWN_AFTER_RESEARCH`；「**NVIDIA」0 次**、「DK」「伺服器」亦0次。
-- **里程碑：author 已審 **1,000** 筆 claim（71.5%）。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-189.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2891:profitability_assertion:8c8dbd5c92337bba` (中信金).
+- `2891:profitability_assertion:8c8dbd5c92337bba` — `PARTIALLY_SUPPORTED`；中信金簡報「**台灣人壽」20 次、「中信銀行」33 次**、「獲利」11次；**惟「第二大」與「引擎」皆 0 次**。
+- `2897:identity_changing_event:6d5aa86c6d912f37` — `ACCEPTED`；王道銀行年報**逐字載**「獲准**改制為商業銀行**」「變更登記為**「王道商業銀行」**」「**2017年1月1日**」（「**台灣工業銀行」45 次**、「改制」49次、「商業銀行」83次）——**逐項對應**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-190.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `8466:material_named_relationship:4186b19ffa74dbe9` (美吉吉-KY).
 
 ## Source access
 
