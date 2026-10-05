@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 17:04 UTC
+Updated: 2026-10-11 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **890 / 1,399**
-- Remaining author review: **509**
-- Latest batch: **author-161** (4 claims)
+- Author-reviewed: **894 / 1,399**
+- Remaining author review: **505**
+- Latest batch: **author-162** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **584**
+- `PARTIALLY_SUPPORTED`: **586**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **211**
+- `UNKNOWN_AFTER_RESEARCH`: **213**
 
 ## Latest claim batch
 
-- `5475:objective_ranking_or_market_share:71e82525f40ff47e` — `PARTIALLY_SUPPORTED`；德宏簡報「**石英」18 次、「Q-Glass」2 次**、「玻纖布」3次；惟「第三大」「唯一」皆0次。
-- `8916:objective_ranking_or_market_share:94054a91233ed989` — `PARTIALLY_SUPPORTED`；光隆簡報「**羽絨」10 次**、「垂直整合」1次；惟「1966」「台北」「唯一」「精洗」皆0次。
-- `9938:objective_ranking_or_market_share:d3614a1e78765800` — `PARTIALLY_SUPPORTED`；百和簡報「**黏扣帶」16 次、「1979」2 次**；惟「彰化」「全球最大」「Hook」皆0次。
-- `9938:objective_ranking_or_market_share:75e89fb7124e96b1` — `PARTIALLY_SUPPORTED`；簡報**明文載**「獲邀**Adidas** A-Team成員」「**百和為全球唯一副料供應商；獲選Nike成衣『先鋒供應商』**」（Adidas 6次、Nike 3次）；惟「23%」上下文不足、「19%」「On Running」「Hoka」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-161.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6832:objective_ranking_or_market_share:e80b2b9b51da51df` (金鼎科).
+- `6832:objective_ranking_or_market_share:e80b2b9b51da51df` — `UNKNOWN_AFTER_RESEARCH`；**未查得金鼎科本身之官方端點**（檢索所及者為中國 A 股「廣東金鼎光學技術股份有限公司」，**並非同一法人**）。
+- `1527:objective_ranking_or_market_share:2cd5717ea34e0ce8` — `PARTIALLY_SUPPORTED`；鑽全簡報載「**創立日期：民國72年**」（＝1983）、「釘槍」1次、「代工」2次、「氣動」2次；惟「全球最大」「台中」「Nailer」皆0次。**以民國年表述**，故「1983」檢索為0。
+- `1560:objective_ranking_or_market_share:4fb13831c5b7dbba` — `PARTIALLY_SUPPORTED`；中砂簡報「**鑽石碟」13 次、「Diamond Disk」10 次、「CMP」14 次**、「修整」7次、「再生晶圓」8次；惟「台積電」「市佔」「領先」皆0次。
+- `1560:objective_ranking_or_market_share:06635179641a8d57` — `UNKNOWN_AFTER_RESEARCH`；簡報「**台積電」「最大單一」「六成」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-162.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1541:objective_ranking_or_market_share:d200dd9c531c0610` (錩泰).
 
 ## Source access
 

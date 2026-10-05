@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:15:04Z",
+  "generated_at": "2026-10-05T21:17:39Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -162,13 +162,15 @@
     "author-157",
     "author-158",
     "author-159",
-    "author-160"
+    "author-160",
+    "author-161",
+    "author-162"
   ],
-  "source_batch_count": 160,
-  "total_unknown": 211,
+  "source_batch_count": 162,
+  "total_unknown": 213,
   "failure_signature_counts": {
-    "other_unclassified": 76,
-    "no_official_endpoint_found": 104,
+    "other_unclassified": 77,
+    "no_official_endpoint_found": 105,
     "tls_failure": 13,
     "mops_non_document": 34,
     "non_document_response": 31,
@@ -179,7 +181,7 @@
     "garbled_text_layer": 9,
     "client_rendered_only": 4,
     "download_timeout": 2,
-    "source_identity_mismatch": 5
+    "source_identity_mismatch": 6
   },
   "items": [
     {
@@ -3291,6 +3293,35 @@
       ],
       "attempted_sources": [
         "https://www.tstco.com.hk/upload/files/article/20250821/17557452153304002.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6832:objective_ranking_or_market_share:e80b2b9b51da51df",
+      "ticker": "6832",
+      "company": "金鼎科",
+      "claim": "最大應用市場為智慧型手機與汽車儀表板之[[曲面玻璃]]熱壓成型製程緩衝隔離材料。",
+      "batch_id": "author-162",
+      "failure_signature": [
+        "no_official_endpoint_found",
+        "source_identity_mismatch"
+      ],
+      "attempted_sources": [
+        "https://basic.10jqka.com.cn/astockpc/astockmain/index.html"
+      ],
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
+    },
+    {
+      "claim_id": "1560:objective_ranking_or_market_share:06635179641a8d57",
+      "ticker": "1560",
+      "company": "中砂",
+      "claim": "[[台積電]] (最大單一客戶，鑽石碟約六成出貨)、[[聯電]]、[[Micron]]、[[Intel]]、[[力積電]]",
+      "batch_id": "author-162",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.kinik.com.tw/upload/Investors/Conference/2025Q2%20KINIK%20%e4%b8%ad%e7%a0%82%e5%85%ac%e5%8f%b8%e6%b3%95%e4%ba%ba%e5%ba%a7%e8%ab%87%20BofA%20Asia%20Tech%2020250908.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
