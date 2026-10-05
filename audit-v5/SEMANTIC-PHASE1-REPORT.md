@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **189 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), and `author-036` (9).
+Author-reviewed: **196 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), and `author-037` (7).
 
 - ACCEPTED by author: 41
-- PARTIALLY_SUPPORTED: 120
+- PARTIALLY_SUPPORTED: 126
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 24
-- Remaining author queue: 1,210
+- Other allowed author decisions: 25
+- Remaining author queue: 1,203
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -438,6 +438,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - 方法備註：本批次於 3163 與 3221 之間漏檢 `3209`（全科），經複核佇列順序後立即補做並追加為同批次第9筆，使佇列順序維持不中斷。
 - 來源檢索限制：訊舟科技官網年報端點失效、公開資訊觀測站多個端點對該公司回傳非文件內容；此為檢索限制之紀錄，未用以推論 claim 真偽。`local-recheck-queue.json` 維持 **15** 筆。
 - Author-reviewed total: **189 / 1,399**; remaining: **1,210**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 120, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 24. Next pending claim by priority: `3363:objective_ranking_or_market_share:26fa475a285812b8` (上詮).
+
+## Author batch `author-037` — 2026-10-06
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (上詮 3363, 昇達科 3491 ×3, 神準 3558, 智易 3596 ×2). Evidence came from directly downloaded and inspected official disclosures: 上詮2025年度年報、昇達科2026年法人說明會簡報與財務說明文件、神準2022年法人說明會簡報、智易114年度股東會年報。
+- `3363:objective_ranking_or_market_share:26fa475a285812b8` — `PARTIALLY_SUPPORTED`. 上詮2025年年報第72頁載其掌握「高密度、高精度的光纖陣列製造，以及ReLFACon 光纖陣列元件FAU 的精準對位與封裝技術」，第73頁列「二維光纖陣列精密對準共封裝技術」與「自動化矽光元件封裝技術」，第68頁載其長期目標為「CPO 光纖陣列元件之主要及重要供應商」。惟「COUPE」與「獨家」於全份年報出現次數均為0；「台積電」2次分別為資深廠長個人經歷與獨立董事研習課程名稱，非 CPO 認證或合作；「唯一」2處亦與市場地位無關。
+- `3491:objective_ranking_or_market_share:94f1a06238faac2a` 與 `e76f95644dba4f6a` — `PARTIALLY_SUPPORTED`. 昇達科2026年簡報第3頁載「1999年9月成立」與「集團產品：微波&毫米波元件及天線」。惟「台灣唯一（微波／毫米波元件廠）」未獲支持——簡報中「唯一」出現次數為0，亦未以領導廠商或台灣唯一自稱。
+- `3491:objective_ranking_or_market_share:b1519b89f78df062` — `PARTIALLY_SUPPORTED`. 簡報第4頁載低軌道衛星業務（2025年營收佔比59%）之主要客戶為「Amazon Leo / SpaceX / AST SpaceMobile / Intellian」，財務文件第12頁載其深化與 SpaceX、Amazon Kuiper、Eutelsat OneWeb 及 Telesat 之供應鏈關係。惟「SpaceX 為最大客戶」未獲確立：官方文件中「最大客戶」僅出現1次且未具名，其所述發射時程（2025年4月28日首批、2025年6月13日第二批）與 Amazon Leo（Kuiper）之首兩批衛星發射相符，且簡報將 Amazon Leo 列於主要客戶首位。
+- `3558:objective_ranking_or_market_share:b07caacadd76de3a` — `UNKNOWN_AFTER_RESEARCH`. 神準2022年官方簡報第4及9頁載其產品為無線與有線解決方案及企業無線電話、OEM/ODM 占銷售92%，支持其以代工為主；惟全份簡報未出現 Cisco 或 Meraki，亦未具名任何客戶，故客戶身分未獲確立。
+- `3596:objective_ranking_or_market_share:6e94f9bb077f0c5b` 與 `f3bf92f9c38ba724` — `PARTIALLY_SUPPORTED`. 智易114年度年報第5頁載產品涵蓋 5G FWA、Wi-Fi 7 (802.11be)、GPON/XGSPON/ONT、NG-PON2 與 DOCSIS 4.0，第87頁載寬頻固網產品以 DSL IAD、PON 及 Cable Modem 為主，第116頁載「本公司法人董事暨大股東仁寶電腦工業股份有限公司」，支持隸屬仁寶集團與 IAD 產品線。惟「全球最大整合式接取設備 (IAD) 製造商」未獲支持——年報「全球最大」出現次數為0，「領先」多屬期許性用語；「車聯網雷達」亦未見於年報產品敘述。
+- Proposed wording is recorded for the partial claims in `semantic/author-037.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **196 / 1,399**; remaining: **1,203**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 126, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 25. Next pending claim by priority: `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` (海華).
+
 
 
 
