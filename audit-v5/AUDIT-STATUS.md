@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 07:04 UTC
+Updated: 2026-10-06 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,31 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **148 / 1,399**
-- Remaining author review: **1,251**
-- Latest batch: **author-031** (7 claims)
+- Author-reviewed: **156 / 1,399**
+- Remaining author review: **1,243**
+- Latest batch: **author-032** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **38**
-- `PARTIALLY_SUPPORTED`: **91**
+- `ACCEPTED`: **40**
+- `PARTIALLY_SUPPORTED`: **95**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **15**
+- `UNKNOWN_AFTER_RESEARCH`: **17**
 
 ## Latest claim batch
 
-- `9924:objective_ranking_or_market_share:d29232b4aad5a82a` — `PARTIALLY_SUPPORTED`; 福興114年報支持總部位於高雄市岡山區；惟「1957」與「全球最大」出現次數皆為0。
-- `9924:objective_ranking_or_market_share:e6f8af7f9168315b` — `PARTIALLY_SUPPORTED`; 年報第76頁載外銷占93%、其中北美占75%為最大宗；惟「美國終端市佔20%」未載。
-- `2427:objective_ranking_or_market_share:1e603cc94ccc2dc1` — `PARTIALLY_SUPPORTED`; 三商電簡介第27頁載「存提款機市佔第一」、循環功能自動櫃員機在台市占逾七成；惟NCR與Diebold於文件出現0次（載明代理者為飛利浦、IBM、西門子、Omron、Hitachi）。
-- `2427:objective_ranking_or_market_share:626114d027f188f8` — `PARTIALLY_SUPPORTED`; 客戶涵蓋銀行與郵局獲支持；惟「過半」之整體ATM數字未載，2017簡報以銀行A/B/C代號示意。
-- `2427:objective_ranking_or_market_share:1d56a8bd2f1d7f51` — `PARTIALLY_SUPPORTED`; ATM部分獲支持；「外幣兌換機」「智慧繳費機」未見於官方文件。
-- `2433:objective_ranking_or_market_share:326ac8fb4b455e88` — `PARTIALLY_SUPPORTED`; 互盛簡報第6頁載「Acquired agency right for RICOH printers」；惟「最大」「長期」「獨家代理及視訊設備」均未載。
-- `6128:objective_ranking_or_market_share:f350aa9fa22fba0f` — `ACCEPTED`; 上福2018 CSR第6頁載「國內唯一具備碳粉匣及OPC感光鼓精密齒輪研發設計能力的廠商」，第30-32頁載其自行生產相關零件。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-031.json`。未修改發行人報告。
-- Next pending claim by priority: `6593:objective_ranking_or_market_share:bcd8051088ba12eb` (台灣銘板).
+- `6593:objective_ranking_or_market_share:bcd8051088ba12eb`、`b3ba33d575c72e62`、`2b4e80914df0aac2` — `PARTIALLY_SUPPORTED` ×3; 台灣銘板2025簡報第2頁載 RFID 技術與二代悠遊晶片、第10頁載「掌握銀行及票證公司年度合約770萬張」，2017簡報第7頁載「★Mastercard 正式認可」、第17頁載「全球唯二之二代悠遊晶片合格供應商」；惟「台灣前四大發卡銀行」「市佔35%」「美國專利」「Visa」均未載。
+- `6914:objective_ranking_or_market_share:e0e3a03b5e669446` — `ACCEPTED`; 阜爾運通2026法說會第18頁載「就目前主要停車管理公司案場分析，城市車旅目前已居於業界領導位置」。
+- `8342:objective_ranking_or_market_share:acce089189cec438`、`a2f0330b12f64684` — `UNKNOWN_AFTER_RESEARCH` ×2; 益張2025簡報「北美」「市佔」「最大」皆為0次，107年報「北美」僅1次且屬市場環境描述、「市佔」「領導」為0。
+- `2820:objective_ranking_or_market_share:4ea2d7d9b3fa5942` — `PARTIALLY_SUPPORTED`; 華票109年報第7頁載王道商業銀行持股28.36%為最大股東；惟「寶佳集團持股約17%」未載（寶佳僅出現2次且為董事經歷）。
+- `2820:objective_ranking_or_market_share:7eeb0fcbdc78b0fb` — `ACCEPTED`; 同頁載「截至110年3月底王道商業銀行（持股28.36%）仍為華票最大股東」。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-032.json`。未修改發行人報告。
+- Next pending claim by priority: `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` (統一證).
 
 ## Source access
 

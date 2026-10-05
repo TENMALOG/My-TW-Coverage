@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **148 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), and `author-031` (7).
+Author-reviewed: **156 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), and `author-032` (8).
 
-- ACCEPTED by author: 38
-- PARTIALLY_SUPPORTED: 91
+- ACCEPTED by author: 40
+- PARTIALLY_SUPPORTED: 95
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 15
-- Remaining author queue: 1,251
+- Other allowed author decisions: 17
+- Remaining author queue: 1,243
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -372,6 +372,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-031.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **148 / 1,399**; remaining: **1,251**. Outcome counts: ACCEPTED 38, PARTIALLY_SUPPORTED 91, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 15. Next pending claim by priority: `6593:objective_ranking_or_market_share:bcd8051088ba12eb` (台灣銘板).
+
+## Author batch `author-032` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (台灣銘板 6593 ×3, 阜爾運通 6914, 益張 8342 ×2, 華票 2820 ×2). Evidence came from directly downloaded and inspected official disclosures: 台灣銘板2025與2017年官方簡報、阜爾運通2026年法人說明會簡報、益張實業2025年法人說明會簡報與107年度年報、中華票券109年度年報。
+- `6593:objective_ranking_or_market_share:bcd8051088ba12eb` 與其兩個條目 `b3ba33d575c72e62`、`2b4e80914df0aac2` — `PARTIALLY_SUPPORTED`. 台灣銘板2025年簡報第2頁載其開發 RFID 無線射頻識別技術與二代悠遊晶片、提供 IC 晶片錄寫等個人化服務，第10頁載「掌握銀行及票證公司年度合約770萬張」；2017年簡報第7頁載「★Mastercard 正式認可」、第17頁載其為「全球唯二之二代悠遊晶片合格供應商」。惟「台灣前四大發卡銀行」「市佔率高達35%」「獲美國專利」及 Visa 認證均未獲查閱文件支持。
+- `6914:objective_ranking_or_market_share:e0e3a03b5e669446` — `ACCEPTED`. 阜爾運通2026年官方簡報第18頁載「城市車旅普客二四」，並明載「就目前主要停車管理公司案場分析，城市車旅目前已居於業界領導位置」，與 claim 之市占最高／領導地位敘述一致。
+- `8342:objective_ranking_or_market_share:acce089189cec438` 與 `a2f0330b12f64684` — `UNKNOWN_AFTER_RESEARCH`. 益張2025年官方簡報中「北美」「市佔」「市占」「最大」出現次數均為0，僅載金屬展示架與商店／超市展示設備；107年度年報中「北美」僅出現1次且係描述全球金屬製品市場之集中區域，「市佔」「領導」為0。「北美最大商業耗材設備商」既無官方亦無第三方權威來源可確認或否證。
+- `2820:objective_ranking_or_market_share:4ea2d7d9b3fa5942` — `PARTIALLY_SUPPORTED`. 華票109年度年報第7頁載行政院開發基金出售持股後台灣工業銀行（後改制為王道商業銀行）成為最大股東，並載「截至110年3月底王道商業銀行（持股28.36%）仍為華票最（大股東）」；惟「第二大股東為寶佳集團（持股約17%）」未獲支持——年報中「寶佳」僅出現2次且均為董事會成員經歷，未載其持股比例。
+- `2820:objective_ranking_or_market_share:7eeb0fcbdc78b0fb` — `ACCEPTED`. 同頁年報內容直接支持「王道銀行（持股約28%）— 最大股東」。
+- Proposed wording is recorded for the partial claims in `semantic/author-032.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **156 / 1,399**; remaining: **1,243**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 95, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 17. Next pending claim by priority: `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` (統一證).
+
 
 
 
