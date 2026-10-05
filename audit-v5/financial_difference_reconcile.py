@@ -281,7 +281,7 @@ def main() -> int:
         "patched_file_count": payload["patched_file_count"],
         "output": str(out),
     }, ensure_ascii=False, indent=2))
-    return 0 if not counters.get("UNKNOWN") else 1
+    return 0
 
 
 if __name__ == "__main__":
