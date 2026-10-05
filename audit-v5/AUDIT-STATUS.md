@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 19:04 UTC
+Updated: 2026-10-14 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,198 / 1,399**
-- Remaining author review: **201**
-- Latest batch: **author-235** (6 claims)
+- Author-reviewed: **1,204 / 1,399**
+- Remaining author review: **195**
+- Latest batch: **author-236** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **101**
-- `PARTIALLY_SUPPORTED`: **749**
+- `ACCEPTED`: **102**
+- `PARTIALLY_SUPPORTED`: **751**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **343**
+- `UNKNOWN_AFTER_RESEARCH`: **346**
 
 ## Latest claim batch
 
-- `6577:material_named_relationship:f31c724d57d9cdc3` — `PARTIALLY_SUPPORTED`；勁豐簡報「**醫療」9 次**；**惟「病床／Bedside／照護系統」皆 0 次**。
-- ⚠️ `6442:material_named_relationship:f046268bd348d4dc` — `UNKNOWN_AFTER_RESEARCH`；**所取得檔案並非永續報告書，而係官方網站列印稿**（非正式申報文件），「**光被動／多芯／數據傳輸」皆 0 次**。
-- `6456:material_named_relationship:251573f509b34a00` — `UNKNOWN_AFTER_RESEARCH`；GIS-KY簡報為**英文投資人簡報**，「**Apple／iPad／MacBook／觸控／三星」皆 0 次**。
-- `6517:profitability_assertion:6537fc6de89289a3` — `UNKNOWN_AFTER_RESEARCH`；保勝107年度年報「**光學」242 次、「鏡頭」117 次**；**惟「ASML／曝光／半導體」皆 0 次**（**年報為2018年版本**）。
-- `6407:a34e8291ea05e6ae`、`6498:3d1cf43565ca8016` — `UNKNOWN_AFTER_RESEARCH` ×2；相互與久禾光端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-235.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,198 ＝ 條目總數 1,198。
-- Next pending claim by priority: `6609:export_concentration:775f64fef4533de1` (瀧澤科).
+- 🟢 `6742:material_named_relationship:42dab5023428fcce` — **`ACCEPTED`**；澤米簡報「**AR」6 次、「VR」9 次、「光波導」1 次、「LOE」4 次、「鍍膜」38 次**——**逐項對應**。
+- `6668:material_named_relationship:f58eb40c91008287` — `PARTIALLY_SUPPORTED`；中揚光簡報**逐字載**「**Camera to Tier 1**」；**惟「車用／日系／美系」皆 0 次**（**該簡報以英文呈現**）。
+- `6732:material_named_relationship:0ac9c55ccd6c4147` — `PARTIALLY_SUPPORTED`；昇佳簡報「**感測」28 次**；**惟「Samsung／小米／OPPO／Vivo」皆 0 次**。
+- `6672:profitability_assertion:016ba71775adaaf3`、`80c644ca1738e6b5` — `UNKNOWN_AFTER_RESEARCH` ×2；騰輝文件為**股東會議事手冊**，「**軍工／航太／Koito／小糸／電動車／照明」皆 0 次**。
+- `6609:export_concentration:775f64fef4533de1` — `UNKNOWN_AFTER_RESEARCH`；瀧澤科端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-236.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,204 ＝ 條目總數 1,204。
+- Next pending claim by priority: `6756:material_named_relationship:f5fac2b6b5f189a9` (威鋒電子).
 
 ## Source access
 
