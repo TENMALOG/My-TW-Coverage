@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 19:04 UTC
+Updated: 2026-10-15 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,345 / 1,399**
-- Remaining author review: **54**
-- Latest batch: **author-259** (6 claims)
+- Author-reviewed: **1,351 / 1,399**
+- Remaining author review: **48**
+- Latest batch: **author-260** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **106**
-- `PARTIALLY_SUPPORTED`: **812**
+- `PARTIALLY_SUPPORTED`: **814**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **422**
+- `UNKNOWN_AFTER_RESEARCH`: **426**
 
 ## Latest claim batch
 
-- `2464:material_named_relationship:9e1d2ef998dd5538` — `UNKNOWN_AFTER_RESEARCH`；盟立年報「**台積／TSMC／日月光／Micron／美光」皆 0 次**；**「ASE」8 次全為產品編號之一部分（RBASE08 等）——屬子字串誤配**。
-- `2467:material_named_relationship:d2ae3a6f529cd0b0` — `UNKNOWN_AFTER_RESEARCH`；志聖年報「**台積電／日月光／矽品／欣興／南亞電路板」皆 0 次**（**該年報為2007年版本**）。
-- ⚠️ `2476:2563c63c19951a07` — `UNKNOWN_AFTER_RESEARCH`；鉅祥官方端點 **TLS 憑證信任失敗**。
-- `3167:e8863489feb106ed`、`3402:5daa2e03baf70358`、`3485:5c47824a1b241bac` — `UNKNOWN_AFTER_RESEARCH` ×3；大量／漢科／敘豐端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-259.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,345 ＝ 條目總數 1,345。**覆蓋率 96.14%**。
-- Next pending claim by priority: `4566:material_named_relationship:52a67ed63606906d` (時碩工業).
+- `4590:material_named_relationship:25785b421b7f620c` — `PARTIALLY_SUPPORTED`；富田年報「**馬達」197 次、「特斯拉」2 次**；**惟「獨家」0 次，且「15年」2 次之上下文為「115年06月29日」與「ISO14001：2015年版」——屬子字串誤配**。
+- `8996:material_named_relationship:c5043cc84b2f2ef8` — `PARTIALLY_SUPPORTED`；高力新聞稿「**液冷」3 次、「散熱」1 次**；**惟「AI 伺服器／50%／三位數」皆 0 次**（**文件為新聞稿**）。
+- ⚠️ `4566:52a67ed63606906d`、`fa2a1362aff34e3b` — `UNKNOWN_AFTER_RESEARCH` ×2；時碩所取得之「年報」實為**該站「頁面無法取得」錯誤頁**（**非文件回應**）。
+- `4568:a65538f94693cd90`、`8927:0ed472edc9669c94` — `UNKNOWN_AFTER_RESEARCH` ×2；科際精密與北基端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-260.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,351 ＝ 條目總數 1,351。**覆蓋率 96.57%**。
+- Next pending claim by priority: `2032:material_named_relationship:07b1081fc81ce402` (新鋼).
 
 ## Source access
 

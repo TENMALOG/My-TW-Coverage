@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:25:46Z",
+  "generated_at": "2026-10-05T23:26:57Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -262,18 +262,19 @@
     "author-256",
     "author-257",
     "author-258",
-    "author-259"
+    "author-259",
+    "author-260"
   ],
-  "source_batch_count": 259,
-  "total_unknown": 422,
+  "source_batch_count": 260,
+  "total_unknown": 426,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 199,
+    "no_official_endpoint_found": 201,
     "other_unclassified": 153,
     "tls_failure": 16,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 121,
-    "image_only_or_tiny_text": 18,
+    "http_404": 123,
+    "image_only_or_tiny_text": 20,
     "http_403": 16,
     "connection_failure": 16,
     "garbled_text_layer": 18,
@@ -6449,6 +6450,64 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/348520250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4566:material_named_relationship:52a67ed63606906d",
+      "ticker": "4566",
+      "company": "時碩工業",
+      "claim": "近年打入[[BYD]]安全氣囊供應鏈。",
+      "batch_id": "author-260",
+      "failure_signature": [
+        "image_only_or_tiny_text"
+      ],
+      "attempted_sources": [
+        "http://www.globaltek.com.tw/wp-content/uploads/2023/06/112年股東常會年報.pdf"
+      ],
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "4566:control_acquisition:fa2a1362aff34e3b",
+      "ticker": "4566",
+      "company": "時碩工業",
+      "claim": "完成無錫廠100%收購。",
+      "batch_id": "author-260",
+      "failure_signature": [
+        "image_only_or_tiny_text"
+      ],
+      "attempted_sources": [
+        "http://www.globaltek.com.tw/wp-content/uploads/2023/06/112年股東常會年報.pdf"
+      ],
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "4568:material_named_relationship:a65538f94693cd90",
+      "ticker": "4568",
+      "company": "科際精密",
+      "claim": "產品應用：(1) 汽車座椅舒適系統 — 供應[[Alfmeier]]、[[Faurecia]]、[[Continental]]，打入[[Porsche]]、[[Volkswagen]]、[[Bentley]]、[[Geely]]等車廠供應鏈；",
+      "batch_id": "author-260",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/456820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8927:identity_changing_event:0ed472edc9669c94",
+      "ticker": "8927",
+      "company": "北基",
+      "claim": "(3) 綠色能源：透過子公司 [[三地能源]] 積極投入太陽光電、[[儲能]]、[[EV 充電]] 及售電服務，並規劃將儲能事業群分割成立「嘉佑能源」以提升專業分工。",
+      "batch_id": "author-260",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/892720250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

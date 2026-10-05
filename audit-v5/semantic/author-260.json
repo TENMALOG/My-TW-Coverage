@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-260",
+  "reviewed_at": "2026-10-05T23:26:43Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (富田112年度年報; 高力112法說會新聞稿); 時碩所取得檔案為網站錯誤頁; 科際精密與北基端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "4590:material_named_relationship:25785b421b7f620c",
+      "normalized_claim_hash": "25785b421b7f620c81f0c5821f60bb917c08b7d2422802afe45bacf14b118e1d",
+      "ticker": "4590",
+      "company": "富田-創",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4590_富田-創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Tesla]]創立初期獨家馬達供應商 (合作逾 15 年，[[Tesla]] 最資深供應商)，曾將 180KW 馬達從 400+ 公斤降至 60 公斤。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.fukuta-motor.com.tw/UserFiles/investor_pdf/112_annual_report.pdf",
+          "title": "富田電機股份有限公司（富田-創，4590，FUKUTA）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取189,951字元）。年報中「**馬達**」出現197次、「**特斯拉**」2次（如「**特斯拉**旗下的 Model Y 在2023年正式改寫歷史」「**特斯拉**持續主導美國電動車市場」），**支持其電動車馬達業務及與特斯拉之市場關聯**。**關鍵發現（數字之歸屬）**：「**15年**」出現2次，**惟其上下文分別為「本屆委員任期：112年06月30日至115年06月29日」與「ISO14001：2015年版」**——**均與合作年數無關**；「**獨家**」與「最資深」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[Tesla]]**…**馬達**（供應商）」獲發行人年報之**部分支持**：年報中「**馬達**」出現197次、「**特斯拉**」2次（「**特斯拉**旗下的 Model Y 在2023年正式改寫歷史」「**特斯拉**持續主導美國電動車市場」），**支持其電動車馬達業務及與特斯拉之市場關聯**。**惟三項陳述未獲支持**：(1)「[[Tesla]] **創立初期獨家**馬達供應商」——「**獨家**」之出現次數**為0**（「創立」2次之上下文未與此關聯）；(2)「合作逾 **15 年**」——**「15年」2次之上下文分別為「本屆委員任期：112年06月30日至115年06月29日」與「ISO14001：2015年版」，均與合作年數無關**（**屬子字串之誤配**）；(3)「Tesla **最資深**供應商」——「最資深」為**0**。故部分成立。",
+      "proposed_text": "富田電機 (4590，FUKUTA) 為電動車馬達廠商，與特斯拉之市場具關聯。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8996:material_named_relationship:c5043cc84b2f2ef8",
+      "normalized_claim_hash": "c5043cc84b2f2ef84495db47d1e608f0b67a1a019cea896840ca454b7f3299f9",
+      "ticker": "8996",
+      "company": "高力",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/8996_高力.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) [[AI 伺服器]][[液冷]]散熱方案 (約 50% 營收，三位數成長) — 供應[[奇鋐]]、[[雙鴻]]、[[台達電]]等散熱模組廠；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kaori.com.tw/tw/uploads/filelist/1000/2/1697093675_dc80eed7982ba09c.pdf",
+          "title": "高力熱處理工業股份有限公司（高力，8996，Kaori）一一二年法人說明會新聞稿",
+          "source_level": 3,
+          "period_binding": "民國112年。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取2,067字元，**文件為法人說明會新聞稿，可供檢索之文字有限**）。文中「**液冷**」出現3次、「**散熱**」1次，**支持其液冷散熱業務**。**關鍵發現**：全份文件中「**AI 伺服器**」「**50%**」與「三位數」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[AI 伺服器]] [[液冷]] 散熱**方案」獲發行人文件之**部分支持**：法人說明會新聞稿中「**液冷**」出現3次、「**散熱**」1次，**支持其液冷散熱業務**。**惟兩項陳述未獲支持**：(1)「約 **50% 營收**」——「50%」之出現次數**為0**；(2)「**三位數成長**」——該字樣**未見**；(3)「[[AI 伺服器]]」之字樣亦**未見**。故部分成立。**文件性質註記**：本件為**法人說明會新聞稿**，可供檢索之文字僅2,067字元；**建議改由年報或完整簡報複核**。",
+      "proposed_text": "高力熱處理 (8996，Kaori) 之業務涵蓋液冷散熱。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4566:material_named_relationship:52a67ed63606906d",
+      "normalized_claim_hash": "52a67ed63606906db66ae2c54e4e2dbff8722a9f7aabd8a92a08f85b10f39e8f",
+      "ticker": "4566",
+      "company": "時碩工業",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4566_時碩工業.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年打入[[BYD]]安全氣囊供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.globaltek.com.tw/wp-content/uploads/2023/06/112年股東常會年報.pdf",
+          "title": "時碩工業股份有限公司（時碩工業，4566，Globaltek）所取得檔案（查證限制：網站錯誤頁）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次自發行人官方網域所取得之檔案（23,668 bytes，文字擷取僅1,010字元）**並非年報，而係該網站自身之「頁面無法取得」錯誤頁**——文中載「**抱歉，這個頁面無法取得** 你點擊進來的連結可能發生問題，或該頁面已被移除。回首頁」，其餘內容為該站之**導覽選單**（「關於時碩」「產品研發」「全球運籌」「技術品質」「永續發展」等）。**屬非文件回應（non_document_response）**；全份未見「**BYD**」「**比亞迪**」「**安全氣囊**」「**無錫**」與「100%」等 claim 相關詞彙。"
+        }
+      ],
+      "rationale": "「近年打入 **[[BYD]]** **安全氣囊**供應鏈」未獲確立：本批次自發行人官方網域所取得之檔案**並非年報，而係該網站自身之「頁面無法取得」錯誤頁**（文中載「**抱歉，這個頁面無法取得** 你點擊進來的連結可能發生問題，或該頁面已被移除」），**屬非文件回應**；全份未見「BYD」「比亞迪」「安全氣囊」等詞彙。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由 MOPS 端點或該公司其他年度之官方文件重查**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4566:control_acquisition:fa2a1362aff34e3b",
+      "normalized_claim_hash": "fa2a1362aff34e3b2bc238e6fee6b023a35ee57082f0e8c96ce10df1df310463",
+      "ticker": "4566",
+      "company": "時碩工業",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4566_時碩工業.md",
+      "signal_type": "control_acquisition",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "完成無錫廠100%收購。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.globaltek.com.tw/wp-content/uploads/2023/06/112年股東常會年報.pdf",
+          "title": "時碩工業股份有限公司（時碩工業，4566，Globaltek）所取得檔案（查證限制：網站錯誤頁）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次自發行人官方網域所取得之檔案（23,668 bytes，文字擷取僅1,010字元）**並非年報，而係該網站自身之「頁面無法取得」錯誤頁**——文中載「**抱歉，這個頁面無法取得** 你點擊進來的連結可能發生問題，或該頁面已被移除。回首頁」，其餘內容為該站之**導覽選單**（「關於時碩」「產品研發」「全球運籌」「技術品質」「永續發展」等）。**屬非文件回應（non_document_response）**；全份未見「**BYD**」「**比亞迪**」「**安全氣囊**」「**無錫**」與「100%」等 claim 相關詞彙。"
+        }
+      ],
+      "rationale": "「完成**無錫廠100%收購**」未獲確立：同上，本批次所取得之檔案為**網站錯誤頁**（非文件），未取得可檢視之年報內容；故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4568:material_named_relationship:a65538f94693cd90",
+      "normalized_claim_hash": "a65538f94693cd900bb05c0ca7396d2268b51021f32f656b1e98d5f5d6094d39",
+      "ticker": "4568",
+      "company": "科際精密",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4568_科際精密.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品應用：(1) 汽車座椅舒適系統 — 供應[[Alfmeier]]、[[Faurecia]]、[[Continental]]，打入[[Porsche]]、[[Volkswagen]]、[[Bentley]]、[[Geely]]等車廠供應鏈；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/456820250401M001.pdf",
+          "title": "科際精密（4568）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之科際精密端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得科際精密可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) **汽車座椅舒適系統** — 供應 **[[Alfmeier]]**、**[[Faurecia]]**（等 Tier 1）」未獲確立：本批次所嘗試之科際精密端點回應 **HTTP 404**，未取得可檢視之檔案（檢索所見之 Alfmeier 文件係該德國公司自身之報告，**非科際精密之官方文件**），以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8927:identity_changing_event:0ed472edc9669c94",
+      "normalized_claim_hash": "0ed472edc9669c94f569783650cdf14afb1582e9e9d26c8d32f4c103c770307f",
+      "ticker": "8927",
+      "company": "北基",
+      "path": "Pilot_Reports/Specialty Retail/8927_北基.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 綠色能源：透過子公司 [[三地能源]] 積極投入太陽光電、[[儲能]]、[[EV 充電]] 及售電服務，並規劃將儲能事業群分割成立「嘉佑能源」以提升專業分工。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/892720250401M001.pdf",
+          "title": "北基國際（8927）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之北基國際端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得北基國際可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(3) **綠色能源**：透過子公司 **[[三地能源]]** 積極投入**太陽光電**、**[[儲能]]**、[[EV（充電）]]」未獲確立：本批次所嘗試之北基端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
