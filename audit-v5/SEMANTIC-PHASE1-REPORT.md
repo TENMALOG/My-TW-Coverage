@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **556 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), and `author-094` (8).
+Author-reviewed: **564 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), and `author-095` (8).
 
 - ACCEPTED by author: 75
-- PARTIALLY_SUPPORTED: 364
+- PARTIALLY_SUPPORTED: 370
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 113
-- Remaining author queue: 843
+- Other allowed author decisions: 115
+- Remaining author queue: 835
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1119,6 +1119,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **113 筆**。
 - Author-reviewed total: **556 / 1,399**; remaining: **843**. Outcome counts: ACCEPTED 75, PARTIALLY_SUPPORTED 364, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 113. Next pending claim by priority: `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` (復盛應用).
+
+## Author batch `author-095` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (復盛應用 6670, 波力-KY 8467 ×3, 美利達 9914 ×2, 巨大 9921 ×2). Evidence came from directly downloaded and inspected official disclosures: 復盛應用2022年永續報告書、波力-KY 111年度年報、美利達2025年8月法人說明會簡報。
+- `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` — `PARTIALLY_SUPPORTED`. 復盛應用2022年永續報告書載「（本公司）成立於1989年，為**全球最大之高爾夫球桿頭生產據點**」與「復盛應用身為**全球最大之高爾夫球桿頭製造商**」（「全球最大」2次、「桿頭」24次），與 claim 之核心地位相符；惟「在全球中高階球桿頭市場佔有率**高達五成以上**」未獲支持——全份報告書中「五成」「市占」「市佔」**均為0次**，且「50%」1次之上下文為**供應商季度考核之D類佔比**（「D 類佔比5%以下」），**非市占率**（數字脫離語意）。
+- `8467:objective_ranking_or_market_share:48dd1d22ba83c457` — `PARTIALLY_SUPPORTED`. 波力-KY 111年度年報載「A公司是目前**全球最大曲棍球品牌**」，並載「品質持續提升與交貨準確度促使其**全球市占率自2005年8%穩定成長至50%**」，另段具名「與主要客戶 **Bauer Hockey** 合作逾十年」（「Bauer」2次）；惟「在高階冰球桿市場市佔率**已超過 50%**」未獲精確支持（官方為「成長**至** 50%」，且未以「高階」界定該市場）。**註記：年報部分段落將該客戶匿名為「A公司」，另一段落則具名 Bauer Hockey。**
+- `8467:objective_ranking_or_market_share:9a6071b2054ff71b` 與 `5b5b16a8a12e4d56` — `PARTIALLY_SUPPORTED`. 代工關係與「頭盔」2次成立；惟「**最大客戶**」出現次數為0（官方僅稱「主要客戶」），「高階市佔逾50%」亦如上述未獲精確支持。
+- `9914:objective_ranking_or_market_share:6f51a2c9276ae36b` 與 `f9ee3f3ed9072675` — `PARTIALLY_SUPPORTED`. 美利達2025年8月官方簡報載「**歐洲是主要市場**(Europe is the（…）)」及「台灣廠銷往歐洲市場的車款比例」「歐洲市場銷售成長」（「歐洲」4次）；惟「（**最大市場**）」未獲支持（「最大市場」0次，官方語為「主要市場」）。
+- `9921:objective_ranking_or_market_share:53af3876a9921e62` 與 `c46e30a478d1a6f2` — `UNKNOWN_AFTER_RESEARCH`. 本批次就巨大（9921）嘗試三個官方端點（109年報、112年報與 MOPS 之 2024法人說明會簡報），**三者均回應 HTTP 404**，未取得可檢視之官方文件。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **115 筆**。
+- Author-reviewed total: **564 / 1,399**; remaining: **835**. Outcome counts: ACCEPTED 75, PARTIALLY_SUPPORTED 370, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 115. Next pending claim by priority: `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` (科定).
+
 
 
 

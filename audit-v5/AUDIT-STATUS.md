@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 22:04 UTC
+Updated: 2026-10-08 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **556 / 1,399**
-- Remaining author review: **843**
-- Latest batch: **author-094** (8 claims)
+- Author-reviewed: **564 / 1,399**
+- Remaining author review: **835**
+- Latest batch: **author-095** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **75**
-- `PARTIALLY_SUPPORTED`: **364**
+- `PARTIALLY_SUPPORTED`: **370**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **113**
+- `UNKNOWN_AFTER_RESEARCH`: **115**
 
 ## Latest claim batch
 
-- `1432:objective_ranking_or_market_share:308460c572bff85d` — `PARTIALLY_SUPPORTED`；大魯閣年報載「壘球打擊場，**4 家保齡球館**、1 家卡丁車場、3 家『Roller 186 滑輪場』…」與「為**台灣最大的運動休閒場館經營者之一**」（棒壘球6次、打擊場14次）；惟「唯一」0次、「12座」0次，且官方用語含「**之一**」。
-- `1515:objective_ranking_or_market_share:5787037fd7c3cb1b`、`e690fdc93cc165d0` — `UNKNOWN_AFTER_RESEARCH` ×2；力山簡報文字擷取**僅2,124字元**，Peloton／Life Fitness／Precor／Technogym／「最大」皆0次。
-- `1598:objective_ranking_or_market_share:e02e4b48f7e5db2a` — `UNKNOWN_AFTER_RESEARCH`；岱宇官方年報端點回應 **HTTP 404**。
-- `1736:objective_ranking_or_market_share:6ff73dcc29c7c647` — `UNKNOWN_AFTER_RESEARCH`；喬山簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
-- `2762:objective_ranking_or_market_share:d7e0098f0ada0257` — `PARTIALLY_SUPPORTED`；世界健身議事錄載2024年掛牌上市與完成收購美國 World Gym International；惟「市佔」「45萬」「100間」皆0次（「第一」4次為「第一季」「第一審」）。
-- `4536:objective_ranking_or_market_share:7dac44f797d7d0a3`、`a33703172baf7eba` — `PARTIALLY_SUPPORTED` ×2；拓凱簡報（英文版）載「tennis racket」沿革與「bike and helmet」多元業務，Wilson／Babolat 各1次；惟「largest」「leading」「world」「No.1」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-094.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` (復盛應用).
+- `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` — `PARTIALLY_SUPPORTED`；復盛2022永續報告載「為**全球最大之高爾夫球桿頭生產據點**」與「復盛應用身為**全球最大之高爾夫球桿頭製造商**」（全球最大2次、桿頭24次）；惟「五成」「市占」皆0次，且「50%」1次係**供應商季度考核之D類佔比**。
+- `8467:objective_ranking_or_market_share:48dd1d22ba83c457` — `PARTIALLY_SUPPORTED`；波力111年報載「A公司是目前**全球最大曲棍球品牌**」與「**全球市占率自2005年8%穩定成長至50%**」，並具名「與主要客戶 **Bauer Hockey** 合作逾十年」；惟官方為「成長**至**50%」而非「超過50%」，且未以「高階」界定。
+- `8467:objective_ranking_or_market_share:9a6071b2054ff71b`、`5b5b16a8a12e4d56` — `PARTIALLY_SUPPORTED` ×2；代工關係與「頭盔」2次成立；惟「**最大客戶**」0次（官方僅稱「主要客戶」）。
+- `9914:objective_ranking_or_market_share:6f51a2c9276ae36b`、`f9ee3f3ed9072675` — `PARTIALLY_SUPPORTED` ×2；美利達2025簡報載「**歐洲是主要市場**」（歐洲4次）；惟「**最大市場**」0次。
+- `9921:objective_ranking_or_market_share:53af3876a9921e62`、`c46e30a478d1a6f2` — `UNKNOWN_AFTER_RESEARCH` ×2；巨大三個官方端點（109年報、112年報、MOPS 2024簡報）**均回應HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-095.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` (科定).
 
 ## Source access
 
