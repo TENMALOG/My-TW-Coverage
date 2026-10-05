@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 10:04 UTC
+Updated: 2026-10-12 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **958 / 1,399**
-- Remaining author review: **441**
-- Latest batch: **author-178** (5 claims)
+- Author-reviewed: **960 / 1,399**
+- Remaining author review: **439**
+- Latest batch: **author-179** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **623**
+- `PARTIALLY_SUPPORTED`: **625**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2610:material_named_relationship:2e40073714d0a5be` — `UNKNOWN_AFTER_RESEARCH`；華航官方年報端點 **HTTP 403**。
-- `2646:material_named_relationship:bb36b2baf871ecc0`、`2646:export_concentration:3f957a41898c043c` — `UNKNOWN_AFTER_RESEARCH` ×2；星宇文件「AI 伺服器」「北美」「72%」皆0次（且為**2022年版本，早於貨運業務**）。
-- `2646:material_named_relationship:2da1bdd0a02eaff8` — `PARTIALLY_SUPPORTED`；文件載「引進**A321neo**、**A330-900neo**及**A350-900**三種新世代機種」；惟「**Airbus」0 次**、「A330neo」（文件作 A330-900neo）、「A350-1000」「A350F」「獨家」皆0次。
-- `8942:material_named_relationship:3ed45ecdbb814b9b` — `UNKNOWN_AFTER_RESEARCH`；森鉅文件為 **101年度年報（2012年）**，「北美」「拖車」及五家拖車廠名稱皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-178.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `4558:material_named_relationship:bd9a41e2bb96675f` (寶緯).
+- `4558:material_named_relationship:bd9a41e2bb96675f` — `PARTIALLY_SUPPORTED`；寶緯簡報載「**進入半導體產業供應鏈**」「**-半導體軌道**」（半導體4次、軌道2次、鋁擠3次）；惟「**無塵室」0 次、「天車」0 次、「台積電」0 次**。
+- `6175:material_named_relationship:08af81112ac77be6` — `PARTIALLY_SUPPORTED`；立敦**英文年報**「**foil」153 次、「etch」37 次**支持電蝕鋁箔業務；惟「**Sunshine／Dongyang／joint venture／self-supply」皆 0 次**（未載東陽光合資關係與自給率）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-179.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `1315:material_named_relationship:c0ee757c6cd7ab74` (達新).
 
 ## Source access
 

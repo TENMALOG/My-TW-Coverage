@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-179",
+  "reviewed_at": "2026-10-05T21:37:52Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (寶緯法人說明會簡報; 立敦2025英文年報)",
+  "items": [
+    {
+      "claim_id": "4558:material_named_relationship:bd9a41e2bb96675f",
+      "normalized_claim_hash": "bd9a41e2bb96675fd0774cc396a715a2798ba4a548a77d348a54b7e4c1116bdb",
+      "ticker": "4558",
+      "company": "寶緯",
+      "path": "Pilot_Reports/Aluminum/4558_寶緯.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品應用跨越：(1) 半導體設備 — 供應晶圓廠無塵室天車軌道與結構件，精度要求極高 (刮痕累積粉塵影響良率)，終端客戶包含[[台積電]]；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/455820250522M001.pdf",
+          "title": "寶緯工業股份有限公司（寶緯，4558，Baowei）法人說明會簡報（2025-05-22）",
+          "source_level": 3,
+          "period_binding": "2025年5月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,806字元，以圖形排版為主）。簡報載「主要產品:**鋁擠型**、鋁陽極、鋁門窗、鋁鍛造、CNC加工」「投入擠型機生產**鋁擠型**製品」「**進入半導體產業供應鏈**」與「**-半導體軌道**」（「**半導體**」4次、「**軌道**」2次、「**鋁擠**」3次），支持其鋁擠型業務及**進入半導體供應鏈（含軌道項目）**之敘述。全份簡報中「**無塵室**」「**天車**」與「**台積電**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「產品應用於**半導體設備**，供應包含**軌道**之項目」獲發行人簡報支持：簡報載「主要產品:**鋁擠型**…」「**進入半導體產業供應鏈**」與「**-半導體軌道**」（「**半導體**」4次、「**軌道**」2次、「**鋁擠**」3次）。惟三項陳述未獲支持：(1)「晶圓廠**無塵室**」——「無塵室」出現次數為**0**；(2)「**天車**軌道」——「**天車**」為**0**；(3)「終端客戶包含[[台積電]]」——「**台積電**」為**0**。故部分成立（並註記該簡報文字擷取僅4,806字元，以圖形排版為主）。",
+      "proposed_text": "寶緯工業 (4558，Baowei) 生產鋁擠型製品，並供應半導體產業之軌道等項目。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6175:material_named_relationship:08af81112ac77be6",
+      "normalized_claim_hash": "08af81112ac77be69d4f4a6057b9bff8f991a43442f1939698b214cc99d88f95",
+      "ticker": "6175",
+      "company": "立敦",
+      "path": "Pilot_Reports/Aluminum/6175_立敦.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "透過與[[東陽光]]合資之[[立東電子]]，電蝕鋁箔自給率已達 70%，大幅降低對日本供應商之依賴。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.liton.com.tw/message/data/LITONsystem2026529153238.pdf",
+          "title": "立敦科技股份有限公司（立敦，6175，LITON TECHNOLOGY CORP.）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年5月8日（2025 Annual Report）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取225,645字元）。年報中「**foil**」出現153次、「**etch**」37次，並載「**electrode foil** industry」「expanded low-voltage foil production capacity」，**充分支持其電蝕鋁箔（electrode foil）業務**（「LITON」26次確認文件歸屬）。**關鍵發現**：全份年報中「**Sunshine**」「**Dongyang**」「**joint venture**」與「**self-supply**」之出現次數**均為0**——未載與「東陽光」之合資關係或自給率之敘述；「70%」1次之上下文亦非自給率。中文關鍵字（立敦、鋁箔、電蝕、東陽光、自給）**除英文名外均為0**。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「從事[[電蝕鋁箔]]業務」獲發行人年報**充分支持**：年報（**英文版**）中「**foil**」出現153次、「**etch**」37次，並載「**electrode foil** industry」「expanded low-voltage **foil** production capacity」，支持其電蝕鋁箔業務。惟三項陳述未獲支持：(1)「透過與[[東陽光]]合資之[[立東電子]]」——「**Sunshine**」「**Dongyang**」與「**joint venture**」之出現次數**均為0**，未載該合資關係或合資公司名稱；(2)「自給率已達 **70%**」——「**self-supply**」為0（「70%」1次之上下文非自給率）。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "立敦科技 (6175，LITON TECHNOLOGY CORP.) 從事電蝕鋁箔（electrode foil）業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
