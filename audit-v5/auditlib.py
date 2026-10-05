@@ -22,11 +22,18 @@ BANNED_GENERIC_WIKILINKS = {
     "大廠", "供應商", "客戶", "廠商", "原廠", "經銷商", "製造商", "業者", "企業", "公司"
 }
 HIGH_RISK_TERMS = (
-    "最大", "第一", "唯一", "領先", "高毛利", "獲利引擎", "核心獲利", "市占", "市佔",
-    "主要客戶", "主要供應商", "打入", "出貨", "出口", "併購", "合併", "分割", "下市", "改名",
+    "最大", "第一", "唯一", "領先", "龍頭", "高毛利", "獲利引擎", "核心獲利", "主要獲利",
+    "市占", "市佔", "主要客戶", "主要供應商", "打入", "出貨", "併購", "收購", "合併",
+    "分割", "下市", "改名",
 )
 MEDIUM_RISK_TERMS = (
-    "主要產品", "產能", "應用", "策略", "總部", "地址", "市場定位", "合作", "產品組合", "供應鏈",
+    "主要產品", "產能", "應用", "策略", "總部", "地址", "市場定位", "合作", "產品組合",
+    "供應鏈", "出口", "外銷",
+)
+
+GEOGRAPHY_TERMS = (
+    "美國", "中國", "日本", "韓國", "歐洲", "歐盟", "東南亞", "印度", "越南", "泰國", "墨西哥",
+    "北美", "南美", "亞洲", "中東", "澳洲", "德國", "法國", "英國",
 )
 
 ATOMIC_STATUSES = {
@@ -152,15 +159,109 @@ def _title_identity(text: str) -> tuple[str | None, str | None]:
     return ticker, company
 
 
+def _narrative_risk_text(text: str) -> str:
+    """Return only narrative sections that can contain semantic business claims."""
+    sections = _parse_sections(text)
+    bodies = []
+    for name in ("業務簡介", "供應鏈位置", "主要客戶及供應商"):
+        body = _section_body(sections, name)
+        if body:
+            bodies.append(body)
+    return "\n".join(bodies)
+
+
+def _claim_lines(text: str) -> list[str]:
+    """Split narrative text into claim-like lines/sentences, excluding labels/tables/metadata."""
+    claims: list[str] = []
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or line.startswith("|"):
+            continue
+        line = re.sub(r"^[-*+]\s+", "", line)
+        # Remove a leading bold label (e.g. **主要客戶:**), but keep any factual tail.
+        line = re.sub(r"^\*\*[^*]+:\*\*\s*", "", line)
+        if not line:
+            continue
+        for part in re.split(r"(?<=[。；！？!?])\s*", line):
+            part = part.strip()
+            if part:
+                claims.append(part)
+    return claims
+
+
+def _has_named_entity(claim: str) -> bool:
+    # Wikilinks are the project's strongest deterministic proxy for named entities.
+    return bool(re.search(r"\[\[[^\]]+\]\]", claim))
+
+
+def risk_signals(text: str) -> list[dict[str, str]]:
+    """Extract calibrated semantic risk signals from narrative claims."""
+    signals: list[dict[str, str]] = []
+    for claim in _claim_lines(text):
+        normalized = re.sub(r"\s+", " ", claim).strip()
+
+        # Ranking / market-position assertions.
+        if re.search(r"(?:全球|世界|台灣|國內|亞洲|業界|市場)?(?:最大|第一|唯一|領先|龍頭)", normalized) or re.search(r"市[占佔](?:率)?", normalized):
+            signals.append({"level": "HIGH", "type": "ranking_or_market_share", "claim": normalized})
+            continue
+
+        # Profitability / earnings-contribution assertions.
+        if re.search(r"(?:高毛利|獲利引擎|核心獲利|主要獲利|主要獲利來源|成長引擎)", normalized):
+            signals.append({"level": "HIGH", "type": "profitability_assertion", "claim": normalized})
+            continue
+
+        # Material corporate-history events.
+        if re.search(r"(?:併購|收購|合併|分割|下市|改名|更名)", normalized):
+            signals.append({"level": "HIGH", "type": "corporate_event", "claim": normalized})
+            continue
+
+        # Named customer/supplier/commercial relationships. A relationship word alone
+        # is not enough; require a named entity in the same claim.
+        relation = re.search(
+            r"(?:主要客戶|主要供應商|客戶包括|客戶為|供應商包括|供應商為|"
+            r"向.+採購|採購自|供應(?:給|予|商)?|出貨(?:給|予|至)?|打入.+供應鏈|"
+            r"成為.+供應商|Design[- ]?in)",
+            normalized,
+            flags=re.IGNORECASE,
+        )
+        if relation and _has_named_entity(normalized):
+            signals.append({"level": "HIGH", "type": "named_commercial_relationship", "claim": normalized})
+            continue
+
+        # Export assertions become HIGH only when a concrete geography or percentage is asserted.
+        if re.search(r"(?:出口|外銷)", normalized):
+            if any(term in normalized for term in GEOGRAPHY_TERMS) or re.search(r"\d+(?:\.\d+)?\s*%", normalized):
+                signals.append({"level": "HIGH", "type": "specific_export_assertion", "claim": normalized})
+            else:
+                signals.append({"level": "MEDIUM", "type": "generic_export", "claim": normalized})
+            continue
+
+        # General dynamic business assertions remain MEDIUM.
+        medium_patterns = (
+            r"主要產品", r"產能", r"應用", r"策略", r"總部", r"地址",
+            r"市場定位", r"合作", r"產品組合", r"供應鏈",
+        )
+        if any(re.search(p, normalized) for p in medium_patterns):
+            signals.append({"level": "MEDIUM", "type": "dynamic_business_claim", "claim": normalized})
+
+    return signals
+
+
 def classify_risk(text: str, extra_reasons: Iterable[str] = ()) -> tuple[str, list[str]]:
     reasons = list(extra_reasons)
-    high = [term for term in HIGH_RISK_TERMS if term in text]
-    medium = [term for term in MEDIUM_RISK_TERMS if term in text]
-    if high:
-        reasons.extend(f"high-impact-term:{term}" for term in high)
-    if medium:
-        reasons.extend(f"medium-term:{term}" for term in medium)
-    if high or any(r.startswith("identity-") or r.startswith("financial-") for r in reasons):
+    signals = risk_signals(text)
+    high = [s for s in signals if s["level"] == "HIGH"]
+    medium = [s for s in signals if s["level"] == "MEDIUM"]
+
+    reasons.extend(f'high-signal:{s["type"]}' for s in high)
+    reasons.extend(f'medium-signal:{s["type"]}' for s in medium)
+
+    if high or any(
+        r.startswith("identity-")
+        or r.startswith("financial-")
+        or r.startswith("structure-missing:")
+        for r in reasons
+    ):
         return "HIGH", sorted(set(reasons))
     if medium or reasons:
         return "MEDIUM", sorted(set(reasons))
@@ -251,12 +352,7 @@ def scan_report(path: Path) -> ReportScan:
         checks.append(Check("content.duplicate_paragraph", "NEEDS_MODEL_REVIEW", "偵測到完全重複的長段落", "warning", {"hashes": sorted(set(duplicates))}))
         risk_reasons.append("duplicate-paragraph")
 
-    risk_input = "\n".join(
-        line for line in text.splitlines()
-        if not line.lstrip().startswith("#")
-        and not re.match(r"^\s*\*\*[^*]+:\*\*", line)
-        and not line.lstrip().startswith("|")
-    )
+    risk_input = _narrative_risk_text(text)
     risk_class, risk_reasons = classify_risk(risk_input, risk_reasons)
     return ReportScan(
         path=str(path), ticker=file_ticker or title_ticker, company=file_company or title_company,

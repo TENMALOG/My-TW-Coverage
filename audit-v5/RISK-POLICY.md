@@ -22,3 +22,20 @@ Narrative claims should also be tagged:
 - `PERIOD_SCOPED`: claims explicitly tied to a reporting period.
 - `DYNAMIC`: current products/capacity/customer/supplier/strategy facts.
 - `HIGH_IMPACT_ASSERTION`: ranking, profitability, market share or named commercial relationship assertions requiring stronger evidence.
+
+
+## Calibration v2 — claim-level HIGH classification
+
+Issuer-level HIGH is now derived from claim-level signals inside narrative sections only. Headings, metadata and financial tables cannot create semantic HIGH.
+
+HIGH requires at least one of:
+
+- explicit ranking/market-share assertion (e.g. largest, first, only, leader, market share);
+- profitability/earnings-contribution assertion (e.g. high margin, profit engine);
+- material corporate event (M&A, acquisition, split, delisting, renaming);
+- named commercial relationship where the same claim contains both a customer/supplier/ship-to/procurement relation and a named entity;
+- export assertion tied to a concrete geography or percentage.
+
+Generic export language, generic supply-chain language and other dynamic business descriptions are MEDIUM.
+
+This calibration intentionally optimizes precision over recall at the issuer HIGH level: borderline cases stay MEDIUM and may still be sampled or escalated later.

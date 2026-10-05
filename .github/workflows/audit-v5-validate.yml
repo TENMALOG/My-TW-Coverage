@@ -49,6 +49,12 @@ jobs:
             --root Pilot_Reports \
             --output audit-v5/work/machine-gate.json
 
+      - name: Run risk calibration
+        run: |
+          PYTHONPATH=audit-v5 python -X utf8 audit-v5/risk_calibration.py \
+            --root Pilot_Reports \
+            --output audit-v5/generated/risk-calibration.json
+
       - name: Build fresh GitHub baseline and summary
         run: |
           python -X utf8 audit-v5/bootstrap.py \
@@ -74,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit-v5/generated/github-baseline.json audit-v5/generated/audit-summary.json
+          git add audit-v5/generated/github-baseline.json audit-v5/generated/audit-summary.json audit-v5/generated/risk-calibration.json
           if git diff --cached --quiet; then
             echo "No validation summary changes."
           else
