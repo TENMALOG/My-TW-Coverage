@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-231",
+  "reviewed_at": "2026-10-05T22:45:19Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台興法人說明會簡報; 光頡2021年永續報告書; 聯嘉112年度年報)",
+  "items": [
+    {
+      "claim_id": "3624:material_named_relationship:ac1a104f423eebd9",
+      "normalized_claim_hash": "ac1a104f423eebd92a286b1ca6d71942b21a775f73f24be379ed1868a6172490",
+      "ticker": "3624",
+      "company": "光頡",
+      "path": "Pilot_Reports/Electronic Components/3624_光頡.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **車用市場**: 通過 [[AEC-Q200]] 認證，打入 Tier 1 車廠與 [[電動車]] 供應鏈 (OBC、BMS 應用)。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.viking.com.tw/Templates/att/ESGreport2021new.pdf?lng=zh-CN",
+          "title": "光頡科技股份有限公司（光頡，3624，Viking Tech）2021 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2021年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取64,483字元）。報告書載「（符）合 **IATF16949、AEC-Q200**、ISO13485、（…）」（「**AEC-Q200**」1次）與「更由**歐美車廠供應鏈 Tier 1** 親自到廠做 **VDA 6.3** 過程稽核，且獲得客戶評級 **A** 的肯定」（「**Tier 1**」1次、「**車用**」4次、「**電動車**」2次、「**電阻**」47次），**逐項支持該 claim**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人永續報告書**逐字支持**：(1)「通過 **[[AEC-Q200]] 認證**」——報告書載「（符）合 **IATF16949、AEC-Q200**、ISO13485」（「AEC-Q200」1次）；(2)「打入 **Tier 1** 車廠」——報告書載「更由**歐美車廠供應鏈 Tier 1** 親自到廠做 **VDA 6.3** 過程稽核，且獲得客戶評級 **A** 的肯定」（「Tier 1」1次、「**車用**」4次）；(3)「與**電動車**（供應鏈）」——「電動車」2次。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3717:material_named_relationship:e3d253a6e990043a",
+      "normalized_claim_hash": "e3d253a6e990043ab192d34f50462c70fd6fae1fd5486e02d3daad46fc369abb",
+      "ticker": "3717",
+      "company": "聯嘉投控",
+      "path": "Pilot_Reports/Electronic Components/3717_聯嘉投控.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**下游**：交貨予國際 [[Tier 1]] 車燈總成廠 (如 Magna, Hella) 或直接供應 [[車廠]] (OEM)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eoi.com.tw/PDFs/Shareholder/%E6%B0%91%E5%9C%8B112%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "聯嘉光電股份有限公司（聯嘉投控，3717，EOI）民國112年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取322,069字元）。年報載「LED光源、LED模組及**車燈模組**並取得多國專利，客戶包含 **Ford、FCA、Tesla、BMW、TOYOTA、GM**（…）」（「**Tesla**」8次、「**尾燈**」12次、「Model 3」2次、「**Tier 1**」6次、「**Magna**」1次），並載「美國電動車大廠 **Tesla** 的**供應鏈**與北美汽車大廠之**車燈光源模組**」「2022 年 microprism 應用在 **Magna MY24 DT 尾燈**」，**逐項支持其車燈模組業務與客戶關係**。**關鍵發現**：「**Hella**」之出現次數**為0**；「Model Y」未見；「**主要供應商**」之表述未見（年報所載為「供應鏈」）。"
+        }
+      ],
+      "rationale": "「**下游**：交貨予國際 **Tier 1** 車燈總成廠（如 **Magna**）」獲發行人年報**逐字支持**：年報載「2022 年 microprism 應用在 **Magna MY24 DT 尾燈**」，並見「**Tier 1**」6次，**支持向國際 Tier 1 車燈總成廠交貨**。**惟「Hella」未獲支持**——「**Hella**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "聯嘉光電 (3717，EOI) 之交貨對象包含國際 Tier 1 車燈總成廠（如 Magna）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3717:material_named_relationship:91a5266bf0300df3",
+      "normalized_claim_hash": "91a5266bf0300df384091ea99b104038cac5e661ee66321068da7d52c9549b8c",
+      "ticker": "3717",
+      "company": "聯嘉投控",
+      "path": "Pilot_Reports/Electronic Components/3717_聯嘉投控.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[電動車]]**：[[Tesla]] (Model 3/Y 尾燈模組主要供應商)、[[Rivian]]、[[Fisker]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eoi.com.tw/PDFs/Shareholder/%E6%B0%91%E5%9C%8B112%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "聯嘉光電股份有限公司（聯嘉投控，3717，EOI）民國112年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取322,069字元）。年報載「LED光源、LED模組及**車燈模組**並取得多國專利，客戶包含 **Ford、FCA、Tesla、BMW、TOYOTA、GM**（…）」（「**Tesla**」8次、「**尾燈**」12次、「Model 3」2次、「**Tier 1**」6次、「**Magna**」1次），並載「美國電動車大廠 **Tesla** 的**供應鏈**與北美汽車大廠之**車燈光源模組**」「2022 年 microprism 應用在 **Magna MY24 DT 尾燈**」，**逐項支持其車燈模組業務與客戶關係**。**關鍵發現**：「**Hella**」之出現次數**為0**；「Model Y」未見；「**主要供應商**」之表述未見（年報所載為「供應鏈」）。"
+        }
+      ],
+      "rationale": "「**[[電動車]]**：**[[Tesla]]**（**Model 3**／Y **尾燈模組**供應商）」獲發行人年報**充分支持**：年報載「客戶包含 **Ford、FCA、Tesla、BMW、TOYOTA、GM**」「美國電動車大廠 **Tesla** 的**供應鏈**與北美汽車大廠之**車燈光源模組**」（「**Tesla**」8次、「**尾燈**」12次、「Model 3」2次），**支持其為 Tesla 電動車車燈模組供應商**。**惟三項細節未獲支持**：(1)「Model **Y**」——未見；(2)「**主要**供應商」——年報所載為「**供應鏈**」，「主要供應商」之表述未見；(3)「**尾燈模組**」之直接表述**未完全對應**（年報所載為「車燈光源模組」與「microprism 應用在 Magna 尾燈」）。故部分成立。",
+      "proposed_text": "聯嘉光電 (3717，EOI) 為 Tesla 等電動車廠之車燈光源模組供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3426:control_acquisition:a589bf991e484ce3",
+      "normalized_claim_hash": "a589bf991e484ce3a640dc210360c6e18644f9237f46e4f55bf071d797a35c9f",
+      "ticker": "3426",
+      "company": "台興",
+      "path": "Pilot_Reports/Electronic Components/3426_台興.md",
+      "signal_type": "control_acquisition",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "重大轉折：全球繼電器大廠[[松川精密]] (7788，與石英元件大廠[[晶技]]合資) 宣布以每股 48 元、溢價 13.91% 收購台興 100% 股權。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/342620250819M001.pdf",
+          "title": "台興電子企業股份有限公司（台興，3426，Tai-Shing / TSE）法人說明會簡報（2025-08-20）",
+          "source_level": 3,
+          "period_binding": "2025年8月。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,392字元）。簡報封面載「**台興電子企業股份有限公司** 法人說明會 2025年8月 Tai-Shing (**3426**)」，內容為「業務發展」「通用**電磁閥**類型」「目標產業（汽車、自動化設備、智慧安全控制、新能源汽車…）」「市場 適合市場的設計(**ADAS 清洗閥**)」「財務表現」等**電磁閥事業介紹**。**關鍵發現（兩項）**：(1) 全份簡報中「**松川**」「**晶技**」「**收購**」與「**溢價**」之出現次數**均為0**——**未載該併購案**；(2) **「48」之命中係來自「2.48」之子字串（子字串假陽性）**。"
+        }
+      ],
+      "rationale": "「重大轉折：全球繼電器大廠 **[[松川精密]]**（7788，與石英元件大廠 **[[晶技]]** 合資）宣布以每股 **48 元**、**溢價 13.91%** 收購台興 **100%**」未獲確立：所取得之台興法人說明會簡報為**電磁閥事業介紹**（目標產業、ADAS 清洗閥、財務表現），其中「**松川**」「**晶技**」「**收購**」與「**溢價**」之出現次數**均為0**；**且「48」之命中係來自「2.48」之子字串**（**子字串假陽性**）。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由公開資訊觀測站之重大訊息或收購相關公告複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

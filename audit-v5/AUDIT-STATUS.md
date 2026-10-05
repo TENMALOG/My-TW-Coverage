@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 14:04 UTC
+Updated: 2026-10-14 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,170 / 1,399**
-- Remaining author review: **229**
-- Latest batch: **author-230** (5 claims)
+- Author-reviewed: **1,174 / 1,399**
+- Remaining author review: **225**
+- Latest batch: **author-231** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **733**
+- `ACCEPTED`: **101**
+- `PARTIALLY_SUPPORTED`: **735**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **332**
+- `UNKNOWN_AFTER_RESEARCH`: **333**
 
 ## Latest claim batch
 
-- `3714:material_named_relationship:07cd0f9ac46bc089`、`b6889bfc5f8a5596`、`28aa27396a338166` — `UNKNOWN_AFTER_RESEARCH` ×3；富采簡報為**財務導向之法說會**，「**Apple／Mini LED／iPad Pro／MacBook／背光／面板」皆 0 次**。
-- `3715:material_named_relationship:b3b5f2da5bd8f933` — `PARTIALLY_SUPPORTED`；定穎ESG「**汽車板」24 次、「PCB」23 次、「電動車」4 次**；**惟「Tesla／Continental」皆 0 次**。
-- `4943:material_named_relationship:a4bc917f24a5572a` — `UNKNOWN_AFTER_RESEARCH`；康控-KY端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-230.json`（5 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,170 ＝ 條目總數 1,170。
-- Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
+- 🟢 `3624:material_named_relationship:ac1a104f423eebd9` — **`ACCEPTED`**；光頡ESG**逐字載**「（符）合 **IATF16949、AEC-Q200**、ISO13485」與「更由**歐美車廠供應鏈 Tier 1** 親自到廠做 **VDA 6.3** 過程稽核，且獲得客戶評級 **A** 的肯定」——**逐項對應**。
+- `3717:material_named_relationship:e3d253a6e990043a` — `PARTIALLY_SUPPORTED`；聯嘉年報載「2022 年 microprism 應用在 **Magna MY24 DT 尾燈**」（Tier 1 6次）；**惟「Hella」0 次**。
+- `3717:material_named_relationship:91a5266bf0300df3` — `PARTIALLY_SUPPORTED`；年報載「客戶包含 Ford、FCA、**Tesla**、BMW、TOYOTA、GM」與「美國電動車大廠 **Tesla** 的**供應鏈**」（Tesla 8次、尾燈12次、Model 3 2次）；**惟「Model Y」與「主要供應商」未獲支持**。
+- `3426:control_acquisition:a589bf991e484ce3` — `UNKNOWN_AFTER_RESEARCH`；台興簡報為**電磁閥事業介紹**，「**松川／晶技／收購／溢價」皆 0 次**；**且「48」係來自「2.48」之子字串（子字串假陽性）**。
+- 證據記錄於 `semantic/author-231.json`（4 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,174 ＝ 條目總數 1,174。
+- Next pending claim by priority: `5251:material_named_relationship:7a2e178397650de7` (天鉞電).
 
 ## Source access
 
