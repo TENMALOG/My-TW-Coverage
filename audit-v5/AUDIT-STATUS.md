@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 09:04 UTC
+Updated: 2026-10-11 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **865 / 1,399**
-- Remaining author review: **534**
-- Latest batch: **author-153** (3 claims)
+- Author-reviewed: **868 / 1,399**
+- Remaining author review: **531**
+- Latest batch: **author-154** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **567**
+- `ACCEPTED`: **88**
+- `PARTIALLY_SUPPORTED`: **568**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **207**
+- `UNKNOWN_AFTER_RESEARCH`: **208**
 
 ## Latest claim batch
 
-- `9957:objective_ranking_or_market_share:08d89bac647cd335` — `UNKNOWN_AFTER_RESEARCH`；燁聯官方年報端點 **HTTP 404**。
-- `5009:objective_ranking_or_market_share:25a19381ca4321d2` — `PARTIALLY_SUPPORTED`；榮剛簡報（**英文版**）「**alloy」14 次、「specialty」3 次**；惟「TSG」0次、「integrated」0次、「only」2次未見唯一性表述。
-- `9962:objective_ranking_or_market_share:b9679f9639e82fcf` — `PARTIALLY_SUPPORTED`；有益文件「不銹鋼」2次；惟「厚板」「板材」「唯一」「前三大」皆0次。**文件為民國95年度財務報表（非年報）**，不含業務敘述，建議改取年報重查。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-153.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `2034:objective_ranking_or_market_share:9db08fbb1d4b60e5` (允強).
+- `2034:objective_ranking_or_market_share:9db08fbb1d4b60e5` — `UNKNOWN_AFTER_RESEARCH`；允強官方 IR 頁**未提供年報 PDF**，所及之 MOPS 端點為財務報表（非年報）。
+- `2412:objective_ranking_or_market_share:a66e2cfee2300a0e` — `PARTIALLY_SUPPORTED`；中華電2024年報「**5G」115 次、「固網」34 次、「用戶數」30 次**、「ICT」10次——四項業務皆獲支持；惟「國營」0次。
+- `2412:objective_ranking_or_market_share:de26eb6e820bab9c` — `ACCEPTED`；年報**明文**載「行動**客戶數市占達38.0%**」「皆**居同業之冠**」「5G 客戶數市占…達**38.8%**，**大幅領先同業**」——**逐字對應**「用戶數最大之電信營運商」。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-154.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `6163:objective_ranking_or_market_share:5fe18513d52e2e8a` (華電網).
 
 ## Source access
 
