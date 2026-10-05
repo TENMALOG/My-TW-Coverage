@@ -1,6 +1,6 @@
 {
   "engine": "audit-engine-v5",
-  "status": "RISK_CALIBRATION_COMPLETE",
+  "status": "FINANCIAL_PHASE1_MAPPING_AND_EXCEPTIONS_COMPLETE",
   "source_of_truth": "TENMALOG/My-TW-Coverage audit-v5 branch",
   "observed_source_commit": "7b09e2f027c1d83cbbd91e9187da6fc6b04cdea1",
   "observed_report_count": 1733,
@@ -14,7 +14,11 @@
     "risk calibration v3 completed and accepted",
     "HIGH queue calibrated from 884 baseline to 836 material/fragile issuers",
     "HIGH review unit changed from whole issuer to individual claim",
-    "1304 regression contract remains active"
+    "1304 regression contract remains active",
+    "financial phase1 corpus-level mappings approved for general-industry Revenue, Gross Profit, Operating Income and parent-attributable Net Income",
+    "1,019 legacy Yahoo/yfinance Operating Income mismatches reclassified as SOURCE_DEFINITION_DIFFERENCE instead of per-issuer METHOD_UNRESOLVED",
+    "26 non-operating current-period financial differences independently corroborated by MOPSFIN statements and patched across 20 reports",
+    "post-repair official check reduced FINANCIAL_DIFFERENCE count to 0"
   ],
   "known_findings_before_run": [],
   "blockers": [
@@ -35,5 +39,19 @@
     },
     "high_share": 0.4824,
     "high_claim_signals": 1410
+  },
+  "financial_phase1": {
+    "status": "mapping_and_exceptions_complete",
+    "canonical_mappings": {
+      "revenue": "MOPS/TWSE 營業收入",
+      "gross_profit": "MOPS/TWSE 營業毛利（毛損）",
+      "operating_income": "MOPS 營業利益（損失） / Mopsfin OperatingIncome",
+      "net_income": "MOPS 母公司業主（淨利∕損）"
+    },
+    "resolved_exceptions": 26,
+    "patched_reports": 20,
+    "remaining_method_unresolved": 10,
+    "legacy_source_definition_differences": 1019,
+    "repo_value_unavailable": 44
   }
 }

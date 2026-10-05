@@ -47,3 +47,24 @@ Final issuer triage:
 - LOW 147
 
 The HIGH queue is claim-level, not issuer-forensic. The accepted calibration is documented in `RISK-CALIBRATION-REPORT.md` and machine-readable details are in `generated/risk-calibration.json`.
+
+
+## Financial Phase 1 milestone
+
+The current-period general-industry accounting mapping and exception-resolution work is complete.
+
+Canonical mappings:
+
+- Revenue -> MOPS/TWSE 營業收入
+- Gross Profit -> MOPS/TWSE 營業毛利（毛損）
+- Operating Income -> MOPS 營業利益（損失） / Mopsfin OperatingIncome
+- Net Income -> MOPS 母公司業主（淨利∕損）
+
+The former 1,029 METHOD_UNRESOLVED population is no longer treated as 1,029 issuer-specific investigations:
+
+- 1,019 Operating Income mismatches are classified as SOURCE_DEFINITION_DIFFERENCE caused by the legacy Yahoo/yfinance field versus the approved MOPS concept;
+- 10 items remain METHOD_UNRESOLVED for specialized financial-sector schemas.
+
+The 26 true non-operating current-period differences were cross-checked against a second official MOPSFIN statement source. All 26 were confirmed as repository errors and repaired across 20 issuer reports. The post-repair official checker reports FINANCIAL_DIFFERENCE = 0.
+
+See `FINANCIAL-PHASE1-REPORT.md` and `generated/financial-difference-resolution.json`.
