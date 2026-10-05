@@ -1,0 +1,46 @@
+name: Audit v5 Mopsfin probe
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - audit-v5
+    paths:
+      - "audit-v5/mopsfin_probe.py"
+      - ".github/workflows/audit-v5-mopsfin-probe.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-mopsfin-probe
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe official quarterly Mopsfin metrics
+        run: python -X utf8 audit-v5/mopsfin_probe.py
+      - name: Commit probe result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-v5/generated/mopsfin-probe.json
+          if git diff --cached --quiet; then
+            echo "No probe change."
+          else
+            git commit -m "audit: capture official Mopsfin quarterly probe [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
+            git push origin HEAD:audit-v5
+          fi
