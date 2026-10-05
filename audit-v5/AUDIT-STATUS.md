@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 16:04 UTC
+Updated: 2026-10-09 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **676 / 1,399**
-- Remaining author review: **723**
-- Latest batch: **author-112** (8 claims)
+- Author-reviewed: **684 / 1,399**
+- Remaining author review: **715**
+- Latest batch: **author-113** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **440**
+- `ACCEPTED`: **78**
+- `PARTIALLY_SUPPORTED`: **441**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **155**
+- `UNKNOWN_AFTER_RESEARCH`: **161**
 
 ## Latest claim batch
 
-- `2458:objective_ranking_or_market_share:16cff6fcb439c815`、`c5189d74c609f774` — `PARTIALLY_SUPPORTED` ×2；義隆110年報載「**筆電**的零配件中**觸控板**模組」（觸控板6次、車用3次）；惟「**市佔」4 次皆為目標敘述**（「鞏固及提升」「提升既有產品的」「提前搶佔」），「第一」7次為疫苗接種率等，「AI PC」0次。
-- `3014:objective_ranking_or_market_share:43a2413ceb931801`、`6d9b204267d9ed3f` — `PARTIALLY_SUPPORTED` ×2；聯陽議事手冊「**聯華」6 次**（集團關係）；惟「Super I/O」「EC」「嵌入式」「控制晶片」「市占」皆0次（該文件為**股東常會議事手冊**）。
-- `3034:objective_ranking_or_market_share:36d59c043f9f3ce8` — `UNKNOWN_AFTER_RESEARCH`；所取得者為**法人說明會新聞稿**（財務數字為主），未載產品線市占率或客戶結構。
-- `3105:objective_ranking_or_market_share:d03113074c1b8d2c`、`c33bbc30d1e971dd` — `UNKNOWN_AFTER_RESEARCH` ×2；穩懋端點 **SSL/TLS 憑證信任失敗**。
-- `3141:objective_ranking_or_market_share:84f650c3f04863f8` — `PARTIALLY_SUPPORTED`；晶宏2022年報「電子貨架標籤」4次、「**ESL」6 次**；惟「**55%」5 次皆為百分比區間**（0.52%~2.55%等），非市占率；「元太」未見。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-112.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3141:objective_ranking_or_market_share:65a03ef2f2732bd5` (晶宏).
+- `3141:objective_ranking_or_market_share:65a03ef2f2732bd5`、`76eab7724d46fd0c` — `UNKNOWN_AFTER_RESEARCH` ×2；晶宏2022年報「**元太」0 次**、「最大客戶」0次；「**E Ink」1 次係「E Ink Spectra 3100**」之**技術規格名稱**；「母公司」158次多為財務報表用語。
+- `3227:objective_ranking_or_market_share:9484acc8041462d9` — `UNKNOWN_AFTER_RESEARCH`；原相官方年報端點所取得檔案**僅111 bytes**（PDF解析回應 no objects found），顯非 PDF。
+- `3264:objective_ranking_or_market_share:60de4d8a051579fe`、`067c7811d5d64930` — `UNKNOWN_AFTER_RESEARCH` ×2；欣銓111年報**文字層呈現亂碼**（與台光電／上洋／必應／峰源同型），車用／測試／MCU／市占皆0次。
+- `3443:objective_ranking_or_market_share:0e18f8dc0286575f` — `UNKNOWN_AFTER_RESEARCH`；所取得者為「**2022 創意電子氣候相關財務揭露報告書**」（TCFD），「台積電」「最大股東」皆0次。
+- `3527:objective_ranking_or_market_share:8eb795fd7f9d812e` — `PARTIALLY_SUPPORTED`；聚積議事手冊載「為**全球第一大顯示屏LED 驅動IC 廠**」（LED 45次、Mini 6次、Micro 3次）；惟「物聯網精準行銷系統」未見。
+- `3527:objective_ranking_or_market_share:39a26c1aea2cd59c` — `ACCEPTED`；議事手冊載「為**全球第一大顯示屏LED 驅動IC 廠**」——逐項對應。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-113.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3545:objective_ranking_or_market_share:3863a18a0b35d83b` (敦泰).
 
 ## Source access
 

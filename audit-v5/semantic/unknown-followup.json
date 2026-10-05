@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:13:27Z",
+  "generated_at": "2026-10-05T20:15:29Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -114,21 +114,22 @@
     "author-109",
     "author-110",
     "author-111",
-    "author-112"
+    "author-112",
+    "author-113"
   ],
-  "source_batch_count": 112,
-  "total_unknown": 155,
+  "source_batch_count": 113,
+  "total_unknown": 161,
   "failure_signature_counts": {
-    "other_unclassified": 63,
+    "other_unclassified": 66,
     "tls_failure": 8,
-    "mops_non_document": 32,
-    "non_document_response": 30,
+    "mops_non_document": 33,
+    "non_document_response": 31,
     "no_official_endpoint_found": 65,
     "http_404": 33,
     "image_only_or_tiny_text": 20,
     "http_403": 10,
     "connection_failure": 7,
-    "garbled_text_layer": 5,
+    "garbled_text_layer": 7,
     "client_rendered_only": 4,
     "download_timeout": 2,
     "source_identity_mismatch": 5
@@ -2440,6 +2441,91 @@
         "https://www.winsemiconductorcorp.com/zh-TW/Base/DownLoadStaticFile?FileName=4Q+2025+%e6%b3%95%e8%aa%aa%e6%9c%83+%e2%80%93+%e6%96%b0%e8%81%9e%e7%a8%bf.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "3141:objective_ranking_or_market_share:65a03ef2f2732bd5",
+      "ticker": "3141",
+      "company": "晶宏",
+      "claim": "[[元太科技]] (E Ink，最大客戶)",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "http://www.ultrachip.com/images/epost/%E5%B9%B4%E5%A0%B12022_3141_20230518F04_20230504_170101.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3141:objective_ranking_or_market_share:76eab7724d46fd0c",
+      "ticker": "3141",
+      "company": "晶宏",
+      "claim": "[[元太科技]] (E Ink，母公司及最大客戶)",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "http://www.ultrachip.com/images/epost/%E5%B9%B4%E5%A0%B12022_3141_20230518F04_20230504_170101.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3227:objective_ranking_or_market_share:9484acc8041462d9",
+      "ticker": "3227",
+      "company": "原相",
+      "claim": "原相科技 (3227) 是全球光學滑鼠[[感測晶片]]最大供應商，專注於 [[CMOS 影像感測器]] (CIS) 及感測應用 IC 設計。",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        "https://www.pixart.com/_getfs.php?tb=reports_annual&id=26&fs=fs_yearly_cn"
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3264:objective_ranking_or_market_share:60de4d8a051579fe",
+      "ticker": "3264",
+      "company": "欣銓",
+      "claim": "公司在車用 [[MCU]] 測試市占率超過八成，為國際車用 IC 大廠指定測試合作夥伴。",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://web.ardentec.com/UserFiles/111%e5%b9%b4%e5%a0%b1_1121026.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "3264:objective_ranking_or_market_share:067c7811d5d64930",
+      "ticker": "3264",
+      "company": "欣銓",
+      "claim": "**欣銓** (台灣前三大，車用 MCU 測試市占 80%+)",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://web.ardentec.com/UserFiles/111%e5%b9%b4%e5%a0%b1_1121026.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "3443:objective_ranking_or_market_share:0e18f8dc0286575f",
+      "ticker": "3443",
+      "company": "創意",
+      "claim": "創意電子 (Global Unichip Corp., GUC) 為全球領先的 **ASIC 設計服務** 與 **IP 供應商**，**台積電** ([[台積電]]) 為最大股東。",
+      "batch_id": "author-113",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.guc-asic.com/upload/2025_07_11/9_20250711161013kvp2upyE622.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }
