@@ -1,39 +1,36 @@
 # v5 Handoff
 
-Current status: **foundation implemented; activation blocked**.
+Current mode: **GitHub-native bootstrap**.
 
-## What is now defined
+The user explicitly chose to use the current GitHub repository as the v5 baseline instead of waiting for local v4 migration.
 
-- v5 protocol and immutable-history rules
-- deterministic-first machine gate
-- exact binding fingerprint for carry-forward
-- risk policy
-- source policy
-- financial/valuation draft policy
-- dimension-level issuer state model
-- independent-review/root escalation split
-- low-risk QA sampling policy
-- SQLite state skeleton
-- locked 1304 regression contract
+## Implemented
 
-## What must happen next on the user's machine
+- deterministic report machine gate;
+- filename/title identity checks compatible with the existing report format;
+- section checks compatible with suffixed headings such as `財務概況 (單位...)`;
+- exact financial auto-verification guard;
+- carry-forward fingerprint contract;
+- risk/source/financial/valuation/sampling policies;
+- 1304 regression contract;
+- GitHub corpus manifest generator;
+- full financial-refresh wrapper with retry/failure guard;
+- audit summary generator;
+- GitHub Actions full-refresh workflow.
 
-The authoritative v4 workspace lives outside this GitHub fork. Before migration, inspect the real v4 locked docs/database and build a read-only export adapter that preserves IDs, hashes, source/policy/period bindings, revisions, acceptances and event lineage.
+## First full run
 
-Do not guess the v4 schema from this branch.
+The workflow is designed to run on `audit-v5` and, if GitHub Actions is enabled for the fork, perform the complete machine-verifiable refresh.
 
-Expected sequence:
+After the run, inspect:
 
-1. resume v4 authoritative state read-only;
-2. inspect actual v4 schema and locked protocol files;
-3. implement/export a normalized v4 manifest without mutating v4;
-4. run `auditctl.py validate-v4-export`;
-5. dry-run import into a fresh v5 work database;
-6. compare counts/hashes/orphans/collisions;
-7. import 1304 lineage and run regression;
-8. run a small pilot across different issuer types;
-9. only after all gates pass, change `QA-REPAIR-REPORT.json` through a versioned commit.
+- `audit-v5/generated/financial-refresh-summary.json`
+- `audit-v5/generated/github-baseline.json`
+- `audit-v5/generated/audit-summary.json`
+- workflow artifact containing before/after machine-gate details and legacy audit logs.
 
-## Important
+## Important boundary
 
-The `fixtures/1304-regression.json` file records the already-known v4 summary supplied by the user. It deliberately does not claim to contain the immutable v4 evidence itself.
+A successful workflow means the machine-verifiable layer completed. It does not by itself prove every narrative/customer/supplier/high-impact claim. Those remain queued by v5 risk classification for semantic/source verification.
+
+Do not merge `audit-v5` into `master` until the first refresh result is reviewed.

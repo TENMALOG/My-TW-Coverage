@@ -1,35 +1,44 @@
-# v4 -> v5 Migration
+# v5 Bootstrap / Legacy Migration
 
-Status: **BLOCKED PENDING AUTHORITATIVE LOCAL V4 EXPORT**.
+## Active decision
 
-The GitHub fork does not contain the user's local `audit-engine-v4` database, immutable results, source cache or acceptance lineage. v5 must not invent those records.
+v5 no longer requires migration from the user's local `audit-engine-v4` database.
 
-## Migration phases
+The authoritative v5 baseline is the current GitHub corpus in `TENMALOG/My-TW-Coverage`.
 
-1. Read v4 authoritative state in place, read-only.
-2. Produce a normalized export with a manifest plus atomic items and lineage references.
-3. Validate export integrity without changing either engine.
-4. Dry-run mapping into v5 IDs/states.
-5. Verify counts, hashes, evidence references, acceptance lineage and orphan/collision counts.
-6. Run 1304 regression.
-7. Pilot several issuer classes.
-8. Only then mark v5 active.
+This is a deliberate reset of operational provenance, not a claim that v4 lineage was imported.
 
-## Required manifest fields
+## What is preserved from v4
 
-The adapter should emit at least:
+Only information actually present in GitHub or explicitly recorded in v5 is part of v5 provenance.
 
-- source engine/protocol
-- export timestamp
-- source database hash
-- issuer/job/result/acceptance/event/source-binding/policy-binding counts
-- frozen-input manifest hash
-- source-cache manifest hash if available
+The 1304 台聚 regression fixture preserves known v4 summary invariants:
 
-Each atomic item must preserve its old stable ID when available, issuer ID, prior status, source/result hashes, policy/period bindings and origin engine. If v5 needs a new ID, maintain an explicit old-ID -> new-ID mapping.
+- 30 narrative claims;
+- 98 financial cells;
+- 66 exact matches;
+- 11 numeric differences;
+- 21 method gaps;
+- 8 valuation cells;
+- 6 identity/history items.
 
-## Failure conditions
+The immutable local v4 evidence database is not represented as migrated unless it is later imported explicitly.
 
-Migration fails on any lost issuer, evidence orphan, result/acceptance hash mismatch, broken lineage, duplicate active item, ID collision without mapping, altered v4 artifact, or unexplained count drift.
+## GitHub-native bootstrap
 
-No unresolved v4 item may be promoted merely because v5 exists. A v5 deterministic promotion such as `AUTO_VERIFIED` must cite preserved v4 evidence and the exact v5 rule that establishes it.
+The first v5 refresh must:
+
+1. identify the exact parent Git commit;
+2. scan every `Pilot_Reports/**/*.md` file;
+3. refresh financials/valuation;
+4. rescan the resulting corpus;
+5. hash every report into `audit-v5/generated/github-baseline.json`;
+6. record actual report and sector counts;
+7. detect duplicate tickers/company filenames;
+8. persist `audit-v5/generated/audit-summary.json`;
+9. retain full machine-gate logs as a GitHub Actions artifact;
+10. commit the refreshed corpus to `audit-v5`, never directly to `master`.
+
+## Historical v4 import
+
+A later v4 import is optional. If ever performed, it must be append-only and must not retroactively rewrite the GitHub-native baseline.

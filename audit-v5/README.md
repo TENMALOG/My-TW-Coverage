@@ -1,32 +1,44 @@
 # Audit Engine v5
 
-`audit-engine-v5` is the long-running audit layer for `My-TW-Coverage`.
+`audit-engine-v5` is the GitHub-native long-running audit layer for `TENMALOG/My-TW-Coverage`.
 
-Its purpose is not to weaken the v4 forensic standard. It changes when expensive semantic review is used:
+## Authoritative baseline
+
+By explicit project decision on 2026-10-05, v5 bootstraps from the current GitHub repository rather than requiring the local v4 audit database. The GitHub corpus is the operational source of truth for v5.
+
+Observed before the first GitHub-native refresh:
+
+- branch: `audit-v5`
+- source commit: `39d5e4417864fefe5b5e7905ee2532026962725f`
+- report files: 1,734
+- sector directories: 98
+- README still declared 1,735 companies / 99 sectors, so that mismatch is an audit finding, not something to hide.
+
+The local v4 work is not required for v5 activation. Its complete lineage is therefore not claimed as migrated. The known 1304 台聚 result remains a regression fixture so v5 cannot gain speed by swallowing known differences or method gaps.
+
+## Operating model
 
 1. deterministic machine checks first;
-2. unchanged accepted evidence carries forward;
-3. only changed, ambiguous, conflicting, or high-risk content reaches model review;
-4. root adjudication is reserved for disputes and policy exceptions;
-5. low-risk carried-forward content is sampled for QA.
+2. refresh financials/valuation from the repository's existing updater;
+3. rebuild derived indexes;
+4. hash the complete GitHub corpus;
+5. classify risk;
+6. use semantic review only for changed/ambiguous/high-risk claims;
+7. carry forward unchanged accepted evidence in future cycles.
 
-## Safety status
+## GitHub Actions
 
-**NOT READY FOR PRODUCTION.** This branch currently contains the v5 protocol, state schema, deterministic scanner, carry-forward fingerprint logic, financial exact-match guard, and the locked 1304 regression contract. A verified export of the local v4 authoritative state has not yet been imported into this repository, so migration and activation remain blocked.
+`.github/workflows/audit-v5-full-refresh.yml` performs the first full GitHub-native machine refresh and validation on `audit-v5`.
 
-## Local commands
+It:
 
-```bash
-python -X utf8 audit-v5/auditctl.py init
-python -X utf8 audit-v5/auditctl.py scan --root Pilot_Reports --ticker 1304
-python -X utf8 audit-v5/auditctl.py regression-1304
-python -m unittest discover -s audit-v5/tests -v
-```
+- runs unit tests and 1304 regression;
+- scans every report before refresh;
+- refreshes all financial/valuation sections, retrying transient failures;
+- rebuilds wikilink/theme/network outputs;
+- scans every report after refresh;
+- writes a persistent GitHub snapshot and summary;
+- uploads detailed diagnostics as a workflow artifact;
+- commits refreshed data back to `audit-v5` only when the refresh completes cleanly.
 
-Validate a normalized read-only v4 export before any migration:
-
-```bash
-python -X utf8 audit-v5/auditctl.py validate-v4-export path/to/v4-export.json
-```
-
-No command in v5 writes production report Markdown, deploys the site, pushes Git, or edits v4 artifacts.
+Narrative/source semantic verification is intentionally not mislabeled as complete merely because machine checks pass.

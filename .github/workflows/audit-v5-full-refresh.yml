@@ -1,0 +1,117 @@
+name: Audit v5 full refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - audit-v5
+    paths:
+      - "audit-v5/**"
+      - ".github/workflows/audit-v5-full-refresh.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-full-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    env:
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout audit-v5
+        uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Run v5 unit tests
+        run: |
+          python -m unittest discover -s audit-v5/tests -v
+          python -X utf8 audit-v5/auditctl.py regression-1304
+
+      - name: Machine gate before refresh
+        run: |
+          mkdir -p audit-v5/work audit-v5/generated
+          python -X utf8 audit-v5/auditctl.py scan \
+            --root Pilot_Reports \
+            --output audit-v5/work/machine-gate-before.json
+
+      - name: Refresh all financials and valuations
+        run: |
+          python -X utf8 audit-v5/run_financial_refresh.py \
+            --output audit-v5/generated/financial-refresh-summary.json \
+            --log audit-v5/work/update-financials.log \
+            --retries 2
+
+      - name: Rebuild derived indexes
+        run: |
+          python -X utf8 scripts/build_wikilink_index.py
+          python -X utf8 scripts/build_themes.py
+          python -X utf8 scripts/build_network.py
+
+      - name: Run legacy quality audit for diagnostics
+        continue-on-error: true
+        run: |
+          python -X utf8 scripts/audit_batch.py --all -v \
+            > audit-v5/work/legacy-audit-all.log 2>&1
+
+      - name: Machine gate after refresh
+        run: |
+          python -X utf8 audit-v5/auditctl.py scan \
+            --root Pilot_Reports \
+            --output audit-v5/work/machine-gate-after.json
+
+      - name: Build GitHub snapshot and summary
+        run: |
+          python -X utf8 audit-v5/bootstrap.py \
+            --root Pilot_Reports \
+            --git-sha "${GITHUB_SHA}" \
+            --branch audit-v5 \
+            --output audit-v5/generated/github-baseline.json
+
+          python -X utf8 audit-v5/summarize.py \
+            --baseline audit-v5/generated/github-baseline.json \
+            --scan audit-v5/work/machine-gate-after.json \
+            --financial audit-v5/generated/financial-refresh-summary.json \
+            --output audit-v5/generated/audit-summary.json
+
+      - name: Upload full audit diagnostics
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-v5-${{ github.run_id }}
+          path: |
+            audit-v5/work/machine-gate-before.json
+            audit-v5/work/machine-gate-after.json
+            audit-v5/work/update-financials.log
+            audit-v5/work/legacy-audit-all.log
+          retention-days: 90
+
+      - name: Commit refreshed corpus and v5 summaries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Pilot_Reports WIKILINKS.md themes network audit-v5/generated
+          if git diff --cached --quiet; then
+            echo "No tracked changes to commit."
+          else
+            git commit -m "data: refresh coverage and audit-v5 snapshot [skip ci]"
+            git push origin HEAD:audit-v5
+          fi

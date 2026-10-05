@@ -23,10 +23,10 @@ BANNED_GENERIC_WIKILINKS = {
 }
 HIGH_RISK_TERMS = (
     "最大", "第一", "唯一", "領先", "高毛利", "獲利引擎", "核心獲利", "市占", "市佔",
-    "主要客戶", "主要供應商", "供應鏈", "打入", "出貨", "出口", "併購", "合併", "分割", "下市", "改名",
+    "主要客戶", "主要供應商", "打入", "出貨", "出口", "併購", "合併", "分割", "下市", "改名",
 )
 MEDIUM_RISK_TERMS = (
-    "主要產品", "產能", "應用", "策略", "總部", "地址", "市場定位", "合作", "產品組合",
+    "主要產品", "產能", "應用", "策略", "總部", "地址", "市場定位", "合作", "產品組合", "供應鏈",
 )
 
 ATOMIC_STATUSES = {
@@ -114,6 +114,15 @@ def _parse_sections(text: str) -> dict[str, str]:
     return out
 
 
+def _section_body(sections: dict[str, str], required: str) -> str | None:
+    if required in sections:
+        return sections[required]
+    matches = [body for heading, body in sections.items() if heading.startswith(required)]
+    if len(matches) == 1:
+        return matches[0]
+    return None
+
+
 def _filename_identity(path: Path) -> tuple[str | None, str | None]:
     match = re.match(r"^(\d{4,6})_(.+)\.md$", path.name)
     if not match:
@@ -122,10 +131,14 @@ def _filename_identity(path: Path) -> tuple[str | None, str | None]:
 
 
 def _title_identity(text: str) -> tuple[str | None, str | None]:
-    match = re.search(r"^#\s*(\d{4,6})\s*-\s*\[\[([^\]]+)\]\]", text, flags=re.MULTILINE)
+    match = re.search(r"^#\s*(\d{4,6})\s*-\s*(.+?)\s*$", text, flags=re.MULTILINE)
     if not match:
         return None, None
-    return match.group(1), match.group(2).strip()
+    ticker = match.group(1)
+    raw = match.group(2).strip()
+    wiki = re.fullmatch(r"\[\[([^\]]+)\]\]", raw)
+    company = wiki.group(1).strip() if wiki else raw
+    return ticker, company
 
 
 def classify_risk(text: str, extra_reasons: Iterable[str] = ()) -> tuple[str, list[str]]:
@@ -159,7 +172,7 @@ def scan_report(path: Path) -> ReportScan:
         checks.append(Check("identity.filename", "AUTO_VERIFIED", "檔名格式可解析"))
 
     if not title_ticker:
-        checks.append(Check("identity.title", "IDENTITY_UNRESOLVED", "標題無法解析 ticker/company wikilink", "error"))
+        checks.append(Check("identity.title", "IDENTITY_UNRESOLVED", "標題無法解析 ticker/company", "error"))
         risk_reasons.append("identity-title-invalid")
     elif file_ticker and (file_ticker != title_ticker or file_company != title_company):
         checks.append(Check(
@@ -172,13 +185,14 @@ def scan_report(path: Path) -> ReportScan:
 
     sections = _parse_sections(text)
     for section in REQUIRED_SECTIONS:
-        if section in sections and sections[section].strip():
+        body = _section_body(sections, section)
+        if body is not None and body.strip():
             checks.append(Check(f"structure.section.{section}", "AUTO_VERIFIED", f"存在必要章節：{section}"))
         else:
             checks.append(Check(f"structure.section.{section}", "BLOCKED", f"缺少必要章節：{section}", "error"))
             risk_reasons.append(f"structure-missing:{section}")
 
-    business = sections.get("業務簡介", "")
+    business = _section_body(sections, "業務簡介") or ""
     for field in REQUIRED_METADATA:
         match = re.search(rf"^\*\*{re.escape(field)}:\*\*\s*(.+?)\s*$", business, flags=re.MULTILINE)
         if match and match.group(1).strip() and "待" not in match.group(1):
@@ -216,6 +230,7 @@ def scan_report(path: Path) -> ReportScan:
         line for line in text.splitlines()
         if not line.lstrip().startswith("#")
         and not re.match(r"^\s*\*\*[^*]+:\*\*", line)
+        and not line.lstrip().startswith("|")
     )
     risk_class, risk_reasons = classify_risk(risk_input, risk_reasons)
     return ReportScan(
@@ -246,10 +261,7 @@ def init_db(path: Path) -> None:
         conn.executescript(
             """
             PRAGMA journal_mode=WAL;
-            CREATE TABLE IF NOT EXISTS meta (
-                key TEXT PRIMARY KEY,
-                value TEXT NOT NULL
-            );
+            CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
             CREATE TABLE IF NOT EXISTS issuers (
                 issuer_id TEXT PRIMARY KEY,
                 ticker TEXT,

@@ -1,23 +1,29 @@
 {
   "engine": "audit-engine-v5",
-  "status": "NOT_READY",
-  "checked_at": null,
+  "status": "GITHUB_BOOTSTRAP_PENDING_RUN",
+  "source_of_truth": "TENMALOG/My-TW-Coverage audit-v5 branch",
+  "observed_source_commit": "39d5e4417864fefe5b5e7905ee2532026962725f",
+  "observed_report_count": 1734,
+  "observed_sector_count": 98,
   "completed": [
-    "protocol drafted",
-    "state schema drafted",
+    "protocol and state schema drafted",
     "deterministic markdown machine gate implemented",
+    "existing plain-title report format supported",
+    "financial heading suffixes supported",
     "carry-forward fingerprint equality implemented",
     "financial exact-match guard implemented",
     "1304 regression contract recorded",
-    "unit tests added"
+    "GitHub corpus bootstrap manifest implemented",
+    "full financial refresh wrapper with retries implemented",
+    "GitHub Actions full-refresh workflow added"
+  ],
+  "known_findings_before_run": [
+    "README declares 1735 companies while GitHub tree contains 1734 report files",
+    "README declares 99 sectors while GitHub tree contains 98 report directories"
   ],
   "blockers": [
-    "authoritative local v4 export is not present in the GitHub fork",
-    "v4 database/schema adapter has not been verified against the user's actual v4 artifacts",
-    "full v4-to-v5 migration dry-run has not been executed",
-    "1304 raw evidence/result/acceptance lineage has not been imported; only the known summary contract is recorded",
-    "financial global definitions such as net-income and CAPEX mapping remain intentionally unapproved",
-    "valuation formula/source policy has not yet been validated on a multi-issuer pilot"
+    "first GitHub Actions full-refresh run has not yet been observed to completion",
+    "semantic/source validation of HIGH and MEDIUM narrative claims is not complete"
   ],
   "activation_allowed": false
 }

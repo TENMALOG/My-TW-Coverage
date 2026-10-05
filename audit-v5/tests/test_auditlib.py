@@ -8,11 +8,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from auditlib import BindingFingerprint, carry_forward_eligible, financial_auto_verify, scan_report
 
 
-GOOD_REPORT = """# 1304 - [[台聚]]
+GOOD_REPORT = """# 1304 - 台聚
 
 ## 業務簡介
 **板塊:** Basic Materials
-**產業:** Chemicals
+**產業:** Specialty Chemicals
 **市值:** 15,495 百萬台幣
 **企業價值:** 43,396 百萬台幣
 
@@ -24,7 +24,7 @@ GOOD_REPORT = """# 1304 - [[台聚]]
 ## 主要客戶及供應商
 尚未在本測試宣告特定客戶。
 
-## 財務概況
+## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 | 項目 | 2025 |
 |---|---:|
 | 營業收入 | 44168.00 |
@@ -32,7 +32,7 @@ GOOD_REPORT = """# 1304 - [[台聚]]
 
 
 class AuditV5Tests(unittest.TestCase):
-    def test_scan_identity_and_structure(self):
+    def test_scan_accepts_original_plain_title_and_financial_suffix(self):
         with tempfile.TemporaryDirectory() as td:
             path = Path(td) / "1304_台聚.md"
             path.write_text(GOOD_REPORT, encoding="utf-8")
