@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **364 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), and `author-065` (6).
+Author-reviewed: **371 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), and `author-066` (7).
 
 - ACCEPTED by author: 64
-- PARTIALLY_SUPPORTED: 231
+- PARTIALLY_SUPPORTED: 236
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 65
-- Remaining author queue: 1,035
+- Other allowed author decisions: 67
+- Remaining author queue: 1,028
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -774,6 +774,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **364 / 1,399**; remaining: **1,035**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 231, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 65. Next pending claim by priority: `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` (氣立).
+
+## Author batch `author-066` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (氣立 4555, 泰鼎-KY 4927 ×3, 友輝 4933, 茂林-KY 4935, 臻鼎-KY 4958). Evidence came from directly downloaded and inspected official disclosures: 氣立2025年法人說明會簡報（英文版）、泰鼎-KY年報、茂林-KY 2024年永續報告書。
+- `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` — `PARTIALLY_SUPPORTED`. 氣立2025年官方簡報（英文版）載「**Pneumatic Components (65%)**」「Precision Metal Manufacturing (35%)」與轉型方向「Automation & Robotics Industry」，並列「Automation Equipment」為應用。惟全份簡報中「Foxconn」「Hon Hai」「largest」出現次數均為0，未具名任何客戶，其「鴻海供應鏈（歷史最大客戶）」未獲支持。
+- `4927:objective_ranking_or_market_share:9a67db1c7ece4dcb` — `PARTIALLY_SUPPORTED`. 泰鼎年報載其「主要營業項目為單面、雙面與多層硬式印刷電路板之製造與銷售」「產品除內銷**泰國**當地外，尚外銷至亞洲、歐洲及美洲等地區」（「泰國」112次、「PCB」50次）。惟「泰國最大台資 PCB 廠／泰國 PCB 王」未獲支持（「最大客戶」與「泰國PCB王」均為0次），且產能數字須更正——年報載「在115年依據業務預算，泰鼎之**月產能將落在50萬至60萬平方米**」，單位為平方公尺，與 claim 之「約100萬平方呎」不對應。
+- `4927:objective_ranking_or_market_share:f082dccad3e35593` 與 `d87b353d1a5581c6` — `PARTIALLY_SUPPORTED`. 年報載「本公司及子公司之**主要客戶品牌包括 Samsung**、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC 等國際一線客戶。本公司及子公司所生產之印刷電路板主要應用於包括**電視**、車用多媒體、電腦週邊、網通設備、家用娛樂設備等產品」，支持 Samsung 為其具名主要客戶品牌且電視為應用領域；惟「為最大客戶」未獲支持（「最大客戶」0次）。
+- `4933:objective_ranking_or_market_share:349902327df33902` 與 `4958:objective_ranking_or_market_share:a4361df276711165` — `UNKNOWN_AFTER_RESEARCH`. 友輝官方年報端點以「連接意外關閉」失敗；臻鼎官方新聞稿 PDF（779,313 bytes）經文字擷取後全檔僅3字元（影像排版）。兩者之市場地位因此未獲確立。
+- `4935:objective_ranking_or_market_share:4d485947dcc08af8` — `PARTIALLY_SUPPORTED`. 茂林2024年官方永續報告書中「導光板」38次、「發光鍵盤」2次，支持其相關業務；惟「Apple」「MacBook」與「最大供應商」出現次數均為0。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **67 筆**。
+- Author-reviewed total: **371 / 1,399**; remaining: **1,028**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 236, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 67. Next pending claim by priority: `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` (亞電).
+
 
 
 

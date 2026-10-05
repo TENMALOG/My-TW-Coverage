@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 17:04 UTC
+Updated: 2026-10-07 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **364 / 1,399**
-- Remaining author review: **1,035**
-- Latest batch: **author-065** (6 claims)
+- Author-reviewed: **371 / 1,399**
+- Remaining author review: **1,028**
+- Latest batch: **author-066** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **231**
+- `PARTIALLY_SUPPORTED`: **236**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **65**
+- `UNKNOWN_AFTER_RESEARCH`: **67**
 
 ## Latest claim batch
 
-- `3481:objective_ranking_or_market_share:44f9e638883c3468` — `PARTIALLY_SUPPORTED`; 群創2024簡報載「**Innolux offers the world's largest panel of FOPLP**」與FOPLP藍圖；惟「G3.5」「SpaceX」「低軌」「良率」「90%」皆0次。
-- `3630:objective_ranking_or_market_share:f9e6204dc7cecd7a` — `PARTIALLY_SUPPORTED`; 丘鈦科技2021年報載新鉅科為其**聯營公司**（股份代碼3630，新鉅15次、聯營公司36次）；惟未載「最大股東」或持股比例。
-- `3675:objective_ranking_or_market_share:ff388e8864de4fbe` — `PARTIALLY_SUPPORTED`; 德微2012簡報載Diodes集團與「主要客戶（達爾集團）」；惟「大股東」「持股」皆0次。
-- `3717:objective_ranking_or_market_share:2b120d56b6be96bd` — `PARTIALLY_SUPPORTED`; 聯嘉112年報載客戶包含Ford、FCA、Tesla、BMW、TOYOTA、GM及UniFlex／UniFlex Linear系列技術；惟唯一市占數字為「**LED聖誕燈串全球市佔率達20%**」，非電動車車燈。
-- `4909:objective_ranking_or_market_share:36ef0e8eeb712017`、`154d95fab7c83bda` — `PARTIALLY_SUPPORTED` ×2; 新復興2022簡報載高頻微波通訊PCB逾35年、高頻基板與LNB基板（LNB 2次、衛星4次）；惟「市佔」「八成」「80%」「龍頭」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-065.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` (氣立).
+- `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` — `PARTIALLY_SUPPORTED`; 氣立2025簡報（英文版）載「Pneumatic Components(65%)」與「Automation & Robotics Industry」轉型；惟「Foxconn」「Hon Hai」「largest」皆0次。
+- `4927:objective_ranking_or_market_share:9a67db1c7ece4dcb` — `PARTIALLY_SUPPORTED`; 泰鼎年報載其為泰國硬式PCB製造商（泰國112次、PCB 50次）；惟「最大客戶」「泰國PCB王」0次，且產能官方為「月產能將落在**50萬至60萬平方米**」（非claim之100萬平方呎）。
+- `4927:objective_ranking_or_market_share:f082dccad3e35593`、`d87b353d1a5581c6` — `PARTIALLY_SUPPORTED` ×2; 年報載「主要客戶品牌包括 **Samsung**、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC」且應用含「電視」；惟「最大客戶」未載。
+- `4933:objective_ranking_or_market_share:349902327df33902` — `UNKNOWN_AFTER_RESEARCH`; 友輝官方年報端點以「連接意外關閉」失敗。
+- `4935:objective_ranking_or_market_share:4d485947dcc08af8` — `PARTIALLY_SUPPORTED`; 茂林2024永續報告「導光板」38次、「發光鍵盤」2次；惟「Apple」「MacBook」「最大供應商」皆0次。
+- `4958:objective_ranking_or_market_share:a4361df276711165` — `UNKNOWN_AFTER_RESEARCH`; 臻鼎官方新聞稿PDF經擷取僅3字元（影像排版）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-066.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` (亞電).
 
 ## Source access
 

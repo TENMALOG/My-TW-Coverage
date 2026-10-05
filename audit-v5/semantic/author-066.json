@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-066",
+  "reviewed_at": "2026-10-05T18:45:33Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (氣立2025年法人說明會簡報(英文版); 泰鼎-KY年報; 茂林-KY 2024年永續報告書); 友輝與臻鼎-KY之官方文件於本批次無法取得可判讀內容，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "4555:objective_ranking_or_market_share:0bf8c0e0c843a66a",
+      "normalized_claim_hash": "0bf8c0e0c843a66a3fb31607ff2b783ccb4268fb60975392aa8772bba43cb9db",
+      "ticker": "4555",
+      "company": "氣立",
+      "path": "Pilot_Reports/Electronic Components/4555_氣立.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[鴻海]] 供應鏈 — 自動化設備氣動元件 (歷史最大客戶)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/455520250818E001.pdf",
+          "title": "台灣氣立股份有限公司（氣立，4555，TAIWAN CHELIC）法人說明會簡報（2025-08-18，英文版）",
+          "source_level": 3,
+          "period_binding": "2025年8月；財務數據含2025年上半年。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文件為英文版）。簡報載「Main Operating Base: TAIWAN CHELIC CO., LTD. / SHANGHAI CHELIC PNEUMATIC CORP. / ZHEJIANG CHELIC PNEUMATIC CORP. / THAILAND CHELIC PNEUMATIC CORP.」「Establish: November, 1986」「CHELIC in Transformation: Semiconductor Equipment Industry / Automotive Industry / **Automation & Robotics Industry** / Medical Industry」「**Pneumatic** Components(65%)」「Automation Equipment」（「pneumatic」2次、「Automation」2次）。全份簡報中「Foxconn」「Hon Hai」「largest」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "「為自動化設備氣動元件供應商」獲發行人簡報支持：簡報載其事業轉型涵蓋「Automation & Robotics Industry」，產品結構為「**Pneumatic Components (65%)**」與「Precision Metal Manufacturing (35%)」，並列「Automation Equipment」為應用（「pneumatic」2次、「Automation」2次）。惟「為**鴻海**供應鏈（歷史最大客戶）」未獲支持：全份簡報中「Foxconn」「Hon Hai」與「largest」出現次數均為0，未具名任何客戶，亦未載客戶集中度。故部分成立。",
+      "proposed_text": "台灣氣立 (4555，TAIWAN CHELIC) 以氣動元件（占產品結構 65%）為核心業務，應用涵蓋自動化與機器人、半導體設備、汽車與醫療等產業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4927:objective_ranking_or_market_share:9a67db1c7ece4dcb",
+      "normalized_claim_hash": "9a67db1c7ece4dcb38b2d4d70eb830eb4abc936e6e861fc7dbac1b0fcc4d9dfa",
+      "ticker": "4927",
+      "company": "泰鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4927_泰鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "泰鼎-KY (4927，[[Apex International]]) 為 **泰國最大台資 [[PCB]] 廠**，被稱為「泰國 PCB 王」，擁有約 100 萬平方呎月產能。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.apex-intl.com.tw/files/investor/2025_4927_20260429F04_20260417_183402.pdf",
+          "title": "泰鼎國際股份有限公司（泰鼎-KY，4927，Apex International）年報（2025年刊印）",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國113及114年度；產能展望為115年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報「業務範圍」段載「本公司及子公司主要營業項目為單面(Single-sided)、雙面(Double-sided)與多層(Multi-layer)硬式印刷電路板(Printed Circuit Board, PCB)之製造與銷售。產品除內銷泰國當地外，尚外銷至亞洲、歐洲及美洲等地區。本公司及子公司之**主要客戶品牌包括 Samsung、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC** 等國際一線客戶。本公司及子公司所生產之印刷電路板主要應用於包括**電視**、車用多媒體、電腦週邊、網通設備、家用娛樂設備等產品」，並列民國113／114年度產品比重（多層板74.36%／77.73%等）。產能方面載「在115年依據業務預算，泰鼎之**月產能將落在50萬至60萬平方米**」。全份年報中「泰國」112次、「PCB」50次、「產能」17次、「Samsung」1次；「最大客戶」與「泰國PCB王」之出現次數均為0；「最大」2次分別為氣候情境之「最大降雨量」等語。"
+        }
+      ],
+      "rationale": "「為泰國之 PCB 製造廠」獲發行人年報支持：年報載其「主要營業項目為單面、雙面與多層硬式印刷電路板之製造與銷售」「產品除內銷**泰國**當地外，尚外銷至亞洲、歐洲及美洲等地區」（「泰國」112次、「PCB」50次、「產能」17次），並列民國113／114年度產品比重。惟兩項陳述未獲支持或須更正：(1)「為**泰國最大台資 PCB 廠**、被稱為『泰國 PCB 王』」——全份年報中「最大客戶」與「泰國PCB王」出現次數均為0，「最大」2次分別為氣候情境之「最大降雨量」等語；(2)「擁有約 **100萬平方呎**月產能」——年報所載為「在115年依據業務預算，泰鼎之**月產能將落在50萬至60萬平方米**」，其單位為平方公尺而非平方英尺，兩者數值不對應。故部分成立。",
+      "proposed_text": "泰鼎-KY (4927，Apex International) 為設於泰國之硬式印刷電路板製造商，2026年月產能預算為 50 萬至 60 萬平方公尺。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4927:objective_ranking_or_market_share:f082dccad3e35593",
+      "normalized_claim_hash": "f082dccad3e35593e5feafcd85654e3cd2e703292be5e4dd8c58a02e884af3f5",
+      "ticker": "4927",
+      "company": "泰鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4927_泰鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Samsung]] — TV/家電 PCB 最大客戶",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.apex-intl.com.tw/files/investor/2025_4927_20260429F04_20260417_183402.pdf",
+          "title": "泰鼎國際股份有限公司（泰鼎-KY，4927，Apex International）年報（2025年刊印）",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國113及114年度；產能展望為115年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報「業務範圍」段載「本公司及子公司主要營業項目為單面(Single-sided)、雙面(Double-sided)與多層(Multi-layer)硬式印刷電路板(Printed Circuit Board, PCB)之製造與銷售。產品除內銷泰國當地外，尚外銷至亞洲、歐洲及美洲等地區。本公司及子公司之**主要客戶品牌包括 Samsung、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC** 等國際一線客戶。本公司及子公司所生產之印刷電路板主要應用於包括**電視**、車用多媒體、電腦週邊、網通設備、家用娛樂設備等產品」，並列民國113／114年度產品比重（多層板74.36%／77.73%等）。產能方面載「在115年依據業務預算，泰鼎之**月產能將落在50萬至60萬平方米**」。全份年報中「泰國」112次、「PCB」50次、「產能」17次、「Samsung」1次；「最大客戶」與「泰國PCB王」之出現次數均為0；「最大」2次分別為氣候情境之「最大降雨量」等語。"
+        }
+      ],
+      "rationale": "「Samsung 為其 TV／家電 PCB 客戶」獲發行人年報支持：年報載「本公司及子公司之**主要客戶品牌包括 Samsung**、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC 等國際一線客戶。本公司及子公司所生產之印刷電路板主要應用於包括**電視**、車用多媒體、電腦週邊、網通設備、家用娛樂設備等產品」，即 Samsung 為其具名主要客戶品牌，且電視為其產品應用之一。惟「為**最大客戶**」未獲支持：全份年報中「最大客戶」出現次數為0，未載客戶別營收占比或客戶排名。故部分成立。",
+      "proposed_text": "泰鼎-KY (4927) 之主要客戶品牌包含 Samsung 等國際一線客戶，產品應用涵蓋電視等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4927:objective_ranking_or_market_share:d87b353d1a5581c6",
+      "normalized_claim_hash": "d87b353d1a5581c6c56e835026ef91681027f2b70e518259024e849bfbd39729",
+      "ticker": "4927",
+      "company": "泰鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4927_泰鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Samsung]] (三星電子) — TV/家電 PCB 最大客戶",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.apex-intl.com.tw/files/investor/2025_4927_20260429F04_20260417_183402.pdf",
+          "title": "泰鼎國際股份有限公司（泰鼎-KY，4927，Apex International）年報（2025年刊印）",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國113及114年度；產能展望為115年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報「業務範圍」段載「本公司及子公司主要營業項目為單面(Single-sided)、雙面(Double-sided)與多層(Multi-layer)硬式印刷電路板(Printed Circuit Board, PCB)之製造與銷售。產品除內銷泰國當地外，尚外銷至亞洲、歐洲及美洲等地區。本公司及子公司之**主要客戶品牌包括 Samsung、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC** 等國際一線客戶。本公司及子公司所生產之印刷電路板主要應用於包括**電視**、車用多媒體、電腦週邊、網通設備、家用娛樂設備等產品」，並列民國113／114年度產品比重（多層板74.36%／77.73%等）。產能方面載「在115年依據業務預算，泰鼎之**月產能將落在50萬至60萬平方米**」。全份年報中「泰國」112次、「PCB」50次、「產能」17次、「Samsung」1次；「最大客戶」與「泰國PCB王」之出現次數均為0；「最大」2次分別為氣候情境之「最大降雨量」等語。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「Samsung（三星電子）— TV/家電 PCB 最大客戶」）。年報已具名 Samsung 為主要客戶品牌並載電視為應用領域；惟「最大客戶」之排名未獲支持（「最大客戶」出現次數為0）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4933:objective_ranking_or_market_share:349902327df33902",
+      "normalized_claim_hash": "349902327df339024ceb3e7a3a20b553af2f37cdd206cfbd997aff45394d5881",
+      "ticker": "4933",
+      "company": "友輝",
+      "path": "Pilot_Reports/Electronic Components/4933_友輝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球筆電增亮膜市佔率高 (曾達 35%)，技術涵盖精密塗佈與光學結構設計。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.ubright.com.tw/wp-content/uploads/2019/10/2014_4933_20150609F11-1.pdf",
+          "title": "友輝光電（4933，UBright Optronics）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域下載年報端點（http://www.ubright.com.tw/wp-content/uploads/2019/10/2014_4933_20150609F11-1.pdf）時以「要求已經中止：連接意外關閉」失敗，未取得檔案；搜尋結果可顯示該公司文件之內容摘要（如「本公司為專業之增光膜開發製造廠…與產業居領導地位的台灣本土面板大廠友達(AUO)合作」），惟依本審核之證據政策，搜尋結果僅作發現線索，不得作為證據。"
+        }
+      ],
+      "rationale": "「全球筆電增亮膜市佔率高（曾達35%）」未獲確立：本批次自發行人官方網域下載年報端點時以「連接意外關閉」失敗，未取得可檢視之官方文件。故其筆電增亮膜之市占率既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4935:objective_ranking_or_market_share:4d485947dcc08af8",
+      "normalized_claim_hash": "4d485947dcc08af81165adbc48a1a7097f6a214c64ef69c64e0e45198f326c3c",
+      "ticker": "4935",
+      "company": "茂林-KY",
+      "path": "Pilot_Reports/Electronic Components/4935_茂林-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[Apple]]** (MacBook 發光鍵盤導光板最大供應商).",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.glthome.com.tw/storage/system/Finance/PDF/ESG_Report/2024ESG_Report.pdf",
+          "title": "茂林光電科技（開曼）股份有限公司（茂林-KY，4935，Global Lighting Technologies）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書中「導光板」出現38次、「發光鍵盤」2次，支持其導光板與發光鍵盤相關業務。全份報告書中「Apple」「MacBook」與「最大供應商」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「從事導光板與發光鍵盤相關業務」獲發行人永續報告書支持：報告書中「導光板」出現38次、「發光鍵盤」2次。惟「為 **Apple** MacBook 發光鍵盤導光板**最大供應商**」未獲支持：全份報告書中「Apple」「MacBook」與「最大供應商」出現次數均為0，未具名該客戶，亦未載其於該產品線之供應地位。故部分成立。",
+      "proposed_text": "茂林光電 (4935，Global Lighting Technologies) 從事導光板與發光鍵盤相關產品業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4958:objective_ranking_or_market_share:a4361df276711165",
+      "normalized_claim_hash": "a4361df276711165c7c441a4afafb860507690a6babef44d9f26de24a2217895",
+      "ticker": "4958",
+      "company": "臻鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4958_臻鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "臻鼎-KY (Zhen Ding Tech) 為全球最大 **印刷電路板 (PCB)** 製造商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.zdtco.com/upload/2025_03_112/20250311115336vc9uenkaj1.pdf",
+          "title": "臻鼎科技控股股份有限公司（臻鼎-KY，4958，Zhen Ding Tech）官方新聞稿 PDF（查證限制）",
+          "source_level": 3,
+          "period_binding": "2025年3月發布（2024年全年營運成果）。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域下載該新聞稿 PDF（779,313 bytes），經文字擷取後全檔僅3字元，屬影像／圖形排版，無法檢索；另查得之官方頁面為財務報告公告頁。故未取得可判讀之官方文字。"
+        }
+      ],
+      "rationale": "「臻鼎-KY 為全球最大印刷電路板 (PCB) 製造商」未獲確立：本批次自發行人官方網域下載之新聞稿 PDF（779,313 bytes）經文字擷取後全檔僅3字元，屬影像／圖形排版無法檢索；另查得之官方頁面為財務報告公告頁，不含市場地位敘述。故其「全球最大 PCB 製造商」之地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
