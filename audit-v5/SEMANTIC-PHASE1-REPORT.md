@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **352 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), and `author-063` (6).
+Author-reviewed: **358 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), and `author-064` (6).
 
-- ACCEPTED by author: 63
-- PARTIALLY_SUPPORTED: 221
+- ACCEPTED by author: 64
+- PARTIALLY_SUPPORTED: 225
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 64
-- Remaining author queue: 1,047
+- Other allowed author decisions: 65
+- Remaining author queue: 1,041
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -750,6 +750,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **352 / 1,399**; remaining: **1,047**. Outcome counts: ACCEPTED 63, PARTIALLY_SUPPORTED 221, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3441:objective_ranking_or_market_share:8b98c062556b5eb7` (聯一光).
+
+## Author batch `author-064` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (聯一光 3441, 由田 3455 ×2, 達邁 3645, 健策 3653 ×2). Evidence came from directly downloaded and inspected official disclosures: 由田2025年法人說明會簡報、達邁109年度年報、健策官方公司文件。
+- `3441:objective_ranking_or_market_share:8b98c062556b5eb7` — `UNKNOWN_AFTER_RESEARCH`. 聯一光電官方網域之109年度與107年度年報端點均以「要求已經中止：連接意外關閉」失敗（兩種年度路徑均同），本批次未取得可檢視之官方文件，故其「台灣唯一本土資本之光學玻璃毛胚供應商」地位未獲確立。
+- `3455:objective_ranking_or_market_share:9dab2c22ab03c4f4` — `PARTIALLY_SUPPORTED`. 由田2025年官方簡報中「PCB」9次、「LCD」5次、「面板」2次、「檢測」82次，支持其檢測設備業務涵蓋該等領域；惟「市佔率高」未獲明確支持——簡報雖載「各產業市佔率提升」「持續為本產業之領先地位及提高市佔率」等語，均為泛用語，未就 PCB 或 LCD 面板檢測載明市占率數字或排名。
+- `3455:objective_ranking_or_market_share:7453775b6f91a65d` — `ACCEPTED`. 同簡報明載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」（AVI 即自動光學外觀檢查，對應 claim 之「外觀檢查」），並列「先進封裝多面檢測設備、半導體二極體晶圓級檢測設備」等產品；簡報中「半導體」23次、「封裝」10次、「載板」8次、「高市佔」1次，與 claim 之「轉型半導體封裝檢測」「在 IC 載板外觀檢查具有高市佔」對應（官方所述為全球第一，強度高於 claim 之「高市佔」）。
+- `3645:objective_ranking_or_market_share:b5c3e6a0efaa2e89` — `PARTIALLY_SUPPORTED`. 達邁109年度年報載其業務為「聚醯亞胺薄膜之製造，客製化代工與銷售」，並載其「茁壯成為**全球生產PI薄膜領導廠商之一**」。惟「台灣最大」未獲支持——年報載其為「**台灣第一家**投入生產聚醯亞胺薄膜的廠商」，係指進入時間先後而非規模最大；「全球市佔位居前四名」亦未獲支持（官方用語為「領導廠商之一」）。
+- `3653:objective_ranking_or_market_share:32b1017f613092df` 與 `be2f7c2dfae707bf` — `PARTIALLY_SUPPORTED`. 健策官方文件載「均熱片產品說明」「**均熱片產品市場狀況**」與「**伺服器ILM扣件產品說明**」，支持其均熱片與伺服器 ILM 扣件業務；惟「市佔」「台灣最大」與「Vapor」出現次數均為0，其「台灣最大均熱片供應商」「全球精密沖壓及散熱解決方案領導者」與「伺服器市場極高市佔」均未獲支持。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **358 / 1,399**; remaining: **1,041**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 225, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 65. Next pending claim by priority: `3481:objective_ranking_or_market_share:44f9e638883c3468` (群創).
+
 
 
 

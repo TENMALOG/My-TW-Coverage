@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-064",
+  "reviewed_at": "2026-10-05T18:40:50Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (由田2025年法人說明會簡報; 達邁109年度年報; 健策官方公司文件); 聯一光電之官方年報端點連線失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3441:objective_ranking_or_market_share:8b98c062556b5eb7",
+      "normalized_claim_hash": "8b98c062556b5eb7801b63d818119d766fcaaca0b3699b850470a41431aaa0c3",
+      "ticker": "3441",
+      "company": "聯一光",
+      "path": "Pilot_Reports/Electronic Components/3441_聯一光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "聯一光電 (3441，[[Unique Opto]]) 為台灣唯一本土資本之光學玻璃毛胚 (Glass Blanks) 供應商，位居光學產業鏈最上游。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.t-unique.com/109%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "聯一光電（3441，Unique Opto）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得聯一光電官方文件之結果：發行人官方網域之109年度年報端點（http://www.t-unique.com/109年報.pdf）與107年度年報端點（http://www.t-unique.com/107年報.pdf）均以「要求已經中止：連接意外關閉」失敗（連續兩次嘗試不同年度路徑均相同）。故未取得該公司可檢視之官方文件。註記：搜尋結果可顯示該等文件之內容摘要（如「主要產品：光學玻璃毛胚…營業收入比重88.87%」），惟依本審核之證據政策，搜尋結果僅作發現線索，不得作為證據。"
+        }
+      ],
+      "rationale": "「為台灣唯一本土資本之光學玻璃毛胚 (Glass Blanks) 供應商，位居光學產業鏈最上游」未獲確立：聯一光電官方網域之109年度與107年度年報端點均以「連接意外關閉」失敗，本批次未取得任何可檢視之官方文件。故其「台灣唯一本土資本」之地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3455:objective_ranking_or_market_share:9dab2c22ab03c4f4",
+      "normalized_claim_hash": "9dab2c22ab03c4f4fd4273c5dd7d7085a25c5ee5b78ffa9d8c0976a3f448adde",
+      "ticker": "3455",
+      "company": "由田",
+      "path": "Pilot_Reports/Electronic Components/3455_由田.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "早期深耕 **PCB** 與 **LCD 面板** 檢測，市佔率高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.utechzone.com.tw/upload/editor/files/20250820112038.pdf",
+          "title": "由田新技股份有限公司（由田，3455，Utechzone）法人說明會簡報（2025-08-20）",
+          "source_level": 3,
+          "period_binding": "2025年8月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。簡報載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」（AVI 即自動光學外觀檢查），並列產品含「先進封裝多面檢測設備、半導體二極體晶圓級檢測設備、IC載板AI拍（照）」「推出Mini LED載板減量測複合機」等；另載「各產業市佔率提升」與「持續為本產業之領先地位及提高市佔率」。全份簡報中「檢測」82次、「半導體」23次、「載板」8次、「PCB」9次、「LCD」5次、「封裝」10次、「市佔」2次、「高市佔」1次。"
+        }
+      ],
+      "rationale": "「早期深耕 PCB 與 LCD 面板檢測」獲發行人簡報支持：簡報中「PCB」出現9次、「LCD」5次、「面板」2次、「檢測」82次，顯示其檢測設備業務涵蓋該等領域。惟「市佔率高」未獲明確支持：簡報雖載「各產業市佔率提升」「持續為本產業之領先地位及提高市佔率」等語，惟該等敘述為泛用語，未就 PCB 或 LCD 面板檢測設備載明市占率數字或排名。故部分成立。",
+      "proposed_text": "由田新技 (3455，Utechzone) 早期深耕 PCB 與 LCD 面板檢測設備。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3455:objective_ranking_or_market_share:7453775b6f91a65d",
+      "normalized_claim_hash": "7453775b6f91a65d8dc6db88e9fb37d5931ced9555ba5eae2dbc8f900e4454d8",
+      "ticker": "3455",
+      "company": "由田",
+      "path": "Pilot_Reports/Electronic Components/3455_由田.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年積極轉型 **半導體封裝檢測**，尤其在 **IC 載板** ([[ABF]]/BT) 外觀檢查具有高市佔。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.utechzone.com.tw/upload/editor/files/20250820112038.pdf",
+          "title": "由田新技股份有限公司（由田，3455，Utechzone）法人說明會簡報（2025-08-20）",
+          "source_level": 3,
+          "period_binding": "2025年8月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。簡報載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」（AVI 即自動光學外觀檢查），並列產品含「先進封裝多面檢測設備、半導體二極體晶圓級檢測設備、IC載板AI拍（照）」「推出Mini LED載板減量測複合機」等；另載「各產業市佔率提升」與「持續為本產業之領先地位及提高市佔率」。全份簡報中「檢測」82次、「半導體」23次、「載板」8次、「PCB」9次、「LCD」5次、「封裝」10次、「市佔」2次、「高市佔」1次。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人簡報支持：「近年積極轉型半導體封裝檢測」——簡報中「半導體」出現23次、「封裝」10次、「檢測」82次，並列「先進封裝多面檢測設備、半導體二極體晶圓級檢測設備」等產品；「尤其在 IC 載板外觀檢查具有高市佔」——簡報明載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」（AVI 即自動光學外觀檢查，對應 claim 之「外觀檢查」，且官方所述為全球第一，強度高於 claim 之「高市佔」）。簡報中「載板」出現8次、「高市佔」1次。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3645:objective_ranking_or_market_share:b5c3e6a0efaa2e89",
+      "normalized_claim_hash": "b5c3e6a0efaa2e8983920ffa975a099a59bee2392b20022112a6536da3859247",
+      "ticker": "3645",
+      "company": "達邁",
+      "path": "Pilot_Reports/Electronic Components/3645_達邁.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達邁科技 (Taimide) 為台灣最大的 **聚醯亞胺薄膜 (PI Film)** 專業製造商，全球市佔位居前四名。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3645_109.pdf",
+          "title": "達邁科技股份有限公司（達邁，3645，Taimide Tech）109 年度年報",
+          "source_level": 3,
+          "period_binding": "民國109年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「**達邁科技股份有限公司成立於2000年，為台灣第一家投入生產聚醯亞胺薄膜（Polyimide，簡稱PI）的廠商**」，並載其「及特殊性材料的聚醯亞胺薄膜(PI Film)產業茁壯成為**全球生產PI薄膜領導廠商之一**」，另載其業務為「聚醯亞胺薄膜之製造，客製化代工與銷售」（「聚醯亞胺」23次、「PI Film」6次、「全球」22次）。全份年報中「台灣最大」與「前四」之出現次數均為0；「市佔」出現次數為0。"
+        }
+      ],
+      "rationale": "「為聚醯亞胺薄膜 (PI Film) 專業製造商」獲發行人年報支持：109年度年報載其業務為「聚醯亞胺薄膜之製造，客製化代工與銷售」，並載其「茁壯成為**全球生產PI薄膜領導廠商之一**」（「聚醯亞胺」23次、「PI Film」6次）。惟「台灣最大的 PI Film 專業製造商」未獲支持：年報載其為「**台灣第一家**投入生產聚醯亞胺薄膜的廠商」——「第一家」指進入時間先後而非規模最大，全份年報中「台灣最大」出現次數為0；「全球市佔位居前四名」亦未獲支持（「前四」與「市佔」出現次數均為0；官方用語為「領導廠商之一」）。故部分成立。",
+      "proposed_text": "達邁科技 (3645，Taimide Tech) 為台灣第一家投入生產聚醯亞胺薄膜 (PI Film) 的廠商，並為全球 PI 薄膜領導廠商之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3653:objective_ranking_or_market_share:32b1017f613092df",
+      "normalized_claim_hash": "32b1017f613092df24790429ed924d2efb85fcee9200dea64ab9e63a6f7b5770",
+      "ticker": "3653",
+      "company": "健策",
+      "path": "Pilot_Reports/Electronic Components/3653_健策.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "健策精密 (Kenmec) 為台灣最大的 **均熱片 (Vapor Chamber)** 供應商，也是全球精密沖壓及[[散熱]]解決方案的領導者。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://tw.jentech.com.tw/_files/ugd/e8883b_dba194276ebb46789d2a898d4b19c075.pdf",
+          "title": "健策精密工業股份有限公司（健策，3653，Jentech）官方公司文件",
+          "source_level": 3,
+          "period_binding": "文件以產品說明為主，未標示單一基準日。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「均熱片產品說明」「**均熱片產品市場狀況**」「**伺服器ILM扣件產品說明**」等章節（「均熱片」4次、「ILM」3次、「伺服器」6次、「全球」4次）。全份文件中「市佔」「台灣最大」與「Vapor」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為均熱片供應商」獲發行人官方文件支持：文件載「均熱片產品說明」「**均熱片產品市場狀況**」等章節（「均熱片」4次）。惟「為台灣最大的均熱片供應商，也是全球精密沖壓及散熱解決方案的領導者」未獲支持：全份文件中「台灣最大」「市佔」「Vapor」出現次數均為0，未以其為台灣最大或全球領導者自稱。故部分成立。",
+      "proposed_text": "健策精密 (3653，Jentech) 生產均熱片等散熱產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3653:objective_ranking_or_market_share:be2f7c2dfae707bf",
+      "normalized_claim_hash": "be2f7c2dfae707bf13121fcda037c5de296efe7bf3196b36dd18021d7a0d3d6c",
+      "ticker": "3653",
+      "company": "健策",
+      "path": "Pilot_Reports/Electronic Components/3653_健策.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **伺服器扣件 (ILM)**: 具備[[伺服器]]處理器[[連接器]]緊固件 (ILM) 的設計與製造能力，在[[伺服器]]市場具備極高市佔。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://tw.jentech.com.tw/_files/ugd/e8883b_dba194276ebb46789d2a898d4b19c075.pdf",
+          "title": "健策精密工業股份有限公司（健策，3653，Jentech）官方公司文件",
+          "source_level": 3,
+          "period_binding": "文件以產品說明為主，未標示單一基準日。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「均熱片產品說明」「**均熱片產品市場狀況**」「**伺服器ILM扣件產品說明**」等章節（「均熱片」4次、「ILM」3次、「伺服器」6次、「全球」4次）。全份文件中「市佔」「台灣最大」與「Vapor」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「具備伺服器處理器連接器緊固件 (ILM) 之設計與製造能力」獲發行人官方文件支持：文件載「**伺服器ILM扣件產品說明**」（「ILM」3次、「伺服器」6次）。惟「在伺服器市場具備極高市佔」未獲支持：全份文件中「市佔」出現次數為0，未載其於伺服器 ILM 市場之市占率或排名。故部分成立。",
+      "proposed_text": "健策精密 (3653，Jentech) 具備伺服器處理器連接器緊固件 (ILM) 之設計與製造能力。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

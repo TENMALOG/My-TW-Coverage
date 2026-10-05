@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 15:04 UTC
+Updated: 2026-10-07 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **352 / 1,399**
-- Remaining author review: **1,047**
-- Latest batch: **author-063** (6 claims)
+- Author-reviewed: **358 / 1,399**
+- Remaining author review: **1,041**
+- Latest batch: **author-064** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **63**
-- `PARTIALLY_SUPPORTED`: **221**
+- `ACCEPTED`: **64**
+- `PARTIALLY_SUPPORTED`: **225**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **64**
+- `UNKNOWN_AFTER_RESEARCH`: **65**
 
 ## Latest claim batch
 
-- `3152:objective_ranking_or_market_share:57faf7aa307b7942` — `PARTIALLY_SUPPORTED`; 璟德議事錄載「**璟德為國內首家專注於高頻整合元件與模組的設計及製造公司**」與 LTCC 天線模組開發；惟「台灣最大」0次（官方為「國內首家」，指時間非規模）、「全球前三大」0次。
-- `3217:objective_ranking_or_market_share:2f5f1672a80405d9` — `PARTIALLY_SUPPORTED`; 優群簡報載「DDR4/5 SO-DIMM 系列…**市占No.1**」；惟「50%」1次係「2020年起DDR與M.2在全球筆電市占率超越50%」（規格滲透率，非其自身市占）。
-- `3305:objective_ranking_or_market_share:e2ce4b02cefa7379` — `PARTIALLY_SUPPORTED`; 昇貿簡報載銲錫製品之生產銷售與越南、馬來西亞子公司；惟「台灣第一」「全球前三」「千住」「Alpha」皆0次。
-- `3311:objective_ranking_or_market_share:50321d8ad4f59f0e` — `PARTIALLY_SUPPORTED`; 閎暉簡報「穿戴」2次；惟「手機」「按鍵」「車用」「全球最大」「轉型」皆0次。
-- `3362:objective_ranking_or_market_share:0d1f1f055061087b`、`0734bd9829977ceb` — `PARTIALLY_SUPPORTED` ×2; 先進光股東會手冊「鏡頭」28次；惟「NB」「筆電」「市佔」「70%」「龍頭」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-063.json`（6 筆）。未修改發行人報告。
-- 里程碑：已審 **352 / 1,399（25.2%）**，突破四分之一。
-- Next pending claim by priority: `3441:objective_ranking_or_market_share:8b98c062556b5eb7` (聯一光).
+- `3441:objective_ranking_or_market_share:8b98c062556b5eb7` — `UNKNOWN_AFTER_RESEARCH`; 聯一光官方109與107年度年報端點均以「連接意外關閉」失敗，未取得可檢視文件。
+- `3455:objective_ranking_or_market_share:9dab2c22ab03c4f4` — `PARTIALLY_SUPPORTED`; 由田2025簡報「檢測」82次、「PCB」9次、「LCD」5次；惟市占敘述為泛用語，未載數字或排名。
+- `3455:objective_ranking_or_market_share:7453775b6f91a65d` — `ACCEPTED`; 同簡報明載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」，並列先進封裝多面檢測設備等產品（半導體23次、封裝10次）。
+- `3645:objective_ranking_or_market_share:b5c3e6a0efaa2e89` — `PARTIALLY_SUPPORTED`; 達邁109年報載其為「**台灣第一家**投入生產聚醯亞胺薄膜的廠商」及「全球生產PI薄膜**領導廠商之一**」；惟「台灣最大」與「前四」皆0次。
+- `3653:objective_ranking_or_market_share:32b1017f613092df`、`be2f7c2dfae707bf` — `PARTIALLY_SUPPORTED` ×2; 健策官方文件載均熱片產品說明、市場狀況與「伺服器ILM扣件產品說明」；惟「市佔」「台灣最大」「Vapor」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-064.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `3481:objective_ranking_or_market_share:44f9e638883c3468` (群創).
 
 ## Source access
 
