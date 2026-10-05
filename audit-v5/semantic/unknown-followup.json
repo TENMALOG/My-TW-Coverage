@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:06:00Z",
+  "generated_at": "2026-10-05T23:07:20Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -248,17 +248,18 @@
     "author-242",
     "author-243",
     "author-244",
-    "author-245"
+    "author-245",
+    "author-246"
   ],
-  "source_batch_count": 245,
-  "total_unknown": 376,
+  "source_batch_count": 246,
+  "total_unknown": 379,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 167,
-    "other_unclassified": 142,
+    "no_official_endpoint_found": 168,
+    "other_unclassified": 144,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 95,
+    "http_404": 96,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5761,6 +5762,49 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/337320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "9927:material_named_relationship:3515b4def3fd952d",
+      "ticker": "9927",
+      "company": "泰銘",
+      "claim": "主要客戶含[[廣隆光電]]、[[統一工業]]、[[臺灣湯淺電池]]。",
+      "batch_id": "author-246",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/992720121127M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4553:material_named_relationship:da1544701e031d80",
+      "ticker": "4553",
+      "company": "盛復",
+      "claim": "透過Tier 1間接供應歐系豪車[[BMW]]、[[Mercedes-Benz]]、[[Audi]]、[[Jaguar Land Rover]]。",
+      "batch_id": "author-246",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/455320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8411:export_concentration:84faf34240131cbc",
+      "ticker": "8411",
+      "company": "福貞-KY",
+      "claim": "台灣新竹廠則服務本地飲料大廠，並具備外銷能力，以東南亞市場為主，外銷佔比約 15%。",
+      "batch_id": "author-246",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/841120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

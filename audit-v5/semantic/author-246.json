@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-246",
+  "reviewed_at": "2026-10-05T23:07:06Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (聯友金屬2025業績發表會與114年度年報; 龍巖101年股東常會議事手冊; 華孚2025法說會; 泰銘法說會); 盛復端點HTTP 404; 福貞-KY未取得文件",
+  "items": [
+    {
+      "claim_id": "7610:material_named_relationship:2ce61d7c5a349053",
+      "normalized_claim_hash": "2ce61d7c5a349053380e8a42530fa090c573ef1676f9cf70adaf7efdd3177cd2",
+      "ticker": "7610",
+      "company": "聯友金屬-創",
+      "path": "Pilot_Reports/Other Industrial Metals & Mining/7610_聯友金屬-創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] — 100% 再生[[鎢]]金屬供應商",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/761020250819M001.pdf",
+          "title": "聯友金屬科技股份有限公司（聯友金屬-創，7610，Lian You Metal）上市前業績發表會簡報（2025-08-19）",
+          "source_level": 3,
+          "period_binding": "2025年8月19日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,700字元，以圖形排版為主）。簡報**逐字載**「⚫**台積電**及 **APPLE 綠色供應鍊的一員**」與「**回收金屬料含量100%驗證**」（「**APPLE**／**Apple**」合計3次、「**鎢**」90次、「100%」2次、「再生」1次）；併查該公司一一四年度年報（文字擷取88,987字元）亦見「**鎢**」235次、「再生」26次、「100%」36次，**支持其為再生鎢金屬業者且為 Apple 綠色供應鏈成員**。"
+        }
+      ],
+      "rationale": "「**[[Apple]]** — **100% 再生[[鎢]]**金屬供應商」獲發行人簡報**逐字支持**：簡報載「⚫**台積電**及 **APPLE 綠色供應鍊的一員**」（**為 Apple 供應鏈之成員**）與「**回收金屬料含量100%驗證**」（**支持 100% 之要素**），全份「**鎢**」出現90次、「APPLE／Apple」合計3次、「100%」2次；併查其一一四年度年報亦見「鎢」235次、「再生」26次、「100%」36次。**claim 之三項要素（Apple 供應關係、100%、再生鎢）均見於官方文件**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5530:identity_changing_event:c7b0e4ebc3050d7a",
+      "normalized_claim_hash": "c7b0e4ebc3050d7a10ea922c6b53837b34ef808ce018e17c7df4954dcfe6e601",
+      "ticker": "5530",
+      "company": "龍巖",
+      "path": "Pilot_Reports/Personal Services/5530_龍巖.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司原名[[大漢建設]]，2011 年與龍巖合併後更名。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lyls.com.tw/uploads/download/%e8%ad%b0101%e5%b9%b4%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8a.pdf",
+          "title": "龍巖股份有限公司（龍巖，5530，Lung Yen）一○一年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國101年股東常會。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取64,204字元）。手冊封面**逐字載**「**龍巖股份有限公司(更名前為大漢建設股份有限公司)一○一年股東常會**」，內文亦載「龍巖股份有限公司(**原名大漢建設股份有限公司**)」（「**大漢建設**」38次、「**更名**」2次），並見「**民國100**」2次（**民國100年＝2011年**），**支持其原名與更名事實及該年份之出現**。**關鍵發現**：全份文件中「**2011**」為**0次**；「**合併**」61次，**惟其多數為「合併財務報表」之用法**，**未見「與龍巖合併」之事件敘述**。"
+        }
+      ],
+      "rationale": "「公司**原名 [[大漢建設]]**…後**更名**」與「**2011 年**」獲發行人股東常會議事手冊**逐字支持**：手冊封面載「**龍巖股份有限公司(更名前為大漢建設股份有限公司)一○一年股東常會**」，內文亦載「(原名大漢建設股份有限公司)」（「**大漢建設**」38次、「更名」2次），並見「**民國100**」2次（**民國100年＝2011年**），**支持其原名、更名事實與該年份**。**惟「與龍巖合併」之事件本身未獲確認**——全份文件中「**合併**」雖出現61次，**惟其多數為「合併財務報表」之用法**，**未見該合併事件之敘述**；「2011」為0次。故部分成立。",
+      "proposed_text": "龍巖 (5530，Lung Yen) 原名大漢建設股份有限公司，其後更名為龍巖。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6235:material_named_relationship:42d42a3aec02f6d3",
+      "normalized_claim_hash": "42d42a3aec02f6d3e890292da43651267a1a32df5a47cf8347a00e647553c4ad",
+      "ticker": "6235",
+      "company": "華孚",
+      "path": "Pilot_Reports/Metal Fabrication/6235_華孚.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**下游**: 全球各大汽車品牌車廠([[OEM]])、汽車零組件一線供應商(Tier 1)、3C電子品牌及無人機廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/623520250910M002.pdf",
+          "title": "華孚科技股份有限公司（華孚，6235，Waffer Technology）法人說明會簡報（2025-09-10）",
+          "source_level": 3,
+          "period_binding": "2025年9月10日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,505字元，以圖形排版為主）。簡報中「**鎂合金**」出現4次、「**汽車**」13次、「客戶」2次，**支持其鎂合金汽車零組件業務**。**關鍵發現**：全份簡報中「**OEM**」與「**Tier 1**」之出現次數**均為0**（**未以該等客戶層級用語描述其下游**）。"
+        }
+      ],
+      "rationale": "「下游：（全球各大**汽車**品牌車廠）…」獲發行人簡報之**部分支持**：簡報中「**鎂合金**」出現4次、「**汽車**」13次，**支持其鎂合金汽車零組件業務**。**惟兩項客戶層級用語未獲支持**：「**OEM**」與「**Tier 1**」之出現次數**均為0**，**未以該等用語描述其下游客戶結構**。故部分成立。",
+      "proposed_text": "華孚科技 (6235，Waffer Technology) 供應汽車產業用之鎂合金零組件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9927:material_named_relationship:3515b4def3fd952d",
+      "normalized_claim_hash": "3515b4def3fd952d2ec78b046edfc0a8238c7a7f021afdab38a408be204b65a0",
+      "ticker": "9927",
+      "company": "泰銘",
+      "path": "Pilot_Reports/Other Industrial Metals & Mining/9927_泰銘.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶含[[廣隆光電]]、[[統一工業]]、[[臺灣湯淺電池]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/992720121127M001.pdf",
+          "title": "泰銘實業股份有限公司（泰銘，9927，Tai Ming）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2012年11月27日。**文件版本較舊**。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,338字元，**以圖形排版為主，可供檢索之文字有限**）。**關鍵發現**：全份簡報中「**廣隆**」「**統一工業**」「**湯淺**」與「客戶」之出現次數**均為0**——**未具名該等客戶**；**且該簡報為2012年版本**。"
+        }
+      ],
+      "rationale": "「主要客戶含 **[[廣隆光電]]**、**[[統一工業]]**、**[[臺灣湯淺電池]]**」未獲確立：所取得之泰銘法人說明會簡報中「**廣隆**」「**統一工業**」「**湯淺**」與「客戶」之出現次數**均為0**（該簡報僅2,338字元，可供檢索之文字有限，**且為2012年版本**）。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4553:material_named_relationship:da1544701e031d80",
+      "normalized_claim_hash": "da1544701e031d80a46dd48e7863cf45dd8e940a92d2673a96f43e7cff32b479",
+      "ticker": "4553",
+      "company": "盛復",
+      "path": "Pilot_Reports/Metal Fabrication/4553_盛復.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "透過Tier 1間接供應歐系豪車[[BMW]]、[[Mercedes-Benz]]、[[Audi]]、[[Jaguar Land Rover]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/455320250401M001.pdf",
+          "title": "盛復工業（4553）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之盛復工業端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得盛復工業可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「透過 **Tier 1** 間接供應歐系豪車 **[[BMW]]**、**[[Mercedes-Benz]]**、**[[A（udi）]]**」未獲確立：本批次所嘗試之盛復端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8411:export_concentration:84faf34240131cbc",
+      "normalized_claim_hash": "84faf34240131cbc7babd176974923f7393f8aa555ee4281c7f62afbe38a8ce6",
+      "ticker": "8411",
+      "company": "福貞-KY",
+      "path": "Pilot_Reports/Packaging & Containers/8411_福貞-KY.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣新竹廠則服務本地飲料大廠，並具備外銷能力，以東南亞市場為主，外銷佔比約 15%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/841120250401M001.pdf",
+          "title": "福貞-KY（8411）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次未就福貞-KY取得可檢視之官方文件（**本批次之下載集中於其他標的**）；故未能就 claim 所述之外銷佔比與市場分布進行驗證。"
+        }
+      ],
+      "rationale": "「台灣新竹廠服務本地飲料大廠…以**東南亞市場**為主，**外銷佔比約 15%**」未獲確立：本批次未就福貞-KY取得可檢視之官方文件，未能就該等比例與市場分布進行驗證，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
