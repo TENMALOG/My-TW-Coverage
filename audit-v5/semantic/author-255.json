@@ -1,0 +1,175 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-255",
+  "reviewed_at": "2026-10-05T23:19:23Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (威睿2019與2018年度年報; 國碩2025法說會; 元晶公司文件); 太極官方端點連線失敗; 達能端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "8298:material_named_relationship:2b7d8122908935b6",
+      "normalized_claim_hash": "2b7d8122908935b687ad6acd6be4fb95f9f7e6cede8ca0e74a54c776a0891c67",
+      "ticker": "8298",
+      "company": "威睿",
+      "path": "Pilot_Reports/Software - Infrastructure/8298_威睿.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為全球知名電信營運商 ([[ISP]])、政府機構、學術機構及大型企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.genie-networks.com/downloads/annualreport2019.pdf",
+          "title": "威睿科技股份有限公司（威睿，8298，Genie Networks）2019 年度年報",
+          "source_level": 3,
+          "period_binding": "2019年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取120,544字元）。年報中「**電信**」出現91次、「**政府**」6次、「**ISP**」2次、「**大型企業**」1次、「**毛利**」4次、「**授權**」5次、「**90%**」1次、「毛利率」1次，並載「**GenieATM** 網路運營商流量分析與安全檢測系統（**GenieATM ISP**）」「可以幫助**ISP**（…）」。**關鍵發現**：全份年報中「**學術**」與「**軟體授權**」之出現次數**均為0**。"
+        },
+        {
+          "url": "https://www.genie-networks.com/downloads/annualreport2018.pdf",
+          "title": "威睿科技股份有限公司（威睿，8298，Genie Networks）2018 年度年報",
+          "source_level": 3,
+          "period_binding": "2018年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取約133頁）。年報載「**威睿科技**為一款體開發公司，以研究、開發、設計及製造大型網際網路通訊（**Internet Protocol, IP**）網路 **DDoS**（Distributed Denial of Service）…」，**支持其為大型 IP 網路軟體開發商之定位**。"
+        }
+      ],
+      "rationale": "「主要客戶為全球知名**電信營運商（[[ISP]]）**、**政府機構**…及**大型企業**」獲發行人年報之**部分支持**：年報中「**電信**」91次、「**政府**」6次、「**ISP**」2次、「**大型企業**」1次，並載「**GenieATM** 網路運營商流量分析與安全檢測系統（**GenieATM ISP**）」；其2018年度年報亦載其為「大型網際網路通訊（**IP**）網路 **DDoS**」軟體開發商，**支持其以電信營運商為客戶**。**惟「學術機構」未獲支持**——「**學術**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "威睿科技 (8298，Genie Networks) 之客戶包含電信營運商（ISP）、政府機構及大型企業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8298:profitability_assertion:efe47d18a6578fd0",
+      "normalized_claim_hash": "efe47d18a6578fd0f15371bc8e7dff69bf863480d004567888e0402526560c21",
+      "ticker": "8298",
+      "company": "威睿",
+      "path": "Pilot_Reports/Software - Infrastructure/8298_威睿.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以高毛利 (逾 90%) 之純軟體授權模式營運。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.genie-networks.com/downloads/annualreport2019.pdf",
+          "title": "威睿科技股份有限公司（威睿，8298，Genie Networks）2019 年度年報",
+          "source_level": 3,
+          "period_binding": "2019年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取120,544字元）。年報中「**電信**」出現91次、「**政府**」6次、「**ISP**」2次、「**大型企業**」1次、「**毛利**」4次、「**授權**」5次、「**90%**」1次、「毛利率」1次，並載「**GenieATM** 網路運營商流量分析與安全檢測系統（**GenieATM ISP**）」「可以幫助**ISP**（…）」。**關鍵發現**：全份年報中「**學術**」與「**軟體授權**」之出現次數**均為0**。"
+        },
+        {
+          "url": "https://www.genie-networks.com/downloads/annualreport2018.pdf",
+          "title": "威睿科技股份有限公司（威睿，8298，Genie Networks）2018 年度年報",
+          "source_level": 3,
+          "period_binding": "2018年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取約133頁）。年報載「**威睿科技**為一款體開發公司，以研究、開發、設計及製造大型網際網路通訊（**Internet Protocol, IP**）網路 **DDoS**（Distributed Denial of Service）…」，**支持其為大型 IP 網路軟體開發商之定位**。"
+        }
+      ],
+      "rationale": "「以**高毛利（逾 90%）**之…模式營運」獲發行人年報之**部分支持**：年報中「**毛利**」4次、「**毛利率**」1次、「**90%**」1次、「**授權**」5次，**支持其高毛利之商業模式**（並經其為**軟體開發公司**之定位支持）。**惟「純軟體授權」之表述未獲支持**——「**軟體授權**」之出現次數**為0**（「授權」5次未與「軟體」連用）。故部分成立。",
+      "proposed_text": "威睿科技 (8298，Genie Networks) 為軟體開發公司，採高毛利之營運模式。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6443:material_named_relationship:136708d347c60f29",
+      "normalized_claim_hash": "136708d347c60f29b9a78bfe9cb020525c6137b5a359fe425e7676a1009480fd",
+      "ticker": "6443",
+      "company": "元晶",
+      "path": "Pilot_Reports/Solar/6443_元晶.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **太陽能電池：** 生產高轉換效率之大尺寸太陽能電池，成功打入[[Tesla]]太陽能屋瓦 (Solar Roof) 供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tsecpv.com/storage/2025/09/11405233.pdf",
+          "title": "元晶太陽能科技股份有限公司（元晶，6443，TSEC）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取105,607字元）。文件封面載「**元晶太陽能科技股份有限公司 TSEC CORPORATION**」；文中「**太陽能電池**」出現87次、「**大尺寸**」7次、「電動車」3次，**充分支持其大尺寸太陽能電池產品**。**關鍵發現**：全份文件中「**Tesla**」之出現次數**為0**——**未具名該客戶**。"
+        }
+      ],
+      "rationale": "「生產**高轉換效率之大尺寸太陽能電池**」獲發行人文件**充分支持**：文件（封面載「**元晶太陽能科技股份有限公司 TSEC CORPORATION**」）中「**太陽能電池**」出現87次、「**大尺寸**」7次，**支持其大尺寸太陽能電池產品**。**惟「成功打入 [[Tesla]]（供應鏈）」未獲支持**——全份文件中「**Tesla**」之出現次數**為0**，**未具名該客戶**。故部分成立。",
+      "proposed_text": "元晶太陽能科技 (6443，TSEC) 生產大尺寸太陽能電池。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2406:material_named_relationship:af4e43774998c8a8",
+      "normalized_claim_hash": "af4e43774998c8a81e432cd41e44a77ee09e3dd569047477744b91ee7a8c36de",
+      "ticker": "2406",
+      "company": "國碩",
+      "path": "Pilot_Reports/Solar/2406_國碩.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **太陽能導電銲帶 ([[PV Ribbon]])：** 為太陽能電池串焊之關鍵材料，佔營收約四成，供應國內外電池與模組廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/240620251127M001.pdf",
+          "title": "國碩科技工業股份有限公司（國碩，2406，Kuo Shuo）法人說明會簡報（2025-11-27）",
+          "source_level": 3,
+          "period_binding": "2025年11月27日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,844字元，以圖形排版為主）。簡報封面載「**國碩科技工業**股份有限公司 法人說明會 114年11月27日」，目錄為「國碩科技組織／2025年實績／**太陽能案場實績**／產品別營收毛利／合併損益／2026年展望」（「**太陽能**」5次）。**關鍵發現**：全份簡報中「**PV Ribbon**」「**導電銲帶**」與「**串焊**」之出現次數**均為0**——**該簡報以太陽能案場為主題，未載該材料產品**。"
+        }
+      ],
+      "rationale": "「1. **太陽能**（產業）」之領域獲發行人簡報之**部分支持**：簡報中「**太陽能**」出現5次（目錄載「**太陽能案場實績**」），**確認其太陽能業務**。**惟該 claim 之核心產品未獲支持**：「**PV Ribbon**」「**導電銲帶**」與「**串焊**」之出現次數**均為0**。**文件性質註記**：**該簡報以「太陽能案場實績」為主題，為電廠導向之簡報，未載材料產品之敘述**；**建議改由年報或公開說明書複核其 PV Ribbon 產品線**。故部分成立。",
+      "proposed_text": "國碩科技工業 (2406，Kuo Shuo) 從事太陽能相關業務。（本筆所據簡報為案場導向，建議以年報複核其材料產品線）",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4934:profitability_assertion:2eee18322d02f40a",
+      "normalized_claim_hash": "2eee18322d02f40a471b701e237df0af725a46f7445971eed3714cc739c58a64",
+      "ticker": "4934",
+      "company": "太極",
+      "path": "Pilot_Reports/Solar/4934_太極.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**美國市場：** 透過越南產能出口之主要獲利來源",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.tainergy.com.tw/investor/upload/investorfp/20200922CH.pdf",
+          "title": "太極能源科技股份有限公司（太極，4934，Tainergy）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就太極能源所嘗試之官方端點回應 **無法連接至遠端伺服器（connection failure）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「**美國市場**：透過**越南產能出口**之主要獲利來源」未獲確立：本批次就太極能源所嘗試之官方端點回應 **無法連接至遠端伺服器**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3686:profitability_assertion:8da19bf0394f5a07",
+      "normalized_claim_hash": "8da19bf0394f5a078242871aa487ca559a5e6d82212696f09c194234cf6756e6",
+      "ticker": "3686",
+      "company": "達能",
+      "path": "Pilot_Reports/Solar/3686_達能.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "營運規模較小，以穩健的電廠資產收益為主要獲利來源。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/368620250401M001.pdf",
+          "title": "達能科技（3686）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之達能科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得達能科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「營運規模較小，以穩健的**電廠資產收益**為主要獲利來源」未獲確立：本批次所嘗試之達能端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

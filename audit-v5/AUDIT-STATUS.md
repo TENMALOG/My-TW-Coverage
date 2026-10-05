@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 14:04 UTC
+Updated: 2026-10-15 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,315 / 1,399**
-- Remaining author review: **84**
-- Latest batch: **author-254** (6 claims)
+- Author-reviewed: **1,321 / 1,399**
+- Remaining author review: **78**
+- Latest batch: **author-255** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **799**
+- `PARTIALLY_SUPPORTED`: **803**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **406**
+- `UNKNOWN_AFTER_RESEARCH`: **408**
 
 ## Latest claim batch
 
-- `6113:material_named_relationship:aae3976ab7d6df98` — `PARTIALLY_SUPPORTED`；亞矽年報「**亞矽科技」157 次、「代理」85 次、「技術支援」7 次、「零組件」21 次**；**惟「Design-in」0 次**。
-- `8112:material_named_relationship:cafe7c80dddb81bf`、`520feb9d0a03f34a` — `PARTIALLY_SUPPORTED` ×2；至上簡報**逐字載**「韓國**三星電子（Samsung）代理商**」「取得**三星電子全系列**」；**惟「主要供應商／主力代理」字樣未見**。
-- `6233:material_named_relationship:a145a85dc6d3dece` — `PARTIALLY_SUPPORTED`；旺玖114年議事手冊「**散熱」3 次、「風扇」3 次**；**惟「MEMS／微機電／馬達IC」皆 0 次**（**文件為議事手冊**）。
-- `6415:material_named_relationship:0cef52dbf5efff15` — `UNKNOWN_AFTER_RESEARCH`；矽力-KY簡報「**Samsung／Sony／華為／Tier 1／車廠」皆 0 次**。
-- `6568:1731f691304f081b` — `UNKNOWN_AFTER_RESEARCH`；宏觀端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-254.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,315 ＝ 條目總數 1,315。**覆蓋率 94.00%**。
-- Next pending claim by priority: `8298:material_named_relationship:2b7d8122908935b6` (威睿).
+- `8298:material_named_relationship:2b7d8122908935b6` — `PARTIALLY_SUPPORTED`；威睿年報「**電信」91 次、「政府」6 次、「ISP」2 次、「大型企業」1 次**；**惟「學術」0 次**。
+- `8298:profitability_assertion:efe47d18a6578fd0` — `PARTIALLY_SUPPORTED`；年報「**毛利」4 次、「授權」5 次、「90%」1 次**；**惟「軟體授權」字樣 0 次**。
+- `6443:material_named_relationship:136708d347c60f29` — `PARTIALLY_SUPPORTED`；元晶文件「**太陽能電池」87 次、「大尺寸」7 次**；**惟「Tesla」0 次**。
+- `2406:material_named_relationship:af4e43774998c8a8` — `PARTIALLY_SUPPORTED`；國碩簡報「**太陽能」5 次**（**案場導向簡報**）；**惟「PV Ribbon／導電銲帶／串焊」皆 0 次**。
+- ⚠️ `4934:2eee18322d02f40a` — `UNKNOWN_AFTER_RESEARCH`；太極官方端點**連線失敗**。
+- `3686:8da19bf0394f5a07` — `UNKNOWN_AFTER_RESEARCH`；達能端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-255.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,321 ＝ 條目總數 1,321。**覆蓋率 94.42%**。
+- Next pending claim by priority: `6477:material_named_relationship:f2193835814d25c6` (安集).
 
 ## Source access
 
