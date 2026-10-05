@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 13:04 UTC
+Updated: 2026-10-08 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **490 / 1,399**
-- Remaining author review: **909**
-- Latest batch: **author-085** (8 claims)
+- Author-reviewed: **498 / 1,399**
+- Remaining author review: **901**
+- Latest batch: **author-086** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **325**
+- `PARTIALLY_SUPPORTED`: **329**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **90**
+- `UNKNOWN_AFTER_RESEARCH`: **94**
 
 ## Latest claim batch
 
-- `1810:objective_ranking_or_market_share:51ab5ce5d9716cb5`、`18cac244bb931018` — `PARTIALLY_SUPPORTED` ×2；和成98年報「衛浴」46次、「中國」78次；惟「市佔第二」「市佔第四」「市佔第一」「菲律賓」「越南」皆0次（並註記該版本為98年度）。
-- `2059:objective_ranking_or_market_share:c23a7e78fb5bb734` — `PARTIALLY_SUPPORTED`；川湖2025簡報載「**亞洲第一伺服器導軌製造商**」（導軌11次）；惟「全球第二」「三成」皆0次。
-- `2059:objective_ranking_or_market_share:4efb402a64a4a4a6` — `UNKNOWN_AFTER_RESEARCH`；簡報「Accuride」「66%」皆0次，未取得該公司官方文件。
-- `4564:objective_ranking_or_market_share:5b9331d6b36946b2`、`44be16e89884bbf0` — `PARTIALLY_SUPPORTED` ×2；元翎2024永續報告載「成為**全球高壓充氣鋼瓶製造領導廠**」「**全球消費性高壓充氣鋼瓶領導廠商**」（領導8次）與安全氣囊7次、比亞迪2次；惟「MOSA」「40%」「全球市佔」「唯一」「全系列」皆0次。
-- `6629:objective_ranking_or_market_share:011aa453e3809aa4`、`f4667886c406f031` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY簡報（1,587字元）「Home Depot」「IKEA」「最大」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-085.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6629:objective_ranking_or_market_share:a8ac715de8b715a0` (泰金-KY).
+- `6629:objective_ranking_or_market_share:a8ac715de8b715a0`、`6df22dec22cccf22` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY簡報「Home Depot」「IKEA」「最大」皆0次。
+- `6807:objective_ranking_or_market_share:cf492ef06b948781` — `UNKNOWN_AFTER_RESEARCH`；峰源113年報**文字層自第4頁起為亂碼**，IKEA／customer／largest／70%／25 years 皆0次。
+- `8066:objective_ranking_or_market_share:8d3161d07c2c386f` — `PARTIALLY_SUPPORTED`；來思達簡報「自有品牌」3次；惟「1996」「唯一」「B2B」皆0次（版本為2015年）。
+- `8464:objective_ranking_or_market_share:12cdc0907b6edc55` — `PARTIALLY_SUPPORTED`；億豐111年報「北美」20次、「PVC」12次；惟「最大營收」2次係**氣候風險情境**（「對億豐最大營收衝擊是0.2%、0.4%」），「除濕機」「空氣清淨」皆0次。
+- `8464:objective_ranking_or_market_share:a2b185b497e23211` — `UNKNOWN_AFTER_RESEARCH`；年報「Hunter」0次；「全球最大」1次係指**億豐自身為全球最大市值窗簾公司**（以市值計），非Hunter Douglas。
+- `9911:objective_ranking_or_market_share:9919abbc162a9a07`、`58fa6a469bd3bfc1` — `PARTIALLY_SUPPORTED` ×2；櫻花102年報「熱水器」42次、「莊頭北」1次；惟「1978」「第一品牌」「林內」「市佔第一」皆0次（版本為102年度）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-086.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `9935:objective_ranking_or_market_share:edace39a5abeffd8` (慶豐富).
 
 ## Source access
 

@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **490 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), and `author-085` (8).
+Author-reviewed: **498 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), and `author-086` (8).
 
 - ACCEPTED by author: 71
-- PARTIALLY_SUPPORTED: 325
+- PARTIALLY_SUPPORTED: 329
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 90
-- Remaining author queue: 909
+- Other allowed author decisions: 94
+- Remaining author queue: 901
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1005,6 +1005,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **90 筆**。
 - Author-reviewed total: **490 / 1,399**; remaining: **909**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 325, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 90. Next pending claim by priority: `6629:objective_ranking_or_market_share:a8ac715de8b715a0` (泰金-KY).
+
+## Author batch `author-086` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (泰金-KY 6629 ×2, 峰源-KY 6807, 來思達 8066, 億豐 8464 ×2, 櫻花 9911 ×2). Evidence came from directly downloaded and inspected official disclosures: 泰金-KY 2022年法人說明會簡報、峰源113年度年報、來思達2015年法人說明會簡報、億豐111年度年報、櫻花102年度股東會年報。
+- `6629:objective_ranking_or_market_share:a8ac715de8b715a0` 與 `6df22dec22cccf22` — `UNKNOWN_AFTER_RESEARCH`. 泰金-KY官方簡報（文字擷取1,587字元）內容為公司基本資料、集團架構與產品應用類型，全份簡報中「**Home Depot**」「**IKEA**」與「最大」出現次數均為0，客戶身分未獲確立。
+- `6807:objective_ranking_or_market_share:cf492ef06b948781` — `UNKNOWN_AFTER_RESEARCH`. 峰源113年度年報之封面與發言人頁可讀，**惟自第4頁起之文字層呈現亂碼**（如「Ϧљᐱҥဠ٣」「ҽԖज़Ϧљ(ᆵ᡼ഝ྽മ)」等，與台光電、上洋、必應之年報同型），以關鍵字檢索「IKEA」「customer」「largest」「70%」與「25 years」之出現次數均為0，故「最大客戶為 IKEA、佔營收約七成、合作逾25年」未獲確立。
+- `8066:objective_ranking_or_market_share:8d3161d07c2c386f` — `PARTIALLY_SUPPORTED`. 來思達2015年官方簡報中「**自有品牌**」出現3次，支持其自有品牌家具業務；惟「成立於1996年」（「1996」0次）與「台灣**唯一**擁有自有品牌並以 **B2B** 行銷全球」（「唯一」「B2B」均0次）未獲支持。註記：該版本為2015年。
+- `8464:objective_ranking_or_market_share:12cdc0907b6edc55` — `PARTIALLY_SUPPORTED`. 億豐111年度年報中「**北美**」出現20次、「**PVC**」12次、「窗簾」219次，支持其北美市場之重要性及 PVC 管材產品；惟「北美市場為**最大營收來源**」未獲支持——「最大營收」2次之上下文均為**氣候風險情境**（「採產值比例推算，對億豐最大營收衝擊是0.2%、0.4%」），且「**除濕機**」「**空氣清淨**」出現次數均為0。
+- `8464:objective_ranking_or_market_share:a2b185b497e23211` — `UNKNOWN_AFTER_RESEARCH`. 億豐年報中「**Hunter**」出現次數為0；年報中「全球最大」3次之一係指**億豐自身**「按2023年3月31日收盤價…市值約為美金33億，為**全球最大市值窗簾公司**」，**並非**對 Hunter Douglas 之敘述（且該表述係以市值為基準而非製造規模），故該第三人市場地位未獲確立。
+- `9911:objective_ranking_or_market_share:9919abbc162a9a07` 與 `58fa6a469bd3bfc1` — `PARTIALLY_SUPPORTED`. 櫻花102年度年報中「**熱水器**」出現42次、「**莊頭北**」1次，支持其熱水器業務及同業關係；惟「創立於1978年」（「1978」0次）、「為台灣廚衛電器**第一品牌**」（0次）、「主要競爭者包括**林內**」（0次）與「熱水器台灣**市佔第一**」（0次）均未獲支持。註記：該版本為102年度。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **94 筆**。
+- Author-reviewed total: **498 / 1,399**; remaining: **901**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 329, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 94. Next pending claim by priority: `9935:objective_ranking_or_market_share:edace39a5abeffd8` (慶豐富).
+
 
 
 
