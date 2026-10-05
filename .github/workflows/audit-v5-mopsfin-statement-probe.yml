@@ -1,0 +1,29 @@
+name: Audit v5 Mopsfin statement probe
+on:
+  workflow_dispatch:
+  push:
+    branches: [audit-v5]
+    paths:
+      - "audit-v5/mopsfin_statement_probe.py"
+      - ".github/workflows/audit-v5-mopsfin-statement-probe.yml"
+permissions:
+  contents: write
+jobs:
+  probe:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: audit-v5, fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -X utf8 audit-v5/mopsfin_statement_probe.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-v5/generated/mopsfin-statement-probe.json
+          git commit -m "audit: capture Mopsfin statement probe [skip ci]" || exit 0
+          git fetch origin audit-v5
+          git rebase origin/audit-v5
+          git push origin HEAD:audit-v5
