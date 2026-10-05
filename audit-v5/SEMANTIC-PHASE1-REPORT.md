@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **338 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), and `author-060` (7).
+Author-reviewed: **341 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), and `author-061` (3).
 
-- ACCEPTED by author: 58
-- PARTIALLY_SUPPORTED: 212
+- ACCEPTED by author: 59
+- PARTIALLY_SUPPORTED: 214
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 64
-- Remaining author queue: 1,061
+- Remaining author queue: 1,058
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -717,6 +717,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - 趨勢註記：本批次新增5筆 UNKNOWN，使 UNKNOWN 累計 **64 筆**，佔已審338筆之18.9%，成因均為官方來源不可取得（404、下載逾時、未查得端點）。此類情形與 `local-recheck-queue.json` 所記錄之 Cloud 環境 HTTP 500–504 失敗性質不同，故未計入該佇列。
 - Author-reviewed total: **338 / 1,399**; remaining: **1,061**. Outcome counts: ACCEPTED 58, PARTIALLY_SUPPORTED 212, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3037:objective_ranking_or_market_share:2416d3deb1742a86` (欣興).
+
+## Author batch `author-061` — 2026-10-07
+
+- Reviewed the next three unreviewed objective ranking/market-share claims in checkpoint order (欣興 3037 ×2, 精金 3049). Evidence came from directly downloaded and inspected official disclosures: 欣興105年度年報、欣興2026年第二季法人說明會合併財務資料、精金年報。
+- `3037:objective_ranking_or_market_share:2416d3deb1742a86` — `PARTIALLY_SUPPORTED`. 欣興105年度年報中「載板」出現27次、「PCB」34次，並載「在經營策略上，IC 載板事業處將持續開發新材料與製程以因應未來（需求）」與覆晶載板新廠量產等沿革，「聯電」出現1次與其集團歸屬相符。惟「為全球最大 PCB 與 IC 載板製造商之一」未獲支持（「全球最大」出現次數為0）。註記：本批次可檢視之版本為105年度。
+- `3037:objective_ranking_or_market_share:9b2f00b9af8d44c3` — `PARTIALLY_SUPPORTED`. 「從事 IC 載板業務」獲支持（105年報「載板」27次；2026年第二季法人說明會「ABF」1次）。惟「ABF 載板全球市佔率約18%」（105年報「ABF」0次、簡報亦未載市占率）、「僅次於日本 Ibiden」（「Ibiden」0次）與「為 NVIDIA、AMD、Intel 核心供應商」均未獲支持。
+- `3049:objective_ranking_or_market_share:6538e9d4932d6c19` — `ACCEPTED`. 精金年報載「**瀚宇彩晶投資本公司**」「（瀚宇彩晶）正式為本公司**最大股東**」「（瀚宇彩晶取得）及兩位獨立董事，另瀚宇彩晶取得一席監察人」「**瀚宇彩晶於98年6月16日董監事改選後，對本公司具控制力**」，並載其業務與觸控與彩色濾光片相關（「觸控」82次、「彩色濾光片」5次、「瀚宇彩晶」26次），與 claim 之「早期從事彩色濾光片，後轉型為觸控感應器專業製造商，主要為瀚宇彩晶（最大股東）供應觸控面板」對應。
+- 新增產出：**`semantic/unknown-followup.json`**（UNKNOWN 追蹤清單）。本清單彙整全部 `UNKNOWN_AFTER_RESEARCH` 之 HIGH claim 共 **64 筆**，欄位包含 claim_id、ticker、company、claim 原文、batch_id、failure_signature（失敗分類）、attempted_sources（已嘗試來源網址）與 recommended_retry（建議替代路徑）。失敗分類統計：mops_non_document 24、non_document_response 22、http_404 21、no_official_endpoint_found 21、image_only_or_tiny_text 7、http_403 5、client_rendered_only 4、connection_failure 3、garbled_text_layer 3、download_timeout 2、other_unclassified 30（同一筆可歸屬多類）。此清單供獨立複核階段直接照表重查，避免回溯60餘個批次檔。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **341 / 1,399**; remaining: **1,058**. Outcome counts: ACCEPTED 59, PARTIALLY_SUPPORTED 214, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3060:objective_ranking_or_market_share:56574c45f5224560` (銘異).
+
 
 
 

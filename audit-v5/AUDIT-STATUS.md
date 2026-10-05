@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 12:04 UTC
+Updated: 2026-10-07 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **338 / 1,399**
-- Remaining author review: **1,061**
-- Latest batch: **author-060** (7 claims)
+- Author-reviewed: **341 / 1,399**
+- Remaining author review: **1,058**
+- Latest batch: **author-061** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **58**
-- `PARTIALLY_SUPPORTED`: **212**
+- `ACCEPTED`: **59**
+- `PARTIALLY_SUPPORTED`: **214**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` — `UNKNOWN_AFTER_RESEARCH`; 毅嘉官網根網址HTTP 200，惟年報路徑（http/https）與股東資訊頁均回404，未取得可檢視文件。
-- `2486:objective_ranking_or_market_share:e7b17a5349873c82`、`7243ef589ba0d390` — `ACCEPTED` ×2; 一詮2023永續報告第15頁載「**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**」，並列主要產品含 LED 導線架、IC 導線架、陶瓷基板、均熱片（半導體）。
-- `3008:objective_ranking_or_market_share:851df492397be9dc` — `UNKNOWN_AFTER_RESEARCH`; 大立光2013年報「Apple」「Samsung」「小米」「OPPO」「vivo」與「最大客戶」皆0次（客戶27次均為通稱），依客戶身分規則結為UNKNOWN（該版本亦非近期）。
-- `3017:objective_ranking_or_market_share:f76fbbb6956b1040` — `UNKNOWN_AFTER_RESEARCH`; 未查得奇鋐官方網域可檢視PDF端點，所取得者均為券商與第三方媒體。
-- `3036:objective_ranking_or_market_share:48c69f1daccb8476`、`8a0838b5f670f054` — `UNKNOWN_AFTER_RESEARCH` ×2; 文曄官方簡報端點連續兩次（含420秒逾時）下載失敗。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-060.json`（7 筆）。未修改發行人報告。
-- 註記：本批次新增5筆 UNKNOWN，使 UNKNOWN 累計達64筆（佔已審338筆之18.9%），成因均為官方來源不可取得（404／逾時／未查得端點）。
-- Next pending claim by priority: `3037:objective_ranking_or_market_share:2416d3deb1742a86` (欣興).
+- `3037:objective_ranking_or_market_share:2416d3deb1742a86` — `PARTIALLY_SUPPORTED`; 欣興105年報「載板」27次、「PCB」34次、「聯電」1次；惟「全球最大」0次。
+- `3037:objective_ranking_or_market_share:9b2f00b9af8d44c3` — `PARTIALLY_SUPPORTED`; IC載板業務與2026Q2簡報之「ABF」1次；惟「ABF」於105年報0次、「Ibiden」0次、「18%」未載。
+- `3049:objective_ranking_or_market_share:6538e9d4932d6c19` — `ACCEPTED`; 精金年報載「瀚宇彩晶投資本公司」「正式為本公司**最大股東**」「**於98年6月16日董監事改選後，對本公司具控制力**」，並載觸控與彩色濾光片業務（觸控82次、彩色濾光片5次）。
+- **新增產出：`semantic/unknown-followup.json`（UNKNOWN 追蹤清單）** — 彙整全部 `UNKNOWN_AFTER_RESEARCH` 之 HIGH claim，共 **64 筆**，含 claim_id、ticker、公司、claim 原文、所屬批次、失敗分類（failure_signature）、已嘗試來源網址與建議替代路徑。失敗分類統計：mops_non_document 24、non_document_response 22、http_404 21、no_official_endpoint_found 21、image_only_or_tiny_text 7、http_403 5、client_rendered_only 4、connection_failure 3、garbled_text_layer 3、download_timeout 2、other_unclassified 30（同一筆可屬多類）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-061.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `3060:objective_ranking_or_market_share:56574c45f5224560` (銘異).
 
 ## Source access
 
