@@ -20,7 +20,8 @@
     "REJECTED",
     "REVISION_REQUIRED",
     "BLOCKED",
-    "REPO_VALUE_UNAVAILABLE"
+    "REPO_VALUE_UNAVAILABLE",
+    "SOURCE_DEFINITION_DIFFERENCE"
   ],
   "issuer_dimensions": [
     "identity",
@@ -68,6 +69,6 @@
     "direct_state_flip_forbidden": true
   },
   "notes": {
-    "official_financial_phase1": "General-industry current-period checker may emit METHOD_UNRESOLVED for operating-income or specialized financial-sector mismatches."
+    "official_financial_phase1": "Current-period general-industry mappings are approved. Legacy yfinance Operating Income mismatches are SOURCE_DEFINITION_DIFFERENCE, not issuer-specific method gaps."
   }
 }

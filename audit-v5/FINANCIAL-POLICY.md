@@ -82,3 +82,14 @@ A current-period mismatch is not automatically a factual error.
 - Reports in banking, capital markets, credit services, financial conglomerates, insurance and related financial-service sectors use `METHOD_UNRESOLVED` under the general-industry checker until specialized schemas are implemented.
 
 This prevents a broad accounting-definition mismatch from being misreported as hundreds of issuer-level factual errors.
+
+
+## Operating Income legacy-source disposition
+
+The corpus-level accounting mapping is now closed for general-industry current-period Operating Income:
+
+Operating Income -> MOPS 營業利益（損失） / Mopsfin OperatingIncome
+
+When the legacy repository value sourced from Yahoo/yfinance differs from this approved official concept, v5 records SOURCE_DEFINITION_DIFFERENCE with reason legacy-yfinance-operating-income-vs-canonical-mops.
+
+This is not an issuer-by-issuer accounting-method ambiguity and must not consume semantic-review capacity. Specialized financial-sector schemas remain METHOD_UNRESOLVED until their own mappings are approved.
