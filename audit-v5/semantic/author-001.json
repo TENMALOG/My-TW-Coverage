@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-001",
+  "reviewed_at": "2026-10-05T11:56:00Z",
+  "reviewer_role": "author",
+  "method": "manual semantic review against inspected authoritative/issuer/government sources; search snippets not used as sole evidence",
+  "items": [
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ccf06f0f4586432a",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "source_level": 2,
+          "title": "台船公司刊物：歡迎來到台船大家庭",
+          "url": "https://www.csbcnet.com.tw/monthly_pub/files/02%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E5%8F%B0%E8%88%B9%E5%A4%A7%E5%AE%B6%E5%BA%AD%EF%BC%81_%E8%B6%8A%E5%8D%97%E7%B1%8D%E7%94%9F%E5%8A%9B%E8%BB%8D%E6%AD%A3%E5%BC%8F%E4%B8%8A%E5%B7%A5.pdf",
+          "note": "Issuer publication explicitly describes 台船 as 台灣最大的國際性造船廠."
+        }
+      ],
+      "rationale": "Official issuer publication directly supports the ranking assertion."
+    },
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ac3375b6f79fe6f3",
+      "decision": "UNSUPPORTED",
+      "evidence": [
+        {
+          "source_level": 2,
+          "title": "台船環海：2024 中能風場安裝完成新聞稿",
+          "url": "https://www.cdwe.com.tw/news_detail.php?id=93",
+          "note": "Official CDWE release describes Green Jade as 本國籍最大、亞洲第二大風電工程船."
+        },
+        {
+          "source_level": 2,
+          "title": "台船環海：環海翡翠輪交船典禮",
+          "url": "https://www.cdwe.com.tw/news_detail.php?id=83",
+          "note": "Official release describes the vessel as 台灣第一艘、目前唯一、全球第二大型的風電浮吊船."
+        }
+      ],
+      "rationale": "The report says 亞洲最大; current official issuer material says 亞洲第二大. Material ranking conflict.",
+      "proposed_text": "擁有本國籍最大、亞洲第二大風電工程船「環海翡翠輪」"
+    },
+    {
+      "claim_id": "2208:material_named_relationship:d3108d0f5a3afd74",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "source_level": 2,
+          "title": "台船年報",
+          "url": "https://www.csbcnet.com.tw/Uploads/AnnualReport103.pdf",
+          "note": "Annual report states steel plate purchasing is concentrated at 中鋼 and calls 中鋼 the long-term ship-steel-plate supplier."
+        }
+      ],
+      "rationale": "Formal issuer annual report directly identifies 中鋼 as the concentrated/primary ship steel plate supplier."
+    },
+    {
+      "claim_id": "2634:objective_ranking_or_market_share:00ab32673453e00d",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "source_level": 3,
+          "title": "漢翔 F-16 戰鬥機業務頁",
+          "url": "https://www.aidc.com.tw/tw/military/f16",
+          "note": "AIDC documents its F-16 maintenance center role and Lockheed Martin certifications."
+        },
+        {
+          "source_level": 2,
+          "title": "漢翔鳳展專案新聞",
+          "url": "https://www.aidc.com.tw/tw/news/540",
+          "note": "AIDC states it is Lockheed Martin's 唯一海外授權與技術轉移的後勤維修中心."
+        }
+      ],
+      "rationale": "Issuer evidence is stronger than the Asia-Pacific-only formulation: it states unique overseas Lockheed-authorized/technology-transfer logistics maintenance center status."
+    },
+    {
+      "claim_id": "2634:objective_ranking_or_market_share:e67d02d2c01641ea",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "source_level": 2,
+          "title": "漢翔 A-Team 4.0 原物料商聯盟",
+          "url": "https://www.aidc.com.tw/tw/news/242",
+          "note": "AIDC confirms 燁鋒 as an A-Team 4.0 aerospace raw-material alliance member and later procurement counterparty, but does not support 亞洲唯一."
+        }
+      ],
+      "rationale": "Authoritative evidence supports aerospace-aluminum supplier status, not the objective '亞洲唯一' ranking.",
+      "proposed_text": "燁鋒輕合金 — A-Team 4.0 航太原物料聯盟之鋁合金供應商"
+    },
+    {
+      "claim_id": "2644:objective_ranking_or_market_share:72b533b5e1bf544c",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "source_level": 1,
+          "title": "高雄市政府刊物：中信造船",
+          "url": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/334/relfile/69108/62851/2bfafdf4-cfb4-4738-ab09-080a02a55070.pdf",
+          "note": "Kaohsiung City Government publication calls 中信造船 台灣最大民營造船廠."
+        },
+        {
+          "source_level": 2,
+          "title": "中信造船產業簡報",
+          "url": "https://www.sname.org.tw/sname/ckfinder_2.6.3/userfiles/files/250801_%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E5%9C%A8%E5%9C%8B%E9%98%B2%E5%B7%A5%E6%A5%AD%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2%E8%88%87%E7%AA%81%E7%A0%B4-%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E8%94%A1%E5%B1%95%E5%BC%98%E7%B6%93%E7%90%86.pdf",
+          "note": "Company presentation labels the group 全台灣最大民營造船廠."
+        }
+      ],
+      "rationale": "Government and issuer materials independently support the ranking."
+    },
+    {
+      "claim_id": "2644:objective_ranking_or_market_share:86ac48389e66b77d",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "source_level": 3,
+          "title": "中信造船廠房介紹",
+          "url": "https://www.jongshyn.com/about1.asp",
+          "note": "Official company page states 高鼎遊艇 is 台灣唯一且全亞洲最大鋼鋁遊艇專門製造公司."
+        }
+      ],
+      "rationale": "Official issuer page directly supports the assertion."
+    },
+    {
+      "claim_id": "2644:material_named_relationship:5c551327d27428ea",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "source_level": 4,
+          "title": "MoneyDJ 中信造船公司資料",
+          "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba7cecbd-87c7-44f2-bc65-cf7af304d446",
+          "note": "Secondary company profile sourced from company briefing lists 中鋼 among steel/aluminum plate raw-material suppliers, but does not establish that it is a 主要供應商."
+        }
+      ],
+      "rationale": "Supplier relationship is supported, but the materiality qualifier '主要' is not established by inspected authoritative evidence.",
+      "proposed_text": "中鋼 — 造船用鋼板供應商"
+    }
+  ]
+}
