@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-197",
+  "reviewed_at": "2026-10-05T21:58:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (兆赫法人說明會簡報; 昇達科法人說明會簡報; 智易114年度年報)",
+  "items": [
+    {
+      "claim_id": "2485:material_named_relationship:20b0b1c34022aee9",
+      "normalized_claim_hash": "20b0b1c34022aee99640b723be21c22b05ce15258c97b2109ccad44e35abb83b",
+      "ticker": "2485",
+      "company": "兆赫",
+      "path": "Pilot_Reports/Communication Equipment/2485_兆赫.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "傳統大量依靠 [[DirecTV]] 與 [[Dish Network]] 等北美衛星電視營運大廠，近期則夾帶「去中化」之供應鏈優勢，首度成功打入並成為低軌衛星巨霸 [[SpaceX]] (Starlink) 等地面通訊設備之新興一線供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/248520231222E001.pdf",
+          "title": "兆赫電子股份有限公司（兆赫，2485，Zinwell）法人說明會簡報（2023-12-22）",
+          "source_level": 3,
+          "period_binding": "2023年12月22日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,065字元，以圖形排版為主）。簡報中「**衛星**」出現1次。**關鍵發現**：全份簡報中「**DirecTV**」「**Dish**」「**Dish Network**」「**SpaceX**」「**Starlink**」「**星鏈**」「**低軌**」與「**去中化**」之出現次數**均為0**——未具名任何衛星電視營運商或低軌衛星業者。"
+        }
+      ],
+      "rationale": "「傳統大量依靠 [[DirecTV]] 與 [[Dish Network]] 等北美衛星電視營運大廠，近期…首度成功打入並成為低軌衛星巨霸 [[SpaceX]] 供應鏈」未獲確立：所取得之兆赫簡報中「**衛星**」僅1次，而「**DirecTV**」「**Dish**」「**SpaceX**」「**Starlink**」「**星鏈**」「**低軌**」與「**去中化**」之出現次數**均為0**，**未具名任何客戶或低軌衛星業者**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3491:material_named_relationship:01090b65e377130f",
+      "normalized_claim_hash": "01090b65e377130f10e0cdef88a08c4bc8a4a1dce70b75cbbb023d1b9226dd44",
+      "ticker": "3491",
+      "company": "昇達科",
+      "path": "Pilot_Reports/Communication Equipment/3491_昇達科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球[[低軌衛星]]產業鏈關鍵供應商，低軌衛星營收佔比已突破 80%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/349120250320E002.pdf",
+          "title": "昇達科技股份有限公司（昇達科，3491，UMT）法人說明會簡報（2025-03-20）",
+          "source_level": 3,
+          "period_binding": "2025年3月20日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,605字元，以圖形排版為主）。簡報中「**低軌**」出現23次，載「應用領域:行動通訊回傳/**低軌衛星**」「掌握全球**低軌衛星**產業暢旺的需求，驅動出亮眼成績」，**支持其為低軌衛星產業供應商**。**關鍵發現（數字不符）**：簡報明載「**低軌衛星產品占比從23年的15.2%提高到42.8%**」——**即官方所載之占比為 42.8%，與 claim 所述之「已突破 80%」不符**（「80%」1次之上下文未明）。**另全份簡報中「Kuiper」「柯伊伯」「Amazon」「獨家」與「四年」之出現次數均為0**。"
+        }
+      ],
+      "rationale": "「公司為全球[[低軌衛星]]產業鏈**關鍵供應商**」獲發行人簡報支持：簡報中「**低軌**」出現23次，並載「應用領域:行動通訊回傳/**低軌衛星**」「掌握全球**低軌衛星**產業暢旺的需求，驅動出亮眼成績」。**惟「低軌衛星營收佔比已突破 80%」與官方數字不符**：簡報明載「**低軌衛星產品占比從23年的15.2%提高到42.8%**」——**官方所載為 42.8%，並非 80%**。故部分成立，並**於本紀錄中明確標示該數字之矛盾**，供複核者優先檢視。",
+      "proposed_text": "昇達科技 (3491，UMT) 為全球低軌衛星產業鏈供應商；依其簡報，低軌衛星產品占比自2023年之15.2%提高至42.8%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3491:material_named_relationship:7b383e1fa939f2a4",
+      "normalized_claim_hash": "7b383e1fa939f2a4e0386990a5780da00965c2258b56d8054041cee9cf257695",
+      "ticker": "3491",
+      "company": "昇達科",
+      "path": "Pilot_Reports/Communication Equipment/3491_昇達科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "與 [[Amazon]] 柯伊伯計畫 ([[Kuiper]]) 簽訂四年合約，多數產品具獨家供應資格；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/349120250320E002.pdf",
+          "title": "昇達科技股份有限公司（昇達科，3491，UMT）法人說明會簡報（2025-03-20）",
+          "source_level": 3,
+          "period_binding": "2025年3月20日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,605字元，以圖形排版為主）。簡報中「**低軌**」出現23次，載「應用領域:行動通訊回傳/**低軌衛星**」「掌握全球**低軌衛星**產業暢旺的需求，驅動出亮眼成績」，**支持其為低軌衛星產業供應商**。**關鍵發現（數字不符）**：簡報明載「**低軌衛星產品占比從23年的15.2%提高到42.8%**」——**即官方所載之占比為 42.8%，與 claim 所述之「已突破 80%」不符**（「80%」1次之上下文未明）。**另全份簡報中「Kuiper」「柯伊伯」「Amazon」「獨家」與「四年」之出現次數均為0**。"
+        }
+      ],
+      "rationale": "「與 [[Amazon]] 柯伊伯計畫（[[Kuiper]]）簽訂**四年合約**，多數產品具**獨家供應**資格」未獲確立：所取得之昇達科簡報中「**Kuiper**」「**柯伊伯**」「**Amazon**」「**獨家**」與「**四年**」之出現次數**均為0**——未載該合約或獨家供應資格。因該 claim 之實質內容為具名合約關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3596:material_named_relationship:b62201e689d59f0c",
+      "normalized_claim_hash": "b62201e689d59f0c6613ec97652ad7d94f11e32f6aabb675ccc54ebb06fa92e7",
+      "ticker": "3596",
+      "company": "智易",
+      "path": "Pilot_Reports/Communication Equipment/3596_智易.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "5G FWA 設備已成功打入 [[T-Mobile]] (美國) 成為核心供應商，歐洲則供貨予 [[Vodafone]]、[[Deutsche Telekom]] 等一線電信商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.arcadyan.com.tw/media/investor/shm/annual-report/%E6%99%BA%E6%98%93%E7%A7%91%E6%8A%80114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "智易科技股份有限公司（智易，3596，Arcadyan）114 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取111,678字元）。年報載「1. 已開發完成的產品涵蓋：**5G固定無線存取網路設備(5G FWA)**」與「(2) **5G FWA**（固定無線接入）：光纖以外的寬頻補位與擴展方案」「**5G FWA** 可用無線方式提供家庭與中小企業寬頻服務」，**支持其 5G FWA 產品線**（「**FWA**」11次）。**關鍵發現**：全份年報中「**T-Mobile**」「**Vodafone**」「**Deutsche Telekom**」與「核心供應商」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**5G FWA 設備**供應商」獲發行人年報**充分支持**：年報載「1. 已開發完成的產品涵蓋：**5G固定無線存取網路設備(5G FWA)**」與「(2) **5G FWA**（固定無線接入）：光纖以外的寬頻補位與擴展方案」（「**FWA**」11次）。**惟三家具名電信商未獲支持**：「**T-Mobile**」「**Vodafone**」「**Deutsche Telekom**」之出現次數**均為0**，「核心供應商」之表述亦未見。故部分成立。",
+      "proposed_text": "智易科技 (3596，Arcadyan) 為 5G FWA（固定無線存取）設備供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3596:material_named_relationship:6f767b0b0a1b829f",
+      "normalized_claim_hash": "6f767b0b0a1b829fc7a56641b85050865cad05e984f78bed5ee79ceab9729dd3",
+      "ticker": "3596",
+      "company": "智易",
+      "path": "Pilot_Reports/Communication Equipment/3596_智易.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[T-Mobile]] (5G FWA 核心供應商)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.arcadyan.com.tw/media/investor/shm/annual-report/%E6%99%BA%E6%98%93%E7%A7%91%E6%8A%80114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "智易科技股份有限公司（智易，3596，Arcadyan）114 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取111,678字元）。年報載「1. 已開發完成的產品涵蓋：**5G固定無線存取網路設備(5G FWA)**」與「(2) **5G FWA**（固定無線接入）：光纖以外的寬頻補位與擴展方案」「**5G FWA** 可用無線方式提供家庭與中小企業寬頻服務」，**支持其 5G FWA 產品線**（「**FWA**」11次）。**關鍵發現**：全份年報中「**T-Mobile**」「**Vodafone**」「**Deutsche Telekom**」與「核心供應商」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[T-Mobile]]（5G FWA **核心供應商**）」未獲確立：所取得之智易114年度年報中「**T-Mobile**」與「核心供應商」之出現次數**均為0**，**未具名該客戶**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

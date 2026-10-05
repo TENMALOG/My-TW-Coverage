@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 04:04 UTC
+Updated: 2026-10-13 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,022 / 1,399**
-- Remaining author review: **377**
-- Latest batch: **author-196** (2 claims)
+- Author-reviewed: **1,027 / 1,399**
+- Remaining author review: **372**
+- Latest batch: **author-197** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **662**
+- `PARTIALLY_SUPPORTED`: **664**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **260**
+- `UNKNOWN_AFTER_RESEARCH`: **263**
 
 ## Latest claim batch
 
-- `2444:material_named_relationship:b5640b4aad9c106e` — `UNKNOWN_AFTER_RESEARCH`；兆勁簡報「網通」3次；**惟「Amazon／亞馬遜／歐洲電信」皆 0 次**。
-- `3363:profitability_assertion:be639013857fa973` — `PARTIALLY_SUPPORTED`；上詮簡報「**CPO」10 次、「Nvidia」1 次**；惟「**COUPE／台積電／獨家／Rubin／光纖套件」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-196.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `2485:material_named_relationship:20b0b1c34022aee9` (兆赫).
+- `2485:material_named_relationship:20b0b1c34022aee9` — `UNKNOWN_AFTER_RESEARCH`；兆赫簡報「**DirecTV／Dish／SpaceX／星鏈／低軌」皆 0 次**。
+- `3491:material_named_relationship:01090b65e377130f` — `PARTIALLY_SUPPORTED`；簡報「**低軌」23 次**支持其供應商地位；**惟簡報明載「低軌衛星產品占比從23年的15.2%提高到42.8%」——與 claim 之「已突破 80%」不符（數字矛盾）**。
+- `3491:material_named_relationship:7b383e1fa939f2a4` — `UNKNOWN_AFTER_RESEARCH`；「**Kuiper／柯伊伯／Amazon／獨家／四年」皆 0 次**。
+- `3596:material_named_relationship:b62201e689d59f0c` — `PARTIALLY_SUPPORTED`；智易年報「**5G FWA」11 次**；惟「T-Mobile／Vodafone／Deutsche Telekom」皆0次。
+- `3596:material_named_relationship:6f767b0b0a1b829f` — `UNKNOWN_AFTER_RESEARCH`；「T-Mobile」0次。
+- ⚠️ **本批次發現一筆「數字矛盾」**：`3491:01090b65e377130f` 之 claim 稱低軌衛星營收佔比「突破 80%」，**官方簡報則載 42.8%**——**已於 rationale 中明確標示，建議複核者優先檢視。**
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-197.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `3558:profitability_assertion:9f4ccf27dd9b4c28` (神準).
 
 ## Source access
 
