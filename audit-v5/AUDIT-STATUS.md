@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 07:04 UTC
+Updated: 2026-10-10 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **762 / 1,399**
-- Remaining author review: **637**
-- Latest batch: **author-127** (5 claims)
+- Author-reviewed: **766 / 1,399**
+- Remaining author review: **633**
+- Latest batch: **author-128** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **85**
-- `PARTIALLY_SUPPORTED`: **493**
+- `ACCEPTED`: **86**
+- `PARTIALLY_SUPPORTED`: **496**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3576:objective_ranking_or_market_share:862c3863436e97cd` — `ACCEPTED`；聯合再生簡報載「（**新日光、昱晶、昇陽合併**，為**台灣最大**太陽（能…）」＋「系統整合」1次——**逐字對應**。
-- `3576:objective_ranking_or_market_share:4e7dfe3251cf2110` — `ACCEPTED`；簡報載「**URE 模組已連續4年為台灣模組出貨量／市佔率第一**」——**逐字對應**。
-- `4582:objective_ranking_or_market_share:fc48e08d8acca449` — `PARTIALLY_SUPPORTED`；簡報載「2017年取得德國萊茵**TÜV O&M認證**，成爲**台灣第一家、亞洲第二家**」；惟「國內**唯一**」與官方「第一家」不同（「唯一」1次之上下文為「不因全球動盪而停擺的唯一解方」）。
-- `4934:objective_ranking_or_market_share:b478e7aa2ee7a26e` — `PARTIALLY_SUPPORTED`；太極簡報「模組」13次、「**越南」1 次**；惟「產能」「反傾銷」「美國」皆0次。
-- `6443:objective_ranking_or_market_share:07b85c17bb52a20f` — `UNKNOWN_AFTER_RESEARCH`；元晶官方網域 **SSL/TLS 憑證信任失敗**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-127.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `5607:objective_ranking_or_market_share:7941e3f89be589bb` (遠雄港).
+- `5607:objective_ranking_or_market_share:7941e3f89be589bb` — `PARTIALLY_SUPPORTED`；遠雄港財報載「也是**台灣唯一航空自由貿易港區**」＋「境內關外」8次、「通關」15次、「優惠」13次；惟「**賦稅」0 次**、「跨國電子」「AI」皆0次。
+- `6146:objective_ranking_or_market_share:a90215729c3e9aa9` — `ACCEPTED`；耕興財報載「本公司原有**三座10M 室內電波隔離暗室**」與「擁有業界**規模最大**檢測範圍最完整之實驗場地」（EMC 51次、安規73次、實驗室292次）——**逐項對應**。
+- `6898:objective_ranking_or_market_share:23e9ccff7ebaf06c` — `PARTIALLY_SUPPORTED`；程曦簡報「委外」14次、「DCRM」2次、「BPO」1次；惟「**最大」「龍頭」皆 0 次**。
+- `6898:objective_ranking_or_market_share:f2bfb4ba7e7a6c99` — `PARTIALLY_SUPPORTED`；簡報「2004」2次、「委外」14次；惟「**唯一」0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-128.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `7786:objective_ranking_or_market_share:8c416fbea251b784` (東方風能).
 
 ## Source access
 
