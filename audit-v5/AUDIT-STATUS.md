@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 22:34 UTC
+Updated: 2026-10-15 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,32 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,363 / 1,399**
-- Remaining author review: **36**
-- Latest batch: **author-262** (5 claims)
+- Author-reviewed: **1,371 / 1,399**
+- Remaining author review: **28**
+- Latest batch: **author-263** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **106**
-- `PARTIALLY_SUPPORTED`: **818**
+- `ACCEPTED`: **107**
+- `PARTIALLY_SUPPORTED`: **822**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **434**
+- `UNKNOWN_AFTER_RESEARCH`: **437**
 
 ## Latest claim batch
 
-- `4904:material_named_relationship:82d2b1e647aca322` — `PARTIALLY_SUPPORTED`；遠傳2024英文版年報載「Joined the **Ericsson** Global Product Take-Back Program and recycle…wastes from **base stations**」（**Ericsson 7 次、5G 117 次、base station 20 次**）；**惟「主要供應商」之排序性表述未見**。
-- `5016:material_named_relationship:f7cc475a704a35de` — `PARTIALLY_SUPPORTED`；松和簡報「**電梯」1 次、「鋼索」1 次**；**惟「崇友／永大」皆 0 次**。
-- `1307:material_named_relationship:4eb0c68975ca904a` — `PARTIALLY_SUPPORTED`；三芳簡報「**Nike／Adidas／Puma 各 2 次**」；**惟「New Balance／Hoka／On Running／指定供應商」皆 0 次**。
-- `1307:material_named_relationship:572938d0d688e798` — `UNKNOWN_AFTER_RESEARCH`；三芳簡報「**座椅／門飾／皮革／Tier 1／MIH」皆 0 次**。
-- `2221:export_concentration:abc1d459bf42c9b4` — `UNKNOWN_AFTER_RESEARCH`；大甲端點 **HTTP 404**。
-- ⚠️ **本批次之帳目更正**：`5009:profitability_assertion:b8037559961325d8` 原已於 `author-261` 判定（UNKNOWN，端點404）。為維持「每一 claim 於帳本中僅有一個判定」，**已將該筆自本批次移除，並把其所據之新證據（榮剛2024法說會簡報）與新評估以 `amendment` 之形式併入 author-261 之對應條目**（原判定不予更動）；本批次並加入 `corrections` 記錄。
-- 證據記錄於 `semantic/author-262.json`（**5 筆**）。未修改發行人報告。帳目一致：唯一 claim 數 1,363 ＝ 條目總數 1,363。**覆蓋率 97.43%**。
-- Next pending claim by priority: `1341:export_concentration:68cf7713a01f37cf` (富林-KY).
+- 🟢 `4401:material_named_relationship:eb6a0ffaf7aac537` — **`ACCEPTED`**；東隆興簡報**逐字載**「(**POY or FDY**)」（**POY 1 次、FDY 1 次**）。
+- `1341:export_concentration:68cf7713a01f37cf` — `PARTIALLY_SUPPORTED`；富林-KY簡報「**海防」8 次、「同奈」7 次、「越南」11 次、「內銷」1 次、外銷 2 次**；**惟「47%」之唯一上下文為「6.47%」——第 8 次子字串誤配**，且「東亞／亞洲」皆 0 次。
+- `4401:material_named_relationship:fd1449426537e15a` — `PARTIALLY_SUPPORTED`；簡報**逐字載**客戶名單「Lululemon, Athleta, Fabletics, Alo, **Under Armour**, Vuori」「Lululemon, **Nike**, Dunning Golf, Helly Hansen」（**Lululemon 2、Nike 2、Adidas 1、Under Armour 1**）；**惟「核心供應商」0 次**。
+- `4401:material_named_relationship:a0a73bc8e5775706` — `PARTIALLY_SUPPORTED`；**惟「Design-in」0 次**。
+- `1444:material_named_relationship:5130f7ebb83abc71` — `PARTIALLY_SUPPORTED`；力麗年報「**Ecoya」2 次、「機能性」4 次**；**惟「原液染色／Apple」皆 0 次**。
+- `1464:d334c64365468203` — `UNKNOWN_AFTER_RESEARCH`；得力簡報「**Under Armour／Adidas／Uniqlo」皆 0 次**（簡報僅2,120字元）。
+- `1439:d6f665a3737f770e` — `UNKNOWN_AFTER_RESEARCH`；雋揚端點 **HTTP 404**。
+- `1463:3409b6c7188c9f77` — `UNKNOWN_AFTER_RESEARCH`；未取得強盛新文件。
+- 證據記錄於 `semantic/author-263.json`（8 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,371 ＝ 條目總數 1,371。**覆蓋率 98.00%**。
+- Next pending claim by priority: `4406:material_named_relationship:95003ef6de91feba` (新昕纖).
 
 ## Source access
 

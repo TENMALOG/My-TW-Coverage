@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:30:15Z",
+  "generated_at": "2026-10-05T23:32:17Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -265,17 +265,18 @@
     "author-259",
     "author-260",
     "author-261",
-    "author-262"
+    "author-262",
+    "author-263"
   ],
-  "source_batch_count": 262,
-  "total_unknown": 434,
+  "source_batch_count": 263,
+  "total_unknown": 437,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 207,
-    "other_unclassified": 155,
+    "no_official_endpoint_found": 208,
+    "other_unclassified": 157,
     "tls_failure": 17,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 127,
+    "http_404": 128,
     "image_only_or_tiny_text": 20,
     "http_403": 16,
     "connection_failure": 17,
@@ -6628,6 +6629,49 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/222120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1464:material_named_relationship:d334c64365468203",
+      "ticker": "1464",
+      "company": "得力",
+      "claim": "[[Under Armour]] (主要客戶)、[[Adidas]]、[[Uniqlo]]、[[The North Face]]、[[Columbia]]",
+      "batch_id": "author-263",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/146420260622M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1439:identity_changing_event:d6f665a3737f770e",
+      "ticker": "1439",
+      "company": "雋揚",
+      "claim": "[[雋揚]]國際 (Ascent Development，原中和羊毛) 早期為國內主要毛紡廠，2019年加入[[國揚集團]]後，於2022年更名並轉型。",
+      "batch_id": "author-263",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/143920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1463:identity_changing_event:3409b6c7188c9f77",
+      "ticker": "1463",
+      "company": "強盛新",
+      "claim": "公司於2024年更名，反映其多元化經營策略。",
+      "batch_id": "author-263",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/146320250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

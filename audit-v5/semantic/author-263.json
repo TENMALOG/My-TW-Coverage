@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-263",
+  "reviewed_at": "2026-10-05T23:32:01Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (富林-KY 2025法說會; 力麗年報; 得力2026法說會; 東隆興2024法說會與永續報告書); 雋揚端點HTTP 404; 強盛新未取得文件",
+  "items": [
+    {
+      "claim_id": "4401:material_named_relationship:eb6a0ffaf7aac537",
+      "normalized_claim_hash": "eb6a0ffaf7aac537ef0b9aea42df0858049f5d2f21cf0e92506179e4650cc048",
+      "ticker": "4401",
+      "company": "東隆興",
+      "path": "Pilot_Reports/Textile Manufacturing/4401_東隆興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**上游**：採購 [[POY]] (預取向絲) 與 [[FDY]] (全延伸絲) 原絲，主要供應商為 [[遠東新]]、[[力鵬]]。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/440120241119E001.pdf",
+          "title": "東隆興業股份有限公司（東隆興，4401，Toung Loong Textile）法人說明會簡報（2024-11-19）",
+          "source_level": 3,
+          "period_binding": "2024年11月19日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,093字元，以圖形排版為主）。簡報**逐字載**兩份客戶名單——「**Lululemon, Athleta, Fabletics, Alo, Under Armour, Vuori**（…）」與「**Lululemon, Nike, Dunning Golf, Helly Hansen…etc.**」——並載「(**POY or FDY**)」（「**Lululemon**」2次、「**Nike**」2次、「**Adidas**」1次、「**Under Armour**」1次、「**POY**」1次、「**FDY**」1次），**支持其運動品牌客戶群及原絲採購**。**關鍵發現**：全份簡報中「**Design-in**」（含「design in」變體）、「**核心供應商**」與「主要客戶」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**上游**：採購 **[[POY]]**（預取向絲）與 **[[FDY]]**（全延伸絲）原絲」獲發行人簡報**逐字支持**：簡報載「(**POY or FDY**)」（「**POY**」1次、「**FDY**」1次），**與該 claim 所述之上游原絲採購相符**；該 claim 之文本於佇列中即為此簡述（「上游：採購 POY 與 FDY 原絲」），**其要素均見於官方文件**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1341:export_concentration:68cf7713a01f37cf",
+      "normalized_claim_hash": "68cf7713a01f37cfed87d66ceb22943f0011fc7dbf5089bb513e9f6e2c6843af",
+      "ticker": "1341",
+      "company": "富林-KY",
+      "path": "Pilot_Reports/Textile Manufacturing/1341_富林-KY.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "生產基地設於越南海防及同奈，產品以越南內銷(47%)及東亞、亞洲外銷為主。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/134120251120M001.pdf",
+          "title": "富林塑膠工業（開曼）控股股份有限公司（富林-KY，1341，Fulin）法人說明會簡報（2025-11-20）",
+          "source_level": 3,
+          "period_binding": "2025年11月20日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,557字元，以圖形排版為主）。簡報載「**越南內銷市場**」，並見「**海防**」8次、「**同奈**」7次、「**越南**」11次、「內銷」1次、「外銷」2次，**支持其生產基地設於越南海防及同奈，且以越南內銷為重要市場**。**關鍵發現（數字之歸屬）**：全份簡報中「**47%**」之出現次數為1次，**惟其上下文為「6.47%」之一部分，並非內銷占比**——**屬子字串之誤配**；另「**東亞**」與「**亞洲**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「生產基地設於**越南海防及同奈**，產品以**越南內銷**…為主」獲發行人簡報**充分支持**：簡報載「**越南內銷市場**」，並見「**海防**」8次、「**同奈**」7次、「越南」11次、「內銷」1次、「外銷」2次。**惟兩項陳述未獲支持**：(1)「**內銷(47%)**」——**全份簡報中「47%」之出現次數為1次，惟其上下文為「6.47%」之一部分**（**屬子字串之誤配**）；(2)「**東亞、亞洲外銷**」——「**東亞**」與「**亞洲**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "富林-KY (1341，Fulin) 之生產基地設於越南海防及同奈，並以越南內銷為重要市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4401:material_named_relationship:fd1449426537e15a",
+      "normalized_claim_hash": "fd1449426537e15a91952b8c87e23fca9228f551bcaef23e159c801c14d34a30",
+      "ticker": "4401",
+      "company": "東隆興",
+      "path": "Pilot_Reports/Textile Manufacturing/4401_東隆興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Lululemon]] (核心供應商)、[[Nike]]、[[Adidas]]、[[Under Armour]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/440120241119E001.pdf",
+          "title": "東隆興業股份有限公司（東隆興，4401，Toung Loong Textile）法人說明會簡報（2024-11-19）",
+          "source_level": 3,
+          "period_binding": "2024年11月19日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,093字元，以圖形排版為主）。簡報**逐字載**兩份客戶名單——「**Lululemon, Athleta, Fabletics, Alo, Under Armour, Vuori**（…）」與「**Lululemon, Nike, Dunning Golf, Helly Hansen…etc.**」——並載「(**POY or FDY**)」（「**Lululemon**」2次、「**Nike**」2次、「**Adidas**」1次、「**Under Armour**」1次、「**POY**」1次、「**FDY**」1次），**支持其運動品牌客戶群及原絲採購**。**關鍵發現**：全份簡報中「**Design-in**」（含「design in」變體）、「**核心供應商**」與「主要客戶」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[Lululemon]]**、**[[Nike]]**、**[[Adidas]]**、**[[Under Armour]]**（客戶）」獲發行人簡報之**部分支持**：簡報**逐字載**其客戶名單「**Lululemon, Athleta, Fabletics, Alo, Under Armour, Vuori**（…）」「**Lululemon, Nike, Dunning Golf, Helly Hansen…etc.**」（「Lululemon」2次、「Nike」2次、「Adidas」1次、「Under Armour」1次），**支持該等品牌為其客戶**。**惟「Lululemon（**核心供應商**）」之排序性表述未獲支持**——「**核心供應商**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "東隆興業 (4401，Toung Loong Textile) 之客戶包含 Lululemon、Nike、Adidas、Under Armour 等運動品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4401:material_named_relationship:a0a73bc8e5775706",
+      "normalized_claim_hash": "a0a73bc8e5775706e652f8697d4fdbea2e99fc807264ae592a2c6a4e80c8d93e",
+      "ticker": "4401",
+      "company": "東隆興",
+      "path": "Pilot_Reports/Textile Manufacturing/4401_東隆興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "東隆興與國際運動品牌採取 \"Design-in\" 合作模式，共同開發機能性布料，成為 [[Lululemon]]、[[Nike]] 等品牌之核心供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/440120241119E001.pdf",
+          "title": "東隆興業股份有限公司（東隆興，4401，Toung Loong Textile）法人說明會簡報（2024-11-19）",
+          "source_level": 3,
+          "period_binding": "2024年11月19日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,093字元，以圖形排版為主）。簡報**逐字載**兩份客戶名單——「**Lululemon, Athleta, Fabletics, Alo, Under Armour, Vuori**（…）」與「**Lululemon, Nike, Dunning Golf, Helly Hansen…etc.**」——並載「(**POY or FDY**)」（「**Lululemon**」2次、「**Nike**」2次、「**Adidas**」1次、「**Under Armour**」1次、「**POY**」1次、「**FDY**」1次），**支持其運動品牌客戶群及原絲採購**。**關鍵發現**：全份簡報中「**Design-in**」（含「design in」變體）、「**核心供應商**」與「主要客戶」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「與國際運動品牌…共同開發機能性布料，成為 **[[Lululemon]]**（…）」獲發行人簡報之**部分支持**：簡報之客戶名單**逐字載**「**Lululemon**」（2次），並載其運動品牌客戶群，**支持其與該等品牌之供應關係**。**惟「採取 \"[[Design-in]]\" 合作模式」未獲支持**——全份簡報中「**Design-in**」（含「design in」變體）之出現次數**為0**（「協同開發」亦為0），**未載該合作模式之敘述**。故部分成立。",
+      "proposed_text": "東隆興業 (4401，Toung Loong Textile) 為國際運動品牌之機能性布料供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1444:material_named_relationship:5130f7ebb83abc71",
+      "normalized_claim_hash": "5130f7ebb83abc7100d26fbbcf9f2306d97de16238d14cbd5e7a338f6806993b",
+      "ticker": "1444",
+      "company": "力麗",
+      "path": "Pilot_Reports/Textile Manufacturing/1444_力麗.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司積極發展環保紗線[[Ecoya]] (原液染色聚酯紗) 及機能性纖維，成功打入[[Apple]]供應鏈，獨家供應[[Apple]] HomePod表布、編織充電線及[[Apple Watch]]編織錶帶等產品。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lealeagroup.com.tw/upload/download_files/twl_download_19i11_wtyiehuy95.pdf",
+          "title": "力麗企業股份有限公司（力麗，1444，Lilytex／Lealea）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取262,181字元）。年報中「**Ecoya**」出現2次、「**機能性**」4次（並載「面對大陸、東南亞及印度等地區的低價競爭，力麗企業惟有持續開發高附加價值產品」），**支持其發展 Ecoya 與機能性纖維**。**關鍵發現**：全份年報中「**原液染色**」與「**Apple**」（及「蘋果」）之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「積極發展環保紗線 **[[Ecoya]]** 及**機能性**纖維」獲發行人年報**逐字支持**：年報中「**Ecoya**」出現2次、「**機能性**」4次（並載「面對大陸、東南亞及印度等地區的低價競爭，力麗企業惟有持續開發高附加價值產品」），**支持其發展 Ecoya 與機能性纖維**。**惟兩項陳述未獲支持**：(1)「Ecoya（**原液染色**聚酯紗）」——「**原液染色**」之出現次數**為0**；(2)「成功打入 **[[Apple]]**」——「**Apple**」與「蘋果」均為**0**。故部分成立。",
+      "proposed_text": "力麗企業 (1444，Lealea) 發展 Ecoya 環保紗線及機能性纖維。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1464:material_named_relationship:d334c64365468203",
+      "normalized_claim_hash": "d334c64365468203ef81687f20b595c9c03769418fc84b87a473df01af17877c",
+      "ticker": "1464",
+      "company": "得力",
+      "path": "Pilot_Reports/Textile Manufacturing/1464_得力.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Under Armour]] (主要客戶)、[[Adidas]]、[[Uniqlo]]、[[The North Face]]、[[Columbia]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/146420260622M001.pdf",
+          "title": "得力實業股份有限公司（得力，1464，Delicacy）法人說明會簡報（2026-06-22）",
+          "source_level": 3,
+          "period_binding": "2026年6月22日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**文字擷取2,120字元，以圖形排版為主，可供檢索之文字有限**）。**關鍵發現**：全份簡報中「**Under Armour**」「**Adidas**」「**Uniqlo**」與「主要客戶」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「**[[Under Armour]]**（主要客戶）、**[[Adidas]]**、**[[Uniqlo]]**」未獲確立：所取得之得力2026年法人說明會簡報（**文字擷取僅2,120字元，以圖形排版為主**）中「**Under Armour**」「**Adidas**」「**Uniqlo**」與「主要客戶」之出現次數**均為0**，**未具名任何客戶**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1439:identity_changing_event:d6f665a3737f770e",
+      "normalized_claim_hash": "d6f665a3737f770e93942b965bd0ecf8259e9c19b08d078d515d9db2e485bc0c",
+      "ticker": "1439",
+      "company": "雋揚",
+      "path": "Pilot_Reports/Textile Manufacturing/1439_雋揚.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[雋揚]]國際 (Ascent Development，原中和羊毛) 早期為國內主要毛紡廠，2019年加入[[國揚集團]]後，於2022年更名並轉型。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/143920250401M001.pdf",
+          "title": "雋揚國際（1439）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之雋揚國際端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得雋揚國際可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[雋揚]]國際（Ascent Development，**原中和羊毛**）早期為國內主要**毛紡**（廠）」未獲確立：本批次所嘗試之雋揚端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1463:identity_changing_event:3409b6c7188c9f77",
+      "normalized_claim_hash": "3409b6c7188c9f7742804b90b14b191c50869d7325c498318224bdef29ea56ee",
+      "ticker": "1463",
+      "company": "強盛新",
+      "path": "Pilot_Reports/Textile Manufacturing/1463_強盛新.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司於2024年更名，反映其多元化經營策略。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/146320250401M001.pdf",
+          "title": "強盛新（1463）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次未就強盛新取得可檢視之官方文件（**本批次之下載集中於其他標的**）；故未能就 claim 所述之2024年更名進行驗證。"
+        }
+      ],
+      "rationale": "「公司於 **2024 年更名**，反映其**多元化經營**策略」未獲確立：本批次未就強盛新取得可檢視之官方文件（本批次之下載集中於其他標的），未能就該更名與策略敘述進行驗證，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
