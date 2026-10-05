@@ -1,0 +1,67 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-175",
+  "reviewed_at": "2026-10-05T21:33:00Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (長榮航太上市前業績發表會簡報; 長榮航太法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "2645:material_named_relationship:8a2772f0488a5e3a",
+      "normalized_claim_hash": "8a2772f0488a5e3a0b268ac49c525ccfaf921ec8943733ba132a7e0987704245",
+      "ticker": "2645",
+      "company": "長榮航太",
+      "path": "Pilot_Reports/Aerospace & Defense/2645_長榮航太.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "製造端為[[Boeing]]與[[Airbus]]之 Tier 1 供應商，2025 年正式升格為[[Airbus]]一階機體零組件直供商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/264520230209M001.pdf",
+          "title": "長榮航太科技股份有限公司（長榮航太，2645，EGAT）上市前業績發表會簡報（2023-02-09）",
+          "source_level": 3,
+          "period_binding": "2023年2月9日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,987字元，以圖形排版為主）。簡報載其業務為「1.**機體**、零組件、發動機之維修」「2.**機體**、發動機零組件之製造及加工」「商用飛機**機體**維修及改裝服務」，並載「—獲得**BOEING**客機改貨機品質**認證**、擴大技術競爭力」（「**Boeing**」6次、「**機體**」15次、「**認證**」17次、「供應商」2次），支持其機體零組件製造業務及與 Boeing 之**認證關係**。**關鍵發現**：全份簡報中「**Airbus**」「**空中巴士**」「**Tier**」「**直供**」與「一階」之出現次數**均為0**——未載 Airbus 之供應商關係或其升格敘述。"
+        }
+      ],
+      "rationale": "「製造端為機體零組件製造商，並與 [[Boeing]] 具認證關係」獲發行人簡報支持：簡報載「2.**機體**、發動機零組件之**製造**及加工」，並載「—獲得**BOEING**客機改貨機品質**認證**、擴大技術競爭力」（「**Boeing**」6次、「**機體**」15次、「**認證**」17次）。惟多項陳述未獲支持：(1)「為 [[Airbus]] 之 Tier 1 供應商」——「**Airbus**」「**空中巴士**」與「**Tier**」之出現次數**均為0**；(2)「2025年正式升格為 Airbus **一階**機體零組件**直供商**」——「一階」與「**直供**」均為0（且本簡報為2023年版本，早於所述之2025年事件）。故部分成立。",
+      "proposed_text": "長榮航太 (2645，EGAT) 從事機體及發動機零組件之製造與加工，並獲 Boeing 客機改貨機品質認證。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2645:material_named_relationship:25d41503b8a9ab48",
+      "normalized_claim_hash": "25d41503b8a9ab4878c106c9f7c14c9e29966b678c503015270187a2abca83e9",
+      "ticker": "2645",
+      "company": "長榮航太",
+      "path": "Pilot_Reports/Aerospace & Defense/2645_長榮航太.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Airbus]] — 原廠件供應與認證",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/264520241125M001.pdf",
+          "title": "長榮航太科技股份有限公司（長榮航太，2645，EGAT）法人說明會簡報（2024-11-25）",
+          "source_level": 3,
+          "period_binding": "2024年11月25日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取1,862字元，以圖形排版為主）。簡報中僅見「**機體**」2次，支持其機體相關業務；全份簡報中「**Airbus**」與「原廠件」之出現次數**均為0**。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/264520230209M001.pdf",
+          "title": "長榮航太科技股份有限公司（長榮航太，2645，EGAT）上市前業績發表會簡報（2023-02-09）",
+          "source_level": 3,
+          "period_binding": "2023年2月9日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,987字元，以圖形排版為主）。簡報載其業務為「1.**機體**、零組件、發動機之維修」「2.**機體**、發動機零組件之製造及加工」「商用飛機**機體**維修及改裝服務」，並載「—獲得**BOEING**客機改貨機品質**認證**、擴大技術競爭力」（「**Boeing**」6次、「**機體**」15次、「**認證**」17次、「供應商」2次），支持其機體零組件製造業務及與 Boeing 之**認證關係**。**關鍵發現**：全份簡報中「**Airbus**」「**空中巴士**」「**Tier**」「**直供**」與「一階」之出現次數**均為0**——未載 Airbus 之供應商關係或其升格敘述。"
+        }
+      ],
+      "rationale": "「[[Airbus]] — **原廠件供應與認證**」未獲確立：兩份簡報（2024年法人說明會、2023年上市前業績發表會）中「**Airbus**」「空中巴士」與「原廠件」之出現次數**均為0**，未載與 Airbus 之供應或認證關係。因該 claim 之實質內容為具名原廠之關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

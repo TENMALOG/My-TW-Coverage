@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 06:04 UTC
+Updated: 2026-10-12 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **943 / 1,399**
-- Remaining author review: **456**
-- Latest batch: **author-174** (2 claims)
+- Author-reviewed: **945 / 1,399**
+- Remaining author review: **454**
+- Latest batch: **author-175** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **615**
+- `PARTIALLY_SUPPORTED`: **616**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **232**
+- `UNKNOWN_AFTER_RESEARCH`: **233**
 
 ## Latest claim batch
 
-- `7507:objective_ranking_or_market_share:bfc75b334da69cf9` — `UNKNOWN_AFTER_RESEARCH`；環拓科技官方端點 **HTTP 404**。
-- `8390:objective_ranking_or_market_share:f55fed9eabcb8974` — `UNKNOWN_AFTER_RESEARCH`；金益鼎端點回傳 **690 bytes 非文件內容**。
-- **重大里程碑：objective_ranking_or_market_share 訊號隊列已全數審畢。** 後續待審改依其他訊號類型推進，其分布為 `material_named_relationship` **315**、`profitability_assertion` **67**、`identity_changing_event` **42**、`export_concentration` **27**、`control_acquisition` **5**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-174.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `2645:material_named_relationship:8a2772f0488a5e3a` (長榮航太).
+- `2645:material_named_relationship:8a2772f0488a5e3a` — `PARTIALLY_SUPPORTED`；長榮航太簡報「**Boeing」6 次、「機體」15 次、「認證」17 次**（獲 BOEING 客機改貨機品質認證）；惟「**Airbus／空中巴士／Tier／直供／一階」皆 0 次**。
+- `2645:material_named_relationship:25d41503b8a9ab48` — `UNKNOWN_AFTER_RESEARCH`；兩份簡報「Airbus」「原廠件」皆0次。
+- **第二階段（`material_named_relationship`，315 筆）自本批次起展開。**
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-175.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `4541:material_named_relationship:2ab6d5fc7471158f` (晟田).
 
 ## Source access
 
