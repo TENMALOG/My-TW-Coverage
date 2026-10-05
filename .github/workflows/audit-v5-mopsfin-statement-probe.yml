@@ -18,6 +18,7 @@ jobs:
         with: {ref: audit-v5, fetch-depth: 0}
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
+      - run: python -m pip install beautifulsoup4
       - run: python -X utf8 audit-v5/mopsfin_statement_probe.py
       - run: |
           git config user.name "github-actions[bot]"

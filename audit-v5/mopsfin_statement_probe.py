@@ -1,6 +1,7 @@
 from __future__ import annotations
 import html, json, re, time, urllib.parse, urllib.request
 from pathlib import Path
+from bs4 import BeautifulSoup
 
 URL="https://mopsfin.twse.com.tw/compare/report"
 
@@ -37,11 +38,17 @@ out={}
 for period in ["20261","20262","20254"]:
     raw=fetch(period)
     txt=clean(raw)
+    soup=BeautifulSoup(raw,"html.parser")
+    target_rows=[]
+    for tr in soup.find_all("tr"):
+        cells=[c.get_text(" ",strip=True) for c in tr.find_all(["th","td"],recursive=False)]
+        if cells and any(("母公司業主" in x or "本期淨利" in x or "營業利益" in x) for x in cells):
+            target_rows.append(cells)
     snippets=[]
     for needle in ["歸屬於母公司業主","本期淨利","營業利益","營業毛利","營業收入"]:
       i=txt.find(needle)
       snippets.append({"needle":needle,"snippet":txt[max(0,i-200):i+500] if i>=0 else None})
-    out[period]={"length":len(raw),"snippets":snippets}
+    out[period]={"length":len(raw),"target_rows":target_rows,"snippets":snippets}
 path=Path("audit-v5/generated/mopsfin-statement-probe.json")
 path.parent.mkdir(parents=True,exist_ok=True)
 path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
