@@ -15,12 +15,13 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Batch `author-001`: 8 unique HIGH claims reviewed against inspected sources.
+Author-reviewed: **10 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), and `author-003` (1).
 
 - ACCEPTED by author: 5
-- PARTIALLY_SUPPORTED: 2
+- PARTIALLY_SUPPORTED: 4
 - UNSUPPORTED: 1
-- Remaining author queue: 1,391
+- Other allowed author decisions: 0
+- Remaining author queue: 1,389
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -51,3 +52,11 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - Proposed wording is recorded in `semantic/author-002.json`; the issuer report was not edited.
 - Author-reviewed total: 9 / 1,399; remaining author queue: 1,390. Independent review remains pending.
 - The unrestricted egress retest allowed direct access to the EGAT pages, TPEx, MOEA and AIDC. The TWSE home page returned 503; MOPS returned a security-denial page despite HTTP 200. The TWSE company-directory OpenAPI returned data but was slow to download.
+
+## Author batch `author-003` — 2026-10-05
+
+- Reviewed 1 previously unreviewed HIGH claim at claim level: `4546:objective_ranking_or_market_share:db06b1cb4d0d13e1` (normalized hash `db06b1cb4d0d13e1697ff1cc445e8970d8fa60b545a2207c31dd027eb5cbe193`).
+- Decision: `PARTIALLY_SUPPORTED`. 長亨官網明確聲稱產品均 100% 外銷歐美大廠，並列出多項全球市占第一的引擎零組件；查閱頁面未支持 Safran 與 GE Aerospace 為主要客戶。
+- Evidence URL、標題、來源層級、期間、查閱日期與證據摘記，以及 proposed wording，均記錄於 `semantic/author-003.json`。未修改發行人報告。
+- Author-reviewed total: 10 / 1,399; remaining author queue: 1,389. 獨立複核仍待處理。
+- 當次直接來源連線測試中，長亨官網與 TPEx 回應 HTTP 200；MOEA 請求逾時。這些連線結果不是 claim evidence。
