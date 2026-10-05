@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 11:04 UTC
+Updated: 2026-10-14 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,155 / 1,399**
-- Remaining author review: **244**
-- Latest batch: **author-227** (6 claims)
+- Author-reviewed: **1,159 / 1,399**
+- Remaining author review: **240**
+- Latest batch: **author-228** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **724**
+- `PARTIALLY_SUPPORTED`: **727**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **326**
+- `UNKNOWN_AFTER_RESEARCH`: **327**
 
 ## Latest claim batch
 
-- `3605:control_acquisition:7e51a687d12091af` — `PARTIALLY_SUPPORTED`；宏致手冊載「取得美商 **Genesis Group 100%股權**」與「**Genesis Technology USA, Inc.**與 **Genesis Holding Company**…100%股權」；**惟「Connected Solutions」0 次——被併購主體名稱與 claim 不符**。
-- `3605:material_named_relationship:9afdef477b549205` — `PARTIALLY_SUPPORTED`；手冊載「可與美國地區網通及**雲端產業**等客戶（合作）」（雲端2次、伺服器2次、連接器11次）；**惟「營收比重最高」0 次**。
-- `3605:material_named_relationship:18f74dfc66c833b6` — `UNKNOWN_AFTER_RESEARCH`；「**800G／1.6T／AI 伺服器」皆 0 次**。
-- `3622:profitability_assertion:69d5bd3e7a60ca9d` — `PARTIALLY_SUPPORTED`；洋華年報載「**機電**事業群終端客戶為**台電**」「毛利貢獻穩定」（台電3次）；**惟「強韌電網／電纜接頭／終端匣」皆 0 次**（年報所載為「**電網汰舊**」）。
-- `3511:material_named_relationship:826c97d2708b15c2` — `PARTIALLY_SUPPORTED`；矽瑪ESG「**穿戴**5次、「醫療」19次、「OBD」1次」，且**106年報之拉丁字母部分載「Fitbit」6次與「Apple Watch」**；**惟「車聯網」0 次**（該年報文字層部分亂碼）。
-- `3523:material_named_relationship:6067227deddd249a` — `UNKNOWN_AFTER_RESEARCH`；迎輝簡報「**友達／群創／面板」皆 0 次**。
-- 證據記錄於 `semantic/author-227.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,155 ＝ 條目總數 1,155。
+- `3645:material_named_relationship:bd156a6d7a730ace` — `UNKNOWN_AFTER_RESEARCH`；達邁文件為**個體財務報告（非年報）**，「**Meta／透明／眼鏡／AR／PI」皆 0 次**。
+- `3646:material_named_relationship:890769e395a9edbf` — `PARTIALLY_SUPPORTED`；艾恩特簡報載「**車燈線束**方面，**歐洲車廠**持續推出新車款」（車廠2次、歐洲1次）；**惟「BMW／Mercedes」皆 0 次**。
+- `3675:material_named_relationship:cdf9541872f031c7` — `PARTIALLY_SUPPORTED`；德微年報載「亦有生產 **AI 伺服器**中所需之**保護元（件）**」（AI 伺服器1次、二極體102次）；**惟「美系」0 次**。
+- `3684:material_named_relationship:70795130f69544f3` — `PARTIALLY_SUPPORTED`；榮昌ESG載「深耕**戶外天線**及**次系統**」「**FATP** 測試組裝建置」（FATP 3次、天線16次）；**惟「防水外殼（Enclosure）」各僅1次且未成完整敘述**。
+- 證據記錄於 `semantic/author-228.json`（4 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,159 ＝ 條目總數 1,159。
+- ⏱️ **節奏註記**：剩餘 240 筆、剩餘 41 輪（215–255），**所需節奏約 5.9 筆／輪**。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access

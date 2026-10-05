@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-228",
+  "reviewed_at": "2026-10-05T22:40:21Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (達邁112年度個體財務報告; 艾恩特法人說明會簡報; 德微112年度年報; 榮昌2024年永續報告書)",
+  "items": [
+    {
+      "claim_id": "3645:material_named_relationship:bd156a6d7a730ace",
+      "normalized_claim_hash": "bd156a6d7a730ace22a6b00fa2fc15653c90afb171fd07e7bbec98215b7639e7",
+      "ticker": "3645",
+      "company": "達邁",
+      "path": "Pilot_Reports/Electronic Components/3645_達邁.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **[[Meta]] 供應鏈**: 透明 PI 已成功打入 [[Meta]] 的 **AR 眼鏡** 供應鏈，負責眼球追蹤與操控線路基材。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.taimide.com.tw/api/download.ashx?sno=439",
+          "title": "達邁科技股份有限公司（達邁，3645，Taimide）民國112及111年度個體財務報告（非年報）",
+          "source_level": 3,
+          "period_binding": "民國112及111年度。**文件性質為個體財務報告，非年報。**",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取74,126字元）。**文件性質為個體財務報告暨會計師查核報告**；封面載「**達邁科技股份有限公司**」「股票代碼：**3645**」（「達邁」54次、「聚醯亞胺」3次）。**關鍵發現**：全份文件中「**Meta**」「**透明**」「**眼鏡**」「**AR**」與「**PI**」之出現次數**均為0**——未載產品別或客戶關係。"
+        }
+      ],
+      "rationale": "「**透明 PI** 已成功打入 [[Meta]] 的 **AR 眼鏡**供應鏈」未獲確立：本批次所取得之達邁文件**性質為個體財務報告（民國112及111年度，非年報）**，其中「**Meta**」「**透明**」「**眼鏡**」「**AR**」與「**PI**」之出現次數**均為0**，**未載產品別或客戶關係**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報、永續報告書或法人說明會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3646:material_named_relationship:890769e395a9edbf",
+      "normalized_claim_hash": "890769e395a9edbf8f8d8f8ad5c4ad58361f30dc60ba9f5c1523b41410c69703",
+      "ticker": "3646",
+      "company": "艾恩特",
+      "path": "Pilot_Reports/Electronic Components/3646_艾恩特.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **車用供應鏈**: 成功打入歐洲一線車廠，為 [[BMW]]、[[Mercedes-Benz]] 提供影音傳輸線路。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/364620260518M001.pdf",
+          "title": "艾恩特精密工業股份有限公司（艾恩特，3646，ANT Precision）線上法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2026年5月18日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,338字元，以圖形排版為主）。簡報載「2. **汽車產業**方面，目前國際**車廠**已逐漸由純電動車轉向更多元化動力方案」「**車燈線束**方面，**歐洲車廠**持續推出新車款，刺激買氣，持續推升突尼西亞（產能）」（「**車廠**」2次、「**歐洲**」1次），**支持其車用線束業務與歐洲車廠客戶之關聯**。**關鍵發現**：全份簡報中「**BMW**」「**Mercedes**」「**M-Benz**」與「一線」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**車用供應鏈**：成功打入**歐洲車廠**」獲發行人簡報之**部分支持**：簡報載「2. **汽車產業**方面，目前國際**車廠**已逐漸由純電動車轉向更多元化動力方案」「**車燈線束**方面，**歐洲車廠**持續推出新車款，刺激買氣」（「**車廠**」2次、「**歐洲**」1次、「車燈線束」），**支持其車用線束業務與歐洲車廠之關聯**。**惟兩項陳述未獲支持**：(1)「為 [[BMW]]、[[Mercedes-Benz]] 提供（產品）」——「**BMW**」與「**Mercedes**」之出現次數**均為0**；(2)「一線」車廠之表述未見。故部分成立。",
+      "proposed_text": "艾恩特精密 (3646，ANT Precision) 之車燈線束業務供貨歐洲車廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3675:material_named_relationship:cdf9541872f031c7",
+      "normalized_claim_hash": "cdf9541872f031c7a9057a33c526e1c60b5a6a8d181a63e2b57bb08ebdc7192b",
+      "ticker": "3675",
+      "company": "德微",
+      "path": "Pilot_Reports/Electronic Components/3675_德微.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **[[AI 伺服器]]供應鏈**: 已成功打入美系 [[AI]] [[伺服器]]供應鏈，供應[[伺服器]]電源供應器 (PSU) 所需的功率元件，[[AI]] 產品營收佔比已達約 25%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eris.com.tw/UploadImgs/ShareholderMeetingService/2024%20%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83/3675_112%e5%b9%b4%e5%a0%b1_%e4%b8%ad%e6%96%87print_%e4%b8%8a%e5%82%b3.pdf",
+          "title": "德微科技股份有限公司（德微，3675，Eris Technology）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取111,654字元）。年報載「（提）昇至更廣範之國際化與多元化之應用範疇，該產品線中、亦有生產**AI 伺服器**中所需之**保護元（件）**」（「**AI 伺服器**」1次、「**伺服器**」4次、「**二極體**」102次、「供應」57次），**支持其供應 AI 伺服器所需保護／二極體元件**。**關鍵發現**：全份年報中「**美系**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「已成功打入**（美系）** [[AI 伺服器]]供應鏈，供應伺服器（所需保護元件）」獲發行人年報之**部分支持**：年報載「（提）昇至更廣範之國際化與多元化之應用範疇，該產品線中、亦有生產**AI 伺服器**中所需之**保護元（件）**」（「**AI 伺服器**」1次、「伺服器」4次、「**二極體**」102次），**支持其供應 AI 伺服器所需之保護元件（二極體）**。**惟「美系」未獲支持**——「**美系**」之出現次數**為0**，**未指明客戶地區**。故部分成立。",
+      "proposed_text": "德微科技 (3675，Eris Technology) 供應 AI 伺服器所需之保護元件（二極體）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3684:material_named_relationship:70795130f69544f3",
+      "normalized_claim_hash": "70795130f69544f395873d4a5b804586d0de43e6b12d4fa9670b4914b4b5cb2b",
+      "ticker": "3684",
+      "company": "榮昌",
+      "path": "Pilot_Reports/Electronic Components/3684_榮昌.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **無線準系統組裝 (FATP)**: 提供從天線到戶外防水外殼 (Enclosure) 的完整組裝服務，核心客戶包括全球前三大[[網通]]企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.grand-tek.com/file/ESG-%E6%A6%AE%E6%98%8C%E7%A7%91%E6%8A%80%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8_2024%E5%B9%B4.pdf",
+          "title": "榮昌科技股份有限公司（榮昌，3684，Grand-Tek）2024 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取73,008字元）。報告書載「榮昌科技多年來深耕**戶外天線**及**次系統**，設計能快速導入的客製化解（決方案）」「（從）造起家，後續成功拓展至**戶外天線**與**次系統**，並提供客戶完整的電子零（件）」「車用線組、**戶外用**智慧電錶、交通**天線**、工業級**天線**及技術服務等範疇」「台灣系統類產品 **FATP** 測試組裝建置」「台灣系統類產品 **FATP** 已完成建置並持續擴充硬體/軟體/韌體專業」（「**FATP**」3次、「**天線**」16次、「**防水**」1次、「**外殼**」1次、「**Enclosure**」1次），**支持其戶外天線、次系統與 FATP 組裝業務**。**關鍵發現**：報告書未見將「天線」與「防水外殼」連成一完整組裝服務敘述之句子（「防水」「外殼」「Enclosure」各僅1次，上下文為零散字樣）。"
+        }
+      ],
+      "rationale": "「**無線準系統組裝（FATP）**」與「**天線**」獲發行人永續報告書**充分支持**：報告書載「榮昌科技多年來深耕**戶外天線**及**次系統**」「台灣系統類產品 **FATP** 測試組裝建置」「**FATP** 服務需求強勁」（「**FATP**」3次、「**天線**」16次）。**惟「提供從天線到戶外防水外殼（Enclosure）的完整組裝服務」之整體敘述未獲逐字支持**——「**防水**」「**外殼**」「**Enclosure**」之出現次數**各僅1次**，且未見將天線與外殼連成完整組裝服務之句子。故部分成立。",
+      "proposed_text": "榮昌科技 (3684，Grand-Tek) 深耕戶外天線與次系統，並提供 FATP 系統組裝服務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
