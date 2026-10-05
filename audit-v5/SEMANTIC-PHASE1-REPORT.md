@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **312 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), and `author-056` (7).
+Author-reviewed: **317 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), and `author-057` (5).
 
 - ACCEPTED by author: 54
-- PARTIALLY_SUPPORTED: 203
+- PARTIALLY_SUPPORTED: 207
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 51
-- Remaining author queue: 1,087
+- Other allowed author decisions: 52
+- Remaining author queue: 1,082
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -672,6 +672,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **312 / 1,399**; remaining: **1,087**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 203, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 51. Next pending claim by priority: `6940:objective_ranking_or_market_share:a339a04db47953d6` (格斯科技).
+
+## Author batch `author-057` — 2026-10-07
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (格斯科技 6940 ×2, 新代 7750, 長園科 8038, 信錦 1582). Evidence came from directly downloaded and inspected official disclosures: 格斯科技2025年法人說明會簡報、新代2026年法人說明會簡報、長園科2023年法人說明會簡報、信錦2022年度股東會議事錄。
+- `6940:objective_ranking_or_market_share:a339a04db47953d6` 與 `6cfe81e246b74e61` — `PARTIALLY_SUPPORTED`. 格斯科技2025年官方簡報以「鈦酸鋰」「LTO」「NCM」為產品主軸（「LTO」18次、「鈦酸鋰」7次、「NCM」9次、「軟包」3次、「儲能」18次），並載「LTO電池代工合約」「LTO,TNO（鈦酸鋰、鈮酸鈦）」，支持其專注 LTO 與 NCM 軟包電池芯；另載「安裝地點：**中油**嘉義綠能所加油站」，為文件中唯一提及中油之處，支持與中油之專案往來。惟「為台灣唯一具產業規模之 LTO 廠」（「台灣唯一」0次）與「中油為其最大客戶（儲能標案）」（「最大客戶」0次，未載標案規模或客戶別占比）均未獲支持。
+- `7750:objective_ranking_or_market_share:f2879969d03c99dd` — `PARTIALLY_SUPPORTED`. 新代2026年官方簡報載「CNC 控制器」「AI賦能智慧控制器」「控制器與自動化產品」（「CNC」8次、「控制器」11次）。惟「亞洲領先」（0次）、「中國市佔逾20%」（「市佔」「市占」「逾20%」均0次）與「第三，僅次於 FANUC、Siemens」（「FANUC」「Siemens」均0次；「第三」1次係「第三個五年計劃」之期程用語）均未獲支持。
+- `8038:objective_ranking_or_market_share:d89476319d794d57` — `UNKNOWN_AFTER_RESEARCH`. 長園科2023年官方簡報載「鋰鐵電池成市場主流」「半導體產業儲能系統」「UPS、儲能系統電池模組」（「鋰鐵」32次、「UPS」16次、「儲能」33次），支持其業務性質；惟「台積電」與「最大客戶」出現次數均為0。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則結為 UNKNOWN。
+- `1582:objective_ranking_or_market_share:948268fc83d4768f` — `PARTIALLY_SUPPORTED`. 信錦2022年度股東會議事錄載「信錦企業股份有限公司之營業收入主要來自於銷售**顯示器樞紐**產品」，並載其「發明、新型等專利逾140項，多與**液晶監視器底座**產品相關，顯見本公司於**監視器軸承暨底座的領導地位**」。惟「全球最大」「市佔」與「Hinge」出現次數均為0，官方用語為「領導地位」而非全球最大。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **317 / 1,399**; remaining: **1,082**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 207, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 52. Next pending claim by priority: `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0` (台達電).
+
 
 
 

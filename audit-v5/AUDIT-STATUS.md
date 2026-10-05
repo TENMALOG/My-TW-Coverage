@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 08:04 UTC
+Updated: 2026-10-07 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,31 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **312 / 1,399**
-- Remaining author review: **1,087**
-- Latest batch: **author-056** (7 claims)
+- Author-reviewed: **317 / 1,399**
+- Remaining author review: **1,082**
+- Latest batch: **author-057** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **54**
-- `PARTIALLY_SUPPORTED`: **203**
+- `PARTIALLY_SUPPORTED`: **207**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **51**
+- `UNKNOWN_AFTER_RESEARCH`: **52**
 
 ## Latest claim batch
 
-- `5227:objective_ranking_or_market_share:46ed0624b8da23c3` — `PARTIALLY_SUPPORTED`; 立凱簡報載「將在美國、歐洲、澳洲和印度授權生產」與其LFP材料地位；惟「ICL」「4億」「補貼」「首座」皆0次。
-- `6121:objective_ranking_or_market_share:6289cc549c3bc5c6` — `ACCEPTED`; 新普2023永續報告載「全球筆電(NB)電池組的**市佔持續維持全球第一**」「每年提供超過兩億個電池組」「市場上**每三個筆記型電腦中，就有一個為新普科技製造**」。
-- `6290:objective_ranking_or_market_share:19c3d40cace1a46e` — `UNKNOWN_AFTER_RESEARCH`; 良維2020簡報載其為全球電源線及連接線領導廠商；惟「Amazon」「Microsoft」「Lenovo」「ChargePoint」「最大客戶」皆0次，未具名任何客戶。
-- `6409:objective_ranking_or_market_share:5d7e6075ec84567f` — `PARTIALLY_SUPPORTED`; 旭隼2025簡報載「**100% ODM in UPS**」；惟「全球最大」「largest」「台積電」皆0次。
-- `6558:objective_ranking_or_market_share:7f263d7df2605e0b` — `PARTIALLY_SUPPORTED`; 興能高2024永續報告載產品應用於藍牙耳機、無線健康穿戴裝置（藍牙耳機3次）；惟「市佔」「12%」皆0次。
-- `6788:objective_ranking_or_market_share:4cdbfeafed0be581`、`e15a4230aec4e97e` — `UNKNOWN_AFTER_RESEARCH` ×2; 華景電2025簡報載晶圓製程AMC防治設備與製程節點（90nm–2nm）及「優質客戶群」標題，惟「台積電」「TSMC」「聯電」「旺宏」「Micron」「中芯」「最大」皆0次，客戶名稱未見於文字層。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-056.json`（7 筆）。未修改發行人報告。
-- 本批次起明確採用一致性規則：claim 實質內容**全為具名客戶身分**且官方文件未具名任何客戶 → `UNKNOWN_AFTER_RESEARCH`；claim **混合可查證之業務描述與不可查證之客戶／排名** → `PARTIALLY_SUPPORTED`。
-- Next pending claim by priority: `6940:objective_ranking_or_market_share:a339a04db47953d6` (格斯科技).
+- `6940:objective_ranking_or_market_share:a339a04db47953d6` — `PARTIALLY_SUPPORTED`; 格斯2025簡報以「鈦酸鋰」「LTO」「NCM」為主軸（LTO 18次、鈦酸鋰7次、NCM 9次、「LTO電池代工合約」）；惟「台灣唯一」0次。
+- `6940:objective_ranking_or_market_share:6cfe81e246b74e61` — `PARTIALLY_SUPPORTED`; 簡報載「安裝地點：**中油**嘉義綠能所加油站」；惟「最大客戶」0次、未載標案規模或客戶占比。
+- `7750:objective_ranking_or_market_share:f2879969d03c99dd` — `PARTIALLY_SUPPORTED`; 新代2026簡報載「CNC 控制器」「AI賦能智慧控制器」（CNC 8次、控制器11次）；惟「市佔」「逾20%」「FANUC」「Siemens」「亞洲領先」皆0次（「第三」係「第三個五年計劃」）。
+- `8038:objective_ranking_or_market_share:d89476319d794d57` — `UNKNOWN_AFTER_RESEARCH`; 長園科2023簡報載鋰鐵電池與UPS/儲能電池模組、半導體產業儲能系統（鋰鐵32次、UPS 16次、儲能33次）；惟「台積電」「最大客戶」皆0次，依具名客戶身分規則結為UNKNOWN。
+- `1582:objective_ranking_or_market_share:948268fc83d4768f` — `PARTIALLY_SUPPORTED`; 信錦2022議事錄載營收主要來自顯示器樞紐、專利逾140項多與液晶監視器底座相關、「監視器軸承暨底座的**領導地位**」；惟「全球最大」「市佔」「Hinge」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-057.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0` (台達電).
 
 ## Source access
 
