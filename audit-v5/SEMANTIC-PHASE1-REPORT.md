@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **17 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), and `author-009` (1).
+Author-reviewed: **18 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), and `author-010` (1).
 
 - ACCEPTED by author: 5
 - PARTIALLY_SUPPORTED: 9
 - UNSUPPORTED: 1
-- SOURCE_UNAVAILABLE: 2
+- SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 0
-- Remaining author queue: 1,382
+- Remaining author queue: 1,381
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -105,3 +105,10 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - Decision: `PARTIALLY_SUPPORTED`. 華航沿革支持 1959 年創立，官方新聞稿支持 2011 年加入天合聯盟；查閱頁面未明確支持台灣「最悠久」或「規模最大」的比較排名。
 - Evidence URL、標題、來源層級、期間、查閱日期、evidence note 與 proposed wording 記錄於 `semantic/author-009.json`；未修改發行人報告。
 - Author-reviewed total: 17 / 1,399; remaining author queue: 1,382. 獨立複核仍待處理。
+
+## Author batch `author-010` — 2026-10-05
+
+- Reviewed 1 previously unreviewed HIGH claim at claim level: `2610:objective_ranking_or_market_share:e790282c63b01303`.
+- Decision: `SOURCE_UNAVAILABLE`. 台灣中油官網及業務頁回應 HTTP 503；可讀的民航局業者申辦與機場資料頁沒有航油供應商名冊或唯一供應商聲明。
+- 存取結果只記錄來源限制，不代表中油是否為唯一供應商；完整 URL、標題、來源層級、期間與 evidence note 記錄於 `semantic/author-010.json`。
+- Author-reviewed total: 18 / 1,399; remaining author queue: 1,381. 獨立複核仍待處理。
