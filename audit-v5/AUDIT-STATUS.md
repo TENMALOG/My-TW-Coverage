@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 05:04 UTC
+Updated: 2026-10-12 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **941 / 1,399**
-- Remaining author review: **458**
-- Latest batch: **author-173** (7 claims)
+- Author-reviewed: **943 / 1,399**
+- Remaining author review: **456**
+- Latest batch: **author-174** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,19 +20,15 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **230**
+- `UNKNOWN_AFTER_RESEARCH`: **232**
 
 ## Latest claim batch
 
-- `6951:objective_ranking_or_market_share:f85c202bfd3023a7` — `PARTIALLY_SUPPORTED`；青新簡報載「本公司向**母公司日友環保**取（…）」；惟「最大」0次。
-- `6951:objective_ranking_or_market_share:118a4a05e6c010b3` — `PARTIALLY_SUPPORTED`；業務成立；惟「11,000」「30%」「10%」皆0次。
-- `6951:objective_ranking_or_market_share:dfc8c55e4d895e58` — `PARTIALLY_SUPPORTED`；醫療廢棄物清除服務成立；惟「星型」「中繼」「最大」皆0次。
-- `6951:objective_ranking_or_market_share:477ec4a344c88ad9` — `PARTIALLY_SUPPORTED`；簡報「**青新木」5 次**；惟「最大」「有害」皆0次。
-- `8422:objective_ranking_or_market_share:8c9bc6fbd3f61732` — `UNKNOWN_AFTER_RESEARCH`；端點所取得僅 **690 bytes 非文件內容**。
-- `8440:objective_ranking_or_market_share:80bc4d426ebfd8b7` — `PARTIALLY_SUPPORTED`；簡報載「**亞洲第一家廢家電資源化處理廠**」（**範圍強於** claim 之「國內第一家」）；惟「最大」0次。
-- `8440:objective_ranking_or_market_share:583e2c8ff693e85f` — `UNKNOWN_AFTER_RESEARCH`；「唯一」「中部」「獨佔」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-173.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `7507:objective_ranking_or_market_share:bfc75b334da69cf9` (環拓科技).
+- `7507:objective_ranking_or_market_share:bfc75b334da69cf9` — `UNKNOWN_AFTER_RESEARCH`；環拓科技官方端點 **HTTP 404**。
+- `8390:objective_ranking_or_market_share:f55fed9eabcb8974` — `UNKNOWN_AFTER_RESEARCH`；金益鼎端點回傳 **690 bytes 非文件內容**。
+- **重大里程碑：objective_ranking_or_market_share 訊號隊列已全數審畢。** 後續待審改依其他訊號類型推進，其分布為 `material_named_relationship` **315**、`profitability_assertion` **67**、`identity_changing_event` **42**、`export_concentration` **27**、`control_acquisition` **5**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-174.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `2645:material_named_relationship:8a2772f0488a5e3a` (長榮航太).
 
 ## Source access
 

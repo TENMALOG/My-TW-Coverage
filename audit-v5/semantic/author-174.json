@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-174",
+  "reviewed_at": "2026-10-05T21:31:42Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosure endpoints; 環拓端點HTTP 404、金益鼎端點690 bytes非文件內容，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "7507:objective_ranking_or_market_share:bfc75b334da69cf9",
+      "normalized_claim_hash": "bfc75b334da69cf9926ea1d25060b4cfdeb6f9f034638edb5a89504032901771",
+      "ticker": "7507",
+      "company": "環拓科技",
+      "path": "Pilot_Reports/Waste Management/7507_環拓科技.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "環拓科技股份有限公司 (7507，ENRESTEC) 為全球唯一成功商業化廢輪胎化學熱裂解之環保科技公司。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.enrestec.com.tw/wp-content/uploads/2026/09/c89f20fa-1.pdf",
+          "title": "環拓科技股份有限公司（環拓科技，7507，ENRESTEC）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域下載年報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得環拓科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「環拓科技股份有限公司為**全球唯一**成功**商業化廢輪胎化學熱裂解**之環保科技公司」未獲確立：本批次自發行人官方網域下載年報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8390:objective_ranking_or_market_share:f55fed9eabcb8974",
+      "normalized_claim_hash": "f55fed9eabcb89749001dfa4075a254956ff9d3c34d841fd733df29c4fc3f7d7",
+      "ticker": "8390",
+      "company": "金益鼎",
+      "path": "Pilot_Reports/Waste Management/8390_金益鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **太陽能板回收：** 上市櫃唯一取得台灣廢太陽能板回收處理代碼之公司，回收率近98%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://mopsov.twse.com.tw/nas/STR/839020251218M001.pdf",
+          "title": "金益鼎企業股份有限公司（金益鼎，8390，JYD）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自公開資訊觀測站端點下載金益鼎114年度法人說明會簡報時，所取得之檔案僅 **690 bytes**，**為非文件內容（未含可檢視之簡報內容）**；本批次未取得金益鼎可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**太陽能板回收**：**上市櫃唯一**取得台灣廢太陽能板回收處理代碼之公司，**回收率近 98%**」未獲確立：本批次自公開資訊觀測站端點所取得之檔案僅 **690 bytes**，**為非文件內容**，未取得可檢視之簡報或年報，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
