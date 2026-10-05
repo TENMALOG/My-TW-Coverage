@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 11:04 UTC
+Updated: 2026-10-13 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,056 / 1,399**
-- Remaining author review: **343**
-- Latest batch: **author-203** (5 claims)
+- Author-reviewed: **1,060 / 1,399**
+- Remaining author review: **339**
+- Latest batch: **author-204** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **682**
+- `PARTIALLY_SUPPORTED`: **685**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **274**
+- `UNKNOWN_AFTER_RESEARCH`: **275**
 
 ## Latest claim batch
 
-- `6465:material_named_relationship:1b1eac4e47b8e85f` — `PARTIALLY_SUPPORTED`；威潤簡報可見「**SoftBank」1 次（與 NTT Docomo、KDDI 並列）**、「4G」10次、「LTE」7次；惟「衛星／認證」皆0次（**該簡報文字層部分為亂碼**，中文缺席不具決定性）。
-- `6530:material_named_relationship:02c3945e52c21e28`、`4d2b4989231e6648` — `PARTIALLY_SUPPORTED` ×2；創威簡報**逐字載**「成為 **CHT（中華電信）千兆乙太網路 SFP 主要供應商**」；**惟「A 級」與「認證」皆 0 次**。
-- `6546:profitability_assertion:8eb8781a7d220316` — `PARTIALLY_SUPPORTED`；正基簡報「**醫療」2 次、「車用」2 次、「充電樁」1 次**；惟「工業控制／紅海／消費性／高毛利」皆0次。
-- `6546:profitability_assertion:47133d50b4b5dce6` — `PARTIALLY_SUPPORTED`；「充電樁」「醫療」成立；惟「超高毛利／工業控制／IPC」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-203.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6715:material_named_relationship:30d2cc243e301363` (嘉基).
+- `6715:material_named_relationship:30d2cc243e301363` — `PARTIALLY_SUPPORTED`；嘉基簡報「**Intel」10 次、「Thunderbolt」11 次**並載「通過 **Intel 與 Apple TBT 技術（認證）**」；惟「全球少數／主力供應商／跨國電腦大廠」未獲支持。
+- `6715:profitability_assertion:d216f2abeb9da042` — `PARTIALLY_SUPPORTED`；簡報「**AOC」5 次（100G QSFP／25G SFP）**；**惟「800G」「LPO」皆 0 次**。
+- `6715:material_named_relationship:91c760a0f591152d` — `UNKNOWN_AFTER_RESEARCH`；「**SpaceX／Starlink／供應商」皆 0 次**，**且「射頻」2 次係團隊成員經歷（Emcore／Intel – 射頻工程師），非產品**。
+- `2301:material_named_relationship:458a4adc5a257829` — `PARTIALLY_SUPPORTED`；光寶簡報「**GB300」2 次、「800V」1 次、「Power Rack」8 次、「兆瓦」1 次、「NVIDIA」1 次**並載「次世代**兆瓦級 800V DC Power Rack**」；**惟「GB200」與「AI 伺服器」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-204.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2405:identity_changing_event:994e9d09f13f0b0a` (輔信).
 
 ## Source access
 
