@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 17:04 UTC
+Updated: 2026-10-13 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,078 / 1,399**
-- Remaining author review: **321**
-- Latest batch: **author-209** (2 claims)
+- Author-reviewed: **1,082 / 1,399**
+- Remaining author review: **317**
+- Latest batch: **author-210** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **97**
-- `PARTIALLY_SUPPORTED`: **695**
+- `ACCEPTED`: **98**
+- `PARTIALLY_SUPPORTED`: **697**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **282**
+- `UNKNOWN_AFTER_RESEARCH`: **283**
 
 ## Latest claim batch
 
-- `6117:material_named_relationship:08e43894d3a70c04` — `PARTIALLY_SUPPORTED`；迎廣年報載「繼續強化**AI 伺服器**擴大產能及系統**組裝**能力」並見「**NVIDIA」2 次、「AI 伺服器」1 次、「組裝廠」3 次、「美國」3 次**；**惟「馬來西亞」0 次**（年報所載組裝廠位於台北汐止）。
-- `6197:material_named_relationship:457cbbbbe3a30cf3` — `UNKNOWN_AFTER_RESEARCH`；佳必琪文件為**個體財務報告（非年報）**，「**ORV3／Busbar／PCIe／NVIDIA」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-209.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `5271:material_named_relationship:41d4aa5ed2bf3155` (紘通).
+- `5271:material_named_relationship:41d4aa5ed2bf3155` — `UNKNOWN_AFTER_RESEARCH`；紘通文件（**股東會議事手冊**）「**ADAS／行車記錄器／HUD／車用」皆 0 次**。
+- `6188:profitability_assertion:4ec34a9e9eccbacc` — `PARTIALLY_SUPPORTED`；達明簡報「**廣明」12 次**（集團關係可見）；惟「**廣達／光碟機／儲存／高毛利」皆 0 次**。
+- `6188:material_named_relationship:54495851443675a1` — `PARTIALLY_SUPPORTED`；簡報「**達明」18 次、「協作」7 次、「半導體」4 次**；惟「**車廠／NVIDIA」皆 0 次**。
+- `6199:material_named_relationship:b12cc71712380247` — `ACCEPTED`；天品簡報**逐字載**「**Rubin 系統：挑戰極致潔淨標準**」「**Rubin 專屬超規格（The Rubin Standard）**：針對新一代 **Rubin 機台**，將標準推升至 **<50um**」與「**AI 伺服器清洗**」（清洗13次、水冷1次、液冷2次、散熱2次）——**逐項對應**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-210.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `5310:profitability_assertion:ccc836ffe3afcdca` (天剛).
 
 ## Source access
 

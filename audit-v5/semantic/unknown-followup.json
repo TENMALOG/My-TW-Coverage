@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:13:11Z",
+  "generated_at": "2026-10-05T22:14:21Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -212,13 +212,14 @@
     "author-206",
     "author-207",
     "author-208",
-    "author-209"
+    "author-209",
+    "author-210"
   ],
-  "source_batch_count": 209,
-  "total_unknown": 282,
+  "source_batch_count": 210,
+  "total_unknown": 283,
   "failure_signature_counts": {
     "no_official_endpoint_found": 117,
-    "other_unclassified": 112,
+    "other_unclassified": 113,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 37,
@@ -4350,6 +4351,20 @@
       ],
       "attempted_sources": [
         "https://dnt.jpcconnectivity.com/storage/uploads/1774319323_114%e5%b9%b4%e4%bd%b3%e5%bf%85%e7%90%aa%e5%80%8b%e9%ab%94%e8%b2%a1%e5%a0%b1(%e5%a5%97%e7%ab%a0).pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5271:material_named_relationship:41d4aa5ed2bf3155",
+      "ticker": "5271",
+      "company": "紘通",
+      "claim": "車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+      "batch_id": "author-210",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "http://www.hometom.com.tw/upload/20201209160225.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

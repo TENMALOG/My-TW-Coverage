@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-210",
+  "reviewed_at": "2026-10-05T22:14:07Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (紘通股東會議事手冊; 達明機器人法人說明會簡報; 天品法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "5271:material_named_relationship:41d4aa5ed2bf3155",
+      "normalized_claim_hash": "41d4aa5ed2bf3155797c2251ff61f1c2bb1a6c866db451fd6e348664ca575d1c",
+      "ticker": "5271",
+      "company": "紘通",
+      "path": "Pilot_Reports/Computer Hardware/5271_紘通.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.hometom.com.tw/upload/20201209160225.pdf",
+          "title": "紘通企業股份有限公司（紘通，5271，Hometom）股東會議事手冊",
+          "source_level": 3,
+          "period_binding": "文件所載為一○六年度營業報告書等。**非近期版本**。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取48,669字元）。**文件性質為股東會議事手冊**（含「開會程序」「報告事項」「承認事項」與「一○六年度營業報告書」）；文中「**紘通**」出現51次（確認文件歸屬）、「電子」23次、「汽車」3次。**關鍵發現**：全份文件中「**ADAS**」「**行車記錄器**」「**HUD**」與「車用」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「車用產品已打入 [[ADAS]]、**行車記錄器**、**HUD** 等供應鏈」未獲確立：所取得之紘通文件（**股東會議事手冊**，非近期版本）中「**ADAS**」「**行車記錄器**」「**HUD**」與「車用」之出現次數**均為0**（「汽車」3次、「電子」23次僅為一般字樣），**未載該等車用產品線**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6188:profitability_assertion:4ec34a9e9eccbacc",
+      "normalized_claim_hash": "4ec34a9e9eccbacc7adbac667a4e57e8c741b08f493ca110e7d72a0dad303c85",
+      "ticker": "6188",
+      "company": "廣明",
+      "path": "Pilot_Reports/Computer Hardware/6188_廣明.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "廣明光電股份有限公司 (6188) 為[[廣達]]電腦集團旗下企業，早期以光碟機起家，現已成功轉型為雙核心發展：一為「儲存裝置代工」(HDD/SSD及擴充基座擴充)，二為高毛利的「協作型[[機器人]]」。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/458520250804E001.pdf",
+          "title": "達明機器人股份有限公司（達明機器人，4585，Techman Robot；廣明之子公司）法人說明會簡報（2025-08-04）",
+          "source_level": 3,
+          "period_binding": "2025年8月4日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,210字元，以圖形排版為主）。簡報載「**達明機器人**股份有限公司簡報」「內建視覺 AI **協作型機器人**」「工業用機器人新趨勢- **協作型機器人**」「高負載(TM16、TM20) 適用**半導體業**、堆棧等」（「**達明**」18次、「**協作**」7次、「**半導體**」4次、「**廣明**」12次），**支持其為協作型機器人品牌且應用於半導體業**。**關鍵發現**：全份簡報中「**廣達**」「**光碟機**」「**儲存**」「**高毛利**」「**車廠**」與「**NVIDIA**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為[[廣達]]電腦集團旗下企業」與「達明機器人為其子公司」之**集團關係**獲所取得文件之**部分支持**：達明機器人簡報中「**廣明**」出現12次，**顯示廣明與達明之關係為文件所載**。**惟本 claim 之多項實質陳述未獲支持**：(1)「[[廣達]]電腦集團旗下」——「**廣達**」出現次數為**0**；(2)「早期以**光碟機**起家」——「**光碟機**」為**0**；(3)「**儲存裝置代工**（HDD/SSD及擴充基座）」——「**儲存**」為**0**；(4)「**高毛利**的（第二核心）」——「高毛利」為**0**。故部分成立。**文件性質註記**：本件為**子公司達明機器人之簡報**，非廣明本身之年報，建議另取廣明年報複核。",
+      "proposed_text": "廣明光電 (6188) 為達明機器人 (4585) 之母公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6188:material_named_relationship:54495851443675a1",
+      "normalized_claim_hash": "54495851443675a16a1258ab53e87a158dab1e7b7065746363fc7424ab86a8fe",
+      "ticker": "6188",
+      "company": "廣明",
+      "path": "Pilot_Reports/Computer Hardware/6188_廣明.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旗下子公司「達明[[機器人]](Techman Robot)」是全球知名的協作[[機器人]]品牌，產品廣泛應用於[[半導體]]、車廠及傳統製造業，並成功打入[[NVIDIA]]的[[AI]][[機器人]](Jetson)供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/458520250804E001.pdf",
+          "title": "達明機器人股份有限公司（達明機器人，4585，Techman Robot；廣明之子公司）法人說明會簡報（2025-08-04）",
+          "source_level": 3,
+          "period_binding": "2025年8月4日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,210字元，以圖形排版為主）。簡報載「**達明機器人**股份有限公司簡報」「內建視覺 AI **協作型機器人**」「工業用機器人新趨勢- **協作型機器人**」「高負載(TM16、TM20) 適用**半導體業**、堆棧等」（「**達明**」18次、「**協作**」7次、「**半導體**」4次、「**廣明**」12次），**支持其為協作型機器人品牌且應用於半導體業**。**關鍵發現**：全份簡報中「**廣達**」「**光碟機**」「**儲存**」「**高毛利**」「**車廠**」與「**NVIDIA**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「旗下子公司『**達明機器人（Techman Robot）**』是…**協作機器人**品牌，產品廣泛應用於**半導體**及傳統製造業」獲發行人簡報**充分支持**：簡報載「**達明機器人**股份有限公司簡報」「內建視覺 AI **協作型機器人**」「工業用機器人新趨勢- **協作型機器人**」「高負載(TM16、TM20) 適用**半導體業**、堆棧等」（「達明」18次、「協作」7次、「半導體」4次、「Techman」1次）。**惟兩項陳述未獲支持**：(1)「**車廠**」——出現次數為**0**；(2)「並成功打入 [[NVIDIA]] 的（供應鏈）」——「**NVIDIA**」為**0**。故部分成立。",
+      "proposed_text": "廣明光電 (6188) 旗下子公司達明機器人 (4585，Techman Robot) 為協作型機器人品牌，產品應用於半導體業及傳統製造業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6199:material_named_relationship:b12cc71712380247",
+      "normalized_claim_hash": "b12cc7171238024714f190672d54e72335cfee52097de9defb78f13624c0d296",
+      "ticker": "6199",
+      "company": "天品",
+      "path": "Pilot_Reports/Computer Hardware/6199_天品.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "憑藉深厚的[[半導體]]清洗經驗與高階無塵室設備，天品成功打入國際知名[[AI]]晶片(如Rubin)[[散熱]]系統([[水冷]]/液冷)的清洗服務供應鏈，打造出第二成長曲線。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/619920260415M001.pdf",
+          "title": "天品聯合企業股份有限公司（天品，6199，Tianpin）法人說明會簡報（2026-04-15）",
+          "source_level": 3,
+          "period_binding": "2026年4月15日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,501字元，以圖形排版為主）。簡報載「**Rubin 系統：挑戰極致潔淨標準**」「◼**Rubin 專屬超規格（The Rubin Standard）**：針對新一代 **Rubin 機台**，將標準推升至 **<50um**（肉眼不可見級）」（「**Rubin**」4次）、「**AI 伺服器清洗**」「起累積的**半導體零件清洗**與貴金屬回收技術」「殊元件的**先進清洗**，導入高階**無塵**製程與自動化」（「**清洗**」13次、「**半導體**」3次、「**無塵室**」1次），並見「**水冷**」1次、「**液冷**」2次、「**散熱**」2次，**逐項支持該 claim**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人簡報**逐字支持**：(1)「深厚的**半導體**（零件）**清洗**經驗」——簡報載「起累積的**半導體零件清洗**與貴金屬回收技術」「殊元件的**先進清洗**」（「清洗」13次、「半導體」3次）；(2)「高階**無塵室**設備」——「導入高階**無塵**製程與自動化」（「無塵室」1次）；(3)「**AI**（伺服器）清洗服務」——簡報載「**AI 伺服器清洗**」；(4)「國際知名 **AI 晶片（如 Rubin）**」——簡報載「**Rubin 系統：挑戰極致潔淨標準**」「◼**Rubin 專屬超規格（The Rubin Standard）**：針對新一代 **Rubin 機台**，將標準推升至 **<50um**」（「Rubin」4次）；(5)「**散熱**系統（**水冷**／**液冷**）」——「散熱」2次、「水冷」1次、「液冷」2次。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
