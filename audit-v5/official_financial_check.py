@@ -353,6 +353,11 @@ def main() -> int:
         "status_counts": dict(sorted(status_counts.items())),
         "metric_counts": dict(sorted(metric_counters.items())),
         "official_field_names_sample": field_names,
+        "differences": sorted(
+            [d for d in details if d["status"] == "FINANCIAL_DIFFERENCE" and d["difference_million"] is not None],
+            key=lambda d: abs(d["difference_million"]),
+            reverse=True,
+        ),
         "top_differences": sorted(
             [d for d in details if d["status"] == "FINANCIAL_DIFFERENCE" and d["difference_million"] is not None],
             key=lambda d: abs(d["difference_million"]),
