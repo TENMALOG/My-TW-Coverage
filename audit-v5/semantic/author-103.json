@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-103",
+  "reviewed_at": "2026-10-05T19:58:12Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (鼎固控股公司文件; 森寶2025年法人說明會簡報; 信義房屋2025年法人說明會簡報; 東哥遊艇2026年法人說明會簡報; 致茂114年度年報)",
+  "items": [
+    {
+      "claim_id": "2923:objective_ranking_or_market_share:2deccd89094eaab3",
+      "normalized_claim_hash": "2deccd89094eaab339ca323b25bd5f0ccc008692af59ded6a154e3a39604c463",
+      "ticker": "2923",
+      "company": "鼎固-KY",
+      "path": "Pilot_Reports/Real Estate - Development/2923_鼎固-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "母集團[[日月光半導體]] ([[日月光投控]]) 為全球最大半導體封測廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sinohorizon.tw/dl/file/Wz3tS5nkgEOj1mzN",
+          "title": "鼎固控股有限公司（鼎固-KY，2923，Sino Horizon Holdings）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件中「**日月光**」出現59次，支持其與日月光集團之關係。全份文件中「**全球最大**」與「**封測**」之出現次數均為0，未以全球最大半導體封測廠描述日月光之市場地位。"
+        }
+      ],
+      "rationale": "「母集團為日月光（日月光投控）」獲發行人文件支持：文件中「**日月光**」出現59次，支持其與日月光集團之關係。惟「為**全球最大**半導體**封測**廠」未獲支持：全份文件中「**全球最大**」與「**封測**」之出現次數均為0，未以全球最大半導體封測廠描述日月光之地位（該地位之敘述屬第三人市場地位，本件未載）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3489:objective_ranking_or_market_share:6f1e5cdcedde4c99",
+      "normalized_claim_hash": "6f1e5cdcedde4c992552ad5fc4dc0e9b6479c738d08370cc771764bc3fc362dd",
+      "ticker": "3489",
+      "company": "森寶",
+      "path": "Pilot_Reports/Real Estate - Development/3489_森寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大競爭優勢在於擁有 100% 持股之「森碁營造」子公司，形成從土地開發、建築設計到營造施工之一條龍垂直整合體系，有效控制工程進度、降低成本風險並確保施工品質。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/348920250908M001.pdf",
+          "title": "森寶開發股份有限公司（森寶，3489，Sen Bao）法人說明會簡報（2025-09-08）",
+          "source_level": 3,
+          "period_binding": "2025年9月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取2,227字元）。簡報中「**森碁**」出現2次、「營造」3次、「100%」2次，支持其擁有森碁營造子公司及其持股關係。全份簡報中「**一條龍**」與「**垂直整合**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「擁有 100% 持股之『森碁營造』子公司」獲發行人簡報支持：2025年官方簡報中「**森碁**」出現2次、「營造」3次、「100%」2次，支持該子公司之存在與持股關係。惟「形成從土地開發、建築設計到營造施工之**一條龍垂直整合**體系，有效控制工程進度、降低成本風險並確保施工品質」未獲支持：全份簡報中「**一條龍**」與「**垂直整合**」之出現次數均為0（該簡報文字擷取僅2,227字元）。故部分成立。",
+      "proposed_text": "森寶開發 (3489) 擁有 100% 持股之森碁營造子公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9940:objective_ranking_or_market_share:103ba9aa17da7009",
+      "normalized_claim_hash": "103ba9aa17da7009c8972f0f1a2aeaf41803a94e60a20dd4be683615e290d0fb",
+      "ticker": "9940",
+      "company": "信義",
+      "path": "Pilot_Reports/Real Estate Services/9940_信義.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[信義房屋]]股份有限公司 (9940，Sinyi Realty) 成立於 1987 年，為台灣最大[[房屋仲介]]品牌，全台擁有超過 500 間直營門市。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/994020250313M001.pdf",
+          "title": "信義房屋股份有限公司（信義，9940，Sinyi Realty）法人說明會簡報（2025-03-13）",
+          "source_level": 3,
+          "period_binding": "2025年3月；店數基準為2024年10月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「註：**2024年10月店數為464家直營分店**」，支持其直營門市之經營型態與店數（**464家**）。全份簡報中「**1987**」「**最大**」與「**500**」之出現次數均為0；「直營」1次即上開註記。"
+        }
+      ],
+      "rationale": "「為房屋仲介業者並擁有直營門市」獲發行人簡報支持：2025年官方簡報載「註：**2024年10月店數為464家直營分店**」，支持其直營經營型態。惟三項陳述未獲支持或須更正：(1)「成立於 **1987 年**」——「1987」出現次數為0；(2)「為台灣**最大**房屋仲介品牌」——「最大」出現次數為0；(3)「全台擁有**超過 500 間**直營門市」——「500」為0，且簡報所載店數為**464家**，與 claim 之「超過500間」不符。故部分成立。",
+      "proposed_text": "信義房屋 (9940，Sinyi Realty) 經營房屋仲介業務，2024年10月直營分店為464家。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8478:objective_ranking_or_market_share:1d158029ffa49cb9",
+      "normalized_claim_hash": "1d158029ffa49cb9fe19b3ca983cbe6542b20d0c33c0c5c619829dc7530ef14b",
+      "ticker": "8478",
+      "company": "東哥遊艇",
+      "path": "Pilot_Reports/Recreational Vehicles/8478_東哥遊艇.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "東哥企業 (8478) 為亞洲最大、全球第三大豪華遊艇製造商，品牌「[[Ocean Alexander]]」。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/847820260312M001.pdf",
+          "title": "東哥企業股份有限公司（東哥遊艇，8478，Alexander Marine）法人說明會簡報（2026-03-12）",
+          "source_level": 3,
+          "period_binding": "2026年3月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,315字元）。簡報中「**50%**」出現5次，其上下文分別為「新廠貢獻**產能+50%**」「**回購率50%+**，領先同業」與「2026-2027 **市占率**優於同業大幅成長(150% vs 同業low single digit)」，**均非**經銷商占本公司營收之比例。全份簡報中「**MarineMax**」「**亞洲最大**」「**全球第三**」與「**Ocean**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為豪華遊艇製造商，品牌『Ocean Alexander』」之業務敘述以發行人官方簡報本身之來源身分為據（該簡報為東哥企業之法人說明會簡報）；惟三項市場地位陳述未獲支持：全份簡報中「**亞洲最大**」「**全球第三**」與「**Ocean**」之出現次數均為0，未以亞洲最大或全球第三大描述其市場地位。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8478:objective_ranking_or_market_share:28a1bcd15fe9985b",
+      "normalized_claim_hash": "28a1bcd15fe9985bba95aea4d6c0247ebab693d97fc116ddca1eb972854aa848",
+      "ticker": "8478",
+      "company": "東哥遊艇",
+      "path": "Pilot_Reports/Recreational Vehicles/8478_東哥遊艇.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "透過全美最大遊艇經銷商[[MarineMax]] (佔營收50%+) 於美國東岸銷售。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/847820260312M001.pdf",
+          "title": "東哥企業股份有限公司（東哥遊艇，8478，Alexander Marine）法人說明會簡報（2026-03-12）",
+          "source_level": 3,
+          "period_binding": "2026年3月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,315字元）。簡報中「**50%**」出現5次，其上下文分別為「新廠貢獻**產能+50%**」「**回購率50%+**，領先同業」與「2026-2027 **市占率**優於同業大幅成長(150% vs 同業low single digit)」，**均非**經銷商占本公司營收之比例。全份簡報中「**MarineMax**」「**亞洲最大**」「**全球第三**」與「**Ocean**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「透過全美最大遊艇經銷商 **MarineMax**（佔營收 50%+）於美國東岸銷售」未獲確立：查閱之東哥官方簡報中「**MarineMax**」出現次數為0，未具名該經銷商；且「**50%**」5次之上下文分別為「新廠貢獻**產能+50%**」「**回購率50%+**」與「2026-2027 市占率優於同業大幅成長」（**均非**經銷商占營收比例）。因該 claim 之實質內容為具名經銷商及其營收占比，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8478:objective_ranking_or_market_share:803bb81e8eda9129",
+      "normalized_claim_hash": "803bb81e8eda91299c57458dc8e1dc83cc4a59cb1d04e6a695fe8b080f6206a0",
+      "ticker": "8478",
+      "company": "東哥遊艇",
+      "path": "Pilot_Reports/Recreational Vehicles/8478_東哥遊艇.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[MarineMax]] — 美國最大遊艇經銷 (50%+)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/847820260312M001.pdf",
+          "title": "東哥企業股份有限公司（東哥遊艇，8478，Alexander Marine）法人說明會簡報（2026-03-12）",
+          "source_level": 3,
+          "period_binding": "2026年3月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,315字元）。簡報中「**50%**」出現5次，其上下文分別為「新廠貢獻**產能+50%**」「**回購率50%+**，領先同業」與「2026-2027 **市占率**優於同業大幅成長(150% vs 同業low single digit)」，**均非**經銷商占本公司營收之比例。全份簡報中「**MarineMax**」「**亞洲最大**」「**全球第三**」與「**Ocean**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名對象事實之條目表述（「MarineMax — 美國最大遊艇經銷 (50%+)」）。東哥官方簡報中「**MarineMax**」出現次數為0，且本批次未取得 MarineMax 自身之官方文件，該經銷商之身分與市場地位未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2360:objective_ranking_or_market_share:1e49821a8cff17a7",
+      "normalized_claim_hash": "1e49821a8cff17a72d749a6e53e8c2ec92eace2b317442049145af05c3a224b1",
+      "ticker": "2360",
+      "company": "致茂",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/2360_致茂.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "致茂電子股份有限公司 (2360，Chroma ATE) 成立於 1984 年，為亞洲最大之自動化測試與量測設備製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chromaate.com/downloads/investors/pdf/shareholder/2026/2025_Chroma_ATE_Annual_Report-TC.pdf",
+          "title": "致茂電子股份有限公司（致茂，2360，Chroma ATE）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**量測**」出現44次、「**自動化測試**」6次，支持其自動化測試與量測設備之業務。全份年報中「**亞洲最大**」與「**1984**」之出現次數均為0。**註記：該 PDF 封面頁之文字層呈現亂碼**（如「儞䇦㕪䭡炗亯」「⪷Ꝣ鞶鋀鈻島珎」等，惟其後頁面之文字擷取正常）。"
+        }
+      ],
+      "rationale": "「為自動化測試與量測設備製造商」獲發行人年報支持：114年度年報中「**量測**」出現44次、「**自動化測試**」6次，支持其自動化測試與量測設備之業務。惟兩項陳述未獲支持：(1)「為**亞洲最大**之自動化測試與量測設備製造商」——「亞洲最大」出現次數為0；(2)「成立於 **1984 年**」——「1984」出現次數為0。故部分成立（並註記該年報封面頁之文字層呈現亂碼，其後頁面擷取正常）。",
+      "proposed_text": "致茂電子 (2360，Chroma ATE) 從事自動化測試與量測設備之製造。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

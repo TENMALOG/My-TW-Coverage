@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 06:04 UTC
+Updated: 2026-10-09 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **611 / 1,399**
-- Remaining author review: **788**
-- Latest batch: **author-102** (6 claims)
+- Author-reviewed: **618 / 1,399**
+- Remaining author review: **781**
+- Latest batch: **author-103** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **396**
+- `PARTIALLY_SUPPORTED`: **401**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **134**
+- `UNKNOWN_AFTER_RESEARCH`: **136**
 
 ## Latest claim batch
 
-- `5292:objective_ranking_or_market_share:b7b5d29e96b2972f` — `PARTIALLY_SUPPORTED`；華懋2024簡報載「**VOCs污染防治系統**」「高科技**VOCs淨化設備**」（VOCs 6次、轉輪5次）；惟「沸石」「市佔」「黃光」皆0次。
-- `1808:objective_ranking_or_market_share:ee0f0ac169c03e89` — `PARTIALLY_SUPPORTED`；潤隆簡報「完工」3次、「2025」3次；惟「最大」「交屋」皆0次。
-- `2539:objective_ranking_or_market_share:0660a4ba59fb2fd6` — `PARTIALLY_SUPPORTED`；櫻花建2024簡報（**英文版**）「Taichung」18次；惟「1988」「largest」「Baujia」皆0次，且簡報載董事長為「**Mr. Chen, Shin-Ying**」，與claim所述**林家宏**不同。
-- `2542:objective_ranking_or_market_share:ca12741b0453c297`、`ed6d035d3884b395` — `PARTIALLY_SUPPORTED` ×2；興富發113年報「曹淵博」18次；惟「1980」「民營建商」「全台最大」皆0次——**年報中「全球最大」係指其合作對象「全球最大連鎖酒店萬豪集團」，非興富發自身**。
-- `2542:objective_ranking_or_market_share:c259dca2ad8e1373` — `PARTIALLY_SUPPORTED`；年報「**齊裕營造**」11次（集團子公司）成立；惟「地下室」0次，「全國地下室挖掘量最大」未獲支持。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-102.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `2923:objective_ranking_or_market_share:2deccd89094eaab3` (鼎固-KY).
+- `2923:objective_ranking_or_market_share:2deccd89094eaab3` — `PARTIALLY_SUPPORTED`；鼎固文件「日月光」59次（母子集團關係）；惟「全球最大」「封測」皆0次。
+- `3489:objective_ranking_or_market_share:6f1e5cdcedde4c99` — `PARTIALLY_SUPPORTED`；森寶2025簡報「森碁」2次、「營造」3次、「100%」2次；惟「一條龍」「垂直整合」皆0次。
+- `9940:objective_ranking_or_market_share:103ba9aa17da7009` — `PARTIALLY_SUPPORTED`；信義2025簡報載「2024年10月店數為**464家直營分店**」；惟「1987」「最大」皆0次，且claim之「超過500間」**與官方所載464家不符**。
+- `8478:objective_ranking_or_market_share:1d158029ffa49cb9` — `PARTIALLY_SUPPORTED`；東哥2026簡報之來源身分成立；惟「亞洲最大」「全球第三」「Ocean」皆0次。
+- `8478:objective_ranking_or_market_share:28a1bcd15fe9985b`、`803bb81e8eda9129` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報「MarineMax」0次，且「50%」5次分別為「產能+50%」「回購率50%+」等，**非經銷商營收占比**。
+- `2360:objective_ranking_or_market_share:1e49821a8cff17a7` — `PARTIALLY_SUPPORTED`；致茂114年報「量測」44次、「自動化測試」6次；惟「亞洲最大」「1984」皆0次（**封面頁文字層亂碼**）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-103.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `2423:objective_ranking_or_market_share:89e017344f0a4685` (固緯).
 
 ## Source access
 
