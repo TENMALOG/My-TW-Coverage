@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:11:50Z",
+  "generated_at": "2026-10-05T21:15:04Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -159,16 +159,19 @@
     "author-154",
     "author-155",
     "author-156",
-    "author-157"
+    "author-157",
+    "author-158",
+    "author-159",
+    "author-160"
   ],
-  "source_batch_count": 157,
-  "total_unknown": 209,
+  "source_batch_count": 160,
+  "total_unknown": 211,
   "failure_signature_counts": {
-    "other_unclassified": 88,
+    "other_unclassified": 76,
+    "no_official_endpoint_found": 104,
     "tls_failure": 13,
     "mops_non_document": 34,
     "non_document_response": 31,
-    "no_official_endpoint_found": 87,
     "http_404": 38,
     "http_403": 11,
     "image_only_or_tiny_text": 20,
@@ -215,7 +218,7 @@
       "claim": "TPMS AM 最大客戶為[[Standard Motor Products]] (SMP，北美最大 AM 經銷商)。",
       "batch_id": "author-022",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/223120240611M001.pdf"
@@ -229,7 +232,7 @@
       "claim": "[[Standard Motor Products]] (SMP)、Wells — 北美 TPMS (AM 市佔 90%)",
       "batch_id": "author-022",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/223120240611M001.pdf"
@@ -243,7 +246,8 @@
       "claim": "主要客戶涵蓋[[Standard Motor Products]] (SMP，北美最大 AM 經銷商)、[[Federal-Mogul]] (現隸屬[[Tenneco]])、[[BERU]] (現隸屬[[BorgWarner]])。",
       "batch_id": "author-024",
       "failure_signature": [
-        "tls_failure"
+        "tls_failure",
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/t59/t59sa14/2245_2026081301_RPT.pdf"
@@ -257,7 +261,8 @@
       "claim": "[[Standard Motor Products]] (SMP) — 最大 AM 經銷商",
       "batch_id": "author-024",
       "failure_signature": [
-        "tls_failure"
+        "tls_failure",
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/t59/t59sa14/2245_2026081301_RPT.pdf"
@@ -271,7 +276,8 @@
       "claim": "[[Standard Motor Products]] (SMP) — 最大經銷商",
       "batch_id": "author-024",
       "failure_signature": [
-        "tls_failure"
+        "tls_failure",
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/t59/t59sa14/2245_2026081301_RPT.pdf"
@@ -539,7 +545,7 @@
       "claim": "最大之長期吃重核心代工客戶為美系雲端網通絕對霸主 [[Cisco]] Meraki。",
       "batch_id": "author-037",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/355820221118E001.pdf"
@@ -553,7 +559,7 @@
       "claim": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一客戶",
       "batch_id": "author-038",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
@@ -568,7 +574,7 @@
       "claim": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一代工客戶",
       "batch_id": "author-038",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
@@ -918,7 +924,7 @@
       "claim": "[[Amazon]](AWS為其[[AI]]大電力線最大客戶)、[[Apple]]、[[Microsoft]]、[[Lenovo]]及ChargePoint。",
       "batch_id": "author-056",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/629020200825M002.pdf"
@@ -1109,7 +1115,7 @@
       "claim": "[[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
       "batch_id": "author-060",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://www.largan.com.tw/tw/tool-download/page_size/file/172/2013-%e5%b9%b4%e5%a0%b1"
@@ -1240,7 +1246,7 @@
       "claim": "[[Cochlear]] — 全球最大電子耳品牌",
       "batch_id": "author-067",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf"
@@ -1254,7 +1260,7 @@
       "claim": "[[Cochlear]] — 全球最大電子耳品牌 (磁性元件供應)",
       "batch_id": "author-067",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf"
@@ -1282,7 +1288,7 @@
       "claim": "[[Apple]](蘋果，最大且最重要的客戶)、各類非蘋智慧型手機與電腦品牌(如雙A、[[廣達]]、[[仁寶]]等)。",
       "batch_id": "author-069",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/615320220914M001.pdf"
@@ -1296,7 +1302,7 @@
       "claim": "[[Apple]] — Macbook/iPad 背光模組 (最大客戶)",
       "batch_id": "author-071",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf"
@@ -1592,7 +1598,7 @@
       "claim": "[[Walmart]] — 美國最大零售商",
       "batch_id": "author-087",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://chingfeng.com/proimages/Investors/Institutional_Investors/seminar20180830_ch.pdf"
@@ -3257,6 +3263,34 @@
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/134120201222E001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1451:objective_ranking_or_market_share:e4b27d6e2db182fd",
+      "ticker": "1451",
+      "company": "年興",
+      "claim": "[[Levi's]] (最大客戶)、[[LEE]]、[[EDWIN]]、[[CK]]、[[DKNY]]",
+      "batch_id": "author-160",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "http://www.nhjeans.com/wp-content/uploads/2022/12/%e5%b9%b4%e8%88%88%e7%b4%a1%e7%b9%94%e6%b3%95%e8%aa%aa%e6%9c%83%e7%b0%a1%e5%a0%b1-2021-1130.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4439:objective_ranking_or_market_share:08e2b4dca14ff3c3",
+      "ticker": "4439",
+      "company": "冠星-KY",
+      "claim": "[[Adidas]] (最大客戶)、[[Gap]]、[[Puma]]、[[Decathlon]]、[[Li-Ning]]",
+      "batch_id": "author-160",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.tstco.com.hk/upload/files/article/20250821/17557452153304002.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

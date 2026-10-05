@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-160",
+  "reviewed_at": "2026-10-05T21:14:51Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (年興投資人說明會簡報; 冠星民國109年合併財務報告); 兩者均未具名客戶，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "1451:objective_ranking_or_market_share:e4b27d6e2db182fd",
+      "normalized_claim_hash": "e4b27d6e2db182fdfdaae1de752c989e15e379826f046c67b4bc4328c490c854",
+      "ticker": "1451",
+      "company": "年興",
+      "path": "Pilot_Reports/Textile Manufacturing/1451_年興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Levi's]] (最大客戶)、[[LEE]]、[[EDWIN]]、[[CK]]、[[DKNY]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.nhjeans.com/wp-content/uploads/2022/12/%e5%b9%b4%e8%88%88%e7%b4%a1%e7%b9%94%e6%b3%95%e8%aa%aa%e6%9c%83%e7%b0%a1%e5%a0%b1-2021-1130.pdf",
+          "title": "年興紡織股份有限公司（年興，1451，Nien Hsing Textile）投資人說明會簡報（2021-11-30）",
+          "source_level": 3,
+          "period_binding": "2021年11月30日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取2,630字元，以圖形排版為主）。簡報載「年興紡織 致力於卓越 投資人說明會1451」「營運項目：織布／紡紗／成衣」「**牛仔布**」「牛仔褲裝」與「全球佈局：墨西哥、台灣、賴索托、越南」，並見「**牛仔**」10次，支持其牛仔布及成衣業務。**關鍵發現**：全份簡報中「**客戶**」與「**品牌**」之出現次數**均為0**；「Levi」「Lee」「EDWIN」「CK」「DKNY」之出現次數亦**均為0**，**未具名任何客戶或品牌**。"
+        }
+      ],
+      "rationale": "「[[Levi's]]（**最大客戶**）、[[LEE]]、[[EDWIN]]、[[CK]]、[[DKNY]]」未獲確立：所取得之年興投資人說明會簡報中，**五個具名品牌與「客戶」「品牌」之出現次數均為0**——簡報雖以「**牛仔**」10次支持其牛仔布及成衣業務，**但未具名任何客戶或品牌**。因該 claim 之實質內容為具名客戶身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4439:objective_ranking_or_market_share:08e2b4dca14ff3c3",
+      "normalized_claim_hash": "08e2b4dca14ff3c3b05bd4fac20dad39303ce0d187d0c30f343ff80aea7fad6e",
+      "ticker": "4439",
+      "company": "冠星-KY",
+      "path": "Pilot_Reports/Textile Manufacturing/4439_冠星-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Adidas]] (最大客戶)、[[Gap]]、[[Puma]]、[[Decathlon]]、[[Li-Ning]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tstco.com.hk/upload/files/article/20250821/17557452153304002.pdf",
+          "title": "冠星集團控股有限公司（冠星-KY，4439，TST Group Holding）民國109年及108年第一季合併財務報告暨會計師核閱報告",
+          "source_level": 3,
+          "period_binding": "民國109年及108年第一季（2020Q1／2019Q1）。**為財務報告而非年報，且非近期版本**。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取58,670字元）。**文件性質為合併財務報告暨會計師核閱報告，非年報**，內容由封面、目錄、會計師核閱報告、資產負債表、損益表等構成，**不含業務簡介或客戶敘述**。全份文件中「**adidas**」「**Adidas**」「**Gap**」「**Puma**」「**Decathlon**」「**Li-Ning**」「**largest**」與「**customer**」之出現次數**均為0**（「TST」46次僅為公司名稱縮寫）。"
+        }
+      ],
+      "rationale": "「[[Adidas]]（最大客戶）、[[Gap]]、[[Puma]]、[[Decathlon]]、[[Li-Ning]]」未獲確立：本批次所取得之冠星文件為**民國109年及108年第一季合併財務報告暨會計師核閱報告**（**財務報告而非年報**，內容為會計師核閱報告與財務報表，**不含業務簡介或客戶敘述**），其中「**adidas**」「**Gap**」「**Puma**」「**Decathlon**」「**Li-Ning**」與「**customer**」之出現次數**均為0**。因該 claim 之實質內容為具名客戶身分，且本批次未取得該公司之年報或公開說明書，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
