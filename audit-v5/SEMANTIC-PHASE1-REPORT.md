@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **218 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), and `author-040` (8).
+Author-reviewed: **226 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), and `author-041` (8).
 
-- ACCEPTED by author: 46
-- PARTIALLY_SUPPORTED: 139
+- ACCEPTED by author: 47
+- PARTIALLY_SUPPORTED: 141
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 29
-- Remaining author queue: 1,181
+- Other allowed author decisions: 34
+- Remaining author queue: 1,173
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -488,6 +488,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-040.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **218 / 1,399**; remaining: **1,181**. Outcome counts: ACCEPTED 46, PARTIALLY_SUPPORTED 139, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 29. Next pending claim by priority: `2301:objective_ranking_or_market_share:253cd0fbdf268d3a` (光寶科).
+
+## Author batch `author-041` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (光寶科 2301 ×4, 金寶 2312, 中環 2323 ×2, 仁寶 2324). Evidence came from directly downloaded and inspected official disclosures: 中環110年度年報與2025年營運展望簡報、仁寶114年度年報；光寶科技與金寶電子之官方文件於本批次均無法取得可檢索內容。
+- `2301:objective_ranking_or_market_share:253cd0fbdf268d3a`、`91dae1d50cf674d0`、`c1562f098f12ec0e`、`0c7d1b024b811bb9` — `UNKNOWN_AFTER_RESEARCH` ×4. 本批次取得之光寶科技官方文件均不可用於文字核對：(1) 公開資訊觀測站 2026-05-04 簡報（2,318,022 bytes）經文字擷取後全檔僅20字元、僅1頁，屬影像／圖形排版；(2) 公開資訊觀測站年報端點 t100sa11_2301_113.pdf 回傳 HTTP 200 但內容僅320 bytes；(3) 官方投資人專區 https://www.liteon.com/zh-tw/investors 回應 HTTP 404；(4) 官方新聞室「為低軌衛星革命注入動能：低軌衛星地面站與強固型電源供應器的關鍵角色」頁面抓取失敗。故低軌衛星電源市占逾六成、橫跨三大遊戲機品牌等陳述均未獲確立。
+- `2312:objective_ranking_or_market_share:21dca8dbbc43aba7` — `UNKNOWN_AFTER_RESEARCH`. 金寶電子官方年報（2024_Kinpo_Annual_Report.pdf）與 ESG 報告（esg.kinpo.com.tw）端點均回應 HTTP 403 禁止；公開資訊觀測站年報端點回傳320 bytes 非文件內容，故未取得可檢視之官方文件。
+- `2323:objective_ranking_or_market_share:3c7df6a4b4366ff5` — `PARTIALLY_SUPPORTED`. 中環110年度年報第15頁載「中環由全球最大光碟片製造商正式邁進全球性電子品牌」，第18頁載「中環身為全球最大光碟片製造商」，第27頁載「光碟產品達到全球市占率第一」，第30頁載「光碟片全球市佔率達到6成」。惟「成立於1978年」（年報中「1978」僅見於陽明山山仔后美軍宿舍歷史之描述）、「隸屬台泥集團」（「台泥」「臺灣水泥」出現次數均為0）與「總部位於台北」（未以沿革載明）均未獲支持。
+- `2323:objective_ranking_or_market_share:b03395fd40ab4638` — `ACCEPTED`. 同上各頁支持其為全球最大光碟片製造商與全球市占第一（年報另載光碟片市佔達6成、其 Verbatim 品牌通路在美歐日亞太「全球市佔率已超過五成」）；2025年官方簡報第3及9頁並載其產品涵蓋光碟、USB、記憶卡、SSD，以及「SSD / Flash + 光碟全鏈方案」。併註記其同時以 Verbatim 品牌自營，故地位陳述涵蓋製造與品牌。
+- `2324:objective_ranking_or_market_share:5595511e820cef92` — `PARTIALLY_SUPPORTED`. 仁寶114年度年報中出現「戴爾電腦公司」與「Dell Products L.P.」各1次（於公司關係或往來對象之列示），支持其與 Dell 之往來；惟全份年報未載 Dell 為其最大筆電代工客戶，亦未載客戶別營收占比或排名（年報中「最大」3處分別描述他國為全球最大生產基地、知識管理與股東價值）。
+- Proposed wording is recorded for the partial claims in `semantic/author-041.json`; no issuer report was modified. Independent review remains pending.
+- 後續處理建議：光寶科技與金寶電子合計5筆 UNKNOWN 之主因為「官方文件不可讀取」（影像版簡報、MOPS端點回傳非文件內容、官方網域403/404），而非 claim 內容有誤。建議於後續輪次以不同路徑重試（例如 MOPS 年報端點於其他時點、或改由公司法說會其他年度簡報），並在獨立複核時一併檢視。此類限制未達 `local-recheck-queue.json` 之門檻（該佇列記錄的是 Cloud 環境之 HTTP 500–504 失敗），故佇列維持 **15** 筆。
+- Author-reviewed total: **226 / 1,399**; remaining: **1,173**. Outcome counts: ACCEPTED 47, PARTIALLY_SUPPORTED 141, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `2356:objective_ranking_or_market_share:ed253454231d412c` (英業達).
+
 
 
 

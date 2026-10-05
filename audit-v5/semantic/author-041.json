@@ -1,0 +1,217 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-041",
+  "reviewed_at": "2026-10-05T17:24:04Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中環110年度年報與2025年營運展望簡報; 仁寶114年度年報); 光寶科技與金寶電子之官方文件於本批次均不可讀取，已逐項記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2301:objective_ranking_or_market_share:253cd0fbdf268d3a",
+      "normalized_claim_hash": "253cd0fbdf268d3a048697056d81748f02d13c204eb8cf6c139c57bc2154886b",
+      "ticker": "2301",
+      "company": "光寶科",
+      "path": "Pilot_Reports/Computer Hardware/2301_光寶科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在低軌衛星領域，公司為全球最大[[低軌衛星]]電源供應商，市佔率逾六成。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.liteon.com/zh-tw/investors",
+          "title": "光寶科技（2301）官方投資人專區與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得光寶科技可讀取之官方文件，結果如下：(1) 已下載公開資訊觀測站簡報 230120260504M003.pdf（標題 Powering a Bright and Sustainable Future Together，2,318,022 bytes），經 pymupdf 文字擷取後全檔僅20字元、僅1頁，屬影像／圖形排版簡報，無可檢索文字，無法用以核對低軌衛星或遊戲機電源之市占陳述；(2) 公開資訊觀測站年報端點 t100sa11_2301_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 官方投資人專區網址 https://www.liteon.com/zh-tw/investors 回應 HTTP 404；(4) 官方新聞室「為低軌衛星革命注入動能：低軌衛星地面站與強固型電源供應器的關鍵角色」頁面之抓取失敗（fetch failed）。故本批次未取得可檢索之光寶科官方文字文件。"
+        }
+      ],
+      "rationale": "「在低軌衛星領域為全球最大低軌衛星電源供應商、市佔率逾六成」未獲確立：本批次未能取得可檢索之光寶科技官方文字文件——公開資訊觀測站之 2026-05-04 簡報為影像／圖形排版（2,318,022 bytes 之 PDF 僅可擷取20字元、1頁），年報端點回傳320 bytes 非文件內容，官方投資人專區回應404，官方新聞室低軌衛星專文之抓取亦失敗。故該市占陳述既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2301:objective_ranking_or_market_share:91dae1d50cf674d0",
+      "normalized_claim_hash": "91dae1d50cf674d026b9626201d538580c2a72d29830072f0ab901500e3e2b21",
+      "ticker": "2301",
+      "company": "光寶科",
+      "path": "Pilot_Reports/Computer Hardware/2301_光寶科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "光寶科同時是全球唯一橫跨三大遊戲機品牌 ([[Nintendo]]、[[Sony]]、[[Microsoft]]) 之電源供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.liteon.com/zh-tw/investors",
+          "title": "光寶科技（2301）官方投資人專區與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得光寶科技可讀取之官方文件，結果如下：(1) 已下載公開資訊觀測站簡報 230120260504M003.pdf（標題 Powering a Bright and Sustainable Future Together，2,318,022 bytes），經 pymupdf 文字擷取後全檔僅20字元、僅1頁，屬影像／圖形排版簡報，無可檢索文字，無法用以核對低軌衛星或遊戲機電源之市占陳述；(2) 公開資訊觀測站年報端點 t100sa11_2301_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 官方投資人專區網址 https://www.liteon.com/zh-tw/investors 回應 HTTP 404；(4) 官方新聞室「為低軌衛星革命注入動能：低軌衛星地面站與強固型電源供應器的關鍵角色」頁面之抓取失敗（fetch failed）。故本批次未取得可檢索之光寶科官方文字文件。"
+        }
+      ],
+      "rationale": "「為全球唯一橫跨三大遊戲機品牌（Nintendo、Sony、Microsoft）之電源供應商」未獲確立：本批次所取得之光寶科官方簡報為影像排版、無可檢索文字；年報端點回傳非文件內容、官方投資人專區404。故三大品牌名單與「全球唯一」之陳述均未獲權威來源確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2301:objective_ranking_or_market_share:c1562f098f12ec0e",
+      "normalized_claim_hash": "c1562f098f12ec0e111c70c4e9c16c3b6178b59069da3b574d969d07e5794898",
+      "ticker": "2301",
+      "company": "光寶科",
+      "path": "Pilot_Reports/Computer Hardware/2301_光寶科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nintendo]]、[[Sony]]、[[Microsoft]] — 全球唯一橫跨三大品牌之電源供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.liteon.com/zh-tw/investors",
+          "title": "光寶科技（2301）官方投資人專區與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得光寶科技可讀取之官方文件，結果如下：(1) 已下載公開資訊觀測站簡報 230120260504M003.pdf（標題 Powering a Bright and Sustainable Future Together，2,318,022 bytes），經 pymupdf 文字擷取後全檔僅20字元、僅1頁，屬影像／圖形排版簡報，無可檢索文字，無法用以核對低軌衛星或遊戲機電源之市占陳述；(2) 公開資訊觀測站年報端點 t100sa11_2301_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 官方投資人專區網址 https://www.liteon.com/zh-tw/investors 回應 HTTP 404；(4) 官方新聞室「為低軌衛星革命注入動能：低軌衛星地面站與強固型電源供應器的關鍵角色」頁面之抓取失敗（fetch failed）。故本批次未取得可檢索之光寶科官方文字文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「Nintendo、Sony、Microsoft — 全球唯一橫跨三大品牌之電源供應商」）。因本批次未能取得可檢索之光寶科官方文件，三大品牌之客戶關係與「全球唯一」定位均未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2301:objective_ranking_or_market_share:0c7d1b024b811bb9",
+      "normalized_claim_hash": "0c7d1b024b811bb94189f0a587c18bfe18a3b33ffafdebaf577b0a663179cf44",
+      "ticker": "2301",
+      "company": "光寶科",
+      "path": "Pilot_Reports/Computer Hardware/2301_光寶科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[SpaceX]] ([[Starlink]]) — 全球最大低軌衛星電源供應商 (市佔逾六成)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.liteon.com/zh-tw/investors",
+          "title": "光寶科技（2301）官方投資人專區與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得光寶科技可讀取之官方文件，結果如下：(1) 已下載公開資訊觀測站簡報 230120260504M003.pdf（標題 Powering a Bright and Sustainable Future Together，2,318,022 bytes），經 pymupdf 文字擷取後全檔僅20字元、僅1頁，屬影像／圖形排版簡報，無可檢索文字，無法用以核對低軌衛星或遊戲機電源之市占陳述；(2) 公開資訊觀測站年報端點 t100sa11_2301_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(3) 官方投資人專區網址 https://www.liteon.com/zh-tw/investors 回應 HTTP 404；(4) 官方新聞室「為低軌衛星革命注入動能：低軌衛星地面站與強固型電源供應器的關鍵角色」頁面之抓取失敗（fetch failed）。故本批次未取得可檢索之光寶科官方文字文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「SpaceX (Starlink) — 全球最大低軌衛星電源供應商（市佔逾六成）」）。光寶科技官方新聞室確有以低軌衛星地面站與強固型電源供應器為題之專文路徑，惟該頁面抓取失敗，且其餘官方文件為影像排版或回傳非文件內容，故 SpaceX 客戶關係與市占逾六成均未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
+      "normalized_claim_hash": "21dca8dbbc43aba7519d6fc3af823ad4e930431fe1995b931f89e12816126956",
+      "ticker": "2312",
+      "company": "金寶",
+      "path": "Pilot_Reports/Computer Hardware/2312_金寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "泰國泰金寶為集團最大製造基地，生產基地亦涵蓋中國、巴西及菲律賓。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.kinpo.com.tw/kpo_file/2024_Kinpo_Annual_Report.pdf",
+          "title": "金寶電子（2312）官方年報端點與公開資訊觀測站年報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-06。",
+          "accessed_at": "2026-10-06",
+          "note": "本批次嘗試取得金寶電子官方文件之結果：(1) 官方網域年報 2024_Kinpo_Annual_Report.pdf（民國一一三年度年報）回應 HTTP 403 禁止；(2) 官方 ESG 報告 esg.kinpo.com.tw/file/report/zh-tw/2023.pdf 亦回應 HTTP 403 禁止；(3) 公開資訊觀測站年報端點 t100sa11_2312_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）。故未取得可檢視之金寶官方文件。"
+        }
+      ],
+      "rationale": "「泰國泰金寶為集團最大製造基地，生產基地亦涵蓋中國、巴西及菲律賓」未獲確立：金寶電子官方年報與 ESG 報告端點均回應 HTTP 403 禁止，公開資訊觀測站年報端點回傳320 bytes 非文件內容，故未取得可檢視之官方文件；本批次亦未查得其他可檢視之發行人官方來源。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2323:objective_ranking_or_market_share:3c7df6a4b4366ff5",
+      "normalized_claim_hash": "3c7df6a4b4366ff5261c832c139fce8bc7774e7b599c9ff2258764969e2faf2b",
+      "ticker": "2323",
+      "company": "中環",
+      "path": "Pilot_Reports/Computer Hardware/2323_中環.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中環 (2323，[[CMC Magnetics]]) 成立於 1978 年，總部位於台北，為全球最大光學儲存媒體製造商，隸屬[[台泥集團]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2323_110.pdf",
+          "title": "中環股份有限公司（中環，2323）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（2021）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第15頁載「中環由全球最大光碟片製造商正式邁進全球性電子品牌」。第18頁載「中環身為全球最大光碟片製造商，持續研發Archive光碟產品（檔案級光碟）」，並載「作為光碟片市場的領導者」。第27頁載「光碟產品達到全球市占率第一」。第30頁載「光碟片全球市佔率達到6成」及「108年底併購行銷全球五大洲（之品牌）」。第24頁載其持有之子公司在美國、歐洲、日本、亞太等地建立 Verbatim 品牌與通路，「目前全球市佔率已超過五成」。全份年報中「台泥」與「臺灣水泥」出現次數均為0；「1978」僅出現1次且係描述陽明山山仔后美軍宿舍之歷史背景（與公司沿革無關）。"
+        }
+      ],
+      "rationale": "「為全球最大光學儲存媒體製造商」獲發行人年報支持：第15頁載「中環由全球最大光碟片製造商正式邁進全球性電子品牌」，第18頁載「中環身為全球最大光碟片製造商」，第27頁載「光碟產品達到全球市占率第一」，第30頁載「光碟片全球市佔率達到6成」。惟三項陳述未獲支持：(1)「成立於1978年」——年報中「1978」僅出現1次且係描述陽明山山仔后美軍宿舍之歷史背景，非公司沿革；(2)「總部位於台北」——年報未以沿革方式載明總部所在地（雖多處出現台北地址）；(3)「隸屬台泥集團」——年報中「台泥」與「臺灣水泥」出現次數均為0，未載集團歸屬。故部分成立。",
+      "proposed_text": "中環 (2323，CMC Magnetics) 為全球最大光碟片製造商，光碟片全球市佔率約 6 成。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2323:objective_ranking_or_market_share:b03395fd40ab4638",
+      "normalized_claim_hash": "b03395fd40ab463814542747cad7592893732bb3d31c5a4c20d990a07830f4fe",
+      "ticker": "2323",
+      "company": "中環",
+      "path": "Pilot_Reports/Computer Hardware/2323_中環.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**中環** (全球最大 CD/DVD/Blu-ray 光碟 OEM 廠)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2323_110.pdf",
+          "title": "中環股份有限公司（中環，2323）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（2021）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第15頁載「中環由全球最大光碟片製造商正式邁進全球性電子品牌」。第18頁載「中環身為全球最大光碟片製造商，持續研發Archive光碟產品（檔案級光碟）」，並載「作為光碟片市場的領導者」。第27頁載「光碟產品達到全球市占率第一」。第30頁載「光碟片全球市佔率達到6成」及「108年底併購行銷全球五大洲（之品牌）」。第24頁載其持有之子公司在美國、歐洲、日本、亞太等地建立 Verbatim 品牌與通路，「目前全球市佔率已超過五成」。全份年報中「台泥」與「臺灣水泥」出現次數均為0；「1978」僅出現1次且係描述陽明山山仔后美軍宿舍之歷史背景（與公司沿革無關）。"
+        },
+        {
+          "url": "https://www.cmcnet.com.tw/files/20251230110030587.pdf",
+          "title": "中環股份有限公司（2323）2025 營運展望簡報",
+          "source_level": 3,
+          "period_binding": "2025年。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第3頁載產品涵蓋光碟、USB、記憶卡、SSD，並載「儲存媒體（市佔持續擴大）」、「已採用中環高容量藍光光碟進行長（期儲存）」。第9頁載「SSD / Flash + 光碟全鏈方案，受惠熱冷儲存市場」。簡報篇幅精簡，未載全球市占率數字。"
+        }
+      ],
+      "rationale": "「全球最大 CD/DVD/Blu-ray 光碟廠」獲發行人年報多處支持：第15及18頁載其為「全球最大光碟片製造商」，第27頁載「光碟產品達到全球市占率第一」，第30頁載「光碟片全球市佔率達到6成」，第24頁並載其持有之子公司在美國、歐洲、日本、亞太建立 Verbatim 品牌與通路、「目前全球市佔率已超過五成」；2025年官方簡報第3頁載其產品涵蓋光碟、USB、記憶卡、SSD，並載「已採用中環高容量藍光光碟進行長（期儲存）」，第9頁載「SSD / Flash + 光碟全鏈方案」。故予以支持（並註記：年報同時載其以 Verbatim 品牌自營，故其地位陳述涵蓋製造與品牌兩部分，非僅 OEM）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2324:objective_ranking_or_market_share:5595511e820cef92",
+      "normalized_claim_hash": "5595511e820cef92c5f896d33a58e2b99490112ca060e5f1303e43f212e56733",
+      "ticker": "2324",
+      "company": "仁寶",
+      "path": "Pilot_Reports/Computer Hardware/2324_仁寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Dell]] — 最大筆電代工客戶",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.compal.com/mediafiles/sh-meeting/annual-report/1150508-%E4%BB%81%E5%AF%B6114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "仁寶電腦工業股份有限公司（仁寶，2324）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「戴爾電腦公司」與「Dell Products L.P.」各出現1次（於公司關係或往來對象之列示中），「筆電／筆記型」相關字樣出現24次；「最大」出現3次，分別為描述他國為全球最大生產基地、知識管理與股東價值等語，均與客戶排名無關。全份年報未載 Dell 為其最大筆電代工客戶，亦未載客戶別營收占比。"
+        }
+      ],
+      "rationale": "「Dell 為其往來對象」獲發行人年報部分支持：114年度年報中出現「戴爾電腦公司」與「Dell Products L.P.」各1次（於公司關係或往來對象之列示中）。惟「為最大筆電代工客戶」未獲支持：全份年報未載 Dell 為其最大筆電代工客戶，亦未載客戶別營收占比或客戶排名；年報中「最大」3處均與客戶無關（分別描述他國為全球最大生產基地、知識管理、股東價值）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

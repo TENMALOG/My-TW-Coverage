@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 16:04 UTC
+Updated: 2026-10-06 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,32 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **218 / 1,399**
-- Remaining author review: **1,181**
-- Latest batch: **author-040** (8 claims)
+- Author-reviewed: **226 / 1,399**
+- Remaining author review: **1,173**
+- Latest batch: **author-041** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **46**
-- `PARTIALLY_SUPPORTED`: **139**
+- `ACCEPTED`: **47**
+- `PARTIALLY_SUPPORTED`: **141**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **29**
+- `UNKNOWN_AFTER_RESEARCH`: **34**
 
 ## Latest claim batch
 
-- `6417:objective_ranking_or_market_share:f2fcac08e268dad2` — `PARTIALLY_SUPPORTED`; 韋僑2021簡報第17頁載「美洲占比最高，係醫療客戶對RFID」、第5頁載全球首家取得ISO 13485；惟「2025年」與「美國子公司」皆未出現於該簡報。
-- `6638:objective_ranking_or_market_share:a10e7dbfbe350734` — `PARTIALLY_SUPPORTED`; 沅聖113年報載112及113年度第一大銷貨客戶占總銷售額僅13%及12%，且「Ring」「Amazon」「門鈴」皆0次。
-- `6715:objective_ranking_or_market_share:f73e500d5e922beb` — `PARTIALLY_SUPPORTED`; 嘉基2018簡報第5頁載多項Thunderbolt 3產品獲Intel認證；惟「Thunderbolt 4/5」「唯一授權原始開發者」未載。
-- `7812:objective_ranking_or_market_share:e6cb42dfad1770b6` — `UNKNOWN_AFTER_RESEARCH`; 稜研2025簡報「毫米波」39次，惟「印度」與「全球最大」皆0次。
-- `8045:objective_ranking_or_market_share:6295b64544ea58b8` — `PARTIALLY_SUPPORTED`; 2017簡報第4頁載「台灣第一大寬頻放大器」；惟「成立於1992」與新北市地址未載。
-- `8045:objective_ranking_or_market_share:b159b59617de6cf8` — `ACCEPTED`; 年報第5頁與2017簡報第4頁載「亞洲唯一通過北美主要MSO認證HFC研製商」、ACI自有品牌。
-- `8045:objective_ranking_or_market_share:a101d657fc95e240` — `ACCEPTED`; 年報第66頁銷售地區表載112年度美洲占93.10%（111年76.50%）；2017簡報第8頁載「通過Comcast認證」、第16頁載逾100個系統使用ACI產品。
-- `8089:objective_ranking_or_market_share:cee0f405aeaab0db` — `UNKNOWN_AFTER_RESEARCH`; 康全電訊年報端點回320 bytes、法說會端點404，未取得可檢視文件。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-040.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `2301:objective_ranking_or_market_share:253cd0fbdf268d3a` (光寶科).
+- `2301:objective_ranking_or_market_share:253cd0fbdf268d3a`、`91dae1d50cf674d0`、`c1562f098f12ec0e`、`0c7d1b024b811bb9` — `UNKNOWN_AFTER_RESEARCH` ×4; 光寶科2026-05-04簡報為影像排版（2,318,022 bytes PDF 僅擷取20字元/1頁）、MOPS年報端點回320 bytes、官方投資人專區404、官方低軌衛星專文抓取失敗，未取得可檢索文字文件。
+- `2312:objective_ranking_or_market_share:21dca8dbbc43aba7` — `UNKNOWN_AFTER_RESEARCH`; 金寶官網年報與ESG報告端點皆回HTTP 403、MOPS年報端點回320 bytes。
+- `2323:objective_ranking_or_market_share:3c7df6a4b4366ff5` — `PARTIALLY_SUPPORTED`; 中環110年報第15/18/27/30頁載其為全球最大光碟片製造商、全球市占率第一、光碟片市佔達6成；惟「1978」僅見於無關敘述、「台泥」0次、總部所在未以沿革載明。
+- `2323:objective_ranking_or_market_share:b03395fd40ab4638` — `ACCEPTED`; 同前各頁支持其全球最大光碟片製造商地位；2025簡報第3/9頁載光碟＋SSD/Flash全鏈方案。
+- `2324:objective_ranking_or_market_share:5595511e820cef92` — `PARTIALLY_SUPPORTED`; 仁寶114年報出現「戴爾電腦公司」與「Dell Products L.P.」各1次；惟未載Dell為最大筆電代工客戶，亦無客戶占比或排名。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-041.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `2356:objective_ranking_or_market_share:ed253454231d412c` (英業達).
 
 ## Source access
 
