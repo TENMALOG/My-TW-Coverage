@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-135",
+  "reviewed_at": "2026-10-05T20:46:10Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (達輝光電公司簡介及主要業務與產品; 聚和111年度年報); 榮炭端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6434:objective_ranking_or_market_share:4cdefa173c0d7b8e",
+      "normalized_claim_hash": "4cdefa173c0d7b8e5070c80c83d98427e5236fc6733833b0ebba4180a2d68c9f",
+      "ticker": "6434",
+      "company": "達輝光電",
+      "path": "Pilot_Reports/Specialty Chemicals/6434_達輝光電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達輝光電 (6434，TacBright Optronics) 為台灣唯一具 TAC (三醋酸纖維素) 光學膜量產技術之專業廠商，[[新光合纖]]轉投資子公司。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/co_report/2013/12/1387434718_14216_CH_%E6%AB%83%E8%B2%B7%E6%96%B0%E6%98%9F_6434.pdf",
+          "title": "達輝光電股份有限公司（達輝光電，6434，TacBright Optronics）公司簡介及主要業務與產品（2013年12月）",
+          "source_level": 3,
+          "period_binding": "2013年12月。",
+          "accessed_at": "2026-10-10",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開文件下載並以 PDF 文字檢視（文字擷取1,020字元）。文件載「致力於 **TAC 膜（Triacetate Cellulose Film，三醋酸纖維素薄膜）** 之研發、製造及銷售。TAC 膜為液晶顯示器中偏光板之關鍵零組件…」與「…**是國內唯一生產該項產品並具競爭力之生產廠商**」，並載「母公司（**新光合纖**）強而有力的集團支持」（「TAC」9次、「三醋酸」1次、「光學膜」1次、「唯一」1次、「新光合纖」1次），**逐字支持**claim 之「台灣唯一具 TAC（三醋酸纖維素）光學膜量產技術之專業廠商」與「[[新光合纖]]轉投資子公司」。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人相關文件**逐字支持**：文件載「致力於 **TAC 膜（Triacetate Cellulose Film，三醋酸纖維素薄膜）** 之研發、製造及銷售。TAC 膜為液晶顯示器中偏光板之關鍵零組件」與「…**是國內唯一生產該項產品並具競爭力之生產廠商**」，並載「母公司（**新光合纖**）強而有力的集團支持」（「TAC」9次、「三醋酸」1次、「光學膜」1次、「唯一」1次、「新光合纖」1次），與 claim 之「為台灣唯一具 TAC（三醋酸纖維素）光學膜量產技術之專業廠商」「[[新光合纖]]轉投資子公司」逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6509:objective_ranking_or_market_share:c068206ce2be8b0d",
+      "normalized_claim_hash": "c068206ce2be8b0ddc034d408e89e449385364b43e8103490a830bf73d55a589",
+      "ticker": "6509",
+      "company": "聚和",
+      "path": "Pilot_Reports/Specialty Chemicals/6509_聚和.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其中，高毛利的精密化學品是近年營運成長的最大主軸，其應用範圍橫跨生技製藥、[[電動車]]電池電解液，以及[[台積電]]與[[日月光投控]]等[[半導體]]大廠的3D先進封裝異質整合填孔電鍍製程。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6509_111.pdf",
+          "title": "聚和國際股份有限公司（聚和，6509，Hope Chemical）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取120,727字元）。年報中「**精密化學品**」出現11次、「精密化學」11次、「電池」7次、「生技」5次、「製藥」2次、「主軸」7次，支持其精密化學品事業之敘述。全份年報中「**最大主軸**」「**電解液**」「**台積電**」「**日月光**」「**先進封裝**」與「**填孔**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「精密化學品為其事業之一，應用涵蓋生技製藥及電池相關領域」獲發行人年報部分支持：111年度年報中「**精密化學品**」出現11次、「**生技**」5次、「**製藥**」2次、「**電池**」7次、「主軸」7次。惟三項具體陳述未獲支持：(1)「是近年營運成長的**最大主軸**」——「最大主軸」出現次數為0；(2)「[[電動車]]電池**電解液**」——「電解液」為0；(3)「以及[[台積電]]與[[日月光投控]]等[[半導體]]大廠的 **3D 先進封裝異質整合填孔電鍍製程**」——「台積電」「日月光」「先進封裝」與「填孔」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "聚和國際 (6509，Hope Chemical) 之精密化學品事業應用涵蓋生技製藥及電池等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6555:objective_ranking_or_market_share:56167743ae5aa1a5",
+      "normalized_claim_hash": "56167743ae5aa1a57fd1741816771401d5ef51bc859ce93953ce0ab81e07aaa3",
+      "ticker": "6555",
+      "company": "榮炭",
+      "path": "Pilot_Reports/Specialty Chemicals/6555_榮炭.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "榮炭科技 (6555，Long Time Carbon Technology) 為台灣唯一鋰電池[[負極材料]]研發製造商，專注[[人造石墨]]、天然石墨及碳微球負極材料。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.lttech.com.tw/wp-content/uploads/2022/06/110%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3-%E5%80%8B%E9%AB%94%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf",
+          "title": "榮炭科技股份有限公司（榮炭，6555，Long Time Carbon Technology）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-10。",
+          "accessed_at": "2026-10-10",
+          "note": "本批次自發行人官方網域下載110年第四季個體財務報告時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得榮炭可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「榮炭科技為台灣唯一鋰電池[[負極材料]]研發製造商，專注[[人造石墨]]、天然石墨及碳微球負極材料」未獲確立：本批次自發行人官方網域下載財務報告時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

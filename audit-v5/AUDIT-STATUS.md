@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 14:04 UTC
+Updated: 2026-10-10 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **791 / 1,399**
-- Remaining author review: **608**
-- Latest batch: **author-134** (5 claims)
+- Author-reviewed: **794 / 1,399**
+- Remaining author review: **605**
+- Latest batch: **author-135** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **517**
+- `ACCEPTED`: **87**
+- `PARTIALLY_SUPPORTED`: **518**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **184**
+- `UNKNOWN_AFTER_RESEARCH`: **185**
 
 ## Latest claim batch
 
-- `4754:objective_ranking_or_market_share:a2cc9eca34a71824` — `PARTIALLY_SUPPORTED`；國碳科105年報「**防火」81 次**、「UL」4次、「FM」3次；惟「亞洲唯一」「唯一」「雙認證」皆0次。
-- `4763:objective_ranking_or_market_share:86c143e3b1fdeacf` — `PARTIALLY_SUPPORTED`；材料-KY簡報「**絲束」25 次**並列同業「Celanese、Eastman、Solvay及Daicel」；惟「38%」「25%」「19%」「15%」未見，且「**2%」6 次為「27.2%」「71.12%」之子字串**。
-- `4766:objective_ranking_or_market_share:37f70358d3db2a81` — `PARTIALLY_SUPPORTED`；南寶簡報逐字載「**我們是世界第一的運動鞋用接著劑**」（接著劑26次、鞋用6次）；惟「市佔」2次皆為目標敘述，「**50%」6 次皆非 Tier-1 品牌市佔**（2030減碳50%／工會比例50%）。
-- `4772:objective_ranking_or_market_share:2d583dbd82c12ed3`、`3e71412bc838ad92` — `PARTIALLY_SUPPORTED` ×2；台特化文件「**半導體」30 次**；惟「中美晶」「大立光」「環球晶圓」「最大股東」「30%」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-134.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6434:objective_ranking_or_market_share:4cdefa173c0d7b8e` (達輝光電).
+- `6434:objective_ranking_or_market_share:4cdefa173c0d7b8e` — `ACCEPTED`；達輝光電文件載「致力於 **TAC 膜（Triacetate Cellulose Film，三醋酸纖維素薄膜）**…**是國內唯一生產該項產品並具競爭力之生產廠商**」與「母公司（**新光合纖**）」——**逐字對應**。
+- `6509:objective_ranking_or_market_share:c068206ce2be8b0d` — `PARTIALLY_SUPPORTED`；聚和111年報「**精密化學品」11 次**、「生技」5次、「製藥」2次、「電池」7次；惟「最大主軸」「電解液」「台積電」「日月光」「先進封裝」「填孔」皆0次。
+- `6555:objective_ranking_or_market_share:56167743ae5aa1a5` — `UNKNOWN_AFTER_RESEARCH`；榮炭官方端點 **HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-135.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `6582:objective_ranking_or_market_share:35bb14dd44c6df25` (申豐).
 
 ## Source access
 
