@@ -1,0 +1,233 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-050",
+  "reviewed_at": "2026-10-05T17:49:06Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大同113年度年報; 東森109年度年報; 豐祥-KY 2026及2024年法人說明會簡報; 匯僑設計2021年法人說明會簡報; 新應材2025年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2371:objective_ranking_or_market_share:7c1b7458bb352b9a",
+      "normalized_claim_hash": "7c1b7458bb352b9a4c2a757739ec3938617dcdd9f0442ae0a5075cf2674e1b88",
+      "ticker": "2371",
+      "company": "大同",
+      "path": "Pilot_Reports/Conglomerates/2371_大同.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台電]]（國內最大客戶）、中東及東南亞電力公司",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tatung.com/Content/download/investors/113%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "大同股份有限公司（大同，2371）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「台電」出現33次，包含「配合台電電網強韌計畫」「投入345KV特高壓電纜新廠房與產線建置以因應台電的需求」「台電變電所統包工程」「依台電新規改良套管型桿上變壓器」等，顯示台電為其重要客戶與合作對象；「電力公司」出現8次、「東南亞」7次。全份年報中「中東」出現次數為0；「國內最大客戶」「最大客戶」出現次數均為0。"
+        }
+      ],
+      "rationale": "「台電為其重要客戶」獲發行人年報支持：113年度年報中「台電」出現33次，包含「配合台電電網強韌計畫」「投入345KV特高壓電纜新廠房與產線建置以因應台電的需求」「台電變電所統包工程」等；「電力公司」出現8次、「東南亞」7次。惟兩項陳述未獲支持：(1)「國內最大客戶」——全份年報中「國內最大客戶」與「最大客戶」出現次數均為0，未載客戶排名或客戶別營收占比；(2)「中東及東南亞電力公司」——「中東」出現次數為0，年報未載中東地區之電力公司客戶。故部分成立。",
+      "proposed_text": "大同 (2371) 之電力相關業務與[[台電]]（電網強韌計畫、變電所統包工程、特高壓電纜）密切往來。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2614:objective_ranking_or_market_share:fc653f741714d04d",
+      "normalized_claim_hash": "fc653f741714d04d430c12da566b93243e6cf3828c5b4890761e51c4ddc3d4c3",
+      "ticker": "2614",
+      "company": "東森",
+      "path": "Pilot_Reports/Conglomerates/2614_東森.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三大核心事業：（1）**新媒體事業：** 擁有[[ETtoday新聞雲]]（台灣流量最大之網路新聞媒體）及衛星電視頻道，數位廣告營收持續成長；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2614_109.pdf",
+          "title": "東森國際股份有限公司（東森，2614）109 年度年報",
+          "source_level": 3,
+          "period_binding": "民國109年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第3頁載「東森擁有超過1,500萬月不重複訪客及874萬會員人數，作為台灣最大的網路媒體及電視購物企業」；第5頁載「東森媒體事業群為台灣最大的網路傳媒」；第7頁載「英國牛津大學路透新聞學研究所報告指出，ETtoday東森新聞雲，於近3年連續獲評為台灣民眾『使用率』（第一）」；第11頁載「根據comScore所公布的跨平台裝置調查顯示，東森新媒體網路觸及率超過85％，已成為台灣地區新聞類網站第一名」；第12頁載「2019年數位廣告營收超過8.4億元，遠勝其他競業」。全份年報中「衛星」出現4次，均與衛星無關（「廣播衛星電視新聞自律執行綱要」之法規名稱、以及物流「衛星倉」），未載其擁有衛星電視頻道；「頻道」出現5次（含「首創多頻道聯營」「最多5頻道」）。"
+        }
+      ],
+      "rationale": "「擁有 ETtoday 新聞雲且為台灣流量最大之網路新聞媒體」獲發行人年報支持：第3頁載「東森擁有超過1,500萬月不重複訪客及874萬會員人數，作為台灣最大的網路媒體及電視購物企業」；第5頁載「東森媒體事業群為台灣最大的網路傳媒」；第11頁載「根據comScore所公布的跨平台裝置調查顯示，東森新媒體網路觸及率超過85％，已成為台灣地區新聞類網站第一名」；第12頁並載2019年數位廣告營收超過8.4億元。惟「（及）衛星電視頻道」未獲支持：全份年報中「衛星」出現4次，均與衛星電視頻道無關（一為法規名稱「廣播衛星電視新聞自律執行綱要」，其餘為物流「衛星倉」），年報未載其擁有或經營衛星電視頻道。故部分成立。",
+      "proposed_text": "東森 (2614) 旗下東森新媒體經營《ETtoday 東森新聞雲》，為台灣最大的網路新聞媒體（comScore 跨平台調查觸及率逾 85%、台灣地區新聞類網站第一名）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5288:objective_ranking_or_market_share:e2b6169ea8b47d06",
+      "normalized_claim_hash": "e2b6169ea8b47d06f4c9d3e46e53a33e92aa5961e078aa5e6eec392752648de6",
+      "ticker": "5288",
+      "company": "豐祥-KY",
+      "path": "Pilot_Reports/Conglomerates/5288_豐祥-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "四大業務領域：（1）**機車零組件**（最大營收來源），為越南主要機車機構件供應商之一；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820260701M001.pdf",
+          "title": "豐祥控股股份有限公司（豐祥-KY，5288，Eurocharm）法人說明會簡報（2026-07-01）",
+          "source_level": 3,
+          "period_binding": "2026年7月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁沿革載「2006年: 合資成立越南Exedy（機車離合器），持股20%」「2012年: 開始供應全球ORV大廠Polaris零件」。簡報另有「往來客戶」「客戶結構」「客戶別」等標題（「客戶」出現8次），惟全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0，未具名汽機車品牌客戶。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820240625M001.pdf",
+          "title": "豐祥-KY（5288）法人說明會簡報（2024-06-25）",
+          "source_level": 3,
+          "period_binding": "2024年6月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。內容與2026年版沿革相同（含「2012年: 開始供應全球ORV大廠Polaris零件」），「客戶」出現8次。全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「機車零組件業務」與「越南機車機構件供應商之地位」獲發行人簡報部分支持：2026及2024年官方簡報沿革載「2006年: 合資成立越南Exedy（機車離合器），持股20%」，顯示其於越南設有機車零組件相關合資事業。惟兩項陳述未獲支持：(1)「最大營收來源」——本批次所檢視之簡報為精簡版，未載各業務別之營收比重明細，無法確認機車零組件為最大營收來源；(2)「為越南主要機車機構件供應商之一」——簡報未以此自稱，亦未載越南市場地位之陳述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5288:objective_ranking_or_market_share:e03e47ad2fe08132",
+      "normalized_claim_hash": "e03e47ad2fe081320833a7afa660c81a72ec4ccd645cac00656a72a64f920562",
+      "ticker": "5288",
+      "company": "豐祥-KY",
+      "path": "Pilot_Reports/Conglomerates/5288_豐祥-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820260701M001.pdf",
+          "title": "豐祥控股股份有限公司（豐祥-KY，5288，Eurocharm）法人說明會簡報（2026-07-01）",
+          "source_level": 3,
+          "period_binding": "2026年7月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁沿革載「2006年: 合資成立越南Exedy（機車離合器），持股20%」「2012年: 開始供應全球ORV大廠Polaris零件」。簡報另有「往來客戶」「客戶結構」「客戶別」等標題（「客戶」出現8次），惟全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0，未具名汽機車品牌客戶。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820240625M001.pdf",
+          "title": "豐祥-KY（5288）法人說明會簡報（2024-06-25）",
+          "source_level": 3,
+          "period_binding": "2024年6月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。內容與2026年版沿革相同（含「2012年: 開始供應全球ORV大廠Polaris零件」），「客戶」出現8次。全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「汽機車品牌客戶關係」獲發行人簡報部分支持：2026及2024年簡報均載「2012年: 開始供應全球ORV大廠Polaris零件」，並有「往來客戶」「客戶結構」「客戶別」等章節（「客戶」出現8次）。惟「Honda（最大客戶）、Yamaha、Ducati」三家具名未獲支持：兩份簡報中「Honda」「本田」「Yamaha」「Ducati」出現次數均為0，亦未載最大客戶之身分或客戶別營收占比。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5288:objective_ranking_or_market_share:26d23c8673c73aeb",
+      "normalized_claim_hash": "26d23c8673c73aeb22bcbc019b9a898dae7ab8e396c58a80ffb2fe3695992598",
+      "ticker": "5288",
+      "company": "豐祥-KY",
+      "path": "Pilot_Reports/Conglomerates/5288_豐祥-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]（杜卡迪）、[[Polaris]]（北極星）、[[Harley-Davidson]]（哈雷）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820260701M001.pdf",
+          "title": "豐祥控股股份有限公司（豐祥-KY，5288，Eurocharm）法人說明會簡報（2026-07-01）",
+          "source_level": 3,
+          "period_binding": "2026年7月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第3頁沿革載「2006年: 合資成立越南Exedy（機車離合器），持股20%」「2012年: 開始供應全球ORV大廠Polaris零件」。簡報另有「往來客戶」「客戶結構」「客戶別」等標題（「客戶」出現8次），惟全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0，未具名汽機車品牌客戶。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/528820240625M001.pdf",
+          "title": "豐祥-KY（5288）法人說明會簡報（2024-06-25）",
+          "source_level": 3,
+          "period_binding": "2024年6月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。內容與2026年版沿革相同（含「2012年: 開始供應全球ORV大廠Polaris零件」），「客戶」出現8次。全份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「Honda（本田，最大客戶）、Yamaha、Ducati（杜卡迪）、Polaris（北極星）、Harley-Davidson（哈雷）」）。其中 Polaris 獲發行人簡報支持（「2012年: 開始供應全球ORV大廠Polaris零件」）；惟其餘四家（Honda、Yamaha、Ducati、Harley-Davidson）於兩份簡報中出現次數均為0，且「最大客戶」之身分未載。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6754:objective_ranking_or_market_share:97bcd095ad4b455e",
+      "normalized_claim_hash": "97bcd095ad4b455ea318b383c85d79760a756ecb33a3fd33406b8f05aa5abde5",
+      "ticker": "6754",
+      "company": "匯僑設計",
+      "path": "Pilot_Reports/Consulting Services/6754_匯僑設計.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心客戶群包括：(1) 國際精品 — 長期服務 [[LVMH]]、[[Kering]]、[[Richemont]] 旗下品牌在亞太區專櫃與旗艦店裝修，台灣精品零售空間市佔率逾 80%；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.twse.com.tw/staticFiles/news/event/ff8080817ce3defb017d227cc1ba00fc.pdf",
+          "title": "匯僑室內裝修設計股份有限公司（匯僑設計，6754，Rich Honour）法人說明會簡報（2021-11）",
+          "source_level": 3,
+          "period_binding": "2021年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "自臺灣證券交易所活動頁下載發行人簡報並以 PDF 文字檢視。第3頁載其2020年8月25日掛牌上市、1977年創立，並提供設計規劃／專案管理／裝修工程／道具生產等服務。簡報中「精品」出現6次，包含「►國際精品名牌」「Cartier杭州：大陸首家精品專賣店」「台北101公區及精品櫃位」「本公司深耕精品商業空間30餘年」「專注於高級精品店／高星級飯店／商務空間等高端領域之室內設計及裝修工程」。全份簡報中「LVMH」「Kering」「Richemont」「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「以國際精品商業空間為核心客戶群」獲發行人簡報支持：簡報中「精品」出現6次，包含「►國際精品名牌」「Cartier杭州：大陸首家精品專賣店」「台北101公區及精品櫃位」「本公司深耕精品商業空間30餘年」「專注於高級精品店／高星級飯店／商務空間等高端領域之室內設計及裝修工程」。惟三項陳述未獲支持：(1)「長期服務 LVMH、Kering、Richemont 旗下品牌」——簡報中該三集團名稱出現次數均為0（僅載 Cartier 單一品牌案例）；(2)「在亞太區專櫃與旗艦店裝修」之範圍未獲載明；(3)「台灣精品零售空間市佔率逾80%」——簡報中「市佔」出現次數為0。故部分成立。",
+      "proposed_text": "匯僑設計 (6754，Rich Honour) 深耕精品商業空間室內設計與裝修工程 30 餘年，案例包含國際精品名牌與台北 101 精品櫃位。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4749:objective_ranking_or_market_share:b6aa8390164f3bc1",
+      "normalized_claim_hash": "b6aa8390164f3bc1dd6b51212caa5e5e9e65696b8b5db9c3f02a3d274deae0e4",
+      "ticker": "4749",
+      "company": "新應材",
+      "path": "Pilot_Reports/Consumer Electronics/4749_新應材.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台積電為最大單一客戶，營收佔比已達約 79%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/474920250516M001.pdf",
+          "title": "新應材股份有限公司（新應材，4749，AEMC）法人說明會簡報（2025-05-16）",
+          "source_level": 3,
+          "period_binding": "2025年5月；財務數據含2019至2025年第一季及2025年預估。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第4頁載其「建立台灣半導體先進製程特化材料自主技術，滿足客戶需求以協助提升良率」，並引用「台積電2022年（資本支出相關新聞）」；第6頁載客戶別為「晶圓代工客戶」「光學元件客戶」，產品含「半導體先進製程光阻」「半導體先進製程用DUV光阻劑」；第9頁載「資料來源:晶圓代工客戶ESG永續管理網」；第18頁標題為「主要客戶先進製程未來產能布局」。全份簡報中「台積電」出現6次（含新聞引用）。關於數字：簡報中「79%」係**半導體應用材料占營業收入之比重**（2019至2025年預估分別為6%、22%、48%、66%、69%、79%），「79.6%」係**2024年台灣占銷售區域之比重**（台灣79.6%、中國15.1%、其他5.4%）。全份簡報中「最大客戶」出現次數為0，未載單一客戶之營收占比。"
+        }
+      ],
+      "rationale": "「台積電為其客戶」獲發行人簡報部分支持：簡報第6頁載客戶別為「晶圓代工客戶」，產品為半導體先進製程光阻與 DUV 光阻劑；第9頁載「資料來源:晶圓代工客戶ESG永續管理網」；第18頁標題為「主要客戶先進製程未來產能布局」；「台積電」出現6次（含新聞引用）。惟兩項陳述未獲支持且須更正：(1)「為最大單一客戶」——全份簡報中「最大客戶」出現次數為0，未載單一客戶身分或客戶別營收占比；(2)「營收佔比已達約79%」——經逐項核對，簡報中「79%」係**半導體應用材料占營業收入之比重**（2019至2025年預估序列之最新值），而「79.6%」係**2024年台灣占銷售區域之比重**；兩者均非單一客戶之營收占比。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4749:objective_ranking_or_market_share:8a41f0ce8cef58b5",
+      "normalized_claim_hash": "8a41f0ce8cef58b5bc6ec37c0da88233223859c5d70cddc19bee386f3ea14f18",
+      "ticker": "4749",
+      "company": "新應材",
+      "path": "Pilot_Reports/Consumer Electronics/4749_新應材.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/474920250516M001.pdf",
+          "title": "新應材股份有限公司（新應材，4749，AEMC）法人說明會簡報（2025-05-16）",
+          "source_level": 3,
+          "period_binding": "2025年5月；財務數據含2019至2025年第一季及2025年預估。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第4頁載其「建立台灣半導體先進製程特化材料自主技術，滿足客戶需求以協助提升良率」，並引用「台積電2022年（資本支出相關新聞）」；第6頁載客戶別為「晶圓代工客戶」「光學元件客戶」，產品含「半導體先進製程光阻」「半導體先進製程用DUV光阻劑」；第9頁載「資料來源:晶圓代工客戶ESG永續管理網」；第18頁標題為「主要客戶先進製程未來產能布局」。全份簡報中「台積電」出現6次（含新聞引用）。關於數字：簡報中「79%」係**半導體應用材料占營業收入之比重**（2019至2025年預估分別為6%、22%、48%、66%、69%、79%），「79.6%」係**2024年台灣占銷售區域之比重**（台灣79.6%、中國15.1%、其他5.4%）。全份簡報中「最大客戶」出現次數為0，未載單一客戶之營收占比。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「台積電 — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）」）。「為先進製程晶圓代工客戶提供配套化學品」獲簡報支持（第4、6、9、18頁）；惟「台積電」之具名與「最大客戶」地位未獲支持（「最大客戶」出現次數為0），「N7/N5/N3/N2」等製程節點亦未於查閱段落載明。故部分成立。",
+      "proposed_text": "新應材 (4749，AEMC) 為半導體先進製程晶圓代工客戶之特化材料供應商，產品包含先進製程光阻與 DUV 光阻劑；2025 年預估半導體應用材料占營收 79%。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 01:04 UTC
+Updated: 2026-10-07 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **269 / 1,399**
-- Remaining author review: **1,130**
-- Latest batch: **author-049** (4 claims)
+- Author-reviewed: **277 / 1,399**
+- Remaining author review: **1,122**
+- Latest batch: **author-050** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **167**
+- `PARTIALLY_SUPPORTED`: **175**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1435:objective_ranking_or_market_share:6abe79fd3552bb12`、`3716d349ab2a4699`、`0263fe5dc37d5f06` — `UNKNOWN_AFTER_RESEARCH` ×3; 中福紡織MOPS年報端點回320 bytes、TWSE OpenAPI 僅涵蓋最新一日（不含115/9/23公告）、未查得官方投資人專區；二手轉載依政策不採用。
-- `2371:objective_ranking_or_market_share:d43fbcdfc7da62f6` — `PARTIALLY_SUPPORTED`; 大同113年報載「變壓器」26次、「配電盤」6次、「氣體絕緣開關」3次、「電抗器」2次；惟「唯一」「一體化」皆0次、「主要獲利引擎」未載。
-- **更正（author-048）**：攸泰科技（6928）官方年報兩個路徑所下載之 PDF 經 pymupdf 檢視後確認實為**網站 404 頁面**（非年報、亦非影像排版）；已於 `semantic/author-048.json` 之 evidence.note 附加更正說明，原判定（UNKNOWN）不變。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-049.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` (大同).
+- `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` — `PARTIALLY_SUPPORTED`; 大同113年報「台電」33次（電網強韌計畫、345KV特高壓電纜、變電所統包工程）；惟「國內最大客戶」0次、「中東」0次。
+- `2614:objective_ranking_or_market_share:fc653f741714d04d` — `PARTIALLY_SUPPORTED`; 東森109年報載台灣最大網路媒體、comScore觸及率逾85%、新聞類網站第一名；惟「衛星電視頻道」未獲支持（「衛星」4次均為法規名稱與物流衛星倉）。
+- `5288:objective_ranking_or_market_share:e2b6169ea8b47d06`、`e03e47ad2fe08132`、`26d23c8673c73aeb` — `PARTIALLY_SUPPORTED` ×3; 豐祥簡報載2006年越南Exedy合資與2012年供應Polaris；惟 Honda／Yamaha／Ducati／Harley 皆0次、「最大客戶」未載、業務別營收比重未載。
+- `6754:objective_ranking_or_market_share:97bcd095ad4b455e` — `PARTIALLY_SUPPORTED`; 匯僑簡報「精品」6次（國際精品名牌、Cartier杭州、台北101精品櫃位、深耕30餘年）；惟 LVMH／Kering／Richemont 與「市佔」皆0次。
+- `4749:objective_ranking_or_market_share:b6aa8390164f3bc1`、`8a41f0ce8cef58b5` — `PARTIALLY_SUPPORTED` ×2; 新應材簡報載先進製程光阻與DUV光阻劑、晶圓代工客戶；惟「最大客戶」0次，且「79%」實為**半導體應用材料占營收比重**、「79.6%」為**2024年台灣占銷售區域比重**，均非單一客戶占比。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-050.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `5225:objective_ranking_or_market_share:9878893f3dc16044` (東科-KY).
 
 ## Source access
 

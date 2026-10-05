@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **269 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), and `author-049` (4).
+Author-reviewed: **277 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), and `author-050` (8).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 167
+- PARTIALLY_SUPPORTED: 175
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 45
-- Remaining author queue: 1,130
+- Remaining author queue: 1,122
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -589,6 +589,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **269 / 1,399**; remaining: **1,130**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 167, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` (大同).
+
+## Author batch `author-050` — 2026-10-07
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (大同 2371, 東森 2614, 豐祥-KY 5288 ×3, 匯僑設計 6754, 新應材 4749 ×2). Evidence came from directly downloaded and inspected official disclosures: 大同113年度年報、東森109年度年報、豐祥-KY 2026及2024年法人說明會簡報、匯僑設計2021年法人說明會簡報、新應材2025年法人說明會簡報。
+- `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` — `PARTIALLY_SUPPORTED`. 大同113年度年報中「台電」出現33次，包含「配合台電電網強韌計畫」「投入345KV特高壓電纜新廠房與產線建置以因應台電的需求」「台電變電所統包工程」「依台電新規改良套管型桿上變壓器」等；惟「國內最大客戶」「最大客戶」出現次數均為0，「中東」亦為0（「東南亞」7次、「電力公司」8次）。
+- `2614:objective_ranking_or_market_share:fc653f741714d04d` — `PARTIALLY_SUPPORTED`. 東森109年度年報第3頁載「東森擁有超過1,500萬月不重複訪客及874萬會員人數，作為台灣最大的網路媒體及電視購物企業」，第5頁載「東森媒體事業群為台灣最大的網路傳媒」，第11頁載「根據comScore所公布的跨平台裝置調查顯示，東森新媒體網路觸及率超過85％，已成為台灣地區新聞類網站第一名」，第12頁載2019年數位廣告營收超過8.4億元。惟「（及）衛星電視頻道」未獲支持——全份年報中「衛星」出現4次，分別為法規名稱「廣播衛星電視新聞自律執行綱要」與物流「衛星倉」，未載其擁有或經營衛星電視頻道。
+- `5288:objective_ranking_or_market_share:e2b6169ea8b47d06`、`e03e47ad2fe08132`、`26d23c8673c73aeb` — `PARTIALLY_SUPPORTED` ×3. 豐祥2026及2024年官方簡報沿革載「2006年: 合資成立越南Exedy（機車離合器），持股20%」與「2012年: 開始供應全球ORV大廠Polaris零件」，支持其越南機車零組件合資事業與 Polaris 客戶關係；惟兩份簡報中「Honda」「本田」「Yamaha」「Ducati」「Harley」出現次數均為0，「最大客戶」之身分未載，且簡報未載業務別營收比重，無法確認機車零組件為最大營收來源。
+- `6754:objective_ranking_or_market_share:97bcd095ad4b455e` — `PARTIALLY_SUPPORTED`. 匯僑設計2021年官方簡報中「精品」出現6次，包含「►國際精品名牌」「Cartier杭州：大陸首家精品專賣店」「台北101公區及精品櫃位」「本公司深耕精品商業空間30餘年」「專注於高級精品店／高星級飯店／商務空間等高端領域之室內設計及裝修工程」。惟「LVMH」「Kering」「Richemont」與「市佔」出現次數均為0，未載三集團旗下品牌或80%市占率。
+- `4749:objective_ranking_or_market_share:b6aa8390164f3bc1` 與 `8a41f0ce8cef58b5` — `PARTIALLY_SUPPORTED`. 新應材2025年官方簡報第6頁載客戶別為「晶圓代工客戶」、產品含「半導體先進製程光阻」與「先進製程用DUV光阻劑」，第18頁標題為「主要客戶先進製程未來產能布局」（「台積電」出現6次，含新聞引用）。惟「最大客戶」出現次數為0；且經逐項核對數字，簡報中「79%」係**半導體應用材料占營業收入之比重**（2019至2025年預估序列之最新值），「79.6%」係**2024年台灣占銷售區域之比重**，兩者均非單一客戶之營收占比。
+- Proposed wording is recorded for the partial claims in `semantic/author-050.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **277 / 1,399**; remaining: **1,122**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 175, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `5225:objective_ranking_or_market_share:9878893f3dc16044` (東科-KY).
+
 
 
 
