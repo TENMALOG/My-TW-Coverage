@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 07:04 UTC
+Updated: 2026-10-12 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **945 / 1,399**
-- Remaining author review: **454**
-- Latest batch: **author-175** (2 claims)
+- Author-reviewed: **951 / 1,399**
+- Remaining author review: **448**
+- Latest batch: **author-176** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **616**
+- `PARTIALLY_SUPPORTED`: **622**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2645:material_named_relationship:8a2772f0488a5e3a` — `PARTIALLY_SUPPORTED`；長榮航太簡報「**Boeing」6 次、「機體」15 次、「認證」17 次**（獲 BOEING 客機改貨機品質認證）；惟「**Airbus／空中巴士／Tier／直供／一階」皆 0 次**。
-- `2645:material_named_relationship:25d41503b8a9ab48` — `UNKNOWN_AFTER_RESEARCH`；兩份簡報「Airbus」「原廠件」皆0次。
-- **第二階段（`material_named_relationship`，315 筆）自本批次起展開。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-175.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `4541:material_named_relationship:2ab6d5fc7471158f` (晟田).
+- `4541:material_named_relationship:2ab6d5fc7471158f` — `PARTIALLY_SUPPORTED`；晟田簡報「**漢翔」11 次、「Boeing」11 次、「Airbus」9 次、「GE」57 次、「起落架」7 次**、「SPP」4次、「MOOG」4次；惟「**三菱重工」0 次**、「75%」0次。
+- `4541:material_named_relationship:df473dfcdc3e30d8` — `PARTIALLY_SUPPORTED`；「食品」3次、「10%」1次；惟「三菱重工」0次。
+- `4541:material_named_relationship:bcf536822f52729b` — `PARTIALLY_SUPPORTED`；「漢翔」11次、「41%」1次、「Boeing」11次、「Airbus」9次**均有出現**，惟簡報文字層多為孤立詞組，**「41%」與「漢翔」之連結無法確認**。
+- `4572:material_named_relationship:b06442b0f8987e25` — `PARTIALLY_SUPPORTED`；駐龍簡報「Boeing」6次、「認證」5次；惟「**三家」0 次、「全製程」0 次**。
+- `4572:material_named_relationship:425087302d080000` — `PARTIALLY_SUPPORTED`；「**737」3 次、「777」3 次、「787」2 次**、「Spirit」6次、「Safran」4次；惟「漢翔」「Tier」皆0次。
+- `8222:material_named_relationship:710cbe41e0f8945e` — `PARTIALLY_SUPPORTED`；寶一年報「**Safran」27 次、「Pratt」10 次、「Tier」11 次**、「MTU」2次；惟「**川崎」0 次、「GE Avio」0 次**、「波蘭」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-176.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6508:export_concentration:d679e0352a3e6a29` (惠光).
 
 ## Source access
 
