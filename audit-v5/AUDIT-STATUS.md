@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 02:04 UTC
+Updated: 2026-10-09 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **583 / 1,399**
-- Remaining author review: **816**
-- Latest batch: **author-098** (5 claims)
+- Author-reviewed: **591 / 1,399**
+- Remaining author review: **808**
+- Latest batch: **author-099** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **76**
-- `PARTIALLY_SUPPORTED`: **376**
+- `PARTIALLY_SUPPORTED`: **381**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **127**
+- `UNKNOWN_AFTER_RESEARCH`: **130**
 
 ## Latest claim batch
 
-- `4534:objective_ranking_or_market_share:9544823face2741c`、`df5a6c2d9d123139` — `UNKNOWN_AFTER_RESEARCH` ×2；慶騰未查得官網可下載年報或簡報端點，亦未取得 Höganäs 官方文件。
-- `4561:objective_ranking_or_market_share:97a04d12e6cfe518` — `PARTIALLY_SUPPORTED`；健椿2024年報「**主軸」162 次**、「精密」104 次、「上櫃」20 次、「**KENTURN」2 次**；惟「唯一」0 次。
-- `4912:objective_ranking_or_market_share:8324f94ac4ccaf9f` — `UNKNOWN_AFTER_RESEARCH`；聯德官網2019簡報端點回應 **HTTP 404**。
-- `2904:objective_ranking_or_market_share:7f1bb17b9de305f7` — `PARTIALLY_SUPPORTED`；匯僑2024簡報「儲槽」6 次；惟「台塑」「中油」「台灣最大」「岸槽」「民營」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-098.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab` (台塑化).
+- `6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab` — `PARTIALLY_SUPPORTED`；台塑化112年報載「為**國內唯一之民營石油煉製業者**」，並見六輕13次、麥寮20次；惟「1992」0次（年報以民國年表述）。
+- `6505:objective_ranking_or_market_share:e384f6967f7009fd`、`e2932b76fb13de47` — `PARTIALLY_SUPPORTED` ×2；油品與石化事業敘述成立；惟「62%」「54萬」「600座」「24%」「313萬」「最大石化」皆0次，「69%」3次含「15.69%」財務比率而未以市占率表述。
+- `7610:objective_ranking_or_market_share:66f0a1d3b55f8053` — `PARTIALLY_SUPPORTED`；聯友114年報載「為**國內唯一**以二次硬質合金物料…**再製生產鎢酸（鈉）**」與「台灣首家也是唯一」；惟「全球最大」0次（**範圍由國內放大為全球**），且「2,500」1次係產業**每年消耗量**（2,000-2,500噸）而非出口量。
+- `7610:objective_ranking_or_market_share:8dc2d0884b44a2f2`、`f09b19c3cba50f22`、`0e82075cdeab2da0` — `UNKNOWN_AFTER_RESEARCH` ×3；年報「台積電」「Apple」「Tesla」「Alconix」「合格供應」皆0次。
+- `9927:objective_ranking_or_market_share:55726d612dd2b764` — `PARTIALLY_SUPPORTED`；泰銘簡報「鉛合金」1次；惟「亞洲最大」「85%」「市佔」「提煉」皆0次（簡報僅2,338字元、2012年版）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-099.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `9927:objective_ranking_or_market_share:d1bcdef3b01aa98b` (泰銘).
 
 ## Source access
 
