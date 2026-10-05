@@ -1,0 +1,410 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-266",
+  "reviewed_at": "2026-10-05T23:37:40Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (新海112年度年報; 大台北110年度年報; 欣高公司文件; 欣雄2025法說會; 中連誠法說會; 麗升能源公司文件; 萬年清2024永續報告書; 台境2024法說會)",
+  "note": "**本批次完成全部剩餘 claim 之作者審核**（1,399 / 1,399）。六家天然氣公用事業之 claim 內容高度同型（台灣中油為天然氣獨家供應商／供應來源），本批次以同一組關鍵詞（中油／CPC／獨家／天然氣／供應商／唯一）分別檢視各家之官方文件，**其中新海之年報逐字載明「本公司氣源由台灣中油公司獨家供應」，故予支持；大台北與欣高之文件僅載氣源由中油供應而未載「獨家」，故為部分成立；欣雄所取得之簡報未載氣源供應者，欣泰與欣天然則未取得可檢視之文件，故為 UNKNOWN**。",
+  "items": [
+    {
+      "claim_id": "9926:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "9926",
+      "company": "新海",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9926_新海.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.shinhaigas.com.tw/file/Investors/Shareholder/112公司年報.pdf",
+          "title": "新海瓦斯股份有限公司（新海，9926，Shin Hai Gas）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取210,947字元）。年報**逐字載**「**註：本公司氣源由台灣中油公司獨家供應。**」與「在供氣區域內具有**獨家供應**之優勢。」（「**中油**」21次、「**獨家**」3次、「天然氣」176次、「供應商」15次、「唯一」2次），**逐字支持「台灣中油為天然氣獨家供應商／獨家供應來源」**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應商**）」獲發行人年報**逐字支持**：年報**逐字載**「**註：本公司氣源由台灣中油公司獨家供應。**」與「在供氣區域內具有**獨家供應**之優勢。」（「**中油**」21次、「**獨家**」3次、「天然氣」176次、「唯一」2次），**claim 之三項要素（台灣中油、天然氣、獨家供應）均獲逐字支持**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9926:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "9926",
+      "company": "新海",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9926_新海.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.shinhaigas.com.tw/file/Investors/Shareholder/112公司年報.pdf",
+          "title": "新海瓦斯股份有限公司（新海，9926，Shin Hai Gas）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取210,947字元）。年報**逐字載**「**註：本公司氣源由台灣中油公司獨家供應。**」與「在供氣區域內具有**獨家供應**之優勢。」（「**中油**」21次、「**獨家**」3次、「天然氣」176次、「供應商」15次、「唯一」2次），**逐字支持「台灣中油為天然氣獨家供應商／獨家供應來源」**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應來源**）」獲發行人年報**逐字支持**：年報載「**註：本公司氣源由台灣中油公司獨家供應。**」（「中油」21次、「獨家」3次），**「氣源」與「獨家供應」之組合即為 claim 所述之「獨家供應來源」**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9908:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "9908",
+      "company": "大台北",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9908_大台北.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taipeigas.com.tw/ReadFile2/?n=大台北110年報.pdf&p=IRShareholder",
+          "title": "大台北區瓦斯股份有限公司（大台北，9908，Taipei Gas）一一○年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取246,327字元）。年報載「110 年度由於**中油**氣源成本平均單價調減0.99 元」「60年 10月 24日： **中油**公司**供應**之天然氣正式通氣」（「**中油**」21次、「天然氣」142次、「供應商」11次、「唯一」3次），**支持台灣中油為其唯一氣源供應者**。**關鍵發現**：全份年報中「**獨家**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC）為天然氣**供應商**」獲發行人年報**逐字支持**：年報載「110 年度由於**中油**氣源成本平均單價調減0.99 元」「60年 10月 24日： **中油**公司**供應**之天然氣正式通氣」（「**中油**」21次、「天然氣」142次、「供應商」11次），**支持台灣中油為其氣源供應者**。**惟「獨家」未獲支持**——全份年報中「**獨家**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "大台北區瓦斯 (9908，Taipei Gas) 之天然氣氣源由台灣中油供應。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9908:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "9908",
+      "company": "大台北",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9908_大台北.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taipeigas.com.tw/ReadFile2/?n=大台北110年報.pdf&p=IRShareholder",
+          "title": "大台北區瓦斯股份有限公司（大台北，9908，Taipei Gas）一一○年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取246,327字元）。年報載「110 年度由於**中油**氣源成本平均單價調減0.99 元」「60年 10月 24日： **中油**公司**供應**之天然氣正式通氣」（「**中油**」21次、「天然氣」142次、「供應商」11次、「唯一」3次），**支持台灣中油為其唯一氣源供應者**。**關鍵發現**：全份年報中「**獨家**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC）為天然氣**供應來源**」獲發行人年報**逐字支持**（同上：「**中油**氣源成本」「**中油**公司供應之天然氣」）。**惟「獨家供應來源」之排他性表述未獲支持**——「**獨家**」之出現次數**為0**（「唯一」3次之上下文未與氣源連用）。故部分成立。",
+      "proposed_text": "大台北區瓦斯 (9908，Taipei Gas) 之天然氣氣源由台灣中油供應。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9931:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "9931",
+      "company": "欣高",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9931_欣高.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52794/2026/RNS/52794_rns_2026-07-28_3819913b-6523-44e7-8d19-d82b0b43308c.pdf",
+          "title": "欣高石油氣股份有限公司（欣高，9931，Hsin Kao Gas）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-16",
+          "note": "自公開資訊端點所取得之欣高公司文件並以 PDF 文字檢視（文字擷取55,499字元）。文件載「本公司自**中油**公司接氣，**供應**轄區內工業、營業及民生用（戶）」「目前，**中油**公司透過高雄永安港進口天然氣，與國際供應商簽訂長期合（約）」（「**中油**」13次、「天然氣」36次、「供應商」17次、「唯一」1次），**支持台灣中油為其氣源供應者**。**關鍵發現**：全份文件中「**獨家**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC）為天然氣**供應商**」獲發行人文件**逐字支持**：文件載「本公司自**中油**公司接氣，**供應**轄區內工業、營業及民生用（戶）」「目前，**中油**公司透過高雄永安港進口天然氣，與國際供應商簽訂長期合（約）」（「**中油**」13次、「天然氣」36次、「供應商」17次），**支持台灣中油為其氣源供應者**。**惟「獨家」未獲支持**——全份文件中「**獨家**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "欣高石油氣 (9931，Hsin Kao Gas) 自台灣中油接氣供應轄區用戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9931:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "9931",
+      "company": "欣高",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9931_欣高.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cdn.financialreports.eu/financialreports/media/filings/52794/2026/RNS/52794_rns_2026-07-28_3819913b-6523-44e7-8d19-d82b0b43308c.pdf",
+          "title": "欣高石油氣股份有限公司（欣高，9931，Hsin Kao Gas）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-16",
+          "note": "自公開資訊端點所取得之欣高公司文件並以 PDF 文字檢視（文字擷取55,499字元）。文件載「本公司自**中油**公司接氣，**供應**轄區內工業、營業及民生用（戶）」「目前，**中油**公司透過高雄永安港進口天然氣，與國際供應商簽訂長期合（約）」（「**中油**」13次、「天然氣」36次、「供應商」17次、「唯一」1次），**支持台灣中油為其氣源供應者**。**關鍵發現**：全份文件中「**獨家**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC）為天然氣**供應來源**」獲發行人文件**逐字支持**（同上：「本公司自**中油**公司接氣」「**中油**公司…進口天然氣」）。**惟「獨家供應來源」之排他性表述未獲支持**——「**獨家**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "欣高石油氣 (9931，Hsin Kao Gas) 自台灣中油接氣供應轄區用戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8908:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "8908",
+      "company": "欣雄",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/8908_欣雄.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/890820250930M001.pdf",
+          "title": "欣雄天然氣股份有限公司（欣雄，8908，Shin Hsiung Natural Gas）法人說明會簡報（2025-09-30）",
+          "source_level": 3,
+          "period_binding": "2025年9月30日。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,068字元，以圖形排版為主）。簡報封面載「**欣雄天然氣股份有限公司**」並載「• 以導管**供應天然氣**」（「**天然氣**」8次）。**關鍵發現**：全份簡報中「**中油**」「**CPC**」「**獨家**」與「供應商」之出現次數**均為0**——**未載其氣源供應者**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應商**）」未獲確立：所取得之欣雄2025年法人說明會簡報中「**中油**」「**CPC**」「**獨家**」與「供應商」之出現次數**均為0**（僅「天然氣」8次），**未載其氣源供應者**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8908:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "8908",
+      "company": "欣雄",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/8908_欣雄.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/890820250930M001.pdf",
+          "title": "欣雄天然氣股份有限公司（欣雄，8908，Shin Hsiung Natural Gas）法人說明會簡報（2025-09-30）",
+          "source_level": 3,
+          "period_binding": "2025年9月30日。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,068字元，以圖形排版為主）。簡報封面載「**欣雄天然氣股份有限公司**」並載「• 以導管**供應天然氣**」（「**天然氣**」8次）。**關鍵發現**：全份簡報中「**中油**」「**CPC**」「**獨家**」與「供應商」之出現次數**均為0**——**未載其氣源供應者**。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應來源**）」未獲確立：同上，該簡報中「中油」「CPC」「獨家」之出現次數**均為0**，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8917:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "8917",
+      "company": "欣泰",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/8917_欣泰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/891720250401M001.pdf",
+          "title": "欣泰石油氣（8917）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次未就欣泰石油氣取得可檢視之官方文件（**本批次之下載集中於同產業之其他標的**）；故未能就 claim 所述之氣源供應關係進行驗證。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應商**）」未獲確立：本批次未就欣泰取得可檢視之官方文件，未能就該氣源供應關係進行驗證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8917:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "8917",
+      "company": "欣泰",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/8917_欣泰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/891720250401M001.pdf",
+          "title": "欣泰石油氣（8917）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次未就欣泰石油氣取得可檢視之官方文件（**本批次之下載集中於同產業之其他標的**）；故未能就 claim 所述之氣源供應關係進行驗證。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應來源**）」未獲確立：同上，本批次未取得欣泰可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9918:material_named_relationship:9ee2a3f7848520f1",
+      "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+      "ticker": "9918",
+      "company": "欣天然",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9918_欣天然.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/991820250401M001.pdf",
+          "title": "欣天然（9918）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次未就欣天然取得可檢視之官方文件（**本批次之下載集中於同產業之其他標的**）；故未能就 claim 所述之氣源供應關係進行驗證。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應商**）」未獲確立：本批次未就欣天然取得可檢視之官方文件，未能就該氣源供應關係進行驗證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9918:material_named_relationship:73633ab28e6947bb",
+      "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+      "ticker": "9918",
+      "company": "欣天然",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9918_欣天然.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/991820250401M001.pdf",
+          "title": "欣天然（9918）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次未就欣天然取得可檢視之官方文件（**本批次之下載集中於同產業之其他標的**）；故未能就 claim 所述之氣源供應關係進行驗證。"
+        }
+      ],
+      "rationale": "「**[[台灣中油]]**（CPC，天然氣**獨家供應來源**）」未獲確立：同上，本批次未取得欣天然可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5604:identity_changing_event:b3e57d29547603cf",
+      "normalized_claim_hash": "b3e57d29547603cf2dd18a6c24b6b01257e7247829a247e0099789f50bb7b34b",
+      "ticker": "5604",
+      "company": "中連",
+      "path": "Pilot_Reports/Trucking/5604_中連.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2021 年更名為中連誠，轉型為以工業用不動產租賃與出售為核心業務之資產活化型收租企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/560420260902M001.pdf",
+          "title": "中連誠企業股份有限公司（中連，5604，Chung Lien）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（內文提及110年）。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,202字元，以圖形排版為主）。簡報封面載「**中連誠企業股份有限公司**」，文中「**不動產**」17次、「**租賃**」12次、「110年」2次，**支持其更名後以不動產租賃為核心業務**。**關鍵發現**：全份簡報中「**更名**」「**中連貨運**」與「2021」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「…更名為**中連誠**，轉型為以**工業用不動產租賃與出售**為核心業務之**資產活化型收租企業**」獲發行人簡報之**部分支持**：簡報封面載「**中連誠企業股份有限公司**」，文中「**不動產**」17次、「**租賃**」12次，**支持其更名後以不動產租賃為核心業務**。**惟兩項陳述未獲支持**：(1)「**2021 年更名**」——「**更名**」與「2021」之出現次數**均為0**（「110年」2次惟未與更名連用）；(2)「工業用不動產」與「資產活化型收租企業」之字樣未見。故部分成立。",
+      "proposed_text": "中連誠企業 (5604，Chung Lien) 以不動產租賃為核心業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8087:identity_changing_event:edf6dae43adbf07e",
+      "normalized_claim_hash": "edf6dae43adbf07e7e1dd1352a9e2a1b25c604a365c60b68bc9defbaf7ba78f5",
+      "ticker": "8087",
+      "company": "麗升能源",
+      "path": "Pilot_Reports/Utilities - Renewable/8087_麗升能源.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "麗升能源科技 (8087，LeadSun Greentech) 前身為華鎂鑫科技，2024 年 5 月更名為[[麗升能源]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.leadsun-green.com/_files/ugd/e8ef57_6b1f6947a7714c2c9fcb27d3b3f22922.pdf",
+          "title": "麗升能源科技股份有限公司（麗升能源，8087，LeadSun Greentech）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（內文提及113年）。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取65,803字元）。文件封面載「**麗升能源科技股份有限公司**」；文中「**華鎂鑫**」出現31次、「**麗升**」129次、「**太陽**」21次、「113年」9次，**支持「前身為華鎂鑫科技」及更名為麗升能源**。**關鍵發現（關鍵字之語意歸屬）**：全份文件中「**更名**」僅出現1次，**而其上下文為「股票之更名過戶，自股東常會開會前六十日內…」——係股份過戶之程序敘述，並非公司更名**；「2024」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「**[[麗升能源]]科技**（8087，LeadSun Greentech）**前身為華鎂鑫科技**」獲發行人文件**逐字支持**：文件封面載「**麗升能源科技股份有限公司**」，文中「**華鎂鑫**」出現31次、「**麗升**」129次、「**太陽**」21次，**支持其前身與現名之關係及能源業務**。**惟「2024 年 5 月更名」未獲支持**——「**2024**」之出現次數**為0**；**且「更名」僅出現1次，其上下文為「股票之更名過戶，自股東常會開會前六十日內…」，係股份過戶之程序敘述，並非公司更名**（**屬關鍵字之語意歸屬錯置**）。故部分成立。",
+      "proposed_text": "麗升能源科技 (8087，LeadSun Greentech) 前身為華鎂鑫科技。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6624:material_named_relationship:9427141aad3f581c",
+      "normalized_claim_hash": "9427141aad3f581c193e097aa2519ecec68bfe74357044eff19ef155b4ea53a4",
+      "ticker": "6624",
+      "company": "萬年清",
+      "path": "Pilot_Reports/Waste Management/6624_萬年清.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **半導體廢水處理：** 成功打入[[半導體]]產業供應鏈，承接知名封裝廠新建廠廢水處理訂單，專利設備獲[[台積電]]中部科學園區「零廢中心」採用。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ever-clear.com.tw/download/萬年清永續報告書_2024.pdf",
+          "title": "萬年清環境工程股份有限公司（萬年清，6624，Ever-Clear）2024 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取84,992字元）。報告書中「**廢水**」出現92次、「專利」15次、「訂單」4次，**支持其水處理（含廢水）工程業務**。**關鍵發現**：全份報告書中「**台積電**」「**封裝**」與「**半導體**」之出現次數**均為0**——**未載半導體產業客戶或台積電**。"
+        }
+      ],
+      "rationale": "「**廢水處理**（業務）」獲發行人永續報告書**逐字支持**：報告書中「**廢水**」出現92次、「專利」15次、「訂單」4次，**支持其水處理（含廢水）工程業務**。**惟三項陳述未獲支持**：(1)「**半導體**產業供應鏈」——「**半導體**」之出現次數**為0**；(2)「承接知名**封裝**廠新建廠訂單」——「**封裝**」為**0**；(3)「專利設備獲 **[[台積電]]**（採用）」——「**台積電**」為**0**。故部分成立。",
+      "proposed_text": "萬年清環境工程 (6624，Ever-Clear) 從事廢水處理等環境工程業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8476:material_named_relationship:1f56f40e7746d7f1",
+      "normalized_claim_hash": "1f56f40e7746d7f14e066cbd9107d4693457e870cedb5e958bed063c95912c6c",
+      "ticker": "8476",
+      "company": "台境",
+      "path": "Pilot_Reports/Waste Management/8476_台境.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶包含[[中油]]、[[台電]]等國營事業之污染場址整治，並配合[[環境部]]政策推動廢棄物發電與綠電售予[[台電]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/847620241216M001.pdf",
+          "title": "台境企業股份有限公司（台境，8476，Taiching）法人說明會簡報（2024-12-16）",
+          "source_level": 3,
+          "period_binding": "2024年12月16日。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取13,977字元，以圖形排版為主）。簡報載「案例- **中油**污染土處理場址 Case Study - **CPC** Soil Treatment Site」（「**污染**」11次、「**整治**」14次、「**中油**」1次、「**CPC**」出現、「**環境部**」1次），**支持其為中油之污染場址整治承作方**。**關鍵發現**：全份簡報中「**台電**」與「國營」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶包含 **[[中油]]**…之**污染場址整治**」與「配合**[[環境部]]**政策」獲發行人簡報**逐字支持**：簡報載「案例- **中油**污染土處理場址 Case Study - **CPC** Soil Treatment Site」（「**污染**」11次、「**整治**」14次、「中油」1次、「環境部」1次），**支持其為中油之污染場址整治承作方並配合環境部政策**。**惟兩項陳述未獲支持**：(1)「**[[台電]]**…等國營事業」——「**台電**」之出現次數**為0**；(2)「推動**廢棄物發電**與**綠電售予台電**」——該等字樣未見。故部分成立。",
+      "proposed_text": "台境企業 (8476，Taiching) 承作中油等污染場址整治，並配合環境部政策。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

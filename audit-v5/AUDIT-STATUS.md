@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-16 01:04 UTC
+Updated: 2026-10-16 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,33 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,383 / 1,399**
-- Remaining author review: **16**
-- Latest batch: **author-265** (6 claims)
+- Author-reviewed: **1,399 / 1,399**
+- Remaining author review: **0**
+- Latest batch: **author-266** (16 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **109**
-- `PARTIALLY_SUPPORTED`: **825**
+- `ACCEPTED`: **111**
+- `PARTIALLY_SUPPORTED`: **833**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **444**
+- `UNKNOWN_AFTER_RESEARCH`: **450**
 
 ## Latest claim batch
 
-- 🟢 `2066:material_named_relationship:599189e9a29e6cd7` — **`ACCEPTED`**；世德簡報封面**逐字列出**「**GM**」「**Chrysler**」「**Tier1**」「**Tier1**」「**Tier2**」「**Tier2**」「**Tier2**」（**Tier 5 次**）。
-- 🟢 `5007:export_concentration:0ee2200a2af138a8` — **`ACCEPTED`**；三星簡報**逐字載**「螺帽和螺絲「**95% 以上外銷歐美日地區**」（年報**歐美 5 次、外銷 8 次、扣件 90 次**）。
-- `5007:material_named_relationship:75fcb753c0bc1a29` — `PARTIALLY_SUPPORTED`；「**扣件」逾 110 次、「OEM」1 次**；**惟「Tier 1／Tier 2」兩份文件皆 0 次**。
-- `2065:export_concentration:69d8c9071bd12cd0`、`850c932731e7b8ae` — `UNKNOWN_AFTER_RESEARCH` ×2；世豐議事手冊「**外銷／歐洲／歐美／建材／95%」皆 0 次**（僅「美國」4 次）。
-- `4999:material_named_relationship:63f3bc955edc3d6b` — `UNKNOWN_AFTER_RESEARCH`；鑫禾簡報「**HP／Dell／Lenovo／華碩／主要客戶」皆 0 次**。
-- 證據記錄於 `semantic/author-265.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,383 ＝ 條目總數 1,383。**覆蓋率 98.86%**。
-- Next pending claim by priority: `5604:identity_changing_event:b3e57d29547603cf` (中連).
+- 🟢 `9926:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb` — **`ACCEPTED` ×2**；新海年報**逐字載**「**註：本公司氣源由台灣中油公司獨家供應。**」（**中油 21 次、獨家 3 次、天然氣 176 次**）。
+- `9908:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb` — `PARTIALLY_SUPPORTED` ×2；大台北年報載「**中油**氣源成本」「**中油**公司**供應**之天然氣」（**中油 21 次、天然氣 142 次**）；**惟「獨家」0 次**。
+- `9931:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb` — `PARTIALLY_SUPPORTED` ×2；欣高文件載「本公司自**中油**公司接氣」（**中油 13 次**）；**惟「獨家」0 次**。
+- `8908:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb` — `UNKNOWN_AFTER_RESEARCH` ×2；欣雄簡報「**中油／CPC／獨家」皆 0 次**。
+- `8917:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb`、`9918:material_named_relationship:9ee2a3f7848520f1`、`73633ab28e6947bb` — `UNKNOWN_AFTER_RESEARCH` ×4；欣泰與欣天然未取得可檢視之官方文件。
+- `5604:identity_changing_event:b3e57d29547603cf` — `PARTIALLY_SUPPORTED`；中連誠簡報「**中連誠」4 次、「不動產」17 次、「租賃」12 次**；**惟「更名／2021」皆 0 次**。
+- `8087:identity_changing_event:edf6dae43adbf07e` — `PARTIALLY_SUPPORTED`；麗升文件「**華鎂鑫」31 次、「麗升」129 次**；**惟「更名」1 次之上下文為「股票之更名過戶」（語意歸屬錯置）**。
+- `6624:material_named_relationship:9427141aad3f581c` — `PARTIALLY_SUPPORTED`；萬年清ESG「**廢水」92 次**；**惟「半導體／封裝／台積電」皆 0 次**。
+- `8476:material_named_relationship:1f56f40e7746d7f1` — `PARTIALLY_SUPPORTED`；台境簡報載「案例-**中油**污染土處理場址」（**污染 11 次、整治 14 次**）；**惟「台電」0 次**。
+- 證據記錄於 `semantic/author-266.json`（**16 筆**）。未修改發行人報告。帳目一致：唯一 claim 數 1,399 ＝ 條目總數 1,399。
+- ✅ **作者審核階段完成：1,399 / 1,399（100.00%）。待辦之作者 claim 為 0 筆；後續為獨立複核階段（`final_state` 仍為 null）。**
 
 ## Source access
 
