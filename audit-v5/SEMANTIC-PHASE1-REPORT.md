@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **405 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), and `author-072` (5).
+Author-reviewed: **411 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), and `author-073` (6).
 
 - ACCEPTED by author: 66
-- PARTIALLY_SUPPORTED: 259
+- PARTIALLY_SUPPORTED: 263
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 76
-- Remaining author queue: 994
+- Other allowed author decisions: 78
+- Remaining author queue: 988
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -854,6 +854,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **405 / 1,399**; remaining: **994**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 259, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 76. Next pending claim by priority: `6538:objective_ranking_or_market_share:84142ea1fb4928c3` (倉和).
+
+## Author batch `author-073` — 2026-10-08
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (倉和 6538, 和詮 6673 ×2, 旭暉應材 6698, 昇佳電子 6732, 永道-KY 6863). Evidence came from directly downloaded and inspected official disclosures: 倉和111年度年報、旭暉應材年報、昇佳電子法人說明會簡報、永道-KY公開資訊文件。
+- `6538:objective_ranking_or_market_share:84142ea1fb4928c3` — `PARTIALLY_SUPPORTED`. 倉和111年度年報載「於2022年致力持續優化**CF 系列**產品**3D 無網結網版**」「應用**3D 無網結、高網目數、極細線化**的網版製程技術」與「深耕**太陽能**網版印刷領域多年」（「網版」56次、「無網結」9次、「太陽能」24次、「銀漿」6次、「PI」6次）；惟「全球唯一」「獨家」「首家」出現次數均為0。
+- `6673:objective_ranking_or_market_share:e881d11eadac0b96` 與 `5837eee3cc7c02e7` — `UNKNOWN_AFTER_RESEARCH`. 和詮科技官方年報端點回應 **HTTP 404**，未取得可檢視之官方文件，其「全球最大特殊投影抗光幕材料製造商」與「業界唯一…光遮蔽率80%以上、120吋」等敘述均未獲確立。
+- `6698:objective_ranking_or_market_share:e3db967c354ef4c5` — `PARTIALLY_SUPPORTED`. 旭暉年報「產業上、中、下游之關聯性－《金屬遮罩》」載「本集團主要產品之一，為 **AMOLED 面板關鍵製程用精密金屬遮罩**」，支持其金屬遮罩業務。惟二項陳述未獲支持或須更正：(1)「在中國大陸市佔率約 **40%**」——年報中該40%係指「展望2021年 **AMOLED 智慧型手機應用的比重**將可攀升至40%左右」，**為產業應用比重而非該公司市占率**，年報就旭暉自身市占率僅載「預期…逐年提高」而未載數字；(2)「尚未打入京東方與華星光電」——年報之產業關聯表將「中國京東方、中國和輝、中國華星、中國維信諾」併列為**下游（OLED面板）代表公司**（同表並列韓國LGD、韓國三星、中國天馬、友達），未區分是否已為其客戶，故該敘述無法以該表確認或否證。
+- `6732:objective_ranking_or_market_share:60bfec13a29befba` — `PARTIALLY_SUPPORTED`. 昇佳電子官方簡報中「環境光」7次、「ALS」2次、「PS」2次、「近接」1次，支持其光學感測器業務；惟「非蘋」「Android」「市佔」與「色溫」「閃爍」出現次數均為0。
+- `6863:objective_ranking_or_market_share:208c742c8478bb55` — `PARTIALLY_SUPPORTED`. 永道-KY公開資訊文件中「**RFID**」9次、「**永豐餘**」3次，支持其 RFID 電子標籤業務與集團關聯；惟「全球第二」「亞洲最大」「市佔」「25%」與「50億」出現次數均為0。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **78 筆**。
+- Author-reviewed total: **411 / 1,399**; remaining: **988**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 263, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 78. Next pending claim by priority: `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` (奕力-KY).
+
 
 
 

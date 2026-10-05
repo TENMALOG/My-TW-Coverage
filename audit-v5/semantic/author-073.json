@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-073",
+  "reviewed_at": "2026-10-05T19:02:04Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (倉和111年度年報; 旭暉應材年報; 昇佳電子法人說明會簡報; 永道-KY公開資訊文件); 和詮之官方年報端點回應HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6538:objective_ranking_or_market_share:84142ea1fb4928c3",
+      "normalized_claim_hash": "84142ea1fb4928c35131918a90de2e920e2d7e249d9e26f5e58471cd13ad3b96",
+      "ticker": "6538",
+      "company": "倉和",
+      "path": "Pilot_Reports/Electronic Components/6538_倉和.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以獨家 PI ([[聚醯亞胺]]) 高分子無網結網版 (CF 系列) 技術全面革新太陽能電池的銀漿印刷製程，為全球唯一掌握此技術的廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6538_111.pdf",
+          "title": "倉和股份有限公司（倉和，6538，Tsang Ho）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「（為因應）術需求，於2022年致力持續優化**CF 系列**產品**3D 無網結網版**，在製程研發上（…）」，並載「（為）產品力之提升，應用**3D 無網結、高網目數、極細線化**的網版製程技術，使產品創（新）」「2022年持續提升新產品3D無網結網版的效能」，另載其「深耕**太陽能**網版印刷領域多年」（「網版」56次、「太陽能」24次、「無網結」9次、「PI」6次、「銀漿」6次）。全份年報中「全球唯一」「獨家」與「首家」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「以 PI 高分子無網結網版（CF 系列）技術應用於太陽能電池之銀漿印刷製程」獲發行人年報支持：年報載「於2022年致力持續優化**CF 系列**產品**3D 無網結網版**」「應用**3D 無網結、高網目數、極細線化**的網版製程技術」，並載其深耕**太陽能**網版印刷領域多年（「網版」56次、「無網結」9次、「太陽能」24次、「銀漿」6次、「PI」6次）。惟「為**全球唯一**掌握此技術的廠商」未獲支持：全份年報中「全球唯一」「獨家」與「首家」出現次數均為0，未以其為全球唯一自稱。故部分成立。",
+      "proposed_text": "倉和 (6538，Tsang Ho) 以 CF 系列 3D 無網結網版技術應用於太陽能電池之銀漿印刷製程。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6673:objective_ranking_or_market_share:e881d11eadac0b96",
+      "normalized_claim_hash": "e881d11eadac0b964611a1e07d500ad2da9a3ab9ac60eb6a1819cb1eb6895978",
+      "ticker": "6673",
+      "company": "和詮",
+      "path": "Pilot_Reports/Electronic Components/6673_和詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "和詮科技 (6673，[[Innovision FlexTech]]) 為全球最大特殊投影抗光幕材料製造商，總部位於高雄。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf",
+          "title": "和詮科技股份有限公司（和詮，6673，Innovision FlexTech）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次自發行人官方網域下載2023年度年報端點（https://www.iftc.com.tw/uploadfiles/415/06投資人專區/年報資料/2023/2023.pdf）時回應 **HTTP 404**，未取得檔案。搜尋結果可顯示該文件之內容摘要（如「(1) 超短焦抗光幕：持續極大化公司最具競爭優勢之利基產品銷售量與供貨能力，特別是電動及手動卷軸幕以及135吋及150吋大型拼接幕），惟依本審核之證據政策，搜尋結果僅作發現線索，不得作為證據。"
+        }
+      ],
+      "rationale": "「為全球最大特殊投影抗光幕材料製造商」未獲確立：本批次自發行人官方網域下載2023年度年報端點時回應 HTTP 404，未取得可檢視之官方文件。故其全球最大地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6673:objective_ranking_or_market_share:5837eee3cc7c02e7",
+      "normalized_claim_hash": "5837eee3cc7c02e784db7d7e1a848da5e7012ff55a5f8339332970b4d3d53c71",
+      "ticker": "6673",
+      "company": "和詮",
+      "path": "Pilot_Reports/Electronic Components/6673_和詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以獨家卷狀微結構線性塗佈技術生產抗環境光 (ALR) 投影幕材料，是業界唯一具備量產光遮蔽率 80% 以上、120 吋大尺寸抗光幕能力的廠商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf",
+          "title": "和詮科技股份有限公司（和詮，6673，Innovision FlexTech）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次自發行人官方網域下載2023年度年報端點（https://www.iftc.com.tw/uploadfiles/415/06投資人專區/年報資料/2023/2023.pdf）時回應 **HTTP 404**，未取得檔案。搜尋結果可顯示該文件之內容摘要（如「(1) 超短焦抗光幕：持續極大化公司最具競爭優勢之利基產品銷售量與供貨能力，特別是電動及手動卷軸幕以及135吋及150吋大型拼接幕），惟依本審核之證據政策，搜尋結果僅作發現線索，不得作為證據。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「以獨家卷狀微結構線性塗佈技術生產抗環境光 (ALR) 投影幕材料，是業界唯一具備量產光遮蔽率80%以上、120吋大尺寸抗光幕能力的廠商」）。因未取得可檢視之官方文件（端點回應 HTTP 404），「業界唯一」與各項規格數字均未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6698:objective_ranking_or_market_share:e3db967c354ef4c5",
+      "normalized_claim_hash": "e3db967c354ef4c5db8ed5bcc6ae67aaa474479a3af1286e93c4fb4df89308e8",
+      "ticker": "6698",
+      "company": "旭暉應材",
+      "path": "Pilot_Reports/Electronic Components/6698_旭暉應材.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) [[OLED]] 精密金屬遮罩 (CMM Mask) — 供應 [[OLED]] 面板蒸鍍用高精細金屬遮罩及再生服務，在中國大陸市佔率約 40%，客戶涵蓋中國主流 [[OLED]] 面板廠如 [[維信諾]]、[[和輝光電]]等 (尚未打入 [[京東方]]與[[華星光電]])；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.fine-mat.com/wp-content/uploads/2021/05/r1005000389%E6%97%AD%E6%9A%89%E5%B9%B4%E5%A0%B1%E4%B8%8A-%E4%B8%8A%E5%82%B3%E7%89%88.pdf",
+          "title": "旭暉應用材料股份有限公司（旭暉應材，6698，FineMat）年報",
+          "source_level": 3,
+          "period_binding": "年報載「展望2021年」等前瞻敘述；完整年度請見文件封面。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報「產業上、中、下游之關聯性－《金屬遮罩》」表載中游（OLED金屬遮罩）代表公司為「日本凸版、日本DNP、韓國SEWOO、韓國普旺、達運」，下游（OLED面板）代表公司為「韓國LGD、韓國三星、中國天馬、**中國京東方**、**中國和輝**、**中國華星**、**中國維信諾**、友達」（「遮罩」72次、「OLED」86次）。另「未來公司發展策略」段載「展望2021年**AMOLED 智慧型手機應用的比重將可攀升至40%左右**的水準。**預期旭暉市占率也將隨著中國AMOLED產業高速成長而逐年提高**」，即該40%係指 AMOLED 於智慧型手機之應用比重，旭暉自身市占率僅以「逐年提高」描述而未載數字。全份年報中「市佔」2次均非旭暉自身於中國大陸之市占率數字；「CMM」出現2次（形式為「G5.5Q0CMM」「G6H0CMM」）。"
+        }
+      ],
+      "rationale": "「供應 OLED 面板蒸鍍用高精細金屬遮罩及再生服務」獲發行人年報支持：年報「產業上、中、下游之關聯性－《金屬遮罩》」載「本集團主要產品之一，為 **AMOLED 面板關鍵製程用精密金屬遮罩**」，並說明熱蒸鍍與多腔體真空設備之製程需求（「遮罩」72次、「OLED」86次）。惟多項陳述未獲支持或須更正：(1)「在**中國大陸市佔率約 40%**」——年報中「40%」係指「展望2021年 **AMOLED 智慧型手機應用的比重**將可攀升至40%左右」，**為產業應用比重而非該公司市占率**；年報就旭暉自身市占率僅載「預期旭暉市占率也將隨著中國AMOLED產業高速成長而逐年提高」，未載數字。(2)「客戶涵蓋中國主流 OLED 面板廠如維信諾、和輝光電等（**尚未打入京東方與華星光電**）」——年報之產業關聯表將「中國京東方、中國和輝、中國華星、中國維信諾」併列為**下游（OLED面板）代表公司**（同表亦列韓國LGD、韓國三星、中國天馬、友達），未區分是否已為其客戶，故「尚未打入」之敘述無法以該表確認或否證。故部分成立。",
+      "proposed_text": "旭暉應用材料 (6698，FineMat) 供應 AMOLED 面板製程用之精密金屬遮罩（CMM）及相關再生服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6732:objective_ranking_or_market_share:60bfec13a29befba",
+      "normalized_claim_hash": "60bfec13a29befbae34ef77484ec4ebbb4b2d15a413dc1c263fdefdb5a46dae2",
+      "ticker": "6732",
+      "company": "昇佳電子",
+      "path": "Pilot_Reports/Electronic Components/6732_昇佳電子.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) 光學感測器 — 環境光感測 (ALS)、近接距離感測 (PS)、色溫偵測及環境光閃爍偵測等晶片，為智慧型手機螢幕亮度自動調節與窄邊框防誤觸的關鍵元件，在非蘋 (Android) 陣營市佔極高；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/673220260327M001.pdf",
+          "title": "昇佳電子股份有限公司（昇佳電子，6732，Sensortek）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2026年3月刊載。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取4,114字元）。簡報中「環境光」出現7次、「ALS」2次、「PS」2次、「近接」1次，支持其環境光感測（ALS）與近接距離感測（PS）等光學感測器業務。全份簡報中「非蘋」「Android」「市佔」與「色溫」「閃爍」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「產品為環境光感測 (ALS)、近接距離感測 (PS) 等光學感測器晶片」獲發行人簡報支持：簡報中「環境光」出現7次、「ALS」2次、「PS」2次、「近接」1次，支持其光學感測器業務。惟「在**非蘋 (Android) 陣營市佔極高**，為智慧型手機螢幕亮度自動調節與窄邊框防誤觸的關鍵元件」未獲支持：全份簡報中「非蘋」「Android」與「市佔」出現次數均為0，「色溫」與「閃爍」亦為0，未載客戶陣營之市占率或具體應用地位。故部分成立。",
+      "proposed_text": "昇佳電子 (6732，Sensortek) 從事環境光感測 (ALS) 與近接距離感測 (PS) 等光學感測器晶片。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6863:objective_ranking_or_market_share:208c742c8478bb55",
+      "normalized_claim_hash": "208c742c8478bb554d54f5f742569ebe20d640bf92bfd5b08b53b6f786c605f1",
+      "ticker": "6863",
+      "company": "永道-KY",
+      "path": "Pilot_Reports/Electronic Components/6863_永道-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "永道-KY (6863，[[Arizon RFID]]) 隸屬於[[永豐餘]]集團，為全球第二大、亞洲最大的 [[RFID]] 電子標籤 ODM 製造商，全球市佔率約 25%，年產能達 50 億枚。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.twse.com.tw/rwd/staticFiles/product/publication/0001069423.pdf",
+          "title": "永道-KY（6863，Arizon RFID）公司文件（公開資訊）",
+          "source_level": 3,
+          "period_binding": "文件所載年度請見文件封面。",
+          "accessed_at": "2026-10-08",
+          "note": "自公開資訊文件端點下載並以 PDF 文字檢視（文字擷取2,368字元）。文件載其業務與「**RFID**」相關（「RFID」9次），並見「**永豐餘**」3次，支持其 RFID 電子標籤業務與集團關聯。全份文件中「全球第二」「亞洲最大」「市佔」「25%」與「50億」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為 RFID 電子標籤製造商並隸屬永豐餘集團」獲公開資訊文件部分支持：文件載其業務與「**RFID**」相關（9次）並見「**永豐餘**」3次。惟「為**全球第二大、亞洲最大的 RFID 電子標籤 ODM 製造商**，全球市佔率約 **25%**，年產能達 **50億枚**」未獲支持：全份文件中「全球第二」「亞洲最大」「市佔」「25%」與「50億」出現次數均為0。故部分成立。",
+      "proposed_text": "永道-KY (6863，Arizon RFID) 從事 RFID 電子標籤業務，並與永豐餘集團相關。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

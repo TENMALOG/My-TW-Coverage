@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T19:00:10Z",
+  "generated_at": "2026-10-05T19:02:19Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得或 claim 與 ticker 身分不符，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -74,15 +74,16 @@
     "author-069",
     "author-070",
     "author-071",
-    "author-072"
+    "author-072",
+    "author-073"
   ],
-  "source_batch_count": 72,
-  "total_unknown": 76,
+  "source_batch_count": 73,
+  "total_unknown": 78,
   "failure_signature_counts": {
     "other_unclassified": 34,
     "mops_non_document": 24,
     "non_document_response": 22,
-    "http_404": 21,
+    "http_404": 23,
     "no_official_endpoint_found": 29,
     "image_only_or_tiny_text": 9,
     "http_403": 5,
@@ -1248,6 +1249,34 @@
         "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
       ],
       "recommended_retry": "先由 author 端確認 claim 所屬 ticker（疑為 6584 南俊國際）後再行取證"
+    },
+    {
+      "claim_id": "6673:objective_ranking_or_market_share:e881d11eadac0b96",
+      "ticker": "6673",
+      "company": "和詮",
+      "claim": "和詮科技 (6673，[[Innovision FlexTech]]) 為全球最大特殊投影抗光幕材料製造商，總部位於高雄。",
+      "batch_id": "author-073",
+      "failure_signature": [
+        "http_404"
+      ],
+      "attempted_sources": [
+        "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件或公開說明書重查"
+    },
+    {
+      "claim_id": "6673:objective_ranking_or_market_share:5837eee3cc7c02e7",
+      "ticker": "6673",
+      "company": "和詮",
+      "claim": "公司以獨家卷狀微結構線性塗佈技術生產抗環境光 (ALR) 投影幕材料，是業界唯一具備量產光遮蔽率 80% 以上、120 吋大尺寸抗光幕能力的廠商。",
+      "batch_id": "author-073",
+      "failure_signature": [
+        "http_404"
+      ],
+      "attempted_sources": [
+        "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件或公開說明書重查"
     }
   ]
 }
