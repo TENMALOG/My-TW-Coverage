@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 15:04 UTC
+Updated: 2026-10-10 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **794 / 1,399**
-- Remaining author review: **605**
-- Latest batch: **author-135** (3 claims)
+- Author-reviewed: **799 / 1,399**
+- Remaining author review: **600**
+- Latest batch: **author-136** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **518**
+- `PARTIALLY_SUPPORTED`: **521**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **185**
+- `UNKNOWN_AFTER_RESEARCH`: **187**
 
 ## Latest claim batch
 
-- `6434:objective_ranking_or_market_share:4cdefa173c0d7b8e` — `ACCEPTED`；達輝光電文件載「致力於 **TAC 膜（Triacetate Cellulose Film，三醋酸纖維素薄膜）**…**是國內唯一生產該項產品並具競爭力之生產廠商**」與「母公司（**新光合纖**）」——**逐字對應**。
-- `6509:objective_ranking_or_market_share:c068206ce2be8b0d` — `PARTIALLY_SUPPORTED`；聚和111年報「**精密化學品」11 次**、「生技」5次、「製藥」2次、「電池」7次；惟「最大主軸」「電解液」「台積電」「日月光」「先進封裝」「填孔」皆0次。
-- `6555:objective_ranking_or_market_share:56167743ae5aa1a5` — `UNKNOWN_AFTER_RESEARCH`；榮炭官方端點 **HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-135.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `6582:objective_ranking_or_market_share:35bb14dd44c6df25` (申豐).
+- `6582:objective_ranking_or_market_share:35bb14dd44c6df25` — `PARTIALLY_SUPPORTED`；申豐簡報「**乳膠」13 次**、「手套」6次；惟「8萬」與四家手套客戶名稱皆0次（簡報僅2,796字元）。
+- `6959:objective_ranking_or_market_share:04813286c96d4265` — `PARTIALLY_SUPPORTED`；兆捷簡報「特殊氣體」4次、「**唯一」3 次皆指執照／整合平台**；「AsH3」「PH3」「BF3」「離子植入」「四大類」皆0次。
+- `8935:objective_ranking_or_market_share:5b7fd516ddccfb07` — `PARTIALLY_SUPPORTED`；邦泰簡報「**CROCS」1 次**、「棒球」1次（**鞋類列舉**）；惟「Nike」「亞洲最大」「安踏」「特步」皆0次。
+- `8935:objective_ranking_or_market_share:4f531d8d97f7214b`、`6e616151ae29b468` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報「**Nike」0 次**、「亞洲最大」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-136.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `1513:objective_ranking_or_market_share:bf4e992193fcae82` (中興電).
 
 ## Source access
 
