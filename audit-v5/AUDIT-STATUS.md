@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 09:04 UTC
+Updated: 2026-10-07 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **317 / 1,399**
-- Remaining author review: **1,082**
-- Latest batch: **author-057** (5 claims)
+- Author-reviewed: **324 / 1,399**
+- Remaining author review: **1,075**
+- Latest batch: **author-058** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **54**
-- `PARTIALLY_SUPPORTED`: **207**
+- `PARTIALLY_SUPPORTED`: **210**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **52**
+- `UNKNOWN_AFTER_RESEARCH`: **56**
 
 ## Latest claim batch
 
-- `6940:objective_ranking_or_market_share:a339a04db47953d6` — `PARTIALLY_SUPPORTED`; 格斯2025簡報以「鈦酸鋰」「LTO」「NCM」為主軸（LTO 18次、鈦酸鋰7次、NCM 9次、「LTO電池代工合約」）；惟「台灣唯一」0次。
-- `6940:objective_ranking_or_market_share:6cfe81e246b74e61` — `PARTIALLY_SUPPORTED`; 簡報載「安裝地點：**中油**嘉義綠能所加油站」；惟「最大客戶」0次、未載標案規模或客戶占比。
-- `7750:objective_ranking_or_market_share:f2879969d03c99dd` — `PARTIALLY_SUPPORTED`; 新代2026簡報載「CNC 控制器」「AI賦能智慧控制器」（CNC 8次、控制器11次）；惟「市佔」「逾20%」「FANUC」「Siemens」「亞洲領先」皆0次（「第三」係「第三個五年計劃」）。
-- `8038:objective_ranking_or_market_share:d89476319d794d57` — `UNKNOWN_AFTER_RESEARCH`; 長園科2023簡報載鋰鐵電池與UPS/儲能電池模組、半導體產業儲能系統（鋰鐵32次、UPS 16次、儲能33次）；惟「台積電」「最大客戶」皆0次，依具名客戶身分規則結為UNKNOWN。
-- `1582:objective_ranking_or_market_share:948268fc83d4768f` — `PARTIALLY_SUPPORTED`; 信錦2022議事錄載營收主要來自顯示器樞紐、專利逾140項多與液晶監視器底座相關、「監視器軸承暨底座的**領導地位**」；惟「全球最大」「市佔」「Hinge」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-057.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0` (台達電).
+- `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0`、`abbcc068786a6239` — `PARTIALLY_SUPPORTED` ×2; 台達電官方致股東報告書載「電源及系統」事業與「AI電源與散熱解決方案」研發；惟「全球最大」「交換式電源」「市佔」皆0次。
+- `2308:objective_ranking_or_market_share:b060444939608ba9` — `PARTIALLY_SUPPORTED`; 同頁載「與主要AI晶片供應商及雲端服務客戶維持合作關係」、800VDC／±400VDC架構、液冷與TLVR電感「已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」；惟「Tier 1」「CSP」「NVIDIA」「GB200」皆0次。
+- `2317:objective_ranking_or_market_share:862167a3881f91f4`、`26accf4568e21055`、`31793ac814a59391`、`066e13df74842145` — `UNKNOWN_AFTER_RESEARCH` ×4; 鴻海官方年報專頁為前端渲染（HTML無PDF連結）、新聞稿頁靜態HTML僅含標題與CSS、投資人關係財務網址404、MOPS年報端點回320 bytes、官方議事手冊PDF回403，未取得可檢視文件。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-058.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `2327:objective_ranking_or_market_share:4bc2906c15245aae` (國巨).
 
 ## Source access
 

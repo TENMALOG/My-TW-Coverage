@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-058",
+  "reviewed_at": "2026-10-05T18:04:48Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly retrieved official disclosures (台達電官方致股東報告書頁); 鴻海之官方年報專頁、新聞稿頁、投資人關係網址、公開資訊觀測站端點與議事手冊 PDF 於本批次均無法取得可檢視內容，已逐項記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2308:objective_ranking_or_market_share:102dbd9ad2f63ed0",
+      "normalized_claim_hash": "102dbd9ad2f63ed0e08523edbf1fd8120224c9dfb98dd2af3337c6f03f1d00cd",
+      "ticker": "2308",
+      "company": "台達電",
+      "path": "Pilot_Reports/Electronic Components/2308_台達電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台達電 (2308) 是全球最大的[[交換式電源供應器]]製造商，以自有品牌 DELTA 行銷全球。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.deltaww.com/zh-TW/investors/chairman-statement",
+          "title": "台達電子工業股份有限公司（台達電，2308，Delta Electronics）官方「致股東報告書」頁",
+          "source_level": 3,
+          "period_binding": "2026年刊出；內容為2025年度經營實績回顧。",
+          "accessed_at": "2026-10-07",
+          "note": "直接開啟發行人官方網站投資人服務之「致股東報告書」頁（HTTP 200）並檢視其內容。文中載2025年度財務數據（營業淨利新台幣839億元、淨利率15.1%、稅後淨利601億元、EPS 23.14元、ROE 24.1%），並載「2025年，台達持續關注人工智慧相關技術與應用發展，並與**主要AI晶片供應商及雲端服務客戶**維持合作關係，投入**AI電源與散熱解決方案**之研發」，另載其因應高耗電需求導入「800VDC或±400VDC等高壓直流電源架構」、液冷解決方案（微通道液冷冷板、DC Pump、CDU）以及「多相型TLVR電感…已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」。頁面導覽並列其產品服務含「電源及系統」「零組件」等。全份頁面中「全球最大」「交換式電源」「市佔」「NVIDIA」「GB200」「Tier 1」「CSP」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「以 DELTA 品牌經營電源相關業務」獲發行人官方頁面支持：官方致股東報告書頁面之產品服務列有「電源及系統」「零組件」等事業範疇，品牌名稱亦載於頁面（© 2026 Delta Electronics, Inc.），並載其投入「AI電源與散熱解決方案」研發。惟「為全球最大的交換式電源供應器製造商」未獲支持：該頁面中「全球最大」與「交換式電源」出現次數均為0，未以其為全球最大自稱，亦未載電源產品之市占率。故部分成立。",
+      "proposed_text": "台達電子 (2308，Delta Electronics) 以自有品牌 DELTA 經營電源及零組件業務，並投入 AI 電源與散熱解決方案研發。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2308:objective_ranking_or_market_share:b060444939608ba9",
+      "normalized_claim_hash": "b060444939608ba904e5f4b775455a758acfcfc7a96fa23813f8630abf0fa4a5",
+      "ticker": "2308",
+      "company": "台達電",
+      "path": "Pilot_Reports/Electronic Components/2308_台達電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為美系 Tier 1 CSP [[AI 伺服器]]電源最大供應商，預計成為 [[NVIDIA]] DGX GB200 中 DC/DC 及 AC/DC 電源主要供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.deltaww.com/zh-TW/investors/chairman-statement",
+          "title": "台達電子工業股份有限公司（台達電，2308，Delta Electronics）官方「致股東報告書」頁",
+          "source_level": 3,
+          "period_binding": "2026年刊出；內容為2025年度經營實績回顧。",
+          "accessed_at": "2026-10-07",
+          "note": "直接開啟發行人官方網站投資人服務之「致股東報告書」頁（HTTP 200）並檢視其內容。文中載2025年度財務數據（營業淨利新台幣839億元、淨利率15.1%、稅後淨利601億元、EPS 23.14元、ROE 24.1%），並載「2025年，台達持續關注人工智慧相關技術與應用發展，並與**主要AI晶片供應商及雲端服務客戶**維持合作關係，投入**AI電源與散熱解決方案**之研發」，另載其因應高耗電需求導入「800VDC或±400VDC等高壓直流電源架構」、液冷解決方案（微通道液冷冷板、DC Pump、CDU）以及「多相型TLVR電感…已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」。頁面導覽並列其產品服務含「電源及系統」「零組件」等。全份頁面中「全球最大」「交換式電源」「市佔」「NVIDIA」「GB200」「Tier 1」「CSP」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為 AI 伺服器電源之重要供應商並與主要 AI 晶片及雲端客戶合作」獲發行人官方頁面支持：致股東報告書載「台達持續關注人工智慧相關技術與應用發展，並與**主要AI晶片供應商及雲端服務客戶**維持合作關係，投入**AI電源與散熱解決方案**之研發」，另載其因應高耗電需求導入「800VDC或±400VDC等高壓直流電源架構」、液冷解決方案，並載「多相型TLVR電感…已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」。惟兩項具體陳述未獲支持：(1)「為美系 Tier 1 CSP AI 伺服器電源**最大**供應商」——頁面中「Tier 1」「CSP」出現次數均為0，亦未以「最大供應商」自稱；(2)「預計成為 NVIDIA DGX GB200 中 DC/DC 及 AC/DC 電源主要供應商」——「NVIDIA」與「GB200」出現次數均為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2308:objective_ranking_or_market_share:abbcc068786a6239",
+      "normalized_claim_hash": "abbcc068786a62394ca9cd331d0ec77443d9520e1ec8b8a2fafa223efc56cdd5",
+      "ticker": "2308",
+      "company": "台達電",
+      "path": "Pilot_Reports/Electronic Components/2308_台達電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**台達電** (全球最大交換式電源，[[AI 伺服器]]/EV 充電/工業自動化)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.deltaww.com/zh-TW/investors/chairman-statement",
+          "title": "台達電子工業股份有限公司（台達電，2308，Delta Electronics）官方「致股東報告書」頁",
+          "source_level": 3,
+          "period_binding": "2026年刊出；內容為2025年度經營實績回顧。",
+          "accessed_at": "2026-10-07",
+          "note": "直接開啟發行人官方網站投資人服務之「致股東報告書」頁（HTTP 200）並檢視其內容。文中載2025年度財務數據（營業淨利新台幣839億元、淨利率15.1%、稅後淨利601億元、EPS 23.14元、ROE 24.1%），並載「2025年，台達持續關注人工智慧相關技術與應用發展，並與**主要AI晶片供應商及雲端服務客戶**維持合作關係，投入**AI電源與散熱解決方案**之研發」，另載其因應高耗電需求導入「800VDC或±400VDC等高壓直流電源架構」、液冷解決方案（微通道液冷冷板、DC Pump、CDU）以及「多相型TLVR電感…已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」。頁面導覽並列其產品服務含「電源及系統」「零組件」等。全份頁面中「全球最大」「交換式電源」「市佔」「NVIDIA」「GB200」「Tier 1」「CSP」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「台達電（全球最大交換式電源，AI 伺服器/EV 充電/工業自動化）」）。其電源業務與 AI 伺服器相關佈局獲官方頁面支持（AI 電源與散熱解決方案、800VDC／±400VDC 架構、液冷、TLVR 電感導入國際 AI 晶片大廠與雲端服務供應商）；惟「全球最大交換式電源」未獲支持（「全球最大」與「交換式電源」出現次數均為0），「EV 充電」與「工業自動化」亦未於該頁面敘述中取得對應。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2317:objective_ranking_or_market_share:862167a3881f91f4",
+      "normalized_claim_hash": "862167a3881f91f4cd80824a6ca16633b75fc4e0ab0ddcace6dfc9d6ffdb5057",
+      "ticker": "2317",
+      "company": "鴻海",
+      "path": "Pilot_Reports/Electronic Components/2317_鴻海.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[鴻海]]精密 (2317) 是全球最大的電子代工服務 ([[EMS]]) 廠商，2023 年營收 6.16 兆新台幣。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.honhai.com/en-us/investor-relations/financial-information/reports?category=annual",
+          "title": "鴻海精密工業股份有限公司（鴻海，2317，Hon Hai）官方年報、新聞稿與公開資訊觀測站端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得鴻海官方文件之結果：(1) 官方年報專頁（honhai.com/en-us/investor-relations/financial-information/reports?category=annual）回應 HTTP 200，惟該頁為前端渲染應用，所取回之 HTML 中未含任何 PDF 連結，無法取得年報檔案；(2) 官方新聞稿頁（honhai.com/zh-tw/press-center/press-releases/latest-news/1977 與 /1553）回應 HTTP 200，惟其文字擷取結果僅有標題與樣式表（CSS），內文未呈現於靜態 HTML，無法作為證據；(3) 官方投資人關係財務資訊網址 /zh-tw/investor-relations/financial-information 回應 HTTP 404；(4) 公開資訊觀測站年報端點 t100sa11_2317_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(5) 官方網域下之股東會議事手冊 PDF（demo2.honhai.com/s3/reports/shareholders-meetings/…/2016_AGM_handbook_c.pdf）回應 HTTP 403 禁止。故本批次未取得可檢視之鴻海官方文件。"
+        }
+      ],
+      "rationale": "「為全球最大的電子代工服務 (EMS) 廠商，2023年營收6.16兆新台幣」未獲確立：本批次未能取得可檢視之鴻海官方文件——官方年報專頁為前端渲染應用、HTML 中無 PDF 連結；官方新聞稿頁之靜態 HTML 僅含標題與樣式表；官方投資人關係財務資訊網址回應404；公開資訊觀測站年報端點回傳320 bytes 非文件內容；官方股東會議事手冊 PDF 回應403。故「全球最大 EMS」之地位與2023年營收數字既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2317:objective_ranking_or_market_share:26accf4568e21055",
+      "normalized_claim_hash": "26accf4568e21055fa260c361c01b5b0b8c3dbed4cff0ff2802d9132a8898ce1",
+      "ticker": "2317",
+      "company": "鴻海",
+      "path": "Pilot_Reports/Electronic Components/2317_鴻海.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶為 [[Apple]] (iPhone/iPad/Mac 代工)，近年 [[AI 伺服器]]業務快速成長，雲端及網路營收占比首度突破 41%，超越消費電子。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.honhai.com/en-us/investor-relations/financial-information/reports?category=annual",
+          "title": "鴻海精密工業股份有限公司（鴻海，2317，Hon Hai）官方年報、新聞稿與公開資訊觀測站端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得鴻海官方文件之結果：(1) 官方年報專頁（honhai.com/en-us/investor-relations/financial-information/reports?category=annual）回應 HTTP 200，惟該頁為前端渲染應用，所取回之 HTML 中未含任何 PDF 連結，無法取得年報檔案；(2) 官方新聞稿頁（honhai.com/zh-tw/press-center/press-releases/latest-news/1977 與 /1553）回應 HTTP 200，惟其文字擷取結果僅有標題與樣式表（CSS），內文未呈現於靜態 HTML，無法作為證據；(3) 官方投資人關係財務資訊網址 /zh-tw/investor-relations/financial-information 回應 HTTP 404；(4) 公開資訊觀測站年報端點 t100sa11_2317_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(5) 官方網域下之股東會議事手冊 PDF（demo2.honhai.com/s3/reports/shareholders-meetings/…/2016_AGM_handbook_c.pdf）回應 HTTP 403 禁止。故本批次未取得可檢視之鴻海官方文件。"
+        }
+      ],
+      "rationale": "「最大客戶為 Apple（iPhone/iPad/Mac 代工），雲端及網路營收占比首度突破 41%，超越消費電子」未獲確立：本批次未能取得可檢視之鴻海官方文件（各端點之失敗形式見 evidence.note）。故最大客戶身分、客戶別產品代工範圍與雲端網路營收占比等數字均未獲權威來源確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2317:objective_ranking_or_market_share:31793ac814a59391",
+      "normalized_claim_hash": "31793ac814a59391011252b596e18e7bb0720e98de5147f5ec60ec71d4ce9570",
+      "ticker": "2317",
+      "company": "鴻海",
+      "path": "Pilot_Reports/Electronic Components/2317_鴻海.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[鴻海]]** (全球最大 EMS/CDMS，消費電子/[[AI 伺服器]]/[[電動車]])",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.honhai.com/en-us/investor-relations/financial-information/reports?category=annual",
+          "title": "鴻海精密工業股份有限公司（鴻海，2317，Hon Hai）官方年報、新聞稿與公開資訊觀測站端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得鴻海官方文件之結果：(1) 官方年報專頁（honhai.com/en-us/investor-relations/financial-information/reports?category=annual）回應 HTTP 200，惟該頁為前端渲染應用，所取回之 HTML 中未含任何 PDF 連結，無法取得年報檔案；(2) 官方新聞稿頁（honhai.com/zh-tw/press-center/press-releases/latest-news/1977 與 /1553）回應 HTTP 200，惟其文字擷取結果僅有標題與樣式表（CSS），內文未呈現於靜態 HTML，無法作為證據；(3) 官方投資人關係財務資訊網址 /zh-tw/investor-relations/financial-information 回應 HTTP 404；(4) 公開資訊觀測站年報端點 t100sa11_2317_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(5) 官方網域下之股東會議事手冊 PDF（demo2.honhai.com/s3/reports/shareholders-meetings/…/2016_AGM_handbook_c.pdf）回應 HTTP 403 禁止。故本批次未取得可檢視之鴻海官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「鴻海（全球最大 EMS/CDMS，消費電子/AI 伺服器/電動車）」）。因本批次未取得可檢視之鴻海官方文件，其 EMS/CDMS 全球地位與業務範疇未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2317:objective_ranking_or_market_share:066e13df74842145",
+      "normalized_claim_hash": "066e13df74842145693261323169e520f8853b755b2c033175e5548086db00f2",
+      "ticker": "2317",
+      "company": "鴻海",
+      "path": "Pilot_Reports/Electronic Components/2317_鴻海.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] (最大客戶)、[[HP]]、[[Dell]]、[[Sony]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.honhai.com/en-us/investor-relations/financial-information/reports?category=annual",
+          "title": "鴻海精密工業股份有限公司（鴻海，2317，Hon Hai）官方年報、新聞稿與公開資訊觀測站端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得鴻海官方文件之結果：(1) 官方年報專頁（honhai.com/en-us/investor-relations/financial-information/reports?category=annual）回應 HTTP 200，惟該頁為前端渲染應用，所取回之 HTML 中未含任何 PDF 連結，無法取得年報檔案；(2) 官方新聞稿頁（honhai.com/zh-tw/press-center/press-releases/latest-news/1977 與 /1553）回應 HTTP 200，惟其文字擷取結果僅有標題與樣式表（CSS），內文未呈現於靜態 HTML，無法作為證據；(3) 官方投資人關係財務資訊網址 /zh-tw/investor-relations/financial-information 回應 HTTP 404；(4) 公開資訊觀測站年報端點 t100sa11_2317_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）；(5) 官方網域下之股東會議事手冊 PDF（demo2.honhai.com/s3/reports/shareholders-meetings/…/2016_AGM_handbook_c.pdf）回應 HTTP 403 禁止。故本批次未取得可檢視之鴻海官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「Apple（最大客戶）、HP、Dell、Sony」）。因本批次未取得可檢視之鴻海官方文件，客戶身分與最大客戶地位均未獲確立；且該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

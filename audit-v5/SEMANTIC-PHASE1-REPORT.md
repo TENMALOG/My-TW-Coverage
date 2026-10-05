@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **317 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), and `author-057` (5).
+Author-reviewed: **324 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), and `author-058` (7).
 
 - ACCEPTED by author: 54
-- PARTIALLY_SUPPORTED: 207
+- PARTIALLY_SUPPORTED: 210
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 52
-- Remaining author queue: 1,082
+- Other allowed author decisions: 56
+- Remaining author queue: 1,075
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -683,6 +683,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **317 / 1,399**; remaining: **1,082**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 207, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 52. Next pending claim by priority: `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0` (台達電).
+
+## Author batch `author-058` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (台達電 2308 ×3, 鴻海 2317 ×4). 台達電之證據來自官方「致股東報告書」頁面；鴻海之官方來源於本批次全數無法取得可檢視內容，四筆均結為 `UNKNOWN_AFTER_RESEARCH`。
+- `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0` 與 `abbcc068786a6239` — `PARTIALLY_SUPPORTED`. 台達電官方「致股東報告書」頁面（HTTP 200）載2025年度財務數據（營業淨利839億元、稅後淨利601億元、EPS 23.14元、ROE 24.1%），產品服務列有「電源及系統」「零組件」等事業範疇，並載其投入「AI電源與散熱解決方案」研發。惟「全球最大」「交換式電源」「市佔」出現次數均為0，未以全球最大交換式電源供應器製造商自稱。
+- `2308:objective_ranking_or_market_share:b060444939608ba9` — `PARTIALLY_SUPPORTED`. 同頁載「台達持續關注人工智慧相關技術與應用發展，並與**主要AI晶片供應商及雲端服務客戶**維持合作關係，投入**AI電源與散熱解決方案**之研發」，另載因應高耗電需求導入「800VDC或±400VDC等高壓直流電源架構」、液冷解決方案（微通道液冷冷板、DC Pump、CDU），以及「多相型TLVR電感…已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」。惟「Tier 1」「CSP」「NVIDIA」「GB200」出現次數均為0，故「美系 Tier 1 CSP 最大供應商」與「NVIDIA DGX GB200 主要電源供應商」未獲支持。
+- `2317:objective_ranking_or_market_share:862167a3881f91f4`、`26accf4568e21055`、`31793ac814a59391`、`066e13df74842145` — `UNKNOWN_AFTER_RESEARCH` ×4. 本批次嘗試取得鴻海官方文件之結果：(1) 官方年報專頁回應 HTTP 200 但為前端渲染應用，HTML 中無任何 PDF 連結；(2) 官方新聞稿頁（1977、1553）回應 HTTP 200，惟文字擷取結果僅有標題與樣式表，內文未呈現於靜態 HTML；(3) 官方投資人關係財務資訊網址回應 HTTP 404；(4) 公開資訊觀測站年報端點 t100sa11_2317_113.pdf 回傳320 bytes 非文件內容；(5) 官方股東會議事手冊 PDF（demo2.honhai.com）回應 HTTP 403。故全球最大 EMS/CDMS 地位、2023年營收6.16兆、最大客戶 Apple、雲端及網路營收占比突破41% 等均未獲確立。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **324 / 1,399**; remaining: **1,075**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 210, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 56. Next pending claim by priority: `2327:objective_ranking_or_market_share:4bc2906c15245aae` (國巨).
+
 
 
 
