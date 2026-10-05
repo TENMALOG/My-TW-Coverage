@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-165",
+  "reviewed_at": "2026-10-05T21:20:14Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (上銀2020年度年報; 世鎧法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "2049:objective_ranking_or_market_share:1bbe1fedf9ba0664",
+      "normalized_claim_hash": "1bbe1fedf9ba06648fa224c6091889eb610cbd7d07b022983fbf8dad12735698",
+      "ticker": "2049",
+      "company": "上銀",
+      "path": "Pilot_Reports/Tools & Accessories/2049_上銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "上銀科技 (2049，HIWIN Technologies) 成立於 1989 年，總部位於台灣台中，以自有品牌「HIWIN」行銷全球，為全球第二大[[滾珠螺桿]]製造商及全球前三大[[線性滑軌]]製造商，與日商 [[THK]] 及 [[NSK]] 合計市佔率超過七成。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.hiwin.tw/stock/annual_report/2020_%e4%b8%ad%e6%96%87%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "上銀科技股份有限公司（上銀，2049，HIWIN Technologies）2020 年度年報",
+          "source_level": 3,
+          "period_binding": "2020年度（民國109年度）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取316,050字元）。年報中「**滾珠螺桿**」出現81次、「**線性滑軌**」67次、「**HIWIN**」85次、「**1989**」5次、「**台中**」29次，**充分支持其成立年分、總部地點、自有品牌與兩項主要產品**。**關鍵發現**：全份年報中「**全球第二**」「**全球前三大**」「**THK**」「**NSK**」與「**七成**」之出現次數**均為0**；「**市佔**」1次之上下文為**目標敘述**——「(3)打造MIT 機器人品牌，**提高**工業機器人與醫療機器人**市占率**」，**非**既有市佔率之表述。"
+        }
+      ],
+      "rationale": "claim 之前半段獲發行人年報**充分支持**：「成立於 **1989** 年」（「1989」5次）、「總部位於台灣**台中**」（「台中」29次）、「以自有品牌『**HIWIN**』行銷全球」（「**HIWIN**」85次）、「從事[[滾珠螺桿]]及[[線性滑軌]]業務」（「**滾珠螺桿**」81次、「**線性滑軌**」67次）。惟後半段之市場地位未獲支持：(1)「為**全球第二大**滾珠螺桿製造商」——「全球第二」0次；(2)「**全球前三大**線性滑軌製造商」——「全球前三大」0次；(3)「與日商 [[THK]] 及 [[NSK]] 合計**市佔率超過七成**」——「THK」「NSK」「七成」均為0，且「**市佔**」1次之上下文為**目標敘述**（「提高工業機器人與醫療機器人**市占率**」）。故部分成立。",
+      "proposed_text": "上銀科技 (2049，HIWIN Technologies) 成立於1989年，總部位於台灣台中，以自有品牌「HIWIN」行銷全球，從事滾珠螺桿及線性滑軌業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2063:objective_ranking_or_market_share:6515f294bf11593a",
+      "normalized_claim_hash": "6515f294bf11593afc9cb713ffeb79401d59be351a3dccdc5e8d732915bb6560",
+      "ticker": "2063",
+      "company": "世鎧",
+      "path": "Pilot_Reports/Tools & Accessories/2063_世鎧.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歐洲建材通路商及五金經銷商 (最大市場)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/206320250916M001.pdf",
+          "title": "世鎧精密股份有限公司（世鎧，2063，Sheh Kai Precision）法人說明會簡報（2025-09-16）",
+          "source_level": 3,
+          "period_binding": "2025年9月16日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,466字元，以圖形排版為主）。簡報中「**歐洲**」出現5次，支持其與歐洲市場之關聯。全份簡報中「**建材**」「**通路商**」「**經銷商**」「**五金**」與「**最大市場**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「與**歐洲**市場具關聯」獲發行人簡報支持：簡報中「**歐洲**」出現5次。惟三項陳述未獲支持：(1)「**歐洲建材通路商**」——「建材」與「通路商」之出現次數**均為0**；(2)「**五金經銷商**」——「五金」與「經銷商」均為0；(3)「（**最大市場**）」——「最大市場」為0。故部分成立（並註記該簡報文字擷取僅5,466字元）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

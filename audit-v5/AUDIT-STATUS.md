@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 20:04 UTC
+Updated: 2026-10-11 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **901 / 1,399**
-- Remaining author review: **498**
-- Latest batch: **author-164** (5 claims)
+- Author-reviewed: **903 / 1,399**
+- Remaining author review: **496**
+- Latest batch: **author-165** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **592**
+- `PARTIALLY_SUPPORTED`: **594**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1570:objective_ranking_or_market_share:c4ddcbe07eeee869` — `PARTIALLY_SUPPORTED`；力肯簡報「專業級氣動**釘槍**」「電動**釘槍**」；惟「最大客戶」「美國」「品牌」皆0次。
-- `1591:objective_ranking_or_market_share:01629e23762694d3` — `PARTIALLY_SUPPORTED`；駿吉簡報「**1989年3月**」「工業用**氣動式風槍釘**」、「馬來西亞」2次、「開曼」2次；惟「1990」「東南亞」「最大」「鋼釘」皆0次。
-- `2063:objective_ranking_or_market_share:7739d7e6a87f3c8e` — `PARTIALLY_SUPPORTED`；世鎧簡報**逐字載**「**公司成立 : 西元 1992 / 4 月**」；惟「高雄」「最大」皆0次。
-- `2063:objective_ranking_or_market_share:8917b6e2421fdaa3` — `PARTIALLY_SUPPORTED`；簡報「歐洲」5次；**惟「24%」1次之原文為「螺絲事業營收相較同期減少近24%」（營收衰退，非市佔）**，「最大市場」「前二大」皆0次。
-- `2063:objective_ranking_or_market_share:d1d0957d7c075d6d` — `UNKNOWN_AFTER_RESEARCH`；「Würth」「Hilti」「Home Depot」「Lowe's」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-164.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2049:objective_ranking_or_market_share:1bbe1fedf9ba0664` (上銀).
+- `2049:objective_ranking_or_market_share:1bbe1fedf9ba0664` — `PARTIALLY_SUPPORTED`；上銀年報「**滾珠螺桿」81 次、「線性滑軌」67 次、「HIWIN」85 次、「1989」5 次、「台中」29 次**；惟「**全球第二／全球前三大／THK／NSK／七成」皆 0 次**，且「市佔」1次為「**提高…市占率**」之目標。
+- `2063:objective_ranking_or_market_share:6515f294bf11593a` — `PARTIALLY_SUPPORTED`；世鎧簡報「歐洲」5次；惟「建材」「通路商」「經銷商」「五金」「最大市場」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-165.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `2065:objective_ranking_or_market_share:d09032770245bcd5` (世豐).
 
 ## Source access
 
