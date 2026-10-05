@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **245 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), and `author-044` (4).
+Author-reviewed: **249 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), and `author-045` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 154
+- PARTIALLY_SUPPORTED: 156
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 34
-- Remaining author queue: 1,154
+- Other allowed author decisions: 36
+- Remaining author queue: 1,150
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -535,6 +535,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-044.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。本批次因時間預算僅完成 4 筆，佇列順序不受影響（下一筆為 3479 安勤）。
 - Author-reviewed total: **245 / 1,399**; remaining: **1,154**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 154, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `3479:objective_ranking_or_market_share:ec2d0140eda8f433` (安勤).
+
+## Author batch `author-045` — 2026-10-06
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (安勤 3479, 磐儀 3594, 鼎翰 3611, 科嘉-KY 5215). Evidence came from directly downloaded and inspected official disclosures: 鼎翰114年度年報、科嘉-KY官方公司文件、磐儀115年股東常會議事手冊；安勤科技之官方端點於本批次全數取得失敗。
+- `3479:objective_ranking_or_market_share:ec2d0140eda8f433` — `UNKNOWN_AFTER_RESEARCH`. 本批次嘗試之三條安勤官方路徑均回應 HTTP 404：發行人官方網域年報 PDF（avalue.com/upload/2024_05_29/…）與另一官方年報路徑（avalue.com/upload/2023_08_10/…），以及公開資訊觀測站簡報端點。故仁寶之持股比例與最大股東地位未獲確立。
+- `3594:objective_ranking_or_market_share:8a5b9baaa79c34f3` — `UNKNOWN_AFTER_RESEARCH`. 磐儀115年股東常會議事手冊（10,282,022 bytes、67頁）自發行人投資人專區下載成功，惟全文文字擷取結果中「樺漢」「拌漢」「聯發」「磐旭」「智能」「機器人」「主要股東」「持股比例」出現次數均為0（「股東」279次、「持股」10次），且第14頁等內容頁呈現零散數字排列，顯示多數內容頁之文字層無法正常擷取。故樺漢之入股與磐旭智能之合資關係未獲權威文字確認。
+- `3611:objective_ranking_or_market_share:2740038399a03d39` — `PARTIALLY_SUPPORTED`. 鼎翰114年度年報中「條碼印表機」出現34次，第10頁載其產品線含條碼印表機並述全球化佈局；惟「台灣第一大」「全球前五大」「全球前5大」「世界第一」「全球第一」出現次數均為0，「市佔」僅1次且為未附數字之通用語（「搶佔市佔率的良機」）。
+- `5215:objective_ranking_or_market_share:209ea0f8303b4060` — `PARTIALLY_SUPPORTED`. 科嘉官方公司文件第3及4頁載「公司主要產品：薄膜觸控開關」「MTS – Membrane Touch Switch」「筆電用薄膜觸控開關」並附示意圖（「薄膜觸控開關」5次、「MTS」3次）；惟「全球最大」與「市佔」出現次數均為0。
+- Proposed wording is recorded for the partial claims in `semantic/author-045.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗之佇列項目；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。本批次完成 4 筆，佇列順序不受影響（下一筆為 6166 凌華）。
+- Author-reviewed total: **249 / 1,399**; remaining: **1,150**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 156, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6166:objective_ranking_or_market_share:b3a2e1a025feff65` (凌華).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 20:04 UTC
+Updated: 2026-10-06 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **245 / 1,399**
-- Remaining author review: **1,154**
-- Latest batch: **author-044** (4 claims)
+- Author-reviewed: **249 / 1,399**
+- Remaining author review: **1,150**
+- Latest batch: **author-045** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **154**
+- `PARTIALLY_SUPPORTED`: **156**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **34**
+- `UNKNOWN_AFTER_RESEARCH`: **36**
 
 ## Latest claim batch
 
-- `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` — `PARTIALLY_SUPPORTED`; 神基2025簡報第8頁載豐達為「系統認證廠商…為**亞太區少數**獲認證的航太扣（件廠）」（非「唯一」），豐達2026簡報第5/6/7頁載航太扣件與GE90／GEnx／GE9X；惟「Snecma／Safran」0次。
-- `3013:objective_ranking_or_market_share:0924d32218acf258` — `PARTIALLY_SUPPORTED`; 晟銘電115年議事手冊載「持續深耕伺服器機殼、機櫃與系統結構件領域」；惟廣達／緯創／緯穎與「最大」皆0次。
-- `3272:objective_ranking_or_market_share:48f05562f3b2586d` — `PARTIALLY_SUPPORTED`; 東碩2014簡報第31頁載2013年完成 worldwide 第一台 Thunderbolt Light Ridge 擴充基座；惟「全球最大」0次、無USB-C字樣。
-- `3406:objective_ranking_or_market_share:ccb265f012ed9da6` — `PARTIALLY_SUPPORTED`; 玉晶光113年報第59頁客戶以代號揭露（113年甲32.36%、乙31.15%）、第67頁載最大客戶占32.36%且為國際品牌大廠指定之交貨客戶；惟 Apple／Huawei／Vivo 皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-044.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `3479:objective_ranking_or_market_share:ec2d0140eda8f433` (安勤).
+- `3479:objective_ranking_or_market_share:ec2d0140eda8f433` — `UNKNOWN_AFTER_RESEARCH`; 安勤官方年報兩個端點與MOPS簡報端點皆回HTTP 404，未取得可檢視文件。
+- `3594:objective_ranking_or_market_share:8a5b9baaa79c34f3` — `UNKNOWN_AFTER_RESEARCH`; 磐儀115年議事手冊（67頁）已下載，惟「樺漢」「聯發」「磐旭」「智能」「主要股東」「持股比例」皆0次，內容頁文字層無法正常擷取。
+- `3611:objective_ranking_or_market_share:2740038399a03d39` — `PARTIALLY_SUPPORTED`; 鼎翰114年報「條碼印表機」34次；惟「台灣第一大」「全球前五大」皆0次、「市佔」僅1次且無數字。
+- `5215:objective_ranking_or_market_share:209ea0f8303b4060` — `PARTIALLY_SUPPORTED`; 科嘉官方文件載「薄膜觸控開關(MTS)」「筆電用薄膜觸控開關」；惟「全球最大」與「市佔」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-045.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6166:objective_ranking_or_market_share:b3a2e1a025feff65` (凌華).
 
 ## Source access
 
