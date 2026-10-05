@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 08:04 UTC
+Updated: 2026-10-12 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **951 / 1,399**
-- Remaining author review: **448**
-- Latest batch: **author-176** (6 claims)
+- Author-reviewed: **953 / 1,399**
+- Remaining author review: **446**
+- Latest batch: **author-177** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,18 +20,13 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **233**
+- `UNKNOWN_AFTER_RESEARCH`: **235**
 
 ## Latest claim batch
 
-- `4541:material_named_relationship:2ab6d5fc7471158f` — `PARTIALLY_SUPPORTED`；晟田簡報「**漢翔」11 次、「Boeing」11 次、「Airbus」9 次、「GE」57 次、「起落架」7 次**、「SPP」4次、「MOOG」4次；惟「**三菱重工」0 次**、「75%」0次。
-- `4541:material_named_relationship:df473dfcdc3e30d8` — `PARTIALLY_SUPPORTED`；「食品」3次、「10%」1次；惟「三菱重工」0次。
-- `4541:material_named_relationship:bcf536822f52729b` — `PARTIALLY_SUPPORTED`；「漢翔」11次、「41%」1次、「Boeing」11次、「Airbus」9次**均有出現**，惟簡報文字層多為孤立詞組，**「41%」與「漢翔」之連結無法確認**。
-- `4572:material_named_relationship:b06442b0f8987e25` — `PARTIALLY_SUPPORTED`；駐龍簡報「Boeing」6次、「認證」5次；惟「**三家」0 次、「全製程」0 次**。
-- `4572:material_named_relationship:425087302d080000` — `PARTIALLY_SUPPORTED`；「**737」3 次、「777」3 次、「787」2 次**、「Spirit」6次、「Safran」4次；惟「漢翔」「Tier」皆0次。
-- `8222:material_named_relationship:710cbe41e0f8945e` — `PARTIALLY_SUPPORTED`；寶一年報「**Safran」27 次、「Pratt」10 次、「Tier」11 次**、「MTU」2次；惟「**川崎」0 次、「GE Avio」0 次**、「波蘭」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-176.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6508:export_concentration:d679e0352a3e6a29` (惠光).
+- `6508:export_concentration:d679e0352a3e6a29`、`9321018679533bfd` — `UNKNOWN_AFTER_RESEARCH` ×2；惠光官方端點（年報與永續報告書）**皆回傳 HTTP 403**（**經加入 User-Agent 與 Referer 標頭重試仍為 403**）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-177.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `2610:material_named_relationship:2e40073714d0a5be` (華航).
 
 ## Source access
 

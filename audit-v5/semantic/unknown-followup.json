@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:33:13Z",
+  "generated_at": "2026-10-05T21:35:27Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -177,10 +177,12 @@
     "author-172",
     "author-173",
     "author-174",
-    "author-175"
+    "author-175",
+    "author-176",
+    "author-177"
   ],
-  "source_batch_count": 175,
-  "total_unknown": 233,
+  "source_batch_count": 177,
+  "total_unknown": 235,
   "failure_signature_counts": {
     "other_unclassified": 85,
     "no_official_endpoint_found": 113,
@@ -188,7 +190,7 @@
     "mops_non_document": 39,
     "non_document_response": 37,
     "http_404": 39,
-    "http_403": 13,
+    "http_403": 14,
     "image_only_or_tiny_text": 11,
     "connection_failure": 14,
     "garbled_text_layer": 13,
@@ -2315,7 +2317,6 @@
       "claim": "[[和碩]] (最大股東)",
       "batch_id": "author-107",
       "failure_signature": [
-        "http_403",
         "no_official_endpoint_found"
       ],
       "attempted_sources": [
@@ -3627,6 +3628,34 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/264520241125M001.pdf",
         "https://mopsov.twse.com.tw/nas/STR/264520230209M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6508:export_concentration:d679e0352a3e6a29",
+      "ticker": "6508",
+      "company": "惠光",
+      "claim": "內銷台灣約佔三成，中國大陸約佔四成，東南亞及澳洲為主要外銷市場，近期新增美國市場帶動成長。",
+      "batch_id": "author-177",
+      "failure_signature": [
+        "http_403"
+      ],
+      "attempted_sources": [
+        "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6508:export_concentration:9321018679533bfd",
+      "ticker": "6508",
+      "company": "惠光",
+      "claim": "中國 (佔外銷約 20%)、澳洲 (約 20%)、越南 (約 10%) — 掩埋場、水利及基礎建設工程",
+      "batch_id": "author-177",
+      "failure_signature": [
+        "http_403"
+      ],
+      "attempted_sources": [
+        "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

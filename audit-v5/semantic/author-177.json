@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-177",
+  "reviewed_at": "2026-10-05T21:35:14Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosure endpoints; 惠光官方端點HTTP 403（含標頭重試），已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6508:export_concentration:d679e0352a3e6a29",
+      "normalized_claim_hash": "d679e0352a3e6a290698650ae9b64bbdb909eee4ab9228cd290ec59e66ed4816",
+      "ticker": "6508",
+      "company": "惠光",
+      "path": "Pilot_Reports/Agricultural Inputs/6508_惠光.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "內銷台灣約佔三成，中國大陸約佔四成，東南亞及澳洲為主要外銷市場，近期新增美國市場帶動成長。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf",
+          "title": "惠光股份有限公司（惠光，6508，Hui Kwang）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域（huikwang.com）下載113年股東會年報，**回應 HTTP 403（禁止）**；另嘗試同網域之2024年永續報告書端點，**亦回應 HTTP 403**；**另經加入 User-Agent 與 Referer 標頭重試，兩者仍為 403**。本批次未取得惠光可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「內銷台灣約佔三成，中國大陸約佔四成，東南亞及澳洲為主要外銷市場，近期新增美國市場帶動成長」未獲確立：本批次自發行人官方網域下載年報與永續報告書端點時**皆回應 HTTP 403（禁止）**（**經加入 User-Agent 與 Referer 標頭重試仍為 403**），未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6508:export_concentration:9321018679533bfd",
+      "normalized_claim_hash": "9321018679533bfde172a48f5561eda9ebab34e55732f34d4a1e5a67cc018e1f",
+      "ticker": "6508",
+      "company": "惠光",
+      "path": "Pilot_Reports/Agricultural Inputs/6508_惠光.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中國 (佔外銷約 20%)、澳洲 (約 20%)、越南 (約 10%) — 掩埋場、水利及基礎建設工程",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf",
+          "title": "惠光股份有限公司（惠光，6508，Hui Kwang）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域（huikwang.com）下載113年股東會年報，**回應 HTTP 403（禁止）**；另嘗試同網域之2024年永續報告書端點，**亦回應 HTTP 403**；**另經加入 User-Agent 與 Referer 標頭重試，兩者仍為 403**。本批次未取得惠光可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「中國（佔外銷約 20%）、澳洲（約 20%）、越南（約 10%）— 掩埋場、水利及基礎建設工程」未獲確立：同上，發行人官方端點**皆回應 HTTP 403**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
