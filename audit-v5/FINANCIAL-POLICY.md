@@ -93,3 +93,21 @@ Operating Income -> MOPS 營業利益（損失） / Mopsfin OperatingIncome
 When the legacy repository value sourced from Yahoo/yfinance differs from this approved official concept, v5 records SOURCE_DEFINITION_DIFFERENCE with reason legacy-yfinance-operating-income-vs-canonical-mops.
 
 This is not an issuer-by-issuer accounting-method ambiguity and must not consume semantic-review capacity. Specialized financial-sector schemas remain METHOD_UNRESOLVED until their own mappings are approved.
+
+
+## Credit Services current-period schema
+
+The four issuers in `Pilot_Reports/Credit Services` use a dedicated current-period normalization rule.
+
+For 2026Q1/Q2:
+
+- Revenue -> MOPS/MOPSFIN `營業收入`
+- Gross Profit -> MOPS/MOPSFIN `營業毛利（毛損）淨額` (fallback `營業毛利（毛損）`)
+- Operating Income -> MOPS/MOPSFIN `營業利益（損失）`
+- Net Income -> MOPS/MOPSFIN `淨利（淨損）歸屬於母公司業主` / `母公司業主（淨利∕損）`
+
+The legacy Yahoo/yfinance field definitions for leasing/credit-service issuers are not accepted as canonical when they conflict with these official statement rows.
+
+Q1 values are taken directly from the 2026Q1 MOPSFIN statement. Q2 single-quarter values are derived as 2026Q2 YTD minus 2026Q1 YTD. Margins are recomputed from the normalized Revenue denominator.
+
+This is a sector-level policy decision, not four independent issuer exceptions.
