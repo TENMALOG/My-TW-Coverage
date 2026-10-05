@@ -312,10 +312,6 @@ def main() -> int:
                     status = "METHOD_UNRESOLVED"
                     reason = "specialized-financial-sector"
                     metric_counters[f"{metric}:method_unresolved"] += 1
-                elif metric == "operating_income":
-                    status = "METHOD_UNRESOLVED"
-                    reason = "operating-income-definition"
-                    metric_counters[f"{metric}:method_unresolved"] += 1
                 else:
                     status = "FINANCIAL_DIFFERENCE"
                     metric_counters[f"{metric}:difference"] += 1
