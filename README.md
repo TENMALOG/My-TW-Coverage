@@ -1,6 +1,6 @@
 # Taiwan Stock Coverage Database
 
-A structured equity research database covering **1,735 Taiwan-listed companies** (TWSE + OTC) across **99 industry sectors**. Each report contains a business overview, supply chain mapping, customer/supplier relationships, and financial data — all cross-referenced through **4,900+ wikilinks** that form a searchable knowledge graph.
+A structured equity research database covering **1,733 Taiwan-listed companies** (TWSE + OTC) across **98 industry sectors**. Each report contains a business overview, supply chain mapping, customer/supplier relationships, and financial data — all cross-referenced through **4,900+ wikilinks** that form a searchable knowledge graph.
 
 ## Why This Exists
 
