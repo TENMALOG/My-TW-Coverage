@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-152",
+  "reviewed_at": "2026-10-05T21:06:12Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中鋼民國96年股東會年報; 大成鋼法人說明會簡報; 彰源法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "2002:objective_ranking_or_market_share:71c65f9aa39ab582",
+      "normalized_claim_hash": "71c65f9aa39ab582ae5eddc558c4265867c8624b7c3bf79c92640f92212a9b9c",
+      "ticker": "2002",
+      "company": "中鋼",
+      "path": "Pilot_Reports/Steel/2002_中鋼.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中國鋼鐵 (2002，China Steel) 為台灣最大鋼鐵企業、唯一[[高爐]]煉鋼一貫廠 (年粗鋼1,050萬噸)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.csc.com.tw/csc/ss/bd/pdf/stock96_03.pdf",
+          "title": "中國鋼鐵股份有限公司（中鋼，2002，China Steel）股東會年報（民國96年）",
+          "source_level": 3,
+          "period_binding": "民國96年度（2007年）。**非近期版本**。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取368,024字元）。年報中「**高爐**」出現44次、「**一貫**」4次、「**粗鋼**」13次、「**最大**」6次、「1,050」15次，支持其高爐煉鋼一貫作業之敘述。**惟**「1,050」15次之上下文經檢視包括「1,050,000」「1,051,050」「氣氮1,050噸」等，**未見「年粗鋼1,050萬噸」之完整表述**。註記：本件為民國96年度版本。"
+        }
+      ],
+      "rationale": "「為[[高爐]]煉鋼**一貫廠**」獲發行人年報支持：年報中「**高爐**」出現44次、「**一貫**」4次、「「**粗鋼**」13次，支持其高爐煉鋼一貫作業之敘述。惟兩項陳述未獲支持：(1)「年粗鋼 **1,050 萬噸**」——「1,050」15次之上下文經檢視包括「1,050,000」「1,051,050」「氣氮1,050噸」等，**未見「年粗鋼1,050萬噸」之完整表述**；(2)「台灣**最大**鋼鐵企業」「**唯一**」——「最大」6次之上下文未見市場地位之完整表述。故部分成立（並註記該年報為民國96年度版本）。",
+      "proposed_text": "中國鋼鐵 (2002，China Steel) 為高爐煉鋼一貫作業鋼廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2027:objective_ranking_or_market_share:ef66ad3900032a5c",
+      "normalized_claim_hash": "ef66ad3900032a5c6529e7620bdac29d9a2b9b7a32f6b327c9036446e88d6db0",
+      "ticker": "2027",
+      "company": "大成鋼",
+      "path": "Pilot_Reports/Steel/2027_大成鋼.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司已轉型為**全球最大之不鏽鋼及鋁捲板通路商**，深耕美國市場多年。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/202720251126M001.pdf",
+          "title": "大成不銹鋼工業股份有限公司（大成鋼，2027，Ta Chen Stainless Pipe）法人說明會簡報（2025-11-26）",
+          "source_level": 3,
+          "period_binding": "2025年11月26日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取12,079字元，以圖形排版為主）。簡報載「大成**不銹鋼**工業股份有限公司 **TA CHEN STAINLESS PIPE COMPANY LIMITED**」，並見「**不銹鋼**」19次、「**鋁**」12次、「**通路**」17次、「**美國**」8次、「通路商」1次、「最大」1次，支持其不銹鋼及鋁產品通路業務與美國市場布局。惟全份簡報中「**全球最大**」之出現次數為**0**。****方法論註記：本件以『**不銹鋼**』（銹）表述，與 claim 所用之『不鏽鋼』（鏽）為異體字，**同一概念以不同字形檢索會得到不同結果**（本件「不銹鋼」19次、「不鏽鋼」0次）。****"
+        }
+      ],
+      "rationale": "「為不銹鋼及[[鋁]]產品通路商，深耕[[美國]]市場」獲發行人簡報支持：簡報載「大成**不銹鋼**工業股份有限公司 **TA CHEN STAINLESS PIPE COMPANY LIMITED**」，並見「**不銹鋼**」19次、「**鋁**」12次、「**通路**」17次、「**美國**」8次，支持其通路業務與美國市場布局。惟「為**全球最大**之不銹鋼及鋁捲板通路商」未獲支持：「**全球最大**」出現次數為**0**（「最大」1次、上下文未見完整市場地位表述）。故部分成立。**方法論註記：本件以『**不銹鋼**』（銹）表述，與 claim 所用之『不鏽鋼』（鏽）為異體字，**同一概念以不同字形檢索會得到不同結果**（本件「不銹鋼」19次、「不鏽鋼」0次）。**",
+      "proposed_text": "大成不銹鋼工業 (2027，Ta Chen Stainless Pipe) 經營不銹鋼及鋁產品通路業務，深耕美國市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2030:objective_ranking_or_market_share:7946eb2d40401c49",
+      "normalized_claim_hash": "7946eb2d40401c4905061cfcef47552901271ec5fd7ca8ebf018235c42c35d8c",
+      "ticker": "2030",
+      "company": "彰源",
+      "path": "Pilot_Reports/Steel/2030_彰源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為台灣第一大**不鏽鋼管**及**不鏽鋼板**製造廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/203020250925M002.pdf",
+          "title": "彰源企業股份有限公司（彰源，2030，FROCH ENTERPRISE）法人說明會簡報（2025-09-26）",
+          "source_level": 3,
+          "period_binding": "2025年9月26日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,214字元，以圖形排版為主）。簡報載「彰源企業股份有限公司 **FROCH ENTERPRISE CO., LTD.**」「公司概況／行業特性／主要產品」，並見「**不銹鋼**」5次、「管」4次，支持其不銹鋼產品業務。全份簡報中「**第一大**」與「**最大**」之出現次數**均為0**；「不鏽鋼」（鏽）為0次。****方法論註記：本件以『**不銹鋼**』（銹）表述，與 claim 所用之『不鏽鋼』（鏽）為異體字，**同一概念以不同字形檢索會得到不同結果**（本件「不銹鋼」19次、「不鏽鋼」0次）。****"
+        }
+      ],
+      "rationale": "「為不銹鋼產品製造廠」獲發行人簡報支持：簡報載「彰源企業股份有限公司 **FROCH ENTERPRISE CO., LTD.**」「公司概況／行業特性／主要產品」，並見「**不銹鋼**」5次、「管」4次，支持其不銹鋼產品業務。惟「為台灣**第一大**不銹鋼管及不銹鋼板製造廠」未獲支持：「**第一大**」與「**最大**」之出現次數**均為0**。故部分成立（並註記該簡報文字擷取僅3,214字元，以圖形排版為主）。**方法論註記：本件以『**不銹鋼**』（銹）表述，與 claim 所用之『不鏽鋼』（鏽）為異體字，**同一概念以不同字形檢索會得到不同結果**（本件「不銹鋼」19次、「不鏽鋼」0次）。**",
+      "proposed_text": "彰源企業 (2030，FROCH ENTERPRISE) 從事不銹鋼產品製造業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

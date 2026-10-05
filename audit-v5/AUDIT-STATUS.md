@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 07:04 UTC
+Updated: 2026-10-11 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **859 / 1,399**
-- Remaining author review: **540**
-- Latest batch: **author-151** (3 claims)
+- Author-reviewed: **862 / 1,399**
+- Remaining author review: **537**
+- Latest batch: **author-152** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **562**
+- `PARTIALLY_SUPPORTED`: **565**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2006:objective_ranking_or_market_share:af9053f6081a9d90` — `PARTIALLY_SUPPORTED`；東和年報「**電爐」9 次**；惟「**最大」5 次全為泛用語**（「為股東創造最大的價值」「今年最大的難題」「員工是公司最大資產」）。
-- `2006:objective_ranking_or_market_share:9ea68a7171bfd47f` — `PARTIALLY_SUPPORTED`；年報「**鋼筋」52 次、「H型鋼」21 次**；惟「九成」0次，「市佔」3次上下文未完整擷取。
-- `2012:objective_ranking_or_market_share:49de828dafb735f1` — `PARTIALLY_SUPPORTED`；春雨年報「**螺絲」146 次、「螺帽」58 次、「扣件」27 次**、「雄獅」24次；惟「**最大」7 次多為泛用語**（「最大貢獻」「最大關鍵」「信用風險最大」）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-151.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `2002:objective_ranking_or_market_share:71c65f9aa39ab582` (中鋼).
+- `2002:objective_ranking_or_market_share:71c65f9aa39ab582` — `PARTIALLY_SUPPORTED`；中鋼年報「**高爐」44 次**、「一貫」4次、「粗鋼」13次；惟「1,050」15次之上下文**未見「年粗鋼1,050萬噸」完整表述**（多為1,050,000等）。
+- `2027:objective_ranking_or_market_share:ef66ad3900032a5c` — `PARTIALLY_SUPPORTED`；大成鋼簡報「**不銹鋼」19 次**、「鋁」12次、「通路」17次、「美國」8次；惟「全球最大」0次。
+- `2030:objective_ranking_or_market_share:7946eb2d40401c49` — `PARTIALLY_SUPPORTED`；彰源簡報「**不銹鋼」5 次**、「管」4次；惟「第一大」「最大」皆0次。
+- **發現第 7 類術語變體**：兩份簡報均以「**不銹鋼**」（銹）表述，與 claim 之「不鏽鋼」（鏽）為**異體字**——大成鋼「不銹鋼」19次 vs「不鏽鋼」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-152.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `2034:objective_ranking_or_market_share:9db08fbb1d4b60e5` (允強).
 
 ## Source access
 
