@@ -62,3 +62,14 @@ Phase 1 does not claim official verification of Selling & Marketing, R&D, G&A, o
 The listed-company `t187ap06_L_ci` and OTC `mopsfin_t187ap06_O_ci` feeds are the primary current-period market sources. The `t187ap06_X_ci` public-company feed is supplemental only because it is not the full listed+OTC universe.
 
 For Net Income, v5 first attempts the official concept "淨利（淨損）歸屬於母公司業主" to better align with the repository/Yahoo common-stockholder convention; total-period profit/loss is retained only as a fallback. Any remaining attribution mismatch stays a method issue rather than being silently accepted.
+
+
+### Difference triage
+
+A current-period mismatch is not automatically a factual error.
+
+- Revenue, Gross Profit and parent-attributable Net Income mismatches remain `FINANCIAL_DIFFERENCE` when the issuer uses the general-industry schema.
+- Operating Income mismatches are `METHOD_UNRESOLVED` until the corpus-level mapping between Yahoo's Operating Income and the official Taiwan statement concept is approved. Exact matches may still auto-verify.
+- Reports in banking, capital markets, credit services, financial conglomerates, insurance and related financial-service sectors use `METHOD_UNRESOLVED` under the general-industry checker until specialized schemas are implemented.
+
+This prevents a broad accounting-definition mismatch from being misreported as hundreds of issuer-level factual errors.

@@ -19,7 +19,8 @@
     "UNKNOWN_AFTER_RESEARCH",
     "REJECTED",
     "REVISION_REQUIRED",
-    "BLOCKED"
+    "BLOCKED",
+    "REPO_VALUE_UNAVAILABLE"
   ],
   "issuer_dimensions": [
     "identity",
@@ -38,7 +39,11 @@
     "NEEDS_REVIEW",
     "BLOCKED"
   ],
-  "risk_classes": ["LOW", "MEDIUM", "HIGH"],
+  "risk_classes": [
+    "LOW",
+    "MEDIUM",
+    "HIGH"
+  ],
   "carry_forward_fingerprint_fields": [
     "normalized_claim_hash",
     "source_raw_hash",
@@ -61,5 +66,8 @@
       "migration_record"
     ],
     "direct_state_flip_forbidden": true
+  },
+  "notes": {
+    "official_financial_phase1": "General-industry current-period checker may emit METHOD_UNRESOLVED for operating-income or specialized financial-sector mismatches."
   }
 }

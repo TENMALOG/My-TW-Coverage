@@ -45,6 +45,20 @@ REPO_ROWS = {
     "net_income": "Net Income",
 }
 
+SPECIALIZED_FINANCIAL_SECTORS = {
+    "Asset Management",
+    "Banks",
+    "Banks - Regional",
+    "Capital Markets",
+    "Credit Services",
+    "Financial Conglomerates",
+    "Insurance - Diversified",
+    "Insurance - Life",
+    "Insurance - Property & Casualty",
+    "Insurance - Reinsurance",
+    "Insurance Brokers",
+}
+
 
 def fetch_json(url: str, timeout: int = 60) -> tuple[list[dict[str, Any]] | None, dict[str, Any]]:
     req = urllib.request.Request(
@@ -251,6 +265,7 @@ def main() -> int:
     counters = Counter()
     metric_counters = Counter()
     period_counter = Counter()
+    period_unresolved_examples: list[dict[str, Any]] = []
 
     for ticker, path in reports.items():
         row = official_by_code.get(ticker)
@@ -261,6 +276,14 @@ def main() -> int:
         quarter = quarter_number(field(row, "quarter"))
         if not year or not quarter:
             counters["official_period_unresolved"] += 1
+            if len(period_unresolved_examples) < 30:
+                period_unresolved_examples.append({
+                    "ticker": ticker,
+                    "path": path.as_posix(),
+                    "raw_year": field(row, "year"),
+                    "raw_quarter": field(row, "quarter"),
+                    "available_keys": sorted(row.keys()),
+                })
             continue
 
         period_counter[f"{year}Q{quarter}"] += 1
@@ -273,6 +296,8 @@ def main() -> int:
                 continue
             official_m = official_raw / 1000.0
             repo_value, repo_basis = repo_metric_value(text, metric, year, quarter)
+            sector = path.parent.name
+            reason = None
             if repo_value is None:
                 status = "REPO_VALUE_UNAVAILABLE"
                 metric_counters[f"{metric}:repo_missing"] += 1
@@ -283,6 +308,14 @@ def main() -> int:
                 if abs(diff) <= tolerance:
                     status = "AUTO_VERIFIED"
                     metric_counters[f"{metric}:verified"] += 1
+                elif sector in SPECIALIZED_FINANCIAL_SECTORS:
+                    status = "METHOD_UNRESOLVED"
+                    reason = "specialized-financial-sector"
+                    metric_counters[f"{metric}:method_unresolved"] += 1
+                elif metric == "operating_income":
+                    status = "METHOD_UNRESOLVED"
+                    reason = "operating-income-definition"
+                    metric_counters[f"{metric}:method_unresolved"] += 1
                 else:
                     status = "FINANCIAL_DIFFERENCE"
                     metric_counters[f"{metric}:difference"] += 1
@@ -297,6 +330,7 @@ def main() -> int:
                 "official_value_million": official_m,
                 "difference_million": diff,
                 "status": status,
+                "reason": reason,
             }
             details.append(item)
             ticker_items.append(item)
@@ -317,6 +351,7 @@ def main() -> int:
         "matched_ticker_count": counters["matched_tickers"],
         "no_official_row_count": counters["no_official_row"],
         "official_period_unresolved_count": counters["official_period_unresolved"],
+        "official_period_unresolved_examples": period_unresolved_examples,
         "period_counts": dict(sorted(period_counter.items())),
         "comparison_count": len(details),
         "status_counts": dict(sorted(status_counts.items())),
