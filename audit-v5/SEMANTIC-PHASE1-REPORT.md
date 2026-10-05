@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **210 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), and `author-039` (6).
+Author-reviewed: **218 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), and `author-040` (8).
 
-- ACCEPTED by author: 44
-- PARTIALLY_SUPPORTED: 135
+- ACCEPTED by author: 46
+- PARTIALLY_SUPPORTED: 139
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 27
-- Remaining author queue: 1,189
+- Other allowed author decisions: 29
+- Remaining author queue: 1,181
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -474,6 +474,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-039.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。韋僑（6417）與沅聖（6638）之官方文件於本批次未及取得，留待後續批次處理，佇列順序不受影響。
 - Author-reviewed total: **210 / 1,399**; remaining: **1,189**. Outcome counts: ACCEPTED 44, PARTIALLY_SUPPORTED 135, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 27. Next pending claim by priority: `6417:objective_ranking_or_market_share:f2fcac08e268dad2` (韋僑).
+
+## Author batch `author-040` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (韋僑 6417, 沅聖 6638, 嘉基 6715, 稜研 7812, 達運光電 8045 ×3, 康全電訊 8089). Evidence came from directly downloaded and inspected official disclosures: 韋僑2021年法人說明會簡報、沅聖113年度年報、嘉基2018年法人說明會簡報、稜研2025年法人說明會簡報、達運光電年報與2017年法人說明會簡報；康全電訊之官方來源再次全數取得失敗。
+- `6417:objective_ranking_or_market_share:f2fcac08e268dad2` — `PARTIALLY_SUPPORTED`. 韋僑2021年官方簡報第17頁載「美洲占比最高，係醫療客戶對RFID（之需求）」，第5頁載其為「全球首家RFID廠商取得ISO 13485醫療器材（品質管理系統認證）」，第15頁載「醫療藥品」為主要應用。惟「2025年在美國成立子公司」未獲支持——該簡報發布於2021年，全份未出現「2025年」或「美國子公司」字樣。
+- `6638:objective_ranking_or_market_share:a10e7dbfbe350734` — `PARTIALLY_SUPPORTED`. 沅聖113年度年報載「本公司112及113年度其第一大銷貨客戶占總銷售額之比重分別為13%及12%」，並載其「整體而言，本公司應無銷貨集中之風險」；即官方揭露之第一大客戶占比僅為13%與12%，與 claim 之「早期曾佔超八成恐怖收入」在量級上差距甚大。另「最大客戶為 Ring」未獲支持——全份年報「Ring」「Amazon」「亞馬遜」「門鈴」出現次數均為0。
+- `6715:objective_ranking_or_market_share:f73e500d5e922beb` — `PARTIALLY_SUPPORTED`. 嘉基2018年官方簡報第5頁載「40G Thunderbolt獲Intel認證」「通過Intel 與 Apple TBT 技術測試認證」及多項 Thunderbolt 3 產品通過 Intel 認證，支持其 Thunderbolt 產品須取得 Intel 認證。惟「Thunderbolt 4/5 規格」「全球 Thunderbolt 技術的唯一授權原始開發者」與「提供高速介面控制器晶片」均未載於簡報（該簡報發布於2018年，早於 Thunderbolt 4）。
+- `7812:objective_ranking_or_market_share:e6cb42dfad1770b6` — `UNKNOWN_AFTER_RESEARCH`. 稜研科技2025年1月官方簡報中「毫米波」出現39次（為其核心技術），惟「印度」與「全球最大」出現次數均為0，未載印度電信業者專案或任何「全球最大規模」之描述。
+- `8045:objective_ranking_or_market_share:6295b64544ea58b8` — `PARTIALLY_SUPPORTED`. 2017年官方簡報第4頁明載「台灣第一大寬頻放大器（設備商）」，年報第5頁載其產品含1.2GHz及1.8GHz寬頻放大器與數位化光纖傳輸節點。惟「成立於1992年」與「總部位於新北市」未獲支持（查閱文件中「成立於」「1992」出現次數均為0）。
+- `8045:objective_ranking_or_market_share:b159b59617de6cf8` 與 `a101d657fc95e240` — `ACCEPTED`. 年報第5頁載「公司是亞洲唯一通過北美主要MSO（多系統營運商）…」，2017年簡報第4頁明載「亞洲唯一通過北美主要MSO認證HFC研製商」與「以ACI自有品牌行銷」；年報第66頁銷售地區表載112年度美洲銷售金額2,164,818仟元、占93.10%（111年度76.50%），內銷僅4.98%，支持出口以美洲（美國）為最大宗且逾七成；2017年簡報第8頁載「通過Comcast認證」、第16頁載「美國前十大MSO，以Comcast及Charter為主，超過100個系統使用ACI產品」。
+- `8089:objective_ranking_or_market_share:cee0f405aeaab0db` — `UNKNOWN_AFTER_RESEARCH`. 康全電訊公開資訊觀測站年報端點回應 HTTP 200 但內容僅320 bytes（非文件內容）、法說會端點回應404，本批次未取得任何可檢視之官方文件；其母公司訊舟科技之官方端點亦已於 author-036 證實失效。
+- Proposed wording is recorded for the partial claims in `semantic/author-040.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **218 / 1,399**; remaining: **1,181**. Outcome counts: ACCEPTED 46, PARTIALLY_SUPPORTED 139, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 29. Next pending claim by priority: `2301:objective_ranking_or_market_share:253cd0fbdf268d3a` (光寶科).
+
 
 
 
