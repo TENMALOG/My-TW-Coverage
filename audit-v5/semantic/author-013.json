@@ -1,0 +1,123 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-013",
+  "reviewed_at": "2026-10-05T14:55:52Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official issuer disclosures (立敦 113年度合併財務報告 PDF, 立隆電子 113/114年度年報 PDF, 立隆電子 115年上半年合併財務報告 PDF) plus official issuer/government pages for Nippon Chemi-Con; search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6175:objective_ranking_or_market_share:6b1aff5b9f087151",
+      "normalized_claim_hash": "6b1aff5b9f0871512323ef9e85860901e331e9c2c6ff20e008ab013b740c37ef",
+      "ticker": "6175",
+      "company": "立敦",
+      "path": "Pilot_Reports/Aluminum/6175_立敦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "母公司為[[立隆電子]] (2472，持股約 30%)，台灣車用電容市佔逾七成。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.liton.com.tw/message/data/LITONsystem2025515162920.pdf",
+          "title": "立敦科技股份有限公司及子公司 合併財務報告暨會計師查核報告 民國一一三年度及一一二年度",
+          "source_level": 3,
+          "period_binding": "民國113年度（2024-01-01至2024-12-31）及112年度；董事會於民國114年3月12日通過發布。主要股東資訊表列示民國一一三年十二月三十一日持股。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域（liton.com.tw）下載並以 PDF 文字檢視。第13頁「公司沿革」載明：「立隆電子工業股份有限公司為本公司之母公司，並為本公司所屬集團之最終控制者。」此直接支持「母公司為立隆電子」。第76頁「4. 主要股東資訊」民國一一三年十二月三十一日列示：立隆電子工業股份有限公司持有 43,731,598 股、持股比例 29.04%；廣東東陽光科技控股股份有限公司持有 23,296,875 股、持股比例 15.47%。此支持「持股約 30%」。同一文件為鋁質電蝕箔、化成箔製造商之財務報告，其產品為電容器上游材料，並非電容器成品製造商。"
+        },
+        {
+          "url": "https://www.lelon.com.tw/upload/inves31/178911589557.pdf",
+          "title": "立隆電子工業股份有限公司及子公司 合併財務報告暨會計師核閱報告 民國一一五年一月一日至六月三十日及一一四年一月一日至六月三十日",
+          "source_level": 3,
+          "period_binding": "民國115年上半年度（2026-01-01至2026-06-30）及114年同期；比較欄列示 115.06.30、114.12.31、114.06.30。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第15頁附註載明本公司（立隆）對立敦具實質控制之原因，包括「本公司自投資立敦公司之日起，為立敦公司單一最大股東」，並列出立敦董事長同時為立隆董事長兼總經理等；同頁註一載明「本公司之子公司立敦科技股份有限公司於民國一一四年第一季及第四季將庫藏股轉讓予員工，投資比例由29.21%變動為29.13%」。此為查證日可得之最新持股比例，支持「持股約 30%」的近似描述，並確認母公司／單一最大股東關係。"
+        },
+        {
+          "url": "https://www.lelon.com.tw/upload/inves32/172362268395.pdf",
+          "title": "立隆電子工業股份有限公司 112 年度年報（民國113年4月30日刊印）",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023）及111年度；個體財務報表採權益法投資明細列示 112.12.31 與 111.12.31 之持股比例。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第176頁「4.採用權益法之投資」列示對立敦科技股份有限公司之持股比例為 112.12.31 之 30.81% 與 111.12.31 之 30.82%，並說明民國111年1月1日持股比率為30.60%。此支持歷史上持股約在三成上下，而非固定單一數字。"
+        },
+        {
+          "url": "https://www.lelon.com.tw/upload/inves32/178056495090.pdf",
+          "title": "立隆電子工業股份有限公司 114 年度年報（股東常會 114 年度年報，2026年刊印）",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度；「市場及產銷概況」引用 Paumanok Publications 2024年3月出版之市場調查報告。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第58頁「二、市場及產銷概況 →（一）市場分析 → 2.公司主要商品（服務）之市場占有率」為發行人正式市占率揭露段落，內容僅載明：立隆為「台灣營收最高的鋁質電解電容器廠商」、在 V-chip 產品擁有日系廠商以外最大產能、「在台灣鋁電解電容產業中居領先位置」，且依 Paumanok 2024年3月報告為「2024年全球前十大鋁電廠商」。該段未出現任何「車用電容」市占率百分比，亦無「逾七成」或 70% 之陳述。其他查閱之官方文件亦無此數字。"
+        }
+      ],
+      "rationale": "母公司關係與持股比例獲得直接官方文件支持：立敦113年度合併財務報告第13頁明載立隆電子工業股份有限公司為立敦之母公司及集團最終控制者；同報告第76頁主要股東資訊列示立隆持股 29.04%（113.12.31），立隆115年上半年合併財務報告第15頁列示民國114年投資比例由 29.21% 變動為 29.13% 並確認為單一最大股東，立隆112年度年報則列示 30.81%／30.82%。因此「母公司為立隆電子，持股約 30%」可接受為近似正確。惟「台灣車用電容市佔逾七成」不獲查閱之權威來源支持：立隆114年度年報的正式「市場占有率」段落僅作質性描述（台灣營收最高、居領先位置、全球前十大），未載明車用電容市占率或任何 70% 數字；2026年第一季法人說明會資料所述「汽車電子營收佔比36%」及中央社／IEK 所述2024年汽車電子占立隆業績約33% 均為營收結構占比，並非市占率。此外原句主體歸屬亦有疑義：立敦為電蝕箔／化成箔製造商，並非電容器成品廠，車用電容市占率若存在應屬母公司立隆，而非立敦本身。網路上將約70%車載電容市占歸於立敦之內容為次級投資網誌（AI 生成、無原始出處），依政策僅得作為線索，不得作為證據。綜合上述，本 claim 部分成立、排名與市占 qualifier 不成立。",
+      "proposed_text": "母公司為[[立隆電子]]（2472，為立敦單一最大股東，持股約 29%）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6175:objective_ranking_or_market_share:0a838c414def37cd",
+      "normalized_claim_hash": "0a838c414def37cd2d26463d31320793de3dd77687152b5f2b1cf7f3d980a941",
+      "ticker": "6175",
+      "company": "立敦",
+      "path": "Pilot_Reports/Aluminum/6175_立敦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nippon Chemi-Con]] — 全球最大鋁電解電容廠；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "日本ケミコン株式会社「事業概要」（アルミ電解コンデンサのトップメーカー）",
+          "source_level": 3,
+          "period_binding": "發行人官方現行公司介紹頁，查證日為2026-10-05；頁面未標註單一資料期間，屬公司對其現行市場地位的自我描述，僅用於支持現行排名性質之敘述，未用以支持任何歷史期間之特定數字。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視日本ケミコン官方網域之「事業概要」頁。原文載明：「日本ケミコンは…アルミ電解コンデンサで世界トップシェアの信頼を得て、常に最先端を走り続けています。」（日本ケミコン在鋁電解電容器取得世界最高市占的信賴），頁面標題並作「アルミ電解コンデンサの トップメーカー」。同頁另載「アルミニウム電極箔の製造においても、日本ケミコンは世界一の生産量を誇り」。"
+        },
+        {
+          "url": "https://jsite.mhlw.go.jp/niigata-hellowork/content/contents/001760211.pdf",
+          "title": "厚生労働省 新潟労働局 ハローワーク事業所情報：日本ケミコン株式会社新潟工場（2026.6.10）",
+          "source_level": 2,
+          "period_binding": "日本厚生勞動省所屬ハローワーク（公共職業安定所）於2026年6月10日登載之雇主事業所資訊。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視此政府職安機構文件。原文載明：「主力製品のアルミ電解コンデンサは世界シェアナンバーワンです。」（主力產品鋁電解電容器的世界市占為第一），標題並作「アルミ電解コンデンサ世界シェアトップ企業です！」。此為與發行人獨立之日本政府文件，可作為官方頁面以外之佐證。"
+        }
+      ],
+      "rationale": "發行人官方「事業概要」頁明確自述其在鋁電解電容器取得世界最高市占（世界トップシェア），日本厚生勞動省所屬ハローワーク之獨立事業所文件亦載明其鋁電解電容器世界市占第一。兩者一為發行人正式自我揭露、一為與發行人獨立之政府文件，相互一致，足以支持「全球最大鋁電解電容廠」此一現行、排名性質之敘述。本判定僅支持排名／最大之定性敘述，未一併支持任何特定市占百分比（見同批次 08043f1f1f8247cf）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6175:objective_ranking_or_market_share:08043f1f1f8247cf",
+      "normalized_claim_hash": "08043f1f1f8247cf3d2f4443af4779b9aa4a01ec8a3b6875f354d845486f659e",
+      "ticker": "6175",
+      "company": "立敦",
+      "path": "Pilot_Reports/Aluminum/6175_立敦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nippon Chemi-Con]] (全球市佔約 20%)、[[Nichicon]]、[[Rubycon]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "日本ケミコン株式会社「事業概要」（アルミ電解コンデンサのトップメーカー）",
+          "source_level": 3,
+          "period_binding": "發行人官方現行公司介紹頁，查證日為2026-10-05；未標註數字所屬期間。",
+          "accessed_at": "2026-10-05",
+          "note": "官方頁支持日本ケミコン在鋁電解電容器為世界最高市占之領導廠商，但通篇未提供任何全球市占百分比數字，因此不能支持「約 20%」此一具體數值。"
+        },
+        {
+          "url": "https://jsite.mhlw.go.jp/niigata-hellowork/content/contents/001760211.pdf",
+          "title": "厚生労働省 新潟労働局 ハローワーク事業所情報：日本ケミコン株式会社新潟工場（2026.6.10）",
+          "source_level": 2,
+          "period_binding": "日本厚生勞動省所屬ハローワーク於2026年6月10日登載之雇主事業所資訊。",
+          "accessed_at": "2026-10-05",
+          "note": "政府文件載明其鋁電解電容器世界市占第一，同樣未提供任何百分比數字，故亦不支持「約 20%」。"
+        }
+      ],
+      "rationale": "本 claim 的實質排名敘述（Nippon Chemi-Con 為全球鋁電解電容器領導廠商，連同 Nichicon、Rubycon 列為下游主要電容製造商）可獲發行人官方頁與日本政府文件支持；惟「全球市佔約 20%」此一具體數字未獲任何查閱之權威來源確認。查閱過程中僅見次級產業分析文章（前瞻產業研究院轉載於網易，2021-10-15）以營收規模描述 NCC、Nichicon、Rubycon 分居全球第一、第二、第四，並稱日本三家鋁電解電容龍頭合計全球市占超過 40%；該文為次級研究轉載、無原始報告編號，且提供者為三家合計而非 NCC 個別數字，依政策僅得作為線索，不得用以認定 20%。數值未被權威來源確立，但公司之領導地位成立，故為部分成立。",
+      "proposed_text": "[[Nippon Chemi-Con]]（全球鋁電解電容器領導廠商）、[[Nichicon]]、[[Rubycon]]",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

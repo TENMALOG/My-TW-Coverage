@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 14:35 UTC
+Updated: 2026-10-05 14:56 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **21 / 1,399**
-- Remaining author review: **1,378**
-- Latest batch: **author-012** (1 claim)
+- Author-reviewed: **24 / 1,399**
+- Remaining author review: **1,375**
+- Latest batch: **author-013** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **6**
-- `PARTIALLY_SUPPORTED`: **11**
+- `ACCEPTED`: **7**
+- `PARTIALLY_SUPPORTED`: **13**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6757:objective_ranking_or_market_share:3c96889365c79805` — `PARTIALLY_SUPPORTED`; 台灣虎航114年度年報支持東北亞為主要客運營收區域、日本為客運營收占比最高市場、年輕客群、自由行/深度旅遊需求及日本二、三線城市航點；不支持把二、三線航點歸於東南亞，也未證明現行營運效率相對同業突出。
-- `6757:objective_ranking_or_market_share:1cb894214a9355a5` — `ACCEPTED`; 年報載明20–39歲旅客占50.5%、主力客群平均年齡35.3歲，將航點規劃連結自由行需求，並稱日本為客運營收占比最高市場。
-- 來源為台灣虎航官方資產網域上的114年度年報 PDF；證據、期間與摘記記錄於 `semantic/author-011.json`。未修改發行人報告。
-- Next pending claim by priority: `6175:objective_ranking_or_market_share:6b1aff5b9f087151` (立敦).
+- `6175:objective_ranking_or_market_share:6b1aff5b9f087151` — `PARTIALLY_SUPPORTED`; 立敦113年度合併財務報告第13頁載明立隆電子為其母公司，第76頁主要股東資訊列示立隆持股 29.04%（113.12.31）；立隆115年上半年合併財務報告第15頁列示民國114年投資比例由 29.21% 變動為 29.13%，並確認立隆自投資之日起為立敦單一最大股東。惟「台灣車用電容市佔逾七成」不獲支持：立隆114年度年報正式「市場占有率」段落僅稱其為台灣營收最高的鋁質電解電容器廠商、居台灣產業領先位置、依 Paumanok 2024年報告為2024年全球前十大鋁電廠商，未載明車用電容市占率；法說會所述汽車電子營收佔比36%與中央社所述2024年約33%均為營收結構占比，非市占率。
+- `6175:objective_ranking_or_market_share:0a838c414def37cd` — `ACCEPTED`; 日本ケミコン官方「事業概要」頁自述鋁電解電容器「世界トップシェア」並為「トップメーカー」；日本厚生労働省ハローワーク2026年6月10日事業所文件獨立載明「主力製品のアルミ電解コンデンサは世界シェアナンバーワンです」。
+- `6175:objective_ranking_or_market_share:08043f1f1f8247cf` — `PARTIALLY_SUPPORTED`; 領導廠商與下游主要電容廠地位獲上述來源支持；「全球市佔約 20%」之具體數值未獲任何查閱之權威來源確認。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-013.json`。未修改發行人報告。
+- Next pending claim by priority: `8942:objective_ranking_or_market_share:271aa5af591a1811` (森鉅).
 
 ## Source access
 
