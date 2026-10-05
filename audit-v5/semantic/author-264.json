@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-264",
+  "reviewed_at": "2026-10-05T23:33:17Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (金洲2025法說會; 光明113年度年報); 冠星-KY所取得檔案為stub; 新昕纖DNS失敗; 川飛與駿吉端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "4420:material_named_relationship:0155dbd71bc5840d",
+      "normalized_claim_hash": "0155dbd71bc5840d8a76cb59c023df0d9db061b49a0610ffc51787113c4ab2c4",
+      "ticker": "4420",
+      "company": "光明",
+      "path": "Pilot_Reports/Textile Manufacturing/4420_光明.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**上游**：採購 [[聚酯粒]]、[[POY]] 原絲，主要供應商為集團母公司 [[宜進]] 及其他化纖大廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://kwangming.com/ebook/year113.pdf",
+          "title": "光明絲織廠股份有限公司（光明，4420，Kwang Ming Silk Mill）一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-16",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取68,895字元）。年報載「及**聚酯粒**」「**聚酯粒**(7.89%)、煤碳」「註1：**聚酯**為polyester（以下簡稱**POY**）之化學學名，特多龍為日本給予以**POY**原料所生產產（品）」並設有「最近二年度**主要供應商**資料」之表格（「**聚酯粒**」2次、「**POY**」3次、「原絲」6次、「**主要供應商**」3次、「供應商」14次、「宜進」28次），**支持其採購聚酯粒與 POY 原絲**。**關鍵發現**：全份年報中「**集團母公司**」之出現次數**為0**；「宜進」之出現**多為董監事關係之敘述**（如「宜進實業(股)公司董事」）。"
+        }
+      ],
+      "rationale": "「**上游**：採購 **[[聚酯粒]]**、**[[POY]]** 原絲」獲發行人年報**逐字支持**：年報載「及**聚酯粒**」「**聚酯粒**(7.89%)、煤碳」「註1：**聚酯**為polyester（以下簡稱**POY**）之化學學名，特多龍為日本給予以**POY**原料所生產產（品）」（「**聚酯粒**」2次、「**POY**」3次、「**原絲**」6次），並設有「最近二年度**主要供應商**資料」之表格（「主要供應商」3次），**支持其採購聚酯粒與 POY 原絲**。**惟「主要供應商為**集團母公司** [[宜進]]」未獲支持**——「**集團母公司**」之出現次數**為0**；「宜進」雖出現28次，**惟其多為董監事關係之敘述**（如「宜進實業(股)公司董事」），**未見以「主要供應商」之身分具名宜進**。故部分成立。",
+      "proposed_text": "光明絲織廠 (4420，Kwang Ming Silk Mill) 之上游採購聚酯粒與 POY 原絲。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4417:material_named_relationship:b3e7a7e705586906",
+      "normalized_claim_hash": "b3e7a7e705586906032fe15661141819dd83379877078a3ef5a3d578896f3acc",
+      "ticker": "4417",
+      "company": "金洲",
+      "path": "Pilot_Reports/Textile Manufacturing/4417_金洲.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**上游**：採購 [[尼龍粒]] (Nylon Chips)、[[HDPE]] (聚乙烯) 等石化原料，主要供應商為 [[台化]]、[[力鵬]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/441720220901E001.pdf",
+          "title": "金洲海洋科技股份有限公司（金洲，4417，King Net）法人說明會簡報（2025-09-18）",
+          "source_level": 3,
+          "period_binding": "2025年9月18日。",
+          "accessed_at": "2026-10-16",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,657字元，以圖形排版為主）。簡報封面載「**金洲海洋科技股份有限公司**」「股票代號：**4417** 法人說明會」，公司簡介載「營業項目：各種網、線之製造及加工」，並載「網具業之**原料**主要來自**石化**業及人纖業之**工業用尼龍絲**、特多龍絲、單複（絲）」（「**尼龍**」1次、「**台化**」1次、「石化」1次、「原料」3次）。**關鍵發現**：全份簡報中「**尼龍粒**」「**Nylon**」「**HDPE**」「**聚乙烯**」與「**力鵬**」之出現次數**均為0**——**未載該等原料或供應商**。"
+        }
+      ],
+      "rationale": "「**上游**：…**石化**（原料）」獲發行人簡報之**部分支持**：簡報載「網具業之**原料**主要來自**石化**業及人纖業之**工業用尼龍絲**、特多龍絲、單複（絲）」（「**尼龍**」1次、「**石化**」1次、「原料」3次、「**台化**」1次），**支持其上游為石化與人纖原料**。**惟多項陳述未獲支持**：(1)「**尼龍粒（Nylon Chips）**」——「**尼龍粒**」與「**Nylon**」之出現次數**均為0**（文件所載為「工業用**尼龍絲**」）；(2)「**HDPE（聚乙烯）**」——「**HDPE**」與「**聚乙烯**」均為**0**；(3)「主要供應商為台化、**力鵬**」——「**力鵬**」為**0**（「台化」1次惟未與「主要供應商」連用）。故部分成立。",
+      "proposed_text": "金洲海洋科技 (4417，King Net) 之上游原料主要來自石化業與人纖業（工業用尼龍絲等）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4406:material_named_relationship:95003ef6de91feba",
+      "normalized_claim_hash": "95003ef6de91feba06ad2e9ed9ccfc0cf6c8a6f8cdbd71aafa45e0e71592baf9",
+      "ticker": "4406",
+      "company": "新昕纖",
+      "path": "Pilot_Reports/Textile Manufacturing/4406_新昕纖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**上游**：採購 [[聚酯粒]]、[[POY]] 原絲，主要供應商為國內化纖大廠 (如 [[遠東新]]、[[南亞]])。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.hsinsin.com.tw/images/finance/112Q4.pdf",
+          "title": "新昕纖維股份有限公司（新昕纖，4406，Hsin Sin）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次就新昕纖所嘗試之官方網域**無法解析遠端名稱（DNS 解析失敗）**——**該主機名稱不存在**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「**上游**：採購**聚酯粒**、**POY** 原絲，主要供應商為國內**化纖**大廠（如 [[遠東新]]、[[南亞]]）」未獲確立：本批次就新昕纖所嘗試之官方網域**無法解析遠端名稱（DNS 解析失敗）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4439:material_named_relationship:d5603ffd5698f3d8",
+      "normalized_claim_hash": "d5603ffd5698f3d8d56ab655c0bab27cff96c84080a72f0cd260d8a88902a499",
+      "ticker": "4439",
+      "company": "冠星-KY",
+      "path": "Pilot_Reports/Textile Manufacturing/4439_冠星-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "冠星為 [[Adidas]] 之全球核心供應商 (Key Supplier)，並與 [[Gap]]、[[Puma]]、[[Decathlon]] 等國際品牌建立長期合作夥伴關係。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.tstco.com.hk/article/2019年度年報.pdf",
+          "title": "冠星-KY（4439，TST Group）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次就冠星-KY官方網域所取得之檔案**僅 1,515 bytes**——**屬非文件（stub）之回應**，未取得可檢視之內容；**屬非文件回應（non_document_response）**，故未取得冠星-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「冠星為 **[[Adidas]]** 之全球**核心供應商（Key Supplier）**，並與 [[Gap]]、[[Puma]]、[[Decathlon]] 等國際品牌建立長期合作夥伴關係」未獲確立：本批次就冠星-KY官方網域所取得之檔案**僅 1,515 bytes**——**屬非文件（stub）之回應**，未取得可檢視之內容，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1516:identity_changing_event:8fcd31ee824b57a5",
+      "normalized_claim_hash": "8fcd31ee824b57a50a60f06f6b3acd6f26dfa21ce0f413a99b46677a8854bb68",
+      "ticker": "1516",
+      "company": "川飛",
+      "path": "Pilot_Reports/Thermal Coal/1516_川飛.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "川飛能源 (1516，Falcon Power) 前身為川飛工業，1986 年成立，原為自行車變速器製造商，2009 年更名後轉型。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/151620250401M001.pdf",
+          "title": "川飛（1516）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次所嘗試之川飛端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得川飛可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「川飛能源 (1516，Falcon Power) **前身為川飛工業**，1986 年成立，原為**自行車變速器製造商**，**2009 年更名後轉型**」未獲確立：本批次所嘗試之川飛端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1591:export_concentration:d46cae857062b3c0",
+      "normalized_claim_hash": "d46cae857062b3c05bd3ac9b7da0d7f6cddfb0578463f648e43cd6382a455449",
+      "ticker": "1591",
+      "company": "駿吉-KY",
+      "path": "Pilot_Reports/Tools & Accessories/1591_駿吉-KY.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "生產基地位於馬來西亞，外銷比重高達八成，美國市場佔營收逾 70%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/159120250401M001.pdf",
+          "title": "駿吉-KY（1591）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-16。",
+          "accessed_at": "2026-10-16",
+          "note": "本批次所嘗試之駿吉-KY端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得駿吉-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「生產基地位於**馬來西亞**，外銷比重高達**八成**，**美國市場佔營收逾 70%**」未獲確立：本批次所嘗試之駿吉-KY端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

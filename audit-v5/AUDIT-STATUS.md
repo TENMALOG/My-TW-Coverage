@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 23:04 UTC
+Updated: 2026-10-16 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,32 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,371 / 1,399**
-- Remaining author review: **28**
-- Latest batch: **author-263** (8 claims)
+- Author-reviewed: **1,377 / 1,399**
+- Remaining author review: **22**
+- Latest batch: **author-264** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **107**
-- `PARTIALLY_SUPPORTED`: **822**
+- `PARTIALLY_SUPPORTED`: **824**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **437**
+- `UNKNOWN_AFTER_RESEARCH`: **441**
 
 ## Latest claim batch
 
-- 🟢 `4401:material_named_relationship:eb6a0ffaf7aac537` — **`ACCEPTED`**；東隆興簡報**逐字載**「(**POY or FDY**)」（**POY 1 次、FDY 1 次**）。
-- `1341:export_concentration:68cf7713a01f37cf` — `PARTIALLY_SUPPORTED`；富林-KY簡報「**海防」8 次、「同奈」7 次、「越南」11 次、「內銷」1 次、外銷 2 次**；**惟「47%」之唯一上下文為「6.47%」——第 8 次子字串誤配**，且「東亞／亞洲」皆 0 次。
-- `4401:material_named_relationship:fd1449426537e15a` — `PARTIALLY_SUPPORTED`；簡報**逐字載**客戶名單「Lululemon, Athleta, Fabletics, Alo, **Under Armour**, Vuori」「Lululemon, **Nike**, Dunning Golf, Helly Hansen」（**Lululemon 2、Nike 2、Adidas 1、Under Armour 1**）；**惟「核心供應商」0 次**。
-- `4401:material_named_relationship:a0a73bc8e5775706` — `PARTIALLY_SUPPORTED`；**惟「Design-in」0 次**。
-- `1444:material_named_relationship:5130f7ebb83abc71` — `PARTIALLY_SUPPORTED`；力麗年報「**Ecoya」2 次、「機能性」4 次**；**惟「原液染色／Apple」皆 0 次**。
-- `1464:d334c64365468203` — `UNKNOWN_AFTER_RESEARCH`；得力簡報「**Under Armour／Adidas／Uniqlo」皆 0 次**（簡報僅2,120字元）。
-- `1439:d6f665a3737f770e` — `UNKNOWN_AFTER_RESEARCH`；雋揚端點 **HTTP 404**。
-- `1463:3409b6c7188c9f77` — `UNKNOWN_AFTER_RESEARCH`；未取得強盛新文件。
-- 證據記錄於 `semantic/author-263.json`（8 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,371 ＝ 條目總數 1,371。**覆蓋率 98.00%**。
-- Next pending claim by priority: `4406:material_named_relationship:95003ef6de91feba` (新昕纖).
+- `4420:material_named_relationship:0155dbd71bc5840d` — `PARTIALLY_SUPPORTED`；光明年報載「**聚酯粒**」「**POY**」「最近二年度**主要供應商**資料」（**聚酯粒 2 次、POY 3 次、原絲 6 次、主要供應商 3 次**）；**惟「集團母公司」0 次**，且「宜進」28 次多為董監事關係敘述。
+- `4417:material_named_relationship:b3e7a7e705586906` — `PARTIALLY_SUPPORTED`；金洲簡報載「網具業之原料主要來自**石化業**及人纖業之**工業用尼龍絲**」（**尼龍 1 次、石化 1 次、台化 1 次**）；**惟「尼龍粒／Nylon／HDPE／聚乙烯／力鵬」皆 0 次**。
+- `4406:95003ef6de91feba` — `UNKNOWN_AFTER_RESEARCH`；新昕纖官方網域 **DNS 解析失敗**。
+- `4439:d5603ffd5698f3d8` — `UNKNOWN_AFTER_RESEARCH`；冠星-KY所取得檔案**僅 1,515 bytes（非文件回應）**。
+- `1516:8fcd31ee824b57a5`、`1591:d46cae857062b3c0` — `UNKNOWN_AFTER_RESEARCH` ×2；川飛與駿吉-KY端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-264.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,377 ＝ 條目總數 1,377。**覆蓋率 98.43%**。
+- Next pending claim by priority: `2065:export_concentration:69d8c9071bd12cd0` (世豐).
 
 ## Source access
 

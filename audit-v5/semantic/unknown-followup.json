@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:32:17Z",
+  "generated_at": "2026-10-05T23:33:31Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -266,20 +266,21 @@
     "author-260",
     "author-261",
     "author-262",
-    "author-263"
+    "author-263",
+    "author-264"
   ],
-  "source_batch_count": 263,
-  "total_unknown": 437,
+  "source_batch_count": 264,
+  "total_unknown": 441,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 208,
+    "no_official_endpoint_found": 212,
     "other_unclassified": 157,
     "tls_failure": 17,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 128,
+    "http_404": 130,
     "image_only_or_tiny_text": 20,
     "http_403": 16,
-    "connection_failure": 17,
+    "connection_failure": 18,
     "garbled_text_layer": 18,
     "client_rendered_only": 7,
     "download_timeout": 3,
@@ -6672,6 +6673,65 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/146320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4406:material_named_relationship:95003ef6de91feba",
+      "ticker": "4406",
+      "company": "新昕纖",
+      "claim": "**上游**：採購 [[聚酯粒]]、[[POY]] 原絲，主要供應商為國內化纖大廠 (如 [[遠東新]]、[[南亞]])。",
+      "batch_id": "author-264",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "http://www.hsinsin.com.tw/images/finance/112Q4.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "4439:material_named_relationship:d5603ffd5698f3d8",
+      "ticker": "4439",
+      "company": "冠星-KY",
+      "claim": "冠星為 [[Adidas]] 之全球核心供應商 (Key Supplier)，並與 [[Gap]]、[[Puma]]、[[Decathlon]] 等國際品牌建立長期合作夥伴關係。",
+      "batch_id": "author-264",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "http://www.tstco.com.hk/article/2019年度年報.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1516:identity_changing_event:8fcd31ee824b57a5",
+      "ticker": "1516",
+      "company": "川飛",
+      "claim": "川飛能源 (1516，Falcon Power) 前身為川飛工業，1986 年成立，原為自行車變速器製造商，2009 年更名後轉型。",
+      "batch_id": "author-264",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/151620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1591:export_concentration:d46cae857062b3c0",
+      "ticker": "1591",
+      "company": "駿吉-KY",
+      "claim": "生產基地位於馬來西亞，外銷比重高達八成，美國市場佔營收逾 70%。",
+      "batch_id": "author-264",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/159120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
