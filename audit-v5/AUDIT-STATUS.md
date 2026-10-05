@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 20:04 UTC
+Updated: 2026-10-09 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **700 / 1,399**
-- Remaining author review: **699**
-- Latest batch: **author-116** (3 claims)
+- Author-reviewed: **705 / 1,399**
+- Remaining author review: **694**
+- Latest batch: **author-117** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **450**
+- `PARTIALLY_SUPPORTED`: **455**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `4966:objective_ranking_or_market_share:c9c039a42c112b9a` — `PARTIALLY_SUPPORTED`；譜瑞2019年報「**eDP」67 次、「TCON」48 次、「Touch」49 次**；惟未見「最大客戶」及「40-50%」客戶營收占比敘述。
-- `5236:objective_ranking_or_market_share:f457de3e9c8982f8` — `PARTIALLY_SUPPORTED`；凌陽創新113年報「**網路攝影機」18 次、「Webcam」5 次**、滑鼠1次、鍵盤1次；惟「市佔」僅1次且為**目標敘述**（「擴大市佔率進而增加」）。
-- `5245:objective_ranking_or_market_share:a910f6713c84621f` — `UNKNOWN_AFTER_RESEARCH`；智晶簡報文字層有限（5,079字元），「PMOLED」「信利」「市佔」「領導」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-116.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `5262:objective_ranking_or_market_share:f119d6b2ee83a82c` (立達).
+- `5262:objective_ranking_or_market_share:f119d6b2ee83a82c` — `PARTIALLY_SUPPORTED`；立達文件載「於同年**上架 Amazon** 與中國最大網購通路京東商城」（Amazon 1次、通路5次）；惟「全球最大客戶」「Costco」皆0次。
+- `5274:objective_ranking_or_market_share:0273091c5ede01d3` — `PARTIALLY_SUPPORTED`；信驊簡報載「**拿下BMC市佔率第一**」（BMC 24次）；惟「**70%」與「龍頭」皆 0 次**。
+- `5471:objective_ranking_or_market_share:15c0951019aab7a5` — `PARTIALLY_SUPPORTED`；松翰2024年報「血壓計」3次、「耳溫槍」1次、「車用」8次、「攝影機」11次；惟「視訊攝影機」「高市佔」皆0次。
+- `6202:objective_ranking_or_market_share:5eb42ab1bfebd2f0` — `PARTIALLY_SUPPORTED`；盛群2025年報「MCU」146次、「ASIC」4次、「中國」25次；惟「市佔」0次。
+- `6237:objective_ranking_or_market_share:ea961f6789113b61` — `PARTIALLY_SUPPORTED`；驊訊文件「USB」515次、「PCI」8次、「音效晶片」8次；惟「市佔」11次**多指其他公司**，且該文件係**證券商網站彙編**（source_level 2）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-117.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6239:objective_ranking_or_market_share:1ef7e877642549e6` (力成).
 
 ## Source access
 

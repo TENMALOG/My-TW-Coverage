@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-117",
+  "reviewed_at": "2026-10-05T20:21:14Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (立達公司文件; 信驊2024Q4法人說明會簡報; 松翰2024年度年報; 盛群2025年度年報; 驊訊相關文件〔證券商網站彙編，source_level 2〕)",
+  "items": [
+    {
+      "claim_id": "5262:objective_ranking_or_market_share:f119d6b2ee83a82c",
+      "normalized_claim_hash": "f119d6b2ee83a82cb7883b9092e0b7d636ca8bb909b9b3a72616875af6a42bca",
+      "ticker": "5262",
+      "company": "立達",
+      "path": "Pilot_Reports/Semiconductors/5262_立達.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**通路**: [[Amazon]] (全球最大客戶), [[Costco]], 美國實體零售商.",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/co_report/2013/12/1387433416_13568_CH_%E6%AB%83%E8%B2%B7%E6%96%B0%E6%98%9F_5262.pdf",
+          "title": "立達國際電子股份有限公司（立達，5262，Gigastone）公司文件（102年12月）",
+          "source_level": 3,
+          "period_binding": "民國102年（2013年）12月。",
+          "accessed_at": "2026-10-09",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開文件下載並以 PDF 文字檢視（文字擷取1,021字元）。文件載「立達公司積極拓展全球銷售通路，於2011年2月自有品牌成功打入日本市場，7月正式於台灣通路販售，並於同年**上架 Amazon** 與中國最大網購通路『京東商城』，2013年3月於日本第二大電信公司au/KDDI正式上架販售」（「通路」5次、「Amazon」1次、「美國」1次），支持其以 Amazon 為銷售通路之敘述。全份文件中「**Costco**」與「**全球最大客戶**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「以 [[Amazon]] 為銷售通路」獲文件支持：文件載「於同年**上架 Amazon** 與中國最大網購通路『京東商城』」（「通路」5次、「Amazon」1次），與 claim 之通路定位相符。惟兩項陳述未獲支持：(1)「[[Amazon]]（**全球最大客戶**）」——「全球最大客戶」出現次數為0（文件係以「銷售通路／上架」描述，非以最大客戶描述）；(2)「**[[Costco]]**、美國實體零售商」——「Costco」出現次數為0。故部分成立。",
+      "proposed_text": "立達國際電子 (5262，Gigastone) 以自有品牌經營全球銷售通路，並上架 Amazon 等電商平台。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5274:objective_ranking_or_market_share:0273091c5ede01d3",
+      "normalized_claim_hash": "0273091c5ede01d3d7fccce4bb988a74c33307acb0f1635d86efa0c2f7bcf5a9",
+      "ticker": "5274",
+      "company": "信驊",
+      "path": "Pilot_Reports/Semiconductors/5274_信驊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球 **BMC (伺服器遠端管理晶片)** 市場龍頭，市佔率高達 70% 以上。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/527420250317M001.pdf",
+          "title": "信驊科技股份有限公司（信驊，5274，Aspeed Technology）2024年第四季法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2024年第四季（2025年3月17日簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。簡報載「• **拿下BMC市佔率第一**」（「**BMC**」24次、「市佔」1次、「全球」2次），支持其 BMC 市占率第一之地位敘述。全份簡報中「**70%**」與「**龍頭**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為 BMC 市場龍頭」獲發行人簡報支持：簡報載「• **拿下BMC市佔率第一**」（「**BMC**」24次），與 claim 之「全球 BMC 市場龍頭」對應（市占率第一）。惟「市佔率**高達 70% 以上**」未獲支持：全份簡報中「**70%**」與「**龍頭**」之出現次數均為0，未載該量化市占率。故部分成立。",
+      "proposed_text": "信驊科技 (5274，Aspeed Technology) 為 BMC（伺服器遠端管理晶片）市占率第一之廠商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5471:objective_ranking_or_market_share:15c0951019aab7a5",
+      "normalized_claim_hash": "15c0951019aab7a50b8b14e82b67765699dc9f1bea181734f6c58225255107c6",
+      "ticker": "5471",
+      "company": "松翰",
+      "path": "Pilot_Reports/Semiconductors/5471_松翰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司在USB視訊攝影機控制晶片市場佔有高市佔率，並積極拓展醫療與健康量測（如血壓計、耳溫槍[[MCU]]）及車用電子市場。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sonix.com.tw/download/sonix/about/2024-AnnualReport-CN.pdf",
+          "title": "松翰科技股份有限公司（松翰，5471，Sonix Technology）2024 年度年報（中文版）",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**攝影機**」出現11次（含「網路攝影機」「USB 傳輸攝影機」「車用監控攝影機」）、「USB」8次、「**車用**」8次、「**血壓計**」3次、「**耳溫槍**」1次，支持其攝影機影像晶片、醫療健康量測及車用電子之產品線。全份年報中「**視訊攝影機**」與「**高市佔**」之出現次數均為0，「**市佔**」2次之上下文未見以該產品為對象之市場地位表述。"
+        }
+      ],
+      "rationale": "「拓展醫療與健康量測（如血壓計、耳溫槍 MCU）及車用電子市場」獲發行人年報支持：2024年度年報中「**血壓計**」3次、「**耳溫槍**」1次、「**車用**」8次、「**攝影機**」11次、「USB」8次，支持其該等產品線之拓展。惟「在 USB 視訊攝影機控制晶片市場佔有**高市佔率**」未獲支持：全份年報中「**視訊攝影機**」與「**高市佔**」之出現次數均為0，「**市佔**」2次之上下文未見以該產品為對象之市場地位表述。故部分成立。",
+      "proposed_text": "松翰科技 (5471，Sonix Technology) 從事攝影機影像晶片、醫療健康量測（血壓計、耳溫槍 MCU）及車用電子產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6202:objective_ranking_or_market_share:5eb42ab1bfebd2f0",
+      "normalized_claim_hash": "5eb42ab1bfebd2f0137410541b761bd2aa13f147533c337241090ec90be58827",
+      "ticker": "6202",
+      "company": "盛群",
+      "path": "Pilot_Reports/Semiconductors/6202_盛群.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以「標準品[[MCU]]」加上「客製化(ASIC)設計服務」雙軌並行，在中國等新興市場擁有極高市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://holtek.com.cn/webapi/85976/%e7%9b%9b%e7%be%a42025%e5%b9%b4%e5%a0%b1_%e4%b8%ad.pdf",
+          "title": "盛群半導體股份有限公司（盛群，6202，Holtek Semiconductor）2025 年度年報",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**MCU**」出現146次、「**ASIC**」4次、「**中國**」25次，支持其以標準品 MCU 及客製化（ASIC）設計服務雙軌並行及中國市場布局。全份年報中「**標準品**」與「**市佔**」之出現次數均為0，未以「極高市佔率」表述之中國等新興市場地位。"
+        }
+      ],
+      "rationale": "「以『標準品 MCU』加上『客製化（ASIC）設計服務』雙軌並行，並布局中國等新興市場」獲發行人年報支持：2025年度年報中「**MCU**」出現146次、「**ASIC**」4次、「**中國**」25次，支持其雙軌業務模式與市場布局。惟「在中國等新興市場擁有**極高市佔率**」未獲支持：全份年報中「**市佔**」出現次數為0，未載該市場地位。故部分成立。",
+      "proposed_text": "盛群半導體 (6202，Holtek Semiconductor) 以標準品 MCU 及客製化（ASIC）設計服務雙軌並行，並布局中國等新興市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6237:objective_ranking_or_market_share:ea961f6789113b61",
+      "normalized_claim_hash": "ea961f6789113b61d2aaf5db0f0a774c8f024a2ff8d692d6b906e6ccffd9e337",
+      "ticker": "6237",
+      "company": "驊訊",
+      "path": "Pilot_Reports/Semiconductors/6237_驊訊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "驊訊專注於研發及生產PCI/USB介面的音效晶片，過去在個人電腦與筆電音效晶片市場擁有極高市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathaysec.com.tw/RiskManage/1EF0ADFD-D31D-4D38-AF81-BF45B61AEE3F.pdf",
+          "title": "驊訊電子股份有限公司（驊訊，6237，C-Media Electronics）相關文件（**證券商網站文件彙編**）",
+          "source_level": 2,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "**來源層級說明**：本文件係自**證券商（國泰證券）網站**下載之文件彙編（非發行人自身官方網域之申報文件），依審核政策屬**間接來源，僅可作為發現線索**。文件含該公司之產品敘述（「USB」515次、「PCI」8次、「**音效晶片**」8次、「筆電」41次），支持其 PCI／USB 介面音效晶片之業務；惟全份文件中「**市佔**」11次之上下文多係指**其他公司**（如「B 公司」「該公司」「全球主要PC大廠」），未見「本公司於個人電腦與筆電音效晶片市場擁有極高市佔率」之自我表述。"
+        }
+      ],
+      "rationale": "「專注於研發及生產 PCI／USB 介面的音效晶片」獲文件支持：文件中「**USB**」515次、「**PCI**」8次、「**音效晶片**」8次、「筆電」41次，支持其該等產品業務。惟「過去在個人電腦與筆電音效晶片市場擁有**極高市佔率**」未獲支持：全份文件中「**市佔**」11次之上下文多係指**其他公司**（如「B 公司」「該公司」「全球主要PC大廠」），未見以本公司為對象之該市場地位表述。**另須註記本件之來源層級**：該文件係自**證券商網站**下載之文件彙編（非發行人自身官方網域之申報文件），依政策屬間接來源，本件僅用於產品線之佐證，市場地位之斷言不予採認。故部分成立。",
+      "proposed_text": "驊訊電子 (6237，C-Media Electronics) 從事 PCI／USB 介面音效晶片之研發與生產。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
