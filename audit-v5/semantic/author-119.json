@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-119",
+  "reviewed_at": "2026-10-05T20:23:41Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (矽力-KY法人說明會簡報; 環球晶法人說明會簡報; 九齊公司簡介文件; 穎崴法人說明會簡報; 宏觀微電子法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "6415:objective_ranking_or_market_share:5b44c9f8d34a07a8",
+      "normalized_claim_hash": "5b44c9f8d34a07a8d131567d9069ab2b636641f8733ab8743481f785664c0a4d",
+      "ticker": "6415",
+      "company": "矽力-KY",
+      "path": "Pilot_Reports/Semiconductors/6415_矽力-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，受惠於中國[[半導體]]「國產替代」政策與龐大的內需市場，矽力*-KY在中國市佔率節節攀升，並積極跨足[[AI PC]]、[[AI 伺服器]]機櫃電源及[[電動車]]電池管理系統(BMS)等高成長應用。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/641520251116M001.pdf",
+          "title": "矽力杰股份有限公司（矽力-KY，6415，Silergy）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,178字元，以圖形排版為主）。簡報中「**AI**」出現2次、「**BMS**」2次，支持其於 AI 相關應用及電池管理系統之產品布局。全份簡報中「**中國**」「**市佔**」「**國產**」與「**電動車**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「積極跨足 AI 相關應用及電池管理系統（BMS）等高成長應用」獲發行人簡報支持：簡報中「**AI**」出現2次、「**BMS**」2次，支持其於該等應用之布局。惟兩項陳述未獲支持：(1)「受惠於中國半導體『**國產替代**』政策與龐大的內需市場」——「國產」與「中國」之出現次數均為0；(2)「在中國**市佔率節節攀升**」——「市佔」出現次數為0，未載市占率變化敘述。故部分成立（並註記該簡報文字擷取僅6,178字元）。",
+      "proposed_text": "矽力杰 (6415，Silergy) 從事電源管理 IC 業務，並跨足 AI 應用及電池管理系統（BMS）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6488:objective_ranking_or_market_share:d5518e9a98f8f76b",
+      "normalized_claim_hash": "d5518e9a98f8f76b48ed3e12f69dd970547894e544a9244cf55afb44c6250992",
+      "ticker": "6488",
+      "company": "環球晶",
+      "path": "Pilot_Reports/Semiconductors/6488_環球晶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[環球晶]]圓股份有限公司 (6488，GlobalWafers) 隸屬於[[中美晶]]集團，是全球前三大、台灣第一大的[[矽晶圓]]供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/648820260804M001.pdf",
+          "title": "環球晶圓股份有限公司（環球晶，6488，GlobalWafers）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年8月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取15,970字元）。簡報中「**矽晶圓**」出現15次、「全球」15次，支持其矽晶圓業務。全份簡報中「**前三大**」「**台灣第一**」與「**中美晶**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為矽晶圓供應商」獲發行人簡報支持：簡報中「**矽晶圓**」出現15次、「全球」15次，支持其矽晶圓業務。惟三項陳述未獲支持：(1)「隸屬於[[中美晶]]集團」——「中美晶」出現次數為0；(2)「是全球**前三大**」——0次；(3)「**台灣第一大**」——0次。故部分成立。",
+      "proposed_text": "環球晶圓 (6488，GlobalWafers) 為矽晶圓供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6494:objective_ranking_or_market_share:98025032285ef223",
+      "normalized_claim_hash": "98025032285ef2236fed349ffdc21d0d155c94d83d71fb5054320ff4d3ea7ca8",
+      "ticker": "6494",
+      "company": "九齊",
+      "path": "Pilot_Reports/Semiconductors/6494_九齊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "九齊的產品線以4位元、8位元及32位元[[MCU]]為主，憑藉極高的性價比與高度客製化的晶片設計，在全球[[消費性電子]]領域(特別是語音及發聲玩具)享有極高的市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/649420160411E001.pdf",
+          "title": "九齊科技股份有限公司（九齊，6494，Nyquest Technology）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,336字元）。文件中「**玩具**」出現9次、「**MCU**」4次、「**4位元**」4次、「**8位元**」2次、「**32位元**」1次、「**語音**」4次，支持其以 4／8／32 位元 MCU 為主之產品線及語音、發聲玩具應用。全份文件中「**市佔**」出現次數為0。"
+        }
+      ],
+      "rationale": "「產品線以 4 位元、8 位元及 32 位元 MCU 為主，應用於語音及發聲玩具等消費性電子領域」獲發行人文件支持：文件中「**玩具**」出現9次、「**MCU**」4次、「**4位元**」4次、「**8位元**」2次、「**32位元**」1次、「**語音**」4次，支持其產品線與應用領域。惟「在全球消費性電子領域…享有**極高的市佔率**」未獲支持：「**市佔**」出現次數為0，未載市場地位或市占率敘述。故部分成立。",
+      "proposed_text": "九齊科技 (6494，Nyquest Technology) 產品線以 4 位元、8 位元及 32 位元 MCU 為主，應用於語音及發聲玩具等消費性電子領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6515:objective_ranking_or_market_share:1e4a6714d95ead3a",
+      "normalized_claim_hash": "1e4a6714d95ead3aee66d8175803f0bd9a8d50d8a0c25f508b4c831141708887",
+      "ticker": "6515",
+      "company": "穎崴",
+      "path": "Pilot_Reports/Semiconductors/6515_穎崴.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "穎崴科技股份有限公司 (6515，WinWay) 是一家位居全球前三大的[[半導體]]測試介面巨擘，近年更躍升為全球第一大測試座(Test Socket)供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/651520250515M004.pdf",
+          "title": "穎崴科技股份有限公司（穎崴，6515，WinWay Technology）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年5月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,628字元，以圖形排版為主）。簡報中「**Test Socket**」出現2次、「**測試座**」1次，支持其測試座產品業務。全份簡報中「**前三大**」「**第一大**」「**九成**」與「**前20大**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為半導體測試介面及測試座（Test Socket）供應商」獲發行人簡報支持：簡報中「**Test Socket**」出現2次、「**測試座**」1次，支持其測試座產品業務。惟兩項市場地位陳述未獲支持：(1)「位居全球**前三大**的半導體測試介面巨擘」——「前三大」出現次數為0；(2)「躍升為全球**第一大**測試座供應商」——「第一大」出現次數為0。故部分成立（並註記該簡報文字擷取僅7,628字元）。",
+      "proposed_text": "穎崴科技 (6515，WinWay Technology) 從事半導體測試介面及測試座（Test Socket）業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6515:objective_ranking_or_market_share:7d430c6cf1e6bc6c",
+      "normalized_claim_hash": "7d430c6cf1e6bc6c00b63df9adc3fdc5b038da0d626c730ef0f53757e2351acd",
+      "ticker": "6515",
+      "company": "穎崴",
+      "path": "Pilot_Reports/Semiconductors/6515_穎崴.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球前20大[[半導體]]廠中高達九成皆為其客戶，是[[AI]]軍備競賽中「賣鏟子」的標準受惠者。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/651520250515M004.pdf",
+          "title": "穎崴科技股份有限公司（穎崴，6515，WinWay Technology）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年5月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,628字元，以圖形排版為主）。簡報中「**Test Socket**」出現2次、「**測試座**」1次，支持其測試座產品業務。全份簡報中「**前三大**」「**第一大**」「**九成**」與「**前20大**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「全球前20大半導體廠中高達九成皆為其客戶，是 AI 軍備競賽中『賣鏟子』的標準受惠者」未獲確立：所取得之官方簡報中「**前20大**」與「**九成**」之出現次數**均為0**，未載客戶集中度或客戶家數之敘述（該簡報以圖形排版為主，文字擷取僅7,628字元）。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6568:objective_ranking_or_market_share:f46d76f198f50997",
+      "normalized_claim_hash": "f46d76f198f50997f15df8eb39cd49224c814cb4c5adc2738e90e1031ccf3160",
+      "ticker": "6568",
+      "company": "宏觀",
+      "path": "Pilot_Reports/Semiconductors/6568_宏觀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏觀微電子股份有限公司 (6568，Rafael Micro) 是台灣唯一、且位居全球前三大的射頻積體電路(RF IC)設計廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/656820251218M001.pdf",
+          "title": "宏觀微電子股份有限公司（宏觀，6568，Rafael Micro）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年12月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,948字元，以圖形排版為主）。簡報中「**RF**」出現2次、「**射頻**」2次，支持其射頻積體電路（RF IC）業務。全份簡報中「**前三大**」「**唯一**」與「**台灣**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為射頻積體電路（RF IC）設計廠」獲發行人簡報支持：簡報中「**RF**」出現2次、「**射頻**」2次，支持其射頻 IC 業務。惟兩項陳述未獲支持：(1)「是**台灣唯一**」——「唯一」與「台灣」之出現次數均為0；(2)「位居全球**前三大**」——「前三大」出現次數為0。故部分成立（並註記該簡報文字擷取僅4,948字元）。",
+      "proposed_text": "宏觀微電子 (6568，Rafael Micro) 從事射頻積體電路（RF IC）設計。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
