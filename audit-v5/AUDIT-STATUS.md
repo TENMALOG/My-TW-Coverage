@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 00:04 UTC
+Updated: 2026-10-12 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **914 / 1,399**
-- Remaining author review: **485**
-- Latest batch: **author-168** (4 claims)
+- Author-reviewed: **919 / 1,399**
+- Remaining author review: **480**
+- Latest batch: **author-169** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **601**
+- `PARTIALLY_SUPPORTED`: **604**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **218**
+- `UNKNOWN_AFTER_RESEARCH`: **220**
 
 ## Latest claim batch
 
-- `5015:objective_ranking_or_market_share:2276d54bba3d3a65` — `PARTIALLY_SUPPORTED`；華祺簡報「**不銹鋼」2 次**（異體字）；惟「桃園」「小螺絲」「全球最大」皆0次。
-- `6855:objective_ranking_or_market_share:dbc4554952212ac3` — `PARTIALLY_SUPPORTED`；數泓年報「**手工具」72 次**、「研發」36次、「上櫃」27次、「智能」6次；惟「2006」「首家」「唯一」「數位」皆0次。
-- `6904:objective_ranking_or_market_share:c9e2cfd9b443469d` — `UNKNOWN_AFTER_RESEARCH`；端點所取得者為**官網「股東專區」導覽／下載頁**（非年報，僅1,284字元）。
-- `8415:objective_ranking_or_market_share:5d18e323f2d8e7b8` — `PARTIALLY_SUPPORTED`；大國鋼簡報「**成立日期：2008年**」「採購整合、電子商務銷售(B2B)及實體配銷」；**惟原文為「全美最大扣件通路商」，claim 寫成「北美最大」**（地理範圍擴大），「北美」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-168.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `8415:objective_ranking_or_market_share:016f3d5d3ac36d27` (大國鋼).
+- `8415:objective_ranking_or_market_share:016f3d5d3ac36d27` — `UNKNOWN_AFTER_RESEARCH`；大國鋼簡報「**6.74%／BBI-USA／進口」皆 0 次**。
+- `8415:objective_ranking_or_market_share:1ca8b457e27ce836` — `PARTIALLY_SUPPORTED`；簡報「採購整合、電子商務銷售(B2B)及實體配銷」；惟「北美」「倉儲」「物流」皆0次。
+- `2608:objective_ranking_or_market_share:8bdb0d8de660d7b1` — `PARTIALLY_SUPPORTED`；嘉里簡報「**3,350+ 營業車輛**」逐字命中；**惟「營業站所/物流中心」原文為「90/10」**（claim 寫 92／11）、**「營業據點」原文為 160**（claim 寫 190）、「市佔」「最綿密」皆0次。
+- `2608:objective_ranking_or_market_share:8073210a19686ced` — `PARTIALLY_SUPPORTED`；簡報「**醫藥物流 車輛/據點：234/13**」；惟「嘉里醫藥」「五成」「PIC/S」「唯一」皆0次。
+- `2608:objective_ranking_or_market_share:31d8ab6170333d31` — `UNKNOWN_AFTER_RESEARCH`；「嘉里醫藥」「五成」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-169.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `5604:objective_ranking_or_market_share:16da157ef7a9024f` (中連).
 
 ## Source access
 

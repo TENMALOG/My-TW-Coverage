@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-169",
+  "reviewed_at": "2026-10-05T21:25:35Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大國鋼法人說明會簡報; 嘉里大榮業績發表會簡報)",
+  "items": [
+    {
+      "claim_id": "8415:objective_ranking_or_market_share:016f3d5d3ac36d27",
+      "normalized_claim_hash": "016f3d5d3ac36d27cc8ff27e26078daf7e840e887badbf1ab73fb208c6e5caa1",
+      "ticker": "8415",
+      "company": "大國鋼",
+      "path": "Pilot_Reports/Tools & Accessories/8415_大國鋼.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "子公司 BBI-USA 在美國自他國進口扣件之市佔率約 6.74%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/841520260603M001.pdf",
+          "title": "大國鋼（Brighton-Best International／大國鋼，8415）法人說明會簡報（2026-06-03）",
+          "source_level": 3,
+          "period_binding": "2026年6月3日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,861字元，以圖形排版為主）。簡報載「**成立日期：2008年**」「核心服務：**採購整合、電子商務銷售(B2B)及實體配銷**」「目前為**全美最大**不銹鋼通路商」「**全美最大扣件通路商**」（「Brighton」3次、「BBI」2次、「扣件」11次、「配銷」1次、「2008」8次、「市佔」1次、「平台」1次）。全份簡報中「**6.74%**」「**BBI-USA**」「**進口**」「**倉儲**」「**物流**」與「**北美**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「子公司 **BBI-USA** 在美國自他國**進口**扣件之**市佔率約 6.74%**」未獲確立：所取得之大國鋼簡報中「**6.74%**」「**BBI-USA**」與「**進口**」之出現次數**均為0**（「市佔」1次之上下文未載該數字）。因該 claim 之實質內容為具名子公司之市占率數字，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8415:objective_ranking_or_market_share:1ca8b457e27ce836",
+      "normalized_claim_hash": "1ca8b457e27ce83631709d745da8e5f182ca85e735c693ae07f1f82a298fc4ab",
+      "ticker": "8415",
+      "company": "大國鋼",
+      "path": "Pilot_Reports/Tools & Accessories/8415_大國鋼.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**大國鋼/BBI-USA** — 北美最大扣件配銷平台，整合採購、倉儲及物流",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/841520260603M001.pdf",
+          "title": "大國鋼（Brighton-Best International／大國鋼，8415）法人說明會簡報（2026-06-03）",
+          "source_level": 3,
+          "period_binding": "2026年6月3日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,861字元，以圖形排版為主）。簡報載「**成立日期：2008年**」「核心服務：**採購整合、電子商務銷售(B2B)及實體配銷**」「目前為**全美最大**不銹鋼通路商」「**全美最大扣件通路商**」（「Brighton」3次、「BBI」2次、「扣件」11次、「配銷」1次、「2008」8次、「市佔」1次、「平台」1次）。全份簡報中「**6.74%**」「**BBI-USA**」「**進口**」「**倉儲**」「**物流**」與「**北美**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**大國鋼／BBI** 為扣件**配銷平台**，整合**採購**」獲發行人簡報支持：簡報載「核心服務：**採購整合、電子商務銷售(B2B)及實體配銷**」，並見「**Brighton**」3次、「**BBI**」2次、「**扣件**」11次、「**配銷**」1次、「**平台**」1次。惟三項陳述未獲支持：(1)「**北美**最大」——「北美」出現次數為0（簡報之範圍為「全美」）；(2)「整合**倉儲**」——「倉儲」為0；(3)「及**物流**」——「物流」為0。故部分成立。",
+      "proposed_text": "大國鋼 (8415) 之 BBI 為扣件配銷平台，核心服務包含採購整合、電子商務銷售（B2B）及實體配銷。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2608:objective_ranking_or_market_share:8bdb0d8de660d7b1",
+      "normalized_claim_hash": "8bdb0d8de660d7b1ad62bd5facffd961441e008a9f44426962d3d313495310ee",
+      "ticker": "2608",
+      "company": "嘉里大榮",
+      "path": "Pilot_Reports/Trucking/2608_嘉里大榮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國內貨運市佔率約 35%，擁有全台最綿密之配送網絡，營運據點達 190 處 (含 11 座物流中心及 92 個營業站)，營業車輛逾 3,350 輛。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260820251210M001.pdf",
+          "title": "嘉里大榮物流股份有限公司（嘉里大榮，2608，Kerry TJ Logistics）2025年前三季業績發表會簡報（2025-12-10）",
+          "source_level": 3,
+          "period_binding": "2025年12月10日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,279字元，以圖形排版為主）。簡報「嘉里物流台灣基本資料」載「1954.06 創立日期」「**90/10 營業站所/物流中心**」「13/18 常溫倉儲/低溫倉儲、低配站」「**160 營業據點**」「20/4 集貨、集配站/轉運中心」「5,150+ 員工」「**3,350+ 營業車輛**」「3/2 醫藥倉/空調倉」，並於「十大核心項目」載「**醫藥物流 車輛/據點：234/13**」、「醫藥倉/空調倉」（「醫藥」4次、「倉儲」5次、「車輛」9次、「配送」3次）。**關鍵發現**：(1)「**市佔**」與「**網絡**」之出現次數**均為0**；(2) 簡報所載之站所／物流中心數為「**90/10**」，與 claim 所述之「**92 個營業站**」「**11 座物流中心**」**不符**；營業據點為「**160**」，亦與 claim 之「**190 處**」**不符**；(3)「**嘉里醫藥**」「**五成**」「**PIC/S**」與「**唯一**」均為0。(4) 簡報之免責聲明以「**㇐**般」「**㇐**定」表述「一般」「一定」，其「**㇐**」為 **CJK 筆畫字元**（本審核第 8 類字形落差）。"
+        }
+      ],
+      "rationale": "「擁有**營業車輛逾 3,350 輛**」獲發行人簡報**逐字支持**：簡報載「**3,350+ 營業車輛**」，並見「**物流中心**」2次、「**營業站**」2次，支持其營業據點之敘述。**惟多項數字與文件不符**：(1)「營運據點達 **190 處**」——簡報載「**160 營業據點**」；(2)「含 **11 座**物流中心及 **92 個**營業站」——簡報載「**90/10 營業站所/物流中心**」（即 90 個營業站所、10 座物流中心）；(3)「國內貨運**市佔率約 35%**」——「**市佔**」出現次數為**0**；(4)「擁有全台**最綿密**之配送網絡」——「最綿密」與「網絡」均為0。故部分成立。",
+      "proposed_text": "嘉里大榮物流 (2608，Kerry TJ Logistics) 擁有營業車輛逾3,350輛及160處營業據點。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2608:objective_ranking_or_market_share:8073210a19686ced",
+      "normalized_claim_hash": "8073210a19686cedacc301817657db5d926ce3ce779056de35ef1ce9dd343752",
+      "ticker": "2608",
+      "company": "嘉里大榮",
+      "path": "Pilot_Reports/Trucking/2608_嘉里大榮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "子公司[[嘉里醫藥物流]]為全台唯一專業開放型醫藥物流商，藥品配送市佔率達五成，擁有符合 [[PIC/S GDP]] 規範之醫藥倉儲。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260820251210M001.pdf",
+          "title": "嘉里大榮物流股份有限公司（嘉里大榮，2608，Kerry TJ Logistics）2025年前三季業績發表會簡報（2025-12-10）",
+          "source_level": 3,
+          "period_binding": "2025年12月10日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,279字元，以圖形排版為主）。簡報「嘉里物流台灣基本資料」載「1954.06 創立日期」「**90/10 營業站所/物流中心**」「13/18 常溫倉儲/低溫倉儲、低配站」「**160 營業據點**」「20/4 集貨、集配站/轉運中心」「5,150+ 員工」「**3,350+ 營業車輛**」「3/2 醫藥倉/空調倉」，並於「十大核心項目」載「**醫藥物流 車輛/據點：234/13**」、「醫藥倉/空調倉」（「醫藥」4次、「倉儲」5次、「車輛」9次、「配送」3次）。**關鍵發現**：(1)「**市佔**」與「**網絡**」之出現次數**均為0**；(2) 簡報所載之站所／物流中心數為「**90/10**」，與 claim 所述之「**92 個營業站**」「**11 座物流中心**」**不符**；營業據點為「**160**」，亦與 claim 之「**190 處**」**不符**；(3)「**嘉里醫藥**」「**五成**」「**PIC/S**」與「**唯一**」均為0。(4) 簡報之免責聲明以「**㇐**般」「**㇐**定」表述「一般」「一定」，其「**㇐**」為 **CJK 筆畫字元**（本審核第 8 類字形落差）。"
+        }
+      ],
+      "rationale": "「從事**醫藥物流**並設有**醫藥倉**」獲發行人簡報支持：簡報「十大核心項目」載「**醫藥物流 車輛/據點：234/13**」，並見「**醫藥**」4次、「**醫藥倉/空調倉**」（「倉儲」5次），支持其醫藥物流業務。惟四項陳述未獲支持：(1)「子公司**嘉里醫藥物流**」——「嘉里醫藥」出現次數為0；(2)「為全台**唯一**專業開放型醫藥物流商」——「唯一」為0；(3)「藥品配送市佔率達**五成**」——「五成」為0；(4)「符合 **PIC/S GDP** 規範」——「PIC/S」為0（「GDP」1次之上下文未明）。故部分成立。",
+      "proposed_text": "嘉里大榮物流 (2608) 經營醫藥物流業務並設有醫藥倉。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2608:objective_ranking_or_market_share:31d8ab6170333d31",
+      "normalized_claim_hash": "31d8ab6170333d317539bf46e38040f10451089eb85c708823109e5cd7b3fb73",
+      "ticker": "2608",
+      "company": "嘉里大榮",
+      "path": "Pilot_Reports/Trucking/2608_嘉里大榮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國際藥廠 — [[嘉里醫藥物流]]藥品配送市佔率達五成",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260820251210M001.pdf",
+          "title": "嘉里大榮物流股份有限公司（嘉里大榮，2608，Kerry TJ Logistics）2025年前三季業績發表會簡報（2025-12-10）",
+          "source_level": 3,
+          "period_binding": "2025年12月10日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,279字元，以圖形排版為主）。簡報「嘉里物流台灣基本資料」載「1954.06 創立日期」「**90/10 營業站所/物流中心**」「13/18 常溫倉儲/低溫倉儲、低配站」「**160 營業據點**」「20/4 集貨、集配站/轉運中心」「5,150+ 員工」「**3,350+ 營業車輛**」「3/2 醫藥倉/空調倉」，並於「十大核心項目」載「**醫藥物流 車輛/據點：234/13**」、「醫藥倉/空調倉」（「醫藥」4次、「倉儲」5次、「車輛」9次、「配送」3次）。**關鍵發現**：(1)「**市佔**」與「**網絡**」之出現次數**均為0**；(2) 簡報所載之站所／物流中心數為「**90/10**」，與 claim 所述之「**92 個營業站**」「**11 座物流中心**」**不符**；營業據點為「**160**」，亦與 claim 之「**190 處**」**不符**；(3)「**嘉里醫藥**」「**五成**」「**PIC/S**」與「**唯一**」均為0。(4) 簡報之免責聲明以「**㇐**般」「**㇐**定」表述「一般」「一定」，其「**㇐**」為 **CJK 筆畫字元**（本審核第 8 類字形落差）。"
+        }
+      ],
+      "rationale": "「國際藥廠 — [[嘉里醫藥物流]]藥品配送**市佔率達五成**」未獲確立：所取得之簡報中「**嘉里醫藥**」與「**五成**」之出現次數**均為0**，未載該子公司名稱或市占率數字。因該 claim 之實質內容為具名子公司之市占率，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
