@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 05:04 UTC
+Updated: 2026-10-06 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,32 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **133 / 1,399**
-- Remaining author review: **1,266**
-- Latest batch: **author-029** (8 claims)
+- Author-reviewed: **141 / 1,399**
+- Remaining author review: **1,258**
+- Latest batch: **author-030** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **35**
-- `PARTIALLY_SUPPORTED`: **80**
+- `ACCEPTED`: **37**
+- `PARTIALLY_SUPPORTED`: **85**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **14**
+- `UNKNOWN_AFTER_RESEARCH`: **15**
 
 ## Latest claim batch
 
-- `5880:objective_ranking_or_market_share:a7669e207f28c0b5`、`0f3b5a58ad55e774` — `UNKNOWN_AFTER_RESEARCH` ×2; 合庫金官網投資人路徑未提供可下載年報或股東結構文件，立法院公聽會報告全文未含股東結構表，未能取得主要股東名單與中小企業放款市占資料。
-- `1101:objective_ranking_or_market_share:70c0cf57f148a361` — `ACCEPTED`; 台泥官方簡報第3頁時間軸載「1946 • 國營台灣水泥成立」「第一家股票上市公司(1962年)」，標題為「從水泥產業到綠色環境工程公司」。
-- `1101:objective_ranking_or_market_share:1d1eb04d19b03299` — `PARTIALLY_SUPPORTED`; 簡報載2018年「全球化佈局歐亞非」、2024 ESG年鑑載「跨五大洲13市場」、年鑑第498頁載「土耳其最大水泥公司 OYAK」；惟「台泥國際」出現0次。
-- `1104:objective_ranking_or_market_share:9a15f087597b0139` — `PARTIALLY_SUPPORTED`; 環泥2025法說會第6頁支持水泥／混凝土／石膏板為主要產品（13%營收）；惟石膏板市占率與「全台第一約90%」全份未載。
-- `1109:objective_ranking_or_market_share:7c6d8b2d2057eb58`、`5fd4ab936a526e30` — `PARTIALLY_SUPPORTED` ×2; 信大簡報第6/7/8/9頁支持江蘇信寧新型建材為大陸子公司、以南京為主要市場；惟官方載「占南京市區域市場約17%左右」，與claim的15%不同。
-- `1802:objective_ranking_or_market_share:75e14cf20248f928` — `PARTIALLY_SUPPORTED`; 台玻2019 CSR第13頁載「1964年8月25日 台玻成立於1964年」及三大產品線；惟「國內最大」「名列前茅」等字樣全份出現0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-029.json`。未修改發行人報告。
-- Next pending claim by priority: `2504:objective_ranking_or_market_share:271a4f0e71b4103a` (國產).
+- `2504:objective_ranking_or_market_share:271a4f0e71b4103a` — `ACCEPTED`; 國產2026法說會第2頁載「為臺灣預拌混凝土之龍頭企業」、「全台共有26個預拌廠」。
+- `5546:objective_ranking_or_market_share:9e5e5a07bc534c70` — `PARTIALLY_SUPPORTED`; 永固集團介紹第6頁載重慶五個攪拌站、第13/17頁載重慶輕軌4/5/9/10號線「均指定由我司供應混凝土」；惟全份未載市占率或「領先」表述。
+- `8424:objective_ranking_or_market_share:ac341368dc8f4238` — `PARTIALLY_SUPPORTED`; 惠普2025法說會第4頁載矽酸鈣板64%／纖維水泥板36%、第5頁載國產持股50.6%；惟未載「台灣最大」或任何市占率。
+- `9930:objective_ranking_or_market_share:edbe1906dd3dcf78` — `ACCEPTED`; 中聯資源2026法說會第4頁載「國內規模最大爐石粉產銷業者…實踐循環經濟」，第24頁載獲環境部資源循環績優企業銀質獎。
+- `2062:objective_ranking_or_market_share:a71bb7b3c16dfa04` — `PARTIALLY_SUPPORTED`; 橋椿簡報第4/5頁載其為裝飾設備鋅壓鑄零組件領導製造商、第11頁載「鋅的原料成本是銅的1/3」；惟六成以上市占係指客戶、非橋椿自身零組件市占。
+- `2062:objective_ranking_or_market_share:95163601c6041a89` — `PARTIALLY_SUPPORTED`; 簡報第4/9頁載「客戶在北美及歐洲水龍頭市占率超過六成」；惟Kohler／Moen／American Standard／TOTO於簡報與110年報出現次數皆為0。
+- `8930:objective_ranking_or_market_share:b7304d14590e5873` — `PARTIALLY_SUPPORTED`; 青鋼簡報第17頁沿革載「成立於1982年」、「第一家自動化生產」、「第一家上市櫃金屬建材」；惟官方為「第一家」而非claim之「唯一」。
+- `8930:objective_ranking_or_market_share:0e49eeeb7dba1af5` — `UNKNOWN_AFTER_RESEARCH`; 青鋼簡報與官網簡介中「市佔」「市占」出現次數皆為0。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-030.json`。未修改發行人報告。
+- Next pending claim by priority: `9924:objective_ranking_or_market_share:d29232b4aad5a82a` (福興).
 
 ## Source access
 

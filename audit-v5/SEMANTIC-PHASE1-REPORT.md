@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **133 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), and `author-029` (8).
+Author-reviewed: **141 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), and `author-030` (8).
 
-- ACCEPTED by author: 35
-- PARTIALLY_SUPPORTED: 80
+- ACCEPTED by author: 37
+- PARTIALLY_SUPPORTED: 85
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 14
-- Remaining author queue: 1,266
+- Other allowed author decisions: 15
+- Remaining author queue: 1,258
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -272,6 +272,7 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - `2245:objective_ranking_or_market_share:7ade1b140810fe09`、`03b9308fa26ebeb9`、`9d1fc3aba637d71d` — `UNKNOWN_AFTER_RESEARCH` ×3. 詠勝昌115年第2季合併財務報告（38頁）僅載信用風險管理政策（「對主要客戶予以評等」），未具名任何客戶；Standard Motor、Federal-Mogul、BERU、Tenneco、BorgWarner 出現次數均為0。發行人官網 nwwmfg.com 之 TLS 連線失敗，未取得年報或公開說明書。三家客戶關係與 SMP 之最大經銷商身分均未獲確立。
 - `2249:objective_ranking_or_market_share:f3cb005c6c4a4f6c` — `PARTIALLY_SUPPORTED`. 湧盛2020年官方簡報第5頁載主要產品為汽車空調壓縮機與熱交換器，第6頁載2012年起生產製造汽車空調壓縮機、2013年取得日本 SINLIN AUTOMOTIVE 95%股權，第31頁載2019年營收21.3億元；惟簡報未載「台灣最大」或「出口量逾95%」（其自身區域銷售為美洲56%、歐洲31%、亞洲12%）。2026年9月法說會簡報下載成功但為掃描影像，無法擷取文字。
 - `2256:objective_ranking_or_market_share:922429090abb9e1a`、`904acb0030df90b3`、`8d2c0b8f1fbe9b0c` — `PARTIALLY_SUPPORTED` ×3. 歐特明114年度年報第5頁載「本公司自104年承接納智捷及小鵬汽車量產案後，即投入全車360度視覺AI感知技術」，支持小鵬汽車為客戶；惟第70頁銷貨客戶揭露以代號表示（「A 客戶」114年度占10.50%），未具名小鵬為最大客戶，亦未載「歷史營收占比逾80%」或「目標降至50%」。
+
 - `3162:objective_ranking_or_market_share:41c8c84e28a3f1c3` 與 `ef970bc4a035c623` — `PARTIALLY_SUPPORTED`. 精確2025年官方簡報第22頁列主要客戶「蜂巢能源(吉利)」、第24及26頁列「億緯鋰能」；惟第7頁將「寧德時代」列於「客戶認證中」，顯示其並非現有客戶，故「寧德時代（最大）」不成立。
 - Proposed wording is recorded for the partial claims in `semantic/author-024.json`; no issuer report was modified. Independent review remains pending.
 - 來源檢索限制：詠勝昌官網 TLS 憑證失敗、湧盛2026法說會簡報為掃描影像；二者均為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 之門檻。佇列維持 **15** 筆。
@@ -343,6 +344,22 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - 方法備註：台泥之公司沿革與上市地位於其自身ESG年鑑章節中未載明，改由刊載於臺灣證券交易所公司治理中心之發行人簡報取得，屬發行人自製文件，來源等級與 MOPS 簡報相同。
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **133 / 1,399**; remaining: **1,266**. Outcome counts: ACCEPTED 35, PARTIALLY_SUPPORTED 80, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 14. Next pending claim by priority: `2504:objective_ranking_or_market_share:271a4f0e71b4103a` (國產).
+
+## Author batch `author-030` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (國產 2504, 永固-KY 5546, 惠普 8424, 中聯資源 9930, 橋椿 2062 ×2, 青鋼 8930 ×2). Evidence came from directly downloaded and inspected official disclosures: 國產建材法人說明會簡報、永固集團介紹、惠普法人說明會簡報、中聯資源法人說明會簡報、橋椿公司簡報與110年度年報、青鋼法人說明會簡報與官網公司簡介。
+- `2504:objective_ranking_or_market_share:271a4f0e71b4103a` — `ACCEPTED`. 國產2026年法說會第2頁公司簡介明載「為臺灣預拌混凝土之龍頭企業」、「全台共有26個預拌廠」，支持其為台灣預拌混凝土龍頭；官方未另載市占百分比，claim 之後段與「龍頭」為同義之市場地位敘述。
+- `5546:objective_ranking_or_market_share:9e5e5a07bc534c70` — `PARTIALLY_SUPPORTED`. 永固集團介紹第5頁載主要商品為預拌商品混凝土、第6頁載重慶五個攪拌站、第13及17頁載重慶軌道交通線網覆蓋主城九區且在建輕軌4/5/9/10號線「均指定由我司供應混凝土」；惟全份文件未載市占率數字或市場排名，亦未以「領先」描述其市占。
+- `8424:objective_ranking_or_market_share:ac341368dc8f4238` — `PARTIALLY_SUPPORTED`. 惠普2025年法說會第4頁載主要產品為矽酸鈣板（64%）與纖維水泥板（36%），第5頁載國產建材實業持股50.6%；惟全份簡報未載「台灣最大矽酸鈣板製造商」或任何市占率。
+- `9930:objective_ranking_or_market_share:edbe1906dd3dcf78` — `ACCEPTED`. 中聯資源2026年法說會第4頁明載「國內規模最大爐石粉產銷業者，供應下游預拌混凝土、營造與公共工程…實踐循環經濟」，另一份簡報第4頁亦載「高爐水泥事業：國內規模最大爐石粉產銷業者」；第24頁載其獲環境部「資源循環績優企業遴選-銀質獎」。
+- `2062:objective_ranking_or_market_share:a71bb7b3c16dfa04` — `PARTIALLY_SUPPORTED`. 橋椿公司簡報第4及5頁載其為「全球廚房衛浴產業中，裝飾設備鋅壓鑄零組件領導製造商」，第11頁載「鋅的原料成本是銅的1/3」；惟簡報所述六成以上市占係指「客戶」在北美與歐洲水龍頭市場之市占，並非橋椿在零組件市場之占有率，故「極高市佔率」未獲支持。
+- `2062:objective_ranking_or_market_share:95163601c6041a89` — `PARTIALLY_SUPPORTED`. 簡報第4頁載「這些客戶在北美與歐洲市場的市占率達六成以上」、第9頁重述「我們的客戶在北美及歐洲水龍頭市占率超過六成」，支持市占比例之核心事實；惟 Kohler、科勒、Moen、摩恩、American Standard、美標、TOTO 於該簡報與110年度年報之出現次數均為0，四大客戶之具名未獲支持。
+- `8930:objective_ranking_or_market_share:b7304d14590e5873` — `PARTIALLY_SUPPORTED`. 青鋼2025年12月法說會第17頁企業沿革載「成立於1982年」、「40年」，並標示「第一家自動化生產」與「第一家上市櫃金屬建材」；發行人官網公司簡介中「台南」出現5次，與總部所在地相符。惟官方用語為「第一家上市櫃金屬建材」（最早掛牌），與 claim 之「唯一掛牌上市」屬不同強度之限定。
+- `8930:objective_ranking_or_market_share:0e49eeeb7dba1af5` — `UNKNOWN_AFTER_RESEARCH`. 「主力產品市佔率長年達20%~40%」未獲確立：查閱之簡報與官網簡介中「市佔」「市占」出現次數均為0；簡報中之20、40等數字均屬財務報表科目或沿革年數，與市占率無關。
+- Proposed wording is recorded for the partial claims in `semantic/author-030.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **141 / 1,399**; remaining: **1,258**. Outcome counts: ACCEPTED 37, PARTIALLY_SUPPORTED 85, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 15. Next pending claim by priority: `9924:objective_ranking_or_market_share:d29232b4aad5a82a` (福興).
+
 
 
 
