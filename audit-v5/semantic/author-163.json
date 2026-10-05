@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-163",
+  "reviewed_at": "2026-10-05T21:18:20Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (錩泰投資人簡報英文版)",
+  "items": [
+    {
+      "claim_id": "1541:objective_ranking_or_market_share:d200dd9c531c0610",
+      "normalized_claim_hash": "d200dd9c531c0610c24d8fd0c5610ead0304c4e5a5965153390477bd930d2042",
+      "ticker": "1541",
+      "company": "錩泰",
+      "path": "Pilot_Reports/Tools & Accessories/1541_錩泰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "市場集中於北美地區，最大客戶為 [[Stanley Black & Decker]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/154120170510E001.pdf",
+          "title": "錩泰工業股份有限公司（錩泰，1541，Chang Type Industrial）投資人簡報（英文版，2017-05-10）",
+          "source_level": 3,
+          "period_binding": "2017年5月10日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取4,911字元，以圖形排版為主）。簡報載「**Chang Type** Industrial Corporation」「Product: **Woodworking Machines (Power Tools & Pneumatic Tools)**」「Sales by Area」「Established:1989」「Public Listed:2003」，並見其美國子公司「**Delta Power Equipment Corporation**」（Place: **Spartanburg County SC**）與「**DEWALT**」1次，支持其電動工具業務及美國市場布局。全份簡報中「Stanley」「CRAFTSMAN」「北美」「客戶」「最大」之出現次數**均為0**（中文詞亦為0）。**另註記**：本批次併同嘗試之 MOPS 年報端點（t100sa11_1541_112.pdf）回傳 **320 bytes 之非文件內容**，未取得可檢視之年報。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「市場集中於**北美**地區」獲發行人簡報支持：簡報載「**Sales by Area**」並見其美國子公司「**Delta Power Equipment Corporation**」（Place: **Spartanburg County SC**），支持其北美市場布局。惟「**最大客戶為 [[Stanley Black & Decker]]**」未獲支持：「**Stanley**」與「最大客戶」之出現次數**均為0**。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "錩泰工業 (1541，Chang Type Industrial) 從事木工機械（電動工具與氣動工具）業務，市場集中於北美地區。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1541:objective_ranking_or_market_share:57a50cd0ac0fa618",
+      "normalized_claim_hash": "57a50cd0ac0fa61889aea0c199a7c38b172b6218c32209baa70a013552332f6e",
+      "ticker": "1541",
+      "company": "錩泰",
+      "path": "Pilot_Reports/Tools & Accessories/1541_錩泰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶，代工 DEWALT 及 CRAFTSMAN 品牌圓鋸機",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/154120170510E001.pdf",
+          "title": "錩泰工業股份有限公司（錩泰，1541，Chang Type Industrial）投資人簡報（英文版，2017-05-10）",
+          "source_level": 3,
+          "period_binding": "2017年5月10日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取4,911字元，以圖形排版為主）。簡報載「**Chang Type** Industrial Corporation」「Product: **Woodworking Machines (Power Tools & Pneumatic Tools)**」「Sales by Area」「Established:1989」「Public Listed:2003」，並見其美國子公司「**Delta Power Equipment Corporation**」（Place: **Spartanburg County SC**）與「**DEWALT**」1次，支持其電動工具業務及美國市場布局。全份簡報中「Stanley」「CRAFTSMAN」「北美」「客戶」「最大」之出現次數**均為0**（中文詞亦為0）。**另註記**：本批次併同嘗試之 MOPS 年報端點（t100sa11_1541_112.pdf）回傳 **320 bytes 之非文件內容**，未取得可檢視之年報。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「為 [[DEWALT]] 品牌代工」獲發行人簡報之部分支持：簡報中「**DEWALT**」出現1次。惟三項陳述未獲支持：(1)「**最大客戶**」——出現次數為0；(2)「代工 **CRAFTSMAN** 品牌」——「CRAFTSMAN」為0；(3)「**圓鋸機**」——「圓鋸」為0（簡報之產品類別為「Woodworking Machines」）。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "錩泰工業 (1541) 為 DEWALT 品牌代工木工機械產品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

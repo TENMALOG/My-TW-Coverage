@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 18:04 UTC
+Updated: 2026-10-11 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **894 / 1,399**
-- Remaining author review: **505**
-- Latest batch: **author-162** (4 claims)
+- Author-reviewed: **896 / 1,399**
+- Remaining author review: **503**
+- Latest batch: **author-163** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **586**
+- `PARTIALLY_SUPPORTED`: **588**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6832:objective_ranking_or_market_share:e80b2b9b51da51df` — `UNKNOWN_AFTER_RESEARCH`；**未查得金鼎科本身之官方端點**（檢索所及者為中國 A 股「廣東金鼎光學技術股份有限公司」，**並非同一法人**）。
-- `1527:objective_ranking_or_market_share:2cd5717ea34e0ce8` — `PARTIALLY_SUPPORTED`；鑽全簡報載「**創立日期：民國72年**」（＝1983）、「釘槍」1次、「代工」2次、「氣動」2次；惟「全球最大」「台中」「Nailer」皆0次。**以民國年表述**，故「1983」檢索為0。
-- `1560:objective_ranking_or_market_share:4fb13831c5b7dbba` — `PARTIALLY_SUPPORTED`；中砂簡報「**鑽石碟」13 次、「Diamond Disk」10 次、「CMP」14 次**、「修整」7次、「再生晶圓」8次；惟「台積電」「市佔」「領先」皆0次。
-- `1560:objective_ranking_or_market_share:06635179641a8d57` — `UNKNOWN_AFTER_RESEARCH`；簡報「**台積電」「最大單一」「六成」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-162.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1541:objective_ranking_or_market_share:d200dd9c531c0610` (錩泰).
+- `1541:objective_ranking_or_market_share:d200dd9c531c0610` — `PARTIALLY_SUPPORTED`；錩泰簡報（**英文版**）載「**Sales by Area**」與美國子公司「**Delta Power Equipment Corporation**」（Spartanburg County SC）；惟「Stanley」「最大客戶」皆0次。
+- `1541:objective_ranking_or_market_share:57a50cd0ac0fa618` — `PARTIALLY_SUPPORTED`；簡報「**DEWALT」1 次**；惟「最大客戶」「CRAFTSMAN」「圓鋸」皆0次。
+- 註記：本批次併同嘗試之 MOPS 年報端點（t100sa11_1541_112.pdf）回傳 **320 bytes 之非文件內容**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-163.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `1570:objective_ranking_or_market_share:c4ddcbe07eeee869` (力肯).
 
 ## Source access
 
