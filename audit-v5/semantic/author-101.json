@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-101",
+  "reviewed_at": "2026-10-05T19:55:24Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大華2026年法人說明會簡報; 統一實年報; 宏全2010年法人說明會簡報; 龍巖2024年法人說明會簡報; 旭然2015年法人說明會簡報; 大車隊2024年法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "9905:objective_ranking_or_market_share:9dd75a043dafb144",
+      "normalized_claim_hash": "9dd75a043dafb1443bd0aab5f37252c68e3f99fa6f202590f467a3abf90d38c4",
+      "ticker": "9905",
+      "company": "大華",
+      "path": "Pilot_Reports/Packaging & Containers/9905_大華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大華為國內唯一綜合性包裝容器製造企業，亦為台灣最大鋁罐製造商，市佔率約 35%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/990520260520M001.pdf",
+          "title": "大華金屬工業股份有限公司（大華，9905，Great China Metal）法人說明會簡報（2026-05-20）",
+          "source_level": 3,
+          "period_binding": "2026年5月；財務數據含115年Q1。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取5,087字元）。簡報中「**鋁罐**」出現7次，支持其鋁罐製造業務。全份簡報中「**唯一**」「**綜合性**」「**最大**」與「**市佔**」之出現次數均為0；「**35%**」1次之上下文為**財務比率**（「費用率…5.35%」等季別數據），**非市占率**。"
+        }
+      ],
+      "rationale": "「為鋁罐製造商」獲發行人簡報支持：2026年官方簡報中「**鋁罐**」出現7次，支持其鋁罐製造業務。惟三項陳述未獲支持：(1)「為國內**唯一綜合性**包裝容器製造企業」——「唯一」與「綜合性」出現次數均為0；(2)「為**台灣最大**鋁罐製造商」——「最大」出現次數為0；(3)「市佔率約 **35%**」——「市佔」為0，且「**35%**」1次之上下文為**財務比率**（「費用率…5.35%」），**非市占率**（數字脫離語意）。故部分成立。",
+      "proposed_text": "大華金屬工業 (9905，Great China Metal) 從事鋁罐製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9907:objective_ranking_or_market_share:bd571e06d78ed907",
+      "normalized_claim_hash": "bd571e06d78ed907cb093a192e383babffa701615f3852bb1da46471466ade09",
+      "ticker": "9907",
+      "company": "統一實",
+      "path": "Pilot_Reports/Packaging & Containers/9907_統一實.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "統一實為國內最大且亞洲第一的馬口鐵廠，在中國大陸規模僅次於 [[寶鋼]]，具備從馬口鐵基板、中游馬口鐵鍍錫到下游製罐之垂直整合競爭優勢。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tonyi.com.tw/include/kindeditor/attached/file/20260605/20260605081203_50231.pdf",
+          "title": "統一實業股份有限公司（統一實，9907，Ton Yi Industrial）年報",
+          "source_level": 3,
+          "period_binding": "文件所載數據請見年報；內容含馬口鐵業務。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**馬口鐵**」出現81次、「最大」2次、「**垂直整合**」1次，支持其馬口鐵製造業務與垂直整合之經營模式。全份年報中「**亞洲第一**」與「**寶鋼**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為馬口鐵廠並具垂直整合競爭優勢」獲發行人年報支持：年報中「**馬口鐵**」出現81次、「最大」2次、「**垂直整合**」1次，支持其馬口鐵製造業務與垂直整合之經營模式。惟兩項具名比較未獲支持：(1)「為國內最大且**亞洲第一**的馬口鐵廠」——「亞洲第一」出現次數為0；(2)「在中國大陸規模僅次於**寶鋼**」——「**寶鋼**」出現次數為0。故部分成立。",
+      "proposed_text": "統一實業 (9907，Ton Yi Industrial) 從事馬口鐵製造，具垂直整合之經營模式。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9939:objective_ranking_or_market_share:15e2e8695fe9d5ba",
+      "normalized_claim_hash": "15e2e8695fe9d5ba2c65c4d49deace507f738e908262fc84e3931c2962a03275",
+      "ticker": "9939",
+      "company": "宏全",
+      "path": "Pilot_Reports/Packaging & Containers/9939_宏全.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏全國際集團成立於 1969 年，總部位於台灣台中，為台灣規模最大之包裝材料製造商之一，亦為大中華地區第三大飲料包材公司。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/993920101118M001.pdf",
+          "title": "宏全國際集團（宏全，9939，Hon Chuan）法人說明會簡報（2010-11-18）",
+          "source_level": 3,
+          "period_binding": "2010年11月；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取15,359字元）。簡報中「**包材**」出現19次、「**大中華**」4次、「**1969**」2次，支持其包裝材料業務、大中華市場布局與成立年度。全份簡報中「**第三大**」與「**最大**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「成立於1969年，總部台中，為包裝材料製造商並經營大中華地區市場」獲發行人簡報部分支持：官方簡報中「**1969**」出現2次、「**包材**」19次、「**大中華**」4次，支持其成立年度與包裝材料業務及大中華市場布局。惟兩項排名陳述未獲支持：(1)「為台灣**規模最大**之包裝材料製造商之一」——「最大」出現次數為0；(2)「為大中華地區**第三大**飲料包材公司」——「第三大」出現次數為0。故部分成立（並註記版本為2010年）。",
+      "proposed_text": "宏全國際集團 (9939，Hon Chuan) 成立於1969年，從事包裝材料製造，並經營大中華地區市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5530:objective_ranking_or_market_share:c4e955be65adb681",
+      "normalized_claim_hash": "c4e955be65adb68157790ebc2189ebe00c9eb3ddab756e15047cf9d32cbf06f3",
+      "ticker": "5530",
+      "company": "龍巖",
+      "path": "Pilot_Reports/Personal Services/5530_龍巖.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務包括：(1) 禮儀服務 (占營收約 60%) — 生前契約市占率高達 79%；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/553020241225M001.pdf",
+          "title": "龍巖股份有限公司（龍巖，5530，Lung Yen Life Service）法人說明會簡報（2024-12-25）",
+          "source_level": 3,
+          "period_binding": "2024年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取5,872字元）。簡報載「**生前契約市佔率**」與「**約79%**」，並載「服務範圍有**禮儀服務、生前契約**、塔位墓園及百年後之祭祀活動」（「生前契約」10次、「禮儀」11次、「79%」1次、「60%」3次），支持其生前契約業務及其市占率敘述。"
+        }
+      ],
+      "rationale": "「生前契約市占率高達 **79%**」獲發行人簡報支持：2024年官方簡報載「**生前契約市佔率**」與「**約79%**」，並載「服務範圍有**禮儀服務、生前契約**、塔位墓園及百年後之祭祀活動」（「生前契約」10次、「79%」1次），與 claim 相符。惟「禮儀服務**占營收約 60%**」未獲確認：簡報中「60%」出現3次，但其上下文未明確對應「禮儀服務占營收」之比例，故該項以未獲支持處理。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5530:objective_ranking_or_market_share:eb56e880bb5d11f6",
+      "normalized_claim_hash": "eb56e880bb5d11f64f08da3130f0a3e4ee419a6db4c1a7d4ae125803715626d9",
+      "ticker": "5530",
+      "company": "龍巖",
+      "path": "Pilot_Reports/Personal Services/5530_龍巖.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全台各地家庭 — 龍巖生前契約市占率約 79%",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/553020241225M001.pdf",
+          "title": "龍巖股份有限公司（龍巖，5530，Lung Yen Life Service）法人說明會簡報（2024-12-25）",
+          "source_level": 3,
+          "period_binding": "2024年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取5,872字元）。簡報載「**生前契約市佔率**」與「**約79%**」，並載「服務範圍有**禮儀服務、生前契約**、塔位墓園及百年後之祭祀活動」（「生前契約」10次、「禮儀」11次、「79%」1次、「60%」3次），支持其生前契約業務及其市占率敘述。"
+        }
+      ],
+      "rationale": "claim 直接獲發行人簡報支持：2024年官方簡報載「**生前契約市佔率**」與「**約79%**」（「生前契約」10次、「79%」1次），與 claim 之「龍巖生前契約市占率約 79%」逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4556:objective_ranking_or_market_share:9b2b2b95d0b2860e",
+      "normalized_claim_hash": "9b2b2b95d0b2860e922e4988329cf669944de6e8e7f3bf519b419f23d460795a",
+      "ticker": "4556",
+      "company": "旭然",
+      "path": "Pilot_Reports/Pollution & Treatment Controls/4556_旭然.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]（最大客戶群）、[[聯電]]、[[日月光投控]]及國際半導體廠（[[超純水]]/化學液過濾耗材）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/455620151202E001.pdf",
+          "title": "旭然國際股份有限公司（旭然，4556，Filtrafine）法人說明會簡報（2015-12-02）",
+          "source_level": 3,
+          "period_binding": "2015年12月；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取6,405字元）。簡報客戶列載「旗勝科技、漢唐集成、群創光電、旭硝子、**台積電**、（…）」與「工業用**超純水**」，並見「**日月光**」1次、「過濾」25次（「超純水」1次），支持其過濾耗材業務及台積電、日月光等客戶。全份簡報中「**聯電**」與「**最大客戶**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「客戶包含台積電、日月光及國際半導體廠，產品為超純水／化學液過濾耗材」獲發行人簡報支持：2015年官方簡報客戶列載「旗勝科技、漢唐集成、群創光電、旭硝子、**台積電**、（…）」，並載「工業用**超純水**」與「**日月光**」1次、「過濾」25次，支持其過濾耗材業務及台積電、日月光等客戶。惟兩項陳述未獲支持：(1)「**聯電**」——出現次數為0；(2)「台積電（**最大客戶群**）」——「最大客戶」出現次數為0（台積電僅列於客戶名單中）。故部分成立。",
+      "proposed_text": "旭然國際 (4556，Filtrafine) 生產工業用超純水及化學液過濾耗材，客戶包含台積電、日月光等半導體廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2640:objective_ranking_or_market_share:aa3a18660be7ca86",
+      "normalized_claim_hash": "aa3a18660be7ca86833aa893d8b6c2ec7e10c06149861d2c382e6e32b0310fe0",
+      "ticker": "2640",
+      "company": "大車隊",
+      "path": "Pilot_Reports/Railroads/2640_大車隊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣大車隊 (2640，品牌 [[55688]]) 為台灣市占率第一的計程車隊，車隊規模約 24,000 名司機會員、約 29,000 輛營運車輛。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/264020241212M001.pdf",
+          "title": "台灣大車隊股份有限公司（大車隊，2640，Taiwan Taxi）法人說明會簡報（2024-12-12）",
+          "source_level": 3,
+          "period_binding": "2024年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取1,935字元）。簡報中「**車隊**」出現6次，支持其經營計程車隊業務。全份簡報中「**市占**」「第一」「24,000」與「29,000」之出現次數均為0（該簡報文字擷取僅1,935字元）。"
+        }
+      ],
+      "rationale": "「為經營計程車隊之業者」獲發行人簡報支持：2024年官方簡報中「**車隊**」出現6次，支持其計程車隊經營業務。惟三項陳述未獲支持：(1)「為台灣**市占率第一**的計程車隊」——「市占」與「第一」出現次數均為0；(2)「車隊規模約 **24,000** 名司機會員」——「24,000」為0；(3)「約 **29,000** 輛營運車輛」——「29,000」為0。故部分成立（並註記該簡報文字擷取僅1,935字元）。",
+      "proposed_text": "台灣大車隊 (2640，Taiwan Taxi) 經營計程車隊業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 04:04 UTC
+Updated: 2026-10-09 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **598 / 1,399**
-- Remaining author review: **801**
-- Latest batch: **author-100** (7 claims)
+- Author-reviewed: **605 / 1,399**
+- Remaining author review: **794**
+- Latest batch: **author-101** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **76**
-- `PARTIALLY_SUPPORTED`: **384**
+- `ACCEPTED`: **77**
+- `PARTIALLY_SUPPORTED`: **390**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,15 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `9927:objective_ranking_or_market_share:d1bcdef3b01aa98b` — `PARTIALLY_SUPPORTED`；泰銘簡報載「1994年 成立**甲級廢棄物清除機構**」「甲級廢棄物處理機構」「2009年 泰銘(越南)公司取得**回收清運處理執照**」；惟「唯一」「廢鉛」「蓄電池」皆0次。
-- `9927:objective_ranking_or_market_share:83c2cace1a7adb89` — `UNKNOWN_AFTER_RESEARCH`；簡報「廣隆」「湯淺」「統一工業」「85%」皆0次。
-- `6578:objective_ranking_or_market_share:09e7de3479451061` — `PARTIALLY_SUPPORTED`；達邦年報「水解」63次、「黃豆」70次、「胜肽」66次、「HACCP」4次並載三重認證；惟「亞洲規模最大」「首家」皆0次。
-- `6968:objective_ranking_or_market_share:e2da6fd04d9bf077`、`7e52a1cf3bc0a020` — `UNKNOWN_AFTER_RESEARCH` ×2；萬達寵物簡報端點回應 **HTTP 404**。
-- `1323:objective_ranking_or_market_share:61b971a876a3995b` — `UNKNOWN_AFTER_RESEARCH`；永裕官方端點**連線失敗**。
-- `8411:objective_ranking_or_market_share:3998dade30256c2c` — `PARTIALLY_SUPPORTED`；福貞簡報「馬口鐵」2次、「三片罐」1次；惟「第三大」「15%」「市佔」皆0次（簡報僅1,542字元）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-100.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `9905:objective_ranking_or_market_share:9dd75a043dafb144` (大華).
+- `9905:objective_ranking_or_market_share:9dd75a043dafb144` — `PARTIALLY_SUPPORTED`；大華2026簡報「鋁罐」7次；惟「唯一」「綜合性」「最大」「市佔」皆0次，且「**35%**」1次係**財務比率**（費用率5.35%）。
+- `9907:objective_ranking_or_market_share:bd571e06d78ed907` — `PARTIALLY_SUPPORTED`；統一實年報「馬口鐵」81次、「垂直整合」1次；惟「亞洲第一」「寶鋼」皆0次。
+- `9939:objective_ranking_or_market_share:15e2e8695fe9d5ba` — `PARTIALLY_SUPPORTED`；宏全簡報「1969」2次、「包材」19次、「大中華」4次；惟「最大」「第三大」皆0次（2010年版）。
+- `5530:objective_ranking_or_market_share:c4e955be65adb681` — `PARTIALLY_SUPPORTED`；龍巖簡報載「**生前契約市佔率**」與「**約79%**」（生前契約10次、禮儀11次）；惟「禮儀服務占營收約60%」之對應未獲確認。
+- `5530:objective_ranking_or_market_share:eb56e880bb5d11f6` — `ACCEPTED`；龍巖簡報載「**生前契約市佔率**」「**約79%**」——逐項對應。
+- `4556:objective_ranking_or_market_share:9b2b2b95d0b2860e` — `PARTIALLY_SUPPORTED`；旭然2015簡報客戶列含「**台積電**」與「**日月光**」，並載「工業用**超純水**」（過濾25次）；惟「聯電」「最大客戶」皆0次。
+- `2640:objective_ranking_or_market_share:aa3a18660be7ca86` — `PARTIALLY_SUPPORTED`；大車隊2024簡報「車隊」6次；惟「市占」「第一」「24,000」「29,000」皆0次（簡報僅1,935字元）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-101.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `5292:objective_ranking_or_market_share:b7b5d29e96b2972f` (華懋).
 
 ## Source access
 

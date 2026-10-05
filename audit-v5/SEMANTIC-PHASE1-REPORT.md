@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **598 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), and `author-100` (7).
+Author-reviewed: **605 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), and `author-101` (7).
 
-- ACCEPTED by author: 76
-- PARTIALLY_SUPPORTED: 384
+- ACCEPTED by author: 77
+- PARTIALLY_SUPPORTED: 390
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 134
-- Remaining author queue: 801
+- Remaining author queue: 794
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1192,6 +1192,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **134 筆**。
 - Author-reviewed total: **598 / 1,399**; remaining: **801**. Outcome counts: ACCEPTED 76, PARTIALLY_SUPPORTED 384, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 134. Next pending claim by priority: `9905:objective_ranking_or_market_share:9dd75a043dafb144` (大華).
+
+## Author batch `author-101` — 2026-10-09
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (大華 9905, 統一實 9907, 宏全 9939, 龍巖 5530 ×2, 旭然 4556, 大車隊 2640). Evidence came from directly downloaded and inspected official disclosures: 大華2026年法人說明會簡報、統一實年報、宏全2010年法人說明會簡報、龍巖2024年法人說明會簡報、旭然2015年法人說明會簡報、大車隊2024年法人說明會簡報。
+- `9905:objective_ranking_or_market_share:9dd75a043dafb144` — `PARTIALLY_SUPPORTED`. 大華2026年官方簡報中「**鋁罐**」出現7次，支持其鋁罐製造業務；惟「國內**唯一綜合性**包裝容器製造企業」（「唯一」「綜合性」均0次）、「為**台灣最大**鋁罐製造商」（「最大」0次）與「市佔率約 **35%**」（「市佔」0次；且「**35%**」1次之上下文為**財務比率**「費用率…5.35%」，**非市占率**）未獲支持。
+- `9907:objective_ranking_or_market_share:bd571e06d78ed907` — `PARTIALLY_SUPPORTED`. 統一實年報中「**馬口鐵**」出現81次、「**垂直整合**」1次，支持其馬口鐵製造業務與垂直整合模式；惟「為國內最大且**亞洲第一**的馬口鐵廠」（「亞洲第一」0次）與「在中國大陸規模僅次於**寶鋼**」（「**寶鋼**」0次）未獲支持。
+- `9939:objective_ranking_or_market_share:15e2e8695fe9d5ba` — `PARTIALLY_SUPPORTED`. 宏全官方簡報中「**1969**」出現2次、「**包材**」19次、「**大中華**」4次，支持其成立年度、包裝材料業務及大中華市場布局；惟「為台灣**規模最大**之包裝材料製造商之一」（「最大」0次）與「為大中華地區**第三大**飲料包材公司」（「第三大」0次）未獲支持。註記：版本為2010年。
+- `5530:objective_ranking_or_market_share:c4e955be65adb681` — `PARTIALLY_SUPPORTED`. 龍巖2024年官方簡報載「**生前契約市佔率**」與「**約79%**」，並載「服務範圍有**禮儀服務、生前契約**、塔位墓園及百年後之祭祀活動」（「生前契約」10次、「79%」1次），支持其市占率敘述；惟「禮儀服務**占營收約60%**」未獲明確對應（「60%」3次之上下文未明確指涉該比例）。
+- `5530:objective_ranking_or_market_share:eb56e880bb5d11f6` — `ACCEPTED`. 龍巖2024年官方簡報載「**生前契約市佔率**」與「**約79%**」，與 claim 之「龍巖生前契約市占率約79%」逐項對應。
+- `4556:objective_ranking_or_market_share:9b2b2b95d0b2860e` — `PARTIALLY_SUPPORTED`. 旭然2015年官方簡報之客戶列載「旗勝科技、漢唐集成、群創光電、旭硝子、**台積電**、（…）」，並載「工業用**超純水**」與「**日月光**」（「過濾」25次），支持其過濾耗材業務及台積電、日月光等客戶；惟「**聯電**」（0次）與「台積電（**最大客戶群**）」（「最大客戶」0次）未獲支持。
+- `2640:objective_ranking_or_market_share:aa3a18660be7ca86` — `PARTIALLY_SUPPORTED`. 大車隊2024年官方簡報中「**車隊**」出現6次，支持其計程車隊經營業務；惟「為台灣**市占率第一**的計程車隊」（「市占」「第一」均0次）、「約 **24,000** 名司機會員」與「約 **29,000** 輛營運車輛」（該二數字均0次）未獲支持。註記：該簡報文字擷取僅1,935字元。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **134 筆**。
+- Author-reviewed total: **605 / 1,399**; remaining: **794**. Outcome counts: ACCEPTED 77, PARTIALLY_SUPPORTED 390, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 134. Next pending claim by priority: `5292:objective_ranking_or_market_share:b7b5d29e96b2972f` (華懋).
+
 
 
 
