@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 06:04 UTC
+Updated: 2026-10-13 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,032 / 1,399**
-- Remaining author review: **367**
-- Latest batch: **author-198** (5 claims)
+- Author-reviewed: **1,035 / 1,399**
+- Remaining author review: **364**
+- Latest batch: **author-199** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **666**
+- `PARTIALLY_SUPPORTED`: **668**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **266**
+- `UNKNOWN_AFTER_RESEARCH`: **267**
 
 ## Latest claim batch
 
-- `3558:profitability_assertion:9f4ccf27dd9b4c28` — `PARTIALLY_SUPPORTED`；神準簡報「**邊緣運算」2 次、「Edge」4 次、「代工」1 次**；惟「神腦／高毛利／自有品牌」皆0次。
-- `3664:profitability_assertion:29e87a23c32ceb1c` — `PARTIALLY_SUPPORTED`；安瑞簡報「**樺漢」3 次、「零信任」1 次**；惟「大宇資／鴻海／ESaaS／訂閱／高毛利」皆0次。
-- `3694:material_named_relationship:3908e3ba4e8cd7ae`、`3694:profitability_assertion:65466b27d8393dcb`、`3694:material_named_relationship:dadb426643e6fced` — `UNKNOWN_AFTER_RESEARCH` ×3；海華官方端點（含官網2020／2018年報）**皆回傳 HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-198.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `4906:profitability_assertion:9a8f9ab180b50bc8` (正文).
+- `4906:profitability_assertion:9a8f9ab180b50bc8` — `PARTIALLY_SUPPORTED`；正文年報「**越南」3 次、「新竹」5 次、「毫米波」3 次、「800G」1 次**；惟「**八成／80%／50G／光收發／高毛利」皆 0 次**。
+- `5353:material_named_relationship:7c785d294ea73984` — `UNKNOWN_AFTER_RESEARCH`；台林年報「**Gogoro／睿能／電控／獨家」皆 0 次**。
+- `6134:profitability_assertion:d800508e968eee23` — `PARTIALLY_SUPPORTED`；萬旭簡報「**儲能」13 次、「車用」12 次、「安控」10 次、「醫療」9 次**、「工控」8次、「視訊」8次；惟「**紅海／高毛利」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-199.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `5348:identity_changing_event:4a9f2cdb40f3fde5` (正能量智能).
 
 ## Source access
 

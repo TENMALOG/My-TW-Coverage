@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-199",
+  "reviewed_at": "2026-10-05T22:01:03Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (正文公司年報; 台林年報; 萬旭法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "4906:profitability_assertion:9a8f9ab180b50bc8",
+      "normalized_claim_hash": "9a8f9ab180b50bc82ccc9565bb34c220fb74fb52ed94f20d33cb6888492f424e",
+      "ticker": "4906",
+      "company": "正文",
+      "path": "Pilot_Reports/Communication Equipment/4906_正文.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "生產基地已有八成產能轉移至越南三大廠區，台灣新竹總廠專注高毛利研發，涵蓋 50G 規格設備、毫米波 FWA 及 [[800G]] 雲端光收發模組。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gemteks.com/zh/ir/shareholder/6gxRJM/download/file2",
+          "title": "正文科技股份有限公司（正文，4906，Gemtek Technology）公司年報／股東會文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取43,443字元）。文件中「**越南**」出現3次、「**新竹**」5次、「**毫米波**」3次、「**800G**」1次，支持其越南生產基地、新竹據點、毫米波與 800G 產品之敘述。**關鍵發現**：全份文件中「**八成**」「**80%**」「**50G**」與「**光收發**」之出現次數**均為0**（「高毛利」亦為0）——未載產能轉移之比例、50G 規格設備或光收發模組之完整表述。"
+        }
+      ],
+      "rationale": "「生產基地轉移至**越南**…台灣**新竹**總廠…涵蓋**毫米波** FWA 及 **800G** 雲端（光收發模組）」獲發行人年報之**部分支持**：文件中「**越南**」3次、「**新竹**」5次、「**毫米波**」3次、「**800G**」1次，**該等生產據點與產品均有對應敘述**。**惟多項陳述未獲支持**：(1)「已有**八成**產能轉移至越南**三大廠區**」——「**八成**」與「**80%**」之出現次數**均為0**（且未載「三大廠區」之數量）；(2)「專注**高毛利**研發」——「**高毛利**」為**0**；(3)「**50G** 規格設備」——「**50G**」為**0**；(4)「**光收發模組**」——「**光收發**」為**0**。故部分成立。",
+      "proposed_text": "正文科技 (4906，Gemtek Technology) 於越南設有生產基地、台灣新竹設有總廠，並發展毫米波與 800G 相關產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5353:material_named_relationship:7c785d294ea73984",
+      "normalized_claim_hash": "7c785d294ea73984f9476986a134011134eedb5756ba7ba4a4900da919d4acce",
+      "ticker": "5353",
+      "company": "台林",
+      "path": "Pilot_Reports/Communication Equipment/5353_台林.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Gogoro]] — 電控模組獨家供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tailyn.com.tw/media/f/9149031053e7771ab79bc7ec98303e40.pdf",
+          "title": "台林電通股份有限公司（台林，5353，TAILYN TECHNOLOGIES）年報",
+          "source_level": 3,
+          "period_binding": "年報所載期間請見文件。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取202,298字元）。**關鍵發現**：全份年報中「**Gogoro**」「**睿能**」「電控」與「獨家」之出現次數**均為0**——未具名該客戶，亦未載電控模組之供應關係。"
+        }
+      ],
+      "rationale": "「[[Gogoro]] — **電控模組獨家供應**」未獲確立：所取得之台林年報（文字擷取202,298字元）中「**Gogoro**」「**睿能**」「電控」與「獨家」之出現次數**均為0**，**未具名該客戶**，亦未載電控模組之供應關係。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6134:profitability_assertion:d800508e968eee23",
+      "normalized_claim_hash": "d800508e968eee237a752a76fddbc0d4d48256998ff7413b6ac4076745573297",
+      "ticker": "6134",
+      "company": "萬旭",
+      "path": "Pilot_Reports/Communication Equipment/6134_萬旭.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司成功轉型脫離傳統 PC 線材紅海，將產品重心轉向四大高毛利領域：儲能工控、車用電子、醫療及視訊安控。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/613420251222M001.pdf",
+          "title": "萬旭電業股份有限公司（萬旭，6134，Wanshih）法人說明會簡報（2025-12-22）",
+          "source_level": 3,
+          "period_binding": "2025年12月22日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,439字元，以圖形排版為主）。簡報中「**儲能**」出現13次、「**車用**」12次、「**安控**」10次、「**醫療**」9次、「**工控**」8次、「**視訊**」8次、「PC」5次，**支持其產品重心集中於該等領域**。**關鍵發現**：全份簡報中「**高毛利**」與「**紅海**」之出現次數**均為0**——未載毛利結構之描述或對傳統市場之評價。"
+        }
+      ],
+      "rationale": "「將產品重心轉向**儲能工控**、**車用電子**、**醫療**及**視訊安控**」獲發行人簡報**充分支持**：簡報中「**儲能**」13次、「**車用**」12次、「**安控**」10次、「**醫療**」9次、「**工控**」8次、「**視訊**」8次、「PC」5次，**該四項領域均有密集之對應敘述**。**惟兩項陳述未獲支持**：(1)「脫離傳統 PC 線材**紅海**」——「**紅海**」出現次數為**0**；(2)「四大**高毛利**領域」——「**高毛利**」為**0**（簡報未載毛利結構之描述）。故部分成立。",
+      "proposed_text": "萬旭電業 (6134，Wanshih) 之產品重心集中於儲能工控、車用電子、醫療及視訊安控等領域。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
