@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependency
+        run: python -m pip install beautifulsoup4
+
       - name: Patch source-definition residuals
         run: python -X utf8 audit-v5/close_source_definition_differences.py
 
