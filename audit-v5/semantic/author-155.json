@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-155",
+  "reviewed_at": "2026-10-05T21:09:31Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (是方電訊2023年度年報; 統振法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "6561:objective_ranking_or_market_share:8a87b4b5a9098e5e",
+      "normalized_claim_hash": "8a87b4b5a9098e5e326f378dbbff1a6a47da6a7dc282f7a6d7b662f843a889c2",
+      "ticker": "6561",
+      "company": "是方",
+      "path": "Pilot_Reports/Telecom Services/6561_是方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "是方電訊股份有限公司 (6561，Chief Telecom) 隸屬於[[中華電]]集團(為其最大股東)，是全台規模最大且保持高度中立的電信級網際網路[[資料中心]](IDC)營運商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chief.com.tw/wp-content/uploads/2024/05/2023%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "是方電訊股份有限公司（是方，6561，Chief Telecom）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取234,672字元）。年報中「**中華電**」出現84次、「**IDC**」73次、「**資料中心**」13次、「**海纜**」12次、「**中立**」8次、「**AWS**」6次、「**Direct Connect**」1次，並載國際公有雲清單「廠(**AWS, Microsoft, Google, Oracle, IBM**, etc.)」與「Azure ExpressRoute」「Oracle 公有雲直連服務」「台北直連Azure 雲端服務正式啟用」，支持其 IDC 業務與國際公有雲直連之敘述。**關鍵發現**：全份年報中「**最大**」4次之上下文**均非 IDC**——分別為(1)「（TPIX 網際網路交換）心已成為台灣會員數及交換訊務量**最大**之網際網路交換中心」、(2)「成為全省**最大**之電信寬頻代理經銷體系，並擁有超過2,000家經銷夥（伴）」、(3)「連續七年間均保持為交通部電信總局數據通信所**最大**的通路商」；「**第一類電信**」與「**綠電**」各見於其上游／ESG 敘述。"
+        }
+      ],
+      "rationale": "「隸屬[[中華電]]集團，為電信級網際網路[[資料中心]]（**IDC**）營運商」獲發行人年報支持：年報中「**中華電**」出現84次、「**IDC**」73次、「**資料中心**」13次、「**中立**」8次，支持其集團歸屬與 IDC 業務。惟兩項陳述未獲逐字支持：(1)「（為其**最大股東**）」——「最大股東」未見；(2)「是全台**規模最大**且保持高度中立之電信級 IDC 營運商」——全份年報中「**最大**」4次之上下文**均非 IDC**（分別為 TPIX 交換中心、電信寬頻代理經銷體系、數據通信所通路商），**未見「全台規模最大 IDC」之表述**。故部分成立。",
+      "proposed_text": "是方電訊 (6561，Chief Telecom) 隸屬中華電集團，為電信級網際網路資料中心（IDC）營運商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6561:objective_ranking_or_market_share:06e71ebe14750575",
+      "normalized_claim_hash": "06e71ebe14750575158d301214285b49ab30a8d91e0222a1528db0657c56a3eb",
+      "ticker": "6561",
+      "company": "是方",
+      "path": "Pilot_Reports/Telecom Services/6561_是方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "「是方」在台灣雲端基礎建設中極具戰略地位，不僅是全台最大的海纜交換中心，更是各大國際公有雲(AWS、Azure、GCP、Oracle等)落地台灣的關鍵直連節點(Direct Connect)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chief.com.tw/wp-content/uploads/2024/05/2023%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "是方電訊股份有限公司（是方，6561，Chief Telecom）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取234,672字元）。年報中「**中華電**」出現84次、「**IDC**」73次、「**資料中心**」13次、「**海纜**」12次、「**中立**」8次、「**AWS**」6次、「**Direct Connect**」1次，並載國際公有雲清單「廠(**AWS, Microsoft, Google, Oracle, IBM**, etc.)」與「Azure ExpressRoute」「Oracle 公有雲直連服務」「台北直連Azure 雲端服務正式啟用」，支持其 IDC 業務與國際公有雲直連之敘述。**關鍵發現**：全份年報中「**最大**」4次之上下文**均非 IDC**——分別為(1)「（TPIX 網際網路交換）心已成為台灣會員數及交換訊務量**最大**之網際網路交換中心」、(2)「成為全省**最大**之電信寬頻代理經銷體系，並擁有超過2,000家經銷夥（伴）」、(3)「連續七年間均保持為交通部電信總局數據通信所**最大**的通路商」；「**第一類電信**」與「**綠電**」各見於其上游／ESG 敘述。"
+        }
+      ],
+      "rationale": "「為各大國際公有雲（**AWS**、**Azure**、**GCP**、**Oracle** 等）落地台灣的關鍵直連節點（**Direct Connect**）」獲發行人年報**實質支持**：年報載國際公有雲清單「廠(**AWS, Microsoft, Google, Oracle, IBM**, etc.)」，並載「**Azure ExpressRoute** 雲服務解決方案」「提供東京的 **Oracle** 公有雲直連服務」「台北直連**Azure** 雲端服務正式啟用」（「**AWS**」6次、「**Direct Connect**」1次）。惟「是全台**最大**的**海纜**交換中心」未獲逐字支持：全份年報中「**最大**」4次之上下文均未涉海纜（海纜見12次，但其敘述未含「最大」）。故部分成立。",
+      "proposed_text": "是方電訊 (6561) 為各大國際公有雲（AWS、Azure、Google、Oracle、IBM 等）落地台灣的直連節點。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6561:objective_ranking_or_market_share:e4ab212b6a0af4ad",
+      "normalized_claim_hash": "e4ab212b6a0af4ad876f07b99e2033ca4ad8459fba792cfebd182930805b285d",
+      "ticker": "6561",
+      "company": "是方",
+      "path": "Pilot_Reports/Telecom Services/6561_是方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**上游**: 第一類電信業者(提供光纖網路、頻寬資源)、[[伺服器]]製造商、機房設備廠及綠電供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chief.com.tw/wp-content/uploads/2024/05/2023%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "是方電訊股份有限公司（是方，6561，Chief Telecom）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取234,672字元）。年報中「**中華電**」出現84次、「**IDC**」73次、「**資料中心**」13次、「**海纜**」12次、「**中立**」8次、「**AWS**」6次、「**Direct Connect**」1次，並載國際公有雲清單「廠(**AWS, Microsoft, Google, Oracle, IBM**, etc.)」與「Azure ExpressRoute」「Oracle 公有雲直連服務」「台北直連Azure 雲端服務正式啟用」，支持其 IDC 業務與國際公有雲直連之敘述。**關鍵發現**：全份年報中「**最大**」4次之上下文**均非 IDC**——分別為(1)「（TPIX 網際網路交換）心已成為台灣會員數及交換訊務量**最大**之網際網路交換中心」、(2)「成為全省**最大**之電信寬頻代理經銷體系，並擁有超過2,000家經銷夥（伴）」、(3)「連續七年間均保持為交通部電信總局數據通信所**最大**的通路商」；「**第一類電信**」與「**綠電**」各見於其上游／ESG 敘述。"
+        }
+      ],
+      "rationale": "「上游為第一類電信業者（提供光纖網路、頻寬資源）及綠電供應商」獲發行人年報支持：年報見「**第一類電信**」（「原本**第一類電信**業者具壟斷性質的特許制與第二類許可制都（…）」）與「**綠電**」（「要求企業採購**綠電**增加營運成（本）」等之 ESG 敘述）。惟「[[伺服器]]製造商、機房設備廠」未獲逐字支持。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6170:objective_ranking_or_market_share:ea74cedd3701221c",
+      "normalized_claim_hash": "ea74cedd3701221c578edb64ac6cba4005589ed180d6e18324cb8a1d5a17869f",
+      "ticker": "6170",
+      "company": "統振",
+      "path": "Pilot_Reports/Telecom Services/6170_統振.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) 金融科技金流 — QuickPay 為台灣首家獲准辦理外籍移工小額匯兌之平台，有效會員數超過 40 萬人，累計匯款金額逾 500 億元，涵蓋印尼、越南、菲律賓及泰國等東南亞四國，市佔率約 40%，為主要營收與利潤引擎；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/617020241204M001.pdf",
+          "title": "統振股份有限公司（統振，6170，Welldone）法人說明會簡報（2024-12-04）",
+          "source_level": 3,
+          "period_binding": "2024年12月4日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,872字元，以圖形排版為主）。簡報中「**移工**」出現19次、「**匯兌**」7次，支持其外籍移工匯兌業務。**關鍵發現**：「**40萬**」1次之上下文為**台灣外籍勞動力規模**——「**40萬外來人力**，補足勞動力缺口」，**非**本公司會員數；另「**市佔**」1次之上下文為「總體市佔率擴大中, **有效會員超過30萬人**」，該處所載**會員數為30萬人**，**與 claim 所述之「超過40萬人」不符**。全份簡報中「**QuickPay**」「**500億**」「**首家**」與「**40%**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「從事外籍移工小額**匯兌**業務」獲發行人簡報支持：簡報中「**移工**」出現19次、「**匯兌**」7次，支持其該項業務。惟多項陳述未獲支持或**與文件不符**：(1)「**QuickPay** 為台灣**首家**獲准辦理…之平台」——「QuickPay」與「首家」之出現次數**均為0**；(2)「有效會員數**超過40萬人**」——簡報載「總體市佔率擴大中, **有效會員超過30萬人**」，**該處所載為30萬人，與 claim 之40萬人不符**；而「**40萬**」1次之上下文為**台灣外籍勞動力規模**（「**40萬外來人力**，補足勞動力缺口」），**非**本公司會員數；(3)「累計匯款金額逾 **500 億元**」——「500億」為0；(4)「市佔率約 **40%**」——「40%」為0。故部分成立。",
+      "proposed_text": "統振 (6170，Welldone) 從事外籍移工小額匯兌業務，其有效會員超過30萬人。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
