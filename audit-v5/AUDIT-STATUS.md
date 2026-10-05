@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 08:34 UTC
+Updated: 2026-10-14 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,141 / 1,399**
-- Remaining author review: **258**
-- Latest batch: **author-224** (1 new claim; 4 re-reviews recorded as amendments in author-223)
+- Author-reviewed: **1,146 / 1,399**
+- Remaining author review: **253**
+- Latest batch: **author-225** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **715**
+- `PARTIALLY_SUPPORTED`: **718**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **321**
+- `UNKNOWN_AFTER_RESEARCH`: **323**
 
 ## Latest claim batch
 
-- 🟢 `3338:material_named_relationship:f05e7d30c8a03bef` — **`ACCEPTED`**；泰碩113年度年報載「供應完整 **NVIDIA/AMD/Intel** CPU 與 GPU 之高效運算伺服器」（「**散熱」125 次、「液冷」19 次、「AI 伺服器」8 次、「NVIDIA」2 次**）——**逐項對應**。
-- 🟢 `3481:material_named_relationship:1a7976baa56b151f` — **`ACCEPTED`**；群創114年度年報載「隨著子公司 **CarUX** 民國一一四年底完成對 **Pioneer** 的收購」（「**CarUX」26 次、「Pioneer」46 次、「雙軌」2 次、「More than Panel」3 次**）——**逐項對應**。
-- `3338:d8fd097329e5101b` — `PARTIALLY_SUPPORTED`；年報載「F. **CDU**、Manifold 研究開發」（CDU 2次）；**惟「CDM」與「LCM」皆 0 次**。
-- `3338:f2a716d3ac6b0cbc` — `PARTIALLY_SUPPORTED`；年報載「緊密配合 Intel、AMD、**NVIDIA** 等晶片大廠開發時程」；**惟「RVL」0 次**。
-- `3455:material_named_relationship:82a4ffc86eb92f92` — `PARTIALLY_SUPPORTED`；由田簡報載「1. **CoWoS** RDL AOI Series」與「**OSAT**」（FOPLP 2次、先進封裝2次）；**惟「半導體營收比重顯著」未載**。
-- ⚠️ **記帳更正**：本輪原重複審查 4 筆已於 author-223 結案之 claim（3338 ×3、3481）。**為維持「每個 claim_id 僅一筆判定」，該 4 筆之複審結果已移入 author-223 作為 `amendment`（保留原判定），author-224 僅保留真正新增之 1 筆。** 現況：**唯一 claim 數 1,141 ＝ 條目總數 1,141（一致）**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-223.json`（9 筆，其中 4 筆經 amendment）與 `semantic/author-224.json`（1 筆）。未修改發行人報告。
+- `3533:material_named_relationship:f33c91e70b958cfa` — `PARTIALLY_SUPPORTED`；嘉澤年報**逐字載**「已逐漸成功打入國際大廠如 **NVIDIA、Amazon、Tesla** 的供應鏈」；**惟「UQD／水冷／快接頭／GPU Socket／AI 伺服器」皆 0 次**。
+- `3533:material_named_relationship:72309c71046bba95` — `PARTIALLY_SUPPORTED`；年報載「獲得 **INTEL PQS award**」「**全球第二家**獲得 **Intel Thunderbolt**」「**CPU Socket-AM5** 通過 **AMD** 認證」（Intel 10次、AMD 1次）；**惟「指定供應商」0 次**。
+- `3526:profitability_assertion:bea1b55c7add10ff` — `PARTIALLY_SUPPORTED`；凡甲ESG「**伺服器」12 次、「車用」2 次**；**惟「聚焦兩大」與文件所載之多領域應用不符**。
+- `3526:material_named_relationship:8509346172039fce` — `UNKNOWN_AFTER_RESEARCH`；「**CATL／寧德時代／BYD／比亞迪／BMS」皆 0 次**。
+- `3492:material_named_relationship:47e66953a4ce1abb` — `UNKNOWN_AFTER_RESEARCH`；長盛官方端點**下載逾時**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-225.json`（5 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,146 ＝ 條目總數 1,146。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:30:14Z",
+  "generated_at": "2026-10-05T22:36:25Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -227,13 +227,14 @@
     "author-221",
     "author-222",
     "author-223",
-    "author-224"
+    "author-224",
+    "author-225"
   ],
-  "source_batch_count": 224,
-  "total_unknown": 321,
+  "source_batch_count": 225,
+  "total_unknown": 323,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 138,
-    "other_unclassified": 117,
+    "no_official_endpoint_found": 139,
+    "other_unclassified": 118,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
@@ -243,7 +244,7 @@
     "connection_failure": 15,
     "garbled_text_layer": 18,
     "client_rendered_only": 5,
-    "download_timeout": 2,
+    "download_timeout": 3,
     "source_identity_mismatch": 10
   },
   "items": [
@@ -4944,6 +4945,35 @@
         "https://mopsov.twse.com.tw/nas/STR/336220250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3526:material_named_relationship:8509346172039fce",
+      "ticker": "3526",
+      "company": "凡甲",
+      "claim": "在車用領域，為 **BMS (電池管理系統)** [[連接器]]主要供應商，大客戶包含 **寧德時代 (CATL)** 與 **比亞迪 ([[BYD]])**。",
+      "batch_id": "author-225",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.alltopconnector.com/data/reports/files/1754018167140129947.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3492:material_named_relationship:47e66953a4ce1abb",
+      "ticker": "3492",
+      "company": "長盛",
+      "claim": "主要客戶涵蓋 [[Chrysler]]、[[BMW]]、[[Maserati]]、[[吉利汽車]]、[[蔚來汽車]] 等車廠，以及 [[Jabil]]、[[Garmin]]、[[Panasonic]] 等車電系統商。",
+      "batch_id": "author-225",
+      "failure_signature": [
+        "download_timeout",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.actt.co/data/Legal-file-01774315373.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }

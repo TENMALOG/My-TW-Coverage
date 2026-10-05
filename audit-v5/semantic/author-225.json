@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-225",
+  "reviewed_at": "2026-10-05T22:36:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (嘉澤年報; 凡甲永續報告書); 長盛官方端點下載逾時，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3533:material_named_relationship:f33c91e70b958cfa",
+      "normalized_claim_hash": "f33c91e70b958cfa39174835904ce23fc53a728d1d80bc0c1308cbda65c01e0d",
+      "ticker": "3533",
+      "company": "嘉澤",
+      "path": "Pilot_Reports/Electronic Components/3533_嘉澤.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "積極切入 **[[AI 伺服器]]** 領域，開發 **GPU Socket** 與 **水冷快接頭 (UQD)**，並打入 **[[NVIDIA]]** 供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lotes.cc/data/shareholder/file/1686014592086155321.pdf",
+          "title": "嘉澤端子工業股份有限公司（嘉澤，3533，Lotes）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取257,852字元）。年報載「應用的連接器中已逐漸成功打入國際大廠如**NVIDIA、Amazon、Tesla** 的供應鏈，佔有相（當）（地位）」（「**NVIDIA**」1次）、「獲得**INTEL** 頒佈 **PQS award** 年度優良品質獎項」「（英）特爾(**Intel**) 與蘋果電腦技術資格認證，成為**全球第二家**獲得 **Intel Thunderbolt**（認證）」「新一代伺服器用 **CPU Socket-AM5(Ginoa) Socket** 通過**AMD** 的認證」（「**Intel**」10次、「**AMD**」1次），**逐項支持其與該等晶片大廠之供應與認證關係**。**關鍵發現**：全份年報中「**UQD**」「**水冷**」「**快接頭**」「**GPU Socket**」「**指定供應商**」與「**AI 伺服器**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「並打入 **[[NVIDIA]]**（供應鏈）」獲發行人年報**逐字支持**：年報載「應用的連接器中已逐漸成功打入國際大廠如 **NVIDIA、Amazon、Tesla** 的供應鏈」（「NVIDIA」1次）。**惟三項具體技術陳述未獲支持**：(1)「**AI 伺服器**」——出現次數**為0**；(2)「**GPU Socket**」——**為0**（年報所載為「CPU Socket-AM5(Ginoa)」）；(3)「**水冷快接頭（UQD）**」——「**UQD**」「水冷」「快接頭」均為**0**。故部分成立。",
+      "proposed_text": "嘉澤端子 (3533，Lotes) 之連接器已打入 NVIDIA、Amazon、Tesla 等國際大廠供應鏈。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3533:material_named_relationship:72309c71046bba95",
+      "normalized_claim_hash": "72309c71046bba959f79881f36d32875c8b60aea5be0fe06c703d4941f4bb03a",
+      "ticker": "3533",
+      "company": "嘉澤",
+      "path": "Pilot_Reports/Electronic Components/3533_嘉澤.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Intel]] / [[AMD]] (指定供應商).",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lotes.cc/data/shareholder/file/1686014592086155321.pdf",
+          "title": "嘉澤端子工業股份有限公司（嘉澤，3533，Lotes）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取257,852字元）。年報載「應用的連接器中已逐漸成功打入國際大廠如**NVIDIA、Amazon、Tesla** 的供應鏈，佔有相（當）（地位）」（「**NVIDIA**」1次）、「獲得**INTEL** 頒佈 **PQS award** 年度優良品質獎項」「（英）特爾(**Intel**) 與蘋果電腦技術資格認證，成為**全球第二家**獲得 **Intel Thunderbolt**（認證）」「新一代伺服器用 **CPU Socket-AM5(Ginoa) Socket** 通過**AMD** 的認證」（「**Intel**」10次、「**AMD**」1次），**逐項支持其與該等晶片大廠之供應與認證關係**。**關鍵發現**：全份年報中「**UQD**」「**水冷**」「**快接頭**」「**GPU Socket**」「**指定供應商**」與「**AI 伺服器**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[Intel]]／[[AMD]]（供應關係）」獲發行人年報**充分支持**：年報載「獲得 **INTEL** 頒佈 **PQS award** 年度優良品質獎項」「成為**全球第二家**獲得 **Intel Thunderbolt**（認證）」（「Intel」10次）與「新一代伺服器用 **CPU Socket-AM5(Ginoa) Socket** 通過**AMD** 的認證」（「AMD」1次）。**惟「指定供應商」之表述未獲支持**——「**指定供應商**」之出現次數**為0**。故部分成立。",
+      "proposed_text": "嘉澤端子 (3533，Lotes) 為 Intel 之 PQS／Thunderbolt 認證廠商，其 CPU Socket 亦通過 AMD 認證。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3526:profitability_assertion:bea1b55c7add10ff",
+      "normalized_claim_hash": "bea1b55c7add10ff31989b530ee3e151dbaae40ee62d650f800b08f9d3947b7b",
+      "ticker": "3526",
+      "company": "凡甲",
+      "path": "Pilot_Reports/Electronic Components/3526_凡甲.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務聚焦兩大高成長引擎：**伺服器 (Server)** 與 **車用 (Automotive)**。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.alltopconnector.com/data/reports/files/1754018167140129947.pdf",
+          "title": "凡甲科技股份有限公司（凡甲，3526，Alltop Technology）永續報告書",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取119,394字元）。報告書載「**伺服器**及工業自動化等全方位應用領域」「主要可區分為**伺服器**、汽車、筆記（型電腦）」「電子**連接器**是電路與訊號傳輸的關鍵元件，應用範圍涵蓋電腦、網通設備、消費電子、**車用**（電子）」「（轉）向**車用**電子、綠能、工控、醫療、**伺服器**等高附加價值市場」（「**伺服器**」12次、「**車用**」2次），**支持其伺服器與車用業務**。**關鍵發現**：全份報告書中「**CATL**」「**寧德時代**」「**BYD**」「**比亞迪**」與「**BMS**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「業務**聚焦**兩大高成長引擎：**伺服器（Server）**與**車用（Automotive）**」獲發行人永續報告書之**部分支持**：報告書中「**伺服器**」出現12次、「**車用**」2次，並載其產品「轉向**車用**電子、綠能、工控、醫療、**伺服器**等高附加價值市場」。**惟「聚焦兩大」之收斂敘述與文件不符**——報告書所載之應用範圍涵蓋「電腦、網通設備、消費電子、車用（電子）」，**即除伺服器與車用外尚有多個領域**。故部分成立。",
+      "proposed_text": "凡甲科技 (3526，Alltop Technology) 為連接器廠商，產品應用涵蓋伺服器、車用電子等高附加價值市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3526:material_named_relationship:8509346172039fce",
+      "normalized_claim_hash": "8509346172039fcea3094ead4e0d5be4631fb13b93da8fdf65d4d1ed9ca7855d",
+      "ticker": "3526",
+      "company": "凡甲",
+      "path": "Pilot_Reports/Electronic Components/3526_凡甲.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在車用領域，為 **BMS (電池管理系統)** [[連接器]]主要供應商，大客戶包含 **寧德時代 (CATL)** 與 **比亞迪 ([[BYD]])**。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.alltopconnector.com/data/reports/files/1754018167140129947.pdf",
+          "title": "凡甲科技股份有限公司（凡甲，3526，Alltop Technology）永續報告書",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取119,394字元）。報告書載「**伺服器**及工業自動化等全方位應用領域」「主要可區分為**伺服器**、汽車、筆記（型電腦）」「電子**連接器**是電路與訊號傳輸的關鍵元件，應用範圍涵蓋電腦、網通設備、消費電子、**車用**（電子）」「（轉）向**車用**電子、綠能、工控、醫療、**伺服器**等高附加價值市場」（「**伺服器**」12次、「**車用**」2次），**支持其伺服器與車用業務**。**關鍵發現**：全份報告書中「**CATL**」「**寧德時代**」「**BYD**」「**比亞迪**」與「**BMS**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「在車用領域，為 **BMS（電池管理系統）[[連接器]]主要供應商**，大客戶包含**寧德時代（CATL）**與**比亞迪（[[BYD]]）**」未獲確立：所取得之凡甲永續報告書中「**CATL**」「**寧德時代**」「**BYD**」「**比亞迪**」與「**BMS**」之出現次數**均為0**，**未具名該等客戶或載明 BMS 連接器之供應地位**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3492:material_named_relationship:47e66953a4ce1abb",
+      "normalized_claim_hash": "47e66953a4ce1abbc3ac3f9f6b46729c005116ba04b7f1aea8d7b0d6821884c1",
+      "ticker": "3492",
+      "company": "長盛",
+      "path": "Pilot_Reports/Electronic Components/3492_長盛.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋 [[Chrysler]]、[[BMW]]、[[Maserati]]、[[吉利汽車]]、[[蔚來汽車]] 等車廠，以及 [[Jabil]]、[[Garmin]]、[[Panasonic]] 等車電系統商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.actt.co/data/Legal-file-01774315373.pdf",
+          "title": "長盛科技股份有限公司（長盛，3492，Advanced Connection Technology）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自發行人官方網域下載長盛文件時**作業逾時（download timeout）**，未取得可檢視之檔案；本批次未取得長盛可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 [[Chrysler]]、[[BMW]]、[[Maserati]]、[[吉利汽車]]、[[蔚來汽車]] 等車廠，以及 [[Jabil]]」未獲確立：本批次自發行人官方網域下載長盛文件時**作業逾時（download timeout）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
