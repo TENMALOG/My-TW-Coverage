@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 08:04 UTC
+Updated: 2026-10-13 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,040 / 1,399**
-- Remaining author review: **359**
-- Latest batch: **author-200** (5 claims)
+- Author-reviewed: **1,045 / 1,399**
+- Remaining author review: **354**
+- Latest batch: **author-201** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **670**
+- `PARTIALLY_SUPPORTED`: **673**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **270**
+- `UNKNOWN_AFTER_RESEARCH`: **272**
 
 ## Latest claim batch
 
-- `5348:identity_changing_event:4a9f2cdb40f3fde5` — `UNKNOWN_AFTER_RESEARCH`；**未查得**正能量智能可檢視之官方文件。
-- `6142:profitability_assertion:10e796816f8274f4` — `PARTIALLY_SUPPORTED`；友勁年報「**企業級」13 次、「轉型」10 次、「MIT」2 次、「台灣製造」1 次**；惟「消費型／低毛利／高毛利」皆0次。
-- `6143:material_named_relationship:2043b380b9c2aeb3`、`8a9881912d069058` — `UNKNOWN_AFTER_RESEARCH` ×2；振曜端點 **HTTP 404**。
-- `6190:material_named_relationship:5b81939bd2644eab` — `PARTIALLY_SUPPORTED`；萬泰科簡報載「**PCIe 5.0/6.0（56G/112Gbps）**」「**GB200/300 NVL72**」「資料來源: **NVIDIA**」（AI 伺服器13次、高速11次、線材12次）；**惟一項「銅軸」為 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-200.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6220:profitability_assertion:340f4e1af42c6eb1` (岳豐).
+- `6220:profitability_assertion:340f4e1af42c6eb1`、`e4804995c2f71ae0` — `UNKNOWN_AFTER_RESEARCH` ×2；岳豐簡報（中英夾雜）「**Belkin／Sony／高毛利」皆 0 次**。
+- `6263:profitability_assertion:6cfe46cddd0516ae` — `PARTIALLY_SUPPORTED`；普萊德年報「**物聯網」23 次、「工業級」20 次、「AIoT」20 次、「綠能」13 次、「ESG」46 次、「嚴苛」5 次**，**且「高毛利」出現 2 次（本審核首見）**；惟 claim 之「**嚴苛溫濕度**」為文件所無（年報所載為軌道／電源／防火標準）。
+- `6263:profitability_assertion:da1193423fc3281b` — `PARTIALLY_SUPPORTED`；「**PLANET」70 次、「自有品牌」5 次、「高毛利」2 次**；惟「極端／高黏著度／神聖使命」等修辭未獲支持。
+- `6263:profitability_assertion:f57ab46a50fa42ec` — `PARTIALLY_SUPPORTED`；「**160」8 次、「代理」19 次、「高毛利」2 次**；惟「單價」「排外」「鐵軍」「話術」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-201.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6263:material_named_relationship:b8c4cba57cba6846` (普萊德).
 
 ## Source access
 

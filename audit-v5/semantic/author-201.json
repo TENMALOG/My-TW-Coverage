@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-201",
+  "reviewed_at": "2026-10-05T22:03:25Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (岳豐法人說明會簡報; 普萊德2024年度公司年報)",
+  "items": [
+    {
+      "claim_id": "6220:profitability_assertion:340f4e1af42c6eb1",
+      "normalized_claim_hash": "340f4e1af42c6eb16b0da214a45df99123077e5bc932869e5ada976c2c08d658",
+      "ticker": "6220",
+      "company": "岳豐",
+      "path": "Pilot_Reports/Communication Equipment/6220_岳豐.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Belkin]]、[[Sony]] — 高毛利 OEM 代工",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/622020260626E001.pdf",
+          "title": "岳豐科技股份有限公司（岳豐，6220，YFC-BonEagle Electric）法人說明會簡報（2026-06-26）",
+          "source_level": 3,
+          "period_binding": "2026年6月26日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,777字元，**中英夾雜**，以圖形排版為主）。簡報含「YFC-BonEagle ELECTRIC CO.,LTD.」「免責聲明」「The presentation contains projections & estimates…」等內容，並見「**OEM**」2次。**關鍵發現**：全份簡報中「**Belkin**」「**Sony**」與「高毛利」之出現次數**均為0**——**未具名任何客戶**。"
+        }
+      ],
+      "rationale": "「[[Belkin]]、[[Sony]] — **高毛利 OEM 代工**」未獲確立：所取得之岳豐法人說明會簡報（**中英夾雜**）中「**OEM**」出現2次，**惟「Belkin」「Sony」與「高毛利」之出現次數均為0**，**未具名任何客戶**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6220:profitability_assertion:e4804995c2f71ae0",
+      "normalized_claim_hash": "e4804995c2f71ae03189a3ecb5f39b25104594086381520d91881d3d7bad2695",
+      "ticker": "6220",
+      "company": "岳豐",
+      "path": "Pilot_Reports/Communication Equipment/6220_岳豐.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Belkin]]、[[Sony]] — 高毛利網通線材 OEM",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/622020260626E001.pdf",
+          "title": "岳豐科技股份有限公司（岳豐，6220，YFC-BonEagle Electric）法人說明會簡報（2026-06-26）",
+          "source_level": 3,
+          "period_binding": "2026年6月26日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,777字元，**中英夾雜**，以圖形排版為主）。簡報含「YFC-BonEagle ELECTRIC CO.,LTD.」「免責聲明」「The presentation contains projections & estimates…」等內容，並見「**OEM**」2次。**關鍵發現**：全份簡報中「**Belkin**」「**Sony**」與「高毛利」之出現次數**均為0**——**未具名任何客戶**。"
+        }
+      ],
+      "rationale": "「[[Belkin]]、[[Sony]] — 高毛利**網通線材 OEM**」未獲確立：同上，簡報中「Belkin」「Sony」之出現次數**均為0**，「網通線材」之完整表述亦未見，**未具名任何客戶**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6263:profitability_assertion:6cfe46cddd0516ae",
+      "normalized_claim_hash": "6cfe46cddd0516ae24377004693f342199f34e99b4032f6104e57029661a28de",
+      "ticker": "6263",
+      "company": "普萊德",
+      "path": "Pilot_Reports/Communication Equipment/6263_普萊德.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年緊抓工業[[物聯網]](IIoT)與綠能趨勢，強攻高毛利的「工業級網路設備」(可在嚴苛溫濕度下運作)與AIoT雲端管理平台，更是少數將ESG(綠色供應鏈)落實於[[網通]]產品設計的指標企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ftp.planet.com.tw/storage/local-ir-yearly-reports/42483/2024%e5%b9%b4%e5%ba%a6%e5%85%ac%e5%8f%b8%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "普萊德科技股份有限公司（普萊德，6263，Planet Technology）2024 年度公司年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取163,586字元）。年報中「**PLANET**」出現70次、「**工業級**」20次、「**物聯網**」23次、「**AIoT**」20次、「**IIoT**」3次、「**綠能**」13次、「**ESG**」46次、「**自有品牌**」5次、「代理」19次、「160」8次、「**嚴苛**」5次。**關鍵發現（首度出現「高毛利」）**：年報載「2. 持續創新**綠能**網通產品研發，提升品牌差異化競爭優勢，**創造高毛利**」——**「高毛利」出現2次，為本審核所見官方文件中首度使用該詞者**；另載「(三) 強固**工業級**網路與車聯網設備方案…」「**10G 工業級網路設備**支援 EN50155 軌道運輸、EN61368 電源、EN45545 防火等**嚴苛環境**」。**惟全份年報中「溫濕度」「單價」「Broadcom」「博通」「瑞昱」與「排外」之出現次數均為0**（「黏著」1次）。"
+        }
+      ],
+      "rationale": "claim 之多數要素獲發行人年報**充分支持**：年報中「**物聯網**」23次、「**IIoT**」3次、「**工業級**」20次、「**AIoT**」20次、「**綠能**」13次、「**ESG**」46次、「**嚴苛**」5次；**且「高毛利」出現2次**——年報載「2. 持續創新**綠能**網通產品研發，提升品牌差異化競爭優勢，**創造高毛利**」，另載「**10G 工業級網路設備**支援 EN50155 軌道運輸、EN61368 電源、EN45545 防火等**嚴苛環境**」，**支持其為工業級網路設備與 AIoT／綠能／ESG 網通產品之廠商**。**惟一項技術性表述與文件不同**：claim 稱「可在嚴苛**溫濕度**下運作」——年報所述之嚴苛條件為**軌道運輸、電源與防火標準**，**「溫濕度」之出現次數為0**。故部分成立。",
+      "proposed_text": "普萊德科技 (6263，Planet Technology) 發展工業物聯網（IIoT）與綠能網通產品，其工業級網路設備可於嚴苛環境下運作，並具 AIoT 與 ESG 相關產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6263:profitability_assertion:da1193423fc3281b",
+      "normalized_claim_hash": "da1193423fc3281b6109b60e537e452b9c520798d9d2b7b9ed00452977d00d71",
+      "ticker": "6263",
+      "company": "普萊德",
+      "path": "Pilot_Reports/Communication Equipment/6263_普萊德.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其極度獨特且令代工同業羨煞的商業精髓，在於一切研發動能皆以打造極端高毛利、高黏著度的自有品牌「**PLANET**」為最高神聖使命。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ftp.planet.com.tw/storage/local-ir-yearly-reports/42483/2024%e5%b9%b4%e5%ba%a6%e5%85%ac%e5%8f%b8%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "普萊德科技股份有限公司（普萊德，6263，Planet Technology）2024 年度公司年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取163,586字元）。年報中「**PLANET**」出現70次、「**工業級**」20次、「**物聯網**」23次、「**AIoT**」20次、「**IIoT**」3次、「**綠能**」13次、「**ESG**」46次、「**自有品牌**」5次、「代理」19次、「160」8次、「**嚴苛**」5次。**關鍵發現（首度出現「高毛利」）**：年報載「2. 持續創新**綠能**網通產品研發，提升品牌差異化競爭優勢，**創造高毛利**」——**「高毛利」出現2次，為本審核所見官方文件中首度使用該詞者**；另載「(三) 強固**工業級**網路與車聯網設備方案…」「**10G 工業級網路設備**支援 EN50155 軌道運輸、EN61368 電源、EN45545 防火等**嚴苛環境**」。**惟全份年報中「溫濕度」「單價」「Broadcom」「博通」「瑞昱」與「排外」之出現次數均為0**（「黏著」1次）。"
+        }
+      ],
+      "rationale": "「一切研發動能以打造**自有品牌『[[PLANET]]』**為使命」獲發行人年報**充分支持**：年報中「**PLANET**」出現70次、「**自有品牌**」5次、「**高毛利**」2次、「黏著」1次。**惟兩項修辭性表述未獲支持**：(1)「**極端**高毛利」——年報僅稱「創造高毛利」，未載「極端」之程度描述；(2)「**高黏著度**」「最高**神聖使命**」——「黏著」僅1次且其上下文未載客戶黏著度之敘述，「神聖使命」為 claim 之修辭。故部分成立。",
+      "proposed_text": "普萊德科技 (6263，Planet Technology) 以自有品牌「PLANET」發展高毛利之網通產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6263:profitability_assertion:f57ab46a50fa42ec",
+      "normalized_claim_hash": "f57ab46a50fa42ec04f10bd32be11638f303743f1388a2b7c1020e48337c0433",
+      "ticker": "6263",
+      "company": "普萊德",
+      "path": "Pilot_Reports/Communication Equipment/6263_普萊德.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其高毛利高單價之產品群，透過超過世界 160 個角落、有著龐大在地特殊商業關係及政府人脈的忠誠型長期排外代理夥伴鐵軍，以超強在地化的精準行銷話術與技術服務支援，最終觸及包括智慧工廠製造業 IIoT 建設、全球各大建設暨能源基礎設施、嚴苛要求的國防軍政與海事通訊系統、醫療照護數位化網路及極重度依賴的金融保險資安骨幹等超高利潤與超黏著的終端戰場客戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ftp.planet.com.tw/storage/local-ir-yearly-reports/42483/2024%e5%b9%b4%e5%ba%a6%e5%85%ac%e5%8f%b8%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "普萊德科技股份有限公司（普萊德，6263，Planet Technology）2024 年度公司年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取163,586字元）。年報中「**PLANET**」出現70次、「**工業級**」20次、「**物聯網**」23次、「**AIoT**」20次、「**IIoT**」3次、「**綠能**」13次、「**ESG**」46次、「**自有品牌**」5次、「代理」19次、「160」8次、「**嚴苛**」5次。**關鍵發現（首度出現「高毛利」）**：年報載「2. 持續創新**綠能**網通產品研發，提升品牌差異化競爭優勢，**創造高毛利**」——**「高毛利」出現2次，為本審核所見官方文件中首度使用該詞者**；另載「(三) 強固**工業級**網路與車聯網設備方案…」「**10G 工業級網路設備**支援 EN50155 軌道運輸、EN61368 電源、EN45545 防火等**嚴苛環境**」。**惟全份年報中「溫濕度」「單價」「Broadcom」「博通」「瑞昱」與「排外」之出現次數均為0**（「黏著」1次）。"
+        }
+      ],
+      "rationale": "「**高毛利高單價**之產品群，透過超過世界 **160** 個角落…長期**代理**夥伴…」獲發行人年報之**部分支持**：年報中「**高毛利**」2次、「**160**」8次、「**代理**」19次，**支持其高毛利產品與全球代理通路之敘述**。**惟多項修辭性表述未獲支持**：(1)「高**單價**」——「單價」出現次數為**0**；(2)「長期**排外**代理夥伴**鐵軍**」——「**排外**」為**0**；「忠誠型」「鐵軍」「話術」「政府人脈」等亦未見；(3)「精準行銷話術」之表述未見。故部分成立。",
+      "proposed_text": "普萊德科技 (6263) 之高毛利產品群透過全球逾160個地區之代理夥伴銷售。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
