@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-254",
+  "reviewed_at": "2026-10-05T23:17:44Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (亞矽年報; 旺玖114年股東常會議事手冊; 至上2025法說會; 矽力-KY 2025法說會); 宏觀端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "6113:material_named_relationship:aae3976ab7d6df98",
+      "normalized_claim_hash": "aae3976ab7d6df988a5addb57c364921e0de30dd730ea91f8e9adf8ec22ae1e6",
+      "ticker": "6113",
+      "company": "亞矽",
+      "path": "Pilot_Reports/Semiconductors/6113_亞矽.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**中游**: **亞矽科技** ([[半導體]]零組件代理經銷、技術支援與Design-in服務)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.asec.com.tw/investor_document-detail/0/107/",
+          "title": "亞矽科技股份有限公司（亞矽，6113，Asec）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（路徑標示 107）。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取215,867字元）。年報中「**亞矽科技**」157次、「**代理**」85次、「**半導體**」53次、「**零組件**」21次、「**技術支援**」7次、「經銷」1次（並載「重要客戶所需要的**零組件**，並提供足夠的產品服務與**技術應用支援**」「產品整合性**技術支援**服務」），**逐項支持其半導體零組件代理經銷與技術支援業務**。**關鍵發現**：全份年報中「**Design-in**」（含大小寫變體）之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[半導體]]零組件代理經銷**、**技術支援**」獲發行人年報**逐項支持**：年報中「**亞矽科技**」157次、「**代理**」85次、「**半導體**」53次、「**零組件**」21次、「**技術支援**」7次，並載「重要客戶所需要的**零組件**，並提供足夠的產品服務與**技術應用支援**」「產品整合性**技術支援**服務」，**支持其半導體零組件代理經銷與技術支援業務**。**惟「[[Design-in]]」未獲支持**——全份年報中「**Design-in**」（含大小寫變體）之出現次數**為0**。故部分成立。",
+      "proposed_text": "亞矽科技 (6113，Asec) 從事半導體零組件代理經銷與技術支援服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8112:material_named_relationship:cafe7c80dddb81bf",
+      "normalized_claim_hash": "cafe7c80dddb81bfc9a6064850aeaa244fe9a0fb76fd2d5b1bf99e08b9ff5062",
+      "ticker": "8112",
+      "company": "至上",
+      "path": "Pilot_Reports/Semiconductors/8112_至上.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Samsung]] (主要供應商，台灣主力代理)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/811220250905M001.pdf",
+          "title": "至上電子股份有限公司（至上，8112，Supreme Electronics）法人說明會簡報（2025-09-05）",
+          "source_level": 3,
+          "period_binding": "2025年9月5日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,527字元，以圖形排版為主）。簡報**逐字載**「韓國**三星電子**」「(**Samsung**) **代理商**」「取得**三星電子全系列**（產品代理權）」（「**Samsung**」2次、「**三星**」2次、「**代理**」3次），**支持其為三星電子代理商之地位**。**關鍵發現**：全份簡報中「**主要供應商**」與「主力代理」之字樣**未見**。"
+        }
+      ],
+      "rationale": "「**[[Samsung]]**（…台灣主力代理）」獲發行人簡報**逐字支持**：簡報載「韓國**三星電子**」「(**Samsung**) **代理商**」「取得**三星電子全系列**（產品代理權）」（「Samsung」2次、「三星」2次、「代理」3次），**支持其為三星電子代理商之地位**。**惟「主要供應商」與「台灣主力代理」兩項排序性表述未獲支持**——該等字樣**未見**。故部分成立。",
+      "proposed_text": "至上電子 (8112，Supreme Electronics) 為三星電子（Samsung）之代理商，取得其全系列產品代理權。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8112:material_named_relationship:520feb9d0a03f34a",
+      "normalized_claim_hash": "520feb9d0a03f34a8f890de31561ee6dfc886a57547ef31058199f6399a1d7ed",
+      "ticker": "8112",
+      "company": "至上",
+      "path": "Pilot_Reports/Semiconductors/8112_至上.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Samsung]] (主要供應商)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/811220250905M001.pdf",
+          "title": "至上電子股份有限公司（至上，8112，Supreme Electronics）法人說明會簡報（2025-09-05）",
+          "source_level": 3,
+          "period_binding": "2025年9月5日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,527字元，以圖形排版為主）。簡報**逐字載**「韓國**三星電子**」「(**Samsung**) **代理商**」「取得**三星電子全系列**（產品代理權）」（「**Samsung**」2次、「**三星**」2次、「**代理**」3次），**支持其為三星電子代理商之地位**。**關鍵發現**：全份簡報中「**主要供應商**」與「主力代理」之字樣**未見**。"
+        }
+      ],
+      "rationale": "「**[[Samsung]]**（（主要）供應商）」獲發行人簡報**逐字支持**：簡報載「韓國**三星電子**」「(**Samsung**) **代理商**」「取得**三星電子全系列**」（Samsung 2次、三星2次、代理3次），**支持 Samsung 為其上游供應商（代理關係）**。**惟「主要供應商」之排序性表述未獲支持**——「主要供應商」之字樣**未見**。故部分成立。",
+      "proposed_text": "至上電子 (8112，Supreme Electronics) 代理三星電子（Samsung）產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6233:material_named_relationship:a145a85dc6d3dece",
+      "normalized_claim_hash": "a145a85dc6d3decedd8927273aa1bee69b417b79f714c729bf1b085e5e8f531e",
+      "ticker": "6233",
+      "company": "旺玖",
+      "path": "Pilot_Reports/Semiconductors/6233_旺玖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近期，旺玖亦投入微機電系統(MEMS)領域以及[[散熱]]風扇馬達IC的開發，並成功打入[[資料中心]]與[[AI[[伺服器]]]]的[[散熱]]解決方案供應鏈，藉由多角化產品線(控制晶片+[[連接器]]+馬達IC)尋求營運突破。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.prolific.com.tw/wp-content/uploads/2025/07/%e6%97%ba%e7%8e%96%e7%a7%91%e6%8a%80114%e6%89%8b%e5%86%8a%e4%b8%ad%e6%96%87%e7%89%88%e4%b8%8a%e5%82%b3%e6%aa%94.pdf",
+          "title": "旺玖科技股份有限公司（旺玖，6233，Prolific Technology）一一四年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國114年股東常會。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取37,899字元）。**文件性質為股東常會議事手冊**；文中「**散熱**」出現3次、「**風扇**」3次，**支持其散熱風扇相關業務**。**關鍵發現**：全份文件中「**MEMS**」「**微機電**」與「馬達IC」之出現次數**均為0**——**未載其投入微機電系統領域之敘述**。"
+        }
+      ],
+      "rationale": "「…以及**[[散熱]]風扇馬達IC**的開發」獲發行人文件之**部分支持**：**股東常會議事手冊**中「**散熱**」出現3次、「**風扇**」3次，**支持其散熱風扇相關業務**。**惟「微機電系統（MEMS）」未獲支持**——「**MEMS**」「**微機電**」與「馬達IC」之出現次數**均為0**。故部分成立。**文件性質註記**：本件為**股東會議事手冊**，**其內容不含產品線之完整敘述**；**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": "旺玖科技 (6233，Prolific Technology) 之業務涵蓋散熱風扇相關領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6415:material_named_relationship:0cef52dbf5efff15",
+      "normalized_claim_hash": "0cef52dbf5efff154560ba5a9dd5b091a7c36f9c9c460998392e38dde9ad666e",
+      "ticker": "6415",
+      "company": "矽力-KY",
+      "path": "Pilot_Reports/Semiconductors/6415_矽力-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Samsung]]、[[Sony]]、華為、各大車廠Tier 1及尋求供應鏈多元化之美系雲端巨擘(如AWS)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/641520251116M001.pdf",
+          "title": "矽力杰股份有限公司（矽力-KY，6415，Silergy）法人說明會簡報（2025-11-16）",
+          "source_level": 3,
+          "period_binding": "2025年11月16日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,178字元，以圖形排版為主）。**關鍵發現**：全份簡報中「**Samsung**」「**Sony**」「**華為**」「**Tier 1**」與「車廠」之出現次數**均為0**——**未具名任何客戶或載明其客戶層級**。"
+        }
+      ],
+      "rationale": "「**[[Samsung]]**、**[[Sony]]**、**華為**、各大**車廠 Tier 1** 及尋求供應鏈多元化之（美系客戶）」未獲確立：所取得之矽力-KY 2025年法人說明會簡報中「**Samsung**」「**Sony**」「**華為**」「**Tier 1**」與「車廠」之出現次數**均為0**，**未具名任何客戶或載明其客戶層級**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6568:profitability_assertion:1731f691304f081b",
+      "normalized_claim_hash": "1731f691304f081be3edb4919a00dea16ad905209b42ee067852fd49bffaf742",
+      "ticker": "6568",
+      "company": "宏觀",
+      "path": "Pilot_Reports/Semiconductors/6568_宏觀.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "同時，公司成功打入中國大型[[資料中心]]供應鏈，並開始跨足高毛利的車載影音與安防感測晶片市場。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/656820250401M001.pdf",
+          "title": "宏觀微電子（6568）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之宏觀微電子端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得宏觀微電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司成功打入中國大型[[資料中心]]供應鏈，並開始跨足高毛利的**車載影音**與**安防感測晶片**」未獲確立：本批次所嘗試之宏觀端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

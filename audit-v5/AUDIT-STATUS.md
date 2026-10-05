@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 13:04 UTC
+Updated: 2026-10-15 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,309 / 1,399**
-- Remaining author review: **90**
-- Latest batch: **author-253** (7 claims)
+- Author-reviewed: **1,315 / 1,399**
+- Remaining author review: **84**
+- Latest batch: **author-254** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **795**
+- `PARTIALLY_SUPPORTED`: **799**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **404**
+- `UNKNOWN_AFTER_RESEARCH`: **406**
 
 ## Latest claim batch
 
-- `4919:material_named_relationship:4fac3fb4e7cfd821` — `PARTIALLY_SUPPORTED`；新唐年報「**車用」23 次、「ToF」8 次、「BMIC」2 次**；**惟「Panasonic／Tier 1」皆 0 次**。
-- `4966:material_named_relationship:1988b56ac9565752` — `PARTIALLY_SUPPORTED`；譜瑞年報「**TCON」45 次、「譜瑞」154 次**；**惟「Apple／蘋果／iPad／MacBook／獨家」皆 0 次**。
-- `4971:material_named_relationship:1fca6baf1f4e0898` — `PARTIALLY_SUPPORTED`；IET簡報見「**Skyworks**」列舉；**惟「主要客戶／客戶」0 次**（**英文簡報且為1Q/2013版本**）。
-- ⚠️ `6104:ccadff902f8888ec`、`27b4182e9c3dac26` — `UNKNOWN_AFTER_RESEARCH` ×2；創惟官方端點 **HTTP 410（已移走）**。
-- `3680:1a3ba9385a605af5`、`5236:05d29b60f8c46ffa` — `UNKNOWN_AFTER_RESEARCH` ×2；家登與凌陽創新端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-253.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,309 ＝ 條目總數 1,309。**覆蓋率 93.57%**。
-- Next pending claim by priority: `6113:material_named_relationship:aae3976ab7d6df98` (亞矽).
+- `6113:material_named_relationship:aae3976ab7d6df98` — `PARTIALLY_SUPPORTED`；亞矽年報「**亞矽科技」157 次、「代理」85 次、「技術支援」7 次、「零組件」21 次**；**惟「Design-in」0 次**。
+- `8112:material_named_relationship:cafe7c80dddb81bf`、`520feb9d0a03f34a` — `PARTIALLY_SUPPORTED` ×2；至上簡報**逐字載**「韓國**三星電子（Samsung）代理商**」「取得**三星電子全系列**」；**惟「主要供應商／主力代理」字樣未見**。
+- `6233:material_named_relationship:a145a85dc6d3dece` — `PARTIALLY_SUPPORTED`；旺玖114年議事手冊「**散熱」3 次、「風扇」3 次**；**惟「MEMS／微機電／馬達IC」皆 0 次**（**文件為議事手冊**）。
+- `6415:material_named_relationship:0cef52dbf5efff15` — `UNKNOWN_AFTER_RESEARCH`；矽力-KY簡報「**Samsung／Sony／華為／Tier 1／車廠」皆 0 次**。
+- `6568:1731f691304f081b` — `UNKNOWN_AFTER_RESEARCH`；宏觀端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-254.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,315 ＝ 條目總數 1,315。**覆蓋率 94.00%**。
+- Next pending claim by priority: `8298:material_named_relationship:2b7d8122908935b6` (威睿).
 
 ## Source access
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:16:52Z",
+  "generated_at": "2026-10-05T23:17:57Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -256,17 +256,18 @@
     "author-250",
     "author-251",
     "author-252",
-    "author-253"
+    "author-253",
+    "author-254"
   ],
-  "source_batch_count": 253,
-  "total_unknown": 404,
+  "source_batch_count": 254,
+  "total_unknown": 406,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 183,
+    "no_official_endpoint_found": 185,
     "other_unclassified": 151,
     "tls_failure": 15,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 108,
+    "http_404": 109,
     "image_only_or_tiny_text": 18,
     "http_403": 16,
     "connection_failure": 15,
@@ -289,7 +290,7 @@
         "https://www.haksport.com/wp-content/uploads/2025/12/%E6%B0%91%E5%9C%8B113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
         "https://www.haksport.com/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1339:objective_ranking_or_market_share:375175af06d90a6f",
@@ -303,7 +304,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/133920260806M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2231:objective_ranking_or_market_share:f1eaea15e5afaa59",
@@ -317,7 +318,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/223120240611M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2231:objective_ranking_or_market_share:53dc6e668cc52c45",
@@ -331,7 +332,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/223120240611M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2245:objective_ranking_or_market_share:7ade1b140810fe09",
@@ -390,7 +391,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/355220251119M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2845:objective_ranking_or_market_share:70d1f48d13bb0d55",
@@ -434,7 +435,7 @@
       "attempted_sources": [
         "https://www.sinopac.com/upload/sinopac/spfcMenu/182e834b4d20000074f2.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2890:objective_ranking_or_market_share:92485629cda4cfea",
@@ -448,7 +449,7 @@
       "attempted_sources": [
         "https://www.sinopac.com/upload/sinopac/spfcMenu/182e834b4d20000074f2.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5880:objective_ranking_or_market_share:a7669e207f28c0b5",
@@ -462,7 +463,7 @@
       "attempted_sources": [
         "https://www.tcfhc.com.tw/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5880:objective_ranking_or_market_share:0f3b5a58ad55e774",
@@ -476,7 +477,7 @@
       "attempted_sources": [
         "https://www.tcfhc.com.tw/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8930:objective_ranking_or_market_share:0e49eeeb7dba1af5",
@@ -490,7 +491,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893020251218M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8342:objective_ranking_or_market_share:acce089189cec438",
@@ -505,7 +506,7 @@
         "https://emops.twse.com.tw/nas/STR/834220250903E001.pdf",
         "https://www.ijang.com.tw/proimages/investor/meeting/107%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8342:objective_ranking_or_market_share:a2f0330b12f64684",
@@ -520,7 +521,7 @@
         "https://emops.twse.com.tw/nas/STR/834220250903E001.pdf",
         "https://www.ijang.com.tw/proimages/investor/meeting/107%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1326:objective_ranking_or_market_share:ab200ad4f1ede1d8",
@@ -534,7 +535,7 @@
       "attempted_sources": [
         "https://www.fcfc.com.tw/download/51989"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8438:objective_ranking_or_market_share:4d8d631a88512604",
@@ -549,7 +550,7 @@
         "https://mopsov.twse.com.tw/nas/STR/843820260824M003.pdf",
         "https://www.persee.com.tw/wp-content/uploads/20240726_compressed.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8438:objective_ranking_or_market_share:c76e972ea99e7f8f",
@@ -564,7 +565,7 @@
         "https://mopsov.twse.com.tw/nas/STR/843820260824M003.pdf",
         "https://www.persee.com.tw/wp-content/uploads/20240726_compressed.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8438:objective_ranking_or_market_share:53bcfea6d2bddac1",
@@ -579,7 +580,7 @@
         "https://mopsov.twse.com.tw/nas/STR/843820260824M003.pdf",
         "https://www.persee.com.tw/wp-content/uploads/20240726_compressed.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3047:objective_ranking_or_market_share:8d08849b1db7901e",
@@ -641,7 +642,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/355820221118E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6143:objective_ranking_or_market_share:93413fcf26dee269",
@@ -656,7 +657,7 @@
         "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
         "https://mopsov.twse.com.tw/nas/STR/614320250225M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6143:objective_ranking_or_market_share:73dfb069f9845e04",
@@ -671,7 +672,7 @@
         "https://www.netronixinc.com/download/2024Sustainability_Report.pdf",
         "https://mopsov.twse.com.tw/nas/STR/614320250225M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7812:objective_ranking_or_market_share:e6cb42dfad1770b6",
@@ -685,7 +686,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/781220250108E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8089:objective_ranking_or_market_share:cee0f405aeaab0db",
@@ -801,7 +802,7 @@
       "attempted_sources": [
         "https://www.avalue.com/upload/2024_05_29/80_20240529135711ysn7j5hU30.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3594:objective_ranking_or_market_share:8a5b9baaa79c34f3",
@@ -815,7 +816,7 @@
       "attempted_sources": [
         "https://partnerzone.arbor-technology.com/investor/stockholder/shareholders_meeting/115/2026-Meeting-Agenda.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6928:objective_ranking_or_market_share:1f10b3d64aa834a7",
@@ -995,7 +996,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5871_110.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3092:objective_ranking_or_market_share:e36782398881d1ed",
@@ -1024,7 +1025,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/629020200825M002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6788:objective_ranking_or_market_share:4cdbfeafed0be581",
@@ -1038,7 +1039,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/678820251205E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6788:objective_ranking_or_market_share:e15a4230aec4e97e",
@@ -1052,7 +1053,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/678820251205E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8038:objective_ranking_or_market_share:d89476319d794d57",
@@ -1066,7 +1067,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/803820230601E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2317:objective_ranking_or_market_share:862167a3881f91f4",
@@ -1156,7 +1157,7 @@
       "attempted_sources": [
         "https://www.chinpoon.com/archive/investor/item/AR/4_a_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21",
@@ -1201,7 +1202,7 @@
       "attempted_sources": [
         "http://www.ichia.com/images/shareholders/2025-4.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3008:objective_ranking_or_market_share:851df492397be9dc",
@@ -1215,7 +1216,7 @@
       "attempted_sources": [
         "https://www.largan.com.tw/tw/tool-download/page_size/file/172/2013-%e5%b9%b4%e5%a0%b1"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3017:objective_ranking_or_market_share:f76fbbb6956b1040",
@@ -1229,7 +1230,7 @@
       "attempted_sources": [
         "https://www.kgisocial.com/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3036:objective_ranking_or_market_share:48c69f1daccb8476",
@@ -1346,7 +1347,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5228:objective_ranking_or_market_share:95ce91a2dd332b21",
@@ -1360,7 +1361,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5243:objective_ranking_or_market_share:94480ceb66fb33f4",
@@ -1374,7 +1375,7 @@
       "attempted_sources": [
         "https://cdn.financialreports.eu/financialreports/media/filings/52465/2026/RNS/52465_rns_2026-07-09_014704f3-7ba1-45df-ade7-6511e2017525.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6153:objective_ranking_or_market_share:aac6a63b7c86262a",
@@ -1388,7 +1389,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/615320220914M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6176:objective_ranking_or_market_share:98d2560ecfdbae12",
@@ -1402,7 +1403,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6512:objective_ranking_or_market_share:52216fcbf3c5cfac",
@@ -1444,7 +1445,7 @@
       "attempted_sources": [
         "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6673:objective_ranking_or_market_share:5837eee3cc7c02e7",
@@ -1458,7 +1459,7 @@
       "attempted_sources": [
         "https://www.iftc.com.tw/uploadfiles/415/06%e6%8a%95%e8%b3%87%e4%ba%ba%e5%b0%88%e5%8d%80/%e5%b9%b4%e5%a0%b1%e8%b3%87%e6%96%99/2023/2023.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6473:objective_ranking_or_market_share:b29d00af5856229f",
@@ -1472,7 +1473,7 @@
       "attempted_sources": [
         "https://company.meimaii.com/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1603:objective_ranking_or_market_share:12171e5a5dfe2650",
@@ -1486,7 +1487,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/160320251127E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1603:objective_ranking_or_market_share:fe4b64c156172c36",
@@ -1500,7 +1501,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/160320251127E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3048:objective_ranking_or_market_share:e7578b46e213723c",
@@ -1514,7 +1515,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
@@ -1528,7 +1529,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6691:objective_ranking_or_market_share:4a06f569d516bc7a",
@@ -1542,7 +1543,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/669120260310M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6691:objective_ranking_or_market_share:d5272625e216200f",
@@ -1556,7 +1557,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/669120260310M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6750:objective_ranking_or_market_share:40044574fe259065",
@@ -1570,7 +1571,7 @@
       "attempted_sources": [
         "https://www.tech-top-eng.com/service/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6625:objective_ranking_or_market_share:2ffa2be8731ab449",
@@ -1598,7 +1599,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/205920250904M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6629:objective_ranking_or_market_share:011aa453e3809aa4",
@@ -1612,7 +1613,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/662920221213E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6629:objective_ranking_or_market_share:f4667886c406f031",
@@ -1626,7 +1627,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/662920221213E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6629:objective_ranking_or_market_share:a8ac715de8b715a0",
@@ -1640,7 +1641,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/662920221213E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6629:objective_ranking_or_market_share:6df22dec22cccf22",
@@ -1654,7 +1655,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/662920221213E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6807:objective_ranking_or_market_share:cf492ef06b948781",
@@ -1682,7 +1683,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_8464_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9935:objective_ranking_or_market_share:edace39a5abeffd8",
@@ -1696,7 +1697,7 @@
       "attempted_sources": [
         "https://chingfeng.com/proimages/Investors/Institutional_Investors/seminar20180830_ch.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2373:objective_ranking_or_market_share:3dc2f728f9ba57e4",
@@ -1711,7 +1712,7 @@
       "attempted_sources": [
         "https://www.aurora.com.tw/files/file_pool/1/0k295648413908695280/%E9%9C%87%E6%97%A6%E8%A1%8C108%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1a5%280518%29.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6192:objective_ranking_or_market_share:9d3d9e091d15025a",
@@ -1725,7 +1726,7 @@
       "attempted_sources": [
         "http://www.elumax.com/storage/2019/01/1110524-annual-reportlock.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6192:objective_ranking_or_market_share:29dfc8d397ce595b",
@@ -1739,7 +1740,7 @@
       "attempted_sources": [
         "http://www.elumax.com/storage/2019/01/1110524-annual-reportlock.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6192:objective_ranking_or_market_share:7b53b3873666c020",
@@ -1753,7 +1754,7 @@
       "attempted_sources": [
         "http://www.elumax.com/storage/2019/01/1110524-annual-reportlock.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3158:objective_ranking_or_market_share:6f3b16014ede3133",
@@ -1767,7 +1768,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6214:objective_ranking_or_market_share:efede12ca151ffcc",
@@ -1781,7 +1782,7 @@
       "attempted_sources": [
         "https://tw.systex.com/wp-content/uploads/sites/2/112%E5%B9%B4%E5%B9%B4%E5%A0%B1-%E4%B8%8A%E5%82%B3.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6221:objective_ranking_or_market_share:03dcbb306517351e",
@@ -1795,7 +1796,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/622120231221M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2883:objective_ranking_or_market_share:7060f1b3248b8161",
@@ -1809,7 +1810,7 @@
       "attempted_sources": [
         "https://www.kgif.com.tw/zh-tw/-/media/files/kgif/esg/2025/esg-01-02.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2852:objective_ranking_or_market_share:a9cea9f32089f2c8",
@@ -1823,7 +1824,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2852:objective_ranking_or_market_share:0ed2489ebb872b77",
@@ -1837,7 +1838,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2852:objective_ranking_or_market_share:d1acd16b4de6e7eb",
@@ -1851,7 +1852,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2607:objective_ranking_or_market_share:4b0fbf64456a202c",
@@ -1865,7 +1866,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/260720260424M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2607:objective_ranking_or_market_share:8f8f4b26870312a9",
@@ -1879,7 +1880,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/260720260424M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2636:objective_ranking_or_market_share:b0e48b98528244b3",
@@ -1893,7 +1894,7 @@
       "attempted_sources": [
         "https://www.t3ex-group.com/Finance/1/3"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1515:objective_ranking_or_market_share:5787037fd7c3cb1b",
@@ -1936,7 +1937,7 @@
       "attempted_sources": [
         "https://dyaco.com/getattachment/62bda19e-e04a-4e6e-ab2c-6f71538fbef5/%E6%B0%91%E5%9C%8B108%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf?lang=zh-ht"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1736:objective_ranking_or_market_share:6ff73dcc29c7c647",
@@ -1966,7 +1967,7 @@
       "attempted_sources": [
         "https://www.giantgroup-cycling.com/files/images/iroverview/Annual%20report/109_annual_report.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9921:objective_ranking_or_market_share:c46e30a478d1a6f2",
@@ -1981,7 +1982,7 @@
       "attempted_sources": [
         "https://www.giantgroup-cycling.com/files/images/iroverview/Annual%20report/109_annual_report.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6655:objective_ranking_or_market_share:055a6afbd23947d4",
@@ -1995,7 +1996,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/665520190530E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6655:objective_ranking_or_market_share:ccaa6c4b5d8549e4",
@@ -2009,7 +2010,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/665520190530E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2637:objective_ranking_or_market_share:c179a03f49adb48f",
@@ -2024,7 +2025,7 @@
       "attempted_sources": [
         "https://www.wisdomlines.com.tw/storage/uploads/general_meeting/20260522%20Annual%20Report_2025_CH.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8367:objective_ranking_or_market_share:654fe06c1da29251",
@@ -2068,7 +2069,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/134320210319E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1532:objective_ranking_or_market_share:63f553b91ed507d5",
@@ -2083,7 +2084,7 @@
       "attempted_sources": [
         "https://www.cmp.com.tw/uimg/responsibility/20240814075612421.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1785:objective_ranking_or_market_share:6815a6279f48d47c",
@@ -2127,7 +2128,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4534:objective_ranking_or_market_share:df5a6c2d9d123139",
@@ -2141,7 +2142,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4912:objective_ranking_or_market_share:8324f94ac4ccaf9f",
@@ -2156,7 +2157,7 @@
       "attempted_sources": [
         "https://www.lemtech.com/wp-content/uploads/2019/03/2019-03-Lemtech_%e4%b8%ad%e6%96%87-%e6%b3%95%e8%aa%aa%e6%9c%83%e6%97%a5%e7%9b%9b%e6%8a%95%e8%b3%87%e8%ab%96%e5%a3%87_20190308.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7610:objective_ranking_or_market_share:8dc2d0884b44a2f2",
@@ -2170,7 +2171,7 @@
       "attempted_sources": [
         "https://www.lianyoucorp.com/upload/web/fa/114%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7610:objective_ranking_or_market_share:f09b19c3cba50f22",
@@ -2184,7 +2185,7 @@
       "attempted_sources": [
         "https://www.lianyoucorp.com/upload/web/fa/114%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7610:objective_ranking_or_market_share:0e82075cdeab2da0",
@@ -2198,7 +2199,7 @@
       "attempted_sources": [
         "https://www.lianyoucorp.com/upload/web/fa/114%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9927:objective_ranking_or_market_share:83c2cace1a7adb89",
@@ -2212,7 +2213,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/992720121127E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6968:objective_ranking_or_market_share:e2da6fd04d9bf077",
@@ -2227,7 +2228,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/696820240716M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6968:objective_ranking_or_market_share:7e52a1cf3bc0a020",
@@ -2242,7 +2243,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/696820240716M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1323:objective_ranking_or_market_share:61b971a876a3995b",
@@ -2271,7 +2272,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/847820260312M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8478:objective_ranking_or_market_share:803bb81e8eda9129",
@@ -2285,7 +2286,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/847820260312M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2423:objective_ranking_or_market_share:89e017344f0a4685",
@@ -2351,7 +2352,7 @@
       "attempted_sources": [
         "https://www.everfocus.com/download/144/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5484:objective_ranking_or_market_share:821685f1c25c5b71",
@@ -2366,7 +2367,7 @@
       "attempted_sources": [
         "https://www.everfocus.com/download/144/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5484:objective_ranking_or_market_share:ce6fd1fdc3f662bb",
@@ -2381,7 +2382,7 @@
       "attempted_sources": [
         "https://www.everfocus.com/download/144/"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3189:objective_ranking_or_market_share:d30c008603686d3a",
@@ -2395,7 +2396,7 @@
       "attempted_sources": [
         "https://www.kinsus.com.tw/zh-TW/Download/annual-general-meeting/FileDownload/114%20_meeting_report/1"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3413:objective_ranking_or_market_share:ebe2223d339ab310",
@@ -2410,7 +2411,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/341320221209M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3551:objective_ranking_or_market_share:21c365ea8b4c5152",
@@ -2424,7 +2425,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3563:objective_ranking_or_market_share:678d0af119707979",
@@ -2453,7 +2454,7 @@
       "attempted_sources": [
         "http://www.amiccom.com.tw/UPLOAD/2014060914291985774.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6261:objective_ranking_or_market_share:37228631f06f5ce4",
@@ -2467,7 +2468,7 @@
       "attempted_sources": [
         "https://www.ytec.com.tw/cn/investor/shareholder/download/J20/%E8%82%A1%E4%B8%9C%E4%BC%9A%E5%B9%B4%E6%8A%A5.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6532:objective_ranking_or_market_share:7e0ba7530f386152",
@@ -2481,7 +2482,7 @@
       "attempted_sources": [
         "https://www.calitech.com.tw/upload/%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E6%96%99/2025/%E8%82%A11.01_2024%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6533:objective_ranking_or_market_share:de4c47986928bfbe",
@@ -2495,7 +2496,7 @@
       "attempted_sources": [
         "https://www.andestech.com/wp-content/uploads/20250328-114%e5%b9%b4%e6%99%b6%e5%bf%83%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8aV1.0-%e4%b8%8a%e5%82%b3.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8028:objective_ranking_or_market_share:6f62e2054fe7535b",
@@ -2509,7 +2510,7 @@
       "attempted_sources": [
         "https://www.psi.com.tw/company/2023%20%e6%b0%b8%e7%ba%8c%e5%a0%b1%e5%91%8a%e6%9b%b8-%e4%b8%ad%e6%96%87%e7%89%88%20(CDP).pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2330:objective_ranking_or_market_share:69b238d963f6d1c7",
@@ -2523,7 +2524,7 @@
       "attempted_sources": [
         "https://investor.tsmc.com/sites/ir/annual-report/2024/2024%20Business%20Overview.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3034:objective_ranking_or_market_share:36d59c043f9f3ce8",
@@ -2537,7 +2538,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/303420260206M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3105:objective_ranking_or_market_share:d03113074c1b8d2c",
@@ -2581,7 +2582,7 @@
       "attempted_sources": [
         "http://www.ultrachip.com/images/epost/%E5%B9%B4%E5%A0%B12022_3141_20230518F04_20230504_170101.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3141:objective_ranking_or_market_share:76eab7724d46fd0c",
@@ -2595,7 +2596,7 @@
       "attempted_sources": [
         "http://www.ultrachip.com/images/epost/%E5%B9%B4%E5%A0%B12022_3141_20230518F04_20230504_170101.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3227:objective_ranking_or_market_share:9484acc8041462d9",
@@ -2652,7 +2653,7 @@
       "attempted_sources": [
         "https://www.guc-asic.com/upload/2025_07_11/9_20250711161013kvp2upyE622.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3583:objective_ranking_or_market_share:9f4f88d12436b18e",
@@ -2666,7 +2667,7 @@
       "attempted_sources": [
         "https://www.scientech.com.tw/sites/default/files/document/ShareholdersMeeting/2025%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3711:objective_ranking_or_market_share:c038454aa18420d4",
@@ -2722,7 +2723,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/524520251201E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6515:objective_ranking_or_market_share:7d430c6cf1e6bc6c",
@@ -2736,7 +2737,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/651520250515M004.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8086:objective_ranking_or_market_share:195cb9f67a470584",
@@ -2780,7 +2781,7 @@
       "attempted_sources": [
         "http://tw.papagoinc.com/Company/files/%e7%a0%94%e5%8b%a42023%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5202:objective_ranking_or_market_share:0a310a8ce7f2645f",
@@ -2794,7 +2795,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5202_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5403:objective_ranking_or_market_share:5c94bad17f7166b3",
@@ -2853,7 +2854,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/690220260813M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6035:objective_ranking_or_market_share:c0678fc201114b7d",
@@ -2882,7 +2883,7 @@
       "attempted_sources": [
         "https://www.egistec.com/wp-content/uploads/2023/05/%e7%a5%9e%e7%9b%be112%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8a%e4%b8%8a%e5%82%b3%e7%89%88.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6690:objective_ranking_or_market_share:e280e76cce489447",
@@ -2896,7 +2897,7 @@
       "attempted_sources": [
         "https://www.acercsi.com/file_download/0EFD9FCD-4A6C-4E4C-AE91-8A2B6DF8759C"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7819:objective_ranking_or_market_share:e0b3c59b20774ef5",
@@ -2940,7 +2941,7 @@
       "attempted_sources": [
         "https://www.choiceprintgroup.com/upload/202506/15/202506150351308841.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1303:objective_ranking_or_market_share:4efa616b8fa69cfb",
@@ -2969,7 +2970,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1314_110.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4706:objective_ranking_or_market_share:3755cfeb9bb8b2db",
@@ -2983,7 +2984,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/470620230414E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6555:objective_ranking_or_market_share:56167743ae5aa1a5",
@@ -2998,7 +2999,7 @@
       "attempted_sources": [
         "https://www.lttech.com.tw/wp-content/uploads/2022/06/110%E5%B9%B4%E7%AC%AC%E5%9B%9B%E5%AD%A3-%E5%80%8B%E9%AB%94%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8935:objective_ranking_or_market_share:4f531d8d97f7214b",
@@ -3012,7 +3013,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893520251209M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8935:objective_ranking_or_market_share:6e616151ae29b468",
@@ -3026,7 +3027,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893520251209M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1513:objective_ranking_or_market_share:9130fb44b84a3c57",
@@ -3040,7 +3041,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/151320161005E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1539:objective_ranking_or_market_share:fa11a3ede72b0d04",
@@ -3054,7 +3055,7 @@
       "attempted_sources": [
         "https://cdn.financialreports.eu/financialreports/media/filings/51861/2026/RNS/51861_rns_2026-05-13_6dbdc32a-2185-4cf0-bb5e-a5a8033187e8.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1540:objective_ranking_or_market_share:6d45c395e82f2ccd",
@@ -3068,7 +3069,7 @@
       "attempted_sources": [
         "https://zh-tw.johnford.com.tw/download/209519"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2476:objective_ranking_or_market_share:e9cbf6611b6656f4",
@@ -3097,7 +3098,7 @@
       "attempted_sources": [
         "https://www.aether-tek.com/wp-content/uploads/2024/06/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3219:objective_ranking_or_market_share:9bca902ddfd55250",
@@ -3111,7 +3112,7 @@
       "attempted_sources": [
         "https://www.aether-tek.com/wp-content/uploads/2024/06/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3219:objective_ranking_or_market_share:96e9ac24bd44c81e",
@@ -3125,7 +3126,7 @@
       "attempted_sources": [
         "https://www.aether-tek.com/wp-content/uploads/2024/06/113%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4568:objective_ranking_or_market_share:14f79b7b43f1f4b4",
@@ -3139,7 +3140,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/456820251222E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4583:objective_ranking_or_market_share:6384a87c92b38584",
@@ -3154,7 +3155,7 @@
       "attempted_sources": [
         "https://www.apexdyna.com/download/investors/ShareholdersMeeting/2026/2025%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6208:objective_ranking_or_market_share:96caba418bc3233c",
@@ -3168,7 +3169,7 @@
       "attempted_sources": [
         "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6208:objective_ranking_or_market_share:5fdb674b7ffcd8a1",
@@ -3182,7 +3183,7 @@
       "attempted_sources": [
         "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6208:objective_ranking_or_market_share:fb06ea6703cac885",
@@ -3196,7 +3197,7 @@
       "attempted_sources": [
         "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6618:objective_ranking_or_market_share:43a37be574cd8eb6",
@@ -3211,7 +3212,7 @@
       "attempted_sources": [
         "https://www.uht.com.tw/uploads/uht/files/202307041353136753.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6727:objective_ranking_or_market_share:396efdcf88c26ee4",
@@ -3253,7 +3254,7 @@
       "attempted_sources": [
         "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2947:objective_ranking_or_market_share:b566dc40942a6a98",
@@ -3313,7 +3314,7 @@
       "attempted_sources": [
         "https://www.yusco.com.tw/userupload/picfiles/110%E5%B9%B4%E5%B9%B4%E5%BA%A6%E5%A0%B1%E5%91%8A.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2034:objective_ranking_or_market_share:9db08fbb1d4b60e5",
@@ -3327,7 +3328,7 @@
       "attempted_sources": [
         "https://www.ycinox.com/tw/ir/ir-249"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1341:objective_ranking_or_market_share:f6b48a6d16324bcd",
@@ -3341,7 +3342,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/134120201222E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1451:objective_ranking_or_market_share:e4b27d6e2db182fd",
@@ -3355,7 +3356,7 @@
       "attempted_sources": [
         "http://www.nhjeans.com/wp-content/uploads/2022/12/%e5%b9%b4%e8%88%88%e7%b4%a1%e7%b9%94%e6%b3%95%e8%aa%aa%e6%9c%83%e7%b0%a1%e5%a0%b1-2021-1130.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4439:objective_ranking_or_market_share:08e2b4dca14ff3c3",
@@ -3369,7 +3370,7 @@
       "attempted_sources": [
         "https://www.tstco.com.hk/upload/files/article/20250821/17557452153304002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6832:objective_ranking_or_market_share:e80b2b9b51da51df",
@@ -3398,7 +3399,7 @@
       "attempted_sources": [
         "https://www.kinik.com.tw/upload/Investors/Conference/2025Q2%20KINIK%20%e4%b8%ad%e7%a0%82%e5%85%ac%e5%8f%b8%e6%b3%95%e4%ba%ba%e5%ba%a7%e8%ab%87%20BofA%20Asia%20Tech%2020250908.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2063:objective_ranking_or_market_share:d1d0957d7c075d6d",
@@ -3412,7 +3413,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/206320250916M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3004:objective_ranking_or_market_share:b2cfe0c3e68357a9",
@@ -3454,7 +3455,7 @@
       "attempted_sources": [
         "http://www.khgears.com/edit_file/file/20260121/20260121163001_65833.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6904:objective_ranking_or_market_share:c9e2cfd9b443469d",
@@ -3484,7 +3485,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/841520260603M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2608:objective_ranking_or_market_share:31d8ab6170333d31",
@@ -3498,7 +3499,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/260820251210M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5604:objective_ranking_or_market_share:16da157ef7a9024f",
@@ -3561,7 +3562,7 @@
       "attempted_sources": [
         "https://www.tactc.com.tw/upload_attach/1755150327.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9908:objective_ranking_or_market_share:31cc2bfe1d4bcbbb",
@@ -3576,7 +3577,7 @@
       "attempted_sources": [
         "https://www.tactc.com.tw/upload_attach/1755150327.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6994:objective_ranking_or_market_share:2ce556a2bce652ca",
@@ -3622,7 +3623,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/834120260820M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8422:objective_ranking_or_market_share:8c9bc6fbd3f61732",
@@ -3651,7 +3652,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/844020250829M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7507:objective_ranking_or_market_share:bfc75b334da69cf9",
@@ -3666,7 +3667,7 @@
       "attempted_sources": [
         "https://www.enrestec.com.tw/wp-content/uploads/2026/09/c89f20fa-1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8390:objective_ranking_or_market_share:f55fed9eabcb8974",
@@ -3696,7 +3697,7 @@
         "https://mopsov.twse.com.tw/nas/STR/264520241125M001.pdf",
         "https://mopsov.twse.com.tw/nas/STR/264520230209M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6508:export_concentration:d679e0352a3e6a29",
@@ -3710,7 +3711,7 @@
       "attempted_sources": [
         "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6508:export_concentration:9321018679533bfd",
@@ -3724,7 +3725,7 @@
       "attempted_sources": [
         "http://huikwang.com/get_file.php?list=investor&name=113%e5%b9%b4%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1&path=tw_20240820211710767.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2610:material_named_relationship:2e40073714d0a5be",
@@ -3739,7 +3740,7 @@
       "attempted_sources": [
         "https://www.china-airlines.com/Images/2023_CAL_Annual_Report_ZH_tcm182-48861.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2646:material_named_relationship:bb36b2baf871ecc0",
@@ -3753,7 +3754,7 @@
       "attempted_sources": [
         "https://www.tpex.org.tw/storage/emerging_register/2022/09/1663837975_10636_CH_2646.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2646:export_concentration:3f957a41898c043c",
@@ -3767,7 +3768,7 @@
       "attempted_sources": [
         "https://www.tpex.org.tw/storage/emerging_register/2022/09/1663837975_10636_CH_2646.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8942:material_named_relationship:3ed45ecdbb814b9b",
@@ -3781,7 +3782,7 @@
       "attempted_sources": [
         "https://xxentria-tech.com/assets/uploads/invester/financialreport/3/report5ff92928e090f.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2258:control_acquisition:a2cce4203b591026",
@@ -3796,7 +3797,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/225820231121M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2258:material_named_relationship:918bd151a76df137",
@@ -3811,7 +3812,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/225820231121M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1536:material_named_relationship:896f01fa3513114d",
@@ -3825,7 +3826,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1587:material_named_relationship:d2dca4718073d632",
@@ -3839,7 +3840,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/158720241120M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2115:material_named_relationship:2fe94d2bbc829199",
@@ -3853,7 +3854,7 @@
       "attempted_sources": [
         "https://www.luhai.com.tw/upload/editupfile/file/%E9%87%8D%E5%A4%A7%E8%A8%8A%E6%81%AF%E8%88%87%E6%B3%95%E8%AA%AA%E5%85%AC%E5%91%8A/%E6%B3%95%E8%AA%AA%E7%B0%A1%E5%A0%B1/20251209%E5%85%AD%E6%9A%89%E6%8E%A7%E8%82%A1114%E5%B9%B4Q3%E7%87%9F%E9%81%8B%E7%8B%80%E6%B3%81.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2228:material_named_relationship:8222d454dd29c928",
@@ -3867,7 +3868,7 @@
       "attempted_sources": [
         "http://www.irf.biz/download/112Q3%e5%8a%8d%e9%ba%9f%e5%90%88%e4%bd%b5%e8%b2%a1%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2241:material_named_relationship:cb7da359191ec381",
@@ -3895,7 +3896,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/223020130322E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4535:material_named_relationship:791df309aac80cff",
@@ -3923,7 +3924,7 @@
       "attempted_sources": [
         "（本批次未取得可檢視之官方文件）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3552:material_named_relationship:d95c0678e66eda89",
@@ -3937,7 +3938,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/355220251119M001.pdf（同致2025法說會簡報，本批次自既有下載取得）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2890:profitability_assertion:87eb0db69c8e92ab",
@@ -3952,7 +3953,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/289020231020M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1802:material_named_relationship:1fbc93875da47f15",
@@ -3966,7 +3967,7 @@
       "attempted_sources": [
         "https://www.taiwanglass.com/tc/pdf/UpdateReport/2023%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8466:material_named_relationship:4186b19ffa74dbe9",
@@ -3980,7 +3981,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/846620180327E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6128:control_acquisition:1e2385e0d1322572",
@@ -4009,7 +4010,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/811420250916M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6021:identity_changing_event:f82a5e3c9c501cda",
@@ -4024,7 +4025,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/602120230524M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1727:material_named_relationship:667a0c8d8e97c01f",
@@ -4038,7 +4039,7 @@
       "attempted_sources": [
         "https://chciworld.com.tw/wp-content/uploads/2024/05/2021-ESG_Report_compressed.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1727:material_named_relationship:5fa0d9b659e46647",
@@ -4052,7 +4053,7 @@
       "attempted_sources": [
         "https://chciworld.com.tw/wp-content/uploads/2024/05/2021-ESG_Report_compressed.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1773:material_named_relationship:11a4695ce7063ac1",
@@ -4066,7 +4067,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/177320231213E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2444:material_named_relationship:b5640b4aad9c106e",
@@ -4080,7 +4081,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/244420241218M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2485:material_named_relationship:20b0b1c34022aee9",
@@ -4094,7 +4095,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/248520231222E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3491:material_named_relationship:7b383e1fa939f2a4",
@@ -4108,7 +4109,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/349120250320E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3596:material_named_relationship:6f767b0b0a1b829f",
@@ -4122,7 +4123,7 @@
       "attempted_sources": [
         "https://www.arcadyan.com.tw/media/investor/shm/annual-report/%E6%99%BA%E6%98%93%E7%A7%91%E6%8A%80114%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3694:material_named_relationship:3908e3ba4e8cd7ae",
@@ -4137,7 +4138,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3694:profitability_assertion:65466b27d8393dcb",
@@ -4152,7 +4153,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3694:material_named_relationship:dadb426643e6fced",
@@ -4167,7 +4168,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/369420250620M001.pdf（另試 http://www.azurewave.com/img/shareholder-service/ 下之年度報告）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5353:material_named_relationship:7c785d294ea73984",
@@ -4181,7 +4182,7 @@
       "attempted_sources": [
         "https://www.tailyn.com.tw/media/f/9149031053e7771ab79bc7ec98303e40.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5348:identity_changing_event:4a9f2cdb40f3fde5",
@@ -4195,7 +4196,7 @@
       "attempted_sources": [
         "（本批次未取得可檢視之官方文件）"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6143:material_named_relationship:2043b380b9c2aeb3",
@@ -4210,7 +4211,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/614320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6143:material_named_relationship:8a9881912d069058",
@@ -4225,7 +4226,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/614320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6220:profitability_assertion:340f4e1af42c6eb1",
@@ -4239,7 +4240,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/622020260626E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6220:profitability_assertion:e4804995c2f71ae0",
@@ -4253,7 +4254,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/622020260626E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6263:material_named_relationship:b8c4cba57cba6846",
@@ -4267,7 +4268,7 @@
       "attempted_sources": [
         "https://ftp.planet.com.tw/storage/local-ir-yearly-reports/42483/2024%e5%b9%b4%e5%ba%a6%e5%85%ac%e5%8f%b8%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6417:profitability_assertion:786b6167ef6e8579",
@@ -4281,7 +4282,7 @@
       "attempted_sources": [
         "https://www.sag.com.tw/wp-content/uploads/2024/08/%E9%9F%8B%E5%83%912023%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6715:material_named_relationship:91c760a0f591152d",
@@ -4295,7 +4296,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/671520181112E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3231:profitability_assertion:a7ec296d843b0d2b",
@@ -4309,7 +4310,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3231_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3231:material_named_relationship:1d9cf38dc03b36db",
@@ -4323,7 +4324,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3231_111.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3324:profitability_assertion:b0fb085043544429",
@@ -4338,7 +4339,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/332420240319M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3434:profitability_assertion:e7ad29954f24f279",
@@ -4353,7 +4354,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/343420240814M002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3611:identity_changing_event:9235ca41b694fe7a",
@@ -4367,7 +4368,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/361120230810E002.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3701:material_named_relationship:487aeda6c2319d55",
@@ -4395,7 +4396,7 @@
       "attempted_sources": [
         "https://dnt.jpcconnectivity.com/storage/uploads/1774319323_114%e5%b9%b4%e4%bd%b3%e5%bf%85%e7%90%aa%e5%80%8b%e9%ab%94%e8%b2%a1%e5%a0%b1(%e5%a5%97%e7%ab%a0).pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5271:material_named_relationship:41d4aa5ed2bf3155",
@@ -4409,7 +4410,7 @@
       "attempted_sources": [
         "http://www.hometom.com.tw/upload/20201209160225.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6591:profitability_assertion:3a0bf0736d4e273c",
@@ -4424,7 +4425,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/659120240326M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5310:profitability_assertion:ccc836ffe3afcdca",
@@ -4439,7 +4440,7 @@
       "attempted_sources": [
         "http://www.cgs.com.tw/wp-content/uploads/105-meeting-year-report.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6933:material_named_relationship:cba821507d7be9a8",
@@ -4453,7 +4454,7 @@
       "attempted_sources": [
         "https://www.amax.tw/data/seminar/202406/1718853291617769143.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8210:material_named_relationship:65759e97a5ce218d",
@@ -4468,7 +4469,7 @@
       "attempted_sources": [
         "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8210:material_named_relationship:9f65655c70eed5bc",
@@ -4483,7 +4484,7 @@
       "attempted_sources": [
         "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8210:material_named_relationship:50bccfb1d837ab2e",
@@ -4498,7 +4499,7 @@
       "attempted_sources": [
         "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4915:material_named_relationship:d66840e186941aae",
@@ -4512,7 +4513,7 @@
       "attempted_sources": [
         "https://www.primax.com.tw/images/financial/annual-reports/2024_Annual_report_chi.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1519:material_named_relationship:60b300deec3f28b0",
@@ -4541,7 +4542,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/153720250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3058:identity_changing_event:b0f8839a8a894a73",
@@ -4556,7 +4557,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/305820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1609:material_named_relationship:3141fcab82381e1e",
@@ -4571,7 +4572,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/160920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3541:export_concentration:23aa0cac81532d07",
@@ -4586,7 +4587,7 @@
       "attempted_sources": [
         "https://www.cypress.com.tw/uploads/investor/2023_annual_report.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
@@ -4614,7 +4615,7 @@
       "attempted_sources": [
         "https://www.songchuan.com/sc/wp-content/uploads/2025/08/%E6%9D%BE%E5%B7%9D_2024%E5%B9%B4%E5%BA%A6%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3665:material_named_relationship:d75e95843aa246a6",
@@ -4629,7 +4630,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/366520240826M004.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3019:material_named_relationship:e944b5a68d31bb6d",
@@ -4644,7 +4645,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/301920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3031:material_named_relationship:82aebc9836908111",
@@ -4659,7 +4660,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3031:material_named_relationship:223c67df296bbf5e",
@@ -4674,7 +4675,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2429:identity_changing_event:6b2dd808dcb3b691",
@@ -4688,7 +4689,7 @@
       "attempted_sources": [
         "https://www.abonmax.com.tw/download/1637825296.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2383:material_named_relationship:76a1350152921c96",
@@ -4763,7 +4764,7 @@
       "attempted_sources": [
         "https://www.gtoc.com.tw/upload/cominfo/202605121721370.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3217:material_named_relationship:9249a974b3559c5a",
@@ -4777,7 +4778,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/t59/t59sa14/3217_2026062501_RPT.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3051:material_named_relationship:5805bf0a9682fc9a",
@@ -4792,7 +4793,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/305120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3095:material_named_relationship:bfc3dcdc6a25b820",
@@ -4807,7 +4808,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/309520250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3037:material_named_relationship:fc84aa5e0c3063d9",
@@ -4942,7 +4943,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/332120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3322:material_named_relationship:6a19ecdd50c3ef9b",
@@ -4957,7 +4958,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/332220250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3362:material_named_relationship:2deae2e6e89ce420",
@@ -4972,7 +4973,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/336220250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3526:material_named_relationship:8509346172039fce",
@@ -4986,7 +4987,7 @@
       "attempted_sources": [
         "https://www.alltopconnector.com/data/reports/files/1754018167140129947.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3492:material_named_relationship:47e66953a4ce1abb",
@@ -5016,7 +5017,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/359120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3605:material_named_relationship:18f74dfc66c833b6",
@@ -5030,7 +5031,7 @@
       "attempted_sources": [
         "https://www.acesconn.com/upload/investor/%E5%AE%8F%E8%87%B4111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%29.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3523:material_named_relationship:6067227deddd249a",
@@ -5044,7 +5045,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/352320251222M003.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3645:material_named_relationship:bd156a6d7a730ace",
@@ -5058,7 +5059,7 @@
       "attempted_sources": [
         "https://www.taimide.com.tw/api/download.ashx?sno=439"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4976:material_named_relationship:9b1fa7f1c54ea8d5",
@@ -5072,7 +5073,7 @@
       "attempted_sources": [
         "https://www.calin.com.tw/tw/tool-download/investors_finance_year_files/file/115?note="
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3714:material_named_relationship:07cd0f9ac46bc089",
@@ -5086,7 +5087,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3714:material_named_relationship:b6889bfc5f8a5596",
@@ -5100,7 +5101,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3714:material_named_relationship:28aa27396a338166",
@@ -5114,7 +5115,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4943:material_named_relationship:a4bc917f24a5572a",
@@ -5129,7 +5130,7 @@
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/494320231208M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3426:control_acquisition:a589bf991e484ce3",
@@ -5143,7 +5144,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/342620250819M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6116:material_named_relationship:aba5c3b20e5397e2",
@@ -5157,7 +5158,7 @@
       "attempted_sources": [
         "https://stock.walsin.com/downloads/572/%E5%B9%B4%E5%A0%B1"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5251:material_named_relationship:7a2e178397650de7",
@@ -5171,7 +5172,7 @@
       "attempted_sources": [
         "https://www.istock.tw/keyword/5251/%E5%A4%A9%E9%89%9E%E9%9B%BB%E5%AD%90%E8%B2%A1%E5%A0%B1"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6114:material_named_relationship:95a80caca976facc",
@@ -5185,7 +5186,7 @@
       "attempted_sources": [
         "https://www.juic.com.tw/mdb/docs/524/5243_113.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6210:material_named_relationship:735bde0845d750f2",
@@ -5200,7 +5201,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/621020250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6246:material_named_relationship:dfe971c03747a12f",
@@ -5215,7 +5216,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/624620250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6442:material_named_relationship:f046268bd348d4dc",
@@ -5243,7 +5244,7 @@
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/645620220307E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6517:profitability_assertion:6537fc6de89289a3",
@@ -5257,7 +5258,7 @@
       "attempted_sources": [
         "https://www.baso.com.tw/archive/investors/item/%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1/107%e5%b9%b4%e5%ba%a6%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6407:material_named_relationship:a34e8291ea05e6ae",
@@ -5272,7 +5273,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/640720250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6498:material_named_relationship:3d1cf43565ca8016",
@@ -5287,7 +5288,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/649820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6672:profitability_assertion:016ba71775adaaf3",
@@ -5301,7 +5302,7 @@
       "attempted_sources": [
         "https://www.ventec-group.com/media/114643/meeting-agenda-ch.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6672:material_named_relationship:80c644ca1738e6b5",
@@ -5315,7 +5316,7 @@
       "attempted_sources": [
         "https://www.ventec-group.com/media/114643/meeting-agenda-ch.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6609:export_concentration:775f64fef4533de1",
@@ -5330,7 +5331,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/660920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6756:material_named_relationship:f5fac2b6b5f189a9",
@@ -5344,7 +5345,7 @@
       "attempted_sources": [
         "https://www.via-labs.com/archive/doc/175731519861935.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6821:material_named_relationship:c673f94af60b8752",
@@ -5359,7 +5360,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/682120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "7861:material_named_relationship:0e6c2ee1cf83ce9e",
@@ -5374,7 +5375,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/786120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8080:identity_changing_event:244f401c29e801b6",
@@ -5389,7 +5390,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/808020250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8111:profitability_assertion:bb359312a5d1edbc",
@@ -5404,7 +5405,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/811120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3528:profitability_assertion:90c59cc187b13900",
@@ -5418,7 +5419,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/352820240827E001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6473:identity_changing_event:447f7733d52280f2",
@@ -5433,7 +5434,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/647320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6908:export_concentration:fd2c6df51c194b44",
@@ -5448,7 +5449,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/690820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9945:material_named_relationship:62688d7d62c26d93",
@@ -5462,7 +5463,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/994520250711M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9906:material_named_relationship:62688d7d62c26d93",
@@ -5476,7 +5477,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/990620250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5263:material_named_relationship:aa07cffc342c44f5",
@@ -5491,7 +5492,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/526320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9950:material_named_relationship:f674c7866ea25891",
@@ -5506,7 +5507,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/995020250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2059:material_named_relationship:ce770dad814d7e9c",
@@ -5520,7 +5521,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/205920240807M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6222:identity_changing_event:637ee001b1e2b858",
@@ -5535,7 +5536,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/622220250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6584:profitability_assertion:5e3c3a2f673f6a83",
@@ -5550,7 +5551,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6584:material_named_relationship:e6c7482a3be5e405",
@@ -5565,7 +5566,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6807:material_named_relationship:de5168ab462b6ac1",
@@ -5579,7 +5580,7 @@
       "attempted_sources": [
         "https://www.fy-grp.com/uploads/soft/20260114/2024Annual%20ReportC.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6536:material_named_relationship:b33368d8bd4f0fc9",
@@ -5593,7 +5594,7 @@
       "attempted_sources": [
         "http://www.tigagaming.com/userfiles/TIGA/files/202304_6536_AI3_20240327_093512.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6629:export_concentration:a2257218a3ef35d5",
@@ -5608,7 +5609,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/662920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2881:profitability_assertion:eaafe360917c05ea",
@@ -5623,7 +5624,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/288120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1443:material_named_relationship:3f31945708a86c26",
@@ -5637,7 +5638,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/144320251128M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3085:identity_changing_event:cbc12ace2547a854",
@@ -5652,7 +5653,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/308520250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5278:profitability_assertion:24a745be10d45843",
@@ -5667,7 +5668,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/527820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8477:identity_changing_event:802dfaef00e42b9a",
@@ -5682,7 +5683,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/847720250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8033:material_named_relationship:03dec68bb86705bc",
@@ -5697,7 +5698,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/803320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8933:export_concentration:d68998658367f462",
@@ -5712,7 +5713,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5608:material_named_relationship:1a2dfe39ec2a2efd",
@@ -5726,7 +5727,7 @@
       "attempted_sources": [
         "https://www.swnav.com.tw/uploads/files/shares/shareholders/2024/shareholders-meeting_113.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1589:material_named_relationship:960b9825be6d7658",
@@ -5741,7 +5742,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/158920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2415:material_named_relationship:7b99bddf699419a9",
@@ -5756,7 +5757,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/241520250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3373:export_concentration:634df8821bef335f",
@@ -5770,7 +5771,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/337320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9927:material_named_relationship:3515b4def3fd952d",
@@ -5784,7 +5785,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/992720121127M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "4553:material_named_relationship:da1544701e031d80",
@@ -5799,7 +5800,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/455320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "8411:export_concentration:84faf34240131cbc",
@@ -5813,7 +5814,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/841120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2537:identity_changing_event:eb039f3942a9c37c",
@@ -5827,7 +5828,7 @@
       "attempted_sources": [
         "https://5v.com.tw/pdf/%e9%99%84%e4%bb%b63_112%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83-111%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6641:material_named_relationship:0c51f99d553bcf92",
@@ -5841,7 +5842,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/664120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2718:identity_changing_event:412a4da1b5c7c80b",
@@ -5856,7 +5857,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/271820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "1456:material_named_relationship:d48c1acbce4b4c83",
@@ -5870,7 +5871,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/145620250821M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "9902:profitability_assertion:cd32bb294e021dbb",
@@ -5885,7 +5886,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/990220250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2481:export_concentration:3941f289bb5c6d99",
@@ -5899,7 +5900,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/248120260515M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6556:profitability_assertion:f368b63329d192de",
@@ -5914,7 +5915,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/655620250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2493:export_concentration:e11eec4c999dcd1d",
@@ -5929,7 +5930,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/249320250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3551:material_named_relationship:ef53cf0cab8d93a9",
@@ -5943,7 +5944,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3131:material_named_relationship:24f7ebe589cc2c13",
@@ -5986,7 +5987,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/317820250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3444:export_concentration:1c5cfb21d1b7d9aa",
@@ -6001,7 +6002,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/344420250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6261:material_named_relationship:25564dd7283d8c8e",
@@ -6016,7 +6017,7 @@
         "https://www.ytec.com.tw/cn/investor/shareholder/download/J20/%E8%82%A1%E4%B8%9C%E4%BC%9A%E5%B9%B4%E6%8A%A5.pdf",
         "https://mopsov.twse.com.tw/nas/STR/626120241226M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6271:material_named_relationship:c6e346619fff33a6",
@@ -6030,7 +6031,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6271_110.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2330:material_named_relationship:d4821272fa108886",
@@ -6044,7 +6045,7 @@
       "attempted_sources": [
         "https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual-Report-C.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2329:material_named_relationship:19240fe9ac740634",
@@ -6059,7 +6060,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/232920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "2379:material_named_relationship:f67c58c219d8bd24",
@@ -6074,7 +6075,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/237920250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3105:material_named_relationship:5eadd5b07622243d",
@@ -6104,7 +6105,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/353120250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3680:material_named_relationship:5ef6c70b8bcc1cf0",
@@ -6119,7 +6120,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "3680:material_named_relationship:1a3ba9385a605af5",
@@ -6134,7 +6135,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "5236:identity_changing_event:05d29b60f8c46ffa",
@@ -6149,7 +6150,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/523620250401M001.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6104:material_named_relationship:ccadff902f8888ec",
@@ -6163,7 +6164,7 @@
       "attempted_sources": [
         "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     },
     {
       "claim_id": "6104:material_named_relationship:27b4182e9c3dac26",
@@ -6177,7 +6178,36 @@
       "attempted_sources": [
         "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6415:material_named_relationship:0cef52dbf5efff15",
+      "ticker": "6415",
+      "company": "矽力-KY",
+      "claim": "[[Samsung]]、[[Sony]]、華為、各大車廠Tier 1及尋求供應鏈多元化之美系雲端巨擘(如AWS)。",
+      "batch_id": "author-254",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/641520251116M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6568:profitability_assertion:1731f691304f081b",
+      "ticker": "6568",
+      "company": "宏觀",
+      "claim": "同時，公司成功打入中國大型[[資料中心]]供應鏈，並開始跨足高毛利的車載影音與安防感測晶片市場。",
+      "batch_id": "author-254",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/656820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另載明該具名對象之官方文件"
     }
   ]
 }
