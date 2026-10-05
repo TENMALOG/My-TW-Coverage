@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **254 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), and `author-046` (5).
+Author-reviewed: **259 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), and `author-047` (5).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 161
+- PARTIALLY_SUPPORTED: 166
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 36
-- Remaining author queue: 1,145
+- Remaining author queue: 1,140
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -558,6 +558,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-046.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **254 / 1,399**; remaining: **1,145**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 161, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` (點序).
+
+## Author batch `author-047` — 2026-10-06
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (點序 6485, 緯穎 6669, 富世達 6805, 海柏特 6884 ×2). Evidence came from directly downloaded and inspected official disclosures: 點序113年度年報、緯穎2026 Annual Report（2025年度）、富世達2023年法人說明會簡報、海柏特2025年法人說明會簡報。
+- `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` — `PARTIALLY_SUPPORTED`. 點序113年度年報第7頁董事名單載「美商金士頓科技（Technical Director of Kingston Flash）」，第26頁載「董事-美商金士頓科（技）」（「金士頓」出現14次），第5頁載其專注於快閃記憶體控制晶片之研發。惟「為其最大客戶」未獲支持（「最大客戶」出現次數為0），「江波龍（Emdoor）」亦未出現（0次）。註記：金士頓於年報中之角色為董事／股東關係，非以客戶身分揭露。
+- `6669:objective_ranking_or_market_share:cfb91f237a82edd6` — `PARTIALLY_SUPPORTED`. 緯穎2026 Annual Report（2025年度）於風險事項明列「B. Excessive concentration of customers」並載因應策略（「Our customers are all world-leading large enterprises that provide stable demands to wide users in global markets」），第6頁載2025年合併營收950,663,310仟元及「The revenue share of AI-related products exceeds 50%」。惟「Meta」與「largest customer」出現次數均為0，年報未具名任何客戶；且第6頁之「exceeds 50%」係指 **AI 相關產品**營收占比，非單一客戶占比。
+- `6805:objective_ranking_or_market_share:11c34a389f43139d` — `PARTIALLY_SUPPORTED`. 富世達2023年官方簡報第10頁「轉軸產品主要類別」明列「柔性屏轉軸」「外折手機柔性屏轉軸」「內折手機柔性屏轉軸」與「折疊筆電柔性屏轉軸」，第19頁載其「擁有完整的轉軸產品線（折疊手機、筆電）」。惟「華為」「Huawei」「三折」「Mate XT」「Motorola」「摩托羅拉」出現次數均為0。
+- `6884:objective_ranking_or_market_share:ab0687cfaac7a080` 與 `b70dfbe1514f5901` — `PARTIALLY_SUPPORTED`. 海柏特2025年官方簡報第22頁載「未來展望: HSN 3.0 亞太授權服務第一品牌」，第9及11頁載其為「亞太區售後服務業的領導者」與「台灣專注於售後服務第一家上櫃公司」，第17頁載「近50品牌授權跨國經驗」，支持其授權服務定位與第一品牌目標；惟「客戶授權維持率自2021年至今均維持九成以上」未獲支持（「維持率」「九成」「90%」出現次數均為0）。第9頁另載「宏碁集團持股：63.18%」，顯示宏碁為母公司／控制股東，惟簡報未載品牌授權營收占比，亦未載 Acer 為最大單一品牌授權來源（其比較基礎為「其他品牌（不含Acer）」與「前五大品牌（不含Acer）」）。
+- Proposed wording is recorded for the partial claims in `semantic/author-047.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **259 / 1,399**; remaining: **1,140**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 166, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6928:objective_ranking_or_market_share:1f10b3d64aa834a7` (攸泰科技).
+
 
 
 

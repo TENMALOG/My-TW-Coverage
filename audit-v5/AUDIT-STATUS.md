@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 22:04 UTC
+Updated: 2026-10-06 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **254 / 1,399**
-- Remaining author review: **1,145**
-- Latest batch: **author-046** (5 claims)
+- Author-reviewed: **259 / 1,399**
+- Remaining author review: **1,140**
+- Latest batch: **author-047** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **161**
+- `PARTIALLY_SUPPORTED`: **166**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6166:objective_ranking_or_market_share:b3a2e1a025feff65` — `PARTIALLY_SUPPORTED`; 凌華108年報載「COM Express, SMARC, Qseven」與ROS（5次）；惟「友達」「鴻海」「法博」皆0次（該年報早於相關事件）。
-- `6188:objective_ranking_or_market_share:22cd3f0905111079` — `PARTIALLY_SUPPORTED`; 廣明官方股東資料載廣達電腦為法人董事代表人；惟「客戶」「最大」「Toyota」「晶圓」皆0次。
-- `6206:objective_ranking_or_market_share:11dce486dbff428d` — `PARTIALLY_SUPPORTED`; 飛捷2025簡報第5頁載零售、餐飲、醫療與工業自動化領域及POS/自助服務/嵌入式電腦；惟「市佔」0次。
-- `6228:objective_ranking_or_market_share:5c4944216c7b1727` — `PARTIALLY_SUPPORTED`; 全譜年報與簡報載底片掃描器產品；惟「Kodak」「柯達」「Olympus」皆0次，且年報第60頁市佔率表（螢光與化學光成像系統）載全譜推估市佔率**<1%**，同頁底片掃瞄器段落未載市占。
-- `6277:objective_ranking_or_market_share:7c8c5bb9d85cb3ea` — `PARTIALLY_SUPPORTED`; 宏正93年報「KVM」52次；惟「全球最大」0次，且該文件為2004年版本。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-046.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` (點序).
+- `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` — `PARTIALLY_SUPPORTED`; 點序113年報第7/26頁載美商金士頓科技為董事（「金士頓」14次）；惟「最大客戶」0次、「江波龍」0次。
+- `6669:objective_ranking_or_market_share:cfb91f237a82edd6` — `PARTIALLY_SUPPORTED`; 緯穎2026 AR列「Excessive concentration of customers」風險並載2025年合併營收950,663,310仟元、AI產品占比逾五成；惟「Meta」「largest customer」皆0次，逾五成係指AI產品而非單一客戶。
+- `6805:objective_ranking_or_market_share:11c34a389f43139d` — `PARTIALLY_SUPPORTED`; 富世達2023簡報第10/19頁載柔性屏轉軸（內折／外折）與折疊手機轉軸產品線；惟「華為」「Motorola」「三折」「Mate XT」皆0次。
+- `6884:objective_ranking_or_market_share:ab0687cfaac7a080` — `PARTIALLY_SUPPORTED`; 海柏特2025簡報第22頁「未來展望: HSN 3.0 亞太授權服務第一品牌」；惟「維持率」「九成」「90%」皆0次。
+- `6884:objective_ranking_or_market_share:b70dfbe1514f5901` — `PARTIALLY_SUPPORTED`; 第9頁載「宏碁集團持股：63.18%」（母公司關係）；惟未載品牌授權占比或Acer為最大授權來源。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-047.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6928:objective_ranking_or_market_share:1f10b3d64aa834a7` (攸泰科技).
 
 ## Source access
 

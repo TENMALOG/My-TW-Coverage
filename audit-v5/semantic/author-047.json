@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-047",
+  "reviewed_at": "2026-10-05T17:43:22Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (點序113年度年報; 緯穎2026 Annual Report (2025年度); 富世達2023年法人說明會簡報; 海柏特2025年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6485:objective_ranking_or_market_share:5969e1c71ddb6ef2",
+      "normalized_claim_hash": "5969e1c71ddb6ef2a9f2b1d2d861bfc3b9f50001cd7d326772d134bc5cd3a33c",
+      "ticker": "6485",
+      "company": "點序",
+      "path": "Pilot_Reports/Computer Hardware/6485_點序.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "金士頓(Kingston，全球第一大[[記憶體]]模組廠為其最大客戶)、江波龍(Emdoor)等大型儲存品牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://asolid-tek.com/wp-content/uploads/2025/06/113%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1_Final20250523.pdf",
+          "title": "點序科技股份有限公司（點序，6485，ASolid Technology）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第5頁載「本公司專注於高品質、高效能的『快閃記憶體控制晶片』之研發」，產品含 SD 記憶卡控制晶片、USB 隨身碟控制晶片、eMMC5.1 控制晶片等。第7頁載董事名單含「美商金士頓科技（Technical Director of Kingston Flash）」，第26頁並載「董事-美商金士頓科（技）」，全份年報中「金士頓」出現14次、「Kingston」1次。全份年報中「江波龍」與「最大客戶」之出現次數均為0；「銷售客戶」出現2次（為一般性敘述）。"
+        }
+      ],
+      "rationale": "「與金士頓（Kingston）之關係」獲發行人年報支持：第7頁載董事名單含「美商金士頓科技（Technical Director of Kingston Flash）」，第26頁載「董事-美商金士頓科（技）」，全份年報「金士頓」出現14次；第5頁載其專注於快閃記憶體控制晶片之研發，支持其為儲存相關晶片廠商。惟兩項陳述未獲支持：(1)「為其最大客戶」——全份年報中「最大客戶」出現次數為0，未載客戶別營收占比或客戶排名；(2)「江波龍（Emdoor）等大型儲存品牌」——「江波龍」出現次數為0。故部分成立（並註記：金士頓於年報中之角色為董事／股東關係，非以客戶身分揭露）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6669:objective_ranking_or_market_share:cfb91f237a82edd6",
+      "normalized_claim_hash": "cfb91f237a82edd6621ef05670ce4d70750dbd0c5207bb9842f37234ac9cb962",
+      "ticker": "6669",
+      "company": "緯穎",
+      "path": "Pilot_Reports/Computer Hardware/6669_緯穎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Meta]] — 最大單一客戶，佔營收逾五成",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.wiwynn.com/hubfs/Investors/Shareholders_Services/2026_Annual_Report_EN.pdf",
+          "title": "緯穎科技服務股份有限公司（緯穎，6669，Wiwynn）2026 Annual Report (EN)",
+          "source_level": 3,
+          "period_binding": "2025年度（2026年刊印）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載「The Company's consolidated revenue in 2025 was NT$950,663,310（仟元）」及「The revenue share of AI-related products exceeds 50%」。年報於風險事項中列「B. Excessive concentration of customers」並載因應策略（「Our customers are all world-leading large enterprises that provide stable demands…」，並載將持續與網路社群、雲端運算、新興 AI 雲端供應商等合作）。全份年報中「Meta」與「largest customer」之出現次數均為0，未具名任何客戶，亦未載客戶別營收占比。"
+        }
+      ],
+      "rationale": "「存在高度客戶集中之客戶結構」獲發行人年報部分支持：2026 Annual Report（2025年度）於風險事項明列「B. Excessive concentration of customers」並載因應策略，敘明「Our customers are all world-leading large enterprises that provide stable demands to wide users in global markets」，第6頁並載2025年合併營收950,663,310仟元、AI 相關產品營收占比逾五成。惟兩項陳述未獲支持：(1)「Meta 為最大單一客戶」——全份年報中「Meta」與「largest customer」出現次數均為0，未具名任何客戶；(2)「佔營收逾五成」——年報第6頁所述 exceeds 50% 係指 **AI 相關產品**之營收占比，並非單一客戶占比，年報未揭露客戶別營收比重。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6805:objective_ranking_or_market_share:11c34a389f43139d",
+      "normalized_claim_hash": "11c34a389f43139d3788708e5fbde50b8149b1748b6e9fb3802da15edfc9aa03",
+      "ticker": "6805",
+      "company": "富世達",
+      "path": "Pilot_Reports/Computer Hardware/6805_富世達.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "第一成長曲線為折疊手機轉軸，獨攻[[華為]] Mate XT 全球首款三折機之轉軸，並供應 [[Motorola]] 折疊機。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/680520231011E001.pdf",
+          "title": "富世達股份有限公司（富世達，6805，Fositek）法人說明會簡報（2023-10-11）",
+          "source_level": 3,
+          "period_binding": "2023年10月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第10頁「轉軸產品主要類別」列小型功能性轉軸、筆電轉軸、平板轉軸、柔性屏轉軸、特殊應用轉軸、手機鏡頭轉軸、AR/VR眼鏡轉軸、耳機盒轉軸、外折手機柔性屏轉軸、內折手機柔性屏轉軸、折疊筆電柔性屏轉軸等。第8及19頁載「成為轉軸行業的（領導者）」「客戶黏性」「優質的客戶」「擁有完整的轉軸產品線（折疊手機、筆電）」。全份簡報中「華為」「Huawei」「Motorola」「摩托羅拉」「三折」「Mate XT」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「折疊手機轉軸為其產品線」獲發行人簡報支持：第10頁「轉軸產品主要類別」明列「柔性屏轉軸」「外折手機柔性屏轉軸」「內折手機柔性屏轉軸」與「折疊筆電柔性屏轉軸」，第19頁並載其「擁有完整的轉軸產品線（折疊手機、筆電）」。惟兩項陳述未獲支持：(1)「獨攻華為 Mate XT 全球首款三折機之轉軸」——全份簡報中「華為」「Huawei」「三折」「Mate XT」出現次數均為0；(2)「供應 Motorola 折疊機」——「Motorola」「摩托羅拉」出現次數為0。故部分成立。",
+      "proposed_text": "富世達 (6805，Fositek) 以折疊手機柔性屏轉軸（內折／外折）與筆電轉軸為核心產品線。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6884:objective_ranking_or_market_share:ab0687cfaac7a080",
+      "normalized_claim_hash": "ab0687cfaac7a080711eb8e0c977b44f700b21063a8890aa58a69f05e4f7d0db",
+      "ticker": "6884",
+      "company": "海柏特",
+      "path": "Pilot_Reports/Computer Hardware/6884_海柏特.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "客戶授權維持率自 2021 年至今均維持九成以上，目標成為亞太區授權第一品牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/688420251125E001.pdf",
+          "title": "海柏特股份有限公司（海柏特，6884，HST）法人說明會簡報（2025-11-25）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第9頁載「海柏特: 亞太區售後服務業的領導者」與「宏碁集團持股：63.18%」。第11頁載「提供品牌售後服務快速落地｜亞太區售後服務業的領導者」「台灣專注於售後服務第一家上櫃公司」。第17頁載「近50品牌授權跨國經驗，具高階維修」。第22頁載「立基B2B：品牌授權客戶」及「未來展望: HSN 3.0 亞太授權服務第一品牌」。簡報另載「其他品牌(不含Acer)」與「前五大品牌(不含Acer)」之比較基礎。全份簡報中「維持率」「九成」「90%」之出現次數均為0；「2021」1次。"
+        }
+      ],
+      "rationale": "「目標成為亞太區授權第一品牌」獲發行人簡報支持：第22頁「未來展望: HSN 3.0 亞太授權服務第一品牌」；第9及11頁並載其為「亞太區售後服務業的領導者」與「台灣專注於售後服務第一家上櫃公司」，第17頁載「近50品牌授權跨國經驗」。惟「客戶授權維持率自2021年至今均維持九成以上」未獲支持：全份簡報中「維持率」「九成」「90%」出現次數均為0（「2021」僅1次），未載維持率之定義、數值或年度序列。故部分成立。",
+      "proposed_text": "海柏特 (6884，HST) 為宏碁集團（持股 63.18%）旗下售後服務公司，以「亞太授權服務第一品牌」為目標。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6884:objective_ranking_or_market_share:b70dfbe1514f5901",
+      "normalized_claim_hash": "b70dfbe1514f5901f41585e6cf77fc3648fab0e6e5a0a38e3729250534ccb051",
+      "ticker": "6884",
+      "company": "海柏特",
+      "path": "Pilot_Reports/Computer Hardware/6884_海柏特.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[宏碁]] (Acer) — 最大單一品牌授權來源",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/688420251125E001.pdf",
+          "title": "海柏特股份有限公司（海柏特，6884，HST）法人說明會簡報（2025-11-25）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第9頁載「海柏特: 亞太區售後服務業的領導者」與「宏碁集團持股：63.18%」。第11頁載「提供品牌售後服務快速落地｜亞太區售後服務業的領導者」「台灣專注於售後服務第一家上櫃公司」。第17頁載「近50品牌授權跨國經驗，具高階維修」。第22頁載「立基B2B：品牌授權客戶」及「未來展望: HSN 3.0 亞太授權服務第一品牌」。簡報另載「其他品牌(不含Acer)」與「前五大品牌(不含Acer)」之比較基礎。全份簡報中「維持率」「九成」「90%」之出現次數均為0；「2021」1次。"
+        }
+      ],
+      "rationale": "「宏碁（Acer）為其最相關之品牌夥伴」獲發行人簡報支持：第9頁載「宏碁集團持股：63.18%」，顯示宏碁為其母公司／控制股東。惟「最大單一品牌授權來源」未獲支持：簡報之品牌比較基礎係以「其他品牌（不含Acer）」與「前五大品牌（不含Acer）」呈現，未載各品牌之授權營收占比，亦未載 Acer 為最大單一品牌授權來源之陳述。故部分成立（註記：宏碁於此為股東／母公司關係，claim 所稱之「品牌授權來源」屬客戶關係，兩者性質不同）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
