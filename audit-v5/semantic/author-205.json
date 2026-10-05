@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-205",
+  "reviewed_at": "2026-10-05T22:08:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (輔信2025年法人說明會簡報; 承啟103年度個體財務報告; 緯創2022年永續報告書)",
+  "items": [
+    {
+      "claim_id": "2405:identity_changing_event:994e9d09f13f0b0a",
+      "normalized_claim_hash": "994e9d09f13f0b0ad8d09ee52e8778c02e2e8638f17496acf95a60f2969a349f",
+      "ticker": "2405",
+      "company": "輔信",
+      "path": "Pilot_Reports/Computer Hardware/2405_輔信.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "輔信科技 (2405，[[Shuttle]]) 前身為浩鑫電腦，成立於 1983 年，總部位於台北，2020 年更名為輔信科技，從傳統迷你 PC 準系統廠轉型為[[工業電腦]] (IPC) 及 [[AIoT]] 解決方案提供者。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://global1.shuttle.com/ShuttleWebIMG//Investors/stockConference/stockConference_202512-TW.pdf",
+          "title": "輔信科技股份有限公司（輔信，2405，Shuttle）2025年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2025年12月。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取3,113字元，以圖形排版為主）。簡報「公司基本資訊」載「證券代碼 2405」「**成立日期 1983年6月**」「董事長 余麗娜女士」「主力產品 **迷你化邊緣A（I運算電腦）**」，並於首頁載「以**迷你化邊緣AI 運算電腦**為核心，提供商業與**工業**場域的智慧邊緣解決方案」（「**輔信**」4次、「**1983**」1次、「**迷你**」5次、「**工業電腦**」2次），**支持其成立年分、迷你化產品與工業應用之敘述**。**關鍵發現**：全份簡報中「**浩鑫**」「**2020**」與「**更名**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「成立於 **1983** 年…從傳統**迷你** PC **準系統廠**轉型為[[工業電腦]]」獲發行人簡報支持：簡報載「**成立日期 1983年6月**」與「以**迷你化邊緣AI 運算電腦**為核心，提供商業與**工業**場域的智慧邊緣解決方案」（「輔信」4次、「1983」1次、「**迷你**」5次、「**工業電腦**」2次）。**惟三項陳述未獲支持**：(1)「前身為**浩鑫電腦**」——「**浩鑫**」出現次數為**0**；(2)「**2020 年更名**為輔信科技」——「**2020**」與「**更名**」均為**0**；(3)「總部位於台北」未見。故部分成立。",
+      "proposed_text": "輔信科技 (2405，Shuttle) 成立於1983年，以迷你化邊緣 AI 運算電腦為核心，提供商業與工業場域之智慧邊緣解決方案。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2425:identity_changing_event:55f86d211d68f828",
+      "normalized_claim_hash": "55f86d211d68f82848046b98710a07eaee19e89cc6f8eeb84695bbc1541b3b33",
+      "ticker": "2425",
+      "company": "承啟",
+      "path": "Pilot_Reports/Computer Hardware/2425_承啟.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司原名承啟大眾科技 (Walton Chaintech)，2013 年更名為承啟科技。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.chaintech.com.tw/%5Cadministration%5Cfiles%5C20150410105616.pdf",
+          "title": "承啟科技股份有限公司（承啟，2425，Chaintech）民國103年度及102年度個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國103年度及102年度。**文件性質為個體財務報告，非年報**。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取26,414字元）。**文件性質為個體財務報告暨會計師查核報告**；文中載「（本）公司，設立於**民國75年11月**，於**民國102年1月更名為承啟科技股份有（限公司）**」與「本公司36.2%股份。其餘則被**大眾**持有。本公司之最終控制者為**七彩虹集團**」（「**承啟**」26次、「**大眾**」1次、「2013」5次、「更名」1次；**民國102年＝2013年**），**逐項支持其更名事件**。**關鍵發現**：全份文件中「**Walton**」與「原名承啟大眾科技」之完整表述**未見**。"
+        }
+      ],
+      "rationale": "「**2013 年**更名為承啟科技」獲發行人文件**逐字支持**：文中載「（本）公司，設立於民國75年11月，於**民國102年1月更名為承啟科技股份有（限公司）**」（**民國102年＝2013年**），並見「**大眾**」1次（「其餘則被**大眾**持有」）。**惟兩項陳述未獲支持**：(1)「原名為**承啟大眾科技**」——文中**未見該全稱**；(2)「（**Walton Chaintech**）」——「**Walton**」之出現次數為**0**。故部分成立。**文件性質註記**：本件為**個體財務報告（非年報）**。",
+      "proposed_text": "承啟科技 (2425，Chaintech) 於2013年（民國102年1月）更名為現名。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3231:material_named_relationship:880c1f0bf1a7ff19",
+      "normalized_claim_hash": "880c1f0bf1a7ff199c8efb20ba0c72d5ebda539f83387bcae9a528aa6a6dbd9c",
+      "ticker": "3231",
+      "company": "緯創",
+      "path": "Pilot_Reports/Computer Hardware/3231_緯創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年公司積極執行精實策略，出售低毛利手機業務，全力投入 [[AI 伺服器]]與高價值產品領域，成功轉型為 AI 伺服器核心供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3231_111.pdf",
+          "title": "緯創資通股份有限公司（緯創，3231，Wistron）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。**文件性質為永續報告書，非年報**。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取221,459字元）。**關鍵發現（文件類型與 claim 所需不符）**：該檔封面載「**永續報告書** 緯創資通股份有限公司 **2022**」——**文件性質為永續報告書，而非年報**。文中「**AI**」出現84次、「**伺服器**」11次，**惟「AI 伺服器」（連續字串）、「GPU」、「NVIDIA」、「基板」、「DGX」與「獨家」之出現次數均為0**；「手機」1次。「緯創資通」為文件所述之公司名。"
+        }
+      ],
+      "rationale": "「全力投入 [[AI 伺服器]]與高價值產品領域」獲所取得文件之**部分支持**：文中「**AI**」出現84次、「**伺服器**」11次，**顯示 AI 與伺服器確為其揭露之重點領域**。**惟多項陳述未獲支持**：(1)「**AI 伺服器**」（連續字串）出現次數為**0**；(2)「出售**低毛利手機業務**」——「手機」僅1次，且未載出售之敘述；(3)「成功轉型為 AI 伺服器**核心供應商**」——「供應商」之相關敘述未見。故部分成立。**文件類型註記**：本件為**2022年永續報告書（非年報）**，**其揭露範圍不含客戶關係與產品別營運細節，故本筆宜另取年報複核**。",
+      "proposed_text": "緯創資通 (3231，Wistron) 之業務涵蓋 AI 與伺服器等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3231:profitability_assertion:a7ec296d843b0d2b",
+      "normalized_claim_hash": "a7ec296d843b0d2b3395cd47f04cb731ef0456527d596836809ac3e9dfa18b2a",
+      "ticker": "3231",
+      "company": "緯創",
+      "path": "Pilot_Reports/Computer Hardware/3231_緯創.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務與成長引擎：(1) AI 伺服器 GPU 基板 — 為 [[NVIDIA]] 最關鍵供應商之一，獨家供應 DGX 系統 GPU 基板 (Baseboard) 與相關算力模組；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3231_111.pdf",
+          "title": "緯創資通股份有限公司（緯創，3231，Wistron）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。**文件性質為永續報告書，非年報**。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取221,459字元）。**關鍵發現（文件類型與 claim 所需不符）**：該檔封面載「**永續報告書** 緯創資通股份有限公司 **2022**」——**文件性質為永續報告書，而非年報**。文中「**AI**」出現84次、「**伺服器**」11次，**惟「AI 伺服器」（連續字串）、「GPU」、「NVIDIA」、「基板」、「DGX」與「獨家」之出現次數均為0**；「手機」1次。「緯創資通」為文件所述之公司名。"
+        }
+      ],
+      "rationale": "「為 [[NVIDIA]] 最關鍵供應商之一，**獨家供應 DGX 系統 GPU 基板（Baseboard）**與相關算力模組」未獲確立：所取得之緯創2022年永續報告書中「**NVIDIA**」「**GPU**」「**基板**」「**DGX**」「**Baseboard**」與「**獨家**」之出現次數**均為0**。因該 claim 之實質內容為具名客戶與獨家供應關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。**文件類型註記**：本件為**永續報告書而非年報**，**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3231:material_named_relationship:1d9cf38dc03b36db",
+      "normalized_claim_hash": "1d9cf38dc03b36db4bb9472a78620afb502f8ea2ab403e0b9ec3a23ba5090020",
+      "ticker": "3231",
+      "company": "緯創",
+      "path": "Pilot_Reports/Computer Hardware/3231_緯創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] — DGX 系統 GPU 基板獨家供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3231_111.pdf",
+          "title": "緯創資通股份有限公司（緯創，3231，Wistron）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。**文件性質為永續報告書，非年報**。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取221,459字元）。**關鍵發現（文件類型與 claim 所需不符）**：該檔封面載「**永續報告書** 緯創資通股份有限公司 **2022**」——**文件性質為永續報告書，而非年報**。文中「**AI**」出現84次、「**伺服器**」11次，**惟「AI 伺服器」（連續字串）、「GPU」、「NVIDIA」、「基板」、「DGX」與「獨家」之出現次數均為0**；「手機」1次。「緯創資通」為文件所述之公司名。"
+        }
+      ],
+      "rationale": "「[[NVIDIA]] — DGX 系統 GPU 基板**獨家供應**」未獲確立：同上，文件中「**NVIDIA**」「**DGX**」「**GPU**」「**基板**」與「**獨家**」之出現次數**均為0**。故以 UNKNOWN_AFTER_RESEARCH 結案。**文件類型註記**：本件為**永續報告書而非年報**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
