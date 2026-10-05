@@ -1,0 +1,34 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-012",
+  "reviewed_at": "2026-10-05T14:34:32Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of a directly downloaded and inspected TPEx issuer profile PDF; web search snippets were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "4558:objective_ranking_or_market_share:e9efcd84b9b3989d",
+      "normalized_claim_hash": "e9efcd84b9b3989da3693064b31fa64589ab4acb800e4007bcfe1dd0e3e4b661",
+      "ticker": "4558",
+      "company": "寶緯",
+      "path": "Pilot_Reports/Aluminum/4558_寶緯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "寶緯工業 (4558，ALFORMER Industrial) 為台灣最大[[鋁擠型]]製造商之一，逾 30 年歷史。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/co_report/2015/05/1430897377_1648_CH_P69%E5%AF%B6%E7%B7%AF.pdf",
+          "title": "櫃買中心興櫃公司簡介 No. 176：寶緯工業股份有限公司",
+          "source_level": 2,
+          "period_binding": "櫃買中心刊物 No.176，2015年4月；公司基本資料記載設立日期為民國78年3月9日（1989-03-09），產品與實收資本額資訊截至民國103年10月底。設立日期支持截至本次查證日2026-10-05已逾30年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視櫃買中心官方網域的一頁公司簡介（PDF頁碼69）。原文載明「寶緯工業股份有限公司設立於民國78年3月9日」，並記載主要生產、加工鋁擠型、工業擠型等產品；亦稱公司在2015年已累積二十多年鋁擠型專業製造經驗。這些正式資料支持公司從事鋁擠型及截至2026年已逾30年歷史。文件沒有台灣鋁擠型製造商排名、產能比較、市占率或「最大之一」的明確比較證據。"
+        }
+      ],
+      "rationale": "櫃買中心2015年公司簡介記載寶緯於1989年3月9日設立，並從事鋁擠型生產與加工；設立日期支持截至2026年已逾30年歷史。查閱的官方交易所來源沒有提供台灣業者的排名、產能比較或市占資料，不能據此接受「台灣最大鋁擠型製造商之一」的 qualifier。寶緯官網與 MOPS 的暫時性 HTTP 500/503 只保留為來源取得觀測，未被當成語意證據。",
+      "proposed_text": "寶緯工業成立於1989年，從事鋁擠型及工業擠型產品生產與加工。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
