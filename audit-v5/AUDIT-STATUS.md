@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 17:04 UTC
+Updated: 2026-10-06 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **226 / 1,399**
-- Remaining author review: **1,173**
-- Latest batch: **author-041** (8 claims)
+- Author-reviewed: **233 / 1,399**
+- Remaining author review: **1,166**
+- Latest batch: **author-042** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **47**
-- `PARTIALLY_SUPPORTED`: **141**
+- `ACCEPTED`: **48**
+- `PARTIALLY_SUPPORTED`: **147**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2301:objective_ranking_or_market_share:253cd0fbdf268d3a`、`91dae1d50cf674d0`、`c1562f098f12ec0e`、`0c7d1b024b811bb9` — `UNKNOWN_AFTER_RESEARCH` ×4; 光寶科2026-05-04簡報為影像排版（2,318,022 bytes PDF 僅擷取20字元/1頁）、MOPS年報端點回320 bytes、官方投資人專區404、官方低軌衛星專文抓取失敗，未取得可檢索文字文件。
-- `2312:objective_ranking_or_market_share:21dca8dbbc43aba7` — `UNKNOWN_AFTER_RESEARCH`; 金寶官網年報與ESG報告端點皆回HTTP 403、MOPS年報端點回320 bytes。
-- `2323:objective_ranking_or_market_share:3c7df6a4b4366ff5` — `PARTIALLY_SUPPORTED`; 中環110年報第15/18/27/30頁載其為全球最大光碟片製造商、全球市占率第一、光碟片市佔達6成；惟「1978」僅見於無關敘述、「台泥」0次、總部所在未以沿革載明。
-- `2323:objective_ranking_or_market_share:b03395fd40ab4638` — `ACCEPTED`; 同前各頁支持其全球最大光碟片製造商地位；2025簡報第3/9頁載光碟＋SSD/Flash全鏈方案。
-- `2324:objective_ranking_or_market_share:5595511e820cef92` — `PARTIALLY_SUPPORTED`; 仁寶114年報出現「戴爾電腦公司」與「Dell Products L.P.」各1次；惟未載Dell為最大筆電代工客戶，亦無客戶占比或排名。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-041.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `2356:objective_ranking_or_market_share:ed253454231d412c` (英業達).
+- `2356:objective_ranking_or_market_share:ed253454231d412c` — `PARTIALLY_SUPPORTED`; 英業達50週年特刊第35/42頁載2002年康柏被惠普併購後ODM關係延續、「繼續成為HP核心供應商」；惟未載HP為最大筆電代工客戶或客戶占比。
+- `2364:objective_ranking_or_market_share:1a5a7e549dde1f07` — `PARTIALLY_SUPPORTED`; 倫飛112年報第9/62頁載軍規電腦ODM/OEM與自有品牌Durabook、持續投入軍工規強固型筆電；惟「2000年第一台」未載。
+- `2365:objective_ranking_or_market_share:694d960ffe356728` — `PARTIALLY_SUPPORTED`; 昆盈103年報與111年報告載滑鼠產品與Genius品牌（滑鼠17/8次）；惟「1985」「先驅」「第一支」皆0次。
+- `2382:objective_ranking_or_market_share:e26e1066260b8298` — `PARTIALLY_SUPPORTED`; 廣達文件載註冊地址桃園市龜山區、第90頁「筆電出貨4,240萬台、市佔約26%、為全球筆記型電腦代工廠之龍頭」；惟「1988」0次。
+- `2382:objective_ranking_or_market_share:c8e56ca69d86acd4` — `ACCEPTED`; 同頁明載其為全球筆記型電腦代工廠之龍頭。
+- `2382:objective_ranking_or_market_share:846efe9d83aac395`、`beca552fa505ce2a` — `PARTIALLY_SUPPORTED` ×2; QCT為雲端事業部門並供應大型資料中心獲支持；惟「全球前50大資料中心市佔逾五成」未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-042.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` (群光).
 
 ## Source access
 

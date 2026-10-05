@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **226 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), and `author-041` (8).
+Author-reviewed: **233 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), and `author-042` (7).
 
-- ACCEPTED by author: 47
-- PARTIALLY_SUPPORTED: 141
+- ACCEPTED by author: 48
+- PARTIALLY_SUPPORTED: 147
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 34
-- Remaining author queue: 1,173
+- Remaining author queue: 1,166
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -500,6 +500,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-041.json`; no issuer report was modified. Independent review remains pending.
 - 後續處理建議：光寶科技與金寶電子合計5筆 UNKNOWN 之主因為「官方文件不可讀取」（影像版簡報、MOPS端點回傳非文件內容、官方網域403/404），而非 claim 內容有誤。建議於後續輪次以不同路徑重試（例如 MOPS 年報端點於其他時點、或改由公司法說會其他年度簡報），並在獨立複核時一併檢視。此類限制未達 `local-recheck-queue.json` 之門檻（該佇列記錄的是 Cloud 環境之 HTTP 500–504 失敗），故佇列維持 **15** 筆。
 - Author-reviewed total: **226 / 1,399**; remaining: **1,173**. Outcome counts: ACCEPTED 47, PARTIALLY_SUPPORTED 141, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `2356:objective_ranking_or_market_share:ed253454231d412c` (英業達).
+
+## Author batch `author-042` — 2026-10-06
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (英業達 2356, 倫飛 2364, 昆盈 2365, 廣達 2382 ×4). Evidence came from directly downloaded and inspected official disclosures: 英業達五十週年特刊、倫飛112年度年報、昆盈103年度年報與111年營運概況報告、廣達2018Q3法人說明會暨年報資料。
+- `2356:objective_ranking_or_market_share:ed253454231d412c` — `PARTIALLY_SUPPORTED`. 英業達五十週年特刊第25頁載其與「當時全球最大筆電品牌業者康柏電腦」建立代工合作關係並成為台灣最大筆記型電腦代工業者，第35頁載「2002年，康柏被惠普併購…時期確立的ODM合作關係，延續至惠普時期」，第42頁載「繼續成為HP核心供應商」。惟全份特刊未載 HP 為其最大筆電代工客戶，亦無客戶別占比或排名。
+- `2364:objective_ranking_or_market_share:1a5a7e549dde1f07` — `PARTIALLY_SUPPORTED`. 倫飛112年度年報第9頁載公司設有統籌軍規電腦 ODM/OEM 及工規電腦品牌業務之單位並載「對Durabook 現有軍工規產品與品牌之行銷」，第62頁載「持續投入研發軍/工規強固型筆記型電腦」與「業務發展核心為自有品牌Durabook」。惟「於2000年製造出第一台軍規強固型筆電」未載於年報。
+- `2365:objective_ranking_or_market_share:694d960ffe356728` — `PARTIALLY_SUPPORTED`. 昆盈103年度年報載其提供國際品牌大廠滑鼠等產品並列多項滑鼠獲獎紀錄（「滑鼠」17次、「Genius」10次）；111年營運概況報告載輸入裝置產品線含滑鼠 Mice 與多個滑鼠系列（「滑鼠」8次、「Genius」7次）。惟「1985」「先驅」「第一支」「首支」於兩份文件中出現次數均為0。
+- `2382:objective_ranking_or_market_share:e26e1066260b8298` — `PARTIALLY_SUPPORTED`. 廣達文件載註冊地址「桃園市龜山區文化二路188號」，第90頁明載「廣達筆記型電腦出貨量約4,240萬台，市佔率約為26%，為全球筆記型電腦代工廠之龍頭」，第92頁載其在全球資料中心設備市場出貨量與技術領先同業。惟「成立於1988年」未載（「1988」出現次數為0），「全球最重要之AI伺服器代工廠」屬評價性最高級，官方用語為「雲端運算資料中心解決方案的重要供應商」。
+- `2382:objective_ranking_or_market_share:c8e56ca69d86acd4` — `ACCEPTED`. 同頁明載其為「全球筆記型電腦代工廠之龍頭」。
+- `2382:objective_ranking_or_market_share:846efe9d83aac395` 與 `beca552fa505ce2a` — `PARTIALLY_SUPPORTED`. 文件第86及88頁載 QCT 為廣達旗下雲端事業部門、第92頁載其在全球資料中心設備市場領先同業；惟「全球前50大資料中心市佔逾五成」未載。
+- Proposed wording is recorded for the partial claims in `semantic/author-042.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **233 / 1,399**; remaining: **1,166**. Outcome counts: ACCEPTED 48, PARTIALLY_SUPPORTED 147, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` (群光).
+
 
 
 
