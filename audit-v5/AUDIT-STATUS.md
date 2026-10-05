@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 11:04 UTC
+Updated: 2026-10-07 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **331 / 1,399**
-- Remaining author review: **1,068**
-- Latest batch: **author-059** (7 claims)
+- Author-reviewed: **338 / 1,399**
+- Remaining author review: **1,061**
+- Latest batch: **author-060** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **56**
+- `ACCEPTED`: **58**
 - `PARTIALLY_SUPPORTED`: **212**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **59**
+- `UNKNOWN_AFTER_RESEARCH`: **64**
 
 ## Latest claim batch
 
-- `2327:objective_ranking_or_market_share:4bc2906c15245aae` — `PARTIALLY_SUPPORTED`; 國巨2025年報第77頁載「**國巨為全球鉭質電容第一大廠，市占率46％以上**」與「**本公司是世界最大的晶片電阻製造廠商**」；惟「晶片電阻34%」「MLCC 15%第三」「電感12%第三」未載。
-- `2355:objective_ranking_or_market_share:e2751dcf4f662431` — `PARTIALLY_SUPPORTED`; 敬鵬111年報載「以**汽車板業務為主**」（汽車17次、PCB 82次）；惟「全球第四」0次、「市占」僅1次泛用語。
-- `2355:objective_ranking_or_market_share:45cccbbebc446916` — `UNKNOWN_AFTER_RESEARCH`; 「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」皆0次，依具名客戶身分規則結為UNKNOWN。
-- `2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21`、`8cd3eedf1d33d1d5` — `UNKNOWN_AFTER_RESEARCH` ×2; 台光電2023年報文字層呈**亂碼**，僅子公司資料表可讀，「銅箔基板」僅見於子公司業務描述，「CCL」「載板」皆0次。
-- `2393:objective_ranking_or_market_share:855bf0c8d0c3d854`、`feb61c76bb10402c` — `ACCEPTED` ×2; 億光2021年報第106頁載「**本公司目前為國內最大的LED專業封裝廠**」「照明元件、背光元件、手持裝置…車用元件及不可見光元件之**產值明顯超過台灣同業**」。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-059.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` (毅嘉).
+- `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` — `UNKNOWN_AFTER_RESEARCH`; 毅嘉官網根網址HTTP 200，惟年報路徑（http/https）與股東資訊頁均回404，未取得可檢視文件。
+- `2486:objective_ranking_or_market_share:e7b17a5349873c82`、`7243ef589ba0d390` — `ACCEPTED` ×2; 一詮2023永續報告第15頁載「**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**」，並列主要產品含 LED 導線架、IC 導線架、陶瓷基板、均熱片（半導體）。
+- `3008:objective_ranking_or_market_share:851df492397be9dc` — `UNKNOWN_AFTER_RESEARCH`; 大立光2013年報「Apple」「Samsung」「小米」「OPPO」「vivo」與「最大客戶」皆0次（客戶27次均為通稱），依客戶身分規則結為UNKNOWN（該版本亦非近期）。
+- `3017:objective_ranking_or_market_share:f76fbbb6956b1040` — `UNKNOWN_AFTER_RESEARCH`; 未查得奇鋐官方網域可檢視PDF端點，所取得者均為券商與第三方媒體。
+- `3036:objective_ranking_or_market_share:48c69f1daccb8476`、`8a0838b5f670f054` — `UNKNOWN_AFTER_RESEARCH` ×2; 文曄官方簡報端點連續兩次（含420秒逾時）下載失敗。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-060.json`（7 筆）。未修改發行人報告。
+- 註記：本批次新增5筆 UNKNOWN，使 UNKNOWN 累計達64筆（佔已審338筆之18.9%），成因均為官方來源不可取得（404／逾時／未查得端點）。
+- Next pending claim by priority: `3037:objective_ranking_or_market_share:2416d3deb1742a86` (欣興).
 
 ## Source access
 

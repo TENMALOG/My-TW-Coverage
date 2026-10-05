@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-060",
+  "reviewed_at": "2026-10-05T18:21:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (一詮2023年永續報告書; 大立光2013年度年報); 毅嘉、奇鋐與文曄之官方文件於本批次均無法取得可檢視內容，已逐項記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83",
+      "normalized_claim_hash": "6eadc6e5bdc3ad83c1c2cb398bc7f4c817971b1dfaee8420333ad0a0e39421bb",
+      "ticker": "2402",
+      "company": "毅嘉",
+      "path": "Pilot_Reports/Electronic Components/2402_毅嘉.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球 FPC 市占約 1-2%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.ichia.com/images/shareholders/2025-4.pdf",
+          "title": "毅嘉科技（2402，Ichia Technologies）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得毅嘉科技官方文件之結果：(1) 發行人官網根網址 www.ichia.com 回應 HTTP 200（內容長度97,294字元），顯示網站可連線；(2) 惟年報路徑 www.ichia.com/images/shareholders/2025-4.pdf 以 http 與 https 兩種協定存取均回應 HTTP 404；(3) 另一網域 www.ichia.com.tw 之同路徑亦回應 HTTP 404；(4) 官方股東資訊頁 www.ichia.com/shareholders.aspx 回應 HTTP 404。故未取得可檢視之毅嘉官方文件。"
+        }
+      ],
+      "rationale": "「全球 FPC（軟性印刷電路板）市占約 1-2%」未獲確立：本批次未取得任何可檢視之毅嘉官方文件——官網根網址雖回應 HTTP 200，惟年報路徑以 http 與 https 協定存取均回應 HTTP 404，另一網域之同路徑亦為 404，官方股東資訊頁亦為 404（詳見 evidence.note）。故其 FPC 業務之市占率既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2486:objective_ranking_or_market_share:e7b17a5349873c82",
+      "normalized_claim_hash": "e7b17a5349873c821d47bbeb79ed24c788281895eb0a92f9bb1d744d84381044",
+      "ticker": "2486",
+      "company": "一詮",
+      "path": "Pilot_Reports/Electronic Components/2486_一詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.i-chiun.com.tw/ec99/rwd1809/pdf/sr-2023.pdf",
+          "title": "一詮精密工業股份有限公司（一詮，2486，I-Chiun）2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第15頁「關於一詮精密－公司簡介」載「目前一詮精密**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**。為了挑戰精度與產能極限，不斷的投入研發…」，並載「主要產品/服務 SMD 導線架 / LED 導線架 直下式電視背光模組 / **陶瓷基板** **均熱片（半導體）** / **IC 導線架**」，另載「一詮精密創立至今已經擁有核心智財權超過50項以上，分布於手機震動馬達、3C關鍵部品以及**LED光電產業導線架**等」。全份報告書中「導線架」29次、「LED」19次、「陶瓷基板」4次、「均熱片」5次；「全球最大」出現次數為0（相關地位以「全球市佔率已經排名世界第一」表述）。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人官方永續報告書直接支持：第15頁載「目前一詮精密**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**」，對應 claim 之「全球最大的 LED 導線架製造商」；同頁並列「主要產品/服務 SMD 導線架 / **LED 導線架**、直下式電視背光模組 / **陶瓷基板**、**均熱片（半導體）** / **IC 導線架**」，與 claim 之「產品涵蓋 LED 導線架、IC 導線架、陶瓷基板及散熱元件（均熱片）」逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2486:objective_ranking_or_market_share:7243ef589ba0d390",
+      "normalized_claim_hash": "7243ef589ba0d39088d95f618a4e0682f70c057dce71d97e223b163432333717",
+      "ticker": "2486",
+      "company": "一詮",
+      "path": "Pilot_Reports/Electronic Components/2486_一詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.i-chiun.com.tw/ec99/rwd1809/pdf/sr-2023.pdf",
+          "title": "一詮精密工業股份有限公司（一詮，2486，I-Chiun）2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第15頁「關於一詮精密－公司簡介」載「目前一詮精密**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**。為了挑戰精度與產能極限，不斷的投入研發…」，並載「主要產品/服務 SMD 導線架 / LED 導線架 直下式電視背光模組 / **陶瓷基板** **均熱片（半導體）** / **IC 導線架**」，另載「一詮精密創立至今已經擁有核心智財權超過50項以上，分布於手機震動馬達、3C關鍵部品以及**LED光電產業導線架**等」。全份報告書中「導線架」29次、「LED」19次、「陶瓷基板」4次、「均熱片」5次；「全球最大」出現次數為0（相關地位以「全球市佔率已經排名世界第一」表述）。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「一詮（全球最大 LED 導線架，含陶瓷基板/均熱片）」）。永續報告書第15頁明載其 LED 可見光及不可見光導線架之全球市佔率排名世界第一，並列陶瓷基板與均熱片（半導體）為主要產品。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3008:objective_ranking_or_market_share:851df492397be9dc",
+      "normalized_claim_hash": "851df492397be9dc2494865bc36b955151012c5fd8f3a1961e8426b2071a4970",
+      "ticker": "3008",
+      "company": "大立光",
+      "path": "Pilot_Reports/Electronic Components/3008_大立光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.largan.com.tw/tw/tool-download/page_size/file/172/2013-%e5%b9%b4%e5%a0%b1",
+          "title": "大立光電股份有限公司（大立光，3008，Largan Precision）2013 年度年報",
+          "source_level": 3,
+          "period_binding": "民國102年度（2013年）；非近期版本。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。年報中「客戶」出現27次（均為通稱），惟「Apple」「Samsung」「小米」「OPPO」「vivo」與「最大客戶」之出現次數均為0，未具名任何客戶。註記：本批次於發行人官方網域下載取得者可讀取之版本為2013年度年報，非近期版本。"
+        }
+      ],
+      "rationale": "「Apple（最大客戶）、Samsung、小米、OPPO、vivo」之客戶清單未獲確立：本批次可檢視之大立光官方年報為2013年度版本，全份文件中「Apple」「Samsung」「小米」「OPPO」「vivo」與「最大客戶」之出現次數均為0（「客戶」27次均為通稱），未具名任何客戶。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案；並註記該版本為2013年度、非近期版本。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3017:objective_ranking_or_market_share:f76fbbb6956b1040",
+      "normalized_claim_hash": "f76fbbb6956b1040d60d08ec2ae578fa19edaf6e9452b6ddafbca3747d1419a5",
+      "ticker": "3017",
+      "company": "奇鋐",
+      "path": "Pilot_Reports/Electronic Components/3017_奇鋐.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心競爭力與成長引擎：(1) [[AI 伺服器]]散熱 — 打入 [[NVIDIA]]、[[Microsoft]]、[[Amazon]] AWS、[[Meta]] 等巨頭供應鏈，取得 [[NVIDIA]] 全球唯三 RVL 推薦供應商資格且為唯一台商；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.kgisocial.com/",
+          "title": "奇鋐科技（3017，Asia Vital Components）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次以多組查詢字詞（含「奇鋐 3017 年報 pdf 官網 NVIDIA RVL 散熱」）搜尋該公司官方年報或法人說明會文件，所取得之結果均為券商研究報告與第三方財經媒體，未查得發行人官方網域之可檢視 PDF 端點；公開資訊觀測站之簡報端點亦未於本批次取得可讀取內容。故未取得可檢視之奇鋐官方文件。"
+        }
+      ],
+      "rationale": "「打入 NVIDIA、Microsoft、Amazon AWS、Meta 等供應鏈，取得 NVIDIA 全球唯三 RVL 推薦供應商資格且為唯一台商」未獲確立：本批次以多組查詢字詞搜尋奇鋐之官方年報或法人說明會文件，所取得者均為券商研究報告與第三方財經媒體，未查得發行人官方網域之可檢視 PDF 端點，公開資訊觀測站亦未取得可讀取內容。故其客戶供應鏈關係與 RVL 資格既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3036:objective_ranking_or_market_share:48c69f1daccb8476",
+      "normalized_claim_hash": "48c69f1daccb8476eb47d1d00cbb30a931bc4e08a4df80395a2faad0cb32dc60",
+      "ticker": "3036",
+      "company": "文曄",
+      "path": "Pilot_Reports/Electronic Components/3036_文曄.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 代工廠採購",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.wtmec.com/wp-content/uploads/2021/11/%e6%96%87%e6%9b%84-3036-3Q21%e7%87%9f%e9%81%8b%e7%b0%a1%e5%a0%b1.pdf",
+          "title": "文曄科技（3036，WT Microelectronics）官方營運簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域下載其 3Q21 營運簡報（路徑 /wp-content/uploads/2021/11/文曄-3036-3Q21營運簡報.pdf），連續兩次嘗試（含延長至420秒逾時）均以「作業已逾時」失敗，未取得檔案；另查得之該公司 CSR 報告書為 2019 年度文件。故本批次未取得可檢視之文曄官方文件。"
+        }
+      ],
+      "rationale": "「鴻海（最大客戶）、廣達、緯創 — 代工廠採購」未獲確立：本批次自發行人官方網域下載其營運簡報，連續兩次嘗試（含延長逾時）均以「作業已逾時」失敗，未取得檔案；另查得之官方永續報告書為2019年度文件。故客戶身分與最大客戶地位均未獲權威來源確認或否證，且該 claim 之實質內容為具名客戶身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3036:objective_ranking_or_market_share:8a0838b5f670f054",
+      "normalized_claim_hash": "8a0838b5f670f0545b54a082043fb207165499d4b82c4522c97793beb77f5112",
+      "ticker": "3036",
+      "company": "文曄",
+      "path": "Pilot_Reports/Electronic Components/3036_文曄.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 半導體零組件採購",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.wtmec.com/wp-content/uploads/2021/11/%e6%96%87%e6%9b%84-3036-3Q21%e7%87%9f%e9%81%8b%e7%b0%a1%e5%a0%b1.pdf",
+          "title": "文曄科技（3036，WT Microelectronics）官方營運簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域下載其 3Q21 營運簡報（路徑 /wp-content/uploads/2021/11/文曄-3036-3Q21營運簡報.pdf），連續兩次嘗試（含延長至420秒逾時）均以「作業已逾時」失敗，未取得檔案；另查得之該公司 CSR 報告書為 2019 年度文件。故本批次未取得可檢視之文曄官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「鴻海（最大客戶）、廣達、緯創 — 半導體零組件採購」）。因本批次未取得可檢視之文曄官方文件，且該 claim 之實質內容為具名客戶身分，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

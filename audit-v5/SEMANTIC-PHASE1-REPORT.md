@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **331 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), and `author-059` (7).
+Author-reviewed: **338 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), and `author-060` (7).
 
-- ACCEPTED by author: 56
+- ACCEPTED by author: 58
 - PARTIALLY_SUPPORTED: 212
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 59
-- Remaining author queue: 1,068
+- Other allowed author decisions: 64
+- Remaining author queue: 1,061
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -704,6 +704,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **331 / 1,399**; remaining: **1,068**. Outcome counts: ACCEPTED 56, PARTIALLY_SUPPORTED 212, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 59. Next pending claim by priority: `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` (毅嘉).
+
+## Author batch `author-060` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (毅嘉 2402, 一詮 2486 ×2, 大立光 3008, 奇鋐 3017, 文曄 3036 ×2). 一詮與大立光之證據來自可直接下載檢視之官方文件；毅嘉、奇鋐與文曄之官方來源於本批次均無法取得可檢視內容。
+- `2486:objective_ranking_or_market_share:e7b17a5349873c82` 與 `7243ef589ba0d390` — `ACCEPTED`. 一詮2023年永續報告書第15頁載「目前一詮精密**光電產業LED可見光及不可見光導線架的全球市佔率已經排名世界第一**」，並列「主要產品/服務 SMD 導線架 / **LED 導線架**、直下式電視背光模組 / **陶瓷基板**、**均熱片（半導體）** / **IC 導線架**」，與 claim 之「全球最大的 LED 導線架製造商」「產品涵蓋 LED 導線架、IC 導線架、陶瓷基板及散熱元件（均熱片）」逐項對應。
+- `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` — `UNKNOWN_AFTER_RESEARCH`. 毅嘉科技官網根網址回應 HTTP 200（內容長度97,294字元），惟年報路徑 www.ichia.com/images/shareholders/2025-4.pdf 以 http 與 https 協定存取均回應 HTTP 404，另一網域 www.ichia.com.tw 之同路徑亦為404，官方股東資訊頁 /shareholders.aspx 亦為404。故「全球 FPC 市占約1-2%」未獲確立。
+- `3008:objective_ranking_or_market_share:851df492397be9dc` — `UNKNOWN_AFTER_RESEARCH`. 本批次取得之可檢視大立光官方年報為2013年度版本，全份文件中「Apple」「Samsung」「小米」「OPPO」「vivo」與「最大客戶」出現次數均為0（「客戶」27次均為通稱）。因該 claim 之實質內容為具名客戶身分，依一致性規則結為 UNKNOWN，並註記該版本非近期。
+- `3017:objective_ranking_or_market_share:f76fbbb6956b1040` — `UNKNOWN_AFTER_RESEARCH`. 以多組查詢字詞搜尋奇鋐之官方年報或法人說明會文件，所取得者均為券商研究報告與第三方財經媒體，未查得發行人官方網域之可檢視 PDF 端點。
+- `3036:objective_ranking_or_market_share:48c69f1daccb8476` 與 `8a0838b5f670f054` — `UNKNOWN_AFTER_RESEARCH`. 文曄官方營運簡報端點連續兩次下載嘗試（其中一次延長至420秒）均以「作業已逾時」失敗；另查得之官方永續報告書為2019年度文件。故「鴻海（最大客戶）、廣達、緯創」之客戶清單未獲確立。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- 趨勢註記：本批次新增5筆 UNKNOWN，使 UNKNOWN 累計 **64 筆**，佔已審338筆之18.9%，成因均為官方來源不可取得（404、下載逾時、未查得端點）。此類情形與 `local-recheck-queue.json` 所記錄之 Cloud 環境 HTTP 500–504 失敗性質不同，故未計入該佇列。
+- Author-reviewed total: **338 / 1,399**; remaining: **1,061**. Outcome counts: ACCEPTED 58, PARTIALLY_SUPPORTED 212, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3037:objective_ranking_or_market_share:2416d3deb1742a86` (欣興).
+
 
 
 
