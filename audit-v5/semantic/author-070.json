@@ -1,0 +1,167 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-070",
+  "reviewed_at": "2026-10-05T18:55:35Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (三聯2024年永續報告書; 達運公司文件; 業強2025年法人說明會簡報; 瑞儀111年度年報與2023年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "5493:objective_ranking_or_market_share:f94ffe7b1a69c19b",
+      "normalized_claim_hash": "f94ffe7b1a69c19be166e1220b00fb5403c38ef87eee1c981786282d0f72cda3",
+      "ticker": "5493",
+      "company": "三聯",
+      "path": "Pilot_Reports/Electronic Components/5493_三聯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 自動化監測 — 提供地震預警、水庫/橋樑土木工程安全監測服務，為國內環境監測與微振動感測技術第一品牌；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://sanlien.com.tw/wp-content/uploads/%E4%B8%89%E8%81%AF-2024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-v4-0805_compressed.pdf",
+          "title": "三聯科技股份有限公司（三聯，5493）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「三聯深耕台灣，為**國內環境監測、微振動感測技術與系統整合服務第一品牌**，致力成為居住環境舒適安全解決方案（提供者）」，並載「三聯致力於環境監測、微振動感測技術與系統整合服務，自1967年成立至今，已合作超過50多個國家的客戶，完成超過上萬筆振動監測成功案例」，另載其投入天然災害量測儀器研發並開發地震預警感測器。全份報告書中「地震」29次、「監測」29次、「預警」15次、「微振動」2次、「水庫」3次、「橋樑」1次、「第一品牌」1次。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人官方報告書支持：2024年永續報告書載「三聯深耕台灣，為**國內環境監測、微振動感測技術與系統整合服務第一品牌**」，與 claim 之「為國內環境監測與微振動感測技術第一品牌」對應；報告書並載其投入天然災害量測儀器研發、開發地震預警感測器，且「地震」29次、「監測」29次、「預警」15次、「水庫」3次、「橋樑」1次，對應 claim 之「提供地震預警、水庫／橋樑土木工程安全監測服務」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6120:objective_ranking_or_market_share:f6aa9a39447d6971",
+      "normalized_claim_hash": "f6aa9a39447d6971f516aae70476f1287c7b8f78d39915499a32a9b5ae07908d",
+      "ticker": "6120",
+      "company": "達運",
+      "path": "Pilot_Reports/Electronic Components/6120_達運.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[友達]] — 最大客戶，背光模組",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darwinprecisions.com/zh-cn/data/shareholders/files/1780281069912286426.pdf",
+          "title": "達運精密工業股份有限公司（達運，6120，Darwin Precisions）公司文件（股東會／年報）",
+          "source_level": 3,
+          "period_binding": "文件所載董事異動至民國114年6月；產品營收比重請見文件所載年度。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。文件載「註1：本公司**法人董事友達光電(股)公司**於114.06.11改派代表人為謝忠賢先生，直至本屆任期屆滿為止，原代表人柯富仁先生同日卸任」（「友達」65次），顯示友達光電為其法人董事。另載產品營收比重表含「液晶顯示器及模組代工」等（「背光模組」30次、「導光板」29次、「液晶顯示器」11次、「代工」6次、「客戶」63次均為通稱）。全份文件中「最大客戶」與「主要客戶」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與友達光電具密切關係」及「從事背光模組業務」獲發行人文件支持：文件載「註1：本公司**法人董事友達光電(股)公司**於114.06.11改派代表人為謝忠賢先生…」（「友達」65次），顯示友達光電為其法人董事；產品營收比重表含「液晶顯示器及模組代工」等，且「背光模組」30次、「導光板」29次。惟「友達為**最大客戶**」未獲支持：全份文件中「最大客戶」與「主要客戶」出現次數均為0（「客戶」63次均為通稱），未載客戶別營收占比或客戶排名。故部分成立。",
+      "proposed_text": "達運精密 (6120，Darwin Precisions) 從事背光模組與液晶顯示器模組代工業務，友達光電為其法人董事。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6120:objective_ranking_or_market_share:e0d35ee261ddca36",
+      "normalized_claim_hash": "e0d35ee261ddca36e13ff124e68e2d361002792bbd69fb0434312e581f04dc50",
+      "ticker": "6120",
+      "company": "達運",
+      "path": "Pilot_Reports/Electronic Components/6120_達運.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[友達]] — 最大客戶，背光模組供應",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darwinprecisions.com/zh-cn/data/shareholders/files/1780281069912286426.pdf",
+          "title": "達運精密工業股份有限公司（達運，6120，Darwin Precisions）公司文件（股東會／年報）",
+          "source_level": 3,
+          "period_binding": "文件所載董事異動至民國114年6月；產品營收比重請見文件所載年度。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。文件載「註1：本公司**法人董事友達光電(股)公司**於114.06.11改派代表人為謝忠賢先生，直至本屆任期屆滿為止，原代表人柯富仁先生同日卸任」（「友達」65次），顯示友達光電為其法人董事。另載產品營收比重表含「液晶顯示器及模組代工」等（「背光模組」30次、「導光板」29次、「液晶顯示器」11次、「代工」6次、「客戶」63次均為通稱）。全份文件中「最大客戶」與「主要客戶」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「友達 — 最大客戶，背光模組供應」）。其背光模組業務與友達之法人董事關係獲支持；惟「最大客戶」之客戶排名未獲載明（「最大客戶」「主要客戶」均為0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6124:objective_ranking_or_market_share:cd511f2d451fdacd",
+      "normalized_claim_hash": "cd511f2d451fdacd18b95c8fea81ed5e7fae3a1bfb0251327818a92f8a2c2742",
+      "ticker": "6124",
+      "company": "業強",
+      "path": "Pilot_Reports/Electronic Components/6124_業強.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業強科技股份有限公司 (6124) 是全球領先的熱導元件與電子材料供應商，亦是台灣最大的熱導管製造廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/612420251117M002.pdf",
+          "title": "業強科技股份有限公司（業強，6124，YCTC）法人說明會簡報（2025-11-17）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取2,188字元）。簡報中「熱導管」出現3次、「熱導」4次，支持其熱導元件業務。全份簡報中「台灣最大」「全球」「市占」與「熱導元件與電子材料供應商」之相關地位敘述出現次數均為0。"
+        }
+      ],
+      "rationale": "「為熱導元件供應商」獲發行人簡報支持：2025年官方簡報中「熱導管」出現3次、「熱導」4次，支持其從事熱導元件業務。惟「是全球領先的熱導元件與電子材料供應商，亦是**台灣最大的熱導管製造廠**」未獲支持：全份簡報中「台灣最大」「全球」與「市占」出現次數均為0，未以其為台灣最大熱導管廠或全球領先者自稱。故部分成立（並註記：該簡報文字擷取僅2,188字元）。",
+      "proposed_text": "業強科技 (6124，YCTC) 從事熱導管等熱導元件業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6176:objective_ranking_or_market_share:b2f52f3fc1ef841a",
+      "normalized_claim_hash": "b2f52f3fc1ef841a915cf2de2ce322c78869ab91096ffb83673f4bcf3a7e9913",
+      "ticker": "6176",
+      "company": "瑞儀",
+      "path": "Pilot_Reports/Electronic Components/6176_瑞儀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "瑞儀光電 (6176，[[Radiant Opto-Electronics]]) 成立於 1995 年，為全球第一大 LCD 背光模組廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf",
+          "title": "瑞儀光電股份有限公司（瑞儀，6176，Radiant Opto-Electronics）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載其「為**台灣第一家**專業從事背光模組(Backlight Module)研發與製造之廠商，逐（步）成為**全球背光模組廠中領導地位**」，並載其服務範圍涵蓋背光模組設計、製造、組裝（「背光模組」多次、「導光板」17次、「領導地位」1次）。全份年報中「全球第一」「第一大」「Apple」「最大客戶」與「一條龍」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「成立於1995年」與「為 LCD 背光模組廠」獲發行人年報支持：111年度年報載其「為**台灣第一家**專業從事背光模組(Backlight Module)研發與製造之廠商，逐（步）成為**全球背光模組廠中領導地位**」，並載服務範圍涵蓋背光模組設計、製造、組裝（「導光板」17次、「領導地位」1次）。惟「為全球**第一大** LCD 背光模組廠」未獲支持：全份年報中「全球第一」與「第一大」出現次數均為0（官方用語為「領導地位」，未明確表述為第一）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6176:objective_ranking_or_market_share:4f9df07548e31112",
+      "normalized_claim_hash": "4f9df07548e3111274465a94e4ea184dd8e2ccc437c978e8f3f3055c0daccdda",
+      "ticker": "6176",
+      "company": "瑞儀",
+      "path": "Pilot_Reports/Electronic Components/6176_瑞儀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要業務：(1) 背光模組 — 具備從光學設計、模具開發、導光板射出成型到 LCM 組裝的一條龍整合能力，[[Apple]] 為最大客戶 (Macbook/iPad 背光)；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf",
+          "title": "瑞儀光電股份有限公司（瑞儀，6176，Radiant Opto-Electronics）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載其「為**台灣第一家**專業從事背光模組(Backlight Module)研發與製造之廠商，逐（步）成為**全球背光模組廠中領導地位**」，並載其服務範圍涵蓋背光模組設計、製造、組裝（「背光模組」多次、「導光板」17次、「領導地位」1次）。全份年報中「全球第一」「第一大」「Apple」「最大客戶」與「一條龍」之出現次數均為0。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/617620231205M001.pdf",
+          "title": "瑞儀光電（6176）法人說明會簡報（2023-12-05）",
+          "source_level": 3,
+          "period_binding": "2023年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「主要產品: LCD背光模組/背光模組用導光板/」與「IT(筆電.監視器) 背光模組出貨量」等（「背光模組」多次）。全份簡報中「全球第一」「Apple」與「最大客戶」之出現次數均為0，亦未載客戶名單。"
+        }
+      ],
+      "rationale": "「背光模組業務具備光學設計、模具開發、導光板射出成型到 LCM 組裝之整合能力」獲發行人文件部分支持：年報載其服務範圍涵蓋背光模組設計、製造、組裝，簡報載「主要產品: LCD背光模組/背光模組用導光板/」與 IT 背光模組出貨量（年報「導光板」17次）。惟兩項陳述未獲支持：(1)「**Apple** 為最大客戶（Macbook/iPad 背光）」——年報與簡報中「Apple」與「最大客戶」出現次數均為0，未具名任何客戶；(2)「**一條龍**整合能力」——「一條龍」出現次數為0（年報以「服務範圍涵蓋背光模組設計、製造、組裝」表述）。故部分成立。",
+      "proposed_text": "瑞儀光電 (6176，Radiant Opto-Electronics) 從事 LCD 背光模組與背光模組用導光板之設計、製造與組裝。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 21:04 UTC
+Updated: 2026-10-07 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **388 / 1,399**
-- Remaining author review: **1,011**
-- Latest batch: **author-069** (4 claims)
+- Author-reviewed: **394 / 1,399**
+- Remaining author review: **1,005**
+- Latest batch: **author-070** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **247**
+- `ACCEPTED`: **65**
+- `PARTIALLY_SUPPORTED`: **252**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8` — `PARTIALLY_SUPPORTED`; 能率2023簡報載集團關係「IKKA-KY (2250 TT)」，IKKA自身2025簡報載「碟式電子手煞車(EPB)零件(**AISIN**)」「電動滑門、車門零件(AISIN)」；惟「Toyota/Honda」未作為客戶出現、車用營收占比未載。
-- `5469:objective_ranking_or_market_share:bf78a8b9fd6271dd`、`a8dabb9d5e45edd8` — `PARTIALLY_SUPPORTED` ×2; 瀚宇博2025簡報載「PC/NB」「AI advanced NB, Switch」（PCB 13次、PC 20次、NB 5次）；惟「全球最大」「市佔」「第一」「華新麗華」皆0次。
-- `6153:objective_ranking_or_market_share:aac6a63b7c86262a` — `UNKNOWN_AFTER_RESEARCH`; 嘉聯益2022簡報「客戶」3次均為通稱，「Apple」「蘋果」「廣達」「仁寶」「最大」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-069.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `5493:objective_ranking_or_market_share:f94ffe7b1a69c19b` (三聯).
+- `5493:objective_ranking_or_market_share:f94ffe7b1a69c19b` — `ACCEPTED`; 三聯2024永續報告載「為**國內環境監測、微振動感測技術與系統整合服務第一品牌**」（地震29次、監測29次、預警15次、水庫3次、橋樑1次）。
+- `6120:objective_ranking_or_market_share:f6aa9a39447d6971`、`e0d35ee261ddca36` — `PARTIALLY_SUPPORTED` ×2; 達運文件載「本公司**法人董事友達光電(股)公司**於114.06.11改派代表人」（友達65次）、背光模組30次、導光板29次；惟「最大客戶」「主要客戶」皆0次。
+- `6124:objective_ranking_or_market_share:cd511f2d451fdacd` — `PARTIALLY_SUPPORTED`; 業強2025簡報「熱導管」3次、「熱導」4次；惟「台灣最大」「全球」「市占」皆0次。
+- `6176:objective_ranking_or_market_share:b2f52f3fc1ef841a`、`4f9df07548e31112` — `PARTIALLY_SUPPORTED` ×2; 瑞儀111年報載「為**台灣第一家**專業從事背光模組研發與製造之廠商」「**全球背光模組廠中領導地位**」；惟「全球第一」「第一大」「Apple」「最大客戶」「一條龍」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-070.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` (浪凡).
 
 ## Source access
 
