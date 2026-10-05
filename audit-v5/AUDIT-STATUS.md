@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 02:04 UTC
+Updated: 2026-10-06 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **109 / 1,399**
-- Remaining author review: **1,290**
-- Latest batch: **author-026** (8 claims)
+- Author-reviewed: **117 / 1,399**
+- Remaining author review: **1,282**
+- Latest batch: **author-027** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **28**
-- `PARTIALLY_SUPPORTED`: **67**
+- `ACCEPTED`: **31**
+- `PARTIALLY_SUPPORTED`: **70**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **10**
+- `UNKNOWN_AFTER_RESEARCH`: **12**
 
 ## Latest claim batch
 
-- `4581:objective_ranking_or_market_share:73abdc91543dcce2`、`51c1f3dd91ff6f70` — `PARTIALLY_SUPPORTED` ×2; 光隆精密2021法說會第6頁載承接 Cummins 引擎零件、第21/22頁載為 PACCAR 英國卡車廠提供 VA/VE 與樣件，支持兩家為客戶；惟未載最大客戶、北美柴油引擎龍頭，且 Daimler／Volvo／Traton 與市佔30%／20%／10% 均未見。
-- `2834:objective_ranking_or_market_share:3e15299e9e29f33f` — `PARTIALLY_SUPPORTED`; 臺企銀2025年報第30頁載前身為1915年設立之臺灣無盡株式會社，110年度永續報告第4/29頁載「全國唯一之中小企業專業銀行」；惟「八大行庫之一」未獲查閱來源逐一列名。
-- `2834:objective_ranking_or_market_share:f95bff030d5de303` — `PARTIALLY_SUPPORTED`; 2025年報第62/65頁主要股東名單列第一大股東為臺灣銀行16.21%、財政部直接持股2.08%（第4名），並註明財政部持有臺灣金控100%，故財政部為最終控制者而非直接最大股東。
-- `2801:objective_ranking_or_market_share:3c8dac88a1c7f530` — `ACCEPTED`; 彰銀2024年報第80頁主要股東名單第1名為財政部（12.19%），第87頁載國內營業單位185家、海外7家分行含紐約／洛杉磯／東京／倫敦／香港／新加坡／馬尼拉。
-- `2836:objective_ranking_or_market_share:8aa22fea75ecafb5` — `PARTIALLY_SUPPORTED`; 高雄銀2021 ESG報告第3頁載1982年由高雄市政府出資成立、第5頁載設立日期1982/1/13與出資99.994%、第12頁載主要控制股東高雄市政府持股43.13%；惟「唯一」未獲官方使用。
-- `2845:objective_ranking_or_market_share:70d1f48d13bb0d55`、`f2164388106df7ee` — `UNKNOWN_AFTER_RESEARCH` ×2; 遠東銀2021永續報告（124頁）中 VASP／虛擬資產／虛擬通貨 出現次數皆為0，113年度年報端點僅回傳320 bytes。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-026.json`。未修改發行人報告。
-- Next pending claim by priority: `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` (華南金).
+- `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` — `ACCEPTED`; 華南金2022永續報告第22頁載「為臺灣第一家成立之金融控股公司。於2001年12月19日，由華南商業銀行及永昌綜合證券以股權轉換方式設立」。
+- `2880:objective_ranking_or_market_share:a7669e207f28c0b5` — `ACCEPTED`; 同報告第24頁股東結構載「本公司最大股東為臺灣銀行（持股占比21.23%）」，臺灣銀行為財政部100%持有，故財政部透過臺灣銀行間接為最大股東之敘述與官方揭露一致。
+- `2886:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`; 兆豐金112年報第73頁主要股東名單第1名為財政部8.20%、臺灣銀行僅第5名2.62%，故財政部為直接最大股東，「透過臺灣銀行間接」之機制描述不符。
+- `2886:objective_ranking_or_market_share:6bbc731aba29c26b` — `PARTIALLY_SUPPORTED`; 中央銀行新聞稿標題「兆豐銀行續任『外幣結算平台』美元清算銀行」支持其清算銀行地位，兆豐金112年報載「維持聯貸市場優勢地位」支持聯貸優勢；惟新聞稿內文未擷取到，「台灣唯一」未獲確認。
+- `2890:objective_ranking_or_market_share:2ec04a9365b56c0f` — `ACCEPTED`; 永豐金2022公司簡介第4頁「2022年3月底太陽能設備融資市占維持第一(25.5%)」。
+- `2890:objective_ranking_or_market_share:298eb00d61c6591a`、`92485629cda4cfea` — `UNKNOWN_AFTER_RESEARCH` ×2; 永豐金2022公司簡介中「上櫃」出現0次、無據點數，Amret與柬埔寨亦為0次（事件發生於該文件之後）。
+- `2892:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`; 第一金現增公開說明書第57頁主要股東名單第1名財政部13.35%、臺灣銀行第2名7.72%，故財政部為直接最大股東，「透過臺灣銀行間接」不符（基準日民國104年）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-027.json`。未修改發行人報告。
+- Next pending claim by priority: `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` (第一金).
 
 ## Source access
 

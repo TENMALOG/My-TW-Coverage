@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **109 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), and `author-026` (8).
+Author-reviewed: **117 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), and `author-027` (8).
 
-- ACCEPTED by author: 28
-- PARTIALLY_SUPPORTED: 67
+- ACCEPTED by author: 31
+- PARTIALLY_SUPPORTED: 70
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 10
-- Remaining author queue: 1,290
+- Other allowed author decisions: 12
+- Remaining author queue: 1,282
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -301,6 +301,22 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-026.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **109 / 1,399**; remaining: **1,290**. Outcome counts: ACCEPTED 28, PARTIALLY_SUPPORTED 67, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 10. Next pending claim by priority: `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` (華南金).
+
+## Author batch `author-027` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (華南金 2880 ×2, 兆豐金 2886 ×2, 永豐金 2890 ×3, 第一金 2892). Evidence came from directly downloaded and inspected official disclosures: 華南金控2022永續報告書、中央銀行新聞稿、兆豐金控112年年報、永豐金控公司簡介、第一金控現金增資公開說明書。
+- `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` — `ACCEPTED`. 華南金2022年永續報告第22頁明載「華南金融控股股份有限公司…為臺灣第一家成立之金融控股公司。於2001年12月19日，由華南商業銀行及永昌綜合證券以股權轉換方式設立」。
+- `2880:objective_ranking_or_market_share:a7669e207f28c0b5` — `ACCEPTED`. 同報告第24頁「股東結構」載「本公司最大股東為臺灣銀行（持股占比21.23%）」，而臺灣銀行為財政部100%持有之公營銀行，故「財政部透過臺灣銀行間接為最大股東」於華南金確實成立。
+- `2886:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`. 兆豐金112年年報第73頁主要股東名單第1名為財政部（8.20%），臺灣銀行列第5名（2.62%）；財政部為直接第一大股東，「透過臺灣銀行間接」之機制描述與官方揭露不符。
+- `2886:objective_ranking_or_market_share:6bbc731aba29c26b` — `PARTIALLY_SUPPORTED`. 中央銀行官方新聞稿標題為「兆豐銀行續任『外幣結算平台』美元清算銀行」，支持其為央行外幣結算平台之美元清算銀行；兆豐金112年年報企業金融業務敘述亦以「維持聯貸市場優勢地位，持續發展國際化商機」為策略，支持大型企業跨國聯貸之優勢地位。惟「台灣唯一」一詞未獲確認——該新聞稿頁面主體為網站導覽文字，未擷取到內文。
+- `2890:objective_ranking_or_market_share:2ec04a9365b56c0f` — `ACCEPTED`. 永豐金控官方公司簡介第4頁載「2022年3月底太陽能設備融資市占維持第一(25.5%)」，與 claim 之「全台第一（近三成）」相符。
+- `2890:objective_ranking_or_market_share:298eb00d61c6591a` 與 `92485629cda4cfea` — `UNKNOWN_AFTER_RESEARCH`. 該簡報中「上櫃」出現次數為0、未載營業據點數；Amret 與柬埔寨出現次數亦為0（該收購事件發生於2025年，晚於本簡報）；本批次未取得其他可檢視之發行人官方來源以確認。
+- `2892:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`. 第一金現金增資公開說明書第57頁主要股東名單列財政部13.35%為第1名、臺灣銀行7.72%為第2名，第36頁載主要大股東（財政部及臺灣銀行）合計21.07%；故財政部為直接第一大股東，「透過臺灣銀行間接」不符（並註記該股東結構基準日為民國104年，屬歷史資料）。
+- 本批次另附方法修正：撰寫 2886 聯貸敘述之 rationale 時，初稿誤稱年報未載聯貸優勢，經複查年報企業金融敘述後已即時更正為「支持聯貸市場優勢地位」，並保留「唯一」未確認之缺口。
+- Proposed wording is recorded for the partial claims in `semantic/author-027.json`; no issuer report was modified. Independent review remains pending.
+- 來源檢索限制：華南金官網 hnfhc.com.tw 三個 PDF 連結（含年報與永續報告）均連線逾時，改由公開資訊觀測站端點取得其111年度報告文件；此為檢索限制之紀錄，未用以推論 claim 真偽。佇列維持 **15** 筆。
+- Author-reviewed total: **117 / 1,399**; remaining: **1,282**. Outcome counts: ACCEPTED 31, PARTIALLY_SUPPORTED 70, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 12. Next pending claim by priority: `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` (第一金).
+
 
 
 
