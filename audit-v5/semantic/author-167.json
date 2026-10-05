@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-167",
+  "reviewed_at": "2026-10-05T21:23:23Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (鈞興2024年度年報; 三星法人說明會簡報; 久陽法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "4571:objective_ranking_or_market_share:9128f3d0f1a0417a",
+      "normalized_claim_hash": "9128f3d0f1a0417a825be71ece2ab5c2a988e2a62eb4b7c7c95f375bd1840cc5",
+      "ticker": "4571",
+      "company": "鈞興-KY",
+      "path": "Pilot_Reports/Tools & Accessories/4571_鈞興-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "創科實業 (含 Milwaukee/Ryobi)，最大客戶",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.khgears.com/edit_file/file/20260121/20260121163001_65833.pdf",
+          "title": "鈞興機電國際股份有限公司（鈞興-KY，4571，KHGEARS）2024 年度年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取93,410字元）。年報載「鈞興機電國際股份有限公司」「查詢本年報之網址：http://mops.twse.com.tw」「公司網址：http://www.khgears.com」，並見「**齒輪**」174次、「鈞興」74次、「**KHGEARS**」23次、「**客戶**」104次，支持其齒輪業務及客戶敘述之存在。全份年報中「**創科**」「**TTI**」「**Techtronic**」與「**Milwaukee**」「**Ryobi**」之出現次數**均為0**，**未具名該客戶或其品牌**。"
+        }
+      ],
+      "rationale": "「創科實業（含 Milwaukee／Ryobi），最大客戶」未獲確立：所取得之鈞興年報（93,410字元）中「**創科**」「**TTI**」「**Techtronic**」「**Milwaukee**」與「**Ryobi**」之出現次數**均為0**（「客戶」104次顯示年報有客戶相關敘述，惟未具名該等對象）。因該 claim 之實質內容為具名客戶身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5007:objective_ranking_or_market_share:4847fe2cc4ab7293",
+      "normalized_claim_hash": "4847fe2cc4ab7293bbfb3725a9ce72ebf22826af1dd1581b162b230fce311ea9",
+      "ticker": "5007",
+      "company": "三星",
+      "path": "Pilot_Reports/Tools & Accessories/5007_三星.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三星科技 (5007，San Shing Fastech) 成立於 1965 年，總部位於台灣高雄，為全球最大螺帽 (Nuts) 製造商及台灣最大螺帽出口商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/500720251118M001.pdf",
+          "title": "三星科技股份有限公司（三星，5007，San Shing Fastech）法人說明會簡報（2025-11-18）",
+          "source_level": 3,
+          "period_binding": "2025年11月18日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,268字元，以圖形排版為主）。簡報載「**1965年7月2日成立**，1998年1月17日股票上櫃」與「**產業地位：全球最大汽車螺帽製造廠**，螺帽年產出約（…）」，並載「螺帽和螺絲**95%以上外銷歐美日地區**，**螺帽出口量占台灣（總出口量約六分之一）**」（「**螺帽**」19次、「出口」13次）。**關鍵發現**：簡報之市場地位敘述帶有**「汽車」之限定**——「全球最大**汽車**螺帽製造廠」，而「**全球最大**」單獨出現1次即為該句；全份簡報中「**高雄**」與「**台灣最大**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "claim 之部分要素獲發行人簡報支持：「成立於 **1965** 年」（簡報載「**1965年7月2日成立**」，逐字支持）與「從事**螺帽**業務」（「**螺帽**」19次）。**惟 market-position 部分有一項範圍差異**：claim 稱「為**全球最大螺帽製造商**」，而簡報之原文為「**產業地位：全球最大汽車螺帽製造廠**」——**該「最大」帶有「汽車」之限定**，claim **省略了「汽車」而將其一般化為全部螺帽**。另兩項未獲支持：(1)「總部位於台灣**高雄**」——「高雄」出現次數為0；(2)「**台灣最大**螺帽出口商」——「台灣最大」為0（簡報僅載「螺帽出口量占台灣總出口量約六分之一」，支持其為重要出口商，惟未載「最大」）。故部分成立。",
+      "proposed_text": "三星科技 (5007，San Shing Fastech) 成立於1965年，為全球最大汽車螺帽製造廠，螺帽出口量占台灣總出口量約六分之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5011:objective_ranking_or_market_share:858cd671ae58c706",
+      "normalized_claim_hash": "858cd671ae58c7062a47f9a7a1cded9882dc330da680a6d912f03f382372c8e2",
+      "ticker": "5011",
+      "company": "久陽",
+      "path": "Pilot_Reports/Tools & Accessories/5011_久陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "久陽精密 (5011，OFCO Industrial) 成立於 1984 年，總部位於台灣高雄，隸屬於台灣鋼鐵集團 (TSG)，業務雙主軸：(1) 扣件本業 — 生產各類六角螺栓 (Hex Bolts) 及內六角螺絲 (Socket Cap Screws)，100% 台灣製造，外銷歐美為主 (德國為最大市場佔 36%)，取得 ISO 9001 及 ISO 14001 認證。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/501120260526M001.pdf",
+          "title": "久陽精密股份有限公司（久陽，5011，OFCO Industrial）2026年第一季營運暨財務報告（法人說明會簡報）",
+          "source_level": 3,
+          "period_binding": "2026年5月26日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,371字元，以圖形排版為主）。簡報載「久陽精密股份有限公司 **OFCO Industrial Corp.**」「業務項目從螺絲製造擴展至環保、能源產業」「成長為持有五家子公司的久陽集團」，並見「**螺栓**」4次、「**六角**」2次、「**扣件**」1次、「**1984**」1次、「**100%**」3次，支持其扣件業務與成立年分。全份簡報中「**高雄**」「**台灣鋼鐵**」「**TSG**」與「外銷」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「成立於 **1984** 年，生產[[六角螺栓]]（Hex Bolts）等**扣件**產品」獲發行人簡報支持：「**1984**」1次、「**螺栓**」4次、「**六角**」2次、「**扣件**」1次，支持其成立年分與產品。惟三項陳述未獲支持：(1)「總部位於台灣**高雄**」——「高雄」出現次數為0；(2)「隸屬於**台灣鋼鐵集團（TSG）**」——「台灣鋼鐵」與「TSG」均為0；(3)「外（銷）…」——「外銷」為0。故部分成立（並註記該簡報文字擷取僅3,371字元）。",
+      "proposed_text": "久陽精密 (5011，OFCO Industrial) 成立於1984年，生產六角螺栓等扣件產品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

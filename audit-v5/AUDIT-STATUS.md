@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 22:04 UTC
+Updated: 2026-10-11 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **907 / 1,399**
-- Remaining author review: **492**
-- Latest batch: **author-166** (4 claims)
+- Author-reviewed: **910 / 1,399**
+- Remaining author review: **489**
+- Latest batch: **author-167** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **596**
+- `PARTIALLY_SUPPORTED`: **598**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **216**
+- `UNKNOWN_AFTER_RESEARCH`: **217**
 
 ## Latest claim batch
 
-- `2065:objective_ranking_or_market_share:d09032770245bcd5` — `PARTIALLY_SUPPORTED`；世豐年報「歐洲」4次；惟「建材」「五金」「通路」「最大市場」皆0次。**公司名以相容表意字「螺」排版**，故「螺絲」檢索為0。
-- `3004:objective_ranking_or_market_share:b2cfe0c3e68357a9`、`6e42f02d92f00cdb` — `UNKNOWN_AFTER_RESEARCH` ×2；豐達科年報**文字層為字元位移亂碼**（封面中文作「ද೯ިި」），「航太」「扣件」「引擎」「神基」皆0次。
-- `4560:objective_ranking_or_market_share:1dbc11a600b8a933` — `PARTIALLY_SUPPORTED`；強信簡報**逐字載**「**強信機械科技(萊州)有限公司**」「**為全球最大工業縫紉機零配（件）**」；惟「開曼」「山東」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-166.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `4571:objective_ranking_or_market_share:9128f3d0f1a0417a` (鈞興-KY).
+- `4571:objective_ranking_or_market_share:9128f3d0f1a0417a` — `UNKNOWN_AFTER_RESEARCH`；鈞興年報「齒輪」174次、「客戶」104次，惟「**創科／TTI／Techtronic／Milwaukee／Ryobi」皆 0 次**。
+- `5007:objective_ranking_or_market_share:4847fe2cc4ab7293` — `PARTIALLY_SUPPORTED`；三星簡報逐字載「**1965年7月2日成立**」；**惟原文為「全球最大汽車螺帽製造廠」——claim 省略「汽車」而一般化為「全球最大螺帽製造商」**；「高雄」「台灣最大」皆0次。
+- `5011:objective_ranking_or_market_share:858cd671ae58c706` — `PARTIALLY_SUPPORTED`；久陽簡報「螺栓」4次、「六角」2次、「扣件」1次、「1984」1次；惟「高雄」「台灣鋼鐵」「TSG」「外銷」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-167.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `5015:objective_ranking_or_market_share:2276d54bba3d3a65` (華祺).
 
 ## Source access
 
