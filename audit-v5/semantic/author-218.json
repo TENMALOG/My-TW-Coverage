@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-218",
+  "reviewed_at": "2026-10-05T22:23:07Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (燿華110年度年報); 貿聯-KY端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2367:material_named_relationship:c1af72654a19451f",
+      "normalized_claim_hash": "c1af72654a19451fd2320166e68df9cbbe3d56cf3b1a2ae5dfb6ef4e4da1330f",
+      "ticker": "2367",
+      "company": "燿華",
+      "path": "Pilot_Reports/Electronic Components/2367_燿華.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為 [[Apple]] 行動裝置電池板供應商之一，應用涵蓋車用 (占營收 42%)、通訊 (9%)、工業 (8%) 及 HPC/[[5G]]/[[低軌衛星]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.pcbut.com.tw/downloads/2021annual.pdf",
+          "title": "燿華電子股份有限公司（燿華，2367，Unitech PCB）一一○年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（2021年）。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取209,120字元）。年報首頁載「股票代碼：2367」。文中就車用市場載「隨著電動車及自動駕駛汽車電子發展的成長帶動下，**車用PCB** 產值持續向上攀升」「5G、**車用電子**、電動車等產業成長」（「車用」2次，**屬產業趨勢敘述**），並見「**低軌衛星**」2次、「穿戴」7次、「工業」47次、「通訊」9次。**關鍵發現（三項）**：(1) 全份年報中「**Apple**」之出現次數**為0**（「蘋果」1次）；(2) 「**電池板**」與「**行動裝置**」之出現次數**均為0**；(3) **「42%」1次之上下文為「現金再投資比率較上年度減少205.42%」，並非營收占比**。"
+        }
+      ],
+      "rationale": "「應用涵蓋…及 HPC／[[5G]]／[[低軌衛星]]」獲發行人年報之**部分支持**：年報中「**低軌衛星**」2次、「**車用**」2次（「隨著電動車及自動駕駛汽車電子發展的成長帶動下，**車用PCB** 產值持續向上攀升」）、「穿戴」7次。**惟多項陳述未獲支持或與文件不符**：(1)「為 [[Apple]] **行動裝置電池板**供應商之一」——「**Apple**」「**電池板**」與「**行動裝置**」之出現次數**均為0**（「蘋果」1次）；(2)「**車用（占營收 42%）**」——**「42%」1次之上下文為「現金再投資比率較上年度減少205.42%」，並非營收占比**；(3)「通訊（9%）」「工業（8%）」之占比數字未見對應之營收比重敘述。故部分成立。",
+      "proposed_text": "燿華電子 (2367，Unitech PCB) 之 PCB 應用涵蓋車用電子、通訊、工業及低軌衛星等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3665:material_named_relationship:d75e95843aa246a6",
+      "normalized_claim_hash": "d75e95843aa246a6532b9d480e17f59062e31b83d25225e4a17126c9a597f023",
+      "ticker": "3665",
+      "company": "貿聯-KY",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3665_貿聯-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **電動車 (EV) 關鍵先驅**: 於 2006 年起即為 **[[Tesla]]** 電池管理系統 (BMS) 線束的主要供應商，並擴展至充電樁與高壓線束。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/366520240826M004.pdf",
+          "title": "貿聯控股公司（貿聯-KY，3665，BizLink）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載貿聯-KY簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得貿聯-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「於 **2006 年**起即為 **[[Tesla]]** **電池管理系統（BMS）線束**的主要供應商，並擴展至**充電樁**與高壓（線束）」未獲確立：本批次自公開資訊觀測站端點下載貿聯-KY簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

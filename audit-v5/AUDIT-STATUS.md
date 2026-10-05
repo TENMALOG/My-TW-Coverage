@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 01:04 UTC
+Updated: 2026-10-14 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,106 / 1,399**
-- Remaining author review: **293**
-- Latest batch: **author-217** (2 claims)
+- Author-reviewed: **1,108 / 1,399**
+- Remaining author review: **291**
+- Latest batch: **author-218** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **706**
+- `PARTIALLY_SUPPORTED`: **707**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **297**
+- `UNKNOWN_AFTER_RESEARCH`: **298**
 
 ## Latest claim batch
 
-- `3071:material_named_relationship:2d5f28d692feacbe` — `UNKNOWN_AFTER_RESEARCH`；協禧年報**文字層全數為亂碼**（中文字元無法判讀，僅拉丁字母可辨），**無法有效檢索中文關鍵字**；拉丁部分未見「Tesla／GM／Ford」。
-- `7788:material_named_relationship:2068abc51a1555a2` — `UNKNOWN_AFTER_RESEARCH`；松川精密ESG載「轉型為全球**電動車**、新能源、工業自動化」（電動車22次、繼電器34次）；**惟「Tesla／特斯拉」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-217.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `3665:material_named_relationship:d75e95843aa246a6` (貿聯-KY).
+- `2367:material_named_relationship:c1af72654a19451f` — `PARTIALLY_SUPPORTED`；燿華年報「**低軌衛星」2 次、「車用」2 次**（屬產業趨勢敘述）；**惟「Apple／電池板／行動裝置」皆 0 次**，且「**42%」實為「現金再投資比率」，非營收占比**。
+- `3665:material_named_relationship:d75e95843aa246a6` — `UNKNOWN_AFTER_RESEARCH`；貿聯-KY端點 **HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-218.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `2383:material_named_relationship:76a1350152921c96` (台光電).
 
 ## Source access
 
