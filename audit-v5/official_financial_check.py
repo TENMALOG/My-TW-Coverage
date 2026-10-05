@@ -60,23 +60,30 @@ SPECIALIZED_FINANCIAL_SECTORS = {
 }
 
 
-def fetch_json(url: str, timeout: int = 60) -> tuple[list[dict[str, Any]] | None, dict[str, Any]]:
+def fetch_json(url: str, timeout: int = 60, retries: int = 4) -> tuple[list[dict[str, Any]] | None, dict[str, Any]]:
     req = urllib.request.Request(
         url,
         headers={"User-Agent": "My-TW-Coverage-audit-v5/1.0", "Accept": "application/json"},
     )
-    meta = {"url": url, "ok": False, "error": None, "row_count": 0}
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            data = json.load(response)
-        if not isinstance(data, list):
-            raise ValueError("expected JSON array")
-        meta["ok"] = True
-        meta["row_count"] = len(data)
-        return data, meta
-    except Exception as exc:
-        meta["error"] = f"{type(exc).__name__}: {exc}"
-        return None, meta
+    meta = {"url": url, "ok": False, "error": None, "row_count": 0, "attempts": 0}
+    last = None
+    for attempt in range(retries):
+        meta["attempts"] = attempt + 1
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                data = json.load(response)
+            if not isinstance(data, list):
+                raise ValueError("expected JSON array")
+            meta["ok"] = True
+            meta["row_count"] = len(data)
+            return data, meta
+        except Exception as exc:
+            last = exc
+            if attempt + 1 < retries:
+                import time
+                time.sleep(1.0 + attempt * 1.5)
+    meta["error"] = f"{type(last).__name__}: {last}"
+    return None, meta
 
 
 def field(row: dict[str, Any], key: str) -> Any:
