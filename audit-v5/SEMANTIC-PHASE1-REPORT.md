@@ -15,13 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **10 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), and `author-003` (1).
+Author-reviewed: **12 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), and `author-004` (2).
 
 - ACCEPTED by author: 5
-- PARTIALLY_SUPPORTED: 4
+- PARTIALLY_SUPPORTED: 5
 - UNSUPPORTED: 1
+- SOURCE_UNAVAILABLE: 1
 - Other allowed author decisions: 0
-- Remaining author queue: 1,389
+- Remaining author queue: 1,387
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -60,3 +61,12 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - Evidence URL、標題、來源層級、期間、查閱日期與證據摘記，以及 proposed wording，均記錄於 `semantic/author-003.json`。未修改發行人報告。
 - Author-reviewed total: 10 / 1,399; remaining author queue: 1,389. 獨立複核仍待處理。
 - 當次直接來源連線測試中，長亨官網與 TPEx 回應 HTTP 200；MOEA 請求逾時。這些連線結果不是 claim evidence。
+
+## Author batch `author-004` — 2026-10-05
+
+- Reviewed 2 previously unreviewed HIGH claims at claim level: `1712:objective_ranking_or_market_share:ababe1bd116826cb` and `1722:objective_ranking_or_market_share:82710f0ae62b4476`.
+- `1712` decision: `SOURCE_UNAVAILABLE`. 興農官網直接請求回應 HTTP 503；MOPS 年報查詢沒有返回可檢視的公司文件。此結果只表示本次無法取得來源，不代表 claim 為真或為假。
+- `1722` decision: `PARTIALLY_SUPPORTED`. 台肥 114 年度年報明確稱其為國內最大肥料生產、供應者；官網名單支持農業部於 2026-03-29 持股 24.07% 並列最大股東，但年報未明確支持國內市占約 70%。
+- 完整 evidence 與 proposed wording 記錄於 `semantic/author-004.json`；沒有修改發行人報告。
+- Author-reviewed total: 12 / 1,399; remaining author queue: 1,387. 獨立複核仍待處理。
+- 本次已直接開啟台肥官網並下載、檢視 114 年度年報 PDF；興農與 MOPS 公司年報內容仍無法檢視。

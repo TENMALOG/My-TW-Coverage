@@ -1,0 +1,74 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-004",
+  "reviewed_at": "2026-10-05T13:29:35Z",
+  "reviewer_role": "author",
+  "method": "claim-level manual review using directly opened official issuer and exchange sources; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1712:objective_ranking_or_market_share:ababe1bd116826cb",
+      "normalized_claim_hash": "ababe1bd116826cbfd47d4882a25bff4d8747b130304aeb0417a1b4216255fb9",
+      "ticker": "1712",
+      "company": "興農",
+      "path": "Pilot_Reports/Agricultural Inputs/1712_興農.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "興農股份有限公司 (1712，Sinon Corporation) 為台灣最大農藥製造商，國內農藥零售市佔約 18%，產品外銷逾 60 國。",
+      "decision": "SOURCE_UNAVAILABLE",
+      "evidence": [
+        {
+          "url": "https://www.sinon.com.tw/",
+          "title": "未取得（興農官方網站首頁；HTTP 503）",
+          "source_level": 3,
+          "period_binding": "無可檢視頁面或適用期間；於 2026-10-05 的直接請求回應 HTTP 503。",
+          "accessed_at": "2026-10-05",
+          "note": "興農官網首頁、/en 與 /zh-tw 直接請求均回應 HTTP 503，未取得頁面內容或標題。此為來源存取失敗，不是對排名、市占或出口國數的反證。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/mops/web/t57sb01_q5",
+          "title": "公開資訊觀測站－年報及股東會相關資料（查詢表單）",
+          "source_level": 1,
+          "period_binding": "嘗試以民國 113、114 年查詢公司 1712；查詢未返回可檢視的申報文件或報表，無法建立 claim 的證據期間。",
+          "accessed_at": "2026-10-05",
+          "note": "MOPS 查詢表單可開啟，但對公司 1712 及民國 113、114 年的查詢只返回空白通用頁面包裝，沒有申報紀錄或文件內容可檢視；未將搜尋摘要或空白回應當作 claim evidence。"
+        }
+      ],
+      "rationale": "興農官方網站目前回應 HTTP 503；MOPS 的年報查詢未返回可檢視文件。無法從本次可檢視的正式來源查證『台灣最大』、『零售市占約 18%』或『外銷逾 60 國』，故記為 SOURCE_UNAVAILABLE；此判定不表示 claim 為真或為假。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:82710f0ae62b4476",
+      "normalized_claim_hash": "82710f0ae62b4476cd33e8ee951db373546b46eae7c6e874513f2b530f8f7ac6",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣肥料 (1722，Taiwan Fertilizer Co.) 為台灣第一大肥料供應商，國內肥料市佔率約 70%，最大股東為農業部 (持股約 24%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=0684f8ce-a497-436b-8213-d73f9285ecff&type=FileUpload&no=1&sourceType=0",
+          "title": "114年度台肥公司年報",
+          "source_level": 2,
+          "period_binding": "民國 114 年度（2025 會計年度）公司年報；發行人年報清單列示更新日期為 2026-05-18。",
+          "accessed_at": "2026-10-05",
+          "note": "年報『市場占有率及市場未來之供需狀況與成長性』段稱台肥為國內肥料生產歷史最悠久、產能最大、設備最完善廠商；『競爭利基』段稱其為國內最大肥料生產、供應者。年報未列出國內肥料市場市占約 70% 的數值。"
+        },
+        {
+          "url": "https://www.taifer.com.tw/Investors/StockholderInfo/StockInfo.htm",
+          "title": "股務資訊 - 台灣肥料股份有限公司",
+          "source_level": 3,
+          "period_binding": "官網主要股東名單標示日期為 2026-03-29。",
+          "accessed_at": "2026-10-05",
+          "note": "官網主要股東名單列農業部持有 235,886,376 股、持股比例 24.07%，為名單中最高比例，支持最大股東及約 24% 持股部分。"
+        }
+      ],
+      "rationale": "台肥 114 年度年報明確支持其為國內最大肥料生產、供應者；官網截至 2026-03-29 的主要股東名單明確支持農業部以 24.07% 為最大股東。查閱年報未見『國內肥料市占率約 70%』的明確數值，因此原句只有部分內容獲正式來源支持，不能接受完整原句；未把年報未列該數值當作反證。",
+      "proposed_text": "台肥 114 年度年報稱其為國內最大肥料生產、供應者；截至 2026 年 3 月 29 日，農業部持有台肥 24.07% 股權，為最大股東。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
