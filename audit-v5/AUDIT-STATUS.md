@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 18:04 UTC
+Updated: 2026-10-10 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **806 / 1,399**
-- Remaining author review: **593**
-- Latest batch: **author-138** (4 claims)
+- Author-reviewed: **810 / 1,399**
+- Remaining author review: **589**
+- Latest batch: **author-139** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **525**
+- `PARTIALLY_SUPPORTED`: **529**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1539:objective_ranking_or_market_share:fa11a3ede72b0d04` — `UNKNOWN_AFTER_RESEARCH`；巨庭114年報「客戶」30次，惟「**Stanley／DEWALT／SawStop／TTI／RYOBI」皆 0 次**。
-- `1540:objective_ranking_or_market_share:6d45c395e82f2ccd` — `UNKNOWN_AFTER_RESEARCH`；喬福財報「**美國／USA／America」皆 0 次**。
-- `1580:objective_ranking_or_market_share:5560d01646da11a1` — `PARTIALLY_SUPPORTED`；新麥報告（**英文版**）「**SINMAG」16 次**、「baking」13次、「Baking」5次；惟「largest」2次之上下文未見完整亞洲最大表述，「3,000」0次。
-- `1583:objective_ranking_or_market_share:25159825fab9a7d1` — `PARTIALLY_SUPPORTED`；程泰104年報「**車床」220 次、「GOODWAY」8 次**；惟「**最大」17 次多為加工規格**（最大車削直徑／最大研磨直徑／最大工件直徑），非市場地位；**非近期版本**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-138.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1590:objective_ranking_or_market_share:9214f561cebb3418` (亞德客-KY).
+- `1590:objective_ranking_or_market_share:9214f561cebb3418` — `PARTIALLY_SUPPORTED`；亞德客文件「**氣動元件」9 次、「中國」45 次**；惟「市佔」1次為「**提高市佔**」之目標，「30%」片段上下文不完整（無法確認主詞）。
+- `1595:objective_ranking_or_market_share:59183f089735bcd1` — `PARTIALLY_SUPPORTED`；川寶年報「**PCB」56 次**、「曝光」2次；惟「曝光機」「半自動」「全球最大」皆0次。
+- `2233:objective_ranking_or_market_share:c9096bb9c6aa992d` — `PARTIALLY_SUPPORTED`；宇隆文件「**Bosch」12 次**並載「**成為BOSCH優選供應商**」；惟「最大客戶」「72%」皆0次。
+- `2233:objective_ranking_or_market_share:bf4ac0b6acfe8253` — `PARTIALLY_SUPPORTED`；Bosch 供應關係成立；惟「最大」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-139.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2421:objective_ranking_or_market_share:7f00f533ae4191d0` (建準).
 
 ## Source access
 

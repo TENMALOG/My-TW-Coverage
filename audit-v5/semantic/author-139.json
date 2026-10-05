@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-139",
+  "reviewed_at": "2026-10-05T20:51:29Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (亞德客集團公司文件; 川寶年報; 宇隆公司簡介文件)",
+  "items": [
+    {
+      "claim_id": "1590:objective_ranking_or_market_share:9214f561cebb3418",
+      "normalized_claim_hash": "9214f561cebb341887e58eca7e9b341e98d751b8933a6a48f99ddb86a3f131f0",
+      "ticker": "1590",
+      "company": "亞德客-KY",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1590_亞德客-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "亞德客國際 (1590，AirTAC，亞德客-KY) 為全球知名[[氣動元件]]製造商，中國市佔約 30%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://as-cn.airtac.com/upload/2026082802243384810.PDF",
+          "title": "亞德客國際集團（亞德客-KY，1590，AirTAC International Group）公司文件",
+          "source_level": 3,
+          "period_binding": "2026年8月上傳；文件所載期間請見文件。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人集團官方網域下載並以 PDF 文字檢視（文字擷取106,294字元）。文件中「**氣動元件**」出現9次、「**中國**」45次、「全球」27次，支持其氣動元件業務及中國市場布局。全份文件中「**市佔**」1次之上下文為**目標敘述**——「■ **提高市佔**」；「**30%**」4次中之一為「（市）**場約30%**」（**上下文不完整，無法確認主詞**），另一為「30%」單獨出現，其餘為子字串。"
+        }
+      ],
+      "rationale": "「為[[氣動元件]]製造商」獲發行人文件支持：文件中「**氣動元件**」出現9次、「**中國**」45次、「全球」27次，支持其業務與市場布局。惟「中國**市佔約 30%**」未獲確認：全份文件中「**市佔**」1次之上下文為**目標敘述**（「■ **提高市佔**」）；「**30%**」4次中之一為「（市）**場約30%**」，惟該片段**上下文不完整，無法確認其主詞是否為本公司市占率**，另一為「30%」單獨出現。故部分成立。",
+      "proposed_text": "亞德客國際集團 (1590，AirTAC) 從事氣動元件業務，並布局中國市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1595:objective_ranking_or_market_share:59183f089735bcd1",
+      "normalized_claim_hash": "59183f089735bcd13d3b5d9feefbb3a8cecb4f4c28bd8a5543c77c3dbff8726c",
+      "ticker": "1595",
+      "company": "川寶",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1595_川寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "川寶科技 (1595) 為全球最大[[PCB]]半自動曝光機廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cbtech.com.tw/uploads/finance_annual/tw/%e5%b9%b4%e5%a0%b1(%e4%b8%8a%e5%82%b3%e7%89%88).pdf",
+          "title": "川寶科技股份有限公司（川寶，1595，CBTech）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取95,609字元）。年報中「**PCB**」出現56次、「曝光」2次，支持其 PCB 相關設備業務。全份年報中「**曝光機**」「**半自動**」「全球最大」與「**最大**」之出現次數**均為0**（「全球」1次），未載該市場地位敘述。"
+        }
+      ],
+      "rationale": "「為[[PCB]] 相關設備廠」獲發行人年報支持：年報中「**PCB**」出現56次、「曝光」2次，支持其 PCB 相關設備業務。惟「為**全球最大** PCB **半自動曝光機**廠」未獲支持：全份年報中「**曝光機**」「**半自動**」與「**最大**」之出現次數**均為0**，「全球最大」亦為0（「全球」1次）。故部分成立。",
+      "proposed_text": "川寶科技 (1595，CBTech) 從事 PCB 相關設備業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2233:objective_ranking_or_market_share:c9096bb9c6aa992d",
+      "normalized_claim_hash": "c9096bb9c6aa992dbcae142ecd1e710dc3c6f293916b1b7c930a8c00454354fc",
+      "ticker": "2233",
+      "company": "宇隆",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2233_宇隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶[[Robert Bosch]] (佔約 72%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/223320110906E001.pdf",
+          "title": "宇隆科技股份有限公司（宇隆，2233，Yulong Technology）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "2011年9月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,009字元，以圖形排版為主）。文件中「**Bosch**」出現12次、「**博世**」1次、「汽車」4次，並載「**成為BOSCH優選供應商**」，支持其與 Bosch 之供應關係及汽車零組件業務。全份文件中「**最大客戶**」與「**72%**」之出現次數**均為0**，未載該客戶營收占比。"
+        }
+      ],
+      "rationale": "「與 [[Robert Bosch]] 具供應關係」獲發行人文件支持：文件中「**Bosch**」出現12次、「博世」1次，並載「**成為BOSCH優選供應商**」與「BOSCH 優選供（應商）」，支持其與 Bosch 之供應關係。惟「**最大客戶**（佔約 **72%**）」未獲支持：全份文件中「**最大客戶**」與「**72%**」之出現次數**均為0**，未載該客戶營收占比。故部分成立（並註記該文件為2011年版本、以圖形排版為主）。",
+      "proposed_text": "宇隆科技 (2233，Yulong Technology) 為 Bosch 之優選供應商，從事汽車精密金屬零組件業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2233:objective_ranking_or_market_share:bf4ac0b6acfe8253",
+      "normalized_claim_hash": "bf4ac0b6acfe8253fa2784c556f227d417ff1d2d4e41a1844fc124be494f1d1e",
+      "ticker": "2233",
+      "company": "宇隆",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2233_宇隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Robert Bosch]] (最大)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/223320110906E001.pdf",
+          "title": "宇隆科技股份有限公司（宇隆，2233，Yulong Technology）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "2011年9月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,009字元，以圖形排版為主）。文件中「**Bosch**」出現12次、「**博世**」1次、「汽車」4次，並載「**成為BOSCH優選供應商**」，支持其與 Bosch 之供應關係及汽車零組件業務。全份文件中「**最大客戶**」與「**72%**」之出現次數**均為0**，未載該客戶營收占比。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[Robert Bosch]]（**最大**）」）。文件支持其與 Bosch 之供應關係（「**Bosch**」12次、「成為BOSCH優選供應商」）；惟「**最大**（客戶）」未獲支持——全份文件中「**最大客戶**」出現次數為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
