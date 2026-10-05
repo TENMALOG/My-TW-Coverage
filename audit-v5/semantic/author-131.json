@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-131",
+  "reviewed_at": "2026-10-05T20:41:29Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (再生-KY111年度年報; 中纖年報; 台橡年報; 國際中橡2022年永續報告書)",
+  "items": [
+    {
+      "claim_id": "1337:objective_ranking_or_market_share:7301f1077bcac945",
+      "normalized_claim_hash": "7301f1077bcac945cd4505084bf1eb72953f712da617405fe842046ffb619ae0",
+      "ticker": "1337",
+      "company": "再生-KY",
+      "path": "Pilot_Reports/Specialty Chemicals/1337_再生-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "再生-KY (1337，Asia Plastic Recycling) 註冊開曼，營運總部位於福建晉江，為中國最大[[EVA]]回收再生製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1337_111.pdf",
+          "title": "亞洲塑膠再生資源控股有限公司（再生-KY，1337，Asia Plastic Recycling Holding）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取28,644字元）。年報中「**EVA**」出現46次、「**回收**」30次、「**再生**」143次、「**晉江**」9次、「**開曼**」3次，支持其註冊地、營運據點及 EVA 回收再生業務。全份年報中「**最大**」出現次數為0，未以「中國最大」表述其市場地位。"
+        }
+      ],
+      "rationale": "「註冊開曼，營運總部位於福建晉江，從事 [[EVA]] 回收再生」獲發行人年報支持：年報中「**開曼**」3次、「**晉江**」9次、「**EVA**」46次、「**回收**」30次、「**再生**」143次，支持其註冊地、營運據點及業務性質。惟「為**中國最大** EVA 回收再生製造商」未獲支持：全份年報中「**最大**」出現次數為0，未載該市場地位。故部分成立。",
+      "proposed_text": "亞洲塑膠再生資源控股 (1337，Asia Plastic Recycling Holding) 註冊於開曼，營運總部位於福建晉江，從事 EVA 回收再生業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1718:objective_ranking_or_market_share:806de1b1b6f17477",
+      "normalized_claim_hash": "806de1b1b6f174776fad0fe78ff57dd4031c228fc8d3bb474d6265f7a3f6e1f7",
+      "ticker": "1718",
+      "company": "中纖",
+      "path": "Pilot_Reports/Specialty Chemicals/1718_中纖.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "雖受限商業機密未公開具體名單，但國內市占率極高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cmfc.com.tw/_i/assets/file/reportyear/771689f12513040d5b8cf22ddb5d7be6.pdf",
+          "title": "中國人造纖維股份有限公司（中纖，1718，China Man-Made Fiber）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取395,097字元）。年報中「**客戶**」出現137次、「國內」66次，支持其業務敘述。全份年報中「**市占**」與「**極高**」之出現次數**均為0**；「**機密**」8次之上下文**均為員工保密義務**（如「本公司人員所知悉或取得有關公司及/或關係企業之用戶…之**機密**資訊…皆應嚴守保密義務」），**非**「受限商業機密未公開客戶名單」之敘述。"
+        }
+      ],
+      "rationale": "「客戶名單未公開」之敘述部分獲支持：年報中「**機密**」出現8次，惟其上下文**均為員工保密義務**（「本公司人員所知悉或取得有關公司及/或關係企業之用戶…之**機密**資訊…皆應嚴守保密義務」），**非**「受限商業機密未公開客戶名單」之表述。核心斷言「**國內市占率極高**」未獲支持：全份年報中「**市占**」與「**極高**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2103:objective_ranking_or_market_share:d3bfe3d982942ba8",
+      "normalized_claim_hash": "d3bfe3d982942ba811d37ca5b281107ab779c6a266a97d6d9746ef3eeca0543e",
+      "ticker": "2103",
+      "company": "台橡",
+      "path": "Pilot_Reports/Specialty Chemicals/2103_台橡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台橡 (2103，TSRC Corporation) 為全球第七大、亞洲最大合成橡膠製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tsrc.com.tw/app/uploads/2021/05/%E4%B8%AD%E6%96%87%E5%B9%B4%E5%A0%B1-%E7%B6%B2%E9%A0%81.pdf",
+          "title": "台橡股份有限公司（台橡，2103，TSRC Corporation）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取250,014字元）。年報中「**合成橡膠**」出現68次、「全球」24次，支持其合成橡膠業務。全份年報中「**第七**」5次之上下文**均為法規條號**——「市上櫃公司誠信經營守則」**第七條**第二（項）「國際財務報導準則**第七號**之修正」等，**非**「全球第七大」；「**亞洲最大**」出現次數為0；「**最大**」5次之上下文為「能資源利用**最大**化」「代表**最大**信用暴險金額」等**泛用語**。"
+        }
+      ],
+      "rationale": "「為合成橡膠製造商」獲發行人年報支持：年報中「**合成橡膠**」出現68次、「全球」24次，支持其合成橡膠業務。惟兩項市場地位陳述未獲支持：(1)「為**全球第七大**」——「**第七**」5次之上下文**均為法規條號**（「誠信經營守則**第七條**」「國際財務報導準則**第七號**」等）；(2)「**亞洲最大**」——出現次數為0，且「**最大**」5次之上下文為「能資源利用**最大**化」「代表**最大**信用暴險金額」等**泛用語**。故部分成立。",
+      "proposed_text": "台橡 (2103，TSRC Corporation) 為合成橡膠製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2104:objective_ranking_or_market_share:61c58054080f7d16",
+      "normalized_claim_hash": "61c58054080f7d1647c8feb74acc4eef4b94f4b1af1b472d6b6a1678b82a107e",
+      "ticker": "2104",
+      "company": "國際中橡",
+      "path": "Pilot_Reports/Specialty Chemicals/2104_國際中橡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國際中橡 (2104，International CSRC / [[Continental]] Carbon) 為台灣唯一、全球前六大[[碳黑]]製造商 (全球市佔約 6%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.csrcgroup.com/csr/report/report_2022.pdf",
+          "title": "國際中橡投資控股股份有限公司（國際中橡，2104，International CSRC Investment Holdings）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取216,103字元）。報告書載「旗下有兩大事業體：碳黑事業以 **Continental Carbon** 品牌，為**台灣唯一、全球排名第六**之碳黑領（導廠商）」與「國際中橡碳黑事業群為**台灣唯一碳黑公司，全球產能排名第六**」，並見「**碳黑**」297次、「**大陸碳黑**」1次，**逐字支持**claim 之「台灣唯一」與「全球前六大碳黑製造商」。全份報告書中「**市佔**」出現次數為0；「**6%**」32次之上下文**均為其他百分比**（如「鞍山廠：16%」「馬鞍山廠：26%」「董事平均出席率達96%」等），**非**全球市佔率。"
+        }
+      ],
+      "rationale": "claim 之核心陳述獲發行人永續報告書**逐字支持**：報告書載「旗下有兩大事業體：碳黑事業以 **Continental Carbon** 品牌，為**台灣唯一、全球排名第六**之碳黑領（導廠商）」與「國際中橡碳黑事業群為**台灣唯一碳黑公司，全球產能排名第六**」，與 claim 之「為台灣唯一、全球前六大[[碳黑]]製造商」逐項對應。惟「（全球市佔約 **6%**）」未獲支持：全份報告書中「**市佔**」出現次數為0；「**6%**」32次之上下文**均為其他百分比**（如「鞍山廠：16%」「馬鞍山廠：26%」「董事平均出席率達96%」等），**非**全球市佔率。故部分成立。",
+      "proposed_text": "國際中橡投資控股 (2104) 以 Continental Carbon 品牌經營碳黑事業，為台灣唯一碳黑公司，全球產能排名第六。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

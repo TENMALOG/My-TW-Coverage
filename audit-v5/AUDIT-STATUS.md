@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 10:04 UTC
+Updated: 2026-10-10 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **774 / 1,399**
-- Remaining author review: **625**
-- Latest batch: **author-130** (4 claims)
+- Author-reviewed: **778 / 1,399**
+- Remaining author review: **621**
+- Latest batch: **author-131** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **501**
+- `PARTIALLY_SUPPORTED`: **505**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1303:objective_ranking_or_market_share:4efa616b8fa69cfb` — `UNKNOWN_AFTER_RESEARCH`；南亞TCPD檔案**僅244 bytes**（文字擷取144字元），實質內容不可得。
-- `1304:objective_ranking_or_market_share:67cf53fe6274fce5` — `PARTIALLY_SUPPORTED`；台聚簡報「聚乙烯」3次、「**PE」21 次**、集團2次；惟「第一家」「首家」「電子材料」皆0次。
-- `1314:objective_ranking_or_market_share:8ac4eb234307c882` — `PARTIALLY_SUPPORTED`；中石化110年報「**CPL」1 次、「AN」1 次**；惟「己內醯胺」「丙烯腈」「前五大」「前十大」「唯一」皆0次。
-- `1314:objective_ranking_or_market_share:c2c42ce76293c2c1` — `UNKNOWN_AFTER_RESEARCH`；年報「尼龍6」0次，未載該產品角色敘述。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-130.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1337:objective_ranking_or_market_share:7301f1077bcac945` (再生-KY).
+- `1337:objective_ranking_or_market_share:7301f1077bcac945` — `PARTIALLY_SUPPORTED`；再生-KY年報「EVA」46次、「回收」30次、「再生」143次、「晉江」9次、「開曼」3次；惟「**最大」0 次**。
+- `1718:objective_ranking_or_market_share:806de1b1b6f17477` — `PARTIALLY_SUPPORTED`；年報「機密」8次**均為員工保密義務**；「**市占」「極高」皆 0 次**。
+- `2103:objective_ranking_or_market_share:d3bfe3d982942ba8` — `PARTIALLY_SUPPORTED`；台橡年報「合成橡膠」68次；惟「**第七」5 次皆為法規條號**（誠信經營守則第七條、準則第七號），「**亞洲最大」0 次**。
+- `2104:objective_ranking_or_market_share:61c58054080f7d16` — `PARTIALLY_SUPPORTED`；國際中橡報告逐字載「**台灣唯一、全球排名第六之碳黑**」「全球產能排名第六」（碳黑297次）；惟「**市佔」0 次**，且「**6%」32 次全為其他百分比**（16%／26%／96%）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-131.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2108:objective_ranking_or_market_share:2ea49757ee9617b6` (南帝).
 
 ## Source access
 
