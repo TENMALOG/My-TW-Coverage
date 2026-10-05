@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **757 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), `author-108` (8), `author-109` (4), `author-110` (4), `author-111` (5), `author-112` (8), `author-113` (8), `author-114` (8), `author-115` (5), `author-116` (3), `author-117` (5), `author-118` (5), `author-119` (6), `author-120` (8), `author-121` (8), `author-122` (4), `author-123` (8), `author-124` (5), `author-125` (5), and `author-126` (3).
+Author-reviewed: **762 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), `author-108` (8), `author-109` (4), `author-110` (4), `author-111` (5), `author-112` (8), `author-113` (8), `author-114` (8), `author-115` (5), `author-116` (3), `author-117` (5), `author-118` (5), `author-119` (6), `author-120` (8), `author-121` (8), `author-122` (4), `author-123` (8), `author-124` (5), `author-125` (5), `author-126` (3), and `author-127` (5).
 
-- ACCEPTED by author: 83
-- PARTIALLY_SUPPORTED: 491
+- ACCEPTED by author: 85
+- PARTIALLY_SUPPORTED: 493
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 179
-- Remaining author queue: 642
+- Other allowed author decisions: 180
+- Remaining author queue: 637
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1506,6 +1506,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **179 筆**。
 - Author-reviewed total: **757 / 1,399**; remaining: **642**. Outcome counts: ACCEPTED 83, PARTIALLY_SUPPORTED 491, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 179. Next pending claim by priority: `3576:objective_ranking_or_market_share:862c3863436e97cd` (聯合再生).
+
+## Author batch `author-127` — 2026-10-10
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (聯合再生 3576 ×2, 聚恆 4582, 太極 4934, 元晶 6443). Evidence came from directly downloaded and inspected official disclosures: 聯合再生公司簡介／法人說明會簡報、聚恆法人說明會簡報、太極能源法人說明會簡報。
+- `3576:objective_ranking_or_market_share:862c3863436e97cd` — `ACCEPTED`. 聯合再生簡報載「（**新日光、昱晶、昇陽合併**，為**台灣最大**太陽（能…）」，與 claim 之「由[[新日光]]、[[昱晶]]、[[昇陽光電]]三家合併而成」「為台灣最大的太陽能模組品牌」**逐項對應**；「系統整合」1次亦支持其系統整合業務。
+- `3576:objective_ranking_or_market_share:4e7dfe3251cf2110` — `ACCEPTED`. 簡報載「**URE 模組已連續4年為台灣模組出貨量/市佔率第一**，並榮獲全球多個第三方機構認證」，並見「連續4年度為臺灣第一大的太陽能供應商」與「台灣第一」，與 claim 之「連續多年維持台灣模組銷售市占率第一」**逐字對應**。
+- `4582:objective_ranking_or_market_share:fc48e08d8acca449` — `PARTIALLY_SUPPORTED`. 聚恆簡報載「2017年取得德國萊茵 **TÜV O&M認證**，成爲**台灣第一家、亞洲第二家**提供國際級維運服務之廠商」，支持其取得認證及維運服務；惟「為國內**唯一**通過…認證之公司」未獲精確支持——官方敘述為「**第一家**」（時間上之首次），與「唯一」（排他性）不同；簡報中「唯一」1次之上下文為「不因全球動盪而停擺的唯一解方！」。
+- `4934:objective_ranking_or_market_share:b478e7aa2ee7a26e` — `PARTIALLY_SUPPORTED`. 太極簡報中「**模組**」13次、「**越南**」1次，支持其模組業務及越南據點；惟「**越南產能最大**」（「產能」0次）、「具備規避**反傾銷稅**優勢」（0次）與「出口**美國**市場」（0次）未獲支持。
+- `6443:objective_ranking_or_market_share:07b85c17bb52a20f` — `UNKNOWN_AFTER_RESEARCH`. 元晶官方網域之文件下載遭 **SSL/TLS 安全通道信任關係失敗**，未取得可檢視之官方文件。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **180 筆**。
+- Author-reviewed total: **762 / 1,399**; remaining: **637**. Outcome counts: ACCEPTED 85, PARTIALLY_SUPPORTED 493, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 180. Next pending claim by priority: `5607:objective_ranking_or_market_share:7941e3f89be589bb` (遠雄港).
+
 
 
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:34:24Z",
+  "generated_at": "2026-10-05T20:35:31Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -128,16 +128,17 @@
     "author-123",
     "author-124",
     "author-125",
-    "author-126"
+    "author-126",
+    "author-127"
   ],
-  "source_batch_count": 126,
-  "total_unknown": 179,
+  "source_batch_count": 127,
+  "total_unknown": 180,
   "failure_signature_counts": {
     "other_unclassified": 71,
-    "tls_failure": 11,
+    "tls_failure": 12,
     "mops_non_document": 33,
     "non_document_response": 31,
-    "no_official_endpoint_found": 73,
+    "no_official_endpoint_found": 74,
     "http_404": 34,
     "image_only_or_tiny_text": 25,
     "http_403": 10,
@@ -2797,6 +2798,21 @@
       ],
       "attempted_sources": [
         "https://wwwov.tpex.org.tw/storage/emerging_register/2025/01/1736852644_3084_CH_7819.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "6443:objective_ranking_or_market_share:07b85c17bb52a20f",
+      "ticker": "6443",
+      "company": "元晶",
+      "claim": "元晶太陽能科技股份有限公司 (6443) 為台灣產能規模最大、技術領先的太陽能電池與模組製造商。",
+      "batch_id": "author-127",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.tsecpv.com.tw/upload/media/investor/2022%201226%20tc.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }

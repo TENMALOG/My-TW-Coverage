@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 06:04 UTC
+Updated: 2026-10-10 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **757 / 1,399**
-- Remaining author review: **642**
-- Latest batch: **author-126** (3 claims)
+- Author-reviewed: **762 / 1,399**
+- Remaining author review: **637**
+- Latest batch: **author-127** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **491**
+- `ACCEPTED`: **85**
+- `PARTIALLY_SUPPORTED`: **493**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **179**
+- `UNKNOWN_AFTER_RESEARCH`: **180**
 
 ## Latest claim batch
 
-- `6925:objective_ranking_or_market_share:f4539b5294dcb0a4` — `PARTIALLY_SUPPORTED`；意藍文件載「**《OpView 社群口碑資料》評選為第一名**」＋「大數據」6次、「語意」4次、「**SaaS」8 次**；惟「**市佔」0 次**，且「第一」2次之一為「第一時間展開接觸」。
-- `7547:objective_ranking_or_market_share:516a2ec6196c6b5e` — `PARTIALLY_SUPPORTED`；碩網簡報載「**客戶數：全球市場企業客戶＞700家**」＋「SmartRobot」2次、「智能客服」7次、「金融」4次；惟「**八成」「市占」皆 0 次**。
-- `7819:objective_ranking_or_market_share:e0b3c59b20774ef5` — `UNKNOWN_AFTER_RESEARCH`；精誠金融端點 **SSL/TLS 憑證信任失敗**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-126.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `3576:objective_ranking_or_market_share:862c3863436e97cd` (聯合再生).
+- `3576:objective_ranking_or_market_share:862c3863436e97cd` — `ACCEPTED`；聯合再生簡報載「（**新日光、昱晶、昇陽合併**，為**台灣最大**太陽（能…）」＋「系統整合」1次——**逐字對應**。
+- `3576:objective_ranking_or_market_share:4e7dfe3251cf2110` — `ACCEPTED`；簡報載「**URE 模組已連續4年為台灣模組出貨量／市佔率第一**」——**逐字對應**。
+- `4582:objective_ranking_or_market_share:fc48e08d8acca449` — `PARTIALLY_SUPPORTED`；簡報載「2017年取得德國萊茵**TÜV O&M認證**，成爲**台灣第一家、亞洲第二家**」；惟「國內**唯一**」與官方「第一家」不同（「唯一」1次之上下文為「不因全球動盪而停擺的唯一解方」）。
+- `4934:objective_ranking_or_market_share:b478e7aa2ee7a26e` — `PARTIALLY_SUPPORTED`；太極簡報「模組」13次、「**越南」1 次**；惟「產能」「反傾銷」「美國」皆0次。
+- `6443:objective_ranking_or_market_share:07b85c17bb52a20f` — `UNKNOWN_AFTER_RESEARCH`；元晶官方網域 **SSL/TLS 憑證信任失敗**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-127.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `5607:objective_ranking_or_market_share:7941e3f89be589bb` (遠雄港).
 
 ## Source access
 
