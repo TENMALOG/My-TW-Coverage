@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:17:39Z",
+  "generated_at": "2026-10-05T21:19:34Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -164,12 +164,14 @@
     "author-159",
     "author-160",
     "author-161",
-    "author-162"
+    "author-162",
+    "author-163",
+    "author-164"
   ],
-  "source_batch_count": 162,
-  "total_unknown": 213,
+  "source_batch_count": 164,
+  "total_unknown": 214,
   "failure_signature_counts": {
-    "other_unclassified": 77,
+    "other_unclassified": 78,
     "no_official_endpoint_found": 105,
     "tls_failure": 13,
     "mops_non_document": 34,
@@ -3322,6 +3324,20 @@
       ],
       "attempted_sources": [
         "https://www.kinik.com.tw/upload/Investors/Conference/2025Q2%20KINIK%20%e4%b8%ad%e7%a0%82%e5%85%ac%e5%8f%b8%e6%b3%95%e4%ba%ba%e5%ba%a7%e8%ab%87%20BofA%20Asia%20Tech%2020250908.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2063:objective_ranking_or_market_share:d1d0957d7c075d6d",
+      "ticker": "2063",
+      "company": "世鎧",
+      "claim": "屋頂/帷幕牆/窗框建築應用 (歐洲市佔率約 24%)，通路如 [[Würth]]、[[Hilti]]\\n- **北美/澳洲:** [[Home Depot]]、[[Lowe's]] 等建築工程及 DIY 市場",
+      "batch_id": "author-164",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/206320250916M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

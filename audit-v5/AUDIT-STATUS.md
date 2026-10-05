@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 19:04 UTC
+Updated: 2026-10-11 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **896 / 1,399**
-- Remaining author review: **503**
-- Latest batch: **author-163** (2 claims)
+- Author-reviewed: **901 / 1,399**
+- Remaining author review: **498**
+- Latest batch: **author-164** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **588**
+- `PARTIALLY_SUPPORTED`: **592**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **213**
+- `UNKNOWN_AFTER_RESEARCH`: **214**
 
 ## Latest claim batch
 
-- `1541:objective_ranking_or_market_share:d200dd9c531c0610` — `PARTIALLY_SUPPORTED`；錩泰簡報（**英文版**）載「**Sales by Area**」與美國子公司「**Delta Power Equipment Corporation**」（Spartanburg County SC）；惟「Stanley」「最大客戶」皆0次。
-- `1541:objective_ranking_or_market_share:57a50cd0ac0fa618` — `PARTIALLY_SUPPORTED`；簡報「**DEWALT」1 次**；惟「最大客戶」「CRAFTSMAN」「圓鋸」皆0次。
-- 註記：本批次併同嘗試之 MOPS 年報端點（t100sa11_1541_112.pdf）回傳 **320 bytes 之非文件內容**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-163.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `1570:objective_ranking_or_market_share:c4ddcbe07eeee869` (力肯).
+- `1570:objective_ranking_or_market_share:c4ddcbe07eeee869` — `PARTIALLY_SUPPORTED`；力肯簡報「專業級氣動**釘槍**」「電動**釘槍**」；惟「最大客戶」「美國」「品牌」皆0次。
+- `1591:objective_ranking_or_market_share:01629e23762694d3` — `PARTIALLY_SUPPORTED`；駿吉簡報「**1989年3月**」「工業用**氣動式風槍釘**」、「馬來西亞」2次、「開曼」2次；惟「1990」「東南亞」「最大」「鋼釘」皆0次。
+- `2063:objective_ranking_or_market_share:7739d7e6a87f3c8e` — `PARTIALLY_SUPPORTED`；世鎧簡報**逐字載**「**公司成立 : 西元 1992 / 4 月**」；惟「高雄」「最大」皆0次。
+- `2063:objective_ranking_or_market_share:8917b6e2421fdaa3` — `PARTIALLY_SUPPORTED`；簡報「歐洲」5次；**惟「24%」1次之原文為「螺絲事業營收相較同期減少近24%」（營收衰退，非市佔）**，「最大市場」「前二大」皆0次。
+- `2063:objective_ranking_or_market_share:d1d0957d7c075d6d` — `UNKNOWN_AFTER_RESEARCH`；「Würth」「Hilti」「Home Depot」「Lowe's」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-164.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `2049:objective_ranking_or_market_share:1bbe1fedf9ba0664` (上銀).
 
 ## Source access
 
