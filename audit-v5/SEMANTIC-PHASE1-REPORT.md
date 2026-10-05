@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **13 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), and `author-005` (1).
+Author-reviewed: **14 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), and `author-006` (1).
 
 - ACCEPTED by author: 5
-- PARTIALLY_SUPPORTED: 6
+- PARTIALLY_SUPPORTED: 7
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 1
 - Other allowed author decisions: 0
-- Remaining author queue: 1,386
+- Remaining author queue: 1,385
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -77,3 +77,10 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - Decision: `PARTIALLY_SUPPORTED`. 台肥官網支持其持有土地約 170 公頃及南港開發方式；114 年度年報列出 C2、C3 案件，但查閱來源未支持「台北市最大地主」、3.58 萬坪或 150 億／逾 100 億元等排名與金額。
 - Evidence URL、標題、來源層級、期間、查閱日期、evidence note 與 proposed wording 記錄於 `semantic/author-005.json`；未修改發行人報告。
 - Author-reviewed total: 13 / 1,399; remaining author queue: 1,386. 獨立複核仍待處理。
+
+## Author batch `author-006` — 2026-10-05
+
+- Reviewed 1 previously unreviewed HIGH claim at claim level: `1722:objective_ranking_or_market_share:584c29afa2ffa73c`.
+- Decision: `PARTIALLY_SUPPORTED`. 台肥官網支持其百分之百投資台灣海洋深層水股份有限公司，以及花蓮深層海水園區取水、瓶裝水與濃縮液產線；查閱的官方頁面未支持「亞洲最大」排名，且所列子公司名稱不同於原句。
+- Evidence URL、標題、來源層級、期間、查閱日期、evidence note 與 proposed wording 記錄於 `semantic/author-006.json`；未修改發行人報告。
+- Author-reviewed total: 14 / 1,399; remaining author queue: 1,385. 獨立複核仍待處理。

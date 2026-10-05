@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-006",
+  "reviewed_at": "2026-10-05T13:40:18Z",
+  "reviewer_role": "author",
+  "method": "manual review of directly opened official issuer pages; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:584c29afa2ffa73c",
+      "normalized_claim_hash": "584c29afa2ffa73c5a614f3aee64d33283e32e4a8afcb43dc3e19eed4af8ed99",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 生技 — 子公司[[台海生技]]於花蓮經營亞洲最大深層海水廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taifer.com.tw/AboutUs/Business/Maininvestmentbusiness.htm",
+          "title": "主要轉投資事業 - 台灣肥料股份有限公司",
+          "source_level": 3,
+          "period_binding": "台肥現行官網頁面未標示發布日期；於 2026-10-05 查閱，記載公司對台灣海洋深層水股份有限公司的投資關係與其花蓮廠區業務。",
+          "accessed_at": "2026-10-05",
+          "note": "台肥官網明稱台灣海洋深層水股份有限公司為台肥百分之百投資之子公司，並稱該公司在花蓮廠區發展觀光休閒產業及生技保健相關產品。官方頁面未以『台海生技』作為該子公司的法定名稱，也未宣稱其深層海水廠為亞洲最大。"
+        },
+        {
+          "url": "https://www.taifer.com.tw/dpark/ParkIntroduction/Introduction.htm",
+          "title": "園區簡介 - 台肥花蓮深層海水園區",
+          "source_level": 3,
+          "period_binding": "現行官網園區簡介未標示發布日期；頁面記述民國 95 年（2006 年）建置深層海水取水設施及產線，查閱日期為 2026-10-05。",
+          "accessed_at": "2026-10-05",
+          "note": "台肥官網稱花蓮深層海水園區占地 45.86 公頃，台肥於 2006 年投入逾新台幣 5 億元建置深層海水取水設施，並轉投資成立台灣海洋深層水公司，完成瓶裝水與濃縮液產線。頁面未提供亞洲規模排名。"
+        }
+      ],
+      "rationale": "台肥官網支持其百分之百投資台灣海洋深層水股份有限公司，並支持花蓮深層海水園區及瓶裝水、濃縮液產線的存在；官方頁面使用的公司名稱與原句『台海生技』不同，且未明確支持『亞洲最大』排名。因此僅判部分支持，不因來源未載排名推斷排名為假。",
+      "proposed_text": "台肥官網稱其百分之百投資台灣海洋深層水股份有限公司；台肥花蓮深層海水園區已建置取水設施，以及瓶裝水與濃縮液產線。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
