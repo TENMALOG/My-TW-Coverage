@@ -306,6 +306,20 @@ def build_valuation_table(v):
 
 def update_metadata(content, market_cap, enterprise_value, sector=None, industry=None):
     """Update or insert core metadata in the 業務簡介 section."""
+    # Normalize legacy duplicate 業務簡介 headings when the first body
+    # contains only core metadata.
+    duplicate_pattern = re.compile(
+        r"^## 業務簡介\s*$\n"
+        r"(?P<meta>(?:(?:\*\*(?:板塊|產業|市值|企業價值):\*\*.*)\n)*)"
+        r"\s*^## 業務簡介\s*$",
+        flags=re.MULTILINE,
+    )
+    content = duplicate_pattern.sub(
+        lambda m: "## 業務簡介\n" + (m.group("meta").rstrip() + "\n" if m.group("meta").strip() else ""),
+        content,
+        count=1,
+    )
+
     values = {
         "板塊": sector,
         "產業": industry,
@@ -330,9 +344,11 @@ def update_metadata(content, market_cap, enterprise_value, sector=None, industry
 
     if missing:
         heading = "## 業務簡介"
-        if heading in content:
-            insertion = heading + "\n" + "\n".join(missing)
-            content = content.replace(heading, insertion, 1)
+        matches = list(re.finditer(r"^## 業務簡介\s*$", content, flags=re.MULTILINE))
+        if matches:
+            match = matches[-1]
+            insertion = match.group(0) + "\n" + "\n".join(missing)
+            content = content[:match.start()] + insertion + content[match.end():]
 
     return content
 

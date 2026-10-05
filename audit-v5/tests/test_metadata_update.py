@@ -24,3 +24,18 @@ if __name__ == "__main__":
     test_insert_missing_metadata()
     test_update_existing_metadata()
     print("metadata tests passed")
+
+
+def test_collapse_duplicate_business_heading():
+    content = (
+        "## 業務簡介\n"
+        "**板塊:** Basic Materials\n"
+        "**產業:** Building Materials\n"
+        "**市值:** 1,234 百萬台幣\n"
+        "**企業價值:** 2,345 百萬台幣\n\n"
+        "## 業務簡介\n"
+        "公司敘述。\n"
+    )
+    out = update_metadata(content, "1,234", "2,345", "Basic Materials", "Building Materials")
+    assert out.count("## 業務簡介") == 1
+    assert "公司敘述。" in out

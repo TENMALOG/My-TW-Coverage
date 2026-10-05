@@ -194,6 +194,20 @@ def scan_report(path: Path) -> ReportScan:
     else:
         checks.append(Check("identity.filename_title_match", "AUTO_VERIFIED", "檔名與標題身份一致"))
 
+    section_headings = re.findall(r"^##\s+(.+?)\s*$", text, flags=re.MULTILINE)
+    duplicate_headings = sorted({h for h in section_headings if section_headings.count(h) > 1})
+    if duplicate_headings:
+        checks.append(Check(
+            "structure.duplicate_section_heading",
+            "REVISION_REQUIRED",
+            "偵測到重複的二級章節標題",
+            "warning",
+            {"headings": duplicate_headings},
+        ))
+        risk_reasons.append("duplicate-section-heading")
+    else:
+        checks.append(Check("structure.duplicate_section_heading", "AUTO_VERIFIED", "二級章節標題無重複"))
+
     sections = _parse_sections(text)
     for section in REQUIRED_SECTIONS:
         body = _section_body(sections, section)
