@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 07:04 UTC
+Updated: 2026-10-13 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,035 / 1,399**
-- Remaining author review: **364**
-- Latest batch: **author-199** (3 claims)
+- Author-reviewed: **1,040 / 1,399**
+- Remaining author review: **359**
+- Latest batch: **author-200** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **668**
+- `PARTIALLY_SUPPORTED`: **670**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **267**
+- `UNKNOWN_AFTER_RESEARCH`: **270**
 
 ## Latest claim batch
 
-- `4906:profitability_assertion:9a8f9ab180b50bc8` — `PARTIALLY_SUPPORTED`；正文年報「**越南」3 次、「新竹」5 次、「毫米波」3 次、「800G」1 次**；惟「**八成／80%／50G／光收發／高毛利」皆 0 次**。
-- `5353:material_named_relationship:7c785d294ea73984` — `UNKNOWN_AFTER_RESEARCH`；台林年報「**Gogoro／睿能／電控／獨家」皆 0 次**。
-- `6134:profitability_assertion:d800508e968eee23` — `PARTIALLY_SUPPORTED`；萬旭簡報「**儲能」13 次、「車用」12 次、「安控」10 次、「醫療」9 次**、「工控」8次、「視訊」8次；惟「**紅海／高毛利」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-199.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `5348:identity_changing_event:4a9f2cdb40f3fde5` (正能量智能).
+- `5348:identity_changing_event:4a9f2cdb40f3fde5` — `UNKNOWN_AFTER_RESEARCH`；**未查得**正能量智能可檢視之官方文件。
+- `6142:profitability_assertion:10e796816f8274f4` — `PARTIALLY_SUPPORTED`；友勁年報「**企業級」13 次、「轉型」10 次、「MIT」2 次、「台灣製造」1 次**；惟「消費型／低毛利／高毛利」皆0次。
+- `6143:material_named_relationship:2043b380b9c2aeb3`、`8a9881912d069058` — `UNKNOWN_AFTER_RESEARCH` ×2；振曜端點 **HTTP 404**。
+- `6190:material_named_relationship:5b81939bd2644eab` — `PARTIALLY_SUPPORTED`；萬泰科簡報載「**PCIe 5.0/6.0（56G/112Gbps）**」「**GB200/300 NVL72**」「資料來源: **NVIDIA**」（AI 伺服器13次、高速11次、線材12次）；**惟一項「銅軸」為 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-200.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6220:profitability_assertion:340f4e1af42c6eb1` (岳豐).
 
 ## Source access
 
