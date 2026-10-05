@@ -1,6 +1,7 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:35:40Z",
+  "generated_at": "2026-10-05T21:35:59Z",
+  "classification_note": "failure_signature 係由各筆 evidence.note 依固定規則判定，規則如下：http_404／http_403 依回應碼；mops_non_document 依「320 bytes|690 bytes|111 bytes|244 bytes」；garbled_text_layer 依「亂碼|mojibake|字元位移」；tls_failure 依「SSL|TLS|安全通道」；download_timeout 依「逾時|timeout」；connection_failure 依「無法連線|連接意外關閉|無法解析遠端名稱|DNS|中止」；image_only_or_tiny_text 依「僅[數字]字元|僅得4頁|擷取0字元」；client_rendered_only 依「前端渲染|JavaScript|靜態 HTML|導覽／下載頁|網站選單」；no_official_endpoint_found 依「未查得|未取得可檢視|未取得可判讀|未具名任何…|未取得…本身」；non_document_response 依「非文件內容|顯非完整文件|並非年報本身」；source_identity_mismatch 依「身分不符|屬另一法人|並非同一法人|並非…之文件」。未命中任一規則者歸為 other_unclassified。一筆可同時帶有多個標記。",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -190,8 +191,8 @@
     "mops_non_document": 39,
     "non_document_response": 37,
     "http_404": 39,
+    "image_only_or_tiny_text": 17,
     "http_403": 14,
-    "image_only_or_tiny_text": 11,
     "connection_failure": 14,
     "garbled_text_layer": 13,
     "client_rendered_only": 5,
@@ -639,12 +640,13 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
+        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:91dae1d50cf674d0",
@@ -655,12 +657,13 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
+        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:c1562f098f12ec0e",
@@ -671,12 +674,13 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
+        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:0c7d1b024b811bb9",
@@ -687,12 +691,13 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
+        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
@@ -927,12 +932,13 @@
       "claim": "鴻碩精密電工 (3092，Hotron Precision Electronic) 為全球最大顯示器訊號線製造商，主力產品涵蓋[[HDMI]]、[[DisplayPort]]、[[USB]]傳輸線。",
       "batch_id": "author-054",
       "failure_signature": [
+        "image_only_or_tiny_text",
         "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "http://www.hotron-ind.com/file/Finance/shareholders/105/20160606_160301.pdf"
       ],
-      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "6290:objective_ranking_or_market_share:19c3d40cace1a46e",
@@ -2878,12 +2884,13 @@
       "batch_id": "author-130",
       "failure_signature": [
         "mops_non_document",
+        "image_only_or_tiny_text",
         "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://www.fpg.com.tw/uploads/images/esg/TCFD%20Record/%e5%8d%97%e4%ba%9e_2023%e5%b9%b4TCFD%e5%a0%b1%e5%91%8a%e6%9b%b8.pdf"
       ],
-      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "1314:objective_ranking_or_market_share:c2c42ce76293c2c1",
