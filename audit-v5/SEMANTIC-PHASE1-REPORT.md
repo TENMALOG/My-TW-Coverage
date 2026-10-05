@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **204 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), and `author-038` (8).
+Author-reviewed: **210 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), and `author-039` (6).
 
-- ACCEPTED by author: 42
-- PARTIALLY_SUPPORTED: 131
+- ACCEPTED by author: 44
+- PARTIALLY_SUPPORTED: 135
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 27
-- Remaining author queue: 1,195
+- Remaining author queue: 1,189
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -462,6 +462,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-038.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **204 / 1,399**; remaining: **1,195**. Outcome counts: ACCEPTED 42, PARTIALLY_SUPPORTED 131, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 27. Next pending claim by priority: `6216:objective_ranking_or_market_share:35cb5307cb38ee31` (居易).
+
+## Author batch `author-039` — 2026-10-06
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (居易 6216, 岳豐 6220, 立端 6245 ×3, 瑞祺電通 6416). Evidence came from directly downloaded and inspected official disclosures: 居易2025永續報告書、岳豐2020年投資人簡報、立端2025年法人說明會暨年報資料與2020年企業社會責任報告書、瑞祺電通2026年法人說明會簡報。
+- `6216:objective_ranking_or_market_share:35cb5307cb38ee31` — `PARTIALLY_SUPPORTED`. 居易永續報告第54頁明載「歐洲是居易的主要市場」，第11頁載其專注自有品牌「Vigor」並「獲得9次英國PC PRO雜誌最佳年度路由器品牌肯定」。惟全份報告未載任何市占率數字或市場排名，亦未就德國、荷蘭市場提出量化陳述。
+- `6220:objective_ranking_or_market_share:08b79d0e2afacd31` — `ACCEPTED`. 岳豐2020年投資人簡報第4頁載「自從2006年購併Prime Wire」與「我們在2016年收購Monoprice」，第8頁沿革同載兩案；第7頁載「品牌通路的垂直整合以實現差異」，第20頁載「向下垂直整合並降低原物料價格波動風險」；第10、15及21頁載 Monoprice 電商平台（Monoprice.com）之 B2B／B2C 拓展。
+- `6245:objective_ranking_or_market_share:658825ba3e219605` 與 `01e6d42e67b49976` — `PARTIALLY_SUPPORTED`. 立端2025年資料第57頁載「本公司在網路安全、AI 邊緣運算及5G應用市場取得顯著成長」，2020年CSR第18頁載其「網路安全專業平台，目前與全球主要網路安全公司都建立緊密合作關係」。惟「全球最大」於官方文件出現次數為0，「全球市佔率逾四成」與「北美約五成」均未載；文件中唯一市占相關敘述為「持續擴大在 SD-WAN、uCPE 全球市佔率」，產品範圍不同且未附數字。
+- `6245:objective_ranking_or_market_share:58a28527f37f9002` — `ACCEPTED`. 立端2020年CSR第6頁載「（2020）年立端…發行了9億元私募無擔保可轉債，由台達電全數認購」，第18頁載「於2020年11月發行私募案，由台達電認購」；2025年資料第47頁「持股比例占前十名之股東」表（114年4月22日）列第1名台達電子工業股份有限公司 26,893,540 股、18.34%（第2名僅7.38%），第11頁並載董事鄭安兼任台達電子董事等職。
+- `6416:objective_ranking_or_market_share:a6c6b74e700a6d31` — `PARTIALLY_SUPPORTED`. 瑞祺電通2026年官方簡報第6頁載其既有模式為「硬體供應商模式」（特徵含「一次性硬體銷售」「單一產品銷售模式」「單純為供應商關係」），第11及13頁載2026年H1網路安全（IT+OT）占營收66%，第12頁載美洲占銷售57%。惟全份簡報未出現「白牌」「OEM」字樣，未具名任何客戶，亦未載客戶集中度或出貨占比。
+- Proposed wording is recorded for the partial claims in `semantic/author-039.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。韋僑（6417）與沅聖（6638）之官方文件於本批次未及取得，留待後續批次處理，佇列順序不受影響。
+- Author-reviewed total: **210 / 1,399**; remaining: **1,189**. Outcome counts: ACCEPTED 44, PARTIALLY_SUPPORTED 135, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 27. Next pending claim by priority: `6417:objective_ranking_or_market_share:f2fcac08e268dad2` (韋僑).
+
 
 
 

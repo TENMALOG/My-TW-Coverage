@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 14:04 UTC
+Updated: 2026-10-06 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **204 / 1,399**
-- Remaining author review: **1,195**
-- Latest batch: **author-038** (8 claims)
+- Author-reviewed: **210 / 1,399**
+- Remaining author review: **1,189**
+- Latest batch: **author-039** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **42**
-- `PARTIALLY_SUPPORTED`: **131**
+- `ACCEPTED`: **44**
+- `PARTIALLY_SUPPORTED`: **135**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3694:objective_ranking_or_market_share:411bb8cf29a1b2fb` — `PARTIALLY_SUPPORTED`; 研華113年報採權益法附註載其對海華持股由19.38%→19.39%→**19.37%**（非claim的10%）；惟和碩集團歸屬、工業物聯網與PC出海口、五成市占均未載。
-- `3704:objective_ranking_or_market_share:f2f3c18024370d07` — `ACCEPTED`; 合勤控官方新聞稿標題「蟬聯入選標普全球永續年鑑 獲全球通訊設備產業第一」，內文載 Communications Equipment 前 Top 1%。
-- `4905:objective_ranking_or_market_share:4172615a2601a106` — `PARTIALLY_SUPPORTED`; 台聯電113Q4個體財報第36頁載欣德芮持股61.36%並具控制力、成為投資子公司；惟未載「擴廠」，達亞國際23.66%為採權益法之關聯企業而非「最大股東」。
-- `4905:objective_ranking_or_market_share:f8236f9419738a17` — `PARTIALLY_SUPPORTED`; 達亞23.66%持股成立；惟財報未載台聯電為其單一最大股東。
-- `6143:objective_ranking_or_market_share:eacb93af3612d24a`、`55422f78287ce5eb` — `PARTIALLY_SUPPORTED` ×2; 振曜2024永續報告第6頁載其為「電子書閱讀器代工之領導廠商」、ODM/OEM服務；惟「全球最大」0次。
-- `6143:objective_ranking_or_market_share:93413fcf26dee269`、`73dfb069f9845e04` — `UNKNOWN_AFTER_RESEARCH` ×2; 振曜官方文件未具名客戶，Kobo／樂天／Rakuten 皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-038.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6216:objective_ranking_or_market_share:35cb5307cb38ee31` (居易).
+- `6216:objective_ranking_or_market_share:35cb5307cb38ee31` — `PARTIALLY_SUPPORTED`; 居易2025永續報告第54頁載「歐洲是居易的主要市場」、第11頁載自有品牌 Vigor 與9次英國 PC PRO 最佳年度路由器品牌；惟全份未載市占率數字，亦未就德國／荷蘭提出量化陳述。
+- `6220:objective_ranking_or_market_share:08b79d0e2afacd31` — `ACCEPTED`; 岳豐2020簡報第4頁載2006年購併Prime Wire、2016年收購Monoprice，第7/20頁載垂直整合，第10/15/21頁載Monoprice電商平台拓展B2B/B2C。
+- `6245:objective_ranking_or_market_share:658825ba3e219605`、`01e6d42e67b49976` — `PARTIALLY_SUPPORTED` ×2; 立端2025資料第57頁載網路安全業務成長、2020 CSR第18頁載其與全球主要網路安全公司合作；惟「全球最大」0次、市占逾四成與北美約五成未載。
+- `6245:objective_ranking_or_market_share:58a28527f37f9002` — `ACCEPTED`; 2020 CSR第6/18頁載2020年11月私募9億元可轉債由台達電全數認購；2025資料第47頁前十大股東表第1名台達電子18.34%（第2名7.38%）。
+- `6416:objective_ranking_or_market_share:a6c6b74e700a6d31` — `PARTIALLY_SUPPORTED`; 瑞祺2026簡報第6頁載「硬體供應商模式」特徵、第11/13頁網路安全占66%、第12頁美洲占57%；惟「白牌」「OEM」出現0次，未具名客戶。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-039.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6417:objective_ranking_or_market_share:f2fcac08e268dad2` (韋僑).
 
 ## Source access
 
