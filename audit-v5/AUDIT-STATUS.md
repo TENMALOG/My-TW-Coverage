@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 18:04 UTC
+Updated: 2026-10-05 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **44 / 1,399**
-- Remaining author review: **1,355**
-- Latest batch: **author-018** (7 claims)
+- Author-reviewed: **52 / 1,399**
+- Remaining author review: **1,347**
+- Latest batch: **author-019** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **13**
-- `PARTIALLY_SUPPORTED`: **26**
+- `ACCEPTED`: **17**
+- `PARTIALLY_SUPPORTED`: **29**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **1**
+- `UNKNOWN_AFTER_RESEARCH`: **2**
 
 ## Latest claim batch
 
-- `2206:objective_ranking_or_market_share:2206926921111339` — `PARTIALLY_SUPPORTED`; 三陽2026法人說明會簡報第3頁「台灣摩托車與汽車製造的領導者」、第4頁載業務橫跨摩托車與汽車且新竹廠同時具機車30萬輛與汽車2萬輛產能，支持雙製造能力；惟「台灣唯一」未獲官方陳述。
-- `2206:objective_ranking_or_market_share:63ed0282b9ad9374` — `ACCEPTED`; 簡報第4頁載2025年自有品牌摩托車占台灣市場44.3%、2022年5月重返台灣機車品牌第一名；第15頁載外銷版圖橫跨中國／東協／東北亞／歐洲／美洲，並明載為 Lambretta、Peugeot 代工。
-- `2206:objective_ranking_or_market_share:f1d0e04eae11fc9f` — `PARTIALLY_SUPPORTED`; 簡報第4頁載汽車部門生產及引進現代汽車產品、ESG報告載與 HYUNDAI 策略聯盟，支持在台生產；惟官方未以「獨家總代理」描述三陽本身，且第17頁載2025年現代汽車市占率4.55%（第5名），不支持「市佔率屢創新高」。
-- `1319:objective_ranking_or_market_share:92d37f3eb1beade9` — `PARTIALLY_SUPPORTED`; 東陽2022永續報告第31頁「全球最大的汽車塑膠AM供應廠」、第54頁「全球AM鈑金供應龍頭」、第62頁「逾200個國家、2,300個客戶」均獲支持；惟2020／2021／2022三份報告書均無「70%」「35%」市占數字。
-- `1319:objective_ranking_or_market_share:2a6fc80138e4eb21` — `PARTIALLY_SUPPORTED`; LKQ FY2025 Form 10-K 載其北美部門為北美最大替代性車輛零件配送網路、Keystone 為 LKQ 子公司，支持 LKQ／Keystone 之通路地位；惟東陽三份報告書中 LKQ／Keystone／State Farm 出現次數皆為 0，東陽特定合作關係與 State Farm 效應未獲支持。
-- `1319:objective_ranking_or_market_share:40b14c614d7aad1a`、`4f8e5c27889374aa` — `ACCEPTED` ×2; LKQ 10-K 及官方品牌頁明載其為北美最大替代性車輛零件配送網路、Keystone 為其子公司與美國最大售後零件供應商。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-018.json`。未修改發行人報告。
-- Next pending claim by priority: `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` (華德動能).
+- `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` — `PARTIALLY_SUPPORTED`; 華德動能官方簡報第5頁載2011年台灣第一輛電動巴士上路、2019年首家取得電動巴士自主設計開發資格，支持領導與首創地位；惟簡報未載「市佔率約30%」「累計逾500輛」「首家通過認證」等文字（僅載台灣APTS市佔超過80%）。
+- `1336:objective_ranking_or_market_share:cee272854eaffb62`、`fe2d9e60f44aa914` — `ACCEPTED` ×2; 台翰113年度年報主要股東名單列宣德科技29.12%為最大股東，第10頁股權鏈載宣德→香港商聯滔電子(24.59%)→立訊精密工業(100%)，支持最終母公司為立訊精密。
+- `1338:objective_ranking_or_market_share:666e6bac07f9b5a5`、`043acc8984fdcb88` — `ACCEPTED` ×2; 廣華控股2025官方簡報第15頁載2024年客戶結構日系46%、中國28%、歐美25%，其中日產34%為最大單一品牌、本田5%。
+- `1339:objective_ranking_or_market_share:375175af06d90a6f` — `UNKNOWN_AFTER_RESEARCH`; 昭輝2020／2024／2026三版官方簡報均無 LKQ、CAPA 或客戶集中度文字，年報端點108–113年度皆回應320 bytes非文件內容，無法確立亦無證據否定。
+- `1339:objective_ranking_or_market_share:8c262157716b38f8` — `PARTIALLY_SUPPORTED`; LKQ FY2025 10-K 與官方品牌頁支持「LKQ／Keystone 為北美最大 AM 通路」；惟括號中「合計佔營收50%+」為昭輝特有財務結構，未獲其官方來源支持。
+- `1506:objective_ranking_or_market_share:b7bdbc426ed03c94` — `PARTIALLY_SUPPORTED`; 正道官方NASA技術頁載取得NASA授權、全球唯一有量產實績之專業NASA活塞廠、年產逾20萬顆，均獲支持；惟官方明載鍛造版本係「延伸開發第一顆」，20萬顆屬NASA鋁合金活塞（鑄造），claim 將鑄造量產與鍛造混為一談。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-019.json`。未修改發行人報告。
+- Next pending claim by priority: `1521:objective_ranking_or_market_share:b0344d1922014380` (大億).
 
 ## Source access
 

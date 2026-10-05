@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **44 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), and `author-018` (7).
+Author-reviewed: **52 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), and `author-019` (8).
 
-- ACCEPTED by author: 13
-- PARTIALLY_SUPPORTED: 26
+- ACCEPTED by author: 17
+- PARTIALLY_SUPPORTED: 29
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 1
-- Remaining author queue: 1,355
+- Other allowed author decisions: 2
+- Remaining author queue: 1,347
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -202,6 +202,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-018.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆 `LOCAL_RECHECK_PENDING`（HTTP 500 × 8、HTTP 503 × 7），Cloud 觀測未被覆寫。
 - Author-reviewed total: **44 / 1,399**; remaining: **1,355**. Outcome counts: ACCEPTED 13, PARTIALLY_SUPPORTED 26, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` (華德動能).
+
+## Author batch `author-019` — 2026-10-05
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (華德動能 2237, 台翰 1336 ×2, 廣華-KY 1338 ×2, 昭輝 1339 ×2, 正道 1506). Evidence came from directly downloaded and inspected official disclosures: 華德動能投資人簡報、台翰113年度年報、廣華控股2025年公司簡介、昭輝2020/2024/2026法人說明會簡報、正道工業官方NASA技術頁與107年度年報、LKQ FY2025 Form 10-K 與官方 Keystone 品牌頁。
+- `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` — `PARTIALLY_SUPPORTED`. 官方簡報第5頁載2011年台灣第一輛電動巴士上路、2019年首家取得電動巴士自主設計開發資格、2024年首輛市區公車電動化方案出口日本東京；惟「國內市佔率約30%」、「累計逾500輛」、「台灣首家通過認證之純電動巴士廠商」均未見於簡報（官方僅載台灣APTS市佔率超過80%）。
+- `1336:objective_ranking_or_market_share:cee272854eaffb62` 與 `fe2d9e60f44aa914` — `ACCEPTED`. 台翰113年度年報主要股東名單列宣德科技22,599,000股、29.12%為最大股東；第10頁揭露宣德科技之主要股東為香港商聯滔電子有限公司（24.59%），而香港商聯滔電子之主要股東為立訊精密工業股份有限公司（100%），支持最大股東與最終母公司之認定。
+- `1338:objective_ranking_or_market_share:666e6bac07f9b5a5` 與 `043acc8984fdcb88` — `ACCEPTED`. 廣華控股2025年官方簡報第15頁載2024年客戶結構日系46%、中國28%、歐美25%、其他1%；日系明細含東風日產／日本日產與東風本田／廣汽本田，日系營收百分比為日產34%、豐田6%、本田5%、SUBARU1%，日產為最大單一品牌。
+- `1339:objective_ranking_or_market_share:375175af06d90a6f` — `UNKNOWN_AFTER_RESEARCH`. 昭輝2026年8月、2024年12月與2020年7月三個版本官方簡報均未出現 LKQ、Keystone、CAPA、N Group 或客戶集中度文字；公開資訊觀測站108至113年度年報端點均回應 HTTP 200 但內容僅320 bytes，未能檢視年報。三項具體陳述無法確認亦無證據否定。
+- `1339:objective_ranking_or_market_share:8c262157716b38f8` — `PARTIALLY_SUPPORTED`. LKQ FY2025 Form 10-K 載其北美部門營運北美最大替代性車輛零件配送網路，官方品牌頁載 Keystone 為 LKQ 子公司與美國最大售後零件供應商；惟括號中「合計佔營收50%+」為昭輝客戶集中度，未獲其官方來源支持。
+- `1506:objective_ranking_or_market_share:b7bdbc426ed03c94` — `PARTIALLY_SUPPORTED`. 正道官方「NASA高性能鋁合金活塞」頁載其取得NASA授權、為全球唯一有量產實績的專業NASA活塞生產廠商、每年製造NASA鋁合金活塞超過20萬個；惟同頁明載鍛造版本係「近期…延伸開發第一顆NASA鍛造鋁合金活塞」，年產20萬顆係對應其鑄造經驗，claim 將鑄造量產與鍛造混為一談。
+- Proposed wording is recorded for the partial claims in `semantic/author-019.json`; no issuer report was modified. Independent review remains pending.
+- 來源檢索限制：昭輝年報端點連續六個年度皆回傳非文件內容；此為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 之重大暫時性失敗門檻。佇列維持 **15** 筆。
+- Author-reviewed total: **52 / 1,399**; remaining: **1,347**. Outcome counts: ACCEPTED 17, PARTIALLY_SUPPORTED 29, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `1521:objective_ranking_or_market_share:b0344d1922014380` (大億).
+
 
 
 

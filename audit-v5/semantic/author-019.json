@@ -1,0 +1,233 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-019",
+  "reviewed_at": "2026-10-05T15:20:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (華德動能 investor briefing; 台翰 113年度年報; 廣華控股 2025 公司簡介; 昭輝 2020/2024/2026 法人說明會簡報; 正道工業官方NASA技術頁與107年度年報; LKQ Corporation FY2025 Form 10-K and official Keystone brand page); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2237:objective_ranking_or_market_share:ee7593a1bc4fa73e",
+      "normalized_claim_hash": "ee7593a1bc4fa73e403df908236fc22ed66f4fc6454b7acc1fd969d57a638547",
+      "ticker": "2237",
+      "company": "華德動能",
+      "path": "Pilot_Reports/Auto Manufacturers/2237_華德動能.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "華德動能科技 (2237，RAC Electric Vehicles) 為台灣電動巴士領導製造商，國內市佔率約 30%，累計逾 500 輛電動巴士營運中，為台灣首家通過認證之純電動巴士廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.racev.com/zh-TW/investors/briefing/N6/download",
+          "title": "華德動能科技股份有限公司 投資人簡報（2026年7月）",
+          "source_level": 3,
+          "period_binding": "公司沿革自2011年起至2024年；簡報日期2026年7月。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第5頁公司沿革載「2011 台灣第一輛電動巴士上路；2014 興櫃掛牌；2019 首家取得電動巴士自主設計開發資格；2022 首輛巿區公車電動化方案出口日本九州；2022 首部於新竹實際道路行駛之電動自駕車；2023 與美國電動車廠Optimal簽訂合作協議；2024 首輛巿區公車電動化方案出口日本東京」。第15頁載「全台首輛電動巴士上路、全台首家電巴銷售海外、首家建置五能充電場站、全台首家電巴方案銷售日本」。第23頁載「台灣APTS市佔率超過80%」。全份簡報未出現「市佔率約30%」、「累計逾500輛電動巴士營運中」或「台灣首家通過認證之純電動巴士廠商」之文字；官方所述之首創事項為「首家取得電動巴士自主設計開發資格」。"
+        }
+      ],
+      "rationale": "華德動能為台灣電動巴士製造商並具多項首創紀錄一節獲發行人官方簡報支持：2011年台灣第一輛電動巴士上路、2019年首家取得電動巴士自主設計開發資格、全台首家電巴方案銷售日本等。惟三項具體敘述不獲支持：(1)「國內市佔率約30%」——官方簡報未載此數字（僅載台灣APTS市佔率超過80%，標的與口徑不同）；(2)「累計逾500輛電動巴士營運中」——簡報未載；(3)「台灣首家通過認證之純電動巴士廠商」——官方所載為「首家取得電動巴士自主設計開發資格」，與「通過認證」用語不同。故本 claim 於領導製造商與首創地位範圍內成立，於所述三項具體數字與認證用語範圍內不成立。",
+      "proposed_text": "華德動能科技 (2237，RAC Electric Vehicles) 為台灣電動巴士製造商，2011年完成台灣第一輛電動巴士上路，2019年首家取得電動巴士自主設計開發資格。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1336:objective_ranking_or_market_share:cee272854eaffb62",
+      "normalized_claim_hash": "cee272854eaffb6221009ae9ed33d197ce5ab35b9f4feb82cd84cf6c403fee21",
+      "ticker": "1336",
+      "company": "台翰",
+      "path": "Pilot_Reports/Auto Parts/1336_台翰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大股東為[[宣德科技]]，最終母公司為中國[[立訊精密]]。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "http://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+          "title": "台翰精密科技股份有限公司 113年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度；股東與董事資料截至114年4月22日。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第8頁董事資料列董事長為宣德科技股份有限公司（代表人蔡鎮隆），持有22,599,000股、持股比率29.12%。第39頁「持股比例占前十名之股東」表列宣德科技股份有限公司22,599,000股、29.12%。第43頁「主要股東名單」列宣德科技股份有限公司22,599,000股、29.12%，為名單首位且比例最高。第10頁「法人股東之主要股東」表列宣德科技股份有限公司之主要股東為香港商聯滔電子有限公司（24.59%）、立康企管顧問股份有限公司（7.07%）、華瑋投資股份有限公司（4.58%）；同頁「上述主要股東為法人者其主要股東」表列香港商聯滔電子有限公司之主要股東為立訊精密工業股份有限公司（100%）。"
+        }
+      ],
+      "rationale": "台翰113年度年報之主要股東名單明列宣德科技股份有限公司持有22,599,000股、持股比率29.12%，為該名單中比例最高者，且宣德科技同時為台翰之董事長（法人董事），支持「最大股東為宣德科技」。最終母公司歸屬亦獲同一份年報之股權鏈揭露支持：宣德科技之主要股東為香港商聯滔電子有限公司（24.59%），而香港商聯滔電子有限公司之主要股東為立訊精密工業股份有限公司（100%），形成台翰←宣德←聯滔←立訊精密之控制鏈；立訊精密工業股份有限公司為中國企業。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1336:objective_ranking_or_market_share:fe2d9e60f44aa914",
+      "normalized_claim_hash": "fe2d9e60f44aa9141c348ac864463142a9dcbac795ad748eef3c8453c1364290",
+      "ticker": "1336",
+      "company": "台翰",
+      "path": "Pilot_Reports/Auto Parts/1336_台翰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "http://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+          "title": "台翰精密科技股份有限公司 113年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度；股東結構資料截至114年4月22日。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 cee272854eaffb62 相同之揭露：第43頁主要股東名單列宣德科技股份有限公司29.12%為最大股東；第10頁法人股東主要股東表列宣德科技→香港商聯滔電子（24.59%）、香港商聯滔電子→立訊精密工業（100%），構成最終控制鏈。"
+        }
+      ],
+      "rationale": "本 claim 為同一股權事實之供應鏈條目表述（「宣德科技 (最大股東)、立訊精密 (最終母公司)」），證據與 cee272854eaffb62 相同：台翰年報主要股東名單列宣德科技29.12%為最大股東，且股權鏈揭露香港商聯滔電子持有宣德科技24.59%、立訊精密工業持有香港商聯滔電子100%。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1338:objective_ranking_or_market_share:666e6bac07f9b5a5",
+      "normalized_claim_hash": "666e6bac07f9b5a52d7574b15e94527d46897600319f4ce5b5ba4f38d99dc184",
+      "ticker": "1338",
+      "company": "廣華-KY",
+      "path": "Pilot_Reports/Auto Parts/1338_廣華-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "客戶結構已從日系為主轉型為多元分散：日系 46% — [[Nissan]] (最大客戶)、[[Honda]]；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/133820250409M001.pdf",
+          "title": "廣華控股有限公司（Hiroca Holdings Ltd.）公司簡介（2025-04-09，公開資訊觀測站）",
+          "source_level": 3,
+          "period_binding": "2024年全年度收入結構；簡報日期2025年4月9日。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人置於公開資訊觀測站之官方簡報。第15頁「營運實績-主要客戶」以圓餅圖列示客戶結構：日系車企佔比46%、中國車企28%、歐美車企25%、其他車企1%，並載2024全年度收入內外銷比重約1:2。日系車企明細：內銷為東風日產、東風本田、廣汽豐田、廣汽本田；外銷為日本日產、SUBARU。同頁「日系車企營收百分比」圖列日產34%、豐田6%、本田5%、SUBARU1%，日產為其中最高者，且34%為全體營收占比中最大單一品牌。第15頁亦列中國車企（比亞迪、長城、廣汽乘用車、吉利、嵐圖、東風、小鵬、賽力斯等）與歐美車企（上汽大眾、一汽大眾、沃爾沃、克萊斯勒、通用、PACCAR）。"
+        }
+      ],
+      "rationale": "客戶結構獲發行人官方簡報直接支持：2024年全年度收入中日系車企占46%、中國車企28%、歐美車企25%、其他1%，顯示客戶已非單一集中於日系；日系車企明細包含Nissan（日產，內銷東風日產、外銷日本日產）與Honda（內銷東風本田、廣汽本田）。日系營收百分比圖列日產34%，為全部品牌中最高者，故「Nissan (最大客戶)」之敘述獲支持（34%為全體營收占比之最大單一品牌），Honda亦為官方列名客戶。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1338:objective_ranking_or_market_share:043acc8984fdcb88",
+      "normalized_claim_hash": "043acc8984fdcb88c6abe300c586123e30f9f84d63063583af266a997db938c1",
+      "ticker": "1338",
+      "company": "廣華-KY",
+      "path": "Pilot_Reports/Auto Parts/1338_廣華-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nissan]] (最大客戶)、[[Honda]]",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/133820250409M001.pdf",
+          "title": "廣華控股有限公司公司簡介（2025-04-09）",
+          "source_level": 3,
+          "period_binding": "2024年全年度收入結構。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 666e6bac07f9b5a5 相同之揭露：第15頁日系車企佔比46%，其中日產34%為最高、本田5%，日產與本田均為官方列名之主要客戶。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶結構之條目表述（「Nissan (最大客戶)、Honda」），證據與 666e6bac07f9b5a5 相同：官方簡報列日系車企佔比46%，其中日產占34%為最大單一品牌、本田占5%。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1339:objective_ranking_or_market_share:375175af06d90a6f",
+      "normalized_claim_hash": "375175af06d90a6ffde450be286a206887f4ab28adf1002af9832a4ab4b5ffd5",
+      "ticker": "1339",
+      "company": "昭輝",
+      "path": "Pilot_Reports/Auto Parts/1339_昭輝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司已通過 CAPA 國際品質認證，最大客戶為[[LKQ]] (N Group 旗下北美最大 AM 經銷商)，前兩大客戶合計佔營收逾 50%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/133920260806M001.pdf",
+          "title": "昭輝實業股份有限公司 法人說明會簡報（2026-08-06，公開資訊觀測站）",
+          "source_level": 3,
+          "period_binding": "發行人置於公開資訊觀測站之現行簡報。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視。全篇未出現 LKQ、Keystone、CAPA、N Group、「最大客戶」或「前兩大客戶」等文字；客戶相關敘述僅為銷售區域結構（85%北美市場、10%中東市場、5%其他地區）。另檢視2024年12月版與2020年7月版官方簡報，內容一致，均無前述關鍵字。"
+        }
+      ],
+      "rationale": "查閱昭輝官方簡報（2026年8月、2024年12月、2020年7月三個版本）後，無法確立本 claim 之三項具體陳述：CAPA 國際品質認證、以 LKQ 為最大客戶、前兩大客戶合計占營收逾50%。官方簡報未出現 LKQ、CAPA 或客戶集中度之文字。另嘗試自公開資訊觀測站年報端點取得昭輝108至113年度年報，各年度端點均回應 HTTP 200 但內容僅320 bytes（非文件內容），未能檢視年報。依政策「Unknown can close only as UNKNOWN_AFTER_RESEARCH with documented authoritative research」，以 UNKNOWN_AFTER_RESEARCH 結案；此結果不表示該等陳述為假，僅表示查閱範圍內無權威來源可確認。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1339:objective_ranking_or_market_share:8c262157716b38f8",
+      "normalized_claim_hash": "8c262157716b38f88d6d9fc0ee5d6dde541264014d3e962dbff0f60a2fdabda4",
+      "ticker": "1339",
+      "company": "昭輝",
+      "path": "Pilot_Reports/Auto Parts/1339_昭輝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]]/[[Keystone Automotive]] — 北美最大 AM 通路 (合計佔營收 50%+)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "LKQ Corporation Form 10-K for the fiscal year ended December 31, 2025 (U.S. SEC)",
+          "source_level": 3,
+          "period_binding": "截至2025年12月31日之會計年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自美國 SEC 官方 EDGAR 下載並檢視。10-K「Distribution」段載：「We believe our North America segment operates the largest distribution network of alternative vehicle parts and accessories serving the vehicle collision and mechanical repair markets in North America.」其北美業務包含 Keystone 品牌。"
+        },
+        {
+          "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+          "title": "Keystone Automotive Industries — LKQ Corp official brand page",
+          "source_level": 3,
+          "period_binding": "發行人官方現行品牌頁。",
+          "accessed_at": "2026-10-05",
+          "note": "官方品牌頁載「Keystone Automotive Industries, Inc., a subsidiary of LKQ Corporation, is the United States' largest aftermarket auto parts supplier.」支持 Keystone 為 LKQ 子公司及美國最大售後零件供應商。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/133920260806M001.pdf",
+          "title": "昭輝實業股份有限公司 法人說明會簡報（2026-08-06）",
+          "source_level": 3,
+          "period_binding": "發行人現行官方簡報。",
+          "accessed_at": "2026-10-05",
+          "note": "檢視昭輝官方簡報，全篇未出現 LKQ、Keystone 或任何客戶營收集中度（如50%+）之數字，亦未具名主要客戶。故 claim 括號中「合計佔營收 50%+」為昭輝特有之財務結構陳述，未獲其官方來源支持。"
+        }
+      ],
+      "rationale": "claim 之主體敘述「LKQ／Keystone Automotive — 北美最大 AM 通路」獲 LKQ FY2025 Form 10-K 及 LKQ 官方 Keystone 品牌頁支持（LKQ 北美部門營運北美最大替代性車輛零件配送網路；Keystone 為其子公司與美國最大售後零件供應商）。惟括號所述「（合計佔營收 50%+）」為昭輝自身客戶集中度，未獲昭輝官方簡報支持，且昭輝年報端點未能取得可檢視文件。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1506:objective_ranking_or_market_share:b7bdbc426ed03c94",
+      "normalized_claim_hash": "b7bdbc426ed03c94e5fb7463646ab4545b8b8279e9dd8c5204b3db881eb8cc72",
+      "ticker": "1506",
+      "company": "正道",
+      "path": "Pilot_Reports/Auto Parts/1506_正道.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司取得美國 NASA 授權耐高溫鋁合金技術，為全球唯一具量產實績之 NASA 鍛造鋁合金活塞專業廠，年產逾 20 萬顆。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.rightway.com.tw/index.php?option=module&lang=cht&task=pageinfo&id=389&index=1",
+          "title": "正道工業股份有限公司 官方「創新技術：NASA高性能鋁合金活塞」頁",
+          "source_level": 3,
+          "period_binding": "發行人官方現行技術頁，查證日2026-10-05；頁面未標註資料期間，屬公司對現行技術與產能之描述。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視發行人官方網站。原文載：「正道工業取得NASA授權，透過NASA的鋁合金專利和我們的鑄造經驗，成功的將此材料應用於各種高性能發動機活塞並成為全球唯一有量產實績的專業NASA活塞生產廠商。我們的活塞在高溫下具有非凡的性能…至今，我們每年製造的NASA鋁合金活塞超過20萬個。我們近期採用獨特的技術，延伸開發第一顆NASA鍛造鋁合金活塞，經過評估，效能將比鑄造更加卓越。」"
+        },
+        {
+          "url": "https://www.rightway.com.tw/userfiles/107%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "正道工業股份有限公司 一○七年度年報",
+          "source_level": 3,
+          "period_binding": "民國107年度（2018）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第106頁載「(1)運用NASA 材料高溫強度特性，積極開發內燃機產品，如鑄鍛活塞等」；第112頁載研發方向包含「(3)NASA 或特殊材質之運用」；第120頁列示材料 NASA-398、NASA-388、NASA-358。年報支持NASA材料運用於活塞，但未載「全球唯一有量產實績」或年產量數字。"
+        }
+      ],
+      "rationale": "發行人官方技術頁支持 claim 之大部分內容：正道取得NASA授權、將NASA鋁合金專利材料應用於高性能引擎活塞並為「全球唯一有量產實績的專業NASA活塞生產廠商」、且每年製造NASA鋁合金活塞超過20萬個。惟「NASA鍛造鋁合金活塞」之範圍未獲支持：官方明載鍛造版本係「近期採用獨特的技術，延伸開發第一顆NASA鍛造鋁合金活塞」，即鍛造活塞尚屬新開發之首件，20萬顆之年產量係指NASA鋁合金活塞（對應前述鑄造經驗），並非鍛造活塞。claim 將「鑄造量產」與「鍛造」混為一談，故部分成立。",
+      "proposed_text": "正道工業取得 NASA 授權，將 NASA 鋁合金專利材料應用於高性能引擎活塞，為全球唯一具量產實績之專業 NASA 活塞生產廠商，年產逾 20 萬顆，並已延伸開發首顆 NASA 鍛造鋁合金活塞。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
