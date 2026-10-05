@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 16:04 UTC
+Updated: 2026-10-07 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **358 / 1,399**
-- Remaining author review: **1,041**
-- Latest batch: **author-064** (6 claims)
+- Author-reviewed: **364 / 1,399**
+- Remaining author review: **1,035**
+- Latest batch: **author-065** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **225**
+- `PARTIALLY_SUPPORTED`: **231**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3441:objective_ranking_or_market_share:8b98c062556b5eb7` — `UNKNOWN_AFTER_RESEARCH`; 聯一光官方109與107年度年報端點均以「連接意外關閉」失敗，未取得可檢視文件。
-- `3455:objective_ranking_or_market_share:9dab2c22ab03c4f4` — `PARTIALLY_SUPPORTED`; 由田2025簡報「檢測」82次、「PCB」9次、「LCD」5次；惟市占敘述為泛用語，未載數字或排名。
-- `3455:objective_ranking_or_market_share:7453775b6f91a65d` — `ACCEPTED`; 同簡報明載「**IC 載板 AVI 設備，連續（年數未擷取）年佔有率全球第一**」，並列先進封裝多面檢測設備等產品（半導體23次、封裝10次）。
-- `3645:objective_ranking_or_market_share:b5c3e6a0efaa2e89` — `PARTIALLY_SUPPORTED`; 達邁109年報載其為「**台灣第一家**投入生產聚醯亞胺薄膜的廠商」及「全球生產PI薄膜**領導廠商之一**」；惟「台灣最大」與「前四」皆0次。
-- `3653:objective_ranking_or_market_share:32b1017f613092df`、`be2f7c2dfae707bf` — `PARTIALLY_SUPPORTED` ×2; 健策官方文件載均熱片產品說明、市場狀況與「伺服器ILM扣件產品說明」；惟「市佔」「台灣最大」「Vapor」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-064.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `3481:objective_ranking_or_market_share:44f9e638883c3468` (群創).
+- `3481:objective_ranking_or_market_share:44f9e638883c3468` — `PARTIALLY_SUPPORTED`; 群創2024簡報載「**Innolux offers the world's largest panel of FOPLP**」與FOPLP藍圖；惟「G3.5」「SpaceX」「低軌」「良率」「90%」皆0次。
+- `3630:objective_ranking_or_market_share:f9e6204dc7cecd7a` — `PARTIALLY_SUPPORTED`; 丘鈦科技2021年報載新鉅科為其**聯營公司**（股份代碼3630，新鉅15次、聯營公司36次）；惟未載「最大股東」或持股比例。
+- `3675:objective_ranking_or_market_share:ff388e8864de4fbe` — `PARTIALLY_SUPPORTED`; 德微2012簡報載Diodes集團與「主要客戶（達爾集團）」；惟「大股東」「持股」皆0次。
+- `3717:objective_ranking_or_market_share:2b120d56b6be96bd` — `PARTIALLY_SUPPORTED`; 聯嘉112年報載客戶包含Ford、FCA、Tesla、BMW、TOYOTA、GM及UniFlex／UniFlex Linear系列技術；惟唯一市占數字為「**LED聖誕燈串全球市佔率達20%**」，非電動車車燈。
+- `4909:objective_ranking_or_market_share:36ef0e8eeb712017`、`154d95fab7c83bda` — `PARTIALLY_SUPPORTED` ×2; 新復興2022簡報載高頻微波通訊PCB逾35年、高頻基板與LNB基板（LNB 2次、衛星4次）；惟「市佔」「八成」「80%」「龍頭」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-065.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` (氣立).
 
 ## Source access
 

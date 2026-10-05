@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-065",
+  "reviewed_at": "2026-10-05T18:43:21Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (群創2024年法人說明會簡報; 丘鈦科技2021年度年報(香港交易所); 德微2012年法人說明會簡報; 聯嘉光電112年度年報; 新復興2022年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3481:objective_ranking_or_market_share:44f9e638883c3468",
+      "normalized_claim_hash": "44f9e638883c3468eae3c7b56aa17a50e7d81ef54f5d3e88b0d0c973de90519c",
+      "ticker": "3481",
+      "company": "群創",
+      "path": "Pilot_Reports/Electronic Components/3481_群創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 半導體 — 投入 [[FOPLP]] (扇出型面板級封裝)，以業界最大 G3.5 基板開發中高階封裝，已量產出貨，傳獲 [[SpaceX]] [[低軌衛星]]晶片封裝訂單，Chip-first 良率達 90% 以上。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/348120241119M001.pdf",
+          "title": "群創光電股份有限公司（群創，3481，Innolux）法人說明會簡報（2024-11-19）",
+          "source_level": 3,
+          "period_binding": "2024年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「群創FOPLP的核心競爭力」「群創FOPLP 藍圖」以及「**Innolux offers the world's largest panel of FOPLP**」，並載「Chip-first」1次（「FOPLP」5次）。全份簡報中「G3.5」「SpaceX」「低軌」「良率」與「90%」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「投入 FOPLP（扇出型面板級封裝）並以業界最大基板開發」獲發行人簡報支持：簡報載「群創FOPLP的核心競爭力」「群創FOPLP 藍圖」與「**Innolux offers the world's largest panel of FOPLP**」（「FOPLP」5次），其中「world's largest panel」對應 claim 之「業界最大基板」。惟多項具體陳述未獲支持：(1)「以業界最大 **G3.5** 基板」——全份簡報中「G3.5」出現次數為0；(2)「傳獲 **SpaceX** 低軌衛星晶片封裝訂單」——「SpaceX」與「低軌」出現次數均為0（且 claim 本身以「傳獲」表述，屬未經證實之傳聞）；(3)「**Chip-first 良率達 90% 以上**」——「Chip-first」出現1次但未附良率數字，「良率」與「90%」出現次數均為0。故部分成立。",
+      "proposed_text": "群創光電 (3481，Innolux) 投入 FOPLP（扇出型面板級封裝），並提供業界最大之 FOPLP 面板。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3630:objective_ranking_or_market_share:f9e6204dc7cecd7a",
+      "normalized_claim_hash": "f9e6204dc7cecd7a5adf40ff21ca5725b4d32d0256f7b02f7e79eaead2e5a724",
+      "ticker": "3630",
+      "company": "新鉅科",
+      "path": "Pilot_Reports/Electronic Components/3630_新鉅科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**模具/模組**: [[丘鈦科技]] (最大股東).",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0412/2022041200404_c.pdf",
+          "title": "丘鈦科技股份有限公司（丘鈦科技，香港上市）2021 年度年報",
+          "source_level": 3,
+          "period_binding": "2021年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自香港交易所披露易下載並以 PDF 文字檢視。年報載「（在垂直整合方面，本集團除了持續努力推動**聯營公司新鉅科技股份有限公司**（「新鉅科技」，一家於台灣的證券櫃（檯買賣中心）上櫃之公司，股份代碼：3630）在智能手機攝像頭模組鏡頭、IoT攝像頭模組鏡頭及3D模組鏡頭等的發展…」，並載「本年度，本公司的一家**聯營公司新鉅科（技）**…」「集團與新鉅科技股份有限公司訂（立）…」等。全份年報中「新鉅」出現15次、「3630」2次、「聯營公司」36次；未出現「最大股東」之表述。"
+        }
+      ],
+      "rationale": "「丘鈦科技與新鉅科之股權從屬關係」獲官方文件部分支持：丘鈦科技（香港上市）2021年度年報載「（本集團持續努力推動）**聯營公司新鉅科技股份有限公司**（「新鉅科技」，一家於台灣的證券櫃（檯買賣中心）上櫃之公司，股份代碼：3630）在智能手機攝像頭模組鏡頭、IoT攝像頭模組鏡頭及3D模組鏡頭等的發展」，並載「本年度，本公司的一家**聯營公司新鉅科（技）**」（「新鉅」15次、「3630」2次、「聯營公司」36次），可確認新鉅科為丘鈦之聯營企業。惟「丘鈦科技為**最大股東**」未獲支持：全份年報未出現「最大股東」之表述，亦未載丘鈦對新鉅科之持股比例。故部分成立。",
+      "proposed_text": "新鉅科 (3630) 為丘鈦科技之聯營公司，從事智能手機攝像頭模組鏡頭、IoT 攝像頭模組鏡頭及 3D 模組鏡頭等業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3675:objective_ranking_or_market_share:ff388e8864de4fbe",
+      "normalized_claim_hash": "ff388e8864de4fbe13301fb38adbbae3aa4db76997fbe9d89a82ec0786ff84c2",
+      "ticker": "3675",
+      "company": "德微",
+      "path": "Pilot_Reports/Electronic Components/3675_德微.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心大股東兼最大客戶：Diodes Inc. (達爾科技)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/367520120611E001.pdf",
+          "title": "德微科技股份有限公司（德微，3675，Eurosil）法人說明會簡報（2012-06-11）",
+          "source_level": 3,
+          "period_binding": "2012年6月現況；內容含2004至2011年與 Diodes 集團往來。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「Diodes, 敦南」「Diodes 集團」「2004 ~ 2011 年德微公司對 Diodes 集團（之往來）」與「(2) 受到**主要客戶（達爾集團）**之交易計價模式改變」（「Diodes」4次、「達爾」8次）。全份簡報中「大股東」與「持股」之出現次數均為0，未載達爾集團之持股比例或最大股東地位。"
+        }
+      ],
+      "rationale": "「達爾集團（Diodes）為其最大客戶」獲發行人簡報支持：2012年官方簡報載「Diodes 集團」「2004 ~ 2011 年德微公司對 Diodes 集團（之往來）」與「(2) 受到**主要客戶（達爾集團）**之交易計價模式改變」（「Diodes」4次、「達爾」8次），顯示達爾集團為其長期主要客戶。惟「為其**核心大股東**」未獲支持：全份簡報中「大股東」與「持股」出現次數均為0，未載達爾集團之持股比例或最大股東地位。故部分成立（並註記：本批次可檢視之版本為2012年簡報，非近期文件）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3717:objective_ranking_or_market_share:2b120d56b6be96bd",
+      "normalized_claim_hash": "2b120d56b6be96bdbc6363aa80b8e9d8a166471472e628c8dcff31edad9c6575",
+      "ticker": "3717",
+      "company": "聯嘉投控",
+      "path": "Pilot_Reports/Electronic Components/3717_聯嘉投控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "聯嘉以獨家專利之 **[[UniFlex Linear]]** 導光技術聞名，成功打入 [[Tesla]]、[[GM]]、[[Ford]] 等國際車廠供應鏈，特別是在 [[電動車]] (EV) 領域擁有高市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eoi.com.tw/PDFs/Shareholder/%E6%B0%91%E5%9C%8B112%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "聯嘉光電股份有限公司（聯嘉投控，3717，EOI）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「（其）LED光源、LED模組及車燈模組並取得多國專利，**客戶包含 Ford、FCA、Tesla、BMW、TOYOTA、GM**（等）」，並載「聯嘉光電累積多年 **Tesla Model 3** 出貨成果及擁有專利的創新光源」與「（世）界主流EV品牌正式合作包含 **Tesla, Rivian, Fisker, BMW, STLA, GM** 等」，另載「**UniFlex 與 UniFlex Linear** 系列技術亦已導入北美高級純電動跑車／純電休旅車」（「UniFlex」38次、「Tesla」7次、「GM」5次、「Ford」2次、「電動車」33次、「專利」26次）。另載「**LED聖誕燈串全球市佔率達20%**」（該數字係指聖誕燈串產品，非電動車車燈）。全份年報中「市佔」5次，未載其於電動車車燈領域之市占率。"
+        }
+      ],
+      "rationale": "「以獨家專利之 UniFlex Linear 導光技術聞名並打入 Tesla、GM、Ford 等車廠供應鏈」獲發行人年報支持：112年度年報載「（其）LED光源、LED模組及車燈模組並取得多國專利，**客戶包含 Ford、FCA、Tesla、BMW、TOYOTA、GM**」，「聯嘉光電累積多年 **Tesla Model 3** 出貨成果及擁有專利的創新光源」，並載「（世）界主流EV品牌正式合作包含 **Tesla, Rivian, Fisker, BMW, STLA, GM** 等」以及「**UniFlex 與 UniFlex Linear** 系列技術亦已導入北美高級純電動跑車／純電休旅車」（「UniFlex」38次、「專利」26次、「電動車」33次）。惟「特別是在電動車 (EV) 領域擁有高市佔率」未獲支持：年報中唯一之市占數字為「**LED聖誕燈串全球市佔率達20%**」，該數字係指聖誕燈串產品而非電動車車燈；全份年報未載其於電動車車燈領域之市占率。故部分成立。",
+      "proposed_text": "聯嘉光電 (3717，EOI) 以 UniFlex 與 UniFlex Linear 系列專利導光技術供應車用 LED 光源模組，客戶包含 Tesla、GM、Ford、BMW、TOYOTA 等車廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4909:objective_ranking_or_market_share:36ef0e8eeb712017",
+      "normalized_claim_hash": "36ef0e8eeb71201778ebb4d4d66d243e7d4402daba5c6f2abe7647dac4961205",
+      "ticker": "4909",
+      "company": "新復興",
+      "path": "Pilot_Reports/Electronic Components/4909_新復興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要產品線：(1) **LNB 基板** — 衛星電視降頻器用 PCB，全球市佔率高達八成，為絕對龍頭；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/490920221223M001.pdf",
+          "title": "新復興微波通訊股份有限公司（新復興，4909）法人說明會簡報（2022-12-23）",
+          "source_level": 3,
+          "period_binding": "2022年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「新復興深耕高頻微波通訊PCB製造經驗累積超過35年，具備豐富的**高頻基板**生產製造經驗、技術以及完善的（設備）」，「LNB」出現2次、「基板」6次、「衛星」4次，並列「高效能散熱基板」「特殊複合材料基板」「特殊車用基板」等產品線。全份簡報中「市佔」「八成」「80%」與「龍頭」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「主要產品線包含 LNB 基板（衛星電視降頻器用 PCB）」獲發行人簡報部分支持：簡報載「新復興深耕高頻微波通訊PCB製造經驗累積超過35年，具備豐富的**高頻基板**生產製造經驗、技術以及完善的（設備）」，「LNB」出現2次、「衛星」4次、「基板」6次。惟「全球市佔率高達八成，為絕對龍頭」未獲支持：全份簡報中「市佔」「八成」「80%」與「龍頭」出現次數均為0。故部分成立。",
+      "proposed_text": "新復興微波通訊 (4909) 深耕高頻微波通訊 PCB，產品線包含 LNB 基板與高頻基板。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4909:objective_ranking_or_market_share:154d95fab7c83bda",
+      "normalized_claim_hash": "154d95fab7c83bdafe76d8ffcd566adde4661d8ee303bb010e9e904a2be0ef8d",
+      "ticker": "4909",
+      "company": "新復興",
+      "path": "Pilot_Reports/Electronic Components/4909_新復興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**新復興** (全球市佔率 80%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/490920221223M001.pdf",
+          "title": "新復興微波通訊股份有限公司（新復興，4909）法人說明會簡報（2022-12-23）",
+          "source_level": 3,
+          "period_binding": "2022年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「新復興深耕高頻微波通訊PCB製造經驗累積超過35年，具備豐富的**高頻基板**生產製造經驗、技術以及完善的（設備）」，「LNB」出現2次、「基板」6次、「衛星」4次，並列「高效能散熱基板」「特殊複合材料基板」「特殊車用基板」等產品線。全份簡報中「市佔」「八成」「80%」與「龍頭」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「新復興（全球市佔率80%）」）。其高頻基板業務獲支持；惟「全球市佔率80%」未獲支持（「市佔」「八成」「80%」出現次數均為0）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

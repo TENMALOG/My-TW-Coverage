@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **358 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), and `author-064` (6).
+Author-reviewed: **364 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), and `author-065` (6).
 
 - ACCEPTED by author: 64
-- PARTIALLY_SUPPORTED: 225
+- PARTIALLY_SUPPORTED: 231
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 65
-- Remaining author queue: 1,041
+- Remaining author queue: 1,035
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -762,6 +762,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **358 / 1,399**; remaining: **1,041**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 225, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 65. Next pending claim by priority: `3481:objective_ranking_or_market_share:44f9e638883c3468` (群創).
+
+## Author batch `author-065` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (群創 3481, 新鉅科 3630, 德微 3675, 聯嘉投控 3717, 新復興 4909 ×2). Evidence came from directly downloaded and inspected official disclosures: 群創2024年法人說明會簡報、丘鈦科技2021年度年報（香港交易所披露易）、德微2012年法人說明會簡報、聯嘉光電112年度年報、新復興2022年法人說明會簡報。
+- `3481:objective_ranking_or_market_share:44f9e638883c3468` — `PARTIALLY_SUPPORTED`. 群創2024年官方簡報載「群創FOPLP的核心競爭力」「群創FOPLP 藍圖」與「**Innolux offers the world's largest panel of FOPLP**」，對應 claim 之「投入 FOPLP」「以業界最大基板開發」。惟「G3.5」「SpaceX」「低軌」「良率」「90%」出現次數均為0，故「G3.5 基板」「獲 SpaceX 低軌衛星晶片封裝訂單」（claim 本身以「傳獲」表述）與「Chip-first 良率達90%以上」均未獲支持。
+- `3630:objective_ranking_or_market_share:f9e6204dc7cecd7a` — `PARTIALLY_SUPPORTED`. 丘鈦科技2021年度年報（香港交易所披露易）載「（本集團持續努力推動）**聯營公司新鉅科技股份有限公司**（「新鉅科技」，一家於台灣的證券櫃（檯買賣中心）上櫃之公司，股份代碼：3630）在智能手機攝像頭模組鏡頭、IoT攝像頭模組鏡頭及3D模組鏡頭等的發展」（「新鉅」15次、「聯營公司」36次），可確認兩者之聯營關係；惟全份年報未出現「最大股東」之表述，亦未載持股比例。
+- `3675:objective_ranking_or_market_share:ff388e8864de4fbe` — `PARTIALLY_SUPPORTED`. 德微2012年官方簡報載「Diodes 集團」「2004 ~ 2011 年德微公司對 Diodes 集團（之往來）」與「(2) 受到**主要客戶（達爾集團）**之交易計價模式改變」，支持達爾集團為其長期主要客戶；惟「大股東」與「持股」出現次數均為0，其「核心大股東」地位未獲支持（該版本為2012年文件）。
+- `3717:objective_ranking_or_market_share:2b120d56b6be96bd` — `PARTIALLY_SUPPORTED`. 聯嘉112年度年報載「（其）LED光源、LED模組及車燈模組並取得多國專利，**客戶包含 Ford、FCA、Tesla、BMW、TOYOTA、GM**」與「（世）界主流EV品牌正式合作包含 **Tesla, Rivian, Fisker, BMW, STLA, GM** 等」，並載「**UniFlex 與 UniFlex Linear** 系列技術亦已導入北美高級純電動跑車／純電休旅車」（「UniFlex」38次、「Tesla」7次、「GM」5次、「Ford」2次、「專利」26次），支持 claim 之技術與客戶；惟「在電動車領域擁有高市佔率」未獲支持——年報中唯一市占數字為「**LED聖誕燈串全球市佔率達20%**」，係指聖誕燈串產品而非電動車車燈。
+- `4909:objective_ranking_or_market_share:36ef0e8eeb712017` 與 `154d95fab7c83bda` — `PARTIALLY_SUPPORTED`. 新復興2022年官方簡報載「新復興深耕高頻微波通訊PCB製造經驗累積超過35年，具備豐富的**高頻基板**生產製造經驗」，並列高頻基板、散熱基板、特殊複合材料基板與特殊車用基板等產品線（「LNB」2次、「衛星」4次、「基板」6次），支持其 LNB 與高頻基板業務；惟「市佔」「八成」「80%」與「龍頭」出現次數均為0，「全球市佔率高達八成、為絕對龍頭」未獲支持。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **364 / 1,399**; remaining: **1,035**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 231, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 65. Next pending claim by priority: `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` (氣立).
+
 
 
 
