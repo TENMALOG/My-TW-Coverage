@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **324 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), and `author-058` (7).
+Author-reviewed: **331 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), and `author-059` (7).
 
-- ACCEPTED by author: 54
-- PARTIALLY_SUPPORTED: 210
+- ACCEPTED by author: 56
+- PARTIALLY_SUPPORTED: 212
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 56
-- Remaining author queue: 1,075
+- Other allowed author decisions: 59
+- Remaining author queue: 1,068
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -693,6 +693,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **324 / 1,399**; remaining: **1,075**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 210, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 56. Next pending claim by priority: `2327:objective_ranking_or_market_share:4bc2906c15245aae` (國巨).
+
+## Author batch `author-059` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (國巨 2327, 敬鵬 2355 ×2, 台光電 2383 ×2, 億光 2393 ×2). Evidence came from directly downloaded and inspected official disclosures: 國巨2025年報、敬鵬111年度年報、台光電2023年度年報、億光2021年度年報。
+- `2327:objective_ranking_or_market_share:4bc2906c15245aae` — `PARTIALLY_SUPPORTED`. 國巨2025年報第77頁「市場占有率」段明載「**國巨為全球鉭質電容第一大廠，市占率46％以上**，在車用、工業、軍用、航太、醫療、高階電腦等高階市場有極佳的發展位置」，與 claim 之「鉭質電容全球市占率46%（第一）」相符；同頁並載「**本公司是世界最大的晶片電阻製造廠商**」。惟「晶片電阻全球市占率34%」（「34%」之檢索結果為「(1.34%)」形式）、「MLCC 全球市占率15%（第三）」與「電感全球市占率12%（第三）」均未獲支持——年報之積層陶瓷電容與磁性元件段落僅述技術發展方向與市場需求，未載市占率或排名。
+- `2355:objective_ranking_or_market_share:e2751dcf4f662431` 與 `45cccbbebc446916` — `PARTIALLY_SUPPORTED` 與 `UNKNOWN_AFTER_RESEARCH`. 敬鵬111年度年報載「營收增長主因為本公司以**汽車板業務為主**」及「的汽車板及以彈性製造為主要訴求的中量電路板為利基市場」（「汽車」17次、「PCB」82次），支持其車用板業務；惟「全球第四」出現次數為0，「市占」僅1次且為台灣 PCB 產業整體趨勢之泛用語，故「全球第四大車用 PCB、市占約10%」未獲支持。另「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」出現次數均為0，客戶清單依一致性規則結為 UNKNOWN。
+- `2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21` 與 `8cd3eedf1d33d1d5` — `UNKNOWN_AFTER_RESEARCH`. 台光電2023年度年報之文字層呈現**亂碼**（第2頁顯示「΋ǵҁϦљวقΓǺ」等非可讀字元，與上洋114年報同型之檢索限制），僅少數區段（如子公司資料表）可讀；「基板」「CCL」「載板」出現次數均為0，「銅箔基板」僅見於子公司業務描述。故其高速/高頻 CCL 市占冠軍地位與 M8/M9 平台敘述未獲確立。
+- `2393:objective_ranking_or_market_share:855bf0c8d0c3d854` 與 `feb61c76bb10402c` — `ACCEPTED`. 億光2021年度年報第106頁「主要競爭對手及市場佔有率」段明載「**本公司目前為國內最大的LED 專業封裝廠**，在**照明元件、背光元件、手持裝置及消費型電子產品所需元件、車用元件及不可見光元件之產值明顯超過台灣同業**」，與 claim 之「台灣最大的 LED 專業封裝廠」「產品涵蓋照明元件、背光元件、手持裝置元件、車用元件及不可見光元件」「產值明顯超越台灣同業」逐項對應。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **331 / 1,399**; remaining: **1,068**. Outcome counts: ACCEPTED 56, PARTIALLY_SUPPORTED 212, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 59. Next pending claim by priority: `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` (毅嘉).
+
 
 
 

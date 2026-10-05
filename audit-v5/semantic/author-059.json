@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-059",
+  "reviewed_at": "2026-10-05T18:07:13Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (國巨2025年報; 敬鵬111年度年報; 台光電2023年度年報; 億光2021年度年報); 台光電年報之文字層為亂碼，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2327:objective_ranking_or_market_share:4bc2906c15245aae",
+      "normalized_claim_hash": "4bc2906c15245aae8bafb4a3757c7705b8595784055bf97f1421fc4bbc963621",
+      "ticker": "2327",
+      "company": "國巨",
+      "path": "Pilot_Reports/Electronic Components/2327_國巨.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[國巨]] (2327) 是全球被動元件龍頭之一，[[晶片電阻]]全球市占率 34% (第一)、[[鉭質電容]]全球市占率 46% (第一)、[[MLCC]] 全球市占率 15% (第三)、[[電感]]全球市占率 12% (第三)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://yageogroup.com/content/Resource%20Library/Financial/Yageo%202025%20Annual%20Report_c.pdf",
+          "title": "國巨股份有限公司（國巨，2327，YAGEO）2025 年報（中文版）",
+          "source_level": 3,
+          "period_binding": "2025年報；銷售分佈含110至114年度，市占率敘述為114年度觀點。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第77頁「市場占有率」段載「（2）鉭質電容：…**國巨為全球鉭質電容第一大廠，市占率46％以上**，在車用、工業、軍用、航太、醫療、高階電腦等高階市場有極佳的發展位置」，並載「（3）晶片電阻：…**本公司是世界最大的晶片電阻製造廠商**，堅持穩定的技術團隊是多年來努力建構的成果」；同頁另有積層陶瓷電容（MLCC）與磁性元件（電感）段落，內容為技術發展方向與市場需求，未載市占率或市場排名。全份年報中「MLCC」8次、「鉭質電容」8次、「電感」7次、「晶片電阻」8次；「34%」之搜尋結果為「(1.34%)」形式（非市場占有率），「15%」2次、「12%」未見於市占語境。"
+        }
+      ],
+      "rationale": "claim 之兩項核心地位獲發行人年報支持：第77頁載「**國巨為全球鉭質電容第一大廠，市占率46％以上**」，與 claim 之「鉭質電容全球市占率46%（第一）」相符；同頁並載「**本公司是世界最大的晶片電阻製造廠商**」，支持 chip resistor 之第一大廠地位。惟多項數字與名次未獲支持：(1)「晶片電阻全球市占率34%」——年報未載該數字（「34%」之檢索結果為「(1.34%)」形式）；(2)「MLCC 全球市占率15%（第三）」與「電感全球市占率12%（第三）」——年報之積層陶瓷電容與磁性元件段落內容為技術發展方向與市場需求，均未載市占率或市場排名（「12%」未見於市占語境）。故部分成立。",
+      "proposed_text": "國巨 (2327，YAGEO) 為全球鉭質電容第一大廠（市占率 46% 以上），並為世界最大的晶片電阻製造廠商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2355:objective_ranking_or_market_share:e2751dcf4f662431",
+      "normalized_claim_hash": "e2751dcf4f6624316729cfbae6f043526e954821e293a8e8e8a955b2279c54be",
+      "ticker": "2355",
+      "company": "敬鵬",
+      "path": "Pilot_Reports/Electronic Components/2355_敬鵬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "敬鵬工業 (2355) 是全球第四大[[車用 PCB]] 製造商，全球市占率約 10%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chinpoon.com/archive/investor/item/AR/4_a_111.pdf",
+          "title": "敬鵬工業股份有限公司（敬鵬，2355，Chin Poon）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「營收增長主因為本公司以**汽車板業務為主**，而2021年全球車市需求大幅回升，導致營收有（所成長）」，並載其以「的汽車板及以彈性製造為主要訴求的中量電路板為利基市場」（「汽車」17次、「PCB」82次、「印刷電路板」43次）。全份年報中「全球第四」「車用」與「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」之出現次數均為0；「市占」1次係描述台灣 PCB 產業整體市占趨勢之泛用語，未載其自身市占率。"
+        }
+      ],
+      "rationale": "「以汽車板為主要業務」獲發行人年報支持：111年度年報載「營收增長主因為本公司以**汽車板業務為主**，而2021年全球車市需求大幅回升，導致營收有（所成長）」，並載其以「的汽車板及以彈性製造為主要訴求的中量電路板為利基市場」（「汽車」17次、「PCB」82次、「印刷電路板」43次）。惟兩項陳述未獲支持：(1)「為全球第四大車用 PCB 製造商」——全份年報中「全球第四」出現次數為0；(2)「全球市占率約10%」——「市占」僅1次且係描述台灣 PCB 產業整體市占趨勢之泛用語，未載其自身市占率。故部分成立。",
+      "proposed_text": "敬鵬工業 (2355，Chin Poon) 以汽車板業務為主，並以中量電路板之彈性製造為利基市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2355:objective_ranking_or_market_share:45cccbbebc446916",
+      "normalized_claim_hash": "45cccbbebc44691658055b82ad5efd960de796bfcf17f85ce99809f1e123af39",
+      "ticker": "2355",
+      "company": "敬鵬",
+      "path": "Pilot_Reports/Electronic Components/2355_敬鵬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為全球前 20 大汽車電子系統大廠，包括 [[Bosch]]、[[Denso]]、[[Continental]]、[[Magna]]、[[Delphi]]、[[Visteon]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.chinpoon.com/archive/investor/item/AR/4_a_111.pdf",
+          "title": "敬鵬工業股份有限公司（敬鵬，2355，Chin Poon）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「營收增長主因為本公司以**汽車板業務為主**，而2021年全球車市需求大幅回升，導致營收有（所成長）」，並載其以「的汽車板及以彈性製造為主要訴求的中量電路板為利基市場」（「汽車」17次、「PCB」82次、「印刷電路板」43次）。全份年報中「全球第四」「車用」與「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」之出現次數均為0；「市占」1次係描述台灣 PCB 產業整體市占趨勢之泛用語，未載其自身市占率。"
+        }
+      ],
+      "rationale": "「主要客戶為全球前20大汽車電子系統大廠，包括 Bosch、Denso、Continental、Magna、Delphi、Visteon」未獲確立：111年度年報載其以汽車板業務為主，支持其客戶群屬汽車電子領域；惟全份年報中「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」之出現次數均為0，亦未具名任何客戶。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21",
+      "normalized_claim_hash": "d7e1c63f7e5f9a21af4db854ec06978a85c1e660e11d22bf45a1e987dead2089",
+      "ticker": "2383",
+      "company": "台光電",
+      "path": "Pilot_Reports/Electronic Components/2383_台光電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台光電 (2383) 是全球高速/高頻[[銅箔基板]] (CCL) 市占冠軍，為 [[AI 伺服器]]主板材料升級的最大受惠者。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，Elite Material）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視，惟該 PDF 之文字層呈現**亂碼**（如第2頁顯示「΋ǵҁϦљวقΓǺ」等非可讀字元，與上洋114年報之情況相同）。文件中僅少數區段可讀（如子公司資料表載「生產印刷電路用黏合片及銅箔基板」）；以關鍵字檢索，「銅箔基板」僅出現於子公司業務描述（「銅箔」5次），「基板」「CCL」「載板」之出現次數均為0，未取得可判讀之市場地位敘述。"
+        }
+      ],
+      "rationale": "「為全球高速/高頻銅箔基板 (CCL) 市占冠軍，為 AI 伺服器主板材料升級的最大受惠者」未獲確立：台光電2023年度年報之文字層呈現**亂碼**（與上洋114年報同型之檢索限制），僅少數區段（如子公司資料表）可讀；以關鍵字檢索，「銅箔基板」僅出現於子公司業務描述，「基板」「CCL」「載板」之出現次數均為0，未取得任何可判讀之市占率、排名或 AI 伺服器材料敘述。故該地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2383:objective_ranking_or_market_share:8cd3eedf1d33d1d5",
+      "normalized_claim_hash": "8cd3eedf1d33d1d5a8e1fa43144ebdf6d5dffc4985da355e106b5539df7428e1",
+      "ticker": "2383",
+      "company": "台光電",
+      "path": "Pilot_Reports/Electronic Components/2383_台光電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**台光電** (全球高速/高頻 CCL 市占冠軍，M8/M9 平台)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，Elite Material）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視，惟該 PDF 之文字層呈現**亂碼**（如第2頁顯示「΋ǵҁϦљวقΓǺ」等非可讀字元，與上洋114年報之情況相同）。文件中僅少數區段可讀（如子公司資料表載「生產印刷電路用黏合片及銅箔基板」）；以關鍵字檢索，「銅箔基板」僅出現於子公司業務描述（「銅箔」5次），「基板」「CCL」「載板」之出現次數均為0，未取得可判讀之市場地位敘述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「台光電（全球高速/高頻 CCL 市占冠軍，M8/M9 平台）」）。因該年報文字層為亂碼，無法判讀其市場地位與 M8/M9 平台相關敘述，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2393:objective_ranking_or_market_share:855bf0c8d0c3d854",
+      "normalized_claim_hash": "855bf0c8d0c3d854688a5a9069385218e8566f70ea2ae7c7c1c84a1e6ac60719",
+      "ticker": "2393",
+      "company": "億光",
+      "path": "Pilot_Reports/Electronic Components/2393_億光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "億光電子 (2393) 是台灣最大的 [[LED]] 專業封裝廠，產品涵蓋照明元件、背光元件、手持裝置元件、車用元件及不可見光元件，產值明顯超越台灣同業。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.everlight.com.cn/wp-content/uploads/2022/06/2021_Annualreport_tch.pdf",
+          "title": "億光電子工業股份有限公司（億光，2393，EVERLIGHT）2021 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第106頁「市場及產銷概況－主要競爭對手及市場佔有率」段載「**本公司目前為國內最大的LED 專業封裝廠**，在照明元件、背光元件、手持裝置及消費型電子產品所需元件、車用元件及**不可見光元件之產值明顯超過台灣同業**」，其後並列表列各產品應用別之主要競爭對手（照明元件：Samsung、Lumileds、Nichia、CREE、SSC、木林森、鴻利；車用元件：ams-Osram、Nichia、Lumileds、Stanley、SSC、DOMINANT 等）。全份年報中「LED」198次、「封裝」36次、「同業」8次。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報直接支持：2021年度年報第106頁「主要競爭對手及市場佔有率」段載「**本公司目前為國內最大的LED 專業封裝廠**，在**照明元件、背光元件、手持裝置及消費型電子產品所需元件、車用元件及不可見光元件之產值明顯超過台灣同業**」，與 claim 所述「台灣最大的 LED 專業封裝廠」「產品涵蓋照明元件、背光元件、手持裝置元件、車用元件及不可見光元件」「產值明顯超越台灣同業」逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2393:objective_ranking_or_market_share:feb61c76bb10402c",
+      "normalized_claim_hash": "feb61c76bb10402ce09a575330d3125049b165ed8cbce6fbc8c759eb5bd2ae61",
+      "ticker": "2393",
+      "company": "億光",
+      "path": "Pilot_Reports/Electronic Components/2393_億光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**億光** (台灣最大 LED 封裝，照明/車用/紅外線)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.everlight.com.cn/wp-content/uploads/2022/06/2021_Annualreport_tch.pdf",
+          "title": "億光電子工業股份有限公司（億光，2393，EVERLIGHT）2021 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第106頁「市場及產銷概況－主要競爭對手及市場佔有率」段載「**本公司目前為國內最大的LED 專業封裝廠**，在照明元件、背光元件、手持裝置及消費型電子產品所需元件、車用元件及**不可見光元件之產值明顯超過台灣同業**」，其後並列表列各產品應用別之主要競爭對手（照明元件：Samsung、Lumileds、Nichia、CREE、SSC、木林森、鴻利；車用元件：ams-Osram、Nichia、Lumileds、Stanley、SSC、DOMINANT 等）。全份年報中「LED」198次、「封裝」36次、「同業」8次。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「億光（台灣最大 LED 封裝，照明/車用/紅外線）」）。年報第106頁明載其為「國內最大的LED專業封裝廠」，並列照明元件、車用元件與不可見光元件（紅外線屬不可見光）之產值明顯超過台灣同業。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 10:04 UTC
+Updated: 2026-10-07 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **324 / 1,399**
-- Remaining author review: **1,075**
-- Latest batch: **author-058** (7 claims)
+- Author-reviewed: **331 / 1,399**
+- Remaining author review: **1,068**
+- Latest batch: **author-059** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **54**
-- `PARTIALLY_SUPPORTED`: **210**
+- `ACCEPTED`: **56**
+- `PARTIALLY_SUPPORTED`: **212**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **56**
+- `UNKNOWN_AFTER_RESEARCH`: **59**
 
 ## Latest claim batch
 
-- `2308:objective_ranking_or_market_share:102dbd9ad2f63ed0`、`abbcc068786a6239` — `PARTIALLY_SUPPORTED` ×2; 台達電官方致股東報告書載「電源及系統」事業與「AI電源與散熱解決方案」研發；惟「全球最大」「交換式電源」「市佔」皆0次。
-- `2308:objective_ranking_or_market_share:b060444939608ba9` — `PARTIALLY_SUPPORTED`; 同頁載「與主要AI晶片供應商及雲端服務客戶維持合作關係」、800VDC／±400VDC架構、液冷與TLVR電感「已成功導入國際AI晶片大廠、伺服器製造商及雲端資料中心服務供應商」；惟「Tier 1」「CSP」「NVIDIA」「GB200」皆0次。
-- `2317:objective_ranking_or_market_share:862167a3881f91f4`、`26accf4568e21055`、`31793ac814a59391`、`066e13df74842145` — `UNKNOWN_AFTER_RESEARCH` ×4; 鴻海官方年報專頁為前端渲染（HTML無PDF連結）、新聞稿頁靜態HTML僅含標題與CSS、投資人關係財務網址404、MOPS年報端點回320 bytes、官方議事手冊PDF回403，未取得可檢視文件。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-058.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2327:objective_ranking_or_market_share:4bc2906c15245aae` (國巨).
+- `2327:objective_ranking_or_market_share:4bc2906c15245aae` — `PARTIALLY_SUPPORTED`; 國巨2025年報第77頁載「**國巨為全球鉭質電容第一大廠，市占率46％以上**」與「**本公司是世界最大的晶片電阻製造廠商**」；惟「晶片電阻34%」「MLCC 15%第三」「電感12%第三」未載。
+- `2355:objective_ranking_or_market_share:e2751dcf4f662431` — `PARTIALLY_SUPPORTED`; 敬鵬111年報載「以**汽車板業務為主**」（汽車17次、PCB 82次）；惟「全球第四」0次、「市占」僅1次泛用語。
+- `2355:objective_ranking_or_market_share:45cccbbebc446916` — `UNKNOWN_AFTER_RESEARCH`; 「Bosch」「Denso」「Continental」「Magna」「Delphi」「Visteon」皆0次，依具名客戶身分規則結為UNKNOWN。
+- `2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21`、`8cd3eedf1d33d1d5` — `UNKNOWN_AFTER_RESEARCH` ×2; 台光電2023年報文字層呈**亂碼**，僅子公司資料表可讀，「銅箔基板」僅見於子公司業務描述，「CCL」「載板」皆0次。
+- `2393:objective_ranking_or_market_share:855bf0c8d0c3d854`、`feb61c76bb10402c` — `ACCEPTED` ×2; 億光2021年報第106頁載「**本公司目前為國內最大的LED專業封裝廠**」「照明元件、背光元件、手持裝置…車用元件及不可見光元件之**產值明顯超過台灣同業**」。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-059.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83` (毅嘉).
 
 ## Source access
 
