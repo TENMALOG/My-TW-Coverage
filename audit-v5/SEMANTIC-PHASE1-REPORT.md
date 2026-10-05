@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **70 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), and `author-021` (10).
+Author-reviewed: **78 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), and `author-022` (8).
 
 - ACCEPTED by author: 23
-- PARTIALLY_SUPPORTED: 41
+- PARTIALLY_SUPPORTED: 47
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 2
-- Remaining author queue: 1,329
+- Other allowed author decisions: 4
+- Remaining author queue: 1,321
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -242,6 +242,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-021.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **70 / 1,399**; remaining: **1,329**. Outcome counts: ACCEPTED 23, PARTIALLY_SUPPORTED 41, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `2115:objective_ranking_or_market_share:62d5c63efe920f40` (六暉-KY).
+
+## Author batch `author-022` — 2026-10-05
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (六暉-KY 2115 ×2, 劍麟 2228 ×3, 為升 2231 ×3). Evidence came from directly downloaded and inspected official issuer presentations: 六暉 2024年法說會簡報、劍麟 2013年上市前業績發表會簡報、為升 2024年法說會簡報。
+- `2115:objective_ranking_or_market_share:62d5c63efe920f40` — `PARTIALLY_SUPPORTED`. 六暉官方簡報第23頁標語「全球產量第一 台灣氣門嘴領導品牌」，第3頁載氣嘴占產品80%、月產能7,000萬支、LUHAI成立於1980年；惟全份簡報未載全球市占率，「約10%」未獲確立。
+- `2115:objective_ranking_or_market_share:ce0e7e4bf82e336c` — `PARTIALLY_SUPPORTED`. 簡報第5頁「Global Locations」列台灣彰化田中、中國廈門廈暉與崑山陸暉、印尼PT. LUHAI，支持 claim 之生產基地範圍；惟「印尼二輪內胎市佔60%」未見於簡報或任何查閱來源。
+- `2228:objective_ranking_or_market_share:82e3738fa7cb1ef3`、`78fc8e4a85f351e4`、`53a88eea8833176f` — `PARTIALLY_SUPPORTED` ×3. 劍麟2013年上市前簡報第5、8、9、12頁支持其核心產品為汽車安全氣囊充氣器殼體與預縮式安全帶零件，第16頁載其配合 Autoliv 之預縮式安全帶產品；惟官方簡報未使用「隱形冠軍」定位、未出現 ZF 或均勝電子，亦未載「全球市佔逾90%」。
+- `2231:objective_ranking_or_market_share:be355493562a87fb` — `PARTIALLY_SUPPORTED`. 為升2024年官方簡報第6頁載其自1979年起專注汽車感測器（含輪胎壓力監測感測器）、自2015年起進入毫米波雷達研發與生產（4D成像雷達、MRR、SRR等）；惟「台灣汽車電子龍頭」與「TPMS AM 市佔約90%」均未見於官方簡報。
+- `2231:objective_ranking_or_market_share:f1eaea15e5afaa59` 與 `53dc6e668cc52c45` — `UNKNOWN_AFTER_RESEARCH` ×2. 為升官方簡報全篇未具名任何客戶，未出現 SMP（Standard Motor Products）或 Wells，亦未載北美 TPMS AM 90% 市占率；客戶身分與市占數字既不能確認亦無證據否定。
+- Proposed wording is recorded for the partial claims in `semantic/author-022.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **78 / 1,399**; remaining: **1,321**. Outcome counts: ACCEPTED 23, PARTIALLY_SUPPORTED 47, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 4. Next pending claim by priority: `2235:objective_ranking_or_market_share:2f804dd9a0a390da` (謚源).
+
 
 
 
