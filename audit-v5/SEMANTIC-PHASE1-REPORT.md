@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **141 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), and `author-030` (8).
+Author-reviewed: **148 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), and `author-031` (7).
 
-- ACCEPTED by author: 37
-- PARTIALLY_SUPPORTED: 85
+- ACCEPTED by author: 38
+- PARTIALLY_SUPPORTED: 91
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 15
-- Remaining author queue: 1,258
+- Remaining author queue: 1,251
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -359,6 +359,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-030.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **141 / 1,399**; remaining: **1,258**. Outcome counts: ACCEPTED 37, PARTIALLY_SUPPORTED 85, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 15. Next pending claim by priority: `9924:objective_ranking_or_market_share:d29232b4aad5a82a` (福興).
+
+## Author batch `author-031` — 2026-10-06
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (福興 9924 ×2, 三商電 2427 ×3, 互盛 2433, 上福 6128). Evidence came from directly downloaded and inspected official disclosures: 福興114年度年報、三商電公司簡介與2017年法人說明會簡報、互盛2016年法人說明會簡報、上福全球科技2018企業社會責任報告書。
+- `9924:objective_ranking_or_market_share:d29232b4aad5a82a` — `PARTIALLY_SUPPORTED`. 福興114年度年報支持總部位於高雄（高雄市岡山區本洲里育才路88號）與其高級門鎖／防火門鎖／智慧門鎖產品線；惟「1957」「全球最大」「領導廠商」於全份年報之出現次數均為0。
+- `9924:objective_ranking_or_market_share:e6f8af7f9168315b` — `PARTIALLY_SUPPORTED`. 年報第76頁載「內銷、外銷金額各約佔總營業額7%、93%；外銷部分以北美市場佔75%為最大宗」，支持其北美與全球銷售；惟「約佔美國終端市佔20%」未獲任何官方數字支持。
+- `2427:objective_ranking_or_market_share:1e603cc94ccc2dc1` — `PARTIALLY_SUPPORTED`. 三商電公司簡介第27頁載「存提款機市佔第一」與「循環功能的自動櫃員機，在台的市占率更超過七成，穩居市場第一」；惟「超過五成」之整體 ATM 市占未載，且 NCR 與 Diebold 於文件中出現次數均為0（官方載明代理品牌為飛利浦、IBM、西門子、Omron、Hitachi）。
+- `2427:objective_ranking_or_market_share:626114d027f188f8` 與 `1d56a8bd2f1d7f51` — `PARTIALLY_SUPPORTED`. 客戶涵蓋銀行、郵局等獲簡介支持；惟「ATM 市佔過半」之整體數字未載，2017年法說會簡報以「銀行A、銀行B、銀行C」代號示意客戶，且「外幣兌換機」「智慧繳費機」未見於官方文件。
+- `2433:objective_ranking_or_market_share:326ac8fb4b455e88` — `PARTIALLY_SUPPORTED`. 互盛2016年法說會第6頁沿革載「Acquired agency right for RICOH printers」，支持 Ricoh 代理關係；惟全份簡報未使用「最大」「長期」「獨家」「唯一」描述該關係，產品線亦不含視訊設備。
+- `6128:objective_ranking_or_market_share:f350aa9fa22fba0f` — `ACCEPTED`. 上福全球科技2018年CSR報告第6頁明載「國內唯一具備碳粉匣及OPC (Organic Photo-Conductor)感光鼓精密齒輪研發設計能力的廠商」，並載其為事務機器空碳粉匣、配件及感光鼓精密齒輪之領導廠商之一；第30至32頁載其自行研發生產該等零件（含德國 ARBURG 射出成形機17台）。
+- Proposed wording is recorded for the partial claims in `semantic/author-031.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **148 / 1,399**; remaining: **1,251**. Outcome counts: ACCEPTED 38, PARTIALLY_SUPPORTED 91, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 15. Next pending claim by priority: `6593:objective_ranking_or_market_share:bcd8051088ba12eb` (台灣銘板).
+
 
 
 

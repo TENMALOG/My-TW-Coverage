@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 06:04 UTC
+Updated: 2026-10-06 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **141 / 1,399**
-- Remaining author review: **1,258**
-- Latest batch: **author-030** (8 claims)
+- Author-reviewed: **148 / 1,399**
+- Remaining author review: **1,251**
+- Latest batch: **author-031** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **37**
-- `PARTIALLY_SUPPORTED`: **85**
+- `ACCEPTED`: **38**
+- `PARTIALLY_SUPPORTED`: **91**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,16 +24,15 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2504:objective_ranking_or_market_share:271a4f0e71b4103a` — `ACCEPTED`; 國產2026法說會第2頁載「為臺灣預拌混凝土之龍頭企業」、「全台共有26個預拌廠」。
-- `5546:objective_ranking_or_market_share:9e5e5a07bc534c70` — `PARTIALLY_SUPPORTED`; 永固集團介紹第6頁載重慶五個攪拌站、第13/17頁載重慶輕軌4/5/9/10號線「均指定由我司供應混凝土」；惟全份未載市占率或「領先」表述。
-- `8424:objective_ranking_or_market_share:ac341368dc8f4238` — `PARTIALLY_SUPPORTED`; 惠普2025法說會第4頁載矽酸鈣板64%／纖維水泥板36%、第5頁載國產持股50.6%；惟未載「台灣最大」或任何市占率。
-- `9930:objective_ranking_or_market_share:edbe1906dd3dcf78` — `ACCEPTED`; 中聯資源2026法說會第4頁載「國內規模最大爐石粉產銷業者…實踐循環經濟」，第24頁載獲環境部資源循環績優企業銀質獎。
-- `2062:objective_ranking_or_market_share:a71bb7b3c16dfa04` — `PARTIALLY_SUPPORTED`; 橋椿簡報第4/5頁載其為裝飾設備鋅壓鑄零組件領導製造商、第11頁載「鋅的原料成本是銅的1/3」；惟六成以上市占係指客戶、非橋椿自身零組件市占。
-- `2062:objective_ranking_or_market_share:95163601c6041a89` — `PARTIALLY_SUPPORTED`; 簡報第4/9頁載「客戶在北美及歐洲水龍頭市占率超過六成」；惟Kohler／Moen／American Standard／TOTO於簡報與110年報出現次數皆為0。
-- `8930:objective_ranking_or_market_share:b7304d14590e5873` — `PARTIALLY_SUPPORTED`; 青鋼簡報第17頁沿革載「成立於1982年」、「第一家自動化生產」、「第一家上市櫃金屬建材」；惟官方為「第一家」而非claim之「唯一」。
-- `8930:objective_ranking_or_market_share:0e49eeeb7dba1af5` — `UNKNOWN_AFTER_RESEARCH`; 青鋼簡報與官網簡介中「市佔」「市占」出現次數皆為0。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-030.json`。未修改發行人報告。
-- Next pending claim by priority: `9924:objective_ranking_or_market_share:d29232b4aad5a82a` (福興).
+- `9924:objective_ranking_or_market_share:d29232b4aad5a82a` — `PARTIALLY_SUPPORTED`; 福興114年報支持總部位於高雄市岡山區；惟「1957」與「全球最大」出現次數皆為0。
+- `9924:objective_ranking_or_market_share:e6f8af7f9168315b` — `PARTIALLY_SUPPORTED`; 年報第76頁載外銷占93%、其中北美占75%為最大宗；惟「美國終端市佔20%」未載。
+- `2427:objective_ranking_or_market_share:1e603cc94ccc2dc1` — `PARTIALLY_SUPPORTED`; 三商電簡介第27頁載「存提款機市佔第一」、循環功能自動櫃員機在台市占逾七成；惟NCR與Diebold於文件出現0次（載明代理者為飛利浦、IBM、西門子、Omron、Hitachi）。
+- `2427:objective_ranking_or_market_share:626114d027f188f8` — `PARTIALLY_SUPPORTED`; 客戶涵蓋銀行與郵局獲支持；惟「過半」之整體ATM數字未載，2017簡報以銀行A/B/C代號示意。
+- `2427:objective_ranking_or_market_share:1d56a8bd2f1d7f51` — `PARTIALLY_SUPPORTED`; ATM部分獲支持；「外幣兌換機」「智慧繳費機」未見於官方文件。
+- `2433:objective_ranking_or_market_share:326ac8fb4b455e88` — `PARTIALLY_SUPPORTED`; 互盛簡報第6頁載「Acquired agency right for RICOH printers」；惟「最大」「長期」「獨家代理及視訊設備」均未載。
+- `6128:objective_ranking_or_market_share:f350aa9fa22fba0f` — `ACCEPTED`; 上福2018 CSR第6頁載「國內唯一具備碳粉匣及OPC感光鼓精密齒輪研發設計能力的廠商」，第30-32頁載其自行生產相關零件。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-031.json`。未修改發行人報告。
+- Next pending claim by priority: `6593:objective_ranking_or_market_share:bcd8051088ba12eb` (台灣銘板).
 
 ## Source access
 
