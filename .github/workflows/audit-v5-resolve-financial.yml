@@ -2,15 +2,6 @@ name: Audit v5 resolve financial differences
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - audit-v5
-    paths:
-      - "audit-v5/financial_difference_reconcile.py"
-      - "audit-v5/tests/test_financial_difference_reconcile.py"
-      - "audit-v5/official_financial_check.py"
-      - "audit-v5/FINANCIAL-POLICY.md"
-      - ".github/workflows/audit-v5-resolve-financial.yml"
 
 permissions:
   contents: write

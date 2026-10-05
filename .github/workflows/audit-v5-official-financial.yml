@@ -2,14 +2,6 @@ name: Audit v5 official financial check
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - audit-v5
-    paths:
-      - "audit-v5/official_financial_check.py"
-      - "audit-v5/tests/test_official_financial_check.py"
-      - "audit-v5/FINANCIAL-POLICY.md"
-      - ".github/workflows/audit-v5-official-financial.yml"
 
 permissions:
   contents: write
