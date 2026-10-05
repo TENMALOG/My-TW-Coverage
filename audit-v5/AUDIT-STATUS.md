@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 16:04 UTC
+Updated: 2026-10-13 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,25 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,076 / 1,399**
-- Remaining author review: **323**
-- Latest batch: **author-208** (3 claims)
+- Author-reviewed: **1,078 / 1,399**
+- Remaining author review: **321**
+- Latest batch: **author-209** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **97**
-- `PARTIALLY_SUPPORTED`: **694**
+- `PARTIALLY_SUPPORTED`: **695**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **281**
+- `UNKNOWN_AFTER_RESEARCH`: **282**
 
 ## Latest claim batch
 
-- `3652:identity_changing_event:59acbb960f3cd20b` — `ACCEPTED`；精聯105年度年報**逐字載**「在**精技電腦母公司**『自動資料收集產品事業群』之主要紀事」與「民國96年06月**精技電腦股東大會通過『自動資料收集產品事業群分割案』**」（「**精技」59 次、「母公司」53 次、「分割」8 次**）——**逐項對應**。
-- `3701:material_named_relationship:487aeda6c2319d55` — `UNKNOWN_AFTER_RESEARCH`；**所取得之檔案經檢視屬另一法人（精聯電子3652之年報）**，且其中「**三希」0 次**。
-- `4916:material_named_relationship:772774fdd9a76e6f` — `PARTIALLY_SUPPORTED`；事欣科簡報載「**Aerospace**」「**Military – CMMC 2.0**」（PARPRO 13次、aerospace 2次、defense 2次）；**惟「NASA／Boeing／harness」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-208.json`（3 筆）。未修改發行人報告。
+- `6117:material_named_relationship:08e43894d3a70c04` — `PARTIALLY_SUPPORTED`；迎廣年報載「繼續強化**AI 伺服器**擴大產能及系統**組裝**能力」並見「**NVIDIA」2 次、「AI 伺服器」1 次、「組裝廠」3 次、「美國」3 次**；**惟「馬來西亞」0 次**（年報所載組裝廠位於台北汐止）。
+- `6197:material_named_relationship:457cbbbbe3a30cf3` — `UNKNOWN_AFTER_RESEARCH`；佳必琪文件為**個體財務報告（非年報）**，「**ORV3／Busbar／PCIe／NVIDIA」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-209.json`（2 筆）。未修改發行人報告。
 - Next pending claim by priority: `5271:material_named_relationship:41d4aa5ed2bf3155` (紘通).
 
 ## Source access

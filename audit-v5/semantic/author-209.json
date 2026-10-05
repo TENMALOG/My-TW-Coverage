@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-209",
+  "reviewed_at": "2026-10-05T22:12:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (迎廣2023年度年報與2026年法人說明會簡報; 佳必琪114年度個體財務報告)",
+  "items": [
+    {
+      "claim_id": "6117:material_named_relationship:08e43894d3a70c04",
+      "normalized_claim_hash": "08e43894d3a70c04c9af0fef51e59b8c7916643871f669dd850d196d7c2a06c8",
+      "ticker": "6117",
+      "company": "迎廣",
+      "path": "Pilot_Reports/Computer Hardware/6117_迎廣.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "除了持續經營PC電競商機外，迎廣已正式打入[[NVIDIA]](輝達)的[[AI[[伺服器]]]]供應鏈，並積極佈局全球產能，在美國及馬來西亞設立組裝廠，以應對地緣政治及客戶對『美國製造』的強大需求。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://in-win.com/uploads/Investor/download/2023%E5%B9%B4%20(6117)%20%E5%85%AC%E5%8F%B8%E5%B9%B4%E5%A0%B1_s.pdf",
+          "title": "迎廣科技股份有限公司（迎廣，6117，InWin）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取199,062字元）。年報載「3.繼續強化**AI 伺服器**擴大產能及系統**組裝**能力。」「◎於台北汐止成立**組裝廠**，培植製造機能。」「◎十二月建置**伺服器系統組裝廠**。」並見「**NVIDIA**」2次、「**美國**」3次、「**組裝廠**」3次，**支持其 AI 伺服器系統組裝業務及與 NVIDIA 之關聯敘述**。**關鍵發現**：全份年報中「**馬來西亞**」（及「馬國」）之出現次數**為0**；另 2026 年法人說明會簡報（文字擷取4,016字元）中「**NVIDIA**」與「**AI 伺服器**」之出現次數亦為0（「美國」6次、「組裝廠」3次）。"
+        }
+      ],
+      "rationale": "「打入 [[NVIDIA]]（輝達）的 **AI 伺服器**供應鏈」獲發行人年報支持：年報載「3.繼續強化**AI 伺服器**擴大產能及系統**組裝**能力。」「◎十二月建置**伺服器系統組裝廠**。」，並見「**NVIDIA**」2次、「**AI 伺服器**」1次、「**組裝廠**」3次、「**美國**」3次。**惟兩項陳述未獲支持**：(1)「在**馬來西亞**設立組裝廠」——「**馬來西亞**」之出現次數**為0**（年報所載之組裝廠位於**台北汐止**）；(2)「持續經營 **PC 電競**商機」（0次）與「應對地緣政治及客戶對『美（製）』之要求」之表述未見。故部分成立。",
+      "proposed_text": "迎廣科技 (6117，InWin) 強化 AI 伺服器產能與系統組裝能力，並與 NVIDIA 相關供應鏈有關聯。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6197:material_named_relationship:457cbbbbe3a30cf3",
+      "normalized_claim_hash": "457cbbbbe3a30cf3bedecada07d0495502e59d2d12d4008610f8fc32b59df12e",
+      "ticker": "6197",
+      "company": "佳必琪",
+      "path": "Pilot_Reports/Computer Hardware/6197_佳必琪.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，佳必琪成功轉型並搭上[[AI]]特快車，其高階電源線(如ORV3系統及Busbar)及高速內部傳輸線([[PCIe]] Gen5/Gen6)已成功打入[[NVIDIA]] (如GB200晶片)與美超微(Supermicro)的[[AI[[伺服器]]]]供應鏈，帶動營運進入高成長期。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://dnt.jpcconnectivity.com/storage/uploads/1774319323_114%e5%b9%b4%e4%bd%b3%e5%bf%85%e7%90%aa%e5%80%8b%e9%ab%94%e8%b2%a1%e5%a0%b1(%e5%a5%97%e7%ab%a0).pdf",
+          "title": "佳必琪國際股份有限公司（佳必琪，6197，JPC Connectivity）民國114年度個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國114年度。**文件性質為個體財務報告，非年報**。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取85,208字元）。**文件性質為個體財務報告暨會計師查核報告（非年報）**。文中「AI」出現3次。**關鍵發現**：全份文件中「**ORV3**」「**Busbar**」「**PCIe**」與「**NVIDIA**」之出現次數**均為0**——未載該等產品別或客戶關係。"
+        }
+      ],
+      "rationale": "「其高階**電源線**（如 **ORV3** 系統及 **Busbar**）及高速內部傳輸線（**PCIe** Gen5/Gen6）已成功打入 [[NVIDIA]]（供應鏈）」未獲確立：本批次所取得之佳必琪文件**性質為個體財務報告（非年報）**，其中「**ORV3**」「**Busbar**」「**PCIe**」與「**NVIDIA**」之出現次數**均為0**（「AI」僅3次）。因該 claim 之實質內容為具名客戶與產品規格，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
