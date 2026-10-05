@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:15:29Z",
+  "generated_at": "2026-10-05T20:17:06Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -115,12 +115,13 @@
     "author-110",
     "author-111",
     "author-112",
-    "author-113"
+    "author-113",
+    "author-114"
   ],
-  "source_batch_count": 113,
-  "total_unknown": 161,
+  "source_batch_count": 114,
+  "total_unknown": 162,
   "failure_signature_counts": {
-    "other_unclassified": 66,
+    "other_unclassified": 67,
     "tls_failure": 8,
     "mops_non_document": 33,
     "non_document_response": 31,
@@ -2524,6 +2525,20 @@
       ],
       "attempted_sources": [
         "https://www.guc-asic.com/upload/2025_07_11/9_20250711161013kvp2upyE622.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3583:objective_ranking_or_market_share:9f4f88d12436b18e",
+      "ticker": "3583",
+      "company": "辛耘",
+      "claim": "[[台積電]] (最大客戶，占營收 19.37%，設備+再生晶圓)",
+      "batch_id": "author-114",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.scientech.com.tw/sites/default/files/document/ShareholdersMeeting/2025%e5%b9%b4%e5%a0%b1.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

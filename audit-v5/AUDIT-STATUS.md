@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 17:04 UTC
+Updated: 2026-10-09 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **684 / 1,399**
-- Remaining author review: **715**
-- Latest batch: **author-113** (8 claims)
+- Author-reviewed: **692 / 1,399**
+- Remaining author review: **707**
+- Latest batch: **author-114** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **78**
-- `PARTIALLY_SUPPORTED`: **441**
+- `ACCEPTED`: **80**
+- `PARTIALLY_SUPPORTED`: **446**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **161**
+- `UNKNOWN_AFTER_RESEARCH`: **162**
 
 ## Latest claim batch
 
-- `3141:objective_ranking_or_market_share:65a03ef2f2732bd5`、`76eab7724d46fd0c` — `UNKNOWN_AFTER_RESEARCH` ×2；晶宏2022年報「**元太」0 次**、「最大客戶」0次；「**E Ink」1 次係「E Ink Spectra 3100**」之**技術規格名稱**；「母公司」158次多為財務報表用語。
-- `3227:objective_ranking_or_market_share:9484acc8041462d9` — `UNKNOWN_AFTER_RESEARCH`；原相官方年報端點所取得檔案**僅111 bytes**（PDF解析回應 no objects found），顯非 PDF。
-- `3264:objective_ranking_or_market_share:60de4d8a051579fe`、`067c7811d5d64930` — `UNKNOWN_AFTER_RESEARCH` ×2；欣銓111年報**文字層呈現亂碼**（與台光電／上洋／必應／峰源同型），車用／測試／MCU／市占皆0次。
-- `3443:objective_ranking_or_market_share:0e18f8dc0286575f` — `UNKNOWN_AFTER_RESEARCH`；所取得者為「**2022 創意電子氣候相關財務揭露報告書**」（TCFD），「台積電」「最大股東」皆0次。
-- `3527:objective_ranking_or_market_share:8eb795fd7f9d812e` — `PARTIALLY_SUPPORTED`；聚積議事手冊載「為**全球第一大顯示屏LED 驅動IC 廠**」（LED 45次、Mini 6次、Micro 3次）；惟「物聯網精準行銷系統」未見。
-- `3527:objective_ranking_or_market_share:39a26c1aea2cd59c` — `ACCEPTED`；議事手冊載「為**全球第一大顯示屏LED 驅動IC 廠**」——逐項對應。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-113.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3545:objective_ranking_or_market_share:3863a18a0b35d83b` (敦泰).
+- `3545:objective_ranking_or_market_share:3863a18a0b35d83b`、`b0c570c3eee08a0b` — `ACCEPTED` ×2；敦泰2024年報載「（本公司）**觸控IC** 年度出貨逾4億顆，成為**全球最大觸控IC 供應商**」，並見電容式15次、顯示驅動17次、指紋68次、TDDI 2次——**逐項對應**。
+- `3567:objective_ranking_or_market_share:771daad65f7afad8` — `PARTIALLY_SUPPORTED`；逸昌112年報「類比」66次、「混合訊號」6次、「晶圓測試」16次、「100%」3次；惟「第一家」「雷射修整」「捲帶」皆0次。
+- `3583:objective_ranking_or_market_share:d01d05af66a35f62` — `PARTIALLY_SUPPORTED`；辛耘2025年報「濕式」5次、「矽晶圓再生」2次；惟「16萬」「16nm」皆0次。
+- `3583:objective_ranking_or_market_share:9f4f88d12436b18e` — `UNKNOWN_AFTER_RESEARCH`；年報「最大客戶」「19.37」皆0次，且「**台積電」9 次含「台積電採購副理」之人員經歷**與「製造商如台積電、三星和英特爾」之產業敘述。
+- `3661:objective_ranking_or_market_share:3565731645cc816a` — `PARTIALLY_SUPPORTED`；世芯年報「ASIC」84次、「先進製程」4次、「台積電」3次；惟「**唯一」0 次**。
+- `3680:objective_ranking_or_market_share:6827b5060d58507e`、`7bf17ffbe1bd9dda` — `PARTIALLY_SUPPORTED` ×2；家登文件「EUV」1次、「FOUP」4次；惟「ASML」「80%」「50%」皆0次（該檔文字擷取僅3,381字元）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-114.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3680:objective_ranking_or_market_share:c865bf5112c73bab` (家登).
 
 ## Source access
 

@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **684 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), `author-108` (8), `author-109` (4), `author-110` (4), `author-111` (5), `author-112` (8), and `author-113` (8).
+Author-reviewed: **692 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), `author-104` (8), `author-105` (8), `author-106` (5), `author-107` (8), `author-108` (8), `author-109` (4), `author-110` (4), `author-111` (5), `author-112` (8), `author-113` (8), and `author-114` (8).
 
-- ACCEPTED by author: 78
-- PARTIALLY_SUPPORTED: 441
+- ACCEPTED by author: 80
+- PARTIALLY_SUPPORTED: 446
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 161
-- Remaining author queue: 715
+- Other allowed author decisions: 162
+- Remaining author queue: 707
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1353,6 +1353,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **161 筆**。
 - Author-reviewed total: **684 / 1,399**; remaining: **715**. Outcome counts: ACCEPTED 78, PARTIALLY_SUPPORTED 441, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 161. Next pending claim by priority: `3545:objective_ranking_or_market_share:3863a18a0b35d83b` (敦泰).
+
+## Author batch `author-114` — 2026-10-09
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (敦泰 3545 ×2, 逸昌 3567, 辛耘 3583 ×2, 世芯-KY 3661, 家登 3680 ×2). Evidence came from directly downloaded and inspected official disclosures: 敦泰2024年度年報、辛耘2025年度年報、逸昌112年度年報、世芯年報、家登公司文件。
+- `3545:objective_ranking_or_market_share:3863a18a0b35d83b` 與 `b0c570c3eee08a0b` — `ACCEPTED`. 敦泰2024年度年報載「（本公司）**觸控IC** 年度出貨逾4億顆，成為**全球最大觸控IC 供應商**」，並見「**電容式**」15次、「**顯示驅動**」17次、「觸控IC」14次、「**指紋**」68次、「TDDI」2次，與 claim 之「全球最大電容式觸控 IC 出貨商之一」及產品線（觸控 IC、顯示驅動 IC、TDDI 及指紋辨識 IC）逐項對應。
+- `3567:objective_ranking_or_market_share:771daad65f7afad8` — `PARTIALLY_SUPPORTED`. 逸昌112年度年報中「**類比**」66次、「**混合訊號**」6次、「**晶圓測試**」16次、「**100%**」3次，支持其專注類比及混合訊號 IC 測試之業務；惟「是台灣**第一家**100% 專注…」（「**第一家**」0次）與服務項目中之「**晶圓雷射修整**」「**捲帶包裝**」（均0次）未獲支持。
+- `3583:objective_ranking_or_market_share:d01d05af66a35f62` — `PARTIALLY_SUPPORTED`. 辛耘2025年度年報中「**濕式**」5次、「**矽晶圓再生**」2次，支持其濕式製程設備及矽晶圓再生業務；惟「12吋矽晶圓再生服務為**國內最大**」、「月產能**16萬片**」（0次）與「製程至**16nm**」（0次）未獲支持。
+- `3583:objective_ranking_or_market_share:9f4f88d12436b18e` — `UNKNOWN_AFTER_RESEARCH`. 辛耘年報中「**最大客戶**」與「**19.37**」之出現次數均為0；「**台積電**」9次之上下文包含**人員經歷**（「台積電採購副理」）與產業敘述（「製造商如台積電、三星和英特爾將進入2奈米量產階段」），**非**客戶關係或營收占比之表述。
+- `3661:objective_ranking_or_market_share:3565731645cc816a` — `PARTIALLY_SUPPORTED`. 世芯年報中「**ASIC**」84次、「**先進製程**」4次、「**台積電**」3次，支持其 ASIC 設計服務及與台積電之先進製程合作；惟「（先進製程**唯一夥伴**）」未獲支持（「**唯一**」0次）。
+- `3680:objective_ranking_or_market_share:6827b5060d58507e` 與 `7bf17ffbe1bd9dda` — `PARTIALLY_SUPPORTED`. 家登公司文件中「**EUV**」1次、「**FOUP**」4次，支持其 EUV 光罩盒與 FOUP 晶圓載具業務；惟「全球極少數獲得 **ASML** 認證」（「ASML」0次）、「全球先進製程市佔率超過 **80%**」（0次）與「市佔率目標 **50%** 以上」（0次）未獲支持。註記：該檔案文字擷取僅3,381字元，可能為年報之部分章節。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **162 筆**。
+- Author-reviewed total: **692 / 1,399**; remaining: **707**. Outcome counts: ACCEPTED 80, PARTIALLY_SUPPORTED 446, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 162. Next pending claim by priority: `3680:objective_ranking_or_market_share:c865bf5112c73bab` (家登).
+
 
 
 
