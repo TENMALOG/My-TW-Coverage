@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:03:03Z",
+  "generated_at": "2026-10-05T23:04:28Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -246,17 +246,18 @@
     "author-240",
     "author-241",
     "author-242",
-    "author-243"
+    "author-243",
+    "author-244"
   ],
-  "source_batch_count": 243,
-  "total_unknown": 371,
+  "source_batch_count": 244,
+  "total_unknown": 372,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 163,
+    "no_official_endpoint_found": 164,
     "other_unclassified": 141,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 92,
+    "http_404": 93,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5686,6 +5687,21 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/803320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8933:export_concentration:d68998658367f462",
+      "ticker": "8933",
+      "company": "愛地雅",
+      "claim": "主要外銷市場為歐洲、美洲及亞洲。",
+      "batch_id": "author-244",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/893320250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
