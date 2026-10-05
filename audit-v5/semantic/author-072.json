@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-072",
+  "reviewed_at": "2026-10-05T18:59:44Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (帆宣公司文件; 尼得科超眾2025年上半年度法人說明會簡報; 華豫寧2025年法人說明會簡報; 南俊國際(6584)官方簡報作為ticker身分比對); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6196:objective_ranking_or_market_share:c712b83c2829b483",
+      "normalized_claim_hash": "c712b83c2829b483a106bd70c889264af099e5af0174e6c7bafa40a7013b4c07",
+      "ticker": "6196",
+      "company": "帆宣",
+      "path": "Pilot_Reports/Electronic Components/6196_帆宣.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]](最大客戶，深度參與擴廠)、[[鴻海]]集團、[[日月光投控]]及全球各大[[半導體]]與顯示器製造廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.micb2b.com/www/upload/download/270/25021915085133214.pdf",
+          "title": "帆宣系統科技股份有限公司（帆宣，6196，Marketech International）公司年報／文件",
+          "source_level": 3,
+          "period_binding": "文件所載獎項含2022年；完整年度請見文件封面。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**榮獲台積電15廠A/B**（…）」「榮獲**台積電**2022年【**優良承攬商**】」與「2022 **日月光**（…）」等（「台積電」2次、「日月光」1次、「半導體」33次、「顯示器」7次、「客戶」80次），支持其與台積電、日月光等半導體業者之工程承攬關係及半導體／顯示器產業客戶基礎。全份文件中「最大客戶」與「鴻海」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與台積電之深度工程關係」及「服務全球半導體與顯示器製造廠」獲發行人文件支持：文件載「**榮獲台積電15廠A/B**（…）」「榮獲**台積電**2022年【**優良承攬商**】」與「2022 **日月光**（…）」，且「半導體」33次、「顯示器」7次、「客戶」80次，支持其工程承攬業務涵蓋半導體與顯示器產業。惟兩項陳述未獲支持：(1)「台積電為**最大客戶**」——全份文件中「最大客戶」出現次數為0，未載客戶別營收占比或排名；(2)「**鴻海**集團」——「鴻海」出現次數為0。故部分成立。",
+      "proposed_text": "帆宣系統科技 (6196，Marketech International) 為半導體與顯示器產業之工程系統整合服務商，台積電為其重要客戶（曾獲台積電優良承攬商）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6230:objective_ranking_or_market_share:d3934452c5eec0ad",
+      "normalized_claim_hash": "d3934452c5eec0ad377a5d92badc6788c02fdf0a83a24b653fc3662bc4e5c44d",
+      "ticker": "6230",
+      "company": "尼得科超眾",
+      "path": "Pilot_Reports/Electronic Components/6230_尼得科超眾.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "早期在筆記型電腦(佔全球市佔30%)及[[伺服器]](佔45%)[[散熱]]領域穩居霸主地位。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/623020250829M003.pdf",
+          "title": "尼得科超眾科技股份有限公司（尼得科超眾，6230，Nidec Chaun-Choung）2025年上半年度法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2025年8月29日；股東持股為2025年7月。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「創設日期: 1973年12月14日」「股票上市: 代號6230」「主要股東: **Nidec 持股達86.30% (2025年7月)**」「主營業務: **散熱模組、散熱片、熱導管及微均熱板**」，並載其研發 Heat Pipe、Vapor Chamber、3D VC、超薄熱管及水冷模組，產品「覆蓋10W NB至10kW AI Server」（「散熱」6次、「伺服器」3次、「NB」2次）。全份簡報中「市佔」「45%」與「霸主」之出現次數均為0；「30%」唯一命中為上開「**86.30%**」持股比例之一部分。"
+        }
+      ],
+      "rationale": "「從事筆記型電腦與伺服器散熱業務」獲發行人簡報支持：2025年官方簡報載「主營業務: **散熱模組、散熱片、熱導管及微均熱板**」，並載其研發 Heat Pipe、Vapor Chamber、3D VC、超薄熱管及水冷模組，產品「覆蓋**10W NB**至**10kW AI Server**」（「散熱」6次、「伺服器」3次、「NB」2次）。惟「筆記型電腦佔**全球市佔30%**、伺服器佔**45%**、穩居**霸主**地位」未獲支持：全份簡報中「市佔」「45%」與「霸主」出現次數均為0；「30%」唯一命中為「Nidec 持股達**86.30%**（2025年7月）」之持股比例，**非市場占有率**。故部分成立。",
+      "proposed_text": "尼得科超眾 (6230，Nidec Chaun-Choung) 從事散熱模組、散熱片、熱導管及微均熱板業務，應用涵蓋筆記型電腦至 AI 伺服器。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6474:objective_ranking_or_market_share:e1e8b7bc5f77c89b",
+      "normalized_claim_hash": "e1e8b7bc5f77c89bce8a9012109c90a3cfb97640a2c8c03fdc98948fedfb7554",
+      "ticker": "6474",
+      "company": "華豫寧",
+      "path": "Pilot_Reports/Electronic Components/6474_華豫寧.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 雲端產品事業 (WAFERLOCK 維夫拉克) — 自主研發 IoT 智慧電子門鎖與數位門禁系統，產品應用於商辦、飯店及住宅社區，B2B 市場市佔率超過五成，IoT 產品營收占比約 25%，外銷歐洲比例提升帶動毛利率改善。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/647420251022M001.pdf",
+          "title": "華豫寧股份有限公司（華豫寧，6474，WFE Technology）法人說明會簡報（2025-10-22）",
+          "source_level": 3,
+          "period_binding": "2025年10月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「2019**成立WAFERLOCK子公司**暨併購利滙」，並列電子鎖產品線（「台灣市場主力電子鎖」「歐美日市場主力電子鎖」「歐規電子鎖」「日規電子鎖」「美規電子鎖」）與「智慧建築系統整合：1.E-Home 2.**門禁系統** 3.BA系統 4.弱電整合」（「門鎖」4次、「門禁」4次、「IoT」8次、「WAFERLOCK」1次），支持其 IoT 智慧電子鎖與門禁系統業務。惟「市佔」2次均為泛用語（「（實）體通路拓展市佔率」「（提升）市佔率，近年規劃提出4個專利申請」），而「50%」唯一命中為銷售漏斗示意圖之一階段（「10% -> 30% -> **50%** -> 70~90% -> 100%」），並非市場占有率；全份簡報中「五成」與「25%」作為 IoT 營收占比之敘述均未出現。"
+        }
+      ],
+      "rationale": "「WAFERLOCK 維夫拉克品牌之 IoT 智慧電子門鎖與數位門禁系統」獲發行人簡報支持：簡報載「2019**成立WAFERLOCK子公司**暨併購利滙」，並列電子鎖產品線（台灣／歐美日市場主力電子鎖、歐規／日規／美規）與「智慧建築系統整合：1.E-Home 2.**門禁系統** 3.BA系統 4.弱電整合」，且載其服務對象含「北中南上市櫃建設公司」「中小型優質建設公司」「本地優質門廠」「弱電經銷商」等 B2B 通路（「門鎖」4次、「門禁」4次、「IoT」8次）。惟多項數字未獲支持：(1)「B2B 市場**市佔率超過五成**」——「市佔」2次均為泛用語，「50%」唯一命中為銷售漏斗示意圖階段（「10% -> 30% -> **50%** -> 70~90% -> 100%」）；(2)「IoT 產品營收占比約 **25%**」——未見對應敘述；(3)「**外銷歐洲比例提升**帶動毛利率改善」——簡報列有歐規產品，但未載外銷歐洲比例或其對毛利率之影響。故部分成立。",
+      "proposed_text": "華豫寧 (6474，WFE Technology) 透過子公司 WAFERLOCK（維夫拉克）發展 IoT 智慧電子門鎖與數位門禁系統，產品涵蓋歐規、日規與美規電子鎖，並應用於智慧建築系統整合。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6512:objective_ranking_or_market_share:52216fcbf3c5cfac",
+      "normalized_claim_hash": "52216fcbf3c5cfac259f83b77c3aca650d39fd7b98df239d0228e0528873beca",
+      "ticker": "6512",
+      "company": "啟發電",
+      "path": "Pilot_Reports/Electronic Components/6512_啟發電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "面對[[AI[[伺服器]]]]的爆發性成長與液冷[[散熱]]架構的特殊需求，南俊憑藉深厚的客製化板金設計與快撈機構開發能力，不僅成為最大客戶美超微(Supermicro)的主力滑軌供應商，更成功擊敗眾多對手，取得[[NVIDIA]] GB200/GB300等新世代[[AI[[伺服器]]]]的推薦供應商資格。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf",
+          "title": "南俊國際股份有限公司（6584）官方法人說明會簡報（ticker 身分比對）",
+          "source_level": 3,
+          "period_binding": "2026年5月11日刊載。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就 ticker 6512 之兩筆 claim 進行查證時，發現 claim 所述業務主體為「**南俊**」及其伺服器滑軌、美超微（Supermicro）與 NVIDIA GB200/GB300 相關內容；而查得之官方文件顯示該業務主體為**南俊國際股份有限公司（股票代號 6584）**（官方簡報端點 /nas/STR/**6584**20260511M001.pdf 可下載）。相對地，本 claim 之隊列紀錄為 ticker **6512**、公司名「啟發電」、檔案路徑 Pilot_Reports/Electronic Components/**6512_啟發電.md**。故 claim 內容與其掛載之 ticker 不一致，屬 ticker-公司身分不符情形，已依專案規則第2條記錄。"
+        }
+      ],
+      "rationale": "本 claim 所述業務主體為「**南俊**」及其伺服器滑軌、成為美超微（Supermicro）主力滑軌供應商、取得 NVIDIA GB200/GB300 推薦供應商資格等內容；惟該業務之官方文件主體為**南俊國際股份有限公司（股票代號 6584）**，而本 claim 之隊列紀錄為 ticker **6512**（公司名「啟發電」，檔案路徑 `Pilot_Reports/Electronic Components/6512_啟發電.md`）。因 claim 內容與其掛載之 ticker 不一致（屬專案規則第2條之 ticker-公司身分不符情形），本批次未就 6512 取得可對應之官方證據，故以 UNKNOWN_AFTER_RESEARCH 結案，並將該身分不符情形記錄於 evidence.note 供 author 端覆核。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6512:objective_ranking_or_market_share:2876e98579307c73",
+      "normalized_claim_hash": "2876e98579307c7355b82ea3bb21c56e7c0c79a76375adaddbd5c1e538bdea2a",
+      "ticker": "6512",
+      "company": "啟發電",
+      "path": "Pilot_Reports/Electronic Components/6512_啟發電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "美超微(Supermicro，為其最大客戶)、微軟([[Microsoft]]，[[資料中心]])、AWS及[[NVIDIA]](GB200合格供應商)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf",
+          "title": "南俊國際股份有限公司（6584）官方法人說明會簡報（ticker 身分比對）",
+          "source_level": 3,
+          "period_binding": "2026年5月11日刊載。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就 ticker 6512 之兩筆 claim 進行查證時，發現 claim 所述業務主體為「**南俊**」及其伺服器滑軌、美超微（Supermicro）與 NVIDIA GB200/GB300 相關內容；而查得之官方文件顯示該業務主體為**南俊國際股份有限公司（股票代號 6584）**（官方簡報端點 /nas/STR/**6584**20260511M001.pdf 可下載）。相對地，本 claim 之隊列紀錄為 ticker **6512**、公司名「啟發電」、檔案路徑 Pilot_Reports/Electronic Components/**6512_啟發電.md**。故 claim 內容與其掛載之 ticker 不一致，屬 ticker-公司身分不符情形，已依專案規則第2條記錄。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「美超微（Supermicro，為其最大客戶）、微軟（Microsoft，資料中心）、AWS 及 NVIDIA（GB200 合格供應商）」），同樣以「南俊」為業務主體；而隊列紀錄之 ticker 為 **6512**（啟發電），與所述業務主體（南俊國際，6584）不一致。因無法就 6512 取得對應之官方證據，以 UNKNOWN_AFTER_RESEARCH 結案並記錄身分不符情形。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T18:57:50Z",
-  "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得，而非 claim 內容經證實有誤。",
+  "generated_at": "2026-10-05T19:00:10Z",
+  "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得或 claim 與 ticker 身分不符，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
     "author-002",
@@ -73,22 +73,24 @@
     "author-068",
     "author-069",
     "author-070",
-    "author-071"
+    "author-071",
+    "author-072"
   ],
-  "source_batch_count": 71,
-  "total_unknown": 74,
+  "source_batch_count": 72,
+  "total_unknown": 76,
   "failure_signature_counts": {
-    "other_unclassified": 35,
+    "other_unclassified": 34,
     "mops_non_document": 24,
     "non_document_response": 22,
     "http_404": 21,
-    "no_official_endpoint_found": 28,
+    "no_official_endpoint_found": 29,
     "image_only_or_tiny_text": 9,
     "http_403": 5,
     "connection_failure": 5,
     "garbled_text_layer": 3,
     "client_rendered_only": 4,
-    "download_timeout": 2
+    "download_timeout": 2,
+    "ticker_identity_mismatch": 2
   },
   "items": [
     {
@@ -626,7 +628,7 @@
       "claim": "[[樺漢]] (Ennoconn，[[鴻海]]集團) 入股成為最大單一股東，另與 [[聯發科]] 合資成立磐旭智能，專攻手持式工控裝置與 AIoT 解決方案。",
       "batch_id": "author-045",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://partnerzone.arbor-technology.com/investor/stockholder/shareholders_meeting/115/2026-Meeting-Agenda.pdf"
@@ -1218,6 +1220,34 @@
         "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件或公開說明書重查"
+    },
+    {
+      "claim_id": "6512:objective_ranking_or_market_share:52216fcbf3c5cfac",
+      "ticker": "6512",
+      "company": "啟發電",
+      "claim": "面對[[AI[[伺服器]]]]的爆發性成長與液冷[[散熱]]架構的特殊需求，南俊憑藉深厚的客製化板金設計與快撈機構開發能力，不僅成為最大客戶美超微(Supermicro)的主力滑軌供應商，更成功擊敗眾多對手，取得[[NVIDIA]] GB200/GB300等新世代[[AI[[伺服器]]]]的推薦供應商資格。",
+      "batch_id": "author-072",
+      "failure_signature": [
+        "ticker_identity_mismatch"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
+      ],
+      "recommended_retry": "先由 author 端確認 claim 所屬 ticker（疑為 6584 南俊國際）後再行取證"
+    },
+    {
+      "claim_id": "6512:objective_ranking_or_market_share:2876e98579307c73",
+      "ticker": "6512",
+      "company": "啟發電",
+      "claim": "美超微(Supermicro，為其最大客戶)、微軟([[Microsoft]]，[[資料中心]])、AWS及[[NVIDIA]](GB200合格供應商)。",
+      "batch_id": "author-072",
+      "failure_signature": [
+        "ticker_identity_mismatch"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
+      ],
+      "recommended_retry": "先由 author 端確認 claim 所屬 ticker（疑為 6584 南俊國際）後再行取證"
     }
   ]
 }

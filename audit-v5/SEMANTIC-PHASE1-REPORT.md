@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **400 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), and `author-071` (6).
+Author-reviewed: **405 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), and `author-072` (5).
 
 - ACCEPTED by author: 66
-- PARTIALLY_SUPPORTED: 256
+- PARTIALLY_SUPPORTED: 259
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 74
-- Remaining author queue: 999
+- Other allowed author decisions: 76
+- Remaining author queue: 994
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -843,6 +843,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **74 筆**。
 - Author-reviewed total: **400 / 1,399**; remaining: **999**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 256, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 74. Next pending claim by priority: `6196:objective_ranking_or_market_share:c712b83c2829b483` (帆宣).
+
+## Author batch `author-072` — 2026-10-08
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (帆宣 6196, 尼得科超眾 6230, 華豫寧 6474, ticker 6512 ×2). Evidence came from directly downloaded and inspected official disclosures: 帆宣公司文件、尼得科超眾2025年上半年度法人說明會簡報、華豫寧2025年法人說明會簡報，另下載南俊國際（6584）官方簡報作為 ticker 身分比對。
+- `6196:objective_ranking_or_market_share:c712b83c2829b483` — `PARTIALLY_SUPPORTED`. 帆宣官方文件載「**榮獲台積電15廠A/B**」「榮獲**台積電**2022年【**優良承攬商**】」與「2022 **日月光**（…）」（「半導體」33次、「顯示器」7次、「客戶」80次），支持其工程承攬業務涵蓋半導體與顯示器產業；惟「最大客戶」與「鴻海」出現次數均為0。
+- `6230:objective_ranking_or_market_share:d3934452c5eec0ad` — `PARTIALLY_SUPPORTED`. 尼得科超眾2025年官方簡報載「主營業務: **散熱模組、散熱片、熱導管及微均熱板**」與產品「覆蓋10W NB至10kW AI Server」；惟「市佔」「45%」與「霸主」出現次數均為0，且「30%」唯一命中為「Nidec 持股達**86.30%**（2025年7月）」之持股比例，非市場占有率。
+- `6474:objective_ranking_or_market_share:e1e8b7bc5f77c89b` — `PARTIALLY_SUPPORTED`. 華豫寧2025年官方簡報載「2019**成立WAFERLOCK子公司**暨併購利滙」、電子鎖產品線（歐規／日規／美規）與「智慧建築系統整合…**門禁系統**」（「門鎖」4次、「門禁」4次、「IoT」8次）；惟「市佔率超過五成」之「50%」唯一命中為銷售漏斗示意圖之一階段（「10% -> 30% -> **50%** -> 70~90% -> 100%」），「IoT 營收占比約25%」與「外銷歐洲比例」亦未見對應敘述。
+- `6512:objective_ranking_or_market_share:52216fcbf3c5cfac` 與 `2876e98579307c73` — `UNKNOWN_AFTER_RESEARCH`. **本批次發現 ticker-公司身分不符情形**：兩筆 claim 所述業務主體為「**南俊**」（伺服器滑軌、成為美超微主力滑軌供應商、NVIDIA GB200/GB300 推薦供應商資格），惟查得之官方文件主體為**南俊國際股份有限公司（股票代號 6584）**（簡報首頁載「南俊國際股份有限公司（6584TW）」「**全球鋼珠導軌的專家** THE GLOBAL BALL BEARING SLIDE PROFESSIONAL」，可自 /nas/STR/**6584**20260511M001.pdf 下載）；而該兩筆 claim 之隊列紀錄為 ticker **6512**、公司名「啟發電」、路徑 `Pilot_Reports/Electronic Components/6512_啟發電.md`。因 claim 內容與其掛載之 ticker 不一致，本批次未能就 6512 取得對應證據，故結為 UNKNOWN_AFTER_RESEARCH，並依專案規則第2條將身分不符情形記錄於 evidence.note 供 author 端覆核。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **405 / 1,399**; remaining: **994**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 259, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 76. Next pending claim by priority: `6538:objective_ranking_or_market_share:84142ea1fb4928c3` (倉和).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 23:04 UTC
+Updated: 2026-10-08 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,31 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **400 / 1,399**
-- Remaining author review: **999**
-- Latest batch: **author-071** (6 claims)
+- Author-reviewed: **405 / 1,399**
+- Remaining author review: **994**
+- Latest batch: **author-072** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **66**
-- `PARTIALLY_SUPPORTED`: **256**
+- `PARTIALLY_SUPPORTED`: **259**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **74**
+- `UNKNOWN_AFTER_RESEARCH`: **76**
 
 ## Latest claim batch
 
-- `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` — `PARTIALLY_SUPPORTED`; 浪凡議事手冊載「網路直播業務-浪Live」「以直播事業為核心」（直播22次）；惟「第一家」「AI」皆0次。
-- `6174:objective_ranking_or_market_share:d7e2f404f69ba714` — `PARTIALLY_SUPPORTED`; 安碁2025簡報地區別銷售為台灣22%、美國24%、大陸36%、歐洲15%→「銷售遍及兩岸、歐美」成立；惟產品別分析係依 OSC & XTAL 而非終端應用，「車用」「工業控制」「網通」「五成」皆0次。
-- `6176:objective_ranking_or_market_share:98d2560ecfdbae12` — `UNKNOWN_AFTER_RESEARCH`; 瑞儀年報「Apple」「最大客戶」皆0次，依具名客戶身分規則結為UNKNOWN。
-- `6207:objective_ranking_or_market_share:5b5191cdf2afd95c` — `PARTIALLY_SUPPORTED`; 雷科文件載雷射修整機製造並載「SMT設備、被動元件產業生產設備等佔約60%以上」；惟該60%係**產品別營收占比**，非雷射修整機全球市占率。
-- `6224:objective_ranking_or_market_share:163934390430b572` — `PARTIALLY_SUPPORTED`; 聚鼎2022簡報大事記載「SMD Mass Production for **ASUS customer**」「Design-Win the **Top 3 global cell phone company**」；惟「Littelfuse」「shareholder」「largest」皆0次。
-- `6449:objective_ranking_or_market_share:4466a7526d81896b` — `ACCEPTED`; 鈺邦112年報載「**largest supplier of coiled solid-state capacitors in the world with a leading position in the solid-state capacitor industry**」，主要股東表列 TAI-TECH ADVANCED ELECTRONICS 28.11%，關係人交易列有 Walsin Technology。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-071.json`（6 筆）。未修改發行人報告。
-- 里程碑：已審 **400 / 1,399（28.6%）**。
-- Next pending claim by priority: `6196:objective_ranking_or_market_share:c712b83c2829b483` (帆宣).
+- `6196:objective_ranking_or_market_share:c712b83c2829b483` — `PARTIALLY_SUPPORTED`; 帆宣文件載「榮獲**台積電15廠A/B**」「台積電2022年【**優良承攬商**】」「2022 日月光」（半導體33次、顯示器7次）；惟「最大客戶」「鴻海」皆0次。
+- `6230:objective_ranking_or_market_share:d3934452c5eec0ad` — `PARTIALLY_SUPPORTED`; 尼得科超眾2025簡報載「主營業務: 散熱模組、散熱片、熱導管及微均熱板」「10W NB至10kW AI Server」；惟「市佔」「45%」「霸主」皆0次，且「30%」唯一命中為**Nidec 持股86.30%**之一部分。
+- `6474:objective_ranking_or_market_share:e1e8b7bc5f77c89b` — `PARTIALLY_SUPPORTED`; 華豫寧簡報載「2019成立**WAFERLOCK**子公司暨併購利滙」與電子鎖／門禁／IoT業務；惟「市佔超過五成」之「50%」係**銷售漏斗示意圖階段**，且未載 IoT 營收占比25%。
+- `6512:objective_ranking_or_market_share:52216fcbf3c5cfac`、`2876e98579307c73` — `UNKNOWN_AFTER_RESEARCH` ×2；**發現 ticker-公司身分不符**：claim 所述業務主體為「南俊」（伺服器滑軌、美超微、NVIDIA GB200），而查得之官方文件主體為**南俊國際（股票代號 6584）**（簡報首頁載「南俊國際股份有限公司（6584TW）」「全球鋼珠導軌的專家」），本 claim 隊列紀錄卻掛載於 ticker **6512**（啟發電）。已依專案規則第2條記錄，待 author 端覆核。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-072.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6538:objective_ranking_or_market_share:84142ea1fb4928c3` (倉和).
 
 ## Source access
 
