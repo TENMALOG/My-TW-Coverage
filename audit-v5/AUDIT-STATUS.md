@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 12:42 UTC  
+Updated: 2026-10-05 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,24 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **8 / 1,399**
-- Remaining author review: **1,391**
-- New claim reviews in this execution: **0**
+- Author-reviewed: **9 / 1,399**
+- Remaining author review: **1,390**
+- Latest batch: **author-002** (1 claim)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **5**
-- `PARTIALLY_SUPPORTED`: **2**
+- `PARTIALLY_SUPPORTED`: **3**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **0**
 - `UNKNOWN_AFTER_RESEARCH`: **0**
 
-## Current blocker
+## Latest claim batch
 
-The first claim-level research attempt could not proceed because the restricted egress proxy returned HTTP CONNECT 403 for official-source hosts tested: `www.aidc.com.tw`, `www.twse.com.tw`, `www.moea.gov.tw`, and `www.mops.twse.com.tw`. No live web-search tool is available in this environment. These failed connectivity probes are not claim evidence, so no claim received a decision and no `SOURCE_UNAVAILABLE` result was recorded.
+- Decision: `PARTIALLY_SUPPORTED`
+- Claim: `2645:objective_ranking_or_market_share:acb07c2f05995949`
+- Proposed wording is in `semantic/author-002.json`; no issuer report was changed.
+- Next pending claim in priority order: `4546:objective_ranking_or_market_share:db06b1cb4d0d13e1` (長亨).
 
-Next pending claim in priority order: `2645:objective_ranking_or_market_share:acb07c2f05995949` (長榮航太; normalized claim hash `acb07c2f05995949a72a6d0c190e016489fc3dc71f58f1f9990154e19b09035c`).
+## Source access
 
-Resume after a usable route to inspect official exchange, government, and issuer sources is available. Search-result snippets alone cannot close claims.
+The environment's unrestricted egress was retested. EGAT company pages, the TPEx site, MOEA, and AIDC responded with HTTP 200. The TWSE home page returned HTTP 503. MOPS returned HTTP 200 but its body was a security-denial page, so no MOPS filing content was inspected. The TWSE company-directory OpenAPI returned official data, though the download was slow.

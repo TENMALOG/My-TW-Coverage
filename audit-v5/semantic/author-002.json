@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-002",
+  "reviewed_at": "2026-10-05T13:04:06Z",
+  "reviewer_role": "author",
+  "method": "manual review of opened official issuer pages; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2645:objective_ranking_or_market_share:acb07c2f05995949",
+      "normalized_claim_hash": "acb07c2f05995949a72a6d0c190e016489fc3dc71f58f1f9990154e19b09035c",
+      "ticker": "2645",
+      "company": "長榮航太",
+      "path": "Pilot_Reports/Aerospace & Defense/2645_長榮航太.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "機體維修服務涵蓋超過 40 家國際航空公司，為全球最大的[[波音]] 747 重度維修廠，可維修機型涵蓋 B747/B767/B777/B787/A320/A330 系列，並積極擴展 A350 及 B737 MAX 維修能量。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.egat.com.tw/zh-hant/company-profile/history",
+          "title": "關於長榮航太 - EVERGREEN AVIATION TECHNOLOGIES CORP.",
+          "source_level": 3,
+          "period_binding": "公司現行官網頁面未標示發布日期；於 2026-10-05 查閱，支持查閱時官網所述現況，未提供歷史期間綁定。",
+          "accessed_at": "2026-10-05",
+          "note": "EGAT 官網稱其在全球服務超過 40 間航空公司，並列出 2009、2011、2019 年亞太最佳 MRO 獎項。支持超過 40 家航空公司這一部分，但頁面未宣稱其為全球最大的 Boeing 747 重度維修廠。"
+        },
+        {
+          "url": "https://www.egat.com.tw/zh-hant/service-support/hmv-and-base-services",
+          "title": "定期維修 - EVERGREEN AVIATION TECHNOLOGIES CORP.",
+          "source_level": 3,
+          "period_binding": "公司現行官網服務頁未標示發布日期；於 2026-10-05 查閱，支持查閱時列示的維修服務與機型，未提供歷史期間綁定。",
+          "accessed_at": "2026-10-05",
+          "note": "EGAT 定期維修頁列出 B747-400 Series/B747-8，並稱具有超過 20 年經驗、完成 2,500 次以上重大機體維修工作。頁面未聲稱全球排名第一，亦未列出原句所稱 B777、A350 或 B737 MAX 維修能力。"
+        }
+      ],
+      "rationale": "官方公司簡介支持服務超過 40 家航空公司，正式維修服務頁支持 B747-400/B747-8 機型與重大機體維修經驗；查閱的正式來源沒有明確支持『全球最大』排名，也未支持原句所列全部機型與 A350/B737 MAX 擴能敘述。證據只支持原句部分內容，故判為 PARTIALLY_SUPPORTED；沒有把未找到排名表述當作反證。",
+      "proposed_text": "長榮航太官網稱其在全球服務超過 40 家航空公司；定期維修頁列出 B747-400、B747-8 等機型，並稱已完成 2,500 次以上重大機體維修工作。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
