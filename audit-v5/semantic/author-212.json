@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-212",
+  "reviewed_at": "2026-10-05T22:16:21Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosure endpoints; 天剛與勤誠端點皆HTTP 404、AMAX簡報未載股東關係，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "5310:profitability_assertion:ccc836ffe3afcdca",
+      "normalized_claim_hash": "ccc836ffe3afcdcaf8d9512b97c20db01148bb74e17b5439aca1b14257c1d94f",
+      "ticker": "5310",
+      "company": "天剛",
+      "path": "Pilot_Reports/Computer Hardware/5310_天剛.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年本業營收大幅萎縮，轉以投資收益為主要獲利來源，營運重心持續多角化調整中。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.cgs.com.tw/wp-content/uploads/105-meeting-year-report.pdf",
+          "title": "天剛資訊股份有限公司（天剛，5310，CGS）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自發行人官方網域下載天剛年報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得天剛可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近年本業營收大幅萎縮，轉以**投資收益**為主要獲利來源，營運重心持續多角化調整中」未獲確立：本批次自發行人官方網域下載天剛年報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6933:material_named_relationship:cba821507d7be9a8",
+      "normalized_claim_hash": "cba821507d7be9a821f6744336bc92145aa90b4ca7ae7ae0ab9f4642efb7ca00",
+      "ticker": "6933",
+      "company": "AMAX-KY",
+      "path": "Pilot_Reports/Computer Hardware/6933_AMAX-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[鴻海]] — 約 25% 股權，深度供應鏈零組件採購與技術協同",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.amax.tw/data/seminar/202406/1718853291617769143.pdf",
+          "title": "AMAX HOLDING CO., LTD.（AMAX-KY，6933，艾瑪斯科技控股）法人說明會簡報（2024-06-20）",
+          "source_level": 3,
+          "period_binding": "2024年6月20日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取6,552字元，以圖形排版為主）。簡報封面載「AMAX HOLDING CO., LTD. 艾瑪斯科技控股股份有限公司 法人說明會 股票代號：6933」；內容見「全球**供應鏈**」「AMAX在**供應鏈**中位置」與孤立之「**25%**」（「供應鏈」2次、「25%」1次）。**關鍵發現**：全份簡報中「**鴻海**」「**Foxconn**」「**股權**」與「股東」之出現次數**均為0**——未載該股東關係或採購協同敘述。"
+        }
+      ],
+      "rationale": "「[[鴻海]] — 約 **25%** 股權，深度**供應鏈**零組件**採購**與技術協同」未獲確立：所取得之AMAX法人說明會簡報中「**鴻海**」「**Foxconn**」「**股權**」與「股東」之出現次數**均為0**；「25%」1次與「供應鏈」2次之上下文**均未載該股東關係**。因該 claim 之實質內容為具名股東與採購協同關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8210:material_named_relationship:65759e97a5ce218d",
+      "normalized_claim_hash": "65759e97a5ce218d6f55d3ceb985b1fc1c1afa40ff43f8861480137d7a2203d6",
+      "ticker": "8210",
+      "company": "勤誠",
+      "path": "Pilot_Reports/Computer Hardware/8210_勤誠.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為 [[Amazon]] HGX AI 伺服器機殼主要供應商，[[ASIC]] 伺服器訂單佔比預計從 2024 年 10-20% 提升至 2025 年 20-30%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf",
+          "title": "勤誠興業股份有限公司（勤誠，8210，Chenbro Micom）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自發行人官方網域下載勤誠年報時回應 **HTTP 404（找不到）**（所嘗試之官網年報端點已失效），未取得可檢視之檔案；本批次未取得勤誠可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司為 [[Amazon]] HGX AI 伺服器機殼主要供應商，[[ASIC]] 伺服器訂單佔比預計從 2024 年 10-20% 提升至 2025 年 20-30%」未獲確立：本批次自發行人官方網域下載勤誠年報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8210:material_named_relationship:9f65655c70eed5bc",
+      "normalized_claim_hash": "9f65655c70eed5bcd9d0bcd948d454502c428a843e86289ac391c0e13f795df3",
+      "ticker": "8210",
+      "company": "勤誠",
+      "path": "Pilot_Reports/Computer Hardware/8210_勤誠.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Amazon]] (AWS) — HGX AI 伺服器機殼主要供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf",
+          "title": "勤誠興業股份有限公司（勤誠，8210，Chenbro Micom）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自發行人官方網域下載勤誠年報時回應 **HTTP 404（找不到）**（所嘗試之官網年報端點已失效），未取得可檢視之檔案；本批次未取得勤誠可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[Amazon]]（AWS）— HGX AI 伺服器機殼主要供應商」未獲確立：同上，勤誠年報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8210:material_named_relationship:50bccfb1d837ab2e",
+      "normalized_claim_hash": "50bccfb1d837ab2e2fb6c5120a0ae0507e82329e4fc32b8c0bf161a536624af4",
+      "ticker": "8210",
+      "company": "勤誠",
+      "path": "Pilot_Reports/Computer Hardware/8210_勤誠.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Amazon]] (AWS) — HGX [[AI 伺服器]]機殼主要供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf",
+          "title": "勤誠興業股份有限公司（勤誠，8210，Chenbro Micom）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自發行人官方網域下載勤誠年報時回應 **HTTP 404（找不到）**（所嘗試之官網年報端點已失效），未取得可檢視之檔案；本批次未取得勤誠可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[Amazon]]（AWS）— HGX [[AI 伺服器]]機殼主要供應商」未獲確立：同上，端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
