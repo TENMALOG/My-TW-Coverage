@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:54:21Z",
+  "generated_at": "2026-10-05T22:55:41Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -240,17 +240,18 @@
     "author-234",
     "author-235",
     "author-236",
-    "author-237"
+    "author-237",
+    "author-238"
   ],
-  "source_batch_count": 237,
-  "total_unknown": 349,
+  "source_batch_count": 238,
+  "total_unknown": 351,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 148,
+    "no_official_endpoint_found": 150,
     "other_unclassified": 134,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 77,
+    "http_404": 79,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5357,6 +5358,36 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/786120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8080:identity_changing_event:244f401c29e801b6",
+      "ticker": "8080",
+      "company": "泰霖",
+      "claim": "公司於 2026 年 1 月更名為泰霖企業。",
+      "batch_id": "author-238",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/808020250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8111:profitability_assertion:bb359312a5d1edbc",
+      "ticker": "8111",
+      "company": "立��",
+      "claim": "立碁電子工業 (8111，Edison Opto) 為台灣專業 LED 發光元件封裝製造商，以 LED 封裝及紅外線 LED 起家，近年積極轉型聚焦高毛利利基市場。",
+      "batch_id": "author-238",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/811120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

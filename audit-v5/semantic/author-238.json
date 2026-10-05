@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-238",
+  "reviewed_at": "2026-10-05T22:55:25Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (明基材2022年報; 南電113年度年報; 晶采2023法說會; 正淩智財管理報告書); 泰霖與立碁端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "8215:identity_changing_event:5f3b48ccbf710c6f",
+      "normalized_claim_hash": "5f3b48ccbf710c6f1dd4bcdbe41ccae4fea04abc0c0d0cb58fd7cb63d10401f7",
+      "ticker": "8215",
+      "company": "明基材",
+      "path": "Pilot_Reports/Electronic Components/8215_明基材.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "明基材料 (8215，BenQ Materials) 為 [[明基]] (BenQ) 集團旗下之先進材料公司，前身為達信科技，2010 年更名。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.benqmaterials.com/download/0/204/",
+          "title": "明基材料股份有限公司（明基材，8215，BenQ Materials）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取251,946字元）。年報設有「**(二)公司沿革**」章節，載「**1998 年07 月 設立達信科技股份有限公司**，實收資本額新台幣10,000 千元」「2000 年09 月 投審會核准經由第三地投資事業間接在大陸地區投資設立蘇州**達信科技**電子有限公司」（「**達信**」16次、「**更名**」6次、「**2010**」6次、「沿革」3次），並見「**明基材料**」為公司名（「**明基**」315次、「**BenQ**」23次、「**材料**」307次、「**集團**」28次、「旗下」1次），**逐項支持該 claim**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報**逐字支持**：(1)「**明基材料**（8215，**BenQ Materials**）」——年報以「明基材料」為公司名（「明基」315次、「BenQ」23次、「材料」307次）；(2)「為**明基（BenQ）集團**旗下」——年報見「**集團**」28次；(3)「為…**先進材料**公司」——「材料」307次；(4)「**前身為達信科技，2010 年更名**」——年報設有「**(二)公司沿革**」章節，載「**1998 年07 月 設立達信科技股份有限公司**」（「**達信**」16次、「**更名**」6次、「**2010**」6次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8046:material_named_relationship:31359cd3d5f2fa10",
+      "normalized_claim_hash": "31359cd3d5f2fa104f8b0dddbfd73f68a4c4ef53cfb53e0cb5fe9de0b22b3f07",
+      "ticker": "8046",
+      "company": "南電",
+      "path": "Pilot_Reports/Electronic Components/8046_南電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜，全球近乎獨家供應",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nanyapcb.com.tw/nypcb/images/InvestorRelations/Report/113AnnualReport.pdf",
+          "title": "南亞電路板股份有限公司（南電，8046，Nan Ya PCB）一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取239,129字元）。年報中「**ABF**」出現16次，**支持其 ABF 載板業務**。**關鍵發現**：全份年報中「**Ajinomoto**」「**味之素**」與「**積層絕緣膜**」之出現次數**均為0**——**未具名該材料供應商**。"
+        }
+      ],
+      "rationale": "「（**ABF** 積層絕緣膜）」之材料類別獲發行人年報之**部分支持**：年報中「**ABF**」出現16次，**支持其 ABF 載板業務**。**惟兩項陳述未獲支持**：(1)「**[[Ajinomoto]]（味之素）**」——「**Ajinomoto**」與「**味之素**」之出現次數**均為0**，**未具名該材料供應商**；(2)「**積層絕緣膜**」——該中文名稱**為0**（年報以 ABF 稱之）。故部分成立。",
+      "proposed_text": "南亞電路板 (8046，Nan Ya PCB) 之 ABF 載板業務為其產品線之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8049:material_named_relationship:1aa37ff766ae9b3d",
+      "normalized_claim_hash": "1aa37ff766ae9b3d0d3b6a343678c55910206771fd50f41c9d682ee2da2f1c47",
+      "ticker": "8049",
+      "company": "晶采",
+      "path": "Pilot_Reports/Electronic Components/8049_晶采.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "外銷比重高，歐洲市場占營收近六成，為全球工控設備領域重要的 [[HMI]] (人機介面) 顯示方案供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ampire.com.tw/db/upload/2023%e6%99%b6%e9%87%87%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83.pdf",
+          "title": "晶采光電科技股份有限公司（晶采，8049，Ampire）2023 年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2023年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取2,130字元，**以圖形排版為主**）。簡報中「**工控**」出現5次，**支持其工控應用業務**。**關鍵發現**：全份簡報中「**歐洲**」「六成」「**HMI**」與「人機介面」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為（全球）**工控設備**領域（重要）的（顯示方案供應商）」獲發行人簡報之**部分支持**：簡報中「**工控**」出現5次，**支持其工控應用業務**。**惟多項陳述未獲支持**：(1)「**歐洲**市場占營收近**六成**」——「**歐洲**」與「六成」之出現次數**均為0**；(2)「**HMI（人機介面）**顯示方案供應商」——「**HMI**」與「人機介面」均為**0**。故部分成立。**文件性質註記**：該簡報僅2,130字元（以圖形排版為主），可供檢索之文字有限。",
+      "proposed_text": "晶采光電 (8049，Ampire) 之顯示方案應用於工控領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8147:material_named_relationship:ec58d24269554297",
+      "normalized_claim_hash": "ec58d2426955429795ab5b68711e259ff73c20533e633dd595dd94a285a8f57d",
+      "ticker": "8147",
+      "company": "正淩",
+      "path": "Pilot_Reports/Electronic Components/8147_正淩.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 航太 (Aerospace) — 取得雙重 [[AS9100]] 航太品質認證，供應航太級連接器；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nextrongroup.com/files/uploads/corporate/2025%E6%99%BA%E8%B2%A1%E6%94%BF%E7%AD%961203.pdf",
+          "title": "正淩精密工業股份有限公司（正淩，8147，Nextron）智慧財產管理計畫及執行報告書（2025-12-03）",
+          "source_level": 3,
+          "period_binding": "2025年12月3日。**文件性質為智財管理報告書，非年報。**",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取4,683字元）。**文件性質為智慧財產管理計畫及執行報告書**；文中載其市場領域為「**航太/國防(Aerospace)**、運輸(Transportation)、工業(Industrial)、雲端/通訊」（「**航太**」2次）。**關鍵發現**：全份文件中「**AS9100**」「雙重」與「認證」之出現次數**均為0**，且「連接器」亦未見。"
+        }
+      ],
+      "rationale": "「(2) **航太（Aerospace）**」業務領域獲發行人文件之**部分支持**：文件載其市場領域為「**航太/國防(Aerospace)**、運輸(Transportation)、工業(Industrial)、雲端/通訊」（「**航太**」2次），**支持其確有航太領域業務**。**惟兩項陳述未獲支持**：(1)「取得**雙重 AS9100** 航太品質認證」——「**AS9100**」「雙重」與「認證」之出現次數**均為0**；(2)「供應**航太級連接器**」——「連接器」未見。**文件性質註記**：本件為**智慧財產管理計畫及執行報告書**，非年報。故部分成立。",
+      "proposed_text": "正淩精密 (8147，Nextron) 之業務涵蓋航太／國防領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8080:identity_changing_event:244f401c29e801b6",
+      "normalized_claim_hash": "244f401c29e801b616ce79fba86b48f38dc1752aa094bea50d92347ef934a784",
+      "ticker": "8080",
+      "company": "泰霖",
+      "path": "Pilot_Reports/Electronic Components/8080_泰霖.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司於 2026 年 1 月更名為泰霖企業。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/808020250401M001.pdf",
+          "title": "泰霖（8080）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之泰霖簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得泰霖可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司於 **2026 年 1 月**更名為**泰霖企業**」未獲確立：本批次所嘗試之泰霖端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8111:profitability_assertion:bb359312a5d1edbc",
+      "normalized_claim_hash": "bb359312a5d1edbc846fabde36aeb7763f68bc3689a7687b174efba13254a8a0",
+      "ticker": "8111",
+      "company": "立��",
+      "path": "Pilot_Reports/Electronic Components/8111_立��.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "立碁電子工業 (8111，Edison Opto) 為台灣專業 LED 發光元件封裝製造商，以 LED 封裝及紅外線 LED 起家，近年積極轉型聚焦高毛利利基市場。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/811120250401M001.pdf",
+          "title": "立碁電子（8111）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之立碁電子簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得立碁電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「立碁電子工業 (8111) 為台灣專業 **LED 發光元件封裝**製造商」未獲確立：本批次所嘗試之立碁端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。**註記**：該 claim 之 ticker 為 8111，而 claim 文本中之英文名「Edison Opto」實為另一家公司（艾笛森光電，3591）之名稱，**此一英文名之歸屬疑義已於本紀錄標示，供複核者確認**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

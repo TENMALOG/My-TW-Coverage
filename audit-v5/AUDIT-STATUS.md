@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 21:04 UTC
+Updated: 2026-10-14 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,210 / 1,399**
-- Remaining author review: **189**
-- Latest batch: **author-237** (6 claims)
+- Author-reviewed: **1,216 / 1,399**
+- Remaining author review: **183**
+- Latest batch: **author-238** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **102**
-- `PARTIALLY_SUPPORTED`: **754**
+- `ACCEPTED`: **103**
+- `PARTIALLY_SUPPORTED`: **757**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **349**
+- `UNKNOWN_AFTER_RESEARCH`: **351**
 
 ## Latest claim batch
 
-- `6775:material_named_relationship:a052379ee5b663df` — `PARTIALLY_SUPPORTED`；穎台年報**逐字載**「推出**全球首款**高階 **Mini LED** 微結構超薄**擴散**（板）」（Mini LED 21次、擴散板81次）；**惟「少數能穩定供應」未見逐字對應**。
-- `6862:material_named_relationship:66e629f45464b976` — `PARTIALLY_SUPPORTED`；三集瑞簡報「**TLVR」4 次、「模壓電感」5 次、「電感」24 次、「AMD」1 次**；**惟「NVIDIA」0 次**。
-- `6792:material_named_relationship:5f3aa172418dc877` — `PARTIALLY_SUPPORTED`；詠業ESG「**天線」81 次、「5G」4 次、「低軌」2 次、「衛星」4 次**；**惟「財富／500 強」皆 0 次**。
-- `6756:material_named_relationship:f5fac2b6b5f189a9` — `UNKNOWN_AFTER_RESEARCH`；威鋒ESG「**Lenovo／Dell／Plugable／筆電」皆 0 次**（USB 88次）。
-- `6821:c673f94af60b8752`、`7861:0e6c2ee1cf83ce9e` — `UNKNOWN_AFTER_RESEARCH` ×2；聯寶與貝爾威勒端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-237.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,210 ＝ 條目總數 1,210。
-- Next pending claim by priority: `8046:material_named_relationship:31359cd3d5f2fa10` (南電).
+- 🟢 `8215:identity_changing_event:5f3b48ccbf710c6f` — **`ACCEPTED`**；明基材2022年報設有「**(二)公司沿革**」章節，載「**1998 年07 月 設立達信科技股份有限公司**」（「**達信」16 次、「更名」6 次、「2010」6 次、「集團」28 次**）——**逐項對應**。
+- `8046:material_named_relationship:31359cd3d5f2fa10` — `PARTIALLY_SUPPORTED`；南電年報「**ABF」16 次**；**惟「Ajinomoto／味之素／積層絕緣膜」皆 0 次**。
+- `8049:material_named_relationship:1aa37ff766ae9b3d` — `PARTIALLY_SUPPORTED`；晶采簡報「**工控」5 次**；**惟「歐洲／六成／HMI／人機介面」皆 0 次**。
+- `8147:material_named_relationship:ec58d24269554297` — `PARTIALLY_SUPPORTED`；正淩文件載「**航太/國防(Aerospace)**」（航太2次）；**惟「AS9100／雙重／認證／連接器」皆 0 次**（**文件為智財管理報告書**）。
+- `8080:244f401c29e801b6`、`8111:bb359312a5d1edbc` — `UNKNOWN_AFTER_RESEARCH` ×2；泰霖與立碁端點 **HTTP 404**。
+- ⚠️ 附帶發現：`8111` 之 claim 文本將英文名「**Edison Opto**」歸於立碁，**該英文名實屬艾笛森光電（3591）**——已於紀錄中標示供複核者確認。
+- 證據記錄於 `semantic/author-238.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,216 ＝ 條目總數 1,216。
+- Next pending claim by priority: `6908:export_concentration:fd2c6df51c194b44` (宏碁遊戲).
 
 ## Source access
 
