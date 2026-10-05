@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:23:56Z",
+  "generated_at": "2026-10-05T23:25:46Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -261,17 +261,18 @@
     "author-255",
     "author-256",
     "author-257",
-    "author-258"
+    "author-258",
+    "author-259"
   ],
-  "source_batch_count": 258,
-  "total_unknown": 416,
+  "source_batch_count": 259,
+  "total_unknown": 422,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 195,
-    "other_unclassified": 151,
-    "tls_failure": 15,
+    "no_official_endpoint_found": 199,
+    "other_unclassified": 153,
+    "tls_failure": 16,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 118,
+    "http_404": 121,
     "image_only_or_tiny_text": 18,
     "http_403": 16,
     "connection_failure": 16,
@@ -6360,6 +6361,94 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658520250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2464:material_named_relationship:9e1d2ef998dd5538",
+      "ticker": "2464",
+      "company": "盟立",
+      "claim": "[[台積電]] (主要客戶), [[日月光投控]], 美光 ([[Micron]]).",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2464_111.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2467:material_named_relationship:d2ae3a6f529cd0b0",
+      "ticker": "2467",
+      "company": "志聖",
+      "claim": "主要客戶涵蓋[[台積電]]、[[日月光投控]]、[[矽品]]、[[欣興]]、[[南亞電路板]]、[[友達]]、[[群創]]。",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.csuntech.com/wp-content/uploads/2018/03/2007_%E5%B9%B4%E5%A0%B1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2476:material_named_relationship:2563c63c19951a07",
+      "ticker": "2476",
+      "company": "鉅祥",
+      "claim": "近年成功切入[[Apple]] [[iPhone]]供應鏈，獨家供應[[大立光]] [[VCM]] (音圈馬達) 金屬機殼，為最關鍵成長動能。",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.gshank.com/uploads/images/2026/GS_2026_Shareholder_AnnualReport_CH.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "3167:material_named_relationship:e8863489feb106ed",
+      "ticker": "3167",
+      "company": "大量",
+      "claim": "大量科技 (3167) 為精密清洗及表面處理設備廠，成功打入[[台積電]] [[CoWoS]]供應鏈。",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/316720250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3402:material_named_relationship:5daa2e03baf70358",
+      "ticker": "3402",
+      "company": "漢科",
+      "claim": "於特殊氣體管路工程具有高度技術優勢，為[[台積電]]主要供應商之一。",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/340220250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3485:material_named_relationship:5c47824a1b241bac",
+      "ticker": "3485",
+      "company": "敘豐",
+      "claim": "主要客戶涵蓋[[欣興]]、[[南亞電路板]]等[[ABF 載板]]大廠，受惠[[CoWoS]]先進封裝需求。",
+      "batch_id": "author-259",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/348520250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

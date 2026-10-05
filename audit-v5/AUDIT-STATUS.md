@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 18:04 UTC
+Updated: 2026-10-15 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,339 / 1,399**
-- Remaining author review: **60**
-- Latest batch: **author-258** (6 claims)
+- Author-reviewed: **1,345 / 1,399**
+- Remaining author review: **54**
+- Latest batch: **author-259** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,17 +20,16 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **416**
+- `UNKNOWN_AFTER_RESEARCH`: **422**
 
 ## Latest claim batch
 
-- `2250:material_named_relationship:905ace00ffdd5c7a` — `PARTIALLY_SUPPORTED`；IKKA-KY年報載「IKKA Dongguan was awarded the **annual best supplier of Sumitomo**」（**Sumitomo 7 次、AISIN 25 次、Tier 1 4 次、Toyota 8 次、Nissan 2 次**）；**惟「Honda」0 次**。
-- `4768:material_named_relationship:2a1b1bc0ddbd85ff` — `PARTIALLY_SUPPORTED`；晶呈簡報「**特殊氣體」43 次、「蝕刻」12 次**；**惟「台積／TSMC／聯電／Micron／CVD／微影」皆 0 次**。
-- `4772:material_named_relationship:ea95514bb8419145` — `PARTIALLY_SUPPORTED`；台特化簡報「**矽乙烷」5 次、「60%」4 次**；**惟「台積電／卓越供應商／世界先進／Texas Instruments」皆 0 次**。
-- `4772:material_named_relationship:3a0d22b29d62a4aa` — `PARTIALLY_SUPPORTED`；簡報「**矽乙烷」5 次、「CVD」3 次**；**惟「台積電／2nm／3nm／卓越供應商」皆 0 次**。
-- `1539:a187a02cbe2816a9`、`6585:b1d02f442a3fb4d1` — `UNKNOWN_AFTER_RESEARCH` ×2；巨庭與鼎基端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-258.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,339 ＝ 條目總數 1,339。**覆蓋率 95.71%**。
-- Next pending claim by priority: `2464:material_named_relationship:9e1d2ef998dd5538` (盟立).
+- `2464:material_named_relationship:9e1d2ef998dd5538` — `UNKNOWN_AFTER_RESEARCH`；盟立年報「**台積／TSMC／日月光／Micron／美光」皆 0 次**；**「ASE」8 次全為產品編號之一部分（RBASE08 等）——屬子字串誤配**。
+- `2467:material_named_relationship:d2ae3a6f529cd0b0` — `UNKNOWN_AFTER_RESEARCH`；志聖年報「**台積電／日月光／矽品／欣興／南亞電路板」皆 0 次**（**該年報為2007年版本**）。
+- ⚠️ `2476:2563c63c19951a07` — `UNKNOWN_AFTER_RESEARCH`；鉅祥官方端點 **TLS 憑證信任失敗**。
+- `3167:e8863489feb106ed`、`3402:5daa2e03baf70358`、`3485:5c47824a1b241bac` — `UNKNOWN_AFTER_RESEARCH` ×3；大量／漢科／敘豐端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-259.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,345 ＝ 條目總數 1,345。**覆蓋率 96.14%**。
+- Next pending claim by priority: `4566:material_named_relationship:52a67ed63606906d` (時碩工業).
 
 ## Source access
 

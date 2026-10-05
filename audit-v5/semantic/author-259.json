@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-259",
+  "reviewed_at": "2026-10-05T23:25:32Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (盟立111年度年報; 志聖96年度年報); 鉅祥官方端點TLS失敗; 大量／漢科／敘豐端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "2464:material_named_relationship:9e1d2ef998dd5538",
+      "normalized_claim_hash": "9e1d2ef998dd5538ca3e3fc82685c5fa5be2b49ad32a1d5f6845f4fa0300e3ca",
+      "ticker": "2464",
+      "company": "盟立",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2464_盟立.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] (主要客戶), [[日月光投控]], 美光 ([[Micron]]).",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2464_111.pdf",
+          "title": "盟立自動化股份有限公司（盟立，2464，Mirle Automation）一一一年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取93,199字元）。年報中「**盟立**」出現392次、「客戶」185次、「主要客戶產業」為一節名（「主要客戶」2次，**上下文均為泛稱**，如「物流系統方面緊貼市場需求…隨著**主要客戶**的業務發展前往中國」）。**關鍵發現**：全份年報中「**台積**」「**TSMC**」「**日月光**」「**Micron**」與「**美光**」之出現次數**均為0**；「**ASE**」雖出現8次，**惟經逐筆檢視其上下文均為產品編號之一部分**（如「YDC20; YDC30; YRY10; AD031A; DA031; **R**BASE08」「RIO**BASE**08, **BASE**08; IO**BASE**08; **BASE**04」）——**屬子字串之誤配，並非日月光（ASE）**。"
+        }
+      ],
+      "rationale": "「**[[台積電]]**（主要客戶）、**[[日月光投控]]**、**美光（[[Micron]]）**」未獲確立：所取得之盟立一一一年度年報中「**台積**」「**TSMC**」「**日月光**」「**Micron**」與「**美光**」之出現次數**均為0**；「主要客戶」僅出現2次且**上下文均為泛稱**（「**主要客戶產業**」為一節名；「物流系統方面緊貼市場需求…隨著**主要客戶**的業務發展前往中國」）。**併同發現（子字串之誤配）**：全份年報中「**ASE**」出現8次，**惟經逐筆檢視，其上下文均為產品編號之一部分**（「YDC20; YDC30; YRY10; AD031A; DA031; **R**BASE08」「RIO**BASE**08, **BASE**08; **IO**BASE**08; **BASE**04」），**並非日月光（ASE）**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2467:material_named_relationship:d2ae3a6f529cd0b0",
+      "normalized_claim_hash": "d2ae3a6f529cd0b0b8070d8253c7cbc7b342b5080e4604ddfa6f14cbb5c2e03a",
+      "ticker": "2467",
+      "company": "志聖",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2467_志聖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[台積電]]、[[日月光投控]]、[[矽品]]、[[欣興]]、[[南亞電路板]]、[[友達]]、[[群創]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.csuntech.com/wp-content/uploads/2018/03/2007_%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "志聖工業股份有限公司（志聖，2467，Csun）九十六年度年報",
+          "source_level": 3,
+          "period_binding": "民國96年度（2007年）。**文件版本較舊。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取170,918字元）。年報中「**志聖**」出現166次、「客戶」48次、「半導體」27次、「PCB」55次、「面板」10次，**支持其為半導體／PCB／面板設備業者**。**關鍵發現**：全份年報中「**台積電**」「**日月光**」「**矽品**」「**欣興**」與「**南亞電路板**」之出現次數**均為0**——**未具名該等客戶**；**且該年報為民國96年度（2007年）版本**。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 **[[台積電]]、[[日月光投控]]、[[矽品]]、[[欣興]]、[[南亞電路板]]**」未獲確立：所取得之志聖**民國96年度（2007年）**年報中「**台積電**」「**日月光**」「**矽品**」「**欣興**」與「**南亞電路板**」之出現次數**均為0**，**未具名該等客戶**（該年報之內容以半導體、PCB 與面板之設備業務為主，並未列舉客戶）。**且該年報為2007年版本**，故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由較新年度之年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2476:material_named_relationship:2563c63c19951a07",
+      "normalized_claim_hash": "2563c63c19951a077223a263c5c98c78890be24cb4bf77f5f8e9091dd5e51fe7",
+      "ticker": "2476",
+      "company": "鉅祥",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/2476_鉅祥.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年成功切入[[Apple]] [[iPhone]]供應鏈，獨家供應[[大立光]] [[VCM]] (音圈馬達) 金屬機殼，為最關鍵成長動能。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.gshank.com/uploads/images/2026/GS_2026_Shareholder_AnnualReport_CH.pdf",
+          "title": "鉅祥企業股份有限公司（鉅祥，2476，G-Shank Enterprise）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就鉅祥官方網域所嘗試之股東會年報端點回應 **TLS 憑證信任失敗**（「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」）——**屬 TLS 失敗**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「近年成功切入 **[[Apple]] [[iPhone]]** 供應鏈，獨家供應 **[[大立光]] [[V（CM）]]**」未獲確立：本批次就鉅祥官方網域所嘗試之股東會年報端點**回應 TLS 憑證信任失敗**，未取得可檢視之檔案；故以 UNKNOWN_AFTER_RESEARCH 結案。**建議重試路徑**：改由 MOPS 端點或該公司其他年度之官方文件重查。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3167:material_named_relationship:e8863489feb106ed",
+      "normalized_claim_hash": "e8863489feb106ed0fa6b26732e429006698f22a77a6b1ef2959d474ea61d51f",
+      "ticker": "3167",
+      "company": "大量",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/3167_大量.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大量科技 (3167) 為精密清洗及表面處理設備廠，成功打入[[台積電]] [[CoWoS]]供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/316720250401M001.pdf",
+          "title": "大量科技（3167）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之大量科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得大量科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「大量科技 (3167) 為**精密清洗及表面處理設備**廠，成功打入 **[[台積電]] [[CoWoS]]（供應鏈）**」未獲確立：本批次所嘗試之大量科技 MOPS 端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3402:material_named_relationship:5daa2e03baf70358",
+      "normalized_claim_hash": "5daa2e03baf703582b55e6c9fa605eac96c933d0eb64da7b0ba2a35a6e3c4961",
+      "ticker": "3402",
+      "company": "漢科",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/3402_漢科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "於特殊氣體管路工程具有高度技術優勢，為[[台積電]]主要供應商之一。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/340220250401M001.pdf",
+          "title": "漢科系統（3402）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之漢科系統端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得漢科系統可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「於**特殊氣體管路工程**具有高度技術優勢，為 **[[台積電]] 主要供應商之一**」未獲確立：本批次所嘗試之漢科端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3485:material_named_relationship:5c47824a1b241bac",
+      "normalized_claim_hash": "5c47824a1b241bacf6922d0c22e9495704c1900a08722c6ee30257cc4c1719b5",
+      "ticker": "3485",
+      "company": "敘豐",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/3485_敘豐.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[欣興]]、[[南亞電路板]]等[[ABF 載板]]大廠，受惠[[CoWoS]]先進封裝需求。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/348520250401M001.pdf",
+          "title": "敘豐企業（3485）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之敘豐企業端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得敘豐企業可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 **[[欣興]]**、**[[南亞電路板]]** 等 **[[ABF 載板]]** 大廠，受惠 [[CoWoS]]（需求）」未獲確立：本批次所嘗試之敘豐端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
