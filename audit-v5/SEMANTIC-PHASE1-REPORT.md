@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **172 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), and `author-034` (8).
+Author-reviewed: **180 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), and `author-035` (8).
 
-- ACCEPTED by author: 40
-- PARTIALLY_SUPPORTED: 110
+- ACCEPTED by author: 41
+- PARTIALLY_SUPPORTED: 114
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 18
-- Remaining author queue: 1,227
+- Other allowed author decisions: 21
+- Remaining author queue: 1,219
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -412,6 +412,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-034.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **172 / 1,399**; remaining: **1,227**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 110, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 18. Next pending claim by priority: `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` (中碳).
+
+## Author batch `author-035` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (中碳 1723 ×2, 機光科技 6729, 鉅邁 8435, 昶昕 8438 ×4). Evidence came from directly downloaded and inspected official disclosures: 中碳2025年法人說明會簡報、機光科技公司簡介文件、鉅邁2025年法人說明會簡報、昶昕2024與2026Q2法人說明會簡報。
+- `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` — `ACCEPTED`. 中碳2025年官方簡報第5頁「基本資料」明載「國內唯一 煤化學工廠」，第6頁主要股東名單第1名為中國鋼鐵股份有限公司（29.04%），第7頁並以「上游產業（中鋼、中龍）—中游產業（中鋼碳素）」呈現其產業位置，claim 兩項敘述均獲支持。
+- `1723:objective_ranking_or_market_share:abedfbeca6ee0f1f` — `PARTIALLY_SUPPORTED`. 簡報載「國內唯一 煤化學工廠」與「國內第一家 專業石墨化工廠」，並多處載軟瀝青（6處）、雜酚油（4處）與介相石墨碳微球（6處），後者並載「為24M半固態電池技術唯一驗證合格的負極材料」；惟「寡占」與「綠色金雞母」等修飾語未獲官方文件支持。
+- `6729:objective_ranking_or_market_share:878a1a9ec489e500` — `PARTIALLY_SUPPORTED`. 機光科技公司簡介第1頁載「We are shipping to over 70（國）」，支持行銷逾70國；惟該 PDF 多數頁面為圖形排版、可擷取文字僅第1頁，未擷取到「唯一」或「完全自主研發」字樣，該公司亦無易於取得之官方文字年報可供核對。
+- `8435:objective_ranking_or_market_share:e80d2822023c88a7` — `PARTIALLY_SUPPORTED`. 鉅邁2025年官方簡報第8頁列冷卻水處理系統、廢水處理系統、鍋爐水處理系統、特用水處理劑、RO阻垢劑／殺菌劑與RO水處理系統，第18頁載其為水處理服務商；惟全份簡報「前三大」「市佔」「市占」出現次數均為0，「市佔約20%」未獲支持。
+- `8438:objective_ranking_or_market_share:fc6a98646b04f985` — `PARTIALLY_SUPPORTED`. 昶昕2026Q2官方簡報可擷取文字中「硫酸銅」出現4次、「銅」16次，第11及12頁營業項目列特用化學品與回收廢液；惟「PCB」「市佔」「市占」「80%」「3萬」及「最大」等出現次數均為0，「台灣 PCB 特用化學品龍頭（市佔約80%）」與「東亞最大硫酸銅出口商（年產逾3萬噸）」均未獲支持。
+- `8438:objective_ranking_or_market_share:4d8d631a88512604`、`c76e972ea99e7f8f`、`53bcfea6d2bddac1` — `UNKNOWN_AFTER_RESEARCH`. 昶昕2024與2026Q2官方簡報均未具名任何客戶；「臻鼎」「欣興」「健鼎」「華通」「敬鵬」「PCB」「剝膜」於兩份簡報之出現次數均為0（僅2024年簡報以英文載「Glass substrate etching」1次），故客戶關係未獲確立。
+- Proposed wording is recorded for the partial claims in `semantic/author-035.json`; no issuer report was modified. Independent review remains pending.
+- 來源檢索限制：機光科技簡報為圖形排版 PDF、昶昕簡報文字層稀疏；此為檢索限制之紀錄，未用以推論 claim 真偽。`local-recheck-queue.json` 維持 **15** 筆。
+- Author-reviewed total: **180 / 1,399**; remaining: **1,219**. Outcome counts: ACCEPTED 41, PARTIALLY_SUPPORTED 114, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 21. Next pending claim by priority: `2345:objective_ranking_or_market_share:45533474be4d6591` (智邦).
+
 
 
 

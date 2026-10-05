@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 10:04 UTC
+Updated: 2026-10-06 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,32 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **172 / 1,399**
-- Remaining author review: **1,227**
-- Latest batch: **author-034** (8 claims)
+- Author-reviewed: **180 / 1,399**
+- Remaining author review: **1,219**
+- Latest batch: **author-035** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **40**
-- `PARTIALLY_SUPPORTED`: **110**
+- `ACCEPTED`: **41**
+- `PARTIALLY_SUPPORTED`: **114**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **18**
+- `UNKNOWN_AFTER_RESEARCH`: **21**
 
 ## Latest claim batch
 
-- `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` — `PARTIALLY_SUPPORTED`; 台化2017法說會第4頁載「全球第2大SM」、「全球第3大ABS／苯酚」、「全球第7大芳香烴／PTA／PC」，第5頁沿革支持尼龍／嫘縈／PS／ABS／PP／PC 垂直整合；惟官方未以「台灣最大」描述該四項產品。
-- `1326:objective_ranking_or_market_share:f1c330ef2220ac46` — `PARTIALLY_SUPPORTED`; 全球排名支持其領先地位；惟「台塑集團四大核心旗艦成員」與「全台產能最大」字樣未載。
-- `1326:objective_ranking_or_market_share:ab200ad4f1ede1d8` — `UNKNOWN_AFTER_RESEARCH`; 台化簡報第6頁僅列投資架構，全份未載原料供應來源或台塑化為其供料中心。
-- `1708:objective_ranking_or_market_share:1769e438bc571e76` — `PARTIALLY_SUPPORTED`; 東鹼2025英文年報載主要產品線 Potassium sulfate 與 Soda ash，並列 Liquid calcium chloride、Hydrochloric Acid、Baking Soda；惟「the only」出現0次，「唯一」未獲支持。
-- `1714:objective_ranking_or_market_share:849ab16abec60b83` — `PARTIALLY_SUPPORTED`; 和桐110年報第10頁載「作為世界界面活性劑原料工業的龍頭企業」；惟「亞洲最大」0次、正烷屬烴「龍頭」未載。
-- `1714:objective_ranking_or_market_share:adfae1c40f1b5b8e` — `PARTIALLY_SUPPORTED`; 年報載「主要生產原料－煤油均係向台灣中油股份有限公司購入」；惟「純苯」出現0次。
-- `1714:objective_ranking_or_market_share:1ec145cda72231d8` — `PARTIALLY_SUPPORTED`; 兩岸 LAB/NP 佈局 supported；「全亞洲產量最大」「絕對規模經濟與定價優勢」未載。
-- `1714:objective_ranking_or_market_share:54021868aa7d2922` — `PARTIALLY_SUPPORTED`; 年報第21頁載「供給下游清潔劑產品製造商如P&G、Unilever等」；惟花王／獅王0次、市佔數字未載。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-034.json`。未修改發行人報告。
-- Next pending claim by priority: `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` (中碳).
+- `1723:objective_ranking_or_market_share:b3cf265f3bf03e83` — `ACCEPTED`; 中碳2025法說會第5頁載「國內唯一 煤化學工廠」「國內第一家 專業石墨化工廠」，第6頁主要股東第1名中國鋼鐵29.04%，第7頁載產業位置為煤化學中游。
+- `1723:objective_ranking_or_market_share:abedfbeca6ee0f1f` — `PARTIALLY_SUPPORTED`; 軟瀝青6處、雜酚油4處、介相石墨碳微球6處並載其為24M半固態電池唯一驗證合格負極材料；惟「寡占」「綠色金雞母」未載。
+- `6729:objective_ranking_or_market_share:878a1a9ec489e500` — `PARTIALLY_SUPPORTED`; 機光公司簡介第1頁載「We are shipping to over 70（國）」支持行銷逾70國；惟檔案多為圖形排版、僅第1頁可擷取文字，「台灣唯一完全自主研發」未獲支持。
+- `8435:objective_ranking_or_market_share:e80d2822023c88a7` — `PARTIALLY_SUPPORTED`; 鉅邁2025法說會第8頁列冷卻水／廢水／鍋爐水／RO等服務項目；惟「前三大」「市佔」出現0次，20%未獲支持。
+- `8438:objective_ranking_or_market_share:fc6a98646b04f985` — `PARTIALLY_SUPPORTED`; 昶昕簡報中「硫酸銅」4次、「銅」16次；惟「PCB」0次、「市佔」0次、「80%」0次、「3萬」0次。
+- `8438:objective_ranking_or_market_share:4d8d631a88512604`、`c76e972ea99e7f8f`、`53bcfea6d2bddac1` — `UNKNOWN_AFTER_RESEARCH` ×3; 昶昕官方簡報未具名任何客戶，臻鼎／欣興／健鼎／華通／敬鵬出現次數皆為0。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-035.json`。未修改發行人報告。
+- Next pending claim by priority: `2345:objective_ranking_or_market_share:45533474be4d6591` (智邦).
 
 ## Source access
 
