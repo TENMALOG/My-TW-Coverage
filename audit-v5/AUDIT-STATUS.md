@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 02:04 UTC
+Updated: 2026-10-14 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,25 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,108 / 1,399**
-- Remaining author review: **291**
-- Latest batch: **author-218** (2 claims)
+- Author-reviewed: **1,113 / 1,399**
+- Remaining author review: **286**
+- Latest batch: **author-219** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **707**
+- `PARTIALLY_SUPPORTED`: **708**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **298**
+- `UNKNOWN_AFTER_RESEARCH`: **302**
 
 ## Latest claim batch
 
-- `2367:material_named_relationship:c1af72654a19451f` — `PARTIALLY_SUPPORTED`；燿華年報「**低軌衛星」2 次、「車用」2 次**（屬產業趨勢敘述）；**惟「Apple／電池板／行動裝置」皆 0 次**，且「**42%」實為「現金再投資比率」，非營收占比**。
-- `3665:material_named_relationship:d75e95843aa246a6` — `UNKNOWN_AFTER_RESEARCH`；貿聯-KY端點 **HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-218.json`（2 筆）。未修改發行人報告。
+- `3008:material_named_relationship:bf7de825bb25477d` — `PARTIALLY_SUPPORTED`；大立光年報**逐字載**「開發新式 **7P** 40M AF mobile phone lens」「開發新式**8P** 108M AF mobile phone lens」；**惟「9P／Apple／iPhone／核心供應商」皆 0 次**。
+- `3019:material_named_relationship:e944b5a68d31bb6d`、`3031:82aebc9836908111`、`3031:223c67df296bbf5e` — `UNKNOWN_AFTER_RESEARCH` ×3；亞光與佰鴻端點 **HTTP 404**。
+- `2429:identity_changing_event:6b2dd808dcb3b691` — `UNKNOWN_AFTER_RESEARCH`；銘旺科文件為**合併財務報告（非年報）**，「**百容／Pal Wonn／Abonmax／更名」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-219.json`（5 筆）。未修改發行人報告。
 - Next pending claim by priority: `2383:material_named_relationship:76a1350152921c96` (台光電).
 
 ## Source access

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:23:19Z",
+  "generated_at": "2026-10-05T22:24:13Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -221,17 +221,18 @@
     "author-215",
     "author-216",
     "author-217",
-    "author-218"
+    "author-218",
+    "author-219"
   ],
-  "source_batch_count": 218,
-  "total_unknown": 298,
+  "source_batch_count": 219,
+  "total_unknown": 302,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 128,
-    "other_unclassified": 115,
+    "no_official_endpoint_found": 131,
+    "other_unclassified": 116,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 38,
-    "http_404": 60,
+    "http_404": 63,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
@@ -4593,6 +4594,65 @@
       ],
       "attempted_sources": [
         "https://mops.twse.com.tw/nas/STR/366520240826M004.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3019:material_named_relationship:e944b5a68d31bb6d",
+      "ticker": "3019",
+      "company": "亞光",
+      "claim": "核心產品：(1) 車載鏡頭 — 打入 [[Tesla]] 純視覺車載鏡頭供應鏈，亦供貨 [[Bosch]]、[[Continental]] 等 Tier 1；",
+      "batch_id": "author-219",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/301920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3031:material_named_relationship:82aebc9836908111",
+      "ticker": "3031",
+      "company": "佰鴻",
+      "claim": "(3) 航太照明 — 成功打入 [[Boeing]] 波音供應鏈，供應飛機機艙照明模組。",
+      "batch_id": "author-219",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3031:material_named_relationship:223c67df296bbf5e",
+      "ticker": "3031",
+      "company": "佰鴻",
+      "claim": "[[晶元光電]] (Ennostar) — LED 晶粒主要供應商",
+      "batch_id": "author-219",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2429:identity_changing_event:6b2dd808dcb3b691",
+      "ticker": "2429",
+      "company": "銘旺科",
+      "claim": "公司前身為百容電子 (Pal Wonn)，2017 年更名為 Abonmax。",
+      "batch_id": "author-219",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.abonmax.com.tw/download/1637825296.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

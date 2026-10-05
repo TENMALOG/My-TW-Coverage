@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-219",
+  "reviewed_at": "2026-10-05T22:24:01Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大立光108年度年報; 銘旺科109年度合併財務報告); 亞光與佰鴻端點皆HTTP 404，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3008:material_named_relationship:bf7de825bb25477d",
+      "normalized_claim_hash": "bf7de825bb25477d04f4a96d1bf966cdd0809a2ffbbb60434d29d35530dd2230",
+      "ticker": "3008",
+      "company": "大立光",
+      "path": "Pilot_Reports/Electronic Components/3008_大立光.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要產品線涵蓋：(1) 高階手機鏡頭 — 7P/8P/9P 規格鏡組，為 [[Apple]] iPhone 系列核心供應商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.largan.com.tw/tw/tool-download/page_size/file/166/2019-%e5%b9%b4%e5%a0%b1?note=",
+          "title": "大立光電股份有限公司（大立光，3008，Largan Precision）一○八年度年報",
+          "source_level": 3,
+          "period_binding": "民國108年度（2019年）。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取219,228字元）。年報首頁載「股票代號：3008」。文中載「開發新式 **7P** 40M AF mobile phone lens」「開發新式**8P** 108M AF mobile phone lens」（「7P」1次、「8P」1次、「手機鏡頭」4次），**支持其高階手機鏡頭鏡組之產品線**。**關鍵發現**：全份年報中「**Apple**」「**蘋果**」「**iPhone**」與「核心供應商」之出現次數**均為0**；「9P」亦為**0**。"
+        }
+      ],
+      "rationale": "「主要產品線涵蓋：(1) 高階手機鏡頭 — **7P／8P** 規格鏡組」獲發行人年報**逐字支持**：「開發新式 **7P** 40M AF mobile phone lens」「開發新式**8P** 108M AF mobile phone lens」（「7P」1次、「8P」1次、「手機鏡頭」4次）。**惟兩項陳述未獲支持**：(1)「**9P**」——出現次數為**0**；(2)「為 [[Apple]] **iPhone 系列核心供應商**」——「**Apple**」「**蘋果**」「**iPhone**」與「核心供應商」之出現次數**均為0**，**未具名該客戶**。故部分成立。",
+      "proposed_text": "大立光電 (3008，Largan Precision) 之主要產品線涵蓋高階手機鏡頭，包含 7P、8P 等規格鏡組。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3019:material_named_relationship:e944b5a68d31bb6d",
+      "normalized_claim_hash": "e944b5a68d31bb6dd077a65f91a53068352b05b6a579eacb4351d7799de86c65",
+      "ticker": "3019",
+      "company": "亞光",
+      "path": "Pilot_Reports/Electronic Components/3019_亞光.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心產品：(1) 車載鏡頭 — 打入 [[Tesla]] 純視覺車載鏡頭供應鏈，亦供貨 [[Bosch]]、[[Continental]] 等 Tier 1；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/301920250401M001.pdf",
+          "title": "亞洲光學股份有限公司（亞光，3019，Asia Optical）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載亞光簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得亞光可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) 車載鏡頭 — 打入 [[Tesla]] 純視覺車載鏡頭供應鏈，亦供貨 [[Bosch]]、[[Continental]] 等 Tier 1」未獲確立：本批次自公開資訊觀測站端點下載亞光簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3031:material_named_relationship:82aebc9836908111",
+      "normalized_claim_hash": "82aebc983690811138b89697740328bf1bf9a093d04da62b76ca5009cb06e7b1",
+      "ticker": "3031",
+      "company": "佰鴻",
+      "path": "Pilot_Reports/Electronic Components/3031_佰鴻.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 航太照明 — 成功打入 [[Boeing]] 波音供應鏈，供應飛機機艙照明模組。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf",
+          "title": "佰鴻工業股份有限公司（佰鴻，3031，Bright LED）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載佰鴻簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得佰鴻可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(3) 航太照明 — 成功打入 [[Boeing]] 波音供應鏈，供應飛機機艙照明模組」未獲確立：本批次自公開資訊觀測站端點下載佰鴻簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3031:material_named_relationship:223c67df296bbf5e",
+      "normalized_claim_hash": "223c67df296bbf5efca8a41446e0c84a7012ae93c668e1c7a6dee02e2e0db755",
+      "ticker": "3031",
+      "company": "佰鴻",
+      "path": "Pilot_Reports/Electronic Components/3031_佰鴻.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[晶元光電]] (Ennostar) — LED 晶粒主要供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/303120250401M001.pdf",
+          "title": "佰鴻工業股份有限公司（佰鴻，3031，Bright LED）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載佰鴻簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得佰鴻可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[晶元光電]]（Ennostar）— **LED 晶粒主要供應商**」未獲確立：同上，佰鴻簡報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2429:identity_changing_event:6b2dd808dcb3b691",
+      "normalized_claim_hash": "6b2dd808dcb3b691a43e829a01e5500b04b83050d6f9ef0d6186aade92ca1653",
+      "ticker": "2429",
+      "company": "銘旺科",
+      "path": "Pilot_Reports/Electronic Components/2429_銘旺科.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司前身為百容電子 (Pal Wonn)，2017 年更名為 Abonmax。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.abonmax.com.tw/download/1637825296.pdf",
+          "title": "銘旺科技股份有限公司（銘旺科，2429，Abonmax）民國109年度及108年度合併財務報告",
+          "source_level": 3,
+          "period_binding": "民國109年度及108年度。**文件性質為合併財務報告，非年報。**",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取58,795字元）。**文件性質為合併財務報告暨會計師查核報告**；封面載「股票代碼：**2429** **銘旺科技股份有限公司**及子公司」（「銘旺」79次）。**關鍵發現**：全份文件中「**百容**」「**Pal**」「**Wonn**」「**Abonmax**」與「**更名**」「前身」之出現次數**均為0**——未載公司沿革或更名事件。"
+        }
+      ],
+      "rationale": "「公司前身為**百容電子（Pal Wonn）**，**2017 年**更名為 **Abonmax**」未獲確立：本批次所取得之銘旺科文件**性質為合併財務報告（民國109年度及108年度，非年報）**，其中「**百容**」「**Pal**」「**Wonn**」「**Abonmax**」與「**更名**」「前身」之出現次數**均為0**，**未載公司沿革或更名事件**；故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
