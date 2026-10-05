@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-080",
+  "reviewed_at": "2026-10-05T19:15:48Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (展碁國際公司文件; 長華2018年度年報; 世紀鋼2025年法人說明會簡報; 洋基工程2026年法人說明會簡報); 泰創工程之官方文件端點未能查得，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6776:objective_ranking_or_market_share:59f0a1faacffbf5e",
+      "normalized_claim_hash": "59f0a1faacffbf5e1e9172b448e658dffbde307e46c593e46f42880610be1883",
+      "ticker": "6776",
+      "company": "展碁國際",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/6776_展碁國際.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 應用軟體 — [[Adobe]]、[[Microsoft]] 等商用軟體授權分銷，為台灣最大軟體通路商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.weblink.com.tw/Upload/202412/investor_2024120415133908.pdf",
+          "title": "展碁國際股份有限公司（展碁國際，6776，Weblink International）公司文件（2024-12）",
+          "source_level": 3,
+          "period_binding": "文件刊載於2024年12月；所載業務沿革含2020年Adobe代理。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「(4) 於2020年9月取得**代理銷售 Adobe 產品**，於12月份開始銷售」「**代理 Adobe 全系列產品**」與「(6) 展碁國際為 **LG 在台最大品牌代理商**」（「軟體」50次、「通路商」13次、「授權」10次、「Adobe」3次、「Microsoft」1次），支持其從事商用軟體授權分銷。全份文件中「最大」8次之上下文包含「LG 在台**最大**品牌代理商」「仍是新冠狀病毒影響經濟景氣**最大**變數」等，**未見「台灣最大軟體通路商」之表述**。"
+        }
+      ],
+      "rationale": "「應用軟體 — Adobe、Microsoft 等商用軟體授權分銷」獲發行人文件支持：文件載「於2020年9月取得**代理銷售 Adobe 產品**」「**代理 Adobe 全系列產品**」，並見「Microsoft」1次、「軟體」50次、「授權」10次、「通路商」13次，支持其從事商用軟體授權分銷業務。惟「為**台灣最大軟體通路商**」未獲支持：全份文件中「最大」8次之上下文包含「**LG 在台最大品牌代理商**」「仍是新冠狀病毒影響經濟景氣**最大**變數」等，未見「台灣最大軟體通路商」之表述（該「最大」係指其 LG 品牌代理地位）。故部分成立。",
+      "proposed_text": "展碁國際 (6776，Weblink International) 從事商用軟體授權分銷（代理 Adobe 全系列產品等），並為 LG 在台最大品牌代理商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8070:objective_ranking_or_market_share:13e7c6a3959a27bd",
+      "normalized_claim_hash": "13e7c6a3959a27bd51186c92653646c48277fd76ea9a2d57d933c77907336d19",
+      "ticker": "8070",
+      "company": "長華",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/8070_長華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**長華電材** ([[住友培科]]封膠樹脂代理，國內市佔 67%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cwei.com.tw/files/downloads/year-reports/tw/2018.pdf",
+          "title": "長華電材股份有限公司（長華，8070）2018 年度年報",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國105至107年度。",
+          "accessed_at": "2026-10-08",
+          "note": "同批已檢視之長華2018年度年報：載其「整併日商**住友**導線架業務…成為全球第三大導線架廠」，並見「住友」7次、「封膠」19次、「EMC」2次，支持其代理封膠樹脂業務。全份年報中「**67%**」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%），**均非國內市占率**；「市佔」5次之上下文均為台灣半導體產業整體。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「長華電材（住友培科封膠樹脂代理，國內市佔 67%）」）。其代理住友培科封膠樹脂業務獲年報支持（「住友」7次、「封膠」19次、「EMC」2次）；惟「國內市佔 **67%**」未獲支持——全份年報中「67%」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%），**均非國內市占率**；「市佔」5次之上下文均為台灣半導體產業整體。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2072:objective_ranking_or_market_share:033b7b8eb52cfe3b",
+      "normalized_claim_hash": "033b7b8eb52cfe3bf0fb0bb310a5bbbbf04483433956600074f0f2dfce2f61bf",
+      "ticker": "2072",
+      "company": "世紀風電",
+      "path": "Pilot_Reports/Engineering & Construction/2072_世紀風電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[世紀風電]]為[[世紀鋼鐵結構]]（9958）旗下子公司，專營離岸風電水下基礎結構之製造與安裝，為台灣本土製造量能最大之水下基礎供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/995820250826M001.pdf",
+          "title": "世紀鋼鐵結構股份有限公司（世紀鋼，9958）法人說明會簡報（2025-08-26）",
+          "source_level": 3,
+          "period_binding": "2025年8月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「**世紀風電**」「**世紀風電-台北港**」「**水下基礎**基樁Section製造」「水下基礎腿管製造」與「得天獨厚條件：專用深水港、廣袤製造及儲存區因應水下基礎大型化」（「水下基礎」17次、「世紀風電」4次），支持世紀風電為其集團之離岸風電水下基礎業務主體。全份簡報中「本土」與「量能最大」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「世紀風電為世紀鋼鐵結構（9958）旗下子公司，專營離岸風電水下基礎結構之製造與安裝」獲**母集團官方簡報**支持：世紀鋼2025年官方簡報載「**世紀風電**」「**世紀風電-台北港**」「**水下基礎**基樁Section製造」「水下基礎腿管製造」與「得天獨厚條件：專用深水港、廣袤製造及儲存區因應水下基礎大型化」（「水下基礎」17次、「世紀風電」4次），支持集團之水下基礎業務與世紀風電之角色。惟「為**台灣本土製造量能最大**之水下基礎供應商」未獲支持：全份簡報中「本土」與「量能最大」出現次數均為0。故部分成立。",
+      "proposed_text": "世紀風電 (2072) 為世紀鋼鐵結構 (9958) 集團旗下公司，從事離岸風電水下基礎結構（基樁、腿管）之製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6691:objective_ranking_or_market_share:4a06f569d516bc7a",
+      "normalized_claim_hash": "4a06f569d516bc7a989c8d0704dc0bda204d3e56a9a9c1cf6b93491ec3082dd4",
+      "ticker": "6691",
+      "company": "洋基工程",
+      "path": "Pilot_Reports/Engineering & Construction/6691_洋基工程.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]為最大單一客戶，約佔四成營收。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/669120260310M001.pdf",
+          "title": "洋基工程股份有限公司（洋基工程，6691）法人說明會簡報（2026-03-10）",
+          "source_level": 3,
+          "period_binding": "2026年3月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取8,390字元）。簡報內容為營運與財務概況，其中「客戶」出現2次且均為通稱（如「客戶持續擴廠」「客戶分散佈局」）。全份簡報中「台積電」「ASML」與「最大客戶」之出現次數均為0；「40%」2次之上下文為「**0.40%**」（財務比率），非營收占比。"
+        }
+      ],
+      "rationale": "「台積電為最大單一客戶，約佔四成營收」未獲確立：洋基工程2026年官方簡報中「台積電」與「最大客戶」出現次數均為0（「客戶」2次均為通稱），「40%」2次之上下文為「**0.40%**」（財務比率）而非營收占比。因該 claim 之實質內容為具名客戶身分及客戶集中度，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6691:objective_ranking_or_market_share:d5272625e216200f",
+      "normalized_claim_hash": "d5272625e216200fbaa531b9ff93116e9a06b0087f79ac0b256087b7593d4540",
+      "ticker": "6691",
+      "company": "洋基工程",
+      "path": "Pilot_Reports/Engineering & Construction/6691_洋基工程.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]（最大客戶，約佔營收40%）、[[ASML]]（林口廠區機電工程）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/669120260310M001.pdf",
+          "title": "洋基工程股份有限公司（洋基工程，6691）法人說明會簡報（2026-03-10）",
+          "source_level": 3,
+          "period_binding": "2026年3月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取8,390字元）。簡報內容為營運與財務概況，其中「客戶」出現2次且均為通稱（如「客戶持續擴廠」「客戶分散佈局」）。全份簡報中「台積電」「ASML」與「最大客戶」之出現次數均為0；「40%」2次之上下文為「**0.40%**」（財務比率），非營收占比。"
+        }
+      ],
+      "rationale": "「台積電（最大客戶，約佔營收40%）、ASML（林口廠區機電工程）」未獲確立：查閱之洋基工程2026年官方簡報中「台積電」「ASML」與「最大客戶」出現次數均為0，未具名任何客戶或工程專案。因該 claim 之實質內容為具名客戶與專案身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6750:objective_ranking_or_market_share:40044574fe259065",
+      "normalized_claim_hash": "40044574fe2590651a4a794b82af73770941b942be4432a508e4be0334794ad2",
+      "ticker": "6750",
+      "company": "泰創工程",
+      "path": "Pilot_Reports/Engineering & Construction/6750_泰創工程.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[晶碩光學]]（越南無塵室第一期工程）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tech-top-eng.com/service/",
+          "title": "泰創工程股份有限公司（泰創工程，6750，Tech-Top Engineering）官方網站（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就泰創工程嘗試取得可檢視之官方文件：搜尋結果所見為其官方網站之服務與工程案例頁（如「無塵室統包工程｜半導體×AI資料中心×高科技廠房EPC專業服務」與「3F新建100K無塵室工程」），未查得可下載之年報或法人說明會簡報端點。因未取得可檢視之發行人正式文件，依本審核之證據政策，官網行銷文字不得作為證據。"
+        }
+      ],
+      "rationale": "「晶碩光學（越南無塵室第一期工程）」未獲確立：本批次搜尋泰創工程所得均為其官方網站之服務與工程案例頁，未查得可下載之年報或法人說明會簡報端點；因未取得可檢視之發行人正式文件，該具名客戶與工程專案關係既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

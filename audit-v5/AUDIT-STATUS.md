@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 07:04 UTC
+Updated: 2026-10-08 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **448 / 1,399**
-- Remaining author review: **951**
-- Latest batch: **author-079** (7 claims)
+- Author-reviewed: **454 / 1,399**
+- Remaining author review: **945**
+- Latest batch: **author-080** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **69**
-- `PARTIALLY_SUPPORTED`: **292**
+- `PARTIALLY_SUPPORTED`: **295**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **83**
+- `UNKNOWN_AFTER_RESEARCH`: **86**
 
 ## Latest claim batch
 
-- `3360:objective_ranking_or_market_share:1e5c4a342b962d2f` — `PARTIALLY_SUPPORTED`；深圳證券交易所公開文件載「發行人向**尚立（香港）**採購的 **CMOS 圖像傳感器**價格係由影石創新與**日本索尼（Sony）**…協商確定…並直接與日本索尼（Sony）的**代理（商）**」，支持其處於 Sony CIS 供應／代理環節；惟「最大供應商」未載（本件為第三人之公開文件）。
-- `3483:objective_ranking_or_market_share:eb582bc6e017b55f` — `ACCEPTED`；力致2025簡報「我們的優勢」載「**筆電風扇市佔率最高**」（散熱10次、風扇7次）。
-- `3702:objective_ranking_or_market_share:c5f8ff6dd3f3b9ef` — `PARTIALLY_SUPPORTED`；大聯大2022年報「世平」35次、「WPI」18次；惟「最大子公司」0次。
-- `5434:objective_ranking_or_market_share:a062e5f5b5b17bbb` — `PARTIALLY_SUPPORTED`；崇越113年報光阻15次、矽晶圓14次、先進製程12次；惟「最大客戶」0次。
-- `6227:objective_ranking_or_market_share:43389475739d47d9` — `PARTIALLY_SUPPORTED`；茂綸年報Macnica 22次、代理106次、NVIDIA 4次、Renesas 4次；惟「日本第一大」0次。
-- `8070:objective_ranking_or_market_share:db178e56e65db8b1`、`ab0adc7ddd6d83f3` — `PARTIALLY_SUPPORTED` ×2；長華2018年報載「整併日商住友導線架業務…成為**全球第三大導線架廠**」（導線架46次、封膠19次、住友7次、EMC 2次）；惟「51%」為**員工高中學歷比率**、「28%」為「8,028%」之子字串、「33%」為持股4.33%、「67%」為**董事出席率**，均非市場或營收數字；「市佔」5次均指台灣半導體產業整體。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-079.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` (展碁國際).
+- `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` — `PARTIALLY_SUPPORTED`；展碁文件載「2020年9月取得**代理銷售 Adobe 產品**」「**代理 Adobe 全系列產品**」（軟體50次、授權10次）；惟「最大」8次為「**LG 在台最大品牌代理商**」等，未見「台灣最大軟體通路商」。
+- `8070:objective_ranking_or_market_share:13e7c6a3959a27bd` — `PARTIALLY_SUPPORTED`；同長華年報，代理住友培科封膠樹脂成立（住友7次、封膠19次）；惟「67%」3次為**董事出席率**與法人股東持股比例，非國內市占率。
+- `2072:objective_ranking_or_market_share:033b7b8eb52cfe3b` — `PARTIALLY_SUPPORTED`；世紀鋼2025簡報載「**世紀風電**」「**世紀風電-台北港**」「**水下基礎**基樁Section製造」（水下基礎17次、世紀風電4次）；惟「本土」「量能最大」皆0次。
+- `6691:objective_ranking_or_market_share:4a06f569d516bc7a`、`d5272625e216200f` — `UNKNOWN_AFTER_RESEARCH` ×2；洋基工程2026簡報「台積電」「ASML」「最大客戶」皆0次，且「40%」2次之上下文為「**0.40%**」。
+- `6750:objective_ranking_or_market_share:40044574fe259065` — `UNKNOWN_AFTER_RESEARCH`；泰創工程未查得可下載之年報或法說會端點，僅官網服務與案例頁。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-080.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6873:objective_ranking_or_market_share:8e8bea538366ff4d` (泓德能源).
 
 ## Source access
 

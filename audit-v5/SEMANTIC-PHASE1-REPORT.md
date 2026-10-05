@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **448 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), and `author-079` (7).
+Author-reviewed: **454 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), and `author-080` (6).
 
 - ACCEPTED by author: 69
-- PARTIALLY_SUPPORTED: 292
+- PARTIALLY_SUPPORTED: 295
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 83
-- Remaining author queue: 951
+- Other allowed author decisions: 86
+- Remaining author queue: 945
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -935,6 +935,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **83 筆**。
 - Author-reviewed total: **448 / 1,399**; remaining: **951**. Outcome counts: ACCEPTED 69, PARTIALLY_SUPPORTED 292, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 83. Next pending claim by priority: `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` (展碁國際).
+
+## Author batch `author-080` — 2026-10-08
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (展碁國際 6776, 長華 8070, 世紀風電 2072, 洋基工程 6691 ×2, 泰創工程 6750). Evidence came from directly downloaded and inspected official disclosures: 展碁國際公司文件、長華2018年度年報、世紀鋼2025年法人說明會簡報、洋基工程2026年法人說明會簡報。
+- `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` — `PARTIALLY_SUPPORTED`. 展碁文件載「於2020年9月取得**代理銷售 Adobe 產品**」「**代理 Adobe 全系列產品**」並見「Microsoft」1次、「軟體」50次、「授權」10次，支持其商用軟體授權分銷業務；惟「為**台灣最大軟體通路商**」未獲支持——全份文件中「最大」8次之上下文包含「**LG 在台最大品牌代理商**」「仍是新冠狀病毒影響經濟景氣**最大**變數」等。
+- `8070:objective_ranking_or_market_share:13e7c6a3959a27bd` — `PARTIALLY_SUPPORTED`. 本 claim 為長華同一事實之條目表述（「住友培科封膠樹脂代理，國內市佔67%」）。其代理封膠樹脂業務獲年報支持（「住友」7次、「封膠」19次）；惟「67%」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%），**非國內市占率**。
+- `2072:objective_ranking_or_market_share:033b7b8eb52cfe3b` — `PARTIALLY_SUPPORTED`. 世紀鋼2025年官方簡報載「**世紀風電**」「**世紀風電-台北港**」「**水下基礎**基樁Section製造」「水下基礎腿管製造」與「得天獨厚條件：專用深水港、廣袤製造及儲存區因應水下基礎大型化」（「水下基礎」17次、「世紀風電」4次），支持世紀風電為集團水下基礎業務主體；惟「為**台灣本土製造量能最大**之水下基礎供應商」未獲支持（「本土」與「量能最大」均為0次）。
+- `6691:objective_ranking_or_market_share:4a06f569d516bc7a` 與 `d5272625e216200f` — `UNKNOWN_AFTER_RESEARCH`. 洋基工程2026年官方簡報中「台積電」「ASML」與「最大客戶」出現次數均為0（「客戶」2次均為通稱），且「40%」2次之上下文為「**0.40%**」之財務比率而非營收占比，故具名客戶身分及客戶集中度未獲確立，依一致性規則結為 UNKNOWN。
+- `6750:objective_ranking_or_market_share:40044574fe259065` — `UNKNOWN_AFTER_RESEARCH`. 泰創工程搜尋所得均為其官方網站之服務與工程案例頁，未查得可下載之年報或法人說明會簡報端點，故其與晶碩光學之越南無塵室工程關係未獲確立。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **86 筆**。
+- Author-reviewed total: **454 / 1,399**; remaining: **945**. Outcome counts: ACCEPTED 69, PARTIALLY_SUPPORTED 295, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 86. Next pending claim by priority: `6873:objective_ranking_or_market_share:8e8bea538366ff4d` (泓德能源).
+
 
 
 
