@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-082",
+  "reviewed_at": "2026-10-05T19:19:53Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台數科公司文件; 必應111年度年報; 愛爾達官方公司文件; 大武山114年度年報; 超秦114年度營業報告書); 必應年報之文字層為亂碼，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6464:objective_ranking_or_market_share:7ee6bae723c03229",
+      "normalized_claim_hash": "7ee6bae723c03229ff7aa8e514d94a0573a925902ad8075b84044b856666d3d3",
+      "ticker": "6464",
+      "company": "台數科",
+      "path": "Pilot_Reports/Entertainment/6464_台數科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣數位光訊科技 (6464，台數科/TDC) 為台灣中部最大的有線電視多系統營運商 (MSO)，服務區域涵蓋苗栗、台中、南投、彰化、雲林及嘉義等縣市，約 30 萬家庭訂戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.topmso.com.tw/assets/uploads/shareholderinformation/shareholderFile62b03cc674a1a.pdf",
+          "title": "台灣數位光訊科技股份有限公司（台數科，6464，TDC／top MSO）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載年度請見封面；內容含營運範圍說明。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「（簡）稱『台數科』，英文簡稱『top』》為台灣地區**有線電視多系統經營者（Multiple System Operator, MSO）**，主要係提供有線電視節目播送、安裝、廣告、頻道出（租）及付費頻道等有線電視相關服務，另提供寬頻上網、市內網路及電路出租等（服務）」，並載「（納）入嘉義台南有線電視營運區，本集團光纖網路覆蓋（…）」（「有線電視」9次、「MSO」1次、「苗栗」1次、「多系統」1次），支持其為有線電視多系統經營者 (MSO)。全份文件中「中部最大」「30萬」「訂戶」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為有線電視多系統營運商 (MSO)」獲發行人文件支持：文件載「（簡）稱『台數科』…為台灣地區**有線電視多系統經營者（Multiple System Operator, MSO）**，主要係提供有線電視節目播送、安裝、廣告、頻道出（租）及付費頻道等有線電視相關服務」（「有線電視」9次、「MSO」1次、「多系統」1次）。惟多項陳述未獲支持：(1)「為台灣**中部最大**的有線電視多系統營運商」——「中部最大」出現次數為0；(2)「服務區域涵蓋苗栗、台中、南投、彰化、雲林及嘉義等縣市，約 **30 萬家庭訂戶**」——「30萬」與「訂戶」出現次數均為0（文件中「苗栗」1次、「嘉義台南」等僅見於營運區之片段敘述）。故部分成立。",
+      "proposed_text": "台灣數位光訊科技 (6464，台數科／top MSO) 為台灣地區有線電視多系統經營者，提供有線電視節目播送、寬頻上網及電路出租等服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6625:objective_ranking_or_market_share:2ffa2be8731ab449",
+      "normalized_claim_hash": "2ffa2be8731ab449bc833c99dd33f41ee830851453fefd36ec1e1daeb7cfc04e",
+      "ticker": "6625",
+      "company": "必應",
+      "path": "Pilot_Reports/Entertainment/6625_必應.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "必應創造 (6625，B'IN LIVE) 為台灣規模最大的演唱會與大型展演活動製作團隊，2014 年自唱片集團[[相信音樂]]獨立設立。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.bin-live.com/uploads/investors/230605-111%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1-1112-1.pdf",
+          "title": "必應創造股份有限公司（必應，6625，B'IN LIVE）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視，惟該 PDF 之**文字層呈現亂碼**（第1頁顯示「΋΋΋ԃࡋ」「Ϧ໒ၗૻ」等非可讀字元，與台光電2023年報、上洋114年報同型之檢索限制；全檔擷取222頁）。以關鍵字檢索「演唱會」「演出」「音樂」「展演」「相信」「最大」「規模」之出現次數均為0，係因文字層無法正確擷取所致，非文件未載。"
+        }
+      ],
+      "rationale": "「為台灣規模最大的演唱會與大型展演活動製作團隊，2014年自唱片集團相信音樂獨立設立」未獲確立：必應111年度年報之 PDF **文字層呈現亂碼**（第1頁顯示「΋΋΋ԃࡋ」等非可讀字元，與台光電2023年報、上洋114年報同型之檢索限制），無法判讀其業務規模敘述或與相信音樂之沿革。故該等陳述既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8487:objective_ranking_or_market_share:14898f3649f7c437",
+      "normalized_claim_hash": "14898f3649f7c43787d01f326373e0aba50311d69eee09db76678b36978ee890",
+      "ticker": "8487",
+      "company": "愛爾達-創",
+      "path": "Pilot_Reports/Entertainment/8487_愛爾達-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "愛爾達科技 (8487，ELTA Technology) 為台灣第一家以體育賽事轉播為核心的新媒體平台。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://elta.com.tw/about.pdf",
+          "title": "愛爾達科技股份有限公司（愛爾達-創，8487，ELTA Technology）官方公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載成果之期間請見文件；內容含轉播9屆奧運、4屆世足等。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**以「體育轉播」為核心的新媒體**」，並在其「愛爾達創新經營模式」頁標示「**全台第一家**」，另載「攜手中華電信，結合科技創新應用，打造**台灣No.1 運動轉播大平台**」「轉播9屆奧運、4屆世足，自營6+10個頻道、代理10個境外頻道」（「體育」20次、「轉播」17次、「新媒體」8次、「第一家」3次），支持其以體育賽事轉播為核心之新媒體定位與領先地位。"
+        }
+      ],
+      "rationale": "claim 之核心陳述獲發行人官方文件直接支持：文件載「**以「體育轉播」為核心的新媒體**」，並在其「愛爾達創新經營模式」頁標示「**全台第一家**」，另載「攜手中華電信，結合科技創新應用，打造**台灣No.1 運動轉播大平台**」與「轉播9屆奧運、4屆世足，自營6+10個頻道、代理10個境外頻道」（「體育」20次、「轉播」17次、「新媒體」8次、「第一家」3次），與 claim 之「為台灣第一家以體育賽事轉播為核心的新媒體平台」對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6952:objective_ranking_or_market_share:ea612b92d7bf70a2",
+      "normalized_claim_hash": "ea612b92d7bf70a28bce0549e46cdac09b728f783215e04a1b0adcbb880cebbb",
+      "ticker": "6952",
+      "company": "大武山",
+      "path": "Pilot_Reports/Farm Products/6952_大武山.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[大成長城]] (市占約 10%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.dawushan.com.tw/wp-content/uploads/2026/06/CH114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "大武山牧場科技股份有限公司（大武山，6952，Dawushan Farm Technology）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**大成**」與「**卜蜂**」各出現1次（「蛋」384次、「市占」2次），顯示該兩家同業於文件中被提及。全份年報中「市占」2次之上下文分別為「通過提供多元化的產品選擇，**擴大市占率**」與「提高**洗選鮮蛋市占率**與提升蛋品食品安（全）」，**均為該公司自身之目標敘述，未載大成或卜蜂之市占率數字**；「10%」11次與「5%」43次之上下文為財務比率或持股比例等，非同業市占率。"
+        }
+      ],
+      "rationale": "「大成長城為同業並具相當規模」獲發行人年報部分支持：年報中「**大成**」出現1次，顯示該同業於文件中被提及（「蛋」384次，顯示其蛋品產業背景）。惟「市占約 **10%**」未獲支持：全份年報中「市占」2次之上下文均為該公司自身之目標敘述（「擴大市占率」「提高洗選鮮蛋市占率」），未載大成之市占率數字；「10%」11次之上下文為財務比率或持股比例等，非同業市占率。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6952:objective_ranking_or_market_share:9f37dbda4677cd61",
+      "normalized_claim_hash": "9f37dbda4677cd61c0232a8f155d9c4e30f9336e98b05bddfef152e8da34f56e",
+      "ticker": "6952",
+      "company": "大武山",
+      "path": "Pilot_Reports/Farm Products/6952_大武山.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[卜蜂]] (市占約 5%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.dawushan.com.tw/wp-content/uploads/2026/06/CH114%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "大武山牧場科技股份有限公司（大武山，6952，Dawushan Farm Technology）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**大成**」與「**卜蜂**」各出現1次（「蛋」384次、「市占」2次），顯示該兩家同業於文件中被提及。全份年報中「市占」2次之上下文分別為「通過提供多元化的產品選擇，**擴大市占率**」與「提高**洗選鮮蛋市占率**與提升蛋品食品安（全）」，**均為該公司自身之目標敘述，未載大成或卜蜂之市占率數字**；「10%」11次與「5%」43次之上下文為財務比率或持股比例等，非同業市占率。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「卜蜂（市占約 5%）」）。年報中「**卜蜂**」出現1次，顯示該同業於文件中被提及；惟「市占約 **5%**」未獲支持——「市占」2次均為該公司自身之目標敘述，「5%」43次之上下文為財務比率或持股比例等，非同業市占率。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8345:objective_ranking_or_market_share:c3e3bf688a893fdd",
+      "normalized_claim_hash": "c3e3bf688a893fddb3cd482fd0c87733f4f3627a1f981cfeb0106a30afca769a",
+      "ticker": "8345",
+      "company": "超秦",
+      "path": "Pilot_Reports/Farm Products/8345_超秦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "超秦 (8345，Super Qin) 創立於 1985 年，為北台灣最大家禽電宰場，2025 年 6 月登錄興櫃。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://qinchicken.com/index.php?act=download&ids=6686&path=../upload/qin/attachment/8111600ebcbfa6cd7c74382d1d3e3131.pdf",
+          "title": "超秦企業股份有限公司（超秦，8345，Super Qin）民國114年度營業報告書",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載其營運受「美國關稅政策動盪著國內政經環境，超秦面臨國內產量大增而進口雞肉不減的市場供需失衡」等影響，並見「**屠宰**」2次、「興櫃」1次，支持其畜產（屠宰）相關業務。全份文件中「家禽」「電宰」「北台灣」「1985」「74年」「產能」與「最大（市場地位用語）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「從事家禽屠宰相關業務」獲發行人文件部分支持：114年度營業報告書見「**屠宰**」2次，並載其面臨「國內產量大增而進口雞肉不減的市場供需失衡」，支持其畜產加工業務。惟多項陳述未獲支持：(1)「為**北台灣最大**家禽電宰場」——「北台灣」「家禽」「電宰」與「最大（市場地位用語）」出現次數均為0；(2)「創立於 **1985 年**」——「1985」與「74年」出現次數均為0；(3)「2025 年 6 月登錄**興櫃**」——「興櫃」出現1次但未載登錄日期。故部分成立。",
+      "proposed_text": "超秦企業 (8345，Super Qin) 從事家禽屠宰及畜產相關業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8345:objective_ranking_or_market_share:f78f0cd9a0168655",
+      "normalized_claim_hash": "f78f0cd9a01686555797c23b4a7ae7036eb1eb89d16320c73d20a52b9a83bdb9",
+      "ticker": "8345",
+      "company": "超秦",
+      "path": "Pilot_Reports/Farm Products/8345_超秦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**超秦** — 北台灣最大家禽電宰場，涵蓋屠宰、分切、包裝及調理肉品加工",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://qinchicken.com/index.php?act=download&ids=6686&path=../upload/qin/attachment/8111600ebcbfa6cd7c74382d1d3e3131.pdf",
+          "title": "超秦企業股份有限公司（超秦，8345，Super Qin）民國114年度營業報告書",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載其營運受「美國關稅政策動盪著國內政經環境，超秦面臨國內產量大增而進口雞肉不減的市場供需失衡」等影響，並見「**屠宰**」2次、「興櫃」1次，支持其畜產（屠宰）相關業務。全份文件中「家禽」「電宰」「北台灣」「1985」「74年」「產能」與「最大（市場地位用語）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「超秦 — 北台灣最大家禽電宰場，涵蓋屠宰、分切、包裝及調理肉品加工」）。其屠宰相關業務獲文件支持（「屠宰」2次）；惟「**北台灣最大**家禽電宰場」未獲支持（「北台灣」「家禽」「電宰」均為0次），分切、包裝及調理肉品加工等製程敘述亦未見於該文件。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
