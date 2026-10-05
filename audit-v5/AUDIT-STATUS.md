@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 06:04 UTC
+Updated: 2026-10-11 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **856 / 1,399**
-- Remaining author review: **543**
-- Latest batch: **author-150** (4 claims)
+- Author-reviewed: **859 / 1,399**
+- Remaining author review: **540**
+- Latest batch: **author-151** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **559**
+- `PARTIALLY_SUPPORTED`: **562**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `9960:objective_ranking_or_market_share:e41b23b10a6c9c28`、`6dccf464a9b18112` — `UNKNOWN_AFTER_RESEARCH` ×2；邁達康官方網域 **DNS 解析失敗**。
-- `3130:objective_ranking_or_market_share:566bc6a4f3ac3901` — `PARTIALLY_SUPPORTED`；一零四新聞稿**逐字載**「104 人力銀行成立於**1996**年（…）成為**台灣第一家上市的網路公司**，**穩居台灣流量最多的人力資源服務網站**」；惟「1993」與文件不符（文件載1996），「最大」0次。
-- `3130:objective_ranking_or_market_share:96c37785e24a9e4c` — `PARTIALLY_SUPPORTED`；新聞稿載 C.M.O.S.A.（含 **AI 人工智慧**）並支持平台領先地位；惟「最大」「大數據」皆0次。
-- **發現字串假陰性**：文件以「**104 人力銀行**」（**含空格**）表述，故「104人力銀行」檢索為 0。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-150.json`（4 筆）。未修改發行人報告。
+- `2006:objective_ranking_or_market_share:af9053f6081a9d90` — `PARTIALLY_SUPPORTED`；東和年報「**電爐」9 次**；惟「**最大」5 次全為泛用語**（「為股東創造最大的價值」「今年最大的難題」「員工是公司最大資產」）。
+- `2006:objective_ranking_or_market_share:9ea68a7171bfd47f` — `PARTIALLY_SUPPORTED`；年報「**鋼筋」52 次、「H型鋼」21 次**；惟「九成」0次，「市佔」3次上下文未完整擷取。
+- `2012:objective_ranking_or_market_share:49de828dafb735f1` — `PARTIALLY_SUPPORTED`；春雨年報「**螺絲」146 次、「螺帽」58 次、「扣件」27 次**、「雄獅」24次；惟「**最大」7 次多為泛用語**（「最大貢獻」「最大關鍵」「信用風險最大」）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-151.json`（3 筆）。未修改發行人報告。
 - Next pending claim by priority: `2002:objective_ranking_or_market_share:71c65f9aa39ab582` (中鋼).
 
 ## Source access
