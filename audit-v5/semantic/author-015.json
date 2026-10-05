@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-015",
+  "reviewed_at": "2026-10-05T15:04:48Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official issuer disclosures (儒鴻 114年度年報 PDF and 115Q2/115Q1/114Q4 法人說明會簡報 PDFs from the issuer asset domain; 聚陽 民國114年公司簡介 PDF from MOPS and 聚陽永續報告書); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1476:objective_ranking_or_market_share:f6132ace76c9ad00",
+      "normalized_claim_hash": "f6132ace76c9ad00b18790c3769665dd32d3b7d06de5625f7afdf1c63e1504ef",
+      "ticker": "1476",
+      "company": "儒鴻",
+      "path": "Pilot_Reports/Textiles/1476_儒鴻.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nike]] — 最大客戶；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://eclatglobal.s3.amazonaws.com/uploads/2026/05/114%E5%B9%B4_%E5%84%92%E9%B4%BB_%E5%B9%B4%E5%A0%B1_zh.pdf",
+          "title": "儒鴻企業股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度；客戶揭露表另列115年度截至前一季止。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方資產網域下載並以 PDF 文字檢視。第112頁「（四）最近二年度任一年度中曾占進（銷）貨總額百分之十以上之客戶名稱」以匿名代號揭示：113年度客戶A占銷貨淨額14.12%、客戶B占9.40%；114年度客戶A占16.44%（金額6,244,893千元）、客戶B占9.09%；115年度截至前一季止客戶A占18.63%。全篇未出現 Nike 或任何品牌客戶名稱，最大客戶係以代號「A」表示，故年報不支持「Nike 為最大客戶」之具名認定。第130頁另載「銷貨客戶不過度集中，盡可能不使單一客戶銷售金額占本公司合併營收總額10%以上者」。"
+        },
+        {
+          "url": "https://eclatglobal.s3.amazonaws.com/uploads/2026/08/115%E5%B9%B4_%E5%84%92%E9%B4%BB_%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1_Q2_zh.pdf",
+          "title": "儒鴻企業股份有限公司 民國115年第二季法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "民國115年第二季（2026Q2），簡報日期115年08月；另比對115年第一季（115年05月）與114年第四季（115年03月）簡報，內容一致。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方資產網域下載並檢視。第11頁「嚴格品質控制」列出國際認證項目為 Bluesign、ISO 14001、NIKE、ADIDAS。此為發行人官方簡報中對 NIKE 之具名呈現，可佐證儒鴻與 NIKE 之品牌合作／認證關係，但該頁並非客戶營收排名，簡報其餘頁面（公司簡介、全球佈局、產能、綜合損益、營收趨勢）均未提供客戶營收占比或客戶排名，故不足以認定 NIKE 為最大客戶。"
+        }
+      ],
+      "rationale": "NIKE 與儒鴻之品牌合作關係在發行人官方法人說明會簡報中有具名呈現（第11頁國際認證列示 NIKE、ADIDAS），故此具名關係部分可獲支持。惟「最大客戶」屬客觀排名之最高級主張：查閱之114年度年報將最大客戶匿名為代號「A」（114年度占銷貨淨額16.44%），未具名；法人說明會簡報未揭露客戶營收占比或排名；年報第130頁並表述盡可能不使單一客戶占合併營收10%以上。故「NIKE 為最大客戶」未獲查閱之權威來源確立，本 claim 僅部分成立。若後續取得具名之客戶營收占比揭露，可再上調。",
+      "proposed_text": "[[Nike]] — 國際品牌合作客戶之一；",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1477:objective_ranking_or_market_share:7c3598761946783e",
+      "normalized_claim_hash": "7c3598761946783ebb93360499ab14bce7ffaa6157ad310ab3d46e8fa35c8216",
+      "ticker": "1477",
+      "company": "聚陽",
+      "path": "Pilot_Reports/Textiles/1477_聚陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "聚陽實業 (1477，Makalot Industrial) 為台灣最大成衣 OEM/ODM 廠之一，生產基地遍布印尼、越南、柬埔寨、中國及菲律賓。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/147720250319M001.pdf",
+          "title": "聚陽實業股份有限公司 公司簡介（民國114年，公開資訊觀測站）",
+          "source_level": 3,
+          "period_binding": "民國114年發布之公司簡介；產能表列2024年實際與2025年預估，營運數據列2024年全年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人存放於公開資訊觀測站之官方簡報。第4頁「聚陽定位」原文為「聚陽是亞太地區著名的全流程整合成衣製造商」，並載「經營5個跨國產區」。第5頁「公司概略」之生產基地欄列示 Vietnam、Indonesia、Cambodia、China、Philippines（同頁另列 El Salvador、Bangladesh）。第11頁「全球網絡」以產能揭示各國占比：2024年印尼40%、越南41%、柬埔寨15%、中國2%、菲律賓2%，總產能17,800,000打。上述直接支持 claim 所列五個生產基地（印尼、越南、柬埔寨、中國、菲律賓）。惟全份簡報未出現「台灣最大」或任何台灣境內排名之陳述。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1477_111.pdf",
+          "title": "聚陽實業股份有限公司 永續報告書（該端點於查證日回傳之聚陽111年度永續報告書）",
+          "source_level": 3,
+          "period_binding": "報告資料年度為民國111年度（2022），涵蓋臺灣、中國、越南、菲律賓、柬埔寨、印尼等營運據點。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。報告揭露營運範疇包含「臺灣、中國、越南、菲律賓、柬埔寨、印尼」等生產據點（如第4頁報告邊界、第13頁全球營運據點、第38至45頁各據點能源與人力結構）。可佐證多國生產基地與台灣總部之架構，惟同樣未提供成衣製造商排名。附註：本次嘗試以公開資訊觀測站年報下載端點取得 112、113 年度年報時，端點分別回傳 HTTP 200 但內容僅 320 bytes（非文件內容），故未能檢視聚陽112、113年度年報；此為檢索限制之紀錄，未用以推論 claim 真偽。"
+        }
+      ],
+      "rationale": "生產基地部分獲得直接支持：聚陽存放於公開資訊觀測站的民國114年官方公司簡介，其「生產基地」欄明確列出越南、印尼、柬埔寨、中國、菲律賓，與 claim 所列五國一致（該簡報另列薩爾瓦多、孟加拉，為 claim 未涵蓋之新增據點）。「為台灣最大成衣 OEM/ODM 廠之一」則未獲查閱之官方來源支持：官方簡報自我定位為「亞太地區著名的全流程整合成衣製造商」，未作台灣境內排名陳述，亦未提供可據以認定其為台灣最大之市占或排名資料；另以營收規模觀察，同一族群的儒鴻（1476）2024年度營業收入37,989,751千元高於聚陽的35,524百萬台幣，故此最高級主張尤須外部排名證據。故本 claim 於生產基地範圍內成立，於「台灣最大…之一」之排名範圍內未獲確立。",
+      "proposed_text": "聚陽實業 (1477，Makalot Industrial) 為亞太地區全流程整合成衣製造商，生產基地遍及印尼、越南、柬埔寨、中國及菲律賓等國。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

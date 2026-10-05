@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 15:34 UTC
+Updated: 2026-10-05 16:02 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **26 / 1,399**
-- Remaining author review: **1,373**
-- Latest batch: **author-014** (2 claims)
+- Author-reviewed: **28 / 1,399**
+- Remaining author review: **1,371**
+- Latest batch: **author-015** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **7**
-- `PARTIALLY_SUPPORTED`: **15**
+- `PARTIALLY_SUPPORTED`: **17**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `8942:objective_ranking_or_market_share:271aa5af591a1811` — `PARTIALLY_SUPPORTED`; 森鉅112年度年報（第71頁）正式「市場占有率」段落載明「北美市場廂式掛車市占率約60%」，支持約60%於112年度之表述；官方產品文件支持 G-BOND／A-BOND 旗艦產品與「北美規模最大的金屬複合板生產商」定位。惟「全球…龍頭」不獲支持（官方自述為北美最大／美國第一），且最新114年度年報同一段落已更新為「約50%」，60%非現行數字。
-- `8942:objective_ranking_or_market_share:96c34e1e0641bb89` — `PARTIALLY_SUPPORTED`; Wabash 向 SEC 申報之 FY2023 Form 10-K「Competitive Strengths」自述為拖車之「leading provider」及「one of the market leaders」，支持其為北美主要／領先拖車製造商；惟官方申報未使用「最大」之最高級表述，亦未揭露可據以認定為最大之市占數據。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-014.json`。未修改發行人報告。
-- Next pending claim by priority: `1476:objective_ranking_or_market_share:f6132ace76c9ad00` (儒鴻).
+- `1476:objective_ranking_or_market_share:f6132ace76c9ad00` — `PARTIALLY_SUPPORTED`; 儒鴻民國115年第二季法人說明會簡報第11頁「國際認證」具名列示 NIKE、ADIDAS，支持 NIKE 為其國際品牌合作對象；惟114年度年報將最大客戶匿名為代號「A」（114年度占銷貨淨額16.44%），未具名，法說會簡報亦未揭露客戶排名，故「最大客戶」未獲權威來源確立。
+- `1477:objective_ranking_or_market_share:7c3598761946783e` — `PARTIALLY_SUPPORTED`; 聚陽民國114年官方公司簡介（公開資訊觀測站）「生產基地」欄列示越南、印尼、柬埔寨、中國、菲律賓，支持 claim 所列五國；惟官方來源自我定位為「亞太地區著名的全流程整合成衣製造商」，未作台灣境內排名陳述，故「台灣最大成衣 OEM/ODM 廠之一」未獲確立。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-015.json`。未修改發行人報告。
+- Next pending claim by priority: `4414:objective_ranking_or_market_share:cb90ae7e677cf480` (如興).
 
 ## Source access
 
