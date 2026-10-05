@@ -12,7 +12,7 @@ MODEL='openai/gpt-4.1'
 def call_model(payload):
     token=os.environ['GITHUB_TOKEN']
     req=urllib.request.Request(ENDPOINT,data=json.dumps(payload).encode('utf-8'),method='POST',headers={'Authorization':f'Bearer {token}','Content-Type':'application/json','Accept':'application/json'})
-    with urllib.request.urlopen(req,timeout=120) as r: return json.loads(r.read().decode('utf-8'))
+    with urllib.request.urlopen(req,timeout=120) as r:\n        body=r.read().decode('utf-8',errors='replace')\n        print('github-models status',r.status,'content-type',r.headers.get('content-type'),'body-prefix',repr(body[:300]))\n        return json.loads(body)
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--author',required=True); ap.add_argument('--output',required=True); args=ap.parse_args()
