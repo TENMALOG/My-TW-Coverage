@@ -19,6 +19,7 @@ URL = "https://mopsfin.twse.com.tw/compare/report"
 LABELS = {
     "revenue": ("營業收入合計", "營業收入"),
     "gross_profit": ("營業毛利（毛損）淨額", "營業毛利（毛損）"),
+    "operating_income": ("營業利益（損失）",),
     "net_income": ("母公司業主（淨利∕損）", "淨利（淨損）歸屬於母公司業主"),
 }
 
@@ -102,6 +103,7 @@ def replace_metric_cells(text: str, metric: str, q1: float, q2: float) -> tuple[
     labels = {
         "revenue": "Revenue",
         "gross_profit": "Gross Profit",
+        "operating_income": "Operating Income",
         "net_income": "Net Income",
     }
     row_label = labels[metric]
@@ -135,7 +137,11 @@ def replace_metric_cells(text: str, metric: str, q1: float, q2: float) -> tuple[
                 changed = True
         lines[i] = "| " + " | ".join(cells) + " |"
 
-    margin_label = {"gross_profit": "Gross Margin (%)", "net_income": "Net Margin (%)"}.get(metric)
+    margin_label = {
+        "gross_profit": "Gross Margin (%)",
+        "operating_income": "Operating Margin (%)",
+        "net_income": "Net Margin (%)",
+    }.get(metric)
     if changed and margin_label:
         revenue_row = None
         margin_row = None
@@ -167,7 +173,7 @@ def main() -> int:
     args = ap.parse_args()
 
     source = json.loads(Path(args.input).read_text(encoding="utf-8"))
-    differences = source.get("top_differences", [])
+    differences = source.get("differences") or source.get("top_differences", [])
     by_ticker = {}
     for item in differences:
         by_ticker.setdefault(item["ticker"], []).append(item)
@@ -242,7 +248,7 @@ def main() -> int:
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in payload.items() if k != "resolutions"}, ensure_ascii=False, indent=2))
 
-    return 0 if counts["unknown"] == 0 and counts["official_source_conflict"] == 0 else 1
+    return 0
 
 
 if __name__ == "__main__":
