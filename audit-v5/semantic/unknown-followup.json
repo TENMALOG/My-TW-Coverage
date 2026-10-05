@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:19:36Z",
+  "generated_at": "2026-10-05T23:21:10Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -258,17 +258,18 @@
     "author-252",
     "author-253",
     "author-254",
-    "author-255"
+    "author-255",
+    "author-256"
   ],
-  "source_batch_count": 255,
-  "total_unknown": 408,
+  "source_batch_count": 256,
+  "total_unknown": 411,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 187,
+    "no_official_endpoint_found": 190,
     "other_unclassified": 151,
     "tls_failure": 15,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 110,
+    "http_404": 113,
     "image_only_or_tiny_text": 18,
     "http_403": 16,
     "connection_failure": 16,
@@ -6237,6 +6238,51 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/368620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3430:material_named_relationship:8a57ea61587c77c9",
+      "ticker": "3430",
+      "company": "奇鈦科",
+      "claim": "奇鈦科技 (3430，Chitec Technology) 為利基型特用化學品供應商，專精[[紫外線吸收劑]] (UVA，佔營收約 49%)、抗氧化劑 (27%)、[[光引發劑]] (20%，全球前五大) 及阻燃劑 (4%)。",
+      "batch_id": "author-256",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/343020250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4714:material_named_relationship:b4e9d205c61c6d99",
+      "ticker": "4714",
+      "company": "永捷",
+      "claim": "傳統業務為運動鞋用合成皮/接著劑 (佔約 40%)，供應[[Nike]]、[[Adidas]]代工體系 ([[寶成]]、[[豐泰]])。",
+      "batch_id": "author-256",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/471420250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4702:profitability_assertion:6f5e05252bf8c5fc",
+      "ticker": "4702",
+      "company": "中美實",
+      "claim": "業務轉向汽車貿易及醫療器材代理 (代理[[Mercedes-Benz]]等品牌中古車)，投資收益為主要獲利來源。",
+      "batch_id": "author-256",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/470220250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

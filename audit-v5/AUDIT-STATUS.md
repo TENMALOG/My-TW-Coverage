@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 15:04 UTC
+Updated: 2026-10-15 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,321 / 1,399**
-- Remaining author review: **78**
-- Latest batch: **author-255** (6 claims)
+- Author-reviewed: **1,327 / 1,399**
+- Remaining author review: **72**
+- Latest batch: **author-256** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **803**
+- `ACCEPTED`: **106**
+- `PARTIALLY_SUPPORTED`: **805**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **408**
+- `UNKNOWN_AFTER_RESEARCH`: **411**
 
 ## Latest claim batch
 
-- `8298:material_named_relationship:2b7d8122908935b6` — `PARTIALLY_SUPPORTED`；威睿年報「**電信」91 次、「政府」6 次、「ISP」2 次、「大型企業」1 次**；**惟「學術」0 次**。
-- `8298:profitability_assertion:efe47d18a6578fd0` — `PARTIALLY_SUPPORTED`；年報「**毛利」4 次、「授權」5 次、「90%」1 次**；**惟「軟體授權」字樣 0 次**。
-- `6443:material_named_relationship:136708d347c60f29` — `PARTIALLY_SUPPORTED`；元晶文件「**太陽能電池」87 次、「大尺寸」7 次**；**惟「Tesla」0 次**。
-- `2406:material_named_relationship:af4e43774998c8a8` — `PARTIALLY_SUPPORTED`；國碩簡報「**太陽能」5 次**（**案場導向簡報**）；**惟「PV Ribbon／導電銲帶／串焊」皆 0 次**。
-- ⚠️ `4934:2eee18322d02f40a` — `UNKNOWN_AFTER_RESEARCH`；太極官方端點**連線失敗**。
-- `3686:8da19bf0394f5a07` — `UNKNOWN_AFTER_RESEARCH`；達能端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-255.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,321 ＝ 條目總數 1,321。**覆蓋率 94.42%**。
-- Next pending claim by priority: `6477:material_named_relationship:f2193835814d25c6` (安集).
+- 🟢 `1305:material_named_relationship:374aa8610279391e` — **`ACCEPTED`**；華夏年報**逐字載**「針對**子公司台灣氯乙烯**工業股份有限公司」（**台灣氯乙烯 5 次、TVCM 3 次、VCM 41 次、87% 1 次**）。
+- `6477:material_named_relationship:f2193835814d25c6` — `PARTIALLY_SUPPORTED`；安集簡報「**3D列印」23 次、「金屬粉末」6 次、「設備」6 次、「欽揚」2 次**；**惟「大股東／結盟／3D列印機」皆 0 次**。
+- `1305:export_concentration:977fe4236612cb37` — `PARTIALLY_SUPPORTED`；華夏年報「**美國」8 次、「澳洲」1 次、「東南亞」1 次**；**惟「中國大陸」0 次**。
+- `3430:8a57ea61587c77c9`、`4714:b4e9d205c61c6d99`、`4702:6f5e05252bf8c5fc` — `UNKNOWN_AFTER_RESEARCH` ×3；奇鈦科／永捷／中美實端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-256.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,327 ＝ 條目總數 1,327。**覆蓋率 94.85%**。
+- Next pending claim by priority: `4722:material_named_relationship:91f6aff6a0b18ed3` (國精化).
 
 ## Source access
 
