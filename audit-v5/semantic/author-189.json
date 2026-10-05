@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-189",
+  "reviewed_at": "2026-10-05T21:50:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (玉山金公開說明書; 台玻2023年度年報); 永豐金端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2884:identity_changing_event:f537d8ed70d49074",
+      "normalized_claim_hash": "f537d8ed70d490746a3a2dd2266b484bbd6b7c647250cf1be2ec8ad188a50831",
+      "ticker": "2884",
+      "company": "玉山金",
+      "path": "Pilot_Reports/Banks - Regional/2884_玉山金.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其他子公司包括[[玉山證券]]及[[玉山投信]] (2025 年收購[[保德信投信]]後更名)。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.esunbank.com/zh-tw/-/media/ESUNFHC/Files/Investor-Relations/mna/mna08_2026Prospectus.pdf",
+          "title": "玉山金融控股股份有限公司（玉山金，2884，E.SUN Financial Holding）公開說明書",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見公開說明書（含2026年版本敘述）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取907,054字元）。文件載「註：於**114 年3 月18 日**經董事會決議通過**收購保德信證券投資信託股份有限公司**(**後更名為玉山證券**投資信託股份有限公司…)」，並載「旗下包含玉山銀行、**玉山證券**、玉山創投、**玉山投信**等子公司」與「並於92 年9 月以股份轉換方式納入**玉山投信**」（「**玉山投信**」65次、「**保德信**」13次、「**玉山證券**」190次、「更名」10次、「收購」80次、「2025」51次），**逐項支持該 claim**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人公開說明書**逐字支持**：(1)「其他子公司包括[[玉山證券]]及[[玉山投信]]」——文件載「旗下包含玉山銀行、**玉山證券**、玉山創投、**玉山投信**等子公司」（「玉山證券」190次、「玉山投信」65次）；(2)「**2025 年**收購[[保德信投信]]後更名」——文件載「註：於**114 年3 月18 日**經董事會決議通過**收購保德信證券投資信託股份有限公司**（**後更名為玉山證券**投資信託股份有限公司…）」（**民國114年＝2025年**；「保德信」13次、「更名」10次、「收購」80次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2890:profitability_assertion:87eb0db69c8e92ab",
+      "normalized_claim_hash": "87eb0db69c8e92ab308d1b5925733c28248d608011cb9c02989a4eddd88a84c1",
+      "ticker": "2890",
+      "company": "永豐金",
+      "path": "Pilot_Reports/Banks - Regional/2890_永豐金.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[永豐金融控股]] (2890) 擁有雙獲利引擎：[[永豐銀行]]及[[永豐金證券]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/289020231020M001.pdf",
+          "title": "永豐金融控股股份有限公司（永豐金，2890）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自公開資訊觀測站端點下載永豐金簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得永豐金可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[永豐金融控股]]（2890）擁有**雙獲利引擎**：[[永豐銀行]]及[[永豐金證券]]」未獲確立：本批次自公開資訊觀測站端點下載永豐金簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1802:material_named_relationship:77200a0fed86febc",
+      "normalized_claim_hash": "77200a0fed86febc427df9284df3fd9b663b39e8c227f8c3ad62c33f323cc8d8",
+      "ticker": "1802",
+      "company": "台玻",
+      "path": "Pilot_Reports/Building Materials/1802_台玻.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年台玻積極轉型，大力發展高階電子級玻璃纖維布 (如 Low DK/Low CTE 產品)，已成功通過認證並打入 [[AI 伺服器]] 與 5G 通訊設備之 CCL 銅箔基板供應鏈，成為營運成長新引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.taiwanglass.com/tc/pdf/UpdateReport/2023%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "台灣玻璃工業股份有限公司（台玻，1802，Taiwan Glass）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取127,997字元）。年報中「**台玻**」出現59次（確認文件歸屬）、「**玻璃纖維**」16次、「**玻纖**」3次、「**纖維布**」3次，支持其玻璃纖維布業務；「AI」2次。**關鍵發現**：全份年報中「**電子級**」「**銅箔**」「**基板**」「**伺服器**」「**DK**」「**CTE**」與「**CCL**」之出現次數**均為0**——未載高階電子級玻纖布（Low DK／Low CTE）、銅箔基板或 AI 伺服器供應鏈之敘述。"
+        }
+      ],
+      "rationale": "「台玻發展**玻璃纖維布**產品」獲發行人年報支持：年報中「**玻璃纖維**」出現16次、「**玻纖**」3次、「**纖維布**」3次。**惟本 claim 之核心（高階電子級產品與 AI 供應鏈）未獲支持**：全份年報中「**電子級**」「**銅箔**」「**基板**」「**伺服器**」「**DK**」「**CTE**」與「**CCL**」之出現次數**均為0**——未載「Low DK／Low CTE」產品、通過認證、打入 AI 伺服器與 5G 通訊設備之 CCL 銅箔基板供應鏈等敘述。故部分成立。",
+      "proposed_text": "台玻 (1802，Taiwan Glass) 生產玻璃纖維布等產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1802:material_named_relationship:1fbc93875da47f15",
+      "normalized_claim_hash": "1fbc93875da47f15ffc810f8038051f10566b48772c793472711e2ba1f21694e",
+      "ticker": "1802",
+      "company": "台玻",
+      "path": "Pilot_Reports/Building Materials/1802_台玻.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] (其高階 Low DK 玻纖布成功打入 [[NVIDIA]] AI 伺服器供應鏈)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.taiwanglass.com/tc/pdf/UpdateReport/2023%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "台灣玻璃工業股份有限公司（台玻，1802，Taiwan Glass）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取127,997字元）。年報中「**台玻**」出現59次（確認文件歸屬）、「**玻璃纖維**」16次、「**玻纖**」3次、「**纖維布**」3次，支持其玻璃纖維布業務；「AI」2次。**關鍵發現**：全份年報中「**電子級**」「**銅箔**」「**基板**」「**伺服器**」「**DK**」「**CTE**」與「**CCL**」之出現次數**均為0**——未載高階電子級玻纖布（Low DK／Low CTE）、銅箔基板或 AI 伺服器供應鏈之敘述。"
+        }
+      ],
+      "rationale": "「[[NVIDIA]]（其高階 **Low DK 玻纖布**成功打入 [[NVIDIA]] AI 伺服器供應鏈）」未獲確立：所取得之台玻2023年度年報中「**NVIDIA**」「**DK**」「**伺服器**」與「**電子級**」之出現次數**均為0**，未具名該客戶，亦未載該產品與供應鏈關係。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
