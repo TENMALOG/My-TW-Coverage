@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 09:04 UTC
+Updated: 2026-10-09 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **634 / 1,399**
-- Remaining author review: **765**
-- Latest batch: **author-105** (8 claims)
+- Author-reviewed: **639 / 1,399**
+- Remaining author review: **760**
+- Latest batch: **author-106** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **411**
+- `PARTIALLY_SUPPORTED`: **416**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `8289:objective_ranking_or_market_share:f64fe0dc9d652473` — `PARTIALLY_SUPPORTED`；泰藝簡報「石英」2次、TCXO 5次、VCXO 3次、OCXO 2次、振盪器8次；惟「諧振器」「唯一」皆0次。
-- `5484:objective_ranking_or_market_share:6db0feefd513243e`、`821685f1c25c5b71`、`ce6fd1fdc3f662bb` — `UNKNOWN_AFTER_RESEARCH` ×3；慧友官方下載端點回應 **HTTP 403**。
-- `9917:objective_ranking_or_market_share:1cb9babd3bf0854f` — `PARTIALLY_SUPPORTED`；中保科文件載「**1977年11月**」與「與**日本最大的SECOM公司合資技術合作**」（保全390次、SECOM 14次）；惟「最大」14次之上下文為「最大宗整合系統」「美國最大消費性電子展」「全國最大安控教育訓練中心」「SECOM為我方最大股東之一」，**均非**「台灣最大保全集團」。
-- `2351:objective_ranking_or_market_share:33136b7be916bb4a`、`f9a2de7507ee264c` — `PARTIALLY_SUPPORTED` ×2；順德簡報「導線架」3次、「功率」2次；惟「全球最大」「前五大」皆0次。
-- `2455:objective_ranking_or_market_share:c7875bcac9220f55` — `PARTIALLY_SUPPORTED`；全新年報「砷化鎵」54次、「磊晶」29次、「IQE」3次；惟「全球最大」「領導」皆0次，且「IQE」3次係**同業列舉**（「IQE 等」「IQE、IET-KY」），未載超越之敘述。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-105.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `2455:objective_ranking_or_market_share:0c9b77b516d1cc7d` (全新).
+- `2455:objective_ranking_or_market_share:0c9b77b516d1cc7d`、`3efdbb27a667196e` — `PARTIALLY_SUPPORTED` ×2；全新年報「**穩懋」10 次**，惟上下文**均將穩懋與宏捷定位為「同業」**（「相較於台灣**同業宏捷與穩懋**…」），另有數筆為人員經歷；「最大客戶」「營收占比」「宏捷科」皆0次，「28%」5次為財務比率。
+- `3016:objective_ranking_or_market_share:40c7fe6e149af7e4` — `PARTIALLY_SUPPORTED`；嘉晶114年報「磊晶」80次、「**漢磊」32 次**、「碳化矽」9次、「氮化鎵」9次；惟「唯一」「4吋」「6吋」皆0次。
+- `3131:objective_ranking_or_market_share:9ac9f9c3666d39ed` — `PARTIALLY_SUPPORTED`；弘塑簡報「台積電」1次、「**CoWoS」3 次**、「先進封裝」2次；惟「最大客戶」0次。
+- `3532:objective_ranking_or_market_share:2d49a09b19587fc8` — `PARTIALLY_SUPPORTED`；台勝科113年報「矽晶圓」13次、「台塑」3次、「**SUMCO」2 次**；惟「最大」「8吋」「12吋」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-106.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `3189:objective_ranking_or_market_share:d30c008603686d3a` (景碩).
 
 ## Source access
 
