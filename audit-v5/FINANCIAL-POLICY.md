@@ -35,3 +35,23 @@ Until approved, affected cells remain `METHOD_UNRESOLVED`.
 ## Initial draft choices intentionally not finalized
 
 This file does **not** yet approve a single net-income or CAPEX mapping because the local v4 schema/evidence has not been inspected here. The first v5 migration must surface the existing v4 definitions before finalizing these mappings.
+
+
+## Official cross-check phase 1
+
+The GitHub-native v5 baseline uses the TWSE official OpenAPI current-period income-statement snapshot as an independent cross-check for general-industry issuers. When available, the public-company dataset is preferred; listed/OTC general-industry feeds are fallback sources.
+
+Phase 1 validates only concepts that can be reproduced from the official snapshot and current repository tables:
+
+- Revenue
+- Gross Profit
+- Operating Income
+- Net Income
+
+For Q1-Q3, official income-statement values are cumulative year-to-date. v5 therefore sums the repository's single-quarter values for the same year through the official quarter before comparison. For Q4, the annual table is used directly.
+
+Official OpenAPI values are reported in thousand TWD and normalized to million TWD before comparison.
+
+A mismatch is `FINANCIAL_DIFFERENCE`, not an automatic correction. Net-income differences may represent a scope/attribution definition difference and require method review.
+
+Phase 1 does not claim official verification of Selling & Marketing, R&D, G&A, operating/investing/financing cash flow or CAPEX. Historical full-statement verification remains a later MOPS/XBRL phase.

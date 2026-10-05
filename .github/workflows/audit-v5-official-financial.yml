@@ -1,0 +1,68 @@
+name: Audit v5 official financial check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - audit-v5
+    paths:
+      - "audit-v5/official_financial_check.py"
+      - "audit-v5/tests/test_official_financial_check.py"
+      - "audit-v5/FINANCIAL-POLICY.md"
+      - ".github/workflows/audit-v5-official-financial.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-official-financial
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout audit-v5
+        uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run official-financial unit tests
+        run: |
+          python -m unittest audit-v5/tests/test_official_financial_check.py -v
+
+      - name: Cross-check current official financials
+        run: |
+          mkdir -p audit-v5/work audit-v5/generated
+          python -X utf8 audit-v5/official_financial_check.py \
+            --root Pilot_Reports \
+            --summary audit-v5/generated/official-financial-summary.json \
+            --details audit-v5/work/official-financial-details.json
+
+      - name: Upload detailed comparison
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-v5-official-financial-${{ github.run_id }}
+          path: audit-v5/work/official-financial-details.json
+          retention-days: 90
+
+      - name: Commit official financial summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-v5/generated/official-financial-summary.json
+          if git diff --cached --quiet; then
+            echo "No official financial summary changes."
+          else
+            git commit -m "audit: refresh official financial cross-check [skip ci]"
+            git push origin HEAD:audit-v5
+          fi
