@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:17:59Z",
+  "generated_at": "2026-10-05T22:19:01Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -216,17 +216,18 @@
     "author-210",
     "author-211",
     "author-212",
-    "author-213"
+    "author-213",
+    "author-214"
   ],
-  "source_batch_count": 213,
-  "total_unknown": 290,
+  "source_batch_count": 214,
+  "total_unknown": 292,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 122,
+    "no_official_endpoint_found": 123,
     "other_unclassified": 115,
     "tls_failure": 13,
     "mops_non_document": 39,
-    "non_document_response": 37,
-    "http_404": 55,
+    "non_document_response": 38,
+    "http_404": 56,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
@@ -4471,6 +4472,35 @@
       ],
       "attempted_sources": [
         "https://www.primax.com.tw/images/financial/annual-reports/2024_Annual_report_chi.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1519:material_named_relationship:60b300deec3f28b0",
+      "ticker": "1519",
+      "company": "華城",
+      "claim": "受惠全球電網更新、[[AI 伺服器]][[資料中心]]用電激增及綠能轉型，外銷美國營收大幅攀升，已成為美國 17 家電力公司核心供應商。",
+      "batch_id": "author-214",
+      "failure_signature": [
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        "https://www.fortune.com.tw/WEB_Manage/attached/file/shareholder/20240523/2024_112%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88.pdf"
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "1537:material_named_relationship:56ca1726cfc6960f",
+      "ticker": "1537",
+      "company": "廣隆",
+      "claim": "UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。",
+      "batch_id": "author-214",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/153720250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

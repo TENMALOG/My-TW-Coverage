@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-214",
+  "reviewed_at": "2026-10-05T22:18:49Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosure endpoints and directly downloaded disclosures (日盛台駿法人說明會簡報); 華城檔案僅212 bytes、廣隆端點HTTP 404，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "1519:material_named_relationship:60b300deec3f28b0",
+      "normalized_claim_hash": "60b300deec3f28b06159df8a86f87b711157959b794a1f9e4cee581f41b88121",
+      "ticker": "1519",
+      "company": "華城",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1519_華城.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "受惠全球電網更新、[[AI 伺服器]][[資料中心]]用電激增及綠能轉型，外銷美國營收大幅攀升，已成為美國 17 家電力公司核心供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.fortune.com.tw/WEB_Manage/attached/file/shareholder/20240523/2024_112%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+          "title": "華城電機股份有限公司（華城，1519，Fortune Electric）112 年度年報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自發行人官方網域下載華城112年度年報時，**所取得之檔案僅 212 bytes**，**為非文件內容**（文字擷取僅得「===== PAGE 1 =====」）；本批次未取得華城可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「受惠全球電網更新、[[AI 伺服器]][[資料中心]]用電激增及綠能轉型，外銷美國營收大幅攀升，已成為**美國 17 家電力公司核心供應商**」未獲確立：本批次自發行人官方網域下載華城112年度年報時，**所取得之檔案僅 212 bytes（非文件內容）**，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1537:material_named_relationship:56ca1726cfc6960f",
+      "normalized_claim_hash": "56ca1726cfc6960f7038b85858e3cb27ae798bd35a477b40ad68fdb4b660e211",
+      "ticker": "1537",
+      "company": "廣隆",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1537_廣隆.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153720250401M001.pdf",
+          "title": "廣隆光電科技股份有限公司（廣隆，1537，Kuo Long）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載廣隆簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得廣隆可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**UPS 電池**佔營收約 70%，主要客戶為[[Schneider Electric]]（旗下[[APC]]品牌）、[[Eaton]]、[[Vertiv]]」未獲確立：本批次自公開資訊觀測站端點下載廣隆簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6958:identity_changing_event:7e0c30264a02b91a",
+      "normalized_claim_hash": "7e0c30264a02b91ae8f3abb467f01850549517c7f411a7768a2aae5e0f4a358c",
+      "ticker": "6958",
+      "company": "日盛台駿",
+      "path": "Pilot_Reports/Credit Services/6958_日盛台駿.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[日盛台駿]]國際租賃 (6958) 前身為 1981 年成立之日盛國際租賃，2022 年 12 月與[[王道銀行]]旗下臺灣工銀租賃合併後更名，實收資本額 35.12 億元，2024 年正式於[[臺灣證券交易所]]掛牌上市，為繼[[中租控股]]、[[裕融]]、[[和潤]]之後第四家上市租賃股。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/695820260527M001.pdf",
+          "title": "日盛台駿國際租賃股份有限公司（日盛台駿，6958，INFINITE FINANCE）法人說明會簡報（2026-05-27）",
+          "source_level": 3,
+          "period_binding": "2026年5月27日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,350字元，以圖形排版為主）。簡報封面載「**日盛台駿國際租賃** 法人說明會 2026/05/27 股票代號：6958」；「公司簡介」頁載「**設立時間 民國70年8月10日**」「**實收資本額 新台幣 44.33億元**」「董事長 朱志威」「主營業務 ⚫車輛分期 ⚫企業融資 ⚫長期租賃車 ⚫綠能投融資 ⚫融資租賃」（「**日盛**」8次、「**台駿**」5次、「合併」10次、「資本額」1次）。**關鍵發現（數字不符）**：簡報所載之**實收資本額為 44.33 億元**，**與 claim 所述之 35.12 億元不符**；另全份簡報中「**1981**」「**2022**」「**工銀**」「**王道**」與「**更名**」之出現次數**均為0**（**民國70年＝1981年**，故設立年分係以民國年表述）。"
+        }
+      ],
+      "rationale": "「前身為 **1981 年**成立之日盛國際租賃」獲發行人簡報支持——**惟須以民國年解讀**：簡報「公司簡介」頁載「**設立時間 民國70年8月10日**」（**民國70年＝1981年**），「**日盛**」8次、「**台駿**」5次，**支持其設立年分與公司名稱**。**惟多項陳述未獲支持或與文件不符**：(1)「**2022 年 12 月**與…**合併**」——「**2022**」之出現次數為**0**（「合併」10次之上下文未載該年月）；(2)「與[[王道銀行]]旗下**臺灣工銀租賃**合併」——「**王道**」與「**工銀**」均為**0**；(3)「合併後**更名**」——「**更名**」為**0**；(4) **「實收資本額 35.12 億元」與官方簡報不符**——簡報載「**實收資本額 新台幣 44.33億元**」，故部分成立，**並於本紀錄中標示該數字之矛盾**，供複核者優先檢視。",
+      "proposed_text": "日盛台駿國際租賃 (6958，INFINITE FINANCE) 設立於1981年（民國70年）；依其簡報，實收資本額為新台幣44.33億元。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 21:04 UTC
+Updated: 2026-10-13 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,094 / 1,399**
-- Remaining author review: **305**
-- Latest batch: **author-213** (3 claims)
+- Author-reviewed: **1,097 / 1,399**
+- Remaining author review: **302**
+- Latest batch: **author-214** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **702**
+- `PARTIALLY_SUPPORTED`: **703**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **290**
+- `UNKNOWN_AFTER_RESEARCH`: **292**
 
 ## Latest claim batch
 
-- `4749:material_named_relationship:7e6766958fcdc90f` — `PARTIALLY_SUPPORTED`；新應材簡報「**台積電」6 次、「先進製程」8 次、「2nm」4 次**並載「建立台灣**半導體先進製程特化材料**自主技術」；**惟「7nm／5nm／3nm／日系／取代」皆 0 次**，且「台積電」多屬**該公司擴廠之產業敘述**。
-- `4915:material_named_relationship:d66840e186941aae` — `UNKNOWN_AFTER_RESEARCH`；致伸2024年報**文字層幾無內容（僅擷取20字元）**，屬以影像為主之 PDF。
-- `6275:material_named_relationship:c8a92689cc441faa` — `PARTIALLY_SUPPORTED`；元山年報「**散熱風扇」47 次、「散熱模組」24 次、「電子散熱」4 次、「BMW」1 次**；**惟「EC 風扇」與「開飲機」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-213.json`（3 筆）。未修改發行人報告。
+- `1519:material_named_relationship:60b300deec3f28b0` — `UNKNOWN_AFTER_RESEARCH`；華城年報檔僅 **212 bytes（非文件內容）**。
+- `1537:material_named_relationship:56ca1726cfc6960f` — `UNKNOWN_AFTER_RESEARCH`；廣隆端點 **HTTP 404**。
+- `6958:identity_changing_event:7e0c30264a02b91a` — `PARTIALLY_SUPPORTED`；日盛台駿簡報載「**設立時間 民國70年8月10日**」（**民國70年＝1981年**）；**惟簡報載「實收資本額 新台幣 44.33億元」與 claim 之 35.12 億元不符**，且「2022／工銀／王道／更名」皆0次。
+- ⚠️ **本批次第 2 度發現「數字矛盾」**：`6958:7e0c30264a02b91a` 之實收資本額（claim 35.12 億元 vs 官方 44.33 億元）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-214.json`（3 筆）。未修改發行人報告。
 - Next pending claim by priority: `3541:export_concentration:23aa0cac81532d07` (西柏).
 
 ## Source access
