@@ -1,0 +1,74 @@
+name: Audit v5 Credit Services financial refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [audit-v5]
+    paths:
+      - "audit-v5/credit_services_refresh.py"
+      - "audit-v5/tests/test_credit_services_refresh.py"
+      - ".github/workflows/audit-v5-credit-services.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-credit-services-writer
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install beautifulsoup4
+
+      - name: Test Credit Services normalizer
+        run: python -X utf8 audit-v5/tests/test_credit_services_refresh.py
+
+      - name: Apply official Credit Services current-period values
+        run: |
+          python -X utf8 audit-v5/credit_services_refresh.py \
+            --root Pilot_Reports \
+            --output audit-v5/generated/credit-services-refresh.json \
+            --apply
+
+      - name: Verify against official current-period feed
+        run: |
+          mkdir -p audit-v5/work
+          python -X utf8 audit-v5/official_financial_check.py \
+            --root Pilot_Reports \
+            --summary audit-v5/generated/official-financial-summary.json \
+            --details audit-v5/work/official-financial-details-after-credit-services.json
+
+      - name: Upload diagnostics
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-v5-credit-services-${{ github.run_id }}
+          path: audit-v5/work/official-financial-details-after-credit-services.json
+          retention-days: 60
+
+      - name: Commit normalized Credit Services financials
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Pilot_Reports/Credit Services" audit-v5/generated/credit-services-refresh.json audit-v5/generated/official-financial-summary.json
+          if git diff --cached --quiet; then
+            echo "No Credit Services changes."
+          else
+            git commit -m "data: normalize Credit Services financials [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
+            git push origin HEAD:audit-v5
+          fi
