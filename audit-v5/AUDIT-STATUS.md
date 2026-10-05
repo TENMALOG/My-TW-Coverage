@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 08:04 UTC
+Updated: 2026-10-09 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **626 / 1,399**
-- Remaining author review: **773**
-- Latest batch: **author-104** (8 claims)
+- Author-reviewed: **634 / 1,399**
+- Remaining author review: **765**
+- Latest batch: **author-105** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **406**
+- `PARTIALLY_SUPPORTED`: **411**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **139**
+- `UNKNOWN_AFTER_RESEARCH`: **142**
 
 ## Latest claim batch
 
-- `2423:objective_ranking_or_market_share:89e017344f0a4685`、`ac4c5aacc850ead3`、`598bd6f5b3e719aa` — `UNKNOWN_AFTER_RESEARCH` ×3；固緯三個端點均失敗（gwinstek.co.uk 與 gwinstek.de 之113年報端點皆 **SSL/TLS 憑證信任失敗**；MOPS t100 端點**僅320 bytes**）。
-- `3030:objective_ranking_or_market_share:0bce561f06e3e4e6` — `PARTIALLY_SUPPORTED`；德律107年報「**AOI」58 次、「自動光學」12 次**；惟「台灣最大」「國內最大」「名列前茅」皆0次，且「市佔」2次係**營運目標**敘述。
-- `3587:objective_ranking_or_market_share:d51886a6ad107637`、`807d8b6094e488c5` — `PARTIALLY_SUPPORTED` ×2；閎康簡報（英文版）載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」（Kumamoto 4次、Japan 9次）；惟「**TSMC」0 次**、「largest customer」0 次。
-- `6516:objective_ranking_or_market_share:ee30bf28283d37f0` — `PARTIALLY_SUPPORTED`；勤崴議事錄「電子地圖」1次；惟「七成」「Google」「市佔」皆0次。
-- `8289:objective_ranking_or_market_share:3e8264bf27a8e71f` — `PARTIALLY_SUPPORTED`；泰藝簡報「OCXO」2次、「衛星」4次、「5G」2次；惟「唯一」「恆溫」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-104.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `8289:objective_ranking_or_market_share:f64fe0dc9d652473` (泰藝).
+- `8289:objective_ranking_or_market_share:f64fe0dc9d652473` — `PARTIALLY_SUPPORTED`；泰藝簡報「石英」2次、TCXO 5次、VCXO 3次、OCXO 2次、振盪器8次；惟「諧振器」「唯一」皆0次。
+- `5484:objective_ranking_or_market_share:6db0feefd513243e`、`821685f1c25c5b71`、`ce6fd1fdc3f662bb` — `UNKNOWN_AFTER_RESEARCH` ×3；慧友官方下載端點回應 **HTTP 403**。
+- `9917:objective_ranking_or_market_share:1cb9babd3bf0854f` — `PARTIALLY_SUPPORTED`；中保科文件載「**1977年11月**」與「與**日本最大的SECOM公司合資技術合作**」（保全390次、SECOM 14次）；惟「最大」14次之上下文為「最大宗整合系統」「美國最大消費性電子展」「全國最大安控教育訓練中心」「SECOM為我方最大股東之一」，**均非**「台灣最大保全集團」。
+- `2351:objective_ranking_or_market_share:33136b7be916bb4a`、`f9a2de7507ee264c` — `PARTIALLY_SUPPORTED` ×2；順德簡報「導線架」3次、「功率」2次；惟「全球最大」「前五大」皆0次。
+- `2455:objective_ranking_or_market_share:c7875bcac9220f55` — `PARTIALLY_SUPPORTED`；全新年報「砷化鎵」54次、「磊晶」29次、「IQE」3次；惟「全球最大」「領導」皆0次，且「IQE」3次係**同業列舉**（「IQE 等」「IQE、IET-KY」），未載超越之敘述。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-105.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `2455:objective_ranking_or_market_share:0c9b77b516d1cc7d` (全新).
 
 ## Source access
 

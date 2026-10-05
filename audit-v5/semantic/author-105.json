@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-105",
+  "reviewed_at": "2026-10-05T20:01:40Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泰藝2025年法人說明會簡報; 中保科公司文件; 順德2026年法人說明會簡報; 全新光電2022年度年報英文版); 慧友官方端點回應HTTP 403，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "8289:objective_ranking_or_market_share:f64fe0dc9d652473",
+      "normalized_claim_hash": "f64fe0dc9d652473eed6eea163648c02dd64d216bc65e42d585252975fd03f3b",
+      "ticker": "8289",
+      "company": "泰藝",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/8289_泰藝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**泰藝** — 石英諧振器、[[TCXO]]、VCXO、[[OCXO]]設計與製造 (台灣唯一 OCXO 廠)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/828920251211M001.pdf",
+          "title": "泰藝電子股份有限公司（泰藝，8289，Taitien）法人說明會簡報（2025-12-11）",
+          "source_level": 3,
+          "period_binding": "2025年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "同批已檢視之泰藝2025年官方簡報：產品線含「**石英**」2次、「**TCXO**」5次、「**VCXO**」3次、「**OCXO**」2次、「振盪器」8次，支持其石英振盪器（含 TCXO／VCXO／OCXO）之設計與製造。全份簡報中「**諧振器**」與「**唯一**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「從事石英振盪器（含 TCXO、VCXO、OCXO）之設計與製造」獲發行人簡報支持：簡報中「**石英**」2次、「**TCXO**」5次、「**VCXO**」3次、「**OCXO**」2次、「振盪器」8次，支持其產品線。惟兩項陳述未獲支持：(1)「**石英諧振器**」——「諧振器」出現次數為0（簡報之用語為「振盪器」）；(2)「（台灣**唯一** OCXO 廠）」——「唯一」出現次數為0。故部分成立。",
+      "proposed_text": "泰藝電子 (8289，Taitien) 從事石英振盪器（含 TCXO、VCXO、OCXO）之設計與製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5484:objective_ranking_or_market_share:6db0feefd513243e",
+      "normalized_claim_hash": "6db0feefd513243e5c1bb1fcb02204b74616d22911133b5f68beda546e775604",
+      "ticker": "5484",
+      "company": "慧友",
+      "path": "Pilot_Reports/Security & Protection Services/5484_慧友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "車載監控為重要利基市場，於日系商用車廠市佔率高。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.everfocus.com/download/144/",
+          "title": "慧友電子股份有限公司（慧友，5484，EverFocus）官方下載端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域之下載端點取得檔案時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得慧友可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「車載監控為重要利基市場，於日系商用車廠市佔率高」未獲確立：本批次自慧友官方網域之下載端點取得檔案時回應 **HTTP 403（禁止）**，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5484:objective_ranking_or_market_share:821685f1c25c5b71",
+      "normalized_claim_hash": "821685f1c25c5b718a4543a24a276fa9b438bab7aaa113ef8937623285f5f4cd",
+      "ticker": "5484",
+      "company": "慧友",
+      "path": "Pilot_Reports/Security & Protection Services/5484_慧友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "日系商用車廠（車載DVR市佔高）、歐美巴士/警車/消防車專案",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.everfocus.com/download/144/",
+          "title": "慧友電子股份有限公司（慧友，5484，EverFocus）官方下載端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域之下載端點取得檔案時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得慧友可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「日系商用車廠（車載DVR市佔高）、歐美巴士/警車/消防車專案」）。所取得之端點回應 HTTP 403，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5484:objective_ranking_or_market_share:ce6fd1fdc3f662bb",
+      "normalized_claim_hash": "ce6fd1fdc3f662bb8b71dd9dd241ff1222c0f736559c5910e258015ec41fba4a",
+      "ticker": "5484",
+      "company": "慧友",
+      "path": "Pilot_Reports/Security & Protection Services/5484_慧友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "日系商用車廠（車載DVR，市佔率高）、歐美巴士/警車/消防車專案",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.everfocus.com/download/144/",
+          "title": "慧友電子股份有限公司（慧友，5484，EverFocus）官方下載端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域之下載端點取得檔案時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得慧友可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「日系商用車廠（車載DVR，市佔率高）、歐美巴士/警車/消防車專案」）。所取得之端點回應 HTTP 403，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9917:objective_ranking_or_market_share:1cb9babd3bf0854f",
+      "normalized_claim_hash": "1cb9babd3bf0854f54526a185fe7a0ef8626bd11b0e2209809adc1e15f290abc",
+      "ticker": "9917",
+      "company": "中保科",
+      "path": "Pilot_Reports/Security & Protection Services/9917_中保科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中興保全科技股份有限公司（Taiwan Secom）成立於1977年，為台灣最大保全集團，與日本[[SECOM]]技術合作，總部位於台北市。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.secom.com.tw/archives/download.html?id=298",
+          "title": "中興保全科技股份有限公司（中保科，9917，Taiwan Secom）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「（民國）**1977年11月**（…）」與「與**日本最大的SECOM公司合資技術合作**，正式成立了中興保全股（份有限公司）」，並載「**日本SECOM為我方最大股東之一**，自中保科技成立以來，雙方持續性的技術交流」（「保全」390次、「SECOM」14次、「1977」1次、「最大」14次），支持其成立年度與與日本 SECOM 之技術合作關係。全份文件中「最大」14次之上下文包括「安全防災，為**最大宗**整合系統」「**美國最大**國際消費性電子展」「**全國最大**的安控產業教育訓練中（心）」與「日本SECOM為我方**最大股東之一**」等，**均非**「台灣最大保全集團」之表述。"
+        }
+      ],
+      "rationale": "「成立於1977年，與日本 SECOM 技術合作」獲發行人文件支持：文件載「（民國）**1977年11月**（…）」與「與**日本最大的SECOM公司合資技術合作**，正式成立了中興保全股（份有限公司）」，並載「日本SECOM為我方**最大股東之一**」（「保全」390次、「SECOM」14次），支持其成立年度與技術合作關係。惟兩項陳述未獲支持：(1)「為**台灣最大**保全集團」——全份文件中「最大」14次之上下文包括「**最大宗**整合系統」「**美國最大**國際消費性電子展」「**全國最大**的安控產業教育訓練中（心）」與「日本SECOM為我方**最大股東之一**」，**均非**該表述；(2)「總部位於台北市」——未見對應敘述。故部分成立。",
+      "proposed_text": "中興保全科技 (9917，Taiwan Secom) 成立於1977年，與日本 SECOM 技術合作。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2351:objective_ranking_or_market_share:33136b7be916bb4a",
+      "normalized_claim_hash": "33136b7be916bb4a8f5c9fb9f9bb0625465f9bc079ad9a8e7a621248941d7d7d",
+      "ticker": "2351",
+      "company": "順德",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/2351_順德.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "順德工業 (2351) 是全球前五大[[導線架]]供應商，也是全球最大的功率及分離式[[導線架]]製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/235120260521M001.pdf",
+          "title": "順德工業股份有限公司（順德，2351，Siward）法人說明會簡報（2026-05-21）",
+          "source_level": 3,
+          "period_binding": "2026年5月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取4,444字元）。簡報中「**導線架**」出現3次、「**功率**」2次，支持其導線架相關業務。全份簡報中「**全球最大**」「**前五大**」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為導線架供應商，產品涵蓋功率及分離式導線架」獲發行人簡報部分支持：2026年官方簡報中「**導線架**」出現3次、「**功率**」2次，支持其導線架業務及功率相關產品。惟兩項排名陳述未獲支持：(1)「是全球**前五大**導線架供應商」——「前五大」出現次數為0；(2)「也是全球**最大**的功率及分離式導線架製造商」——「全球最大」出現次數為0。故部分成立（並註記該簡報文字擷取僅4,444字元）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2351:objective_ranking_or_market_share:f9a2de7507ee264c",
+      "normalized_claim_hash": "f9a2de7507ee264c417f048a8332ffb3dff9272fff303839635e4683e35893ff",
+      "ticker": "2351",
+      "company": "順德",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/2351_順德.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**順德** (全球最大功率[[導線架]]製造商，彰化/南投/江蘇廠)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/235120260521M001.pdf",
+          "title": "順德工業股份有限公司（順德，2351，Siward）法人說明會簡報（2026-05-21）",
+          "source_level": 3,
+          "period_binding": "2026年5月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取4,444字元）。簡報中「**導線架**」出現3次、「**功率**」2次，支持其導線架相關業務。全份簡報中「**全球最大**」「**前五大**」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「順德（全球最大功率導線架製造商，彰化／南投／江蘇廠）」）。簡報支持其導線架業務與生產布局之敘述；惟「**全球最大**功率導線架製造商」未獲支持（「全球最大」0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2455:objective_ranking_or_market_share:c7875bcac9220f55",
+      "normalized_claim_hash": "c7875bcac9220f55a73320231ab9ead104ec7f1785ab1d8b95f77c5aa6c9415f",
+      "ticker": "2455",
+      "company": "全新",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/2455_全新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球砷化鎵[[磊晶]]市場領導者，已超越英國 [[IQE]] 成為全球最大供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://gcsincorp.com/tc/pdf/2022%20Annual%20Report.pdf",
+          "title": "全新光電科技股份有限公司（全新，2455，GCS）2022 年度年報（英文版）",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**砷化鎵**」出現54次、「**磊晶**」29次、「**IQE**」3次，支持其砷化鎵磊晶業務。全份年報中「**全球最大**」與「**領導**」之出現次數均為0；「**IQE**」3次之上下文為**同業列舉**（如「**IQE** 等」「**IQE**、IET-KY」），**未載**「超越 IQE」或「成為全球最大供應商」之敘述。註記：公開資訊觀測站之 t100 年報端點所取得之檔案文字層**無法擷取**（擷取0字元），故改採發行人官方網域之英文版年報。"
+        }
+      ],
+      "rationale": "「從事砷化鎵磊晶業務」獲發行人年報支持：2022年度年報中「**砷化鎵**」出現54次、「**磊晶**」29次，支持其砷化鎵磊晶業務；「**IQE**」出現3次，顯示該同業於文件中被提及。惟兩項市場地位陳述未獲支持：(1)「為全球砷化鎵磊晶市場**領導者**」——「領導」出現次數為0；(2)「已**超越**英國 IQE 成為**全球最大**供應商」——「全球最大」出現次數為0，且「IQE」3次之上下文為**同業列舉**（「**IQE** 等」「**IQE**、IET-KY」），**未載**超越該公司之敘述。故部分成立。",
+      "proposed_text": "全新光電 (2455，GCS) 從事砷化鎵磊晶業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
