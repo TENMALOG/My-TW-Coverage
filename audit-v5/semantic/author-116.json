@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-116",
+  "reviewed_at": "2026-10-05T20:19:55Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (譜瑞-KY2019年度年報中文版; 凌陽創新113年度年報; 智晶光電法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "4966:objective_ranking_or_market_share:c9c039a42c112b9a",
+      "normalized_claim_hash": "c9c039a42c112b9ac352645725d64829af4edce46420ca2b609168c9a3c0b7aa",
+      "ticker": "4966",
+      "company": "譜瑞-KY",
+      "path": "Pilot_Reports/Semiconductors/4966_譜瑞-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶 (貢獻營收約 40-50%)，供應 eDP T-CON, High-speed Interface IC, Touch IC。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.paradetech.com/wp-content/uploads/2021/02/2019-Annual-Report_Chinese.pdf",
+          "title": "譜瑞科技股份有限公司（譜瑞-KY，4966，Parade Technologies）2019 年度年報（中文版）",
+          "source_level": 3,
+          "period_binding": "2019年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**eDP**」出現67次、「**TCON**」48次、「**Touch**」49次、「T-CON」3次，支持其 eDP T-CON、高速介面 IC 及觸控 IC 之產品線。全份年報中「**最大客戶**」與「40-50%」之客戶營收占比敘述未見（「40」42次之上下文多為技術規格與財務數字）。"
+        }
+      ],
+      "rationale": "「供應 eDP T-CON、High-speed Interface IC、Touch IC」獲發行人年報支持：2019年度年報中「**eDP**」出現67次、「**TCON**」48次、「**Touch**」49次、「T-CON」3次，支持其該等產品線。惟「**最大客戶**（貢獻營收約 **40-50%**）」未獲支持：全份年報中未見「最大客戶」之表述，「40-50%」之客戶營收占比敘述亦未見（「40」42次之上下文多為技術規格與財務數字）。故部分成立。",
+      "proposed_text": "譜瑞科技 (4966，Parade Technologies) 供應 eDP T-CON、高速介面 IC 及觸控 IC。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5236:objective_ranking_or_market_share:f457de3e9c8982f8",
+      "normalized_claim_hash": "f457de3e9c8982f8f0439686606cce795e169b4e78d0ac58ef385e86db7c4dba",
+      "ticker": "5236",
+      "company": "凌陽創新",
+      "path": "Pilot_Reports/Semiconductors/5236_凌陽創新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主力產品為 **Webcam Controller (網路攝影機控制晶片)** (全球市佔率領先) 及 **Mouse/Keyboard Controller (滑鼠/鍵盤控制晶片)**。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sunplusit.com/Documents/InvestorRelations/2025/113%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "凌陽創新科技股份有限公司（凌陽創新，5236，Sunplus Innovation Technology）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**網路攝影機**」出現18次、「**Webcam**」5次、「滑鼠」1次、「鍵盤」1次，支持其網路攝影機控制晶片及滑鼠／鍵盤控制晶片之產品線。全份年報中「**市佔**」僅出現1次，其上下文為**目標敘述**——「之要求，引領市場需求，**擴大市佔率**進而增加（…）」，**非**市場地位之表述；「全球市佔」未見。"
+        }
+      ],
+      "rationale": "「主力產品為 Webcam Controller（網路攝影機控制晶片）及 Mouse／Keyboard Controller（滑鼠／鍵盤控制晶片）」獲發行人年報支持：113年度年報中「**網路攝影機**」出現18次、「**Webcam**」5次、「滑鼠」1次、「鍵盤」1次，支持其產品線。惟「（**全球市佔率領先**）」未獲支持：全份年報中「**市佔**」僅出現1次，其上下文為**目標敘述**——「之要求，引領市場需求，**擴大市佔率**進而增加（…）」，**非**市場地位之表述。故部分成立。",
+      "proposed_text": "凌陽創新科技 (5236，Sunplus Innovation Technology) 主力產品為網路攝影機控制晶片（Webcam Controller）及滑鼠／鍵盤控制晶片。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5245:objective_ranking_or_market_share:a910f6713c84621f",
+      "normalized_claim_hash": "a910f6713c84621fda9ca31cfb25f2536a2a3af0e2143fefe57860535b8ca8af",
+      "ticker": "5245",
+      "company": "智晶",
+      "path": "Pilot_Reports/Semiconductors/5245_智晶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "智晶光電 (WiseChip) 為全球 **PM[[OLED]] (被動式有機發光二極體)** 領導廠商 (市佔率僅次於中國信利)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/524520251201E002.pdf",
+          "title": "智晶光電股份有限公司（智晶，5245，WiseChip Semiconductor）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,079字元）。簡報中「**OLED**」出現3次（含「AMOLED」），惟全份簡報中「**PMOLED**」「**信利**」「**市佔**」與「**領導**」之出現次數**均為0**，未載被動式有機發光二極體之市場地位或市占率敘述；本件內容以圖形排版為主，可擷取之實質敘述有限。"
+        }
+      ],
+      "rationale": "「智晶光電（WiseChip）為全球 PMOLED（被動式有機發光二極體）領導廠商（市佔率僅次於中國信利）」未獲確立：所取得之官方簡報（文字擷取5,079字元）中「**PMOLED**」「**信利**」「**市占**」與「**領導**」之出現次數**均為0**（僅「OLED」3次，含「AMOLED」），未載該市場地位或市占率敘述；該簡報以圖形排版為主。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:18:48Z",
+  "generated_at": "2026-10-05T20:20:08Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -117,10 +117,11 @@
     "author-112",
     "author-113",
     "author-114",
-    "author-115"
+    "author-115",
+    "author-116"
   ],
-  "source_batch_count": 115,
-  "total_unknown": 165,
+  "source_batch_count": 116,
+  "total_unknown": 166,
   "failure_signature_counts": {
     "other_unclassified": 67,
     "tls_failure": 8,
@@ -128,7 +129,7 @@
     "non_document_response": 31,
     "no_official_endpoint_found": 65,
     "http_404": 33,
-    "image_only_or_tiny_text": 23,
+    "image_only_or_tiny_text": 24,
     "http_403": 10,
     "connection_failure": 7,
     "garbled_text_layer": 7,
@@ -2582,6 +2583,20 @@
       ],
       "attempted_sources": [
         "https://www.aseglobal.com/ch/pdf/2024-aseh-csr-operating-model-ch.pdf"
+      ],
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "5245:objective_ranking_or_market_share:a910f6713c84621f",
+      "ticker": "5245",
+      "company": "智晶",
+      "claim": "智晶光電 (WiseChip) 為全球 **PM[[OLED]] (被動式有機發光二極體)** 領導廠商 (市佔率僅次於中國信利)。",
+      "batch_id": "author-116",
+      "failure_signature": [
+        "image_only_or_tiny_text"
+      ],
+      "attempted_sources": [
+        "https://emops.twse.com.tw/nas/STR/524520251201E002.pdf"
       ],
       "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     }

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 19:04 UTC
+Updated: 2026-10-09 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **697 / 1,399**
-- Remaining author review: **702**
-- Latest batch: **author-115** (5 claims)
+- Author-reviewed: **700 / 1,399**
+- Remaining author review: **699**
+- Latest batch: **author-116** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **448**
+- `PARTIALLY_SUPPORTED`: **450**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **165**
+- `UNKNOWN_AFTER_RESEARCH`: **166**
 
 ## Latest claim batch
 
-- `3680:objective_ranking_or_market_share:c865bf5112c73bab` — `PARTIALLY_SUPPORTED`；家登**完整年報**「台積電」14次、「Intel」3次、「**ASML」4 次**、「EUV」23次，並載「成為**全球唯二家經ASML 認證**之廠商」；惟「最大客戶」0次、「Samsung／三星」0次，且「50%」25次多為財務比率。
-- `3707:objective_ranking_or_market_share:13a1c75c5f1b260d` — `PARTIALLY_SUPPORTED`；漢磊2024永續報告「化合物」23次、「碳化矽」9次、「氮化鎵」7次；惟「Sub-micron」「BiCMOS」皆0次。
-- `3711:objective_ranking_or_market_share:c038454aa18420d4`、`4d7b58600a93fb56`、`f3500d5d502f4ad0` — `UNKNOWN_AFTER_RESEARCH` ×3；日月光投控告官方文件文字擷取**僅得4頁**且內容有限，未載全球封測市占率、排名或客戶結構。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-115.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `4966:objective_ranking_or_market_share:c9c039a42c112b9a` (譜瑞-KY).
+- `4966:objective_ranking_or_market_share:c9c039a42c112b9a` — `PARTIALLY_SUPPORTED`；譜瑞2019年報「**eDP」67 次、「TCON」48 次、「Touch」49 次**；惟未見「最大客戶」及「40-50%」客戶營收占比敘述。
+- `5236:objective_ranking_or_market_share:f457de3e9c8982f8` — `PARTIALLY_SUPPORTED`；凌陽創新113年報「**網路攝影機」18 次、「Webcam」5 次**、滑鼠1次、鍵盤1次；惟「市佔」僅1次且為**目標敘述**（「擴大市佔率進而增加」）。
+- `5245:objective_ranking_or_market_share:a910f6713c84621f` — `UNKNOWN_AFTER_RESEARCH`；智晶簡報文字層有限（5,079字元），「PMOLED」「信利」「市佔」「領導」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-116.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `5262:objective_ranking_or_market_share:f119d6b2ee83a82c` (立達).
 
 ## Source access
 
