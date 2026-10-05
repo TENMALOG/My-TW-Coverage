@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:37:24Z",
+  "generated_at": "2026-10-05T22:39:17Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -229,13 +229,14 @@
     "author-223",
     "author-224",
     "author-225",
-    "author-226"
+    "author-226",
+    "author-227"
   ],
-  "source_batch_count": 226,
-  "total_unknown": 324,
+  "source_batch_count": 227,
+  "total_unknown": 326,
   "failure_signature_counts": {
     "no_official_endpoint_found": 140,
-    "other_unclassified": 118,
+    "other_unclassified": 120,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
@@ -4988,6 +4989,34 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/359120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3605:material_named_relationship:18f74dfc66c833b6",
+      "ticker": "3605",
+      "company": "宏致",
+      "claim": "3. **高速傳輸**: 開發 800G/1.6T 高速 [[連接器]]，搭上 [[AI 伺服器]] 商機，已通過北美 [[CSP]] 客戶認證，供應 [[NVIDIA]] [[GB200]] 網卡與加速卡用 [[MCIO]] 高速連接器。",
+      "batch_id": "author-227",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.acesconn.com/upload/investor/%E5%AE%8F%E8%87%B4111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%29.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3523:material_named_relationship:6067227deddd249a",
+      "ticker": "3523",
+      "company": "迎輝",
+      "claim": "主要客戶為[[友達]]、[[群創]]等面板廠及觸控模組廠。",
+      "batch_id": "author-227",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/352320251222M003.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 10:04 UTC
+Updated: 2026-10-14 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,149 / 1,399**
-- Remaining author review: **250**
-- Latest batch: **author-226** (3 claims)
+- Author-reviewed: **1,155 / 1,399**
+- Remaining author review: **244**
+- Latest batch: **author-227** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **720**
+- `PARTIALLY_SUPPORTED`: **724**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **324**
+- `UNKNOWN_AFTER_RESEARCH`: **326**
 
 ## Latest claim batch
 
-- `3548:profitability_assertion:f97aa20da9b71516` — `PARTIALLY_SUPPORTED`；兆利年報**逐字載**「**摺疊手機**的**樞紐**設計開發完成並申請專利」（樞紐109次、摺疊手機2次、鉸鏈1次）；**惟「前三大」0 次**（未載市場排名）。
-- `3585:material_named_relationship:2d0031cdad644303` — `PARTIALLY_SUPPORTED`；聯致年報載「**玻璃基板**材料等產品為營運的主軸」（玻璃基板12次）並見「**欣興」27 次、「母公司」5 次**；**惟「銅層附著」與「全球頂（尖）」皆 0 次**。
-- `3591:material_named_relationship:6e1ffde648a67afa` — `UNKNOWN_AFTER_RESEARCH`；艾笛森端點 **HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-226.json`（3 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,149 ＝ 條目總數 1,149。
+- `3605:control_acquisition:7e51a687d12091af` — `PARTIALLY_SUPPORTED`；宏致手冊載「取得美商 **Genesis Group 100%股權**」與「**Genesis Technology USA, Inc.**與 **Genesis Holding Company**…100%股權」；**惟「Connected Solutions」0 次——被併購主體名稱與 claim 不符**。
+- `3605:material_named_relationship:9afdef477b549205` — `PARTIALLY_SUPPORTED`；手冊載「可與美國地區網通及**雲端產業**等客戶（合作）」（雲端2次、伺服器2次、連接器11次）；**惟「營收比重最高」0 次**。
+- `3605:material_named_relationship:18f74dfc66c833b6` — `UNKNOWN_AFTER_RESEARCH`；「**800G／1.6T／AI 伺服器」皆 0 次**。
+- `3622:profitability_assertion:69d5bd3e7a60ca9d` — `PARTIALLY_SUPPORTED`；洋華年報載「**機電**事業群終端客戶為**台電**」「毛利貢獻穩定」（台電3次）；**惟「強韌電網／電纜接頭／終端匣」皆 0 次**（年報所載為「**電網汰舊**」）。
+- `3511:material_named_relationship:826c97d2708b15c2` — `PARTIALLY_SUPPORTED`；矽瑪ESG「**穿戴**5次、「醫療」19次、「OBD」1次」，且**106年報之拉丁字母部分載「Fitbit」6次與「Apple Watch」**；**惟「車聯網」0 次**（該年報文字層部分亂碼）。
+- `3523:material_named_relationship:6067227deddd249a` — `UNKNOWN_AFTER_RESEARCH`；迎輝簡報「**友達／群創／面板」皆 0 次**。
+- 證據記錄於 `semantic/author-227.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,155 ＝ 條目總數 1,155。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access

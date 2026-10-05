@@ -1,0 +1,167 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-227",
+  "reviewed_at": "2026-10-05T22:39:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (宏致111年股東會議事手冊; 洋華2024年股東會年報; 迎輝114年法人說明會簡報; 矽瑪永續報告書與106年度年報)",
+  "items": [
+    {
+      "claim_id": "3605:control_acquisition:7e51a687d12091af",
+      "normalized_claim_hash": "7e51a687d12091af2543c93c12a7f732e0fdd549e0e55221e3acce3cc5ea53f7",
+      "ticker": "3605",
+      "company": "宏致",
+      "path": "Pilot_Reports/Electronic Components/3605_宏致.md",
+      "signal_type": "control_acquisition",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **併購 [[Genesis]]**: 取得美國 Genesis Connected Solutions 100% 股權，強化北美市場佈局與高頻高速傳輸專利技術。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acesconn.com/upload/investor/%E5%AE%8F%E8%87%B4111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%29.pdf",
+          "title": "宏致電子股份有限公司（宏致，3605，ACES）一一一年股東會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取70,633字元）。手冊載「四月取得美商 **Genesis Group 100%股權**後，可直接與美國地區網通及**雲端產業**等客（戶）（合作）」與「宏致集團本年度取得從事電磁遮蔽罩、高頻**連接器**及高速連接線銷售生產之 **Genesis Technology USA, Inc.**與 **Genesis Holding Company**及其子公司**100%股權**」（「**Genesis**」5次、「連接器」11次、「雲端」2次、「伺服器」2次），**支持其併購 Genesis 與高速連接器業務**。**關鍵發現**：全份文件中「**800G**」「**1.6T**」「**AI 伺服器**」「**Connected Solutions**」與「營收比重」之出現次數**均為0**；**文件所載之被併購主體名稱為「Genesis Technology USA, Inc.」與「Genesis Holding Company」，非 claim 所述之「Genesis Connected Solutions」**。"
+        }
+      ],
+      "rationale": "「**併購 Genesis**：取得美國 Genesis **Connected Solutions** 100%（股權）」獲發行人股東會議事手冊之**部分支持**：手冊載「四月取得美商 **Genesis Group 100%股權**後，可直接與美國地區網通及**雲端產業**等客（戶）（合作）」「宏致集團本年度取得從事電磁遮蔽罩、高頻**連接器**及高速連接線銷售生產之 **Genesis Technology USA, Inc.**與 **Genesis Holding Company**及其子公司**100%股權**」（「**Genesis**」5次），**支持其取得美商 Genesis 之 100% 股權**。**惟被併購主體之名稱與 claim 不符**——**文件所載為「Genesis Technology USA, Inc.」與「Genesis Holding Company」，並非「Genesis Connected Solutions」**（「Connected Solutions」之出現次數為**0**）。故部分成立。",
+      "proposed_text": "宏致電子 (3605，ACES) 取得美商 Genesis Group（含 Genesis Technology USA, Inc. 與 Genesis Holding Company）100% 股權。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3605:material_named_relationship:9afdef477b549205",
+      "normalized_claim_hash": "9afdef477b5492056185f8ebb7059881e1761a3bdf3698f244bd300ad2fd96b9",
+      "ticker": "3605",
+      "company": "宏致",
+      "path": "Pilot_Reports/Electronic Components/3605_宏致.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **產品結構優化**: 雲端/伺服器佔營收比重最高 (由 Genesis 帶動)，供應高速 [[連接器]] 與線束；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acesconn.com/upload/investor/%E5%AE%8F%E8%87%B4111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%29.pdf",
+          "title": "宏致電子股份有限公司（宏致，3605，ACES）一一一年股東會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取70,633字元）。手冊載「四月取得美商 **Genesis Group 100%股權**後，可直接與美國地區網通及**雲端產業**等客（戶）（合作）」與「宏致集團本年度取得從事電磁遮蔽罩、高頻**連接器**及高速連接線銷售生產之 **Genesis Technology USA, Inc.**與 **Genesis Holding Company**及其子公司**100%股權**」（「**Genesis**」5次、「連接器」11次、「雲端」2次、「伺服器」2次），**支持其併購 Genesis 與高速連接器業務**。**關鍵發現**：全份文件中「**800G**」「**1.6T**」「**AI 伺服器**」「**Connected Solutions**」與「營收比重」之出現次數**均為0**；**文件所載之被併購主體名稱為「Genesis Technology USA, Inc.」與「Genesis Holding Company」，非 claim 所述之「Genesis Connected Solutions」**。"
+        }
+      ],
+      "rationale": "「**雲端／伺服器**佔營收比重最高（由 Genesis 帶動），供應高速 [[連接器]]與線束」獲發行人股東會議事手冊之**部分支持**：手冊載取得 Genesis 後「可直接與美國地區網通及**雲端產業**等客（戶）（合作）」，並見「**伺服器**」2次、「**連接器**」11次，**支持其雲端／伺服器相關業務與高速連接器產品**。**惟兩項陳述未獲支持**：(1)「佔**營收比重最高**」——「營收比重」之出現次數**為0**；(2)「**線束**」之字樣未見。故部分成立。",
+      "proposed_text": "宏致電子 (3605，ACES) 供應高速連接器，並透過 Genesis 切入美國網通及雲端產業客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3605:material_named_relationship:18f74dfc66c833b6",
+      "normalized_claim_hash": "18f74dfc66c833b6ea54f66af60965b9cfb74648ef8b38c0b9fc824604733c18",
+      "ticker": "3605",
+      "company": "宏致",
+      "path": "Pilot_Reports/Electronic Components/3605_宏致.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **高速傳輸**: 開發 800G/1.6T 高速 [[連接器]]，搭上 [[AI 伺服器]] 商機，已通過北美 [[CSP]] 客戶認證，供應 [[NVIDIA]] [[GB200]] 網卡與加速卡用 [[MCIO]] 高速連接器。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.acesconn.com/upload/investor/%E5%AE%8F%E8%87%B4111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%29.pdf",
+          "title": "宏致電子股份有限公司（宏致，3605，ACES）一一一年股東會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取70,633字元）。手冊載「四月取得美商 **Genesis Group 100%股權**後，可直接與美國地區網通及**雲端產業**等客（戶）（合作）」與「宏致集團本年度取得從事電磁遮蔽罩、高頻**連接器**及高速連接線銷售生產之 **Genesis Technology USA, Inc.**與 **Genesis Holding Company**及其子公司**100%股權**」（「**Genesis**」5次、「連接器」11次、「雲端」2次、「伺服器」2次），**支持其併購 Genesis 與高速連接器業務**。**關鍵發現**：全份文件中「**800G**」「**1.6T**」「**AI 伺服器**」「**Connected Solutions**」與「營收比重」之出現次數**均為0**；**文件所載之被併購主體名稱為「Genesis Technology USA, Inc.」與「Genesis Holding Company」，非 claim 所述之「Genesis Connected Solutions」**。"
+        }
+      ],
+      "rationale": "「開發 **800G／1.6T** 高速 [[連接器]]，搭上 [[AI 伺服器]]商機，已通過北美（客戶認證）」未獲確立：所取得之宏致股東會議事手冊中「**800G**」「**1.6T**」「**AI 伺服器**」之出現次數**均為0**，**未載該等產品規格或商機敘述**。因該 claim 之實質內容為具體產品規格與客戶認證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3622:profitability_assertion:69d5bd3e7a60ca9d",
+      "normalized_claim_hash": "69d5bd3e7a60ca9d46e4f03ee3dde19d2357be50c0d1ed1f9a3a2de7748f206f",
+      "ticker": "3622",
+      "company": "洋華",
+      "path": "Pilot_Reports/Electronic Components/3622_洋華.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **機電工程 (主要獲利來源)**: 受惠於 [[台電]]「強韌電網計畫」，電纜接頭與終端匣訂單滿載。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.yfo.com.tw/_i/assets/upload/files/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B12024.pdf",
+          "title": "洋華光電股份有限公司（洋華，3622，Young Fast Optoelectronics）2024 年股東會年報",
+          "source_level": 3,
+          "period_binding": "2024年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取236,001字元）。年報載「**機電**事業群終端客戶為**台電**，產品著重品質、安全及配合效率等，由於技術及規（格）認證等市場進入障礙高，**毛利貢獻穩定**」「另為因應**台電電網汰舊**的需求，已導入不同型式之（產品）」「一一二年度**機電**產品新廠產能運作順暢」（「**台電**」3次、「**機電**」多次），**支持其機電事業及與台電之客戶關係**。**關鍵發現**：全份年報中「**強韌電網**」「**電纜接頭**」「**終端匣**」與「訂單滿載」之出現次數**均為0**（年報所載為「**電網汰舊**」）。"
+        }
+      ],
+      "rationale": "「**機電工程**（主要獲利來源）：受惠於 [[台電]]「（電網）計畫」」獲發行人年報之**部分支持**：年報載「**機電**事業群終端客戶為**台電**，產品著重品質、安全及配合效率等，由於技術及規（格）認證等市場進入障礙高，**毛利貢獻穩定**」「另為因應**台電電網汰舊**的需求，已導入不同型式之（產品）」（「**台電**」3次），**支持其機電事業、台電客戶關係與穩定毛利貢獻**。**惟三項陳述未獲支持**：(1)「**強韌電網計畫**」——「**強韌電網**」之出現次數**為0**（年報所載為「**電網汰舊**」）；(2)「**電纜接頭**」與「**終端匣**」——均為**0**；(3)「訂單**滿載**」——未見。故部分成立。",
+      "proposed_text": "洋華光電 (3622，Young Fast Optoelectronics) 之機電事業以台電為終端客戶，受惠於台電電網汰舊需求，毛利貢獻穩定。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3511:material_named_relationship:826c97d2708b15c2",
+      "normalized_claim_hash": "826c97d2708b15c23e1e768620768c382341ccfb94c0b113462f81a93b8b84d3",
+      "ticker": "3511",
+      "company": "矽瑪",
+      "path": "Pilot_Reports/Electronic Components/3511_矽瑪.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要產品應用於 **穿戴式裝置** (曾為 Fitbit 主要供應商)、**車用電子** ([[車聯網]]/OBD) 與 **醫療器材**。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://simulatechnology.com/wp-content/uploads/%E7%BE%8E%E7%B7%A8Ch_%E7%9F%BD%E7%91%AA2025ESG_v6_20260709.pdf",
+          "title": "矽瑪科技股份有限公司（矽瑪，3511，Simula Technology）永續報告書",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取97,046字元）。報告書載其「致力於以高效能**連接**解決方案實現智慧生活，為全球客戶提供穩定可靠的電子**連接**技術與多元產品應用」，並見「**穿戴**」（5次）、「**醫療**」（19次）、「**OBD**」（1次），**支持其穿戴式、車用與醫療產品應用**。**關鍵發現**：全份報告書中「**Fitbit**」與「**車聯網**」之出現次數**均為0**。"
+        },
+        {
+          "url": "https://simulatechnology.com/wp-content/uploads/106%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "矽瑪科技股份有限公司（矽瑪，3511，Simula Technology）一○六年度年報（文字層部分亂碼）",
+          "source_level": 3,
+          "period_binding": "民國106年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取193,477字元）。**字形註記**：該年報之文字層**部分為字元位移之亂碼**（如「း࿼(Fitbit ࣁж߄)ϷЋ߄ᜪ(а Apple Watch ࣁж߄)」），**惟拉丁字母部分可辨識**：可見「**Fitbit**」6次與「**Apple Watch**」，**支持「曾為 Fitbit 主要供應商」之關聯敘述**；**因亂碼之故，中文關鍵字之計數不具決定性**。"
+        }
+      ],
+      "rationale": "「主要產品應用於**穿戴式裝置**（曾為 **Fitbit** 主要供應商）、**車用電子**（車聯網／**OBD**）與**醫療器材**」獲發行人揭露之**部分支持**：永續報告書中「**穿戴**」5次、「**醫療**」19次、「**OBD**」1次，**支持其穿戴式、車用與醫療產品應用**；另**一○六年度年報之拉丁字母部分可見「Fitbit」6次與「Apple Watch」**，**支持「曾為 Fitbit 主要供應商」之關聯敘述**。**惟「車聯網」一詞未獲支持**（0次）。故部分成立。**字形註記**：**該一○六年度年報之文字層部分為字元位移之亂碼**（如「း࿼(Fitbit ࣁж߄)ϷЋ߄ᜪ(а Apple Watch ࣁж߄)」），**因亂碼之故，其中文關鍵字之計數不具決定性**。",
+      "proposed_text": "矽瑪科技 (3511，Simula Technology) 之連接解決方案應用於穿戴式裝置（曾為 Fitbit 供應商）、車用電子（OBD）與醫療器材。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3523:material_named_relationship:6067227deddd249a",
+      "normalized_claim_hash": "6067227deddd249a1debb60ec1cf5e3851d9fe0743053b769de124b0ce9f736f",
+      "ticker": "3523",
+      "company": "迎輝",
+      "path": "Pilot_Reports/Electronic Components/3523_迎輝.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為[[友達]]、[[群創]]等面板廠及觸控模組廠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/352320251222M003.pdf",
+          "title": "迎輝科技股份有限公司（迎輝，3523，EFUN）114年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "114年12月23日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,735字元，以圖形排版為主）。簡報載「**迎輝科技**」「1998年成立, 2007年上櫃」「董事長: 唐以隣」「台南市安南區, 經濟部台南產業園區」「核心技術: **UV環保乾式塗布技術**」，並見「公司簡介」「產品說明及應用」「財務資訊」等大綱。**關鍵發現**：全份簡報中「**友達**」「**群創**」「**面板**」與「觸控」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶為[[友達]]、[[群創]]等**面板廠**及**觸控模組廠**」未獲確立：所取得之迎輝114年法人說明會簡報中「**友達**」「**群創**」「**面板**」與「觸控」之出現次數**均為0**，**未具名該等客戶**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
