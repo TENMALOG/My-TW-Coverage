@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 17:04 UTC
+Updated: 2026-10-12 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **984 / 1,399**
-- Remaining author review: **415**
-- Latest batch: **author-185** (3 claims)
+- Author-reviewed: **988 / 1,399**
+- Remaining author review: **411**
+- Latest batch: **author-186** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **640**
+- `PARTIALLY_SUPPORTED`: **644**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2228:material_named_relationship:8222d454dd29c928` — `UNKNOWN_AFTER_RESEARCH`；劍麟官方文件**性質為合併財務報告（非年報）**，「Autoliv／ZF／均勝／Joyson」皆0次。
-- `2241:material_named_relationship:cb7da359191ec381` — `UNKNOWN_AFTER_RESEARCH`；所取得者為**香港上市文件**（非台灣發行人年報），「IGBT／Infineon／英飛凌／Continental／逆變器」皆0次。
-- `2243:material_named_relationship:eb26bcbe4bda3836` — `PARTIALLY_SUPPORTED`；宏旭年報（106年度）「**模具」227 次、「東風」7 次、「長安」4 次、「華為」1 次**；惟「比亞迪／BYD／吉利／AITO／問界／70%」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-185.json`（3 筆）。未修改發行人報告。
+- `2248:material_named_relationship:13d404696b3234ea` — `PARTIALLY_SUPPORTED`；華勝簡報「**氛圍燈」27 次、「閱讀燈」18 次**；惟「General Motors」0次，「GM」1次之上下文為孤立詞組。
+- `2248:material_named_relationship:a10ae81f604337b8` — `PARTIALLY_SUPPORTED`；「蔚來」8次、「上汽」「北汽」各3次、「Toyota」「奇瑞」「吉利」各1次；惟「General Motors」「Ford」「BMW」「一汽」「長城」「Tesla」皆0次。
+- `2252:material_named_relationship:79b3690c5dc4c3d7`、`79973c44b52acaed` — `PARTIALLY_SUPPORTED` ×2；為昇科簡報「**雷達」65 次、「BSD」12 次、「AEB」10 次**；**惟原文為「前五大其中三家: FCW/AEB雷達」與「前五大其中兩家: 內輪差雷達」——與 claim 之「兩家」不符**，且「**獨家」0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-186.json`（4 筆）。未修改發行人報告。
 - Next pending claim by priority: `2230:material_named_relationship:b19e819d6084f649` (泰茂).
 
 ## Source access
