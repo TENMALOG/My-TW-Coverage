@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 12:04 UTC
+Updated: 2026-10-11 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **874 / 1,399**
-- Remaining author review: **525**
-- Latest batch: **author-156** (2 claims)
+- Author-reviewed: **878 / 1,399**
+- Remaining author review: **521**
+- Latest batch: **author-157** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **89**
-- `PARTIALLY_SUPPORTED`: **573**
+- `PARTIALLY_SUPPORTED`: **576**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **208**
+- `UNKNOWN_AFTER_RESEARCH`: **209**
 
 ## Latest claim batch
 
-- `6163:objective_ranking_or_market_share:5fe18513d52e2e8a` — `ACCEPTED`；華電網簡報**逐字載**「建置台灣**第⼀套ADSL**寬頻網路(Cisco)」與「建置**亞洲最⼤**的**IPTV(MOD)**系統(Cisco)」——**逐字對應**。
-- `1307:objective_ranking_or_market_share:dd1e646d1fa31e1b` — `PARTIALLY_SUPPORTED`；三芳文件（**英文版**）載「Microfiber artificial leather, **PU synthetic leather**」（leather 9次、synthetic 4次、PU 18次）；惟「largest」「market share」「footwear」「athletic」皆0次，「40%」上下文不足。
-- **發現第 8 類字串落差**：簡報「第**⼀**套」之「⼀」為 **U+2F00 康熙部首**字形，以一般漢字「一」檢索無法命中。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-156.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `1341:objective_ranking_or_market_share:c464f0b0ce8ffced` (富林-KY).
+- `1341:objective_ranking_or_market_share:c464f0b0ce8ffced` — `PARTIALLY_SUPPORTED`；富林簡報（**英文版**）「**leather」34 次、「PU」30 次、「PVC」17 次**、「Vietnam」14次；惟「largest」「leading」皆0次。
+- `1341:objective_ranking_or_market_share:f6b48a6d16324bcd` — `UNKNOWN_AFTER_RESEARCH`；簡報「**Ashley」0 次**。
+- `1423:objective_ranking_or_market_share:bb8fd0329f920772` — `PARTIALLY_SUPPORTED`；利華簡報「**羊毛」19 次、「防縮」4 次**、「毛條」1次；惟「唯一」0次。
+- `1434:objective_ranking_or_market_share:78a69698062119b8` — `PARTIALLY_SUPPORTED`；福懋99年報「**織布」48 次**、「聚酯」26次；惟「**簾布」「輪胎」皆 0 次**。**公司名以相容表意字「福懋」排版**（非標準「福」），**非近期版本**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-157.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1440:objective_ranking_or_market_share:95d130b7d3a12dab` (南紡).
 
 ## Source access
 
