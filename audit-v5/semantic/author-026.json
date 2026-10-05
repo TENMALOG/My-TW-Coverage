@@ -1,0 +1,217 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-026",
+  "reviewed_at": "2026-10-05T15:54:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (光隆精密-KY 2021年法說會簡報; 臺企銀2025年報與110年度永續報告書及立法院泛公股公聽會報告; 彰化銀行2024年報; 高雄銀行2021年ESG永續報告書; 遠東銀行2021年永續報告書); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "4581:objective_ranking_or_market_share:73abdc91543dcce2",
+      "normalized_claim_hash": "73abdc91543dcce2c7730bd88e5445109107f01e487fa8fbd0150978ce6ee75b",
+      "ticker": "4581",
+      "company": "光隆精密-KY",
+      "path": "Pilot_Reports/Auto Parts/4581_光隆精密-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶為[[Cummins]] (北美柴油引擎龍頭)，透過 Cummins 間接供應北美四大卡車 OEM — [[PACCAR]]、[[Daimler Truck]] (市佔 30%)、[[Volvo Trucks]] (市佔 20%)、[[Traton]] (市佔 10%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/458120211207E001.pdf",
+          "title": "光隆精密-KY（4581）2021年度法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2021年度；員工人數為2021年11月30日。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第6頁公司沿革載「福州精工承接 Cummins Inc.(以下簡稱Cummins) 引擎零件及節…」，佐證 Cummins 為其客戶。第21及22頁載「為PACCAR英國卡車廠提供VA/VE」「為PACCAR英國卡車廠提供快速樣件」，佐證 PACCAR 為其客戶。全份簡報未出現「最大客戶」、「北美柴油引擎龍頭」、Daimler、Volvo、Traton，亦未載任何卡車 OEM 市占率數字。"
+        }
+      ],
+      "rationale": "Cummins 與 PACCAR 為光隆精密客戶一節獲發行人官方簡報支持：第6頁載福州精工承接 Cummins 引擎零件，第21及22頁載為 PACCAR 英國卡車廠提供 VA/VE 與快速樣件。惟多項陳述未獲支持：(1)「最大客戶為Cummins」——簡報未載客戶排名或營收占比，未具名最大客戶；(2)「Cummins 為北美柴油引擎龍頭」——簡報未使用此定位；(3)「透過 Cummins 間接供應 Daimler Truck、Volvo Trucks、Traton 及其市佔30%／20%／10%」——簡報未出現 Daimler、Volvo、Traton 或任何卡車 OEM 市占率數字（簡報中30%、20%等數字均屬其他圖表）。故部分成立。",
+      "proposed_text": "主要客戶包含 [[Cummins]]（引擎零件）及 [[PACCAR]]（英國卡車廠）等商用車客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4581:objective_ranking_or_market_share:51c1f3dd91ff6f70",
+      "normalized_claim_hash": "51c1f3dd91ff6f704e71526b441c82116aec3170a1b0a51b6dd76648dae6403a",
+      "ticker": "4581",
+      "company": "光隆精密-KY",
+      "path": "Pilot_Reports/Auto Parts/4581_光隆精密-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Cummins]] (最大客戶) — 間接供應[[PACCAR]]、[[Daimler Truck]]、[[Volvo Trucks]]、[[Traton]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/458120211207E001.pdf",
+          "title": "光隆精密-KY（4581）2021年度法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2021年度；員工人數為2021年11月30日。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第6頁公司沿革載「福州精工承接 Cummins Inc.(以下簡稱Cummins) 引擎零件及節…」，佐證 Cummins 為其客戶。第21及22頁載「為PACCAR英國卡車廠提供VA/VE」「為PACCAR英國卡車廠提供快速樣件」，佐證 PACCAR 為其客戶。全份簡報未出現「最大客戶」、「北美柴油引擎龍頭」、Daimler、Volvo、Traton，亦未載任何卡車 OEM 市占率數字。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之供應鏈條目表述（「Cummins（最大客戶）— 間接供應 PACCAR、Daimler Truck、Volvo Trucks、Traton」）。Cummins 與 PACCAR 之客戶關係獲官方簡報支持；惟「最大客戶」未獲具名，Daimler Truck、Volvo Trucks、Traton 於簡報中之出現次數均為0，亦無「間接供應」之陳述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2834:objective_ranking_or_market_share:3e15299e9e29f33f",
+      "normalized_claim_hash": "3e15299e9e29f33f6b4b69369921654bb85787a3470c6720b2c023f6e64f863e",
+      "ticker": "2834",
+      "company": "臺企銀",
+      "path": "Pilot_Reports/Banks/2834_臺企銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[臺企銀]] (2834，簡稱臺企銀) 成立於 1915 年，為台灣唯一以扶植中小企業為專業使命的銀行，亦為「八大行庫」之一。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ir.tbb.com.tw/getfile?item=15&y=2026&i=149",
+          "title": "臺灣中小企業銀行股份有限公司 2025 年報（臺企銀，2834）",
+          "source_level": 3,
+          "period_binding": "2025年度；股東資料截至2026年2月28日停過日。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人投資人網站下載並以 PDF 文字檢視。第62及65頁「主要股東名單」（2026年2月28日）列：臺灣銀行股份有限公司 1,575,653,636股、16.21%（第1）；行政院國家發展基金管理會 570,126,700股、5.87%；臺灣土地銀行 222,070,485股、2.29%；財政部 201,814,174股、2.08%（第4）；並註明「財政部持有其母公司臺灣金控股權（100%）」。第30頁公司沿革載其前身為1915年於台北設立之「臺灣無盡株式會社」及台南之「大正無盡株式會社」。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2834_110.pdf",
+          "title": "臺灣企銀 永續報告書（民國110年度）",
+          "source_level": 3,
+          "period_binding": "民國110年度（2021）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並檢視。第4頁載「臺灣企銀為全國唯一之中小企業專業銀行」；第29頁載「臺灣企銀身為擁有百年歷史、全國唯一之中小企業專業銀行，肩負中小企業融資與輔導的專責金融機構職責」；第72頁載其為「全國唯一中小企業專業銀行」，並載中小企業信用保證基金保證餘額居全國第一。全報告未出現「八大行庫」之自我歸類。"
+        }
+      ],
+      "rationale": "兩項敘述獲發行人來源支持：成立時間——2025年報第30頁公司沿革載其前身為1915年設立之「臺灣無盡株式會社」及「大正無盡株式會社」；中小企業專業使命——永續報告第4及29頁載其為「全國唯一之中小企業專業銀行」，第72頁並載其為「全國唯一中小企業專業銀行」且中小企業信用保證基金保證餘額居全國第一。惟「八大行庫之一」未獲查閱來源支持：永續報告未作此自我歸類；另查閱之立法院泛公股公聽會報告雖多次提及「八大行庫」，但未逐一列名臺企銀。故部分成立。",
+      "proposed_text": "[[臺企銀]] (2834) 成立於 1915 年，為全國唯一之中小企業專業銀行。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2834:objective_ranking_or_market_share:f95bff030d5de303",
+      "normalized_claim_hash": "f95bff030d5de303b2c80e441561e40eb3a5bda1a5f618546bc07ee78b6fb254",
+      "ticker": "2834",
+      "company": "臺企銀",
+      "path": "Pilot_Reports/Banks/2834_臺企銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[財政部]]為最大股東。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ir.tbb.com.tw/getfile?item=15&y=2026&i=149",
+          "title": "臺灣中小企業銀行股份有限公司 2025 年報（臺企銀，2834）",
+          "source_level": 3,
+          "period_binding": "2025年度；股東資料截至2026年2月28日停過日。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人投資人網站下載並以 PDF 文字檢視。第62及65頁「主要股東名單」（2026年2月28日）列：臺灣銀行股份有限公司 1,575,653,636股、16.21%（第1）；行政院國家發展基金管理會 570,126,700股、5.87%；臺灣土地銀行 222,070,485股、2.29%；財政部 201,814,174股、2.08%（第4）；並註明「財政部持有其母公司臺灣金控股權（100%）」。第30頁公司沿革載其前身為1915年於台北設立之「臺灣無盡株式會社」及台南之「大正無盡株式會社」。"
+        }
+      ],
+      "rationale": "「財政部為最大股東」需分兩層說明：臺企銀2025年報第62及65頁主要股東名單（2026年2月28日）顯示，第一大股東為臺灣銀行股份有限公司（16.21%），財政部直接持股僅201,814,174股、2.08%（第4名）；年報同時註明「財政部持有其母公司臺灣金控股權（100%）」，即財政部透過臺灣金控／臺灣銀行對臺企銀具最終控制權。故就「財政部為最終控制者」成立，就「財政部為最大（直接）股東」不成立——直接最大股東為臺灣銀行。故部分成立。",
+      "proposed_text": "[[財政部]]透過[[臺灣銀行]]（臺企銀最大股東，持股16.21%）具最終控制權；財政部直接持股約2.08%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2801:objective_ranking_or_market_share:3c8dac88a1c7f530",
+      "normalized_claim_hash": "3c8dac88a1c7f5306254da073246d0e216a5ccb6b36fcb85e13c43b0c91e9440",
+      "ticker": "2801",
+      "company": "彰銀",
+      "path": "Pilot_Reports/Banks - Regional/2801_彰銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[財政部]]為最大股東，全台設有逾 180 家國內分行，海外據點遍及紐約、東京、倫敦、香港、新加坡等地。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.bankchb.com/chb_2a_resource/leap_do/annual_report_picture/1747190848848/%E5%BD%B0%E5%8C%96%E9%8A%80%E8%A1%8C2024%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "彰化銀行股份有限公司 2024 年報",
+          "source_level": 3,
+          "period_binding": "2024年度；主要股東名單截至2025年4月15日。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第80頁「主要股東名單」依名次列示：1 財政部 1,366,316,484股、12.19%；2 中華郵政 7.50%；3 行政院國家發展基金管理會 5.42%；…，支持財政部為最大股東。第87頁「市場分析」載「本行全球服務網遍及亞洲、歐洲、美洲及臺灣各地，國內營業單位計有185家…海外據點計有7家分行、1家出張所及1家辦事處，皆設於世界主要金融中心，包括紐約分行、洛杉磯分行、東京分行、倫敦分行、香港分行、新加坡分行、馬尼拉分行…」。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人2024年報支持：第80頁「主要股東名單」依名次列示，第1名為財政部（1,366,316,484股、12.19%），其後為中華郵政（7.50%）與行政院國家發展基金管理會（5.42%），支持「財政部為最大股東」。第87頁「市場分析」載國內營業單位計185家（逾180家），海外據點計7家分行、1家出張所及1家辦事處，「皆設於世界主要金融中心，包括紐約分行、洛杉磯分行、東京分行、倫敦分行、香港分行、新加坡分行、馬尼拉分行」，支持海外據點涵蓋紐約、東京、倫敦、香港、新加坡。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2836:objective_ranking_or_market_share:8aa22fea75ecafb5",
+      "normalized_claim_hash": "8aa22fea75ecafb53b3e7430573b769eefc0040ce9b9c03b5c685a19897290c9",
+      "ticker": "2836",
+      "company": "高雄銀",
+      "path": "Pilot_Reports/Banks - Regional/2836_高雄銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[高雄銀行]] (2836) 成立於 1982 年，為台灣唯一由地方政府主導的市屬商業銀行，最大股東為[[高雄市政府]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2836_110.pdf",
+          "title": "高雄銀行股份有限公司 2021 ESG 永續報告書",
+          "source_level": 3,
+          "period_binding": "2021年度；公司設立與股權資料為報告書所載期間。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視。第3頁載「本行係於1982年由高雄市政府出資成立之地方政府政策型公營銀行，經於1999年民營化轉型為全國型（銀行）」；第5頁載「設立日期：1982年1月13日…由高雄市政府出資百分之99.994設立」，並載高雄市政府持股41.69%；第12頁載「本行之主要控制股東為高雄市政府，持有本行股份43.13%」。全報告未使用「唯一由地方政府主導」之表述。"
+        }
+      ],
+      "rationale": "兩項敘述獲發行人永續報告支持：成立時間——第3頁載「本行係於1982年由高雄市政府出資成立之地方政府政策型公營銀行」，第5頁載設立日期為1982年1月13日、由高雄市政府出資99.994%設立；最大股東——第12頁載「本行之主要控制股東為高雄市政府，持有本行股份43.13%」，第5頁載持股41.69%。惟「台灣唯一由地方政府主導的市屬商業銀行」中之「唯一」未獲支持：報告僅自述為「地方政府政策型公營銀行」，未主張其為全台唯一。故部分成立。",
+      "proposed_text": "[[高雄銀行]] (2836) 成立於 1982 年，為由高雄市政府主導的地方政府政策型銀行，最大股東為[[高雄市政府]]（持股約 43%）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2845:objective_ranking_or_market_share:70d1f48d13bb0d55",
+      "normalized_claim_hash": "70d1f48d13bb0d552f0027f15d7219ddd4738762d597722776e307301dce3c60",
+      "ticker": "2845",
+      "company": "遠東銀",
+      "path": "Pilot_Reports/Banks - Regional/2845_遠東銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在虛擬資產金流服務市場，遠東銀為最早切入之傳統銀行，VASP 信託金流市佔率逾九成。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2845_110.pdf",
+          "title": "遠東國際商業銀行 2021年永續報告書",
+          "source_level": 3,
+          "period_binding": "2021年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視。全報告（124頁）中 VASP、虛擬資產、虛擬通貨 等關鍵字出現次數為0；「信託」唯一出現處為「員工持股信託」，「平台」出現處為員工數位學習平台，均與虛擬資產金流服務無關。另嘗試自公開資訊觀測站年報端點取得遠東銀113年度年報，端點回應 HTTP 200 但內容僅320 bytes（非文件內容），未能檢視。"
+        }
+      ],
+      "rationale": "查閱遠東銀2021年永續報告書（124頁）後，無法確立其在虛擬資產金流服務之地位：報告中 VASP、虛擬資產、虛擬通貨 等關鍵字出現次數均為0，「信託」唯一出現處為員工持股信託，「平台」為員工數位學習平台，均與該業務無關。另嘗試自公開資訊觀測站取得113年度年報，端點回應 HTTP 200 但內容僅320 bytes，未能檢視。故「最早切入之傳統銀行」與「VASP 信託金流市占率逾九成」均未獲權威來源確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2845:objective_ranking_or_market_share:f2164388106df7ee",
+      "normalized_claim_hash": "f2164388106df7eebcdf3896fed9ccadf6553d4732b7dfbdc317c57ed00ddd3f",
+      "ticker": "2845",
+      "company": "遠東銀",
+      "path": "Pilot_Reports/Banks - Regional/2845_遠東銀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國內合法 VASP 業者 — 信託金流市佔龍頭",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2845_110.pdf",
+          "title": "遠東國際商業銀行 2021年永續報告書",
+          "source_level": 3,
+          "period_binding": "2021年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視。全報告（124頁）中 VASP、虛擬資產、虛擬通貨 等關鍵字出現次數為0；「信託」唯一出現處為「員工持股信託」，「平台」出現處為員工數位學習平台，均與虛擬資產金流服務無關。另嘗試自公開資訊觀測站年報端點取得遠東銀113年度年報，端點回應 HTTP 200 但內容僅320 bytes（非文件內容），未能檢視。"
+        }
+      ],
+      "rationale": "本 claim 為同一業務事實之條目表述（「國內合法 VASP 業者 — 信託金流市占龍頭」）。遠東銀2021年永續報告書未載任何 VASP 或虛擬資產信託業務之揭露，「市占龍頭」自無所本；113年度年報端點亦未取得可檢視文件。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

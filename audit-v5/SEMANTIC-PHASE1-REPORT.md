@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **101 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), and `author-025` (7).
+Author-reviewed: **109 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), and `author-026` (8).
 
-- ACCEPTED by author: 27
-- PARTIALLY_SUPPORTED: 62
+- ACCEPTED by author: 28
+- PARTIALLY_SUPPORTED: 67
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 8
-- Remaining author queue: 1,298
+- Other allowed author decisions: 10
+- Remaining author queue: 1,290
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -288,6 +288,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-025.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **101 / 1,399**; remaining: **1,298**. Outcome counts: ACCEPTED 27, PARTIALLY_SUPPORTED 62, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 8. Next pending claim by priority: `4581:objective_ranking_or_market_share:73abdc91543dcce2` (光隆精密-KY).
+
+## Author batch `author-026` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (光隆精密-KY 4581 ×2, 臺企銀 2834 ×2, 彰銀 2801, 高雄銀 2836, 遠東銀 2845 ×2). Evidence came from directly downloaded and inspected official disclosures: 光隆精密2021年法說會簡報、臺企銀2025年報與110年度永續報告書（及立法院泛公股公聽會報告）、彰化銀行2024年報、高雄銀行2021年ESG報告、遠東銀行2021年永續報告書。
+- `4581:objective_ranking_or_market_share:73abdc91543dcce2` 與 `51c1f3dd91ff6f70` — `PARTIALLY_SUPPORTED`. 光隆官方簡報第6頁載福州精工承接 Cummins 引擎零件、第21及22頁載為 PACCAR 英國卡車廠提供 VA/VE 與快速樣件，支持 Cummins、PACCAR 為客戶；惟簡報未載最大客戶、未使用「北美柴油引擎龍頭」，Daimler、Volvo、Traton 出現次數均為0，亦無30%／20%／10%之卡車 OEM 市占數字。
+- `2834:objective_ranking_or_market_share:3e15299e9e29f33f` — `PARTIALLY_SUPPORTED`. 臺企銀2025年報第30頁公司沿革載前身為1915年設立之「臺灣無盡株式會社」及「大正無盡株式會社」；110年度永續報告第4、29、72頁三度載其為「全國唯一之中小企業專業銀行」。惟「八大行庫之一」未獲查閱來源逐一列名（立法院泛公股公聽會報告僅概括提及「八大行庫」）。
+- `2834:objective_ranking_or_market_share:f95bff030d5de303` — `PARTIALLY_SUPPORTED`. 臺企銀2025年報第62及65頁主要股東名單（2026年2月28日）依序為臺灣銀行16.21%、行政院國家發展基金管理會5.87%、臺灣土地銀行2.29%、財政部2.08%，並註明「財政部持有其母公司臺灣金控股權（100%）」。故財政部為最終控制者，但直接最大股東為臺灣銀行。
+- `2801:objective_ranking_or_market_share:3c8dac88a1c7f530` — `ACCEPTED`. 彰銀2024年報第80頁主要股東名單第1名為財政部（1,366,316,484股、12.19%）；第87頁載國內營業單位185家、海外據點7家分行、1家出張所及1家辦事處，涵蓋紐約、洛杉磯、東京、倫敦、香港、新加坡、馬尼拉等主要金融中心。
+- `2836:objective_ranking_or_market_share:8aa22fea75ecafb5` — `PARTIALLY_SUPPORTED`. 高雄銀2021年ESG報告第3頁載「本行係於1982年由高雄市政府出資成立之地方政府政策型公營銀行」，第5頁載設立日期1982年1月13日、由高雄市政府出資99.994%，第12頁載「本行之主要控制股東為高雄市政府，持有本行股份43.13%」；惟報告未使用「全台唯一由地方政府主導」之表述。
+- `2845:objective_ranking_or_market_share:70d1f48d13bb0d55` 與 `f2164388106df7ee` — `UNKNOWN_AFTER_RESEARCH`. 遠東銀2021年永續報告書（124頁）中 VASP、虛擬資產、虛擬通貨 出現次數均為0，「信託」僅出現於員工持股信託；公開資訊觀測站113年度年報端點回應 HTTP 200 但內容僅320 bytes，未能檢視。VASP 信託金流業務與九成市占均未獲確立。
+- Proposed wording is recorded for the partial claims in `semantic/author-026.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **109 / 1,399**; remaining: **1,290**. Outcome counts: ACCEPTED 28, PARTIALLY_SUPPORTED 67, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 10. Next pending claim by priority: `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` (華南金).
+
 
 
 

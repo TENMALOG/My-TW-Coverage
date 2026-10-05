@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 01:04 UTC
+Updated: 2026-10-06 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **101 / 1,399**
-- Remaining author review: **1,298**
-- Latest batch: **author-025** (7 claims)
+- Author-reviewed: **109 / 1,399**
+- Remaining author review: **1,290**
+- Latest batch: **author-026** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **27**
-- `PARTIALLY_SUPPORTED`: **62**
+- `ACCEPTED`: **28**
+- `PARTIALLY_SUPPORTED`: **67**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **8**
+- `UNKNOWN_AFTER_RESEARCH`: **10**
 
 ## Latest claim batch
 
-- `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` — `PARTIALLY_SUPPORTED`; 同致2025法說會第5頁載其為 tier-one supplier、第9頁產品別 Autonomous Parking Sensing+Controls 合計88%，支持停車感測為核心；惟未載「亞洲最大／全球第三大」、Bosch、Valeo、48家OEM或50國。
-- `3552:objective_ranking_or_market_share:1a523bd0dd0f352b` — `UNKNOWN_AFTER_RESEARCH`; 同致官方簡報全篇未出現 Bosch，亦無停車感測器市場排名資料。
-- `4528:objective_ranking_or_market_share:d7d5512cdbb52739`、`c57c2e43e2aaf637`、`efa3b52c128a97ee` — `PARTIALLY_SUPPORTED` ×3; 江興鍛111年度年報第12頁沿革載生產「廣州NTN鍛件」，支持 NTN 為客戶；惟第142頁客戶以代號揭露（甲公司25%、乙公司13%、丙公司12%），未具名最大客戶，Dana／AAM／和大／中華台亞於年報出現次數皆為0。
-- `4535:objective_ranking_or_market_share:bb205423e2687dc7` — `PARTIALLY_SUPPORTED`; 至興2016公司簡介第30頁「為國內精密沖壓製造業第一大廠」、機車碟煞盤國內市佔70%；惟簡報未出現「東陽」或集團隸屬陳述（「全興」僅為地址中之全興工業區）。
-- `4557:objective_ranking_or_market_share:c1b4ac853233bb38` — `ACCEPTED`; 永新2025法說會第3頁「The largest aftermarket supplier of brake assemblies in North America」、第18頁總泵24.93%／分泵17.05%、第29頁拓展卡鉗與 brake pads。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-025.json`。未修改發行人報告。
-- Next pending claim by priority: `4581:objective_ranking_or_market_share:73abdc91543dcce2` (光隆精密-KY).
+- `4581:objective_ranking_or_market_share:73abdc91543dcce2`、`51c1f3dd91ff6f70` — `PARTIALLY_SUPPORTED` ×2; 光隆精密2021法說會第6頁載承接 Cummins 引擎零件、第21/22頁載為 PACCAR 英國卡車廠提供 VA/VE 與樣件，支持兩家為客戶；惟未載最大客戶、北美柴油引擎龍頭，且 Daimler／Volvo／Traton 與市佔30%／20%／10% 均未見。
+- `2834:objective_ranking_or_market_share:3e15299e9e29f33f` — `PARTIALLY_SUPPORTED`; 臺企銀2025年報第30頁載前身為1915年設立之臺灣無盡株式會社，110年度永續報告第4/29頁載「全國唯一之中小企業專業銀行」；惟「八大行庫之一」未獲查閱來源逐一列名。
+- `2834:objective_ranking_or_market_share:f95bff030d5de303` — `PARTIALLY_SUPPORTED`; 2025年報第62/65頁主要股東名單列第一大股東為臺灣銀行16.21%、財政部直接持股2.08%（第4名），並註明財政部持有臺灣金控100%，故財政部為最終控制者而非直接最大股東。
+- `2801:objective_ranking_or_market_share:3c8dac88a1c7f530` — `ACCEPTED`; 彰銀2024年報第80頁主要股東名單第1名為財政部（12.19%），第87頁載國內營業單位185家、海外7家分行含紐約／洛杉磯／東京／倫敦／香港／新加坡／馬尼拉。
+- `2836:objective_ranking_or_market_share:8aa22fea75ecafb5` — `PARTIALLY_SUPPORTED`; 高雄銀2021 ESG報告第3頁載1982年由高雄市政府出資成立、第5頁載設立日期1982/1/13與出資99.994%、第12頁載主要控制股東高雄市政府持股43.13%；惟「唯一」未獲官方使用。
+- `2845:objective_ranking_or_market_share:70d1f48d13bb0d55`、`f2164388106df7ee` — `UNKNOWN_AFTER_RESEARCH` ×2; 遠東銀2021永續報告（124頁）中 VASP／虛擬資產／虛擬通貨 出現次數皆為0，113年度年報端點僅回傳320 bytes。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-026.json`。未修改發行人報告。
+- Next pending claim by priority: `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` (華南金).
 
 ## Source access
 
