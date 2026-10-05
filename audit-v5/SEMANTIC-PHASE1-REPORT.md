@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **277 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), and `author-050` (8).
+Author-reviewed: **281 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), and `author-051` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 175
+- PARTIALLY_SUPPORTED: 179
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 45
-- Remaining author queue: 1,122
+- Remaining author queue: 1,118
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -601,6 +601,16 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-050.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **277 / 1,399**; remaining: **1,122**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 175, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `5225:objective_ranking_or_market_share:9878893f3dc16044` (東科-KY).
+
+## Author batch `author-051` — 2026-10-07
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (東科-KY 5225 ×3, 禾聯碩 5283). Evidence came from directly downloaded and inspected official disclosures: 東科-KY 114年股東常會議事手冊、禾聯碩114年度年報。
+- `5225:objective_ranking_or_market_share:9878893f3dc16044`、`534c2c4cfb9c89c8`、`017ed3b68dac411f` — `PARTIALLY_SUPPORTED` ×3. 東科114年股東常會議事手冊第9頁載「2025年營運成長動能來自新產品、新客戶，**韓系**、日系及歐美系都有成長，歐美系成長幅度較大。除核心產品 Sound Bars 外，聚焦於高附加價值產品」，第10頁載「為客戶提供從 OEM、ODM 到 JDM 等彈性、靈活商業模式的一站式購（足）」，第11頁載系統產品線與「開發及進一步擴展TV用聲霸(Sound Bars)內嵌標準的SoCs」。全份文件中「Sound Bar」4次、「聲霸」2次、「OEM」2次、「ODM」2次、「客戶」21次、「韓系」1次；惟「Samsung」「三星」「LG」「全球最大」「市佔」「市占」出現次數均為0，故「全球最大影音揚聲器代工廠」、「Sound Bar 全球市佔率極高」與「Samsung 為最大客戶」均未獲支持。
+- `5283:objective_ranking_or_market_share:6faaf45e05c0640f` — `PARTIALLY_SUPPORTED`. 禾聯碩114年度年報第5及52頁載其液晶顯示器朝智慧顯示與聯網發展（可作為家庭安全管理中樞、支援人臉辨識），第67頁載其推出國內第一台有錄影功能之液晶顯示器、Hertv 智慧液晶顯示器搭配禾聯智慧語音，並載「全國液晶顯示器尺寸、機種、功能最齊全的領先地位」（「高畫質」6次）。惟「台灣市佔率極高」與發行人自身揭露**不符**：年報第65頁「市場佔有率」段落明載「根據經濟部統計處生產統計月報數據顯示，2024年度國內市場液晶顯示器及家用空調之銷售值分別為新臺幣125.51億元及新台幣209億元，本公司及其子公司2024年度液晶顯示器及空調之銷售金額分別為新臺幣7.04億元及43.86億元，**市占率分別為5.61%及20.99%**」；全份年報中「極高」出現次數為0。建議以官方市占率數字取代該評價性描述。
+- Proposed wording is recorded for the partial claims in `semantic/author-051.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **281 / 1,399**; remaining: **1,118**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 179, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `6225:objective_ranking_or_market_share:328bec4589432b52` (天瀚).
+
 
 
 

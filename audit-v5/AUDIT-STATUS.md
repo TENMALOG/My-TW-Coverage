@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 02:04 UTC
+Updated: 2026-10-07 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **277 / 1,399**
-- Remaining author review: **1,122**
-- Latest batch: **author-050** (8 claims)
+- Author-reviewed: **281 / 1,399**
+- Remaining author review: **1,118**
+- Latest batch: **author-051** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **175**
+- `PARTIALLY_SUPPORTED`: **179**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` — `PARTIALLY_SUPPORTED`; 大同113年報「台電」33次（電網強韌計畫、345KV特高壓電纜、變電所統包工程）；惟「國內最大客戶」0次、「中東」0次。
-- `2614:objective_ranking_or_market_share:fc653f741714d04d` — `PARTIALLY_SUPPORTED`; 東森109年報載台灣最大網路媒體、comScore觸及率逾85%、新聞類網站第一名；惟「衛星電視頻道」未獲支持（「衛星」4次均為法規名稱與物流衛星倉）。
-- `5288:objective_ranking_or_market_share:e2b6169ea8b47d06`、`e03e47ad2fe08132`、`26d23c8673c73aeb` — `PARTIALLY_SUPPORTED` ×3; 豐祥簡報載2006年越南Exedy合資與2012年供應Polaris；惟 Honda／Yamaha／Ducati／Harley 皆0次、「最大客戶」未載、業務別營收比重未載。
-- `6754:objective_ranking_or_market_share:97bcd095ad4b455e` — `PARTIALLY_SUPPORTED`; 匯僑簡報「精品」6次（國際精品名牌、Cartier杭州、台北101精品櫃位、深耕30餘年）；惟 LVMH／Kering／Richemont 與「市佔」皆0次。
-- `4749:objective_ranking_or_market_share:b6aa8390164f3bc1`、`8a41f0ce8cef58b5` — `PARTIALLY_SUPPORTED` ×2; 新應材簡報載先進製程光阻與DUV光阻劑、晶圓代工客戶；惟「最大客戶」0次，且「79%」實為**半導體應用材料占營收比重**、「79.6%」為**2024年台灣占銷售區域比重**，均非單一客戶占比。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-050.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `5225:objective_ranking_or_market_share:9878893f3dc16044` (東科-KY).
+- `5225:objective_ranking_or_market_share:9878893f3dc16044` — `PARTIALLY_SUPPORTED`; 東科114年議事手冊第9/10/11/16頁載OEM／ODM／JDM一站式模式、Sound Bars核心產品（Sound Bar 4次、聲霸2次）；惟「全球最大」與「市佔」皆0次。
+- `5225:objective_ranking_or_market_share:534c2c4cfb9c89c8` — `PARTIALLY_SUPPORTED`; 第9/11/12頁載Sound Bars為核心與成長大宗；惟未載全球市占率或排名。
+- `5225:objective_ranking_or_market_share:017ed3b68dac411f` — `PARTIALLY_SUPPORTED`; 第9頁載「韓系、日系及歐美系都有成長」；惟「Samsung」「三星」「LG」皆0次、「最大客戶」未載。
+- `5283:objective_ranking_or_market_share:6faaf45e05c0640f` — `PARTIALLY_SUPPORTED`; 禾聯碩114年報第5/52/67頁載智慧聯網與高畫質（高畫質6次）；惟第65頁自揭2024年度液晶顯示器**市占率5.61%**（空調20.99%），與claim「台灣市佔率極高」不符，全份「極高」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-051.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6225:objective_ranking_or_market_share:328bec4589432b52` (天瀚).
 
 ## Source access
 
