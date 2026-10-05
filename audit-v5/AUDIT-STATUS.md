@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 18:04 UTC
+Updated: 2026-10-07 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **371 / 1,399**
-- Remaining author review: **1,028**
-- Latest batch: **author-066** (7 claims)
+- Author-reviewed: **378 / 1,399**
+- Remaining author review: **1,021**
+- Latest batch: **author-067** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **236**
+- `PARTIALLY_SUPPORTED`: **239**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **67**
+- `UNKNOWN_AFTER_RESEARCH`: **71**
 
 ## Latest claim batch
 
-- `4555:objective_ranking_or_market_share:0bf8c0e0c843a66a` — `PARTIALLY_SUPPORTED`; 氣立2025簡報（英文版）載「Pneumatic Components(65%)」與「Automation & Robotics Industry」轉型；惟「Foxconn」「Hon Hai」「largest」皆0次。
-- `4927:objective_ranking_or_market_share:9a67db1c7ece4dcb` — `PARTIALLY_SUPPORTED`; 泰鼎年報載其為泰國硬式PCB製造商（泰國112次、PCB 50次）；惟「最大客戶」「泰國PCB王」0次，且產能官方為「月產能將落在**50萬至60萬平方米**」（非claim之100萬平方呎）。
-- `4927:objective_ranking_or_market_share:f082dccad3e35593`、`d87b353d1a5581c6` — `PARTIALLY_SUPPORTED` ×2; 年報載「主要客戶品牌包括 **Samsung**、Sony、Bosch、Vantiva、Canon、HP、Toshiba與WDC」且應用含「電視」；惟「最大客戶」未載。
-- `4933:objective_ranking_or_market_share:349902327df33902` — `UNKNOWN_AFTER_RESEARCH`; 友輝官方年報端點以「連接意外關閉」失敗。
-- `4935:objective_ranking_or_market_share:4d485947dcc08af8` — `PARTIALLY_SUPPORTED`; 茂林2024永續報告「導光板」38次、「發光鍵盤」2次；惟「Apple」「MacBook」「最大供應商」皆0次。
-- `4958:objective_ranking_or_market_share:a4361df276711165` — `UNKNOWN_AFTER_RESEARCH`; 臻鼎官方新聞稿PDF經擷取僅3字元（影像排版）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-066.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` (亞電).
+- `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` — `PARTIALLY_SUPPORTED`; 亞電108年報「手機」49次、「穿戴」20次、「FPC」39次、「軟板」67次、「覆蓋膜」65次；惟「最大宗」0次、「車用」僅2次且未載電池模組FPC。
+- `4958:objective_ranking_or_market_share:e9718e647cdf6213`、`40a491b3e2ad9593` — `UNKNOWN_AFTER_RESEARCH` ×2; 臻鼎官方新聞稿PDF僅3字元（影像排版），且查得之topco-global年報經確認為他公司文件（臻鼎／4958／ZDT皆0次）。
+- `4960:objective_ranking_or_market_share:d14cd3d4febf570b` — `PARTIALLY_SUPPORTED`; 誠美材文件註記載「**群創光電(股)公司及代表人劉昭賢於109年5月6日辭任**」（群創僅1次），未載其為客戶或最大出海口。
+- `5228:objective_ranking_or_market_share:b96cf4a86eed0538` — `PARTIALLY_SUPPORTED`; 鈺鎧2022簡報載車用17次、醫療14次、網通3次；惟「Cochlear」「全球最大」皆0次（簡報用語為「電子耳朵」）。
+- `5228:objective_ranking_or_market_share:bc677a4369a50038`、`95ce91a2dd332b21` — `UNKNOWN_AFTER_RESEARCH` ×2; 同上，客戶名未載，依具名客戶身分規則結為UNKNOWN。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-067.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `5243:objective_ranking_or_market_share:7d90a20a437364ad` (乙盛-KY).
 
 ## Source access
 

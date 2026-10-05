@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **371 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), and `author-066` (7).
+Author-reviewed: **378 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), and `author-067` (7).
 
 - ACCEPTED by author: 64
-- PARTIALLY_SUPPORTED: 236
+- PARTIALLY_SUPPORTED: 239
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 67
-- Remaining author queue: 1,028
+- Other allowed author decisions: 71
+- Remaining author queue: 1,021
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -786,6 +786,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **67 筆**。
 - Author-reviewed total: **371 / 1,399**; remaining: **1,028**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 236, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 67. Next pending claim by priority: `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` (亞電).
+
+## Author batch `author-067` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (亞電 4939, 臻鼎-KY 4958 ×2, 誠美材 4960, 鈺鎧 5228 ×3). Evidence came from directly downloaded and inspected official disclosures: 亞電108年度年報、誠美材公司文件、鈺鎧2022年法人說明會簡報。
+- `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` — `PARTIALLY_SUPPORTED`. 亞電108年度年報中「軟板」67次、「覆蓋膜」65次、「手機」49次、「FPC」39次、「穿戴」20次，支持其軟性印刷電路板相關材料業務與手機、穿戴應用；惟「最大宗」出現次數為0，且「車用」僅2次、未載「電池模組 FPC」之具體應用。
+- `4958:objective_ranking_or_market_share:e9718e647cdf6213` 與 `40a491b3e2ad9593` — `UNKNOWN_AFTER_RESEARCH`. 本批次嘗試取得臻鼎-KY官方文件之結果：官方新聞稿 PDF（779,313 bytes）經文字擷取後全檔僅3字元；另查得之 topco-global.com 年報（ANNUAL-111CHN.pdf）經檢視後確認**非臻鼎之文件**（「臻鼎」「4958」「Zhen Ding」「ZDT」出現次數均為0）。故其 FPC 市占地位、客戶身分（Apple／Google／Microsoft）均未獲確立。
+- `4960:objective_ranking_or_market_share:d14cd3d4febf570b` — `PARTIALLY_SUPPORTED`. 誠美材公司文件「董事及經理人資料」註記載「**群創光電(股)公司及代表人劉昭賢於109年5月6日辭任**」，顯示群創曾指派法人代表擔任其董事（且該法人董事已於2020年辭任）；惟全份文件中「群創」僅出現1次，未載其為客戶、長期合作夥伴或最大出海口（文件之核心產品為偏光板，出現16次）。
+- `5228:objective_ranking_or_market_share:b96cf4a86eed0538`、`bc677a4369a50038`、`95ce91a2dd332b21` — `PARTIALLY_SUPPORTED` 與 `UNKNOWN_AFTER_RESEARCH` ×2. 鈺鎧2022年官方簡報載其為磁性被動元件製造廠，市場含「車用市場」「網通市場」「醫療電子」（「車用」17次、「醫療」14次、「網通」3次），支持其應用領域；惟「Cochlear」與「全球最大」出現次數均為0（簡報僅載「無線充電產品已被應用於電子耳朵」），故「全球最大電子耳品牌」及其客戶身分未獲確立。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **71 筆**。
+- Author-reviewed total: **378 / 1,399**; remaining: **1,021**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 239, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 71. Next pending claim by priority: `5243:objective_ranking_or_market_share:7d90a20a437364ad` (乙盛-KY).
+
 
 
 

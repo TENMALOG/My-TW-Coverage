@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-067",
+  "reviewed_at": "2026-10-05T18:48:00Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (亞電108年度年報; 誠美材公司文件; 鈺鎧2022年法人說明會簡報); 臻鼎-KY之官方文件無法取得可判讀內容，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "4939:objective_ranking_or_market_share:2a2e5d7a4b653457",
+      "normalized_claim_hash": "2a2e5d7a4b653457f65b4f431aba7671f2d7e904e730bd650b6e54f03c875b62",
+      "ticker": "4939",
+      "company": "亞電",
+      "path": "Pilot_Reports/Electronic Components/4939_亞電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**終端應用**: 手機 (最大宗), 穿戴裝置, 車用電子 (電池模組 FPC), 醫療。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://aemg.com.tw/zh-tw/pdf/Investor_02_108new.pdf",
+          "title": "亞洲電材股份有限公司（亞電，4939，AEMG）108 年度年報",
+          "source_level": 3,
+          "period_binding": "民國108年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「軟板」出現67次、「覆蓋膜」65次、「FPC」39次、「手機」49次、「穿戴」20次、「車用」2次、「醫療」1次，支持其從事軟性印刷電路板相關材料（覆蓋膜、軟性銅箔基板等）並應用於智慧手機、穿戴式電子產品等領域；年報展望段落亦載「看好中國手機品牌在當地與全球市場的發展」與「攜帶及穿戴式電子產品」之需求。全份年報中「最大宗」出現次數為0。"
+        }
+      ],
+      "rationale": "「終端應用涵蓋手機、穿戴裝置、車用電子（電池模組 FPC）與醫療」獲發行人年報部分支持：108年度年報中「手機」出現49次、「穿戴」20次、「FPC」39次、「軟板」67次、「覆蓋膜」65次，並載其看好中國手機品牌發展與穿戴式電子產品需求；「車用」2次、「醫療」1次。惟兩項陳述未獲支持：(1)「手機為**最大宗**」——全份年報中「最大宗」出現次數為0，未以該語描述應用比重；(2)「車用電子（**電池模組** FPC）」——年報中「車用」僅2次且未載電池模組 FPC 之具體應用。故部分成立。",
+      "proposed_text": "亞洲電材 (4939，AEMG) 從事軟性印刷電路板相關材料（覆蓋膜、軟性銅箔基板等），終端應用涵蓋手機、穿戴裝置、車用與醫療等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4958:objective_ranking_or_market_share:e9718e647cdf6213",
+      "normalized_claim_hash": "e9718e647cdf62133d0f3317d3c5beb81649d91df9a358c4d3c3410f7772642c",
+      "ticker": "4958",
+      "company": "臻鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4958_臻鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **軟板 ([[FPC]])**: 全球市佔第一，主要應用於手機 (iPhone)、平板。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.zdtco.com/tw/news/%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A",
+          "title": "臻鼎科技控股（4958，Zhen Ding Tech）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次就臻鼎-KY嘗試取得可檢視之官方文件：官方新聞稿 PDF（779,313 bytes）經文字擷取後全檔僅3字元，屬影像／圖形排版；另查得之 topco-global.com 年報檔案（ANNUAL-111CHN.pdf）經檢視後，全份文件中「臻鼎」「4958」「Zhen Ding」「ZDT」出現次數均為0，確認其非臻鼎科技之文件。故未取得可判讀之臻鼎官方文字。"
+        }
+      ],
+      "rationale": "「軟板 (FPC) 全球市佔第一，主要應用於手機 (iPhone)、平板」未獲確立：本批次未能取得可判讀之臻鼎官方文件——官方新聞稿 PDF 經文字擷取後全檔僅3字元（影像排版），而查得之 topco-global.com 年報經檢視確認非臻鼎之文件（「臻鼎」「4958」「Zhen Ding」「ZDT」出現次數均為0）。故其 FPC 市占地位與應用機種既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4958:objective_ranking_or_market_share:40a491b3e2ad9593",
+      "normalized_claim_hash": "40a491b3e2ad95933f81493d53b2379c44b478addd0b3080f04508960bf7ebbb",
+      "ticker": "4958",
+      "company": "臻鼎-KY",
+      "path": "Pilot_Reports/Electronic Components/4958_臻鼎-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**終端品牌**: **[[Apple]]** (最大客戶), [[Google]], [[Microsoft]].",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.zdtco.com/tw/news/%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A",
+          "title": "臻鼎科技控股（4958，Zhen Ding Tech）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次就臻鼎-KY嘗試取得可檢視之官方文件：官方新聞稿 PDF（779,313 bytes）經文字擷取後全檔僅3字元，屬影像／圖形排版；另查得之 topco-global.com 年報檔案（ANNUAL-111CHN.pdf）經檢視後，全份文件中「臻鼎」「4958」「Zhen Ding」「ZDT」出現次數均為0，確認其非臻鼎科技之文件。故未取得可判讀之臻鼎官方文字。"
+        }
+      ],
+      "rationale": "「終端品牌：Apple（最大客戶）、Google、Microsoft」未獲確立：本批次未取得可判讀之臻鼎官方文件（詳見 evidence.note）。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4960:objective_ranking_or_market_share:d14cd3d4febf570b",
+      "normalized_claim_hash": "d14cd3d4febf570b9e6d85112f1cb844ecd21fddb02eb6e0d294c1cec9a96be7",
+      "ticker": "4960",
+      "company": "誠美材",
+      "path": "Pilot_Reports/Electronic Components/4960_誠美材.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[群創]] — 長期合作夥伴與最大出海口",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cmmt.com.tw/company4/632354736.pdf",
+          "title": "誠美材料科技股份有限公司（誠美材，4960，CMMT）公司文件（年報）",
+          "source_level": 3,
+          "period_binding": "文件所載董事異動至民國110年3月；完整年度請見文件封面。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。文件「董事及經理人資料」註記載「3. **群創光電(股)公司及代表人劉昭賢於109年5月6日辭任**」（該註記係說明董事辭任情形），另文件中「偏光板」出現16次（為其核心產品）。全份文件中「群創」僅出現1次（即上開辭任註記），未載其為客戶、合作夥伴或最大出海口；「最大出海口」與「夥伴」之出現次數為0或僅1次且非指群創。"
+        }
+      ],
+      "rationale": "「群創與誠美材具股權與業務往來關係」獲發行人文件部分支持：文件「董事及經理人資料」註記載「**群創光電(股)公司及代表人劉昭賢於109年5月6日辭任**」，顯示群創曾指派法人代表擔任其董事（該註記同時顯示該法人董事已於2020年辭任）。惟「為長期合作夥伴與**最大出海口**」未獲支持：全份文件中「群創」僅出現1次（即上開辭任註記），未載其為客戶、合作夥伴或最大出海口；文件之核心產品為偏光板（「偏光板」16次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5228:objective_ranking_or_market_share:b96cf4a86eed0538",
+      "normalized_claim_hash": "b96cf4a86eed0538d48e13b3eef98a8b97521cad9b8d21778781083ab61932f1",
+      "ticker": "5228",
+      "company": "鈺鎧",
+      "path": "Pilot_Reports/Electronic Components/5228_鈺鎧.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "應用聚焦於車用電子 (車燈控制、胎壓偵測、儀表板、電動窗)、網通 ([[5G]] 基地台、WiFi 模組)、工控及醫療 (全球最大電子耳品牌供應商)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf",
+          "title": "鈺鎧科技股份有限公司（鈺鎧，5228，MAX ECHO）法人說明會簡報（2022-04-11）",
+          "source_level": 3,
+          "period_binding": "2022年4月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其為「1992年創立於台灣台中，為專業**磁性被動元件**製造廠」，產品為「電感、磁珠、相關磁性或陶瓷元件」；市場段落含「**車用**市場」「**網通**市場」「**醫療電子**」（「車用」17次、「醫療」14次、「網通」3次），並載「無線充電產品已被應用於**電子耳朵**，未來持續針對醫療電子設備的方向開發」。全份簡報中「Cochlear」與「全球最大」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "「應用聚焦於車用電子、網通（5G 基地台、WiFi 模組）、工控及醫療」獲發行人簡報支持：簡報載其為磁性被動元件製造廠，市場段落含「車用市場」「網通市場」「醫療電子」（「車用」17次、「醫療」14次、「網通」3次）。惟「（全球最大電子耳品牌供應商）」未獲支持：全份簡報中「Cochlear」與「全球最大」出現次數均為0；簡報僅載「無線充電產品已被應用於電子耳朵」（用語為「電子耳朵」）。故部分成立。",
+      "proposed_text": "鈺鎧科技 (5228，MAX ECHO) 為磁性被動元件製造商，應用涵蓋車用電子、網通與醫療電子等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5228:objective_ranking_or_market_share:bc677a4369a50038",
+      "normalized_claim_hash": "bc677a4369a50038085c6436cbc85011c326b77cd1461e9354c5ef92d5694e2d",
+      "ticker": "5228",
+      "company": "鈺鎧",
+      "path": "Pilot_Reports/Electronic Components/5228_鈺鎧.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Cochlear]] — 全球最大電子耳品牌",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf",
+          "title": "鈺鎧科技股份有限公司（鈺鎧，5228，MAX ECHO）法人說明會簡報（2022-04-11）",
+          "source_level": 3,
+          "period_binding": "2022年4月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其為「1992年創立於台灣台中，為專業**磁性被動元件**製造廠」，產品為「電感、磁珠、相關磁性或陶瓷元件」；市場段落含「**車用**市場」「**網通**市場」「**醫療電子**」（「車用」17次、「醫療」14次、「網通」3次），並載「無線充電產品已被應用於**電子耳朵**，未來持續針對醫療電子設備的方向開發」。全份簡報中「Cochlear」與「全球最大」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "「Cochlear — 全球最大電子耳品牌」未獲確立：查閱之鈺鎧官方簡報中「Cochlear」出現次數為0，亦未載任何電子耳品牌客戶或該品牌之市場地位。因該 claim 之實質內容為具名客戶／品牌身分，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5228:objective_ranking_or_market_share:95ce91a2dd332b21",
+      "normalized_claim_hash": "95ce91a2dd332b215948b6378f811aec63061d607ff326d51aa7d3b446619fc5",
+      "ticker": "5228",
+      "company": "鈺鎧",
+      "path": "Pilot_Reports/Electronic Components/5228_鈺鎧.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Cochlear]] — 全球最大電子耳品牌 (磁性元件供應)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf",
+          "title": "鈺鎧科技股份有限公司（鈺鎧，5228，MAX ECHO）法人說明會簡報（2022-04-11）",
+          "source_level": 3,
+          "period_binding": "2022年4月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其為「1992年創立於台灣台中，為專業**磁性被動元件**製造廠」，產品為「電感、磁珠、相關磁性或陶瓷元件」；市場段落含「**車用**市場」「**網通**市場」「**醫療電子**」（「車用」17次、「醫療」14次、「網通」3次），並載「無線充電產品已被應用於**電子耳朵**，未來持續針對醫療電子設備的方向開發」。全份簡報中「Cochlear」與「全球最大」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「Cochlear — 全球最大電子耳品牌（磁性元件供應）」）。官方簡報中「Cochlear」出現次數為0，未具名該客戶，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
