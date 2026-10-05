@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-250",
+  "reviewed_at": "2026-10-05T23:12:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (旺矽2025法說會; 世禾2025法說會); 弘塑官方端點回傳JavaScript錯誤頁; 公準與利機端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "6223:material_named_relationship:8541a795852b8be1",
+      "normalized_claim_hash": "8541a795852b8be1aa73483e265e6c12b0d65bfe9f309d84149f4644a95258c2",
+      "ticker": "6223",
+      "company": "旺矽",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6223_旺矽.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，受惠於[[AI]]晶片及高效能運算(HPC)的強勁測試需求，旺矽的高階VPC[[探針卡]]與微機電(MEMS)[[探針卡]]出貨大增，並成功打入[[NVIDIA]]、[[AMD]]等國際[[AI]]晶片巨頭的測試供應鏈，成為[[半導體]][[AI]]測試鏈中的核心受惠者。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/622320250325M001.pdf",
+          "title": "旺矽科技股份有限公司（旺矽，6223，MPI Corporation）法人說明會簡報（2025-03-25）",
+          "source_level": 3,
+          "period_binding": "2025年3月25日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取11,905字元，以圖形排版為主）。簡報中「**AI**」出現10次、「**VPC**」6次、「**HPC**」5次、「**探針**」9次（並見「（**探針卡**」「全球**探針卡**市場」），**支持其探針卡業務及與 AI／HPC 測試需求之關聯**。**關鍵發現**：全份簡報中「**NVIDIA**」「**AMD**」與「**MEMS**（微機電）」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「受惠於 [[AI]] 晶片及**高效能運算（HPC）**的強勁**測試需求**，旺矽的高階 **VPC 探針卡**與微機電（**MEMS**）**探針卡**出貨大增」獲發行人簡報**充分支持**：簡報中「**AI**」10次、「**探針卡**」9次、「**VPC**」6次、「**HPC**」5次、「**MEMS**」4次（並見「全球**探針卡**市場」），**支持其 VPC 與 MEMS 探針卡業務及與 AI／HPC 測試需求之關聯**。**惟兩項具名客戶未獲支持**：「成功打入 **[[NVIDIA]]**、**[[AMD]]** 等國際 AI 晶片巨頭」——「**NVIDIA**」與「**AMD**」之出現次數**均為0**，**未具名任何客戶**。**用語註記**：簡報以英文「**MEMS**」呈現（4次），**中文「微機電」則為0次**。故部分成立。",
+      "proposed_text": "旺矽科技 (6223，MPI Corporation) 供應高階 VPC 與 MEMS 探針卡，受惠於 AI 與 HPC 之測試需求。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3551:material_named_relationship:ef53cf0cab8d93a9",
+      "normalized_claim_hash": "ef53cf0cab8d93a9025f50a7641125e14496ff8d96ffcbd842488554b90d8dae",
+      "ticker": "3551",
+      "company": "世禾",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3551_世禾.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**晶圓代工**: [[台積電]] (主要客戶), [[聯電]].",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf",
+          "title": "世禾科技股份有限公司（世禾，3551，Shih-Her Technologies）法人說明會簡報（2025-12-11）",
+          "source_level": 3,
+          "period_binding": "2025年12月11日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,393字元，以圖形排版為主）。簡報封面載「**世禾科技股份有限公司** **Shih-Her Technologies Inc.** 2025/12/11 2025 法人說明會股票代號:**3551** 產業別:綠能環保」；文中「客戶」出現13次，**惟其上下文均為泛稱**（如「幫助**客戶**提高產量、提升可靠性」「**客戶**至上、接受挑戰」）。**關鍵發現**：全份簡報中「**台積電**」「**聯電**」與「晶圓代工」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**晶圓代工**：**[[台積電]]**（主要客戶）、**[[聯電]]**」未獲確立：所取得之世禾2025年法人說明會簡報中「**台積電**」「**聯電**」與「晶圓代工」之出現次數**均為0**；「客戶」雖出現13次，**惟其上下文均為泛稱**（「幫助客戶提高產量」「客戶至上」），**未具名任何客戶**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3131:material_named_relationship:24f7ebe589cc2c13",
+      "normalized_claim_hash": "24f7ebe589cc2c13e98923c5b924315a69a600b104b047e81183092e45a1b40c",
+      "ticker": "3131",
+      "company": "弘塑",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3131_弘塑.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司在 [[CoWoS]] 等 2.5D/3D 先進封裝製程中扮演關鍵角色，受惠於 [[AI]] 晶片帶動的先進封裝擴產，2025 年設備出貨量較前一年成長 70-100%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.gptc.com.tw/document/0/ESG2024/",
+          "title": "弘塑科技股份有限公司（弘塑，3131，Grand Process Technology）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就弘塑所嘗試之兩個官方端點（ESG2024 與 114-Minutes）**均回傳 92 bytes 之內容**——經檢視其為一段 **JavaScript 錯誤頁**（`<script> alert('找不到...檔案'); window.close();`），**並非 PDF 文件**；**屬非文件回應（non_document_response）**，故未取得弘塑可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司在 [[CoWoS]] 等 2.5D/3D 先進封裝製程中扮演關鍵角色…2025 年設備出貨量較前一年成長 70-100%」未獲確立：本批次就弘塑所嘗試之官方端點**回傳 92 bytes 之 JavaScript 錯誤頁**（**非 PDF 文件**，屬**非文件回應**），未取得可檢視之官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3131:material_named_relationship:0549fcefd5513e0f",
+      "normalized_claim_hash": "0549fcefd5513e0f522e477b64a18fd2883f0a031a90f2a14bdd8fda554c4861",
+      "ticker": "3131",
+      "company": "弘塑",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3131_弘塑.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶包括 [[台積電]]、[[聯發科]]、[[日月光投控]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.gptc.com.tw/document/0/ESG2024/",
+          "title": "弘塑科技股份有限公司（弘塑，3131，Grand Process Technology）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就弘塑所嘗試之兩個官方端點（ESG2024 與 114-Minutes）**均回傳 92 bytes 之內容**——經檢視其為一段 **JavaScript 錯誤頁**（`<script> alert('找不到...檔案'); window.close();`），**並非 PDF 文件**；**屬非文件回應（non_document_response）**，故未取得弘塑可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶包括 **[[台積電]]**、**[[聯發科]]**、**[[日月光投控]]**」未獲確立：同上，本批次未取得弘塑可檢視之官方文件（端點回傳 JavaScript 錯誤頁），故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3178:material_named_relationship:2dc7dbada2c57c00",
+      "normalized_claim_hash": "2dc7dbada2c57c00c4c06a0746c98c9f9d6f24a83a539b1c35986f98d3fdf0e2",
+      "ticker": "3178",
+      "company": "公準",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3178_公準.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司專長於高難度材料加工與潔淨室組裝，成功打入全球[[半導體]]設備與[[低軌衛星]]供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/317820250401M001.pdf",
+          "title": "公準精密（3178）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之公準精密端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得公準精密可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司專長於高難度材料加工與**潔淨室**組裝，成功打入全球[[半導體]]設備與[[低軌衛星]]供應鏈」未獲確立：本批次所嘗試之公準官方年報端點與 MOPS 端點均未取得可檢視之檔案（**HTTP 404**），以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3444:export_concentration:1c5cfb21d1b7d9aa",
+      "normalized_claim_hash": "1c5cfb21d1b7d9aa4b9166bbf255910c4344873b9ba728f62d5d8d92a1c3d3ab",
+      "ticker": "3444",
+      "company": "利機",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3444_利機.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2024 年內銷占 58%、外銷占 42%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/344420250401M001.pdf",
+          "title": "利機企業（3444）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之利機企業端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得利機企業可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「2024 年**內銷占 58%**、**外銷占 42%**」未獲確立：本批次所嘗試之利機端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:11:37Z",
+  "generated_at": "2026-10-05T23:12:54Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -252,22 +252,23 @@
     "author-246",
     "author-247",
     "author-248",
-    "author-249"
+    "author-249",
+    "author-250"
   ],
-  "source_batch_count": 249,
-  "total_unknown": 387,
+  "source_batch_count": 250,
+  "total_unknown": 392,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 172,
-    "other_unclassified": 148,
+    "no_official_endpoint_found": 174,
+    "other_unclassified": 149,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 100,
+    "http_404": 102,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
     "garbled_text_layer": 18,
-    "client_rendered_only": 5,
+    "client_rendered_only": 7,
     "download_timeout": 3,
     "source_identity_mismatch": 10
   },
@@ -5924,6 +5925,78 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/249320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3551:material_named_relationship:ef53cf0cab8d93a9",
+      "ticker": "3551",
+      "company": "世禾",
+      "claim": "**晶圓代工**: [[台積電]] (主要客戶), [[聯電]].",
+      "batch_id": "author-250",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/355120251211M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3131:material_named_relationship:24f7ebe589cc2c13",
+      "ticker": "3131",
+      "company": "弘塑",
+      "claim": "公司在 [[CoWoS]] 等 2.5D/3D 先進封裝製程中扮演關鍵角色，受惠於 [[AI]] 晶片帶動的先進封裝擴產，2025 年設備出貨量較前一年成長 70-100%。",
+      "batch_id": "author-250",
+      "failure_signature": [
+        "client_rendered_only"
+      ],
+      "attempted_sources": [
+        "https://www.gptc.com.tw/document/0/ESG2024/"
+      ],
+      "recommended_retry": "改以 MOPS 可用時點或第三方資料庫中由官方檔案衍生之 PDF 重查"
+    },
+    {
+      "claim_id": "3131:material_named_relationship:0549fcefd5513e0f",
+      "ticker": "3131",
+      "company": "弘塑",
+      "claim": "主要客戶包括 [[台積電]]、[[聯發科]]、[[日月光投控]]。",
+      "batch_id": "author-250",
+      "failure_signature": [
+        "client_rendered_only"
+      ],
+      "attempted_sources": [
+        "https://www.gptc.com.tw/document/0/ESG2024/"
+      ],
+      "recommended_retry": "改以 MOPS 可用時點或第三方資料庫中由官方檔案衍生之 PDF 重查"
+    },
+    {
+      "claim_id": "3178:material_named_relationship:2dc7dbada2c57c00",
+      "ticker": "3178",
+      "company": "公準",
+      "claim": "公司專長於高難度材料加工與潔淨室組裝，成功打入全球[[半導體]]設備與[[低軌衛星]]供應鏈。",
+      "batch_id": "author-250",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/317820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3444:export_concentration:1c5cfb21d1b7d9aa",
+      "ticker": "3444",
+      "company": "利機",
+      "claim": "2024 年內銷占 58%、外銷占 42%。",
+      "batch_id": "author-250",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/344420250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

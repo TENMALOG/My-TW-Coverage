@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 09:04 UTC
+Updated: 2026-10-15 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,284 / 1,399**
-- Remaining author review: **115**
-- Latest batch: **author-249** (6 claims)
+- Author-reviewed: **1,290 / 1,399**
+- Remaining author review: **109**
+- Latest batch: **author-250** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **787**
+- `PARTIALLY_SUPPORTED`: **788**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **387**
+- `UNKNOWN_AFTER_RESEARCH`: **392**
 
 ## Latest claim batch
 
-- `8937:profitability_assertion:584212137d4bc8f8` — `PARTIALLY_SUPPORTED`；合騏文件載「投資**屹海風電**購置**離岸風電**海工船(WTIV)」（**離岸風電 10 次、ATV 3 次**）；**惟「成長引擎」0 次、「佔比下降」之比例未見**。
-- `3016:material_named_relationship:8581e12d6a596589` — `PARTIALLY_SUPPORTED`；嘉晶年報**逐字載**「身為專業的**矽磊晶代工**廠」（**磊晶 80 次**）；**惟「60%」之唯一出現為「15.60%」之一部分——屬子字串誤配**。
-- `3059:material_named_relationship:eab93d66cca8c7ea` — `PARTIALLY_SUPPORTED`；華晶科ESG「**ADAS」1 次、「鏡頭模組」1 次**；**惟「歐美／Tier 1」皆 0 次**。
-- `2481:export_concentration:3941f289bb5c6d99` — `UNKNOWN_AFTER_RESEARCH`；強茂簡報「**外銷／亞洲／89%／76%」皆 0 次**。
-- `6556:f368b63329d192de`、`2493:e11eec4c999dcd1d` — `UNKNOWN_AFTER_RESEARCH` ×2；勝品與揚博端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-249.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,284 ＝ 條目總數 1,284。**覆蓋率 91.78%**。
-- Next pending claim by priority: `3131:material_named_relationship:24f7ebe589cc2c13` (弘塑).
+- `6223:material_named_relationship:8541a795852b8be1` — `PARTIALLY_SUPPORTED`；旺矽簡報「**AI」10 次、「探針卡」9 次、「VPC」6 次、「HPC」5 次、「MEMS」4 次**；**惟「NVIDIA／AMD」皆 0 次**。
+- `3551:material_named_relationship:ef53cf0cab8d93a9` — `UNKNOWN_AFTER_RESEARCH`；世禾簡報「**台積電／聯電／晶圓代工」皆 0 次**（「客戶」13 次皆為泛稱）。
+- ⚠️ `3131:24f7ebe589cc2c13`、`0549fcefd5513e0f` — `UNKNOWN_AFTER_RESEARCH` ×2；弘塑官方端點**回傳 92 bytes 之 JavaScript 錯誤頁**（**非文件回應**）。
+- `3178:2dc7dbada2c57c00`、`3444:1c5cfb21d1b7d9aa` — `UNKNOWN_AFTER_RESEARCH` ×2；公準與利機端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-250.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,290 ＝ 條目總數 1,290。**覆蓋率 92.21%**。
+- Next pending claim by priority: `6261:material_named_relationship:25564dd7283d8c8e` (久元).
 
 ## Source access
 
