@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 01:04 UTC
+Updated: 2026-10-12 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **919 / 1,399**
-- Remaining author review: **480**
-- Latest batch: **author-169** (5 claims)
+- Author-reviewed: **924 / 1,399**
+- Remaining author review: **475**
+- Latest batch: **author-170** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,17 +20,14 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **220**
+- `UNKNOWN_AFTER_RESEARCH`: **225**
 
 ## Latest claim batch
 
-- `8415:objective_ranking_or_market_share:016f3d5d3ac36d27` — `UNKNOWN_AFTER_RESEARCH`；大國鋼簡報「**6.74%／BBI-USA／進口」皆 0 次**。
-- `8415:objective_ranking_or_market_share:1ca8b457e27ce836` — `PARTIALLY_SUPPORTED`；簡報「採購整合、電子商務銷售(B2B)及實體配銷」；惟「北美」「倉儲」「物流」皆0次。
-- `2608:objective_ranking_or_market_share:8bdb0d8de660d7b1` — `PARTIALLY_SUPPORTED`；嘉里簡報「**3,350+ 營業車輛**」逐字命中；**惟「營業站所/物流中心」原文為「90/10」**（claim 寫 92／11）、**「營業據點」原文為 160**（claim 寫 190）、「市佔」「最綿密」皆0次。
-- `2608:objective_ranking_or_market_share:8073210a19686ced` — `PARTIALLY_SUPPORTED`；簡報「**醫藥物流 車輛/據點：234/13**」；惟「嘉里醫藥」「五成」「PIC/S」「唯一」皆0次。
-- `2608:objective_ranking_or_market_share:31d8ab6170333d31` — `UNKNOWN_AFTER_RESEARCH`；「嘉里醫藥」「五成」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-169.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `5604:objective_ranking_or_market_share:16da157ef7a9024f` (中連).
+- `5604:objective_ranking_or_market_share:16da157ef7a9024f`、`0e3541b15942f7ee`、`b23601c5085ed50f` — `UNKNOWN_AFTER_RESEARCH` ×3；所取得之第三方文件**屬另一法人**（福貞-KY 公開說明書，「中連」0次）；**MOPS 年報端點（110／111／112）三者皆回傳 320 bytes 非文件內容**。
+- `9908:objective_ranking_or_market_share:41dadca39e0dbe40`、`31cc2bfe1d4bcbbb` — `UNKNOWN_AFTER_RESEARCH` ×2；大台北官方端點 **HTTP 403**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-170.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6977:objective_ranking_or_market_share:578892ccae2b59f4` (聯純).
 
 ## Source access
 

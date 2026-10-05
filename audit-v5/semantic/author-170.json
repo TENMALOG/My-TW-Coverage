@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-170",
+  "reviewed_at": "2026-10-05T21:27:12Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosure endpoints; 中連所取得檔案屬另一法人且MOPS端點為非文件內容、大台北端點HTTP 403，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "5604:objective_ranking_or_market_share:16da157ef7a9024f",
+      "normalized_claim_hash": "16da157ef7a9024f74885ae2b2049b94971a9e7a56dc4f4d49f032a03d660ffe",
+      "ticker": "5604",
+      "company": "中連",
+      "path": "Pilot_Reports/Trucking/5604_中連.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大承租戶為[[新竹物流]]，承租約半數場站土地作為營運據點。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://stock.landbank.com.tw/GetImg.aspx?p=Base&f=0272186e8f4a41618b4649ed0f214b20.pdf",
+          "title": "中連（5604）官方文件檢索（查證限制：所取得檔案屬另一法人；MOPS 年報端點為非文件內容）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就中連（5604）進行官方文件檢索，遭遇兩類限制：**(1) 所取得之第三方文件經檢視並非中連之文件**——該檔（700,412字元）內容為**另一公司之公開說明書**（文中載「**福貞台灣新竹廠**」「台灣廠：新竹縣新豐鄉建興路2段372號」「2022年收購TSMP公司股權」等，為**福貞-KY**之公開說明書），**「中連」之出現次數為0**，**屬身分不符**，不予採用；**(2) 本批次另嘗試之 MOPS 年報端點（t100sa11_5604_110／111／112.pdf）三者皆回傳 320 bytes 之非文件內容**。本批次未取得中連可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「最大承租戶為[[新竹物流]]，承租約半數場站土地作為營運據點」未獲確立：本批次所取得之第三方文件經檢視**並非中連之文件**（內容為**另一公司之公開說明書**，「中連」出現次數為0），**屬身分不符，不予採用**；另本批次嘗試之 MOPS 年報端點**皆回傳 320 bytes 之非文件內容**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5604:objective_ranking_or_market_share:0e3541b15942f7ee",
+      "normalized_claim_hash": "0e3541b15942f7ee842d148eca4b6b15810b827a86daa6dfa3cb00098bdb5366",
+      "ticker": "5604",
+      "company": "中連",
+      "path": "Pilot_Reports/Trucking/5604_中連.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[新竹物流]] — 最大承租戶，承租約半數場站土地",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://stock.landbank.com.tw/GetImg.aspx?p=Base&f=0272186e8f4a41618b4649ed0f214b20.pdf",
+          "title": "中連（5604）官方文件檢索（查證限制：所取得檔案屬另一法人；MOPS 年報端點為非文件內容）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就中連（5604）進行官方文件檢索，遭遇兩類限制：**(1) 所取得之第三方文件經檢視並非中連之文件**——該檔（700,412字元）內容為**另一公司之公開說明書**（文中載「**福貞台灣新竹廠**」「台灣廠：新竹縣新豐鄉建興路2段372號」「2022年收購TSMP公司股權」等，為**福貞-KY**之公開說明書），**「中連」之出現次數為0**，**屬身分不符**，不予採用；**(2) 本批次另嘗試之 MOPS 年報端點（t100sa11_5604_110／111／112.pdf）三者皆回傳 320 bytes 之非文件內容**。本批次未取得中連可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名承租戶事實之條目表述（「[[新竹物流]] — 最大承租戶，承租約半數場站土地」）。同上，本批次**未取得中連本身可檢視之官方文件**（所取得檔案屬另一法人；MOPS 年報端點皆為 320 bytes 非文件內容），故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5604:objective_ranking_or_market_share:b23601c5085ed50f",
+      "normalized_claim_hash": "b23601c5085ed50fcf78c5275fbe51202faa339c734cf57b27adb39a2cb3dbb0",
+      "ticker": "5604",
+      "company": "中連",
+      "path": "Pilot_Reports/Trucking/5604_中連.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[新竹物流]] — 最大承租戶，承租約半數土地場站",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://stock.landbank.com.tw/GetImg.aspx?p=Base&f=0272186e8f4a41618b4649ed0f214b20.pdf",
+          "title": "中連（5604）官方文件檢索（查證限制：所取得檔案屬另一法人；MOPS 年報端點為非文件內容）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就中連（5604）進行官方文件檢索，遭遇兩類限制：**(1) 所取得之第三方文件經檢視並非中連之文件**——該檔（700,412字元）內容為**另一公司之公開說明書**（文中載「**福貞台灣新竹廠**」「台灣廠：新竹縣新豐鄉建興路2段372號」「2022年收購TSMP公司股權」等，為**福貞-KY**之公開說明書），**「中連」之出現次數為0**，**屬身分不符**，不予採用；**(2) 本批次另嘗試之 MOPS 年報端點（t100sa11_5604_110／111／112.pdf）三者皆回傳 320 bytes 之非文件內容**。本批次未取得中連可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名承租戶事實之條目表述（「[[新竹物流]] — 最大承租戶，承租約半數土地場站」）。同上，本批次未取得中連本身可檢視之官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9908:objective_ranking_or_market_share:41dadca39e0dbe40",
+      "normalized_claim_hash": "41dadca39e0dbe4061fe966dc01bc6f7553438ff1ba07a93788e3ed264d2c362",
+      "ticker": "9908",
+      "company": "大台北",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9908_大台北.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大台北區瓦斯股份有限公司成立於1964年，總部位於台北市，為大台北地區最大且歷史最悠久之天然氣公用事業。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tactc.com.tw/upload_attach/1755150327.pdf",
+          "title": "大台北區瓦斯股份有限公司（大台北，9908，The Great Taipei Gas）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域下載文件時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得大台北可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「大台北區瓦斯股份有限公司成立於1964年，總部位於台北市，為大台北地區最大且歷史最悠久之天然氣公用事業」未獲確立：本批次自發行人官方網域下載文件時回應 **HTTP 403（禁止）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9908:objective_ranking_or_market_share:31cc2bfe1d4bcbbb",
+      "normalized_claim_hash": "31cc2bfe1d4bcbbbfdd247b5ee47503f94fe392bbc4141d88d4e5f042a44f981",
+      "ticker": "9908",
+      "company": "大台北",
+      "path": "Pilot_Reports/Utilities - Regulated Gas/9908_大台北.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台北市及新北市數十萬戶家庭住宅天然氣用戶（最大客戶群）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.tactc.com.tw/upload_attach/1755150327.pdf",
+          "title": "大台北區瓦斯股份有限公司（大台北，9908，The Great Taipei Gas）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自發行人官方網域下載文件時回應 **HTTP 403（禁止）**，未取得可檢視之檔案；本批次未取得大台北可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「台北市及新北市數十萬戶家庭住宅天然氣用戶（最大客戶群）」未獲確立：本批次自發行人官方網域下載文件時回應 **HTTP 403（禁止）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
