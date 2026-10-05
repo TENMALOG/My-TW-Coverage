@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-184",
+  "reviewed_at": "2026-10-05T21:43:23Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (倉佑股東會年報; 吉茂2024年法說會簡報; 六暉114年Q3營運概況簡報)",
+  "items": [
+    {
+      "claim_id": "1568:material_named_relationship:1946ef9117a00ea3",
+      "normalized_claim_hash": "1946ef9117a00ea319fac6fbdf350a298eeda7f6d3b53f3ae87411bec48a2f78",
+      "ticker": "1568",
+      "company": "倉佑",
+      "path": "Pilot_Reports/Auto Parts/1568_倉佑.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為全球 Tier 1 傳動系統整合商 — [[BorgWarner]]、[[Valeo]]、[[Magna]]，以及變速箱製造商[[JATCO]]、[[Aisin]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tsangyow.com.tw/_upload/shareholder_meeting/150725618704986.pdf",
+          "title": "倉佑實業股份有限公司（倉佑，1568，Tsang Yow Industrial）股東會年報",
+          "source_level": 3,
+          "period_binding": "年報所載期間請見文件。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取235,025字元）。年報中「**變速箱**」出現58次、「**傳動**」16次、「**BorgWarner**」5次、「**Magna**」2次，支持其傳動系統／變速箱零組件業務，並具名 BorgWarner 與 Magna。全份年報中「**Valeo**」「**JATCO**」與「**Aisin**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶為全球 Tier 1 **傳動系統／變速箱**整合商」獲發行人年報支持：年報中「**變速箱**」出現58次、「**傳動**」16次、「**BorgWarner**」5次、「**Magna**」2次，**業務別成立並具名兩家客戶**。惟三項具名客戶未獲支持：「**Valeo**」「**JATCO**」與「**Aisin**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "倉佑實業 (1568，Tsang Yow Industrial) 為 BorgWarner、Magna 等 Tier 1 傳動系統整合商之供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1587:material_named_relationship:d2dca4718073d632",
+      "normalized_claim_hash": "d2dca4718073d6320a26988f2bf5d34a7f88f72cea86c697b179008146ddf014",
+      "ticker": "1587",
+      "company": "吉茂",
+      "path": "Pilot_Reports/Auto Parts/1587_吉茂.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司憑藉熱交換技術成功切入[[AI 伺服器]]水冷散熱零件 (板式熱交換器/CDU 冷卻系統)，供應[[廣達]] [[GB200]] HPC 水冷專案，營收佔比約 2-3%，預計快速放量至 10%+。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/158720241120M001.pdf",
+          "title": "吉茂精密股份有限公司（吉茂，1587，Cryomax Cooling System Corp.）2024年法說會簡報",
+          "source_level": 3,
+          "period_binding": "2024年。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,676字元，以圖形排版為主）。簡報之內容為「營運報告」「墨西哥吉茂廠近況」「Q&A」，並含「營收狀況」「區域別營收比重」「產品別營收」等表（區域別以美洲69.39%、台灣10.42%、亞洲13.22%等呈現），**通篇未見 AI 伺服器、水冷或散熱零件之敘述**。全份簡報中「**AI 伺服器**」「**水冷**」「**板式**」「**CDU**」「**廣達**」「**GB200**」與「**熱交換**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「公司憑藉**熱交換**技術成功切入 [[AI 伺服器]]**水冷散熱**零件（**板式熱交換器**／**CDU** 冷卻系統），供應[[廣達]] [[GB200]] HPC 水冷專案，營收佔比約 2-3%，預計快速放量至 10%+」未獲確立：所取得之吉茂2024年法說會簡報（內容為營運報告、墨西哥廠近況、區域別與產品別營收表）中，「**AI 伺服器**」「**水冷**」「**板式**」「**CDU**」「**廣達**」「**GB200**」「**熱交換**」與「2-3%」「10%+」之出現次數**均為0**，**通篇未見該業務之敘述**。因該 claim 之實質內容為新業務切入與具名客戶，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2115:material_named_relationship:2fe94d2bbc829199",
+      "normalized_claim_hash": "2fe94d2bbc8291991d4b47237366108ce468793ab6a935a677e0f9da2b45f7e4",
+      "ticker": "2115",
+      "company": "六暉-KY",
+      "path": "Pilot_Reports/Auto Parts/2115_六暉-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋輪胎三巨頭[[普利司通]] (Bridgestone)、[[米其林]] (Michelin)、[[固特異]] (Goodyear)，以及台灣[[正新]] (Maxxis)、[[建大]] (Kenda)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.luhai.com.tw/upload/editupfile/file/%E9%87%8D%E5%A4%A7%E8%A8%8A%E6%81%AF%E8%88%87%E6%B3%95%E8%AA%AA%E5%85%AC%E5%91%8A/%E6%B3%95%E8%AA%AA%E7%B0%A1%E5%A0%B1/20251209%E5%85%AD%E6%9A%89%E6%8E%A7%E8%82%A1114%E5%B9%B4Q3%E7%87%9F%E9%81%8B%E7%8B%80%E6%B3%81.pdf",
+          "title": "六暉控股股份有限公司（六暉-KY，2115，LU HAI HOLDING CORP.）2025年度前三季營運概況簡報（2025-12-09）",
+          "source_level": 3,
+          "period_binding": "2025年12月9日（2025年度前三季）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取5,701字元，以圖形排版為主）。簡報載「主要產品 **氣門嘴**之製造銷售約80%」「集團**氣門嘴**產能 7,000萬套/月」「**全球最大產能專業氣門嘴製造商**」「六暉創立時間1980」「六暉控股成立2009.10.19」「六暉-KY上市2013.12.25」，**充分描述其氣門嘴業務與市場地位**。**關鍵發現**：全份簡報中「**普利**」「**米其**」「**固特**」「**正新**」「**建大**」「**Bridgestone**」「**Michelin**」「**Goodyear**」與「**輪胎**」之出現次數**均為0**——**未具名任何客戶或輪胎廠**（「客戶」僅2次）。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋輪胎三巨頭[[普利司通]]、[[米其林]]、[[固特異]]，以及台灣[[正新]]、[[建大]]」未獲確立：所取得之六暉114年Q3營運概況簡報中，「**普利**」「**米其**」「**固特**」「**正新**」「**建大**」及英文名（Bridgestone／Michelin／Goodyear）與「**輪胎**」之出現次數**均為0**——該簡報雖載「**全球最大產能專業氣門嘴製造商**」等業務敘述，**惟未具名任何客戶或輪胎廠**。因該 claim 之實質內容為具名客戶，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
