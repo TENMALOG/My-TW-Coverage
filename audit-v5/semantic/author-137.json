@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-137",
+  "reviewed_at": "2026-10-05T20:48:19Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中興電公司背景文件英文版; 亞崴114年第四季個體財務報告)",
+  "items": [
+    {
+      "claim_id": "1513:objective_ranking_or_market_share:bf4e992193fcae82",
+      "normalized_claim_hash": "bf4e992193fcae822c975cd62fc744849c06951e37a1f9e7040702d9d3fbe564",
+      "ticker": "1513",
+      "company": "中興電",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1513_中興電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中興電工 (1513，Chung-Hsin Electric) 為台灣[[氣體絕緣開關]] (GIS) 領導廠，國內高壓 GIS 市佔約七成，唯一取得[[台電]] 345kV GIS 認證。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/151320161005E001.pdf",
+          "title": "中興電工機械股份有限公司（中興電，1513，Chung-Hsin Electric & Machinery / CHEM）公司背景文件（英文版）",
+          "source_level": 3,
+          "period_binding": "2016年10月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取16,437字元，以圖形排版為主）。文件載「**CHEM holds independent innovation of development in technology for GIS (Gas-Insulated Switchgear)**」與「Power Equipment, Engineering and Energy Management」「Established in 1956」「TSE: Code 1513」（「**GIS**」2次、「switchgear」1次），支持其氣體絕緣開關（GIS）之技術與業務。全份文件中「**Taipower**」「**Taiwan Power**」「**market share**」與「**largest**」之出現次數**均為0**；中文關鍵字（氣體絕緣、345kV、台電、七成、唯一、統包）亦均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「從事[[氣體絕緣開關]]（GIS）技術與業務」獲發行人文件支持：文件（**英文版**）載「**CHEM holds independent innovation of development in technology for GIS (Gas-Insulated Switchgear)**」（「**GIS**」2次、「switchgear」1次），支持其 GIS 技術與業務。惟三項陳述未獲支持：(1)「為台灣 GIS **領導廠**」——「market share」與「largest」均0次；(2)「國內高壓 GIS **市佔約七成**」——同前；(3)「**唯一**取得[[台電]] **345kV** GIS 認證」——「Taipower」「Taiwan Power」均0次，中文「台電」「345kV」「唯一」亦為0。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "中興電工機械 (1513，Chung-Hsin Electric & Machinery) 從事氣體絕緣開關（GIS）等電力設備業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1513:objective_ranking_or_market_share:9130fb44b84a3c57",
+      "normalized_claim_hash": "9130fb44b84a3c57b302bb270e67b24414945fbd7cebaf9fe590b3ce75d17982",
+      "ticker": "1513",
+      "company": "中興電",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1513_中興電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台電]] — 最大客戶 (345kV GIS、變電站統包)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/151320161005E001.pdf",
+          "title": "中興電工機械股份有限公司（中興電，1513，Chung-Hsin Electric & Machinery / CHEM）公司背景文件（英文版）",
+          "source_level": 3,
+          "period_binding": "2016年10月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取16,437字元，以圖形排版為主）。文件載「**CHEM holds independent innovation of development in technology for GIS (Gas-Insulated Switchgear)**」與「Power Equipment, Engineering and Energy Management」「Established in 1956」「TSE: Code 1513」（「**GIS**」2次、「switchgear」1次），支持其氣體絕緣開關（GIS）之技術與業務。全份文件中「**Taipower**」「**Taiwan Power**」「**market share**」與「**largest**」之出現次數**均為0**；中文關鍵字（氣體絕緣、345kV、台電、七成、唯一、統包）亦均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「[[台電]] — 最大客戶（345kV GIS、變電站統包）」未獲確立：所取得之中興電文件中「**Taipower**」「**Taiwan Power**」「**largest**」之出現次數**均為0**（中文「台電」「統包」亦為0），未載該具名客戶及其專案敘述。因該 claim 之實質內容為具名客戶與其專案，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1530:objective_ranking_or_market_share:03337988477ef09c",
+      "normalized_claim_hash": "03337988477ef09cf679de4545e9982f2edf48b9c99d9d49cda570659bdeab49",
+      "ticker": "1530",
+      "company": "亞崴",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/1530_亞崴.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "亞崴機電 (1530，AWEA) 隸屬[[程泰]]集團 (1583)，有「龍門世家」之稱，為台灣龍門型加工中心機市占領先者。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.awea.com/tw/investor/reports/114%e5%b9%b4%e7%ac%ac4%e5%ad%a3IFRSs%e5%80%8b%e9%ab%94%e8%b2%a1%e5%a0%b1.pdf",
+          "title": "亞崴機電股份有限公司（亞崴，1530，AWEA）114 年第四季個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國114年第四季。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取68,636字元）。報告中「**加工中心**」出現3次、「**龍門**」1次、「**程泰**」1次，支持其龍門型加工中心機業務及與程泰之集團關係。全份報告中「**市占**」「**領先**」與「**龍門世家**」之出現次數**均為0**；「車床」亦為0。"
+        }
+      ],
+      "rationale": "「隸屬[[程泰]]集團（1583），從事龍門型加工中心機業務」獲發行人財務報告支持：報告中「**程泰**」出現1次、「**加工中心**」3次、「**龍門**」1次，支持其集團歸屬與產品類型。惟兩項陳述未獲支持：(1)「有『**龍門世家**』之稱」——出現次數為0；(2)「為台灣龍門型加工中心機**市占領先者**」——「市占」與「領先」均為0，未載該市場地位。故部分成立。",
+      "proposed_text": "亞崴機電 (1530，AWEA) 隸屬程泰集團 (1583)，從事龍門型加工中心機業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
