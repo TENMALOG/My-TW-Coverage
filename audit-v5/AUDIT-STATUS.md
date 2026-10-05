@@ -34,7 +34,8 @@ Branch: `audit-v5`
 - `6624:material_named_relationship:9427141aad3f581c` — `PARTIALLY_SUPPORTED`；萬年清ESG「**廢水」92 次**；**惟「半導體／封裝／台積電」皆 0 次**。
 - `8476:material_named_relationship:1f56f40e7746d7f1` — `PARTIALLY_SUPPORTED`；台境簡報載「案例-**中油**污染土處理場址」（**污染 11 次、整治 14 次**）；**惟「台電」0 次**。
 - 證據記錄於 `semantic/author-266.json`（**16 筆**）。未修改發行人報告。帳目一致：唯一 claim 數 1,399 ＝ 條目總數 1,399。
-- ✅ **作者審核階段完成：1,399 / 1,399（100.00%）。待辦之作者 claim 為 0 筆；後續為獨立複核階段（`final_state` 仍為 null）。**
+- ✅ **作者審核階段完成：1,399 / 1,399（100.00%）。待辦之作者 claim 為 0 筆；後續為獨立複核階段（`final_state` 仍為 null，全帳本 1,399 筆皆為 null）。**
+- **帳本一致鍵驗證**：唯一 claim 數 1,399 ＝ 條目總數 1,399；缺 `normalized_claim_hash` 者 **0**、與佇列不符者 **0**。**（2026-10-16 補齊 `author-001` 之欄位缺口，未更動任何判定。）**
 
 ## Source access
 

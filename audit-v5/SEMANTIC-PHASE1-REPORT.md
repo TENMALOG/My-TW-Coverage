@@ -2960,6 +2960,15 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending for all claims.
 - **作者審核階段完成**：Author-reviewed total **1,399 / 1,399（100.00%）**，remaining **0**。Outcome counts: ACCEPTED 111, PARTIALLY_SUPPORTED 833, UNSUPPORTED 2, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 450.
 - `local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **450 筆**，供獨立複核階段使用。
+## Ledger metadata completion — 2026-10-16（作者審核階段收尾）
+
+- 於階段完成後執行全帳本一致鍵驗證時發現：**帳本之最早批次 `author-001`（8 筆）僅具 `claim_id／decision／evidence／rationale`（部分含 `proposed_text`），缺少 `normalized_claim_hash／ticker／company／claim／path／signal_type／time_class／independent_review／final_state`**；另有 `author-007` 與 `author-010` 各 1 筆缺 `proposed_text`。
+- **影響**：帳本之「以 `claim_id + normalized_claim_hash` 跳過已審 claim」之機制對該 8 筆失效（僅能以 `claim_id` 比對）。
+- **處理**：**僅補齊上列欄位**（內容取自 `generated/semantic-high-queue.json` 之對應紀錄），並於 `author-001` 加入 `metadata_completion` 說明物件；**未更動任何 `decision`、`evidence`、`rationale` 或 `proposed_text`**（已以程式逐筆比對確認不變）。
+- **修正後總驗證**：唯一 claim 數 **1,399 ＝ 條目總數 1,399**；remaining **0**；**缺 `normalized_claim_hash` 者 0 筆、與佇列不符者 0 筆**；**`final_state` 非 null 或缺欄者 0 筆**；判定分布不變（ACCEPTED 111、PARTIALLY_SUPPORTED 833、UNSUPPORTED 2、SOURCE_UNAVAILABLE 3、UNKNOWN_AFTER_RESEARCH 450）。
+- **Cloud 失敗觀察**：`semantic/local-recheck-queue.json` 維持 **15 筆**（HTTP 500 × 8、HTTP 503 × 7），`updated_at` 仍為 2026-10-05，**未更動**。
+- **作者審核階段完成**：1,399 / 1,399（100.00%）。後續為獨立複核階段（`final_state` 全為 null，待獨立複核者填具）。
+
 
 
 
