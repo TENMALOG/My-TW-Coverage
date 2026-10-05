@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 00:04 UTC
+Updated: 2026-10-15 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,228 / 1,399**
-- Remaining author review: **171**
-- Latest batch: **author-240** (6 claims)
+- Author-reviewed: **1,235 / 1,399**
+- Remaining author review: **164**
+- Latest batch: **author-241** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **762**
+- `PARTIALLY_SUPPORTED`: **765**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **358**
+- `UNKNOWN_AFTER_RESEARCH`: **362**
 
 ## Latest claim batch
 
-- `2404:material_named_relationship:c9fafe0c318e0dc0` — `PARTIALLY_SUPPORTED`；漢唐簡報「**台積電」15 次、「Micron」10 次、「新加坡」4 次**（ESG亦同）；**惟「ASML」0 次**。
-- `5536:material_named_relationship:77eb22555b4e78ed` — `PARTIALLY_SUPPORTED`；聖暉年報**逐字載**「歷年來承攬**矽品、日月光、台積電**、台達電及台灣康寧等知名（廠商）」（台積電2次、日月光1次、**無塵室 42 次、機電 66 次**）；**惟「核心客戶」之排序性表述未見**。
-- `9945:material_named_relationship:62688d7d62c26d93` — `UNKNOWN_AFTER_RESEARCH`；潤泰新簡報「**中鋼／鋼筋／供應商」皆 0 次**。
-- `9906:material_named_relationship:62688d7d62c26d93` — `UNKNOWN_AFTER_RESEARCH`；未取得欣巴巴文件。**併同發現：本筆與 9945 之 normalized_claim_hash 完全相同——同一 claim 文本被掛在兩個 ticker 上**。
-- `5263:aa07cffc342c44f5`、`9950:f674c7866ea25891` — `UNKNOWN_AFTER_RESEARCH` ×2；智崴與萬國通端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-240.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,228 ＝ 條目總數 1,228。
-- Next pending claim by priority: `1558:profitability_assertion:be4566041628db44` (伸興).
+- `1558:profitability_assertion:be4566041628db44` — `PARTIALLY_SUPPORTED`；伸興年報載「本公司擬公開收購**宇隆科技**股（份）」（**宇隆 22 次、精密金屬 6 次**）；**惟「車用／成長引擎」皆 0 次**。
+- `2059:material_named_relationship:d71bdb08bb2f9450` — `PARTIALLY_SUPPORTED`；川湖簡報載「**亞洲第一伺服器導軌製造商**」（**導軌 11 次、伺服器 8 次**）；**惟「NVIDIA／AI／負重／液冷」皆 0 次**。
+- `2059:material_named_relationship:ce770dad814d7e9c` — `UNKNOWN_AFTER_RESEARCH`；「**NVIDIA／GB／AI」皆 0 次**。
+- `4950:identity_changing_event:c9787575920a865a` — `PARTIALLY_SUPPORTED`；金耘議事手冊封面載「**（原名：牧東光電股份有限公司）**」並載「成為專業**工業材料通路供應商**」（通路8次）；**惟「特殊合金／母集團」皆 0 次**。
+- `6222:637ee001b1e2b858`、`6584:5e3c3a2f673f6a83`、`6584:e6c7482a3be5e405` — `UNKNOWN_AFTER_RESEARCH` ×3；立軒與南俊國際端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-241.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,235 ＝ 條目總數 1,235。
+- Next pending claim by priority: `6616:material_named_relationship:ef25aff8ea336307` (特昇-KY).
 
 ## Source access
 

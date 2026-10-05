@@ -1,0 +1,192 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-241",
+  "reviewed_at": "2026-10-05T22:59:59Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (川湖2024法說會; 伸興2025法說會與2022年報; 金耘國際股東會議事手冊); 立軒與南俊國際端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "1558:profitability_assertion:be4566041628db44",
+      "normalized_claim_hash": "be4566041628db4465026359c9606e8bb11743b330aeee366e8df0438c968ad0",
+      "ticker": "1558",
+      "company": "伸興",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1558_伸興.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "子公司[[宇隆科技]]從事車用精密金屬零件加工，為伸興集團重要成長引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/155820250325M001.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zenghsing）法人說明會簡報（2025-03-25）",
+          "source_level": 3,
+          "period_binding": "2025年3月25日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,458字元，以圖形排版為主）。簡報中「**宇隆**」出現4次、「**精密金屬**」1次。"
+        },
+        {
+          "url": "https://www.zenghsing.com.tw/wp-content/uploads/2023/06/2022%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zenghsing）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取279,406字元）。年報載「**宇隆**科技股份有限公司副董事長」「本公司擬公開收購**宇隆科技**股（份）」（「**宇隆**」22次、「**精密金屬**」6次），**支持宇隆科技與伸興集團之關係及其精密金屬業務**。**關鍵發現**：就該 claim 而言，「**車用**」與「**成長引擎**」之出現次數**均為0**（「車用」未見於宇隆業務之敘述中）。"
+        }
+      ],
+      "rationale": "「子公司**[[宇隆科技]]**…從事**精密金屬**零件加工」獲發行人年報**充分支持**：年報載「**宇隆**科技股份有限公司副董事長」「本公司擬公開收購**宇隆科技**股（份）」（「**宇隆**」22次、「**精密金屬**」6次），**支持宇隆科技與伸興集團之關係及其精密金屬業務**。**惟兩項陳述未獲支持**：(1)「**車用**（精密金屬零件）」——「車用」之出現次數**為0**；(2)「為伸興集團**重要成長引擎**」——「成長引擎」為**0**。故部分成立。",
+      "proposed_text": "伸興工業 (1558，Zenghsing) 之集團成員宇隆科技從事精密金屬零件加工。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2059:material_named_relationship:d71bdb08bb2f9450",
+      "normalized_claim_hash": "d71bdb08bb2f9450b74c8b86b5e61a31e2b3b0c16b778077328e9735f6f39f0e",
+      "ticker": "2059",
+      "company": "川湖",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/2059_川湖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "受惠於 [[AI 伺服器]]重量激增與液冷散熱需求，川湖成功開發超高負重導軌，打入 [[NVIDIA]] GB 系列新世代 [[AI 伺服器]]供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/205920240807M001.pdf",
+          "title": "川湖科技股份有限公司（川湖，2059，King Slide）法人說明會簡報（2024-08-07）",
+          "source_level": 3,
+          "period_binding": "2024年8月7日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取13,942字元，以圖形排版為主）。簡報載「**亞洲第一伺服器導軌製造商**」「伺服器**導軌**問市」「伺服器**導軌**」（「**導軌**」11次、「**伺服器**」8次、「川湖」6次），**充分支持其伺服器導軌業務與亞洲領先地位**。**關鍵發現**：全份簡報中「**NVIDIA**」「**GB**」「**AI**」「負重」與「液冷」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「成功開發（**超高負重**）**導軌**」與其伺服器導軌業務獲發行人簡報**充分支持**：簡報載「**亞洲第一伺服器導軌製造商**」「伺服器**導軌**問市」「伺服器**導軌**」（「**導軌**」11次、「**伺服器**」8次），**支持其伺服器導軌產品與領先地位**。**惟多項陳述未獲支持**：(1)「受惠於 [[AI 伺服器]]重量激增」——「**AI**」之出現次數**為0**；(2)「液冷散熱需求」——「液冷」為**0**；(3)「**超高負重**導軌」——「負重」為**0**；(4)「打入 [[NVIDIA]]（供應鏈）」——「**NVIDIA**」為**0**。故部分成立。",
+      "proposed_text": "川湖科技 (2059，King Slide) 為亞洲第一伺服器導軌製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2059:material_named_relationship:ce770dad814d7e9c",
+      "normalized_claim_hash": "ce770dad814d7e9cbc0cff171aa35cddf6c1922c10cf81d750c7e3e441cb799e",
+      "ticker": "2059",
+      "company": "川湖",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/2059_川湖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] — GB 系列 [[AI 伺服器]]導軌認證供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/205920240807M001.pdf",
+          "title": "川湖科技股份有限公司（川湖，2059，King Slide）法人說明會簡報（2024-08-07）",
+          "source_level": 3,
+          "period_binding": "2024年8月7日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取13,942字元，以圖形排版為主）。簡報載「**亞洲第一伺服器導軌製造商**」「伺服器**導軌**問市」「伺服器**導軌**」（「**導軌**」11次、「**伺服器**」8次、「川湖」6次），**充分支持其伺服器導軌業務與亞洲領先地位**。**關鍵發現**：全份簡報中「**NVIDIA**」「**GB**」「**AI**」「負重」與「液冷」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[NVIDIA]] — **GB 系列** [[AI 伺服器]]導軌**認證供應商**」未獲確立：所取得之川湖2024年法人說明會簡報中「**NVIDIA**」「**GB**」與「**AI**」之出現次數**均為0**，**未具名該客戶或載明其認證資格**。因該 claim 之實質內容為具名客戶與認證關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4950:identity_changing_event:c9787575920a865a",
+      "normalized_claim_hash": "c9787575920a865a546ccff82ecdde51da2a4e14ce2cf9929373f7feb967d70c",
+      "ticker": "4950",
+      "company": "金耘國際",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/4950_金耘國際.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 特殊合金通路 — 2024 年更名後強化與母集團合作，轉型為特殊金屬材料通路平台，銷售不鏽鋼與合金材料，服務精密加工、航太、油氣及能源產業客戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.goldenwinsteel.com/proimages/investor/shareholders/Shareholders_Meeting_Information/2025/2025_4950_20250618F02_20260304_103919%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf",
+          "title": "金耘國際股份有限公司（金耘國際，4950，Golden Win Steel）一一四年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "民國114年股東常會。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取47,416字元）。手冊封面載「股票代碼：**4950** **金耘國際股份有限公司**」「**（原名：牧東光電股份有限公司）**」「一一四年股東常會**議事手冊**」，內文載「整合**通路**佈局，擴增產品項目」「成為專業**工業材料通路供應商**」（「**通路**」8次），**支持其更名事實與材料通路業務之轉型**。**關鍵發現**：全份文件中「**特殊合金**」與「母集團」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「…**更名**後…轉型為**材料通路平台**」獲發行人股東會議事手冊**充分支持**：手冊封面載「**金耘國際股份有限公司**」「**（原名：牧東光電股份有限公司）**」，內文載「整合**通路**佈局，擴增產品項目」「成為專業**工業材料通路供應商**」（「**通路**」8次），**支持其更名事實與材料通路業務之轉型**。**惟兩項陳述未獲支持**：(1)「**特殊合金**通路」——「**特殊合金**」之出現次數**為0**；(2)「強化與**母集團**合作」——「母集團」為**0**。故部分成立。",
+      "proposed_text": "金耘國際 (4950，原名牧東光電) 轉型為工業材料通路供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6222:identity_changing_event:637ee001b1e2b858",
+      "normalized_claim_hash": "637ee001b1e2b8582791cc50ba962be50957d3c910632080d0bf08bae03836cb",
+      "ticker": "6222",
+      "company": "立軒",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6222_立軒.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "立軒開發建設 (6222，原名上揚科技) 為多次轉型更名之上市公司。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/622220250401M001.pdf",
+          "title": "立軒開發（6222）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之立軒開發端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得立軒開發可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「立軒開發建設 (6222，原名**上揚科技**) 為多次轉型更名之上市公司」未獲確立：本批次所嘗試之立軒端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6584:profitability_assertion:5e3c3a2f673f6a83",
+      "normalized_claim_hash": "5e3c3a2f673f6a830aa261d55c2650b42a0f6cc4ae38d7566195417bfa0f1c2b",
+      "ticker": "6584",
+      "company": "南俊國際",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6584_南俊國際.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "早年以辦公家具與櫥櫃滑軌起家，近年成功轉型佈署於高毛利的雲端[[伺服器]]滑軌市場。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/658420250401M001.pdf",
+          "title": "南俊國際（6584）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之南俊國際端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得南俊國際可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「早年以**辦公家具與櫥櫃滑軌**起家，近年成功轉型佈署於高毛利的**雲端伺服器滑軌**市場」未獲確立：本批次所嘗試之南俊國際端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6584:material_named_relationship:e6c7482a3be5e405",
+      "normalized_claim_hash": "e6c7482a3be5e40560ff7eda9aac0883ada0b2ce2f0ab4e98bc784b100117813",
+      "ticker": "6584",
+      "company": "南俊國際",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6584_南俊國際.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2025 年打入雲端服務商 ([[CSP]]) 供應鏈，成為 [[Supermicro]] (超微) 之第二滑軌供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/658420250401M001.pdf",
+          "title": "南俊國際（6584）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之南俊國際端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得南俊國際可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「2025 年打入**雲端服務商（[[CSP]]）**供應鏈，成為 [[Supermicro]]（…）」未獲確立：同上，南俊國際端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
