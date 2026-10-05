@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-242",
+  "reviewed_at": "2026-10-05T23:01:25Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (旺旺保107年度年報; 特昇股東會議事手冊; 峰源2024年度年報; 碩豐個體財務報告); 泰金-KY與富邦金端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "2816:identity_changing_event:00fd24fba693ef88",
+      "normalized_claim_hash": "00fd24fba693ef88a40ae993a054c78c56c8b358050d746afd6ea376d1fe6441",
+      "ticker": "2816",
+      "company": "旺旺保",
+      "path": "Pilot_Reports/Insurance - Diversified/2816_旺旺保.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司前身為 1963 年成立的友聯產物保險，2009 年由旺旺集團入主後更名。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.wwunion.com/wp-content/uploads/2019/05/107Annual.pdf",
+          "title": "旺旺友聯產物保險股份有限公司（旺旺保，2816，WW Union）一○七年度年報",
+          "source_level": 3,
+          "period_binding": "民國107年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取307,658字元）。年報**逐字載**「一、**設立日期：民國52 年2 月20 日**」與「本公司成立於**民國52 年**2 月，當時係由海外華僑及國內企業人士集資創立」（**民國52年＝1963年**），並載「同時通過公司**更名**為『**旺旺友聯產物**（保險）』」（「**友聯產物**」336次、「**旺旺**」435次、「更名」1次、「**入主**」1次），**支持其設立年份、原名與更名事實**。**關鍵發現（數字歸屬）**：全份年報中「**98年**」僅出現1次，其上下文為「**98年金融危機**導致全球經濟萎靡以來最低數值」——**係總體經濟之指涉，並非 claim 所述之2009年旺旺集團入主**；「**2009**」則為**0次**。"
+        }
+      ],
+      "rationale": "「前身為 **1963 年**成立的**友聯產物保險**…**更名**」獲發行人年報**逐字支持**：年報載「一、**設立日期：民國52 年2 月20 日**」「本公司成立於**民國52 年**2 月，當時係由海外華僑及國內企業人士集資創立」（**民國52年＝1963年**），並載「同時通過公司**更名**為『**旺旺友聯產物**（保險）』」（「友聯產物」336次、「旺旺」435次），**支持其設立年份、原名與更名事實**。**惟「2009 年由旺旺集團入主」未獲支持**——**「98年」僅出現1次，其上下文為「98年金融危機導致全球經濟萎靡以來最低數值」，係總體經濟之指涉，並非該入主事件**；「**2009**」為**0次**（「入主」1次之上下文未載年份）。故部分成立，**並標示該數字歸屬之落差**。",
+      "proposed_text": "旺旺友聯產物保險 (2816，WW Union) 前身為1963年（民國52年）設立之友聯產物保險，後更名為旺旺友聯產物保險。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6616:material_named_relationship:ef25aff8ea336307",
+      "normalized_claim_hash": "ef25aff8ea33630705f806187a7a3bf86dcdf627b3ed0ba45723c295ef94b200",
+      "ticker": "6616",
+      "company": "特昇-KY",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6616_特昇-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要從事美式木製寢室家具 (五件式臥室套組) 之 [[OEM]] 製造與銷售，產品主要外銷美國及加拿大，終端客戶包括 [[Ashley Furniture]]、[[Rooms To Go]] 等北美家具零售通路。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.techcential-international.com/vi-content/uploads/2026/05/%EF%BC%88Final%E4%B8%8A%E5%82%B3%E6%AA%94%EF%BC%89%E7%89%B9%E6%98%87%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%E5%8D%B0%E8%A3%BD%E7%94%A8V2.pdf",
+          "title": "特昇國際股份有限公司（特昇-KY，6616，Techcential International）股東會議事手冊",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取63,218字元）。文件載「•積極配合市場需求研究開發新的**寢室家具**系列設計(ie.拆裝式家具)」「（拆）裝式家具（**RTA**）系列」「持續於3月參加吉隆坡的**MIFF 國際家具展**」「針對**美洲**及網購市場客群」（「**寢室**」1次、「**家具**」多次、「**美洲**」），**支持其寢室家具與美洲外銷市場**。**關鍵發現**：全份文件中「**OEM**」「**五件式**」「**臥室**」與「**木製**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要從事美式…**寢室**家具…**製造與銷售**，產品主要**外銷**（美洲）」獲發行人股東會議事手冊之**部分支持**：文件載「積極配合市場需求研究開發新的**寢室家具**系列設計(ie.拆裝式家具)」「（拆）裝式家具（**RTA**）系列」「針對**美洲**及網購市場客群」，**支持其寢室家具與美洲外銷市場**。**惟三項陳述未獲支持**：「**OEM**」「**五件式**」「**臥室**」與「**木製**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "特昇國際 (6616，Techcential International) 從事寢室家具之製造與銷售，產品外銷美洲市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6807:material_named_relationship:de5168ab462b6ac1",
+      "normalized_claim_hash": "de5168ab462b6ac140fa57aaec0b194527d6ef2ec23f4d96afb7d2d20ca993eb",
+      "ticker": "6807",
+      "company": "峰源-KY",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6807_峰源-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其他重要客戶包括 [[Williams-Sonoma]]、[[Costco]] (好市多，佔營收逾一成)、日本[[Nitori]] (宜得利)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.fy-grp.com/uploads/soft/20260114/2024Annual%20ReportC.pdf",
+          "title": "峰源集團股份有限公司（峰源-KY，6807，FY Group）2024 年度年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取99,630字元）。年報中「**峰源**」出現3次。**關鍵發現**：全份年報中「**Williams-Sonoma**」「**Costco**」與「**好市多**」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「其他重要客戶包括 **[[Williams-Sonoma]]**、**[[Costco]]**（好市多）」未獲確立：所取得之峰源2024年度年報中「**Williams-Sonoma**」「**Costco**」與「**好市多**」之出現次數**均為0**，**未具名該等客戶**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6536:material_named_relationship:b33368d8bd4f0fc9",
+      "normalized_claim_hash": "b33368d8bd4f0fc9724afda54fec7d5f5d7cb4fd8d349215f697284413e699a5",
+      "ticker": "6536",
+      "company": "碩豐",
+      "path": "Pilot_Reports/Gambling/6536_碩豐.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歷史上主要客戶為俄羅斯海參崴 [[Tigre de Cristal]] (水晶老虎宮殿) 賭場。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.tigagaming.com/userfiles/TIGA/files/202304_6536_AI3_20240327_093512.pdf",
+          "title": "碩豐數位科技股份有限公司（碩豐，6536，Tiga Gaming）個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國112年度及111年度。**文件性質為個體財務報告，非年報。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取41,195字元）。**文件性質為個體財務報告暨會計師查核報告**。**關鍵發現**：全份文件中「**Tigre**」「**水晶老虎**」「**海參崴**」之出現次數**均為0**（「俄羅斯」1次），**未載客戶別資料**。"
+        }
+      ],
+      "rationale": "「歷史上主要客戶為俄羅斯海參崴 **[[Tigre de Cristal]]**（水晶老虎宮殿）」未獲確立：本批次所取得之碩豐文件**性質為個體財務報告（非年報）**，其中「**Tigre**」「**水晶老虎**」「**海參崴**」之出現次數**均為0**（「俄羅斯」1次），**未載客戶別資料**；故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6629:export_concentration:a2257218a3ef35d5",
+      "normalized_claim_hash": "a2257218a3ef35d5ea6b41d01f78a627f760d48b0d54df3b495b2db1bd58e62e",
+      "ticker": "6629",
+      "company": "泰金-KY",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/6629_泰金-KY.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "出口佔營收逾 99%，北美市場貢獻約七至八成營收。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/662920250401M001.pdf",
+          "title": "泰金-KY（6629）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之泰金-KY端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得泰金-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「出口佔營收逾 **99%**，**北美市場**貢獻約**七至八成**營收」未獲確立：本批次所嘗試之泰金-KY端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2881:profitability_assertion:eaafe360917c05ea",
+      "normalized_claim_hash": "eaafe360917c05eafd1f6845e3bf60c253fc61eff9b5b8492338dc4d3dddfac8",
+      "ticker": "2881",
+      "company": "富邦金",
+      "path": "Pilot_Reports/Insurance - Life/2881_富邦金.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "集團擁有雙引擎架構：(1) [[富邦人壽]] — 台灣前三大壽險公司，投資績效優異，貢獻集團主要獲利；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/288120250401M001.pdf",
+          "title": "富邦金（2881）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之富邦金端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得富邦金可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「集團擁有雙引擎架構：(1) **[[富邦人壽]]** — 台灣**前三大**壽險公司，投資績效優異，貢獻集（團）…」未獲確立：本批次所嘗試之富邦金端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

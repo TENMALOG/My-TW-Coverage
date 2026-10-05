@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 01:04 UTC
+Updated: 2026-10-15 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,235 / 1,399**
-- Remaining author review: **164**
-- Latest batch: **author-241** (7 claims)
+- Author-reviewed: **1,241 / 1,399**
+- Remaining author review: **158**
+- Latest batch: **author-242** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **765**
+- `PARTIALLY_SUPPORTED`: **767**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **362**
+- `UNKNOWN_AFTER_RESEARCH`: **366**
 
 ## Latest claim batch
 
-- `1558:profitability_assertion:be4566041628db44` — `PARTIALLY_SUPPORTED`；伸興年報載「本公司擬公開收購**宇隆科技**股（份）」（**宇隆 22 次、精密金屬 6 次**）；**惟「車用／成長引擎」皆 0 次**。
-- `2059:material_named_relationship:d71bdb08bb2f9450` — `PARTIALLY_SUPPORTED`；川湖簡報載「**亞洲第一伺服器導軌製造商**」（**導軌 11 次、伺服器 8 次**）；**惟「NVIDIA／AI／負重／液冷」皆 0 次**。
-- `2059:material_named_relationship:ce770dad814d7e9c` — `UNKNOWN_AFTER_RESEARCH`；「**NVIDIA／GB／AI」皆 0 次**。
-- `4950:identity_changing_event:c9787575920a865a` — `PARTIALLY_SUPPORTED`；金耘議事手冊封面載「**（原名：牧東光電股份有限公司）**」並載「成為專業**工業材料通路供應商**」（通路8次）；**惟「特殊合金／母集團」皆 0 次**。
-- `6222:637ee001b1e2b858`、`6584:5e3c3a2f673f6a83`、`6584:e6c7482a3be5e405` — `UNKNOWN_AFTER_RESEARCH` ×3；立軒與南俊國際端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-241.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,235 ＝ 條目總數 1,235。
-- Next pending claim by priority: `6616:material_named_relationship:ef25aff8ea336307` (特昇-KY).
+- `2816:identity_changing_event:00fd24fba693ef88` — `PARTIALLY_SUPPORTED`；旺旺保年報**逐字載**「一、**設立日期：民國52 年2 月20 日**」與「同時通過公司**更名**為『**旺旺友聯產物**』」（**民國52年＝1963年**）；**惟「98年」1 次之上下文實為「98年金融危機」，並非2009年旺旺入主**（「2009」0次）。
+- `6616:material_named_relationship:ef25aff8ea336307` — `PARTIALLY_SUPPORTED`；特昇手冊載「開發新的**寢室家具**系列」「拆裝式家具（**RTA**）」「針對**美洲**及網購市場」；**惟「OEM／五件式／臥室／木製」皆 0 次**。
+- `6807:material_named_relationship:de5168ab462b6ac1` — `UNKNOWN_AFTER_RESEARCH`；峰源年報「**Williams-Sonoma／Costco／好市多」皆 0 次**。
+- `6536:material_named_relationship:b33368d8bd4f0fc9` — `UNKNOWN_AFTER_RESEARCH`；碩豐文件為**個體財務報告**，「**Tigre／水晶老虎／海參崴」皆 0 次**。
+- `6629:a2257218a3ef35d5`、`2881:eaafe360917c05ea` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY與富邦金端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-242.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,241 ＝ 條目總數 1,241。
+- Next pending claim by priority: `5859:identity_changing_event:3146527b074efe1a` (遠壽).
 
 ## Source access
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:00:14Z",
+  "generated_at": "2026-10-05T23:01:39Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -244,17 +244,18 @@
     "author-238",
     "author-239",
     "author-240",
-    "author-241"
+    "author-241",
+    "author-242"
   ],
-  "source_batch_count": 241,
-  "total_unknown": 362,
+  "source_batch_count": 242,
+  "total_unknown": 366,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 157,
-    "other_unclassified": 138,
+    "no_official_endpoint_found": 159,
+    "other_unclassified": 140,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 86,
+    "http_404": 88,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5552,6 +5553,64 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6807:material_named_relationship:de5168ab462b6ac1",
+      "ticker": "6807",
+      "company": "峰源-KY",
+      "claim": "其他重要客戶包括 [[Williams-Sonoma]]、[[Costco]] (好市多，佔營收逾一成)、日本[[Nitori]] (宜得利)。",
+      "batch_id": "author-242",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.fy-grp.com/uploads/soft/20260114/2024Annual%20ReportC.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6536:material_named_relationship:b33368d8bd4f0fc9",
+      "ticker": "6536",
+      "company": "碩豐",
+      "claim": "歷史上主要客戶為俄羅斯海參崴 [[Tigre de Cristal]] (水晶老虎宮殿) 賭場。",
+      "batch_id": "author-242",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "http://www.tigagaming.com/userfiles/TIGA/files/202304_6536_AI3_20240327_093512.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6629:export_concentration:a2257218a3ef35d5",
+      "ticker": "6629",
+      "company": "泰金-KY",
+      "claim": "出口佔營收逾 99%，北美市場貢獻約七至八成營收。",
+      "batch_id": "author-242",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/662920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2881:profitability_assertion:eaafe360917c05ea",
+      "ticker": "2881",
+      "company": "富邦金",
+      "claim": "集團擁有雙引擎架構：(1) [[富邦人壽]] — 台灣前三大壽險公司，投資績效優異，貢獻集團主要獲利；",
+      "batch_id": "author-242",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/288120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
