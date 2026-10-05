@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 17:04 UTC
+Updated: 2026-10-10 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **802 / 1,399**
-- Remaining author review: **597**
-- Latest batch: **author-137** (3 claims)
+- Author-reviewed: **806 / 1,399**
+- Remaining author review: **593**
+- Latest batch: **author-138** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **523**
+- `PARTIALLY_SUPPORTED`: **525**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **188**
+- `UNKNOWN_AFTER_RESEARCH`: **190**
 
 ## Latest claim batch
 
-- `1513:objective_ranking_or_market_share:bf4e992193fcae82` — `PARTIALLY_SUPPORTED`；中興電文件（**英文版**）載「**GIS (Gas-Insulated Switchgear)**」（GIS 2次、switchgear 1次）；惟「market share」「largest」及中文「台電」「345kV」「七成」「唯一」「統包」皆0次。
-- `1513:objective_ranking_or_market_share:9130fb44b84a3c57` — `UNKNOWN_AFTER_RESEARCH`；文件「**Taipower」「Taiwan Power」皆 0 次**，未載具名客戶。
-- `1530:objective_ranking_or_market_share:03337988477ef09c` — `PARTIALLY_SUPPORTED`；亞崴114Q4財報「**加工中心」3 次、「程泰」1 次**、「龍門」1次；惟「市占」「領先」「龍門世家」「車床」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-137.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `1539:objective_ranking_or_market_share:fa11a3ede72b0d04` (巨庭).
+- `1539:objective_ranking_or_market_share:fa11a3ede72b0d04` — `UNKNOWN_AFTER_RESEARCH`；巨庭114年報「客戶」30次，惟「**Stanley／DEWALT／SawStop／TTI／RYOBI」皆 0 次**。
+- `1540:objective_ranking_or_market_share:6d45c395e82f2ccd` — `UNKNOWN_AFTER_RESEARCH`；喬福財報「**美國／USA／America」皆 0 次**。
+- `1580:objective_ranking_or_market_share:5560d01646da11a1` — `PARTIALLY_SUPPORTED`；新麥報告（**英文版**）「**SINMAG」16 次**、「baking」13次、「Baking」5次；惟「largest」2次之上下文未見完整亞洲最大表述，「3,000」0次。
+- `1583:objective_ranking_or_market_share:25159825fab9a7d1` — `PARTIALLY_SUPPORTED`；程泰104年報「**車床」220 次、「GOODWAY」8 次**；惟「**最大」17 次多為加工規格**（最大車削直徑／最大研磨直徑／最大工件直徑），非市場地位；**非近期版本**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-138.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1590:objective_ranking_or_market_share:9214f561cebb3418` (亞德客-KY).
 
 ## Source access
 

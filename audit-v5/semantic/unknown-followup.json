@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:48:33Z",
+  "generated_at": "2026-10-05T20:49:49Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -139,12 +139,13 @@
     "author-134",
     "author-135",
     "author-136",
-    "author-137"
+    "author-137",
+    "author-138"
   ],
-  "source_batch_count": 137,
-  "total_unknown": 188,
+  "source_batch_count": 138,
+  "total_unknown": 190,
   "failure_signature_counts": {
-    "other_unclassified": 71,
+    "other_unclassified": 73,
     "tls_failure": 12,
     "mops_non_document": 34,
     "non_document_response": 31,
@@ -2940,6 +2941,34 @@
         "https://emops.twse.com.tw/nas/STR/151320161005E001.pdf"
       ],
       "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "1539:objective_ranking_or_market_share:fa11a3ede72b0d04",
+      "ticker": "1539",
+      "company": "巨庭",
+      "claim": "最大客戶[[Stanley Black & Decker]] (含[[DEWALT]])，另供應[[SawStop]]及[[TTI]] (RYOBI)。",
+      "batch_id": "author-138",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://cdn.financialreports.eu/financialreports/media/filings/51861/2026/RNS/51861_rns_2026-05-13_6dbdc32a-2185-4cf0-bb5e-a5a8033187e8.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1540:objective_ranking_or_market_share:6d45c395e82f2ccd",
+      "ticker": "1540",
+      "company": "喬福",
+      "claim": "美國為最大市場。",
+      "batch_id": "author-138",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://zh-tw.johnford.com.tw/download/209519"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }
