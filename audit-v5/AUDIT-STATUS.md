@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 14:56 UTC
+Updated: 2026-10-05 15:34 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **24 / 1,399**
-- Remaining author review: **1,375**
-- Latest batch: **author-013** (3 claims)
+- Author-reviewed: **26 / 1,399**
+- Remaining author review: **1,373**
+- Latest batch: **author-014** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **7**
-- `PARTIALLY_SUPPORTED`: **13**
+- `PARTIALLY_SUPPORTED`: **15**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6175:objective_ranking_or_market_share:6b1aff5b9f087151` — `PARTIALLY_SUPPORTED`; 立敦113年度合併財務報告第13頁載明立隆電子為其母公司，第76頁主要股東資訊列示立隆持股 29.04%（113.12.31）；立隆115年上半年合併財務報告第15頁列示民國114年投資比例由 29.21% 變動為 29.13%，並確認立隆自投資之日起為立敦單一最大股東。惟「台灣車用電容市佔逾七成」不獲支持：立隆114年度年報正式「市場占有率」段落僅稱其為台灣營收最高的鋁質電解電容器廠商、居台灣產業領先位置、依 Paumanok 2024年報告為2024年全球前十大鋁電廠商，未載明車用電容市占率；法說會所述汽車電子營收佔比36%與中央社所述2024年約33%均為營收結構占比，非市占率。
-- `6175:objective_ranking_or_market_share:0a838c414def37cd` — `ACCEPTED`; 日本ケミコン官方「事業概要」頁自述鋁電解電容器「世界トップシェア」並為「トップメーカー」；日本厚生労働省ハローワーク2026年6月10日事業所文件獨立載明「主力製品のアルミ電解コンデンサは世界シェアナンバーワンです」。
-- `6175:objective_ranking_or_market_share:08043f1f1f8247cf` — `PARTIALLY_SUPPORTED`; 領導廠商與下游主要電容廠地位獲上述來源支持；「全球市佔約 20%」之具體數值未獲任何查閱之權威來源確認。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-013.json`。未修改發行人報告。
-- Next pending claim by priority: `8942:objective_ranking_or_market_share:271aa5af591a1811` (森鉅).
+- `8942:objective_ranking_or_market_share:271aa5af591a1811` — `PARTIALLY_SUPPORTED`; 森鉅112年度年報（第71頁）正式「市場占有率」段落載明「北美市場廂式掛車市占率約60%」，支持約60%於112年度之表述；官方產品文件支持 G-BOND／A-BOND 旗艦產品與「北美規模最大的金屬複合板生產商」定位。惟「全球…龍頭」不獲支持（官方自述為北美最大／美國第一），且最新114年度年報同一段落已更新為「約50%」，60%非現行數字。
+- `8942:objective_ranking_or_market_share:96c34e1e0641bb89` — `PARTIALLY_SUPPORTED`; Wabash 向 SEC 申報之 FY2023 Form 10-K「Competitive Strengths」自述為拖車之「leading provider」及「one of the market leaders」，支持其為北美主要／領先拖車製造商；惟官方申報未使用「最大」之最高級表述，亦未揭露可據以認定為最大之市占數據。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-014.json`。未修改發行人報告。
+- Next pending claim by priority: `1476:objective_ranking_or_market_share:f6132ace76c9ad00` (儒鴻).
 
 ## Source access
 

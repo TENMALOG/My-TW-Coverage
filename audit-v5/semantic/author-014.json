@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-014",
+  "reviewed_at": "2026-10-05T15:00:15Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected issuer disclosures (森鉅 109/111/112/114年度年報 PDF and official product documents from the issuer site; Wabash National FY2023 Form 10-K PDF); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "8942:objective_ranking_or_market_share:271aa5af591a1811",
+      "normalized_claim_hash": "271aa5af591a181104629ea1ddcd8bd6f451986d4e70fc4e8bc387d7838d96cd",
+      "ticker": "8942",
+      "company": "森鉅",
+      "path": "Pilot_Reports/Aluminum/8942_森鉅.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "森鉅科技材料 (8942，Xxentria Technology Materials) 為全球金屬塑膠複合板商用車體材料龍頭，旗艦產品[[G-BOND]] (鍍鋅鋼複合板) 及[[A-BOND]] (高強度鋁塑複合板) 在北美半掛式貨櫃拖車市場市佔率約 60%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.xxentria-tech.com/assets/uploads/invester/financialreport/27/report665e8f9490419.pdf",
+          "title": "森鉅科技材料股份有限公司 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023）及111年度；市場占有率段落列示112年度銷售地區美洲占92.02%。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第71頁「二、市場及產銷概況 → 1. 市場分析 →（2）市場占有率」原文載明：「鋁(鋼)塑複合板：國內市場依據中華民國帷幕牆協會非正式統計數字，本公司ALCOPLA 在室內板及室外板市場占有率約略為50%，北美市場廂式掛車市占率約60 %。」此為發行人正式年報之市占率揭露，直接支持「北美（廂式掛車）市場市佔率約60%」於112年度之表述；「廂式掛車」即廂式半掛車，與 claim 所稱半掛式貨櫃拖車市場相當。"
+        },
+        {
+          "url": "https://www.xxentria-tech.com/assets/uploads/invester/financialreport/33/report6a8ee01d345bc.pdf",
+          "title": "森鉅科技材料股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度；市場占有率段落列示114年度銷售地區美洲占60.27%。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視最新年度年報。第82頁同一「市場占有率」段落原文為：「本公司ALCOPLA 在室內板及室外板市場占有率約略為30%，北美市場廂式掛車市占率約50 %。」因此發行人最新正式揭露之北美廂式掛車市占率為約50%，而約60%係111及112年度年報之數字，不能視為現行數字。"
+        },
+        {
+          "url": "https://www.xxentria-tech.com/assets/uploads/download/43/pdf5ffd31bc81aa2.pdf",
+          "title": "森鉅科技材料 官方產品文件「新世代複合板材 — 大型貨櫃車、貨車之車體板和門板」",
+          "source_level": 3,
+          "period_binding": "發行人官網下載區現行版本，文件未標註日期；僅用於產品名稱與市場定位之描述，不用於確立任何特定期間之市占數字。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並檢視。第2頁載明：「森鉅為貨櫃車量身打造專屬車體和車門板材—G-BOND鍍鋅鋼塑複合板和A-BOND高強度鋁塑複合板」、「森鉅是北美規模最大的金屬複合板生產商，也是貨櫃車體材料的領航者」；第6頁載明「如今以G-BOND打造的貨櫃車有超過80萬輛行駛於美國公路上，在美國貨櫃車市場占有率超越60%」。此支持 G-BOND／A-BOND 產品名稱與北美最大之定位；因文件未標日期，不單獨用以確立期間性數字。"
+        },
+        {
+          "url": "https://www.xxentria-tech.com/assets/uploads/invester/calendar/7/pdf15ffcf3d303deb.pdf",
+          "title": "森鉅科技材料 2017 年 3 月法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2015–2016 年資料；簡報第12、13頁引用2015年美國市場數字。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第12頁載「美國拖車車體鈑材 市佔率超過30%」「美國拖車用複合板材 市佔率超過50%」；第13頁載「主要產品– G-Bond 佔美國乾式貨櫃市場32% (2015), 為美國第一」。此等早期數字與60%不同，顯示市占數字隨年度與定義變動，佐證本 claim 的百分比必須綁定期間與市場定義。"
+        }
+      ],
+      "rationale": "產品與北美市場地位獲發行人官方文件支持：G-BOND（鍍鋅鋼複合板）與 A-BOND（高強度鋁塑複合板）為官方產品文件明列之旗艦車體板材；112年度年報正式的「市場占有率」段落更直接載明「北美市場廂式掛車市占率約60%」，與 claim 的「約60%」相符。惟 claim 另有兩處未獲支持：(1) 範圍為「全球…龍頭」，但發行人官方文件自述者為「北美規模最大的金屬複合板生產商」、「為美國第一」（Top Trailer Body Panel in the US），2017年簡報僅以「成為世界第一的卡車複合板材供應商」自我期許，未提出全球第一之證據；(2) 60% 並非現行數字，最新114年度年報同一段落已更新為「北美市場廂式掛車市占率約50%」。故本 claim 於產品、北美領導地位及112年度約60%之範圍內成立，於全球龍頭與現行60%之範圍內不成立。",
+      "proposed_text": "森鉅科技材料為北美規模最大的金屬複合板生產商之一，旗艦產品為[[G-BOND]]（鍍鋅鋼複合板）及[[A-BOND]]（高強度鋁塑複合板）；依其112年度年報，北美市場廂式掛車市占率約60%，114年度年報揭露約50%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8942:objective_ranking_or_market_share:96c34e1e0641bb89",
+      "normalized_claim_hash": "96c34e1e0641bb89db684da10498274e668b5e62efe7cbe501e34eb37e4ac972",
+      "ticker": "8942",
+      "company": "森鉅",
+      "path": "Pilot_Reports/Aluminum/8942_森鉅.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Wabash]] — 北美最大拖車製造商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000879526/58c8ac2f-f8f6-4569-827b-d52605062431.pdf",
+          "title": "Wabash National Corporation Form 10-K for the fiscal year ended December 31, 2023 (U.S. SEC filing)",
+          "source_level": 3,
+          "period_binding": "截至2023年12月31日之會計年度（FY2023）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視此發行人向美國 SEC 申報之正式年報。第13頁「Competitive Strengths」段落原文為：『We are the leading provider of trailers to a significant number of top tier trucking companies, generating a revenue base that has helped to sustain us as one of the market leaders. Our van products are preferred by many of the industry’s leading carriers. … In addition, we are a leading manufacturer of truck bodies』。申報文件使用「leading provider」與「one of the market leaders」，並未使用最高級「最大／largest」來描述其在北美的拖車製造地位，亦未提供可據以認定其為北美最大之市占數據。"
+        }
+      ],
+      "rationale": "Wabash 自己向美國 SEC 申報之 FY2023 Form 10-K 將其描述為拖車之「leading provider」及「one of the market leaders」，足以支持其為北美主要／領先拖車製造商；但查閱之官方申報文件未使用「北美最大」之最高級表述，亦未揭露可據以認定其為最大之市占數據。依 SEMANTIC-REVIEW-POLICY「search snippets 不得單獨結案、排名 claim 需更強證據」之要求，在欠缺市場排名或最高級官方陳述之情況下，本 claim 僅部分成立。查證過程中 SEC EDGAR 之 HTML 端點以「Undeclared Automated Tool」回應 HTTP 403，該存取限制僅為檢索觀測，未用以推論 claim 之真偽；改以同一申報文件之 PDF 版本完成檢視。",
+      "proposed_text": "[[Wabash]] — 北美主要（領先）拖車製造商；",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
