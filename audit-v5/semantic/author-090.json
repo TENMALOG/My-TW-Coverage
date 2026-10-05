@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-090",
+  "reviewed_at": "2026-10-05T19:35:37Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中華資安公司文件; 國泰金控官方文件含致股東報告書); 凱基金控所取得之檔案經確認為凱基期貨之文件，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "7765:objective_ranking_or_market_share:ca7dd7afc3bd6233",
+      "normalized_claim_hash": "ca7dd7afc3bd62334cea9b4299ea91de4b64c1fc1a210308908ca6818c3f6df2",
+      "ticker": "7765",
+      "company": "中華資安",
+      "path": "Pilot_Reports/Information Technology Services/7765_中華資安.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中華電信]] — 全台第一大 ISP 寬頻與 [[5G]] 網路骨幹",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chtsecurity.com/investor/finance/download/true/2dd63044-f32b-4a4a-bdd0-5b0b619d135a",
+          "title": "中華資安國際股份有限公司（中華資安，7765，CHT Security）公司文件（年報）",
+          "source_level": 3,
+          "period_binding": "所載財務數據含114年及113年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**本公司之母公司為中華電信股份有限公司**，於114年及113年（…）」（「中華電信」3次），支持其與中華電信之母子公司關係。全份文件中「ISP」「寬頻」「5G」「骨幹」與「通路」之出現次數均為0，未載中華電信之市場地位敘述。"
+        }
+      ],
+      "rationale": "「中華電信為其母公司（核心通路資源）」獲發行人文件支持：年報載「**本公司之母公司為中華電信股份有限公司**，於114年及113年（…）」（「中華電信」3次），支持其與中華電信之母子公司關係。惟「全台第一大 **ISP 寬頻**與 **5G 網路骨幹**」未獲支持：全份文件中「ISP」「寬頻」「5G」與「骨幹」出現次數均為0，該等市場地位敘述係對中華電信之描述，未見於本件。故部分成立。",
+      "proposed_text": "中華資安國際 (7765，CHT Security) 之母公司為中華電信股份有限公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7765:objective_ranking_or_market_share:5ea2c57aff387b29",
+      "normalized_claim_hash": "5ea2c57aff387b2926cfa865a724379d98a20ed0cc24d21a200f0628bdb4d236",
+      "ticker": "7765",
+      "company": "中華資安",
+      "path": "Pilot_Reports/Information Technology Services/7765_中華資安.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中華電信]] — 全台最大 ISP 寬頻與 [[5G]] 網路骨幹，核心通路資源",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chtsecurity.com/investor/finance/download/true/2dd63044-f32b-4a4a-bdd0-5b0b619d135a",
+          "title": "中華資安國際股份有限公司（中華資安，7765，CHT Security）公司文件（年報）",
+          "source_level": 3,
+          "period_binding": "所載財務數據含114年及113年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**本公司之母公司為中華電信股份有限公司**，於114年及113年（…）」（「中華電信」3次），支持其與中華電信之母子公司關係。全份文件中「ISP」「寬頻」「5G」「骨幹」與「通路」之出現次數均為0，未載中華電信之市場地位敘述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「中華電信 — 全台最大 ISP 寬頻與 5G 網路骨幹，核心通路資源」）。母子公司關係獲年報支持（「本公司之母公司為中華電信股份有限公司」）；惟「全台最大 ISP 寬頻與 5G 網路骨幹」之地位敘述未獲支持（「ISP」「寬頻」「5G」「骨幹」「通路」均為0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2882:objective_ranking_or_market_share:bdb9b99f8967d1f7",
+      "normalized_claim_hash": "bdb9b99f8967d1f703f1167b92f5a58744672c9c710c2811ade497439dedae12",
+      "ticker": "2882",
+      "company": "國泰金",
+      "path": "Pilot_Reports/Insurance - Life/2882_國泰金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[國泰金控]] (2882) 為台灣資產規模最大之金融控股公司，霖園集團核心。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathayholdings.com/holdings/-/media/e8046bce5cf3450cb743580a03460067.pdf",
+          "title": "國泰金融控股股份有限公司（國泰金，2882，Cathay Financial Holdings）官方文件（含致股東報告書，2023）",
+          "source_level": 3,
+          "period_binding": "所載財務數據基準日為2023年12月31日。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)，主要子公司包括國泰人壽、國泰世華銀行、國泰產險、國泰證券、國泰投信、國泰創投等」，並載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**，國泰產險、國泰世華銀行、國泰投信、國泰證券等皆具**產業領導地位**」；另載「國泰世華銀行 **CUBE卡「一卡抵多卡」，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」（「國泰人壽」117次、「國泰世華」94次、「國泰投信」43次、「國泰證券」54次、「ETF」31次、「CUBE」6次、「霖園」4次）。全份文件中「**發卡**」「**房貸**」與「**資產規模最大**」之出現次數均為0；「600萬」1次即上開流通卡數。"
+        }
+      ],
+      "rationale": "「為台灣資產規模龐大之金融控股公司，霖園集團核心」獲發行人文件部分支持：文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)」，總資產規模明確；「霖園」出現4次（如「霖園置業(上海)」）。惟兩項陳述未獲支持或須修正：(1)「為台灣**資產規模最大**之金融控股公司」——官方用語為「臺灣最大金融控股公司**之一**」，**含「之一」之緩和語**，全份文件中「資產規模最大」出現次數為0；(2)「**霖園集團核心**」——「霖園」4次之上下文為轉投資事業名稱，未以「霖園集團核心」表述。故部分成立。",
+      "proposed_text": "國泰金控 (2882，Cathay Financial Holdings) 為臺灣最大金融控股公司之一，2023年底總資產達新台幣 12.8 兆元。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2882:objective_ranking_or_market_share:a2ee540a3626fa41",
+      "normalized_claim_hash": "a2ee540a3626fa4124d2d89c0c98875b1a484931e9a3d2a2f2678ed89ed4adfc",
+      "ticker": "2882",
+      "company": "國泰金",
+      "path": "Pilot_Reports/Insurance - Life/2882_國泰金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "集團擁有兩大獲利引擎：(1) [[國泰人壽]] — 台灣最大壽險公司暨最大機構投資者之一，資產配置能力強；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathayholdings.com/holdings/-/media/e8046bce5cf3450cb743580a03460067.pdf",
+          "title": "國泰金融控股股份有限公司（國泰金，2882，Cathay Financial Holdings）官方文件（含致股東報告書，2023）",
+          "source_level": 3,
+          "period_binding": "所載財務數據基準日為2023年12月31日。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)，主要子公司包括國泰人壽、國泰世華銀行、國泰產險、國泰證券、國泰投信、國泰創投等」，並載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**，國泰產險、國泰世華銀行、國泰投信、國泰證券等皆具**產業領導地位**」；另載「國泰世華銀行 **CUBE卡「一卡抵多卡」，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」（「國泰人壽」117次、「國泰世華」94次、「國泰投信」43次、「國泰證券」54次、「ETF」31次、「CUBE」6次、「霖園」4次）。全份文件中「**發卡**」「**房貸**」與「**資產規模最大**」之出現次數均為0；「600萬」1次即上開流通卡數。"
+        }
+      ],
+      "rationale": "「國泰人壽為台灣最大壽險公司」獲發行人文件支持：文件載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**」，與 claim 相符。惟「暨**最大機構投資者之一**，資產配置能力強」未獲支持：全份文件中未見「最大機構投資者」之表述（該語未出現），文件僅載國泰產險、國泰世華銀行、國泰投信、國泰證券等「皆具**產業領導地位**」。故部分成立。",
+      "proposed_text": "國泰人壽為臺灣最大人壽保險公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2882:objective_ranking_or_market_share:cadef22332fa1adf",
+      "normalized_claim_hash": "cadef22332fa1adff4533ef9266ceeb33a5d277b0fbe961ed7827f14f27afc59",
+      "ticker": "2882",
+      "company": "國泰金",
+      "path": "Pilot_Reports/Insurance - Life/2882_國泰金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) [[國泰世華銀行]] — 信用卡發卡王 (CUBE 卡流通卡數近 600 萬張)，財富管理與房貸業務市佔率極高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathayholdings.com/holdings/-/media/e8046bce5cf3450cb743580a03460067.pdf",
+          "title": "國泰金融控股股份有限公司（國泰金，2882，Cathay Financial Holdings）官方文件（含致股東報告書，2023）",
+          "source_level": 3,
+          "period_binding": "所載財務數據基準日為2023年12月31日。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)，主要子公司包括國泰人壽、國泰世華銀行、國泰產險、國泰證券、國泰投信、國泰創投等」，並載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**，國泰產險、國泰世華銀行、國泰投信、國泰證券等皆具**產業領導地位**」；另載「國泰世華銀行 **CUBE卡「一卡抵多卡」，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」（「國泰人壽」117次、「國泰世華」94次、「國泰投信」43次、「國泰證券」54次、「ETF」31次、「CUBE」6次、「霖園」4次）。全份文件中「**發卡**」「**房貸**」與「**資產規模最大**」之出現次數均為0；「600萬」1次即上開流通卡數。"
+        }
+      ],
+      "rationale": "「國泰世華銀行 CUBE 卡流通卡數近 600 萬張、為國內信用卡領先者」獲發行人文件支持：文件載「國泰世華銀行 **CUBE卡『一卡抵多卡』，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」，與 claim 之「信用卡發卡王（CUBE 卡流通卡數近 600 萬張）」相符。惟「**財富管理與房貸業務市佔率極高**」未獲支持：全份文件中「**房貸**」出現次數為0，「財富管理」13次之上下文為業務敘述，未載該二項業務之市占率；「發卡」一詞亦為0次（官方以「流通卡數」「國內最大宗的銀行卡」表述）。故部分成立。",
+      "proposed_text": "國泰世華銀行 CUBE 卡流通卡數近 600 萬張，為國內最大宗的銀行卡。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2882:objective_ranking_or_market_share:214bbde45faed47f",
+      "normalized_claim_hash": "214bbde45faed47fab8d762a7aaf86bdbc15926f4bfc2c393bfa1bdce647cd7b",
+      "ticker": "2882",
+      "company": "國泰金",
+      "path": "Pilot_Reports/Insurance - Life/2882_國泰金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[國泰證券]]提供經紀與承銷服務，[[國泰投信]]為台灣最大 ETF 發行商之一。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathayholdings.com/holdings/-/media/e8046bce5cf3450cb743580a03460067.pdf",
+          "title": "國泰金融控股股份有限公司（國泰金，2882，Cathay Financial Holdings）官方文件（含致股東報告書，2023）",
+          "source_level": 3,
+          "period_binding": "所載財務數據基準日為2023年12月31日。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)，主要子公司包括國泰人壽、國泰世華銀行、國泰產險、國泰證券、國泰投信、國泰創投等」，並載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**，國泰產險、國泰世華銀行、國泰投信、國泰證券等皆具**產業領導地位**」；另載「國泰世華銀行 **CUBE卡「一卡抵多卡」，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」（「國泰人壽」117次、「國泰世華」94次、「國泰投信」43次、「國泰證券」54次、「ETF」31次、「CUBE」6次、「霖園」4次）。全份文件中「**發卡**」「**房貸**」與「**資產規模最大**」之出現次數均為0；「600萬」1次即上開流通卡數。"
+        }
+      ],
+      "rationale": "「集團旗下具國泰證券與國泰投信」獲發行人文件支持：文件載其「主要子公司包括國泰人壽、國泰世華銀行、國泰產險、**國泰證券**、**國泰投信**、國泰創投等成員」，且「國泰證券」出現54次、「國泰投信」43次，另載其「**皆具產業領導地位**」，支持兩家子公司之存在與地位。惟「國泰投信為台灣**最大 ETF 發行商之一**」未獲支持：「ETF」31次之上下文為投資論壇與資產配置敘述，未以「最大 ETF 發行商」表述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2883:objective_ranking_or_market_share:7060f1b3248b8161",
+      "normalized_claim_hash": "7060f1b3248b8161fdec36e51e8860e721d63c177956b219efdf8ea812674ebb",
+      "ticker": "2883",
+      "company": "凱基金",
+      "path": "Pilot_Reports/Insurance - Life/2883_凱基金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[凱基金控]] (2883，原[[中華開發金控]]，2024 年更名) 為台灣唯一創投系金控轉型案例，具備深厚私募基金 (PE) 與創投 (VC) DNA。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.kgif.com.tw/zh-tw/-/media/files/kgif/esg/2025/esg-01-02.pdf",
+          "title": "（來源身分複核）凱基期貨 2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就凱基金控（2883）取得之檔案，經下載並檢視後，其封面為「**2024 永續報告書**」且目錄載「關於**凱基期貨**」，確認該文件**屬凱基期貨而非凱基金控**，故不予採用。全份文件中「中華開發」（原公司名）、「創投」與「私募」之出現次數均為0；就 ticker 2883 未取得可檢視之控股公司正式文件。"
+        }
+      ],
+      "rationale": "「為台灣唯一創投系金控轉型案例，具備深厚私募基金 (PE) 與創投 (VC) DNA」未獲確立：本批次就凱基金控（2883）取得之檔案，經下載檢視後**確認為凱基期貨之2024永續報告書**（目錄載「關於凱基期貨」），**屬另一法人而非凱基金控**，故不予採用；全份文件中「中華開發」（原公司名）、「創投」與「私募」之出現次數均為0。就 ticker 2883 本批次未取得可檢視之控股公司正式文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

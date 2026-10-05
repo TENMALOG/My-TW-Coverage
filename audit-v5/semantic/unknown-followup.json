@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T19:33:51Z",
+  "generated_at": "2026-10-05T19:36:01Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -91,24 +91,24 @@
     "author-086",
     "author-087",
     "author-088",
-    "author-089"
+    "author-089",
+    "author-090"
   ],
-  "source_batch_count": 89,
-  "total_unknown": 102,
+  "source_batch_count": 90,
+  "total_unknown": 103,
   "failure_signature_counts": {
     "other_unclassified": 47,
     "mops_non_document": 24,
     "non_document_response": 22,
     "http_404": 24,
-    "no_official_endpoint_found": 37,
+    "no_official_endpoint_found": 38,
     "image_only_or_tiny_text": 10,
     "http_403": 5,
     "connection_failure": 5,
     "garbled_text_layer": 5,
     "client_rendered_only": 4,
     "download_timeout": 2,
-    "ticker_identity_mismatch": 2,
-    "source_identity_mismatch": 2
+    "source_identity_mismatch": 5
   },
   "items": [
     {
@@ -1246,12 +1246,12 @@
       "claim": "面對[[AI[[伺服器]]]]的爆發性成長與液冷[[散熱]]架構的特殊需求，南俊憑藉深厚的客製化板金設計與快撈機構開發能力，不僅成為最大客戶美超微(Supermicro)的主力滑軌供應商，更成功擊敗眾多對手，取得[[NVIDIA]] GB200/GB300等新世代[[AI[[伺服器]]]]的推薦供應商資格。",
       "batch_id": "author-072",
       "failure_signature": [
-        "ticker_identity_mismatch"
+        "source_identity_mismatch"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
       ],
-      "recommended_retry": "先由 author 端確認 claim 所屬 ticker（疑為 6584 南俊國際）後再行取證"
+      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6512:objective_ranking_or_market_share:2876e98579307c73",
@@ -1260,12 +1260,12 @@
       "claim": "美超微(Supermicro，為其最大客戶)、微軟([[Microsoft]]，[[資料中心]])、AWS及[[NVIDIA]](GB200合格供應商)。",
       "batch_id": "author-072",
       "failure_signature": [
-        "ticker_identity_mismatch"
+        "source_identity_mismatch"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
       ],
-      "recommended_retry": "先由 author 端確認 claim 所屬 ticker（疑為 6584 南俊國際）後再行取證"
+      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6673:objective_ranking_or_market_share:e881d11eadac0b96",
@@ -1350,7 +1350,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "改以該公司官方網域或 MOPS 之對應文件重查（已確認所取得檔案屬其他公司，須重新定位來源）"
+      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
@@ -1365,7 +1365,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "改以該公司官方網域或 MOPS 之對應文件重查（已確認所取得檔案屬其他公司，須重新定位來源）"
+      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6691:objective_ranking_or_market_share:4a06f569d516bc7a",
@@ -1633,6 +1633,21 @@
         "https://mopsov.twse.com.tw/nas/STR/622120231221M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
+    },
+    {
+      "claim_id": "2883:objective_ranking_or_market_share:7060f1b3248b8161",
+      "ticker": "2883",
+      "company": "凱基金",
+      "claim": "[[凱基金控]] (2883，原[[中華開發金控]]，2024 年更名) 為台灣唯一創投系金控轉型案例，具備深厚私募基金 (PE) 與創投 (VC) DNA。",
+      "batch_id": "author-090",
+      "failure_signature": [
+        "no_official_endpoint_found",
+        "source_identity_mismatch"
+      ],
+      "attempted_sources": [
+        "https://www.kgif.com.tw/zh-tw/-/media/files/kgif/esg/2025/esg-01-02.pdf"
+      ],
+      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
     }
   ]
 }

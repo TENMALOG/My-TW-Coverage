@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **520 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), and `author-089` (8).
+Author-reviewed: **527 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), and `author-090` (7).
 
 - ACCEPTED by author: 73
-- PARTIALLY_SUPPORTED: 341
+- PARTIALLY_SUPPORTED: 347
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 102
-- Remaining author queue: 879
+- Other allowed author decisions: 103
+- Remaining author queue: 872
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1056,6 +1056,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **102 筆**。
 - Author-reviewed total: **520 / 1,399**; remaining: **879**. Outcome counts: ACCEPTED 73, PARTIALLY_SUPPORTED 341, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 102. Next pending claim by priority: `7765:objective_ranking_or_market_share:ca7dd7afc3bd6233` (中華資安).
+
+## Author batch `author-090` — 2026-10-08
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (中華資安 7765 ×2, 國泰金 2882 ×4, 凱基金 2883). Evidence came from directly downloaded and inspected official disclosures: 中華資安公司文件、國泰金控官方文件（含致股東報告書）。
+- `7765:objective_ranking_or_market_share:ca7dd7afc3bd6233` 與 `5ea2c57aff387b29` — `PARTIALLY_SUPPORTED`. 中華資安年報載「**本公司之母公司為中華電信股份有限公司**，於114年及113年（…）」（「中華電信」3次），支持其母子公司關係；惟「全台第一大 **ISP 寬頻**與 **5G 網路骨幹**」未獲支持（全份文件中「ISP」「寬頻」「5G」「骨幹」「通路」出現次數均為0，該等敘述係對中華電信之描述）。
+- `2882:objective_ranking_or_market_share:bdb9b99f8967d1f7` — `PARTIALLY_SUPPORTED`. 國泰金控官方文件載「**國泰金控為臺灣最大金融控股公司之一**，總資產 NT$12.8兆元(US$4,183.9億元)」，總資產規模明確；惟官方用語含「**之一**」，與 claim 之「為台灣**資產規模最大**之金融控股公司」不同（「資產規模最大」0次），「霖園集團核心」亦未獲支持（「霖園」4次為轉投資事業名稱）。
+- `2882:objective_ranking_or_market_share:a2ee540a3626fa41` — `PARTIALLY_SUPPORTED`. 文件載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**」，與 claim 相符；惟「暨**最大機構投資者之一**，資產配置能力強」未獲支持（該語未見於文件；文件載其餘子公司「皆具產業領導地位」）。
+- `2882:objective_ranking_or_market_share:cadef22332fa1adf` — `PARTIALLY_SUPPORTED`. 文件載「國泰世華銀行 **CUBE卡『一卡抵多卡』，流通卡數近600萬張**，刷卡占比超過全行刷卡量五成，成為**國內最大宗的銀行卡**」，與 claim 之「信用卡發卡王（CUBE 卡流通卡數近 600 萬張）」相符；惟「**財富管理與房貸業務市佔率極高**」未獲支持（「房貸」0次，「財富管理」13次未載市占率，「發卡」亦為0次）。
+- `2882:objective_ranking_or_market_share:214bbde45faed47f` — `PARTIALLY_SUPPORTED`. 文件載其「主要子公司包括國泰人壽、國泰世華銀行、國泰產險、**國泰證券**、**國泰投信**、國泰創投等成員」且「皆具產業領導地位」（「國泰證券」54次、「國泰投信」43次）；惟「國泰投信為台灣**最大 ETF 發行商之一**」未獲支持（「ETF」31次之上下文為投資論壇與資產配置敘述）。
+- `2883:objective_ranking_or_market_share:7060f1b3248b8161` — `UNKNOWN_AFTER_RESEARCH`. **本批次再次發現來源身分不符**：就凱基金控取得之檔案經下載檢視後，其封面為「2024 永續報告書」且目錄載「關於**凱基期貨**」，確認該文件**屬凱基期貨而非凱基金控**，故不予採用（全份文件中「中華開發」「創投」「私募」均為0次）；就 ticker 2883 未取得可檢視之控股公司正式文件。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **103 筆**。
+- Author-reviewed total: **527 / 1,399**; remaining: **872**. Outcome counts: ACCEPTED 73, PARTIALLY_SUPPORTED 347, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 103. Next pending claim by priority: `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` (第一保).
+
 
 
 
