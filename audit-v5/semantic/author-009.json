@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-009",
+  "reviewed_at": "2026-10-05T13:52:11Z",
+  "reviewer_role": "author",
+  "method": "manual review of directly opened official airline history and company announcement pages; search-result snippets were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2610:objective_ranking_or_market_share:a74fba6da2dc6742",
+      "normalized_claim_hash": "a74fba6da2dc67426c18e6b7fe033c260feb69b0ab1b85ff9ed40857a8898807",
+      "ticker": "2610",
+      "company": "華航",
+      "path": "Pilot_Reports/Airlines/2610_華航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中華航空 (2610，China Airlines) 成立於 1959 年，為台灣歷史最悠久且規模最大的國籍航空公司，「[[天合聯盟]]」(SkyTeam) 成員。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/company-history",
+          "title": "公司沿革 | 中華航空公司 - 中華航空",
+          "source_level": 3,
+          "period_binding": "華航現行公司沿革頁未標示發布日期；沿革表列出 1959 年公司創立。",
+          "accessed_at": "2026-10-05",
+          "note": "公司沿革頁的 1959 年條目記載「中華航空公司」創立，並列出當時資本額、員工及機隊。頁面沒有明確比較華航與其他國籍航空公司的成立先後或規模。"
+        },
+        {
+          "url": "https://www.china-airlines.com/tw/zh/about-china-airlines/media/news/20260916.html",
+          "title": "華航加入天合聯盟 15 週年 全球布局再啟新篇章 - 中華航空",
+          "source_level": 3,
+          "period_binding": "華航新聞稿發布日期為 2026-09-16；記載華航於 2011 年正式加入天合聯盟。",
+          "accessed_at": "2026-10-05",
+          "note": "華航新聞稿稱公司於 2011 年正式加入 SkyTeam，並於 2026 年紀念加入 15 週年，支持 claim 中的天合聯盟成員關係。該新聞稿未支持「台灣歷史最悠久且規模最大」的比較排名。"
+        }
+      ],
+      "rationale": "華航官方沿革頁支持 1959 年創立，官方新聞稿支持其於 2011 年加入天合聯盟。查閱的正式來源沒有明確支持『台灣歷史最悠久』或『規模最大』兩項比較 qualifier，且 claim 未定義規模指標，因此完整原句不能接受；未將未見排名表述當作排名為假的反證。",
+      "proposed_text": "中華航空公司沿革記載公司於 1959 年創立；華航於 2026 年 9 月公告其於 2011 年加入天合聯盟。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
