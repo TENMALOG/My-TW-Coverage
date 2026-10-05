@@ -1,0 +1,234 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-223",
+  "reviewed_at": "2026-10-05T22:28:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of a directly downloaded and inspected official disclosure (雲嘉南法人說明會簡報); 閎暉端點回320 bytes空殼、同泰／建舜電／泰碩／先進光／群創之嘗試端點皆HTTP 404，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3191:identity_changing_event:98fd69deb068be8d",
+      "normalized_claim_hash": "98fd69deb068be8d150a1b638d5e0f09adcee31c0a935ae794645e24d8c315d6",
+      "ticker": "3191",
+      "company": "雲嘉南",
+      "path": "Pilot_Reports/Electronic Components/3191_雲嘉南.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "雲嘉南科技 ([[Yun Jia Nan Technology]]) 前身為和進電子，於 2024 年更名。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/319120251229E001.pdf",
+          "title": "雲嘉南科技股份有限公司（雲嘉南，3191，Yun Jia Nan Technology）法人說明會簡報（114年12月30日）",
+          "source_level": 3,
+          "period_binding": "114年12月30日（2025年）。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,159字元，以圖形排版為主）。**關鍵發現（逐字支持）**：簡報封面載「**雲嘉南科技(股)公司**」「**（原和進電子）**」「股票代號：**3191**」「法人說明會」「財務長暨發言人 黃騰威」「114年12月30日」——**「（原和進電子）」之表述逐字支持「前身為和進電子」**（「和進」3次、「雲嘉南」3次）。文中另載「雲嘉南科技(股)公司創立於**民國八十年四月十三日**，設立時資本額為新台幣2,500萬元」（**民國80年＝1991年**），並見集團成員「**和進塑電科技(深圳)有限公司**」「**昆山和進電子科技有限公司**」「昆山和廣電子科技有限公司」（**舊名仍存續於集團子公司名稱中**）。**關鍵發現**：全份簡報中「**更名**」與「**2024**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「雲嘉南科技 前身為**和進電子**」獲發行人簡報**逐字支持**：簡報封面載「雲嘉南科技(股)公司」「**（原和進電子）**」（「和進」3次），並見集團成員「**和進塑電科技(深圳)有限公司**」「**昆山和進電子科技有限公司**」，**舊名仍存續於集團子公司名稱中**。**惟「於 2024 年更名」未獲支持**：「**更名**」與「**2024**」之出現次數**均為0**（**該簡報為114年12月30日，已使用新名並以括號標註原名的作法**）。故部分成立。",
+      "proposed_text": "雲嘉南科技 (3191，Yun Jia Nan Technology) 前身為和進電子。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3311:material_named_relationship:d84da2c8e18d086f",
+      "normalized_claim_hash": "d84da2c8e18d086f6ed8f2726e30e2bc08ea97776072318180b06f391db6ba87",
+      "ticker": "3311",
+      "company": "閎暉",
+      "path": "Pilot_Reports/Electronic Components/3311_閎暉.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[BMW]] — 智慧鑰匙玻璃按鍵獨家供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3311_111.pdf",
+          "title": "閎暉實業股份有限公司（閎暉，3311，Silitech）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站年報端點（`t100sa11_3311_111.pdf`，**民國111年度**）下載時，**所取得之檔案僅 320 bytes（非文件內容）**；**該端點對本標的之112年度與111年度版本均回應相同大小之空殼**，本批次未取得閎暉可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[BMW]] — 智慧鑰匙玻璃按鍵**獨家供應**」未獲確立：本批次自公開資訊觀測站年報端點下載閎暉年報時（民國111年度），**所取得之檔案僅 320 bytes（非文件內容）**；該端點對112年度與111年度版本均回應相同大小之空殼，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3321:material_named_relationship:177edf4d42f7d28b",
+      "normalized_claim_hash": "177edf4d42f7d28bbd7f997bf5b551ce8f4a2db4687a566deaadca9f7da9c44f",
+      "ticker": "3321",
+      "company": "同泰",
+      "path": "Pilot_Reports/Electronic Components/3321_同泰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 無線充電 — 為 [[Samsung]] 手機供應無線充電軟板，為韓系主要供應商之一；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/332120250401M001.pdf",
+          "title": "同泰電子（3321）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就同泰電子所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(2) **無線充電** — 為 [[Samsung]] 手機供應無線充電**軟板**，為韓系主要供應商之一」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3322:material_named_relationship:6a19ecdd50c3ef9b",
+      "normalized_claim_hash": "6a19ecdd50c3ef9beb03f9faa21a6ef9ae04b7ce6ab8d92f48812386cdbdc3dd",
+      "ticker": "3322",
+      "company": "建舜電",
+      "path": "Pilot_Reports/Electronic Components/3322_建舜電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) [[AI 伺服器]]線材 — 供應 MCIO、SlimSAS 等高速內部傳輸線，已打入 [[Dell]]、[[HP]] 等美系伺服器品牌供應鏈；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/332220250401M001.pdf",
+          "title": "建舜電子（3322）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就建舜電子所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(2) [[AI 伺服器]]線材 — 供應 **MCIO**、**SlimSAS** 等高速內部傳輸線，已打入 [[Dell]]、[[HP]] 等美系伺服器品牌供應鏈」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f05e7d30c8a03bef",
+      "normalized_claim_hash": "f05e7d30c8a03bef0a63f4c190f2e1e68587d651c7aca4c8a58f6e4d4a40b3f0",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "泰碩電子 (3338，[[TaiSol]]) 為專業散熱模組與連接器製造商，近年成功轉型為 [[AI 伺服器]]液冷散熱核心供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf",
+          "title": "泰碩電子（3338）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就泰碩電子所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「泰碩電子 (3338，[[TaiSol]]) 為專業**散熱模組與連接器**製造商，近年成功轉型為 [[AI 伺服器]]**液冷散熱**核心供應商」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3338:profitability_assertion:d8fd097329e5101b",
+      "normalized_claim_hash": "d8fd097329e5101bf83fe774b55e2dbba35584dac2daaee6aac272e37547857c",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務與成長引擎：(1) AI 液冷散熱 — 開發 CDM (冷卻分配歧管)、LCM (液冷模組) 及 CDU (冷卻液分配單元) 等核心技術，120KW CDU 已量產出貨，150KW 產品開發中。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf",
+          "title": "泰碩電子（3338）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就泰碩電子所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) AI 液冷散熱 — 開發 **CDM（冷卻分配歧管）**、**LCM（液冷模組）**及 **CDU（冷卻液分配單元）**等核心技術」未獲確立：同上，端點回應 **HTTP 404**，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f2a716d3ac6b0cbc",
+      "normalized_claim_hash": "f2a716d3ac6b0cbccdc75f80bc1ed1766778078c78420c8d9813b2dbf0c95683",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已獲 [[NVIDIA]] RVL 推薦供應商資格，產品打入台系與陸系伺服器大廠供應鏈；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf",
+          "title": "泰碩電子（3338）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就泰碩電子所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「已獲 [[NVIDIA]] **RVL 推薦供應商**資格，產品打入台系與陸系伺服器大廠供應鏈」未獲確立：同上，端點回應 **HTTP 404**，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3362:material_named_relationship:2deae2e6e89ce420",
+      "normalized_claim_hash": "2deae2e6e89ce42068972f8ba2849f253c973a8787f3c6319fdde1f49cf9cfcb",
+      "ticker": "3362",
+      "company": "先進光",
+      "path": "Pilot_Reports/Electronic Components/3362_先進光.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "除穩固 NB 市場外，積極佈局三大成長領域：(1) 車用鏡頭 — 供應 [[Volvo]] 等歐系車廠 (透過 Tier 1)，產品涵蓋環景鏡頭、行車紀錄器與 DMS 駕駛監控系統鏡頭，車用營收占比已提升至約 10%；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/336220250401M001.pdf",
+          "title": "先進光電（3362）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就先進光電所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) **車用鏡頭** — 供應 [[Volvo]] 等歐系車廠（透過 Tier 1），產品涵蓋**環景鏡頭**、行車（記錄器）」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3481:material_named_relationship:1a7976baa56b151f",
+      "normalized_claim_hash": "1a7976baa56b151ff64ad63f771d53416999af7c7fef7996aa935314e5151d1a",
+      "ticker": "3481",
+      "company": "群創",
+      "path": "Pilot_Reports/Electronic Components/3481_群創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/348120250401M001.pdf",
+          "title": "群創光電（3481）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就群創光電所嘗試之公開資訊觀測站簡報端點回應 **HTTP 404（找不到）**；**本批次未另行定位其有效之官方端點**，故未取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近年積極推動『**雙軌轉型**』（More than Panel），拓展非顯示器領域：(1) **車用** — 子公司 **CarUX** 合併日本 [[Pioneer]]」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

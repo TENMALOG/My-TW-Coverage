@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:27:51Z",
+  "generated_at": "2026-10-05T22:28:49Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -225,17 +225,18 @@
     "author-219",
     "author-220",
     "author-221",
-    "author-222"
+    "author-222",
+    "author-223"
   ],
-  "source_batch_count": 222,
-  "total_unknown": 317,
+  "source_batch_count": 223,
+  "total_unknown": 325,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 135,
+    "no_official_endpoint_found": 142,
     "other_unclassified": 117,
     "tls_failure": 14,
-    "mops_non_document": 46,
-    "non_document_response": 45,
-    "http_404": 65,
+    "mops_non_document": 47,
+    "non_document_response": 46,
+    "http_404": 72,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -4882,6 +4883,126 @@
         null
       ],
       "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3311:material_named_relationship:d84da2c8e18d086f",
+      "ticker": "3311",
+      "company": "閎暉",
+      "claim": "[[BMW]] — 智慧鑰匙玻璃按鍵獨家供應",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "mops_non_document",
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_3311_111.pdf"
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "3321:material_named_relationship:177edf4d42f7d28b",
+      "ticker": "3321",
+      "company": "同泰",
+      "claim": "(2) 無線充電 — 為 [[Samsung]] 手機供應無線充電軟板，為韓系主要供應商之一；",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/332120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3322:material_named_relationship:6a19ecdd50c3ef9b",
+      "ticker": "3322",
+      "company": "建舜電",
+      "claim": "(2) [[AI 伺服器]]線材 — 供應 MCIO、SlimSAS 等高速內部傳輸線，已打入 [[Dell]]、[[HP]] 等美系伺服器品牌供應鏈；",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/332220250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f05e7d30c8a03bef",
+      "ticker": "3338",
+      "company": "泰碩",
+      "claim": "泰碩電子 (3338，[[TaiSol]]) 為專業散熱模組與連接器製造商，近年成功轉型為 [[AI 伺服器]]液冷散熱核心供應商。",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3338:profitability_assertion:d8fd097329e5101b",
+      "ticker": "3338",
+      "company": "泰碩",
+      "claim": "核心業務與成長引擎：(1) AI 液冷散熱 — 開發 CDM (冷卻分配歧管)、LCM (液冷模組) 及 CDU (冷卻液分配單元) 等核心技術，120KW CDU 已量產出貨，150KW 產品開發中。",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f2a716d3ac6b0cbc",
+      "ticker": "3338",
+      "company": "泰碩",
+      "claim": "已獲 [[NVIDIA]] RVL 推薦供應商資格，產品打入台系與陸系伺服器大廠供應鏈；",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/333820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3362:material_named_relationship:2deae2e6e89ce420",
+      "ticker": "3362",
+      "company": "先進光",
+      "claim": "除穩固 NB 市場外，積極佈局三大成長領域：(1) 車用鏡頭 — 供應 [[Volvo]] 等歐系車廠 (透過 Tier 1)，產品涵蓋環景鏡頭、行車紀錄器與 DMS 駕駛監控系統鏡頭，車用營收占比已提升至約 10%；",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/336220250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3481:material_named_relationship:1a7976baa56b151f",
+      "ticker": "3481",
+      "company": "群創",
+      "claim": "近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；",
+      "batch_id": "author-223",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/348120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }

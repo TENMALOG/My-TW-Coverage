@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 06:04 UTC
+Updated: 2026-10-14 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,131 / 1,399**
-- Remaining author review: **268**
-- Latest batch: **author-222** (9 claims)
+- Author-reviewed: **1,140 / 1,399**
+- Remaining author review: **259**
+- Latest batch: **author-223** (9 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **711**
+- `PARTIALLY_SUPPORTED`: **712**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **317**
+- `UNKNOWN_AFTER_RESEARCH`: **325**
 
 ## Latest claim batch
 
-- `3294:profitability_assertion:21bafa305ebd8c84` — `PARTIALLY_SUPPORTED`；英濟永續報告書載「**精密生醫材事業**」「3.43% **生醫材**」並見「模具」11次、「AR」9次；**惟「高毛利」0 次**。
-- `3294:material_named_relationship:779e8c461700907e` — `PARTIALLY_SUPPORTED`；報告書「**英錡」3 次、「智慧眼鏡」1 次**；**惟「LCoS／LBS／光機／立方公分」皆 0 次**。
-- `3037:material_named_relationship:fc84aa5e0c3063d9` — `UNKNOWN_AFTER_RESEARCH`；欣興 MOPS 年報端點回 **320 bytes 空殼**。
-- `3305:profitability_assertion:7baabc1e5460a78a`、`17948c52e4a11c29` — `UNKNOWN_AFTER_RESEARCH` ×2；昇貿端點回 **320 bytes 空殼**。
-- `3311:material_named_relationship:ed63220cb3bf1c75`、`e934797be7ba5805`、`f8cb824b540d0ac2` — `UNKNOWN_AFTER_RESEARCH` ×3；閎暉端點回 **320 bytes 空殼**。
-- `3310:material_named_relationship:1c626cdf7c25b3bb` — `UNKNOWN_AFTER_RESEARCH`；佳穎端點回 **320 bytes 空殼**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-222.json`（9 筆）。未修改發行人報告。
-- Next pending claim by priority: `3191:identity_changing_event:98fd69deb068be8d` (雲嘉南).
+- `3191:identity_changing_event:98fd69deb068be8d` — `PARTIALLY_SUPPORTED`；雲嘉南簡報封面**逐字載**「雲嘉南科技(股)公司**（原和進電子）**」並見集團成員「**和進塑電科技(深圳)**」「**昆山和進電子科技**」（和進3次）；**惟「更名」與「2024」皆 0 次**。
+- `3311:material_named_relationship:d84da2c8e18d086f` — `UNKNOWN_AFTER_RESEARCH`；閎暉年報端點（111年度）仍回 **320 bytes 空殼**。
+- `3321:177edf4d42f7d28b`、`3322:6a19ecdd50c3ef9b`、`3338:f05e7d30c8a03bef`、`3338:d8fd097329e5101b`、`3338:f2a716d3ac6b0cbc`、`3362:2deae2e6e89ce420`、`3481:1a7976baa56b151f` — `UNKNOWN_AFTER_RESEARCH` ×7；同泰／建舜電／泰碩／先進光／群創之所嘗試端點皆 **HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-223.json`（9 筆）。未修改發行人報告。
+- Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access
 
