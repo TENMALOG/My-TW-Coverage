@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **259 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), and `author-047` (5).
+Author-reviewed: **265 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), and `author-048` (6).
 
 - ACCEPTED by author: 53
 - PARTIALLY_SUPPORTED: 166
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 36
-- Remaining author queue: 1,140
+- Other allowed author decisions: 42
+- Remaining author queue: 1,134
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -569,6 +569,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-047.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **259 / 1,399**; remaining: **1,140**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 166, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6928:objective_ranking_or_market_share:1f10b3d64aa834a7` (攸泰科技).
+
+## Author batch `author-048` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (攸泰科技 6928 ×2, 品安 8088 ×3, 勤誠 8210). 本批次三家公司之官方文件均無法取得可檢索內容，全部結為 `UNKNOWN_AFTER_RESEARCH`，並逐項記錄嘗試路徑與失敗形式。
+- `6928:objective_ranking_or_market_share:1f10b3d64aa834a7` 與 `82073e105897f2df` — `UNKNOWN_AFTER_RESEARCH`. 攸泰科技官方年報（ubiqconn.com，兩個年度路徑）皆下載成功（153,217 bytes）但文字擷取僅3字元，屬影像／圖形排版；公開資訊觀測站年報端點回傳320 bytes 非文件內容；公開資訊觀測站簡報 692820250827E001.pdf 下載成功（1,477,347 bytes）但文字擷取僅6,447字元，其中「金礦」「烏茲別克」「強固」「平板」「客戶」「礦」出現次數均為0。故烏茲別克金礦客戶與強固平板應用未獲確立。
+- `8088:objective_ranking_or_market_share:6e48c96a0c0e420e`、`4b0c2a97dcdea7ad`、`27f8081da18866e3` — `UNKNOWN_AFTER_RESEARCH`. 品安科技官方議事手冊端點 eng.panram.com.tw 之 DNS 無法解析，www.panram.com.tw 同路徑回應 HTTP 404，公開資訊觀測站年報端點回傳320 bytes 非文件內容；未取得任何可檢視之官方文件，故金士頓之法人股東身分與最大代工客戶地位未獲確立。
+- `8210:objective_ranking_or_market_share:e0ee072a64d65aef` — `UNKNOWN_AFTER_RESEARCH`. 勤誠興業官方網域之 2015 與 2016 年度年報端點均回應 HTTP 404，公開資訊觀測站年報端點回傳320 bytes 非文件內容，未取得可檢視之官方文件，故其公司基本資料、全球前三大地位與約13%白牌市占率均未獲確立。
+- 後續處理建議（重要）：本批次6筆之共同成因是**官方文件不可讀取**（影像版 PDF、MOPS端點回傳非文件內容、官網 404／DNS 失敗），而非 claim 內容有誤。建議於後續輪次改採替代路徑：(1) 將影像版 PDF 以 pymupdf 轉為頁面影像後，以視覺方式逐頁檢視；(2) 改用各公司其他年度之官方簡報或年報；(3) 於 MOPS 端點可用時重試。此類限制未達 `local-recheck-queue.json` 之門檻（該佇列記錄 Cloud 環境之 HTTP 500–504 失敗），故佇列維持 **15** 筆。
+- No issuer report was modified. Independent review remains pending.
+- Author-reviewed total: **265 / 1,399**; remaining: **1,134**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 166, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 42. Next pending claim by priority: `1435:objective_ranking_or_market_share:6abe79fd3552bb12` (中福).
+
 
 
 

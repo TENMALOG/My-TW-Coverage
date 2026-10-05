@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-048",
+  "reviewed_at": "2026-10-05T17:45:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review; 攸泰科技、品安科技與勤誠興業之官方文件於本批次全數無法取得可檢索內容，已逐項記錄嘗試路徑與失敗形式於 evidence.note；search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6928:objective_ranking_or_market_share:1f10b3d64aa834a7",
+      "normalized_claim_hash": "1f10b3d64aa834a75e526a6f951eefdf2d78cc109c7f3c744508fd37ee6dfa4b",
+      "ticker": "6928",
+      "company": "攸泰科技",
+      "path": "Pilot_Reports/Computer Hardware/6928_攸泰科技.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "成功打入烏茲別克全球最大露天金礦開採商等指標客戶。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://ubiqconn.com/upload/inv_sto_meeting/2_EN_%e5%b9%b4%e5%a0%b1%e5%ae%8c%e6%95%b4%e7%89%88_20250430(%e4%b8%8a%e5%82%b3%e6%aa%94).pdf",
+          "title": "攸泰科技（6928，Ubiqconn）年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得攸泰科技官方文件之結果：(1) 發行人官方網域年報（ubiqconn.com/upload/inv_sto_meeting/2_EN_年報完整版_20250430）下載成功（153,217 bytes），經 pymupdf 文字擷取後全檔僅3字元，屬影像／圖形排版，無法檢索；(2) 另一官方年報路徑（攸泰111年股東會年報）亦下載成功（153,217 bytes，位元組數與前檔相同）且同樣僅擷取3字元；(3) 公開資訊觀測站年報端點 t100sa11_6928_113.pdf 回應 HTTP 200 但內容僅320 bytes；(4) 公開資訊觀測站簡報 692820250827E001.pdf 下載成功（1,477,347 bytes）但文字擷取僅6,447字元，且其中「金礦」「烏茲別克」「強固」「平板」「客戶」「礦」之出現次數均為0，內容不含本案標的之業務敘述。故本批次未取得可檢索之攸泰官方文字。"
+        }
+      ],
+      "rationale": "「成功打入烏茲別克全球最大露天金礦開採商等指標客戶」未獲確立：攸泰官方年報為影像排版（153,217 bytes 之 PDF 僅可擷取3字元）、MOPS 年報端點回傳320 bytes 非文件內容，MOPS 簡報亦不含金礦或烏茲別克相關敘述（該等關鍵字出現次數均為0）。故客戶身分與其是否為「全球最大露天金礦開採商」既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6928:objective_ranking_or_market_share:82073e105897f2df",
+      "normalized_claim_hash": "82073e105897f2dfc285e7e09bcfa670853741e1b434f468ac7458bae487c58b",
+      "ticker": "6928",
+      "company": "攸泰科技",
+      "path": "Pilot_Reports/Computer Hardware/6928_攸泰科技.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球最大露天金礦開採商 — 強固平板",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://ubiqconn.com/upload/inv_sto_meeting/2_EN_%e5%b9%b4%e5%a0%b1%e5%ae%8c%e6%95%b4%e7%89%88_20250430(%e4%b8%8a%e5%82%b3%e6%aa%94).pdf",
+          "title": "攸泰科技（6928，Ubiqconn）年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得攸泰科技官方文件之結果：(1) 發行人官方網域年報（ubiqconn.com/upload/inv_sto_meeting/2_EN_年報完整版_20250430）下載成功（153,217 bytes），經 pymupdf 文字擷取後全檔僅3字元，屬影像／圖形排版，無法檢索；(2) 另一官方年報路徑（攸泰111年股東會年報）亦下載成功（153,217 bytes，位元組數與前檔相同）且同樣僅擷取3字元；(3) 公開資訊觀測站年報端點 t100sa11_6928_113.pdf 回應 HTTP 200 但內容僅320 bytes；(4) 公開資訊觀測站簡報 692820250827E001.pdf 下載成功（1,477,347 bytes）但文字擷取僅6,447字元，且其中「金礦」「烏茲別克」「強固」「平板」「客戶」「礦」之出現次數均為0，內容不含本案標的之業務敘述。故本批次未取得可檢索之攸泰官方文字。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「全球最大露天金礦開採商 — 強固平板」）。查閱之官方簡報中「強固」「平板」「金礦」出現次數均為0，年報為影像排版無法檢索，MOPS 年報端點回傳非文件內容，故強固平板之客戶與應用場域未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8088:objective_ranking_or_market_share:6e48c96a0c0e420e",
+      "normalized_claim_hash": "6e48c96a0c0e420ebbf33164899497719d19f441b403249913aeaabfc6f95a2e",
+      "ticker": "8088",
+      "company": "品安",
+      "path": "Pilot_Reports/Computer Hardware/8088_品安.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大代工客戶為法人股東[[金士頓]] (Kingston)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.panram.com.tw/",
+          "title": "品安科技（8088，Panram）官方年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得品安科技官方文件之結果：(1) 發行人官方網域議事手冊端點 eng.panram.com.tw 之 DNS 無法解析（「無法解析遠端名稱」）；(2) www.panram.com.tw 同路徑回應 HTTP 404；(3) 公開資訊觀測站年報端點 t100sa11_8088_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）。故未取得可檢視之品安官方文件。"
+        }
+      ],
+      "rationale": "「最大代工客戶為法人股東金士頓（Kingston）」未獲確立：品安官方議事手冊端點 DNS 無法解析、另一官方路徑回應 HTTP 404、公開資訊觀測站年報端點回傳320 bytes 非文件內容，故未取得任何可檢視之官方文件。故金士頓之股東身分與最大代工客戶地位均未獲權威來源確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8088:objective_ranking_or_market_share:4b0c2a97dcdea7ad",
+      "normalized_claim_hash": "4b0c2a97dcdea7ad9db92a9489f542618babf95c84a30c1d159747f5d760f624",
+      "ticker": "8088",
+      "company": "品安",
+      "path": "Pilot_Reports/Computer Hardware/8088_品安.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[金士頓]] (Kingston) — 最大代工客戶/法人股東",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.panram.com.tw/",
+          "title": "品安科技（8088，Panram）官方年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得品安科技官方文件之結果：(1) 發行人官方網域議事手冊端點 eng.panram.com.tw 之 DNS 無法解析（「無法解析遠端名稱」）；(2) www.panram.com.tw 同路徑回應 HTTP 404；(3) 公開資訊觀測站年報端點 t100sa11_8088_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）。故未取得可檢視之品安官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「金士頓（Kingston）— 最大代工客戶/法人股東」）。因本批次未取得任何可檢視之品安官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8088:objective_ranking_or_market_share:27f8081da18866e3",
+      "normalized_claim_hash": "27f8081da18866e3aab09c45470ddf9247d5179bf59b38a6d6b3782eb60b16bb",
+      "ticker": "8088",
+      "company": "品安",
+      "path": "Pilot_Reports/Computer Hardware/8088_品安.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[金士頓]] (Kingston) — 最大代工客戶兼法人股東",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.panram.com.tw/",
+          "title": "品安科技（8088，Panram）官方年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得品安科技官方文件之結果：(1) 發行人官方網域議事手冊端點 eng.panram.com.tw 之 DNS 無法解析（「無法解析遠端名稱」）；(2) www.panram.com.tw 同路徑回應 HTTP 404；(3) 公開資訊觀測站年報端點 t100sa11_8088_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）。故未取得可檢視之品安官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「金士頓（Kingston）— 最大代工客戶兼法人股東」）。因本批次未取得任何可檢視之品安官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8210:objective_ranking_or_market_share:e0ee072a64d65aef",
+      "normalized_claim_hash": "e0ee072a64d65aef0e369906c16605a84554d04953277d306dee62e5c7bb35ae",
+      "ticker": "8210",
+      "company": "勤誠",
+      "path": "Pilot_Reports/Computer Hardware/8210_勤誠.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "勤誠興業股份有限公司 (8210，[[Chenbro Micom]]) 成立於 1983 年，總部位於新北市新莊區，是全球前三大伺服器機殼供應商之一，全球白牌伺服器機殼市佔率約 13%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf",
+          "title": "勤誠興業（8210，Chenbro Micom）官方年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次嘗試取得勤誠興業官方文件之結果：(1) 發行人官方網域 2016 年度年報端點回應 HTTP 404；(2) 2015 年度年報端點亦回應 HTTP 404；(3) 公開資訊觀測站年報端點 t100sa11_8210_113.pdf 回應 HTTP 200 但內容僅320 bytes（非文件內容）。故未取得可檢視之勤誠官方文件。"
+        }
+      ],
+      "rationale": "「勤誠興業成立於1983年、總部位於新北市新莊區、為全球前三大伺服器機殼供應商之一、全球白牌伺服器機殼市佔率約13%」未獲確立：勤誠官方網域之 2015 及 2016 年度年報端點均回應 HTTP 404，公開資訊觀測站年報端點回傳320 bytes 非文件內容，故未取得可檢視之官方文件；本批次亦未查得其他可檢視之發行人官方來源。故公司基本資料與市占排名均未獲權威來源確認或否證，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
