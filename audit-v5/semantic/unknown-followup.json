@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:57:28Z",
+  "generated_at": "2026-10-05T20:58:26Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -146,21 +146,22 @@
     "author-141",
     "author-142",
     "author-143",
-    "author-144"
+    "author-144",
+    "author-145"
   ],
-  "source_batch_count": 144,
-  "total_unknown": 199,
+  "source_batch_count": 145,
+  "total_unknown": 202,
   "failure_signature_counts": {
-    "other_unclassified": 79,
+    "other_unclassified": 86,
     "tls_failure": 13,
     "mops_non_document": 34,
     "non_document_response": 31,
-    "no_official_endpoint_found": 79,
-    "http_404": 36,
-    "image_only_or_tiny_text": 31,
+    "no_official_endpoint_found": 82,
+    "http_404": 37,
     "http_403": 11,
+    "image_only_or_tiny_text": 20,
     "connection_failure": 11,
-    "garbled_text_layer": 7,
+    "garbled_text_layer": 9,
     "client_rendered_only": 4,
     "download_timeout": 2,
     "source_identity_mismatch": 5
@@ -603,13 +604,12 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
-        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:91dae1d50cf674d0",
@@ -620,13 +620,12 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
-        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:c1562f098f12ec0e",
@@ -637,13 +636,12 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
-        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:0c7d1b024b811bb9",
@@ -654,13 +652,12 @@
       "failure_signature": [
         "http_404",
         "mops_non_document",
-        "image_only_or_tiny_text",
         "non_document_response"
       ],
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
     },
     {
       "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
@@ -2621,12 +2618,12 @@
       "claim": "智晶光電 (WiseChip) 為全球 **PM[[OLED]] (被動式有機發光二極體)** 領導廠商 (市佔率僅次於中國信利)。",
       "batch_id": "author-116",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/524520251201E002.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "6515:objective_ranking_or_market_share:7d430c6cf1e6bc6c",
@@ -2635,12 +2632,12 @@
       "claim": "全球前20大[[半導體]]廠中高達九成皆為其客戶，是[[AI]]軍備競賽中「賣鏟子」的標準受惠者。",
       "batch_id": "author-119",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/651520250515M004.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "8086:objective_ranking_or_market_share:195cb9f67a470584",
@@ -2884,12 +2881,12 @@
       "claim": "第一大股東為[[住化色料]] ([[住友化學]]旗下，持股 29.28%)，隸屬[[住友集團]]。",
       "batch_id": "author-132",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/470620230414E001.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "6555:objective_ranking_or_market_share:56167743ae5aa1a5",
@@ -2913,12 +2910,12 @@
       "claim": "[[Nike]] — 棒球鞋底亞洲最大供應商；",
       "batch_id": "author-136",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893520251209M001.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "8935:objective_ranking_or_market_share:6e616151ae29b468",
@@ -2927,12 +2924,12 @@
       "claim": "[[Nike]] — 棒球鞋底亞洲最大；",
       "batch_id": "author-136",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/893520251209M001.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "1513:objective_ranking_or_market_share:9130fb44b84a3c57",
@@ -2941,12 +2938,12 @@
       "claim": "[[台電]] — 最大客戶 (345kV GIS、變電站統包)",
       "batch_id": "author-137",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/151320161005E001.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "1539:objective_ranking_or_market_share:fa11a3ede72b0d04",
@@ -3040,12 +3037,12 @@
       "claim": "[[Alfmeier]]、[[Faurecia]]、[[Continental]] — 座椅氣動系統 (市占 80%)",
       "batch_id": "author-141",
       "failure_signature": [
-        "image_only_or_tiny_text"
+        "other_unclassified"
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/456820251222E002.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     },
     {
       "claim_id": "4583:objective_ranking_or_market_share:6384a87c92b38584",
@@ -3103,6 +3100,51 @@
         "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6618:objective_ranking_or_market_share:43a37be574cd8eb6",
+      "ticker": "6618",
+      "company": "永虹先進",
+      "claim": "永虹先進材料 (6618) 為台灣唯一具航太級[[碳纖維]]複合材料生產技術廠商。",
+      "batch_id": "author-145",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.uht.com.tw/uploads/uht/files/202307041353136753.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6727:objective_ranking_or_market_share:396efdcf88c26ee4",
+      "ticker": "6727",
+      "company": "亞泰金屬",
+      "claim": "亞泰金屬 (6727) 專精水平塗佈及高溫含浸設備，全球高階[[CCL]] (銅箔基板) 含浸設備市佔逾七成。",
+      "batch_id": "author-145",
+      "failure_signature": [
+        "garbled_text_layer",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.asiametalinc.com/proimage/images/1555922534.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "6727:objective_ranking_or_market_share:addbac4d018e6d92",
+      "ticker": "6727",
+      "company": "亞泰金屬",
+      "claim": "**亞泰** ([[CCL]]含浸塗佈設備, 市佔70%+)",
+      "batch_id": "author-145",
+      "failure_signature": [
+        "garbled_text_layer",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.asiametalinc.com/proimage/images/1555922534.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
     }
   ]
 }

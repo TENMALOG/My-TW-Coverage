@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 00:04 UTC
+Updated: 2026-10-11 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **833 / 1,399**
-- Remaining author review: **566**
-- Latest batch: **author-144** (5 claims)
+- Author-reviewed: **836 / 1,399**
+- Remaining author review: **563**
+- Latest batch: **author-145** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,15 +20,14 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **199**
+- `UNKNOWN_AFTER_RESEARCH`: **202**
 
 ## Latest claim batch
 
-- `6208:objective_ranking_or_market_share:96caba418bc3233c`、`5fdb674b7ffcd8a1`、`fb06ea6703cac885` — `UNKNOWN_AFTER_RESEARCH` ×3；日揚年報「**最大客戶」0 次**，且「**台積電」5 次全為產業展望**（「台積電市占將達73%」）；業務面「真空」137次、「Scrubber」12次則支持其業務。
-- `6603:objective_ranking_or_market_share:54f19d2754e289e6` — `PARTIALLY_SUPPORTED`；富強鑫文件「**1974」3 次**；惟「射出成型機」「最大」「唯一」皆0次。
-- `6603:objective_ranking_or_market_share:ca23047c4b4f0093` — `PARTIALLY_SUPPORTED`；文件「**多色」13 次**；惟「雙色」「射出成型機」「全球領先」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-144.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6618:objective_ranking_or_market_share:43a37be574cd8eb6` (永虹先進).
+- `6618:objective_ranking_or_market_share:43a37be574cd8eb6` — `UNKNOWN_AFTER_RESEARCH`；永虹先進官方端點 **HTTP 404**。
+- `6727:objective_ranking_or_market_share:396efdcf88c26ee4`、`addbac4d018e6d92` — `UNKNOWN_AFTER_RESEARCH` ×2；亞泰金屬年報**文字層為字元位移亂碼**（如「$VLD 0HWDO ,QGXVWULHV」＝Asia Metal Industries），「含浸」「塗佈」「CCL」「七成」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-145.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `6793:objective_ranking_or_market_share:9972aa426778a50b` (天力離岸).
 
 ## Source access
 

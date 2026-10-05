@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-145",
+  "reviewed_at": "2026-10-05T20:58:13Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of official disclosures; 永虹先進端點HTTP 404、亞泰金屬年報文字層為亂碼，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6618:objective_ranking_or_market_share:43a37be574cd8eb6",
+      "normalized_claim_hash": "43a37be574cd8eb6a26ed3dead049ae2ed0e33d3966bdd4bc6914888249b0d55",
+      "ticker": "6618",
+      "company": "永虹先進",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6618_永虹先進.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "永虹先進材料 (6618) 為台灣唯一具航太級[[碳纖維]]複合材料生產技術廠商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.uht.com.tw/uploads/uht/files/202307041353136753.pdf",
+          "title": "永虹先進材料股份有限公司（永虹先進，6618，UHT Unitech）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-11。",
+          "accessed_at": "2026-10-11",
+          "note": "本批次自發行人官方網域下載文件時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得永虹先進可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「永虹先進材料為台灣唯一具航太級[[碳纖維]]複合材料生產技術廠商」未獲確立：本批次自發行人官方網域下載文件時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6727:objective_ranking_or_market_share:396efdcf88c26ee4",
+      "normalized_claim_hash": "396efdcf88c26ee41941a81000ea7e0d81be292f6d3cb408943f6e440350b63f",
+      "ticker": "6727",
+      "company": "亞泰金屬",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6727_亞泰金屬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "亞泰金屬 (6727) 專精水平塗佈及高溫含浸設備，全球高階[[CCL]] (銅箔基板) 含浸設備市佔逾七成。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.asiametalinc.com/proimage/images/1555922534.pdf",
+          "title": "亞泰金屬工業股份有限公司（亞泰金屬，6727，Asia Metal Industries）年報（**文字層為亂碼**）",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報（封面日期欄之字元位移後顯示為民國年代）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。該年報（9.75 MB，擷取225,116字元）之**文字層呈現系統性字元位移之亂碼**——例如公司英文名「Asia Metal Industries, Inc.」被擷取為「**$VLD 0HWDO ,QGXVWULHV\\u000f ,QF\\u0011**」（每個字元位移），中文部分亦呈「**٥ੀߎឦπ཰ި**」「**΋ɄΎԃࡋԃൔ**」等非可讀字元，與台光電2023年報、上洋114年報、必應111年報、峰源113年報、欣銓111年報同型之檢索限制。**雖擷取量達225,116字元，實質內容無法判讀**；以關鍵字檢索「含浸」「塗佈」「CCL」「銅箔基板」「七成」「70%」之出現次數**均為0**（係因文字層無法正確擷取所致）。"
+        }
+      ],
+      "rationale": "「亞泰金屬專精水平塗佈及高溫含浸設備，全球高階 [[CCL]]（銅箔基板）含浸設備市佔逾七成」未獲確立：所取得之亞泰金屬年報（9.75 MB、擷取225,116字元）之**文字層呈現系統性字元位移之亂碼**（例如公司英文名被擷取為「**$VLD 0HWDO ,QGXVWULHV**」），實質內容無法判讀；以關鍵字檢索「含浸」「塗佈」「CCL」「銅箔基板」「七成」之出現次數均為0。故以 UNKNOWN_AFTER_RESEARCH 結案（**文字層限制**）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6727:objective_ranking_or_market_share:addbac4d018e6d92",
+      "normalized_claim_hash": "addbac4d018e6d92f29bd1444df414732f05af3cdebff637261e1f8a203da687",
+      "ticker": "6727",
+      "company": "亞泰金屬",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6727_亞泰金屬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**亞泰** ([[CCL]]含浸塗佈設備, 市佔70%+)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.asiametalinc.com/proimage/images/1555922534.pdf",
+          "title": "亞泰金屬工業股份有限公司（亞泰金屬，6727，Asia Metal Industries）年報（**文字層為亂碼**）",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報（封面日期欄之字元位移後顯示為民國年代）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。該年報（9.75 MB，擷取225,116字元）之**文字層呈現系統性字元位移之亂碼**——例如公司英文名「Asia Metal Industries, Inc.」被擷取為「**$VLD 0HWDO ,QGXVWULHV\\u000f ,QF\\u0011**」（每個字元位移），中文部分亦呈「**٥ੀߎឦπ཰ި**」「**΋ɄΎԃࡋԃൔ**」等非可讀字元，與台光電2023年報、上洋114年報、必應111年報、峰源113年報、欣銓111年報同型之檢索限制。**雖擷取量達225,116字元，實質內容無法判讀**；以關鍵字檢索「含浸」「塗佈」「CCL」「銅箔基板」「七成」「70%」之出現次數**均為0**（係因文字層無法正確擷取所致）。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「**亞泰**（[[CCL]]含浸塗佈設備, 市佔 70%+）」）。年報文字層呈現字元位移之亂碼，「含浸」「塗佈」「CCL」「70%」之出現次數均為0，故以 UNKNOWN_AFTER_RESEARCH 結案（**文字層限制**）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
