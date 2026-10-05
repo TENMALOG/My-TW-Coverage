@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 07:04 UTC
+Updated: 2026-10-15 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,272 / 1,399**
-- Remaining author review: **127**
-- Latest batch: **author-247** (6 claims)
+- Author-reviewed: **1,278 / 1,399**
+- Remaining author review: **121**
+- Latest batch: **author-248** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **104**
-- `PARTIALLY_SUPPORTED`: **781**
+- `ACCEPTED`: **105**
+- `PARTIALLY_SUPPORTED`: **784**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **382**
+- `UNKNOWN_AFTER_RESEARCH`: **384**
 
 ## Latest claim batch
 
-- `1535:material_named_relationship:2ad6a799510ea098` — `PARTIALLY_SUPPORTED`；中宇年報「**中鋼」124 次、「中龍」26 次**（簡報中鋼29／中龍9）；**惟「台積電」兩份皆 0 次**。
-- `5292:material_named_relationship:2c2209bac7363a05` — `PARTIALLY_SUPPORTED`；華懋簡報「**半導體」8 次、「華懋」6 次**；**惟「台積電／聯電／Micron」皆 0 次**。
-- ⚠️ `1805:identity_changing_event:b1553d11666a2a52` — `PARTIALLY_SUPPORTED`；寶徠公開說明書中「**凱聚」460 次、「民國98」4 次**；**惟文件明載凱聚為「本公司之子公司」而非「前身」**，且「**更名／前身／2009」皆 0 次**。
-- `2537:identity_changing_event:eb039f3942a9c37c` — `UNKNOWN_AFTER_RESEARCH`；聯上發年報「**春其／更名／民國97／2008」皆 0 次**。
-- `2718:412a4da1b5c7c80b` — `UNKNOWN_AFTER_RESEARCH`；全心投控端點 **HTTP 404**。
-- `6641:0c51f99d553bcf92` — `UNKNOWN_AFTER_RESEARCH`；未取得基士德-KY文件。
-- 證據記錄於 `semantic/author-247.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,272 ＝ 條目總數 1,272。**覆蓋率 90.92%**。
-- Next pending claim by priority: `3056:identity_changing_event:42ce16aac106b895` (富華新).
+- 🟢 `3056:identity_changing_event:42ce16aac106b895` — **`ACCEPTED`**；富華新文件**逐字載**「(**原名 : 總太地產開發股份有限公司**)」與沿革「100年07月：公司名稱**更名**為『總太地產開發股份有限公司』」（**總太 145 次、更名 10 次、2023 10 次、台中 57 次**）。
+- `3056:identity_changing_event:24a8074c2fcedde8` — `PARTIALLY_SUPPORTED`；「**控股」8 次**；**惟「全方位控股／充電樁／儲能／智慧城市」皆 0 次**。
+- `5534:profitability_assertion:10c8420d0242f966` — `PARTIALLY_SUPPORTED`；長虹年報「**廠辦」10 次、「住宅」42 次**；**惟「商辦／雙軌」皆 0 次**。
+- `8478:export_concentration:2c102225efac7f2c` — `PARTIALLY_SUPPORTED`；東哥簡報「**遊艇」6 次、「美國」1 次**；**惟「外銷／100%」皆 0 次**。
+- `1456:material_named_relationship:d48c1acbce4b4c83` — `UNKNOWN_AFTER_RESEARCH`；怡華簡報「**台電／政府機關／客戶」皆 0 次**。
+- `9902:cd32bb294e021dbb` — `UNKNOWN_AFTER_RESEARCH`；台火端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-248.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,278 ＝ 條目總數 1,278。**覆蓋率 91.35%**。
+- Next pending claim by priority: `8937:profitability_assertion:584212137d4bc8f8` (合騏).
 
 ## Source access
 
