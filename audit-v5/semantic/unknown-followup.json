@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:16:34Z",
+  "generated_at": "2026-10-05T22:17:59Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -215,13 +215,14 @@
     "author-209",
     "author-210",
     "author-211",
-    "author-212"
+    "author-212",
+    "author-213"
   ],
-  "source_batch_count": 212,
-  "total_unknown": 289,
+  "source_batch_count": 213,
+  "total_unknown": 290,
   "failure_signature_counts": {
     "no_official_endpoint_found": 122,
-    "other_unclassified": 114,
+    "other_unclassified": 115,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 37,
@@ -4456,6 +4457,20 @@
       ],
       "attempted_sources": [
         "https://www.chenbro.com/upload/media/about/Investor%20Relations/shareholders_meeting/2016_annual_reports.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4915:material_named_relationship:d66840e186941aae",
+      "ticker": "4915",
+      "company": "致伸",
+      "claim": "2. **車用/工業物聯 (Auto / AIoT)**: [[ADAS]] 相機模組 (**[[Tesla]]** 主要供應商)、警用相機 (Body Cam)、B2B 用[[物聯網]]裝置。",
+      "batch_id": "author-213",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.primax.com.tw/images/financial/annual-reports/2024_Annual_report_chi.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

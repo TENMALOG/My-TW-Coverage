@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-213",
+  "reviewed_at": "2026-10-05T22:17:45Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (新應材法人說明會簡報; 元山2024年度股東會年報); 致伸年報為圖形檔（擷取20字元），已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "4749:material_named_relationship:7e6766958fcdc90f",
+      "normalized_claim_hash": "7e6766958fcdc90fcd73d635c6df395663960d8a2f70db97b17736764eefcffc",
+      "ticker": "4749",
+      "company": "新應材",
+      "path": "Pilot_Reports/Consumer Electronics/4749_新應材.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/474920250516M001.pdf",
+          "title": "新應材股份有限公司（新應材，4749，AEMC）法人說明會簡報（2025-05-16）",
+          "source_level": 3,
+          "period_binding": "2025年5月16日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,351字元，以圖形排版為主）。簡報中「**台積電**」出現6次、「**先進製程**」8次（含「建立台灣**半導體先進製程特化材料**自主技術」「**先進製程材料**」）、「**2nm**」4次（並見「4/3/2nm」「28~12nm車用晶片」），支持其為半導體先進製程特化材料業者並建立自主技術。其中「台積電」之出現**多屬該公司擴廠之產業敘述**（如「台積電2奈米需求紅不讓，促使公司加速擴建新竹寶山4座廠及高雄楠梓3座廠」）。**關鍵發現**：全份簡報中「**7nm**」「**5nm**」「**3nm**」與「**日系**」「取代」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「已成功打入 [[台積電]] **先進製程**供應鏈，為少數能**自主**供應材料的台灣廠商」獲發行人簡報之**部分支持**：簡報中「**台積電**」6次、「**先進製程**」8次（含「建立台灣**半導體先進製程特化材料**自主技術」）、「**2nm**」4次。**惟多項具體陳述未獲支持**：(1)「**7nm／5nm／3nm**」——該三個節點之出現次數**均為0**；(2)「能**取代日系進口材料**」——「**日系**」與「取代」均為**0**；(3)「成功**打入**台積電**供應鏈**」——簡報之「台積電」出現多屬**該公司擴廠之產業敘述**，**未見「新應材為台積電供應商」之直接表述**。故部分成立。",
+      "proposed_text": "新應材 (4749，AEMC) 從事先進製程半導體特化材料，並建立自主技術。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4915:material_named_relationship:d66840e186941aae",
+      "normalized_claim_hash": "d66840e186941aaee18ab0ba1c7ea001d8844c507810ca99ddd92cc19195dbe1",
+      "ticker": "4915",
+      "company": "致伸",
+      "path": "Pilot_Reports/Consumer Electronics/4915_致伸.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **車用/工業物聯 (Auto / AIoT)**: [[ADAS]] 相機模組 (**[[Tesla]]** 主要供應商)、警用相機 (Body Cam)、B2B 用[[物聯網]]裝置。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.primax.com.tw/images/financial/annual-reports/2024_Annual_report_chi.pdf",
+          "title": "致伸科技股份有限公司（致伸，4915，Primax）2024 年報（查證限制）",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。**關鍵發現（圖形檔）**：該檔之**文字層幾無內容**——**文字擷取僅得20字元**（僅「===== PAGE 1 =====」），**屬以影像為主或無文字層之 PDF**；本批次未能就該檔判讀 claim 所述內容。**建議將該 PDF 轉為頁面影像後以視覺方式逐頁檢視。**"
+        }
+      ],
+      "rationale": "「(2) 車用／工業物聯（Auto / AIoT）：[[ADAS]] 相機模組（**[[Tesla]]** 主要供應商）、警用相機（Body Cam）…」未獲確立：所取得之致伸2024年報**文字層幾無內容**——**文字擷取僅得20字元**，**屬以影像為主或無文字層之 PDF**，無法判讀 claim 所述內容。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6275:material_named_relationship:c8a92689cc441faa",
+      "normalized_claim_hash": "c8a92689cc441faa496ec9febbc8f38a66edadb565339f18aa571e2cd680ea2d",
+      "ticker": "6275",
+      "company": "元山",
+      "path": "Pilot_Reports/Consumer Electronics/6275_元山.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司創立初期以電風扇、開飲機等小家電為主，後跨足三大事業領域：(1) 電子散熱事業 — 高階電腦週邊[[散熱風扇]]與[[散熱模組]]、工業 EC 風扇，為 [[BMW]]、[[M. Benz]]、[[VW]]、[[Geely]]、[[BYD]] 等車廠之座椅通風風扇 Tier 1 供應商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ystech.com.tw/upload/invest/20241121-1551-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "元山科技股份有限公司（元山，6275，Y.S. Tech）2024 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取256,083字元）。年報中「**散熱風扇**」出現47次、「**散熱模組**」24次、「**電子散熱**」4次、「**BMW**」1次，並載「年後品質性能深受車廠的肯定，順利成為**BMW**、**Mercedes Benz**、**VW**…等大（廠）」「(B)**車體電子散熱**與通風」「A.**汽車電子散熱**、通風模組系統相關應用事業發展」，支持其電子散熱事業及車廠客戶。**關鍵發現**：全份年報中「**EC 風扇**」與「開飲機」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「後跨足…(1) **電子散熱事業** — 高階電腦週邊[[散熱風扇]]與[[散熱模組]]…為 [[BMW]]…（客戶）」獲發行人年報**充分支持**：年報中「**散熱風扇**」47次、「**散熱模組**」24次、「**電子散熱**」4次、「**BMW**」1次。**惟兩項陳述未獲支持**：(1)「工業 **EC 風扇**」——「**EC 風扇**」出現次數**為0**；(2)「創立初期以電風扇、**開飲機**等**小家電**為主」——「開飲機」為**0**。故部分成立。",
+      "proposed_text": "元山科技 (6275，Y.S. Tech) 之電子散熱事業生產高階電腦週邊散熱風扇與散熱模組，客戶包含 BMW、Mercedes Benz、VW 等車廠。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

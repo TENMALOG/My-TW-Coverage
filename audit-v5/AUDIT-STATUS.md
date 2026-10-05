@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 20:04 UTC
+Updated: 2026-10-13 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,091 / 1,399**
-- Remaining author review: **308**
-- Latest batch: **author-212** (5 claims)
+- Author-reviewed: **1,094 / 1,399**
+- Remaining author review: **305**
+- Latest batch: **author-213** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **700**
+- `PARTIALLY_SUPPORTED`: **702**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **289**
+- `UNKNOWN_AFTER_RESEARCH`: **290**
 
 ## Latest claim batch
 
-- `5310:profitability_assertion:ccc836ffe3afcdca` — `UNKNOWN_AFTER_RESEARCH`；天剛年報端點 **HTTP 404**。
-- `6933:material_named_relationship:cba821507d7be9a8` — `UNKNOWN_AFTER_RESEARCH`；AMAX簡報「**鴻海／Foxconn／股權」皆 0 次**。
-- `8210:material_named_relationship:65759e97a5ce218d`、`9f65655c70eed5bc`、`50bccfb1d837ab2e` — `UNKNOWN_AFTER_RESEARCH` ×3；勤誠官網年報端點 **HTTP 404**。
-- 本批次 5 筆之成因**均為來源不可取得或未載該關係**，非 claim 內容經證實有誤。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-212.json`（5 筆）。未修改發行人報告。
+- `4749:material_named_relationship:7e6766958fcdc90f` — `PARTIALLY_SUPPORTED`；新應材簡報「**台積電」6 次、「先進製程」8 次、「2nm」4 次**並載「建立台灣**半導體先進製程特化材料**自主技術」；**惟「7nm／5nm／3nm／日系／取代」皆 0 次**，且「台積電」多屬**該公司擴廠之產業敘述**。
+- `4915:material_named_relationship:d66840e186941aae` — `UNKNOWN_AFTER_RESEARCH`；致伸2024年報**文字層幾無內容（僅擷取20字元）**，屬以影像為主之 PDF。
+- `6275:material_named_relationship:c8a92689cc441faa` — `PARTIALLY_SUPPORTED`；元山年報「**散熱風扇」47 次、「散熱模組」24 次、「電子散熱」4 次、「BMW」1 次**；**惟「EC 風扇」與「開飲機」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-213.json`（3 筆）。未修改發行人報告。
 - Next pending claim by priority: `3541:export_concentration:23aa0cac81532d07` (西柏).
 
 ## Source access
