@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **37 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), and `author-017` (6).
+Author-reviewed: **44 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), and `author-018` (7).
 
-- ACCEPTED by author: 10
-- PARTIALLY_SUPPORTED: 22
+- ACCEPTED by author: 13
+- PARTIALLY_SUPPORTED: 26
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 1
-- Remaining author queue: 1,362
+- Remaining author queue: 1,355
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -189,6 +189,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-017.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆 `LOCAL_RECHECK_PENDING`（HTTP 500 × 8、HTTP 503 × 7），Cloud 觀測未被覆寫。
 - Author-reviewed total: **37 / 1,399**; remaining: **1,362**. Outcome counts: ACCEPTED 10, PARTIALLY_SUPPORTED 22, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `2206:objective_ranking_or_market_share:2206926921111339` (三陽工業).
+
+## Author batch `author-018` — 2026-10-05
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (三陽工業 2206 ×3, 東陽 1319 ×4). Evidence came from directly downloaded and inspected official disclosures: 三陽 2026 QIC CEO Week 簡報與2022 ESG 永續報告書、東陽 2020/2021/2022 永續報告書、LKQ Corporation FY2025 與 FY2024 Form 10-K（SEC EDGAR）及 LKQ 官方 Keystone 品牌頁。
+- `2206:objective_ranking_or_market_share:2206926921111339` — `PARTIALLY_SUPPORTED`. 簡報第3頁標題「台灣摩托車與汽車製造的領導者」，第4頁載業務橫跨摩托車與汽車、機車部門在台生產自有品牌SYM、汽車部門生產並引進現代汽車產品，第3頁載新竹廠30萬輛機車與2萬輛汽車產能，支持雙製造能力；惟「台灣唯一」未獲官方陳述。
+- `2206:objective_ranking_or_market_share:63ed0282b9ad9374` — `ACCEPTED`. 簡報第4頁載2025年三陽自有品牌摩托車占台灣市場44.3%的份額、2022年5月重返台灣機車品牌第一名；第15頁載外銷版圖橫跨中國、東協、東北亞、歐洲及美洲，並明載「三陽也幫義大利品牌Lambretta 以及法國品牌Peugeot 等代工生產」；ESG報告另載SYM共85個外銷國家。
+- `2206:objective_ranking_or_market_share:f1d0e04eae11fc9f` — `PARTIALLY_SUPPORTED`. 簡報第4頁載汽車部門「生產以及引進韓國現代汽車的產品進入台灣市場」，ESG報告載三陽與HYUNDAI策略聯盟、以生產技術提供國產HYUNDAI汽車並透過直接管理之子公司提供銷售與維修；惟官方未以「獨家總代理」描述三陽本身，且第17頁載2025年現代汽車台灣市占率4.55%（排名第5、非豪華乘用品牌第三名），未見「市佔率屢創新高」之陳述。
+- `1319:objective_ranking_or_market_share:92d37f3eb1beade9` — `PARTIALLY_SUPPORTED`. 東陽2022永續報告第31頁載其為「全球最大的汽車塑膠AM供應廠」及「全球AM鈑金供應龍頭」，第54頁載其為AM市場最大製造供應商與台灣汽車塑膠件最大OEM供應商，第62頁載客戶遍及五大洲超過200個國家、2,300個客戶；惟2020、2021、2022三份報告書均未出現「70%」或「35%」之市占率數字，兩個百分比未獲確立。
+- `1319:objective_ranking_or_market_share:2a6fc80138e4eb21` — `PARTIALLY_SUPPORTED`. LKQ FY2025 Form 10-K 載其北美部門營運北美最大的替代性車輛零件與配件配送網路，LKQ 官方品牌頁載 Keystone 為其子公司與美國最大售後零件供應商，支持 LKQ／Keystone 之通路地位；惟東陽2020至2022年報告書中 LKQ、Keystone 與 State Farm 出現次數均為0，東陽特定經銷夥伴關係與保險公司效應未獲支持。
+- `1319:objective_ranking_or_market_share:40b14c614d7aad1a` 與 `4f8e5c27889374aa` — `ACCEPTED`. 同一事實之兩處條目表述，由 LKQ 10-K 與官方品牌頁支持。
+- Proposed wording is recorded for the partial claims in `semantic/author-018.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆 `LOCAL_RECHECK_PENDING`（HTTP 500 × 8、HTTP 503 × 7），Cloud 觀測未被覆寫。
+- Author-reviewed total: **44 / 1,399**; remaining: **1,355**. Outcome counts: ACCEPTED 13, PARTIALLY_SUPPORTED 26, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` (華德動能).
+
 
 
 

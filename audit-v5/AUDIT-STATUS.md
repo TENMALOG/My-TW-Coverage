@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 17:04 UTC
+Updated: 2026-10-05 18:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **37 / 1,399**
-- Remaining author review: **1,362**
-- Latest batch: **author-017** (6 claims)
+- Author-reviewed: **44 / 1,399**
+- Remaining author review: **1,355**
+- Latest batch: **author-018** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **10**
-- `PARTIALLY_SUPPORTED`: **22**
+- `ACCEPTED`: **13**
+- `PARTIALLY_SUPPORTED`: **26**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `8932:objective_ranking_or_market_share:39298f531ff2064c` — `PARTIALLY_SUPPORTED`; 智通2024永續報告書第17頁載「創立於西元1978年」及2023年6月更名、第21頁列客戶 Wal-Mart／Target／JCPenney／MACYS／Kohl's，支持成立、MAX拉鍊產品與零售客戶；惟「三大事業體」官方稱「兩大核心事業體」、「Toyota等60餘家汽車品牌」官方所述為「近60個國際大型品牌認證」（涵蓋成衣箱包，未出現 Toyota），故該部分不成立。
-- `8932:objective_ranking_or_market_share:2c4e8e723b5b77d9` — `PARTIALLY_SUPPORTED`; YKK 官方統合報告書《This is YKK 2025》第11頁載2014年獲 Porter Prize 之「global leader in zippers」、第58頁載業務遍及70國與拉鍊年產能逾300萬公里，支持其日本企業與全球領導地位；惟全篇未揭露全球市占率，「市佔約35%」未獲確立。
-- `2207:objective_ranking_or_market_share:12f16578b4009931` — `ACCEPTED`; 和泰年報第112頁載多年位居汽車產業市場領先、法說會第15頁載「蟬聯台灣車市冠軍24年」，第5頁載「總代理：TOYOTA、LEXUS、HINO」，第10頁載2025年三品牌合計市佔38.6%（近16年最高），與「約40%」相當。
-- `2207:objective_ranking_or_market_share:ea263c42d696e282` — `ACCEPTED`; 和泰年報第121頁主要原料供應表將 TOYOTA 與 HINO 之國內供應商均列為 Kuozui Motors（唯一國內製造商），第132頁產品銷售合約載國瑞提供授權製造車輛供在台銷售。
-- `2207:objective_ranking_or_market_share:41ac99c4757c51d2` — `ACCEPTED`; 與 ea263c42d696e282 同源證據（年報第121、132頁），支持「國瑞汽車 — Toyota/Hino 台灣唯一組裝廠」。
-- `2207:objective_ranking_or_market_share:f0cf847d4e06fec3` — `PARTIALLY_SUPPORTED`; 官方揭露之38.6%係 TOYOTA＋LEXUS＋HINO 三品牌合計口徑，TOYOTA 單一品牌為30.1%、LEXUS 為豪華車市場28.0%；claim 以「Toyota、Lexus」為範圍與官方口徑不符。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-017.json`。未修改發行人報告。
-- Next pending claim by priority: `2206:objective_ranking_or_market_share:2206926921111339` (三陽工業).
+- `2206:objective_ranking_or_market_share:2206926921111339` — `PARTIALLY_SUPPORTED`; 三陽2026法人說明會簡報第3頁「台灣摩托車與汽車製造的領導者」、第4頁載業務橫跨摩托車與汽車且新竹廠同時具機車30萬輛與汽車2萬輛產能，支持雙製造能力；惟「台灣唯一」未獲官方陳述。
+- `2206:objective_ranking_or_market_share:63ed0282b9ad9374` — `ACCEPTED`; 簡報第4頁載2025年自有品牌摩托車占台灣市場44.3%、2022年5月重返台灣機車品牌第一名；第15頁載外銷版圖橫跨中國／東協／東北亞／歐洲／美洲，並明載為 Lambretta、Peugeot 代工。
+- `2206:objective_ranking_or_market_share:f1d0e04eae11fc9f` — `PARTIALLY_SUPPORTED`; 簡報第4頁載汽車部門生產及引進現代汽車產品、ESG報告載與 HYUNDAI 策略聯盟，支持在台生產；惟官方未以「獨家總代理」描述三陽本身，且第17頁載2025年現代汽車市占率4.55%（第5名），不支持「市佔率屢創新高」。
+- `1319:objective_ranking_or_market_share:92d37f3eb1beade9` — `PARTIALLY_SUPPORTED`; 東陽2022永續報告第31頁「全球最大的汽車塑膠AM供應廠」、第54頁「全球AM鈑金供應龍頭」、第62頁「逾200個國家、2,300個客戶」均獲支持；惟2020／2021／2022三份報告書均無「70%」「35%」市占數字。
+- `1319:objective_ranking_or_market_share:2a6fc80138e4eb21` — `PARTIALLY_SUPPORTED`; LKQ FY2025 Form 10-K 載其北美部門為北美最大替代性車輛零件配送網路、Keystone 為 LKQ 子公司，支持 LKQ／Keystone 之通路地位；惟東陽三份報告書中 LKQ／Keystone／State Farm 出現次數皆為 0，東陽特定合作關係與 State Farm 效應未獲支持。
+- `1319:objective_ranking_or_market_share:40b14c614d7aad1a`、`4f8e5c27889374aa` — `ACCEPTED` ×2; LKQ 10-K 及官方品牌頁明載其為北美最大替代性車輛零件配送網路、Keystone 為其子公司與美國最大售後零件供應商。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-018.json`。未修改發行人報告。
+- Next pending claim by priority: `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` (華德動能).
 
 ## Source access
 

@@ -1,0 +1,232 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-018",
+  "reviewed_at": "2026-10-05T15:16:14Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (三陽工業 2026 QIC CEO Week 簡報 and 2022 ESG 永續報告書; 東陽 2020/2021/2022 永續報告書; LKQ Corporation FY2025/FY2024 Form 10-K from SEC EDGAR and the official LKQ Keystone brand page); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2206:objective_ranking_or_market_share:2206926921111339",
+      "normalized_claim_hash": "22069269211113398986f37513a8b5b0d3b474eddda9ab497c3e6564cd759dea",
+      "ticker": "2206",
+      "company": "三陽工業",
+      "path": "Pilot_Reports/Auto Manufacturers/2206_三陽工業.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三陽工業 (2206) 是台灣唯一同時具備機車與汽車製造能力的重量級車廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+          "title": "三陽工業股份有限公司 2026 QIC CEO Week 法人說明會簡報（2026年4月）",
+          "source_level": 3,
+          "period_binding": "2025年全年營運數據及2026年4月現況；市占率表為2025年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第3頁標題「台灣摩托車與汽車製造的領導者」，載公司成立於1961年、專注研發製造與銷售各式摩托車、汽車及全地形車，2025年營收626億元；產能：新竹廠30萬輛機車與2萬輛汽車、廈門廠30萬輛機車、越南廠12萬輛機車；並列「2025年三陽集團產品組合」為機車61.76%、汽車35.02%、零組件及其他3.22%（此為集團營收組合，非市場占有率）。第4頁載「三陽工業的業務橫跨摩托車與汽車。摩托車部門在台灣生產及銷售自有品牌(SYM)產品，在外銷方面則生產自有品牌以及代工產品。2025年三陽自有品牌摩托車占台灣市場44.3%的份額」、 「汽車部門則生產以及引進韓國現代汽車的產品進入台灣市場」，並載「於2022年5月SYM重返台灣機車品牌第一名」。"
+        }
+      ],
+      "rationale": "三陽同時經營機車與汽車製造一節獲發行人官方簡報支持：第3頁以「台灣摩托車與汽車製造的領導者」為標題，第4頁明載業務橫跨摩托車與汽車，機車部門在台灣生產自有品牌SYM產品、汽車部門生產並引進韓國現代汽車產品，且揭露新竹廠同時具備機車（30萬輛）與汽車（2萬輛）產能。惟「台灣唯一」此一最高級限定未獲查閱之官方來源陳述，故僅部分成立。",
+      "proposed_text": "三陽工業是台灣同時具備機車與汽車製造能力的車廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2206:objective_ranking_or_market_share:63ed0282b9ad9374",
+      "normalized_claim_hash": "63ed0282b9ad9374b7f0de60aa81b45f8538aca19b3dcc722076eaab7c2eff7d",
+      "ticker": "2206",
+      "company": "三陽工業",
+      "path": "Pilot_Reports/Auto Manufacturers/2206_三陽工業.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "機車事業方面，公司以自有品牌「SYM」穩居台灣機車市佔率龍頭，並外銷至全球市場，同時替歐洲品牌 (如 Peugeot、Lambretta) 代工。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+          "title": "三陽工業股份有限公司 2026 QIC CEO Week 法人說明會簡報（2026年4月）",
+          "source_level": 3,
+          "period_binding": "2025年全年營運數據及2026年4月現況；市占率表為2025年。",
+          "accessed_at": "2026-10-05",
+          "note": "同前簡報。第15頁「全球市場」載「外銷版圖橫跨中國、東協國家、東北亞、歐洲以及美洲」、「在自有品牌之外，三陽也幫義大利品牌Lambretta 以及法國品牌Peugeot 等代工生產」；第12頁載「2022年5月，三陽在16年又5個月後，重回台灣機車市占率冠軍」，並附三陽／光陽／山葉長期市占趨勢圖。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2206_111.pdf",
+          "title": "三陽工業股份有限公司 2022 ESG 永續報告書（民國111年度）",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）資料；公司沿革自1961年起。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第13頁公司沿革載「與日本本田終止技術合作，同期與韓國現代汽車技術合作」等；第11頁載「三陽工業是全國第一家生產機車的公司」、機車事業「致力於全球十大機車廠之一」；第19頁載SYM「85 個外銷國家」；第20頁載「三陽與HYUNDAI進行策略聯盟，以卓越的生產技術提供台灣車主優質的國產HYUNDAI汽車與貨、卡車，並透過直接管理之子公司提供汽車銷售與維修保養服務」。全報告未使用「獨家總代理」描述三陽本身，亦未載現代汽車「市佔率屢創新高」。"
+        }
+      ],
+      "rationale": "機車事業三項敘述均獲發行人官方來源支持：自有品牌SYM之台灣市場地位——2025年三陽自有品牌摩托車占台灣市場44.3%的份額，並於2022年5月重返台灣機車品牌第一名（簡報第4、12頁）；外銷全球——外銷版圖橫跨中國、東協、東北亞、歐洲及美洲（第15頁），永續報告書另載SYM共85個外銷國家；代工歐洲品牌——簡報第15頁明載「三陽也幫義大利品牌Lambretta 以及法國品牌Peugeot 等代工生產」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2206:objective_ranking_or_market_share:f1d0e04eae11fc9f",
+      "normalized_claim_hash": "f1d0e04eae11fc9f62864d3e174fe7921cbb5db51dce7da2c66f3885fcae5345",
+      "ticker": "2206",
+      "company": "三陽工業",
+      "path": "Pilot_Reports/Auto Manufacturers/2206_三陽工業.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "汽車事業方面，三陽長期作為韓國 [[現代汽車]] ([[Hyundai]]) 在台灣的獨家總代理與組裝廠，近年憑藉新世代休旅車款熱銷，推動旗下汽車市佔率屢創新高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+          "title": "三陽工業股份有限公司 2026 QIC CEO Week 法人說明會簡報（2026年4月）",
+          "source_level": 3,
+          "period_binding": "2025年全年營運數據及2026年4月現況；市占率表為2025年。",
+          "accessed_at": "2026-10-05",
+          "note": "同前簡報。第17頁「拓展市占率」載2025年台灣汽車總市場41.4萬台、年減9.5%，「惟韓國現代汽車品牌持續穩居非豪華乘用品牌第三名」，並列2025年市占率表：Toyota 31.08%、Honda 6.95%、Lexus 6.91%、M.Benz 5.52%、Hyundai 4.55%（排名第5）。第4頁載汽車部門「生產以及引進韓國現代汽車的產品進入台灣市場」。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2206_111.pdf",
+          "title": "三陽工業股份有限公司 2022 ESG 永續報告書（民國111年度）",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）資料；公司沿革自1961年起。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第13頁公司沿革載「與日本本田終止技術合作，同期與韓國現代汽車技術合作」等；第11頁載「三陽工業是全國第一家生產機車的公司」、機車事業「致力於全球十大機車廠之一」；第19頁載SYM「85 個外銷國家」；第20頁載「三陽與HYUNDAI進行策略聯盟，以卓越的生產技術提供台灣車主優質的國產HYUNDAI汽車與貨、卡車，並透過直接管理之子公司提供汽車銷售與維修保養服務」。全報告未使用「獨家總代理」描述三陽本身，亦未載現代汽車「市佔率屢創新高」。"
+        }
+      ],
+      "rationale": "三陽與韓國現代汽車之合作及在台生產獲支持：官方簡報第4頁載汽車部門「生產以及引進韓國現代汽車的產品進入台灣市場」，永續報告書載三陽與HYUNDAI策略聯盟、以生產技術提供國產HYUNDAI汽車並透過直接管理之子公司提供銷售與維修服務。惟兩處不獲支持：(1)「獨家總代理」——查閱之官方文件未以「獨家總代理」描述三陽本身，銷售係由其直接管理之子公司負責，故最高級與角色描述未獲確立；(2)「市佔率屢創新高」——官方簡報第17頁載2025年現代汽車於台灣市占率為4.55%（排名第5），並自述為非豪華乘用品牌第三名，未見「屢創新高」或持續攀升至新高之陳述。",
+      "proposed_text": "汽車事業方面，三陽與韓國 [[現代汽車]] ([[Hyundai]]) 策略聯盟，在台組裝生產並引進 HYUNDAI 車款，並透過子公司負責銷售與售後服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:92d37f3eb1beade9",
+      "normalized_claim_hash": "92d37f3eb1beade9ed5d2d57b371c0412b87871d581b3d3d364a822b7e5ccfcd",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "東陽實業 (1319，Tong Yang Group) 成立於 1967 年，為全球最大汽車 AM 塑膠件製造商，全球塑膠件市佔約 70%、鈑金件市佔約 35%，產品行銷逾 200 國、服務 2,300+ 客戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1319_111.pdf",
+          "title": "東陽實業廠股份有限公司 2022 ESG 永續報告書（民國111年度）",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）資料。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視。第31頁載「（東陽）…是全球最大的汽車塑膠AM供應廠，也是全球AM鈑金供應龍頭」。第54頁載「在汽車售後維修服務市場(AM)，全球約85%至90%之供應來源為臺灣，在副廠零組件廠商中，東陽是最大的製造供應商。在原廠零件市場(OEM)方面，也是台灣汽車塑膠件的最大OEM供應商」。第62頁載「主要客戶遍及五大洲超過200個國家，2,300個客戶」。全報告未出現「70%」或「35%」之市占率數字。同一等段落亦見於2020年CSR報告書（t100sa11_1319_109 第28、51頁）與2021年（t100sa11_1319_110 第23、43、51頁），內容一致。"
+        }
+      ],
+      "rationale": "東陽之全球地位與客戶規模獲發行人官方永續報告書支持：2022年報告書載其為「全球最大的汽車塑膠AM供應廠」及「全球AM鈑金供應龍頭」，並載 AM 市場中其為最大製造供應商、OEM 市場為台灣汽車塑膠件最大供應商；客戶遍及五大洲超過200個國家、2,300個客戶。惟「全球塑膠件市佔約70%」與「鈑金件市佔約35%」兩個具體百分比未獲任何查閱之官方來源支持：2020、2021、2022 三份報告書均未出現70%或35%之市占率數字，官方僅以「全球最大」、「龍頭」等質性最高級描述。故本 claim 於公司地位與客戶規模範圍內成立，於兩個市占百分比範圍內不成立。",
+      "proposed_text": "東陽實業 (1319，Tong Yang Group) 成立於 1967 年，為全球最大的汽車塑膠 AM 供應廠及全球 AM 鈑金供應龍頭，產品行銷五大洲逾 200 國、服務 2,300 個客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:2a6fc80138e4eb21",
+      "normalized_claim_hash": "2a6fc80138e4eb2179ecf54b34dba861d87c5ec99b9a19abc1272d07f3aafb6e",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "北美 AM 通路以[[LKQ]]及[[Keystone Automotive]]為最大經銷夥伴，間接受惠[[State Farm]]等保險公司擴大採用 AM 認證件。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "LKQ Corporation Form 10-K for the fiscal year ended December 31, 2025 (U.S. SEC)",
+          "source_level": 3,
+          "period_binding": "截至2025年12月31日之會計年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自美國 SEC 官方 EDGAR 下載並檢視。10-K「Distribution」段載：「We believe our North America segment operates the largest distribution network of alternative vehicle parts and accessories serving the vehicle collision and mechanical repair markets in North America.」另載其北美業務包括 Keystone 等品牌（「we primarily sell aftermarket, salvage and reconditioned collision parts… through our businesses, including Keystone and Bumper to Bumper」）。FY2024 10-K（lkq-20241231.htm）亦有相同敘述，稱其 Wholesale - North America 部門擁有北美最大替代性車輛零件配送網路。"
+        },
+        {
+          "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+          "title": "Keystone Automotive Industries — LKQ Corp official brand page",
+          "source_level": 3,
+          "period_binding": "發行人官方現行品牌頁，查證日2026-10-05。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視 LKQ 官方網站品牌頁。原文載：「Keystone Automotive Industries, Inc., a subsidiary of LKQ Corporation, is the United States' largest aftermarket auto parts supplier.」佐證 Keystone 為 LKQ 子公司及其為美國最大售後零件供應商之定位。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1319_111.pdf",
+          "title": "東陽實業廠股份有限公司 2022 ESG 永續報告書（民國111年度）",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）資料。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視。第31頁載「（東陽）…是全球最大的汽車塑膠AM供應廠，也是全球AM鈑金供應龍頭」。第54頁載「在汽車售後維修服務市場(AM)，全球約85%至90%之供應來源為臺灣，在副廠零組件廠商中，東陽是最大的製造供應商。在原廠零件市場(OEM)方面，也是台灣汽車塑膠件的最大OEM供應商」。第62頁載「主要客戶遍及五大洲超過200個國家，2,300個客戶」。全報告未出現「70%」或「35%」之市占率數字。同一等段落亦見於2020年CSR報告書（t100sa11_1319_109 第28、51頁）與2021年（t100sa11_1319_110 第23、43、51頁），內容一致。"
+        }
+      ],
+      "rationale": "「LKQ 及 Keystone 為北美最大 AM 經銷」之產業事實獲支持：LKQ FY2025 Form 10-K 載其北美部門營運北美最大的替代性車輛零件配送網路，且 Keystone 屬其北美業務品牌；LKQ 官方品牌頁並載 Keystone 為 LKQ 子公司且為美國最大售後零件供應商。惟 claim 中屬於東陽自身通路結構之陳述未獲支持：東陽2020、2021、2022年度永續報告書（合計逾360頁）中 LKQ、Keystone 與 State Farm 之出現次數均為 0，官方文件未具名其主要經銷夥伴，亦未陳述保險公司採用認證件對其之間接效益。故就 LKQ／Keystone 之通路地位成立，就東陽特定合作關係與 State Farm 效應不成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:40b14c614d7aad1a",
+      "normalized_claim_hash": "40b14c614d7aad1ad526dc3965076308a7b8f9b358106f4bf284cda4a011f905",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 經銷",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "LKQ Corporation Form 10-K for the fiscal year ended December 31, 2025 (U.S. SEC)",
+          "source_level": 3,
+          "period_binding": "截至2025年12月31日之會計年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自美國 SEC 官方 EDGAR 下載並檢視。10-K「Distribution」段載：「We believe our North America segment operates the largest distribution network of alternative vehicle parts and accessories serving the vehicle collision and mechanical repair markets in North America.」另載其北美業務包括 Keystone 等品牌（「we primarily sell aftermarket, salvage and reconditioned collision parts… through our businesses, including Keystone and Bumper to Bumper」）。FY2024 10-K（lkq-20241231.htm）亦有相同敘述，稱其 Wholesale - North America 部門擁有北美最大替代性車輛零件配送網路。"
+        },
+        {
+          "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+          "title": "Keystone Automotive Industries — LKQ Corp official brand page",
+          "source_level": 3,
+          "period_binding": "發行人官方現行品牌頁，查證日2026-10-05。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視 LKQ 官方網站品牌頁。原文載：「Keystone Automotive Industries, Inc., a subsidiary of LKQ Corporation, is the United States' largest aftermarket auto parts supplier.」佐證 Keystone 為 LKQ 子公司及其為美國最大售後零件供應商之定位。"
+        }
+      ],
+      "rationale": "LKQ FY2025 Form 10-K 明載其北美部門營運北美最大的替代性車輛零件與配件配送網路，服務車輛碰撞與機械維修市場；LKQ 官方品牌頁明載 Keystone Automotive Industries 為 LKQ 子公司及美國最大售後零件供應商。兩者足以支持「LKQ、Keystone Automotive — 北美最大 AM 經銷」。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:4f8e5c27889374aa",
+      "normalized_claim_hash": "4f8e5c27889374aa8d152a18dc07cbfe2a06e9a00021080f0dca3d9886e889d0",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 通路",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "LKQ Corporation Form 10-K for the fiscal year ended December 31, 2025 (U.S. SEC)",
+          "source_level": 3,
+          "period_binding": "截至2025年12月31日之會計年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自美國 SEC 官方 EDGAR 下載並檢視。10-K「Distribution」段載：「We believe our North America segment operates the largest distribution network of alternative vehicle parts and accessories serving the vehicle collision and mechanical repair markets in North America.」另載其北美業務包括 Keystone 等品牌（「we primarily sell aftermarket, salvage and reconditioned collision parts… through our businesses, including Keystone and Bumper to Bumper」）。FY2024 10-K（lkq-20241231.htm）亦有相同敘述，稱其 Wholesale - North America 部門擁有北美最大替代性車輛零件配送網路。"
+        },
+        {
+          "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+          "title": "Keystone Automotive Industries — LKQ Corp official brand page",
+          "source_level": 3,
+          "period_binding": "發行人官方現行品牌頁，查證日2026-10-05。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視 LKQ 官方網站品牌頁。原文載：「Keystone Automotive Industries, Inc., a subsidiary of LKQ Corporation, is the United States' largest aftermarket auto parts supplier.」佐證 Keystone 為 LKQ 子公司及其為美國最大售後零件供應商之定位。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之通路條目表述，證據與 40b14c614d7aad1a 相同：LKQ 10-K 載其為北美最大替代性車輛零件配送網路，Keystone 為其子公司與美國最大售後零件供應商。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
