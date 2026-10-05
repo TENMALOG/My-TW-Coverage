@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **265 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), and `author-048` (6).
+Author-reviewed: **269 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), and `author-049` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 166
+- PARTIALLY_SUPPORTED: 167
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 42
-- Remaining author queue: 1,134
+- Other allowed author decisions: 45
+- Remaining author queue: 1,130
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -579,6 +579,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - 後續處理建議（重要）：本批次6筆之共同成因是**官方文件不可讀取**（影像版 PDF、MOPS端點回傳非文件內容、官網 404／DNS 失敗），而非 claim 內容有誤。建議於後續輪次改採替代路徑：(1) 將影像版 PDF 以 pymupdf 轉為頁面影像後，以視覺方式逐頁檢視；(2) 改用各公司其他年度之官方簡報或年報；(3) 於 MOPS 端點可用時重試。此類限制未達 `local-recheck-queue.json` 之門檻（該佇列記錄 Cloud 環境之 HTTP 500–504 失敗），故佇列維持 **15** 筆。
 - No issuer report was modified. Independent review remains pending.
 - Author-reviewed total: **265 / 1,399**; remaining: **1,134**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 166, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 42. Next pending claim by priority: `1435:objective_ranking_or_market_share:6abe79fd3552bb12` (中福).
+
+## Author batch `author-049` — 2026-10-07
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (中福 1435 ×3, 大同 2371). Evidence came from directly downloaded and inspected official disclosures: 大同113年度年報；中福紡織之官方年報端點回傳非文件內容。
+- 更正（author-048）：攸泰科技（6928）官方年報兩個路徑所下載之 PDF（各 153,217 bytes），經以 pymupdf 開啟檢視後確認**實為該公司網站之 404 頁面**（頁面文字含「404 Sorry, we couldn't find the page you were looking for」，僅3頁），而非 author-048 原先推測之「影像／圖形排版」。已於 `semantic/author-048.json` 之兩筆 evidence.note 附加更正說明（保留原文並標註更正），原判定（UNKNOWN_AFTER_RESEARCH）不變。
+- `1435:objective_ranking_or_market_share:6abe79fd3552bb12`、`3716d349ab2a4699`、`0263fe5dc37d5f06` — `UNKNOWN_AFTER_RESEARCH`. 本批次嘗試取得中福紡織官方來源之結果：(1) 公開資訊觀測站年報端點 t100sa11_1435_113.pdf 回傳320 bytes 非文件內容；(2) 以臺灣證券交易所 OpenAPI「上市公司每日重大訊息」（openapi.twse.com.tw/v1/opendata/t187ap04_L）查詢，該端點僅回傳最新一日之重大訊息（出表日期1151005），不含本案所述之民國115年9月23日董事會決議；(3) 未查得該公司可檢視之官方投資人專區。註記：該公告主旨（「本公司董事會決議展延委託專業公司以公開標售方式處分位於桃園市中壢區中壢廠全部土地之契約」）可由多家券商與財經媒體之轉載頁面查得，惟依本審核之證據政策，搜尋結果與二手轉載僅作發現線索、不得作為證據，故未採用；該主旨亦未載明受託專業公司之名稱。故第一太平戴維斯（Savills）與仲量聯行（JLL）之角色未獲確立。
+- `2371:objective_ranking_or_market_share:d43fbcdfc7da62f6` — `PARTIALLY_SUPPORTED`. 大同113年度年報中「變壓器」出現26次、「重電」21次、「配電盤」6次、「氣體絕緣開關」3次、「電抗器」2次，支持其重電事業群產品涵蓋電力變壓器、配電變壓器、電抗器、配電盤及氣體絕緣開關（GIS）。惟「是台灣唯一同時具備變壓器與開關設備之一體化電力設備製造商」未獲支持——全份年報中「唯一」與「一體化」出現次數均為0；「重電事業群為主要獲利引擎」亦未以該等用語載明。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **269 / 1,399**; remaining: **1,130**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 167, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` (大同).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 00:04 UTC
+Updated: 2026-10-07 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **265 / 1,399**
-- Remaining author review: **1,134**
-- Latest batch: **author-048** (6 claims)
+- Author-reviewed: **269 / 1,399**
+- Remaining author review: **1,130**
+- Latest batch: **author-049** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **166**
+- `PARTIALLY_SUPPORTED`: **167**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **42**
+- `UNKNOWN_AFTER_RESEARCH`: **45**
 
 ## Latest claim batch
 
-- `6928:objective_ranking_or_market_share:1f10b3d64aa834a7`、`82073e105897f2df` — `UNKNOWN_AFTER_RESEARCH` ×2; 攸泰官方年報為影像排版（153,217 bytes 僅擷取3字元）、MOPS年報端點回320 bytes、MOPS簡報1,477,347 bytes 但「金礦」「烏茲別克」「強固」「平板」皆0次。
-- `8088:objective_ranking_or_market_share:6e48c96a0c0e420e`、`4b0c2a97dcdea7ad`、`27f8081da18866e3` — `UNKNOWN_AFTER_RESEARCH` ×3; 品安官方端點 DNS 無法解析、另一官方路徑404、MOPS年報端點回320 bytes。
-- `8210:objective_ranking_or_market_share:e0ee072a64d65aef` — `UNKNOWN_AFTER_RESEARCH`; 勤誠官方2015/2016年報端點皆404、MOPS年報端點回320 bytes。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-048.json`（6 筆）。未修改發行人報告。
-- 本批次6筆全因官方文件不可讀取而結為 UNKNOWN；已於報告中記錄後續應改用「影像版 PDF 轉圖後視覺檢視」等替代路徑重查。
-- Next pending claim by priority: `1435:objective_ranking_or_market_share:6abe79fd3552bb12` (中福).
+- `1435:objective_ranking_or_market_share:6abe79fd3552bb12`、`3716d349ab2a4699`、`0263fe5dc37d5f06` — `UNKNOWN_AFTER_RESEARCH` ×3; 中福紡織MOPS年報端點回320 bytes、TWSE OpenAPI 僅涵蓋最新一日（不含115/9/23公告）、未查得官方投資人專區；二手轉載依政策不採用。
+- `2371:objective_ranking_or_market_share:d43fbcdfc7da62f6` — `PARTIALLY_SUPPORTED`; 大同113年報載「變壓器」26次、「配電盤」6次、「氣體絕緣開關」3次、「電抗器」2次；惟「唯一」「一體化」皆0次、「主要獲利引擎」未載。
+- **更正（author-048）**：攸泰科技（6928）官方年報兩個路徑所下載之 PDF 經 pymupdf 檢視後確認實為**網站 404 頁面**（非年報、亦非影像排版）；已於 `semantic/author-048.json` 之 evidence.note 附加更正說明，原判定（UNKNOWN）不變。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-049.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2371:objective_ranking_or_market_share:7c1b7458bb352b9a` (大同).
 
 ## Source access
 
