@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 23:04 UTC
+Updated: 2026-10-11 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **828 / 1,399**
-- Remaining author review: **571**
-- Latest batch: **author-143** (4 claims)
+- Author-reviewed: **833 / 1,399**
+- Remaining author review: **566**
+- Latest batch: **author-144** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **541**
+- `PARTIALLY_SUPPORTED`: **543**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **196**
+- `UNKNOWN_AFTER_RESEARCH`: **199**
 
 ## Latest claim batch
 
-- `4587:objective_ranking_or_market_share:d95215ea397fbeb3` — `PARTIALLY_SUPPORTED`；寶元文件「**研華」2 次**、「CNC」1次；惟「Advantech」「最大」「500」「2013」「華語」皆0次。
-- `4590:objective_ranking_or_market_share:360bcbc09d6f1e13`、`fdd0dd5d84053326` — `PARTIALLY_SUPPORTED` ×2；富田年報**以中文名「特斯拉」表述**（2次）、「驅動馬達」1次；惟「最大客戶」「最資深」「Mazda／馬自達」皆0次。
-- `6187:objective_ranking_or_market_share:6ca35e4decf8dbab` — `PARTIALLY_SUPPORTED`；萬潤文件「**CoWoS」2 次、「LED」2 次**；惟「台積電」「最大客戶」「日月光」「矽品」「被動元件」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-143.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6208:objective_ranking_or_market_share:96caba418bc3233c` (日揚).
+- `6208:objective_ranking_or_market_share:96caba418bc3233c`、`5fdb674b7ffcd8a1`、`fb06ea6703cac885` — `UNKNOWN_AFTER_RESEARCH` ×3；日揚年報「**最大客戶」0 次**，且「**台積電」5 次全為產業展望**（「台積電市占將達73%」）；業務面「真空」137次、「Scrubber」12次則支持其業務。
+- `6603:objective_ranking_or_market_share:54f19d2754e289e6` — `PARTIALLY_SUPPORTED`；富強鑫文件「**1974」3 次**；惟「射出成型機」「最大」「唯一」皆0次。
+- `6603:objective_ranking_or_market_share:ca23047c4b4f0093` — `PARTIALLY_SUPPORTED`；文件「**多色」13 次**；惟「雙色」「射出成型機」「全球領先」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-144.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6618:objective_ranking_or_market_share:43a37be574cd8eb6` (永虹先進).
 
 ## Source access
 

@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-144",
+  "reviewed_at": "2026-10-05T20:57:15Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (日揚2025年度年報; 富強鑫公司文件)",
+  "items": [
+    {
+      "claim_id": "6208:objective_ranking_or_market_share:96caba418bc3233c",
+      "normalized_claim_hash": "96caba418bc3233ca02c6cbf391b55866c9ba6ed5b0b281795f75d4820496bb7",
+      "ticker": "6208",
+      "company": "日揚",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6208_日揚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]為最大客戶 (營收佔比逾 20%)，另供應[[聯電]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf",
+          "title": "日揚科技股份有限公司（日揚，6208，HIGHLIGHT TECH CORP.）2025 年度年報",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取81,861字元）。年報中「**真空**」出現137次、「**Scrubber**」12次、「**清洗**」11次，支持其真空設備、Scrubber 及清洗相關業務。**關鍵發現**：全份年報中「**最大客戶**」出現次數為**0**；「**台積電**」5次之上下文**均為產業展望敘述**——「**台積電**的高階製程仍是全球（…）」「**台積電**預期市占率將攀升至73%，並提升資本支出(CAPEX)」「先進製程帶動晶圓代工市場成長20％，**台積電**(2330)市占將達73%」，**非**客戶關係或營收占比之表述；「聯電」1次、「20%」6次之上下文亦未載客戶營收占比（「逾20」與「20 %」均為0）。"
+        }
+      ],
+      "rationale": "「[[台積電]]為**最大客戶**（營收佔比**逾 20%**），另供應[[聯電]]」未獲確立：所取得之日揚年報中「**最大客戶**」出現次數為**0**；「**台積電**」5次之上下文**均為產業展望敘述**（「**台積電**的高階製程仍是全球（…）」「**台積電**預期市占率將攀升至73%」「**台積電**(2330)市占將達73%」），**非**客戶關係；「逾20」與「20 %」均為0。因該 claim 之實質內容為具名客戶及其營收占比，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6208:objective_ranking_or_market_share:5fdb674b7ffcd8a1",
+      "normalized_claim_hash": "5fdb674b7ffcd8a1f59ae2e9c4d5d35d873779b5f6943d6d3f2fcaed9fbc15e5",
+      "ticker": "6208",
+      "company": "日揚",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6208_日揚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] (最大客戶，佔營收 20%+)、[[聯電]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf",
+          "title": "日揚科技股份有限公司（日揚，6208，HIGHLIGHT TECH CORP.）2025 年度年報",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取81,861字元）。年報中「**真空**」出現137次、「**Scrubber**」12次、「**清洗**」11次，支持其真空設備、Scrubber 及清洗相關業務。**關鍵發現**：全份年報中「**最大客戶**」出現次數為**0**；「**台積電**」5次之上下文**均為產業展望敘述**——「**台積電**的高階製程仍是全球（…）」「**台積電**預期市占率將攀升至73%，並提升資本支出(CAPEX)」「先進製程帶動晶圓代工市場成長20％，**台積電**(2330)市占將達73%」，**非**客戶關係或營收占比之表述；「聯電」1次、「20%」6次之上下文亦未載客戶營收占比（「逾20」與「20 %」均為0）。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[台積電]]（**最大客戶**，佔營收 **20%+**）、[[聯電]]」）。年報中「**最大客戶**」0次，「台積電」5次均為產業展望敘述，未載客戶營收占比，該具名客戶關係未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6208:objective_ranking_or_market_share:fb06ea6703cac885",
+      "normalized_claim_hash": "fb06ea6703cac885522f5c6ca66e366f7d8b0988222934fcb1ac56063720d008",
+      "ticker": "6208",
+      "company": "日揚",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6208_日揚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] (最大，佔 20%+)、[[聯電]] — 真空設備/Scrubber/清洗",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.htcvacuum.com/upload/media/investors/financial/annual_report/2025.pdf",
+          "title": "日揚科技股份有限公司（日揚，6208，HIGHLIGHT TECH CORP.）2025 年度年報",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取81,861字元）。年報中「**真空**」出現137次、「**Scrubber**」12次、「**清洗**」11次，支持其真空設備、Scrubber 及清洗相關業務。**關鍵發現**：全份年報中「**最大客戶**」出現次數為**0**；「**台積電**」5次之上下文**均為產業展望敘述**——「**台積電**的高階製程仍是全球（…）」「**台積電**預期市占率將攀升至73%，並提升資本支出(CAPEX)」「先進製程帶動晶圓代工市場成長20％，**台積電**(2330)市占將達73%」，**非**客戶關係或營收占比之表述；「聯電」1次、「20%」6次之上下文亦未載客戶營收占比（「逾20」與「20 %」均為0）。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[台積電]]（**最大**，佔 **20%+**）、[[聯電]] — 真空設備／Scrubber／清洗」）。**註記**：claim 所述之業務範疇（真空設備、Scrubber、清洗）於年報中獲支持（「**真空**」137次、「**Scrubber**」12次、「**清洗**」11次），惟 claim 之核心（台積電為最大客戶及營收占比）未獲確立——「**最大客戶**」0次，「台積電」5次均為產業展望敘述，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6603:objective_ranking_or_market_share:54f19d2754e289e6",
+      "normalized_claim_hash": "54f19d2754e289e64d7a2b86a7ad88a61e8ccad6a2dc85add52960f47e2dc67c",
+      "ticker": "6603",
+      "company": "富強鑫",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6603_富強鑫.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "富強鑫集團 (6603，FCS Group) 為台灣最大且唯一上市之塑膠射出成型機製造商 (1974 年創立)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/660320260416M001.pdf",
+          "title": "富強鑫集團（富強鑫，6603，FCS Group）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件（內容含2026年4月文件）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,554字元，以圖形排版為主）。文件中「**1974**」出現3次、「**多色**」13次，支持其成立年分及多色射出相關技術之敘述。全份文件中「**射出成型機**」「**最大**」「**唯一**」「**雙色**」與「**全球領先**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「成立於 **1974** 年」獲發行人文件**逐字支持**：文件中「**1974**」出現3次。惟兩項陳述未獲支持：(1)「為台灣**最大且唯一上市**之**塑膠射出成型機**製造商」——全份文件中「**射出成型機**」「**最大**」與「**唯一**」之出現次數**均為0**。故部分成立（並註記該文件文字擷取僅10,554字元，以圖形排版為主）。",
+      "proposed_text": "富強鑫集團 (6603，FCS Group) 成立於1974年。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6603:objective_ranking_or_market_share:ca23047c4b4f0093",
+      "normalized_claim_hash": "ca23047c4b4f00930c7e40ad0bfd0f593c6d6b1fce25b8e2570866364522c36e",
+      "ticker": "6603",
+      "company": "富強鑫",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6603_富強鑫.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "技術壁壘在多組分 (雙色/多色) 射出成型機，全球領先市占。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/660320260416M001.pdf",
+          "title": "富強鑫集團（富強鑫，6603，FCS Group）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件（內容含2026年4月文件）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,554字元，以圖形排版為主）。文件中「**1974**」出現3次、「**多色**」13次，支持其成立年分及多色射出相關技術之敘述。全份文件中「**射出成型機**」「**最大**」「**唯一**」「**雙色**」與「**全球領先**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「技術涵蓋多組分（**多色**）射出」獲發行人文件支持：文件中「**多色**」出現13次，支持其多色射出相關技術之敘述。惟兩項陳述未獲支持：(1)「技術壁壘在**雙色**／多色射出成型機」——「雙色」與「射出成型機」均為0；(2)「**全球領先市占**」——「全球領先」為0，未載市占率或市場地位敘述。故部分成立。",
+      "proposed_text": "富強鑫集團 (6603，FCS Group) 之技術涵蓋多色射出相關應用。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
