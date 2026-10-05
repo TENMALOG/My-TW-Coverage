@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 12:04 UTC
+Updated: 2026-10-08 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **482 / 1,399**
-- Remaining author review: **917**
-- Latest batch: **author-084** (6 claims)
+- Author-reviewed: **490 / 1,399**
+- Remaining author review: **909**
+- Latest batch: **author-085** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **320**
+- `PARTIALLY_SUPPORTED`: **325**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **87**
+- `UNKNOWN_AFTER_RESEARCH`: **90**
 
 ## Latest claim batch
 
-- `9910:objective_ranking_or_market_share:d6ba6478547062ad` — `PARTIALLY_SUPPORTED`；豐泰永續報告載其為「主要客戶 **Nike 最資深之製鞋合作夥伴**」；惟「85%」「六分之一」「氣墊」皆0次。
-- `1558:objective_ranking_or_market_share:87cc034abe16d845` — `PARTIALLY_SUPPORTED`；伸興2022年報載同業／客戶群含「**SVP集團**、日本JANOME、日本BROTHER…」（SVP 2次）；惟「1968」「全球最大」皆0次，且「30%」4次為**獨董比率與持股分級**。
-- `1558:objective_ranking_or_market_share:c93aec6e76435d1b`、`0fd3b72d834f9729` — `PARTIALLY_SUPPORTED` ×2；SVP集團之產業關聯成立；惟「最大客戶」「七成」與「全球市佔第一」皆0次。
-- `1558:objective_ranking_or_market_share:01444720c98b05b0` — `PARTIALLY_SUPPORTED`；年報「越南」49次、「越南廠」3次；惟「全球最大」0次，且「90%」唯一命中為「**-46.90%**」財務變動比例。
-- `1626:objective_ranking_or_market_share:2a014c4508c270a2` — `PARTIALLY_SUPPORTED`；艾美特2023簡報載「**Electric heater ranked #1**」與「**Household fan ranked as #2 in China**」；惟電風扇之排名範圍明確為**中國**而非claim所述之「全球」，「美的集團」與「No.1」未出現。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-084.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `1810:objective_ranking_or_market_share:51ab5ce5d9716cb5` (和成).
+- `1810:objective_ranking_or_market_share:51ab5ce5d9716cb5`、`18cac244bb931018` — `PARTIALLY_SUPPORTED` ×2；和成98年報「衛浴」46次、「中國」78次；惟「市佔第二」「市佔第四」「市佔第一」「菲律賓」「越南」皆0次（並註記該版本為98年度）。
+- `2059:objective_ranking_or_market_share:c23a7e78fb5bb734` — `PARTIALLY_SUPPORTED`；川湖2025簡報載「**亞洲第一伺服器導軌製造商**」（導軌11次）；惟「全球第二」「三成」皆0次。
+- `2059:objective_ranking_or_market_share:4efb402a64a4a4a6` — `UNKNOWN_AFTER_RESEARCH`；簡報「Accuride」「66%」皆0次，未取得該公司官方文件。
+- `4564:objective_ranking_or_market_share:5b9331d6b36946b2`、`44be16e89884bbf0` — `PARTIALLY_SUPPORTED` ×2；元翎2024永續報告載「成為**全球高壓充氣鋼瓶製造領導廠**」「**全球消費性高壓充氣鋼瓶領導廠商**」（領導8次）與安全氣囊7次、比亞迪2次；惟「MOSA」「40%」「全球市佔」「唯一」「全系列」皆0次。
+- `6629:objective_ranking_or_market_share:011aa453e3809aa4`、`f4667886c406f031` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY簡報（1,587字元）「Home Depot」「IKEA」「最大」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-085.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6629:objective_ranking_or_market_share:a8ac715de8b715a0` (泰金-KY).
 
 ## Source access
 
