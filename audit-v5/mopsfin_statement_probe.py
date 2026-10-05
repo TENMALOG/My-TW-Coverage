@@ -40,15 +40,33 @@ for period in ["20261","20262","20254"]:
     txt=clean(raw)
     soup=BeautifulSoup(raw,"html.parser")
     target_rows=[]
-    for tr in soup.find_all("tr"):
-        cells=[c.get_text(" ",strip=True) for c in tr.find_all(["th","td"],recursive=False)]
-        if cells and any(("母公司業主" in x or "本期淨利" in x or "營業利益" in x) for x in cells):
-            target_rows.append(cells)
+    tables=[]
+    for ti, table in enumerate([t for t in soup.find_all("table") if not t.find_parent("table")]):
+        rows=[]
+        for ri, tr in enumerate(table.find_all("tr")):
+            if tr.find_parent("table") is not table:
+                continue
+            cells=[c.get_text(" ",strip=True) for c in tr.find_all(["th","td"],recursive=False)]
+            if cells:
+                rows.append(cells)
+                if any(("母公司業主" in x or "本期淨利" in x or "營業利益" in x) for x in cells):
+                    target_rows.append({"table":ti,"row":len(rows)-1,"cells":cells})
+        tables.append({"index":ti,"row_count":len(rows),"rows":rows})
+    target_context=[]
+    for hit in target_rows:
+        ri=hit["row"]
+        target_context.append({
+            "hit":hit,
+            "same_row_across_tables":[
+                {"table":t["index"],"cells":t["rows"][ri] if ri < len(t["rows"]) else None}
+                for t in tables
+            ],
+        })
     snippets=[]
     for needle in ["歸屬於母公司業主","本期淨利","營業利益","營業毛利","營業收入"]:
       i=txt.find(needle)
       snippets.append({"needle":needle,"snippet":txt[max(0,i-200):i+500] if i>=0 else None})
-    out[period]={"length":len(raw),"target_rows":target_rows,"snippets":snippets}
+    out[period]={"length":len(raw),"table_counts":[{"index":t["index"],"row_count":t["row_count"]} for t in tables],"target_context":target_context,"snippets":snippets}
 path=Path("audit-v5/generated/mopsfin-statement-probe.json")
 path.parent.mkdir(parents=True,exist_ok=True)
 path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
