@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-093",
+  "reviewed_at": "2026-10-05T19:42:29Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (宅配通個體財務報告; 數字科技股東會年報; 富邦媒2024 Annual Report英文版); 台驊控股官方財務專區未提供可下載文件",
+  "items": [
+    {
+      "claim_id": "2636:objective_ranking_or_market_share:b0e48b98528244b3",
+      "normalized_claim_hash": "b0e48b98528244b3253902d1ae4626ff9ffdb7d6aafea5ff8f901c46c292cbf1",
+      "ticker": "2636",
+      "company": "台驊控股",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2636_台驊控股.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "海運通常為最大營收來源，營收結構隨市場運價波動動態調整。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.t3ex-group.com/Finance/1/3",
+          "title": "台驊國際投資控股股份有限公司（台驊控股，2636，T3EX）官方網站財務專區（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就台驊控股（2636）檢視發行人官方網域之財務專區，該頁為文件索引形式，**未直接提供可下載之年報或法人說明會簡報 PDF**；本批次未能取得載有營收結構之可檢視官方文件。"
+        }
+      ],
+      "rationale": "「海運通常為最大營收來源，營收結構隨市場運價波動動態調整」未獲確立：本批次就台驊控股檢視發行人官方網域之財務專區，該頁為文件索引形式而未直接提供可下載之年報或法人說明會簡報，未能取得載有營收結構之官方文件。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2642:objective_ranking_or_market_share:6cfd9d7f082d8b12",
+      "normalized_claim_hash": "6cfd9d7f082d8b123e573a27fc7e9b6e1fb9f4f83bcb2717568edf7bad9a05eb",
+      "ticker": "2642",
+      "company": "宅配通",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2642_宅配通.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣宅配通股份有限公司（Taiwan Pelican Express）為台灣第一家提供戶對戶（Door-to-Door）宅配服務之業者，由[[東元集團]]與日本[[日本通運]]（Nippon Express）技術合作成立。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.e-can.com.tw/downLoad/invest02/1773367562989.pdf",
+          "title": "台灣宅配通股份有限公司（宅配通，2642，Taiwan Pelican Express）個體財務報告暨會計師查核報告（民國114年度及113年度）",
+          "source_level": 3,
+          "period_binding": "民國114年度及113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告載「**台灣宅配通股份有限公司**（以下簡稱『本公司』）於中華民國設立，主要營業項目為**汽車路線貨運及宅配**等專業物流配送服務。**東元電機股份有限公司持有本公司**（…）」（「東元」15次），支持其宅配物流業務及與東元電機之持股關係。全份報告中「**日本通運**」「**第一家**」與「**戶對戶**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為宅配物流服務業者，由東元集團投資」獲發行人財務報告支持：報告載「台灣宅配通股份有限公司…主要營業項目為**汽車路線貨運及宅配**等專業物流配送服務。**東元電機股份有限公司持有本公司**（…）」（「東元」15次），支持其宅配業務性質與東元之持股關係。惟兩項陳述未獲支持：(1)「為台灣**第一家**提供**戶對戶（Door-to-Door）**宅配服務之業者」——「第一家」與「戶對戶」出現次數均為0；(2)「與日本**日本通運**（Nippon Express）**技術合作**成立」——「日本通運」出現次數為0。故部分成立。",
+      "proposed_text": "台灣宅配通 (2642，Taiwan Pelican Express) 從事汽車路線貨運及宅配等物流配送服務，東元電機為其股東。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5287:objective_ranking_or_market_share:b429f32154c5e076",
+      "normalized_claim_hash": "b429f32154c5e0768b3e2e7069697ea256d24ba31f3377d642e2100922f8c9d8",
+      "ticker": "5287",
+      "company": "數字",
+      "path": "Pilot_Reports/Internet Content & Information/5287_數字.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "數字科技 (5287，Addcn) 為台灣領先的網路生活平台營運商，旗下擁有多個高市佔率之垂直媒合平台，涵蓋房屋、汽車、人力、虛擬寶物及室內設計等領域。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.addcn.com/html/pdf/shareholder_2021Q4.pdf",
+          "title": "數字科技股份有限公司（數字，5287，Addcn）股東會年報",
+          "source_level": 3,
+          "period_binding": "文件所載數據含2020-2021年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**，採用C2C 商業（模式）」，另載「（8591）是臺灣最大的遊戲虛擬物品交易網站**之一**」與「**小雞上工：全臺最大的打工APP**，專為媒合大學生與雇主找兼職工讀所設」（「591」85次、「8591」35次、「房屋」31次、「寶物」12次、「人力」23次、「室內設計」8次、「最大」5次）。全份文件中**未見**以「最大」描述「591 房屋交易網」之敘述（「591」之上下文為導入VR看屋等服務與香港591之營運敘述）。"
+        }
+      ],
+      "rationale": "「為網路生活平台營運商，旗下有多個垂直媒合平台，涵蓋房屋、汽車、人力、虛擬寶物及室內設計等領域」獲發行人年報支持：文件載 591（85次）、8591（35次）、「房屋」31次、「寶物」12次、「人力」23次、「室內設計」8次，並載「小雞上工：全臺最大的打工APP」，平台組合與領域涵蓋與 claim 相符。惟「旗下擁有多個**高市佔率**之垂直媒合平台」之概括表述未獲支持：全份文件未以「市佔率」描述該等平台（「市占」0次），其市場地位係以個別平台之「最大」敘述呈現。故部分成立。",
+      "proposed_text": "數字科技 (5287，Addcn) 為網路生活平台營運商，旗下包含 591 房屋交易網、8591 寶物交易網、小雞上工等垂直媒合平台。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5287:objective_ranking_or_market_share:ee2db393fbb7a072",
+      "normalized_claim_hash": "ee2db393fbb7a072d6041757298e880c95a24da5d35363d0f282bf846b3a73fe",
+      "ticker": "5287",
+      "company": "數字",
+      "path": "Pilot_Reports/Internet Content & Information/5287_數字.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心平台與動能：(1) 591 房屋交易網 — 台灣最大房屋租售媒合平台 (營收主力)，房仲與屋主付費刊登；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.addcn.com/html/pdf/shareholder_2021Q4.pdf",
+          "title": "數字科技股份有限公司（數字，5287，Addcn）股東會年報",
+          "source_level": 3,
+          "period_binding": "文件所載數據含2020-2021年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**，採用C2C 商業（模式）」，另載「（8591）是臺灣最大的遊戲虛擬物品交易網站**之一**」與「**小雞上工：全臺最大的打工APP**，專為媒合大學生與雇主找兼職工讀所設」（「591」85次、「8591」35次、「房屋」31次、「寶物」12次、「人力」23次、「室內設計」8次、「最大」5次）。全份文件中**未見**以「最大」描述「591 房屋交易網」之敘述（「591」之上下文為導入VR看屋等服務與香港591之營運敘述）。"
+        }
+      ],
+      "rationale": "「591 房屋交易網為其平台，房仲與屋主付費刊登」獲發行人年報部分支持：文件載「臺灣591 房屋交易網」持具積極導入更多新服務，如VR看屋（…）（「591」85次、「房屋」31次），支持該平台之存在與業務性質。惟「**台灣最大**房屋租售媒合平台」未獲支持：全份文件中以「最大」描述者為 **8591**（臺灣最大的線上遊戲虛擬寶物交易平台）與**小雞上工**（全臺最大的打工APP），**未見以「最大」描述 591 之敘述**。故部分成立。",
+      "proposed_text": "591 房屋交易網為數字科技旗下之房屋交易平台。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5287:objective_ranking_or_market_share:bd1a0819aadbeb8c",
+      "normalized_claim_hash": "bd1a0819aadbeb8c3fdd631f088cf442a10f774c69455c3883bed08147ae215f",
+      "ticker": "5287",
+      "company": "數字",
+      "path": "Pilot_Reports/Internet Content & Information/5287_數字.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 8591 寶物交易網 — 台灣最大遊戲虛擬寶物交易平台，以手續費為收入模式；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.addcn.com/html/pdf/shareholder_2021Q4.pdf",
+          "title": "數字科技股份有限公司（數字，5287，Addcn）股東會年報",
+          "source_level": 3,
+          "period_binding": "文件所載數據含2020-2021年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**，採用C2C 商業（模式）」，另載「（8591）是臺灣最大的遊戲虛擬物品交易網站**之一**」與「**小雞上工：全臺最大的打工APP**，專為媒合大學生與雇主找兼職工讀所設」（「591」85次、「8591」35次、「房屋」31次、「寶物」12次、「人力」23次、「室內設計」8次、「最大」5次）。全份文件中**未見**以「最大」描述「591 房屋交易網」之敘述（「591」之上下文為導入VR看屋等服務與香港591之營運敘述）。"
+        }
+      ],
+      "rationale": "claim 直接獲發行人年報支持：文件載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**，採用C2C 商業（模式）」，並另載「（8591）是臺灣最大的遊戲虛擬物品交易網站之一」（「8591」35次、「寶物」12次），與 claim 之「8591 寶物交易網 — 台灣最大遊戲虛擬寶物交易平台」逐字對應。故予以支持。（另註：文件並載其以「手續費」為收入模式之 C2C 交易平台性質。）",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8454:objective_ranking_or_market_share:831fc9adc6fce229",
+      "normalized_claim_hash": "831fc9adc6fce229abb0ff96d8d919c8c617d7e02f05ec070957e6c7344ea11e",
+      "ticker": "8454",
+      "company": "富邦媒",
+      "path": "Pilot_Reports/Internet Retail/8454_富邦媒.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "富邦媒體科技 (8454，momo.com) 隸屬於[[富邦集團]]，為台灣最大電子商務平台，以 [[momo購物網]] 為核心，年營收突破千億台幣。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://corp.momo.com.tw/en/file/investor/shareholdersMeeting/202501141851/20250508172756.pdf",
+          "title": "momo.com Inc.（富邦媒，8454，Fubon Media Technology）2024 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年度（2025年2月21日刊印）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報為**英文版**，載「（A）s the **leading e-commerce player** in（Taiwan）」（「challenged the e-commerce **market share**」）與「leading the **No. 1 e-commerce brand** in（Taiwan）」（「leading」8次、「largest」6次、「e-commerce」35次、「B2C」9次、「No.1」1次）。**方法論註記：該文件為英文版，故以中文關鍵字檢索「電子商務」「營收」「市佔」「第一」「領導」之出現次數均為0，須改以英文詞彙比對。**"
+        }
+      ],
+      "rationale": "「為台灣電子商務平台，以 momo 購物網為核心且居領先地位」獲發行人年報支持：2024年報（英文版）載「（A）s the **leading e-commerce player** in（Taiwan）」與「leading the **No. 1 e-commerce brand** in（Taiwan）」（「leading」8次、「e-commerce」35次、「No.1」1次），支持其市場領先地位。惟兩項陳述未獲支持或須註記：(1)「年營收**突破千億**台幣」——年報中未見以千億（或 NT$100bn）描述營收之敘述（該數字未出現）；(2)「隸屬於**富邦集團**」——本件為英文年報，未以中文「富邦集團」表述。**方法論註記：本件為英文版文件，以中文關鍵字檢索均為0次，須改以英文詞彙比對。** 故部分成立。",
+      "proposed_text": "富邦媒體科技 (8454，momo.com) 以 momo 購物網為核心經營電子商務平台，為台灣領先之電商業者。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8454:objective_ranking_or_market_share:8562fb574e9c1bc9",
+      "normalized_claim_hash": "8562fb574e9c1bc90160669f6e367ddd5a9c6f3b506506b770271f646934046d",
+      "ticker": "8454",
+      "company": "富邦媒",
+      "path": "Pilot_Reports/Internet Retail/8454_富邦媒.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) B2C 電商 (營收主力) — [[momo購物網]] 為台灣最大 B2C 購物平台，商品涵蓋 3C、家電、美妝、食品、日用品等全品類，以快速到貨與豐富品項為競爭優勢；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://corp.momo.com.tw/en/file/investor/shareholdersMeeting/202501141851/20250508172756.pdf",
+          "title": "momo.com Inc.（富邦媒，8454，Fubon Media Technology）2024 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年度（2025年2月21日刊印）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報為**英文版**，載「（A）s the **leading e-commerce player** in（Taiwan）」（「challenged the e-commerce **market share**」）與「leading the **No. 1 e-commerce brand** in（Taiwan）」（「leading」8次、「largest」6次、「e-commerce」35次、「B2C」9次、「No.1」1次）。**方法論註記：該文件為英文版，故以中文關鍵字檢索「電子商務」「營收」「市佔」「第一」「領導」之出現次數均為0，須改以英文詞彙比對。**"
+        }
+      ],
+      "rationale": "「B2C 電商為營收主力，momo 購物網為台灣 B2C 購物平台並以快速到貨與豐富品項為競爭優勢」獲發行人年報部分支持：英文年報中「**B2C**」出現9次、「e-commerce」35次，並載其為「**leading e-commerce player**」與「**No. 1 e-commerce brand**」，支持其 B2C 電商業務與領先地位；另載「momo invested more than NT$3 billion to build the **largest warehouse** in southern（Taiwan）」，支持其物流投資。惟「商品涵蓋 3C、家電、美妝、食品、日用品等**全品類**」之逐項品類敘述未見於本件之對應文字。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8454:objective_ranking_or_market_share:faf0013285a9ca12",
+      "normalized_claim_hash": "faf0013285a9ca12a0f1c25b4f02742ac6dbdc01934285eacb6e75ddd5cf9d68",
+      "ticker": "8454",
+      "company": "富邦媒",
+      "path": "Pilot_Reports/Internet Retail/8454_富邦媒.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**富邦媒** ([[momo購物網]]，台灣最大 B2C 平台)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://corp.momo.com.tw/en/file/investor/shareholdersMeeting/202501141851/20250508172756.pdf",
+          "title": "momo.com Inc.（富邦媒，8454，Fubon Media Technology）2024 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年度（2025年2月21日刊印）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報為**英文版**，載「（A）s the **leading e-commerce player** in（Taiwan）」（「challenged the e-commerce **market share**」）與「leading the **No. 1 e-commerce brand** in（Taiwan）」（「leading」8次、「largest」6次、「e-commerce」35次、「B2C」9次、「No.1」1次）。**方法論註記：該文件為英文版，故以中文關鍵字檢索「電子商務」「營收」「市佔」「第一」「領導」之出現次數均為0，須改以英文詞彙比對。**"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「富邦媒（momo購物網，台灣最大 B2C 平台）」）。年報載其為「leading e-commerce player」與「No. 1 e-commerce brand」（「B2C」9次），支持其領先地位與 B2C 業務；惟「**最大**」一詞係以「No. 1」表述，且未見以「B2C 平台最大」之直接語句，故以部分成立結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

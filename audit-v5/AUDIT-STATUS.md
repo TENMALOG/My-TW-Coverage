@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 20:04 UTC
+Updated: 2026-10-08 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **540 / 1,399**
-- Remaining author review: **859**
-- Latest batch: **author-092** (5 claims)
+- Author-reviewed: **548 / 1,399**
+- Remaining author review: **851**
+- Latest batch: **author-093** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **74**
-- `PARTIALLY_SUPPORTED`: **354**
+- `ACCEPTED`: **75**
+- `PARTIALLY_SUPPORTED`: **360**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **108**
+- `UNKNOWN_AFTER_RESEARCH`: **109**
 
 ## Latest claim batch
 
-- `5878:objective_ranking_or_market_share:ac33ab82c59a8a20` — `PARTIALLY_SUPPORTED`；台名文件載首年度及**續年度保費之佣金收入**（經紀34次、佣金16次、壽險9次、續年4次）；惟claim所述收入結構百分比未見分項表。
-- `2607:objective_ranking_or_market_share:eae39f4c4c4f4d7b` — `PARTIALLY_SUPPORTED`；榮運2026簡報載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭」「10家直靠航商客戶」；惟「全台最大」與「貨櫃車隊」皆0次。
-- `2607:objective_ranking_or_market_share:4b0fbf64456a202c`、`8f8f4b26870312a9` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報客戶僅以「10家直靠航商客戶」通稱，「長榮海運」「陽明」皆0次。
-- `2612:objective_ranking_or_market_share:f023856ea96f015b` — `PARTIALLY_SUPPORTED`；中航112年報「**偉聯運輸**」41次、「內陸」38次、拖車1次；惟「市佔」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-092.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2636:objective_ranking_or_market_share:b0e48b98528244b3` (台驊控股).
+- `2636:objective_ranking_or_market_share:b0e48b98528244b3` — `UNKNOWN_AFTER_RESEARCH`；台驊官方財務專區為文件索引，未提供可下載年報或簡報。
+- `2642:objective_ranking_or_market_share:6cfd9d7f082d8b12` — `PARTIALLY_SUPPORTED`；宅配通財報載「汽車路線貨運及宅配等專業物流配送服務」與「**東元電機股份有限公司持有本公司**」（東元15次）；惟「第一家」「戶對戶」「日本通運」皆0次。
+- `5287:objective_ranking_or_market_share:b429f32154c5e076` — `PARTIALLY_SUPPORTED`；數字年報載591（85次）、8591（35次）等平台組合；惟「高市佔率」之概括表述未見（「市占」0次）。
+- `5287:objective_ranking_or_market_share:ee2db393fbb7a072` — `PARTIALLY_SUPPORTED`；591之平台存在與業務成立；惟「**台灣最大**房屋租售媒合平台」未獲支持（文件中以「最大」描述者為**8591**與**小雞上工**，非591）。
+- `5287:objective_ranking_or_market_share:bd1a0819aadbeb8c` — `ACCEPTED`；年報載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**」——逐字對應。
+- `8454:objective_ranking_or_market_share:831fc9adc6fce229`、`8562fb574e9c1bc9`、`faf0013285a9ca12` — `PARTIALLY_SUPPORTED` ×3；富邦媒2024年報（**英文版**）載「**leading e-commerce player**」與「leading the **No. 1 e-commerce brand**」（e-commerce 35次、B2C 9次）；惟「突破千億」未見，且中文關鍵字於英文文件中均0次（須改以英文比對）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-093.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `1432:objective_ranking_or_market_share:308460c572bff85d` (大魯閣).
 
 ## Source access
 
