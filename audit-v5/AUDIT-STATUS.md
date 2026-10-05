@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 10:04 UTC
+Updated: 2026-10-13 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,051 / 1,399**
-- Remaining author review: **348**
-- Latest batch: **author-202** (6 claims)
+- Author-reviewed: **1,056 / 1,399**
+- Remaining author review: **343**
+- Latest batch: **author-203** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **677**
+- `PARTIALLY_SUPPORTED`: **682**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,15 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6263:material_named_relationship:b8c4cba57cba6846` — `UNKNOWN_AFTER_RESEARCH`；普萊德年報「**Broadcom／博通／瑞昱」皆 0 次**。
-- `6285:material_named_relationship:b8e94427fc91e691` — `PARTIALLY_SUPPORTED`；啟碁ESG「**RF」4 次、「天線」4 次、「低軌衛星」1 次**；惟「電信營運商」0次。
-- `6285:material_named_relationship:acaea29878c8bc70` — `PARTIALLY_SUPPORTED`；「低軌衛星」1次；惟「電信營運商／車廠／Tier 1」皆0次。
-- `6417:profitability_assertion:c50ead0cffa828d8` — `PARTIALLY_SUPPORTED`；韋僑ESG「**標籤」23 次、「客製化」2 次**；惟「紅海／差異化／高毛利」皆0次。
-- `6417:profitability_assertion:bd8776e7bb126378` — `PARTIALLY_SUPPORTED`；「標籤」23次、「客製化」2次；惟「高毛利／鍛造／黑牌」皆0次。
-- `6417:profitability_assertion:786b6167ef6e8579` — `UNKNOWN_AFTER_RESEARCH`；「**Medtronic／Stryker」皆 0 次**。
-- **里程碑：author 已審 **1,051** 筆 claim（75.1%）。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-202.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6465:material_named_relationship:1b1eac4e47b8e85f` (威潤).
+- `6465:material_named_relationship:1b1eac4e47b8e85f` — `PARTIALLY_SUPPORTED`；威潤簡報可見「**SoftBank」1 次（與 NTT Docomo、KDDI 並列）**、「4G」10次、「LTE」7次；惟「衛星／認證」皆0次（**該簡報文字層部分為亂碼**，中文缺席不具決定性）。
+- `6530:material_named_relationship:02c3945e52c21e28`、`4d2b4989231e6648` — `PARTIALLY_SUPPORTED` ×2；創威簡報**逐字載**「成為 **CHT（中華電信）千兆乙太網路 SFP 主要供應商**」；**惟「A 級」與「認證」皆 0 次**。
+- `6546:profitability_assertion:8eb8781a7d220316` — `PARTIALLY_SUPPORTED`；正基簡報「**醫療」2 次、「車用」2 次、「充電樁」1 次**；惟「工業控制／紅海／消費性／高毛利」皆0次。
+- `6546:profitability_assertion:47133d50b4b5dce6` — `PARTIALLY_SUPPORTED`；「充電樁」「醫療」成立；惟「超高毛利／工業控制／IPC」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-203.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6715:material_named_relationship:30d2cc243e301363` (嘉基).
 
 ## Source access
 

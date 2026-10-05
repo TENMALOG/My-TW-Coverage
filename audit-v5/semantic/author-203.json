@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-203",
+  "reviewed_at": "2026-10-05T22:05:37Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (威潤法人說明會簡報; 創威法人說明會簡報; 正基法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "6465:material_named_relationship:1b1eac4e47b8e85f",
+      "normalized_claim_hash": "1b1eac4e47b8e85f40cc9804690f8318a7bdf978c70b4c47ef91d488670a9a19",
+      "ticker": "6465",
+      "company": "威潤",
+      "path": "Pilot_Reports/Communication Equipment/6465_威潤.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[SoftBank]] — 4G LTE 衛星監控設備認證供應",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/646520200414E001.pdf",
+          "title": "威潤科技股份有限公司（威潤，6465，ATrack Technology）法人說明會簡報（2020-04-14）",
+          "source_level": 3,
+          "period_binding": "2020年4月14日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取11,198字元）。**關鍵發現（字形與亂碼）**：該簡報之文字層**部分為字元位移之亂碼**（如「Įɚ0Ex NTT DocomoKDDI  SoftBank」「u <ŃȆÍǡŉ4G LTE Ǯğ®&Ƒÿ-è」），**惟拉丁字母部分可辨識**——可見「**NTT Docomo**」「**KDDI**」「**SoftBank**」「**Sprint**」及「**4G LTE**」（「4G」10次、「LTE」7次、「**SoftBank**」1次），**支持其電信營運商客戶與 4G LTE 產品之敘述**。全份簡報中「軟銀」「衛星」與「認證」之出現次數**均為0**（**惟因文字層亂碼，該等字詞之缺席不具決定性**）。"
+        }
+      ],
+      "rationale": "「[[SoftBank]] — **4G LTE**（設備供應）」獲發行人簡報之**部分支持**：簡報中可見「**SoftBank**」1次（與「**NTT Docomo**」「**KDDI**」並列）及「**Sprint**」，並見「4G」10次、「LTE」7次，**支持其電信營運商客戶與 4G LTE 產品之敘述**。**惟兩項陳述未獲支持**：(1)「**衛星**監控設備」——「衛星」出現次數為**0**；(2)「**認證**供應」——「認證」為**0**。故部分成立。**字形註記**：**該簡報之文字層部分為字元位移之亂碼**（如「Įɚ0Ex NTT DocomoKDDI  SoftBank」），**惟拉丁字母部分可辨識**；**因亂碼之故，中文關鍵字之缺席不具決定性**。",
+      "proposed_text": "威潤科技 (6465，ATrack Technology) 之電信營運商客戶包含 SoftBank、NTT Docomo、KDDI 等，並供應 4G LTE 相關設備。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6530:material_named_relationship:02c3945e52c21e28",
+      "normalized_claim_hash": "02c3945e52c21e281d143fa29dda81bbeb4866fca55d3e5a84dc697b649d5499",
+      "ticker": "6530",
+      "company": "創威",
+      "path": "Pilot_Reports/Communication Equipment/6530_創威.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中華電信]] — A 級光模組認證供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/653020180104E001.pdf",
+          "title": "創威光電股份有限公司（創威，6530，Axcen Photonics）法人說明會簡報（2018-01-04）",
+          "source_level": 3,
+          "period_binding": "2018年1月4日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,163字元）。簡報載「成為 **CHT (中華電信）千兆乙太網路 SFP 主要供應商**」（「**中華電信**」1次），並載「企業願景：成為一家前瞻與卓越的**光模組**公司」（「光模組」1次），**逐字支持其為中華電信之光模組供應商**。**關鍵發現**：全份簡報中「**A 級**」「**A級**」與「**認證**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[中華電信]] — **光模組**供應商」獲發行人簡報**逐字支持**：簡報載「成為 **CHT (中華電信）千兆乙太網路 SFP 主要供應商**」（「**中華電信**」1次），並載「企業願景：成為一家前瞻與卓越的**光模組**公司」（「光模組」1次）。**惟「A 級」與「認證」未獲支持**：「**A 級**」「**A級**」與「**認證**」之出現次數**均為0**（**簡報所述為「主要供應商」，非「A級認證」**）。故部分成立。",
+      "proposed_text": "創威光電 (6530，Axcen Photonics) 為中華電信（CHT）千兆乙太網路 SFP 之主要供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6530:material_named_relationship:4d2b4989231e6648",
+      "normalized_claim_hash": "4d2b4989231e664823786b5eeefe86f9697bdd863af41f54bf8c5b9cf3abe247",
+      "ticker": "6530",
+      "company": "創威",
+      "path": "Pilot_Reports/Communication Equipment/6530_創威.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中華電信]] — A 級認證光模組供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/653020180104E001.pdf",
+          "title": "創威光電股份有限公司（創威，6530，Axcen Photonics）法人說明會簡報（2018-01-04）",
+          "source_level": 3,
+          "period_binding": "2018年1月4日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,163字元）。簡報載「成為 **CHT (中華電信）千兆乙太網路 SFP 主要供應商**」（「**中華電信**」1次），並載「企業願景：成為一家前瞻與卓越的**光模組**公司」（「光模組」1次），**逐字支持其為中華電信之光模組供應商**。**關鍵發現**：全份簡報中「**A 級**」「**A級**」與「**認證**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[中華電信]] — 光模組供應商」獲發行人簡報**逐字支持**（「成為 CHT (中華電信）千兆乙太網路 SFP 主要供應商」）。**惟「A 級認證」未獲支持**：「**A 級**」與「**認證**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "創威光電 (6530，Axcen Photonics) 為中華電信之光模組（SFP）供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6546:profitability_assertion:8eb8781a7d220316",
+      "normalized_claim_hash": "8eb8781a7d220316c64b4bf5822619d6978d53a111fb02cae625d0fd80c5cd27",
+      "ticker": "6546",
+      "company": "正基",
+      "path": "Pilot_Reports/Communication Equipment/6546_正基.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "隨著萬物互聯趨勢，正基已成功跨足高毛利的工業控制、智慧醫療(如連網[[醫療器材]])及車用電子(如充電樁無線模組)領域，擺脫[[消費性電子]]的紅海競爭。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/654620260409M001.pdf",
+          "title": "正基科技股份有限公司（正基，6546，AMPAK Technology）法人說明會簡報（2026-04-09）",
+          "source_level": 3,
+          "period_binding": "2026年4月9日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,334字元，以圖形排版為主）。簡報載「**智能醫療**」「智慧長照與**醫療**護理」與「物聯網無線模組包含Wi-Fi/藍牙模組、**車用模組**、SoM模組和5G RedCap模組」「**車用**娛樂系統」（「**醫療**」2次、「**車用**」2次、「**充電樁**」1次），支持其醫療與車用領域之產品佈局。**關鍵發現**：全份簡報中「**工業控制**」「**IPC**」「**紅海**」「**消費性**」「**高毛利**」與「**超高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「跨足**智慧醫療**（如連網醫療器材）及**車用電子**（如充電樁無線模組）領域」獲發行人簡報支持：簡報載「**智能醫療**」「智慧長照與**醫療**護理」「物聯網無線模組包含Wi-Fi/藍牙模組、**車用模組**、SoM模組和5G RedCap模組」「**車用**娛樂系統」（「**醫療**」2次、「**車用**」2次、「**充電樁**」1次）。**惟三項陳述未獲支持**：(1)「**工業控制**」——出現次數為**0**；(2)「擺脫[[消費性電子]]的**紅海競爭**」——「**紅海**」與「**消費性**」均為**0**；(3)「**高毛利**的」——「**高毛利**」為**0**。故部分成立。",
+      "proposed_text": "正基科技 (6546，AMPAK Technology) 之無線通訊模組跨足智慧醫療及車用電子（含充電樁無線模組）等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6546:profitability_assertion:47133d50b4b5dce6",
+      "normalized_claim_hash": "47133d50b4b5dce66f031f52a1a58a5cbe653751c774809ad696bdf3ce39aeef",
+      "ticker": "6546",
+      "company": "正基",
+      "path": "Pilot_Reports/Communication Equipment/6546_正基.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "以超高毛利為主要目標，積極搶攻工業控制 IPC 高附加值設備、連網醫療器材及充電樁無線控制等夢幻利基垂直場景)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/654620260409M001.pdf",
+          "title": "正基科技股份有限公司（正基，6546，AMPAK Technology）法人說明會簡報（2026-04-09）",
+          "source_level": 3,
+          "period_binding": "2026年4月9日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,334字元，以圖形排版為主）。簡報載「**智能醫療**」「智慧長照與**醫療**護理」與「物聯網無線模組包含Wi-Fi/藍牙模組、**車用模組**、SoM模組和5G RedCap模組」「**車用**娛樂系統」（「**醫療**」2次、「**車用**」2次、「**充電樁**」1次），支持其醫療與車用領域之產品佈局。**關鍵發現**：全份簡報中「**工業控制**」「**IPC**」「**紅海**」「**消費性**」「**高毛利**」與「**超高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「搶攻…連網**醫療**器材及**充電樁**無線控制等垂直場景」獲發行人簡報支持（「醫療」2次、「**充電樁**」1次、「車用」2次）。**惟多項陳述未獲支持**：(1)「以**超高毛利**為主要目標」——「**超高毛利**」與「**高毛利**」之出現次數**均為0**；(2)「**工業控制 IPC 高附加值設備**」——「**工業控制**」與「**IPC**」均為**0**；(3)「**夢幻利基**」為 claim 之修辭。故部分成立。",
+      "proposed_text": "正基科技 (6546) 發展連網醫療器材及充電樁無線控制等應用之無線通訊模組。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
