@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T19:31:53Z",
+  "generated_at": "2026-10-05T19:33:51Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -90,17 +90,18 @@
     "author-085",
     "author-086",
     "author-087",
-    "author-088"
+    "author-088",
+    "author-089"
   ],
-  "source_batch_count": 88,
-  "total_unknown": 99,
+  "source_batch_count": 89,
+  "total_unknown": 102,
   "failure_signature_counts": {
-    "other_unclassified": 46,
+    "other_unclassified": 47,
     "mops_non_document": 24,
     "non_document_response": 22,
     "http_404": 24,
-    "no_official_endpoint_found": 36,
-    "image_only_or_tiny_text": 9,
+    "no_official_endpoint_found": 37,
+    "image_only_or_tiny_text": 10,
     "http_403": 5,
     "connection_failure": 5,
     "garbled_text_layer": 5,
@@ -553,7 +554,7 @@
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:91dae1d50cf674d0",
@@ -570,7 +571,7 @@
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:c1562f098f12ec0e",
@@ -587,7 +588,7 @@
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2301:objective_ranking_or_market_share:0c7d1b024b811bb9",
@@ -604,7 +605,7 @@
       "attempted_sources": [
         "https://www.liteon.com/zh-tw/investors"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
@@ -666,7 +667,7 @@
       "attempted_sources": [
         "https://ubiqconn.com/upload/inv_sto_meeting/2_EN_%e5%b9%b4%e5%a0%b1%e5%ae%8c%e6%95%b4%e7%89%88_20250430(%e4%b8%8a%e5%82%b3%e6%aa%94).pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "6928:objective_ranking_or_market_share:82073e105897f2df",
@@ -682,7 +683,7 @@
       "attempted_sources": [
         "https://ubiqconn.com/upload/inv_sto_meeting/2_EN_%e5%b9%b4%e5%a0%b1%e5%ae%8c%e6%95%b4%e7%89%88_20250430(%e4%b8%8a%e5%82%b3%e6%aa%94).pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "8088:objective_ranking_or_market_share:6e48c96a0c0e420e",
@@ -1136,7 +1137,7 @@
       "attempted_sources": [
         "https://www.zdtco.com/upload/2025_03_112/20250311115336vc9uenkaj1.pdf"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "4958:objective_ranking_or_market_share:e9718e647cdf6213",
@@ -1151,7 +1152,7 @@
       "attempted_sources": [
         "https://www.zdtco.com/tw/news/%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "4958:objective_ranking_or_market_share:40a491b3e2ad9593",
@@ -1166,7 +1167,7 @@
       "attempted_sources": [
         "https://www.zdtco.com/tw/news/%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A"
       ],
-      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視"
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
     },
     {
       "claim_id": "5228:objective_ranking_or_market_share:bc677a4369a50038",
@@ -1588,6 +1589,48 @@
       ],
       "attempted_sources": [
         "http://www.elumax.com/storage/2019/01/1110524-annual-reportlock.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
+    },
+    {
+      "claim_id": "3158:objective_ranking_or_market_share:6f3b16014ede3133",
+      "ticker": "3158",
+      "company": "嘉實",
+      "claim": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]]、[[NYSE]] — 第一手市場報價",
+      "batch_id": "author-089",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mops.twse.com.tw/"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
+    },
+    {
+      "claim_id": "6214:objective_ranking_or_market_share:efede12ca151ffcc",
+      "ticker": "6214",
+      "company": "精誠",
+      "claim": "精誠資訊 (6214，SYSTEX) 成立於 1997 年，為台灣最大資訊服務上市公司，員工約 5,000 人，全球據點逾 50 處，涵蓋台灣、中國、香港、日本、越南、新加坡等地。",
+      "batch_id": "author-089",
+      "failure_signature": [
+        "image_only_or_tiny_text"
+      ],
+      "attempted_sources": [
+        "https://tw.systex.com/wp-content/uploads/sites/2/112%E5%B9%B4%E5%B9%B4%E5%A0%B1-%E4%B8%8A%E5%82%B3.pdf"
+      ],
+      "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "6221:objective_ranking_or_market_share:03dcbb306517351e",
+      "ticker": "6221",
+      "company": "晉泰",
+      "claim": "[[精誠資訊]] (6214) — 持股逾三成之最大股東",
+      "batch_id": "author-089",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/622120231221M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
     }

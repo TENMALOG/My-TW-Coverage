@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **512 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), and `author-088` (8).
+Author-reviewed: **520 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), and `author-089` (8).
 
-- ACCEPTED by author: 71
-- PARTIALLY_SUPPORTED: 338
+- ACCEPTED by author: 73
+- PARTIALLY_SUPPORTED: 341
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 99
-- Remaining author queue: 887
+- Other allowed author decisions: 102
+- Remaining author queue: 879
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1042,6 +1042,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **99 筆**。
 - Author-reviewed total: **512 / 1,399**; remaining: **887**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 338, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 99. Next pending claim by priority: `6192:objective_ranking_or_market_share:d0ce09fbc459509c` (巨路).
+
+## Author batch `author-089` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (巨路 6192, 羅昇 8374, 嘉實 3158, 精誠 6214, 晉泰 6221, 資拓宏宇 6614, 現觀科 6906 ×2). Evidence came from directly downloaded and inspected official disclosures: 巨路111年度年報、羅昇110年度年報、晉泰2023年法人說明會簡報、資拓宏宇114年度年報、現觀科技112年度年報。
+- `6192:objective_ranking_or_market_share:d0ce09fbc459509c` — `PARTIALLY_SUPPORTED`. 本 claim 為巨路同一事實之條目表述（「Emerson（**全球最大**程控製造商，**獨家**代理）」）。年報載其「主要與國際程控**領導品牌 Emerson** 合作」且 Emerson「為程控廠商之技術及品牌**領導廠商**」；惟「全球最大」與「獨家」出現次數均為0，且年報明載其「主要供應商包括 **Emerson、ABB、Honeywell、Yokogawa 及 Siemens** 等」。
+- `8374:objective_ranking_or_market_share:3152a46dc54ea3c8` — `PARTIALLY_SUPPORTED`. 羅昇110年度年報載「本公司屬**自動化機電零組件代理商暨技術服務業者**」（「自動化」66次、「代理」48次），支持其通路業務；惟「成立於1984年」（「1984」0次）與「為台灣**最大**專業自動化機電組件通路商」（「最大」0次）未獲支持。
+- `3158:objective_ranking_or_market_share:6f3b16014ede3133` — `UNKNOWN_AFTER_RESEARCH`. 本批次未查得嘉實（3158）發行人官方網域之可下載年報或法人說明會端點，未取得可檢視之正式文件，其資料來源（證交所、櫃買中心、期交所、NASDAQ、NYSE）之具名關係未獲確立。
+- `6214:objective_ranking_or_market_share:efede12ca151ffcc` — `UNKNOWN_AFTER_RESEARCH`. 本批次自精誠資訊官方網域下載之**兩份年報檔案均僅5,574 bytes**，經 PDF 文字擷取後各僅得1字元，顯非完整文件，故不予採用；本批次未取得精誠可檢視之官方文件。
+- `6221:objective_ranking_or_market_share:03dcbb306517351e` — `UNKNOWN_AFTER_RESEARCH`. 晉泰2023年官方簡報（文字擷取6,626字元）內容為公司基本資料、數位轉型策略與資通訊方案，全份簡報中「**精誠**」「三成」與「最大股東」出現次數均為0，其股東身分與持股比例未獲確立。
+- `6614:objective_ranking_or_market_share:a2228d1fc670af08` — `PARTIALLY_SUPPORTED`. 資拓宏宇114年度年報「市場占有率」段載其深耕「**智慧政府、智慧金融、智慧醫療與智慧城市**等四大領域」，並載「行政院轄下43機關中，切入41個機關，涵蓋率達**95%**；全國28個縣市政府其中有24個是本公司客戶，涵蓋率達**86%**；而**38間本國銀行切入其中35間，涵蓋率逾90%**」，與 claim 之「智慧政府（戶政／勞保等大型公共系統）」及「智慧金融（**服務逾90%台灣本土銀行**）」對應；惟「擁有**極高市佔率**」未獲支持——年報之官方用語為「**涵蓋率**」（「市佔」0次），「智慧政府在手訂單**逾30億元**」亦未獲支持（「30億」0次）。
+- `6906:objective_ranking_or_market_share:662269e93948f5e3` 與 `d7f499644ed091ed` — `ACCEPTED`. 現觀科技112年度年報載「取得**中東地區最大電信業者 STC** CovMo™合作合約」與「透過合作夥伴取得**中東地區的最大電信業者 STC 集團**第十次 CovMo™產品擴充（訂單）」（「STC」4次、「中東」5次、「最大電信」4次），與 claim 之「Saudi Telecom (STC) — 中東最大電信營運商」逐字對應。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **102 筆**。
+- Author-reviewed total: **520 / 1,399**; remaining: **879**. Outcome counts: ACCEPTED 73, PARTIALLY_SUPPORTED 341, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 102. Next pending claim by priority: `7765:objective_ranking_or_market_share:ca7dd7afc3bd6233` (中華資安).
+
 
 
 

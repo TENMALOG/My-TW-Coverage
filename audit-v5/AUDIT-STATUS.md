@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 16:04 UTC
+Updated: 2026-10-08 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **512 / 1,399**
-- Remaining author review: **887**
-- Latest batch: **author-088** (8 claims)
+- Author-reviewed: **520 / 1,399**
+- Remaining author review: **879**
+- Latest batch: **author-089** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **338**
+- `ACCEPTED`: **73**
+- `PARTIALLY_SUPPORTED`: **341**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **99**
+- `UNKNOWN_AFTER_RESEARCH`: **102**
 
 ## Latest claim batch
 
-- `6671:objective_ranking_or_market_share:1c6728d636eea59e` — `PARTIALLY_SUPPORTED`；三能年報載營運模式「係以**自有品牌**之銷售為（主）」（SANNENG 18次、烘焙353次、烤模10次）；惟「UNOPAN」0次，且「市佔」1次係「提升線上銷售**市佔率**」之**營運目標**。
-- `8929:objective_ranking_or_market_share:9995e14a016110bb` — `PARTIALLY_SUPPORTED`；富堡文件載成人紙尿褲25次、看護墊4次、復健褲2次、安安1次；惟「市佔」「Ancare」皆0次。
-- `2373:objective_ranking_or_market_share:3dc2f728f9ba57e4` — `UNKNOWN_AFTER_RESEARCH`；震旦行官方年報、106.pdf 與2025永續報告書端點**均回應HTTP 404**。
-- `6192:objective_ranking_or_market_share:7b550e9b311db4ef`、`3a45ecd2ce0afe92` — `PARTIALLY_SUPPORTED` ×2；巨路111年報載「主要與國際程控**領導品牌 Emerson** 合作，與其**共同開發大中華**」（Emerson 4次、程控108次、代理43次）；惟「**獨家**」0次（且主要供應商含ABB、Honeywell、Yokogawa、Siemens）、「**最大**程控原廠」未載（官方用語為「領導廠商」）、「台積電」0次。
-- `6192:objective_ranking_or_market_share:9d3d9e091d15025a`、`29dfc8d397ce595b`、`7b53b3873666c020` — `UNKNOWN_AFTER_RESEARCH` ×3；「台積電」「三成」皆0次，且「30%」8次均為**淨值比率**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-088.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6192:objective_ranking_or_market_share:d0ce09fbc459509c` (巨路).
+- `6192:objective_ranking_or_market_share:d0ce09fbc459509c` — `PARTIALLY_SUPPORTED`；年報載 Emerson 為程控「**領導廠商**」；惟「全球最大」「獨家」皆0次，且主要供應商含 ABB、Honeywell、Yokogawa、Siemens。
+- `8374:objective_ranking_or_market_share:3152a46dc54ea3c8` — `PARTIALLY_SUPPORTED`；羅昇110年報載「本公司屬**自動化機電零組件代理商暨技術服務業者**」（自動化66次、代理48次）；惟「1984」「最大」皆0次。
+- `3158:objective_ranking_or_market_share:6f3b16014ede3133` — `UNKNOWN_AFTER_RESEARCH`；嘉實未查得官方年報或法說會端點。
+- `6214:objective_ranking_or_market_share:efede12ca151ffcc` — `UNKNOWN_AFTER_RESEARCH`；精誠官方年報端點所下載之兩份檔案**均僅5,574 bytes**（擷取各僅1字元），顯非完整文件。
+- `6221:objective_ranking_or_market_share:03dcbb306517351e` — `UNKNOWN_AFTER_RESEARCH`；晉泰2023簡報「精誠」「三成」「最大股東」皆0次。
+- `6614:objective_ranking_or_market_share:a2228d1fc670af08` — `PARTIALLY_SUPPORTED`；資拓宏宇114年報「市場占有率」段載「行政院轄下43機關切入41個（涵蓋率**95%**）」「38間本國銀行切入其中35間，涵蓋率**逾90%**」（與claim之「服務逾90%台灣本土銀行」相符）；惟官方用語為「**涵蓋率**」而非市佔率（「市佔」0次），且「30億」0次。
+- `6906:objective_ranking_or_market_share:662269e93948f5e3`、`d7f499644ed091ed` — `ACCEPTED` ×2；現觀科112年報載「取得**中東地區最大電信業者 STC** CovMo™合作合約」與「中東地區的**最大電信業者 STC 集團**」（STC 4次、中東5次、最大電信4次）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-089.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `7765:objective_ranking_or_market_share:ca7dd7afc3bd6233` (中華資安).
 
 ## Source access
 
