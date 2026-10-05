@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 20:04 UTC
+Updated: 2026-10-07 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **384 / 1,399**
-- Remaining author review: **1,015**
-- Latest batch: **author-068** (6 claims)
+- Author-reviewed: **388 / 1,399**
+- Remaining author review: **1,011**
+- Latest batch: **author-069** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **244**
+- `PARTIALLY_SUPPORTED`: **247**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **72**
+- `UNKNOWN_AFTER_RESEARCH`: **73**
 
 ## Latest claim batch
 
-- `5243:objective_ranking_or_market_share:7d90a20a437364ad` — `PARTIALLY_SUPPORTED`; 乙盛2025年報載多處「墨西哥來料加工廠」與「2023年啟動建置**墨西哥蒙特雷新廠**」（墨西哥12次）、「AI伺服器」等產業（伺服器47次）；惟「最大生產基地」與「車廠」皆0次。
-- `5243:objective_ranking_or_market_share:94480ceb66fb33f4` — `UNKNOWN_AFTER_RESEARCH`; 年報「Tesla」「特斯拉」「最大客戶」皆0次。
-- `5284:objective_ranking_or_market_share:48a30f3d8d283f3f` — `PARTIALLY_SUPPORTED`; jpp-KY 2023簡報（英文）見Thailand 2次與多處廠區規劃；惟「1998」「鈑金」「largest」皆0次。
-- `5315:objective_ranking_or_market_share:a798cfedc1bf6d88` — `PARTIALLY_SUPPORTED`; 光聯109年報「歐洲」8次、「高亮度」11次；惟「60%」唯一命中係**庫藏股買回比率**，非歐洲營收占比，「寬溫」「防水」皆0次。
-- `5355:objective_ranking_or_market_share:bc0ba778fa8f319e`、`357362a9262ba16e` — `PARTIALLY_SUPPORTED` ×2; 佳總110年議事手冊載雙層鋁基板、DBC厚鋼陶瓷板、MiniLED板等研發（鋁基板2次、厚銅5次、LED 6次）；惟「台灣最大」「市占」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-068.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8` (能率).
+- `5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8` — `PARTIALLY_SUPPORTED`; 能率2023簡報載集團關係「IKKA-KY (2250 TT)」，IKKA自身2025簡報載「碟式電子手煞車(EPB)零件(**AISIN**)」「電動滑門、車門零件(AISIN)」；惟「Toyota/Honda」未作為客戶出現、車用營收占比未載。
+- `5469:objective_ranking_or_market_share:bf78a8b9fd6271dd`、`a8dabb9d5e45edd8` — `PARTIALLY_SUPPORTED` ×2; 瀚宇博2025簡報載「PC/NB」「AI advanced NB, Switch」（PCB 13次、PC 20次、NB 5次）；惟「全球最大」「市佔」「第一」「華新麗華」皆0次。
+- `6153:objective_ranking_or_market_share:aac6a63b7c86262a` — `UNKNOWN_AFTER_RESEARCH`; 嘉聯益2022簡報「客戶」3次均為通稱，「Apple」「蘋果」「廣達」「仁寶」「最大」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-069.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `5493:objective_ranking_or_market_share:f94ffe7b1a69c19b` (三聯).
 
 ## Source access
 

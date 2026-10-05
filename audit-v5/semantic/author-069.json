@@ -1,0 +1,117 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-069",
+  "reviewed_at": "2026-10-05T18:52:43Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (能率2023年法人說明會簡報; IKKA-KY(2250)2025年法人說明會簡報; 瀚宇博2025年法人說明會簡報; 嘉聯益2022年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8",
+      "normalized_claim_hash": "d4e84f8d9cd9bfc84f1a593c7cbe1e25c0d917eb945360326b686a10807382f5",
+      "ticker": "5392",
+      "company": "能率",
+      "path": "Pilot_Reports/Electronic Components/5392_能率.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 車用電子 — 透過轉投資 [[IKKA-KY]] (第一化成)，供應日系車廠 [[Toyota]]、[[Honda]] 電裝零部件，[[AISIN]] 為主要一階客戶，車用營收占比逾五成；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/539220231121E001.pdf",
+          "title": "能率創新股份有限公司（能率，5392，ABICO AVY）法人說明會簡報（2023-11-21）",
+          "source_level": 3,
+          "period_binding": "2023年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載集團關係「IKKA-JABON International Co.,Ltd. **IKKA-KY (2250 TT)** ABICO (8071 TT)」，顯示其與 IKKA-KY 之集團關聯（「IKKA」3次）；另載「Data from Toyota website」（該處為資料來源註記）。全份簡報中「第一化成」「Honda」「AISIN」與「車用」之出現次數均為0；「50%」4次，惟上下文非車用營收占比。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/225020250324M001.pdf",
+          "title": "第一化成控股（開曼）股份有限公司（IKKA-KY，2250）法人說明會簡報（2025-03-24）",
+          "source_level": 3,
+          "period_binding": "2025年3月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其產品與客戶關係「碟式電子手煞車(EPB)零件(**AISIN**)」「電動滑門、車門零件(**AISIN**)」與「**車用**機構零組件及模組」（「AISIN」3次、「車用」9次、「營收」5次）。全份簡報中「Toyota」「Honda」與「第一化成」之出現次數均為0，未載車用營收占比數字。註記：本件為 claim 所述轉投資對象 IKKA-KY（第一化成）自身之官方文件，屬跨公司查證。"
+        }
+      ],
+      "rationale": "「透過轉投資 IKKA-KY（第一化成）」與「AISIN 為主要一階客戶」獲官方文件支持：能率2023年官方簡報載集團關係「IKKA-JABON International Co.,Ltd. **IKKA-KY (2250 TT)** ABICO (8071 TT)」（「IKKA」3次），確認與 IKKA-KY 之集團關聯；而 IKKA-KY（2250）自身之2025年官方簡報載其產品與客戶關係「碟式電子手煞車(EPB)零件(**AISIN**)」「電動滑門、車門零件(**AISIN**)」與「車用機構零組件及模組」（「AISIN」3次、「車用」9次），支持 AISIN 為其車用零件客戶。惟多項陳述未獲支持：(1)「供應日系車廠 **Toyota、Honda** 電裝零部件」——兩份官方文件中「Toyota」（僅見於能率簡報之資料來源註記「Data from Toyota website」）與「Honda」均未作為客戶出現；(2)「車用營收占比**逾五成**」——IKKA 簡報未載車用營收占比數字（能率簡報之「50%」4次上下文均非車用營收）。故部分成立。",
+      "proposed_text": "能率創新 (5392，ABICO AVY) 透過集團關係企業 IKKA-KY（第一化成，2250）從事車用機構零組件及模組業務，AISIN 為其車用零件客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5469:objective_ranking_or_market_share:bf78a8b9fd6271dd",
+      "normalized_claim_hash": "bf78a8b9fd6271dd734185a25720d413858ba41587c47888219ac530a3a0b7ca",
+      "ticker": "5469",
+      "company": "瀚宇博",
+      "path": "Pilot_Reports/Electronic Components/5469_瀚宇博.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "瀚宇博德 (HannStar Board) 為 **華新麗華集團 (PSA)** 旗下 [[PCB]] 大廠，全球最大 **Notebook PCB** 供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/546920250604E002.pdf",
+          "title": "瀚宇博德股份有限公司（瀚宇博，5469，HannStar Board）法人說明會簡報（2025-06-04）",
+          "source_level": 3,
+          "period_binding": "2025年6月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其業務與產品含「**PC/NB**」「AI advanced NB, Switch」等（「PCB」13次、「PC」20次、「NB」5次），支持其 PC／NB 用 PCB 業務。全份簡報中「全球最大」「市佔」「第一」與「華新麗華」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為 PCB 大廠」獲發行人簡報支持：2025年官方簡報載「**PC/NB**」「AI advanced NB, Switch」等產品線（「PCB」13次、「PC」20次、「NB」5次），支持其從事 PCB 製造。惟兩項陳述未獲支持：(1)「為**華新麗華集團 (PSA) 旗下**」——全份簡報中「華新麗華」出現次數為0；(2)「為**全球最大** Notebook PCB 供應商」——「全球最大」與「市佔」「第一」出現次數均為0。故部分成立。",
+      "proposed_text": "瀚宇博德 (5469，HannStar Board) 為 PCB 製造商，產品涵蓋 PC／NB 應用。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5469:objective_ranking_or_market_share:a8dabb9d5e45edd8",
+      "normalized_claim_hash": "a8dabb9d5e45edd8355153d4d655507559cb4fd002680012901251bb0accfdfc",
+      "ticker": "5469",
+      "company": "瀚宇博",
+      "path": "Pilot_Reports/Electronic Components/5469_瀚宇博.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **PC/NB**: 全球市佔第一，但佔比隨市場成熟而調整。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/546920250604E002.pdf",
+          "title": "瀚宇博德股份有限公司（瀚宇博，5469，HannStar Board）法人說明會簡報（2025-06-04）",
+          "source_level": 3,
+          "period_binding": "2025年6月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其業務與產品含「**PC/NB**」「AI advanced NB, Switch」等（「PCB」13次、「PC」20次、「NB」5次），支持其 PC／NB 用 PCB 業務。全份簡報中「全球最大」「市佔」「第一」與「華新麗華」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「1. PC/NB：全球市佔第一，但佔比隨市場成熟而調整」）。其 PC／NB 業務獲簡報支持（「PC」20次、「NB」5次）；惟「全球市佔第一」未獲支持（「市佔」與「第一」出現次數均為0）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6153:objective_ranking_or_market_share:aac6a63b7c86262a",
+      "normalized_claim_hash": "aac6a63b7c86262ad80c86229cb5924c150174ceb389aa59edcba6026ff4f31c",
+      "ticker": "6153",
+      "company": "嘉聯益",
+      "path": "Pilot_Reports/Electronic Components/6153_嘉聯益.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]](蘋果，最大且最重要的客戶)、各類非蘋智慧型手機與電腦品牌(如雙A、[[廣達]]、[[仁寶]]等)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/615320220914M001.pdf",
+          "title": "嘉聯益科技股份有限公司（嘉聯益，6153，Career Technology）法人說明會簡報（2022-09-14）",
+          "source_level": 3,
+          "period_binding": "2022年9月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取6,471字元）。簡報中「客戶」出現3次（均為通稱），全份簡報中「Apple」「蘋果」「廣達」「仁寶」「非蘋」與「最大」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "「Apple（蘋果，最大且最重要的客戶）、各類非蘋智慧型手機與電腦品牌（如雙A、廣達、仁寶等）」未獲確立：查閱之嘉聯益2022年官方簡報中「客戶」出現3次（均為通稱），全份簡報中「Apple」「蘋果」「廣達」「仁寶」「非蘋」與「最大」之出現次數均為0，未具名任何客戶。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
