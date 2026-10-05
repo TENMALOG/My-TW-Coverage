@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 14:04 UTC
+Updated: 2026-10-07 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **346 / 1,399**
-- Remaining author review: **1,053**
-- Latest batch: **author-062** (5 claims)
+- Author-reviewed: **352 / 1,399**
+- Remaining author review: **1,047**
+- Latest batch: **author-063** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **63**
-- `PARTIALLY_SUPPORTED`: **215**
+- `PARTIALLY_SUPPORTED`: **221**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3060:objective_ranking_or_market_share:56574c45f5224560` — `PARTIALLY_SUPPORTED`; 銘異議事手冊（英文版）2023年度產品比重載 VCM 39.38%、COVER 9.85%、EHD 16.30%、HDD 6.90%，並載「Top and bottom covers」；惟手冊之市占率敘述係 HDD 供應商（Seagate 43%等）市場結構，非其自身市占。
-- `3090:objective_ranking_or_market_share:7839b23f63f20969` — `ACCEPTED`; 日電貿2022永續報告載「為**台灣最大被動元件代理商**」。
-- `3090:objective_ranking_or_market_share:d81ef6b94a9da9ee`、`e2b3337349ce58cc`、`28a5bfc166db3a6e` — `ACCEPTED` ×3; 同報告載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品」「代理 NCC 與 Panasonic 電容器」。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-062.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `3152:objective_ranking_or_market_share:57faf7aa307b7942` (璟德).
+- `3152:objective_ranking_or_market_share:57faf7aa307b7942` — `PARTIALLY_SUPPORTED`; 璟德議事錄載「**璟德為國內首家專注於高頻整合元件與模組的設計及製造公司**」與 LTCC 天線模組開發；惟「台灣最大」0次（官方為「國內首家」，指時間非規模）、「全球前三大」0次。
+- `3217:objective_ranking_or_market_share:2f5f1672a80405d9` — `PARTIALLY_SUPPORTED`; 優群簡報載「DDR4/5 SO-DIMM 系列…**市占No.1**」；惟「50%」1次係「2020年起DDR與M.2在全球筆電市占率超越50%」（規格滲透率，非其自身市占）。
+- `3305:objective_ranking_or_market_share:e2ce4b02cefa7379` — `PARTIALLY_SUPPORTED`; 昇貿簡報載銲錫製品之生產銷售與越南、馬來西亞子公司；惟「台灣第一」「全球前三」「千住」「Alpha」皆0次。
+- `3311:objective_ranking_or_market_share:50321d8ad4f59f0e` — `PARTIALLY_SUPPORTED`; 閎暉簡報「穿戴」2次；惟「手機」「按鍵」「車用」「全球最大」「轉型」皆0次。
+- `3362:objective_ranking_or_market_share:0d1f1f055061087b`、`0734bd9829977ceb` — `PARTIALLY_SUPPORTED` ×2; 先進光股東會手冊「鏡頭」28次；惟「NB」「筆電」「市佔」「70%」「龍頭」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-063.json`（6 筆）。未修改發行人報告。
+- 里程碑：已審 **352 / 1,399（25.2%）**，突破四分之一。
+- Next pending claim by priority: `3441:objective_ranking_or_market_share:8b98c062556b5eb7` (聯一光).
 
 ## Source access
 

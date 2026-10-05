@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-063",
+  "reviewed_at": "2026-10-05T18:32:19Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (璟德2022年股東會議事錄; 優群2024年法人說明會簡報; 昇貿2026年法人說明會簡報; 閎暉2024年法人說明會簡報; 先進光股東會相關手冊); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3152:objective_ranking_or_market_share:57faf7aa307b7942",
+      "normalized_claim_hash": "57faf7aa307b7942e57fe6aee4851c30b19cad9aeaa0fd8b9037ece505cbc8b5",
+      "ticker": "3152",
+      "company": "璟德",
+      "path": "Pilot_Reports/Electronic Components/3152_璟德.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "璟德電子 ([[ACX Corporation]]) 為台灣最大高頻整合元件 ([[LTCC]]) 製造商，亦為全球前三大 [[LTCC]] 領導廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acxc.com.tw/_upload/files/2022%20Meeting%20Minutes.pdf",
+          "title": "璟德電子工業股份有限公司（璟德，3152，ACX Corporation）股東會議事錄（2022）",
+          "source_level": 3,
+          "period_binding": "2022年；內容含年度營業報告。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「**璟德為國內首家專注於高頻整合元件與模組的設計及製造公司**，運用先進的陶瓷及電（路）設計技術與模組封裝技術，提供無線通訊產品高附加價值的整體解決方案」，並載「開發，並對於5G毫米波基站所須高階**LTCC 天線模組**、濾波元件的基板材料與設計技術研（發）」，另載其持續在寬頻與高頻應用切入物聯網、穿戴裝置、汽車與毫米波相關應用。全份文件中「高頻」4次、「LTCC」1次、「國內首家」1次；「台灣最大」「全球前三大」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為專注於高頻整合元件 (LTCC) 之製造商」獲發行人官方文件支持：股東會議事錄載「**璟德為國內首家專注於高頻整合元件與模組的設計及製造公司**」，並載其開發「5G毫米波基站所須高階**LTCC 天線模組**、濾波元件的基板材料與設計技術」，另載其在寬頻與高頻應用切入物聯網、穿戴裝置、汽車與毫米波（「高頻」4次、「LTCC」1次）。惟兩項地位陳述未獲支持：(1)「為台灣最大高頻整合元件製造商」——「台灣最大」出現次數為0（官方用語為「國內首家」，指時間先後而非規模最大）；(2)「為全球前三大 LTCC 領導廠」——「全球前三大」與「市佔」出現次數均為0。故部分成立。",
+      "proposed_text": "璟德電子 (3152，ACX Corporation) 為國內首家專注於高頻整合元件與模組設計製造的公司，產品包含 LTCC 天線模組與濾波元件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3217:objective_ranking_or_market_share:2f5f1672a80405d9",
+      "normalized_claim_hash": "2f5f1672a80405d95f092e94947653b1a97c3b73e54d7bc9fb7be44285f30377",
+      "ticker": "3217",
+      "company": "優群",
+      "path": "Pilot_Reports/Electronic Components/3217_優群.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在筆電 SO-DIMM 市場擁有超過 50% 市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/321720241119M001.pdf",
+          "title": "優群科技股份有限公司（優群，3217，Argosy Research）法人說明會簡報（2024-11-19）",
+          "source_level": 3,
+          "period_binding": "2024年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「**DDR4/5 SO-DIMM 系列獲品牌與協會認可, 市占No.1**」，並另載「2020年起 DDR 與 M.2 在全球筆電市占率超越50%」（此句係描述 DDR 與 M.2 規格於全球筆電之滲透率，非該公司自身市占率）。全份簡報中「SO-DIMM」出現7次、「連接器」12次、「筆電」2次、「50%」1次（即上開滲透率敘述）；未載該公司於筆電 SO-DIMM 市場之明確市占率數字。"
+        }
+      ],
+      "rationale": "「在 SO-DIMM 市場具領先地位」獲發行人簡報支持：簡報載「**DDR4/5 SO-DIMM 系列獲品牌與協會認可, 市占No.1**」（「SO-DIMM」7次、「連接器」12次）。惟「筆電 SO-DIMM 市場擁有超過50%市佔率」未獲支持：簡報中「50%」僅出現1次，且其原文為「2020年起 DDR 與 M.2 在全球筆電市占率超越50%」，係描述 DDR 與 M.2 規格於全球筆電之滲透率，非該公司自身於筆電 SO-DIMM 連接器市場之市占率；簡報未載該公司於該市場之明確市占率數字。故部分成立。",
+      "proposed_text": "優群科技 (3217，Argosy Research) 之 DDR4/5 SO-DIMM 系列產品獲品牌與協會認可，市占第一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3305:objective_ranking_or_market_share:e2ce4b02cefa7379",
+      "normalized_claim_hash": "e2ce4b02cefa7379152e532446e991ebe46ca177c25800ae5f030bee57625b74",
+      "ticker": "3305",
+      "company": "昇貿",
+      "path": "Pilot_Reports/Electronic Components/3305_昇貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "昇貿科技 (3305，[[Shenmao Technology]]) 是全球領先的電子銲錫材料供應商，規模位居台灣第一、全球前三，僅次於日本[[千住金屬]]與美國 Alpha 金屬。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/330520260506M001.pdf",
+          "title": "昇貿科技股份有限公司（昇貿，3305，Shenmao Technology）法人說明會簡報（2026-05-06）",
+          "source_level": 3,
+          "period_binding": "2026年5月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其業務為「各種**銲錫製品**之生產及銷售」，並列子公司如「昇貿銲錫（馬）有限公司」「昇貿銲錫材料（越南）」（「銲錫」3次）。全份簡報中「台灣第一」「全球前三」「千住」「Alpha」「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為電子銲錫材料供應商」獲發行人簡報支持：簡報載其業務為「各種**銲錫製品**之生產及銷售」，並列「昇貿銲錫（馬）有限公司」「昇貿銲錫材料（越南）」等子公司（「銲錫」3次）。惟「規模位居台灣第一、全球前三，僅次於日本千住金屬與美國 Alpha 金屬」未獲支持：全份簡報中「台灣第一」「全球前三」「千住」「Alpha」「市佔」之出現次數均為0，未載其市場排名或同業比較。故部分成立。",
+      "proposed_text": "昇貿科技 (3305，Shenmao Technology) 從事銲錫製品之生產及銷售。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3311:objective_ranking_or_market_share:50321d8ad4f59f0e",
+      "normalized_claim_hash": "50321d8ad4f59f0ee4654d328aea12b7ece041b755274bf10b12d2811f041291",
+      "ticker": "3311",
+      "company": "閎暉",
+      "path": "Pilot_Reports/Electronic Components/3311_閎暉.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "早期為全球最大手機按鍵廠，已成功轉型為車用內飾件與穿戴裝置零組件供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/331120241216M001.pdf",
+          "title": "閎暉實業股份有限公司（閎暉，3311，Mobase）法人說明會簡報（2024-12-16）",
+          "source_level": 3,
+          "period_binding": "2024年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,041字元）。簡報中「**穿戴**」出現2次，支持其穿戴裝置相關業務；全份簡報中「手機」「按鍵」「車用」「全球最大」與「轉型」之出現次數均為0，未載手機按鍵業務之歷史地位或其全球排名。"
+        }
+      ],
+      "rationale": "「轉型為穿戴裝置零組件供應商」獲發行人簡報部分支持：簡報中「**穿戴**」出現2次。惟多項陳述未獲支持：(1)「早期為全球最大手機按鍵廠」——全份簡報中「手機」「按鍵」與「全球最大」出現次數均為0；(2)「車用內飾件」——「車用」出現次數為0；(3)「轉型」一詞亦未出現。故部分成立（並註記：該簡報文字擷取僅3,041字元，篇幅精簡）。",
+      "proposed_text": "閎暉實業 (3311，Mobase) 從事穿戴裝置相關零組件業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3362:objective_ranking_or_market_share:0d1f1f055061087b",
+      "normalized_claim_hash": "0d1f1f055061087bd04015f127740082779d57eaaa83a5e193a5d1e0df6b7c73",
+      "ticker": "3362",
+      "company": "先進光",
+      "path": "Pilot_Reports/Electronic Components/3362_先進光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "先進光 (3362，[[Ability Opto]]) 為全球筆記型電腦鏡頭 (NB Lens) 龍頭，全球市佔率超過 70%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.aoet.com.tw/en/investor/download/shareholdermeetingrelated/6942737fab59e/manual_of_meeting_file",
+          "title": "先進光電科技股份有限公司（先進光，3362，Ability Opto）股東會相關手冊",
+          "source_level": 3,
+          "period_binding": "文件所載財務資訊之年度請見文件封面；本批次未取得近期年報。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載股東會相關手冊並以 PDF 文字檢視（以 http 協定取得；https 存取時發生 TLS 憑證信任失敗）。文件中「鏡頭」出現28次，支持其從事光學鏡頭業務。全份文件中「NB」「筆電」「市佔」「70%」「龍頭」之出現次數均為0；「全球」僅2次、「最大」2次且均非市場地位敘述。"
+        }
+      ],
+      "rationale": "「為光學鏡頭製造商」獲發行人文件支持：股東會相關手冊中「**鏡頭**」出現28次，支持其從事光學鏡頭業務。惟「為全球筆記型電腦鏡頭 (NB Lens) 龍頭、全球市佔率超過70%」未獲支持：全份文件中「NB」「筆電」「市佔」「70%」「龍頭」之出現次數均為0（「全球」2次、「最大」2次均非市場地位敘述）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3362:objective_ranking_or_market_share:0734bd9829977ceb",
+      "normalized_claim_hash": "0734bd9829977ceb29636bc7ea01fa3b68f0f7c26ec3c84d9c31cb77e90732ca",
+      "ticker": "3362",
+      "company": "先進光",
+      "path": "Pilot_Reports/Electronic Components/3362_先進光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**先進光** (全球 NB 鏡頭市佔 70%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.aoet.com.tw/en/investor/download/shareholdermeetingrelated/6942737fab59e/manual_of_meeting_file",
+          "title": "先進光電科技股份有限公司（先進光，3362，Ability Opto）股東會相關手冊",
+          "source_level": 3,
+          "period_binding": "文件所載財務資訊之年度請見文件封面；本批次未取得近期年報。",
+          "accessed_at": "2026-10-07",
+          "note": "自發行人官方網域下載股東會相關手冊並以 PDF 文字檢視（以 http 協定取得；https 存取時發生 TLS 憑證信任失敗）。文件中「鏡頭」出現28次，支持其從事光學鏡頭業務。全份文件中「NB」「筆電」「市佔」「70%」「龍頭」之出現次數均為0；「全球」僅2次、「最大」2次且均非市場地位敘述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「先進光（全球 NB 鏡頭市佔 70%）」）。因其從事光學鏡頭業務一節獲支持，而「NB 鏡頭」「市佔70%」未獲官方文件支持，故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

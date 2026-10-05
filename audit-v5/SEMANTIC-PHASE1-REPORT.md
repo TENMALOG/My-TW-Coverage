@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **346 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), and `author-062` (5).
+Author-reviewed: **352 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), and `author-063` (6).
 
 - ACCEPTED by author: 63
-- PARTIALLY_SUPPORTED: 215
+- PARTIALLY_SUPPORTED: 221
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 64
-- Remaining author queue: 1,053
+- Remaining author queue: 1,047
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -737,6 +737,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **346 / 1,399**; remaining: **1,053**. Outcome counts: ACCEPTED 63, PARTIALLY_SUPPORTED 215, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3152:objective_ranking_or_market_share:57faf7aa307b7942` (璟德).
+
+## Author batch `author-063` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (璟德 3152, 優群 3217, 昇貿 3305, 閎暉 3311, 先進光 3362 ×2). Evidence came from directly downloaded and inspected official disclosures: 璟德2022年股東會議事錄、優群2024年法人說明會簡報、昇貿2026年法人說明會簡報、閎暉2024年法人說明會簡報、先進光股東會相關手冊。
+- `3152:objective_ranking_or_market_share:57faf7aa307b7942` — `PARTIALLY_SUPPORTED`. 璟德股東會議事錄載「**璟德為國內首家專注於高頻整合元件與模組的設計及製造公司**」，並載其開發「5G毫米波基站所須高階**LTCC 天線模組**、濾波元件的基板材料與設計技術」。惟「台灣最大」出現次數為0（官方用語為「國內首家」，指進入時間先後而非規模最大），「全球前三大」與「市佔」亦均為0。
+- `3217:objective_ranking_or_market_share:2f5f1672a80405d9` — `PARTIALLY_SUPPORTED`. 優群官方簡報載「**DDR4/5 SO-DIMM 系列獲品牌與協會認可, 市占No.1**」，支持其於 SO-DIMM 之領先地位。惟「超過50%市佔率」未獲支持——簡報中「50%」僅1次，原文為「2020年起 DDR 與 M.2 在全球筆電市占率超越50%」，係描述 DDR 與 M.2 規格於全球筆電之滲透率，非該公司自身市占率。
+- `3305:objective_ranking_or_market_share:e2ce4b02cefa7379` — `PARTIALLY_SUPPORTED`. 昇貿簡報載其業務為「各種**銲錫製品**之生產及銷售」並列馬來西亞與越南子公司；惟「台灣第一」「全球前三」「千住」「Alpha」「市佔」出現次數均為0。
+- `3311:objective_ranking_or_market_share:50321d8ad4f59f0e` — `PARTIALLY_SUPPORTED`. 閎暉2024年官方簡報中「穿戴」出現2次，支持其穿戴裝置零組件業務；惟「手機」「按鍵」「車用」「全球最大」「轉型」出現次數均為0，早期手機按鍵業務之歷史地位未獲支持。
+- `3362:objective_ranking_or_market_share:0d1f1f055061087b` 與 `0734bd9829977ceb` — `PARTIALLY_SUPPORTED`. 先進光股東會相關手冊中「鏡頭」出現28次，支持其光學鏡頭業務；惟「NB」「筆電」「市佔」「70%」「龍頭」出現次數均為0，其「全球筆電鏡頭龍頭、市占逾70%」之地位未獲官方文件支持。
+- 里程碑：本批次完成後，author 已審 **352 / 1,399（25.2%）**，突破四分之一。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **352 / 1,399**; remaining: **1,047**. Outcome counts: ACCEPTED 63, PARTIALLY_SUPPORTED 221, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3441:objective_ranking_or_market_share:8b98c062556b5eb7` (聯一光).
+
 
 
 
