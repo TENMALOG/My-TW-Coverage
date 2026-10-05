@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 00:04 UTC
+Updated: 2026-10-10 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **724 / 1,399**
-- Remaining author review: **675**
-- Latest batch: **author-120** (8 claims)
+- Author-reviewed: **732 / 1,399**
+- Remaining author review: **667**
+- Latest batch: **author-121** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **473**
+- `ACCEPTED`: **83**
+- `PARTIALLY_SUPPORTED`: **476**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **167**
+- `UNKNOWN_AFTER_RESEARCH`: **169**
 
 ## Latest claim batch
 
-- `6573:objective_ranking_or_market_share:0ab58d2ad0c9cdd6` — `PARTIALLY_SUPPORTED`；虹揚文件「太陽能」13次、「**旁路二極體」1 次**；惟「市佔」「工業電腦」「AI」「高功率」皆0次。
-- `6679:objective_ranking_or_market_share:37679da783fb2682`、`7459dd76809acab4` — `PARTIALLY_SUPPORTED` ×2；鈺太文件「**MEMS」27 次、「麥克風」16 次**、「筆電」4次；惟「**市占」「龍頭」皆 0 次**（未載 55-60%）。
-- `6789:objective_ranking_or_market_share:0b84bdb1ceb376d2`、`113f7291089fc909` — `PARTIALLY_SUPPORTED` ×2；采鈺議事手冊「彩色濾光」4次；惟「台積電」「CIS」「市占」「世界第一」皆0次。
-- `8086:objective_ranking_or_market_share:afb154ac23e8d0ac`、`f979a0ca4a7bc6dd`、`2b8e68c61d000145` — `PARTIALLY_SUPPORTED` ×3；宏捷科**民國97年度財務報告**「**Skyworks」7 次**、「砷化鎵」2次；惟「最大客戶」「56%」「第二大」「晶圓代工」「24」皆0次（**非近期文件**）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-120.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `8086:objective_ranking_or_market_share:195cb9f67a470584` (宏捷科).
+- `8086:objective_ranking_or_market_share:195cb9f67a470584` — `UNKNOWN_AFTER_RESEARCH`；該 claim 為**第三人（穩懋）之市場地位**，宏捷科議事錄「穩懋」「全球最大」「代工」皆0次，且穩懋官方網域先前遭 TLS 憑證失敗（author-112）。
+- `8131:objective_ranking_or_market_share:5930424229e429b1` — `ACCEPTED`；福懋科110年報載「**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**福懋興業股份有限公司持股比例降為30.68%**」＋台塑集團關聯圖——**逐字對應**。
+- `8131:objective_ranking_or_market_share:478f771b0c4ced7b` — `PARTIALLY_SUPPORTED`；32%／最大股東逐字支持；惟「最大客戶」0次。
+- `8131:objective_ranking_or_market_share:468108abf2d6a30b` — `PARTIALLY_SUPPORTED`；第一大股東成立；惟「占營收50%」未獲支持（「50%」1次為員工年齡別統計）。
+- `8162:objective_ranking_or_market_share:53be25f984132f29`、`e32635bf5c906e45` — `ACCEPTED` ×2；微矽簡報載「深耕半導體產業超過**38年**」與「為國內**電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」——**逐字對應**。
+- `8261:objective_ranking_or_market_share:49acbcc2abe7bd34` — `PARTIALLY_SUPPORTED`；「MOSFET」1次；惟「6吋」「DMOS」「第一家」皆0次。
+- `8299:objective_ranking_or_market_share:cd78eed6eeac704c` — `UNKNOWN_AFTER_RESEARCH`；群聯官方年報端點**連線中斷**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-121.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3570:objective_ranking_or_market_share:35138bf9d920ff85` (大塚).
 
 ## Source access
 

@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-121",
+  "reviewed_at": "2026-10-05T20:26:35Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (宏捷科111年股東常會議事錄; 福懋科110年度年報; 微矽電子法人說明會簡報; 富鼎公司文件); 群聯年報端點連線中斷，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "8086:objective_ranking_or_market_share:195cb9f67a470584",
+      "normalized_claim_hash": "195cb9f67a4705849dc34f1143bb2eb6c2a7f9ecca7e7e8503e81aa42c5792de",
+      "ticker": "8086",
+      "company": "宏捷科",
+      "path": "Pilot_Reports/Semiconductors/8086_宏捷科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[穩懋]] (全球最大 GaAs 代工)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.awsc.com.tw/Files/Financial/%e8%82%a1%e6%9d%b1%e6%9c%83%e8%a8%8a/111%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e9%8c%84.pdf",
+          "title": "宏捷科技股份有限公司（宏捷科，8086，AWSC）111 年股東常會議事錄",
+          "source_level": 3,
+          "period_binding": "民國111年（2022年）股東常會。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取32,342字元）。該文件為**股東常會議事錄**，資訊揭露型態與年報不同；其中「**砷化鎵**」出現1次。全份文件中「**穩懋**」「**全球最大**」與「**代工**」之出現次數**均為0**，未載被投資或被提及公司之市場地位敘述。因該 claim 之實質內容為**第三人（穩懋）之市場地位**，須另以穩懋自身之官方文件查證；本批次先前就穩懋官方網域之取證遭遇 SSL/TLS 憑證信任失敗（見 author-112），故本批次未能就該第三人地位取得可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[穩懋]]（全球最大 GaAs 代工）」未獲確立：該 claim 之實質內容為**第三人（穩懋）之市場地位**，須以穩懋自身之官方文件查證。本批次就宏捷科111年股東常會議事錄之檢視中「**穩懋**」「**全球最大**」與「**代工**」之出現次數**均為0**；而穩懋官方網域之取證先前遭遇 SSL/TLS 憑證信任失敗（見 author-112）。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "normalized_claim_hash": "5930424229e429b13a6ec481aa1ab24f1d57a83e6a85e7c8cf5a7e6c41fc8287",
+      "ticker": "8131",
+      "company": "福懋科",
+      "path": "Pilot_Reports/Semiconductors/8131_福懋科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[南亞科技]]持股 32% 為第一大股東，[[福懋興業]]持股約 30% 為第二大股東，形成集團內垂直整合。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_8131_110.pdf",
+          "title": "福懋科技股份有限公司（福懋科，8131，FATc）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「2020 年福懋興業股權移轉給南亞科技，**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**褔懋興業股份有限公司持股比例降為30.68%**」，並附「福懋科技公司與台塑集團關聯圖」及「一貫化垂直整合之公司」之敘述（「南亞科」5次、「福懋興業」11次、「32%」1次），**逐字支持**持股比例與最大股東之敘述。全份年報中「**最大客戶**」出現次數為0；「**50%**」1次之上下文為員工年齡別統計（如「40~49歲 40.05%」），**非客戶營收占比**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報**逐字支持**：年報載「2020年福懋興業股權移轉給南亞科技，**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**褔懋興業股份有限公司持股比例降為30.68%**」，與 claim 之「南亞科技持股32%為第一大股東」「福懋興業持股約30%（30.68%）為第二大股東」對應（持股32% > 30.68%，故排序亦相符）；年報並附「福懋科技公司與台塑集團關聯圖」及「一貫化垂直整合之公司」之敘述，支持「形成集團內垂直整合」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:478f771b0c4ced7b",
+      "normalized_claim_hash": "478f771b0c4ced7bd7cce07e9b3e98a3f146290a57698d2c25ed0edf91a8a885",
+      "ticker": "8131",
+      "company": "福懋科",
+      "path": "Pilot_Reports/Semiconductors/8131_福懋科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[南亞科技]] (第一大股東/最大客戶，持股 32%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_8131_110.pdf",
+          "title": "福懋科技股份有限公司（福懋科，8131，FATc）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「2020 年福懋興業股權移轉給南亞科技，**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**褔懋興業股份有限公司持股比例降為30.68%**」，並附「福懋科技公司與台塑集團關聯圖」及「一貫化垂直整合之公司」之敘述（「南亞科」5次、「福懋興業」11次、「32%」1次），**逐字支持**持股比例與最大股東之敘述。全份年報中「**最大客戶**」出現次數為0；「**50%**」1次之上下文為員工年齡別統計（如「40~49歲 40.05%」），**非客戶營收占比**。"
+        }
+      ],
+      "rationale": "「[[南亞科技]]為**第一大股東**，持股 **32%**」獲發行人年報逐字支持：年報載「南亞科技股份有限公司持股比例達**32%** 成為本公司**最大股東**」。惟「（**最大客戶**）」未獲支持：全份年報中「**最大客戶**」出現次數為0，未以最大客戶表述該關係。故部分成立。",
+      "proposed_text": "南亞科技 (8131) 為福懋科第一大股東，持股比例達32%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:468108abf2d6a30b",
+      "normalized_claim_hash": "468108abf2d6a30bba1946c77d7706ebeef6adf3505f53d1913d44324d4d58d7",
+      "ticker": "8131",
+      "company": "福懋科",
+      "path": "Pilot_Reports/Semiconductors/8131_福懋科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[南亞科技]] (第一大股東/客戶，占營收 50%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_8131_110.pdf",
+          "title": "福懋科技股份有限公司（福懋科，8131，FATc）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「2020 年福懋興業股權移轉給南亞科技，**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**褔懋興業股份有限公司持股比例降為30.68%**」，並附「福懋科技公司與台塑集團關聯圖」及「一貫化垂直整合之公司」之敘述（「南亞科」5次、「福懋興業」11次、「32%」1次），**逐字支持**持股比例與最大股東之敘述。全份年報中「**最大客戶**」出現次數為0；「**50%**」1次之上下文為員工年齡別統計（如「40~49歲 40.05%」），**非客戶營收占比**。"
+        }
+      ],
+      "rationale": "「[[南亞科技]]為第一大股東（持股32%）」獲發行人年報支持（同上）。惟「（客戶，**占營收 50%**）」未獲支持：全份年報中「**50%**」1次之上下文為員工年齡別統計（如「40~49歲 40.05%」），**非客戶營收占比**；亦未見南亞科技作為客戶之營收占比敘述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:53be25f984132f29",
+      "normalized_claim_hash": "53be25f984132f291a68a7798674365c8084f99a1c296f9f517d8612c3bbd54a",
+      "ticker": "8162",
+      "company": "微矽電子-創",
+      "path": "Pilot_Reports/Semiconductors/8162_微矽電子-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "微矽電子 (8162) 深耕半導體後段服務逾 38 年，為國內[[電源管理 IC]]、[[MOSFET]] 及 [[氮化鎵]] 晶圓測試最大供應商，以「晶圓廠內部實驗室」創新模式與知名晶圓代工廠合作。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/816220250819M001.pdf",
+          "title": "微矽電子股份有限公司（微矽電子-創，8162，Micro Silicon Electronics）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2024年度營收）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。簡報「公司簡介」頁載「• 微矽電子**深耕半導體產業超過38年**」「• 以電源與節能為營運發展核心，專注功率半導體利基市場」「• 針對**電源管理IC**與功率元件提供完整的測試、薄化、封裝一站式整合性服務」「• **為國內電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」（「電源管理」8次、「MOSFET」12次、「氮化鎵」9次、「晶圓測試」6次、「最大供應商」1次），**逐字支持**claim 之各項要素。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人簡報**逐字支持**：簡報載「• 微矽電子**深耕半導體產業超過38年**」「• **為國內電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」「• 針對電源管理IC與功率元件提供完整的測試、薄化、封裝一站式整合性服務」，與 claim 之「深耕半導體後段服務逾38年」「為國內電源管理IC、MOSFET及氮化鎵晶圓測試最大供應商」逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:e32635bf5c906e45",
+      "normalized_claim_hash": "e32635bf5c906e45ed0229d067e1ec6797c11107aea742f49b772a1c0ccb2801",
+      "ticker": "8162",
+      "company": "微矽電子-創",
+      "path": "Pilot_Reports/Semiconductors/8162_微矽電子-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**微矽** (電源 IC/[[MOSFET]]/GaN 晶圓測試最大供應商)",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/816220250819M001.pdf",
+          "title": "微矽電子股份有限公司（微矽電子-創，8162，Micro Silicon Electronics）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2024年度營收）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。簡報「公司簡介」頁載「• 微矽電子**深耕半導體產業超過38年**」「• 以電源與節能為營運發展核心，專注功率半導體利基市場」「• 針對**電源管理IC**與功率元件提供完整的測試、薄化、封裝一站式整合性服務」「• **為國內電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」（「電源管理」8次、「MOSFET」12次、「氮化鎵」9次、「晶圓測試」6次、「最大供應商」1次），**逐字支持**claim 之各項要素。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「微矽（電源 IC／MOSFET／GaN 晶圓測試最大供應商）」）。簡報載「為國內**電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」，與 claim 逐項對應。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8261:objective_ranking_or_market_share:49acbcc2abe7bd34",
+      "normalized_claim_hash": "49acbcc2abe7bd34e6815cd6ac7ae4b79f3c6e11ea2daa3bb52b8989f8703cca",
+      "ticker": "8261",
+      "company": "富鼎",
+      "path": "Pilot_Reports/Semiconductors/8261_富鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "富鼎先進電子 (8261，APEC) 為台灣 Power [[MOSFET]] 設計公司，台灣第一家成功整合 6 吋 DMOS 製程之 IC 設計公司。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.a-power.com.tw/assets/upload/images/2023/05/04/c31b0303a2581e558f855a9c.pdf",
+          "title": "富鼎先進電子股份有限公司（富鼎，8261，APEC）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件（2023年5月上傳）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取47,190字元）。文件中「**MOSFET**」出現1次、「台灣」4次，支持其為 MOSFET 相關 IC 業者。全份文件中「**6吋**」「**DMOS**」與「**第一家**」之出現次數均為0，未載「台灣第一家成功整合6吋 DMOS 製程」之敘述。"
+        }
+      ],
+      "rationale": "「為 Power MOSFET 相關 IC 業者」獲發行人文件部分支持：文件中「**MOSFET**」出現1次、「台灣」4次。惟「是**台灣第一家**成功整合 **6 吋 DMOS** 製程之 IC 設計公司」未獲支持：全份文件中「**6吋**」「**DMOS**」與「**第一家**」之出現次數均為0。故部分成立。",
+      "proposed_text": "富鼎先進電子 (8261，APEC) 從事 Power MOSFET 相關 IC 業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8299:objective_ranking_or_market_share:cd78eed6eeac704c",
+      "normalized_claim_hash": "cd78eed6eeac704c6fe1830e602f20e52b21e38b4b839b9cf24104e2876fcbec",
+      "ticker": "8299",
+      "company": "群聯",
+      "path": "Pilot_Reports/Semiconductors/8299_群聯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Kingston]] (最大客戶)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.phison.com/images/investor_relations/annual_report/2023_tw.pdf",
+          "title": "群聯電子股份有限公司（群聯，8299，Phison Electronics）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載年報端點時，連線**「要求已經中止: 連接意外關閉」**（連線失敗），未取得可檢視之檔案；本批次未取得群聯可檢視之官方文件（本批次另自搜尋結果取得之該公司投資人會議文件亦非年報全本）。"
+        }
+      ],
+      "rationale": "「[[Kingston]]（最大客戶）」未獲確立：本批次自發行人官方網域下載年報端點時連線**「要求已經中止: 連接意外關閉」**（連線失敗），未取得可檢視之檔案，故未能就該具名客戶及其關係取得官方依據，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

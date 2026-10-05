@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:23:55Z",
+  "generated_at": "2026-10-05T20:26:51Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -121,20 +121,22 @@
     "author-116",
     "author-117",
     "author-118",
-    "author-119"
+    "author-119",
+    "author-120",
+    "author-121"
   ],
-  "source_batch_count": 119,
-  "total_unknown": 167,
+  "source_batch_count": 121,
+  "total_unknown": 169,
   "failure_signature_counts": {
     "other_unclassified": 67,
-    "tls_failure": 8,
+    "tls_failure": 9,
     "mops_non_document": 33,
     "non_document_response": 31,
-    "no_official_endpoint_found": 65,
+    "no_official_endpoint_found": 67,
     "http_404": 33,
     "image_only_or_tiny_text": 25,
     "http_403": 10,
-    "connection_failure": 7,
+    "connection_failure": 8,
     "garbled_text_layer": 7,
     "client_rendered_only": 4,
     "download_timeout": 2,
@@ -2616,6 +2618,36 @@
         "https://mopsov.twse.com.tw/nas/STR/651520250515M004.pdf"
       ],
       "recommended_retry": "將該 PDF 轉為頁面影像後以視覺方式逐頁檢視；若檔案大小異常，應改由 MOPS 或公司其他端點重取"
+    },
+    {
+      "claim_id": "8086:objective_ranking_or_market_share:195cb9f67a470584",
+      "ticker": "8086",
+      "company": "宏捷科",
+      "claim": "[[穩懋]] (全球最大 GaAs 代工)",
+      "batch_id": "author-121",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.awsc.com.tw/Files/Financial/%e8%82%a1%e6%9d%b1%e6%9c%83%e8%a8%8a/111%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e9%8c%84.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "8299:objective_ranking_or_market_share:cd78eed6eeac704c",
+      "ticker": "8299",
+      "company": "群聯",
+      "claim": "[[Kingston]] (最大客戶)",
+      "batch_id": "author-121",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.phison.com/images/investor_relations/annual_report/2023_tw.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }
