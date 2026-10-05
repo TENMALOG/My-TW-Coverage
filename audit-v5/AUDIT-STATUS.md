@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 00:04 UTC
+Updated: 2026-10-09 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **572 / 1,399**
-- Remaining author review: **827**
-- Latest batch: **author-096** (8 claims)
+- Author-reviewed: **578 / 1,399**
+- Remaining author review: **821**
+- Latest batch: **author-097** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **76**
-- `PARTIALLY_SUPPORTED`: **372**
+- `PARTIALLY_SUPPORTED`: **374**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **120**
+- `UNKNOWN_AFTER_RESEARCH`: **124**
 
 ## Latest claim batch
 
-- `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` — `ACCEPTED`；科定簡報載「生產總部：**嘉義縣大林鎮大埔美園區五路10號**」與「2. **業界唯一，產銷一條龍垂直整合**」——兩項逐項對應。
-- `6655:objective_ranking_or_market_share:055a6afbd23947d4`、`ccaa6c4b5d8549e4` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報「大日本印刷」「DNP」「ECO」「PP」「EB」「食品級」皆0次。
-- `8444:objective_ranking_or_market_share:1ba76f09f75f204f` — `PARTIALLY_SUPPORTED`；綠河簡報「塑合板」37次、「泰國」4次；惟「亞洲最大」1次之上下文為「（燃）煤發電廠(南韓也是**亞洲最大**木質顆（粒）)」之**產業敘述**，非該公司地位。
-- `2603:objective_ranking_or_market_share:c49229ece3415b49` — `PARTIALLY_SUPPORTED`；長榮簡報載「**7th 全球船隊運能排名**」「船隊運能市佔率 5.8%」→ 全球前十大成立；惟「1968」「台灣最大」皆0次。
-- `2637:objective_ranking_or_market_share:c179a03f49adb48f` — `UNKNOWN_AFTER_RESEARCH`；慧洋2025年報端點回應 **HTTP 404**。
-- `8367:objective_ranking_or_market_share:654fe06c1da29251`、`50a32e6e94716675` — `UNKNOWN_AFTER_RESEARCH` ×2；建新簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-096.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `1343:objective_ranking_or_market_share:f0a65b719a264687` (旭東環保).
+- `1343:objective_ranking_or_market_share:f0a65b719a264687` — `UNKNOWN_AFTER_RESEARCH`；旭東簡報載「開發**水面**型太陽能支撐座」「**屏東**加工出口區設立新廠」（屏東4次、水面2次）；惟「佳冬」「太陽光電」「全球最大」「案場」皆0次。
+- `1532:objective_ranking_or_market_share:63f553b91ed507d5` — `UNKNOWN_AFTER_RESEARCH`；勤美官方端點回應 **HTTP 404**。
+- `1584:objective_ranking_or_market_share:e15f16a6d0286001` — `PARTIALLY_SUPPORTED`；精剛簡報「鈦合金」9次、「超合金」4次；惟「唯一」0次（簡報擷取僅2,003字元）。
+- `1785:objective_ranking_or_market_share:6815a6279f48d47c`、`32849e7d1bc93f05` — `UNKNOWN_AFTER_RESEARCH` ×2；光洋科簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
+- `2415:objective_ranking_or_market_share:b314132dd634687f` — `PARTIALLY_SUPPORTED`；錩新簡報「鍛造」9次、「揚聲器」6次；惟「19%」「龍頭」「市佔」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-097.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `4534:objective_ranking_or_market_share:9544823face2741c` (慶騰).
 
 ## Source access
 
