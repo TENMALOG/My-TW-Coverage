@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **78 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), and `author-022` (8).
+Author-reviewed: **85 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), and `author-023` (7).
 
-- ACCEPTED by author: 23
-- PARTIALLY_SUPPORTED: 47
+- ACCEPTED by author: 26
+- PARTIALLY_SUPPORTED: 51
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 4
-- Remaining author queue: 1,321
+- Remaining author queue: 1,314
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -254,6 +254,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-022.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **78 / 1,399**; remaining: **1,321**. Outcome counts: ACCEPTED 23, PARTIALLY_SUPPORTED 47, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 4. Next pending claim by priority: `2235:objective_ranking_or_market_share:2f804dd9a0a390da` (謚源).
+
+## Author batch `author-023` — 2026-10-05
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (謚源 2235 ×2, 英利-KY 2239 ×5). Evidence came from directly downloaded and inspected official disclosures: 謚源實業申請上櫃公開說明書（民國103年）、開曼英利工業股票公開發行說明書（初次上市用）與2017年法人說明會簡報、LKQ Corporation FY2025 Form 10-K。
+- `2235:objective_ranking_or_market_share:2f804dd9a0a390da` — `PARTIALLY_SUPPORTED`. 謚源公開說明書第41頁前後載其與堤維西自民國89年簽訂合作協議、產品於北美之銷售獨家委由堤維西負責、再由堤維西出貨給其美國子公司 GENERA 公司銷售予當地通路業者「包括 General Parts Inc、LKQ Corporation 及 Amazon Services」，第一大客戶堤維西占其營收78.80%／77.44%；惟全篇未出現 NAPA，claim 括號中之「(NAPA)」未獲支持。
+- `2235:objective_ranking_or_market_share:f11191fc5107144b` — `ACCEPTED`. 同一公開說明書以「美國最大汽車維修通路商LKQ Corp.」描述 LKQ；LKQ 自身 FY2025 Form 10-K 亦載其北美部門營運北美最大的替代性車輛零件與配件配送網路。
+- `2239:objective_ranking_or_market_share:f6f576305c25bdeb` 與 `95f5fff739fc9085` — `ACCEPTED`. 英利公開說明書第131、136頁載其對一汽大眾之銷售占比達80.24%／81.16%／78.73%／73.16% 並明載「最大客戶一汽大眾」；第120、124頁列北京奔馳與上海（上汽）大眾；第67頁載「一汽大眾AUDI所有系列的儀錶板骨架皆為本集團生產」。
+- `2239:objective_ranking_or_market_share:1f382b871069e7dc`、`8d3dc1316d4155c8`、`f1b8e1134f6bc9d1` — `PARTIALLY_SUPPORTED`. 公開說明書第17頁前後載其與 Quadrant Composites AG 簽訂專利授權契約而可生產 SymaLITE、為「首家SYMALITE輕質材料車底護板及全鋁合金儀錶板骨架產品國產化廠」，2017年法說會簡報亦載自歐洲引進完整產線；惟兩份官方文件均未載「亞洲唯一產線」或「全球僅5條」，且未將 Audi 與底盤護板連結（官方之 Audi 關聯為儀錶板骨架）。
+- Proposed wording is recorded for the partial claims in `semantic/author-023.json`; no issuer report was modified. Independent review remains pending.
+- 來源性質註記：謚源民國103年上櫃申請之公開說明書（全文以「本公司」自述）由承銷體系之凱基證券網域取得，內容屬發行人正式申報文件，故採為來源；其內含對堤維西營運與訴訟之詳細評估，已按事實摘記。本批次未新增來源取得失敗，`local-recheck-queue.json` 維持 **15** 筆。
+- Author-reviewed total: **85 / 1,399**; remaining: **1,314**. Outcome counts: ACCEPTED 26, PARTIALLY_SUPPORTED 51, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 4. Next pending claim by priority: `2245:objective_ranking_or_market_share:7ade1b140810fe09` (詠勝昌).
+
 
 
 

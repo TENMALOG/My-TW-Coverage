@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 22:04 UTC
+Updated: 2026-10-05 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **78 / 1,399**
-- Remaining author review: **1,321**
-- Latest batch: **author-022** (8 claims)
+- Author-reviewed: **85 / 1,399**
+- Remaining author review: **1,314**
+- Latest batch: **author-023** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **23**
-- `PARTIALLY_SUPPORTED`: **47**
+- `ACCEPTED`: **26**
+- `PARTIALLY_SUPPORTED`: **51**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2115:objective_ranking_or_market_share:62d5c63efe920f40` — `PARTIALLY_SUPPORTED`; 六暉2024法說會第23頁「全球產量第一 台灣氣門嘴領導品牌」、第3頁月產能7,000萬支；惟簡報未載「全球市佔約10%」。
-- `2115:objective_ranking_or_market_share:ce0e7e4bf82e336c` — `PARTIALLY_SUPPORTED`; 簡報第5頁列台灣彰化田中、中國廈門廈暉／崑山陸暉、印尼PT. LUHAI，支持生產基地；惟未載「印尼二輪內胎市佔60%」。
-- `2228:objective_ranking_or_market_share:82e3738fa7cb1ef3`、`78fc8e4a85f351e4`、`53a88eea8833176f` — `PARTIALLY_SUPPORTED` ×3; 劍麟2013上市前簡報第5/8/9/12頁支持氣囊充氣器殼體與預縮式安全帶產品、第16頁載配合 Autoliv；惟未載「隱形冠軍」、ZF、均勝電子或「全球市佔逾90%」。
-- `2231:objective_ranking_or_market_share:be355493562a87fb` — `PARTIALLY_SUPPORTED`; 為升2024法說會第6頁載自1979年專注汽車感測器（含TPMS）、自2015年進入毫米波雷達；惟未載「台灣汽車電子龍頭」與「TPMS AM市佔約90%」。
-- `2231:objective_ranking_or_market_share:f1eaea15e5afaa59`、`53dc6e668cc52c45` — `UNKNOWN_AFTER_RESEARCH` ×2; 為升官方簡報未具名任何客戶，未出現 SMP／Standard Motor Products／Wells，亦未載 TPMS AM 90% 市占。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-022.json`。未修改發行人報告。
-- Next pending claim by priority: `2235:objective_ranking_or_market_share:2f804dd9a0a390da` (謚源).
+- `2235:objective_ranking_or_market_share:2f804dd9a0a390da` — `PARTIALLY_SUPPORTED`; 謚源103年上櫃公開說明書載與堤維西自89年合作、北美銷售獨家委由堤維西、再由其美國子公司 GENERA 銷售予 General Parts Inc／LKQ／Amazon Services，第一大客戶堤維西占營收78.80%／77.44%；惟官方文件未出現 NAPA。
+- `2235:objective_ranking_or_market_share:f11191fc5107144b` — `ACCEPTED`; 同一公開說明書載「美國最大汽車維修通路商LKQ Corp.」，LKQ FY2025 10-K 亦載其北美部門營運北美最大替代性零件配送網路。
+- `2239:objective_ranking_or_market_share:f6f576305c25bdeb`、`95f5fff739fc9085` — `ACCEPTED` ×2; 英利公開發行說明書載一汽大眾為最大客戶（銷售占比80.24%→73.16%）、北京奔馳與上汽大眾列名主要客戶，並載「一汽大眾AUDI所有系列的儀錶板骨架皆為本集團生產」。
+- `2239:objective_ranking_or_market_share:1f382b871069e7dc`、`8d3dc1316d4155c8`、`f1b8e1134f6bc9d1` — `PARTIALLY_SUPPORTED` ×3; 說明書與2017法說會簡報支持 SymaLITE 專利授權與歐洲產線、首家國產化廠；惟均未載「亞洲唯一產線」「全球僅5條」，亦未將 Audi 與底盤護板連結。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-023.json`。未修改發行人報告。
+- Next pending claim by priority: `2245:objective_ranking_or_market_share:7ade1b140810fe09` (詠勝昌).
 
 ## Source access
 

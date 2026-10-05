@@ -1,0 +1,200 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-023",
+  "reviewed_at": "2026-10-05T15:37:29Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (謚源實業申請上櫃公開說明書／承銷評估文件; 開曼英利工業股票公開發行說明書與2017年法人說明會簡報; LKQ Corporation FY2025 Form 10-K); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2235:objective_ranking_or_market_share:2f804dd9a0a390da",
+      "normalized_claim_hash": "2f804dd9a0a390da982181e6657b97c7e52413b74c05ce23fd7cd8a0eece9ec6",
+      "ticker": "2235",
+      "company": "謚源",
+      "path": "Pilot_Reports/Auto Parts/2235_謚源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "策略夥伴為[[堤維西]] (TYC，1522)，產品透過 TYC 北美子公司[[GENERA]]銷售，終端通路涵蓋[[LKQ]] (美國最大汽車零件商)、[[Amazon]]及 General Parts (NAPA)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathaysec.com.tw/RiskManage/5553ADEF-2071-4CF5-9EBB-7394290D8A63.pdf",
+          "title": "謚源實業股份有限公司（益源實業 I YUAN PRECISION INDUSTRIAL）申請上櫃公開說明書／承銷評估文件（民國103年）",
+          "source_level": 3,
+          "period_binding": "民國100至103年度資料；上櫃申請案經櫃檯買賣中心103年10月31日證櫃審字第10301017401號函同意。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並以 PDF 文字檢視此發行人上櫃申請文件（全文以「本公司」自述）。第41頁前後載：「本公司產品於北美地區之銷售獨家委由堤維西負責…再由堤維西出貨給其美國子公司GENERA公司銷售予當地之通路業者，包括General Parts Inc、LKQ Corporation及Amazon Services」。另載「本公司最近二年度及今年前三季來自第一大銷售客戶堤維西交通工業(股)公司之營收金額占整體銷售比重，分別為78.80％、77.44％及…」，並載「由堤維西轉投資之美國GENERA公司負責北美市場之產品銷售」。同文件另以「美國最大汽車維修通路商LKQ Corp.」描述 LKQ。文件未出現 NAPA。"
+        }
+      ],
+      "rationale": "策略夥伴與通路結構獲發行人公開說明書直接支持：謚源與堤維西（TYC）自民國89年簽訂合作協議，產品獨家由堤維西負責北美銷售，再由堤維西出貨給其轉投資之美國 GENERA 公司，通路業者明列 General Parts Inc、LKQ Corporation 及 Amazon Services；第一大客戶堤維西占其營收約 78.80%／77.44%，雙方並有股權關係。惟括號中「General Parts (NAPA)」之 NAPA 未獲支持：官方文件僅載 General Parts Inc，全篇未出現 NAPA。故部分成立。",
+      "proposed_text": "策略夥伴為[[堤維西]] (TYC，1522)，產品透過 TYC 北美子公司 [[GENERA]] 銷售，終端通路涵蓋 [[LKQ]]、Amazon 及 General Parts Inc。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2235:objective_ranking_or_market_share:f11191fc5107144b",
+      "normalized_claim_hash": "f11191fc5107144b0e3de6ac12ee9cd4ddbb405ab449746ee153d689cd40123b",
+      "ticker": "2235",
+      "company": "謚源",
+      "path": "Pilot_Reports/Auto Parts/2235_謚源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]] — 美國最大汽車零件商；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.cathaysec.com.tw/RiskManage/5553ADEF-2071-4CF5-9EBB-7394290D8A63.pdf",
+          "title": "謚源實業申請上櫃公開說明書／承銷評估文件（民國103年）",
+          "source_level": 3,
+          "period_binding": "民國100至103年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。文件以「美國最大汽車維修通路商LKQ Corp.」描述 LKQ Corporation，並載其為 NASDAQ 掛牌公司、成立於1998年，且為謚源產品經由 GENERA 銷售之終端通路業者之一（第41頁前後）。"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "LKQ Corporation Form 10-K (FY2025), U.S. SEC",
+          "source_level": 3,
+          "period_binding": "截至2025年12月31日之會計年度。",
+          "accessed_at": "2026-10-05",
+          "note": "LKQ 自身向 SEC 申報之年報載其北美部門營運北美最大的替代性車輛零件與配件配送網路（the largest distribution network of alternative vehicle parts and accessories… in North America），與公開說明書之描述一致。"
+        }
+      ],
+      "rationale": "「LKQ — 美國最大汽車零件商」獲兩項來源支持：謚源上櫃公開說明書明載「美國最大汽車維修通路商LKQ Corp.」，LKQ 自身 FY2025 Form 10-K 亦載其北美部門營運北美最大的替代性車輛零件配送網路。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:f6f576305c25bdeb",
+      "normalized_claim_hash": "f6f576305c25bdebcbe2d6dc562a647827e6ad612ecbfd1ee481eeebda63e1eb",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心客戶為[[一汽大眾]] (FAW-VW，最大客戶)、[[北京奔馳]] (Beijing Benz)、[[上汽大眾]] (SAIC-VW)，另供應[[Audi]] (一汽奧迪全車系儀錶板骨架)。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "開曼英利工業股份有限公司（Cayman Engley Industrial Co., Ltd.）股票公開發行說明書（初次上市用）",
+          "source_level": 3,
+          "period_binding": "民國101至104年度及105年前三季資料；說明書為初次上市（2016–2017年）文件。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第131頁前後載「…加上最大客戶一汽大眾積極拓展市場」；第131及136頁載該集團對一汽大眾銷售金額占各年度銷售比例分別達80.24%、81.16%、78.73%及73.16%，並明載「最大客戶一汽大眾」。第120及124頁列北京奔馳、上海（上汽）大眾為其主要客戶。第67頁載「現階段已開發和開發中儀錶板骨架已有近40種，一汽大眾AUDI所有系列的儀錶板骨架皆為本集團生產」。"
+        }
+      ],
+      "rationale": "核心客戶結構獲發行人公開說明書直接支持：一汽大眾為最大客戶（對其銷售占比 80.24%→73.16%），北京奔馳與上汽大眾亦列名主要客戶；且說明書明載「一汽大眾AUDI所有系列的儀錶板骨架皆為本集團生產」，支持 claim 所述「供應 Audi（一汽奧迪全車系儀錶板骨架）」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:95f5fff739fc9085",
+      "normalized_claim_hash": "95f5fff739fc90855a6687755b16de46a385c8dd918ad4533e26f0df15dd8997",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[一汽大眾]] (最大客戶)、[[北京奔馳]]、[[上汽大眾]]、[[Audi]] — 車身結構件",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "開曼英利工業 股票公開發行說明書",
+          "source_level": 3,
+          "period_binding": "民國101至104年度。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 f6f576305c25bdeb 相同之揭露：第131、136頁載一汽大眾為最大客戶（占銷售 80.24%／81.16%／78.73%／73.16%）；第120、124頁列北京奔馳與上汽大眾；第133頁載一汽大眾擁有奧迪(Audi)與大眾兩大品牌；第733頁載一汽大眾AUDI所有系列儀錶板骨架皆由該集團生產。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之供應鏈條目表述（「一汽大眾（最大客戶）、北京奔馳、上汽大眾、Audi — 車身結構件」），證據與 f6f576305c25bdeb 相同：公開說明書載一汽大眾為最大客戶、北京奔馳與上汽大眾為主要客戶，且一汽大眾AUDI全系列儀錶板骨架由該集團生產。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:1f382b871069e7dc",
+      "normalized_claim_hash": "1f382b871069e7dce8722ac1c3decf0032d3edd5576d35e872bffc32a54f9c27",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司擁有亞洲唯一[[SymaLITE]]輕量化複合材料產線 (全球僅 5 條)，供應[[Audi]]底盤護板。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "開曼英利工業 股票公開發行說明書",
+          "source_level": 3,
+          "period_binding": "民國101至104年度；SymaLITE 專利授權契約簽訂於2014年6月。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第17頁前後載該集團為「首家SYMALITE輕質材料車底護板及全鋁合金儀錶板骨架產品國產化廠」；另載「（奎德蘭特 Quadrant）Composites AG 簽訂專利授權契約，該集團因此可以生產SymaLITE（複合材料）」，並載其使用 GMT、Symalite LWRT 及 PP 為主要結構之產品。全份說明書未出現「亞洲唯一產線」、「全球僅5條」或「供應Audi底盤護板」之文字（Audi 之關聯為儀錶板骨架而非底盤護板）。"
+        },
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/223920171115E001.pdf",
+          "title": "英利-KY 法人說明會簡報（2017-11-15）",
+          "source_level": 3,
+          "period_binding": "2017年現況。",
+          "accessed_at": "2026-10-05",
+          "note": "官方簡報載 SymaLITE 之說明為「SYMALITE. Lightweight introduces the patent from QUARDRANT (Swiss), adopts the full production lines from Europe」，支持其取得專利與採用歐洲產線，但未載產線數量或「亞洲唯一」。"
+        }
+      ],
+      "rationale": "SymaLITE 複合材料之生產能力獲發行人公開說明書與法說會簡報支持：該集團與 Quadrant Composites AG 簽訂專利授權契約而可生產 SymaLITE，並自歐洲引進完整產線，且為「首家 SYMALITE 輕質材料車底護板及全鋁合金儀錶板骨架產品國產化廠」。惟三項具體陳述未獲支持：(1)「亞洲唯一產線」與「全球僅5條」——兩份官方文件均未載產線數量或區域獨占性；(2)「供應Audi底盤護板」——官方所述 Audi 關聯為儀錶板骨架，底盤/車底護板未與 Audi 連結。故部分成立。",
+      "proposed_text": "公司取得 Quadrant 專利授權生產 [[SymaLITE]] 輕量化複合材料，為國內首家 SymaLITE 輕質材料車底護板及全鋁合金儀錶板骨架產品國產化廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:8d3dc1316d4155c8",
+      "normalized_claim_hash": "8d3dc1316d4155c8d3324b1196b77e6dc5ab2a2fcd24adcb8f4d8c7700852104",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[SymaLITE]] 複合材料 (亞洲唯一產線)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "開曼英利工業 股票公開發行說明書",
+          "source_level": 3,
+          "period_binding": "民國101至104年度。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 1f382b871069e7dc 相同之揭露：說明書載其與 Quadrant Composites AG 簽訂專利授權契約而可生產 SymaLITE，並為首家 SymaLITE 輕質材料車底護板及全鋁合金儀錶板骨架國產化廠；未載「亞洲唯一產線」。2017年法說會簡報亦僅載自歐洲引進完整產線，未載產線數量。"
+        }
+      ],
+      "rationale": "本 claim 為同一產品條目表述（「SymaLITE 複合材料（亞洲唯一產線）」）。SymaLITE 之生產能力獲官方文件支持，惟「亞洲唯一產線」未獲支持：公開說明書與法說會簡報均未載產線之區域獨占性或數量。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:f1b8e1134f6bc9d1",
+      "normalized_claim_hash": "f1b8e1134f6bc9d1820d48877d8355333448b9455167298acd23c978e02bc175",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[SymaLITE]] — 亞洲唯一輕量化複合材料產線",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "開曼英利工業 股票公開發行說明書",
+          "source_level": 3,
+          "period_binding": "民國101至104年度。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 1f382b871069e7dc 相同之揭露：說明書載其取得 Quadrant 專利授權可生產 SymaLITE、為首家 SymaLITE 車底護板及全鋁合金儀錶板骨架國產化廠；未載「亞洲唯一」或產線數量。"
+        }
+      ],
+      "rationale": "本 claim 為同一產品之供應鏈條目表述（「SymaLITE — 亞洲唯一輕量化複合材料產線」）。SymaLITE 生產能力獲官方支持，惟「亞洲唯一」之獨占性陳述未獲公開說明書或法說會簡報支持。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
