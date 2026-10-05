@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-158",
+  "reviewed_at": "2026-10-05T21:12:50Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (南紡110年度年報; 力鵬106年度年報)",
+  "items": [
+    {
+      "claim_id": "1440:objective_ranking_or_market_share:95d130b7d3a12dab",
+      "normalized_claim_hash": "95d130b7d3a12dab6534c9f1a2a6673994b27b6f83854c66524b704bbe428716",
+      "ticker": "1440",
+      "company": "南紡",
+      "path": "Pilot_Reports/Textile Manufacturing/1440_南紡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "紡織部門為台灣最大聚酯棉/紡紗廠之一，產品包括棉紗、聚酯粒、聚酯棉、機能性布料，產能布局台灣及越南；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1440_110.pdf",
+          "title": "台南紡織股份有限公司（南紡，1440，Tainan Spinning）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取79,364字元）。年報**逐字載明市場地位**：「南紡以棉紗事業起家，並逐步向上游纖維製造及下游織布等發展，**為國內最大棉紗廠**」；並見「**聚酯棉**」15次、「**紡紗**」15次、「**聚酯粒**」12次、「棉紗」7次、「機能」4次、「**越南**」26次，**四項產品與越南產能布局皆獲對應敘述**。全份年報中「**最大**」2次：其一即上引之「國內最大棉紗廠」（市場地位），其二為不動產敘述「南紡置地廣場…將成為臺南地區佔地最大的百（貨）」。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報支持：(1)「為台灣**最大聚酯棉／紡紗廠**之一」——年報**逐字載**「南紡以棉紗事業起家…**為國內最大棉紗廠**」，其「最大」之程度**強於** claim 所述之「之一」；(2)「產品包括**棉紗**、**聚酯粒**、**聚酯棉**、**機能性布料**」——四項產品於年報中各有對應敘述（「棉紗」7次、「**聚酯粒**」12次、「**聚酯棉**」15次、「**機能**」4次）；(3)「產能布局台灣及**越南**」——「越南」26次。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1447:objective_ranking_or_market_share:2c3ecc5fc9630935",
+      "normalized_claim_hash": "2c3ecc5fc9630935ed858fbb44097945d58dd79c33f3820ca29ca1c6d741c1fd",
+      "ticker": "1447",
+      "company": "力鵬",
+      "path": "Pilot_Reports/Textile Manufacturing/1447_力鵬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[力鵬]]企業 (Li Peng Enterprise) 為力麗集團成員，亞洲最大的[[尼龍粒]] (Nylon Chips) 生產商之一。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1447_106.pdf",
+          "title": "力鵬企業股份有限公司（力鵬，1447，Li Peng Enterprise）106 年度年報",
+          "source_level": 3,
+          "period_binding": "民國106年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取36,412字元）。年報**逐字載明市場地位**：「（一貫化）流程，**為亞洲地區最大之Nylon 6 粒製造商**」；並見「**尼龍粒**」24次、「**力麗**」15次、「一貫」7次、「集團」6次，支持其尼龍粒業務與集團歸屬。**對照發現**：全份年報中「**最大**」4次，除上引之市場地位外，另有一次為**目標敘述**——「產能將由800噸提升至1,100噸，**成為全球最大尼龍粒供應商為目標**」，其餘為「最大優點」「年度最大之訓練活動」。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報支持：(1)「為[[力麗集團]]成員」——「**力麗**」15次、「集團」6次；(2)「為**亞洲最大**的[[尼龍粒]]（Nylon Chips）生產商之一」——年報**逐字載**「（一貫化）流程，**為亞洲地區最大之Nylon 6 粒製造商**」（「**尼龍粒**」24次、「一貫」7次）。故予以支持。**對照註記**：同份年報另載「產能將由800噸提升至1,100噸，**成為全球最大尼龍粒供應商為目標**」——該句為**目標敘述**（未來），與上引之「為亞洲地區最大」（現狀）性質不同；本 claim 係就現狀之亞洲最大而為，故採認。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

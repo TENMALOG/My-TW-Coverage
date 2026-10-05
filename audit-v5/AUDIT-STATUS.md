@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 13:04 UTC
+Updated: 2026-10-11 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,14 +8,14 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **878 / 1,399**
-- Remaining author review: **521**
-- Latest batch: **author-157** (4 claims)
+- Author-reviewed: **880 / 1,399**
+- Remaining author review: **519**
+- Latest batch: **author-158** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **89**
+- `ACCEPTED`: **91**
 - `PARTIALLY_SUPPORTED`: **576**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
@@ -24,12 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1341:objective_ranking_or_market_share:c464f0b0ce8ffced` — `PARTIALLY_SUPPORTED`；富林簡報（**英文版**）「**leather」34 次、「PU」30 次、「PVC」17 次**、「Vietnam」14次；惟「largest」「leading」皆0次。
-- `1341:objective_ranking_or_market_share:f6b48a6d16324bcd` — `UNKNOWN_AFTER_RESEARCH`；簡報「**Ashley」0 次**。
-- `1423:objective_ranking_or_market_share:bb8fd0329f920772` — `PARTIALLY_SUPPORTED`；利華簡報「**羊毛」19 次、「防縮」4 次**、「毛條」1次；惟「唯一」0次。
-- `1434:objective_ranking_or_market_share:78a69698062119b8` — `PARTIALLY_SUPPORTED`；福懋99年報「**織布」48 次**、「聚酯」26次；惟「**簾布」「輪胎」皆 0 次**。**公司名以相容表意字「福懋」排版**（非標準「福」），**非近期版本**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-157.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1440:objective_ranking_or_market_share:95d130b7d3a12dab` (南紡).
+- `1440:objective_ranking_or_market_share:95d130b7d3a12dab` — `ACCEPTED`；南紡110年報**逐字載**「南紡以棉紗事業起家（…）**為國內最大棉紗廠**」——**逐字對應**（且強於 claim 之「之一」）。
+- `1447:objective_ranking_or_market_share:2c3ecc5fc9630935` — `ACCEPTED`；力鵬106年報**逐字載**「（一貫化）流程，**為亞洲地區最大之Nylon 6 粒製造商**」，且「力麗」15次支持集團歸屬——**逐字對應**。
+- 對照註記：同份力鵬年報另載「**成為全球最大尼龍粒供應商為目標**」（**目標敘述**），與上引之現狀敘述性質不同。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-158.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `1451:objective_ranking_or_market_share:e4b27d6e2db182fd` (年興).
 
 ## Source access
 
