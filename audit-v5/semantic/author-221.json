@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-221",
+  "reviewed_at": "2026-10-05T22:26:20Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (正達114年度年報; 優群114年度個體財務報告); 力特與及成端點皆HTTP 404，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3149:material_named_relationship:03278f3ab45f2eff",
+      "normalized_claim_hash": "03278f3ab45f2effebb61ede7b9be5aa5971d58f66e8d1f2cb20a4136c31c7c6",
+      "ticker": "3149",
+      "company": "正達",
+      "path": "Pilot_Reports/Electronic Components/3149_正達.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] — 過往主要客戶",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.gtoc.com.tw/upload/cominfo/202605121721370.pdf",
+          "title": "正達國際光電股份有限公司（正達，3149，G-Tech Optoelectronics）一一四年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（刊印日 民國115年4月3日）。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取94,182字元）。年報封面載「**一一四年度年報**」「中華民國115年4月3日刊印」「股票代碼：**3149**」，文中「**正達**」47次、「**客戶**」65次。**關鍵發現**：全份年報中「**Apple**」「**蘋果**」「**iPhone**」與「**主要客戶**」之出現次數**均為0**——**未具名該客戶**（該 claim 所述為「**過往**主要客戶」，本年度年報未予具名）。"
+        }
+      ],
+      "rationale": "「[[Apple]] — **過往主要客戶**」未獲確立：所取得之正達一一四年度年報（文字可讀、共94,182字元，含「客戶」65次）中，「**Apple**」「**蘋果**」「**iPhone**」與「**主要客戶**」之出現次數**均為0**，**未具名該客戶**。**註記**：該 claim 所述為「**過往**主要客戶」，而該關係若已終止，本年度年報未予具名符合揭露慣例；**惟本批次仍無任何官方文件可資佐證該關係之存在**，故以 UNKNOWN_AFTER_RESEARCH 結案，**建議另尋較早年度之年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3217:material_named_relationship:9249a974b3559c5a",
+      "normalized_claim_hash": "9249a974b3559c5aa4de871e8881373b13537a275922279a60206a4e5b6f79b0",
+      "ticker": "3217",
+      "company": "優群",
+      "path": "Pilot_Reports/Electronic Components/3217_優群.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "因應 [[AI 伺服器]]需求，積極切入伺服器 Long-DIMM 市場，並打入 [[Supermicro]] 與 [[Meta]] 供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/t59/t59sa14/3217_2026062501_RPT.pdf",
+          "title": "優群科技股份有限公司（優群，3217，Argosy Research）民國114年及113年度個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國114年及113年度。**文件性質為個體財務報告，非年報。**",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取46,048字元）。**文件性質為個體財務報告暨會計師查核報告**；封面載「股票代碼：**3217** **優群科技股份有限公司**」（「優群」36次）。**關鍵發現**：全份文件中「**Long**」「**DIMM**」「**Supermicro**」「**Meta**」「**AI**」「**伺服器**」與「**記憶體**」之出現次數**均為0**——未載產品別或客戶關係。"
+        }
+      ],
+      "rationale": "「因應 [[AI 伺服器]]需求，積極切入伺服器 **Long-DIMM** 市場，並打入 [[Supermicro]] 與 [[Meta]] 供應鏈」未獲確立：本批次所取得之優群文件**性質為個體財務報告（民國114年及113年度，非年報）**，其中「**Long**」「**DIMM**」「**Supermicro**」「**Meta**」「**AI**」「**伺服器**」與「**記憶體**」之出現次數**均為0**，**未載產品別或客戶關係**；故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3051:material_named_relationship:5805bf0a9682fc9a",
+      "normalized_claim_hash": "5805bf0a9682fc9ac7fa46fc690b6a5beb44220275dc7713d953b5712634fd75",
+      "ticker": "3051",
+      "company": "力特",
+      "path": "Pilot_Reports/Electronic Components/3051_力特.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心競爭力：(1) 車載偏光板 — 染料系高耐候性偏光板，應用於儀表板、中控台、數位後視鏡，已打入 [[BMW]]、[[Mercedes-Benz]]、[[BYD]] 等車廠供應鏈；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/305120250401M001.pdf",
+          "title": "力特光電科技股份有限公司（力特，3051，Optimax）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載力特簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得力特可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) 車載偏光板 — 染料系高耐候性偏光板，應用於儀表板、中控台、數位後視鏡，已打入 [[BMW]]、[[Mercedes-Benz]]…」未獲確立：本批次自公開資訊觀測站端點下載力特簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3095:material_named_relationship:bfc3dcdc6a25b820",
+      "normalized_claim_hash": "bfc3dcdc6a25b820d29d6c787794060bd941ab9435fe34461b43a3d42fe43e4d",
+      "ticker": "3095",
+      "company": "及成",
+      "path": "Pilot_Reports/Electronic Components/3095_及成.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "重點發展方向：(1) [[電動車]]輕量化 — 鋁合金機構件，供應 [[Continental]]、[[Bosch]] 等汽車 Tier 1 內裝件與電裝機構件；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/309520250401M001.pdf",
+          "title": "及成企業股份有限公司（及成，3095，Jichan）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自公開資訊觀測站端點下載及成簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得及成可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) [[電動車]]輕量化 — 鋁合金機構件，供應 [[Continental]]、[[Bosch]] 等汽車 Tier 1 內裝件與電裝機構件」未獲確立：本批次自公開資訊觀測站端點下載及成簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

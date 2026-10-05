@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 04:04 UTC
+Updated: 2026-10-14 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,118 / 1,399**
-- Remaining author review: **281**
-- Latest batch: **author-220** (5 claims)
+- Author-reviewed: **1,122 / 1,399**
+- Remaining author review: **277**
+- Latest batch: **author-221** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,15 +20,15 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **306**
+- `UNKNOWN_AFTER_RESEARCH`: **310**
 
 ## Latest claim batch
 
-- ⚠️ **歸屬更正（author-217）**：`3071:material_named_relationship:2d5f28d692feacbe` 原引用之 `emctw.com` 2023年報**經查證屬台光電（2383，Elite Material）之文件**（該網域載「**台光電子材料**」議事手冊，檔案內「**EMC」51 次、「Elite」10 次**），**非協禧（3071）之文件**。該筆判定維持 `UNKNOWN_AFTER_RESEARCH`（協禧實際未取得任何可檢視之官方文件），**證據歸屬已更正並改置於 `downloads/2383/`**。
-- `2383:material_named_relationship:76a1350152921c96`、`db9504c222045fa9`、`fee79a79f19e5cdf` — `UNKNOWN_AFTER_RESEARCH` ×3；台光電年報**文字層全為亂碼**（僅拉丁字母可辨），**「NVIDIA／AWS／H100／GB200／Trainium」皆 0 次**；114年股東常會議事手冊亦同。
-- `3023:material_named_relationship:1532be7088e9ba55` — `PARTIALLY_SUPPORTED`；信邦年報「**倉儲機器人」2 次、「充電樁」3 次**；**惟「Amazon／ChargePoint」皆 0 次**。
-- `2409:material_named_relationship:1322b55ea86b1f7c` — `UNKNOWN_AFTER_RESEARCH`；友達端點 **TLS 安全通道失敗**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-220.json`（5 筆）與更正後之 `semantic/author-217.json`。未修改發行人報告。
+- `3149:material_named_relationship:03278f3ab45f2eff` — `UNKNOWN_AFTER_RESEARCH`；正達114年度年報（文字可讀，94,182字元，含「客戶」65 次）中「**Apple／蘋果／iPhone／主要客戶」皆 0 次**。
+- `3217:material_named_relationship:9249a974b3559c5a` — `UNKNOWN_AFTER_RESEARCH`；優群文件為**個體財務報告（非年報）**，「**Long-DIMM／Supermicro／Meta／AI 伺服器／記憶體」皆 0 次**。
+- `3051:material_named_relationship:5805bf0a9682fc9a`、`3095:bfc3dcdc6a25b820` — `UNKNOWN_AFTER_RESEARCH` ×2；力特與及成端點 **HTTP 404**。
+- 🎯 **里程碑：author 已審 **1,122** 筆 claim（80.2%），突破八成。**
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-221.json`（4 筆）。未修改發行人報告。
 - Next pending claim by priority: `3037:material_named_relationship:fc84aa5e0c3063d9` (欣興).
 
 ## Source access

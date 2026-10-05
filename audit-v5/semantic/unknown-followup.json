@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:25:22Z",
+  "generated_at": "2026-10-05T22:26:32Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -223,17 +223,18 @@
     "author-217",
     "author-218",
     "author-219",
-    "author-220"
+    "author-220",
+    "author-221"
   ],
-  "source_batch_count": 220,
-  "total_unknown": 306,
+  "source_batch_count": 221,
+  "total_unknown": 310,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 132,
-    "other_unclassified": 116,
+    "no_official_endpoint_found": 135,
+    "other_unclassified": 117,
     "tls_failure": 14,
     "mops_non_document": 39,
     "non_document_response": 38,
-    "http_404": 63,
+    "http_404": 65,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -4717,6 +4718,64 @@
         "https://auo.com.cn/upload/media/ir/Financial_Information/4Q2022_TC.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "3149:material_named_relationship:03278f3ab45f2eff",
+      "ticker": "3149",
+      "company": "正達",
+      "claim": "[[Apple]] — 過往主要客戶",
+      "batch_id": "author-221",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.gtoc.com.tw/upload/cominfo/202605121721370.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3217:material_named_relationship:9249a974b3559c5a",
+      "ticker": "3217",
+      "company": "優群",
+      "claim": "因應 [[AI 伺服器]]需求，積極切入伺服器 Long-DIMM 市場，並打入 [[Supermicro]] 與 [[Meta]] 供應鏈。",
+      "batch_id": "author-221",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/t59/t59sa14/3217_2026062501_RPT.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3051:material_named_relationship:5805bf0a9682fc9a",
+      "ticker": "3051",
+      "company": "力特",
+      "claim": "核心競爭力：(1) 車載偏光板 — 染料系高耐候性偏光板，應用於儀表板、中控台、數位後視鏡，已打入 [[BMW]]、[[Mercedes-Benz]]、[[BYD]] 等車廠供應鏈；",
+      "batch_id": "author-221",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/305120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3095:material_named_relationship:bfc3dcdc6a25b820",
+      "ticker": "3095",
+      "company": "及成",
+      "claim": "重點發展方向：(1) [[電動車]]輕量化 — 鋁合金機構件，供應 [[Continental]]、[[Bosch]] 等汽車 Tier 1 內裝件與電裝機構件；",
+      "batch_id": "author-221",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/309520250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }
