@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+import tempfile
 import threading
 import time
 import unittest
@@ -133,7 +134,7 @@ class SemanticWorkerConcurrencyTests(unittest.TestCase):
         self.assertEqual(worker.finalise(result("ACCEPTED"), result("UNSUPPORTED")), ("ESCALATED_REVIEW_DISAGREEMENT", "AUTHOR=ACCEPTED;REVIEWER=UNSUPPORTED"))
 
     def test_state_json_stays_valid_after_worker_exception(self):
-        path = Path("/tmp/semantic-worker-state-test.json")
+        path = Path(tempfile.gettempdir()) / "semantic-worker-state-test.json"
         path.unlink(missing_ok=True)
         worker.process_batch([make_claim(i) for i in range(3)], self.state, lambda c: (_ for _ in ()).throw(ValueError("boom")) if c["claim_id"] == make_claim(0)["claim_id"] else result(), lambda c: result(), 4, 4, persist_state=lambda state: worker.atomic_write_json(path, state))
         parsed = json.loads(path.read_text(encoding="utf-8"))
