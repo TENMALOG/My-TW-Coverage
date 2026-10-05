@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **578 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), and `author-097` (6).
+Author-reviewed: **583 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), and `author-098` (5).
 
 - ACCEPTED by author: 76
-- PARTIALLY_SUPPORTED: 374
+- PARTIALLY_SUPPORTED: 376
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 124
-- Remaining author queue: 821
+- Other allowed author decisions: 127
+- Remaining author queue: 816
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1156,6 +1156,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **124 筆**。
 - Author-reviewed total: **578 / 1,399**; remaining: **821**. Outcome counts: ACCEPTED 76, PARTIALLY_SUPPORTED 374, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 124. Next pending claim by priority: `4534:objective_ranking_or_market_share:9544823face2741c` (慶騰).
+
+## Author batch `author-098` — 2026-10-09
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (慶騰 4534 ×2, 健椿 4561, 聯德控股-KY 4912, 匯僑 2904). Evidence came from directly downloaded and inspected official disclosures: 健椿2024年度年報、匯僑2024年法人說明會簡報。
+- `4534:objective_ranking_or_market_share:9544823face2741c` 與 `df5a6c2d9d123139` — `UNKNOWN_AFTER_RESEARCH`. 本批次就慶騰（4534）搜尋可檢視之官方文件，所取得之結果均為第三方財經資料庫與獎項名單頁面，**未查得發行人官方網域之可下載年報或法人說明會簡報端點**；另亦未取得 Höganäs 自身之官方文件，故「客戶含 Bosch、Makita、Stanley Black & Decker、TTI」與「上游金屬粉末來自 Höganäs（全球最大鐵粉廠）」均未獲確立。
+- `4561:objective_ranking_or_market_share:97a04d12e6cfe518` — `PARTIALLY_SUPPORTED`. 健椿2024年度年報中「**主軸**」出現162次、「精密」104次、「上櫃」20次、「**KENTURN**」2次（年報載「對於本公司自有品牌『KENTURN』之產品形象及國際競爭力均有正面助益」），支持其精密主軸製造業務、品牌名稱與上櫃身分；惟「為台灣**唯一**上櫃精密主軸專業廠」未獲支持（「唯一」0次）。
+- `4912:objective_ranking_or_market_share:8324f94ac4ccaf9f` — `UNKNOWN_AFTER_RESEARCH`. 聯德控股官方網域之2019年法人說明會簡報端點回應 **HTTP 404**，未取得可檢視之檔案；亦未取得 Autoliv 自身之官方文件，故「Autoliv（全球最大安全氣囊供應商）」未獲確立。
+- `2904:objective_ranking_or_market_share:7f1bb17b9de305f7` — `PARTIALLY_SUPPORTED`. 匯僑2024年8月官方簡報中「**儲槽**」出現6次，支持其石化儲槽倉儲業務；惟「為台灣**最大民營**石化**岸槽**倉儲服務商」（「台灣最大」「岸槽」「民營」均0次）與「儲槽規模**僅次於台塑集團與台灣中油**」（「**台塑**」「**中油**」均0次）未獲支持。註記：該簡報文字擷取僅3,103字元。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **127 筆**。
+- Author-reviewed total: **583 / 1,399**; remaining: **816**. Outcome counts: ACCEPTED 76, PARTIALLY_SUPPORTED 376, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 127. Next pending claim by priority: `6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab` (台塑化).
+
 
 
 

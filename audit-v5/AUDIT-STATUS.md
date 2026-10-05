@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 01:04 UTC
+Updated: 2026-10-09 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **578 / 1,399**
-- Remaining author review: **821**
-- Latest batch: **author-097** (6 claims)
+- Author-reviewed: **583 / 1,399**
+- Remaining author review: **816**
+- Latest batch: **author-098** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **76**
-- `PARTIALLY_SUPPORTED`: **374**
+- `PARTIALLY_SUPPORTED`: **376**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **124**
+- `UNKNOWN_AFTER_RESEARCH`: **127**
 
 ## Latest claim batch
 
-- `1343:objective_ranking_or_market_share:f0a65b719a264687` — `UNKNOWN_AFTER_RESEARCH`；旭東簡報載「開發**水面**型太陽能支撐座」「**屏東**加工出口區設立新廠」（屏東4次、水面2次）；惟「佳冬」「太陽光電」「全球最大」「案場」皆0次。
-- `1532:objective_ranking_or_market_share:63f553b91ed507d5` — `UNKNOWN_AFTER_RESEARCH`；勤美官方端點回應 **HTTP 404**。
-- `1584:objective_ranking_or_market_share:e15f16a6d0286001` — `PARTIALLY_SUPPORTED`；精剛簡報「鈦合金」9次、「超合金」4次；惟「唯一」0次（簡報擷取僅2,003字元）。
-- `1785:objective_ranking_or_market_share:6815a6279f48d47c`、`32849e7d1bc93f05` — `UNKNOWN_AFTER_RESEARCH` ×2；光洋科簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
-- `2415:objective_ranking_or_market_share:b314132dd634687f` — `PARTIALLY_SUPPORTED`；錩新簡報「鍛造」9次、「揚聲器」6次；惟「19%」「龍頭」「市佔」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-097.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `4534:objective_ranking_or_market_share:9544823face2741c` (慶騰).
+- `4534:objective_ranking_or_market_share:9544823face2741c`、`df5a6c2d9d123139` — `UNKNOWN_AFTER_RESEARCH` ×2；慶騰未查得官網可下載年報或簡報端點，亦未取得 Höganäs 官方文件。
+- `4561:objective_ranking_or_market_share:97a04d12e6cfe518` — `PARTIALLY_SUPPORTED`；健椿2024年報「**主軸」162 次**、「精密」104 次、「上櫃」20 次、「**KENTURN」2 次**；惟「唯一」0 次。
+- `4912:objective_ranking_or_market_share:8324f94ac4ccaf9f` — `UNKNOWN_AFTER_RESEARCH`；聯德官網2019簡報端點回應 **HTTP 404**。
+- `2904:objective_ranking_or_market_share:7f1bb17b9de305f7` — `PARTIALLY_SUPPORTED`；匯僑2024簡報「儲槽」6 次；惟「台塑」「中油」「台灣最大」「岸槽」「民營」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-098.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab` (台塑化).
 
 ## Source access
 
