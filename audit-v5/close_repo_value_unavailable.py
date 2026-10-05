@@ -19,6 +19,7 @@ MARGIN_ROWS = {
     "operating_income": "Operating Margin (%)",
     "net_income": "Net Margin (%)",
 }
+SEMIANNUAL_YTD_TICKERS = {"3659", "4546", "6618"}
 ROW_ORDER = [
     "Revenue",
     "Gross Profit",
@@ -107,13 +108,46 @@ def official_q1(ticker: str, company: str):
     return out
 
 
-def patch_report(path: Path, items, q1_official):
+def patch_report(path: Path, items, q1_official, ticker: str):
     text = path.read_text(encoding="utf-8")
     match = section_match(text)
     if not match:
         raise RuntimeError("quarterly section not found")
 
     headers, rows, order = parse_existing_table(match.group(2))
+
+    if ticker in SEMIANNUAL_YTD_TICKERS:
+        if "2026-06-30" not in headers:
+            headers.insert(0, "2026-06-30")
+            for label in list(rows):
+                rows[label].insert(0, "-")
+        rows, order = ensure_core_rows(headers, rows, order)
+        q2i = headers.index("2026-06-30")
+        changes = []
+        failures = []
+        for item in items:
+            metric = item["metric"]
+            row_name = ROW_NAMES[metric]
+            official_ytd = float(item["official_value_million"])
+            rows[row_name][q2i] = f"{official_ytd:.2f}"
+            changes.append({
+                "metric": metric,
+                "h1_ytd_million": official_ytd,
+                "method": "OFFICIAL_H1_YTD_DIRECT",
+            })
+
+        revenue = num(rows["Revenue"][q2i])
+        if revenue not in (None, 0):
+            for metric, margin_row in MARGIN_ROWS.items():
+                value = num(rows[ROW_NAMES[metric]][q2i])
+                if value is not None:
+                    rows[margin_row][q2i] = f"{value / revenue * 100:.2f}"
+
+        if changes:
+            new_block = render_table(headers, rows, order)
+            path.write_text(text[:match.start(2)] + new_block + text[match.end(2):], encoding="utf-8")
+        return changes, failures
+
     headers, rows = ensure_2026_columns(headers, rows)
     rows, order = ensure_core_rows(headers, rows, order)
 
@@ -185,8 +219,8 @@ def main():
     for path_s, items in sorted(grouped.items()):
         first = items[0]
         try:
-            q1 = official_q1(first["ticker"], first["company"])
-            changes, failures = patch_report(Path(path_s), items, q1)
+            q1 = {} if first["ticker"] in SEMIANNUAL_YTD_TICKERS else official_q1(first["ticker"], first["company"])
+            changes, failures = patch_report(Path(path_s), items, q1, first["ticker"])
         except Exception as exc:
             changes = []
             failures = [{"metric": "*", "reason": "exception", "error": f"{type(exc).__name__}: {exc}"}]

@@ -45,6 +45,10 @@ REPO_ROWS = {
     "net_income": "Net Income",
 }
 
+# 2026H1 emerging-market issuers without a published Q1 financial statement.
+# Their 2026-06-30 repository cell is an H1/YTD official value, not a single-quarter value.
+SEMIANNUAL_YTD_TICKERS = {"3659", "4546", "6618"}
+
 SPECIALIZED_FINANCIAL_SECTORS = {
     "Asset Management",
     "Banks",
@@ -161,7 +165,7 @@ def quarter_of_date(date_str: str) -> tuple[int, int] | None:
     return (y, q) if q else None
 
 
-def repo_metric_value(text: str, metric: str, year: int, quarter: int) -> tuple[float | None, str]:
+def repo_metric_value(text: str, metric: str, year: int, quarter: int, ticker: str | None = None) -> tuple[float | None, str]:
     row_name = REPO_ROWS[metric]
     if quarter == 4:
         annual = parse_markdown_table(extract_section(text, "年度關鍵財務數據"))
@@ -174,6 +178,13 @@ def repo_metric_value(text: str, metric: str, year: int, quarter: int) -> tuple[
 
     quarterly = parse_markdown_table(extract_section(text, "季度關鍵財務數據"))
     row = quarterly.get(row_name, {})
+
+    if ticker in SEMIANNUAL_YTD_TICKERS and year == 2026 and quarter == 2:
+        for date, value in row.items():
+            if date == "2026-06-30" and value is not None:
+                return value, "semiannual-ytd"
+        return None, "semiannual-ytd-missing"
+
     selected = []
     for date, value in row.items():
         yq = quarter_of_date(date)
@@ -302,7 +313,7 @@ def main() -> int:
                 metric_counters[f"{metric}:official_missing"] += 1
                 continue
             official_m = official_raw / 1000.0
-            repo_value, repo_basis = repo_metric_value(text, metric, year, quarter)
+            repo_value, repo_basis = repo_metric_value(text, metric, year, quarter, ticker)
             sector = path.parent.name
             reason = None
             if repo_value is None:

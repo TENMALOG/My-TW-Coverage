@@ -111,3 +111,12 @@ The legacy Yahoo/yfinance field definitions for leasing/credit-service issuers a
 Q1 values are taken directly from the 2026Q1 MOPSFIN statement. Q2 single-quarter values are derived as 2026Q2 YTD minus 2026Q1 YTD. Margins are recomputed from the normalized Revenue denominator.
 
 This is a sector-level policy decision, not four independent issuer exceptions.
+
+
+## Semiannual emerging-market H1 handling
+
+For 2026H1, tickers 3659 (百辰), 4546 (長亨), and 6618 (永虹先進) are treated as semiannual/YTD issuers for Phase 1 because no 2026Q1 official financial statement is available through the MOPSFIN quarterly comparison interface. Their official 2026-06-30 values are stored and verified as H1/YTD values directly rather than fabricating Q1 and Q2 single-quarter splits.
+
+The checker therefore treats the repository's 2026-06-30 core financial cells for these tickers as `semiannual-ytd` during the 2026Q2 comparison.
+
+This is an explicit period-basis exception, not an estimate.
