@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 06:04 UTC
+Updated: 2026-10-08 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **441 / 1,399**
-- Remaining author review: **958**
-- Latest batch: **author-078** (6 claims)
+- Author-reviewed: **448 / 1,399**
+- Remaining author review: **951**
+- Latest batch: **author-079** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **68**
-- `PARTIALLY_SUPPORTED`: **286**
+- `ACCEPTED`: **69**
+- `PARTIALLY_SUPPORTED`: **292**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2450:objective_ranking_or_market_share:d4c4eba514df929a` — `ACCEPTED`; 神腦106年報載「**創立於1979年**，為**全台行動手持裝置最大通路商**」「全台數位滙流裝置最大之通路商」與「（中華電信）成為神腦**最大股東**」（中華電信16次）。
-- `3048:objective_ranking_or_market_share:e7578b46e213723c`、`144af8e9daef4625` — `UNKNOWN_AFTER_RESEARCH` ×2；就益登(3048)所取得之 zenitron.com.tw 檔案經檢視確認其為「**2023永續報告書**」且目錄載「關於**增你強**」，屬另一公司文件，故不予採用；未取得3048可檢視之正式文件。
-- `3312:objective_ranking_or_market_share:ef9a168379d5a594`、`30b39681faeb2489` — `PARTIALLY_SUPPORTED` ×2；弘憶110年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」（瑞昱39次）；惟「最大代理線」「最大供應商」未載，「7成」「營收佔比」0次，而「70%」2次實為**員工福利精算折現率0.70%**。
-- `3702:objective_ranking_or_market_share:bbfe49daa140f2f0` — `PARTIALLY_SUPPORTED`；大聯大2022年報載「**全球第二、亞太區第一大的半導體零組件通路商**，總部位於臺（北）」（全球第二3次、2005 6次）；惟claim之「全球最大…之一」與官方「全球第二」用語不同，且「8,806」於2022年報中0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-078.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `3360:objective_ranking_or_market_share:1e5c4a342b962d2f` (尚立).
+- `3360:objective_ranking_or_market_share:1e5c4a342b962d2f` — `PARTIALLY_SUPPORTED`；深圳證券交易所公開文件載「發行人向**尚立（香港）**採購的 **CMOS 圖像傳感器**價格係由影石創新與**日本索尼（Sony）**…協商確定…並直接與日本索尼（Sony）的**代理（商）**」，支持其處於 Sony CIS 供應／代理環節；惟「最大供應商」未載（本件為第三人之公開文件）。
+- `3483:objective_ranking_or_market_share:eb582bc6e017b55f` — `ACCEPTED`；力致2025簡報「我們的優勢」載「**筆電風扇市佔率最高**」（散熱10次、風扇7次）。
+- `3702:objective_ranking_or_market_share:c5f8ff6dd3f3b9ef` — `PARTIALLY_SUPPORTED`；大聯大2022年報「世平」35次、「WPI」18次；惟「最大子公司」0次。
+- `5434:objective_ranking_or_market_share:a062e5f5b5b17bbb` — `PARTIALLY_SUPPORTED`；崇越113年報光阻15次、矽晶圓14次、先進製程12次；惟「最大客戶」0次。
+- `6227:objective_ranking_or_market_share:43389475739d47d9` — `PARTIALLY_SUPPORTED`；茂綸年報Macnica 22次、代理106次、NVIDIA 4次、Renesas 4次；惟「日本第一大」0次。
+- `8070:objective_ranking_or_market_share:db178e56e65db8b1`、`ab0adc7ddd6d83f3` — `PARTIALLY_SUPPORTED` ×2；長華2018年報載「整併日商住友導線架業務…成為**全球第三大導線架廠**」（導線架46次、封膠19次、住友7次、EMC 2次）；惟「51%」為**員工高中學歷比率**、「28%」為「8,028%」之子字串、「33%」為持股4.33%、「67%」為**董事出席率**，均非市場或營收數字；「市佔」5次均指台灣半導體產業整體。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-079.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` (展碁國際).
 
 ## Source access
 

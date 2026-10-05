@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-079",
+  "reviewed_at": "2026-10-05T19:14:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (力致2025年法人說明會簡報; 大聯大2022年度年報; 崇越113年度年報; 茂綸股東會年報; 長華2018年度年報; 尚立部分採第三人於交易所申報之公開文件); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3360:objective_ranking_or_market_share:1e5c4a342b962d2f",
+      "normalized_claim_hash": "1e5c4a342b962d2f17c05c39e339681b888beebe2f56846942dcff4f21330a9f",
+      "ticker": "3360",
+      "company": "尚立",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3360_尚立.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Sony]] — [[CIS]] (最大供應商/核心代理線)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202406/RAS_202406_292115D07F91B0040F4FB8958517F62778CBCB.pdf",
+          "title": "深圳證券交易所公開文件（影石創新科技股份有限公司申請文件）— 尚立（香港）作為 CMOS 影像感測器供應環節之記載",
+          "source_level": 3,
+          "period_binding": "文件刊載於2024年6月；所述採購期間為「報告期內」。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次自深圳證券交易所公開文件端點下載並以文字檢視該文件。文件載「報告期內，發行人向**尚立（香港）股份有限公司**採購的 **CMOS 圖像傳感器**價格係由影石創新與**日本索尼（Sony）**根據需求量協商確定，發行人根據影石創新和日本索尼（Sony）商定的價格…按批次進行採購，並直接與日本索尼（Sony）的**代理（商）**（…）」，顯示尚立（香港）處於 Sony CMOS 影像感測器之供應／代理環節。註記：本件為**第三人（影石創新）於交易所申報之公開文件**，非尚立公司自身之揭露；本批次未取得尚立（3360）自身可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「與 Sony 之 CIS 供應／代理關係」獲**第三人官方申報文件**支持：深圳證券交易所公開文件載「報告期內，發行人向**尚立（香港）股份有限公司**採購的 **CMOS 圖像傳感器**價格係由影石創新與**日本索尼（Sony）**根據需求量協商確定…並直接與日本索尼（Sony）的**代理（商）**（…）」，顯示尚立（香港）處於 Sony CMOS 影像感測器之供應／代理環節。惟「為**最大供應商**」未獲支持：該文件未載尚立於 Sony 代理體系中之排名，本批次亦未取得尚立（3360）自身可檢視之官方文件。故部分成立（並註記：本件為第三人於交易所申報之公開文件，非尚立自身揭露）。",
+      "proposed_text": "尚立 (3360) 透過尚立（香港）從事 Sony CMOS 影像感測器 (CIS) 之供應／代理業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3483:objective_ranking_or_market_share:eb582bc6e017b55f",
+      "normalized_claim_hash": "eb582bc6e017b55fa30d99d28db866ed1e7264e2e82975624b676e9c1460816a",
+      "ticker": "3483",
+      "company": "力致",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3483_力致.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在筆記型電腦 (NB) 風扇市場擁有極高市佔率，為主要獲利來源。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/348320250819M001.pdf",
+          "title": "力致科技股份有限公司（力致，3483，Forcecon）法人說明會簡報（2025-08-19）",
+          "source_level": 3,
+          "period_binding": "2025年8月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報「我們的優勢」頁載「350+ 工程師」「先進實驗室與設備」「客製化散熱解決方案提供」「**筆電風扇市佔率最高**」「100M+ 出貨紀錄」「從IC協力設計到量產」「許多Tier-1認證」「氣冷到水冷」「消費性電子、伺服器、AI系統解決方案」，並列產品「風扇 Cooling Fan」與「結合風扇、熱管、均溫板、水冷」（「散熱」10次、「風扇」7次、「筆電」1次、「市佔」1次）。"
+        }
+      ],
+      "rationale": "claim 之核心陳述獲發行人簡報直接支持：2025年官方簡報「我們的優勢」頁明載「**筆電風扇市佔率最高**」，與 claim 之「在筆記型電腦 (NB) 風扇市場擁有極高市佔率」對應（官方用語「市佔率最高」之強度高於 claim 之「極高」）；簡報並載其產品為「風扇 Cooling Fan」及「結合風扇、熱管、均溫板、水冷」之散熱解決方案，且列「消費性電子、伺服器、AI系統解決方案」，支持散熱風扇為其核心業務（「散熱」10次、「風扇」7次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3702:objective_ranking_or_market_share:c5f8ff6dd3f3b9ef",
+      "normalized_claim_hash": "c5f8ff6dd3f3b9eff957261612ffdaf20fd403777cd253663dd6b70980223a3c",
+      "ticker": "3702",
+      "company": "大聯大",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3702_大聯大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[世平]]** — 半導體通路 (大聯大最大子公司)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.wpgholdings.com/uploads/files/ir/FY2022_Annual_ReportCH_rev2.pdf",
+          "title": "大聯大投資控股股份有限公司（大聯大，3702，WPG Holdings）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-08",
+          "note": "同批已檢視之大聯大2022年度年報：「世平」出現35次、「WPI」18次，支持世平興業為其集團成員並從事半導體通路業務。全份年報中「最大子公司」出現次數為0。"
+        }
+      ],
+      "rationale": "「世平為大聯大集團之半導體通路子公司」獲發行人年報支持：2022年度年報中「世平」出現35次、「WPI」18次，支持世平興業為其集團成員並從事半導體通路業務。惟「為**最大子公司**」未獲支持：全份年報中「最大子公司」出現次數為0，未以該語描述世平於集團內之規模地位。故部分成立。",
+      "proposed_text": "世平興業（WPI）為大聯大投資控股 (3702) 集團旗下之半導體通路事業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5434:objective_ranking_or_market_share:a062e5f5b5b17bbb",
+      "normalized_claim_hash": "a062e5f5b5b17bbb45d873ac933c56c7bc647bdfa0646f3024710d2497397680",
+      "ticker": "5434",
+      "company": "崇越",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/5434_崇越.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶，供應先進製程所需之光阻、矽晶圓等關鍵材料。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.topco-global.com/wp-content/uploads/2025/05/ANNUAL-113CHN.pdf",
+          "title": "崇越科技股份有限公司（崇越，5434，TOPCO Scientific）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其業務涵蓋**光阻**（15次）、**矽晶圓**（14次）與**先進製程**（12次）相關材料之代理與服務，支持其供應先進製程所需關鍵材料。全份年報中「最大客戶」出現次數為0，未載客戶排名或集中度。"
+        }
+      ],
+      "rationale": "「供應先進製程所需之光阻、矽晶圓等關鍵材料」獲發行人年報支持：113年度年報中「**光阻**」出現15次、「**矽晶圓**」14次、「**先進製程**」12次，支持其供應先進製程關鍵材料之業務定位。惟「**最大客戶**」未獲支持：全份年報中「最大客戶」出現次數為0，未載客戶排名或客戶集中度。故部分成立。",
+      "proposed_text": "崇越科技 (5434，TOPCO Scientific) 供應先進製程所需之光阻、矽晶圓等關鍵材料。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6227:objective_ranking_or_market_share:43389475739d47d9",
+      "normalized_claim_hash": "43389475739d47d9a0e4ccab19d778aebbb6d250edccc39f369b0129e3901d21",
+      "ticker": "6227",
+      "company": "茂綸",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/6227_茂綸.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "作為日本第一大半導體通路商[[Macnica]]集團的成員，茂綸主要代理國際大廠(如[[Intel]], [[NVIDIA]], [[Renesas]])的高階通訊及運算晶片。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.macnica.com/content/dam/macnicagwi/apac/galaxy/public/zh_tw/downloads/investors/corporate-governance/financials/shareholders-meeting-information/3.2024_6227_%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf.macnicadownload.pdf/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1",
+          "title": "茂綸股份有限公司（茂綸，6227，Macnica Galaxy）股東會年報（2024）",
+          "source_level": 3,
+          "period_binding": "2024年刊印；所載財務數據年度請見文件。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方（母集團 Macnica）網域下載並以 PDF 文字檢視。年報載其與 **Macnica** 集團之關係（「Macnica」22次）及代理業務（「代理」106次），並見「**NVIDIA**」4次、「**Renesas**」4次、「**Intel**」1次，支持其代理國際大廠高階通訊及運算晶片。全份年報中「日本第一大」出現次數為0。"
+        }
+      ],
+      "rationale": "「為 Macnica 集團成員並代理國際大廠高階通訊及運算晶片」獲發行人年報支持：年報載其與 **Macnica** 集團之關係（「Macnica」22次）及代理業務（「代理」106次），並見「**NVIDIA**」4次、「**Renesas**」4次、「**Intel**」1次，與 claim 所列代理品牌及產品領域相符。惟「為**日本第一大半導體通路商** Macnica 集團的成員」中之「日本第一大」地位未獲支持：全份年報中「日本第一大」出現次數為0（該描述係就母集團之市場地位而言，本件未載）。故部分成立。",
+      "proposed_text": "茂綸 (6227，Macnica Galaxy) 為 Macnica 集團成員，代理 Intel、NVIDIA、Renesas 等國際大廠之高階通訊及運算晶片。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8070:objective_ranking_or_market_share:db178e56e65db8b1",
+      "normalized_claim_hash": "db178e56e65db8b1ecaf3f621d302bcaeaaa4578bb85711a6c4080ca0f045b7a",
+      "ticker": "8070",
+      "company": "長華",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/8070_長華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) [[導線架]] (約佔營收 51%) — 透過子公司[[長華科技]] (長科，6548) 自主製造金屬導線架，為台灣主要供應商之一，國內市佔率約 33%；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cwei.com.tw/files/downloads/year-reports/tw/2018.pdf",
+          "title": "長華電材股份有限公司（長華，8070，Chang Wah Electromaterials）2018 年度年報",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國105至107年度；年報刊印於108年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其「整併日商**住友**導線架業務，經由併購和提升研發實力，成為**全球第三大導線架廠**」，並見「導線架」46次、「封膠」19次、「EMC」2次，支持其導線架與封膠樹脂（EMC）業務。惟須更正數字歸屬：全份年報中「**51%**」唯一命中為**員工學歷分布之高中比率（51%）**；「**28%**」唯一命中為財務結構表「長期資金佔不動產、廠房及設備比率 **8,028%**」之子字串；「**33%**」唯一命中為「瑞康投資(股)公司(**4.33%**)」之持股比例；「**67%**」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%）。另「市佔」5次之上下文均為台灣半導體產業整體（如「台灣晶圓代工產值全球排名第一，市佔率約七成」），非該公司自身市占率。"
+        }
+      ],
+      "rationale": "「透過子公司長華科技自主製造金屬導線架」獲發行人年報支持：2018年度年報載其「整併日商**住友**導線架業務，經由併購和提升研發實力，成為**全球第三大導線架廠**」，且「導線架」出現46次，支持其導線架業務與製造能力。惟多項數字未獲支持或須更正：(1)「約佔營收 **51%**」——「51%」唯一命中為**員工學歷分布之高中比率（51%）**；(2)「國內市佔率約 **33%**」——「33%」唯一命中為「瑞康投資(股)公司(4.33%)」之**持股比例**；「市佔」5次之上下文均為**台灣半導體產業整體**（如「台灣晶圓代工產值全球排名第一，市佔率約七成」），非該公司自身市占率。故部分成立。",
+      "proposed_text": "長華電材 (8070，Chang Wah Electromaterials) 透過整合日商住友導線架業務經營金屬導線架事業，並為全球第三大導線架廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8070:objective_ranking_or_market_share:ab0adc7ddd6d83f3",
+      "normalized_claim_hash": "ab0adc7ddd6d83f35d9e53eafd023ac92b22edcdb6d971d8b9e627e2c717d0b3",
+      "ticker": "8070",
+      "company": "長華",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/8070_長華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 封膠樹脂 (約佔營收 28%) — 代理[[住友培科]]之環氧樹脂封裝材料 ([[EMC]])，國內市佔率高達 67%，適用於次世代 [[2.5D 封裝]]、[[3D 封裝]] 應用；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cwei.com.tw/files/downloads/year-reports/tw/2018.pdf",
+          "title": "長華電材股份有限公司（長華，8070，Chang Wah Electromaterials）2018 年度年報",
+          "source_level": 3,
+          "period_binding": "所載財務數據為民國105至107年度；年報刊印於108年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其「整併日商**住友**導線架業務，經由併購和提升研發實力，成為**全球第三大導線架廠**」，並見「導線架」46次、「封膠」19次、「EMC」2次，支持其導線架與封膠樹脂（EMC）業務。惟須更正數字歸屬：全份年報中「**51%**」唯一命中為**員工學歷分布之高中比率（51%）**；「**28%**」唯一命中為財務結構表「長期資金佔不動產、廠房及設備比率 **8,028%**」之子字串；「**33%**」唯一命中為「瑞康投資(股)公司(**4.33%**)」之持股比例；「**67%**」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%）。另「市佔」5次之上下文均為台灣半導體產業整體（如「台灣晶圓代工產值全球排名第一，市佔率約七成」），非該公司自身市占率。"
+        }
+      ],
+      "rationale": "「代理住友培科之環氧樹脂封裝材料 (EMC)」獲發行人年報支持：年報中「**住友**」出現7次、「**封膠**」19次、「**EMC**」2次，並列「IC封裝 封膠樹酯(EME)」為主要商品，支持其封膠樹脂（封裝材料）業務。惟多項數字未獲支持或須更正：(1)「約佔營收 **28%**」——「28%」唯一命中為財務結構表「長期資金佔不動產、廠房及設備比率 **8,028%**」之子字串；(2)「國內市佔率**高達 67%**」——「67%」3次之上下文分別為**董事實際出席率67%**與法人股東持股比例（如95.67%），均非市場占有率。故部分成立。",
+      "proposed_text": "長華電材 (8070) 代理住友培科之環氧樹脂封裝材料（EMC／封膠樹脂），應用於 IC 封裝。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
