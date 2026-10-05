@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 23:04 UTC
+Updated: 2026-10-15 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,222 / 1,399**
-- Remaining author review: **177**
-- Latest batch: **author-239** (6 claims)
+- Author-reviewed: **1,228 / 1,399**
+- Remaining author review: **171**
+- Latest batch: **author-240** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **760**
+- `PARTIALLY_SUPPORTED`: **762**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **354**
+- `UNKNOWN_AFTER_RESEARCH`: **358**
 
 ## Latest claim batch
 
-- `2354:material_named_relationship:8d538674a3923948` — `PARTIALLY_SUPPORTED`；鴻準年報載「【消費性電子產品(**遊戲機**)系統**組裝**】」（**遊戲機 34 次、組裝 17 次**）；**惟「任天堂／Nintendo／Switch／Apple」皆 0 次**。
-- `6150:material_named_relationship:0112c8a5be3447d0` — `PARTIALLY_SUPPORTED`；撼訊簡報「**AMD」8 次、「顯示卡」2 次**；**惟「全球／前列」與「主要供應商之一」未獲支持**。
-- `1472:identity_changing_event:ead6a8ddf3696763` — `PARTIALLY_SUPPORTED`；三洋實業簡報「**營造」6 次、「甲級」2 次、「更名」1 次**；**惟「上騰／政府標案」皆 0 次**。
-- `3528:profitability_assertion:90c59cc187b13900` — `UNKNOWN_AFTER_RESEARCH`；安馳簡報為**英文版**，「**工業／國防／醫療／測試／利基」皆 0 次**。
-- `6473:447f7733d52280f2`、`6908:fd2c6df51c194b44` — `UNKNOWN_AFTER_RESEARCH` ×2；美賣與宏碁遊戲端點 **HTTP 404**。
-- ⚠️ 附帶發現：`6908` 之 **company 欄位在來源佇列中為亂碼（「宏�砦C戲」）**，本審核以 ticker 為準並已標示該來源資料編碼瑕疵。
-- 證據記錄於 `semantic/author-239.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,222 ＝ 條目總數 1,222。
-- Next pending claim by priority: `2404:material_named_relationship:c9fafe0c318e0dc0` (漢唐).
+- `2404:material_named_relationship:c9fafe0c318e0dc0` — `PARTIALLY_SUPPORTED`；漢唐簡報「**台積電」15 次、「Micron」10 次、「新加坡」4 次**（ESG亦同）；**惟「ASML」0 次**。
+- `5536:material_named_relationship:77eb22555b4e78ed` — `PARTIALLY_SUPPORTED`；聖暉年報**逐字載**「歷年來承攬**矽品、日月光、台積電**、台達電及台灣康寧等知名（廠商）」（台積電2次、日月光1次、**無塵室 42 次、機電 66 次**）；**惟「核心客戶」之排序性表述未見**。
+- `9945:material_named_relationship:62688d7d62c26d93` — `UNKNOWN_AFTER_RESEARCH`；潤泰新簡報「**中鋼／鋼筋／供應商」皆 0 次**。
+- `9906:material_named_relationship:62688d7d62c26d93` — `UNKNOWN_AFTER_RESEARCH`；未取得欣巴巴文件。**併同發現：本筆與 9945 之 normalized_claim_hash 完全相同——同一 claim 文本被掛在兩個 ticker 上**。
+- `5263:aa07cffc342c44f5`、`9950:f674c7866ea25891` — `UNKNOWN_AFTER_RESEARCH` ×2；智崴與萬國通端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-240.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,228 ＝ 條目總數 1,228。
+- Next pending claim by priority: `1558:profitability_assertion:be4566041628db44` (伸興).
 
 ## Source access
 

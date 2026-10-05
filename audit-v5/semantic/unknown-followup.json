@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:56:57Z",
+  "generated_at": "2026-10-05T22:59:04Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -242,17 +242,18 @@
     "author-236",
     "author-237",
     "author-238",
-    "author-239"
+    "author-239",
+    "author-240"
   ],
-  "source_batch_count": 239,
-  "total_unknown": 354,
+  "source_batch_count": 240,
+  "total_unknown": 358,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 152,
-    "other_unclassified": 135,
+    "no_official_endpoint_found": 154,
+    "other_unclassified": 137,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 81,
+    "http_404": 83,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5433,6 +5434,64 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/690820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "9945:material_named_relationship:62688d7d62c26d93",
+      "ticker": "9945",
+      "company": "潤泰新",
+      "claim": "[[中鋼]]（鋼筋主要供應商）",
+      "batch_id": "author-240",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/994520250711M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "9906:material_named_relationship:62688d7d62c26d93",
+      "ticker": "9906",
+      "company": "欣巴巴",
+      "claim": "[[中鋼]]（鋼筋主要供應商）",
+      "batch_id": "author-240",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/990620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5263:material_named_relationship:aa07cffc342c44f5",
+      "ticker": "5263",
+      "company": "智崴",
+      "claim": "主要客戶包括 [[Merlin Entertainments]] 旗下 [[LEGOLAND]]、阿布達比 [[Ferrari World]]、台灣[[義大世界]]等。",
+      "batch_id": "author-240",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/526320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "9950:material_named_relationship:f674c7866ea25891",
+      "ticker": "9950",
+      "company": "萬國通",
+      "claim": "[[TSA]] 認證密碼鎖及鋁合金拉桿系統供應商",
+      "batch_id": "author-240",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/995020250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

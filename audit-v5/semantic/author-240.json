@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-240",
+  "reviewed_at": "2026-10-05T22:58:50Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (漢唐2025法說會與2024永續報告書; 聖暉108年度年報; 潤泰新2025法說會); 智崴與萬國通端點HTTP 404; 欣巴巴未取得文件",
+  "items": [
+    {
+      "claim_id": "2404:material_named_relationship:c9fafe0c318e0dc0",
+      "normalized_claim_hash": "c9fafe0c318e0dc01bf8feb86a2d82da33db23fbcb9f48758d1d2e721ba84954",
+      "ticker": "2404",
+      "company": "漢唐",
+      "path": "Pilot_Reports/Engineering & Construction/2404_漢唐.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心客戶為 [[台積電]]，同時服務 [[Micron]]新加坡廠、[[ASML]] 及 [[聯發科]] 等。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/240420250619M001.pdf",
+          "title": "漢唐集成股份有限公司（漢唐，2404，United Integrated Services）法人說明會簡報（2025-06-19）",
+          "source_level": 3,
+          "period_binding": "2025年6月19日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取16,444字元，以圖形排版為主）。簡報中「**台積電**」出現15次（如「**台積電**三廠」「**台積電**四廠」）、「**Micron**」10次（如「●**Micron Falcon A**」）、「**新加坡**」4次，**支持其與台積電及 Micron 新加坡廠之工程承攬關係**；另查其2024年永續報告書（文字擷取68,137字元）亦見「台積電」3次、「**Micron**」6次、「新加坡」1次。**關鍵發現**：**兩份文件中「ASML」之出現次數均為0**。"
+        }
+      ],
+      "rationale": "「核心客戶為 [[台積電]]，同時服務 [[Micron]] **新加坡廠**」獲發行人簡報**逐字支持**：簡報中「**台積電**」15次（如「**台積電**三廠」「**台積電**四廠」）、「**Micron**」10次（如「●**Micron Falcon A**」）、「**新加坡**」4次，其2024年永續報告書亦同（台積電3次、Micron 6次）。**惟「[[ASML]]」未獲支持**——**兩份文件中「ASML」之出現次數均為0**。故部分成立。",
+      "proposed_text": "漢唐集成 (2404，United Integrated Services) 之核心客戶包含台積電，並服務 Micron 新加坡廠等半導體客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5536:material_named_relationship:77eb22555b4e78ed",
+      "normalized_claim_hash": "77eb22555b4e78ed50efd2a0244aaa617066ef1937131e9649b6842802abd974",
+      "ticker": "5536",
+      "company": "聖暉",
+      "path": "Pilot_Reports/Engineering & Construction/5536_聖暉.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心客戶包括 [[台積電]]（無塵室與機電工程）、[[日月光半導體]]（封測廠機電）等半導體大廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acter.com.tw/investors/shareholder-service/annual/download/x9/annual_report_108.pdf",
+          "title": "聖暉工程科技股份有限公司（聖暉，5536，Acter）一○八年度年報",
+          "source_level": 3,
+          "period_binding": "民國108年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取274,067字元）。年報載「（技）術與實務進行整合，歷年來承攬**矽品、日月光、台積電**、台達電及台灣康寧等知名（廠商）」（「**台積電**」2次、「**日月光**」1次），並見「**無塵室**」42次、「**機電**」66次，**支持其客戶名單與無塵室／機電工程業務**。**關鍵發現**：全份年報中「**ASML**」之出現次數**為0**；「**核心客戶**」之排序性表述亦未見（年報所述為「歷年來承攬…等知名廠商」）。"
+        }
+      ],
+      "rationale": "「**[[台積電]]**（**無塵室**與**機電**工程）、**[[日月光半導體]]**（封測廠機電）等半導體（客戶）」獲發行人年報**逐字支持**：年報載「歷年來承攬**矽品、日月光、台積電**、台達電及台灣康寧等知名（廠商）」（「**台積電**」2次、「**日月光**」1次），並見「**無塵室**」42次、「**機電**」66次，**充分支持其客戶名單與無塵室／機電工程業務**。**惟「核心客戶」之排序性表述未獲支持**——年報所述為「歷年來承攬…等**知名廠商**」，**未載其為核心或主要客戶**。故部分成立。",
+      "proposed_text": "聖暉工程 (5536，Acter) 承攬台積電、日月光、矽品等半導體廠之無塵室與機電工程。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9945:material_named_relationship:62688d7d62c26d93",
+      "normalized_claim_hash": "62688d7d62c26d93f1379cf3fb70b3dc69f2d4722c009b1702b8cded4bf85614",
+      "ticker": "9945",
+      "company": "潤泰新",
+      "path": "Pilot_Reports/Engineering & Construction/9945_潤泰新.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中鋼]]（鋼筋主要供應商）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/994520250711M001.pdf",
+          "title": "潤泰創新國際股份有限公司（潤泰新，9945，Ruentex Development）法人說明會簡報（2025-07-11）",
+          "source_level": 3,
+          "period_binding": "2025年7月11日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取14,076字元，以圖形排版為主）。**關鍵發現**：全份簡報中「**中鋼**」「**鋼筋**」與「供應商」之出現次數**均為0**——**未具名該供應商**。"
+        }
+      ],
+      "rationale": "「[[中鋼]]（**鋼筋主要供應商**）」未獲確立：所取得之潤泰新2025年法人說明會簡報中「**中鋼**」「**鋼筋**」與「供應商」之出現次數**均為0**，**未具名該供應商**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9906:material_named_relationship:62688d7d62c26d93",
+      "normalized_claim_hash": "62688d7d62c26d93f1379cf3fb70b3dc69f2d4722c009b1702b8cded4bf85614",
+      "ticker": "9906",
+      "company": "欣巴巴",
+      "path": "Pilot_Reports/Engineering & Construction/9906_欣巴巴.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中鋼]]（鋼筋主要供應商）",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/990620250401M001.pdf",
+          "title": "欣巴巴事業股份有限公司（欣巴巴，9906）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次未就欣巴巴取得可檢視之官方文件（**本批次之搜尋與下載集中於同一 claim 之另一標的 9945**）。**併同發現**：**`9906:62688d7d62c26d93` 與 `9945:62688d7d62c26d93` 之 normalized_claim_hash 相同**——**即同一筆 claim 文本被同時掛在兩個不同 ticker 上**，此一來源佇列之重複歸屬情形已於本紀錄標示，供複核者確認其歸屬是否正確。"
+        }
+      ],
+      "rationale": "「[[中鋼]]（**鋼筋主要供應商**）」未獲確立：本批次未就欣巴巴取得可檢視之官方文件。**併同發現**：**本筆與 `9945:62688d7d62c26d93` 之 normalized_claim_hash 完全相同**——**即同一筆 claim 文本被同時掛在欣巴巴（9906）與潤泰新（9945）兩個 ticker 上**；本審核已分別以各該 ticker 審視，**該重複歸屬情形已於紀錄中標示，供複核者確認其歸屬**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5263:material_named_relationship:aa07cffc342c44f5",
+      "normalized_claim_hash": "aa07cffc342c44f5b8bfcf53f21514020025ae4cf2c0a72655537f30af8ac7ff",
+      "ticker": "5263",
+      "company": "智崴",
+      "path": "Pilot_Reports/Entertainment/5263_智崴.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶包括 [[Merlin Entertainments]] 旗下 [[LEGOLAND]]、阿布達比 [[Ferrari World]]、台灣[[義大世界]]等。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/526320250401M001.pdf",
+          "title": "智崴資訊（5263）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之智崴資訊端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得智崴資訊可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶包括 [[Merlin Entertainments]] 旗下 [[LEGOLAN（D）]]」未獲確立：本批次所嘗試之智崴端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9950:material_named_relationship:f674c7866ea25891",
+      "normalized_claim_hash": "f674c7866ea258918e06311b4081867ae198bd3125fd7aa4f2f5df78a0784fa5",
+      "ticker": "9950",
+      "company": "萬國通",
+      "path": "Pilot_Reports/Footwear & Accessories/9950_萬國通.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[TSA]] 認證密碼鎖及鋁合金拉桿系統供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/995020250401M001.pdf",
+          "title": "萬國通路（9950）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之萬國通路端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得萬國通路可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[TSA]] 認證**密碼鎖**及**鋁合金拉桿**系統供應商」未獲確立：本批次所嘗試之萬國通端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
