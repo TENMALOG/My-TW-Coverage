@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-180",
+  "reviewed_at": "2026-10-05T21:39:05Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (達新法人說明會簡報; 宏太法人說明會簡報; 如興民國113年法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "1315:material_named_relationship:c0ee757c6cd7ab74",
+      "normalized_claim_hash": "c0ee757c6cd7ab74208f00d47e426ebf99ff2c329e8428219f91051520c48365",
+      "ticker": "1315",
+      "company": "達新",
+      "path": "Pilot_Reports/Apparel Manufacturing/1315_達新.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台塑]]、[[南亞塑膠]] — PVC 及塑膠粒主要供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/131520241212M001.pdf",
+          "title": "達新工業股份有限公司（達新，1315，Tahhsin Industrial）法人說明會簡報（2024-12-12）",
+          "source_level": 3,
+          "period_binding": "2024年12月12日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,613字元，以圖形排版為主）。簡報中「**PVC**」出現1次、「南亞」1次。**關鍵發現**：該兩次出現之上下文**均非供應商關係**——「**PVC**」之上下文為產品線（「PET、**PVC**及壓克力板等資材輸入販售」），「**南亞**」之上下文為**投資**（「本公司截至目前取得**南亞股票**累積持有股數32,140張，金額為10億9,437萬元」）。全份簡報中「**台塑**」「**塑膠粒**」與「**供應商**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「從事 [[PVC]] 相關資材之販售」獲發行人簡報之部分支持：簡報載「PET、**PVC**及壓克力板等資材輸入販售」。**惟兩項陳述未獲支持，且其中一項為關係錯置**：(1)「[[南亞塑膠]]為其主要供應商」——簡報中「**南亞**」1次之上下文為**投資**（「本公司截至目前取得**南亞股票**累積持有股數32,140張」），**並非供應商關係**；(2)「[[台塑]]」與「**塑膠粒**」之出現次數**均為0**，「供應商」亦為0。故部分成立。",
+      "proposed_text": "達新工業 (1315，Tahhsin Industrial) 從事 PVC 等資材之輸入販售。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2924:identity_changing_event:bdc91f7aaff60bfd",
+      "normalized_claim_hash": "bdc91f7aaff60bfd4c94fc26b3bfb7c35ca09d18d818620b9fbcd81c44fe83ab",
+      "ticker": "2924",
+      "company": "宏太-KY",
+      "path": "Pilot_Reports/Apparel Manufacturing/2924_宏太-KY.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏太國際 (2924，Cayman Hongtai，原名東凌) 成立於 1988 年，2023 年更名為宏太-KY。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/292420201127M001.pdf",
+          "title": "宏太國際股份有限公司（宏太-KY，2924，Cayman Hongtai）法人說明會簡報（2020-11-27）",
+          "source_level": 3,
+          "period_binding": "2020年11月27日。**早於 claim 所述之2023年更名事件**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,705字元，以圖形排版為主）。簡報中「**東凌**」出現6次、「**1988**」2次、「**Cayman**」2次，支持其原名與註冊地及成立年分之敘述。全份簡報中「**宏太**」「**2023**」與「更名」之出現次數**均為0**——**該簡報為2020年版本，早於 claim 所述之2023年更名事件**。"
+        }
+      ],
+      "rationale": "「原名**東凌**，註冊於**開曼**，成立於 **1988** 年」獲發行人簡報支持：簡報中「**東凌**」6次、「**1988**」2次、「**Cayman**」2次。惟「（2924，Cayman **宏太**）…**2023 年更名為宏太-KY**」未獲支持：「**宏太**」「**2023**」與「更名」之出現次數**均為0**。故部分成立。**時點註記**：該簡報為 **2020 年**版本，**早於** claim 所述之2023年更名事件。",
+      "proposed_text": "宏太-KY (2924，Cayman Hongtai) 原名東凌，註冊於開曼群島，成立於1988年。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4414:material_named_relationship:1784fcab0b4355b8",
+      "normalized_claim_hash": "1784fcab0b4355b8b216bc5778397d07acf030e7858093c907f87fecb83eda83",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Apparel Manufacturing/4414_如興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[Levi's]]、[[GAP]]、[[Calvin Klein]] Jeans 等全球牛仔品牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/441420241224M001.pdf",
+          "title": "如興股份有限公司（如興，4414，Roo Hsing）民國113年法人說明會簡報（2024-12-24）",
+          "source_level": 3,
+          "period_binding": "民國113年（2024年）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,380字元，以圖形排版為主）。簡報載「全球**牛仔**成衣領導廠商」，並載**前五大客戶營收占比**（「前五大客戶占比持續上升」）——**2024年1-11月**：「**WalMart** 31%」「**LEVI'S** 26%」「**GAP** 19%」「GU 15%」「TCP 4%」「其他 5%」；**2023年1-11月**：「WalMart 32%」「**LEVI'S** 27%」「**GAP** 14%」「GU 13%」「TCP 4%」。**該表逐字支持 LEVI'S 與 GAP 為其主要客戶**（「客戶」8次）。**關鍵發現**：全份簡報中「**Calvin**」與「**Klein**」之出現次數**均為0**——未列於前五大客戶。另註記：**該公司之公開說明書（roohsing.com）文字層為亂碼**（如「Ȑ5ȑ Ӣᔈ࠼ЊThe Gap, Inc.」），惟英文公司名可辨識。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 [[Levi's]] 與 [[GAP]] 等全球[[牛仔]]品牌」獲發行人簡報**逐字支持**：簡報載「全球**牛仔**成衣領導廠商」與**前五大客戶營收占比**表——2024年1-11月「**LEVI'S** 26%」「**GAP** 19%」，2023年1-11月「**LEVI'S** 27%」「**GAP** 14%」，**兩者均明列為前五大客戶**。惟「[[Calvin Klein]] Jeans」未獲支持：「**Calvin**」與「**Klein**」之出現次數**均為0**——未列於前五大客戶（前五大為 WalMart、LEVI'S、GAP、GU、TCP）。故部分成立。",
+      "proposed_text": "如興 (4414，Roo Hsing) 為全球牛仔成衣領導廠商，主要客戶涵蓋 Levi's、GAP、WalMart 等品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4414:material_named_relationship:d5be7e550754288b",
+      "normalized_claim_hash": "d5be7e550754288b3c2f5f6122b83ea082943defda58b7e415c11a2be5b682f0",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Apparel Manufacturing/4414_如興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Levi's]] — 主要客戶；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/441420241224M001.pdf",
+          "title": "如興股份有限公司（如興，4414，Roo Hsing）民國113年法人說明會簡報（2024-12-24）",
+          "source_level": 3,
+          "period_binding": "民國113年（2024年）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,380字元，以圖形排版為主）。簡報載「全球**牛仔**成衣領導廠商」，並載**前五大客戶營收占比**（「前五大客戶占比持續上升」）——**2024年1-11月**：「**WalMart** 31%」「**LEVI'S** 26%」「**GAP** 19%」「GU 15%」「TCP 4%」「其他 5%」；**2023年1-11月**：「WalMart 32%」「**LEVI'S** 27%」「**GAP** 14%」「GU 13%」「TCP 4%」。**該表逐字支持 LEVI'S 與 GAP 為其主要客戶**（「客戶」8次）。**關鍵發現**：全份簡報中「**Calvin**」與「**Klein**」之出現次數**均為0**——未列於前五大客戶。另註記：**該公司之公開說明書（roohsing.com）文字層為亂碼**（如「Ȑ5ȑ Ӣᔈ࠼ЊThe Gap, Inc.」），惟英文公司名可辨識。"
+        }
+      ],
+      "rationale": "「[[Levi's]] — 主要客戶」獲發行人簡報**逐字支持**：簡報之「**前五大客戶營收占比**」表明列「**LEVI'S** 27%」（2023年1-11月）與「**LEVI'S** 26%」（2024年1-11月），**確認其為前五大客戶**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4414:material_named_relationship:4b8e7b132cec3345",
+      "normalized_claim_hash": "4b8e7b132cec3345f0ed7745fa88150880b5b84d9d49cd1423edc9a5034a5845",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Apparel Manufacturing/4414_如興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[GAP]] — 主要客戶；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/441420241224M001.pdf",
+          "title": "如興股份有限公司（如興，4414，Roo Hsing）民國113年法人說明會簡報（2024-12-24）",
+          "source_level": 3,
+          "period_binding": "民國113年（2024年）。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,380字元，以圖形排版為主）。簡報載「全球**牛仔**成衣領導廠商」，並載**前五大客戶營收占比**（「前五大客戶占比持續上升」）——**2024年1-11月**：「**WalMart** 31%」「**LEVI'S** 26%」「**GAP** 19%」「GU 15%」「TCP 4%」「其他 5%」；**2023年1-11月**：「WalMart 32%」「**LEVI'S** 27%」「**GAP** 14%」「GU 13%」「TCP 4%」。**該表逐字支持 LEVI'S 與 GAP 為其主要客戶**（「客戶」8次）。**關鍵發現**：全份簡報中「**Calvin**」與「**Klein**」之出現次數**均為0**——未列於前五大客戶。另註記：**該公司之公開說明書（roohsing.com）文字層為亂碼**（如「Ȑ5ȑ Ӣᔈ࠼ЊThe Gap, Inc.」），惟英文公司名可辨識。"
+        }
+      ],
+      "rationale": "「[[GAP]] — 主要客戶」獲發行人簡報**逐字支持**：簡報之「**前五大客戶營收占比**」表明列「**GAP** 14%」（2023年1-11月）與「**GAP** 19%」（2024年1-11月），**確認其為前五大客戶**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

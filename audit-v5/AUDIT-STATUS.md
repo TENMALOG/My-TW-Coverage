@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 11:04 UTC
+Updated: 2026-10-12 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **960 / 1,399**
-- Remaining author review: **439**
-- Latest batch: **author-179** (2 claims)
+- Author-reviewed: **965 / 1,399**
+- Remaining author review: **434**
+- Latest batch: **author-180** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **625**
+- `ACCEPTED`: **94**
+- `PARTIALLY_SUPPORTED`: **628**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `4558:material_named_relationship:bd9a41e2bb96675f` — `PARTIALLY_SUPPORTED`；寶緯簡報載「**進入半導體產業供應鏈**」「**-半導體軌道**」（半導體4次、軌道2次、鋁擠3次）；惟「**無塵室」0 次、「天車」0 次、「台積電」0 次**。
-- `6175:material_named_relationship:08af81112ac77be6` — `PARTIALLY_SUPPORTED`；立敦**英文年報**「**foil」153 次、「etch」37 次**支持電蝕鋁箔業務；惟「**Sunshine／Dongyang／joint venture／self-supply」皆 0 次**（未載東陽光合資關係與自給率）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-179.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `1315:material_named_relationship:c0ee757c6cd7ab74` (達新).
+- `1315:material_named_relationship:c0ee757c6cd7ab74` — `PARTIALLY_SUPPORTED`；達新簡報「PVC」1次為**產品線**；**「南亞」1次之上下文為「取得南亞股票」（投資），非供應商關係**；「台塑」「塑膠粒」「供應商」皆0次。
+- `2924:identity_changing_event:bdc91f7aaff60bfd` — `PARTIALLY_SUPPORTED`；宏太簡報「**東凌」6 次、「1988」2 次**、「Cayman」2次；惟「宏太」「2023」「更名」皆0次（**該簡報為2020年版本**）。
+- `4414:material_named_relationship:1784fcab0b4355b8` — `PARTIALLY_SUPPORTED`；如興簡報**前五大客戶營收占比表**明列「**LEVI'S 26%**」「**GAP 19%**」；惟「**Calvin／Klein」皆 0 次**。
+- `4414:material_named_relationship:d5be7e550754288b` — `ACCEPTED`；簡報前五大客戶表明列「**LEVI'S 27%／26%**」——**逐字對應**。
+- `4414:material_named_relationship:4b8e7b132cec3345` — `ACCEPTED`；簡報前五大客戶表明列「**GAP 14%／19%**」——**逐字對應**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-180.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `4438:material_named_relationship:71def6e48a4142d5` (廣越).
 
 ## Source access
 
