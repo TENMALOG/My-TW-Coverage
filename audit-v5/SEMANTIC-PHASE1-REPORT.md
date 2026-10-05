@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **468 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), and `author-082` (7).
+Author-reviewed: **476 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), and `author-083` (8).
 
-- ACCEPTED by author: 70
-- PARTIALLY_SUPPORTED: 307
+- ACCEPTED by author: 71
+- PARTIALLY_SUPPORTED: 314
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 87
-- Remaining author queue: 931
+- Remaining author queue: 923
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -971,6 +971,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **87 筆**。
 - Author-reviewed total: **468 / 1,399**; remaining: **931**. Outcome counts: ACCEPTED 70, PARTIALLY_SUPPORTED 307, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 87. Next pending claim by priority: `2885:objective_ranking_or_market_share:3f642a85d15abc7f` (元大金).
+
+## Author batch `author-083` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (元大金 2885 ×2, 勝悅-KY 1340, 志強-KY 6768, 寶成 9904, 豐泰 9910 ×3). Evidence came from directly downloaded and inspected official disclosures: 元大金114年度股東常會議事錄與法人說明會簡報、勝悅公司文件、志強-KY 2022永續報告書、寶成2017年企業社會責任報告、豐泰2023永續報告書。
+- `2885:objective_ranking_or_market_share:3f642a85d15abc7f` 與 `34fa1b47f82e8a61` — `PARTIALLY_SUPPORTED`. 元大金股東常會議事錄載「以股份轉換方式將**元大證券投資信託**股份有限公司納為百分之百持股子公司」（「元大證券」3次、「證券」38次），MOPS 法說會簡報「期貨」3次，支持其證券核心事業之集團架構。惟本批次實際下載之兩份文件中「**市占**」「**13.83**」「**146**」「**148**」「**龍頭**」「**選擇權**」出現次數**均為0**，故「元大證券為台灣證券業龍頭、經紀市占率約13.5%、全台146家分公司」與「元大期貨國內期貨選擇權市占率第一」未獲確立。**註記：搜尋結果摘要曾顯示含「114年經紀業務累計市占率13.83%…站穩業界龍頭地位」之語句並指向同一端點，惟該內容未出現於本批次實際下載之檔案中，依證據政策不得採用。**
+- `1340:objective_ranking_or_market_share:aa0e110f4fff1178` — `PARTIALLY_SUPPORTED`. 勝悅官方文件載「3. 最近兩年度**鞋底**及 **EVO** 顆粒銷售額及營收占比」（「EVO」5次、「雙色」6次、「鞋底」15次）；惟「以**獨家**研發的 EVO 材料聞名」與「曾為**中國最大**雙色鞋底生產企業」未獲支持（「獨家」「中國最大」均為0次）。
+- `6768:objective_ranking_or_market_share:e263c027dd77e13c` — `PARTIALLY_SUPPORTED`. 志強-KY 2022年永續報告書載其「為 **Nike、Adidas、PUMA、ASICS** 等知名品牌代工，為**全球最大的足球鞋供應商**」（「足球鞋」22次、「NIKE」9次、「代工」5次），其地位敘述強度高於 claim；惟「在全球足球鞋代工市場拿下約**兩成市佔率**」未獲支持（「市佔」「兩成」均為0次）。
+- `9904:objective_ranking_or_market_share:675f224ad21d1b3c` — `ACCEPTED`. 寶成2017年企業社會責任報告載「**寶成工業股份有限公司成立於 1969年9月**，全球營運總部位於臺灣臺中市西屯區臺灣大道四段600號」，並載集團成績單「**全球最大製鞋集團**」「2017生產 324.6百萬雙鞋」「2017 **全球市佔率(以批發價格計)** 約佔全球運動鞋及休閒鞋市場批發價格計算之 **20%**」，與 claim 之「成立於1969年」「總部位於台灣台中」「為全球最大的品牌運動鞋與休閒鞋製造商」逐項對應。
+- `9910:objective_ranking_or_market_share:24bbf5f32a0bcc3a`、`da42301dd92043d2`、`e7538ca8506bbc46` — `PARTIALLY_SUPPORTED` ×3. 豐泰2023年永續報告書載「豐泰企業成立於1971年…為主要客戶 **Nike 最資深之製鞋合作夥伴**」，支持其為 Nike 核心製鞋夥伴；惟「六分之一」「**氣墊**」「**Air**」「**研發中心**」「**85%**」之出現次數均為0（「1992」1次係出現於官網導覽選單文字），故「佔 Nike 全球銷售量約六分之一」「唯一授權氣墊 (Air Max) 生產工廠」「1992年共同成立亞洲第一個製鞋研發中心」「Nike 佔營收約85%~90%」均未獲支持。**註記：該永續報告書之文字擷取僅2,388字元，內容多為官網導覽選單，實質敘述有限。**
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **87 筆**。
+- Author-reviewed total: **476 / 1,399**; remaining: **923**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 314, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 87. Next pending claim by priority: `9910:objective_ranking_or_market_share:d6ba6478547062ad` (豐泰).
+
 
 
 
