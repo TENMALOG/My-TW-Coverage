@@ -130,14 +130,25 @@ def _filename_identity(path: Path) -> tuple[str | None, str | None]:
     return match.group(1), match.group(2)
 
 
+def _normalize_identity_label(raw: str) -> str:
+    raw = re.sub(r"\[\[([^\]]+)\]\]", r"\1", raw)
+    raw = raw.replace("*", "")
+    raw = re.sub(r"\s+", " ", raw).strip()
+    return raw
+
+
 def _title_identity(text: str) -> tuple[str | None, str | None]:
-    match = re.search(r"^#\s*(\d{4,6})\s*-\s*(.+?)\s*$", text, flags=re.MULTILINE)
+    heading = re.search(r"^#\s*(.+?)\s*$", text, flags=re.MULTILINE)
+    if not heading:
+        return None, None
+    raw_heading = heading.group(1).strip()
+    if "{" in raw_heading or "}" in raw_heading or "file.replace" in raw_heading:
+        return None, None
+    match = re.fullmatch(r"(\d{4,6})\s*(?:-|_)\s*(.+?)", raw_heading)
     if not match:
         return None, None
     ticker = match.group(1)
-    raw = match.group(2).strip()
-    wiki = re.fullmatch(r"\[\[([^\]]+)\]\]", raw)
-    company = wiki.group(1).strip() if wiki else raw
+    company = _normalize_identity_label(match.group(2))
     return ticker, company
 
 

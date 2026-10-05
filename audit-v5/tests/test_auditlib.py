@@ -41,6 +41,33 @@ class AuditV5Tests(unittest.TestCase):
             self.assertEqual(states["identity.filename_title_match"], "AUTO_VERIFIED")
             self.assertEqual(states["structure.section.財務概況"], "AUTO_VERIFIED")
 
+    def test_scan_accepts_underscore_title(self):
+        report = GOOD_REPORT.replace("# 1304 - 台聚", "# 1304_台聚")
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "1304_台聚.md"
+            path.write_text(report, encoding="utf-8")
+            result = scan_report(path)
+            states = {c.code: c.status for c in result.checks}
+            self.assertEqual(states["identity.filename_title_match"], "AUTO_VERIFIED")
+
+    def test_scan_normalizes_inline_wikilinks_and_footnote_markers(self):
+        report = GOOD_REPORT.replace("# 1304 - 台聚", "# 1304 - [[台]]聚*")
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "1304_台聚.md"
+            path.write_text(report, encoding="utf-8")
+            result = scan_report(path)
+            states = {c.code: c.status for c in result.checks}
+            self.assertEqual(states["identity.filename_title_match"], "AUTO_VERIFIED")
+
+    def test_scan_rejects_template_placeholder_title(self):
+        report = GOOD_REPORT.replace("# 1304 - 台聚", "# {file.replace('.md', '')}")
+        with tempfile.TemporaryDirectory() as td:
+            path = Path(td) / "1304_台聚.md"
+            path.write_text(report, encoding="utf-8")
+            result = scan_report(path)
+            states = {c.code: c.status for c in result.checks}
+            self.assertEqual(states["identity.title"], "IDENTITY_UNRESOLVED")
+
     def test_financial_exact_auto_verifies(self):
         status = financial_auto_verify(
             issuer_match=True, period_match=True, statement_scope_match=True,

@@ -2,12 +2,6 @@ name: Audit v5 full refresh
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - audit-v5
-    paths:
-      - "audit-v5/**"
-      - ".github/workflows/audit-v5-full-refresh.yml"
 
 permissions:
   contents: write
