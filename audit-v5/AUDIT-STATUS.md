@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 12:04 UTC
+Updated: 2026-10-10 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **783 / 1,399**
-- Remaining author review: **616**
-- Latest batch: **author-132** (5 claims)
+- Author-reviewed: **786 / 1,399**
+- Remaining author review: **613**
+- Latest batch: **author-133** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **509**
+- `PARTIALLY_SUPPORTED`: **512**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2108:objective_ranking_or_market_share:2ea49757ee9617b6` — `PARTIALLY_SUPPORTED`；南帝文件逐字載「（本公司為）**前五大NBR 橡膠生產商**」（NBR 27次、丁腈19次）；惟「**12%」1 次實為「0.012%**」，「18萬」「第一大」「台南紡織」皆0次。
-- `4306:objective_ranking_or_market_share:88dab30976986d42` — `PARTIALLY_SUPPORTED`；炎洲CSR「膠帶」78次、「**BOPP」16 次**、「1978」3次；惟「前三大」0次，且「最大」之一為「**目標成為**全球膠帶最大製造廠商」（目標敘述）。
-- `4702:objective_ranking_or_market_share:1977e5e4d2e51aaf` — `PARTIALLY_SUPPORTED`；中美實簡報「分散性染料」1次；惟「1964」「酸性染料」「反應性染料」「最大」「遠東／力麗」皆0次（簡報僅1,583字元）。
-- `4706:objective_ranking_or_market_share:821cbf49841c14fb` — `PARTIALLY_SUPPORTED`；大恭文件（**英文版**）載「Date of Incorporation：**April 20, 1966**」；惟「顏料」「產量」皆0次。
-- `4706:objective_ranking_or_market_share:3755cfeb9bb8b2db` — `UNKNOWN_AFTER_RESEARCH`；文件（英文版）「住化」「住友」「29.28」皆0次，未載股東結構。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-132.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `4707:objective_ranking_or_market_share:940bad081308ace4` (磐亞).
+- `4707:objective_ranking_or_market_share:940bad081308ace4` — `PARTIALLY_SUPPORTED`；磐亞簡報「界面活性劑」4次、「非離子」3次；惟「最大」「中石化」皆0次（簡報僅3,067字元）。
+- `4720:objective_ranking_or_market_share:d3f95d7597dbb5f5` — `PARTIALLY_SUPPORTED`；德淵簡報（**英文版**）「**Hot Melt」5 次**、「adhesive」9次、1976 1次；惟「熱熔膠」「最大」「越南」「印度」「波蘭」中文詞皆0次。
+- `4739:objective_ranking_or_market_share:a8d39b69c3670ca4` — `PARTIALLY_SUPPORTED`；康普100年報「**氧化觸媒」63 次、「PTA」73 次**、「觸媒」89次；惟「市佔」1次係**產業敘述**（「鋰電池市佔率逐年增加」），**非近期版本**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-133.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `4754:objective_ranking_or_market_share:a2cc9eca34a71824` (國碳科).
 
 ## Source access
 

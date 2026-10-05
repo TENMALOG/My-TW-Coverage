@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-133",
+  "reviewed_at": "2026-10-05T20:43:50Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (磐亞法人說明會簡報; 德淵2025投資人簡報英文版; 康普100年度年報)",
+  "items": [
+    {
+      "claim_id": "4707:objective_ranking_or_market_share:940bad081308ace4",
+      "normalized_claim_hash": "940bad081308ace4339d137eb069b9d71248ef2c330480b5cba851bdbf2f1c26",
+      "ticker": "4707",
+      "company": "磐亞",
+      "path": "Pilot_Reports/Specialty Chemicals/4707_磐亞.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "磐亞股份有限公司 (4707，Pan Asia Chemical / PACC) 為台灣最大非離子[[界面活性劑]]製造商，隸屬[[中石化]] (1314) 集團。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/470720250610M002.pdf",
+          "title": "磐亞股份有限公司（磐亞，4707，Pan Asia Chemical Corporation）法人說明會簡報（2025-06-11）",
+          "source_level": 3,
+          "period_binding": "2025年6月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,067字元，以圖形排版為主）。簡報中「**界面活性劑**」出現4次、「**非離子**」3次，支持其非離子界面活性劑業務。全份簡報中「**最大**」與「**中石化**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為非離子[[界面活性劑]]製造商」獲發行人簡報支持：簡報中「**界面活性劑**」出現4次、「**非離子**」3次，支持其該產品業務。惟兩項陳述未獲支持：(1)「為台灣**最大**非離子界面活性劑製造商」——「最大」出現次數為0；(2)「隸屬[[中石化]]（1314）集團」——「中石化」出現次數為0。故部分成立（並註記該簡報文字擷取僅3,067字元，以圖形排版為主）。",
+      "proposed_text": "磐亞 (4707，Pan Asia Chemical Corporation) 從事非離子界面活性劑業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4720:objective_ranking_or_market_share:d3f95d7597dbb5f5",
+      "normalized_claim_hash": "d3f95d7597dbb5f52bbd5094e598ce867abad37ea71331f1fd1201db03361e39",
+      "ticker": "4720",
+      "company": "德淵",
+      "path": "Pilot_Reports/Specialty Chemicals/4720_德淵.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "德淵企業 (4720，TEX YEAR) 為台灣最大熱熔膠製造商 (1976 年成立)，全球 9 座生產基地 (台灣/中國/越南/印度/波蘭)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/472020250826E001.pdf",
+          "title": "德淵企業股份有限公司（德淵，4720，Tex Year Industries）2025 投資人簡報（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年8月28日。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取17,995字元，以圖形排版為主）。簡報載「Tex Year Industries Inc. Stock Code 4720 **2025 Investor Conference**」與「**1976**」（1次），並見「**Hot Melt**」5次、「hot melt」3次、「**adhesive**」9次、「Taiwan」5次、「largest」1次，支持其熱熔膠（Hot Melt）接著劑業務及成立年分。全份簡報中「**熱熔膠**」（中文）與「**最大**」（中文）之出現次數**均為0**；「越南」「印度」「波蘭」與「9座」之中文詞亦為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義；claim 所述之「台灣最大」「全球9座生產基地」等具體斷言，未見於可擷取之文字層。**"
+        }
+      ],
+      "rationale": "「為熱熔膠製造商，成立於 **1976** 年」獲發行人簡報支持：簡報（**英文版**）中「**Hot Melt**」5次、「hot melt」3次、「**adhesive**」9次，並載「**1976**」，支持其熱熔膠接著劑業務與成立年分。惟兩項具體陳述未獲支持：(1)「為**台灣最大**熱熔膠製造商」——中文「熱熔膠」與「最大」均為0次（英文「largest」1次之上下文未見於可擷取敘述）；(2)「全球 **9 座**生產基地（台灣／中國／**越南**／**印度**／**波蘭**）」——「越南」「印度」「波蘭」與「9座」之中文詞均為0（「Taiwan」5次）。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "德淵企業 (4720，Tex Year Industries) 成立於1976年，從事熱熔膠接著劑業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4739:objective_ranking_or_market_share:a8d39b69c3670ca4",
+      "normalized_claim_hash": "a8d39b69c3670ca41f4ea1ee0e0dcdf12b386b3331939ad2438587004bd08f16",
+      "ticker": "4739",
+      "company": "康普",
+      "path": "Pilot_Reports/Specialty Chemicals/4739_康普.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **氧化觸媒**: PTA (純對苯二甲酸) 製程用觸媒，市佔率高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.coremaxcorp.com/uploads/investment/Aunnal_report/100_Aunnal_report.pdf",
+          "title": "康普材料科技股份有限公司（康普，4739，CoreMax Corporation）100 年度年報",
+          "source_level": 3,
+          "period_binding": "民國100年度（2011年）；**非近期版本**。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取186,304字元）。年報載其「主要業務為**氧化觸媒**、先進材料及電池材料之金屬化學產品專業製造商」（「**氧化觸媒**」63次、「**觸媒**」89次、「**PTA**」73次），支持其氧化觸媒（含 PTA 製程用觸媒）業務。全份年報中「**市佔**」1次之上下文為**產業敘述**——「1992 年 Sony 成功將其量產化後，使得**鋰電池市佔率**逐年增加」，**非**本公司 PTA 觸媒之市佔率。"
+        }
+      ],
+      "rationale": "「氧化觸媒：PTA 製程用觸媒」獲發行人年報支持：年報載其「主要業務為**氧化觸媒**、先進材料及電池材料之金屬化學產品專業製造商」（「**氧化觸媒**」63次、「**觸媒**」89次、「**PTA**」73次），支持其氧化觸媒（含 PTA 製程用觸媒）業務。惟「**市佔率高**」未獲支持：全份年報中「**市佔**」1次之上下文為**產業敘述**——「使得**鋰電池市佔率**逐年增加」，**非**本公司 PTA 觸媒之市佔率。故部分成立（並註記該年報為**民國100年度**版本，非近期）。",
+      "proposed_text": "康普材料科技 (4739，CoreMax Corporation) 從事氧化觸媒（含 PTA 製程用觸媒）等金屬化學產品業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
