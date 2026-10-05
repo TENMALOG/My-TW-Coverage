@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 12:04 UTC
+Updated: 2026-10-15 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,302 / 1,399**
-- Remaining author review: **97**
-- Latest batch: **author-252** (6 claims)
+- Author-reviewed: **1,309 / 1,399**
+- Remaining author review: **90**
+- Latest batch: **author-253** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **792**
+- `PARTIALLY_SUPPORTED`: **795**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **400**
+- `UNKNOWN_AFTER_RESEARCH`: **404**
 
 ## Latest claim batch
 
-- `3141:export_concentration:76e50d1e8daf4777` — `PARTIALLY_SUPPORTED`；晶宏年報「**電子標籤」11 次、「醫療」9 次、「電子書」6 次、「車用」18 次、「車用儀表」2 次**；**惟「工業控制」0 次，且「87%」3 次全為「0.87%」（利率）之一部分——屬子字串誤配**。
-- `3374:material_named_relationship:be32d9ad91c6729d` — `PARTIALLY_SUPPORTED`；精材簡報「**台積電」11 次、「持股」4 次**並載「司股份**30%**成為最（大股東）」；**惟「晶圓供應」字樣未見**。
-- `3073:identity_changing_event:b67945c5e1f8cd60` — `PARTIALLY_SUPPORTED`；天方能源簡報「**售電」7 次、「能源」14 次**；**惟「前身／更名／台電／韌體」皆 0 次**。
-- ⚠️ `3105:material_named_relationship:5eadd5b07622243d` — `UNKNOWN_AFTER_RESEARCH`；穩懋官方網域**TLS 憑證信任失敗**。
-- `3531:bc1958facad626a3`、`3680:5ef6c70b8bcc1cf0` — `UNKNOWN_AFTER_RESEARCH` ×2；先益與家登端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-252.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,302 ＝ 條目總數 1,302。**覆蓋率 93.07%**。
-- Next pending claim by priority: `3680:material_named_relationship:1a3ba9385a605af5` (家登).
+- `4919:material_named_relationship:4fac3fb4e7cfd821` — `PARTIALLY_SUPPORTED`；新唐年報「**車用」23 次、「ToF」8 次、「BMIC」2 次**；**惟「Panasonic／Tier 1」皆 0 次**。
+- `4966:material_named_relationship:1988b56ac9565752` — `PARTIALLY_SUPPORTED`；譜瑞年報「**TCON」45 次、「譜瑞」154 次**；**惟「Apple／蘋果／iPad／MacBook／獨家」皆 0 次**。
+- `4971:material_named_relationship:1fca6baf1f4e0898` — `PARTIALLY_SUPPORTED`；IET簡報見「**Skyworks**」列舉；**惟「主要客戶／客戶」0 次**（**英文簡報且為1Q/2013版本**）。
+- ⚠️ `6104:ccadff902f8888ec`、`27b4182e9c3dac26` — `UNKNOWN_AFTER_RESEARCH` ×2；創惟官方端點 **HTTP 410（已移走）**。
+- `3680:1a3ba9385a605af5`、`5236:05d29b60f8c46ffa` — `UNKNOWN_AFTER_RESEARCH` ×2；家登與凌陽創新端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-253.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,309 ＝ 條目總數 1,309。**覆蓋率 93.57%**。
+- Next pending claim by priority: `6113:material_named_relationship:aae3976ab7d6df98` (亞矽).
 
 ## Source access
 

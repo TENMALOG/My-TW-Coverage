@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:15:40Z",
+  "generated_at": "2026-10-05T23:16:52Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -255,17 +255,18 @@
     "author-249",
     "author-250",
     "author-251",
-    "author-252"
+    "author-252",
+    "author-253"
   ],
-  "source_batch_count": 252,
-  "total_unknown": 400,
+  "source_batch_count": 253,
+  "total_unknown": 404,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 179,
+    "no_official_endpoint_found": 183,
     "other_unclassified": 151,
     "tls_failure": 15,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 106,
+    "http_404": 108,
     "image_only_or_tiny_text": 18,
     "http_403": 16,
     "connection_failure": 15,
@@ -6117,6 +6118,64 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3680:material_named_relationship:1a3ba9385a605af5",
+      "ticker": "3680",
+      "company": "家登",
+      "claim": "4. 航太精密加工：利用高階精密模具技術，打入波音 (Boeing) 及 [[GE]] 航太供應鏈，生產液壓系統關鍵組件，優化產品組合。",
+      "batch_id": "author-253",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5236:identity_changing_event:05d29b60f8c46ffa",
+      "ticker": "5236",
+      "company": "凌陽創新",
+      "claim": "凌陽創新 (Sunplus Innovation) 成立於 2006 年 (自凌陽科技分割)，總部位於台灣[[新竹]]。",
+      "batch_id": "author-253",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/523620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6104:material_named_relationship:ccadff902f8888ec",
+      "ticker": "6104",
+      "company": "創惟",
+      "claim": "隨著[[AI]] PC與高效能運算(HPC)對高頻寬傳輸的強烈需求，加上獨家供應任天堂Switch等熱門遊戲機的USB控制晶片，創惟在高速傳輸市場佔有舉足輕重的地位。",
+      "batch_id": "author-253",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6104:material_named_relationship:27b4182e9c3dac26",
+      "ticker": "6104",
+      "company": "創惟",
+      "claim": "任天堂(Nintendo Switch 主要供應商)、戴爾([[Dell]])、惠普([[HP]])、聯想等全球一線PC及顯示器大廠(同時打入蘋果與非蘋陣營)。",
+      "batch_id": "author-253",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

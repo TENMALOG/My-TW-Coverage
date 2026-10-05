@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-253",
+  "reviewed_at": "2026-10-05T23:16:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (新唐113年度年報; 譜瑞110年度年報; IET-KY法說會); 創惟官方網域HTTP 410; 家登與凌陽創新端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "4919:material_named_relationship:4fac3fb4e7cfd821",
+      "normalized_claim_hash": "4fac3fb4e7cfd8219eb51b8507bc7b3de523c2d2b99644d8cd142f671bd42e07",
+      "ticker": "4919",
+      "company": "新唐",
+      "path": "Pilot_Reports/Semiconductors/4919_新唐.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**車用**: [[Panasonic]], Tier 1 供應商 (BMIC, ToF).",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nuvoton.com/export/sites/nuvoton/about-nuvoton/investors/113TW.pdf",
+          "title": "新唐科技股份有限公司（新唐，4919，Nuvoton）民國一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取129,065字元）。年報中「**車用**」出現23次、「**ToF**」8次、「**BMIC**」2次，**逐項支持其車用產品線（含 BMIC 與 ToF）**。**關鍵發現**：全份年報中「**Panasonic**」與「**Tier 1**」之出現次數**均為0**——**未具名該客戶，亦未以 Tier 1 描述其客戶層級**。"
+        }
+      ],
+      "rationale": "「**車用**：（**BMIC**、**ToF**）」獲發行人年報**逐項支持**：年報中「**車用**」出現23次、「**ToF**」8次、「**BMIC**」2次，**支持其車用產品線（含 BMIC 與 ToF）**。**惟兩項陳述未獲支持**：(1)「**[[Panasonic]]**」——出現次數**為0**，**未具名該客戶**；(2)「**Tier 1** 供應商」——「Tier 1」為**0**，**未以該層級描述其客戶**。故部分成立。",
+      "proposed_text": "新唐科技 (4919，Nuvoton) 之車用產品線包含 BMIC 與 ToF。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4966:material_named_relationship:1988b56ac9565752",
+      "normalized_claim_hash": "1988b56ac9565752aaf3fff5d1dbe1c0c44a7bd999ccce07c8645eccc31071cc",
+      "ticker": "4966",
+      "company": "譜瑞-KY",
+      "path": "Pilot_Reports/Semiconductors/4966_譜瑞-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "譜瑞在 [[Apple]] 供應鏈中地位穩固，為 iPad/MacBook T-CON 獨家/主要供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_4966_110.pdf",
+          "title": "譜瑞科技股份有限公司（譜瑞-KY，4966，Parade Technologies）一一○年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取142,934字元；文件含英文目錄與中文內容）。年報中「**譜瑞**」出現154次（**確認文件歸屬**）、「**TCON**」45次、「客戶」32次，**支持其 TCON（時序控制器）產品**。**關鍵發現**：全份年報中「**Apple**」「**蘋果**」「**iPad**」「**MacBook**」與「**獨家**」之出現次數**均為0**——**未具名該客戶，亦未載明獨家供應地位**。"
+        }
+      ],
+      "rationale": "「為… **T-CON**（供應商）」獲發行人年報**支持**：年報中「**譜瑞**」154次（**確認文件歸屬**）、「**TCON**」45次、「客戶」32次，**支持其 TCON（時序控制器）產品**。**惟三項陳述未獲支持**：(1)「在 **[[Apple]]** 供應鏈中地位穩固」——「**Apple**」與「**蘋果**」之出現次數**均為0**；(2)「為 **iPad／MacBook** T-CON」——「**iPad**」與「**MacBook**」均為**0**；(3)「**獨家**（供應商）」——「獨家」為**0**。故部分成立。",
+      "proposed_text": "譜瑞科技 (4966，Parade Technologies) 供應 TCON（時序控制器）產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4971:material_named_relationship:1fca6baf1f4e0898",
+      "normalized_claim_hash": "1fca6baf1f4e0898f01c358e5f26dd253b0d00bd02e3e338f1e010870211fd41",
+      "ticker": "4971",
+      "company": "IET-KY",
+      "path": "Pilot_Reports/Semiconductors/4971_IET-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Skyworks]] (主要客戶)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/497120160823E001.pdf",
+          "title": "IntelliEPI Inc. (Cayman)（IET-KY，4971，Intelligent Epitaxy Technology）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（封面載 1Q/2013）。**文件版本較舊**。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,895字元，**英文簡報**）。簡報封面載「**IntelliEPI Inc. (Cayman)** Intelligent Epitaxy Technology」，內容含「Founding: 1/1/1999」「Business Model：**MBE Epitaxial Wafer**」，並見「**Skyworks**,（…）」之列舉（「**Skyworks**」1次），**支持 Skyworks 為其客戶之一**。**關鍵發現**：全份簡報中「主要客戶」「客戶」與「大客戶」之出現次數**均為0**（**該簡報以英文呈現，中文關鍵字不具決定性**）；**且該簡報為 1Q/2013 版本**。"
+        }
+      ],
+      "rationale": "「**[[Skyworks]]**（（主要）客戶）」獲發行人簡報之**部分支持**：簡報（封面載「**IntelliEPI Inc. (Cayman)**」，業務模式為「**MBE Epitaxial Wafer**」）中「**Skyworks**」出現1次，**並列於一客戶列舉之中**，**支持 Skyworks 為其客戶之一**。**惟「主要客戶」之排序性表述未獲支持**——「主要客戶」「客戶」與「大客戶」之出現次數**均為0**。**語言與時點註記**：**該簡報為英文版**（中文關鍵字之計數不具決定性），**且為 1Q/2013 版本**。故部分成立。",
+      "proposed_text": "IET-KY (4971，Intelligent Epitaxy Technology) 之客戶包含 Skyworks。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3680:material_named_relationship:1a3ba9385a605af5",
+      "normalized_claim_hash": "1a3ba9385a605af54eebaa186824de02e2d79de6ffd87f08f984ea35ad0ee727",
+      "ticker": "3680",
+      "company": "家登",
+      "path": "Pilot_Reports/Semiconductors/3680_家登.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "4. 航太精密加工：利用高階精密模具技術，打入波音 (Boeing) 及 [[GE]] 航太供應鏈，生產液壓系統關鍵組件，優化產品組合。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf",
+          "title": "家登精密（3680）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之家登精密端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得家登精密可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「4. **航太精密加工**：利用高階精密模具技術，打入**波音（Boeing）**及 [[GE]] 航（太）…」未獲確立：本批次所嘗試之家登端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5236:identity_changing_event:05d29b60f8c46ffa",
+      "normalized_claim_hash": "05d29b60f8c46ffa7c8a3223e957b03ce8138790ac54e9921bec7417fc84d498",
+      "ticker": "5236",
+      "company": "凌陽創新",
+      "path": "Pilot_Reports/Semiconductors/5236_凌陽創新.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "凌陽創新 (Sunplus Innovation) 成立於 2006 年 (自凌陽科技分割)，總部位於台灣[[新竹]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/523620250401M001.pdf",
+          "title": "凌陽創新（5236）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之凌陽創新端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得凌陽創新可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「凌陽創新 (Sunplus Innovation) **成立於 2006 年**（**自凌陽科技分割**…）」未獲確立：本批次所嘗試之凌陽創新端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6104:material_named_relationship:ccadff902f8888ec",
+      "normalized_claim_hash": "ccadff902f8888ec6b828608f86045a13132b884450098f48829b81a9b1e323f",
+      "ticker": "6104",
+      "company": "創惟",
+      "path": "Pilot_Reports/Semiconductors/6104_創惟.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "隨著[[AI]] PC與高效能運算(HPC)對高頻寬傳輸的強烈需求，加上獨家供應任天堂Switch等熱門遊戲機的USB控制晶片，創惟在高速傳輸市場佔有舉足輕重的地位。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf",
+          "title": "創惟科技股份有限公司（創惟，6104，Genesys Logic）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就創惟官方網域所嘗試之文件端點回應 **HTTP 410（已移走／Gone）**——**該資源已被永久移除**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「隨著 [[AI]] PC 與**高效能運算（HPC）**對**高頻寬傳輸**的強烈需求，加上**獨家供應任天堂** Sw（itch…）」未獲確立：本批次就創惟官方網域所嘗試之文件端點回應 **HTTP 410（已移走／Gone）**——**該資源已被永久移除**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6104:material_named_relationship:27b4182e9c3dac26",
+      "normalized_claim_hash": "27b4182e9c3dac26dde5c733af57c3b834b87beb42fb8074431f7dbfd5e5064a",
+      "ticker": "6104",
+      "company": "創惟",
+      "path": "Pilot_Reports/Semiconductors/6104_創惟.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "任天堂(Nintendo Switch 主要供應商)、戴爾([[Dell]])、惠普([[HP]])、聯想等全球一線PC及顯示器大廠(同時打入蘋果與非蘋陣營)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.genesyslogic.com.tw/systemg/downloads.php?ServerFilename=20160531102338217.pdf",
+          "title": "創惟科技股份有限公司（創惟，6104，Genesys Logic）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就創惟官方網域所嘗試之文件端點回應 **HTTP 410（已移走／Gone）**——**該資源已被永久移除**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「**任天堂（Nintendo Switch 主要供應商）**、戴爾（[[Dell]]）、惠普（[[HP]]）」未獲確立：同上，創惟官方文件端點回應 **HTTP 410（已移走）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
