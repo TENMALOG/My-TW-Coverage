@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 00:04 UTC
+Updated: 2026-10-14 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,9 +8,9 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,104 / 1,399**
-- Remaining author review: **295**
-- Latest batch: **author-216** (3 claims)
+- Author-reviewed: **1,106 / 1,399**
+- Remaining author review: **293**
+- Latest batch: **author-217** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
@@ -20,15 +20,14 @@ Branch: `audit-v5`
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **295**
+- `UNKNOWN_AFTER_RESEARCH`: **297**
 
 ## Latest claim batch
 
-- `1617:material_named_relationship:1f14e00f8c9b676c` — `PARTIALLY_SUPPORTED`；榮星年報**逐字載**「**裸銅線即佔漆包線成本達85%左右**，係直接向國內**裸銅線大廠**進貨」與「**提煉銅**」（裸銅線9次、85% 4次、**大亞 22 次、華新麗華 1 次**）；**惟「華榮」0 次**。
-- `3541:export_concentration:23aa0cac81532d07` — `UNKNOWN_AFTER_RESEARCH`；西柏年報端點 **HTTP 404**。
-- 🔴 `6225:export_concentration:e4146e23ad193cf5` — **`UNSUPPORTED`**；天瀚年報載「**銷售市場以台灣為主要市場**」「**註：112 年度無外銷**」「外銷產品約 **7.2%**」——**與 claim「產品以歐美為主要外銷市場」方向相反**。**本審核第 2 筆 UNSUPPORTED。**
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-216.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `3071:material_named_relationship:2d5f28d692feacbe` (協禧).
+- `3071:material_named_relationship:2d5f28d692feacbe` — `UNKNOWN_AFTER_RESEARCH`；協禧年報**文字層全數為亂碼**（中文字元無法判讀，僅拉丁字母可辨），**無法有效檢索中文關鍵字**；拉丁部分未見「Tesla／GM／Ford」。
+- `7788:material_named_relationship:2068abc51a1555a2` — `UNKNOWN_AFTER_RESEARCH`；松川精密ESG載「轉型為全球**電動車**、新能源、工業自動化」（電動車22次、繼電器34次）；**惟「Tesla／特斯拉」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-217.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `3665:material_named_relationship:d75e95843aa246a6` (貿聯-KY).
 
 ## Source access
 

@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-217",
+  "reviewed_at": "2026-10-05T22:22:14Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (協禧2023年度年報; 松川精密2024年度永續報告書)",
+  "items": [
+    {
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "normalized_claim_hash": "2d5f28d692feacbeb8a49e289369339b46b9c36ef470dd3ace00d9d75513b1a2",
+      "ticker": "3071",
+      "company": "協禧",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3071_協禧.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年轉型聚焦：(1) 車用電子 — 獲歐美 Tier 1 認證，應用於車燈/座椅通風/電池散熱，間接供應[[Tesla]]、[[GM]]、[[Ford]]；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "協禧電機股份有限公司（協禧，3071，EMC）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取223,135字元）。**關鍵發現（字形映射錯誤／亂碼）**：該年報之**文字層全數為亂碼**——**中文字元無法判讀**（如「΋ǵҁϦљวقΓǺ」「ۉӜǺಷػమ」「ηແҹߞጃǺLU#PDLOHPFWZFRP」），**僅拉丁字母部分可辨識**：可讀出「**EMC**」51次，並可辨識電子郵件網域「**emctw.com**」與網址「**www.osc.com.tw**」。**因文字層全為亂碼，本批次無法就 claim 所述之中文關鍵字（車用、Tier 1、車燈、座椅通風、電池散熱）進行有效檢索**；**於可讀之拉丁字母部分，未見「Tesla」「GM」「Ford」**。"
+        }
+      ],
+      "rationale": "「(1) **車用電子** — 獲**歐美 Tier 1 認證**，應用於**車燈／座椅通風／電池散熱**，間接供應[[Tesla]]、[[GM]]、[[Ford]]」未獲確立：所取得之協禧2023年度年報**文字層全數為亂碼**，**中文字元無法判讀**（如「΋ǵҁϦљวقΓǺ」「ۉӜǺಷػమ」），**本批次無法就該等中文關鍵字進行有效檢索**；於**可讀之拉丁字母部分**（可見「EMC」51次），**未見「Tesla」「GM」「Ford」**。因無法判讀文件內容，以 UNKNOWN_AFTER_RESEARCH 結案，**建議對同一 PDF 進行 OCR 後重查**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7788:material_named_relationship:2068abc51a1555a2",
+      "normalized_claim_hash": "2068abc51a1555a24150d4778edff5aeaf4cb61edc0779ea72de6e598fe43f7a",
+      "ticker": "7788",
+      "company": "松川精密",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/7788_松川精密.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已打入[[Tesla]]供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.songchuan.com/sc/wp-content/uploads/2025/08/%E6%9D%BE%E5%B7%9D_2024%E5%B9%B4%E5%BA%A6%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "title": "松川精密股份有限公司（松川精密，7788，Song Chuan Precision）2024 年度永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取83,446字元）。報告書載「歷經五十年發展，松川精密已從傳統製造企業轉型為全球**電動車**、新能源、工業自動化（…）」「來即專注於**繼電器**產品之研發與製造，並持續擴展全球市場。1994年，松川精密收購德國**Kuhnke** 繼電器部門」（「**繼電器**」34次、「**電動車**」22次、「供應鏈」79次、「美國」8次、「車廠」2次），**支持其為電動車與繼電器相關業者**。**關鍵發現**：全份報告書中「**Tesla**」與「**特斯拉**」之出現次數**均為0**，**未具名該客戶**。"
+        }
+      ],
+      "rationale": "「已打入 [[Tesla]] **供應鏈**」未獲確立：所取得之松川精密2024年度永續報告書雖載「松川精密已從傳統製造企業轉型為全球**電動車**、新能源、工業自動化（…）」（「電動車」22次、「繼電器」34次），**支持其為電動車相關業者**；**惟「Tesla」與「特斯拉」之出現次數均為0**，**未具名該客戶**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

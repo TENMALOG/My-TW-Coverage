@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:21:20Z",
+  "generated_at": "2026-10-05T22:22:25Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -219,12 +219,13 @@
     "author-213",
     "author-214",
     "author-215",
-    "author-216"
+    "author-216",
+    "author-217"
   ],
-  "source_batch_count": 216,
-  "total_unknown": 295,
+  "source_batch_count": 217,
+  "total_unknown": 297,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 126,
+    "no_official_endpoint_found": 127,
     "other_unclassified": 115,
     "tls_failure": 13,
     "mops_non_document": 39,
@@ -233,7 +234,7 @@
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
-    "garbled_text_layer": 14,
+    "garbled_text_layer": 15,
     "client_rendered_only": 5,
     "download_timeout": 2,
     "source_identity_mismatch": 10
@@ -4548,6 +4549,34 @@
       ],
       "attempted_sources": [
         "https://www.cypress.com.tw/uploads/investor/2023_annual_report.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "ticker": "3071",
+      "company": "協禧",
+      "claim": "近年轉型聚焦：(1) 車用電子 — 獲歐美 Tier 1 認證，應用於車燈/座椅通風/電池散熱，間接供應[[Tesla]]、[[GM]]、[[Ford]]；",
+      "batch_id": "author-217",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "7788:material_named_relationship:2068abc51a1555a2",
+      "ticker": "7788",
+      "company": "松川精密",
+      "claim": "已打入[[Tesla]]供應鏈。",
+      "batch_id": "author-217",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.songchuan.com/sc/wp-content/uploads/2025/08/%E6%9D%BE%E5%B7%9D_2024%E5%B9%B4%E5%BA%A6%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
