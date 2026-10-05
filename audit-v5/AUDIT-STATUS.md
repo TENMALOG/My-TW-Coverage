@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-16 00:04 UTC
+Updated: 2026-10-16 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,377 / 1,399**
-- Remaining author review: **22**
-- Latest batch: **author-264** (6 claims)
+- Author-reviewed: **1,383 / 1,399**
+- Remaining author review: **16**
+- Latest batch: **author-265** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **107**
-- `PARTIALLY_SUPPORTED`: **824**
+- `ACCEPTED`: **109**
+- `PARTIALLY_SUPPORTED`: **825**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **441**
+- `UNKNOWN_AFTER_RESEARCH`: **444**
 
 ## Latest claim batch
 
-- `4420:material_named_relationship:0155dbd71bc5840d` — `PARTIALLY_SUPPORTED`；光明年報載「**聚酯粒**」「**POY**」「最近二年度**主要供應商**資料」（**聚酯粒 2 次、POY 3 次、原絲 6 次、主要供應商 3 次**）；**惟「集團母公司」0 次**，且「宜進」28 次多為董監事關係敘述。
-- `4417:material_named_relationship:b3e7a7e705586906` — `PARTIALLY_SUPPORTED`；金洲簡報載「網具業之原料主要來自**石化業**及人纖業之**工業用尼龍絲**」（**尼龍 1 次、石化 1 次、台化 1 次**）；**惟「尼龍粒／Nylon／HDPE／聚乙烯／力鵬」皆 0 次**。
-- `4406:95003ef6de91feba` — `UNKNOWN_AFTER_RESEARCH`；新昕纖官方網域 **DNS 解析失敗**。
-- `4439:d5603ffd5698f3d8` — `UNKNOWN_AFTER_RESEARCH`；冠星-KY所取得檔案**僅 1,515 bytes（非文件回應）**。
-- `1516:8fcd31ee824b57a5`、`1591:d46cae857062b3c0` — `UNKNOWN_AFTER_RESEARCH` ×2；川飛與駿吉-KY端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-264.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,377 ＝ 條目總數 1,377。**覆蓋率 98.43%**。
-- Next pending claim by priority: `2065:export_concentration:69d8c9071bd12cd0` (世豐).
+- 🟢 `2066:material_named_relationship:599189e9a29e6cd7` — **`ACCEPTED`**；世德簡報封面**逐字列出**「**GM**」「**Chrysler**」「**Tier1**」「**Tier1**」「**Tier2**」「**Tier2**」「**Tier2**」（**Tier 5 次**）。
+- 🟢 `5007:export_concentration:0ee2200a2af138a8` — **`ACCEPTED`**；三星簡報**逐字載**「螺帽和螺絲「**95% 以上外銷歐美日地區**」（年報**歐美 5 次、外銷 8 次、扣件 90 次**）。
+- `5007:material_named_relationship:75fcb753c0bc1a29` — `PARTIALLY_SUPPORTED`；「**扣件」逾 110 次、「OEM」1 次**；**惟「Tier 1／Tier 2」兩份文件皆 0 次**。
+- `2065:export_concentration:69d8c9071bd12cd0`、`850c932731e7b8ae` — `UNKNOWN_AFTER_RESEARCH` ×2；世豐議事手冊「**外銷／歐洲／歐美／建材／95%」皆 0 次**（僅「美國」4 次）。
+- `4999:material_named_relationship:63f3bc955edc3d6b` — `UNKNOWN_AFTER_RESEARCH`；鑫禾簡報「**HP／Dell／Lenovo／華碩／主要客戶」皆 0 次**。
+- 證據記錄於 `semantic/author-265.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,383 ＝ 條目總數 1,383。**覆蓋率 98.86%**。
+- Next pending claim by priority: `5604:identity_changing_event:b3e57d29547603cf` (中連).
 
 ## Source access
 

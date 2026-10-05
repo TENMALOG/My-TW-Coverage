@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:33:31Z",
+  "generated_at": "2026-10-05T23:35:24Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -267,13 +267,14 @@
     "author-261",
     "author-262",
     "author-263",
-    "author-264"
+    "author-264",
+    "author-265"
   ],
-  "source_batch_count": 264,
-  "total_unknown": 441,
+  "source_batch_count": 265,
+  "total_unknown": 444,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 212,
-    "other_unclassified": 157,
+    "no_official_endpoint_found": 213,
+    "other_unclassified": 159,
     "tls_failure": 17,
     "mops_non_document": 47,
     "non_document_response": 47,
@@ -6732,6 +6733,48 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/159120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2065:export_concentration:69d8c9071bd12cd0",
+      "ticker": "2065",
+      "company": "世豐",
+      "claim": "外銷比重逾 95%，以歐美建材市場為主。",
+      "batch_id": "author-265",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.shehfung.com/userfiles/113年股東常會議事手冊.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2065:export_concentration:850c932731e7b8ae",
+      "ticker": "2065",
+      "company": "世豐",
+      "claim": "外銷逾 95%，歐美為主",
+      "batch_id": "author-265",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.shehfung.com/userfiles/113年股東常會議事手冊.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4999:material_named_relationship:63f3bc955edc3d6b",
+      "ticker": "4999",
+      "company": "鑫禾",
+      "claim": "[[HP]] (主要客戶)、[[Dell]]、[[Lenovo]]、[[華碩]]",
+      "batch_id": "author-265",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://emops.twse.com.tw/nas/STR/499920251118E001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
