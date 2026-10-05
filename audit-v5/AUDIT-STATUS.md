@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 01:04 UTC
+Updated: 2026-10-13 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,011 / 1,399**
-- Remaining author review: **388**
-- Latest batch: **author-193** (4 claims)
+- Author-reviewed: **1,015 / 1,399**
+- Remaining author review: **384**
+- Latest batch: **author-194** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **656**
+- `PARTIALLY_SUPPORTED`: **659**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **255**
+- `UNKNOWN_AFTER_RESEARCH`: **256**
 
 ## Latest claim batch
 
-- `8114:material_named_relationship:921e6972ef8ae42f` — `UNKNOWN_AFTER_RESEARCH`；振樺電簡報（英文）「**BYD／Geely／CATL／automotive／vehicle／battery」皆 0 次**。
-- `1708:export_concentration:f1f882d8f1abeb7f` — `PARTIALLY_SUPPORTED`；東鹼英文年報「**fertilizer」46 次、「India」3 次、「Pakistan」1 次、「Japan」12 次、「Australia」3 次**、「grape／tobacco／citrus」皆有；惟「**Vietnam／Thailand」0 次**，「98%」上下文不可判讀。
-- `1708:export_concentration:caa88c48de42de01`、`c24aa34e9be5f666` — `PARTIALLY_SUPPORTED` ×2；四國經銷商成立；惟「98%+ 外銷」未獲確認。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-193.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6021:identity_changing_event:f82a5e3c9c501cda` (美好證).
+- `6021:identity_changing_event:f82a5e3c9c501cda` — `UNKNOWN_AFTER_RESEARCH`；美好證端點 **HTTP 404**。
+- `1312:profitability_assertion:c5d7e505a1dc02fb` — `PARTIALLY_SUPPORTED`；國喬ESG「**ABS」73 次、「醫療」19 次、「汽車」5 次、「儀表板」1 次**；惟「**保險桿／無人機／家用電氣／高毛利」皆 0 次**。
+- `1710:profitability_assertion:cada73a15ab322ff` — `PARTIALLY_SUPPORTED`；東聯簡報「**EG」33 次、「EA」25 次、「EO」15 次、「CO2」8 次**（**縮寫**；中文全名皆0）；惟「**遠東**」0次。
+- `1710:material_named_relationship:8d96205de40b3258` — `PARTIALLY_SUPPORTED`；簡報載「**Entering 2nm/3nm Advanced Nodes & HBM Supply**」；**惟「台積電」「TSMC」「EUV」「5nm」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-194.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1727:material_named_relationship:5ef4ddf1e3954192` (中華化).
 
 ## Source access
 

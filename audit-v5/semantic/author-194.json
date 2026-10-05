@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-194",
+  "reviewed_at": "2026-10-05T21:55:55Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (國喬2024年永續報告書; 東聯投資人會議簡報); 美好證端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6021:identity_changing_event:f82a5e3c9c501cda",
+      "normalized_claim_hash": "f82a5e3c9c501cda03d3aed5cbc152e7ca6af5596861ee21086341a1cee7b680",
+      "ticker": "6021",
+      "company": "美好證",
+      "path": "Pilot_Reports/Capital Markets/6021_美好證.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2022 年正式更名為「美好證券」，開啟戰略轉型。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/602120230524M001.pdf",
+          "title": "美好證券股份有限公司（美好證，6021，Good Finance Securities）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載美好證簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得美好證可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**2022 年**正式更名為「**美好證券**」，開啟**戰略轉型**」未獲確立：本批次自公開資訊觀測站端點下載美好證簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1312:profitability_assertion:c5d7e505a1dc02fb",
+      "normalized_claim_hash": "c5d7e505a1dc02fbabe7a6425a5704d3ff59ce9effb93399fb07c923c48a7294",
+      "ticker": "1312",
+      "company": "國喬",
+      "path": "Pilot_Reports/Chemicals/1312_國喬.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心終端應用領域從傳統的民生包裝與玩具，大幅轉向高毛利的高階汽車零組件 (如儀表板/保險桿)、家用電氣、醫療器材、無人機載具與高階消費電子。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gppc.com.tw/gppc/Responsibility_PDF/2024-ESG.pdf",
+          "title": "國喬石油化學股份有限公司（國喬，1312，GPPC）2024 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年永續報告書。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取128,604字元）。報告書中「**ABS**」出現73次、「**醫療**」19次、「**汽車**」5次、「**包裝**」5次、「**玩具**」3次、「**儀表板**」1次（原文「如**儀表板**等。」），支持其 ABS 工程塑膠之終端應用涵蓋汽車（含儀表板）、醫療、包裝與玩具。**關鍵發現**：全份報告書中「**保險桿**」「**無人機**」「**家用電氣**」與「**高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「核心終端應用領域涵蓋**高階汽車零組件**（如**儀表板**）、**醫療器材**及傳統的民生**包裝**與**玩具**」獲發行人永續報告書支持：報告書中「**ABS**」73次、「**醫療**」19次、「**汽車**」5次、「**包裝**」5次、「**玩具**」3次、「**儀表板**」1次（原文「如**儀表板**等。」）。**惟多項陳述未獲支持**：(1)「**保險桿**」——出現次數為**0**；(2)「**無人機載具**」——「**無人機**」為**0**；(3)「**家用電氣**」——為**0**；(4)「大幅轉向**高毛利**的」——「**高毛利**」為**0**（報告書未載毛利結構之轉變敘述）。故部分成立。",
+      "proposed_text": "國喬 (1312，GPPC) 之 ABS 工程塑膠終端應用涵蓋汽車零組件（如儀表板）、醫療器材、包裝及玩具等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1710:profitability_assertion:cada73a15ab322ff",
+      "normalized_claim_hash": "cada73a15ab322fff0e24ce55d4354ed3d4e1de8e27e9d300f66e9629ca72ca0",
+      "ticker": "1710",
+      "company": "東聯",
+      "path": "Pilot_Reports/Chemicals/1710_東聯.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**東聯 (1710)** (為遠東集團麾下之石化技術大將，已從傳統供給大宗的乙二醇 (EG) 紡織塑化原料，成功高毛利轉型並跨出研發環氧乙烷 (EO)、乙醇胺 (EA) 等特用化學品與半導體電子等級極高純度特殊氣體)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/171020260615E001.pdf",
+          "title": "東聯化學股份有限公司（東聯，1710，OUCC）投資人會議簡報（2026-06-15）",
+          "source_level": 3,
+          "period_binding": "2026年6月15日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,393字元，**中英夾雜且以圖形排版為主**）。簡報載「Kaohsiung - completed **E-LCO2** plant construction」「& L-**CO2**」「✓Entering **2nm/3nm** Advanced Nodes & HBM Supply」，並見「**EG**」33次、「**EA**」25次、「**EO**」15次、「**CO2**」8次，支持其化學品（EG／EO／EA）及 CO2 業務與先進製程（2nm/3nm）之敘述。**關鍵發現（縮寫落差）**：**簡報使用化學品縮寫（EG／EO／EA）而非中文全名**——「**乙二醇**」「環氧乙烷」「乙醇胺」之出現次數**均為0**。另全份簡報中「**台積電**」「**TSMC**」「**EUV**」與「**遠東**」之出現次數**均為0**；「東聯」1次。"
+        }
+      ],
+      "rationale": "「已從供給大宗的**乙二醇（EG）**跨出研發**環氧乙烷（EO）**、**乙醇胺（EA）**等化學品與**半導體電子等級特殊氣體**」獲發行人簡報支持——**惟須以化學品縮寫檢索**：簡報中「**EG**」出現33次、「**EA**」25次、「**EO**」15次、「**CO2**」8次，並載「Kaohsiung - completed **E-LCO2** plant construction」與「✓Entering **2nm/3nm** Advanced Nodes & HBM Supply」，**支持其化學品與 CO2 業務及先進製程之敘述**（**簡報使用縮寫，中文全名「乙二醇」「環氧乙烷」「乙醇胺」之出現次數均為0**）。**惟兩項陳述未獲支持**：(1)「為**遠東集團**麾下」——「**遠東**」出現次數為**0**；(2)「**特用**化學品」——「特用」為0。故部分成立。",
+      "proposed_text": "東聯化學 (1710，OUCC) 生產 EG、EO、EA 等化學品及 CO2 氣體，並切入 2nm／3nm 先進製程供應。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1710:material_named_relationship:8d96205de40b3258",
+      "normalized_claim_hash": "8d96205de40b3258a91a6e4b9a3aa22cc68dda0e43997cdf1686c5d7fe7637cb",
+      "ticker": "1710",
+      "company": "東聯",
+      "path": "Pilot_Reports/Chemicals/1710_東聯.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其重點投入重金開發之最高純度二氧化碳 (CO2) 氣體，已成功打入並長期供應給護國神山 [[台積電]] 於 5nm/3nm 以下極先進製程之精密清洗與極紫外光 ([[EUV]]) 護膜應用。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/171020260615E001.pdf",
+          "title": "東聯化學股份有限公司（東聯，1710，OUCC）投資人會議簡報（2026-06-15）",
+          "source_level": 3,
+          "period_binding": "2026年6月15日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,393字元，**中英夾雜且以圖形排版為主**）。簡報載「Kaohsiung - completed **E-LCO2** plant construction」「& L-**CO2**」「✓Entering **2nm/3nm** Advanced Nodes & HBM Supply」，並見「**EG**」33次、「**EA**」25次、「**EO**」15次、「**CO2**」8次，支持其化學品（EG／EO／EA）及 CO2 業務與先進製程（2nm/3nm）之敘述。**關鍵發現（縮寫落差）**：**簡報使用化學品縮寫（EG／EO／EA）而非中文全名**——「**乙二醇**」「環氧乙烷」「乙醇胺」之出現次數**均為0**。另全份簡報中「**台積電**」「**TSMC**」「**EUV**」與「**遠東**」之出現次數**均為0**；「東聯」1次。"
+        }
+      ],
+      "rationale": "「最高純度 **CO2** 氣體…應用於**先進製程**」獲發行人簡報之**部分支持**：簡報中「**CO2**」出現8次，並載「Kaohsiung - completed E-LCO2 plant construction」「✓Entering **2nm/3nm** Advanced Nodes & HBM Supply」（「3nm」1次），**支持其 CO2 業務與先進製程（2nm／3nm）之關聯敘述**。**惟多項具體陳述未獲支持**：(1)「已成功打入並**長期供應給**護國神山 [[台積電]]」——「**台積電**」與「**TSMC**」之出現次數**均為0**，**未具名該客戶**；(2)「**5nm**」——為0；(3)「極紫外光（**EUV**）**護膜**應用」——「**EUV**」為0。故部分成立。",
+      "proposed_text": "東聯化學 (1710，OUCC) 生產高純度 CO2 氣體，應用於 2nm／3nm 先進製程領域。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
