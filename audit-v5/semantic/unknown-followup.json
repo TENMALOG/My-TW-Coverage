@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:35:31Z",
+  "generated_at": "2026-10-05T20:38:24Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -129,16 +129,18 @@
     "author-124",
     "author-125",
     "author-126",
-    "author-127"
+    "author-127",
+    "author-128",
+    "author-129"
   ],
-  "source_batch_count": 127,
-  "total_unknown": 180,
+  "source_batch_count": 129,
+  "total_unknown": 181,
   "failure_signature_counts": {
     "other_unclassified": 71,
     "tls_failure": 12,
     "mops_non_document": 33,
     "non_document_response": 31,
-    "no_official_endpoint_found": 74,
+    "no_official_endpoint_found": 75,
     "http_404": 34,
     "image_only_or_tiny_text": 25,
     "http_403": 10,
@@ -2815,6 +2817,20 @@
         "https://www.tsecpv.com.tw/upload/media/investor/2022%201226%20tc.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "9929:objective_ranking_or_market_share:5873511e414e911d",
+      "ticker": "9929",
+      "company": "秋雨",
+      "claim": "秋雨創新股份有限公司 (9929) 原名秋雨印刷，成立於1946年，為台灣第一家股票上市印刷公司。",
+      "batch_id": "author-129",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.choiceprintgroup.com/upload/202506/15/202506150351308841.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }

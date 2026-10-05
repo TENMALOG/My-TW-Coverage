@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 08:04 UTC
+Updated: 2026-10-10 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **766 / 1,399**
-- Remaining author review: **633**
-- Latest batch: **author-128** (4 claims)
+- Author-reviewed: **770 / 1,399**
+- Remaining author review: **629**
+- Latest batch: **author-129** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **496**
+- `PARTIALLY_SUPPORTED`: **499**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **180**
+- `UNKNOWN_AFTER_RESEARCH`: **181**
 
 ## Latest claim batch
 
-- `5607:objective_ranking_or_market_share:7941e3f89be589bb` — `PARTIALLY_SUPPORTED`；遠雄港財報載「也是**台灣唯一航空自由貿易港區**」＋「境內關外」8次、「通關」15次、「優惠」13次；惟「**賦稅」0 次**、「跨國電子」「AI」皆0次。
-- `6146:objective_ranking_or_market_share:a90215729c3e9aa9` — `ACCEPTED`；耕興財報載「本公司原有**三座10M 室內電波隔離暗室**」與「擁有業界**規模最大**檢測範圍最完整之實驗場地」（EMC 51次、安規73次、實驗室292次）——**逐項對應**。
-- `6898:objective_ranking_or_market_share:23e9ccff7ebaf06c` — `PARTIALLY_SUPPORTED`；程曦簡報「委外」14次、「DCRM」2次、「BPO」1次；惟「**最大」「龍頭」皆 0 次**。
-- `6898:objective_ranking_or_market_share:f2bfb4ba7e7a6c99` — `PARTIALLY_SUPPORTED`；簡報「2004」2次、「委外」14次；惟「**唯一」0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-128.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `7786:objective_ranking_or_market_share:8c416fbea251b784` (東方風能).
+- `7786:objective_ranking_or_market_share:8c416fbea251b784` — `PARTIALLY_SUPPORTED`；東方風能文件「離岸風電」6次、「海事工程」5次、「船隊」12次；惟「唯一」1次係「**唯一掌握多項長期合約**的領航者」，非「唯一具備海事工程能力」。
+- `7786:objective_ranking_or_market_share:b764fb96ef27fd17` — `PARTIALLY_SUPPORTED`；文件載「**市場位置: 台灣最大規模離岸船隊**」「共**18艘船舶**，台灣規模最大的國際級多元化船隊」＋人員運輸2次、駁船2次、運維船2次、SOV 3次；惟「**鋼鐵」0 次**、「CTV」0次。
+- `9929:objective_ranking_or_market_share:5873511e414e911d` — `UNKNOWN_AFTER_RESEARCH`；所取得者為秋雨**個體財務報告**，「1946」「第一家」「上市」皆0次。
+- `1301:objective_ranking_or_market_share:f4d83761669c4fba` — `PARTIALLY_SUPPORTED`；台塑2023年報「PVC」86次、「PE」102次、「PP」89次、「碳纖維」7次、「SAP」30次、「垂直整合」1次；惟「最大」9次中未見「台灣最大石化工業集團」之表述。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-129.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1303:objective_ranking_or_market_share:4efa616b8fa69cfb` (南亞).
 
 ## Source access
 
