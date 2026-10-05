@@ -364,6 +364,18 @@ def main() -> int:
         "status_counts": dict(sorted(status_counts.items())),
         "metric_counts": dict(sorted(metric_counters.items())),
         "official_field_names_sample": field_names,
+        "method_unresolved": sorted(
+            [d for d in details if d["status"] == "METHOD_UNRESOLVED"],
+            key=lambda d: (d["ticker"], d["metric"]),
+        ),
+        "repo_value_unavailable": sorted(
+            [d for d in details if d["status"] == "REPO_VALUE_UNAVAILABLE"],
+            key=lambda d: (d["ticker"], d["metric"]),
+        ),
+        "source_definition_differences": sorted(
+            [d for d in details if d["status"] == "SOURCE_DEFINITION_DIFFERENCE"],
+            key=lambda d: (d["ticker"], d["metric"]),
+        ),
         "differences": sorted(
             [d for d in details if d["status"] == "FINANCIAL_DIFFERENCE" and d["difference_million"] is not None],
             key=lambda d: abs(d["difference_million"]),
