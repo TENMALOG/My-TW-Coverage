@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:50:50Z",
+  "generated_at": "2026-10-05T21:52:49Z",
   "classification_note": "failure_signature 係由各筆 evidence.note 依固定規則判定，規則如下：http_404／http_403 依回應碼；mops_non_document 依「320 bytes|690 bytes|111 bytes|244 bytes」；garbled_text_layer 依「亂碼|mojibake|字元位移|字形映射錯誤」；tls_failure 依「SSL|TLS|安全通道」；download_timeout 依「逾時|timeout」；connection_failure 依「無法連線|連接意外關閉|無法解析遠端名稱|DNS|中止」；image_only_or_tiny_text 依「僅[數字]字元|僅得4頁|擷取0字元」；client_rendered_only 依「前端渲染|JavaScript|靜態 HTML|導覽／下載頁|網站選單」；no_official_endpoint_found 依「未查得|未取得可檢視|未取得可判讀|未具名任何…|未取得…本身|實質營運內容未見」；non_document_response 依「非文件內容|顯非完整文件|並非年報本身」；source_identity_mismatch 依「身分不符|屬另一法人|並非同一法人|並非…之文件|為香港聯合交易所之上市文件」。未命中任一規則者歸為 other_unclassified。一筆可同時帶有多個標記。",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -192,12 +192,14 @@
     "author-186",
     "author-187",
     "author-188",
-    "author-189"
+    "author-189",
+    "author-190",
+    "author-191"
   ],
-  "source_batch_count": 189,
-  "total_unknown": 252,
+  "source_batch_count": 191,
+  "total_unknown": 253,
   "failure_signature_counts": {
-    "other_unclassified": 93,
+    "other_unclassified": 94,
     "no_official_endpoint_found": 122,
     "tls_failure": 13,
     "mops_non_document": 39,
@@ -3919,6 +3921,20 @@
       ],
       "attempted_sources": [
         "https://www.taiwanglass.com/tc/pdf/UpdateReport/2023%E5%B9%B4%E5%A0%B1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8466:material_named_relationship:4186b19ffa74dbe9",
+      "ticker": "8466",
+      "company": "美吉吉-KY",
+      "claim": "[[麥當勞]] (台灣，2019 年成功打入其供應鏈，供應店面地板建材)",
+      "batch_id": "author-191",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://emops.twse.com.tw/nas/STR/846620180327E001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

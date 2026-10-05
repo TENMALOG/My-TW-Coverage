@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 22:04 UTC
+Updated: 2026-10-12 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,002 / 1,399**
-- Remaining author review: **397**
-- Latest batch: **author-190** (2 claims)
+- Author-reviewed: **1,004 / 1,399**
+- Remaining author review: **395**
+- Latest batch: **author-191** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **650**
+- `PARTIALLY_SUPPORTED`: **651**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **252**
+- `UNKNOWN_AFTER_RESEARCH`: **253**
 
 ## Latest claim batch
 
-- `2891:profitability_assertion:8c8dbd5c92337bba` — `PARTIALLY_SUPPORTED`；中信金簡報「**台灣人壽」20 次、「中信銀行」33 次**、「獲利」11次；**惟「第二大」與「引擎」皆 0 次**。
-- `2897:identity_changing_event:6d5aa86c6d912f37` — `ACCEPTED`；王道銀行年報**逐字載**「獲准**改制為商業銀行**」「變更登記為**「王道商業銀行」**」「**2017年1月1日**」（「**台灣工業銀行」45 次**、「改制」49次、「商業銀行」83次）——**逐項對應**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-190.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `8466:material_named_relationship:4186b19ffa74dbe9` (美吉吉-KY).
+- `9924:profitability_assertion:dd5629ab6030e38f` — `PARTIALLY_SUPPORTED`；福興年報載「內銷、外銷各約佔總營業額**7%、93%**；外銷部分以**北美市場佔75%為最大宗**」與「**泰國新廠**…因應**關稅政策與物流風險**」；**惟「75%」係外銷之佔比，換算總營收約 69.75%，略低於「逾七成」**。
+- `8466:material_named_relationship:4186b19ffa74dbe9` — `UNKNOWN_AFTER_RESEARCH`；美吉吉簡報「**麥當勞」0 次**（且為2018年版本，早於所述之2019年事件）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-191.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `5258:profitability_assertion:058c3be540bc456a` (虹堡).
 
 ## Source access
 
