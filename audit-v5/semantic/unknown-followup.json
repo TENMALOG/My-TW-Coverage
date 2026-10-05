@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:33:30Z",
+  "generated_at": "2026-10-05T20:34:24Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -127,16 +127,17 @@
     "author-122",
     "author-123",
     "author-124",
-    "author-125"
+    "author-125",
+    "author-126"
   ],
-  "source_batch_count": 125,
-  "total_unknown": 178,
+  "source_batch_count": 126,
+  "total_unknown": 179,
   "failure_signature_counts": {
     "other_unclassified": 71,
-    "tls_failure": 10,
+    "tls_failure": 11,
     "mops_non_document": 33,
     "non_document_response": 31,
-    "no_official_endpoint_found": 72,
+    "no_official_endpoint_found": 73,
     "http_404": 34,
     "image_only_or_tiny_text": 25,
     "http_403": 10,
@@ -2783,6 +2784,21 @@
         "https://www.acercsi.com/file_download/0EFD9FCD-4A6C-4E4C-AE91-8A2B6DF8759C"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "7819:objective_ranking_or_market_share:e0b3c59b20774ef5",
+      "ticker": "7819",
+      "company": "精誠金融",
+      "claim": "公司掌握全台逾七成刷卡終端設備銷售市佔率，以及超過半數之維修保養業務。",
+      "batch_id": "author-126",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://wwwov.tpex.org.tw/storage/emerging_register/2025/01/1736852644_3084_CH_7819.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }

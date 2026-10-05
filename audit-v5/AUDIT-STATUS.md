@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 05:04 UTC
+Updated: 2026-10-10 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **754 / 1,399**
-- Remaining author review: **645**
-- Latest batch: **author-125** (5 claims)
+- Author-reviewed: **757 / 1,399**
+- Remaining author review: **642**
+- Latest batch: **author-126** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **489**
+- `PARTIALLY_SUPPORTED`: **491**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **178**
+- `UNKNOWN_AFTER_RESEARCH`: **179**
 
 ## Latest claim batch
 
-- `6462:objective_ranking_or_market_share:d15da7bf0a3e513d` — `UNKNOWN_AFTER_RESEARCH`；神盾議事手冊「指紋」25次，惟「三星」「Samsung」「起亞」「KIA」「CSP」「IP驗證」皆0次，且「市占」2次皆為**目標敘述**。
-- `6690:objective_ranking_or_market_share:2ca855b26577abb8` — `PARTIALLY_SUPPORTED`；安碁文件「**宏碁」92 次**、「SOC」61次、「委外」3次；惟「台灣最大」0次，「領導」2次為「領導能力」與「技術領導廠商」。
-- `6690:objective_ranking_or_market_share:e280e76cce489447` — `UNKNOWN_AFTER_RESEARCH`；「市佔」「六成」「45%」「40%」皆0次；「**300」20 次多為財務數字**（300,000／300,500 仟元）。
-- `6763:objective_ranking_or_market_share:66e5afa9447c9ff4` — `PARTIALLY_SUPPORTED`；綠界年報「第三方支付」26次、「信用卡」37次；惟「市占」1次為目標敘述，「**最大」8 次多為泛用語**（最大的潛能／最大限度／最大值）。
-- `6878:objective_ranking_or_market_share:ac1050bc146ee810` — `PARTIALLY_SUPPORTED`；歐付寶議事手冊「電子支付」19次、「專營」4次；惟「綠界」「第一家」「執照」「2015」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-125.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6925:objective_ranking_or_market_share:f4539b5294dcb0a4` (意藍).
+- `6925:objective_ranking_or_market_share:f4539b5294dcb0a4` — `PARTIALLY_SUPPORTED`；意藍文件載「**《OpView 社群口碑資料》評選為第一名**」＋「大數據」6次、「語意」4次、「**SaaS」8 次**；惟「**市佔」0 次**，且「第一」2次之一為「第一時間展開接觸」。
+- `7547:objective_ranking_or_market_share:516a2ec6196c6b5e` — `PARTIALLY_SUPPORTED`；碩網簡報載「**客戶數：全球市場企業客戶＞700家**」＋「SmartRobot」2次、「智能客服」7次、「金融」4次；惟「**八成」「市占」皆 0 次**。
+- `7819:objective_ranking_or_market_share:e0b3c59b20774ef5` — `UNKNOWN_AFTER_RESEARCH`；精誠金融端點 **SSL/TLS 憑證信任失敗**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-126.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `3576:objective_ranking_or_market_share:862c3863436e97cd` (聯合再生).
 
 ## Source access
 

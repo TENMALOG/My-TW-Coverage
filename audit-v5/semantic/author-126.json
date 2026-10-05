@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-126",
+  "reviewed_at": "2026-10-05T20:34:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (意藍公司概況資料表; 碩網上櫃前業績發表會簡報); 精誠金融端點SSL/TLS憑證信任失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6925:objective_ranking_or_market_share:f4539b5294dcb0a4",
+      "normalized_claim_hash": "f4539b5294dcb0a430a0fc4d8c9aca8e19eca84dab92bddb3d0eab7895a2c4ac",
+      "ticker": "6925",
+      "company": "意藍",
+      "path": "Pilot_Reports/Software - Infrastructure/6925_意藍.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "意藍資訊股份有限公司 (6925) 為台灣「大數據語意分析」與「[[AI]] 社群聲量監測」領域市佔第一之 [[SaaS]] 軟體商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2022/10/1665114468_13472_CH_6925.pdf",
+          "title": "意藍資訊股份有限公司（意藍，6925，Eland Information）公司概況資料表",
+          "source_level": 3,
+          "period_binding": "2022年10月登錄資料。",
+          "accessed_at": "2026-10-10",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取8,086字元）。文件載「別，意藍資訊《**OpView 社群口碑資料**》，**評選為第一名**」，並見「**大數據**」6次、「**語意**」4次、「**SaaS**」8次、「社群」2次，支持其大數據語意分析與社群聲量監測之業務。全份文件中「**市佔**」之出現次數為0；「**第一**」2次之上下文分別為上述「評選為第一名」與「**第一**時間展開接觸與推廣交叉銷」（非排名）。"
+        }
+      ],
+      "rationale": "「為『大數據語意分析』與『社群聲量監測』領域之 SaaS 軟體商」獲發行人相關文件支持：文件載「意藍資訊《**OpView 社群口碑資料**》，評選為第一名」，並見「**大數據**」6次、「**語意**」4次、「**SaaS**」8次，支持其業務領域。惟「**市佔第一**」未獲支持：全份文件中「**市佔**」出現次數為0；「**第一**」2次之上下文分別為「（產品）**評選為第一名**」（屬**獎項／評選**而非市占率）與「**第一**時間展開接觸與推廣交叉銷」（非排名）。故部分成立。",
+      "proposed_text": "意藍資訊 (6925，Eland Information) 為從事大數據語意分析及社群聲量監測之 SaaS 軟體商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7547:objective_ranking_or_market_share:516a2ec6196c6b5e",
+      "normalized_claim_hash": "516a2ec6196c6b5edcb9929364484ec2ac649d0f634d08dc552deaa5839b5932",
+      "ticker": "7547",
+      "company": "碩網",
+      "path": "Pilot_Reports/Software - Infrastructure/7547_碩網.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心產品 SmartRobot 智能客服系統在台灣金融業擁有超過八成市佔率，累積逾 700 家企業客戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/754720250702E001.pdf",
+          "title": "碩網資訊股份有限公司（碩網，7547，Intumit）上櫃前業績發表會簡報",
+          "source_level": 3,
+          "period_binding": "2025年7月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,694字元，以圖形排版為主）。簡報載「**客戶數：全球市場企業客戶＞700家**」與「Success Cases (IV) – Over **700+ Customers**」（「700」4次），並見「**SmartRobot**」2次、「**智能客服**」7次、「**金融**」4次，支持其智能客服系統業務及逾700家企業客戶之敘述。全份簡報中「**八成**」與「**市占**」之出現次數均為0；「700」其餘2次之上下文為認證項目（「CMMI Level 3、ISO 27001」）。"
+        }
+      ],
+      "rationale": "「累積逾 **700 家**企業客戶」獲發行人簡報支持：簡報載「**客戶數：全球市場企業客戶＞700家**」與「Success Cases (IV) – Over **700+ Customers**」；「核心產品 **SmartRobot 智能客服**系統」亦獲支持（「SmartRobot」2次、「智能客服」7次、「金融」4次）。惟「在台灣金融業擁有**超過八成市佔率**」未獲支持：全份簡報中「**八成**」與「**市占**」之出現次數**均為0**，未載該市占率。故部分成立（並註記該簡報文字擷取僅9,694字元，以圖形排版為主）。",
+      "proposed_text": "碩網資訊 (7547，Intumit) 之核心產品為 SmartRobot 智能客服系統，累積逾 700 家企業客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7819:objective_ranking_or_market_share:e0b3c59b20774ef5",
+      "normalized_claim_hash": "e0b3c59b20774ef51af2d409e1f663ca7201ffd9d0421db57dc2f7875fe59647",
+      "ticker": "7819",
+      "company": "精誠金融",
+      "path": "Pilot_Reports/Software - Infrastructure/7819_精誠金融.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司掌握全台逾七成刷卡終端設備銷售市佔率，以及超過半數之維修保養業務。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://wwwov.tpex.org.tw/storage/emerging_register/2025/01/1736852644_3084_CH_7819.pdf",
+          "title": "精誠金融科技股份有限公司（精誠金融，7819，Systex Fintech）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-10。",
+          "accessed_at": "2026-10-10",
+          "note": "本批次自財團法人中華民國證券櫃檯買賣中心相關網域下載該公司登錄資料時，連線**「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」**（憑證信任失敗），未取得可檢視之檔案；本批次未取得精誠金融可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「公司掌握全台逾七成刷卡終端設備銷售市佔率，以及超過半數之維修保養業務」未獲確立：本批次自財團法人中華民國證券櫃檯買賣中心相關網域下載該公司資料時遭 **SSL/TLS 安全通道信任關係失敗**，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
