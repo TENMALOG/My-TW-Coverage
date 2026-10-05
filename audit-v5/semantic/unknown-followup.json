@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:49:48Z",
+  "generated_at": "2026-10-05T22:50:58Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -237,17 +237,18 @@
     "author-231",
     "author-232",
     "author-233",
-    "author-234"
+    "author-234",
+    "author-235"
   ],
-  "source_batch_count": 234,
-  "total_unknown": 338,
+  "source_batch_count": 235,
+  "total_unknown": 343,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 143,
-    "other_unclassified": 129,
+    "no_official_endpoint_found": 145,
+    "other_unclassified": 131,
     "tls_failure": 14,
     "mops_non_document": 47,
-    "non_document_response": 46,
-    "http_404": 72,
+    "non_document_response": 47,
+    "http_404": 74,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5195,6 +5196,78 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/624620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6442:material_named_relationship:f046268bd348d4dc",
+      "ticker": "6442",
+      "company": "光聖",
+      "claim": "隨著[[AI[[伺服器]]]]與雲端運算帶來龐大的數據傳輸需求，光聖的高階光被動元件與多芯光纖[[連接器]]需求暴增，並成功打入美系大型[[雲端服務]]供應商([[CSP]])的[[資料中心]]供應鏈。",
+      "batch_id": "author-235",
+      "failure_signature": [
+        "non_document_response"
+      ],
+      "attempted_sources": [
+        "https://www.ezconn.com/csr/2024%20EZconn%20Sustainability%20Report-CH.pdf"
+      ],
+      "recommended_retry": "於 MOPS 端點正常供檔時重試，或改由公司官網其他年度文件"
+    },
+    {
+      "claim_id": "6456:material_named_relationship:251573f509b34a00",
+      "ticker": "6456",
+      "company": "GIS-KY",
+      "claim": "[[Apple]](iPad及MacBook觸控/顯示模組之核心供應商)、三星及各大[[AR]]/[[VR]]頭戴裝置品牌。",
+      "batch_id": "author-235",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://emops.twse.com.tw/nas/STR/645620220307E001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6517:profitability_assertion:6537fc6de89289a3",
+      "ticker": "6517",
+      "company": "保勝光學",
+      "claim": "業務結構與利基：(1) 半導體設備光學 — 成功打入 [[ASML]] 曝光機鏡頭供應鏈，供應 [[EUV]]/DUV 曝光設備所需之高精度光學元件，為高毛利核心成長引擎；",
+      "batch_id": "author-235",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.baso.com.tw/archive/investors/item/%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1/107%e5%b9%b4%e5%ba%a6%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6407:material_named_relationship:a34e8291ea05e6ae",
+      "ticker": "6407",
+      "company": "相互",
+      "claim": "近年來，受惠於主要客戶[[華為]](Huawei)重返[[5G]]手機市場，帶動其鏡頭模組用版需求大增，成為相互營收成長的重要動能。",
+      "batch_id": "author-235",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/640720250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6498:material_named_relationship:3d1cf43565ca8016",
+      "ticker": "6498",
+      "company": "久禾光",
+      "claim": "受惠於[[電動車]]智能化趨勢，弘凱不僅打入多家國際一線車廠供應鏈，更將其先進的光感測與封裝技術延伸至[[AI]][[機器人]](如人形[[機器人]]視覺感測)、無人機與[[5G]][[矽光子]]聯盟。",
+      "batch_id": "author-235",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/649820250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

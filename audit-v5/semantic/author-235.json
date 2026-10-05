@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-235",
+  "reviewed_at": "2026-10-05T22:50:43Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (光聖所取得檔案為網站列印稿; GIS-KY英文投資人簡報; 保勝107年度年報; 勁豐2024法說會簡報); 相互與久禾光端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "6577:material_named_relationship:f31c724d57d9cdc3",
+      "normalized_claim_hash": "f31c724d57d9cdc30875d06bb6e01e6751d7c4c18fdf988e9844a001db1199dd",
+      "ticker": "6577",
+      "company": "勁豐",
+      "path": "Pilot_Reports/Electronic Components/6577_勁豐.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與動能：(1) 醫療照護 — 病床邊照護系統 (Bedside Terminal)、手術室顯示器等醫療級觸控顯示裝置，通過歐美醫療認證 (如 [[UL]]、IEC 60601)，供應歐美醫療設備整合商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/657720241203M001.pdf",
+          "title": "勁豐電子股份有限公司（勁豐，6577，FocalTech Systems?／勁豐）法人說明會簡報（2024-12-03）",
+          "source_level": 3,
+          "period_binding": "2024年12月3日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,569字元，以圖形排版為主）。簡報中「**醫療**」出現9次，**支持其醫療相關業務**。**關鍵發現**：全份簡報中「**病床**」「**Bedside**」與「照護系統」之出現次數**均為0**——**未載病床邊照護系統（Bedside Terminal）之產品敘述**。"
+        }
+      ],
+      "rationale": "「(1) **醫療照護**（**照護系統**）」獲發行人簡報之**部分支持**：簡報中「**醫療**」出現9次，**支持其醫療相關業務**。**惟該 claim 之核心產品名稱未獲支持**：「**病床**」「**Bedside**」與「照護系統」之出現次數**均為0**——**未見病床邊照護系統（Bedside Terminal）之敘述**。故部分成立。",
+      "proposed_text": "勁豐電子 (6577) 之業務涵蓋醫療相關領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6442:material_named_relationship:f046268bd348d4dc",
+      "normalized_claim_hash": "f046268bd348d4dcc82d214dac527df309bbc4be970560330fa3a4cdd51da50a",
+      "ticker": "6442",
+      "company": "光聖",
+      "path": "Pilot_Reports/Electronic Components/6442_光聖.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "隨著[[AI[[伺服器]]]]與雲端運算帶來龐大的數據傳輸需求，光聖的高階光被動元件與多芯光纖[[連接器]]需求暴增，並成功打入美系大型[[雲端服務]]供應商([[CSP]])的[[資料中心]]供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ezconn.com/csr/2024%20EZconn%20Sustainability%20Report-CH.pdf",
+          "title": "光聖科技股份有限公司（光聖，6442，EZconn）所取得檔案（查證限制：網站列印稿）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自發行人官方網域所取得之檔案**並非永續報告書，而係該公司官方網站之列印稿**（文字擷取7,122字元；內容為「About EZconn」「Sustainability」「INVESTOR」「PRODUCTS」等**網站導覽文字**，並見英文產品分類「Fiber Optics Products」「Next generation Passive Optical Network (PON)」「Data Communication」「Satellite Communication」「5G」）。**關鍵發現（非文件內容）**：**該檔案為網站頁面擷取，非正式申報文件**；且全份未見「**光被動**」「**多芯**」「**AI 伺服器**」「雲端」與「數據傳輸」等 claim 所述之詞彙。"
+        }
+      ],
+      "rationale": "「隨著 [[AI 伺服器]]與**雲端**運算帶來龐大的**數據傳輸**需求，光聖的高階**光被動**元件與**多芯**（光纖）」未獲確立：本批次自發行人官方網域所取得之檔案**並非永續報告書，而係該公司官方網站之列印稿**（內容為網站導覽文字與英文產品分類），**非正式申報文件**；且全份未見「**光被動**」「**多芯**」「**AI 伺服器**」「**雲端**」與「**數據傳輸**」等詞彙。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或正式之永續報告書 PDF 複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6456:material_named_relationship:251573f509b34a00",
+      "normalized_claim_hash": "251573f509b34a00313657bf4556af07b95d97bb38fdf0865d0ab95e6b322edb",
+      "ticker": "6456",
+      "company": "GIS-KY",
+      "path": "Pilot_Reports/Electronic Components/6456_GIS-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]](iPad及MacBook觸控/顯示模組之核心供應商)、三星及各大[[AR]]/[[VR]]頭戴裝置品牌。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/645620220307E001.pdf",
+          "title": "General Interface Solution (GIS) Holding Limited（GIS-KY，6456）法人說明會簡報（2022-03）",
+          "source_level": 3,
+          "period_binding": "2022年3月。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,069字元，**英文投資人簡報**）。簡報封面載「General Interface Solution (GIS) Holding Limited TWSE **6456** 2022/3」，內容為免責聲明與財務性質之投資人簡報（「GIS」8次）。**關鍵發現**：全份簡報中「**Apple**」「**iPad**」「**MacBook**」「**觸控**」「**三星**」與「面板」之出現次數**均為0**——**未具名客戶或載明產品線**。"
+        }
+      ],
+      "rationale": "「[[Apple]]（**iPad** 及 **MacBook** **觸控**／顯示模組之**核心供應商**）、**三星**及各大（品牌）」未獲確立：所取得之GIS-KY 2022年3月法人說明會簡報為**英文投資人簡報**，其中「**Apple**」「**iPad**」「**MacBook**」「**觸控**」「**三星**」與「面板」之出現次數**均為0**，**未具名客戶或載明產品線**。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6517:profitability_assertion:6537fc6de89289a3",
+      "normalized_claim_hash": "6537fc6de89289a39445525cf4752a740e6c62a56985fc8204c3c067a2b80839",
+      "ticker": "6517",
+      "company": "保勝光學",
+      "path": "Pilot_Reports/Electronic Components/6517_保勝光學.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與利基：(1) 半導體設備光學 — 成功打入 [[ASML]] 曝光機鏡頭供應鏈，供應 [[EUV]]/DUV 曝光設備所需之高精度光學元件，為高毛利核心成長引擎；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.baso.com.tw/archive/investors/item/%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1/107%e5%b9%b4%e5%ba%a6%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "保勝光學股份有限公司（保勝光學，6517，BASO Precision Optics）一○七年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國107年度（2018年）。**文件版本較舊**。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取176,495字元）。年報中「**光學**」出現242次、「**鏡頭**」117次，**確認其為光學鏡頭業者**。**關鍵發現**：全份年報中「**ASML**」「**艾司摩爾**」「**曝光**（機）」與「**半導體**」之出現次數**均為0**——**未載半導體設備光學或 ASML 供應鏈**。**時點註記**：該年報為民國107年度（2018年）版本。"
+        }
+      ],
+      "rationale": "「(1) **半導體設備光學** — 成功打入 **[[ASML]] 曝光機鏡頭**供應鏈」未獲確立：所取得之保勝一○七年度年報中「**光學**」出現242次、「**鏡頭**」117次（確認其為光學鏡頭業者），**惟「ASML」「艾司摩爾」「曝光（機）」與「半導體」之出現次數均為0**——**未載半導體設備光學或 ASML 供應鏈**。**時點註記**：該年報為**民國107年度（2018年）**版本。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由較新年度之年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6407:material_named_relationship:a34e8291ea05e6ae",
+      "normalized_claim_hash": "a34e8291ea05e6aee1ae524b4a46a06cab98452ebcc9a6667d984207f3b7eae3",
+      "ticker": "6407",
+      "company": "相互",
+      "path": "Pilot_Reports/Electronic Components/6407_相互.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，受惠於主要客戶[[華為]](Huawei)重返[[5G]]手機市場，帶動其鏡頭模組用版需求大增，成為相互營收成長的重要動能。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/640720250401M001.pdf",
+          "title": "相互電子（6407）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之相互電子簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得相互電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近年來，受惠於主要客戶 [[華為]](Huawei) 重返 [[5G]] 手機市場，帶動其**鏡頭模組**（需求）」未獲確立：本批次所嘗試之相互簡報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6498:material_named_relationship:3d1cf43565ca8016",
+      "normalized_claim_hash": "3d1cf43565ca8016bf1587b4e130d56ec79b44aea35550321bc637a8ca7a4730",
+      "ticker": "6498",
+      "company": "久禾光",
+      "path": "Pilot_Reports/Electronic Components/6498_久禾光.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "受惠於[[電動車]]智能化趨勢，弘凱不僅打入多家國際一線車廠供應鏈，更將其先進的光感測與封裝技術延伸至[[AI]][[機器人]](如人形[[機器人]]視覺感測)、無人機與[[5G]][[矽光子]]聯盟。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/649820250401M001.pdf",
+          "title": "久禾光電（6498）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之久禾光電簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得久禾光電可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「受惠於 [[電動車]]智能化趨勢，（弘凱）不僅打入多家國際一線車廠供應鏈，更將其先進的光感測與封（裝）…」未獲確立：本批次所嘗試之端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 18:04 UTC
+Updated: 2026-10-14 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,192 / 1,399**
-- Remaining author review: **207**
-- Latest batch: **author-234** (6 claims)
+- Author-reviewed: **1,198 / 1,399**
+- Remaining author review: **201**
+- Latest batch: **author-235** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **101**
-- `PARTIALLY_SUPPORTED`: **748**
+- `PARTIALLY_SUPPORTED`: **749**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **338**
+- `UNKNOWN_AFTER_RESEARCH`: **343**
 
 ## Latest claim batch
 
-- `6217:profitability_assertion:e88c8f3648ead646` — `PARTIALLY_SUPPORTED`；中探針簡報「**探針」10 次、「Socket」10 次、「高功率」3 次**並載「**Test Socket**將以6.1%的年複合成長率成長」；**惟「測試座（中文）／高毛利」皆 0 次**。
-- `6272:material_named_relationship:26fd9e31be5e5d75` — `PARTIALLY_SUPPORTED`；驊陞簡報載「**切入 AI SERVER 與 HPC 超算平台高速互連市場**」（AI 5次）；**惟「NVIDIA／GPU／加速器」皆 0 次**。
-- `6283:material_named_relationship:6446a9912b354a7f` — `PARTIALLY_SUPPORTED`；淳安簡報「**車載」2 次、「ADAS」3 次、「ECU」2 次**；**惟「淳敏／鏡頭」皆 0 次**。
-- `6405:material_named_relationship:5e6bfe6393ffffc7` — `PARTIALLY_SUPPORTED`；悅城簡報「**面板」6 次**；**惟「友達／群創／AI 晶（片）」皆 0 次**（**該簡報為2012年版本**）。
-- `6210:735bde0845d750f2`、`6246:dfe971c03747a12f` — `UNKNOWN_AFTER_RESEARCH` ×2；慶生與臺龍端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-234.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,192 ＝ 條目總數 1,192。
-- Next pending claim by priority: `6407:material_named_relationship:a34e8291ea05e6ae` (相互).
+- `6577:material_named_relationship:f31c724d57d9cdc3` — `PARTIALLY_SUPPORTED`；勁豐簡報「**醫療」9 次**；**惟「病床／Bedside／照護系統」皆 0 次**。
+- ⚠️ `6442:material_named_relationship:f046268bd348d4dc` — `UNKNOWN_AFTER_RESEARCH`；**所取得檔案並非永續報告書，而係官方網站列印稿**（非正式申報文件），「**光被動／多芯／數據傳輸」皆 0 次**。
+- `6456:material_named_relationship:251573f509b34a00` — `UNKNOWN_AFTER_RESEARCH`；GIS-KY簡報為**英文投資人簡報**，「**Apple／iPad／MacBook／觸控／三星」皆 0 次**。
+- `6517:profitability_assertion:6537fc6de89289a3` — `UNKNOWN_AFTER_RESEARCH`；保勝107年度年報「**光學」242 次、「鏡頭」117 次**；**惟「ASML／曝光／半導體」皆 0 次**（**年報為2018年版本**）。
+- `6407:a34e8291ea05e6ae`、`6498:3d1cf43565ca8016` — `UNKNOWN_AFTER_RESEARCH` ×2；相互與久禾光端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-235.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,198 ＝ 條目總數 1,198。
+- Next pending claim by priority: `6609:export_concentration:775f64fef4533de1` (瀧澤科).
 
 ## Source access
 
