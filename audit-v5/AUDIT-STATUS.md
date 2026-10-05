@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 16:02 UTC
+Updated: 2026-10-05 16:34 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **28 / 1,399**
-- Remaining author review: **1,371**
-- Latest batch: **author-015** (2 claims)
+- Author-reviewed: **31 / 1,399**
+- Remaining author review: **1,368**
+- Latest batch: **author-016** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **7**
-- `PARTIALLY_SUPPORTED`: **17**
+- `PARTIALLY_SUPPORTED`: **19**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **0**
+- `UNKNOWN_AFTER_RESEARCH`: **1**
 
 ## Latest claim batch
 
-- `1476:objective_ranking_or_market_share:f6132ace76c9ad00` — `PARTIALLY_SUPPORTED`; 儒鴻民國115年第二季法人說明會簡報第11頁「國際認證」具名列示 NIKE、ADIDAS，支持 NIKE 為其國際品牌合作對象；惟114年度年報將最大客戶匿名為代號「A」（114年度占銷貨淨額16.44%），未具名，法說會簡報亦未揭露客戶排名，故「最大客戶」未獲權威來源確立。
-- `1477:objective_ranking_or_market_share:7c3598761946783e` — `PARTIALLY_SUPPORTED`; 聚陽民國114年官方公司簡介（公開資訊觀測站）「生產基地」欄列示越南、印尼、柬埔寨、中國、菲律賓，支持 claim 所列五國；惟官方來源自我定位為「亞太地區著名的全流程整合成衣製造商」，未作台灣境內排名陳述，故「台灣最大成衣 OEM/ODM 廠之一」未獲確立。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-015.json`。未修改發行人報告。
-- Next pending claim by priority: `4414:objective_ranking_or_market_share:cb90ae7e677cf480` (如興).
+- `4414:objective_ranking_or_market_share:cb90ae7e677cf480` — `PARTIALLY_SUPPORTED`; 如興民國114年法說會簡報第11頁標題「全球布局之牛仔褲專業製造商」、第8頁列示被收購公司「玖地製造有限公司及Tooku Holdings Limited」明細，支持牛仔褲製造商定位與玖地收購；惟第4頁自述為「全球前三牛仔成衣廠」而非最大，且2024年全年銷量60,913仟件與 claim 的1.2億件訂單／9,000萬件製造量不符，故「全球最大」及所述數字不成立。
+- `4432:objective_ranking_or_market_share:5839812e308b4ea7` — `UNKNOWN_AFTER_RESEARCH`; 銘旺實113年度年報第87頁以代號揭露最大客戶（客戶甲）占銷貨淨額29.38%，與 claim 所述「約20%」不符，且231頁年報與官方網站均未出現 Under Armour；既不能確認亦無證據否定，依政策以 UNKNOWN_AFTER_RESEARCH 結案。
+- `4438:objective_ranking_or_market_share:05ea182e0e761907` — `PARTIALLY_SUPPORTED`; 廣越2025年11月官方法說會簡報第14頁「成立於1995年」支持成立時間；惟第15頁自述「全球前三大高端戶外機能服飾製造商」，未使用「最大」，故「全球最大高階羽絨外套製造商」不成立。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-016.json`。未修改發行人報告。
+- Next pending claim by priority: `8932:objective_ranking_or_market_share:39298f531ff2064c` (智通).
 
 ## Source access
 

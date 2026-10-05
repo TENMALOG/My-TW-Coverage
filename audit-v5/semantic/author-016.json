@@ -1,0 +1,92 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-016",
+  "reviewed_at": "2026-10-05T15:07:48Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official issuer disclosures (如興 民國114年法說會簡報, 銘旺實 113年度年報 PDF and official website, 廣越 2025/11 法人說明會簡報 from MOPS); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "4414:objective_ranking_or_market_share:cb90ae7e677cf480",
+      "normalized_claim_hash": "cb90ae7e677cf480f83ed4e5505d01698f2bb287e37f7997df553edb6d41012a",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Textiles/4414_如興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "如興股份有限公司 (4414，Ru Xing) 為全球最大牛仔褲製造商 (依產量計)，收購[[玖地集團]] (JD United) 後年訂單量達 1.2 億件 (全球市佔約 10%)，年製造量 9,000 萬件 (市佔約 8%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://roohsing.com/data/shareholder_legal/1765436610TE8R5.pdf",
+          "title": "如興股份有限公司 民國114年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "民國114年前三季（2025 Q1–Q3）及2024年全年；客戶銷量占比比較2025年1-9月與2024年1-9月；產能規劃為2024年實際與2026年規劃。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第4頁「集團營運概況」標題載明「全球前三牛仔成衣廠」，並列2024年全年銷量60,913仟件、營業額NT$149億；2025年前三季銷量42,932仟件、營業額NT$104億。第10頁客戶發展策略列2025年1-9月銷量占比：WalMart 33%、LEVI'S 27%、GAP 19%、GU 12%、TCP 3%、其他6%，前五大客戶營收占比94%（2024年同期93%）。第11頁標題「全球布局之牛仔褲專業製造商」，並載集團以中國為研發中心、美國／香港／日本為接單主體、東南亞及東非為生產重心，2026年規劃產能柬埔寨<70%、坦尚尼亞>30%。第8頁列示被收購公司「玖地製造有限公司及Tooku Holdings Limited」之商譽與客戶關係變動明細（收購溢價合計8,582,580仟元，其中玖地及Tooku商譽4,687,666仟元），佐證玖地集團收購事實及其後續減損。"
+        }
+      ],
+      "rationale": "牛仔褲專業製造商之定位與玖地集團收購事實獲發行人官方簡報支持（第11頁標題、第8頁被收購公司明細）。惟「全球最大」不獲支持：發行人最新（民國114年）法說會自述為「全球前三牛仔成衣廠」，而非最大。此外 claim 所述年訂單量1.2億件、年製造量9,000萬件、全球市佔約10%／8% 均未獲查閱來源支持，且與發行人現行揭露之規模不一致（2024年全年銷量60,913仟件、約6,091萬件，2025年前三季42,932仟件）；該等數字屬收購玖地當期（約2017–2019年）之歷史敘述，並非現況。故本 claim 於牛仔褲製造商定位及玖地收購範圍內成立，於「全球最大」及所述產量／市占數字範圍內不成立。",
+      "proposed_text": "如興為全球前三大牛仔成衣製造商（依產量計），收購[[玖地集團]]後以中國為研發中心，並以東南亞及東非為生產重心。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4432:objective_ranking_or_market_share:5839812e308b4ea7",
+      "normalized_claim_hash": "5839812e308b4ea760367acda59bb231d66e274b8245edd6cf2ae62a1d19de96",
+      "ticker": "4432",
+      "company": "銘旺實",
+      "path": "Pilot_Reports/Textiles/4432_銘旺實.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Under Armour]] — 佔營收約 20%，最大客戶；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.haksport.com/wp-content/uploads/2025/12/%E6%B0%91%E5%9C%8B113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "銘旺實業股份有限公司（HAKERS ENTERPRISE CO., LTD.）一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度（2024）及112年度；年報查詢網址指向公開資訊觀測站。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第87頁「最近二年度任一年度中曾占銷貨總額百分之十以上之客戶名稱及其銷貨金額與比例」以代號揭露：113年度客戶甲330,335仟元占29.38%、客戶乙130,553仟元占11.61%、客人丙124,271仟元占11.05%、客戶丁123,210仟元占10.96%、其他37.00%，銷貨淨額1,124,461仟元；註1載明「因契約約定不得揭露客戶名稱…得以代號為之」。第98頁「進貨或銷貨集中所面臨之風險及因應措施」載「113年度大客戶佔比最大客戶超過29%」。全份年報（231頁）中 Under Armour 出現次數為 0。故最大客戶身分未揭露，且其占比29.38%與 claim 所述「約20%」不一致。"
+        },
+        {
+          "url": "https://www.haksport.com/",
+          "title": "銘旺實業股份有限公司 官方網站（關於我們／首頁）",
+          "source_level": 3,
+          "period_binding": "官方現行網站內容，查證日2026-10-05；敘述公司自民國75年創立及現行生產基地（越南、緬甸、寮國、中國）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接開啟並檢視發行人官方網站（含首頁與「關於我們」頁）。官網敘述公司專注功能性服裝研發與生產、OEM+ODM 一站式服務，生產基地為越南、緬甸、寮國、中國；全站未具名任何品牌客戶，亦未出現 Under Armour。"
+        }
+      ],
+      "rationale": "查閱發行人113年度年報（231頁）與官方網站後，無法確立 Under Armour 為銘旺實客戶或其占營收約20%：年報依契約約定將客戶以代號揭露，最大客戶（客戶甲）113年度占銷貨淨額29.38%，與 claim 所述「約20%」不符，且全份年報與官網均未出現 Under Armour。本項既無權威來源可確認該品牌關係，亦無證據可否定之，依 SEMANTIC-REVIEW-POLICY「Unknown can close only as UNKNOWN_AFTER_RESEARCH with documented authoritative research」以 UNKNOWN_AFTER_RESEARCH 結案，並保留其與官方揭露數字不一致之事實供後續研究者參考。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4438:objective_ranking_or_market_share:05ea182e0e761907",
+      "normalized_claim_hash": "05ea182e0e7619078a80863dd6914a2f680543e369bdaa0e94e10d5e4aa2c063",
+      "ticker": "4438",
+      "company": "廣越",
+      "path": "Pilot_Reports/Textiles/4438_廣越.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球最大高階羽絨外套製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/443820251111M001.pdf",
+          "title": "廣越企業股份有限公司 法人說明會簡報（2025年11月）",
+          "source_level": 3,
+          "period_binding": "2024年營運與產品組合數據、2025年11月現況；客戶占比為2024年全年。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人置於公開資訊觀測站之官方簡報。第14頁「ABOUT」原文：「成立於1995年，廣越為全球領先的高端機能服飾及羽絨衣製造商，專注於中高端戶外服飾、運動機能服製造」。第15頁標題原文：「廣越為全球前三大高端戶外機能服飾製造商」，並列產品組合(2024) 羽絨夾克34.53%、樹脂棉夾克23.26%、薄外套/大衣14.99%、針織11.24%，以及越南5廠約13,000人、中國2廠約2,000人、約旦2廠約5,200人、羅馬尼亞1廠約455人。第16頁列2024年前十大客戶營收占比：adidas 20%、PATAGONIA 16%、VF 11%、UNDER ARMOUR 6%、ARITZIA 6%、NIKE 6%、New Balance 5%、MontBell 4%、Helly Hansen 2%、Lululemon 1%。上述支持成立於1995年及高階機能服飾／羽絨衣製造商之定位，惟官方最高級陳述為「全球前三大」與「全球領先」，而非「全球最大」。"
+        }
+      ],
+      "rationale": "成立時間獲發行人官方簡報支持（第14頁「成立於1995年」）。惟「全球最大高階羽絨外套製造商」不獲支持：發行人2025年11月官方法說會簡報第15頁明載「廣越為全球前三大高端戶外機能服飾製造商」，第14頁則自述為「全球領先的高端機能服飾及羽絨衣製造商」；查閱之官方來源均未使用「最大」之最高級表述，亦未提供可據以認定其為全球最大之市占數據。故本 claim 於成立時間與產品定位範圍內成立，於「全球最大」之排名範圍內不成立。",
+      "proposed_text": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球前三大高端戶外機能服飾及羽絨衣製造商。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

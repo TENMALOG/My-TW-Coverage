@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **28 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), and `author-015` (2).
+Author-reviewed: **31 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), and `author-016` (3).
 
 - ACCEPTED by author: 7
-- PARTIALLY_SUPPORTED: 17
+- PARTIALLY_SUPPORTED: 19
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 0
-- Remaining author queue: 1,371
+- Other allowed author decisions: 1
+- Remaining author queue: 1,368
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -166,6 +166,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording for both partial claims is recorded in `semantic/author-015.json`; no issuer report was modified. Independent review remains pending.
 - 檢索限制：嘗試以公開資訊觀測站年報端點取得聚陽112、113年度年報時，端點回傳 HTTP 200 但內容僅 320 bytes（非文件內容），故未取得該兩年度年報；此為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 應記錄之重大暫時性失敗門檻。佇列維持 **15** 筆。
 - Author-reviewed total: **28 / 1,399**; remaining: **1,371**. Outcome counts: ACCEPTED 7, PARTIALLY_SUPPORTED 17, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 0. Next pending claim by priority: `4414:objective_ranking_or_market_share:cb90ae7e677cf480` (如興).
+
+## Author batch `author-016` — 2026-10-05
+
+- Reviewed the next three unreviewed objective ranking/market-share claims in checkpoint order (如興 4414, 銘旺實 4432, 廣越 4438). Evidence came from directly downloaded and inspected issuer investor-conference decks, an annual report PDF and an official website; search snippets were discovery leads only.
+- `4414:objective_ranking_or_market_share:cb90ae7e677cf480` — `PARTIALLY_SUPPORTED`. 如興民國114年法說會簡報第11頁標題「全球布局之牛仔褲專業製造商」，第8頁列示被收購公司「玖地製造有限公司及Tooku Holdings Limited」之商譽與客戶關係明細（收購溢價合計8,582,580仟元），支持牛仔褲製造商定位與玖地收購事實；惟第4頁自述為「全球前三牛仔成衣廠」，未支持「全球最大」；2024年全年銷量60,913仟件、2025年前三季42,932仟件，與 claim 所述1.2億件訂單／9,000萬件製造量及市佔10%／8% 不符。
+- `4432:objective_ranking_or_market_share:5839812e308b4ea7` — `UNKNOWN_AFTER_RESEARCH`. 銘旺實113年度年報第87頁以代號揭露銷貨客戶：客戶甲占29.38%、客戶乙11.61%、客人丙11.05%、客戶丁10.96%，第98頁載「113年度大客戶佔比最大客戶超過29%」；231頁年報與官方網站均未出現 Under Armour。客戶身分未揭露，其占比亦與 claim 所述「約20%」不一致，既無法確認亦無證據否定，依政策以 UNKNOWN_AFTER_RESEARCH 結案。
+- `4438:objective_ranking_or_market_share:05ea182e0e761907` — `PARTIALLY_SUPPORTED`. 廣越2025年11月官方法說會簡報第14頁載「成立於1995年」；惟第15頁標題為「廣越為全球前三大高端戶外機能服飾製造商」，第14頁自述「全球領先的高端機能服飾及羽絨衣製造商」，均未使用「最大」，故「全球最大高階羽絨外套製造商」不成立（2024年產品組合中羽絨夾克占34.53%）。
+- Proposed wording for the two partial claims is recorded in `semantic/author-016.json`; no issuer report was modified. Independent review remains pending.
+- 檢索紀錄：如興官網 `/data/qa/` 端點因 TLS 憑證信任問題無法下載（僅為檢索限制，未用以推論 claim）；銘旺實官網首次比對 Under Armour 時因未加字詞邊界而誤判，經逐一取出出現位置後確認為零命中，已改正。上述均未達 `local-recheck-queue.json` 應記錄之重大暫時性失敗門檻，佇列維持 **15** 筆。
+- Author-reviewed total: **31 / 1,399**; remaining: **1,368**. Outcome counts: ACCEPTED 7, PARTIALLY_SUPPORTED 19, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 1. Next pending claim by priority: `8932:objective_ranking_or_market_share:39298f531ff2064c` (智通).
+
 
 
 
