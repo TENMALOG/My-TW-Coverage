@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 22:04 UTC
+Updated: 2026-10-14 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,216 / 1,399**
-- Remaining author review: **183**
-- Latest batch: **author-238** (6 claims)
+- Author-reviewed: **1,222 / 1,399**
+- Remaining author review: **177**
+- Latest batch: **author-239** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **757**
+- `PARTIALLY_SUPPORTED`: **760**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **351**
+- `UNKNOWN_AFTER_RESEARCH`: **354**
 
 ## Latest claim batch
 
-- 🟢 `8215:identity_changing_event:5f3b48ccbf710c6f` — **`ACCEPTED`**；明基材2022年報設有「**(二)公司沿革**」章節，載「**1998 年07 月 設立達信科技股份有限公司**」（「**達信」16 次、「更名」6 次、「2010」6 次、「集團」28 次**）——**逐項對應**。
-- `8046:material_named_relationship:31359cd3d5f2fa10` — `PARTIALLY_SUPPORTED`；南電年報「**ABF」16 次**；**惟「Ajinomoto／味之素／積層絕緣膜」皆 0 次**。
-- `8049:material_named_relationship:1aa37ff766ae9b3d` — `PARTIALLY_SUPPORTED`；晶采簡報「**工控」5 次**；**惟「歐洲／六成／HMI／人機介面」皆 0 次**。
-- `8147:material_named_relationship:ec58d24269554297` — `PARTIALLY_SUPPORTED`；正淩文件載「**航太/國防(Aerospace)**」（航太2次）；**惟「AS9100／雙重／認證／連接器」皆 0 次**（**文件為智財管理報告書**）。
-- `8080:244f401c29e801b6`、`8111:bb359312a5d1edbc` — `UNKNOWN_AFTER_RESEARCH` ×2；泰霖與立碁端點 **HTTP 404**。
-- ⚠️ 附帶發現：`8111` 之 claim 文本將英文名「**Edison Opto**」歸於立碁，**該英文名實屬艾笛森光電（3591）**——已於紀錄中標示供複核者確認。
-- 證據記錄於 `semantic/author-238.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,216 ＝ 條目總數 1,216。
-- Next pending claim by priority: `6908:export_concentration:fd2c6df51c194b44` (宏碁遊戲).
+- `2354:material_named_relationship:8d538674a3923948` — `PARTIALLY_SUPPORTED`；鴻準年報載「【消費性電子產品(**遊戲機**)系統**組裝**】」（**遊戲機 34 次、組裝 17 次**）；**惟「任天堂／Nintendo／Switch／Apple」皆 0 次**。
+- `6150:material_named_relationship:0112c8a5be3447d0` — `PARTIALLY_SUPPORTED`；撼訊簡報「**AMD」8 次、「顯示卡」2 次**；**惟「全球／前列」與「主要供應商之一」未獲支持**。
+- `1472:identity_changing_event:ead6a8ddf3696763` — `PARTIALLY_SUPPORTED`；三洋實業簡報「**營造」6 次、「甲級」2 次、「更名」1 次**；**惟「上騰／政府標案」皆 0 次**。
+- `3528:profitability_assertion:90c59cc187b13900` — `UNKNOWN_AFTER_RESEARCH`；安馳簡報為**英文版**，「**工業／國防／醫療／測試／利基」皆 0 次**。
+- `6473:447f7733d52280f2`、`6908:fd2c6df51c194b44` — `UNKNOWN_AFTER_RESEARCH` ×2；美賣與宏碁遊戲端點 **HTTP 404**。
+- ⚠️ 附帶發現：`6908` 之 **company 欄位在來源佇列中為亂碼（「宏�砦C戲」）**，本審核以 ticker 為準並已標示該來源資料編碼瑕疵。
+- 證據記錄於 `semantic/author-239.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,222 ＝ 條目總數 1,222。
+- Next pending claim by priority: `2404:material_named_relationship:c9fafe0c318e0dc0` (漢唐).
 
 ## Source access
 

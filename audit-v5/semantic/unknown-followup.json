@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:55:41Z",
+  "generated_at": "2026-10-05T22:56:57Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -241,17 +241,18 @@
     "author-235",
     "author-236",
     "author-237",
-    "author-238"
+    "author-238",
+    "author-239"
   ],
-  "source_batch_count": 238,
-  "total_unknown": 351,
+  "source_batch_count": 239,
+  "total_unknown": 354,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 150,
-    "other_unclassified": 134,
+    "no_official_endpoint_found": 152,
+    "other_unclassified": 135,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 79,
+    "http_404": 81,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5388,6 +5389,50 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/811120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3528:profitability_assertion:90c59cc187b13900",
+      "ticker": "3528",
+      "company": "安馳",
+      "claim": "產品深耕工業自動化、國防航太、醫療與測試儀器等高毛利利基市場。",
+      "batch_id": "author-239",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/352820240827E001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6473:identity_changing_event:447f7733d52280f2",
+      "ticker": "6473",
+      "company": "美賣",
+      "claim": "美賣科技 (6473，meimaii，前身為好玩家) 為台灣社群電商平台營運商，2022 年由遊戲公司好玩家正式更名轉型。",
+      "batch_id": "author-239",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/647320250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6908:export_concentration:fd2c6df51c194b44",
+      "ticker": "6908",
+      "company": "宏�砦C戲",
+      "claim": "2024 年營收中硬體與周邊佔 76%、遊戲美術及其他佔 24%，內銷佔 57%、外銷佔 43%。",
+      "batch_id": "author-239",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/690820250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
