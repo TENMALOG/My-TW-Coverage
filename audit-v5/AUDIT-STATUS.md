@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 23:04 UTC
+Updated: 2026-10-06 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **85 / 1,399**
-- Remaining author review: **1,314**
-- Latest batch: **author-023** (7 claims)
+- Author-reviewed: **94 / 1,399**
+- Remaining author review: **1,305**
+- Latest batch: **author-024** (9 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **26**
-- `PARTIALLY_SUPPORTED`: **51**
+- `PARTIALLY_SUPPORTED`: **57**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **4**
+- `UNKNOWN_AFTER_RESEARCH`: **7**
 
 ## Latest claim batch
 
-- `2235:objective_ranking_or_market_share:2f804dd9a0a390da` — `PARTIALLY_SUPPORTED`; 謚源103年上櫃公開說明書載與堤維西自89年合作、北美銷售獨家委由堤維西、再由其美國子公司 GENERA 銷售予 General Parts Inc／LKQ／Amazon Services，第一大客戶堤維西占營收78.80%／77.44%；惟官方文件未出現 NAPA。
-- `2235:objective_ranking_or_market_share:f11191fc5107144b` — `ACCEPTED`; 同一公開說明書載「美國最大汽車維修通路商LKQ Corp.」，LKQ FY2025 10-K 亦載其北美部門營運北美最大替代性零件配送網路。
-- `2239:objective_ranking_or_market_share:f6f576305c25bdeb`、`95f5fff739fc9085` — `ACCEPTED` ×2; 英利公開發行說明書載一汽大眾為最大客戶（銷售占比80.24%→73.16%）、北京奔馳與上汽大眾列名主要客戶，並載「一汽大眾AUDI所有系列的儀錶板骨架皆為本集團生產」。
-- `2239:objective_ranking_or_market_share:1f382b871069e7dc`、`8d3dc1316d4155c8`、`f1b8e1134f6bc9d1` — `PARTIALLY_SUPPORTED` ×3; 說明書與2017法說會簡報支持 SymaLITE 專利授權與歐洲產線、首家國產化廠；惟均未載「亞洲唯一產線」「全球僅5條」，亦未將 Audi 與底盤護板連結。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-023.json`。未修改發行人報告。
-- Next pending claim by priority: `2245:objective_ranking_or_market_share:7ade1b140810fe09` (詠勝昌).
+- `2245:objective_ranking_or_market_share:7ade1b140810fe09`、`03b9308fa26ebeb9`、`9d1fc3aba637d71d` — `UNKNOWN_AFTER_RESEARCH` ×3; 詠勝昌115年第2季合併財務報告（38頁）僅載信用風險政策、未具名任何客戶，SMP／Federal-Mogul／BERU／Tenneco／BorgWarner 出現次數皆為0；發行人官網 nwwmfg.com 因 TLS 憑證問題不可達。
+- `2249:objective_ranking_or_market_share:f3cb005c6c4a4f6c` — `PARTIALLY_SUPPORTED`; 湧盛2020業績發表會簡報第5頁載主要產品為汽車空調壓縮機與熱交換器、第6頁載2012年起生產壓縮機；惟未載「台灣最大」或「出口量逾95%」（2026年9月法說會簡報為掃描影像，無可擷取文字）。
+- `2256:objective_ranking_or_market_share:922429090abb9e1a`、`904acb0030df90b3`、`8d2c0b8f1fbe9b0c` — `PARTIALLY_SUPPORTED` ×3; 歐特明114年度年報第5頁載自104年承接納智捷及小鵬汽車量產案，支持小鵬為客戶；惟第70頁客戶表以代號揭露（A客戶10.50%），未具名最大客戶，亦無「歷史占比逾80%」或「目標降至50%」。
+- `3162:objective_ranking_or_market_share:41c8c84e28a3f1c3`、`ef970bc4a035c623` — `PARTIALLY_SUPPORTED` ×2; 精確2025簡報第22頁列主要客戶蜂巢能源(吉利)、第24/26頁列億緯鋰能；惟第7頁將寧德時代列於「客戶認證中」，並非現有或最大客戶。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-024.json`。未修改發行人報告。
+- Next pending claim by priority: `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` (同致).
 
 ## Source access
 

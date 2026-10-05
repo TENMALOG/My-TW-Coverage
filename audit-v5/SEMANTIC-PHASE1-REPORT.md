@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **85 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), and `author-023` (7).
+Author-reviewed: **94 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), and `author-024` (9).
 
 - ACCEPTED by author: 26
-- PARTIALLY_SUPPORTED: 51
+- PARTIALLY_SUPPORTED: 57
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 4
-- Remaining author queue: 1,314
+- Other allowed author decisions: 7
+- Remaining author queue: 1,305
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -265,6 +265,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-023.json`; no issuer report was modified. Independent review remains pending.
 - 來源性質註記：謚源民國103年上櫃申請之公開說明書（全文以「本公司」自述）由承銷體系之凱基證券網域取得，內容屬發行人正式申報文件，故採為來源；其內含對堤維西營運與訴訟之詳細評估，已按事實摘記。本批次未新增來源取得失敗，`local-recheck-queue.json` 維持 **15** 筆。
 - Author-reviewed total: **85 / 1,399**; remaining: **1,314**. Outcome counts: ACCEPTED 26, PARTIALLY_SUPPORTED 51, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 4. Next pending claim by priority: `2245:objective_ranking_or_market_share:7ade1b140810fe09` (詠勝昌).
+
+## Author batch `author-024` — 2026-10-05
+
+- Reviewed the next nine unreviewed objective ranking/market-share claims in checkpoint order (詠勝昌 2245 ×3, 湧盛 2249, 歐特明 2256 ×3, 精確 3162 ×2). Evidence came from directly downloaded and inspected official disclosures: 詠勝昌115年第2季合併財務報告、湧盛2020年業績發表會簡報、歐特明114年度年報、精確公司簡介及2025營運展望。
+- `2245:objective_ranking_or_market_share:7ade1b140810fe09`、`03b9308fa26ebeb9`、`9d1fc3aba637d71d` — `UNKNOWN_AFTER_RESEARCH` ×3. 詠勝昌115年第2季合併財務報告（38頁）僅載信用風險管理政策（「對主要客戶予以評等」），未具名任何客戶；Standard Motor、Federal-Mogul、BERU、Tenneco、BorgWarner 出現次數均為0。發行人官網 nwwmfg.com 之 TLS 連線失敗，未取得年報或公開說明書。三家客戶關係與 SMP 之最大經銷商身分均未獲確立。
+- `2249:objective_ranking_or_market_share:f3cb005c6c4a4f6c` — `PARTIALLY_SUPPORTED`. 湧盛2020年官方簡報第5頁載主要產品為汽車空調壓縮機與熱交換器，第6頁載2012年起生產製造汽車空調壓縮機、2013年取得日本 SINLIN AUTOMOTIVE 95%股權，第31頁載2019年營收21.3億元；惟簡報未載「台灣最大」或「出口量逾95%」（其自身區域銷售為美洲56%、歐洲31%、亞洲12%）。2026年9月法說會簡報下載成功但為掃描影像，無法擷取文字。
+- `2256:objective_ranking_or_market_share:922429090abb9e1a`、`904acb0030df90b3`、`8d2c0b8f1fbe9b0c` — `PARTIALLY_SUPPORTED` ×3. 歐特明114年度年報第5頁載「本公司自104年承接納智捷及小鵬汽車量產案後，即投入全車360度視覺AI感知技術」，支持小鵬汽車為客戶；惟第70頁銷貨客戶揭露以代號表示（「A 客戶」114年度占10.50%），未具名小鵬為最大客戶，亦未載「歷史營收占比逾80%」或「目標降至50%」。
+- `3162:objective_ranking_or_market_share:41c8c84e28a3f1c3` 與 `ef970bc4a035c623` — `PARTIALLY_SUPPORTED`. 精確2025年官方簡報第22頁列主要客戶「蜂巢能源(吉利)」、第24及26頁列「億緯鋰能」；惟第7頁將「寧德時代」列於「客戶認證中」，顯示其並非現有客戶，故「寧德時代（最大）」不成立。
+- Proposed wording is recorded for the partial claims in `semantic/author-024.json`; no issuer report was modified. Independent review remains pending.
+- 來源檢索限制：詠勝昌官網 TLS 憑證失敗、湧盛2026法說會簡報為掃描影像；二者均為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 之門檻。佇列維持 **15** 筆。
+- Author-reviewed total: **94 / 1,399**; remaining: **1,305**. Outcome counts: ACCEPTED 26, PARTIALLY_SUPPORTED 57, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 7. Next pending claim by priority: `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` (同致).
+
 
 
 
