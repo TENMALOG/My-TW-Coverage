@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:48:32Z",
+  "generated_at": "2026-10-05T22:49:48Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -236,17 +236,18 @@
     "author-230",
     "author-231",
     "author-232",
-    "author-233"
+    "author-233",
+    "author-234"
   ],
-  "source_batch_count": 233,
-  "total_unknown": 336,
+  "source_batch_count": 234,
+  "total_unknown": 338,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 141,
+    "no_official_endpoint_found": 143,
     "other_unclassified": 129,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
-    "http_404": 70,
+    "http_404": 72,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5164,6 +5165,36 @@
       ],
       "attempted_sources": [
         "https://www.juic.com.tw/mdb/docs/524/5243_113.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6210:material_named_relationship:735bde0845d750f2",
+      "ticker": "6210",
+      "company": "慶生",
+      "claim": "隨著[[5G]]、[[電動車]]及[[AI]]邊緣運算的發展，慶生積極導入[[自動化]]及飛針測試設備，並提供具備高密度連接(HDI)與細線路技術的客製化[[PCB]]，成功打入[[AMD]]、[[NVIDIA]]及[[聯發科]]等晶片大廠的邊緣運算樣品板供應鏈。",
+      "batch_id": "author-234",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/621020250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6246:material_named_relationship:dfe971c03747a12f",
+      "ticker": "6246",
+      "company": "臺龍",
+      "claim": "業務結構與發展：(1) 背光模組 — 為面板廠供應 LCD 背光模組，主要客戶包括 [[友達]]、[[群創]] 等台灣面板大廠，產品應用於液晶電視、監視器及工控顯示器；",
+      "batch_id": "author-234",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/624620250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

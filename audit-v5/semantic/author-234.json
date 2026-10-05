@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-234",
+  "reviewed_at": "2026-10-05T22:49:35Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中探針2023法說會; 驊陞2026法說會; 淳安2020法說會; 悅城2012法說會); 慶生與臺龍端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "6217:profitability_assertion:e88c8f3648ead646",
+      "normalized_claim_hash": "e88c8f3648ead6462277c6f714382125c241bb115360f51d6b17099239cc2be8",
+      "ticker": "6217",
+      "company": "中探針",
+      "path": "Pilot_Reports/Electronic Components/6217_中探針.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在[[半導體]]端，中探針提供高毛利的測試探針與測試座(Socket)，特別是在高功率[[AI]]晶片的老化測試座(Burn-in Socket)領域表現亮眼，成功打入台系封測大廠及晶片設計廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ccpcontactprobes.com/sites/default/files/2024-01/CCP_Contact_Probes_Investor_Conference_2023.pdf",
+          "title": "中國探針股份有限公司（中探針，6217，CCP Contact Probes）2023 年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2023年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取5,334字元，以圖形排版為主）。簡報中「**探針**」出現10次、「**Socket**」10次、「**高功率**」3次、「**半導體**」2次，並載「**高功率**，溫控老化測試」「**Testing Socket**」「**Test Socket**將以6.1%的年複合成長率成長」（「**Test Socket**」），**支持其測試探針與測試座業務及高功率應用**。**關鍵發現**：全份簡報中「**測試座**」（中文）與「**高毛利**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「在 [[半導體]]端，中探針提供…**測試探針**與**測試座（Socket）**，特別是在**高功率**（…）」獲發行人簡報**充分支持**：簡報中「**探針**」10次、「**Socket**」10次、「**高功率**」3次、「**半導體**」2次，並載「**高功率**，溫控老化測試」「**Testing Socket**」「**Test Socket**將以6.1%的年複合成長率成長」。**惟「高毛利的」未獲支持**——「**高毛利**」之出現次數**為0**（「測試座」之中文表述亦為0，簡報以英文 Socket 呈現）。故部分成立。",
+      "proposed_text": "中國探針 (6217，CCP Contact Probes) 供應半導體測試探針與 Test Socket，應用於高功率及溫控老化測試。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6272:material_named_relationship:26fd9e31be5e5d75",
+      "normalized_claim_hash": "26fd9e31be5e5d759a39bf6931bed7d343870da24203843b1e2dabfe8ac02144",
+      "ticker": "6272",
+      "company": "驊陞",
+      "path": "Pilot_Reports/Electronic Components/6272_驊陞.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "驊陞近期成功打入國際[[GPU]]大廠(如[[NVIDIA]])的[[AI]]加速器[[伺服器]]供應鏈，加上新能源車滲透率提升，成為推升公司營運的雙引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/627220260615M001.pdf",
+          "title": "驊陞科技股份有限公司（驊陞，6272，Wieson）法人說明會簡報（2026-06-15）",
+          "source_level": 3,
+          "period_binding": "2026年6月15日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,486字元，以圖形排版為主）。簡報載「**CCDC**高速傳輸：切入 **AI SERVER** 與 **HPC** 超算平台高速互連市場」「**ATTD** 先進熱傳事業：搶攻 **AI** 高功耗熱管理商機 **Intel／AMD** CPU Roadmap」「**Edge AI** Application」（「**AI**」5次），**支持其切入 AI 伺服器與 HPC 高速互連及 AI 熱管理市場**。**關鍵發現**：全份簡報中「**NVIDIA**」「**GPU**」與「**加速器**」之出現次數**均為0**——**未具名該客戶或載明 GPU 加速器產品**。"
+        }
+      ],
+      "rationale": "「成功打入國際 **[[GPU]] 大廠**（如 [[NVIDIA]]）的 [[AI]] **加速器伺服器**（供應鏈）」獲發行人簡報之**部分支持**：簡報載「CCDC高速傳輸：切入 **AI SERVER** 與 **HPC** 超算平台高速互連市場」「ATTD 先進熱傳事業：搶攻 **AI** 高功耗熱管理商機」（「**AI**」5次），**支持其切入 AI 伺服器與 HPC 高速互連市場**。**惟三項具名對象未獲支持**：「**NVIDIA**」「**GPU**」與「**加速器**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "驊陞科技 (6272，Wieson) 切入 AI 伺服器與 HPC 超算平台之高速互連及高功耗熱管理市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6283:material_named_relationship:6446a9912b354a7f",
+      "normalized_claim_hash": "6446a9912b354a7f8b1bc0e5adf1a489888819c2ffce12fbc19acdbe2ae07911",
+      "ticker": "6283",
+      "company": "淳安",
+      "path": "Pilot_Reports/Electronic Components/6283_淳安.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 車用電子 (淳敏電子) — 專注車載鏡頭、[[ADAS]] 系統及 ECU 的研發製造，產品涵蓋倒車鏡頭、360 度環景系統、車內監控鏡頭等，已取得 IATF 16949 及 ISO 26262 認證，供應國內外一線汽車品牌；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.soe-ele.com/wp-content/uploads/2024/12/2020.SOE%e6%b3%95%e8%aa%aa%e6%9c%83-1.pdf",
+          "title": "淳安電子股份有限公司（淳安，6283，SOE）2020 年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2020年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取9,048字元，以圖形排版為主）。簡報中「**車載**」出現2次、「**ADAS**」3次、「**ECU**」2次，**支持其車載電子與 ADAS／ECU 相關業務**。**關鍵發現**：全份簡報中「**淳敏**」與「**鏡頭**」之出現次數**均為0**——**未見其車用電子子公司「淳敏電子」之名稱**。"
+        }
+      ],
+      "rationale": "「(2) **車用電子** — 專注**車載**、**[[ADAS]]** 系統及 **ECU** 的研發」獲發行人簡報之**部分支持**：簡報中「**車載**」2次、「**ADAS**」3次、「**ECU**」2次，**支持其車載電子與 ADAS／ECU 業務**。**惟兩項陳述未獲支持**：(1)「（**淳敏電子**）」——「**淳敏**」之出現次數**為0**（該簡報為2020年版本，未見該子公司名稱）；(2)「車載**鏡頭**」——「**鏡頭**」為**0**。故部分成立。",
+      "proposed_text": "淳安電子 (6283，SOE) 之車用電子業務涵蓋車載、ADAS 系統及 ECU。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6405:material_named_relationship:5e6bfe6393ffffc7",
+      "normalized_claim_hash": "5e6bfe6393ffffc764556e1e419c8de05161e6909e2345565493706d041deed3",
+      "ticker": "6405",
+      "company": "悅城",
+      "path": "Pilot_Reports/Electronic Components/6405_悅城.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國內外主要電視/IT面板大廠(如[[友達]]、[[群創]])，並積極打入國際[[AI]]晶片廠封裝供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/640520121214E001.pdf",
+          "title": "悅城科技股份有限公司（悅城，6405，Yuecheng）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2012年12月14日。**文件版本較舊**。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,114字元，以圖形排版為主）。簡報載「國內各**面板**大廠」「液晶顯示**面板**」（「**面板**」6次），**支持其為面板相關業者**。**關鍵發現**：全份簡報中「**友達**」「**群創**」與「AI 晶」（片）之出現次數**均為0**；**且該簡報為2012年版本，距今已久**。"
+        }
+      ],
+      "rationale": "「國內外主要電視／IT**面板**大廠（如 [[友達]]、[[群創]]），並積極打入國際 [[AI]] 晶（片）」獲發行人簡報之**部分支持**：簡報載「國內各**面板**大廠」「液晶顯示**面板**」（「**面板**」6次），**支持其與面板產業之關聯**。**惟三項陳述未獲支持**：(1)「**友達**」與「**群創**」——出現次數**均為0**，**未具名該等客戶**；(2)「積極打入國際 **AI** 晶（片）」——「AI」僅1次且未見該敘述。**時點註記**：**該簡報為2012年版本，距今已久**。故部分成立。",
+      "proposed_text": "悅城科技 (6405，Yuecheng) 為液晶顯示面板相關業者。（本筆所據簡報為2012年版本，建議以較新年度文件複核）",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6210:material_named_relationship:735bde0845d750f2",
+      "normalized_claim_hash": "735bde0845d750f2793536b8f7fc377269d35ec4ccc4cda5f132040122d6d310",
+      "ticker": "6210",
+      "company": "慶生",
+      "path": "Pilot_Reports/Electronic Components/6210_慶生.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "隨著[[5G]]、[[電動車]]及[[AI]]邊緣運算的發展，慶生積極導入[[自動化]]及飛針測試設備，並提供具備高密度連接(HDI)與細線路技術的客製化[[PCB]]，成功打入[[AMD]]、[[NVIDIA]]及[[聯發科]]等晶片大廠的邊緣運算樣品板供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/621020250401M001.pdf",
+          "title": "慶生電子（6210）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之慶生電子簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得慶生電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「隨著 [[5G]]、[[電動車]]及 [[AI]] 邊緣運算的發展，慶生積極導入[[自動化]]及（…）」未獲確立：本批次所嘗試之慶生簡報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6246:material_named_relationship:dfe971c03747a12f",
+      "normalized_claim_hash": "dfe971c03747a12f21321980dd86b0a72c1e150bb58a99402e171a0c30c4457e",
+      "ticker": "6246",
+      "company": "臺龍",
+      "path": "Pilot_Reports/Electronic Components/6246_臺龍.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "業務結構與發展：(1) 背光模組 — 為面板廠供應 LCD 背光模組，主要客戶包括 [[友達]]、[[群創]] 等台灣面板大廠，產品應用於液晶電視、監視器及工控顯示器；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/624620250401M001.pdf",
+          "title": "臺龍電子（6246）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之臺龍電子簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得臺龍電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「(1) **背光模組** — 為面板廠供應 LCD **背光模組**，主要客戶包括 [[友（達）]]…」未獲確立：本批次所嘗試之臺龍簡報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
