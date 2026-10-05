@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:10:22Z",
+  "generated_at": "2026-10-05T23:11:37Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -251,17 +251,18 @@
     "author-245",
     "author-246",
     "author-247",
-    "author-248"
+    "author-248",
+    "author-249"
   ],
-  "source_batch_count": 248,
-  "total_unknown": 384,
+  "source_batch_count": 249,
+  "total_unknown": 387,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 170,
-    "other_unclassified": 147,
+    "no_official_endpoint_found": 172,
+    "other_unclassified": 148,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 98,
+    "http_404": 100,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5879,6 +5880,50 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/990220250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2481:export_concentration:3941f289bb5c6d99",
+      "ticker": "2481",
+      "company": "強茂",
+      "claim": "外銷占 89%，亞洲市場占 76%。",
+      "batch_id": "author-249",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/248120260515M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6556:profitability_assertion:f368b63329d192de",
+      "ticker": "6556",
+      "company": "勝品",
+      "claim": "公司積極投入高畫質(4K/8K)、[[AI]]邊緣運算及智慧影像分析技術，專攻高毛利的利基型專案市場(如賭場、交通、校園安防)，為歐美日一線安控品牌大廠提供高度客製化的影像監控解決方案。",
+      "batch_id": "author-249",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/655620250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2493:export_concentration:e11eec4c999dcd1d",
+      "ticker": "2493",
+      "company": "揚博",
+      "claim": "2024 年外銷占 62%、內銷占 38%。",
+      "batch_id": "author-249",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/249320250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

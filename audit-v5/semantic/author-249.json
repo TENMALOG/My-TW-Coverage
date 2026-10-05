@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-249",
+  "reviewed_at": "2026-10-05T23:11:24Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (合騏股東會年報; 嘉晶114年度年報; 華晶科2022永續報告書; 強茂2026法說會); 勝品與揚博端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "8937:profitability_assertion:584212137d4bc8f8",
+      "normalized_claim_hash": "584212137d4bc8f8b56e1922d23c7e0f76034aec764d514ba299abf08bdceaf3",
+      "ticker": "8937",
+      "company": "合騏",
+      "path": "Pilot_Reports/Recreational Vehicles/8937_合騏.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "傳統ATV佔比下降，[[離岸風電]]為新成長引擎。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.hercheemoto.com.tw/index.php?option=module&lang=cht&task=dfile&id=517&i=1",
+          "title": "合騏工業股份有限公司（合騏，8937，Her Chee Industrial）股東會年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件（內文提及112年與113年度）。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取55,254字元）。文件載「四、投資**屹海風電**購置**離岸風電**海工船(WTIV)執行情形」「(六)投資子公司**屹海風電**科技股份有限公司購置**離岸風電**海工船(WTIV)」（「**離岸風電**」10次、「**風電**」23次、「合騏」63次），**支持其跨入離岸風電事業**；並載「年度營收和淨利較112 年呈現衰退情形，113 年度車輛銷售數量為1,482 輛，其中**ATV**（…）」（「**ATV**」3次），**支持其 ATV 業務之衰退**。**關鍵發現**：全份文件中「**成長引擎**」與「佔比下降」之表述**未見**。"
+        }
+      ],
+      "rationale": "「**[[離岸風電]]**（為新成長…）」獲發行人文件**充分支持**：文件載「四、投資**屹海風電**購置**離岸風電**海工船(WTIV)執行情形」「(六)投資子公司**屹海風電**科技股份有限公司購置**離岸風電**海工船(WTIV)」（「離岸風電」10次、「風電」23次），**支持其跨入離岸風電事業**；「傳統 **ATV**（佔比下降）」亦獲部分支持——文件載「年度營收和淨利較112年呈現衰退情形，113年度車輛銷售數量為1,482輛，其中**ATV**（…）」。**惟兩項表述未獲支持**：(1)「**成長引擎**」——出現次數**為0**；(2)「**佔比下降**」之具體比例敘述未見。故部分成立。",
+      "proposed_text": "合騏工業 (8937，Her Chee Industrial) 投資子公司屹海風電跨入離岸風電海工船業務；其 ATV 車輛業務於113年度呈現衰退。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3016:material_named_relationship:8581e12d6a596589",
+      "normalized_claim_hash": "8581e12d6a5965896b4b9b26e98f66446a9af7014a0f651a6cc352a9c33ecb92",
+      "ticker": "3016",
+      "company": "嘉晶",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/3016_嘉晶.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司業務涵蓋矽[[磊晶]]代工 (占 2024 年營收約 60%) 及[[磊晶]][[矽晶圓]]生產 (約 40%)，產品應用於功率元件、[[電動車]]、[[智慧電網]]、[[儲能系統]]及電源供應器。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.epi.episil.com/uploads/03_investment/Stockholder_Meeting/2026-Annual-Report.pdf",
+          "title": "嘉晶電子股份有限公司（嘉晶，3016，Episil-Precision）一一四年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取76,824字元）。年報**逐字載**「身為專業的**矽磊晶代工**廠，我們深知自身在產業鏈中的關鍵地位。」「(A) 本公司及其子公司之**矽磊晶代工**，因與客戶長期配合，已建立良好互（信）」（「**磊晶**」80次、「**矽晶**」10次、「**代工**」6次），**支持其矽磊晶代工業務**。**關鍵發現（數字之歸屬）**：全份年報中「**60%**」之出現次數為1次，**惟其上下文為「15.60%」之一部分，並非獨立之六成佔比**——**屬子字串之誤配**；該營收佔比之敘述未見。"
+        }
+      ],
+      "rationale": "「業務涵蓋**矽[[磊晶]]代工**」獲發行人年報**逐字支持**：年報載「身為專業的**矽磊晶代工**廠，我們深知自身在產業鏈中的關鍵地位。」「(A) 本公司及其子公司之**矽磊晶代工**，因與客戶長期配合，已建立良好互（信）」（「磊晶」80次、「矽晶」10次、「代工」6次）。**惟「占 2024 年營收約 60%」未獲支持**——**全份年報中「60%」之出現次數為1次，且其上下文為「15.60%」之一部分**（**屬子字串之誤配，非獨立之六成佔比**）。故部分成立。",
+      "proposed_text": "嘉晶電子 (3016，Episil-Precision) 為專業矽磊晶代工廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3059:material_named_relationship:eab93d66cca8c7ea",
+      "normalized_claim_hash": "eab93d66cca8c7ea66691ae75bc829db1a447ce78f05ba791b5ec3c4c9ca5262",
+      "ticker": "3059",
+      "company": "華晶科",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/3059_華晶科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歐美 Tier 1 供應商 — [[ADAS]]鏡頭模組",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.altek.com.tw/web/upload/ckfinder/files/%E8%8F%AF%E6%99%B6%E7%A7%912022%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "title": "華晶科技股份有限公司（華晶科，3059，Altek）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取74,151字元）。報告書載「(6) 新一代高階商用**AI 智慧車隊管理系統**（Fleet Management/**ADAS**/DMS）」與「斷升級和改善的**鏡頭模組**，提供了越來越強大的拍（攝）」（「**ADAS**」1次、「**鏡頭模組**」1次），**支持其 ADAS 與鏡頭模組之業務關聯**。**關鍵發現**：全份報告書中「**Tier 1**」與「**歐美**」之出現次數**均為0**——**未見其客戶層級與地區之敘述**。"
+        }
+      ],
+      "rationale": "「**[[ADAS]]** **鏡頭模組**（供應）」獲發行人永續報告書**逐字支持**：報告書載「(6) 新一代高階商用 AI 智慧車隊管理系統（Fleet Management/**ADAS**/DMS）」與「斷升級和改善的**鏡頭模組**，提供了越來越強大的拍（攝）」，「**ADAS**」與「**鏡頭模組**」各出現1次，**支持其 ADAS 與鏡頭模組之業務關聯**。**惟「歐美」與「Tier 1」未獲支持**——兩者之出現次數**均為0**，**未見其客戶層級與地區之敘述**。故部分成立。",
+      "proposed_text": "華晶科技 (3059，Altek) 之鏡頭模組應用於 ADAS 與智慧車隊管理系統。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2481:export_concentration:3941f289bb5c6d99",
+      "normalized_claim_hash": "3941f289bb5c6d99c0d7626f446105ecf2d9c5305a67f9ddb2156016f543094f",
+      "ticker": "2481",
+      "company": "強茂",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/2481_強茂.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "外銷占 89%，亞洲市場占 76%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/248120260515M001.pdf",
+          "title": "強茂股份有限公司（強茂，2481，Pan Jit）法人說明會簡報（2026-05-15）",
+          "source_level": 3,
+          "period_binding": "2026年5月15日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,509字元，以圖形排版為主）。**關鍵發現**：全份簡報中「**外銷**」「**亞洲**」「**89%**」與「76%」之出現次數**均為0**——**未見其內外銷比重與市場分布之敘述**。"
+        }
+      ],
+      "rationale": "「外銷占 **89%**，**亞洲**市場占 **76%**」未獲確立：所取得之強茂2026年法人說明會簡報中「**外銷**」「**亞洲**」「**89%**」與「76%」之出現次數**均為0**，**未見內外銷比重與市場分布之敘述**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6556:profitability_assertion:f368b63329d192de",
+      "normalized_claim_hash": "f368b63329d192dea430fb4c3143fbd40e566f683536e895a39512719c37eba2",
+      "ticker": "6556",
+      "company": "勝品",
+      "path": "Pilot_Reports/Security & Protection Services/6556_勝品.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司積極投入高畫質(4K/8K)、[[AI]]邊緣運算及智慧影像分析技術，專攻高毛利的利基型專案市場(如賭場、交通、校園安防)，為歐美日一線安控品牌大廠提供高度客製化的影像監控解決方案。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/655620250401M001.pdf",
+          "title": "勝品電通（6556）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之勝品電通端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得勝品電通可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「積極投入高畫質（**4K/8K**）、[[AI]] **邊緣運算**及**智慧影像分析**技術，專攻**高毛利**的利基（市場）」未獲確立：本批次所嘗試之勝品端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2493:export_concentration:e11eec4c999dcd1d",
+      "normalized_claim_hash": "e11eec4c999dcd1dcd54fe6c81afdc80582f5b2a9b26394d96b425650e22dca2",
+      "ticker": "2493",
+      "company": "揚博",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/2493_揚博.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2024 年外銷占 62%、內銷占 38%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/249320250401M001.pdf",
+          "title": "揚博科技（2493）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之揚博科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得揚博科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「2024 年**外銷占 62%**、**內銷占 38%**」未獲確立：本批次所嘗試之揚博端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

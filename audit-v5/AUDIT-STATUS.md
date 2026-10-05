@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 08:04 UTC
+Updated: 2026-10-15 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,278 / 1,399**
-- Remaining author review: **121**
-- Latest batch: **author-248** (6 claims)
+- Author-reviewed: **1,284 / 1,399**
+- Remaining author review: **115**
+- Latest batch: **author-249** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **784**
+- `PARTIALLY_SUPPORTED`: **787**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **384**
+- `UNKNOWN_AFTER_RESEARCH`: **387**
 
 ## Latest claim batch
 
-- 🟢 `3056:identity_changing_event:42ce16aac106b895` — **`ACCEPTED`**；富華新文件**逐字載**「(**原名 : 總太地產開發股份有限公司**)」與沿革「100年07月：公司名稱**更名**為『總太地產開發股份有限公司』」（**總太 145 次、更名 10 次、2023 10 次、台中 57 次**）。
-- `3056:identity_changing_event:24a8074c2fcedde8` — `PARTIALLY_SUPPORTED`；「**控股」8 次**；**惟「全方位控股／充電樁／儲能／智慧城市」皆 0 次**。
-- `5534:profitability_assertion:10c8420d0242f966` — `PARTIALLY_SUPPORTED`；長虹年報「**廠辦」10 次、「住宅」42 次**；**惟「商辦／雙軌」皆 0 次**。
-- `8478:export_concentration:2c102225efac7f2c` — `PARTIALLY_SUPPORTED`；東哥簡報「**遊艇」6 次、「美國」1 次**；**惟「外銷／100%」皆 0 次**。
-- `1456:material_named_relationship:d48c1acbce4b4c83` — `UNKNOWN_AFTER_RESEARCH`；怡華簡報「**台電／政府機關／客戶」皆 0 次**。
-- `9902:cd32bb294e021dbb` — `UNKNOWN_AFTER_RESEARCH`；台火端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-248.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,278 ＝ 條目總數 1,278。**覆蓋率 91.35%**。
-- Next pending claim by priority: `8937:profitability_assertion:584212137d4bc8f8` (合騏).
+- `8937:profitability_assertion:584212137d4bc8f8` — `PARTIALLY_SUPPORTED`；合騏文件載「投資**屹海風電**購置**離岸風電**海工船(WTIV)」（**離岸風電 10 次、ATV 3 次**）；**惟「成長引擎」0 次、「佔比下降」之比例未見**。
+- `3016:material_named_relationship:8581e12d6a596589` — `PARTIALLY_SUPPORTED`；嘉晶年報**逐字載**「身為專業的**矽磊晶代工**廠」（**磊晶 80 次**）；**惟「60%」之唯一出現為「15.60%」之一部分——屬子字串誤配**。
+- `3059:material_named_relationship:eab93d66cca8c7ea` — `PARTIALLY_SUPPORTED`；華晶科ESG「**ADAS」1 次、「鏡頭模組」1 次**；**惟「歐美／Tier 1」皆 0 次**。
+- `2481:export_concentration:3941f289bb5c6d99` — `UNKNOWN_AFTER_RESEARCH`；強茂簡報「**外銷／亞洲／89%／76%」皆 0 次**。
+- `6556:f368b63329d192de`、`2493:e11eec4c999dcd1d` — `UNKNOWN_AFTER_RESEARCH` ×2；勝品與揚博端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-249.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,284 ＝ 條目總數 1,284。**覆蓋率 91.78%**。
+- Next pending claim by priority: `3131:material_named_relationship:24f7ebe589cc2c13` (弘塑).
 
 ## Source access
 
