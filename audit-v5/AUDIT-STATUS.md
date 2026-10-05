@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 20:04 UTC
+Updated: 2026-10-15 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,351 / 1,399**
-- Remaining author review: **48**
-- Latest batch: **author-260** (6 claims)
+- Author-reviewed: **1,358 / 1,399**
+- Remaining author review: **41**
+- Latest batch: **author-261** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **106**
-- `PARTIALLY_SUPPORTED`: **814**
+- `PARTIALLY_SUPPORTED`: **815**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **426**
+- `UNKNOWN_AFTER_RESEARCH`: **432**
 
 ## Latest claim batch
 
-- `4590:material_named_relationship:25785b421b7f620c` — `PARTIALLY_SUPPORTED`；富田年報「**馬達」197 次、「特斯拉」2 次**；**惟「獨家」0 次，且「15年」2 次之上下文為「115年06月29日」與「ISO14001：2015年版」——屬子字串誤配**。
-- `8996:material_named_relationship:c5043cc84b2f2ef8` — `PARTIALLY_SUPPORTED`；高力新聞稿「**液冷」3 次、「散熱」1 次**；**惟「AI 伺服器／50%／三位數」皆 0 次**（**文件為新聞稿**）。
-- ⚠️ `4566:52a67ed63606906d`、`fa2a1362aff34e3b` — `UNKNOWN_AFTER_RESEARCH` ×2；時碩所取得之「年報」實為**該站「頁面無法取得」錯誤頁**（**非文件回應**）。
-- `4568:a65538f94693cd90`、`8927:0ed472edc9669c94` — `UNKNOWN_AFTER_RESEARCH` ×2；科際精密與北基端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-260.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,351 ＝ 條目總數 1,351。**覆蓋率 96.57%**。
-- Next pending claim by priority: `2032:material_named_relationship:07b1081fc81ce402` (新鋼).
+- `2069:material_named_relationship:03452c1b1852a645` — `PARTIALLY_SUPPORTED`；運錩年報載供應商名單「（**太鋼、浦項、寶鋼**、…」並載「集中向**主要供應商**進貨原料」（**太鋼 1 次、寶鋼 1 次、浦項 1 次、唐榮 3 次、主要供應商 2 次**）；**惟「華新麗華」0 次**（TISCO／POSCO 英文簡稱亦皆 0 次）。
+- `2032:material_named_relationship:07b1081fc81ce402` — `UNKNOWN_AFTER_RESEARCH`；新鋼文件為**財務報告**，「**華新／燁聯／供應」皆 0 次**。
+- `2031:7b09467cb212b42e`、`ff762c212be11c98`、`5009:b8037559961325d8` — `UNKNOWN_AFTER_RESEARCH` ×3；新光鋼與榮剛端點 **HTTP 404**。
+- ⚠️ `2034:046bc996fc30f235` — `UNKNOWN_AFTER_RESEARCH`；允強官方網域 **DNS 解析失敗**（主機名稱不存在）。
+- ⚠️ `2221:6487ce61487cc293` — `UNKNOWN_AFTER_RESEARCH`；大甲官方網域 **TLS 憑證信任失敗**。
+- 證據記錄於 `semantic/author-261.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,358 ＝ 條目總數 1,358。**覆蓋率 97.07%**。
+- Next pending claim by priority: `2221:export_concentration:abc1d459bf42c9b4` (大甲).
 
 ## Source access
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:26:57Z",
+  "generated_at": "2026-10-05T23:28:22Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -263,20 +263,21 @@
     "author-257",
     "author-258",
     "author-259",
-    "author-260"
+    "author-260",
+    "author-261"
   ],
-  "source_batch_count": 260,
-  "total_unknown": 426,
+  "source_batch_count": 261,
+  "total_unknown": 432,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 201,
-    "other_unclassified": 153,
-    "tls_failure": 16,
+    "no_official_endpoint_found": 206,
+    "other_unclassified": 154,
+    "tls_failure": 17,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 123,
+    "http_404": 126,
     "image_only_or_tiny_text": 20,
     "http_403": 16,
-    "connection_failure": 16,
+    "connection_failure": 17,
     "garbled_text_layer": 18,
     "client_rendered_only": 7,
     "download_timeout": 3,
@@ -6508,6 +6509,95 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/892720250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2032:material_named_relationship:07b1081fc81ce402",
+      "ticker": "2032",
+      "company": "新鋼",
+      "claim": "向國內外鋼廠採購，主要供應商包括[[華新麗華]] (1605)、[[燁聯]] (9957)、[[唐榮]] (2035) 及進口。",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.sinkang.com.tw/storage/system/financialreport/2021_4.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2031:material_named_relationship:7b09467cb212b42e",
+      "ticker": "2031",
+      "company": "新光鋼",
+      "claim": "約33%鋼材採購自[[中鋼]]。",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/203120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2031:material_named_relationship:ff762c212be11c98",
+      "ticker": "2031",
+      "company": "新光鋼",
+      "claim": "向[[中鋼]] (CSC) (約佔 33%) 及國外鋼廠 (如俄羅斯、巴西、日本、烏克蘭等，約佔 66%) 採購熱軋、鍍鋅及不鏽鋼捲。",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/203120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2034:material_named_relationship:046bc996fc30f235",
+      "ticker": "2034",
+      "company": "允強",
+      "claim": "向國內外鋼廠採購，主要供應商包括[[華新麗華]] (1605)、[[唐榮]] (2035)、[[燁聯]] (9957) 及進口源 (如印尼青山)。",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.yeunchang.com.tw/files/2034_annual_report.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "2221:material_named_relationship:6487ce61487cc293",
+      "ticker": "2221",
+      "company": "大甲",
+      "claim": "雙事業：潔淨級 (U[[HP]]，佔約50%) 供應半導體/光電製程管路，為[[台積電]]合格供應商；",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://yhmco.com.tw/investor/annual-reports/106-annual-reports.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "ticker": "5009",
+      "company": "榮剛",
+      "claim": "三大高毛利產品線：",
+      "batch_id": "author-261",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/500920250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

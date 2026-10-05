@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-261",
+  "reviewed_at": "2026-10-05T23:28:05Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (運錩112年度年報; 新鋼110年及109年度財務報告); 大甲官方端點TLS失敗; 允強官方網域DNS失敗; 新光鋼與榮剛端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "2069:material_named_relationship:03452c1b1852a645",
+      "normalized_claim_hash": "03452c1b1852a6452b184f6f3e0bcfd5ce15b4dedeeafd78f40c3de91834ed1d",
+      "ticker": "2069",
+      "company": "運錩",
+      "path": "Pilot_Reports/Steel/2069_運錩.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要供應商包括[[太鋼]] (TISCO)、[[寶鋼]]、[[浦項]] (POSCO)、[[華新麗華]]、[[唐榮]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.yuenchang.com.tw/files/股務/股東會/1130606股東會112年度年報-中文版.pdf",
+          "title": "運錩鋼鐵股份有限公司（運錩，2069，Yuen Chang Stainless Steel）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取228,726字元）。年報載「因產業特性，本公司集中向**主要供應商**進貨原料，主要係為能掌握穩定的料源及優良可靠之品質，且**主要供應商**皆與本公司為**長期合作**關係」，並見供應商名單「（**太鋼、浦項、寶鋼**、…」（「**太鋼**」1次、「**寶鋼**」1次、「**浦項**」1次、「**主要供應商**」2次、「**供應商**」33次），**支持其列出之主要供應商**。**關鍵發現**：全份年報中「**TISCO**」「**POSCO**」之英文簡稱**均為0次**（該名單以中文名稱呈現）；「鞍鋼」「本溪」「韓國」「俄羅斯」「烏克蘭」亦均為0次。"
+        }
+      ],
+      "rationale": "「主要供應商包括**[[太鋼]]**（TISCO）、**[[寶鋼]]**、**[[浦項]]**（POSCO）、**[[唐榮]]**」獲發行人年報**逐字支持**：年報載供應商名單「（**太鋼、浦項、寶鋼**、…」並載「本公司集中向**主要供應商**進貨原料…且**主要供應商**皆與本公司為**長期合作**關係」（「**太鋼**」1次、「**寶鋼**」1次、「**浦項**」1次、「**唐榮**」3次、「**主要供應商**」2次、「長期合作」1次），**支持該等公司為其供應商**。**惟一項具名未獲支持**：「**[[華新麗華]]**」之出現次數**為0**（**併註**：claim 所引之英文簡稱「**TISCO**」與「**POSCO**」在年報中亦**均為0次**，名單以中文名稱呈現）。故部分成立。",
+      "proposed_text": "運錩鋼鐵 (2069，Yuen Chang Stainless Steel) 之主要供應商包括太鋼、寶鋼、浦項、唐榮等鋼廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2032:material_named_relationship:07b1081fc81ce402",
+      "normalized_claim_hash": "07b1081fc81ce402cca97ef118ae160ff5d9685c0b30a5bfb6473ee1c1343f64",
+      "ticker": "2032",
+      "company": "新鋼",
+      "path": "Pilot_Reports/Steel/2032_新鋼.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "向國內外鋼廠採購，主要供應商包括[[華新麗華]] (1605)、[[燁聯]] (9957)、[[唐榮]] (2035) 及進口。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.sinkang.com.tw/storage/system/financialreport/2021_4.pdf",
+          "title": "新鋼工業股份有限公司（新鋼，2032，Sinkang）民國110年及109年度財務報告",
+          "source_level": 3,
+          "period_binding": "民國110年及109年度。**文件性質為財務報告，非年報。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取65,535字元）。**文件性質為財務報告暨會計師查核報告**（封面載「**新鋼工業股份有限公司** 財務報告暨會計師查核報告 民國110年及109年度」）；文中「**新鋼**」27次、「鋼」48次、「客戶」35次。**關鍵發現**：全份文件中「**華新**」「**燁聯**」與「供應」之出現次數**均為0**——**財務報告不含供應商之敘述**。"
+        }
+      ],
+      "rationale": "「向國內外鋼廠採購，主要供應商包括 **[[華新麗華]]**（1605）、**[[燁聯]]**（9957）、**[[唐榮]]**（2035）及進口」未獲確立：所取得之新鋼文件**性質為財務報告暨會計師查核報告（民國110年及109年度）**，其中「**華新**」「**燁聯**」與「供應」之出現次數**均為0**——**財務報告不含供應商之敘述**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或公開說明書複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2031:material_named_relationship:7b09467cb212b42e",
+      "normalized_claim_hash": "7b09467cb212b42e080ec32c11bc0b4fa85472fb93aac74847ca0f8f433eb9f2",
+      "ticker": "2031",
+      "company": "新光鋼",
+      "path": "Pilot_Reports/Steel/2031_新光鋼.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "約33%鋼材採購自[[中鋼]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/203120250401M001.pdf",
+          "title": "新光鋼鐵（2031）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之新光鋼鐵端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得新光鋼鐵可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「約 **33%** 鋼材採購自 **[[中鋼]]**」未獲確立：本批次所嘗試之新光鋼端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2031:material_named_relationship:ff762c212be11c98",
+      "normalized_claim_hash": "ff762c212be11c9831a4ea894f2e76ea38532d837e3c98d86dee025450b88144",
+      "ticker": "2031",
+      "company": "新光鋼",
+      "path": "Pilot_Reports/Steel/2031_新光鋼.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "向[[中鋼]] (CSC) (約佔 33%) 及國外鋼廠 (如俄羅斯、巴西、日本、烏克蘭等，約佔 66%) 採購熱軋、鍍鋅及不鏽鋼捲。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/203120250401M001.pdf",
+          "title": "新光鋼鐵（2031）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之新光鋼鐵端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得新光鋼鐵可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「向 **[[中鋼]]**（CSC）（約佔 **33%**）及國外鋼廠（如俄羅斯、巴西、日本、烏克蘭等）採購」未獲確立：同上，新光鋼端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2034:material_named_relationship:046bc996fc30f235",
+      "normalized_claim_hash": "046bc996fc30f2356c0ceff39cf313720145dd83591a218976657e9c5c4b2205",
+      "ticker": "2034",
+      "company": "允強",
+      "path": "Pilot_Reports/Steel/2034_允強.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "向國內外鋼廠採購，主要供應商包括[[華新麗華]] (1605)、[[唐榮]] (2035)、[[燁聯]] (9957) 及進口源 (如印尼青山)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.yeunchang.com.tw/files/2034_annual_report.pdf",
+          "title": "允強實業股份有限公司（允強，2034，Yeun Chyang）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就允強所嘗試之官方網域**無法解析遠端名稱（DNS 解析失敗）**——**該主機名稱不存在**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「向國內外鋼廠採購，主要供應商包括 **[[華新麗華]]**（1605）、**[[唐榮]]**（2035）、**[[燁聯]]**（9957）及進口源（如**印尼青山**）」未獲確立：本批次就允強所嘗試之官方網域**無法解析遠端名稱（DNS 解析失敗）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2221:material_named_relationship:6487ce61487cc293",
+      "normalized_claim_hash": "6487ce61487cc293dd499c3b5eeb444634c269334fcffc2c8768f1453042c6cd",
+      "ticker": "2221",
+      "company": "大甲",
+      "path": "Pilot_Reports/Steel/2221_大甲.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "雙事業：潔淨級 (U[[HP]]，佔約50%) 供應半導體/光電製程管路，為[[台積電]]合格供應商；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://yhmco.com.tw/investor/annual-reports/106-annual-reports.pdf",
+          "title": "大甲永和（2221）官方網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就大甲永和官方網域所嘗試之年報端點回應 **TLS 憑證信任失敗**（「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」）——**屬 TLS 失敗**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點。"
+        }
+      ],
+      "rationale": "「潔淨級（**UHP**，佔約 **50%**）供應半導體／光電製程管路，為 **[[台積電]]** 合格供應商」未獲確立：本批次就大甲官方網域所嘗試之年報端點**回應 TLS 憑證信任失敗**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "normalized_claim_hash": "b8037559961325d829c4106c524a6b2ac74b88368dfc15064e9fd1db571ad363",
+      "ticker": "5009",
+      "company": "榮剛",
+      "path": "Pilot_Reports/Steel/5009_榮剛.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三大高毛利產品線：",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/500920250401M001.pdf",
+          "title": "榮剛材料（5009）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之榮剛材料端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得榮剛材料可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「三大**高毛利**產品線：（…）」未獲確立：本批次所嘗試之榮剛端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
