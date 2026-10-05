@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-229",
+  "reviewed_at": "2026-10-05T22:41:59Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (湧德113年度年報; 連展投控2022年永續報告書; 誠美材公司文件; 鈺鎧法人說明會簡報; 佳凌財務報告)",
+  "items": [
+    {
+      "claim_id": "3689:material_named_relationship:327d4c4c134b9cff",
+      "normalized_claim_hash": "327d4c4c134b9cffaa4da051078feb9c11465d3754bec518cfa606348e7af92f",
+      "ticker": "3689",
+      "company": "湧德",
+      "path": "Pilot_Reports/Electronic Components/3689_湧德.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **[[AI 伺服器]]供應鏈**: 成功打入 **[[NVIDIA]] GB200** 系列 [[AI]] [[伺服器]]供應鏈，供應高速[[連接器]]及相關線束。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ude-corp.com/archive/shareholder/item/2024%e8%82%a1%e6%9d%b1%e6%9c%83/1130517%e6%b9%a7%e5%be%b7%e5%b9%b4%e5%a0%b1-lock-.pdf",
+          "title": "湧德電子股份有限公司（湧德，3689，UDE Corp.）一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取264,766字元）。年報中「**伺服器**」出現7次、「**美系**」1次。**關鍵發現**：全份年報中「**NVIDIA**」「**GB200**」「**AI 伺服器**」與「連接器」之出現次數**均為0**——**未具名該客戶或載明該平台世代**。"
+        }
+      ],
+      "rationale": "「(1) [[AI 伺服器]]供應鏈：成功打入 **[[NVIDIA]] GB200** 系列」獲發行人年報之**部分支持**：年報中「**伺服器**」出現7次、「**美系**」1次，**支持其確有伺服器相關業務**。**惟兩項具體陳述未獲支持**：(1)「**NVIDIA**」——出現次數**為0**；(2)「**GB200**」——**為0**（「**AI 伺服器**」連續字串亦為0）。故部分成立。",
+      "proposed_text": "湧德電子 (3689，UDE Corp.) 之產品供應伺服器相關應用。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3710:material_named_relationship:aa9aa33df769ae96",
+      "normalized_claim_hash": "aa9aa33df769ae967160822ee3104a43e5e9854a2674068f319ad814afdf7bf5",
+      "ticker": "3710",
+      "company": "連展投控",
+      "path": "Pilot_Reports/Electronic Components/3710_連展投控.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "3. **低軌衛星**: 整合連展線纜、[[連訊通信]] 光通訊連接器與連騰無線元件技術，打入 [[SpaceX]] 低軌衛星供應鏈，提供衛星傳輸解決方案。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acon-holding.com/uploads/images/esg/Report/2022SustainabilityReport.pdf",
+          "title": "連展投資控股股份有限公司（連展投控，3710，ACON Holding）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取69,925字元）。報告書中「**連訊**」出現4次、「**連騰**」3次、「**光通訊**」3次，**支持其集團內含連訊通信（光通訊）與連騰（無線元件）等成員**。**關鍵發現**：全份報告書中「**低軌衛星**」與「**線纜**」之出現次數**均為0**（「線」相關字樣未構成「連展線纜」之敘述）。"
+        }
+      ],
+      "rationale": "「整合…[[連訊通信]] **光通訊**連接器與**連騰**無線元件技術」獲發行人永續報告書**充分支持**：報告書中「**連訊**」出現4次、「**連騰**」3次、「**光通訊**」3次，**支持其集團內含連訊通信（光通訊）與連騰（無線元件）等成員**。**惟兩項陳述未獲支持**：(1)「**低軌衛星**」——出現次數**為0**；(2)「**連展線纜**」之敘述未見（「線纜」為**0**）。故部分成立。",
+      "proposed_text": "連展投資控股 (3710，ACON Holding) 整合集團內連訊通信之光通訊連接器與連騰之無線元件技術。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4960:material_named_relationship:8d6dda9f2a73fa96",
+      "normalized_claim_hash": "8d6dda9f2a73fa964aa06090765abd4dd7464053111031368ba9d91da5dd9cc9",
+      "ticker": "4960",
+      "company": "誠美材",
+      "path": "Pilot_Reports/Electronic Components/4960_誠美材.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[群創]] (主要客戶)、[[友達]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cmmt.com.tw/company4/632354736.pdf",
+          "title": "誠美材料科技股份有限公司（誠美材，4960，CMMT）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取275,826字元）。文件載「**偏光板**」16次，並見「**群創**」1次。**關鍵發現**：全份文件中「**友達**」與「主要客戶」之出現次數**均為0**——**僅具名群創，未具名友達**。"
+        }
+      ],
+      "rationale": "「[[群創]]（主要客戶）」獲發行人文件之**部分支持**：文件中「**群創**」出現1次（「**偏光板**」16次，確認其業務性質），**具名群創為其客戶**。**惟兩項陳述未獲支持**：(1)「**友達**」——出現次數**為0**；(2)「**主要客戶**」之表述未見。故部分成立。",
+      "proposed_text": "誠美材料科技 (4960，CMMT) 為偏光板廠商，客戶包含群創。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5228:profitability_assertion:0758676a0f7ca2b5",
+      "normalized_claim_hash": "0758676a0f7ca2b59bba74b62361ed89d86fe04f04311ee76784acdacee78806",
+      "ticker": "5228",
+      "company": "鈺鎧",
+      "path": "Pilot_Reports/Electronic Components/5228_鈺鎧.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司已取得 [[IATF 16949]] 車用品質認證，車用電子佔營收比重約 35-40%，為高毛利核心市場。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf",
+          "title": "鈺鎧科技股份有限公司（鈺鎧，5228，MAX ECHO）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2022年4月11日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,615字元，以圖形排版為主）。簡報中「**IATF**」出現5次、「**車用**」17次、「**ADAS**」1次、「**胎壓**」1次，**支持其車用品質認證與車用電子產品線**。**關鍵發現**：全份簡報中「**車燈**」「**歐美**」與「**Tier 1**」之出現次數**均為0**；「35」「40」雖出現但**未見「35-40%」營收占比之明確敘述**。"
+        }
+      ],
+      "rationale": "「公司已取得 **[[IATF 16949]] 車用品質認證**」獲發行人簡報**充分支持**：簡報中「**IATF**」出現5次、「**車用**」17次，**支持其車用品質認證與車用電子業務**。**惟「車用電子佔營收比重約 35-40%」之量化陳述未獲明確支持**——簡報中「35」與「40」雖有出現，**但未見「35-40%」之營收占比敘述**。故部分成立。",
+      "proposed_text": "鈺鎧科技 (5228，MAX ECHO) 已取得 IATF 16949 車用品質認證，車用電子為其主要業務之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5228:material_named_relationship:197e3ae57e0c2442",
+      "normalized_claim_hash": "197e3ae57e0c2442cda228c091a7ab45c408e7a13933265c53d4671fb6c9929c",
+      "ticker": "5228",
+      "company": "鈺鎧",
+      "path": "Pilot_Reports/Electronic Components/5228_鈺鎧.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歐美 Tier 1 車廠供應鏈 — 車燈、胎壓偵測、[[ADAS]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf",
+          "title": "鈺鎧科技股份有限公司（鈺鎧，5228，MAX ECHO）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "2022年4月11日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,615字元，以圖形排版為主）。簡報中「**IATF**」出現5次、「**車用**」17次、「**ADAS**」1次、「**胎壓**」1次，**支持其車用品質認證與車用電子產品線**。**關鍵發現**：全份簡報中「**車燈**」「**歐美**」與「**Tier 1**」之出現次數**均為0**；「35」「40」雖出現但**未見「35-40%」營收占比之明確敘述**。"
+        }
+      ],
+      "rationale": "「車用」供應鏈與應用領域獲發行人簡報之**部分支持**：簡報中「**車用**」17次、「**ADAS**」1次、「**胎壓**」1次，**支持其車用電子與 ADAS／胎壓偵測等應用**。**惟三項陳述未獲支持**：(1)「**歐美**」Tier 1 車廠——「**歐美**」之出現次數**為0**；(2)「**Tier 1**」——**為0**；(3)「**車燈**」——**為0**。故部分成立。",
+      "proposed_text": "鈺鎧科技 (5228) 之車用電子產品應用涵蓋 ADAS 與胎壓偵測等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4976:material_named_relationship:9b1fa7f1c54ea8d5",
+      "normalized_claim_hash": "9b1fa7f1c54ea8d5a2a85bbecb9c92a150c7b6e06f291b6dc4c94e0899347848",
+      "ticker": "4976",
+      "company": "佳凌",
+      "path": "Pilot_Reports/Electronic Components/4976_佳凌.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**車用**: 車用鏡頭模組廠 ([[同致]], [[怡利電]]), Tier 1 供應商 ([[Delphi]], [[Bosch]]), 車廠.",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.calin.com.tw/tw/tool-download/investors_finance_year_files/file/115?note=",
+          "title": "佳凌科技股份有限公司（佳凌，4976，Calex）財務報告（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自發行人官方網域所取得之佳凌文件**性質為財務報告**（文字擷取66,312字元，僅見「鏡頭」6次）；**其內容不含客戶別或供應鏈資料**，故未能就 claim 所述之客戶關係進行驗證。"
+        }
+      ],
+      "rationale": "「**車用**：車用**鏡頭模組廠**（[[同致]], [[怡利電]]），**Tier 1 供應商**」未獲確立：本批次自發行人官方網域所取得之佳凌文件**性質為財務報告**（文字擷取66,312字元，僅見「鏡頭」6次），**其內容不含客戶別或供應鏈資料**；「**同致**」「**怡利電**」「**Tier 1**」之出現次數**均為0**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或法人說明會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

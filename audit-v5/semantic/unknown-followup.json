@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:40:34Z",
+  "generated_at": "2026-10-05T22:42:13Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -231,13 +231,14 @@
     "author-225",
     "author-226",
     "author-227",
-    "author-228"
+    "author-228",
+    "author-229"
   ],
-  "source_batch_count": 228,
-  "total_unknown": 327,
+  "source_batch_count": 229,
+  "total_unknown": 328,
   "failure_signature_counts": {
     "no_official_endpoint_found": 140,
-    "other_unclassified": 121,
+    "other_unclassified": 122,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
@@ -5032,6 +5033,20 @@
       ],
       "attempted_sources": [
         "https://www.taimide.com.tw/api/download.ashx?sno=439"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4976:material_named_relationship:9b1fa7f1c54ea8d5",
+      "ticker": "4976",
+      "company": "佳凌",
+      "claim": "**車用**: 車用鏡頭模組廠 ([[同致]], [[怡利電]]), Tier 1 供應商 ([[Delphi]], [[Bosch]]), 車廠.",
+      "batch_id": "author-229",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.calin.com.tw/tw/tool-download/investors_finance_year_files/file/115?note="
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

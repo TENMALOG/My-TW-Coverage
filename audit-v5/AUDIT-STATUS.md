@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 12:04 UTC
+Updated: 2026-10-14 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,159 / 1,399**
-- Remaining author review: **240**
-- Latest batch: **author-228** (4 claims)
+- Author-reviewed: **1,165 / 1,399**
+- Remaining author review: **234**
+- Latest batch: **author-229** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **727**
+- `PARTIALLY_SUPPORTED`: **732**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **327**
+- `UNKNOWN_AFTER_RESEARCH`: **328**
 
 ## Latest claim batch
 
-- `3645:material_named_relationship:bd156a6d7a730ace` — `UNKNOWN_AFTER_RESEARCH`；達邁文件為**個體財務報告（非年報）**，「**Meta／透明／眼鏡／AR／PI」皆 0 次**。
-- `3646:material_named_relationship:890769e395a9edbf` — `PARTIALLY_SUPPORTED`；艾恩特簡報載「**車燈線束**方面，**歐洲車廠**持續推出新車款」（車廠2次、歐洲1次）；**惟「BMW／Mercedes」皆 0 次**。
-- `3675:material_named_relationship:cdf9541872f031c7` — `PARTIALLY_SUPPORTED`；德微年報載「亦有生產 **AI 伺服器**中所需之**保護元（件）**」（AI 伺服器1次、二極體102次）；**惟「美系」0 次**。
-- `3684:material_named_relationship:70795130f69544f3` — `PARTIALLY_SUPPORTED`；榮昌ESG載「深耕**戶外天線**及**次系統**」「**FATP** 測試組裝建置」（FATP 3次、天線16次）；**惟「防水外殼（Enclosure）」各僅1次且未成完整敘述**。
-- 證據記錄於 `semantic/author-228.json`（4 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,159 ＝ 條目總數 1,159。
-- ⏱️ **節奏註記**：剩餘 240 筆、剩餘 41 輪（215–255），**所需節奏約 5.9 筆／輪**。
+- `3689:material_named_relationship:327d4c4c134b9cff` — `PARTIALLY_SUPPORTED`；湧德年報「**伺服器」7 次、「美系」1 次**；**惟「NVIDIA／GB200／AI 伺服器」皆 0 次**。
+- `3710:material_named_relationship:aa9aa33df769ae96` — `PARTIALLY_SUPPORTED`；連展ESG「**連訊」4 次、「連騰」3 次、「光通訊」3 次**；**惟「低軌衛星／線纜」皆 0 次**。
+- `4960:material_named_relationship:8d6dda9f2a73fa96` — `PARTIALLY_SUPPORTED`；誠美材文件「**偏光板」16 次、「群創」1 次**；**惟「友達」0 次**。
+- `5228:profitability_assertion:0758676a0f7ca2b5` — `PARTIALLY_SUPPORTED`；鈺鎧簡報「**IATF」5 次、「車用」17 次**；**惟「35-40%」營收占比未見明確敘述**。
+- `5228:material_named_relationship:197e3ae57e0c2442` — `PARTIALLY_SUPPORTED`；簡報「**ADAS」1 次、「胎壓」1 次、「車用」17 次**；**惟「歐美／Tier 1／車燈」皆 0 次**。
+- `4976:material_named_relationship:9b1fa7f1c54ea8d5` — `UNKNOWN_AFTER_RESEARCH`；佳凌文件為**財務報告**（僅見「鏡頭」6 次），「**同致／怡利電／Tier 1」皆 0 次**。
+- 證據記錄於 `semantic/author-229.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,165 ＝ 條目總數 1,165。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access
