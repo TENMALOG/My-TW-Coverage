@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 08:04 UTC
+Updated: 2026-10-11 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **862 / 1,399**
-- Remaining author review: **537**
-- Latest batch: **author-152** (3 claims)
+- Author-reviewed: **865 / 1,399**
+- Remaining author review: **534**
+- Latest batch: **author-153** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **565**
+- `PARTIALLY_SUPPORTED`: **567**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **206**
+- `UNKNOWN_AFTER_RESEARCH`: **207**
 
 ## Latest claim batch
 
-- `2002:objective_ranking_or_market_share:71c65f9aa39ab582` — `PARTIALLY_SUPPORTED`；中鋼年報「**高爐」44 次**、「一貫」4次、「粗鋼」13次；惟「1,050」15次之上下文**未見「年粗鋼1,050萬噸」完整表述**（多為1,050,000等）。
-- `2027:objective_ranking_or_market_share:ef66ad3900032a5c` — `PARTIALLY_SUPPORTED`；大成鋼簡報「**不銹鋼」19 次**、「鋁」12次、「通路」17次、「美國」8次；惟「全球最大」0次。
-- `2030:objective_ranking_or_market_share:7946eb2d40401c49` — `PARTIALLY_SUPPORTED`；彰源簡報「**不銹鋼」5 次**、「管」4次；惟「第一大」「最大」皆0次。
-- **發現第 7 類術語變體**：兩份簡報均以「**不銹鋼**」（銹）表述，與 claim 之「不鏽鋼」（鏽）為**異體字**——大成鋼「不銹鋼」19次 vs「不鏽鋼」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-152.json`（3 筆）。未修改發行人報告。
+- `9957:objective_ranking_or_market_share:08d89bac647cd335` — `UNKNOWN_AFTER_RESEARCH`；燁聯官方年報端點 **HTTP 404**。
+- `5009:objective_ranking_or_market_share:25a19381ca4321d2` — `PARTIALLY_SUPPORTED`；榮剛簡報（**英文版**）「**alloy」14 次、「specialty」3 次**；惟「TSG」0次、「integrated」0次、「only」2次未見唯一性表述。
+- `9962:objective_ranking_or_market_share:b9679f9639e82fcf` — `PARTIALLY_SUPPORTED`；有益文件「不銹鋼」2次；惟「厚板」「板材」「唯一」「前三大」皆0次。**文件為民國95年度財務報表（非年報）**，不含業務敘述，建議改取年報重查。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-153.json`（3 筆）。未修改發行人報告。
 - Next pending claim by priority: `2034:objective_ranking_or_market_share:9db08fbb1d4b60e5` (允強).
 
 ## Source access

@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-153",
+  "reviewed_at": "2026-10-05T21:07:05Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (榮剛法人說明會簡報英文版; 有益民國95年度財務報表); 燁聯端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "9957:objective_ranking_or_market_share:08d89bac647cd335",
+      "normalized_claim_hash": "08d89bac647cd335369450ff3d832bf7946cffb86c32206c490cd186553327f0",
+      "ticker": "9957",
+      "company": "燁聯",
+      "path": "Pilot_Reports/Steel/9957_燁聯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "燁聯鋼鐵 (9957，YUSCO) 隸屬[[義聯集團]] (創辦人[[林義守]])，為台灣最大且唯一擁有煉鋼/熱軋/冷軋完整一貫作業之[[不鏽鋼]]廠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.yusco.com.tw/userupload/picfiles/110%E5%B9%B4%E5%B9%B4%E5%BA%A6%E5%A0%B1%E5%91%8A.pdf",
+          "title": "燁聯鋼鐵股份有限公司（燁聯，9957，YUSCO）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-11。",
+          "accessed_at": "2026-10-11",
+          "note": "本批次自發行人官方網域下載110年度報告時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得燁聯可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「燁聯鋼鐵隸屬[[義聯集團]]（創辦人[[林義守]]），為台灣最大且唯一擁有煉鋼／熱軋／冷軋完整一貫作業之[[不鏽鋼]]廠」未獲確立：本批次自發行人官方網域下載110年度報告時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5009:objective_ranking_or_market_share:25a19381ca4321d2",
+      "normalized_claim_hash": "25a19381ca4321d2bc0270602858ba8ac51838735c95edd6f7ef7e2c8fb9877b",
+      "ticker": "5009",
+      "company": "榮剛",
+      "path": "Pilot_Reports/Steel/5009_榮剛.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "榮剛材料 (Gloria Material) 隸屬於 **台灣鋼鐵集團 (TSG)**，為台灣唯一具備全製程之 **特殊合金鋼 (Specialty Steel)** 廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/500920241105E001.pdf",
+          "title": "榮剛材料科技股份有限公司（榮剛，5009，Gloria Material Technology）法人說明會簡報（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年11月5日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取20,834字元，以圖形排版為主）。簡報載「**Gloria Material Technology Corp. (Ticker：5009)**」「Company profile」「Financial Information」，並見「**alloy**」14次、「**specialty**」3次、「**Taiwan Steel**」1次、「**only**」2次，支持其特殊合金鋼業務。全份簡報中「**TSG**」與「**integrated**」之出現次數**均為0**；中文關鍵字（特殊合金鋼、全製程、台灣鋼鐵、唯一）均為0。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「為[[特殊合金鋼]]（Specialty Steel）業者」獲發行人簡報支持：簡報（**英文版**）載「**Gloria Material Technology Corp. (Ticker：5009)**」「Company profile」，並見「**alloy**」14次、「**specialty**」3次，支持其特殊合金鋼業務。惟三項陳述未獲支持：(1)「隸屬於**台灣鋼鐵集團（TSG）**」——「**TSG**」出現次數為0；(2)「具備**全製程**」——「integrated」為0；(3)「為台灣**唯一**」——「only」2次之上下文未見唯一性之完整表述。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "榮剛材料科技 (5009，Gloria Material Technology) 從事特殊合金鋼業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9962:objective_ranking_or_market_share:b9679f9639e82fcf",
+      "normalized_claim_hash": "b9679f9639e82fcf819c2895a2e3318da44ea581325550081df39d904a0662ae",
+      "ticker": "9962",
+      "company": "有益",
+      "path": "Pilot_Reports/Steel/9962_有益.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "有益鋼鐵 (9962，Yeou Yih Steel) 為台灣唯一且全球前三大[[不鏽鋼]]厚板專業廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://yeouyih.com.tw/pdf/178145/93-2006Q4%e5%80%8b%e9%ab%94%e5%a0%b1%e5%91%8a.pdf",
+          "title": "有益鋼鐵股份有限公司（有益，9962，Yeou Yih Steel）民國九十五年度及九十四年度財務報表暨會計師查核報告",
+          "source_level": 3,
+          "period_binding": "民國94年度及95年度（2005–2006年）。**非近期版本，且為財務報表而非年報**。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取43,222字元）。**文件性質為財務報表暨會計師查核報告，非年報**，內容由封面、目錄、查核報告、資產負債表、損益表等構成，**不含業務簡介或市場地位敘述**。文字中「**不銹鋼**」出現2次、「有益」34次；「**厚板**」「板材」「唯一」與「前三大」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為[[不銹鋼]]業者」獲發行人文件支持：文件中「**不銹鋼**」出現2次。惟「為台灣**唯一**且**全球前三大**不鏽鋼**厚板**專業廠」未獲支持：全份文件中「**厚板**」「板材」「唯一」與「前三大」之出現次數**均為0**。故部分成立。**重要侷限**：本批次所取得之文件為**民國95年度之財務報表暨會計師查核報告**（**非年報**，內容為財務報表，不含業務簡介或市場地位敘述），且**非近期版本**；建議複核者改取該公司之**年報或公開說明書**重查。",
+      "proposed_text": "有益鋼鐵 (9962，Yeou Yih Steel) 從事不銹鋼業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
