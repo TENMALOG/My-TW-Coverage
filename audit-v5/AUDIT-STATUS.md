@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 15:04 UTC
+Updated: 2026-10-13 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,073 / 1,399**
-- Remaining author review: **326**
-- Latest batch: **author-207** (5 claims)
+- Author-reviewed: **1,076 / 1,399**
+- Remaining author review: **323**
+- Latest batch: **author-208** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **693**
+- `ACCEPTED`: **97**
+- `PARTIALLY_SUPPORTED`: **694**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **280**
+- `UNKNOWN_AFTER_RESEARCH`: **281**
 
 ## Latest claim batch
 
-- `3406:material_named_relationship:e347699638cebefb` — `PARTIALLY_SUPPORTED`；玉晶光文件「**光學鏡頭」20 次、「大立光電」1 次**；**惟「Apple／蘋果」皆 0 次**。
-- `3434:profitability_assertion:e7ad29954f24f279` — `UNKNOWN_AFTER_RESEARCH`；哲固端點 **HTTP 404**。
-- `3611:identity_changing_event:aa5964a64033c216` — `PARTIALLY_SUPPORTED`；鼎翰簡報「**TSC」18 次、「Printronix」15 次**（**合併名「TSC Printronix Auto ID」**）；惟「**台半／分割／OEM」皆 0 次**。
-- `3611:profitability_assertion:61054d4a5be6c603` — `PARTIALLY_SUPPORTED`；財務表現敘述可見；惟「**高毛利」0 次**、「優異標杆企業」未見。
-- `3611:identity_changing_event:9235ca41b694fe7a` — `UNKNOWN_AFTER_RESEARCH`；「**台半／分割」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-207.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `3652:identity_changing_event:59acbb960f3cd20b` (精聯).
+- `3652:identity_changing_event:59acbb960f3cd20b` — `ACCEPTED`；精聯105年度年報**逐字載**「在**精技電腦母公司**『自動資料收集產品事業群』之主要紀事」與「民國96年06月**精技電腦股東大會通過『自動資料收集產品事業群分割案』**」（「**精技」59 次、「母公司」53 次、「分割」8 次**）——**逐項對應**。
+- `3701:material_named_relationship:487aeda6c2319d55` — `UNKNOWN_AFTER_RESEARCH`；**所取得之檔案經檢視屬另一法人（精聯電子3652之年報）**，且其中「**三希」0 次**。
+- `4916:material_named_relationship:772774fdd9a76e6f` — `PARTIALLY_SUPPORTED`；事欣科簡報載「**Aerospace**」「**Military – CMMC 2.0**」（PARPRO 13次、aerospace 2次、defense 2次）；**惟「NASA／Boeing／harness」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-208.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `5271:material_named_relationship:41d4aa5ed2bf3155` (紘通).
 
 ## Source access
 

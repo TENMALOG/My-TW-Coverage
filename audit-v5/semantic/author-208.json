@@ -1,0 +1,92 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-208",
+  "reviewed_at": "2026-10-05T22:11:32Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (精聯105年度年報; 精技113年度年報; 事欣科法人說明會簡報); 大眾控所取得檔案屬另一法人，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3652:identity_changing_event:59acbb960f3cd20b",
+      "normalized_claim_hash": "59acbb960f3cd20b4a66a799d5496097dc08e32972599d6a2a2d529d0be383cc",
+      "ticker": "3652",
+      "company": "精聯",
+      "path": "Pilot_Reports/Computer Hardware/3652_精聯.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "精技電腦 (2414) — 原分割母公司",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.ute.com/common/frontend/PDFread?path=/uploads/images/Investor/105%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf&name=",
+          "title": "精聯電子股份有限公司（精聯，3652，Unitech）一○五年度年報（發行人官網 ute.com）",
+          "source_level": 3,
+          "period_binding": "民國105年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取217,445字元）。年報封面載「股票代號：**3652** **精聯電子股份有限公司** 一○五年度年報」「本公司網站: http://www.ute.com」。文中「**精技**」出現59次、「**母公司**」53次、「**分割**」8次、「**精聯**」191次，並載「在**精技電腦母公司**「自動資料收集產品事業群」之主要紀事」與「民國96 年06 月 **精技電腦股東大會通過「自動資料收集產品事業群分割案」**」（**民國96年＝2007年**），**逐字支持精聯由精技電腦分割設立之關係**。"
+        },
+        {
+          "url": "https://www.unitech.com.tw/upload/InvestorAnnualReport/%E7%B2%BE%E6%8A%80_2024%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "精技電腦股份有限公司（精技，2414）一一三年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取99,859字元）。年報中「**精聯**」出現41次、「**精技電腦**」15次、「子公司」31次，**支持精聯為其子公司**；惟「**分割**」之出現次數為**0**（未載分割事件之敘述）。"
+        }
+      ],
+      "rationale": "「[[精技電腦]]（2414）— **原分割母公司**」獲發行人年報**逐字支持**：精聯一○五年度年報載「在**精技電腦母公司**「自動資料收集產品事業群」之主要紀事」與「民國96 年06 月 **精技電腦股東大會通過「自動資料收集產品事業群分割案」**」（「**精技**」59次、「**母公司**」53次、「**分割**」8次；**民國96年＝2007年**）；另精技113年度年報亦載「**精聯**」41次、「子公司」31次，**支持精聯為其子公司**。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3701:material_named_relationship:487aeda6c2319d55",
+      "normalized_claim_hash": "487aeda6c2319d55faa40be0989ebdecb682853cec208df8d40145929b85f5aa",
+      "ticker": "3701",
+      "company": "大眾控",
+      "path": "Pilot_Reports/Computer Hardware/3701_大眾控.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "集團營收主力為子公司 **三希科技** (約佔 85%)，專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造，主要客戶為國際光模組大廠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ute.com/common/frontend/PDFread?path=/uploads/images/Investor/105%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf&name=",
+          "title": "大眾控（3701）官方文件檢索（查證限制：所取得檔案屬另一法人）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次就大眾控（**3701**）進行官方文件檢索，**所取得之檔案（ute.com 之105年報）經檢視並非大眾控之文件**——該檔封面載「股票代號：**3652** **精聯電子股份有限公司** 一○五年度年報」，**屬另一法人（精聯電子）**，**不予採用**；全份文件中「三希」出現**0次**。本批次未取得大眾控可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「集團營收主力為子公司**三希科技**（約佔 85%），專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造」未獲確立：本批次就大眾控（3701）所取得之檔案**經檢視並非大眾控之文件**——該檔封面載「股票代號：**3652** **精聯電子股份有限公司** 一○五年度年報」，**屬另一法人（精聯電子）**，**不予採用**；且該檔中「**三希**」出現**0次**。本批次未取得大眾控可檢視之官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4916:material_named_relationship:772774fdd9a76e6f",
+      "normalized_claim_hash": "772774fdd9a76e6f0731360a03dd02306e49ca1127059fcef0dd9e2fdfb683b6",
+      "ticker": "4916",
+      "company": "事欣科",
+      "path": "Pilot_Reports/Computer Hardware/4916_事欣科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) **航太與國防**：取得 [[NASA]] 及 [[Boeing]] (波音) 認證，生產航太線束及機構件，2025 年正式取得美系航空大廠訂單並開始出貨；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/491620260415M001.pdf",
+          "title": "事欣科技股份有限公司（事欣科，4916，PARPRO / Pilot Electronics）法人說明會簡報（2026-04-15）",
+          "source_level": 3,
+          "period_binding": "2026年4月15日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,872字元，**中英夾雜**，以圖形排版為主）。簡報首頁載「Partners in Production」「Military – CMMC 2.0」「**Aerospace**」「Military」「Certified USMCA-Compliant Company」（「**PARPRO**」13次、「**aerospace**」2次、「**defense**」2次、「Military」多次），**支持其航太與國防業務之敘述**。**關鍵發現**：全份簡報中「**NASA**」「**Boeing**」與「harness」（線束）之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**航太與國防**」業務獲發行人簡報支持：簡報首頁載「Partners in Production」「Military – CMMC 2.0」「**Aerospace**」「Military」「Certified USMCA-Compliant Company」（「**PARPRO**」13次、「**aerospace**」2次、「**defense**」2次、「Military」多次）。**惟多項陳述未獲支持**：(1)「取得 [[NASA]] 及 [[Boeing]]（波音）**認證**」——「**NASA**」與「**Boeing**」之出現次數**均為0**，**未具名該等客戶或認證**；(2)「生產航太**線束**及機構件」——「harness」（線束）為**0**；(3)「2025 年正式取得**美系航空大廠訂單**並開始出貨」——未見該訂單敘述。故部分成立。",
+      "proposed_text": "事欣科技 (4916，PARPRO) 之業務涵蓋航太與國防領域（並具 CMMC 2.0 與 USMCA 合規資格）。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
