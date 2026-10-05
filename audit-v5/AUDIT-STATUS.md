@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 20:04 UTC
+Updated: 2026-10-14 21:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,204 / 1,399**
-- Remaining author review: **195**
-- Latest batch: **author-236** (6 claims)
+- Author-reviewed: **1,210 / 1,399**
+- Remaining author review: **189**
+- Latest batch: **author-237** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **102**
-- `PARTIALLY_SUPPORTED`: **751**
+- `PARTIALLY_SUPPORTED`: **754**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **346**
+- `UNKNOWN_AFTER_RESEARCH`: **349**
 
 ## Latest claim batch
 
-- 🟢 `6742:material_named_relationship:42dab5023428fcce` — **`ACCEPTED`**；澤米簡報「**AR」6 次、「VR」9 次、「光波導」1 次、「LOE」4 次、「鍍膜」38 次**——**逐項對應**。
-- `6668:material_named_relationship:f58eb40c91008287` — `PARTIALLY_SUPPORTED`；中揚光簡報**逐字載**「**Camera to Tier 1**」；**惟「車用／日系／美系」皆 0 次**（**該簡報以英文呈現**）。
-- `6732:material_named_relationship:0ac9c55ccd6c4147` — `PARTIALLY_SUPPORTED`；昇佳簡報「**感測」28 次**；**惟「Samsung／小米／OPPO／Vivo」皆 0 次**。
-- `6672:profitability_assertion:016ba71775adaaf3`、`80c644ca1738e6b5` — `UNKNOWN_AFTER_RESEARCH` ×2；騰輝文件為**股東會議事手冊**，「**軍工／航太／Koito／小糸／電動車／照明」皆 0 次**。
-- `6609:export_concentration:775f64fef4533de1` — `UNKNOWN_AFTER_RESEARCH`；瀧澤科端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-236.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,204 ＝ 條目總數 1,204。
-- Next pending claim by priority: `6756:material_named_relationship:f5fac2b6b5f189a9` (威鋒電子).
+- `6775:material_named_relationship:a052379ee5b663df` — `PARTIALLY_SUPPORTED`；穎台年報**逐字載**「推出**全球首款**高階 **Mini LED** 微結構超薄**擴散**（板）」（Mini LED 21次、擴散板81次）；**惟「少數能穩定供應」未見逐字對應**。
+- `6862:material_named_relationship:66e629f45464b976` — `PARTIALLY_SUPPORTED`；三集瑞簡報「**TLVR」4 次、「模壓電感」5 次、「電感」24 次、「AMD」1 次**；**惟「NVIDIA」0 次**。
+- `6792:material_named_relationship:5f3aa172418dc877` — `PARTIALLY_SUPPORTED`；詠業ESG「**天線」81 次、「5G」4 次、「低軌」2 次、「衛星」4 次**；**惟「財富／500 強」皆 0 次**。
+- `6756:material_named_relationship:f5fac2b6b5f189a9` — `UNKNOWN_AFTER_RESEARCH`；威鋒ESG「**Lenovo／Dell／Plugable／筆電」皆 0 次**（USB 88次）。
+- `6821:c673f94af60b8752`、`7861:0e6c2ee1cf83ce9e` — `UNKNOWN_AFTER_RESEARCH` ×2；聯寶與貝爾威勒端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-237.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,210 ＝ 條目總數 1,210。
+- Next pending claim by priority: `8046:material_named_relationship:31359cd3d5f2fa10` (南電).
 
 ## Source access
 

@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:52:58Z",
+  "generated_at": "2026-10-05T22:54:21Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -239,17 +239,18 @@
     "author-233",
     "author-234",
     "author-235",
-    "author-236"
+    "author-236",
+    "author-237"
   ],
-  "source_batch_count": 236,
-  "total_unknown": 346,
+  "source_batch_count": 237,
+  "total_unknown": 349,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 146,
-    "other_unclassified": 133,
+    "no_official_endpoint_found": 148,
+    "other_unclassified": 134,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 75,
+    "http_404": 77,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5312,6 +5313,50 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/660920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6756:material_named_relationship:f5fac2b6b5f189a9",
+      "ticker": "6756",
+      "company": "威鋒電子",
+      "claim": "主要客戶包含 [[Lenovo]]、[[Dell]] 等筆電品牌及 [[Plugable]] 等周邊配件廠。",
+      "batch_id": "author-237",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.via-labs.com/archive/doc/175731519861935.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6821:material_named_relationship:c673f94af60b8752",
+      "ticker": "6821",
+      "company": "聯寶",
+      "claim": "公司為 [[Texas Instruments]]、[[Microchip]]、[[Broadcom]] 等美系 IC 設計大廠的認證指定磁性元件供應商，終端客戶涵蓋 [[鴻海]]、[[和碩]]、[[緯創]] 等 EMS 大廠，並已取得 [[Tesla]] 車用認證。",
+      "batch_id": "author-237",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/682120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "7861:material_named_relationship:0e6c2ee1cf83ce9e",
+      "ticker": "7861",
+      "company": "貝爾威勒",
+      "claim": "業務結構與動能：(1) [[AI 伺服器]]連接器 — 成功打入國際 AI 伺服器供應鏈，供應高電流、高速傳輸連接器與線纜，受惠於 AI 基礎設施需求爆發；",
+      "batch_id": "author-237",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/786120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
