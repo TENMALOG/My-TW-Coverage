@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-011",
+  "reviewed_at": "2026-10-05T14:08:38Z",
+  "reviewer_role": "author",
+  "method": "manual review of a directly downloaded issuer-hosted 114年度 annual report PDF; search-result snippets were used only to locate the filing and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6757:objective_ranking_or_market_share:3c96889365c79805",
+      "normalized_claim_hash": "3c96889365c79805e599049c1747616b893417a299dbc7266da1791ed305bfc9",
+      "ticker": "6757",
+      "company": "台灣虎航",
+      "path": "Pilot_Reports/Airlines/6757_台灣虎航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "航線高度集中於東北亞 (日本為最大市場) 及東南亞二三線城市，精準鎖定年輕自由行旅客，營運效率突出。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://strapi-assets.tigerairtw.com/_2678159b14.pdf",
+          "title": "台灣虎航股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）；年報封面記載民國115年3月31日刊印。引用的市場區域表比較113及114年度；航點及客群資料為年報截至刊印日的公司揭露。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視台灣虎航官方資產網域上的年報 PDF；封面列股票代號6757、114年度年報及115年3月31日刊印。第68頁「主要商品之銷售地區」表列114年度東北亞客運營收14,907百萬元、總客運營收16,246百萬元，支持客運營收主要集中東北亞；第2頁直接稱日本為客運營收占比最高的市場。第67及69頁將自由行、深度旅遊需求與日本二、三線城市航點布局相連，並明列年輕客群（20至39歲旅客占50.5%，主力客群平均35.3歲）。第68頁的A321neo單位座位成本較A320neo預期再降11.2%及提升營運效率屬未來機隊規劃，沒有證明現行營運效率相對同業突出；年報提到東南亞航網規劃，但未將二、三線城市描述為東南亞航點。"
+        }
+      ],
+      "rationale": "台灣虎航114年度年報的客運營收區域表支持東北亞為主要市場，並明確稱日本為客運營收占比最高的市場；年報也支持公司以年輕客群為目標、回應自由行及深度旅遊需求，並布局日本二、三線城市。原句將二、三線城市布局描述為東南亞，與年報明列的日本航點範圍不一致。年報所述每座位成本降低及營運效率提升是A321neo未來機隊規劃，未建立公司目前營運效率相對同業「突出」的比較。原句部分內容需限縮。",
+      "proposed_text": "114年度客運營收主要來自東北亞，日本為客運營收占比最高的市場；公司深耕日本二、三線城市、回應自由行與深度旅遊需求，並以年輕客群為目標。公司另規劃以A321neo降低單位座位成本並提升營運效率。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6757:objective_ranking_or_market_share:1cb894214a9355a5",
+      "normalized_claim_hash": "1cb894214a9355a582d80d8ff205c7fc0b8fee044208cb52828907ea344ebbf3",
+      "ticker": "6757",
+      "company": "台灣虎航",
+      "path": "Pilot_Reports/Airlines/6757_台灣虎航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "年輕自由行觀光客 — 日本為最大航線市場",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://strapi-assets.tigerairtw.com/_2678159b14.pdf",
+          "title": "台灣虎航股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）；年報封面記載民國115年3月31日刊印。引用的市場區域表比較113及114年度；航點及客群資料為年報截至刊印日的公司揭露。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視台灣虎航官方資產網域上的年報 PDF；封面列股票代號6757、114年度年報及115年3月31日刊印。第68頁「主要商品之銷售地區」表列114年度東北亞客運營收14,907百萬元、總客運營收16,246百萬元，支持客運營收主要集中東北亞；第2頁直接稱日本為客運營收占比最高的市場。第67及69頁將自由行、深度旅遊需求與日本二、三線城市航點布局相連，並明列年輕客群（20至39歲旅客占50.5%，主力客群平均35.3歲）。第68頁的A321neo單位座位成本較A320neo預期再降11.2%及提升營運效率屬未來機隊規劃，沒有證明現行營運效率相對同業突出；年報提到東南亞航網規劃，但未將二、三線城市描述為東南亞航點。"
+        }
+      ],
+      "rationale": "114年度年報明確記載公司鎖定年輕客群，20至39歲旅客占50.5%，並說明此客群具高度旅遊自主性；年報另將航點規劃與自由行浪潮及深度旅遊需求相連。年報第2頁明確稱日本為客運營收占比最高的市場，因此「日本為最大航線市場」有公司正式揭露的市場排名支持；本判定依年報明列的客運營收占比指標理解「最大市場」。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

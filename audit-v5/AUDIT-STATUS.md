@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 13:59 UTC
+Updated: 2026-10-05 14:08 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **18 / 1,399**
-- Remaining author review: **1,381**
-- Latest batch: **author-010** (1 claim)
+- Author-reviewed: **20 / 1,399**
+- Remaining author review: **1,379**
+- Latest batch: **author-011** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **5**
-- `PARTIALLY_SUPPORTED`: **9**
+- `ACCEPTED`: **6**
+- `PARTIALLY_SUPPORTED`: **10**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,17 +24,10 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- Decision: `PARTIALLY_SUPPORTED`
-- `1712:objective_ranking_or_market_share:ababe1bd116826cb` — `SOURCE_UNAVAILABLE`; issuer site returned HTTP 503 and MOPS produced no viewable filing for the attempted years.
-- `1722:objective_ranking_or_market_share:82710f0ae62b4476` — `PARTIALLY_SUPPORTED`; annual report supports largest domestic fertilizer producer/supplier and shareholder records support MOA 24.07%, but the inspected report does not state 70% market share.
-- `1722:objective_ranking_or_market_share:991de260b51083b7` — `PARTIALLY_SUPPORTED`; official sources support about 170 hectares of land and C2/C3 project existence, not the claimed city ranking or project amounts.
-- `1722:objective_ranking_or_market_share:584c29afa2ffa73c` — `PARTIALLY_SUPPORTED`; official sources support the wholly owned Taiwan Ocean Deep Water subsidiary and Hualien production facilities, but not the Asia-largest ranking.
-- `1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7` — `SOURCE_UNAVAILABLE`; OCP official pages and the attempted USGS report returned HTTP 403, so no company-level ranking evidence was inspectable.
-- `1722:objective_ranking_or_market_share:fd708de33a7d0e86` — `PARTIALLY_SUPPORTED`; sources support the 農友牌 brand and farmer associations as one downstream channel, not the largest-channel qualifier.
-- `2610:objective_ranking_or_market_share:a74fba6da2dc6742` — `PARTIALLY_SUPPORTED`; official pages support the 1959 founding date and SkyTeam membership, but not the oldest/largest ranking.
-- `2610:objective_ranking_or_market_share:e790282c63b01303` — `SOURCE_UNAVAILABLE`; CPC official pages returned HTTP 503, and inspected CAA pages contained no supplier roster or sole-source statement.
-- Proposed wording from partial claims is recorded in their author ledgers; no issuer report was changed.
-- Next pending claim in priority order: `6757:objective_ranking_or_market_share:3c96889365c79805` (台灣虎航).
+- `6757:objective_ranking_or_market_share:3c96889365c79805` — `PARTIALLY_SUPPORTED`; 台灣虎航114年度年報支持東北亞為主要客運營收區域、日本為客運營收占比最高市場、年輕客群、自由行/深度旅遊需求及日本二、三線城市航點；不支持把二、三線航點歸於東南亞，也未證明現行營運效率相對同業突出。
+- `6757:objective_ranking_or_market_share:1cb894214a9355a5` — `ACCEPTED`; 年報載明20–39歲旅客占50.5%、主力客群平均年齡35.3歲，將航點規劃連結自由行需求，並稱日本為客運營收占比最高市場。
+- 來源為台灣虎航官方資產網域上的114年度年報 PDF；證據、期間與摘記記錄於 `semantic/author-011.json`。未修改發行人報告。
+- Next pending claim by priority: `4558:objective_ranking_or_market_share:e9efcd84b9b3989d`（寶緯）。
 
 ## Source access
 
