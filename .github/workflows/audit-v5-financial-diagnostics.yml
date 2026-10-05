@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: audit-v5-financial-diagnostics
+  cancel-in-progress: true
+
 jobs:
   diagnostics:
     runs-on: ubuntu-latest
