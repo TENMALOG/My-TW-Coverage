@@ -34,3 +34,16 @@ After the run, inspect:
 A successful workflow means the machine-verifiable layer completed. It does not by itself prove every narrative/customer/supplier/high-impact claim. Those remain queued by v5 risk classification for semantic/source verification.
 
 Do not merge `audit-v5` into `master` until the first refresh result is reviewed.
+
+
+## Risk calibration milestone
+
+HIGH calibration is complete and accepted under `risk-3-calibrated`.
+
+Final issuer triage:
+
+- HIGH 836
+- MEDIUM 750
+- LOW 147
+
+The HIGH queue is claim-level, not issuer-forensic. The accepted calibration is documented in `RISK-CALIBRATION-REPORT.md` and machine-readable details are in `generated/risk-calibration.json`.

@@ -1,6 +1,6 @@
 # Risk Policy
 
-Version: `risk-1-draft`
+Version: `risk-3-calibrated`
 
 ## HIGH
 
@@ -55,3 +55,20 @@ v3 therefore reserves immediate HIGH for:
 - export concentration/share assertions.
 
 Ordinary named supplier/customer relationships, geography-only export assertions, acquisitions without identity/control implications, and subjective "leader/leading" positioning are MEDIUM. They remain reviewable and sampleable; they are simply not immediate HIGH.
+
+
+## Calibration acceptance
+
+Calibration v3 is accepted as the active issuer triage policy for the GitHub-native v5 baseline.
+
+Acceptance basis:
+
+- all v5 unit/regression tests passed;
+- full 1,733-report machine gate passed with zero identity-unresolved and zero structural-blocked reports;
+- semantic HIGH is now derived from narrative claims only;
+- the over-broad v2 result (1,304 HIGH issuers) was rejected;
+- v3 classifies 836 HIGH, 750 MEDIUM and 147 LOW issuers;
+- HIGH samples were inspected across objective ranking/market-share, material named relationships, profitability, identity-changing events, control acquisitions and export concentration;
+- generic headings, metadata, financial tables, ordinary supplier/customer relationships, geography-only export claims and subjective leader/leading language no longer force HIGH.
+
+This calibration is about triage priority, not factual acceptance. HIGH claims still require evidence review before they become verified facts.

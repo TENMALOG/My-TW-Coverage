@@ -1,29 +1,39 @@
 {
   "engine": "audit-engine-v5",
-  "status": "GITHUB_BOOTSTRAP_PENDING_RUN",
+  "status": "RISK_CALIBRATION_COMPLETE",
   "source_of_truth": "TENMALOG/My-TW-Coverage audit-v5 branch",
-  "observed_source_commit": "39d5e4417864fefe5b5e7905ee2532026962725f",
-  "observed_report_count": 1734,
+  "observed_source_commit": "7b09e2f027c1d83cbbd91e9187da6fc6b04cdea1",
+  "observed_report_count": 1733,
   "observed_sector_count": 98,
   "completed": [
-    "protocol and state schema drafted",
-    "deterministic markdown machine gate implemented",
-    "existing plain-title report format supported",
-    "financial heading suffixes supported",
-    "carry-forward fingerprint equality implemented",
-    "financial exact-match guard implemented",
-    "1304 regression contract recorded",
-    "GitHub corpus bootstrap manifest implemented",
-    "full financial refresh wrapper with retries implemented",
-    "GitHub Actions full-refresh workflow added"
+    "GitHub-native full refresh completed successfully",
+    "1,733-report deterministic machine gate completed",
+    "identity-unresolved report count reduced to 0",
+    "structural-blocked report count reduced to 0",
+    "official current-period financial cross-check implemented",
+    "risk calibration v3 completed and accepted",
+    "HIGH queue calibrated from 884 baseline to 836 material/fragile issuers",
+    "HIGH review unit changed from whole issuer to individual claim",
+    "1304 regression contract remains active"
   ],
-  "known_findings_before_run": [
-    "README declares 1735 companies while GitHub tree contains 1734 report files",
-    "README declares 99 sectors while GitHub tree contains 98 report directories"
-  ],
+  "known_findings_before_run": [],
   "blockers": [
-    "first GitHub Actions full-refresh run has not yet been observed to completion",
-    "semantic/source validation of HIGH and MEDIUM narrative claims is not complete"
+    "semantic/source verification of the 1,410 calibrated HIGH claim signals is not complete",
+    "MEDIUM sampling/semantic review has not been executed",
+    "full historical MOPS/XBRL financial coverage and specialized financial-sector schemas remain incomplete",
+    "valuation verification remains partial"
   ],
-  "activation_allowed": false
+  "activation_allowed": false,
+  "risk_calibration": {
+    "status": "accepted",
+    "version": "risk-3-calibrated",
+    "baseline_high": 884,
+    "final_counts": {
+      "HIGH": 836,
+      "MEDIUM": 750,
+      "LOW": 147
+    },
+    "high_share": 0.4824,
+    "high_claim_signals": 1410
+  }
 }
