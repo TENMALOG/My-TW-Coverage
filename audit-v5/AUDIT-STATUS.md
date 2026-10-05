@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 01:04 UTC
+Updated: 2026-10-10 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,31 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **732 / 1,399**
-- Remaining author review: **667**
-- Latest batch: **author-121** (8 claims)
+- Author-reviewed: **736 / 1,399**
+- Remaining author review: **663**
+- Latest batch: **author-122** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **476**
+- `PARTIALLY_SUPPORTED`: **479**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **169**
+- `UNKNOWN_AFTER_RESEARCH`: **170**
 
 ## Latest claim batch
 
-- `8086:objective_ranking_or_market_share:195cb9f67a470584` — `UNKNOWN_AFTER_RESEARCH`；該 claim 為**第三人（穩懋）之市場地位**，宏捷科議事錄「穩懋」「全球最大」「代工」皆0次，且穩懋官方網域先前遭 TLS 憑證失敗（author-112）。
-- `8131:objective_ranking_or_market_share:5930424229e429b1` — `ACCEPTED`；福懋科110年報載「**南亞科技股份有限公司持股比例達32% 成為本公司最大股東**，**福懋興業股份有限公司持股比例降為30.68%**」＋台塑集團關聯圖——**逐字對應**。
-- `8131:objective_ranking_or_market_share:478f771b0c4ced7b` — `PARTIALLY_SUPPORTED`；32%／最大股東逐字支持；惟「最大客戶」0次。
-- `8131:objective_ranking_or_market_share:468108abf2d6a30b` — `PARTIALLY_SUPPORTED`；第一大股東成立；惟「占營收50%」未獲支持（「50%」1次為員工年齡別統計）。
-- `8162:objective_ranking_or_market_share:53be25f984132f29`、`e32635bf5c906e45` — `ACCEPTED` ×2；微矽簡報載「深耕半導體產業超過**38年**」與「為國內**電源管理IC、MOSFET、氮化鎵(GaN)晶圓測試服務的最大供應商**」——**逐字對應**。
-- `8261:objective_ranking_or_market_share:49acbcc2abe7bd34` — `PARTIALLY_SUPPORTED`；「MOSFET」1次；惟「6吋」「DMOS」「第一家」皆0次。
-- `8299:objective_ranking_or_market_share:cd78eed6eeac704c` — `UNKNOWN_AFTER_RESEARCH`；群聯官方年報端點**連線中斷**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-121.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3570:objective_ranking_or_market_share:35138bf9d920ff85` (大塚).
+- `3570:objective_ranking_or_market_share:35138bf9d920ff85` — `PARTIALLY_SUPPORTED`；大塚簡報「**白金級全產品代理商**」「*獲得**Autodesk**唯一」「*獲得**PTC**唯一白金級」「Siemens」6次；惟「AutoCAD／Inventor／Revit／Creo／Windchill／Chaos」皆0次（圖形排版）。
+- `3570:objective_ranking_or_market_share:ecc5b3d321654048` — `PARTIALLY_SUPPORTED`；Autodesk 唯一白金級全產品代理商成立；惟「佔進貨比逾六成」0次。
+- `3632:objective_ranking_or_market_share:ddac08bae5982648` — `UNKNOWN_AFTER_RESEARCH`；研勤官方年報端點 **HTTP 404**。
+- `5201:objective_ranking_or_market_share:b747625e09fd4b18` — `PARTIALLY_SUPPORTED`；凱衛102年報「證券」88次；惟「市佔」3次**全為目標敘述**、「七成」0次（**非近期版本**）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-122.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `5202:objective_ranking_or_market_share:0a310a8ce7f2645f` (力新).
 
 ## Source access
 

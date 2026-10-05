@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-122",
+  "reviewed_at": "2026-10-05T20:28:17Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大塚法人說明會簡報; 凱衛102年度年報); 研勤年報端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3570:objective_ranking_or_market_share:35138bf9d920ff85",
+      "normalized_claim_hash": "35138bf9d920ff8555bb915199372b2b8cee6fb85db7c7cb3c75d3f0eeebe6b0",
+      "ticker": "3570",
+      "company": "大塚",
+      "path": "Pilot_Reports/Software - Application/3570_大塚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為 [[Autodesk]] 及 [[PTC]] 在台灣唯一白金級全產品代理商，代理品牌涵蓋 [[Autodesk]] (AutoCAD、Inventor、Revit) 與 [[PTC]] (Creo、Windchill)，另代理 [[Siemens]] 及 [[Chaos Group]] 等軟體。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/357020250324M001.pdf",
+          "title": "大塚資訊科技股份有限公司（大塚，3570，Otsuka Information Technology）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年3月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,586字元；該簡報以圖形排版為主）。簡報載「**白金級全產品代理商**」「*獲得**Autodesk**唯一」「*獲得**PTC**唯一白金級」（「Autodesk」8次、「PTC」7次、「白金」8次、「代理商」8次、「全產品」6次、「**Siemens**」6次、「唯一」5次），支持其取得 Autodesk 與 PTC 之唯一白金級全產品代理資格及代理 Siemens 產品。全份簡報中「**AutoCAD**」「**Inventor**」「**Revit**」「**Creo**」「**Windchill**」「**Chaos**」之出現次數**均為0**（各產品名稱可能以圖像呈現而未被文字層擷取），「**六成**」亦為0。"
+        }
+      ],
+      "rationale": "claim 之核心陳述獲發行人簡報支持：簡報載「**白金級全產品代理商**」與「*獲得**Autodesk**唯一」「*獲得**PTC**唯一白金級**」，支持其為 Autodesk 及 PTC 在台灣之唯一白金級全產品代理商；「**Siemens**」6次亦支持其代理 Siemens 產品。惟代理品牌之**具體產品名稱**未獲支持：全份簡報中「**AutoCAD**」「**Inventor**」「**Revit**」「**Creo**」「**Windchill**」與「**Chaos**」之出現次數**均為0**（該簡報以圖形排版為主，產品名稱可能以圖像呈現而未被文字層擷取）。故部分成立。",
+      "proposed_text": "大塚資訊科技 (3570) 為 Autodesk 及 PTC 在台灣之唯一白金級全產品代理商，並代理 Siemens 等品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3570:objective_ranking_or_market_share:ecc5b3d321654048",
+      "normalized_claim_hash": "ecc5b3d3216540485d5601b8fcf0992f25ad101a08da0289953584540e35ba36",
+      "ticker": "3570",
+      "company": "大塚",
+      "path": "Pilot_Reports/Software - Application/3570_大塚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Autodesk]] — 台灣唯一白金級全產品代理商 (佔進貨比逾六成)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/357020250324M001.pdf",
+          "title": "大塚資訊科技股份有限公司（大塚，3570，Otsuka Information Technology）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2025年3月簡報）。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,586字元；該簡報以圖形排版為主）。簡報載「**白金級全產品代理商**」「*獲得**Autodesk**唯一」「*獲得**PTC**唯一白金級」（「Autodesk」8次、「PTC」7次、「白金」8次、「代理商」8次、「全產品」6次、「**Siemens**」6次、「唯一」5次），支持其取得 Autodesk 與 PTC 之唯一白金級全產品代理資格及代理 Siemens 產品。全份簡報中「**AutoCAD**」「**Inventor**」「**Revit**」「**Creo**」「**Windchill**」「**Chaos**」之出現次數**均為0**（各產品名稱可能以圖像呈現而未被文字層擷取），「**六成**」亦為0。"
+        }
+      ],
+      "rationale": "「[[Autodesk]] — 台灣**唯一白金級全產品代理商**」獲發行人簡報支持（簡報載「*獲得**Autodesk**唯一」與「白金級全產品代理商」）。惟「（佔進貨比**逾六成**）」未獲支持：全份簡報中「**六成**」出現次數為0，未載該進貨占比。故部分成立。",
+      "proposed_text": "大塚資訊科技 (3570) 為 Autodesk 在台灣之唯一白金級全產品代理商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3632:objective_ranking_or_market_share:ddac08bae5982648",
+      "normalized_claim_hash": "ddac08bae5982648e6b2c0f484802ee3a40fa2885f0947cc9a240eb16d9b5a71",
+      "ticker": "3632",
+      "company": "研勤",
+      "path": "Pilot_Reports/Software - Application/3632_研勤.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務：(1) **FACE8 臉霸** — 自主研發人臉辨識引擎，為台灣落地量最大之人臉辨識系統，累計超過一萬家客戶採用，每日辨識量逾百萬次，應用於考勤、校園管理、健身房會員識別及金融機構身份驗證；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://tw.papagoinc.com/Company/files/%e7%a0%94%e5%8b%a42023%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "研勤科技股份有限公司（研勤，3632，PAPAGO）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載2023年年報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得研勤可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「核心業務：FACE8 臉霸 — 自主研發人臉辨識引擎，為台灣落地量最大之人臉辨識系統，累計超過一萬家客戶採用，每日辨識量逾百萬次（…）」未獲確立：本批次自發行人官方網域下載年報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5201:objective_ranking_or_market_share:b747625e09fd4b18",
+      "normalized_claim_hash": "b747625e09fd4b18b6109f93abe61877e81469e2eab54556389450fe90415e9b",
+      "ticker": "5201",
+      "company": "凱衛",
+      "path": "Pilot_Reports/Software - Application/5201_凱衛.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "市場地位：在外資券商在台據點之市佔率極高 (約七成)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.kway.com.tw/en/wp-content/uploads/2023/11/102%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "凱衛資訊股份有限公司（凱衛，5201，Kway Information）102 年度年報",
+          "source_level": 3,
+          "period_binding": "民國102年度（2013年）；**非近期版本**。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取132,898字元）。該年報為**民國102年度**版本（非近期）；其中「**證券**」出現88次、「外資券商」1次，支持其金融證券軟體業務。全份年報中「**市佔**」3次之上下文**均為目標敘述**——「1.切入利基產品市場並**提高市佔率**，積極以創新商業營運模式深耕目標市場」「本公司除代理韓國**市佔率第一名** HTS 產品外」「未來營運發展策略朝向1.**提高外資**及電子交易市場**市佔率**」；「**七成**」出現次數為0。"
+        }
+      ],
+      "rationale": "「為金融證券專業軟體公司」獲發行人年報支持：102年度年報中「**證券**」出現88次、「外資券商」1次，支持其金融證券軟體業務。惟「在外資券商在台據點之**市佔率極高（約七成）**」未獲支持：全份年報中「**市佔**」3次之上下文**均為目標敘述**（「提高市佔率」「代理韓國市佔率第一名 HTS 產品」「提高外資及電子交易市場市佔率」）；「**七成**」出現次數為0。故部分成立（並註記該年報為**民國102年度**版本，非近期）。",
+      "proposed_text": "凱衛資訊 (5201，Kway Information) 從事金融證券專業軟體業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
