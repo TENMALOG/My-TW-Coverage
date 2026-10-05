@@ -1,0 +1,84 @@
+name: Audit v5 semantic worker
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: Claims to process this run
+        required: false
+        default: "4"
+  push:
+    branches: [audit-v5]
+    paths:
+      - "audit-v5/semantic_worker.py"
+      - ".github/workflows/audit-v5-semantic-worker.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-semantic-worker
+  cancel-in-progress: false
+
+jobs:
+  work:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SEMANTIC_BATCH_SIZE: ${{ inputs.batch_size || vars.SEMANTIC_BATCH_SIZE || '4' }}
+      SEMANTIC_AUTHOR_MODEL: ${{ vars.SEMANTIC_AUTHOR_MODEL || 'gpt-5.5' }}
+      SEMANTIC_REVIEWER_MODEL: ${{ vars.SEMANTIC_REVIEWER_MODEL || 'gpt-5.5' }}
+      SEMANTIC_AUTHOR_EFFORT: ${{ vars.SEMANTIC_AUTHOR_EFFORT || 'medium' }}
+      SEMANTIC_REVIEWER_EFFORT: ${{ vars.SEMANTIC_REVIEWER_EFFORT || 'high' }}
+      SEMANTIC_SCHEDULE_LABEL: manual/push test
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Syntax check
+        run: python -m py_compile audit-v5/semantic_worker.py audit-v5/semantic_queue.py
+
+      - name: Require OpenAI API key
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Missing repository Actions secret OPENAI_API_KEY"
+            echo "Add the secret, then rerun this workflow."
+            exit 2
+          fi
+
+      - name: Process semantic claim batch
+        run: python -X utf8 audit-v5/semantic_worker.py
+
+      - name: Upload batch evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: semantic-worker-${{ github.run_id }}
+          path: |
+            audit-v5/generated/semantic-worker-state.json
+            audit-v5/AUDIT-STATUS.md
+            audit-v5/semantic/worker-batches/
+          if-no-files-found: ignore
+          retention-days: 90
+
+      - name: Commit progress
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit-v5/generated/semantic-worker-state.json audit-v5/AUDIT-STATUS.md audit-v5/semantic/worker-batches
+          if git diff --cached --quiet; then
+            echo "No semantic progress to commit."
+          else
+            git commit -m "audit-v5: advance semantic worker [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
+            git push origin HEAD:audit-v5
+          fi
