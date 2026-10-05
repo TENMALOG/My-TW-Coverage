@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-143",
+  "reviewed_at": "2026-10-05T20:56:11Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (寶元數控公司概況資料表; 富田電機112年度年報; 萬潤公司簡介文件)",
+  "items": [
+    {
+      "claim_id": "4587:objective_ranking_or_market_share:d95215ea397fbeb3",
+      "normalized_claim_hash": "d95215ea397fbeb3959328f3f1c839f0d8437cd0d83cc82db2f3774232c4e004",
+      "ticker": "4587",
+      "company": "寶元數控",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4587_寶元數控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "寶元數控 (4587，LNC Technology) 為[[研華]] (2395) 集團旗下子公司 (2013 年併購)，以「Advantech-LNC」雙品牌行銷，為台灣/華語圈最大[[CNC]]控制器品牌，全球累計逾 500 家設備廠客戶。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2022/07/1658128505_10108_CH_4587.pdf",
+          "title": "寶元數控股份有限公司（寶元數控，4587，LNC Technology）公司概況資料表",
+          "source_level": 3,
+          "period_binding": "2022年7月登錄資料。",
+          "accessed_at": "2026-10-10",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取8,340字元）。文件中「**研華**」出現2次、「CNC」1次，支持其與研華集團之關係及 CNC 控制器業務。全份文件中「**Advantech**」「**最大**」「**500**」「**2013**」與「**華語**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為[[研華]]（2395）集團旗下子公司，從事 [[CNC]] 控制器業務」獲發行人相關文件支持：文件中「**研華**」出現2次、「CNC」1次，支持其集團歸屬與 CNC 控制器業務。惟四項陳述未獲支持：(1)「（**2013 年併購**）」——「2013」出現次數為0；(2)「以『**Advantech-LNC**』雙品牌行銷」——「Advantech」為0；(3)「為台灣／華語圈**最大** CNC 控制器品牌」——「最大」與「華語」均為0；(4)「全球累計逾 **500 家**設備廠客戶」——「500」為0。故部分成立。",
+      "proposed_text": "寶元數控 (4587，LNC Technology) 為研華集團旗下從事 CNC 控制器業務之公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4590:objective_ranking_or_market_share:360bcbc09d6f1e13",
+      "normalized_claim_hash": "360bcbc09d6f1e13c473cf66f6ad2f92ec30998295e726f887800fa919b5bf72",
+      "ticker": "4590",
+      "company": "富田-創",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4590_富田-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Tesla]] (最大客戶/最資深供應商)、[[Mazda]] — EV 驅動馬達",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fukuta-motor.com.tw/UserFiles/investor_pdf/112_annual_report.pdf?0624",
+          "title": "富田電機股份有限公司（富田-創，4590，Fukuta Electric & Machinery）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取189,951字元）。**年報係以中文名稱「特斯拉」表述該客戶**（「**特斯拉**」出現2次，「**驅動馬達**」1次）；另載「擔任經濟部技術處電動車先進動力系統研發聯盟計畫主導廠商」（民國99年12月），支持其電動車動力系統業務。全份年報中「**Tesla**」「**Mazda**」「**馬自達**」「**最大客戶**」與「**最資深**」之出現次數**均為0**。**方法論註記：本件以中文公司名表述，以英文名檢索不具意義。**"
+        }
+      ],
+      "rationale": "「與 [[Tesla]] 具供應關係，從事[[電動車]]驅動馬達業務」獲發行人年報支持：年報**以中文名「特斯拉」表述**（「**特斯拉**」2次、「**驅動馬達**」1次），並載其擔任電動車先進動力系統研發聯盟計畫主導廠商。惟三項陳述未獲支持：(1)「（**最大客戶**）」——「最大客戶」0次；(2)「**最資深供應商**」——「最資深」0次；(3)「[[Mazda]]」——「Mazda」與「馬自達」均為0。故部分成立。**方法論註記：本件以中文公司名表述，以英文名檢索不具意義。**",
+      "proposed_text": "富田電機 (4590，Fukuta Electric & Machinery) 從事電動車驅動馬達業務，並與特斯拉具供應關係。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4590:objective_ranking_or_market_share:fdd0dd5d84053326",
+      "normalized_claim_hash": "fdd0dd5d840533267fa457d3fe29541bdac5b78bee0df41ff39dd1b4d4a23434",
+      "ticker": "4590",
+      "company": "富田-創",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4590_富田-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Tesla]] — 最大客戶/最資深供應商；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fukuta-motor.com.tw/UserFiles/investor_pdf/112_annual_report.pdf?0624",
+          "title": "富田電機股份有限公司（富田-創，4590，Fukuta Electric & Machinery）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取189,951字元）。**年報係以中文名稱「特斯拉」表述該客戶**（「**特斯拉**」出現2次，「**驅動馬達**」1次）；另載「擔任經濟部技術處電動車先進動力系統研發聯盟計畫主導廠商」（民國99年12月），支持其電動車動力系統業務。全份年報中「**Tesla**」「**Mazda**」「**馬自達**」「**最大客戶**」與「**最資深**」之出現次數**均為0**。**方法論註記：本件以中文公司名表述，以英文名檢索不具意義。**"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[Tesla]] — **最大客戶／最資深供應商**」）。年報以中文名「**特斯拉**」表述該客戶（2次），支持其供應關係；惟「**最大客戶**」與「**最資深**」之出現次數均為0。故部分成立。**方法論註記：本件以中文公司名表述，以英文名檢索不具意義。**",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6187:objective_ranking_or_market_share:6ca35e4decf8dbab",
+      "normalized_claim_hash": "6ca35e4decf8dbab44ffde9768390c617812a9a47b4e899a4b1c2eb6528c7f2a",
+      "ticker": "6187",
+      "company": "萬潤",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6187_萬潤.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]([[台積電]]，最大客戶/[[CoWoS]]關鍵設備提供者)、[[日月光投控]](ASE/[[矽品]])及各大LED/被動元件廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/618720200925E001.pdf",
+          "title": "萬潤科技股份有限公司（萬潤，6187，All Ring Tech）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "2020年9月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,109字元，以圖形排版為主）。文件中「**CoWoS**」出現2次、「**LED**」2次，支持其先進封裝（CoWoS）及 LED 相關設備業務。全份文件中「**台積電**」「**最大客戶**」「**日月光**」「**矽品**」與「**被動元件**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為 [[CoWoS]] 相關設備提供者，並供應各大 [[LED]] 廠」獲發行人文件支持：文件中「**CoWoS**」出現2次、「**LED**」2次，支持其先進封裝及 LED 相關設備業務。惟三項具名對象未獲支持：全份文件中「**台積電**」（及「最大客戶」）、「**日月光**」「**矽品**」與「**被動元件**」之出現次數**均為0**。故部分成立（並註記該文件文字擷取僅3,109字元，以圖形排版為主）。",
+      "proposed_text": "萬潤科技 (6187，All Ring Tech) 提供 CoWoS 先進封裝及 LED 相關設備。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

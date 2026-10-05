@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 22:04 UTC
+Updated: 2026-10-10 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **824 / 1,399**
-- Remaining author review: **575**
-- Latest batch: **author-142** (4 claims)
+- Author-reviewed: **828 / 1,399**
+- Remaining author review: **571**
+- Latest batch: **author-143** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **537**
+- `PARTIALLY_SUPPORTED`: **541**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `4575:objective_ranking_or_market_share:8ef602a5b67e7880` — `PARTIALLY_SUPPORTED`；銓寶年報「**PET」47 次、「吹瓶機」51 次**；惟「**台灣最大」1 次係修飾「夾頭」**（「亦是台灣最大手工具、工具機用夾頭製造商」），「85%」0次。
-- `4575:objective_ranking_or_market_share:804fbb6663ee345a` — `PARTIALLY_SUPPORTED`；年報「**鑽夾頭」12 次**並載「亦是**台灣最大**手工具、工具機用夾頭製造商」；惟「40 年」0次。
-- `4583:objective_ranking_or_market_share:6384a87c92b38584` — `UNKNOWN_AFTER_RESEARCH`；台灣精銳官方年報端點 **HTTP 404**。
-- `4585:objective_ranking_or_market_share:2917276f3dfdb362` — `PARTIALLY_SUPPORTED`；達明文件「**cobot」11 次**、「Universal Robots」1次；惟「全球第二」「唯一」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-142.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `4587:objective_ranking_or_market_share:d95215ea397fbeb3` (寶元數控).
+- `4587:objective_ranking_or_market_share:d95215ea397fbeb3` — `PARTIALLY_SUPPORTED`；寶元文件「**研華」2 次**、「CNC」1次；惟「Advantech」「最大」「500」「2013」「華語」皆0次。
+- `4590:objective_ranking_or_market_share:360bcbc09d6f1e13`、`fdd0dd5d84053326` — `PARTIALLY_SUPPORTED` ×2；富田年報**以中文名「特斯拉」表述**（2次）、「驅動馬達」1次；惟「最大客戶」「最資深」「Mazda／馬自達」皆0次。
+- `6187:objective_ranking_or_market_share:6ca35e4decf8dbab` — `PARTIALLY_SUPPORTED`；萬潤文件「**CoWoS」2 次、「LED」2 次**；惟「台積電」「最大客戶」「日月光」「矽品」「被動元件」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-143.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6208:objective_ranking_or_market_share:96caba418bc3233c` (日揚).
 
 ## Source access
 
