@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 05:04 UTC
+Updated: 2026-10-09 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **605 / 1,399**
-- Remaining author review: **794**
-- Latest batch: **author-101** (7 claims)
+- Author-reviewed: **611 / 1,399**
+- Remaining author review: **788**
+- Latest batch: **author-102** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **390**
+- `PARTIALLY_SUPPORTED`: **396**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,15 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `9905:objective_ranking_or_market_share:9dd75a043dafb144` — `PARTIALLY_SUPPORTED`；大華2026簡報「鋁罐」7次；惟「唯一」「綜合性」「最大」「市佔」皆0次，且「**35%**」1次係**財務比率**（費用率5.35%）。
-- `9907:objective_ranking_or_market_share:bd571e06d78ed907` — `PARTIALLY_SUPPORTED`；統一實年報「馬口鐵」81次、「垂直整合」1次；惟「亞洲第一」「寶鋼」皆0次。
-- `9939:objective_ranking_or_market_share:15e2e8695fe9d5ba` — `PARTIALLY_SUPPORTED`；宏全簡報「1969」2次、「包材」19次、「大中華」4次；惟「最大」「第三大」皆0次（2010年版）。
-- `5530:objective_ranking_or_market_share:c4e955be65adb681` — `PARTIALLY_SUPPORTED`；龍巖簡報載「**生前契約市佔率**」與「**約79%**」（生前契約10次、禮儀11次）；惟「禮儀服務占營收約60%」之對應未獲確認。
-- `5530:objective_ranking_or_market_share:eb56e880bb5d11f6` — `ACCEPTED`；龍巖簡報載「**生前契約市佔率**」「**約79%**」——逐項對應。
-- `4556:objective_ranking_or_market_share:9b2b2b95d0b2860e` — `PARTIALLY_SUPPORTED`；旭然2015簡報客戶列含「**台積電**」與「**日月光**」，並載「工業用**超純水**」（過濾25次）；惟「聯電」「最大客戶」皆0次。
-- `2640:objective_ranking_or_market_share:aa3a18660be7ca86` — `PARTIALLY_SUPPORTED`；大車隊2024簡報「車隊」6次；惟「市占」「第一」「24,000」「29,000」皆0次（簡報僅1,935字元）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-101.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `5292:objective_ranking_or_market_share:b7b5d29e96b2972f` (華懋).
+- `5292:objective_ranking_or_market_share:b7b5d29e96b2972f` — `PARTIALLY_SUPPORTED`；華懋2024簡報載「**VOCs污染防治系統**」「高科技**VOCs淨化設備**」（VOCs 6次、轉輪5次）；惟「沸石」「市佔」「黃光」皆0次。
+- `1808:objective_ranking_or_market_share:ee0f0ac169c03e89` — `PARTIALLY_SUPPORTED`；潤隆簡報「完工」3次、「2025」3次；惟「最大」「交屋」皆0次。
+- `2539:objective_ranking_or_market_share:0660a4ba59fb2fd6` — `PARTIALLY_SUPPORTED`；櫻花建2024簡報（**英文版**）「Taichung」18次；惟「1988」「largest」「Baujia」皆0次，且簡報載董事長為「**Mr. Chen, Shin-Ying**」，與claim所述**林家宏**不同。
+- `2542:objective_ranking_or_market_share:ca12741b0453c297`、`ed6d035d3884b395` — `PARTIALLY_SUPPORTED` ×2；興富發113年報「曹淵博」18次；惟「1980」「民營建商」「全台最大」皆0次——**年報中「全球最大」係指其合作對象「全球最大連鎖酒店萬豪集團」，非興富發自身**。
+- `2542:objective_ranking_or_market_share:c259dca2ad8e1373` — `PARTIALLY_SUPPORTED`；年報「**齊裕營造**」11次（集團子公司）成立；惟「地下室」0次，「全國地下室挖掘量最大」未獲支持。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-102.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `2923:objective_ranking_or_market_share:2deccd89094eaab3` (鼎固-KY).
 
 ## Source access
 
