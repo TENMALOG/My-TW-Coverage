@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 21:04 UTC
+Updated: 2026-10-09 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **705 / 1,399**
-- Remaining author review: **694**
-- Latest batch: **author-117** (5 claims)
+- Author-reviewed: **710 / 1,399**
+- Remaining author review: **689**
+- Latest batch: **author-118** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **455**
+- `PARTIALLY_SUPPORTED`: **460**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `5262:objective_ranking_or_market_share:f119d6b2ee83a82c` — `PARTIALLY_SUPPORTED`；立達文件載「於同年**上架 Amazon** 與中國最大網購通路京東商城」（Amazon 1次、通路5次）；惟「全球最大客戶」「Costco」皆0次。
-- `5274:objective_ranking_or_market_share:0273091c5ede01d3` — `PARTIALLY_SUPPORTED`；信驊簡報載「**拿下BMC市佔率第一**」（BMC 24次）；惟「**70%」與「龍頭」皆 0 次**。
-- `5471:objective_ranking_or_market_share:15c0951019aab7a5` — `PARTIALLY_SUPPORTED`；松翰2024年報「血壓計」3次、「耳溫槍」1次、「車用」8次、「攝影機」11次；惟「視訊攝影機」「高市佔」皆0次。
-- `6202:objective_ranking_or_market_share:5eb42ab1bfebd2f0` — `PARTIALLY_SUPPORTED`；盛群2025年報「MCU」146次、「ASIC」4次、「中國」25次；惟「市佔」0次。
-- `6237:objective_ranking_or_market_share:ea961f6789113b61` — `PARTIALLY_SUPPORTED`；驊訊文件「USB」515次、「PCI」8次、「音效晶片」8次；惟「市佔」11次**多指其他公司**，且該文件係**證券商網站彙編**（source_level 2）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-117.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6239:objective_ranking_or_market_share:1ef7e877642549e6` (力成).
+- `6239:objective_ranking_or_market_share:1ef7e877642549e6` — `PARTIALLY_SUPPORTED`；力成114年報「**封裝」165 次、「測試」85 次、「記憶體」29 次**；惟「前五大」0次，且「**最大」3 次全為泛用語**（最大效用／最大利基／員工健康是最大的財富）。
+- `6239:objective_ranking_or_market_share:91405f2a46c49ae7` — `PARTIALLY_SUPPORTED`；年報「**金士頓」28 次**、「美光」4次、「Kioxia」3次、「SK」2次；惟「最大客戶」0次、「NVIDIA」「Micron」皆0次。
+- `6278:objective_ranking_or_market_share:20a7b48918d5cfec` — `PARTIALLY_SUPPORTED`；台表科113年報（**英文版**）「**SMT」114 次、「EMS」36 次**；惟「**largest」0 次**，且「world」3次為泛用語。
+- `6411:objective_ranking_or_market_share:39af3c3dfe85aa8b` — `PARTIALLY_SUPPORTED`；晶焱2023永續報告「靜電」26次、「**ESD」9 次**；惟「首家」「台灣首」「市佔」皆0次。
+- `6411:objective_ranking_or_market_share:27fa17d018a64993` — `PARTIALLY_SUPPORTED`；ESD 元件應用領域成立；惟「支配地位」與「市佔」皆未見。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-118.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6415:objective_ranking_or_market_share:5b44c9f8d34a07a8` (矽力-KY).
 
 ## Source access
 
