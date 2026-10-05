@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 18:04 UTC
+Updated: 2026-10-09 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **692 / 1,399**
-- Remaining author review: **707**
-- Latest batch: **author-114** (8 claims)
+- Author-reviewed: **697 / 1,399**
+- Remaining author review: **702**
+- Latest batch: **author-115** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **446**
+- `PARTIALLY_SUPPORTED`: **448**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **162**
+- `UNKNOWN_AFTER_RESEARCH`: **165**
 
 ## Latest claim batch
 
-- `3545:objective_ranking_or_market_share:3863a18a0b35d83b`、`b0c570c3eee08a0b` — `ACCEPTED` ×2；敦泰2024年報載「（本公司）**觸控IC** 年度出貨逾4億顆，成為**全球最大觸控IC 供應商**」，並見電容式15次、顯示驅動17次、指紋68次、TDDI 2次——**逐項對應**。
-- `3567:objective_ranking_or_market_share:771daad65f7afad8` — `PARTIALLY_SUPPORTED`；逸昌112年報「類比」66次、「混合訊號」6次、「晶圓測試」16次、「100%」3次；惟「第一家」「雷射修整」「捲帶」皆0次。
-- `3583:objective_ranking_or_market_share:d01d05af66a35f62` — `PARTIALLY_SUPPORTED`；辛耘2025年報「濕式」5次、「矽晶圓再生」2次；惟「16萬」「16nm」皆0次。
-- `3583:objective_ranking_or_market_share:9f4f88d12436b18e` — `UNKNOWN_AFTER_RESEARCH`；年報「最大客戶」「19.37」皆0次，且「**台積電」9 次含「台積電採購副理」之人員經歷**與「製造商如台積電、三星和英特爾」之產業敘述。
-- `3661:objective_ranking_or_market_share:3565731645cc816a` — `PARTIALLY_SUPPORTED`；世芯年報「ASIC」84次、「先進製程」4次、「台積電」3次；惟「**唯一」0 次**。
-- `3680:objective_ranking_or_market_share:6827b5060d58507e`、`7bf17ffbe1bd9dda` — `PARTIALLY_SUPPORTED` ×2；家登文件「EUV」1次、「FOUP」4次；惟「ASML」「80%」「50%」皆0次（該檔文字擷取僅3,381字元）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-114.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3680:objective_ranking_or_market_share:c865bf5112c73bab` (家登).
+- `3680:objective_ranking_or_market_share:c865bf5112c73bab` — `PARTIALLY_SUPPORTED`；家登**完整年報**「台積電」14次、「Intel」3次、「**ASML」4 次**、「EUV」23次，並載「成為**全球唯二家經ASML 認證**之廠商」；惟「最大客戶」0次、「Samsung／三星」0次，且「50%」25次多為財務比率。
+- `3707:objective_ranking_or_market_share:13a1c75c5f1b260d` — `PARTIALLY_SUPPORTED`；漢磊2024永續報告「化合物」23次、「碳化矽」9次、「氮化鎵」7次；惟「Sub-micron」「BiCMOS」皆0次。
+- `3711:objective_ranking_or_market_share:c038454aa18420d4`、`4d7b58600a93fb56`、`f3500d5d502f4ad0` — `UNKNOWN_AFTER_RESEARCH` ×3；日月光投控告官方文件文字擷取**僅得4頁**且內容有限，未載全球封測市占率、排名或客戶結構。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-115.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `4966:objective_ranking_or_market_share:c9c039a42c112b9a` (譜瑞-KY).
 
 ## Source access
 

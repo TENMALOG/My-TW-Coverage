@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-115",
+  "reviewed_at": "2026-10-05T20:18:16Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (家登完整年報; 漢磊2024年永續報告書; 日月光投控告2024營運模式文件); 日月光文件文字擷取僅4頁，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3680:objective_ranking_or_market_share:c865bf5112c73bab",
+      "normalized_claim_hash": "c865bf5112c73bab8be54d7bb46917318d9a06b98f5303359c8a4cf70471b155",
+      "ticker": "3680",
+      "company": "家登",
+      "path": "Pilot_Reports/Semiconductors/3680_家登.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**晶圓代工巨頭**: [[台積電]] (最大客戶，營收佔比 >50%)、[[Intel]]、[[Samsung]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gudeng.com/FileDownload/FileDownLoad?FID=96&Multi=True",
+          "title": "家登精密工業股份有限公司（家登，3680，Gudeng Precision）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取235,590字元，為完整年報）。年報載「（本公司）**全球微影設備大廠ASML 認證，成為全球唯二家經ASML 認證之**（廠商）」，並見「**EUV**」23次、「**ASML**」4次、「**台積電**」14次、「**Intel**」3次、「50%」25次，支持其 EUV 光載具經 ASML 認證及與台積電、Intel 之業務往來。全份年報中「**最大客戶**」與「**Samsung**」「**三星**」之出現次數均為0；「50%」25次之上下文多為財務比率與持股比例等，未見「台積電營收佔比超過50%」之敘述。**註記：本批次另取得該公司完整年報，先前批次（author-114）僅取得該公司文件之部分章節（3,381字元）。**"
+        }
+      ],
+      "rationale": "「與台積電、Intel 等晶圓代工／半導體巨頭具業務往來」獲發行人**完整年報**支持：年報中「**台積電**」出現14次、「**Intel**」3次、「**ASML**」4次、「EUV」23次，支持其與該等廠商之業務關係。惟兩項陳述未獲支持：(1)「台積電（**最大客戶**）」——全份年報中「**最大客戶**」出現次數為0；(2)「營收佔比 **>50%**」——「50%」25次之上下文多為財務比率與持股比例等，未見該敘述；(3)「**Samsung／三星**」亦為0次。故部分成立。",
+      "proposed_text": "家登精密工業 (3680，Gudeng Precision) 之 EUV 光罩盒經 ASML 認證，並與台積電、Intel 等半導體廠有業務往來。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3707:objective_ranking_or_market_share:13a1c75c5f1b260d",
+      "normalized_claim_hash": "13a1c75c5f1b260d0460af383452a4e2bcf946134f4b7e75371eb88e10e51936",
+      "ticker": "3707",
+      "company": "漢磊",
+      "path": "Pilot_Reports/Semiconductors/3707_漢磊.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球第一家 **Sub-micron Bipolar/BiCMOS** 專業代工廠，近年轉型為 **化合物半導體 (Compound Semiconductor)** 專業代工廠，專注於 **SiC ([[碳化矽]])** 及 **GaN ([[氮化鎵]])** 功率[[半導體]]代工。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.episil.com/upload/esg/report/2024.pdf",
+          "title": "漢磊科技股份有限公司（漢磊，3707，Episil Technologies）2024 永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書中「**化合物**」出現23次、「**碳化矽**」9次、「**氮化鎵**」7次、「**Bipolar**」5次、「第一家」3次、「專業代工」2次，支持其轉型化合物半導體專業代工並專注碳化矽及氮化鎵功率半導體。全份報告書中「**Sub-micron**」與「**BiCMOS**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「轉型為化合物半導體專業代工廠，專注於 SiC（碳化矽）及 GaN（氮化鎵）功率半導體」獲發行人永續報告書支持：報告書中「**化合物**」出現23次、「**碳化矽**」9次、「**氮化鎵**」7次、「**專業代工**」2次，支持其轉型與專注領域。惟「為**全球第一家 Sub-micron Bipolar／BiCMOS** 專業代工廠」未獲支持：全份報告書中「**Sub-micron**」與「**BiCMOS**」之出現次數均為0（「Bipolar」5次、「第一家」3次之上下文未載該技術節點與世界第一之敘述）。故部分成立。",
+      "proposed_text": "漢磊科技 (3707，Episil Technologies) 轉型為化合物半導體專業代工廠，專注於碳化矽（SiC）及氮化鎵（GaN）功率半導體。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3711:objective_ranking_or_market_share:c038454aa18420d4",
+      "normalized_claim_hash": "c038454aa18420d4aa618db2fd6c206113ea548ae0302b58f34fc1f846d1a756",
+      "ticker": "3711",
+      "company": "日月光投控",
+      "path": "Pilot_Reports/Semiconductors/3711_日月光投控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球 **封測 (OSAT)** 龍頭，市佔率世界第一。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.aseglobal.com/ch/pdf/2024-aseh-csr-operating-model-ch.pdf",
+          "title": "日月光投資控股股份有限公司（日月光投控，3711，ASE Technology Holding）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載之「2024 營運模式」文件，經 PDF 文字擷取後**僅得4頁、內容極為有限**（該文件可能以圖形排版為主），未載全球封測市占率、客戶結構或排名之敘述；本批次未取得日月光投控載有必要資訊之官方文件。"
+        }
+      ],
+      "rationale": "「公司為全球封測（OSAT）龍頭，市佔率世界第一」未獲確立：本批次自發行人官方網域所取得之文件經 PDF 文字擷取後**僅得4頁、內容極為有限**（可能以圖形排版為主），未載全球封測市占率或排名之敘述。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3711:objective_ranking_or_market_share:4d7b58600a93fb56",
+      "normalized_claim_hash": "4d7b58600a93fb56b3b5201e84bd19259df724a4b494ab5a4f4d62eb2c487cc3",
+      "ticker": "3711",
+      "company": "日月光投控",
+      "path": "Pilot_Reports/Semiconductors/3711_日月光投控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球最大封測廠 (OSAT)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.aseglobal.com/ch/pdf/2024-aseh-csr-operating-model-ch.pdf",
+          "title": "日月光投資控股股份有限公司（日月光投控，3711，ASE Technology Holding）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載之「2024 營運模式」文件，經 PDF 文字擷取後**僅得4頁、內容極為有限**（該文件可能以圖形排版為主），未載全球封測市占率、客戶結構或排名之敘述；本批次未取得日月光投控載有必要資訊之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「全球最大封測廠（OSAT）」）。所取得之官方文件文字擷取僅4頁且內容有限，未載該市場地位敘述，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3711:objective_ranking_or_market_share:f3500d5d502f4ad0",
+      "normalized_claim_hash": "f3500d5d502f4ad0b242b7a5d0d09c41ff38eb45e6dca0df8f72ad7f8cd5b3fd",
+      "ticker": "3711",
+      "company": "日月光投控",
+      "path": "Pilot_Reports/Semiconductors/3711_日月光投控.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] (最大客戶), [[Qualcomm]], [[Broadcom]], MTK, [[AMD]], [[NVIDIA]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.aseglobal.com/ch/pdf/2024-aseh-csr-operating-model-ch.pdf",
+          "title": "日月光投資控股股份有限公司（日月光投控，3711，ASE Technology Holding）官方文件（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載之「2024 營運模式」文件，經 PDF 文字擷取後**僅得4頁、內容極為有限**（該文件可能以圖形排版為主），未載全球封測市占率、客戶結構或排名之敘述；本批次未取得日月光投控載有必要資訊之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[Apple]]（最大客戶）、[[Qualcomm]]、[[Broadcom]]、MTK、[[AMD]]、[[NVIDIA]]」）。所取得之官方文件文字擷取僅4頁且內容有限，未具名該等客戶，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
