@@ -107,5 +107,7 @@ jobs:
             echo "No tracked changes to commit."
           else
             git commit -m "data: refresh coverage and audit-v5 snapshot [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
             git push origin HEAD:audit-v5
           fi

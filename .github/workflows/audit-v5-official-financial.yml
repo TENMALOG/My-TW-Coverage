@@ -64,5 +64,7 @@ jobs:
             echo "No official financial summary changes."
           else
             git commit -m "audit: refresh official financial cross-check [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
             git push origin HEAD:audit-v5
           fi

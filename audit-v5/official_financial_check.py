@@ -10,11 +10,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-PRIMARY = "https://openapi.twse.com.tw/v1/opendata/t187ap06_X_ci"
-FALLBACKS = [
+MARKET_SOURCES = [
     ("twse-listed-general", "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci"),
     ("tpex-otc-general", "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap06_O_ci"),
 ]
+SUPPLEMENTAL_SOURCE = (
+    "twse-public-general",
+    "https://openapi.twse.com.tw/v1/opendata/t187ap06_X_ci",
+)
 
 FIELD_ALIASES = {
     "code": ("公司代號", "SecuritiesCompanyCode"),
@@ -24,7 +27,15 @@ FIELD_ALIASES = {
     "revenue": ("營業收入", "Revenue"),
     "gross_profit": ("營業毛利（毛損）", "營業毛利(毛損)", "GrossProfitLoss"),
     "operating_income": ("營業利益（損失）", "營業利益(損失)", "OperatingIncomeLoss"),
-    "net_income": ("本期淨利（淨損）", "本期淨利(淨損)", "本期稅後淨利（淨損）", "ProfitLoss"),
+    "net_income": (
+        "淨利（淨損）歸屬於母公司業主",
+        "淨利(淨損)歸屬於母公司業主",
+        "本期淨利（淨損）",
+        "本期淨利(淨損)",
+        "本期稅後淨利（淨損）",
+        "ProfitLossAttributableToOwnersOfParent",
+        "ProfitLoss",
+    ),
 }
 
 REPO_ROWS = {
@@ -168,18 +179,38 @@ def canonical_reports(root: Path) -> dict[str, Path]:
 
 
 def load_official() -> tuple[list[dict[str, Any]], list[dict[str, Any]], str]:
-    rows, meta = fetch_json(PRIMARY)
-    metas = [meta]
-    if rows and len(rows) >= 100:
-        return rows, metas, "twse-public-general"
     combined: list[dict[str, Any]] = []
-    for name, url in FALLBACKS:
-        data, fm = fetch_json(url)
-        fm["name"] = name
-        metas.append(fm)
-        if data:
-            combined.extend(data)
-    return combined, metas, "twse+tpex-fallback"
+    metas: list[dict[str, Any]] = []
+    seen_codes: set[str] = set()
+
+    for name, url in MARKET_SOURCES:
+        data, meta = fetch_json(url)
+        meta["name"] = name
+        metas.append(meta)
+        if not data:
+            continue
+        for row in data:
+            code = str(field(row, "code") or "").strip()
+            if code:
+                seen_codes.add(code)
+            combined.append(row)
+
+    # Supplemental public-company feed is not a substitute for listed/OTC feeds.
+    # It only fills codes absent from the two market snapshots.
+    sname, surl = SUPPLEMENTAL_SOURCE
+    supplemental, smeta = fetch_json(surl)
+    smeta["name"] = sname
+    metas.append(smeta)
+    if supplemental:
+        for row in supplemental:
+            code = str(field(row, "code") or "").strip()
+            if code and code not in seen_codes:
+                combined.append(row)
+                seen_codes.add(code)
+
+    ok_markets = [m["name"] for m in metas if m.get("ok") and m.get("name") in {x[0] for x in MARKET_SOURCES}]
+    mode = "+".join(ok_markets) if ok_markets else "supplemental-only"
+    return combined, metas, mode
 
 
 def main() -> int:

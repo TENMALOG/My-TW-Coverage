@@ -55,3 +55,10 @@ Official OpenAPI values are reported in thousand TWD and normalized to million T
 A mismatch is `FINANCIAL_DIFFERENCE`, not an automatic correction. Net-income differences may represent a scope/attribution definition difference and require method review.
 
 Phase 1 does not claim official verification of Selling & Marketing, R&D, G&A, operating/investing/financing cash flow or CAPEX. Historical full-statement verification remains a later MOPS/XBRL phase.
+
+
+### Current source precedence clarification
+
+The listed-company `t187ap06_L_ci` and OTC `mopsfin_t187ap06_O_ci` feeds are the primary current-period market sources. The `t187ap06_X_ci` public-company feed is supplemental only because it is not the full listed+OTC universe.
+
+For Net Income, v5 first attempts the official concept "淨利（淨損）歸屬於母公司業主" to better align with the repository/Yahoo common-stockholder convention; total-period profit/loss is retained only as a fallback. Any remaining attribution mismatch stays a method issue rather than being silently accepted.

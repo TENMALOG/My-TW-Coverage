@@ -79,5 +79,7 @@ jobs:
             echo "No validation summary changes."
           else
             git commit -m "audit: refresh v5 validation summary [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
             git push origin HEAD:audit-v5
           fi
