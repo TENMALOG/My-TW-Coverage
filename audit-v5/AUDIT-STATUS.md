@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 01:04 UTC
+Updated: 2026-10-08 02:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **411 / 1,399**
-- Remaining author review: **988**
-- Latest batch: **author-073** (6 claims)
+- Author-reviewed: **416 / 1,399**
+- Remaining author review: **983**
+- Latest batch: **author-074** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **66**
-- `PARTIALLY_SUPPORTED`: **263**
+- `PARTIALLY_SUPPORTED`: **268**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6538:objective_ranking_or_market_share:84142ea1fb4928c3` — `PARTIALLY_SUPPORTED`; 倉和111年報載「**CF 系列**產品**3D 無網結網版**」「深耕太陽能網版印刷領域」（網版56次、無網結9次、太陽能24次、銀漿6次）；惟「全球唯一」「獨家」「首家」皆0次。
-- `6673:objective_ranking_or_market_share:e881d11eadac0b96`、`5837eee3cc7c02e7` — `UNKNOWN_AFTER_RESEARCH` ×2；和詮官方年報端點回應 **HTTP 404**。
-- `6698:objective_ranking_or_market_share:e3db967c354ef4c5` — `PARTIALLY_SUPPORTED`；旭暉年報載其為「**AMOLED面板關鍵製程用精密金屬遮罩**」（遮罩72次、OLED86次）；惟「40%」係「**AMOLED智慧型手機應用比重**」而非其市占率，且年報將「中國京東方、中國和輝、中國華星、中國維信諾」併列為下游代表公司而未區分是否已為客戶。
-- `6732:objective_ranking_or_market_share:60bfec13a29befba` — `PARTIALLY_SUPPORTED`；昇佳簡報「環境光」7次、ALS 2次、PS 2次；惟「非蘋」「Android」「市佔」皆0次。
-- `6863:objective_ranking_or_market_share:208c742c8478bb55` — `PARTIALLY_SUPPORTED`；永道公司文件「RFID」9次、「永豐餘」3次；惟「全球第二」「亞洲最大」「市佔」「25%」「50億」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-073.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` (奕力-KY).
+- `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` — `PARTIALLY_SUPPORTED`; 奕力2024及2026簡報載「車用／工控／平板／穿戴TDDI」（TDDI 19次、9次）；惟「市佔」「第二」「聯詠」皆0次。
+- `8039:objective_ranking_or_market_share:0708d00d3969d082` — `PARTIALLY_SUPPORTED`; 台虹114年股東會文件中「銅箔」1次；「全球前三大」「大中華」「FCCL」「市佔」皆0次（該文件非完整年報）。
+- `8046:objective_ranking_or_market_share:b6b6b05ab39bd5c8` — `PARTIALLY_SUPPORTED`; 南電113年報載「積極切入**AI 伺服器**供應鏈」、多項「**ABF載板**」擴建案、應用含「高效能運算晶片(HPC)」「5G交換器晶片」與「ASIC」（載板67次、ABF 16次）；惟「GPU」「CPU」皆0次。
+- `8069:objective_ranking_or_market_share:2ea0db4264ee1d7d` — `PARTIALLY_SUPPORTED`; 元太文件載「**在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」（電子紙360次、專利55次）；惟「九成」「龍頭」「Amazon」「Kindle」皆0次。
+- `8069:objective_ranking_or_market_share:5f18abcc84d8634a` — `PARTIALLY_SUPPORTED`; 元太文件載「**樂天Kobo**」為其電子紙生態圈夥伴（Kobo 2次）；惟「Amazon」「Kindle」與「全球最大」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-074.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `8074:objective_ranking_or_market_share:0d087bffe38bc6c8` (鉅橡).
 
 ## Source access
 

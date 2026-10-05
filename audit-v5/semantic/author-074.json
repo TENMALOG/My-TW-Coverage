@@ -1,0 +1,142 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-074",
+  "reviewed_at": "2026-10-05T19:04:17Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (奕力-KY 2024與2026法人說明會簡報; 台虹114年股東會相關文件; 南電113年度年報; 元太公司文件); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6962:objective_ranking_or_market_share:8a6e457c9cf41c59",
+      "normalized_claim_hash": "8a6e457c9cf41c59344990c334e8dbf2cc25688fe60eb0f9f4ac41adb7399b6a",
+      "ticker": "6962",
+      "company": "奕力-KY",
+      "path": "Pilot_Reports/Electronic Components/6962_奕力-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "奕力-KY (6962，[[ITH Corporation]]) 由原奕力科技與 [[聯詠]] 子公司觸控 IC 部門整合而成，為面板驅動 IC 與觸控 IC 設計公司，全球 TDDI (觸控與顯示驅動整合) 市佔率排名第二。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/696220241028M001.pdf",
+          "title": "ITH Corporation（奕力-KY，6962）法人說明會簡報（2024-10-28）",
+          "source_level": 3,
+          "period_binding": "2024年10月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載其產品線含「**車用TDDI**」「**工控TDDI**」「**平板TDDI**」「**穿戴TDDI**」等（「TDDI」19次、「觸控」3次、「驅動IC」2次），支持其從事 TDDI（觸控與顯示驅動整合）產品業務。全份簡報中「市佔」「第二」與「聯詠」之出現次數均為0。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/696220260604E001.pdf",
+          "title": "ITH Corporation（奕力-KY，6962）法人說明會簡報（2026-06-04）",
+          "source_level": 3,
+          "period_binding": "2026年6月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報中「TDDI」出現9次，產品線涵蓋車用、工控、平板與穿戴等應用。全份簡報中「市佔」「第二」與「聯詠」之出現次數均為0，未載其全球 TDDI 市占率或排名，亦未敘述與聯詠子公司觸控 IC 部門之整合沿革。"
+        }
+      ],
+      "rationale": "「為面板驅動 IC 與觸控 IC 設計公司」獲發行人簡報支持：2024年與2026年官方簡報均載其產品線含「**車用TDDI**」「**工控TDDI**」「**平板TDDI**」「**穿戴TDDI**」（2024年簡報「TDDI」19次、「觸控」3次、「驅動IC」2次；2026年簡報「TDDI」9次），支持其從事 TDDI（觸控與顯示驅動整合）產品業務。惟兩項陳述未獲支持：(1)「**全球 TDDI 市佔率排名第二**」——兩份簡報中「市佔」與「第二」出現次數均為0；(2)「由原奕力科技與**聯詠**子公司觸控 IC 部門整合而成」——「聯詠」出現次數為0，未載該整合沿革。故部分成立。",
+      "proposed_text": "奕力-KY (6962，ITH Corporation) 為面板驅動 IC 與觸控 IC 設計公司，TDDI 產品涵蓋車用、工控、平板與穿戴等應用。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8039:objective_ranking_or_market_share:0708d00d3969d082",
+      "normalized_claim_hash": "0708d00d3969d0828be548994269add5aa58555ad5e25f0e0de9010221a213d8",
+      "ticker": "8039",
+      "company": "台虹",
+      "path": "Pilot_Reports/Electronic Components/8039_台虹.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台虹科技股份有限公司 (8039) 是全球前三大、大中華區第一大的軟性印刷電路板(FPC)關鍵材料「軟性[[銅箔]]基板(FCCL)」領導供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://w3.taiflex.com.tw/download/Mee_Age_114.pdf",
+          "title": "台虹科技股份有限公司（台虹，8039，Taiflex）114 年股東會相關文件",
+          "source_level": 3,
+          "period_binding": "民國114年股東會；財務數據含113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視（文字擷取43,782字元；該文件為股東會相關文件，非完整年報）。文件中「銅箔」出現1次；「全球前三大」「大中華」「FCCL」與「市佔」之出現次數均為0；「第一」24次之上下文多為「第一季」「第一（次）」等非市場排名用語。故本批次未取得該公司於 FCCL 之市場地位敘述。"
+        }
+      ],
+      "rationale": "本批次自發行人官方網域取得並檢視者為其114年股東會相關文件（非完整年報）。文件中「銅箔」出現1次；惟「全球前三大」「大中華」「第一（大）」「FCCL」與「市佔」之出現次數均為0（「第一」24次之上下文多為「第一季」等非排名用語），未取得該公司於軟性銅箔基板 (FCCL) 之市場地位敘述。因未能確認「全球前三大、大中華區第一大 FCCL 領導供應商」之地位，故僅就其所屬材料領域為部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8046:objective_ranking_or_market_share:b6b6b05ab39bd5c8",
+      "normalized_claim_hash": "b6b6b05ab39bd5c86f535b9df27562556ca5ea1c25c42d55fc4158a0edc9aee9",
+      "ticker": "8046",
+      "company": "南電",
+      "path": "Pilot_Reports/Electronic Components/8046_南電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心產品涵蓋：(1) [[ABF 載板]] — 用於高階 GPU、CPU 及網通 ASIC 等 HPC 晶片封裝，受惠 [[AI 伺服器]] 需求爆發為最大成長動能；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nanyapcb.com.tw/nypcb/images/InvestorRelations/Report/113AnnualReport.pdf",
+          "title": "南亞電路板股份有限公司（南電，8046，Nan Ya PCB）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「積極切入**AI 伺服器**供應鏈」，並載多項 ABF 載板擴建案（「5月董事會通過樹林廠**ABF載板**一期擴建」「11月董事會通過增資昆山廠ABF載板一期擴建」等），且載「提升產品國際競爭力，以居於產業的**全球領導地位**」（「載板」67次、「ABF」16次、「網通」11次、「高階」35次、「ASIC」2次、「HPC」1次）。另載產品應用含「（伺）服器晶片、**高效能運算晶片(HPC)**、5G 交換器晶片」與「（為爭取商機，本公司已與客戶共同開發雲端）（…）」及「均致力於自行開發**ASIC**，將帶來龐大的潛在商機」。全份年報中「GPU」與「CPU」之出現次數均為0。"
+        }
+      ],
+      "rationale": "claim 之多數要素獲發行人年報支持：年報載「積極切入**AI 伺服器**供應鏈」，並載多項「**ABF載板**」擴建案（樹林廠、昆山廠一期與二期），且載其產品應用含「（伺）服器晶片、**高效能運算晶片(HPC)**、5G 交換器晶片」與「均致力於自行開發**ASIC**」（「載板」67次、「ABF」16次、「網通」11次、「高階」35次、「ASIC」2次、「HPC」1次），支持 ABF 載板用於 HPC 與網通晶片封裝及 AI 伺服器需求之敘述。惟「用於高階 **GPU、CPU**」未獲支持：全份年報中「GPU」與「CPU」出現次數均為0。故部分成立。",
+      "proposed_text": "南亞電路板 (8046，Nan Ya PCB) 之核心產品包含 ABF 載板，應用於伺服器晶片、高效能運算 (HPC) 晶片與網通 ASIC 等領域，並積極切入 AI 伺服器供應鏈。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8069:objective_ranking_or_market_share:2ea0db4264ee1d7d",
+      "normalized_claim_hash": "2ea0db4264ee1d7dd612fdd2254130a49d768724fa6a0d7879a192b18a49a092",
+      "ticker": "8069",
+      "company": "元太",
+      "path": "Pilot_Reports/Electronic Components/8069_元太.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "元太科技工業 (8069，E Ink Holdings) 為全球電子紙 (ePaper) 產業之絕對龍頭，市占率超過九成，掌握電子墨水技術最核心專利與材料配方。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cn.eink.com/upload/2023_01_13/2_20230113110517fe9u56iZQ0.pdf",
+          "title": "元太科技工業股份有限公司（元太，8069，E Ink Holdings）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載年度請見封面；內容含2021年活動記錄。",
+          "accessed_at": "2026-10-08",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。文件載「**元太科技在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」（「電子紙」360次、「專利」55次、「全球」71次），支持其電子紙領域之市場地位。另載其協同「振曜科技、**樂天Kobo**、天鈺科技、同泰電子、茂林光電、恆顥科技與群創光電等**電子紙生態圈夥伴**」（「Kobo」2次）。全份文件中「Amazon」與「Kindle」出現次數均為0；「九成」與「龍頭」出現次數均為0；「市占」1次（即上開「極高的市占率」）。"
+        }
+      ],
+      "rationale": "「為全球電子紙產業龍頭並掌握核心專利」獲發行人文件支持：文件載「**元太科技在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」，並見「電子紙」360次、「專利」55次，支持其電子紙領域之領導地位與專利基礎。惟「市占率**超過九成**」未獲支持：全份文件中「九成」出現次數為0，「市占」僅1次且為上開「極高的市占率」之定性描述，未載具體百分比；「絕對龍頭」與「材料配方」之表述亦未出現（「龍頭」0次）。故部分成立。",
+      "proposed_text": "元太科技工業 (8069，E Ink Holdings) 為電子紙 (ePaper) 領域之領導廠商，全球主要電子閱讀器品牌供應商多採用其電子紙顯示器 (EPD)。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8069:objective_ranking_or_market_share:5f18abcc84d8634a",
+      "normalized_claim_hash": "5f18abcc84d8634ab68db7819ad3bc47e29da56b01fc8cb4a149f0a6c079b80e",
+      "ticker": "8069",
+      "company": "元太",
+      "path": "Pilot_Reports/Electronic Components/8069_元太.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Amazon]] (Kindle)、[[Kobo]] — 全球最大電子書閱讀器品牌",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cn.eink.com/upload/2023_01_13/2_20230113110517fe9u56iZQ0.pdf",
+          "title": "元太科技工業股份有限公司（元太，8069，E Ink Holdings）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載年度請見封面；內容含2021年活動記錄。",
+          "accessed_at": "2026-10-08",
+          "note": "自發行人官方網域下載並以 PDF 文字檢視。文件載「**元太科技在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」（「電子紙」360次、「專利」55次、「全球」71次），支持其電子紙領域之市場地位。另載其協同「振曜科技、**樂天Kobo**、天鈺科技、同泰電子、茂林光電、恆顥科技與群創光電等**電子紙生態圈夥伴**」（「Kobo」2次）。全份文件中「Amazon」與「Kindle」出現次數均為0；「九成」與「龍頭」出現次數均為0；「市占」1次（即上開「極高的市占率」）。"
+        }
+      ],
+      "rationale": "「Kobo 為其生態圈夥伴」獲發行人文件支持：文件載其協同「振曜科技、**樂天Kobo**、天鈺科技、同泰電子、茂林光電、恆顥科技與群創光電等**電子紙生態圈夥伴**」（「Kobo」2次）。惟兩項陳述未獲支持：(1)「**Amazon (Kindle)**」——全份文件中「Amazon」與「Kindle」出現次數均為0；(2)「為**全球最大電子書閱讀器品牌**」——文件僅載「全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD」，未就各品牌之市場排名作敘述。故部分成立。",
+      "proposed_text": "元太科技 (8069) 之電子紙生態圈夥伴包含樂天 Kobo 等電子閱讀器品牌。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

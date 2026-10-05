@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **411 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), and `author-073` (6).
+Author-reviewed: **416 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), and `author-074` (5).
 
 - ACCEPTED by author: 66
-- PARTIALLY_SUPPORTED: 263
+- PARTIALLY_SUPPORTED: 268
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 78
-- Remaining author queue: 988
+- Remaining author queue: 983
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -866,6 +866,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **78 筆**。
 - Author-reviewed total: **411 / 1,399**; remaining: **988**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 263, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 78. Next pending claim by priority: `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` (奕力-KY).
+
+## Author batch `author-074` — 2026-10-08
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (奕力-KY 6962, 台虹 8039, 南電 8046, 元太 8069 ×2). Evidence came from directly downloaded and inspected official disclosures: 奕力-KY 2024與2026年法人說明會簡報、台虹114年股東會相關文件、南電113年度年報、元太公司文件。
+- `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` — `PARTIALLY_SUPPORTED`. 奕力2024年與2026年官方簡報均載其產品線含「**車用TDDI**」「**工控TDDI**」「**平板TDDI**」「**穿戴TDDI**」（2024年「TDDI」19次；2026年9次），支持其 TDDI 產品業務；惟「全球 TDDI **市佔率排名第二**」與「由原奕力科技與**聯詠**子公司觸控 IC 部門整合而成」均未獲支持（「市佔」「第二」「聯詠」出現次數均為0）。
+- `8039:objective_ranking_or_market_share:0708d00d3969d082` — `PARTIALLY_SUPPORTED`. 本批次自發行人官方網域取得並檢視者為其114年股東會相關文件（非完整年報），其中「銅箔」出現1次；「全球前三大」「大中華」「FCCL」與「市佔」出現次數均為0（「第一」24次多為「第一季」等非排名用語），故其 FCCL 市場地位未獲敘述。
+- `8046:objective_ranking_or_market_share:b6b6b05ab39bd5c8` — `PARTIALLY_SUPPORTED`. 南電113年度年報載「積極切入**AI 伺服器**供應鏈」與多項「**ABF載板**」擴建案（樹林廠、昆山廠），並載應用含「（伺）服器晶片、**高效能運算晶片(HPC)**、5G 交換器晶片」及「（自行開發）**ASIC**」（「載板」67次、「ABF」16次、「ASIC」2次、「HPC」1次）；惟「高階 **GPU、CPU**」未獲支持（兩者出現次數均為0）。
+- `8069:objective_ranking_or_market_share:2ea0db4264ee1d7d` — `PARTIALLY_SUPPORTED`. 元太官方文件載「**元太科技在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」（「電子紙」360次、「專利」55次），支持其電子紙領導地位；惟「市占率**超過九成**」未獲支持（「九成」0次，「市占」僅1次且為定性描述）。
+- `8069:objective_ranking_or_market_share:5f18abcc84d8634a` — `PARTIALLY_SUPPORTED`. 元太文件載其協同「振曜科技、**樂天Kobo**、天鈺科技、同泰電子、茂林光電、恆顥科技與群創光電等**電子紙生態圈夥伴**」（「Kobo」2次）；惟「**Amazon (Kindle)**」未獲支持（「Amazon」與「Kindle」均為0次），文件亦未就各品牌之市場排名作敘述。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **78 筆**（本批次無新增 UNKNOWN）。
+- Author-reviewed total: **416 / 1,399**; remaining: **983**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 268, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 78. Next pending claim by priority: `8074:objective_ranking_or_market_share:0d087bffe38bc6c8` (鉅橡).
+
 
 
 
