@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 14:08 UTC
+Updated: 2026-10-05 14:31 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -41,3 +41,10 @@ The saved environment draft has `network_policy.type: unrestricted`; no configur
 - The currently unreviewed 4558 claim (`e9efcd84b9b3989d`) remains blocked on inspecting material official sources for its ranking/history qualifiers. The previous 1712 and 2610 author ledger decisions remain preserved unchanged; their `SOURCE_UNAVAILABLE` outcomes were recorded before this transient-failure policy and require a normal Codex Cloud semantic review if home-network retrieval later makes content inspectable. A home-network result alone cannot change those decisions.
 - Relevant tests: `python -m unittest audit-v5/tests/test_semantic_local_recheck_queue.py` — 3 passed.
 - No production files or author ledgers were changed.
+
+## Semantic worker throughput
+
+- Worker configuration: **author concurrency 4**, **reviewer concurrency 4**, default batch size **4**. The worker also accepts `SEMANTIC_AUTHOR_CONCURRENCY` / `SEMANTIC_REVIEWER_CONCURRENCY` and matching CLI flags.
+- State, status, and batch JSON now use coordinator-only atomic replace writes. The GitHub Actions concurrency group continues to serialize separate workflow runs.
+- Latest verification: **37/37 tests passed** across `audit-v5/tests`; Python syntax check passed. A bounded live API batch was not run because `OPENAI_API_KEY` is absent in this environment.
+- Mocked 8-claim timing (50 ms per call): sequential baseline **0.802s**; author pool 4 + reviewer pool 4 **0.209s**; author/reviewer mean call times **0.051s / 0.050s**; errors **0**, rate limits **0**. This validates pool behavior only and does not predict API throughput.

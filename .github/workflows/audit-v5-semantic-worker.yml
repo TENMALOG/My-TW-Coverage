@@ -7,6 +7,14 @@ on:
         description: Claims to process this run
         required: false
         default: "4"
+      author_concurrency:
+        description: Concurrent author research calls (maximum in flight)
+        required: false
+        default: "4"
+      reviewer_concurrency:
+        description: Concurrent reviewer calls (maximum in flight)
+        required: false
+        default: "4"
   push:
     branches: [audit-v5]
     paths:
@@ -27,6 +35,8 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       SEMANTIC_BATCH_SIZE: ${{ inputs.batch_size || vars.SEMANTIC_BATCH_SIZE || '4' }}
+      SEMANTIC_AUTHOR_CONCURRENCY: ${{ inputs.author_concurrency || vars.SEMANTIC_AUTHOR_CONCURRENCY || '4' }}
+      SEMANTIC_REVIEWER_CONCURRENCY: ${{ inputs.reviewer_concurrency || vars.SEMANTIC_REVIEWER_CONCURRENCY || '4' }}
       SEMANTIC_AUTHOR_MODEL: ${{ vars.SEMANTIC_AUTHOR_MODEL || 'gpt-5.5' }}
       SEMANTIC_REVIEWER_MODEL: ${{ vars.SEMANTIC_REVIEWER_MODEL || 'gpt-5.5' }}
       SEMANTIC_AUTHOR_EFFORT: ${{ vars.SEMANTIC_AUTHOR_EFFORT || 'medium' }}
@@ -45,6 +55,9 @@ jobs:
 
       - name: Syntax check
         run: python -m py_compile audit-v5/semantic_worker.py audit-v5/semantic_queue.py
+
+      - name: Semantic worker regression tests
+        run: python -m unittest audit-v5/tests/test_semantic_worker_concurrency.py audit-v5/tests/test_semantic_local_recheck_queue.py
 
       - name: Require OpenAI API key
         run: |
