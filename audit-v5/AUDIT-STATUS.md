@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 23:04 UTC
+Updated: 2026-10-12 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **910 / 1,399**
-- Remaining author review: **489**
-- Latest batch: **author-167** (3 claims)
+- Author-reviewed: **914 / 1,399**
+- Remaining author review: **485**
+- Latest batch: **author-168** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **598**
+- `PARTIALLY_SUPPORTED`: **601**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **217**
+- `UNKNOWN_AFTER_RESEARCH`: **218**
 
 ## Latest claim batch
 
-- `4571:objective_ranking_or_market_share:9128f3d0f1a0417a` — `UNKNOWN_AFTER_RESEARCH`；鈞興年報「齒輪」174次、「客戶」104次，惟「**創科／TTI／Techtronic／Milwaukee／Ryobi」皆 0 次**。
-- `5007:objective_ranking_or_market_share:4847fe2cc4ab7293` — `PARTIALLY_SUPPORTED`；三星簡報逐字載「**1965年7月2日成立**」；**惟原文為「全球最大汽車螺帽製造廠」——claim 省略「汽車」而一般化為「全球最大螺帽製造商」**；「高雄」「台灣最大」皆0次。
-- `5011:objective_ranking_or_market_share:858cd671ae58c706` — `PARTIALLY_SUPPORTED`；久陽簡報「螺栓」4次、「六角」2次、「扣件」1次、「1984」1次；惟「高雄」「台灣鋼鐵」「TSG」「外銷」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-167.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `5015:objective_ranking_or_market_share:2276d54bba3d3a65` (華祺).
+- `5015:objective_ranking_or_market_share:2276d54bba3d3a65` — `PARTIALLY_SUPPORTED`；華祺簡報「**不銹鋼」2 次**（異體字）；惟「桃園」「小螺絲」「全球最大」皆0次。
+- `6855:objective_ranking_or_market_share:dbc4554952212ac3` — `PARTIALLY_SUPPORTED`；數泓年報「**手工具」72 次**、「研發」36次、「上櫃」27次、「智能」6次；惟「2006」「首家」「唯一」「數位」皆0次。
+- `6904:objective_ranking_or_market_share:c9e2cfd9b443469d` — `UNKNOWN_AFTER_RESEARCH`；端點所取得者為**官網「股東專區」導覽／下載頁**（非年報，僅1,284字元）。
+- `8415:objective_ranking_or_market_share:5d18e323f2d8e7b8` — `PARTIALLY_SUPPORTED`；大國鋼簡報「**成立日期：2008年**」「採購整合、電子商務銷售(B2B)及實體配銷」；**惟原文為「全美最大扣件通路商」，claim 寫成「北美最大」**（地理範圍擴大），「北美」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-168.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `8415:objective_ranking_or_market_share:016f3d5d3ac36d27` (大國鋼).
 
 ## Source access
 
