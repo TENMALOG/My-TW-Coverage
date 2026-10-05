@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-075",
+  "reviewed_at": "2026-10-05T19:05:44Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (鉅橡113年度年報; 越峰113年度年報; 達方113年度年報); 三份文件均以其封面之公司名稱與股票代號確認身分",
+  "items": [
+    {
+      "claim_id": "8074:objective_ranking_or_market_share:0d087bffe38bc6c8",
+      "normalized_claim_hash": "0d087bffe38bc6c8b086172e8fe0e07e1acb0b5b4013e37ec907902f46644085",
+      "ticker": "8074",
+      "company": "鉅橡",
+      "path": "Pilot_Reports/Electronic Components/8074_鉅橡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "隨著 AI 應用與高效能運算需求快速擴張，[[ABF 載板]]、[[BT 載板]] 等高階載板需求持續成長，鉅橡作為多家 [[ABF 載板]]廠鑽孔用板之唯一供應商，直接受惠於此趨勢。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.aurona.com.tw/picture/investor_service/68b1080eb5ad3.pdf",
+          "title": "鉅橡企業股份有限公司（鉅橡，8074，GFortune）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度（114年3月31日刊印）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（封面載「鉅橡企業股份有限公司 113 年度年報」「股票代號：8074」，可確認文件身分）。年報載「（半）導體至下游的 PCB 相關族群。例:以**欣興**為首的 ABF 載板廠商，皆一直再加大台灣市（場）」並見「**欣興電子股份有限公司**」與「**景碩**」，另見「**ABF**」3次（「墊板」35次、「鑽孔」14次、「蓋板」6次、「供應商」26次），支持其 PCB 鑽孔製程用墊板／蓋板材料業務及與欣興、景碩等載板廠之往來。全份年報中「唯一」與「南電」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「從事高階載板鑽孔製程用材料並受惠 AI／HPC 需求」獲發行人年報支持：113年度年報載「（半）導體至下游的 PCB 相關族群。例:以**欣興**為首的 **ABF 載板**廠商，皆一直再加大台灣市（場）」，「墊板」35次、「鑽孔」14次、「蓋板」6次、「ABF」3次，支持其 PCB 鑽孔製程用墊板／蓋板材料業務。惟「作為多家 ABF 載板廠鑽孔用板之**唯一**供應商」未獲支持：全份年報中「唯一」出現次數為0，未以其為唯一供應商自稱。故部分成立。",
+      "proposed_text": "鉅橡企業 (8074，GFortune) 供應 PCB 鑽孔製程用之墊板與蓋板材料，客戶包含欣興等 ABF 載板廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8074:objective_ranking_or_market_share:f6920c2cb74e6a31",
+      "normalized_claim_hash": "f6920c2cb74e6a31a91e41965a403509cf58593a83f695f200163542e63976ac",
+      "ticker": "8074",
+      "company": "鉅橡",
+      "path": "Pilot_Reports/Electronic Components/8074_鉅橡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[欣興]]、[[南電]]、[[景碩]] — [[ABF 載板]]鑽孔用板唯一供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.aurona.com.tw/picture/investor_service/68b1080eb5ad3.pdf",
+          "title": "鉅橡企業股份有限公司（鉅橡，8074，GFortune）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度（114年3月31日刊印）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（封面載「鉅橡企業股份有限公司 113 年度年報」「股票代號：8074」，可確認文件身分）。年報載「（半）導體至下游的 PCB 相關族群。例:以**欣興**為首的 ABF 載板廠商，皆一直再加大台灣市（場）」並見「**欣興電子股份有限公司**」與「**景碩**」，另見「**ABF**」3次（「墊板」35次、「鑽孔」14次、「蓋板」6次、「供應商」26次），支持其 PCB 鑽孔製程用墊板／蓋板材料業務及與欣興、景碩等載板廠之往來。全份年報中「唯一」與「南電」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「欣興、南電、景碩 — ABF 載板鑽孔用板唯一供應商」）。年報中「**欣興**」出現2次（含「以欣興為首的 ABF 載板廠商」「欣興電子股份有限公司」）與「**景碩**」1次，支持其與該等載板廠之往來；惟「**南電**」出現次數為0，且「**唯一**」為0次，故客戶完整性與唯一供應商地位均未獲支持。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8121:objective_ranking_or_market_share:24f39c0d0754d000",
+      "normalized_claim_hash": "24f39c0d0754d0004654b4f7a881d51cfda70b13ebacecc00e56634cb12c5789",
+      "ticker": "8121",
+      "company": "越峰",
+      "path": "Pilot_Reports/Electronic Components/8121_越峰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 高純度 [[碳化矽]] (SiC) 粉料 — 為第三代半導體 [[碳化矽]] 晶圓長晶之關鍵原料，台灣唯一本土供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.acme-ferrite.com.tw/doc/114_03.pdf",
+          "title": "越峯電子材料股份有限公司（越峰，8121，ACME）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（封面載「股票代碼：8121」「越峯電子材料股份有限公司 一一三年度年報」，可確認文件身分）。年報載「一一三年度**碳化矽粉**銷售量與金額分別為 **125 噸**與新台幣 **621,123**（仟元）」及「在電動車持續發展下，本公司**碳化矽（SiC）**（…）」（「碳化矽」39次、「SiC」19次、「供應商」41次、「長晶」1次），支持其碳化矽粉業務。全份年報中「（台灣）唯一」「本土」與「粉料」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「供應碳化矽 (SiC) 粉」獲發行人年報支持：113年度年報載「一一三年度**碳化矽粉**銷售量與金額分別為 125 噸與新台幣 621,123（仟元）」及「在電動車持續發展下，本公司**碳化矽（SiC）**（…）」（「碳化矽」39次、「SiC」19次），支持其碳化矽粉業務。惟兩項陳述未獲支持：(1)「為第三代半導體碳化矽**晶圓長晶**之關鍵原料」——「長晶」僅出現1次，未明確載其粉料為晶圓長晶之關鍵原料；(2)「為**台灣唯一本土**供應商」——「（台灣）唯一」與「本土」出現次數均為0。故部分成立。",
+      "proposed_text": "越峰 (8121，ACME) 生產並銷售碳化矽 (SiC) 粉，2024年度銷售量約 125 噸。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8163:objective_ranking_or_market_share:c5addd1ec6068c09",
+      "normalized_claim_hash": "c5addd1ec6068c09bcd91163c4a25ec849058cde9bd7a8e2e52c3d0b1d343bc6",
+      "ticker": "8163",
+      "company": "達方",
+      "path": "Pilot_Reports/Electronic Components/8163_達方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達方電子 (8163，Darfon Electronics) 為 [[明基]] (BenQ) 集團旗下之精密零組件與綠能產品製造商，成立於 1997 年，目前為全球最大筆記型電腦鍵盤製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darfon.com/Content/Upload/%E6%96%B0%E8%B3%87%E6%96%99%E5%A4%BE/2025%E8%82%A1%E6%9D%B1%E6%9C%83/%E9%81%94%E6%96%B9113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "達方電子股份有限公司（達方，8163，Darfon Electronics）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其智能產品線含「**筆記型及桌上型電腦鍵盤**、發光鍵盤、滑鼠、電競鍵盤、電競滑鼠、平板電腦使用之可攜（式鍵盤）」，並載沿革「從最初的**筆電鍵盤**、MLCC 被動元件和 Inverter（…）」（「鍵盤」45次、「明基」25次、「BenQ」1次、「1997」3次），另載「本公司董事兼大股東**佳世達科技股份有限公司**…持有公司股票計58,004,667股，佔公司20.72%之股權，為本公司**第一大股東**」。全份年報中「全球最大」「全球領導」與「領導廠」之出現次數均為0；「市占」1次之上下文為被動元件與電動車之產業趨勢敘述，非筆電鍵盤市占率。"
+        }
+      ],
+      "rationale": "「為明基 (BenQ) 集團旗下精密零組件與綠能產品製造商、成立於1997年」獲發行人年報支持：113年度年報中「明基」出現25次、「BenQ」1次、「1997」3次，並載其智能產品、被動元件暨材料與綠能產品等事業（「鍵盤」45次），集團歸屬與業務範疇相符。惟「為**全球最大**筆記型電腦鍵盤製造商」未獲支持：全份年報中「全球最大」「全球領導」與「領導廠」出現次數均為0。故部分成立。",
+      "proposed_text": "達方電子 (8163，Darfon Electronics) 為明基集團旗下之精密零組件與綠能產品製造商，成立於1997年，主要產品包含筆電鍵盤模組。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8163:objective_ranking_or_market_share:c8a87aa8bf948eee",
+      "normalized_claim_hash": "c8a87aa8bf948eee68c833b4732ed43c34c39bd55cf11ca2e40aa324d04f05e1",
+      "ticker": "8163",
+      "company": "達方",
+      "path": "Pilot_Reports/Electronic Components/8163_達方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務三大支柱：(1) IT 周邊 — 筆電鍵盤模組 (全球最大)、無線鍵盤、滑鼠、電競周邊；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darfon.com/Content/Upload/%E6%96%B0%E8%B3%87%E6%96%99%E5%A4%BE/2025%E8%82%A1%E6%9D%B1%E6%9C%83/%E9%81%94%E6%96%B9113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "達方電子股份有限公司（達方，8163，Darfon Electronics）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其智能產品線含「**筆記型及桌上型電腦鍵盤**、發光鍵盤、滑鼠、電競鍵盤、電競滑鼠、平板電腦使用之可攜（式鍵盤）」，並載沿革「從最初的**筆電鍵盤**、MLCC 被動元件和 Inverter（…）」（「鍵盤」45次、「明基」25次、「BenQ」1次、「1997」3次），另載「本公司董事兼大股東**佳世達科技股份有限公司**…持有公司股票計58,004,667股，佔公司20.72%之股權，為本公司**第一大股東**」。全份年報中「全球最大」「全球領導」與「領導廠」之出現次數均為0；「市占」1次之上下文為被動元件與電動車之產業趨勢敘述，非筆電鍵盤市占率。"
+        }
+      ],
+      "rationale": "「IT 周邊業務包含筆電鍵盤模組、無線鍵盤、滑鼠、電競周邊」獲發行人年報支持：年報「智能產品」段載「**筆記型及桌上型電腦鍵盤**、發光鍵盤、滑鼠、電競鍵盤、電競滑鼠、平板電腦使用之可攜（式鍵盤）」（「鍵盤」45次）。惟「筆電鍵盤模組（**全球最大**）」未獲支持（「全球最大」0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8163:objective_ranking_or_market_share:d28f7bc2f49da606",
+      "normalized_claim_hash": "d28f7bc2f49da6060d9009ef6e4bf5d9e769110575471b47a863ce1f8fcaa653",
+      "ticker": "8163",
+      "company": "達方",
+      "path": "Pilot_Reports/Electronic Components/8163_達方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**達方** (全球最大筆電鍵盤模組製造)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darfon.com/Content/Upload/%E6%96%B0%E8%B3%87%E6%96%99%E5%A4%BE/2025%E8%82%A1%E6%9D%B1%E6%9C%83/%E9%81%94%E6%96%B9113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "達方電子股份有限公司（達方，8163，Darfon Electronics）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其智能產品線含「**筆記型及桌上型電腦鍵盤**、發光鍵盤、滑鼠、電競鍵盤、電競滑鼠、平板電腦使用之可攜（式鍵盤）」，並載沿革「從最初的**筆電鍵盤**、MLCC 被動元件和 Inverter（…）」（「鍵盤」45次、「明基」25次、「BenQ」1次、「1997」3次），另載「本公司董事兼大股東**佳世達科技股份有限公司**…持有公司股票計58,004,667股，佔公司20.72%之股權，為本公司**第一大股東**」。全份年報中「全球最大」「全球領導」與「領導廠」之出現次數均為0；「市占」1次之上下文為被動元件與電動車之產業趨勢敘述，非筆電鍵盤市占率。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「達方（全球最大筆電鍵盤模組製造）」）。其筆電鍵盤模組業務獲年報支持（「鍵盤」45次）；惟「全球最大」未獲支持（出現次數為0）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8163:objective_ranking_or_market_share:a9244fd19563c328",
+      "normalized_claim_hash": "a9244fd19563c328027831308c98c36dff54ecf6293293be73fcbf3968d62cf1",
+      "ticker": "8163",
+      "company": "達方",
+      "path": "Pilot_Reports/Electronic Components/8163_達方.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全球主要筆電品牌 — 鍵盤模組 (全球最大供應商)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.darfon.com/Content/Upload/%E6%96%B0%E8%B3%87%E6%96%99%E5%A4%BE/2025%E8%82%A1%E6%9D%B1%E6%9C%83/%E9%81%94%E6%96%B9113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "達方電子股份有限公司（達方，8163，Darfon Electronics）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其智能產品線含「**筆記型及桌上型電腦鍵盤**、發光鍵盤、滑鼠、電競鍵盤、電競滑鼠、平板電腦使用之可攜（式鍵盤）」，並載沿革「從最初的**筆電鍵盤**、MLCC 被動元件和 Inverter（…）」（「鍵盤」45次、「明基」25次、「BenQ」1次、「1997」3次），另載「本公司董事兼大股東**佳世達科技股份有限公司**…持有公司股票計58,004,667股，佔公司20.72%之股權，為本公司**第一大股東**」。全份年報中「全球最大」「全球領導」與「領導廠」之出現次數均為0；「市占」1次之上下文為被動元件與電動車之產業趨勢敘述，非筆電鍵盤市占率。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「全球主要筆電品牌 — 鍵盤模組（全球最大供應商）」）。其鍵盤模組業務與客戶群獲年報支持；惟「全球最大供應商」未獲支持（「全球最大」0次），年報中「第一大」1次係指「**佳世達科技**…佔公司20.72%之股權，為本公司**第一大股東**」，**為股東結構而非市場排名**；「市占」1次之上下文為被動元件與電動車之產業趨勢。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

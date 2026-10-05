@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 02:04 UTC
+Updated: 2026-10-08 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **416 / 1,399**
-- Remaining author review: **983**
-- Latest batch: **author-074** (5 claims)
+- Author-reviewed: **423 / 1,399**
+- Remaining author review: **976**
+- Latest batch: **author-075** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **66**
-- `PARTIALLY_SUPPORTED`: **268**
+- `PARTIALLY_SUPPORTED`: **275**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6962:objective_ranking_or_market_share:8a6e457c9cf41c59` — `PARTIALLY_SUPPORTED`; 奕力2024及2026簡報載「車用／工控／平板／穿戴TDDI」（TDDI 19次、9次）；惟「市佔」「第二」「聯詠」皆0次。
-- `8039:objective_ranking_or_market_share:0708d00d3969d082` — `PARTIALLY_SUPPORTED`; 台虹114年股東會文件中「銅箔」1次；「全球前三大」「大中華」「FCCL」「市佔」皆0次（該文件非完整年報）。
-- `8046:objective_ranking_or_market_share:b6b6b05ab39bd5c8` — `PARTIALLY_SUPPORTED`; 南電113年報載「積極切入**AI 伺服器**供應鏈」、多項「**ABF載板**」擴建案、應用含「高效能運算晶片(HPC)」「5G交換器晶片」與「ASIC」（載板67次、ABF 16次）；惟「GPU」「CPU」皆0次。
-- `8069:objective_ranking_or_market_share:2ea0db4264ee1d7d` — `PARTIALLY_SUPPORTED`; 元太文件載「**在全球擁有極高的市占率，全球主要電子閱讀器品牌供應商都使用元太科技生產的 EPD**」（電子紙360次、專利55次）；惟「九成」「龍頭」「Amazon」「Kindle」皆0次。
-- `8069:objective_ranking_or_market_share:5f18abcc84d8634a` — `PARTIALLY_SUPPORTED`; 元太文件載「**樂天Kobo**」為其電子紙生態圈夥伴（Kobo 2次）；惟「Amazon」「Kindle」與「全球最大」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-074.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `8074:objective_ranking_or_market_share:0d087bffe38bc6c8` (鉅橡).
+- `8074:objective_ranking_or_market_share:0d087bffe38bc6c8`、`f6920c2cb74e6a31` — `PARTIALLY_SUPPORTED` ×2; 鉅橡113年報載「以**欣興**為首的ABF載板廠商」、欣興2次、景碩1次（墊板35次、鑽孔14次、ABF 3次）；惟「唯一」與「南電」皆0次。
+- `8121:objective_ranking_or_market_share:24f39c0d0754d000` — `PARTIALLY_SUPPORTED`; 越峰113年報載「一一三年度**碳化矽粉**銷售量與金額分別為125噸與新台幣621,123仟元」（碳化矽39次、SiC 19次）；惟「長晶」僅1次、「（台灣）唯一」「本土」「粉料」皆0次。
+- `8163:objective_ranking_or_market_share:c5addd1ec6068c09`、`c8a87aa8bf948eee`、`d28f7bc2f49da606`、`a9244fd19563c328` — `PARTIALLY_SUPPORTED` ×4; 達方113年報載智能產品含「筆記型及桌上型電腦鍵盤、發光鍵盤、滑鼠、電競鍵盤…」（鍵盤45次、明基25次、1997 3次）；惟「全球最大」「全球領導」「領導廠」皆0次，且「第一大」1次係指佳世達持股20.72%為**第一大股東**、「市占」1次為被動元件與電動車產業趨勢。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-075.json`（7 筆）。三份文件均以封面之公司名稱與股票代號確認身分。未修改發行人報告。
+- Next pending claim by priority: `8215:objective_ranking_or_market_share:e396f3af21b11405` (明基材).
 
 ## Source access
 
