@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 05:04 UTC
+Updated: 2026-10-11 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **852 / 1,399**
-- Remaining author review: **547**
-- Latest batch: **author-149** (3 claims)
+- Author-reviewed: **856 / 1,399**
+- Remaining author review: **543**
+- Latest batch: **author-150** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **557**
+- `PARTIALLY_SUPPORTED`: **559**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **204**
+- `UNKNOWN_AFTER_RESEARCH`: **206**
 
 ## Latest claim batch
 
-- `2947:objective_ranking_or_market_share:b566dc40942a6a98` — `UNKNOWN_AFTER_RESEARCH`；振宇五金端點**連線意外關閉**（重試一次仍同）。
-- `8433:objective_ranking_or_market_share:869a93b4d335968e` — `PARTIALLY_SUPPORTED`；弘帆文件「**髮飾」5 次**並將 **Goody 列為客戶**（「Wal-Mart、ZARA、H&M、Watsons、**Goody** 等」）；**惟「70%」1 次之原文為「弘帆公司近70% 的營收來自美洲市場」**（非品牌市佔），「Conair」「Scunci」「最大」「第一供應商」皆0次。
-- `9937:objective_ranking_or_market_share:2afddb814522cda5` — `PARTIALLY_SUPPORTED`；全國簡報標示「（**台塑油品**）」；惟「唯一」0次，且「**中油」出現 3 次**（與「唯一供應商」不相容）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-149.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `9960:objective_ranking_or_market_share:e41b23b10a6c9c28` (邁達康).
+- `9960:objective_ranking_or_market_share:e41b23b10a6c9c28`、`6dccf464a9b18112` — `UNKNOWN_AFTER_RESEARCH` ×2；邁達康官方網域 **DNS 解析失敗**。
+- `3130:objective_ranking_or_market_share:566bc6a4f3ac3901` — `PARTIALLY_SUPPORTED`；一零四新聞稿**逐字載**「104 人力銀行成立於**1996**年（…）成為**台灣第一家上市的網路公司**，**穩居台灣流量最多的人力資源服務網站**」；惟「1993」與文件不符（文件載1996），「最大」0次。
+- `3130:objective_ranking_or_market_share:96c37785e24a9e4c` — `PARTIALLY_SUPPORTED`；新聞稿載 C.M.O.S.A.（含 **AI 人工智慧**）並支持平台領先地位；惟「最大」「大數據」皆0次。
+- **發現字串假陰性**：文件以「**104 人力銀行**」（**含空格**）表述，故「104人力銀行」檢索為 0。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-150.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2002:objective_ranking_or_market_share:71c65f9aa39ab582` (中鋼).
 
 ## Source access
 
