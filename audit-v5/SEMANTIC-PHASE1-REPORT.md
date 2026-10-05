@@ -121,3 +121,12 @@ Continue author verification claim-by-claim, prioritizing objective ranking/mark
 - `6757:objective_ranking_or_market_share:1cb894214a9355a5` — `ACCEPTED`. The report identifies young customers (ages 20–39 are 50.5% of passengers; core customer average age 35.3), ties route planning to free-independent travel demand, and explicitly calls Japan the market with the highest passenger-revenue share. The ranking is supported on the report's stated revenue measure.
 - Evidence and rationale are recorded in `semantic/author-011.json`; no issuer report was changed. Independent review remains pending.
 - Author-reviewed total: 20 / 1,399; remaining author queue: 1,379. Next pending claim by priority: `4558:objective_ranking_or_market_share:e9efcd84b9b3989d` (寶緯).
+
+
+## Transient retrieval failure policy checkpoint — 2026-10-05
+
+Added an append-only, idempotent machine-readable queue at `semantic/local-recheck-queue.json` and the retrieval-failure rules in `SEMANTIC-REVIEW-POLICY.md`. HTTP 500–504 and equivalent connection failures are retrieval observations, not proof of source unavailability, IP blocking, absent evidence, or an unsupported claim. A future residential-network observation may establish availability only; it cannot overwrite Cloud history or make a semantic decision. No local worker was implemented or run.
+
+The queue contains 15 URL/failure entries across 3 claims: HTTP 500 × 8 and HTTP 503 × 7. The pending 4558 claim has 10 affected official URLs and remains blocked because its ranking/history qualifiers need inspectable authoritative evidence. Existing author results for 1712 and 2610 (both previously `SOURCE_UNAVAILABLE`) remain unchanged; the new policy does not rewrite completed ledgers. If later content becomes inspectable, Codex Cloud must perform the semantic review under the normal process.
+
+Current author-reviewed total remains **20 / 1,399** (remaining **1,379**); outcomes remain ACCEPTED 6, PARTIALLY_SUPPORTED 10, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 0. Relevant queue tests passed: 3. Next pending claim remains `4558:objective_ranking_or_market_share:e9efcd84b9b3989d`.
