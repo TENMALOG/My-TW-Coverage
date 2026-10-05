@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-142",
+  "reviewed_at": "2026-10-05T20:55:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (銓寶年報; 達明機器人公司簡介文件); 台灣精銳年報端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "4575:objective_ranking_or_market_share:8ef602a5b67e7880",
+      "normalized_claim_hash": "8ef602a5b67e7880bb1e2b45182e5c7cdeb7fff55a1c8fb723404e1a5f25963f",
+      "ticker": "4575",
+      "company": "銓寶",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4575_銓寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "銓寶工業 (4575，ChumPower) 雙主軸事業：(1) 台灣最大[[PET]]吹瓶機製造商 (佔全國 85% 出口額，全球逾 4,000 台裝機量，行銷 103 國)；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chumpower.com/UserFiles_PET/brand/book/B0800001_tw.pdf",
+          "title": "銓寶工業股份有限公司（銓寶，4575，ChumPower）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取102,182字元）。年報中「**PET**」出現47次、「**吹瓶機**」51次、「**鑽夾頭**」12次、「4,000」1次、「103」3次，支持其 PET 吹瓶機及夾頭兩項業務。**關鍵發現**：全份年報中「**台灣最大**」僅出現1次，其上下文為「**亦是台灣最大手工具、工具機用夾頭製造商**」——**該「台灣最大」係修飾「夾頭」，而非「PET 吹瓶機」**；「**85%**」與「**40 年**／40年」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為 [[PET]] 吹瓶機製造商」獲發行人年報支持：年報中「**PET**」出現47次、「**吹瓶機**」51次，支持其 PET 吹瓶機業務。惟四項陳述未獲支持：(1)「為**台灣最大** PET 吹瓶機製造商」——全份年報中「**台灣最大**」1次之上下文為「**台灣最大手工具、工具機用夾頭製造商**」，**該「最大」係修飾夾頭而非吹瓶機**；(2)「佔全國 **85%** 出口額」——「85%」出現次數為0；(3)「全球逾 **4,000 台**裝機量」——「4,000」1次之上下文不足以確認該裝機量；(4)「行銷 **103 國**」——「103」3次之上下文未載國別數。故部分成立。",
+      "proposed_text": "銓寶工業 (4575，ChumPower) 從事 PET 吹瓶機業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4575:objective_ranking_or_market_share:804fbb6663ee345a",
+      "normalized_claim_hash": "804fbb6663ee345a7725a042b44e2b0b1b06422ef1880cef262918fe464815f4",
+      "ticker": "4575",
+      "company": "銓寶",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4575_銓寶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 台灣最大精密鑽夾頭製造商 (40 年經驗)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chumpower.com/UserFiles_PET/brand/book/B0800001_tw.pdf",
+          "title": "銓寶工業股份有限公司（銓寶，4575，ChumPower）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取102,182字元）。年報中「**PET**」出現47次、「**吹瓶機**」51次、「**鑽夾頭**」12次、「4,000」1次、「103」3次，支持其 PET 吹瓶機及夾頭兩項業務。**關鍵發現**：全份年報中「**台灣最大**」僅出現1次，其上下文為「**亦是台灣最大手工具、工具機用夾頭製造商**」——**該「台灣最大」係修飾「夾頭」，而非「PET 吹瓶機」**；「**85%**」與「**40 年**／40年」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為精密鑽夾頭製造商」獲發行人年報支持：年報中「**鑽夾頭**」出現12次，並載「**亦是台灣最大手工具、工具機用夾頭製造商**」，支持其夾頭業務及該產品之台灣最大地位。惟「（**40 年**經驗）」未獲支持：「40 年」與「40年」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "銓寶工業 (4575，ChumPower) 為台灣最大手工具、工具機用夾頭製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4583:objective_ranking_or_market_share:6384a87c92b38584",
+      "normalized_claim_hash": "6384a87c92b385843c4d2548e17e6f2c9862ddd04d548982f9237aee1cdd6ec4",
+      "ticker": "4583",
+      "company": "台灣精銳",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4583_台灣精銳.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣精銳 (4583，Apex Dynamics) 為全球最大規模專業伺服用行星式[[減速機]]製造廠 (1987 年創立)，產品涵蓋高精度行星減速機 (佔營收 74%)、齒排及聯軸器，全球 36 家經銷商佈局。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.apexdyna.com/download/investors/ShareholdersMeeting/2026/2025%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "台灣精銳科技股份有限公司（台灣精銳，4583，Apex Dynamics）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-10。",
+          "accessed_at": "2026-10-10",
+          "note": "本批次自發行人官方網域下載2025年股東會年報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得台灣精銳可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「台灣精銳為全球最大規模專業伺服用行星式[[減速機]]製造廠（1987年創立），產品涵蓋高精度行星減速機（佔營收74%）、齒排及聯軸器，全球36家經銷商佈局」未獲確立：本批次自發行人官方網域下載年報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4585:objective_ranking_or_market_share:2917276f3dfdb362",
+      "normalized_claim_hash": "2917276f3dfdb362d4891ec844d7422cfcc692c06bae68d85843f66411a821b6",
+      "ticker": "4585",
+      "company": "達明",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/4585_達明.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達明機器人 (4585，Techman Robot) 為全球第二大[[協作機器人]] (cobot) 品牌 (僅次於[[Universal Robots]])，台灣唯一協作機器人製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/458520250804E001.pdf",
+          "title": "達明機器人股份有限公司（達明，4585，Techman Robot）公司簡介文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,210字元，以圖形排版為主）。文件中「**cobot**」出現11次、「協作機器人」1次、「**Universal Robots**」1次，支持其協作機器人業務及與 Universal Robots 之並列提及。全份文件中「**全球第二**」與「**唯一**」之出現次數**均為0**，未載該市場排名或唯一性敘述。"
+        }
+      ],
+      "rationale": "「為[[協作機器人]]（cobot）品牌」獲發行人文件支持：文件中「**cobot**」出現11次、「協作機器人」1次，並見「**Universal Robots**」1次，支持其協作機器人業務及與該公司之並列提及。惟兩項陳述未獲支持：(1)「為**全球第二大**協作機器人品牌（僅次於 [[Universal Robots]]）」——「全球第二」出現次數為0；(2)「台灣**唯一**協作機器人製造商」——「唯一」為0。故部分成立（並註記該文件文字擷取僅7,210字元，以圖形排版為主）。",
+      "proposed_text": "達明機器人 (4585，Techman Robot) 為協作機器人（cobot）品牌。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

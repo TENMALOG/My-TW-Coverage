@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 21:04 UTC
+Updated: 2026-10-10 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **820 / 1,399**
-- Remaining author review: **579**
-- Latest batch: **author-141** (4 claims)
+- Author-reviewed: **824 / 1,399**
+- Remaining author review: **575**
+- Latest batch: **author-142** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **534**
+- `PARTIALLY_SUPPORTED`: **537**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **195**
+- `UNKNOWN_AFTER_RESEARCH`: **196**
 
 ## Latest claim batch
 
-- `3616:objective_ranking_or_market_share:da6309bf6fbd75aa` — `PARTIALLY_SUPPORTED`；泓辰簡報「**LMFP」26 次**、「LMFP居領先地位」「**首座LMFP量產線**」；惟「2001」「平鎮」「桃園」「唯一」「非中國」「台灣」皆0次（沿革載「粉體設備**1997**」）。
-- `4565:objective_ranking_or_market_share:e8f4df672e4b53fe` — `PARTIALLY_SUPPORTED`；宏偉簡報「**電梯」11 次、「歐賓」2 次**；惟「貨梯」「VOLBIN」「市佔」「龍頭」皆0次，且「**30%」係圖表座標軸刻度**（0% 10% 20% 30% 40%…）。
-- `4568:objective_ranking_or_market_share:9189892b50ee5bb9` — `PARTIALLY_SUPPORTED`；科際簡報「腰托」3次、「按摩」3次；惟「微型泵浦」「電磁閥」「80%」皆0次。
-- `4568:objective_ranking_or_market_share:14f79b7b43f1f4b4` — `UNKNOWN_AFTER_RESEARCH`；「Alfmeier」「Faurecia」「Continental」「80%」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-141.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `4575:objective_ranking_or_market_share:8ef602a5b67e7880` (銓寶).
+- `4575:objective_ranking_or_market_share:8ef602a5b67e7880` — `PARTIALLY_SUPPORTED`；銓寶年報「**PET」47 次、「吹瓶機」51 次**；惟「**台灣最大」1 次係修飾「夾頭」**（「亦是台灣最大手工具、工具機用夾頭製造商」），「85%」0次。
+- `4575:objective_ranking_or_market_share:804fbb6663ee345a` — `PARTIALLY_SUPPORTED`；年報「**鑽夾頭」12 次**並載「亦是**台灣最大**手工具、工具機用夾頭製造商」；惟「40 年」0次。
+- `4583:objective_ranking_or_market_share:6384a87c92b38584` — `UNKNOWN_AFTER_RESEARCH`；台灣精銳官方年報端點 **HTTP 404**。
+- `4585:objective_ranking_or_market_share:2917276f3dfdb362` — `PARTIALLY_SUPPORTED`；達明文件「**cobot」11 次**、「Universal Robots」1次；惟「全球第二」「唯一」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-142.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `4587:objective_ranking_or_market_share:d95215ea397fbeb3` (寶元數控).
 
 ## Source access
 
