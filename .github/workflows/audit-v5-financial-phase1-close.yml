@@ -67,9 +67,10 @@ jobs:
             --details audit-v5/work/official-financial-details-final.json
 
       - name: Upload full financial diagnostics
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
-          name: audit-v5-financial-phase1-\${{ github.run_id }}
+          name: audit-v5-financial-phase1
           path: |
             audit-v5/work/official-financial-details-before-resolution.json
             audit-v5/work/official-financial-details-final.json
