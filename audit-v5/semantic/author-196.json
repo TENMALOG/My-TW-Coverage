@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-196",
+  "reviewed_at": "2026-10-05T21:58:02Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (兆勁法人說明會簡報; 上詮2024法人說明會簡報)",
+  "items": [
+    {
+      "claim_id": "2444:material_named_relationship:b5640b4aad9c106e",
+      "normalized_claim_hash": "b5640b4aad9c106e6c74e025852780138faf7400aa63f2518c0c69205fe18ba7",
+      "ticker": "2444",
+      "company": "兆勁",
+      "path": "Pilot_Reports/Communication Equipment/2444_兆勁.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "網通產品成功打入歐洲電信及 [[Amazon]] AI 供應鏈體系。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/244420241218M001.pdf",
+          "title": "兆勁科技股份有限公司（兆勁，2444，ABOCOM SYSTEMS）法人說明會簡報（2024-12-18）",
+          "source_level": 3,
+          "period_binding": "2024年12月18日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,010字元，以圖形排版為主）。簡報中「**網通**」出現3次，支持其網通產品業務。**關鍵發現**：全份簡報中「**Amazon**」「**亞馬遜**」「**歐洲電信**」與「AI」之出現次數**均為0**——未具名任何電信營運商或雲端業者。"
+        }
+      ],
+      "rationale": "「**網通產品**成功打入**歐洲電信**及 [[Amazon]] **AI 供應鏈**體系」未獲確立：所取得之兆勁簡報中「**網通**」出現3次（支持其產品類別），**惟「Amazon」「亞馬遜」與「歐洲電信」之出現次數均為0**，**未具名任何電信營運商或雲端業者**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3363:profitability_assertion:be639013857fa973",
+      "normalized_claim_hash": "be639013857fa97395aaa4590ca30851948aee8e55ddf0a393fa68046bcebf14",
+      "ticker": "3363",
+      "company": "上詮",
+      "path": "Pilot_Reports/Communication Equipment/3363_上詮.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "其嘔心聯合搭載台積電 COUPE 超級技術之 CPO 光纖套件產品，被產業界預估將成為獨家綑綁應用，並全數高毛利出海奉獻給全球 AI 算力霸主 [[Nvidia 輝達]] 於下個跨世代 (如 Rubin 系列大改版) 之最頂級殺手級 AI 伺服器加速主晶片上。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/336320241113M001.pdf",
+          "title": "上詮通信股份有限公司（上詮，3363，FOCI）2024 法人說明會簡報（2024-11-13）",
+          "source_level": 3,
+          "period_binding": "2024年11月13日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,165字元，以圖形排版為主）。簡報中「**CPO**」出現10次、「**Nvidia**」1次，支持其 CPO（共同封裝光學）產品與 Nvidia 之關聯敘述。**關鍵發現**：全份簡報中「**COUPE**」「**台積電**」「**輝達**」「**Rubin**」「**獨家**」與「**光纖套件**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「搭載**台積電** COUPE 技術之 **CPO** 光纖套件產品…奉獻給全球 AI 算力霸主 [[Nvidia 輝達]]」獲發行人簡報之**部分支持**：簡報中「**CPO**」出現10次、「**Nvidia**」1次，**支持其 CPO 產品線與 Nvidia 之關聯敘述**。**惟多項陳述未獲支持**：(1)「搭載台積電 **COUPE** 超級技術」——「**COUPE**」與「**台積電**」之出現次數**均為0**；(2)「被產業界預估將成為**獨家綑綁**應用」——「**獨家**」為**0**；(3)「下個跨世代（如 **Rubin**）」——「**Rubin**」為**0**；(4)「**光纖套件**」與「**高毛利**」之完整表述亦未見。故部分成立。",
+      "proposed_text": "上詮通信 (3363，FOCI) 之 CPO（共同封裝光學）產品線與 Nvidia 之 AI 供應鏈相關。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

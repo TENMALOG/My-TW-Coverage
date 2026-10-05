@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 03:04 UTC
+Updated: 2026-10-13 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,020 / 1,399**
-- Remaining author review: **379**
-- Latest batch: **author-195** (5 claims)
+- Author-reviewed: **1,022 / 1,399**
+- Remaining author review: **377**
+- Latest batch: **author-196** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **661**
+- `PARTIALLY_SUPPORTED`: **662**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **259**
+- `UNKNOWN_AFTER_RESEARCH`: **260**
 
 ## Latest claim batch
 
-- `1727:material_named_relationship:5ef4ddf1e3954192` — `PARTIALLY_SUPPORTED`；中華化ESG「**電子級硫酸」5 次、「硫酸」17 次、「認證」15 次**；惟「台積電／關東鑫林／第五條／3萬噸／10億／2026」皆0次。
-- `1727:material_named_relationship:667a0c8d8e97c01f`、`5fa0d9b659e46647` — `UNKNOWN_AFTER_RESEARCH` ×2；「關東鑫林」「台積電」「獨家」皆0次。
-- `1773:material_named_relationship:11a4695ce7063ac1` — `UNKNOWN_AFTER_RESEARCH`；勝一簡報「**TSMC／UMC／VIS／Intel／台積電／聯電／世界先進」皆 0 次**。
-- `8435:material_named_relationship:5b3bd8d871669688` — `PARTIALLY_SUPPORTED`；鉅邁簡報產業別「石化」5次、「鋼鐵」3次、「半導體」1次、「**台塑」1 次**；惟「台積電／群創／中油／南亞／台化／中鋼／台電」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-195.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2444:material_named_relationship:b5640b4aad9c106e` (兆勁).
+- `2444:material_named_relationship:b5640b4aad9c106e` — `UNKNOWN_AFTER_RESEARCH`；兆勁簡報「網通」3次；**惟「Amazon／亞馬遜／歐洲電信」皆 0 次**。
+- `3363:profitability_assertion:be639013857fa973` — `PARTIALLY_SUPPORTED`；上詮簡報「**CPO」10 次、「Nvidia」1 次**；惟「**COUPE／台積電／獨家／Rubin／光纖套件」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-196.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `2485:material_named_relationship:20b0b1c34022aee9` (兆赫).
 
 ## Source access
 
