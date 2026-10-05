@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 02:04 UTC
+Updated: 2026-10-13 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,015 / 1,399**
-- Remaining author review: **384**
-- Latest batch: **author-194** (4 claims)
+- Author-reviewed: **1,020 / 1,399**
+- Remaining author review: **379**
+- Latest batch: **author-195** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **659**
+- `PARTIALLY_SUPPORTED`: **661**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **256**
+- `UNKNOWN_AFTER_RESEARCH`: **259**
 
 ## Latest claim batch
 
-- `6021:identity_changing_event:f82a5e3c9c501cda` — `UNKNOWN_AFTER_RESEARCH`；美好證端點 **HTTP 404**。
-- `1312:profitability_assertion:c5d7e505a1dc02fb` — `PARTIALLY_SUPPORTED`；國喬ESG「**ABS」73 次、「醫療」19 次、「汽車」5 次、「儀表板」1 次**；惟「**保險桿／無人機／家用電氣／高毛利」皆 0 次**。
-- `1710:profitability_assertion:cada73a15ab322ff` — `PARTIALLY_SUPPORTED`；東聯簡報「**EG」33 次、「EA」25 次、「EO」15 次、「CO2」8 次**（**縮寫**；中文全名皆0）；惟「**遠東**」0次。
-- `1710:material_named_relationship:8d96205de40b3258` — `PARTIALLY_SUPPORTED`；簡報載「**Entering 2nm/3nm Advanced Nodes & HBM Supply**」；**惟「台積電」「TSMC」「EUV」「5nm」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-194.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1727:material_named_relationship:5ef4ddf1e3954192` (中華化).
+- `1727:material_named_relationship:5ef4ddf1e3954192` — `PARTIALLY_SUPPORTED`；中華化ESG「**電子級硫酸」5 次、「硫酸」17 次、「認證」15 次**；惟「台積電／關東鑫林／第五條／3萬噸／10億／2026」皆0次。
+- `1727:material_named_relationship:667a0c8d8e97c01f`、`5fa0d9b659e46647` — `UNKNOWN_AFTER_RESEARCH` ×2；「關東鑫林」「台積電」「獨家」皆0次。
+- `1773:material_named_relationship:11a4695ce7063ac1` — `UNKNOWN_AFTER_RESEARCH`；勝一簡報「**TSMC／UMC／VIS／Intel／台積電／聯電／世界先進」皆 0 次**。
+- `8435:material_named_relationship:5b3bd8d871669688` — `PARTIALLY_SUPPORTED`；鉅邁簡報產業別「石化」5次、「鋼鐵」3次、「半導體」1次、「**台塑」1 次**；惟「台積電／群創／中油／南亞／台化／中鋼／台電」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-195.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `2444:material_named_relationship:b5640b4aad9c106e` (兆勁).
 
 ## Source access
 
