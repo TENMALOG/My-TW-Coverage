@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 08:04 UTC
+Updated: 2026-10-06 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **156 / 1,399**
-- Remaining author review: **1,243**
-- Latest batch: **author-032** (8 claims)
+- Author-reviewed: **164 / 1,399**
+- Remaining author review: **1,235**
+- Latest batch: **author-033** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **40**
-- `PARTIALLY_SUPPORTED`: **95**
+- `PARTIALLY_SUPPORTED`: **103**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,16 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6593:objective_ranking_or_market_share:bcd8051088ba12eb`、`b3ba33d575c72e62`、`2b4e80914df0aac2` — `PARTIALLY_SUPPORTED` ×3; 台灣銘板2025簡報第2頁載 RFID 技術與二代悠遊晶片、第10頁載「掌握銀行及票證公司年度合約770萬張」，2017簡報第7頁載「★Mastercard 正式認可」、第17頁載「全球唯二之二代悠遊晶片合格供應商」；惟「台灣前四大發卡銀行」「市佔35%」「美國專利」「Visa」均未載。
-- `6914:objective_ranking_or_market_share:e0e3a03b5e669446` — `ACCEPTED`; 阜爾運通2026法說會第18頁載「就目前主要停車管理公司案場分析，城市車旅目前已居於業界領導位置」。
-- `8342:objective_ranking_or_market_share:acce089189cec438`、`a2f0330b12f64684` — `UNKNOWN_AFTER_RESEARCH` ×2; 益張2025簡報「北美」「市佔」「最大」皆為0次，107年報「北美」僅1次且屬市場環境描述、「市佔」「領導」為0。
-- `2820:objective_ranking_or_market_share:4ea2d7d9b3fa5942` — `PARTIALLY_SUPPORTED`; 華票109年報第7頁載王道商業銀行持股28.36%為最大股東；惟「寶佳集團持股約17%」未載（寶佳僅出現2次且為董事經歷）。
-- `2820:objective_ranking_or_market_share:7eeb0fcbdc78b0fb` — `ACCEPTED`; 同頁載「截至110年3月底王道商業銀行（持股28.36%）仍為華票最大股東」。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-032.json`。未修改發行人報告。
-- Next pending claim by priority: `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` (統一證).
+- `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` — `PARTIALLY_SUPPORTED`; 統一證111年報第324/87頁載「證券經紀市佔率為2.82%，市佔排名為國內本土券商中第11名」（非前十），另載單點平均市佔率0.09%在前十大本土券商第5名；第101頁載電子下單108年為79.37%。
+- `2889:objective_ranking_or_market_share:9f8aba6960121ca6` — `PARTIALLY_SUPPORTED`; 國票金永續報告第15/17頁載2002年3月26日由國際票券、協和證券及大東綜合證券設立；惟「唯一以票券業務為核心」之「唯一」未獲支持。
+- `6005:objective_ranking_or_market_share:083b365bd1c581fa` — `PARTIALLY_SUPPORTED`; 群益證簡報第16頁經紀市佔3.71%排名9（2025）、第22頁3.53%排名8（2026年1-2月），與「約4%」相符；惟官方排名為第8～9名而非「第六」。
+- `6005:objective_ranking_or_market_share:5130bfc55573a836` — `PARTIALLY_SUPPORTED`; 市占約4%相符；惟據點數與客戶結構未載。
+- `6023:objective_ranking_or_market_share:cec62e122390ab9a` — `PARTIALLY_SUPPORTED`; 元大期113年報第9頁載期貨經紀市占22.62%、客戶保證金占全市場32.89%「市場存量第一」、稅後淨利21.67億「位居14家專營期貨商之首」；惟資本額與淨值「第一」未載。
+- `6026:objective_ranking_or_market_share:f276a5441599570d` — `PARTIALLY_SUPPORTED`; 福邦證113年報第89頁載「以投資銀行業務為核心…聚焦耕耘中型及中小企業客戶」；惟「中小型企業的全方位策略夥伴」字樣未出現。
+- `1313:objective_ranking_or_market_share:f7e881e9038a20ac` — `PARTIALLY_SUPPORTED`; 聯成2025簡報第5/7頁載「全球最大苯酐及可塑劑製造商」；惟「大中華區30%」出自2020簡報，2025簡報第17頁載中國大陸可塑劑市占約23%。
+- `1313:objective_ranking_or_market_share:440a3c16130704da` — `PARTIALLY_SUPPORTED`; 全球最大成立；惟「龍頭」（0次）、「一站式垂直海運物流競爭壁壘」與集團隸屬陳述未獲支持。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-033.json`。未修改發行人報告。
+- Next pending claim by priority: `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` (台化).
 
 ## Source access
 

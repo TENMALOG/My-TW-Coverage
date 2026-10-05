@@ -1,0 +1,225 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-033",
+  "reviewed_at": "2026-10-05T16:41:24Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (統一證111年度年報文件; 國票金2021永續報告書; 群益證2026年法人說明會簡報; 元大期114年股東常會議事手冊; 福邦證113年度年報; 聯成2020與2025年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "2855:objective_ranking_or_market_share:23dcc1ae4b2739ba",
+      "normalized_claim_hash": "23dcc1ae4b2739baeee3a84719a59705ff44e411bda8fab84a790661e779f9ae",
+      "ticker": "2855",
+      "company": "統一證",
+      "path": "Pilot_Reports/Capital Markets/2855_統一證.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "經紀業務市占率穩定位居本土券商前十，電子下單比率高。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.pscnet.com.tw/upload/pscnet/file/20230522105416216826.pdf",
+          "title": "統一綜合證券股份有限公司（統一證，2855）111 年度年報／公司報告文件",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第6頁載「111年經紀市佔2.82%」。第324頁「市佔率」段落明載「本公司111年證券經紀市佔率為2.82%，市佔排名為國內本土券商中第11名，單點平均市佔率為0.09%，在前十大本土券商第5名」。第87頁「經紀業務」項下重述相同數字（市佔率2.82%、市佔排名國內本土券商第11名、單點平均市佔率0.09%、前十大本土券商第5名、本公司共有31個據點）。第101頁載電子下單比率「108年為79.37%」。第6頁並載承銷業務業界排名第9名。"
+        }
+      ],
+      "rationale": "「電子下單比率高」獲發行人年報支持：第101頁載其電子下單比率「108年為79.37%」，並載將持續強化電子下單業務。惟「經紀業務市占率穩定位居本土券商前十」與官方揭露不符：第324頁及第87頁均明載「本公司111年證券經紀市佔率為2.82%，市佔排名為國內本土券商中第11名」，即整體經紀市占排名為第11名而非前十；官方另載「單點平均市佔率為0.09%，在前十大本土券商第5名」，該第5名係「單點平均市占率」之排名，並非整體經紀市占排名。故就電子下單比率高成立、就「穩定位居前十」不成立（官方為第11名）。",
+      "proposed_text": "經紀業務市占率 2.82%（111年），在本土券商中排名第 11 名，單點平均市佔率 0.09%（在前十大本土券商中排名第 5）；電子下單比率高。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2889:objective_ranking_or_market_share:9f8aba6960121ca6",
+      "normalized_claim_hash": "9f8aba6960121ca6c6acaaadf0d4080f574d44ed11fd850248a6a84f259f58e1",
+      "ticker": "2889",
+      "company": "國票金",
+      "path": "Pilot_Reports/Capital Markets/2889_國票金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國票金融控股 (2889，IBF Financial Holdings) 為台灣唯一以票券業務為核心的金融控股公司，2002 年由[[國際票券]]金融公司、協和證券及大東證券以股份轉換方式共同設立。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://esg.ibf.com.tw/Uploads/1-5b3f99d0.pdf",
+          "title": "國票金融控股股份有限公司（國票金，2889）永續報告書（2021年）",
+          "source_level": 3,
+          "period_binding": "2021年度；公司沿革自2002年起。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第15頁載「2002年3月26日」、「國票金融控股股份有限公司（以下簡稱『國票金控』）旗下事業包含票券、證券、投顧…」及「國際票券金融股份有限公司（以下簡稱『國際票券』）為臺灣主要成立的票券公司」。第17頁沿革載「由國際票券金融股份有限公司、協和證券股份有限公司及大東綜合證券股份有限公司…」及「2002年」，並列子公司協和證券股份有限公司及大東綜合證券股份有限公司。全份報告未使用「唯一」描述其為以票券業務為核心之金控；第20頁載其「投資雙核心業務引擎」。"
+        }
+      ],
+      "rationale": "成立時間與設立方式獲發行人永續報告支持：第15頁載「2002年3月26日」及國票金控旗下事業包含票券、證券、投顧等；第17頁沿革載其由「國際票券金融股份有限公司、協和證券股份有限公司及大東綜合證券股份有限公司」於2002年設立。惟「為台灣唯一以票券業務為核心的金融控股公司」中之「唯一」未獲支持：全份永續報告未使用「唯一」描述其票券核心定位，亦未與其他金控作業務核心之比較。故部分成立。",
+      "proposed_text": "[[國票金]] (2889) 成立於 2002 年，由[[國際票券]]、協和證券及大東證券以股份轉換方式共同設立，以票券業務為核心。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6005:objective_ranking_or_market_share:083b365bd1c581fa",
+      "normalized_claim_hash": "083b365bd1c581fa0150bc3ad8c4b66454055a3ab9c66bbf7e3565d93f67787c",
+      "ticker": "6005",
+      "company": "群益證",
+      "path": "Pilot_Reports/Capital Markets/6005_群益證.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台股經紀業務市占率約 4%，排名本土券商第六。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/600520260330M001.pdf",
+          "title": "群益金鼎證券股份有限公司（群益證，6005）法人說明會簡報（2026-03-30）",
+          "source_level": 3,
+          "period_binding": "2025年度全年及2026年1-2月；市場排名為各該期間。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第16頁「各項業務市場排名」列2025年經紀業務市佔率3.71%、市場排名9；融資餘額市佔率4.99%、排名8；權證發行檔數排名3等。第22頁列2026年1～2月經紀業務市佔率3.53%、市場排名8；融資餘額市佔率5.14%、排名7。第15及21頁為主要業務項目獲利結構圖。全份簡報未出現「第六（名）」，亦未載營業據點總數。"
+        }
+      ],
+      "rationale": "「台股經紀業務市占率約4%」與官方數字大致相符：2025年簡報載經紀業務市佔率3.71%（市場排名9），2026年1～2月為3.53%（排名8），均接近4%。惟「排名本土券商第六」與官方揭露不符：簡報載2025年經紀業務市場排名為第9名、2026年1～2月為第8名，官方文件中未出現「第六名」。故部分成立。",
+      "proposed_text": "台股經紀業務市占率約 3.5%~3.7%，市場排名第 8~9 名。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6005:objective_ranking_or_market_share:5130bfc55573a836",
+      "normalized_claim_hash": "5130bfc55573a83684db7638ffc6a6e1e69d5c3cadb9de96edda5b500f04db12",
+      "ticker": "6005",
+      "company": "群益證",
+      "path": "Pilot_Reports/Capital Markets/6005_群益證.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全台近 50 據點之散戶投資人 (市占率約 4%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/600520260330M001.pdf",
+          "title": "群益金鼎證券股份有限公司（群益證，6005）法人說明會簡報（2026-03-30）",
+          "source_level": 3,
+          "period_binding": "2025年度全年及2026年1-2月；市場排名為各該期間。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第16頁「各項業務市場排名」列2025年經紀業務市佔率3.71%、市場排名9；融資餘額市佔率4.99%、排名8；權證發行檔數排名3等。第22頁列2026年1～2月經紀業務市佔率3.53%、市場排名8；融資餘額市佔率5.14%、排名7。第15及21頁為主要業務項目獲利結構圖。全份簡報未出現「第六（名）」，亦未載營業據點總數。"
+        }
+      ],
+      "rationale": "本 claim 為客戶條目表述（「全台近50據點之散戶投資人（市占率約4%）」）。市占率約4%與官方3.71%／3.53%大致相符；惟兩項未獲支持：(1)「全台近50據點」——該簡報未載營業據點總數；(2)「散戶投資人」——簡報未載客戶結構（自然人占比）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6023:objective_ranking_or_market_share:cec62e122390ab9a",
+      "normalized_claim_hash": "cec62e122390ab9ab7396ea1af0cb64c352f2d0637fd78c561125684fce350f3",
+      "ticker": "6023",
+      "company": "元大期",
+      "path": "Pilot_Reports/Capital Markets/6023_元大期.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國內外期貨選擇權市占率、資本額、淨值、客戶保證金及獲利均長年位居第一。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.yuantafutures.com.tw/UploadFile/img/202504/0d0784c0-2296-48ae-a243-65cc21c2c93b%e5%85%83%e5%a4%a7%e6%9c%9f%e8%b2%a8114%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8a(%e4%b8%ad%e6%96%87).pdf",
+          "title": "元大期貨股份有限公司（元大期，6023）114 年股東常會議事手冊（含113年度營業報告書）",
+          "source_level": 3,
+          "period_binding": "民國113年度（2024）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第9頁載「本公司113年稅後淨利達21.67億元，位居14家專營期貨商之首，創下歷年新高，稅後EPS為7.47元、稅後ROE為14.24%」，並載「113年期貨經紀市占率22.62%、選擇權經紀市占率為18.14%、外盤經紀市占率26.47%，截至年底客戶保證金佔全市場32.89%，市場存量第一且持續成長，整體業務表現領先業界」。第10頁載「台灣大型企業Top5000-期貨公司第1名」。全份報告未載其資本額或淨值為同業第一之比較陳述。"
+        }
+      ],
+      "rationale": "「期貨選擇權市占率、客戶保證金及獲利位居第一」獲發行人報告支持：第9頁載113年期貨經紀市占率22.62%、選擇權經紀市占率18.14%、外盤經紀市占率26.47%，客戶保證金佔全市場32.89%且「市場存量第一」；並載稅後淨利21.67億元「位居14家專營期貨商之首」；第10頁載「台灣大型企業Top5000-期貨公司第1名」。惟「資本額、淨值…均長年位居第一」未獲支持：全份報告未載其資本額或淨值為同業第一之比較陳述，亦未載市占率之長期年度序列以支持「長年」。故部分成立。",
+      "proposed_text": "國內外期貨選擇權市占率與客戶保證金、獲利位居市場第一（113年期貨經紀市占率 22.62%、客戶保證金占全市場 32.89%、稅後淨利 21.67 億元居 14 家專營期貨商之首）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6026:objective_ranking_or_market_share:f276a5441599570d",
+      "normalized_claim_hash": "f276a5441599570d51280d57e2d90db50062955ab7c36b0f40fde988a25eed46",
+      "ticker": "6026",
+      "company": "福邦證",
+      "path": "Pilot_Reports/Capital Markets/6026_福邦證.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "定位為「中小型企業的全方位策略夥伴」，有別於大型金控券商以經紀市占為主，福邦將戰略重心放在投資銀行承銷業務。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gfortune.com.tw/Static/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E8%82%A1%E6%9D%B1%E5%B0%88%E5%8D%80/113%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "福邦證券股份有限公司（福邦證，6026）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112至113年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第85頁載「(1)投資銀行業務: 本公司致力深耕專業投資銀行業務，以承銷、股代、財務顧（問）…」，並載「最近三年度經紀業務概況」「本公司經紀業務以法人客戶群為主」。第89頁載「本公司以投資銀行業務為核心，以精實適中之規模維持營運彈性…聚焦耕耘中型及中小企業客戶」，另載其「無金控與銀行合作，缺乏交叉行銷的綜效，故僅受限於專業經紀股票交易」、「以證券承銷及資產管理為核心，建構及延伸投資銀行業務，鎖定中型及中小企業客戶及高資產客戶」。第6頁載「持續以具有投資銀行特色之（專業證券服務）」。全份年報未出現「中小型企業的全方位策略夥伴」字樣。"
+        }
+      ],
+      "rationale": "「戰略重心放在投資銀行承銷業務」獲發行人年報支持：第85頁載「本公司致力深耕專業投資銀行業務，以承銷、股代、財務顧（問）…」；第89頁載「本公司以投資銀行業務為核心，以精實適中之規模維持營運彈性…聚焦耕耘中型及中小企業客戶」及「以證券承銷及資產管理為核心，建構及延伸投資銀行業務，鎖定中型及中小企業客戶及高資產客戶」；第6頁載其持續以「具有投資銀行特色之（專業證券服務）」為定位。「有別於大型金控券商」亦獲佐證：第89頁載其「無金控與銀行合作，缺乏交叉行銷的綜效，故僅受限於專業經紀股票交易」。惟所引述之定位語「中小型企業的全方位策略夥伴」未獲支持：全份年報未出現該字樣。故部分成立。",
+      "proposed_text": "定位為具投資銀行特色之專業證券商，以承銷及資產管理為核心，聚焦中型及中小企業客戶及高資產客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1313:objective_ranking_or_market_share:f7e881e9038a20ac",
+      "normalized_claim_hash": "f7e881e9038a20ac1eb08474f86611a2f886fed250fee124819aeec975b1dbfe",
+      "ticker": "1313",
+      "company": "聯成",
+      "path": "Pilot_Reports/Chemicals/1313_聯成.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "聯成為全球最大之[[可塑劑]] (DOP/DINP) 及[[苯酐]] (PA) 製造商之一，在大中華區市佔率達 30%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/131320251121M001.pdf",
+          "title": "聯成化學科技股份有限公司（聯成，1313）法人說明會簡報（2025-11-21）",
+          "source_level": 3,
+          "period_binding": "2025年第三季（截至2025/9/30）及2025年Q1-Q3。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第5及7頁載「聯成為全球最大苯酐及可塑劑製造商」。第17頁載「聯成2025/Q1-Q3可塑劑總銷量107.1萬噸，較去年同期增長3.7%」、「2025年中國大陸可塑劑需求量估約519萬噸，聯成市占約23%」。第19頁載DINP「在中國大陸市占達70%」。全份簡報未出現「大中華」或「30%」（30%於本簡報並未作為市占數字出現）。"
+        },
+        {
+          "url": "https://www.upc.com.tw/upload/media/ir/053_IR_Information/5_Investor_Conference/2020/IR_Conference_CHT_20201123.pdf",
+          "title": "聯成化學科技股份有限公司（聯成，1313）法人說明會簡報（2020-11-23）",
+          "source_level": 3,
+          "period_binding": "2020年現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第3頁載「增塑劑及苯酐 | 全球最大供應商 | 大中華地區 | 市佔率30%」。第9頁載「增塑劑及苯酐產品為全球最大供應商」。"
+        }
+      ],
+      "rationale": "「為全球最大之可塑劑及苯酐製造商之一」獲發行人官方簡報直接支持：2025年簡報第5及7頁載「聯成為全球最大苯酐及可塑劑製造商」，2020年簡報第9頁亦載「增塑劑及苯酐產品為全球最大供應商」。惟「在大中華區市佔率達30%」與最新官方數字不符：該30%出自2020年簡報第3頁（「大中華地區 市佔率30%」），而2025年簡報第17頁載最新數字為「2025年中國大陸可塑劑需求量估約519萬噸，聯成市占約23%」，且2025年簡報未再出現「大中華」或30%之市占表述。故就全球最大成立、就當前大中華區30%不成立（最新官方為中國大陸約23%）。",
+      "proposed_text": "聯成為全球最大之[[可塑劑]] (DOP/DINP) 及[[苯酐]] (PA) 製造商之一；2025年官方簡報載其中國大陸可塑劑市占約 23%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1313:objective_ranking_or_market_share:440a3c16130704da",
+      "normalized_claim_hash": "440a3c16130704da6453a9a5dac3d5f770a9236a1bcab3e9061677737b8ec19c",
+      "ticker": "1313",
+      "company": "聯成",
+      "path": "Pilot_Reports/Chemicals/1313_聯成.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**聯成 (1313)** (隸屬於龐大的聯華神通集團，為全球產能最大之可塑劑 (DOP/DINP/環保型各系可塑劑) 及苯酐 (PA) 核心製造龍頭，同時具備強大無比之自建「產、銷、儲、運、港」一站式垂直海運物流競爭壁壘)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/131320251121M001.pdf",
+          "title": "聯成化學科技股份有限公司（聯成，1313）法人說明會簡報（2025-11-21）",
+          "source_level": 3,
+          "period_binding": "2025年第三季（截至2025/9/30）及2025年Q1-Q3。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第5及7頁載「聯成為全球最大苯酐及可塑劑製造商」。第17頁載「聯成2025/Q1-Q3可塑劑總銷量107.1萬噸，較去年同期增長3.7%」、「2025年中國大陸可塑劑需求量估約519萬噸，聯成市占約23%」。第19頁載DINP「在中國大陸市占達70%」。全份簡報未出現「大中華」或「30%」（30%於本簡報並未作為市占數字出現）。"
+        },
+        {
+          "url": "https://www.upc.com.tw/upload/media/ir/053_IR_Information/5_Investor_Conference/2020/IR_Conference_CHT_20201123.pdf",
+          "title": "聯成化學科技股份有限公司（聯成，1313）法人說明會簡報（2020-11-23）",
+          "source_level": 3,
+          "period_binding": "2020年現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第3頁載「增塑劑及苯酐 | 全球最大供應商 | 大中華地區 | 市佔率30%」。第9頁載「增塑劑及苯酐產品為全球最大供應商」。"
+        }
+      ],
+      "rationale": "「全球產能最大之可塑劑及苯酐核心製造商」獲支持（2025年簡報第5及7頁「全球最大苯酐及可塑劑製造商」），其自有物流與儲運亦獲部分佐證（2025年簡報載「物流儲運服務」「產、物流、銷售（整合）」）。惟多項修飾語未獲支持：(1)「龍頭」——兩份簡報出現次數均為0；(2)「一站式垂直海運物流競爭壁壘」——簡報僅載物流儲運服務，未以「海運」或「競爭壁壘」描述；(3)「隸屬於龐大的聯華神通集團」——簡報未載集團歸屬陳述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

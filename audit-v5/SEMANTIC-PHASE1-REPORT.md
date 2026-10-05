@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **156 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), and `author-032` (8).
+Author-reviewed: **164 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), and `author-033` (8).
 
 - ACCEPTED by author: 40
-- PARTIALLY_SUPPORTED: 95
+- PARTIALLY_SUPPORTED: 103
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 17
-- Remaining author queue: 1,243
+- Remaining author queue: 1,235
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -384,6 +384,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-032.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **156 / 1,399**; remaining: **1,243**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 95, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 17. Next pending claim by priority: `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` (統一證).
+
+## Author batch `author-033` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (統一證 2855, 國票金 2889, 群益證 6005 ×2, 元大期 6023, 福邦證 6026, 聯成 1313 ×2). Evidence came from directly downloaded and inspected official disclosures: 統一證111年度年報文件、國票金2021永續報告書、群益證2026年法人說明會簡報、元大期114年股東常會議事手冊、福邦證113年度年報、聯成2020與2025年法人說明會簡報。
+- `2855:objective_ranking_or_market_share:23dcc1ae4b2739ba` — `PARTIALLY_SUPPORTED`. 統一證111年報第324及87頁均明載「本公司111年證券經紀市佔率為2.82%，市佔排名為國內本土券商中第11名」，與 claim 之「穩定位居本土券商前十」不符；官方另載「單點平均市佔率為0.09%，在前十大本土券商第5名」，該第5名係單點平均市占之排名。第101頁載電子下單比率108年為79.37%，支持「電子下單比率高」。
+- `2889:objective_ranking_or_market_share:9f8aba6960121ca6` — `PARTIALLY_SUPPORTED`. 國票金永續報告第15及17頁載「2002年3月26日」及由國際票券、協和證券、大東綜合證券設立；惟「為台灣唯一以票券業務為核心的金控」之「唯一」未見於官方文件。
+- `6005:objective_ranking_or_market_share:083b365bd1c581fa` 與 `5130bfc55573a836` — `PARTIALLY_SUPPORTED`. 群益證2026年簡報第16頁載2025年經紀業務市佔率3.71%、市場排名9，第22頁載2026年1～2月3.53%、排名8，與「約4%」大致相符；惟「排名本土券商第六」與官方第8～9名不符，且簡報未載營業據點總數或客戶結構。
+- `6023:objective_ranking_or_market_share:cec62e122390ab9a` — `PARTIALLY_SUPPORTED`. 元大期114年股東常會議事手冊第9頁載113年稅後淨利21.67億元「位居14家專營期貨商之首」、期貨經紀市占率22.62%、選擇權18.14%、客戶保證金占全市場32.89%且「市場存量第一」；惟全份報告未載其資本額或淨值為同業第一，亦未載長期年度市占序列。
+- `6026:objective_ranking_or_market_share:f276a5441599570d` — `PARTIALLY_SUPPORTED`. 福邦證113年報第85及89頁載其「以投資銀行業務為核心」、聚焦中型及中小企業客戶、並自述「無金控與銀行合作，缺乏交叉行銷的綜效」；惟所引述之定位語「中小型企業的全方位策略夥伴」未出現於年報。
+- `1313:objective_ranking_or_market_share:f7e881e9038a20ac` — `PARTIALLY_SUPPORTED`. 聯成2025年簡報第5及7頁載「聯成為全球最大苯酐及可塑劑製造商」；惟「在大中華區市佔率達30%」出自2020年簡報第3頁（大中華地區30%），2025年簡報第17頁之最新官方數字為「2025年中國大陸可塑劑需求量估約519萬噸，聯成市占約23%」，故當前時點之30%不成立。
+- `1313:objective_ranking_or_market_share:440a3c16130704da` — `PARTIALLY_SUPPORTED`. 全球最大產能與其物流儲運業務獲部分佐證；惟「龍頭」於兩份簡報出現次數為0，「一站式垂直海運物流競爭壁壘」與「隸屬於聯華神通集團」之陳述未獲官方文件支持。
+- Proposed wording is recorded for the partial claims in `semantic/author-033.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **164 / 1,399**; remaining: **1,235**. Outcome counts: ACCEPTED 40, PARTIALLY_SUPPORTED 103, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 17. Next pending claim by priority: `1326:objective_ranking_or_market_share:9a1e08d41d3aa67e` (台化).
+
 
 
 
