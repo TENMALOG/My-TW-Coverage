@@ -1,6 +1,6 @@
 # Financial Audit Policy
 
-Version: `financial-1-draft`
+Version: `financial-2-current-approved`
 
 ## Principle
 
@@ -32,9 +32,18 @@ Questions such as which net-income concept to use, CAPEX definition, operating-i
 
 Until approved, affected cells remain `METHOD_UNRESOLVED`.
 
-## Initial draft choices intentionally not finalized
+## Approved current-period mappings
 
-This file does **not** yet approve a single net-income or CAPEX mapping because the local v4 schema/evidence has not been inspected here. The first v5 migration must surface the existing v4 definitions before finalizing these mappings.
+For general-industry issuers, the current-period canonical mappings are approved:
+
+- Revenue -> MOPS/TWSE `營業收入`
+- Gross Profit -> MOPS/TWSE `營業毛利（毛損）`
+- Operating Income -> MOPS `營業利益（損失）` / Mopsfin `OperatingIncome`
+- Net Income -> MOPS `母公司業主（淨利∕損）` / TWSE `淨利（淨損）歸屬於母公司業主`
+
+Mopsfin metric-series values are single-quarter values. TWSE/TPEx OpenAPI income-statement values are year-to-date for Q1-Q3. The two forms must reconcile after summing the single-quarter series.
+
+CAPEX and other cash-flow concepts remain outside this phase.
 
 
 ## Official cross-check phase 1
@@ -69,7 +78,7 @@ For Net Income, v5 first attempts the official concept "淨利（淨損）歸屬
 A current-period mismatch is not automatically a factual error.
 
 - Revenue, Gross Profit and parent-attributable Net Income mismatches remain `FINANCIAL_DIFFERENCE` when the issuer uses the general-industry schema.
-- Operating Income mismatches are `METHOD_UNRESOLVED` until the corpus-level mapping between Yahoo's Operating Income and the official Taiwan statement concept is approved. Exact matches may still auto-verify.
+- Operating Income maps canonically to official `營業利益（損失）`; general-industry mismatches are factual differences rather than method gaps.
 - Reports in banking, capital markets, credit services, financial conglomerates, insurance and related financial-service sectors use `METHOD_UNRESOLVED` under the general-industry checker until specialized schemas are implemented.
 
 This prevents a broad accounting-definition mismatch from being misreported as hundreds of issuer-level factual errors.
