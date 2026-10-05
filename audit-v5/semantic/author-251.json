@@ -1,0 +1,167 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-251",
+  "reviewed_at": "2026-10-05T23:14:19Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (家碩2025年報; 久元股東會年報與2024法說會; 同欣電110年度年報); 台積電官方端點HTTP 403; 華泰與瑞昱端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "6953:identity_changing_event:c73ead2e44eb21b3",
+      "normalized_claim_hash": "c73ead2e44eb21b346359138037f8ad6128f9332d8e72d28014ed3905abba4f5",
+      "ticker": "6953",
+      "company": "家碩",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6953_家碩.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司於 2023 年更名為家碩科技，2024 年掛牌上櫃。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gdauto.com.tw/storage/investArticle/2026052514431455262025%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "家碩科技股份有限公司（家碩，6953，Gudeng Equipment）2025 年度年報",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取71,823字元）。年報封面**逐字載**「**家碩科技股份有限公司(原名：家登自動化股份有限公司)Gudeng Equipment Co., Ltd.**」（「**原名**」3次、「**家碩科技**」6次、「家登自動化」1次），並見「**上櫃**」26次、「**2024**」2次、「**2023**」2次、「113年」3次、「112年」1次，**支持其原名與登錄上櫃之事實**。**關鍵發現**：全份年報中「**更名**」之出現次數**為0**（文件以「(原名：…)」之形式記載）。"
+        }
+      ],
+      "rationale": "「公司…更名為**家碩科技**」獲發行人年報**逐字支持**：年報封面載「**家碩科技股份有限公司(原名：家登自動化股份有限公司)Gudeng Equipment Co., Ltd.**」（「**原名**」3次、「家碩科技」6次、「家登自動化」1次），**支持其原名與現名之關係**；「…**掛牌上櫃**」亦獲支持——年報中「**上櫃**」出現26次，並見「2024」2次、「2023」2次。**惟兩項要素未獲逐字支持**：(1)「**更名**」字樣——全份年報中出現次數**為0**（文件以「(原名：…)」之形式記載）；(2)「**2023 年**更名」與「**2024 年**掛牌上櫃」兩個年份與事件之對應關係未見明文敘述。故部分成立。**註記**：本筆之實質要素（原名、現名、上櫃）均已見於官方文件，惟年份與事件之對應留待複核者確認。",
+      "proposed_text": "家碩科技 (6953，Gudeng Equipment) 原名家登自動化股份有限公司，並已登錄上櫃。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6261:material_named_relationship:25564dd7283d8c8e",
+      "normalized_claim_hash": "25564dd7283d8c8e1131afd565ed626006a6312170810f62930a6547735ab01f",
+      "ticker": "6261",
+      "company": "久元",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6261_久元.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶[[晶元光電]]占營收 23.5%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ytec.com.tw/cn/investor/shareholder/download/J20/%E8%82%A1%E4%B8%9C%E4%BC%9A%E5%B9%B4%E6%8A%A5.pdf",
+          "title": "久元電子股份有限公司（久元，6261，Ytec）股東會年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字擷取檢視（文字擷取297,396字元）。年報中「**23.5**」出現14次、「客戶」108次、「光電」36次。**關鍵發現**：全份年報中「**晶元**」與「**億光**」之出現次數**均為0**——**未見 claim 所述之具名客戶**；「23.5」之各次出現均未與該客戶連結。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/626120241226M001.pdf",
+          "title": "久元電子股份有限公司（久元，6261，Ytec）法人說明會簡報（2024-12-26）",
+          "source_level": 3,
+          "period_binding": "2024年12月26日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,475字元，以圖形排版為主）。簡報中「客戶」出現12次。**關鍵發現**：全份簡報中「**晶元**」與「23.5」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶 **[[晶元光電]]** 占營收 **23.5%**」未獲確立：所取得之久元股東會年報（「**23.5**」14次、「客戶」108次）中「**晶元**」與「**億光**」之出現次數**均為0**，**未見該具名客戶**；「23.5」之各次出現均未與任何客戶連結；法人說明會簡報中「晶元」與「23.5」亦**均為0**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6271:material_named_relationship:c6e346619fff33a6",
+      "normalized_claim_hash": "c6e346619fff33a680403b89605767db49c3b6778b382fc7f397d1cfabf87c0d",
+      "ticker": "6271",
+      "company": "同欣電",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6271_同欣電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[ON Semi]](安森美)、[[OmniVision]](豪威)等車用[[CIS]]巨頭(間接打入[[Tesla]]供應鏈)及[[SpaceX]][[低軌衛星]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6271_110.pdf",
+          "title": "同欣電子工業股份有限公司（同欣電，6271，Theil）一一○年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取54,636字元）。年報中「**CIS**」出現1次、「車用」10次、「客戶」多次，**支持其車用影像感測相關業務**。**關鍵發現**：全份年報中「**ON Semi**」「**安森美**」「**OmniVision**」與「**豪威**」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「**[[ON Semi]]**（安森美）、**[[OmniVision]]**（豪威）等車用 **[[CIS]]**（客戶）」未獲確立：所取得之同欣電一一○年度年報中「**ON Semi**」「**安森美**」「**OmniVision**」與「**豪威**」之出現次數**均為0**，**未具名該等客戶**（「CIS」1次、「車用」10次僅為業務類別）。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2330:material_named_relationship:d4821272fa108886",
+      "normalized_claim_hash": "d4821272fa10888632b4498e682e4cb671180cce583ac6f10c890dd654b2dd9a",
+      "ticker": "2330",
+      "company": "台積電",
+      "path": "Pilot_Reports/Semiconductors/2330_台積電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual-Report-C.pdf",
+          "title": "台灣積體電路製造股份有限公司（台積電，2330，TSMC）官方投資人網域（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次就台積電所嘗試之三個官方投資人端點（2024年報中文版、2023年報中文版、年報列表頁）**均回應 HTTP 403（禁止）**——**伺服器拒絕自動化擷取**，故未取得台積電可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**[[ASML]]**（獨家 [[EUV]] 供應商）、**[[Applied Materials]]**（…）」未獲確立：本批次就台積電所嘗試之三個官方投資人端點**均回應 HTTP 403（禁止）**，**伺服器拒絕自動化擷取**，未取得可檢視之官方文件；故以 UNKNOWN_AFTER_RESEARCH 結案。**建議重試路徑**：改以 MOPS 之台積電年報檔案、或該公司年報之英文版本（若可自其他官方端點取得）重查。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2329:material_named_relationship:19240fe9ac740634",
+      "normalized_claim_hash": "19240fe9ac7406343905c18f01ba11821df8c85877871def60dad693cd4c71a2",
+      "ticker": "2329",
+      "company": "華泰",
+      "path": "Pilot_Reports/Semiconductors/2329_華泰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2. **EMS 代工:** 提供 SMT 表面黏著技術服務，近年成功切入 **[[AI 伺服器]]** 組裝代工，主要客戶為美超微 (Supermicro)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/232920250401M001.pdf",
+          "title": "華泰電子（2329）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之華泰電子端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得華泰電子可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**EMS 代工**：提供 **SMT 表面黏著**技術服務，近年成功切入 [[AI]]（供應鏈）」未獲確立：本批次所嘗試之華泰端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2379:material_named_relationship:f67c58c219d8bd24",
+      "normalized_claim_hash": "f67c58c219d8bd24e1293991335b2e005b1fbc55ff49c13e099f5402ebb487e0",
+      "ticker": "2379",
+      "company": "瑞昱",
+      "path": "Pilot_Reports/Semiconductors/2379_瑞昱.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近期傳出打入 [[NVIDIA]] 供應鏈 (SSD Controller/Switch)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/237920250401M001.pdf",
+          "title": "瑞昱半導體（2379）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之瑞昱半導體端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得瑞昱半導體可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近期傳出打入 **[[NVIDIA]]** 供應鏈（SSD Controller／Switch）」未獲確立：本批次所嘗試之瑞昱端點回應 **HTTP 404**，未取得可檢視之檔案；**另該 claim 之表述為「傳出」，屬市場傳聞性質**，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

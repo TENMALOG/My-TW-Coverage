@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:12:54Z",
+  "generated_at": "2026-10-05T23:14:33Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -253,19 +253,20 @@
     "author-247",
     "author-248",
     "author-249",
-    "author-250"
+    "author-250",
+    "author-251"
   ],
-  "source_batch_count": 250,
-  "total_unknown": 392,
+  "source_batch_count": 251,
+  "total_unknown": 397,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 174,
-    "other_unclassified": 149,
+    "no_official_endpoint_found": 176,
+    "other_unclassified": 151,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 102,
+    "http_404": 104,
     "image_only_or_tiny_text": 18,
-    "http_403": 15,
+    "http_403": 16,
     "connection_failure": 15,
     "garbled_text_layer": 18,
     "client_rendered_only": 7,
@@ -5997,6 +5998,79 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/344420250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6261:material_named_relationship:25564dd7283d8c8e",
+      "ticker": "6261",
+      "company": "久元",
+      "claim": "主要客戶[[晶元光電]]占營收 23.5%。",
+      "batch_id": "author-251",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.ytec.com.tw/cn/investor/shareholder/download/J20/%E8%82%A1%E4%B8%9C%E4%BC%9A%E5%B9%B4%E6%8A%A5.pdf",
+        "https://mopsov.twse.com.tw/nas/STR/626120241226M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6271:material_named_relationship:c6e346619fff33a6",
+      "ticker": "6271",
+      "company": "同欣電",
+      "claim": "[[ON Semi]](安森美)、[[OmniVision]](豪威)等車用[[CIS]]巨頭(間接打入[[Tesla]]供應鏈)及[[SpaceX]][[低軌衛星]]。",
+      "batch_id": "author-251",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6271_110.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2330:material_named_relationship:d4821272fa108886",
+      "ticker": "2330",
+      "company": "台積電",
+      "claim": "[[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].",
+      "batch_id": "author-251",
+      "failure_signature": [
+        "http_403"
+      ],
+      "attempted_sources": [
+        "https://investor.tsmc.com/sites/ir/annual-report/2024/2024-Annual-Report-C.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2329:material_named_relationship:19240fe9ac740634",
+      "ticker": "2329",
+      "company": "華泰",
+      "claim": "2. **EMS 代工:** 提供 SMT 表面黏著技術服務，近年成功切入 **[[AI 伺服器]]** 組裝代工，主要客戶為美超微 (Supermicro)。",
+      "batch_id": "author-251",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/232920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2379:material_named_relationship:f67c58c219d8bd24",
+      "ticker": "2379",
+      "company": "瑞昱",
+      "claim": "近期傳出打入 [[NVIDIA]] 供應鏈 (SSD Controller/Switch)。",
+      "batch_id": "author-251",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/237920250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

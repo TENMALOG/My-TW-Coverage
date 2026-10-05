@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 10:04 UTC
+Updated: 2026-10-15 11:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,290 / 1,399**
-- Remaining author review: **109**
-- Latest batch: **author-250** (6 claims)
+- Author-reviewed: **1,296 / 1,399**
+- Remaining author review: **103**
+- Latest batch: **author-251** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **788**
+- `PARTIALLY_SUPPORTED`: **789**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **392**
+- `UNKNOWN_AFTER_RESEARCH`: **397**
 
 ## Latest claim batch
 
-- `6223:material_named_relationship:8541a795852b8be1` — `PARTIALLY_SUPPORTED`；旺矽簡報「**AI」10 次、「探針卡」9 次、「VPC」6 次、「HPC」5 次、「MEMS」4 次**；**惟「NVIDIA／AMD」皆 0 次**。
-- `3551:material_named_relationship:ef53cf0cab8d93a9` — `UNKNOWN_AFTER_RESEARCH`；世禾簡報「**台積電／聯電／晶圓代工」皆 0 次**（「客戶」13 次皆為泛稱）。
-- ⚠️ `3131:24f7ebe589cc2c13`、`0549fcefd5513e0f` — `UNKNOWN_AFTER_RESEARCH` ×2；弘塑官方端點**回傳 92 bytes 之 JavaScript 錯誤頁**（**非文件回應**）。
-- `3178:2dc7dbada2c57c00`、`3444:1c5cfb21d1b7d9aa` — `UNKNOWN_AFTER_RESEARCH` ×2；公準與利機端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-250.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,290 ＝ 條目總數 1,290。**覆蓋率 92.21%**。
-- Next pending claim by priority: `6261:material_named_relationship:25564dd7283d8c8e` (久元).
+- `6953:identity_changing_event:c73ead2e44eb21b3` — `PARTIALLY_SUPPORTED`；家碩年報封面**逐字載**「**家碩科技股份有限公司(原名：家登自動化股份有限公司)**」（**原名 3 次、上櫃 26 次**）；**惟「更名」字樣 0 次，且年份與事件之對應未見明文**。
+- `6261:material_named_relationship:25564dd7283d8c8e` — `UNKNOWN_AFTER_RESEARCH`；久元年報「**23.5」14 次、「客戶」108 次**；**惟「晶元／億光」皆 0 次**。
+- `6271:material_named_relationship:c6e346619fff33a6` — `UNKNOWN_AFTER_RESEARCH`；同欣電年報「**ON Semi／安森美／OmniVision／豪威」皆 0 次**。
+- ⚠️ `2330:material_named_relationship:d4821272fa108886` — `UNKNOWN_AFTER_RESEARCH`；台積電官方投資人端點**三個皆回 HTTP 403**（伺服器拒絕自動化擷取）。
+- `2329:19240fe9ac740634`、`2379:f67c58c219d8bd24` — `UNKNOWN_AFTER_RESEARCH` ×2；華泰與瑞昱端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-251.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,296 ＝ 條目總數 1,296。**覆蓋率 92.64%**。
+- Next pending claim by priority: `3073:identity_changing_event:b67945c5e1f8cd60` (天方能源).
 
 ## Source access
 
