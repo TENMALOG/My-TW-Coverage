@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-100",
+  "reviewed_at": "2026-10-05T19:53:55Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泰銘2012年法人說明會簡報; 達邦蛋白114年度年報; 福貞-KY 2026年法人說明會簡報); 萬達寵物端點HTTP 404、永裕端點連線失敗，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "9927:objective_ranking_or_market_share:d1bcdef3b01aa98b",
+      "normalized_claim_hash": "d1bcdef3b01aa98b1dbfff4c515bba5aacb61368f81fd2d5e5fa7317202041f1",
+      "ticker": "9927",
+      "company": "泰銘",
+      "path": "Pilot_Reports/Other Industrial Metals & Mining/9927_泰銘.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣唯一具廢鉛蓄電池回收處理許可。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/992720121127E001.pdf",
+          "title": "泰銘實業股份有限公司（泰銘，9927，Thye Ming Industrial）法人說明會簡報（2012-11-27）",
+          "source_level": 3,
+          "period_binding": "2012年11月；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,683與2,338字元之兩個版本）。簡報「公司簡介－重要記事」頁載「**1994年 成立甲級廢棄物清除機構**」「**1994年 成立甲級廢棄物處理機構**」「1996年 櫃買中心上櫃發行」「1999年 臺灣證券交易所上市發行」「1999年 取得倫敦金屬交易所(LME)掛牌許可」「2009年 泰銘(越南)公司取得**回收清運處理執照**」，另載「台灣 1983年設立」「年銷售量120,000公噸」「越南 2006年設立」（「回收」2次、「許可」1次）。全份簡報中「**廢鉛**」「**蓄電池**」「**唯一**」「**廣隆**」「**湯淺**」與「**85%**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「具廢棄物回收處理許可」獲發行人簡報支持：簡報「重要記事」頁載「**1994年 成立甲級廢棄物清除機構**」「**1994年 成立甲級廢棄物處理機構**」與「2009年 泰銘(越南)公司取得**回收清運處理執照**」（「回收」2次、「許可」1次），支持其具廢棄物清除處理資格。惟「為**台灣唯一**具**廢鉛蓄電池**回收處理許可」未獲支持：全份簡報中「**唯一**」「**廢鉛**」與「**蓄電池**」之出現次數均為0，該唯一性與標的物別未獲確立。故部分成立（並註記版本為2012年）。",
+      "proposed_text": "泰銘實業 (9927，Thye Ming Industrial) 具甲級廢棄物清除與處理機構資格。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9927:objective_ranking_or_market_share:83c2cace1a7adb89",
+      "normalized_claim_hash": "83c2cace1a7adb89eccea882b911fbe0d773fbb8bca551e780a40e0410273fbc",
+      "ticker": "9927",
+      "company": "泰銘",
+      "path": "Pilot_Reports/Other Industrial Metals & Mining/9927_泰銘.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[廣隆光電]]、[[統一工業]]、[[臺灣湯淺電池]] (國內市佔85%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/992720121127E001.pdf",
+          "title": "泰銘實業股份有限公司（泰銘，9927，Thye Ming Industrial）法人說明會簡報（2012-11-27）",
+          "source_level": 3,
+          "period_binding": "2012年11月；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取3,683與2,338字元之兩個版本）。簡報「公司簡介－重要記事」頁載「**1994年 成立甲級廢棄物清除機構**」「**1994年 成立甲級廢棄物處理機構**」「1996年 櫃買中心上櫃發行」「1999年 臺灣證券交易所上市發行」「1999年 取得倫敦金屬交易所(LME)掛牌許可」「2009年 泰銘(越南)公司取得**回收清運處理執照**」，另載「台灣 1983年設立」「年銷售量120,000公噸」「越南 2006年設立」（「回收」2次、「許可」1次）。全份簡報中「**廢鉛**」「**蓄電池**」「**唯一**」「**廣隆**」「**湯淺**」與「**85%**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「廣隆光電、統一工業、臺灣湯淺電池（國內市佔85%）」未獲確立：查閱之泰銘官方簡報中「**廣隆**」「**湯淺**」「**統一工業**」與「**85%**」之出現次數**均為0**，未具名該等客戶或載其市占率。因該 claim 之實質內容為具名客戶身分及市占，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6578:objective_ranking_or_market_share:09e7de3479451061",
+      "normalized_claim_hash": "09e7de34794510613fb0408de1e8dd083d09a2502870dccbaecee43efa4f7f08",
+      "ticker": "6578",
+      "company": "達邦蛋白",
+      "path": "Pilot_Reports/Packaged Foods/6578_達邦蛋白.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "達邦蛋白生技 (6578，DaBomb Protein) 成立於 2001 年，為亞洲規模最大的水解黃豆胜肽蛋白製造商，亦是亞洲首家取得 [[HACCP]] 認證的發酵黃豆蛋白工廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.dabombprotein.com/upload-files/investors/shareholder/shareholders-meeting-information/2025/2025-annual-report.pdf",
+          "title": "達邦蛋白生技股份有限公司（達邦蛋白，6578，DaBomb Protein）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**水解**」出現63次、「**黃豆**」70次、「**胜肽**」66次、「HACCP」4次、「亞洲」11次，並載「（發酵技術）通過歐盟最高標準 **HACCP、ISO22000 及 FAMI-QS 三重認證**」與「陸續於2006年及2009年，取得**HACCP**及ISO22000的食品安全認證」，支持其水解黃豆胜肽蛋白業務及 HACCP 認證。全份年報中「**亞洲規模最大**」「**亞洲最大**」與「**首家**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為水解黃豆胜肽蛋白製造商，並取得 HACCP 認證」獲發行人年報支持：114年度年報中「**水解**」出現63次、「**黃豆**」70次、「**胜肽**」66次、「HACCP」4次，並載「（發酵技術）通過歐盟最高標準 **HACCP、ISO22000 及 FAMI-QS 三重認證**」與「陸續於2006年及2009年，取得**HACCP**及ISO22000的食品安全認證」，支持其產品與認證。惟兩項陳述未獲支持：(1)「為**亞洲規模最大**的水解黃豆胜肽蛋白製造商」——「亞洲規模最大」與「亞洲最大」出現次數均為0；(2)「亦是**亞洲首家**取得 HACCP 認證的發酵黃豆蛋白工廠」——「**首家**」出現次數為0（年報僅載其取得認證之年度）。故部分成立。",
+      "proposed_text": "達邦蛋白生技 (6578，DaBomb Protein) 從事水解黃豆胜肽蛋白之生產，並取得 HACCP、ISO22000 及 FAMI-QS 認證。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6968:objective_ranking_or_market_share:e2da6fd04d9bf077",
+      "normalized_claim_hash": "e2da6fd04d9bf0778506c5054b3a4b85daddb305627ac772c2ac569dda7eb247",
+      "ticker": "6968",
+      "company": "萬達寵物",
+      "path": "Pilot_Reports/Packaged Foods/6968_萬達寵物.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "萬達寵物事業 (6968，Wonder Pets) 成立於 1999 年，2024 年於櫃買中心掛牌，為台灣寵物產業第一家上市櫃公司。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/696820240716M001.pdf",
+          "title": "萬達寵物事業股份有限公司（萬達寵物，6968，Wonder Pets）法人說明會簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自公開資訊觀測站端點下載萬達寵物法人說明會簡報時回應 **HTTP 404**，未取得可檢視之檔案；本批次未取得萬達寵物可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「萬達寵物成立於1999年，2024年於櫃買中心掛牌，為台灣寵物產業第一家上市櫃公司」未獲確立：本批次自公開資訊觀測站端點下載簡報時回應 **HTTP 404**，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6968:objective_ranking_or_market_share:7e52a1cf3bc0a020",
+      "normalized_claim_hash": "7e52a1cf3bc0a0203f13939916e4142764693e706da1faf948e10fdfcc499dea",
+      "ticker": "6968",
+      "company": "萬達寵物",
+      "path": "Pilot_Reports/Packaged Foods/6968_萬達寵物.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旗下品牌包括「寵物公園」、「凱朵寵物」、「貓狗隊長」及全台最大寵物垂直電商「[[毛孩市集]]」。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/696820240716M001.pdf",
+          "title": "萬達寵物事業股份有限公司（萬達寵物，6968，Wonder Pets）法人說明會簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自公開資訊觀測站端點下載萬達寵物法人說明會簡報時回應 **HTTP 404**，未取得可檢視之檔案；本批次未取得萬達寵物可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「旗下品牌包括『寵物公園』、『凱朵寵物』、『貓狗隊長』及全台最大寵物垂直電商『毛孩市集』」）。所取得之端點回應 HTTP 404，未取得可檢視之官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1323:objective_ranking_or_market_share:61b971a876a3995b",
+      "normalized_claim_hash": "61b971a876a3995b7a613ea2c10a62e6c003dd2a7ebad6a0c5342d7c8b88872f",
+      "ticker": "1323",
+      "company": "永裕",
+      "path": "Pilot_Reports/Packaging & Containers/1323_永裕.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "永裕為台灣最大之化妝品與清潔用品容器製造商，專精於塑膠瓶、軟管及各式包材之研發與生產。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.yonyu.com.tw/fckimages/file/pdf/CSR.pdf",
+          "title": "永裕塑膠工業股份有限公司（永裕，1323）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載文件端點時**無法連接至遠端伺服器**（連線失敗），未取得可檢視之檔案；本批次未取得永裕可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「永裕為台灣最大之化妝品與清潔用品容器製造商，專精於塑膠瓶、軟管及各式包材之研發與生產」未獲確立：本批次自發行人官方網域下載文件端點時**無法連接至遠端伺服器**（連線失敗），未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8411:objective_ranking_or_market_share:3998dade30256c2c",
+      "normalized_claim_hash": "3998dade30256c2ce9571354fd97196907d51ba1c3396906e0c95e348407cd8b",
+      "ticker": "8411",
+      "company": "福貞-KY",
+      "path": "Pilot_Reports/Packaging & Containers/8411_福貞-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為中國大陸第三大[[馬口鐵]]包裝容器廠，其中馬口鐵三片罐市佔率約 15%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/841120260821M001.pdf",
+          "title": "福貞控股股份有限公司（福貞-KY，8411）法人說明會簡報（2026-08-21）",
+          "source_level": 3,
+          "period_binding": "2026年8月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報，惟該檔案之文字擷取**僅1,542字元**，實質內容有限；其中「**馬口鐵**」出現2次、「**三片罐**」1次、「中國」2次，支持其從事馬口鐵包裝容器及三片罐業務。全份簡報中「**第三大**」「**15%**」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為馬口鐵包裝容器廠」獲發行人簡報支持：2026年8月官方簡報中「**馬口鐵**」出現2次、「**三片罐**」1次、「中國」2次，支持其馬口鐵包裝容器及三片罐業務。惟兩項陳述未獲支持：(1)「為中國大陸**第三大**馬口鐵包裝容器廠」——「第三大」出現次數為0；(2)「馬口鐵三片罐**市佔率約 15%**」——「15%」與「市佔」出現次數均為0。故部分成立（並註記該簡報文字擷取僅1,542字元）。",
+      "proposed_text": "福貞控股 (8411) 從事馬口鐵包裝容器及三片罐之生產。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

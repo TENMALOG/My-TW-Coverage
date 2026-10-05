@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 03:04 UTC
+Updated: 2026-10-09 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **591 / 1,399**
-- Remaining author review: **808**
-- Latest batch: **author-099** (8 claims)
+- Author-reviewed: **598 / 1,399**
+- Remaining author review: **801**
+- Latest batch: **author-100** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **76**
-- `PARTIALLY_SUPPORTED`: **381**
+- `PARTIALLY_SUPPORTED`: **384**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **130**
+- `UNKNOWN_AFTER_RESEARCH`: **134**
 
 ## Latest claim batch
 
-- `6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab` — `PARTIALLY_SUPPORTED`；台塑化112年報載「為**國內唯一之民營石油煉製業者**」，並見六輕13次、麥寮20次；惟「1992」0次（年報以民國年表述）。
-- `6505:objective_ranking_or_market_share:e384f6967f7009fd`、`e2932b76fb13de47` — `PARTIALLY_SUPPORTED` ×2；油品與石化事業敘述成立；惟「62%」「54萬」「600座」「24%」「313萬」「最大石化」皆0次，「69%」3次含「15.69%」財務比率而未以市占率表述。
-- `7610:objective_ranking_or_market_share:66f0a1d3b55f8053` — `PARTIALLY_SUPPORTED`；聯友114年報載「為**國內唯一**以二次硬質合金物料…**再製生產鎢酸（鈉）**」與「台灣首家也是唯一」；惟「全球最大」0次（**範圍由國內放大為全球**），且「2,500」1次係產業**每年消耗量**（2,000-2,500噸）而非出口量。
-- `7610:objective_ranking_or_market_share:8dc2d0884b44a2f2`、`f09b19c3cba50f22`、`0e82075cdeab2da0` — `UNKNOWN_AFTER_RESEARCH` ×3；年報「台積電」「Apple」「Tesla」「Alconix」「合格供應」皆0次。
-- `9927:objective_ranking_or_market_share:55726d612dd2b764` — `PARTIALLY_SUPPORTED`；泰銘簡報「鉛合金」1次；惟「亞洲最大」「85%」「市佔」「提煉」皆0次（簡報僅2,338字元、2012年版）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-099.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `9927:objective_ranking_or_market_share:d1bcdef3b01aa98b` (泰銘).
+- `9927:objective_ranking_or_market_share:d1bcdef3b01aa98b` — `PARTIALLY_SUPPORTED`；泰銘簡報載「1994年 成立**甲級廢棄物清除機構**」「甲級廢棄物處理機構」「2009年 泰銘(越南)公司取得**回收清運處理執照**」；惟「唯一」「廢鉛」「蓄電池」皆0次。
+- `9927:objective_ranking_or_market_share:83c2cace1a7adb89` — `UNKNOWN_AFTER_RESEARCH`；簡報「廣隆」「湯淺」「統一工業」「85%」皆0次。
+- `6578:objective_ranking_or_market_share:09e7de3479451061` — `PARTIALLY_SUPPORTED`；達邦年報「水解」63次、「黃豆」70次、「胜肽」66次、「HACCP」4次並載三重認證；惟「亞洲規模最大」「首家」皆0次。
+- `6968:objective_ranking_or_market_share:e2da6fd04d9bf077`、`7e52a1cf3bc0a020` — `UNKNOWN_AFTER_RESEARCH` ×2；萬達寵物簡報端點回應 **HTTP 404**。
+- `1323:objective_ranking_or_market_share:61b971a876a3995b` — `UNKNOWN_AFTER_RESEARCH`；永裕官方端點**連線失敗**。
+- `8411:objective_ranking_or_market_share:3998dade30256c2c` — `PARTIALLY_SUPPORTED`；福貞簡報「馬口鐵」2次、「三片罐」1次；惟「第三大」「15%」「市佔」皆0次（簡報僅1,542字元）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-100.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `9905:objective_ranking_or_market_share:9dd75a043dafb144` (大華).
 
 ## Source access
 
