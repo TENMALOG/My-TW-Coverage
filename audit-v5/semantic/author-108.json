@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-108",
+  "reviewed_at": "2026-10-05T20:06:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中美晶110年度年報; 頎邦110年度年報; 久元112年度年報; 瑞耘113年度年報; 晶心科114年股東常會議事手冊)",
+  "items": [
+    {
+      "claim_id": "5483:objective_ranking_or_market_share:330863256f88c588",
+      "normalized_claim_hash": "330863256f88c5881006c8d7139d63e8f36fe62e148ad68c37d2bf853ffac2c6",
+      "ticker": "5483",
+      "company": "中美晶",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/5483_中美晶.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**中美晶** (3-12 吋矽晶棒/晶圓，台灣最大)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.saswafer.com/wp-content/uploads/2022/05/110%e5%b9%b4%e4%b8%ad%e7%be%8e%e7%9f%bd%e6%99%b6%e8%a3%bd%e5%93%81%e5%b9%b4%e5%a0%b1%e4%b8%8a%e5%82%b3%e9%9b%bb%e5%ad%90%e6%aa%94.pdf",
+          "title": "中美矽晶製品股份有限公司（中美晶，5483）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "同批已檢視之110年度年報：「**矽晶圓**」53次，「3吋」「12吋」「台灣最大」均為0次；「**最大**」7次之上下文為「解決最大的土地限制因素」「追求組織最大利益」「為其單一最大股東」「代表最大信用暴險金額」等泛用語。"
+        }
+      ],
+      "rationale": "「從事矽晶棒／矽晶圓業務」獲發行人年報支持：110年度年報中「**矽晶圓**」出現53次，支持其矽晶圓業務。惟兩項陳述未獲支持：(1)「**3-12 吋**」——「3吋」與「12吋」出現次數均為0；(2)「（**台灣最大**）」——「台灣最大」為0，且「最大」7次之上下文為「解決最大的土地限制因素」「追求組織最大利益」「為其單一最大股東」「代表最大信用暴險金額」等泛用語。故部分成立。",
+      "proposed_text": "中美矽晶製品 (5483) 從事矽晶棒及矽晶圓業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6147:objective_ranking_or_market_share:b5110c677f121bef",
+      "normalized_claim_hash": "b5110c677f121bef55be7c303c97a582609e84a022c5403a366e0ffedb1c29b2",
+      "ticker": "6147",
+      "company": "頎邦",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6147_頎邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "頎邦科技 (6147) 是全球最大的[[驅動 IC]] 封裝廠，全球市占率約 50%，專精於[[覆晶薄膜]] (COF)、[[玻璃覆晶]] (COG) 封裝及凸塊 (Bumping) 製造。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6147_110.pdf",
+          "title": "頎邦科技股份有限公司（頎邦，6147，Chipbond Technology）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報中「**驅動IC**」出現8次、「**凸塊**」13次、「**COF**」5次、「**COG**」5次，支持其驅動 IC 封裝及覆晶薄膜／玻璃覆晶與凸塊業務。全份年報中「**全球最大**」與「**南茂**」之出現次數均為0；「**50%**」9次之上下文為「削減50%（逐年減少10%）」「50% 提升至75%」與財務比率「25.50%」等，**非市占率**。"
+        }
+      ],
+      "rationale": "「專精於覆晶薄膜（COF）、玻璃覆晶（COG）封裝及凸塊（Bumping）製造」獲發行人年報支持：110年度年報中「**COF**」5次、「**COG**」5次、「**凸塊**」13次、「**驅動IC**」8次，支持其驅動 IC 封裝及 COF／COG／凸塊業務。惟兩項市場地位陳述未獲支持：(1)「是**全球最大**的驅動 IC 封裝廠」——「全球最大」出現次數為0；(2)「全球市占率約 **50%**」——「50%」9次之上下文為「削減50%（逐年減少10%）」「50% 提升至75%」與財務比率「25.50%」等，**非市占率**（數字脫離語意）。故部分成立。",
+      "proposed_text": "頎邦科技 (6147，Chipbond Technology) 從事驅動 IC 封裝及覆晶薄膜（COF）、玻璃覆晶（COG）與凸塊製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6147:objective_ranking_or_market_share:55e95765fe157fbc",
+      "normalized_claim_hash": "55e95765fe157fbc1ea1ef7dc91b55a384919e1c348d38e8f914f04e06743106",
+      "ticker": "6147",
+      "company": "頎邦",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6147_頎邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**頎邦** (COF/COG 封裝及凸塊製造，全球市占約 50%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6147_110.pdf",
+          "title": "頎邦科技股份有限公司（頎邦，6147，Chipbond Technology）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報中「**驅動IC**」出現8次、「**凸塊**」13次、「**COF**」5次、「**COG**」5次，支持其驅動 IC 封裝及覆晶薄膜／玻璃覆晶與凸塊業務。全份年報中「**全球最大**」與「**南茂**」之出現次數均為0；「**50%**」9次之上下文為「削減50%（逐年減少10%）」「50% 提升至75%」與財務比率「25.50%」等，**非市占率**。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「頎邦（COF/COG 封裝及凸塊製造，全球市占約 50%）」）。年報支持其 COF／COG 封裝及凸塊業務（「凸塊」13次、「COF」5次、「COG」5次）；惟「**全球市占約 50%**」未獲支持（「全球最大」0次；「50%」之上下文均為減量目標與財務比率）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6147:objective_ranking_or_market_share:6bdc058d1011e062",
+      "normalized_claim_hash": "6bdc058d1011e06261304d84e7396e977ee970bf59ff142edcae3c3fbf2c8366",
+      "ticker": "6147",
+      "company": "頎邦",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6147_頎邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[南茂]] (台灣)、[[頎邦]] 為全球最大",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6147_110.pdf",
+          "title": "頎邦科技股份有限公司（頎邦，6147，Chipbond Technology）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報中「**驅動IC**」出現8次、「**凸塊**」13次、「**COF**」5次、「**COG**」5次，支持其驅動 IC 封裝及覆晶薄膜／玻璃覆晶與凸塊業務。全份年報中「**全球最大**」與「**南茂**」之出現次數均為0；「**50%**」9次之上下文為「削減50%（逐年減少10%）」「50% 提升至75%」與財務比率「25.50%」等，**非市占率**。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「[[南茂]]（台灣）、[[頎邦]] 為全球最大」）。年報支持頎邦之驅動 IC 封裝業務；惟「**南茂**」出現次數為0（未列為同業或比較對象），「為**全球最大**」亦未獲支持（「全球最大」0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6261:objective_ranking_or_market_share:37228631f06f5ce4",
+      "normalized_claim_hash": "37228631f06f5ce4769e5bc3a111cb3a360031ef300b6b30909741235bd4beb6",
+      "ticker": "6261",
+      "company": "久元",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6261_久元.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[晶元光電]] (最大客戶，占營收 23.5%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ytec.com.tw/cn/investor/shareholder/download/J20/%E8%82%A1%E4%B8%9C%E4%BC%9A%E5%B9%B4%E6%8A%A5.pdf",
+          "title": "久元電子股份有限公司（久元，6261，YoungTek Electronics）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「客戶」出現108次、「光電」36次、「營收」19次，惟「**晶元**」出現次數為**0**，「**最大客戶**」與「**占營收**」亦均為0；「**23.5**」14次之上下文未見對應「客戶占營收23.5%」之敘述（含頁碼等）。故該具名客戶及其營收占比未獲確立。"
+        }
+      ],
+      "rationale": "「[[晶元光電]]（最大客戶，占營收 23.5%）」未獲確立：久元112年度年報中「**晶元**」出現次數為**0**（「客戶」108次、「光電」36次均為通稱或其他公司），「**最大客戶**」與「**占營收**」亦均為0；「23.5」14次之上下文未見對應「客戶占營收23.5%」之敘述。因該 claim 之實質內容為具名客戶及其營收占比，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6532:objective_ranking_or_market_share:9f3fc56944fd9568",
+      "normalized_claim_hash": "9f3fc56944fd95681596b5b3f483faeb0d32f891ff3875db094bdb60323390e1",
+      "ticker": "6532",
+      "company": "瑞耘",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6532_瑞耘.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "瑞耘以此獨特技術不僅提供晶圓廠耗材，更成功打入全球最大[[半導體]]設備龍頭應用材料([[Applied Materials]])的原廠供應鏈([[OEM]])長達十數年，並積極擴展自製的濕式製程設備(如晶圓旋乾機SRD)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.calitech.com.tw/upload/%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E6%96%99/2025/%E8%82%A11.01_2024%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "瑞耘科技股份有限公司（瑞耘，6532，Calitech）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「瑞耘科技以 **OEM** 為主要的經營模式，因瑞耘科技跟客戶已建立起長期的信（任）」「本公司銷貨客戶集中在半導體產業，透過 **OEM** 合作模式直接接單或代理商（…）」（「OEM」4次），並見「**晶圓旋乾**」3次與「SRD」2次，支持其 OEM 經營模式及濕式製程設備（含晶圓旋乾機）。全份年報中「**應用材料**」「**Applied Materials**」「**台積電**」「**日月光**」「**最大客戶**」與「**六成**」之出現次數均為0。「Applied」2次之上下文之一為「Applied Physics A 學術期刊」，非客戶名稱。"
+        }
+      ],
+      "rationale": "「以 OEM 模式供應半導體設備原廠，並擴展自製濕式製程設備（如晶圓旋乾機 SRD）」獲發行人年報支持：113年度年報載「瑞耘科技以 **OEM** 為主要的經營模式…」「本公司銷貨客戶集中在半導體產業，透過 **OEM** 合作模式直接接單或代理商（…）」（「OEM」4次），並見「**晶圓旋乾**」3次與「SRD」2次，支持其 OEM 經營模式及濕式製程設備。惟兩項具名陳述未獲支持：(1)「打入全球最大半導體設備龍頭**應用材料（Applied Materials）**的原廠供應鏈」——「**應用材料**」與「**Applied Materials**」出現次數均為0（「Applied」2次之一為「Applied Physics A 學術期刊」）；(2)「長達**十數年**」——未見對應期間敘述。故部分成立。",
+      "proposed_text": "瑞耘科技 (6532，Calitech) 以 OEM 模式供應半導體設備零組件，並生產晶圓旋乾機等濕式製程設備。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6532:objective_ranking_or_market_share:7e0ba7530f386152",
+      "normalized_claim_hash": "7e0ba7530f386152c1457cdef2dadf436c84052c6ccd9dc6b60f0826225a4312",
+      "ticker": "6532",
+      "company": "瑞耘",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6532_瑞耘.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "美商應用材料([[Applied Materials]]，為瑞耘最大客戶佔營收六成)，以及[[台積電]]、[[日月光投控]]等本土晶圓/封測大廠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.calitech.com.tw/upload/%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E6%96%99/2025/%E8%82%A11.01_2024%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "瑞耘科技股份有限公司（瑞耘，6532，Calitech）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「瑞耘科技以 **OEM** 為主要的經營模式，因瑞耘科技跟客戶已建立起長期的信（任）」「本公司銷貨客戶集中在半導體產業，透過 **OEM** 合作模式直接接單或代理商（…）」（「OEM」4次），並見「**晶圓旋乾**」3次與「SRD」2次，支持其 OEM 經營模式及濕式製程設備（含晶圓旋乾機）。全份年報中「**應用材料**」「**Applied Materials**」「**台積電**」「**日月光**」「**最大客戶**」與「**六成**」之出現次數均為0。「Applied」2次之上下文之一為「Applied Physics A 學術期刊」，非客戶名稱。"
+        }
+      ],
+      "rationale": "「美商應用材料（Applied Materials，為瑞耘**最大客戶佔營收六成**），以及[[台積電]]、[[日月光投控]]等本土晶圓／封測大廠」未獲確立：瑞耘113年度年報中「**應用材料**」「**Applied Materials**」「**台積電**」「**日月光**」與「**最大客戶**」「**六成**」之出現次數**均為0**，未具名該等客戶或載其營收占比。因該 claim 之實質內容為具名客戶及客戶集中度，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6533:objective_ranking_or_market_share:de4c47986928bfbe",
+      "normalized_claim_hash": "de4c47986928bfbe67439c429ab3bedd63c324193f3e497c5882b6a5614dde24",
+      "ticker": "6533",
+      "company": "晶心科",
+      "path": "Pilot_Reports/Semiconductor Equipment & Materials/6533_晶心科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Meta]](臉書第一代/第二代[[AI]]晶片MTIA主力IP供應商)、[[聯發科]]、[[聯詠]]、瑞薩([[Renesas]])及Axelera [[AI]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.andestech.com/wp-content/uploads/20250328-114%e5%b9%b4%e6%99%b6%e5%bf%83%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8aV1.0-%e4%b8%8a%e5%82%b3.pdf",
+          "title": "晶心科技股份有限公司（晶心科，6533，Andes Technology）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2026年）股東常會。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取30,625字元）。該文件為**股東常會議事手冊**（開會程序、議程、議案等），資訊揭露型態與年報不同；以關鍵字檢索「**Meta**」「MTIA」「**聯發科**」「**聯詠**」與「Renesas」之出現次數**均為0**，未載客戶或授權對象之敘述。"
+        }
+      ],
+      "rationale": "「[[Meta]]（臉書第一代／第二代 AI 晶片 MTIA 主力 IP 供應商）、[[聯發科]]、[[聯詠]]、瑞薩（[[Renesas]]）及 Axelera AI」未獲確立：本批次自晶心科官方網域取得之文件為**114年股東常會議事手冊**（開會程序、議程、議案等），資訊揭露型態與年報不同；以關鍵字檢索「**Meta**」「MTIA」「**聯發科**」「**聯詠**」與「Renesas」之出現次數**均為0**，未載客戶或授權對象之敘述。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
