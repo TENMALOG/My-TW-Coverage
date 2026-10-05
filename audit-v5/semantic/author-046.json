@@ -1,0 +1,142 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-046",
+  "reviewed_at": "2026-10-05T17:41:33Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (凌華108年度年報; 廣明官方股東資料與MOPS簡報; 飛捷2025年法人說明會簡報; 全譜113年度年報與2025年法人說明會簡報; 宏正93年度年報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6166:objective_ranking_or_market_share:b3a2e1a025feff65",
+      "normalized_claim_hash": "b3a2e1a025feff65727031de78aa3b2e071edd627e2a8935a24d16892f40b046",
+      "ticker": "6166",
+      "company": "凌華",
+      "path": "Pilot_Reports/Computer Hardware/6166_凌華.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "凌華在全球模組化電腦(如COM Express)擁有領先地位，並積極結盟[[NVIDIA]]、[[Intel]]、[[友達]](最大單一股東)及[[鴻海]](合資法博智能)，深化在自駕車、[[機器人]]作業系統(ROS 2)、[[5G]]及[[物聯網]]的佈局。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.adlinktech.com/download.ashx?file=108%e5%87%8c%e8%8f%af%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1-20200727.pdf",
+          "title": "凌華科技股份有限公司（凌華，6166）108 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國108年度（2020年7月刊印）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其產品與技術含「COM Express, SMARC, Qseven」等模組化電腦規格，文中「ROS」出現5次。全份年報中「友達」「鴻海」「法博」之出現次數均為0，未載友達為最大單一股東或與鴻海合資成立法博智能之敘述（該年報基準為108年度，早於相關股權與合資事件）。"
+        }
+      ],
+      "rationale": "「在全球模組化電腦（如 COM Express）擁有領先地位」與機器人作業系統佈局獲發行人年報支持：年報載其產品與技術規格含「COM Express, SMARC, Qseven」，文中「ROS」出現5次（對應 claim 所述之機器人作業系統 ROS 2 佈局）。惟多項陳述未獲支持：全份年報中「友達」「鴻海」「法博」之出現次數均為0，故「友達為最大單一股東」與「與鴻海合資成立法博智能」均未獲該文件確認；另「NVIDIA」「Intel」「5G」「物聯網」之結盟敘述亦未於查閱段落取得對應。註記：該年報基準為民國108年度（2020年7月刊印），早於友達入股與法博智能合資等事件。故部分成立。",
+      "proposed_text": "凌華科技 (6166，ADLINK) 在模組化電腦（如 COM Express、SMARC、Qseven）領域具領先地位，並投入機器人作業系統（ROS）相關技術。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6188:objective_ranking_or_market_share:22cd3f0905111079",
+      "normalized_claim_hash": "22cd3f0905111079eeaf32d36572a78307dec89f814f82628ac918603fb03704",
+      "ticker": "6188",
+      "company": "廣明",
+      "path": "Pilot_Reports/Computer Hardware/6188_廣明.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶為母公司[[廣達]](2382)，以及全球知名硬碟儲存品牌、[[半導體]]晶圓廠、大型車廠(如[[Toyota]])。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.qsitw.com/page/rs/download/company_shareholder/fi01-2025-2.pdf",
+          "title": "廣明光電股份有限公司（廣明，6188，Quanta Storage Inc.）股東／公司資料（官方網域）",
+          "source_level": 3,
+          "period_binding": "2025年文件。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「廣達電腦股份有限公司代表人：蔡文弘」「代表人：黃健堂」「代表人：楊俊烈」，顯示廣達電腦為其法人董事；「廣達」出現3次。另自公開資訊觀測站下載之 618820260430M001.pdf（2,337字元）載「硬碟」3次。兩份文件中「Toyota」「豐田」「客戶」「最大」「晶圓」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與母公司廣達之關係」獲發行人官方文件支持：廣明股東／公司資料載「廣達電腦股份有限公司代表人：蔡文弘」「代表人：黃健堂」「代表人：楊俊烈」，顯示廣達電腦為其法人董事（「廣達」出現3次）；其公開資訊觀測站簡報亦載「硬碟」3次，支持其儲存裝置業務。惟「最大客戶為母公司廣達」未獲支持：查閱文件中「客戶」「最大」出現次數均為0，未載客戶名單或客戶排名；「全球知名硬碟儲存品牌、半導體晶圓廠、大型車廠（如 Toyota）」亦均未載（「Toyota」「豐田」「晶圓」皆為0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6206:objective_ranking_or_market_share:11dce486dbff428d",
+      "normalized_claim_hash": "11dce486dbff428d70518176937eb26d1409c0bd2ee70e45c588cd1612d79993",
+      "ticker": "6206",
+      "company": "飛捷",
+      "path": "Pilot_Reports/Computer Hardware/6206_飛捷.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "飛捷的產品在智能終端市場擁有高市佔率，廣泛應用於全球大型連鎖速食餐飲(整合[[AI]]影像辨識)、零售量販超商、醫療護理(如醫療推車)及工廠[[自動化]]控制等場域。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/620620251111M001.pdf",
+          "title": "飛捷科技股份有限公司（飛捷，6206）法人說明會簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第5頁載「自1984年成立以來，飛捷科技持續在零售、餐飲、醫療與工業自動化領域提供硬體創新設計與先進製造技術，其中更專注於POS 端點銷售系統、自助服務系統與嵌入式電腦系統之產品開發，為全球客戶提供更多元化的（解決方案）」；第6頁載「AI 餐飲解決方案」「AI 零售解決方案」。簡報篇幅精簡（擷取2,333字元），全份未出現「市佔」「市占」或市占率數字。"
+        }
+      ],
+      "rationale": "「產品應用於零售、餐飲、醫療與工廠自動化等場域」獲發行人官方簡報支持：第5頁載「飛捷科技持續在零售、餐飲、醫療與工業自動化領域提供硬體創新設計與先進製造技術，其中更專注於POS 端點銷售系統、自助服務系統與嵌入式電腦系統之產品開發」，第6頁並載「AI 餐飲解決方案」與「AI 零售解決方案」。惟兩項陳述未獲支持：(1)「在智能終端市場擁有高市佔率」——全份簡報未出現「市佔」「市占」或任何市占率數字；(2)「全球大型連鎖速食餐飲（整合AI影像辨識）」與「醫療推車」——簡報僅載領域與 AI 解決方案名稱，未載具名客戶、影像辨識技術或醫療推車產品。故部分成立。",
+      "proposed_text": "飛捷科技 (6206) 自 1984 年成立，專注 POS 端點銷售系統、自助服務系統與嵌入式電腦系統，產品應用於零售、餐飲、醫療與工業自動化領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6228:objective_ranking_or_market_share:5c4944216c7b1727",
+      "normalized_claim_hash": "5c4944216c7b17272ffeec67f5765585626fdbc1912b7cb6d9d5090e3468529a",
+      "ticker": "6228",
+      "company": "全譜",
+      "path": "Pilot_Reports/Computer Hardware/6228_全譜.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球極少數能同時提供消費型與專業底片型掃描器的製造商，曾長期為 [[Kodak]] (柯達)、[[Olympus]] 等國際大廠代工，全球底片掃描器市佔率一度達 30%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.scanace.com/archive/IR/Corporate%20Governance/%e8%82%a1%e6%9d%b1%e6%9c%83/%e5%b9%b4%e5%a0%b1/113%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "全譜科技股份有限公司（全譜，6228）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第8、51及55頁載「底片型掃瞄器」為其產品線之一，第51頁並載「底片掃瞄器為高度成熟產品，在硬體功能需求面上變化不大，重點會在軟體（與技術）」。第60頁「市場占有率」段落之「市佔率」表為「螢光與化學光成像系統」市場（Bio-Rad ~36%、ThermoFisher ~20%、GE Healthcare ~20%、Analytik Jena ~10%、ATTO ~5%、Syngene ~5%、Azure Biosystems ~3%），其中列「Pacific Image Electronics(全譜)」之推估市佔率為 **<1%**；同頁「底片掃瞄器市場需求及成長預估」僅述需求趨勢，未載市占率。全份年報中「Kodak」「柯達」「Olympus」之出現次數均為0，未載曾為該等廠商代工；「30%」4處分別為股利政策、實收資本額與房貸成數等敘述，與掃描器市占無關。"
+        },
+        {
+          "url": "https://www.scanace.com/archive/IR/Shareholder%20Service/%e6%b3%95%e4%ba%ba%e8%b3%87%e6%96%99%e8%aa%aa%e6%98%8e%e6%9c%83/1140916/6228%e5%85%a8%e8%ad%9c%e6%b3%95%e8%aa%aa%e6%9c%83%e7%b0%a1%e5%a0%b1C4-%e4%b8%ad%e6%96%870911-final.pdf",
+          "title": "全譜科技（6228）法人說明會簡報（114-09-16）",
+          "source_level": 3,
+          "period_binding": "2025年9月。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第4、5、8、9、12及18頁載「底片掃描器」產品線，第12頁載「業界最完全的底片對應方案」，第5頁載「找到掃描器藍海」。全份簡報未出現「Kodak」「柯達」「Olympus」「市佔率」「全球最大」等字樣。"
+        }
+      ],
+      "rationale": "「提供底片型掃描器」獲發行人年報與簡報支持：113年度年報第8、51及55頁載「底片型掃瞄器」為其產品線，第51頁載「底片掃瞄器為高度成熟產品…重點會在軟體（與技術）」；法人說明會簡報第4、5、8、9、12及18頁載底片掃描器產品，第12頁載「業界最完全的底片對應方案」。惟多項陳述未獲支持：(1)「曾長期為 Kodak、Olympus 等國際大廠代工」——兩份文件中「Kodak」「柯達」「Olympus」出現次數均為0；(2)「全球底片掃描器市佔率一度達 30%」——年報第60頁之市佔率表係針對「螢光與化學光成像系統」市場，其中列全譜（Pacific Image Electronics）之推估市佔率為 **<1%**，而同頁「底片掃瞄器市場需求及成長預估」僅述需求趨勢、未載市占率；「30%」4處分別為股利政策、實收資本額與房貸成數等敘述。(3)「全球極少數能同時提供消費型與專業底片型掃描器」——年報未以此自稱。故部分成立。",
+      "proposed_text": "全譜科技 (6228，Pacific Image Electronics) 提供底片型掃描器產品，其法人說明會簡報載其為「業界最完全的底片對應方案」。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6277:objective_ranking_or_market_share:7c8c5bb9d85cb3ea",
+      "normalized_claim_hash": "7c8c5bb9d85cb3eaec1d400cb2b14af3c54537391933f25c9081905a6bb96bdf",
+      "ticker": "6277",
+      "company": "宏正",
+      "path": "Pilot_Reports/Computer Hardware/6277_宏正.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏正自動科技股份有限公司 (6277，ATEN) 是全球最大、台灣領先的KVM(多電腦切換器)設備製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://assets.aten.com/webpage/shared/financial_info/pdf/93_year_stockholder_annual_report.pdf",
+          "title": "宏正自動科技股份有限公司（宏正，6277，ATEN）93 年度年報",
+          "source_level": 3,
+          "period_binding": "民國93年度（2004年）。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「KVM」出現52次、「台灣」34次、「第一」25次，顯示其以 KVM（多電腦切換器）為核心產品線。全份年報中「全球最大」與「市佔」之出現次數均為0。註記：本文件為民國93年度年報（2004年），距查證日已逾20年，不適合用以佐證現況陳述。"
+        }
+      ],
+      "rationale": "「為 KVM（多電腦切換器）設備製造商」獲發行人年報支持：93年度年報中「KVM」出現52次、「台灣」34次、「第一」25次，顯示其以 KVM 為核心產品線。惟「全球最大、台灣領先的KVM設備製造商」未獲支持：全份年報中「全球最大」與「市佔」出現次數均為0。另須註記：本批次取得之官方年報為**民國93年度（2004年）**版本，距查證日逾20年，不足以佐證該公司現況之排名陳述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **249 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), and `author-045` (4).
+Author-reviewed: **254 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), and `author-046` (5).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 156
+- PARTIALLY_SUPPORTED: 161
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 36
-- Remaining author queue: 1,150
+- Remaining author queue: 1,145
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -546,6 +546,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-045.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗之佇列項目；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。本批次完成 4 筆，佇列順序不受影響（下一筆為 6166 凌華）。
 - Author-reviewed total: **249 / 1,399**; remaining: **1,150**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 156, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6166:objective_ranking_or_market_share:b3a2e1a025feff65` (凌華).
+
+## Author batch `author-046` — 2026-10-06
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (凌華 6166, 廣明 6188, 飛捷 6206, 全譜 6228, 宏正 6277). Evidence came from directly downloaded and inspected official disclosures: 凌華108年度年報、廣明官方股東資料與公開資訊觀測站簡報、飛捷2025年法人說明會簡報、全譜113年度年報與2025年法人說明會簡報、宏正93年度年報。
+- `6166:objective_ranking_or_market_share:b3a2e1a025feff65` — `PARTIALLY_SUPPORTED`. 凌華108年度年報載其產品與技術含「COM Express, SMARC, Qseven」等模組化電腦規格，文中「ROS」出現5次。惟「友達」「鴻海」「法博」出現次數均為0，故「友達為最大單一股東」與「與鴻海合資成立法博智能」未獲該文件確認；該年報基準為民國108年度（2020年7月刊印），早於相關股權與合資事件。
+- `6188:objective_ranking_or_market_share:22cd3f0905111079` — `PARTIALLY_SUPPORTED`. 廣明官方股東／公司資料載「廣達電腦股份有限公司代表人：蔡文弘」等三筆，顯示廣達電腦為其法人董事（「廣達」3次），其簡報載「硬碟」3次支持儲存裝置業務。惟「客戶」「最大」「Toyota」「豐田」「晶圓」出現次數均為0，最大客戶身分與其他客戶群未獲支持。
+- `6206:objective_ranking_or_market_share:11dce486dbff428d` — `PARTIALLY_SUPPORTED`. 飛捷2025年官方簡報第5頁載「自1984年成立以來，飛捷科技持續在零售、餐飲、醫療與工業自動化領域提供硬體創新設計與先進製造技術，其中更專注於POS 端點銷售系統、自助服務系統與嵌入式電腦系統之產品開發」，第6頁載「AI 餐飲解決方案」與「AI 零售解決方案」。惟「市佔」「市占」出現次數均為0，具名客戶、AI 影像辨識與醫療推車亦未載。
+- `6228:objective_ranking_or_market_share:5c4944216c7b1727` — `PARTIALLY_SUPPORTED`. 全譜113年度年報第8、51及55頁與法人說明會簡報第4至18頁載底片型掃描器產品（簡報第12頁載「業界最完全的底片對應方案」）。惟「Kodak」「柯達」「Olympus」出現次數均為0，未載曾為該等廠商代工；年報第60頁之市佔率表係針對「螢光與化學光成像系統」市場，其中列全譜（Pacific Image Electronics）推估市佔率為 **<1%**，同頁「底片掃瞄器市場需求及成長預估」僅述需求趨勢、未載市占率；「30%」4處分別為股利政策、實收資本額與房貸成數。
+- `6277:objective_ranking_or_market_share:7c8c5bb9d85cb3ea` — `PARTIALLY_SUPPORTED`. 宏正93年度年報中「KVM」出現52次、「台灣」34次、「第一」25次，支持其以 KVM 為核心產品線；惟「全球最大」與「市佔」出現次數均為0。須註記：本批次取得之官方年報為民國93年度（2004年）版本，距查證日逾20年，不足以佐證現況排名。
+- Proposed wording is recorded for the partial claims in `semantic/author-046.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **254 / 1,399**; remaining: **1,145**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 161, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 36. Next pending claim by priority: `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` (點序).
+
 
 
 

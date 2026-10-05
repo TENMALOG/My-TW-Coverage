@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 21:04 UTC
+Updated: 2026-10-06 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **249 / 1,399**
-- Remaining author review: **1,150**
-- Latest batch: **author-045** (4 claims)
+- Author-reviewed: **254 / 1,399**
+- Remaining author review: **1,145**
+- Latest batch: **author-046** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **156**
+- `PARTIALLY_SUPPORTED`: **161**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3479:objective_ranking_or_market_share:ec2d0140eda8f433` — `UNKNOWN_AFTER_RESEARCH`; 安勤官方年報兩個端點與MOPS簡報端點皆回HTTP 404，未取得可檢視文件。
-- `3594:objective_ranking_or_market_share:8a5b9baaa79c34f3` — `UNKNOWN_AFTER_RESEARCH`; 磐儀115年議事手冊（67頁）已下載，惟「樺漢」「聯發」「磐旭」「智能」「主要股東」「持股比例」皆0次，內容頁文字層無法正常擷取。
-- `3611:objective_ranking_or_market_share:2740038399a03d39` — `PARTIALLY_SUPPORTED`; 鼎翰114年報「條碼印表機」34次；惟「台灣第一大」「全球前五大」皆0次、「市佔」僅1次且無數字。
-- `5215:objective_ranking_or_market_share:209ea0f8303b4060` — `PARTIALLY_SUPPORTED`; 科嘉官方文件載「薄膜觸控開關(MTS)」「筆電用薄膜觸控開關」；惟「全球最大」與「市佔」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-045.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6166:objective_ranking_or_market_share:b3a2e1a025feff65` (凌華).
+- `6166:objective_ranking_or_market_share:b3a2e1a025feff65` — `PARTIALLY_SUPPORTED`; 凌華108年報載「COM Express, SMARC, Qseven」與ROS（5次）；惟「友達」「鴻海」「法博」皆0次（該年報早於相關事件）。
+- `6188:objective_ranking_or_market_share:22cd3f0905111079` — `PARTIALLY_SUPPORTED`; 廣明官方股東資料載廣達電腦為法人董事代表人；惟「客戶」「最大」「Toyota」「晶圓」皆0次。
+- `6206:objective_ranking_or_market_share:11dce486dbff428d` — `PARTIALLY_SUPPORTED`; 飛捷2025簡報第5頁載零售、餐飲、醫療與工業自動化領域及POS/自助服務/嵌入式電腦；惟「市佔」0次。
+- `6228:objective_ranking_or_market_share:5c4944216c7b1727` — `PARTIALLY_SUPPORTED`; 全譜年報與簡報載底片掃描器產品；惟「Kodak」「柯達」「Olympus」皆0次，且年報第60頁市佔率表（螢光與化學光成像系統）載全譜推估市佔率**<1%**，同頁底片掃瞄器段落未載市占。
+- `6277:objective_ranking_or_market_share:7c8c5bb9d85cb3ea` — `PARTIALLY_SUPPORTED`; 宏正93年報「KVM」52次；惟「全球最大」0次，且該文件為2004年版本。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-046.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6485:objective_ranking_or_market_share:5969e1c71ddb6ef2` (點序).
 
 ## Source access
 
