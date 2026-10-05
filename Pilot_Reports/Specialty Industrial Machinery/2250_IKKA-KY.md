@@ -63,8 +63,8 @@ IKKA Holdings (2250，IKKA-KY) 為日系精密塑膠射出成型廠 (1963 年創
 | Selling & Marketing Exp |        25.37 |        25.79 |        26.27 |        25.20 |
 | R&D Exp                 |         8.38 |         8.12 |         9.04 |         7.82 |
 | General & Admin Exp     |        77.77 |        73.91 |        83.48 |        63.15 |
-| Operating Income        |         7.00 |        29.14 |        22.32 |        37.31 |
-| Operating Margin (%)    |         0.91 |         3.63 |         2.64 |         4.56 |
+| Operating Income | 7.09 | 29.12 | 22.32 | 37.31 |
+| Operating Margin (%) | 0.92 | 3.63 | 2.64 | 4.56 |
 | Net Income              |         7.39 |        23.25 |        29.71 |        34.59 |
 | Net Margin (%)          |         0.96 |         2.90 |         3.52 |         4.22 |
 | Op Cash Flow            |       109.57 |        26.18 |       111.14 |        23.80 |

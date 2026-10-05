@@ -56,8 +56,8 @@
 | Selling & Marketing Exp |         1.61 |         1.48 |         1.29 |         1.31 |
 | R&D Exp                 |        21.60 |        13.84 |        10.89 |        12.60 |
 | General & Admin Exp     |        41.26 |        45.70 |        41.18 |        31.96 |
-| Operating Income        |        22.63 |        97.88 |        75.70 |        33.84 |
-| Operating Margin (%)    |         8.83 |        29.47 |        23.77 |        13.44 |
+| Operating Income | 21.59 | 96.55 | 75.70 | 33.84 |
+| Operating Margin (%) | 8.43 | 29.07 | 23.77 | 13.44 |
 | Net Income              |        18.89 |        78.70 |        61.58 |        29.97 |
 | Net Margin (%)          |         7.37 |        23.69 |        19.33 |        11.90 |
 | Op Cash Flow            |       100.73 |        30.51 |        63.02 |        50.42 |
