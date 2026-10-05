@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 11:04 UTC
+Updated: 2026-10-10 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **778 / 1,399**
-- Remaining author review: **621**
-- Latest batch: **author-131** (4 claims)
+- Author-reviewed: **783 / 1,399**
+- Remaining author review: **616**
+- Latest batch: **author-132** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **505**
+- `PARTIALLY_SUPPORTED`: **509**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **183**
+- `UNKNOWN_AFTER_RESEARCH`: **184**
 
 ## Latest claim batch
 
-- `1337:objective_ranking_or_market_share:7301f1077bcac945` — `PARTIALLY_SUPPORTED`；再生-KY年報「EVA」46次、「回收」30次、「再生」143次、「晉江」9次、「開曼」3次；惟「**最大」0 次**。
-- `1718:objective_ranking_or_market_share:806de1b1b6f17477` — `PARTIALLY_SUPPORTED`；年報「機密」8次**均為員工保密義務**；「**市占」「極高」皆 0 次**。
-- `2103:objective_ranking_or_market_share:d3bfe3d982942ba8` — `PARTIALLY_SUPPORTED`；台橡年報「合成橡膠」68次；惟「**第七」5 次皆為法規條號**（誠信經營守則第七條、準則第七號），「**亞洲最大」0 次**。
-- `2104:objective_ranking_or_market_share:61c58054080f7d16` — `PARTIALLY_SUPPORTED`；國際中橡報告逐字載「**台灣唯一、全球排名第六之碳黑**」「全球產能排名第六」（碳黑297次）；惟「**市佔」0 次**，且「**6%」32 次全為其他百分比**（16%／26%／96%）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-131.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2108:objective_ranking_or_market_share:2ea49757ee9617b6` (南帝).
+- `2108:objective_ranking_or_market_share:2ea49757ee9617b6` — `PARTIALLY_SUPPORTED`；南帝文件逐字載「（本公司為）**前五大NBR 橡膠生產商**」（NBR 27次、丁腈19次）；惟「**12%」1 次實為「0.012%**」，「18萬」「第一大」「台南紡織」皆0次。
+- `4306:objective_ranking_or_market_share:88dab30976986d42` — `PARTIALLY_SUPPORTED`；炎洲CSR「膠帶」78次、「**BOPP」16 次**、「1978」3次；惟「前三大」0次，且「最大」之一為「**目標成為**全球膠帶最大製造廠商」（目標敘述）。
+- `4702:objective_ranking_or_market_share:1977e5e4d2e51aaf` — `PARTIALLY_SUPPORTED`；中美實簡報「分散性染料」1次；惟「1964」「酸性染料」「反應性染料」「最大」「遠東／力麗」皆0次（簡報僅1,583字元）。
+- `4706:objective_ranking_or_market_share:821cbf49841c14fb` — `PARTIALLY_SUPPORTED`；大恭文件（**英文版**）載「Date of Incorporation：**April 20, 1966**」；惟「顏料」「產量」皆0次。
+- `4706:objective_ranking_or_market_share:3755cfeb9bb8b2db` — `UNKNOWN_AFTER_RESEARCH`；文件（英文版）「住化」「住友」「29.28」皆0次，未載股東結構。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-132.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `4707:objective_ranking_or_market_share:940bad081308ace4` (磐亞).
 
 ## Source access
 

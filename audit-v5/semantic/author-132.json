@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-132",
+  "reviewed_at": "2026-10-05T20:42:42Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (南帝公司文件; 炎洲集團2022年永續報告書; 中美實法人說明會簡報; 大恭公司簡介文件英文版)",
+  "items": [
+    {
+      "claim_id": "2108:objective_ranking_or_market_share:2ea49757ee9617b6",
+      "normalized_claim_hash": "2ea49757ee9617b64e4350a07e60ee181b9ca42798a97a0e4830b859347dac59",
+      "ticker": "2108",
+      "company": "南帝",
+      "path": "Pilot_Reports/Specialty Chemicals/2108_南帝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "南帝化學工業 (2108，Nantex Industry) 隸屬[[台南紡織]]集團，為全球前五大、台灣第一大[[NBR]] (丁腈橡膠) 製造商，年產能約 18 萬噸，全球市佔率約 12%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nantex.com.tw/index.php?option=module&lang=cht&task=dfile&id=522&i=1",
+          "title": "南帝化學工業股份有限公司（南帝，2108，Nantex Industry）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取68,060字元）。文件載「（本公司為）**前五大NBR 橡膠生產商。**」，並見「**NBR**」27次、「**丁腈**」19次，支持其 NBR（丁腈橡膠）業務及全球前五大 NBR 生產商之敘述。全份文件中「**12%**」1次之上下文為「**0.012%**」（**非**市佔率）；「**18萬**」「**第一大**」與「**台南紡織**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為全球**前五大** [[NBR]]（丁腈橡膠）製造商」獲發行人文件**逐字支持**：文件載「（本公司為）**前五大NBR 橡膠生產商。**」，並見「**NBR**」27次、「**丁腈**」19次，支持其 NBR 業務與全球前五大地位。惟三項陳述未獲支持：(1)「隸屬**台南紡織**集團」——「台南紡織」出現次數為0；(2)「台灣**第一大**」——「第一大」為0；(3)「年產能約 **18 萬噸**，全球市佔率約 **12%**」——「18萬」為0，且「**12%**」1次之上下文為「**0.012%**」，**非**市佔率。故部分成立。",
+      "proposed_text": "南帝化學工業 (2108，Nantex Industry) 為全球前五大 NBR（丁腈橡膠）生產商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4306:objective_ranking_or_market_share:88dab30976986d42",
+      "normalized_claim_hash": "88dab30976986d42d0abfab0fd2b8a73ccc0551d749a1c62f1c1f7d315035dd6",
+      "ticker": "4306",
+      "company": "炎洲",
+      "path": "Pilot_Reports/Specialty Chemicals/4306_炎洲.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "炎洲集團 (4306，Yem Chio) 成立於 1978 年，為全球前三大膠帶製造商，亦為全球第一大[[BOPP]] (雙軸延伸聚丙烯) 薄膜生產商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://ycgroup.tw/upload/csr/csrbook_2022.pdf",
+          "title": "炎洲集團（炎洲，4306，Yem Chio）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取64,793字元）。報告書中「**膠帶**」出現78次、「**BOPP**」16次、「1978」3次、「全球」36次，支持其膠帶及 BOPP 薄膜業務及成立年分。全份報告書中「**前三大**」出現次數為0；「**最大**」5次之上下文包括「（**目標**成為）全球**膠帶最大製造廠商**」（**目標敘述**）、「亦是全世界**最大**的BOPP 及（…）」、「以美洲及亞洲地區為**最大**市場」（市場別）、「才能發揮**最大**效力」（泛用語）。"
+        }
+      ],
+      "rationale": "「成立於 **1978** 年，從事膠帶及 [[BOPP]] 薄膜業務」獲發行人永續報告書支持：報告書中「1978」3次、「**膠帶**」78次、「**BOPP**」16次，支持其成立年分與業務。惟兩項市場地位陳述未獲精確支持：(1)「為全球**前三大**膠帶製造商」——「前三大」出現次數為0，且「**最大**」5次之一為「（**目標**成為）全球**膠帶最大製造廠商**」（屬**目標敘述**）；(2)「亦為全球**第一大** BOPP 薄膜生產商」——見「亦是全世界**最大**的BOPP 及（…）」，惟「第一大」與完整之市場地位敘述未見。故部分成立。",
+      "proposed_text": "炎洲集團 (4306，Yem Chio) 成立於1978年，從事膠帶及 BOPP 薄膜業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4702:objective_ranking_or_market_share:1977e5e4d2e51aaf",
+      "normalized_claim_hash": "1977e5e4d2e51aaf352fb13cd863eca2eecd420678b80652284d599330bebb5f",
+      "ticker": "4702",
+      "company": "中美實",
+      "path": "Pilot_Reports/Specialty Chemicals/4702_中美實.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中美實業 (4702，Allied Industrial) 成立於 1964 年，曾為台灣最大[[分散性染料]]製造商 (品牌 ALLILON)，產品涵蓋[[分散性染料]]、[[酸性染料]]及[[反應性染料]]，供應台灣紡織染整業如[[遠東新世紀]]、[[力麗]]等纖維廠之下游染整廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/470220260831M001.pdf",
+          "title": "中美聯合實業股份有限公司（中美實，4702，Allied Industrial）法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年8月簡報）。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取1,583字元，以圖形排版為主）。簡報中「**分散性染料**」出現1次，支持其染料業務之提及。全份簡報中「**1964**」「**酸性染料**」「**反應性染料**」「**最大**」與「**遠東／力麗**」之出現次數**均為0**（該簡報文字擷取量極少）。"
+        }
+      ],
+      "rationale": "「產品涵蓋分散性染料」獲發行人簡報部分支持：簡報中「**分散性染料**」出現1次。惟多項陳述未獲支持：全份簡報中「**1964**」「**酸性染料**」「**反應性染料**」「**最大**」與「**遠東新世紀／力麗**」之出現次數**均為0**，故「成立於1964年」「曾為台灣最大分散性染料製造商（品牌 ALLILON）」「產品涵蓋酸性染料及反應性染料」「供應遠東新世紀、力麗等纖維廠」未獲確立。故部分成立（並註記該簡報文字擷取僅1,583字元，以圖形排版為主）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4706:objective_ranking_or_market_share:821cbf49841c14fb",
+      "normalized_claim_hash": "821cbf49841c14fb8912e8acf372331363dd1d40e04172cb9e08de30b7fb4242",
+      "ticker": "4706",
+      "company": "大恭",
+      "path": "Pilot_Reports/Specialty Chemicals/4706_大恭.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大恭化學 (4706，Tah Kong Chemical) 成立於 1966 年，為台灣顏料產量最大之製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/470620230414E001.pdf",
+          "title": "大恭化學工業股份有限公司（大恭，4706，Tah Kong Chemical）公司簡介文件（英文版）",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取6,372字元，以圖形排版為主）。文件載「Company Profile **Date of Incorporation：April 20, 1966**」「Initial Public Offering：November 13, 1991」「Date of Listing：April 17, 1998」「Paid-in capital：NT$790,300,930」「Headquarters：Taipei…」，支持其成立年分。全份文件中「**住化**」「**住友**」「**顏料**」「**產量**」與「**29.28**」之出現次數**均為0**（本件為英文版且以圖形排版為主，市值型資訊可能未見於文字層）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「成立於 **1966** 年」獲發行人文件**逐字支持**：文件載「Date of Incorporation：**April 20, 1966**」。惟「為台灣**顏料產量最大**之製造商」未獲支持：全份文件中「**顏料**」與「**產量**」之出現次數**均為0**（該文件為**英文版**且以圖形排版為主，此類中文產品與產量敘述未見於文字層）。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "大恭化學工業 (4706，Tah Kong Chemical) 成立於1966年。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4706:objective_ranking_or_market_share:3755cfeb9bb8b2db",
+      "normalized_claim_hash": "3755cfeb9bb8b2db62bc3598dc450033fbb77a4fd6de9ec4c1c7917846beac2a",
+      "ticker": "4706",
+      "company": "大恭",
+      "path": "Pilot_Reports/Specialty Chemicals/4706_大恭.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "第一大股東為[[住化色料]] ([[住友化學]]旗下，持股 29.28%)，隸屬[[住友集團]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/470620230414E001.pdf",
+          "title": "大恭化學工業股份有限公司（大恭，4706，Tah Kong Chemical）公司簡介文件（英文版）",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取6,372字元，以圖形排版為主）。文件載「Company Profile **Date of Incorporation：April 20, 1966**」「Initial Public Offering：November 13, 1991」「Date of Listing：April 17, 1998」「Paid-in capital：NT$790,300,930」「Headquarters：Taipei…」，支持其成立年分。全份文件中「**住化**」「**住友**」「**顏料**」「**產量**」與「**29.28**」之出現次數**均為0**（本件為英文版且以圖形排版為主，市值型資訊可能未見於文字層）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「第一大股東為[[住化色料]]（[[住友化學]]旗下，持股 **29.28%**），隸屬[[住友集團]]」未獲確立：所取得之大恭公司簡介文件為**英文版**且以圖形排版為主，全份文件中「**住化**」「**住友**」「**29.28**」之出現次數**均為0**，未載股東結構；本批次未取得載明該股東關係之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
