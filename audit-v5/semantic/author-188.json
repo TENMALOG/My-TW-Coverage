@@ -1,0 +1,117 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-188",
+  "reviewed_at": "2026-10-05T21:49:07Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (智伸科法人說明會簡報2015-09-02與2014-04-09; 同致2025年法說會簡報); 精確未查得可檢視之官方文件",
+  "items": [
+    {
+      "claim_id": "3162:material_named_relationship:3eadbf59b44aa00d",
+      "normalized_claim_hash": "3eadbf59b44aa00d9908bf7a2e742c7072fc55172d4879d9e180d0466ce99866",
+      "ticker": "3162",
+      "company": "精確",
+      "path": "Pilot_Reports/Auto Parts/3162_精確.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已打入[[比亞迪]]供應鏈。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "（本批次未取得可檢視之官方文件）",
+          "title": "精確實業股份有限公司（精確，3162，Ching Cher）官方文件檢索（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就精確（**3162**）進行官方文件檢索，**未查得該公司可檢視之年報、公開說明書或法人說明會簡報**（檢索所見結果多屬其他公司或第三方法人資料）；本批次未取得精確可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「已打入[[比亞迪]]供應鏈」未獲確立：本批次就精確（**3162**）進行官方文件檢索，**未查得該公司可檢視之年報、公開說明書或法人說明會簡報**；因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3552:material_named_relationship:d95c0678e66eda89",
+      "normalized_claim_hash": "d95c0678e66eda89002d4d81ee3c0a4f47b50fa2060bd43944d374c7e0704b64",
+      "ticker": "3552",
+      "company": "同致",
+      "path": "Pilot_Reports/Auto Parts/3552_同致.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中國市場佔營收逾 70%，主要客戶為[[長安汽車]]、[[上汽通用]]、[[東南汽車]]、[[東風日產]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/355220251119M001.pdf（同致2025法說會簡報，本批次自既有下載取得）",
+          "title": "同致電子企業股份有限公司（同致，3552，Tung Thih Electronic，TTE GROUP）2025年法說會簡報（2025-11-19）",
+          "source_level": 3,
+          "period_binding": "2025年11月19日。",
+          "accessed_at": "2026-10-12",
+          "note": "自既有下載之PDF文字檢視（文字擷取4,178字元，以圖形排版為主）。簡報封面載「**同致**電子 2025 法說會 股票代號：3552 2025.11.19」，「**同致**」出現10次確認文件歸屬；惟**全份擷取內容以「免責說明Disclaimer」之中英文聲明為主，實質營運內容未見**。全份簡報中「**長安**」「**上汽**」「**東南**」「**東風**」「**日產**」「**中國**」「車廠」「客戶」「營收」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「中國市場佔營收逾 **70%**，主要客戶為[[長安汽車]]、[[上汽通用]]、[[東南汽車]]、[[東風日產]]」未獲確立：所取得之同致2025年法說會簡報（文字擷取4,178字元）中，**擷取內容以「免責說明Disclaimer」之中英文聲明為主，實質營運內容未見**；全份簡報中「**長安**」「**上汽**」「**東南**」「**東風**」「**日產**」「**中國**」與「70%」之出現次數**均為0**。因該 claim 之實質內容為具名客戶與市場占比，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4551:material_named_relationship:b6f8121b43142228",
+      "normalized_claim_hash": "b6f8121b4314222854bc23ffdd435fbba46a559064524683ec60ab7cf07c9160",
+      "ticker": "4551",
+      "company": "智伸科",
+      "path": "Pilot_Reports/Auto Parts/4551_智伸科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為全球汽車 Tier 1 — [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]，終端 OEM 涵蓋[[BMW]]、[[Stellantis]]、[[Tesla]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/455120150902M002.pdf",
+          "title": "智伸科技股份有限公司（智伸科，4551，JSP）法人說明會簡報（2015-09-02）",
+          "source_level": 3,
+          "period_binding": "2015年9月2日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,352字元，以圖形排版為主）。簡報載其產品領域為「汽車、醫療、硬式磁碟機、半導體、工業及光學產品」，並見「**Bosch**」4次、「**Delphi**」4次、「**Continental**」3次、「**Cummins**」3次、「**BorgWarner**」3次、「**半導體**」2次、「**醫療**」5次，支持其汽車 Tier 1 供應商地位及醫療、半導體等事業。全份簡報中「**ZF**」「**BMW**」「**Stellantis**」「**EUV**」「**ASML**」「**409%**」「**水冷**」與「**AI 伺服器**」之出現次數**均為0**。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/455120140409M001.pdf",
+          "title": "智伸科技股份有限公司（智伸科，4551，JSP）公司介紹與展望簡報（2014-04-09）",
+          "source_level": 3,
+          "period_binding": "2014年4月9日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,451字元，以圖形排版為主）。簡報中「**Bosch**」出現3次、「**Continental**」「**Cummins**」「**Delphi**」各1次，支持其汽車 Tier 1 客戶敘述。全份簡報中「**ZF**」「**BorgWarner**」「**BMW**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶為全球汽車 Tier 1 — [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[Delphi]]」獲發行人簡報**充分支持**：簡報中「**Bosch**」4次、「**Delphi**」4次、「**Continental**」3次、「**Cummins**」3次、「**BorgWarner**」3次，**五家具名 Tier 1 客戶均有對應敘述**。惟三項陳述未獲支持：(1)「**ZF**」——出現次數為**0**；(2)「終端 OEM 涵蓋 **BMW**」——「**BMW**」為**0**；(3)「終端 OEM 涵蓋 **Stellantis**」——「**Stellantis**」為**0**。故部分成立。",
+      "proposed_text": "智伸科技 (4551，JSP) 之主要客戶為 Continental、Bosch、Cummins、BorgWarner、Delphi 等全球汽車 Tier 1 廠商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4551:material_named_relationship:385fd2464812bbda",
+      "normalized_claim_hash": "385fd2464812bbda9248d707fa12f6197bd510fd734b632a4d99ef59721cd2e4",
+      "ticker": "4551",
+      "company": "智伸科",
+      "path": "Pilot_Reports/Auto Parts/4551_智伸科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年積極拓展半導體設備 (供應 [[EUV]] 光刻機零組件，隱含客戶為[[ASML]])、醫療器材 (營收年增 409%) 及[[AI 伺服器]]水冷零組件 (2025 Q2 開始出貨) 等非汽車事業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/455120150902M002.pdf",
+          "title": "智伸科技股份有限公司（智伸科，4551，JSP）法人說明會簡報（2015-09-02）",
+          "source_level": 3,
+          "period_binding": "2015年9月2日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,352字元，以圖形排版為主）。簡報載其產品領域為「汽車、醫療、硬式磁碟機、半導體、工業及光學產品」，並見「**Bosch**」4次、「**Delphi**」4次、「**Continental**」3次、「**Cummins**」3次、「**BorgWarner**」3次、「**半導體**」2次、「**醫療**」5次，支持其汽車 Tier 1 供應商地位及醫療、半導體等事業。全份簡報中「**ZF**」「**BMW**」「**Stellantis**」「**EUV**」「**ASML**」「**409%**」「**水冷**」與「**AI 伺服器**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「拓展非汽車事業」獲發行人簡報支持：簡報載其產品領域為「汽車、**醫療**、硬式磁碟機、**半導體**、工業及光學產品」（「**醫療**」5次、「**半導體**」2次），**支持醫療器材與半導體事業之存在**。惟多項具體陳述未獲支持：(1)「供應 [[EUV]] 光刻機零組件」——「**EUV**」出現次數為**0**；(2)「隱含客戶為 [[ASML]]」——「**ASML**」為**0**；(3)「醫療器材營收**年增 409%**」——「**409%**」為**0**；(4)「[[AI 伺服器]]**水冷**零組件（**2025 Q2** 開始出貨）」——「**水冷**」「**AI 伺服器**」均為**0**（**且本簡報為 2015 年版本，早於所述之2025年事件**）。故部分成立。",
+      "proposed_text": "智伸科技 (4551，JSP) 除汽車零組件外，業務涵蓋醫療、半導體、硬式磁碟機、工業及光學產品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

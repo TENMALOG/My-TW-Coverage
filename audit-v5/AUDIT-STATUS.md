@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 19:04 UTC
+Updated: 2026-10-12 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **992 / 1,399**
-- Remaining author review: **407**
-- Latest batch: **author-187** (4 claims)
+- Author-reviewed: **996 / 1,399**
+- Remaining author review: **403**
+- Latest batch: **author-188** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **646**
+- `PARTIALLY_SUPPORTED`: **648**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **248**
+- `UNKNOWN_AFTER_RESEARCH`: **250**
 
 ## Latest claim batch
 
-- `2230:material_named_relationship:b19e819d6084f649` — `UNKNOWN_AFTER_RESEARCH`；泰茂簡報「**晨亨」0 次**。
-- `2497:material_named_relationship:c07a35d12d128a8d` — `PARTIALLY_SUPPORTED`；怡利電個體財報「HUD」3次、「抬頭」2次；惟「AR-HUD」「前三」「排名」皆0次（**文件性質為財報，非年報**）。
-- `3346:material_named_relationship:05338c3bf993f287` — `PARTIALLY_SUPPORTED`；麗清簡報載「**民國88年8月27日**」（＝1999）與「**LED汽車照明之光學模組**」，並列各廠客戶（海拉、ZKW、小糸等）；惟「**OEM」0 次**。
-- `4535:material_named_relationship:791df309aac80cff` — `UNKNOWN_AFTER_RESEARCH`；至興永續報告書 **46.9MB 但文字僅 4,238 字元**，且**數字被映射為相容表意字之亂碼**；「Autoliv／ZF／Joyson／安全帶」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-187.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `3162:material_named_relationship:3eadbf59b44aa00d` (精確).
+- `3162:material_named_relationship:3eadbf59b44aa00d` — `UNKNOWN_AFTER_RESEARCH`；精確**未查得可檢視之官方文件**。
+- `3552:material_named_relationship:d95c0678e66eda89` — `UNKNOWN_AFTER_RESEARCH`；同致簡報擷取內容以**免責聲明**為主，「長安／上汽／東南／東風／日產／中國／70%」皆0次。
+- `4551:material_named_relationship:b6f8121b43142228` — `PARTIALLY_SUPPORTED`；智伸科簡報「**Bosch」4 次、「Delphi」4 次、「Continental／Cummins／BorgWarner」各 3 次**；惟「ZF」「BMW」「Stellantis」皆0次。
+- `4551:material_named_relationship:385fd2464812bbda` — `PARTIALLY_SUPPORTED`；簡報載產品含「**醫療」5 次、「半導體」2 次**；惟「EUV／ASML／409%／水冷／AI 伺服器」皆0次（**簡報為2015年版本**）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-188.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2884:identity_changing_event:f537d8ed70d49074` (玉山金).
 
 ## Source access
 
