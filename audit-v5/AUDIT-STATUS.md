@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 13:04 UTC
+Updated: 2026-10-13 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,065 / 1,399**
-- Remaining author review: **334**
-- Latest batch: **author-205** (5 claims)
+- Author-reviewed: **1,068 / 1,399**
+- Remaining author review: **331**
+- Latest batch: **author-206** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **688**
+- `PARTIALLY_SUPPORTED`: **690**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **277**
+- `UNKNOWN_AFTER_RESEARCH`: **278**
 
 ## Latest claim batch
 
-- `2405:identity_changing_event:994e9d09f13f0b0a` — `PARTIALLY_SUPPORTED`；輔信簡報載「**成立日期 1983年6月**」「**迷你化邊緣AI 運算電腦**」（迷你5次、工業電腦2次）；惟「**浩鑫／2020／更名」皆 0 次**。
-- `2425:identity_changing_event:55f86d211d68f828` — `PARTIALLY_SUPPORTED`；承啟文件載「於**民國102年1月更名為承啟科技**」（**民國102年＝2013年**）、「大眾」1次；惟「**Walton」0 次**、原名全稱未見。
-- `3231:material_named_relationship:880c1f0bf1a7ff19` — `PARTIALLY_SUPPORTED`；緯創文件中「**AI」84 次、「伺服器」11 次**；**惟「AI 伺服器」連續字串、「供應商」與「出售手機業務」未獲支持**（**本件為永續報告書，非年報**）。
-- `3231:profitability_assertion:a7ec296d843b0d2b`、`1d9cf38dc03b36db` — `UNKNOWN_AFTER_RESEARCH` ×2；「**NVIDIA／GPU／基板／DGX／獨家」皆 0 次**（**永續報告書非年報，建議另取年報複核**）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-205.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `3213:profitability_assertion:2918ce861b2d0256` (茂訊).
+- `3213:profitability_assertion:2918ce861b2d0256` — `PARTIALLY_SUPPORTED`；茂訊**英文版**簡報載「**rugged computers**」「**extreme/harshest environments**」「**defence**」（**MIL」31 次、「military」11 次、「defense」2 次**）；惟「溫度／震動／歐洲／北美」未見（**中文關鍵字皆0，中文檢索不具意義**）。
+- `3324:profitability_assertion:b0fb085043544429` — `UNKNOWN_AFTER_RESEARCH`；雙鴻端點 **HTTP 404**。
+- `3535:material_named_relationship:5e9de20c95bfbdc1` — `PARTIALLY_SUPPORTED`；晶彩科簡報「**AOI」28 次、「AI」13 次**並載「**AI AOI** 解決方案」；**惟「紅外線／獨占／台積電／CoWoS」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-206.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `3406:material_named_relationship:e347699638cebefb` (玉晶光).
 
 ## Source access
 

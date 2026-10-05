@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-206",
+  "reviewed_at": "2026-10-05T22:09:18Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (茂訊英文版投資人年報; 晶彩科法人說明會簡報); 雙鴻端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3213:profitability_assertion:2918ce861b2d0256",
+      "normalized_claim_hash": "2918ce861b2d02565cd04fd9695c8c7e1607d8802bf5e9c734acb86c0615a313",
+      "ticker": "3213",
+      "company": "茂訊",
+      "path": "Pilot_Reports/Computer Hardware/3213_茂訊.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "強固型電腦事業為核心成長引擎，產品能在極端溫度、震動及惡劣環境下穩定運作，主要服務歐洲及北美軍方與國防承包商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/321320251216E001.pdf",
+          "title": "茂訊電腦股份有限公司（茂訊，3213，MildefCrete Inc）2025 INVESTORS ANNUAL REPORT（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年12月16日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取9,186字元，以圖形排版為主）。簡報載「Founded in **1990**, **MildefCrete** is an international company at the forefront of designing, developing and manufacturing **rugged computers** and special electronics for communication in **extreme environments** where reliability, robustness and high performance are crucial」「Our offer includes **defence** and mining required form factors… in the **harshest environments**」（「**MIL**」31次、「**military**」11次、「**rugged**」6次、「**defense**」2次、「**Crete**」15次），**充分支持其強固型電腦與軍工／國防業務之敘述**。**關鍵發現（語言落差）**：「軍」「國防」「強固」等**中文關鍵字之出現次數均為0**，**惟英文對應詞（military／defense／rugged）大量出現**；「極端溫度」（temperature）與「震動」（vibration）之字樣**未見**；「歐洲」與「北美」之區域敘述**亦未見**。"
+        }
+      ],
+      "rationale": "「**強固型電腦**事業…能在**極端**、**惡劣環境**下穩定運作，主要服務…**軍方與國防承包商**」獲發行人簡報**充分支持**——**惟須以英文檢索**：簡報載「…designing, developing and manufacturing **rugged computers**…for communication in **extreme environments** where reliability, robustness are crucial」「Our offer includes **defence** and mining…in the **harshest environments**」（「**MIL**」31次、「**military**」11次、「**rugged**」6次、「**defense**」2次）。**惟三項具體陳述未獲支持**：(1)「極端**溫度**、**震動**」——「temperature」與「vibration」之字樣**未見**；(2)「主要服務**歐洲及北美**」——區域敘述**未見**；(3)「核心**成長引擎**」之表述未見。故部分成立。**語言註記**：**本件為英文版文件**，中文關鍵字（強固、軍、國防）之出現次數均為0，**中文檢索不具意義**。",
+      "proposed_text": "茂訊電腦 (3213，MildefCrete Inc) 設計製造強固型電腦與特殊電子產品，應用於極端與惡劣環境，並服務軍工與國防領域客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3324:profitability_assertion:b0fb085043544429",
+      "normalized_claim_hash": "b0fb085043544429f650a4da08c65afa504ab845ba90dd640436aa91924b4070",
+      "ticker": "3324",
+      "company": "雙鴻",
+      "path": "Pilot_Reports/Computer Hardware/3324_雙鴻.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 均熱板 (VC) 技術 — 鞏固電競筆電與顯示卡散熱優勢，維持高毛利水平。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/332420240319M001.pdf",
+          "title": "雙鴻科技股份有限公司（雙鴻，3324，Auras）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載雙鴻簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得雙鴻可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**均熱板（VC）**技術 — 鞏固**電競筆電**與**顯示卡**散熱優勢，維持**高毛利**水平」未獲確立：本批次自公開資訊觀測站端點下載雙鴻簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3535:material_named_relationship:5e9de20c95bfbdc1",
+      "normalized_claim_hash": "5e9de20c95bfbdc1b01acfcb43c09f5b1f778dee26a54e6fa0e6200fcf187cb7",
+      "ticker": "3535",
+      "company": "晶彩科",
+      "path": "Pilot_Reports/Computer Hardware/3535_晶彩科.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司之 AI AOI 與紅外線穿透檢測技術具獨占性，成功打入 [[台積電]] [[CoWoS]]-L 供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/353520241129M001.pdf",
+          "title": "晶彩科技股份有限公司（晶彩科，3535，Favite Inc.）法人說明會簡報（2024-11-29）",
+          "source_level": 3,
+          "period_binding": "2024年11月29日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,887字元，以圖形排版為主）。簡報載「**AOI** / Metrology / AI OM」「Your Favorite **AOI**」「TFT LCD、LTPS、AMOLED顯示領域**AOI**/METROLOGY的主要供應商，我們最近推出了業界領先的智慧即時（…）**AI AOI**解決方案。這些創新的重點是準確檢測目標缺陷並精確測量其位置。我們的業務已擴展到**先進半導體**（…）」（「**AOI**」28次、「**AI**」13次），**支持其 AI AOI 檢測技術與先進半導體業務之敘述**。**關鍵發現**：全份簡報中「**紅外線**」「**獨占**」「**台積電**」「**CoWoS**」與「穿透」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**AI AOI**…檢測技術」獲發行人簡報**逐字支持**：簡報載「**AOI** / Metrology / AI OM」「Your Favorite **AOI**」與「TFT LCD、LTPS、AMOLED顯示領域**AOI**/METROLOGY的主要供應商，我們最近推出了業界領先的智慧即時（…）**AI AOI**解決方案」，並載其業務「已擴展到**先進半導體**」（「**AOI**」28次、「**AI**」13次）。**惟多項陳述未獲支持**：(1)「**紅外線**穿透檢測」——「**紅外線**」與「穿透」之出現次數**均為0**；(2)「具**獨占**性」——「**獨占**」為**0**；(3)「成功打入 [[台積電]] [[CoWoS]]-L 供應鏈」——「**台積電**」與「**CoWoS**」均為**0**，**未具名該客戶或載明該供應鏈關係**。故部分成立。",
+      "proposed_text": "晶彩科技 (3535，Favite Inc.) 為顯示領域 AOI／Metrology 主要供應商，並推出 AI AOI 解決方案、業務延伸至先進半導體。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
