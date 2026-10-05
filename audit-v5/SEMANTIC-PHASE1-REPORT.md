@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **281 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), and `author-051` (4).
+Author-reviewed: **289 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), and `author-052` (8).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 179
+- PARTIALLY_SUPPORTED: 185
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 45
-- Remaining author queue: 1,118
+- Other allowed author decisions: 47
+- Remaining author queue: 1,110
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -610,6 +610,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-051.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **281 / 1,399**; remaining: **1,118**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 179, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 45. Next pending claim by priority: `6225:objective_ranking_or_market_share:328bec4589432b52` (天瀚).
+
+## Author batch `author-052` — 2026-10-07
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (天瀚 6225, 上洋 6728, 第一銅 2009 ×2, 中租-KY 5871 ×4). Evidence came from directly downloaded and inspected official disclosures: 天瀚111年度年報、第一銅112年度年報、中租-KY 110年度年報；上洋114年度年報之文字層呈現亂碼，無法判讀。
+- `6225:objective_ranking_or_market_share:328bec4589432b52` — `PARTIALLY_SUPPORTED`. 天瀚111年度年報沿革載其分別對外投資美國 AIPTEK, INC.（美洲行銷）、德國 AIPTEK International GmbH（歐洲行銷）與上海愛普泰克國際貿易（中國行銷），並載「2000年04月 **推出全球第一台3合1筆式數位視訊相機**」。惟「早期從數位手寫板（HyperPen）起家」之品牌名稱未獲支持（「HyperPen」出現次數為0；年報所述為「筆式輸入電磁感應數位板」之技術與 ASIC 開發）。
+- `6728:objective_ranking_or_market_share:d66093d3d854cbc7` — `UNKNOWN_AFTER_RESEARCH`. 上洋114年度年報（2,179,859 bytes）之文字擷取結果呈現亂碼（如「΋ǵҁϦљวقΓ」），無法辨識內容；於擷取文字中「AQUA」「Huebsch」「優必洗」「總代理」「洗衣」「日本」出現次數均為0。故 AQUA 之「日本以外全球唯一總代理」與 Huebsch 代理關係未獲確立。
+- `2009:objective_ranking_or_market_share:40ef15d8963c4f66` 與 `99c95bc4f4f81779` — `PARTIALLY_SUPPORTED`. 第一銅112年度年報第75頁「上游：銅片製造廠：如台灣目前有**第一伸銅**、名佳利、東弘、…」，第77頁載「在台灣全部合金總銷售量約占**台灣市場30%**」，第7頁載其生產黃銅片、板、管（材）並開發磷青銅、引線架銅等高級合金材料（「黃銅」12次、「磷青銅」7次）。惟「白銅」出現次數為0，未列為其產品項目。
+- `5871:objective_ranking_or_market_share:5462990384cd01df` — `PARTIALLY_SUPPORTED`. 中租-KY 110年度年報第10頁載「中租控股**穩居台灣租賃業領先地位**」與海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」（「中租迪和」29次）。惟官方未以「台灣最大」自稱，亦未載租賃業務市占率。
+- `5871:objective_ranking_or_market_share:0d13f2e2c5782586` — `PARTIALLY_SUPPORTED`. 年報載業務項目為「租賃、分期付款、應收帳款受讓管理、放款等」並載其核心競爭力在於「與對中小企業客戶的合作模式」；惟「市佔率」出現次數為0，「裕融」「和潤」亦均為0。
+- `5871:objective_ranking_or_market_share:87162f778667a426` — `UNKNOWN_AFTER_RESEARCH`. 本批次可檢視之最近官方文件為110年度年報（2021年），全份文件中「zingala」與「銀角」出現次數均為0，未載該平台、會員數或合作商家數。建議後續以2023年以後之年報或永續報告書重查。
+- `5871:objective_ranking_or_market_share:8a01608f52e45045` — `PARTIALLY_SUPPORTED`. 年報第5頁載「在2018年裝置容量已成為**全台第一**，至2021年累積擁有2,655座太陽能電廠，年發電量為11.5億度」，第66頁載其「為**全台擁有最多太陽能電廠之企業**」並載2017年「全民電廠－共享金融市集平台」。惟「截至2024年底持有裝置容量超過1.5GW」未獲支持——年報所載為「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」，裝置容量目標為1,091MW。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **289 / 1,399**; remaining: **1,110**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 185, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 47. Next pending claim by priority: `6592:objective_ranking_or_market_share:2860da8fae309c7a` (和潤企業).
+
 
 
 

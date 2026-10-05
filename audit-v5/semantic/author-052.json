@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-052",
+  "reviewed_at": "2026-10-05T17:52:36Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (天瀚111年度年報; 第一銅112年度年報; 中租-KY 110年度年報); 上洋114年度年報之文字層為亂碼無法判讀，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6225:objective_ranking_or_market_share:328bec4589432b52",
+      "normalized_claim_hash": "328bec4589432b521ac76f656c9092acbec4cb98c041e550c87136cc6c349bf0",
+      "ticker": "6225",
+      "company": "天瀚",
+      "path": "Pilot_Reports/Consumer Electronics/6225_天瀚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司以自有品牌 [[Aiptek]] 行銷全球，早期從數位手寫板 (HyperPen) 起家，曾推出全球第一支筆型數位相機。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.aiptek.com.tw/uploads/information_shareholders/tw/111%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "天瀚科技股份有限公司（天瀚，6225，Aiptek）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度（沿革敘述自1997年起）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報公司沿革載「1997年11月 對外投資美國AIPTEK, INC.，負責美洲地區之行銷」「1999年08月 對外投資德國AIPTEK International GmbH，負責歐洲地區之行銷」「2004年01月 獲經濟部投審會核准經由境外公司間接投資設立於中國上海之愛普泰克國際貿易(上海)有限公司，負責中國地區之行銷」，顯示 AIPTEK 為其海外行銷事業名稱；並載「2000年01月 開發『筆式輸入電磁感應數位板』之ASIC並獲得科學園區管理局『創新補助』獎」「2000年04月 **推出全球第一台3合1筆式數位視訊相機**，同時Hyper Vcam mobile產品獲得 Internet Magazine 雜誌推薦為年度五顆星『Best test』獎」「2000年10月 Pen Cam產品分別獲得 Smart Business 雜誌…」。全份年報中「HyperPen」出現次數為0。"
+        }
+      ],
+      "rationale": "「以自有品牌 AIPTEK 行銷全球」與「曾推出全球第一支筆型數位相機」獲發行人年報支持：沿革載其分別對外投資美國 AIPTEK, INC.（美洲行銷）、德國 AIPTEK International GmbH（歐洲行銷）與上海愛普泰克國際貿易（中國行銷）；並載「2000年04月 **推出全球第一台3合1筆式數位視訊相機**」，同年 Pen Cam 產品獲獎。惟「早期從數位手寫板（HyperPen）起家」之品牌名稱未獲支持：全份年報中「HyperPen」出現次數為0（年報所述為「筆式輸入電磁感應數位板」之技術與 ASIC 開發）。故部分成立。",
+      "proposed_text": "天瀚科技 (6225) 以 AIPTEK 品牌行銷全球，2000 年推出全球第一台 3 合 1 筆式數位視訊相機。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6728:objective_ranking_or_market_share:d66093d3d854cbc7",
+      "normalized_claim_hash": "d66093d3d854cbc76c5d2a25d4b39486217acccbcdd62cd9366ccca28102404d",
+      "ticker": "6728",
+      "company": "上洋",
+      "path": "Pilot_Reports/Consumer Electronics/6728_上洋.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 商用洗衣事業群 — 代理 [[AQUA]]（日本以外全球唯一總代理）、[[Huebsch]] (優必洗) 商用洗烘衣設備，並發展自助洗衣店加盟業務；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.upyoung.com.tw/userfiles/upyoung/files/114%E4%B8%8A%E6%B4%8B%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "上洋產業股份有限公司（上洋，6728）114 年度年報與法人說明會簡報（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域下載 114 年度年報（2,179,859 bytes，文字層擷取 89,672 字元）與公開資訊觀測站簡報（1,879,539 bytes）。惟年報之文字擷取結果呈現亂碼（如「΋ǵҁϦљวقΓ」等非可讀中文），無法辨識內容；於該份擷取文字中「AQUA」「Huebsch」「優必洗」「總代理」「洗衣」「日本」之出現次數均為0。故未取得可判讀之官方文字。"
+        }
+      ],
+      "rationale": "「代理 AQUA（日本以外全球唯一總代理）、Huebsch（優必洗）商用洗烘衣設備，並發展自助洗衣店加盟業務」未獲確立：本批次自發行人官方網域下載之 114 年度年報，其文字擷取結果呈現亂碼，無法辨識內容；於該擷取文字中「AQUA」「Huebsch」「優必洗」「總代理」「洗衣」「日本」之出現次數均為0，公開資訊觀測站簡報亦未有可判讀之對應內容。故代理關係與「日本以外全球唯一總代理」之 exclusivity 既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2009:objective_ranking_or_market_share:40ef15d8963c4f66",
+      "normalized_claim_hash": "40ef15d8963c4f66458c339ae2e21303e064b18e4a641eceeb4a537ca914dd4d",
+      "ticker": "2009",
+      "company": "第一銅",
+      "path": "Pilot_Reports/Copper/2009_第一銅.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "第一伸銅科技 (2009) 為台灣上游[[黃銅]]/[[磷青銅]]/[[白銅]]帶材專業廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fcht.com.tw/userfiles/Investors/F2023AR.pdf",
+          "title": "第一伸銅科技股份有限公司（第一銅，2009）112 年度年報（官方英文檔名 F2023AR）",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第7頁載其「生產各種黃銅片、板、管（材）」並開發「磷青銅、引線架銅等高級合金材料」。第74頁「營業比重」載黃銅片5%、紅銅片20%、高性能銅片24%等，並列「(4)磷青銅片」。第75頁「上游：銅片製造廠：如台灣目前有**第一伸銅**、名佳利、東弘、…」。第77頁載「(1)市場占有率：在台灣全部合金總銷售量約占**台灣市場30%**。高階產品部份：高性能、特殊合金等約占台灣（市場）…」。第78頁載「台灣市場獨占產品有銅鎳矽合金與銅鉻鋯新合金」。全份年報中「白銅」出現次數為0；「黃銅」12次、「磷青銅」7次、「市場占有率」3次。"
+        }
+      ],
+      "rationale": "「為台灣上游銅片帶材專業廠」獲發行人年報支持：第75頁載「上游：銅片製造廠：如台灣目前有**第一伸銅**、名佳利、東弘、…」，第77頁載其「在台灣全部合金總銷售量約占**台灣市場30%**」，第7頁載其生產各種黃銅片、板、管（材）並開發磷青銅、引線架銅等高級合金材料（「黃銅」12次、「磷青銅」7次）。惟「白銅」未獲支持：全份年報中「白銅」出現次數為0，年報所列產品為黃銅片、紅銅片、高性能銅片、磷青銅片與鍍錫銅片等。故部分成立。",
+      "proposed_text": "第一伸銅科技 (2009) 為台灣銅片製造廠，生產黃銅片、紅銅片、高性能銅片與磷青銅片等帶材，在台灣全部合金總銷售量約占台灣市場 30%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2009:objective_ranking_or_market_share:99c95bc4f4f81779",
+      "normalized_claim_hash": "99c95bc4f4f817794257d64beb261c0ee1ce3a0f3b982851ef0b41f1b58bf52a",
+      "ticker": "2009",
+      "company": "第一銅",
+      "path": "Pilot_Reports/Copper/2009_第一銅.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**第一銅** ([[黃銅]]/[[磷青銅]]/[[白銅]]帶材熔煉軋延)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fcht.com.tw/userfiles/Investors/F2023AR.pdf",
+          "title": "第一伸銅科技股份有限公司（第一銅，2009）112 年度年報（官方英文檔名 F2023AR）",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第7頁載其「生產各種黃銅片、板、管（材）」並開發「磷青銅、引線架銅等高級合金材料」。第74頁「營業比重」載黃銅片5%、紅銅片20%、高性能銅片24%等，並列「(4)磷青銅片」。第75頁「上游：銅片製造廠：如台灣目前有**第一伸銅**、名佳利、東弘、…」。第77頁載「(1)市場占有率：在台灣全部合金總銷售量約占**台灣市場30%**。高階產品部份：高性能、特殊合金等約占台灣（市場）…」。第78頁載「台灣市場獨占產品有銅鎳矽合金與銅鉻鋯新合金」。全份年報中「白銅」出現次數為0；「黃銅」12次、「磷青銅」7次、「市場占有率」3次。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「第一銅（黃銅/磷青銅/白銅帶材熔煉軋延）」）。黃銅片與磷青銅片之生產獲年報支持（「黃銅」12次、「磷青銅」7次，並載其開發磷青銅等高級合金材料）；惟「白銅」於全份年報中出現次數為0，未列為其產品項目。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5871:objective_ranking_or_market_share:5462990384cd01df",
+      "normalized_claim_hash": "5462990384cd01df3e5c964f179745ba3571d15c69be240f717c50220427aa1e",
+      "ticker": "5871",
+      "company": "中租-KY",
+      "path": "Pilot_Reports/Credit Services/5871_中租-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中租控股]] (5871，中租-KY) 為台灣最大金融租賃集團，以子公司[[中租迪和]]為核心，業務版圖橫跨台灣、中國及東協地區。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5871_110.pdf",
+          "title": "中租控股股份有限公司（中租-KY，5871）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（含永續發展資訊）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第10頁載「中租控股**穩居台灣租賃業領先地位**，成功因素在於擁有獨特的核心競爭力，與對中小企業客戶的合作模式，完整的產品線且提供客戶高附加價值的融資服務」；同頁載海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」。第5頁載「自2010年從本業設備融資延伸的節能技術服務，到跨入投資與自建太陽能電廠，在**2018年裝置容量已成為全台第一**，至2021年累積擁有**2,655座太陽能電廠**，年發電量為11.5億度」；另載「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」及「太陽能電廠裝置容量目標(1,091MW)」。第66頁載「2018年太陽能電廠數已達破千座，為**全台擁有最多太陽能電廠之企業**」，並載2017年推出「全民電廠－共享金融市集平台」。全份年報中「中租迪和」出現29次；「市佔率」「裕融」「和潤」「zingala」「銀角」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「以子公司中租迪和為核心」與「業務版圖橫跨台灣、中國及東協地區」獲發行人年報支持：110年度年報中「中租迪和」出現29次；第10頁載其海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」。惟「為**台灣最大**金融租賃集團」未獲支持：年報第10頁之官方用語為「中租控股**穩居台灣租賃業領先地位**」，未以「最大」自稱，亦未載租賃業務之市占率數字。故部分成立。",
+      "proposed_text": "中租控股 (5871，中租-KY) 以子公司中租迪和為核心，穩居台灣租賃業領先地位，業務版圖橫跨台灣、中國大陸及東協地區。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5871:objective_ranking_or_market_share:0d13f2e2c5782586",
+      "normalized_claim_hash": "0d13f2e2c5782586c8b3937bb1edd173839bc96a813547377f947647c82b0df6",
+      "ticker": "5871",
+      "company": "中租-KY",
+      "path": "Pilot_Reports/Credit Services/5871_中租-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣事業以中小企業設備融資租賃、分期付款及應收帳款承購為主力，市佔率長年居業界首位，主要同業競爭者包括[[裕融]]及[[和潤]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5871_110.pdf",
+          "title": "中租控股股份有限公司（中租-KY，5871）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（含永續發展資訊）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第10頁載「中租控股**穩居台灣租賃業領先地位**，成功因素在於擁有獨特的核心競爭力，與對中小企業客戶的合作模式，完整的產品線且提供客戶高附加價值的融資服務」；同頁載海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」。第5頁載「自2010年從本業設備融資延伸的節能技術服務，到跨入投資與自建太陽能電廠，在**2018年裝置容量已成為全台第一**，至2021年累積擁有**2,655座太陽能電廠**，年發電量為11.5億度」；另載「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」及「太陽能電廠裝置容量目標(1,091MW)」。第66頁載「2018年太陽能電廠數已達破千座，為**全台擁有最多太陽能電廠之企業**」，並載2017年推出「全民電廠－共享金融市集平台」。全份年報中「中租迪和」出現29次；「市佔率」「裕融」「和潤」「zingala」「銀角」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「台灣事業以中小企業設備融資租賃、分期付款及應收帳款承購為主力」獲發行人年報支持：第10頁載其業務項目為「租賃、分期付款、應收帳款受讓管理、放款等」，並載其核心競爭力在於「與對中小企業客戶的合作模式」。惟兩項陳述未獲支持：(1)「市佔率長年居業界首位」——全份年報中「市佔率」出現次數為0，未載租賃業務之市占率或排名數字；(2)「主要同業競爭者包括裕融及和潤」——「裕融」「和潤」出現次數均為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5871:objective_ranking_or_market_share:87162f778667a426",
+      "normalized_claim_hash": "87162f778667a426d72741f8538ca378d959f4a961d35f7627e7ed4ba4147862",
+      "ticker": "5871",
+      "company": "中租-KY",
+      "path": "Pilot_Reports/Credit Services/5871_中租-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "消費金融方面，旗下「[[zingala]]銀角零卡」為台灣最大先買後付 (BNPL) 平台，會員逾 86 萬人、合作商家超過 4 萬家。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5871_110.pdf",
+          "title": "中租控股股份有限公司（中租-KY，5871）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（含永續發展資訊）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第10頁載「中租控股**穩居台灣租賃業領先地位**，成功因素在於擁有獨特的核心競爭力，與對中小企業客戶的合作模式，完整的產品線且提供客戶高附加價值的融資服務」；同頁載海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」。第5頁載「自2010年從本業設備融資延伸的節能技術服務，到跨入投資與自建太陽能電廠，在**2018年裝置容量已成為全台第一**，至2021年累積擁有**2,655座太陽能電廠**，年發電量為11.5億度」；另載「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」及「太陽能電廠裝置容量目標(1,091MW)」。第66頁載「2018年太陽能電廠數已達破千座，為**全台擁有最多太陽能電廠之企業**」，並載2017年推出「全民電廠－共享金融市集平台」。全份年報中「中租迪和」出現29次；「市佔率」「裕融」「和潤」「zingala」「銀角」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「旗下『zingala 銀角零卡』為台灣最大先買後付 (BNPL) 平台，會員逾86萬人、合作商家超過4萬家」未獲確立：本批次可檢視之最近官方文件為110年度年報（2021年），全份文件中「zingala」與「銀角」出現次數均為0，未載該品牌、會員數或合作商家數。故該平台之市場地位與營運數字既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案（註記：該品牌之揭露應見於較近年度的官方文件，建議後續以2023年以後之年報或永續報告書重查）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5871:objective_ranking_or_market_share:8a01608f52e45045",
+      "normalized_claim_hash": "8a01608f52e45045b6cc65fcf04416d2613df2d2ac1722b7fc0b78c4b891e30a",
+      "ticker": "5871",
+      "company": "中租-KY",
+      "path": "Pilot_Reports/Credit Services/5871_中租-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "綠能事業為第二成長曲線，截至 2024 年底持有太陽能電廠裝置容量超過 1.5GW，為台灣民間最大太陽能電廠營運商，並透過「[[中租全民電廠]]」平台開放民眾認購太陽能板，電力售予[[台電]]；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_5871_110.pdf",
+          "title": "中租控股股份有限公司（中租-KY，5871）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度（含永續發展資訊）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。第10頁載「中租控股**穩居台灣租賃業領先地位**，成功因素在於擁有獨特的核心競爭力，與對中小企業客戶的合作模式，完整的產品線且提供客戶高附加價值的融資服務」；同頁載海外布局「擴及中國大陸、泰國、越南、馬來西亞、柬埔寨、菲律賓與印尼」。第5頁載「自2010年從本業設備融資延伸的節能技術服務，到跨入投資與自建太陽能電廠，在**2018年裝置容量已成為全台第一**，至2021年累積擁有**2,655座太陽能電廠**，年發電量為11.5億度」；另載「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」及「太陽能電廠裝置容量目標(1,091MW)」。第66頁載「2018年太陽能電廠數已達破千座，為**全台擁有最多太陽能電廠之企業**」，並載2017年推出「全民電廠－共享金融市集平台」。全份年報中「中租迪和」出現29次；「市佔率」「裕融」「和潤」「zingala」「銀角」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「綠能事業為第二成長曲線、為台灣民間最大太陽能電廠營運商、透過『中租全民電廠』平台開放民眾認購太陽能板並售電」獲發行人年報支持：第5頁載「在2018年裝置容量已成為**全台第一**，至2021年累積擁有2,655座太陽能電廠，年發電量為11.5億度」，第66頁載「為**全台擁有最多太陽能電廠之企業**」並載2017年推出「全民電廠－共享金融市集平台」、民眾可直接參與投資並認購太陽能板。惟「截至**2024年底**持有太陽能電廠裝置容量**超過1.5GW**」未獲支持：110年度年報所載為「2021年底合計擁有2,655座太陽能電廠。電廠發電總容量達**918.22MW**」，並載裝置容量目標為1,091MW，未載2024年底或1.5GW之數據。故部分成立。",
+      "proposed_text": "中租控股 (5871) 綠能事業自 2018 年起裝置容量為全台第一，2021 年底累積 2,655 座太陽能電廠、發電總容量 918.22MW，並透過「中租全民電廠」平台開放民眾認購太陽能板。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

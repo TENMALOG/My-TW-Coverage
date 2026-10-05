@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 03:04 UTC
+Updated: 2026-10-07 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **281 / 1,399**
-- Remaining author review: **1,118**
-- Latest batch: **author-051** (4 claims)
+- Author-reviewed: **289 / 1,399**
+- Remaining author review: **1,110**
+- Latest batch: **author-052** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **179**
+- `PARTIALLY_SUPPORTED`: **185**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **45**
+- `UNKNOWN_AFTER_RESEARCH`: **47**
 
 ## Latest claim batch
 
-- `5225:objective_ranking_or_market_share:9878893f3dc16044` — `PARTIALLY_SUPPORTED`; 東科114年議事手冊第9/10/11/16頁載OEM／ODM／JDM一站式模式、Sound Bars核心產品（Sound Bar 4次、聲霸2次）；惟「全球最大」與「市佔」皆0次。
-- `5225:objective_ranking_or_market_share:534c2c4cfb9c89c8` — `PARTIALLY_SUPPORTED`; 第9/11/12頁載Sound Bars為核心與成長大宗；惟未載全球市占率或排名。
-- `5225:objective_ranking_or_market_share:017ed3b68dac411f` — `PARTIALLY_SUPPORTED`; 第9頁載「韓系、日系及歐美系都有成長」；惟「Samsung」「三星」「LG」皆0次、「最大客戶」未載。
-- `5283:objective_ranking_or_market_share:6faaf45e05c0640f` — `PARTIALLY_SUPPORTED`; 禾聯碩114年報第5/52/67頁載智慧聯網與高畫質（高畫質6次）；惟第65頁自揭2024年度液晶顯示器**市占率5.61%**（空調20.99%），與claim「台灣市佔率極高」不符，全份「極高」0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-051.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6225:objective_ranking_or_market_share:328bec4589432b52` (天瀚).
+- `6225:objective_ranking_or_market_share:328bec4589432b52` — `PARTIALLY_SUPPORTED`; 天瀚111年報沿革載美/德/上海 AIPTEK 行銷公司，及「2000年04月推出**全球第一台3合1筆式數位視訊相機**」；惟「HyperPen」0次。
+- `6728:objective_ranking_or_market_share:d66093d3d854cbc7` — `UNKNOWN_AFTER_RESEARCH`; 上洋114年報文字層為亂碼無法判讀，「AQUA」「Huebsch」「總代理」等皆0次。
+- `2009:objective_ranking_or_market_share:40ef15d8963c4f66`、`99c95bc4f4f81779` — `PARTIALLY_SUPPORTED` ×2; 第一銅112年報第75/77頁載其為台灣銅片製造廠、台灣全部合金總銷售量約占**30%**、黃銅12次與磷青銅7次；惟「白銅」0次。
+- `5871:objective_ranking_or_market_share:5462990384cd01df` — `PARTIALLY_SUPPORTED`; 第10頁「穩居台灣租賃業領先地位」、「中租迪和」29次、海外布局含中國大陸與東協7國；惟未以「最大」自稱。
+- `5871:objective_ranking_or_market_share:0d13f2e2c5782586` — `PARTIALLY_SUPPORTED`; 業務項目與中小企業客群獲支持；惟「市佔率」0次、「裕融」「和潤」皆0次。
+- `5871:objective_ranking_or_market_share:87162f778667a426` — `UNKNOWN_AFTER_RESEARCH`; 110年報中「zingala」「銀角」皆0次，未載BNPL平台。
+- `5871:objective_ranking_or_market_share:8a01608f52e45045` — `PARTIALLY_SUPPORTED`; 第5/66頁載2018年裝置容量全台第一、2021年底2,655座電廠、發電總容量**918.22MW**、全民電廠平台；惟「2024年底超過1.5GW」未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-052.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6592:objective_ranking_or_market_share:2860da8fae309c7a` (和潤企業).
 
 ## Source access
 
