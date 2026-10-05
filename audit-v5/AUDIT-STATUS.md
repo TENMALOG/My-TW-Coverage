@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 19:04 UTC
+Updated: 2026-10-06 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **241 / 1,399**
-- Remaining author review: **1,158**
-- Latest batch: **author-043** (8 claims)
+- Author-reviewed: **245 / 1,399**
+- Remaining author review: **1,154**
+- Latest batch: **author-044** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **150**
+- `PARTIALLY_SUPPORTED`: **154**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` — `PARTIALLY_SUPPORTED`; 群光2025年報載「自72年2月22日成立」（1983）、總部新北三重、第63/64頁「NB鍵盤、影像模組以及電源供應器產品都是全球市佔率第一」與「均居全球龍頭」；惟「連續多年」0次。
-- `2385:objective_ranking_or_market_share:abe9e706555f9c9d`、`bdefdbbe34f7abee`、`57a3aa507e64e4f6` — `ACCEPTED` ×3; 同頁支持筆電鍵盤全球第一與影像模組全球市佔第一，第56頁產品線含桌機鍵盤、滑鼠、數位攝影機與相機模組，第62頁載IPcam應用、文中「行車紀錄」6次與LED ADB車燈開發。
-- `2387:objective_ranking_or_market_share:fc8df196f3e558dc`、`e5e02db27813e6d2` — `ACCEPTED` ×2; 精元2024永續報告第27頁載「創立於1975年」、「目前為世界第一大筆記型電腦鍵盤製造商」，第30頁沿革載台中市電腦商業同業公會參與紀錄。
-- `2395:objective_ranking_or_market_share:46485c9c097dd36f`、`9566784397e27fb6` — `PARTIALLY_SUPPORTED` ×2; 研華113年報多處論述工業電腦（19次）與相關產品獲獎；惟「全球最大」出現0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-043.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` (神基).
+- `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` — `PARTIALLY_SUPPORTED`; 神基2025簡報第8頁載豐達為「系統認證廠商…為**亞太區少數**獲認證的航太扣（件廠）」（非「唯一」），豐達2026簡報第5/6/7頁載航太扣件與GE90／GEnx／GE9X；惟「Snecma／Safran」0次。
+- `3013:objective_ranking_or_market_share:0924d32218acf258` — `PARTIALLY_SUPPORTED`; 晟銘電115年議事手冊載「持續深耕伺服器機殼、機櫃與系統結構件領域」；惟廣達／緯創／緯穎與「最大」皆0次。
+- `3272:objective_ranking_or_market_share:48f05562f3b2586d` — `PARTIALLY_SUPPORTED`; 東碩2014簡報第31頁載2013年完成 worldwide 第一台 Thunderbolt Light Ridge 擴充基座；惟「全球最大」0次、無USB-C字樣。
+- `3406:objective_ranking_or_market_share:ccb265f012ed9da6` — `PARTIALLY_SUPPORTED`; 玉晶光113年報第59頁客戶以代號揭露（113年甲32.36%、乙31.15%）、第67頁載最大客戶占32.36%且為國際品牌大廠指定之交貨客戶；惟 Apple／Huawei／Vivo 皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-044.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `3479:objective_ranking_or_market_share:ec2d0140eda8f433` (安勤).
 
 ## Source access
 

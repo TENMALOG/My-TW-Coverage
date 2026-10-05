@@ -1,0 +1,117 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-044",
+  "reviewed_at": "2026-10-05T17:37:13Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (豐達科技2026年法人說明會簡報; 神基控股2025年法人說明會簡報; 晟銘電115年股東常會議事手冊; 東碩資訊2014年法人說明會簡報; 玉晶光113年度年報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3005:objective_ranking_or_market_share:a3b2b980edcf8e31",
+      "normalized_claim_hash": "a3b2b980edcf8e3127d27ad0b23cb78690ba1dbe015052a82acce1b4254498fd",
+      "ticker": "3005",
+      "company": "神基",
+      "path": "Pilot_Reports/Computer Hardware/3005_神基.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 機電與能源事業 — 轉投資豐達科技 ([[NAFCO]]) 專製航太發動機扣件（通過 [[GE]] 及 [[Safran]] 旗下 Snecma 認證，為亞太唯一合格航太發動機扣件廠），另有汽車安全帶扣件與[[電動車]]機構件業務。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/300520251119M001.pdf",
+          "title": "神基控股股份有限公司（神基，3005）法人說明會簡報（2025-11-19）",
+          "source_level": 3,
+          "period_binding": "2025年11月；2024年合併營收356.68億元。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第6頁載集團事業群包含強固型電腦與豐達科技（航太事業群）。第8頁載「（豐達為）系統認證廠商，生產航太應用與高階工業應用之扣件產品，為**亞太區少數獲認證的航太扣（件廠）**」，並載豐達科技為 TWSE:3004。第10頁產品線營收比重含航太扣件。第11頁載合併營收連續十二年持續成長。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/300420260526M001.pdf",
+          "title": "豐達科技股份有限公司（豐達科，3004）法人說明會簡報（2026-05-26）",
+          "source_level": 3,
+          "period_binding": "2026年5月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第1頁標語為「以無可妥協的航太扣件，鏈結全球最先進的引擎」。第5頁載「主要產品：航太扣件與機加鍛造件、汽車扣件」。第6頁載「NAFCO：四大航太引擎OEM認證供應商」。第7頁載其打入 CFM/GE 之 GE90、GEnx、GE9X 等引擎平台，並載「NAFCO：深度覆蓋一線OEM發動機平台」。第10頁產品含航太扣件、航太車削件與工業扣件。第25頁載馬來西亞子公司 MY NAFCO PRECISION SDN. BHD. 與當地航太產業環境（Airbus、Rolls-Royce、Boeing、GE、Pratt & Whitney）。全份簡報未出現「亞太唯一」或「Snecma／Safran」之客戶認證敘述。"
+        }
+      ],
+      "rationale": "「轉投資豐達科技專製航太發動機扣件、通過 GE 認證」獲發行人來源支持：神基簡報第6及10頁載豐達科技為集團航太事業群、產品線含航太扣件，第8頁載其為「系統認證廠商，生產航太應用與高階工業應用之扣件產品」；豐達科技自身簡報第5頁載「主要產品：航太扣件與機加鍛造件、汽車扣件」，第6頁載「NAFCO：四大航太引擎OEM認證供應商」，第7頁載其打入 CFM/GE 之 GE90、GEnx、GE9X 平台。惟多項陳述未獲支持：(1)「亞太唯一合格航太發動機扣件廠」——神基官方用語為「**亞太區少數**獲認證的航太扣（件廠）」，即「少數」而非「唯一」；(2)「通過 Safran 旗下 Snecma 認證」——查閱之兩份簡報中「Snecma」「Safran」均未出現（第7頁所載為 CFM/GE，CFM 為 GE 與 Safran 之合資公司，惟簡報未載 Safran 認證）；(3)「汽車安全帶扣件與電動車機構件」——豐達簡報僅載「汽車扣件」，未載安全帶扣件或電動車機構件。故部分成立。",
+      "proposed_text": "神基轉投資之豐達科技（NAFCO，3004）生產航太扣件與機加鍛造件，為四大航太引擎 OEM 認證供應商，可提供 GE90、GEnx、GE9X 等引擎平台扣件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3013:objective_ranking_or_market_share:0924d32218acf258",
+      "normalized_claim_hash": "0924d32218acf258e39d1db0666256a13d7739b611881753d8d3a19cac03e4f0",
+      "ticker": "3013",
+      "company": "晟銘電",
+      "path": "Pilot_Reports/Computer Hardware/3013_晟銘電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[廣達]] (最大客戶)、[[緯創]]、[[緯穎]] — AI 伺服器機殼代工",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.uneec.com/Content/Upload/Financial%20Information/%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E8%A8%8A/115%E5%B9%B4%E6%99%9F%E9%8A%98%E9%9B%BB%E5%AD%90%E6%89%8B%E5%86%8A(%E4%B8%8A).pdf",
+          "title": "晟銘電子股份有限公司（晟銘電，3013）115 年股東常會議事手冊（上）",
+          "source_level": 3,
+          "period_binding": "民國114年度營業報告。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。手冊載「本公司持續深耕伺服器機殼、機櫃與系統結構件領域，隨著人工智慧（AI）…」；文中「伺服器」出現10次、「機殼」1次、「客戶」10次。全份文件中「廣達」「緯創」「緯穎」與「最大」之出現次數均為0，未具名列示客戶或客戶排名。"
+        }
+      ],
+      "rationale": "「從事伺服器機殼代工」獲發行人議事手冊支持：手冊載「本公司持續深耕伺服器機殼、機櫃與系統結構件領域，隨著人工智慧（AI）…」；文中「伺服器」出現10次、「機殼」1次。惟「廣達（最大客戶）、緯創、緯穎」未獲支持：全份文件中「廣達」「緯創」「緯穎」及「最大」之出現次數均為0，未具名列示客戶或客戶排名。故部分成立。",
+      "proposed_text": "晟銘電 (3013) 深耕伺服器機殼、機櫃與系統結構件領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3272:objective_ranking_or_market_share:48f05562f3b2586d",
+      "normalized_claim_hash": "48f05562f3b2586df5594f56947e3130f941eaff540f595befd98d12ad8d21d1",
+      "ticker": "3272",
+      "company": "東碩",
+      "path": "Pilot_Reports/Computer Hardware/3272_東碩.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "東碩資訊 (3272，[[Good Way Technology]]) 為全球最大擴充基座 (Docking Station) ODM 製造商，專注於 Thunderbolt 與 USB-C 高速傳輸技術。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/327220140801E001.pdf",
+          "title": "東碩資訊股份有限公司（東碩，3272）法人說明會簡報（2014-08-01）",
+          "source_level": 3,
+          "period_binding": "2014年8月現況。",
+          "accessed_at": "2026-10-06",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第8頁擴充基座產品線列 USB 2.0／USB 3.0高速／Thunderbolt／4K2K／USB 3.1超高速數位／無線／行動擴充基座。第15及29頁載擴充基座（Docking Station）市場量能與 ODM 機會。第31頁載「高速介面為未來PC 發展的重要趨勢，而其中又以Thunderbolt 的介面的速度最為突出，東碩資訊於2013年成功完成 worldwide 第一台 Thunderbolt Light Ridge 擴充基座的研發與上市」，並載其正與 Intel 合作進行第二代 Falcon Ridge 擴充基座研發。全份簡報未出現「全球最大」或「USB-C」（該簡報發布於2014年，早於 USB-C 普及）。"
+        }
+      ],
+      "rationale": "「為擴充基座 ODM 製造商、專注 Thunderbolt 高速傳輸技術」獲發行人官方簡報支持：第8頁列多項擴充基座產品線（含 Thunderbolt、USB 3.0／3.1），第29頁載其 ODM 與市場量能，第31頁載「東碩資訊於2013年成功完成 worldwide **第一台** Thunderbolt Light Ridge 擴充基座的研發與上市」，並載其與 Intel 合作開發第二代產品。惟兩項陳述未獲支持：(1)「全球最大擴充基座 ODM 製造商」——全份簡報中「全球最大」出現次數為0；(2)「USB-C」——該簡報發布於2014年，未出現 USB-C 字樣（僅載 USB 3.1）。故部分成立。",
+      "proposed_text": "東碩資訊 (3272，Good Way Technology) 為擴充基座 (Docking Station) ODM 製造商，2013 年完成全球第一台 Thunderbolt Light Ridge 擴充基座，專注高速傳輸介面技術。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3406:objective_ranking_or_market_share:ccb265f012ed9da6",
+      "normalized_claim_hash": "ccb265f012ed9da638305b3f12b80a0ead84e7d3928d89e6be80f3722aa1ac1b",
+      "ticker": "3406",
+      "company": "玉晶光",
+      "path": "Pilot_Reports/Computer Hardware/3406_玉晶光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**手機品牌**: [[Apple]] (最大客戶), Huawei, Vivo.",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gseo.com/uploads/shareholdersmeetingfiles/689598de9a045.pdf",
+          "title": "玉晶光電股份有限公司（玉晶光，3406）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度；客戶資料截至114年第一季。",
+          "accessed_at": "2026-10-06",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第59頁「最近二年度主要銷貨客戶資料」以代號揭露：112年 A公司 6,184,161仟元、28.53%，B公司 5,756,875仟元、26.56%，C公司 2,067,533仟元、9.54%；113年甲、乙、丙公司分別為32.36%、31.15%、8.53%。第67頁載「集團113年度最大銷貨客戶雖佔總營業淨額約32.36%，惟仍係屬國際品牌大廠所指定的交貨客戶」。全份年報中「Apple」「蘋果」「Huawei」「華為」「Vivo」之出現次數均為0。年報載其業務為光學鏡片與光學鏡頭之製造銷售（鏡頭製品占113年營收74%）。"
+        }
+      ],
+      "rationale": "「最大客戶為手機品牌」之結構獲發行人年報部分支持：第59頁「最近二年度主要銷貨客戶資料」顯示單一最大客戶占113年度銷貨淨額32.36%、次大31.15%（以代號甲、乙、丙及 A、B、C 公司揭露），第67頁並載「集團113年度最大銷貨客戶雖佔總營業淨額約32.36%，惟仍係屬國際品牌大廠所指定的交貨客戶」，顯示其確有國際品牌大廠客戶。惟「Apple（最大客戶）、Huawei、Vivo」三家具名未獲支持：全份年報中「Apple」「蘋果」「Huawei」「華為」「Vivo」之出現次數均為0，客戶一律以代號表示。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **241 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), and `author-043` (8).
+Author-reviewed: **245 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), and `author-044` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 150
+- PARTIALLY_SUPPORTED: 154
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 34
-- Remaining author queue: 1,158
+- Remaining author queue: 1,154
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -524,6 +524,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-043.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **241 / 1,399**; remaining: **1,158**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 150, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` (神基).
+
+## Author batch `author-044` — 2026-10-06
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (神基 3005, 晟銘電 3013, 東碩 3272, 玉晶光 3406). Evidence came from directly downloaded and inspected official disclosures: 豐達科技2026年法人說明會簡報、神基控股2025年法人說明會簡報、晟銘電115年股東常會議事手冊、東碩資訊2014年法人說明會簡報、玉晶光113年度年報。
+- `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` — `PARTIALLY_SUPPORTED`. 神基2025年官方簡報第8頁載豐達科技為「系統認證廠商，生產航太應用與高階工業應用之扣件產品，為**亞太區少數獲認證的航太扣（件廠）**」——官方用語為「少數」而非 claim 之「唯一」；豐達科技自身簡報第5頁載主要產品為航太扣件與機加鍛造件、汽車扣件，第6頁載其為「四大航太引擎OEM認證供應商」，第7頁載其打入 CFM/GE 之 GE90、GEnx、GE9X 引擎平台。惟「通過 Safran 旗下 Snecma 認證」未獲支持——兩份簡報中「Snecma」「Safran」均未出現；「汽車安全帶扣件與電動車機構件」亦未載（僅載汽車扣件）。
+- `3013:objective_ranking_or_market_share:0924d32218acf258` — `PARTIALLY_SUPPORTED`. 晟銘電子115年股東常會議事手冊載「本公司持續深耕伺服器機殼、機櫃與系統結構件領域，隨著人工智慧（AI）…」，支持其伺服器機殼業務；惟全份文件中「廣達」「緯創」「緯穎」與「最大」出現次數均為0，客戶身分與最大客戶地位未獲支持。
+- `3272:objective_ranking_or_market_share:48f05562f3b2586d` — `PARTIALLY_SUPPORTED`. 東碩2014年官方簡報第8頁列多項擴充基座產品線（USB 2.0／3.0／Thunderbolt／4K2K／USB 3.1），第31頁載「東碩資訊於2013年成功完成 worldwide 第一台 Thunderbolt Light Ridge 擴充基座的研發與上市」，並載其與 Intel 合作進行第二代 Falcon Ridge 研發。惟「全球最大擴充基座 ODM 製造商」未獲支持（「全球最大」出現次數為0），「USB-C」亦未出現（簡報發布於2014年，僅載 USB 3.1）。
+- `3406:objective_ranking_or_market_share:ccb265f012ed9da6` — `PARTIALLY_SUPPORTED`. 玉晶光113年度年報第59頁「最近二年度主要銷貨客戶資料」以代號揭露（113年度甲、乙、丙公司分別為32.36%、31.15%、8.53%），第67頁載「集團113年度最大銷貨客戶雖佔總營業淨額約32.36%，惟仍係屬國際品牌大廠所指定的交貨客戶」，支持其確有國際品牌大廠客戶。惟「Apple（最大客戶）、Huawei、Vivo」三家具名未獲支持——全份年報中「Apple」「蘋果」「Huawei」「華為」「Vivo」出現次數均為0。
+- Proposed wording is recorded for the partial claims in `semantic/author-044.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。本批次因時間預算僅完成 4 筆，佇列順序不受影響（下一筆為 3479 安勤）。
+- Author-reviewed total: **245 / 1,399**; remaining: **1,154**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 154, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `3479:objective_ranking_or_market_share:ec2d0140eda8f433` (安勤).
+
 
 
 
