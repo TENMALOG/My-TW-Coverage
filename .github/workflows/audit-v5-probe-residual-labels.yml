@@ -1,0 +1,26 @@
+name: Audit v5 probe residual MOPS labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [audit-v5]
+    paths:
+      - "audit-v5/probe_residual_mops_labels.py"
+      - ".github/workflows/audit-v5-probe-residual-labels.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install beautifulsoup4
+      - run: python -X utf8 audit-v5/probe_residual_mops_labels.py
