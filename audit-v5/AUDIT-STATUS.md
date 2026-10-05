@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 21:04 UTC
+Updated: 2026-10-08 22:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **548 / 1,399**
-- Remaining author review: **851**
-- Latest batch: **author-093** (8 claims)
+- Author-reviewed: **556 / 1,399**
+- Remaining author review: **843**
+- Latest batch: **author-094** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **75**
-- `PARTIALLY_SUPPORTED`: **360**
+- `PARTIALLY_SUPPORTED`: **364**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **109**
+- `UNKNOWN_AFTER_RESEARCH`: **113**
 
 ## Latest claim batch
 
-- `2636:objective_ranking_or_market_share:b0e48b98528244b3` — `UNKNOWN_AFTER_RESEARCH`；台驊官方財務專區為文件索引，未提供可下載年報或簡報。
-- `2642:objective_ranking_or_market_share:6cfd9d7f082d8b12` — `PARTIALLY_SUPPORTED`；宅配通財報載「汽車路線貨運及宅配等專業物流配送服務」與「**東元電機股份有限公司持有本公司**」（東元15次）；惟「第一家」「戶對戶」「日本通運」皆0次。
-- `5287:objective_ranking_or_market_share:b429f32154c5e076` — `PARTIALLY_SUPPORTED`；數字年報載591（85次）、8591（35次）等平台組合；惟「高市佔率」之概括表述未見（「市占」0次）。
-- `5287:objective_ranking_or_market_share:ee2db393fbb7a072` — `PARTIALLY_SUPPORTED`；591之平台存在與業務成立；惟「**台灣最大**房屋租售媒合平台」未獲支持（文件中以「最大」描述者為**8591**與**小雞上工**，非591）。
-- `5287:objective_ranking_or_market_share:bd1a0819aadbeb8c` — `ACCEPTED`；年報載「**8591 寶物交易網：臺灣最大的線上遊戲虛擬寶物交易平台**」——逐字對應。
-- `8454:objective_ranking_or_market_share:831fc9adc6fce229`、`8562fb574e9c1bc9`、`faf0013285a9ca12` — `PARTIALLY_SUPPORTED` ×3；富邦媒2024年報（**英文版**）載「**leading e-commerce player**」與「leading the **No. 1 e-commerce brand**」（e-commerce 35次、B2C 9次）；惟「突破千億」未見，且中文關鍵字於英文文件中均0次（須改以英文比對）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-093.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `1432:objective_ranking_or_market_share:308460c572bff85d` (大魯閣).
+- `1432:objective_ranking_or_market_share:308460c572bff85d` — `PARTIALLY_SUPPORTED`；大魯閣年報載「壘球打擊場，**4 家保齡球館**、1 家卡丁車場、3 家『Roller 186 滑輪場』…」與「為**台灣最大的運動休閒場館經營者之一**」（棒壘球6次、打擊場14次）；惟「唯一」0次、「12座」0次，且官方用語含「**之一**」。
+- `1515:objective_ranking_or_market_share:5787037fd7c3cb1b`、`e690fdc93cc165d0` — `UNKNOWN_AFTER_RESEARCH` ×2；力山簡報文字擷取**僅2,124字元**，Peloton／Life Fitness／Precor／Technogym／「最大」皆0次。
+- `1598:objective_ranking_or_market_share:e02e4b48f7e5db2a` — `UNKNOWN_AFTER_RESEARCH`；岱宇官方年報端點回應 **HTTP 404**。
+- `1736:objective_ranking_or_market_share:6ff73dcc29c7c647` — `UNKNOWN_AFTER_RESEARCH`；喬山簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
+- `2762:objective_ranking_or_market_share:d7e0098f0ada0257` — `PARTIALLY_SUPPORTED`；世界健身議事錄載2024年掛牌上市與完成收購美國 World Gym International；惟「市佔」「45萬」「100間」皆0次（「第一」4次為「第一季」「第一審」）。
+- `4536:objective_ranking_or_market_share:7dac44f797d7d0a3`、`a33703172baf7eba` — `PARTIALLY_SUPPORTED` ×2；拓凱簡報（英文版）載「tennis racket」沿革與「bike and helmet」多元業務，Wilson／Babolat 各1次；惟「largest」「leading」「world」「No.1」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-094.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` (復盛應用).
 
 ## Source access
 

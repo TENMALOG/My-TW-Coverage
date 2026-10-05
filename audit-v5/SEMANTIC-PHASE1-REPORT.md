@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **548 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), and `author-093` (8).
+Author-reviewed: **556 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), and `author-094` (8).
 
 - ACCEPTED by author: 75
-- PARTIALLY_SUPPORTED: 360
+- PARTIALLY_SUPPORTED: 364
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 109
-- Remaining author queue: 851
+- Other allowed author decisions: 113
+- Remaining author queue: 843
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1106,6 +1106,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **109 筆**。
 - Author-reviewed total: **548 / 1,399**; remaining: **851**. Outcome counts: ACCEPTED 75, PARTIALLY_SUPPORTED 360, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 109. Next pending claim by priority: `1432:objective_ranking_or_market_share:308460c572bff85d` (大魯閣).
+
+## Author batch `author-094` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (大魯閣 1432, 力山 1515 ×2, 岱宇 1598, 喬山 1736, 世界健身-KY 2762, 拓凱 4536 ×2). Evidence came from directly downloaded and inspected official disclosures: 大魯閣年報、世界健身-KY 2025年股東常會議事錄、拓凱2024 Q4投資人簡報（英文版）。
+- `1432:objective_ranking_or_market_share:308460c572bff85d` — `PARTIALLY_SUPPORTED`. 大魯閣年報載其「（棒）壘球打擊場，**4 家保齡球館**、1 家卡丁車場、3 家『Roller 186 滑輪場』、2 家『福湯岩盤浴』」（「棒壘球」6次、「打擊場」14次、「保齡球」5次），其中「**4 家保齡球館**」與 claim 相符；惟「全台**唯一**」（「唯一」0次）、「規模最大」（年報用語為「為**台灣最大的運動休閒場館經營者之一**」，**含「之一」之緩和語**）與「全國擁有 **12 座打擊場**」（「12 座」0次）未獲支持。
+- `1515:objective_ranking_or_market_share:5787037fd7c3cb1b` 與 `e690fdc93cc165d0` — `UNKNOWN_AFTER_RESEARCH`. 力山官方簡報之文字擷取**僅2,124字元**（19頁）且實質內容極少，以關鍵字檢索「Peloton」「Life Fitness」「Precor」「Technogym」與「最大」之出現次數均為0，不足以支持或否定 claim 所述之客戶組合與營收結構。
+- `1598:objective_ranking_or_market_share:e02e4b48f7e5db2a` — `UNKNOWN_AFTER_RESEARCH`. 岱宇官方網域之108年度年報端點回應 **HTTP 404**，未取得可檢視之檔案。
+- `1736:objective_ranking_or_market_share:6ff73dcc29c7c647` — `UNKNOWN_AFTER_RESEARCH`. 喬山法人說明會簡報端點所取得之檔案**僅690 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**，故不予採用。
+- `2762:objective_ranking_or_market_share:d7e0098f0ada0257` — `PARTIALLY_SUPPORTED`. 世界健身-KY 2025年股東常會議事錄載「2024年，是世界健身-KY展現市場影響力的一年…世界健身-KY在2024年1月24日正式掛牌上市…並在同年10月28日宣布完成收購美國 World Gym Internati（onal）」，支持其品牌經營、上市與國際收購；惟「為台灣**市佔率第一**的連鎖健身品牌」（「**市佔**」0次；「第一」4次之上下文為「第一季」「第一審」）、「會員數超過 **45 萬人**」（0次）與「全台據點逾 **100 間**」（0次）均未獲支持。
+- `4536:objective_ranking_or_market_share:7dac44f797d7d0a3` 與 `a33703172baf7eba` — `PARTIALLY_SUPPORTED`. 拓凱2024 Q4投資人簡報（英文版）載「Started with **tennis racket** business」「Diversified into **bike and helmet** business」並見 **Wilson** 與 **Babolat** 各1次（「racket」7次、「helmet」5次、「bike」5次、「market share」2次）；惟「**largest**」「**leading**」「**world**」與「**No.1**」出現次數均為0，故「**全球最大**網球拍 OEM 廠」與「Wilson（**最大客戶**）」均未獲支持。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **113 筆**。
+- Author-reviewed total: **556 / 1,399**; remaining: **843**. Outcome counts: ACCEPTED 75, PARTIALLY_SUPPORTED 364, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 113. Next pending claim by priority: `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` (復盛應用).
+
 
 
 

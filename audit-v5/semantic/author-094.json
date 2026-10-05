@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-094",
+  "reviewed_at": "2026-10-05T19:44:04Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大魯閣年報; 世界健身-KY 2025年股東常會議事錄; 拓凱2024Q4投資人簡報英文版); 力山簡報文字擷取僅2,124字元、岱宇端點HTTP 404、喬山檔案僅690 bytes，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "1432:objective_ranking_or_market_share:308460c572bff85d",
+      "normalized_claim_hash": "308460c572bff85d7e7f2f8866fa8e35a971c46d55866064ade56a597157e28a",
+      "ticker": "1432",
+      "company": "大魯閣",
+      "path": "Pilot_Reports/Leisure/1432_大魯閣.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要業務包括：(1)「大魯閣棒壘球打擊場」— 全台唯一且規模最大的[[棒壘球]]連鎖店，全國擁有 12 座打擊場與 4 間保齡球館；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.taroko.com.tw/wp-content/uploads/2025/06/R1404001122%E5%A4%A7%E9%AD%AF%E9%96%A3%E5%AF%A6%E5%B9%B4%E5%A0%B1%E4%B8%8A.pdf",
+          "title": "大魯閣實業股份有限公司（大魯閣，1432，Taroko）年報",
+          "source_level": 3,
+          "period_binding": "文件所載數據含112年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其為「（棒）壘球打擊場，**4 家保齡球館**、1 家卡丁車場、3 家『Roller 186 滑輪場』、2 家『福湯岩盤浴』與（…）」，並載「（商）場、岩盤浴等，為**台灣最大的運動休閒場館經營者之一**，於台灣運動休閒市場佔有重（要地位）」（「棒壘球」6次、「打擊場」14次、「保齡球」5次、「最大」2次）。全份年報中「**唯一**」與「12 座」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「經營棒壘球打擊場與保齡球館」獲發行人年報支持：年報載其「（棒）壘球打擊場，**4 家保齡球館**、1 家卡丁車場、3 家『Roller 186 滑輪場』、2 家『福湯岩盤浴』」（「棒壘球」6次、「打擊場」14次、「保齡球」5次），其中「**4 家保齡球館**」與 claim 之「4 間保齡球館」相符。惟三項陳述未獲支持或須修正：(1)「全台**唯一**」——「唯一」出現次數為0；(2)「規模最大」——年報之用語為「為**台灣最大的運動休閒場館經營者之一**」，**含「之一」之緩和語**；(3)「全國擁有 **12 座打擊場**」——「12 座」出現次數為0，年報未載打擊場總數。故部分成立。",
+      "proposed_text": "大魯閣實業 (1432，Taroko) 經營棒壘球打擊場及保齡球館等運動休閒場館，為台灣最大的運動休閒場館經營者之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1515:objective_ranking_or_market_share:5787037fd7c3cb1b",
+      "normalized_claim_hash": "5787037fd7c3cb1ba0fc00917fcd69c6e01d9b7b9ac6dc477f46dbf09d2a4074",
+      "ticker": "1515",
+      "company": "力山",
+      "path": "Pilot_Reports/Leisure/1515_力山.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "健身器材為最大營收來源，主要客戶包括[[Peloton]] (跑步機/飛輪車)、[[Life Fitness]]、[[Precor]]、[[Technogym]]等全球知名品牌。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/151520221110M001.pdf",
+          "title": "力山工業股份有限公司（力山，1515，Rexon）法人說明會簡報（2022-11-10）（查證限制）",
+          "source_level": 3,
+          "period_binding": "2022年11月。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報，惟該檔案之文字擷取**僅2,124字元**（19頁），實質內容極少；以關鍵字檢索「Peloton」「Life Fitness」「Precor」「Technogym」與「最大」之出現次數**均為0**（「健身」2次）。該檔案不足以支持或否定 claim 所述之客戶組合與營收結構。"
+        }
+      ],
+      "rationale": "「健身器材為最大營收來源，主要客戶包括 Peloton、Life Fitness、Precor、Technogym 等全球知名品牌」未獲確立：力山官方簡報之文字擷取**僅2,124字元**且實質內容極少，以關鍵字檢索「Peloton」「Life Fitness」「Precor」「Technogym」與「最大」之出現次數均為0。該檔案不足以支持其客戶組合與營收結構，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1515:objective_ranking_or_market_share:e690fdc93cc165d0",
+      "normalized_claim_hash": "e690fdc93cc165d0c79061df245516d4a4cacb02944bea59fe188bd5e8f92b54",
+      "ticker": "1515",
+      "company": "力山",
+      "path": "Pilot_Reports/Leisure/1515_力山.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Peloton]] (最大客戶，跑步機/飛輪車)、[[Life Fitness]]、[[Precor]]、[[Technogym]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/151520221110M001.pdf",
+          "title": "力山工業股份有限公司（力山，1515，Rexon）法人說明會簡報（2022-11-10）（查證限制）",
+          "source_level": 3,
+          "period_binding": "2022年11月。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報，惟該檔案之文字擷取**僅2,124字元**（19頁），實質內容極少；以關鍵字檢索「Peloton」「Life Fitness」「Precor」「Technogym」與「最大」之出現次數**均為0**（「健身」2次）。該檔案不足以支持或否定 claim 所述之客戶組合與營收結構。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「Peloton（最大客戶，跑步機／飛輪車）、Life Fitness、Precor、Technogym」）。力山官方簡報中「**Peloton**」等客戶名稱出現次數均為0，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1598:objective_ranking_or_market_share:e02e4b48f7e5db2a",
+      "normalized_claim_hash": "e02e4b48f7e5db2a8eaee0b057976cdaafcf1bcb283971624f4266736becb960",
+      "ticker": "1598",
+      "company": "岱宇",
+      "path": "Pilot_Reports/Leisure/1598_岱宇.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Dick's Sporting Goods]] (美國最大合作夥伴)、[[Academy Sports]]",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://dyaco.com/getattachment/62bda19e-e04a-4e6e-ab2c-6f71538fbef5/%E6%B0%91%E5%9C%8B108%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf?lang=zh-ht",
+          "title": "岱宇國際股份有限公司（岱宇，1598，Dyaco）108 年度年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次自發行人官方網域下載108年度年報端點時回應 **HTTP 404**，未取得可檢視之檔案；本批次未取得岱宇之官方文件。"
+        }
+      ],
+      "rationale": "「Dick's Sporting Goods（美國最大合作夥伴）、Academy Sports」未獲確立：本批次自岱宇官方網域下載年報端點時回應 **HTTP 404**，未取得可檢視之官方文件，故其具名合作夥伴關係未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1736:objective_ranking_or_market_share:6ff73dcc29c7c647",
+      "normalized_claim_hash": "6ff73dcc29c7c6474a7768e5fe7b08f5e72d1446fb66ea754fd7b60547c5eae5",
+      "ticker": "1736",
+      "company": "喬山",
+      "path": "Pilot_Reports/Leisure/1736_喬山.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "喬山為台灣唯一具備全球品牌行銷能力之健身器材廠商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://mopsov.twse.com.tw/nas/STR/173620260812M001.pdf",
+          "title": "喬山健康科技股份有限公司（喬山，1736，Johnson）法人說明會簡報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-08。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次自公開資訊觀測站端點下載喬山法人說明會簡報時，所取得之檔案**僅690 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**，故不予採用；本批次未取得喬山可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「喬山為台灣唯一具備全球品牌行銷能力之健身器材廠商」未獲確立：本批次自公開資訊觀測站端點下載之喬山法人說明會簡報檔案**僅690 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**，故不予採用；本批次未取得喬山可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2762:objective_ranking_or_market_share:d7e0098f0ada0257",
+      "normalized_claim_hash": "d7e0098f0ada02575dc044fdaf64d903c80e11d926323caed73055c9a3deb850",
+      "ticker": "2762",
+      "company": "世界健身-KY",
+      "path": "Pilot_Reports/Leisure/2762_世界健身-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "世界健身-KY (2762，World Gym Taiwan) 是台灣市佔率第一的連鎖健身品牌，會員數超過 45 萬人，全台據點逾 100 間。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://investor.worldgymtaiwan.com/files/shareholder%20meeting/2025/2025-05-23-AGM%20Minutes-CH(FINAL).pdf",
+          "title": "世界健身股份有限公司（世界健身-KY，2762，World Gym Taiwan）2025年股東常會議事錄",
+          "source_level": 3,
+          "period_binding": "2025年5月23日；內容含2024年度事項。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。議事錄載「2024年，是世界健身-KY展現市場影響力的一年…世界健身-KY在2024年1月24日正式掛牌上市，股票代號2762進入投資市場；並在同年10月28日宣布完成收購美國 World Gym Internati（onal）」，支持其品牌與上市及收購事項。全份議事錄中「**市佔**」「45萬」「100間」與「會員數」之出現次數均為0；「第一」4次之上下文分別為「第一季」「第一審」（法院）等，非市場地位敘述。"
+        }
+      ],
+      "rationale": "「為台灣之連鎖健身品牌，且具市場影響力」獲發行人股東常會議事錄支持：議事錄載「2024年，是世界健身-KY展現市場影響力的一年…世界健身-KY在2024年1月24日正式掛牌上市，股票代號2762進入投資市場；並在同年10月28日宣布完成收購美國 World Gym Internati（onal）」，支持其品牌經營、上市與國際收購。惟三項具體陳述未獲支持：(1)「為台灣**市佔率第一**的連鎖健身品牌」——「**市佔**」出現次數為0（「第一」4次之上下文為「第一季」「第一審」，非市場地位）；(2)「會員數超過 **45 萬人**」——「45萬」與「會員數」均為0；(3)「全台據點逾 **100 間**」——「100間」為0。故部分成立。",
+      "proposed_text": "世界健身-KY (2762，World Gym Taiwan) 經營連鎖健身品牌，2024年於台灣掛牌上市並收購美國 World Gym International。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4536:objective_ranking_or_market_share:7dac44f797d7d0a3",
+      "normalized_claim_hash": "7dac44f797d7d0a3b0aeb17c2625bb2f2239422ab81716a6e7e7c524d038ec18",
+      "ticker": "4536",
+      "company": "拓凱",
+      "path": "Pilot_Reports/Leisure/4536_拓凱.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "拓凱是全球最大網球拍[[OEM]]廠，亦為高階自行車與安全帽之關鍵供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/453620241119E001.pdf",
+          "title": "拓凱實業股份有限公司（拓凱，4536，Topkey）投資人簡報 TOPKEY INVESTOR REPORT 2024 Q4（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年Q4。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（英文版）。簡報載「Started with **tennis racket** business」之沿革與「Diversified into **bike and helmet** business」，並見 **Wilson** 1次、**Babolat** 1次、**market share** 2次、**customer** 5次（「racket」7次、「helmet」5次、「bike」5次），支持其網球拍業務與自行車、安全帽產品線。全份簡報中「**largest**」「**leading**」「**world**」與「**No.1**」之出現次數**均為0**，未以全球最大或最大客戶表述。"
+        }
+      ],
+      "rationale": "「為網球拍 OEM 廠，亦為高階自行車與安全帽之關鍵供應商」獲發行人簡報支持：2024 Q4 投資人簡報載「Started with **tennis racket** business」之沿革與「Diversified into **bike and helmet** business」（「racket」7次、「helmet」5次、「bike」5次、「market share」2次），支持其網球拍製造及自行車、安全帽產品線。惟「是**全球最大**網球拍 OEM 廠」未獲支持：全份簡報中「**largest**」「**leading**」「**world**」與「**No.1**」之出現次數**均為0**，未以全球最大或第一表述其網球拍業務地位。故部分成立。",
+      "proposed_text": "拓凱實業 (4536，Topkey) 從事網球拍製造，並供應自行車與安全帽複合材料製品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4536:objective_ranking_or_market_share:a33703172baf7eba",
+      "normalized_claim_hash": "a33703172baf7eba130745bc4a36eeed0f13c6b1f1972039a0ac92cf2bf5902c",
+      "ticker": "4536",
+      "company": "拓凱",
+      "path": "Pilot_Reports/Leisure/4536_拓凱.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Wilson]] (最大客戶)、[[Babolat]] — 網球拍/羽球拍",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/453620241119E001.pdf",
+          "title": "拓凱實業股份有限公司（拓凱，4536，Topkey）投資人簡報 TOPKEY INVESTOR REPORT 2024 Q4（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年Q4。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（英文版）。簡報載「Started with **tennis racket** business」之沿革與「Diversified into **bike and helmet** business」，並見 **Wilson** 1次、**Babolat** 1次、**market share** 2次、**customer** 5次（「racket」7次、「helmet」5次、「bike」5次），支持其網球拍業務與自行車、安全帽產品線。全份簡報中「**largest**」「**leading**」「**world**」與「**No.1**」之出現次數**均為0**，未以全球最大或最大客戶表述。"
+        }
+      ],
+      "rationale": "「客戶包含 Wilson 與 Babolat」獲發行人簡報支持：簡報中「**Wilson**」與「**Babolat**」各出現1次（「customer」5次），支持該二品牌為其客戶。惟「**Wilson（最大客戶）**」未獲支持：全份簡報中「largest（customer）」出現次數為0，未以最大客戶表述該關係。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
