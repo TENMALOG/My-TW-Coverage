@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-111",
+  "reviewed_at": "2026-10-05T20:11:25Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (南亞科年報; 偉詮電3Q25法人說明會簡報; 京元電子113年度年報; 聯發科2025 Annual Report英文版)",
+  "items": [
+    {
+      "claim_id": "2408:objective_ranking_or_market_share:c4377f2679307d07",
+      "normalized_claim_hash": "c4377f2679307d074c31d056e7d4ff5752e0da714c2d7cfea8c39cbe9b7ac25a",
+      "ticker": "2408",
+      "company": "南亞科",
+      "path": "Pilot_Reports/Semiconductors/2408_南亞科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司是台灣最大的 **DRAM (動態隨機存取記憶體)** 製造商，也是全球第四大 [[DRAM]] 廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.nanya.com/tw/Activity?Action=Get_IRannualreport_FileName&Id=24",
+          "title": "南亞科技股份有限公司（南亞科，2408，Nanya Technology）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**DRAM**」出現77次、「全球」36次，支持其 DRAM 製造業務。全份年報中「**台灣最大**」與「**第四大**」之出現次數**均為0**，未以台灣最大 DRAM 製造商或全球第四大 DRAM 廠描述其市場地位。"
+        }
+      ],
+      "rationale": "「為 DRAM 製造商」獲發行人年報支持：年報中「**DRAM**」出現77次、「全球」36次，支持其 DRAM 製造業務。惟兩項市場地位陳述未獲支持：(1)「是台灣**最大**的 DRAM 製造商」——「台灣最大」出現次數為0；(2)「也是**全球第四大** DRAM 廠」——「第四大」出現次數為0。故部分成立。",
+      "proposed_text": "南亞科技 (2408，Nanya Technology) 為 DRAM（動態隨機存取記憶體）製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2436:objective_ranking_or_market_share:57909ce03d931541",
+      "normalized_claim_hash": "57909ce03d93154149bb49973ce27ed3aece2831120f09b50f63ba61e705a878",
+      "ticker": "2436",
+      "company": "偉詮電",
+      "path": "Pilot_Reports/Semiconductors/2436_偉詮電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "偉詮電在 USB PD 控制器領域市佔率極高，廣泛應用於筆電、手機充電器及遊戲機適配器。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.weltrend.com.tw/upload/2025_12_19/2_20251219200943y8o5mqB9C1.pdf",
+          "title": "偉詮電子股份有限公司（偉詮電，2436，Weltrend Semiconductor）3Q25 法人說明會簡報（2025-12-19）",
+          "source_level": 3,
+          "period_binding": "2025年12月；財務數據為2025年Q3。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。簡報中「**USB PD**」出現4次、「USB」17次、「電源管理」3次、「筆電」1次、「充電器」1次，支持其 USB PD 控制器及電源管理產品線與應用領域。全份簡報中「**市佔**」與「**遊戲機**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「產品為 USB PD 控制器，應用於筆電及充電器」獲發行人簡報支持：2025年12月官方簡報中「**USB PD**」出現4次、「USB」17次、「電源管理」3次、「筆電」1次、「充電器」1次，支持其產品線與應用領域。惟兩項陳述未獲支持：(1)「在 USB PD 控制器領域**市佔率極高**」——「市佔」出現次數為0；(2)「遊戲機**適配器**」——「遊戲機」出現次數為0。故部分成立。",
+      "proposed_text": "偉詮電子 (2436，Weltrend Semiconductor) 生產 USB PD 控制器及電源管理 IC，應用於筆電與充電器。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2449:objective_ranking_or_market_share:fea783f1ad9c465a",
+      "normalized_claim_hash": "fea783f1ad9c465af87ceadabdc35958058b6557a45f2bc3b3cf53bd3e2c4915",
+      "ticker": "2449",
+      "company": "京元電子",
+      "path": "Pilot_Reports/Semiconductors/2449_京元電子.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[京元電子]] (2449) 是台灣最大的獨立半導體測試服務廠商，提供全方位的晶圓測試、IC 測試、預燒 (burn-in) 及封裝服務。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kyec.com.tw/Upfiles/EDUp/files/%E8%82%A1%E6%9D%B1%E6%9C%83/113%E5%B9%B4%E5%BA%A6%E4%BA%AC%E5%85%83%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf",
+          "title": "京元電子股份有限公司（京元電子，2449，King Yuan Electronics）113 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**測試**」出現108次、「**封裝**」36次、「**burn-in**」9次、「**預燒**」7次、「獨立」137次，支持其晶圓測試、IC 測試、預燒及封裝之服務範疇。全份年報中「**台灣最大**」出現次數為0；「**獨立**」137次之上下文包含「獨立董事」（酬金表）、「獨立整合元件製造廠(IDM)委外測試」等，**非**「獨立測試服務廠商」之市場地位表述。"
+        }
+      ],
+      "rationale": "「提供全方位的晶圓測試、IC 測試、預燒（burn-in）及封裝服務」獲發行人年報支持：113年度年報中「**測試**」出現108次、「**封裝**」36次、「**burn-in**」9次、「**預燒**」7次，支持其服務範疇。惟「是台灣**最大**的**獨立**半導體測試服務廠商」未獲支持：全份年報中「**台灣最大**」出現次數為0，且「**獨立**」137次之上下文包含「獨立董事」（酬金表）與「獨立整合元件製造廠(IDM)委外測試」等，**非**該市場地位之表述。故部分成立。",
+      "proposed_text": "京元電子 (2449，King Yuan Electronics) 提供晶圓測試、IC 測試、預燒及封裝服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2454:objective_ranking_or_market_share:f41e65769c42213b",
+      "normalized_claim_hash": "f41e65769c42213b7484b0d06207cfe265bb36895a7775b5eb5e7415f1e5837e",
+      "ticker": "2454",
+      "company": "聯發科",
+      "path": "Pilot_Reports/Semiconductors/2454_聯發科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[聯發科]]在 [[5G]] 手機晶片市占率位居全球前二，並積極拓展 [[AI]] 運算、[[生成式 AI]] 端側推論及高階運算市場。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mediatek.com/hubfs/728015/MediaTek%20Assets/Pdfs/Annual%20Reports/2025-English-Annual-Report.pdf",
+          "title": "聯發科技股份有限公司（聯發科，2454，MediaTek）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取352,191字元）。年報中「**5G**」15次、「**AI**」944次、「**market share**」7次、「leading」17次，並見「tape out of its flagship SoC using **TSMC's 2nm process** in 2025」與「**TSMC**」7次（「foundry」4次、「supplier」56次），支持其 5G、AI 產品線及與台積電之先進製程合作。全份年報中「**largest supplier**」出現次數為0；「market share」7次之上下文為連網技術、車用與旗艦機種之市占成長敘述，**未見**「5G 手機晶片市占率位居全球前二」之專述（「second」17次之上下文多為「second degree of kinship」等親屬關係）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「拓展 AI 運算、生成式 AI 端側推論及高階運算市場」獲發行人年報支持：2025年報（**英文版**）中「**AI**」出現944次、「**5G**」15次、「leading」17次，支持其 AI 與 5G 產品線。惟「在 5G 手機晶片**市占率位居全球前二**」未獲支持：全份年報中「**market share**」7次之上下文為連網技術、車用與旗艦機種之市占成長敘述，**未見**該專述（「second」17次之上下文多為「second degree of kinship」等親屬關係）。故部分成立。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "聯發科技 (2454，MediaTek) 從事 5G 及 AI 相關晶片產品，並拓展高階運算市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2454:objective_ranking_or_market_share:5905335fb55488f0",
+      "normalized_claim_hash": "5905335fb55488f0f3add4f1ce71471e2ed19289bd5cb3d1c708376a9b90819f",
+      "ticker": "2454",
+      "company": "聯發科",
+      "path": "Pilot_Reports/Semiconductors/2454_聯發科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] (TSMC，最大供應商)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.mediatek.com/hubfs/728015/MediaTek%20Assets/Pdfs/Annual%20Reports/2025-English-Annual-Report.pdf",
+          "title": "聯發科技股份有限公司（聯發科，2454，MediaTek）2025 Annual Report（英文版）",
+          "source_level": 3,
+          "period_binding": "2025年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（**英文版**，文字擷取352,191字元）。年報中「**5G**」15次、「**AI**」944次、「**market share**」7次、「leading」17次，並見「tape out of its flagship SoC using **TSMC's 2nm process** in 2025」與「**TSMC**」7次（「foundry」4次、「supplier」56次），支持其 5G、AI 產品線及與台積電之先進製程合作。全份年報中「**largest supplier**」出現次數為0；「market share」7次之上下文為連網技術、車用與旗艦機種之市占成長敘述，**未見**「5G 手機晶片市占率位居全球前二」之專述（「second」17次之上下文多為「second degree of kinship」等親屬關係）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「台積電為其先進製程合作夥伴」獲發行人年報支持：2025年報載「tape out of its flagship SoC using **TSMC's 2nm process** in 2025」，「**TSMC**」出現7次、「foundry」4次、「supplier」56次，支持其與台積電之合作關係。惟「（**最大供應商**）」未獲支持：全份年報中「**largest supplier**」出現次數為0，未以最大供應商表述該關係。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

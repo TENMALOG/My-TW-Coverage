@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 14:04 UTC
+Updated: 2026-10-09 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **663 / 1,399**
-- Remaining author review: **736**
-- Latest batch: **author-110** (4 claims)
+- Author-reviewed: **668 / 1,399**
+- Remaining author review: **731**
+- Latest batch: **author-111** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **430**
+- `PARTIALLY_SUPPORTED`: **435**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2330:objective_ranking_or_market_share:69b238d963f6d1c7` — `UNKNOWN_AFTER_RESEARCH`；台積電**四個官方端點**（年報PDF、索引頁、Business Overview、年報電子書HTML）**均回應 HTTP 403**。
-- `2337:objective_ranking_or_market_share:53d3a9c34ff6edb7` — `PARTIALLY_SUPPORTED`；旺宏2023永續報告「**NOR」35 次、「ROM」10 次、「車用」12 次**；惟「全球最大」「任天堂」「Nintendo」皆0次，「領先」3次為論文／保險／設施等非市場地位敘述。
-- `2342:objective_ranking_or_market_share:b2bd16648dd7b771` — `PARTIALLY_SUPPORTED`；茂矽文件載「**朋程科技…取得本公司之控制力**」（朋程12次）——**朋程為控制股東／母公司**；惟「最大客戶」「整流二極體」「車用」皆0次（**關係角色與claim不同**）。
-- `2379:objective_ranking_or_market_share:c21c8f86d0573984` — `PARTIALLY_SUPPORTED`；瑞昱2024年報（**英文版**）「Ethernet」50次、「Audio」77次、「Wi-Fi」37次、「Bluetooth」36次、「market share」14次；惟未見以「PC音效晶片」為對象之市占率專述。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-110.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2408:objective_ranking_or_market_share:c4377f2679307d07` (南亞科).
+- `2408:objective_ranking_or_market_share:c4377f2679307d07` — `PARTIALLY_SUPPORTED`；南亞科年報「**DRAM」77 次**；惟「台灣最大」「第四大」皆0次。
+- `2436:objective_ranking_or_market_share:57909ce03d931541` — `PARTIALLY_SUPPORTED`；偉詮電3Q25簡報「**USB PD」4 次**、「USB」17次、「電源管理」3次、筆電1次、充電器1次；惟「市佔」「遊戲機」皆0次。
+- `2449:objective_ranking_or_market_share:fea783f1ad9c465a` — `PARTIALLY_SUPPORTED`；京元電113年報「**測試」108 次**、「封裝」36次、「預燒」7次、「burn-in」9次；惟「台灣最大」0次，且「獨立」137次多為「獨立董事」「IDM委外測試」。
+- `2454:objective_ranking_or_market_share:f41e65769c42213b` — `PARTIALLY_SUPPORTED`；聯發科2025年報（**英文版**）「AI」944次、「5G」15次、「market share」7次；惟未見「5G手機晶片市占率位居全球前二」之專述。
+- `2454:objective_ranking_or_market_share:5905335fb55488f0` — `PARTIALLY_SUPPORTED`；年報載「tape out of its flagship SoC using **TSMC's 2nm process**」（TSMC 7次、foundry 4次）；惟「**largest supplier」0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-111.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `2458:objective_ranking_or_market_share:16cff6fcb439c815` (義隆).
 
 ## Source access
 
