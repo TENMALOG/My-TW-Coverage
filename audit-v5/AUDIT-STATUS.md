@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 16:04 UTC
+Updated: 2026-10-11 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **886 / 1,399**
-- Remaining author review: **513**
-- Latest batch: **author-160** (2 claims)
+- Author-reviewed: **890 / 1,399**
+- Remaining author review: **509**
+- Latest batch: **author-161** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **580**
+- `PARTIALLY_SUPPORTED`: **584**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1451:objective_ranking_or_market_share:e4b27d6e2db182fd` — `UNKNOWN_AFTER_RESEARCH`；年興簡報「**牛仔」10 次**支持業務，惟「**客戶」「品牌」皆 0 次**，五個具名品牌（Levi's／LEE／EDWIN／CK／DKNY）亦皆0次。
-- `4439:objective_ranking_or_market_share:08e2b4dca14ff3c3` — `UNKNOWN_AFTER_RESEARCH`；冠星文件為**民國109年合併財務報告（非年報）**，無客戶敘述；「adidas」「Gap」「Puma」「Decathlon」「Li-Ning」「customer」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-160.json`（2 筆）。未修改發行人報告。
-- Next pending claim by priority: `5475:objective_ranking_or_market_share:71e82525f40ff47e` (德宏).
+- `5475:objective_ranking_or_market_share:71e82525f40ff47e` — `PARTIALLY_SUPPORTED`；德宏簡報「**石英」18 次、「Q-Glass」2 次**、「玻纖布」3次；惟「第三大」「唯一」皆0次。
+- `8916:objective_ranking_or_market_share:94054a91233ed989` — `PARTIALLY_SUPPORTED`；光隆簡報「**羽絨」10 次**、「垂直整合」1次；惟「1966」「台北」「唯一」「精洗」皆0次。
+- `9938:objective_ranking_or_market_share:d3614a1e78765800` — `PARTIALLY_SUPPORTED`；百和簡報「**黏扣帶」16 次、「1979」2 次**；惟「彰化」「全球最大」「Hook」皆0次。
+- `9938:objective_ranking_or_market_share:75e89fb7124e96b1` — `PARTIALLY_SUPPORTED`；簡報**明文載**「獲邀**Adidas** A-Team成員」「**百和為全球唯一副料供應商；獲選Nike成衣『先鋒供應商』**」（Adidas 6次、Nike 3次）；惟「23%」上下文不足、「19%」「On Running」「Hoka」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-161.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6832:objective_ranking_or_market_share:e80b2b9b51da51df` (金鼎科).
 
 ## Source access
 
