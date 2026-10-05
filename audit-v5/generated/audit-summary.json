@@ -1,0 +1,48 @@
+{
+  "schema": "audit-summary-1",
+  "generated_at": "2026-10-05T06:03:02.623532+00:00",
+  "baseline_source_parent_sha": "b6617051a06d79fa0f6a0cd3d97ed1b382db5d4b",
+  "report_count": 1734,
+  "sector_count": 98,
+  "risk_counts": {
+    "HIGH": 1054,
+    "LOW": 199,
+    "MEDIUM": 482
+  },
+  "atomic_status_counts": {
+    "AUTO_VERIFIED": 18623,
+    "IDENTITY_UNRESOLVED": 393,
+    "NEEDS_MODEL_REVIEW": 69,
+    "REVISION_REQUIRED": 1
+  },
+  "severity_counts": {
+    "error": 393,
+    "info": 18623,
+    "warning": 70
+  },
+  "blocked_report_count": 0,
+  "identity_unresolved_report_count": 393,
+  "financial_refresh": {
+    "started_at": "2026-10-05T05:20:13.053613+00:00",
+    "finished_at": "2026-10-05T06:02:59.180360+00:00",
+    "initial_exit_code": 0,
+    "initial_summary": {
+      "updated": 1725,
+      "skipped": 8,
+      "failed": 0
+    },
+    "retry_results": {},
+    "remaining_failed_tickers": [],
+    "ok": true
+  },
+  "readme_declared_report_count": 1735,
+  "readme_declared_sector_count": 99,
+  "warnings": [
+    "README declares 1735 companies but repository contains 1734 report files",
+    "README declares 99 sectors but repository contains 98 sector directories",
+    "duplicate ticker report files detected",
+    "393 reports have filename/title identity mismatch or unresolved identity"
+  ],
+  "semantic_validation_complete": false,
+  "note": "Machine-verifiable coverage is summarized here. HIGH/MEDIUM narrative claims remain subject to semantic/source review unless separately accepted."
+}
