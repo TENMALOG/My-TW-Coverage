@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **435 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), and `author-077` (7).
+Author-reviewed: **441 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), and `author-078` (6).
 
-- ACCEPTED by author: 67
-- PARTIALLY_SUPPORTED: 283
+- ACCEPTED by author: 68
+- PARTIALLY_SUPPORTED: 286
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 81
-- Remaining author queue: 964
+- Other allowed author decisions: 83
+- Remaining author queue: 958
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -911,6 +911,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **81 筆**。
 - Author-reviewed total: **435 / 1,399**; remaining: **964**. Outcome counts: ACCEPTED 67, PARTIALLY_SUPPORTED 283, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 81. Next pending claim by priority: `2450:objective_ranking_or_market_share:d4c4eba514df929a` (神腦).
+
+## Author batch `author-078` — 2026-10-08
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (神腦 2450, 益登 3048 ×2, 弘憶股 3312 ×2, 大聯大 3702). Evidence came from directly downloaded and inspected official disclosures: 神腦106年度年報、弘憶110年度年報、大聯大2022年度年報。
+- `2450:objective_ranking_or_market_share:d4c4eba514df929a` — `ACCEPTED`. 神腦106年度年報載「神腦國際**創立於1979年**，為**全台行動手持裝置最大通路商**」，並載「身為**全台數位滙流裝置最大之通路商**」與「（中華電信認）購，成為神腦**最大股東**」（「中華電信」16次、「1979」3次），與 claim 之「成立於1979年」「為台灣最大通訊通路代理商」「隸屬於中華電信集團」逐項對應。
+- `3048:objective_ranking_or_market_share:e7578b46e213723c` 與 `144af8e9daef4625` — `UNKNOWN_AFTER_RESEARCH`. **本批次於來源身分複核中發現一項誤配**：就益登搜尋所取得之 zenitron.com.tw 端點檔案，經下載檢視後其內容為「**2023 永續報告書**」且目錄載「Chapter 1 關於**增你強**」，確認該文件**屬增你強（3028）而非益登（3048）**，故不予採用；就 ticker 3048 未取得可檢視之發行人正式文件（所檢視文件中「NVIDIA」「Jetson」「GPU」均為0次），其與 NVIDIA 之代理關係及「最大供應商」地位未獲確立。
+- `3312:objective_ranking_or_market_share:ef9a168379d5a594` 與 `30b39681faeb2489` — `PARTIALLY_SUPPORTED`. 弘憶110年度年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」，並載瑞昱應用於資訊科技電子、消費性電子與**網路通訊**產業（「瑞昱」39次、「代理線」2次）；惟「**最大代理線**」與「**最大供應商**」均未獲支持（「最大」9次均為「開創最大營收」「給予客戶最大的採購效益」等泛用語），「營收佔比**逾7成**」亦未獲支持——「7成」與「營收佔比」均為0次，而「**70%**」出現2次，其上下文均為**員工福利精算假設之折現率（0.70%）**，與營收占比無關。
+- `3702:objective_ranking_or_market_share:bbfe49daa140f2f0` — `PARTIALLY_SUPPORTED`. 大聯大2022年度年報載「**大聯大控股是全球第二、亞太區第一大的半導體零組件通路商**，總部位於臺（北）」（「全球第二」3次、「亞太區第一大」1次、「2005」6次）；惟 claim 之「為**全球最大**半導體零組件通路商之一」與官方明確之「**全球第二**」用語不同，且「2024年合併營收達8,806億元」無法以2022年度年報查證（「8,806」0次）。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **83 筆**。
+- Author-reviewed total: **441 / 1,399**; remaining: **958**. Outcome counts: ACCEPTED 68, PARTIALLY_SUPPORTED 286, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 83. Next pending claim by priority: `3360:objective_ranking_or_market_share:1e5c4a342b962d2f` (尚立).
+
 
 
 

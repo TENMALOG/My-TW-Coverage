@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-078",
+  "reviewed_at": "2026-10-05T19:12:20Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (神腦106年度年報; 弘憶110年度年報; 大聯大2022年度年報); 就益登(3048)所取得之檔案經檢視確認屬另一公司(增你強)，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2450:objective_ranking_or_market_share:d4c4eba514df929a",
+      "normalized_claim_hash": "d4c4eba514df929a4f67e8f51565174ec311b012815a9a1c25d33312001a0c6a",
+      "ticker": "2450",
+      "company": "神腦",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/2450_神腦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "神腦國際企業 (2450，Senao International) 成立於 1979 年，總部位於新北市，為台灣最大通訊通路代理商，隸屬於[[中華電信]]集團。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2450_106.pdf",
+          "title": "神腦國際企業股份有限公司（神腦，2450，Senao International）106 年度年報",
+          "source_level": 3,
+          "period_binding": "民國106年度（2017年）。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「神腦國際**創立於1979年**，為**全台行動手持裝置最大通路商**，並結合3C數位匯流行銷於（…）」，另載「身為**全台數位滙流裝置最大之通路商**，神腦國際銷售據點（…）」與「（中華電信認）購，成為神腦**最大股東**」（「中華電信」16次、「1979」3次、「最大」7次），支持其成立年、通路地位與中華電信之股東關係。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報支持：106年度年報載「神腦國際**創立於1979年**，為**全台行動手持裝置最大通路商**」，另載「身為**全台數位滙流裝置最大之通路商**」，對應 claim 之「成立於1979年」「為台灣最大通訊通路代理商」；年報並載「（中華電信認）購，成為神腦**最大股東**」且「中華電信」出現16次，對應 claim 之「隸屬於中華電信集團」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3048:objective_ranking_or_market_share:e7578b46e213723c",
+      "normalized_claim_hash": "e7578b46e213723c4f152b82e965929d88bb817a66b3adde9330ace011662028",
+      "ticker": "3048",
+      "company": "益登",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3048_益登.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] — [[GPU]]、Jetson 邊緣運算 (最大供應商)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf",
+          "title": "（來源身分複核）增你強股份有限公司 2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就益登（3048）搜尋官方文件時所取得之 zenitron.com.tw 端點檔案，經下載並檢視後，其內容為「**2023 永續報告書**」且目錄載「Chapter 1 關於**增你強**」，確認該文件**屬增你強（3028）而非益登（3048）**，故不予採用。本批次全份檢視之文件中「NVIDIA」「Jetson」「GPU」與「largest」出現次數均為0；就 ticker 3048 未取得可檢視之發行人正式文件。"
+        }
+      ],
+      "rationale": "「NVIDIA — GPU、Jetson 邊緣運算（最大供應商）」未獲確立：本批次就益登搜尋官方文件時所取得之檔案，經檢視後確認為**增你強（3028）之永續報告書**而非益登之文件，故不予採用；就 ticker 3048 未取得可檢視之發行人正式文件（所檢視文件中「NVIDIA」「Jetson」與「GPU」出現次數均為0）。故其與 NVIDIA 之代理關係及「最大供應商」地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
+      "normalized_claim_hash": "144af8e9daef4625208c4cc9bba463ccd7d7a2595e20010168f6c84716d0a12f",
+      "ticker": "3048",
+      "company": "益登",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3048_益登.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] (最大供應商) — [[GPU]] 與 Jetson 平台",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf",
+          "title": "（來源身分複核）增你強股份有限公司 2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-08",
+          "note": "本批次就益登（3048）搜尋官方文件時所取得之 zenitron.com.tw 端點檔案，經下載並檢視後，其內容為「**2023 永續報告書**」且目錄載「Chapter 1 關於**增你強**」，確認該文件**屬增你強（3028）而非益登（3048）**，故不予採用。本批次全份檢視之文件中「NVIDIA」「Jetson」「GPU」與「largest」出現次數均為0；就 ticker 3048 未取得可檢視之發行人正式文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「NVIDIA（最大供應商）— GPU 與 Jetson 平台」）。因就 ticker 3048 未取得可檢視之發行人正式文件（所取得之檔案經確認屬另一公司），以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3312:objective_ranking_or_market_share:ef9a168379d5a594",
+      "normalized_claim_hash": "ef9a168379d5a594c71fc8896b3cf1797ae88c64bb581fa8b25a5c523ae6d3ba",
+      "ticker": "3312",
+      "company": "弘憶股",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3312_弘憶股.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[瑞昱]] — 網通晶片/音訊晶片 (最大代理線)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gmitec.com/wp-content/uploads/2022/07/%E5%BC%98%E6%86%B6110%E5%B9%B4%E5%B9%B4%E5%A0%B12021_3312_20220623F04_20220722_152826.pdf",
+          "title": "弘憶國際股份有限公司（弘憶股，3312，GMITEC）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」，並載「以本公司目前主要經營之產業領域來看，其中**瑞昱**、友達、華邦主要應用在資訊科技電子(IT)產業，友達、瑞昱、華邦等則應用在消費性電子產業；瑞昱、華邦主要應用在**網路通訊**產業」（「瑞昱」39次、「代理線」2次、「網通」1次），支持瑞昱為其代理品牌之一及其應用領域。全份年報中「最大」9次之上下文分別為「為一一二年市場開創**最大**營收」「給予客戶**最大**的採購效益」「創造公司**最大**（利益）」「創造公司與員工之**最大**利益」等泛用語，**未載任一代代理線之排名或「最大代理線」之表述**；「7成」「營收佔比」「最大供應商」均為0次，而「70%」出現2次，其上下文均為**員工福利精算假設之折現率（0.70%）**，與營收占比無關。"
+        }
+      ],
+      "rationale": "「瑞昱為其代理品牌之一並涵蓋網通與音訊應用」獲發行人年報支持：110年度年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」，並載「其中**瑞昱**、友達、華邦主要應用在資訊科技電子(IT)產業…；**瑞昱**、華邦主要應用在**網路通訊**產業」（「瑞昱」39次、「代理線」2次），支持瑞昱為其代理線之一及相關應用領域。惟「為**最大代理線**」未獲支持：全份年報中「最大」9次之上下文均為「開創最大營收」「給予客戶最大的採購效益」「創造公司與員工之最大利益」等泛用語，**未載任一代代理線之排名**。故部分成立。",
+      "proposed_text": "弘憶國際 (3312，GMITEC) 代理並銷售瑞昱半導體之電子零組件產品，應用涵蓋資訊科技、消費性電子與網路通訊等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3312:objective_ranking_or_market_share:30b39681faeb2489",
+      "normalized_claim_hash": "30b39681faeb24891cde145d627135d95270c8bb4cf137c9a385c6e570606551",
+      "ticker": "3312",
+      "company": "弘憶股",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3312_弘憶股.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[瑞昱]] — 網通/音訊 IC (最大供應商，營收佔比逾 7 成)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gmitec.com/wp-content/uploads/2022/07/%E5%BC%98%E6%86%B6110%E5%B9%B4%E5%B9%B4%E5%A0%B12021_3312_20220623F04_20220722_152826.pdf",
+          "title": "弘憶國際股份有限公司（弘憶股，3312，GMITEC）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」，並載「以本公司目前主要經營之產業領域來看，其中**瑞昱**、友達、華邦主要應用在資訊科技電子(IT)產業，友達、瑞昱、華邦等則應用在消費性電子產業；瑞昱、華邦主要應用在**網路通訊**產業」（「瑞昱」39次、「代理線」2次、「網通」1次），支持瑞昱為其代理品牌之一及其應用領域。全份年報中「最大」9次之上下文分別為「為一一二年市場開創**最大**營收」「給予客戶**最大**的採購效益」「創造公司**最大**（利益）」「創造公司與員工之**最大**利益」等泛用語，**未載任一代代理線之排名或「最大代理線」之表述**；「7成」「營收佔比」「最大供應商」均為0次，而「70%」出現2次，其上下文均為**員工福利精算假設之折現率（0.70%）**，與營收占比無關。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「瑞昱 — 網通/音訊 IC（最大供應商，營收佔比逾7成）」）。瑞昱之代理關係與網通應用獲年報支持；惟兩項數字陳述未獲支持：(1)「**最大供應商**」——「最大供應商」出現次數為0；(2)「營收佔比**逾7成**」——「7成」與「營收佔比」出現次數均為0，而「**70%**」出現2次，其上下文均為**員工福利精算假設之折現率（0.70%）**，與營收占比無關。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3702:objective_ranking_or_market_share:bbfe49daa140f2f0",
+      "normalized_claim_hash": "bbfe49daa140f2f06871fa1ba54376080a12828ad6a4caad9a73b48c20275dc2",
+      "ticker": "3702",
+      "company": "大聯大",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3702_大聯大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大聯大投資控股 (3702，WPG Holdings) 成立於 2005 年，總部位於台北，為全球最大半導體零組件通路商之一，2024 年合併營收達 8,806 億元。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.wpgholdings.com/uploads/files/ir/FY2022_Annual_ReportCH_rev2.pdf",
+          "title": "大聯大投資控股股份有限公司（大聯大，3702，WPG Holdings）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「**大聯大控股是全球第二、亞太區第一大的半導體零組件通路商**，總部位於臺（北）」（「全球第二」3次、「亞太區第一大」1次、「2005」6次、「半導體零組件通路」11次、「通路商」43次），支持其成立年、總部位置與通路地位之敘述。全份年報中「8806」與「8,806」之出現次數均為0（該年報為2022年度，未含2024年合併營收）。"
+        }
+      ],
+      "rationale": "「成立於2005年、總部位於台北、為半導體零組件通路商」獲發行人年報支持：2022年度年報載「**大聯大控股是全球第二、亞太區第一大的半導體零組件通路商**，總部位於臺（北）」（「全球第二」3次、「亞太區第一大」1次、「2005」6次、「半導體零組件通路」11次）。惟兩項陳述須更正或未獲支持：(1)「為**全球最大**半導體零組件通路商之一」——官方明確表述為「**全球第二**、亞太區第一大」，非「全球最大」（雖 claim 以「之一」緩和，仍與官方排名用語不同）；(2)「2024 年合併營收達 **8,806 億元**」——本年報為2022年度，全份文件中「8806」與「8,806」出現次數均為0，該年度數字無法據以查證。故部分成立。",
+      "proposed_text": "大聯大投資控股 (3702，WPG Holdings) 成立於2005年，總部位於台北，為全球第二、亞太區第一大之半導體零組件通路商。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

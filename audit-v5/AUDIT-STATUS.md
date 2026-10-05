@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 05:04 UTC
+Updated: 2026-10-08 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **435 / 1,399**
-- Remaining author review: **964**
-- Latest batch: **author-077** (7 claims)
+- Author-reviewed: **441 / 1,399**
+- Remaining author review: **958**
+- Latest batch: **author-078** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **67**
-- `PARTIALLY_SUPPORTED`: **283**
+- `ACCEPTED`: **68**
+- `PARTIALLY_SUPPORTED`: **286**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **81**
+- `UNKNOWN_AFTER_RESEARCH`: **83**
 
 ## Latest claim batch
 
-- `6473:objective_ranking_or_market_share:b29d00af5856229f` — `UNKNOWN_AFTER_RESEARCH`；美賣（興櫃）未查得可下載之年報或法人說明會端點，僅見官網平台介紹與櫃買中心基本資料頁。
-- `1603:objective_ranking_or_market_share:12171e5a5dfe2650`、`fe4b64c156172c36` — `UNKNOWN_AFTER_RESEARCH` ×2；華電2025簡報（英文）含客戶訂單表（台電花東供電區處／超耐熱鋼心鋁線），惟「第一銅」「華新麗華」「銅」「鋁錠」「Copper」「Supplier」皆0次。
-- `2347:objective_ranking_or_market_share:8fff79b3fa219000` — `PARTIALLY_SUPPORTED`；聯強2024年報載「**亞太地區主要城市建立數十座智能化的運籌服務中心**」與多品牌採購；惟「亞太第一大」「第一大」皆0次，「440」唯一命中為「440.4」、「30,000」4次均為**酬金級距**。
-- `3010:objective_ranking_or_market_share:23e0e98b40b54555` — `PARTIALLY_SUPPORTED`；華立111年報載材料涵蓋半導體35次、綠能14次、工程塑膠5次、PCB 1次、面板1次；惟「高科技材料通路」0次，且「最大」2次為「穩定性最大化」「發揮最大工作潛能」等**非市場地位**用語。
-- `3033:objective_ranking_or_market_share:54d8ccbbd3d4f3e1`、`720516a156c7c28d` — `PARTIALLY_SUPPORTED` ×2；威健2021永續報告載「代理之電子零組件包括例如：**AMD**、…、**Infineon**、…、**Microchip**、…、**NXP**、…」（Vishay 6次）；惟「最大代理線」未載（「最大」5次為獎項與泛用語），「CPU」「GPU」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-077.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2450:objective_ranking_or_market_share:d4c4eba514df929a` (神腦).
+- `2450:objective_ranking_or_market_share:d4c4eba514df929a` — `ACCEPTED`; 神腦106年報載「**創立於1979年**，為**全台行動手持裝置最大通路商**」「全台數位滙流裝置最大之通路商」與「（中華電信）成為神腦**最大股東**」（中華電信16次）。
+- `3048:objective_ranking_or_market_share:e7578b46e213723c`、`144af8e9daef4625` — `UNKNOWN_AFTER_RESEARCH` ×2；就益登(3048)所取得之 zenitron.com.tw 檔案經檢視確認其為「**2023永續報告書**」且目錄載「關於**增你強**」，屬另一公司文件，故不予採用；未取得3048可檢視之正式文件。
+- `3312:objective_ranking_or_market_share:ef9a168379d5a594`、`30b39681faeb2489` — `PARTIALLY_SUPPORTED` ×2；弘憶110年報載「**代理並銷售瑞昱半導體科技(股)公司電子零組件產品**」（瑞昱39次）；惟「最大代理線」「最大供應商」未載，「7成」「營收佔比」0次，而「70%」2次實為**員工福利精算折現率0.70%**。
+- `3702:objective_ranking_or_market_share:bbfe49daa140f2f0` — `PARTIALLY_SUPPORTED`；大聯大2022年報載「**全球第二、亞太區第一大的半導體零組件通路商**，總部位於臺（北）」（全球第二3次、2005 6次）；惟claim之「全球最大…之一」與官方「全球第二」用語不同，且「8,806」於2022年報中0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-078.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `3360:objective_ranking_or_market_share:1e5c4a342b962d2f` (尚立).
 
 ## Source access
 
