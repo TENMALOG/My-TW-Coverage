@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 03:04 UTC
+Updated: 2026-10-06 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **117 / 1,399**
-- Remaining author review: **1,282**
-- Latest batch: **author-027** (8 claims)
+- Author-reviewed: **125 / 1,399**
+- Remaining author review: **1,274**
+- Latest batch: **author-028** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **31**
-- `PARTIALLY_SUPPORTED`: **70**
+- `ACCEPTED`: **34**
+- `PARTIALLY_SUPPORTED`: **75**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,15 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2880:objective_ranking_or_market_share:bea17a5f1d280fb1` — `ACCEPTED`; 華南金2022永續報告第22頁載「為臺灣第一家成立之金融控股公司。於2001年12月19日，由華南商業銀行及永昌綜合證券以股權轉換方式設立」。
-- `2880:objective_ranking_or_market_share:a7669e207f28c0b5` — `ACCEPTED`; 同報告第24頁股東結構載「本公司最大股東為臺灣銀行（持股占比21.23%）」，臺灣銀行為財政部100%持有，故財政部透過臺灣銀行間接為最大股東之敘述與官方揭露一致。
-- `2886:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`; 兆豐金112年報第73頁主要股東名單第1名為財政部8.20%、臺灣銀行僅第5名2.62%，故財政部為直接最大股東，「透過臺灣銀行間接」之機制描述不符。
-- `2886:objective_ranking_or_market_share:6bbc731aba29c26b` — `PARTIALLY_SUPPORTED`; 中央銀行新聞稿標題「兆豐銀行續任『外幣結算平台』美元清算銀行」支持其清算銀行地位，兆豐金112年報載「維持聯貸市場優勢地位」支持聯貸優勢；惟新聞稿內文未擷取到，「台灣唯一」未獲確認。
-- `2890:objective_ranking_or_market_share:2ec04a9365b56c0f` — `ACCEPTED`; 永豐金2022公司簡介第4頁「2022年3月底太陽能設備融資市占維持第一(25.5%)」。
-- `2890:objective_ranking_or_market_share:298eb00d61c6591a`、`92485629cda4cfea` — `UNKNOWN_AFTER_RESEARCH` ×2; 永豐金2022公司簡介中「上櫃」出現0次、無據點數，Amret與柬埔寨亦為0次（事件發生於該文件之後）。
-- `2892:objective_ranking_or_market_share:a7669e207f28c0b5` — `PARTIALLY_SUPPORTED`; 第一金現增公開說明書第57頁主要股東名單第1名財政部13.35%、臺灣銀行第2名7.72%，故財政部為直接最大股東，「透過臺灣銀行間接」不符（基準日民國104年）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-027.json`。未修改發行人報告。
-- Next pending claim by priority: `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` (第一金).
+- `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` — `PARTIALLY_SUPPORTED`; 第一金現增公開說明書第3/11頁載設立日期「民國92年1月2日」→ 2003年成立成立；惟「歷史最悠久的泛公股金控之一」未獲查閱來源比較。
+- `2892:objective_ranking_or_market_share:76b816df512daafe` — `PARTIALLY_SUPPORTED`; 公開說明書支持第一銀行為核心子公司（占金控收益93.98%）；惟「1899」於查閱文件中出現0次，CSR報告載全台188個營運據點與33處海外營運點（與claim的182／31不同）。
+- `2892:objective_ranking_or_market_share:ca7ce41d34befae1` — `PARTIALLY_SUPPORTED`; 公開說明書子公司摘要表列第一金證券、第一金證券投資信託、第一金人壽；惟明台產物保險不在現行子公司表內（第33頁註2顯示其於民國92年曾為股份轉換對象）。
+- `2892:objective_ranking_or_market_share:88dd8b6be75d5904` — `PARTIALLY_SUPPORTED`; 中小企業放款獲CSR報告「市占連續第八年居國銀首位」支持；惟「房貸」「進出口」出現0次，「財富管理」僅見於董事經歷。
+- `2892:objective_ranking_or_market_share:e8187bb231e1e142`、`3f5488a25cf9016f`、`2f5c3c2bb8f9797b` — `ACCEPTED` ×3; 公開說明書子公司摘要表列第一金證券（經紀）、第一金證券投資信託（投信／基金管理）、第一金人壽保險（壽險）。
+- `2897:objective_ranking_or_market_share:de51a64a7f203960` — `PARTIALLY_SUPPORTED`; 王道銀行官方文件載其2017年改制後為「全台第一家原生數位銀行」、2017年取得B型企業認證並於2021／2025重新認證；惟未主張其為「首家取得B型企業認證之上市銀行」（官方載其為當時臺灣第21家B型企業）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-028.json`。未修改發行人報告。
+- Next pending claim by priority: `5880:objective_ranking_or_market_share:a7669e207f28c0b5` (合庫金).
 
 ## Source access
 

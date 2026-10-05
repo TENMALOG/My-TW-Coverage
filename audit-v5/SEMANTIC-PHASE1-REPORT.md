@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **117 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), and `author-027` (8).
+Author-reviewed: **125 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), and `author-028` (8).
 
-- ACCEPTED by author: 31
-- PARTIALLY_SUPPORTED: 70
+- ACCEPTED by author: 34
+- PARTIALLY_SUPPORTED: 75
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 12
-- Remaining author queue: 1,282
+- Remaining author queue: 1,274
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -316,6 +316,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-027.json`; no issuer report was modified. Independent review remains pending.
 - 來源檢索限制：華南金官網 hnfhc.com.tw 三個 PDF 連結（含年報與永續報告）均連線逾時，改由公開資訊觀測站端點取得其111年度報告文件；此為檢索限制之紀錄，未用以推論 claim 真偽。佇列維持 **15** 筆。
 - Author-reviewed total: **117 / 1,399**; remaining: **1,282**. Outcome counts: ACCEPTED 31, PARTIALLY_SUPPORTED 70, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 12. Next pending claim by priority: `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` (第一金).
+
+## Author batch `author-028` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (第一金 2892 ×7, 王道銀行 2897). Evidence came from directly downloaded and inspected official disclosures: 第一金控現金增資公開說明書（104年）與106年度企業社會責任報告書、王道銀行B型企業認證文件與2025永續報告書。
+- `2892:objective_ranking_or_market_share:ed08854a9f3fb74e` — `PARTIALLY_SUPPORTED`. 公開說明書第3及11頁明載「設立日期：92年1月2日」（2003年）與上市日期，支持成立年度；惟「為台灣歷史最悠久的泛公股金控之一」之排名性敘述未獲查閱來源比較。
+- `2892:objective_ranking_or_market_share:76b816df512daafe` — `PARTIALLY_SUPPORTED`. 公開說明書列第一銀行為主要子公司、占金控收益93.98%；惟「1899」於公開說明書與CSR報告中出現次數均為0，CSR報告第25頁載全臺188個營運據點、第3頁載33處海外營運點，與 claim 之182家分行／31家海外分支機構不符。
+- `2892:objective_ranking_or_market_share:ca7ce41d34befae1` — `PARTIALLY_SUPPORTED`. 公開說明書第6頁子公司摘要表列第一金證券、第一金證券投資信託、第一金人壽保險；惟明台產物保險不在該表內，第33頁註2僅載其於民國92年7月31日曾為股份轉換對象，即設立初期曾納入而後已不在子公司之列。
+- `2892:objective_ranking_or_market_share:88dd8b6be75d5904` — `PARTIALLY_SUPPORTED`. 第一銀行「中小企業放款」獲CSR報告支持（市占連續第八年居國銀首位）；「房貸」「進出口」出現次數為0，「財富管理」僅見於董事個人經歷。
+- `2892:objective_ranking_or_market_share:e8187bb231e1e142`、`3f5488a25cf9016f`、`2f5c3c2bb8f9797b` — `ACCEPTED`. 公開說明書子公司摘要表分別列第一金證券（經紀）、第一金證券投資信託（投信／基金管理）、第一金人壽保險（壽險），三者之子公司身分與業務類別均獲支持。
+- `2897:objective_ranking_or_market_share:de51a64a7f203960` — `PARTIALLY_SUPPORTED`. 王道銀行官方B型企業認證文件第13及19頁載其2017年1月改制為王道商業銀行、成為「全台第一家原生數位銀行」，2025永續報告第36及134頁亦同；官方文件載其2017年取得B型企業認證並於2021、2025年重新認證。惟「全台首家獲得B型企業認證的上市銀行」中之「首家」未獲支持——永續報告第39頁載其為「當時臺灣第21家B型企業」。
+- Proposed wording is recorded for the partial claims in `semantic/author-028.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **125 / 1,399**; remaining: **1,274**. Outcome counts: ACCEPTED 34, PARTIALLY_SUPPORTED 75, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 12. Next pending claim by priority: `5880:objective_ranking_or_market_share:a7669e207f28c0b5` (合庫金).
+
 
 
 
