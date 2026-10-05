@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:42:13Z",
+  "generated_at": "2026-10-05T22:44:20Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -232,17 +232,18 @@
     "author-226",
     "author-227",
     "author-228",
-    "author-229"
+    "author-229",
+    "author-230"
   ],
-  "source_batch_count": 229,
-  "total_unknown": 328,
+  "source_batch_count": 230,
+  "total_unknown": 332,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 140,
-    "other_unclassified": 122,
+    "no_official_endpoint_found": 141,
+    "other_unclassified": 125,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
-    "http_404": 69,
+    "http_404": 70,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5047,6 +5048,63 @@
       ],
       "attempted_sources": [
         "https://www.calin.com.tw/tw/tool-download/investors_finance_year_files/file/115?note="
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3714:material_named_relationship:07cd0f9ac46bc089",
+      "ticker": "3714",
+      "company": "富采",
+      "claim": "公司專注於化合物半導體技術，也是 [[Apple]] [[Mini LED]] 背光晶片之主要供應商。",
+      "batch_id": "author-230",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3714:material_named_relationship:b6889bfc5f8a5596",
+      "ticker": "3714",
+      "company": "富采",
+      "claim": "**下游**：供應 [[面板]] 廠及品牌終端客戶 (如 [[Apple]]) 用於 [[背光模組]] 或顯示器。",
+      "batch_id": "author-230",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3714:material_named_relationship:28aa27396a338166",
+      "ticker": "3714",
+      "company": "富采",
+      "claim": "**[[Apple]]**：iPad Pro 及 MacBook Pro 之 [[Mini LED]] 背光晶片主要供應商。",
+      "batch_id": "author-230",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "4943:material_named_relationship:a4bc917f24a5572a",
+      "ticker": "4943",
+      "company": "康控-KY",
+      "claim": "1. **聲學元件**: 微型揚聲器機構件、受話器 (Receiver) 機構件 (曾為 [[Apple]] 主要供應商)。",
+      "batch_id": "author-230",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mops.twse.com.tw/nas/STR/494320231208M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

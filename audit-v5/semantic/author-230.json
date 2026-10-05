@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-230",
+  "reviewed_at": "2026-10-05T22:44:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (富采2025年第四季法人說明會簡報; 定穎投控2022年永續報告書); 康控-KY端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3714:material_named_relationship:07cd0f9ac46bc089",
+      "normalized_claim_hash": "07cd0f9ac46bc08926f313bcc24f0c9dc35c99374e4ce0cc5e657ed12dcf60c3",
+      "ticker": "3714",
+      "company": "富采",
+      "path": "Pilot_Reports/Electronic Components/3714_富采.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司專注於化合物半導體技術，也是 [[Apple]] [[Mini LED]] 背光晶片之主要供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf",
+          "title": "富采投資控股股份有限公司（富采，3714，Ennostar）2025年第四季法人說明會簡報（2026-03-06）",
+          "source_level": 3,
+          "period_binding": "2025年第四季。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,456字元，**以財務報表為主**）。簡報封面載「**富采控股(3714)**」「2025年第四季法人說明會 March 6, 2026」，內文為「合併綜合損益表摘要」「資產負債表」等財務資訊，並見「富采營收– 產品應用別」之標題（**該頁為圖表，文字層未載細項**）。**關鍵發現**：全份簡報中「**Apple**」「**Mini LED**」「**iPad Pro**」「**MacBook**」「背光」與「面板」之出現次數**均為0**——**該簡報未具名客戶或載明產品應用細項**。"
+        }
+      ],
+      "rationale": "「公司專注於**化合物半導體**技術，也是 [[Apple]] **[[Mini LED]] 背光晶片之主要供應商**」未獲確立：所取得之富采2025年第四季法人說明會簡報**以財務報表為主**（「合併綜合損益表摘要」「資產負債表」），其中「**Apple**」「**Mini LED**」與「**背光**」之出現次數**均為0**；「化合物半導體」亦**未見**。因該 claim 之實質內容為具名客戶與產品定位，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報、永續報告書或產品別法說會簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3714:material_named_relationship:b6889bfc5f8a5596",
+      "normalized_claim_hash": "b6889bfc5f8a5596ff588f110ce1c89cba328b050ef156da2be3f4ce645d5a33",
+      "ticker": "3714",
+      "company": "富采",
+      "path": "Pilot_Reports/Electronic Components/3714_富采.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**下游**：供應 [[面板]] 廠及品牌終端客戶 (如 [[Apple]]) 用於 [[背光模組]] 或顯示器。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf",
+          "title": "富采投資控股股份有限公司（富采，3714，Ennostar）2025年第四季法人說明會簡報（2026-03-06）",
+          "source_level": 3,
+          "period_binding": "2025年第四季。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,456字元，**以財務報表為主**）。簡報封面載「**富采控股(3714)**」「2025年第四季法人說明會 March 6, 2026」，內文為「合併綜合損益表摘要」「資產負債表」等財務資訊，並見「富采營收– 產品應用別」之標題（**該頁為圖表，文字層未載細項**）。**關鍵發現**：全份簡報中「**Apple**」「**Mini LED**」「**iPad Pro**」「**MacBook**」「背光」與「面板」之出現次數**均為0**——**該簡報未具名客戶或載明產品應用細項**。"
+        }
+      ],
+      "rationale": "「**下游**：供應 [[面板]] 廠及品牌終端客戶（如 [[Apple]]）用於 [[背光模組]]」未獲確立：同上，該簡報中「**面板**」「**Apple**」與「**背光**」之出現次數**均為0**，**未載下游客戶或應用**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3714:material_named_relationship:28aa27396a338166",
+      "normalized_claim_hash": "28aa27396a3381664395250180cfd424996b51212bb7fddf0159e1e833530364",
+      "ticker": "3714",
+      "company": "富采",
+      "path": "Pilot_Reports/Electronic Components/3714_富采.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[Apple]]**：iPad Pro 及 MacBook Pro 之 [[Mini LED]] 背光晶片主要供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/371420260306M001.pdf",
+          "title": "富采投資控股股份有限公司（富采，3714，Ennostar）2025年第四季法人說明會簡報（2026-03-06）",
+          "source_level": 3,
+          "period_binding": "2025年第四季。",
+          "accessed_at": "2026-10-14",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取3,456字元，**以財務報表為主**）。簡報封面載「**富采控股(3714)**」「2025年第四季法人說明會 March 6, 2026」，內文為「合併綜合損益表摘要」「資產負債表」等財務資訊，並見「富采營收– 產品應用別」之標題（**該頁為圖表，文字層未載細項**）。**關鍵發現**：全份簡報中「**Apple**」「**Mini LED**」「**iPad Pro**」「**MacBook**」「背光」與「面板」之出現次數**均為0**——**該簡報未具名客戶或載明產品應用細項**。"
+        }
+      ],
+      "rationale": "「**[[Apple]]**：**iPad Pro** 及 **MacBook Pro** 之 [[Mini LED]]（供應）」未獲確立：同上，該簡報中「**Apple**」「**iPad Pro**」「**MacBook**」與「**Mini LED**」之出現次數**均為0**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3715:material_named_relationship:b3b5f2da5bd8f933",
+      "normalized_claim_hash": "b3b5f2da5bd8f9330f3e6477f2d09f8ce50dcf2a6276bb458c6ad795c261c8a5",
+      "ticker": "3715",
+      "company": "定穎投控",
+      "path": "Pilot_Reports/Electronic Components/3715_定穎投控.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**汽車領域**：[[Tesla]] ([[電動車]] PCB 主要供應商)、[[Continental]]、[[Bosch]]、[[Valeo]] 等國際 Tier 1 車用零組件大廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.dynaholding.com/file/2022%e5%ae%9a%e7%a9%8eESG%e5%a0%b1%e5%91%8a%e6%9b%b8-%e7%b6%b2%e8%b7%af%e7%89%88-300.pdf",
+          "title": "定穎投資控股股份有限公司（定穎投控，3715，Dynamic Holding）2022 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取121,647字元）。報告書載「產品組合：**汽車板**、儲存裝置、顯示面板、網路通訊及伺服器、消費性產品」「**汽車板佔營收比率**」「**電動車用板**維持成長動能」（「**汽車板**」24次、「**PCB**」23次、「**電動車**」4次），**支持其汽車板與電動車用板業務**。**關鍵發現**：全份報告書中「**Tesla**」「**特斯拉**」「**Continental**」與「美系」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「**汽車領域**：（電動車 **PCB**）」獲發行人永續報告書**充分支持**：報告書載「產品組合：**汽車板**、儲存裝置、顯示面板、網路通訊及伺服器、消費性產品」「**汽車板佔營收比率**」「**電動車用板**維持成長動能」（「**汽車板**」24次、「**PCB**」23次、「**電動車**」4次），**支持其汽車板與電動車用板業務**。**惟兩項具名客戶未獲支持**：(1)「[[Tesla]]（電動車 PCB 主要供應商）」——「**Tesla**」與「**特斯拉**」之出現次數**均為0**；(2)「[[Continental]]（大陸）」——「**Continental**」為**0**。故部分成立。",
+      "proposed_text": "定穎投資控股 (3715，Dynamic Holding) 之 PCB 產品以汽車板為主，並發展電動車用板。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4943:material_named_relationship:a4bc917f24a5572a",
+      "normalized_claim_hash": "a4bc917f24a5572a8b8cf0ee6d6f1cafc9020e47386ebb401d5ba2ab701f5876",
+      "ticker": "4943",
+      "company": "康控-KY",
+      "path": "Pilot_Reports/Electronic Components/4943_康控-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "1. **聲學元件**: 微型揚聲器機構件、受話器 (Receiver) 機構件 (曾為 [[Apple]] 主要供應商)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/494320231208M001.pdf",
+          "title": "康控-KY（康而富控股，4943，Concraft Holding）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次所嘗試之康控-KY法人說明會簡報端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得康控-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「1. **聲學元件**：微型**揚聲器**機構件、**受話器（Receiver）**機構件（曾為…）」未獲確立：本批次所嘗試之康控-KY法人說明會簡報端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

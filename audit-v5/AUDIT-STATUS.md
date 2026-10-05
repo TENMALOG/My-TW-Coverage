@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 13:04 UTC
+Updated: 2026-10-14 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,165 / 1,399**
-- Remaining author review: **234**
-- Latest batch: **author-229** (6 claims)
+- Author-reviewed: **1,170 / 1,399**
+- Remaining author review: **229**
+- Latest batch: **author-230** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **732**
+- `PARTIALLY_SUPPORTED`: **733**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **328**
+- `UNKNOWN_AFTER_RESEARCH`: **332**
 
 ## Latest claim batch
 
-- `3689:material_named_relationship:327d4c4c134b9cff` — `PARTIALLY_SUPPORTED`；湧德年報「**伺服器」7 次、「美系」1 次**；**惟「NVIDIA／GB200／AI 伺服器」皆 0 次**。
-- `3710:material_named_relationship:aa9aa33df769ae96` — `PARTIALLY_SUPPORTED`；連展ESG「**連訊」4 次、「連騰」3 次、「光通訊」3 次**；**惟「低軌衛星／線纜」皆 0 次**。
-- `4960:material_named_relationship:8d6dda9f2a73fa96` — `PARTIALLY_SUPPORTED`；誠美材文件「**偏光板」16 次、「群創」1 次**；**惟「友達」0 次**。
-- `5228:profitability_assertion:0758676a0f7ca2b5` — `PARTIALLY_SUPPORTED`；鈺鎧簡報「**IATF」5 次、「車用」17 次**；**惟「35-40%」營收占比未見明確敘述**。
-- `5228:material_named_relationship:197e3ae57e0c2442` — `PARTIALLY_SUPPORTED`；簡報「**ADAS」1 次、「胎壓」1 次、「車用」17 次**；**惟「歐美／Tier 1／車燈」皆 0 次**。
-- `4976:material_named_relationship:9b1fa7f1c54ea8d5` — `UNKNOWN_AFTER_RESEARCH`；佳凌文件為**財務報告**（僅見「鏡頭」6 次），「**同致／怡利電／Tier 1」皆 0 次**。
-- 證據記錄於 `semantic/author-229.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,165 ＝ 條目總數 1,165。
+- `3714:material_named_relationship:07cd0f9ac46bc089`、`b6889bfc5f8a5596`、`28aa27396a338166` — `UNKNOWN_AFTER_RESEARCH` ×3；富采簡報為**財務導向之法說會**，「**Apple／Mini LED／iPad Pro／MacBook／背光／面板」皆 0 次**。
+- `3715:material_named_relationship:b3b5f2da5bd8f933` — `PARTIALLY_SUPPORTED`；定穎ESG「**汽車板」24 次、「PCB」23 次、「電動車」4 次**；**惟「Tesla／Continental」皆 0 次**。
+- `4943:material_named_relationship:a4bc917f24a5572a` — `UNKNOWN_AFTER_RESEARCH`；康控-KY端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-230.json`（5 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,170 ＝ 條目總數 1,170。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access
