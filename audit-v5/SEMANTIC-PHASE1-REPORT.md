@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **301 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), and `author-054` (8).
+Author-reviewed: **305 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), and `author-055` (4).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 196
+- PARTIALLY_SUPPORTED: 200
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 48
-- Remaining author queue: 1,098
+- Remaining author queue: 1,094
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -648,6 +648,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **301 / 1,399**; remaining: **1,098**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 196, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 48. Next pending claim by priority: `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` (崧騰).
+
+## Author batch `author-055` — 2026-10-07
+
+- Reviewed the next four unreviewed objective ranking/market-share claims in checkpoint order (崧騰 3484, 維熹 3501 ×2, 碩天 3617). Evidence came from directly downloaded and inspected official disclosures: 崧騰106年度年報、維熹2025年法人說明會簡報、碩天官方年報。
+- `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` — `PARTIALLY_SUPPORTED`. 崧騰106年度年報第149頁「主要客戶資訊」表以代號揭露：106年度「甲客戶」銷貨金額1,912,550仟元、占營業收入**51%**（105年度39%），顯示其確有一家占比逾五成之最大客戶；第58頁並載「一般IT開關壽命要求為2.5萬次，專業級的電動手工具機(Professional Portable Power Tool)所要求的壽命則高達50萬次」（第94頁載銷貨對象為國外品牌電動工具機等客戶）。惟「最大客戶為 Makita（牧田）」未獲支持——全份年報中「Makita」「牧田」與「最大客戶」出現次數均為0，客戶一律以代號表示。
+- `3501:objective_ranking_or_market_share:96a8139850c775d5` 與 `b771e5d09ccd216c` — `PARTIALLY_SUPPORTED`. 維熹2025年官方簡報第18頁載2025Q1~Q3產品類別「資訊及電機電器類電源線組 93%」（最大類別），第19頁載應用領域「家電類 44%（最大）、機電類15%、通路貿易類14%、其它類11%、消費性電子類8%、電腦網通類5%」。惟「電動車充電線/槍」（「電動車」「充電」皆0次）、「3C電子線材」（未列為獨立產品線）、「在美國家電市場市佔率高」（「美國」0次）與「主要客戶為 GE 與 Whirlpool」（字界比對之「GE」「GENERAL」「Whirlpool」「惠而浦」皆0次）均未獲支持。註記：該公司官方網域 wellshin.com.tw 於本批次無法連線，未取得年報。
+- `3617:objective_ranking_or_market_share:c7e1929ec9b00de9` — `PARTIALLY_SUPPORTED`. 碩天官方年報載「（依）PC Data NPD Report 之調查結果，碩天科技之UPS產品，於北美地區**零售市場**拿下**35%之市佔率**並**僅次於全球第一大廠APC**」，支持其「北美第二大、僅次於 APC」之地位，但**數字與範圍須更正**：claim 所稱「約15%」於年報中查無對應（「15%」7處均為股東持股0.15%、研發投資抵減15%等無關敘述）；「20kVA以下」亦未獲支持，年報所述為「全球容量小於1KVA的小型UPS市場」與「**北美容量小於5KVA**的UPS市場」；「Schneider Electric」出現次數為0。註記：該版本依內容判斷為民國100年度（2011年）年報，非近期版本。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **305 / 1,399**; remaining: **1,094**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 200, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 48. Next pending claim by priority: `5227:objective_ranking_or_market_share:46ed0624b8da23c3` (立凱-KY).
+
 
 
 

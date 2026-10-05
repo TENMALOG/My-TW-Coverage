@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 06:04 UTC
+Updated: 2026-10-07 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **301 / 1,399**
-- Remaining author review: **1,098**
-- Latest batch: **author-054** (8 claims)
+- Author-reviewed: **305 / 1,399**
+- Remaining author review: **1,094**
+- Latest batch: **author-055** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **196**
+- `PARTIALLY_SUPPORTED`: **200**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,16 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` — `PARTIALLY_SUPPORTED`; 寶雅官方投資人專區載地址「台南市民族路三段74號」與主要經營業務（時尚美粧、內衣襪、生活日常用品）；惟未載「台灣最大」「連鎖」，官網財務報告下載失敗、MOPS年報端點回320 bytes。
-- `2496:objective_ranking_or_market_share:f13fd59509def495` — `PARTIALLY_SUPPORTED`; 卓越113年報資料載集團旗下「陳立教育」之升學教學服務（陳立10次、高中6次）；惟「全國最大」與「40年」皆0次。
-- `1537:objective_ranking_or_market_share:a9061697368a9c39` — `PARTIALLY_SUPPORTED`; 廣隆2022簡報載「KLB是**東南亞**產能最大的專業生產UPS電（池）」（範圍為東南亞而非claim之亞洲）；「LONG」「100國」皆0次。
-- `1597:objective_ranking_or_market_share:00f892e251ed2b4f` — `PARTIALLY_SUPPORTED`; 直得114年報「半導體」32次、「醫療」10次、「自動化」64次；惟「最大」6處均為股東利益等語，非應用領域排序。
-- `1617:objective_ranking_or_market_share:9fba43f07feab108` — `PARTIALLY_SUPPORTED`; 榮星2025簡報「漆包線」16次；惟「龍頭」「唯一」「最齊全」皆0次。
-- `3078:objective_ranking_or_market_share:299b9d575f6c2dfd` — `PARTIALLY_SUPPORTED`; 僑威2022永續報告「電源」103次；惟「全球最大」「代工」「市佔」皆0次。
-- `3092:objective_ranking_or_market_share:e36782398881d1ed` — `UNKNOWN_AFTER_RESEARCH`; 鴻碩官方年報路徑所下載PDF僅1,086字元且為網站頁尾文字，非公司文件。
-- `3484:objective_ranking_or_market_share:e42a3a40cfbcace6` — `PARTIALLY_SUPPORTED`; 崧騰2020簡報「開關」9次、載高耐受性與防水防塵開關設計；惟「全球最大」「電動工具」「市佔」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-054.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` (崧騰).
+- `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` — `PARTIALLY_SUPPORTED`; 崧騰106年報第149頁主要客戶表以代號揭露，甲客戶占營業收入**51%**（105年39%），支持其有一家逾五成之最大客戶；惟「Makita」「牧田」「最大客戶」皆0次。
+- `3501:objective_ranking_or_market_share:96a8139850c775d5` — `PARTIALLY_SUPPORTED`; 維熹2025簡報第18頁「資訊及電機電器類電源線組93%」、第19頁「家電類44%」為最大應用；惟「電動車」「充電」皆0次。
+- `3501:objective_ranking_or_market_share:b771e5d09ccd216c` — `PARTIALLY_SUPPORTED`; 家電類為最大應用領域；惟「美國」與字界比對之「GE」皆0次，「Whirlpool」0次。
+- `3617:objective_ranking_or_market_share:c7e1929ec9b00de9` — `PARTIALLY_SUPPORTED`; 碩天年報載「UPS產品於**北美地區零售市場拿下35%之市佔率**並**僅次於全球第一大廠APC**」（非claim之15%）；年報所述容量範圍為全球<1KVA與**北美<5KVA**（非20kVA），「Schneider」0次；且該版本為100年度年報。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-055.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `5227:objective_ranking_or_market_share:46ed0624b8da23c3` (立凱-KY).
 
 ## Source access
 

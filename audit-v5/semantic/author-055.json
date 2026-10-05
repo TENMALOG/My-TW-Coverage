@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-055",
+  "reviewed_at": "2026-10-05T17:58:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (崧騰106年度年報; 維熹2025年法人說明會簡報; 碩天官方年報); 維熹官方網域於本批次無法連線，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3484:objective_ranking_or_market_share:277360a2dcd0bf7c",
+      "normalized_claim_hash": "277360a2dcd0bf7ce625ba964556cb3c802849c9b42e09663f47e30de1835b29",
+      "ticker": "3484",
+      "company": "崧騰",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3484_崧騰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Makita]] (牧田) - 最大客戶.",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.solteam.com.tw/download/2017Annual%20Report.pdf",
+          "title": "崧騰企業股份有限公司（崧騰，3484，Solteam）106 年度年報",
+          "source_level": 3,
+          "period_binding": "民國106年度（2017）。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第58頁載「一般IT開關壽命要求為2.5萬次，專業級的電動手工具機(Professional Portable Power Tool)所要求的壽命則高達50萬次，因此嚴格的品質要求樹立了高度的進入障礙」（「電動手工具機」出現31次）。第94頁載「本公司銷貨主要對象為國外品牌電動工具機、資訊、消費性電子及家電客戶」。第149頁「(四) 主要客戶資訊」表以代號揭露：106年度「甲客戶」銷貨金額1,912,550仟元、占營業收入**51%**，「乙客戶」277,081仟元、占7%（105年度分別為39%與12%）。全份年報中「Makita」「牧田」與「最大客戶」之出現次數均為0，未具名任何客戶。"
+        }
+      ],
+      "rationale": "「有高度集中的最大客戶」獲發行人年報支持：106年度年報第149頁「主要客戶資訊」表以代號揭露，106年度「甲客戶」銷貨金額1,912,550仟元、占營業收入**51%**（105年度為39%），顯示其確有一家占比逾五成之最大客戶；第58及94頁並載其為專業電動手工具機開關供應商（「電動手工具機」31次）。惟「最大客戶為 Makita（牧田）」未獲支持：全份年報中「Makita」「牧田」與「最大客戶」之出現次數均為0，客戶一律以代號（甲、乙客戶）表示。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3501:objective_ranking_or_market_share:96a8139850c775d5",
+      "normalized_claim_hash": "96a8139850c775d51b71fe8921429396194b91abb5e969938ff5530f4cfd12c0",
+      "ticker": "3501",
+      "company": "維熹",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3501_維熹.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要產品涵蓋 **家電電源線** (占營收最大)、**3C 電子線材** 與 **電動車充電線/槍**。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/350120251203M001.pdf",
+          "title": "維熹科技股份有限公司（維熹，3501，Well Shin）法人說明會簡報（2025-12-03）",
+          "source_level": 3,
+          "period_binding": "2025年12月；財務數據為2025年第一至三季。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第18頁「銷售產品類別」載2025Q1~Q3「資訊及電機電器類電源線組 93%」「插座插頭轉接頭組合類 6%」「其他 1%」（2024Q1~Q3為91%／7%／2%）。第19頁「產品應用領域」載2025Q1-Q3「家電類 44%」「機電類 15%」「通路貿易類 14%」「其它類 11%」「消費性電子類 8%」「電腦網通類 5%」（2024Q1-Q3家電類46%）。全份簡報中「電動車」與「充電」出現次數均為0；以字界比對之「GE」為0次，「GENERAL」「Whirlpool」「惠而浦」「美國」「客戶」亦均為0次，未具名任何客戶，亦未載美國市場市佔率。註記：該公司官方網域（wellshin.com.tw）於本批次無法連線（無法連接至遠端伺服器），故未取得其年報。"
+        }
+      ],
+      "rationale": "「家電相關電源線為其營收最大來源」獲發行人簡報支持：第18頁載2025Q1~Q3產品類別「資訊及電機電器類電源線組 93%」（為最大類別），第19頁載應用領域「家電類 44%」（為最大應用領域，其次機電類15%、通路貿易類14%），支持其以家電與電機電器類電源線組為主力。惟兩項陳述未獲支持：(1)「3C 電子線材」——簡報所載應用為「消費性電子類 8%」與「電腦網通類 5%」，未以「3C 電子線材」為獨立產品線；(2)「電動車充電線/槍」——全份簡報中「電動車」與「充電」出現次數均為0。故部分成立。",
+      "proposed_text": "維熹科技 (3501，Well Shin) 以資訊及電機電器類電源線組為主要產品（2025 年前三季占 93%），應用領域以家電類為最大（44%）。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3501:objective_ranking_or_market_share:b771e5d09ccd216c",
+      "normalized_claim_hash": "b771e5d09ccd216cb1dca9b3bb3704f11553302b06d56dace78cb4c6210904ad",
+      "ticker": "3501",
+      "company": "維熹",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3501_維熹.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在美國家電市場市佔率高，主要客戶為 **[[GE]]** 與 **Whirlpool**。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/350120251203M001.pdf",
+          "title": "維熹科技股份有限公司（維熹，3501，Well Shin）法人說明會簡報（2025-12-03）",
+          "source_level": 3,
+          "period_binding": "2025年12月；財務數據為2025年第一至三季。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。第18頁「銷售產品類別」載2025Q1~Q3「資訊及電機電器類電源線組 93%」「插座插頭轉接頭組合類 6%」「其他 1%」（2024Q1~Q3為91%／7%／2%）。第19頁「產品應用領域」載2025Q1-Q3「家電類 44%」「機電類 15%」「通路貿易類 14%」「其它類 11%」「消費性電子類 8%」「電腦網通類 5%」（2024Q1-Q3家電類46%）。全份簡報中「電動車」與「充電」出現次數均為0；以字界比對之「GE」為0次，「GENERAL」「Whirlpool」「惠而浦」「美國」「客戶」亦均為0次，未具名任何客戶，亦未載美國市場市佔率。註記：該公司官方網域（wellshin.com.tw）於本批次無法連線（無法連接至遠端伺服器），故未取得其年報。"
+        }
+      ],
+      "rationale": "「家電為其最大應用領域」獲發行人簡報部分支持：第19頁載2025Q1-Q3應用領域「家電類 44%」為最大項。惟兩項陳述未獲支持：(1)「在美國家電市場市佔率高」——全份簡報未載任何區域別市占率（「美國」出現次數為0）；(2)「主要客戶為 GE 與 Whirlpool」——以字界比對之「GE」為0次，「GENERAL」「Whirlpool」「惠而浦」「客戶」亦均為0次，簡報未具名任何客戶。故部分成立（並註記：該公司官方網域於本批次無法連線，未取得年報以進一步查證）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3617:objective_ranking_or_market_share:c7e1929ec9b00de9",
+      "normalized_claim_hash": "c7e1929ec9b00de982efaab84cdc38dfd5d5c558ee23bdccfe80c9f51cf0701c",
+      "ticker": "3617",
+      "company": "碩天",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3617_碩天.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "碩天科技 (3617，CyberPower) 全球領先[[UPS]]品牌，北美20kVA以下市佔約15% (第二，僅次[[APC]]/[[Schneider Electric]])。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cyberpower.com/tw/zh/File/GetImageByDocId?docId=AR-0000004-01",
+          "title": "碩天科技股份有限公司（碩天，3617，CyberPower）年報（官方網域 docId AR-0000004-01）",
+          "source_level": 3,
+          "period_binding": "依文件內容判斷為民國100年度年報（2011年），非近期版本。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「（依）PC Data NPD Report 之調查結果，碩天科技之UPS產品，於北美地區零售市場拿下**35%之市佔率**並**僅次於全球第一大廠APC**」；另載「在全球容量小於1KVA的小型UPS市場，本公司為少數全亞洲幾家UPS廠商中能夠擠入排名前五名的公司之一，而在**北美容量小於5KVA**的UPS市場中，本公司亦是少數入榜前五名的亞洲公司」。全份年報中「UPS」出現111次、「北美」12次；「Schneider」出現次數為0；「15%」出現7次但經逐處檢視均與市占率無關（如股東持股0.15%、研發投資抵減15%等）。"
+        }
+      ],
+      "rationale": "「為北美 UPS 市場第二大品牌、僅次於 APC」之核心事實獲發行人年報支持，但數字與範圍須更正：年報載「（依）PC Data NPD Report 之調查結果，碩天科技之UPS產品，於北美地區**零售市場**拿下**35%之市佔率**並**僅次於全球第一大廠APC**」，而非 claim 所稱之「約15%」；年報中「15%」出現7次但均與市占率無關（如股東持股0.15%、研發投資抵減15%）。另「20kVA以下」之市場範圍未獲支持：年報所述為「全球容量小於1KVA的小型UPS市場…排名前五名」與「**北美容量小於5KVA**的UPS市場…前五名」；「Schneider Electric」出現次數為0。註記：本批次所取得之版本依內容判斷為民國100年度（2011年）年報，非近期版本，故該35%數字之適用時點與現況可能不同。故部分成立。",
+      "proposed_text": "碩天科技 (3617，CyberPower) 以自有品牌 CyberPower 行銷北美市場；依年報所引 PC Data NPD Report，其 UPS 產品於北美零售市場取得 35% 市佔率，僅次於全球第一大廠 APC。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
