@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-172",
+  "reviewed_at": "2026-10-05T21:29:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (崑鼎114年度年報; 日友公司簡報)",
+  "items": [
+    {
+      "claim_id": "6803:objective_ranking_or_market_share:d6b824ac14940918",
+      "normalized_claim_hash": "d6b824ac14940918d2ee2969739737a8d5b5c0c4c13bb5d91bd9993b59fef2fd",
+      "ticker": "6803",
+      "company": "崑鼎",
+      "path": "Pilot_Reports/Waste Management/6803_崑鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "崑鼎綠能環保股份有限公司 (6803，ECOVE) 為[[中鼎工程]] (9933) 集團旗下綠能環保控股公司，台灣最大垃圾焚化廠營運管理商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ecove.com/upload/comF/0903/%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83/%E5%B4%91%E9%BC%8E-114%E5%B9%B4%E5%A0%B1-%E5%85%A8.pdf",
+          "title": "崑鼎綠能環保股份有限公司（崑鼎，6803，ECOVE）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取130,816字元）。年報中「**中鼎**」出現95次、「**焚化廠**」86次、「**綠能環保**」73次、「**營運管理**」23次、「控股」13次，**充分支持其集團歸屬與焚化廠營運管理業務**。**關鍵發現**：全份年報中「**最大**」9次之上下文**均為泛用語**——「為股東追求**最大**利益」「年**最大**⼀日降雨量」「**最大**連續不降雨日數」「本公司整體之**最大**利益」，**無一為市場地位表述**；「**台灣最大**」之完整表述未見。**字形註記**：上引「年最大**⼀**日降雨量」之「**⼀**」為 **U+2F00 康熙部首**字形（非標準漢字「一」），為本審核第 8 類字形落差之又一實例。"
+        }
+      ],
+      "rationale": "「為[[中鼎工程]]（9933）集團旗下**綠能環保控股**公司，從事**焚化廠營運管理**」獲發行人年報**充分支持**：年報中「**中鼎**」95次、「**綠能環保**」73次、「**焚化廠**」86次、「**營運管理**」23次、「控股」13次。惟「為**台灣最大**垃圾焚化廠營運管理商」未獲支持：全份年報中「**最大**」9次之上下文**均為泛用語**——「為股東追求**最大**利益」「年**最大**⼀日降雨量」「**最大**連續不降雨日數」「本公司整體之**最大**利益」，**無一為市場地位表述**。故部分成立。",
+      "proposed_text": "崑鼎綠能環保 (6803，ECOVE) 為中鼎工程集團旗下綠能環保控股公司，從事垃圾焚化廠營運管理業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8341:objective_ranking_or_market_share:8859f2ab9e89b9b4",
+      "normalized_claim_hash": "8859f2ab9e89b9b4c14081b04edf521a5c5c5b457e153cd54080905940d58327",
+      "ticker": "8341",
+      "company": "日友",
+      "path": "Pilot_Reports/Waste Management/8341_日友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "日友環保科技股份有限公司 (8341) 成立於1994年，為台灣第一家專業生物醫療廢棄物焚化處理廠。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/834120260820M001.pdf",
+          "title": "日友環保科技股份有限公司（日友，8341，Sunny Friend Environmental Technology）公司簡報（2026-08-20）",
+          "source_level": 3,
+          "period_binding": "2026年8月20日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,471字元，以圖形排版為主）。簡報**逐字載**「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」與「日友公司成立國內**第一家**醫療廢棄物處理廠」，並載「**台灣最大的專業廢棄物處理廠商之一**」（「**焚化**」17次、「**青新**」6次、「**1994**」2次、「**第一家**」2次、「生物醫療」1次、「最大」1次），**逐字支持**成立年分、首家地位與焚化處理業務。全份簡報中「**台大**」「**長庚**」「**榮總**」「**石綿**」「**醫療院所**」與「**網絡**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人簡報**逐字支持**：「成立於 **1994** 年」（「**1994**」2次）與「為台灣**第一家專業生物醫療廢棄物焚化處理廠**」——簡報載「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」及「日友公司成立國內**第一家**醫療廢棄物處理廠」（「**焚化**」17次、「生物醫療」1次、「第一家」2次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8341:objective_ranking_or_market_share:3f33ab11ca3de778",
+      "normalized_claim_hash": "3f33ab11ca3de7782bbdb972ab28e6eceb53b6805988a3ef6a7f16fd80c9b4cc",
+      "ticker": "8341",
+      "company": "日友",
+      "path": "Pilot_Reports/Waste Management/8341_日友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "4. **子公司[[青新]] (6951)：** 全台最大醫療廢棄物清運商，石綿瓦清運量增加帶動營收。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/834120260820M001.pdf",
+          "title": "日友環保科技股份有限公司（日友，8341，Sunny Friend Environmental Technology）公司簡報（2026-08-20）",
+          "source_level": 3,
+          "period_binding": "2026年8月20日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,471字元，以圖形排版為主）。簡報**逐字載**「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」與「日友公司成立國內**第一家**醫療廢棄物處理廠」，並載「**台灣最大的專業廢棄物處理廠商之一**」（「**焚化**」17次、「**青新**」6次、「**1994**」2次、「**第一家**」2次、「生物醫療」1次、「最大」1次），**逐字支持**成立年分、首家地位與焚化處理業務。全份簡報中「**台大**」「**長庚**」「**榮總**」「**石綿**」「**醫療院所**」與「**網絡**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「子公司**青新**（6951）」獲發行人簡報支持：簡報中「**青新**」出現6次。惟兩項陳述未獲支持：(1)「為**全台最大**醫療廢棄物清運商」——簡報之「最大」1次係指「台灣最大的專業廢棄物處理廠商之一」（**日友本身**），**非**青新；(2)「**石綿瓦**清運量增加帶動營收」——「石綿」出現次數為0。故部分成立。",
+      "proposed_text": "日友環保科技 (8341) 之子公司為青新 (6951)。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8341:objective_ranking_or_market_share:04de738dcd712a81",
+      "normalized_claim_hash": "04de738dcd712a813555de2429aa2fca8bad12f39b27acbfa2157a9da1bc1c4b",
+      "ticker": "8341",
+      "company": "日友",
+      "path": "Pilot_Reports/Waste Management/8341_日友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療院所，並透過子公司[[青新]] (6951) 建立全國最大醫療廢棄物清運網絡。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/834120260820M001.pdf",
+          "title": "日友環保科技股份有限公司（日友，8341，Sunny Friend Environmental Technology）公司簡報（2026-08-20）",
+          "source_level": 3,
+          "period_binding": "2026年8月20日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,471字元，以圖形排版為主）。簡報**逐字載**「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」與「日友公司成立國內**第一家**醫療廢棄物處理廠」，並載「**台灣最大的專業廢棄物處理廠商之一**」（「**焚化**」17次、「**青新**」6次、「**1994**」2次、「**第一家**」2次、「生物醫療」1次、「最大」1次），**逐字支持**成立年分、首家地位與焚化處理業務。全份簡報中「**台大**」「**長庚**」「**榮總**」「**石綿**」「**醫療院所**」與「**網絡**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療院所，並透過子公司[[青新]]（6951）建立**全國最大醫療廢棄物清運網絡**」未獲確立：所取得之日友簡報中「**台大**」「**長庚**」「**榮總**」「**醫療院所**」與「**網絡**」之出現次數**均為0**（「青新」6次支持其子公司關係，惟未具名任何醫療院所）。因該 claim 之實質內容為具名客戶與清運網絡，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

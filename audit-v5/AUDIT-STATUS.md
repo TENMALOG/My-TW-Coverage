@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 03:04 UTC
+Updated: 2026-10-12 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **930 / 1,399**
-- Remaining author review: **469**
-- Latest batch: **author-171** (6 claims)
+- Author-reviewed: **934 / 1,399**
+- Remaining author review: **465**
+- Latest batch: **author-172** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **608**
+- `ACCEPTED`: **92**
+- `PARTIALLY_SUPPORTED`: **610**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **227**
+- `UNKNOWN_AFTER_RESEARCH`: **228**
 
 ## Latest claim batch
 
-- `6977:objective_ranking_or_market_share:578892ccae2b59f4` — `PARTIALLY_SUPPORTED`；聯純資料「**超純水」6 次、「水處理」6 次**；惟「日月光」「矽品」「超豐」「供應鏈」皆0次。
-- `6806:objective_ranking_or_market_share:8a5ced4ccef9e61c` — `PARTIALLY_SUPPORTED`；森崴文件「**離岸風電」19 次、「統包」6 次、「EPC」3 次**、「正崴」2次；惟「最大」1次係「太陽能設置量成長幅度最大」，「本土」1次係國產化政策。
-- `6869:objective_ranking_or_market_share:e69c35c8ab2af08d` — `PARTIALLY_SUPPORTED`；雲豹年報「**天能綠電」12 次**（取得售電業執照、協助玉山金控綠電轉供）；惟「10億」「160億」「880億」「338%」皆0次，「最大」係指太陽能電廠。
-- `6869:objective_ranking_or_market_share:7e2d1e75d0b3577d` — `PARTIALLY_SUPPORTED`；天能綠電售電平台成立；惟「最大民間綠電售電平台」未獲支持。
-- `6994:objective_ranking_or_market_share:2ce556a2bce652ca`、`4a494708c5380bf7` — `UNKNOWN_AFTER_RESEARCH` ×2；所取得檔案為**兆聯實業（6944）年報**（「富威」0次），**屬另一法人**，且部分文字層為亂碼。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-171.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6803:objective_ranking_or_market_share:d6b824ac14940918` (崑鼎).
+- `6803:objective_ranking_or_market_share:d6b824ac14940918` — `PARTIALLY_SUPPORTED`；崑鼎年報「**中鼎」95 次、「焚化廠」86 次、「綠能環保」73 次**；惟「**最大」9 次全為泛用語**（「為股東追求最大利益」「最大連續不降雨日數」）。
+- `8341:objective_ranking_or_market_share:8859f2ab9e89b9b4` — `ACCEPTED`；日友簡報**逐字載**「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」及「1994」——**逐字對應**。
+- `8341:objective_ranking_or_market_share:3f33ab11ca3de778` — `PARTIALLY_SUPPORTED`；「青新」6次支持子公司關係；惟簡報之「最大」係指**日友本身**，「石綿」0次。
+- `8341:objective_ranking_or_market_share:04de738dcd712a81` — `UNKNOWN_AFTER_RESEARCH`；「台大」「長庚」「榮總」「醫療院所」「網絡」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-172.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `6951:objective_ranking_or_market_share:f85c202bfd3023a7` (青新-創).
 
 ## Source access
 
