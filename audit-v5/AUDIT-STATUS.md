@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 23:04 UTC
+Updated: 2026-10-10 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **716 / 1,399**
-- Remaining author review: **683**
-- Latest batch: **author-119** (6 claims)
+- Author-reviewed: **724 / 1,399**
+- Remaining author review: **675**
+- Latest batch: **author-120** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **80**
-- `PARTIALLY_SUPPORTED`: **465**
+- `PARTIALLY_SUPPORTED`: **473**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6415:objective_ranking_or_market_share:5b44c9f8d34a07a8` — `PARTIALLY_SUPPORTED`；矽力簡報「AI」2次、「BMS」2次；惟「中國」「市佔」「國產」皆0次。
-- `6488:objective_ranking_or_market_share:d5518e9a98f8f76b` — `PARTIALLY_SUPPORTED`；環球晶簡報「矽晶圓」15次、「全球」15次；惟「前三大」「台灣第一」「中美晶」皆0次。
-- `6494:objective_ranking_or_market_share:98025032285ef223` — `PARTIALLY_SUPPORTED`；九齊簡介「玩具」9次、「MCU」4次、「4位元」4次、「語音」4次；惟「市佔」0次。
-- `6515:objective_ranking_or_market_share:1e4a6714d95ead3a` — `PARTIALLY_SUPPORTED`；穎崴簡報「Test Socket」2次、「測試座」1次；惟「前三大」「第一大」皆0次。
-- `6515:objective_ranking_or_market_share:7d430c6cf1e6bc6c` — `UNKNOWN_AFTER_RESEARCH`；簡報「前20大」「九成」皆0次。
-- `6568:objective_ranking_or_market_share:f46d76f198f50997` — `PARTIALLY_SUPPORTED`；宏觀簡報「RF」2次、「射頻」2次；惟「前三大」「唯一」「台灣」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-119.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6573:objective_ranking_or_market_share:0ab58d2ad0c9cdd6` (虹揚-KY).
+- `6573:objective_ranking_or_market_share:0ab58d2ad0c9cdd6` — `PARTIALLY_SUPPORTED`；虹揚文件「太陽能」13次、「**旁路二極體」1 次**；惟「市佔」「工業電腦」「AI」「高功率」皆0次。
+- `6679:objective_ranking_or_market_share:37679da783fb2682`、`7459dd76809acab4` — `PARTIALLY_SUPPORTED` ×2；鈺太文件「**MEMS」27 次、「麥克風」16 次**、「筆電」4次；惟「**市占」「龍頭」皆 0 次**（未載 55-60%）。
+- `6789:objective_ranking_or_market_share:0b84bdb1ceb376d2`、`113f7291089fc909` — `PARTIALLY_SUPPORTED` ×2；采鈺議事手冊「彩色濾光」4次；惟「台積電」「CIS」「市占」「世界第一」皆0次。
+- `8086:objective_ranking_or_market_share:afb154ac23e8d0ac`、`f979a0ca4a7bc6dd`、`2b8e68c61d000145` — `PARTIALLY_SUPPORTED` ×3；宏捷科**民國97年度財務報告**「**Skyworks」7 次**、「砷化鎵」2次；惟「最大客戶」「56%」「第二大」「晶圓代工」「24」皆0次（**非近期文件**）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-120.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `8086:objective_ranking_or_market_share:195cb9f67a470584` (宏捷科).
 
 ## Source access
 

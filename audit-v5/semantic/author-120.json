@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-120",
+  "reviewed_at": "2026-10-05T20:24:45Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (虹揚-KY上市前業績發表會文件; 鈺太科技上櫃前業績發表會文件; 采鈺114年股東常會議事手冊; 宏捷科民國97年度財務報告)",
+  "items": [
+    {
+      "claim_id": "6573:objective_ranking_or_market_share:0ab58d2ad0c9cdd6",
+      "normalized_claim_hash": "0ab58d2ad0c9cdd60d072087c1b54f41c57f11da5038de8076fbf5dffd383562",
+      "ticker": "6573",
+      "company": "虹揚-KY",
+      "path": "Pilot_Reports/Semiconductors/6573_虹揚-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，公司積極擴大高功率轉換與綠能應用的版圖，特別是在太陽能發電所需之旁路二極體市場擁有極高的市佔率，並成功切入強固型[[工業電腦]]與[[AI[[伺服器]]]]的電源供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/657320170816E001.pdf",
+          "title": "虹揚發展科技股份有限公司（虹揚-KY，6573，HY Group）上市前業績發表會文件",
+          "source_level": 3,
+          "period_binding": "2017年8月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,268字元）。文件中「**太陽能**」出現13次、「**旁路二極體**」1次、「電源」3次，支持其太陽能應用旁路二極體及電源相關產品業務。全份文件中「**市佔**」「**工業電腦**」「**AI**」與「**高功率**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「擴大高功率轉換與綠能應用版圖，產品包含太陽能發電所需之旁路二極體」獲發行人文件支持：文件中「**太陽能**」出現13次、「**旁路二極體**」1次、「電源」3次，支持其太陽能旁路二極體及電源產品業務。惟三項陳述未獲支持：(1)「在太陽能發電所需之旁路二極體市場擁有**極高的市佔率**」——「市佔」出現次數為0；(2)「成功切入**強固型工業電腦**」——「工業電腦」為0；(3)「[[AI 伺服器]]的電源供應鏈」——「AI」為0。故部分成立。",
+      "proposed_text": "虹揚發展科技 (6573，HY Group) 生產太陽能發電應用之旁路二極體及電源相關產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6679:objective_ranking_or_market_share:37679da783fb2682",
+      "normalized_claim_hash": "37679da783fb2682151ade7215699168944a66740ca1cf692ea8876a2cf070d2",
+      "ticker": "6679",
+      "company": "鈺太",
+      "path": "Pilot_Reports/Semiconductors/6679_鈺太.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "鈺太科技 (6679) 為全球 [[MEMS]] 麥克風 IC 設計龍頭廠商，在筆電 MEMS 麥克風市場市占率高達 55-60%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/667920190410E001.pdf",
+          "title": "鈺太科技股份有限公司（鈺太，6679，Zilltek Technology）上櫃前業績發表會文件",
+          "source_level": 3,
+          "period_binding": "2019年4月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,956字元）。文件中「**MEMS**」出現27次、「**麥克風**」16次、「筆電」4次、「全球」6次，支持其 MEMS 麥克風 IC 之業務。全份文件中「**市占**」與「**龍頭**」之出現次數均為0，未載「筆電 MEMS 麥克風市占率高達55-60%」或「全球龍頭」之敘述。"
+        }
+      ],
+      "rationale": "「為 MEMS 麥克風 IC 設計廠商」獲發行人文件支持：文件中「**MEMS**」出現27次、「**麥克風**」16次、「筆電」4次，支持其 MEMS 麥克風 IC 業務。惟兩項陳述未獲支持：(1)「為全球 **MEMS 麥克風 IC 設計龍頭**廠商」——「**龍頭**」出現次數為0；(2)「在筆電 MEMS 麥克風市場**市占率高達 55-60%**」——「**市占**」出現次數為0，未載該市占率。故部分成立。",
+      "proposed_text": "鈺太科技 (6679，Zilltek Technology) 從事 MEMS 麥克風 IC 設計，應用於筆電等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6679:objective_ranking_or_market_share:7459dd76809acab4",
+      "normalized_claim_hash": "7459dd76809acab4311d88ff8e6f1c9fb4ff32bfeb693dd52e96bec3c5c8ceb0",
+      "ticker": "6679",
+      "company": "鈺太",
+      "path": "Pilot_Reports/Semiconductors/6679_鈺太.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**鈺太** (全球筆電 MEMS 麥克風市占 55-60%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/667920190410E001.pdf",
+          "title": "鈺太科技股份有限公司（鈺太，6679，Zilltek Technology）上櫃前業績發表會文件",
+          "source_level": 3,
+          "period_binding": "2019年4月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,956字元）。文件中「**MEMS**」出現27次、「**麥克風**」16次、「筆電」4次、「全球」6次，支持其 MEMS 麥克風 IC 之業務。全份文件中「**市占**」與「**龍頭**」之出現次數均為0，未載「筆電 MEMS 麥克風市占率高達55-60%」或「全球龍頭」之敘述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「鈺太（全球筆電 MEMS 麥克風市占 55-60%）」）。文件支持其 MEMS 麥克風 IC 業務（「MEMS」27次、「麥克風」16次、「筆電」4次）；惟「**全球筆電 MEMS 麥克風市占 55-60%**」未獲支持（「市占」0次）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6789:objective_ranking_or_market_share:0b84bdb1ceb376d2",
+      "normalized_claim_hash": "0b84bdb1ceb376d2ad837ad146d2e3777387b19f9698e6ed3fd85e003926b11a",
+      "ticker": "6789",
+      "company": "采鈺",
+      "path": "Pilot_Reports/Semiconductors/6789_采鈺.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "采鈺科技 (6789，[[VisEra]]) 為[[台積電]]旗下子公司，全球彩色濾光片製造市占率約 45-50%，居世界第一。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.viseratech.com/download/0/114shareholdersmeetinghandbook_Chinese/",
+          "title": "采鈺科技股份有限公司（采鈺，6789，VisEra Technologies）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2025年）股東常會；內容含114年股東常會議事。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取32,568字元）。該文件為**股東常會議事手冊**，資訊揭露型態與年報不同；其中「**彩色濾光**」出現4次，支持其彩色濾光片相關業務。全份文件中「**CIS**」「**市占**」「**世界第一**」與「**台積電**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為彩色濾光片製造商」獲發行人文件支持：114年股東常會議事手冊中「**彩色濾光**」出現4次，支持其彩色濾光片相關業務。惟三項陳述未獲支持：(1)「為[[台積電]]旗下**子公司**」——「台積電」出現次數為0；(2)「全球彩色濾光片製造**市占率約 45-50%**」——「市占」為0；(3)「居**世界第一**」——0次。故部分成立（並註記該文件為股東常會議事手冊，資訊揭露型態與年報不同）。",
+      "proposed_text": "采鈺科技 (6789，VisEra Technologies) 從事彩色濾光片相關業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6789:objective_ranking_or_market_share:113f7291089fc909",
+      "normalized_claim_hash": "113f7291089fc90946db33f9910fbd14518f66b3383d0993db53568e6ca8f56b",
+      "ticker": "6789",
+      "company": "采鈺",
+      "path": "Pilot_Reports/Semiconductors/6789_采鈺.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**采鈺** (全球 CIS 彩色濾光片市占 45-50%，世界第一)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.viseratech.com/download/0/114shareholdersmeetinghandbook_Chinese/",
+          "title": "采鈺科技股份有限公司（采鈺，6789，VisEra Technologies）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2025年）股東常會；內容含114年股東常會議事。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取32,568字元）。該文件為**股東常會議事手冊**，資訊揭露型態與年報不同；其中「**彩色濾光**」出現4次，支持其彩色濾光片相關業務。全份文件中「**CIS**」「**市占**」「**世界第一**」與「**台積電**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「采鈺（全球 CIS 彩色濾光片市占 45-50%，世界第一）」）。議事手冊支持其彩色濾光片業務（「彩色濾光」4次）；惟「**CIS**」「**市占 45-50%**」與「**世界第一**」之出現次數均為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8086:objective_ranking_or_market_share:afb154ac23e8d0ac",
+      "normalized_claim_hash": "afb154ac23e8d0ac67e62e87e245c5b4f25127ffc082ea9eb5987d6046486826",
+      "ticker": "8086",
+      "company": "宏捷科",
+      "path": "Pilot_Reports/Semiconductors/8086_宏捷科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "宏捷科技 (8086，AWSC) 為全球第二大[[砷化鎵]] (GaAs) [[晶圓代工]]廠，市占率約 24%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.awsc.com.tw/Files/Financial/report/97.4Q.pdf",
+          "title": "宏捷科技股份有限公司（宏捷科，8086，AWSC）民國97年度財務報告",
+          "source_level": 3,
+          "period_binding": "民國97年度（2008年）及96年度；**非近期版本**。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,844字元）。該文件為**民國97年度財務報告**（非年報全本，且非近期版本）；其中「**Skyworks**」出現7次（多見於關係人揭露）、「**砷化鎵**」2次、「銷貨」16次、「客戶」14次，支持其與 Skyworks 之業務往來及砷化鎵業務。全份文件中「**最大客戶**」「**56%**」「**第二大**」與「**晶圓代工**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為砷化鎵（GaAs）相關廠商」獲發行人文件支持：民國97年度財務報告中「**砷化鎵**」出現2次，支持其砷化鎵相關業務。惟兩項陳述未獲支持：(1)「為全球**第二大** GaAs **晶圓代工**廠」——「第二大」與「晶圓代工」之出現次數均為0；(2)「**市占率約 24%**」——本件未載該市占率。故部分成立（並註記該文件為**民國97年度財務報告**，非近期版本）。",
+      "proposed_text": "宏捷科技 (8086，AWSC) 從事砷化鎵（GaAs）相關業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8086:objective_ranking_or_market_share:f979a0ca4a7bc6dd",
+      "normalized_claim_hash": "f979a0ca4a7bc6dd52ab80df265360bd6ab11912786ed4ad86ad6eeea02f9594",
+      "ticker": "8086",
+      "company": "宏捷科",
+      "path": "Pilot_Reports/Semiconductors/8086_宏捷科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶 [[Skyworks]] 貢獻約 56% 營收。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.awsc.com.tw/Files/Financial/report/97.4Q.pdf",
+          "title": "宏捷科技股份有限公司（宏捷科，8086，AWSC）民國97年度財務報告",
+          "source_level": 3,
+          "period_binding": "民國97年度（2008年）及96年度；**非近期版本**。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,844字元）。該文件為**民國97年度財務報告**（非年報全本，且非近期版本）；其中「**Skyworks**」出現7次（多見於關係人揭露）、「**砷化鎵**」2次、「銷貨」16次、「客戶」14次，支持其與 Skyworks 之業務往來及砷化鎵業務。全份文件中「**最大客戶**」「**56%**」「**第二大**」與「**晶圓代工**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與 [[Skyworks]] 具業務往來」獲發行人文件支持：民國97年度財務報告中「**Skyworks**」出現7次（多見於關係人揭露），支持其與 Skyworks 之業務往來。惟兩項陳述未獲支持：(1)「**最大客戶**」——出現次數為0；(2)「貢獻約 **56%** 營收」——「56%」出現次數為0，未載該客戶營收占比。故部分成立（並註記該文件為民國97年度財務報告，非近期版本）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8086:objective_ranking_or_market_share:2b8e68c61d000145",
+      "normalized_claim_hash": "2b8e68c61d000145ebac9c98c54a8d5c91a3a4626356c7fb6c1f21f211c30739",
+      "ticker": "8086",
+      "company": "宏捷科",
+      "path": "Pilot_Reports/Semiconductors/8086_宏捷科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**宏捷科** (全球第二大 GaAs 晶圓代工，市占 24%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.awsc.com.tw/Files/Financial/report/97.4Q.pdf",
+          "title": "宏捷科技股份有限公司（宏捷科，8086，AWSC）民國97年度財務報告",
+          "source_level": 3,
+          "period_binding": "民國97年度（2008年）及96年度；**非近期版本**。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,844字元）。該文件為**民國97年度財務報告**（非年報全本，且非近期版本）；其中「**Skyworks**」出現7次（多見於關係人揭露）、「**砷化鎵**」2次、「銷貨」16次、「客戶」14次，支持其與 Skyworks 之業務往來及砷化鎵業務。全份文件中「**最大客戶**」「**56%**」「**第二大**」與「**晶圓代工**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「宏捷科（全球第二大 GaAs 晶圓代工，市占 24%）」）。文件支持其砷化鎵相關業務；惟「**全球第二大**」「**晶圓代工**」與「**市占 24%**」未獲支持。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
