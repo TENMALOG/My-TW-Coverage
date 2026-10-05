@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:19:01Z",
+  "generated_at": "2026-10-05T22:20:23Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -217,17 +217,18 @@
     "author-211",
     "author-212",
     "author-213",
-    "author-214"
+    "author-214",
+    "author-215"
   ],
-  "source_batch_count": 214,
-  "total_unknown": 292,
+  "source_batch_count": 215,
+  "total_unknown": 294,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 123,
+    "no_official_endpoint_found": 125,
     "other_unclassified": 115,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 38,
-    "http_404": 56,
+    "http_404": 58,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
@@ -4501,6 +4502,36 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/153720250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3058:identity_changing_event:b0f8839a8a894a73",
+      "ticker": "3058",
+      "company": "立德",
+      "claim": "2025 年分割新能源事業成立「立德新能源」。",
+      "batch_id": "author-215",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/305820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1609:material_named_relationship:3141fcab82381e1e",
+      "ticker": "1609",
+      "company": "大亞",
+      "claim": "(2) [[漆包線]] (佔約 11%) — 成功開發[[電動車]]用平角漆包線 (供應[[富田電機]]即[[Tesla]]馬達供應鏈)、無人機用超導熱銅包鋁線 (TD-CCAW) 及[[低軌衛星]]馬達用漆包線；",
+      "batch_id": "author-215",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/160920250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 22:04 UTC
+Updated: 2026-10-13 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,097 / 1,399**
-- Remaining author review: **302**
-- Latest batch: **author-214** (3 claims)
+- Author-reviewed: **1,101 / 1,399**
+- Remaining author review: **298**
+- Latest batch: **author-215** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **703**
+- `PARTIALLY_SUPPORTED`: **705**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **292**
+- `UNKNOWN_AFTER_RESEARCH`: **294**
 
 ## Latest claim batch
 
-- `1519:material_named_relationship:60b300deec3f28b0` — `UNKNOWN_AFTER_RESEARCH`；華城年報檔僅 **212 bytes（非文件內容）**。
-- `1537:material_named_relationship:56ca1726cfc6960f` — `UNKNOWN_AFTER_RESEARCH`；廣隆端點 **HTTP 404**。
-- `6958:identity_changing_event:7e0c30264a02b91a` — `PARTIALLY_SUPPORTED`；日盛台駿簡報載「**設立時間 民國70年8月10日**」（**民國70年＝1981年**）；**惟簡報載「實收資本額 新台幣 44.33億元」與 claim 之 35.12 億元不符**，且「2022／工銀／王道／更名」皆0次。
-- ⚠️ **本批次第 2 度發現「數字矛盾」**：`6958:7e0c30264a02b91a` 之實收資本額（claim 35.12 億元 vs 官方 44.33 億元）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-214.json`（3 筆）。未修改發行人報告。
+- `3015:material_named_relationship:01056723fc00bfbf` — `PARTIALLY_SUPPORTED`（**並標示數字矛盾**）；全漢年報「**80 PLUS」4 次、「80PLUS」2 次**並載「全球第一通過**80Plus 鈦金牌**認證400瓦電源供應器」；**惟「前十大」（4次）全數指「前十大股東／前十大銷售客戶」，且年報載「研發人員 3 百多人」與 claim 之「逾 600 人」不符**。
+- `3015:profitability_assertion:216c65fa804875f8` — `PARTIALLY_SUPPORTED`；年報「**醫療」24 次、「儲能」22 次、「逆變器」6 次**；**惟「Edge AI」與「高毛利」皆 0 次**。
+- `3058:identity_changing_event:b0f8839a8a894a73` — `UNKNOWN_AFTER_RESEARCH`；立德端點 **HTTP 404**。
+- `1609:material_named_relationship:3141fcab82381e1e` — `UNKNOWN_AFTER_RESEARCH`；大亞端點 **HTTP 404**（官網僅有2017年CSR）。
+- ⚠️ **本批次第 3 度發現「數字矛盾」**：`3015:01056723fc00bfbf` 之研發人數（claim 逾 600 人 vs 年報「研發人員 3 百多人」）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-215.json`（4 筆）。未修改發行人報告。
 - Next pending claim by priority: `3541:export_concentration:23aa0cac81532d07` (西柏).
 
 ## Source access

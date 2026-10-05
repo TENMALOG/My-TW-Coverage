@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-215",
+  "reviewed_at": "2026-10-05T22:20:09Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (全漢年報); 立德與大亞端點皆HTTP 404，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3015:material_named_relationship:01056723fc00bfbf",
+      "normalized_claim_hash": "01056723fc00bfbf240eb35d5a2fa4ad1fef7fe4ffd11761f67bcb0fdf093d9b",
+      "ticker": "3015",
+      "company": "全漢",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3015_全漢.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全漢企業 (3015，FSP Group / FSP Technology) 為全球前十大電源供應器製造商，逾 600 人研發團隊，600+ 機種通過[[80 PLUS]]認證。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fsp-group.com/download/230525-646EC9615262D.pdf",
+          "title": "全漢企業股份有限公司（全漢，3015，FSP TECHNOLOGY）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取280,761字元）。年報中就 **80 PLUS** 認證有明確敘述：「同時符合**80 plus Titanium**、GPU Gen 5 及 ATX 3.0 的 750W~1KW 之ATX 電（源）」「發表通過符合**80 PLUS 鈦金牌**效率 400W ATX 的電腦電源」「CRPS 2000，2400W **80 Plus 白金牌**機種」「民國103年：全球第一通過**80Plus 鈦金牌**認證400瓦電源供應器」（「80 PLUS」4次、「80PLUS」2次、「機種」39次），並載「擁有經驗豐富之**研發團隊**」「依產品別設置之堅強**研發團隊**」「**研發人員**3 百多人，且主要研發人員均具10年以上資歷」（「研發」92次），並見「醫療」24次、「儲能」22次、「逆變器」6次。**關鍵發現（兩項）**：(1) **「前十大」4次之上下文均為「前十大股東」與「前十大銷售客戶」，並非「全球前十大電源供應器製造商」**；(2) **年報所載之研發人員為「3 百多人」，與 claim 所述之「逾 600 人」不符**；「600 人」「600人」之出現次數**均為0**。另全份年報中「**Edge AI**」與「**高毛利**」之出現次數**均為0**（「Edge」9次、「邊緣」7次）。"
+        }
+      ],
+      "rationale": "「**600+ 機種通過 [[80 PLUS]] 認證**」獲發行人年報**充分支持**：年報載「同時符合**80 plus Titanium**、GPU Gen 5 及 ATX 3.0 的 750W~1KW 之ATX 電（源）」「CRPS 2000，2400W **80 Plus 白金牌**機種」「民國103年：全球第一通過**80Plus 鈦金牌**認證400瓦電源供應器」（「80 PLUS」4次、「80PLUS」2次、「機種」39次）。**惟兩項陳述未獲支持或與文件不符**：(1)「為全球**前十大電源供應器製造商**」——「前十大」4次之上下文**均為「前十大股東」與「前十大銷售客戶」**，**並非該市場地位之敘述**；(2) **「逾 600 人研發團隊」與年報不符**——年報載「**研發人員 3 百多人**」，而「600 人」之出現次數為**0**。故部分成立，**並標示研發人數之矛盾**。",
+      "proposed_text": "全漢企業 (3015，FSP TECHNOLOGY) 之電源產品通過 80 PLUS 鈦金牌／白金牌等認證；依其年報，研發人員為 300 餘人。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3015:profitability_assertion:216c65fa804875f8",
+      "normalized_claim_hash": "216c65fa804875f899fcf3a520551b881fe4fc8052e9356084d2c096f4ca6a2e",
+      "ticker": "3015",
+      "company": "全漢",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3015_全漢.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "深耕 Edge AI、醫療電源及[[儲能]]/太陽能逆變器等高毛利利基。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fsp-group.com/download/230525-646EC9615262D.pdf",
+          "title": "全漢企業股份有限公司（全漢，3015，FSP TECHNOLOGY）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取280,761字元）。年報中就 **80 PLUS** 認證有明確敘述：「同時符合**80 plus Titanium**、GPU Gen 5 及 ATX 3.0 的 750W~1KW 之ATX 電（源）」「發表通過符合**80 PLUS 鈦金牌**效率 400W ATX 的電腦電源」「CRPS 2000，2400W **80 Plus 白金牌**機種」「民國103年：全球第一通過**80Plus 鈦金牌**認證400瓦電源供應器」（「80 PLUS」4次、「80PLUS」2次、「機種」39次），並載「擁有經驗豐富之**研發團隊**」「依產品別設置之堅強**研發團隊**」「**研發人員**3 百多人，且主要研發人員均具10年以上資歷」（「研發」92次），並見「醫療」24次、「儲能」22次、「逆變器」6次。**關鍵發現（兩項）**：(1) **「前十大」4次之上下文均為「前十大股東」與「前十大銷售客戶」，並非「全球前十大電源供應器製造商」**；(2) **年報所載之研發人員為「3 百多人」，與 claim 所述之「逾 600 人」不符**；「600 人」「600人」之出現次數**均為0**。另全份年報中「**Edge AI**」與「**高毛利**」之出現次數**均為0**（「Edge」9次、「邊緣」7次）。"
+        }
+      ],
+      "rationale": "「深耕**醫療電源**及[[儲能]]／**太陽能逆變器**等利基」獲發行人年報支持：年報中「**醫療**」24次、「**儲能**」22次、「**逆變器**」6次，並載「97年新增Redundant 及**醫療用之電源供應器**」，**支持其醫療電源與儲能／逆變器產品線**。**惟兩項陳述未獲支持**：(1)「**Edge AI**」——該連續字串出現次數**為0**（「Edge」9次、「邊緣」7次）；(2)「**高毛利**利基」——「**高毛利**」為**0**。故部分成立。",
+      "proposed_text": "全漢企業 (3015) 之產品涵蓋醫療用電源供應器及儲能、太陽能逆變器等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3058:identity_changing_event:b0f8839a8a894a73",
+      "normalized_claim_hash": "b0f8839a8a894a7323e03a4fb018efd439b65d784a7ab14394c406d29e0ce64d",
+      "ticker": "3058",
+      "company": "立德",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3058_立德.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "2025 年分割新能源事業成立「立德新能源」。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/305820250401M001.pdf",
+          "title": "立德電子股份有限公司（立德，3058，Leader Electronics）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載立德簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得立德可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**2025 年分割**新能源事業成立『**立德新能源**』」未獲確立：本批次自公開資訊觀測站端點下載立德簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1609:material_named_relationship:3141fcab82381e1e",
+      "normalized_claim_hash": "3141fcab82381e1eacb7e41e7a88923eb72c642c02ea4812cb457f07b8b0c58d",
+      "ticker": "1609",
+      "company": "大亞",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1609_大亞.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) [[漆包線]] (佔約 11%) — 成功開發[[電動車]]用平角漆包線 (供應[[富田電機]]即[[Tesla]]馬達供應鏈)、無人機用超導熱銅包鋁線 (TD-CCAW) 及[[低軌衛星]]馬達用漆包線；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/160920250401M001.pdf",
+          "title": "大亞電線電纜股份有限公司（大亞，1609，TAYA）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載大亞簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案（官網僅取得2017年CSR報告，不含產品別與客戶別資料）；本批次未取得大亞可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**漆包線**（佔約 11%）— 成功開發[[電動車]]用**平角漆包線**（供應[[富田電機]]即[[Tesla]]馬達供應鏈）、無人機用**超導熱銅包鋁線（TD-CCAW）**」未獲確立：本批次所嘗試之大亞簡報端點回應 **HTTP 404**，官網僅取得2017年CSR報告（不含產品別與客戶別資料），未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
