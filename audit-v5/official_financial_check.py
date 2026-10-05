@@ -23,7 +23,7 @@ FIELD_ALIASES = {
     "code": ("公司代號", "SecuritiesCompanyCode"),
     "name": ("公司名稱", "CompanyName"),
     "year": ("年度", "Year"),
-    "quarter": ("季別", "Quarter"),
+    "quarter": ("季別", "Quarter", "Season"),
     "revenue": ("營業收入", "Revenue"),
     "gross_profit": ("營業毛利（毛損）", "營業毛利(毛損)", "GrossProfitLoss"),
     "operating_income": ("營業利益（損失）", "營業利益(損失)", "OperatingIncomeLoss"),
