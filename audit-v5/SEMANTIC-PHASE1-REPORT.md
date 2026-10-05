@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **233 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), and `author-042` (7).
+Author-reviewed: **241 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), and `author-043` (8).
 
-- ACCEPTED by author: 48
-- PARTIALLY_SUPPORTED: 147
+- ACCEPTED by author: 53
+- PARTIALLY_SUPPORTED: 150
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 34
-- Remaining author queue: 1,166
+- Remaining author queue: 1,158
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -513,6 +513,18 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-042.json`; no issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **233 / 1,399**; remaining: **1,166**. Outcome counts: ACCEPTED 48, PARTIALLY_SUPPORTED 147, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` (群光).
+
+## Author batch `author-043` — 2026-10-06
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (群光 2385 ×4, 精元 2387 ×2, 研華 2395 ×2). Evidence came from directly downloaded and inspected official disclosures: 群光2025年報／股東會資料、精元2024永續報告書、研華113年度年報。
+- `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` — `PARTIALLY_SUPPORTED`. 群光年報載「本公司自72年2月22日成立迄今」（民國72年即1983年）、「公司總部位於新北三重」與「總公司地址：新北市三重區光復路二段69號」；第63頁載「據公司內部及來自客戶端的統計資料，群光集團在NB鍵盤、影像模組以及電源供應器產品都是全球市佔率第一」，第64頁載三產品線「均居全球龍頭的地位」。惟「連續多年」於全份文件出現次數為0。
+- `2385:objective_ranking_or_market_share:abe9e706555f9c9d`、`bdefdbbe34f7abee`、`57a3aa507e64e4f6` — `ACCEPTED`. 第63頁明載 NB 鍵盤與影像模組全球市佔第一、群光為全球鍵盤龍頭；第56頁輸入裝置產品線含桌上型電腦鍵盤與滑鼠、數位影像產品線含數位攝影機與筆記型電腦內建相機模組；第62頁載其影像技術應用於無線 IPcam；文件中「行車紀錄」出現6次、「車燈」1次（載其持續開發 LED 適應性車燈 (ADB) 模組）。註記：官方用語為「運動型數位攝影機」，claim 之「穿戴式攝影機」為相近但不同之品項。
+- `2387:objective_ranking_or_market_share:fc8df196f3e558dc` 與 `e5e02db27813e6d2` — `ACCEPTED`. 精元2024年永續報告第27頁明載「精元電腦創立於1975年，在1999年掛牌上市…其中筆（記型電腦鍵盤為佔營收比重最高之主要產品）」，並載「目前為世界第一大筆記型電腦鍵盤製造商」；第30頁沿革載其參與台中市電腦商業同業公會之紀錄，與總部設於台中相符。
+- `2395:objective_ranking_or_market_share:46485c9c097dd36f` 與 `9566784397e27fb6` — `PARTIALLY_SUPPORTED`. 研華113年度年報多處論述工業電腦產業（「工業電腦」出現19次）並載其獲2024台灣精品獎之緊湊型工業電腦系統 IPC-320 與無風扇邊緣AI推理系統等產品，「台北」出現14次。惟全份年報中「全球最大」出現次數為0，未以全球最大工業電腦品牌自稱；「1981」僅出現1次且未見於公司沿革陳述。
+- Proposed wording is recorded for the partial claims in `semantic/author-043.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **241 / 1,399**; remaining: **1,158**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 150, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 34. Next pending claim by priority: `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` (神基).
+
 
 
 

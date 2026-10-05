@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 18:04 UTC
+Updated: 2026-10-06 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **233 / 1,399**
-- Remaining author review: **1,166**
-- Latest batch: **author-042** (7 claims)
+- Author-reviewed: **241 / 1,399**
+- Remaining author review: **1,158**
+- Latest batch: **author-043** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **48**
-- `PARTIALLY_SUPPORTED`: **147**
+- `ACCEPTED`: **53**
+- `PARTIALLY_SUPPORTED`: **150**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2356:objective_ranking_or_market_share:ed253454231d412c` — `PARTIALLY_SUPPORTED`; 英業達50週年特刊第35/42頁載2002年康柏被惠普併購後ODM關係延續、「繼續成為HP核心供應商」；惟未載HP為最大筆電代工客戶或客戶占比。
-- `2364:objective_ranking_or_market_share:1a5a7e549dde1f07` — `PARTIALLY_SUPPORTED`; 倫飛112年報第9/62頁載軍規電腦ODM/OEM與自有品牌Durabook、持續投入軍工規強固型筆電；惟「2000年第一台」未載。
-- `2365:objective_ranking_or_market_share:694d960ffe356728` — `PARTIALLY_SUPPORTED`; 昆盈103年報與111年報告載滑鼠產品與Genius品牌（滑鼠17/8次）；惟「1985」「先驅」「第一支」皆0次。
-- `2382:objective_ranking_or_market_share:e26e1066260b8298` — `PARTIALLY_SUPPORTED`; 廣達文件載註冊地址桃園市龜山區、第90頁「筆電出貨4,240萬台、市佔約26%、為全球筆記型電腦代工廠之龍頭」；惟「1988」0次。
-- `2382:objective_ranking_or_market_share:c8e56ca69d86acd4` — `ACCEPTED`; 同頁明載其為全球筆記型電腦代工廠之龍頭。
-- `2382:objective_ranking_or_market_share:846efe9d83aac395`、`beca552fa505ce2a` — `PARTIALLY_SUPPORTED` ×2; QCT為雲端事業部門並供應大型資料中心獲支持；惟「全球前50大資料中心市佔逾五成」未載。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-042.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` (群光).
+- `2385:objective_ranking_or_market_share:22c3e7f8c90b61ca` — `PARTIALLY_SUPPORTED`; 群光2025年報載「自72年2月22日成立」（1983）、總部新北三重、第63/64頁「NB鍵盤、影像模組以及電源供應器產品都是全球市佔率第一」與「均居全球龍頭」；惟「連續多年」0次。
+- `2385:objective_ranking_or_market_share:abe9e706555f9c9d`、`bdefdbbe34f7abee`、`57a3aa507e64e4f6` — `ACCEPTED` ×3; 同頁支持筆電鍵盤全球第一與影像模組全球市佔第一，第56頁產品線含桌機鍵盤、滑鼠、數位攝影機與相機模組，第62頁載IPcam應用、文中「行車紀錄」6次與LED ADB車燈開發。
+- `2387:objective_ranking_or_market_share:fc8df196f3e558dc`、`e5e02db27813e6d2` — `ACCEPTED` ×2; 精元2024永續報告第27頁載「創立於1975年」、「目前為世界第一大筆記型電腦鍵盤製造商」，第30頁沿革載台中市電腦商業同業公會參與紀錄。
+- `2395:objective_ranking_or_market_share:46485c9c097dd36f`、`9566784397e27fb6` — `PARTIALLY_SUPPORTED` ×2; 研華113年報多處論述工業電腦（19次）與相關產品獲獎；惟「全球最大」出現0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-043.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3005:objective_ranking_or_market_share:a3b2b980edcf8e31` (神基).
 
 ## Source access
 
