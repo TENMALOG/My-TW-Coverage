@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-06 00:04 UTC
+Updated: 2026-10-06 01:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **94 / 1,399**
-- Remaining author review: **1,305**
-- Latest batch: **author-024** (9 claims)
+- Author-reviewed: **101 / 1,399**
+- Remaining author review: **1,298**
+- Latest batch: **author-025** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **26**
-- `PARTIALLY_SUPPORTED`: **57**
+- `ACCEPTED`: **27**
+- `PARTIALLY_SUPPORTED`: **62**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **7**
+- `UNKNOWN_AFTER_RESEARCH`: **8**
 
 ## Latest claim batch
 
-- `2245:objective_ranking_or_market_share:7ade1b140810fe09`、`03b9308fa26ebeb9`、`9d1fc3aba637d71d` — `UNKNOWN_AFTER_RESEARCH` ×3; 詠勝昌115年第2季合併財務報告（38頁）僅載信用風險政策、未具名任何客戶，SMP／Federal-Mogul／BERU／Tenneco／BorgWarner 出現次數皆為0；發行人官網 nwwmfg.com 因 TLS 憑證問題不可達。
-- `2249:objective_ranking_or_market_share:f3cb005c6c4a4f6c` — `PARTIALLY_SUPPORTED`; 湧盛2020業績發表會簡報第5頁載主要產品為汽車空調壓縮機與熱交換器、第6頁載2012年起生產壓縮機；惟未載「台灣最大」或「出口量逾95%」（2026年9月法說會簡報為掃描影像，無可擷取文字）。
-- `2256:objective_ranking_or_market_share:922429090abb9e1a`、`904acb0030df90b3`、`8d2c0b8f1fbe9b0c` — `PARTIALLY_SUPPORTED` ×3; 歐特明114年度年報第5頁載自104年承接納智捷及小鵬汽車量產案，支持小鵬為客戶；惟第70頁客戶表以代號揭露（A客戶10.50%），未具名最大客戶，亦無「歷史占比逾80%」或「目標降至50%」。
-- `3162:objective_ranking_or_market_share:41c8c84e28a3f1c3`、`ef970bc4a035c623` — `PARTIALLY_SUPPORTED` ×2; 精確2025簡報第22頁列主要客戶蜂巢能源(吉利)、第24/26頁列億緯鋰能；惟第7頁將寧德時代列於「客戶認證中」，並非現有或最大客戶。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-024.json`。未修改發行人報告。
-- Next pending claim by priority: `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` (同致).
+- `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` — `PARTIALLY_SUPPORTED`; 同致2025法說會第5頁載其為 tier-one supplier、第9頁產品別 Autonomous Parking Sensing+Controls 合計88%，支持停車感測為核心；惟未載「亞洲最大／全球第三大」、Bosch、Valeo、48家OEM或50國。
+- `3552:objective_ranking_or_market_share:1a523bd0dd0f352b` — `UNKNOWN_AFTER_RESEARCH`; 同致官方簡報全篇未出現 Bosch，亦無停車感測器市場排名資料。
+- `4528:objective_ranking_or_market_share:d7d5512cdbb52739`、`c57c2e43e2aaf637`、`efa3b52c128a97ee` — `PARTIALLY_SUPPORTED` ×3; 江興鍛111年度年報第12頁沿革載生產「廣州NTN鍛件」，支持 NTN 為客戶；惟第142頁客戶以代號揭露（甲公司25%、乙公司13%、丙公司12%），未具名最大客戶，Dana／AAM／和大／中華台亞於年報出現次數皆為0。
+- `4535:objective_ranking_or_market_share:bb205423e2687dc7` — `PARTIALLY_SUPPORTED`; 至興2016公司簡介第30頁「為國內精密沖壓製造業第一大廠」、機車碟煞盤國內市佔70%；惟簡報未出現「東陽」或集團隸屬陳述（「全興」僅為地址中之全興工業區）。
+- `4557:objective_ranking_or_market_share:c1b4ac853233bb38` — `ACCEPTED`; 永新2025法說會第3頁「The largest aftermarket supplier of brake assemblies in North America」、第18頁總泵24.93%／分泵17.05%、第29頁拓展卡鉗與 brake pads。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-025.json`。未修改發行人報告。
+- Next pending claim by priority: `4581:objective_ranking_or_market_share:73abdc91543dcce2` (光隆精密-KY).
 
 ## Source access
 

@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **94 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), and `author-024` (9).
+Author-reviewed: **101 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), and `author-025` (7).
 
-- ACCEPTED by author: 26
-- PARTIALLY_SUPPORTED: 57
+- ACCEPTED by author: 27
+- PARTIALLY_SUPPORTED: 62
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 7
-- Remaining author queue: 1,305
+- Other allowed author decisions: 8
+- Remaining author queue: 1,298
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -276,6 +276,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-024.json`; no issuer report was modified. Independent review remains pending.
 - 來源檢索限制：詠勝昌官網 TLS 憑證失敗、湧盛2026法說會簡報為掃描影像；二者均為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 之門檻。佇列維持 **15** 筆。
 - Author-reviewed total: **94 / 1,399**; remaining: **1,305**. Outcome counts: ACCEPTED 26, PARTIALLY_SUPPORTED 57, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 7. Next pending claim by priority: `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` (同致).
+
+## Author batch `author-025` — 2026-10-06
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (同致 3552 ×2, 江興鍛 4528 ×3, 至興 4535, 永新-KY 4557). Evidence came from directly downloaded and inspected official disclosures: 同致2025年法說會簡報、江興鍛壓111年度年報、至興精機2016/2017公司簡介、永新控股2025年法說會簡報。
+- `3552:objective_ranking_or_market_share:e17dab0717bd3ebb` — `PARTIALLY_SUPPORTED`. 同致2025年官方簡報第5頁載其為 tier-one supplier 並直接供應汽車品牌商，第9頁產品別營收中 Autonomous Parking Sensing 66%＋Autonomous Parking Controls 22%（合計88%），支持停車感測為其核心業務；惟簡報未載「亞洲最大、全球第三大」、未出現 Bosch 或 Valeo、未載48家OEM或50國。
+- `3552:objective_ranking_or_market_share:1a523bd0dd0f352b` — `UNKNOWN_AFTER_RESEARCH`. 同致官方簡報全篇未出現 Bosch，亦未提供停車感測器市場之任何排名或市占資料，無法確立「Bosch — 全球第一」於該特定市場之地位。
+- `4528:objective_ranking_or_market_share:d7d5512cdbb52739`、`c57c2e43e2aaf637`、`efa3b52c128a97ee` — `PARTIALLY_SUPPORTED` ×3. 江興鍛111年度年報第12頁公司沿革載其2500TON熱鍛生產線「順利生產廣州NTN鍛件」，支持 NTN 為其客戶；惟第142頁重要客戶資訊以代號揭露（111年度甲公司25%、乙公司13%、丙公司12%），最大客戶未具名；Dana、AAM、和大、中華台亞於全份年報出現次數均為0。
+- `4535:objective_ranking_or_market_share:bb205423e2687dc7` — `PARTIALLY_SUPPORTED`. 至興2016年官方簡介第30頁明載「至興精機為國內精密沖壓製造業第一大廠」、機車碟煞盤國內市佔率70%，支持「台灣最大精密沖壓零組件製造商」；惟「隸屬全興集團（東陽集團）」未獲支持——簡報中「全興」四處皆為地址之「全興工業區」，「東陽」出現次數為0。
+- `4557:objective_ranking_or_market_share:c1b4ac853233bb38` — `ACCEPTED`. 永新2025年官方簡報第3頁明載「The largest aftermarket supplier of brake assemblies in North America」，第18頁產品別營收列 Brake master cylinder 24.93%、Brake wheel cylinder 17.05%，第29頁載其正強化煞車卡鉗產能、推廣 EPB 卡鉗與 brake pads（iBooster、來令片），對應 claim 之拓展方向。
+- Proposed wording is recorded for the partial claims in `semantic/author-025.json`; no issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **101 / 1,399**; remaining: **1,298**. Outcome counts: ACCEPTED 27, PARTIALLY_SUPPORTED 62, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 8. Next pending claim by priority: `4581:objective_ranking_or_market_share:73abdc91543dcce2` (光隆精密-KY).
+
 
 
 
