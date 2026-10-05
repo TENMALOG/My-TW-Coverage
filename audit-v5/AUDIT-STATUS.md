@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-05 19:04 UTC
+Updated: 2026-10-05 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **52 / 1,399**
-- Remaining author review: **1,347**
-- Latest batch: **author-019** (8 claims)
+- Author-reviewed: **60 / 1,399**
+- Remaining author review: **1,339**
+- Latest batch: **author-020** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **17**
-- `PARTIALLY_SUPPORTED`: **29**
+- `PARTIALLY_SUPPORTED`: **37**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,14 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2237:objective_ranking_or_market_share:ee7593a1bc4fa73e` — `PARTIALLY_SUPPORTED`; 華德動能官方簡報第5頁載2011年台灣第一輛電動巴士上路、2019年首家取得電動巴士自主設計開發資格，支持領導與首創地位；惟簡報未載「市佔率約30%」「累計逾500輛」「首家通過認證」等文字（僅載台灣APTS市佔超過80%）。
-- `1336:objective_ranking_or_market_share:cee272854eaffb62`、`fe2d9e60f44aa914` — `ACCEPTED` ×2; 台翰113年度年報主要股東名單列宣德科技29.12%為最大股東，第10頁股權鏈載宣德→香港商聯滔電子(24.59%)→立訊精密工業(100%)，支持最終母公司為立訊精密。
-- `1338:objective_ranking_or_market_share:666e6bac07f9b5a5`、`043acc8984fdcb88` — `ACCEPTED` ×2; 廣華控股2025官方簡報第15頁載2024年客戶結構日系46%、中國28%、歐美25%，其中日產34%為最大單一品牌、本田5%。
-- `1339:objective_ranking_or_market_share:375175af06d90a6f` — `UNKNOWN_AFTER_RESEARCH`; 昭輝2020／2024／2026三版官方簡報均無 LKQ、CAPA 或客戶集中度文字，年報端點108–113年度皆回應320 bytes非文件內容，無法確立亦無證據否定。
-- `1339:objective_ranking_or_market_share:8c262157716b38f8` — `PARTIALLY_SUPPORTED`; LKQ FY2025 10-K 與官方品牌頁支持「LKQ／Keystone 為北美最大 AM 通路」；惟括號中「合計佔營收50%+」為昭輝特有財務結構，未獲其官方來源支持。
-- `1506:objective_ranking_or_market_share:b7bdbc426ed03c94` — `PARTIALLY_SUPPORTED`; 正道官方NASA技術頁載取得NASA授權、全球唯一有量產實績之專業NASA活塞廠、年產逾20萬顆，均獲支持；惟官方明載鍛造版本係「延伸開發第一顆」，20萬顆屬NASA鋁合金活塞（鑄造），claim 將鑄造量產與鍛造混為一談。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-019.json`。未修改發行人報告。
-- Next pending claim by priority: `1521:objective_ranking_or_market_share:b0344d1922014380` (大億).
+- `1521:objective_ranking_or_market_share:b0344d1922014380` — `PARTIALLY_SUPPORTED`; 大億114年度年報第57頁「市場佔有率：國內約為80%」、112年度年報第71頁「國內為80%」，支持OEM車燈龍頭與高市占；惟 claim 所述「72%」與官方80%不符。
+- `1522:objective_ranking_or_market_share:c39cb97e670a83a1` — `PARTIALLY_SUPPORTED`; 堤維西2023永續報告第22頁載其為「全球領先OEM車廠及AM售服市場的夥伴與供應商之一」、TYC品牌行銷全球130多國；惟「北美AM車燈市佔約12%」與「全球前五大」均未見於官方來源。
+- `1522:objective_ranking_or_market_share:9f7b131fa64ec7b2` — `PARTIALLY_SUPPORTED`; 官方簡報僅載TYC自建北美發貨倉，未具名 LKQ 等經銷商，亦無12%市佔數字。
+- `1524:objective_ranking_or_market_share:37a66df6e8c59992`、`3fdf0568b0589c62`、`7bfdfa0fb2fba733` — `PARTIALLY_SUPPORTED` ×3; 耿鼎112年度年報第9頁載105年獲 LKQ 供應商評估獎（LKQ為客戶），第57頁載其為北美AM鈑金件最主要供應商之一；惟第59頁銷貨客戶表以代號揭露（最大客戶為客戶A、24.66%），未具名 LKQ，且無「市佔近40%」（相關40.6%為耿鼎自身北美銷售占比）。
+- `1525:objective_ranking_or_market_share:fd492ed31d1ccf47`、`67775914202401b9` — `PARTIALLY_SUPPORTED` ×2; 江申2019 CSR第10頁載其為「國內目前最大商用車車架生產公司」、涵蓋3.5噸~35噸及巴士底盤，年報公司沿革載車架供應國瑞與中華；惟年報僅載車架「屬寡占產品」、木床市場占有率90%，無車架市占100%。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-020.json`。未修改發行人報告。
+- Next pending claim by priority: `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` (車王電).
 
 ## Source access
 

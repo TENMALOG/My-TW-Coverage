@@ -1,0 +1,257 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-020",
+  "reviewed_at": "2026-10-05T15:26:53Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大億 112/114年度年報; 堤維西 2023永續報告書與2026法人說明會簡報; 耿鼎 111/112年度年報 and 2025公司簡報; 江申 115年股東會年報與2019企業社會責任報告書); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "1521:objective_ranking_or_market_share:b0344d1922014380",
+      "normalized_claim_hash": "b0344d1922014380274da1d2e808148008ddae47291dd07ef5f7ce218ba8ccf4",
+      "ticker": "1521",
+      "company": "大億",
+      "path": "Pilot_Reports/Auto Parts/1521_大億.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大億交通 (1521，Ta Yih Industrial) 為台灣 OEM 車燈龍頭，國內市佔率高達 72%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2025.pdf",
+          "title": "大億交通工業製造股份有限公司 114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第57頁前後「市場及產銷概況」之市場佔有率段載明「2.市場佔有率：國內約為80%。」；同報告載本公司以OEM客戶為主要合作對象。"
+        },
+        {
+          "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2023.pdf",
+          "title": "大億交通工業製造股份有限公司 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。市場佔有率段載明「2.市場佔有率：國內為80%。」（第71頁前後）。"
+        }
+      ],
+      "rationale": "大億為台灣OEM車燈製造商並具市場領先地位一節，獲發行人年報支持：114年度年報市場佔有率段載「國內約為80%」，112年度年報載「國內為80%」，且公司以OEM客戶為主要合作對象，故「台灣OEM車燈龍頭」之定位可獲支持。惟 claim 所述「國內市佔率高達72%」與官方揭露不符：兩個年度年報均載約80%（112年度為80%、114年度為約80%），而非72%。故就市場領先地位成立，就72%此一數字不成立，應以官方約80%為準。",
+      "proposed_text": "大億交通 (1521，Ta Yih Industrial) 為台灣 OEM 車燈主要製造商，官方年報載國內市場佔有率約 80%。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1522:objective_ranking_or_market_share:c39cb97e670a83a1",
+      "normalized_claim_hash": "c39cb97e670a83a16876ee19fc5913d981445510b3268b3b4c0bccd86524ae3b",
+      "ticker": "1522",
+      "company": "堤維西",
+      "path": "Pilot_Reports/Auto Parts/1522_堤維西.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "堤維西 (1522，TYC Brother Industrial) 為全球知名 AM 車燈領導製造商，品牌「TYC」在北美 AM 車燈市場市佔約 12%，位居全球前五大。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2023_Sustainability_zh.pdf",
+          "title": "堤維西交通工業股份有限公司 2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度資料。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第22頁「全球佈局」載「結合全球車燈產品的製程實力及銷售網路…讓堤維西成為全球領先OEM車廠及AM售服市場的夥伴與供應商之一」，並載「以TYC 品牌行銷全球130 多個國家，行銷據點與通路遍及北美洲、歐洲、中國大陸及東協等區域」。第27頁「AM 市場定位」載「全球車用照明及安全部品的最佳品牌」。全報告未出現北美AM車燈市占12%或「全球前五大」之文字（報告中唯一之12%為外銷歐盟荷蘭占營收約12%，與本 claim 無關）。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/152220260318M001.pdf",
+          "title": "堤維西交通工業股份有限公司 2026年法人說明會簡報（2026-03-19）",
+          "source_level": 3,
+          "period_binding": "2026年3月現況。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視發行人官方簡報。第6頁載TYC美洲營運總部設於加州Brea，搭配五個發貨倉提供北美車燈售服市場與OEM客戶物流配送服務。全份簡報未出現市占率數字或「全球前五大」之陳述。"
+        }
+      ],
+      "rationale": "堤維西為全球車燈製造商並以TYC品牌行銷全球一節獲發行人官方來源支持：2023永續報告載其為「全球領先OEM車廠及AM售服市場的夥伴與供應商之一」、TYC品牌行銷全球130多個國家、並自定位為「全球車用照明及安全部品的最佳品牌」；法說會簡報亦載北美營運據點與發貨倉。惟兩項具體敘述不獲支持：(1)「北美AM車燈市場市佔約12%」——查閱之官方報告與簡報均未載任何市占率數字；(2)「位居全球前五大」——官方僅稱「全球領先…供應商之一」，未提出全球排名。故部分成立。",
+      "proposed_text": "堤維西 (1522，TYC Brother Industrial) 為全球車燈製造商，以自有品牌「TYC」行銷全球 130 多個國家，並為北美 AM 車燈市場主要供應商之一。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1522:objective_ranking_or_market_share:9f7b131fa64ec7b2",
+      "normalized_claim_hash": "9f7b131fa64ec7b2b16840f4dce10025a6ca24c06fdc66a60fb4bebd63e838f0",
+      "ticker": "1522",
+      "company": "堤維西",
+      "path": "Pilot_Reports/Auto Parts/1522_堤維西.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]]等北美 AM 經銷商 (TYC 品牌市佔 12%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/152220260318M001.pdf",
+          "title": "堤維西 2026年法人說明會簡報（2026-03-19）",
+          "source_level": 3,
+          "period_binding": "2026年3月現況。",
+          "accessed_at": "2026-10-05",
+          "note": "簡報第6頁載TYC美洲營運總部與五個發貨倉（加州、喬治亞州、紐澤西州、伊利諾州、德州），提供北美車燈售服市場與OEM客戶物流配送；全簡報未具名任何北美經銷商名稱（含LKQ），亦未載TYC品牌市佔12%。"
+        },
+        {
+          "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2023_Sustainability_zh.pdf",
+          "title": "堤維西 2023 永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-05",
+          "note": "報告中「AM 主要客群」段落未具名經銷商，亦未出現 LKQ 或市佔12%之敘述。"
+        }
+      ],
+      "rationale": "本 claim 之兩項內容均未獲支持：堤維西官方報告與簡報未具名 LKQ 等北美 AM 經銷商（TYC 官方僅描述自建之北美發貨倉與通路），亦未載「TYC 品牌市佔 12%」。就堤維西為北美 AM 車燈供應商之一般定位可獲其官方通路描述支持，但 claim 所稱之特定經銷商關係與市占數字未獲確立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1524:objective_ranking_or_market_share:37a66df6e8c59992",
+      "normalized_claim_hash": "37a66df6e8c5999230965088a8f6edcb9888b5120e583dee7c7ddd6856ebc3a4",
+      "ticker": "1524",
+      "company": "耿鼎",
+      "path": "Pilot_Reports/Auto Parts/1524_耿鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "最大客戶為[[LKQ]] (北美 AM 鈑金市佔近 40%)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.gordon.com.tw/pdf/annual/2022.pdf",
+          "title": "耿鼎企業股份有限公司 111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報公司沿革載「民國105年 獲得LKQ 供應商評估獎(Supplier Appraisal Award)」（第9頁），佐證 LKQ 為耿鼎客戶。"
+        },
+        {
+          "url": "http://www.gordon.com.tw/pdf/annual/2023.pdf",
+          "title": "耿鼎企業股份有限公司 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度（2023）。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第9頁同載105年獲LKQ供應商評估獎。第59頁「最近二年度任一年度中曾佔銷貨總額百分之十以上之客戶」表以代號揭露：112年度客戶A占銷貨淨額24.66%、客戶B占12.08%，並註明因契約約定不得揭露客戶名稱；年報未以 LKQ 具名最大客戶。第57頁載「耿鼎為北美地區最主要的汽車售後服務(AM)鈑金件供應商之一」。全份年報未出現「北美AM鈑金市佔近40%」之市場占有數字；法說會簡報第6頁所載「北美40.6%」為銷售區域結構（耿鼎2024年報之銷售區域占比），並非市占率。"
+        }
+      ],
+      "rationale": "LKQ 為耿鼎客戶一節獲發行人年報支持（民國105年獲 LKQ 供應商評估獎）。惟 claim 其餘部分未獲支持：(1)「最大客戶為LKQ」——112年度年報之銷貨客戶表以代號揭露最大客戶為「客戶A」、占銷貨淨額24.66%，未具名 LKQ，故最大客戶身分未獲確立（LKQ 可能為客戶之一，但無最大客戶之證據）；(2)「北美AM鈑金市佔近40%」——查閱之官方文件無此市場占有數字，相關的40.6%係耿鼎自身銷售區域結構（北美占其銷售40.6%），與市占率為不同概念。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1524:objective_ranking_or_market_share:3fdf0568b0589c62",
+      "normalized_claim_hash": "3fdf0568b0589c62adc1d87c6252bce783ca985219cb3fe12c476acf9f695601",
+      "ticker": "1524",
+      "company": "耿鼎",
+      "path": "Pilot_Reports/Auto Parts/1524_耿鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]] — 最大客戶 (北美 AM 鈑金市佔近 40%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.gordon.com.tw/pdf/annual/2023.pdf",
+          "title": "耿鼎企業 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-05",
+          "note": "與同批次 37a66df6e8c59992 相同之揭露：第9頁載105年獲LKQ供應商評估獎（支持 LKQ 為客戶）；第59頁銷貨客戶表以代號揭露最大客戶為客戶A（24.66%），未具名 LKQ；第57頁載耿鼎為北美AM鈑金件最主要供應商之一；全份年報無「市佔近40%」之數字。"
+        }
+      ],
+      "rationale": "本 claim 為同一客戶事實之條目表述（「LKQ — 最大客戶（北美AM鈑金市佔近40%）」）。LKQ 為客戶可獲支持（105年獲其供應商評估獎），但「最大客戶」之身分未獲年報具名（最大客戶以代號A表示，占24.66%），「北美AM鈑金市佔近40%」亦無官方依據（相關40.6%為耿鼎自身北美銷售占比）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1524:objective_ranking_or_market_share:7bfdfa0fb2fba733",
+      "normalized_claim_hash": "7bfdfa0fb2fba7334dc6779cdcf48b3f6347640e8bcf23f1bd617281cd649d06",
+      "ticker": "1524",
+      "company": "耿鼎",
+      "path": "Pilot_Reports/Auto Parts/1524_耿鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[LKQ]] — 最大客戶，北美 AM 鈑金龍頭",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.gordon.com.tw/pdf/annual/2023.pdf",
+          "title": "耿鼎企業 112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-05",
+          "note": "第57頁載「耿鼎為北美地區最主要的汽車售後服務(AM)鈑金件供應商之一」；第53至55頁載其在北美的CAPA認證鈑金件項目數量居業界前段水準、並以「鞏固北美地區AM市場的市佔率」為策略。第9頁載105年獲LKQ供應商評估獎。年報未使用「龍頭」或「最大」描述其北美地位，亦未具名最大客戶。"
+        }
+      ],
+      "rationale": "耿鼎在北美AM鈑金件市場之重要地位獲支持：112年度年報載其為「北美地區最主要的汽車售後服務(AM)鈑金件供應商之一」，並載其CAPA鈑金件認證數居業界前段水準；LKQ 亦確為其客戶。惟「LKQ — 最大客戶」未獲年報具名支持（最大客戶以代號A表示），「北美 AM 鈑金龍頭」之最高級表述亦未獲官方採用（年報用語為「最主要的…供應商之一」）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1525:objective_ranking_or_market_share:fd492ed31d1ccf47",
+      "normalized_claim_hash": "fd492ed31d1ccf47e205db57cf06e02d7b48e2ed70cb5d60be7a9b9527d1ce87",
+      "ticker": "1525",
+      "company": "江申",
+      "path": "Pilot_Reports/Auto Parts/1525_江申.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "江申工業 (1525，Kian Shen) 為台灣最大商用車車架製造商，3.5 噸以上大貨車/巴士國產車架市佔率 100%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/115%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1(%E5%B0%9A%E6%9C%AA%E9%81%A9%E7%94%A8%E6%B0%B8%E7%BA%8C%E6%8F%AD%E9%9C%B2%E6%BA%96%E5%89%87).pdf",
+          "title": "江申工業股份有限公司 股東會年報（115年股東常會）",
+          "source_level": 3,
+          "period_binding": "民國114年度（2025）及113年度。",
+          "accessed_at": "2026-10-05",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。第59頁「市場及產銷概況」載「本公司主力產品中，車架屬寡占產品，而木床市場占有率亦達90％」；第59頁載114年銷售主要為車架2.22億元、電巴車架2.26億元；第7頁公司沿革載「與日本武部鐵工所技術合作，生產大貨車及巴士之車架供應國瑞汽車公司與中華汽車公司」。年報未載車架市占率100%。"
+        },
+        {
+          "url": "http://www.yulon-group.com/resource/20211124152426297.pdf",
+          "title": "江申工業股份有限公司 2019 企業社會責任報告書",
+          "source_level": 3,
+          "period_binding": "2019年度資料。",
+          "accessed_at": "2026-10-05",
+          "note": "直接下載並檢視。第10頁載「江申目前商用車3.5 噸~35 噸及巴士底盤，年產能超過12,500 車輛…為國內目前最大商用車車架生產公司」。支持「國內最大商用車車架生產公司」之定位。"
+        }
+      ],
+      "rationale": "江申為國內最大商用車車架製造商一節獲發行人官方來源支持：2019年企業社會責任報告載其「為國內目前最大商用車車架生產公司」，且產品範圍明載「商用車3.5噸~35噸及巴士底盤」，與 claim 所述「3.5噸以上大貨車/巴士」相符；114年度年報亦載「車架屬寡占產品」。惟「市佔率100%」未獲支持：年報僅載木床市場占有率達90%（不同產品線），對車架則稱「寡占產品」，未提供100%之數字。故部分成立。",
+      "proposed_text": "江申工業 (1525，Kian Shen) 為台灣最大商用車車架製造商，產品涵蓋 3.5 噸以上大貨車及巴士車架，車架屬寡占產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1525:objective_ranking_or_market_share:67775914202401b9",
+      "normalized_claim_hash": "67775914202401b9d4d9c391a54a1bdcda56972b56ca283c268f83b87d58acca",
+      "ticker": "1525",
+      "company": "江申",
+      "path": "Pilot_Reports/Auto Parts/1525_江申.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[中華汽車]]、[[國瑞汽車]] — 車架 (市佔 100%)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/115%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1(%E5%B0%9A%E6%9C%AA%E9%81%A9%E7%94%A8%E6%B0%B8%E7%BA%8C%E6%8F%AD%E9%9C%B2%E6%BA%96%E5%89%87).pdf",
+          "title": "江申工業 股東會年報（115年股東常會）",
+          "source_level": 3,
+          "period_binding": "民國114年度及公司沿革。",
+          "accessed_at": "2026-10-05",
+          "note": "年報第7頁公司沿革載「與日本武部鐵工所技術合作，生產大貨車及巴士之車架供應國瑞汽車公司與中華汽車公司」；第58頁研發清單列多項「中華」車架開發案。惟年報就車架載「屬寡占產品」、木床市場占有率達90%，未載100%市占率。"
+        },
+        {
+          "url": "http://www.yulon-group.com/resource/20211124152426297.pdf",
+          "title": "江申工業 2019 企業社會責任報告書",
+          "source_level": 3,
+          "period_binding": "2019年度。",
+          "accessed_at": "2026-10-05",
+          "note": "第10頁載其為國內目前最大商用車車架生產公司，產品涵蓋商用車3.5噸~35噸及巴士底盤；未列中華汽車、國瑞汽車為其客戶之文字（客戶關係由年報公司沿革佐證）。"
+        }
+      ],
+      "rationale": "中華汽車與國瑞汽車為江申車架客戶一節獲發行人年報支持（公司沿革載其生產大貨車及巴士車架供應國瑞汽車公司與中華汽車公司，研發清單亦有多項中華車架案）。惟括號中「（市佔 100%）」未獲支持：年報就車架僅載「屬寡占產品」，唯一提供的占有率數字為木床市場90%，未載車架市占率100%。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

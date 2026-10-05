@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **52 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), and `author-019` (8).
+Author-reviewed: **60 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), and `author-020` (8).
 
 - ACCEPTED by author: 17
-- PARTIALLY_SUPPORTED: 29
+- PARTIALLY_SUPPORTED: 37
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 2
-- Remaining author queue: 1,347
+- Remaining author queue: 1,339
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -215,6 +215,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - Proposed wording is recorded for the partial claims in `semantic/author-019.json`; no issuer report was modified. Independent review remains pending.
 - 來源檢索限制：昭輝年報端點連續六個年度皆回傳非文件內容；此為檢索限制之紀錄，未用以推論 claim 真偽，亦未達 `local-recheck-queue.json` 之重大暫時性失敗門檻。佇列維持 **15** 筆。
 - Author-reviewed total: **52 / 1,399**; remaining: **1,347**. Outcome counts: ACCEPTED 17, PARTIALLY_SUPPORTED 29, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `1521:objective_ranking_or_market_share:b0344d1922014380` (大億).
+
+## Author batch `author-020` — 2026-10-05
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (大億 1521, 堤維西 1522 ×2, 耿鼎 1524 ×3, 江申 1525 ×2). Evidence came from directly downloaded and inspected official disclosures: 大億 112/114年度年報、堤維西2023永續報告書與2026法說會簡報、耿鼎111/112年度年報與2025公司簡報、江申115年股東會年報與2019企業社會責任報告書。
+- `1521:objective_ranking_or_market_share:b0344d1922014380` — `PARTIALLY_SUPPORTED`. 大億114年度年報第57頁載「2.市場佔有率：國內約為80%」，112年度年報第71頁載「國內為80%」，且公司以OEM客戶為主要合作對象，支持其為台灣OEM車燈市場領先者；惟 claim 所述「72%」與官方約80%不符，應以官方數字為準。
+- `1522:objective_ranking_or_market_share:c39cb97e670a83a1` — `PARTIALLY_SUPPORTED`. 堤維西2023永續報告第22頁載其為「全球領先OEM車廠及AM售服市場的夥伴與供應商之一」、以TYC品牌行銷全球130多個國家；惟「北美AM車燈市場市佔約12%」與「位居全球前五大」均未見於官方報告與2026法說會簡報（報告中唯一12%為荷蘭外銷占營收約12%）。
+- `1522:objective_ranking_or_market_share:9f7b131fa64ec7b2` — `PARTIALLY_SUPPORTED`. 官方簡報僅載TYC自建之加州總部與五個北美發貨倉，未具名 LKQ 等經銷商，亦未載12%市佔；經銷關係與市占數字均未獲確立。
+- `1524:objective_ranking_or_market_share:37a66df6e8c59992`、`3fdf0568b0589c62`、`7bfdfa0fb2fba733` — `PARTIALLY_SUPPORTED` ×3. 耿鼎112年度年報第9頁載民國105年獲「LKQ 供應商評估獎」（LKQ 為客戶）、第57頁載其為「北美地區最主要的汽車售後服務(AM)鈑金件供應商之一」；惟第59頁銷貨客戶表以代號揭露（112年度最大客戶為客戶A、占銷貨淨額24.66%），未具名 LKQ，「市佔近40%」亦無官方依據（相關40.6%為耿鼎自身銷售區域結構）。
+- `1525:objective_ranking_or_market_share:fd492ed31d1ccf47`、`67775914202401b9` — `PARTIALLY_SUPPORTED` ×2. 江申2019企業社會責任報告第10頁載其「為國內目前最大商用車車架生產公司」、產品涵蓋商用車3.5噸~35噸及巴士底盤；115年股東會年報公司沿革載車架供應國瑞汽車公司與中華汽車公司、第59頁載「車架屬寡占產品」；惟年報未載車架市占100%（唯一占有率數字為木床市場90%）。
+- Proposed wording is recorded for the partial claims in `semantic/author-020.json`; no issuer report was modified. Independent review remains pending.
+- 方法註記：本批次首次發現需以「市場佔有率」等變體字串檢索，先前以「市佔／市占」檢索大億年報得到零命中，改用「佔有率」後取得官方80%之數字；後續批次將以多變體檢索，避免漏檢。
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **60 / 1,399**; remaining: **1,339**. Outcome counts: ACCEPTED 17, PARTIALLY_SUPPORTED 37, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 2. Next pending claim by priority: `1533:objective_ranking_or_market_share:7a6d45cabd1f1a81` (車王電).
+
 
 
 
