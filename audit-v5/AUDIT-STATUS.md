@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 04:04 UTC
+Updated: 2026-10-12 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **934 / 1,399**
-- Remaining author review: **465**
-- Latest batch: **author-172** (4 claims)
+- Author-reviewed: **941 / 1,399**
+- Remaining author review: **458**
+- Latest batch: **author-173** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **92**
-- `PARTIALLY_SUPPORTED`: **610**
+- `PARTIALLY_SUPPORTED`: **615**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **228**
+- `UNKNOWN_AFTER_RESEARCH`: **230**
 
 ## Latest claim batch
 
-- `6803:objective_ranking_or_market_share:d6b824ac14940918` — `PARTIALLY_SUPPORTED`；崑鼎年報「**中鼎」95 次、「焚化廠」86 次、「綠能環保」73 次**；惟「**最大」9 次全為泛用語**（「為股東追求最大利益」「最大連續不降雨日數」）。
-- `8341:objective_ranking_or_market_share:8859f2ab9e89b9b4` — `ACCEPTED`；日友簡報**逐字載**「**日友公司是臺灣第一家專業生物醫療廢棄物焚化處理廠**」及「1994」——**逐字對應**。
-- `8341:objective_ranking_or_market_share:3f33ab11ca3de778` — `PARTIALLY_SUPPORTED`；「青新」6次支持子公司關係；惟簡報之「最大」係指**日友本身**，「石綿」0次。
-- `8341:objective_ranking_or_market_share:04de738dcd712a81` — `UNKNOWN_AFTER_RESEARCH`；「台大」「長庚」「榮總」「醫療院所」「網絡」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-172.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6951:objective_ranking_or_market_share:f85c202bfd3023a7` (青新-創).
+- `6951:objective_ranking_or_market_share:f85c202bfd3023a7` — `PARTIALLY_SUPPORTED`；青新簡報載「本公司向**母公司日友環保**取（…）」；惟「最大」0次。
+- `6951:objective_ranking_or_market_share:118a4a05e6c010b3` — `PARTIALLY_SUPPORTED`；業務成立；惟「11,000」「30%」「10%」皆0次。
+- `6951:objective_ranking_or_market_share:dfc8c55e4d895e58` — `PARTIALLY_SUPPORTED`；醫療廢棄物清除服務成立；惟「星型」「中繼」「最大」皆0次。
+- `6951:objective_ranking_or_market_share:477ec4a344c88ad9` — `PARTIALLY_SUPPORTED`；簡報「**青新木」5 次**；惟「最大」「有害」皆0次。
+- `8422:objective_ranking_or_market_share:8c9bc6fbd3f61732` — `UNKNOWN_AFTER_RESEARCH`；端點所取得僅 **690 bytes 非文件內容**。
+- `8440:objective_ranking_or_market_share:80bc4d426ebfd8b7` — `PARTIALLY_SUPPORTED`；簡報載「**亞洲第一家廢家電資源化處理廠**」（**範圍強於** claim 之「國內第一家」）；惟「最大」0次。
+- `8440:objective_ranking_or_market_share:583e2c8ff693e85f` — `UNKNOWN_AFTER_RESEARCH`；「唯一」「中部」「獨佔」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-173.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `7507:objective_ranking_or_market_share:bfc75b334da69cf9` (環拓科技).
 
 ## Source access
 
