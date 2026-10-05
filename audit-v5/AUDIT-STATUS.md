@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 18:04 UTC
+Updated: 2026-10-12 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **988 / 1,399**
-- Remaining author review: **411**
-- Latest batch: **author-186** (4 claims)
+- Author-reviewed: **992 / 1,399**
+- Remaining author review: **407**
+- Latest batch: **author-187** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **644**
+- `PARTIALLY_SUPPORTED`: **646**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **246**
+- `UNKNOWN_AFTER_RESEARCH`: **248**
 
 ## Latest claim batch
 
-- `2248:material_named_relationship:13d404696b3234ea` — `PARTIALLY_SUPPORTED`；華勝簡報「**氛圍燈」27 次、「閱讀燈」18 次**；惟「General Motors」0次，「GM」1次之上下文為孤立詞組。
-- `2248:material_named_relationship:a10ae81f604337b8` — `PARTIALLY_SUPPORTED`；「蔚來」8次、「上汽」「北汽」各3次、「Toyota」「奇瑞」「吉利」各1次；惟「General Motors」「Ford」「BMW」「一汽」「長城」「Tesla」皆0次。
-- `2252:material_named_relationship:79b3690c5dc4c3d7`、`79973c44b52acaed` — `PARTIALLY_SUPPORTED` ×2；為昇科簡報「**雷達」65 次、「BSD」12 次、「AEB」10 次**；**惟原文為「前五大其中三家: FCW/AEB雷達」與「前五大其中兩家: 內輪差雷達」——與 claim 之「兩家」不符**，且「**獨家」0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-186.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2230:material_named_relationship:b19e819d6084f649` (泰茂).
+- `2230:material_named_relationship:b19e819d6084f649` — `UNKNOWN_AFTER_RESEARCH`；泰茂簡報「**晨亨」0 次**。
+- `2497:material_named_relationship:c07a35d12d128a8d` — `PARTIALLY_SUPPORTED`；怡利電個體財報「HUD」3次、「抬頭」2次；惟「AR-HUD」「前三」「排名」皆0次（**文件性質為財報，非年報**）。
+- `3346:material_named_relationship:05338c3bf993f287` — `PARTIALLY_SUPPORTED`；麗清簡報載「**民國88年8月27日**」（＝1999）與「**LED汽車照明之光學模組**」，並列各廠客戶（海拉、ZKW、小糸等）；惟「**OEM」0 次**。
+- `4535:material_named_relationship:791df309aac80cff` — `UNKNOWN_AFTER_RESEARCH`；至興永續報告書 **46.9MB 但文字僅 4,238 字元**，且**數字被映射為相容表意字之亂碼**；「Autoliv／ZF／Joyson／安全帶」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-187.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `3162:material_named_relationship:3eadbf59b44aa00d` (精確).
 
 ## Source access
 

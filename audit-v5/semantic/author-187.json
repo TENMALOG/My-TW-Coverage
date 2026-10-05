@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-187",
+  "reviewed_at": "2026-10-05T21:47:48Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泰茂上櫃前業績發表會簡報; 怡利電111年度個體財務報告; 麗清法說會簡報; 至興2024年永續報告書)",
+  "items": [
+    {
+      "claim_id": "2230:material_named_relationship:b19e819d6084f649",
+      "normalized_claim_hash": "b19e819d6084f649f696f1cd428dad41c7ba3ce719996f365fead6c84ccb9a55",
+      "ticker": "2230",
+      "company": "泰茂",
+      "path": "Pilot_Reports/Auto Parts/2230_泰茂.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "國際車廠 — [[晨亨科技]] Tier 1 供應",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/223020130322E001.pdf",
+          "title": "泰茂實業股份有限公司（泰茂，2230，Taimao）上櫃前業績發表會簡報（2013-03-22）",
+          "source_level": 3,
+          "period_binding": "2013年3月22日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,395字元，以圖形排版為主）。簡報中「國際」出現5次、「供應」2次、「車廠」1次。**全份簡報中「晨亨」之出現次數為0**；亦未見 Tier 1／Tier 2 之客戶敘述。"
+        }
+      ],
+      "rationale": "「國際車廠 — [[晨亨科技]] Tier 1 供應」未獲確立：所取得之泰茂上櫃前業績發表會簡報中「**晨亨**」之出現次數為**0**（「國際」5次、「供應」2次、「車廠」1次僅為一般敘述），且未見 Tier 1／Tier 2 之客戶關係敘述。因該 claim 之實質內容為具名客戶，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2497:material_named_relationship:c07a35d12d128a8d",
+      "normalized_claim_hash": "c07a35d12d128a8dcf427a44402c556e9d3587553e998c7f814dba77faf511d7",
+      "ticker": "2497",
+      "company": "怡利電",
+      "path": "Pilot_Reports/Auto Parts/2497_怡利電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器 ([[HUD]]) 及[[AR-HUD]]之 Tier 1 供應商，中國 HUD 市場排名前三。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.e-lead.com.tw/pdf/reports/%e6%80%a1%e5%88%a9111%20IFRS%e8%b2%a1%e5%a0%b1(%e5%80%8b%e9%ab%94).pdf",
+          "title": "怡利電子工業股份有限公司（怡利電，2497，E-Lead Electronic）民國111年度個體財務報告",
+          "source_level": 3,
+          "period_binding": "民國111年度。**文件性質為個體財務報告，非年報**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取62,590字元）。**文件性質為個體財務報告（非年報）**，封面載「股票代碼：2497 怡利電子工業股份有限公司及子公司」。文中「**HUD**」出現3次、「**抬頭**」2次，支持其抬頭顯示器業務之字樣。全份文件中「**AR-HUD**」「前三」「排名」與「市佔」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為車用[[HUD]]之供應商」獲發行人文件之**部分支持**：民國111年度個體財務報告中「**HUD**」出現3次、「**抬頭**」2次。**惟兩項陳述未獲支持**：(1)「[[AR-HUD]]」——出現次數為**0**；(2)「中國 HUD **市場排名前三**」——「前三」「排名」與「市佔」之出現次數**均為0**。故部分成立。**文件性質註記**：本件為**個體財務報告（非年報）**，本批次未取得年報版本。",
+      "proposed_text": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器（HUD）之供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3346:material_named_relationship:05338c3bf993f287",
+      "normalized_claim_hash": "05338c3bf993f2876b5eabbef292180ea9c3814f50ab47e9b2e381b5670fbe5e",
+      "ticker": "3346",
+      "company": "麗清",
+      "path": "Pilot_Reports/Auto Parts/3346_麗清.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "麗清科技 (3346) 是專業車用 [[LED]] 照明模組製造商，1999 年成立以來深耕 LED 汽車照明，產品成功打入全球汽車 OEM 原廠供應鏈 (Tier 1/Tier 2)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.lastertech.com/files/%E6%B3%95%E8%AA%AA%E6%9C%83%E4%B8%AD%E6%96%87%E7%B0%A1%E5%A0%B1-2500918.pdf",
+          "title": "麗清科技股份有限公司（麗清，3346，Laster Tech）法說會中文簡報",
+          "source_level": 3,
+          "period_binding": "簡報所載日期請見文件。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取3,409字元，以圖形排版為主）。簡報「公司簡介－基本資料」載「成立日期 **民國88年8月27日**」（＝**1999年**）、「主要產品 LED垂直整合應用．**LED汽車照明之光學模組**．LED照明燈具．LED晶片及元件銷售等」；「主要汽車生產據點」載各廠主要客戶——上海廠「**華域視覺、大茂偉瑞柯、OLSA、海拉、ZKW**」、東莞廠「**廣州小糸、福州大億、三立車燈**」、武漢廠「**湖北小系**」、台灣觀音廠「**美國HASCO**」，產品為「**LED車燈模組**」「智能車燈控制器」（「**LED**」11次、「車用」1次、「**Tier 1**」1次、「**Tier 2**」1次）。全份簡報中「**OEM**」之出現次數為0。"
+        }
+      ],
+      "rationale": "「專業車用 **LED 照明模組**製造商」（簡報載「主要產品 LED垂直整合應用．**LED汽車照明之光學模組**」，並見「**LED**」11次）、「**1999 年**成立」（簡報載「成立日期 **民國88年8月27日**」，即1999年）與「打入汽車 Tier 1／Tier 2 供應鏈」（見「**Tier 1**」1次、「**Tier 2**」1次，且各廠主要客戶載「華域視覺、大茂偉瑞柯、OLSA、海拉、ZKW」「廣州小糸、福州大億、三立車燈」「湖北小系」「美國HASCO」）**獲發行人簡報支持**；惟「全球汽車 **OEM 原廠**供應鏈」之表述未獲支持——「**OEM**」之出現次數為**0**，簡報所載之客戶係**車燈模組／車燈廠**（海拉、ZKW、小糸等）而非 OEM 本身。故部分成立。",
+      "proposed_text": "麗清科技 (3346，Laster Tech) 為專業車用 LED 照明模組製造商，1999 年成立，主要客戶包含海拉、ZKW、小糸、大億等車燈廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4535:material_named_relationship:791df309aac80cff",
+      "normalized_claim_hash": "791df309aac80cff76541f264941b715a38f4dae06df0d3f04de460093ffb6e6",
+      "ticker": "4535",
+      "company": "至興",
+      "path": "Pilot_Reports/Auto Parts/4535_至興.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] (均勝) 之安全帶及氣囊零組件。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.fineblanking.com.tw/rwd1280/store/F2/fbt2024ESG.pdf",
+          "title": "至興精機股份有限公司（至興，4535，Fine Blanking Technology）2024年永續報告書（查證限制）",
+          "source_level": 3,
+          "period_binding": "2024年永續報告書。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。**關鍵發現（文字層全面失準）**：該檔為 46,897,575 bytes（約46.9MB），而**文字擷取僅得4,238字元**，且擷取內容**幾全為目錄頁之編號與頁碼，且數字被映射為相容表意字或罕用字**——如「使」「侀」「侁」「侂」「侃」「侄」等（例：「使.使 前言」「侀.使 永續願景與發展政策」「…使佾侃」），**屬字形映射錯誤之亂碼**。全份擷取內容中「**Autoliv**」「**ZF**」「**Joyson**」「**均勝**」「**安全帶**」與「沖（精沖）」之出現次數**均為0**（「至興」1次、「精機」1次）。**本批次未取得該公司可判讀之實質內容。**"
+        }
+      ],
+      "rationale": "「供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]]（均勝）之**安全帶及氣囊**零組件」未獲確立：本批次所取得之至興2024年永續報告書為 **46.9MB**，而**文字擷取僅得4,238字元**，且擷取內容**幾全為目錄頁編號與頁碼，其數字並被映射為相容表意字或罕用字**（如「使」「侀」「侁」「侂」「侃」「侄」，例：「使.使 前言」「侀.使 永續願景與發展政策」），**屬字形映射錯誤之亂碼**；全份擷取內容中「**Autoliv**」「**ZF**」「**Joyson**」「**均勝**」「**安全帶**」與「沖」之出現次數**均為0**。**本批次未取得該公司可判讀之實質內容**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
