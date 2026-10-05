@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-257",
+  "reviewed_at": "2026-10-05T23:22:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (國精化2026法說會; 三福化公司文件; 雙鍵公司文件); 台聚／南寶／晶呈端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "4722:material_named_relationship:91f6aff6a0b18ed3",
+      "normalized_claim_hash": "91f6aff6a0b18ed3f869ddbe46cc976e0168ff46f5f0f9da384299c2c3bf0491",
+      "ticker": "4722",
+      "company": "國精化",
+      "path": "Pilot_Reports/Specialty Chemicals/4722_國精化.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "下游[[CCL]]三雄 — [[台光電]]、[[台燿]]、[[聯茂]]為主要客戶，終端應用為[[AI 伺服器]]及[[5G]]基站。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/472220260807M001.pdf",
+          "title": "國精化學股份有限公司（國精化，4722，Qualipoly Chemical）法人說明會簡報（2026-08-07）",
+          "source_level": 3,
+          "period_binding": "2026年8月7日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,023字元，以圖形排版為主）。簡報載「高階**CCL** 樹脂M8–M10 定位，M8, M9已通過**客戶認證**」「**CCL** 供應市場動態」「高階 **CCL** 材料供應趨緊，交期延長」（「**CCL**」26次、「**銅箔基板**」5次、「**客戶**」3次、「國精」21次），**充分支持其為 CCL（銅箔基板）材料供應商且已通過客戶認證**。**關鍵發現**：全份簡報中「**台光電**」「**台燿**」與「**聯茂**」之出現次數**均為0**——**未具名任何 CCL 客戶**。"
+        }
+      ],
+      "rationale": "「下游 **[[CCL]]**（客戶）」身分獲發行人簡報**充分支持**：簡報載「高階**CCL** 樹脂M8–M10 定位，M8, M9已通過**客戶認證**」「**CCL** 供應市場動態」（「**CCL**」26次、「銅箔基板」5次、「客戶」3次），**支持其為 CCL（銅箔基板）材料供應商且已通過客戶認證**。**惟「三雄 — [[台光電]]、[[台燿]]、[[聯茂]]為主要客戶」未獲支持**——**三家公司名稱之出現次數均為0**（且「主要客戶」之字樣亦未見）。故部分成立。",
+      "proposed_text": "國精化學 (4722，Qualipoly Chemical) 供應高階 CCL（銅箔基板）材料，並已通過客戶認證。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4755:material_named_relationship:abc05f6218234d25",
+      "normalized_claim_hash": "abc05f6218234d25c5a4d59005cab483feab732c55233d90189425b6e43d1be3",
+      "ticker": "4755",
+      "company": "三福化",
+      "path": "Pilot_Reports/Specialty Chemicals/4755_三福化.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[台積電]] (主要客戶，[[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]、[[力成]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sfchem.com.tw/zh-hans/file/download/402881888a1c7f1e01907cdfdf9c00fc",
+          "title": "三福化工股份有限公司（三福化，4755，San Fu Chemical）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取248,446字元）。文件**逐字載**「等光電產業，**客戶遍及高科技產業各大廠商，如：台積電、聯電**、力積電、世（界）」（「**台積電**」2次、「**聯電**」1次、「**精密化學品**」24次），**支持台積電與聯電為其客戶**。**關鍵發現**：全份文件中「**CoWoS**」「**InFO**」「卓越供應商」與「供應商獎」之出現次數**均為0**——**未載該等先進封裝製程或獲獎事實**。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 **[[台積電]]**、**[[聯電]]**」獲發行人文件**逐字支持**：文件載「等光電產業，**客戶遍及高科技產業各大廠商，如：台積電、聯電**、力積電、世（界）」（「台積電」2次、「聯電」1次），**支持台積電與聯電為其客戶**。**惟「台積電（主要客戶，[[CoWoS]]／[[InFO]] 製程）」之具體製程關聯未獲支持**——「**CoWoS**」與「**InFO**」之出現次數**均為0**（「主要客戶」之排序性表述亦未見）。故部分成立。",
+      "proposed_text": "三福化工 (4755，San Fu Chemical) 之客戶包含台積電、聯電及力積電等高科技廠商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4764:material_named_relationship:4c79069300234964",
+      "normalized_claim_hash": "4c79069300234964077a069691c948c493da54bc65d03bb9ceaba64c7a9cee8a",
+      "ticker": "4764",
+      "company": "雙鍵",
+      "path": "Pilot_Reports/Specialty Chemicals/4764_雙鍵.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已確認打入主要[[CCL]]廠供應鏈如[[台光電]]、[[聯茂]]、[[台燿]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.dbc.com.tw/upload/11750643127.pdf",
+          "title": "雙鍵化工股份有限公司（雙鍵，4764，Double Bond Chemical）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取223,132字元，**中英文並列**）。文件載英文「（…）promoted to **copper-clad laminate (CCL) customers** in Taiwan, South Korea, and Japan.」（「**CCL**」1次），**支持其已打入台灣、韓國及日本之 CCL 客戶**。**關鍵發現**：全份文件中「**台光電**」「**聯茂**」「**台燿**」與「供應鏈」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「已確認打入主要 **[[CCL]]** 廠**供應鏈**」獲發行人文件之**部分支持**：文件（中英文並列）載英文「（…）promoted to **copper-clad laminate (CCL) customers** in Taiwan, South Korea, and Japan.」（「CCL」1次），**支持其已打入台灣、韓國及日本之 CCL 客戶**。**惟三家具名客戶未獲支持**：「**台光電**」「**聯茂**」「**台燿**」與「供應鏈」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "雙鍵化工 (4764，Double Bond Chemical) 已打入台灣、韓國及日本之 CCL（銅箔基板）客戶。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1304:profitability_assertion:c324a7d5e4db1022",
+      "normalized_claim_hash": "c324a7d5e4db10228658d8ed63fca1d473411afd26a4eb7e0eba42b2f7b6dd64",
+      "ticker": "1304",
+      "company": "台聚",
+      "path": "Pilot_Reports/Specialty Chemicals/1304_台聚.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[太陽能]]封裝膜 (高毛利)、發泡鞋材、熱熔膠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/130420250401M001.pdf",
+          "title": "台聚（1304）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之台聚端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得台聚可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[太陽能]]封裝膜（**高毛利**）、**發泡鞋材**、**熱熔膠**」未獲確立：本批次所嘗試之台聚端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4766:profitability_assertion:fdbc303d1728446e",
+      "normalized_claim_hash": "fdbc303d1728446e626f6088f8119938977abb2115aaf7e99e58b8cc8f0d7ff2",
+      "ticker": "4766",
+      "company": "南寶",
+      "path": "Pilot_Reports/Specialty Chemicals/4766_南寶.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三大成長引擎：(1) 鞋材接著劑 — 供應[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]]品牌代工體系 ([[寶成]]、[[豐泰]]、[[鈺齊-KY]])；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/476620250401M001.pdf",
+          "title": "南寶（4766）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之南寶端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得南寶可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「三大成長引擎：(1) **鞋材接著劑** — 供應 **[[Nike]]**、**[[Adidas]]**、[[Under Armour]]」未獲確立：本批次所嘗試之南寶端點回應 **HTTP 404**（官方端點亦未取得），以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4768:material_named_relationship:6ba5812c869fefaf",
+      "normalized_claim_hash": "6ba5812c869fefaf4a7a8bc87147ccbfb39d32312cea2c0c0b0ecddbc31a5fcc",
+      "ticker": "4768",
+      "company": "晶呈科技",
+      "path": "Pilot_Reports/Specialty Chemicals/4768_晶呈科技.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品涵蓋 C4F8、C4F6、SiF4、氙氣 (Xe)、氪氣 (Kr)、HF、F2 等[[蝕刻]]/清洗/[[微影]]用特殊氣體，供應[[台積電]] (主要客戶)、[[聯電]]、[[Micron]]等晶圓廠。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/476820250401M001.pdf",
+          "title": "晶呈科技（4768）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之晶呈科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得晶呈科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「產品涵蓋 **C4F8、C4F6、SiF4、氙氣（Xe）、氪氣（Kr）、HF、F2** 等（[[電子級特氣]]）」未獲確立：本批次所嘗試之晶呈端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

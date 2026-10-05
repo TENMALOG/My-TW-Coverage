@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 16:04 UTC
+Updated: 2026-10-15 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,327 / 1,399**
-- Remaining author review: **72**
-- Latest batch: **author-256** (6 claims)
+- Author-reviewed: **1,333 / 1,399**
+- Remaining author review: **66**
+- Latest batch: **author-257** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **106**
-- `PARTIALLY_SUPPORTED`: **805**
+- `PARTIALLY_SUPPORTED`: **808**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **411**
+- `UNKNOWN_AFTER_RESEARCH`: **414**
 
 ## Latest claim batch
 
-- 🟢 `1305:material_named_relationship:374aa8610279391e` — **`ACCEPTED`**；華夏年報**逐字載**「針對**子公司台灣氯乙烯**工業股份有限公司」（**台灣氯乙烯 5 次、TVCM 3 次、VCM 41 次、87% 1 次**）。
-- `6477:material_named_relationship:f2193835814d25c6` — `PARTIALLY_SUPPORTED`；安集簡報「**3D列印」23 次、「金屬粉末」6 次、「設備」6 次、「欽揚」2 次**；**惟「大股東／結盟／3D列印機」皆 0 次**。
-- `1305:export_concentration:977fe4236612cb37` — `PARTIALLY_SUPPORTED`；華夏年報「**美國」8 次、「澳洲」1 次、「東南亞」1 次**；**惟「中國大陸」0 次**。
-- `3430:8a57ea61587c77c9`、`4714:b4e9d205c61c6d99`、`4702:6f5e05252bf8c5fc` — `UNKNOWN_AFTER_RESEARCH` ×3；奇鈦科／永捷／中美實端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-256.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,327 ＝ 條目總數 1,327。**覆蓋率 94.85%**。
-- Next pending claim by priority: `4722:material_named_relationship:91f6aff6a0b18ed3` (國精化).
+- `4722:material_named_relationship:91f6aff6a0b18ed3` — `PARTIALLY_SUPPORTED`；國精化簡報「**CCL」26 次、「銅箔基板」5 次**並載「M8, M9已通過**客戶認證**」；**惟「台光電／台燿／聯茂」皆 0 次**。
+- `4755:material_named_relationship:abc05f6218234d25` — `PARTIALLY_SUPPORTED`；三福化文件**逐字載**「客戶遍及高科技產業各大廠商，如：**台積電、聯電**、力積電」（台積電2次、聯電1次）；**惟「CoWoS／InFO」皆 0 次**。
+- `4764:material_named_relationship:4c79069300234964` — `PARTIALLY_SUPPORTED`；雙鍵文件載英文「promoted to **copper-clad laminate (CCL) customers** in Taiwan, South Korea, and Japan」；**惟「台光電／聯茂／台燿／供應鏈」皆 0 次**。
+- `1304:c324a7d5e4db1022`、`4766:fdbc303d1728446e`、`4768:6ba5812c869fefaf` — `UNKNOWN_AFTER_RESEARCH` ×3；台聚／南寶／晶呈端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-257.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,333 ＝ 條目總數 1,333。**覆蓋率 95.28%**。
+- Next pending claim by priority: `4768:material_named_relationship:2a1b1bc0ddbd85ff` (晶呈科技).
 
 ## Source access
 
