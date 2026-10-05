@@ -1,0 +1,144 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-262",
+  "reviewed_at": "2026-10-05T23:29:42Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (遠傳2024英文版年報; 松和2025法說會; 三芳2022法說會; 榮剛2024法說會); 大甲端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "4904:material_named_relationship:82d2b1e647aca322",
+      "normalized_claim_hash": "82d2b1e647aca3223167998889f6230a1386577d83d6f871d6bbc5514f6aa63f",
+      "ticker": "4904",
+      "company": "遠傳",
+      "path": "Pilot_Reports/Telecom Services/4904_遠傳.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Ericsson]] — [[5G]] 核心網與基地台主要供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://corporate.fetnet.net/content/dam/fetnet/user_resource/corp/documents/en/Shareholders-Meeting/2025/2024AnnualReport-e.pdf",
+          "title": "Far EasTone Telecommunications Co., Ltd（遠傳電信，4904，FET）2024 年度年報（英文版）",
+          "source_level": 3,
+          "period_binding": "2024年度。**文件為英文版。**",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取441,928字元，**英文版年報**）。年報中「**Ericsson**」出現7次、「**5G**」117次、「**base station**」20次、「core network」3次、「supplier」76次，並**逐字載**「Joined the **Ericsson** Global Product Take-Back Program and recycle tens of thousands of telecommunications wastes from **base stations**」（**與 Ericsson 之合作計畫**）及「By January 2024, the first phase of **base station** consolidation（…）」，**支持其與 Ericsson 之合作關係及基地台業務**。**關鍵發現**：全份年報中「**主要供應商**」之對應排序性表述**未見**（Ericsson 之部分出現為董事會成員之經歷敘述，如「President of Ericsson Taiwan」）。"
+        }
+      ],
+      "rationale": "「**[[Ericsson]]**」與「**[[5G]]**…**基地台**」之關聯獲發行人年報**逐字支持**：年報載「Joined the **Ericsson** Global Product Take-Back Program and recycle tens of thousands of telecommunications wastes from **base stations**」「By January 2024, the first phase of **base station** consolidation」（「**Ericsson**」7次、「**5G**」117次、「**base station**」20次、「core network」3次），**支持其與 Ericsson 之合作關係及基地台業務**。**惟「主要供應商」之排序性表述未獲支持**——該等字樣**未見**（且 Ericsson 之部分出現係董事會成員之經歷敘述）。故部分成立。",
+      "proposed_text": "遠傳電信 (4904，Far EasTone) 與 Ericsson 具合作關係，並經營 5G 基地台網路。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5016:material_named_relationship:f7cc475a704a35de",
+      "normalized_claim_hash": "f7cc475a704a35de955580d8ffb4ab1ef6448592e59d7c4d04a8c6e3ae91378d",
+      "ticker": "5016",
+      "company": "松和",
+      "path": "Pilot_Reports/Steel/5016_松和.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "為國內電梯用鋼索主要供應商，客戶含[[崇友]] (4506)、[[永大]]等電梯廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/501620250407M001.pdf",
+          "title": "松和工業股份有限公司（松和，5016，Song Ho）法人說明會簡報（2025-04-07）",
+          "source_level": 3,
+          "period_binding": "2025年4月7日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,194字元，以圖形排版為主）。簡報中「**電梯**」出現1次、「**鋼索**」1次，**支持其電梯用鋼索業務**。**關鍵發現**：全份簡報中「**崇友**」「**永大**」與「主要供應商」之出現次數**均為0**——**未具名該等客戶**。"
+        }
+      ],
+      "rationale": "「國內**電梯**用**鋼索**（供應商）」獲發行人簡報之**部分支持**：簡報中「**電梯**」出現1次、「**鋼索**」1次，**支持其電梯用鋼索業務**。**惟兩項具名客戶未獲支持**：「**[[崇友]]**（4506）」與「**[[永大]]**」之出現次數**均為0**（「主要供應商」之排序性表述亦未見）。故部分成立。",
+      "proposed_text": "松和工業 (5016，Song Ho) 供應電梯用鋼索。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1307:material_named_relationship:4eb0c68975ca904a",
+      "normalized_claim_hash": "4eb0c68975ca904a1f9f6518c8c129f2d4b2479bcf586d726fed7ec87e3d3cc5",
+      "ticker": "1307",
+      "company": "三芳",
+      "path": "Pilot_Reports/Textile Manufacturing/1307_三芳.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nike]]、[[Adidas]]、[[New Balance]]、[[Puma]]、[[Hoka]]、[[On Running]] (主要指定供應商)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/130720220920M001.pdf",
+          "title": "三芳化學工業股份有限公司（三芳，1307，San Fang Chemical）法人說明會簡報（2022-09-20）",
+          "source_level": 3,
+          "period_binding": "2022年9月20日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,943字元，以圖形排版為主）。簡報中「**Nike**」「**Adidas**」與「**Puma**」各出現2次，**支持該等品牌為其客戶**。**關鍵發現**：全份簡報中「**New Balance**」「**Hoka**」「**On Running**」「**座椅**」「**門飾**」「**皮革**」「**Tier 1**」「**MIH**」與「指定供應商」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[Nike]]**、**[[Adidas]]**…**[[Puma]]**」獲發行人簡報**逐字支持**：簡報中「**Nike**」「**Adidas**」與「**Puma**」各出現2次，**支持該等品牌為其客戶**。**惟四項具名與表述未獲支持**：「**[[New Balance]]**」「**[[Hoka]]**」「**[[On Running]]**」（**均為0次**）以及「（主要）**指定供應商**」（**0次**）。故部分成立。",
+      "proposed_text": "三芳化學 (1307，San Fang Chemical) 之客戶包含 Nike、Adidas、Puma 等運動品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1307:material_named_relationship:572938d0d688e798",
+      "normalized_claim_hash": "572938d0d688e79829426089fc23727e93160d9cb3cda3a9153d7bc7140f0d1c",
+      "ticker": "1307",
+      "company": "三芳",
+      "path": "Pilot_Reports/Textile Manufacturing/1307_三芳.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "座椅皮革、門飾板，已打入Tier 1供應鏈及[[MIH]]聯盟",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/130720220920M001.pdf",
+          "title": "三芳化學工業股份有限公司（三芳，1307，San Fang Chemical）法人說明會簡報（2022-09-20）",
+          "source_level": 3,
+          "period_binding": "2022年9月20日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取8,943字元，以圖形排版為主）。簡報中「**Nike**」「**Adidas**」與「**Puma**」各出現2次，**支持該等品牌為其客戶**。**關鍵發現**：全份簡報中「**New Balance**」「**Hoka**」「**On Running**」「**座椅**」「**門飾**」「**皮革**」「**Tier 1**」「**MIH**」與「指定供應商」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**座椅皮革**、**門飾板**，已打入 **Tier 1** 供應鏈及 **[[MIH]]** 聯盟」未獲確立：所取得之三芳2022年法人說明會簡報中「**座椅**」「**門飾**」「**皮革**」「**Tier 1**」與「**MIH**」之出現次數**均為0**，**該 claim 之各項要素在文件中皆無對應**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由年報或較新年度之簡報複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2221:export_concentration:abc1d459bf42c9b4",
+      "normalized_claim_hash": "abc1d459bf42c9b43de4d8899cffc7e13d9f1192ec823fc54052072c74f78132",
+      "ticker": "2221",
+      "company": "大甲",
+      "path": "Pilot_Reports/Steel/2221_大甲.md",
+      "signal_type": "export_concentration",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "化工級 (佔約50%) 主要外銷日本石化業。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/222120250401M001.pdf",
+          "title": "大甲永和（2221）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之大甲永和端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得大甲永和可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「**化工級**（佔約 **50%**）主要**外銷日本**石化業」未獲確立：本批次所嘗試之大甲 MOPS 端點回應 **HTTP 404**（其官方網域於本批次另一次嘗試中回應 TLS 憑證信任失敗），未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ],
+  "corrections": [
+    {
+      "corrected_at": "2026-10-05T23:29:58Z",
+      "kind": "duplicate_claim_across_batches",
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "earlier_batch": "author-261",
+      "later_batch": "author-262",
+      "detail": "本批次（author-262）誤將已於 author-261 判定之 claim 再行審核一次。為維持『每一 claim 於帳本中僅有一個判定』之原則，**已將本批次中之該筆移除，並將其所據之新證據與新評估以 amendment 之形式併入 author-261 之對應條目**（保留 author-261 之原判定 UNKNOWN_AFTER_RESEARCH）。"
+    }
+  ]
+}

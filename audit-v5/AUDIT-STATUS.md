@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 21:04 UTC
+Updated: 2026-10-15 22:34 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,358 / 1,399**
-- Remaining author review: **41**
-- Latest batch: **author-261** (7 claims)
+- Author-reviewed: **1,363 / 1,399**
+- Remaining author review: **36**
+- Latest batch: **author-262** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **106**
-- `PARTIALLY_SUPPORTED`: **815**
+- `PARTIALLY_SUPPORTED`: **818**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **432**
+- `UNKNOWN_AFTER_RESEARCH`: **434**
 
 ## Latest claim batch
 
-- `2069:material_named_relationship:03452c1b1852a645` — `PARTIALLY_SUPPORTED`；運錩年報載供應商名單「（**太鋼、浦項、寶鋼**、…」並載「集中向**主要供應商**進貨原料」（**太鋼 1 次、寶鋼 1 次、浦項 1 次、唐榮 3 次、主要供應商 2 次**）；**惟「華新麗華」0 次**（TISCO／POSCO 英文簡稱亦皆 0 次）。
-- `2032:material_named_relationship:07b1081fc81ce402` — `UNKNOWN_AFTER_RESEARCH`；新鋼文件為**財務報告**，「**華新／燁聯／供應」皆 0 次**。
-- `2031:7b09467cb212b42e`、`ff762c212be11c98`、`5009:b8037559961325d8` — `UNKNOWN_AFTER_RESEARCH` ×3；新光鋼與榮剛端點 **HTTP 404**。
-- ⚠️ `2034:046bc996fc30f235` — `UNKNOWN_AFTER_RESEARCH`；允強官方網域 **DNS 解析失敗**（主機名稱不存在）。
-- ⚠️ `2221:6487ce61487cc293` — `UNKNOWN_AFTER_RESEARCH`；大甲官方網域 **TLS 憑證信任失敗**。
-- 證據記錄於 `semantic/author-261.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,358 ＝ 條目總數 1,358。**覆蓋率 97.07%**。
-- Next pending claim by priority: `2221:export_concentration:abc1d459bf42c9b4` (大甲).
+- `4904:material_named_relationship:82d2b1e647aca322` — `PARTIALLY_SUPPORTED`；遠傳2024英文版年報載「Joined the **Ericsson** Global Product Take-Back Program and recycle…wastes from **base stations**」（**Ericsson 7 次、5G 117 次、base station 20 次**）；**惟「主要供應商」之排序性表述未見**。
+- `5016:material_named_relationship:f7cc475a704a35de` — `PARTIALLY_SUPPORTED`；松和簡報「**電梯」1 次、「鋼索」1 次**；**惟「崇友／永大」皆 0 次**。
+- `1307:material_named_relationship:4eb0c68975ca904a` — `PARTIALLY_SUPPORTED`；三芳簡報「**Nike／Adidas／Puma 各 2 次**」；**惟「New Balance／Hoka／On Running／指定供應商」皆 0 次**。
+- `1307:material_named_relationship:572938d0d688e798` — `UNKNOWN_AFTER_RESEARCH`；三芳簡報「**座椅／門飾／皮革／Tier 1／MIH」皆 0 次**。
+- `2221:export_concentration:abc1d459bf42c9b4` — `UNKNOWN_AFTER_RESEARCH`；大甲端點 **HTTP 404**。
+- ⚠️ **本批次之帳目更正**：`5009:profitability_assertion:b8037559961325d8` 原已於 `author-261` 判定（UNKNOWN，端點404）。為維持「每一 claim 於帳本中僅有一個判定」，**已將該筆自本批次移除，並把其所據之新證據（榮剛2024法說會簡報）與新評估以 `amendment` 之形式併入 author-261 之對應條目**（原判定不予更動）；本批次並加入 `corrections` 記錄。
+- 證據記錄於 `semantic/author-262.json`（**5 筆**）。未修改發行人報告。帳目一致：唯一 claim 數 1,363 ＝ 條目總數 1,363。**覆蓋率 97.43%**。
+- Next pending claim by priority: `1341:export_concentration:68cf7713a01f37cf` (富林-KY).
 
 ## Source access
 

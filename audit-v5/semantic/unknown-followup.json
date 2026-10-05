@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:28:22Z",
+  "generated_at": "2026-10-05T23:30:15Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -264,17 +264,18 @@
     "author-258",
     "author-259",
     "author-260",
-    "author-261"
+    "author-261",
+    "author-262"
   ],
-  "source_batch_count": 261,
-  "total_unknown": 432,
+  "source_batch_count": 262,
+  "total_unknown": 434,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 206,
-    "other_unclassified": 154,
+    "no_official_endpoint_found": 207,
+    "other_unclassified": 155,
     "tls_failure": 17,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 126,
+    "http_404": 127,
     "image_only_or_tiny_text": 20,
     "http_403": 16,
     "connection_failure": 17,
@@ -6598,6 +6599,35 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/500920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1307:material_named_relationship:572938d0d688e798",
+      "ticker": "1307",
+      "company": "三芳",
+      "claim": "座椅皮革、門飾板，已打入Tier 1供應鏈及[[MIH]]聯盟",
+      "batch_id": "author-262",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/130720220920M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2221:export_concentration:abc1d459bf42c9b4",
+      "ticker": "2221",
+      "company": "大甲",
+      "claim": "化工級 (佔約50%) 主要外銷日本石化業。",
+      "batch_id": "author-262",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/222120250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
