@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:58:26Z",
+  "generated_at": "2026-10-05T21:00:48Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -147,12 +147,14 @@
     "author-142",
     "author-143",
     "author-144",
-    "author-145"
+    "author-145",
+    "author-146",
+    "author-147"
   ],
-  "source_batch_count": 145,
-  "total_unknown": 202,
+  "source_batch_count": 147,
+  "total_unknown": 203,
   "failure_signature_counts": {
-    "other_unclassified": 86,
+    "other_unclassified": 87,
     "tls_failure": 13,
     "mops_non_document": 34,
     "non_document_response": 31,
@@ -3145,6 +3147,20 @@
         "https://www.asiametalinc.com/proimage/images/1555922534.pdf"
       ],
       "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "7795:objective_ranking_or_market_share:c8947ab48156fadc",
+      "ticker": "7795",
+      "company": "長廣",
+      "claim": "[[欣興]]、[[南亞電路板]] — [[ABF 載板]] (市佔95%)",
+      "batch_id": "author-147",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }

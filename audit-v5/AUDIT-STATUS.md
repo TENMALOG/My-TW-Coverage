@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 02:04 UTC
+Updated: 2026-10-11 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **841 / 1,399**
-- Remaining author review: **558**
-- Latest batch: **author-146** (5 claims)
+- Author-reviewed: **846 / 1,399**
+- Remaining author review: **553**
+- Latest batch: **author-147** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **548**
+- `PARTIALLY_SUPPORTED`: **552**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **202**
+- `UNKNOWN_AFTER_RESEARCH`: **203**
 
 ## Latest claim batch
 
-- `6793:objective_ranking_or_market_share:9972aa426778a50b` — `PARTIALLY_SUPPORTED`；天力文件（**英文版**）載「**manufacturing of offshore wind power blades**」，「blade」21次、「offshore」23次、「carbon」3次；惟「台灣唯一」未獲支持。
-- `6793:objective_ranking_or_market_share:90e8d4fffb58444d`、`8a637f74762efb6c` — `PARTIALLY_SUPPORTED` ×2；「Vestas」5次係 **MHI Vestas Offshore Wind 合資**敘述；「唯一」「終止」皆0次（該文件為2020年版本）。
-- `6909:objective_ranking_or_market_share:257a1dfe814cf98a` — `PARTIALLY_SUPPORTED`；創控文件「**MiTAP」3 次、「AMC」19 次**；惟「台積電」「唯一」「高度推薦」皆0次。
-- `6909:objective_ranking_or_market_share:16496bc64a01509f` — `PARTIALLY_SUPPORTED`；AMC 監測業務成立；惟「台積電」「唯一高度推薦」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-146.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6982:objective_ranking_or_market_share:6ce0f1f566a2483c` (大井泵浦).
+- `6982:objective_ranking_or_market_share:6ce0f1f566a2483c` — `PARTIALLY_SUPPORTED`；大井簡報「**加壓」10 次、「馬達」6 次**；惟「龍頭」「六成」「市佔」「住宅」皆0次，且「60%」2次上下文不足。
+- `6982:objective_ranking_or_market_share:d789441c0ced0dea` — `PARTIALLY_SUPPORTED`；同上；「市佔 60%+」未獲支持。
+- `7795:objective_ranking_or_market_share:1fece52690003c4d` — `PARTIALLY_SUPPORTED`；長廣年報「**載板」68 次、「壓膜」68 次、「長興」88 次**、「真空」49次、「ABF」35次；惟「95%」「市佔」皆0次。
+- `7795:objective_ranking_or_market_share:b856cd136904fdc5` — `PARTIALLY_SUPPORTED`；ABF 載板真空壓膜機業務成立；惟「95%」「醫療」「推桿」皆0次。
+- `7795:objective_ranking_or_market_share:c8947ab48156fadc` — `UNKNOWN_AFTER_RESEARCH`；年報「**欣興」「南亞電路板」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-147.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `8996:objective_ranking_or_market_share:49ffb2ed084de05d` (高力).
 
 ## Source access
 

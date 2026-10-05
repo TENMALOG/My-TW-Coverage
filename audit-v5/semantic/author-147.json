@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-147",
+  "reviewed_at": "2026-10-05T21:00:33Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (大井泵浦企業簡介; 長廣精機114年度年報)",
+  "items": [
+    {
+      "claim_id": "6982:objective_ranking_or_market_share:6ce0f1f566a2483c",
+      "normalized_claim_hash": "6ce0f1f566a2483cc9416053557b2c54d983d941011941375995f42fb647689e",
+      "ticker": "6982",
+      "company": "大井泵浦",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6982_大井泵浦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "大井泵浦 (6982，Walrus Pump) 為台灣住宅加壓馬達龍頭 (市佔六成+)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/698220260312M001.pdf",
+          "title": "大井泵浦工業股份有限公司（大井泵浦，6982，Walrus Pump）企業簡介",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年3月簡報）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,429字元，以圖形排版為主）。簡報中「**加壓**」出現10次、「**馬達**」6次，支持其加壓馬達業務。全份簡報中「**龍頭**」「**六成**」「**市佔**」與「**住宅**」之出現次數**均為0**；「**60%**」2次之上下文於文字層中**未見完整敘述**（僅見「60%」單獨出現），無法確認其指涉。"
+        }
+      ],
+      "rationale": "「為住宅加壓馬達業者」獲發行人簡報支持：簡報中「**加壓**」出現10次、「**馬達**」6次，支持其加壓馬達業務。惟兩項陳述未獲支持：(1)「為台灣…**龍頭**」——「龍頭」出現次數為0；(2)「（**市佔六成+**）」——「市佔」與「六成」均為0，「**60%**」2次之上下文於文字層中未見完整敘述（僅見「60%」單獨出現），**無法確認其指涉**。故部分成立（並註記該簡報文字擷取僅6,429字元）。",
+      "proposed_text": "大井泵浦 (6982，Walrus Pump) 從事加壓馬達業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6982:objective_ranking_or_market_share:d789441c0ced0dea",
+      "normalized_claim_hash": "d789441c0ced0dea7c451f8e8a83524c0012ddaec865f1e153dd86a68e7f73fe",
+      "ticker": "6982",
+      "company": "大井泵浦",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/6982_大井泵浦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "全台五金行 — 住宅加壓 (市佔60%+)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/698220260312M001.pdf",
+          "title": "大井泵浦工業股份有限公司（大井泵浦，6982，Walrus Pump）企業簡介",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見簡報（內容含2026年3月簡報）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取6,429字元，以圖形排版為主）。簡報中「**加壓**」出現10次、「**馬達**」6次，支持其加壓馬達業務。全份簡報中「**龍頭**」「**六成**」「**市佔**」與「**住宅**」之出現次數**均為0**；「**60%**」2次之上下文於文字層中**未見完整敘述**（僅見「60%」單獨出現），無法確認其指涉。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「全台五金行 — 住宅加壓（市佔 60%+）」）。簡報支持其加壓馬達業務（「加壓」10次、「馬達」6次）；惟「**市佔 60%+**」未獲支持（「市佔」0次；「60%」2次之上下文不足），「住宅」與「五金行」亦為0次。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7795:objective_ranking_or_market_share:1fece52690003c4d",
+      "normalized_claim_hash": "1fece52690003c4dd6b4855287136a78285ef836e9f2a19022f19461a632cde0",
+      "ticker": "7795",
+      "company": "長廣",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/7795_長廣.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "長廣精機 (7795) 為[[長興材料]]旗下子公司，全球高階[[ABF 載板]]真空壓膜設備市佔超過95%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf",
+          "title": "長廣精機股份有限公司（長廣，7795，Eternal Precision Mechanics）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取85,658字元）。年報中「**壓膜**」出現68次、「**載板**」68次、「**真空**」49次、「**ABF**」35次、「**長興**」88次、「子公司」65次、「全球」40次，支持其 ABF 載板真空壓膜設備業務及與長興集團之關係。全份年報中「**95%**」「**市佔**」「**欣興**」「**南亞電路板**」「**醫療**」與「**推桿**」之出現次數**均為0**（「南亞」3次之上下文未見「南亞電路板」）。"
+        }
+      ],
+      "rationale": "「為[[長興材料]]旗下子公司，從事全球高階 [[ABF 載板]]真空壓膜設備業務」獲發行人年報支持：年報中「**長興**」出現88次、「子公司」65次、「**壓膜**」68次、「**載板**」68次、「**真空**」49次、「**ABF**」35次、「全球」40次，支持其集團歸屬與業務。惟「市佔**超過95%**」未獲支持：「**95%**」與「**市佔**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "長廣精機 (7795，Eternal Precision Mechanics) 為長興材料集團旗下公司，從事 ABF 載板真空壓膜設備業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7795:objective_ranking_or_market_share:b856cd136904fdc5",
+      "normalized_claim_hash": "b856cd136904fdc59cbb7f93be7316d542bee9f778d17f4a123619bb0d18d8f7",
+      "ticker": "7795",
+      "company": "長廣",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/7795_長廣.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**長廣** ([[ABF 載板]]真空壓膜機, 市佔95%+; 醫療推桿)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf",
+          "title": "長廣精機股份有限公司（長廣，7795，Eternal Precision Mechanics）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取85,658字元）。年報中「**壓膜**」出現68次、「**載板**」68次、「**真空**」49次、「**ABF**」35次、「**長興**」88次、「子公司」65次、「全球」40次，支持其 ABF 載板真空壓膜設備業務及與長興集團之關係。全份年報中「**95%**」「**市佔**」「**欣興**」「**南亞電路板**」「**醫療**」與「**推桿**」之出現次數**均為0**（「南亞」3次之上下文未見「南亞電路板」）。"
+        }
+      ],
+      "rationale": "「**ABF 載板真空壓膜機**」獲發行人年報支持（「壓膜」68次、「載板」68次、「真空」49次、「ABF」35次）。惟兩項陳述未獲支持：(1)「市佔 **95%+**」——「95%」與「市佔」均為0；(2)「**醫療推桿**」——「醫療」與「推桿」之出現次數均為0。故部分成立。",
+      "proposed_text": "長廣精機 (7795) 從事 ABF 載板真空壓膜機業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "7795:objective_ranking_or_market_share:c8947ab48156fadc",
+      "normalized_claim_hash": "c8947ab48156fadc976a52cf8db6feb0f14fa1df3538d64930840e37b15788ab",
+      "ticker": "7795",
+      "company": "長廣",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/7795_長廣.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[欣興]]、[[南亞電路板]] — [[ABF 載板]] (市佔95%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf",
+          "title": "長廣精機股份有限公司（長廣，7795，Eternal Precision Mechanics）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取85,658字元）。年報中「**壓膜**」出現68次、「**載板**」68次、「**真空**」49次、「**ABF**」35次、「**長興**」88次、「子公司」65次、「全球」40次，支持其 ABF 載板真空壓膜設備業務及與長興集團之關係。全份年報中「**95%**」「**市佔**」「**欣興**」「**南亞電路板**」「**醫療**」與「**推桿**」之出現次數**均為0**（「南亞」3次之上下文未見「南亞電路板」）。"
+        }
+      ],
+      "rationale": "「[[欣興]]、[[南亞電路板]] — [[ABF 載板]]（市佔95%）」未獲確立：所取得之長廣114年度年報中「**欣興**」與「**南亞電路板**」之出現次數**均為0**（「南亞」3次之上下文未見「南亞電路板」），且「**95%**」與「**市佔**」亦為0。因該 claim 之實質內容為具名客戶身分及市占率，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
