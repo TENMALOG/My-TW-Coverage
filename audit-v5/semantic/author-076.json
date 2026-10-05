@@ -1,0 +1,142 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-076",
+  "reviewed_at": "2026-10-05T19:07:46Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (明基材2022年報; 華宏2021年報; 綠界科技115年度年報; 智冠集團營運報告); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "8215:objective_ranking_or_market_share:e396f3af21b11405",
+      "normalized_claim_hash": "e396f3af21b11405b2bf26f94f854d040dccc49e42d58189462794c90f227c3d",
+      "ticker": "8215",
+      "company": "明基材",
+      "path": "Pilot_Reports/Electronic Components/8215_明基材.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(2) 電池隔離膜 — 為台灣唯一鋰電池 [[隔離膜]] (Separator) 製造商，技術涵蓋「捲對捲」、「高分子結構」、「擠壓」及「塗佈」等六大核心製程，產品應用於 [[電動車]] 與儲能電池；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.benqmaterials.com/download/0/204/",
+          "title": "明基材料股份有限公司（明基材，8215，BenQ Materials）2022 年報",
+          "source_level": 3,
+          "period_binding": "2022年報。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「09月與蕪湖合資設立(各持股50%)**達尼特材料科技(蕪湖)有限公司，從事鋰電池用隔離膜產品製造銷售**」，並載「**隔離膜**多方應用前景可期」與「電池和隔離膜的技術路線，鋰電池技術主要分為兩個方向：一是高能量密度，二是高功率密度」（「隔離膜」6次、「捲對捲」2次、「塗佈」3次、「電動車」8次、「儲能」6次），支持其電池隔離膜業務及相關製程與應用領域。全份年報中「台灣唯一」出現次數為0；文件未使用「Separator」之英文表述。"
+        }
+      ],
+      "rationale": "「生產鋰電池隔離膜 (Separator)，技術涵蓋捲對捲與塗佈等製程，應用於電動車與儲能」獲發行人年報支持：年報載其合資設立「達尼特材料科技(蕪湖)有限公司，從事**鋰電池用隔離膜**產品製造銷售」，並載「隔離膜多方應用前景可期」與鋰電池技術路線（「隔離膜」6次、「捲對捲」2次、「塗佈」3次、「電動車」8次、「儲能」6次）。惟「為**台灣唯一**鋰電池隔離膜製造商」未獲支持：全份年報中「台灣唯一」出現次數為0；另「六大核心製程」之具體列舉（高分子結構、擠壓等）亦僅部分對應（「捲對捲」「塗佈」各有出現，其餘未見對應用語）。故部分成立。",
+      "proposed_text": "明基材料 (8215，BenQ Materials) 從事鋰電池隔離膜 (Separator) 製造與銷售，製程涵蓋捲對捲與塗佈等，產品應用於電動車與儲能領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8240:objective_ranking_or_market_share:ad10cdcb6cd24cc2",
+      "normalized_claim_hash": "ad10cdcb6cd24cc212547c258152dbbc2f8451037ac866eb77cbfc46f8a94f12",
+      "ticker": "8240",
+      "company": "華宏",
+      "path": "Pilot_Reports/Electronic Components/8240_華宏.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務涵蓋：(1) 光電材料 — 為台灣背光模組光學膜片最大專業裁切廠，產品包括 [[偏光板]]、擴散膜、增亮膜、導光板、量子點膜、觸控面板防爆膜等，服務面板廠之背光模組需求；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://wahhong.com/download/2021rep.pdf",
+          "title": "華宏新技股份有限公司（華宏，8240，Wah Hong Industrial）2021 年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「（光）模組**光學膜片最大專業製造裁切廠**，各項產品皆具有高的市場佔有率」，並見產品線含**擴散膜**（15次）、**增亮膜**（9次）、**量子點**（7次）、**導光板**（6次）、**防爆膜**（6次）、**觸控面板**（4次）、**偏光板**（1次）（「光學膜片」29次、「裁切」6次）。"
+        }
+      ],
+      "rationale": "claim 各項均獲發行人年報支持：2021年度年報載「（光）模組**光學膜片最大專業製造裁切廠**，各項產品皆具有高的市場佔有率」，與 claim 之「為背光模組光學膜片最大專業裁切廠」對應；其後所列產品「**偏光板**、**擴散膜**、**增亮膜**、**導光板**、**量子點膜**、**觸控面板防爆膜**」亦逐項出現於年報（「量子點」7次、「防爆膜」6次、「觸控面板」4次、「擴散膜」15次、「增亮膜」9次、「導光板」6次、「偏光板」1次），支持其服務面板廠背光模組需求之敘述。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3687:objective_ranking_or_market_share:cae577f91575490d",
+      "normalized_claim_hash": "cae577f91575490df5a4c249bfafbbcf0efa91c3a18aa5d30f48fc1f08a42c21",
+      "ticker": "3687",
+      "company": "歐買尬",
+      "path": "Pilot_Reports/Electronic Gaming & Multimedia/3687_歐買尬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心業務三大支柱：(1) 數位支付 — 旗下子公司 [[綠界科技]] (6763) 為台灣第三方支付龍頭，市佔率極高，服務數十萬中小型電商賣家，競爭對手為 [[藍新科技]]、[[LINE Pay]]；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://corp.ecpay.com.tw/wp-content/uploads/2026/06/%E7%B6%A0%E7%95%8C-115%E5%B9%B4%E5%BA%A6-%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "綠界科技股份有限公司（綠界科技，6763；母公司歐買尬 3687）115 年度年報",
+          "source_level": 3,
+          "period_binding": "民國115年度年報。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「（憑藉）卓越的營運韌性，**維持第三方支付市場龍頭地位**」，並載其與各大系統商與平台通路合作「拓展市佔率」（「第三方支付」26次、「綠界」54次、「電商」28次、「賣家」10次、「中小型」4次）。全份年報中「藍新」（藍新科技）、「LINE Pay」與「數十萬」之出現次數均為0；「市佔」2次之上下文分別為「將面臨市佔流失風（險）」與「拓展市佔率」。"
+        }
+      ],
+      "rationale": "「綠界科技為台灣第三方支付龍頭」獲發行人年報支持：年報載「（憑藉）卓越的營運韌性，**維持第三方支付市場龍頭地位**」（「第三方支付」26次、「綠界」54次）。惟多項陳述未獲支持：(1)「**市佔率極高**」——年報中「市佔」2次之上下文分別為「將面臨市佔流失風（險）」與「拓展市佔率」，均非其市占率之量化或定性描述；(2)「服務**數十萬**中小型電商賣家」——「數十萬」出現次數為0（「賣家」10次、「中小型」4次，均未附家數）；(3)「競爭對手為**藍新科技、LINE Pay**」——兩者出現次數均為0。故部分成立。",
+      "proposed_text": "歐買尬 (3687) 旗下子公司綠界科技 (6763) 為台灣第三方支付市場龍頭。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5478:objective_ranking_or_market_share:ce91f88d8082e000",
+      "normalized_claim_hash": "ce91f88d8082e000ee2a8bf6335ab2278fd80f2aa033806d90ec84ff259a3665",
+      "ticker": "5478",
+      "company": "智冠",
+      "path": "Pilot_Reports/Electronic Gaming & Multimedia/5478_智冠.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要業務支柱：(1) 遊戲點數通路 — 旗下 [[MyCard]] 為台灣市佔率最高的遊戲點數卡 (約 60% 市佔)，與數千款遊戲及數位娛樂服務合作，可於全台四大便利商店及各大連鎖通路購買，並拓展至港澳、東南亞等海外市場；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/547820250815M001.pdf",
+          "title": "智冠科技股份有限公司（智冠，5478，Soft-World）集團營運報告（2025-08-15）",
+          "source_level": 3,
+          "period_binding": "2025年8月；市占資料為2025年上半年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報第10頁載「遊戲通路領導品牌：智冠全方位整合行銷 ★**台港澳市佔率最高 60%** ★玩家會員人數逾 735萬 ★國內外據點突破 5萬家 ★**合作產品 2,400+** ★合作廠商逾 700家」，並另載「**市佔第一**」之字樣（「通路」15次、「MyCard」1次、「市佔」2次、「60%」1次）。全份簡報未載「四大便利商店」或「東南亞」之通路敘述。"
+        },
+        {
+          "url": "https://www.mycard520.com.tw/",
+          "title": "（內部一致性複核）",
+          "source_level": 3,
+          "period_binding": "—",
+          "accessed_at": "2026-10-08",
+          "note": "本批次同時就 claim 中「台灣市佔率最高（約60%）」與官方「**台港澳**市佔率最高 60%」之地理範圍差異進行比對，差異已記錄於 rationale。"
+        }
+      ],
+      "rationale": "「MyCard 為市佔率最高的遊戲點數卡，約 60% 市佔，與數千款遊戲及數位娛樂服務合作」多數獲發行人簡報支持：簡報載「遊戲通路領導品牌：智冠全方位整合行銷 ★**台港澳市佔率最高 60%** ★玩家會員人數逾 735萬 ★國內外據點突破 5萬家 ★**合作產品 2,400+** ★合作廠商逾 700家」，並另載「**市佔第一**」，支持其市占領先與 60% 之數字及「合作產品達數千」之敘述。惟二項陳述未獲支持或須註記：(1)**地理範圍差異**——官方所述市占之範圍為「**台港澳**」，claim 表述為「**台灣**」，兩者範圍不同；(2)「可於全台**四大便利商店**及各大連鎖通路購買，並拓展至**東南亞**等海外市場」——簡報未載「四大便利商店」或「東南亞」之通路敘述。故部分成立。",
+      "proposed_text": "智冠科技 (5478，Soft-World) 旗下 MyCard 為台港澳市佔率最高之遊戲點數通路，市占約 60%，合作產品逾 2,400 項。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5478:objective_ranking_or_market_share:66491f95bfe4f0d6",
+      "normalized_claim_hash": "66491f95bfe4f0d6a7588627cd38f38f05b47e51042f92d8a43f9d001c9914c5",
+      "ticker": "5478",
+      "company": "智冠",
+      "path": "Pilot_Reports/Electronic Gaming & Multimedia/5478_智冠.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[MyCard]] (台灣最大遊戲點數通路，60% 市佔)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/547820250815M001.pdf",
+          "title": "智冠科技股份有限公司（智冠，5478，Soft-World）集團營運報告（2025-08-15）",
+          "source_level": 3,
+          "period_binding": "2025年8月；市占資料為2025年上半年。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報第10頁載「遊戲通路領導品牌：智冠全方位整合行銷 ★**台港澳市佔率最高 60%** ★玩家會員人數逾 735萬 ★國內外據點突破 5萬家 ★**合作產品 2,400+** ★合作廠商逾 700家」，並另載「**市佔第一**」之字樣（「通路」15次、「MyCard」1次、「市佔」2次、「60%」1次）。全份簡報未載「四大便利商店」或「東南亞」之通路敘述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「MyCard（台灣最大遊戲點數通路，60% 市佔）」）。官方簡報載「**台港澳市佔率最高 60%**」與「**市佔第一**」，支持其通路領先地位與 60% 之數字；惟官方所述範圍為「台港澳」而 claim 表述為「台灣」，兩者範圍不同，故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

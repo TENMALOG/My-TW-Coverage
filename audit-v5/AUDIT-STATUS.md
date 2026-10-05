@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 03:04 UTC
+Updated: 2026-10-08 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **423 / 1,399**
-- Remaining author review: **976**
-- Latest batch: **author-075** (7 claims)
+- Author-reviewed: **428 / 1,399**
+- Remaining author review: **971**
+- Latest batch: **author-076** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **66**
-- `PARTIALLY_SUPPORTED`: **275**
+- `ACCEPTED`: **67**
+- `PARTIALLY_SUPPORTED`: **279**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,11 +24,12 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `8074:objective_ranking_or_market_share:0d087bffe38bc6c8`、`f6920c2cb74e6a31` — `PARTIALLY_SUPPORTED` ×2; 鉅橡113年報載「以**欣興**為首的ABF載板廠商」、欣興2次、景碩1次（墊板35次、鑽孔14次、ABF 3次）；惟「唯一」與「南電」皆0次。
-- `8121:objective_ranking_or_market_share:24f39c0d0754d000` — `PARTIALLY_SUPPORTED`; 越峰113年報載「一一三年度**碳化矽粉**銷售量與金額分別為125噸與新台幣621,123仟元」（碳化矽39次、SiC 19次）；惟「長晶」僅1次、「（台灣）唯一」「本土」「粉料」皆0次。
-- `8163:objective_ranking_or_market_share:c5addd1ec6068c09`、`c8a87aa8bf948eee`、`d28f7bc2f49da606`、`a9244fd19563c328` — `PARTIALLY_SUPPORTED` ×4; 達方113年報載智能產品含「筆記型及桌上型電腦鍵盤、發光鍵盤、滑鼠、電競鍵盤…」（鍵盤45次、明基25次、1997 3次）；惟「全球最大」「全球領導」「領導廠」皆0次，且「第一大」1次係指佳世達持股20.72%為**第一大股東**、「市占」1次為被動元件與電動車產業趨勢。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-075.json`（7 筆）。三份文件均以封面之公司名稱與股票代號確認身分。未修改發行人報告。
-- Next pending claim by priority: `8215:objective_ranking_or_market_share:e396f3af21b11405` (明基材).
+- `8215:objective_ranking_or_market_share:e396f3af21b11405` — `PARTIALLY_SUPPORTED`; 明基材2022年報載合資設立達尼特材料科技從事「**鋰電池用隔離膜**產品製造銷售」（隔離膜6次、捲對捲2次、塗佈3次、電動車8次、儲能6次）；惟「台灣唯一」0次。
+- `8240:objective_ranking_or_market_share:ad10cdcb6cd24cc2` — `ACCEPTED`; 華宏2021年報載「**光學膜片最大專業製造裁切廠**，各項產品皆具有高的市場佔有率」，產品線含偏光板、擴散膜、增亮膜、導光板、量子點（7次）、防爆膜（6次）、觸控面板（4次）。
+- `3687:objective_ranking_or_market_share:cae577f91575490d` — `PARTIALLY_SUPPORTED`; 綠界115年報載「**維持第三方支付市場龍頭地位**」（第三方支付26次）；惟「市佔率極高」「數十萬」「藍新」「LINE Pay」皆0次。
+- `5478:objective_ranking_or_market_share:ce91f88d8082e000`、`66491f95bfe4f0d6` — `PARTIALLY_SUPPORTED` ×2; 智冠簡報載「★**台港澳市佔率最高 60%** ★合作產品2,400+ ★市佔第一」；惟官方範圍為「**台港澳**」而claim表述為「**台灣**」，且「四大便利商店」「東南亞」未載。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-076.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6473:objective_ranking_or_market_share:b29d00af5856229f` (美賣).
 
 ## Source access
 
