@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-149",
+  "reviewed_at": "2026-10-05T21:03:05Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (弘帆公司簡介; 全國加油站113年法人說明會簡報); 振宇五金端點連線失敗經重試仍未取得，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2947:objective_ranking_or_market_share:b566dc40942a6a98",
+      "normalized_claim_hash": "b566dc40942a6a9892e3b4e4250898552cd594531be3c3917fddb679cfa232c6",
+      "ticker": "2947",
+      "company": "振宇五金",
+      "path": "Pilot_Reports/Specialty Retail/2947_振宇五金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "前身為聯達五金批發倉儲，1989 年於台中市南屯區成立第一家門市。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.ald.com.tw/wp-content/uploads/2025/08/ID-20250828-%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "title": "振宇五金股份有限公司（振宇五金，2947，ALD）官方永續報告書端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-11。",
+          "accessed_at": "2026-10-11",
+          "note": "本批次自發行人官方網域下載永續報告書時回應 **「要求已經中止: 連接意外關閉」**（連線層失敗），**經重試一次仍為相同結果**，未取得可檢視之檔案；本批次未取得振宇五金可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「前身為聯達五金批發倉儲，1989年於台中市南屯區成立第一家門市」未獲確立：本批次自發行人官方網域下載永續報告書時回應 **「要求已經中止: 連接意外關閉」**（連線層失敗），**經重試一次仍為相同結果**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8433:objective_ranking_or_market_share:869a93b4d335968e",
+      "normalized_claim_hash": "869a93b4d335968e9a04229a17827d899fea26942dbf9cfc0e18067a437858ba",
+      "ticker": "8433",
+      "company": "弘帆",
+      "path": "Pilot_Reports/Specialty Retail/8433_弘帆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "弘帆為美國髮飾市場最大製造商，美國前三大髮飾通路品牌 [[Goody]]、[[Conair]]、[[Scunci]] 合計控制約 70% 市佔，弘帆為此三大品牌之第一供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/co_report/2013/03/1363159862_4964_CH_163%20P84-85%E5%BC%98%E5%B8%86%E5%85%AC%E5%8F%B8.pdf",
+          "title": "弘帆股份有限公司（弘帆，8433，Bon-Fame）公司簡介（櫃買中心刊物第163期，2013年2月）",
+          "source_level": 3,
+          "period_binding": "2013年2月（民國102年2月號）。",
+          "accessed_at": "2026-10-11",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開刊物下載並以 PDF 文字檢視（文字擷取2,042字元）。文件載「弘帆股份有限公司成立於1985年3月，從事流行**髮飾**、珠寶、梳鏡、修容工具、包袋等產品之設計、生產及銷售」（「**髮飾**」5次、「美國」2次），並**將 Goody 列為客戶**——「Wal-Mart、ZARA、H&M、Watsons、**Goody** 等均與弘帆公司保持多年良好的合作關係」（「**Goody**」1次）。**關鍵發現**：全份文件中「**70%**」1次之上下文為**本公司自身之營收地區結構**——「弘帆公司近**70%** 的營收來自美洲市場，22% 左右的營收來源於歐洲客戶」，**並非**「三大通路品牌合計控制約70%市佔」；「**Conair**」「**Scunci**」「**最大**」與「**第一供應商**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「從事髮飾產品之產銷，且 [[Goody]] 為其品牌客戶」獲發行人相關刊物支持：文件載其從事流行**髮飾**等產品之設計、生產及銷售（「**髮飾**」5次），並**將 Goody 列為客戶**——「Wal-Mart、ZARA、H&M、Watsons、**Goody** 等均與弘帆公司保持多年良好的合作關係」。惟四項陳述未獲支持：(1)「為美國髮飾市場**最大製造商**」——「最大」出現次數為0；(2)「[[Conair]]」「(3)[[Scunci]]」——兩者均為0次；(4)「此三大品牌合計控制約 **70% 市佔**」——全份文件中「**70%**」1次之上下文為**本公司自身之營收地區結構**（「弘帆公司近**70%** 的營收來自美洲市場」），**並非**品牌市佔率；(5)「為此三大品牌之**第一供應商**」——「第一供應商」為0。故部分成立（並註記該文件為2013年之短篇刊物，文字擷取僅2,042字元）。",
+      "proposed_text": "弘帆 (8433，Bon-Fame) 從事流行髮飾等產品之設計、生產及銷售，客戶包括 Goody 等品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9937:objective_ranking_or_market_share:2afddb814522cda5",
+      "normalized_claim_hash": "2afddb814522cda5357c14eeb4edfe17472006bfaad007bd2ea9f3833259c24a",
+      "ticker": "9937",
+      "company": "全國",
+      "path": "Pilot_Reports/Specialty Retail/9937_全國.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台塑化]]（6505）為唯一油品供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/993720241015M001.pdf",
+          "title": "全國加油站股份有限公司（全國，9937，National Petroleum）113 年法人說明會簡報",
+          "source_level": 3,
+          "period_binding": "民國113年10月16日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,400字元，以圖形排版為主）。簡報載「主要營業項目：汽、柴油及周邊油品銷售服務.洗車服務」，並於油品品項旁標示「（**台塑油品**）」（「**台塑**」5次、「**加油站**」13次、「油品」7次、「供應商」2次），支持其販售台塑油品之敘述。惟全份簡報中「**唯一**」出現次數為**0**，且「**中油**」出現**3次**（與「唯一供應商」之敘述不相容）；「塑化」為0次。"
+        }
+      ],
+      "rationale": "「[[台塑化]]為其油品供應來源」獲發行人簡報支持：簡報之油品品項旁標示「（**台塑油品**）」（「**台塑**」5次），支持其販售台塑油品之敘述。惟「為**唯一**油品供應商」未獲支持：全份簡報中「**唯一**」出現次數為**0**，且「**中油**」出現**3次**（顯示文件中亦提及另一油品來源，與「唯一」之敘述不相容）。故部分成立。",
+      "proposed_text": "全國加油站 (9937，National Petroleum) 販售台塑油品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

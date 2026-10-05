@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 04:04 UTC
+Updated: 2026-10-11 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **849 / 1,399**
-- Remaining author review: **550**
-- Latest batch: **author-148** (3 claims)
+- Author-reviewed: **852 / 1,399**
+- Remaining author review: **547**
+- Latest batch: **author-149** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **555**
+- `PARTIALLY_SUPPORTED`: **557**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **203**
+- `UNKNOWN_AFTER_RESEARCH`: **204**
 
 ## Latest claim batch
 
-- `8996:objective_ranking_or_market_share:49ffb2ed084de05d` — `PARTIALLY_SUPPORTED`；高力年報「**板式熱交換器」58 次、「硬銲」13 次**、「真空」5次；惟「唯一」「九成」皆0次，「市佔」1次為「**提升市佔率**」之目標。
-- `2430:objective_ranking_or_market_share:2b76127105ffe4fa` — `PARTIALLY_SUPPORTED`；燦坤文件「**門市」4 次**；惟「3C」「零售」「最大」「通路」「電商」皆0次。
-- `2616:objective_ranking_or_market_share:5e8301b7ce9d8b48` — `PARTIALLY_SUPPORTED`；山隆年報**逐字載「現已達 77 座」**（「加油站」87次、「柴油」12次）；惟「最大」2次**均非市場地位**（其一為「最大信用暴險金額」之會計用語），「民營」「貨卡車」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-148.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `2947:objective_ranking_or_market_share:b566dc40942a6a98` (振宇五金).
+- `2947:objective_ranking_or_market_share:b566dc40942a6a98` — `UNKNOWN_AFTER_RESEARCH`；振宇五金端點**連線意外關閉**（重試一次仍同）。
+- `8433:objective_ranking_or_market_share:869a93b4d335968e` — `PARTIALLY_SUPPORTED`；弘帆文件「**髮飾」5 次**並將 **Goody 列為客戶**（「Wal-Mart、ZARA、H&M、Watsons、**Goody** 等」）；**惟「70%」1 次之原文為「弘帆公司近70% 的營收來自美洲市場」**（非品牌市佔），「Conair」「Scunci」「最大」「第一供應商」皆0次。
+- `9937:objective_ranking_or_market_share:2afddb814522cda5` — `PARTIALLY_SUPPORTED`；全國簡報標示「（**台塑油品**）」；惟「唯一」0次，且「**中油」出現 3 次**（與「唯一供應商」不相容）。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-149.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `9960:objective_ranking_or_market_share:e41b23b10a6c9c28` (邁達康).
 
 ## Source access
 

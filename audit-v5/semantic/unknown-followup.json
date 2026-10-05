@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T21:00:48Z",
+  "generated_at": "2026-10-05T21:03:19Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -149,20 +149,22 @@
     "author-144",
     "author-145",
     "author-146",
-    "author-147"
+    "author-147",
+    "author-148",
+    "author-149"
   ],
-  "source_batch_count": 147,
-  "total_unknown": 203,
+  "source_batch_count": 149,
+  "total_unknown": 204,
   "failure_signature_counts": {
     "other_unclassified": 87,
     "tls_failure": 13,
     "mops_non_document": 34,
     "non_document_response": 31,
-    "no_official_endpoint_found": 82,
+    "no_official_endpoint_found": 83,
     "http_404": 37,
     "http_403": 11,
     "image_only_or_tiny_text": 20,
-    "connection_failure": 11,
+    "connection_failure": 12,
     "garbled_text_layer": 9,
     "client_rendered_only": 4,
     "download_timeout": 2,
@@ -3161,6 +3163,21 @@
         "https://www.eternal-epm.com/wp-content/uploads/2026/06/%E9%95%B7%E5%BB%A3%E7%B2%BE%E6%A9%9F114%E5%B9%B4%E5%B9%B4%E5%A0%B1%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83115.06.24-0605-CH.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2947:objective_ranking_or_market_share:b566dc40942a6a98",
+      "ticker": "2947",
+      "company": "振宇五金",
+      "claim": "前身為聯達五金批發倉儲，1989 年於台中市南屯區成立第一家門市。",
+      "batch_id": "author-149",
+      "failure_signature": [
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.ald.com.tw/wp-content/uploads/2025/08/ID-20250828-%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }
