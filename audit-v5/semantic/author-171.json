@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-171",
+  "reviewed_at": "2026-10-05T21:28:28Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (聯純公司資料表; 森崴能源公司文件; 雲豹能源年報); 富威電力所取得檔案屬另一法人，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6977:objective_ranking_or_market_share:578892ccae2b59f4",
+      "normalized_claim_hash": "578892ccae2b59f45b743772f240aaf596a7908e05663d517a36783d5bf67c3f",
+      "ticker": "6977",
+      "company": "聯純",
+      "path": "Pilot_Reports/Utilities - Regulated Water/6977_聯純.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司為全球最大半導體封測集團[[日月光投控]]之核心水處理供應鏈，為旗下[[矽品精密]]、[[超豐電子]]等事業體提供超純水系統建置服務。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tpex.org.tw/storage/emerging_register/2023/09/1694600090_15232_CH_6977.pdf",
+          "title": "聯純科技股份有限公司（聯純，6977，Lian Chun Technology）公司資料表",
+          "source_level": 3,
+          "period_binding": "2023年9月登錄資料。",
+          "accessed_at": "2026-10-12",
+          "note": "自財團法人中華民國證券櫃檯買賣中心（tpex.org.tw）之公開資料下載並以 PDF 文字檢視（文字擷取7,882字元）。文件中「**超純水**」出現6次、「**水處理**」6次，支持其超純水系統及水處理業務。全份文件中「**日月光**」「**矽品**」「**超豐**」與「供應鏈」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為[[超純水]]系統及水處理業者」獲發行人相關資料支持：文件中「**超純水**」出現6次、「**水處理**」6次，支持其該項業務。惟四項陳述未獲支持：全份文件中「**日月光**」「**矽品**」「**超豐**」與「供應鏈」之出現次數**均為0**——未具名該等客戶或載明其供應鏈地位。故部分成立。",
+      "proposed_text": "聯純科技 (6977，Lian Chun Technology) 從事超純水系統及水處理業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6806:objective_ranking_or_market_share:8a5ced4ccef9e61c",
+      "normalized_claim_hash": "8a5ced4ccef9e61cbe0fac16f7d3615a3c425dab0db52a446fe308f32d4bff4d",
+      "ticker": "6806",
+      "company": "森崴能源",
+      "path": "Pilot_Reports/Utilities - Renewable/6806_森崴能源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "森崴能源 (6806，Shinfox Energy) 隸屬[[正崴精密]]集團，為台灣最大本土離岸風電統包工程商 (EPC)。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.shinfox.com.tw/download/20210929/02.pdf",
+          "title": "森崴能源股份有限公司（森崴能源，6806，Shinfox Energy）公司文件",
+          "source_level": 3,
+          "period_binding": "2021年9月29日上傳。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取12,554字元，以圖形排版為主）。文件中「**離岸風電**」出現19次、「**統包**」6次、「**EPC**」3次、「**正崴**」2次、「本土」1次、「最大」1次，支持其離岸風電及統包工程業務之敘述。**關鍵發現**：全份文件中「**最大**」1次之上下文為**產業成長敘述**——「其中以太陽能設置量成長幅度**最大**」；「本土」1次之上下文為**國產化政策**——「國產項目應達申設容量之60%，在國內本土（化）」；「統包」之出現則分別屬於「**富崴能源**專注於太陽能領域的開發、電廠統包工程及維運」「液化天然氣…統包工程」與「已承接**台電二期統包工程**」，**均未出現「森崴能源為台灣最大本土離岸風電統包工程商」之市場地位敘述**。"
+        }
+      ],
+      "rationale": "「隸屬[[正崴精密]]集團，從事[[離岸風電]]統包工程（**EPC**）」獲發行人文件支持：文件中「**離岸風電**」19次、「**統包**」6次、「**EPC**」3次、「**正崴**」2次，支持其集團歸屬與業務。惟「為台灣**最大本土**離岸風電統包工程商」未獲支持：全份文件中「**最大**」1次之上下文為**產業成長敘述**（「其中以太陽能設置量成長幅度**最大**」），「本土」1次之上下文為**國產化政策**（「國產項目應達申設容量之60%，在國內本土」），「統包」之出現分屬**富崴能源**、液化天然氣與台電二期等專案，**均未出現該市場地位敘述**。故部分成立。",
+      "proposed_text": "森崴能源 (6806，Shinfox Energy) 隸屬正崴精密集團，從事離岸風電統包工程（EPC）業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6869:objective_ranking_or_market_share:e69c35c8ab2af08d",
+      "normalized_claim_hash": "e69c35c8ab2af08d7318db538a1cc883de897d3ffa72a5f3347ddd7949ca7e97",
+      "ticker": "6869",
+      "company": "雲豹能源",
+      "path": "Pilot_Reports/Utilities - Renewable/6869_雲豹能源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旗下子公司[[天能綠電]]經營台灣最大民間綠電售電平台，2024 年營收突破 10 億元 (年增 338%)，長約保障已達 160 億度電，合約總價值約 880 億元。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.jv-holding.com/upload/51b48b97-3df4-4b2f-b35e-55b6610d2383.pdf",
+          "title": "雲豹能源科技股份有限公司（雲豹能源，6869，J&V Energy Technology）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取244,884字元）。年報中「**天能綠電**」出現12次、「**綠電**」62次、「**售電**」38次，並載「本公司之轉投資子公司『**天能綠電股份有限公司**』**取得售電業執照**」「子公司**天能綠電**協助**玉山金控**完成集團首筆**綠電轉供**」「**綠電售電平台**業務，子公司天能綠電已助玉（山）」，支持其綠電售電平台業務與子公司之敘述。**關鍵發現**：全份年報中「**最大**」之上下文為**太陽能電廠**而非售電平台——「本公司位於雲林縣台西鄉之**全台最大**地層下陷區太陽能電廠併網發電」「本公司位於宜蘭蘇澳採用 First Solar 高效能模組的**亞洲最大**薄膜屋頂型（電廠）」；「10億」「160億」「880億」「338%」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「旗下子公司[[天能綠電]]經營綠電**售電平台**」獲發行人年報支持：年報載「本公司之轉投資子公司『**天能綠電股份有限公司**』**取得售電業執照**」與「子公司**天能綠電**協助玉山金控完成集團首筆**綠電轉供**」（「**天能綠電**」12次、「**綠電**」62次、「**售電**」38次）。惟多項陳述未獲支持：(1)「為台灣**最大民間**綠電售電平台」——「最大」之上下文為**太陽能電廠**（「全台最大地層下陷區太陽能電廠」「亞洲最大薄膜屋頂型」），非售電平台；(2)「2024年營收**突破 10 億元**（年增 **338%**）」——「10億」與「338%」均為0；(3)「長約保障已達 **160 億度**電」——「160億」為0；(4)「合約總價值約 **880 億元**」——「880億」為0。故部分成立。",
+      "proposed_text": "雲豹能源 (6869，J&V Energy Technology) 之子公司天能綠電取得售電業執照，經營綠電售電平台業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6869:objective_ranking_or_market_share:7e2d1e75d0b3577d",
+      "normalized_claim_hash": "7e2d1e75d0b3577d3b58e403c5cb5084698290fde2d203e3806ef30df3bd25d1",
+      "ticker": "6869",
+      "company": "雲豹能源",
+      "path": "Pilot_Reports/Utilities - Renewable/6869_雲豹能源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**[[天能綠電]]** — 台灣最大民間綠電售電平台",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.jv-holding.com/upload/51b48b97-3df4-4b2f-b35e-55b6610d2383.pdf",
+          "title": "雲豹能源科技股份有限公司（雲豹能源，6869，J&V Energy Technology）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取244,884字元）。年報中「**天能綠電**」出現12次、「**綠電**」62次、「**售電**」38次，並載「本公司之轉投資子公司『**天能綠電股份有限公司**』**取得售電業執照**」「子公司**天能綠電**協助**玉山金控**完成集團首筆**綠電轉供**」「**綠電售電平台**業務，子公司天能綠電已助玉（山）」，支持其綠電售電平台業務與子公司之敘述。**關鍵發現**：全份年報中「**最大**」之上下文為**太陽能電廠**而非售電平台——「本公司位於雲林縣台西鄉之**全台最大**地層下陷區太陽能電廠併網發電」「本公司位於宜蘭蘇澳採用 First Solar 高效能模組的**亞洲最大**薄膜屋頂型（電廠）」；「10億」「160億」「880億」「338%」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「**[[天能綠電]]** 為綠電**售電平台**」獲發行人年報支持（「天能綠電」12次，載其取得**售電業執照**並協助玉山金控完成**綠電轉供**）。惟「台灣**最大民間**綠電售電平台」未獲支持：年報中「**最大**」之上下文**均為太陽能電廠**（「全台最大地層下陷區太陽能電廠」「亞洲最大薄膜屋頂型」），**未以「最大」描述該售電平台**。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6994:objective_ranking_or_market_share:2ce556a2bce652ca",
+      "normalized_claim_hash": "2ce556a2bce652ca9cb7189315b5fb04e0a403551020613547e86b5d10dedf35",
+      "ticker": "6994",
+      "company": "富威電力",
+      "path": "Pilot_Reports/Utilities - Renewable/6994_富威電力.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三大業務支柱：(1) 綠電轉供 — 整合再生能源裝置容量 164MW，超過 300 個綠電轉供據點，為 [[Nvidia]] 台灣高雄南軟 AI 機房之唯一綠電供應商；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.megaunion-tw.com/upload/2026_06_11/5_20260611141008atl6axwZ00.pdf",
+          "title": "富威電力（6994）官方文件檢索（查證限制：所取得檔案屬另一法人）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就富威電力（**6994**）進行官方文件檢索，**所取得之檔案經檢視並非富威電力之文件**——該檔（83,387字元）封面載「**兆聯實業股份有限公司 MEGA UNION TECHNOLOGY INCORPORATED 一一四年度年報**」「**股票代號：6944**」，為**兆聯實業（6944）之年報**，**「富威」之出現次數為0**，屬**身分不符**，不予採用；且該檔之文字層**部分為字元位移之亂碼**（如「΋ǵġҁϦљวقΓǵж౛วقΓۉӜǵᙍᆀǵᖄ๎ႝ」「P\u0014\u0013\u0014\u0014DQGHUVRQ」等）。本批次未取得富威電力本身可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「三大業務支柱：(1) 綠電轉供 — 整合再生能源裝置容量 164MW，超過 300 個綠電轉供據點，為 [[Nvidia]] 台灣高雄南軟 AI 機房之唯一綠電供應商」未獲確立：本批次所取得之檔案經檢視**並非富威電力（6994）之文件**，而係**兆聯實業（6944）之年報**（「富威」出現次數為0），**屬身分不符，不予採用**，且該檔文字層部分為亂碼。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6994:objective_ranking_or_market_share:4a494708c5380bf7",
+      "normalized_claim_hash": "4a494708c5380bf7a1ad765c06acb377de1af91d3b8031168520caf7533686bc",
+      "ticker": "6994",
+      "company": "富威電力",
+      "path": "Pilot_Reports/Utilities - Renewable/6994_富威電力.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nvidia]] — 高雄南軟 AI 機房唯一綠電供應商",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.megaunion-tw.com/upload/2026_06_11/5_20260611141008atl6axwZ00.pdf",
+          "title": "富威電力（6994）官方文件檢索（查證限制：所取得檔案屬另一法人）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就富威電力（**6994**）進行官方文件檢索，**所取得之檔案經檢視並非富威電力之文件**——該檔（83,387字元）封面載「**兆聯實業股份有限公司 MEGA UNION TECHNOLOGY INCORPORATED 一一四年度年報**」「**股票代號：6944**」，為**兆聯實業（6944）之年報**，**「富威」之出現次數為0**，屬**身分不符**，不予採用；且該檔之文字層**部分為字元位移之亂碼**（如「΋ǵġҁϦљวقΓǵж౛วقΓۉӜǵᙍᆀǵᖄ๎ႝ」「P\u0014\u0013\u0014\u0014DQGHUVRQ」等）。本批次未取得富威電力本身可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「[[Nvidia]] — 高雄南軟 AI 機房**唯一綠電供應商**」）。同上，本批次未取得富威電力本身可檢視之官方文件（所取得檔案屬另一法人兆聯實業），故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

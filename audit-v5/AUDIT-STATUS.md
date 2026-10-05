@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 02:04 UTC
+Updated: 2026-10-12 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,26 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **924 / 1,399**
-- Remaining author review: **475**
-- Latest batch: **author-170** (5 claims)
+- Author-reviewed: **930 / 1,399**
+- Remaining author review: **469**
+- Latest batch: **author-171** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **604**
+- `PARTIALLY_SUPPORTED`: **608**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **225**
+- `UNKNOWN_AFTER_RESEARCH`: **227**
 
 ## Latest claim batch
 
-- `5604:objective_ranking_or_market_share:16da157ef7a9024f`、`0e3541b15942f7ee`、`b23601c5085ed50f` — `UNKNOWN_AFTER_RESEARCH` ×3；所取得之第三方文件**屬另一法人**（福貞-KY 公開說明書，「中連」0次）；**MOPS 年報端點（110／111／112）三者皆回傳 320 bytes 非文件內容**。
-- `9908:objective_ranking_or_market_share:41dadca39e0dbe40`、`31cc2bfe1d4bcbbb` — `UNKNOWN_AFTER_RESEARCH` ×2；大台北官方端點 **HTTP 403**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-170.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6977:objective_ranking_or_market_share:578892ccae2b59f4` (聯純).
+- `6977:objective_ranking_or_market_share:578892ccae2b59f4` — `PARTIALLY_SUPPORTED`；聯純資料「**超純水」6 次、「水處理」6 次**；惟「日月光」「矽品」「超豐」「供應鏈」皆0次。
+- `6806:objective_ranking_or_market_share:8a5ced4ccef9e61c` — `PARTIALLY_SUPPORTED`；森崴文件「**離岸風電」19 次、「統包」6 次、「EPC」3 次**、「正崴」2次；惟「最大」1次係「太陽能設置量成長幅度最大」，「本土」1次係國產化政策。
+- `6869:objective_ranking_or_market_share:e69c35c8ab2af08d` — `PARTIALLY_SUPPORTED`；雲豹年報「**天能綠電」12 次**（取得售電業執照、協助玉山金控綠電轉供）；惟「10億」「160億」「880億」「338%」皆0次，「最大」係指太陽能電廠。
+- `6869:objective_ranking_or_market_share:7e2d1e75d0b3577d` — `PARTIALLY_SUPPORTED`；天能綠電售電平台成立；惟「最大民間綠電售電平台」未獲支持。
+- `6994:objective_ranking_or_market_share:2ce556a2bce652ca`、`4a494708c5380bf7` — `UNKNOWN_AFTER_RESEARCH` ×2；所取得檔案為**兆聯實業（6944）年報**（「富威」0次），**屬另一法人**，且部分文字層為亂碼。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-171.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6803:objective_ranking_or_market_share:d6b824ac14940918` (崑鼎).
 
 ## Source access
 
