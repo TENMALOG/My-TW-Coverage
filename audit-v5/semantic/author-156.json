@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-156",
+  "reviewed_at": "2026-10-05T21:10:37Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (華電網法人說明會簡報; 三芳Operating Information英文版)",
+  "items": [
+    {
+      "claim_id": "6163:objective_ranking_or_market_share:5fe18513d52e2e8a",
+      "normalized_claim_hash": "5fe18513d52e2e8a9cc464851c2353095bf345c8bc44833ad2724f2c0ee07a83",
+      "ticker": "6163",
+      "company": "華電網",
+      "path": "Pilot_Reports/Telecom Services/6163_華電網.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司曾建置台灣首套 ADSL 系統及最大 IPTV (MOD) 系統。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/616320251219M001.pdf",
+          "title": "華電聯網股份有限公司（華電網，6163，HwaCom Systems）法人說明會簡報（2025-12-19）",
+          "source_level": 3,
+          "period_binding": "2025年12月19日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取21,953字元）。簡報**逐字載明**兩項實績：「• 建置台灣第⼀套**ADSL**寬頻網路(Cisco)」與「• 建置**亞洲最⼤**的**IPTV(MOD)**系統(Cisco)」（「ADSL」1次、「**IPTV**」4次、「**MOD**」6次、「中華電」8次、「建置」43次），**逐字支持** claim 所述之「台灣首套 ADSL 系統」與「最大 IPTV (MOD) 系統」。**方法論註記**：文中「第**⼀**套」之「⼀」為 **U+2F00 康熙部首**字形（非一般漢字「一」U+4E00），以一般「第一」檢索將無法命中，屬**異體字形**造成之檢索落差（本審核第 8 類）。"
+        }
+      ],
+      "rationale": "claim 所述兩項實績均獲發行人簡報**逐字支持**：(1)「曾建置台灣**首套 ADSL** 系統」——簡報載「• 建置台灣**第⼀套ADSL**寬頻網路(Cisco)」；(2)「**最大 IPTV (MOD)** 系統」——簡報載「• 建置**亞洲最⼤**的**IPTV(MOD)**系統(Cisco)」（該處之範圍為「**亞洲**最大」，**涵蓋** claim 所述之最大 IPTV 系統）。文中「**IPTV**」4次、「**MOD**」6次、「**ADSL**」1次，與 claim 之要素逐項對應。故予以支持。**註記**：簡報中「第**⼀**套」之「⼀」為 U+2F00 康熙部首字形，以一般漢字「一」檢索無法命中。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1307:objective_ranking_or_market_share:dd1e646d1fa31e1b",
+      "normalized_claim_hash": "dd1e646d1fa31e1befc23867aa415e85de5a62f98c90a7f5a844042e0a88da2a",
+      "ticker": "1307",
+      "company": "三芳",
+      "path": "Pilot_Reports/Textile Manufacturing/1307_三芳.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "三芳為全球最大之運動鞋用[[PU合成皮]]與人工皮革製造商，市佔率逾40%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/130720180920E001.pdf",
+          "title": "三芳化學工業股份有限公司（三芳，1307，San Fang Chemical Industry）Operating Information（英文版）",
+          "source_level": 3,
+          "period_binding": "2018年9月20日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（**英文版**，文字擷取8,943字元，以圖形排版為主）。文件載「The major products are **Microfiber artificial leather, PU synthetic leather**, films and fiber core technology of **synthetic leather**」「**PU synthetic leather**」（「leather」9次、「synthetic」4次、「PU」18次、「shoe／Shoe」3次），支持其 PU 合成皮與人工皮革產品。全份文件中「**largest**」「**market share**」「**footwear**」「**athletic**」之出現次數**均為0**（「global」「world」各2次）；「**40%**」2次之上下文於文字層中未見完整敘述（僅見「40%」單獨出現）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「生產 [[PU合成皮]]與人工皮革」獲發行人文件支持：文件（**英文版**）載「The major products are **Microfiber artificial leather, PU synthetic leather**, films and fiber core technology of synthetic leather」（「**leather**」9次、「**synthetic**」4次、「PU」18次、「shoe／Shoe」3次），支持其產品。惟兩項陳述未獲支持：(1)「為**全球最大**之運動鞋用…製造商」——「**largest**」與「**market share**」之出現次數**均為0**，「footwear」與「athletic」亦為0；(2)「市佔率**逾40%**」——「**40%**」2次之上下文於文字層中未見完整敘述（僅見「40%」單獨出現），無法確認其指涉。故部分成立（並註記該文件為2018年版本）。**方法論註記：本件為英文版文件，中文關鍵字檢索不具意義。**",
+      "proposed_text": "三芳化學工業 (1307，San Fang Chemical Industry) 生產 PU 合成皮與 Microfiber 人工皮革等產品。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

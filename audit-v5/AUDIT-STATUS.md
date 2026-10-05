@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 11:04 UTC
+Updated: 2026-10-11 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **872 / 1,399**
-- Remaining author review: **527**
-- Latest batch: **author-155** (4 claims)
+- Author-reviewed: **874 / 1,399**
+- Remaining author review: **525**
+- Latest batch: **author-156** (2 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **88**
-- `PARTIALLY_SUPPORTED`: **572**
+- `ACCEPTED`: **89**
+- `PARTIALLY_SUPPORTED`: **573**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6561:objective_ranking_or_market_share:8a87b4b5a9098e5e` — `PARTIALLY_SUPPORTED`；是方年報「**中華電」84 次、「IDC」73 次**、「中立」8次；惟「**最大」4 次均非 IDC**（TPIX交換中心／經銷體系／通路商），「最大股東」未見。
-- `6561:objective_ranking_or_market_share:06e71ebe14750575` — `PARTIALLY_SUPPORTED`；年報載公有雲清單「**AWS, Microsoft, Google, Oracle, IBM**」及 Azure ExpressRoute／Oracle 直連；惟「全台最大的海纜交換中心」未逐字支持。
-- `6561:objective_ranking_or_market_share:e4ab212b6a0af4ad` — `PARTIALLY_SUPPORTED`；年報見「第一類電信」與「綠電」；惟「伺服器製造商／機房設備廠」未見。
-- `6170:objective_ranking_or_market_share:ea74cedd3701221c` — `PARTIALLY_SUPPORTED`；簡報「移工」19次、「匯兌」7次；**惟「40萬」原文為「40萬外來人力」（勞動力規模）**，且會員數原文為「**有效會員超過30萬人**」（與 claim 的40萬不符），「QuickPay」「首家」「500億」「40%」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-155.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `6163:objective_ranking_or_market_share:5fe18513d52e2e8a` (華電網).
+- `6163:objective_ranking_or_market_share:5fe18513d52e2e8a` — `ACCEPTED`；華電網簡報**逐字載**「建置台灣**第⼀套ADSL**寬頻網路(Cisco)」與「建置**亞洲最⼤**的**IPTV(MOD)**系統(Cisco)」——**逐字對應**。
+- `1307:objective_ranking_or_market_share:dd1e646d1fa31e1b` — `PARTIALLY_SUPPORTED`；三芳文件（**英文版**）載「Microfiber artificial leather, **PU synthetic leather**」（leather 9次、synthetic 4次、PU 18次）；惟「largest」「market share」「footwear」「athletic」皆0次，「40%」上下文不足。
+- **發現第 8 類字串落差**：簡報「第**⼀**套」之「⼀」為 **U+2F00 康熙部首**字形，以一般漢字「一」檢索無法命中。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-156.json`（2 筆）。未修改發行人報告。
+- Next pending claim by priority: `1341:objective_ranking_or_market_share:c464f0b0ce8ffced` (富林-KY).
 
 ## Source access
 
