@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:07:20Z",
+  "generated_at": "2026-10-05T23:08:52Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -249,17 +249,18 @@
     "author-243",
     "author-244",
     "author-245",
-    "author-246"
+    "author-246",
+    "author-247"
   ],
-  "source_batch_count": 246,
-  "total_unknown": 379,
+  "source_batch_count": 247,
+  "total_unknown": 382,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 168,
-    "other_unclassified": 144,
+    "no_official_endpoint_found": 169,
+    "other_unclassified": 146,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 96,
+    "http_404": 97,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5805,6 +5806,49 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/841120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2537:identity_changing_event:eb039f3942a9c37c",
+      "ticker": "2537",
+      "company": "聯上發",
+      "claim": "公司原名春其開發，2008 年更名為聯上發。",
+      "batch_id": "author-247",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://5v.com.tw/pdf/%e9%99%84%e4%bb%b63_112%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83-111%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6641:material_named_relationship:0c51f99d553bcf92",
+      "ticker": "6641",
+      "company": "基士德-KY",
+      "claim": "主要供應商包含軸承品牌[[SKF]]。",
+      "batch_id": "author-247",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/664120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2718:identity_changing_event:412a4da1b5c7c80b",
+      "ticker": "2718",
+      "company": "全心投控",
+      "claim": "[[全心投控]] (2718，Allmind Holdings) 前身為「晶悅國際飯店」，2024 年正式更名並完成轉型。",
+      "batch_id": "author-247",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/271820250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

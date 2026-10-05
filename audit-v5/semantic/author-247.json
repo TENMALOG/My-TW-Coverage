@@ -1,0 +1,167 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-247",
+  "reviewed_at": "2026-10-05T23:08:37Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (中宇112年度年報與2026法說會; 華懋2024法說會; 寶徠101年度公開說明書; 聯上發111年度年報); 全心投控端點HTTP 404; 基士德-KY未取得文件",
+  "items": [
+    {
+      "claim_id": "1535:material_named_relationship:2ad6a799510ea098",
+      "normalized_claim_hash": "2ad6a799510ea098a51153b4b325254f14dc510c64d8540f78126a436b299a82",
+      "ticker": "1535",
+      "company": "中宇",
+      "path": "Pilot_Reports/Pollution & Treatment Controls/1535_中宇.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶以母集團[[中鋼]]及[[中龍鋼鐵]]為核心，亦服務[[台積電]]等半導體廠及公部門。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ecotek.com.tw/download_file.php?file_link=.%2Fupload%2FFFILE%2FFIN04_00591.pdf",
+          "title": "中宇環保工程股份有限公司（中宇，1535，EcoTek）一一二年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取281,548字元）。年報中「**中鋼**」出現124次、「**中龍**」26次、「客戶」39次，**充分支持其中鋼集團客戶關係**。**關鍵發現**：全份年報中「**台積電**」之出現次數**為0**。"
+        },
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153520260422M001.pdf",
+          "title": "中宇環保工程股份有限公司（中宇，1535，EcoTek）法人說明會簡報（2026-04-22）",
+          "source_level": 3,
+          "period_binding": "2026年4月22日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,219字元，以圖形排版為主）。簡報中「**中鋼**」出現29次、「**中龍**」9次。**關鍵發現**：全份簡報中「**台積電**」之出現次數**為0**。"
+        }
+      ],
+      "rationale": "「主要客戶以母集團 **[[中鋼]]** 及 **[[中龍鋼鐵]]** 為核心」獲發行人年報與簡報**充分支持**：年報中「**中鋼**」124次、「**中龍**」26次（簡報中「中鋼」29次、「中龍」9次），**支持其中鋼集團客戶關係**。**惟「亦服務 [[台積電]] 等半導體廠」未獲支持**——**兩份文件中「台積電」之出現次數均為0**。故部分成立。",
+      "proposed_text": "中宇環保工程 (1535，EcoTek) 之主要客戶以中鋼集團之中鋼及中龍鋼鐵為核心。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5292:material_named_relationship:2c2209bac7363a05",
+      "normalized_claim_hash": "2c2209bac7363a0560670db71838d287c3bee1954f8f5a539faf1297c043cb4e",
+      "ticker": "5292",
+      "company": "華懋",
+      "path": "Pilot_Reports/Pollution & Treatment Controls/5292_華懋.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**半導體**: [[台積電]] (主要客戶), [[聯電]], [[Micron]].",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/529220241206M001.pdf",
+          "title": "華懋科技股份有限公司（華懋，5292，Hua Mao）法人說明會簡報（2024-12-06）",
+          "source_level": 3,
+          "period_binding": "2024年12月6日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,340字元，以圖形排版為主）。簡報中「**華懋**」出現6次（**確認文件歸屬**）、「**半導體**」8次，**支持其半導體相關業務**。**關鍵發現**：全份簡報中「**台積電**」「**聯電**」與「**Micron**」之出現次數**均為0**——**未具名任何客戶**。"
+        }
+      ],
+      "rationale": "「**半導體**」業務類別獲發行人簡報之**部分支持**：簡報中「**華懋**」6次（**確認文件歸屬為 5292 之華懋科技，而非同名之中國A股公司**）、「**半導體**」8次，**支持其半導體相關業務**。**惟三項具名客戶未獲支持**：「**台積電**（主要客戶）」「**聯電**」與「**Micron**」之出現次數**均為0**，**未具名任何客戶**。故部分成立。",
+      "proposed_text": "華懋科技 (5292，Hua Mao) 之業務涵蓋半導體相關領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1805:identity_changing_event:b1553d11666a2a52",
+      "normalized_claim_hash": "b1553d11666a2a52a87ce3eb5d8c9a31e14277c32f2670066f0ba2e010a488f6",
+      "ticker": "1805",
+      "company": "寶徠",
+      "path": "Pilot_Reports/Real Estate - Development/1805_寶徠.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司前身為凱聚建設，2009 年更名為寶徠建設。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cathaysec.com.tw/ipo/%E5%AF%B6%E5%BE%A0%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+          "title": "寶徠建設股份有限公司（寶徠，1805，KPT Industries）一○一年度現金增資公開說明書",
+          "source_level": 3,
+          "period_binding": "民國101年度。",
+          "accessed_at": "2026-10-15",
+          "note": "自公開說明書端點下載並以 PDF 文字檢視（文字擷取約280頁）。封面載「**寶徠建設股份有限公司** **KPT INDUSTRIES LTD.** 公開說明書」（「**寶徠**」786次）。**關鍵發現（名稱之角色）**：全份文件中「**凱聚**」出現460次，**惟其出現之角色為「本公司之子公司」**——文件載「本公司磁磚事業之進銷貨因考量市場品牌因素，均與**子公司-凱聚(股)公司**」「**凱聚股份有限公司**」（關係人表列「凱聚(股)公司｜本公司之子公司」）；**且「更名」與「前身」之出現次數均為0**、 「2009」為0次（「**民國98**」4次）。"
+        }
+      ],
+      "rationale": "claim 稱「公司**前身為凱聚建設**，**2009 年更名**為寶徠建設」。發行人公開說明書中**「凱聚」確出現460次**，且見「**民國98**」4次（**民國98年＝2009年**），**惟其出現之角色與 claim 所述不同**：**文件明載「本公司之子公司-凱聚(股)公司」「凱聚股份有限公司」，關係人表並列「凱聚(股)公司｜本公司之子公司」**——**即凱聚在該文件中係以「子公司」而非「前身」之身分出現**；**且「更名」與「前身」之出現次數均為0**、「2009」為0次。故僅就名稱與年份之出現部分成立，**該名稱之角色落差已於本紀錄標示，供複核者確認**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2537:identity_changing_event:eb039f3942a9c37c",
+      "normalized_claim_hash": "eb039f3942a9c37c677750134a1b5ba36bddccf6e931382a1d246054a131518c",
+      "ticker": "2537",
+      "company": "聯上發",
+      "path": "Pilot_Reports/Real Estate - Development/2537_聯上發.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司原名春其開發，2008 年更名為聯上發。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://5v.com.tw/pdf/%e9%99%84%e4%bb%b63_112%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83-111%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "聯上發股份有限公司（聯上發，2537，Lien Shang Fa）一一一年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取151,485字元）。**關鍵發現**：全份年報中「**春其**」「**更名**」「**民國97**」「97年」與「2008」之出現次數**均為0**——**未見原名或更名之敘述**（另「聯上發」之字串亦未見，**該年報以圖形排版呈現公司名稱**）。"
+        }
+      ],
+      "rationale": "「公司原名**春其開發**，**2008 年更名**為聯上發」未獲確立：所取得之聯上發一一一年度年報中「**春其**」「**更名**」「**民國97**」「97年」與「2008」之出現次數**均為0**，**未見原名或更名之敘述**。故以 UNKNOWN_AFTER_RESEARCH 結案，**建議改由公開說明書或公司沿革章節複核**。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6641:material_named_relationship:0c51f99d553bcf92",
+      "normalized_claim_hash": "0c51f99d553bcf923f5a7611d6c71b44e7e9579f6466e5094b96f268971d92ab",
+      "ticker": "6641",
+      "company": "基士德-KY",
+      "path": "Pilot_Reports/Pollution & Treatment Controls/6641_基士德-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要供應商包含軸承品牌[[SKF]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/664120250401M001.pdf",
+          "title": "基士德-KY（6641）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次未就基士德-KY取得可檢視之官方文件（**本批次之下載集中於其他標的**）；故未能就 claim 所述之供應商關係進行驗證。"
+        }
+      ],
+      "rationale": "「主要供應商包含軸承品牌 **[[SKF]]**」未獲確立：本批次未就基士德-KY取得可檢視之官方文件，未能就該供應商關係進行驗證，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2718:identity_changing_event:412a4da1b5c7c80b",
+      "normalized_claim_hash": "412a4da1b5c7c80bda3a07a138d90e9ef775374ba54fa0ca81ed2cd412948661",
+      "ticker": "2718",
+      "company": "全心投控",
+      "path": "Pilot_Reports/Real Estate - Development/2718_全心投控.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[全心投控]] (2718，Allmind Holdings) 前身為「晶悅國際飯店」，2024 年正式更名並完成轉型。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/271820250401M001.pdf",
+          "title": "全心投控（2718）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之全心投控端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得全心投控可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[全心投控]] (2718，Allmind Holdings) **前身為「晶悅國際飯店」**（…）」未獲確立：本批次所嘗試之全心投控端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 06:04 UTC
+Updated: 2026-10-15 07:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,266 / 1,399**
-- Remaining author review: **133**
-- Latest batch: **author-246** (6 claims)
+- Author-reviewed: **1,272 / 1,399**
+- Remaining author review: **127**
+- Latest batch: **author-247** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **104**
-- `PARTIALLY_SUPPORTED`: **778**
+- `PARTIALLY_SUPPORTED`: **781**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **379**
+- `UNKNOWN_AFTER_RESEARCH`: **382**
 
 ## Latest claim batch
 
-- 🟢 `7610:material_named_relationship:2ce61d7c5a349053` — **`ACCEPTED`**；聯友金屬簡報**逐字載**「⚫**台積電**及 **APPLE 綠色供應鍊的一員**」「**回收金屬料含量100%驗證**」（**鎢 90 次、Apple 3 次**；年報「鎢」235 次、「再生」26 次）。
-- `5530:identity_changing_event:c7b0e4ebc3050d7a` — `PARTIALLY_SUPPORTED`；龍巖議事手冊封面**逐字載**「龍巖股份有限公司(**更名前為大漢建設股份有限公司**)**一○一年**股東常會」（**大漢建設 38 次、民國100 2 次**）；**惟「與龍巖合併」之事件未獲確認**（「合併」61 次多為合併財報用法）。
-- `6235:material_named_relationship:42d42a3aec02f6d3` — `PARTIALLY_SUPPORTED`；華孚簡報「**鎂合金」4 次、「汽車」13 次**；**惟「OEM／Tier 1」皆 0 次**。
-- `9927:material_named_relationship:3515b4def3fd952d` — `UNKNOWN_AFTER_RESEARCH`；泰銘簡報「**廣隆／統一工業／湯淺／客戶」皆 0 次**（簡報僅2,338字元且為2012年版本）。
-- `4553:da1544701e031d80` — `UNKNOWN_AFTER_RESEARCH`；盛復端點 **HTTP 404**。
-- `8411:84faf34240131cbc` — `UNKNOWN_AFTER_RESEARCH`；未取得福貞-KY文件。
-- 證據記錄於 `semantic/author-246.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,266 ＝ 條目總數 1,266。**覆蓋率 90.49%**。
-- Next pending claim by priority: `1535:material_named_relationship:2ad6a799510ea098` (中宇).
+- `1535:material_named_relationship:2ad6a799510ea098` — `PARTIALLY_SUPPORTED`；中宇年報「**中鋼」124 次、「中龍」26 次**（簡報中鋼29／中龍9）；**惟「台積電」兩份皆 0 次**。
+- `5292:material_named_relationship:2c2209bac7363a05` — `PARTIALLY_SUPPORTED`；華懋簡報「**半導體」8 次、「華懋」6 次**；**惟「台積電／聯電／Micron」皆 0 次**。
+- ⚠️ `1805:identity_changing_event:b1553d11666a2a52` — `PARTIALLY_SUPPORTED`；寶徠公開說明書中「**凱聚」460 次、「民國98」4 次**；**惟文件明載凱聚為「本公司之子公司」而非「前身」**，且「**更名／前身／2009」皆 0 次**。
+- `2537:identity_changing_event:eb039f3942a9c37c` — `UNKNOWN_AFTER_RESEARCH`；聯上發年報「**春其／更名／民國97／2008」皆 0 次**。
+- `2718:412a4da1b5c7c80b` — `UNKNOWN_AFTER_RESEARCH`；全心投控端點 **HTTP 404**。
+- `6641:0c51f99d553bcf92` — `UNKNOWN_AFTER_RESEARCH`；未取得基士德-KY文件。
+- 證據記錄於 `semantic/author-247.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,272 ＝ 條目總數 1,272。**覆蓋率 90.92%**。
+- Next pending claim by priority: `3056:identity_changing_event:42ce16aac106b895` (富華新).
 
 ## Source access
 
