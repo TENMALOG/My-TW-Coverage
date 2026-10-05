@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:14:33Z",
+  "generated_at": "2026-10-05T23:15:40Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -254,17 +254,18 @@
     "author-248",
     "author-249",
     "author-250",
-    "author-251"
+    "author-251",
+    "author-252"
   ],
-  "source_batch_count": 251,
-  "total_unknown": 397,
+  "source_batch_count": 252,
+  "total_unknown": 400,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 176,
+    "no_official_endpoint_found": 179,
     "other_unclassified": 151,
-    "tls_failure": 14,
+    "tls_failure": 15,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 104,
+    "http_404": 106,
     "image_only_or_tiny_text": 18,
     "http_403": 16,
     "connection_failure": 15,
@@ -6071,6 +6072,51 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/237920250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3105:material_named_relationship:5eadd5b07622243d",
+      "ticker": "3105",
+      "company": "穩懋",
+      "claim": "**上游 ([[磊晶]])**: [[2455_全新|全新]] (主要供應商), IQE.",
+      "batch_id": "author-252",
+      "failure_signature": [
+        "tls_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://www.winsemiconductorscorp.com/zh-CN/Base/DownLoadFile/373?filename=穩懋109年度年報.pdf&TargetTable=Articleattachment"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "3531:material_named_relationship:bc1958facad626a3",
+      "ticker": "3531",
+      "company": "先益",
+      "claim": "主要客戶為 [[友達光電]]及[[群創光電]]等面板廠。",
+      "batch_id": "author-252",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/353120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3680:material_named_relationship:5ef6c70b8bcc1cf0",
+      "ticker": "3680",
+      "company": "家登",
+      "claim": "1. **[[EUV]] 光罩載具壟斷**: 為[[台積電]] 7nm、5nm、3nm 及未來 2nm 先進製程的獨家或主要供應商。",
+      "batch_id": "author-252",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/368020250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 11:04 UTC
+Updated: 2026-10-15 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,296 / 1,399**
-- Remaining author review: **103**
-- Latest batch: **author-251** (6 claims)
+- Author-reviewed: **1,302 / 1,399**
+- Remaining author review: **97**
+- Latest batch: **author-252** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **105**
-- `PARTIALLY_SUPPORTED`: **789**
+- `PARTIALLY_SUPPORTED`: **792**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **397**
+- `UNKNOWN_AFTER_RESEARCH`: **400**
 
 ## Latest claim batch
 
-- `6953:identity_changing_event:c73ead2e44eb21b3` — `PARTIALLY_SUPPORTED`；家碩年報封面**逐字載**「**家碩科技股份有限公司(原名：家登自動化股份有限公司)**」（**原名 3 次、上櫃 26 次**）；**惟「更名」字樣 0 次，且年份與事件之對應未見明文**。
-- `6261:material_named_relationship:25564dd7283d8c8e` — `UNKNOWN_AFTER_RESEARCH`；久元年報「**23.5」14 次、「客戶」108 次**；**惟「晶元／億光」皆 0 次**。
-- `6271:material_named_relationship:c6e346619fff33a6` — `UNKNOWN_AFTER_RESEARCH`；同欣電年報「**ON Semi／安森美／OmniVision／豪威」皆 0 次**。
-- ⚠️ `2330:material_named_relationship:d4821272fa108886` — `UNKNOWN_AFTER_RESEARCH`；台積電官方投資人端點**三個皆回 HTTP 403**（伺服器拒絕自動化擷取）。
-- `2329:19240fe9ac740634`、`2379:f67c58c219d8bd24` — `UNKNOWN_AFTER_RESEARCH` ×2；華泰與瑞昱端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-251.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,296 ＝ 條目總數 1,296。**覆蓋率 92.64%**。
-- Next pending claim by priority: `3073:identity_changing_event:b67945c5e1f8cd60` (天方能源).
+- `3141:export_concentration:76e50d1e8daf4777` — `PARTIALLY_SUPPORTED`；晶宏年報「**電子標籤」11 次、「醫療」9 次、「電子書」6 次、「車用」18 次、「車用儀表」2 次**；**惟「工業控制」0 次，且「87%」3 次全為「0.87%」（利率）之一部分——屬子字串誤配**。
+- `3374:material_named_relationship:be32d9ad91c6729d` — `PARTIALLY_SUPPORTED`；精材簡報「**台積電」11 次、「持股」4 次**並載「司股份**30%**成為最（大股東）」；**惟「晶圓供應」字樣未見**。
+- `3073:identity_changing_event:b67945c5e1f8cd60` — `PARTIALLY_SUPPORTED`；天方能源簡報「**售電」7 次、「能源」14 次**；**惟「前身／更名／台電／韌體」皆 0 次**。
+- ⚠️ `3105:material_named_relationship:5eadd5b07622243d` — `UNKNOWN_AFTER_RESEARCH`；穩懋官方網域**TLS 憑證信任失敗**。
+- `3531:bc1958facad626a3`、`3680:5ef6c70b8bcc1cf0` — `UNKNOWN_AFTER_RESEARCH` ×2；先益與家登端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-252.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,302 ＝ 條目總數 1,302。**覆蓋率 93.07%**。
+- Next pending claim by priority: `3680:material_named_relationship:1a3ba9385a605af5` (家登).
 
 ## Source access
 
