@@ -1,0 +1,41 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-007",
+  "reviewed_at": "2026-10-05T13:43:08Z",
+  "reviewer_role": "author",
+  "method": "attempted direct access to official company and government sources; no search-result snippets were used as evidence",
+  "items": [
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7",
+      "normalized_claim_hash": "7cd11cc6ee9fc2c78658a18bd2f1d2163474c88523cacb8b26ea0a82cb5d801b",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[OCP Group]] (摩洛哥，全球最大磷礦出口商)",
+      "decision": "SOURCE_UNAVAILABLE",
+      "evidence": [
+        {
+          "url": "https://www.ocpgroup.ma/en",
+          "title": "未取得（OCP Group 官方網站；HTTP 403）",
+          "source_level": 3,
+          "period_binding": "未能載入官方頁面，無發布或適用期間可檢視；直接請求於 2026-10-05 回應 HTTP 403。",
+          "accessed_at": "2026-10-05",
+          "note": "OCP Group 官網首頁、英文首頁、投資人頁及業務頁直接請求均回應 HTTP 403，未取得可檢視內容或頁面標題；無法從公司正式來源查證公司層級的全球出口排名。"
+        },
+        {
+          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-phosphate-rock.pdf",
+          "title": "未取得（USGS Mineral Commodity Summaries 2025：Phosphate Rock；HTTP 403）",
+          "source_level": 1,
+          "period_binding": "嘗試取得 2025 年官方礦物商品摘要；PDF 直接請求於 2026-10-05 回應 HTTP 403，無資料期間內容可檢視。",
+          "accessed_at": "2026-10-05",
+          "note": "USGS 官方 PDF 端點拒絕請求，未取得報告內容。即使可取得國家層級的磷礦產量或出口統計，也不能替代 OCP Group 公司層級的最大出口商排名證據。"
+        }
+      ],
+      "rationale": "OCP Group 官方網站及所嘗試的 USGS 官方報告均無法讀取，沒有可檢視的正式來源明確證明或反駁『OCP Group 為全球最大磷礦出口商』。依 SOURCE_UNAVAILABLE 記錄來源限制，不把公司／國家排名作推論，也不把來源存取失敗當成事實反證。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
