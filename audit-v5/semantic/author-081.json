@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-081",
+  "reviewed_at": "2026-10-05T19:17:52Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (泓德能源2025年法人說明會簡報; 巨漢2025年法人說明會簡報; 台汽電2024年法人說明會簡報; 中鼎111年度年報; 潤泰新公司文件)",
+  "items": [
+    {
+      "claim_id": "6873:objective_ranking_or_market_share:8e8bea538366ff4d",
+      "normalized_claim_hash": "8e8bea538366ff4db338d49c765ff1e146a91b77d3cef7bb89f87517d4338aaf",
+      "ticker": "6873",
+      "company": "泓德能源",
+      "path": "Pilot_Reports/Engineering & Construction/6873_泓德能源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "旗下子公司[[星星電力]]為台灣綠電市佔率極高之售電業者，自2021年起已為[[台灣大哥大]]轉供約6,700萬度綠電。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/687320250306M001.pdf",
+          "title": "泓德能源科技股份有限公司（泓德能源，6873，HD Renewable Energy）法人說明會簡報（2025-03-06）",
+          "source_level": 3,
+          "period_binding": "2025年3月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「（每）年轉供約 **6,700 萬度綠電**給**台灣大哥大**」與「成為**台灣大哥大最大綠電供應**（商）」，並見「**星星電力**」10次、「綠電」47次、「轉供」24次，支持其子公司星星電力之綠電轉供業務與對台灣大哥大之供電關係。全份簡報中「市佔」出現次數為0。註記：發行人官方網域之永續報告書端點（hdrenewables.com）於本批次以「連接意外關閉」失敗，惟 MOPS 端點之簡報可正常取得。"
+        }
+      ],
+      "rationale": "claim 之具體轉供事實獲發行人簡報直接支持：簡報載「（每）年轉供約 **6,700 萬度綠電**給**台灣大哥大**」與「成為**台灣大哥大最大綠電供應**（商）」，並見「**星星電力**」10次、「綠電」47次、「轉供」24次，支持其子公司星星電力從事綠電轉供業務及對台灣大哥大之供電關係。惟兩項陳述未獲支持：(1)「為台灣綠電**市佔率極高**之售電業者」——全份簡報中「市佔」出現次數為0，未載其市占率或市場排名；(2)「**自2021年起**已為台灣大哥大轉供」——該起始年度未見於簡報。故部分成立。",
+      "proposed_text": "泓德能源 (6873，HD Renewable Energy) 旗下子公司星星電力從事綠電轉供業務，每年轉供約 6,700 萬度綠電給台灣大哥大，並為其最大綠電供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6903:objective_ranking_or_market_share:d9e643e450e273d5",
+      "normalized_claim_hash": "d9e643e450e273d57fa6e34982b8e952f99f0de579f7aba415790e65e8f94a21",
+      "ticker": "6903",
+      "company": "巨漢",
+      "path": "Pilot_Reports/Engineering & Construction/6903_巨漢.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]]（最大客戶群，先進製程廠房[[無塵室]]建置）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/690320251111M001.pdf",
+          "title": "巨漢系統科技股份有限公司（巨漢，6903）法人說明會簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報中「**無塵室**」出現5次、「客戶」8次（均為通稱），支持其無塵室系統工程業務。全份簡報中「台積電」「最大客戶」與「先進製程」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「從事先進製程廠房無塵室建置」獲發行人簡報部分支持：2025年官方簡報中「**無塵室**」出現5次，支持其無塵室系統工程業務。惟「**台積電**（**最大客戶群**）」未獲支持：全份簡報中「台積電」「最大客戶」與「先進製程」之出現次數均為0（「客戶」8次均為通稱），未具名任何客戶。故部分成立。",
+      "proposed_text": "巨漢系統科技 (6903) 從事無塵室系統工程業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8926:objective_ranking_or_market_share:374f48cdf5d509d2",
+      "normalized_claim_hash": "374f48cdf5d509d25c77adf1db63fda1f64ed09f967f3acdc32867376343b73a",
+      "ticker": "8926",
+      "company": "台汽電",
+      "path": "Pilot_Reports/Engineering & Construction/8926_台汽電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台灣汽電共生股份有限公司成立於1992年，為台灣最大民營電力集團之一。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/892620241127M001.pdf",
+          "title": "台灣汽電共生股份有限公司（台汽電，8926，TCC）法人說明會簡報（2024-11-27）",
+          "source_level": 3,
+          "period_binding": "2024年11月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「（電）力三家燃氣**民營電力**（業者）」「**台電**公司向本公司所轉投資民營電廠主張損害賠償」「台電公司已於11月14日公告第二次117年商轉燃氣機組電力採（購）」與「承攬沃旭二期及**台電**離岸風電二期計畫陸上變電站、輸電線（工程）」（「台電」4次、「PPA」1次），顯示其與台電之交易與承攬關係。全份簡報中「1992」與「最大」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為民營電力事業集團」獲發行人簡報支持：2024年官方簡報載「（電）力三家燃氣**民營電力**（業者）」並涉及其轉投資民營電廠（「民營電力」1次），顯示其民營電力事業之經營。惟兩項陳述未獲支持：(1)「成立於**1992年**」——全份簡報中「1992」出現次數為0；(2)「為台灣**最大**民營電力集團之一」——「最大」出現次數為0。故部分成立。",
+      "proposed_text": "台灣汽電共生 (8926，TCC) 經營民營電力事業並轉投資民營電廠。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8926:objective_ranking_or_market_share:edc06851f49467ab",
+      "normalized_claim_hash": "edc06851f49467abdaf90e6d05ebb535b7ef81aeb273a81302a7c9309af1b43c",
+      "ticker": "8926",
+      "company": "台汽電",
+      "path": "Pilot_Reports/Engineering & Construction/8926_台汽電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台電]]（最大客戶，透過長期購售電合約 PPA 購買電力）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/892620241127M001.pdf",
+          "title": "台灣汽電共生股份有限公司（台汽電，8926，TCC）法人說明會簡報（2024-11-27）",
+          "source_level": 3,
+          "period_binding": "2024年11月現況。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「（電）力三家燃氣**民營電力**（業者）」「**台電**公司向本公司所轉投資民營電廠主張損害賠償」「台電公司已於11月14日公告第二次117年商轉燃氣機組電力採（購）」與「承攬沃旭二期及**台電**離岸風電二期計畫陸上變電站、輸電線（工程）」（「台電」4次、「PPA」1次），顯示其與台電之交易與承攬關係。全份簡報中「1992」與「最大」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與台電具長期購售電關係」獲發行人簡報部分支持：簡報載「**台電**公司已於11月14日公告第二次117年商轉燃氣機組電力採（購）」「承攬沃旭二期及**台電**離岸風電二期計畫陸上變電站、輸電線（工程）」，並見「PPA」1次（「台電」4次），顯示其與台電之交易往來。惟「台電為**最大客戶**，透過長期購售電合約 (PPA) 購買電力」未獲完整支持：簡報中「台電」之敘述包含「**台電公司向本公司所轉投資民營電廠主張損害賠償**」之爭訟事項，且未載「最大客戶」或客戶別營收占比。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9933:objective_ranking_or_market_share:ae067a7c3022090f",
+      "normalized_claim_hash": "ae067a7c3022090f7776e8f449017e03fe58699b41b2a932532477468678e573",
+      "ticker": "9933",
+      "company": "中鼎",
+      "path": "Pilot_Reports/Engineering & Construction/9933_中鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中鼎工程股份有限公司成立於1979年，由財團法人中技社籌設，為台灣最大統包工程公司（以總資產及年營收計）。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ctci.com/www/ctci2022/pdf/CH/111year_report.pdf",
+          "title": "中鼎工程股份有限公司（中鼎，9933，CTCI）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載「**設立日期：民國68年4月6日**」（即1979年；「民國68」出現3次），並載其為「國內外聲譽卓著之**綜合性統包工程公司**，其業務領域涵蓋煉油石化、電力、環（境）」及「中鼎長期投入研發『iEPC智能化**統包工程**』平台」（「統包工程」多次、「中技社」29次、「籌設」1次），支持其成立年、中技社之關聯與統包工程業務。全份年報中「最大統包」「國內最大」與「第一大」之出現次數均為0。註記：年報以**民國年**表述日期，「1979」之西元數字自然不會出現。"
+        }
+      ],
+      "rationale": "「成立於1979年」「由財團法人中技社籌設」「從事統包工程」獲發行人年報支持：111年度年報載「**設立日期：民國68年4月6日**」（即1979年）與「（本公司為）國內外聲譽卓著之**綜合性統包工程公司**」，「中技社」出現29次、「籌設」1次，支持其成立年、與中技社之關聯及統包工程業務。惟「為**台灣最大**統包工程公司（以總資產及年營收計）」未獲支持：全份年報中「最大統包」「國內最大」與「第一大」出現次數均為0。故部分成立。註記：年報以**民國年**表述日期，故以「1979」檢索時自然無命中，須以「民國68」比對。",
+      "proposed_text": "中鼎工程 (9933，CTCI) 設立於1979年（民國68年），由財團法人中技社籌設，為綜合性統包工程公司。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9945:objective_ranking_or_market_share:0956ae2b616a5788",
+      "normalized_claim_hash": "0956ae2b616a578831e07928822fb24bdc89d499a13dc79bbd5b08e1293d1628",
+      "ticker": "9945",
+      "company": "潤泰新",
+      "path": "Pilot_Reports/Engineering & Construction/9945_潤泰新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "轉投資布局廣泛，持有[[南山人壽]]約25%股權（為最大獲利來源），並投資[[日友環保]]（廢棄物處理）、[[大潤發]]等事業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/994520260702M001.pdf",
+          "title": "潤泰創新國際股份有限公司（潤泰新，9945，Ruentex Development）公司文件（2026-07-02）",
+          "source_level": 3,
+          "period_binding": "2026年7月刊載。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方文件。文件載其轉投資「**南山人壽**」（12次）並載「**持股比例：25%**」與「註2：直接及間接持有南山人壽投資金額約200億元」，另見「**日友**（環保）」5次，支持其持有南山人壽約25%股權及投資日友環保等事業。全份文件中未見「最大獲利來源」之表述。"
+        }
+      ],
+      "rationale": "「持有南山人壽約25%股權並投資日友環保等事業」獲發行人文件支持：文件載其轉投資「**南山人壽**」（12次）並載「**持股比例：25%**」與「註2：直接及間接持有南山人壽投資金額約200億元」，另見「**日友**（環保）」5次。惟「（南山人壽）為**最大獲利來源**」未獲支持：全份文件中未見「最大獲利來源」之表述。故部分成立。",
+      "proposed_text": "潤泰新 (9945，Ruentex Development) 持有南山人壽約25%股權，並投資日友環保等事業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "9945:objective_ranking_or_market_share:596c67d69f51bdc0",
+      "normalized_claim_hash": "596c67d69f51bdc0b5b9e5d453e91812911ab3b459c3865243d73e79c9aef8c0",
+      "ticker": "9945",
+      "company": "潤泰新",
+      "path": "Pilot_Reports/Engineering & Construction/9945_潤泰新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[南山人壽]]（持股約25%，為最大獲利來源）",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/994520260702M001.pdf",
+          "title": "潤泰創新國際股份有限公司（潤泰新，9945，Ruentex Development）公司文件（2026-07-02）",
+          "source_level": 3,
+          "period_binding": "2026年7月刊載。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方文件。文件載其轉投資「**南山人壽**」（12次）並載「**持股比例：25%**」與「註2：直接及間接持有南山人壽投資金額約200億元」，另見「**日友**（環保）」5次，支持其持有南山人壽約25%股權及投資日友環保等事業。全份文件中未見「最大獲利來源」之表述。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「南山人壽（持股約25%，為最大獲利來源）」）。「持股比例：25%」獲文件明載；惟「最大獲利來源」未見於文件。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

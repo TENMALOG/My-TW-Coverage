@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **454 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), and `author-080` (6).
+Author-reviewed: **461 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), and `author-081` (7).
 
 - ACCEPTED by author: 69
-- PARTIALLY_SUPPORTED: 295
+- PARTIALLY_SUPPORTED: 302
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 86
-- Remaining author queue: 945
+- Remaining author queue: 938
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -947,6 +947,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **86 筆**。
 - Author-reviewed total: **454 / 1,399**; remaining: **945**. Outcome counts: ACCEPTED 69, PARTIALLY_SUPPORTED 295, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 86. Next pending claim by priority: `6873:objective_ranking_or_market_share:8e8bea538366ff4d` (泓德能源).
+
+## Author batch `author-081` — 2026-10-08
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (泓德能源 6873, 巨漢 6903, 台汽電 8926 ×2, 中鼎 9933, 潤泰新 9945 ×2). Evidence came from directly downloaded and inspected official disclosures: 泓德能源2025年法人說明會簡報、巨漢2025年法人說明會簡報、台汽電2024年法人說明會簡報、中鼎111年度年報、潤泰新公司文件。
+- `6873:objective_ranking_or_market_share:8e8bea538366ff4d` — `PARTIALLY_SUPPORTED`. 泓德2025年官方簡報載「（每）年轉供約 **6,700 萬度綠電**給**台灣大哥大**」與「成為**台灣大哥大最大綠電供應**（商）」（「星星電力」10次、「綠電」47次、「轉供」24次），具體轉供事實與客戶關係獲支持；惟「為台灣綠電**市佔率極高**之售電業者」未獲支持（「市佔」0次），「**自2021年起**」之起始年度亦未見於簡報。
+- `6903:objective_ranking_or_market_share:d9e643e450e273d5` — `PARTIALLY_SUPPORTED`. 巨漢2025年官方簡報中「**無塵室**」出現5次，支持其無塵室系統工程業務；惟「**台積電**（最大客戶群）」未獲支持（「台積電」「最大客戶」「先進製程」均為0次，「客戶」8次均為通稱）。
+- `8926:objective_ranking_or_market_share:374f48cdf5d509d2` 與 `edc06851f49467ab` — `PARTIALLY_SUPPORTED`. 台汽電2024年官方簡報載「（電）力三家燃氣**民營電力**（業者）」，顯示其民營電力事業；並載「**台電**公司已於11月14日公告第二次117年商轉燃氣機組電力採（購）」「承攬沃旭二期及**台電**離岸風電二期計畫陸上變電站、輸電線（工程）」（「台電」4次、「PPA」1次），顯示與台電之交易往來。惟「成立於**1992年**」「為台灣**最大**民營電力集團之一」與「台電為**最大客戶**」均未獲支持；簡報中台電之敘述並包含「**台電公司向本公司所轉投資民營電廠主張損害賠償**」之爭訟事項。
+- `9933:objective_ranking_or_market_share:ae067a7c3022090f` — `PARTIALLY_SUPPORTED`. 中鼎111年度年報載「**設立日期：民國68年4月6日**」（即1979年）與「（本公司為）國內外聲譽卓著之**綜合性統包工程公司**」，「中技社」29次、「籌設」1次，支持成立年、與中技社之關聯及統包工程業務；惟「為**台灣最大**統包工程公司（以總資產及年營收計）」未獲支持（「最大統包」「國內最大」「第一大」均為0次）。**方法論註記：年報以民國年表述日期，「1979」之西元數字自然不會命中，須以「民國68」比對。**
+- `9945:objective_ranking_or_market_share:0956ae2b616a5788` 與 `596c67d69f51bdc0` — `PARTIALLY_SUPPORTED`. 潤泰新官方文件載其轉投資「**南山人壽**」（12次）與「**持股比例：25%**」「註2：直接及間接持有南山人壽投資金額約200億元」，並見「**日友**（環保）」5次，支持持股與投資布局；惟「為**最大獲利來源**」未見於文件。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **86 筆**。
+- Author-reviewed total: **461 / 1,399**; remaining: **938**. Outcome counts: ACCEPTED 69, PARTIALLY_SUPPORTED 302, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 86. Next pending claim by priority: `6464:objective_ranking_or_market_share:7ee6bae723c03229` (台數科).
+
 
 
 

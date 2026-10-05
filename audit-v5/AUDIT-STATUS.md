@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 08:04 UTC
+Updated: 2026-10-08 09:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **454 / 1,399**
-- Remaining author review: **945**
-- Latest batch: **author-080** (6 claims)
+- Author-reviewed: **461 / 1,399**
+- Remaining author review: **938**
+- Latest batch: **author-081** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **69**
-- `PARTIALLY_SUPPORTED`: **295**
+- `PARTIALLY_SUPPORTED`: **302**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,14 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6776:objective_ranking_or_market_share:59f0a1faacffbf5e` — `PARTIALLY_SUPPORTED`；展碁文件載「2020年9月取得**代理銷售 Adobe 產品**」「**代理 Adobe 全系列產品**」（軟體50次、授權10次）；惟「最大」8次為「**LG 在台最大品牌代理商**」等，未見「台灣最大軟體通路商」。
-- `8070:objective_ranking_or_market_share:13e7c6a3959a27bd` — `PARTIALLY_SUPPORTED`；同長華年報，代理住友培科封膠樹脂成立（住友7次、封膠19次）；惟「67%」3次為**董事出席率**與法人股東持股比例，非國內市占率。
-- `2072:objective_ranking_or_market_share:033b7b8eb52cfe3b` — `PARTIALLY_SUPPORTED`；世紀鋼2025簡報載「**世紀風電**」「**世紀風電-台北港**」「**水下基礎**基樁Section製造」（水下基礎17次、世紀風電4次）；惟「本土」「量能最大」皆0次。
-- `6691:objective_ranking_or_market_share:4a06f569d516bc7a`、`d5272625e216200f` — `UNKNOWN_AFTER_RESEARCH` ×2；洋基工程2026簡報「台積電」「ASML」「最大客戶」皆0次，且「40%」2次之上下文為「**0.40%**」。
-- `6750:objective_ranking_or_market_share:40044574fe259065` — `UNKNOWN_AFTER_RESEARCH`；泰創工程未查得可下載之年報或法說會端點，僅官網服務與案例頁。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-080.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6873:objective_ranking_or_market_share:8e8bea538366ff4d` (泓德能源).
+- `6873:objective_ranking_or_market_share:8e8bea538366ff4d` — `PARTIALLY_SUPPORTED`；泓德2025簡報載「（每）年轉供約 **6,700萬度綠電**給**台灣大哥大**」「成為**台灣大哥大最大綠電供應**」（星星電力10次、綠電47次、轉供24次）；惟「市佔」0次、「自2021年起」未載。
+- `6903:objective_ranking_or_market_share:d9e643e450e273d5` — `PARTIALLY_SUPPORTED`；巨漢2025簡報「無塵室」5次；惟「台積電」「最大客戶」「先進製程」皆0次。
+- `8926:objective_ranking_or_market_share:374f48cdf5d509d2` — `PARTIALLY_SUPPORTED`；台汽電2024簡報載「三家燃氣**民營電力**」；惟「1992」「最大」皆0次。
+- `8926:objective_ranking_or_market_share:edc06851f49467ab` — `PARTIALLY_SUPPORTED`；簡報載台電之採購公告與承攬關係（台電4次、PPA 1次）；惟「最大客戶」未載，且台電之敘述包含「向本公司所轉投資民營電廠主張**損害賠償**」之爭訟事項。
+- `9933:objective_ranking_or_market_share:ae067a7c3022090f` — `PARTIALLY_SUPPORTED`；中鼎111年報載「**設立日期：民國68年4月6日**」（即1979年）與「綜合性**統包工程**公司」（中技社29次、籌設1次）；惟「最大統包」「國內最大」「第一大」皆0次。**註記：年報以民國年表述，故以「1979」檢索無命中。**
+- `9945:objective_ranking_or_market_share:0956ae2b616a5788`、`596c67d69f51bdc0` — `PARTIALLY_SUPPORTED` ×2；潤泰新文件載「**持股比例：25%**」與「直接及間接持有南山人壽投資金額約200億元」（南山人壽12次、日友5次）；惟「最大獲利來源」未見。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-081.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `6464:objective_ranking_or_market_share:7ee6bae723c03229` (台數科).
 
 ## Source access
 
