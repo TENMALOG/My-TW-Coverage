@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:24:13Z",
+  "generated_at": "2026-10-05T22:25:22Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -222,21 +222,22 @@
     "author-216",
     "author-217",
     "author-218",
-    "author-219"
+    "author-219",
+    "author-220"
   ],
-  "source_batch_count": 219,
-  "total_unknown": 302,
+  "source_batch_count": 220,
+  "total_unknown": 306,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 131,
+    "no_official_endpoint_found": 132,
     "other_unclassified": 116,
-    "tls_failure": 13,
+    "tls_failure": 14,
     "mops_non_document": 39,
     "non_document_response": 38,
     "http_404": 63,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
-    "connection_failure": 14,
-    "garbled_text_layer": 15,
+    "connection_failure": 15,
+    "garbled_text_layer": 18,
     "client_rendered_only": 5,
     "download_timeout": 2,
     "source_identity_mismatch": 10
@@ -4655,6 +4656,67 @@
         "https://www.abonmax.com.tw/download/1637825296.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "2383:material_named_relationship:76a1350152921c96",
+      "ticker": "2383",
+      "company": "台光電",
+      "claim": "為 [[NVIDIA]] H100/GB200/GB300 系列 [[AI 伺服器]] OAM 及 UBB 的主要高階 CCL 供應商 (供應比重超過 80%)，亦為 [[AWS]] 自研 AI 晶片 Trainium 2/3 的 M8 等級高階材料獨家供應商。",
+      "batch_id": "author-220",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+        "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "2383:material_named_relationship:db9504c222045fa9",
+      "ticker": "2383",
+      "company": "台光電",
+      "claim": "[[NVIDIA]] (H100/GB200/GB300 OAM/UBB，供應超過 80%)",
+      "batch_id": "author-220",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+        "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "2383:material_named_relationship:fee79a79f19e5cdf",
+      "ticker": "2383",
+      "company": "台光電",
+      "claim": "[[AWS]] (Trainium 2/3 M8 獨家供應)",
+      "batch_id": "author-220",
+      "failure_signature": [
+        "garbled_text_layer"
+      ],
+      "attempted_sources": [
+        "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+        "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf"
+      ],
+      "recommended_retry": "改用其他年度版本或對同一 PDF 進行 OCR 後重查"
+    },
+    {
+      "claim_id": "2409:material_named_relationship:1322b55ea86b1f7c",
+      "ticker": "2409",
+      "company": "友達",
+      "claim": "主要客戶包括 [[Samsung]]、[[海信]]。",
+      "batch_id": "author-220",
+      "failure_signature": [
+        "tls_failure",
+        "connection_failure",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://auo.com.cn/upload/media/ir/Financial_Information/4Q2022_TC.pdf"
+      ],
+      "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
     }
   ]
 }

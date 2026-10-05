@@ -1,0 +1,158 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-220",
+  "reviewed_at": "2026-10-05T22:25:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台光電2023年度年報與114年股東常會議事手冊; 信邦114年度股東會年報); 友達端點TLS失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2383:material_named_relationship:76a1350152921c96",
+      "normalized_claim_hash": "76a1350152921c965ef7c2ef1e8a01b697d38e2c4d15c19397c8b9122b05ca03",
+      "ticker": "2383",
+      "company": "台光電",
+      "path": "Pilot_Reports/Electronic Components/2383_台光電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "為 [[NVIDIA]] H100/GB200/GB300 系列 [[AI 伺服器]] OAM 及 UBB 的主要高階 CCL 供應商 (供應比重超過 80%)，亦為 [[AWS]] 自研 AI 晶片 Trainium 2/3 的 M8 等級高階材料獨家供應商。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，Elite Material / EMC）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域（**emctw.com**）下載並以 PDF 文字檢視（文字擷取223,135字元）。**關鍵發現（字形映射錯誤／亂碼）**：該年報之**文字層全數為亂碼**——**中文字元無法判讀**，**僅拉丁字母部分可辨識**：可讀出「**EMC**」51次、「**Elite**」10次（**確認文件歸屬為台光電 Elite Material**）、電子郵件網域「emctw.com」與網址「www.osc.com.tw」。**因文字層全為亂碼，本批次無法就 claim 所述之中文關鍵字進行有效檢索**；**於可讀之拉丁字母部分，「NVIDIA」「AWS」「H100」「GB200」「GB300」「OAM」「UBB」「Trainium」之出現次數均為0**。"
+        },
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，EMC）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2025年）股東常會。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,796字元）。文件載「**台光**電子材料股份有限公司」（「**台光**」25次、「**CCL**」2次、「EMC」1次），**確認文件歸屬為台光電**。**關鍵發現**：全份文件中「**NVIDIA**」「**AWS**」「**H100**」「**GB200**」與「**Trainium**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為 [[NVIDIA]] H100/GB200/GB300 系列 [[AI 伺服器]] **OAM 及 UBB 的主要高階 CCL 供應商**（供應比重超過 80%）」未獲確立：所取得之台光電2023年度年報**文字層全數為亂碼**（中文字元無法判讀，**僅拉丁字母可辨**），於可讀之拉丁字母部分「**NVIDIA**」「**H100**」「**GB200**」「**GB300**」「**OAM**」「**UBB**」之出現次數**均為0**；另台光電114年股東常會議事手冊（文字可讀）中「**NVIDIA**」「**H100**」「**GB200**」亦**均為0**。因該 claim 之實質內容為具名客戶與供應比重，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2383:material_named_relationship:db9504c222045fa9",
+      "normalized_claim_hash": "db9504c222045fa90e92399a88633d91c3c48d302eb52a1607efc8b7233fd3be",
+      "ticker": "2383",
+      "company": "台光電",
+      "path": "Pilot_Reports/Electronic Components/2383_台光電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[NVIDIA]] (H100/GB200/GB300 OAM/UBB，供應超過 80%)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，Elite Material / EMC）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域（**emctw.com**）下載並以 PDF 文字檢視（文字擷取223,135字元）。**關鍵發現（字形映射錯誤／亂碼）**：該年報之**文字層全數為亂碼**——**中文字元無法判讀**，**僅拉丁字母部分可辨識**：可讀出「**EMC**」51次、「**Elite**」10次（**確認文件歸屬為台光電 Elite Material**）、電子郵件網域「emctw.com」與網址「www.osc.com.tw」。**因文字層全為亂碼，本批次無法就 claim 所述之中文關鍵字進行有效檢索**；**於可讀之拉丁字母部分，「NVIDIA」「AWS」「H100」「GB200」「GB300」「OAM」「UBB」「Trainium」之出現次數均為0**。"
+        },
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，EMC）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2025年）股東常會。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,796字元）。文件載「**台光**電子材料股份有限公司」（「**台光**」25次、「**CCL**」2次、「EMC」1次），**確認文件歸屬為台光電**。**關鍵發現**：全份文件中「**NVIDIA**」「**AWS**」「**H100**」「**GB200**」與「**Trainium**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[NVIDIA]]（H100/GB200/GB300 OAM/UBB，供應超過 80%）」未獲確立：同上，年報文字層亂碼而拉丁部分未見「NVIDIA」等字樣，議事手冊中「NVIDIA」亦為0，**未具名該客戶或載明供應比重**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2383:material_named_relationship:fee79a79f19e5cdf",
+      "normalized_claim_hash": "fee79a79f19e5cdf7f9bc2cc0925ae266bbafdbe9a3c21389e6835c8b55ac591",
+      "ticker": "2383",
+      "company": "台光電",
+      "path": "Pilot_Reports/Electronic Components/2383_台光電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[AWS]] (Trainium 2/3 M8 獨家供應)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，Elite Material / EMC）2023 年度年報",
+          "source_level": 3,
+          "period_binding": "2023年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域（**emctw.com**）下載並以 PDF 文字檢視（文字擷取223,135字元）。**關鍵發現（字形映射錯誤／亂碼）**：該年報之**文字層全數為亂碼**——**中文字元無法判讀**，**僅拉丁字母部分可辨識**：可讀出「**EMC**」51次、「**Elite**」10次（**確認文件歸屬為台光電 Elite Material**）、電子郵件網域「emctw.com」與網址「www.osc.com.tw」。**因文字層全為亂碼，本批次無法就 claim 所述之中文關鍵字進行有效檢索**；**於可讀之拉丁字母部分，「NVIDIA」「AWS」「H100」「GB200」「GB300」「OAM」「UBB」「Trainium」之出現次數均為0**。"
+        },
+        {
+          "url": "https://www.emctw.com/upload/media/New_Investors/Shareholder_Service/Shareholder%20Meetings/CH/Shareholder_Handbook_Agenda/2025_AGM_Handbook_Agenda_CH.pdf",
+          "title": "台光電子材料股份有限公司（台光電，2383，EMC）114 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "114年（2025年）股東常會。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取40,796字元）。文件載「**台光**電子材料股份有限公司」（「**台光**」25次、「**CCL**」2次、「EMC」1次），**確認文件歸屬為台光電**。**關鍵發現**：全份文件中「**NVIDIA**」「**AWS**」「**H100**」「**GB200**」與「**Trainium**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[AWS]]（Trainium 2/3 **M8 獨家供應**）」未獲確立：同上，可讀之拉丁字母部分中「**AWS**」與「**Trainium**」之出現次數**均為0**，**未具名該客戶或載明獨家供應關係**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3023:material_named_relationship:1532be7088e9ba55",
+      "normalized_claim_hash": "1532be7088e9ba55af6394be8ee7e17d3a16f95e243f3009103a1a1e65d8211d",
+      "ticker": "3023",
+      "company": "信邦",
+      "path": "Pilot_Reports/Electronic Components/3023_信邦.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "為全球極少數同時打入 [[Amazon]] 倉儲機器人與 [[ChargePoint]] 充電樁供應鏈之廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.sinbon.com/tw/files/3023_20260527_114%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "信邦電子股份有限公司（信邦，3023，Sinbon Electronics）114 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取101,974字元）。年報中「**信邦**」出現115次、「**倉儲機器人**」2次、「**充電樁**」3次，**支持其倉儲機器人與充電樁相關業務**。**關鍵發現**：全份年報中「**Amazon**」與「**ChargePoint**」之出現次數**均為0**，**未具名該二客戶**。"
+        }
+      ],
+      "rationale": "「為全球極少數同時打入（**倉儲機器人**）與（**充電樁**）供應鏈之廠商」獲發行人年報之**部分支持**：年報中「**信邦**」出現115次、「**倉儲機器人**」2次、「**充電樁**」3次，**支持其確有倉儲機器人與充電樁相關業務**。**惟兩項具名對象未獲支持**：「**Amazon**」與「**ChargePoint**」之出現次數**均為0**（**檔案內未出現英文或中文之對應名稱**）；「為全球**極少數**」之評價性陳述亦未見。故部分成立。",
+      "proposed_text": "信邦電子 (3023，Sinbon Electronics) 之業務涵蓋倉儲機器人與充電樁相關供應鏈。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2409:material_named_relationship:1322b55ea86b1f7c",
+      "normalized_claim_hash": "1322b55ea86b1f7c1f268f237b6419c29696cca0e1b7412acef4cc656bedfa2e",
+      "ticker": "2409",
+      "company": "友達",
+      "path": "Pilot_Reports/Electronic Components/2409_友達.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶包括 [[Samsung]]、[[海信]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://auo.com.cn/upload/media/ir/Financial_Information/4Q2022_TC.pdf",
+          "title": "友達光電股份有限公司（友達，2409，AUO）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次自友達官方端點下載時回應 **TLS 安全通道信任關係無法建立（SSL/TLS 連線失敗）**，未取得可檢視之檔案；本批次未取得友達可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶包括 [[Samsung]]、[[海信]]」未獲確立：本批次自友達官方端點下載時回應 **TLS 安全通道信任關係無法建立（SSL/TLS 連線失敗）**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

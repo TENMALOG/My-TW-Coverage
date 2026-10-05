@@ -18,11 +18,11 @@
       "evidence": [
         {
           "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
-          "title": "協禧電機股份有限公司（協禧，3071，EMC）2023 年度年報",
+          "title": "【歸屬更正】協禧（3071）之官方文件未能取得（原誤標為協禧之檔案，經查證屬台光電 2383 之文件）",
           "source_level": 3,
-          "period_binding": "2023年度。",
+          "period_binding": "查證日 2026-10-14。",
           "accessed_at": "2026-10-14",
-          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取223,135字元）。**關鍵發現（字形映射錯誤／亂碼）**：該年報之**文字層全數為亂碼**——**中文字元無法判讀**（如「΋ǵҁϦљวقΓǺ」「ۉӜǺಷػమ」「ηແҹߞጃǺLU#PDLOHPFWZFRP」），**僅拉丁字母部分可辨識**：可讀出「**EMC**」51次，並可辨識電子郵件網域「**emctw.com**」與網址「**www.osc.com.tw**」。**因文字層全為亂碼，本批次無法就 claim 所述之中文關鍵字（車用、Tier 1、車燈、座椅通風、電池散熱）進行有效檢索**；**於可讀之拉丁字母部分，未見「Tesla」「GM」「Ford」**。"
+          "note": "**歸屬更正**：本筆原於第 204 輪（author-217）引用自 `emctw.com` 下載之2023年報，並**誤標為協禧（3071）之文件**。\n\n經第 207 輪查證：**`emctw.com` 為台光電子材料股份有限公司（台光電，2383，Elite Material Co.）之官方網域**——該網域載有「**台光電子材料股份有限公司**114年股東常會議事手冊」，且該2023年報之文字層中「**EMC**」出現51次、「**Elite**」10次，**均指向台光電（Elite Material）而非協禧**。\n\n**故本筆之證據歸屬錯誤**：**該檔案之內容與協禧無關，不得作為協禧 claim 之依據**。\n\n**本批次就協禧（3071）實際未取得任何可檢視之官方文件**，故維持 **UNKNOWN_AFTER_RESEARCH**；**原檔案（文字層全為亂碼之台光電2023年報）已改置於 `downloads/2383/` 並用於台光電之 claim 審核**（見 author-220）。"
         }
       ],
       "rationale": "「(1) **車用電子** — 獲**歐美 Tier 1 認證**，應用於**車燈／座椅通風／電池散熱**，間接供應[[Tesla]]、[[GM]]、[[Ford]]」未獲確立：所取得之協禧2023年度年報**文字層全數為亂碼**，**中文字元無法判讀**（如「΋ǵҁϦљวقΓǺ」「ۉӜǺಷػమ」），**本批次無法就該等中文關鍵字進行有效檢索**；於**可讀之拉丁字母部分**（可見「EMC」51次），**未見「Tesla」「GM」「Ford」**。因無法判讀文件內容，以 UNKNOWN_AFTER_RESEARCH 結案，**建議對同一 PDF 進行 OCR 後重查**。",
@@ -54,6 +54,21 @@
       "proposed_text": null,
       "independent_review": null,
       "final_state": null
+    }
+  ],
+  "corrections": [
+    {
+      "corrected_at": "2026-10-05T22:25:08Z",
+      "batch_id": "author-217",
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "ticker": "3071",
+      "field": "evidence[0]",
+      "original": {
+        "title": "協禧電機股份有限公司（協禧，3071，EMC）2023 年度年報",
+        "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf"
+      },
+      "reason": "網域 emctw.com 經查證屬台光電子材料（2383，Elite Material），非協禧（3071）；該檔案之歸屬錯誤，已更正 evidence 並改置於 downloads/2383/。",
+      "decision_unchanged": "UNKNOWN_AFTER_RESEARCH"
     }
   ]
 }

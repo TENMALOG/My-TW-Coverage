@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 03:04 UTC
+Updated: 2026-10-14 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,113 / 1,399**
-- Remaining author review: **286**
-- Latest batch: **author-219** (5 claims)
+- Author-reviewed: **1,118 / 1,399**
+- Remaining author review: **281**
+- Latest batch: **author-220** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **708**
+- `PARTIALLY_SUPPORTED`: **709**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **302**
+- `UNKNOWN_AFTER_RESEARCH`: **306**
 
 ## Latest claim batch
 
-- `3008:material_named_relationship:bf7de825bb25477d` — `PARTIALLY_SUPPORTED`；大立光年報**逐字載**「開發新式 **7P** 40M AF mobile phone lens」「開發新式**8P** 108M AF mobile phone lens」；**惟「9P／Apple／iPhone／核心供應商」皆 0 次**。
-- `3019:material_named_relationship:e944b5a68d31bb6d`、`3031:82aebc9836908111`、`3031:223c67df296bbf5e` — `UNKNOWN_AFTER_RESEARCH` ×3；亞光與佰鴻端點 **HTTP 404**。
-- `2429:identity_changing_event:6b2dd808dcb3b691` — `UNKNOWN_AFTER_RESEARCH`；銘旺科文件為**合併財務報告（非年報）**，「**百容／Pal Wonn／Abonmax／更名」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-219.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2383:material_named_relationship:76a1350152921c96` (台光電).
+- ⚠️ **歸屬更正（author-217）**：`3071:material_named_relationship:2d5f28d692feacbe` 原引用之 `emctw.com` 2023年報**經查證屬台光電（2383，Elite Material）之文件**（該網域載「**台光電子材料**」議事手冊，檔案內「**EMC」51 次、「Elite」10 次**），**非協禧（3071）之文件**。該筆判定維持 `UNKNOWN_AFTER_RESEARCH`（協禧實際未取得任何可檢視之官方文件），**證據歸屬已更正並改置於 `downloads/2383/`**。
+- `2383:material_named_relationship:76a1350152921c96`、`db9504c222045fa9`、`fee79a79f19e5cdf` — `UNKNOWN_AFTER_RESEARCH` ×3；台光電年報**文字層全為亂碼**（僅拉丁字母可辨），**「NVIDIA／AWS／H100／GB200／Trainium」皆 0 次**；114年股東常會議事手冊亦同。
+- `3023:material_named_relationship:1532be7088e9ba55` — `PARTIALLY_SUPPORTED`；信邦年報「**倉儲機器人」2 次、「充電樁」3 次**；**惟「Amazon／ChargePoint」皆 0 次**。
+- `2409:material_named_relationship:1322b55ea86b1f7c` — `UNKNOWN_AFTER_RESEARCH`；友達端點 **TLS 安全通道失敗**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-220.json`（5 筆）與更正後之 `semantic/author-217.json`。未修改發行人報告。
+- Next pending claim by priority: `3037:material_named_relationship:fc84aa5e0c3063d9` (欣興).
 
 ## Source access
 
