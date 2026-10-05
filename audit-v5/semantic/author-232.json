@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-232",
+  "reviewed_at": "2026-10-05T22:46:43Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (彩晶年報; 鈞寶法人說明會簡報; 禾昌公司文件; 聰泰2024年永續報告書); 天鉞電未取得官方文件",
+  "items": [
+    {
+      "claim_id": "6116:profitability_assertion:fee901f6415a0400",
+      "normalized_claim_hash": "fee901f6415a0400cb7f78e4afa828a7dc295235134af9ae239a3f17b6014e78",
+      "ticker": "6116",
+      "company": "彩晶",
+      "path": "Pilot_Reports/Electronic Components/6116_彩晶.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 車載面板 — 積極轉型車載顯示器面板，提升高毛利產品占比；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://stock.walsin.com/downloads/572/%E5%B9%B4%E5%A0%B1",
+          "title": "瀚宇彩晶股份有限公司（彩晶，6116，HannStar Display）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人股務代理端點下載並以 PDF 文字檢視（文字擷取281,502字元）。年報中「**車載**」出現42次、「**面板**」185次，**支持其車載顯示器面板業務**；「**Toshiba**」1次、「**高毛利**」1次（上下文為「（…以上）一直是**高毛利**的產品」之泛用敘述）。**關鍵發現（子字串假陽性）**：**「HP」1次之上下文為地址「Hempstead HP2 4TZ」，並非客戶惠普**；「**宏碁**」與「**Dell**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「(3) **車載面板** — 積極轉型**車載顯示器面板**」獲發行人年報**充分支持**：年報中「**車載**」出現42次、「**面板**」185次，**支持其車載顯示器面板業務**。**惟「提升高毛利產品占比」未獲支持**——「**高毛利**」僅出現1次，且其上下文為「（…以上）一直是**高毛利**的產品」之**泛用敘述**，**並非車載面板之毛利率敘述**。故部分成立。",
+      "proposed_text": "瀚宇彩晶 (6116，HannStar Display) 積極轉型車載顯示器面板業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6116:material_named_relationship:aba5c3b20e5397e2",
+      "normalized_claim_hash": "aba5c3b20e5397e2e67e85305a6a2a1dbc575d6e781d0f6bac6faeb6f2f47592",
+      "ticker": "6116",
+      "company": "彩晶",
+      "path": "Pilot_Reports/Electronic Components/6116_彩晶.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋 [[HP]]、[[宏碁]]、[[Dell]]、[[Toshiba]]、[[Sony]] 等全球 PC 品牌。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://stock.walsin.com/downloads/572/%E5%B9%B4%E5%A0%B1",
+          "title": "瀚宇彩晶股份有限公司（彩晶，6116，HannStar Display）年報",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人股務代理端點下載並以 PDF 文字檢視（文字擷取281,502字元）。年報中「**車載**」出現42次、「**面板**」185次，**支持其車載顯示器面板業務**；「**Toshiba**」1次、「**高毛利**」1次（上下文為「（…以上）一直是**高毛利**的產品」之泛用敘述）。**關鍵發現（子字串假陽性）**：**「HP」1次之上下文為地址「Hempstead HP2 4TZ」，並非客戶惠普**；「**宏碁**」與「**Dell**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 [[HP]]、[[宏碁]]、[[Dell]]、[[Toshiba]]、[[S（amsung）]]」未獲確立：年報中「**宏碁**」與「**Dell**」之出現次數**均為0**；**「HP」1次之上下文為地址「Hempstead HP2 4TZ」，屬子字串假陽性，並非客戶惠普**；「Toshiba」1次未能確認其為客戶關係敘述。**即該 claim 所列之客戶清單於年報中並無對應之具名記載**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6155:material_named_relationship:7c03d4361ff42950",
+      "normalized_claim_hash": "7c03d4361ff42950d6ad37dd4c43377afc1d6c9cbacb032adc55c73ce31c4b99",
+      "ticker": "6155",
+      "company": "鈞寶",
+      "path": "Pilot_Reports/Electronic Components/6155_鈞寶.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) [[LTCC]] 晶片電感 — 低溫共燒陶瓷技術，已成功打入 [[5G]] 供應鏈，供應日、歐、美及中國客戶；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/615520251118M001.pdf",
+          "title": "鈞寶電子工業股份有限公司（鈞寶，6155，King Core Electronics）法人說明會簡報（2025-11-18）",
+          "source_level": 3,
+          "period_binding": "2025年11月18日。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,070字元，以圖形排版為主）。簡報封面載「**鈞寶電子工業股份有限公司** KING CORE ELECTRONICS INC.」「您最佳**電磁波干擾**對策夥伴」「2025/11/18」（「**鈞寶**」11次、「**電感**」6次、「**5G**」4次）。**關鍵發現**：全份簡報中「**LTCC**」「**陶瓷**」與「**低溫**（共燒）」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「(3) **晶片電感** …已成功打入 [[5G]] 供應鏈」獲發行人簡報之**部分支持**：簡報中「**電感**」出現6次、「**5G**」4次，並載其定位為「您最佳**電磁波干擾**對策夥伴」，**支持其電感與 5G 相關產品**。**惟兩項技術名稱未獲支持**：(1)「**LTCC**（低溫共燒陶瓷）」——「**LTCC**」之出現次數**為0**；(2)「**低溫共燒**」與「**陶瓷**」亦均為**0**。故部分成立。",
+      "proposed_text": "鈞寶電子 (6155，King Core Electronics) 之電感產品應用於 5G 等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6158:material_named_relationship:abe99517d07e32de",
+      "normalized_claim_hash": "abe99517d07e32de343ee9af41c6d687824791f6195a3603b7e47d0f87432a5e",
+      "ticker": "6158",
+      "company": "禾昌",
+      "path": "Pilot_Reports/Electronic Components/6158_禾昌.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要業務：(1) 面板用[[連接器]] — 供應液晶面板組裝用各式連接器與線組，主要客戶包括[[友達]]、[[群創]]等面板廠；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.p-two.com/upload/global/1788248158.pdf",
+          "title": "禾昌興業股份有限公司（禾昌，6158，P-Two Industries）公司文件",
+          "source_level": 3,
+          "period_binding": "所載期間請見文件。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取97,795字元）。文件載「軟板暨軟排線**連接器**、**液晶面板**及顯示器**連接器**、軟排線及其他**連接器**，產品下游應用產業（…）」（「**連接器**」36次、「**液晶面板**」4次、「客戶」103次），**支持其液晶面板用連接器業務**。"
+        }
+      ],
+      "rationale": "「(1) **面板用連接器** — 供應**液晶面板**組裝用各式**連接器**與線組」獲發行人文件**逐字支持**：文件載「軟板暨軟排線**連接器**、**液晶面板**及顯示器**連接器**、軟排線及其他**連接器**，產品下游應用產業（…）」（「連接器」36次、「液晶面板」4次），**支持其液晶面板用連接器業務**。**惟「主要客戶包（含…）」之具名客戶未獲支持**——所載客戶名稱未見於文件之主體敘述（「客戶」103次多為泛稱）。故部分成立。",
+      "proposed_text": "禾昌興業 (6158，P-Two Industries) 供應液晶面板及顯示器組裝用之各式連接器與軟排線。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5474:material_named_relationship:8a46d7cd77b269e6",
+      "normalized_claim_hash": "8a46d7cd77b269e69f5747841d7b5b466b1383c3f044033fa22156093b9980da",
+      "ticker": "5474",
+      "company": "聰泰",
+      "path": "Pilot_Reports/Electronic Components/5474_聰泰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "(3) 機器人視覺 — 已正式打入歐美人形機器人供應鏈，提供影像擷取、[[AI]] 辨識與視覺串流等關鍵模組。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.yuan.com.tw/files/2024%E5%B9%B4%E8%81%B0%E6%B3%B0%E7%A7%91%E6%8A%80%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8_YUAN%20Confidential.pdf",
+          "title": "聰泰科技開發股份有限公司（聰泰，5474，Yuan High-Tech）2024 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2024年。",
+          "accessed_at": "2026-10-14",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取61,455字元）。報告書中「**影像擷取**」出現11次、「**AI**」28次，**支持其影像擷取與 AI 相關產品能力**。**關鍵發現**：全份報告書中「**歐美**」與「**人形**」之出現次數**均為0**；**「機器人」1次之上下文為「社團法人台灣智慧自動化與機器人協會」（產業協會會員），並非客戶或供應鏈敘述**。"
+        }
+      ],
+      "rationale": "「(3) **機器人視覺** — 提供**影像擷取**、[[AI]] 辨識」獲發行人永續報告書之**部分支持**：報告書中「**影像擷取**」出現11次、「**AI**」28次，**支持其影像擷取與 AI 辨識之產品能力**。**惟「已正式打入歐美****人形機器人**供應鏈」未獲支持**：(1)「**歐美**」與「**人形**」之出現次數**均為0**；(2)「**機器人**」1次之上下文為「社團法人台灣智慧自動化與**機器人**協會」——**產業協會會員，而非客戶或供應鏈敘述**。故部分成立。",
+      "proposed_text": "聰泰科技 (5474，Yuan High-Tech) 具備影像擷取與 AI 辨識之產品能力。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5251:material_named_relationship:7a2e178397650de7",
+      "normalized_claim_hash": "7a2e178397650de7fd460d11d5275939637e59716d5c7468f94115cc54991efd",
+      "ticker": "5251",
+      "company": "天鉞電",
+      "path": "Pilot_Reports/Electronic Components/5251_天鉞電.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Optex]] 感測器打入國內安防供應鏈",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.istock.tw/keyword/5251/%E5%A4%A9%E9%89%9E%E9%9B%BB%E5%AD%90%E8%B2%A1%E5%A0%B1",
+          "title": "天鉞電子股份有限公司（天鉞電，5251）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-14。",
+          "accessed_at": "2026-10-14",
+          "note": "本批次就天鉞電（5251）所嘗試之搜尋僅導向**第三方財經資訊站**（非發行人官方或公開資訊觀測站端點），依本審核之來源分級**不予採用**；**本批次未取得天鉞電可檢視之官方文件**。"
+        }
+      ],
+      "rationale": "「[[Optex]] 感測器打入國內安防供應鏈」未獲確立：本批次就天鉞電（5251）所嘗試之搜尋**僅導向第三方財經資訊站**（非發行人官方或公開資訊觀測站端點），依本審核之來源分級**不予採用**；**本批次未取得可檢視之官方文件**，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 15:04 UTC
+Updated: 2026-10-14 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,174 / 1,399**
-- Remaining author review: **225**
-- Latest batch: **author-231** (4 claims)
+- Author-reviewed: **1,180 / 1,399**
+- Remaining author review: **219**
+- Latest batch: **author-232** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **101**
-- `PARTIALLY_SUPPORTED`: **735**
+- `PARTIALLY_SUPPORTED`: **739**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **333**
+- `UNKNOWN_AFTER_RESEARCH`: **335**
 
 ## Latest claim batch
 
-- 🟢 `3624:material_named_relationship:ac1a104f423eebd9` — **`ACCEPTED`**；光頡ESG**逐字載**「（符）合 **IATF16949、AEC-Q200**、ISO13485」與「更由**歐美車廠供應鏈 Tier 1** 親自到廠做 **VDA 6.3** 過程稽核，且獲得客戶評級 **A** 的肯定」——**逐項對應**。
-- `3717:material_named_relationship:e3d253a6e990043a` — `PARTIALLY_SUPPORTED`；聯嘉年報載「2022 年 microprism 應用在 **Magna MY24 DT 尾燈**」（Tier 1 6次）；**惟「Hella」0 次**。
-- `3717:material_named_relationship:91a5266bf0300df3` — `PARTIALLY_SUPPORTED`；年報載「客戶包含 Ford、FCA、**Tesla**、BMW、TOYOTA、GM」與「美國電動車大廠 **Tesla** 的**供應鏈**」（Tesla 8次、尾燈12次、Model 3 2次）；**惟「Model Y」與「主要供應商」未獲支持**。
-- `3426:control_acquisition:a589bf991e484ce3` — `UNKNOWN_AFTER_RESEARCH`；台興簡報為**電磁閥事業介紹**，「**松川／晶技／收購／溢價」皆 0 次**；**且「48」係來自「2.48」之子字串（子字串假陽性）**。
-- 證據記錄於 `semantic/author-231.json`（4 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,174 ＝ 條目總數 1,174。
-- Next pending claim by priority: `5251:material_named_relationship:7a2e178397650de7` (天鉞電).
+- `6116:profitability_assertion:fee901f6415a0400` — `PARTIALLY_SUPPORTED`；彩晶年報「**車載」42 次、「面板」185 次**；**惟「高毛利」1 次且係泛用敘述**。
+- `6116:material_named_relationship:aba5c3b20e5397e2` — `UNKNOWN_AFTER_RESEARCH`；**「HP」1 次係地址「Hempstead HP2 4TZ」之子字串**，「**宏碁／Dell」皆 0 次**。
+- `6155:material_named_relationship:7c03d4361ff42950` — `PARTIALLY_SUPPORTED`；鈞寶簡報「**電感」6 次、「5G」4 次**；**惟「LTCC／低溫共燒／陶瓷」皆 0 次**。
+- `6158:material_named_relationship:abe99517d07e32de` — `PARTIALLY_SUPPORTED`；禾昌文件**逐字載**「軟板暨軟排線**連接器**、**液晶面板**及顯示器**連接器**」（連接器36次、液晶面板4次）；**惟具名客戶未獲支持**。
+- `5474:material_named_relationship:8a46d7cd77b269e6` — `PARTIALLY_SUPPORTED`；聰泰ESG「**影像擷取」11 次、「AI」28 次**；**惟「歐美／人形」皆 0 次，且「機器人」1 次係產業協會名稱**。
+- `5251:material_named_relationship:7a2e178397650de7` — `UNKNOWN_AFTER_RESEARCH`；天鉞電**未取得官方文件**（搜尋僅導向第三方資訊站，不予採用）。
+- 證據記錄於 `semantic/author-232.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,180 ＝ 條目總數 1,180。
+- Next pending claim by priority: `5315:profitability_assertion:a8d38d9aef0affb8` (光聯).
 
 ## Source access
 
