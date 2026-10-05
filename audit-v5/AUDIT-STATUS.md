@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-14 09:04 UTC
+Updated: 2026-10-14 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,26 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,146 / 1,399**
-- Remaining author review: **253**
-- Latest batch: **author-225** (5 claims)
+- Author-reviewed: **1,149 / 1,399**
+- Remaining author review: **250**
+- Latest batch: **author-226** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **100**
-- `PARTIALLY_SUPPORTED`: **718**
+- `PARTIALLY_SUPPORTED`: **720**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **323**
+- `UNKNOWN_AFTER_RESEARCH`: **324**
 
 ## Latest claim batch
 
-- `3533:material_named_relationship:f33c91e70b958cfa` — `PARTIALLY_SUPPORTED`；嘉澤年報**逐字載**「已逐漸成功打入國際大廠如 **NVIDIA、Amazon、Tesla** 的供應鏈」；**惟「UQD／水冷／快接頭／GPU Socket／AI 伺服器」皆 0 次**。
-- `3533:material_named_relationship:72309c71046bba95` — `PARTIALLY_SUPPORTED`；年報載「獲得 **INTEL PQS award**」「**全球第二家**獲得 **Intel Thunderbolt**」「**CPU Socket-AM5** 通過 **AMD** 認證」（Intel 10次、AMD 1次）；**惟「指定供應商」0 次**。
-- `3526:profitability_assertion:bea1b55c7add10ff` — `PARTIALLY_SUPPORTED`；凡甲ESG「**伺服器」12 次、「車用」2 次**；**惟「聚焦兩大」與文件所載之多領域應用不符**。
-- `3526:material_named_relationship:8509346172039fce` — `UNKNOWN_AFTER_RESEARCH`；「**CATL／寧德時代／BYD／比亞迪／BMS」皆 0 次**。
-- `3492:material_named_relationship:47e66953a4ce1abb` — `UNKNOWN_AFTER_RESEARCH`；長盛官方端點**下載逾時**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-225.json`（5 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,146 ＝ 條目總數 1,146。
+- `3548:profitability_assertion:f97aa20da9b71516` — `PARTIALLY_SUPPORTED`；兆利年報**逐字載**「**摺疊手機**的**樞紐**設計開發完成並申請專利」（樞紐109次、摺疊手機2次、鉸鏈1次）；**惟「前三大」0 次**（未載市場排名）。
+- `3585:material_named_relationship:2d0031cdad644303` — `PARTIALLY_SUPPORTED`；聯致年報載「**玻璃基板**材料等產品為營運的主軸」（玻璃基板12次）並見「**欣興」27 次、「母公司」5 次**；**惟「銅層附著」與「全球頂（尖）」皆 0 次**。
+- `3591:material_named_relationship:6e1ffde648a67afa` — `UNKNOWN_AFTER_RESEARCH`；艾笛森端點 **HTTP 404**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-226.json`（3 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,149 ＝ 條目總數 1,149。
 - Next pending claim by priority: `3426:control_acquisition:a589bf991e484ce3` (台興).
 
 ## Source access

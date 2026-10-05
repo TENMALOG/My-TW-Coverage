@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:36:25Z",
+  "generated_at": "2026-10-05T22:37:24Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -228,17 +228,18 @@
     "author-222",
     "author-223",
     "author-224",
-    "author-225"
+    "author-225",
+    "author-226"
   ],
-  "source_batch_count": 225,
-  "total_unknown": 323,
+  "source_batch_count": 226,
+  "total_unknown": 324,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 139,
+    "no_official_endpoint_found": 140,
     "other_unclassified": 118,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 46,
-    "http_404": 68,
+    "http_404": 69,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -4974,6 +4975,21 @@
         "https://www.actt.co/data/Legal-file-01774315373.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "3591:material_named_relationship:6e1ffde648a67afa",
+      "ticker": "3591",
+      "company": "艾笛森",
+      "claim": "業務重心與成長動能：(1) 車用 LED 模組 — 發展車用 LED 模組 (尾燈、日行燈、霧燈)，直接供應歐美 Tier 1 車燈大廠如 [[Valeo]]、[[Magneti Marelli]]，車用成品線營收比重持續提升，帶動毛利率改善；",
+      "batch_id": "author-226",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/359120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }
