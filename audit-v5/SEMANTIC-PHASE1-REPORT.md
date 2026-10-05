@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **305 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), and `author-055` (4).
+Author-reviewed: **312 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), and `author-056` (7).
 
-- ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 200
+- ACCEPTED by author: 54
+- PARTIALLY_SUPPORTED: 203
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 48
-- Remaining author queue: 1,094
+- Other allowed author decisions: 51
+- Remaining author queue: 1,087
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -658,6 +658,21 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **305 / 1,399**; remaining: **1,094**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 200, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 48. Next pending claim by priority: `5227:objective_ranking_or_market_share:46ed0624b8da23c3` (立凱-KY).
+
+## Author batch `author-056` — 2026-10-07
+
+- Reviewed the next seven unreviewed objective ranking/market-share claims in checkpoint order (立凱-KY 5227, 新普 6121, 良維 6290, 旭隼 6409, 興能高 6558, 華景電 6788 ×2). Evidence came from directly downloaded and inspected official disclosures: 立凱電能法人說明會簡報、新普2023年永續報告書、良維2020年法人說明會簡報、旭隼2025年法人說明會簡報、興能高2024年永續報告書、華景電通2025年法人說明會簡報。
+- `5227:objective_ranking_or_market_share:46ed0624b8da23c3` — `PARTIALLY_SUPPORTED`. 立凱電能官方簡報載「Aleees產品均為客製化產品，將在**美國**、歐洲、澳洲和印度**授權生產**」，並載其為「全球歷史最悠久的LFP材料公司」與「中國以外少數擁有完整LFP鋰電池正極材料製造技術與專利的公司之一」。惟「ICL」「4億」「補貼」「首座」「基建」出現次數均為0，故被授權商身分、4億美元投資、「美國首座」與基建法案補貼均未獲確立。
+- `6121:objective_ranking_or_market_share:6289cc549c3bc5c6` — `ACCEPTED`. 新普2023年官方永續報告書載「在全球筆電(NB)電池組的**市佔持續維持全球第一**。每年提供**超過兩億個**電池組，市場上**每三個筆記型電腦中，就有一個為新普科技製造**」，與 claim 之「全球最大」「市佔率極高」「約每三台筆電就有一台」完全對應。
+- `6290:objective_ranking_or_market_share:19c3d40cace1a46e` — `UNKNOWN_AFTER_RESEARCH`. 良維2020年官方簡報載其為「全球電源線及連接線的領導廠商」，支持業務性質；惟「Amazon」「Microsoft」「Lenovo」「ChargePoint」「最大客戶」出現次數均為0（「Apple」2次均為市場趨勢段落之「Apple TV+」服務名稱）。該 claim 之實質內容全為具名客戶身分，官方文件未具名任何客戶，故結為 UNKNOWN。
+- `6409:objective_ranking_or_market_share:5d7e6075ec84567f` — `PARTIALLY_SUPPORTED`. 旭隼2025年官方簡報載「**100% ODM in UPS**」與「Well-positioned to be the key supplier for all segments of the UPS market globally」（「UPS」33次）。惟「全球最大」「largest」「台積電」出現次數均為0，故「全球最大純代工廠」與「不斷電界的台積電」之稱號未獲支持。
+- `6558:objective_ranking_or_market_share:7f263d7df2605e0b` — `PARTIALLY_SUPPORTED`. 興能高2024年官方永續報告書載其產品「廣泛應用於**藍牙耳機**、無線健康穿戴裝置及其他各類可攜帶式電子產品，客戶遍佈於歐洲、北美洲及亞洲等地」；惟「市佔」「12%」出現次數均為0。
+- `6788:objective_ranking_or_market_share:4cdbfeafed0be581` 與 `e15a4230aec4e97e` — `UNKNOWN_AFTER_RESEARCH`. 華景電通2025年官方簡報第4頁載其成立於民國89年、主要產品為「晶圓製程AMC防治設備」與「RFID整合派工系統」、子公司華景美國位於亞利桑那州鳳凰城，第9頁列產品應用製程節點（90nm至2nm）；第8頁雖有「優質客戶群」標題，其下文字層僅有英文通稱敘述。全份簡報中「台積電」「TSMC」「聯電」「旺宏」「Micron」「中芯」「最大」出現次數均為0。因兩筆 claim 之實質內容均為具名客戶身分，故結為 UNKNOWN。
+- 一致性規則（自本批次起明確採用）：claim 實質內容**全為具名客戶身分**且官方文件未具名任何客戶 → `UNKNOWN_AFTER_RESEARCH`；claim **混合可查證之業務描述與不可查證之客戶／排名** → `PARTIALLY_SUPPORTED`。本批次之 6290 與 6788 兩筆適用前者，5227／6409／6558 適用後者。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **312 / 1,399**; remaining: **1,087**. Outcome counts: ACCEPTED 54, PARTIALLY_SUPPORTED 203, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 51. Next pending claim by priority: `6940:objective_ranking_or_market_share:a339a04db47953d6` (格斯科技).
+
 
 
 
