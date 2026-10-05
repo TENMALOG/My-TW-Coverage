@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 14:04 UTC
+Updated: 2026-10-13 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,068 / 1,399**
-- Remaining author review: **331**
-- Latest batch: **author-206** (3 claims)
+- Author-reviewed: **1,073 / 1,399**
+- Remaining author review: **326**
+- Latest batch: **author-207** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **690**
+- `PARTIALLY_SUPPORTED`: **693**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **278**
+- `UNKNOWN_AFTER_RESEARCH`: **280**
 
 ## Latest claim batch
 
-- `3213:profitability_assertion:2918ce861b2d0256` — `PARTIALLY_SUPPORTED`；茂訊**英文版**簡報載「**rugged computers**」「**extreme/harshest environments**」「**defence**」（**MIL」31 次、「military」11 次、「defense」2 次**）；惟「溫度／震動／歐洲／北美」未見（**中文關鍵字皆0，中文檢索不具意義**）。
-- `3324:profitability_assertion:b0fb085043544429` — `UNKNOWN_AFTER_RESEARCH`；雙鴻端點 **HTTP 404**。
-- `3535:material_named_relationship:5e9de20c95bfbdc1` — `PARTIALLY_SUPPORTED`；晶彩科簡報「**AOI」28 次、「AI」13 次**並載「**AI AOI** 解決方案」；**惟「紅外線／獨占／台積電／CoWoS」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-206.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `3406:material_named_relationship:e347699638cebefb` (玉晶光).
+- `3406:material_named_relationship:e347699638cebefb` — `PARTIALLY_SUPPORTED`；玉晶光文件「**光學鏡頭」20 次、「大立光電」1 次**；**惟「Apple／蘋果」皆 0 次**。
+- `3434:profitability_assertion:e7ad29954f24f279` — `UNKNOWN_AFTER_RESEARCH`；哲固端點 **HTTP 404**。
+- `3611:identity_changing_event:aa5964a64033c216` — `PARTIALLY_SUPPORTED`；鼎翰簡報「**TSC」18 次、「Printronix」15 次**（**合併名「TSC Printronix Auto ID」**）；惟「**台半／分割／OEM」皆 0 次**。
+- `3611:profitability_assertion:61054d4a5be6c603` — `PARTIALLY_SUPPORTED`；財務表現敘述可見；惟「**高毛利」0 次**、「優異標杆企業」未見。
+- `3611:identity_changing_event:9235ca41b694fe7a` — `UNKNOWN_AFTER_RESEARCH`；「**台半／分割」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-207.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `3652:identity_changing_event:59acbb960f3cd20b` (精聯).
 
 ## Source access
 

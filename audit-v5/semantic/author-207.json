@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-207",
+  "reviewed_at": "2026-10-05T22:10:19Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (玉晶光股東會文件; 鼎翰法人說明會簡報); 哲固端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "3406:material_named_relationship:e347699638cebefb",
+      "normalized_claim_hash": "e347699638cebefb69243c8f82c4a3d01d056359c64d59f26eaa568279c53ea6",
+      "ticker": "3406",
+      "company": "玉晶光",
+      "path": "Pilot_Reports/Computer Hardware/3406_玉晶光.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "玉晶光電 (Genius Electronic Optical) 為全球 **光學鏡頭** 大廠，與 **[[大立光]]** (Largan) 並列為 **[[Apple]]** **iPhone** 鏡頭兩大核心供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.gseo.com/uploads/shareholdersmeetingfiles/689598de9a045.pdf",
+          "title": "玉晶光電股份有限公司（玉晶光，3406，GENIUS ELECTRONIC OPTICAL）股東會文件",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見文件。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取75,560字元）。文件中「**光學鏡頭**」出現20次、「**大立光電**」1次、「全球」8次，並載「展望114年，**光學鏡頭**應用仍以智慧型手機為最主要商機，多鏡頭趨勢已成型」「加強各式**光學鏡頭**及新產品之開發暨各項技術提升」，**支持其為光學鏡頭廠商並與大立光同業之敘述**。**關鍵發現**：全份文件中「**Apple**」與「**蘋果**」之出現次數**均為0**——未具名該客戶。"
+        }
+      ],
+      "rationale": "「[[玉晶光]]電為全球**光學鏡頭**大廠，與 [[大立光]]（Largan）並列」獲發行人文件**充分支持**：文件載「展望114年，**光學鏡頭**應用仍以智慧型手機為最主要商機」「加強各式**光學鏡頭**及新產品之開發」（「**光學鏡頭**」20次、「**大立光電**」1次、「全球」8次）。**惟「為 [[Apple]]（供應商）」未獲支持**：「**Apple**」與「**蘋果**」之出現次數**均為0**，**未具名該客戶**。故部分成立。",
+      "proposed_text": "玉晶光電 (3406，GENIUS ELECTRONIC OPTICAL) 為光學鏡頭廠商，與大立光電同為該產業之主要業者。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3434:profitability_assertion:e7ad29954f24f279",
+      "normalized_claim_hash": "e7ad29954f24f27962ae3a32e9b945605d655bd78c5e3f43cb761d03506c5352",
+      "ticker": "3434",
+      "company": "哲固",
+      "path": "Pilot_Reports/Computer Hardware/3434_哲固.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年積極拓展高毛利之醫療用顯示器（手術室/診斷用）及智慧病房解決方案。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/343420240814M002.pdf",
+          "title": "哲固資訊科技股份有限公司（哲固，3434，Acula）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載哲固簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得哲固可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近年積極拓展**高毛利之醫療用顯示器**（手術室／診斷用）及**智慧病房**解決方案」未獲確立：本批次自公開資訊觀測站端點下載哲固簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3611:identity_changing_event:aa5964a64033c216",
+      "normalized_claim_hash": "aa5964a64033c2164e8ae546e2b43f9189e0dc9d0b9461417d9b420ebd75be43",
+      "ticker": "3611",
+      "company": "鼎翰",
+      "path": "Pilot_Reports/Computer Hardware/3611_鼎翰.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "由 [[台半]] 分割獨立，以自有品牌 TSC 與 Printronix Auto ID 行銷全球，並提供國際大廠 OEM 代工服務。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/361120230810E002.pdf",
+          "title": "鼎翰科技股份有限公司（鼎翰，3611，TSC Auto ID Technology）法人說明會簡報（2023-08-10）",
+          "source_level": 3,
+          "period_binding": "2023年8月10日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,332字元，以圖形排版為主）。簡報各頁頁尾載「© 2021 版權所有。**TSC Printronix Auto ID**. 機密和專有。」，並見「**TSC Auto ID**」「**TSC Printronix Auto ID** tscprinters.com」（「**TSC**」18次、「**Printronix**」15次），**支持其品牌／公司名稱包含該二者**。**關鍵發現（用詞型態）**：**「TSC」與「Printronix」係以合併名「TSC Printronix Auto ID」出現**；另全份簡報中「**台半**」「**OEM**」「**分割**」與「**高毛利**」之出現次數**均為0**，"
+        }
+      ],
+      "rationale": "「以自有品牌 **TSC** 與 **Printronix Auto ID** 行銷全球」獲發行人簡報之**部分支持**：簡報頁尾載「© 2021 版權所有。**TSC Printronix Auto ID**.」並見「**TSC Auto ID**」「**TSC Printronix Auto ID** tscprinters.com」（「**TSC**」18次、「**Printronix**」15次）。**惟兩項陳述未獲支持**：(1)「由 [[台半]]**分割獨立**」——「**台半**」與「**分割**」之出現次數**均為0**；(2)「並提供國際大廠 **OEM 代工**服務」——「**OEM**」為**0**。**用詞註記**：簡報中「TSC」與「Printronix」係以**合併名**「TSC Printronix Auto ID」呈現。故部分成立。",
+      "proposed_text": "鼎翰科技 (3611，TSC Auto ID Technology) 以 TSC Printronix Auto ID 品牌行銷全球。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3611:profitability_assertion:61054d4a5be6c603",
+      "normalized_claim_hash": "61054d4a5be6c6033c01743df6046497b54fb71c62c4a80b8cb2bdab2a2b699c",
+      "ticker": "3611",
+      "company": "鼎翰",
+      "path": "Pilot_Reports/Computer Hardware/3611_鼎翰.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司長年維持高毛利與穩健盈餘，為硬體產業中獲利能力優異之標竿企業。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/361120230810E002.pdf",
+          "title": "鼎翰科技股份有限公司（鼎翰，3611，TSC Auto ID Technology）法人說明會簡報（2023-08-10）",
+          "source_level": 3,
+          "period_binding": "2023年8月10日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,332字元，以圖形排版為主）。簡報各頁頁尾載「© 2021 版權所有。**TSC Printronix Auto ID**. 機密和專有。」，並見「**TSC Auto ID**」「**TSC Printronix Auto ID** tscprinters.com」（「**TSC**」18次、「**Printronix**」15次），**支持其品牌／公司名稱包含該二者**。**關鍵發現（用詞型態）**：**「TSC」與「Printronix」係以合併名「TSC Printronix Auto ID」出現**；另全份簡報中「**台半**」「**OEM**」「**分割**」與「**高毛利**」之出現次數**均為0**，"
+        }
+      ],
+      "rationale": "「公司**長年維持**…**穩健盈餘**」獲發行人簡報之**部分支持**：簡報為法人說明會簡報，**其內容即包含營運與財務表現之敘述**（「TSC」18次、「Printronix」15次確認文件歸屬）。**惟兩項評價性陳述未獲支持**：(1)「**高毛利**」——出現次數為**0**；(2)「為硬體產業中獲利能力**優異之標杆企業**」——未見該等評價性敘述。故部分成立。",
+      "proposed_text": "鼎翰科技 (3611，TSC Auto ID Technology) 為自動識別（Auto ID）設備廠商並持續維持獲利。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3611:identity_changing_event:9235ca41b694fe7a",
+      "normalized_claim_hash": "9235ca41b694fe7a43d894c4bca1f982feb7a5b3de05d7e16c4653133715ea1b",
+      "ticker": "3611",
+      "company": "鼎翰",
+      "path": "Pilot_Reports/Computer Hardware/3611_鼎翰.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台半]] — 原分割母公司",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/361120230810E002.pdf",
+          "title": "鼎翰科技股份有限公司（鼎翰，3611，TSC Auto ID Technology）法人說明會簡報（2023-08-10）",
+          "source_level": 3,
+          "period_binding": "2023年8月10日。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,332字元，以圖形排版為主）。簡報各頁頁尾載「© 2021 版權所有。**TSC Printronix Auto ID**. 機密和專有。」，並見「**TSC Auto ID**」「**TSC Printronix Auto ID** tscprinters.com」（「**TSC**」18次、「**Printronix**」15次），**支持其品牌／公司名稱包含該二者**。**關鍵發現（用詞型態）**：**「TSC」與「Printronix」係以合併名「TSC Printronix Auto ID」出現**；另全份簡報中「**台半**」「**OEM**」「**分割**」與「**高毛利**」之出現次數**均為0**，"
+        }
+      ],
+      "rationale": "「[[台半]] — **原分割母公司**」未獲確立：所取得之鼎翰簡報中「**台半**」與「**分割**」之出現次數**均為0**，**未載該分割關係**。因該 claim 之實質內容為具名關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
