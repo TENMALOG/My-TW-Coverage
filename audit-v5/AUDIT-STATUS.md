@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 18:04 UTC
+Updated: 2026-10-08 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **527 / 1,399**
-- Remaining author review: **872**
-- Latest batch: **author-090** (7 claims)
+- Author-reviewed: **535 / 1,399**
+- Remaining author review: **864**
+- Latest batch: **author-091** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **73**
-- `PARTIALLY_SUPPORTED`: **347**
+- `ACCEPTED`: **74**
+- `PARTIALLY_SUPPORTED`: **351**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **103**
+- `UNKNOWN_AFTER_RESEARCH`: **106**
 
 ## Latest claim batch
 
-- `7765:objective_ranking_or_market_share:ca7dd7afc3bd6233`、`5ea2c57aff387b29` — `PARTIALLY_SUPPORTED` ×2；中華資安年報載「**本公司之母公司為中華電信股份有限公司**」（中華電信3次）；惟「ISP」「寬頻」「5G」「骨幹」「通路」皆0次。
-- `2882:objective_ranking_or_market_share:bdb9b99f8967d1f7` — `PARTIALLY_SUPPORTED`；國泰金文件載「**臺灣最大金融控股公司之一**，總資產 NT$12.8兆元」；惟官方含「**之一**」、「資產規模最大」0次、「霖園集團核心」未載。
-- `2882:objective_ranking_or_market_share:a2ee540a3626fa41` — `PARTIALLY_SUPPORTED`；文件載「**國泰人壽成立於1962年，為臺灣最大人壽保險公司**」；惟「最大機構投資者之一」未載。
-- `2882:objective_ranking_or_market_share:cadef22332fa1adf` — `PARTIALLY_SUPPORTED`；文件載「國泰世華銀行 **CUBE卡**…**流通卡數近600萬張**…成為**國內最大宗的銀行卡**」；惟「房貸」0次、「財富管理」13次未載市占率、「發卡」0次。
-- `2882:objective_ranking_or_market_share:214bbde45faed47f` — `PARTIALLY_SUPPORTED`；文件載子公司含國泰證券（54次）與國泰投信（43次）且「皆具產業領導地位」；惟「ETF」31次未以「最大ETF發行商」表述。
-- `2883:objective_ranking_or_market_share:7060f1b3248b8161` — `UNKNOWN_AFTER_RESEARCH`；所取得檔案經確認**屬凱基期貨**之2024永續報告書（目錄載「關於凱基期貨」），非凱基金控文件。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-090.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` (第一保).
+- `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` — `PARTIALLY_SUPPORTED`；第一保2025簡報載「**設立日期 1962年**」與股東結構（個人57.14%、金融機構1.15%）；惟「第一金」0次，「與第一金控無直接股權隸屬關係」未獲來源陳述。
+- `2852:objective_ranking_or_market_share:a9cea9f32089f2c8`、`0ed2489ebb872b77`、`d1acd16b4de6e7eb` — `UNKNOWN_AFTER_RESEARCH` ×3；簡報「第一銀行」「銀保」「銀行保險」「車商」「保險經紀人」皆0次。
+- `2852:objective_ranking_or_market_share:fb910ccfdc42b585` — `PARTIALLY_SUPPORTED`；簡報業務概況呈現簽單保費與業務結構（汽車任意險48.94%、火災保險20.00%等）；惟職能區分敘述未見。
+- `2851:objective_ranking_or_market_share:f4428cbe7406c75a` — `ACCEPTED`；中再保50周年特刊載「**民國57年10月31日正式成立**」「於**民國91年**…自此本公司**轉換為民營公司**」「**長榮集團為本公司之最大股東，持股比率為58.68%**」——三項逐項對應（特刊以西元1968／2002檢索均0次）。
+- `2851:objective_ranking_or_market_share:5019a1f91c5268c9` — `PARTIALLY_SUPPORTED`；特刊載「為**國內唯一的本土專業再保險公司**」；惟「寡占」「市占」皆0次。
+- `2851:objective_ranking_or_market_share:31637d692bd9234c` — `PARTIALLY_SUPPORTED`；特刊載財產再保險與人身再保險業務發展；惟「市占」0次，且「18.8」「19.4」之上下文為**未標示名稱之數字表格**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-091.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `5878:objective_ranking_or_market_share:ac33ab82c59a8a20` (台名).
 
 ## Source access
 

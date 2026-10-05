@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T19:36:01Z",
+  "generated_at": "2026-10-05T19:39:48Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -92,12 +92,13 @@
     "author-087",
     "author-088",
     "author-089",
-    "author-090"
+    "author-090",
+    "author-091"
   ],
-  "source_batch_count": 90,
-  "total_unknown": 103,
+  "source_batch_count": 91,
+  "total_unknown": 106,
   "failure_signature_counts": {
-    "other_unclassified": 47,
+    "other_unclassified": 50,
     "mops_non_document": 24,
     "non_document_response": 22,
     "http_404": 24,
@@ -1251,7 +1252,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
       ],
-      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6512:objective_ranking_or_market_share:2876e98579307c73",
@@ -1265,7 +1266,7 @@
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/658420260511M001.pdf"
       ],
-      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6673:objective_ranking_or_market_share:e881d11eadac0b96",
@@ -1350,7 +1351,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
@@ -1365,7 +1366,7 @@
       "attempted_sources": [
         "https://www.zenitron.com.tw/upload/2024_08_29/2_202408291738317b4jadfUr4.pdf"
       ],
-      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
     },
     {
       "claim_id": "6691:objective_ranking_or_market_share:4a06f569d516bc7a",
@@ -1647,7 +1648,49 @@
       "attempted_sources": [
         "https://www.kgif.com.tw/zh-tw/-/media/files/kgif/esg/2025/esg-01-02.pdf"
       ],
-      "recommended_retry": "已確認所取得檔案屬另一法人（凱基期貨／增你強／他公司），須重新定位為目標公司本身之官方文件"
+      "recommended_retry": "已確認所取得檔案屬另一法人，須重新定位為目標公司本身之官方文件"
+    },
+    {
+      "claim_id": "2852:objective_ranking_or_market_share:a9cea9f32089f2c8",
+      "ticker": "2852",
+      "company": "第一保",
+      "claim": "銷售通路方面，與[[第一銀行]]維持長期銀行保險通路合作關係，並透過車商保代及保險經紀人拓展業務。",
+      "batch_id": "author-091",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
+    },
+    {
+      "claim_id": "2852:objective_ranking_or_market_share:0ed2489ebb872b77",
+      "ticker": "2852",
+      "company": "第一保",
+      "claim": "[[第一銀行]] — 長期銀行保險通路合作",
+      "batch_id": "author-091",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
+    },
+    {
+      "claim_id": "2852:objective_ranking_or_market_share:d1acd16b4de6e7eb",
+      "ticker": "2852",
+      "company": "第一保",
+      "claim": "[[第一銀行]] — 長期銀保通路合作",
+      "batch_id": "author-091",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/285220251216M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位之 claim，須另尋該第三人之官方文件"
     }
   ]
 }

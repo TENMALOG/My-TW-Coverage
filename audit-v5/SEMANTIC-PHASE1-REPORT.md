@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **527 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), and `author-090` (7).
+Author-reviewed: **535 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), and `author-091` (8).
 
-- ACCEPTED by author: 73
-- PARTIALLY_SUPPORTED: 347
+- ACCEPTED by author: 74
+- PARTIALLY_SUPPORTED: 351
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 103
-- Remaining author queue: 872
+- Other allowed author decisions: 106
+- Remaining author queue: 864
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1069,6 +1069,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **103 筆**。
 - Author-reviewed total: **527 / 1,399**; remaining: **872**. Outcome counts: ACCEPTED 73, PARTIALLY_SUPPORTED 347, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 103. Next pending claim by priority: `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` (第一保).
+
+## Author batch `author-091` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (第一保 2852 ×5, 中再保 2851 ×3). Evidence came from directly downloaded and inspected official disclosures: 第一保2025年法人說明會簡報、中再保成立50周年特刊。
+- `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` — `PARTIALLY_SUPPORTED`. 第一保2025年官方簡報「基本資料」頁載「**設立日期 1962年**」，並載股東結構「金融機構1.15%、其他法人36.43%、**個人57.14%**、外國機構及外國人5.28%」，顯示無單一金融機構之控制性持股，與「獨立民營」相符；惟「與**第一金控**無直接股權隸屬關係」未獲來源陳述（全份簡報「第一金」「第一銀行」均為0次）。
+- `2852:objective_ranking_or_market_share:a9cea9f32089f2c8`、`0ed2489ebb872b77`、`d1acd16b4de6e7eb` — `UNKNOWN_AFTER_RESEARCH`. 三筆均涉及「**第一銀行**長期銀行保險／銀保通路合作」：第一保官方簡報中「第一銀行」「銀保」「銀行保險」「車商」與「保險經紀人」出現次數均為0，具名通路夥伴關係未獲確立。
+- `2852:objective_ranking_or_market_share:fb910ccfdc42b585` — `PARTIALLY_SUPPORTED`. 簡報「業務概況」呈現簽單保費收入（2024年8,941,329仟元）、自留保費收入與業務結構（汽車任意險48.94%、火災保險20.00%等），支持其產物保險承保業務；惟「核保、保單設計、理賠管理與資產運用」之職能區分未見於簡報敘述。
+- `2851:objective_ranking_or_market_share:f4428cbe7406c75a` — `ACCEPTED`. 中再保50周年特刊（民國107年出版）載「**民國52年**7月奉准…籌設『中央再保險公司』，並於**民國57年10月31日正式成立**」「於**民國91年**7月11日財政部第二階段釋股，公股持股比率降至48.12%，自此本公司**轉換為民營公司**」及「**長榮集團為本公司之最大股東，持股比率為58.68%**，財政部持股比率為20.39%」，三項要素（1968年成立、2002年民營化、長榮集團為最大股東）逐項對應。**方法論註記：特刊以西元數字「1968」與「2002」檢索均為0次，須以民國57年與民國91年比對（本審核第二類假陰性）。**
+- `2851:objective_ranking_or_market_share:5019a1f91c5268c9` — `PARTIALLY_SUPPORTED`. 特刊載其為「**國內唯一的本土專業再保險公司**」並「成為國內**唯一專業之上市再保險公司**」（「唯一」4次）；惟「在國內市場具備**寡占**優勢」未獲支持（「寡占」「市占」均為0次）。
+- `2851:objective_ranking_or_market_share:31637d692bd9234c` — `PARTIALLY_SUPPORTED`. 特刊載「**財產再保險業務發展**」「**人身再保險業務發展**」等業務範疇；惟「財產再保險**市占率約18.8%**、人身再保險**市占率約19.4%**」未獲支持——全份特刊「**市占**」0次，且「18.8」與「19.4」各出現1次之上下文均為**未標示名稱之數字表格**，未以「市占率」表述該二數值。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單將於下一批次同步刷新至 **106 筆**。
+- Author-reviewed total: **535 / 1,399**; remaining: **864**. Outcome counts: ACCEPTED 74, PARTIALLY_SUPPORTED 351, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 106. Next pending claim by priority: `5878:objective_ranking_or_market_share:ac33ab82c59a8a20` (台名).
+
 
 
 
