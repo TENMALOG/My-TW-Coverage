@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T20:31:38Z",
+  "generated_at": "2026-10-05T20:33:30Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -126,12 +126,13 @@
     "author-121",
     "author-122",
     "author-123",
-    "author-124"
+    "author-124",
+    "author-125"
   ],
-  "source_batch_count": 124,
-  "total_unknown": 176,
+  "source_batch_count": 125,
+  "total_unknown": 178,
   "failure_signature_counts": {
-    "other_unclassified": 69,
+    "other_unclassified": 71,
     "tls_failure": 10,
     "mops_non_document": 33,
     "non_document_response": 31,
@@ -2754,6 +2755,34 @@
         "https://event.easycard.com.tw/_upload/files/20170407-1.pdf"
       ],
       "recommended_retry": "於連線狀況改善時重試，或以可驗證憑證之對應端點（如 MOPS 或公司其他網域）重取"
+    },
+    {
+      "claim_id": "6462:objective_ranking_or_market_share:d15da7bf0a3e513d",
+      "ticker": "6462",
+      "company": "神盾",
+      "claim": "三星(傳統指紋IC最大客戶)、韓國起亞汽車，並已取得美國Tier1雲端大廠([[CSP]])之IP驗證。",
+      "batch_id": "author-125",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.egistec.com/wp-content/uploads/2023/05/%e7%a5%9e%e7%9b%be112%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83%e8%ad%b0%e4%ba%8b%e6%89%8b%e5%86%8a%e4%b8%8a%e5%82%b3%e7%89%88.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6690:objective_ranking_or_market_share:e280e76cce489447",
+      "ticker": "6690",
+      "company": "安�硌穈T",
+      "claim": "客戶涵蓋超過 300 家政府機關與企業，政府佔 45%、金融佔 40%、製造業佔 15%，為台灣 SOC 市場市佔率逾六成之絕對領導者。",
+      "batch_id": "author-125",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.acercsi.com/file_download/0EFD9FCD-4A6C-4E4C-AE91-8A2B6DF8759C"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
   ]
 }

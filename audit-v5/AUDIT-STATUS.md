@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 04:04 UTC
+Updated: 2026-10-10 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **749 / 1,399**
-- Remaining author review: **650**
-- Latest batch: **author-124** (5 claims)
+- Author-reviewed: **754 / 1,399**
+- Remaining author review: **645**
+- Latest batch: **author-125** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **83**
-- `PARTIALLY_SUPPORTED`: **486**
+- `PARTIALLY_SUPPORTED`: **489**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **176**
+- `UNKNOWN_AFTER_RESEARCH`: **178**
 
 ## Latest claim batch
 
-- `6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed` — `UNKNOWN_AFTER_RESEARCH`；GOGOLOOK 簡報「**NAVER」（區分大小寫）0 次**；唯一含 Nav 字串者為**經營團隊經歷**「**Naver Business Platform 行銷與營運部門負責人**」；「LINE」2次為「加入 Line 群組」「LINE OA」；「控股」0次。
-- `8284:objective_ranking_or_market_share:f6ddbfcfc3bb8e15` — `PARTIALLY_SUPPORTED`；三竹年報「**簡訊」103 次**；惟「行政院」「感謝狀」皆0次，且「唯一」2次均指**智慧電視看盤產品**。
-- `8416:objective_ranking_or_market_share:4ac1005c2eaa974f` — `PARTIALLY_SUPPORTED`；實威文件「**SolidWorks」17 次、「Dassault」1 次**；惟「亞洲最大」「代理商」「1997」皆未見。
-- `5212:objective_ranking_or_market_share:79f144a9e5531357` — `PARTIALLY_SUPPORTED`；凌網簡報「**HyRead」11 次**；惟「電子書」「市佔」「第一」「圖書館」皆0次。
-- `6035:objective_ranking_or_market_share:c0678fc201114b7d` — `UNKNOWN_AFTER_RESEARCH`；悠遊卡端點 **SSL/TLS 憑證信任失敗**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-124.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6462:objective_ranking_or_market_share:d15da7bf0a3e513d` (神盾).
+- `6462:objective_ranking_or_market_share:d15da7bf0a3e513d` — `UNKNOWN_AFTER_RESEARCH`；神盾議事手冊「指紋」25次，惟「三星」「Samsung」「起亞」「KIA」「CSP」「IP驗證」皆0次，且「市占」2次皆為**目標敘述**。
+- `6690:objective_ranking_or_market_share:2ca855b26577abb8` — `PARTIALLY_SUPPORTED`；安碁文件「**宏碁」92 次**、「SOC」61次、「委外」3次；惟「台灣最大」0次，「領導」2次為「領導能力」與「技術領導廠商」。
+- `6690:objective_ranking_or_market_share:e280e76cce489447` — `UNKNOWN_AFTER_RESEARCH`；「市佔」「六成」「45%」「40%」皆0次；「**300」20 次多為財務數字**（300,000／300,500 仟元）。
+- `6763:objective_ranking_or_market_share:66e5afa9447c9ff4` — `PARTIALLY_SUPPORTED`；綠界年報「第三方支付」26次、「信用卡」37次；惟「市占」1次為目標敘述，「**最大」8 次多為泛用語**（最大的潛能／最大限度／最大值）。
+- `6878:objective_ranking_or_market_share:ac1050bc146ee810` — `PARTIALLY_SUPPORTED`；歐付寶議事手冊「電子支付」19次、「專營」4次；惟「綠界」「第一家」「執照」「2015」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-125.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `6925:objective_ranking_or_market_share:f4539b5294dcb0a4` (意藍).
 
 ## Source access
 
