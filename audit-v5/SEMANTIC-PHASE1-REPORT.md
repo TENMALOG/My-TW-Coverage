@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **564 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), and `author-095` (8).
+Author-reviewed: **572 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), and `author-096` (8).
 
-- ACCEPTED by author: 75
-- PARTIALLY_SUPPORTED: 370
+- ACCEPTED by author: 76
+- PARTIALLY_SUPPORTED: 372
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 115
-- Remaining author queue: 835
+- Other allowed author decisions: 120
+- Remaining author queue: 827
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1131,6 +1131,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **115 筆**。
 - Author-reviewed total: **564 / 1,399**; remaining: **835**. Outcome counts: ACCEPTED 75, PARTIALLY_SUPPORTED 370, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 115. Next pending claim by priority: `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` (科定).
+
+## Author batch `author-096` — 2026-10-09
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (科定 6655 ×3, 綠河-KY 8444, 長榮 2603, 慧洋-KY 2637, 建新國際 8367 ×2). Evidence came from directly downloaded and inspected official disclosures: 科定2019年法人說明會簡報、綠河-KY 2025年法人說明會簡報、長榮海運115年4月法人說明會簡報。
+- `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` — `ACCEPTED`. 科定官方簡報載「生產總部：**嘉義縣大林鎮大埔美園區五路10號**」與「生產總部 嘉義**大埔美**一廠｜嘉義**大埔美**二廠」，並在競爭優勢項下載「2. **業界唯一，產銷一條龍垂直整合**」（「大埔美」3次、「唯一」1次、「一條龍」1次、「垂直整合」1次），與 claim 之兩項要素（生產總部位於嘉義大埔美、業界唯一產銷一條龍垂直整合）逐項對應。
+- `6655:objective_ranking_or_market_share:055a6afbd23947d4` 與 `ccaa6c4b5d8549e4` — `UNKNOWN_AFTER_RESEARCH`. 兩筆均涉及「**大日本印刷 (DNP)**」：查閱之科定官方簡報中「**大日本印刷**」「**DNP**」「ECO」「PP」「EB」與「食品級」之出現次數**均為0**，未載該策略合作或 ECO+ 產品之技術內容，且本批次未取得 DNP 自身之官方文件。
+- `8444:objective_ranking_or_market_share:1ba76f09f75f204f` — `PARTIALLY_SUPPORTED`. 綠河-KY 2025年官方簡報中「**塑合板**」出現37次、「泰國」4次，支持其於泰國經營塑合板（粒片板）業務；惟「為**亞洲最大**粒片板（塑合板）廠之一」未獲支持——「**亞洲最大**」僅出現1次，其上下文為「（燃）煤發電廠(南韓也是**亞洲最大**木質顆（粒）)」之**產業用電情境敘述**，**非**對綠河自身地位之描述。
+- `2603:objective_ranking_or_market_share:c49229ece3415b49` — `PARTIALLY_SUPPORTED`. 長榮海運2026年4月官方簡報「公司現況」頁載「**7th 全球船隊運能排名**」「**船隊運能市佔率 5.8%**」「集團總營運船隻數 238」「全球航線擴及國家 101」，第7名屬「全球前十大」之範圍；惟「成立於**1968年**」（「1968」0次；長榮成立於民國57年，惟本件未載）與「為**台灣最大**（貨櫃航運公司）」（0次）未獲支持。
+- `2637:objective_ranking_or_market_share:c179a03f49adb48f` — `UNKNOWN_AFTER_RESEARCH`. 慧洋-KY 官方網域之2025年度年報端點回應 **HTTP 404**，未取得可檢視之檔案。
+- `8367:objective_ranking_or_market_share:654fe06c1da29251` 與 `50a32e6e94716675` — `UNKNOWN_AFTER_RESEARCH`. 建新國際之法人說明會簡報端點所取得之檔案**僅690 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**，故不予採用。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **120 筆**。
+- Author-reviewed total: **572 / 1,399**; remaining: **827**. Outcome counts: ACCEPTED 76, PARTIALLY_SUPPORTED 372, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 120. Next pending claim by priority: `1343:objective_ranking_or_market_share:f0a65b719a264687` (旭東環保).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 23:04 UTC
+Updated: 2026-10-09 00:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,30 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **564 / 1,399**
-- Remaining author review: **835**
-- Latest batch: **author-095** (8 claims)
+- Author-reviewed: **572 / 1,399**
+- Remaining author review: **827**
+- Latest batch: **author-096** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **75**
-- `PARTIALLY_SUPPORTED`: **370**
+- `ACCEPTED`: **76**
+- `PARTIALLY_SUPPORTED`: **372**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **115**
+- `UNKNOWN_AFTER_RESEARCH`: **120**
 
 ## Latest claim batch
 
-- `6670:objective_ranking_or_market_share:0b9c48bd7d884e3f` — `PARTIALLY_SUPPORTED`；復盛2022永續報告載「為**全球最大之高爾夫球桿頭生產據點**」與「復盛應用身為**全球最大之高爾夫球桿頭製造商**」（全球最大2次、桿頭24次）；惟「五成」「市占」皆0次，且「50%」1次係**供應商季度考核之D類佔比**。
-- `8467:objective_ranking_or_market_share:48dd1d22ba83c457` — `PARTIALLY_SUPPORTED`；波力111年報載「A公司是目前**全球最大曲棍球品牌**」與「**全球市占率自2005年8%穩定成長至50%**」，並具名「與主要客戶 **Bauer Hockey** 合作逾十年」；惟官方為「成長**至**50%」而非「超過50%」，且未以「高階」界定。
-- `8467:objective_ranking_or_market_share:9a6071b2054ff71b`、`5b5b16a8a12e4d56` — `PARTIALLY_SUPPORTED` ×2；代工關係與「頭盔」2次成立；惟「**最大客戶**」0次（官方僅稱「主要客戶」）。
-- `9914:objective_ranking_or_market_share:6f51a2c9276ae36b`、`f9ee3f3ed9072675` — `PARTIALLY_SUPPORTED` ×2；美利達2025簡報載「**歐洲是主要市場**」（歐洲4次）；惟「**最大市場**」0次。
-- `9921:objective_ranking_or_market_share:53af3876a9921e62`、`c46e30a478d1a6f2` — `UNKNOWN_AFTER_RESEARCH` ×2；巨大三個官方端點（109年報、112年報、MOPS 2024簡報）**均回應HTTP 404**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-095.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` (科定).
+- `6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd` — `ACCEPTED`；科定簡報載「生產總部：**嘉義縣大林鎮大埔美園區五路10號**」與「2. **業界唯一，產銷一條龍垂直整合**」——兩項逐項對應。
+- `6655:objective_ranking_or_market_share:055a6afbd23947d4`、`ccaa6c4b5d8549e4` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報「大日本印刷」「DNP」「ECO」「PP」「EB」「食品級」皆0次。
+- `8444:objective_ranking_or_market_share:1ba76f09f75f204f` — `PARTIALLY_SUPPORTED`；綠河簡報「塑合板」37次、「泰國」4次；惟「亞洲最大」1次之上下文為「（燃）煤發電廠(南韓也是**亞洲最大**木質顆（粒）)」之**產業敘述**，非該公司地位。
+- `2603:objective_ranking_or_market_share:c49229ece3415b49` — `PARTIALLY_SUPPORTED`；長榮簡報載「**7th 全球船隊運能排名**」「船隊運能市佔率 5.8%」→ 全球前十大成立；惟「1968」「台灣最大」皆0次。
+- `2637:objective_ranking_or_market_share:c179a03f49adb48f` — `UNKNOWN_AFTER_RESEARCH`；慧洋2025年報端點回應 **HTTP 404**。
+- `8367:objective_ranking_or_market_share:654fe06c1da29251`、`50a32e6e94716675` — `UNKNOWN_AFTER_RESEARCH` ×2；建新簡報檔案**僅690 bytes**（擷取1字元），顯非完整文件。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-096.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `1343:objective_ranking_or_market_share:f0a65b719a264687` (旭東環保).
 
 ## Source access
 
