@@ -1,0 +1,184 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-243",
+  "reviewed_at": "2026-10-05T23:02:45Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (遠雄人壽2023永續報告書; 立益物流法人說明會簡報); 新零售／尚凡／創業家／雷虎端點HTTP 404",
+  "items": [
+    {
+      "claim_id": "5859:identity_changing_event:3146527b074efe1a",
+      "normalized_claim_hash": "3146527b074efe1a328a5f52e5f0cb1d68d4dd8b0b842a6e1c85da4d313be8e3",
+      "ticker": "5859",
+      "company": "遠壽",
+      "path": "Pilot_Reports/Insurance - Life/5859_遠壽.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[遠雄人壽]] (5859，遠壽) 為[[遠雄集團]]旗下壽險事業，前身為 1993 年由集團創辦人趙藤雄收購之中興人壽，2001 年更名為遠雄人壽，2004 年併購[[蘇黎世人壽]]台灣分公司業務，2015 年於興櫃市場掛牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fglife.com.tw/csr/report/Sustainability_Report_2023_CH.pdf",
+          "title": "遠雄人壽保險事業股份有限公司（遠壽，5859，Farglory Life）2023 年永續報告書",
+          "source_level": 3,
+          "period_binding": "2023年。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取120,675字元）。報告書中「**遠雄**」出現289次、「**1993年**」1次，**確認公司名稱與該年份之出現**。**關鍵發現（關鍵字之語意歸屬）**：全份報告書中「**更名**」3次，**惟三次之上下文均為內部組織或報告書之改名**——「組織並行**更名**為**永續發展小組**」「CSR 報告書**更名**為永續報告書」「永續推行小組**更名**為永續發展小組」，**均與公司名稱無關**；另「**前身**」之出現次數**為0**、「集團」1次。"
+        }
+      ],
+      "rationale": "claim 含六項要素，僅部分獲發行人永續報告書支持：報告書中「**遠雄**」出現289次、「**1993年**」1次，**確認其公司名稱與該年份之出現**。**惟多項要素未獲支持**：(1)「為[[遠雄集團]]**旗下**壽險事業」——「**集團**」僅1次，**未見集團歸屬之敘述**；(2)「前身為 1993 年由集團創辦人**趙藤雄**收購之**中興人壽**」——「**前身**」與「**中興人壽**」之出現次數均為**0**，「趙藤雄」亦未見；(3)「**2001 年**更名為遠雄人壽」——「2001」**未見**；(4)「**2004 年**併購[[蘇黎世人壽]]台灣分公司業務」——「**蘇黎世**」與「2004」均為**0**；(5)「**2015 年**於興櫃市場掛牌」——「2015」與「興櫃」均為**0**。**關鍵字歸屬註記**：報告書中「**更名**」3次，**惟三次之上下文均為內部組織或報告書之改名**（「組織並行更名為永續發展小組」「CSR 報告書更名為永續報告書」「永續推行小組更名為永續發展小組」），**與公司名稱無關**。故部分成立。",
+      "proposed_text": "遠雄人壽 (5859，Farglory Life) 為壽險公司，其永續報告書載有1993年之年份資訊。（本筆之多項沿革要素未獲該報告書支持，建議改由該公司之年報或公開說明書複核）",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1443:identity_changing_event:686dfe5b8fd1eacf",
+      "normalized_claim_hash": "686dfe5b8fd1eacf1d5961734932d2af0d95c10ffbfd6dde1bec7bd742a012ed",
+      "ticker": "1443",
+      "company": "立益物流",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/1443_立益物流.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "立益物流股份有限公司（原立益紡織）早期為棉紡廠，2022年更名轉型為專業物流地產開發與營運商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/144320251128M001.pdf",
+          "title": "立益物流開發股份有限公司（立益物流，1443，Liyih Logistics）法人說明會簡報（2025-12-02）",
+          "source_level": 3,
+          "period_binding": "2025年12月2日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,816字元，以圖形排版為主）。簡報載「**立益物流開發股份有限公司**」「**物流地產**」「3rd **物流**」（「**立益**」9次、「**物流**」34次、「**更名**」1次），**支持其物流地產開發與營運業務**。**關鍵發現**：全份簡報中「**Coupang**」「**momo**」與「**棉紡**」之出現次數**均為0**；「2022」之出現亦未見。"
+        }
+      ],
+      "rationale": "「（立益物流股份有限公司…轉型為）**專業物流地產開發與營運**」獲發行人簡報**逐字支持**：簡報載「**立益物流開發股份有限公司**」「**物流地產**」「3rd **物流**」（「立益」9次、「**物流**」34次），**支持其物流地產開發與營運業務**。**惟兩項陳述未獲支持**：(1)「**原立益紡織**…早期為**棉紡廠**」——「**棉紡**」之出現次數**為0**；(2)「**2022 年更名**」——「2022」未見（「更名」1次之上下文未載年份）。故部分成立。",
+      "proposed_text": "立益物流開發 (1443，Liyih Logistics) 從事物流地產開發與營運。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1443:material_named_relationship:3f31945708a86c26",
+      "normalized_claim_hash": "3f31945708a86c260054689e8c57bb8f8ae975bed0ec54fe8175eeecfb92783a",
+      "ticker": "1443",
+      "company": "立益物流",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/1443_立益物流.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋國際電商平台[[Coupang]]、國內電商[[momo購物網]]、國際物流業者[[NYK]]（日本郵船）及零售通路[[誠品生活]]等。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/144320251128M001.pdf",
+          "title": "立益物流開發股份有限公司（立益物流，1443，Liyih Logistics）法人說明會簡報（2025-12-02）",
+          "source_level": 3,
+          "period_binding": "2025年12月2日。",
+          "accessed_at": "2026-10-15",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取5,816字元，以圖形排版為主）。簡報載「**立益物流開發股份有限公司**」「**物流地產**」「3rd **物流**」（「**立益**」9次、「**物流**」34次、「**更名**」1次），**支持其物流地產開發與營運業務**。**關鍵發現**：全份簡報中「**Coupang**」「**momo**」與「**棉紡**」之出現次數**均為0**；「2022」之出現亦未見。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋國際電商平台 **[[Coupang]]**、國內電商 **[[momo購物網]]**、國際物流業（者）」未獲確立：所取得之立益物流簡報中「**Coupang**」與「**momo**」之出現次數**均為0**（「客戶」8次為泛稱），**未具名該等客戶**。因該 claim 之實質內容為具名客戶關係，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3085:identity_changing_event:cbc12ace2547a854",
+      "normalized_claim_hash": "cbc12ace2547a8547fcead69e725c1a963f21eb9d34a1d89d06eb0a22b6a91a7",
+      "ticker": "3085",
+      "company": "新零售",
+      "path": "Pilot_Reports/Internet Content & Information/3085_新零售.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台鋼新零售 (3085) 為隸屬[[台鋼集團]]之 B2C 服飾電商公司，前身為創新新零售，2025 年更名為台鋼新零售。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/308520250401M001.pdf",
+          "title": "新零售（3085）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之新零售端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得新零售可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「台鋼新零售 (3085) 為隸屬[[台鋼集團]]之 B2C 服飾電商公司，**前身為創新新零售**」未獲確立：本批次所嘗試之新零售端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "5278:profitability_assertion:24a745be10d45843",
+      "normalized_claim_hash": "24a745be10d4584377dae23cb142d9c090efe120cdd2e17718b33217011e1d7f",
+      "ticker": "5278",
+      "company": "尚凡",
+      "path": "Pilot_Reports/Internet Content & Information/5278_尚凡.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年保健品業務高速成長，已成為集團新成長引擎。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/527820250401M001.pdf",
+          "title": "尚凡（5278）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之尚凡端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得尚凡可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「近年**保健品**業務高速成長，已成為集團**新成長引擎**」未獲確立：本批次所嘗試之尚凡端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8477:identity_changing_event:802dfaef00e42b9a",
+      "normalized_claim_hash": "802dfaef00e42b9ae69f9b2dc2e04a662969acd2cc4e1a1167265abab85eb987",
+      "ticker": "8477",
+      "company": "創業家",
+      "path": "Pilot_Reports/Internet Retail/8477_創業家.md",
+      "signal_type": "identity_changing_event",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "創業家數位 (8477，原創業家兄弟 Kuobrothers) 為台灣垂直電商平台營運商，2025 年更名為創業家數位，旗下核心平台為生活市集，曾另運營松果購物 (已於 2025 年出售予創電商)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/847720250401M001.pdf",
+          "title": "創業家數位（8477）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之創業家數位端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得創業家數位可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「創業家數位 (8477，**原創業家兄弟 Kuobrothers**) 為台灣**垂直電商平台**營運商」未獲確立：本批次所嘗試之創業家端點回應 **HTTP 404**（其官網年報端點亦未取得），未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8033:material_named_relationship:03dec68bb86705bc",
+      "normalized_claim_hash": "03dec68bb86705bc5d16f233f8d53dd0ca39edc32c6a54d1ca890c27b21a7e19",
+      "ticker": "8033",
+      "company": "雷虎",
+      "path": "Pilot_Reports/Leisure/8033_雷虎.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為[[中華民國國防部]]、[[中科院]]及[[中華電信]]。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/803320250401M001.pdf",
+          "title": "雷虎科技（8033）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-15。",
+          "accessed_at": "2026-10-15",
+          "note": "本批次所嘗試之雷虎科技端點回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未另行定位其有效之官方端點，故未取得雷虎科技可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「主要客戶為[[中華民國國防部]]、[[中科院]]及[[中華電信]]」未獲確立：本批次所嘗試之雷虎端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

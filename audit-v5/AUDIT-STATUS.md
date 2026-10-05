@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-15 02:04 UTC
+Updated: 2026-10-15 03:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,241 / 1,399**
-- Remaining author review: **158**
-- Latest batch: **author-242** (6 claims)
+- Author-reviewed: **1,248 / 1,399**
+- Remaining author review: **151**
+- Latest batch: **author-243** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **103**
-- `PARTIALLY_SUPPORTED`: **767**
+- `PARTIALLY_SUPPORTED`: **769**
 - `UNSUPPORTED`: **2**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **366**
+- `UNKNOWN_AFTER_RESEARCH`: **371**
 
 ## Latest claim batch
 
-- `2816:identity_changing_event:00fd24fba693ef88` — `PARTIALLY_SUPPORTED`；旺旺保年報**逐字載**「一、**設立日期：民國52 年2 月20 日**」與「同時通過公司**更名**為『**旺旺友聯產物**』」（**民國52年＝1963年**）；**惟「98年」1 次之上下文實為「98年金融危機」，並非2009年旺旺入主**（「2009」0次）。
-- `6616:material_named_relationship:ef25aff8ea336307` — `PARTIALLY_SUPPORTED`；特昇手冊載「開發新的**寢室家具**系列」「拆裝式家具（**RTA**）」「針對**美洲**及網購市場」；**惟「OEM／五件式／臥室／木製」皆 0 次**。
-- `6807:material_named_relationship:de5168ab462b6ac1` — `UNKNOWN_AFTER_RESEARCH`；峰源年報「**Williams-Sonoma／Costco／好市多」皆 0 次**。
-- `6536:material_named_relationship:b33368d8bd4f0fc9` — `UNKNOWN_AFTER_RESEARCH`；碩豐文件為**個體財務報告**，「**Tigre／水晶老虎／海參崴」皆 0 次**。
-- `6629:a2257218a3ef35d5`、`2881:eaafe360917c05ea` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY與富邦金端點 **HTTP 404**。
-- 證據記錄於 `semantic/author-242.json`（6 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,241 ＝ 條目總數 1,241。
-- Next pending claim by priority: `5859:identity_changing_event:3146527b074efe1a` (遠壽).
+- `5859:identity_changing_event:3146527b074efe1a` — `PARTIALLY_SUPPORTED`；遠雄人壽ESG「**遠雄」289 次、「1993年」1 次**；**惟「前身／中興人壽／趙藤雄／2001／2004／蘇黎世／2015／興櫃」皆 0 次**；**且「更名」3 次之上下文全為內部組織與報告書改名**。
+- `1443:identity_changing_event:686dfe5b8fd1eacf` — `PARTIALLY_SUPPORTED`；立益物流簡報「**立益」9 次、「物流」34 次、「物流地產」**；**惟「棉紡／原立益紡織／2022」皆 0 次**。
+- `1443:material_named_relationship:3f31945708a86c26` — `UNKNOWN_AFTER_RESEARCH`；「**Coupang／momo」皆 0 次**。
+- `3085:cbc12ace2547a854`、`5278:24a745be10d45843`、`8033:03dec68bb86705bc`、`8477:802dfaef00e42b9a` — `UNKNOWN_AFTER_RESEARCH` ×4；新零售／尚凡／雷虎／創業家端點 **HTTP 404**。
+- 證據記錄於 `semantic/author-243.json`（7 筆）。未修改發行人報告。帳目一致：唯一 claim 數 1,248 ＝ 條目總數 1,248。
+- Next pending claim by priority: `8924:material_named_relationship:737bd19f1360d702` (大田).
 
 ## Source access
 

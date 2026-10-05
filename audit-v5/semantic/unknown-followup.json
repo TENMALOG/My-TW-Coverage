@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T23:01:39Z",
+  "generated_at": "2026-10-05T23:03:03Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -245,17 +245,18 @@
     "author-239",
     "author-240",
     "author-241",
-    "author-242"
+    "author-242",
+    "author-243"
   ],
-  "source_batch_count": 242,
-  "total_unknown": 366,
+  "source_batch_count": 243,
+  "total_unknown": 371,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 159,
-    "other_unclassified": 140,
+    "no_official_endpoint_found": 163,
+    "other_unclassified": 141,
     "tls_failure": 14,
     "mops_non_document": 47,
     "non_document_response": 47,
-    "http_404": 88,
+    "http_404": 92,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 15,
@@ -5611,6 +5612,80 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/288120250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "1443:material_named_relationship:3f31945708a86c26",
+      "ticker": "1443",
+      "company": "立益物流",
+      "claim": "主要客戶涵蓋國際電商平台[[Coupang]]、國內電商[[momo購物網]]、國際物流業者[[NYK]]（日本郵船）及零售通路[[誠品生活]]等。",
+      "batch_id": "author-243",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/144320251128M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "3085:identity_changing_event:cbc12ace2547a854",
+      "ticker": "3085",
+      "company": "新零售",
+      "claim": "台鋼新零售 (3085) 為隸屬[[台鋼集團]]之 B2C 服飾電商公司，前身為創新新零售，2025 年更名為台鋼新零售。",
+      "batch_id": "author-243",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/308520250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "5278:profitability_assertion:24a745be10d45843",
+      "ticker": "5278",
+      "company": "尚凡",
+      "claim": "近年保健品業務高速成長，已成為集團新成長引擎。",
+      "batch_id": "author-243",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/527820250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8477:identity_changing_event:802dfaef00e42b9a",
+      "ticker": "8477",
+      "company": "創業家",
+      "claim": "創業家數位 (8477，原創業家兄弟 Kuobrothers) 為台灣垂直電商平台營運商，2025 年更名為創業家數位，旗下核心平台為生活市集，曾另運營松果購物 (已於 2025 年出售予創電商)。",
+      "batch_id": "author-243",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/847720250401M001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "8033:material_named_relationship:03dec68bb86705bc",
+      "ticker": "8033",
+      "company": "雷虎",
+      "claim": "主要客戶為[[中華民國國防部]]、[[中科院]]及[[中華電信]]。",
+      "batch_id": "author-243",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mopsov.twse.com.tw/nas/STR/803320250401M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
