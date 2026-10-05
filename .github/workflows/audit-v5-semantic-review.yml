@@ -1,49 +1,17 @@
-name: Audit v5 independent semantic review
+name: Audit v5 independent semantic review (disabled)
 
 on:
   workflow_dispatch:
-  push:
-    branches: [audit-v5]
-    paths:
-      - 'audit-v5/semantic/author-*.json'
-      - 'audit-v5/semantic_independent_review.py'
-      - '.github/workflows/audit-v5-semantic-review.yml'
 
 permissions:
-  contents: write
-  models: read
-
-concurrency:
-  group: audit-v5-semantic-independent
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  review:
+  status:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: audit-v5
-          fetch-depth: 0
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Independent review author-001
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -X utf8 audit-v5/semantic_independent_review.py --author audit-v5/semantic/author-001.json --output audit-v5/semantic/reviewer-001.json
-      - name: Commit reviewer ledger
+      - name: Explain reviewer status
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add audit-v5/semantic/reviewer-001.json
-          if git diff --cached --quiet; then
-            echo 'Reviewer ledger unchanged.'
-          else
-            git commit -m 'audit-v5: independent review semantic batch 001 [skip ci]'
-            git fetch origin audit-v5
-            git rebase origin/audit-v5
-            git push origin HEAD:audit-v5
-          fi
-# reviewer-v2
+          echo 'GitHub Models inference was retired on 2026-07-30.'
+          echo 'Do not synthesize independent-review acceptance from the retired endpoint.'
+          echo 'Author evidence ledgers remain valid; final HIGH acceptance requires a genuinely independent model/session.'
