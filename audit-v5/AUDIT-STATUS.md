@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 04:04 UTC
+Updated: 2026-10-08 05:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **428 / 1,399**
-- Remaining author review: **971**
-- Latest batch: **author-076** (5 claims)
+- Author-reviewed: **435 / 1,399**
+- Remaining author review: **964**
+- Latest batch: **author-077** (7 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **67**
-- `PARTIALLY_SUPPORTED`: **279**
+- `PARTIALLY_SUPPORTED`: **283**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **78**
+- `UNKNOWN_AFTER_RESEARCH`: **81**
 
 ## Latest claim batch
 
-- `8215:objective_ranking_or_market_share:e396f3af21b11405` — `PARTIALLY_SUPPORTED`; 明基材2022年報載合資設立達尼特材料科技從事「**鋰電池用隔離膜**產品製造銷售」（隔離膜6次、捲對捲2次、塗佈3次、電動車8次、儲能6次）；惟「台灣唯一」0次。
-- `8240:objective_ranking_or_market_share:ad10cdcb6cd24cc2` — `ACCEPTED`; 華宏2021年報載「**光學膜片最大專業製造裁切廠**，各項產品皆具有高的市場佔有率」，產品線含偏光板、擴散膜、增亮膜、導光板、量子點（7次）、防爆膜（6次）、觸控面板（4次）。
-- `3687:objective_ranking_or_market_share:cae577f91575490d` — `PARTIALLY_SUPPORTED`; 綠界115年報載「**維持第三方支付市場龍頭地位**」（第三方支付26次）；惟「市佔率極高」「數十萬」「藍新」「LINE Pay」皆0次。
-- `5478:objective_ranking_or_market_share:ce91f88d8082e000`、`66491f95bfe4f0d6` — `PARTIALLY_SUPPORTED` ×2; 智冠簡報載「★**台港澳市佔率最高 60%** ★合作產品2,400+ ★市佔第一」；惟官方範圍為「**台港澳**」而claim表述為「**台灣**」，且「四大便利商店」「東南亞」未載。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-076.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6473:objective_ranking_or_market_share:b29d00af5856229f` (美賣).
+- `6473:objective_ranking_or_market_share:b29d00af5856229f` — `UNKNOWN_AFTER_RESEARCH`；美賣（興櫃）未查得可下載之年報或法人說明會端點，僅見官網平台介紹與櫃買中心基本資料頁。
+- `1603:objective_ranking_or_market_share:12171e5a5dfe2650`、`fe4b64c156172c36` — `UNKNOWN_AFTER_RESEARCH` ×2；華電2025簡報（英文）含客戶訂單表（台電花東供電區處／超耐熱鋼心鋁線），惟「第一銅」「華新麗華」「銅」「鋁錠」「Copper」「Supplier」皆0次。
+- `2347:objective_ranking_or_market_share:8fff79b3fa219000` — `PARTIALLY_SUPPORTED`；聯強2024年報載「**亞太地區主要城市建立數十座智能化的運籌服務中心**」與多品牌採購；惟「亞太第一大」「第一大」皆0次，「440」唯一命中為「440.4」、「30,000」4次均為**酬金級距**。
+- `3010:objective_ranking_or_market_share:23e0e98b40b54555` — `PARTIALLY_SUPPORTED`；華立111年報載材料涵蓋半導體35次、綠能14次、工程塑膠5次、PCB 1次、面板1次；惟「高科技材料通路」0次，且「最大」2次為「穩定性最大化」「發揮最大工作潛能」等**非市場地位**用語。
+- `3033:objective_ranking_or_market_share:54d8ccbbd3d4f3e1`、`720516a156c7c28d` — `PARTIALLY_SUPPORTED` ×2；威健2021永續報告載「代理之電子零組件包括例如：**AMD**、…、**Infineon**、…、**Microchip**、…、**NXP**、…」（Vishay 6次）；惟「最大代理線」未載（「最大」5次為獎項與泛用語），「CPU」「GPU」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-077.json`（7 筆）。未修改發行人報告。
+- Next pending claim by priority: `2450:objective_ranking_or_market_share:d4c4eba514df929a` (神腦).
 
 ## Source access
 
