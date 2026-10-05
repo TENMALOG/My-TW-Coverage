@@ -9,3 +9,13 @@ venv/
 _temp_fix_*.py
 enrichment*.json
 .claude/settings.local.json
+
+# Audit Engine v5 local state and caches
+audit-v5/work/
+audit-v5/cache/
+audit-v5/source-cache/
+audit-v5/gpu-cache/
+audit-v5/downloads/
+audit-v5/*.sqlite
+audit-v5/*.sqlite-*
+audit-v5/**/*.tmp

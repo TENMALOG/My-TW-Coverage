@@ -1,0 +1,19 @@
+{
+  "policy_version": "model-1-draft",
+  "actual_model_metadata_must_be_observed": true,
+  "preferred_layout": {
+    "root": {"family": "gpt-6.1-sol", "effort": "high", "role": "adjudication"},
+    "routine_a": {"family": "gpt-6-luna", "effort": "high", "role": "routine semantic author"},
+    "routine_b": {"family": "gpt-6-luna", "effort": "high", "role": "routine semantic author"},
+    "qa": {"family": "independent session", "role": "reviewer/QA"}
+  },
+  "rules": {
+    "normal_reviewer_acceptance_requires_root": false,
+    "high_risk_changed_claim_requires_independent_review": true,
+    "carry_forward_requires_model_review": false,
+    "auto_verified_requires_model_review": false,
+    "model_change_invalidates_acceptance": false,
+    "session_change_invalidates_acceptance": false,
+    "quota_change_invalidates_acceptance": false
+  }
+}

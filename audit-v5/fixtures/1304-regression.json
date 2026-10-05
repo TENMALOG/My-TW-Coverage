@@ -1,0 +1,34 @@
+{
+  "issuer": "1304",
+  "company": "台聚",
+  "purpose": "Lock the known v4 forensic findings so v5 cannot gain speed by hiding known problems.",
+  "expected_v4": {
+    "original_narrative_fragments": 15,
+    "narrative_claims": 30,
+    "narrative_fully_supported": 1,
+    "narrative_partially_supported": 16,
+    "narrative_insufficient_evidence": 12,
+    "narrative_list_header": 1,
+    "financial_cells": 98,
+    "financial_exact": 66,
+    "financial_differences": 11,
+    "financial_method_gaps": 21,
+    "valuation_cells": 8,
+    "identity_items": 6
+  },
+  "v5_invariants": [
+    "preserve_v4",
+    "do_not_auto_pass_differences",
+    "do_not_auto_pass_method_gaps",
+    "reuse_sources",
+    "do_not_redownload_only_because_engine_changed",
+    "do_not_reprocess_gpu_only_because_engine_changed"
+  ],
+  "known_examples": {
+    "financial_exact": {"metric": "2025 revenue", "original": 44168.00, "official": 44168.00},
+    "financial_difference": {"metric": "2025 operating income", "original": -2650.09, "official": -2651.63},
+    "valuation_price": {"date": "2026-03-26", "original": 14.45, "official_close": 15.85},
+    "valuation_pb": {"date": "2026-03-26", "original": 0.89, "official": 0.97}
+  },
+  "note": "This fixture records user-provided v4 summary counts only. It is not a substitute for importing the immutable v4 evidence/results/acceptance lineage."
+}

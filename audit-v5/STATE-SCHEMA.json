@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0-draft",
+  "engine": "audit-engine-v5",
+  "protocol": "1.2.0-draft",
+  "atomic_statuses": [
+    "PENDING_MACHINE",
+    "AUTO_VERIFIED",
+    "CARRY_FORWARD_ACCEPTED",
+    "NEEDS_MODEL_REVIEW",
+    "UNDER_REVIEW",
+    "ACCEPTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "METHOD_UNRESOLVED",
+    "PERIOD_UNRESOLVED",
+    "IDENTITY_UNRESOLVED",
+    "UNRESOLVED_PDF",
+    "SOURCE_UNAVAILABLE",
+    "UNKNOWN_AFTER_RESEARCH",
+    "REJECTED",
+    "REVISION_REQUIRED",
+    "BLOCKED"
+  ],
+  "issuer_dimensions": [
+    "identity",
+    "identity_history",
+    "narrative",
+    "supply_chain",
+    "customers_suppliers",
+    "financials",
+    "valuation",
+    "source_period_integrity"
+  ],
+  "issuer_states": [
+    "VERIFIED",
+    "VERIFIED_WITH_EXCEPTIONS",
+    "PARTIALLY_VERIFIED",
+    "NEEDS_REVIEW",
+    "BLOCKED"
+  ],
+  "risk_classes": ["LOW", "MEDIUM", "HIGH"],
+  "carry_forward_fingerprint_fields": [
+    "normalized_claim_hash",
+    "source_raw_hash",
+    "source_text_hash",
+    "evidence_span_hash",
+    "period_binding",
+    "issuer_binding",
+    "policy_binding"
+  ],
+  "immutability": {
+    "append_only": [
+      "source_raw_artifact",
+      "extracted_artifact",
+      "result",
+      "checkpoint",
+      "acceptance",
+      "rejection",
+      "revision",
+      "event",
+      "migration_record"
+    ],
+    "direct_state_flip_forbidden": true
+  }
+}

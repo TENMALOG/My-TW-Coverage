@@ -1,0 +1,23 @@
+{
+  "engine": "audit-engine-v5",
+  "status": "NOT_READY",
+  "checked_at": null,
+  "completed": [
+    "protocol drafted",
+    "state schema drafted",
+    "deterministic markdown machine gate implemented",
+    "carry-forward fingerprint equality implemented",
+    "financial exact-match guard implemented",
+    "1304 regression contract recorded",
+    "unit tests added"
+  ],
+  "blockers": [
+    "authoritative local v4 export is not present in the GitHub fork",
+    "v4 database/schema adapter has not been verified against the user's actual v4 artifacts",
+    "full v4-to-v5 migration dry-run has not been executed",
+    "1304 raw evidence/result/acceptance lineage has not been imported; only the known summary contract is recorded",
+    "financial global definitions such as net-income and CAPEX mapping remain intentionally unapproved",
+    "valuation formula/source policy has not yet been validated on a multi-issuer pilot"
+  ],
+  "activation_allowed": false
+}
