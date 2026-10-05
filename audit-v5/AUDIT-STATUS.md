@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 14:04 UTC
+Updated: 2026-10-08 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **498 / 1,399**
-- Remaining author review: **901**
-- Latest batch: **author-086** (8 claims)
+- Author-reviewed: **504 / 1,399**
+- Remaining author review: **895**
+- Latest batch: **author-087** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **329**
+- `PARTIALLY_SUPPORTED`: **334**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **94**
+- `UNKNOWN_AFTER_RESEARCH`: **95**
 
 ## Latest claim batch
 
-- `6629:objective_ranking_or_market_share:a8ac715de8b715a0`、`6df22dec22cccf22` — `UNKNOWN_AFTER_RESEARCH` ×2；泰金-KY簡報「Home Depot」「IKEA」「最大」皆0次。
-- `6807:objective_ranking_or_market_share:cf492ef06b948781` — `UNKNOWN_AFTER_RESEARCH`；峰源113年報**文字層自第4頁起為亂碼**，IKEA／customer／largest／70%／25 years 皆0次。
-- `8066:objective_ranking_or_market_share:8d3161d07c2c386f` — `PARTIALLY_SUPPORTED`；來思達簡報「自有品牌」3次；惟「1996」「唯一」「B2B」皆0次（版本為2015年）。
-- `8464:objective_ranking_or_market_share:12cdc0907b6edc55` — `PARTIALLY_SUPPORTED`；億豐111年報「北美」20次、「PVC」12次；惟「最大營收」2次係**氣候風險情境**（「對億豐最大營收衝擊是0.2%、0.4%」），「除濕機」「空氣清淨」皆0次。
-- `8464:objective_ranking_or_market_share:a2b185b497e23211` — `UNKNOWN_AFTER_RESEARCH`；年報「Hunter」0次；「全球最大」1次係指**億豐自身為全球最大市值窗簾公司**（以市值計），非Hunter Douglas。
-- `9911:objective_ranking_or_market_share:9919abbc162a9a07`、`58fa6a469bd3bfc1` — `PARTIALLY_SUPPORTED` ×2；櫻花102年報「熱水器」42次、「莊頭北」1次；惟「1978」「第一品牌」「林內」「市佔第一」皆0次（版本為102年度）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-086.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `9935:objective_ranking_or_market_share:edace39a5abeffd8` (慶豐富).
+- `9935:objective_ranking_or_market_share:edace39a5abeffd8` — `UNKNOWN_AFTER_RESEARCH`；慶豐富2018簡報「Walmart」「沃爾瑪」皆0次（窗簾11次）。
+- `1732:objective_ranking_or_market_share:481aee35491d420d` — `PARTIALLY_SUPPORTED`；毛寶2020 CSR報告載「冷洗精」3次之產品線敘述；惟「白鷺」「市佔」皆0次。
+- `6504:objective_ranking_or_market_share:a9d7ea309cd8da26` — `PARTIALLY_SUPPORTED`；南六年報載「2023年**全球不織布銷售排名，本公司係列於第23名**」（在「全球前40大」範圍內）與「水針不織布」（水針35次、不織布153次）；惟「**亞洲水針不織布供應龍頭**」未獲支持（年報用語為「亞洲地區**重要的**不織布大廠」；「龍頭」1次實為「**水龍頭**」），「1972」0次。
+- `6504:objective_ranking_or_market_share:dad592a04c1ad087`、`b60ee696040661e2` — `PARTIALLY_SUPPORTED` ×2；南六年報載下游生技產品含「柔濕巾、面膜、乳液」；惟「**蘭韻**」「**康乃馨**」「**化妝棉**」皆0次。
+- `9919:objective_ranking_or_market_share:2affdfaaf7479723` — `PARTIALLY_SUPPORTED`；康那香2026簡報「不織布」24次；惟「1968」「衛生用品」「全球前40」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-087.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6671:objective_ranking_or_market_share:1c6728d636eea59e` (三能-KY).
 
 ## Source access
 
