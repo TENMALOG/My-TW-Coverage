@@ -18,3 +18,7 @@ Consequences:
 - the first GitHub-native refresh creates new v5 provenance;
 - future accepted unchanged items can use v5 carry-forward;
 - `master` remains untouched until explicit merge approval.
+
+## 2026-10-05 — First GitHub-native full refresh requested
+
+The user authorized v5 to use the current GitHub corpus directly for the full update/validation cycle. This commit also serves as the first workflow trigger after the refresh workflow was installed.
