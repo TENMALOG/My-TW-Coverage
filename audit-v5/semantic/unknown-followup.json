@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:03:40Z",
+  "generated_at": "2026-10-05T22:04:45Z",
   "classification_note": "failure_signature 係由各筆 evidence.note 依固定規則判定，規則如下：http_404／http_403 依回應碼；mops_non_document 依「320 bytes|690 bytes|111 bytes|244 bytes」；garbled_text_layer 依「亂碼|mojibake|字元位移|字形映射錯誤」；tls_failure 依「SSL|TLS|安全通道」；download_timeout 依「逾時|timeout」；connection_failure 依「無法連線|連接意外關閉|無法解析遠端名稱|DNS|中止」；image_only_or_tiny_text 依「僅[數字]字元|僅得4頁|擷取0字元」；client_rendered_only 依「前端渲染|JavaScript|靜態 HTML|導覽／下載頁|網站選單」；no_official_endpoint_found 依「未查得|未取得可檢視|未取得可判讀|未具名任何|未具名該客戶|未載該第三人|未取得…本身|實質營運內容未見|無法用以判讀」；non_document_response 依「非文件內容|顯非完整文件|並非年報本身」；source_identity_mismatch 依「身分不符|屬另一法人|並非同一法人|並非…之文件|為香港聯合交易所之上市文件」。未命中任一規則者歸為 other_unclassified。一筆可同時帶有多個標記。",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -204,12 +204,13 @@
     "author-198",
     "author-199",
     "author-200",
-    "author-201"
+    "author-201",
+    "author-202"
   ],
-  "source_batch_count": 201,
-  "total_unknown": 272,
+  "source_batch_count": 202,
+  "total_unknown": 274,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 115,
+    "no_official_endpoint_found": 117,
     "other_unclassified": 105,
     "tls_failure": 13,
     "mops_non_document": 39,
@@ -2997,7 +2998,7 @@
       "claim": "最大客戶[[Stanley Black & Decker]] (含[[DEWALT]])，另供應[[SawStop]]及[[TTI]] (RYOBI)。",
       "batch_id": "author-138",
       "failure_signature": [
-        "other_unclassified"
+        "no_official_endpoint_found"
       ],
       "attempted_sources": [
         "https://cdn.financialreports.eu/financialreports/media/filings/51861/2026/RNS/51861_rns_2026-05-13_6dbdc32a-2185-4cf0-bb5e-a5a8033187e8.pdf"
@@ -4200,6 +4201,34 @@
       ],
       "attempted_sources": [
         "https://mopsov.twse.com.tw/nas/STR/622020260626E001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6263:material_named_relationship:b8c4cba57cba6846",
+      "ticker": "6263",
+      "company": "普萊德",
+      "claim": "除了須深深仰賴 [[Broadcom]] (博通)、[[瑞昱]] 這兩隻掌握所有消費/工業級網通底層邏輯晶片最終生殺大權的無可取代超級晶片設計原廠之外，普萊德的核心供應鏈亦涵蓋打入其合格供應商名單的台灣在地深度合作零組件夥伴陣列，包含功率元件及電源大廠盛達 (3027)、電信及網通模組廠台[[聯電]] (4905)，以及精密感測器及 IIoT 整合模組廠正能量智能 (5348) 等，確保台灣自身供應鏈安全自主。",
+      "batch_id": "author-202",
+      "failure_signature": [
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://ftp.planet.com.tw/storage/local-ir-yearly-reports/42483/2024%e5%b9%b4%e5%ba%a6%e5%85%ac%e5%8f%b8%e5%b9%b4%e5%a0%b1.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6417:profitability_assertion:786b6167ef6e8579",
+      "ticker": "6417",
+      "company": "韋僑",
+      "claim": "在超高毛利的醫療領域，則已切入骨科手術耗材追蹤巨頭 [[Medtronic]] (美敦力)、[[Stryker]] (施樂輝) 等頂尖醫材帝國的止血紗布及手術器械管控系統；",
+      "batch_id": "author-202",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://www.sag.com.tw/wp-content/uploads/2024/08/%E9%9F%8B%E5%83%912023%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 09:04 UTC
+Updated: 2026-10-13 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,045 / 1,399**
-- Remaining author review: **354**
-- Latest batch: **author-201** (5 claims)
+- Author-reviewed: **1,051 / 1,399**
+- Remaining author review: **348**
+- Latest batch: **author-202** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **96**
-- `PARTIALLY_SUPPORTED`: **673**
+- `PARTIALLY_SUPPORTED`: **677**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **272**
+- `UNKNOWN_AFTER_RESEARCH`: **274**
 
 ## Latest claim batch
 
-- `6220:profitability_assertion:340f4e1af42c6eb1`、`e4804995c2f71ae0` — `UNKNOWN_AFTER_RESEARCH` ×2；岳豐簡報（中英夾雜）「**Belkin／Sony／高毛利」皆 0 次**。
-- `6263:profitability_assertion:6cfe46cddd0516ae` — `PARTIALLY_SUPPORTED`；普萊德年報「**物聯網」23 次、「工業級」20 次、「AIoT」20 次、「綠能」13 次、「ESG」46 次、「嚴苛」5 次**，**且「高毛利」出現 2 次（本審核首見）**；惟 claim 之「**嚴苛溫濕度**」為文件所無（年報所載為軌道／電源／防火標準）。
-- `6263:profitability_assertion:da1193423fc3281b` — `PARTIALLY_SUPPORTED`；「**PLANET」70 次、「自有品牌」5 次、「高毛利」2 次**；惟「極端／高黏著度／神聖使命」等修辭未獲支持。
-- `6263:profitability_assertion:f57ab46a50fa42ec` — `PARTIALLY_SUPPORTED`；「**160」8 次、「代理」19 次、「高毛利」2 次**；惟「單價」「排外」「鐵軍」「話術」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-201.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `6263:material_named_relationship:b8c4cba57cba6846` (普萊德).
+- `6263:material_named_relationship:b8c4cba57cba6846` — `UNKNOWN_AFTER_RESEARCH`；普萊德年報「**Broadcom／博通／瑞昱」皆 0 次**。
+- `6285:material_named_relationship:b8e94427fc91e691` — `PARTIALLY_SUPPORTED`；啟碁ESG「**RF」4 次、「天線」4 次、「低軌衛星」1 次**；惟「電信營運商」0次。
+- `6285:material_named_relationship:acaea29878c8bc70` — `PARTIALLY_SUPPORTED`；「低軌衛星」1次；惟「電信營運商／車廠／Tier 1」皆0次。
+- `6417:profitability_assertion:c50ead0cffa828d8` — `PARTIALLY_SUPPORTED`；韋僑ESG「**標籤」23 次、「客製化」2 次**；惟「紅海／差異化／高毛利」皆0次。
+- `6417:profitability_assertion:bd8776e7bb126378` — `PARTIALLY_SUPPORTED`；「標籤」23次、「客製化」2次；惟「高毛利／鍛造／黑牌」皆0次。
+- `6417:profitability_assertion:786b6167ef6e8579` — `UNKNOWN_AFTER_RESEARCH`；「**Medtronic／Stryker」皆 0 次**。
+- **里程碑：author 已審 **1,051** 筆 claim（75.1%）。**
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-202.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `6465:material_named_relationship:1b1eac4e47b8e85f` (威潤).
 
 ## Source access
 
