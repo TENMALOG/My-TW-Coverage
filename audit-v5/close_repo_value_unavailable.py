@@ -214,6 +214,12 @@ def main():
         json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     print(json.dumps({k: v for k, v in out.items() if k != "results"}, ensure_ascii=False, indent=2))
+    if failures_total:
+        print(json.dumps(
+            [{"ticker": r["ticker"], "company": r["company"], "path": r["path"], "failures": r["failures"]} for r in results if r["failures"]],
+            ensure_ascii=False,
+            indent=2,
+        ))
     raise SystemExit(0 if failures_total == 0 else 2)
 
 
