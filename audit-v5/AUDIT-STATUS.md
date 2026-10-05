@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-13 18:04 UTC
+Updated: 2026-10-13 19:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **1,082 / 1,399**
-- Remaining author review: **317**
-- Latest batch: **author-210** (4 claims)
+- Author-reviewed: **1,086 / 1,399**
+- Remaining author review: **313**
+- Latest batch: **author-211** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **98**
-- `PARTIALLY_SUPPORTED`: **697**
+- `PARTIALLY_SUPPORTED`: **700**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **283**
+- `UNKNOWN_AFTER_RESEARCH`: **284**
 
 ## Latest claim batch
 
-- `5271:material_named_relationship:41d4aa5ed2bf3155` — `UNKNOWN_AFTER_RESEARCH`；紘通文件（**股東會議事手冊**）「**ADAS／行車記錄器／HUD／車用」皆 0 次**。
-- `6188:profitability_assertion:4ec34a9e9eccbacc` — `PARTIALLY_SUPPORTED`；達明簡報「**廣明」12 次**（集團關係可見）；惟「**廣達／光碟機／儲存／高毛利」皆 0 次**。
-- `6188:material_named_relationship:54495851443675a1` — `PARTIALLY_SUPPORTED`；簡報「**達明」18 次、「協作」7 次、「半導體」4 次**；惟「**車廠／NVIDIA」皆 0 次**。
-- `6199:material_named_relationship:b12cc71712380247` — `ACCEPTED`；天品簡報**逐字載**「**Rubin 系統：挑戰極致潔淨標準**」「**Rubin 專屬超規格（The Rubin Standard）**：針對新一代 **Rubin 機台**，將標準推升至 **<50um**」與「**AI 伺服器清洗**」（清洗13次、水冷1次、液冷2次、散熱2次）——**逐項對應**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-210.json`（4 筆）。未修改發行人報告。
+- `6570:material_named_relationship:59da3ec0e0c09ed6` — `PARTIALLY_SUPPORTED`；維田簡報載「專案涵蓋**半導體設備、工廠自動化**、AI 機器人」（AIoT 3次、半導體1次）；**惟「智連工控／德鑫／先進封裝／廠務」皆 0 次**。
+- `6591:profitability_assertion:3a0bf0736d4e273c` — `UNKNOWN_AFTER_RESEARCH`；動力-KY端點 **HTTP 404**。
+- `6805:material_named_relationship:7248e67073f8b3fa` — `PARTIALLY_SUPPORTED`；富世達年報**逐字載**「主要產品為**摺疊手機**…**轉軸**零件…客戶群，如**戴爾，聯想，華為**等」（轉軸30次、華為2次）；**惟「三折／Mate XT」皆 0 次**（年報為111年度，早於Mate XT發表）。
+- `6805:material_named_relationship:c29ff8e8534503e0` — `PARTIALLY_SUPPORTED`；華為為其客戶並載摺疊手機轉軸；**惟「獨家」0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-211.json`（4 筆）。未修改發行人報告。
 - Next pending claim by priority: `5310:profitability_assertion:ccc836ffe3afcdca` (天剛).
 
 ## Source access

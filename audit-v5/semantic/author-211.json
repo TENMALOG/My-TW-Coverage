@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-211",
+  "reviewed_at": "2026-10-05T22:15:12Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (維田法人說明會簡報; 富世達111年度年報); 動力-KY端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "6570:material_named_relationship:59da3ec0e0c09ed6",
+      "normalized_claim_hash": "59da3ec0e0c09ed6c4970af1028c13728f5c12dc23ddeadfb77f7b9fcc17066e",
+      "ticker": "6570",
+      "company": "維田",
+      "path": "Pilot_Reports/Computer Hardware/6570_維田.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "近年來，維田積極轉型為AIoT系統解決方案商，並攜手轉投資公司「智連工控」組成德鑫[[半導體]]聯盟，成功從傳統廠務[[自動化]]打入附加價值極高的台系及美系[[半導體]]先進封裝([[CoWoS]])設備供應鏈。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/657020260903M001.pdf",
+          "title": "維田科技股份有限公司（維田，6570，Aplex Technology）法人說明會簡報（2026-09-03）",
+          "source_level": 3,
+          "period_binding": "2026年9月3日。",
+          "accessed_at": "2026-10-13",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,563字元，以圖形排版為主）。簡報載「需求看旺，維田專案涵蓋**半導體設備**、**工廠自動化**、石油防爆、**AI 機器人**等。大型專案及延（…）」（「**AIoT**」3次、「**半導體**」1次、「**自動化**」1次），**支持其半導體設備與工廠自動化專案之敘述**。**關鍵發現**：全份簡報中「**智連工控**」「**德鑫**」「**先進封裝**」與「廠務」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「積極轉型為 **AIoT** 系統解決方案商…打入**台系及美系半導體**（設備）」獲發行人簡報支持：簡報中「**AIoT**」3次，並載「需求看旺，維田專案涵蓋**半導體設備**、**工廠自動化**、石油防爆、**AI 機器人**等」（「半導體」1次、「自動化」1次）。**惟多項具名關係未獲支持**：(1)「攜手轉投資公司『**智連工控**』」——出現次數為**0**；(2)「組成**德鑫**（半導體聯盟）」——「**德鑫**」為**0**；(3)「打入…**先進封裝**（供應鏈）」——「**先進封裝**」為**0**；(4)「從傳統**廠務**自動化」——「廠務」為**0**。故部分成立。",
+      "proposed_text": "維田科技 (6570，Aplex Technology) 之專案涵蓋半導體設備、工廠自動化及 AI 機器人等領域。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6591:profitability_assertion:3a0bf0736d4e273c",
+      "normalized_claim_hash": "3a0bf0736d4e273cbd6d1ed96178386c32ccf581ca5c78e1d11c82afff96831d",
+      "ticker": "6591",
+      "company": "動力-KY",
+      "path": "Pilot_Reports/Computer Hardware/6591_動力-KY.md",
+      "signal_type": "profitability_assertion",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "為降低對單一市場的依賴並追求高毛利，公司近年來積極將核心的風扇技術轉向高規的[[伺服器]](Server)[[散熱]]、車載電子(Automotive)、強固型工業控制及商用大型健身器材等「非顯示卡」領域。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/659120240326M001.pdf",
+          "title": "動力科技股份有限公司（動力-KY，6591，TVS）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-13。",
+          "accessed_at": "2026-10-13",
+          "note": "本批次自公開資訊觀測站端點下載動力-KY簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得動力-KY可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「為降低對單一市場的依賴並追求高毛利，積極將核心的**風扇**技術轉向高規的[[伺服器]]**散熱**、**車載電子**、**強固型工業控制**及商用大型（…）」未獲確立：本批次自公開資訊觀測站端點下載動力-KY簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6805:material_named_relationship:7248e67073f8b3fa",
+      "normalized_claim_hash": "7248e67073f8b3fab9fb53bf95aef26337e8fd4c3ce20f841c5d0950742b3f7b",
+      "ticker": "6805",
+      "company": "富世達",
+      "path": "Pilot_Reports/Computer Hardware/6805_富世達.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[華為]] — 全球首款三折機 Mate XT 獨家轉軸供應",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6805_111.pdf",
+          "title": "富世達股份有限公司（富世達，6805，FOSITEK）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022年）。**早於 claim 所述之 Mate XT 產品（2024年發表）**。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取14,551字元）。年報「經營者的話」載「富世達是一個**轉軸**零組件的領導廠商，主要產品為**摺疊手機**、筆記型電腦、平板電腦之**轉軸**零件，並擁有為數不少的知名電腦、手機大廠客戶群，如**戴爾，聯想，華為**等」（「**轉軸**」30次、「**華為**」2次），**逐字支持其摺疊手機轉軸業務並具名華為為客戶**。**關鍵發現**：全份年報中「**三折**」「**Mate XT**」與「**獨家**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[華為]]（為其客戶）」獲發行人年報**逐字支持**：年報載「主要產品為**摺疊手機**、筆記型電腦、平板電腦之**轉軸**零件，並擁有為數不少的知名電腦、手機大廠客戶群，如**戴爾，聯想，華為**等」（「**轉軸**」30次、「**華為**」2次），**具名華為為其客戶並支持其摺疊手機轉軸業務**。**惟兩項陳述未獲支持**：(1)「全球首款**三折機**」——「**三折**」出現次數為**0**；(2)「**Mate XT**」——為**0**。故部分成立。**時點註記**：本件為 **111 年度（2022年）**年報，**早於** Mate XT 之發表（2024年）。",
+      "proposed_text": "富世達 (6805，FOSITEK) 為摺疊手機轉軸零件廠商，客戶包含華為、戴爾、聯想等。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6805:material_named_relationship:c29ff8e8534503e0",
+      "normalized_claim_hash": "c29ff8e8534503e05af704b2b38545ecd433f68e2a1c6a220025f4fbe15abc4e",
+      "ticker": "6805",
+      "company": "富世達",
+      "path": "Pilot_Reports/Computer Hardware/6805_富世達.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[華為]] — Mate XT 三折機獨家轉軸供應商",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6805_111.pdf",
+          "title": "富世達股份有限公司（富世達，6805，FOSITEK）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度（2022年）。**早於 claim 所述之 Mate XT 產品（2024年發表）**。",
+          "accessed_at": "2026-10-13",
+          "note": "自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取14,551字元）。年報「經營者的話」載「富世達是一個**轉軸**零組件的領導廠商，主要產品為**摺疊手機**、筆記型電腦、平板電腦之**轉軸**零件，並擁有為數不少的知名電腦、手機大廠客戶群，如**戴爾，聯想，華為**等」（「**轉軸**」30次、「**華為**」2次），**逐字支持其摺疊手機轉軸業務並具名華為為客戶**。**關鍵發現**：全份年報中「**三折**」「**Mate XT**」與「**獨家**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「[[華為]] — 三折機…**轉軸供應商**」獲發行人年報之**部分支持**：年報具名華為為其客戶，並載其產品為「**摺疊手機**…之**轉軸**零件」（「轉軸」30次）。**惟「Mate XT」與「**獨家**供應」未獲支持**：「**Mate XT**」與「**獨家**」之出現次數**均為0**。故部分成立。**時點註記**：本件為111年度年報，**早於** Mate XT 之發表。",
+      "proposed_text": "富世達 (6805) 為華為之摺疊手機轉軸零件供應商。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

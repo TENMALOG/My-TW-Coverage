@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T22:14:21Z",
+  "generated_at": "2026-10-05T22:15:26Z",
   "classification_rule_source": "semantic/inventory-rules.json（已凍結；每輪直接讀取該檔之 patterns 與 order，不再人工重打正則）",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得、claim 與 ticker 身分不符，或所取得檔案經確認為其他公司之文件，而非 claim 內容經證實有誤。",
   "source_batches": [
@@ -213,17 +213,18 @@
     "author-207",
     "author-208",
     "author-209",
-    "author-210"
+    "author-210",
+    "author-211"
   ],
-  "source_batch_count": 210,
-  "total_unknown": 283,
+  "source_batch_count": 211,
+  "total_unknown": 284,
   "failure_signature_counts": {
-    "no_official_endpoint_found": 117,
+    "no_official_endpoint_found": 118,
     "other_unclassified": 113,
     "tls_failure": 13,
     "mops_non_document": 39,
     "non_document_response": 37,
-    "http_404": 50,
+    "http_404": 51,
     "image_only_or_tiny_text": 18,
     "http_403": 15,
     "connection_failure": 14,
@@ -4365,6 +4366,21 @@
       ],
       "attempted_sources": [
         "http://www.hometom.com.tw/upload/20201209160225.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
+    },
+    {
+      "claim_id": "6591:profitability_assertion:3a0bf0736d4e273c",
+      "ticker": "6591",
+      "company": "動力-KY",
+      "claim": "為降低對單一市場的依賴並追求高毛利，公司近年來積極將核心的風扇技術轉向高規的[[伺服器]](Server)[[散熱]]、車載電子(Automotive)、強固型工業控制及商用大型健身器材等「非顯示卡」領域。",
+      "batch_id": "author-211",
+      "failure_signature": [
+        "http_404",
+        "no_official_endpoint_found"
+      ],
+      "attempted_sources": [
+        "https://mops.twse.com.tw/nas/STR/659120240326M001.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件（年報、公開說明書、法人說明會簡報）重查；若為第三人市場地位或具名客戶之 claim，須另尋載明該具名對象之官方文件"
     }
