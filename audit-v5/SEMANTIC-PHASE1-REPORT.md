@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **504 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), and `author-087` (6).
+Author-reviewed: **512 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), and `author-088` (8).
 
 - ACCEPTED by author: 71
-- PARTIALLY_SUPPORTED: 334
+- PARTIALLY_SUPPORTED: 338
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 95
-- Remaining author queue: 895
+- Other allowed author decisions: 99
+- Remaining author queue: 887
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1030,6 +1030,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **95 筆**。
 - Author-reviewed total: **504 / 1,399**; remaining: **895**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 334, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 95. Next pending claim by priority: `6671:objective_ranking_or_market_share:1c6728d636eea59e` (三能-KY).
+
+## Author batch `author-088` — 2026-10-08
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (三能-KY 6671, 富堡 8929, 震旦行 2373, 巨路 6192 ×5). Evidence came from directly downloaded and inspected official disclosures: 三能集團年報、富堡公司年報營運概況、巨路111年度年報。
+- `6671:objective_ranking_or_market_share:1c6728d636eea59e` — `PARTIALLY_SUPPORTED`. 三能集團官方年報載其「營運模式係以**自有品牌**之銷售為（主）」（「自有品牌」3次、「**SANNENG**」18次、「烘焙」353次、「烤模」10次），支持其自有品牌烘焙器具業務；惟「**UNOPAN**」出現次數為0，且「在亞洲商用烘焙市場**享有極高市佔率**」未獲支持——「市佔」1次之上下文為「提升線上銷售**市佔率**…」之**營運目標**敘述。
+- `8929:objective_ranking_or_market_share:9995e14a016110bb` — `PARTIALLY_SUPPORTED`. 富堡官方文件載「**成人紙尿褲**」25次、「**看護墊**」4次、「**復健褲**」2次、「**安安**」1次，與 claim 所列產品線及品牌相符；惟「在台灣市場佔有**一至二成市佔率**」未獲支持（「市佔」與「Ancare」均為0次）。
+- `2373:objective_ranking_or_market_share:3dc2f728f9ba57e4` — `UNKNOWN_AFTER_RESEARCH`. 震旦行官方網域之108年股東會年報端點、106.pdf 端點與2025永續報告書端點**均回應 HTTP 404**，未取得可檢視之官方文件，故其成立年與「台灣最大辦公設備通路集團之一」之地位未獲確立。
+- `6192:objective_ranking_or_market_share:7b550e9b311db4ef` 與 `3a45ecd2ce0afe92` — `PARTIALLY_SUPPORTED`. 巨路111年度年報載「巨路在產品面主要與國際程控**領導品牌 Emerson** 合作，與其**共同開發大中華**（市場）」及「巨路合作夥伴 Emerson 仍為程控廠商之技術及品牌**領導廠商**」（「Emerson」4次、「程控」108次、「代理」43次），支持其與 Emerson 之合作與代理關係。惟「**獨家**代理」未獲支持（「獨家」0次，且年報載其「主要供應商包括 Emerson、ABB、Honeywell、Yokogawa 及 Siemens 等」）、「**最大**程控設備原廠」未獲支持（官方用語為「領導廠商」「領導品牌」）、「協助**台積電**等半導體大廠…進行全球建廠之自動化控制專案」亦未獲支持（「台積電」0次）。
+- `6192:objective_ranking_or_market_share:9d3d9e091d15025a`、`29dfc8d397ce595b`、`7b53b3873666c020` — `UNKNOWN_AFTER_RESEARCH`. 三筆均為「台積電為程控營收最大客戶、約佔三成／30%」之具名客戶與集中度陳述；年報中「**台積電**」與「**三成**」出現次數均為0，且「**30%**」8次之上下文均為**淨值比率**（如「不超過本公司之淨值30%」），故依一致性規則結為 UNKNOWN。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **99 筆**。
+- Author-reviewed total: **512 / 1,399**; remaining: **887**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 338, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 99. Next pending claim by priority: `6192:objective_ranking_or_market_share:d0ce09fbc459509c` (巨路).
+
 
 
 

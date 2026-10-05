@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 15:04 UTC
+Updated: 2026-10-08 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **504 / 1,399**
-- Remaining author review: **895**
-- Latest batch: **author-087** (6 claims)
+- Author-reviewed: **512 / 1,399**
+- Remaining author review: **887**
+- Latest batch: **author-088** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **334**
+- `PARTIALLY_SUPPORTED`: **338**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **95**
+- `UNKNOWN_AFTER_RESEARCH`: **99**
 
 ## Latest claim batch
 
-- `9935:objective_ranking_or_market_share:edace39a5abeffd8` — `UNKNOWN_AFTER_RESEARCH`；慶豐富2018簡報「Walmart」「沃爾瑪」皆0次（窗簾11次）。
-- `1732:objective_ranking_or_market_share:481aee35491d420d` — `PARTIALLY_SUPPORTED`；毛寶2020 CSR報告載「冷洗精」3次之產品線敘述；惟「白鷺」「市佔」皆0次。
-- `6504:objective_ranking_or_market_share:a9d7ea309cd8da26` — `PARTIALLY_SUPPORTED`；南六年報載「2023年**全球不織布銷售排名，本公司係列於第23名**」（在「全球前40大」範圍內）與「水針不織布」（水針35次、不織布153次）；惟「**亞洲水針不織布供應龍頭**」未獲支持（年報用語為「亞洲地區**重要的**不織布大廠」；「龍頭」1次實為「**水龍頭**」），「1972」0次。
-- `6504:objective_ranking_or_market_share:dad592a04c1ad087`、`b60ee696040661e2` — `PARTIALLY_SUPPORTED` ×2；南六年報載下游生技產品含「柔濕巾、面膜、乳液」；惟「**蘭韻**」「**康乃馨**」「**化妝棉**」皆0次。
-- `9919:objective_ranking_or_market_share:2affdfaaf7479723` — `PARTIALLY_SUPPORTED`；康那香2026簡報「不織布」24次；惟「1968」「衛生用品」「全球前40」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-087.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6671:objective_ranking_or_market_share:1c6728d636eea59e` (三能-KY).
+- `6671:objective_ranking_or_market_share:1c6728d636eea59e` — `PARTIALLY_SUPPORTED`；三能年報載營運模式「係以**自有品牌**之銷售為（主）」（SANNENG 18次、烘焙353次、烤模10次）；惟「UNOPAN」0次，且「市佔」1次係「提升線上銷售**市佔率**」之**營運目標**。
+- `8929:objective_ranking_or_market_share:9995e14a016110bb` — `PARTIALLY_SUPPORTED`；富堡文件載成人紙尿褲25次、看護墊4次、復健褲2次、安安1次；惟「市佔」「Ancare」皆0次。
+- `2373:objective_ranking_or_market_share:3dc2f728f9ba57e4` — `UNKNOWN_AFTER_RESEARCH`；震旦行官方年報、106.pdf 與2025永續報告書端點**均回應HTTP 404**。
+- `6192:objective_ranking_or_market_share:7b550e9b311db4ef`、`3a45ecd2ce0afe92` — `PARTIALLY_SUPPORTED` ×2；巨路111年報載「主要與國際程控**領導品牌 Emerson** 合作，與其**共同開發大中華**」（Emerson 4次、程控108次、代理43次）；惟「**獨家**」0次（且主要供應商含ABB、Honeywell、Yokogawa、Siemens）、「**最大**程控原廠」未載（官方用語為「領導廠商」）、「台積電」0次。
+- `6192:objective_ranking_or_market_share:9d3d9e091d15025a`、`29dfc8d397ce595b`、`7b53b3873666c020` — `UNKNOWN_AFTER_RESEARCH` ×3；「台積電」「三成」皆0次，且「30%」8次均為**淨值比率**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-088.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `6192:objective_ranking_or_market_share:d0ce09fbc459509c` (巨路).
 
 ## Source access
 
