@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-159",
+  "reviewed_at": "2026-10-05T21:13:54Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (東隆興法人說明會簡報中英對照; 金洲法人說明會簡報; 利勤112年度年報)",
+  "items": [
+    {
+      "claim_id": "4401:objective_ranking_or_market_share:6969f05f343aab89",
+      "normalized_claim_hash": "6969f05f343aab8993be4ae47124cde81be561f6707f09a486535f3dd39e3526",
+      "ticker": "4401",
+      "company": "東隆興",
+      "path": "Pilot_Reports/Textile Manufacturing/4401_東隆興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**東隆興業** (4401) 為亞洲最大之 [[尼龍 66]] 線紗供應商，亦是台灣 [[機能性加工絲]] 領導廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/440120251030E001.pdf",
+          "title": "東隆興業股份有限公司（東隆興，4401，Toung Loong Textile Mfg.）法人說明會簡報（中英對照）",
+          "source_level": 3,
+          "period_binding": "2025年10月30日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取9,108字元，以圖形排版為主）。簡報載「東隆興業股份有限公司 **TOUNG LOONG TEXTILE MFG. CO., LTD.**」「法人說明會 Investor Conference」「Stock code：4401」，並見「**yarn**」10次、「**Nylon**」2次、「sportswear」2次，支持其線紗（yarn）及尼龍相關業務。全份簡報中「**largest**」與「**Asia**」之出現次數**均為0**；中文關鍵字「尼龍 66」「線紗」「機能性」「加工絲」「亞洲」「最大」「領導」除「Nylon 66」1次外均為0。**方法論註記：本件為中英對照之圖形排版簡報，中文關鍵字檢索不具意義。**"
+        }
+      ],
+      "rationale": "「為[[尼龍 66]]線紗（yarn）供應商」獲發行人簡報支持：簡報（中英對照）見「**yarn**」10次、「**Nylon**」2次、「sportswear」2次，支持其線紗及尼龍相關業務。惟三項陳述未獲支持：(1)「**亞洲最大**」——「**largest**」「**Asia**」之出現次數**均為0**；(2)「[[尼龍 66]]」——中文詞為0；(3)「亦是台灣[[機能性加工絲]]**領導**廠商」——「領導」與「機能性加工絲」均為0。故部分成立（並註記該簡報為圖形排版，文字擷取僅9,108字元）。",
+      "proposed_text": "東隆興業 (4401，Toung Loong Textile Mfg.) 為尼龍線紗（yarn）供應商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4417:objective_ranking_or_market_share:1a2bf66757d1745b",
+      "normalized_claim_hash": "1a2bf66757d1745b9c788d91e090fa890bf7fe2cec4cb02cfafaa4b9859c0a3b",
+      "ticker": "4417",
+      "company": "金洲",
+      "path": "Pilot_Reports/Textile Manufacturing/4417_金洲.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**金洲海洋科技** (4417) 為全球前三大、台灣第一大 [[漁網]] 製造商，以自有品牌 **King Net** 行銷全球。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/441720250918M001.pdf",
+          "title": "金洲海洋科技股份有限公司（金洲，4417，King Net Marine Technology）法人說明會簡報（2025-09-18）",
+          "source_level": 3,
+          "period_binding": "2025年9月18日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取4,657字元，以圖形排版為主）。簡報載「●各種漁具、**漁網**、線(繩)、索等之製造、加工、內外銷業務」（「**漁網**」7次、「海洋」7次、「自有品牌」1次），並載其市場地位之**量化敘述**：「數量位居**全球第㇐**，其規模是第2至第5名總和的三倍」。**關鍵發現**：該處之「第**㇐**」為 **CJK 筆畫字元**（U+31D0／CJK Stroke），**非**漢字「一」（U+4E00），**故以「第一」檢索之出現次數為0**（本審核第 8 類字形落差之又一實例，繼 U+2F00 康熙部首、U+FA1B 相容表意字之後）。全份簡報中「**King Net**」之出現次數為0。"
+        }
+      ],
+      "rationale": "「為[[漁網]]製造商」及「**全球前三大**」獲發行人簡報支持：簡報載「●各種漁具、**漁網**、線(繩)、索等之製造、加工、內外銷業務」，並載其市場地位之量化敘述——「**數量位居全球第㇐（一），其規模是第2至第5名總和的三倍，排名第2至第5依（序）**」（「**漁網**」7次、「海洋」7次），**該敘述不僅支持「全球前三大」，實已載明其位居全球第一**。惟兩項陳述未獲支持：(1)「**台灣第一大**」——簡報未以「台灣第一大」表述（僅述全球排名）；(2)「以自有品牌 **King Net** 行銷全球」——「**King Net**」之出現次數為**0**（「自有品牌」1次）。故部分成立。**字形註記**：文中「第**㇐**」為 CJK 筆畫字元（非漢字「一」），以「第一」檢索無法命中。",
+      "proposed_text": "金洲海洋科技 (4417，King Net Marine Technology) 為漁網製造商，數量位居全球第一，規模為第2至第5名總和的三倍。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4426:objective_ranking_or_market_share:61a3927d443dd49c",
+      "normalized_claim_hash": "61a3927d443dd49c098c227787ecfb5c1cf0f07bbea69921dc3f5f096410be52",
+      "ticker": "4426",
+      "company": "利勤",
+      "path": "Pilot_Reports/Textile Manufacturing/4426_利勤.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**利勤實業** (4426) 為全球最大之 **[[3D 立體織物]]** (Spacer Fabrics) 領導廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.li-cheng.com.tw/storage/upload/ab/file/2024-08-26/906noFQBnTCG7CbIqEiOwlyA3dZ1AS2R0hUp2Z0i.pdf",
+          "title": "利勤實業股份有限公司（利勤，4426，Li Cheng Enterprise）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取182,193字元）。年報中「**立體織物**」出現22次、「**Nike**」10次、「Adidas」2次，並載「**立體織物為主力**，且不斷致力開發新產品」與「94年06月**本公司與NIKE 合作研發，並由本公司生產之第一塊全電腦無接縫鞋型圖案立體織物**」，支持其 3D 立體織物業務及與 Nike 之合作。全份年報中「**全球最大**」與「**最大客戶**」之出現次數**均為0**；「Spacer」1次。"
+        }
+      ],
+      "rationale": "「為 [[3D 立體織物]]（**立體織物**）業者」獲發行人年報支持：年報中「**立體織物**」出現22次、「**Spacer**」1次，並載「**立體織物為主力**，且不斷致力開發新產品」及「94年06月本公司與NIKE 合作研發，並由本公司生產之第一塊全電腦無接縫鞋型圖案**立體織物**」，支持其該項業務。惟「為**全球最大**之 3D 立體織物**領導廠商**」未獲支持：「**全球最大**」之出現次數為**0**。故部分成立。",
+      "proposed_text": "利勤實業 (4426，Li Cheng Enterprise) 以 3D 立體織物（Spacer Fabrics）為主力產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4426:objective_ranking_or_market_share:892c19ef3e0b894a",
+      "normalized_claim_hash": "892c19ef3e0b894aba371211f7112a6c77567009af3c32be5f1c667e02eca6b0",
+      "ticker": "4426",
+      "company": "利勤",
+      "path": "Pilot_Reports/Textile Manufacturing/4426_利勤.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nike]] (最大客戶，長期核心供應商)、[[Adidas]]、[[Reebok]]、[[Asics]]、[[New Balance]]",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.li-cheng.com.tw/storage/upload/ab/file/2024-08-26/906noFQBnTCG7CbIqEiOwlyA3dZ1AS2R0hUp2Z0i.pdf",
+          "title": "利勤實業股份有限公司（利勤，4426，Li Cheng Enterprise）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取182,193字元）。年報中「**立體織物**」出現22次、「**Nike**」10次、「Adidas」2次，並載「**立體織物為主力**，且不斷致力開發新產品」與「94年06月**本公司與NIKE 合作研發，並由本公司生產之第一塊全電腦無接縫鞋型圖案立體織物**」，支持其 3D 立體織物業務及與 Nike 之合作。全份年報中「**全球最大**」與「**最大客戶**」之出現次數**均為0**；「Spacer」1次、"
+        }
+      ],
+      "rationale": "「[[Nike]] 為其品牌客戶」獲發行人年報支持：年報中「**Nike**」出現10次、「Adidas」2次，並載「94年06月**本公司與NIKE 合作研發，並由本公司生產之第一塊全電腦無接縫鞋型圖案立體織物**」，支持其與 Nike 之研發合作關係。惟「（**最大客戶，長期核心供應商**）」未獲逐字支持：「**最大客戶**」之出現次數為**0**；「Reebok」「Asics」「New Balance」之出現次數亦均為0。故部分成立。",
+      "proposed_text": "利勤實業 (4426) 與 Nike 具研發合作關係，並供應 Adidas 等品牌。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

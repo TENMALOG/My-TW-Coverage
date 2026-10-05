@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 14:04 UTC
+Updated: 2026-10-11 15:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **880 / 1,399**
-- Remaining author review: **519**
-- Latest batch: **author-158** (2 claims)
+- Author-reviewed: **884 / 1,399**
+- Remaining author review: **515**
+- Latest batch: **author-159** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **91**
-- `PARTIALLY_SUPPORTED`: **576**
+- `PARTIALLY_SUPPORTED`: **580**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,10 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1440:objective_ranking_or_market_share:95d130b7d3a12dab` — `ACCEPTED`；南紡110年報**逐字載**「南紡以棉紗事業起家（…）**為國內最大棉紗廠**」——**逐字對應**（且強於 claim 之「之一」）。
-- `1447:objective_ranking_or_market_share:2c3ecc5fc9630935` — `ACCEPTED`；力鵬106年報**逐字載**「（一貫化）流程，**為亞洲地區最大之Nylon 6 粒製造商**」，且「力麗」15次支持集團歸屬——**逐字對應**。
-- 對照註記：同份力鵬年報另載「**成為全球最大尼龍粒供應商為目標**」（**目標敘述**），與上引之現狀敘述性質不同。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-158.json`（2 筆）。未修改發行人報告。
+- `4401:objective_ranking_or_market_share:6969f05f343aab89` — `PARTIALLY_SUPPORTED`；東隆興簡報（中英對照）「**yarn」10 次**、「Nylon」2次；惟「largest」「Asia」及中文「亞洲最大」「機能性加工絲」皆0次。
+- `4417:objective_ranking_or_market_share:1a2bf66757d1745b` — `PARTIALLY_SUPPORTED`；金洲簡報「**漁網」7 次**並載「**數量位居全球第㇐，其規模是第2至第5名總和的三倍**」；惟「台灣第一大」「King Net」皆0次。**「第㇐」為 CJK 筆畫字元**，故「第一」檢索為0。
+- `4426:objective_ranking_or_market_share:61a3927d443dd49c` — `PARTIALLY_SUPPORTED`；利勤年報「**立體織物」22 次**、「Spacer」1次；惟「全球最大」0次。
+- `4426:objective_ranking_or_market_share:892c19ef3e0b894a` — `PARTIALLY_SUPPORTED`；年報載「**本公司與NIKE 合作研發，並由本公司生產之第一塊…立體織物**」（Nike 10次）；惟「最大客戶」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-159.json`（4 筆）。未修改發行人報告。
 - Next pending claim by priority: `1451:objective_ranking_or_market_share:e4b27d6e2db182fd` (年興).
 
 ## Source access
