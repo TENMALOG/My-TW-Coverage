@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-182",
+  "reviewed_at": "2026-10-05T21:41:20Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台翰113年度年報; 正道107年度年報); 鴻華先進端點HTTP 404，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2258:control_acquisition:a2cce4203b591026",
+      "normalized_claim_hash": "a2cce4203b591026641dcfc4ba742003e463655380cd01d928bcef07c2e0593b",
+      "ticker": "2258",
+      "company": "鴻華先進-創",
+      "path": "Pilot_Reports/Auto Manufacturers/2258_鴻華先進-創.md",
+      "signal_type": "control_acquisition",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "已收購[[納智捷]] 100% 股權，推出自有品牌[[Foxtron]] Bria (Model B 量產版，89.9 萬元起)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/225820231121M001.pdf",
+          "title": "鴻華先進科技股份有限公司（鴻華先進-創，2258，Foxtron）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自公開資訊觀測站端點下載鴻華先進簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得鴻華先進可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「已收購[[納智捷]] 100% 股權，推出自有品牌[[Foxtron]] Bria（Model B 量產版，89.9 萬元起）」未獲確立：本批次自公開資訊觀測站端點下載鴻華先進簡報時回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2258:material_named_relationship:918bd151a76df137",
+      "normalized_claim_hash": "918bd151a76df13787fb26f0faec3fc90f6d31ad519b48d1f138fa204573be4f",
+      "ticker": "2258",
+      "company": "鴻華先進-創",
+      "path": "Pilot_Reports/Auto Manufacturers/2258_鴻華先進-創.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[MIH]]聯盟成員 — 台灣供應商佔比逾 50%",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mops.twse.com.tw/nas/STR/225820231121M001.pdf",
+          "title": "鴻華先進科技股份有限公司（鴻華先進-創，2258，Foxtron）官方端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-12。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次自公開資訊觀測站端點下載鴻華先進簡報時回應 **HTTP 404（找不到）**，未取得可檢視之檔案；本批次未取得鴻華先進可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「[[MIH]]聯盟成員 — 台灣供應商佔比逾 **50%**」未獲確立：同上，端點回應 **HTTP 404**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1336:material_named_relationship:060ea61467d8c536",
+      "normalized_claim_hash": "060ea61467d8c53661b940a7bb84d638e4e9894a525651573db1d1c154e532d6",
+      "ticker": "1336",
+      "company": "台翰",
+      "path": "Pilot_Reports/Auto Parts/1336_台翰.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為[[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]]等日系事務機品牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+          "title": "台翰精密科技股份有限公司（台翰，1336，Taihan Precision）113 年度年報",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取83,582字元）。年報中「**事務機**」出現9次、「**日系**」7次、「**Brother**」1次，支持其**日系事務機客戶**之敘述。全份年報中「**Canon**」「**Kyocera**」「**Epson**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶為**日系事務機**品牌」獲發行人年報支持：年報中「**事務機**」出現9次、「**日系**」7次、「**Brother**」1次，**支持其日系事務機客戶之敘述，並具名 Brother**。惟三項具名客戶未獲支持：「**Canon**」「**Kyocera**」與「**Epson**」之出現次數**均為0**。故部分成立。",
+      "proposed_text": "台翰精密科技 (1336，Taihan Precision) 之主要客戶包含 Brother 等日系事務機品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1506:material_named_relationship:bfd3eddf17697b9b",
+      "normalized_claim_hash": "bfd3eddf17697b9b2d4ed52f68f6bbeffb448e740b6fb89a0a8634165205f06c",
+      "ticker": "1506",
+      "company": "正道",
+      "path": "Pilot_Reports/Auto Parts/1506_正道.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[Trane Technologies]]/[[Thermo King]] (冷凍壓縮機)、[[BRP]]及[[Polaris]] (休閒載具)、[[Yamaha]]。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.rightway.com.tw/userfiles/107%e5%b9%b4%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "正道工業股份有限公司（正道，1506，Right Way）107 年度年報",
+          "source_level": 3,
+          "period_binding": "民國107年度（2018年）。**非近期版本**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取234,293字元）。年報中「**Thermo**」出現4次、「**壓縮機**」5次、「**BRP**」2次、「**冷凍**」2次，支持其**冷凍壓縮機**業務及與 Thermo（冷藏設備）與 BRP（休閒載具）之客戶關係。全份年報中「**Trane**」「**Polaris**」與「**Yamaha**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋冷凍壓縮機及休閒載具業者」獲發行人年報支持：年報（**107年度＝2018年，非近期版本**）中「**壓縮機**」出現5次、「**冷凍**」2次、「**Thermo**」4次、「**BRP**」2次，**支持其業務別並具名 Thermo 與 BRP**。惟三項具名客戶未獲支持：「**Trane**」「**Polaris**」與「**Yamaha**」之出現次數**均為0**（其中 Trane Technologies 為 Thermo King 之母公司）。故部分成立。",
+      "proposed_text": "正道工業 (1506，Right Way) 之主要客戶涵蓋冷凍壓縮機（Thermo）及休閒載具（BRP）業者。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

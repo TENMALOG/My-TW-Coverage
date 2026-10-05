@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 13:04 UTC
+Updated: 2026-10-12 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **969 / 1,399**
-- Remaining author review: **430**
-- Latest batch: **author-181** (4 claims)
+- Author-reviewed: **973 / 1,399**
+- Remaining author review: **426**
+- Latest batch: **author-182** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **632**
+- `PARTIALLY_SUPPORTED`: **634**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **239**
+- `UNKNOWN_AFTER_RESEARCH`: **241**
 
 ## Latest claim batch
 
-- `4438:material_named_relationship:71def6e48a4142d5` — `PARTIALLY_SUPPORTED`；廣越簡報「**adidas」7 次、「Nike」6 次、「Patagonia」4 次、「lululemon」3 次、「VF」2 次、「The North Face」1 次**——五品牌皆在；惟各品牌之訂單成長率無法由文字層確認。
-- `4438:material_named_relationship:103d9b9caad76508` — `PARTIALLY_SUPPORTED`；簡報**逐字載**「透過第**㇐**大供應商**福懋**（**全球最大的尼龍布供應商**）穩定供貨」；**惟「20%」各次上下文均非福懋持股**（約旦出貨比重／關稅／ROE 目標），「持股」「股東」皆0次。
-- `4438:material_named_relationship:d4f5adfeb43875d9`、`10d632776ea4921a` — `PARTIALLY_SUPPORTED` ×2；供應商關係成立；惟「20% 策略股東」與「設廠配合」皆未獲支持。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-181.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `2258:control_acquisition:a2cce4203b591026` (鴻華先進-創).
+- `2258:control_acquisition:a2cce4203b591026`、`2258:material_named_relationship:918bd151a76df137` — `UNKNOWN_AFTER_RESEARCH` ×2；鴻華先進端點 **HTTP 404**。
+- `1336:material_named_relationship:060ea61467d8c536` — `PARTIALLY_SUPPORTED`；台翰年報「**事務機」9 次、「日系」7 次、「Brother」1 次**；惟「**Canon／Kyocera／Epson」皆 0 次**。
+- `1506:material_named_relationship:bfd3eddf17697b9b` — `PARTIALLY_SUPPORTED`；正道年報（107年度）「**壓縮機」5 次、「Thermo」4 次、「BRP」2 次**；惟「**Trane／Polaris／Yamaha」皆 0 次**。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-182.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1521:material_named_relationship:3643e47a5051e4fd` (大億).
 
 ## Source access
 
