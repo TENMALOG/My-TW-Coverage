@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-071",
+  "reviewed_at": "2026-10-05T18:57:35Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (浪凡股東會議事手冊; 安碁2025年法人說明會簡報; 瑞儀111年度年報; 雷科2024年公司文件; 聚鼎2022年法人說明會簡報(英文版); 鈺邦112年度年報(英文版)); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a",
+      "normalized_claim_hash": "b2f8d9c3fcc1a02a01b1e4d84ba5fbd84904cd5974701b60d825e2add008e9fe",
+      "ticker": "6165",
+      "company": "浪凡",
+      "path": "Pilot_Reports/Electronic Components/6165_浪凡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "為台灣第一家上市直播公司，透過 [[AI]] 技術提升互動體驗。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://langinc.com.tw/wp-content/uploads/2023/11/20230607%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf",
+          "title": "浪凡網路科技股份有限公司（浪凡，6165，Lang Inc.）股東會議事手冊（2023）",
+          "source_level": 3,
+          "period_binding": "2023年。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。手冊載「本公司在積極轉型下，已有顯著成效，最主要為子公司旭瑞公司所帶來的**網路直播業務- 浪Live**，未來本公司將更進一步發展網際網路相關事業，**以直播事業為核心**、加強網路事業整合，將直播變現的模式複製於其他網路事業體」，支持其直播業務（「直播」22次、「上市」3次、「互動」3次）。全份手冊中「第一家」與「AI」之出現次數均為0，未以其為台灣第一家上市直播公司自稱，亦未載 AI 技術之應用。"
+        }
+      ],
+      "rationale": "「以直播為核心業務之上市公司」獲發行人議事手冊支持：手冊載「本公司在積極轉型下，已有顯著成效，最主要為子公司旭瑞公司所帶來的**網路直播業務- 浪Live**，未來本公司將更進一步發展網際網路相關事業，**以直播事業為核心**」（「直播」22次、「上市」3次、「互動」3次）。惟兩項陳述未獲支持：(1)「為台灣**第一家上市**直播公司」——全份手冊中「第一家」出現次數為0，未以其為第一家上市直播公司自稱；(2)「透過 **AI** 技術提升互動體驗」——「AI」出現次數為0。故部分成立。",
+      "proposed_text": "浪凡網路科技 (6165，Lang Inc.) 為上市公司，以子公司旭瑞公司之網路直播業務「浪Live」為核心事業。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6174:objective_ranking_or_market_share:d7e2f404f69ba714",
+      "normalized_claim_hash": "d7e2f404f69ba714d6aaf6bcf7af9348e010b4def66fe115aa8b68d10f1f83e4",
+      "ticker": "6174",
+      "company": "安��",
+      "path": "Pilot_Reports/Electronic Components/6174_安��.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品應用以車用電子為最大宗 (占比逾五成)，其餘涵蓋工業控制、電腦消費性產品及[[網通]]設備，銷售遍及兩岸、歐美。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/617420251127M001.pdf",
+          "title": "安碁科技股份有限公司（安碁，6174，Anche）法人說明會簡報（2025-11-27）",
+          "source_level": 3,
+          "period_binding": "2025年Q1-Q3財務數據；銷售比例為2025年Q1-Q3。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「設立日期：1990年12月1日」「上櫃日期：2002年5月2日(股票代號: 6174)」，並載「2025年Q1-Q3銷售比例- 地區別(%)」為台灣22%（2024年同期24%）、美國24%（1%）、大陸36%（36%）、歐洲15%（9%）、其他3%（12%），以及「2025年Q1-Q3產品別銷售分析 OSC & XTAL銷售金額佔比(%)」（OSC 含 OSC、TCXO、VCTCXO、DIFFERENTIAL OSC）。全份簡報中「車用」「工業控制」「網通」與「五成」之出現次數均為0；產品別分析係依產品型態（OSC & XTAL）而非依終端應用別。"
+        }
+      ],
+      "rationale": "「銷售遍及兩岸、歐美」獲發行人簡報支持：2025年官方簡報載「2025年Q1-Q3銷售比例- 地區別(%)」為台灣22%、美國24%、大陸36%、歐洲15%、其他3%（並列2024年同期比率），顯示其銷售涵蓋台灣、中國大陸、美國與歐洲。惟「產品應用以**車用電子為最大宗（占比逾五成）**，其餘涵蓋工業控制、電腦消費性產品及網通設備」未獲支持：簡報之產品別分析係依產品型態（**OSC & XTAL** 銷售金額佔比）而非依終端應用別，全份簡報中「車用」「工業控制」「網通」與「五成」出現次數均為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6176:objective_ranking_or_market_share:98d2560ecfdbae12",
+      "normalized_claim_hash": "98d2560ecfdbae12269ec0476d1b5316ea81e8d65b0a58d910b9f88ff07f0072",
+      "ticker": "6176",
+      "company": "瑞儀",
+      "path": "Pilot_Reports/Electronic Components/6176_瑞儀.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Apple]] — Macbook/iPad 背光模組 (最大客戶)",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_6176_111.pdf",
+          "title": "瑞儀光電（6176，Radiant Opto-Electronics）111 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-07",
+          "note": "同批查證已檢視之瑞儀111年度年報：全份文件中「Apple」與「最大客戶」之出現次數均為0，未具名任何客戶；年報僅載其「為台灣第一家專業從事背光模組(Backlight Module)研發與製造之廠商，逐（步）成為全球背光模組廠中領導地位」。"
+        }
+      ],
+      "rationale": "「Apple — Macbook/iPad 背光模組（最大客戶）」未獲確立：瑞儀111年度年報中「Apple」與「最大客戶」出現次數均為0，未具名任何客戶；另同批查證之2023年法人說明會簡報亦未載客戶名單。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6207:objective_ranking_or_market_share:5b5191cdf2afd95c",
+      "normalized_claim_hash": "5b5191cdf2afd95cf3448bafd27adf3368095299b1b4da2567a6f8a8d2346b2c",
+      "ticker": "6207",
+      "company": "雷科",
+      "path": "Pilot_Reports/Electronic Components/6207_雷科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "在雷射設備端，雷科的晶片電阻設備雷射修整機擁有極高全球市佔(約60%)；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://lasertek.com.tw/download/service/2024_20240619_01.pdf",
+          "title": "雷科股份有限公司（雷科，6207，Laser Tek）公司文件（2024）",
+          "source_level": 3,
+          "period_binding": "2024年刊印；內容含歷年營運資料。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「SMT 設備、**被動元件產業生產設備**等佔約**60%以上**」（該60%係產品別營收占比），並載其業務含「雷射精密加工、**雷射修整機**製造加工及銷售、測試探針卡設計及銷售、印刷（資材）」（「雷射修整機」2次、「晶片電阻」6次、「60%」4次、「市佔」1次）。「市佔」該次上下文為「（優）勢，可以增加整個市佔比率，亞洲區客戶也能持續擴展」之泛用語。全份文件未載該公司於晶片電阻設備或雷射修整機之全球市占率數字。"
+        }
+      ],
+      "rationale": "「從事晶片電阻設備之雷射修整機製造」獲發行人文件支持：2024年官方文件載其業務含「雷射精密加工、**雷射修整機**製造加工及銷售、測試探針卡設計及銷售」（「雷射修整機」2次、「晶片電阻」6次），並載「SMT 設備、**被動元件產業生產設備**等佔約60%以上」之產品別營收占比。惟「擁有**極高全球市佔（約60%）**」未獲支持：全份文件中「60%」出現4次，其上下文分別為產品別營收占比、持股比例（49.60%）與赴大陸投資限額等，**並非該公司於雷射修整機之全球市占率**；「市佔」僅1次且為泛用語。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6224:objective_ranking_or_market_share:163934390430b572",
+      "normalized_claim_hash": "163934390430b5722b80b2171ce1046c2436e179afbe7449cc53f7167c44ae8e",
+      "ticker": "6224",
+      "company": "聚鼎",
+      "path": "Pilot_Reports/Electronic Components/6224_聚鼎.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "Littelfuse(最大代工客戶及大股東)、中美系智慧型手機大廠、以及全球車用與[[消費性電子]]大廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/622420221214E001.pdf",
+          "title": "聚鼎科技股份有限公司（聚鼎，6224，Polytronics）法人說明會簡報（2022-12-14，英文版）",
+          "source_level": 3,
+          "period_binding": "2022年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文件為英文）。簡報「History 大事記」載「1998 SMD Mass Production for **ASUS customer**」「2014 Design-Win the **Top 3 global cell phone company**」「2021 Acquire TCLAD group from Henkel」等里程碑，並載其全球佈局（台灣新竹營運總部、美國威斯康辛 TCLAD、中國大陸昆山聚達、德國 TCLAD Europe）。全份簡報中「Littelfuse」「shareholder」「Shareholder」與「largest」之出現次數均為0，未載其股東結構或最大代工客戶。"
+        }
+      ],
+      "rationale": "「客戶涵蓋消費性電子與行動裝置品牌」獲發行人簡報部分支持：2022年官方簡報「大事記」載「1998 SMD Mass Production for **ASUS customer**」與「2014 Design-Win the **Top 3 global cell phone company**」，顯示其曾與華碩及全球前三大手機廠商有業務往來。惟「**Littelfuse**（最大代工客戶及**大股東**）」未獲支持：全份簡報中「Littelfuse」「shareholder」與「largest」出現次數均為0，未載其股東結構或最大代工客戶；「全球車用…大廠」亦未具名。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6449:objective_ranking_or_market_share:4466a7526d81896b",
+      "normalized_claim_hash": "4466a7526d81896bed7934691ab0f3394ecff1705235e017e6123f8af9310d24",
+      "ticker": "6449",
+      "company": "鈺邦",
+      "path": "Pilot_Reports/Electronic Components/6449_鈺邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "鈺邦科技股份有限公司 (6449) 隸屬於[[華新科]]集團，是全球產能及市佔率名列前茅的導電高分子固態電容(Solid Capacitor)製造商。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.apaq.com.tw/Templates/att/112-Annual-report.pdf",
+          "title": "鈺邦科技股份有限公司（鈺邦，6449，APAQ Technology）112 年度年報（英文版）",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文件為英文版）。年報「(2) Market share」段載「The Company and its subsidiaries are mainly engaged in the research, development, design, manufacturing, and sales of **solid-state capacitors**. At present, its main competitors include more than 10 manufacturers such as Chemicon, Nichicon, Panasonic, Elite and OC Con. The Company has gradually expanded its production capacity and market share. Currently, it has been the **largest supplier of coiled solid-state capacitors in the world with a leading position in the solid-state capacitor industry**」。年報「(IV) List of major shareholders」載「TAI-TECH ADVANCED ELECTRONICS CO., LTD. 25,000,000 28.11%」（最大股東）、Parawin Venture Capital Corp. 11.99%、TAIFLEX Scientific Co., Ltd. 6.90% 等，並註記「**INPAQ Technology Co., Ltd. was originally a corporate director of the Company. However, as of April 13, 2023, it ceased to hold directorship**」；關係人交易段落列有「**Walsin Technology**」（「Walsin」2次、「solid capacitor」30次、「market share」4次）。全份年報中「台灣最大」等中文表述不適用（文件為英文）。"
+        }
+      ],
+      "rationale": "claim 之核心地位獲發行人年報直接支持：112年度年報「Market share」段載「The Company has gradually expanded its production capacity and market share. Currently, it has been the **largest supplier of coiled solid-state capacitors in the world with a leading position in the solid-state capacitor industry**」，對應 claim 之「全球產能及市佔率名列前茅的導電高分子固態電容（Solid Capacitor）製造商」。集團歸屬方面，年報「主要股東」表列「**TAI-TECH ADVANCED ELECTRONICS CO., LTD. 25,000,000 股、28.11%**」為最大股東（Parawin Venture Capital 11.99%、TAIFLEX Scientific 6.90% 等次之），並另註記「INPAQ Technology 原為本公司法人董事，自2023年4月13日起解任」；關係人交易段落並列有「**Walsin Technology**」（華新科技）。上開最大股東與關係人資訊與 claim 之「隸屬於華新科集團」相符（惟年報未逐字使用「集團」一詞）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

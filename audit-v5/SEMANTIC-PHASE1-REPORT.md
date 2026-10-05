@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **394 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), and `author-070` (6).
+Author-reviewed: **400 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), and `author-071` (6).
 
-- ACCEPTED by author: 65
-- PARTIALLY_SUPPORTED: 252
+- ACCEPTED by author: 66
+- PARTIALLY_SUPPORTED: 256
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 73
-- Remaining author queue: 1,005
+- Other allowed author decisions: 74
+- Remaining author queue: 999
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -830,6 +830,20 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **73** 筆（本批次無新增 UNKNOWN）。
 - Author-reviewed total: **394 / 1,399**; remaining: **1,005**. Outcome counts: ACCEPTED 65, PARTIALLY_SUPPORTED 252, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 73. Next pending claim by priority: `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` (浪凡).
+
+## Author batch `author-071` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (浪凡 6165, 安碁 6174, 瑞儀 6176, 雷科 6207, 聚鼎 6224, 鈺邦 6449). Evidence came from directly downloaded and inspected official disclosures: 浪凡股東會議事手冊、安碁2025年法人說明會簡報、瑞儀111年度年報、雷科2024年公司文件、聚鼎2022年法人說明會簡報（英文版）、鈺邦112年度年報（英文版）。本批次完成後，author 已審 **400 / 1,399（28.6%）**。
+- `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` — `PARTIALLY_SUPPORTED`. 浪凡議事手冊載「最主要為子公司旭瑞公司所帶來的**網路直播業務- 浪Live**」「**以直播事業為核心**」（「直播」22次）；惟「第一家」與「AI」出現次數均為0。
+- `6174:objective_ranking_or_market_share:d7e2f404f69ba714` — `PARTIALLY_SUPPORTED`. 安碁2025年官方簡報載地區別銷售比例台灣22%、美國24%、大陸36%、歐洲15%、其他3%，支持「銷售遍及兩岸、歐美」；惟其產品別分析係依產品型態（**OSC & XTAL** 銷售金額佔比）而非終端應用別，「車用」「工業控制」「網通」與「五成」出現次數均為0。
+- `6176:objective_ranking_or_market_share:98d2560ecfdbae12` — `UNKNOWN_AFTER_RESEARCH`. 瑞儀111年度年報中「Apple」與「最大客戶」出現次數均為0，未具名任何客戶，依具名客戶身分規則結為 UNKNOWN。
+- `6207:objective_ranking_or_market_share:5b5191cdf2afd95c` — `PARTIALLY_SUPPORTED`. 雷科2024年官方文件載其業務含「雷射精密加工、**雷射修整機**製造加工及銷售、測試探針卡設計及銷售」；惟「60%」出現4次，上下文分別為「SMT 設備、被動元件產業生產設備等佔約**60%以上**」之**產品別營收占比**、持股比例（49.60%）與赴大陸投資限額，**並非該公司於雷射修整機之全球市占率**；「市佔」僅1次且為泛用語。
+- `6224:objective_ranking_or_market_share:163934390430b572` — `PARTIALLY_SUPPORTED`. 聚鼎2022年官方簡報「大事記」載「1998 SMD Mass Production for **ASUS customer**」與「2014 Design-Win the **Top 3 global cell phone company**」；惟「Littelfuse」「shareholder」與「largest」出現次數均為0，未載其股東結構或最大代工客戶。
+- `6449:objective_ranking_or_market_share:4466a7526d81896b` — `ACCEPTED`. 鈺邦112年度年報「Market share」段載「Currently, it has been the **largest supplier of coiled solid-state capacitors in the world with a leading position in the solid-state capacitor industry**」，對應 claim 之全球地位；年報主要股東表列「**TAI-TECH ADVANCED ELECTRONICS CO., LTD. 28.11%**」為最大股東，並註記「INPAQ Technology 原為本公司法人董事，自2023年4月13日起解任」，關係人交易段落列有「**Walsin Technology**」（華新科技），與 claim 之集團歸屬相符。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **74 筆**。
+- Author-reviewed total: **400 / 1,399**; remaining: **999**. Outcome counts: ACCEPTED 66, PARTIALLY_SUPPORTED 256, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 74. Next pending claim by priority: `6196:objective_ranking_or_market_share:c712b83c2829b483` (帆宣).
+
 
 
 

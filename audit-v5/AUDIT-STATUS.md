@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 22:04 UTC
+Updated: 2026-10-07 23:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,31 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **394 / 1,399**
-- Remaining author review: **1,005**
-- Latest batch: **author-070** (6 claims)
+- Author-reviewed: **400 / 1,399**
+- Remaining author review: **999**
+- Latest batch: **author-071** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **65**
-- `PARTIALLY_SUPPORTED`: **252**
+- `ACCEPTED`: **66**
+- `PARTIALLY_SUPPORTED`: **256**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **73**
+- `UNKNOWN_AFTER_RESEARCH`: **74**
 
 ## Latest claim batch
 
-- `5493:objective_ranking_or_market_share:f94ffe7b1a69c19b` — `ACCEPTED`; 三聯2024永續報告載「為**國內環境監測、微振動感測技術與系統整合服務第一品牌**」（地震29次、監測29次、預警15次、水庫3次、橋樑1次）。
-- `6120:objective_ranking_or_market_share:f6aa9a39447d6971`、`e0d35ee261ddca36` — `PARTIALLY_SUPPORTED` ×2; 達運文件載「本公司**法人董事友達光電(股)公司**於114.06.11改派代表人」（友達65次）、背光模組30次、導光板29次；惟「最大客戶」「主要客戶」皆0次。
-- `6124:objective_ranking_or_market_share:cd511f2d451fdacd` — `PARTIALLY_SUPPORTED`; 業強2025簡報「熱導管」3次、「熱導」4次；惟「台灣最大」「全球」「市占」皆0次。
-- `6176:objective_ranking_or_market_share:b2f52f3fc1ef841a`、`4f9df07548e31112` — `PARTIALLY_SUPPORTED` ×2; 瑞儀111年報載「為**台灣第一家**專業從事背光模組研發與製造之廠商」「**全球背光模組廠中領導地位**」；惟「全球第一」「第一大」「Apple」「最大客戶」「一條龍」皆0次。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-070.json`（6 筆）。未修改發行人報告。
-- Next pending claim by priority: `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` (浪凡).
+- `6165:objective_ranking_or_market_share:b2f8d9c3fcc1a02a` — `PARTIALLY_SUPPORTED`; 浪凡議事手冊載「網路直播業務-浪Live」「以直播事業為核心」（直播22次）；惟「第一家」「AI」皆0次。
+- `6174:objective_ranking_or_market_share:d7e2f404f69ba714` — `PARTIALLY_SUPPORTED`; 安碁2025簡報地區別銷售為台灣22%、美國24%、大陸36%、歐洲15%→「銷售遍及兩岸、歐美」成立；惟產品別分析係依 OSC & XTAL 而非終端應用，「車用」「工業控制」「網通」「五成」皆0次。
+- `6176:objective_ranking_or_market_share:98d2560ecfdbae12` — `UNKNOWN_AFTER_RESEARCH`; 瑞儀年報「Apple」「最大客戶」皆0次，依具名客戶身分規則結為UNKNOWN。
+- `6207:objective_ranking_or_market_share:5b5191cdf2afd95c` — `PARTIALLY_SUPPORTED`; 雷科文件載雷射修整機製造並載「SMT設備、被動元件產業生產設備等佔約60%以上」；惟該60%係**產品別營收占比**，非雷射修整機全球市占率。
+- `6224:objective_ranking_or_market_share:163934390430b572` — `PARTIALLY_SUPPORTED`; 聚鼎2022簡報大事記載「SMD Mass Production for **ASUS customer**」「Design-Win the **Top 3 global cell phone company**」；惟「Littelfuse」「shareholder」「largest」皆0次。
+- `6449:objective_ranking_or_market_share:4466a7526d81896b` — `ACCEPTED`; 鈺邦112年報載「**largest supplier of coiled solid-state capacitors in the world with a leading position in the solid-state capacitor industry**」，主要股東表列 TAI-TECH ADVANCED ELECTRONICS 28.11%，關係人交易列有 Walsin Technology。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-071.json`（6 筆）。未修改發行人報告。
+- 里程碑：已審 **400 / 1,399（28.6%）**。
+- Next pending claim by priority: `6196:objective_ranking_or_market_share:c712b83c2829b483` (帆宣).
 
 ## Source access
 
