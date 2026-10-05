@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 16:04 UTC
+Updated: 2026-10-12 17:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,27 +8,27 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **981 / 1,399**
-- Remaining author review: **418**
-- Latest batch: **author-184** (3 claims)
+- Author-reviewed: **984 / 1,399**
+- Remaining author review: **415**
+- Latest batch: **author-185** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **639**
+- `PARTIALLY_SUPPORTED`: **640**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **244**
+- `UNKNOWN_AFTER_RESEARCH`: **246**
 
 ## Latest claim batch
 
-- `1568:material_named_relationship:1946ef9117a00ea3` — `PARTIALLY_SUPPORTED`；倉佑年報「**變速箱」58 次、「BorgWarner」5 次、「Magna」2 次**；惟「**Valeo／JATCO／Aisin」皆 0 次**。
-- `1587:material_named_relationship:d2dca4718073d632` — `UNKNOWN_AFTER_RESEARCH`；吉茂簡報「AI 伺服器」「水冷」「板式」「CDU」「廣達」「GB200」「熱交換」皆0次。
-- `2115:material_named_relationship:2fe94d2bbc829199` — `UNKNOWN_AFTER_RESEARCH`；六暉簡報載「**全球最大產能專業氣門嘴製造商**」，**惟五家客戶名（含中英文）與「輪胎」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-184.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `2228:material_named_relationship:8222d454dd29c928` (劍麟).
+- `2228:material_named_relationship:8222d454dd29c928` — `UNKNOWN_AFTER_RESEARCH`；劍麟官方文件**性質為合併財務報告（非年報）**，「Autoliv／ZF／均勝／Joyson」皆0次。
+- `2241:material_named_relationship:cb7da359191ec381` — `UNKNOWN_AFTER_RESEARCH`；所取得者為**香港上市文件**（非台灣發行人年報），「IGBT／Infineon／英飛凌／Continental／逆變器」皆0次。
+- `2243:material_named_relationship:eb26bcbe4bda3836` — `PARTIALLY_SUPPORTED`；宏旭年報（106年度）「**模具」227 次、「東風」7 次、「長安」4 次、「華為」1 次**；惟「比亞迪／BYD／吉利／AITO／問界／70%」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-185.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `2230:material_named_relationship:b19e819d6084f649` (泰茂).
 
 ## Source access
 

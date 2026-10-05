@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-185",
+  "reviewed_at": "2026-10-05T21:44:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (宏旭106年度年報; 劍麟112年第三季合併財務報告; 艾姆勒相關之香港上市文件)",
+  "items": [
+    {
+      "claim_id": "2228:material_named_relationship:8222d454dd29c928",
+      "normalized_claim_hash": "8222d454dd29c928e56d44ba1638c1cb2bd4dab14229757528febc0191cd1149",
+      "ticker": "2228",
+      "company": "劍麟",
+      "path": "Pilot_Reports/Auto Parts/2228_劍麟.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶為全球三大汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]及[[均勝電子]] (Joyson Safety Systems)。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.irf.biz/download/112Q3%e5%8a%8d%e9%ba%9f%e5%90%88%e4%bd%b5%e8%b2%a1%e5%a0%b1.pdf",
+          "title": "劍麟股份有限公司（劍麟，2228，IRF）民國112年及111年第三季合併財務報告暨會計師核閱報告",
+          "source_level": 3,
+          "period_binding": "民國112年第三季。**文件性質為財務報告，非年報**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取53,923字元）。**文件性質為合併財務報告暨會計師核閱報告（非年報）**，封面載「**劍麟**股份有限公司及子公司 合併財務報告暨會計師核閱報告 民國112年及111年第三季（股票代碼2228）」。「**劍麟**」出現29次確認文件歸屬，文中見「安全」6次、「氣囊」1次之業務相關字樣。全份文件中「**Autoliv**」「**ZF**」「**均勝**」「**Joyson**」與「Safety Systems」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「主要客戶為全球三大汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]及[[均勝電子]]（Joyson Safety Systems）」未獲確立：本批次所取得之劍麟官方文件**性質為合併財務報告（非年報）**，其中「**Autoliv**」「**ZF**」「**均勝**」「**Joyson**」之出現次數**均為0**（「安全」6次、「氣囊」1次僅為業務相關字樣）。因該 claim 之實質內容為具名客戶，依一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2241:material_named_relationship:cb7da359191ec381",
+      "normalized_claim_hash": "cb7da359191ec381dbfecb12e57bbc11ee6d4728a05b8366d7297e9397cec858",
+      "ticker": "2241",
+      "company": "艾姆勒",
+      "path": "Pilot_Reports/Auto Parts/2241_艾姆勒.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "產品涵蓋：(1) 電動車 [[IGBT]] 逆變器散熱器 — 供應[[Infineon]] (英飛凌) 及 Tier 1 [[Continental]]；",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://s4.biz.itc.cn/hk/2026/0708/12237533-0.PDF",
+          "title": "艾姆勒（2241，Amulaire Thermal Technology）相關文件（查證限制：所取得者為香港上市文件）",
+          "source_level": 3,
+          "period_binding": "2026年7月8日。",
+          "accessed_at": "2026-10-12",
+          "note": "本批次就艾姆勒（**2241**）進行官方文件檢索，**所取得之檔案為香港聯合交易所之上市文件（listing document）**——首頁載「Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement…」，全文1,108,395字元中「**艾姆勒**」出現6次、「2241」2次。**該文件並非台灣發行人本身之年報**，其對艾姆勒之敘述為集團架構中之片段；全份文件中「**IGBT**」「**Infineon**」「**英飛凌**」「**Continental**」與「逆變器」（「**散熱**」僅1次）之出現次數**均為0**。本批次未取得足以判讀該 claim 之官方文件。"
+        }
+      ],
+      "rationale": "「產品涵蓋：(1) 電動車 [[IGBT]] 逆變器散熱器 — 供應[[Infineon]]（英飛凌）及 Tier 1 [[Continental]]」未獲確立：本批次所取得之檔案**為香港聯合交易所之上市文件**，**並非台灣發行人本身之年報**；全份文件（1,108,395字元）中「**IGBT**」「**Infineon**」「**英飛凌**」「**Continental**」與「逆變器」之出現次數**均為0**（「散熱」僅1次）。本批次未取得足以判讀該 claim 之官方文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2243:material_named_relationship:eb26bcbe4bda3836",
+      "normalized_claim_hash": "eb26bcbe4bda3836c6dcbb9de23b394bc5282ad62aa0b2f69a30ecd0b304e98b",
+      "ticker": "2243",
+      "company": "宏旭-KY",
+      "path": "Pilot_Reports/Auto Parts/2243_宏旭-KY.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心客戶涵蓋[[比亞迪]] ([[BYD]])、[[吉利]]、[[東風日產]]、[[長安福特]]，並為[[華為]] [[AITO]] 問界系列約 70% 車身鈑金模具之主要供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.horngshiue.com/uploadfile/report/%E5%AE%8F%E6%97%AD106%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "宏旭控股股份有限公司（宏旭-KY，2243，HORNG SHIUE HOLDING Co., Ltd.）106 年度年報",
+          "source_level": 3,
+          "period_binding": "民國106年度（2017年）。**非近期版本**。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取81,384字元）。年報中「**模具**」出現227次、「**東風**」7次、「**長安**」4次、「**華為**」1次，支持其車身鈑金模具業務並見「東風」「長安」「華為」等廠名（**後二者可能分別對應「東風日產」與「長安福特」，惟年報中未見全稱**）。全份年報中「**比亞迪**」「**BYD**」「**吉利**」「**AITO**」「**問界**」與「70%」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「為車身**鈑金模具**供應商，核心客戶涵蓋[[東風日產]]與[[長安福特]]，並為[[華為]]之供應商」獲發行人年報之**部分支持**：年報中「**模具**」出現227次、「**東風**」7次、「**長安**」4次、「**華為**」1次——**「東風」「長安」「華為」均出現**（**惟年報中未見「東風日產」「長安福特」之全稱**）。惟多項陳述未獲支持：(1)「[[比亞迪]]（[[BYD]]）」——「比亞迪」與「**BYD**」均為0；(2)「[[吉利]]」——0次；(3)「[[華為]] [[AITO]] **問界**系列約 **70%** 車身鈑金模具之主要供應商」——「**AITO**」「**問界**」與「70%」均為**0**（「華為」1次之上下文未載市值佔比）。故部分成立。**版本註記**：該年報為 **106 年度（2017年）**，非近期版本。",
+      "proposed_text": "宏旭-KY (2243，HORNG SHIUE HOLDING) 為車身鈑金模具供應商，客戶涵蓋東風、長安等車廠。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
