@@ -1,0 +1,159 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-084",
+  "reviewed_at": "2026-10-05T19:24:26Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (豐泰永續報告書; 伸興2022年度年報; 艾美特-KY 2023年法人說明會簡報); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "9910:objective_ranking_or_market_share:d6ba6478547062ad",
+      "normalized_claim_hash": "d6ba6478547062ad6acf6747e05d6d5f912e4d2bd86f5c07c0a86f83cceea1ef",
+      "ticker": "9910",
+      "company": "豐泰",
+      "path": "Pilot_Reports/Footwear & Accessories/9910_豐泰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nike]] (耐吉，佔營收約 85%~90%，為其全球六分之一產能供應商暨唯一授權氣墊工廠)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.fengtay.com/uploads/images/csr/2023ESGreport_Chinese.pdf",
+          "title": "豐泰企業股份有限公司（豐泰，9910，Feng Tay）永續報告書（文字擷取版）",
+          "source_level": 3,
+          "period_binding": "文件所載年度請見封面；實質敘述含成立年與主要客戶。",
+          "accessed_at": "2026-10-08",
+          "note": "豐泰官方永續報告書之文字擷取僅2,388字元（檔案126,337 bytes），內容多為官網導覽選單，實質敘述為「豐泰企業成立於 **1971年**，以製造運動鞋為主要業務…為主要客戶 **Nike 最資深之製鞋合作夥伴**」。全份可擷取文字中「六分之一」「氣墊」「研發中心」「85%」之出現次數均為0。另註記：該公司官網另一路徑之 2018CSR.pdf 經下載後**檔案大小與內容完全相同**（同為126,337 bytes、同為2,388字元擷取），顯示該路徑所供應者並非2018年度文件。"
+        }
+      ],
+      "rationale": "「Nike 為其核心客戶」獲發行人永續報告書支持：報告載其「為主要客戶 **Nike 最資深之製鞋合作夥伴**」，支持雙方長期代工關係。惟三項具體陳述未獲支持：(1)「佔營收約 **85%~90%**」——「85%」出現次數為0；(2)「為其**全球六分之一**產能供應商」——「六分之一」出現次數為0；(3)「**唯一**授權氣墊工廠」——「氣墊」出現次數為0。故部分成立（並註記：該報告書之文字擷取僅2,388字元，實質敘述有限）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1558:objective_ranking_or_market_share:87cc034abe16d845",
+      "normalized_claim_hash": "87cc034abe16d845bba70f48a4c5d77499663f47b01936a0e653ec06403ba283",
+      "ticker": "1558",
+      "company": "伸興",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1558_伸興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "伸興工業 (1558，Zeng Hsing) 成立於 1968 年，總部位於台中，為全球最大家用縫紉機代工製造商，全球市佔率約 30%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.zenghsing.com.tw/wp-content/uploads/2023/06/2022%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zeng Hsing）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其同業／客戶群「有 **SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI、日本JAGUAR、日本HAPPY 及中國大陸飛躍、恆強、萬維等廠商。其中SVP（…）」（「SVP」2次、「越南」49次、「越南廠」3次），支持其與 SVP 集團之產業關聯及越南生產據點。惟須更正數字歸屬：全份年報中「**90%**」唯一命中為「-46.90%」（財務變動比例）；「**30%**」4次之上下文分別為「獨立董事比率為30%」「持股分級30,001至40,000」等；「全球最大」「1968」「最大客戶」「七成」與「市佔（除1次泛用語外）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為家用縫紉機之代工製造商」獲發行人年報支持：2022年度年報載其同業／客戶群含「**SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI…」，顯示其處於家用縫紉機產業（「SVP」2次、「越南」49次）。惟多項陳述未獲支持：(1)「成立於 **1968 年**」——「1968」出現次數為0；(2)「為**全球最大**家用縫紉機代工製造商」——「全球最大」出現次數為0；(3)「全球市佔率約 **30%**」——「30%」4次之上下文分別為「獨立董事比率為30%」與「持股分級30,001至40,000」等，**非市占率**。故部分成立。",
+      "proposed_text": "伸興工業 (1558，Zeng Hsing) 為家用縫紉機之代工製造商，並於越南設有生產據點。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1558:objective_ranking_or_market_share:c93aec6e76435d1b",
+      "normalized_claim_hash": "c93aec6e76435d1bbcb60ef6d0a04935337372d8b624249aec6a44b78ac5e017",
+      "ticker": "1558",
+      "company": "伸興",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1558_伸興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要以 [[ODM]]/[[OEM]] 模式為國際品牌代工生產，最大客戶為全球縫紉機品牌龍頭 [[Singer]] (隸屬 [[SVP Worldwide]])，過去曾佔伸興營收約七成。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.zenghsing.com.tw/wp-content/uploads/2023/06/2022%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zeng Hsing）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其同業／客戶群「有 **SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI、日本JAGUAR、日本HAPPY 及中國大陸飛躍、恆強、萬維等廠商。其中SVP（…）」（「SVP」2次、「越南」49次、「越南廠」3次），支持其與 SVP 集團之產業關聯及越南生產據點。惟須更正數字歸屬：全份年報中「**90%**」唯一命中為「-46.90%」（財務變動比例）；「**30%**」4次之上下文分別為「獨立董事比率為30%」「持股分級30,001至40,000」等；「全球最大」「1968」「最大客戶」「七成」與「市佔（除1次泛用語外）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「與 SVP 集團具業務關聯」獲發行人年報支持：年報將其同業／客戶群列為「含 **SVP 集團**、日本JANOME…」等（「SVP」2次）。惟兩項陳述未獲支持：(1)「**最大客戶**為全球縫紉機品牌龍頭 **Singer**（隸屬 SVP Worldwide）」——「最大客戶」出現次數為0；(2)「過去曾佔伸興營收約**七成**」——「七成」出現次數為0。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1558:objective_ranking_or_market_share:01444720c98b05b0",
+      "normalized_claim_hash": "01444720c98b05b0d7881b21eb7307a6fb6dae7f5b6cb84c5b27bc33a70c0250",
+      "ticker": "1558",
+      "company": "伸興",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1558_伸興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "生產基地遍及台灣、中國及越南，其中越南廠為全球最大生產基地，2025 年出貨佔比高達 90%。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.zenghsing.com.tw/wp-content/uploads/2023/06/2022%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zeng Hsing）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其同業／客戶群「有 **SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI、日本JAGUAR、日本HAPPY 及中國大陸飛躍、恆強、萬維等廠商。其中SVP（…）」（「SVP」2次、「越南」49次、「越南廠」3次），支持其與 SVP 集團之產業關聯及越南生產據點。惟須更正數字歸屬：全份年報中「**90%**」唯一命中為「-46.90%」（財務變動比例）；「**30%**」4次之上下文分別為「獨立董事比率為30%」「持股分級30,001至40,000」等；「全球最大」「1968」「最大客戶」「七成」與「市佔（除1次泛用語外）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「生產基地遍及台灣、中國及越南」獲發行人年報部分支持：年報中「越南」出現49次、「越南廠」3次，支持其越南生產據點。惟多項陳述未獲支持：(1)「**越南廠為全球最大生產基地**」——「全球最大」出現次數為0；(2)「2025年出貨佔比高達 **90%**」——「90%」唯一命中為「**-46.90%**」（財務變動比例），非出貨占比。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1558:objective_ranking_or_market_share:0fd3b72d834f9729",
+      "normalized_claim_hash": "0fd3b72d834f9729b1d82845054f62a0715e633a2b40d3a3437c8e08ef0cea96",
+      "ticker": "1558",
+      "company": "伸興",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1558_伸興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Singer]] ([[SVP Worldwide]]) — 全球市佔第一縫紉機品牌",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.zenghsing.com.tw/wp-content/uploads/2023/06/2022%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "伸興工業股份有限公司（伸興，1558，Zeng Hsing）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "民國111年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報載其同業／客戶群「有 **SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI、日本JAGUAR、日本HAPPY 及中國大陸飛躍、恆強、萬維等廠商。其中SVP（…）」（「SVP」2次、「越南」49次、「越南廠」3次），支持其與 SVP 集團之產業關聯及越南生產據點。惟須更正數字歸屬：全份年報中「**90%**」唯一命中為「-46.90%」（財務變動比例）；「**30%**」4次之上下文分別為「獨立董事比率為30%」「持股分級30,001至40,000」等；「全球最大」「1968」「最大客戶」「七成」與「市佔（除1次泛用語外）」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「Singer (SVP Worldwide) — 全球市佔第一縫紉機品牌」）。年報將「**SVP 集團**」列為其同業／客戶群之一（2次），支持兩者之產業關聯；惟「**全球市佔第一**縫紉機品牌」未獲支持：全份年報中「全球」與「市佔第一」之相關表述出現次數為0（「市佔」1次為泛用語）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1626:objective_ranking_or_market_share:2a014c4508c270a2",
+      "normalized_claim_hash": "2a014c4508c270a29f7e1b1e04ab46fb1feab77cd82ee54f32d2bf6667f91b33",
+      "ticker": "1626",
+      "company": "艾美特-KY",
+      "path": "Pilot_Reports/Furnishings, Fixtures & Appliances/1626_艾美特-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "艾美特為全球知名小家電製造商，電暖器全球銷量第一，電風扇全球銷量第二 (僅次於[[美的集團]])。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/162620231208E001.pdf",
+          "title": "艾美特（開曼）國際有限公司（艾美特-KY，1626，Airmate）法人說明會簡報（2023-12-08，英文版）",
+          "source_level": 3,
+          "period_binding": "2023年12月；財務數據為2023年Q1-Q3。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文件為英文）。簡報載「**Electric heater ranked #1**」與「**Household fan ranked as #2 in China**」，並見「Fan, Electric heater, Ventilation system, Air purifier, Dehumidifier」（「fan」5次、「heater」5次、「global」2次、「second」1次），支持其電暖器與電風扇產品之市場地位敘述。**惟電風扇之「#2」明確標示範圍為「in China」（中國）**；「No.1」出現次數為0。"
+        }
+      ],
+      "rationale": "「電暖器與電風扇之市場地位」獲發行人簡報支持：2023年官方簡報載「**Electric heater ranked #1**」與「**Household fan ranked as #2 in China**」，並見「Fan, Electric heater, Ventilation system, Air purifier, Dehumidifier」等產品線（「fan」5次、「heater」5次），支持其電暖器與電風扇之市場地位敘述。惟**須更正地理範圍**：簡報就電風扇明確標示為「**#2 in China**」（中國第二），而 claim 表述為「**全球**銷量第二」；電暖器之「#1」亦未標明範圍；「僅次於**美的集團**」與「No.1」之表述則未出現（「No.1」0次）。故部分成立。",
+      "proposed_text": "艾美特-KY (1626，Airmate) 為小家電製造商，其電暖器銷售排名第一、家用電風扇在中國市場排名第二。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

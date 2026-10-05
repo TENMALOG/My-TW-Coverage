@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 11:04 UTC
+Updated: 2026-10-08 12:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **476 / 1,399**
-- Remaining author review: **923**
-- Latest batch: **author-083** (8 claims)
+- Author-reviewed: **482 / 1,399**
+- Remaining author review: **917**
+- Latest batch: **author-084** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **71**
-- `PARTIALLY_SUPPORTED`: **314**
+- `PARTIALLY_SUPPORTED`: **320**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,13 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `2885:objective_ranking_or_market_share:3f642a85d15abc7f`、`34fa1b47f82e8a61` — `PARTIALLY_SUPPORTED` ×2；元大金議事錄載「以股份轉換方式將**元大證券投資信託**…納為百分之百持股子公司」（證券38次），法說會簡報「期貨」3次；惟「市占」「13.83」「146」「148」「龍頭」「選擇權」皆0次。
-- `1340:objective_ranking_or_market_share:aa0e110f4fff1178` — `PARTIALLY_SUPPORTED`；勝悅文件載「最近兩年度**鞋底**及 **EVO** 顆粒銷售額及營收占比」（EVO 5次、雙色6次、鞋底15次）；惟「獨家」「中國最大」皆0次。
-- `6768:objective_ranking_or_market_share:e263c027dd77e13c` — `PARTIALLY_SUPPORTED`；志強2022永續報告載「為 **Nike、Adidas、PUMA、ASICS** 等知名品牌代工，為**全球最大的足球鞋供應商**」；惟「市佔」「兩成」皆0次。
-- `9904:objective_ranking_or_market_share:675f224ad21d1b3c` — `ACCEPTED`；寶成2017 CSR報告載「**成立於1969年9月**，全球營運總部位於臺灣臺中市西屯區」與「**全球最大製鞋集團**」「2017全球市佔率(以批發價格計)…約 **20%**」。
-- `9910:objective_ranking_or_market_share:24bbf5f32a0bcc3a`、`da42301dd92043d2`、`e7538ca8506bbc46` — `PARTIALLY_SUPPORTED` ×3；豐泰2023永續報告載「為主要客戶 **Nike 最資深之製鞋合作夥伴**」；惟「六分之一」「氣墊」「Air」「研發中心」「85%」皆0次（該檔文字擷取僅2,388字元）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-083.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `9910:objective_ranking_or_market_share:d6ba6478547062ad` (豐泰).
+- `9910:objective_ranking_or_market_share:d6ba6478547062ad` — `PARTIALLY_SUPPORTED`；豐泰永續報告載其為「主要客戶 **Nike 最資深之製鞋合作夥伴**」；惟「85%」「六分之一」「氣墊」皆0次。
+- `1558:objective_ranking_or_market_share:87cc034abe16d845` — `PARTIALLY_SUPPORTED`；伸興2022年報載同業／客戶群含「**SVP集團**、日本JANOME、日本BROTHER…」（SVP 2次）；惟「1968」「全球最大」皆0次，且「30%」4次為**獨董比率與持股分級**。
+- `1558:objective_ranking_or_market_share:c93aec6e76435d1b`、`0fd3b72d834f9729` — `PARTIALLY_SUPPORTED` ×2；SVP集團之產業關聯成立；惟「最大客戶」「七成」與「全球市佔第一」皆0次。
+- `1558:objective_ranking_or_market_share:01444720c98b05b0` — `PARTIALLY_SUPPORTED`；年報「越南」49次、「越南廠」3次；惟「全球最大」0次，且「90%」唯一命中為「**-46.90%**」財務變動比例。
+- `1626:objective_ranking_or_market_share:2a014c4508c270a2` — `PARTIALLY_SUPPORTED`；艾美特2023簡報載「**Electric heater ranked #1**」與「**Household fan ranked as #2 in China**」；惟電風扇之排名範圍明確為**中國**而非claim所述之「全球」，「美的集團」與「No.1」未出現。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-084.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `1810:objective_ranking_or_market_share:51ab5ce5d9716cb5` (和成).
 
 ## Source access
 

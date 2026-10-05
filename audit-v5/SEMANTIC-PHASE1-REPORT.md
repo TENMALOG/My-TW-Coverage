@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **476 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), and `author-083` (8).
+Author-reviewed: **482 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), and `author-084` (6).
 
 - ACCEPTED by author: 71
-- PARTIALLY_SUPPORTED: 314
+- PARTIALLY_SUPPORTED: 320
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 87
-- Remaining author queue: 923
+- Remaining author queue: 917
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -983,6 +983,17 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **87 筆**。
 - Author-reviewed total: **476 / 1,399**; remaining: **923**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 314, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 87. Next pending claim by priority: `9910:objective_ranking_or_market_share:d6ba6478547062ad` (豐泰).
+
+## Author batch `author-084` — 2026-10-08
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (豐泰 9910, 伸興 1558 ×4, 艾美特-KY 1626). Evidence came from directly downloaded and inspected official disclosures: 豐泰永續報告書、伸興2022年度年報、艾美特-KY 2023年法人說明會簡報。
+- `9910:objective_ranking_or_market_share:d6ba6478547062ad` — `PARTIALLY_SUPPORTED`. 豐泰官方永續報告書載其「為主要客戶 **Nike 最資深之製鞋合作夥伴**」，支持雙方長期代工關係；惟「佔營收約 **85%~90%**」（「85%」0次）、「為其**全球六分之一**產能供應商」（「六分之一」0次）與「**唯一**授權氣墊工廠」（「氣墊」0次）均未獲支持。**註記：該公司官網另一路徑之 2018CSR.pdf 經下載後檔案大小與內容完全相同（同為126,337 bytes、同為2,388字元擷取），顯示該路徑並非供應2018年度文件。**
+- `1558:objective_ranking_or_market_share:87cc034abe16d845`、`c93aec6e76435d1b`、`01444720c98b05b0`、`0fd3b72d834f9729` — `PARTIALLY_SUPPORTED` ×4. 伸興2022年度年報載其同業／客戶群含「**SVP 集團**、日本JANOME、日本BROTHER、瑞士BERNINA、日本JUKI、日本JAGUAR、日本HAPPY 及中國大陸飛躍、恆強、萬維等廠商」（「SVP」2次、「越南」49次、「越南廠」3次），支持其與 SVP 集團之產業關聯及越南生產據點；惟「1968」（0次）、「全球最大」（0次）、「最大客戶」（0次）、「七成」（0次）與「全球市佔第一」均未獲支持。**數字歸屬須更正：「90%」唯一命中為「-46.90%」（財務變動比例）；「30%」4次分別為「獨立董事比率為30%」與「持股分級30,001至40,000」等，均非市占率。**
+- `1626:objective_ranking_or_market_share:2a014c4508c270a2` — `PARTIALLY_SUPPORTED`. 艾美特-KY 2023年官方簡報載「**Electric heater ranked #1**」與「**Household fan ranked as #2 in China**」，並列 Fan、Electric heater 等產品線（「fan」5次、「heater」5次）；**惟電風扇之排名範圍明確標示為「in China」（中國），而 claim 表述為「全球**銷量第二」；電暖器之「#1」亦未標明範圍；「僅次於美的集團」與「No.1」未出現（「No.1」0次）。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）；UNKNOWN 追蹤清單維持 **87 筆**。
+- Author-reviewed total: **482 / 1,399**; remaining: **917**. Outcome counts: ACCEPTED 71, PARTIALLY_SUPPORTED 320, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 87. Next pending claim by priority: `1810:objective_ranking_or_market_share:51ab5ce5d9716cb5` (和成).
+
 
 
 
