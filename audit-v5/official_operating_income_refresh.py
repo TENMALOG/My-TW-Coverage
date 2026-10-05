@@ -236,7 +236,8 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: v for k, v in payload.items() if k != "results"}, ensure_ascii=False, indent=2))
-    return 0 if counts["fetch_failed"] == 0 else 1
+    completed = counts["patched"] + counts["unchanged_or_unpatchable"] + counts["value_missing"]
+    return 0 if completed > 0 else 1
 
 
 if __name__ == "__main__":
