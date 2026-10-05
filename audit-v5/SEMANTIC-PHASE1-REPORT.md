@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **341 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), and `author-061` (3).
+Author-reviewed: **346 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), and `author-062` (5).
 
-- ACCEPTED by author: 59
-- PARTIALLY_SUPPORTED: 214
+- ACCEPTED by author: 63
+- PARTIALLY_SUPPORTED: 215
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
 - Other allowed author decisions: 64
-- Remaining author queue: 1,058
+- Remaining author queue: 1,053
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -728,6 +728,16 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **341 / 1,399**; remaining: **1,058**. Outcome counts: ACCEPTED 59, PARTIALLY_SUPPORTED 214, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3060:objective_ranking_or_market_share:56574c45f5224560` (銘異).
+
+## Author batch `author-062` — 2026-10-07
+
+- Reviewed the next five unreviewed objective ranking/market-share claims in checkpoint order (銘異 3060, 日電貿 3090 ×4). Evidence came from directly downloaded and inspected official disclosures: 銘異股東會議事手冊（英文版）、日電貿2022年永續報告書。
+- `3060:objective_ranking_or_market_share:56574c45f5224560` — `PARTIALLY_SUPPORTED`. 銘異議事手冊（英文版）2023年度產品營收比重表載「**Voice Coil Motor (VCM) 39.38%**」「External Hard Drive (EHD) 16.30%」「**COVER 9.85%**」「HDD 6.90%」等，「Current Main Products」列入 VCM 與 COVER，另載「Top and bottom covers」，支持 claim 之核心產品；惟「在硬碟市場具極高市佔率」未獲支持——手冊中之市占率敘述係指 HDD 供應商（Seagate 43%第一、WD 37%、Toshiba 20%）之市場結構，非該公司自身市占率（「largest」3次均指其為關係企業 MAP 之最大股東）。
+- `3090:objective_ranking_or_market_share:7839b23f63f20969`、`d81ef6b94a9da9ee`、`e2b3337349ce58cc`、`28a5bfc166db3a6e` — `ACCEPTED` ×4. 日電貿2022年官方永續報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品，並進行多（元化佈局）」，並載其經營理念為「為**台灣最大被動元件代理商**」及「代理 **NCC** 與 Panasonic 電容器」，與 claim 之「台灣最大專業被動元件通路商」「鋁質電解電容—代理日本 Nippon Chemi-con（NCC，全球第一大）」逐項對應。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **346 / 1,399**; remaining: **1,053**. Outcome counts: ACCEPTED 63, PARTIALLY_SUPPORTED 215, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 64. Next pending claim by priority: `3152:objective_ranking_or_market_share:57faf7aa307b7942` (璟德).
+
 
 
 

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 13:04 UTC
+Updated: 2026-10-07 14:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **341 / 1,399**
-- Remaining author review: **1,058**
-- Latest batch: **author-061** (3 claims)
+- Author-reviewed: **346 / 1,399**
+- Remaining author review: **1,053**
+- Latest batch: **author-062** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
-- `ACCEPTED`: **59**
-- `PARTIALLY_SUPPORTED`: **214**
+- `ACCEPTED`: **63**
+- `PARTIALLY_SUPPORTED`: **215**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,12 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `3037:objective_ranking_or_market_share:2416d3deb1742a86` — `PARTIALLY_SUPPORTED`; 欣興105年報「載板」27次、「PCB」34次、「聯電」1次；惟「全球最大」0次。
-- `3037:objective_ranking_or_market_share:9b2f00b9af8d44c3` — `PARTIALLY_SUPPORTED`; IC載板業務與2026Q2簡報之「ABF」1次；惟「ABF」於105年報0次、「Ibiden」0次、「18%」未載。
-- `3049:objective_ranking_or_market_share:6538e9d4932d6c19` — `ACCEPTED`; 精金年報載「瀚宇彩晶投資本公司」「正式為本公司**最大股東**」「**於98年6月16日董監事改選後，對本公司具控制力**」，並載觸控與彩色濾光片業務（觸控82次、彩色濾光片5次）。
-- **新增產出：`semantic/unknown-followup.json`（UNKNOWN 追蹤清單）** — 彙整全部 `UNKNOWN_AFTER_RESEARCH` 之 HIGH claim，共 **64 筆**，含 claim_id、ticker、公司、claim 原文、所屬批次、失敗分類（failure_signature）、已嘗試來源網址與建議替代路徑。失敗分類統計：mops_non_document 24、non_document_response 22、http_404 21、no_official_endpoint_found 21、image_only_or_tiny_text 7、http_403 5、client_rendered_only 4、connection_failure 3、garbled_text_layer 3、download_timeout 2、other_unclassified 30（同一筆可屬多類）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-061.json`（3 筆）。未修改發行人報告。
-- Next pending claim by priority: `3060:objective_ranking_or_market_share:56574c45f5224560` (銘異).
+- `3060:objective_ranking_or_market_share:56574c45f5224560` — `PARTIALLY_SUPPORTED`; 銘異議事手冊（英文版）2023年度產品比重載 VCM 39.38%、COVER 9.85%、EHD 16.30%、HDD 6.90%，並載「Top and bottom covers」；惟手冊之市占率敘述係 HDD 供應商（Seagate 43%等）市場結構，非其自身市占。
+- `3090:objective_ranking_or_market_share:7839b23f63f20969` — `ACCEPTED`; 日電貿2022永續報告載「為**台灣最大被動元件代理商**」。
+- `3090:objective_ranking_or_market_share:d81ef6b94a9da9ee`、`e2b3337349ce58cc`、`28a5bfc166db3a6e` — `ACCEPTED` ×3; 同報告載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品」「代理 NCC 與 Panasonic 電容器」。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-062.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `3152:objective_ranking_or_market_share:57faf7aa307b7942` (璟德).
 
 ## Source access
 

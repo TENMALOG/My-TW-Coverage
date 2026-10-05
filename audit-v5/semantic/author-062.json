@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-062",
+  "reviewed_at": "2026-10-05T18:30:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (銘異股東會議事手冊(英文版); 日電貿2022年永續報告書); search-result snippets and secondary media were discovery leads only and were not used as evidence",
+  "items": [
+    {
+      "claim_id": "3060:objective_ranking_or_market_share:56574c45f5224560",
+      "normalized_claim_hash": "56574c45f5224560764ddd8a2883023224600f776e36d6620e63d8c940f7cfd2",
+      "ticker": "3060",
+      "company": "銘異",
+      "path": "Pilot_Reports/Electronic Components/3060_銘異.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心產品包含音圈馬達 (VCM) 與硬碟上蓋 (Top Cover)，在硬碟市場具極高市佔率。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.minaik.com/investo/shareholders-meeting/MTQ/file_7",
+          "title": "銘異科技股份有限公司（銘異，3060，Min Aik Technology）股東會議事手冊（英文版）",
+          "source_level": 3,
+          "period_binding": "所載產品營收比重為2023年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文件為英文版）。其「Proportion－Main Products」表載2023年度銷貨：**Voice Coil Motor (VCM) 1,045,886仟元、占39.38%**；External Hard Drive (EHD) 432,770仟元、16.30%；**COVER 261,690仟元、9.85%**；HDD 183,140仟元、6.90%；OPTICS 84,608仟元、3.19%；Read/write head stops 96,649仟元、3.64%；Others 550,785仟元、20.74%。「Current Main Products」列「(1) Voice Coil Motor (VCM) (2) **COVER** (3) External Hard Drive (EHD) (4) Read/write head stops. (5) HDD (6) OPTICS (7) Medical device components」，另載「Top and bottom covers」。產業概況段落所載市占率係指 HDD 供應商（Seagate 43%、WD 37%、Toshiba 20%）而非該公司自身；全份文件中「largest」3次均指其為關係企業 MAP 之最大股東。全份文件「HDD」107次、VCM 19次、「Top Cover」0次。"
+        }
+      ],
+      "rationale": "「核心產品包含音圈馬達 (VCM) 與硬碟上蓋 (Top Cover/COVER)」獲發行人議事手冊支持：其2023年度產品營收比重表列「**Voice Coil Motor (VCM)** 39.38%」「**COVER** 9.85%」「External Hard Drive (EHD) 16.30%」「HDD 6.90%」等，並於「Current Main Products」列入 VCM 與 COVER，另載「Top and bottom covers」。惟「在硬碟市場具極高市佔率」未獲支持：該手冊之市占率敘述係指 HDD 供應商（Seagate 43%第一、WD 37%、Toshiba 20%）之市場結構，非該公司自身之市占率；全份文件中「largest」3次均指其為關係企業 MAP 之最大股東，與產品市占無關。故部分成立。",
+      "proposed_text": "銘異科技 (3060，Min Aik Technology) 核心產品包含音圈馬達 (VCM)、硬碟上蓋 (COVER)、外接硬碟 (EHD) 與讀寫頭止動件等硬碟零組件。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:7839b23f63f20969",
+      "normalized_claim_hash": "7839b23f63f20969b5339fbff0df09c03bc76d61f3ea12064dc506522ac4a493",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "日電貿 ([[Nichidenbo]]) 為台灣最大專業被動元件通路商。",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.ndb.com.tw/file/company/2022-Sustainability%20Report.pdf",
+          "title": "日電貿股份有限公司（日電貿，3090，Nichidenbo）2022 永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品，並進行多（元化佈局）」，並載「（經）年的投資和併購，代理產品線不僅涵蓋日本大廠 **Nippon Chemi-con** 和 Panasonic，還擴展至代理美國大廠 AVX…」，另載其經營理念為「為**台灣最大被動元件代理商**」及「代理 **NCC** 與 Panasonic 電容器」。全份報告書中「代理」32次、「最大」14次、「通路」4次、「Nippon Chemi」2次、「NCC」2次、「鋁質電解電容」1次。"
+        }
+      ],
+      "rationale": "「為台灣最大專業被動元件通路商」獲發行人官方永續報告書直接支持：報告書載其經營理念為「為**台灣最大被動元件代理商**」，並載其代理產品線涵蓋日本大廠 Nippon Chemi-con 與 Panasonic、美國大廠 AVX 等（「代理」32次、「通路」4次），與 claim 之「台灣最大專業被動元件通路商」相符。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:d81ef6b94a9da9ee",
+      "normalized_claim_hash": "d81ef6b94a9da9eede409b58bb01560647387ef62aedf2e21f227712c2413d02",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "核心代理產品：(1) 鋁質電解電容 — 代理日本 [[Nippon Chemi-con]] (NCC，全球第一大)；",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.ndb.com.tw/file/company/2022-Sustainability%20Report.pdf",
+          "title": "日電貿股份有限公司（日電貿，3090，Nichidenbo）2022 永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品，並進行多（元化佈局）」，並載「（經）年的投資和併購，代理產品線不僅涵蓋日本大廠 **Nippon Chemi-con** 和 Panasonic，還擴展至代理美國大廠 AVX…」，另載其經營理念為「為**台灣最大被動元件代理商**」及「代理 **NCC** 與 Panasonic 電容器」。全份報告書中「代理」32次、「最大」14次、「通路」4次、「Nippon Chemi」2次、「NCC」2次、「鋁質電解電容」1次。"
+        }
+      ],
+      "rationale": "claim 之核心代理關係獲發行人官方永續報告書直接支持：報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品」，對應 claim 之核心代理產品「鋁質電解電容 — 代理日本 Nippon Chemi-con（NCC，全球第一大）」；報告書並載其「代理 NCC 與 Panasonic 電容器」。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:e2b3337349ce58cc",
+      "normalized_claim_hash": "e2b3337349ce58cc281f2e3383ee3c32438dbf4e3de04591e92fb9d8761a6bb0",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nippon Chemi-con]] (NCC) — 全球第一大",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.ndb.com.tw/file/company/2022-Sustainability%20Report.pdf",
+          "title": "日電貿股份有限公司（日電貿，3090，Nichidenbo）2022 永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品，並進行多（元化佈局）」，並載「（經）年的投資和併購，代理產品線不僅涵蓋日本大廠 **Nippon Chemi-con** 和 Panasonic，還擴展至代理美國大廠 AVX…」，另載其經營理念為「為**台灣最大被動元件代理商**」及「代理 **NCC** 與 Panasonic 電容器」。全份報告書中「代理」32次、「最大」14次、「通路」4次、「Nippon Chemi」2次、「NCC」2次、「鋁質電解電容」1次。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「Nippon Chemi-con (NCC) — 全球第一大」）。永續報告書明載其為「**全球最大的鋁質電解電容廠商**」（「Nippon Chemi」2次、「NCC」2次）。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:28a5bfc166db3a6e",
+      "normalized_claim_hash": "28a5bfc166db3a6eadb70b0121e96422c59d4c6c49753b6f3a5d00b1a4041252",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[Nippon Chemi-con]] — 全球第一大鋁電解電容",
+      "decision": "ACCEPTED",
+      "evidence": [
+        {
+          "url": "https://www.ndb.com.tw/file/company/2022-Sustainability%20Report.pdf",
+          "title": "日電貿股份有限公司（日電貿，3090，Nichidenbo）2022 永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書載「公司**代理全球最大的鋁質電解電容廠商日本佳美工 Nippon Chemi-con** 的產品，並進行多（元化佈局）」，並載「（經）年的投資和併購，代理產品線不僅涵蓋日本大廠 **Nippon Chemi-con** 和 Panasonic，還擴展至代理美國大廠 AVX…」，另載其經營理念為「為**台灣最大被動元件代理商**」及「代理 **NCC** 與 Panasonic 電容器」。全份報告書中「代理」32次、「最大」14次、「通路」4次、「Nippon Chemi」2次、「NCC」2次、「鋁質電解電容」1次。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「Nippon Chemi-con — 全球第一大鋁電解電容」）。永續報告書載其為「**全球最大的鋁質電解電容廠商**」，與 claim 所述一致。故予以支持。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
