@@ -1,0 +1,134 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-092",
+  "reviewed_at": "2026-10-05T19:41:04Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台名公司文件; 榮運2026年法人說明會簡報; 中航112年度年報)",
+  "items": [
+    {
+      "claim_id": "5878:objective_ranking_or_market_share:ac33ab82c59a8a20",
+      "normalized_claim_hash": "ac33ab82c59a8a20f6dcea6a64112f6fa39db91fd4ada519f26942a9c2834e0d",
+      "ticker": "5878",
+      "company": "台名",
+      "path": "Pilot_Reports/Insurance Brokers/5878_台名.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "營收結構以壽險經紀佣金 (約 48%) 為最大宗，續年經紀收入 (約 27%) 次之，獎金及手續費收入 (約 15%) 與產險經紀及其他 (約 10%) 為輔。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tabc.com.tw/fdn.aspx?ADM=1&Fno=CC9688883FC94E10A1E5B8BC7B6B7739",
+          "title": "台名保險經紀人股份有限公司（台名，5878）公司文件",
+          "source_level": 3,
+          "period_binding": "文件所載數據含112年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載其「（壽）險公司之首年度保費及**續年度保費之佣金收入**為新台幣480,838仟元，佔營業（收入）」，並載「台名集團之**佣金收入**認列主係於客戶合約辨認履約義務後…」「**續年度**保費佣金收入之計算正確性及真實性列為關鍵查核事項」（「經紀」34次、「佣金」16次、「壽險」9次、「續年」4次、「營業收入」7次），支持其以保險經紀佣金（含首年度與續年度）為主要收入。惟本件未見 claim 所述之**收入結構百分比**分項（壽險經紀48%、續年27%、獎金及手續費15%、產險及其他10%）。"
+        }
+      ],
+      "rationale": "「營收以保險經紀佣金為最大宗」獲發行人文件支持：文件載其「（壽）險公司之首年度保費及**續年度保費之佣金收入**為新台幣480,838仟元，佔營業（收入）」，並載「台名集團之**佣金收入**認列主係於客戶合約辨認履約義務後…」（「經紀」34次、「佣金」16次、「壽險」9次、「續年」4次），支持其以壽險經紀佣金（含續年度）為主要收入來源。惟 claim 之**收入結構百分比**未獲支持：本件未見「壽險經紀約48%、續年約27%、獎金及手續費約15%、產險經紀及其他約10%」之分項結構表。故部分成立。",
+      "proposed_text": "台名保險經紀人 (5878) 以壽險之首年度與續年度保費佣金收入為主要收入來源。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2607:objective_ranking_or_market_share:eae39f4c4c4f4d7b",
+      "normalized_claim_hash": "eae39f4c4c4f4d7b4a4f0ed86c2e2ee0f1952185c1979311072a6cb53ccccd29",
+      "ticker": "2607",
+      "company": "榮運",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2607_榮運.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要業務包含：（1）**內陸運輸：** 擁有全台最大貨櫃車隊，負責進出口貨櫃之拖運；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720260424M001.pdf",
+          "title": "長榮國際儲運股份有限公司（榮運，2607）法人說明會簡報（2026-04-24）",
+          "source_level": 3,
+          "period_binding": "2026年4月；財務數據為2025年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取2,861字元）。簡報「公司業務」頁載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭…配有高效率的碼頭作業機具與**40部船邊專用解櫃車輛**」「**10家直靠航商客戶**，遍及兩岸、東南亞及東北亞」「62部交通遊覽車（客車業務）」「大園物流園區」「租船與租櫃業務」「售油業務」「台北港區相關業務」等，支持其內陸貨櫃運輸與港區業務。全份簡報中「**全台最大**」「**貨櫃車隊**」「**長榮海運**」「**陽明**」與「最大客戶」之出現次數均為0（客戶僅以「10家直靠航商客戶」通稱）。"
+        }
+      ],
+      "rationale": "「從事內陸貨櫃運輸，並擁有具規模之貨櫃車隊」獲發行人簡報支持：2026年官方簡報載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭…配有**40部船邊專用解櫃車輛**」「10家直靠航商客戶」，車隊規模具體（156部曳引車、740部板架）。惟「擁有**全台最大**貨櫃車隊」未獲支持：全份簡報中「**全台最大**」與「貨櫃車隊」出現次數均為0。故部分成立。",
+      "proposed_text": "長榮國際儲運 (2607) 經營內陸貨櫃運輸，擁有5座車庫、156部曳引車與740部板架。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2607:objective_ranking_or_market_share:4b0fbf64456a202c",
+      "normalized_claim_hash": "4b0fbf64456a202ced0c05e77c24a8c62a99557af5f0f07bb36a13bc60d3542e",
+      "ticker": "2607",
+      "company": "榮運",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2607_榮運.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[長榮海運]]（最大客戶，集團內拖運及船舶出租）、[[陽明海運]]、其他國際船公司",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720260424M001.pdf",
+          "title": "長榮國際儲運股份有限公司（榮運，2607）法人說明會簡報（2026-04-24）",
+          "source_level": 3,
+          "period_binding": "2026年4月；財務數據為2025年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取2,861字元）。簡報「公司業務」頁載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭…配有高效率的碼頭作業機具與**40部船邊專用解櫃車輛**」「**10家直靠航商客戶**，遍及兩岸、東南亞及東北亞」「62部交通遊覽車（客車業務）」「大園物流園區」「租船與租櫃業務」「售油業務」「台北港區相關業務」等，支持其內陸貨櫃運輸與港區業務。全份簡報中「**全台最大**」「**貨櫃車隊**」「**長榮海運**」「**陽明**」與「最大客戶」之出現次數均為0（客戶僅以「10家直靠航商客戶」通稱）。"
+        }
+      ],
+      "rationale": "「**長榮海運**（最大客戶，集團內拖運及船舶出租）、**陽明海運**、其他國際船公司」未獲確立：榮運2026年官方簡報中「**長榮海運**」與「**陽明**」出現次數均為0，客戶僅以「**10家直靠航商客戶**，遍及兩岸、東南亞及東北亞」通稱而未具名。因該 claim 之實質內容為具名客戶身分，依本審核之一致性規則以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2607:objective_ranking_or_market_share:8f8f4b26870312a9",
+      "normalized_claim_hash": "8f8f4b26870312a90dae7cb086c6473aba463230f9411f037a097b5b66054bc2",
+      "ticker": "2607",
+      "company": "榮運",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2607_榮運.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[長榮海運]]（集團內最大客戶，貨櫃拖運及船舶租賃）、[[陽明海運]]及其他國際船公司",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/260720260424M001.pdf",
+          "title": "長榮國際儲運股份有限公司（榮運，2607）法人說明會簡報（2026-04-24）",
+          "source_level": 3,
+          "period_binding": "2026年4月；財務數據為2025年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取2,861字元）。簡報「公司業務」頁載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭…配有高效率的碼頭作業機具與**40部船邊專用解櫃車輛**」「**10家直靠航商客戶**，遍及兩岸、東南亞及東北亞」「62部交通遊覽車（客車業務）」「大園物流園區」「租船與租櫃業務」「售油業務」「台北港區相關業務」等，支持其內陸貨櫃運輸與港區業務。全份簡報中「**全台最大**」「**貨櫃車隊**」「**長榮海運**」「**陽明**」與「最大客戶」之出現次數均為0（客戶僅以「10家直靠航商客戶」通稱）。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「長榮海運（集團內最大客戶，貨櫃拖運及船舶租賃）、陽明海運及其他國際船公司」）。簡報中「**長榮海運**」「**陽明**」與「最大客戶」出現次數均為0，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2612:objective_ranking_or_market_share:f023856ea96f015b",
+      "normalized_claim_hash": "f023856ea96f015b9c92979830b32e0dd943cf7833802df73136cc6a7f88f558",
+      "ticker": "2612",
+      "company": "中航",
+      "path": "Pilot_Reports/Integrated Freight & Logistics/2612_中航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "（2）**陸運：** 透過子公司[[偉聯運輸]]經營內陸貨櫃運輸（拖車），市佔率頗高；",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://cmt.tw/wp-content/uploads/2024/06/%e4%b8%ad%e5%9c%8b%e8%88%aa%e9%81%8b2612_112%e5%b9%b4%e5%ba%a6%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "中國航運股份有限公司（中航，2612）112 年度年報",
+          "source_level": 3,
+          "period_binding": "民國112年度。",
+          "accessed_at": "2026-10-08",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**偉聯運輸**」出現41次、「內陸」38次、「拖車」1次，並見其為本公司之子公司及業務性質敘述，支持其透過子公司經營內陸貨櫃運輸（拖車）業務。全份年報中「**市佔**」出現次數為0，未以市占率描述該項業務。"
+        }
+      ],
+      "rationale": "「透過子公司偉聯運輸經營內陸貨櫃運輸（拖車）」獲發行人年報支持：112年度年報中「**偉聯運輸**」出現41次、「內陸」38次、「拖車」1次，並載該公司為其子公司及其業務性質，支持該項業務之經營架構。惟「**市佔率頗高**」未獲支持：全份年報中「**市佔**」出現次數為0，未以市占率描述該業務。故部分成立。",
+      "proposed_text": "中國航運 (2612) 透過子公司偉聯運輸經營內陸貨櫃運輸（拖車）業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

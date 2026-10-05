@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-08 19:04 UTC
+Updated: 2026-10-08 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **535 / 1,399**
-- Remaining author review: **864**
-- Latest batch: **author-091** (8 claims)
+- Author-reviewed: **540 / 1,399**
+- Remaining author review: **859**
+- Latest batch: **author-092** (5 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **74**
-- `PARTIALLY_SUPPORTED`: **351**
+- `PARTIALLY_SUPPORTED`: **354**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **106**
+- `UNKNOWN_AFTER_RESEARCH`: **108**
 
 ## Latest claim batch
 
-- `2852:objective_ranking_or_market_share:4a5ef4fd4fdcb9d2` — `PARTIALLY_SUPPORTED`；第一保2025簡報載「**設立日期 1962年**」與股東結構（個人57.14%、金融機構1.15%）；惟「第一金」0次，「與第一金控無直接股權隸屬關係」未獲來源陳述。
-- `2852:objective_ranking_or_market_share:a9cea9f32089f2c8`、`0ed2489ebb872b77`、`d1acd16b4de6e7eb` — `UNKNOWN_AFTER_RESEARCH` ×3；簡報「第一銀行」「銀保」「銀行保險」「車商」「保險經紀人」皆0次。
-- `2852:objective_ranking_or_market_share:fb910ccfdc42b585` — `PARTIALLY_SUPPORTED`；簡報業務概況呈現簽單保費與業務結構（汽車任意險48.94%、火災保險20.00%等）；惟職能區分敘述未見。
-- `2851:objective_ranking_or_market_share:f4428cbe7406c75a` — `ACCEPTED`；中再保50周年特刊載「**民國57年10月31日正式成立**」「於**民國91年**…自此本公司**轉換為民營公司**」「**長榮集團為本公司之最大股東，持股比率為58.68%**」——三項逐項對應（特刊以西元1968／2002檢索均0次）。
-- `2851:objective_ranking_or_market_share:5019a1f91c5268c9` — `PARTIALLY_SUPPORTED`；特刊載「為**國內唯一的本土專業再保險公司**」；惟「寡占」「市占」皆0次。
-- `2851:objective_ranking_or_market_share:31637d692bd9234c` — `PARTIALLY_SUPPORTED`；特刊載財產再保險與人身再保險業務發展；惟「市占」0次，且「18.8」「19.4」之上下文為**未標示名稱之數字表格**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-091.json`（8 筆）。未修改發行人報告。
-- Next pending claim by priority: `5878:objective_ranking_or_market_share:ac33ab82c59a8a20` (台名).
+- `5878:objective_ranking_or_market_share:ac33ab82c59a8a20` — `PARTIALLY_SUPPORTED`；台名文件載首年度及**續年度保費之佣金收入**（經紀34次、佣金16次、壽險9次、續年4次）；惟claim所述收入結構百分比未見分項表。
+- `2607:objective_ranking_or_market_share:eae39f4c4c4f4d7b` — `PARTIALLY_SUPPORTED`；榮運2026簡報載「**貨櫃運輸**：5座車庫｜**156部曳引車**｜**740部板架**」「2座內陸貨櫃場」「台中港貨櫃碼頭」「10家直靠航商客戶」；惟「全台最大」與「貨櫃車隊」皆0次。
+- `2607:objective_ranking_or_market_share:4b0fbf64456a202c`、`8f8f4b26870312a9` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報客戶僅以「10家直靠航商客戶」通稱，「長榮海運」「陽明」皆0次。
+- `2612:objective_ranking_or_market_share:f023856ea96f015b` — `PARTIALLY_SUPPORTED`；中航112年報「**偉聯運輸**」41次、「內陸」38次、拖車1次；惟「市佔」0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-092.json`（5 筆）。未修改發行人報告。
+- Next pending claim by priority: `2636:objective_ranking_or_market_share:b0e48b98528244b3` (台驊控股).
 
 ## Source access
 
