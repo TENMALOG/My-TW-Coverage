@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-12 12:04 UTC
+Updated: 2026-10-12 13:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **965 / 1,399**
-- Remaining author review: **434**
-- Latest batch: **author-180** (5 claims)
+- Author-reviewed: **969 / 1,399**
+- Remaining author review: **430**
+- Latest batch: **author-181** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **94**
-- `PARTIALLY_SUPPORTED`: **628**
+- `PARTIALLY_SUPPORTED`: **632**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `1315:material_named_relationship:c0ee757c6cd7ab74` — `PARTIALLY_SUPPORTED`；達新簡報「PVC」1次為**產品線**；**「南亞」1次之上下文為「取得南亞股票」（投資），非供應商關係**；「台塑」「塑膠粒」「供應商」皆0次。
-- `2924:identity_changing_event:bdc91f7aaff60bfd` — `PARTIALLY_SUPPORTED`；宏太簡報「**東凌」6 次、「1988」2 次**、「Cayman」2次；惟「宏太」「2023」「更名」皆0次（**該簡報為2020年版本**）。
-- `4414:material_named_relationship:1784fcab0b4355b8` — `PARTIALLY_SUPPORTED`；如興簡報**前五大客戶營收占比表**明列「**LEVI'S 26%**」「**GAP 19%**」；惟「**Calvin／Klein」皆 0 次**。
-- `4414:material_named_relationship:d5be7e550754288b` — `ACCEPTED`；簡報前五大客戶表明列「**LEVI'S 27%／26%**」——**逐字對應**。
-- `4414:material_named_relationship:4b8e7b132cec3345` — `ACCEPTED`；簡報前五大客戶表明列「**GAP 14%／19%**」——**逐字對應**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-180.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `4438:material_named_relationship:71def6e48a4142d5` (廣越).
+- `4438:material_named_relationship:71def6e48a4142d5` — `PARTIALLY_SUPPORTED`；廣越簡報「**adidas」7 次、「Nike」6 次、「Patagonia」4 次、「lululemon」3 次、「VF」2 次、「The North Face」1 次**——五品牌皆在；惟各品牌之訂單成長率無法由文字層確認。
+- `4438:material_named_relationship:103d9b9caad76508` — `PARTIALLY_SUPPORTED`；簡報**逐字載**「透過第**㇐**大供應商**福懋**（**全球最大的尼龍布供應商**）穩定供貨」；**惟「20%」各次上下文均非福懋持股**（約旦出貨比重／關稅／ROE 目標），「持股」「股東」皆0次。
+- `4438:material_named_relationship:d4f5adfeb43875d9`、`10d632776ea4921a` — `PARTIALLY_SUPPORTED` ×2；供應商關係成立；惟「20% 策略股東」與「設廠配合」皆未獲支持。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-181.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `2258:control_acquisition:a2cce4203b591026` (鴻華先進-創).
 
 ## Source access
 

@@ -1,0 +1,141 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-181",
+  "reviewed_at": "2026-10-05T21:40:12Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (廣越投資人簡報2025-11-11; 廣越投資人簡報2025-04-15)",
+  "items": [
+    {
+      "claim_id": "4438:material_named_relationship:71def6e48a4142d5",
+      "normalized_claim_hash": "71def6e48a4142d5cf0e2a7d7d6ce9f1244634b2286e7e83d5c4be09da08324d",
+      "ticker": "4438",
+      "company": "廣越",
+      "path": "Pilot_Reports/Apparel Manufacturing/4438_廣越.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要客戶涵蓋[[adidas]] (訂單年增 60%)、[[Nike]] (年增 10%)、[[The North Face]] ([[VF Corporation]]旗下，年增 60%)、[[Patagonia]] (年增 5%)、[[lululemon]] (最快速成長新客戶)、[[PUMA]]、[[Mont-bell]] (年增 60%)、[[Alo Yoga]] (最新客戶，約旦廠出貨) 及[[Arc'teryx]]等全球頂級運動戶外品牌。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/443820251111M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月11日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,112字元，以圖形排版為主）。簡報中「**adidas**」出現7次、「**Nike**」6次、「**Patagonia**」4次、「**lululemon**」3次、「**VF**」2次、「**The North Face**」1次，**五個品牌與其母公司均有對應敘述**（含「獲**The North Face** 全球（…）」）；另載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次），**逐字支持福懋為其供應商**。**關鍵發現**：全份簡報中「**20%**」7次之上下文**均非福懋之持股**——例如「• 2025年約旦出貨比重由8%提升至17%，預估明年佔比將突破**20%**」；「持股」「股東」與「策略性」之出現次數**均為0**。**字形註記**：「第**㇐**大」之「**㇐**」為 CJK 筆畫字元（非漢字「一」）。"
+        },
+        {
+          "url": "https://www.qve.com.tw/uploads/root/FILE/443820250415M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-04-15）",
+          "source_level": 3,
+          "period_binding": "2025年4月15日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取6,974字元，以圖形排版為主）。簡報同樣載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次、「**布料**」2次），支持福懋為其供應商。**「20%」6次之上下文亦非福懋持股**——分別為約旦關稅（「廣越約旦廠區僅擬課徵20% 關稅」）與 ROE 目標（「3～5 年內將ROE 提升至20%」）。"
+        }
+      ],
+      "rationale": "「主要客戶涵蓋 [[adidas]]、[[Nike]]、[[The North Face]]（[[VF Corporation]] 旗下）、[[Patagonia]]、[[lululemon]]」獲發行人簡報支持：兩份簡報中「**adidas**」出現7次、「**Nike**」6次、「**Patagonia**」4次、「**lululemon**」3次、「**VF**」2次、「**The North Face**」1次，**五個品牌與其母公司均有對應敘述**。惟各品牌之訂單成長率未獲支持：(1)「adidas（訂單**年增 60%**）」、(2)「Nike（**年增 10%**）」、(3)「The North Face（年增 **60%**）」、(4)「Patagonia（年增 **5%**）」——**該等百分比與各品牌之連結無法由文字層確認**（簡報之文字層多為孤立詞組）。故部分成立。",
+      "proposed_text": "廣越企業 (4438，Quang Viet Enterprise) 主要客戶涵蓋 adidas、Nike、The North Face、Patagonia、lululemon 等品牌。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4438:material_named_relationship:103d9b9caad76508",
+      "normalized_claim_hash": "103d9b9caad765086f1502466a56f24f264e1eba8afd9bea025070d2ff8f91b0",
+      "ticker": "4438",
+      "company": "廣越",
+      "path": "Pilot_Reports/Apparel Manufacturing/4438_廣越.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "策略性股東[[福懋興業]]持股約 20%，同時為主要布料供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/443820251111M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月11日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,112字元，以圖形排版為主）。簡報中「**adidas**」出現7次、「**Nike**」6次、「**Patagonia**」4次、「**lululemon**」3次、「**VF**」2次、「**The North Face**」1次，**五個品牌與其母公司均有對應敘述**（含「獲**The North Face** 全球（…）」）；另載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次），**逐字支持福懋為其供應商**。**關鍵發現**：全份簡報中「**20%**」7次之上下文**均非福懋之持股**——例如「• 2025年約旦出貨比重由8%提升至17%，預估明年佔比將突破**20%**」；「持股」「股東」與「策略性」之出現次數**均為0**。**字形註記**：「第**㇐**大」之「**㇐**」為 CJK 筆畫字元（非漢字「一」）。"
+        },
+        {
+          "url": "https://www.qve.com.tw/uploads/root/FILE/443820250415M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-04-15）",
+          "source_level": 3,
+          "period_binding": "2025年4月15日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取6,974字元，以圖形排版為主）。簡報同樣載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次、「**布料**」2次），支持福懋為其供應商。**「20%」6次之上下文亦非福懋持股**——分別為約旦關稅（「廣越約旦廠區僅擬課徵20% 關稅」）與 ROE 目標（「3～5 年內將ROE 提升至20%」）。"
+        }
+      ],
+      "rationale": "「[[福懋興業]]為其主要**布料供應商**」獲發行人簡報**逐字支持**：兩份簡報均載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次、「**布料**」2次）。惟「**策略性股東**…**持股約 20%**」未獲支持：「**持股**」「**股東**」與「策略性」之出現次數**均為0**，且「**20%**」之各次上下文**均非福懋持股**——分別為約旦出貨比重（「2025年約旦出貨比重由8%提升至17%，預估明年佔比將突破**20%**」）、約旦關稅（「僅擬課徵**20%** 關稅」）與 ROE 目標（「3～5 年內將ROE 提升至**20%**」）。故部分成立。",
+      "proposed_text": "廣越企業 (4438) 透過第一大供應商福懋興業（全球最大的尼龍布供應商）穩定供貨。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4438:material_named_relationship:d4f5adfeb43875d9",
+      "normalized_claim_hash": "d4f5adfeb43875d98b9504672ced6afe487608d3e42c32f9c574b0774d27c509",
+      "ticker": "4438",
+      "company": "廣越",
+      "path": "Pilot_Reports/Apparel Manufacturing/4438_廣越.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[福懋興業]] — 主要布料供應商 (同時為 20% 策略股東，台灣/越南/中國設廠配合)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/443820251111M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月11日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,112字元，以圖形排版為主）。簡報中「**adidas**」出現7次、「**Nike**」6次、「**Patagonia**」4次、「**lululemon**」3次、「**VF**」2次、「**The North Face**」1次，**五個品牌與其母公司均有對應敘述**（含「獲**The North Face** 全球（…）」）；另載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次），**逐字支持福懋為其供應商**。**關鍵發現**：全份簡報中「**20%**」7次之上下文**均非福懋之持股**——例如「• 2025年約旦出貨比重由8%提升至17%，預估明年佔比將突破**20%**」；「持股」「股東」與「策略性」之出現次數**均為0**。**字形註記**：「第**㇐**大」之「**㇐**」為 CJK 筆畫字元（非漢字「一」）。"
+        },
+        {
+          "url": "https://www.qve.com.tw/uploads/root/FILE/443820250415M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-04-15）",
+          "source_level": 3,
+          "period_binding": "2025年4月15日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取6,974字元，以圖形排版為主）。簡報同樣載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次、「**布料**」2次），支持福懋為其供應商。**「20%」6次之上下文亦非福懋持股**——分別為約旦關稅（「廣越約旦廠區僅擬課徵20% 關稅」）與 ROE 目標（「3～5 年內將ROE 提升至20%」）。"
+        }
+      ],
+      "rationale": "「[[福懋興業]] — **主要布料供應商**」獲發行人簡報**逐字支持**（「透過第㇐大供應商福懋(全球最大的尼龍布供應商)穩定供貨」）。惟兩項陳述未獲支持：(1)「（同時為 **20% 策略股東**）」——「持股」「股東」均0次，且「20%」各次上下文均非福懋；(2)「台灣／越南／中國設廠配合」——未見相關敘述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "4438:material_named_relationship:10d632776ea4921a",
+      "normalized_claim_hash": "10d632776ea4921af215d8220c5dbeeca68d20de0d3255e4aaa570faf8e1be1a",
+      "ticker": "4438",
+      "company": "廣越",
+      "path": "Pilot_Reports/Apparel Manufacturing/4438_廣越.md",
+      "signal_type": "material_named_relationship",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[福懋興業]] — 主要布料供應商兼 20% 策略股東",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/443820251111M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-11-11）",
+          "source_level": 3,
+          "period_binding": "2025年11月11日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取10,112字元，以圖形排版為主）。簡報中「**adidas**」出現7次、「**Nike**」6次、「**Patagonia**」4次、「**lululemon**」3次、「**VF**」2次、「**The North Face**」1次，**五個品牌與其母公司均有對應敘述**（含「獲**The North Face** 全球（…）」）；另載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次），**逐字支持福懋為其供應商**。**關鍵發現**：全份簡報中「**20%**」7次之上下文**均非福懋之持股**——例如「• 2025年約旦出貨比重由8%提升至17%，預估明年佔比將突破**20%**」；「持股」「股東」與「策略性」之出現次數**均為0**。**字形註記**：「第**㇐**大」之「**㇐**」為 CJK 筆畫字元（非漢字「一」）。"
+        },
+        {
+          "url": "https://www.qve.com.tw/uploads/root/FILE/443820250415M001.pdf",
+          "title": "廣越企業股份有限公司（廣越，4438，Quang Viet Enterprise）投資人簡報（2025-04-15）",
+          "source_level": 3,
+          "period_binding": "2025年4月15日。",
+          "accessed_at": "2026-10-12",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取6,974字元，以圖形排版為主）。簡報同樣載「2. 透過第**㇐**大供應商**福懋**(**全球最大的尼龍布供應商**)穩定供貨」（「**福懋**」1次、「**布料**」2次），支持福懋為其供應商。**「20%」6次之上下文亦非福懋持股**——分別為約旦關稅（「廣越約旦廠區僅擬課徵20% 關稅」）與 ROE 目標（「3～5 年內將ROE 提升至20%」）。"
+        }
+      ],
+      "rationale": "「[[福懋興業]] — **主要布料供應商**」獲發行人簡報**逐字支持**（「第㇐大供應商福懋」「全球最大的尼龍布供應商」）。惟「兼 **20% 策略股東**」未獲支持：「持股」「股東」之出現次數**均為0**，且「20%」各次上下文均非福懋持股。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
