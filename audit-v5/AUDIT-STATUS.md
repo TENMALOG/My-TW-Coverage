@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 15:04 UTC
+Updated: 2026-10-09 16:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **668 / 1,399**
-- Remaining author review: **731**
-- Latest batch: **author-111** (5 claims)
+- Author-reviewed: **676 / 1,399**
+- Remaining author review: **723**
+- Latest batch: **author-112** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **435**
+- `PARTIALLY_SUPPORTED`: **440**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **152**
+- `UNKNOWN_AFTER_RESEARCH`: **155**
 
 ## Latest claim batch
 
-- `2408:objective_ranking_or_market_share:c4377f2679307d07` — `PARTIALLY_SUPPORTED`；南亞科年報「**DRAM」77 次**；惟「台灣最大」「第四大」皆0次。
-- `2436:objective_ranking_or_market_share:57909ce03d931541` — `PARTIALLY_SUPPORTED`；偉詮電3Q25簡報「**USB PD」4 次**、「USB」17次、「電源管理」3次、筆電1次、充電器1次；惟「市佔」「遊戲機」皆0次。
-- `2449:objective_ranking_or_market_share:fea783f1ad9c465a` — `PARTIALLY_SUPPORTED`；京元電113年報「**測試」108 次**、「封裝」36次、「預燒」7次、「burn-in」9次；惟「台灣最大」0次，且「獨立」137次多為「獨立董事」「IDM委外測試」。
-- `2454:objective_ranking_or_market_share:f41e65769c42213b` — `PARTIALLY_SUPPORTED`；聯發科2025年報（**英文版**）「AI」944次、「5G」15次、「market share」7次；惟未見「5G手機晶片市占率位居全球前二」之專述。
-- `2454:objective_ranking_or_market_share:5905335fb55488f0` — `PARTIALLY_SUPPORTED`；年報載「tape out of its flagship SoC using **TSMC's 2nm process**」（TSMC 7次、foundry 4次）；惟「**largest supplier」0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-111.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `2458:objective_ranking_or_market_share:16cff6fcb439c815` (義隆).
+- `2458:objective_ranking_or_market_share:16cff6fcb439c815`、`c5189d74c609f774` — `PARTIALLY_SUPPORTED` ×2；義隆110年報載「**筆電**的零配件中**觸控板**模組」（觸控板6次、車用3次）；惟「**市佔」4 次皆為目標敘述**（「鞏固及提升」「提升既有產品的」「提前搶佔」），「第一」7次為疫苗接種率等，「AI PC」0次。
+- `3014:objective_ranking_or_market_share:43a2413ceb931801`、`6d9b204267d9ed3f` — `PARTIALLY_SUPPORTED` ×2；聯陽議事手冊「**聯華」6 次**（集團關係）；惟「Super I/O」「EC」「嵌入式」「控制晶片」「市占」皆0次（該文件為**股東常會議事手冊**）。
+- `3034:objective_ranking_or_market_share:36d59c043f9f3ce8` — `UNKNOWN_AFTER_RESEARCH`；所取得者為**法人說明會新聞稿**（財務數字為主），未載產品線市占率或客戶結構。
+- `3105:objective_ranking_or_market_share:d03113074c1b8d2c`、`c33bbc30d1e971dd` — `UNKNOWN_AFTER_RESEARCH` ×2；穩懋端點 **SSL/TLS 憑證信任失敗**。
+- `3141:objective_ranking_or_market_share:84f650c3f04863f8` — `PARTIALLY_SUPPORTED`；晶宏2022年報「電子貨架標籤」4次、「**ESL」6 次**；惟「**55%」5 次皆為百分比區間**（0.52%~2.55%等），非市占率；「元太」未見。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-112.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3141:objective_ranking_or_market_share:65a03ef2f2732bd5` (晶宏).
 
 ## Source access
 

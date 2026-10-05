@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-112",
+  "reviewed_at": "2026-10-05T20:13:08Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (義隆110年度年報; 聯陽115年股東常會議事手冊; 聯詠法人說明會新聞稿; 晶宏2022年度年報); 穩懋端點SSL/TLS憑證信任失敗，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2458:objective_ranking_or_market_share:16cff6fcb439c815",
+      "normalized_claim_hash": "16cff6fcb439c815df5756199fd399dfd1e46a83c013bd05a8a127936e703028",
+      "ticker": "2458",
+      "company": "義隆",
+      "path": "Pilot_Reports/Semiconductors/2458_義隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "義隆在全球筆電觸控板市場市佔率第一，並積極佈局 AI PC 及車用觸控市場。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2458_110.pdf",
+          "title": "義隆電子股份有限公司（義隆，2458，ELAN Microelectronics）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「目前在**筆電**的零配件中**觸控板**模組、觸控螢幕晶片（…）」（「觸控板」6次、「車用」3次、「全球」18次），支持其筆電觸控板模組業務。全份年報中「**市佔**」4次之上下文均為**目標或趨勢敘述**（「確保營運目標能順利達成，**市佔率**能有效鞏固及提升」「短期：提升既有產品的**市佔率**、產值」「提前搶佔**市佔率**」）；「**第一**」7次之上下文為「COVID-19 疫苗**第一**劑接種率」「一一五年**第一**季業績展望」等，**非**市場排名；「AI PC」出現次數為0。"
+        }
+      ],
+      "rationale": "「以筆電觸控板模組為主要產品，並佈局車用觸控市場」獲發行人年報支持：110年度年報載「目前在**筆電**的零配件中**觸控板**模組、觸控螢幕晶片（…）」（「觸控板」6次、「車用」3次），支持其產品線與車用布局。惟兩項陳述未獲支持：(1)「在全球筆電觸控板市場**市佔率第一**」——全份年報中「**市佔**」4次之上下文均為**目標或趨勢敘述**（「市佔率能有效鞏固及提升」「短期：提升既有產品的市佔率」「提前搶佔市佔率」），「**第一**」7次之上下文為疫苗接種率與季度名稱等，**均非**市場排名；(2)「積極佈局 **AI PC**」——「AI PC」出現次數為0。故部分成立。",
+      "proposed_text": "義隆電子 (2458，ELAN Microelectronics) 為筆電觸控板模組及觸控螢幕晶片廠商，並布局車用觸控市場。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2458:objective_ranking_or_market_share:c5189d74c609f774",
+      "normalized_claim_hash": "c5189d74c609f774630b7cb96b873cbf7c2db815336d6281b4a31078d087a292",
+      "ticker": "2458",
+      "company": "義隆",
+      "path": "Pilot_Reports/Semiconductors/2458_義隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "市佔率極高，為主要供應商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2458_110.pdf",
+          "title": "義隆電子股份有限公司（義隆，2458，ELAN Microelectronics）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視。年報載「目前在**筆電**的零配件中**觸控板**模組、觸控螢幕晶片（…）」（「觸控板」6次、「車用」3次、「全球」18次），支持其筆電觸控板模組業務。全份年報中「**市佔**」4次之上下文均為**目標或趨勢敘述**（「確保營運目標能順利達成，**市佔率**能有效鞏固及提升」「短期：提升既有產品的**市佔率**、產值」「提前搶佔**市佔率**」）；「**第一**」7次之上下文為「COVID-19 疫苗**第一**劑接種率」「一一五年**第一**季業績展望」等，**非**市場排名；「AI PC」出現次數為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「市佔率極高，為主要供應商」）。年報支持其筆電觸控板模組之供應商地位；惟「**市佔率極高**」未獲支持——「市佔」4次之上下文均為「鞏固及提升」「提升既有產品的」「提前搶佔」等**目標**敘述。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3014:objective_ranking_or_market_share:43a2413ceb931801",
+      "normalized_claim_hash": "43a2413ceb9318019c04d75d93015f9e3abe42a45cdc1e3fadd6cda436e4ca85",
+      "ticker": "3014",
+      "company": "聯陽",
+      "path": "Pilot_Reports/Semiconductors/3014_聯陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "聯陽半導體 (3014) 是[[聯華電子]]集團轉投資的專業 [[IC 設計]]公司，為全球 [[Super I/O]] 控制晶片 (市占 45-50%) 及筆電 [[EC 晶片]] (Embedded Controller，市占 35-40%) 領導廠商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ite.com.tw/upload/2026_05_07/7_20260507145734bk8pcmpjD0.pdf",
+          "title": "聯陽半導體股份有限公司（聯陽，3014，ITE Tech.）115 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "115年（2026年）股東常會。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取24,434字元）。該文件為**股東常會議事手冊**（開會程序、議程、議案等），資訊揭露型態與年報不同；其中「**聯華**」出現6次，支持其與聯華電子集團之關係。全份文件中「**Super I/O**」「**EC**」「**嵌入式**」「**控制晶片**」「**IC設計**」與「**市占**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為聯華電子集團轉投資之 IC 設計公司」獲發行人文件支持：115年股東常會議事手冊中「**聯華**」出現6次，支持其與聯華電子集團之關係。惟三項陳述未獲支持：全份文件中「**Super I/O**」「**EC**」「**嵌入式**」「**控制晶片**」與「**市占**」之出現次數**均為0**，故「為全球 Super I/O 控制晶片（市占45-50%）及筆電 EC 晶片（市占35-40%）領導廠商」未獲確立。故部分成立（並註記該文件為股東常會議事手冊，資訊揭露型態與年報不同）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3014:objective_ranking_or_market_share:6d9b204267d9ed3f",
+      "normalized_claim_hash": "6d9b204267d9ed3fcad8df59c4b2a066b5871e52cb3be13044af02242af0948b",
+      "ticker": "3014",
+      "company": "聯陽",
+      "path": "Pilot_Reports/Semiconductors/3014_聯陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**聯陽** (Super I/O、EC 晶片，全球市占率領先)",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.ite.com.tw/upload/2026_05_07/7_20260507145734bk8pcmpjD0.pdf",
+          "title": "聯陽半導體股份有限公司（聯陽，3014，ITE Tech.）115 年股東常會議事手冊",
+          "source_level": 3,
+          "period_binding": "115年（2026年）股東常會。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取24,434字元）。該文件為**股東常會議事手冊**（開會程序、議程、議案等），資訊揭露型態與年報不同；其中「**聯華**」出現6次，支持其與聯華電子集團之關係。全份文件中「**Super I/O**」「**EC**」「**嵌入式**」「**控制晶片**」「**IC設計**」與「**市占**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「聯陽（Super I/O、EC 晶片，全球市占率領先）」）。所取得之股東常會議事手冊中「Super I/O」「EC」「市占」之出現次數均為0，故「全球市占率領先」未獲確立。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3034:objective_ranking_or_market_share:36d59c043f9f3ce8",
+      "normalized_claim_hash": "36d59c043f9f3ce81b4e39d63459fc59a25f9f54e2daac1f7f53dd43aba1a333",
+      "ticker": "3034",
+      "company": "聯詠",
+      "path": "Pilot_Reports/Semiconductors/3034_聯詠.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "公司在大尺寸面板驅動 IC 市佔率全球領先，客戶涵蓋全球主要面板及消費電子品牌。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/303420260206M001.pdf",
+          "title": "聯詠科技股份有限公司（聯詠，3034，Novatek Microelectronics）法人說明會新聞稿（2026-02-06）",
+          "source_level": 3,
+          "period_binding": "2026年2月6日；內容為114年自結合併財務報告。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方文件（文字擷取5,916字元）。該文件為**法人說明會新聞稿**，內容以114年自結合併財務數字（合併營收淨額、毛利率、每股盈餘等）為主（「驅動」1次、「IC」5次、「晶片」3次、「營收」4次），**未載產品線市占率或客戶結構之業務敘述**。"
+        }
+      ],
+      "rationale": "「公司在大尺寸面板驅動 IC 市佔率全球領先，客戶涵蓋全球主要面板及消費電子品牌」未獲確立：本批次所取得之聯詠官方文件為**法人說明會新聞稿**（內容以114年自結合併財務數字為主），**未載產品線市占率或客戶結構之業務敘述**（「驅動」1次、「IC」5次、「晶片」3次均為財務或公司名稱之片段）。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3105:objective_ranking_or_market_share:d03113074c1b8d2c",
+      "normalized_claim_hash": "d03113074c1b8d2c742f739edd444b28791b8da0a53d47fa41168d9cfd8ff876",
+      "ticker": "3105",
+      "company": "穩懋",
+      "path": "Pilot_Reports/Semiconductors/3105_穩懋.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[穩懋]][[半導體]] (Win Semiconductors) 是 **全球最大** 的化合物[[半導體]]晶圓代工廠 (Pure-play Foundry)，市佔率超過 70%。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.winsemiconductorcorp.com/zh-TW/Base/DownLoadStaticFile?FileName=4Q+2025+%e6%b3%95%e8%aa%aa%e6%9c%83+%e2%80%93+%e6%96%b0%e8%81%9e%e7%a8%bf.pdf",
+          "title": "穩懋半導體股份有限公司（穩懋，3105，Win Semiconductors）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載4Q 2025法人說明會新聞稿時，連線**「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」**（憑證信任失敗），未取得可檢視之檔案；本批次未取得穩懋可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「穩懋半導體是全球最大的化合物半導體晶圓代工廠（Pure-play Foundry），市佔率超過70%」未獲確立：本批次自發行人官方網域下載時遭遇 **SSL/TLS 憑證信任失敗**，未取得可檢視之檔案，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3105:objective_ranking_or_market_share:c33bbc30d1e971dd",
+      "normalized_claim_hash": "c33bbc30d1e971dd090fe69db33591cde2290394c017c778dcb397acb2e55a3c",
+      "ticker": "3105",
+      "company": "穩懋",
+      "path": "Pilot_Reports/Semiconductors/3105_穩懋.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "**IC 設計大廠**: [[Broadcom]] (最大客戶), [[Qualcomm]], [[Qorvo]], [[Skyworks]].",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.winsemiconductorcorp.com/zh-TW/Base/DownLoadStaticFile?FileName=4Q+2025+%e6%b3%95%e8%aa%aa%e6%9c%83+%e2%80%93+%e6%96%b0%e8%81%9e%e7%a8%bf.pdf",
+          "title": "穩懋半導體股份有限公司（穩懋，3105，Win Semiconductors）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次自發行人官方網域下載4Q 2025法人說明會新聞稿時，連線**「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」**（憑證信任失敗），未取得可檢視之檔案；本批次未取得穩懋可檢視之官方文件。"
+        }
+      ],
+      "rationale": "本 claim 為同一具名客戶事實之條目表述（「IC 設計大廠：Broadcom（最大客戶）、Qualcomm、Qorvo、Skyworks」）。因所取得之端點憑證信任失敗、未取得可檢視之官方文件，該等客戶身分與最大客戶關係未獲確立，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3141:objective_ranking_or_market_share:84f650c3f04863f8",
+      "normalized_claim_hash": "84f650c3f04863f86730fab9d592e042ac9a457f63d4a04f903c5dc1316e8301",
+      "ticker": "3141",
+      "company": "晶宏",
+      "path": "Pilot_Reports/Semiconductors/3141_晶宏.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "晶宏半導體 (3141) 是全球[[電子貨架標籤]] (ESL) 驅動晶片龍頭，市占率達 55%，為[[元太科技]]轉投資公司。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "http://www.ultrachip.com/images/epost/%E5%B9%B4%E5%A0%B12022_3141_20230518F04_20230504_170101.pdf",
+          "title": "晶宏半導體股份有限公司（晶宏，3141，UltraChip）2022 年度年報",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**電子貨架標籤**」出現4次、「**ESL**」6次、「龍頭」1次，支持其電子貨架標籤（ESL）驅動晶片業務。全份年報中「**55%**」5次之上下文**均為百分比區間**（如「0.52%~2.55%」「0.55%～0.61%」「1.00%～1.55%」），**非市占率**；「元太」之出現次數未見於可檢索文字。"
+        }
+      ],
+      "rationale": "「為電子貨架標籤（ESL）驅動晶片廠商」獲發行人年報支持：2022年度年報中「**電子貨架標籤**」出現4次、「**ESL**」6次，支持其 ESL 驅動晶片業務。惟兩項陳述未獲支持：(1)「是**全球**…**龍頭**，市占率達 **55%**」——全份年報中「**55%**」5次之上下文**均為百分比區間**（如「0.52%~2.55%」「0.55%～0.61%」「1.00%～1.55%」），**非市占率**；(2)「為**元太科技**轉投資公司」——「元太」未見於可檢索文字。故部分成立。",
+      "proposed_text": "晶宏半導體 (3141，UltraChip) 從事電子貨架標籤（ESL）驅動晶片業務。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
