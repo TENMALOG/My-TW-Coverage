@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **618 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), and `author-103` (7).
+Author-reviewed: **626 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), `author-068` (6), `author-069` (4), `author-070` (6), `author-071` (6), `author-072` (5), `author-073` (6), `author-074` (5), `author-075` (7), `author-076` (5), `author-077` (7), `author-078` (6), `author-079` (7), `author-080` (6), `author-081` (7), `author-082` (7), `author-083` (8), `author-084` (6), `author-085` (8), `author-086` (8), `author-087` (6), `author-088` (8), `author-089` (8), `author-090` (7), `author-091` (8), `author-092` (5), `author-093` (8), `author-094` (8), `author-095` (8), `author-096` (8), `author-097` (6), `author-098` (5), `author-099` (8), `author-100` (7), `author-101` (7), `author-102` (6), `author-103` (7), and `author-104` (8).
 
 - ACCEPTED by author: 77
-- PARTIALLY_SUPPORTED: 401
+- PARTIALLY_SUPPORTED: 406
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 136
-- Remaining author queue: 781
+- Other allowed author decisions: 139
+- Remaining author queue: 773
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -1231,6 +1231,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **136 筆**。
 - Author-reviewed total: **618 / 1,399**; remaining: **781**. Outcome counts: ACCEPTED 77, PARTIALLY_SUPPORTED 401, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 136. Next pending claim by priority: `2423:objective_ranking_or_market_share:89e017344f0a4685` (固緯).
+
+## Author batch `author-104` — 2026-10-09
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (固緯 2423 ×3, 德律 3030, 閎康 3587 ×2, 勤崴國際 6516, 泰藝 8289). Evidence came from directly downloaded and inspected official disclosures: 德律107年度年報、閎康IR Conference簡報（英文版）、勤崴國際115年股東常會議事錄、泰藝2025年法人說明會簡報。
+- `2423:objective_ranking_or_market_share:89e017344f0a4685`、`ac4c5aacc850ead3` 與 `598bd6f5b3e719aa` — `UNKNOWN_AFTER_RESEARCH`. 本批次就固緯（2423）嘗試三個端點，**均未取得可檢視之文件**：(1) 官方網域 gwinstek.co.uk 之113年報端點——**SSL/TLS 憑證信任失敗**；(2) 官方網域 gwinstek.de 之同一文件端點——**同樣 SSL/TLS 憑證信任失敗**（含以略過憑證檢查方式重試後仍失敗）；(3) 公開資訊觀測站 t100 端點——所取得檔案**僅320 bytes**（擷取1字元，顯非完整文件）。
+- `3030:objective_ranking_or_market_share:0bce561f06e3e4e6` — `PARTIALLY_SUPPORTED`. 德律107年度年報中「**AOI**」出現58次、「**自動光學**」12次、「全球」20次，支持其 AOI 設備業務；惟「為**台灣最大**的自動光學檢測設備廠商」（「台灣最大」「國內最大」均0次）與「**全球市佔率名列前茅**」未獲支持——「**市佔**」2次之上下文為「提升公司產品的全球**市佔率**」「進一步擴大**市佔**（率）」之**營運目標**敘述。
+- `3587:objective_ranking_or_market_share:d51886a6ad107637` 與 `807d8b6094e488c5` — `PARTIALLY_SUPPORTED`. 閎康2024年官方簡報（**英文版**）載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」「Recent Major Chip Investments in Japan」（「Kumamoto」4次、「Japan」9次），支持其日本（含熊本）營運布局；惟「[[台積電]] — **最大客戶**」未獲支持（全份簡報中「**TSMC**」與「**largest**（customer）」之出現次數均為0）。
+- `6516:objective_ranking_or_market_share:ee30bf28283d37f0` — `PARTIALLY_SUPPORTED`. 勤崴國際115年股東常會議事錄中「**電子地圖**」出現1次，支持該業務之存在；惟「在台灣電子地圖市場**超過七成**的絕對市佔率」（「七成」「市佔」均0次）、「為 **[[Google]] Maps** 在台灣的圖資合作夥伴」（「Google」0次）與「已成功轉型為智慧移動系統整合商」均未獲支持。註記：該文件為股東常會議事錄，資訊揭露型態與年報不同。
+- `8289:objective_ranking_or_market_share:3e8264bf27a8e71f` — `PARTIALLY_SUPPORTED`. 泰藝2025年官方簡報中「**OCXO**」出現2次、「**衛星**」4次、「**5G**」2次，支持其 OCXO 產品與應用；惟「為台灣**唯一**具備 OCXO 技術之製造商」（「唯一」0次）與「將石英晶體置於**恆溫**槽中」（「恆溫」0次）未獲支持。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **139 筆**（新增 `tls_failure` 分類）。
+- Author-reviewed total: **626 / 1,399**; remaining: **773**. Outcome counts: ACCEPTED 77, PARTIALLY_SUPPORTED 406, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 139. Next pending claim by priority: `8289:objective_ranking_or_market_share:f64fe0dc9d652473` (泰藝).
+
 
 
 

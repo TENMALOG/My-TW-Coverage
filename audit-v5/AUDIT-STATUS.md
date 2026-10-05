@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-09 07:04 UTC
+Updated: 2026-10-09 08:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,30 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **618 / 1,399**
-- Remaining author review: **781**
-- Latest batch: **author-103** (7 claims)
+- Author-reviewed: **626 / 1,399**
+- Remaining author review: **773**
+- Latest batch: **author-104** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **77**
-- `PARTIALLY_SUPPORTED`: **401**
+- `PARTIALLY_SUPPORTED`: **406**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **136**
+- `UNKNOWN_AFTER_RESEARCH`: **139**
 
 ## Latest claim batch
 
-- `2923:objective_ranking_or_market_share:2deccd89094eaab3` — `PARTIALLY_SUPPORTED`；鼎固文件「日月光」59次（母子集團關係）；惟「全球最大」「封測」皆0次。
-- `3489:objective_ranking_or_market_share:6f1e5cdcedde4c99` — `PARTIALLY_SUPPORTED`；森寶2025簡報「森碁」2次、「營造」3次、「100%」2次；惟「一條龍」「垂直整合」皆0次。
-- `9940:objective_ranking_or_market_share:103ba9aa17da7009` — `PARTIALLY_SUPPORTED`；信義2025簡報載「2024年10月店數為**464家直營分店**」；惟「1987」「最大」皆0次，且claim之「超過500間」**與官方所載464家不符**。
-- `8478:objective_ranking_or_market_share:1d158029ffa49cb9` — `PARTIALLY_SUPPORTED`；東哥2026簡報之來源身分成立；惟「亞洲最大」「全球第三」「Ocean」皆0次。
-- `8478:objective_ranking_or_market_share:28a1bcd15fe9985b`、`803bb81e8eda9129` — `UNKNOWN_AFTER_RESEARCH` ×2；簡報「MarineMax」0次，且「50%」5次分別為「產能+50%」「回購率50%+」等，**非經銷商營收占比**。
-- `2360:objective_ranking_or_market_share:1e49821a8cff17a7` — `PARTIALLY_SUPPORTED`；致茂114年報「量測」44次、「自動化測試」6次；惟「亞洲最大」「1984」皆0次（**封面頁文字層亂碼**）。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-103.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `2423:objective_ranking_or_market_share:89e017344f0a4685` (固緯).
+- `2423:objective_ranking_or_market_share:89e017344f0a4685`、`ac4c5aacc850ead3`、`598bd6f5b3e719aa` — `UNKNOWN_AFTER_RESEARCH` ×3；固緯三個端點均失敗（gwinstek.co.uk 與 gwinstek.de 之113年報端點皆 **SSL/TLS 憑證信任失敗**；MOPS t100 端點**僅320 bytes**）。
+- `3030:objective_ranking_or_market_share:0bce561f06e3e4e6` — `PARTIALLY_SUPPORTED`；德律107年報「**AOI」58 次、「自動光學」12 次**；惟「台灣最大」「國內最大」「名列前茅」皆0次，且「市佔」2次係**營運目標**敘述。
+- `3587:objective_ranking_or_market_share:d51886a6ad107637`、`807d8b6094e488c5` — `PARTIALLY_SUPPORTED` ×2；閎康簡報（英文版）載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」（Kumamoto 4次、Japan 9次）；惟「**TSMC」0 次**、「largest customer」0 次。
+- `6516:objective_ranking_or_market_share:ee30bf28283d37f0` — `PARTIALLY_SUPPORTED`；勤崴議事錄「電子地圖」1次；惟「七成」「Google」「市佔」皆0次。
+- `8289:objective_ranking_or_market_share:3e8264bf27a8e71f` — `PARTIALLY_SUPPORTED`；泰藝簡報「OCXO」2次、「衛星」4次、「5G」2次；惟「唯一」「恆溫」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-104.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `8289:objective_ranking_or_market_share:f64fe0dc9d652473` (泰藝).
 
 ## Source access
 

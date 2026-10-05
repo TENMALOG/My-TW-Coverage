@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-104",
+  "reviewed_at": "2026-10-05T19:59:58Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (德律107年度年報; 閎康IR Conference簡報英文版; 勤崴國際115年股東常會議事錄; 泰藝2025年法人說明會簡報); 固緯三個端點均失敗（SSL/TLS與320 bytes），已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "2423:objective_ranking_or_market_share:89e017344f0a4685",
+      "normalized_claim_hash": "89e017344f0a46856136ae0985e73db6412007b81a702a26f77fe2cc3143572c",
+      "ticker": "2423",
+      "company": "固緯",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/2423_固緯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "固緯電子實業股份有限公司 (2423，Good Will Instrument) 成立於 1975 年，為台灣最大之電子量測儀器製造商，產品行銷全球約 80 個國家。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://gwinstek.co.uk/upload/media/EastAsia/Shareholders/Shareholders_meeting/shareholders%27meeting/2025/%E5%9B%BA%E7%B7%AF113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "固緯電子實業股份有限公司（固緯，2423，Good Will Instrument）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次就固緯（2423）嘗試三個端點，**均未取得可檢視之文件**：(1) 官方網域 gwinstek.co.uk 之113年報端點——**SSL/TLS 憑證信任失敗**（「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」）；(2) 官方網域 gwinstek.de 之同一文件端點——**同樣 SSL/TLS 憑證信任失敗**（包含以略過憑證檢查方式重試後仍失敗）；(3) 公開資訊觀測站之 t100 年報端點——所取得檔案**僅320 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**。"
+        }
+      ],
+      "rationale": "「固緯成立於1975年，為台灣最大之電子量測儀器製造商，產品行銷全球約80個國家」未獲確立：本批次就固緯嘗試三個端點，**均未取得可檢視之文件**——兩個官方網域之113年報端點皆為 **SSL/TLS 憑證信任失敗**，公開資訊觀測站之 t100 端點則回傳**僅320 bytes**之檔案（擷取1字元，顯非完整文件）。故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2423:objective_ranking_or_market_share:ac4c5aacc850ead3",
+      "normalized_claim_hash": "ac4c5aacc850ead3a0390fae32e7c3ba729e5fee8395c59fbaefa6ea10d967fa",
+      "ticker": "2423",
+      "company": "固緯",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/2423_固緯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歐洲為最大出口市場。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://gwinstek.co.uk/upload/media/EastAsia/Shareholders/Shareholders_meeting/shareholders%27meeting/2025/%E5%9B%BA%E7%B7%AF113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "固緯電子實業股份有限公司（固緯，2423，Good Will Instrument）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次就固緯（2423）嘗試三個端點，**均未取得可檢視之文件**：(1) 官方網域 gwinstek.co.uk 之113年報端點——**SSL/TLS 憑證信任失敗**（「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」）；(2) 官方網域 gwinstek.de 之同一文件端點——**同樣 SSL/TLS 憑證信任失敗**（包含以略過憑證檢查方式重試後仍失敗）；(3) 公開資訊觀測站之 t100 年報端點——所取得檔案**僅320 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**。"
+        }
+      ],
+      "rationale": "「歐洲為最大出口市場」未獲確立：本批次就固緯嘗試之三個端點均未取得可檢視之文件（兩個官方端點 SSL/TLS 憑證信任失敗；MOPS t100 端點僅320 bytes），故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2423:objective_ranking_or_market_share:598bd6f5b3e719aa",
+      "normalized_claim_hash": "598bd6f5b3e719aa469c0f23e2d9ccda23df9c69a334ce11c17ab026197b19b3",
+      "ticker": "2423",
+      "company": "固緯",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/2423_固緯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "歐洲 (最大市場)、美國、東南亞",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://gwinstek.co.uk/upload/media/EastAsia/Shareholders/Shareholders_meeting/shareholders%27meeting/2025/%E5%9B%BA%E7%B7%AF113%E5%B9%B4%E5%B9%B4%E5%A0%B1(%E4%B8%AD%E6%96%87).pdf",
+          "title": "固緯電子實業股份有限公司（固緯，2423，Good Will Instrument）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-09。",
+          "accessed_at": "2026-10-09",
+          "note": "本批次就固緯（2423）嘗試三個端點，**均未取得可檢視之文件**：(1) 官方網域 gwinstek.co.uk 之113年報端點——**SSL/TLS 憑證信任失敗**（「基礎連接已關閉: 無法為 SSL/TLS 安全通道建立信任關係」）；(2) 官方網域 gwinstek.de 之同一文件端點——**同樣 SSL/TLS 憑證信任失敗**（包含以略過憑證檢查方式重試後仍失敗）；(3) 公開資訊觀測站之 t100 年報端點——所取得檔案**僅320 bytes**，經 PDF 文字擷取後僅得1字元，**顯非完整文件**。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「歐洲（最大市場）、美國、東南亞」）。固緯之三個端點均未取得可檢視之文件，故以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3030:objective_ranking_or_market_share:0bce561f06e3e4e6",
+      "normalized_claim_hash": "0bce561f06e3e4e6cc5dc0da6356fd7bd85418c7047526229cdf8d9a2e7789fb",
+      "ticker": "3030",
+      "company": "德律",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/3030_德律.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "德律科技股份有限公司 (3030，TRI) 為台灣最大的自動光學檢測設備 (AOI) 廠商，全球市佔率名列前茅。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.tri.com.tw/uploads/files/107%e8%82%a1%e6%9d%b1%e6%9c%83%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "德律科技股份有限公司（德律，3030，TRI）107 年度股東會年報",
+          "source_level": 3,
+          "period_binding": "民國107年度；非近期版本。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「**AOI**」出現58次、「**自動光學**」12次、「全球」20次，支持其自動光學檢測設備（AOI）之業務。全份年報中「**台灣最大**」「**國內最大**」與「名列前茅」之出現次數均為0；「**市佔**」2次之上下文為「提升公司產品的全球**市佔率**」「進一步擴大**市佔**（率）」之**營運目標**敘述，非市場地位之量化描述。"
+        }
+      ],
+      "rationale": "「為自動光學檢測設備（AOI）廠商」獲發行人年報支持：107年度年報中「**AOI**」出現58次、「**自動光學**」12次、「全球」20次，支持其 AOI 設備業務。惟兩項市場地位陳述未獲支持：(1)「為**台灣最大**的自動光學檢測設備廠商」——「台灣最大」與「國內最大」出現次數均為0；(2)「**全球市佔率名列前茅**」——「名列前茅」為0，且「**市佔**」2次之上下文為「提升公司產品的全球**市佔率**」「進一步擴大**市佔**（率）」之**營運目標**，非市場地位之量化描述。故部分成立。",
+      "proposed_text": "德律科技 (3030，TRI) 從事自動光學檢測設備（AOI）之製造。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3587:objective_ranking_or_market_share:d51886a6ad107637",
+      "normalized_claim_hash": "d51886a6ad10763718e2c96e0b1f5a38834e0bd262a1ebd03b06300eaa3e24bd",
+      "ticker": "3587",
+      "company": "閎康",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/3587_閎康.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] — 最大客戶，日本熊本廠就近設立實驗室",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/358720240919M001.pdf",
+          "title": "閎康科技股份有限公司（閎康，3587，MA-tek）IR Conference 簡報（2024-09-19，英文版）",
+          "source_level": 3,
+          "period_binding": "2024年9月19日。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（**英文版**，文字擷取16,050字元）。簡報載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」「Recent Major Chip Investments in Japan」「2024H2 ~ 2025 Outlook - Japan」（「Kumamoto」4次、「Japan」9次、「Customer」3次），支持其於日本（含熊本）之營運布局及與客戶之往來。全份簡報中「**TSMC**」與「**largest**（customer）」之出現次數均為0，未具名台積電或表述其為最大客戶。"
+        }
+      ],
+      "rationale": "「於日本熊本設有據點以就近服務客戶」獲發行人簡報支持：2024年官方簡報（英文版）載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」「Recent Major Chip Investments in Japan」（「Kumamoto」4次、「Japan」9次、「Customer」3次），支持其日本（含熊本）營運布局。惟「[[台積電]] — **最大客戶**」未獲支持：全份簡報中「**TSMC**」與「**largest**（customer）」之出現次數均為0，未具名台積電或表述其為最大客戶。故部分成立。",
+      "proposed_text": "閎康科技 (3587，MA-tek) 於日本（含熊本）設有營運據點。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3587:objective_ranking_or_market_share:807d8b6094e488c5",
+      "normalized_claim_hash": "807d8b6094e488c57b853a2f108daf736ffc2786ecf7aff817c1442c1c9bfdd7",
+      "ticker": "3587",
+      "company": "閎康",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/3587_閎康.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[台積電]] — 最大客戶，熊本廠就近服務",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/358720240919M001.pdf",
+          "title": "閎康科技股份有限公司（閎康，3587，MA-tek）IR Conference 簡報（2024-09-19，英文版）",
+          "source_level": 3,
+          "period_binding": "2024年9月19日。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（**英文版**，文字擷取16,050字元）。簡報載「**Kumamoto (MA)**」「Japan – National Project (Rapidus)」「Recent Major Chip Investments in Japan」「2024H2 ~ 2025 Outlook - Japan」（「Kumamoto」4次、「Japan」9次、「Customer」3次），支持其於日本（含熊本）之營運布局及與客戶之往來。全份簡報中「**TSMC**」與「**largest**（customer）」之出現次數均為0，未具名台積電或表述其為最大客戶。"
+        }
+      ],
+      "rationale": "本 claim 為同一事實之條目表述（「台積電 — 最大客戶，熊本廠就近服務」）。簡報載「Kumamoto (MA)」與日本布局，支持其熊本據點；惟「**台積電**」（TSMC 0次）與「**最大客戶**」（largest customer 0次）未獲支持（且本件為英文版文件，須以英文詞彙比對）。故部分成立。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "6516:objective_ranking_or_market_share:ee30bf28283d37f0",
+      "normalized_claim_hash": "ee30bf28283d37f01308b4a06f7f8d5ced16f1f57ee1b07c8cf7b452a193a524",
+      "ticker": "6516",
+      "company": "勤崴國際",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/6516_勤崴國際.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "勤崴憑藉在台灣電子地圖市場超過七成的絕對市佔率(為[[Google]] Maps在台灣的圖資合作夥伴)，已成功轉型為智慧移動系統整合商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kingwaytek.com/files/115%e5%b9%b4%e8%82%a1%e6%9d%b1%e5%b8%b8%e6%9c%83_%e8%ad%b0%e4%ba%8b%e9%8c%84.pdf",
+          "title": "勤崴國際科技股份有限公司（勤崴國際，6516，KingwayTek）115 年股東常會議事錄",
+          "source_level": 3,
+          "period_binding": "115年（2026年）股東常會。",
+          "accessed_at": "2026-10-09",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取9,966字元）。議事錄中「**電子地圖**」出現1次，支持其電子地圖相關業務之存在。全份文件中「**七成**」「**Google**」與「**市佔**」之出現次數均為0。註記：該文件為股東常會議事錄（非業務說明書），資訊揭露型態與年報不同。"
+        }
+      ],
+      "rationale": "「從事電子地圖相關業務」獲發行人文件支持：115年股東常會議事錄中「**電子地圖**」出現1次，支持該業務之存在。惟三項陳述未獲支持：(1)「在台灣電子地圖市場**超過七成**的絕對市佔率」——「七成」與「市佔」出現次數均為0；(2)「為 **[[Google]] Maps** 在台灣的圖資合作夥伴」——「Google」出現次數為0；(3)「已成功轉型為智慧移動系統整合商」——未見對應敘述。故部分成立（並註記該文件為股東常會議事錄，資訊揭露型態與年報不同）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "8289:objective_ranking_or_market_share:3e8264bf27a8e71f",
+      "normalized_claim_hash": "3e8264bf27a8e71ffbae613dbb5dd3033a7f5933ec1b6fa2405868fa0cf0b9e7",
+      "ticker": "8289",
+      "company": "泰藝",
+      "path": "Pilot_Reports/Scientific & Technical Instruments/8289_泰藝.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "泰藝為台灣唯一具備[[OCXO]]技術之製造商，OCXO 將石英晶體置於恆溫槽中，提供極高頻率穩定性，為[[5G]]基地台、衛星通訊及精密量測之關鍵元件。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/828920251211M001.pdf",
+          "title": "泰藝電子股份有限公司（泰藝，8289，Taitien）法人說明會簡報（2025-12-11）",
+          "source_level": 3,
+          "period_binding": "2025年12月。",
+          "accessed_at": "2026-10-09",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（文字擷取6,464字元）。簡報中「**OCXO**」出現2次、「**衛星**」4次、「**5G**」2次，支持其 OCXO 產品及 5G／衛星通訊之應用範疇。全份簡報中「**唯一**」與「**恆溫**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「生產 OCXO 並應用於 5G 基地台、衛星通訊及精密量測」獲發行人簡報支持：2025年官方簡報中「**OCXO**」出現2次、「**衛星**」4次、「**5G**」2次，支持其 OCXO 產品與該等應用領域。惟兩項陳述未獲支持：(1)「為台灣**唯一**具備 OCXO 技術之製造商」——「唯一」出現次數為0；(2)「OCXO 將石英晶體置於**恆溫**槽中」——「恆溫」出現次數為0（該技術敘述未見於本件）。故部分成立。",
+      "proposed_text": "泰藝電子 (8289，Taitien) 生產 OCXO（恆溫控制石英振盪器），應用於 5G 基地台、衛星通訊及精密量測。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}
