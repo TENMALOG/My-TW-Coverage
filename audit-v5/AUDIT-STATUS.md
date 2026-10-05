@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 05:04 UTC
+Updated: 2026-10-07 06:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,32 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **293 / 1,399**
-- Remaining author review: **1,106**
-- Latest batch: **author-053** (4 claims)
+- Author-reviewed: **301 / 1,399**
+- Remaining author review: **1,098**
+- Latest batch: **author-054** (8 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **53**
-- `PARTIALLY_SUPPORTED`: **189**
+- `PARTIALLY_SUPPORTED`: **196**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **47**
+- `UNKNOWN_AFTER_RESEARCH`: **48**
 
 ## Latest claim batch
 
-- `6592:objective_ranking_or_market_share:2860da8fae309c7a` — `PARTIALLY_SUPPORTED`; 和潤2026簡報第5頁載「成立時間：1999/5/25」與集團架構（豊田財務45.4%、和泰汽車22.96%）；惟「市佔」0次、「第一」「龍頭」皆0次。
-- `9941:objective_ranking_or_market_share:e7f6d06661d25993` — `PARTIALLY_SUPPORTED`; 裕融110年報第14頁載「1990.04 裕融企業成立，由裕隆汽車與美國奇異財務各持50%股權」；惟「第一家」0次。
-- `9941:objective_ranking_or_market_share:fd6ccb1d3918b0e9` — `PARTIALLY_SUPPORTED`; 第14頁載購買新鑫100%股權、收購格上45%、與格上共同購買行將59%並取得**SAVE中古車聯盟經營權**；惟「龍頭」「半數」「2億」皆0次。
-- `9941:objective_ranking_or_market_share:72928707fcb8c094` — `PARTIALLY_SUPPORTED`; 新鑫之商用車分期業務與其證券代號6871獲確認；惟「市佔第一」未載。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-053.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` (寶雅).
+- `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` — `PARTIALLY_SUPPORTED`; 寶雅官方投資人專區載地址「台南市民族路三段74號」與主要經營業務（時尚美粧、內衣襪、生活日常用品）；惟未載「台灣最大」「連鎖」，官網財務報告下載失敗、MOPS年報端點回320 bytes。
+- `2496:objective_ranking_or_market_share:f13fd59509def495` — `PARTIALLY_SUPPORTED`; 卓越113年報資料載集團旗下「陳立教育」之升學教學服務（陳立10次、高中6次）；惟「全國最大」與「40年」皆0次。
+- `1537:objective_ranking_or_market_share:a9061697368a9c39` — `PARTIALLY_SUPPORTED`; 廣隆2022簡報載「KLB是**東南亞**產能最大的專業生產UPS電（池）」（範圍為東南亞而非claim之亞洲）；「LONG」「100國」皆0次。
+- `1597:objective_ranking_or_market_share:00f892e251ed2b4f` — `PARTIALLY_SUPPORTED`; 直得114年報「半導體」32次、「醫療」10次、「自動化」64次；惟「最大」6處均為股東利益等語，非應用領域排序。
+- `1617:objective_ranking_or_market_share:9fba43f07feab108` — `PARTIALLY_SUPPORTED`; 榮星2025簡報「漆包線」16次；惟「龍頭」「唯一」「最齊全」皆0次。
+- `3078:objective_ranking_or_market_share:299b9d575f6c2dfd` — `PARTIALLY_SUPPORTED`; 僑威2022永續報告「電源」103次；惟「全球最大」「代工」「市佔」皆0次。
+- `3092:objective_ranking_or_market_share:e36782398881d1ed` — `UNKNOWN_AFTER_RESEARCH`; 鴻碩官方年報路徑所下載PDF僅1,086字元且為網站頁尾文字，非公司文件。
+- `3484:objective_ranking_or_market_share:e42a3a40cfbcace6` — `PARTIALLY_SUPPORTED`; 崧騰2020簡報「開關」9次、載高耐受性與防水防塵開關設計；惟「全球最大」「電動工具」「市佔」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-054.json`（8 筆）。未修改發行人報告。
+- Next pending claim by priority: `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` (崧騰).
 
 ## Source access
 

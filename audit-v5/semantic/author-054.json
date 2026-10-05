@@ -1,0 +1,209 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-054",
+  "reviewed_at": "2026-10-05T17:56:20Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (寶雅官方投資人專區公司簡介頁; 卓越113年度年報資料; 廣隆2022年法人說明會簡報; 直得114年度年報; 榮星2025年法人說明會簡報; 僑威2022年永續報告書; 崧騰2020年法人說明會簡報); 鴻碩官方年報端點回傳非文件內容，已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "5904:objective_ranking_or_market_share:1c808dde25b1f8c1",
+      "normalized_claim_hash": "1c808dde25b1f8c146cb50d141b7b355486625f3cfa38115479e2d6cd86fdad1",
+      "ticker": "5904",
+      "company": "寶雅",
+      "path": "Pilot_Reports/Department Stores/5904_寶雅.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "寶雅國際 (5904，POYA) 為台灣最大連鎖生活百貨暨美妝專賣通路，總部位於台南。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.poya.com.tw/investor",
+          "title": "寶雅國際股份有限公司（寶雅，5904，POYA）官方投資人專區「公司簡介」頁",
+          "source_level": 3,
+          "period_binding": "查閱日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "直接開啟發行人官方網站投資人專區（HTTP 200）並檢視其公司簡介資訊。頁面載「寶雅國際股份有限公司 股票代碼 5904」「產業類別 居家生活」「地址 **台南市民族路三段74號**」「主要經營業務 (1)時尚美粧美材保養品 (2)流行內衣襪 (3)生活日常用品 (4)精緻個人用品」「董事長 陳建造」「公司成立日期 86/03/12」。頁面未載「台灣最大」「連鎖」「市佔」等排名或規模敘述。另註記：本批次嘗試下載該公司官網之財務報告 PDF 兩次均失敗（要求已經中止：連接意外關閉），公開資訊觀測站年報端點 t100sa11_5904_113.pdf 則回傳320 bytes 非文件內容。"
+        }
+      ],
+      "rationale": "「總部位於台南」與其業務性質獲發行人官方投資人專區支持：頁面載「地址 台南市民族路三段74號」「產業類別 居家生活」「主要經營業務 (1)時尚美粧美材保養品 (2)流行內衣襪 (3)生活日常用品 (4)精緻個人用品」「公司成立日期 86/03/12」。惟「為台灣最大連鎖生活百貨暨美妝專賣通路」未獲支持：該頁面未載「台灣最大」「連鎖」或市占率等排名敘述，本批次亦未能取得該公司年報（官網兩條財務報告路徑均下載失敗、公開資訊觀測站年報端點回傳320 bytes 非文件內容）。故部分成立。",
+      "proposed_text": "寶雅國際 (5904，POYA) 總部位於台南，以時尚美粧保養品、流行內衣襪與生活日常用品為主要經營業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2496:objective_ranking_or_market_share:f13fd59509def495",
+      "normalized_claim_hash": "f13fd59509def495497ae13516ca1c478966858c5bcc62d95366af8b3a08f324",
+      "ticker": "2496",
+      "company": "卓越",
+      "path": "Pilot_Reports/Education & Training Services/2496_卓越.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "集團核心品牌「[[陳立教育]]」為全國最大高中數理補習班體系，品牌歷史逾 40 年。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.chenliedu2496.com/images/pdf/AGM/2025AGM-04.pdf",
+          "title": "卓越成功股份有限公司（卓越，2496）113 年度年報資料（股東會文件）",
+          "source_level": 3,
+          "period_binding": "民國113年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。文件載「集團旗下之『陳立教育』專業的教學資源，從小學升私中、國中會考、高中學（測）到分科考、二階筆面試等，提供完整的規劃和專業之服務」，並列董事經歷含「財團法人陳立教育基金會董事」「陳立教育事業(股)公司副總經理」「陳立小學堂(股)公司產品經理」。全份文件中「陳立」出現10次、「高中」6次、「數理」1次、「補習班」1次；「全國最大」「最大」與「40年」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「集團核心品牌為陳立教育」與其高中學科教學定位獲發行人文件支持：年報資料載「集團旗下之『陳立教育』專業的教學資源，從小學升私中、國中會考、高中學（測）到分科考、二階筆面試等，提供完整的規劃和專業之服務」，並列董事經歷含「財團法人陳立教育基金會董事」「陳立教育事業(股)公司副總經理」（「陳立」10次、「高中」6次）。惟兩項陳述未獲支持：(1)「為全國最大高中數理補習班體系」——全份文件中「全國最大」與「最大」出現次數均為0；(2)「品牌歷史逾40年」——「40年」出現次數為0（本批次未取得可確認品牌起始年度之沿革敘述）。故部分成立。",
+      "proposed_text": "卓越 (2496) 集團旗下「陳立教育」提供從小學升私中、國中會考、高中學測到分科考的完整教學服務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1537:objective_ranking_or_market_share:a9061697368a9c39",
+      "normalized_claim_hash": "a9061697368a9c399e2b2ca6bb8f381dc44ba4b52de0f0c7a70e77586279d407",
+      "ticker": "1537",
+      "company": "廣隆",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1537_廣隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "廣隆光電科技 (1537，Kung Long Batteries) 為亞洲[[UPS]]蓄電池產能最大製造商，自有品牌「LONG」行銷逾 100 國。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/153720221108M002.pdf",
+          "title": "廣隆光電科技股份有限公司（廣隆，1537，Kung Long Batteries）法人說明會簡報（2022-11-08）",
+          "source_level": 3,
+          "period_binding": "2022年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報。簡報載「蓄電池產業發展，淘汰落後產能，**KLB是東南亞產能最大的專業生產UPS電（池）**」，並載「未見新的進入者，且除中國外的亞洲國家生產者少」（「UPS」9次、「蓄電池」14次、「亞洲」7次、「最大」1次）。全份簡報中「LONG」與「100國」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為專業 UPS 蓄電池製造商」與「產能最大」之地位獲發行人簡報部分支持：簡報載「蓄電池產業發展，淘汰落後產能，**KLB是東南亞產能最大的專業生產UPS電（池）**」；「UPS」出現9次、「蓄電池」14次。惟須更正範圍：官方用語為「**東南亞**產能最大」，而非 claim 所稱之「**亞洲**」產能最大（簡報另載「除中國外的亞洲國家生產者少」，係描述競爭環境而非其自身排名）。另「自有品牌 LONG 行銷逾100國」未獲支持：全份簡報中「LONG」與「100國」出現次數均為0。故部分成立。",
+      "proposed_text": "廣隆光電 (1537，Kung Long Batteries) 為東南亞產能最大的專業 UPS 蓄電池製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1597:objective_ranking_or_market_share:00f892e251ed2b4f",
+      "normalized_claim_hash": "00f892e251ed2b4f6192cffe72c88035453a5ef4f67afa39434a2ccb6755257f",
+      "ticker": "1597",
+      "company": "直得",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1597_直得.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "主要應用於[[半導體]]製程設備 (最大領域)、醫療精密儀器及自動化設備。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://chieftek.com/wp-content/uploads/2026/05/114-%E5%B9%B4%E5%A0%B1_tw.pdf",
+          "title": "直得科技股份有限公司（直得，1597，Chieftek Precision）114 年度年報",
+          "source_level": 3,
+          "period_binding": "民國114年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。年報中「線性滑軌」出現37次、「半導體」32次、「自動化」64次、「醫療」10次、「領域」29次。全份年報中「最大」出現6次，經逐處檢視均為「股東最大利益」「員工福祉為最大之原（則）」等語，無一處用以描述應用領域之規模排序。"
+        }
+      ],
+      "rationale": "「應用於半導體製程設備、醫療精密儀器及自動化設備」獲發行人年報支持：114年度年報中「半導體」出現32次、「醫療」10次、「自動化」64次、「線性滑軌」37次。惟「半導體為最大領域」未獲支持：全份年報中「最大」出現6次，經逐處檢視均為「股東最大利益」「員工福祉為最大之原（則）」等語，無一處用以描述應用領域之規模排序，亦未載各應用領域之營收比重。故部分成立。",
+      "proposed_text": "直得科技 (1597，Chieftek Precision) 生產線性滑軌等精密傳動元件，應用於半導體製程設備、醫療精密儀器及自動化設備。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1617:objective_ranking_or_market_share:9fba43f07feab108",
+      "normalized_claim_hash": "9fba43f07feab108ad620d7af6f2ebce3a5968628920adeefac0855c95260679",
+      "ticker": "1617",
+      "company": "榮星",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/1617_榮星.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "榮星電線 (1617，Jung Shing Wire) 為台灣[[漆包線]]產業龍頭，國內唯一線材應用最齊全之漆包線大廠。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/161720251127M001.pdf",
+          "title": "榮星電線工業股份有限公司（榮星，1617，Jung Shing Wire）法人說明會簡報（2025-11-27）",
+          "source_level": 3,
+          "period_binding": "2025年11月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（共38頁）。簡報中「漆包線」出現16次，顯示其以漆包線為核心產品線。全份簡報中「龍頭」「唯一」「最齊全」與「市佔」之出現次數均為0；「台灣」僅出現1次。"
+        }
+      ],
+      "rationale": "「為漆包線廠商」獲發行人簡報支持：2025年官方簡報中「漆包線」出現16次，顯示其以漆包線為核心產品線。惟兩項陳述未獲支持：(1)「台灣漆包線產業龍頭」——全份簡報中「龍頭」出現次數為0；(2)「國內唯一線材應用最齊全之漆包線大廠」——「唯一」與「最齊全」出現次數均為0（「台灣」僅1次），未載其於國內市場之排名或產品線完整度之比較。故部分成立。",
+      "proposed_text": "榮星電線 (1617，Jung Shing Wire) 以漆包線為核心產品線。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3078:objective_ranking_or_market_share:299b9d575f6c2dfd",
+      "normalized_claim_hash": "299b9d575f6c2dfd4af62ec068bdad17a83526a6220f9b22f78eda4122ac65c6",
+      "ticker": "3078",
+      "company": "僑威",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3078_僑威.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "僑威科技 (3078，Channelwell Technology / CWT) 為全球最大電競 PC 電源供應器代工廠，逾 30 年經驗。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.cwt.com.tw/uploads/images/esg/2022-esg-report.pdf",
+          "title": "僑威科技股份有限公司（僑威，3078，Channel Well Technology）2022 永續報告書",
+          "source_level": 3,
+          "period_binding": "2022年度。",
+          "accessed_at": "2026-10-07",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視。報告書中「電源」出現103次（為其核心產品領域），「電競」1次。全份報告書中「全球最大」「代工」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為電源供應器廠商」獲發行人永續報告書支持：報告書中「電源」出現103次，為其核心產品領域（「電競」1次）。惟「為全球最大電競 PC 電源供應器代工廠、逾30年經驗」未獲支持：全份報告書中「全球最大」「代工」與「市佔」出現次數均為0，亦未載其於電競 PC 電源代工市場之排名或市占率。故部分成立。",
+      "proposed_text": "僑威科技 (3078，Channel Well Technology) 為電源供應器製造商。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3092:objective_ranking_or_market_share:e36782398881d1ed",
+      "normalized_claim_hash": "e36782398881d1edcc0d1951f63f0fb85d969d26b2dbd8d4c1e69cd93c87fd18",
+      "ticker": "3092",
+      "company": "鴻碩",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3092_鴻碩.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "鴻碩精密電工 (3092，Hotron Precision Electronic) 為全球最大顯示器訊號線製造商，主力產品涵蓋[[HDMI]]、[[DisplayPort]]、[[USB]]傳輸線。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "http://www.hotron-ind.com/file/Finance/shareholders/105/20160606_160301.pdf",
+          "title": "鴻碩精密電工（3092，Hotron Precision Electronic）官方年報端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-07。",
+          "accessed_at": "2026-10-07",
+          "note": "本批次自發行人官方網域路徑下載之 PDF（24,653 bytes）經文字擷取後僅1,086字元，內容為網站頁尾與導覽文字（如「• 關於鴻碩」「○ 新能源線材系列」「Copyright © 2025 鴻碩精密電工股份有限公司. All Rights Reserved.」），並非年報或公司文件內容；另公開資訊觀測站簡報端點 309220210506E001.pdf 亦為較早期文件。故未取得可判讀之年報文字。"
+        }
+      ],
+      "rationale": "「鴻碩精密電工為全球最大顯示器訊號線製造商，主力產品涵蓋 HDMI、DisplayPort、USB 傳輸線」未獲確立：本批次自發行人官方網域年報路徑下載之 PDF 經文字擷取後僅1,086字元，內容為網站頁尾與導覽文字（如「• 關於鴻碩」「Copyright © 2025 鴻碩精密電工股份有限公司」），並非公司文件；公開資訊觀測站可取得者為較早期簡報。故其產品範圍與「全球最大」地位既不能確認亦無證據否定，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "3484:objective_ranking_or_market_share:e42a3a40cfbcace6",
+      "normalized_claim_hash": "e42a3a40cfbcace60958db0753a323677d5aa27809299b9ed1720eddfdf7e21e",
+      "ticker": "3484",
+      "company": "崧騰",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3484_崧騰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "崧騰 (Solteam) 為全球最大 **電動工具開關** 製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://emops.twse.com.tw/nas/STR/348420201210E001.pdf",
+          "title": "崧騰企業股份有限公司（崧騰，3484，Solteam）法人說明會簡報（2020-12-10）",
+          "source_level": 3,
+          "period_binding": "2020年12月現況。",
+          "accessed_at": "2026-10-07",
+          "note": "直接下載並以 PDF 文字檢視發行人官方簡報（共34頁）。簡報中「開關」出現9次，並載「高耐受性開關設計」「防水防塵開關設計」等技術特點，另提及「電動汽車」應用。全份簡報中「全球最大」「電動工具」與「市佔」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為開關製造商」獲發行人簡報支持：2020年官方簡報中「開關」出現9次，並載「高耐受性開關設計」「防水防塵開關設計」等技術特點，另提及「電動汽車」應用。惟「為全球最大電動工具開關製造商」未獲支持：全份簡報中「全球最大」「電動工具」與「市佔」出現次數均為0，未載其於電動工具開關市場之排名或市占率（簡報所載應用為電動汽車而非電動工具）。故部分成立。",
+      "proposed_text": "崧騰企業 (3484，Solteam) 為開關製造商，產品具高耐受性與防水防塵設計。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

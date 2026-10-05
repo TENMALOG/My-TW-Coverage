@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **293 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), and `author-053` (4).
+Author-reviewed: **301 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), and `author-054` (8).
 
 - ACCEPTED by author: 53
-- PARTIALLY_SUPPORTED: 189
+- PARTIALLY_SUPPORTED: 196
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 47
-- Remaining author queue: 1,106
+- Other allowed author decisions: 48
+- Remaining author queue: 1,098
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -633,6 +633,22 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
 - Author-reviewed total: **293 / 1,399**; remaining: **1,106**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 189, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 47. Next pending claim by priority: `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` (寶雅).
+
+## Author batch `author-054` — 2026-10-07
+
+- Reviewed the next eight unreviewed objective ranking/market-share claims in checkpoint order (寶雅 5904, 卓越 2496, 廣隆 1537, 直得 1597, 榮星 1617, 僑威 3078, 鴻碩 3092, 崧騰 3484). Evidence came from official issuer pages and directly downloaded official disclosures: 寶雅官方投資人專區公司簡介頁、卓越113年度年報資料、廣隆2022年法人說明會簡報、直得114年度年報、榮星2025年法人說明會簡報、僑威2022年永續報告書、崧騰2020年法人說明會簡報。
+- `5904:objective_ranking_or_market_share:1c808dde25b1f8c1` — `PARTIALLY_SUPPORTED`. 寶雅官方投資人專區（HTTP 200）載「地址 台南市民族路三段74號」「產業類別 居家生活」「主要經營業務 (1)時尚美粧美材保養品 (2)流行內衣襪 (3)生活日常用品 (4)精緻個人用品」「公司成立日期 86/03/12」，支持其總部所在與業務性質；惟未載「台灣最大」「連鎖」或市占率。註記：該公司官網兩條財務報告 PDF 路徑均下載失敗（連接意外關閉），公開資訊觀測站年報端點回傳320 bytes 非文件內容。
+- `2496:objective_ranking_or_market_share:f13fd59509def495` — `PARTIALLY_SUPPORTED`. 卓越113年度年報資料載「集團旗下之『陳立教育』專業的教學資源，從小學升私中、國中會考、高中學（測）到分科考、二階筆面試等」，並列「財團法人陳立教育基金會董事」等經歷（「陳立」10次、「高中」6次）；惟「全國最大」「最大」與「40年」出現次數均為0。
+- `1537:objective_ranking_or_market_share:a9061697368a9c39` — `PARTIALLY_SUPPORTED`. 廣隆2022年官方簡報載「**KLB是東南亞產能最大的專業生產UPS電（池）**」，支持其產能地位；惟須更正範圍——官方用語為「**東南亞**」而非 claim 之「亞洲」（簡報另載「除中國外的亞洲國家生產者少」係描述競爭環境）。另「自有品牌 LONG 行銷逾100國」未獲支持（「LONG」「100國」皆0次）。
+- `1597:objective_ranking_or_market_share:00f892e251ed2b4f` — `PARTIALLY_SUPPORTED`. 直得114年度年報中「半導體」32次、「醫療」10次、「自動化」64次、「線性滑軌」37次；惟「最大」6處均為「股東最大利益」「員工福祉為最大之原（則）」等語，無一處描述應用領域排序，亦未載各領域營收比重。
+- `1617:objective_ranking_or_market_share:9fba43f07feab108` — `PARTIALLY_SUPPORTED`. 榮星2025年官方簡報中「漆包線」16次；惟「龍頭」「唯一」「最齊全」與「市佔」出現次數均為0（「台灣」僅1次）。
+- `3078:objective_ranking_or_market_share:299b9d575f6c2dfd` — `PARTIALLY_SUPPORTED`. 僑威2022年永續報告書中「電源」103次；惟「全球最大」「代工」與「市佔」出現次數均為0。
+- `3092:objective_ranking_or_market_share:e36782398881d1ed` — `UNKNOWN_AFTER_RESEARCH`. 鴻碩官方網域年報路徑所下載之 PDF（24,653 bytes）經文字擷取後僅1,086字元，內容為網站頁尾與導覽文字（「• 關於鴻碩」「Copyright © 2025 鴻碩精密電工股份有限公司」，另見「新能源線材系列」），並非公司文件，故其「全球最大顯示器訊號線製造商」地位與 HDMI/DisplayPort/USB 產品範圍未獲確立。
+- `3484:objective_ranking_or_market_share:e42a3a40cfbcace6` — `PARTIALLY_SUPPORTED`. 崧騰2020年官方簡報中「開關」9次，並載「高耐受性開關設計」「防水防塵開關設計」與「電動汽車」應用；惟「全球最大」「電動工具」與「市佔」出現次數均為0（簡報所載應用為電動汽車而非電動工具）。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。
+- Author-reviewed total: **301 / 1,399**; remaining: **1,098**. Outcome counts: ACCEPTED 53, PARTIALLY_SUPPORTED 196, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 48. Next pending claim by priority: `3484:objective_ranking_or_market_share:277360a2dcd0bf7c` (崧騰).
+
 
 
 
