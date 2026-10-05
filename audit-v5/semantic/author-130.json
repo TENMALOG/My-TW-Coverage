@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-130",
+  "reviewed_at": "2026-10-05T20:39:38Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (台聚法人說明會簡報; 中石化110年度年報); 南亞TCFD檔案僅244 bytes、中石化官網HTTP 403，均已記錄於 evidence.note",
+  "items": [
+    {
+      "claim_id": "1303:objective_ranking_or_market_share:4efa616b8fa69cfb",
+      "normalized_claim_hash": "4efa616b8fa69cfb66ebd3c2849017e8b039f772ff103ae82bf2dae4ec416e66",
+      "ticker": "1303",
+      "company": "南亞",
+      "path": "Pilot_Reports/Specialty Chemicals/1303_南亞.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "南亞塑膠 (1303，Nan Ya Plastics) 為[[台塑集團]]四大公司之一，台灣最大塑膠加工及電子材料製造商，營收約 2,600 億元。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://www.fpg.com.tw/uploads/images/esg/TCFD%20Record/%e5%8d%97%e4%ba%9e_2023%e5%b9%b4TCFD%e5%a0%b1%e5%91%8a%e6%9b%b8.pdf",
+          "title": "南亞塑膠工業股份有限公司（南亞，1303，Nan Ya Plastics）官方文件端點（查證限制）",
+          "source_level": 3,
+          "period_binding": "查證日 2026-10-10。",
+          "accessed_at": "2026-10-10",
+          "note": "本批次自台灣塑膠集團官方網域下載2023年 TCFD 報告書時，所取得之檔案**僅244 bytes**（PDF 文字擷取後僅144字元），**實質內容不可得**（另於公開資訊觀測站之年報端點亦未取得對應之全本年報）；本批次未取得南亞可檢視之官方文件。"
+        }
+      ],
+      "rationale": "「南亞塑膠為[[台塑集團]]四大公司之一，台灣最大塑膠加工及電子材料製造商，營收約 2,600 億元」未獲確立：本批次所取得之官方檔案**僅244 bytes**（文字擷取144字元），實質內容不可得，未取得可檢視之官方文件，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1304:objective_ranking_or_market_share:67cf53fe6274fce5",
+      "normalized_claim_hash": "67cf53fe6274fce5bc48ed2e0ea309468cf6c3145d3d58783225838e890d3b4a",
+      "ticker": "1304",
+      "company": "台聚",
+      "path": "Pilot_Reports/Specialty Chemicals/1304_台聚.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "台聚不僅是台灣第一家生產[[聚乙烯]] (PE) 的石化廠，更已發展成為跨足石化、電子材料、投資等領域之綜合集團。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/130420241129M002.pdf",
+          "title": "台灣聚合化學品股份有限公司（台聚，1304，USI Corporation）法人說明會簡報（2024-11-29）",
+          "source_level": 3,
+          "period_binding": "2024年11月。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取7,650字元，以圖形排版為主）。簡報中「**聚乙烯**」出現3次、「**PE**」21次、「集團」2次，支持其聚乙烯（PE）業務及集團架構。全份簡報中「**第一家**」「**首家**」與「**電子材料**」之出現次數均為0。"
+        }
+      ],
+      "rationale": "「為生產聚乙烯（PE）之石化廠，並發展為集團架構」獲發行人簡報支持：簡報中「**聚乙烯**」出現3次、「**PE**」21次、「集團」2次，支持其聚乙烯業務及集團架構。惟兩項陳述未獲支持：(1)「不僅是台灣**第一家**生產聚乙烯的石化廠」——「第一家」與「首家」之出現次數均為0；(2)「跨足**電子材料**領域」——「電子材料」出現次數為0。故部分成立（並註記該簡報文字擷取僅7,650字元，以圖形排版為主）。",
+      "proposed_text": "台灣聚合化學品 (1304，USI Corporation) 生產聚乙烯（PE）等石化產品。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1314:objective_ranking_or_market_share:8ac4eb234307c882",
+      "normalized_claim_hash": "8ac4eb234307c882720c30589059efbe50856b3fc90687a6cc47849c4249a806",
+      "ticker": "1314",
+      "company": "中石化",
+      "path": "Pilot_Reports/Specialty Chemicals/1314_中石化.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "中石化為台灣唯一之 [[CPL]] (己內醯胺) 生產商，亦為全球前五大 CPL 與前十大 [[AN]] (丙烯腈) 製造商。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1314_110.pdf",
+          "title": "中國石油化學工業開發股份有限公司（中石化，1314，China Petrochemical Development）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取209,354字元）。年報中「**CPL**」出現1次、「**AN**」1次，支持其 CPL 及 AN 相關業務之提及。全份年報中「**己內醯胺**」「**丙烯腈**」「**前五大**」「**前十大**」「**唯一**」與「**尼龍6**」之出現次數**均為0**；「CPL」與「AN」之出現次數各僅1次，未載該等產品之市場地位敘述。**另註記：本批次自發行人官方網域（cpdc.com.tw）之下載嘗試回應 HTTP 403（禁止）。**"
+        }
+      ],
+      "rationale": "「從事 CPL（己內醯胺）及 AN（丙烯腈）相關業務」獲發行人年報部分支持：110年度年報中「**CPL**」與「**AN**」各出現1次，支持其該等產品之提及。惟三項陳述未獲支持：全份年報中「**己內醯胺**」「**丙烯腈**」「**前五大**」「**前十大**」與「**唯一**」之出現次數**均為0**，故「為台灣唯一之 CPL 生產商，亦為全球前五大 CPL 與前十大 AN 製造商」未獲支持。故部分成立（並註記該等關鍵詞各僅出現1次、未載市場地位敘述）。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "1314:objective_ranking_or_market_share:c2c42ce76293c2c1",
+      "normalized_claim_hash": "c2c42ce76293c2c10c917588977cb01b77620413d703ce120be2a33e9a0865b7",
+      "ticker": "1314",
+      "company": "中石化",
+      "path": "Pilot_Reports/Specialty Chemicals/1314_中石化.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "[[尼龍6]] (Nylon 6) 纖維與工程塑膠之唯一原料。",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1314_110.pdf",
+          "title": "中國石油化學工業開發股份有限公司（中石化，1314，China Petrochemical Development）110 年度年報",
+          "source_level": 3,
+          "period_binding": "民國110年度。",
+          "accessed_at": "2026-10-10",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取209,354字元）。年報中「**CPL**」出現1次、「**AN**」1次，支持其 CPL 及 AN 相關業務之提及。全份年報中「**己內醯胺**」「**丙烯腈**」「**前五大**」「**前十大**」「**唯一**」與「**尼龍6**」之出現次數**均為0**；「CPL」與「AN」之出現次數各僅1次，未載該等產品之市場地位敘述。**另註記：本批次自發行人官方網域（cpdc.com.tw）之下載嘗試回應 HTTP 403（禁止）。**"
+        }
+      ],
+      "rationale": "「[[尼龍6]]（Nylon 6）纖維與工程塑膠之唯一原料」未獲確立：中石化110年度年報中「**尼龍6**」出現次數為0，未載該產品角色之敘述（「CPL」僅1次且無相關描述）。因該 claim 之實質內容為產品角色之專述，而所取得之官方文件中無對應內容，以 UNKNOWN_AFTER_RESEARCH 結案。",
+      "proposed_text": null,
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-10 09:04 UTC
+Updated: 2026-10-10 10:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,28 +8,28 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **770 / 1,399**
-- Remaining author review: **629**
-- Latest batch: **author-129** (4 claims)
+- Author-reviewed: **774 / 1,399**
+- Remaining author review: **625**
+- Latest batch: **author-130** (4 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **86**
-- `PARTIALLY_SUPPORTED`: **499**
+- `PARTIALLY_SUPPORTED`: **501**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **181**
+- `UNKNOWN_AFTER_RESEARCH`: **183**
 
 ## Latest claim batch
 
-- `7786:objective_ranking_or_market_share:8c416fbea251b784` — `PARTIALLY_SUPPORTED`；東方風能文件「離岸風電」6次、「海事工程」5次、「船隊」12次；惟「唯一」1次係「**唯一掌握多項長期合約**的領航者」，非「唯一具備海事工程能力」。
-- `7786:objective_ranking_or_market_share:b764fb96ef27fd17` — `PARTIALLY_SUPPORTED`；文件載「**市場位置: 台灣最大規模離岸船隊**」「共**18艘船舶**，台灣規模最大的國際級多元化船隊」＋人員運輸2次、駁船2次、運維船2次、SOV 3次；惟「**鋼鐵」0 次**、「CTV」0次。
-- `9929:objective_ranking_or_market_share:5873511e414e911d` — `UNKNOWN_AFTER_RESEARCH`；所取得者為秋雨**個體財務報告**，「1946」「第一家」「上市」皆0次。
-- `1301:objective_ranking_or_market_share:f4d83761669c4fba` — `PARTIALLY_SUPPORTED`；台塑2023年報「PVC」86次、「PE」102次、「PP」89次、「碳纖維」7次、「SAP」30次、「垂直整合」1次；惟「最大」9次中未見「台灣最大石化工業集團」之表述。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-129.json`（4 筆）。未修改發行人報告。
-- Next pending claim by priority: `1303:objective_ranking_or_market_share:4efa616b8fa69cfb` (南亞).
+- `1303:objective_ranking_or_market_share:4efa616b8fa69cfb` — `UNKNOWN_AFTER_RESEARCH`；南亞TCPD檔案**僅244 bytes**（文字擷取144字元），實質內容不可得。
+- `1304:objective_ranking_or_market_share:67cf53fe6274fce5` — `PARTIALLY_SUPPORTED`；台聚簡報「聚乙烯」3次、「**PE」21 次**、集團2次；惟「第一家」「首家」「電子材料」皆0次。
+- `1314:objective_ranking_or_market_share:8ac4eb234307c882` — `PARTIALLY_SUPPORTED`；中石化110年報「**CPL」1 次、「AN」1 次**；惟「己內醯胺」「丙烯腈」「前五大」「前十大」「唯一」皆0次。
+- `1314:objective_ranking_or_market_share:c2c42ce76293c2c1` — `UNKNOWN_AFTER_RESEARCH`；年報「尼龍6」0次，未載該產品角色敘述。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-130.json`（4 筆）。未修改發行人報告。
+- Next pending claim by priority: `1337:objective_ranking_or_market_share:7301f1077bcac945` (再生-KY).
 
 ## Source access
 
