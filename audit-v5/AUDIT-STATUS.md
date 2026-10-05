@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-07 19:04 UTC
+Updated: 2026-10-07 20:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,29 +8,29 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **378 / 1,399**
-- Remaining author review: **1,021**
-- Latest batch: **author-067** (7 claims)
+- Author-reviewed: **384 / 1,399**
+- Remaining author review: **1,015**
+- Latest batch: **author-068** (6 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **64**
-- `PARTIALLY_SUPPORTED`: **239**
+- `PARTIALLY_SUPPORTED`: **244**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
-- `UNKNOWN_AFTER_RESEARCH`: **71**
+- `UNKNOWN_AFTER_RESEARCH`: **72**
 
 ## Latest claim batch
 
-- `4939:objective_ranking_or_market_share:2a2e5d7a4b653457` — `PARTIALLY_SUPPORTED`; 亞電108年報「手機」49次、「穿戴」20次、「FPC」39次、「軟板」67次、「覆蓋膜」65次；惟「最大宗」0次、「車用」僅2次且未載電池模組FPC。
-- `4958:objective_ranking_or_market_share:e9718e647cdf6213`、`40a491b3e2ad9593` — `UNKNOWN_AFTER_RESEARCH` ×2; 臻鼎官方新聞稿PDF僅3字元（影像排版），且查得之topco-global年報經確認為他公司文件（臻鼎／4958／ZDT皆0次）。
-- `4960:objective_ranking_or_market_share:d14cd3d4febf570b` — `PARTIALLY_SUPPORTED`; 誠美材文件註記載「**群創光電(股)公司及代表人劉昭賢於109年5月6日辭任**」（群創僅1次），未載其為客戶或最大出海口。
-- `5228:objective_ranking_or_market_share:b96cf4a86eed0538` — `PARTIALLY_SUPPORTED`; 鈺鎧2022簡報載車用17次、醫療14次、網通3次；惟「Cochlear」「全球最大」皆0次（簡報用語為「電子耳朵」）。
-- `5228:objective_ranking_or_market_share:bc677a4369a50038`、`95ce91a2dd332b21` — `UNKNOWN_AFTER_RESEARCH` ×2; 同上，客戶名未載，依具名客戶身分規則結為UNKNOWN。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-067.json`（7 筆）。未修改發行人報告。
-- Next pending claim by priority: `5243:objective_ranking_or_market_share:7d90a20a437364ad` (乙盛-KY).
+- `5243:objective_ranking_or_market_share:7d90a20a437364ad` — `PARTIALLY_SUPPORTED`; 乙盛2025年報載多處「墨西哥來料加工廠」與「2023年啟動建置**墨西哥蒙特雷新廠**」（墨西哥12次）、「AI伺服器」等產業（伺服器47次）；惟「最大生產基地」與「車廠」皆0次。
+- `5243:objective_ranking_or_market_share:94480ceb66fb33f4` — `UNKNOWN_AFTER_RESEARCH`; 年報「Tesla」「特斯拉」「最大客戶」皆0次。
+- `5284:objective_ranking_or_market_share:48a30f3d8d283f3f` — `PARTIALLY_SUPPORTED`; jpp-KY 2023簡報（英文）見Thailand 2次與多處廠區規劃；惟「1998」「鈑金」「largest」皆0次。
+- `5315:objective_ranking_or_market_share:a798cfedc1bf6d88` — `PARTIALLY_SUPPORTED`; 光聯109年報「歐洲」8次、「高亮度」11次；惟「60%」唯一命中係**庫藏股買回比率**，非歐洲營收占比，「寬溫」「防水」皆0次。
+- `5355:objective_ranking_or_market_share:bc0ba778fa8f319e`、`357362a9262ba16e` — `PARTIALLY_SUPPORTED` ×2; 佳總110年議事手冊載雙層鋁基板、DBC厚鋼陶瓷板、MiniLED板等研發（鋁基板2次、厚銅5次、LED 6次）；惟「台灣最大」「市占」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-068.json`（6 筆）。未修改發行人報告。
+- Next pending claim by priority: `5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8` (能率).
 
 ## Source access
 

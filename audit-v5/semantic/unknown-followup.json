@@ -1,6 +1,6 @@
 {
   "schema": "semantic-unknown-followup-1",
-  "generated_at": "2026-10-05T18:48:15Z",
+  "generated_at": "2026-10-05T18:51:16Z",
   "description": "本清單彙整所有經 author 判定為 UNKNOWN_AFTER_RESEARCH 之 HIGH claim，供獨立複核階段依『建議替代路徑』重新取證。判定為 UNKNOWN 之成因均為發行人官方來源不可取得，而非 claim 內容經證實有誤。",
   "source_batches": [
     "author-001",
@@ -69,12 +69,13 @@
     "author-064",
     "author-065",
     "author-066",
-    "author-067"
+    "author-067",
+    "author-068"
   ],
-  "source_batch_count": 67,
-  "total_unknown": 71,
+  "source_batch_count": 68,
+  "total_unknown": 72,
   "failure_signature_counts": {
-    "other_unclassified": 32,
+    "other_unclassified": 33,
     "mops_non_document": 24,
     "non_document_response": 22,
     "http_404": 21,
@@ -1170,6 +1171,20 @@
       ],
       "attempted_sources": [
         "https://emops.twse.com.tw/nas/STR/522820220411E001.pdf"
+      ],
+      "recommended_retry": "以公司其他年度官方文件或公開說明書重查"
+    },
+    {
+      "claim_id": "5243:objective_ranking_or_market_share:94480ceb66fb33f4",
+      "ticker": "5243",
+      "company": "乙盛-KY",
+      "claim": "**[[電動車]]**: [[Tesla]] (最大客戶).",
+      "batch_id": "author-068",
+      "failure_signature": [
+        "other_unclassified"
+      ],
+      "attempted_sources": [
+        "https://cdn.financialreports.eu/financialreports/media/filings/52465/2026/RNS/52465_rns_2026-07-09_014704f3-7ba1-45df-ade7-6511e2017525.pdf"
       ],
       "recommended_retry": "以公司其他年度官方文件或公開說明書重查"
     }

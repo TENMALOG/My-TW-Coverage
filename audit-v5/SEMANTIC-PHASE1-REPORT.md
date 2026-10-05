@@ -15,14 +15,14 @@ Signal mix (unique claims): objective ranking/market share 941; material named r
 
 ## Author review progress
 
-Author-reviewed: **378 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), and `author-067` (7).
+Author-reviewed: **384 / 1,399** unique HIGH claims across batches `author-001` (8), `author-002` (1), `author-003` (1), `author-004` (2), `author-005` (1), `author-006` (1), `author-007` (1), `author-008` (1), `author-009` (1), `author-010` (1), `author-011` (2), `author-012` (1), `author-013` (3), `author-014` (2), `author-015` (2), `author-016` (3), `author-017` (6), `author-018` (7), `author-019` (8), `author-020` (8), `author-021` (10), `author-022` (8), `author-023` (7), `author-024` (9), `author-025` (7), `author-026` (8), `author-027` (8), `author-028` (8), `author-029` (8), `author-030` (8), `author-031` (7), `author-032` (8), `author-033` (8), `author-034` (8), `author-035` (8), `author-036` (9), `author-037` (7), `author-038` (8), `author-039` (6), `author-040` (8), `author-041` (8), `author-042` (7), `author-043` (8), `author-044` (4), `author-045` (4), `author-046` (5), `author-047` (5), `author-048` (6), `author-049` (4), `author-050` (8), `author-051` (4), `author-052` (8), `author-053` (4), `author-054` (8), `author-055` (4), `author-056` (7), `author-057` (5), `author-058` (7), `author-059` (7), `author-060` (7), `author-061` (3), `author-062` (5), `author-063` (6), `author-064` (6), `author-065` (6), `author-066` (7), `author-067` (7), and `author-068` (6).
 
 - ACCEPTED by author: 64
-- PARTIALLY_SUPPORTED: 239
+- PARTIALLY_SUPPORTED: 244
 - UNSUPPORTED: 1
 - SOURCE_UNAVAILABLE: 3
-- Other allowed author decisions: 71
-- Remaining author queue: 1,021
+- Other allowed author decisions: 72
+- Remaining author queue: 1,015
 
 Notable correction: the report claim that Green Jade is Asia's largest is contradicted by current official CDWE material, which describes it as the largest Taiwan-flagged vessel and Asia's second-largest wind-power engineering vessel. Proposed repair is recorded in `semantic/author-001.json`.
 
@@ -797,6 +797,19 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 - No issuer report was modified. Independent review remains pending.
 - 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **71 筆**。
 - Author-reviewed total: **378 / 1,399**; remaining: **1,021**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 239, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 71. Next pending claim by priority: `5243:objective_ranking_or_market_share:7d90a20a437364ad` (乙盛-KY).
+
+## Author batch `author-068` — 2026-10-07
+
+- Reviewed the next six unreviewed objective ranking/market-share claims in checkpoint order (乙盛-KY 5243 ×2, jpp-KY 5284, 光聯 5315, 佳總 5355 ×2). Evidence came from directly downloaded and inspected official disclosures: 乙盛2025年報、jpp-KY 2023年法人說明會簡報（英文版）、光聯109年度年報、佳總110年股東會議事手冊。
+- `5243:objective_ranking_or_market_share:7d90a20a437364ad` — `PARTIALLY_SUPPORTED`. 乙盛2025年報（封面載「Eson Precision Ind. Co., Ltd. 乙盛精密工業股份有限公司 2025 年報」「股票代號 5243」）載「5.墨西哥子公司」與多處「**墨西哥來料加工廠**」（Engineering S.A. de C.V.、Multiwin de Mexico S.A. DE C.V.、Esonmex Monterrey S.A. DE C.V.），並載「**2023年啟動建置墨西哥蒙特雷新廠**」，支持其墨西哥生產據點；另載「資料庫中心(Data Center)、**AI 伺服器**產業及低軌衛星等等產業，皆為本公司長期以來關（注之領域）」（「伺服器」47次）。惟「最大生產基地」與「車廠」出現次數均為0。
+- `5243:objective_ranking_or_market_share:94480ceb66fb33f4` — `UNKNOWN_AFTER_RESEARCH`. 年報中「Tesla」「特斯拉」與「最大客戶」出現次數均為0，未具名任何電動車客戶，依具名客戶身分規則結為 UNKNOWN。
+- `5284:objective_ranking_or_market_share:48a30f3d8d283f3f` — `PARTIALLY_SUPPORTED`. jpp-KY 2023年官方簡報（英文）見「Thailand」2次、「經寶」4次與多處廠區規劃（AeroSpace / Non-Aero / Assembly plant、39,228m2、49,297m2、New plant 2023）；惟「1998」「鈑金」「largest」「最大」出現次數均為0。
+- `5315:objective_ranking_or_market_share:a798cfedc1bf6d88` — `PARTIALLY_SUPPORTED`. 光聯109年度年報中「歐洲」8次、「高亮度」11次；惟「60%」全份僅1次且其上下文為「已買回數量占預定買回數量之比率(%) **60%**」（庫藏股買回比率），**與歐洲市場營收占比無關**；「寬溫」與「防水」出現次數均為0。
+- `5355:objective_ranking_or_market_share:bc0ba778fa8f319e` 與 `357362a9262ba16e` — `PARTIALLY_SUPPORTED`. 佳總110年股東會議事手冊載研發方向含「持續開發厚鋼車用大功率電源單側雙層**鋁基板**開發」「**DBC厚鋼陶瓷板**新產品開發」「**MiniLED**板產品導入生產」等；惟「台灣最大」與「市占」出現次數均為0，且未載 TV 背光板或照明燈具等具體應用別。
+- No issuer report was modified. Independent review remains pending.
+- 本批次未新增來源取得失敗；`local-recheck-queue.json` 維持 **15** 筆（HTTP 500 × 8、HTTP 503 × 7）。UNKNOWN 追蹤清單已同步刷新至 **72 筆**。
+- Author-reviewed total: **384 / 1,399**; remaining: **1,015**. Outcome counts: ACCEPTED 64, PARTIALLY_SUPPORTED 244, UNSUPPORTED 1, SOURCE_UNAVAILABLE 3, PERIOD_UNRESOLVED 0, UNKNOWN_AFTER_RESEARCH 72. Next pending claim by priority: `5392:objective_ranking_or_market_share:d4e84f8d9cd9bfc8` (能率).
+
 
 
 
