@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-author-batch-1",
+  "batch_id": "author-148",
+  "reviewed_at": "2026-10-05T21:01:57Z",
+  "reviewer_role": "author",
+  "method": "manual claim-level review of directly downloaded and inspected official disclosures (高力2015年度年報; 燦坤公司文件; 山隆年報)",
+  "items": [
+    {
+      "claim_id": "8996:objective_ranking_or_market_share:49ffb2ed084de05d",
+      "normalized_claim_hash": "49ffb2ed084de05d63c364e70da125ceb498ed7ac860ea1bf0e3296af3c0c931",
+      "ticker": "8996",
+      "company": "高力",
+      "path": "Pilot_Reports/Specialty Industrial Machinery/8996_高力.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "高力熱處理 (8996，Kaori Heat Treatment) 為台灣唯一具備「真空硬銲板式熱交換器」技術之廠商，國內市佔超過九成，行銷 70+ 國。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://www.kaori.com.tw/pdf/investment/2015_8996_20150525.pdf",
+          "title": "高力熱處理工業股份有限公司（高力，8996，Kaori Heat Treatment）2015 年度年報",
+          "source_level": 3,
+          "period_binding": "民國104年度（2015年）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取295,885字元）。年報中「**板式熱交換器**」出現58次、「**硬銲**」13次、「**真空**」5次，支持其板式熱交換器及硬銲技術業務。全份年報中「**唯一**」與「**九成**」之出現次數**均為0**；「**市佔**」1次之上下文為**目標敘述**——「全力衝刺外銷市場，**提升市佔率**，透過經銷商之結盟擴大銷售通路」，**非**既有市占率之表述。「70」165次多為財務數字。"
+        }
+      ],
+      "rationale": "「從事『真空硬銲板式熱交換器』相關業務」獲發行人年報支持：年報中「**板式熱交換器**」出現58次、「**硬銲**」13次、「**真空**」5次，支持其該項產品與技術。惟三項陳述未獲支持：(1)「為台灣**唯一**具備該技術之廠商」——「唯一」出現次數為0；(2)「國內市佔**超過九成**」——「九成」為0，且「**市佔**」1次之上下文為**目標敘述**（「全力衝刺外銷市場，**提升市佔率**」）；(3)「行銷 **70+ 國**」——「70」165次多為財務數字，未載國別數。故部分成立（並註記該年報為民國104年度版本）。",
+      "proposed_text": "高力熱處理 (8996，Kaori Heat Treatment) 從事真空硬銲板式熱交換器等業務。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2430:objective_ranking_or_market_share:2b76127105ffe4fa",
+      "normalized_claim_hash": "2b76127105ffe4fac28971181db10b681b0042a580721873be2ecd7ba889480a",
+      "ticker": "2430",
+      "company": "燦坤",
+      "path": "Pilot_Reports/Specialty Retail/2430_燦坤.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "燦坤曾為台灣最大 3C 零售通路，近年面臨電商競爭及門市轉型挑戰。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://mopsov.twse.com.tw/nas/STR/243020260324M001.pdf",
+          "title": "燦坤實業股份有限公司（燦坤，2430，Tsann Kuen Enterprise）公司文件（2026-03-24）",
+          "source_level": 3,
+          "period_binding": "2026年3月24日。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自公開資訊觀測站端點下載並以 PDF 文字檢視（文字擷取2,654字元，以圖形排版為主）。文件中「**門市**」出現4次，支持其門市經營敘述。全份文件中「**3C**」「**零售**」「**最大**」「**通路**」與「**電商**」之出現次數**均為0**。"
+        }
+      ],
+      "rationale": "「經營門市通路」獲發行人文件支持：文件中「**門市**」出現4次，支持其門市經營敘述。惟三項陳述未獲支持：(1)「曾為台灣**最大 3C 零售通路**」——「3C」「零售」與「最大」之出現次數**均為0**；(2)「近年面臨**電商競爭**」——「電商」與「通路」均為0；(3)「門市**轉型**挑戰」——未見相關敘述。故部分成立（並註記該文件文字擷取僅2,654字元，以圖形排版為主）。",
+      "proposed_text": "燦坤實業 (2430，Tsann Kuen Enterprise) 經營門市通路。",
+      "independent_review": null,
+      "final_state": null
+    },
+    {
+      "claim_id": "2616:objective_ranking_or_market_share:5e8301b7ce9d8b48",
+      "normalized_claim_hash": "5e8301b7ce9d8b4812e21c28f49557606dac1de66d1abed4d4caea891de003cc",
+      "ticker": "2616",
+      "company": "山隆",
+      "path": "Pilot_Reports/Specialty Retail/2616_山隆.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "claim": "加油站業務方面，山隆全台擁有約 70 座以上加油站，為國內最大民營柴油發油商，主力客群為柴油車隊（貨卡車）。",
+      "decision": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "url": "https://w3.slc.com.tw/files/2025/%E8%B2%A1%E5%8B%99%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E6%96%99/2024%E8%82%A1%E6%9D%B1%E6%9C%83-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "山隆通運股份有限公司（山隆，2616，Shan-Loong Transportation）年報",
+          "source_level": 3,
+          "period_binding": "文件所載期間請見年報（內容含2024年股東會年報）。",
+          "accessed_at": "2026-10-11",
+          "note": "直接自發行人官方網域下載並以 PDF 文字檢視（文字擷取208,983字元）。年報中「**加油站**」出現87次、「**柴油**」12次，並**逐字載明站數**——「自民國87年成立山隆的第一座加油站，經過不斷的努力經營，**現已達77座**」（另有「1998年於高雄廠設立山隆第一座加油站」），支持其加油站業務及站數。全份年報中「**民營**」「**發油**」（1次，上下文不足）與「貨卡車」之出現次數**均為0**；「**最大**」2次之上下文**均非市場地位**——其一為會計用語「金融資產之帳面金額代表**最大**信用暴險金額」。"
+        }
+      ],
+      "rationale": "「全台擁有約 **70 座以上**加油站」獲發行人年報**逐字支持**：年報載「自民國87年成立山隆的第一座加油站，經過不斷的努力經營，**現已達77座**」（「**加油站**」87次、「**柴油**」12次），77座符合 claim 所述之「約70座以上」。惟兩項陳述未獲支持：(1)「為國內**最大民營柴油發油商**」——「民營」與「貨卡車」均為0，「發油」1次上下文不足，且「**最大**」2次之上下文**均非市場地位**（其一為會計用語「金融資產之帳面金額代表**最大**信用暴險金額」）；(2)「主力客群為柴油車隊（**貨卡車**）」——未見。故部分成立。",
+      "proposed_text": "山隆通運 (2616，Shan-Loong Transportation) 經營加油站業務，全台站數已達77座。",
+      "independent_review": null,
+      "final_state": null
+    }
+  ]
+}

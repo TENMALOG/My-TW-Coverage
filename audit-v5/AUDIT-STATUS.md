@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Updated: 2026-10-11 03:04 UTC
+Updated: 2026-10-11 04:04 UTC
 Branch: `audit-v5`
 
 ## Semantic HIGH review
@@ -8,15 +8,15 @@ Branch: `audit-v5`
 - HIGH issuers: **836**
 - Raw HIGH signals: **1,410**
 - Unique HIGH claims: **1,399**
-- Author-reviewed: **846 / 1,399**
-- Remaining author review: **553**
-- Latest batch: **author-147** (5 claims)
+- Author-reviewed: **849 / 1,399**
+- Remaining author review: **550**
+- Latest batch: **author-148** (3 claims)
 - Independent reviews: **0**; author decisions are not final acceptance.
 
 ### Existing author decision counts
 
 - `ACCEPTED`: **87**
-- `PARTIALLY_SUPPORTED`: **552**
+- `PARTIALLY_SUPPORTED`: **555**
 - `UNSUPPORTED`: **1**
 - `PERIOD_UNRESOLVED`: **0**
 - `SOURCE_UNAVAILABLE`: **3**
@@ -24,13 +24,11 @@ Branch: `audit-v5`
 
 ## Latest claim batch
 
-- `6982:objective_ranking_or_market_share:6ce0f1f566a2483c` — `PARTIALLY_SUPPORTED`；大井簡報「**加壓」10 次、「馬達」6 次**；惟「龍頭」「六成」「市佔」「住宅」皆0次，且「60%」2次上下文不足。
-- `6982:objective_ranking_or_market_share:d789441c0ced0dea` — `PARTIALLY_SUPPORTED`；同上；「市佔 60%+」未獲支持。
-- `7795:objective_ranking_or_market_share:1fece52690003c4d` — `PARTIALLY_SUPPORTED`；長廣年報「**載板」68 次、「壓膜」68 次、「長興」88 次**、「真空」49次、「ABF」35次；惟「95%」「市佔」皆0次。
-- `7795:objective_ranking_or_market_share:b856cd136904fdc5` — `PARTIALLY_SUPPORTED`；ABF 載板真空壓膜機業務成立；惟「95%」「醫療」「推桿」皆0次。
-- `7795:objective_ranking_or_market_share:c8947ab48156fadc` — `UNKNOWN_AFTER_RESEARCH`；年報「**欣興」「南亞電路板」皆 0 次**。
-- 證據、期間、查閱日期與摘記記錄於 `semantic/author-147.json`（5 筆）。未修改發行人報告。
-- Next pending claim by priority: `8996:objective_ranking_or_market_share:49ffb2ed084de05d` (高力).
+- `8996:objective_ranking_or_market_share:49ffb2ed084de05d` — `PARTIALLY_SUPPORTED`；高力年報「**板式熱交換器」58 次、「硬銲」13 次**、「真空」5次；惟「唯一」「九成」皆0次，「市佔」1次為「**提升市佔率**」之目標。
+- `2430:objective_ranking_or_market_share:2b76127105ffe4fa` — `PARTIALLY_SUPPORTED`；燦坤文件「**門市」4 次**；惟「3C」「零售」「最大」「通路」「電商」皆0次。
+- `2616:objective_ranking_or_market_share:5e8301b7ce9d8b48` — `PARTIALLY_SUPPORTED`；山隆年報**逐字載「現已達 77 座」**（「加油站」87次、「柴油」12次）；惟「最大」2次**均非市場地位**（其一為「最大信用暴險金額」之會計用語），「民營」「貨卡車」皆0次。
+- 證據、期間、查閱日期與摘記記錄於 `semantic/author-148.json`（3 筆）。未修改發行人報告。
+- Next pending claim by priority: `2947:objective_ranking_or_market_share:b566dc40942a6a98` (振宇五金).
 
 ## Source access
 
