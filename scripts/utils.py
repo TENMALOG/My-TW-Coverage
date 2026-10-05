@@ -304,20 +304,36 @@ def build_valuation_table(v):
     return title + header_row + "\n" + sep_row + "\n" + val_row
 
 
-def update_metadata(content, market_cap, enterprise_value):
-    """Update 市值 and 企業價值 metadata in file content."""
-    if market_cap:
-        content = re.sub(
-            r"(\*\*市值:\*\*) .+?百萬台幣",
-            rf"\1 {market_cap} 百萬台幣",
-            content,
-        )
-    if enterprise_value:
-        content = re.sub(
-            r"(\*\*企業價值:\*\*) .+?百萬台幣",
-            rf"\1 {enterprise_value} 百萬台幣",
-            content,
-        )
+def update_metadata(content, market_cap, enterprise_value, sector=None, industry=None):
+    """Update or insert core metadata in the 業務簡介 section."""
+    values = {
+        "板塊": sector,
+        "產業": industry,
+        "市值": f"{market_cap} 百萬台幣" if market_cap else None,
+        "企業價值": f"{enterprise_value} 百萬台幣" if enterprise_value else None,
+    }
+
+    # Update fields already present.
+    for field, value in values.items():
+        if not value:
+            continue
+        pattern = rf"(^\*\*{re.escape(field)}:\*\*\s*).*$"
+        if re.search(pattern, content, flags=re.MULTILINE):
+            content = re.sub(pattern, rf"\g<1>{value}", content, flags=re.MULTILINE)
+
+    # Insert missing fields in canonical order immediately after 業務簡介.
+    missing = []
+    for field in ("板塊", "產業", "市值", "企業價值"):
+        value = values[field]
+        if value and not re.search(rf"^\*\*{re.escape(field)}:\*\*", content, flags=re.MULTILINE):
+            missing.append(f"**{field}:** {value}")
+
+    if missing:
+        heading = "## 業務簡介"
+        if heading in content:
+            insertion = heading + "\n" + "\n".join(missing)
+            content = content.replace(heading, insertion, 1)
+
     return content
 
 

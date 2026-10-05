@@ -1,0 +1,73 @@
+name: Audit v5 repair missing metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - audit-v5
+    paths:
+      - "scripts/utils.py"
+      - "scripts/update_financials.py"
+      - ".github/workflows/audit-v5-repair-metadata.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-v5-repair-metadata
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout audit-v5
+        uses: actions/checkout@v4
+        with:
+          ref: audit-v5
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Test metadata insertion
+        run: |
+          python -X utf8 audit-v5/tests/test_metadata_update.py
+
+      - name: Refresh reports with missing metadata
+        run: |
+          python -X utf8 scripts/update_financials.py \
+            1802 9930 3714 3715 3717 5263 \
+            4401 4402 4406 4417 4420 4426 \
+            4430 4433 4439 4440 4441 4442
+
+      - name: Re-run v5 machine gate
+        run: |
+          mkdir -p audit-v5/work
+          python -X utf8 audit-v5/auditctl.py scan \
+            --root Pilot_Reports \
+            --output audit-v5/work/machine-gate-after-metadata-repair.json
+
+      - name: Commit repaired reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Pilot_Reports
+          if git diff --cached --quiet; then
+            echo "No report changes."
+          else
+            git commit -m "data: repair missing coverage metadata [skip ci]"
+            git fetch origin audit-v5
+            git rebase origin/audit-v5
+            git push origin HEAD:audit-v5
+          fi

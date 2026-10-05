@@ -244,7 +244,13 @@ def update_file(filepath, ticker, dry_run=False):
         new_content = content.rstrip() + "\n\n" + new_fin
 
     # Update metadata
-    new_content = update_metadata(new_content, data.get("market_cap"), data.get("enterprise_value"))
+    new_content = update_metadata(
+        new_content,
+        data.get("market_cap"),
+        data.get("enterprise_value"),
+        data.get("sector"),
+        data.get("industry"),
+    )
 
     if dry_run:
         print(f"  {ticker}: WOULD UPDATE ({data['suffix']})")
