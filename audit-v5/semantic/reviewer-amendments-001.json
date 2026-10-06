@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-reviewer-component-amendment-1",
+  "batch_id": "reviewer-amendments-001",
+  "event_count": 1,
+  "events": [
+    {
+      "event_id": "reviewer-amendments-001:2385:business-group-count",
+      "reviewed_at": "2026-10-06T01:17:15.066958Z",
+      "claim_id": "2385:objective_ranking_or_market_share:abe9e706555f9c9d",
+      "normalized_claim_hash": "abe9e706555f9c9d0c0db10aefeb39a14e563081ca0f9c4236827b5590ab0aa1",
+      "target_batch_path": "audit-v5/semantic/reviewer-003.json",
+      "target_batch_sha256": "3dd9e21ab9649990eacfb24928cec015e9982947da0f31b5e12b108961504e27",
+      "rationale": "更正 reviewer-003 過度列入未解的事業部數量；正式年報明列三大事業部。排名缺口仍在，分類及 final_state 不變。",
+      "evidence": [
+        {
+          "source_id": "s-703e0562f2b8",
+          "url": "https://www.chicony.com/upload/2025_08_082/20250808095438mmszc3fnM1.pdf",
+          "source_sha256": "142fde64450b4ce3b785439799bb6260a822940c559609ca28f783a47b1d6349",
+          "locator": "PDF實體6頁／印刷2頁，倒數第二段；文字與頁面影像檢視",
+          "period_binding": "2024年報；2025-03-30刊印",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-amendments-001/s-703e0562f2b8.md",
+          "inspection_note_sha256": "eeedeef85f109be2df1069adae29d51be0ed1156eff577e48f716a6912893620"
+        }
+      ],
+      "decision_before": "PARTIALLY_SUPPORTED",
+      "decision_after": "PARTIALLY_SUPPORTED",
+      "final_state_before": "ESCALATED_REVIEW_DISAGREEMENT",
+      "final_state_after": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status_before": "ESCALATED",
+      "status_after": "ESCALATED",
+      "component_assessments_before": [
+        {
+          "text": "輸入裝置與鍵盤、滑鼠產品業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "年報產品業務可讀，但輸入產品的全球第一没有同口徑排名表；年報中明示第一的筆電電源属于子公司群電，不能借给鍵盤。"
+        },
+        {
+          "text": "筆電鍵盤全球市占第一及三大事業群分類",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "年報產品業務可讀，但輸入產品的全球第一没有同口徑排名表；年報中明示第一的筆電電源属于子公司群電，不能借给鍵盤。"
+        }
+      ],
+      "component_assessments_after": [
+        {
+          "text": "輸入裝置與鍵盤、滑鼠產品業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "年報產品業務可讀，但輸入產品的全球第一没有同口徑排名表；年報中明示第一的筆電電源属于子公司群電，不能借给鍵盤。"
+        },
+        {
+          "text": "2024年報所列鍵盤、影像、電源三大事業部",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "PDF實體第6頁／印刷第2頁明文三大事業部；採來源原稱及年度。"
+        },
+        {
+          "text": "筆電鍵盤全球市占第一",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "此頁全球第一屬子公司筆電電源，不能移植為群光筆電鍵盤排名。"
+        }
+      ],
+      "gap_types_before": [
+        "ranking_product_binding",
+        "business_group_count"
+      ],
+      "gap_types_after": [
+        "ranking_product_binding"
+      ],
+      "proposed_text_before": "群光2024年報載鍵盤與數位影像等產品業務；筆電鍵盤市占名次本次未確立。",
+      "proposed_text_after": "群光2024年報記載鍵盤、影像與電源三大事業部，以及鍵盤、滑鼠等輸入產品；筆電鍵盤全球市占名次本次未確立。",
+      "proposed_text_review": "REVIEWER_PROPOSAL_ONLY; no corpus modification or final acceptance"
+    }
+  ]
+}

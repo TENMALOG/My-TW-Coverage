@@ -1,0 +1,51 @@
+{
+  "schema": "accepted-cohort-integrity-verification-1",
+  "verified_at": "2026-10-06T01:19:50.267564+00:00",
+  "scope": "Integrity and regression verification only; tests do not establish semantic truth",
+  "protected_baseline_commit": "6fed59c63d8445976deda4be059eace93bc725e8",
+  "protected_files_checked": 2026,
+  "protected_file_mismatches": [],
+  "protected_categories": {
+    "author_ledgers": 266,
+    "issuer_reports": 1733,
+    "prior_reviewer_records": 26,
+    "cloud_queue": 1
+  },
+  "local_captured_or_cached_sources_checked": 126,
+  "local_source_hash_mismatches": [],
+  "ledger_validation": {
+    "ok": true,
+    "errors": [],
+    "queue_claims": 1399,
+    "author_items": 1399,
+    "unique_author_claims": 1399,
+    "reviewer_claims": 120,
+    "remaining_independent_review": 1279,
+    "reviewer_decisions": {
+      "PARTIALLY_SUPPORTED": 76,
+      "ACCEPTED": 22,
+      "UNSUPPORTED": 1,
+      "PERIOD_UNRESOLVED": 20,
+      "UNKNOWN_AFTER_RESEARCH": 1
+    },
+    "reviewer_final_states": {
+      "ESCALATED_REVIEW_DISAGREEMENT": 97,
+      "PARTIALLY_SUPPORTED": 2,
+      "ACCEPTED": 21
+    },
+    "final_accepted": 21,
+    "local_sources_checked": true,
+    "component_amendments": 1,
+    "author_accepted_reviewed": 111,
+    "author_accepted_total": 111
+  },
+  "author_accepted_with_source_url": 111,
+  "author_accepted_missing_source_url": [],
+  "regression": {
+    "command": ".venv/Scripts/python.exe -X utf8 -m unittest discover -s audit-v5/tests",
+    "python_version": "3.13.15",
+    "exit_code": 0,
+    "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.968s\n\nOK\n"
+  },
+  "ok": true
+}

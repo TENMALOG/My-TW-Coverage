@@ -48,6 +48,7 @@ def validate(root: Path, *, check_local_sources: bool = False) -> dict:
         errors.append("author and queue coverage differ")
 
     reviewed = {}
+    review_paths = {}
     states = Counter()
     decisions = Counter()
     sources = {}
@@ -70,6 +71,9 @@ def validate(root: Path, *, check_local_sources: bool = False) -> dict:
         manifest_sources = {s["source_id"]: s for s in manifest["sources"]}
         if len(manifest_sources) != len(manifest["sources"]):
             errors.append(f"duplicate source ids: {path.name}")
+        for sid, source in manifest_sources.items():
+            if sid in sources and any(source.get(k) != sources[sid].get(k) for k in ("url", "source_sha256", "local_source_path")):
+                errors.append(f"conflicting source identity across batches: {sid}")
         sources.update(manifest_sources)
         for source in manifest_sources.values():
             note_path = root / source["inspection_note_path"]
@@ -89,6 +93,7 @@ def validate(root: Path, *, check_local_sources: bool = False) -> dict:
             if key in reviewed or cid in {k[0] for k in reviewed}:
                 errors.append(f"duplicate reviewer claim: {cid}")
             reviewed[key] = item
+            review_paths[key] = path
             if cid not in qmap or item["normalized_claim_hash"] != qmap[cid]["normalized_claim_hash"]:
                 errors.append(f"reviewer/queue hash mismatch: {cid}")
                 continue
@@ -128,6 +133,93 @@ def validate(root: Path, *, check_local_sources: bool = False) -> dict:
             decisions[decision] += 1
         if dict(Counter(i["decision"] for i in batch["items"])) != batch["decision_counts"] or dict(Counter(i["final_state"] for i in batch["items"])) != batch["final_state_counts"]:
             errors.append(f"batch aggregate counts mismatch: {path.name}")
+    # Component corrections are append-only overlays. They cannot promote a
+    # decision or change a final state; adjudication needs a separate protocol.
+    amendment_ids = set()
+    amended_fields = {}
+    amendment_refs = {}
+    amendment_evidence = {}
+    amendment_count = 0
+    for path in sorted((root / "audit-v5/semantic").glob("reviewer-amendments-[0-9][0-9][0-9].json")):
+        batch = read_json(path)
+        if batch.get("schema") != "semantic-reviewer-component-amendment-1":
+            errors.append(f"unsupported amendment schema: {path.name}")
+        events = batch.get("events", [])
+        if not 1 <= len(events) <= 25 or batch.get("event_count") != len(events):
+            errors.append(f"invalid amendment batch size/count: {path.name}")
+        for event in events:
+            amendment_count += 1
+            eid = event.get("event_id")
+            if not eid or eid in amendment_ids:
+                errors.append(f"duplicate/missing amendment id: {eid}")
+            amendment_ids.add(eid)
+            if datetime.fromisoformat(event["reviewed_at"].replace("Z", "+00:00")) > now:
+                errors.append(f"future amendment timestamp: {eid}")
+            key = (event["claim_id"], event["normalized_claim_hash"])
+            item = reviewed.get(key)
+            target = root / event["target_batch_path"]
+            if item is None or target != review_paths.get(key):
+                errors.append(f"amendment target/claim mismatch: {eid}")
+                continue
+            if not target.exists() or text_sha256(target) != event["target_batch_sha256"]:
+                errors.append(f"amendment target hash mismatch: {eid}")
+            amendment_refs.setdefault(key, []).append({
+                "path": path.relative_to(root).as_posix(), "sha256": text_sha256(path), "event_id": eid,
+            })
+            amendment_evidence.setdefault(key, []).extend(event.get("evidence", []))
+            for field in ("decision", "final_state", "status"):
+                if event.get(field + "_before") != item[field] or event.get(field + "_after") != item[field]:
+                    errors.append(f"component amendment changes decision/state: {eid}/{field}")
+            for field in ("component_assessments", "gap_types", "proposed_text"):
+                before = amended_fields.get((key, field), item.get(field))
+                if event.get(field + "_before") != before:
+                    errors.append(f"amendment before snapshot mismatch: {eid}/{field}")
+                if field + "_after" not in event:
+                    errors.append(f"missing amendment replacement: {eid}/{field}")
+                amended_fields[(key, field)] = event.get(field + "_after")
+            if not event.get("rationale") or not event.get("evidence"):
+                errors.append(f"amendment lacks rationale/evidence: {eid}")
+            for evidence in event.get("evidence", []):
+                source = sources.get(evidence.get("source_id"))
+                if source is None or any(evidence.get(k) != source.get(k) for k in ("url", "source_sha256")):
+                    errors.append(f"amendment evidence lineage mismatch: {eid}")
+                if not evidence.get("period_binding") or not evidence.get("locator"):
+                    errors.append(f"amendment missing period/locator: {eid}")
+                note = root / evidence["inspection_note_path"]
+                if not note.exists() or text_sha256(note) != evidence.get("inspection_note_sha256"):
+                    errors.append(f"amendment inspection note changed/missing: {eid}")
+            for component in event.get("component_assessments_after", []):
+                ids = component.get("source_ids", [])
+                if not set(ids) <= set(sources) or (component["assessment"].startswith("SUPPORTED") and not ids):
+                    errors.append(f"amendment component lacks valid sources: {eid}")
+    accepted_keys = {(cid, i[2]["normalized_claim_hash"]) for cid, i in authors.items() if i[2]["decision"] == "ACCEPTED"}
+    accepted_reviewed = accepted_keys & set(reviewed)
+    accepted_decisions = Counter(reviewed[k]["decision"] for k in accepted_reviewed)
+    index_path = root / "audit-v5/semantic/accepted-review-index.json"
+    if index_path.exists():
+        index = read_json(index_path)
+        index_items = index.get("items", [])
+        index_keys = {(i["claim_id"], i["normalized_claim_hash"]) for i in index_items}
+        if index_keys != accepted_reviewed or len(index_items) != len(index_keys):
+            errors.append("derived ACCEPTED index key coverage/uniqueness mismatch")
+        if index.get("claim_count") != len(accepted_reviewed) or index.get("reviewer_decisions") != dict(accepted_decisions):
+            errors.append("derived ACCEPTED index aggregate mismatch")
+        cleared = sum(reviewed[k]["final_state"] == "ACCEPTED" for k in accepted_reviewed)
+        if index.get("cleared_original_claims") != cleared or index.get("disagreements_pending_adjudication") != len(accepted_reviewed) - cleared:
+            errors.append("derived ACCEPTED index final-state counts mismatch")
+        for item in index_items:
+            key = (item["claim_id"], item["normalized_claim_hash"])
+            original = reviewed.get(key)
+            if original is None:
+                continue
+            for field in ("claim", "decision", "final_state", "author_decision", "component_assessments", "gap_types", "proposed_text"):
+                if item.get(field) != amended_fields.get((key, field), original.get(field)):
+                    errors.append(f"derived index differs from effective ledger: {item['claim_id']}/{field}")
+            target = review_paths[key]
+            if item.get("reviewer_batch_path") != target.relative_to(root).as_posix() or item.get("reviewer_batch_sha256") != text_sha256(target):
+                errors.append(f"derived index reviewer lineage mismatch: {item['claim_id']}")
+            if item.get("amendments_applied") != amendment_refs.get(key, []) or item.get("evidence") != original.get("evidence", []) + amendment_evidence.get(key, []):
+                errors.append(f"derived index amendment/evidence mismatch: {item['claim_id']}")
     checkpoint_path = root / "audit-v5/semantic/reviewer-checkpoint.json"
     if checkpoint_path.exists():
         checkpoint = read_json(checkpoint_path)
@@ -142,12 +234,23 @@ def validate(root: Path, *, check_local_sources: bool = False) -> dict:
         }.items():
             if checkpoint.get(field) != expected:
                 errors.append(f"checkpoint count mismatch: {field}")
+        if "component_amendments" in checkpoint and checkpoint["component_amendments"] != amendment_count:
+            errors.append("checkpoint component amendment count mismatch")
+        coverage = checkpoint.get("author_accepted_review")
+        if coverage is not None and coverage != {
+            "total": len(accepted_keys), "reviewed": len(accepted_reviewed),
+            "remaining": len(accepted_keys - set(reviewed)), "reviewer_decisions": dict(accepted_decisions),
+        }:
+            errors.append("checkpoint author ACCEPTED coverage/count mismatch")
     return {
         "ok": not errors, "errors": errors, "queue_claims": len(queue),
         "author_items": author_count, "unique_author_claims": len(authors),
         "reviewer_claims": len(reviewed), "remaining_independent_review": len(qmap) - len(reviewed),
         "reviewer_decisions": dict(decisions), "reviewer_final_states": dict(states),
         "final_accepted": states["ACCEPTED"], "local_sources_checked": check_local_sources,
+        "component_amendments": amendment_count,
+        "author_accepted_reviewed": len(accepted_reviewed),
+        "author_accepted_total": len(accepted_keys),
     }
 
 

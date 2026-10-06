@@ -1,6 +1,6 @@
 # Audit v5 Status
 
-Independent-review update: 2026-10-06T01:08:44.139738Z
+Independent-review update: 2026-10-06T01:17:15.066958Z
 Branch: `audit-v5`
 
 ## Current independent-review checkpoint
@@ -12,6 +12,7 @@ Branch: `audit-v5`
 - Final states: `{'ESCALATED_REVIEW_DISAGREEMENT': 97, 'PARTIALLY_SUPPORTED': 2, 'ACCEPTED': 21}`.
 - Final ACCEPTED: **21**, within recorded period and scope.
 - Pending resolution: **1376** including **97** awaiting adjudication.
+- Author ACCEPTED summary: [INDEPENDENT-REVIEW-ACCEPTED.md](INDEPENDENT-REVIEW-ACCEPTED.md); component amendment events: **1**.
 - Latest batch: `semantic/reviewer-006.json`; report: [INDEPENDENT-REVIEW-006.md](INDEPENDENT-REVIEW-006.md).
 - Original 1,399 author final_state / independent_review values remain null. Original reports and Cloud failure queue unchanged.
 - PDF/HTML raw sources remain in ignored local caches; separate verified source package required for paper publication.

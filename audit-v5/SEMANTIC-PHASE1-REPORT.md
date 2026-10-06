@@ -3257,3 +3257,7 @@ Author ACCEPTED subset: 25 unique claims. Reviewer decisions: {'PARTIALLY_SUPPOR
 ## reviewer-006 independent review (2026-10-06T01:08:44.139738Z)
 
 Author ACCEPTED subset: 8 unique claims. Reviewer decisions: {'ACCEPTED': 1, 'PARTIALLY_SUPPORTED': 5, 'PERIOD_UNRESOLVED': 2}. Final states: {'ACCEPTED': 1, 'ESCALATED_REVIEW_DISAGREEMENT': 7}. See [INDEPENDENT-REVIEW-006.md](INDEPENDENT-REVIEW-006.md). Author outcomes and original reports preserved.
+
+## Author ACCEPTED cohort complete — 2026-10-06
+
+All 111 author ACCEPTED keys independently reviewed: 21 ACCEPTED, 70 PARTIALLY_SUPPORTED, 19 PERIOD_UNRESOLVED, 1 UNKNOWN_AFTER_RESEARCH. The 90 disagreements require adjudication; complete original claims are not automatically accepted through proposals. See [cohort summary](INDEPENDENT-REVIEW-ACCEPTED.md). One append-only component amendment corrects Chicony business-group count without changing decision/final-state or prior ledgers. Overall independent coverage 120/1,399; remaining 1,279. Integrity checks and 44 tests passed; the protected author corpus and Cloud queue have no changes.
