@@ -1,0 +1,47 @@
+{
+  "schema": "reviewer-text-layer-counterchecks-1",
+  "checked_at": "2026-10-06T01:03:50.113119Z",
+  "coverage": "Original-claim percentage tokens with numeric boundaries. Not a verification of every number in author rationale. Semantic interpretation remains manual.",
+  "items": [
+    {
+      "claim_id": "5530:objective_ranking_or_market_share:eb56e880bb5d11f6",
+      "source_id": "s-be6ee5f1a55e",
+      "source_sha256": "5972ea91b7f2c07e17ba08742ca995c3e242e437e7a21a36c423deaa10daae57",
+      "label": "standalone percentage 79%",
+      "regex": "(?<![\\d.])79%(?!\\d)",
+      "count": 1,
+      "page_hits": [
+        {
+          "pdf_page": 15,
+          "count": 1
+        }
+      ],
+      "interpretation_limit": "Text-layer diagnostic only; counts never prove issuer/relationship/period binding. Zero does not disprove a claim."
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "source_id": "s-67b8df3b7477",
+      "source_sha256": "d7da3501b306443f0816332a9dd486760b38e16e52fbc03af1fa42eef601255f",
+      "label": "standalone percentage 32%",
+      "regex": "(?<![\\d.])32%(?!\\d)",
+      "count": 1,
+      "page_hits": [
+        {
+          "pdf_page": 9,
+          "count": 1
+        }
+      ],
+      "interpretation_limit": "Text-layer diagnostic only; counts never prove issuer/relationship/period binding. Zero does not disprove a claim."
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "source_id": "s-67b8df3b7477",
+      "source_sha256": "d7da3501b306443f0816332a9dd486760b38e16e52fbc03af1fa42eef601255f",
+      "label": "standalone percentage 30%",
+      "regex": "(?<![\\d.])30%(?!\\d)",
+      "count": 0,
+      "page_hits": [],
+      "interpretation_limit": "Text-layer diagnostic only; counts never prove issuer/relationship/period binding. Zero does not disprove a claim."
+    }
+  ]
+}

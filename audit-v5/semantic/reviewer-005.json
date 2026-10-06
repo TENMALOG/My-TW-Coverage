@@ -1,0 +1,2007 @@
+{
+  "schema": "semantic-manual-independent-review-2",
+  "batch_id": "reviewer-005",
+  "reviewer_role": "independent_reviewer",
+  "reviewer_identity": "Codex review session; distinct from author session",
+  "model_identifier": "Not exposed as a verifiable runtime model ID; no API batch or response ID claimed",
+  "reviewed_at": "2026-10-06T01:03:50.113119Z",
+  "source_commit": "9c63f9c9999936beac350309e5f59f1f5301752e",
+  "policy_version": "semantic-high-1",
+  "risk_policy_version": "risk-3-calibrated",
+  "independence": {
+    "separate_author_reviewer": true,
+    "blinded": false,
+    "note": "Author labels and handoff warnings known. Decisions based on independently read source content, not author rationale."
+  },
+  "method": "Manual component review using fresh primary-source retrieval and explicitly identified historical caches; PDF text/context and targeted page rendering; no inference from substring counts or network status",
+  "scope_note": "Author ACCEPTED review, inventory positions 76 to 100; 25 unique keys; batch <=25.",
+  "review_count": 25,
+  "evidence_manifest": "audit-v5/semantic/reviewer-evidence/reviewer-005/manifest.json",
+  "evidence_manifest_sha256": "05e98890cad08e84c1c3c728859b4094aa0ac008718c073aa731f4e1a99294e2",
+  "counterchecks": "audit-v5/semantic/reviewer-evidence/reviewer-005/numeric-counterchecks.json",
+  "counterchecks_sha256": "b8008873b5675741a2195f352fc504eb30650c67abb206c0e19e3cf234112269",
+  "decision_counts": {
+    "PARTIALLY_SUPPORTED": 15,
+    "PERIOD_UNRESOLVED": 4,
+    "ACCEPTED": 6
+  },
+  "final_state_counts": {
+    "ESCALATED_REVIEW_DISAGREEMENT": 19,
+    "ACCEPTED": 6
+  },
+  "items": [
+    {
+      "claim_id": "6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd",
+      "normalized_claim_hash": "0f29d3a1cca9dfcd17bd199741287a9b9e9539bd11b955e2af1e2f92e8a7ca3b",
+      "ticker": "6655",
+      "company": "科定",
+      "path": "Pilot_Reports/Lumber & Wood Production/6655_科定.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "生產總部位於嘉義大埔美工業區，擁有業界唯一從原木採購到終端銷售通路的完整一條龍垂直整合產線。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-096",
+      "author_batch_path": "audit-v5/semantic/author-096.json",
+      "author_batch_sha256": "917699cc40ae59f1c1b8e19e80ac04b6b43b624e7a72e882974c311f9dc50087",
+      "author_batch_observed_bytes_sha256": "917699cc40ae59f1c1b8e19e80ac04b6b43b624e7a72e882974c311f9dc50087",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。",
+      "gap_types": [
+        "value_chain_endpoint",
+        "period",
+        "exclusivity"
+      ],
+      "component_assessments": [
+        {
+          "text": "嘉義大埔美生產總部",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-2d82c930b533"
+          ],
+          "reason": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。"
+        },
+        {
+          "text": "2019自述產銷一條龍垂直整合",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-2d82c930b533"
+          ],
+          "reason": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。"
+        },
+        {
+          "text": "原木採購至終端通路的逐段完整鏈",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-2d82c930b533"
+          ],
+          "reason": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。"
+        },
+        {
+          "text": "目前業界唯一",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-2d82c930b533"
+          ],
+          "reason": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。"
+        }
+      ],
+      "proposed_text": "科定2019簡報列嘉義大埔美生產總部，並自述產銷一條龍垂直整合優勢。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-2d82c930b533",
+          "locator": "PDF實體4、12、27頁",
+          "period_binding": "2019-05法說簡報",
+          "url": "https://emops.twse.com.tw/nas/STR/665520190530E001.pdf",
+          "title": "正式PDF檢視：科定",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "2053b8eb4949d2ff446c7693ae4b280c58fb745f9eab3ece68d891ca11c3045d",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-2d82c930b533.md",
+          "note": "公司概況給地址，優勢頁確給業界唯一產銷一條龍；但未明示原木採購端的所有權或整段流程，亦不能把2019唯一性升為目前。",
+          "accessed_at": "2026-10-06T00:28:10.529761+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "5530:objective_ranking_or_market_share:eb56e880bb5d11f6",
+      "normalized_claim_hash": "eb56e880bb5d11f64f08da3130f0a3e4ee419a6db4c1a7d4ae125803715626d9",
+      "ticker": "5530",
+      "company": "龍巖",
+      "path": "Pilot_Reports/Personal Services/5530_龍巖.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "全台各地家庭 — 龍巖生前契約市占率約 79%",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-101",
+      "author_batch_path": "audit-v5/semantic/author-101.json",
+      "author_batch_sha256": "9abf41193a1ee458f87858eff85c3eef579e075283a3a548f34a3b089b622b96",
+      "author_batch_observed_bytes_sha256": "9abf41193a1ee458f87858eff85c3eef579e075283a3a548f34a3b089b622b96",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。",
+      "gap_types": [
+        "period",
+        "market_share_denominator"
+      ],
+      "component_assessments": [
+        {
+          "text": "2023年底生前契約市占圖為79%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-be6ee5f1a55e"
+          ],
+          "reason": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。"
+        },
+        {
+          "text": "資料引信託公會及龍巖信託結算報告",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-be6ee5f1a55e"
+          ],
+          "reason": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。"
+        },
+        {
+          "text": "無年份79%的目前全市場份額",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-be6ee5f1a55e"
+          ],
+          "reason": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。"
+        },
+        {
+          "text": "契約件數口徑",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-be6ee5f1a55e"
+          ],
+          "reason": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。"
+        }
+      ],
+      "proposed_text": "龍巖2024年12月簡報列2023年底生前契約市占約79%，比例採金額口徑。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-be6ee5f1a55e",
+          "locator": "PDF實體7、15、26頁；7頁圖表畫面",
+          "period_binding": "2024-12簡報；79%資料為2023-12-31",
+          "url": "https://mopsov.twse.com.tw/nas/STR/553020241225M001.pdf",
+          "title": "正式PDF檢視：龍巖",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "5972ea91b7f2c07e17ba08742ca995c3e242e437e7a21a36c423deaa10daae57",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-be6ee5f1a55e.md",
+          "note": "圖上79%與112年相連，15頁註記比例以金額計算；不能作為現在所有契約件數的市占。另有76%銷售描述，亦不能靜默合併不同年度及量度。",
+          "accessed_at": "2026-10-06T00:28:11.774428+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3527:objective_ranking_or_market_share:39a26c1aea2cd59c",
+      "normalized_claim_hash": "39a26c1aea2cd59c2248e3aae35ceaca7351c4c85446fb508c4f7e3447e7e7cb",
+      "ticker": "3527",
+      "company": "聚積",
+      "path": "Pilot_Reports/Semiconductors/3527_聚積.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**聚積** (全球第一大 LED 顯示屏驅動 IC)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-113",
+      "author_batch_path": "audit-v5/semantic/author-113.json",
+      "author_batch_sha256": "49bb2a51d9a9064ea10f4f30bf81717195617c3591c77a1a8735d1ab966012b9",
+      "author_batch_observed_bytes_sha256": "49bb2a51d9a9064ea10f4f30bf81717195617c3591c77a1a8735d1ab966012b9",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "第一大确实出現在私募評估意見，並非只有通用IC產品文字；但來源為2023，未取得可把該稱述帶到目前的排名更新。議事手冊內附評估不等於產業份額重新計算。",
+      "gap_types": [
+        "period",
+        "ranking_basis"
+      ],
+      "component_assessments": [
+        {
+          "text": "2023評估意見稱全球第一大顯示屏LED驅動IC廠",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e0a7a35d0d5b"
+          ],
+          "reason": "第一大确实出現在私募評估意見，並非只有通用IC產品文字；但來源為2023，未取得可把該稱述帶到目前的排名更新。議事手冊內附評估不等於產業份額重新計算。"
+        },
+        {
+          "text": "目前全球排名期間與量度",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-e0a7a35d0d5b"
+          ],
+          "reason": "第一大确实出現在私募評估意見，並非只有通用IC產品文字；但來源為2023，未取得可把該稱述帶到目前的排名更新。議事手冊內附評估不等於產業份額重新計算。"
+        }
+      ],
+      "proposed_text": "聚積2023股東會議事手冊附私募評估意見，稱其為全球第一大顯示屏LED驅動IC廠。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-e0a7a35d0d5b",
+          "locator": "PDF實體33頁（印刷31）私募必要及合理性評估意見",
+          "period_binding": "2023股東會；2023-03評估背景",
+          "url": "https://www.mblock.com.tw/upload/Investor/shareholders/2023/112MeetingHandbook_C.pdf",
+          "title": "正式PDF檢視：聚積",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f563db56f2d1d3ed92ed325ada45114d6166253670391bd7bdd22e93d8da2a94",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-e0a7a35d0d5b.md",
+          "note": "第一大确实出現在私募評估意見，並非只有通用IC產品文字；但來源為2023，未取得可把該稱述帶到目前的排名更新。議事手冊內附評估不等於產業份額重新計算。",
+          "accessed_at": "2026-10-06T00:28:14.344027+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:3863a18a0b35d83b",
+      "normalized_claim_hash": "3863a18a0b35d83b76f856d522c7f1a0ac19764fb974096d5b38a7b3bc792a08",
+      "ticker": "3545",
+      "company": "敦泰",
+      "path": "Pilot_Reports/Semiconductors/3545_敦泰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "敦泰電子 (3545) 是全球最大電容式觸控 IC 出貨商之一，產品涵蓋觸控 IC、顯示驅動 IC、[[TDDI]] (觸控顯示整合單晶片) 及指紋辨識 IC。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-114",
+      "author_batch_path": "audit-v5/semantic/author-114.json",
+      "author_batch_sha256": "bd4fbc1176a9793d87f1820a34513b1aac04f8a6c8540f84e419b88fea95d24f",
+      "author_batch_observed_bytes_sha256": "bd4fbc1176a9793d87f1820a34513b1aac04f8a6c8540f84e419b88fea95d24f",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。",
+      "gap_types": [
+        "period",
+        "ranking_metric",
+        "document_year_vs_filename"
+      ],
+      "component_assessments": [
+        {
+          "text": "觸控、顯示驅動、觸顯整合及指紋IC",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        },
+        {
+          "text": "2016沿革稱觸控出貨全球最大",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        },
+        {
+          "text": "目前全球最大電容式觸控出貨商之一之同年度比較",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        }
+      ],
+      "proposed_text": "敦泰2023年度年報列觸控、顯示驅動、觸顯整合與指紋辨識產品，並回溯2016觸控IC出貨逾4億顆的歷史。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-a80ae43f36a4",
+          "locator": "PDF實體5、7、73、74、85頁（兼容字正規化檢索）",
+          "period_binding": "實際2023年度內容；檔名2024；2016沿革出貨事件",
+          "url": "https://www.focaltech-electronics.com/upload/media/IR/02_Shareholder%20Service/2-1.Shareholder's%20Meeting/2024%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "正式PDF檢視：敦泰",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e127bfbd85ae1cb5f084a4466b603cd292631cf9308a9217386f55e1d979e9bf",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-a80ae43f36a4.md",
+          "note": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。",
+          "accessed_at": "2026-10-06T00:28:14.417753+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:b0c570c3eee08a0b",
+      "normalized_claim_hash": "b0c570c3eee08a0b7b246648b0c86e3c43a11ce2267fb2e1faa30fbb99a313b0",
+      "ticker": "3545",
+      "company": "敦泰",
+      "path": "Pilot_Reports/Semiconductors/3545_敦泰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**敦泰** (TDDI/觸控/驅動/指紋，全球最大觸控 IC 之一)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-114",
+      "author_batch_path": "audit-v5/semantic/author-114.json",
+      "author_batch_sha256": "bd4fbc1176a9793d87f1820a34513b1aac04f8a6c8540f84e419b88fea95d24f",
+      "author_batch_observed_bytes_sha256": "bd4fbc1176a9793d87f1820a34513b1aac04f8a6c8540f84e419b88fea95d24f",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。",
+      "gap_types": [
+        "period",
+        "ranking_metric",
+        "document_year_vs_filename"
+      ],
+      "component_assessments": [
+        {
+          "text": "觸控、顯示驅動、觸顯整合及指紋IC",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        },
+        {
+          "text": "2016沿革稱觸控出貨全球最大",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        },
+        {
+          "text": "目前全球最大電容式觸控出貨商之一之同年度比較",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-a80ae43f36a4"
+          ],
+          "reason": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。"
+        }
+      ],
+      "proposed_text": "敦泰2023年度年報列觸控、顯示驅動、觸顯整合與指紋辨識產品，並回溯2016觸控IC出貨逾4億顆的歷史。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-a80ae43f36a4",
+          "locator": "PDF實體5、7、73、74、85頁（兼容字正規化檢索）",
+          "period_binding": "實際2023年度內容；檔名2024；2016沿革出貨事件",
+          "url": "https://www.focaltech-electronics.com/upload/media/IR/02_Shareholder%20Service/2-1.Shareholder's%20Meeting/2024%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "正式PDF檢視：敦泰",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e127bfbd85ae1cb5f084a4466b603cd292631cf9308a9217386f55e1d979e9bf",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-a80ae43f36a4.md",
+          "note": "沿革在民國105年載出貨逾4億顆、成為最大，不能將2016歷史當作本年排名。最新業務商品表支持四類產品，原名IDC屬觸控顯示整合，可記術語對應；產品並不能補足当前排名。",
+          "accessed_at": "2026-10-06T00:28:14.417753+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "normalized_claim_hash": "5930424229e429b13a6ec481aa1ab24f1d57a83e6a85e7c8cf5a7e6c41fc8287",
+      "ticker": "8131",
+      "company": "福懋科",
+      "path": "Pilot_Reports/Semiconductors/8131_福懋科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[南亞科技]]持股 32% 為第一大股東，[[福懋興業]]持股約 30% 為第二大股東，形成集團內垂直整合。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-121",
+      "author_batch_path": "audit-v5/semantic/author-121.json",
+      "author_batch_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_batch_observed_bytes_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。",
+      "gap_types": [
+        "period",
+        "shareholder_rank",
+        "integration_causality"
+      ],
+      "component_assessments": [
+        {
+          "text": "2020移轉後南亞32%最大、福懋30.68%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-67b8df3b7477"
+          ],
+          "reason": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。"
+        },
+        {
+          "text": "台塑關聯與封測模組業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-67b8df3b7477"
+          ],
+          "reason": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。"
+        },
+        {
+          "text": "目前持股與第二順位",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-67b8df3b7477"
+          ],
+          "reason": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。"
+        },
+        {
+          "text": "兩股東造成集團垂直整合之業務鏈",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-67b8df3b7477"
+          ],
+          "reason": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。"
+        }
+      ],
+      "proposed_text": "福懋科技2021報告載2020股權移轉後南亞持32%居首、福懋持30.68%，並描述封裝測試與模組一貫化業務。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-67b8df3b7477",
+          "locator": "PDF實體9頁（印刷6）公司概況及台塑關聯圖",
+          "period_binding": "2021永續報告；2020股權移轉歷史",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_8131_110.pdf",
+          "title": "正式PDF檢視：福懋科",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "d7da3501b306443f0816332a9dd486760b38e16e52fbc03af1fa42eef601255f",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-67b8df3b7477.md",
+          "note": "源文支持兩者歷史持股比例，未列同時點全體股東順位以直接確認第二名。文中一貫化垂直整合主體為福懋科技自身封測模組，不能直接轉為两股東形成的因果關係；目前持股也未更新。",
+          "accessed_at": "2026-10-06T00:28:15.521188+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:53be25f984132f29",
+      "normalized_claim_hash": "53be25f984132f291a68a7798674365c8084f99a1c296f9f517d8612c3bbd54a",
+      "ticker": "8162",
+      "company": "微矽電子-創",
+      "path": "Pilot_Reports/Semiconductors/8162_微矽電子-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "微矽電子 (8162) 深耕半導體後段服務逾 38 年，為國內[[電源管理 IC]]、[[MOSFET]] 及 [[氮化鎵]] 晶圓測試最大供應商，以「晶圓廠內部實驗室」創新模式與知名晶圓代工廠合作。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-121",
+      "author_batch_path": "audit-v5/semantic/author-121.json",
+      "author_batch_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_batch_observed_bytes_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。",
+      "gap_types": [
+        "partner_operating_model",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "逾38年經驗",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。"
+        },
+        {
+          "text": "2025自述國內PMIC、MOSFET、GaN晶圓測試最大供應商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。"
+        },
+        {
+          "text": "晶圓廠內部實驗室之具體合作模式與對象",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。"
+        },
+        {
+          "text": "目前排名期間",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。"
+        }
+      ],
+      "proposed_text": "微矽2025年8月簡報自述深耕半導體逾38年，並為國內PMIC、MOSFET及GaN晶圓測試服務最大供應商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-8661d435bf6d",
+          "locator": "PDF實體1、7、9頁；公司簡介畫面",
+          "period_binding": "實際2025-08-11；URL日期2025-08-19",
+          "url": "https://mopsov.twse.com.tw/nas/STR/816220250819M001.pdf",
+          "title": "正式PDF檢視：微矽電子-創",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "dc643e10e4f2c2e4b1fbc71674e765cc83a378363276ee3c7d9893c5bf1d4471",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-8661d435bf6d.md",
+          "note": "第7頁完整載三類產品的國內最大，不能縮成只MOSFET。但全文與所檢視公司／製程頁未確立廠內實驗室合作的具體段落，本次不以作者摘要填補該關係。",
+          "accessed_at": "2026-10-06T00:28:18.798291+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:e32635bf5c906e45",
+      "normalized_claim_hash": "e32635bf5c906e45ed0229d067e1ec6797c11107aea742f49b772a1c0ccb2801",
+      "ticker": "8162",
+      "company": "微矽電子-創",
+      "path": "Pilot_Reports/Semiconductors/8162_微矽電子-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**微矽** (電源 IC/[[MOSFET]]/GaN 晶圓測試最大供應商)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-121",
+      "author_batch_path": "audit-v5/semantic/author-121.json",
+      "author_batch_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_batch_observed_bytes_sha256": "ecae593fbdde9682e8f7fe5d1a8ac3afbd7ad6f116ea4c0b01f7e676fe85653d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "產品範圍相符，排名原句在簡報有直接文字；保留2025與國內限定，不用未更新的比較支持目前未限定地區排名。",
+      "gap_types": [
+        "period",
+        "geographic_ranking_scope"
+      ],
+      "component_assessments": [
+        {
+          "text": "2025公司自述國內電源管理IC、MOSFET及GaN晶圓測試最大供應商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "產品範圍相符，排名原句在簡報有直接文字；保留2025與國內限定，不用未更新的比較支持目前未限定地區排名。"
+        },
+        {
+          "text": "未定年、未標國內範圍的目前最大",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-8661d435bf6d"
+          ],
+          "reason": "產品範圍相符，排名原句在簡報有直接文字；保留2025與國內限定，不用未更新的比較支持目前未限定地區排名。"
+        }
+      ],
+      "proposed_text": "微矽2025年8月簡報稱其為國內電源管理IC、MOSFET及GaN晶圓測試最大供應商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-8661d435bf6d",
+          "locator": "PDF實體7頁（印刷6）公司簡介",
+          "period_binding": "2025-08-11",
+          "url": "https://mopsov.twse.com.tw/nas/STR/816220250819M001.pdf",
+          "title": "正式PDF檢視：微矽電子-創",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "dc643e10e4f2c2e4b1fbc71674e765cc83a378363276ee3c7d9893c5bf1d4471",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-8661d435bf6d.md",
+          "note": "產品範圍相符，排名原句在簡報有直接文字；保留2025與國內限定，不用未更新的比較支持目前未限定地區排名。",
+          "accessed_at": "2026-10-06T00:28:18.798291+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:862c3863436e97cd",
+      "normalized_claim_hash": "862c3863436e97cdd152cf30d81dd814dcc38b78be7e1ae63256abac183e56a4",
+      "ticker": "3576",
+      "company": "聯合再生",
+      "path": "Pilot_Reports/Solar/3576_聯合再生.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "聯合再生能源股份有限公司 (3576) 為台灣最大的太陽能模組品牌與系統整合廠，由[[新日光]]、[[昱晶]]、[[昇陽光電]]三家合併而成。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-127",
+      "author_batch_path": "audit-v5/semantic/author-127.json",
+      "author_batch_sha256": "495dca7eb7a7a01bc65b6f5875070fb8e6c4de649a08968bc5e31899d492ecc0",
+      "author_batch_observed_bytes_sha256": "495dca7eb7a7a01bc65b6f5875070fb8e6c4de649a08968bc5e31899d492ecc0",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。",
+      "gap_types": [
+        "business_line_specific_ranking"
+      ],
+      "component_assessments": [
+        {
+          "text": "三公司2018合併",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。"
+        },
+        {
+          "text": "太陽能模組及系統工程／維運業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。"
+        },
+        {
+          "text": "公司自述最大太陽能廠商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。"
+        },
+        {
+          "text": "太陽能模組品牌與系統整合各別市場的最大",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。"
+        }
+      ],
+      "proposed_text": "聯合再生由新日光、昱晶及昇陽於2018合併，2025簡報列模組與系統工程業務，並自述連續四年台灣模組出貨／市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-0c159a490b6d",
+          "locator": "PDF實體1、2、3、7、8、24頁",
+          "period_binding": "2025-03-25封面；2018合併歷史",
+          "url": "https://mopsov.twse.com.tw/nas/STR/357620250324M001.pdf",
+          "title": "正式PDF檢視：聯合再生",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "105c69120116f7226d6875f86d9634de6e1f7d1680940acfd63bad9a2e875ae4",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-0c159a490b6d.md",
+          "note": "源文的最大太陽能廠商及模組排名，沒有給EPC或系統整合市場第一。不能將整家廠商最大與模組市占分別分配到所有業務線。",
+          "accessed_at": "2026-10-06T00:28:21.983319+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:4e7dfe3251cf2110",
+      "normalized_claim_hash": "4e7dfe3251cf21104fb6e3956c9a8356a1887c74a4d01f98690a3a5110735b7e",
+      "ticker": "3576",
+      "company": "聯合再生",
+      "path": "Pilot_Reports/Solar/3576_聯合再生.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "1. **太陽能模組：** 經營自有品牌，主攻台灣內需市場，連續多年維持台灣模組銷售市占率第一。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-127",
+      "author_batch_path": "audit-v5/semantic/author-127.json",
+      "author_batch_sha256": "495dca7eb7a7a01bc65b6f5875070fb8e6c4de649a08968bc5e31899d492ecc0",
+      "author_batch_observed_bytes_sha256": "495dca7eb7a7a01bc65b6f5875070fb8e6c4de649a08968bc5e31899d492ecc0",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。",
+      "gap_types": [
+        "shipment_vs_sales",
+        "market_focus",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "太陽能模組業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。"
+        },
+        {
+          "text": "公司自述連續四年台灣模組出貨量／市占第一",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。"
+        },
+        {
+          "text": "當期銷售市占與出貨市占是否相同",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。"
+        },
+        {
+          "text": "主攻內需及品牌的完整敘述",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-0c159a490b6d"
+          ],
+          "reason": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。"
+        }
+      ],
+      "proposed_text": "聯合再生2025年3月簡報自述其模組連續四年台灣出貨量及市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-0c159a490b6d",
+          "locator": "PDF實體3、7、8頁；8頁圖文核對",
+          "period_binding": "2025-03簡報；連續四年未逐年列出年度",
+          "url": "https://mopsov.twse.com.tw/nas/STR/357620250324M001.pdf",
+          "title": "正式PDF檢視：聯合再生",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "105c69120116f7226d6875f86d9634de6e1f7d1680940acfd63bad9a2e875ae4",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-0c159a490b6d.md",
+          "note": "簡報直接寫出貨量／市占，未提供銷售金額或單位的分母。台灣出貨排名不等同銷售金額排名，也不能单独證主攻台灣內需的市場組合。",
+          "accessed_at": "2026-10-06T00:28:21.983319+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6146:objective_ranking_or_market_share:a90215729c3e9aa9",
+      "normalized_claim_hash": "a90215729c3e9aa9dba0a19419924b4e61a959949621a488171e72acddd1c30f",
+      "ticker": "6146",
+      "company": "耕興",
+      "path": "Pilot_Reports/Specialty Business Services/6146_耕興.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "1. **[[EMC]]電磁相容性測試：** 台灣擁有3座規模最大的[[EMC]]與安規專業認證實驗室。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-128",
+      "author_batch_path": "audit-v5/semantic/author-128.json",
+      "author_batch_sha256": "ba987beb798e5b13f556c6bba6ab6519ec1062b57cd065ab7dd4e2544381269f",
+      "author_batch_observed_bytes_sha256": "ba987beb798e5b13f556c6bba6ab6519ec1062b57cd065ab7dd4e2544381269f",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "設備列表確為三座10M暗室，並列另類暗室與測試場地；三座暗室不能等同三座整體實驗室，且表中沒有最大規模之同業比较。",
+      "gap_types": [
+        "facility_vs_chamber",
+        "superlative_comparison"
+      ],
+      "component_assessments": [
+        {
+          "text": "EMC與安規檢測",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-07775445c120"
+          ],
+          "reason": "設備列表確為三座10M暗室，並列另類暗室與測試場地；三座暗室不能等同三座整體實驗室，且表中沒有最大規模之同業比较。"
+        },
+        {
+          "text": "國內三座10M標準室內電波暗室",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-07775445c120"
+          ],
+          "reason": "設備列表確為三座10M暗室，並列另類暗室與測試場地；三座暗室不能等同三座整體實驗室，且表中沒有最大規模之同業比较。"
+        },
+        {
+          "text": "三座各為規模最大的EMC及安規整體實驗室",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-07775445c120"
+          ],
+          "reason": "設備列表確為三座10M暗室，並列另類暗室與測試場地；三座暗室不能等同三座整體實驗室，且表中沒有最大規模之同業比较。"
+        }
+      ],
+      "proposed_text": "耕興2023年報載國內有三座10M標準室內電波暗室，提供EMC等檢測服務。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-07775445c120",
+          "locator": "PDF實體89、90、99頁（印刷84起）",
+          "period_binding": "2023年報；2024-04-30刊印",
+          "url": "https://www.sporton.com.tw/UserFiles/FIN/112financial_statement_Year_cht.pdf",
+          "title": "正式PDF檢視：耕興",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "1623563be61cde6d83acc79d960738f629b382489d0b6f4b9b23704a74979e45",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-07775445c120.md",
+          "note": "設備列表確為三座10M暗室，並列另類暗室與測試場地；三座暗室不能等同三座整體實驗室，且表中沒有最大規模之同業比较。",
+          "accessed_at": "2026-10-06T00:28:22.260146+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6434:objective_ranking_or_market_share:4cdefa173c0d7b8e",
+      "normalized_claim_hash": "4cdefa173c0d7b8e5070c80c83d98427e5236fc6733833b0ebba4180a2d68c9f",
+      "ticker": "6434",
+      "company": "達輝光電",
+      "path": "Pilot_Reports/Specialty Chemicals/6434_達輝光電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "達輝光電 (6434，TacBright Optronics) 為台灣唯一具 TAC (三醋酸纖維素) 光學膜量產技術之專業廠商，[[新光合纖]]轉投資子公司。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-135",
+      "author_batch_path": "audit-v5/semantic/author-135.json",
+      "author_batch_sha256": "57cc2f822fa8a5183b8f3f306cd7a30d01adc313a593066fd80f77c21de2f601",
+      "author_batch_observed_bytes_sha256": "57cc2f822fa8a5183b8f3f306cd7a30d01adc313a593066fd80f77c21de2f601",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "來源為13年前公司介紹，能支持當時技術與母公司关系；排他性和股權控制均可能變動，不能作為目前快照。",
+      "gap_types": [
+        "period",
+        "exclusivity",
+        "ownership_snapshot"
+      ],
+      "component_assessments": [
+        {
+          "text": "2013國內唯一TAC量產廠之官方刊物記載",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-f4a47ce0270a"
+          ],
+          "reason": "來源為13年前公司介紹，能支持當時技術與母公司关系；排他性和股權控制均可能變動，不能作為目前快照。"
+        },
+        {
+          "text": "当時新光合纖母公司支持",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-f4a47ce0270a"
+          ],
+          "reason": "來源為13年前公司介紹，能支持當時技術與母公司关系；排他性和股權控制均可能變動，不能作為目前快照。"
+        },
+        {
+          "text": "現在唯一與子公司控制狀態",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-f4a47ce0270a"
+          ],
+          "reason": "來源為13年前公司介紹，能支持當時技術與母公司关系；排他性和股權控制均可能變動，不能作為目前快照。"
+        }
+      ],
+      "proposed_text": "TPEx2013公司介紹稱達輝為當時國內唯一量產TAC產品的廠商，並載母公司新光合纖支持。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-f4a47ce0270a",
+          "locator": "PDF實體1頁TPEx櫃買新星公司簡介",
+          "period_binding": "2013-12刊物",
+          "url": "https://www.tpex.org.tw/storage/co_report/2013/12/1387434718_14216_CH_%E6%AB%83%E8%B2%B7%E6%96%B0%E6%98%9F_6434.pdf",
+          "title": "正式PDF檢視：達輝光電",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "7180b0797bb35efb4796baa831811dab8a8b6948e062f510c4cd4f732284853d",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-f4a47ce0270a.md",
+          "note": "來源為13年前公司介紹，能支持當時技術與母公司关系；排他性和股權控制均可能變動，不能作為目前快照。",
+          "accessed_at": "2026-10-06T00:28:22.853712+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2412:objective_ranking_or_market_share:de26eb6e820bab9c",
+      "normalized_claim_hash": "de26eb6e820bab9c4657fcc09166c191043bf96ef77a034a76e0e8b4042900ad",
+      "ticker": "2412",
+      "company": "中華電",
+      "path": "Pilot_Reports/Telecom Services/2412_中華電.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "業務結構與動能：(1) 行動通訊 — [[5G]]/4G 行動網路服務，為台灣用戶數最大之電信營運商；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-154",
+      "author_batch_path": "audit-v5/semantic/author-154.json",
+      "author_batch_sha256": "afaff2f0fe0fcd9a21f398d8dbb69dbc64083a77ca6daa1c8bec500f384ecc2e",
+      "author_batch_observed_bytes_sha256": "afaff2f0fe0fcd9a21f398d8dbb69dbc64083a77ca6daa1c8bec500f384ecc2e",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "更新至2025年報，其致股東報告明稱各市占大幅超越同業。原claim為整體行動用戶最多，未誤要求4G單一用戶排行。接受年報所據NCC排名，保留2025年底及09行動客戶範圍，不重新外推2026。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "4G與5G服務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ea670294b52e",
+            "s-151fde50711d"
+          ],
+          "reason": "更新至2025年報，其致股東報告明稱各市占大幅超越同業。原claim為整體行動用戶最多，未誤要求4G單一用戶排行。接受年報所據NCC排名，保留2025年底及09行動客戶範圍，不重新外推2026。"
+        },
+        {
+          "text": "2025年底09行動客戶市占39.7%及5G市占39.2%均領先",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ea670294b52e",
+            "s-151fde50711d"
+          ],
+          "reason": "更新至2025年報，其致股東報告明稱各市占大幅超越同業。原claim為整體行動用戶最多，未誤要求4G單一用戶排行。接受年報所據NCC排名，保留2025年底及09行動客戶範圍，不重新外推2026。"
+        }
+      ],
+      "proposed_text": "中華電信2025年報載2025年底09行動客戶市占39.7%、5G客戶市占39.2%，均居同業之首。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-ea670294b52e",
+          "locator": "PDF實體5、8頁",
+          "period_binding": "2024年報；2024-12市占",
+          "url": "https://www.cht.com.tw/home/cht/-/media/web/pdf/investors/annual-report/2024/2024_annual-report_cn_2.pdf",
+          "title": "正式PDF檢視：中華電",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "507a4acf18bd55db5c0dad9621f3bf7405bed891f7b96e3f25bd9a6725ef5679",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-ea670294b52e.md",
+          "note": "更新至2025年報，其致股東報告明稱各市占大幅超越同業。原claim為整體行動用戶最多，未誤要求4G單一用戶排行。接受年報所據NCC排名，保留2025年底及09行動客戶範圍，不重新外推2026。",
+          "accessed_at": "2026-10-06T00:28:22.921459+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        },
+        {
+          "source_id": "s-151fde50711d",
+          "locator": "PDF實體5頁（印刷3）；文字層亂碼處改以畫面逐段核對",
+          "period_binding": "2025年報；2025-12市占",
+          "url": "https://www.cht.com.tw/home/cht/-/media/web/pdf/investors/annual-report/2025/2025_annual-report_cn.pdf?sc_lang=zh-tw",
+          "title": "正式PDF檢視：中華電",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "182731ceb6a87a5d9d53a71a24e81ac5f7621094234ffcb109bf57138282be31",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-151fde50711d.md",
+          "note": "更新至2025年報，其致股東報告明稱各市占大幅超越同業。原claim為整體行動用戶最多，未誤要求4G單一用戶排行。接受年報所據NCC排名，保留2025年底及09行動客戶範圍，不重新外推2026。",
+          "accessed_at": "2026-10-06T01:01:04.233885+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6163:objective_ranking_or_market_share:5fe18513d52e2e8a",
+      "normalized_claim_hash": "5fe18513d52e2e8a9cc464851c2353095bf345c8bc44833ad2724f2c0ee07a83",
+      "ticker": "6163",
+      "company": "華電網",
+      "path": "Pilot_Reports/Telecom Services/6163_華電網.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "公司曾建置台灣首套 ADSL 系統及最大 IPTV (MOD) 系統。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-156",
+      "author_batch_path": "audit-v5/semantic/author-156.json",
+      "author_batch_sha256": "fd5b582e7818990ff5ef336f7c0731717f75540f4fe296ee2dff51eb510fc297",
+      "author_batch_observed_bytes_sha256": "fd5b582e7818990ff5ef336f7c0731717f75540f4fe296ee2dff51eb510fc297",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "原句明確為歷史曾建置，里程碑直接給ADSL台灣第一及MOD亞洲最大；保留其公司聲明和歷史性，不視為目前系統规模。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "曾建置台灣第一套ADSL及亞洲最大IPTV MOD",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-9e18bdd32148"
+          ],
+          "reason": "原句明確為歷史曾建置，里程碑直接給ADSL台灣第一及MOD亞洲最大；保留其公司聲明和歷史性，不視為目前系統规模。"
+        }
+      ],
+      "proposed_text": "華電聯網的專案里程碑載其曾建置台灣第一套ADSL寬頻網路及亞洲最大IPTV（MOD）系統。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-9e18bdd32148",
+          "locator": "PDF實體10頁寬頻網路里程碑",
+          "period_binding": "2025MOPS簡報；頁面保留2022版權，歷史專案",
+          "url": "https://mopsov.twse.com.tw/nas/STR/616320251219M001.pdf",
+          "title": "正式PDF檢視：華電網",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "db27c3ee994f15b72859a64bb4391681945eba496528e47b22d4378d2de82d34",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-9e18bdd32148.md",
+          "note": "原句明確為歷史曾建置，里程碑直接給ADSL台灣第一及MOD亞洲最大；保留其公司聲明和歷史性，不視為目前系統规模。",
+          "accessed_at": "2026-10-06T00:28:23.810923+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1440:objective_ranking_or_market_share:95d130b7d3a12dab",
+      "normalized_claim_hash": "95d130b7d3a12dab6534c9f1a2a6673994b27b6f83854c66524b704bbe428716",
+      "ticker": "1440",
+      "company": "南紡",
+      "path": "Pilot_Reports/Textile Manufacturing/1440_南紡.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "紡織部門為台灣最大聚酯棉/紡紗廠之一，產品包括棉紗、聚酯粒、聚酯棉、機能性布料，產能布局台灣及越南；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-158",
+      "author_batch_path": "audit-v5/semantic/author-158.json",
+      "author_batch_sha256": "bae2afdcbb96de868fbeb3337730490c550b70db26aef6d813d9b5453300d8bc",
+      "author_batch_observed_bytes_sha256": "bae2afdcbb96de868fbeb3337730490c550b70db26aef6d813d9b5453300d8bc",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。",
+      "gap_types": [
+        "product_specific_ranking",
+        "period",
+        "plant_product_binding"
+      ],
+      "component_assessments": [
+        {
+          "text": "棉紗、聚酯粒／棉產品及台灣越南營運",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3df5f844c1aa"
+          ],
+          "reason": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。"
+        },
+        {
+          "text": "公司當時自述國內最大棉紗廠",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3df5f844c1aa"
+          ],
+          "reason": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。"
+        },
+        {
+          "text": "聚酯棉與全部紡紗兩市場的大型排序",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3df5f844c1aa"
+          ],
+          "reason": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。"
+        },
+        {
+          "text": "機能布列舉與当前产能",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3df5f844c1aa"
+          ],
+          "reason": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。"
+        }
+      ],
+      "proposed_text": "南紡2021報告自述國內最大棉紗廠，並列聚酯棉、聚酯粒等產品及台灣與越南營運。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-3df5f844c1aa",
+          "locator": "PDF實體16、17、23、24、50頁",
+          "period_binding": "2021永續報告",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1440_110.pdf",
+          "title": "正式PDF檢視：南紡",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "fb7c2950a4fbe4678e347348621a6b9a161126b87ab4cf18d27425a532667464",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-3df5f844c1aa.md",
+          "note": "最大明确限定棉紗，不能擴充為聚酯棉。報告列機能性產品研發與越南營運，但須區分紗／布商品及各廠的產能與停工年度，不把國內與越南各廠视為同一產品配置。",
+          "accessed_at": "2026-10-06T00:28:26.163108+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1447:objective_ranking_or_market_share:2c3ecc5fc9630935",
+      "normalized_claim_hash": "2c3ecc5fc9630935ed858fbb44097945d58dd79c33f3820ca29ca1c6d741c1fd",
+      "ticker": "1447",
+      "company": "力鵬",
+      "path": "Pilot_Reports/Textile Manufacturing/1447_力鵬.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[力鵬]]企業 (Li Peng Enterprise) 為力麗集團成員，亞洲最大的[[尼龍粒]] (Nylon Chips) 生產商之一。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-158",
+      "author_batch_path": "audit-v5/semantic/author-158.json",
+      "author_batch_sha256": "bae2afdcbb96de868fbeb3337730490c550b70db26aef6d813d9b5453300d8bc",
+      "author_batch_observed_bytes_sha256": "bae2afdcbb96de868fbeb3337730490c550b70db26aef6d813d9b5453300d8bc",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。",
+      "gap_types": [
+        "polymer_type",
+        "period",
+        "group_binding"
+      ],
+      "component_assessments": [
+        {
+          "text": "力鵬Nylon6粒製造",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e9f989b7808b"
+          ],
+          "reason": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。"
+        },
+        {
+          "text": "當時亞洲最大之公司自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e9f989b7808b"
+          ],
+          "reason": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。"
+        },
+        {
+          "text": "力麗集團成員的直接組織證據",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-e9f989b7808b"
+          ],
+          "reason": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。"
+        },
+        {
+          "text": "当前所有尼龍粒排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-e9f989b7808b"
+          ],
+          "reason": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。"
+        }
+      ],
+      "proposed_text": "力鵬2017CSR自述其Nylon6粒製造為亞洲最大，資料限於該年度與產品類型。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-e9f989b7808b",
+          "locator": "PDF實體9、51頁；封面目錄顯示CSR報告",
+          "period_binding": "2017企業社會責任報告；Nylon6產品",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1447_106.pdf",
+          "title": "正式PDF檢視：力鵬",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "6296368009de5535fc192e1314c6059c721febee9eb56cb7a63b3876e4ff29ec",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-e9f989b7808b.md",
+          "note": "來源實為2017CSR，排名限定Nylon6且為当時公司敘述，不能擴大到所有尼龍類別。股東／集團歸屬本次未以這份產品說明定案。",
+          "accessed_at": "2026-10-06T00:28:27.237706+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8341:objective_ranking_or_market_share:8859f2ab9e89b9b4",
+      "normalized_claim_hash": "8859f2ab9e89b9b4c14081b04edf521a5c5c5b457e153cd54080905940d58327",
+      "ticker": "8341",
+      "company": "日友",
+      "path": "Pilot_Reports/Waste Management/8341_日友.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "日友環保科技股份有限公司 (8341) 成立於1994年，為台灣第一家專業生物醫療廢棄物焚化處理廠。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-172",
+      "author_batch_path": "audit-v5/semantic/author-172.json",
+      "author_batch_sha256": "bd86b654d3884fcc0f02619d52de54e1292df6b195b78073e4e75df956f0c5b9",
+      "author_batch_observed_bytes_sha256": "bd86b654d3884fcc0f02619d52de54e1292df6b195b78073e4e75df956f0c5b9",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "兩頁公司基本資料及時間軸支持全部歷史敘述。本次接受為公司歷史聲明，未增加技術最先進等额外評價。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "1994成立",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c4ae408c82c0"
+          ],
+          "reason": "兩頁公司基本資料及時間軸支持全部歷史敘述。本次接受為公司歷史聲明，未增加技術最先進等额外評價。"
+        },
+        {
+          "text": "台灣第一家專業生物醫療廢棄物焚化處理廠之公司記載",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c4ae408c82c0"
+          ],
+          "reason": "兩頁公司基本資料及時間軸支持全部歷史敘述。本次接受為公司歷史聲明，未增加技術最先進等额外評價。"
+        }
+      ],
+      "proposed_text": "日友2026年8月簡報回溯1994成立，並稱其為台灣第一家專業生物醫療廢棄物焚化處理廠。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-c4ae408c82c0",
+          "locator": "PDF實體5、6頁公司資訊與沿革",
+          "period_binding": "2026-08-20簡報；1994設立歷史",
+          "url": "https://mopsov.twse.com.tw/nas/STR/834120260820M001.pdf",
+          "title": "正式PDF檢視：日友",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "8e60e0ed13c423dd77120d565dc278f3f607d4c20fb38e97b95153ca7b55e0d1",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-c4ae408c82c0.md",
+          "note": "兩頁公司基本資料及時間軸支持全部歷史敘述。本次接受為公司歷史聲明，未增加技術最先進等额外評價。",
+          "accessed_at": "2026-10-06T00:28:27.253722+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "4414:material_named_relationship:d5be7e550754288b",
+      "normalized_claim_hash": "d5be7e550754288b3c2f5f6122b83ea082943defda58b7e415c11a2be5b682f0",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Apparel Manufacturing/4414_如興.md",
+      "signal_type": "material_named_relationship",
+      "claim": "[[Levi's]] — 主要客戶；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-180",
+      "author_batch_path": "audit-v5/semantic/author-180.json",
+      "author_batch_sha256": "a62c47ca59cb6acfc36ed12174f519b520c9b5475c3ee5c3487eae6b8ed2e67b",
+      "author_batch_observed_bytes_sha256": "a62c47ca59cb6acfc36ed12174f519b520c9b5475c3ee5c3487eae6b8ed2e67b",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。",
+      "gap_types": [
+        "period",
+        "customer_snapshot"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024年1至11月Levi’s為前五大客戶，占營收26%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-cfba58085567"
+          ],
+          "reason": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。"
+        },
+        {
+          "text": "目前主要客戶身份與期間",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-cfba58085567"
+          ],
+          "reason": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。"
+        }
+      ],
+      "proposed_text": "如興2024年1至11月客戶圖列Levi’s為前五大客戶，營收占比26%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-cfba58085567",
+          "locator": "PDF實體7頁（印刷6）前五大客戶圖；畫面核對",
+          "period_binding": "2024-12簡報；2024年1至11月",
+          "url": "https://mopsov.twse.com.tw/nas/STR/441420241224M001.pdf",
+          "title": "正式PDF檢視：如興",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ac0265632d0f4015bb496983b80b47bad6648e612e7f6a5b4afd58ec00b67937",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-cfba58085567.md",
+          "note": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。",
+          "accessed_at": "2026-10-06T00:28:29.922872+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "4414:material_named_relationship:4b8e7b132cec3345",
+      "normalized_claim_hash": "4b8e7b132cec3345f0ed7745fa88150880b5b84d9d49cd1423edc9a5034a5845",
+      "ticker": "4414",
+      "company": "如興",
+      "path": "Pilot_Reports/Apparel Manufacturing/4414_如興.md",
+      "signal_type": "material_named_relationship",
+      "claim": "[[GAP]] — 主要客戶；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-180",
+      "author_batch_path": "audit-v5/semantic/author-180.json",
+      "author_batch_sha256": "a62c47ca59cb6acfc36ed12174f519b520c9b5475c3ee5c3487eae6b8ed2e67b",
+      "author_batch_observed_bytes_sha256": "a62c47ca59cb6acfc36ed12174f519b520c9b5475c3ee5c3487eae6b8ed2e67b",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。",
+      "gap_types": [
+        "period",
+        "customer_snapshot"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024年1至11月GAP為前五大客戶，占營收19%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-cfba58085567"
+          ],
+          "reason": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。"
+        },
+        {
+          "text": "目前主要客戶身份與期間",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-cfba58085567"
+          ],
+          "reason": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。"
+        }
+      ],
+      "proposed_text": "如興2024年1至11月客戶圖列GAP為前五大客戶，營收占比19%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-cfba58085567",
+          "locator": "PDF實體7頁（印刷6）前五大客戶圖；畫面核對",
+          "period_binding": "2024-12簡報；2024年1至11月",
+          "url": "https://mopsov.twse.com.tw/nas/STR/441420241224M001.pdf",
+          "title": "正式PDF檢視：如興",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ac0265632d0f4015bb496983b80b47bad6648e612e7f6a5b4afd58ec00b67937",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-cfba58085567.md",
+          "note": "客戶表確實有具名關係，並非單純logo；但这是2024年前11月快照，未取得2026客戶表，不以舊前五名直接定目前主要關係。",
+          "accessed_at": "2026-10-06T00:28:29.922872+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2884:identity_changing_event:f537d8ed70d49074",
+      "normalized_claim_hash": "f537d8ed70d490746a3a2dd2266b484bbd6b7c647250cf1be2ec8ad188a50831",
+      "ticker": "2884",
+      "company": "玉山金",
+      "path": "Pilot_Reports/Banks - Regional/2884_玉山金.md",
+      "signal_type": "identity_changing_event",
+      "claim": "其他子公司包括[[玉山證券]]及[[玉山投信]] (2025 年收購[[保德信投信]]後更名)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-189",
+      "author_batch_path": "audit-v5/semantic/author-189.json",
+      "author_batch_sha256": "094cd0ba7b30f9979e37ee2a825a1832f549bbeffe76c5ca8fce50ce34f9cd5c",
+      "author_batch_observed_bytes_sha256": "094cd0ba7b30f9979e37ee2a825a1832f549bbeffe76c5ca8fce50ce34f9cd5c",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "新公開說明書同時載子公司名單、收購91.20%與2025年7月交割及改名，主體與時點明确。未把簽約或董事會通過當成交割。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "玉山證券及投信子公司",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-358960df5b12"
+          ],
+          "reason": "新公開說明書同時載子公司名單、收購91.20%與2025年7月交割及改名，主體與時點明确。未把簽約或董事會通過當成交割。"
+        },
+        {
+          "text": "2025收購保德信投信後更名",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-358960df5b12"
+          ],
+          "reason": "新公開說明書同時載子公司名單、收購91.20%與2025年7月交割及改名，主體與時點明确。未把簽約或董事會通過當成交割。"
+        }
+      ],
+      "proposed_text": "玉山金2026公開說明書載旗下玉山證券、玉山投信，後者由2025年7月完成收購保德信投信後更名。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-358960df5b12",
+          "locator": "PDF實體1、7、17頁",
+          "period_binding": "2026-07-22公開說明書；2025-07-01收購交割",
+          "url": "https://www.esunbank.com/zh-tw/-/media/ESUNFHC/Files/Investor-Relations/mna/mna08_2026Prospectus.pdf",
+          "title": "正式PDF檢視：玉山金",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "926f1f871a294702d3e4f5e4d89cf5aeb5e64808593efa2d99b95ed7375388fa",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-358960df5b12.md",
+          "note": "新公開說明書同時載子公司名單、收購91.20%與2025年7月交割及改名，主體與時點明确。未把簽約或董事會通過當成交割。",
+          "accessed_at": "2026-10-06T00:28:30.045138+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2897:identity_changing_event:6d5aa86c6d912f37",
+      "normalized_claim_hash": "6d5aa86c6d912f379393b3b233d2176ba51c232fe6b74114a0bf46dfb06476af",
+      "ticker": "2897",
+      "company": "王道銀行",
+      "path": "Pilot_Reports/Banks - Regional/2897_王道銀行.md",
+      "signal_type": "identity_changing_event",
+      "claim": "[[王道商業銀行]] (2897) 前身為[[台灣工業銀行]]，2017 年改制為商業銀行並更名。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-190",
+      "author_batch_path": "audit-v5/semantic/author-190.json",
+      "author_batch_sha256": "558018ab522b4881c61de2052780d2f84804b721e892c4b052a46c54f44a95f9",
+      "author_batch_observed_bytes_sha256": "558018ab522b4881c61de2052780d2f84804b721e892c4b052a46c54f44a95f9",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "台灣工業銀行前身",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c17e74b54c4c",
+            "s-6e3865f49d70",
+            "s-eb675491a6df"
+          ],
+          "reason": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。"
+        },
+        {
+          "text": "2017正式改制商業銀行並更名",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c17e74b54c4c",
+            "s-6e3865f49d70",
+            "s-eb675491a6df"
+          ],
+          "reason": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。"
+        }
+      ],
+      "proposed_text": "王道銀行官網載前身台灣工業銀行，2017年1月正式改制並更名為王道商業銀行。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-c17e74b54c4c",
+          "locator": "PDF實體1、7、8頁",
+          "period_binding": "實際2015年報；2016-05-06刊印、轉制計畫",
+          "url": "https://www.o-bank.com/-/media/D2D3D45E89C848EFA8194480355ED7BF.pdf",
+          "title": "正式PDF檢視：王道銀行",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "2d319ee7697d6a2082aa413c3b907442a95aed9b9a1979b9380eca045f7990df",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-c17e74b54c4c.md",
+          "note": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。",
+          "accessed_at": "2026-10-06T00:28:30.845541+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        },
+        {
+          "source_id": "s-6e3865f49d70",
+          "locator": "HTML關於我們正文",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.o-bank.com/zh-TW/about/aboutmain",
+          "title": "關於我們 - O-Bank 王道銀行",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f2e0dfd1392dcff21a2a921b74575ae290f5fcc36e363fdf51c6cc15bbf3853a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-6e3865f49d70.md",
+          "note": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。",
+          "accessed_at": "2026-10-06T01:01:04.232909+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        },
+        {
+          "source_id": "s-eb675491a6df",
+          "locator": "HTML大事紀2017.01條目",
+          "period_binding": "2017-01歷史事件；2026-10-06檢視",
+          "url": "https://www.o-bank.com/zh-tw/about/aboutmain/about-announcement",
+          "title": "大事紀 - O-Bank 王道銀行",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "3dd861a55ee460424ae79a6616b5ed1df550e51ed9603f6d286bb373c6c34626",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-eb675491a6df.md",
+          "note": "原PDF僅是2015計畫、2016出版，不能單独支持2017完成；另讀現行官網的關於頁與2017.01里程碑補足實際發生與名稱。",
+          "accessed_at": "2026-10-06T01:01:04.233478+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3652:identity_changing_event:59acbb960f3cd20b",
+      "normalized_claim_hash": "59acbb960f3cd20b4a66a799d5496097dc08e32972599d6a2a2d529d0be383cc",
+      "ticker": "3652",
+      "company": "精聯",
+      "path": "Pilot_Reports/Computer Hardware/3652_精聯.md",
+      "signal_type": "identity_changing_event",
+      "claim": "精技電腦 (2414) — 原分割母公司",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-208",
+      "author_batch_path": "audit-v5/semantic/author-208.json",
+      "author_batch_sha256": "58c979b93df32d44c263b357e514525966a17cc1d440126ff439496448a5170e",
+      "author_batch_observed_bytes_sha256": "58c979b93df32d44c263b357e514525966a17cc1d440126ff439496448a5170e",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "精聯文件明載在精技母公司的自動資料收集事業群紀事与分割議案；另用精技正式年報确认ticker身份，未把同名Unitech英文品牌混為另一法人。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "精技2414為精聯原分割母公司",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7a963b50f6b5",
+            "s-33affd0a1c9e"
+          ],
+          "reason": "精聯文件明載在精技母公司的自動資料收集事業群紀事与分割議案；另用精技正式年報确认ticker身份，未把同名Unitech英文品牌混為另一法人。"
+        }
+      ],
+      "proposed_text": "精聯年報記載其源自精技電腦（2414）自動資料收集產品事業群的分割。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-7a963b50f6b5",
+          "locator": "PDF實體8頁（印刷4）設立及母公司事業群沿革",
+          "period_binding": "精聯年報；2007分割決議及2008設立歷史",
+          "url": "https://www.ute.com/common/frontend/PDFread?path=/uploads/images/Investor/105%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf&name=",
+          "title": "正式PDF檢視：精聯",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "8aeb8d853cdc1c67c2c66bc6e78f2e9abb9fad95143e2d039484b290a90f8512",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-7a963b50f6b5.md",
+          "note": "精聯文件明載在精技母公司的自動資料收集事業群紀事与分割議案；另用精技正式年報确认ticker身份，未把同名Unitech英文品牌混為另一法人。",
+          "accessed_at": "2026-10-06T00:28:30.996174+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        },
+        {
+          "source_id": "s-33affd0a1c9e",
+          "locator": "PDF實體1頁2414精技身份",
+          "period_binding": "2024精技年報；2025-05-15刊印",
+          "url": "https://www.unitech.com.tw/upload/InvestorAnnualReport/%E7%B2%BE%E6%8A%80_2024%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "正式PDF檢視：精聯",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "3c152b79b3f62444227a06cf12987da79abe76f56418d6f0176bf9c6dc2b1e5a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-33affd0a1c9e.md",
+          "note": "精聯文件明載在精技母公司的自動資料收集事業群紀事与分割議案；另用精技正式年報确认ticker身份，未把同名Unitech英文品牌混為另一法人。",
+          "accessed_at": "2026-10-06T00:28:31.239715+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6199:material_named_relationship:b12cc71712380247",
+      "normalized_claim_hash": "b12cc7171238024714f190672d54e72335cfee52097de9defb78f13624c0d296",
+      "ticker": "6199",
+      "company": "天品",
+      "path": "Pilot_Reports/Computer Hardware/6199_天品.md",
+      "signal_type": "material_named_relationship",
+      "claim": "憑藉深厚的[[半導體]]清洗經驗與高階無塵室設備，天品成功打入國際知名[[AI]]晶片(如Rubin)[[散熱]]系統([[水冷]]/液冷)的清洗服務供應鏈，打造出第二成長曲線。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-210",
+      "author_batch_path": "audit-v5/semantic/author-210.json",
+      "author_batch_sha256": "aedd1a692aaf3daa5491e4685855634d563f216571bf809fb4547a5da674c2eb",
+      "author_batch_observed_bytes_sha256": "aedd1a692aaf3daa5491e4685855634d563f216571bf809fb4547a5da674c2eb",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。",
+      "gap_types": [
+        "qualification_vs_adoption",
+        "named_platform_contract",
+        "growth_outcome",
+        "mixed_temporal_template"
+      ],
+      "component_assessments": [
+        {
+          "text": "奈科子公司液冷清洗業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4a00fd47d7d0"
+          ],
+          "reason": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。"
+        },
+        {
+          "text": "月別AI清洗收入",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4a00fd47d7d0"
+          ],
+          "reason": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。"
+        },
+        {
+          "text": "Rubin潔淨規格與研發介紹",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4a00fd47d7d0"
+          ],
+          "reason": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。"
+        },
+        {
+          "text": "已成功交付Rubin供應鏈的客戶／訂單證據",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-4a00fd47d7d0"
+          ],
+          "reason": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。"
+        },
+        {
+          "text": "第二成長曲線的穩定業績定義",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-4a00fd47d7d0"
+          ],
+          "reason": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。"
+        }
+      ],
+      "proposed_text": "天品2026簡報列子公司奈科液冷清洗業務及月別AI清洗收入，並介紹Rubin相關潔淨要求；具名平台採用仍待核實。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-4a00fd47d7d0",
+          "locator": "PDF實體7、16、19、20頁；營運與Rubin頁畫面核對",
+          "period_binding": "2026-04簡報；2025及2026月別營運，部分沿用明年2026文字",
+          "url": "https://mopsov.twse.com.tw/nas/STR/619920260415M001.pdf",
+          "title": "正式PDF檢視：天品",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "a82c3c988f4f67b7399b9b20036234799a3abbd5bd32de412287dd2d78a6a478",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-4a00fd47d7d0.md",
+          "note": "源文有具體清洗業務與收入圖，不能说只有概念；但Rubin頁談規格與技術能力，未明示已获該平台正式採用訂單。第二成長曲線屬作者分析，不能以單月收入突增直接確定長期獲利。",
+          "accessed_at": "2026-10-06T00:28:32.401466+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3624:material_named_relationship:ac1a104f423eebd9",
+      "normalized_claim_hash": "ac1a104f423eebd92a286b1ca6d71942b21a775f73f24be379ed1868a6172490",
+      "ticker": "3624",
+      "company": "光頡",
+      "path": "Pilot_Reports/Electronic Components/3624_光頡.md",
+      "signal_type": "material_named_relationship",
+      "claim": "3. **車用市場**: 通過 [[AEC-Q200]] 認證，打入 Tier 1 車廠與 [[電動車]] 供應鏈 (OBC、BMS 應用)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-231",
+      "author_batch_path": "audit-v5/semantic/author-231.json",
+      "author_batch_sha256": "3ada4219a41d4e3a3f1d16a4dabafd487842dc4128eeacae09625f4790e598aa",
+      "author_batch_observed_bytes_sha256": "3ada4219a41d4e3a3f1d16a4dabafd487842dc4128eeacae09625f4790e598aa",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。",
+      "gap_types": [
+        "product_qualification_vs_company_certification",
+        "tier_role",
+        "application_binding"
+      ],
+      "component_assessments": [
+        {
+          "text": "汽車及電動車產品應用",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-d601d1fa262b"
+          ],
+          "reason": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。"
+        },
+        {
+          "text": "歐美車廠供應鏈Tier1進廠稽核",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-d601d1fa262b"
+          ],
+          "reason": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。"
+        },
+        {
+          "text": "AEC-Q200產品符合規範之計畫",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-d601d1fa262b"
+          ],
+          "reason": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。"
+        },
+        {
+          "text": "公司本身AEC認證已完成",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-d601d1fa262b"
+          ],
+          "reason": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。"
+        },
+        {
+          "text": "直接Tier1車廠及OBC/BMS具名量產",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-d601d1fa262b"
+          ],
+          "reason": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。"
+        }
+      ],
+      "proposed_text": "光頡2021報告列車用與電動車產品應用及Tier1供應鏈客戶稽核，並列AEC-Q200規格導入計畫。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-d601d1fa262b",
+          "locator": "PDF實體54、57、60頁；Tier1稽核段畫面",
+          "period_binding": "2021永續報告",
+          "url": "https://www.viking.com.tw/Templates/att/ESGreport2021new.pdf?lng=zh-CN",
+          "title": "正式PDF檢視：光頡",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ae4db073ee4c05e5dd4aa74568650763189fd03022c95cfcf7ee4bbfed422f5e",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-d601d1fa262b.md",
+          "note": "來源說供應鏈Tier1親自稽核，不是稱該Tier1為汽車OEM；開發符合AEC-Q200規格的目標亦非全公司認證完成。圖文未直接支持OBC/BMS兩項具體供貨。",
+          "accessed_at": "2026-10-06T00:28:32.637105+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6742:material_named_relationship:42dab5023428fcce",
+      "normalized_claim_hash": "42dab5023428fcce6f9a90839fe65e7975c737a16f4de7977a227efa80fc5919",
+      "ticker": "6742",
+      "company": "澤米",
+      "path": "Pilot_Reports/Electronic Components/6742_澤米.md",
+      "signal_type": "material_named_relationship",
+      "claim": "業務結構與動能：(1) AR/VR 光學元件 — 投入光波導 (LOE) 顯示元件鍍膜技術，掌握奈米級光學薄膜製程，成功打入 [[Meta]] AR 眼鏡供應鏈，供應繞射/光導光學元件鍍膜；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-236",
+      "author_batch_path": "audit-v5/semantic/author-236.json",
+      "author_batch_sha256": "e55ed8f6a23399d533f2a48b1f11b9ecb630bb0a595d23db6697d8851b2e2d2d",
+      "author_batch_observed_bytes_sha256": "e55ed8f6a23399d533f2a48b1f11b9ecb630bb0a595d23db6697d8851b2e2d2d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T01:03:50.113119Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。",
+      "gap_types": [
+        "named_customer",
+        "sampling_vs_mass_production",
+        "process_scale",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "AR/VR鍍膜、DOE及LOE元件研發",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd7b6993539c"
+          ],
+          "reason": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。"
+        },
+        {
+          "text": "LOE冷加工持續送樣",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd7b6993539c"
+          ],
+          "reason": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。"
+        },
+        {
+          "text": "Meta具名AR眼鏡供應關係",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-bd7b6993539c"
+          ],
+          "reason": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。"
+        },
+        {
+          "text": "送樣已成量產採用",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-bd7b6993539c"
+          ],
+          "reason": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。"
+        },
+        {
+          "text": "奈米製程具體尺度",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-bd7b6993539c"
+          ],
+          "reason": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。"
+        }
+      ],
+      "proposed_text": "澤米2022年12月簡報列AR/VR鍍膜與LOE元件研發，並稱LOE冷加工開發案持續送樣，未在該段具名Meta。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-bd7b6993539c",
+          "locator": "PDF實體6、10、16頁；10頁畫面核對",
+          "period_binding": "2022-12簡報；2023/2024為研發規劃",
+          "url": "https://emops.twse.com.tw/nas/STR/674220221209E001.pdf",
+          "title": "正式PDF檢視：澤米",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "390b33ef217b357837b32493f95b3ebe5a24ab1f052a54d5dd97cadb19242962",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-005/s-bd7b6993539c.md",
+          "note": "文件在LOE項明寫開發案持續送樣，品牌大廠未具名；建立大量生產能力亦不能直接證某特定品牌採用。不能從AR/VR業務類別推入Meta供應鏈。",
+          "accessed_at": "2026-10-06T00:28:32.877104+00:00",
+          "inspected_at": "2026-10-06T01:03:50.113119Z"
+        }
+      ]
+    }
+  ]
+}

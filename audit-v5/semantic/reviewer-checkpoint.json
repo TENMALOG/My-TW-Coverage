@@ -1,15 +1,15 @@
 {
   "schema": "manual-independent-review-checkpoint-1",
-  "updated_at": "2026-10-06T00:58:48.649996Z",
+  "updated_at": "2026-10-06T01:03:50.113119Z",
   "queue_claims": 1399,
-  "independently_reviewed": 87,
-  "remaining_review": 1312,
-  "unreviewed": 1312,
-  "adjudication_pending": 71,
-  "total_pending_resolution": 1383,
+  "independently_reviewed": 112,
+  "remaining_review": 1287,
+  "unreviewed": 1287,
+  "adjudication_pending": 90,
+  "total_pending_resolution": 1377,
   "finalised_partial": 2,
-  "final_accepted": 14,
-  "latest_batch": "reviewer-004",
+  "final_accepted": 20,
+  "latest_batch": "reviewer-005",
   "author_ledgers_final_state_policy": "All 1399 author final_state / independent_review fields remain null. Reviewer outcomes live in separate records.",
   "reviewed_keys": [
     {
@@ -43,6 +43,14 @@
     {
       "claim_id": "1338:objective_ranking_or_market_share:666e6bac07f9b5a5",
       "normalized_claim_hash": "666e6bac07f9b5a52d7574b15e94527d46897600319f4ce5b5ba4f38d99dc184"
+    },
+    {
+      "claim_id": "1440:objective_ranking_or_market_share:95d130b7d3a12dab",
+      "normalized_claim_hash": "95d130b7d3a12dab6534c9f1a2a6673994b27b6f83854c66524b704bbe428716"
+    },
+    {
+      "claim_id": "1447:objective_ranking_or_market_share:2c3ecc5fc9630935",
+      "normalized_claim_hash": "2c3ecc5fc9630935ed858fbb44097945d58dd79c33f3820ca29ca1c6d741c1fd"
     },
     {
       "claim_id": "1536:objective_ranking_or_market_share:0a8bd467b7db2e7b",
@@ -157,6 +165,10 @@
       "normalized_claim_hash": "feb61c76bb10402ce09a575330d3125049b165ed8cbce6fbc8c759eb5bd2ae61"
     },
     {
+      "claim_id": "2412:objective_ranking_or_market_share:de26eb6e820bab9c",
+      "normalized_claim_hash": "de26eb6e820bab9c4657fcc09166c191043bf96ef77a034a76e0e8b4042900ad"
+    },
+    {
       "claim_id": "2450:objective_ranking_or_market_share:d4c4eba514df929a",
       "normalized_claim_hash": "d4c4eba514df929a4f67e8f51565174ec311b012815a9a1c25d33312001a0c6a"
     },
@@ -209,6 +221,10 @@
       "normalized_claim_hash": "bea17a5f1d280fb1bfb92a2865b5b54687be970f9d442ff140abad84cf195f88"
     },
     {
+      "claim_id": "2884:identity_changing_event:f537d8ed70d49074",
+      "normalized_claim_hash": "f537d8ed70d490746a3a2dd2266b484bbd6b7c647250cf1be2ec8ad188a50831"
+    },
+    {
       "claim_id": "2890:objective_ranking_or_market_share:2ec04a9365b56c0f",
       "normalized_claim_hash": "2ec04a9365b56c0f187be190c9683db29e9f223aeb67a82c42a0a82a49709502"
     },
@@ -223,6 +239,10 @@
     {
       "claim_id": "2892:objective_ranking_or_market_share:e8187bb231e1e142",
       "normalized_claim_hash": "e8187bb231e1e142968c4ab0b59bca8adfe6e4b743f1d0301d86db3726df5c8d"
+    },
+    {
+      "claim_id": "2897:identity_changing_event:6d5aa86c6d912f37",
+      "normalized_claim_hash": "6d5aa86c6d912f379393b3b233d2176ba51c232fe6b74114a0bf46dfb06476af"
     },
     {
       "claim_id": "3049:objective_ranking_or_market_share:6538e9d4932d6c19",
@@ -273,8 +293,44 @@
       "normalized_claim_hash": "eb582bc6e017b55fa30d99d28db866ed1e7264e2e82975624b676e9c1460816a"
     },
     {
+      "claim_id": "3527:objective_ranking_or_market_share:39a26c1aea2cd59c",
+      "normalized_claim_hash": "39a26c1aea2cd59c2248e3aae35ceaca7351c4c85446fb508c4f7e3447e7e7cb"
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:3863a18a0b35d83b",
+      "normalized_claim_hash": "3863a18a0b35d83b76f856d522c7f1a0ac19764fb974096d5b38a7b3bc792a08"
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:b0c570c3eee08a0b",
+      "normalized_claim_hash": "b0c570c3eee08a0b7b246648b0c86e3c43a11ce2267fb2e1faa30fbb99a313b0"
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:4e7dfe3251cf2110",
+      "normalized_claim_hash": "4e7dfe3251cf21104fb6e3956c9a8356a1887c74a4d01f98690a3a5110735b7e"
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:862c3863436e97cd",
+      "normalized_claim_hash": "862c3863436e97cdd152cf30d81dd814dcc38b78be7e1ae63256abac183e56a4"
+    },
+    {
+      "claim_id": "3624:material_named_relationship:ac1a104f423eebd9",
+      "normalized_claim_hash": "ac1a104f423eebd92a286b1ca6d71942b21a775f73f24be379ed1868a6172490"
+    },
+    {
+      "claim_id": "3652:identity_changing_event:59acbb960f3cd20b",
+      "normalized_claim_hash": "59acbb960f3cd20b4a66a799d5496097dc08e32972599d6a2a2d529d0be383cc"
+    },
+    {
       "claim_id": "3704:objective_ranking_or_market_share:f2f3c18024370d07",
       "normalized_claim_hash": "f2f3c18024370d07c4dbf6fe60f4760f8c233c4b506fbf2d7d2d3fb1aa9a9056"
+    },
+    {
+      "claim_id": "4414:material_named_relationship:4b8e7b132cec3345",
+      "normalized_claim_hash": "4b8e7b132cec3345f0ed7745fa88150880b5b84d9d49cd1423edc9a5034a5845"
+    },
+    {
+      "claim_id": "4414:material_named_relationship:d5be7e550754288b",
+      "normalized_claim_hash": "d5be7e550754288b3c2f5f6122b83ea082943defda58b7e415c11a2be5b682f0"
     },
     {
       "claim_id": "4557:objective_ranking_or_market_share:c1b4ac853233bb38",
@@ -293,6 +349,10 @@
       "normalized_claim_hash": "f94ffe7b1a69c19be166e1220b00fb5403c38ef87eee1c981786282d0f72cda3"
     },
     {
+      "claim_id": "5530:objective_ranking_or_market_share:eb56e880bb5d11f6",
+      "normalized_claim_hash": "eb56e880bb5d11f64f08da3130f0a3e4ee419a6db4c1a7d4ae125803715626d9"
+    },
+    {
       "claim_id": "6121:objective_ranking_or_market_share:6289cc549c3bc5c6",
       "normalized_claim_hash": "6289cc549c3bc5c6b69bba7eab4c489ff450456a576af2cbc52c33223e11a048"
     },
@@ -301,8 +361,20 @@
       "normalized_claim_hash": "f350aa9fa22fba0fcc18fbc43f681249a38413309e34f5ca33d22809d1842402"
     },
     {
+      "claim_id": "6146:objective_ranking_or_market_share:a90215729c3e9aa9",
+      "normalized_claim_hash": "a90215729c3e9aa9dba0a19419924b4e61a959949621a488171e72acddd1c30f"
+    },
+    {
+      "claim_id": "6163:objective_ranking_or_market_share:5fe18513d52e2e8a",
+      "normalized_claim_hash": "5fe18513d52e2e8a9cc464851c2353095bf345c8bc44833ad2724f2c0ee07a83"
+    },
+    {
       "claim_id": "6175:objective_ranking_or_market_share:0a838c414def37cd",
       "normalized_claim_hash": "0a838c414def37cd2d26463d31320793de3dd77687152b5f2b1cf7f3d980a941"
+    },
+    {
+      "claim_id": "6199:material_named_relationship:b12cc71712380247",
+      "normalized_claim_hash": "b12cc7171238024714f190672d54e72335cfee52097de9defb78f13624c0d296"
     },
     {
       "claim_id": "6220:objective_ranking_or_market_share:08b79d0e2afacd31",
@@ -317,8 +389,20 @@
       "normalized_claim_hash": "58a28527f37f9002884e3866e692daf8c8c0bef6a7e9a02f16fbd43ce55ffad4"
     },
     {
+      "claim_id": "6434:objective_ranking_or_market_share:4cdefa173c0d7b8e",
+      "normalized_claim_hash": "4cdefa173c0d7b8e5070c80c83d98427e5236fc6733833b0ebba4180a2d68c9f"
+    },
+    {
       "claim_id": "6449:objective_ranking_or_market_share:4466a7526d81896b",
       "normalized_claim_hash": "4466a7526d81896bed7934691ab0f3394ecff1705235e017e6123f8af9310d24"
+    },
+    {
+      "claim_id": "6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd",
+      "normalized_claim_hash": "0f29d3a1cca9dfcd17bd199741287a9b9e9539bd11b955e2af1e2f92e8a7ca3b"
+    },
+    {
+      "claim_id": "6742:material_named_relationship:42dab5023428fcce",
+      "normalized_claim_hash": "42dab5023428fcce6f9a90839fe65e7975c737a16f4de7977a227efa80fc5919"
     },
     {
       "claim_id": "6757:objective_ranking_or_market_share:1cb894214a9355a5",
@@ -345,8 +429,24 @@
       "normalized_claim_hash": "b159b59617de6cf847a83eef43be82e5946ac6780af133cbd8f067802560e9cc"
     },
     {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "normalized_claim_hash": "5930424229e429b13a6ec481aa1ab24f1d57a83e6a85e7c8cf5a7e6c41fc8287"
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:53be25f984132f29",
+      "normalized_claim_hash": "53be25f984132f291a68a7798674365c8084f99a1c296f9f517d8612c3bbd54a"
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:e32635bf5c906e45",
+      "normalized_claim_hash": "e32635bf5c906e45ed0229d067e1ec6797c11107aea742f49b772a1c0ccb2801"
+    },
+    {
       "claim_id": "8240:objective_ranking_or_market_share:ad10cdcb6cd24cc2",
       "normalized_claim_hash": "ad10cdcb6cd24cc212547c258152dbbc2f8451037ac866eb77cbfc46f8a94f12"
+    },
+    {
+      "claim_id": "8341:objective_ranking_or_market_share:8859f2ab9e89b9b4",
+      "normalized_claim_hash": "8859f2ab9e89b9b4c14081b04edf521a5c5c5b457e153cd54080905940d58327"
     },
     {
       "claim_id": "8487:objective_ranking_or_market_share:14898f3649f7c437",
@@ -858,29 +958,162 @@
       "author_decision": "ACCEPTED",
       "reviewer_decision": "PARTIALLY_SUPPORTED",
       "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6655:objective_ranking_or_market_share:0f29d3a1cca9dfcd",
+      "normalized_claim_hash": "0f29d3a1cca9dfcd17bd199741287a9b9e9539bd11b955e2af1e2f92e8a7ca3b",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "5530:objective_ranking_or_market_share:eb56e880bb5d11f6",
+      "normalized_claim_hash": "eb56e880bb5d11f64f08da3130f0a3e4ee419a6db4c1a7d4ae125803715626d9",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3527:objective_ranking_or_market_share:39a26c1aea2cd59c",
+      "normalized_claim_hash": "39a26c1aea2cd59c2248e3aae35ceaca7351c4c85446fb508c4f7e3447e7e7cb",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PERIOD_UNRESOLVED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:3863a18a0b35d83b",
+      "normalized_claim_hash": "3863a18a0b35d83b76f856d522c7f1a0ac19764fb974096d5b38a7b3bc792a08",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3545:objective_ranking_or_market_share:b0c570c3eee08a0b",
+      "normalized_claim_hash": "b0c570c3eee08a0b7b246648b0c86e3c43a11ce2267fb2e1faa30fbb99a313b0",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "8131:objective_ranking_or_market_share:5930424229e429b1",
+      "normalized_claim_hash": "5930424229e429b13a6ec481aa1ab24f1d57a83e6a85e7c8cf5a7e6c41fc8287",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:53be25f984132f29",
+      "normalized_claim_hash": "53be25f984132f291a68a7798674365c8084f99a1c296f9f517d8612c3bbd54a",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "8162:objective_ranking_or_market_share:e32635bf5c906e45",
+      "normalized_claim_hash": "e32635bf5c906e45ed0229d067e1ec6797c11107aea742f49b772a1c0ccb2801",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PERIOD_UNRESOLVED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:862c3863436e97cd",
+      "normalized_claim_hash": "862c3863436e97cdd152cf30d81dd814dcc38b78be7e1ae63256abac183e56a4",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3576:objective_ranking_or_market_share:4e7dfe3251cf2110",
+      "normalized_claim_hash": "4e7dfe3251cf21104fb6e3956c9a8356a1887c74a4d01f98690a3a5110735b7e",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6146:objective_ranking_or_market_share:a90215729c3e9aa9",
+      "normalized_claim_hash": "a90215729c3e9aa9dba0a19419924b4e61a959949621a488171e72acddd1c30f",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6434:objective_ranking_or_market_share:4cdefa173c0d7b8e",
+      "normalized_claim_hash": "4cdefa173c0d7b8e5070c80c83d98427e5236fc6733833b0ebba4180a2d68c9f",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "1440:objective_ranking_or_market_share:95d130b7d3a12dab",
+      "normalized_claim_hash": "95d130b7d3a12dab6534c9f1a2a6673994b27b6f83854c66524b704bbe428716",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "1447:objective_ranking_or_market_share:2c3ecc5fc9630935",
+      "normalized_claim_hash": "2c3ecc5fc9630935ed858fbb44097945d58dd79c33f3820ca29ca1c6d741c1fd",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "4414:material_named_relationship:d5be7e550754288b",
+      "normalized_claim_hash": "d5be7e550754288b3c2f5f6122b83ea082943defda58b7e415c11a2be5b682f0",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PERIOD_UNRESOLVED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "4414:material_named_relationship:4b8e7b132cec3345",
+      "normalized_claim_hash": "4b8e7b132cec3345f0ed7745fa88150880b5b84d9d49cd1423edc9a5034a5845",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PERIOD_UNRESOLVED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6199:material_named_relationship:b12cc71712380247",
+      "normalized_claim_hash": "b12cc7171238024714f190672d54e72335cfee52097de9defb78f13624c0d296",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3624:material_named_relationship:ac1a104f423eebd9",
+      "normalized_claim_hash": "ac1a104f423eebd92a286b1ca6d71942b21a775f73f24be379ed1868a6172490",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6742:material_named_relationship:42dab5023428fcce",
+      "normalized_claim_hash": "42dab5023428fcce6f9a90839fe65e7975c737a16f4de7977a227efa80fc5919",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
     }
   ],
   "reviewer_decision_counts": {
-    "PARTIALLY_SUPPORTED": 56,
-    "ACCEPTED": 15,
+    "PARTIALLY_SUPPORTED": 71,
+    "ACCEPTED": 21,
     "UNSUPPORTED": 1,
-    "PERIOD_UNRESOLVED": 14,
+    "PERIOD_UNRESOLVED": 18,
     "UNKNOWN_AFTER_RESEARCH": 1
   },
   "final_state_counts": {
-    "ESCALATED_REVIEW_DISAGREEMENT": 71,
+    "ESCALATED_REVIEW_DISAGREEMENT": 90,
     "PARTIALLY_SUPPORTED": 2,
-    "ACCEPTED": 14
+    "ACCEPTED": 20
   },
   "author_accepted_review": {
     "total": 111,
-    "reviewed": 78,
-    "remaining": 33,
+    "reviewed": 103,
+    "remaining": 8,
     "reviewer_decisions": {
-      "PARTIALLY_SUPPORTED": 50,
+      "PARTIALLY_SUPPORTED": 65,
       "UNKNOWN_AFTER_RESEARCH": 1,
-      "ACCEPTED": 14,
-      "PERIOD_UNRESOLVED": 13
+      "ACCEPTED": 20,
+      "PERIOD_UNRESOLVED": 17
     }
   }
 }
