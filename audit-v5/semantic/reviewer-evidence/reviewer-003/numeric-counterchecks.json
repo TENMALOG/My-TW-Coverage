@@ -1,0 +1,17 @@
+{
+  "schema": "reviewer-text-layer-counterchecks-1",
+  "checked_at": "2026-10-06T00:48:02.018867Z",
+  "coverage": "Original-claim percentage tokens with numeric boundaries. Not a verification of every number in author rationale. Semantic interpretation remains manual.",
+  "items": [
+    {
+      "claim_id": "2820:objective_ranking_or_market_share:7eeb0fcbdc78b0fb",
+      "source_id": "s-019e67461db0",
+      "source_sha256": "894fb85781c74980c329d297cc0be9ff96fff2734c53d771f4f97803cb21ae1a",
+      "label": "standalone percentage 28%",
+      "regex": "(?<![\\d.])28%(?!\\d)",
+      "count": 0,
+      "page_hits": [],
+      "interpretation_limit": "Text-layer diagnostic only; counts never prove issuer/relationship/period binding. Zero does not disprove a claim."
+    }
+  ]
+}
