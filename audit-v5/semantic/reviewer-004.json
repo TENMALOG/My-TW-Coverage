@@ -1,0 +1,1998 @@
+{
+  "schema": "semantic-manual-independent-review-2",
+  "batch_id": "reviewer-004",
+  "reviewer_role": "independent_reviewer",
+  "reviewer_identity": "Codex review session; distinct from author session",
+  "model_identifier": "Not exposed as a verifiable runtime model ID; no API batch or response ID claimed",
+  "reviewed_at": "2026-10-06T00:58:48.649996Z",
+  "source_commit": "83a8436187d1fd8d2600a1e0edea1de61b9a8c9a",
+  "policy_version": "semantic-high-1",
+  "risk_policy_version": "risk-3-calibrated",
+  "independence": {
+    "separate_author_reviewer": true,
+    "blinded": false,
+    "note": "Author labels and handoff warnings known. Decisions based on independently read source content, not author rationale."
+  },
+  "method": "Manual component review using fresh primary-source retrieval and explicitly identified historical caches; PDF text/context and targeted page rendering; no inference from substring counts or network status",
+  "scope_note": "Author ACCEPTED review, inventory positions 51 to 75; 25 unique keys; batch <=25.",
+  "review_count": 25,
+  "evidence_manifest": "audit-v5/semantic/reviewer-evidence/reviewer-004/manifest.json",
+  "evidence_manifest_sha256": "72dfd35c5fd700fcda37306eec3c90373ddb5f4e7d13be9e3f2548a167495b28",
+  "counterchecks": "audit-v5/semantic/reviewer-evidence/reviewer-004/numeric-counterchecks.json",
+  "counterchecks_sha256": "cee708ba23463f3e1083e539827928f9333774e7387ad385490189c7384c7794",
+  "decision_counts": {
+    "PARTIALLY_SUPPORTED": 16,
+    "ACCEPTED": 6,
+    "PERIOD_UNRESOLVED": 3
+  },
+  "final_state_counts": {
+    "ESCALATED_REVIEW_DISAGREEMENT": 19,
+    "ACCEPTED": 6
+  },
+  "items": [
+    {
+      "claim_id": "2385:objective_ranking_or_market_share:57a3aa507e64e4f6",
+      "normalized_claim_hash": "57a3aa507e64e4f69c0966d98da76e0af10853c6651335420c7c1aec6846b1a2",
+      "ticker": "2385",
+      "company": "群光",
+      "path": "Pilot_Reports/Computer Hardware/2385_群光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**群光** (筆電鍵盤全球第一、桌機鍵盤/滑鼠)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-043",
+      "author_batch_path": "audit-v5/semantic/author-043.json",
+      "author_batch_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_batch_observed_bytes_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "商品表涵蓋所列輸入裝置，未找到鍵盤全球第一的可綁定比較；年報筆電電源第一屬群電，不可移為鍵盤名次。",
+      "gap_types": [
+        "product_specific_ranking"
+      ],
+      "component_assessments": [
+        {
+          "text": "筆電及桌機鍵盤、滑鼠產品",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "商品表涵蓋所列輸入裝置，未找到鍵盤全球第一的可綁定比較；年報筆電電源第一屬群電，不可移為鍵盤名次。"
+        },
+        {
+          "text": "筆電鍵盤全球第一",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-703e0562f2b8"
+          ],
+          "reason": "商品表涵蓋所列輸入裝置，未找到鍵盤全球第一的可綁定比較；年報筆電電源第一屬群電，不可移為鍵盤名次。"
+        }
+      ],
+      "proposed_text": "群光2024年報列筆電與桌上型鍵盤、滑鼠等輸入裝置。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-703e0562f2b8",
+          "locator": "PDF實體56、57、58頁",
+          "period_binding": "2024年報",
+          "url": "https://www.chicony.com/upload/2025_08_082/20250808095438mmszc3fnM1.pdf",
+          "title": "正式PDF檢視：群光",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "142fde64450b4ce3b785439799bb6260a822940c559609ca28f783a47b1d6349",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-703e0562f2b8.md",
+          "note": "商品表涵蓋所列輸入裝置，未找到鍵盤全球第一的可綁定比較；年報筆電電源第一屬群電，不可移為鍵盤名次。",
+          "accessed_at": "2026-10-06T00:27:58.853334+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2387:objective_ranking_or_market_share:fc8df196f3e558dc",
+      "normalized_claim_hash": "fc8df196f3e558dcaf6e8f31d51b2304ccbc34f1dfa4f3d39b6510ba4ef487f6",
+      "ticker": "2387",
+      "company": "精元",
+      "path": "Pilot_Reports/Computer Hardware/2387_精元.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "精元電腦 (2387，[[Sunrex Technology]]) 成立於 1975 年，總部位於台中，為全球最大筆記型電腦鍵盤製造商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-043",
+      "author_batch_path": "audit-v5/semantic/author-043.json",
+      "author_batch_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_batch_observed_bytes_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "1975創業",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e269c41d8f98",
+            "s-b43faeab677b"
+          ],
+          "reason": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。"
+        },
+        {
+          "text": "台中總部",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e269c41d8f98",
+            "s-b43faeab677b"
+          ],
+          "reason": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。"
+        },
+        {
+          "text": "官網自述世界第一大筆電鍵盤製造商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e269c41d8f98",
+            "s-b43faeab677b"
+          ],
+          "reason": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。"
+        }
+      ],
+      "proposed_text": "精元2024永續報告回溯1975創業、台中營運總部；其官網自述世界第一大筆電鍵盤製造商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-e269c41d8f98",
+          "locator": "PDF實體27、31頁",
+          "period_binding": "2024永續報告；2025-08-11發行；1975創業歷史",
+          "url": "https://www.sunrex.com.tw/uploads/files/shares/esg-report/ESG_report_2024TC.pdf",
+          "title": "正式PDF檢視：精元",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "8c5567b74069d04267e79d95250e5dd6e5b1962dd203079378e9943767a1e028",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-e269c41d8f98.md",
+          "note": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。",
+          "accessed_at": "2026-10-06T00:27:59.276732+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-b43faeab677b",
+          "locator": "HTML首頁公司介紹及頁尾地址",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.sunrex.com.tw/",
+          "title": "精元電腦股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "26f0983b9be46fc987606828f0af839a7fd99e38d0d04e3cda2e8a377c8b6487",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-b43faeab677b.md",
+          "note": "正式報告明載1975創立及台中營運總部，並區分1991法人設立日期；新官網仍載世界第一大。接受公司自述範圍，排名並非本次另作全球產量統計。",
+          "accessed_at": "2026-10-06T00:55:04.273164+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2387:objective_ranking_or_market_share:e5e02db27813e6d2",
+      "normalized_claim_hash": "e5e02db27813e6d28630ad467dbc4b948cb19494c18b2a0e3324e90384a8261a",
+      "ticker": "2387",
+      "company": "精元",
+      "path": "Pilot_Reports/Computer Hardware/2387_精元.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**精元** (全球最大筆電鍵盤製造商)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-043",
+      "author_batch_path": "audit-v5/semantic/author-043.json",
+      "author_batch_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_batch_observed_bytes_sha256": "dbd14d82e5074a64bb805ad239cfd8b99c0ffc5d0e7ee79e6ca750af461f30d5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "原句產品與排名的官方文字吻合，另讀本次官網仍作相同聲明；論文須標示為公司聲明而非獨立市場測量。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "公司自述世界第一大筆電鍵盤製造商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-e269c41d8f98",
+            "s-b43faeab677b"
+          ],
+          "reason": "原句產品與排名的官方文字吻合，另讀本次官網仍作相同聲明；論文須標示為公司聲明而非獨立市場測量。"
+        }
+      ],
+      "proposed_text": "精元官網及2024永續報告自述世界第一大筆電鍵盤製造商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-e269c41d8f98",
+          "locator": "PDF實體27、31頁",
+          "period_binding": "2024永續報告；2025-08-11發行",
+          "url": "https://www.sunrex.com.tw/uploads/files/shares/esg-report/ESG_report_2024TC.pdf",
+          "title": "正式PDF檢視：精元",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "8c5567b74069d04267e79d95250e5dd6e5b1962dd203079378e9943767a1e028",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-e269c41d8f98.md",
+          "note": "原句產品與排名的官方文字吻合，另讀本次官網仍作相同聲明；論文須標示為公司聲明而非獨立市場測量。",
+          "accessed_at": "2026-10-06T00:27:59.276732+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-b43faeab677b",
+          "locator": "HTML首頁公司介紹",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.sunrex.com.tw/",
+          "title": "精元電腦股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "26f0983b9be46fc987606828f0af839a7fd99e38d0d04e3cda2e8a377c8b6487",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-b43faeab677b.md",
+          "note": "原句產品與排名的官方文字吻合，另讀本次官網仍作相同聲明；論文須標示為公司聲明而非獨立市場測量。",
+          "accessed_at": "2026-10-06T00:55:04.273164+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6121:objective_ranking_or_market_share:6289cc549c3bc5c6",
+      "normalized_claim_hash": "6289cc549c3bc5c6b69bba7eab4c489ff450456a576af2cbc52c33223e11a048",
+      "ticker": "6121",
+      "company": "新普",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/6121_新普.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "新普科技股份有限公司 (6121) 是全球最大的筆記型電腦鋰離子電池模組製造商，市佔率極高(約每三台筆電就有一台使用新普電池)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-056",
+      "author_batch_path": "audit-v5/semantic/author-056.json",
+      "author_batch_sha256": "2a1efb7fa2aa93c52c1d43a1c530c5fb240e1cc38c29aeee811bf885a13cf0c0",
+      "author_batch_observed_bytes_sha256": "2a1efb7fa2aa93c52c1d43a1c530c5fb240e1cc38c29aeee811bf885a13cf0c0",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "正文直接給全球第一及每三台一台，並非作者臆測；但來源限2023，沒有本次時點的同口徑更新，保留歷史聲明不延伸為現行比率。",
+      "gap_types": [
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "2023報告自述NB電池组市占全球第一及每三台一台",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4a6738e46291"
+          ],
+          "reason": "正文直接給全球第一及每三台一台，並非作者臆測；但來源限2023，沒有本次時點的同口徑更新，保留歷史聲明不延伸為現行比率。"
+        },
+        {
+          "text": "無年份的目前排名與約三分之一市占",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-4a6738e46291"
+          ],
+          "reason": "正文直接給全球第一及每三台一台，並非作者臆測；但來源限2023，沒有本次時點的同口徑更新，保留歷史聲明不延伸為現行比率。"
+        }
+      ],
+      "proposed_text": "新普2023永續報告稱其NB電池組市占全球第一，並稱每三台筆電有一台使用其電池。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-4a6738e46291",
+          "locator": "PDF實體2頁（印刷13）公司概況；逐頁畫面核對",
+          "period_binding": "2023永續報告第一章",
+          "url": "https://www.simplo.com.tw/archive/doc/download/%E6%96%B0%E6%99%AE%E7%A7%91%E6%8A%80-2023ESG%28CH%29-CH1.pdf",
+          "title": "正式PDF檢視：新普",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f1802cc9be779fa8c3d6a5ffab54ff851efcecad1c3558e763f346f9640825f0",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-4a6738e46291.md",
+          "note": "正文直接給全球第一及每三台一台，並非作者臆測；但來源限2023，沒有本次時點的同口徑更新，保留歷史聲明不延伸為現行比率。",
+          "accessed_at": "2026-10-06T00:28:00.847670+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2393:objective_ranking_or_market_share:855bf0c8d0c3d854",
+      "normalized_claim_hash": "855bf0c8d0c3d854688a5a9069385218e8566f70ea2ae7c7c1c84a1e6ac60719",
+      "ticker": "2393",
+      "company": "億光",
+      "path": "Pilot_Reports/Electronic Components/2393_億光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "億光電子 (2393) 是台灣最大的 [[LED]] 專業封裝廠，產品涵蓋照明元件、背光元件、手持裝置元件、車用元件及不可見光元件，產值明顯超越台灣同業。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-059",
+      "author_batch_path": "audit-v5/semantic/author-059.json",
+      "author_batch_sha256": "3ffd1bd275ca720999c3e234dabd50f34a2e2a02e8a84e8b5427093bad438cc4",
+      "author_batch_observed_bytes_sha256": "3ffd1bd275ca720999c3e234dabd50f34a2e2a02e8a84e8b5427093bad438cc4",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。",
+      "gap_types": [
+        "ranking_scope",
+        "comparative_output",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "LED照明、背光、手持與車用及不可見光元件",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        },
+        {
+          "text": "目前台灣最大LED封裝廠",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        },
+        {
+          "text": "產值明顯超越同業",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        }
+      ],
+      "proposed_text": "億光2021年報列照明、背光、手持裝置、車用及不可見光LED產品。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c4dee64fcd1b",
+          "locator": "PDF實體5、98至103頁產品與業務計畫",
+          "period_binding": "2021年報",
+          "url": "https://www.everlight.com.cn/wp-content/uploads/2022/06/2021_Annualreport_tch.pdf",
+          "title": "正式PDF檢視：億光",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "21e5e40adc73bd310753afd1460357d3b4679ffcfd3b477c835dc1e61bd78df1",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-c4dee64fcd1b.md",
+          "note": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。",
+          "accessed_at": "2026-10-06T00:28:01.487561+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2393:objective_ranking_or_market_share:feb61c76bb10402c",
+      "normalized_claim_hash": "feb61c76bb10402ce09a575330d3125049b165ed8cbce6fbc8c759eb5bd2ae61",
+      "ticker": "2393",
+      "company": "億光",
+      "path": "Pilot_Reports/Electronic Components/2393_億光.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**億光** (台灣最大 LED 封裝，照明/車用/紅外線)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-059",
+      "author_batch_path": "audit-v5/semantic/author-059.json",
+      "author_batch_sha256": "3ffd1bd275ca720999c3e234dabd50f34a2e2a02e8a84e8b5427093bad438cc4",
+      "author_batch_observed_bytes_sha256": "3ffd1bd275ca720999c3e234dabd50f34a2e2a02e8a84e8b5427093bad438cc4",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。",
+      "gap_types": [
+        "ranking_scope",
+        "comparative_output",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "LED照明、背光、手持與車用及不可見光元件",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        },
+        {
+          "text": "目前台灣最大LED封裝廠",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        },
+        {
+          "text": "產值明顯超越同業",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c4dee64fcd1b"
+          ],
+          "reason": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。"
+        }
+      ],
+      "proposed_text": "億光2021年報列照明、背光、手持裝置、車用及不可見光LED產品。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c4dee64fcd1b",
+          "locator": "PDF實體5、98至103頁產品與業務計畫",
+          "period_binding": "2021年報",
+          "url": "https://www.everlight.com.cn/wp-content/uploads/2022/06/2021_Annualreport_tch.pdf",
+          "title": "正式PDF檢視：億光",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "21e5e40adc73bd310753afd1460357d3b4679ffcfd3b477c835dc1e61bd78df1",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-c4dee64fcd1b.md",
+          "note": "產品段支持所列應用；原文的業界領先、全球前五等分別有特定產品範圍，不提供台灣封裝廠同口徑產值比較。以2021產品揭露為界，不由研發優勢推導當前全業排名。",
+          "accessed_at": "2026-10-06T00:28:01.487561+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2486:objective_ranking_or_market_share:e7b17a5349873c82",
+      "normalized_claim_hash": "e7b17a5349873c821d47bbeb79ed24c788281895eb0a92f9bb1d744d84381044",
+      "ticker": "2486",
+      "company": "一詮",
+      "path": "Pilot_Reports/Electronic Components/2486_一詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-060",
+      "author_batch_path": "audit-v5/semantic/author-060.json",
+      "author_batch_sha256": "257d9d322104ae413700191b1273f68eeb1b66d23a9a71986ce71b69c56ee33f",
+      "author_batch_observed_bytes_sha256": "257d9d322104ae413700191b1273f68eeb1b66d23a9a71986ce71b69c56ee33f",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。",
+      "gap_types": [
+        "period",
+        "ranking_metric"
+      ],
+      "component_assessments": [
+        {
+          "text": "LED及IC導線架、陶瓷基板、均熱片",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        },
+        {
+          "text": "2023LED可見及不可見光導線架市占第一之公司自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        },
+        {
+          "text": "未定年的目前全球最大地位",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        }
+      ],
+      "proposed_text": "一詮2023永續報告列LED及IC導線架、陶瓷基板與均熱片，並自述LED導線架全球市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-4fda53a8c626",
+          "locator": "PDF實體15、16頁（印刷13、14）；公司簡介畫面",
+          "period_binding": "2023永續報告",
+          "url": "https://www.i-chiun.com.tw/ec99/rwd1809/pdf/sr-2023.pdf",
+          "title": "正式PDF檢視：一詮",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "54ed13eb3b5baa098017d30fb575b65d438ecc1733308d76ed9958fdd9dfd63a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-4fda53a8c626.md",
+          "note": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。",
+          "accessed_at": "2026-10-06T00:28:02.086664+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2486:objective_ranking_or_market_share:7243ef589ba0d390",
+      "normalized_claim_hash": "7243ef589ba0d39088d95f618a4e0682f70c057dce71d97e223b163432333717",
+      "ticker": "2486",
+      "company": "一詮",
+      "path": "Pilot_Reports/Electronic Components/2486_一詮.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "**一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-060",
+      "author_batch_path": "audit-v5/semantic/author-060.json",
+      "author_batch_sha256": "257d9d322104ae413700191b1273f68eeb1b66d23a9a71986ce71b69c56ee33f",
+      "author_batch_observed_bytes_sha256": "257d9d322104ae413700191b1273f68eeb1b66d23a9a71986ce71b69c56ee33f",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。",
+      "gap_types": [
+        "period",
+        "ranking_metric"
+      ],
+      "component_assessments": [
+        {
+          "text": "LED及IC導線架、陶瓷基板、均熱片",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        },
+        {
+          "text": "2023LED可見及不可見光導線架市占第一之公司自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        },
+        {
+          "text": "未定年的目前全球最大地位",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-4fda53a8c626"
+          ],
+          "reason": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。"
+        }
+      ],
+      "proposed_text": "一詮2023永續報告列LED及IC導線架、陶瓷基板與均熱片，並自述LED導線架全球市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-4fda53a8c626",
+          "locator": "PDF實體15、16頁（印刷13、14）；公司簡介畫面",
+          "period_binding": "2023永續報告",
+          "url": "https://www.i-chiun.com.tw/ec99/rwd1809/pdf/sr-2023.pdf",
+          "title": "正式PDF檢視：一詮",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "54ed13eb3b5baa098017d30fb575b65d438ecc1733308d76ed9958fdd9dfd63a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-4fda53a8c626.md",
+          "note": "段落確實明載全球市占世界第一，不能說來源沒有排名；產品表亦直接支持各項。但排名是2023來源，不能直接定2026現況，並保留市占量度而非任意擴充產量。",
+          "accessed_at": "2026-10-06T00:28:02.086664+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3049:objective_ranking_or_market_share:6538e9d4932d6c19",
+      "normalized_claim_hash": "6538e9d4932d6c1906b4b6760e4495ab8229632baf3ae7ab03cc59f8be12de3c",
+      "ticker": "3049",
+      "company": "精金",
+      "path": "Pilot_Reports/Electronic Components/3049_精金.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "早期從事彩色濾光片，後轉型為觸控感應器 (Touch Sensor) 專業製造商，主要為 [[瀚宇彩晶]] (最大股東) 供應觸控面板。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-061",
+      "author_batch_path": "audit-v5/semantic/author-061.json",
+      "author_batch_sha256": "f8c94a287af8a583129fccd7d92d54c5079223d2840f45f0d3efc40ab5f46bc5",
+      "author_batch_observed_bytes_sha256": "f8c94a287af8a583129fccd7d92d54c5079223d2840f45f0d3efc40ab5f46bc5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "沿革證轉型，股東表證彩晶當時最大；2014廠區設備出售給彩晶是資產交易，不等於彩晶為主要觸控產品買家。2023業務段以國際品牌客戶泛稱，未確立主要客戶具名關係。",
+      "gap_types": [
+        "asset_sale_vs_customer",
+        "named_relationship",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "彩色濾光片至觸控感應器歷史",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-198b37841061"
+          ],
+          "reason": "沿革證轉型，股東表證彩晶當時最大；2014廠區設備出售給彩晶是資產交易，不等於彩晶為主要觸控產品買家。2023業務段以國際品牌客戶泛稱，未確立主要客戶具名關係。"
+        },
+        {
+          "text": "2024彩晶為表列最大股東",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-198b37841061"
+          ],
+          "reason": "沿革證轉型，股東表證彩晶當時最大；2014廠區設備出售給彩晶是資產交易，不等於彩晶為主要觸控產品買家。2023業務段以國際品牌客戶泛稱，未確立主要客戶具名關係。"
+        },
+        {
+          "text": "主要觸控供貨對象為彩晶的收入／客戶歸屬",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-198b37841061"
+          ],
+          "reason": "沿革證轉型，股東表證彩晶當時最大；2014廠區設備出售給彩晶是資產交易，不等於彩晶為主要觸控產品買家。2023業務段以國際品牌客戶泛稱，未確立主要客戶具名關係。"
+        }
+      ],
+      "proposed_text": "精金年報回溯彩色濾光片及觸控感應器業務；2024年4月股東表載彩晶為最大股東，主要觸控客戶歸屬仍待核實。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-198b37841061",
+          "locator": "PDF實體12、13、71、74、87頁",
+          "period_binding": "2023年報；2024-04-02股東快照",
+          "url": "https://stock.walsin.com/downloads/704/%E5%B9%B4%E5%A0%B1",
+          "title": "正式PDF檢視：精金",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "35ecad9a48b0c479ab994a8cf700970a7b01ff3e7bfd14b895798c99ffd1dae0",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-198b37841061.md",
+          "note": "沿革證轉型，股東表證彩晶當時最大；2014廠區設備出售給彩晶是資產交易，不等於彩晶為主要觸控產品買家。2023業務段以國際品牌客戶泛稱，未確立主要客戶具名關係。",
+          "accessed_at": "2026-10-06T00:28:03.675452+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:7839b23f63f20969",
+      "normalized_claim_hash": "7839b23f63f20969b5339fbff0df09c03bc76d61f3ea12064dc506522ac4a493",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "日電貿 ([[Nichidenbo]]) 為台灣最大專業被動元件通路商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-062",
+      "author_batch_path": "audit-v5/semantic/author-062.json",
+      "author_batch_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_batch_observed_bytes_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "最新讀取的英文公司頁直接稱biggest passive component distributor and supplier in Taiwan，與2022報告的同範圍說法相符；接受為公司自述，不把官網聲明當獨立通路市占統計。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "台灣最大被動元件代理／供應商之公司自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-93f38887f2af",
+            "s-4b1be1fea136"
+          ],
+          "reason": "最新讀取的英文公司頁直接稱biggest passive component distributor and supplier in Taiwan，與2022報告的同範圍說法相符；接受為公司自述，不把官網聲明當獨立通路市占統計。"
+        }
+      ],
+      "proposed_text": "日電貿官網自述為台灣最大被動元件代理及供應商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-93f38887f2af",
+          "locator": "PDF實體16頁（印刷15）",
+          "period_binding": "2022永續報告",
+          "url": "https://www.ndb.com.tw/file/company/2022-Sustainability%20Report.pdf",
+          "title": "正式PDF檢視：日電貿",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "30414a58e98daad937a444da42982df0002ef88cf44cb9110f56ab314ce7bcff",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-93f38887f2af.md",
+          "note": "最新讀取的英文公司頁直接稱biggest passive component distributor and supplier in Taiwan，與2022報告的同範圍說法相符；接受為公司自述，不把官網聲明當獨立通路市占統計。",
+          "accessed_at": "2026-10-06T00:28:04.548827+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-4b1be1fea136",
+          "locator": "HTML About NDB 正文",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.ndb.com.tw/en/about-ndb/",
+          "title": "About NDB – Nichidenbo Corporation",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "84a63b884865efa136e76a367943da14087c5f57f59098b2c35ec4abe59f9dcd",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-4b1be1fea136.md",
+          "note": "最新讀取的英文公司頁直接稱biggest passive component distributor and supplier in Taiwan，與2022報告的同範圍說法相符；接受為公司自述，不把官網聲明當獨立通路市占統計。",
+          "accessed_at": "2026-10-06T00:56:31.673340+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:d81ef6b94a9da9ee",
+      "normalized_claim_hash": "d81ef6b94a9da9eede409b58bb01560647387ef62aedf2e21f227712c2413d02",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "核心代理產品：(1) 鋁質電解電容 — 代理日本 [[Nippon Chemi-con]] (NCC，全球第一大)；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-062",
+      "author_batch_path": "audit-v5/semantic/author-062.json",
+      "author_batch_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_batch_observed_bytes_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "日電貿代理NCC鋁電解電容",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-455a28558b70",
+            "s-81a358a052e7",
+            "s-45fd0145c83e"
+          ],
+          "reason": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。"
+        },
+        {
+          "text": "NCC自述該產品全球最大市占",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-455a28558b70",
+            "s-81a358a052e7",
+            "s-45fd0145c83e"
+          ],
+          "reason": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。"
+        }
+      ],
+      "proposed_text": "日電貿官網列代理Nippon Chemi-con鋁電解電容；NCC官方資料自述該產品全球最大市占。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-455a28558b70",
+          "locator": "HTML公司簡介代理段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.ndb.com.tw/關於日電貿/公司簡介/",
+          "title": "公司簡介 – 日電貿股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "2f498c66b9e05b6e38b843bf70ed45b4cd0744e2985943b9162a4146e72e01f9",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-455a28558b70.md",
+          "note": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。",
+          "accessed_at": "2026-10-06T00:55:54.457084+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-81a358a052e7",
+          "locator": "HTML事業概要／アルミ電解コンデンサ段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "事業概要｜日本ケミコン株式会社",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ad9871f5430625d203fea5e8440a5a61c5d4a57d46e03e11fe3ea2011bae0610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-81a358a052e7.md",
+          "note": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。",
+          "accessed_at": "2026-10-06T00:27:31.386475+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-45fd0145c83e",
+          "locator": "PDF實體1頁企業概要",
+          "period_binding": "2026-06-10",
+          "url": "https://jsite.mhlw.go.jp/niigata-hellowork/content/contents/001760211.pdf",
+          "title": "正式PDF檢視：日電貿",
+          "source_level": 1,
+          "publication_date": null,
+          "source_sha256": "1ca9623038bb5b16a944c351912ed0b12833c65a2607fa9a9d90ab08a75638da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-45fd0145c83e.md",
+          "note": "新讀日電貿公司簡介明載代理關係與產品，NCC官方日文產品介紹及2026政府企業資料相互對應世界最高市占，避免僅用代理商轉述閉合。",
+          "accessed_at": "2026-10-06T00:27:31.426478+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:e2b3337349ce58cc",
+      "normalized_claim_hash": "e2b3337349ce58cc281f2e3383ee3c32438dbf4e3de04591e92fb9d8761a6bb0",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Nippon Chemi-con]] (NCC) — 全球第一大",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-062",
+      "author_batch_path": "audit-v5/semantic/author-062.json",
+      "author_batch_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_batch_observed_bytes_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "獨立claim文字未限定產品；所讀來源的第一大均限定鋁電解電容。不能將產品範圍省略後解讀為所有電容或整家公司的全球規模第一。",
+      "gap_types": [
+        "ranking_product_scope"
+      ],
+      "component_assessments": [
+        {
+          "text": "NCC鋁電解電容世界最大市占",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-455a28558b70",
+            "s-81a358a052e7"
+          ],
+          "reason": "獨立claim文字未限定產品；所讀來源的第一大均限定鋁電解電容。不能將產品範圍省略後解讀為所有電容或整家公司的全球規模第一。"
+        },
+        {
+          "text": "不限定產品的全球第一大",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-455a28558b70",
+            "s-81a358a052e7"
+          ],
+          "reason": "獨立claim文字未限定產品；所讀來源的第一大均限定鋁電解電容。不能將產品範圍省略後解讀為所有電容或整家公司的全球規模第一。"
+        }
+      ],
+      "proposed_text": "Nippon Chemi-con自述鋁電解電容全球最大市占。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-455a28558b70",
+          "locator": "HTML公司簡介代理段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.ndb.com.tw/關於日電貿/公司簡介/",
+          "title": "公司簡介 – 日電貿股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "2f498c66b9e05b6e38b843bf70ed45b4cd0744e2985943b9162a4146e72e01f9",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-455a28558b70.md",
+          "note": "獨立claim文字未限定產品；所讀來源的第一大均限定鋁電解電容。不能將產品範圍省略後解讀為所有電容或整家公司的全球規模第一。",
+          "accessed_at": "2026-10-06T00:55:54.457084+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-81a358a052e7",
+          "locator": "HTMLアルミ電解コンデンサ段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "事業概要｜日本ケミコン株式会社",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ad9871f5430625d203fea5e8440a5a61c5d4a57d46e03e11fe3ea2011bae0610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-81a358a052e7.md",
+          "note": "獨立claim文字未限定產品；所讀來源的第一大均限定鋁電解電容。不能將產品範圍省略後解讀為所有電容或整家公司的全球規模第一。",
+          "accessed_at": "2026-10-06T00:27:31.386475+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3090:objective_ranking_or_market_share:28a5bfc166db3a6e",
+      "normalized_claim_hash": "28a5bfc166db3a6eadb70b0121e96422c59d4c6c49753b6f3a5d00b1a4041252",
+      "ticker": "3090",
+      "company": "日電貿",
+      "path": "Pilot_Reports/Electronic Components/3090_日電貿.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Nippon Chemi-con]] — 全球第一大鋁電解電容",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-062",
+      "author_batch_path": "audit-v5/semantic/author-062.json",
+      "author_batch_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_batch_observed_bytes_sha256": "cfff0be6ab06e8ad80edd601b006f5aa00dce9ba1b97fb697bff563f7d477c1c",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "官方日本產品頁及2026政府企业介紹均在相同產品範圍給世界首位，支持來源所述排名；仍須以市占與公司自述標示，不宣稱本次自行計算全球產能。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "NCC鋁電解電容全球最大市占",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-81a358a052e7",
+            "s-45fd0145c83e"
+          ],
+          "reason": "官方日本產品頁及2026政府企业介紹均在相同產品範圍給世界首位，支持來源所述排名；仍須以市占與公司自述標示，不宣稱本次自行計算全球產能。"
+        }
+      ],
+      "proposed_text": "Nippon Chemi-con官方資料稱其鋁電解電容全球市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-81a358a052e7",
+          "locator": "HTMLアルミ電解コンデンサ段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "事業概要｜日本ケミコン株式会社",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ad9871f5430625d203fea5e8440a5a61c5d4a57d46e03e11fe3ea2011bae0610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-81a358a052e7.md",
+          "note": "官方日本產品頁及2026政府企业介紹均在相同產品範圍給世界首位，支持來源所述排名；仍須以市占與公司自述標示，不宣稱本次自行計算全球產能。",
+          "accessed_at": "2026-10-06T00:27:31.386475+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-45fd0145c83e",
+          "locator": "PDF實體1頁企業概要",
+          "period_binding": "2026-06-10",
+          "url": "https://jsite.mhlw.go.jp/niigata-hellowork/content/contents/001760211.pdf",
+          "title": "正式PDF檢視：日電貿",
+          "source_level": 1,
+          "publication_date": null,
+          "source_sha256": "1ca9623038bb5b16a944c351912ed0b12833c65a2607fa9a9d90ab08a75638da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-45fd0145c83e.md",
+          "note": "官方日本產品頁及2026政府企业介紹均在相同產品範圍給世界首位，支持來源所述排名；仍須以市占與公司自述標示，不宣稱本次自行計算全球產能。",
+          "accessed_at": "2026-10-06T00:27:31.426478+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3455:objective_ranking_or_market_share:7453775b6f91a65d",
+      "normalized_claim_hash": "7453775b6f91a65d8dc6db88e9fb37d5931ced9555ba5eae2dbc8f900e4454d8",
+      "ticker": "3455",
+      "company": "由田",
+      "path": "Pilot_Reports/Electronic Components/3455_由田.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "近年積極轉型 **半導體封裝檢測**，尤其在 **IC 載板** ([[ABF]]/BT) 外觀檢查具有高市佔。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-064",
+      "author_batch_path": "audit-v5/semantic/author-064.json",
+      "author_batch_sha256": "421607dba9701adf2f9ea3b2b1695a09f3645a4fb860525e4bb890868ab6350e",
+      "author_batch_observed_bytes_sha256": "421607dba9701adf2f9ea3b2b1695a09f3645a4fb860525e4bb890868ab6350e",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。",
+      "gap_types": [
+        "material_specific_market",
+        "strategy_vs_outcome"
+      ],
+      "component_assessments": [
+        {
+          "text": "IC載板AVI設備連續10年市占全球第一之公司聲明",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7d963bdf7fd1"
+          ],
+          "reason": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。"
+        },
+        {
+          "text": "多種半導體檢測設備開發",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7d963bdf7fd1"
+          ],
+          "reason": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。"
+        },
+        {
+          "text": "ABF/BT兩種材料各別高市占",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-7d963bdf7fd1"
+          ],
+          "reason": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。"
+        },
+        {
+          "text": "已完成半導體封裝業務轉型",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-7d963bdf7fd1"
+          ],
+          "reason": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。"
+        }
+      ],
+      "proposed_text": "由田2024報告自述IC載板AVI設備連續10年市占全球第一，並列半導體檢測設備開發及提高半導體營收的目標。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-7d963bdf7fd1",
+          "locator": "PDF實體7、19、21頁；7頁數字由畫面核對",
+          "period_binding": "2024永續報告",
+          "url": "https://www.utechzone.com.tw/upload/editor/files/20250820112038.pdf",
+          "title": "正式PDF檢視：由田",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "101c0fa1427c792d61454b9de45fda74c95c04ddaa2ed9d7175bd75f4d16d5ce",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-7d963bdf7fd1.md",
+          "note": "報告明確排名的是IC載板AVI設備，不是各ABF/BT市場；另列半導體設備開發及提高半導體收入之長期目標。目標不等同已完成業務結構轉換。",
+          "accessed_at": "2026-10-06T00:28:04.864507+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "5493:objective_ranking_or_market_share:f94ffe7b1a69c19b",
+      "normalized_claim_hash": "f94ffe7b1a69c19be166e1220b00fb5403c38ef87eee1c981786282d0f72cda3",
+      "ticker": "5493",
+      "company": "三聯",
+      "path": "Pilot_Reports/Electronic Components/5493_三聯.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "(2) 自動化監測 — 提供地震預警、水庫/橋樑土木工程安全監測服務，為國內環境監測與微振動感測技術第一品牌；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-070",
+      "author_batch_path": "audit-v5/semantic/author-070.json",
+      "author_batch_sha256": "158cc3a9e7848b5e06bf2344d164cf142e3ce1e685a25e2d9d9d390e49e8b510",
+      "author_batch_observed_bytes_sha256": "158cc3a9e7848b5e06bf2344d164cf142e3ce1e685a25e2d9d9d390e49e8b510",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "第一品牌一語確實在公司報告17頁，不能說未出現；但其為未定義量度的品牌宣傳，未给市占或特定獎項排名。研究可描述服務與公司定位，不能改寫成經外部比較的第一名。",
+      "gap_types": [
+        "evaluative_brand_position",
+        "ranking_basis"
+      ],
+      "component_assessments": [
+        {
+          "text": "地震預警、橋梁大型結構及水庫大壩安全監測",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-216460229ac4"
+          ],
+          "reason": "第一品牌一語確實在公司報告17頁，不能說未出現；但其為未定義量度的品牌宣傳，未给市占或特定獎項排名。研究可描述服務與公司定位，不能改寫成經外部比較的第一名。"
+        },
+        {
+          "text": "公司自称環境監測與微振動感測第一品牌",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-216460229ac4"
+          ],
+          "reason": "第一品牌一語確實在公司報告17頁，不能說未出現；但其為未定義量度的品牌宣傳，未给市占或特定獎項排名。研究可描述服務與公司定位，不能改寫成經外部比較的第一名。"
+        },
+        {
+          "text": "第一品牌所指可衡量名次及外部評選標準",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-216460229ac4"
+          ],
+          "reason": "第一品牌一語確實在公司報告17頁，不能說未出現；但其為未定義量度的品牌宣傳，未给市占或特定獎項排名。研究可描述服務與公司定位，不能改寫成經外部比較的第一名。"
+        }
+      ],
+      "proposed_text": "三聯2024報告列地震預警、橋梁與水庫大壩監測，並以環境監測及微振動感測第一品牌自我定位。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-216460229ac4",
+          "locator": "PDF實體13、16、17、19頁",
+          "period_binding": "2024永續報告",
+          "url": "https://sanlien.com.tw/wp-content/uploads/%E4%B8%89%E8%81%AF-2024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-v4-0805_compressed.pdf",
+          "title": "正式PDF檢視：三聯",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "200843728bd32ce71011fe0e5d748743e574080bac6c25e0ae670043098be280",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-216460229ac4.md",
+          "note": "第一品牌一語確實在公司報告17頁，不能說未出現；但其為未定義量度的品牌宣傳，未给市占或特定獎項排名。研究可描述服務與公司定位，不能改寫成經外部比較的第一名。",
+          "accessed_at": "2026-10-06T00:28:05.336078+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6449:objective_ranking_or_market_share:4466a7526d81896b",
+      "normalized_claim_hash": "4466a7526d81896bed7934691ab0f3394ecff1705235e017e6123f8af9310d24",
+      "ticker": "6449",
+      "company": "鈺邦",
+      "path": "Pilot_Reports/Electronic Components/6449_鈺邦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "鈺邦科技股份有限公司 (6449) 隸屬於[[華新科]]集團，是全球產能及市佔率名列前茅的導電高分子固態電容(Solid Capacitor)製造商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-071",
+      "author_batch_path": "audit-v5/semantic/author-071.json",
+      "author_batch_sha256": "cc1033a9544b5ebac297d6011513e3bda6794b3023621c0bc8b5ce7ffe499e19",
+      "author_batch_observed_bytes_sha256": "cc1033a9544b5ebac297d6011513e3bda6794b3023621c0bc8b5ce7ffe499e19",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。",
+      "gap_types": [
+        "entity_control_binding",
+        "product_specific_ranking",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "固態電容製造",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-1588162d569b"
+          ],
+          "reason": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。"
+        },
+        {
+          "text": "捲繞型固態電容世界最大供應商自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-1588162d569b"
+          ],
+          "reason": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。"
+        },
+        {
+          "text": "華新科關係人鏈記載",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-1588162d569b"
+          ],
+          "reason": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。"
+        },
+        {
+          "text": "華新科對鈺邦之集團控制歸屬",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-1588162d569b"
+          ],
+          "reason": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。"
+        },
+        {
+          "text": "全部固態電容產能及市占的排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-1588162d569b"
+          ],
+          "reason": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。"
+        }
+      ],
+      "proposed_text": "鈺邦2023年報自述捲繞型固態電容世界最大供應商；集團歸屬及全部固態電容產能排名需另核。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-1588162d569b",
+          "locator": "PDF實體67、78、153頁（印刷63、74）",
+          "period_binding": "2023年報；2024-03-31股東與關係人快照",
+          "url": "https://www.apaq.com.tw/Templates/att/112-Annual-report.pdf",
+          "title": "正式PDF檢視：鈺邦",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "1efedfcaf7d6e1fe6449b202e93036688996e307e7535e733348396901ef6f42",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-1588162d569b.md",
+          "note": "年報排名限定捲繞型，未列所有固態電容同口徑比較。關係人表中華新科是佳邦母公司，不能因其出現在表中就直接證明它為鈺邦母公司或控制者；保留股權及關係人原本主體。",
+          "accessed_at": "2026-10-06T00:28:06.549612+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8240:objective_ranking_or_market_share:ad10cdcb6cd24cc2",
+      "normalized_claim_hash": "ad10cdcb6cd24cc212547c258152dbbc2f8451037ac866eb77cbfc46f8a94f12",
+      "ticker": "8240",
+      "company": "華宏",
+      "path": "Pilot_Reports/Electronic Components/8240_華宏.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "核心業務涵蓋：(1) 光電材料 — 為台灣背光模組光學膜片最大專業裁切廠，產品包括 [[偏光板]]、擴散膜、增亮膜、導光板、量子點膜、觸控面板防爆膜等，服務面板廠之背光模組需求；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-076",
+      "author_batch_path": "audit-v5/semantic/author-076.json",
+      "author_batch_sha256": "ab2b91c49c396487b53875b4cb62512ff938a3c3a988b7d03da9aa788fb3c430",
+      "author_batch_observed_bytes_sha256": "ab2b91c49c396487b53875b4cb62512ff938a3c3a988b7d03da9aa788fb3c430",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "年報原文產品與服務吻合，最大敘述限定當時大中華營運；產品不是只來自關鍵字比對。新取原URL的TLS失敗只記可用性，內容判斷來自讀取保存原PDF，排名不能外推目前。",
+      "gap_types": [
+        "period",
+        "geographic_ranking_scope"
+      ],
+      "component_assessments": [
+        {
+          "text": "2021大中華背光模組光學膜片最大裁切廠之公司聲明",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "wahhong2021-cache"
+          ],
+          "reason": "年報原文產品與服務吻合，最大敘述限定當時大中華營運；產品不是只來自關鍵字比對。新取原URL的TLS失敗只記可用性，內容判斷來自讀取保存原PDF，排名不能外推目前。"
+        },
+        {
+          "text": "所列光學膜及觸控防爆膜",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "wahhong2021-cache"
+          ],
+          "reason": "年報原文產品與服務吻合，最大敘述限定當時大中華營運；產品不是只來自關鍵字比對。新取原URL的TLS失敗只記可用性，內容判斷來自讀取保存原PDF，排名不能外推目前。"
+        },
+        {
+          "text": "現在台灣最大裁切廠名次",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "wahhong2021-cache"
+          ],
+          "reason": "年報原文產品與服務吻合，最大敘述限定當時大中華營運；產品不是只來自關鍵字比對。新取原URL的TLS失敗只記可用性，內容判斷來自讀取保存原PDF，排名不能外推目前。"
+        }
+      ],
+      "proposed_text": "華宏2021年報自述大中華背光模組光學膜片最大專業裁切廠，並列偏光片、擴散及增亮膜、導光板、量子點膜和防爆膜。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "wahhong2021-cache",
+          "locator": "PDF實體80、82、90頁（印刷76、78、86）",
+          "period_binding": "2021年報；歷史快取原下載時間不明",
+          "url": "https://wahhong.com/download/2021rep.pdf",
+          "title": "正式PDF檢視：華宏",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "54ab69a5d887cc0c9f42ec5c298c99ae7886c234e6bdab88bdc79ad08e7e56da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/wahhong2021-cache.md",
+          "note": "年報原文產品與服務吻合，最大敘述限定當時大中華營運；產品不是只來自關鍵字比對。新取原URL的TLS失敗只記可用性，內容判斷來自讀取保存原PDF，排名不能外推目前。",
+          "accessed_at": null,
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2450:objective_ranking_or_market_share:d4c4eba514df929a",
+      "normalized_claim_hash": "d4c4eba514df929a4f67e8f51565174ec311b012815a9a1c25d33312001a0c6a",
+      "ticker": "2450",
+      "company": "神腦",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/2450_神腦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "神腦國際企業 (2450，Senao International) 成立於 1979 年，總部位於新北市，為台灣最大通訊通路代理商，隸屬於[[中華電信]]集團。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-078",
+      "author_batch_path": "audit-v5/semantic/author-078.json",
+      "author_batch_sha256": "11e262fab87e5ef3f7e7ac4ca751196608b3c7c1684013f262b72da4db543a95",
+      "author_batch_observed_bytes_sha256": "11e262fab87e5ef3f7e7ac4ca751196608b3c7c1684013f262b72da4db543a95",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。",
+      "gap_types": [
+        "ranking_scope",
+        "period",
+        "investment_vs_group_control"
+      ],
+      "component_assessments": [
+        {
+          "text": "1979成立",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        },
+        {
+          "text": "新北總部",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        },
+        {
+          "text": "2017最大行動手持裝置通路商自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        },
+        {
+          "text": "2007中華電信投資",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        },
+        {
+          "text": "目前最大所有通訊通路",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        },
+        {
+          "text": "本次時點的中華電信集團歸屬",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c62fae04855e"
+          ],
+          "reason": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。"
+        }
+      ],
+      "proposed_text": "神腦2017CSR回溯1979成立、新北總部及2007中華電信投資，並自述為最大行動手持裝置通路商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c62fae04855e",
+          "locator": "PDF實體4、5頁公司簡介及股東資訊",
+          "period_binding": "2017CSR",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_2450_106.pdf",
+          "title": "正式PDF檢視：神腦",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "8f6fa396b47a88f29bd1a8884b207e416391f66c4fb4de57974a2e89a77c74fa",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-c62fae04855e.md",
+          "note": "來源最大限定行動手持裝置；入股歷史不能單独確立目前控制。成立與地址可保留來源年代，其餘需更新股東結構及市場範圍。",
+          "accessed_at": "2026-10-06T00:28:07.338299+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "3483:objective_ranking_or_market_share:eb582bc6e017b55f",
+      "normalized_claim_hash": "eb582bc6e017b55fa30d99d28db866ed1e7264e2e82975624b676e9c1460816a",
+      "ticker": "3483",
+      "company": "力致",
+      "path": "Pilot_Reports/Electronics & Computer Distribution/3483_力致.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "在筆記型電腦 (NB) 風扇市場擁有極高市佔率，為主要獲利來源。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-079",
+      "author_batch_path": "audit-v5/semantic/author-079.json",
+      "author_batch_sha256": "d6c9997a3f1cb8e52512e0c0a60365278dc88f96b34b795378ab298e96ed1b01",
+      "author_batch_observed_bytes_sha256": "d6c9997a3f1cb8e52512e0c0a60365278dc88f96b34b795378ab298e96ed1b01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "簡報21頁直接給高市占，但損益頁為全公司合併，不給產品利潤占比。收入占比或市占不能代替毛利及净利貢獻。",
+      "gap_types": [
+        "revenue_vs_profit",
+        "segment_profit"
+      ],
+      "component_assessments": [
+        {
+          "text": "公司聲稱筆電風扇市占最高",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-103c246b8124"
+          ],
+          "reason": "簡報21頁直接給高市占，但損益頁為全公司合併，不給產品利潤占比。收入占比或市占不能代替毛利及净利貢獻。"
+        },
+        {
+          "text": "筆電風扇是主要獲利來源之產品損益",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-103c246b8124"
+          ],
+          "reason": "簡報21頁直接給高市占，但損益頁為全公司合併，不給產品利潤占比。收入占比或市占不能代替毛利及净利貢獻。"
+        }
+      ],
+      "proposed_text": "力致2025年8月簡報自述筆電風扇市占率最高；其產品獲利貢獻仍待分項資料。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-103c246b8124",
+          "locator": "PDF實體9、10、21頁",
+          "period_binding": "2025-08-19；2025H1",
+          "url": "https://mopsov.twse.com.tw/nas/STR/348320250819M001.pdf",
+          "title": "正式PDF檢視：力致",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "3cbf1167d74fa108e316c039a4ea7835e2955236a420363693e65984363d0a3b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-103c246b8124.md",
+          "note": "簡報21頁直接給高市占，但損益頁為全公司合併，不給產品利潤占比。收入占比或市占不能代替毛利及净利貢獻。",
+          "accessed_at": "2026-10-06T00:28:07.748209+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "8487:objective_ranking_or_market_share:14898f3649f7c437",
+      "normalized_claim_hash": "14898f3649f7c43787d01f326373e0aba50311d69eee09db76678b36978ee890",
+      "ticker": "8487",
+      "company": "愛爾達-創",
+      "path": "Pilot_Reports/Entertainment/8487_愛爾達-創.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "愛爾達科技 (8487，ELTA Technology) 為台灣第一家以體育賽事轉播為核心的新媒體平台。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-082",
+      "author_batch_path": "audit-v5/semantic/author-082.json",
+      "author_batch_sha256": "50c35459803c5f352cba2f1a3af4d69bfb71ce03a99a8b2f027eb61b0686b7c4",
+      "author_batch_observed_bytes_sha256": "50c35459803c5f352cba2f1a3af4d69bfb71ce03a99a8b2f027eb61b0686b7c4",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "時間軸的第一項分別是.tv、影音入口、奧運新媒體執照、HD家族，不是同一個以體育為核心平台的最早成立比较；不得把各不同第一合成原句。",
+      "gap_types": [
+        "chronological_first",
+        "qualifier_subject_binding"
+      ],
+      "component_assessments": [
+        {
+          "text": "台灣新媒體及運動轉播平台",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c9e709183698"
+          ],
+          "reason": "時間軸的第一項分別是.tv、影音入口、奧運新媒體執照、HD家族，不是同一個以體育為核心平台的最早成立比较；不得把各不同第一合成原句。"
+        },
+        {
+          "text": "多項具體首創歷史",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c9e709183698"
+          ],
+          "reason": "時間軸的第一項分別是.tv、影音入口、奧運新媒體執照、HD家族，不是同一個以體育為核心平台的最早成立比较；不得把各不同第一合成原句。"
+        },
+        {
+          "text": "以體育賽事為核心的平台在台灣最早成立",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c9e709183698"
+          ],
+          "reason": "時間軸的第一項分別是.tv、影音入口、奧運新媒體執照、HD家族，不是同一個以體育為核心平台的最早成立比较；不得把各不同第一合成原句。"
+        }
+      ],
+      "proposed_text": "愛爾達企業介紹載其運動轉播與新媒體業務，以及.tv、影音入口和奧運新媒體轉播等個別首創歷史。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c9e709183698",
+          "locator": "PDF實體1、2頁公司及發展歷程",
+          "period_binding": "含2024巴黎奧運與上市之企業介紹；未標發行日",
+          "url": "https://elta.com.tw/about.pdf",
+          "title": "正式PDF檢視：愛爾達-創",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "8e90cdc6cdd9dc3f5e8bb7fb7b3b0515f392a1ba6a95a83fb35128a83a69b255",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-c9e709183698.md",
+          "note": "時間軸的第一項分別是.tv、影音入口、奧運新媒體執照、HD家族，不是同一個以體育為核心平台的最早成立比较；不得把各不同第一合成原句。",
+          "accessed_at": "2026-10-06T00:28:08.393041+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "9904:objective_ranking_or_market_share:675f224ad21d1b3c",
+      "normalized_claim_hash": "675f224ad21d1b3c5b201f1a35b8fb7d18f44878afeafa21a6b23cecb4bea8f8",
+      "ticker": "9904",
+      "company": "寶成",
+      "path": "Pilot_Reports/Footwear & Accessories/9904_寶成.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "寶成工業股份有限公司 (9904) 成立於 1969 年，總部位於台灣台中，為全球最大的品牌運動鞋與休閒鞋製造商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-083",
+      "author_batch_path": "audit-v5/semantic/author-083.json",
+      "author_batch_sha256": "3bd5537d782bc5e8a5ae8c83c9d9bacf6d372e6c875ad0694c2647594ccb313d",
+      "author_batch_observed_bytes_sha256": "3bd5537d782bc5e8a5ae8c83c9d9bacf6d372e6c875ad0694c2647594ccb313d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。",
+      "gap_types": [
+        "entity_group_binding",
+        "ranking_scope"
+      ],
+      "component_assessments": [
+        {
+          "text": "1969成立",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ee0a304e9a86",
+            "s-0fce8b2bd51c"
+          ],
+          "reason": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。"
+        },
+        {
+          "text": "台中總部",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ee0a304e9a86",
+            "s-0fce8b2bd51c"
+          ],
+          "reason": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。"
+        },
+        {
+          "text": "寶成及子公司集團自述全球最具規模運動與休閒鞋製造商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ee0a304e9a86",
+            "s-0fce8b2bd51c"
+          ],
+          "reason": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。"
+        },
+        {
+          "text": "把產業控股母公司個體等同整個集團製鞋主體",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-ee0a304e9a86",
+            "s-0fce8b2bd51c"
+          ],
+          "reason": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。"
+        }
+      ],
+      "proposed_text": "寶成工業1969年成立、台中設總部，透過裕元等子公司經營製鞋；官網稱寶成國際集團為全球最具規模運動及休閒鞋製造商。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-ee0a304e9a86",
+          "locator": "HTML關於寶成正文",
+          "period_binding": "未標日期；2026-10-06檢視；1969設立歷史",
+          "url": "https://www.pouchen.com/index.php/tw/about",
+          "title": "POU CHEN GROUP 寶成國際集團 - 關於寶成",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ee43b5541418bafff305a4c9e3c6f2dc25e5bd180d3dc07961de97216fa975fd",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-ee0a304e9a86.md",
+          "note": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。",
+          "accessed_at": "2026-10-06T00:42:57.116528+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        },
+        {
+          "source_id": "s-0fce8b2bd51c",
+          "locator": "HTML台中總部地址段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.pouchen.com/index.php/tw/join-us/new-staff/about-go/location-tc",
+          "title": "POU CHEN GROUP 寶成國際集團 - 台中總部",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "9924881e59111076c524ad8120e022a4f2578d50591b6950a0d4621d1be27c2a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-0fce8b2bd51c.md",
+          "note": "新官網明確稱宝成工業已採產業控股方式、製鞋由裕元統籌，最大規模句子的主體為寶成及其子公司。不得讓法人個體與合併集團在排名敘述中不加區別。",
+          "accessed_at": "2026-10-06T00:55:04.273757+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6906:objective_ranking_or_market_share:662269e93948f5e3",
+      "normalized_claim_hash": "662269e93948f5e3b106990fcc0d2fff711b2fb614ed8ab7c05a2c28416dfe17",
+      "ticker": "6906",
+      "company": "現觀科",
+      "path": "Pilot_Reports/Information Technology Services/6906_現觀科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Saudi Telecom]] (STC) — 中東最大電信",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-089",
+      "author_batch_path": "audit-v5/semantic/author-089.json",
+      "author_batch_sha256": "627b83ecf5b0d03cf8b4ecbb42e33e4695a2bcd14a1132536c113715457361ec",
+      "author_batch_observed_bytes_sha256": "627b83ecf5b0d03cf8b4ecbb42e33e4695a2bcd14a1132536c113715457361ec",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。",
+      "gap_types": [
+        "period",
+        "historical_context"
+      ],
+      "component_assessments": [
+        {
+          "text": "沿革稱合作時STC為中東最大電信營運商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-34b0069f35f1"
+          ],
+          "reason": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。"
+        },
+        {
+          "text": "目前中東最大排名之期間與量度",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-34b0069f35f1"
+          ],
+          "reason": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。"
+        }
+      ],
+      "proposed_text": "現觀科2023年報的2009及2019合作沿革稱STC為中東最大電信營運商，該排名描述限於歷史合作背景。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-34b0069f35f1",
+          "locator": "PDF實體7頁公司沿革",
+          "period_binding": "2023年報；2009及2019STC合作歷史",
+          "url": "https://www.ghtinc.com/wp-content/uploads/2024/05/%e7%8f%be%e8%a7%80%e7%a7%91%e6%8a%80_112%e5%b9%b4%e5%ba%a6%e8%82%a1%e6%9d%b1%e5%b9%b4%e5%a0%b1%e4%b8%ad%e6%96%87%e7%89%88.pdf",
+          "title": "正式PDF檢視：現觀科",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e15227458290fac00807d2a64e8cd91674efe056f0835c1b8b99320cd38cec60",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-34b0069f35f1.md",
+          "note": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。",
+          "accessed_at": "2026-10-06T00:28:08.966658+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6906:objective_ranking_or_market_share:d7f499644ed091ed",
+      "normalized_claim_hash": "d7f499644ed091ed5a758603890e0ec78f4b0b6671d4bdd4ed8145f7d26cc2e6",
+      "ticker": "6906",
+      "company": "現觀科",
+      "path": "Pilot_Reports/Information Technology Services/6906_現觀科.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Saudi Telecom]] (STC) — 中東最大電信營運商",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-089",
+      "author_batch_path": "audit-v5/semantic/author-089.json",
+      "author_batch_sha256": "627b83ecf5b0d03cf8b4ecbb42e33e4695a2bcd14a1132536c113715457361ec",
+      "author_batch_observed_bytes_sha256": "627b83ecf5b0d03cf8b4ecbb42e33e4695a2bcd14a1132536c113715457361ec",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。",
+      "gap_types": [
+        "period",
+        "historical_context"
+      ],
+      "component_assessments": [
+        {
+          "text": "沿革稱合作時STC為中東最大電信營運商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-34b0069f35f1"
+          ],
+          "reason": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。"
+        },
+        {
+          "text": "目前中東最大排名之期間與量度",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-34b0069f35f1"
+          ],
+          "reason": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。"
+        }
+      ],
+      "proposed_text": "現觀科2023年報的2009及2019合作沿革稱STC為中東最大電信營運商，該排名描述限於歷史合作背景。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-34b0069f35f1",
+          "locator": "PDF實體7頁公司沿革",
+          "period_binding": "2023年報；2009及2019STC合作歷史",
+          "url": "https://www.ghtinc.com/wp-content/uploads/2024/05/%e7%8f%be%e8%a7%80%e7%a7%91%e6%8a%80_112%e5%b9%b4%e5%ba%a6%e8%82%a1%e6%9d%b1%e5%b9%b4%e5%a0%b1%e4%b8%ad%e6%96%87%e7%89%88.pdf",
+          "title": "正式PDF檢視：現觀科",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e15227458290fac00807d2a64e8cd91674efe056f0835c1b8b99320cd38cec60",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-34b0069f35f1.md",
+          "note": "最大描述出現在2009及2019簽約歷史，不能將2023年報刊載視為已重測2023，更不能直接延伸至2026。",
+          "accessed_at": "2026-10-06T00:28:08.966658+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2851:objective_ranking_or_market_share:f4428cbe7406c75a",
+      "normalized_claim_hash": "f4428cbe7406c75a7c13a3d4b217ad4bc58451b0e411e29f1c812ab10f634f7d",
+      "ticker": "2851",
+      "company": "中再保",
+      "path": "Pilot_Reports/Insurance - Reinsurance/2851_中再保.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "中央再保險 (2851，Central Reinsurance Corp.) 成立於 1968 年，2002 年完成民營化，現由[[長榮集團]]入主為最大股東。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-091",
+      "author_batch_path": "audit-v5/semantic/author-091.json",
+      "author_batch_sha256": "b4d715a8c7a63741af620affddd0c6ad2a7188d806360b34f80776db3e25fa3d",
+      "author_batch_observed_bytes_sha256": "b4d715a8c7a63741af620affddd0c6ad2a7188d806360b34f80776db3e25fa3d",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。",
+      "gap_types": [
+        "period",
+        "shareholder_snapshot"
+      ],
+      "component_assessments": [
+        {
+          "text": "1968成立",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-385103795da8"
+          ],
+          "reason": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。"
+        },
+        {
+          "text": "2002-07-11民營化",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-385103795da8"
+          ],
+          "reason": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。"
+        },
+        {
+          "text": "2018長榮持股58.68%之歷史",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-385103795da8"
+          ],
+          "reason": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。"
+        },
+        {
+          "text": "現在長榮為最大股東之最新快照",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-385103795da8"
+          ],
+          "reason": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。"
+        }
+      ],
+      "proposed_text": "中央再保1968成立，紀念刊載2002年7月完成民營化，並載2018年長榮持股58.68%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-385103795da8",
+          "locator": "PDF實體8、15、16頁",
+          "period_binding": "2018五十周年紀念刊",
+          "url": "https://www.centralre.com/files/public1/50th.pdf",
+          "title": "正式PDF檢視：中再保",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "d20a782862c0f0d58c7befcb1c0959e2ad9d590632a48de87b4a0802d6e6620b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-385103795da8.md",
+          "note": "歷史事件在文中有具體日期，股東比例則為2018刊物的當期狀態。不能把八年前持股比率自動定目前股東順位。",
+          "accessed_at": "2026-10-06T00:28:09.497190+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "5287:objective_ranking_or_market_share:bd1a0819aadbeb8c",
+      "normalized_claim_hash": "bd1a0819aadbeb8c3fdd631f088cf442a10f774c69455c3883bed08147ae215f",
+      "ticker": "5287",
+      "company": "數字",
+      "path": "Pilot_Reports/Internet Content & Information/5287_數字.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "(2) 8591 寶物交易網 — 台灣最大遊戲虛擬寶物交易平台，以手續費為收入模式；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-093",
+      "author_batch_path": "audit-v5/semantic/author-093.json",
+      "author_batch_sha256": "6e0ee07e977f633ff1c6fd2932956ea31427444097e12b2caaa159d42afd3937",
+      "author_batch_observed_bytes_sha256": "6e0ee07e977f633ff1c6fd2932956ea31427444097e12b2caaa159d42afd3937",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:58:48.649996Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "換取新的正式MOPS簡報，品牌頁同時直述台灣最大和收取賣方手續費，支持全部原句。旧URL失敗及歷史快取仍保留，未以網路狀態判定語意。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "8591台灣最大線上遊戲寶物交易平台之公司自述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-26514fdbff22"
+          ],
+          "reason": "換取新的正式MOPS簡報，品牌頁同時直述台灣最大和收取賣方手續費，支持全部原句。旧URL失敗及歷史快取仍保留，未以網路狀態判定語意。"
+        },
+        {
+          "text": "收賣方手續費",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-26514fdbff22"
+          ],
+          "reason": "換取新的正式MOPS簡報，品牌頁同時直述台灣最大和收取賣方手續費，支持全部原句。旧URL失敗及歷史快取仍保留，未以網路狀態判定語意。"
+        }
+      ],
+      "proposed_text": "數字科技2025Q4簡報稱8591為台灣最大線上遊戲寶物交易平台，營利模式為收取賣方手續費。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-26514fdbff22",
+          "locator": "PDF實體9頁品牌簡介（全檔27頁；內頁模板標34頁）",
+          "period_binding": "2025Q4營運；2026-03-20MOPS簡報",
+          "url": "https://mopsov.twse.com.tw/nas/STR/528720260320M002.pdf",
+          "title": "正式PDF檢視：數字",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "61aa1e5bcfd9f119b27dda77d35759fc57fb7a1cdc960c2a5d82d8252c46b6ea",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-004/s-26514fdbff22.md",
+          "note": "換取新的正式MOPS簡報，品牌頁同時直述台灣最大和收取賣方手續費，支持全部原句。旧URL失敗及歷史快取仍保留，未以網路狀態判定語意。",
+          "accessed_at": "2026-10-06T00:56:31.673884+00:00",
+          "inspected_at": "2026-10-06T00:58:48.649996Z"
+        }
+      ]
+    }
+  ]
+}

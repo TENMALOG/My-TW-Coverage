@@ -1,18 +1,18 @@
 # Audit v5 Status
 
-Independent-review update: 2026-10-06T00:48:02.018867Z
+Independent-review update: 2026-10-06T00:58:48.649996Z
 Branch: `audit-v5`
 
 ## Current independent-review checkpoint
 
 - Author-reviewed: **1,399 / 1,399**; original author records preserved.
-- Independently reviewed: **62 / 1,399**; unreviewed: **1337**.
-- Author ACCEPTED coverage: **53 / 111**; remaining: **58**.
-- Reviewer decisions: `{'PARTIALLY_SUPPORTED': 40, 'ACCEPTED': 9, 'UNSUPPORTED': 1, 'PERIOD_UNRESOLVED': 11, 'UNKNOWN_AFTER_RESEARCH': 1}`.
-- Final states: `{'ESCALATED_REVIEW_DISAGREEMENT': 52, 'PARTIALLY_SUPPORTED': 2, 'ACCEPTED': 8}`.
-- Final ACCEPTED: **8**, within recorded period and scope.
-- Pending resolution: **1389** including **52** awaiting adjudication.
-- Latest batch: `semantic/reviewer-003.json`; report: [INDEPENDENT-REVIEW-003.md](INDEPENDENT-REVIEW-003.md).
+- Independently reviewed: **87 / 1,399**; unreviewed: **1312**.
+- Author ACCEPTED coverage: **78 / 111**; remaining: **33**.
+- Reviewer decisions: `{'PARTIALLY_SUPPORTED': 56, 'ACCEPTED': 15, 'UNSUPPORTED': 1, 'PERIOD_UNRESOLVED': 14, 'UNKNOWN_AFTER_RESEARCH': 1}`.
+- Final states: `{'ESCALATED_REVIEW_DISAGREEMENT': 71, 'PARTIALLY_SUPPORTED': 2, 'ACCEPTED': 14}`.
+- Final ACCEPTED: **14**, within recorded period and scope.
+- Pending resolution: **1383** including **71** awaiting adjudication.
+- Latest batch: `semantic/reviewer-004.json`; report: [INDEPENDENT-REVIEW-004.md](INDEPENDENT-REVIEW-004.md).
 - Original 1,399 author final_state / independent_review values remain null. Original reports and Cloud failure queue unchanged.
 - PDF/HTML raw sources remain in ignored local caches; separate verified source package required for paper publication.
 
