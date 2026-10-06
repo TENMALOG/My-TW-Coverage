@@ -1,20 +1,20 @@
 # Audit v5 Status
 
-Independent-review update: 2026-10-06T00:15:29.507279Z
+Independent-review update: 2026-10-06T00:40:59.056166Z
 Branch: `audit-v5`
 
 ## Current independent-review checkpoint
 
-- Author-reviewed: **1,399 / 1,399**; author records preserved.
-- Independently reviewed: **12 / 1,399**; remaining unreviewed: **1,387**.
-- Reviewer decisions: **9 PARTIALLY_SUPPORTED, 1 ACCEPTED, 1 UNSUPPORTED, 1 PERIOD_UNRESOLVED**.
-- Final states: **2 PARTIALLY_SUPPORTED, 10 ESCALATED_REVIEW_DISAGREEMENT**.
-- Final ACCEPTED: **0**. A reviewer-only acceptance does not resolve disagreement.
-- Pending resolution: **1,387 unreviewed + 10 awaiting adjudication = 1,397**.
-- Latest batch: `semantic/reviewer-001.json`; detailed report: [INDEPENDENT-REVIEW-001.md](INDEPENDENT-REVIEW-001.md).
-- All 1,399 original author `final_state` and `independent_review` values remain null.
-- Original reports and the 15-entry Cloud recheck queue remain unchanged. Home retrieval observations are separate.
-- Evidence: 21 source records with hashes, periods, locators and inspection notes; raw files remain in ignored local caches.
+- Author-reviewed: **1,399 / 1,399**; original author records preserved.
+- Independently reviewed: **37 / 1,399**; unreviewed: **1362**.
+- Author ACCEPTED coverage: **28 / 111**; remaining: **83**.
+- Reviewer decisions: `{'PARTIALLY_SUPPORTED': 24, 'ACCEPTED': 4, 'UNSUPPORTED': 1, 'PERIOD_UNRESOLVED': 7, 'UNKNOWN_AFTER_RESEARCH': 1}`.
+- Final states: `{'ESCALATED_REVIEW_DISAGREEMENT': 32, 'PARTIALLY_SUPPORTED': 2, 'ACCEPTED': 3}`.
+- Final ACCEPTED: **3**, within recorded period and scope.
+- Pending resolution: **1394** including **32** awaiting adjudication.
+- Latest batch: `semantic/reviewer-002.json`; report: [INDEPENDENT-REVIEW-002.md](INDEPENDENT-REVIEW-002.md).
+- Original 1,399 author final_state / independent_review values remain null. Original reports and Cloud failure queue unchanged.
+- PDF/HTML raw sources remain in ignored local caches; separate verified source package required for paper publication.
 
 ## Preserved author-status snapshot
 

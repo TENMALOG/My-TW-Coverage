@@ -3232,3 +3232,8 @@ Twelve unique claims reviewed independently against inspected source content. Re
 Review covers the five rare author outcomes, author-217/223/261/262 correction/amendment events and selected 华夏／群創／泰碩 accepted assertions. See [INDEPENDENT-REVIEW-001.md](INDEPENDENT-REVIEW-001.md) and `semantic/reviewer-001.json`. Author ledgers, issuer reports and Cloud failure observations are preserved; no corpus rewrite was performed.
 
 The author phase is complete at 1,399; the independent phase has 12 reviewed and 1,387 unreviewed, plus 10 disputes requiring adjudication. Counts describe review progress, not truth or publication readiness. Source hashes and inspection notes are committed; raw documents are local ignored cache files requiring a separate paper evidence package.
+
+
+## reviewer-002 independent review (2026-10-06T00:40:59.056166Z)
+
+Author ACCEPTED subset: 25 unique claims. Reviewer decisions: {'PARTIALLY_SUPPORTED': 15, 'UNKNOWN_AFTER_RESEARCH': 1, 'ACCEPTED': 3, 'PERIOD_UNRESOLVED': 6}. Final states: {'ESCALATED_REVIEW_DISAGREEMENT': 22, 'ACCEPTED': 3}. See [INDEPENDENT-REVIEW-002.md](INDEPENDENT-REVIEW-002.md). Author outcomes and original reports preserved.

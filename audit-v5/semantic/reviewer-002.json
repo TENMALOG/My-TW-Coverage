@@ -1,0 +1,1993 @@
+{
+  "schema": "semantic-manual-independent-review-2",
+  "batch_id": "reviewer-002",
+  "reviewer_role": "independent_reviewer",
+  "reviewer_identity": "Codex review session; distinct from author session",
+  "model_identifier": "Not exposed as a verifiable runtime model ID; no API batch or response ID claimed",
+  "reviewed_at": "2026-10-06T00:40:59.056166Z",
+  "source_commit": "6fed59c63d8445976deda4be059eace93bc725e8",
+  "policy_version": "semantic-high-1",
+  "risk_policy_version": "risk-3-calibrated",
+  "independence": {
+    "separate_author_reviewer": true,
+    "blinded": false,
+    "note": "Author labels and handoff warnings known. Decisions based on independently read source content, not author rationale."
+  },
+  "method": "Manual component review using fresh primary-source retrieval and explicitly identified historical caches; PDF text/context and targeted page rendering; no inference from substring counts or network status",
+  "scope_note": "Author ACCEPTED review, inventory positions 1 to 25; 25 unique keys; batch <=25.",
+  "review_count": 25,
+  "evidence_manifest": "audit-v5/semantic/reviewer-evidence/reviewer-002/manifest.json",
+  "evidence_manifest_sha256": "fa85d37bcd7045d96a92e1c566821f83303e3eaeed8cbcd3d1b8478dfe24324e",
+  "counterchecks": "audit-v5/semantic/reviewer-evidence/reviewer-002/numeric-counterchecks.json",
+  "counterchecks_sha256": "f501ec24cb068fb10c80fa03c1ea66996eb09f0154e78ad1a36dcdf55fce2d11",
+  "decision_counts": {
+    "PARTIALLY_SUPPORTED": 15,
+    "UNKNOWN_AFTER_RESEARCH": 1,
+    "ACCEPTED": 3,
+    "PERIOD_UNRESOLVED": 6
+  },
+  "final_state_counts": {
+    "ESCALATED_REVIEW_DISAGREEMENT": 22,
+    "ACCEPTED": 3
+  },
+  "items": [
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ccf06f0f4586432a",
+      "normalized_claim_hash": "ccf06f0f4586432ad397fb20a2a38321bb46b74d7a3b600940a52ec35d1b667c",
+      "ticker": "2208",
+      "company": "台船",
+      "path": "Pilot_Reports/Aerospace & Defense/2208_台船.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "台灣國際造船 (2208，CSBC Corporation) 是台灣最大的造船廠，隸屬公營事業體系。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。",
+      "gap_types": [
+        "entity_status",
+        "objective_ranking",
+        "non_document_response"
+      ],
+      "component_assessments": [
+        {
+          "text": "台船从事各類船舶建造",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-9e04000b7350",
+            "s-4b6da5cb7680"
+          ],
+          "reason": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。"
+        },
+        {
+          "text": "目前最大排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-9e04000b7350",
+            "s-4b6da5cb7680"
+          ],
+          "reason": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。"
+        },
+        {
+          "text": "隸屬公營事業體系",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-9e04000b7350",
+            "s-4b6da5cb7680"
+          ],
+          "reason": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。"
+        }
+      ],
+      "proposed_text": "台船從事商船、軍艦與公務船等建造；高雄市政府2009資料記載其於2008年底民營化。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-9e04000b7350",
+          "locator": "HTML台船概況／基本資料",
+          "period_binding": "2024/2025活動；2026-10-06檢視",
+          "url": "https://www2.csbcnet.com.tw/csr/about.htm",
+          "title": "台灣國際造船股份有限公司（企業社會責任）",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "2578a357388ab316cf9305aa292ba68196a8cbfdafd2bf957d93b9a1318d5610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-9e04000b7350.md",
+          "note": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。",
+          "accessed_at": "2026-10-06T00:33:44.770126+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-4b6da5cb7680",
+          "locator": "HTML逆境奮鬥及民營化末段",
+          "period_binding": "2009-11-06歷史文章",
+          "url": "https://takao.kcg.gov.tw/article/1768",
+          "title": "走過艱辛  反敗為勝的台船 - TAKAO 樂高雄",
+          "source_level": 1,
+          "publication_date": null,
+          "source_sha256": "365851cd2d00fc55bc1c55d7fb5bede47f6e8fac1adb53b0552bd211db343c04",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-4b6da5cb7680.md",
+          "note": "新官網支持造船業務。高雄市政府2009文章載2008年底民營化，原句公營身分與此矛盾；本次未從舊PDF端點取得有效刊物，亦未確立目前最大排名。股東含政府不等於仍是公營事業。",
+          "accessed_at": "2026-10-06T00:33:44.074534+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2208:material_named_relationship:d3108d0f5a3afd74",
+      "normalized_claim_hash": "d3108d0f5a3afd749bb38635359343598984e13a73e0d3137bcaa4854d5aea88",
+      "ticker": "2208",
+      "company": "台船",
+      "path": "Pilot_Reports/Aerospace & Defense/2208_台船.md",
+      "signal_type": "material_named_relationship",
+      "claim": "[[中鋼]] — 造船用低溫鋼板主要供應商",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "UNKNOWN_AFTER_RESEARCH",
+      "agrees_with_author": false,
+      "rationale": "原年報URL現在回傳網站殼而非PDF；另讀取台船現行概況未取得對應低溫鋼板供應關係。網頁地址含中鋼路不是供應商證据；本次不能重現作者所稱支持，也不據取證失敗判為假。",
+      "gap_types": [
+        "material_specification",
+        "named_supplier",
+        "non_document_response"
+      ],
+      "component_assessments": [
+        {
+          "text": "中鋼為造船用低溫鋼板主要供應商",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-2a8ac1e38bb9",
+            "s-9e04000b7350"
+          ],
+          "reason": "原年報URL現在回傳網站殼而非PDF；另讀取台船現行概況未取得對應低溫鋼板供應關係。網頁地址含中鋼路不是供應商證据；本次不能重現作者所稱支持，也不據取證失敗判為假。"
+        }
+      ],
+      "proposed_text": null,
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-2a8ac1e38bb9",
+          "locator": "HTML回應僅有導覽及地址；非年報",
+          "period_binding": "舊103年度年報端點，2026-10-06回應為網站殼",
+          "url": "https://www.csbcnet.com.tw/Uploads/AnnualReport103.pdf",
+          "title": "台灣國際造船股份有限公司 - CSBC CORPORATION, TAIWAN",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "aecfe37f9228837bae0ff0a990b38b0e9b68e6f3d45a59f205b5683e52180286",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-2a8ac1e38bb9.md",
+          "note": "原年報URL現在回傳網站殼而非PDF；另讀取台船現行概況未取得對應低溫鋼板供應關係。網頁地址含中鋼路不是供應商證据；本次不能重現作者所稱支持，也不據取證失敗判為假。",
+          "accessed_at": "2026-10-06T00:27:30.978310+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-9e04000b7350",
+          "locator": "HTML基本資料及2024/2025營運概況",
+          "period_binding": "2026-10-06檢視",
+          "url": "https://www2.csbcnet.com.tw/csr/about.htm",
+          "title": "台灣國際造船股份有限公司（企業社會責任）",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "2578a357388ab316cf9305aa292ba68196a8cbfdafd2bf957d93b9a1318d5610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-9e04000b7350.md",
+          "note": "原年報URL現在回傳網站殼而非PDF；另讀取台船現行概況未取得對應低溫鋼板供應關係。網頁地址含中鋼路不是供應商證据；本次不能重現作者所稱支持，也不據取證失敗判為假。",
+          "accessed_at": "2026-10-06T00:33:44.770126+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2634:objective_ranking_or_market_share:00ab32673453e00d",
+      "normalized_claim_hash": "00ab32673453e00d091ad2fbf1de8d22e3e2f8c485f1ab65a3e22bac32a5fc9d",
+      "ticker": "2634",
+      "company": "漢翔",
+      "path": "Pilot_Reports/Aerospace & Defense/2634_漢翔.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "與[[Lockheed Martin]]合作建立亞太唯一 [[F-16]] 維修中心；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。",
+      "gap_types": [
+        "uniqueness_scope",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "與洛馬合作建立F-16維修中心",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ebb13944941a",
+            "s-f04e7d59a1d6"
+          ],
+          "reason": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。"
+        },
+        {
+          "text": "洛馬唯一海外授權及技術轉移後勤維修中心之官方描述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-ebb13944941a",
+            "s-f04e7d59a1d6"
+          ],
+          "reason": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。"
+        },
+        {
+          "text": "亞太所有F-16維修中心中唯一",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-ebb13944941a",
+            "s-f04e7d59a1d6"
+          ],
+          "reason": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。"
+        }
+      ],
+      "proposed_text": "漢翔2023年新聞將其F-16維修中心描述為洛馬唯一海外授權及技術轉移的後勤維修中心。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-ebb13944941a",
+          "locator": "HTML洛馬總裁來訪／唯一海外授權後勤維修中心段",
+          "period_binding": "2023-12-19",
+          "url": "https://www.aidc.com.tw/tw/news/540",
+          "title": "漢翔航空工業股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "aa7289bce6a1c2726109bb37cbb8401473a289d3e4be32f60915d070c7ca9e58",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-ebb13944941a.md",
+          "note": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。",
+          "accessed_at": "2026-10-06T00:27:30.979178+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-f04e7d59a1d6",
+          "locator": "HTML F-16維修中心正文",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.aidc.com.tw/tw/military/f16",
+          "title": "漢翔航空工業股份有限公司",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "461bea4deb05a7ce16474547a11acc5be1a8defb60671a893da4330e83d998f2",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-f04e7d59a1d6.md",
+          "note": "新聞的唯一受限於洛馬海外授權及技術轉移，不等於亞太僅有一家F-16維修中心；軍方自維與其他型態未被排除。",
+          "accessed_at": "2026-10-06T00:27:30.978843+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2644:objective_ranking_or_market_share:72b533b5e1bf544c",
+      "normalized_claim_hash": "72b533b5e1bf544caa9d4bcb3d464fd0997b85c7201e46513382ec315927a2a0",
+      "ticker": "2644",
+      "company": "中信造船",
+      "path": "Pilot_Reports/Aerospace & Defense/2644_中信造船.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "中信造船 (2644，Jong Shyn Shipbuilding) 為台灣規模最大的民營造船廠，由「台灣船王」韓碧祥創辦。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。",
+      "gap_types": [
+        "issuer_group_scope",
+        "period",
+        "ranking_definition"
+      ],
+      "component_assessments": [
+        {
+          "text": "韓碧祥創辦及台灣船王之稱",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-458f76e0dd43",
+            "s-b62023108225"
+          ],
+          "reason": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。"
+        },
+        {
+          "text": "歷史企業故事稱台灣最大民營船廠",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-458f76e0dd43",
+            "s-b62023108225"
+          ],
+          "reason": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。"
+        },
+        {
+          "text": "目前上市公司範圍內的規模排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-458f76e0dd43",
+            "s-b62023108225"
+          ],
+          "reason": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。"
+        }
+      ],
+      "proposed_text": "高雄市政府企業故事記載韓碧祥從收購中信船廠發展造船事業，並以台灣船王稱之。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-458f76e0dd43",
+          "locator": "PDF實體74、76頁；書末版本資訊",
+          "period_binding": "上市前企業故事；歷史身分",
+          "url": "https://orgws.kcg.gov.tw/001/KcgOrgUploadFiles/334/relfile/69108/62851/2bfafdf4-cfb4-4738-ab09-080a02a55070.pdf",
+          "title": "正式PDF檢視：中信造船",
+          "source_level": 1,
+          "publication_date": null,
+          "source_sha256": "6f74ba1917b00e70be4063359435647322b01b4e14b844d7a1464ba91fea713f",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-458f76e0dd43.md",
+          "note": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。",
+          "accessed_at": "2026-10-06T00:27:31.041244+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-b62023108225",
+          "locator": "PDF實體1、4頁",
+          "period_binding": "2025-08-01演講",
+          "url": "https://www.sname.org.tw/sname/ckfinder_2.6.3/userfiles/files/250801_%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E5%9C%A8%E5%9C%8B%E9%98%B2%E5%B7%A5%E6%A5%AD%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2%E8%88%87%E7%AA%81%E7%A0%B4-%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E8%94%A1%E5%B1%95%E5%BC%98%E7%B6%93%E7%90%86.pdf",
+          "title": "正式PDF檢視：中信造船",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "6c10af193155e568be8832de3b9f72beaf043e54c56d374d66acc1ec34e9dc73",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-b62023108225.md",
+          "note": "政府企業故事明示創辦人與稱號，但在上市前描寫中信集團；2025演講列廠區而未給全台規模比較。不能將集團歷史敘事直接外推為目前上市公司排名。",
+          "accessed_at": "2026-10-06T00:27:31.061515+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2644:objective_ranking_or_market_share:86ac48389e66b77d",
+      "normalized_claim_hash": "86ac48389e66b77d57c3e9611de18240117d6d4face215e851eff1a326a2a477",
+      "ticker": "2644",
+      "company": "中信造船",
+      "path": "Pilot_Reports/Aerospace & Defense/2644_中信造船.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "旗下子公司高鼎遊艇為亞洲最大鋼鋁遊艇製造商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。",
+      "gap_types": [
+        "legal_subsidiary_binding",
+        "undated_ranking"
+      ],
+      "component_assessments": [
+        {
+          "text": "中信所列高鼎廠區專營鋼鋁遊艇",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-2fe720c77e3c",
+            "s-b62023108225"
+          ],
+          "reason": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。"
+        },
+        {
+          "text": "官網自述亞洲最大鋼鋁遊艇製造",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-2fe720c77e3c",
+            "s-b62023108225"
+          ],
+          "reason": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。"
+        },
+        {
+          "text": "高鼎作為獨立法律子公司的股權關係",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-2fe720c77e3c",
+            "s-b62023108225"
+          ],
+          "reason": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。"
+        }
+      ],
+      "proposed_text": "中信官網將高鼎列為旗下廠區，並將其鋼鋁遊艇製造業務描述為亞洲最大。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-2fe720c77e3c",
+          "locator": "HTML廠房介紹／四廠區高鼎段",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.jongshyn.com/about1.asp",
+          "title": "廠房介紹 | 中信造船",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "9895eab1d3fe95abd9f059326193351e7408c4ebac2f67857189ad575fd37fba",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-2fe720c77e3c.md",
+          "note": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。",
+          "accessed_at": "2026-10-06T00:27:31.284989+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-b62023108225",
+          "locator": "PDF實體4頁廠區分布",
+          "period_binding": "2025-08-01",
+          "url": "https://www.sname.org.tw/sname/ckfinder_2.6.3/userfiles/files/250801_%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E5%9C%A8%E5%9C%8B%E9%98%B2%E5%B7%A5%E6%A5%AD%E4%B8%AD%E7%9A%84%E8%A7%92%E8%89%B2%E8%88%87%E7%AA%81%E7%A0%B4-%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E8%94%A1%E5%B1%95%E5%BC%98%E7%B6%93%E7%90%86.pdf",
+          "title": "正式PDF檢視：中信造船",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "6c10af193155e568be8832de3b9f72beaf043e54c56d374d66acc1ec34e9dc73",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-b62023108225.md",
+          "note": "官網將高鼎列為四廠區，演講也以廠區列示；這可支持其業務隸屬，不足以認定另有一個高鼎遊艇法律子公司。最大描述為公司自述且未標比較年度。",
+          "accessed_at": "2026-10-06T00:27:31.061515+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6757:objective_ranking_or_market_share:1cb894214a9355a5",
+      "normalized_claim_hash": "1cb894214a9355a582d80d8ff205c7fc0b8fee044208cb52828907ea344ebbf3",
+      "ticker": "6757",
+      "company": "台灣虎航",
+      "path": "Pilot_Reports/Airlines/6757_台灣虎航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "年輕自由行觀光客 — 日本為最大航線市場",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-011",
+      "author_batch_path": "audit-v5/semantic/author-011.json",
+      "author_batch_sha256": "1ea79f38450655926dcd1ba3c115448336291ddf40fc74637ea2602788caad6d",
+      "author_batch_observed_bytes_sha256": "760e9e1d4cef4e9c5f5bf77c4b382344603205c1cb56a3574bae582720e75107",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "年報明示日本客運營收占比最高及自由行需求策略。所讀段落沒有旅客年齡分布；機隊年輕化或員工年齡不能支持客群年輕。",
+      "gap_types": [
+        "customer_demographics"
+      ],
+      "component_assessments": [
+        {
+          "text": "日本為客運營收占比最高市場",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7584542d0973"
+          ],
+          "reason": "年報明示日本客運營收占比最高及自由行需求策略。所讀段落沒有旅客年齡分布；機隊年輕化或員工年齡不能支持客群年輕。"
+        },
+        {
+          "text": "自由行市場拓展",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7584542d0973"
+          ],
+          "reason": "年報明示日本客運營收占比最高及自由行需求策略。所讀段落沒有旅客年齡分布；機隊年輕化或員工年齡不能支持客群年輕。"
+        },
+        {
+          "text": "旅客以年輕族群為主",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-7584542d0973"
+          ],
+          "reason": "年報明示日本客運營收占比最高及自由行需求策略。所讀段落沒有旅客年齡分布；機隊年輕化或員工年齡不能支持客群年輕。"
+        }
+      ],
+      "proposed_text": "台灣虎航2025年報載日本為其客運營收占比最高的市場，並以拓展自由行旅遊航點為策略。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-7584542d0973",
+          "locator": "PDF實體6、71、72頁（印刷2、67、68）",
+          "period_binding": "2025年度；2026-03-31刊印",
+          "url": "https://strapi-assets.tigerairtw.com/_2678159b14.pdf",
+          "title": "正式PDF檢視：台灣虎航",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "f78de03e0cb322ba0cb98dd51d8a6102be51de61b5f7abe69f4f7114672948ba",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-7584542d0973.md",
+          "note": "年報明示日本客運營收占比最高及自由行需求策略。所讀段落沒有旅客年齡分布；機隊年輕化或員工年齡不能支持客群年輕。",
+          "accessed_at": "2026-10-06T00:27:31.365309+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "6175:objective_ranking_or_market_share:0a838c414def37cd",
+      "normalized_claim_hash": "0a838c414def37cd2d26463d31320793de3dd77687152b5f2b1cf7f3d980a941",
+      "ticker": "6175",
+      "company": "立敦",
+      "path": "Pilot_Reports/Aluminum/6175_立敦.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Nippon Chemi-Con]] — 全球最大鋁電解電容廠；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-013",
+      "author_batch_path": "audit-v5/semantic/author-013.json",
+      "author_batch_sha256": "4915a6ca2452e9558615670144a5d8735629a71147a5b425bec232e3c909e76e",
+      "author_batch_observed_bytes_sha256": "4915a6ca2452e9558615670144a5d8735629a71147a5b425bec232e3c909e76e",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "公司正文與日本厚勞省就業機構所刊企業介紹均明示鋁電解電容世界市占第一。接受的是該產品市場占比排名，沒有引申為產能或工廠面積第一。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "日本ケミコン鋁電解電容世界市占第一",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-81a358a052e7",
+            "s-45fd0145c83e"
+          ],
+          "reason": "公司正文與日本厚勞省就業機構所刊企業介紹均明示鋁電解電容世界市占第一。接受的是該產品市場占比排名，沒有引申為產能或工廠面積第一。"
+        }
+      ],
+      "proposed_text": "日本ケミコン2026年企業介紹稱其鋁電解電容世界市占第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-81a358a052e7",
+          "locator": "HTML事業概要／アルミ電解コンデンサ正文",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.chemi-con.co.jp/company/about/business/summary.html",
+          "title": "事業概要｜日本ケミコン株式会社",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "ad9871f5430625d203fea5e8440a5a61c5d4a57d46e03e11fe3ea2011bae0610",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-81a358a052e7.md",
+          "note": "公司正文與日本厚勞省就業機構所刊企業介紹均明示鋁電解電容世界市占第一。接受的是該產品市場占比排名，沒有引申為產能或工廠面積第一。",
+          "accessed_at": "2026-10-06T00:27:31.386475+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-45fd0145c83e",
+          "locator": "PDF實體1頁事業概要及日期",
+          "period_binding": "2026-06-10",
+          "url": "https://jsite.mhlw.go.jp/niigata-hellowork/content/contents/001760211.pdf",
+          "title": "正式PDF檢視：立敦",
+          "source_level": 1,
+          "publication_date": null,
+          "source_sha256": "1ca9623038bb5b16a944c351912ed0b12833c65a2607fa9a9d90ab08a75638da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-45fd0145c83e.md",
+          "note": "公司正文與日本厚勞省就業機構所刊企業介紹均明示鋁電解電容世界市占第一。接受的是該產品市場占比排名，沒有引申為產能或工廠面積第一。",
+          "accessed_at": "2026-10-06T00:27:31.426478+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:12f16578b4009931",
+      "normalized_claim_hash": "12f16578b400993102359c1cb7753795d0157b2aa05b000a33b5a5f02662e181",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "和泰汽車 (2207，Hotai Motor) 為台灣最大汽車經銷商，獨家代理[[Toyota Motor Corporation]]、[[Lexus]]及[[日野汽車]] (Hino) 品牌，國內新車市佔率約 40%。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-017",
+      "author_batch_path": "audit-v5/semantic/author-017.json",
+      "author_batch_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_batch_observed_bytes_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。",
+      "gap_types": [
+        "contract_period",
+        "exclusivity",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "三品牌代理及2025登錄第一",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-84660813b63e",
+            "s-28650c3f4b13"
+          ],
+          "reason": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。"
+        },
+        {
+          "text": "2025新車市占38.6%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-84660813b63e",
+            "s-28650c3f4b13"
+          ],
+          "reason": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。"
+        },
+        {
+          "text": "三品牌目前獨家合約及統一期間約40%",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-84660813b63e",
+            "s-28650c3f4b13"
+          ],
+          "reason": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。"
+        }
+      ],
+      "proposed_text": "和泰2025年报载其代理Toyota、Lexus、Hino，三品牌合計登錄160,146台、市占38.6%，居表列經銷商第一。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-84660813b63e",
+          "locator": "PDF實體9、111、121、132頁（印刷5、107、117、128）",
+          "period_binding": "2025年度；HINO合約載截至2026-03-31",
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "正式PDF檢視：和泰車",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e6e5977b3fed98fc21203018e858659783ca9ba7436f34be8deb63c56c5edfb6",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-84660813b63e.md",
+          "note": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。",
+          "accessed_at": "2026-10-06T00:27:31.923032+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-28650c3f4b13",
+          "locator": "PDF實體5、15、19頁",
+          "period_binding": "2026-03-17；2025全年與2026近期登錄",
+          "url": "https://mopsov.twse.com.tw/nas/STR/220720260317M001.pdf",
+          "title": "正式PDF檢視：和泰車",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "d0c526d76ad7af646a7f08589f43a5382409508395c6da5cb6f64e5e04bd77ce",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-28650c3f4b13.md",
+          "note": "代理品牌與排名有表格支持，38.6%可近似40%，但2026近期40.4%與全年數字不能混用；年報HINO代理合約止於2026年3月，不能單靠該資料認定10月三品牌獨家代理均仍有效。",
+          "accessed_at": "2026-10-06T00:27:31.995385+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:ea263c42d696e282",
+      "normalized_claim_hash": "ea263c42d696e282271a897ed6385414c56c33e9e168ed93a1791fd71bd98c37",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "在台製造夥伴為[[國瑞汽車]] ([[Toyota]]/Hino 台灣唯一組裝廠)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-017",
+      "author_batch_path": "audit-v5/semantic/author-017.json",
+      "author_batch_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_batch_observed_bytes_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。",
+      "gap_types": [
+        "uniqueness"
+      ],
+      "component_assessments": [
+        {
+          "text": "國瑞為Toyota與Hino國內製造及供貨夥伴",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-84660813b63e"
+          ],
+          "reason": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。"
+        },
+        {
+          "text": "Toyota/Hino台灣唯一組裝廠",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-84660813b63e"
+          ],
+          "reason": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。"
+        }
+      ],
+      "proposed_text": "和泰2025年報列國瑞為Toyota及Hino車輛的國內供應來源與製造夥伴。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-84660813b63e",
+          "locator": "PDF實體111、112、121、132頁",
+          "period_binding": "2025年度",
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "正式PDF檢視：和泰車",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e6e5977b3fed98fc21203018e858659783ca9ba7436f34be8deb63c56c5edfb6",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-84660813b63e.md",
+          "note": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。",
+          "accessed_at": "2026-10-06T00:27:31.923032+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2207:objective_ranking_or_market_share:41ac99c4757c51d2",
+      "normalized_claim_hash": "41ac99c4757c51d2ca5a7fbc4537b9eca19ce6436391ead0b5a129fb5e3d0e63",
+      "ticker": "2207",
+      "company": "和泰車",
+      "path": "Pilot_Reports/Auto & Truck Dealerships/2207_和泰車.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[國瑞汽車]] — [[Toyota]]/Hino 台灣唯一組裝廠",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-017",
+      "author_batch_path": "audit-v5/semantic/author-017.json",
+      "author_batch_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_batch_observed_bytes_sha256": "69ba3a681f2babda37e1b2fcf45acdd554406fe94bb05428f70fe0c5fbb77ca3",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。",
+      "gap_types": [
+        "uniqueness"
+      ],
+      "component_assessments": [
+        {
+          "text": "國瑞為Toyota與Hino國內製造及供貨夥伴",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-84660813b63e"
+          ],
+          "reason": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。"
+        },
+        {
+          "text": "Toyota/Hino台灣唯一組裝廠",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-84660813b63e"
+          ],
+          "reason": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。"
+        }
+      ],
+      "proposed_text": "和泰2025年報列國瑞為Toyota及Hino車輛的國內供應來源與製造夥伴。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-84660813b63e",
+          "locator": "PDF實體111、112、121、132頁",
+          "period_binding": "2025年度",
+          "url": "https://www.hotaimotor.com.tw/htfile/static-files/meetings/en/Annual%20Report%202025.pdf",
+          "title": "正式PDF檢視：和泰車",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "e6e5977b3fed98fc21203018e858659783ca9ba7436f34be8deb63c56c5edfb6",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-84660813b63e.md",
+          "note": "供應來源表與製造契約支持國瑞關係；表列國內來源只有國瑞，不等於完成全台其他組裝安排的排除性調查。文件未直接確立唯一限定。",
+          "accessed_at": "2026-10-06T00:27:31.923032+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2206:objective_ranking_or_market_share:63ed0282b9ad9374",
+      "normalized_claim_hash": "63ed0282b9ad9374b7f0de60aa81b45f8538aca19b3dcc722076eaab7c2eff7d",
+      "ticker": "2206",
+      "company": "三陽工業",
+      "path": "Pilot_Reports/Auto Manufacturers/2206_三陽工業.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "機車事業方面，公司以自有品牌「SYM」穩居台灣機車市佔率龍頭，並外銷至全球市場，同時替歐洲品牌 (如 Peugeot、Lambretta) 代工。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-018",
+      "author_batch_path": "audit-v5/semantic/author-018.json",
+      "author_batch_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_batch_observed_bytes_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "簡報給出2025市占44.3%並載2022年重返冠軍、全球布局及兩個品牌OEM；以有年份的市場狀態接受，不把穩居解讀為永久第一。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "SYM台灣市占龍頭",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-6eb977825204"
+          ],
+          "reason": "簡報給出2025市占44.3%並載2022年重返冠軍、全球布局及兩個品牌OEM；以有年份的市場狀態接受，不把穩居解讀為永久第一。"
+        },
+        {
+          "text": "全球銷售",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-6eb977825204"
+          ],
+          "reason": "簡報給出2025市占44.3%並載2022年重返冠軍、全球布局及兩個品牌OEM；以有年份的市場狀態接受，不把穩居解讀為永久第一。"
+        },
+        {
+          "text": "Peugeot及Lambretta代工",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-6eb977825204"
+          ],
+          "reason": "簡報給出2025市占44.3%並載2022年重返冠軍、全球布局及兩個品牌OEM；以有年份的市場狀態接受，不把穩居解讀為永久第一。"
+        }
+      ],
+      "proposed_text": "三陽2026年4月簡報載SYM於2025年台灣機車市占44.3%，並具全球銷售及Peugeot、Lambretta代工業務。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-6eb977825204",
+          "locator": "PDF實體3、4、6、15頁",
+          "period_binding": "2026-04-29簡報；2025市占44.3%",
+          "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+          "title": "正式PDF檢視：三陽工業",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "5700fec5d4d8d4620ce2dc085c4bd33ac66578f2349aeb6940d26d43e01d1e38",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-6eb977825204.md",
+          "note": "簡報給出2025市占44.3%並載2022年重返冠軍、全球布局及兩個品牌OEM；以有年份的市場狀態接受，不把穩居解讀為永久第一。",
+          "accessed_at": "2026-10-06T00:27:32.420562+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:40b14c614d7aad1a",
+      "normalized_claim_hash": "40b14c614d7aad1ad526dc3965076308a7b8f9b358106f4bf284cda4a011f905",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 經銷",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-018",
+      "author_batch_path": "audit-v5/semantic/author-018.json",
+      "author_batch_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_batch_observed_bytes_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。",
+      "gap_types": [
+        "entity_group_binding",
+        "ranking_metric"
+      ],
+      "component_assessments": [
+        {
+          "text": "LKQ自述北美替代零件最大配送網路",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        },
+        {
+          "text": "Keystone為其品牌／業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        },
+        {
+          "text": "Keystone Automotive個別公司亦為北美最大AM經銷商",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        }
+      ],
+      "proposed_text": "LKQ2025年10-K自述北美事業擁有該區替代車用零件與配件最大配送網路；Keystone為其相關業務品牌。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "lkq2025-cache",
+          "locator": "HTML Form10-K Part I Item1／North America Distribution及Keystone品牌段",
+          "period_binding": "2025年度；本次讀取歷史快取，原下載時間不明",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "lkq-20251231",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "915747176d92c61cf635d84c2b384314b4f4d91b617956325f256ba165aa36a0",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/lkq2025-cache.md",
+          "note": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。",
+          "accessed_at": null,
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1319:objective_ranking_or_market_share:4f8e5c27889374aa",
+      "normalized_claim_hash": "4f8e5c27889374aa8d152a18dc07cbfe2a06e9a00021080f0dca3d9886e889d0",
+      "ticker": "1319",
+      "company": "東陽",
+      "path": "Pilot_Reports/Auto Parts/1319_東陽.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 通路",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-018",
+      "author_batch_path": "audit-v5/semantic/author-018.json",
+      "author_batch_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_batch_observed_bytes_sha256": "9d5118b5175b91eb2f6194a9d0ef2e0ff05de6b160a4e1bfee842c9eb4627d6a",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。",
+      "gap_types": [
+        "entity_group_binding",
+        "ranking_metric"
+      ],
+      "component_assessments": [
+        {
+          "text": "LKQ自述北美替代零件最大配送網路",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        },
+        {
+          "text": "Keystone為其品牌／業務",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        },
+        {
+          "text": "Keystone Automotive個別公司亦為北美最大AM經銷商",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "lkq2025-cache"
+          ],
+          "reason": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。"
+        }
+      ],
+      "proposed_text": "LKQ2025年10-K自述北美事業擁有該區替代車用零件與配件最大配送網路；Keystone為其相關業務品牌。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "lkq2025-cache",
+          "locator": "HTML Form10-K Part I Item1／North America Distribution及Keystone品牌段",
+          "period_binding": "2025年度；本次讀取歷史快取，原下載時間不明",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "lkq-20251231",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "915747176d92c61cf635d84c2b384314b4f4d91b617956325f256ba165aa36a0",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/lkq2025-cache.md",
+          "note": "10-K排名主體是LKQ North America segment的網路，不能把集團與名為Keystone的不同業務各自並列為最大公司。保留集團範圍及替代碰撞／機械維修市場。",
+          "accessed_at": null,
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1336:objective_ranking_or_market_share:cee272854eaffb62",
+      "normalized_claim_hash": "cee272854eaffb6221009ae9ed33d197ce5ab35b9f4feb82cd84cf6c403fee21",
+      "ticker": "1336",
+      "company": "台翰",
+      "path": "Pilot_Reports/Auto Parts/1336_台翰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "最大股東為[[宣德科技]]，最終母公司為中國[[立訊精密]]。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-019",
+      "author_batch_path": "audit-v5/semantic/author-019.json",
+      "author_batch_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_batch_observed_bytes_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。",
+      "gap_types": [
+        "ultimate_control",
+        "shareholder_vs_parent"
+      ],
+      "component_assessments": [
+        {
+          "text": "宣德持股29.12%為表列最大股東",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        },
+        {
+          "text": "立訊持有香港聯滔100%，聯滔持宣德24.59%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        },
+        {
+          "text": "立訊為台翰最終母公司",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        }
+      ],
+      "proposed_text": "台翰2025年4月股東表載宣德持股29.12%；宣德股東香港聯滔持股24.59%，其主要股東立訊持股100%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-bd5142c8106e",
+          "locator": "PDF實體10、43頁（印刷6、39）",
+          "period_binding": "2025-04-22股東快照",
+          "url": "http://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+          "title": "正式PDF檢視：台翰",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "81ba1993d9cabe68444b2e3fff94b0ed172f3f6472cd2f08da8703f08320c89e",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-bd5142c8106e.md",
+          "note": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。",
+          "accessed_at": "2026-10-06T00:27:33.468826+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1336:objective_ranking_or_market_share:fe2d9e60f44aa914",
+      "normalized_claim_hash": "fe2d9e60f44aa9141c348ac864463142a9dcbac795ad748eef3c8453c1364290",
+      "ticker": "1336",
+      "company": "台翰",
+      "path": "Pilot_Reports/Auto Parts/1336_台翰.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-019",
+      "author_batch_path": "audit-v5/semantic/author-019.json",
+      "author_batch_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_batch_observed_bytes_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。",
+      "gap_types": [
+        "ultimate_control",
+        "shareholder_vs_parent"
+      ],
+      "component_assessments": [
+        {
+          "text": "宣德持股29.12%為表列最大股東",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        },
+        {
+          "text": "立訊持有香港聯滔100%，聯滔持宣德24.59%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        },
+        {
+          "text": "立訊為台翰最終母公司",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-bd5142c8106e"
+          ],
+          "reason": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。"
+        }
+      ],
+      "proposed_text": "台翰2025年4月股東表載宣德持股29.12%；宣德股東香港聯滔持股24.59%，其主要股東立訊持股100%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-bd5142c8106e",
+          "locator": "PDF實體10、43頁（印刷6、39）",
+          "period_binding": "2025-04-22股東快照",
+          "url": "http://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+          "title": "正式PDF檢視：台翰",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "81ba1993d9cabe68444b2e3fff94b0ed172f3f6472cd2f08da8703f08320c89e",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-bd5142c8106e.md",
+          "note": "股東穿透表可證持股鏈，不足以單憑24.59%及29.12%推定最終控制／會計母公司。本次未取得明示合併控制關係的文件。",
+          "accessed_at": "2026-10-06T00:27:33.468826+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1338:objective_ranking_or_market_share:666e6bac07f9b5a5",
+      "normalized_claim_hash": "666e6bac07f9b5a52d7574b15e94527d46897600319f4ce5b5ba4f38d99dc184",
+      "ticker": "1338",
+      "company": "廣華-KY",
+      "path": "Pilot_Reports/Auto Parts/1338_廣華-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "客戶結構已從日系為主轉型為多元分散：日系 46% — [[Nissan]] (最大客戶)、[[Honda]]；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-019",
+      "author_batch_path": "audit-v5/semantic/author-019.json",
+      "author_batch_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_batch_observed_bytes_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。",
+      "gap_types": [
+        "period",
+        "trend_baseline"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024日系占46%，Nissan34%、Honda6%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "該圖Nissan為最大",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "將2024客戶比例及排名作為目前結構",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "已轉型之跨年趨勢",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        }
+      ],
+      "proposed_text": "廣華簡報的2024全年客戶圖載日系占46%，其中Nissan占34%、Honda占6%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-3fdbff6710c4",
+          "locator": "PDF實體15頁客戶別營收圖",
+          "period_binding": "2024全年；2026簡報中的回溯資料",
+          "url": "https://mopsov.twse.com.tw/nas/STR/133820250409M001.pdf",
+          "title": "正式PDF檢視：廣華-KY",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f41a7eacfefad1dcb18c9f5f87ea20698446ed8e0ba9028485d9d929d6c2642a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-3fdbff6710c4.md",
+          "note": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。",
+          "accessed_at": "2026-10-06T00:27:34.342297+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1338:objective_ranking_or_market_share:043acc8984fdcb88",
+      "normalized_claim_hash": "043acc8984fdcb88c6abe300c586123e30f9f84d63063583af266a997db938c1",
+      "ticker": "1338",
+      "company": "廣華-KY",
+      "path": "Pilot_Reports/Auto Parts/1338_廣華-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Nissan]] (最大客戶)、[[Honda]]",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-019",
+      "author_batch_path": "audit-v5/semantic/author-019.json",
+      "author_batch_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_batch_observed_bytes_sha256": "1365fb21efaf194e5d94eff50b0785e7881fc3a7737e73ec46f0c34ce09961f5",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。",
+      "gap_types": [
+        "period",
+        "trend_baseline"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024日系占46%，Nissan34%、Honda6%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "該圖Nissan為最大",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "將2024客戶比例及排名作為目前結構",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        },
+        {
+          "text": "已轉型之跨年趨勢",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-3fdbff6710c4"
+          ],
+          "reason": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。"
+        }
+      ],
+      "proposed_text": "廣華簡報的2024全年客戶圖載日系占46%，其中Nissan占34%、Honda占6%。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-3fdbff6710c4",
+          "locator": "PDF實體15頁客戶別營收圖",
+          "period_binding": "2024全年；2026簡報中的回溯資料",
+          "url": "https://mopsov.twse.com.tw/nas/STR/133820250409M001.pdf",
+          "title": "正式PDF檢視：廣華-KY",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f41a7eacfefad1dcb18c9f5f87ea20698446ed8e0ba9028485d9d929d6c2642a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-3fdbff6710c4.md",
+          "note": "圖中支持2024年的名次與比率；不是2026客戶快照，亦無同口徑前後期比較可支持已轉型。純名單項也含動態最大限定，待期間確立。",
+          "accessed_at": "2026-10-06T00:27:34.342297+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1536:objective_ranking_or_market_share:0a8bd467b7db2e7b",
+      "normalized_claim_hash": "0a8bd467b7db2e7b193aa5d65973cea10504dbdf666ea5845dee2a2562154fab",
+      "ticker": "1536",
+      "company": "和大",
+      "path": "Pilot_Reports/Auto Parts/1536_和大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "和大工業 (1536，Hota Industrial) 為台灣最大汽車齒輪與傳動零件製造商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": true,
+      "rationale": "英文簡報只直接給齒輪Top1；另讀官方日文正文明示汽車用傳動零件供應商台灣最大，兩者共同涵蓋原句範圍。此為公司自述排名，未聲稱独立產業統計。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "台灣最大汽車齒輪及傳動零件供應製造商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-3cd023a3a4e3",
+            "s-9e0e7ae3e2a2"
+          ],
+          "reason": "英文簡報只直接給齒輪Top1；另讀官方日文正文明示汽車用傳動零件供應商台灣最大，兩者共同涵蓋原句範圍。此為公司自述排名，未聲稱独立產業統計。"
+        }
+      ],
+      "proposed_text": "和大2026年簡報稱台灣齒輪製造第一；官網日文介紹亦稱其汽車傳動零件業務為台灣最大。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ACCEPTED",
+      "status": "FINALISED",
+      "paper_use": "Full claim is accepted only within stated source period and scope; cite issuer self-description as such.",
+      "evidence": [
+        {
+          "source_id": "s-3cd023a3a4e3",
+          "locator": "PDF實體1、2頁",
+          "period_binding": "2026-07-22",
+          "url": "https://mopsov.twse.com.tw/nas/STR/153620260721E003.pdf",
+          "title": "正式PDF檢視：和大",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "00c209f51fe5200536902c94199e5d99c611869dbef2e12abce9268535a4c1bc",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-3cd023a3a4e3.md",
+          "note": "英文簡報只直接給齒輪Top1；另讀官方日文正文明示汽車用傳動零件供應商台灣最大，兩者共同涵蓋原句範圍。此為公司自述排名，未聲稱独立產業統計。",
+          "accessed_at": "2026-10-06T00:27:35.200619+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-9e0e7ae3e2a2",
+          "locator": "HTML業界のリーダー段（日文）",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://www.hota.com.tw/jp/",
+          "title": "HOTA",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "a3fd2cb3c5034a966bc0f4a68d60e27a4bc2c189b099958da9c65ea89ab2ec7a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-9e0e7ae3e2a2.md",
+          "note": "英文簡報只直接給齒輪Top1；另讀官方日文正文明示汽車用傳動零件供應商台灣最大，兩者共同涵蓋原句範圍。此為公司自述排名，未聲稱独立產業統計。",
+          "accessed_at": "2026-10-06T00:34:09.613586+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "1563:objective_ranking_or_market_share:a0f33eff27b93300",
+      "normalized_claim_hash": "a0f33eff27b93300267ea7687b34c13f784728f1503e93613d400261e35d4921",
+      "ticker": "1563",
+      "company": "巧新",
+      "path": "Pilot_Reports/Auto Parts/1563_巧新.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[Otto Fuchs]] — 全球第一大鍛造輪圈廠 (德國)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "商會企業頁的world market leader為企業自述，未给第一大定義與量度，也同列底盤零件和同步環。不能將領導一詞改成可量化第一。",
+      "gap_types": [
+        "ranking_metric",
+        "self_description"
+      ],
+      "component_assessments": [
+        {
+          "text": "德國Otto Fuchs鍛造輪圈業務及自述市場領導",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-b51f6bf48a02"
+          ],
+          "reason": "商會企業頁的world market leader為企業自述，未给第一大定義與量度，也同列底盤零件和同步環。不能將領導一詞改成可量化第一。"
+        },
+        {
+          "text": "以產量、收入或市占確認全球第一大",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-b51f6bf48a02"
+          ],
+          "reason": "商會企業頁的world market leader為企業自述，未给第一大定義與量度，也同列底盤零件和同步環。不能將領導一詞改成可量化第一。"
+        }
+      ],
+      "proposed_text": "商會企業介紹載德國Otto Fuchs從事鍛造輪圈等產品並自述市場領導地位。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-b51f6bf48a02",
+          "locator": "HTML Otto Fuchs company profile 首段及地址",
+          "period_binding": "未標日期；2026-10-06檢視",
+          "url": "https://weltmarktfuehrer-sw.de/en/unternehmen/otto-fuchs/",
+          "title": "OTTO FUCHS – IHK Weltmarktführer",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "f1c0273bfe25fa713ccecc453f4ec53c777c97194814b29db0e85d9cb1118cd7",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-b51f6bf48a02.md",
+          "note": "商會企業頁的world market leader為企業自述，未给第一大定義與量度，也同列底盤零件和同步環。不能將領導一詞改成可量化第一。",
+          "accessed_at": "2026-10-06T00:27:36.586110+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2106:objective_ranking_or_market_share:0bd79cfdcec25a2d",
+      "normalized_claim_hash": "0bd79cfdcec25a2da6a9d0ef4ef86e77fcfe0bfe84ddcd99e1c0435b78ee21f7",
+      "ticker": "2106",
+      "company": "建大",
+      "path": "Pilot_Reports/Auto Parts/2106_建大.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "建大工業 (2106，Kenda Rubber Industrial) 為全球前 30 大輪胎廠，自有品牌[[Kenda]]行銷全球。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "年報海外市場段載以2022銷售為基礎的2023第24名，可支持有年份的前30；不可將其靜默升級為2026排名。",
+      "gap_types": [
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "2022銷售所據2023排名第24",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7b3845201037"
+          ],
+          "reason": "年報海外市場段載以2022銷售為基礎的2023第24名，可支持有年份的前30；不可將其靜默升級為2026排名。"
+        },
+        {
+          "text": "Kenda全球品牌行銷",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-7b3845201037"
+          ],
+          "reason": "年報海外市場段載以2022銷售為基礎的2023第24名，可支持有年份的前30；不可將其靜默升級為2026排名。"
+        },
+        {
+          "text": "目前全球前30排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-7b3845201037"
+          ],
+          "reason": "年報海外市場段載以2022銷售為基礎的2023第24名，可支持有年份的前30；不可將其靜默升級為2026排名。"
+        }
+      ],
+      "proposed_text": "建大2023年報引述以2022銷售為基準的全球輪胎公司排名第24名，並載Kenda品牌全球市場布局。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-7b3845201037",
+          "locator": "PDF實體10、110頁",
+          "period_binding": "2023年報；2023排名以2022銷售計",
+          "url": "https://www.esg.kenda.com.tw/_files/ugd/1efe60_f60bffe61fa649b5a378bb46c88af2af.pdf",
+          "title": "正式PDF檢視：建大",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "ed9b674f803cc47670b134e88a714cb4f06d1d1166562c23b09fd6f85fb1a5da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-7b3845201037.md",
+          "note": "年報海外市場段載以2022銷售為基礎的2023第24名，可支持有年份的前30；不可將其靜默升級為2026排名。",
+          "accessed_at": "2026-10-06T00:27:37.637745+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:1bcf873b591901ce",
+      "normalized_claim_hash": "1bcf873b591901ce06e8c04bdb788153caa3a55d946c94847b6d03d03c924821",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "(2) 橡皮壩 — 日本進口第一大供應商，應用於水利基礎設施；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+      "gap_types": [
+        "period",
+        "ranking_basis"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024簡報自述橡皮壩日本第一大進口製造廠及水利用途",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        },
+        {
+          "text": "未定年之現行日本進口第一排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        }
+      ],
+      "proposed_text": "鑫永銓2024年12月簡報將橡皮壩業務描述為日本第一大進口製造廠，產品用於水利設施。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c7b26be886e5",
+          "locator": "PDF實體22頁橡皮壩",
+          "period_binding": "2024-12-20簡報",
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "正式PDF檢視：鑫永銓",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "b46cdb211692174e683bd667c79197277d4aa2bbad92b75481d2747e1359e72b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-c7b26be886e5.md",
+          "note": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+          "accessed_at": "2026-10-06T00:27:37.776479+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:83a4decf054d606c",
+      "normalized_claim_hash": "83a4decf054d606cc17251cad6d8474ba6962ff0ae01e7f077a41d9b728bace5",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "橡皮壩 — 日本進口第一",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+      "gap_types": [
+        "period",
+        "ranking_basis"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024簡報自述橡皮壩日本第一大進口製造廠及水利用途",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        },
+        {
+          "text": "未定年之現行日本進口第一排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        }
+      ],
+      "proposed_text": "鑫永銓2024年12月簡報將橡皮壩業務描述為日本第一大進口製造廠，產品用於水利設施。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c7b26be886e5",
+          "locator": "PDF實體22頁橡皮壩",
+          "period_binding": "2024-12-20簡報",
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "正式PDF檢視：鑫永銓",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "b46cdb211692174e683bd667c79197277d4aa2bbad92b75481d2747e1359e72b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-c7b26be886e5.md",
+          "note": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+          "accessed_at": "2026-10-06T00:27:37.776479+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2114:objective_ranking_or_market_share:7279073e1958fd1e",
+      "normalized_claim_hash": "7279073e1958fd1e6e95b424b262bde264de1177ca632aecefa327cd0e8aadf8",
+      "ticker": "2114",
+      "company": "鑫永銓",
+      "path": "Pilot_Reports/Auto Parts/2114_鑫永銓.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "日本水利基礎設施 — 橡皮壩進口第一",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-021",
+      "author_batch_path": "audit-v5/semantic/author-021.json",
+      "author_batch_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_batch_observed_bytes_sha256": "3f3d5333c62e9cd4c290911973c8d07a1fb9504e687517e24ceda99241289d01",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+      "gap_types": [
+        "period",
+        "ranking_basis"
+      ],
+      "component_assessments": [
+        {
+          "text": "2024簡報自述橡皮壩日本第一大進口製造廠及水利用途",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        },
+        {
+          "text": "未定年之現行日本進口第一排名",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-c7b26be886e5"
+          ],
+          "reason": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。"
+        }
+      ],
+      "proposed_text": "鑫永銓2024年12月簡報將橡皮壩業務描述為日本第一大進口製造廠，產品用於水利設施。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-c7b26be886e5",
+          "locator": "PDF實體22頁橡皮壩",
+          "period_binding": "2024-12-20簡報",
+          "url": "https://mopsov.twse.com.tw/nas/STR/211420241220M001.pdf",
+          "title": "正式PDF檢視：鑫永銓",
+          "source_level": 3,
+          "publication_date": null,
+          "source_sha256": "b46cdb211692174e683bd667c79197277d4aa2bbad92b75481d2747e1359e72b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-c7b26be886e5.md",
+          "note": "原詞是第一大進口製造廠，產品與用途相符，但沒有可延伸到2026的排名期間或比較基準。保留2024公司聲明，待期間确认。",
+          "accessed_at": "2026-10-06T00:27:37.776479+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2235:objective_ranking_or_market_share:f11191fc5107144b",
+      "normalized_claim_hash": "f11191fc5107144b0e3de6ac12ee9cd4ddbb405ab449746ee153d689cd40123b",
+      "ticker": "2235",
+      "company": "謚源",
+      "path": "Pilot_Reports/Auto Parts/2235_謚源.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[LKQ]] — 美國最大汽車零件商；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-023",
+      "author_batch_path": "audit-v5/semantic/author-023.json",
+      "author_batch_sha256": "8ec5095fee2b60d91233864e7e998ac5a2209fa9387383fb767a2b5334ef8436",
+      "author_batch_observed_bytes_sha256": "8ec5095fee2b60d91233864e7e998ac5a2209fa9387383fb767a2b5334ef8436",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "10-K僅稱北美替代零件配送網路最大；不能擴大為包括OEM與各類零件通路的全美最大汽車零件商。2014他家公司公開說明書也不能替代目前同口徑排名。",
+      "gap_types": [
+        "ranking_scope",
+        "metric",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "LKQ經營替代／售後汽車零件及北美配送網路",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "lkq2025-cache",
+            "s-b6f7047915cc"
+          ],
+          "reason": "10-K僅稱北美替代零件配送網路最大；不能擴大為包括OEM與各類零件通路的全美最大汽車零件商。2014他家公司公開說明書也不能替代目前同口徑排名。"
+        },
+        {
+          "text": "全美所有汽車零件商最大",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "lkq2025-cache",
+            "s-b6f7047915cc"
+          ],
+          "reason": "10-K僅稱北美替代零件配送網路最大；不能擴大為包括OEM與各類零件通路的全美最大汽車零件商。2014他家公司公開說明書也不能替代目前同口徑排名。"
+        }
+      ],
+      "proposed_text": "LKQ2025年10-K載北美替代車用零件配送業務，並自述其該領域配送網路為北美最大。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "lkq2025-cache",
+          "locator": "HTML Form10-K Part I Item1／North America Distribution",
+          "period_binding": "2025年度；歷史快取原取得時間不明",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+          "title": "lkq-20251231",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "915747176d92c61cf635d84c2b384314b4f4d91b617956325f256ba165aa36a0",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/lkq2025-cache.md",
+          "note": "10-K僅稱北美替代零件配送網路最大；不能擴大為包括OEM與各類零件通路的全美最大汽車零件商。2014他家公司公開說明書也不能替代目前同口徑排名。",
+          "accessed_at": null,
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        },
+        {
+          "source_id": "s-b6f7047915cc",
+          "locator": "PDF實體23頁售後市場認證段",
+          "period_binding": "2014公開說明書",
+          "url": "https://www.cathaysec.com.tw/RiskManage/5553ADEF-2071-4CF5-9EBB-7394290D8A63.pdf",
+          "title": "正式PDF檢視：謚源",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "51f4431ef8eb479bb96a71c5159bfb2e15e926ca584d5cece3632049d742f8b3",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-b6f7047915cc.md",
+          "note": "10-K僅稱北美替代零件配送網路最大；不能擴大為包括OEM與各類零件通路的全美最大汽車零件商。2014他家公司公開說明書也不能替代目前同口徑排名。",
+          "accessed_at": "2026-10-06T00:27:38.845300+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    },
+    {
+      "claim_id": "2239:objective_ranking_or_market_share:f6f576305c25bdeb",
+      "normalized_claim_hash": "f6f576305c25bdebcbe2d6dc562a647827e6ad612ecbfd1ee481eeebda63e1eb",
+      "ticker": "2239",
+      "company": "英利-KY",
+      "path": "Pilot_Reports/Auto Parts/2239_英利-KY.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "核心客戶為[[一汽大眾]] (FAW-VW，最大客戶)、[[北京奔馳]] (Beijing Benz)、[[上汽大眾]] (SAIC-VW)，另供應[[Audi]] (一汽奧迪全車系儀錶板骨架)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-023",
+      "author_batch_path": "audit-v5/semantic/author-023.json",
+      "author_batch_sha256": "8ec5095fee2b60d91233864e7e998ac5a2209fa9387383fb767a2b5334ef8436",
+      "author_batch_observed_bytes_sha256": "8ec5095fee2b60d91233864e7e998ac5a2209fa9387383fb767a2b5334ef8436",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:40:59.056166Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。",
+      "gap_types": [
+        "period",
+        "upload_date_vs_document_date"
+      ],
+      "component_assessments": [
+        {
+          "text": "2014/2015一汽大眾約80%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-142ade2f5d83"
+          ],
+          "reason": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。"
+        },
+        {
+          "text": "北京奔馳及上海大眾產品關係",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-142ade2f5d83"
+          ],
+          "reason": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。"
+        },
+        {
+          "text": "当時一汽AUDI全系列儀表板骨架",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "s-142ade2f5d83"
+          ],
+          "reason": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。"
+        },
+        {
+          "text": "目前核心客戶名次與Audi全車系覆蓋",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "s-142ade2f5d83"
+          ],
+          "reason": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。"
+        }
+      ],
+      "proposed_text": "英利上市前公開說明書載2014及2015前三季一汽大眾約占銷售80%，並載當時一汽AUDI全系列儀表板骨架供應。",
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "Complete original claim is not cleared for publication; proposed source-bound components remain proposals pending adjudication.",
+      "evidence": [
+        {
+          "source_id": "s-142ade2f5d83",
+          "locator": "PDF實體20、65、67頁（印刷7、52、54）",
+          "period_binding": "2014及2015前三季；上市前公開說明書",
+          "url": "https://www.engley.com.tw/uploads/20230214/0eba85d9ca0b94f673f7dda876239640.pdf",
+          "title": "正式PDF檢視：英利-KY",
+          "source_level": 2,
+          "publication_date": null,
+          "source_sha256": "98f6f025aafa1e754a3b0c0b9090b09a530168b9ac9a24d5ad301ff9a41b9995",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-002/s-142ade2f5d83.md",
+          "note": "PDF内容确為2015上市前資料，URL的2023上傳不能改變期間。決定性全系列句子與營收集中段屬2015，不能當成2026车型供應名單。",
+          "accessed_at": "2026-10-06T00:27:39.197021+00:00",
+          "inspected_at": "2026-10-06T00:40:59.056166Z"
+        }
+      ]
+    }
+  ]
+}
