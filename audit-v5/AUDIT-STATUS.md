@@ -1,5 +1,27 @@
 # Audit v5 Status
 
+Independent-review update: 2026-10-06T00:15:29.507279Z
+Branch: `audit-v5`
+
+## Current independent-review checkpoint
+
+- Author-reviewed: **1,399 / 1,399**; author records preserved.
+- Independently reviewed: **12 / 1,399**; remaining unreviewed: **1,387**.
+- Reviewer decisions: **9 PARTIALLY_SUPPORTED, 1 ACCEPTED, 1 UNSUPPORTED, 1 PERIOD_UNRESOLVED**.
+- Final states: **2 PARTIALLY_SUPPORTED, 10 ESCALATED_REVIEW_DISAGREEMENT**.
+- Final ACCEPTED: **0**. A reviewer-only acceptance does not resolve disagreement.
+- Pending resolution: **1,387 unreviewed + 10 awaiting adjudication = 1,397**.
+- Latest batch: `semantic/reviewer-001.json`; detailed report: [INDEPENDENT-REVIEW-001.md](INDEPENDENT-REVIEW-001.md).
+- All 1,399 original author `final_state` and `independent_review` values remain null.
+- Original reports and the 15-entry Cloud recheck queue remain unchanged. Home retrieval observations are separate.
+- Evidence: 21 source records with hashes, periods, locators and inspection notes; raw files remain in ignored local caches.
+
+## Preserved author-status snapshot
+
+The following is the prior author snapshot. Its reported 2026-10-16 timestamp is future-dated relative to this review on 2026-10-06 and has not been independently verified. Its zero-review count is historical, not the current reviewer checkpoint. No historical acquisition dates have been reconstructed.
+
+# Audit v5 Status
+
 Updated: 2026-10-16 02:04 UTC
 Branch: `audit-v5`
 

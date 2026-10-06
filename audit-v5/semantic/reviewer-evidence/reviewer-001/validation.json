@@ -1,0 +1,41 @@
+{
+  "schema": "independent-review-validation-1",
+  "validated_at": "2026-10-06T00:19:27.967129+00:00",
+  "source_commit": "a0685469882bd423587577ad9aa093a6db75e757",
+  "author_batches": 266,
+  "author_items": 1399,
+  "unique_author_claims": 1399,
+  "author_hash_mismatches": 0,
+  "author_final_states_nonnull": 0,
+  "reviewer_items": 12,
+  "unique_reviewer_keys": 12,
+  "local_raw_sources_hash_checked": 21,
+  "protected_files": 2000,
+  "protected_files_changed": [],
+  "protected_baseline_manifest_sha256": "214c0698a6813f524ff5090913b6dfb16f57801881121bc684fdeba902f61ed6",
+  "protected_categories": [
+    "266 author batches",
+    "1733 original Pilot Reports",
+    "Cloud local-recheck queue"
+  ],
+  "regression_tests": {
+    "command": ".venv/Scripts/python.exe -X utf8 -m unittest discover -s audit-v5/tests",
+    "passed": 37,
+    "failed": 0
+  },
+  "validator_command": ".venv/Scripts/python.exe -X utf8 audit-v5/validate_reviewer_ledger.py --check-local-sources",
+  "fault_injection": {
+    "method": "in-memory patched JSON reads; no fixture files or author records modified",
+    "passed": 7,
+    "cases": [
+      "duplicate reviewer claim",
+      "wrong normalized claim hash",
+      "premature final acceptance over disagreement",
+      "tampered evidence manifest digest",
+      "future reviewer timestamp",
+      "in-place author finalisation",
+      "tampered raw source hash"
+    ]
+  },
+  "line_ending_portability_check": "PASS: canonical authored-text digest matches for LF and CRLF; raw source byte hashes are not normalised"
+}

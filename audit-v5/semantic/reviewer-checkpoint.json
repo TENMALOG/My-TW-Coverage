@@ -1,0 +1,136 @@
+{
+  "schema": "manual-independent-review-checkpoint-1",
+  "updated_at": "2026-10-06T00:15:29.507279Z",
+  "queue_claims": 1399,
+  "independently_reviewed": 12,
+  "remaining_review": 1387,
+  "unreviewed": 1387,
+  "adjudication_pending": 10,
+  "total_pending_resolution": 1397,
+  "finalised_partial": 2,
+  "final_accepted": 0,
+  "latest_batch": "reviewer-001",
+  "author_ledgers_final_state_policy": "All 1399 author final_state / independent_review fields remain null. Reviewer outcomes live in separate records.",
+  "reviewed_keys": [
+    {
+      "claim_id": "1305:material_named_relationship:374aa8610279391e",
+      "normalized_claim_hash": "374aa8610279391ed5ae955d6b3744e783dd95438c19ac849633bd6eeef4bb55"
+    },
+    {
+      "claim_id": "1712:objective_ranking_or_market_share:ababe1bd116826cb",
+      "normalized_claim_hash": "ababe1bd116826cbfd47d4882a25bff4d8747b130304aeb0417a1b4216255fb9"
+    },
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7",
+      "normalized_claim_hash": "7cd11cc6ee9fc2c78658a18bd2f1d2163474c88523cacb8b26ea0a82cb5d801b"
+    },
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ac3375b6f79fe6f3",
+      "normalized_claim_hash": "ac3375b6f79fe6f3e3260058c79b0edf86091db63943c45d531cdf544b8534fe"
+    },
+    {
+      "claim_id": "2610:objective_ranking_or_market_share:e790282c63b01303",
+      "normalized_claim_hash": "e790282c63b0130355e0ae4b13e6e92daee4094dba97ee82f28743d3a3c05df5"
+    },
+    {
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "normalized_claim_hash": "2d5f28d692feacbeb8a49e289369339b46b9c36ef470dd3ace00d9d75513b1a2"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f05e7d30c8a03bef",
+      "normalized_claim_hash": "f05e7d30c8a03bef0a63f4c190f2e1e68587d651c7aca4c8a58f6e4d4a40b3f0"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f2a716d3ac6b0cbc",
+      "normalized_claim_hash": "f2a716d3ac6b0cbccdc75f80bc1ed1766778078c78420c8d9813b2dbf0c95683"
+    },
+    {
+      "claim_id": "3338:profitability_assertion:d8fd097329e5101b",
+      "normalized_claim_hash": "d8fd097329e5101bf83fe774b55e2dbba35584dac2daaee6aac272e37547857c"
+    },
+    {
+      "claim_id": "3481:material_named_relationship:1a7976baa56b151f",
+      "normalized_claim_hash": "1a7976baa56b151ff64ad63f771d53416999af7c7fef7996aa935314e5151d1a"
+    },
+    {
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "normalized_claim_hash": "b8037559961325d829c4106c524a6b2ac74b88368dfc15064e9fd1db571ad363"
+    },
+    {
+      "claim_id": "6225:export_concentration:e4146e23ad193cf5",
+      "normalized_claim_hash": "e4146e23ad193cf514ab606be7bf62b4934d3bfa8a2f086a5dbc279b36f7d03d"
+    }
+  ],
+  "disagreements": [
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ac3375b6f79fe6f3",
+      "normalized_claim_hash": "ac3375b6f79fe6f3e3260058c79b0edf86091db63943c45d531cdf544b8534fe",
+      "author_decision": "UNSUPPORTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "1712:objective_ranking_or_market_share:ababe1bd116826cb",
+      "normalized_claim_hash": "ababe1bd116826cbfd47d4882a25bff4d8747b130304aeb0417a1b4216255fb9",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7",
+      "normalized_claim_hash": "7cd11cc6ee9fc2c78658a18bd2f1d2163474c88523cacb8b26ea0a82cb5d801b",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "reviewer_decision": "ACCEPTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "2610:objective_ranking_or_market_share:e790282c63b01303",
+      "normalized_claim_hash": "e790282c63b0130355e0ae4b13e6e92daee4094dba97ee82f28743d3a3c05df5",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "reviewer_decision": "UNSUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "6225:export_concentration:e4146e23ad193cf5",
+      "normalized_claim_hash": "e4146e23ad193cf514ab606be7bf62b4934d3bfa8a2f086a5dbc279b36f7d03d",
+      "author_decision": "UNSUPPORTED",
+      "reviewer_decision": "PERIOD_UNRESOLVED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "normalized_claim_hash": "2d5f28d692feacbeb8a49e289369339b46b9c36ef470dd3ace00d9d75513b1a2",
+      "author_decision": "UNKNOWN_AFTER_RESEARCH",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f05e7d30c8a03bef",
+      "normalized_claim_hash": "f05e7d30c8a03bef0a63f4c190f2e1e68587d651c7aca4c8a58f6e4d4a40b3f0",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "3481:material_named_relationship:1a7976baa56b151f",
+      "normalized_claim_hash": "1a7976baa56b151ff64ad63f771d53416999af7c7fef7996aa935314e5151d1a",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "normalized_claim_hash": "b8037559961325d829c4106c524a6b2ac74b88368dfc15064e9fd1db571ad363",
+      "author_decision": "UNKNOWN_AFTER_RESEARCH",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    },
+    {
+      "claim_id": "1305:material_named_relationship:374aa8610279391e",
+      "normalized_claim_hash": "374aa8610279391ed5ae955d6b3744e783dd95438c19ac849633bd6eeef4bb55",
+      "author_decision": "ACCEPTED",
+      "reviewer_decision": "PARTIALLY_SUPPORTED",
+      "status": "ESCALATED_REVIEW_DISAGREEMENT"
+    }
+  ]
+}

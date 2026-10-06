@@ -3223,3 +3223,12 @@ Current author-reviewed total is **21 / 1,399** (remaining **1,378**); outcomes 
 
 
 
+
+
+## Independent-review checkpoint — reviewer-001 (2026-10-06T00:15:29.507279Z)
+
+Twelve unique claims reviewed independently against inspected source content. Reviewer outcomes: 9 PARTIALLY_SUPPORTED, 1 ACCEPTED, 1 UNSUPPORTED, 1 PERIOD_UNRESOLVED. Agreement finalises two partial classifications; ten differences remain ESCALATED_REVIEW_DISAGREEMENT. Final ACCEPTED remains zero.
+
+Review covers the five rare author outcomes, author-217/223/261/262 correction/amendment events and selected 华夏／群創／泰碩 accepted assertions. See [INDEPENDENT-REVIEW-001.md](INDEPENDENT-REVIEW-001.md) and `semantic/reviewer-001.json`. Author ledgers, issuer reports and Cloud failure observations are preserved; no corpus rewrite was performed.
+
+The author phase is complete at 1,399; the independent phase has 12 reviewed and 1,387 unreviewed, plus 10 disputes requiring adjudication. Counts describe review progress, not truth or publication readiness. Source hashes and inspection notes are committed; raw documents are local ignored cache files requiring a separate paper evidence package.

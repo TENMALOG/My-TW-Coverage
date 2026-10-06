@@ -1,0 +1,1104 @@
+{
+  "schema": "semantic-manual-independent-review-2",
+  "batch_id": "reviewer-001",
+  "reviewer_role": "independent_reviewer",
+  "reviewer_identity": "Codex review session; distinct from author session",
+  "model_identifier": "not exposed as a verifiable runtime identifier; no API response id claimed",
+  "reviewed_at": "2026-10-06T00:15:29.507279Z",
+  "source_commit": "a0685469882bd423587577ad9aa093a6db75e757",
+  "policy_version": "semantic-high-1",
+  "risk_policy_version": "risk-3-calibrated",
+  "independence": {
+    "separate_author_reviewer": true,
+    "blinded": false,
+    "note": "Reviewer has seen author decisions and handoff warnings. Sources, issuer binding, periods and compound components were independently inspected; this is not a blinded experimental audit."
+  },
+  "method": "bounded independent content review with additional primary sources; HTML body and PDF page inspection; evidence notes and decision labels are not substitutes for sources",
+  "review_count": 12,
+  "evidence_manifest": "audit-v5/semantic/reviewer-evidence/reviewer-001/manifest.json",
+  "evidence_manifest_sha256": "9170daa8f052b61c79551f96165b7cd2db9924e8ce729245a3bdbfb7be4d2970",
+  "counterchecks": "audit-v5/semantic/reviewer-evidence/reviewer-001/numeric-counterchecks.json",
+  "scope_note": "Five rare author outcomes; author-217/223/261/262 corrections/amendments; three selected accepted relationship claims. Twelve unique claims, below the 25-claim limit. Not a full-corpus review.",
+  "finalisation_rule": "Matching author/reviewer decision labels are finalised at that classification. Different labels escalate; author ledgers are immutable. No complete original claim in this batch receives final ACCEPTED. Partial classifications do not approve all original clauses or any rewrite automatically.",
+  "decision_counts": {
+    "PARTIALLY_SUPPORTED": 9,
+    "ACCEPTED": 1,
+    "UNSUPPORTED": 1,
+    "PERIOD_UNRESOLVED": 1
+  },
+  "final_state_counts": {
+    "ESCALATED_REVIEW_DISAGREEMENT": 10,
+    "PARTIALLY_SUPPORTED": 2
+  },
+  "items": [
+    {
+      "claim_id": "2208:objective_ranking_or_market_share:ac3375b6f79fe6f3",
+      "normalized_claim_hash": "ac3375b6f79fe6f3e3260058c79b0edf86091db63943c45d531cdf544b8534fe",
+      "ticker": "2208",
+      "company": "台船",
+      "path": "Pilot_Reports/Aerospace & Defense/2208_台船.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "(3) [[離岸風電]]海事工程 — 與比利時[[DEME]]集團合資成立台船環海 (CDWE)，擁有亞洲最大浮吊船「環海翡翠輪」，承攬彰芳暨西島及海龍離岸風場安裝工程；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-001",
+      "author_batch_path": "audit-v5/semantic/author-001.json",
+      "author_batch_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce",
+      "author_decision": "UNSUPPORTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "合資成立、船舶及承攬安排有正式公司資料支持。作者所據2024新聞稿說亞洲第二大，但另行讀取2025台灣精品產品介紹說亞洲第一大。來源未交代相同排名口徑與變動原因，且「浮吊船」範圍大於「風電工程船」。不能接受原句的最大限定，也不能把作者的否定直接定案；保留排名衝突。",
+      "gap_types": [
+        "ranking_definition",
+        "conflicting_official_descriptions",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "與DEME集團合資成立CDWE",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "cdwe2019"
+          ],
+          "reason": "GeoSea與DEME集團關係及台船合資明示"
+        },
+        {
+          "text": "亞洲最大浮吊船",
+          "assessment": "UNRESOLVED",
+          "source_ids": [
+            "cdwe93",
+            "greenjade_award2025"
+          ],
+          "reason": "官方描述衝突且類別／量度未統一；不以較晚行銷頁自行裁決"
+        },
+        {
+          "text": "彰芳西島及海龍承攬",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "cdwe2019",
+            "cdwe93"
+          ],
+          "reason": "支持歷史契約與進度，不延伸為2026施工完成"
+        }
+      ],
+      "proposed_text": "台船與DEME集團旗下GeoSea合資成立台船環海；官方2019年資料載彰芳、西島與海龍工程承攬安排，2024年資料載環海翡翠輪參與離岸風場基礎安裝。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "cdwe93",
+          "url": "https://www.cdwe.com.tw/news_detail.php?id=93",
+          "title": "台船環海：中能風場31座水下基礎安裝完成",
+          "source_level": 3,
+          "publication_date": "2024-03-05",
+          "period_binding": "2024-03-05；不得直接延伸為2026年排名",
+          "locator": "HTML 新聞日期及首段／工程進度段",
+          "source_sha256": "b803c5d68b1469e7eaf895a715fb4891364e33cd9ea4b6a0354e7d6e4a2b1a75",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cdwe93.md",
+          "note": "發行人首段將環海翡翠輪描述為本國籍最大、亞洲第二大風電工程船；其他段落載2019年成立合資公司及海龍2024年施工安排。未提供排名衡量標準。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "cdwe83",
+          "url": "https://www.cdwe.com.tw/news_detail.php?id=83",
+          "title": "台船環海：環海翡翠輪交船典禮",
+          "source_level": 3,
+          "publication_date": "2023-06-30",
+          "period_binding": "2023年交船新聞；全球排名與亞洲排名不可直接互換",
+          "locator": "HTML 交船及船舶描述段",
+          "source_sha256": "554bb32048e927be1540a3c6e4381792cfe8c16fb493c654308d6d99e94e7d73",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cdwe83.md",
+          "note": "新聞以台船總經理發言描述台灣第一艘、當時唯一、全球第二大型風電浮吊船。世界排名不能單獨推導亞洲排名。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "cdwe2019",
+          "url": "https://www.cdwe.com.tw/news_detail1.php",
+          "title": "台船環海公司開幕",
+          "source_level": 3,
+          "publication_date": "2019-05-20",
+          "period_binding": "2019年合資成立及當時承攬安排",
+          "locator": "HTML 開幕、彰芳西島及海龍契約段",
+          "source_sha256": "7ab03ed47ea3d1a0076b3918b18edf44b60c81082ca325ee45753c7949609252",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cdwe2019.md",
+          "note": "載台船與比利時GeoSea（DEME集團）合資及彰芳西島、海龍工程承攬安排。不能把2019年計畫當作2026年實際施工完成證明。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "greenjade_award2025",
+          "url": "https://www.taiwanexcellence.org/tw/award/product/1140055",
+          "title": "台灣精品：台船海工全迴旋大型浮吊船 Hno.1175",
+          "source_level": 3,
+          "publication_date": null,
+          "period_binding": "2025台灣精品產品條目；網頁無可核實刊登日期",
+          "locator": "HTML 產品介紹；產品型號及廠商欄",
+          "source_sha256": "40dafacf39959fe4f5d65dd48c422200949690c9d753c472c4a88e525eef85a2",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/greenjade_award2025.md",
+          "note": "产品條目將環海翡翠輪描述為全球第二大、亞洲第一大風電船。此為台船產品展示文字，並非獨立排名統計；與CDWE 2024年文字存在口徑／時間衝突。不可據此猜測哪一版本是筆誤。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "e6b4335b6a1f7f5ba8dcb0c3f6a76e3aaac1d7c573a7c9f8ac81476e286c79ce"
+    },
+    {
+      "claim_id": "1712:objective_ranking_or_market_share:ababe1bd116826cb",
+      "normalized_claim_hash": "ababe1bd116826cbfd47d4882a25bff4d8747b130304aeb0417a1b4216255fb9",
+      "ticker": "1712",
+      "company": "興農",
+      "path": "Pilot_Reports/Agricultural Inputs/1712_興農.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "興農股份有限公司 (1712，Sinon Corporation) 為台灣最大農藥製造商，國內農藥零售市佔約 18%，產品外銷逾 60 國。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-004",
+      "author_batch_path": "audit-v5/semantic/author-004.json",
+      "author_batch_sha256": "9fa32224b80183e3bad72752c418abbf429282ae4db9f187f5d865324903623f",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "獨立讀取興農官方正文支持农藥生產行銷業務，但最大、零售市占18%、外銷逾60國三個限定均未確立。先前503與空殼不能支持SOURCE_UNAVAILABLE。官網恢復不是本判定依據，內容才是。逾60國另有搜尋線索但未取得有效可讀正文，未納作證據。",
+      "gap_types": [
+        "objective_ranking",
+        "market_share_denominator",
+        "export_country_count",
+        "undated_source"
+      ],
+      "component_assessments": [
+        {
+          "text": "農藥製造／產銷業務",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "sinon_about",
+            "sinon_plant"
+          ],
+          "reason": "官方正文"
+        },
+        {
+          "text": "台灣最大、18%、逾60國",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "未取得對應期間、分母及量化來源"
+        }
+      ],
+      "proposed_text": "興農官方企業介紹與植物保護事業頁說明其從事農藥等植保產品的生產與行銷；本次未確立市場排名、市占或出口國數。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "sinon_about",
+          "url": "https://www.sinon.com.tw/about/",
+          "title": "興農：企業理念",
+          "source_level": 3,
+          "publication_date": null,
+          "period_binding": "未標日期之官網；2026-10-06檢視，歷史起點明示1955年",
+          "locator": "HTML About Sinon 主文",
+          "source_sha256": "dae7637ff2987b8003105fb204e604ccea3c1188d440093a2a7078bc9d7bf1da",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/sinon_about.md",
+          "note": "介紹興農自農藥產銷起家，並拓展肥料等事業。支持農藥產銷業務；不支持最大、18%或逾60國三個限定詞。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "sinon_plant",
+          "url": "https://www.sinon.com.tw/careers-detail/28/",
+          "title": "興農：植物保護事業",
+          "source_level": 3,
+          "publication_date": null,
+          "period_binding": "未標日期之官方事業介紹；2026-10-06檢視",
+          "locator": "HTML 植物保護事業正文",
+          "source_sha256": "50fd853e013fe440fd76e5f20676facbfa2169a7c58237561d88516bd1b6241b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/sinon_plant.md",
+          "note": "頁面介紹植保產品生產與行銷。公司自己的願景或品牌形容不足以證明市場排名。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "c32ab278e692831d80e28bcca086bfae6c6dbba9dd93da2850cd948b0f500a23"
+    },
+    {
+      "claim_id": "1722:objective_ranking_or_market_share:7cd11cc6ee9fc2c7",
+      "normalized_claim_hash": "7cd11cc6ee9fc2c78658a18bd2f1d2163474c88523cacb8b26ea0a82cb5d801b",
+      "ticker": "1722",
+      "company": "台肥",
+      "path": "Pilot_Reports/Agricultural Inputs/1722_台肥.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[OCP Group]] (摩洛哥，全球最大磷礦出口商)",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-007",
+      "author_batch_path": "audit-v5/semantic/author-007.json",
+      "author_batch_sha256": "baac03e34acddebe13bd24ed087618e6e59d7f6175d9ce2130ca5f21ef7490f1",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "ACCEPTED",
+      "agrees_with_author": false,
+      "rationale": "IFC 2026項目披露在公司／股東段明示OCP為全球最大磷礦石出口商，國別為摩洛哥；對象、礦種、排名及出口角色吻合。只接受此正式披露所支持的2026描述，不以國家礦產排名替代公司排名，也不驗證台肥與OCP的交易關係。作者SOURCE_UNAVAILABLE與本判定不同，須升级裁決，不能直接最終接受。",
+      "gap_types": [],
+      "component_assessments": [
+        {
+          "text": "摩洛哥OCP Group",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "ifc51794"
+          ],
+          "reason": "Country及Company欄"
+        },
+        {
+          "text": "全球最大磷礦出口商",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "ifc51794"
+          ],
+          "reason": "公司層級正式機構披露直接明示；不是獨立統計重建"
+        }
+      ],
+      "proposed_text": "IFC於2026年披露的OCP項目資料稱，摩洛哥OCP是全球最大磷礦石出口商。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "ifc51794",
+          "url": "https://disclosures.ifc.org/project-detail/SII/51794/ocp-phosphogypsum",
+          "title": "IFC：OCP Phosphogypsum，project 51794",
+          "source_level": 1,
+          "publication_date": "2026-04-10",
+          "period_binding": "2026年項目披露；最後更新2026-05-29",
+          "locator": "HTML Company / Shareholders、Country、Date SPI Disclosed、Last Updated Date",
+          "source_sha256": "a331cbcd9bbb412af4c3a99719780685d3327ea5eaa9665c0b7d6de60a820e7c",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/ifc51794.md",
+          "note": "IFC自身投資項目披露明示OCP為全球最大磷礦石及磷酸生產商與出口商，國別為Morocco。是公司層級的正式機構披露，非以摩洛哥國家排名推導。網頁未給獨立排名計算表；只按披露支持本句，不擴張至2026年10月實測排名或台肥採購關係。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "baac03e34acddebe13bd24ed087618e6e59d7f6175d9ce2130ca5f21ef7490f1"
+    },
+    {
+      "claim_id": "2610:objective_ranking_or_market_share:e790282c63b01303",
+      "normalized_claim_hash": "e790282c63b0130355e0ae4b13e6e92daee4094dba97ee82f28743d3a3c05df5",
+      "ticker": "2610",
+      "company": "華航",
+      "path": "Pilot_Reports/Airlines/2610_華航.md",
+      "signal_type": "objective_ranking_or_market_share",
+      "claim": "[[台灣中油]] — 國內機場唯一航油供應商",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-010",
+      "author_batch_path": "audit-v5/semantic/author-010.json",
+      "author_batch_sha256": "19817280fc2b4de69e002af3349fb4b8da81274faf82f6aa0d4f313ded86159f",
+      "author_decision": "SOURCE_UNAVAILABLE",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "UNSUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "台塑石化113年報具體載其在桃園、松山、臺中、高雄均有供油服務，直接反駁無期間限定的「國內機場唯一」市場敘述；中油2025業務簡介另列2024航油市占59.4%。不是從503推論內容錯誤，也不是把市占單獨當機場供應商名冊。直接反證限2024及2025刊印時；尚未取得2026全部機場名冊，因此改寫明示歷史期間。",
+      "gap_types": [
+        "exclusivity_contradicted",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "中油為航油供應商",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "cpc2025"
+          ],
+          "reason": "官方業務說明"
+        },
+        {
+          "text": "國內機場唯一供應商",
+          "assessment": "CONTRADICTED_WITH_PERIOD",
+          "source_ids": [
+            "fpcc_ar113"
+          ],
+          "reason": "另一具名供應商明示四機場服務，反證期間明確"
+        }
+      ],
+      "proposed_text": "依2024年度官方資料，台灣中油與台塑石化均從事國內航空燃油供應；台塑石化年報列其在桃園、松山、臺中、高雄機場提供供油服務。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "fpcc_ar113",
+          "url": "https://www.fpcc.com.tw/uploads/images/ir/%E5%8F%B0%E5%A1%91%E7%9F%B3%E5%8C%96113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "台塑石化股份有限公司113年度年報",
+          "source_level": 2,
+          "publication_date": "2025-04-30",
+          "period_binding": "2024年度及2025-04-30刊印時；2026完整名冊未取得",
+          "locator": "PDF第116頁／印刷頁111，C.航空燃油",
+          "source_sha256": "3806750c868d2dadfbf5e3242265013048dc5a045da9b466f46ed5f412009420",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/fpcc_ar113.md",
+          "note": "航空燃油段逐一列桃園、松山、臺中、高雄四機場，明示台塑石化均有供油服務，是中油唯一性的具體反例。判定的直接反證期間限此披露；不推測航空公司與供油商個別合約。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "cpc2025",
+          "url": "https://ws.cpc.com.tw/cpcannual/2025/files/basic-html/page24.html",
+          "title": "台灣中油：2025業務簡介，油品行銷",
+          "source_level": 3,
+          "publication_date": null,
+          "period_binding": "2025出版內容；銷售市占資料為2024年",
+          "locator": "HTML page24；印刷頁22",
+          "source_sha256": "dbef78588044d804911acfbb1a7ff185f4552570f72b473a8870c2ac1bbee826",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cpc2025.md",
+          "note": "中油揭露2024年航空燃油市場銷量占有率59.4%。支持中油從事航油供應，但市占率本身不足以確立機場供應商角色；用台塑石化年報交叉確認。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "19817280fc2b4de69e002af3349fb4b8da81274faf82f6aa0d4f313ded86159f"
+    },
+    {
+      "claim_id": "6225:export_concentration:e4146e23ad193cf5",
+      "normalized_claim_hash": "e4146e23ad193cf514ab606be7bf62b4934d3bfa8a2f086a5dbc279b36f7d03d",
+      "ticker": "6225",
+      "company": "天瀚",
+      "path": "Pilot_Reports/Consumer Electronics/6225_天瀚.md",
+      "signal_type": "export_concentration",
+      "claim": "產品以歐美為主要外銷市場。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-216",
+      "author_batch_path": "audit-v5/semantic/author-216.json",
+      "author_batch_sha256": "81ae7b8d74341b08eac12d1997492d9874ddec28e5a4078753ed052185e42ab4",
+      "author_decision": "UNSUPPORTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PERIOD_UNRESOLVED",
+      "agrees_with_author": false,
+      "rationale": "2023年無外銷，2024年主要商品銷售表亦全在台灣，足以阻止將舊外銷描述當成該期事實。但「國內為主要市場」與「出口主要目的地」是不同分母，7.2%風險文字又未與2023零外銷一致。報告估值日期為2026而句子未標期間；未取得2025/2026目的地資料，不足以斷言現行或歷史所有期間均被否定，故改為期間未解。",
+      "gap_types": [
+        "period",
+        "export_denominator",
+        "internal_source_inconsistency"
+      ],
+      "component_assessments": [
+        {
+          "text": "2023無外銷／2024銷售表台灣100%",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "aiptek_ar112",
+            "aiptek_ar113"
+          ],
+          "reason": "分年度及表格口徑明示"
+        },
+        {
+          "text": "未標期間的歐美主要出口目的地",
+          "assessment": "PERIOD_UNRESOLVED",
+          "source_ids": [],
+          "reason": "缺現行出口目的地與金額分母"
+        }
+      ],
+      "proposed_text": "依天瀚2024年度年報，2023及2024年度主要商品銷售地區表列台灣占100%；此為歷史銷售資料，未用來判定2026年出口目的地。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "aiptek_ar112",
+          "url": "https://www.aiptek.com.tw/uploads/information_shareholders/tw/112%e5%b9%b4%e5%a0%b1.pdf",
+          "title": "天瀚科技股份有限公司112年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2023年度；歷史快取下载時間未經核實",
+          "locator": "PDF第45、51、133頁／印刷頁40、46、127",
+          "source_sha256": "ca2ebbba57845ebae2b952502350596aa564b1ff7dba05eafa551f9b4dd6107c",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/aiptek_ar112.md",
+          "note": "銷售表說明2023無外銷；另風險文字保留外銷約7.2%，不能將兩者當成同年度一致數字。國內主要市場與出口目的地為不同分母。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "aiptek_ar113",
+          "url": "https://www.aiptek.com.tw/uploads/information_year/tw/113%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "天瀚科技股份有限公司113年度年報",
+          "source_level": 2,
+          "publication_date": "2025-04-25",
+          "period_binding": "2024年度；銷售表並列2023年度，非2026年度",
+          "locator": "PDF第35、38、44頁／印刷頁31、34、40",
+          "source_sha256": "f99b0a674f70c8a428be0372c60f31b70886982f28707cc14dd2730c1b2459e2",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/aiptek_ar113.md",
+          "note": "2024主要商品銷售表列台灣54,236仟元、100%，2023亦100%；長期策略為往其他國家拓展。可證明該表口徑的2023/2024銷售，不證明2026出口目的地，也不能以國內銷售占比推論假設存在的出口目的地。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "81ae7b8d74341b08eac12d1997492d9874ddec28e5a4078753ed052185e42ab4"
+    },
+    {
+      "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+      "normalized_claim_hash": "2d5f28d692feacbeb8a49e289369339b46b9c36ef470dd3ace00d9d75513b1a2",
+      "ticker": "3071",
+      "company": "協禧",
+      "path": "Pilot_Reports/Electrical Equipment & Parts/3071_協禧.md",
+      "signal_type": "material_named_relationship",
+      "claim": "近年轉型聚焦：(1) 車用電子 — 獲歐美 Tier 1 認證，應用於車燈/座椅通風/電池散熱，間接供應[[Tesla]]、[[GM]]、[[Ford]]；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-217",
+      "author_batch_path": "audit-v5/semantic/author-217.json",
+      "author_batch_sha256": "3eb98ce4a9983bb5138fde9b3a6ef3c8a355c4a81106cebe932b976b5c52bdda",
+      "author_decision": "UNKNOWN_AFTER_RESEARCH",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "視覺核對確認emctw年報為2383，排除為3071證據，認同author-217來源歸屬更正。另從協禧官方股東會頁連結下載、核對封面3071並讀取2023年報及汽車電子正文，支持車用散熱領域。歐美Tier 1認證、車燈／座椅／電池三項用途及Tesla／GM／Ford間接供應鏈未逐項確立。對台光電文件做OCR不是本claim的正確下一步。",
+      "gap_types": [
+        "source_identity_mismatch_resolved",
+        "certification",
+        "named_end_customer",
+        "specific_application",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "車用電子散熱業務",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "adda_ar112",
+            "adda_auto"
+          ],
+          "reason": "公司正確身分及內容"
+        },
+        {
+          "text": "Tier 1認證與三家終端車廠",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "產品應用不等於認證或訂單關係"
+        },
+        {
+          "text": "台光電文件歸屬排除",
+          "assessment": "SOURCE_EXCLUDED",
+          "source_ids": [
+            "emc_ar112"
+          ],
+          "reason": "封面2383，非3071"
+        }
+      ],
+      "proposed_text": "協禧2023年度年報及官方汽車電子應用頁介紹其車用散熱產品與研發；本次未確立歐美Tier 1認證或特定車廠間接供應關係。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-217 corrections：來源由3071更正為2383；更正正確，但原rationale的協禧OCR建議未同步修正"
+      ],
+      "evidence": [
+        {
+          "source_id": "emc_ar112",
+          "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2023.pdf",
+          "title": "台光電子材料股份有限公司112年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2023年度；封面刊印2024-05-08；歷史快取下载時間未經核實",
+          "locator": "PDF封面",
+          "source_sha256": "97b07409413b6814947b425f0e41fcc7803d09336e8cda3b6e48fb8e177143d4",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/emc_ar112.md",
+          "note": "封面視覺確認公司為台光電子材料、股票代碼2383；排除為協禧3071證據。全文難讀不會改變來源身分；對錯誤公司的文件做OCR不能查證3071。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "adda_ar112",
+          "url": "https://adda.show.ad-design.tw/upload/investors_page_file/3.pdf",
+          "title": "協禧電機股份有限公司112年年報",
+          "source_level": 2,
+          "publication_date": "2024-05-24",
+          "period_binding": "2023年度；2024年刊印",
+          "locator": "PDF封面、第5、6頁／印刷頁3、4",
+          "source_sha256": "fd93993c3ab37447bed9a8e980d1ee9b28f36b900fec2602237aa396af21277a",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/adda_ar112.md",
+          "note": "封面明示3071及ADDA，從協禧官方股東會頁所連結的設計商檔案取得，內容身分已核對。年報支持車用散熱產品研發；未確立Tier 1認證及Tesla、GM、Ford三個終端關係。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "adda_auto",
+          "url": "https://www.adda.com.tw/application/Automotive-Electronics/",
+          "title": "協禧：汽車電子應用散熱風扇",
+          "source_level": 3,
+          "publication_date": null,
+          "period_binding": "未標日期之官方產品应用頁；2026-10-06檢視",
+          "locator": "HTML 汽車電子主文",
+          "source_sha256": "27dfa4cb9e079daeef36b3cccada80a0a97412cedb7ece46363b7bca1d034cc6",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/adda_auto.md",
+          "note": "官網直接介紹汽車電子應用的散熱風扇，支持應用領域。沒有把特定車廠或歐美Tier 1認證列作可查驗關係。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "3eb98ce4a9983bb5138fde9b3a6ef3c8a355c4a81106cebe932b976b5c52bdda"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f05e7d30c8a03bef",
+      "normalized_claim_hash": "f05e7d30c8a03bef0a63f4c190f2e1e68587d651c7aca4c8a58f6e4d4a40b3f0",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "material_named_relationship",
+      "claim": "泰碩電子 (3338，[[TaiSol]]) 為專業散熱模組與連接器製造商，近年成功轉型為 [[AI 伺服器]]液冷散熱核心供應商。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-223",
+      "author_batch_path": "audit-v5/semantic/author-223.json",
+      "author_batch_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be",
+      "author_decision": "ACCEPTED",
+      "author_amendment": {
+        "amended_at": "2026-10-05T22:29:58Z",
+        "amended_in_batch": "author-224",
+        "prior_decision": "UNKNOWN_AFTER_RESEARCH",
+        "reason": "第211輪以搜尋定位有效之官方端點後重新取證，取得可檢視之正式文件，故更新判定（原判定係因端點失效而非 claim 內容不實）。"
+      },
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "113年報支持散熱模組與AI/HPC液冷研發，但未證明已成功轉型為核心供應商；114年展望中的轉型與技術商業化屬計畫，不能當完成事件。連接器詞在董監事兼職公司的名稱中亦不足證明當期產品線。官方網站轉載2025新聞提供進度線索，證據位階與年報區分。",
+      "gap_types": [
+        "core_supplier_qualifier",
+        "planned_vs_completed",
+        "product_scope",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "散熱模組與液冷研發",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "taisol_ar113"
+          ],
+          "reason": "營運及研發段"
+        },
+        {
+          "text": "專業連接器製造、已成功轉型、核心供應商",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "兼職名稱與規劃不能支持完成及地位"
+        }
+      ],
+      "proposed_text": "泰碩2024年度年報介紹散熱模組業務，以及AI/HPC伺服器液冷技術研發與2025年商業化規劃。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-223 amendment／author-224：UNKNOWN改ACCEPTED；新文件有效，但完整句子未被蘊涵"
+      ],
+      "evidence": [
+        {
+          "source_id": "taisol_ar113",
+          "url": "https://www.taisol.com/wp-content/uploads/2025/06/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "泰碩電子股份有限公司113年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2024年度；包含2025未來展望／計畫",
+          "locator": "PDF第6、58、62頁／印刷頁2、54、58",
+          "source_sha256": "97eb0213f4f7f59426ef6a1becdd6611ce5f2f63bb65ae2686496d5a6863c720",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/taisol_ar113.md",
+          "note": "第6頁列液冷研發成果與114年展望；第58頁產品收入為散熱模組及其他電子零組件，CDU、Manifold列計畫研發；第62頁的NVIDIA/AMD/Intel是CPU/GPU平台及開發時程語境。不能據此推導對三家晶片廠直接供貨、RVL資格、已成核心供應商或120kW量產。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "taisol120news",
+          "url": "https://www.taisol.com/news/%E7%9E%84%E6%BA%96%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%AB%98%E5%83%B9%E6%B7%B1%E6%B0%B4%E5%8D%80%EF%BC%8C%E6%B3%B0%E7%A2%A9120kw-cdu%E6%90%B6%E5%B8%82/?lang=en_US",
+          "title": "泰碩官網轉載：120KW CDU將送客戶驗證",
+          "source_level": 3,
+          "publication_date": "2025-08-18",
+          "period_binding": "2025-08-18狀態及下一年度目標；不等同2026實績",
+          "locator": "HTML Release Date及MoneyDJ轉載正文",
+          "source_sha256": "57fcd7cc4e285598f6a5c1e03191c7817a89ecf30b9c57250e25301f6a2d323f",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/taisol120news.md",
+          "note": "網站標Source為TaiSol，但正文署名MoneyDJ，屬官方網站轉載新聞，另行註明證據性質。2025年8月內容為120kW送驗及下一年度目標，不能當成量產出貨證明或證明2026尚未出貨。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be"
+    },
+    {
+      "claim_id": "3338:profitability_assertion:d8fd097329e5101b",
+      "normalized_claim_hash": "d8fd097329e5101bf83fe774b55e2dbba35584dac2daaee6aac272e37547857c",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "profitability_assertion",
+      "claim": "核心業務與成長引擎：(1) AI 液冷散熱 — 開發 CDM (冷卻分配歧管)、LCM (液冷模組) 及 CDU (冷卻液分配單元) 等核心技術，120KW CDU 已量產出貨，150KW 產品開發中。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-223",
+      "author_batch_path": "audit-v5/semantic/author-223.json",
+      "author_batch_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be",
+      "author_decision": "PARTIALLY_SUPPORTED",
+      "author_amendment": {
+        "amended_at": "2026-10-05T22:29:58Z",
+        "amended_in_batch": "author-224",
+        "prior_decision": "UNKNOWN_AFTER_RESEARCH",
+        "reason": "第211輪以搜尋定位有效之官方端點後重新取證，取得可檢視之正式文件，故更新判定（原判定係因端點失效而非 claim 內容不實）。"
+      },
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": true,
+      "rationale": "同意CDU與Manifold液冷研發受支持，但缺口不限CDM/LCM名稱：120kW量產出貨、150kW當期開發狀態及成長引擎地位也需證明。2025-08-18轉載文字為120kW送驗及下一年供應鏈目標，不是量產實績，不能將該時間點延伸為2026尚未出貨。",
+      "gap_types": [
+        "model_specification",
+        "mass_production_vs_testing",
+        "growth_engine",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "CDU與Manifold研發",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "taisol_ar113"
+          ],
+          "reason": "第6及58頁"
+        },
+        {
+          "text": "CDM/LCM、120kW量產、150kW當期狀態、成長引擎",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "名稱、規格、階段與財務作用未完整綁定"
+        }
+      ],
+      "proposed_text": "泰碩2024年度年報列CDU與Manifold相關液冷技術研發；2025年8月官網轉載另述120kW CDU送驗進度，未作量產出貨判斷。",
+      "final_state": "PARTIALLY_SUPPORTED",
+      "status": "FINALISED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-223 amendment／author-224：UNKNOWN改PARTIAL；同意分類並擴充缺口"
+      ],
+      "evidence": [
+        {
+          "source_id": "taisol_ar113",
+          "url": "https://www.taisol.com/wp-content/uploads/2025/06/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "泰碩電子股份有限公司113年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2024年度；包含2025未來展望／計畫",
+          "locator": "PDF第6、58、62頁／印刷頁2、54、58",
+          "source_sha256": "97eb0213f4f7f59426ef6a1becdd6611ce5f2f63bb65ae2686496d5a6863c720",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/taisol_ar113.md",
+          "note": "第6頁列液冷研發成果與114年展望；第58頁產品收入為散熱模組及其他電子零組件，CDU、Manifold列計畫研發；第62頁的NVIDIA/AMD/Intel是CPU/GPU平台及開發時程語境。不能據此推導對三家晶片廠直接供貨、RVL資格、已成核心供應商或120kW量產。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "taisol120news",
+          "url": "https://www.taisol.com/news/%E7%9E%84%E6%BA%96%E4%BC%BA%E6%9C%8D%E5%99%A8%E9%AB%98%E5%83%B9%E6%B7%B1%E6%B0%B4%E5%8D%80%EF%BC%8C%E6%B3%B0%E7%A2%A9120kw-cdu%E6%90%B6%E5%B8%82/?lang=en_US",
+          "title": "泰碩官網轉載：120KW CDU將送客戶驗證",
+          "source_level": 3,
+          "publication_date": "2025-08-18",
+          "period_binding": "2025-08-18狀態及下一年度目標；不等同2026實績",
+          "locator": "HTML Release Date及MoneyDJ轉載正文",
+          "source_sha256": "57fcd7cc4e285598f6a5c1e03191c7817a89ecf30b9c57250e25301f6a2d323f",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/taisol120news.md",
+          "note": "網站標Source為TaiSol，但正文署名MoneyDJ，屬官方網站轉載新聞，另行註明證據性質。2025年8月內容為120kW送驗及下一年度目標，不能當成量產出貨證明或證明2026尚未出貨。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be"
+    },
+    {
+      "claim_id": "3338:material_named_relationship:f2a716d3ac6b0cbc",
+      "normalized_claim_hash": "f2a716d3ac6b0cbccdc75f80bc1ed1766778078c78420c8d9813b2dbf0c95683",
+      "ticker": "3338",
+      "company": "泰碩",
+      "path": "Pilot_Reports/Electronic Components/3338_泰碩.md",
+      "signal_type": "material_named_relationship",
+      "claim": "已獲 [[NVIDIA]] RVL 推薦供應商資格，產品打入台系與陸系伺服器大廠供應鏈；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-223",
+      "author_batch_path": "audit-v5/semantic/author-223.json",
+      "author_batch_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be",
+      "author_decision": "PARTIALLY_SUPPORTED",
+      "author_amendment": {
+        "amended_at": "2026-10-05T22:29:58Z",
+        "amended_in_batch": "author-224",
+        "prior_decision": "UNKNOWN_AFTER_RESEARCH",
+        "reason": "第211輪以搜尋定位有效之官方端點後重新取證，取得可檢視之正式文件，故更新判定（原判定係因端點失效而非 claim 內容不實）。"
+      },
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": true,
+      "rationale": "同意部分支持，僅支持對NVIDIA/AMD/Intel CPU/GPU平台提供散熱方案的產品範圍。平台相容／配合開發時程不是三家晶片廠的直接採購關係，故不採用作者proposed_text。RVL資格與台系／陸系伺服器大廠供應鏈進入仍未確立；文字層未找到不是資格不存在的證明。",
+      "gap_types": [
+        "platform_vs_customer_relationship",
+        "certification",
+        "supply_chain_entry",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "CPU/GPU平台散熱方案",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "taisol_ar113"
+          ],
+          "reason": "第62頁句法受詞是平台／方案"
+        },
+        {
+          "text": "RVL及台／陸系大廠供應鏈",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "尚無正式資格或具名客戶證據"
+        },
+        {
+          "text": "作者改寫的直接晶片廠供應關係",
+          "assessment": "PROPOSAL_NOT_SUPPORTED",
+          "source_ids": [
+            "taisol_ar113"
+          ],
+          "reason": "原來源不蘊涵該供貨關係"
+        }
+      ],
+      "proposed_text": "泰碩2024年度年報介紹用於NVIDIA、AMD、Intel CPU/GPU高效運算伺服器平台的散熱解決方案；未據此認定三家晶片廠為直接客戶或泰碩具RVL資格。",
+      "final_state": "PARTIALLY_SUPPORTED",
+      "status": "FINALISED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-223 amendment／author-224：UNKNOWN改PARTIAL；分類同意，作者改寫不採用"
+      ],
+      "evidence": [
+        {
+          "source_id": "taisol_ar113",
+          "url": "https://www.taisol.com/wp-content/uploads/2025/06/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+          "title": "泰碩電子股份有限公司113年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2024年度；包含2025未來展望／計畫",
+          "locator": "PDF第6、58、62頁／印刷頁2、54、58",
+          "source_sha256": "97eb0213f4f7f59426ef6a1becdd6611ce5f2f63bb65ae2686496d5a6863c720",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/taisol_ar113.md",
+          "note": "第6頁列液冷研發成果與114年展望；第58頁產品收入為散熱模組及其他電子零組件，CDU、Manifold列計畫研發；第62頁的NVIDIA/AMD/Intel是CPU/GPU平台及開發時程語境。不能據此推導對三家晶片廠直接供貨、RVL資格、已成核心供應商或120kW量產。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be"
+    },
+    {
+      "claim_id": "3481:material_named_relationship:1a7976baa56b151f",
+      "normalized_claim_hash": "1a7976baa56b151ff64ad63f771d53416999af7c7fef7996aa935314e5151d1a",
+      "ticker": "3481",
+      "company": "群創",
+      "path": "Pilot_Reports/Electronic Components/3481_群創.md",
+      "signal_type": "material_named_relationship",
+      "claim": "近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-223",
+      "author_batch_path": "audit-v5/semantic/author-223.json",
+      "author_batch_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be",
+      "author_decision": "ACCEPTED",
+      "author_amendment": {
+        "amended_at": "2026-10-05T22:29:58Z",
+        "amended_in_batch": "author-224",
+        "prior_decision": "UNKNOWN_AFTER_RESEARCH",
+        "reason": "第211輪以搜尋定位有效之官方端點後重新取證，取得可檢視之正式文件，故更新判定（原判定係因端點失效而非 claim 內容不實）。"
+      },
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "114年報支持双軌轉型、CarUX Tier 1角色及2025年底收購Pioneer完成，但不能略過BMW、GM、Tesla具名供應關係，也不能將收購無條件寫為法定合併。另有媒體及教育網站圖示線索，未取得對本句時間與關係完整的正式披露，不據摘要或Logo接受全句。",
+      "gap_types": [
+        "named_customer",
+        "acquisition_vs_legal_merger",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "雙軌轉型、CarUX Tier 1、Pioneer收購",
+          "assessment": "SUPPORTED",
+          "source_ids": [
+            "innolux_ar114"
+          ],
+          "reason": "第5、14、99頁"
+        },
+        {
+          "text": "法定合併及BMW／GM／Tesla供應",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "收購型態與具名供應未補全"
+        }
+      ],
+      "proposed_text": "群創2025年度年報說明雙軌轉型與CarUX車用Tier 1角色，並載CarUX於2025年底完成收購Pioneer；本次未確立本句所列三家車廠供應關係。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-223 amendment／author-224：UNKNOWN改ACCEPTED；新證據有效但遺漏客戶子句"
+      ],
+      "evidence": [
+        {
+          "source_id": "innolux_ar114",
+          "url": "https://www.innolux.com/Uploads/InvestorShareholdersMeetingsFile/%E7%BE%A4%E5%89%B5114%E5%B9%B4%E5%A0%B1_130948.pdf",
+          "title": "群創光電股份有限公司114年度年報",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2025年度；敘述2025年底Pioneer收購完成及2026展望",
+          "locator": "PDF第5、14、99頁／印刷頁1、10、95",
+          "source_sha256": "c62be0ac2cd022af0481287076bcc9e2f84237e0d3bb181632bf8150b2213393",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/innolux_ar114.md",
+          "note": "支持雙軌轉型、CarUX的Tier 1策略角色及收購Pioneer完成。收購與法定合併不可無條件同義。指定頁及全文可檢索文字未證明BMW、GM、Tesla三個客戶；不能將未找到當成三家公司不是客戶。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "ab996f4598923b4b321f9b51409023b5c0528385556693bb9f71f23bbedd93be"
+    },
+    {
+      "claim_id": "5009:profitability_assertion:b8037559961325d8",
+      "normalized_claim_hash": "b8037559961325d829c4106c524a6b2ac74b88368dfc15064e9fd1db571ad363",
+      "ticker": "5009",
+      "company": "榮剛",
+      "path": "Pilot_Reports/Steel/5009_榮剛.md",
+      "signal_type": "profitability_assertion",
+      "claim": "三大高毛利產品線：",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-261",
+      "author_batch_path": "audit-v5/semantic/author-261.json",
+      "author_batch_sha256": "5f619dec47e5a7093690cfbf502d8025d9ae3e0318771146e0ee79d8c12ed6a6",
+      "author_decision": "UNKNOWN_AFTER_RESEARCH",
+      "author_amendment": {
+        "amended_by_batch": "author-262",
+        "amended_at": "2026-10-05T23:29:58Z",
+        "new_evidence": [
+          {
+            "url": "https://emops.twse.com.tw/nas/STR/500920240313E001.pdf",
+            "title": "榮剛材料科技股份有限公司（榮剛，5009）法人說明會簡報（2024-03-13）",
+            "source_level": 3,
+            "note": "後續批次另行取得榮剛2024年法人說明會簡報（文字擷取13,015字元，以圖形排版為主）。簡報中「高毛利」出現1次、「航太」22次、「能源」13次，並載「航太產業展望佳，軍工產業需求穩定，高毛利產品接單出貨維持高檔」「搭配柳營擴廠，持續進行航太、能源、油氣之擴大機台認證工作」，支持其高毛利產品線涵蓋航太與能源。"
+          }
+        ],
+        "new_assessment": "PARTIALLY_SUPPORTED",
+        "new_rationale": "「三大高毛利產品線」獲發行人簡報之部分支持：簡報中「高毛利」1次、「航太」22次、「能源」13次，並載產品線涵蓋航太、能源、油氣；惟該 claim 之文本於佇列中僅有「三大高毛利產品線：」之標題，其後之三項產品未載，故無從逐項比對。",
+        "note": "本筆於 author-261 因端點 HTTP 404 判 UNKNOWN；後續批次取得榮剛法人說明會簡報後，**本 amendment 記錄該新證據與新評估**，**原判定依『保留較早判定』之原則不予更動**，差異由複核階段處理。"
+      },
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "新簡報支持高毛利產品接單出貨的概括說法，因此不以舊404維持全文UNKNOWN。但原公司報告冒號後確實有航太、能源、軍工三項，不是無從讀取的缺失context。讀取上下文後仍缺三類各別高毛利的直接綁定或分部數字；並列行業與一句高毛利不能建立逐項關係。",
+      "gap_types": [
+        "truncated_queue_context_resolved",
+        "profitability_category_binding",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "來源上下文三類：航太、能源、軍工",
+          "assessment": "CONTEXT_RECOVERED",
+          "source_ids": [],
+          "reason": "原Pilot Report第12至15行存在；不更改固定claim hash"
+        },
+        {
+          "text": "高毛利產品概括敘述",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "gmtc2024"
+          ],
+          "reason": "第9頁末行"
+        },
+        {
+          "text": "三類各自為高毛利產品線",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "未取得各類利潤資料或明確逐項聲明"
+        }
+      ],
+      "proposed_text": "榮剛日期為2024年3月14日的法說簡報討論航太、能源、油氣與國防等需求，並概括說明高毛利產品接單出貨；未列原文三類各別毛利率。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [
+        "author-261原UNKNOWN與amendment PARTIAL均保留；本review與原decision分歧",
+        "author-262重複項已移除且轉入261 amendment；目前全帳本該key唯一，確認修復",
+        "URL檔名20240313與投影片日期2024/3/14區分保存"
+      ],
+      "evidence": [
+        {
+          "source_id": "gmtc2024",
+          "url": "https://emops.twse.com.tw/nas/STR/500920240313E001.pdf",
+          "title": "榮剛材料科技股份有限公司2024法說會簡報",
+          "source_level": 3,
+          "publication_date": "2024-03-14",
+          "period_binding": "投影片內頁日期2024/3/14；URL檔名含20240313，兩者分開保存",
+          "locator": "PDF第9頁／投影片9，近期產業概況",
+          "source_sha256": "38621e802b2e1af5f5da976d5eda9efcd249ef8f3d958f148a1cac9a567ab86b",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/gmtc2024.md",
+          "note": "同頁並列航太、能源、油氣、機械模具、國防產業，末行談高毛利產品接單出貨；未給三大產品線的各別毛利率或把高毛利明確一對一綁定原文的航太、能源、軍工三類。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "5f619dec47e5a7093690cfbf502d8025d9ae3e0318771146e0ee79d8c12ed6a6"
+    },
+    {
+      "claim_id": "1305:material_named_relationship:374aa8610279391e",
+      "normalized_claim_hash": "374aa8610279391ed5ae955d6b3744e783dd95438c19ac849633bd6eeef4bb55",
+      "ticker": "1305",
+      "company": "華夏",
+      "path": "Pilot_Reports/Specialty Chemicals/1305_華夏.md",
+      "signal_type": "material_named_relationship",
+      "claim": "持有[[台灣氯乙烯]] (TVCM) 87% 股權，確保關鍵原料 VCM 穩定供應 (年產能 48.5 萬噸)。",
+      "time_class": "HIGH_IMPACT_ASSERTION",
+      "author_batch_id": "author-256",
+      "author_batch_path": "audit-v5/semantic/author-256.json",
+      "author_batch_sha256": "9fa70a820f6d111b6c042d252647088bfe74f4d48b8fdb6d305f2b8adb851fbf",
+      "author_decision": "ACCEPTED",
+      "author_amendment": null,
+      "reviewer_role": "independent_reviewer",
+      "reviewed_at": "2026-10-06T00:15:29.507279Z",
+      "decision": "PARTIALLY_SUPPORTED",
+      "agrees_with_author": false,
+      "rationale": "原作者87%依據是2020 CSR節能表0.87%的子字串，且文件被誤稱年報，不能支持股權。新讀2026第二季合併財報確立台氯持股87.31%，2025年報確立VCM產能48.5萬噸；87%可以視為整數近似，但論文應用精確值與日期。持股及產能不能單獨證明「確保穩定供應」這個因果／保證用語，因此完整原句仍僅部分支持。",
+      "gap_types": [
+        "substring_false_positive",
+        "document_type_mismatch",
+        "supply_stability_inference",
+        "period"
+      ],
+      "component_assessments": [
+        {
+          "text": "約87%股權",
+          "assessment": "SUPPORTED_WITH_PRECISION",
+          "source_ids": [
+            "cgpc_115q2"
+          ],
+          "reason": "精確值87.31%，日期2026-06-30"
+        },
+        {
+          "text": "VCM年產能48.5萬噸",
+          "assessment": "SUPPORTED_WITH_PERIOD",
+          "source_ids": [
+            "cgpc_ar114"
+          ],
+          "reason": "2025年度揭露"
+        },
+        {
+          "text": "確保原料穩定供應",
+          "assessment": "UNRESOLVED",
+          "source_ids": [],
+          "reason": "持股與產能不是供應履約／持續性證據"
+        },
+        {
+          "text": "2020文件87%子字串",
+          "assessment": "SOURCE_EXCLUDED",
+          "source_ids": [
+            "cgpc_csr2020"
+          ],
+          "reason": "0.87%節能，不是87%股權"
+        }
+      ],
+      "proposed_text": "華夏截至2026年6月30日持有台灣氯乙烯87.31%股權；華夏2025年度年報揭露VCM年產能48.5萬噸。",
+      "final_state": "ESCALATED_REVIEW_DISAGREEMENT",
+      "status": "ESCALATED",
+      "paper_use": "supported components are source/period-bound candidates; the complete original claim is not cleared for publication",
+      "reviewed_events": [],
+      "evidence": [
+        {
+          "source_id": "cgpc_csr2020",
+          "url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?step=9&filePath=/home/html/nas/protect/t100/&fileName=t100sa11_1305_109.pdf",
+          "title": "華夏2020企業社會責任報告書（非年報）",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2020報告；部分2021/2022計畫；歷史快取下载時間未經核實",
+          "locator": "PDF封面、第12、56頁／印刷頁11、55",
+          "source_sha256": "3526f1e0df66dfc3ae699a03eca882a1a6b45022e66ce074525474becfae7cb2",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cgpc_csr2020.md",
+          "note": "原檔案名稱及作者title不等於文件類型。唯一87%子字串在0.87%節能率表，主體為華夏頭份廠，與股权無關；第12頁供應鏈圖則載台氯VCM年產能48.5萬噸。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "cgpc_ar114",
+          "url": "https://www.cgpc.com.tw/PDF/Meeting/MeetingP3_115.pdf",
+          "title": "華夏海灣塑膠股份有限公司114年度年報",
+          "source_level": 2,
+          "publication_date": "2026-03-31",
+          "period_binding": "2025年度；持股表2025-12-31，產能揭露以該年報口徑",
+          "locator": "PDF第105、113頁／印刷頁101、109",
+          "source_sha256": "c0e2bdba1cc77577f824ae8861812bf8c0e50ceb8445fc8f59d88c65a4a1e223",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cgpc_ar114.md",
+          "note": "持股表列華夏持台灣氯乙烯87.31%；產業競爭段列本公司VCM年產能48.5萬噸。支持持股及披露產能，不能僅由此保證原料供應絕對穩定。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        },
+        {
+          "source_id": "cgpc_115q2",
+          "url": "https://www.cgpc.com.tw/PDF/Meeting/115Q2m.pdf",
+          "title": "華夏及子公司115年第二季合併財務報告",
+          "source_level": 2,
+          "publication_date": null,
+          "period_binding": "2026-06-30；比較日期2025-12-31及2025-06-30",
+          "locator": "PDF第19、20頁／印刷頁19、20，子公司附註",
+          "source_sha256": "430f23d8ea6f209ae058db09013cb87505add96165c7e186dfbd251a9c1f4dbf",
+          "inspection_note_path": "audit-v5/semantic/reviewer-evidence/reviewer-001/cgpc_115q2.md",
+          "note": "子公司表在2026-06-30列台灣氯乙烯持股87.31%；次頁說明2025年7月由87.27%增加至87.31%。這是實際股權來源，不能用原2020報告的0.87%替代。",
+          "accessed_at": "2026-10-06T00:15:29.507279Z"
+        }
+      ],
+      "proposed_text_review": {
+        "status": "REVIEWER_PROPOSAL_ONLY",
+        "corpus_modified": false,
+        "author_proposal_adopted": false
+      },
+      "author_batch_observed_bytes_sha256": "9fa70a820f6d111b6c042d252647088bfe74f4d48b8fdb6d305f2b8adb851fbf"
+    }
+  ],
+  "counterchecks_sha256": "8d7d326aea39e4fd09d88da9ca9418eaae27b1f4f2907b433883cbaf83d8b898",
+  "hashing_convention": "source_sha256: exact raw bytes; inspection-note / manifest / countercheck / author-batch hashes: UTF-8 with LF-normalised line endings. Observed author raw-byte hashes are separately retained."
+}
