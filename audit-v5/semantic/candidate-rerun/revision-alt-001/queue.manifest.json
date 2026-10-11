@@ -1,0 +1,29 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "revision-alt-001",
+  "selection": {
+    "rule": "narrower alternatives proposed in revision-batch-003,revision-batch-004,revision-batch-005,revision-batch-006,revision-batch-007 for non-passed revisions"
+  },
+  "created_at": "2026-10-11T22:24:11.462276+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 125,
+  "queue_sha256": "80624da37273c0d7b1cd9a5ff3219bcc4ee2d24c8a4dd7b7bff1360e5bda439c",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/revision-batch-003/delivery/outcomes.jsonl": "3515e6c349e18ce3199429344d6d093fac9a89ade3a14763c99067e2b0e2a832",
+    "audit-v5/semantic/candidate-rerun/revision-batch-003/queue.jsonl": "ef1993d51bbf47e929eaede970fb10fe2d142a0d940e910f47b7558738e3349c",
+    "audit-v5/semantic/candidate-rerun/revision-batch-004/delivery/outcomes.jsonl": "64797f48b8f6d4074bc5c48dd221ef13fa2fb73f51087c0d305cf22e6d00b3bf",
+    "audit-v5/semantic/candidate-rerun/revision-batch-004/queue.jsonl": "7cfe660b0667a1820b12e8e82b0282ec72762485322bd58eca299f99883367ca",
+    "audit-v5/semantic/candidate-rerun/revision-batch-005/delivery/outcomes.jsonl": "0e2df8cfcb0940f61226a80bdddb8221eb7ff165419862dfb84a0d83dd41c936",
+    "audit-v5/semantic/candidate-rerun/revision-batch-005/queue.jsonl": "3c674c937487959a6743f189f616f54c8e4d613e62b6dded0b67289e0dffa751",
+    "audit-v5/semantic/candidate-rerun/revision-batch-006/delivery/outcomes.jsonl": "e178ad42100fc1b9a8468dc1a92a3282b05c9f9cc498b1c1549f8275f290b41c",
+    "audit-v5/semantic/candidate-rerun/revision-batch-006/queue.jsonl": "6b7963d02d69179aea1aa2b440e73743617035bb24b1a7beef19811408a4790c",
+    "audit-v5/semantic/candidate-rerun/revision-batch-007/delivery/outcomes.jsonl": "15d784695109f6483abee53ba26b0517846e44296efb965a0ff387c8eeb54217",
+    "audit-v5/semantic/candidate-rerun/revision-batch-007/queue.jsonl": "3616dba8c40f1f46260aff36edefc3a26deb3c217818fe98a5b0d28090d3ef31"
+  },
+  "prompt_template_sha256": "ba7c75bbe269eec6e3ca6d213254d7caf2f46de8a1cde188fac9a6ff2a7b0a73",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "f54b2bdf6d45f1e1c1a78a947ef404bd9b9fd9b47f857eae8aa29dedac339fcc",
+  "prior_verdicts_withheld": true,
+  "original_acceptance_authority": false
+}

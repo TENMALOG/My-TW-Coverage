@@ -284,14 +284,19 @@ def cmd_build_alt(args):
     queue_path = root / 'queue.jsonl'
     if queue_path.exists():
         sys.exit(f'{queue_path} already frozen; refusing to rebuild')
-    src_root = HERE / args.source_batch
-    src_queue = {r['claim_id']: r for r in read_jsonl(src_root / 'queue.jsonl')}
-    outcomes = read_jsonl(src_root / 'delivery/outcomes.jsonl')
-    results = {}
-    for r in read_jsonl(src_root / 'adjudication/results.jsonl'):
-        results[r['claim_id']] = r
+    # --source-batch may list several finished batches, comma separated
+    src_roots = [HERE / s for s in args.source_batch.split(',')]
+    src_queue, outcomes, results, origin = {}, [], {}, {}
+    for src_root in src_roots:
+        for r in read_jsonl(src_root / 'queue.jsonl'):
+            src_queue[r['claim_id']] = r
+        for oc in read_jsonl(src_root / 'delivery/outcomes.jsonl'):
+            outcomes.append(oc); origin[oc['claim_id']] = src_root
+        for r in read_jsonl(src_root / 'adjudication/results.jsonl'):
+            results[r['claim_id']] = r
     rows = []
     for oc in outcomes:
+        src_root = origin[oc['claim_id']]
         alt = oc.get('alternative_text')
         if not alt or oc['verdict'] == 'REVISED_SUPPORTED':
             continue
@@ -319,7 +324,7 @@ def cmd_build_alt(args):
             'qualifier_changes': prev['qualifier_changes'],
             'proposal_binding': {'input_path': rel(src_root / 'delivery/outcomes.jsonl'),
                                  'input_sha256': digest((src_root / 'delivery/outcomes.jsonl').read_bytes()),
-                                 'proposed_text_sha256': ah, 'proposed_by': 'alternative from ' + args.source_batch},
+                                 'proposed_text_sha256': ah, 'proposed_by': 'alternative from ' + src_root.name},
             'parent_report_context': prev['parent_report_context'],
             'current_report_sha256': digest(cur.read_bytes()),
             'assessment_date': ASSESSMENT_DATE,
@@ -344,8 +349,8 @@ def cmd_build_alt(args):
         'schema': 'revision-batch-queue-1', 'batch': args.batch,
         'selection': {'rule': f'narrower alternatives proposed in {args.source_batch} for non-passed revisions'},
         'created_at': now(), 'assessment_date': ASSESSMENT_DATE, 'count': len(rows), 'queue_sha256': digest(data),
-        'inputs': {rel(src_root / 'delivery/outcomes.jsonl'): digest((src_root / 'delivery/outcomes.jsonl').read_bytes()),
-                   rel(src_root / 'queue.jsonl'): digest((src_root / 'queue.jsonl').read_bytes())},
+        'inputs': {rel(s / f): digest((s / f).read_bytes())
+                   for s in src_roots for f in ('delivery/outcomes.jsonl', 'queue.jsonl')},
         'prompt_template_sha256': digest((root / 'prompt-template.txt').read_bytes()),
         'model': MODEL, 'effort': EFFORT, 'controller_sha256': CONTROLLER_SHA256,
         'prior_verdicts_withheld': True, 'original_acceptance_authority': False})

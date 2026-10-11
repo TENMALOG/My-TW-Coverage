@@ -66,6 +66,61 @@ def jsonl(rel: str) -> list[dict]:
         return [json.loads(line) for line in f if line.strip()]
 
 
+def load_revision_ledger() -> tuple[dict, dict]:
+    """Final revision result per parent claim across all finished revision batches.
+
+    Round 1 = pilot outcomes and every batch whose queue rows do not supersede an earlier
+    revision; round 2 = alternative batches (queue rows carry supersedes_revision_id).
+    A parent passes if either round reached REVISED_SUPPORTED; round 1 wins when both did.
+    Returns (ledger, input hashes).
+    """
+    base = ROOT / CR
+    inputs = {}
+    rounds = {1: {}, 2: {}}
+
+    def period_of(results_path: Path) -> dict:
+        out = {}
+        if results_path.exists():
+            for line in open(results_path, encoding="utf-8"):
+                r = json.loads(line)
+                if r.get("output"):
+                    out[r["claim_id"]] = r["output"].get("period_assessment", "")
+        return out
+
+    pilot = base / "revision-pilot-001/delivery/pilot-outcomes.jsonl"
+    pilot_period = {r["revision_id"]: r["adjudication"].get("period_assessment", "")
+                    for r in jsonl(INPUTS["accepted_revisions"])}
+    inputs[pilot.relative_to(ROOT).as_posix()] = sha256(pilot)
+    for r in jsonl(pilot.relative_to(ROOT).as_posix()):
+        rounds[1][r["parent_claim_id"]] = {**r, "batch": "revision-pilot-001",
+                                           "period": pilot_period.get(r["claim_id"], "")}
+    for d in sorted(base.glob("revision-*")):
+        out = d / "delivery/outcomes.jsonl"
+        if d.name == "revision-pilot-001" or not out.exists():
+            continue
+        queue = [json.loads(l) for l in open(d / "queue.jsonl", encoding="utf-8") if l.strip()]
+        rnd = 2 if queue and "supersedes_revision_id" in queue[0] else 1
+        periods = period_of(d / "adjudication/results.jsonl")
+        inputs[out.relative_to(ROOT).as_posix()] = sha256(out)
+        for r in jsonl(out.relative_to(ROOT).as_posix()):
+            rec = {**r, "batch": d.name, "period": periods.get(r["claim_id"], "")}
+            prev = rounds[rnd].get(r["parent_claim_id"])
+            if prev is None or (prev["verdict"] != "REVISED_SUPPORTED" and r["verdict"] == "REVISED_SUPPORTED"):
+                rounds[rnd][r["parent_claim_id"]] = rec
+
+    ledger = {}
+    for pid in set(rounds[1]) | set(rounds[2]):
+        r1, r2 = rounds[1].get(pid), rounds[2].get(pid)
+        if r1 and r1["verdict"] == "REVISED_SUPPORTED":
+            ledger[pid] = {**r1, "round": 1, "passed": True}
+        elif r2 and r2["verdict"] == "REVISED_SUPPORTED":
+            ledger[pid] = {**r2, "round": 2, "passed": True}
+        else:
+            last = r2 or r1
+            ledger[pid] = {**last, "round": 2 if r2 else 1, "passed": False}
+    return ledger, inputs
+
+
 def parse_report(path: Path) -> dict:
     text = path.read_text(encoding="utf-8", errors="replace")
     meta = {}
@@ -103,8 +158,7 @@ def main() -> None:
     accepted_orig = {r["claim_id"]: r for r in jsonl(INPUTS["accepted_originals"])}
     inventory = {r["parent_claim_id"]: r for r in jsonl(INPUTS["inventory"])}
     pilot_queue = {r["parent_claim_id"]: r for r in jsonl(INPUTS["pilot_queue"])}
-    pilot_outcomes = {r["parent_claim_id"]: r for r in jsonl(INPUTS["pilot_outcomes"])}
-    accepted_rev = {r["parent_claim_id"]: r for r in jsonl(INPUTS["accepted_revisions"])}
+    ledger, ledger_inputs = load_revision_ledger()
 
     path_remaps = []
     claim_rows = []
@@ -119,24 +173,23 @@ def main() -> None:
             path_remaps.append({"claim_id": cid, "recorded_path": c["report_path"], "current_path": rep["report_path"]})
         verdict = rec["verdict"]
         inv = inventory.get(cid)
-        outcome = pilot_outcomes.get(cid)
+        outcome = ledger.get(cid)
         if outcome is None:
             revision_status = "待驗證" if inv else "無修正提案"
-        elif outcome["verdict"] == "REVISED_SUPPORTED":
+        elif outcome["passed"]:
             revision_status = "新句通過"
         else:
-            revision_status = "新句部分支持"
+            revision_status = "新句未通過（列入研究限制）"
 
         adoptable_text, adoption_basis, period = "", "", ""
         if cid in accepted_orig:
             adoptable_text = c["original_text"]
             adoption_basis = "原句最終 ACCEPTED"
             period = accepted_orig[cid]["adjudication"].get("period_assessment", "")
-        elif cid in accepted_rev:
-            r = accepted_rev[cid]
-            adoptable_text = r["text"]
-            adoption_basis = f"新句 REVISED_SUPPORTED（{r['revision_id']}）"
-            period = r["adjudication"].get("period_assessment", "")
+        elif outcome and outcome["passed"]:
+            adoptable_text = outcome["proposed_text"]
+            adoption_basis = f"新句 REVISED_SUPPORTED（第{outcome['round']}輪，{outcome['batch']}，{outcome['claim_id']}）"
+            period = outcome["period"]
 
         claim_rows.append({
             "claim_id": cid,
@@ -149,6 +202,9 @@ def main() -> None:
             "parent_verdict_zh": VERDICT_ZH.get(verdict, verdict),
             "original_text": c["original_text"],
             "revision_status": revision_status,
+            "revision_final_verdict": outcome["verdict"] if outcome else "",
+            "revision_round": outcome["round"] if outcome else "",
+            "revision_id": outcome["claim_id"] if outcome else "",
             "revision_priority": inv["priority"] if inv else "",
             "preferred_proposal": inv["preferred_proposal"] if inv else "",
             "pilot_category": pilot_queue[cid]["pilot_category"] if cid in pilot_queue else "",
@@ -167,7 +223,7 @@ def main() -> None:
         rows = by_ticker.get(ticker, [])
         adopt = [r for r in rows if r["adoptable_text"]]
         pending = [r for r in rows if r["revision_status"] == "待驗證"]
-        partial_rev = [r for r in rows if r["revision_status"] == "新句部分支持"]
+        partial_rev = [r for r in rows if r["revision_status"].startswith("新句未通過")]
         no_prop = [r for r in rows if r["revision_status"] == "無修正提案" and not r["adoptable_text"]]
         gaps = []
         if not rows:
@@ -175,7 +231,7 @@ def main() -> None:
         if pending:
             gaps.append(f"{len(pending)} 個修正句待驗證")
         if partial_rev:
-            gaps.append(f"{len(partial_rev)} 個新句部分支持，需更窄版本重審")
+            gaps.append(f"{len(partial_rev)} 個修正句經兩輪驗證仍未通過，列入研究限制")
         if no_prop:
             gaps.append(f"{len(no_prop)} 條主張無修正提案且未通過")
         gaps.append("財務數字未經獨立核對")
@@ -252,6 +308,9 @@ def main() -> None:
         "companies_with_claims": sum(1 for r in company_rows if r["claims_in_scope"]),
         "original_accepted": sum(1 for r in claim_rows if r["adoption_basis"] == "原句最終 ACCEPTED"),
         "revised_supported": sum(1 for r in claim_rows if r["revision_status"] == "新句通過"),
+        "revised_supported_round2": sum(1 for r in claim_rows
+                                        if r["revision_status"] == "新句通過" and r["revision_round"] == 2),
+        "revisions_not_passed": sum(1 for r in claim_rows if r["revision_status"].startswith("新句未通過")),
         "revision_parents": len(inventory),
         "revisions_pending": sum(1 for r in claim_rows if r["revision_status"] == "待驗證"),
         "claims_without_proposal": sum(1 for r in claim_rows if r["revision_status"] == "無修正提案"),
@@ -260,7 +319,7 @@ def main() -> None:
     manifest = {
         "schema": "research-catalog-1",
         "assessment_date": ASSESSMENT_DATE,
-        "inputs": {rel: sha256(ROOT / rel) for rel in INPUTS.values()},
+        "inputs": {**{rel: sha256(ROOT / rel) for rel in INPUTS.values()}, **ledger_inputs},
         "outputs": {p.name: sha256(p) for p in sorted(OUT.glob("*")) if p.suffix in (".csv",) or p.name == "path-remaps.json"},
         "totals": totals,
     }
