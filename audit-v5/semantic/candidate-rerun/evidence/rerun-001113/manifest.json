@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001113",
+  "claim_id": "6473:identity_changing_event:447f7733d52280f2",
+  "normalized_claim_hash": "447f7733d52280f2770ad30eb89eb8fe2f3d019a88a2cedee02a6331eec691fe",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a9007f266470e2ad",
+      "title": "公告美賣科技股份有限公司因更名全面換發新股",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11112/1110013213.html",
+      "source_level": 3,
+      "publication_date": "2022-12-20",
+      "effective_period": "更名換發新股；新股票自2023-01-16開始興櫃買賣",
+      "locator": "公告主旨及公告事項第1、2、5、6點",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "櫃買中心公告指明美賣科技（6473）原名好玩家，並載明更名換發新股及新股交易日期。"
+    },
+    {
+      "source_id": "src-e7e2ec81b02932cf",
+      "title": "公司合併通知說明",
+      "url": "https://www.meimaii.com/article/58/mergers2022",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022-10-01合併及更名",
+      "locator": "「美賣科技股份有限公司合併說明」及日期表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人將2022年事件描述為合併、更名及整合集團資源，並稱相關營運模式與以往相同；不能據此證明當年才完成由遊戲業到社群電商的轉型。"
+    },
+    {
+      "source_id": "src-38848b49a50e8256",
+      "title": "meimaii 美賣公司首頁",
+      "url": "https://company.meimaii.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "目前官網業務描述",
+      "locator": "首頁「meimaii 美賣」及企業介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為社群電商，提供選品、金流、出貨及客戶服務等平台服務，並標示興櫃證券代號6473。"
+    },
+    {
+      "source_id": "src-f667cc7081148c68",
+      "title": "產業價值鏈資訊平台：6473美賣所屬產業鏈",
+      "url": "https://ic.tpex.org.tw/company_chain.php?stk_code=6473",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面所示分類",
+      "locator": "「個體公司所屬產業鏈」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "櫃買中心產業價值鏈平台將6473美賣列於「電子商務 > 一般零售」。"
+    },
+    {
+      "source_id": "src-3a107e91ffbd2b59",
+      "title": "櫃買新星：好玩家股份有限公司",
+      "url": "https://www.tpex.org.tw/storage/co_report/2015/05/1430966802_3688_CH_P80%E5%A5%BD%E7%8E%A9%E5%AE%B6.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2014年10月底的公司介紹",
+      "locator": "「公司簡介及主要業務與產品」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "櫃買中心公司介紹列載其線上遊戲代理營運、線上遊戲平台營運管理及遊戲共同開發業務。"
+    },
+    {
+      "source_id": "src-8c63b563340f2f54",
+      "title": "產業價值鏈資訊平台：美賣公司沿革與願景",
+      "url": "https://ic.tpex.org.tw/company_data.php?column=vision_story&table=company_vision&userId=6473",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革敘述：2010年跨足電商；2022-10-01更名",
+      "locator": "公司沿革／願景敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "資料將跨足電商及企業轉型列於2010年，並另將更名列於2022-10-01；未明確交代社群電商模式的形成年份。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得櫃買中心更名公告、公司合併通知、官方公司業務介紹及櫃買中心公司沿革資料；仍無來源明確界定社群電商模式轉型完成的年份，因此該原子主張保留UNKNOWN。",
+    "公司官網及櫃買中心產業價值鏈平台分別支持現行業務描述與公司沿革；平台對社群電商模式形成時間未作明確界定。",
+    "2022年10月1日是發行人及櫃買中心產業沿革資料所列合併、更名日期；櫃買中心2022年12月20日公告載明新股票自2023年1月16日起開始興櫃買賣，兩者不是同一日期。",
+    "櫃買中心產業價值鏈頁面屬官方平台資料，但其公司沿革敘述未在該頁標示獨立核實方法。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6473/1113/hermes-attempt-1.stdout.txt"
+}

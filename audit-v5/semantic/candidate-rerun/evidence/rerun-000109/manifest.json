@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000109",
+  "claim_id": "6593:objective_ranking_or_market_share:2b4e80914df0aac2",
+  "normalized_claim_hash": "2b4e80914df0aac2afac15a7cc7357b064fe06420715a62d0a8f5244129f962b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-508532fec3db56cf",
+      "title": "台灣銘板｜公司介紹",
+      "url": "https://tnp.com.tw/about/company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹頁，關於 Visa、Mastercard、JCB 及中國銀聯認可的信用卡製卡廠與卡片個人化服務廠之段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司資料；未提供認可日期或證書細節。"
+    },
+    {
+      "source_id": "src-73599e2b00bd5c84",
+      "title": "台灣銘板｜Taiwan Numerical Powers",
+      "url": "https://tnp.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁「卡片」產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方網站列出多種晶片卡產品。"
+    },
+    {
+      "source_id": "src-43c094bed0c21eeb",
+      "title": "台灣銘板11月掛牌上櫃 信用卡、銘板訂單雙成長",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/2198925",
+      "source_level": 2,
+      "publication_date": "2017-09-20",
+      "effective_period": "報導所述的2017年時點；沒有特定認證晶片卡市場的期間資料。",
+      "locator": "總經理引述段落及市佔率敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導提及晶片信用卡、銀行客戶及35%市佔，但未明確建立35%數字與 Visa/Mastercard 認證晶片卡之間的對應。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核台灣銘板官方公司與產品資訊，以及2017年相關新聞報導；找到的資料足以確認歷史客戶敘述、官方製卡廠認可及35%報導數字，但沒有可核實的原始市佔分母或特定認證晶片卡市場數據，該範圍保留為 UNKNOWN。",
+    "35%市佔率及銀行客戶敘述來自2017年次級媒體報導，並非本次找到的官方市場統計或監管資料。",
+    "35%數字沒有明確的市場分界、分母、計量單位、估算方法或觀察期間。",
+    "公司官網支持製卡廠認可身分及晶片卡產品類別，但未證明某一特定晶片卡產品同時取得 Visa 與 Mastercard 認證。",
+    "歷史報導不能用來推定目前市佔或目前銀行客戶關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6593/109/hermes-attempt-1.stdout.txt"
+}

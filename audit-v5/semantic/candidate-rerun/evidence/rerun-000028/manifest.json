@@ -1,0 +1,99 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000028",
+  "claim_id": "2237:objective_ranking_or_market_share:ee7593a1bc4fa73e",
+  "normalized_claim_hash": "ee7593a1bc4fa73e403df908236fc22ed66f4fc6454b7acc1fd969d57a638547",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "racev-company-profile",
+      "title": "公司簡介－華德動能科技股份有限公司",
+      "url": "https://www.racev.com/zh-TW/about/info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06查閱；含公司對首輛認證車及市場地位的自述。",
+      "locator": "「主要營業項目」稱其國產低地板電巴是台灣首輛通過國家認證的電動巴士；「核心能力」稱近幾年市占超過50%，沒有統計期間、分母或方法。",
+      "source_sha256": "9018191bbe33aea957e0fed823c5345a1584b43f170889d776eb723a07bdb1b8",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/racev-about-info.html",
+      "note": "發行人資料。50%無日期，不能代表當前市占；首輛車的描述也不等同於製造商取得任一特定資格。"
+    },
+    {
+      "source_id": "racev-2025-06-market-share-report",
+      "title": "〖非凡新聞〗從軟硬體到三電系統MIT 直擊國產電巴製造廠",
+      "url": "https://www.racev.com/zh-TW/news/K6z/detail",
+      "source_level": 2,
+      "publication_date": "2025-06-27",
+      "effective_period": "報導稱台灣電巴市占27%；未列明分母及統計日。",
+      "locator": "報導內文市占段落；並稱2024全年交車113輛、2025預估逾200輛。",
+      "source_sha256": "288e80b2e1fb64d2f831712b856254ad9a4946ab50664041871fc93b7a3eb2bc",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/racev-2025-06-market-share-article.html",
+      "note": "非凡新聞報導由發行人網站轉載；交車數不是營運中車數。"
+    },
+    {
+      "source_id": "racev-2023-investor-presentation",
+      "title": "車王電子集團簡報（2023年10月；證交所活動簡報）",
+      "url": "https://www.twse.com.tw/staticFiles/news/event/ff8080818b7e232e018bf07179b001fb.pdf",
+      "source_level": 3,
+      "publication_date": "2023-10",
+      "effective_period": "簡報標示截至2023年10月，公司提供的資料。",
+      "locator": "PDF第20頁稱華德大巴及中巴掛牌數近500輛；第3頁記載2011年台灣第一輛電巴上路、2019年首家取得電巴自主設計開發資格。",
+      "source_sha256": "07c57d4eaf7a6bf53e8c276f608bcc3871c715d394db7b654eb22e3e4f9be0dd",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/racev-2023-investor-presentation-twse.pdf",
+      "note": "發行人簡報；支持近500輛掛牌及特定歷史里程碑，不是監理機關對首家身分的獨立認定。"
+    },
+    {
+      "source_id": "cna-2023-near-500-operating",
+      "title": "車王電旗下華德動能電動巴士 估2年後掛牌上千輛－中央社",
+      "url": "https://www.cna.com.tw/news/afe/202311210195.aspx",
+      "source_level": 2,
+      "publication_date": "2023-11-21",
+      "effective_period": "董事長於2023-11表示當年底在台掛牌運行累計近500輛。",
+      "locator": "內文談華德在台電巴士布局的段落。",
+      "source_sha256": "0cf6f9688049377d752d5f7d4ee410b5098fc77ab1834cef8de7f5f640c9f190",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/cna-2023-11-21-near-500-operating.html",
+      "note": "中央社轉述公司董事長預估；原文為「近500輛」而非「逾500輛」，也不是2026現況。"
+    },
+    {
+      "source_id": "udn-2025-registered-share-rank",
+      "title": "華德動能今明年接單將創新高 正式申請創新板上市－經濟日報",
+      "url": "https://money.udn.com/money/story/11799/9234776",
+      "source_level": 2,
+      "publication_date": "2025-12-30",
+      "effective_period": "報導稱交通部截至2025-11掛牌統計：華德市占25%，八家業者中居首。",
+      "locator": "內文「根據交通部公布國內八家電巴廠商市占率最新排名」段落。",
+      "source_sha256": "45581a22c148c27bf235b8f107152f3d21de8ebf9efc5687ba337d9893457b1a",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/udn-2025-12-30-registration-share.html",
+      "note": "新聞報導將排名歸於交通部掛牌數，但未附原始統計表；其同篇771輛數據是生產量，不是現營車輛。"
+    },
+    {
+      "source_id": "udn-2026-registration-market-share",
+      "title": "華德交車數拚年增五成－經濟日報",
+      "url": "https://money.udn.com/money/story/11074/9527211",
+      "source_level": 2,
+      "publication_date": "2026-05-26",
+      "effective_period": "報導稱華德在台累計掛牌近千輛、市占約25%至30%；未提供同時在營數量。",
+      "locator": "內文第2至3段，台灣累計掛牌及市占率。",
+      "source_sha256": "012e9442c0872ee91c0b1bf0c33b7db8c3e9de6ce34a3d93ae4b0f1fc9a6d4bc",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/udn-2026-05-26-nearly-1000-registration-share.html",
+      "note": "經濟日報轉述公司說法；「累計掛牌」不必然等同同日仍營運。"
+    },
+    {
+      "source_id": "thb-national-operating-bus-brand-dataset-metadata",
+      "title": "全國電動公車運行車輛數與廠牌資料－政府資料開放平臺／交通部公路局",
+      "url": "https://data.gov.tw/dataset/166879",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "資料涵蓋2023-01-01至2025-12-31；metadata於2026-06-02更新。",
+      "locator": "metadata列欄位CountyCode、CompanyName、Brand、Quantity（領牌輛數）。資料資源為https://www.thb.gov.tw/Common/ThbOpenDataService.ashx?SN=734&format=2。",
+      "source_sha256": "afd58bc8a83108b7f7a87942e3a3684d42045b8ca7f405175bb2b853bf697a72",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2237/28/data-gov-tw-166879-metadata.json",
+      "note": "公路局官方資料集定義。嘗試下載XML時取得Incapsula防護頁，沒有實際記錄或RAC數值，因此不據此推定車數。"
+    }
+  ],
+  "search_notes": [
+    "以華德動能單一主張為限，分別查市占、在營車數及認證種類。",
+    "優先查發行人、證交所、交通部／公路局及政府開放資料，再比對中央社與經濟日報。",
+    "公路局開放資料定義營運車輛欄位，但本次XML下載端點回傳防護頁，未取得實際廠牌計數。",
+    "將2011首輛車認證、2019自主設計開發資格及各年度掛牌市占分開處理。"
+  ]
+}

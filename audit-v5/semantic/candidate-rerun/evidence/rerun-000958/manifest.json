@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000958",
+  "claim_id": "6715:profitability_assertion:d216f2abeb9da042",
+  "normalized_claim_hash": "d216f2abeb9da042d80f2ad6473668a98716e79a80b332d0b13211d7974ad61d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-cc54c6431696886d",
+      "title": "加速未來AI運算，嘉基科技布局全球市場",
+      "url": "https://www.lintestech.com/2024/09/05/%E5%8A%A0%E9%80%9F%E6%9C%AA%E4%BE%86ai%E9%81%8B%E7%AE%97%E5%98%89%E5%9F%BA%E7%A7%91%E6%8A%80%E5%B8%83%E5%B1%80%E5%85%A8%E7%90%83%E5%B8%82%E5%A0%B4/",
+      "source_level": 3,
+      "publication_date": "2024-09-05",
+      "effective_period": "披露時點",
+      "locator": "內文第122–129行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方列出QSFP 800G AOC/LPO/DAC。"
+    },
+    {
+      "source_id": "src-b146907698d793c6",
+      "title": "TRANSMISSION & COMMUNICATION (Lintes catalog)",
+      "url": "https://en.lintestech.com/wp-content/uploads/Lintes-2504-Catalog_compressed.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "型錄檔名含「2504」；型錄未明示出版日",
+      "locator": "PDF第1頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示800G QSFP-DD AOC（Immersible / LPO）。"
+    },
+    {
+      "source_id": "src-73d142e520fd95f4",
+      "title": "Slimluster Connector and Cable - Lintes Technology",
+      "url": "https://en.lintestech.com/slimluster-connector-and-cable/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品頁第49–71行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方產品頁列示Slimluster Connector and Cable及其PCIe等應用。"
+    },
+    {
+      "source_id": "src-5786aaccc59a2870",
+      "title": "中信證券主辦「嘉基二」無擔保可轉換公司債今日掛牌",
+      "url": "https://www.ctbcholding.com/content/dam/twhoo/file/news/2024/20240118.pdf",
+      "source_level": 2,
+      "publication_date": "2024-01-18",
+      "effective_period": "2024年報導所述Slimluster PCIe5方案",
+      "locator": "PDF第1頁第10–13行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導的認證對象是三家NVIDIA供應商，不是NVIDIA本身。"
+    },
+    {
+      "source_id": "src-58c94e51e8a2d0e2",
+      "title": "看好高速傳輸需求 嘉基投入AI伺服器、Thunderbolt 5產品",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000682304_FMV21I1P1IDZP93XSV4H1",
+      "source_level": 2,
+      "publication_date": "2023-12-29",
+      "effective_period": "報導所述2024年上半年小量出貨預期",
+      "locator": "內文第289–297行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同樣稱Slimluster線材取得三家NVIDIA供應商認證；未稱取得NVIDIA官方認證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對嘉基官方產品資料、NVIDIA認證表述及Starlink供應關係的檢索；仍未找到足以解析Starlink供應關係、直接NVIDIA認證或市場增速排名的可靠證據，依研究上限停止。",
+    "官方產品列示支持產品存在或產品組合，不足以單獨證明量產出貨、客戶採用或營收貢獻。",
+    "「高毛利」資料來自券商報導，沒有產品別毛利率數值、計算期間或收入分母。",
+    "供應商認證與NVIDIA直接官方認證是不同主張；現有報導只支持前者。",
+    "Starlink供應鏈主張缺乏可核實的一手證據，故保留為UNKNOWN，而非判為不存在。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6715/958/hermes-attempt-1.stdout.txt"
+}

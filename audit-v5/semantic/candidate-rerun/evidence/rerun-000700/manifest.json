@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000700",
+  "claim_id": "4772:objective_ranking_or_market_share:2d583dbd82c12ed3",
+  "normalized_claim_hash": "2d583dbd82c12ed3d1acd4b43b40de96047e68bf95fa38ef1dd6ce8c34755feb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ca895c16c1556528",
+      "title": "Company – Taiwan Speciality Chemicals Corporation",
+      "url": "https://en.tscs.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company description; page date not stated",
+      "locator": "Company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer identifies TSC as a professional semiconductor manufacturer focused on specialty electronic-grade gases and chemicals."
+    },
+    {
+      "source_id": "src-8925af6a3149d935",
+      "title": "Latest News – Taiwan Speciality Chemicals Corporation",
+      "url": "https://en.tscs.com.tw/news",
+      "source_level": 3,
+      "publication_date": "2025-06-27",
+      "effective_period": "2025",
+      "locator": "Announcement concerning Hung Jie Technology acquisition",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer explicitly calls TSC an affiliate of Sino-American Silicon Products (SAS, 5483)."
+    },
+    {
+      "source_id": "src-eb78c5e59893370d",
+      "title": "中美矽晶積極佈局半導體產業 將成為半導體材料商台特化最大股東",
+      "url": "https://www.saswafer.com/%E4%B8%AD%E7%BE%8E%E7%9F%BD%E6%99%B6%E7%A9%8D%E6%A5%B5%E4%BD%88%E5%B1%80%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E6%A5%AD-%E5%B0%87%E6%88%90%E7%82%BA%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%9D%90%E6%96%99%E5%95%86",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Initial investment; the announcement states board approval on June 7 but does not show the year in the extracted page",
+      "locator": "Investment announcement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "SAS says it would invest NT$990 million, acquire 30.93% of TSC, and become its largest shareholder."
+    },
+    {
+      "source_id": "src-24ffbbf33bf87495",
+      "title": "公司簡介 – 台灣特品化學股份有限公司",
+      "url": "https://www.tscs.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Company history records the investment in July 2018",
+      "locator": "Development history, 2018.07",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TSC's own company history records investment by the Sino-American Silicon Group."
+    },
+    {
+      "source_id": "src-036f7cb534d49ccf",
+      "title": "2026年Q1營運報告中美矽晶(5483 TT)",
+      "url": "https://www.saswafer.com/wp-content/uploads/2026/05/SAS_company-profile-20260512_CH.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-12",
+      "effective_period": "2026 Q1",
+      "locator": "Group company performance table; ownership footnote",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "SAS reports holding 28.5% of TSC. This does not by itself establish that SAS was the largest shareholder at that date."
+    },
+    {
+      "source_id": "src-61287d2a4ecfcc4b",
+      "title": "〈觀察〉中美晶、大立光爭相入股 台特化擁何優勢打入台積供應鏈首年就獲獎",
+      "url": "https://news.cnyes.com/news/id/4423576",
+      "source_level": 2,
+      "publication_date": "2019-12-17",
+      "effective_period": "Investment discussions reported in 2019",
+      "locator": "Section headed “相中台特化發展潛力 大立光也欲入股”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that Largan intended/planned to invest and that SAS acquired 30.93% to become the largest shareholder; it does not report a completed Largan investment."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused searches and source review; the available evidence did not resolve whether Largan completed an investment in TSC.",
+    "The claim does not specify a date for the 30% ownership figure; the 30.93% figure is historical, while the official Q1 2026 report gives 28.5%.",
+    "The Q1 2026 ownership disclosure found does not establish SAS's current rank among TSC shareholders.",
+    "The Largan evidence located reports intent to invest, not completion. This leaves the completed-investment atom unresolved rather than disproven."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4772/700/hermes-attempt-1.stdout.txt"
+}

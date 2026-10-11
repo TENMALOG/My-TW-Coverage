@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000904",
+  "claim_id": "8466:material_named_relationship:4186b19ffa74dbe9",
+  "normalized_claim_hash": "4186b19ffa74dbe96948e6e2fadfe62c2059a7dad9a0bc2a1094b2fc852922e6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e898fa8bbdc0ddd77093",
+      "title": "美喆地板產品獲台灣麥當勞採用",
+      "url": "https://www.cna.com.tw/news/afe/201905300365.aspx",
+      "source_level": 2,
+      "publication_date": "2019-05-30",
+      "effective_period": "2019 announcement; rollout anticipated from July 2019",
+      "locator": "Article dated 2019/5/30, lines 283–290",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Contemporaneous CNA report attributes the supply-chain entry to a company announcement. ([cna.com.tw](https://www.cna.com.tw/news/afe/201905300365.aspx))"
+    },
+    {
+      "source_id": "src-46a2a60aaaef263f855c",
+      "title": "美喆地板產品獲台灣麥當勞採用",
+      "url": "https://www.cna.com.tw/news/afe/201905300365.aspx",
+      "source_level": 2,
+      "publication_date": "2019-05-30",
+      "effective_period": "2019; large-scale installation anticipated from July",
+      "locator": "Lines 283–290",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the product's intended floor and wall applications; the July installation timing is prospective in this report. ([cna.com.tw](https://www.cna.com.tw/news/afe/201905300365.aspx))"
+    },
+    {
+      "source_id": "src-f200c4106a9f27401cde",
+      "title": "全球受貿易戰、疫情雙重創，這家台商為何能笑得輕鬆？",
+      "url": "https://www.gvm.com.tw/article/71590",
+      "source_level": 2,
+      "publication_date": "2020-03-16",
+      "effective_period": "As reported in March 2020",
+      "locator": "Paragraphs 187–189",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The chairperson is quoted saying McDonald's buys the company's SPC floor-and-wall product; no quantities or specific store locations are given. ([gvm.com.tw](https://www.gvm.com.tw/article/71590))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩則具公信力的媒體報導分別支持2019年供應鏈導入、產品應用及後續採購關係；沒有未解原子主張，故在8輪上限前停止，交由最終裁定。",
+    "未找到可核對的公司原始公告或監管申報；2019年關係及產品應用由中央社報導公司宣布內容。",
+    "2019年報導所述自7月起鋪設是預期安排，沒有提供實際交貨量、營收或涉及店數。",
+    "2020年報導提供後續採購關係的董事長引述，但同樣未列交易量或具體門市。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8466/904/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "1684c5db8d4ede61d4ca56bec54bd82a2d9322c51d6e9a065b923bc4f8a5f3f1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8466/904/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "d822156ceeb976d25e82b06f53134c1a2fa04d8bf110b379f89c2aad98832868",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000904/manifest.json",
+  "supersedes_manifest_sha256": "f5701b3ac59e0d4d1cab50a176c78973335f697a828a765b04229b54006d2200",
+  "corrected_at": "2026-10-08T09:58:56Z"
+}

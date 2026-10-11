@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000751",
+  "claim_id": "6982:objective_ranking_or_market_share:6ce0f1f566a2483c",
+  "normalized_claim_hash": "6ce0f1f566a2483cc9416053557b2c54d983d941011941375995f42fb647689e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-27d903c188558b1b7ca7",
+      "title": "About Walrus",
+      "url": "https://walruspump.com/en/about.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面稱在當地屋頂加壓泵浦市場居第一「well over half a century」；未載明精確期間。",
+      "locator": "段落標題 “A Household Name for Water Pumps in Taiwan”；正文稱 “No. 1 provider of rooftop booster pumps in the local market for well over half a century.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官網自述，支持相關屋頂加壓泵浦品類的領先地位；未說明排名依據或市場範圍細節。"
+    },
+    {
+      "source_id": "src-3a246fa5cb94f47b03bd",
+      "title": "About Walrus",
+      "url": "https://walruspump.com/en/about.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“A Household Name for Water Pumps in Taiwan”段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "來源只稱屋頂加壓泵浦市場第一，未披露市佔率、統計期間或分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索發行人官網、公開說明資料及針對市佔率與六成數字的中英文查詢；未找到可支持該市佔率的可靠來源，依規則將該原子保留為 UNKNOWN。",
+    "領先地位的證據來自發行人自述，未見獨立市場排名或方法說明。",
+    "來源所稱「屋頂加壓泵浦」與 claim 的「住宅加壓馬達」範圍未被明確證明完全一致。",
+    "未找到可核實「六成以上」的市佔數字、期間或市場分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6982/751/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "cd3859ce04641a7e093a3a8482886732aa4de8f90b804e5b2a90de8e8a045ed9",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6982/751/isolated-prompt.txt",
+  "prompt_sha256": "397b3867a062b976dda8adbdd847e2a3faae534d69bb36ab9ec3785a71770194",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000751/manifest.json",
+  "supersedes_manifest_sha256": "71a079118f7166189a7795a00a0824ffb7266ee7efe871ac40b13e4ecee9b050",
+  "corrected_at": "2026-10-08T09:58:40Z"
+}

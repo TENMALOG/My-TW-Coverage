@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001105",
+  "claim_id": "8049:material_named_relationship:1aa37ff766ae9b3d",
+  "normalized_claim_hash": "1aa37ff766ae9b3d0d3b6a343678c55910206771fd50f41c9d682ee2da2f1c47",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-130925f382db55a3",
+      "title": "晶采光電科技股份有限公司114年股東會年報",
+      "url": "https://www.ampire.com.tw/Upload/investor_202511101408407.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度（民國113年度）年報所述市場及產品",
+      "locator": "第73–75頁，銷售地區、競爭利基及產品用途",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "可支持公司產品及全球銷售描述；未揭露該特定全球市場的份額或排名，無法核實「重要供應商」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方年報中的銷售地區、產品用途及競爭利基披露；未找到可驗證全球工控HMI顯示方案市場相對重要性的市占率、排名或比較資料，該原子主張保留為UNKNOWN。",
+    "銷售比重採公司年報所列合併銷售地區及合併銷售額；「台灣以外」占比是由台灣占比4.27%計算，並非年報直接列出的出口比率。",
+    "年報的銷售地區表為2024年度資料；不可據此推定其他年度的比例。",
+    "公司披露產品用途及全球銷售範圍，不能單獨證明「重要」所暗示的相對市場地位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8049/1105/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001213",
+  "claim_id": "1305:export_concentration:977fe4236612cb37",
+  "normalized_claim_hash": "977fe4236612cb3753e6468b71ef0f1489437e8c3db17f78953e15c5036bcb4c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-08584c4842518810",
+      "title": "華夏海灣塑膠股份有限公司114年度年報",
+      "url": "https://www.cgpc.com.tw/PDF/Meeting/MeetingP3_115.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度年報市場分析；另含2026年度展望",
+      "locator": "年報印刷頁116–117，PDF第118–119頁，行5942–5955及5987–5992",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露產品別市場地區及膠皮的美國市場展望，但未披露公司整體出口目的地的分母或排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱最新可用的發行人官方年報。年報支持若干產品別地區描述，但缺少能驗證原主張公司整體「主要外銷市場」範圍與排名的目的地數據。",
+    "主要使用發行人官方114年度年報；其中市場地區清單屬產品別，並未提供各地區出口金額、數量或占比。",
+    "美國作為主要市場的明確表述出現在2026年度膠皮業務展望，屬前瞻性描述。",
+    "年報的「大陸」依原文保留，作為中國大陸理解；它出現在膠皮產品的地區清單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1305/1213/hermes-attempt-1.stdout.txt"
+}

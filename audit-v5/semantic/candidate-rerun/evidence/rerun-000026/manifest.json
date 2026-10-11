@@ -1,0 +1,63 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000026",
+  "claim_id": "1319:objective_ranking_or_market_share:92d37f3eb1beade9",
+  "normalized_claim_hash": "92d37f3eb1beade9ed5d2d57b371c0412b87871d581b3d3d364a822b7e5ccfcd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "tyg-2025-annual-report",
+      "title": "東陽實業廠股份有限公司2025年度年報（民國114年度）",
+      "url": "https://www.tyg.com.tw/?sdm_process_download=1&download_id=1630",
+      "source_level": 3,
+      "publication_date": "2026",
+      "effective_period": "2025年度及2026年度營業計畫資料。",
+      "locator": "PDF第7頁（印刷頁3）：115年度營業計畫列汽車碰撞更換零組件塑膠件全球市占約70%、鈑金件約38%；PDF第97頁（印刷頁93）：稱集團為全球最大的汽車AM碰撞更換塑膠零組件供應廠，及全球汽車AM碰撞更換鈑金零組件供應龍頭。",
+      "source_sha256": "c3dfe3051f54d0158ea6f23792c7194ab66764107f66be4fc09ff727ab22fee3",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/26/tyg-2025-annual-report.pdf",
+      "note": "發行人年報；排名與市占屬公司自述，未附第三方全球同業排名或估算方法。"
+    },
+    {
+      "source_id": "tyg-2025-aftermarket-share-release",
+      "title": "東陽七股廠動土興建 看好AM未來成長需求",
+      "url": "https://www.tyg.com.tw/traditiona-news-details.php?n_id=366",
+      "source_level": 3,
+      "publication_date": "2025-05-28",
+      "effective_period": "發稿時公司所述全球汽車售後維修市場（AM）。",
+      "locator": "新聞內文稱東陽在全球售後維修市場（AM）塑膠件市占率70%、鈑金件約35%。",
+      "source_sha256": "392a4e4160b0b7ce6b3eaaee5af991dbdec8a30926672f64e22c2c6a6dafd7cc",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/26/tyg-2025-capacity-expansion-news.html",
+      "note": "發行人新聞稿；用語明確限定為全球AM市場，未提供計算方法或單獨市場分母。"
+    },
+    {
+      "source_id": "tyg-company-history",
+      "title": "東陽事業集團沿革",
+      "url": "https://www.tyg.com.tw/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革頁面截至檢視日。",
+      "locator": "1952年記載吳篙創立東陽實業廠；1967年改制為東陽實業廠股份有限公司。",
+      "source_sha256": "dfe81e102045bbadbf7609d906dd696bb35833fb4d2728c2fc3ff0d8f0933253",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/26/tyg-company-history-and-customer-base.html",
+      "note": "發行人公司沿革；區分事業前身創立與股份有限公司改制。"
+    },
+    {
+      "source_id": "tyg-vision-advantages",
+      "title": "公司願景及優勢 - 東陽事業集團",
+      "url": "https://www.tyg.com.tw/vision-advantages/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視的現行公司介紹，頁面未列更新日。",
+      "locator": "公司介紹稱擁有超過2,300個主要客戶、產品遍及200個國家。",
+      "source_sha256": "e171da476de2e217781ab9172f7bf217ef8091fd6fc27b6457cd957648fcf467",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/26/tyg-vision-advantages.html",
+      "note": "發行人公司介紹；明確說200個國家，未稱逾200國。"
+    }
+  ],
+  "search_notes": [
+    "以東陽公司沿革、2025年年報、公司AM市場新聞稿及現行公司介紹交叉查核。",
+    "將AM限定為汽車售後維修碰撞替換零組件市場，不擴大成全部汽車塑膠件或鈑金件市場。",
+    "公司年報的最新市占估計列塑膠約70%、鈑金約38%；2025年新聞稿列鈑金約35%，保留來源口徑差異。",
+    "公司年報使用全球最大／龍頭的自述，但未找到獨立的全球同口徑排行。公司介紹說產品遍及200國，未支持原文「逾200國」。"
+  ]
+}

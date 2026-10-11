@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000923",
+  "claim_id": "2485:material_named_relationship:20b0b1c34022aee9",
+  "normalized_claim_hash": "20b0b1c34022aee99640b723be21c22b05ce15258c97b2109ccad44e35abb83b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e0634285832d7492",
+      "title": "網通產業概況",
+      "url": "https://www.moneydj.com/kmdj/report/reportviewer.aspx?a=1f0934d2-0517-4e48-bd1a-bfeb7385138c",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Report discusses 2006 Q4 demand and 2007 Q1 outlook",
+      "locator": "LNB customer and DirecTV supply estimates",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a relationship within the LNB line only; does not quantify total-company dependence or establish a Dish relationship."
+    },
+    {
+      "source_id": "src-7aa8449543551bba",
+      "title": "STB與LNB本月有雜音，但下季仍屬旺季",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=acb6559a-0cef-4934-b993-98eccfaa0f09",
+      "source_level": 2,
+      "publication_date": "2009-09-22",
+      "effective_period": "2009 Q3–Q4",
+      "locator": "Paragraphs discussing EchoStar orders and 兆赫’s North American and European LNB customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Discusses EchoStar/DirecTV market orders and 兆赫’s customer diversification, but does not identify EchoStar/DISH as a 兆赫 customer."
+    },
+    {
+      "source_id": "src-5a231d2a5f422c38",
+      "title": "兆赫電子股份有限公司及子公司 2024 Q3 consolidated financial statements",
+      "url": "https://www.zinwell.com.tw/images/uploadpdf/2024Q3.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024-01-01 to 2024-09-30",
+      "locator": "Appendix on mainland investments and subsidiary business activities",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer filing; records Shenzhen operations, but does not assess de-sinicization benefits or non-China supply-chain qualification."
+    },
+    {
+      "source_id": "src-760810f7bda70519",
+      "title": "兆赫打入SpaceX供應鏈！短線強彈190%乖離大　專家：先減碼",
+      "url": "https://news.tvbs.com.tw/money/3154206?from=money_content_pack",
+      "source_level": 2,
+      "publication_date": "2026-03-18",
+      "effective_period": "As reported on 2026-03-18",
+      "locator": "Article body, paragraph asserting supply-chain entry",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Does not define or substantiate a first-tier supplier classification."
+    },
+    {
+      "source_id": "src-89accc195133a7bd",
+      "title": "經濟部智慧財產局「112年度專利檢索創新增值服務計畫」研究成果",
+      "url": "https://www.psc.org.tw/upload/17/2024021515015024070.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "112年度 project; report page 35",
+      "locator": "Page 35, lines listing 兆赫 as developing small satellite ground-terminal equipment",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government-commissioned research supports technical development context, not a SpaceX supply relationship or shipment."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合並依合約停止。歷史 DirecTV-LNB 關係有有限支持；整體依賴程度、DISH 客戶關係、去中化優勢、SpaceX 首次供貨及一線地位仍缺少可核驗的期間、分母或直接證據，故保留為 UNKNOWN。",
+    "DirecTV 關係的支持來自歷史二手產業資料，且只涉及 LNB 產品線；不可替代為公司整體營收占比。",
+    "未找到直接證據將 Dish Network 確認為兆赫客戶；提及 EchoStar/DISH 的產業訂單不等於兆赫取得其訂單。",
+    "去中化利益、SpaceX 客戶關係、首次切入與一線供應商地位均未由本次查得的公司或監管披露充分證實。",
+    "SpaceX 關係的媒體報導缺少可核驗的公司公告、客戶確認、產品出貨量或期間；技術開發能力不等於已成為特定客戶供應商。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2485/923/hermes-attempt-1.stdout.txt"
+}

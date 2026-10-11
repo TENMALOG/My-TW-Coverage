@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001047",
+  "claim_id": "3605:material_named_relationship:18f74dfc66c833b6",
+  "normalized_claim_hash": "18f74dfc66c833b6ea54f66af60965b9cfb74648ef8b38c0b9fc824604733c18",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d16f08a4cda8e59a",
+      "title": "加州DesignCon展覽台灣宏致電子ACES與Spectra7合作大放異彩！",
+      "url": "https://www.acesconn.com/tw/news_detail?id=61",
+      "source_level": 3,
+      "publication_date": "2024-04-17",
+      "effective_period": "2024年",
+      "locator": "正文：800Gbps ACC高速線纜開發、展示及應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確描述800Gbps產品為ACC高速線纜，未證明800G連接器。"
+    },
+    {
+      "source_id": "src-9b069f8b11bb081b",
+      "title": "ACES Investor Conference 2025-09-10（中文簡報）",
+      "url": "https://www.acesconn.com/upload/investor/%28CN%29%20ACES%20Investor%20Conference-20250910_FINAL.pdf",
+      "source_level": 3,
+      "publication_date": "2025-09-10",
+      "effective_period": "2025年9月",
+      "locator": "第14頁：GB200 NVL72平台連接器應用示意",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱產品可應用於平台，未披露所指具體產品是否為MCIO或已出貨。"
+    },
+    {
+      "source_id": "src-16f16703e2cfb7fe",
+      "title": "宏致(3605)高速連接器搶攻AI伺服器市場，MCIO市佔率上看10？",
+      "url": "https://uanalyze.com.tw/articles/3786312241",
+      "source_level": 2,
+      "publication_date": "2025-03-20",
+      "effective_period": "2025年3月報導所述GB200平台產品",
+      "locator": "第27–29行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱GB200機種網通卡與加速卡高速連接器通過北美CSP廠認證；屬二手報導。"
+    },
+    {
+      "source_id": "src-5713451079829f12",
+      "title": "KGI Global Markets Weekly Kickstart, 2025-03-24",
+      "url": "https://www.kgi.com.hk/en/-/media/files/kgishk/research-reports/investment-perspectives/2025/kgis-global-markets-weekly-kickstart_20250324.pdf",
+      "source_level": 2,
+      "publication_date": "2025-03-24",
+      "effective_period": "2025年展望",
+      "locator": "第17頁，宏致公司摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及GB200卡用高速連接器的認證進度及MCIO市占／營收預估，未直接確認所述卡件用MCIO的實際供貨。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對宏致官方投資人簡報、公司公告及相關分析報導的檢索。證據足以支持伺服器／GB200平台布局及二手報導所述認證，但800G／1.6T連接器與GB200卡件用MCIO實際供貨的產品、速率或交付範圍仍缺直接證據，故保留為UNKNOWN。",
+    "800Gbps官方披露對象為ACC高速線纜，不能改述為800G連接器。",
+    "北美CSP認證與GB200卡件的直接描述來自二手報導；宏致官方簡報僅確認平台應用可能性。",
+    "認證、平台適用性、一般MCIO出貨或供應鏈關聯，不等於已實際供應特定GB200卡件用MCIO。",
+    "未找到宏致官方資料確認1.6T連接器開發。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3605/1047/hermes-attempt-1.stdout.txt"
+}

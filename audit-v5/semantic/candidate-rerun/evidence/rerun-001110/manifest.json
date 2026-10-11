@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001110",
+  "claim_id": "6150:material_named_relationship:0112c8a5be3447d0",
+  "normalized_claim_hash": "0112c8a5be3447d0b613ebda769bba61a212e62a65eeb1306c3e5d6886577e8b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9abac4c75dade43e",
+      "title": "TUL Corporation — About TUL",
+      "url": "https://www.tul.com.tw/en/News/NewsDetail/19",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About TUL段落，lines 91–93",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅載公司對AMD顯示卡廠商排名的概括自述；未提供消費性顯卡出貨量、排名期間、分母或資料來源。 ([tul.com.tw](https://www.tul.com.tw/en/News/NewsDetail/19))"
+    },
+    {
+      "source_id": "src-541a7a4bb4287c63",
+      "title": "TUL PowerColor AMD GPUs Adopted by Simple View Production Company",
+      "url": "https://www.tul.com.tw/en/News/NewsDetail/7",
+      "source_level": 3,
+      "publication_date": "2019-11-22",
+      "effective_period": "公告發布時",
+      "locator": "公告日期及正文，lines 74–80、About TUL段落 lines 86–88",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載PowerColor AMD顯示卡產品，並重述撼訊為AMD顯示卡前三大廠商的公司自述。 ([tul.com.tw](https://www.tul.com.tw/en/News/NewsDetail/7))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核撼訊官方公司介紹及相關公告，並以消費性顯卡、出貨排名等詞搜尋；找到的官方資料只支持AMD顯示卡廠商排名自述，未解決消費性顯卡全球出貨排名，故該原子主張維持UNKNOWN。",
+    "AMD顯示卡前三大廠商的排名來自撼訊自身介紹，未附排名方法、出貨量數據或獨立市場來源。",
+    "未找到消費性顯卡出貨排名所需的期間、產品範圍、全球市場定義及比較廠商分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6150/1110/hermes-attempt-1.stdout.txt"
+}

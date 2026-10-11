@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000804",
+  "claim_id": "2063:objective_ranking_or_market_share:7739d7e6a87f3c8e",
+  "normalized_claim_hash": "7739d7e6a87f3c8ed1e0d10d4d516e8f7a500c51d9b1a15f396865fd1096c7d5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-7cf30a2eeacd3d2c",
+      "title": "公司簡介 - 世鎧精密",
+      "url": "https://www.shehkai.com.tw/list/aboutus.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile; no dated ranking period stated",
+      "locator": "公司簡介, opening sentence",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer claims to be Taiwan’s largest exporter/production factory for stainless-steel and alloy-steel bi-metal screws and bolts; the claim is self-reported and does not specify a ranking denominator."
+    },
+    {
+      "source_id": "src-712ea9bbe28bae87",
+      "title": "公司概要 - 世鎧精密",
+      "url": "https://www.shehkai.com.tw/list/cate-60085.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company overview",
+      "locator": "公司概要, 公司地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Establishes the company’s Gangshan, Kaohsiung address, but not its significance within the cluster."
+    },
+    {
+      "source_id": "src-914f2d1de0f4ff63",
+      "title": "The R&D Expert of Global Leading Bi-metal Products - Sheh Kai Precision Co., Ltd. Receives ETA from Germany",
+      "url": "https://www.fastener-world.com.tw/en/article/6065.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Article published approximately 2018",
+      "locator": "Company description near article end",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary trade publication describes Sheh Kai as headquartered in Kaohsiung, Taiwan."
+    },
+    {
+      "source_id": "src-537975d5295b28b3",
+      "title": "About Sheh Kai - 2024 ESG Report (English)",
+      "url": "https://www.shehkai.com.tw/uploadfiles/272/07%E4%BC%81%E6%A5%AD%E6%B0%B8%E7%BA%8C/ESG%E5%A0%B1%E5%91%8A%E6%9B%B8/2024%E4%B8%96%E9%8E%A7ESG%E5%A0%B1%E5%91%8A%E6%9B%B8%E8%8B%B1%E8%AD%AF%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 ESG report",
+      "locator": "Section 2-1, About Sheh Kai",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer report uses the wording “Taiwan’s largest exporter and manufacturer” for stainless and alloy steel bi-metal screws and composite bolts; it provides no comparative data or ranking denominator."
+    },
+    {
+      "source_id": "src-231985f172b68c94",
+      "title": "璀璨高雄365--宜居永續 綠色樂活新樂園",
+      "url": "https://takao.kcg.gov.tw/article/2019",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Article describes the regional cluster; date not stated in retrieved content",
+      "locator": "Paragraph on the Kaohsiung fastener industry cluster",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Kaohsiung City government source describes the major fastener cluster in Tainan and Kaohsiung and approximately 600 firms in Gangshan; it does not identify Sheh Kai as an important member."
+    },
+    {
+      "source_id": "src-7ce0685adffdec20",
+      "title": "COVID-19: How Taiwanese companies are rethinking 2020",
+      "url": "https://english.cw.com.tw/article/article.action?id=2692",
+      "source_level": 2,
+      "publication_date": "2020-04-10",
+      "effective_period": "2020",
+      "locator": "Section “Shifting Orders: Opportunity for Taiwan”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary source identifies Sheh Kai as a Gangshan-based screw manufacturer in the Kaohsiung fastener cluster; it does not substantiate the evaluative term “important.”"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches covered issuer disclosures, government and registry sources, and secondary reporting. The unresolved ranking and importance assertions lack a defined denominator or direct comparative evidence; further searches within the permitted research scope did not resolve them.",
+    "The largest-manufacturer assertion is an issuer self-description, not an independently substantiated ranking; the source’s export and product qualifications do not fully match the claim’s broader wording.",
+    "The company’s Kaohsiung address is verified, but the official location pages reviewed do not expressly identify that address as its headquarters.",
+    "Evidence that the firm operates in the cluster does not by itself prove its asserted importance within it."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2063/804/hermes-attempt-1.stdout.txt"
+}

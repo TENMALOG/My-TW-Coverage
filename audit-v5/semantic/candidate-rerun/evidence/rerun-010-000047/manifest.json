@@ -1,0 +1,113 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000047",
+  "claim_id": "2228:objective_ranking_or_market_share:78fc8e4a85f351e4",
+  "normalized_claim_hash": "78fc8e4a85f351e4c38527899d80f6f731c096d52b31a383d978f1161129d791",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-749eb961466745eeca31",
+      "title": "Autoliv, Inc. Form 10-K for fiscal year ended December 31, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1034670/000095017025023852/alv-20241231.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "Item 1, Business; market position discussion for seatbelts and airbags/steering wheels",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The filing reports approximately 45% global seatbelt share and approximately 44% share for airbags and steering wheels together; these are Autoliv’s individual shares, not the combined share of the three named firms."
+    },
+    {
+      "source_id": "src-abc09458c300bdb0efc4",
+      "title": "Future vehicle interiors: ZF LIFETEC presents next generation airbags and steering wheels",
+      "url": "https://press.zf.com/press/en/releases/release_70280.html",
+      "source_level": 3,
+      "publication_date": "2024-06-05",
+      "effective_period": "2024",
+      "locator": "Press release, opening paragraphs and “Global passive safety market providing for structural growth” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "ZF states that ZF LIFETEC has a global market share above 20% in passive safety; that is not the combined share claimed here."
+    },
+    {
+      "source_id": "src-f5e47ef4214341ab36b5",
+      "title": "Ningbo Joyson Electronic Corp. 2023 Annual Report",
+      "url": "https://www.joyson.com/en/web/bocupload/2024/07/22/17216430508863efrsh.pdf",
+      "source_level": 3,
+      "publication_date": "2024-03",
+      "effective_period": "FY2023",
+      "locator": "Description of the main business, automotive safety segment, p. 17",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report lists seat belts, safety airbags, intelligent steering wheels, and integrated safety solutions."
+    },
+    {
+      "source_id": "src-2547a4a32326563296bd",
+      "title": "Joyson Electronics draft prospectus, Industry Overview",
+      "url": "https://www.joyson.com/bocupload/2025/10/27/176158038032977628o.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 market data",
+      "locator": "Industry Overview, pp. 116–122; global passive-safety market and 2024 supplier-share tables",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-hosted draft prospectus reproducing commissioned Frost & Sullivan estimates. It reports the top three suppliers’ aggregate share as about 91.9%, but masks two supplier names and defines the market more broadly than the claim."
+    },
+    {
+      "source_id": "src-1f144120235f1bae89a3",
+      "title": "Autoliv, Inc. Form 10-K for fiscal year ended December 31, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1034670/000095017025023852/alv-20241231.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "Item 1, Business; market position discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Autoliv gives company-specific shares and names ZF and Joyson as competitors, but does not state the three companies’ combined share for the claimed product denominator."
+    },
+    {
+      "source_id": "src-182d52099901f0b7a756",
+      "title": "Future vehicle interiors: ZF LIFETEC presents next generation airbags and steering wheels",
+      "url": "https://press.zf.com/press/en/releases/release_70280.html",
+      "source_level": 3,
+      "publication_date": "2024-06-05",
+      "effective_period": "2024",
+      "locator": "Opening paragraphs, global passive-safety market share statement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "ZF reports its own passive-safety share above 20%; it does not establish the combined share for the named group or the narrower product scope."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches and official issuer sources established the suppliers’ product categories and found a nearby 2024 aggregate figure, but not evidence resolving both the named-company identity and the narrower market denominator. The remaining share atom is therefore UNKNOWN.",
+    "The closest quantified evidence is an issuer-hosted draft prospectus using commissioned Frost & Sullivan estimates, not an official regulator market census.",
+    "The prospectus’s global passive-safety denominator includes steering wheels as well as airbags and seatbelts; its unnamed top-three figure cannot be directly assigned to the exact named companies from that table.",
+    "Individual supplier market-share figures are not interchangeable across differing market definitions or denominators."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2228/47/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "6f060ce2e7742cd1f59d25345287acb1e3f78e4987bad8cc4ad66d72041d4be9",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2228/47/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "4f95383107948a330a701855399aaab6e0985bd01dd47221b2c99b2bcab80849",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

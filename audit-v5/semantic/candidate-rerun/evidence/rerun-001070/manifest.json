@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001070",
+  "claim_id": "6116:material_named_relationship:aba5c3b20e5397e2",
+  "normalized_claim_hash": "aba5c3b20e5397e2e67e85305a6a2a1dbc575d6e781d0f6bac6faeb6f2f47592",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c131212e4005f209",
+      "title": "Hannstar Display Corp. — Annual Report 2025 (English translation)",
+      "url": "https://financialfilings.com/filings/hannstar-6116/annual-report/2026/34654385/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "Major customer information, lines 3160–3168",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Major customers are reported by letter, without brand names."
+    },
+    {
+      "source_id": "src-c2e9791aa03481f2",
+      "title": "採用超薄玻璃及COA製程，將有助提昇產品競爭力",
+      "url": "https://www.moneydj.com/kmdj/report/reportviewer.aspx?a=f71d4132-b6ba-4dbd-ab69-afb1788621c9",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Company-information data marked 2002/09",
+      "locator": "Company basic information, line 37",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Toshiba as a major customer for the period shown; does not establish an ongoing relationship."
+    },
+    {
+      "source_id": "src-6394ae9feb5f5c37",
+      "title": "彩晶自有品牌茁壯 成最大客戶",
+      "url": "https://ec.ltn.com.tw/article/paper/107991",
+      "source_level": 2,
+      "publication_date": "2006-12-23",
+      "effective_period": "Orders discussed for 2007",
+      "locator": "Paragraph beginning “彩晶五代線今年12月投片量…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Dell among the then-identified top customers and states next year's orders were largely arranged; this is historical, not current evidence."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found current issuer-report evidence with anonymized customer names and limited historical secondary evidence for HPQ, Dell, and Toshiba. No reliable evidence resolved the unspecified-period claims for all five brands; adjacent brand lists and unattributed summaries were not treated as proof.",
+    "The 2025 annual report is an issuer report reproduced in English by a third-party filing site; it says the Chinese report governs interpretation.",
+    "The 2025 report's customer disclosure uses Company A/B/C and does not identify the brands. This is a disclosure limitation, not evidence that the named firms were not customers.",
+    "The historical MoneyDJ customer list is dated to data marked 2002/09 and cannot substantiate an unqualified or current claim."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6116/1070/hermes-attempt-1.stdout.txt"
+}

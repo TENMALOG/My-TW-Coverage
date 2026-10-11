@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000891",
+  "claim_id": "2230:material_named_relationship:b19e819d6084f649",
+  "normalized_claim_hash": "b19e819d6084f649f696f1cd428dad41c7ba3ce719996f365fead6c84ccb9a55",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5c3e0b3ebc568c6d9c62",
+      "title": "泰茂藉併購跨入車用面板供應鏈 進軍電動車市場",
+      "url": "https://tw.stock.yahoo.com/news/%E6%B3%B0%E8%8C%82%E8%97%89%E4%BD%B5%E8%B3%BC%E8%B7%A8%E5%85%A5%E8%BB%8A%E7%94%A8%E9%9D%A2%E6%9D%BF%E4%BE%9B%E6%87%89%E9%8F%88-%E9%80%B2%E8%BB%8D%E9%9B%BB%E5%8B%95%E8%BB%8A%E5%B8%82%E5%A0%B4-041711411.html",
+      "source_level": 2,
+      "publication_date": "2025-02-04",
+      "effective_period": null,
+      "locator": "報導正文，描述晨亨科技「國際車廠一級供應鏈地位」及國際級車廠認證之段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體的肯定性描述；未具名車廠，未說明 Tier 1 關係的具體範圍、期間或直接供貨證據。"
+    },
+    {
+      "source_id": "src-3c52f96b717e409ef326",
+      "title": "泰茂董事會通過間接持有大陸浙江晨亨科技80%股權案，總金額5,250萬元",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=13a8ffdb-ec61-48f7-b424-e8b0e7eed023",
+      "source_level": 2,
+      "publication_date": "2025-01-22",
+      "effective_period": "2025-01-22 董事會公告",
+      "locator": "公開資訊觀測站重大訊息公告轉載，第2、4、7項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告說明收購標的及其主要營業項目為觸控面板用各規格玻璃基板製造及銷售；未證實或否定國際車廠 Tier 1 供應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對泰茂、晨亨科技及 Tier 1／國際車廠關係的檢索；未找到能確認具名客戶、供應層級與適用期間的一手披露，依規則保留 UNKNOWN。",
+    "找到的 Tier 1 說法來自媒體報導，未提供具名車廠或可追溯的供應關係資料。",
+    "收購公告所列主要營業項目與 Tier 1 客戶關係是不同資訊；不能由產品類別或車用認證推定客戶及供應層級。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2230/891/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5dc34462ce36414706a6ba691440543c338903393c2a6edd9ea3000aee2fbe00",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2230/891/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "c8e2f554f64d33a74a2ff9863d28509e4b02111e98f6bff65bfc3798c44cccb9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000891/manifest.json",
+  "supersedes_manifest_sha256": "57ddfb8be0b3ea8d75b5408031530801763806aa5aa7f6bf887074a0b4d167f7",
+  "corrected_at": "2026-10-08T09:58:55Z"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000420",
+  "claim_id": "8464:objective_ranking_or_market_share:12cdc0907b6edc55",
+  "normalized_claim_hash": "12cdc0907b6edc55e1f2bac98c48bcb124380ce804b494fc8d7a6a254e8b7010",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-38ff085df2fb5295",
+      "title": "億豐(8464)股價：可以買嗎？EPS、配息、法人籌碼｜FinLab",
+      "url": "https://finlab.finance/stocks/8464",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "頁面列有2025年區域營收，另稱公司年報指出北美占營收70%至80%；後者期間未明",
+      "locator": "頁面公司概況中「依地區別」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手彙整，未提供其所引年報的具體頁碼或可核查引文；頁面列示的「美洲」區域也不等同於「北美」。"
+    },
+    {
+      "source_id": "src-39a8265cc1d713ed",
+      "title": "業外事業群｜億豐",
+      "url": "http://www.nienmade.com.tw/branch_N.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "新典自動化股份有限公司介紹及「主要產品」欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面將新典自動化列於業外事業群；支持集團製造，不代表該產品是主要營收來源。"
+    },
+    {
+      "source_id": "src-9837bef395db5185",
+      "title": "業外事業群｜億豐",
+      "url": "http://www.nienmade.com.tw/branch_P.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "膠管事業部介紹及「主要產品」欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方業務頁支持PVC管材及管件製造；未提供此業務的營收或占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "使用者告知已達工具呼叫迭代上限，停止進一步查證；北美營收排名保留為UNKNOWN。",
+    "北美營收排名未能以同一期間、同一地理分組口徑的公司原始披露核實；「美洲」不可直接視為「北美」。",
+    "官方產品頁面支持相關集團業務及產品，但未說明各產品的營收、銷售量或目前持續生產期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8464/420/hermes-attempt-1.stdout.txt"
+}

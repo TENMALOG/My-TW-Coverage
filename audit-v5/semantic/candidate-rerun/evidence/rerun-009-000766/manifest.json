@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000766",
+  "claim_id": "2006:objective_ranking_or_market_share:af9053f6081a9d90",
+  "normalized_claim_hash": "af9053f6081a9d909b89299cfd0e0018e3fb55b4757b4c286656687942a9719f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-436d83f89b823f315cec",
+      "title": "東和鋼鐵企業股份有限公司－桃園廠",
+      "url": "https://www.tunghosteel.com/factory/data/5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「品質政策」及桃園廠簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料說明桃園廠以廢鋼為主原料，使用電弧爐熔煉廢鋼。"
+    },
+    {
+      "source_id": "src-ec3ab66ede598d6674a0",
+      "title": "東和鋼鐵(2006)-從東鋼歷史認識鋼鐵製程",
+      "url": "https://www.stockfeel.com.tw/%E6%9D%B1%E5%92%8C%E9%8B%BC%E9%90%B5-2006-%E9%8B%BC%E9%90%B5/",
+      "source_level": 2,
+      "publication_date": "2021-01-08",
+      "effective_period": "文章所述歷史期間：1988年後",
+      "locator": "歷史段落，提及1988年後東和是台灣民間電爐煉鋼的最大廠",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手來源的歷史排名，限於民間業者；未提供足以確認當前排名的比較期間或產能、產量等排名指標。"
+    },
+    {
+      "source_id": "src-9d185c6dda877b8a4269",
+      "title": "東和鋼鐵2024年永續報告書",
+      "url": "https://www.tunghosteel.com/Files/papp/300/2024%E5%B9%B4%E6%9D%B1%E5%92%8C%E9%8B%BC%E9%90%B5%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "「關於東和」／「營運據點」，印刷頁6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為台灣規模最大的H型鋼及鋼筋廠；這是產品別排名，並未提供電爐鋼廠排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方廠區資料、公司2024年永續報告及相關二手歷史資料；未找到能以明確期間和可比排名指標支持原 claim 排名部分的可靠資料，故該原子主張維持 UNKNOWN。",
+    "原 claim 未指定排名期間、比較對象範圍或「最大」的衡量指標。",
+    "歷史二手來源關於1988年後的排名，不能直接外推至未指定期間。",
+    "公司報告所述H型鋼及鋼筋產品排名，與電爐鋼廠排名不是同一市場定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2006/766/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d024f33fe961bfb1ca5c9d0ed640fcaa403adee22732c2fea764657e24783e6f",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2006/766/isolated-prompt.txt",
+  "prompt_sha256": "1ee7cf98a3930c3c2b3ea0ef8a2c7733d8842bf5564c257b9b6a5283a3bfad0a",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000766/manifest.json",
+  "supersedes_manifest_sha256": "0d07b2d5cdd26b1bf32a3a9c32c7fb3b92341dc2867c8bea9d1a7272ff7b4a01",
+  "corrected_at": "2026-10-08T09:58:42Z"
+}

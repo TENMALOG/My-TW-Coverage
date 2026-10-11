@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000204",
+  "claim_id": "6928:objective_ranking_or_market_share:82073e105897f2df",
+  "normalized_claim_hash": "82073e105897f2dfc285e7e09bcfa670853741e1b434f468ac7458bae487c58b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-dbaa89ecf8fa3ee8",
+      "title": "Company - NMMC",
+      "url": "https://www.ngmk.uz/en/company/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview; description of Muruntau",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a mine-level ranking, not a ranking of the operator as a company."
+    },
+    {
+      "source_id": "src-aedec7d2966f4690",
+      "title": "Muruntau Mine, Uzbekistan - Science@NASA",
+      "url": "https://science.nasa.gov/photojournal/muruntau-mine-uzbekistan",
+      "source_level": 3,
+      "publication_date": "2022-07-28",
+      "effective_period": "Image acquired 2021-07-11; page describes the mine as of 2022.",
+      "locator": "Page description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "NASA describes Muruntau as the world's biggest open-pit mine and largest gold mine in terms of production."
+    },
+    {
+      "source_id": "src-b8cc984ad462c54c",
+      "title": "攸泰旗下睿剛 助全球最大露天金礦提升效能與管理",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ebcd0bd4-02cd-47b0-b6d2-23bc97f4882a",
+      "source_level": 2,
+      "publication_date": "2024-11-18",
+      "effective_period": "2024 announcement",
+      "locator": "Paragraph beginning “此次合作採用的車載電腦包含” and following VIKING/VULCANX descriptions",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names the reported products as 7-inch and 10.4-inch vehicle-mounted computers; no rugged tablet is identified."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research located contemporaneous coverage and official mine context. Customer identity/company-level ranking and rugged-tablet supply remain unresolved, so those atoms are UNKNOWN.",
+    "The 2024 customer and product details come from secondary coverage reporting the issuer's statements, not a named customer filing.",
+    "The mine-level superlative does not establish a superlative ranking for the operator as a company.",
+    "The evidence identifies vehicle-mounted computers, not rugged tablets; the categories should not be conflated."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6928/204/hermes-attempt-1.stdout.txt"
+}

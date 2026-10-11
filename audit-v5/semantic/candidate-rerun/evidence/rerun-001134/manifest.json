@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001134",
+  "claim_id": "5859:identity_changing_event:3146527b074efe1a",
+  "normalized_claim_hash": "3146527b074efe1a328a5f52e5f0cb1d68d4dd8b0b842a6e1c85da4d313be8e3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-19191c84ba12a447",
+      "title": "遠雄人壽普通股股票開始為興櫃股票之櫃檯買賣日期公告",
+      "url": "https://www.tpex.org.tw/storage/eb_data/10404/10401006031.htm",
+      "source_level": 3,
+      "publication_date": "2015-04-08",
+      "effective_period": "自2015-04-16起",
+      "locator": "公告事項第2點",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明列開始櫃檯買賣日期為民國104年4月16日。"
+    },
+    {
+      "source_id": "src-5534143bf256bad0",
+      "title": "遠雄人壽資訊公開專區",
+      "url": "https://www.fglife.com.tw/InfoCo_findByKind.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "目前網站所示",
+      "locator": "頁面「企業關係列表」及「金融保險事業」區段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "遠雄人壽官網連結遠雄集團，並在集團金融保險事業下列出遠雄人壽。"
+    },
+    {
+      "source_id": "src-bdfca0aeb47ed3ed",
+      "title": "興櫃公司介紹：遠雄人壽保險事業股份有限公司",
+      "url": "https://www.tpex.org.tw/storage/co_report/2015/06/1434512200_5572_CH_P79-%E9%81%A0%E9%9B%84%E4%BA%BA%E5%A3%BD.pdf",
+      "source_level": 3,
+      "publication_date": "2015-06",
+      "effective_period": "民國89年1月（2000年1月）",
+      "locator": "第1頁，公司簡介及主要業務與產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載於「89年1月正式更名為遠雄人壽保險事業股份有限公司」。"
+    },
+    {
+      "source_id": "src-04348b6f56cda137",
+      "title": "行政院公平交易委員會工作成果報告：中華民國93年",
+      "url": "https://www.ftc.gov.tw/upload/e00dfd16-ebcf-48d8-b641-ecdfa7fb0d66.pdf",
+      "source_level": 3,
+      "publication_date": "2005-06",
+      "effective_period": "民國93年（2004年）",
+      "locator": "第86至87頁，遠雄人壽與瑞士商蘇黎世人壽結合案",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載遠雄人壽擬受讓蘇黎世人壽台灣分公司所有人壽保單及相關資產負債，並記載主管機關核准。"
+    },
+    {
+      "source_id": "src-9fc3fc47c81ce6e8",
+      "title": "保險不保險！公司轉讓 民眾解約罰8萬",
+      "url": "https://news.tvbs.com.tw/life/468188",
+      "source_level": 2,
+      "publication_date": "2004-11-16",
+      "effective_period": "2004年10月底",
+      "locator": "報導內文第1、2段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同期報導稱蘇黎世將保戶轉讓給遠雄；作為移轉已發生的補充佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得櫃買中心公告、櫃買中心公司簡介、公司官網及公平交易主管機關資料；足以核實掛牌、沿革與蘇黎世交易，並識別原 claim 中收購方式及更名年份的問題。",
+    "遠雄人壽的櫃買中心公司簡介支持「趙藤雄創立中興人壽」，而非「趙藤雄收購中興人壽」。",
+    "櫃買中心公司簡介記載更名時間為民國89年1月，即2000年1月，不是2001年。",
+    "蘇黎世交易的主管機關材料所述範圍是人壽保單及相關資產負債；「併購台灣分公司」若被理解為收購整間公司，會超出來源支持的範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5859/1134/hermes-attempt-1.stdout.txt"
+}

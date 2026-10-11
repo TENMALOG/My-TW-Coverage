@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000178",
+  "claim_id": "2365:objective_ranking_or_market_share:694d960ffe356728",
+  "normalized_claim_hash": "694d960ffe3567285576ff68bcfd29b99b9db42bea7eff0ab08dd46231c4d1e1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4835486720b5d31a",
+      "title": "關於 Genius",
+      "url": "https://www.geniusnet.com/tw/about/Genuis",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1985年",
+      "locator": "「品牌歷史」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面明載「Genius品牌創立於1985年」。"
+    },
+    {
+      "source_id": "src-ed8507bef712f0e0",
+      "title": "Taiwan Stock Exchange Corp. — KYE Systems Corp. company profile",
+      "url": "https://www.twse.com.tw/pdf/en/2365_en.pdf",
+      "source_level": 3,
+      "publication_date": "2026-10-06",
+      "effective_period": "品牌於1985年推出",
+      "locator": "公司簡介段落；頁面標示 Generated Date: 2026/10/06",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證交所公司資料載明Genius品牌於1985年推出；該資料支持年份，不是對「台灣滑鼠產業先驅」的歷史比較證據。"
+    },
+    {
+      "source_id": "src-8c6e6a2ae226e454",
+      "title": "產業價值鏈資訊平台-資料(單欄)",
+      "url": "https://ic.tpex.org.tw/company_data.php?table=company_vision&column=vision_text&userId=2365",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1985年",
+      "locator": "公司願景資料欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TPEx平台明載「1985年，Genius第一個滑鼠誕生」。"
+    },
+    {
+      "source_id": "src-23c536c236e586fd",
+      "title": "昆盈發展歷程",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000189993_7R8LHWIP80NGLF4EJK17G",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "1985年",
+      "locator": "文章首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "DIGITIMES記載昆盈於1985年成立Genius品牌並推出滑鼠產品；該段未提供更細的產品型號或推出日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方沿革、證交所公司資料、TPEx產業價值鏈資料及DIGITIMES歷程資料；「先驅」所需的產業範圍與比較基準仍無可靠證據可定，故停止並保留該原子主張為UNKNOWN。",
+    "公司官方品牌沿革與交易所資料支持品牌年份；TPEx產業價值鏈平台明確支持首款Genius滑鼠於1985年問世。",
+    "未找到足以驗證「台灣滑鼠產業先驅」的同業比較、歷史先後或排名資料；品牌創立與產品問世的證據不能替代此比較性主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2365/178/hermes-attempt-1.stdout.txt"
+}

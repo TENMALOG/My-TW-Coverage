@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000718",
+  "claim_id": "2233:objective_ranking_or_market_share:c9096bb9c6aa992d",
+  "normalized_claim_hash": "c9096bb9c6aa992dbcae142ecd1e710dc3c6f293916b1b7c930a8c00454354fc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-49093d5208216463",
+      "title": "宇隆科技（2233）深度分析報告",
+      "url": "https://vocus.cc/article/6a1478ecfd89780001a6b255",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024 application revenue mix; discussion includes results through 2026 Q1.",
+      "locator": "Section 二、商業模式與營收結構",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports automotive applications at approximately 72% of 2024 revenue, a different denominator from Bosch's share of customer sales."
+    },
+    {
+      "source_id": "src-1beb3f635d7fff2a",
+      "title": "宇隆科技股份有限公司公開說明書（股票初次上市用）",
+      "url": "https://www.turvo.com.tw/proimages/investors/download-pdf/%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8(%E8%82%A1%E7%A5%A8%E5%88%9D%E6%AC%A1%E4%B8%8A%E5%B8%82%E7%94%A8).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017 and 2018 (ROC years 106 and 107)",
+      "locator": "Risk discussion on sales concentration",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States Bosch Group represented 62.94% and 59.88% of consolidated net sales in the respective years. These figures are not evidence for an unspecified period."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Used the allotted focused research turns. The available evidence does not resolve the period or denominator for the approximately 72% customer-share claim.",
+    "The largest-customer statement is supported only by a secondary report without a disclosed period or underlying customer-level data.",
+    "The official prospectus gives Bosch Group shares of consolidated net sales for 2017 and 2018, not an approximately 72% share for an identified period.",
+    "Do not conflate automotive application mix with revenue attributable to a specific customer."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2233/718/hermes-attempt-1.stdout.txt"
+}

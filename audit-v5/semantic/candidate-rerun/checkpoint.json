@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-rerun-checkpoint-1",
+  "updated_at": "2026-10-08T11:04:35Z",
+  "scope": {
+    "PARTIALLY_SUPPORTED": 833,
+    "UNKNOWN_AFTER_RESEARCH": 450,
+    "total": 1283
+  },
+  "excluded_from_this_rerun": {
+    "UNSUPPORTED": 2,
+    "SOURCE_UNAVAILABLE": 3
+  },
+  "queue_path": "audit-v5/semantic/candidate-rerun/queue.jsonl",
+  "queue_sha256": "eb054ad103c85b0d105d91b36b8cfc87720280ffdbc4c27ad0c46a7d15e4ff5b",
+  "queued": 1283,
+  "processed": 1283,
+  "remaining": 0,
+  "prior_independent_review_overlap": 4,
+  "verdict_counts": {
+    "PARTIAL": 1029,
+    "CANDIDATE_ACCEPTED": 140,
+    "UNKNOWN": 114
+  },
+  "current_rerun_batch": "rerun-010",
+  "current_batch_processed": 52,
+  "policy": "Candidate worker only. No final ACCEPTED decisions. Original author and reviewer ledgers are immutable.",
+  "completed_through_sequence": 1283,
+  "latest_result_id": "rerun-010-001239",
+  "latest_result_sha256": "509ce43836b9006e072b4acf37dd5eb8a8f36c82bea7519ee194f3ed51e9858c"
+}

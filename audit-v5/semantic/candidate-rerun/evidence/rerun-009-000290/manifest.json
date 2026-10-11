@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000290",
+  "claim_id": "3653:objective_ranking_or_market_share:be2f7c2dfae707bf",
+  "normalized_claim_hash": "be2f7c2dfae707bf13121fcda037c5de296efe7bf3196b36dd18021d7a0d3d6c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bdde8741a5fd67adf4ef",
+      "title": "IC Socket & Loading Mechanism | Jentech Precision Industrial CO., LTD",
+      "url": "https://www.jentech.com.tw/zh/ic-socket-loading-mechanism",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「Socket ILM Solutions」及「Loading Mechanism」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "健策官方產品頁列示 ILM 方案，描述其設計用途及處理器／伺服器相關應用；頁面未標示發布日期。"
+    },
+    {
+      "source_id": "src-6e69374b633094ed135e",
+      "title": "Vertically Integrated Solutions | Jentech Precision Industrial CO., LTD",
+      "url": "https://www.jentech.com.tw/vertical-integrated-solutions",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「The Vertical Flow」及「Full-Stack Manufacturing Mastery」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面列出設計、精密模具、高速沖壓、成型、組裝等公司製程；屬一般製造能力說明，與 ILM 產品頁合併支持能力主張，但未披露 ILM 專屬產能。"
+    },
+    {
+      "source_id": "src-d318e516c085e8665c58",
+      "title": "IC Socket & Loading Mechanism | Jentech Precision Industrial CO., LTD",
+      "url": "https://www.jentech.com.tw/zh/ic-socket-loading-mechanism",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「Socket ILM Solutions」及「IC Socket」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認公司列有 ILM 方案及相關應用，但未披露伺服器或 ILM 市場的市占率、地區、期間或分母，不能據此判定「極高市占」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成四輪聚焦查找。官方資料足以支持 ILM 設計與製造能力；對市占主張仍缺少可核實且範圍、期間及分母相符的資料，故保留為 UNKNOWN。未達八輪查找上限。",
+    "能力主張的支持主要來自健策自身網站，屬公司自述；頁面未標明發布或有效日期，也未提供 ILM 專屬產能或出貨數據。",
+    "市占主張缺少產品市場範圍、地區、期間、分母及「極高」門檻；未將伺服器整機銷售、公司營收組合或供應商資格當作 ILM 市占的替代證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3653/290/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "8e47fd0f29ff98fa928e770ac6c3779f4f9cb67673fb3b7dbe7c205f7fa74f28",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3653/290/isolated-prompt.txt",
+  "prompt_sha256": "1b1376e5d3ccc3d0993b4fe55be1ec5c61a1af5acda9d63d01bebe9466a87178",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000290/manifest.json",
+  "supersedes_manifest_sha256": "2ff2c06272fc79bdc0cfd38056a892c83eb326c45e1de9b3a01a2c6552280f7f",
+  "corrected_at": "2026-10-08T09:58:00Z"
+}

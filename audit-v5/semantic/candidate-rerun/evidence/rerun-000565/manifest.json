@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000565",
+  "claim_id": "5272:objective_ranking_or_market_share:5a22c41a58004d2c",
+  "normalized_claim_hash": "5a22c41a58004d2c0683ad8431b87879e05d39e5e12a20ce58bd032a8acc648b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d38b46dc90949d3e",
+      "title": "笙科的業績月出貨量將達5KK顆，成立五年半累計出貨突破一億顆",
+      "url": "https://www.amiccom.com.tw/asp/event_detail.asp?ID=35",
+      "source_level": 3,
+      "publication_date": "2011-06",
+      "effective_period": "文章發布時；比較對象限於亞洲初創IC設計公司，未提供母體清單或市場定義",
+      "locator": "正文首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "笙科官方網站刊載的歷史公司文章；支持當時較窄的「亞洲初創IC設計公司中唯一」說法，並非現況或完整市場比較證據。"
+    },
+    {
+      "source_id": "src-e446c15607bbe365",
+      "title": "笙科電子股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=95f144e0-1ec6-41fb-856a-7d6a0c55e598",
+      "source_level": 2,
+      "publication_date": "2025-07-31",
+      "effective_period": "回述公司成立沿革",
+      "locator": "「公司簡介／沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料記載公司前身為聯笙的無線事業部門，與笙科官網歷史文章一致。"
+    },
+    {
+      "source_id": "src-b6a82fc81334fbd1",
+      "title": "尋找寬闊「藍海」，我想、笙科勇闖通信技術領域",
+      "url": "https://www.amiccom.com.tw/asp/news_detail.asp?ID=4",
+      "source_level": 2,
+      "publication_date": "2006-06-01",
+      "effective_period": "所述沿革為2005年分出成立",
+      "locator": "正文中段，笙科前身及RF晶片產品線分出成立的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章刊於笙科官方網站，但屬歷史報導內容；明確記載前身為聯笙無線產品事業部門。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得笙科官網歷史文章及二手公司資料；它們足以支持前身沿革，並界定唯一性證據僅及於2011年的較窄自述。未找到能確認目前亞洲市場比較母體與唯一性的可靠資料，故該原子維持UNKNOWN。",
+    "唯一性僅找到2011年笙科官網對「亞洲初創IC設計公司」的自述；未提供完整競爭者母體、比較方法或明確的亞洲市場邊界。",
+    "MoneyDJ頁面更新於2025年，但其唯一性文字沒有比較資料或來源方法，屬二手重述，不能當作現況獨立驗證。",
+    "現有資料不足以把歷史專長及唯一性延伸為 claim 未限定期間的現況主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5272/565/hermes-attempt-1.stdout.txt"
+}

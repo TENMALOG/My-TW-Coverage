@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000636",
+  "claim_id": "6789:objective_ranking_or_market_share:0b84bdb1ceb376d2",
+  "normalized_claim_hash": "0b84bdb1ceb376d2ad837ad146d2e3777387b19f9698e6ed3fd85e003926b11a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c19aafed2a9091367f16",
+      "title": "TSMC 2024年報：關係企業暨其他特別記載事項",
+      "url": "https://investor.tsmc.com/static/annualReports/2024/chinese/pdf/2024_tsmc_ar_c_ch8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2024年12月31日",
+      "locator": "第8章，8.1.3及關係企業組織圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將采鈺列為關係企業，組織圖列示台積電持股67%。"
+    },
+    {
+      "source_id": "src-0dcde345b538d603d4d5",
+      "title": "公司介紹－采鈺科技股份有限公司",
+      "url": "https://www.viseratech.com/tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述台積電於民國105年買回股權，目前采鈺為台積電子公司。"
+    },
+    {
+      "source_id": "src-f57c2bbfcdd83532206e",
+      "title": "公司介紹－采鈺科技股份有限公司",
+      "url": "https://www.viseratech.com/tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為全球影像感測元件服務市場領導者；未提供彩色濾光片製造市場排名或排名期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核采鈺及台積電官方資料，並以中英文和中文精確詞組搜尋市占率與排名；未找到能界定期間、分母及市場範圍的可靠證據。於8個研究回合上限前停止，未解部分維持UNKNOWN。",
+    "台積電年報的持股資料支持子公司關係，但不支持市占率或市場排名。",
+    "采鈺官網的「全球影像感測元件服務市場領導者」是公司自述，市場範圍與原 claim 所稱的彩色濾光片製造市場不同，不能視為對45–50%或世界第一的驗證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6789/636/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "73ec08cf69690e88e488350d0de18f30c8eacb7daccaa1136f93734aec45eefd",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6789/636/isolated-prompt.txt",
+  "prompt_sha256": "a05b90a02f0b832a2bf173ee47fdd544a32d46f9c969c242bae3a9b5aba36742",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000636/manifest.json",
+  "supersedes_manifest_sha256": "88295ec8d2fe412eebe1b19a7bf20ed147f017bfc7e87a68bb317119703494ce",
+  "corrected_at": "2026-10-08T09:58:30Z"
+}

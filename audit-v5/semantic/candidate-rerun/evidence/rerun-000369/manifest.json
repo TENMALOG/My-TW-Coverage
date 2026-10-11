@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000369",
+  "claim_id": "3702:objective_ranking_or_market_share:bbfe49daa140f2f0",
+  "normalized_claim_hash": "bbfe49daa140f2f06871fa1ba54376080a12828ad6a4caad9a73b48c20275dc2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a8316b95ab0c05c0",
+      "title": "About WPG Holdings::WPG Holdings",
+      "url": "https://www.wpgholdings.com/about/info/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Corporate Facts；About WPG Holdings",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司資料列示 Headquarter: Taipei, Taiwan。"
+    },
+    {
+      "source_id": "src-6b97bb6e71cfb394",
+      "title": "Global electronic component distribution shifts in 2024 as WT Micro and WPG lead",
+      "url": "https://www.digitimes.com/news/a20240820PD204.html",
+      "source_level": 2,
+      "publication_date": "2024-08-20",
+      "effective_period": "2024年上半年",
+      "locator": "文章導言：全球電子零組件通路市場前兩名",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "DIGITIMES報導的排名市場是全球電子零組件通路，非明確界定的半導體零組件通路市場；因此不足以確認原主張。"
+    },
+    {
+      "source_id": "src-b265cb0f84e3249e",
+      "title": "WPG Board of Directors approved the consolidated financial statements for 2024::WPG Holdings",
+      "url": "https://www.wpgholdings.com/investors_msg/detail/en/resolved/2875",
+      "source_level": 3,
+      "publication_date": "2025-02-28",
+      "effective_period": "2024-01-01至2024-12-31",
+      "locator": "項目3列報期間；項目4 Operating revenue accumulated（單位：thousand NTD）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方董事會核准公告列示2024年度營業收入880,552,335千元新台幣。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方資料、2024年合併財務資訊及DIGITIMES排名報導；排名報導的市場分類與原主張不一致，仍無可靠證據解決半導體零組件通路商的全球排名，因此該原子主張保留UNKNOWN。",
+    "公司官方About頁面的Corporate Facts區塊與正文目前列示不同年度的銷售數字；營收核驗採用2025-02-28公布的2024年合併財務資訊，不採用該頁面銷售數字。",
+    "全球規模排名的可得報導涵蓋較廣的電子零組件通路商，未提供足以核實原主張所指半導體零組件通路市場排名的明確市場範圍與比較基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3702/369/hermes-attempt-1.stdout.txt"
+}

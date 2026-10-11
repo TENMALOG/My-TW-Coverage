@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001172",
+  "claim_id": "2481:export_concentration:3941f289bb5c6d99",
+  "normalized_claim_hash": "3941f289bb5c6d99c0d7626f446105ecf2d9c5305a67f9ddb2156016f543094f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e1d71f6d9f3a5da0",
+      "title": "強茂股份有限公司 113 年度年報",
+      "url": "https://www.panjit.com.tw/upload/2025_06_0312/20250603102145mk8uq6EAt1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "印刷頁87，市場及產銷概況 > 市場分析 > 主要商品之銷售地區；PDF頁89，年報文字行3906–3922",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報以新台幣仟元列示銷售區域金額及占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到並核對強茂官方113年度年報中兩項銷售地區比例，停止研究；仍需最終 adjudication。",
+    "原說法未明示期間及分母；官方年報支持的是2024年度數據，且外銷與亞洲占比均以總銷售額為分母。",
+    "年報精確比例為88.66%及75.63%；89%及76%為四捨五入值。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2481/1172/hermes-attempt-1.stdout.txt"
+}

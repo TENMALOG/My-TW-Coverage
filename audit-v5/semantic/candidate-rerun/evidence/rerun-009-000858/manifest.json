@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000858",
+  "claim_id": "2610:material_named_relationship:2e40073714d0a5be",
+  "normalized_claim_hash": "2e40073714d0a5be13a69cb005b05f4d2607fa30a18a622782bdef30749d2771",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-dc57c8bd862b3f05cd45",
+      "title": "China Airlines 2025 Annual Report",
+      "url": "https://calec.china-airlines.com/annual-report/annual_2025.pdf",
+      "source_level": 3,
+      "publication_date": "2026-06-16",
+      "effective_period": "2025 operations; supplier table compares 2024 and 2025",
+      "locator": "Operational Highlights, §4.2.3, printed p. 129; §4.2.4, printed p. 130 (PDF pp. 131–132)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report explicitly names CPC as a supplier of aviation fuel at Taoyuan and lists CPC among major suppliers."
+    },
+    {
+      "source_id": "src-f414b2818dbd8e19e6f9",
+      "title": "China Airlines 2025 Annual Report",
+      "url": "https://calec.china-airlines.com/annual-report/annual_2025.pdf",
+      "source_level": 3,
+      "publication_date": "2026-06-16",
+      "effective_period": "2025 operations; supplier table compares 2024 and 2025",
+      "locator": "Operational Highlights, §4.2.3, printed p. 129; §4.2.4, printed p. 130 (PDF pp. 131–132)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report identifies CPC and Formosa Petrochemical as aviation-fuel suppliers at Taoyuan and describes fuel purchases from suppliers at destinations served."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer's 2025 annual report directly supports CPC's supplier relationship and contradicts exclusivity; no unresolved atom remains that requires further searching.",
+    "The latest issuer annual report located covers 2025 and was listed by China Airlines on 2026-06-16.",
+    "The annual report's supplier table reports shares of total net purchases, not aviation-fuel-only volumes or spend; the exclusivity finding rests on the report's explicit identification of multiple aviation-fuel suppliers."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2610/858/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f460ca5ccaaaf4cad98802d4e6b9ed06574ff6ac007ccc2ebd540f5e86b7a1f8",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2610/858/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "fb2e299f1a2bc063a2fa38204bf050bfb10f3af4eac9d26a3c544a82deac1c34",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000858/manifest.json",
+  "supersedes_manifest_sha256": "4b26d6448b523286115ba7bf1a91e562fbbdc21206730c33aa607121bec1922e",
+  "corrected_at": "2026-10-08T09:58:51Z"
+}

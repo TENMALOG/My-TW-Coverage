@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001118",
+  "claim_id": "9906:material_named_relationship:62688d7d62c26d93",
+  "normalized_claim_hash": "62688d7d62c26d93f1379cf3fb70b3dc69f2d4722c009b1702b8cded4bf85614",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-43bfd2e2bcad6469",
+      "title": "2024年欣巴巴事業股份有限公司永續報告書",
+      "url": "https://hsinbaba.com.tw/Upload/638913796506781573.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "PDF pp. 3–4 (reporting scope and period); p. 58, section 3.3 永續供應鏈管理",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States the report covers 2024. Supplier section describes a supplier-evaluation process and says the company will not rely on only one supplier for raw materials; it does not name 中鋼 or rank rebar suppliers."
+    },
+    {
+      "source_id": "src-0435f0f3e8a291c8",
+      "title": "欣巴巴事業股份有限公司：供應商管理政策及執行情形",
+      "url": "https://www.hsinbaba.com.tw/Upload/638380867007175014.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "PDF p. 1, section 一、供應商評估, subsection (一) 鋼筋材料供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names 沛波鋼鐵股份有限公司 and 羅東鋼鐵廠股份有限公司 as rebar-material suppliers. The disclosure gives no procurement shares or ranking and does not say the list is exhaustive."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused issuer-source research found no disclosure identifying 中鋼 as a main rebar supplier or giving supplier-level rebar purchasing amounts or rankings. The remaining scope and denominator are unresolved.",
+    "The claim provides no date or definition of “主要供應商” (for example, by purchase value, volume, or approved-vendor status).",
+    "The issuer sources reviewed do not provide supplier-specific rebar procurement data sufficient to determine whether 中鋼 was a main supplier.",
+    "The named-supplier list is evidence of other identified suppliers, not conclusive evidence that 中鋼 was not also a supplier."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9906/1118/hermes-attempt-1.stdout.txt"
+}

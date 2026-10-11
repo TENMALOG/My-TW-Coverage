@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000671",
+  "claim_id": "4582:objective_ranking_or_market_share:fc48e08d8acca449",
+  "normalized_claim_hash": "fc48e08d8acca449196300306f44942c0cd7e68c6bf20d6ebfa2ca1e66ef975d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b5faae091fdfeb43",
+      "title": "榮譽認證｜聚恆科技",
+      "url": "https://www.hengs.com/about-certification.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網頁未標示；其敘述涉及2017年取得認證",
+      "locator": "「德國萊因O&M證書」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱聚恆是全台第一家、亞洲第二家取得德國萊因O&M認證的EPC廠商；未聲明目前仍是唯一持證公司。"
+    },
+    {
+      "source_id": "src-15286f1f5271bf72",
+      "title": "TUV Rheinland Issued Taiwan's First O&M Certificate to Hengs Technology",
+      "url": "https://en.prnasia.com/releases/apac/TUV_Rheinland_Issued_Taiwan_s_First_O_M_Certificate_to_Hengs_Technology-191303.shtml",
+      "source_level": 3,
+      "publication_date": "2017-10-18",
+      "effective_period": "2017年10月",
+      "locator": "新聞稿開頭",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "PR Newswire刊載、內容署名TÜV Rheinland的新聞稿稱TÜV Rheinland向聚恆核發O&M認證。"
+    },
+    {
+      "source_id": "src-7a605441b8a87da2",
+      "title": "聚恆科技股份有限公司人物專訪",
+      "url": "https://w3fs.tainan.gov.tw/Download.ashx?n=6IGa5oGG56eR5oqA6IKh5Lu95pyJ6ZmQ5YWs5Y%2B4LnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvNC9yZWxmaWxlLzI0NzM3Lzc5MDk0MjAvNDFlMjFmY2QtN2QyNS00ODQxLWJkZDUtNzczMzY1MWU1NDE5LnBkZg%3D%3D",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "受訪者稱於2017年10月取得認證",
+      "locator": "第8頁，「讓別人說我們讚－第三方公證單位認證」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "臺南市政府網站所載訪談記錄轉述聚恆總經理稱，聚恆當時是國內唯一、亞洲第二的認證廠商；該唯一性為受訪者陳述，並限定於當時取得認證的脈絡。"
+    },
+    {
+      "source_id": "src-26f9471bd583114c",
+      "title": "DS Energy Obtains TUV Rheinland PV O&M Certification",
+      "url": "https://en.prnasia.com/releases/apac/ds-energy-obtains-tuv-rheinland-pv-o-m-certification-325880.shtml",
+      "source_level": 3,
+      "publication_date": "2021-07-15",
+      "effective_period": "2021年；TÜV Rheinland最新PV O&M標準2Pfg 2672/11.18",
+      "locator": "新聞稿首段及末尾來源標註",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "新聞稿來源標註為TÜV Rheinland Taiwan Ltd，稱DS Energy取得最新PV O&M標準認證，並稱其為台灣唯一取得該新標準者；未說明聚恆證書的版本、有效狀態或與該新標準的可比性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得聚恆官方認證資料、2017年TÜV Rheinland署名新聞稿及2021年TÜV Rheinland Taiwan對另一家業者取得新標準認證的資料；剩餘不確定性在於原文未限定的期間、證書版本與現行有效狀態，且未找到可核對這些範圍的公開持證登錄。",
+    "聚恆官方資料及2017年新聞稿支持歷史取得認證與當時「全台第一」的敘述，不能單獨證明未限定期間的現行唯一性。",
+    "2021年DS Energy新聞稿限定於TÜV Rheinland的最新PV O&M標準；未找到可比較兩家公司證書版本、有效期間及持證名單的現行官方登錄資料。",
+    "臺南市政府網站所載訪談中的「國內唯一」是公司總經理受訪陳述，不是主管機關或認證機構公布的完整持證名冊。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4582/671/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001130",
+  "claim_id": "6807:material_named_relationship:de5168ab462b6ac1",
+  "normalized_claim_hash": "de5168ab462b6ac140fa57aaec0b194527d6ef2ec23f4d96afb7d2d20ca993eb",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a464f2745a6f0093",
+      "title": "峰源集團股份有限公司 — MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=eb905e56-1b60-44ed-baf5-07878bdf3265",
+      "source_level": 2,
+      "publication_date": "2025-06-05",
+      "effective_period": "2024 business context",
+      "locator": "Sales status section; lines 29–35",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Japanese NITORI among brands receiving direct sales and attributes the information to company briefing materials."
+    },
+    {
+      "source_id": "src-786c3c1c47306a12",
+      "title": "峰源-KY掛牌上市逢大盤重挫亂流 蜜月行情失靈 — 鉅亨網",
+      "url": "https://news.cnyes.com/news/id/4858330",
+      "source_level": 2,
+      "publication_date": "2022-04-25",
+      "effective_period": "Listing-day reporting in April 2022",
+      "locator": "Paragraph listing the company's long-term partners",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Nitori among the company's long-term partners."
+    },
+    {
+      "source_id": "src-1400ce01e72d4840",
+      "title": "連鎖家具供應商峰源-KY 今以40元掛牌上市 — 自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/3904606",
+      "source_level": 2,
+      "publication_date": "2022-04-25",
+      "effective_period": "Historical snapshot reported on April 25, 2022; fiscal period for the 11% figure not specified",
+      "locator": "Paragraph beginning “峰源集團的沙發、床架等家具產品”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that Costco private-label sofas and other furniture accounted for 11% of company revenue; it does not specify the fiscal period for that share."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of issuer investor materials and contemporaneous financial reporting found dated support for the customer relationships and a historical Costco share, but not a fiscal-period-specific or later-period Costco percentage. The unqualified percentage atom remains UNKNOWN.",
+    "The 2024 official annual report describes the company's customers generically in the business narrative; the named relationships and Costco's 11% figure here rely on secondary reporting.",
+    "No located evidence verifies that Costco's revenue share remained above 10% after the 2022 report. The 2022 percentage's underlying fiscal period is unspecified."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6807/1130/hermes-attempt-1.stdout.txt"
+}

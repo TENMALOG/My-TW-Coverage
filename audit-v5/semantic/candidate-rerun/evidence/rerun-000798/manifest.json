@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000798",
+  "claim_id": "1560:objective_ranking_or_market_share:4fb13831c5b7dbba",
+  "normalized_claim_hash": "4fb13831c5b7dbba1af291f8f508fbd5957defbdefd3e9d0fed686bf991046ed",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-11a9cbd972cdcbc7",
+      "title": "中砂2022年永續報告書",
+      "url": "https://www.kinik.com.tw/upload/ESG/ESGReport2022.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革；相關半導體業務自2000年起",
+      "locator": "公司存在的價值／公司沿革段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述：由砂輪起家，後發展半導體CMP鑽石碟及再生晶圓業務。"
+    },
+    {
+      "source_id": "src-3f596db1ca2626a2",
+      "title": "KINIK Company Investor Meeting 2026Q1",
+      "url": "https://www.kinik.com.tw/upload/Investors/Conference/2026Q1%20KINIK%20Company%20investor%20meeting%2020260512.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-12",
+      "effective_period": "2020至2025年資料及2026年估值",
+      "locator": "第22頁，Global CMP Diamond Disk Market Size and Kinik’s Market Share Trends",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報標明資料來源為SEMI、QY Research及中砂內部財務資料與估計；列有市場規模及中砂市佔率，未標示競爭者排名。"
+    },
+    {
+      "source_id": "src-4e8903347b74552b",
+      "title": "鑽石碟—中國砂輪企業股份有限公司",
+      "url": "https://www.kinik.com.tw/zh-tw/Products/CMPDiamondDisk.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品說明開頭",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司直接說明鑽石碟用於半導體化學機械研磨製程並修整研磨墊。"
+    },
+    {
+      "source_id": "src-41a9ef4555d01acd",
+      "title": "中國砂輪企業股份有限公司2024年年報",
+      "url": "https://www.kinik.com.tw/upload/Investors/AnnualReport/%E5%B9%B4%E5%A0%B1113.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "營運概況／鑽石碟市場發展說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱鑽石碟在先進製程市場占比持續增加，並在3奈米市場取得領先地位；未列出該節點的市佔率數值。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得公司官方資料支持業務沿革、三大事業架構、CMP修整器用途及3nm領先表述。台積電客戶身分、2nm市佔率與整體市場排名仍缺乏可確認的公司或監管披露；不以客戶匿名資料、出貨量或全球市佔率估值推定。",
+    "主要依據中砂官方產品頁、年報、永續報告及法說簡報；市場地位與全球市佔率相關表述屬公司披露。",
+    "2026年法說簡報的全球市佔率圖表標明引用SEMI、QY Research及中砂內部財務資料與估計；2026年為預估值，未提供競爭者排名。",
+    "公司簡報對特定台灣客戶匿名，因此不能據此確認客戶為台積電。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1560/798/hermes-attempt-1.stdout.txt"
+}

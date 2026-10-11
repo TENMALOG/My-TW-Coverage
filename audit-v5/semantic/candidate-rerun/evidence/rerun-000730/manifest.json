@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000730",
+  "claim_id": "4575:objective_ranking_or_market_share:8ef602a5b67e7880",
+  "normalized_claim_hash": "8ef602a5b67e7880bb1e2b45182e5c7cdeb7fff55a1c8fb723404e1a5f25963f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-28edef1a13d8e123",
+      "title": "PET吹瓶機領導品牌-銓寶工業｜模具瓶胚設計｜整廠規劃",
+      "url": "https://www.chumpower.com/tw/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「銓寶簡介」及「行銷全球」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "現行簡介稱售出逾 4,000 台至 115 國，並稱 115 國客戶肯定；支持至少涵蓋 103 國，不支持把 103 說成目前精確數。"
+    },
+    {
+      "source_id": "src-55d935f4a248fdba",
+      "title": "Taiwan Excellence - Official: Intelligent blow molding machine",
+      "url": "https://ap1.taiwanexcellence.org/en/award/product/1100118",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面標示 2021 年獎項；公司簡介寫「35 years of development」，其統計日期不明。",
+      "locator": "「About CHUMPOWER MACHINERY CORP.」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡介稱銓寶吹瓶機售至 103 國；頁面沒有給出該國數的統計日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱銓寶官方簡介及台灣精品官方產品頁，並針對裝機量與年報／公開資料搜尋；找到的 4,000 台資料僅為累計銷售，未找到可核實裝機量的來源，因此該原子主張保留 UNKNOWN。",
+    "最大排名與 85% 出口額占比主要是公司自述；現有來源沒有披露獨立排名、計算方法、統計期間或出口額分母。",
+    "逾 4,000 台的官方說法指累計售出，不等於裝機量或仍在運轉台數。",
+    "103 國是歷史公司簡介中的數字；現行公司簡介報 115 國，不能把 103 國描述成目前精確市場數。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4575/730/hermes-attempt-1.stdout.txt"
+}

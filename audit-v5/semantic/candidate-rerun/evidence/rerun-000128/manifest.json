@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000128",
+  "claim_id": "1714:objective_ranking_or_market_share:54021868aa7d2922",
+  "normalized_claim_hash": "54021868aa7d29222f8f18b09a1e37e2d684bb72cc839bc4b3a2f97de4538414",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0f229074ec0ba94b",
+      "title": "基本資料 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於和桐-基本資料」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為亞洲最大的界面活性劑原料供應商，未披露市佔率、統計期間或市場分母。"
+    },
+    {
+      "source_id": "src-f32fe160ea9098f6",
+      "title": "永續經營 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/products?lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「經營理念」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自稱為全球界面活性劑原料工業的產業先驅，並稱與全球500大企業建立穩定夥伴關係；未列明客戶或市場排名依據。"
+    },
+    {
+      "source_id": "src-6f1891ae2dceb24e",
+      "title": "Ho Tung Chemical Corp. - Investor Presentation 2026",
+      "url": "https://financialreports.eu/filings/ho-tung-1714/investor-presentation/2026/33433079/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度地區銷貨收入",
+      "locator": "「Sales Territory and Products」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示2025年中國大陸與東南亞地區營收占比；屬公司地區營收，不揭露相關客戶是否為OEM／白牌工廠。"
+    },
+    {
+      "source_id": "src-a0c1066349169356",
+      "title": "產品與市場 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/products_view-60?lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品供應對象說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認公司列舉P&G、Unilever為品牌客戶，但未披露直接供貨、合約或量。"
+    },
+    {
+      "source_id": "src-c6efc4570119b225",
+      "title": "重建題材 中纖、磐亞齊漲停",
+      "url": "https://www.chinatimes.com/newspapers/20130426000220-260206",
+      "source_level": 2,
+      "publication_date": "2013-04-26",
+      "effective_period": "報導所述的2013年前後",
+      "locator": "和桐公司業務描述段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列出P&G、Unilever、Lion為主要客戶，但未說明直接供貨、合約期限或供貨量。"
+    },
+    {
+      "source_id": "src-0eda5a0a3bdcd858",
+      "title": "責任治理 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/products-33?lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度永續揭露",
+      "locator": "供應鏈／清潔劑製造商說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只支持一般清潔劑製造商為原料供應對象，沒有客戶規模、地區、合同或供貨量資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱和桐官方公司介紹、產品與市場頁、2024年度責任治理揭露、2026投資人簡報鏡像及相關媒體報導；對量化市佔率、Kao客戶身分及具體直接長約與供貨量仍無足夠證據，依規則停止並保留為UNKNOWN。",
+    "公司網站的「亞洲最大」及「全球產業先驅」屬發行人自述，未見獨立排名資料或相應市場分母。",
+    "2026投資人簡報的中國磺化產能排名是特定產品與中國市場的產能資料，不等同全球／亞洲市佔率；該簡報由第三方網站轉載。",
+    "P&G與Unilever的客戶關係有公司現行官方頁面支持；Lion的證據為2013年二手報導，不能推定為現況；未找到Kao的可靠客戶證據。",
+    "區域營收占比、一般清潔劑製造商供應對象及品牌客戶名單，均不能單獨證明OEM／白牌廠身份、直接供貨、合同期限或供貨量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1714/128/hermes-attempt-1.stdout.txt"
+}

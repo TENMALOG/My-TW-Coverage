@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000270",
+  "claim_id": "2383:objective_ranking_or_market_share:d7e1c63f7e5f9a21",
+  "normalized_claim_hash": "d7e1c63f7e5f9a21af4db854ec06978a85c1e660e11d22bf45a1e987dead2089",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ef2c4312572599d8",
+      "title": "EMC is Delivering Excellence with EPS Surpassing NT$10 for a Second Consecutive Quarter",
+      "url": "https://www.emctw.com/en-global/investors_news/detail/2025073015/3",
+      "source_level": 3,
+      "publication_date": "2025-07-30",
+      "effective_period": "2024年全球高速CCL市場",
+      "locator": "Outlook段落，40% market share與15-point lead的披露",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露範圍為high-speed CCL，未分列high-frequency市場市占。"
+    },
+    {
+      "source_id": "src-0731b32da5e7640a",
+      "title": "PCB sector: Sales of CCL makers beat on strong server demand",
+      "url": "https://www.kgi.com.hk/en/-/media/files/kgishk/research-reports/tw-reports/2024/01/pcb-sector_24102024.pdf",
+      "source_level": 2,
+      "publication_date": "2024-10-24",
+      "effective_period": "2025年第一季預測；GB200 NVL72板材設計變更",
+      "locator": "第1頁，Impact段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "指出特定AI伺服器板材變更使台光電受惠，沒有比較誰是最大受惠者。"
+    },
+    {
+      "source_id": "src-678f0fcd70c5a64f",
+      "title": "輝達、Google、AWS全吃下！高階CCL材料需求孔急 台光電等業者成大贏家",
+      "url": "https://www.ctee.com.tw/news/20251127700080-439901",
+      "source_level": 2,
+      "publication_date": "2025-11-27",
+      "effective_period": "GB300、Google TPU V7、AWS Trainium3平台",
+      "locator": "正文，三個AI伺服器平台的CCL供應商說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱台光電是這三個平台唯一同時採用的CCL廠之一，但未量化或比較其相對受惠程度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對官方披露、精確中文措辭及券商／產業報導的集中搜尋；未找到高頻CCL獨立市占或可驗證「最大受惠者」的比較數據，故未將已證實的受惠擴張為排名主張。",
+    "高速CCL市占資料由台光電官方公告轉述Prismark；未取得該調研機構原始表格，且公告未提供完整市場計算口徑。",
+    "高速CCL與高頻CCL未被證明是同一統計分母；本次市占數據只明確涵蓋高速CCL。",
+    "「最大受惠者」沒有指定比較對象、期間或受惠指標；已找到的資料確認供應及受惠，但不足以支持該比較級。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2383/270/hermes-attempt-1.stdout.txt"
+}

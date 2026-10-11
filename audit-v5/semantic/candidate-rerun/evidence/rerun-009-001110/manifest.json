@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001110",
+  "claim_id": "6150:material_named_relationship:0112c8a5be3447d0",
+  "normalized_claim_hash": "0112c8a5be3447d0b613ebda769bba61a212e62a65eeb1306c3e5d6886577e8b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a5fcad84449afcc44cb2",
+      "title": "TUL Corporation — About TUL",
+      "url": "https://www.tul.com.tw/en/News/NewsDetail/19",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About TUL段落， lines 91–93",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為AMD graphics cards前三大製造商；未交代排名計算方法。 ([tul.com.tw](https://www.tul.com.tw/en/News/NewsDetail/19))"
+    },
+    {
+      "source_id": "src-f70046549e35247a70c7",
+      "title": "TUL PowerColor AMD GPUs Adopted by Simple View Production Company",
+      "url": "https://www.tul.com.tw/en/News/NewsDetail/7",
+      "source_level": 3,
+      "publication_date": "2019-11-22",
+      "effective_period": "公告發布時",
+      "locator": "公告日期及正文，lines 74–80、About TUL段落 lines 86–88",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載PowerColor AMD顯示卡產品，並重述撼訊為AMD顯示卡前三大廠商的公司自述。 ([tul.com.tw](https://www.tul.com.tw/en/News/NewsDetail/7))"
+    },
+    {
+      "source_id": "src-0bf057578a0bb54b0dfd",
+      "title": "TUL Corporation — About TUL",
+      "url": "https://www.tul.com.tw/en/News/NewsDetail/19",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About TUL段落，lines 91–93",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅載公司對AMD顯示卡廠商排名的概括自述；未提供消費性顯卡出貨量、排名期間、分母或資料來源。 ([tul.com.tw](https://www.tul.com.tw/en/News/NewsDetail/19))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核撼訊官方公司介紹及相關公告，並以消費性顯卡、出貨排名等詞搜尋；找到的官方資料只支持AMD顯示卡廠商排名自述，未解決消費性顯卡全球出貨排名，故該原子主張維持UNKNOWN。",
+    "AMD顯示卡前三大廠商的排名來自撼訊自身介紹，未附排名方法、出貨量數據或獨立市場來源。",
+    "未找到消費性顯卡出貨排名所需的期間、產品範圍、全球市場定義及比較廠商分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6150/1110/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6460ecbc8cbacf485e5f87785ed59bd23d039c26bcaa03cdbe2ac90e002e4f46",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6150/1110/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "50aab89d3378dadf648a463baa63d308bc3b22a189fef24f5e67c033b5268985",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001110/manifest.json",
+  "supersedes_manifest_sha256": "3c1b0a8d7534e12243553554abba08e0ed200dd4b18ea11a80198ca34de10292",
+  "corrected_at": "2026-10-08T09:59:19Z"
+}

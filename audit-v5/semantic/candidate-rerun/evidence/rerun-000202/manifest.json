@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000202",
+  "claim_id": "6884:objective_ranking_or_market_share:b70dfbe1514f5901",
+  "normalized_claim_hash": "b70dfbe1514f5901f41585e6cf77fc3648fab0e6e5a0a38e3729250534ccb051",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-24f0ef5ae0c12787",
+      "title": "宏碁子公司連 iPhone 也會修！海柏特專注售後服務 2025年業績正成長",
+      "url": "https://money.udn.com/money/story/11074/9165106",
+      "source_level": 2,
+      "publication_date": "2025-11-26",
+      "effective_period": null,
+      "locator": "Article, final paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports approximately 20% of revenue from Acer-brand product after-sales services and approximately 10% from Acer overseas project implementation and follow-up maintenance, but gives no brand-level ranking."
+    },
+    {
+      "source_id": "src-b005942dddfcf491",
+      "title": "海柏特興櫃轉往上櫃掛牌，「三多」策略建構護城河",
+      "url": "https://ccc.technews.tw/2025/11/26/acer-hsn-to-upgrade-from-the-emerging-stock-board-to-the-tpex/",
+      "source_level": 2,
+      "publication_date": "2025-11-26",
+      "effective_period": null,
+      "locator": "Article, paragraphs describing Acer-related revenue",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Acer computer repairs as over 20% of total revenue and Acer project work as over 10%; it does not compare Acer with other individual brands."
+    },
+    {
+      "source_id": "src-b99f60c752ed519f",
+      "title": "海柏特 | 關於我們",
+      "url": "https://www.hsnservice.com/tw/aboutus",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About HSN",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page describes authorized multi-brand services but supplies no brand-by-brand revenue or ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found evidence of Acer-related after-sales revenue but no comparative brand-level ranking or matching authorization denominator. Research stopped with the ranking atom unresolved.",
+    "The Acer-specific revenue estimates come from secondary reporting of a company briefing, not a disclosed brand-by-brand revenue table.",
+    "The claim gives no reference period, market definition, or measure for “largest” (for example, revenue, service volume, or number of authorizations).",
+    "Acer-related overseas project revenue is a distinct category from Acer-brand product after-sales services."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6884/202/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000449",
+  "claim_id": "2882:objective_ranking_or_market_share:214bbde45faed47f",
+  "normalized_claim_hash": "214bbde45faed47fab8d762a7aaf86bdbc15926f4bfc2c393bfa1bdce647cd7b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e3308a5adb8ae2bb6729",
+      "title": "Our Services - Cathay Securities",
+      "url": "https://www.cathaysec.com.tw/english/finance.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Our Services list",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Retail Brokerage as a service."
+    },
+    {
+      "source_id": "src-0c140e4a52e3dabe1c1e",
+      "title": "Our Services - Cathay Securities",
+      "url": "https://www.cathaysec.com.tw/english/banking.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Corporate Financial Advisory & Underwriting; What We Do; Underwriting",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes IPO and SPO underwriting services."
+    },
+    {
+      "source_id": "src-a1b76c7271172229c585",
+      "title": "國泰投信再出擊！國泰台股動能高息主動式ETF基金獲准募集 只要10元小資價",
+      "url": "https://www.cathayholdings.com/holdings/lastest_news/news_archive/newsarticle?newsID=JhtICzpmG0-joZUGWbwNSQ",
+      "source_level": 3,
+      "publication_date": "2026-02-05",
+      "effective_period": "Company statement published 2026-02-05; refers to 38 ETF products issued by Cathay SITE.",
+      "locator": "Article paragraph beginning「國泰金控作為國內資產管理龍頭」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Cathay Financial Holdings release attributes the figure and 'most in Taiwan's investment-trust industry' comparison to Cathay SITE."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方來源支持三項原子主張，並以發行檔數限定ETF排名的解讀；在8個研究回合上限之前停止。",
+    "經紀與承銷服務由國泰證券官方服務頁面直接列示，但頁面未標示發布日期。",
+    "ETF發行排名及38檔數字來自國泰金控發布的國泰投信資訊，屬公司自述；該來源未列出台灣投信業者總數或提供獨立排名驗證。",
+    "ETF「最大」按發行產品檔數解讀；此證據不代表按ETF資產規模或市場占有率排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2882/449/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "46088e2eeedbddb178ce8e00d75bef42d73908fdeac088d11a2bdafebff0b956",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2882/449/isolated-prompt.txt",
+  "prompt_sha256": "78f20b261ce2db431a9007366213177613fc69acfb32ae39158d38410f81f0b5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000449/manifest.json",
+  "supersedes_manifest_sha256": "be8205a4267b0a7b447188048f5b1423a8043abd1096197fb65dd7c622ef16d5",
+  "corrected_at": "2026-10-08T09:58:13Z"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000187",
+  "claim_id": "3272:objective_ranking_or_market_share:48f05562f3b2586d",
+  "normalized_claim_hash": "48f05562f3b2586df5594f56947e3130f941eaff540f595befd98d12ad8d21d1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-97ff31bd5454cf9f",
+      "title": "Good Way Unveils The World's First HDMI 2.1 Certified Thunderbolt™ 4 Docking Station",
+      "url": "https://www.goodway.com.tw/en/news/good-way-news-001.html",
+      "source_level": 3,
+      "publication_date": "2021-05-27",
+      "effective_period": "2021年",
+      "locator": "新聞稿首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為全球領先的 docking station ODM 供應商，但未稱全球最大，也未提供排名、比較範圍或分母。"
+    },
+    {
+      "source_id": "src-7d6ddcf016284bef",
+      "title": "OEM/ODM服務 | 東碩資訊股份有限公司",
+      "url": "https://www.goodway.com.tw/zh-TW/page/service.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面歷史敘述提及2015年",
+      "locator": "「產品開發研發能力」中 Type C 系列產品段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱新開發的 Type C 系列產品展現研發技術實力；頁面沒有量化目前的 USB-C 技術投入或營收、出貨占比。"
+    },
+    {
+      "source_id": "src-6e6d36c0519e6d13",
+      "title": "東碩 USB擴充基座市占全球第一",
+      "url": "https://www.moneyweekly.com.tw/ArticleData/Info/%E7%90%86%E8%B2%A1%E5%91%A8%E5%88%8A/23453",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "訪問內容指涉前一年（2013年）的 USB docking station 市占",
+      "locator": "訪問問答：「去年該產品的全球市占率高達六五．二％」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "理財周刊訪問東碩發言人，屬二手報導轉述公司說法；產品類別限於 USB 擴充基座，市占率分母與研究方法未載明，不能證明當前全球 docking station ODM 排名第一。"
+    },
+    {
+      "source_id": "src-be0149d30424b592",
+      "title": "20240918_Catalog_for_Computex2024_V4.1",
+      "url": "https://goodway.com.tw/Templates/att/2025_Catalog.pdf?lng=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Computex 2024型錄",
+      "locator": "USB-C DP1.4 MST Smart Dock、Thunderbolt 4/USB-C 產品規格及產品線說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "型錄證明有 USB-C 產品及相關介面規格；產品存在不等於證明公司現階段專注於 USB-C 高速傳輸技術。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行公司 ODM/OEM 服務頁、公司新聞稿、Computex 2024型錄及一則歷史二手市占報導。未找到能驗證當前全球最大排名的可比資料或能界定目前 Thunderbolt/USB-C 專注程度的證據；相關原子主張保留 UNKNOWN。",
+    "官方公司頁面可支持其產品、服務與歷史研發，但公司自述的「leading」不能當作獨立驗證的「全球最大」排名。",
+    "理財周刊報導的65.2%是2013年 USB 擴充基座市占說法，分母與方法未交代；產品類別、期間及市場指標均不同於原句所稱的全球 docking station ODM 排名。",
+    "型錄中的產品和規格支持技術與產品範圍，不足以推導公司現階段的技術專注度或相對投入。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3272/187/hermes-attempt-1.stdout.txt"
+}

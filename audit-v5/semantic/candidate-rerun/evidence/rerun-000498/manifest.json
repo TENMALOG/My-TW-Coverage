@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000498",
+  "claim_id": "2415:objective_ranking_or_market_share:b314132dd634687f",
+  "normalized_claim_hash": "b314132dd634687f1d367b5e440e42d36dc6bf1c7afa112871a04bbf1344248c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d4cbfe3bca6a0c3a",
+      "title": "CX Technology | LinkedIn",
+      "url": "https://www.linkedin.com/company/cx-technology/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介（description）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面簡介稱錩新為全球最大高級揚聲器鍛造零組件專業廠商；未標示發布或有效日期。"
+    },
+    {
+      "source_id": "src-651ac0621748dd67",
+      "title": "CX Technology Corporation",
+      "url": "https://www.cxtechnology.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其冷鍛汽車音響揚聲器零組件全球市佔逾19%；未提供計算方法、具體分母或有效期間。"
+    },
+    {
+      "source_id": "src-15c158ad09651001",
+      "title": "CX Technology Corporation",
+      "url": "https://www.cxtechnology.com/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Our Advantages：19+% Global market share automotive stereo speaker components",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "錩新官網直接列出汽車音響揚聲器零組件全球市佔19%以上；未提供計算方法、具體分母或有效期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "公司官方網站及公司 LinkedIn 簡介已直接支持兩項陳述，故停止研究；未進一步獨立驗證排名或市佔率計算口徑。",
+    "排名與市佔率均由錩新公司自身公開陳述，未找到獨立市場資料驗證。",
+    "官方資料未說明市佔率分母的計算口徑（例如銷量或營收），也未標示數值所屬期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2415/498/hermes-attempt-1.stdout.txt"
+}

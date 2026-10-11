@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001167",
+  "claim_id": "1456:material_named_relationship:d48c1acbce4b4c83",
+  "normalized_claim_hash": "d48c1acbce4b4c831beb08270d696233efc2ca3fb0f3c0e52c978858ac990c83",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-cc909a084e3100d9",
+      "title": "怡華實業股份有限公司及子公司合併財務報告暨會計師核閱報告（民國115年及114年第二季）",
+      "url": "https://www.ihwa.com.tw/_i/assets/upload/files/%E6%80%A1%E8%8F%AF_115Q2_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-01-01至2026-06-30",
+      "locator": "封面第1頁標示報告期間；全份報告檢視",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方合併財報未提供可確認各級政府機關為主要客戶的名單或衡量資料；未揭露不代表沒有政府機關客戶。"
+    },
+    {
+      "source_id": "src-edaa1fc87e8c1c79",
+      "title": "怡華實業股份有限公司及子公司合併財務報告暨會計師查核報告（民國113年度及112年度）",
+      "url": "https://www.ihwa.com.tw/_i/assets/upload/files/%E6%80%A1%E8%8F%AF113Q4_%E5%90%88%E4%BD%B5_%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024及2023年度",
+      "locator": "附註六（二十一）金融工具、信用風險集中情況；PDF第49至50頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "該處只披露未具名紡織部門客戶及營建預售客群概況，未列出政府機關客戶或其重要性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱怡華官方近期合併財報及較早的官方客戶風險揭露；仍無法確認兩項客戶身分及其「主要」地位，因此保留為UNKNOWN。",
+    "財報中的「A客戶」未具名，不能推定為台電或任何政府機關。",
+    "客戶名稱或重要性未在已查閱資料中披露，不能以未披露推導客戶關係不存在。",
+    "原主張未提供期間、「主要」的定義、收入分母或明確市場範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1456/1167/hermes-attempt-1.stdout.txt"
+}

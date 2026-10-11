@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000340",
+  "claim_id": "6732:objective_ranking_or_market_share:60bfec13a29befba",
+  "normalized_claim_hash": "60bfec13a29befbae34ef77484ec4ebbb4b2d15a413dc1c263fdefdb5a46dae2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0a2bd4731a67893d",
+      "title": "Sensortek 4Q 2024 Results Investor Presentation",
+      "url": "https://www.sensortek.com.tw/wp-content/uploads/2025/03/%E7%B0%A1%E5%A0%B1%E8%B3%87%E6%96%99%E8%8B%B1%E6%96%87_20250311.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03",
+      "effective_period": "客戶與市佔描述列於 2025 年 3 月簡報",
+      "locator": "投資人簡報第 2、6 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱客戶包括 Tier-1 Android smartphone brands，並稱將維持 leading market share；未列出 Android 專屬市佔、分母、單位或市場定義。"
+    },
+    {
+      "source_id": "src-58dcbafaae5962ae",
+      "title": "Sensortek 4Q 2025 Results Investor Presentation",
+      "url": "https://www.sensortek.com.tw/wp-content/uploads/2026/03/MOPS_6732_Sensortek_EN_20260327.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03",
+      "effective_period": "客戶列示於 2026 年 3 月簡報；營運數據截至 2025 年",
+      "locator": "投資人簡報第 2 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司仍列出 Tier-1 Android smartphone brands 作為客戶，但未披露 Android 陣營市佔數據或其分母。"
+    },
+    {
+      "source_id": "src-976523f5bfca9abf",
+      "title": "Sensortek Technology Corp. Investor Conferences Q1 2021",
+      "url": "https://www.sensortek.com.tw/wp-content/uploads/2021/04/11004%E7%B0%A1%E5%A0%B1%E8%B3%87%E6%96%99English.pdf",
+      "source_level": 3,
+      "publication_date": "2021-04",
+      "effective_period": "出貨量列示 2018–2020；59% 市佔圖未標明清楚的對應年份與市場口徑",
+      "locator": "第 15 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述 Proximity & Ambient Light Sensors 的 Sensortek 59%、Others 41%；未說明分母、Android 範圍或市佔圖對應年度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司 2021、2025、2026 年投資人簡報及官網產品里程碑，並以針對性檢索尋找 Android 專屬市佔資料；可得公司資料仍未提供該市佔的明確範圍與分母，因此該原子主張維持 UNKNOWN。",
+    "產品功能及市場地位資料主要來自公司自行發布的投資人簡報，屬公司陳述。",
+    "2021 年簡報中的 59% 市佔缺少清楚的 Android 範圍、分母、口徑及對應年度，不能直接證明原 claim 的 Android 專屬市佔。",
+    "2025 年簡報的「leading market share」為未量化自述，不提供市場定義或分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6732/340/hermes-attempt-1.stdout.txt"
+}

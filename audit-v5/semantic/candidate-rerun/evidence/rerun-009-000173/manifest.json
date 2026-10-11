@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000173",
+  "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
+  "normalized_claim_hash": "21dca8dbbc43aba7519d6fc3af823ad4e930431fe1995b931f89e12816126956",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9ed6f2f23d296d98cb52",
+      "title": "泰國將成最大生產基地！從印表機做到充電樁，泰金寶的變色龍戰略",
+      "url": "https://www.cw.com.tw/article/5127750",
+      "source_level": 2,
+      "publication_date": "2023-10-17",
+      "effective_period": "報導預測新廠將於2024年第一季成為金仁寶集團最大生產基地",
+      "locator": "內文「很快，明年第一季起」及「15萬坪新廠區……明年第一季，這裡將成金仁寶集團最大生產基地」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級媒體報導；是對規劃新廠的未來預測，不是新廠後續落成或排名已實現的證據。"
+    },
+    {
+      "source_id": "src-6a755ae63e09e93e877b",
+      "title": "KINPO GROUP｜全球據點",
+      "url": "https://www.kinpogroup.com/en-US/global-network",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "China section：Kinpo Electronic (China)、Cal-Comp Optical Electronics (Suzhou)、Cal-Comp Precision (Dongguan)、Cal-Comp Optical Electronics (Yueyang) 及其所在地",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "集團官方全球據點頁列出中國的集團企業及地址；未標示頁面適用日期。"
+    },
+    {
+      "source_id": "src-a9061967941c72ed81c4",
+      "title": "KINPO GROUP｜全球據點",
+      "url": "https://www.kinpogroup.com/en-US/global-network",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Brazil section：Cal-Comp Electronics、Cal-Comp Semicondutores 及其 Manaus 地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "集團官方全球據點頁列出巴西的集團企業及地址；未標示頁面適用日期。"
+    },
+    {
+      "source_id": "src-8813fc3e86839bff2152",
+      "title": "KINPO GROUP｜全球據點",
+      "url": "https://www.kinpogroup.com/en-US/global-network",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Philippines section：Cal-Comp Technology、Kinpo Electronics (Philippines)、Cal-Comp Precision (Philippines) 及其地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "集團官方全球據點頁列出菲律賓的集團企業及地址；未標示頁面適用日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行多輪針對官方資料及該排名表述的聚焦檢索；未找到可確認泰國新廠預測已實現、且界定集團範圍與比較指標的可靠資料，因此排名主張保留為UNKNOWN。",
+    "「泰國泰金寶為集團最大製造基地」未指定期間、集團範圍或「最大」的衡量指標；可找到的相關報導是對規劃新廠的未來預測。",
+    "官方全球據點頁支持中國、巴西及菲律賓均有集團據點，但頁面未標示適用日期，也未提供據點相對規模或產能排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2312/173/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "7b4b7e2725235524515cddcb397157ba336a88050f4b0373aeee4c796d8b2bf5",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2312/173/isolated-prompt.txt",
+  "prompt_sha256": "2b530c9feb1450452d6005c815bdb0eb7dcec33e38067db8ec6d37b2475567a9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000173/manifest.json",
+  "supersedes_manifest_sha256": "035b97496252d02ab4911c174705a5b1fc534c5f95ddcf3f0b6ab849bd51c378",
+  "corrected_at": "2026-10-08T09:57:51Z"
+}

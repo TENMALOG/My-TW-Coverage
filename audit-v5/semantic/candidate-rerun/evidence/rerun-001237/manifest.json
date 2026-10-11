@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001237",
+  "claim_id": "4566:material_named_relationship:52a67ed63606906d",
+  "normalized_claim_hash": "52a67ed63606906db66ae2c54e4e2dbff8722a9f7aabd8a92a08f85b10f39e8f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-05334eff8837073a",
+      "title": "時碩工業 2025/12/08 法人說明會簡報",
+      "url": "https://www.globaltekww.com/uploads/legal_person_briefing/20251208.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-08",
+      "effective_period": "截至簡報發布時的供應鏈狀態",
+      "locator": "第24頁，「重大營運現況更新大事紀 I－時碩蘇州廠」之汽車應用段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認已進入，但沒有提供進入年份或可衡量「近年」的時間範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得發行人2025年簡報對供應鏈進入的直接確認；針對導入年份的查證仍未找到可核實的日期，因此保留時間限定為UNKNOWN並停止。",
+    "主要依據為發行人簡報，能支持其披露的供應鏈進入狀態，但未提供導入日期、具體產品或供貨規模。",
+    "「進入供應鏈」不等於證明時碩直接向比亞迪供貨，也不代表其供應完整安全氣囊系統。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4566/1237/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000827",
+  "claim_id": "5604:objective_ranking_or_market_share:b23601c5085ed50f",
+  "normalized_claim_hash": "b23601c5085ed50fcf78c5275fbe51202faa339c734cf57b27adb39a2cb3dbb0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0811ad430679d60e",
+      "title": "中連貨：公司依4/3公告之合作備忘錄與新竹物流簽訂不動產出租合約",
+      "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B7406A56F-B309-46FA-A300-74F30EAD4183%7D",
+      "source_level": 2,
+      "publication_date": "2019-06-28",
+      "effective_period": "Nine leases announced in 2019; listed contract dates run from July/August 2019 to July 2029.",
+      "locator": "Lines 56–64",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports total contracted area of about 20,500 ping at nine locations."
+    },
+    {
+      "source_id": "src-cd4893327eafa2b5",
+      "title": "中連誠企業股份有限公司民國一一四年度年報",
+      "url": "https://doc.twse.com.tw/pdf/2025_5604_20260604F04_20261003_121641.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-25",
+      "effective_period": "FY2025; year-end figures as of 2025-12-31.",
+      "locator": "Page 4, lines 75–98",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides current company-wide leased-area and occupancy totals, but not 新竹物流's tenant-specific area; it does not validate the historical ratio as a current one."
+    },
+    {
+      "source_id": "src-d8afeecc9545eda2",
+      "title": "中連分3批大量解僱千人 4.7萬坪地轉型供出租",
+      "url": "https://www.cna.com.tw/news/firstnews/201904160286.aspx",
+      "source_level": 2,
+      "publication_date": "2019-04-16",
+      "effective_period": "2019 planned rental inventory.",
+      "locator": "Lines 283–294, especially line 292",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports about 47,000 ping of nationwide station land and warehouse space available for lease, with some sites first offered to 新竹物流."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱2019年租約公告轉載、同期中央社報導及中連2025年度年報。歷史租賃面積比例可作有限支持；承租戶排行及目前新竹物流個別占比仍缺乏比較資料，故保留為UNKNOWN。",
+    "2019年租約公告由玉山證券頁面轉載，頁面標示內容來自公開資訊觀測站重大訊息公告。",
+    "約43.6%的估算比較的是租約總面積與新聞所報可出租的場站土地及倉儲空間；兩者並非明確的純土地同口徑面積。",
+    "2025年年報只給出中連整體出租土地面積與出租率，未給出承租戶排行或新竹物流個別承租面積。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5604/827/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000729",
+  "claim_id": "4568:objective_ranking_or_market_share:14f79b7b43f1f4b4",
+  "normalized_claim_hash": "14f79b7b43f1f4b434233710bd275f374156739123e259a3f6138a6bf221ac15",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b16b8694a537951deade",
+      "title": "Gentherm to Acquire Alfmeier’s Automotive Business, An Innovative Market Leader in Automotive Lumbar and Massage Comfort Solutions",
+      "url": "https://www.globenewswire.com/news-release/2022/05/04/2435359/0/en/gentherm-to-acquire-alfmeier-s-automotive-business-an-innovative-market-leader-in-automotive-lumbar-and-massage-comfort-solutions.html",
+      "source_level": 3,
+      "publication_date": "2022-05-04",
+      "effective_period": "Alfmeier automotive business revenue reported for 2021; transaction announcement in 2022",
+      "locator": "Press release description of Alfmeier’s automotive lumbar and massage comfort solutions and automotive-seat valve and pump technology",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports Alfmeier's activity, not Faurecia or Continental's participation in the specified market."
+    },
+    {
+      "source_id": "src-d293bbb156b9e667ae1d",
+      "title": "SEC Filing | GENTHERM INCORPORATED",
+      "url": "https://ir.gentherm.com/node/17241/html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022 global market share; filing page also refers to relevant regions NA, EU, JP, KO, CH",
+      "locator": "Investor-presentation content on “2022 Global Market Share Pneumatic Seat Comfort”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Uses Gentherm internal research and reports Gentherm at 30%; does not verify the named companies' combined share or clarify the asserted 80% denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research stopped after the available focused searches and source extraction; the exact market-share claim remains unresolved.",
+    "Search-result snippets were discovery leads; the retrieved evidence did not resolve the named-company combination or its claimed share.",
+    "The Gentherm market-share material is company-reported internal research, and its stated relevant regions and market framing may not match the claim's unspecified scope."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4568/729/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "e5117f35d8cbf4ad50e13f97eb224bfa4b5715ebd5429de1156ef2ca1ed7ce04",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4568/729/isolated-prompt.txt",
+  "prompt_sha256": "d009dcc12493594509eb861a074638b3c0e9a647050cd9246fff62bc87ab152d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000729/manifest.json",
+  "supersedes_manifest_sha256": "843b44add71f93827e7c6d04b2b06039101daf081b3828582c2a3db704dc0ba9",
+  "corrected_at": "2026-10-08T09:58:38Z"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "revision-batch-012",
+  "selection": {
+    "industry_folder": "ALL",
+    "limit": 100,
+    "rule": "inventory parents not in any prior revision queue, ordered by the given industry priority (| separated, ALL = any), then ticker; first N"
+  },
+  "created_at": "2026-10-11T13:02:58.000625+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 100,
+  "queue_sha256": "2d38d0fb970ed439b78d93fb0fcc7e31fb55c436c9db18ba11d5cfa04c536b14",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/inventory.jsonl": "3c2b97edd0947c6b5248833a9147a90c3e14899c6048a85aadbe90a82199d553",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/queue.jsonl": "6ffe9737b5b318f78ba670e3e1ad7ee5e9ac1364889a84a85a9951afbbe4d435"
+  },
+  "prompt_template": {
+    "derived_from": "audit-v5/source-cache/candidate-rerun/adjudication/claims/9da61548d684833d6e4b/attempt-1/prompt-1.txt",
+    "sha256": "e08859be2c99a133cd99098d0e7d426ad5ec4284d0bf82b5aef6f335a407c8af"
+  },
+  "schema_template": {
+    "derived_from": "audit-v5/source-cache/candidate-rerun/adjudication/claims/9da61548d684833d6e4b/attempt-1/claim-output-schema.json",
+    "sha256": "cdcfa0a126c4dcb8eb3bde27285e34e3f8af54a27620cba94f6b634603352d4d"
+  },
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "3ffda09e760caf64ab54cad56b6adff163d0611fc0f5dede4142300249dee39e",
+  "original_acceptance_authority": false
+}

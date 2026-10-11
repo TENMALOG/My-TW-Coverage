@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000483",
+  "claim_id": "9914:objective_ranking_or_market_share:f9ee3f3ed9072675",
+  "normalized_claim_hash": "f9ee3f3ed9072675de879dff5714023ed634ed7a079143c68b57c27d9388f408",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0fe0646e35b7889d",
+      "title": "Distributor in the spotlight - MERIDA Benelux",
+      "url": "https://www.merida-bikes.com/en-nz/news/detail/1529/Distributor+in+the+spotlight+-+MERIDA+Benelux",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Distributor profile; descriptions of the showroom, dealers, and dealer shows.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms dealers and a showroom, but does not classify the dealer network as bicycle-specialty shops."
+    },
+    {
+      "source_id": "src-24ca93728927d7dd",
+      "title": "Distributor in the spotlight – meet Peter Ilavský",
+      "url": "https://www.merida-bikes.com/en/news/detail/1678/Distributor+in+the+spotlight+%E2%80%93+meet+Peter+Ilavsk%C3%BD",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Distributor profile; passage describing retail stores and dealers.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents local retail stores and dealers, but not the specialty-store classification or channel mix."
+    },
+    {
+      "source_id": "src-5bbaaa0a8e1431b7",
+      "title": "Merida Industry, riding the uptrend",
+      "url": "https://www.gemway.com/en/news/2021-03-15-merida-industry-riding-the-uptrend",
+      "source_level": 2,
+      "publication_date": "2021-03-15",
+      "effective_period": null,
+      "locator": "Paragraph beginning “It has built 4 production plants...”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Europe as 55% of group sales, but does not specify that this is MERIDA-brand sales or provide the period and brand-specific denominator needed to verify the claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official evidence of European distributor and dealer presence, but no reliable brand-specific disclosure establishing Europe as MERIDA's largest market or confirming specialty shops as the defining channel. Further verification requires a source specifying the relevant period, metric, and denominator.",
+    "The official distributor profiles support the existence of dealers and some retail stores in specific European markets, not the size or composition of the overall European network.",
+    "The secondary 2021 report's 55% Europe figure is for group sales and does not establish MERIDA-brand sales ranking.",
+    "No located source supplied a period, ranking metric, or comparison denominator for the largest-market assertion."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9914/483/hermes-attempt-1.stdout.txt"
+}

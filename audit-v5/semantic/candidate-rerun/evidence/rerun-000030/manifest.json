@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000030",
+  "claim_id": "1339:objective_ranking_or_market_share:8c262157716b38f8",
+  "normalized_claim_hash": "8c262157716b38f88d6d9fc0ee5d6dde541264014d3e962dbff0f60a2fdabda4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "lkq-2025-10k",
+      "title": "LKQ Corporation Form 10-K for the fiscal year ended December 31, 2025 (U.S. SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+      "source_level": 3,
+      "publication_date": "2026-02-19",
+      "effective_period": "2025年度；2026-02-19向美國SEC提交。",
+      "locator": "Item 1, Business / Distribution：LKQ稱其North America segment經營北美最大的替代車輛零件及配件配送網絡，服務碰撞及機械維修市場。屬公司自述。",
+      "source_sha256": "f1429b846dfb35c1ac28ed66f15de648ced3f6efa35870621af5eadc98c073da",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/30/lkq-2025-10k.html",
+      "note": "支持LKQ對其北美配送網絡規模的自述，不表示LKQ是昭輝最大客戶，也不提供昭輝銷售額。"
+    },
+    {
+      "source_id": "lkq-keystone-automotive-industries",
+      "title": "Keystone Automotive Industries — LKQ Corp official brand page",
+      "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "LKQ官方現行品牌頁，截至2026-10-06查閱。",
+      "locator": "頁面稱Keystone Automotive Industries, Inc.為LKQ Corporation子公司，且是美國最大的aftermarket auto parts supplier。",
+      "source_sha256": "9b6640126ba0cf59adfe596f69cb6893563b62997b39bb22986a42a688f2078f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/30/lkq-keystone-brand.html",
+      "note": "以完整法律／品牌名稱Keystone Automotive Industries界定本次核對對象；不能把它與LKQ當成互不相關的母子公司客戶。"
+    },
+    {
+      "source_id": "ycc-2024-sustainability-report",
+      "title": "YCC 2024 Sustainability Report（昭輝2024年永續報告書）",
+      "url": "https://www.yccco.com.tw/upload/2025/08/20250829103955989.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-29",
+      "effective_period": "封面標示2024年度永續報告；於2025-08-29上傳。",
+      "locator": "PDF第5頁董事長序稱YCC是LKQ的重要供應商，並稱LKQ為美國最大AM零件通路；第5頁將YCC銷售市場描述為北美為主。",
+      "source_sha256": "82fa2fe11c8c71eb07deb0abf39bb1ef4a563042d83875bdd94cb8d784167811",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/30/ycc-2025-sustainability-report.pdf",
+      "note": "發行人自述支持重要供應關係和其對LKQ市場地位的描述；不披露YCC對LKQ銷售金額或名次。"
+    },
+    {
+      "source_id": "ycc-2024-shareholders-annual-report-corrected",
+      "title": "昭輝實業2024年股東會年報（會後修訂版）",
+      "url": "https://www.yccco.com.tw/upload/2025/12/20251229060221084.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-29",
+      "effective_period": "2024年度年報；銷貨集中度回顧最近二年度。",
+      "locator": "PDF印刷頁74「進貨或銷貨集中所面臨之風險」：最近二年度匿名銷貨客戶A集團比率高於10%，其他客戶銷售金額相對分散；未列客戶名稱或前兩大合計。",
+      "source_sha256": "a29e3c39c8856fca9aec760f78ecb0f59ab86f913a6aa82a2336c7a1142df2d5",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/30/ycc-2024-shareholders-annual-report-corrected.pdf",
+      "note": "一手年報。支持存在一筆匿名大客戶及其集中度超過10%，不支持該客戶就是LKQ，也沒有足夠數字判斷前兩大是否超過50%。"
+    },
+    {
+      "source_id": "ycc-2026-08-investor-presentation",
+      "title": "昭輝實業2026年8月6日法人說明會簡報",
+      "url": "https://www.yccco.com.tw/upload/2026/08/20260806090203246.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-06",
+      "effective_period": "截至2026-08-06的發行人簡報。",
+      "locator": "投影片第6頁以區域圖呈現銷售分布（北美85%、中東10%、其他5%）；全份31頁簡報未列出LKQ、Keystone或客戶營收占比。",
+      "source_sha256": "abfa4d9355ad116fcb85c6ba69155db59896942af4a808bf60e7047c823931eb",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/30/ycc-2026-08-investor-presentation.pdf",
+      "note": "逐頁視覺檢視簡報；區域銷售分布不能替代客戶集中度或單一客戶占比。"
+    }
+  ],
+  "search_notes": [
+    "分開判斷LKQ北美配送網絡、Keystone子公司身分、昭輝供應關係及昭輝客戶集中度。",
+    "優先採用LKQ SEC申報、LKQ品牌頁及昭輝年報／永續報告／法人簡報。",
+    "昭輝2026年簡報第6頁的北美銷售占比是地域口徑，不能代替客戶占比。",
+    "2024年年報將客戶A集團匿名；不以匿名代碼或舊二手資料推定LKQ，也不把母子公司當作兩個無關客戶。"
+  ]
+}

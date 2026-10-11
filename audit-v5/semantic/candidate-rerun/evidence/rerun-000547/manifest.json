@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000547",
+  "claim_id": "5484:objective_ranking_or_market_share:6db0feefd513243e",
+  "normalized_claim_hash": "6db0feefd513243e5c1bb1fcb02204b74616d22911133b5f68beda546e775604",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a939a1566444cdd3",
+      "title": "EverFocus Company Presentation",
+      "url": "https://everfocus.com/tw/download/80",
+      "source_level": 3,
+      "publication_date": "2024-12-20",
+      "effective_period": "簡報標示2024-12-20",
+      "locator": "Success story, slide 7, “Commercial Vehicle MDVR Kit”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報列出商用車MDVR產品與台灣商用車法規應用；未提供市場規模、利基市場定義或市場排名。"
+    },
+    {
+      "source_id": "src-712795e545d91951",
+      "title": "轉型策略發酵 慧友耕耘商用車客戶",
+      "url": "https://www.ctee.com.tw/news/20241221700176-439901",
+      "source_level": 2,
+      "publication_date": "2024-12-21",
+      "effective_period": "報導所述當時；智慧車載營收占比約23%",
+      "locator": "報導中「智慧車載占比23％」及三項主要業務段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導稱智慧車載占公司營收約23%；這是公司營收占比，不是車載監控市場的市佔率，也未界定「利基市場」。"
+    },
+    {
+      "source_id": "src-a3397ac71e8bde24",
+      "title": "〈慧友法說〉兩大日系商用車廠長單確定 搶進AI錄影機及機器人產業鏈 明年拚轉盈",
+      "url": "https://gfe-desktop.cnyes.com/news/id/5815379/print",
+      "source_level": 2,
+      "publication_date": "2024-12-20",
+      "effective_period": "報導所述當時；台灣商用車市場",
+      "locator": "首段：兩家日系車廠在台灣商用車市場占有率突破70%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "這是兩家車廠的合計市場占有率，不能替代慧友自身的市佔率；未提供慧友市佔率的分子或分母。"
+    },
+    {
+      "source_id": "src-0c9102f5fe4fb1be",
+      "title": "明年將赴美國及比利時參展 慧友智慧車載系統 搶進世界盃",
+      "url": "https://www.ctee.com.tw/news/20241228700212-439901",
+      "source_level": 2,
+      "publication_date": "2024-12-28",
+      "effective_period": "報導所述當時；台灣商用車市場",
+      "locator": "報導稱主要客戶為兩大日系商用車廠，並稱在台灣商用車市場市占率達七成",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導脈絡指涉台灣商用車市場，未證明慧友在日系商用車廠的市佔率；亦未交代市佔率的計算口徑。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司簡報及多篇2024年報導。現有資料未釐清「利基市場」的範圍，也未提供慧友自身市佔率的市場分母與計算口徑；不以兩家客戶的台灣商用車市場占比替代，因此保留未解原子為UNKNOWN。",
+    "未找到可確認「重要利基市場」的明確市場定義、外部市場數據或排名。",
+    "媒體所述智慧車載營收占比是公司營收構成資訊，不是車載監控市場市佔率。",
+    "兩家日系車廠合計逾七成的數字，描述的是台灣商用車市場中的車廠占比，並非慧友的產品市佔率。",
+    "相關市佔報導為媒體轉述；可用的官方簡報佐證產品與應用，但未提供 claim 所述市佔數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5484/547/hermes-attempt-1.stdout.txt"
+}

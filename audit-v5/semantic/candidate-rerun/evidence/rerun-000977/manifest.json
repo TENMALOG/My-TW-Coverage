@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000977",
+  "claim_id": "6197:material_named_relationship:457cbbbbe3a30cf3",
+  "normalized_claim_hash": "457cbbbbe3a30cf3bedecada07d0495502e59d2d12d4008610f8fc32b59df12e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-23ef96fc06b9a79d",
+      "title": "佳必琪2025年永續報告書",
+      "url": "https://www.jpcco.com/storage/uploads/1756286631_2025%20JPC%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "產品及研發布局截至2024年度",
+      "locator": "第44頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出PCI-e Gen 6/7高速線纜及AI伺服器應用布局，未說明特定客戶或量產出貨狀態。"
+    },
+    {
+      "source_id": "src-49f0f76532689335",
+      "title": "佳必琪2025年第二季合併財務報告",
+      "url": "https://www.jpcco.com/storage/uploads/1757312564_%E4%BD%B3%E5%BF%85%E7%90%AA2025Q2%E4%B8%AD%E6%96%87%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024及2025年1月1日至6月30日",
+      "locator": "第8頁，合併綜合損益表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "會計師核閱的發行人財報；合併營收以新台幣千元列示，2025上半年3,612,591、2024上半年3,227,603。"
+    },
+    {
+      "source_id": "src-a3aeb02eb12e078a",
+      "title": "佳必琪切入輝達GB200供應鏈 成美超微主力供應商",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4621410",
+      "source_level": 2,
+      "publication_date": "2024-03-27",
+      "effective_period": "2024年3月公司法說會所述情況",
+      "locator": "報導內文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及大電流電源連接器與線束持續交貨，以及公司整體GB200與Supermicro關係；未將ORV3或Busbar明確連結至特定平台或客戶。"
+    },
+    {
+      "source_id": "src-fdc4bd98efea2bdd",
+      "title": "佳必琪打進輝達GB200供應鏈 訂單能見度看到明年",
+      "url": "https://www.cna.com.tw/news/afe/202406130085.aspx",
+      "source_level": 2,
+      "publication_date": "2024-06-13",
+      "effective_period": "截至2024年6月13日的公司說明",
+      "locator": "第291–296行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社引述公司董事長稱已進入GB200供應鏈、部分產品取得料號，另有產品正在Design in；未提供具體產品與客戶逐項對照。"
+    },
+    {
+      "source_id": "src-41a2ddd819c2a62d",
+      "title": "佳必琪法說會／甲骨文大單落袋 可望跟著大量出貨",
+      "url": "https://money.udn.com/money/story/5612/9038914?from=edn_search_result",
+      "source_level": 2,
+      "publication_date": "2025-09-30",
+      "effective_period": "2025年9月法說會所述情況",
+      "locator": "第122行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱Gen6產品已在專案列名，預計最快2026年上半年放量；未證實實際出貨或指定客戶。"
+    },
+    {
+      "source_id": "src-6374aa57ecccc8ea",
+      "title": "佳必琪AI伺服器應用能見度達下半年 切入輝達GB200供應鏈",
+      "url": "https://news.cnyes.com/news/id/5505632",
+      "source_level": 2,
+      "publication_date": "2024-03-27",
+      "effective_period": "2024年3月公司法說會所述情況",
+      "locator": "第117行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱PCIe Gen6線及連接器完成開發，後續送樣驗證；不是已量產供貨的證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；關鍵未解項目是ORV3、Busbar及PCIe Gen5/Gen6與NVIDIA GB200或Supermicro之逐項客戶/產品映射，以及Gen6量產出貨狀態。最新法說會原始PDF讀取逾時，未以缺少證據推定不存在。",
+    "NVIDIA GB200與Supermicro的整體供應鏈關係主要由媒體轉述公司說法支持；未找到公開的客戶逐項採購或產品料號披露。",
+    "發行人永續報告可支持產品和研發布局，但不能單獨證明某產品已對特定AI伺服器客戶量產出貨。",
+    "2026年9月1日法說會簡報的公開資訊觀測站PDF連結在檢索時逾時，故沒有用該檔案判定Gen6截至2026年的實際出貨狀態。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6197/977/hermes-attempt-1.stdout.txt"
+}

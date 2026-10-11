@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001256",
+  "claim_id": "1444:material_named_relationship:5130f7ebb83abc71",
+  "normalized_claim_hash": "5130f7ebb83abc7100d26fbbcf9f2306d97de16238d14cbd5e7a338f6806993b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3b80556a857a2f71",
+      "title": "力麗109年報",
+      "url": "https://www.lealeagroup.com.tw/upload/download_files/twl_download_21h30_xh4sdes7sy.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年度及年報所述後續策略",
+      "locator": "第5頁，致股東報告書「未來公司發展策略」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載Ecoya進入Apple AirPods Max供應鏈。"
+    },
+    {
+      "source_id": "src-001e0d6e2dd24ca4",
+      "title": "力麗獲蘋果訂單 打進編織錶帶供應鏈",
+      "url": "https://www.cna.com.tw/news/afe/202009160240.aspx",
+      "source_level": 2,
+      "publication_date": "2020-09-16",
+      "effective_period": "2020年Apple Watch Series 6／SE新品供應鏈",
+      "locator": "報導正文第1、3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司主管證實供應Ecoya，但該報導本身未確認獨家性。"
+    },
+    {
+      "source_id": "src-4b66c9a5d32143c2",
+      "title": "力麗打入蘋果供應鏈，Q3環保紗出貨量可望放大",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=265e9cdd-c03a-47a6-8bc6-ac313241b4c7",
+      "source_level": 2,
+      "publication_date": "2017-07-13",
+      "effective_period": "2017年供應鏈報導",
+      "locator": "正文第1、3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導區分Ecoya與阻燃聚酯加工絲，後者用於3C充電線包覆材；不能把充電線材料一概說成Ecoya。"
+    },
+    {
+      "source_id": "src-3065466cf7104d64",
+      "title": "iPhone 12附編織充電線，傳由力麗提供外層覆材",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ed0445c8-521e-466b-8ecb-6fa7df8d8bd3",
+      "source_level": 2,
+      "publication_date": "2020-10-15",
+      "effective_period": "2020年iPhone 12傳輸線報導",
+      "locator": "報導正文第1段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "對iPhone 12編織線外層覆材僅稱市場傳聞；報導記載力麗以保密條款為由不公布細節，不能視為公司確認。"
+    },
+    {
+      "source_id": "src-315dc9ae3c77726a",
+      "title": "力麗於3C紡用品加重力道，明年拚佔營收比逾1成",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=6e6ae1c9-78df-4632-9d14-5d15c43050a2",
+      "source_level": 2,
+      "publication_date": "2020-09-18",
+      "effective_period": "2020年Apple Watch新品",
+      "locator": "正文第1、3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱Ecoya為當年Apple Watch編織錶帶的獨家原料供應商，並稱當時出貨量為低個位數公噸。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視力麗官方2020年年報及聚焦的供應鏈報導；仍缺乏能確認HomePod表布、特定編織充電線與Apple Watch錶帶目前供貨狀態及持續獨家性的證據，故這些現況原子維持UNKNOWN。",
+    "Apple產品供應鏈細節多來自媒體報導；除年報中Ecoya進入AirPods Max供應鏈的記載外，所列產品與獨家性未都由力麗正式披露。",
+    "HomePod證據說明的是Ecoya紗線經日本織布廠加工成網布，並非力麗直接供應完成表布。",
+    "充電線報導區分Ecoya與阻燃聚酯加工絲；對iPhone 12編織線的特定外層覆材，報導標為傳聞且公司未確認。",
+    "Apple Watch的獨家供應說法來自二手媒體報導，且只指向2020年新品；不能延伸為目前的持續獨家供應。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1444/1256/hermes-attempt-1.stdout.txt"
+}

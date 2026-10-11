@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001235",
+  "claim_id": "4590:material_named_relationship:25785b421b7f620c",
+  "normalized_claim_hash": "25785b421b7f620c81f0c5821f60bb917c08b7d2422802afe45bacf14b118e1d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ce83efb8aafbe2e9",
+      "title": "經濟部國家產業創新獎－富田電機股份有限公司",
+      "url": "https://service.moea.gov.tw/EE514/tw/niia/290-3959.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2005年開始合作",
+      "locator": "「TESLA電動車叫座」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認合作開發的起始年份。"
+    },
+    {
+      "source_id": "src-849df2751a9057de",
+      "title": "全球最大電動車品牌「心臟」，富田電機成特斯拉最老供應商",
+      "url": "https://technews.tw/2021/02/13/fukuta-becomes-tesla-longest-cooperation-supplier/",
+      "source_level": 2,
+      "publication_date": "2021-02-13",
+      "effective_period": "早期Tesla馬達開發",
+      "locator": "第141—143行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載重量要求及約400公斤的既有工業馬達，也稱團隊做出第一顆馬達；未提供該成品的實測重量。"
+    },
+    {
+      "source_id": "src-baf241fa3dd61a88",
+      "title": "「雜牌仔」翻身 變成TESLA的動力心臟",
+      "url": "https://www.gvm.com.tw/article/18746",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2013年報導所述歷史關係",
+      "locator": "第73行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "原文限定為「與TESLA合作最久的台灣廠商」，並非所有全球供應商。"
+    },
+    {
+      "source_id": "src-694c4e72e973ee90",
+      "title": "面對「蘋果化」的特斯拉，要求供應商分散生產據點⋯⋯富田電機如何穩定獲利？",
+      "url": "https://esg.businesstoday.com.tw/article/category/180689/post/202311300026",
+      "source_level": 2,
+      "publication_date": "2023-11-30",
+      "effective_period": "截至2023年報導時",
+      "locator": "第83—87行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱富田於2005年成為第一家合作的馬達廠商，且報導時仍是Tesla供應商；並指出後期供應內容已轉為馬達鐵芯等零組件。"
+    },
+    {
+      "source_id": "src-b16059df095e0264",
+      "title": "從工業馬達走向電動車馬達－富田電機專訪心得",
+      "url": "https://www.autofuture.tw/articles/detail?id=177",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2005年開始的合作開發",
+      "locator": "第37—40行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將180kW車用馬達60公斤以內的要求，與富田工業馬達約400公斤的減重挑戰相對照。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成4輪聚焦檢索並核對官方經濟部資料、富田公司沿革及多篇媒體報導。對未限定地域的供應商年資排名及成品精確實測重量，現有來源不足以支持，故保留UNKNOWN並停止。",
+    "獨家供應與「最久」排名主要來自媒體報導，而非Tesla公開的完整供應商名冊或合約。",
+    "可支持的「合作最久」表述限於台灣供應商；全球供應商的比較母體和排名未核實。",
+    "重量資料呈現的是Tesla規格要求與富田既有工業馬達的比較，不是已核實的同一顆馬達前後實測；來源寫約400公斤，未確認「400公斤以上」的精確下限。",
+    "2023年報導稱當時仍供應Tesla，且後期供應內容為馬達鐵芯等零組件；未據此推定2023年後狀態或目前仍具獨家地位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4590/1235/hermes-attempt-1.stdout.txt"
+}

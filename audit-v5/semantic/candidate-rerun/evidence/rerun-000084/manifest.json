@@ -1,0 +1,31 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000084",
+  "claim_id": "2892:objective_ranking_or_market_share:76b816df512daafe",
+  "normalized_claim_hash": "76b816df512daafeb7c1105cb2e869c684226153ad1572f671eeb52ff099426b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-efd2aef39eb0e099",
+      "title": "一銀簡介/信用評等 - 關於一銀 | 第一銀行",
+      "url": "https://www.firstbank.com.tw/sites/fcb/touch/1565687625682",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "營業據點段：「另有32家國外分支行、3家辦事處、1家子銀行」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面的海外分支行數為32，但沒有註明統計基準日；不能據此確認未註明期間的31家說法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對官方銀行簡介、公司沿革及海外據點數的集中查核。1899年沿革與182家國內分行有官方支持；「核心」定性及31家海外據點的適用期間仍缺乏足夠證據，故保留為UNKNOWN。",
+    "官方簡介未標示分行數的統計基準日。",
+    "官方沿革將1899年作為創立起源，並指出當時名稱為臺灣貯蓄銀行；其後歷經合併及更名。",
+    "官方資料支持其為第一金控子公司，但未證實「核心子公司」這項描述。",
+    "官方簡介載有32家國外分支行，並將辦事處及子銀行另行列示；原 claim 的31家數字無指定期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2892/84/hermes-attempt-1.stdout.txt"
+}

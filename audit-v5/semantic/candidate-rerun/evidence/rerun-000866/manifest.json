@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000866",
+  "claim_id": "2924:identity_changing_event:bdc91f7aaff60bfd",
+  "normalized_claim_hash": "bdc91f7aaff60bfd4c94fc26b3bfb7c35ca09d18d818620b9fbcd81c44fe83ab",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6904e3d1f4d238d4",
+      "title": "宏太-KY 2024 Sustainability Report",
+      "url": "https://www.ggalactica.com/_i/assets/upload/files/%E5%AE%8F%E5%A4%AA-2024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-v9-0827%E5%B7%B2%E5%A3%93%E7%B8%AE.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "November 2022.",
+      "locator": "Section 2.1, company history, PDF p. 12",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer report says the formal name change occurred in November 2022."
+    },
+    {
+      "source_id": "src-0502dad6c010f602",
+      "title": "東凌-KY：公司股票更名換發新股112/1/16起開始上櫃買賣",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ac711c87-aa9b-4c21-a225-25e0d097e5cc",
+      "source_level": 2,
+      "publication_date": "2022-12-09",
+      "effective_period": "2023-01-16.",
+      "locator": "Announcement text, lines 29–30 and 36–41",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ reproduction of an issuer announcement states the new short name and trading date."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official issuer sustainability report and the reproduced issuer announcement resolve the relevant entity, establishment, and name-change dates; no further focused search was needed.",
+    "The 1988 date applies to the Taiwan predecessor/group history, not the Cayman issuer's establishment.",
+    "The 2023 date is supported for the market short-name/trading change; the formal Cayman legal-name registration was in 2022.",
+    "The trading-date source is a secondary site reproducing the issuer's public announcement; the issuer's sustainability report independently supports the 2022 legal-name-change year."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2924/866/hermes-attempt-1.stdout.txt"
+}

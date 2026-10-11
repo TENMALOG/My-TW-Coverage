@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000072",
+  "claim_id": "4581:objective_ranking_or_market_share:51c1f3dd91ff6f70",
+  "normalized_claim_hash": "51c1f3dd91ff6f704e71526b441c82116aec3170a1b0a51b6dd76648dae6403a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-57cb3b771e4e991c",
+      "title": "【法說會摘要】商用卡車前景：光隆精密(4581)營運隨北美客戶穩定增長",
+      "url": "https://uanalyze.com.tw/articles/268446165",
+      "source_level": 2,
+      "publication_date": "2024-08-28",
+      "effective_period": "North American truck makers discussed; exact parts-supply period unspecified",
+      "locator": "Paragraph beginning “北美前四大卡車廠都是客戶”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports a Cummins engine-sourcing connection but does not identify WK parts in Traton vehicles."
+    },
+    {
+      "source_id": "src-49615f83bb183d86",
+      "title": "光隆精密-KY今年營收看增；嘉義、美國廠陸續開出",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0d5de30f-1b74-4690-88e6-3dc7c1585dca",
+      "source_level": 2,
+      "publication_date": "2025-07-17",
+      "effective_period": "Company meeting and outlook reported 2025-07-17",
+      "locator": "Opening paragraphs on Cummins and customer markets",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the company described Cummins as its largest commercial-vehicle customer; this does not independently establish largest across all customer categories."
+    },
+    {
+      "source_id": "src-d6bdb356db8129b4",
+      "title": "Heavy-Duty Trucks Available with Cummins Engines",
+      "url": "https://www.cummins.com/en-na/engines/heavy-duty-truck/heavy-duty-trucks-available-cummins-engines",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Page states this model information was last updated in August 2022",
+      "locator": "“Cummins Engines are Available in These Heavy-Duty Truck Models”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The listed brands do not include Traton; this source does not establish a WK-to-Cummins-to-Traton parts chain."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found support for the Cummins customer ranking and adjacent evidence of Cummins engine availability in some named OEM models, but no reliable source tracing 光隆精密-supplied parts through Cummins to any of the four OEMs. Those linkage atoms remain UNKNOWN.",
+    "The largest-customer ranking is supported by secondary reporting; the later company-attributed wording is specifically “largest commercial-vehicle customer,” and neither source states the ranking’s measurement period or revenue denominator.",
+    "Cummins’ official model page documents engine availability, not confirmed purchases by each OEM or the inclusion of components supplied by 光隆精密.",
+    "The 2024 secondary report describes the OEMs as customers while also discussing their Cummins engine sourcing; it does not trace the claimed indirect parts-supply path."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4581/72/hermes-attempt-1.stdout.txt"
+}

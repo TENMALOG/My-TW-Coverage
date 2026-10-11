@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000501",
+  "claim_id": "4561:objective_ranking_or_market_share:97a04d12e6cfe518",
+  "normalized_claim_hash": "97a04d12e6cfe518b055d808400ba514f479fa324fa47dc3a9b84bc0bcb81880",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6788e0f6fc83546e",
+      "title": "健椿工業股份有限公司 財務報告暨會計師核閱報告（2026年第一季）",
+      "url": "https://www.kenturn.com.tw/archive/investor/group/2026%E8%B2%A1%E5%A0%B1/CH_202601_4561_AI2_20260521_101004.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-12",
+      "effective_period": "2026 Q1; notes state TPEx trading began 2018-06-11",
+      "locator": "財務報告附註「一、公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer financial report; identifies ticker 4561 and the date OTC trading began."
+    },
+    {
+      "source_id": "src-2e4135a1dbc73434",
+      "title": "健椿工業股份有限公司 2024 ESG Report",
+      "url": "https://www.kenturn.com.tw/archive/investor/item/ESG%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8/ESG%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8_V21%281140903%29.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "P.11, section 2.5「營運概況與展望」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer states:「健椿工業是台灣唯一上櫃的主軸廠(4561)」."
+    },
+    {
+      "source_id": "src-71b264c16156a0e7",
+      "title": "公司介紹－健椿",
+      "url": "https://www.kenturn.com.tw/tw/about/%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%B4%B9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening statement:「KENTURN」為健椿主軸唯一品牌",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Direct official issuer statement that KENTURN is the company’s only spindle brand."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方財務報告、官方2024 ESG報告及公司介紹頁，足以支持各項原子主張；未達8個研究回合上限，停止於仍需最終裁定的來源 caveat。",
+    "「台灣唯一上櫃主軸廠」由公司自身的2024年度永續報告書提出；該報告未列出可獨立核對的同業名單、比較口徑或公司數。",
+    "官方資料支持公司專精於精密主軸，並支持「唯一上櫃主軸廠」的公司自述；唯一性尚未由獨立產業普查或逐家公司名單驗證。",
+    "公司品牌頁未標示發布日期。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4561/501/hermes-attempt-1.stdout.txt"
+}

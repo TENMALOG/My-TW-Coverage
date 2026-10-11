@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000724",
+  "claim_id": "3219:objective_ranking_or_market_share:9bca902ddfd55250",
+  "normalized_claim_hash": "9bca902ddfd55250954eb836f3da993972e4881ea3552e8c5590be80a52bbf4b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-19ba3aebaa4b2808",
+      "title": "倚強科（3219）：上半年營收大增45%，雙主軸業務齊發，展望5G與AI商機",
+      "url": "https://vocus.cc/article/689c58ebfd897800018260d7",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "Article discusses 2025 first-half results and server testing.",
+      "locator": "「上半年財務與營運概況」 and 「測試解決方案業務」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Mentions Meta as a customer in one section and BFT as a server test solution in another, without stating that Meta receives or is connected to BFT testing."
+    },
+    {
+      "source_id": "src-d2d5ea93dd1aa309",
+      "title": "【倚強科法說會重點內容備忘錄】未來展望趨勢 20250811",
+      "url": "https://blog.fugle.tw/post/earnings-call-3219-2025-08-11",
+      "source_level": 1,
+      "publication_date": "2025-08-11",
+      "effective_period": "2025 Q2 discussion",
+      "locator": "「成長動能」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "AI-generated summary based on the official conference video says the first-largest customer received additional orders, but does not identify that customer as Meta."
+    },
+    {
+      "source_id": "src-93336b978a4c3093",
+      "title": "Aethertek Investor Presentation 2025",
+      "url": "https://mopsov.twse.com.tw/nas/STR/321920250808M001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 investor presentation.",
+      "locator": "Slides 8–13",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies business areas and BFT capabilities but does not name Meta or link Meta to BFT."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found an official issuer presentation confirming the BFT offering and secondary summaries mentioning Meta, but no reliable direct disclosure linking Meta to BFT or independently establishing Meta's customer ranking. Research stopped with those atoms unresolved.",
+    "The official issuer presentation supports the existence and scope of BFT testing, but does not identify customers.",
+    "The Meta-largest-customer identification comes from a secondary article; the available official presentation does not corroborate it.",
+    "The available sources do not specify the denominator or ranking method for 'largest customer,' nor do they link Meta to BFT testing."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3219/724/hermes-attempt-1.stdout.txt"
+}

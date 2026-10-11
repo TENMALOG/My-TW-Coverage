@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000348",
+  "claim_id": "8074:objective_ranking_or_market_share:f6920c2cb74e6a31",
+  "normalized_claim_hash": "f6920c2cb74e6a31a91e41965a403509cf58593a83f695f200163542e63976ac",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8f6d1ab3a7965cf7",
+      "title": "《電零組》ABF載板廠唯一供應商 鉅橡看好Q4、2026年營運",
+      "url": "https://www.ctee.com.tw/news/20251124701421-430201",
+      "source_level": 2,
+      "publication_date": "2025-11-24",
+      "effective_period": "2025-11-24法說會報導時；逐家關係期間未明",
+      "locator": "第二段：列景碩為客戶，並概括稱高階ABF載板廠唯一供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未將「唯一供應商」明確逐一對應到景碩或界定完整供應商分母。"
+    },
+    {
+      "source_id": "src-264f86620ef3542a",
+      "title": "本部新聞：電感元件領導商西北臺慶科技 斥資31億打造全球營運軸心",
+      "url": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40&news_id=97935",
+      "source_level": 3,
+      "publication_date": "2021-11-25",
+      "effective_period": "截至2021-11-25的經濟部公告",
+      "locator": "鉅橡企業段：列南電為知名客戶",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證明客戶關係的較早官方資料，不支持獨家供應。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱2025-11-24法說會相關媒體報導、聯合報報導、經濟部官方資料，並搜尋公司及公開資訊觀測站來源；未找到可驗證逐家獨家供應範圍的公司原始披露。依限縮範圍原則，未解決的逐家獨家供應原子維持UNKNOWN。",
+    "唯一供應商說法來自媒體對鉅橡管理層法說會內容的轉述，未找到可核對的公司原始簡報或逐家客戶供應證據。",
+    "經濟部2021年資料確認鉅橡產品可供最高階ABF載板製造使用，並列欣興、南電為客戶，但未涉及唯一供應商。",
+    "聯合報對2025-11-24法說會的報導稱鉅橡墊板為大廠指定使用的供應商，未稱其為唯一供應商；此表述不構成對排他性的反證。",
+    "原主張未指定時間、地域、板材規格或完整供應商集合；「唯一」的分母和排他範圍因此無法確定。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8074/348/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000130",
+  "claim_id": "6729:objective_ranking_or_market_share:878a1a9ec489e500",
+  "normalized_claim_hash": "878a1a9ec489e50015bdec1c38c0ad2d4eeabda4ebbdb83a3a7980be656e91a3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0c5f159a8704d217",
+      "title": "機光科技股份有限公司：公司沿革",
+      "url": "https://tw.lumtec.com.tw/about.php?sn=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革列載 2001 年發展 OLED 材料、2005 年建立量產工廠；網頁未標示發布日期。",
+      "locator": "公司沿革，2001、2005 年項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料支持其發展 OLED 材料及設置量產工廠；未直接證明「完全自主研發」的範圍。"
+    },
+    {
+      "source_id": "src-a3ac4fa7069d81e0",
+      "title": "機光科技OLED照明打入歐系車廠 預計4日登錄興櫃 - 自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/2840213",
+      "source_level": 2,
+      "publication_date": "2019-07-02",
+      "effective_period": "報導當時（2019-07-02）",
+      "locator": "報導首段：「客戶遍及全球71個國家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "數字所指為客戶遍及國家，而非明確的產品銷售或行銷目的地。"
+    },
+    {
+      "source_id": "src-86513713456886d1",
+      "title": "機光立足OLED、PSC 布局PI商機 - 工商時報",
+      "url": "https://www.ctee.com.tw/news/20240718700354-439901",
+      "source_level": 2,
+      "publication_date": "2024-07-18",
+      "effective_period": "報導當時（2024 年）",
+      "locator": "標題副標及內文：「來往客戶逾千家、遍及全球超過70國」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "再次報導公司客戶國別範圍，但沒有說明特定 OLED 材料產品的實際行銷國數。"
+    },
+    {
+      "source_id": "src-046b1846ea7c77a0",
+      "title": "Materials - Luminescence technology corp.",
+      "url": "https://www.lumtec.com.tw/products-list.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網頁所列產品目錄；未標示資料生效日期。",
+      "locator": "Products / Materials / OLED",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方目錄證明公司列有 OLED 材料產品，未披露其銷售國別數。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方產品與沿革資料，並搜尋及核對相關媒體報導；找到的逾 70 國證據均為客戶地域範圍，沒有找到能確認特定產品行銷國數的可靠來源，因此該原子主張維持 UNKNOWN。",
+    "「台灣唯一」及「全自主」的直接支持來自 2019 年媒體報導；沒有找到目前的獨立競爭者普查或「完全自主研發」判定標準。",
+    "逾 70 國的資料衡量的是公司客戶所在國家，並非特定 OLED 有機發光材料產品的實際銷售或行銷目的地。",
+    "公司官方產品目錄及沿革支持 OLED 材料產品與研發／量產活動，但未提供產品行銷國數。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6729/130/hermes-attempt-1.stdout.txt"
+}

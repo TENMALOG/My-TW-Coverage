@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001219",
+  "claim_id": "4764:material_named_relationship:4c79069300234964",
+  "normalized_claim_hash": "4c79069300234964077a069691c948c493da54bc65d03bb9ceaba64c7a9cee8a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-595f3de1cd7e64e4",
+      "title": "4764雙鍵｜金融阮實力 @POWER8888",
+      "url": "https://power8888.com.tw/topic/industry/view/549",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導提及2025年M7量產規劃及2026年M8、M9規劃；具名導入期間未明。",
+      "locator": "第27行，稱雙鍵透過BASF材料及其配方切入台光電、台燿。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確具名台燿，但屬二手產業分析，未提供具名官方確認或交易細節。"
+    },
+    {
+      "source_id": "src-2babbe1221bd7a63",
+      "title": "雙鍵切入高階CCL材料鏈",
+      "url": "https://www.pidc.org.tw/News/NewsPage?cid=5&id=158&pid=1892",
+      "source_level": 2,
+      "publication_date": "2025-12-15",
+      "effective_period": "報導稱截至2025年第3季產品已進入國內外CCL廠，但未具名。",
+      "locator": "第80、93行。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只稱國內外CCL廠，未點名聯茂，不能替代具名客戶證據。"
+    },
+    {
+      "source_id": "src-190283de4da77137",
+      "title": "雙鍵切入高階CCL供應鏈，擴產佈局電子材料",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=7c798ab9-ee5c-4937-b096-b8826704c24f",
+      "source_level": 2,
+      "publication_date": "2025-12-19",
+      "effective_period": "報導稱雙鍵高階樹脂已獲國內外CCL廠採用；未列出廠商名稱。",
+      "locator": "第21至22行。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只稱國內外CCL廠，未點名聯茂，不能替代具名客戶證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索雙鍵、台光電、台燿、聯茂及CCL供應鏈的中文公開資料；找到兩家具名的二手報導，但未找到聯茂具名佐證或官方客戶披露，故保留該原子為UNKNOWN並停止。",
+    "台光電、台燿的具名關係依據為二手產業分析，並非雙鍵或所列CCL廠的官方具名客戶披露。",
+    "公司相關報導所稱的國內外CCL廠並未具名，不能據此補足聯茂這一原子主張。",
+    "未找到可用來否定聯茂關係的證據；因此該原子標記UNKNOWN，而非CONTRADICTED。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4764/1219/hermes-attempt-1.stdout.txt"
+}

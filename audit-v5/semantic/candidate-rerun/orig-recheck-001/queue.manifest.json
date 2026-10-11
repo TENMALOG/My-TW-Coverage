@@ -1,0 +1,20 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "orig-recheck-001",
+  "mode": "original_recheck",
+  "selection": {
+    "rule": "consolidated UNKNOWN parents without any rewrite proposal"
+  },
+  "created_at": "2026-10-10T22:45:01.631718+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 14,
+  "queue_sha256": "bdd9bd033cdc24df4a96d5294fd76cc3afe66fdc5a261ee44ad03cf399d429f7",
+  "prompt_template": {
+    "derived_from": "audit-v5/source-cache/candidate-rerun/adjudication/claims/00a55ba1dfc2d675f476/attempt-2/prompt-2.txt",
+    "sha256": "5a80ced45cf8a2914378852b8ef40b6fdf1c2761635af0f3063ec27b994a04a1"
+  },
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "208819f874078a8896f793ef1d2cb35b865e22ca05cb0914ab8aa23c6e14ad2f",
+  "prior_verdicts_withheld": true
+}

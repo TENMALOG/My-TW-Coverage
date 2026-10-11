@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000745",
+  "claim_id": "6727:objective_ranking_or_market_share:addbac4d018e6d92",
+  "normalized_claim_hash": "addbac4d018e6d92f29bd1444df414732f05af3cdebff637261e1f8a203da687",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c93ba6a5e550b776",
+      "title": "亞泰金屬股份有限公司—公司簡介",
+      "url": "https://www.asiametalinc.com/about/about-a",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes coating equipment and its applications but gives no coating-equipment market-share figure."
+    },
+    {
+      "source_id": "src-24d66b5bb9ac70da",
+      "title": "Asia Metal Industries, Inc. 2023 Annual Report",
+      "url": "https://www.asiametalinc.com/proimage/images/1718088690.pdf",
+      "source_level": 3,
+      "publication_date": "2024-06-05",
+      "effective_period": "2023 annual report / 2024 business plan; exact market-share reference date unspecified.",
+      "locator": "Shareholders Report, printed p. 1, section “Enterprise development”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a >70% global share only for advanced immersion equipment; it does not report a combined impregnation-and-coating share or specify a denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official issuer materials support the narrower advanced-impregnation share claim, but not the broader combined impregnation-and-coating share. Further attribution or product descriptions would not resolve the missing market scope and denominator.",
+    "The >70% figure is an issuer statement, not an independently verified market measurement.",
+    "The issuer's stated scope is advanced impregnation equipment; evidence does not support applying the figure to coating equipment or to a combined equipment market.",
+    "The source does not specify the market-share denominator, measurement unit, methodology, or exact reference date."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6727/745/hermes-attempt-1.stdout.txt"
+}

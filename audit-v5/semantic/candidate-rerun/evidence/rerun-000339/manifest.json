@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000339",
+  "claim_id": "6698:objective_ranking_or_market_share:e3db967c354ef4c5",
+  "normalized_claim_hash": "e3db967c354ef4c5db8ed5bcc6ae67aaa474479a3af1286e93c4fb4df89308e8",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-44f27ca89112e8f3",
+      "title": "旭暉應用材料股份有限公司公開說明書",
+      "url": "https://fine-mat.com/files/%E6%97%AD%E6%9A%89%E4%B8%8A%E5%B8%82-1081111.pdf",
+      "source_level": 3,
+      "publication_date": "2019-11-11",
+      "effective_period": "截至公開說明書刊印日",
+      "locator": "公開說明書摘要「主要產品」；「發行人之產業、營運及其他重要風險」之「產業風險」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司正式公開說明書；支持精密金屬遮罩用於OLED蒸鍍及精密洗淨、再生處理業務。"
+    },
+    {
+      "source_id": "src-9af1838a99c961f2",
+      "title": "興櫃：旭暉應材(6698)今開法說，CVD遮罩明年出貨搶攻軟性OLED市場",
+      "url": "https://ww2.money-link.com.tw/RealtimeNews/NewsContent.aspx?SN=1394726002&PU=0010",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "報導列舉京東方綿陽、華星、和輝、維信諾四座產線，並稱「京東方除外，其餘均為其客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級媒體報導，與未打入華星的說法直接不一致；未確認目前客戶狀態。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "在可用研究工具迭代上限前停止；未取得可確認市佔分母、計算方法、報導確切日期或目前客戶狀態的官方資料。",
+    "市佔率和客戶資訊來自次級媒體報導，未找到可核實相同市佔範圍與分母的官方披露。",
+    "市佔報導限定為中國大陸第六代OLED線CMM並排除京東方，不等同整體中國大陸市場市佔。",
+    "報導發布日期及其客戶資訊確切適用期間未核實；不可據此推斷目前供應關係。",
+    "公司公開說明書可支持產品與服務描述，但屬2019年資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6698/339/hermes-attempt-1.stdout.txt"
+}

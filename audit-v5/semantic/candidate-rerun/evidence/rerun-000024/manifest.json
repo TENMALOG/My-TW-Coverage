@@ -1,0 +1,74 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000024",
+  "claim_id": "2206:objective_ranking_or_market_share:2206926921111339",
+  "normalized_claim_hash": "22069269211113398986f37513a8b5b0d3b474eddda9ab497c3e6564cd759dea",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "sanyang-2026-investor-presentation",
+      "title": "三陽工業2026 QIC CEO Week法人簡報",
+      "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-29",
+      "effective_period": "2025年度營運資料及2026年4月公司產能／事業說明。",
+      "locator": "PDF第3頁（印刷頁3）：股票代碼2206、新竹廠年產能機車30萬輛及汽車2萬輛，2025營收；PDF第4頁：機車事業在台灣生產SYM，汽車部門生產並引進Hyundai。",
+      "source_sha256": "5700fec5d4d8d4620ce2dc085c4bd33ac66578f2349aeb6940d26d43e01d1e38",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/24/sanyang-2026-investor-presentation.pdf",
+      "note": "發行人2026年投資人簡報；表列產能是能力，不等同該年度實際產量。"
+    },
+    {
+      "source_id": "sanyang-current-company-profile",
+      "title": "關於三陽 - 三陽工業企業網站",
+      "url": "https://www.sanyang.com.tw/about-page84",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行公司介紹。",
+      "locator": "公司介紹首段自述三陽為台灣第一家橫跨機、汽車製造的國際化企業，分別列機車事業及汽車事業。",
+      "source_sha256": "2e2536e6d378646555c3e1286552b50a37b3bcf843b02fd0673da30399e9190a",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/24/sanyang-about.html",
+      "note": "發行人自述「第一家」及雙事業，不將歷史上的first單獨視作2026年唯一排名的獨立證明。"
+    },
+    {
+      "source_id": "sanyang-hyundai-assembly-line",
+      "title": "裝配完檢 - 三陽工業企業網站",
+      "url": "https://www.sanyang.com.tw/hyundai-page72",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行汽車製造介紹，頁面未列更新日。",
+      "locator": "頁面列汽車裝配線內裝、底盤、總裝及完成車靜動態測試。",
+      "source_sha256": "26e9a9362a6892bb89486e012436c8256b69343fcc14d6e2d1f5f369eb5b6dd1",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/24/sanyang-hyundai-assembly.html",
+      "note": "發行人汽車生產流程介紹。"
+    },
+    {
+      "source_id": "sanyang-hyundai-welding-line",
+      "title": "熔接塗裝 - 三陽工業企業網站",
+      "url": "https://www.sanyang.com.tw/hyundai-page73",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行汽車製造介紹，頁面未列更新日。",
+      "locator": "頁面列車體點焊、裝配、機器人電弧焊接及車體塗裝生產線。",
+      "source_sha256": "89beee2debf86deb7c110608199a4800edee4bee392d9e6a0c23cfe3d4242d6f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/24/sanyang-hyundai-welding-painting.html",
+      "note": "發行人汽車生產流程介紹。"
+    },
+    {
+      "source_id": "crif-2026-sanyang-industry-profile",
+      "title": "三陽蟬聯機車霸主寶座，電動機車市場買氣降溫 — CRIF中華徵信所產業風雲 No.643",
+      "url": "https://www.credit.com.tw/CreditEpaper/Epaper/Industrial.aspx?unit=643",
+      "source_level": 4,
+      "publication_date": "2026-08-04",
+      "effective_period": "文章列2025年度台灣機車銷量，並對三陽跨車種能力作現行描述。",
+      "locator": "第38行文字稱三陽工業為台灣唯一同時具有汽車、機車、客車、軍卡車生產製造能力的公司；第37至38行列2025年機車銷量、市占及生產據點。未附全台汽機車廠商交叉比較表。",
+      "source_sha256": "d7f483d43193a9bb3650c66aa25de519ba660666a5973119540be1166797985e",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/24/credit-research-sanyang-industry-profile.html",
+      "note": "近期獨立產業研究機構的明確說法；屬二手分析資料，故重驗修文時標示來源，不將其擴大成公司或政府的正式排名。"
+    }
+  ],
+  "search_notes": [
+    "三陽官方2026年4月簡報列出新竹廠汽車與機車年產能；官網描述汽車焊接、塗裝及裝配線。",
+    "CRIF中華徵信所於2026年8月明確稱三陽為台灣唯一同時具有汽車、機車、客車及軍卡車製造能力之公司，但未附同業交叉名冊。",
+    "原文「重量級」未定義；候選修正版改用具體產能，並把唯一性判斷歸因於CRIF來源。"
+  ]
+}

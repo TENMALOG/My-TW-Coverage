@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000715",
+  "claim_id": "1583:objective_ranking_or_market_share:25159825fab9a7d1",
+  "normalized_claim_hash": "25159825fab9a7d126cd8d29ddce3823f66bf3d8536ece5088d7456fefe9f461",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1939eedf9bf5644f",
+      "title": "公司簡介 - 程泰機械",
+      "url": "https://www.goodwaycnc.com/zh-tw/company/profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「公司簡介 > 行銷全球的工具機品牌」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方原文：「程泰機械成立於 1975 年，為台灣最具規模的 CNC 車床製造商之一。」同頁說明 GOODWAY 品牌工具機由程泰製造。"
+    },
+    {
+      "source_id": "src-ec51eb06ce89877a",
+      "title": "程泰機械股份有限公司",
+      "url": "https://www.goodwaycnc.com/zh-tw/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司資訊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示股票代號 1583.TW。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到現行官方繁體中文公司簡介，直接支持排名措辭及 GOODWAY 品牌與程泰的製造關係；未發現能量化或獨立驗證排名的資料，因此將排名依據限制明確列為來源 caveat。",
+    "主要證據為公司官方自述，沒有獨立市場排名或市占率資料佐證。",
+    "官方頁面未交代「規模」指營收、產量、出貨量或其他指標，也未提供比較期間、比較對象數量或單位。",
+    "官方公司簡介未標示發布日期或該排名描述的適用期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1583/715/hermes-attempt-1.stdout.txt"
+}

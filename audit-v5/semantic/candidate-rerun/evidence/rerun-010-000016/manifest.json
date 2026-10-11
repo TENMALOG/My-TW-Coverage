@@ -1,0 +1,60 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000016",
+  "claim_id": "1476:objective_ranking_or_market_share:f6132ace76c9ad00",
+  "normalized_claim_hash": "f6132ace76c9ad00b18790c3769665dd32d3b7d06de5625f7afdf1c63e1504ef",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-50580eda4de91a1c57c0",
+      "title": "儒鴻各工廠產能滿載，新客戶成長快速",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=df199cc1-68a0-4764-b359-b351f8f5e419",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Current at the reported interview; contextual coverage dates the interview to 2026-10-06",
+      "locator": "Article text; passage beginning “儒鴻(1476)持續分散客戶佔比”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary report explicitly attributes the largest-customer statement to Eclat's chairman."
+    },
+    {
+      "source_id": "src-bf4d27ef39bd15facee1",
+      "title": "《紡纖股》儒鴻董座王樹文喊Q4更旺 工廠滿載、產能甚至不夠用",
+      "url": "https://wantrich.chinatimes.com/news/20261006900227-420101",
+      "source_level": 2,
+      "publication_date": "2026-10-06",
+      "effective_period": "Chairman's media interview on 2026-10-06",
+      "locator": "Article body; interview with chairman Wang Shu-wen",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Corroborates the interview timing and customer/order context; does not independently state Nike's customer ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "A contemporaneous secondary report directly attributed the ranking to the issuer's chairman, and separate dated coverage corroborated the interview timing; no further search was needed for this claim.",
+    "The explicit ranking is reported by a secondary news source as a statement by the issuer's chairman, not established here from an issuer filing.",
+    "The report gives no exact customer revenue or clearly defined denominator for the stated customer share."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1476/16/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "107e4d4f1a84c3ebffe3ca70317bd8eb8c53c0eea0021f161f6cdec0839b23b3",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1476/16/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "51fbc2f25295048406adbfc6a0b0994b2afa01ad4b6f95ff89f44ac05f6b3c18",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

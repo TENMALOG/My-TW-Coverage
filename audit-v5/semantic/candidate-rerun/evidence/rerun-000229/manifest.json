@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000229",
+  "claim_id": "5871:objective_ranking_or_market_share:5462990384cd01df",
+  "normalized_claim_hash": "5462990384cd01df3e5c964f179745ba3571d15c69be240f717c50220427aa1e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5163b9353f79aecb",
+      "title": "Chailease Holding Company Limited — Rating",
+      "url": "https://jcr.co.jp/download/614c410026603c68bb0bfcf41f8628c31c538b0f145b6c6fa1/25i0104_f.pdf",
+      "source_level": 2,
+      "publication_date": "2026-01-08",
+      "effective_period": "報告發布時描述的營運地域；未逐一列明各地區營運起訖期間。",
+      "locator": "Rationale, Issuer: Chailease Holding Company Limited, (1)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接列明集團在台灣、中國、東協、美國及其他地區營業。"
+    },
+    {
+      "source_id": "src-ac836642ae08056d",
+      "title": "中租控股 — Company Profile",
+      "url": "https://www.chaileaseholding.com/en/About/CompanyProfile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile, history paragraph describing Chailease Finance",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱Chailease Finance是台灣營運的主要實體；網頁未標示發布日期。"
+    },
+    {
+      "source_id": "src-4bc41a76ee0d670c",
+      "title": "Chailease Holding — About Chailease Business Performance",
+      "url": "https://uatofficial.chaileaseholding.com/en/CSR/Overview",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About Chailease Business Performance, paragraph beginning “In 1977…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面稱目前營運涵蓋台灣、中國、泰國、越南、馬來西亞、柬埔寨及菲律賓等；網頁未標示發布日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得JCR評等報告及中租控股官方公司資料，三項原子主張均有可用證據；在8輪研究上限前停止。",
+    "台灣排名及約50%市占率來自JCR評等報告，並非監管機關市場統計；報告未界定市占率市場母體，也未註明市占率的具體統計期間。",
+    "JCR以租賃合約金額為市占率衡量基礎；不應將此數字解讀為資產、收入或客戶數占比。",
+    "官網公司簡介及CSR頁面未標示發布日期；集團關係及營運地域由較新的JCR報告補充佐證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5871/229/hermes-attempt-1.stdout.txt"
+}

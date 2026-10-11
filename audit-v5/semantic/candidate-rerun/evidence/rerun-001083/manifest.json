@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001083",
+  "claim_id": "6283:material_named_relationship:6446a9912b354a7f",
+  "normalized_claim_hash": "6446a9912b354a7f8b1bc0e5adf1a489888819c2ffce12fbc19acdbe2ae07911",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-db465a04e3eff376",
+      "title": "關於淳安",
+      "url": "https://www.soe-ele.com/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile; undated, accessed 2026-10-07.",
+      "locator": "淳敏電子段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述客戶遍佈國內外一線汽車品牌及新能源汽車品牌。"
+    },
+    {
+      "source_id": "src-1bddcdd26d8d013b",
+      "title": "車載攝像頭",
+      "url": "https://www.soe-ele.com/product/xiang/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product catalogue; undated, accessed 2026-10-07.",
+      "locator": "1M Camera、In-cabin Camera、ECU/System 360° 環視系統段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出後視攝像頭、360°環視、艙內監控攝像頭及系統。"
+    },
+    {
+      "source_id": "src-f473efd11896978f",
+      "title": "淳安電子榮獲DEKRA德凱ASPICE CL2級認證，展現汽車軟體與系統開發流程之卓越實力",
+      "url": "https://www.soe-ele.com/tou/news/chunanzidekradeaspice-cl2-zhanqixiliuchengzhuzhuoyue.html",
+      "source_level": 3,
+      "publication_date": "2024-12-26",
+      "effective_period": "ISO 26262 ASIL-D functional-safety process certification reported as obtained in early 2024.",
+      "locator": "2024-12-25 news release, opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "淳安公告稱2024年初取得 ISO 26262 ASIL-D 功能安全流程認證；此為流程認證表述。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已由淳安官方公司介紹、產品頁及認證公告支持全部原子主張；在八輪研究上限前停止，無待解原子。",
+    "車載產品、客戶範圍及 IATF 16949 認證資訊主要來自淳安官方網站的公司自述。",
+    "ISO 26262 的補充披露描述的是功能安全流程認證；現有材料未提供證書影本、證書效期或具體證書持有人/廠址。",
+    "公司沒有在所查頁面列出國內外一線汽車品牌的具名客戶清單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6283/1083/hermes-attempt-1.stdout.txt"
+}

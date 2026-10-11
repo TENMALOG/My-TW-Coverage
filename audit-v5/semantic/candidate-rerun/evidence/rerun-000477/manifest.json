@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000477",
+  "claim_id": "4536:objective_ranking_or_market_share:a33703172baf7eba",
+  "normalized_claim_hash": "a33703172baf7eba130745bc4a36eeed0f13c6b1f1972039a0ac92cf2bf5902c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8d9bec69211ad328",
+      "title": "Q2進自行車旺季，拓凱營收估年增雙位數",
+      "url": "https://today.line.me/tw/v3/article/NBjKKm",
+      "source_level": 2,
+      "publication_date": "2018-04-13",
+      "effective_period": "2018 report context",
+      "locator": "Tennis-racket customer paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The brand-customer statement is expressly about tennis rackets."
+    },
+    {
+      "source_id": "src-4a5d6f89c8334fcf",
+      "title": "拓凱公司投資人簡報－2022 Q4",
+      "url": "https://www.twse.com.tw/staticFiles/news/event/ff80808183645bda018497ab57a603f8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022 Q4 investor report",
+      "locator": "Slide「拓凱事業多元化與主要產品」 and slide「運動休閒產品－球拍」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer materials list tennis and badminton rackets among its products and discuss the racket business."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks found support for Wilson and Babolat as tennis-racket customers and for Topkey producing tennis and badminton rackets, but no reliable evidence establishing Wilson as the largest customer or either brand as a badminton-racket customer.",
+    "The named customer evidence is a 2018 MoneyDJ report republished by LINE TODAY, not a current issuer filing; it does not give customer revenue shares or rankings.",
+    "The issuer's 2022 Q4 investor presentation supports the tennis/badminton product categories but does not map either named brand to badminton-racket production.",
+    "The official product-test page names Wilson and Babolat in racket-brand certifications, but does not disclose customer rank or racket-sport category by brand."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4536/477/hermes-attempt-1.stdout.txt"
+}

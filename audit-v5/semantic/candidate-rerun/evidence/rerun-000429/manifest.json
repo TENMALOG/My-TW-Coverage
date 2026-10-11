@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000429",
+  "claim_id": "9919:objective_ranking_or_market_share:2affdfaaf7479723",
+  "normalized_claim_hash": "2affdfaaf7479723df53335ddf8e56bd50d6eb663839da311e2dbf1cf7619879",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0902530b2d95efbc",
+      "title": "History — KNH Enterprise Co., Ltd.",
+      "url": "https://en.knh.com.tw/about2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "History entries for 1968, 1970, and 1971",
+      "locator": "History and Organisation table, entries for 1968 and 1970",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Distinguishes predecessor planning in August 1968 from KNH being founded in September 1970."
+    },
+    {
+      "source_id": "src-e0a592974fddcc69",
+      "title": "關於康那香 — 康那香企業股份有限公司",
+      "url": "https://www.knh.com.tw/about01.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Multiple past years; specific years not stated on issuer page",
+      "locator": "持續創新的專利技術 paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer says it was selected multiple years by Nonwoven Industry as a global Top 40 nonwoven manufacturer."
+    },
+    {
+      "source_id": "src-7f9bb08df7ad349b",
+      "title": "會員廠商 / 康那香企業股份有限公司 — 臺灣區不織布工業同業公會",
+      "url": "https://www.nonwoven.org.tw/index.php?Act=0&PK=10635&MK=1128&EK=1&DT=&SK=0&TK=1128",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "1999–2007; association profile says 2007 was the eighth consecutive year",
+      "locator": "Company introduction, ranking-history statements in Chinese and English",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Association attributes the ranking to U.S. magazine Nonwoven Industry; it is historical, not evidence of current standing."
+    },
+    {
+      "source_id": "src-f589f29f2f0adeaa",
+      "title": "財務報告 / 聯絡資訊 — 康那香企業股份有限公司",
+      "url": "https://www.knh.com.tw/share1-2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Contact information; page undated",
+      "locator": "聯絡資訊, 台北公司 address",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer lists its Taipei company office at Xinyi Road, Taipei City."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found sufficient sources to resolve the Taipei location and historical industry description, but first-party histories conflict on the founding year and no source established a current global Top 40 ranking or a measurable size basis for「大廠」. Further research stopped with those scope limits unresolved.",
+    "The issuer's Chinese and English histories differ on the founding year; the English history explicitly distinguishes 1968 planning from a 1970 founding.",
+    "The issuer and industry association webpages are undated. Ranking evidence is attributed to Nonwoven Industry magazine but the underlying ranking, methodology, and current status were not verified.",
+    "The association profile supports the Taipei head-office statement; the issuer contact page independently lists a Taipei company office."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9919/429/hermes-attempt-1.stdout.txt"
+}

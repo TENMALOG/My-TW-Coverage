@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001173",
+  "claim_id": "6556:profitability_assertion:f368b63329d192de",
+  "normalized_claim_hash": "f368b63329d192dea430fb4c3143fbd40e566f683536e895a39512719c37eba2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b363837542a8974e",
+      "title": "勝品電通－營運狀況／產品內容",
+      "url": "https://www.topviewcorp.com/posts/en/operating_status/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行產品資訊，查核日2026-10-07",
+      "locator": "產品內容，尤其第3.2節 PTZ",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱提供4K高畫質PTZ產品。"
+    },
+    {
+      "source_id": "src-d66b053615d84d6e",
+      "title": "勝品電通113年度年報",
+      "url": "https://www.topviewcorp.com/mw/cufiles/files/114%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83-113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024（民國113年度）",
+      "locator": "年報印刷頁64，PDF頁68",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "揭露銷售地區及日本市場展望，未將一線品牌客戶按歐美日來源分類。"
+    },
+    {
+      "source_id": "src-4abbfb1032f906dc",
+      "title": "勝品2026年第二季法人說明會簡報",
+      "url": "https://www.topviewcorp.com/mw/cufiles/files/%E5%8B%9D%E5%93%81115%E5%B9%B4%E6%B3%95%E8%AA%AA%E6%9C%83VV.pdf",
+      "source_level": 3,
+      "publication_date": "2026-09-16",
+      "effective_period": "截至2026-09-16的策略展望",
+      "locator": "第10頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及拓展北美、歐洲SI/AV客戶及利基垂直市場方案；未表示公司專攻或揭露相關營收占比。"
+    },
+    {
+      "source_id": "src-bb3fec8d67da7b64",
+      "title": "勝品2023年企業永續報告（英文版）",
+      "url": "https://www.topviewcorp.com/mw/cufiles/files/2023_topview%20ESG%20Report_en.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023",
+      "locator": "第26頁，應用場域圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出Casino Management、Smart Transportation及Campus Security等應用標籤。"
+    },
+    {
+      "source_id": "src-d7840091e2c5bc3b",
+      "title": "勝品電通官方首頁",
+      "url": "https://www.topviewcorp.com/home/data/topviewcorp/tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行網站資訊，查核日2026-10-07",
+      "locator": "From Video Surveillance toward Video AIoT",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱提供影像設備予global tier-one brand name partners。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司年報、2026年9月16日法說簡報、官方產品與合作夥伴頁面及永續報告。未找到足以解決8K、利基市場毛利與歐美日客戶來源等原子主張的資料；依證據範圍停止，保留為UNKNOWN。",
+    "採用勝品官方年報、法人說明會、網站及永續報告；公司自述可支持其公開產品與策略，但未獨立核實客戶關係或實際專案。",
+    "永續報告中的應用場域圖不是專案實績、銷售組合或市場占比證據。",
+    "高毛利主張缺少特定利基市場的毛利率、期間及計算分母；公司整體毛利率不能替代。",
+    "8M像素與8K解析度並非可互換的證據。",
+    "全球一線品牌合作的公開資料未列出品牌名稱或其歐美日地區分布。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6556/1173/hermes-attempt-1.stdout.txt"
+}

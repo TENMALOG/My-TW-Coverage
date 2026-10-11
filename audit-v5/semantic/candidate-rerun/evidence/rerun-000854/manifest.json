@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000854",
+  "claim_id": "4572:material_named_relationship:425087302d080000",
+  "normalized_claim_hash": "425087302d080000c9c235a2f7e345fe99d05a0e9abb33fc0b0357b002578cf7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8022881483ff1c24",
+      "title": "111-112年工業發展年鑑，第四章重機產業，第二篇金屬機電產業篇",
+      "url": "https://www.ida.gov.tw/ctlr?PRO=filepath.DownloadFile&f=publication&id=3591&t=f",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "111–112年工業發展年鑑所述現況，約2022–2023年",
+      "locator": "PDF第222頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同段記載駐龍等公司與Spirit合作承製波音737、767及777大型機體結構件。"
+    },
+    {
+      "source_id": "src-bcb438a4f9d5dc77",
+      "title": "駐龍精密機械股份有限公司109年股東常會議事錄及附件",
+      "url": "https://www.drewloong.com.tw/wp-content/uploads/pdf/109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "108年度研發成果（2019年）",
+      "locator": "附件一，108年度研發進度與成果",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司文件列出開發B787-9/-10機身結構件，未在該處確認量產、交付或裝機。"
+    },
+    {
+      "source_id": "src-8722e4e3e849d139",
+      "title": "駐龍精密機械榮獲Spirit AeroSystems 2023年度品質卓越獎",
+      "url": "https://www.drewloong.com.tw/?p=4375",
+      "source_level": 3,
+      "publication_date": "2023-09-12",
+      "effective_period": "2023年",
+      "locator": "公司新聞正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司記載獲頒Spirit 2023年度品質卓越獎並參加供應商頒獎典禮，佐證與Spirit的供應商關係。"
+    },
+    {
+      "source_id": "src-91bfec2fff2cf8cf",
+      "title": "History – Drewloong Precision, Inc. (DPI)",
+      "url": "https://www.drewloong.com.tw/en/?p=47",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革記載2007年Spirit專案、2016年拓展Safran業務",
+      "locator": "公司沿革表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司記載2007年與Spirit簽訂波音專案，並於2016年拓展Safran AE及LS業務；未單獨說明後續交易規模。"
+    },
+    {
+      "source_id": "src-2ada85e21466eaef",
+      "title": "駐龍精密機械榮獲國際最佳供應商獎",
+      "url": "https://www.taia.org.tw/news_d.asp?navno=2&newsno=1461&secno=210",
+      "source_level": 2,
+      "publication_date": "2018-09-07",
+      "effective_period": "2018年",
+      "locator": "正文第18行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載駐龍與Spirit、Safran及漢翔的供應鏈關係，但未列出Safran或漢翔對應的全球OEM下游去向。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方沿革與供應商公告、航太公會資料及政府工業發展年鑑；可支持Spirit至波音737/777的部分關係。787實際供貨、使用規模及Safran／漢翔至全球OEM的具體下游路徑仍缺證，依要求保留為UNKNOWN。",
+    "波音737及777機型供貨線索來自政府年鑑對「晟田、駐龍等公司」的群體敘述，未提供駐龍逐機型件號、數量或交付占比。",
+    "駐龍公司文件提到B787-9/-10機身結構件開發，不能據此推定已量產、交付或裝機。",
+    "公會對漢翔主要供應商及Safran相關關係的記載為2018年；較新的公司來源未在本次檢索中確認漢翔關係的持續狀態。",
+    "未找到支持「大量」的出貨量、營收占比或明確分母資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4572/854/hermes-attempt-1.stdout.txt"
+}

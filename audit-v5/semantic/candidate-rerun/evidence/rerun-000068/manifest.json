@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000068",
+  "claim_id": "4528:objective_ranking_or_market_share:c57c2e43e2aaf637",
+  "normalized_claim_hash": "c57c2e43e2aaf637d9a3d15c91a1e3e61771873165894060b301ac441a904e11",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b7d5009e3a352adb",
+      "title": "【理周觀點－10/6(四)】",
+      "url": "https://www.moneyweekly.com.tw/ArticleData/Info/Article/43188",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article text in search result",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes the company’s transmission-system forging products, including drive-shaft forged parts."
+    },
+    {
+      "source_id": "src-f67d6bd927a231d8",
+      "title": "智富專欄 - 汽車核心組件股體質評比",
+      "url": "https://statementdog.com/blog/archives/10139",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2014",
+      "locator": "江興鍛 section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Guangzhou NTN as the largest customer and says it accounted for nearly 40% of 江興鍛 revenue in 2014."
+    },
+    {
+      "source_id": "src-53feaff29f17e5c4",
+      "title": "《電機股》江興鍛去年營收創高、獲利未跟上，今年營運估成長",
+      "url": "https://www.chinatimes.com/realtimenews/20200107002313-260410",
+      "source_level": 2,
+      "publication_date": "2020-01-07",
+      "effective_period": "2019",
+      "locator": "Article text in search result",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that China Honda had become the company’s largest customer after deliveries began in 2019."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research stopped after reaching the tool-call limit. The remaining uncertainty is the period-specific largest-customer ranking and whether the named customer relationships remain current.",
+    "Search results provided secondary-source excerpts; no official issuer disclosure confirming these customer names or the ranking was located.",
+    "The customer and product statements lack a clearly established effective period in the available excerpts.",
+    "The reported 2014 figure is NTN’s share of 江興鍛 revenue, not a market-share measurement."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4528/68/hermes-attempt-1.stdout.txt"
+}

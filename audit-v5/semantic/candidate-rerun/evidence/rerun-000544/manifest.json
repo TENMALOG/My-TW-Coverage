@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000544",
+  "claim_id": "6516:objective_ranking_or_market_share:ee30bf28283d37f0",
+  "normalized_claim_hash": "ee30bf28283d37f01308b4a06f7f8d5ced16f1f57ee1b07c8cf7b452a193a524",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8c756eaadb19246f",
+      "title": "樂客智慧車隊｜ABOUT KINGWAYTEK",
+      "url": "https://fms.kingwaytek.com/aboutUs.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面列示2005年為提供 Google 台灣地圖圖資及店家資訊的歷史節點；目前身分未標明起訖日。",
+      "locator": "關於勤崴段落及發展時間軸「2005」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為 Google 地圖台灣地區圖資提供商，並列出2005年提供圖資的歷史節點。"
+    },
+    {
+      "source_id": "src-28349268a16ef9fb",
+      "title": "微軟 Azure 雲端助力勤崴國際 實現智慧城市願景",
+      "url": "https://news.microsoft.com/zh-tw/ms-azure/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「勤崴稱霸台灣圖資隱形冠軍」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "微軟合作夥伴案例稱勤崴在台灣市占超過七成，並引述勤崴總經理；未提供市場分母、計算方法或資料期間，不能獨立驗證該比例。"
+    },
+    {
+      "source_id": "src-5f5998723611d306",
+      "title": "五箭齊發 勤崴國際2026迎成長",
+      "url": "https://www.ctee.com.tw/news/20251226700214-439901",
+      "source_level": 2,
+      "publication_date": "2025-12-26",
+      "effective_period": "報導所述近期法說會；會議日期未明。",
+      "locator": "首段及公司產品策略段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導提及產品線整合及以地圖資料延伸至導航、ADAS、車聯網、車隊平台與自駕應用，但未將轉型歸因於所稱市佔率或 Google Maps 關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱勤崴官方介紹、微軟合作夥伴案例及工商時報法說會報導；未找到可核實市佔分母與期間的資料，也未找到將市佔率或 Google Maps 圖資關係直接連結為轉型原因的證據，故未將未證實部分推定為真或假。",
+    "市佔率數字來自公司自述及微軟合作夥伴案例；未找到具明確市場分母、計算方法與期間的獨立市場資料。",
+    "Google Maps 圖資提供關係由勤崴官方頁面自述，未找到 Google 方面的獨立確認。",
+    "轉型描述由工商時報報導近期法說會內容支持；其用語為「智慧移動系統與平台服務商」，不等同於對轉型成果作獨立評估。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6516/544/hermes-attempt-1.stdout.txt"
+}

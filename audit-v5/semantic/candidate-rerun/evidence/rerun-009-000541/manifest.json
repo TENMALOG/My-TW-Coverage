@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000541",
+  "claim_id": "3030:objective_ranking_or_market_share:0bce561f06e3e4e6",
+  "normalized_claim_hash": "0bce561f06e3e4e6cc5dc0da6356fd7bd85418c7047526229cdf8d9a2e7789fb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-83ec1aadac2c39a6c7ff",
+      "title": "德律科技公司介紹",
+      "url": "https://www.tri.com.tw/tw/about/about.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述產品全球市佔率名列前茅，但未指明 AOI、台灣市場或排名依據；不足以證明台灣最大。"
+    },
+    {
+      "source_id": "src-4d173a5ed6f9473f71b4",
+      "title": "德律AOI全球市占第一；積極擴大半導體檢測布局",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=eb5666be-82b2-427d-a93b-a497149c823d",
+      "source_level": 2,
+      "publication_date": "2026-05-27",
+      "effective_period": "報導當日董事長對全球 SMT AOI 市場排名的描述",
+      "locator": "報導首兩段：全球 SMT 市場約 20% 市佔、居全球第一",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手新聞轉述董事長說法；未提供市佔率計算方法或獨立市場資料。"
+    },
+    {
+      "source_id": "src-72d0cc7d3f2a10e89726",
+      "title": "德律科技公司介紹",
+      "url": "https://www.tri.com.tw/tw/about/about.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司概稱產品全球市佔率名列前茅；未明確指向 AOI 或提供排名細節，僅作一般性佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司介紹及針對台灣 AOI 排名的檢索結果，並核對全球 SMT AOI 排名報導；台灣最大排名仍缺乏可比資料與明確市場分母，故保留 UNKNOWN。",
+    "全球 SMT AOI 排名及約 20% 市佔率來自二手新聞對董事長發言的轉述，未附獨立市場研究或計算方法。",
+    "公司網站的「產品在全球的市佔率已是名列前茅」未限定 AOI 產品、特定市場或期間。",
+    "未找到可據以比較台灣 AOI 廠商規模或市佔率的資料；此缺口不代表該排名為假。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3030/541/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "8c7c7cb5105abc65a9dde7b1945315ada1b055b9cd5e036500a40779c7ead08d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3030/541/isolated-prompt.txt",
+  "prompt_sha256": "bbf9068c8ec67fa50769a097e2f05b2075b5a67514ea436fefe0ee3ca6773f7f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000541/manifest.json",
+  "supersedes_manifest_sha256": "c7c1b92a7f7604684d598cbe1dd5a4b4dcf827cb1c7307275077900e559911b5",
+  "corrected_at": "2026-10-08T09:58:21Z"
+}

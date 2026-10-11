@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000293",
+  "claim_id": "3675:objective_ranking_or_market_share:ff388e8864de4fbe",
+  "normalized_claim_hash": "ff388e8864de4fbe13301fb38adbbae3aa4db76997fbe9d89a82ec0786ff84c2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e737ee0dfbd07d9b",
+      "title": "德微科技股份有限公司一一三年年報",
+      "url": "https://www.eris.com.tw/UploadImgs/ShareholderMeetingService/2025%20%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83/3675-%E5%BE%B7%E5%BE%AE113%E5%B9%B4%E5%A0%B1-v8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024; shareholder information as of 2025-03-30",
+      "locator": "Corporate governance section: director/shareholding table and table of major shareholders of corporate shareholders",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Diodes Holdings UK’s 51.05% stake and names Diodes Incorporated as its 100% shareholder."
+    },
+    {
+      "source_id": "src-a50d816706a7e2d6",
+      "title": "Eris Technology Corporation and Subsidiaries, 2024 Q1 Consolidated Financial Statements",
+      "url": "https://www.eris.com.tw/UploadImgs/FinancialReport/2024%20Q1%20Consolidated%20Financial%20Statements%20With%20Independent%20Auditors%27%20Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Quarter ended 2024-03-31",
+      "locator": "Company history and related-party note, operating revenue table",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Diodes Taiwan and Diodes Hong Kong as related parties and reports sales to them separately; this does not establish a customer ranking or prove that Diodes Inc. was the largest customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after eight focused research turns. Majority ownership is supported; largest-customer status remains UNKNOWN because the relevant period, customer scope, and ranking denominator are unspecified and no reviewed source establishes the ranking.",
+    "The majority-shareholder finding is tied to the annual report’s stated ownership date, not an unspecified present-day date.",
+    "The direct majority shareholder is Diodes Holdings UK; Diodes Inc. is identified as its 100% parent.",
+    "The customer-ranking atom remains unresolved: the claim supplies no period or customer/affiliate aggregation scope, and the reviewed official disclosures do not identify a largest customer under those terms."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3675/293/hermes-attempt-1.stdout.txt"
+}

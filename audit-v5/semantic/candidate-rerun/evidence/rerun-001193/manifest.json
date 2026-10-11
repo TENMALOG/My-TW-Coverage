@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001193",
+  "claim_id": "4919:material_named_relationship:4fac3fb4e7cfd821",
+  "normalized_claim_hash": "4fac3fb4e7cfd8219eb51b8507bc7b3de523c2d2b99644d8cd142f671bd42e07",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2f67d9f7b9c47455",
+      "title": "新唐科技股份有限公司民國 113 年度年報",
+      "url": "https://www.nuvoton.com/export/sites/nuvoton/about-nuvoton/investors/113TW.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "車用／汽車數位化，printed page 074",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "描述 ToF 與電動汽車製造商合作導入，但未命名客戶或 Tier 1 合作方。"
+    },
+    {
+      "source_id": "src-8c7ff3967755fa93",
+      "title": "新唐車用營收擁動能，BMIC市佔率可望提升",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=b267ae44-d600-479b-b931-d8dd2786fbca",
+      "source_level": 2,
+      "publication_date": "2024-02-27",
+      "effective_period": "2024 報導所述情況",
+      "locator": "內文「車用領域」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 BMIC 導入中國 Tier 1 電動車客戶，未提供客戶名稱，不能據此識別為 Panasonic。"
+    },
+    {
+      "source_id": "src-c5e5221467718e10",
+      "title": "新唐科技宣佈取得日本Panasonic半導體相關事業",
+      "url": "https://www.nuvoton.com.cn/news/news/all/TSNuvotonNews-000372/?_t=20705",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2019 acquisition announcement",
+      "locator": "收購 Panasonic 半導體事業公告",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證明雙方有半導體事業收購關係；該收購本身不能證明 Panasonic 是新唐 ToF 的 Tier 1 客戶或合作對象。"
+    },
+    {
+      "source_id": "src-75631f6c0cedf7e5",
+      "title": "Announcement of the Acquisition of the Semiconductor Business from Panasonic",
+      "url": "https://www.nuvoton.com/news/news/financial-information/TSNuvotonNews-000372",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2019 acquisition announcement",
+      "locator": "公告正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將 Panasonic 描述為出售半導體業務的一方；未將其描述為新唐車用 BMIC 或 ToF 的 Tier 1 客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核新唐官方年報、收購公告及相關公開報導；產品的車用應用有支持，但 Panasonic 特定關係、Tier 1 角色及各產品對應均缺乏可核實的直接證據，故保留 UNKNOWN。",
+    "未能找到將 Panasonic 與新唐 BMIC 或 ToF 車用供貨關係直接連結的官方披露。",
+    "客戶未具名的產品導入資訊，不足以推定客戶是 Panasonic。",
+    "新唐收購 Panasonic 半導體事業是企業交易證據，不等同於 Panasonic 是新唐相關產品的客戶或 Tier 1 合作對象。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4919/1193/hermes-attempt-1.stdout.txt"
+}

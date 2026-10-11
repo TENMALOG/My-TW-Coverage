@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000966",
+  "claim_id": "3213:profitability_assertion:2918ce861b2d0256",
+  "normalized_claim_hash": "2918ce861b2d02565cd04fd9695c8c7e1607d8802bf5e9c734acb86c0615a313",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0fb528ba63848845",
+      "title": "茂訊Q2獲利創次高，看好軍工需求帶動營收增溫",
+      "url": "https://m.moneydj.com/f1a.aspx?a=7377f794-34f3-4c42-9913-9fa220d8f070",
+      "source_level": 2,
+      "publication_date": "2026-08-06",
+      "effective_period": "2026年展望",
+      "locator": "報導正文第110行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述董事長稱軍工應用占強固型電腦營收逾九成；終端應用占比不能替代直接客戶類型或承包商客戶占比。"
+    },
+    {
+      "source_id": "src-bc04148c6874a7c8",
+      "title": "茂訊電腦股份有限公司114年年報（2025年度）",
+      "url": "https://www.crete.com.tw/rwd/114%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度年報所載未來拓展策略",
+      "locator": "第6頁，全球市場拓展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出歐洲、北美、中東、印度及亞太等拓展地區，沒有證明歐洲與北美是現有強固型事業的主要市場。"
+    },
+    {
+      "source_id": "src-650923c0aef71760",
+      "title": "A complete range — MilDef Crete 2026 brochure",
+      "url": "https://mildefcrete.com/wp-content/uploads/2026/04/MilDef-Crete_2026-Brochure-202602-V8-2.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04",
+      "effective_period": "型錄所列2026年機型規格",
+      "locator": "第4至7頁，各機型操作溫度及MIL-STD-810H規格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人型錄提供特定產品的溫度範圍及環境規格，不代表所有產品皆有相同能力。"
+    },
+    {
+      "source_id": "src-f8f8caa5f2d17408",
+      "title": "茂訊電腦股份有限公司及子公司114年第一季合併財務報告",
+      "url": "https://www.crete.com.tw/rwd/1141.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年第一季",
+      "locator": "第19頁，收入按主要銷售地區及產品線分列",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "地區與產品線分別列示，未提供兩者交叉表；且地區欄為合併公司整體收入，不能據此確定強固型電腦事業的地區分布或北美占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對發行人2025年年報、2026年產品型錄及2026年媒體報導；仍缺乏能確認主要直接客戶類型及強固型電腦事業地區銷售分布的資料，因此相關原子主張維持UNKNOWN。",
+    "成長引擎的直接依據是媒體對董事長發言的報導，內容屬展望與預估。",
+    "年報的環境能力描述與型錄機型規格支持產品線的設計用途，但不是所有型號在所有環境下的獨立驗證。",
+    "國防應用或政府、國防單位的下游市場，不等同於以國防承包商為主要直接客戶。",
+    "公司整體地區收入、公司拓展策略及過往特定年份的市場資料，均不足以證明當前強固型電腦事業的歐洲與北美占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3213/966/hermes-attempt-1.stdout.txt"
+}

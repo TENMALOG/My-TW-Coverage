@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000640",
+  "claim_id": "8086:objective_ranking_or_market_share:2b8e68c61d000145",
+  "normalized_claim_hash": "2b8e68c61d000145ebac9c98c54a8d5c91a3a4626356c7fb6c1f21f211c30739",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7d43ef3849001bd22109",
+      "title": "宏捷科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=70955e88-1294-4d2a-a9ef-3a1bb2da49fb",
+      "source_level": 2,
+      "publication_date": "2025-06-05",
+      "effective_period": "2024年",
+      "locator": "「市場銷售及競爭」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "由嘉實投顧提供的二手資料；稱2024年全球砷化鎵晶圓代工市占率26%、排名第二。"
+    },
+    {
+      "source_id": "src-d83e73accee1f9ed3967",
+      "title": "宏捷科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=70955e88-1294-4d2a-a9ef-3a1bb2da49fb",
+      "source_level": 2,
+      "publication_date": "2025-06-05",
+      "effective_period": "2024年",
+      "locator": "「市場銷售及競爭」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告2024年市占率為26%；不證明未註明期間的24%主張。"
+    },
+    {
+      "source_id": "src-81a57c90d599522dbe95",
+      "title": "How AWSC got its groove back and secured orders from SpaceX",
+      "url": "https://english.cw.com.tw/article/article.action?id=3286",
+      "source_level": 2,
+      "publication_date": "2022-08-24",
+      "effective_period": null,
+      "locator": "文章頁；擷取正文未顯示24%數字",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "搜尋摘要曾顯示24%，但因正文擷取未能核實該數字，不作為支持證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索並核對可取得的來源正文；原 claim 缺少期間與市占分母，現有可核驗資料不足以將24%判定為該未限定期間主張的支持或反證。",
+    "已找到的排名及市占資料為二手來源，非公司或監管機關披露。",
+    "2024年的26%不能單獨證明24%錯誤，因原 claim 未標示期間；市占率的計算口徑及分母亦未交代。",
+    "CommonWealth文章的搜尋摘要不是可核驗正文，故未用摘要中的24%作為證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8086/640/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "047ab313edd4cff0c0c79e87c20026ae6edc1b159fcef1363d960239d92e75e4",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8086/640/isolated-prompt.txt",
+  "prompt_sha256": "2f0f15916206a3fde956b97a607e1a211d51a812b2c5ab178e2b636e1a15d227",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000640/manifest.json",
+  "supersedes_manifest_sha256": "9d91620a6a5fc5da638f9baf8466a2ce08697b26ec51ef85542b5acb22d29f7f",
+  "corrected_at": "2026-10-08T09:58:30Z"
+}

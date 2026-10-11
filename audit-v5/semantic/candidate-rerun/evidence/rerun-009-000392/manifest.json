@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000392",
+  "claim_id": "6952:objective_ranking_or_market_share:9f37dbda4677cd61",
+  "normalized_claim_hash": "9f37dbda4677cd61c0232a8f155d9c4e30f9336e98b05bddfef152e8da34f56e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0918c4b6b4fffd91aa8c",
+      "title": "國內掀搶蛋之亂 廠商示警：蛋價恐回不去了！",
+      "url": "https://www.chinatimes.com/realtimenews/20220126001921-260410",
+      "source_level": 2,
+      "publication_date": "2022-01-26",
+      "effective_period": "Contemporaneous conditions described around the 2022 Lunar New Year; no formal measurement window stated.",
+      "locator": "Paragraph beginning「業者指出，台灣每天的雞蛋需求量大約是2200萬顆」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 卜蜂's share as about 5% in the context of Taiwan's egg market and daily demand of about 22 million eggs. The estimate is attributed to unnamed industry participants; the article does not provide a numerator or share-calculation method."
+    },
+    {
+      "source_id": "src-d6fbd594d301613f76ca",
+      "title": "蛋價上漲又缺蛋，卜蜂與大成受惠解析！",
+      "url": "https://cmnews.com.tw/article/ugly-3fe39d7d-d8cb-11ef-af7a-9c05258a3a4e",
+      "source_level": 1,
+      "publication_date": "2023-02-25",
+      "effective_period": "Described as current in the article published 2023-02-25; no formal measurement window stated.",
+      "locator": "Section「蛋品新增產線將全部投產－卜蜂」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "An investment blogger states that 卜蜂's egg-product market share is about 5%, without citing a source or defining the calculation denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches located contemporaneous secondary reports supporting a Taiwan egg-market interpretation, but no official primary disclosure or defined share methodology. Further searching was stopped with the original market scope and denominator unresolved.",
+    "No official issuer or regulator source located in this research established the approximately 5% figure.",
+    "The 2022 report attributes the estimate to unnamed industry participants; the 2023 blog gives no citation for it.",
+    "The reported daily egg demand provides context, not a verified denominator for the market-share calculation."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6952/392/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "9713b85d9a625a7b957263796f3fb0ac1752d42fb96e2707e1b317e40282122f",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6952/392/isolated-prompt.txt",
+  "prompt_sha256": "98f7f2e4309b473dd0db0a36e5dd4fc86a7fe66b0c7f99f54d253029260cd314",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000392/manifest.json",
+  "supersedes_manifest_sha256": "594c39ef2c0d01cb86a433546f3a3f844a9d25cd897eea256c3c6e39ebe9c111",
+  "corrected_at": "2026-10-08T09:58:08Z"
+}

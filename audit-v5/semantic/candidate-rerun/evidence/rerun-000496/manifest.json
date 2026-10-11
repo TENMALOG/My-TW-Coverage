@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000496",
+  "claim_id": "1785:objective_ranking_or_market_share:6815a6279f48d47c",
+  "normalized_claim_hash": "6815a6279f48d47c537765f726507a4ca84d1e5a8ff93fce99873179a73efd97",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7c32b3c82301623c",
+      "title": "Investor Presentation (March 2023)",
+      "url": "https://www.solartech.com.tw/download/0/153/",
+      "source_level": 3,
+      "publication_date": "2023-03",
+      "effective_period": "As represented in the March 2023 presentation; current exclusivity not established.",
+      "locator": "Slide 21, “Storage Solutions”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States “Solar is the only full spectrum supplier” alongside an HDD layer diagram."
+    },
+    {
+      "source_id": "src-8373bb67138267b7",
+      "title": "公司介紹－光洋應用材料科技股份有限公司",
+      "url": "https://www.solartech.com.tw/about/company_info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "企業理念",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Current undated company profile describes the issuer as the world’s largest manufacturer of storage-media thin-film sputtering targets; it does not separately specify HDD-only ranking."
+    },
+    {
+      "source_id": "src-8f19677ba701e5c1",
+      "title": "濺鍍靶材",
+      "url": "https://www.solartech.com.tw/products-detail/sputtering_targets",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "儲存媒體產業用",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer says it provides sputtering targets required for each storage-media layer; it does not claim unique or exclusive supply capability."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches located the issuer’s March 2023 presentation and current official product/profile pages. Further search did not establish a current HDD-target share denominator or independently verify present-day exclusivity.",
+    "Ranking, share, and exclusivity evidence comes primarily from the issuer’s own March 2023 investor presentation; it is not independent market measurement.",
+    "The presentation gives 35% and “one-third market share” in the HDD-target context but does not specify the market-share measurement basis or exact measurement period.",
+    "The issuer’s undated current profile supports a broad storage-media-target leadership claim, but does not separately verify current HDD-only ranking, current 35% share, or current exclusivity."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1785/496/hermes-attempt-1.stdout.txt"
+}

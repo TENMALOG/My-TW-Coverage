@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001009",
+  "claim_id": "3031:material_named_relationship:223c67df296bbf5e",
+  "normalized_claim_hash": "223c67df296bbf5efca8a41446e0c84a7012ae93c668e1c7a6dee02e2e0db755",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-93536fa89f88ca02",
+      "title": "佰鴻3031價量明細／產業供銷分析",
+      "url": "https://www.moneylink.com.tw/TWStock/StockTick.aspx?SymId=3031",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Undated relationship classification; page displays trading data dated 2025-09-23.",
+      "locator": "產業供銷分析, lines 374-390",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides a supplier category and product classification, but no ranking, spend, quantity, or share."
+    },
+    {
+      "source_id": "src-6f2408e91f95ee67",
+      "title": "富采光電－關於富采",
+      "url": "https://chip.ennostar.com/Tw/about1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current page states 晶元光電 was renamed 富采光電 on 2025-10-01.",
+      "locator": "Company introduction, lines 73-76",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the name and parent-company relationship, but not the identity of 佰鴻's supplier in any purchase."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found a group-level third-party supplier classification and official evidence clarifying the 晶元光電／富采 naming relationship, but no reliable evidence resolving the exact supplier entity or the meaning and measure of “major.” Those atoms remain UNKNOWN.",
+    "The relationship evidence is a third-party industry-chain classification, not an issuer procurement disclosure.",
+    "The listing uses 3714 富采, the holding-company group designation; the official group page identifies 晶元光電 as renamed 富采光電 effective 2025-10-01. The available evidence does not identify the legal entity that supplied 佰鴻.",
+    "No located source supplies a claim-period-specific denominator or measurement supporting “主要供應商.”"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3031/1009/hermes-attempt-1.stdout.txt"
+}

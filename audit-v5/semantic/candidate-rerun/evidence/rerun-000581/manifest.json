@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000581",
+  "claim_id": "2342:objective_ranking_or_market_share:b2bd16648dd7b771",
+  "normalized_claim_hash": "b2bd16648dd7b7710a0ac98654b0a534761990d03534a6b17e9469f1696f3b13",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-92b5d80cb6397c33",
+      "title": "朋程擬爭取茂矽3席董事 雙方未來合作受矚目",
+      "url": "https://www.4gtv.tv/article/2023042703000003",
+      "source_level": 2,
+      "publication_date": "2023-04-27",
+      "effective_period": "2022年度客戶營收",
+      "locator": "內文第3段；文末標示中央社原文出處",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱朋程是茂矽最大客戶，列出3.52億元及占總營收16.38%；為轉載中央社報導，與其他中央社轉載來源並非完全獨立佐證。"
+    },
+    {
+      "source_id": "src-064a018b20948a0d",
+      "title": "茂矽總經理異動 盧建志接任",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=1&nsl_id=cc89a0592ff040f88a25511a352b343e",
+      "source_level": 2,
+      "publication_date": "2023-06-02",
+      "effective_period": "2022年度客戶營收",
+      "locator": "內文第4段；來源標示中央社",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "再次報導朋程為茂矽最大客戶，並提供相同的2022年營收及占比數據；與前一來源同源。"
+    },
+    {
+      "source_id": "src-aea83accd46a6db2",
+      "title": "中美晶SiC任督二脈開通？ 傳盧明光之子將接茂矽總經理",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000664859_EFL79XDC6FCKU08OMS5HP",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "約2023年報導所述供應關係；明確年度未載",
+      "locator": "內文「朋程目前是茂矽最大股東、也是最大客戶」及「目前朋程下單茂矽」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱訂單主要為燃油車用高效能二極體（ULL）及超高效二極體（ULLD）；未提供特定模組業務的客戶排名或產品別分母。"
+    },
+    {
+      "source_id": "src-2f68cec46e309329",
+      "title": "關係企業",
+      "url": "https://www.actron.com.tw/tw/about/partner",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "台灣茂矽電子股份有限公司條目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "朋程官方頁面將茂矽描述為功率半導體晶圓代工企業；未披露朋程向茂矽採購的特定產品類別或客戶排名。"
+    },
+    {
+      "source_id": "src-7027c2198308dcf3",
+      "title": "車用發電機整流橋",
+      "url": "https://www.actron.com.tw/tw/apply/detail/%E8%BB%8A%E7%94%A8%E7%99%BC%E9%9B%BB%E6%A9%9F%E6%95%B4%E6%B5%81%E6%A9%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品應用說明全文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "朋程官方頁面說明其車用發電機整流橋以車用二極體整流；未連結此產品與茂矽的特定客戶排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；整體最大客戶的歷史排名有二手報導支持，但車用整流二極體模組這一特定產品範圍的排名及分母仍無可靠證據。依使用者指示，不再進行工具檢索。",
+    "最大客戶及營收數據來自媒體對茂矽財報的報導，未在本次查得的茂矽官方原始年報頁面獨立核對；兩篇列示的中央社轉載內容同源。",
+    "「最大客戶」的可支持範圍限於2022年度整體客戶營收排名，不能外推為現況或特定產品線排名。",
+    "產品描述來源談到二極體、整流橋及晶圓代工，但未揭露朋程對茂矽特定產品的採購額、產品別營收分母或該類產品的客戶排序。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2342/581/hermes-attempt-1.stdout.txt"
+}

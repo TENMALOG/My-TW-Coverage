@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000986",
+  "claim_id": "6933:material_named_relationship:cba821507d7be9a8",
+  "normalized_claim_hash": "cba821507d7be9a821f6744336bc92145aa90b4ca7ae7ae0ab9f4642efb7ca00",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-90a4c2ade882d3ed",
+      "title": "AMAX Holding Co., Ltd. 2025 Annual Report (English translation)",
+      "url": "https://financialfilings.com/filings/amax-6933/annual-report/2026/49993664/",
+      "source_level": 2,
+      "publication_date": "2026-04-27",
+      "effective_period": "2025 fiscal year and through report publication",
+      "locator": "Chapter 5, operations and major customer/supplier disclosures",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "No specific Hon Hai technical collaboration is identified in the reviewed passages; this absence does not establish nonexistence."
+    },
+    {
+      "source_id": "src-d51470b47d371ae2",
+      "title": "Hon Hai Technology Group 2025 Sustainability Report page",
+      "url": "https://ningxia.foxconn.com/en-us/CSR/csr-report",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 reporting period",
+      "locator": "Reporting entity and report boundary",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies FII among major sub-groups within the scope of Hon Hai’s 2025 consolidated financial statements; used for group-affiliation context."
+    },
+    {
+      "source_id": "src-eac8fbe83cedbbc9",
+      "title": "AMAX-KY：與鴻海在客戶、產品、技術全面合作",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=8a7af3e3-b4ee-4efb-be1f-f4cfab3c072b",
+      "source_level": 2,
+      "publication_date": "2024-06-21",
+      "effective_period": "Plans and discussions described as of 2024-06-21",
+      "locator": "Article body, paragraphs describing technical/product cooperation and plans under discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting of AMAX’s statements; describes opportunity and discussion, not measured implementation."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused searches and review of the issuer’s 2025 annual-report content, an official Hon Hai reporting page, and the 2024 secondary report. The current equity figure is verifiable; current Hon Hai-specific procurement scale and implemented technical-cooperation scope remain unresolved.",
+    "The 2025 annual report source is an issuer report translation hosted by a third-party filing site; the report identifies the issuer and the relevant shareholding date.",
+    "The 2024 approximately 25% figure is historical secondary reporting and should not be carried forward as a current percentage.",
+    "The available procurement disclosure masks supplier names; it cannot confirm or disprove Hon Hai-specific purchasing.",
+    "The evidence for technical cooperation concerns potential cooperation and plans under discussion, not quantified implementation."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6933/986/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000114",
+  "claim_id": "2889:objective_ranking_or_market_share:9f8aba6960121ca6",
+  "normalized_claim_hash": "9f8aba6960121ca6c6acaaadf0d4080f574d44ed11fd850248a6a84f259f58e1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-10233f57384be435",
+      "title": "國票金融控股股份有限公司113年度年報",
+      "url": "https://www.ibf.com.tw/Uploads/1-280b9099.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度年報",
+      "locator": "封面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 IBF Financial Holdings Co., Ltd. 及股票代號2889。"
+    },
+    {
+      "source_id": "src-b7da6c5fdb2ad092",
+      "title": "基本資料查詢－銀行局全球資訊網",
+      "url": "https://www.banking.gov.tw/ch/home.jsp?id=606&parentpath=0,4&mcustomize=FscSearch_BankSub.jsp&bank_no=264&title=%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1%E5%85%AC%E5%8F%B8",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "設立日期：2002-03-26",
+      "locator": "金融控股公司基本資料 > 設立日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示設立日期為2002-03-26。"
+    },
+    {
+      "source_id": "src-41273b1846224a96",
+      "title": "國票金融控股股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=094d91bd-e552-46ac-9e4a-c122f0e0e497",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介 > 沿革與背景，首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料直接作出「國內唯一以票券為主體」及「以票券業務為營業主軸」的描述；未提供比較母體、判定標準或明確資料日期。"
+    },
+    {
+      "source_id": "src-d108f37071be8f51",
+      "title": "國票金控營運說明",
+      "url": "https://www.ibf.com.tw/Uploads/10-711b682f.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報更新日期：2025-05-30",
+      "locator": "第3頁及第7頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方將國票金控描述為以直接金融為核心，並列出「專注直接金融市場」等策略；未稱票券業務為集團唯一核心。"
+    },
+    {
+      "source_id": "src-0ade4668ca6f6a7b",
+      "title": "發展策略－國票金控",
+      "url": "https://www.ibf.com.tw/strategies",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "競爭優勢；未來經營目標及策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方描述票券與證券結合，並稱長期目標為發展成以投資銀行業務為主的利基型金控；未確認原文的唯一性及票券核心判準。"
+    },
+    {
+      "source_id": "src-c2ebe1c526a74519",
+      "title": "公司簡介－國票金控",
+      "url": "https://www.ibf.com.tw/company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2002-03-26",
+      "locator": "成立緣起",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出國際票券金融股份有限公司、協和證券股份有限公司及大東綜合證券股份有限公司，並記載共同以股份轉換方式設立。"
+    },
+    {
+      "source_id": "src-ce55121c0a035805",
+      "title": "公司沿革－國票金控",
+      "url": "https://www.ibf.com.tw/history",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2002-01-31及2002-03-26",
+      "locator": "2002年 > 01/31、03/26",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "01/31記載國際票券金融公司、協和證券公司及大東綜合證券公司通過共同以股份轉換方式設立；03/26記載公司核准設立及股份轉換基準日。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核國票金控官方公司簡介、沿革、發展策略、2025年營運簡報及金管會資料，並比對二手資料。成立日期、設立方式與參與公司均有官方來源支持；「台灣唯一以票券業務為核心」仍欠缺有明確期間、判定標準及完整比較母體的證據，故保留為UNKNOWN。",
+    "「唯一以票券業務為核心」的直接表述來自未標示日期的二手資料，未交代台灣金融控股公司的比較母體或「核心」判定標準。",
+    "國票金控官方資料支持其由票券業者轉換設立，並將集團定位為以直接金融為核心；這不能直接替代原文對當前票券業務核心地位的描述。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2889/114/hermes-attempt-1.stdout.txt"
+}

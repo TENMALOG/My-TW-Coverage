@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000346",
+  "claim_id": "8069:objective_ranking_or_market_share:5f18abcc84d8634a",
+  "normalized_claim_hash": "5f18abcc84d8634ab68db7819ad3bc47e29da56b01fc8cb4a149f0a6c079b80e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d42bcf94d17bb7ca",
+      "title": "E-Reader Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+      "url": "https://www.mordorintelligence.com/industry-reports/e-reader-market",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026 年報告背景；出貨量份額的具體觀察年度未明示。",
+      "locator": "Competitive Landscape；Key Questions Answered, “Who dominates global shipments?”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接稱 Rakuten Kobo 排名第二、約占全球出貨量 10%；未在該數字旁標出數據年度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "找到同一市場研究來源對 Amazon 與 Kobo 的全球出貨排名及份額直接表述；進一步研究仍無法從該頁確認這些份額的具體觀察年度，故保留此限制並提交最終裁定。",
+    "排名與份額依據二級市場研究來源，並非 issuer 或監管機關披露；Mordor Intelligence 表示其市場估算使用 proprietary estimation framework，該頁未提供這兩項品牌份額的具體計算依據。",
+    "來源未明示出貨量份額的觀察年度，因此不能將數字當作某一特定年度的實測結果；以上僅按該報告的 2026 年背景記錄。",
+    "來源指全球電子閱讀器設備出貨量，不能據此推論電子書平台銷售額、用戶數或其他市場口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8069/346/hermes-attempt-1.stdout.txt"
+}

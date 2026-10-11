@@ -1,0 +1,108 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000140",
+  "claim_id": "3163:objective_ranking_or_market_share:f4538d7b4e0ae3de",
+  "normalized_claim_hash": "f4538d7b4e0ae3ded4841c2701692ea4039f4f93c8d5573ab21c98262f693c6a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-91c620fb2555d7ec",
+      "title": "Browave Corporation 2024 Annual Report",
+      "url": "https://www.browave.com/uploads/images/113_Annual_Report(EN).pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "2024年度",
+      "locator": "封面；Stock Code: 3163",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報直接列明公司名稱與股票代號。"
+    },
+    {
+      "source_id": "src-ab6c79801fc89e9d",
+      "title": "波若威科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=df34a600-8850-4344-ade8-e1563d49fe90",
+      "source_level": 2,
+      "publication_date": "2026-09-30",
+      "effective_period": null,
+      "locator": "「公司簡介」及「營業項目與產品結構」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出被動元件、模組等業務，但沒有提供模組製造商排名或可比較的量化資料。"
+    },
+    {
+      "source_id": "src-f61fe2cba923498e",
+      "title": "WDM Device|Components|產品規格|波若威科技 Browave",
+      "url": "https://www.browave.com/product/category/47",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "WDM Device段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其WDM器件使用光學準直及對準技術。"
+    },
+    {
+      "source_id": "src-56cc949e0fcffb31",
+      "title": "模組|產品規格|波若威科技 Browave",
+      "url": "https://www.browave.com/product/category/1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「光波分/多工模組」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網列出DWDM、CWDM、CDWDM及CCWDM模組，並說明提供客製化服務。"
+    },
+    {
+      "source_id": "src-f5dd29fd137d80c7",
+      "title": "Optical Splitter Device|Components|產品規格|波若威科技 Browave",
+      "url": "https://www.browave.com/product/category/49",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "PLC splitter Package段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司描述PLC分光器採用precision aligning process。"
+    },
+    {
+      "source_id": "src-9da5e3fe2b32f384",
+      "title": "Optical Connector|MPO/MTP Breakout Cable|產品規格|波若威科技 Browave",
+      "url": "https://www.browave.com/product/category/50",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "光學互連產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網明列客製化OEM/ODM total solution。"
+    },
+    {
+      "source_id": "src-3f1380ee5fb0839a",
+      "title": "Company Profile|About Browave|波若威科技 Browave",
+      "url": "https://www.browave.com/Pages/67",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile標題及首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網稱其從事光纖通訊產業的OEM/ODM開發、生產與銷售。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司官網產品與公司簡介、2024年度年報及針對台灣市場排名和市占率的聚焦搜尋；未找到具明確排名期間、比較範圍與分母的可靠排名資料，故排名原子保留為UNKNOWN。",
+    "「台灣最大」的說法見於MoneyDJ二級來源，但未附排名期間、比較母體、衡量指標或分母，且只稱光纖被動元件代工廠，不能據此確認模組製造商排名。",
+    "產品、製程及OEM/ODM依據主要來自公司官網；產品目錄頁未標示發布日期或有效期間，部分精密特性屬公司自身描述，並非獨立測試結果。",
+    "年報英文版聲明其為中文年報摘要翻譯，中文版本優先；本次使用年報只核對公司名稱及股票代號。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3163/140/hermes-attempt-1.stdout.txt"
+}

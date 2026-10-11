@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001032",
+  "claim_id": "3322:material_named_relationship:6a19ecdd50c3ef9b",
+  "normalized_claim_hash": "6a19ecdd50c3ef9beb03f9faa21a6ef9ae04b7ce6ab8d92f48812386cdbdc3dd",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-71697116ec9d8af8",
+      "title": "JEM 2025 年 12 月 10 日法說會簡報",
+      "url": "https://www.jem.com.tw/en/Webfiles/9ab2acb6-cb36-423c-9026-8f54802e361f.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-10",
+      "effective_period": "2025 年法說會簡報所述產品及營運資訊",
+      "locator": "第 26–27 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示產品及路線圖，未列 Dell 或 HP 為客戶。"
+    },
+    {
+      "source_id": "src-93a193abe7cd1253",
+      "title": "建舜電AI業務點火 高階線材導入量產",
+      "url": "https://ec.ltn.com.tw/amp/article/breakingnews/5274245",
+      "source_level": 2,
+      "publication_date": "2025-12-10",
+      "effective_period": "截至 2025-12-10 的公司法說會說法",
+      "locator": "正文第 28、33、35 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導提及未具名 AI 伺服器客戶，未指名 Dell 或 HP。"
+    },
+    {
+      "source_id": "src-8970659159d66cd9",
+      "title": "建舜電雙軸推動高速線佈局，年底佔比拚過半",
+      "url": "https://www.ttv.com.tw/finance/view/0420262010236A5CDD7F92204BEE83A03CCED2782847FF03/587",
+      "source_level": 2,
+      "publication_date": "2026-04-20",
+      "effective_period": "截至 2026-04-20 的伺服器內部線導入進度",
+      "locator": "正文；報導指出送樣多家代工廠與測試單位，期待第 4 季有初步訂單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "這是較晚的伺服器內部線進度報導；沒有把產品型號或客戶名稱與 2025 年出貨說法逐一對照。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官方法說會資料、具體客戶名稱及較晚伺服器內部線進度的聚焦查找；在限定研究輪次內未找到具名 Dell／HP 供應關係或特定 MCIO、SlimSAS 型號出貨證據，相關原子維持 UNKNOWN。",
+    "公司簡報能佐證產品線與規劃，不等同於逐型號的量產或出貨證據。",
+    "實際 AI 伺服器出貨資訊來自次級媒體轉述公司法說會，客戶及產品型號未具名。",
+    "2026 年 4 月的伺服器內部線送樣進度與 2025 年未具名出貨報導可能涉及不同產品或專案；現有材料不足以判定兩者是否矛盾。",
+    "未找到支持 Dell 或 HP 關係的可靠具名資料；這是證據缺口，不是反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3322/1032/hermes-attempt-1.stdout.txt"
+}

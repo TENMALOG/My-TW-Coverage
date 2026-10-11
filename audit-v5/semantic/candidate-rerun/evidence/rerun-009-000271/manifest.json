@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000271",
+  "claim_id": "2383:objective_ranking_or_market_share:8cd3eedf1d33d1d5",
+  "normalized_claim_hash": "8cd3eedf1d33d1d5a8e1fa43144ebdf6d5dffc4985da355e106b5539df7428e1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-60aa9e5069c7f21f292a",
+      "title": "Investor Conference Presentation_202405 Final -English",
+      "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/EN/113/Investor%20Conference%20Presentation_202405%20Final%20-English.pdf",
+      "source_level": 3,
+      "publication_date": "2024-05",
+      "effective_period": "2023",
+      "locator": "第9頁： “EMC Momentum in High speed CCL Market Share Reached Number One Globally in 2023”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行公司官方簡報；支持2023年全球高速CCL排名第一，但該頁未顯示市占率數值或分母口徑。"
+    },
+    {
+      "source_id": "src-cde042651e8e2d1d82e8",
+      "title": "2024 Annual Report",
+      "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/EN/2024Annual%20report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "年報營運說明；可檢索文字稱HSD（High speed digital）材料於2024年全球排名第一",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行公司官方年報；支持2024年高速數位材料排名第一，但查得文字未列市占率數值或分母口徑。"
+    },
+    {
+      "source_id": "src-71363de34b364f711f5a",
+      "title": "Investor Conference Presentation_202405 Final -English",
+      "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/EN/113/Investor%20Conference%20Presentation_202405%20Final%20-English.pdf",
+      "source_level": 3,
+      "publication_date": "2024-05",
+      "effective_period": "2023",
+      "locator": "第9頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報確認高速CCL全球排名，但未將排名連結至M8/M9平台；因此不能據此判定平台別排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次允許的研究工具回合上限；M8/M9平台別排名與市占分母仍缺乏可核實的官方證據。",
+    "官方披露支持特定期間的排名，但未提供市占率數值及明確分母口徑。",
+    "整體高速CCL或HSD材料排名不能直接推定為M8/M9平台別排名。",
+    "未使用搜尋摘要或二手資料替代平台別的官方證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2383/271/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c3cd58b07299993976d76d9b84e9af6f66d646957dedb09639cc97fe90d9f900",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2383/271/isolated-prompt.txt",
+  "prompt_sha256": "a0070e618925c0da81bfcaa75582945c8bb9bd0e8d751c9d30400ada419a561c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000271/manifest.json",
+  "supersedes_manifest_sha256": "8d3ec4f05c9b8ad74cb046f547664c8db301f8ad8b28dc53c36d926bb121d40b",
+  "corrected_at": "2026-10-08T09:57:59Z"
+}

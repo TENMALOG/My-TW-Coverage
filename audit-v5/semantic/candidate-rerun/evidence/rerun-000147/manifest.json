@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000147",
+  "claim_id": "3491:objective_ranking_or_market_share:b1519b89f78df062",
+  "normalized_claim_hash": "b1519b89f78df062f45f10bff9eb3e6c2a6e0fd7d793d5459e772493dc9eb1c6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0daecc407aaccc3c",
+      "title": "低軌衛星發射量躍升 昇達科營收將逐月增",
+      "url": "https://money.udn.com/money/story/11074/9763743?from=edn_search_tag_result",
+      "source_level": 2,
+      "publication_date": "2026-09-18",
+      "effective_period": "截至2026-09-18的報導",
+      "locator": "文中昇達科供應鏈客戶列舉段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出三家客戶，但沒有聲稱或證明它們是全球前三大。"
+    },
+    {
+      "source_id": "src-be3fb07bf73faaca",
+      "title": "昇達科技 (3491)",
+      "url": "https://www.umt-tw.com/upload/Investors/(3491)_20260601.pdf",
+      "source_level": 3,
+      "publication_date": "2026-06-01",
+      "effective_period": "2026年1月至4月產品應用",
+      "locator": "第5頁及第8頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明微波／毫米波波導元件，以及 Payload、TTC、ISL、DTC 與 Gateway 應用；沒有將產品應用逐項對應至具名客戶。"
+    },
+    {
+      "source_id": "src-86cc23a96301f714",
+      "title": "低軌衛星股全面起飛！昇達科(3491)、華通(2313)、百一(6152)攻漲停，誰真正吃得到Starlink訂單？",
+      "url": "https://m.cnyes.com/news/id/6621808",
+      "source_level": 2,
+      "publication_date": "2026-10-05",
+      "effective_period": "2025年；比較口徑為昇達科低軌衛星營收",
+      "locator": "文中「根據優分析資料」及 S、A 客戶營收占比段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 S 客戶約占低軌衛星營收37%、A客戶約占57%，但此為特定分部及年度口徑，不足以判定所有期間的公司整體最大客戶。"
+    },
+    {
+      "source_id": "src-4d5a01bf687d11eb",
+      "title": "SpaceX低調拜訪台廠供應鏈！重點對象鎖定昇達科、華通，這4家協力廠可望受惠",
+      "url": "https://www.gvm.com.tw/article/127599",
+      "source_level": 2,
+      "publication_date": "2026-01-22",
+      "effective_period": "報導所述昇達科與SpaceX合作情形，未另列產品供應期間",
+      "locator": "「消息人士透露」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "《遠見》註明轉載2026-01-22《經濟日報》內容；報導稱昇達科早年供應SpaceX地面站關鍵零組件，近年擴及衛星酬載、控制、鏈路及直連手機。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司投資人簡報及聚焦搜尋的新聞報導。具名供應鏈關係和產品應用有部分支持；公司客戶匿名揭露，且公開來源未能確定「全球三大」排名或SpaceX在原主張期間的公司整體客戶排名，故保留為UNKNOWN。",
+    "公司投資人簡報以客戶代號揭露，未提供可核實的具名客戶排名。",
+    "客戶涵蓋與產品應用部分依據二手媒體報導；公司簡報確認產品類別及應用，但沒有把具名客戶與各項產品逐一對應。",
+    "2025年客戶占比報導使用低軌衛星營收作分母，不能替代公司整體客戶營收排名，也不能自動套用到其他期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3491/147/hermes-attempt-1.stdout.txt"
+}

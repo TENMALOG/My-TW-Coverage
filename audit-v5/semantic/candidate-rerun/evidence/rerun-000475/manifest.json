@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000475",
+  "claim_id": "2762:objective_ranking_or_market_share:d7e0098f0ada0257",
+  "normalized_claim_hash": "d7e0098f0ada02575dc044fdaf64d903c80e11d926323caed73055c9a3deb850",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b580be4c940cd62e",
+      "title": "World Gym Presentation",
+      "url": "https://investor.worldgymtaiwan.com/files/uploads/shareholders/World%20Gym%20company%20presentation_20240829_EN_ver9.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Membership data as of August 2024.",
+      "locator": "Taiwan Competitive Landscape slide, footnote 1.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The presentation reports approximately 450,000 members, not an exact count above 450,000."
+    },
+    {
+      "source_id": "src-1d9d4de9ee908237",
+      "title": "新上市公司：世界健身-KY(2762)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/ff8080818cc7b692018cf223864400e5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "As of the article's publication; exact date not stated in the retrieved page.",
+      "locator": "Opening company description.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States the company had opened more than 118 locations across Taiwan."
+    },
+    {
+      "source_id": "src-f78e3e8264afd80c",
+      "title": "關於World Gym｜全台第一大健身品牌介紹｜World Gym世界健身俱樂部",
+      "url": "https://www.worldgymtaiwan.com/about-us",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Page references 2025; exact effective date for the displayed totals is unstated.",
+      "locator": "“台灣最大上市健身品牌” section; branch-count bullet and “俱樂部總數” metric.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States 145 Taiwan branches in one location and displays 146 total clubs elsewhere on the page."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches located official exchange, issuer-presentation, and company-webpage evidence for the ranking and location threshold. The remaining member-count evidence lacks a clear effective date and counting definition, so that atom remains UNKNOWN.",
+    "市占率排名有官方交易所介紹及公司簡報佐證；簡報揭露的市占率為公司估算，並註明以2023年營收估算。",
+    "公司官網會員總數顯示450,000+，但頁面未標明該數字的有效日期或計數口徑；因此不能據此確認特定時點嚴格超過45萬人。",
+    "公司官網同頁列出145家分店及146家俱樂部，數字不一致，但都支持據點逾100間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2762/475/hermes-attempt-1.stdout.txt"
+}

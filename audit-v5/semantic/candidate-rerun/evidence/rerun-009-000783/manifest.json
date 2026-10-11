@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000783",
+  "claim_id": "1341:objective_ranking_or_market_share:f6b48a6d16324bcd",
+  "normalized_claim_hash": "f6b48a6d16324bcdadf85b04a15eb011a42abf03ff88e3ab30a377441450aa4b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5f62184a7627d9381309",
+      "title": "The Ashley Companies",
+      "url": "https://www.ashleyfurnitureindustriesllc.com/company/ashley-family/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Ashley retail stores section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ashley describes itself as the Number 1 Furniture Retailer in the U.S.; the page does not specify the ranking period or metric."
+    },
+    {
+      "source_id": "src-4a356826501f384a3441",
+      "title": "2023 brings sales woes for vast majority of Top 100 - Furniture Today",
+      "url": "https://www.furnituretoday.com/research-and-analysis/2023-brings-sales-woes-for-vast-majority-of-top-100",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "Making moves section; Furniture Today Top 100 furniture retailers discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Ashley maintained the No. 1 spot in the U.S. furniture-retailer ranking for 2023. The ranking is based on retailer sales."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research stopped after retrieving the issuer's statement and an independent 2023 retailer ranking; no further tool calls were available.",
+    "The original wording does not give a period or define the ranking metric.",
+    "The independent ranking supports largest retailer by sales, not largest furniture manufacturer or a quantified market-share claim.",
+    "The official company statement is undated and does not specify its ranking methodology."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1341/783/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0e4af8c29f6de7a20ab72a9630f431b8d64a3867222ca3da457545b33b67105b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1341/783/isolated-prompt.txt",
+  "prompt_sha256": "8c629b4b099c21711e9d036357af4341c1349a6151b922510b9cca126e13a167",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000783/manifest.json",
+  "supersedes_manifest_sha256": "e7185d7acd97ce14150d9235cd7545a393d8bac9b1230831f0e02b538c4b6afc",
+  "corrected_at": "2026-10-08T09:58:44Z"
+}

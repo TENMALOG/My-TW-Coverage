@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001191",
+  "claim_id": "3531:material_named_relationship:bc1958facad626a3",
+  "normalized_claim_hash": "bc1958facad626a387f00b35ac0882a5788e861c1de7d2cb54aa48660027ba33",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-12564ae668c1a6e2",
+      "title": "先益電子工業股份有限公司及子公司合併財務報告暨會計師查核報告（民國114年及113年度）",
+      "url": "https://www.shianyih.com.tw/wordpress/wp-content/uploads/2026/05/%E5%85%88%E7%9B%8A114Q4_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "Note IV(14), p. 20, lines 785–795",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer states it primarily manufactures backlight modules and related components for sale to small- and medium-size panel, touch, and module manufacturers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused review of the issuer’s audited FY2025/FY2024 consolidated report resolved the general customer-sector statement but not the named-customer identities; further inference from the anonymized customer or from the broad customer category would be unsupported.",
+    "The claim gives no period; the latest reviewed audited issuer report covers FY2025 and FY2024.",
+    "The audited report anonymizes its disclosed major customer as A公司, so it cannot establish whether that customer is either named company.",
+    "The issuer’s general customer-sector description does not by itself verify the named customer relationships."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3531/1191/hermes-attempt-1.stdout.txt"
+}

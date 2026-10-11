@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000303",
+  "claim_id": "4958:objective_ranking_or_market_share:a4361df276711165",
+  "normalized_claim_hash": "a4361df276711165c7c441a4afafb860507690a6babef44d9f26de24a2217895",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a7a81eb5a23acfbd",
+      "title": "Prismark Discovery Series: Global Leading PCB Companies – 2025",
+      "url": "https://www.prismark.com/_files/ugd/950e51_7b4250411feb4f89a9c53d4a8aa5f3dd.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05",
+      "effective_period": "2025年度",
+      "locator": "第2页“Top 100 PCB Fabricators”排名方法说明；第3页“Top 100 PCB Companies in 2025”排名表第1名；第10页关于Zhen Ding维持第1名的说明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Prismark说明榜单按2025年总营收排序；Zhen Ding列示US$5,869 million，排名第1。榜单收入可能包括裸板以外的服务和业务。"
+    },
+    {
+      "source_id": "src-0eadedcf770898d0",
+      "title": "Zhen Ding Achieves Record Revenue in 2025 with Both GM and OPM Expanding; New High-Growth Cycle to Begin in 2026",
+      "url": "https://www.zdtco.com/download/upload2026_03_12220260312113240wfnlv0RgG1pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-12",
+      "effective_period": "2017–2025年度排名",
+      "locator": "正文关于Prismark全球PCB行业营收排名的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "发行人称，根据Prismark全球PCB行业营收排名，臻鼎自2017年至2025年连续九年为全球最大PCB制造商；此为发行人对第三方排名的转述。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得Prismark原始排名报告及发行人对排名的同期披露，足以支持按营收口径的2025年度排名；未继续扩展检索。",
+    "Prismark排名指标为公司总营收；报告说明榜单收入在部分情况下包含组装服务及其他业务，因此不等同于裸板市场销售额或市场份额。",
+    "Prismark的排名范围是其全球前100大PCB制造商榜单；该报告说明公开公司的销售数据采用经审计数据，部分非公开公司数据可能为估算。",
+    "原 claim 未指定排名年度或“最大”的衡量指标；证据直接支持的是2025年度按营收排名第一。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4958/303/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001049",
+  "claim_id": "3511:material_named_relationship:826c97d2708b15c2",
+  "normalized_claim_hash": "826c97d2708b15c23e1e768620768c382341ccfb94c0b113462f81a93b8b84d3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-7cee718afc3dd0a4",
+      "title": "矽瑪科技股份有限公司 2025 年報",
+      "url": "https://simulatechnology.com/wp-content/uploads/%E7%9F%BD%E7%91%AA114%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1_Final.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-30",
+      "effective_period": "2025年度",
+      "locator": "第60頁，業務之主要內容；第76頁，主要產品之重要用途；第61頁，智慧醫療裝置新產品開發計畫",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示醫療設備應用，並舉醫療監測、可攜式醫療裝置及醫療級連接器／線材等。"
+    },
+    {
+      "source_id": "src-41aa5dcbad8afd65",
+      "title": "沾Fitbit的光，矽瑪今年營運力拼五年高峰",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=d6c4c79a-5e72-4e35-8487-460a0a33fee1",
+      "source_level": 2,
+      "publication_date": "2015-07-21",
+      "effective_period": "報導描述2015年及此前約兩年",
+      "locator": "內文；指出矽瑪成為 Fitbit USB 充電線主要供應商，且該產品線當季占矽瑪營收約四至五成",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財經媒體報導；營收比重的分母是矽瑪當季營收，不是 Fitbit 採購額或市場份額。"
+    },
+    {
+      "source_id": "src-24329bb5345134f1",
+      "title": "從early_stage布局，矽瑪(3511)成為Fibit獨家供應商",
+      "url": "https://pchome.megatime.com.tw/column/sto11/20161109/147867749352.html",
+      "source_level": 2,
+      "publication_date": "2016-11-09",
+      "effective_period": "報導稱2015年取得供應商地位",
+      "locator": "內文第51–52段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "投資專欄依董事長訪談報導矽瑪為 Fitbit 線材與連接器供應商；屬次級來源。"
+    },
+    {
+      "source_id": "src-2a2fb6b006ada21c",
+      "title": "矽瑪短期營運受限經濟規模，車用布局待長期關注",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=%7B67233422-dc55-4eb8-8e39-c8ffc5ab9b45%7D",
+      "source_level": 2,
+      "publication_date": "2018-05-09",
+      "effective_period": "截至2018年5月報導時",
+      "locator": "內文第46段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 OBD2 車載自動診斷產品已有小量交車廠。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "原子主張均找到直接或可追溯的佐證，研究已完成；歷史 Fitbit 供應關係依次級報導支持，保留供最終裁定。",
+    "最新核對的公司年報為2025年報，刊印日期為2026-03-30；年報將應用明細定義為連接器、線材及相關零組件的用途。",
+    "Fitbit供應關係由2015–2016年次級媒體報導支持，並非最新公司年報具名揭露；可支持特定線材／連接器供應關係，不宜擴張為 Fitbit 全品項供應關係。",
+    "2025年報把車用、醫療及工業合併列為一項營收類別，因此不能單靠該類別拆算車用或醫療各自的營收。",
+    "OBD 的近期年報依據是產品開發計畫；實際小量交貨的佐證來自2018年次級報導。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3511/1049/hermes-attempt-1.stdout.txt"
+}

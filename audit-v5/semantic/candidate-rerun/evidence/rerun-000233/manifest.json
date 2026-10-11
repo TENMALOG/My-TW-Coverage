@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000233",
+  "claim_id": "6592:objective_ranking_or_market_share:2860da8fae309c7a",
+  "normalized_claim_hash": "2860da8fae309c7a5a416ae1bd7473d4d455d306fc379342072571e775778d8e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2e19ccee1fcfeea3",
+      "title": "和潤企業股份有限公司｜企業介紹",
+      "url": "https://okwork.gov.taipei/act/company/16844548/profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1999年成立",
+      "locator": "「公司介紹」第二句",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載明「自1999年成立至今」。"
+    },
+    {
+      "source_id": "src-a514bbcf4246dbeb",
+      "title": "董事長的話 - 和潤企業 ESG專區",
+      "url": "https://esg.hfcfinance.com.tw/zh-tw/content/41",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年（頁面敘述2025年營運，稱車輛分期市場領先21年）",
+      "locator": "「董事長的話」首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人自述車輛分期市場領先21年；屬公司自述，未列市佔數值、分母或「非銀行金融機構」範圍。"
+    },
+    {
+      "source_id": "src-2a7ff8349026204a",
+      "title": "和潤企業20週年 預計7月送件申請上市",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=0&nsl_id=03a1fe5e2b1a4f2d8a6c145a3ac48d5b",
+      "source_level": 2,
+      "publication_date": "2019-06-24",
+      "effective_period": "報導稱自2004年起穩居全國汽車金融市場第一",
+      "locator": "報導中段「和潤表示」及其後段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導中的歷史性排名說法；未界定非銀行金融機構、租賃市場或市佔率分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人及政府公司介紹、發行人ESG資訊與相關媒體報導；精確排名口徑及其分母仍無可靠證據，故停止並將該原子維持為UNKNOWN。",
+    "集團旗下關係與1999年成立年份見於台北市政府人力銀行的公司介紹；頁面未提供原始登記文件或發布日期。",
+    "車輛分期領先排名主要是發行人自述及媒體報導的相近表述，不等同於獨立驗證的市佔率排名。",
+    "未找到可確認競爭者範圍、車輛分期與租賃定義、排名期間及市佔率分母的來源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6592/233/hermes-attempt-1.stdout.txt"
+}

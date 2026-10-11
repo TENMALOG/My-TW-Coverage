@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-10-10T01:56:36.837580+00:00",
+  "complete": true,
+  "candidate_rerun": {
+    "requested": 1283,
+    "effective": 1283,
+    "verdicts": {
+      "PARTIAL": 1029,
+      "UNKNOWN": 114,
+      "CANDIDATE_ACCEPTED": 140
+    },
+    "verified_execution_bindings": 1283,
+    "metadata_corrections": 1232,
+    "supplemental_research": 52
+  },
+  "strong_adjudication": {
+    "original": {
+      "frozen": true,
+      "queued": 111,
+      "reviewed": 111,
+      "remaining": 0,
+      "verdicts": {
+        "UNSUPPORTED": 2,
+        "PARTIALLY_SUPPORTED": 95,
+        "PERIOD_UNRESOLVED": 3,
+        "ACCEPTED": 10,
+        "UNKNOWN_AFTER_RESEARCH": 1
+      }
+    },
+    "candidate": {
+      "frozen": true,
+      "queued": 140,
+      "reviewed": 140,
+      "remaining": 0,
+      "verdicts": {
+        "ACCEPTED": 18,
+        "PARTIALLY_SUPPORTED": 112,
+        "PERIOD_UNRESOLVED": 6,
+        "UNKNOWN_AFTER_RESEARCH": 4
+      }
+    }
+  },
+  "accepted_model_and_capture_gate": 28,
+  "accepted_with_primary_source_review": 28,
+  "rewrite_proposals": 1491,
+  "consolidated_scope": 1394,
+  "outside_requested_scope": {
+    "UNSUPPORTED": 2,
+    "SOURCE_UNAVAILABLE": 3
+  },
+  "protected_integrity": {
+    "checked_at": "2026-10-10T01:56:34.656745+00:00",
+    "baseline_sha256": "10a58eae928c6d877b7b1eeca246de2e0d75d254f298ea13257c59b01931f1ab",
+    "protected_count": 7361,
+    "mismatches": []
+  },
+  "blocking_issue_count": 0,
+  "reports_and_author_ledgers_modified": false,
+  "notes": [
+    "Counts use latest append-only result per identity.",
+    "UNKNOWN and PARTIAL are successful research outcomes.",
+    "Supported rewrites remain proposals, never final acceptance of the original."
+  ]
+}

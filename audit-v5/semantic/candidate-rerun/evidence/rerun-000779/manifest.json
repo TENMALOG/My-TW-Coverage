@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000779",
+  "claim_id": "6561:objective_ranking_or_market_share:e4ab212b6a0af4ad",
+  "normalized_claim_hash": "e4ab212b6a0af4ad876f07b99e2033ca4ad8459fba792cfebd182930805b285d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-02eff736318148a0",
+      "title": "是方電訊股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=1684ce78-e7e2-4e16-95da-8ce07a32a53e",
+      "source_level": 2,
+      "publication_date": "2026-07-24（頁面更新日期）",
+      "effective_period": null,
+      "locator": "產品與競爭條件—重要原物料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有採購設備品項，但未明確界定供應商為機房設備廠。"
+    },
+    {
+      "source_id": "src-75a5b283ff99f700",
+      "title": "Environmental Protection — Chief Telecom",
+      "url": "https://en.chief.com.tw/esg/environment",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "電力使用與LY2機房說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面提及機房用電、能源效率及LY2綠建築設計；這些資訊本身不能證明有綠電供應商或其供應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依使用者指示，在工具呼叫迭代次數已達上限後停止研究；尚未解決的供應商身分與供應範圍維持UNKNOWN。",
+    "支持租用與採購細節的來源為MoneyDJ公司資料頁，屬二級來源，並非是方或監管機關的原始披露。",
+    "是方官方環境頁面提及機房用電與綠建築設計，但未確認綠電供應商或採購關係。",
+    "原主張未指定期間、供應商名單或上游分類依據；查得資料也未提供數量或單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6561/779/hermes-attempt-1.stdout.txt"
+}

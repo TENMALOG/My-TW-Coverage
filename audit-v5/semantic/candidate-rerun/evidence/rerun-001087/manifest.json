@@ -1,0 +1,108 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001087",
+  "claim_id": "6577:material_named_relationship:f31c724d57d9cdc3",
+  "normalized_claim_hash": "f31c724d57d9cdc30875d06bb6e01e6751d7c4c18fdf988e9844a001db1199dd",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4e5b5aa13e63532d",
+      "title": "醫院用觸控顯示控制器",
+      "url": "https://www.promate.com/cht/modern-touchscreen-console-hospitals/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "系統需求、應用環境",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "案例提及醫療規範及 EMI/EMC 要求，但未提 IEC 60601。"
+    },
+    {
+      "source_id": "src-89550f1d36a9a62f",
+      "title": "2024 勁豐電子永續報告書",
+      "url": "https://www.promate.com/wp-content/uploads/2024-Promate-PSC-ESG-Report-C.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "公司概況、主要產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明醫療用觸控顯示器，並舉超音波顯示器、醫院用觸控顯示控制器為醫療設備例子。"
+    },
+    {
+      "source_id": "src-f32f6d2b75122c88",
+      "title": "關於勁豐",
+      "url": "https://www.promate.com/cht/about-psc/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "勁豐簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列明主要產品包含醫療用觸控顯示器。"
+    },
+    {
+      "source_id": "src-0c5f884fecedee4f",
+      "title": "醫療顯示器應用－機構設計最佳化",
+      "url": "https://www.promate.com/cht/mechanical-optimization-medical-ultrasound-monitor/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "專案需求、解決方案",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司描述為醫療器材品牌開發超音波機顯示器模組，未稱為手術室顯示器。"
+    },
+    {
+      "source_id": "src-7d1c57b12c807cda",
+      "title": "供應商管理政策",
+      "url": "https://www.promate.com/cht/supplychain-management/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "國際認證證書",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出 ISO 13485 系統認證等證書，未列 IEC 60601 產品認證或測試結果。"
+    },
+    {
+      "source_id": "src-2b87dd85276711a7",
+      "title": "豐藝電子與勁豐電子正式通過 ISO 50001 能源管理系統國際驗證",
+      "url": "https://www.promate.com/cht/news-20251205/",
+      "source_level": 3,
+      "publication_date": "2025-12-05",
+      "effective_period": null,
+      "locator": "關於豐藝電子與勁豐電子；勁豐電子段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱勁豐是數家歐美知名大廠的長期合作夥伴，未指明為醫療設備整合商或限定於醫療產品。"
+    },
+    {
+      "source_id": "src-f64c220c924a85b4",
+      "title": "2024 年度勁豐電子 TCFD 氣候相關財務揭露報告書",
+      "url": "https://www.promate.com/wp-content/uploads/2024-Promate-Solutions-TCFD-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "客戶要求相關揭露",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱勁豐主要客戶為歐美品牌商；未說明這些客戶是醫療設備系統整合商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成4輪聚焦查找。官方資料足以支持一般醫療觸控顯示器業務，但產品細項、指定標準的產品認證及客戶類型仍缺乏可核實證據；未以近似資料填補，未解原子維持 UNKNOWN。",
+    "醫療用觸控顯示器是公司產品線揭露；不能據此推定特定終端產品型號或臨床用途。",
+    "公司所列 ISO 13485 為品質管理系統認證，與特定產品取得 UL 或符合 IEC 60601 的證據不同。",
+    "歐美客戶或品牌合作的揭露未必指醫療業務，也未確認客戶屬系統整合商。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6577/1087/hermes-attempt-1.stdout.txt"
+}

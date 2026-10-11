@@ -1,0 +1,100 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000001",
+  "claim_id": "2634:objective_ranking_or_market_share:e67d02d2c01641ea",
+  "normalized_claim_hash": "e67d02d2c01641ea5610a90e727bc8e37baac30373f69da803d1c6f64a06bf58",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-18b42af1ab755620d17d",
+      "title": "Ye Fong Aluminium | Aluminum Alloy Wire/Rod, Bar, Tube, Plate mill in Taiwan",
+      "url": "https://ye-fong.com/zh/%E9%A6%96%E9%A0%81/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁標題及首段；熱軋鋁板段落列明符合 AMS-2154 的航太級材料。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "燁鋒官方網站，直接支持其航太級鋁合金材料製造商身分；屬公司自述。"
+    },
+    {
+      "source_id": "src-138ef4c1eb123cce59b1",
+      "title": "台灣無人機供應鏈現況與安全盤點",
+      "url": "https://indsr.org.tw/uploads/indsr/files/202211/39fe576c-56e1-454e-90c4-f3932effec65.pdf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022年報告",
+      "locator": "「貳、無人機供應鏈能力盤點分析」中「一、飛具設計與機體結構」段落，稱燁鋒為航太級鋁合金廠商，並提及中科院及漢翔向其購買原料。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第三方研究報告支持其航太級鋁合金供應商身分；未評估燁鋒的亞洲市場排名或全製程範圍。"
+    },
+    {
+      "source_id": "src-6670dda1f7ff53044796",
+      "title": "Ye Fong Aluminium | Aluminum Alloy Wire/Rod, Bar, Tube, Plate mill in Taiwan",
+      "url": "https://ye-fong.com/zh/%E9%A6%96%E9%A0%81/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁首段：「亞洲唯一同時具有航太級鋁板、鋁管、鋁棒、熱軋鋁盤元線材全製程能力」；其後列出相關設備及產品。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方自述，直接支持其所稱的產品類別及全製程能力；非獨立稽核或同業比較。"
+    },
+    {
+      "source_id": "src-56eb28578339d318296b",
+      "title": "Ye Fong Aluminium | Aluminum Alloy Wire/Rod, Bar, Tube, Plate mill in Taiwan",
+      "url": "https://ye-fong.com/zh/%E9%A6%96%E9%A0%81/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁首段的「亞洲唯一」陳述。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "來源是公司自身主張，未提供區域比較依據、競爭者母體或唯一性的判定方法；不足以獨立證實此排他性結論。"
+    },
+    {
+      "source_id": "src-f71488595c2e7394f3f2",
+      "title": "台灣無人機供應鏈現況與安全盤點",
+      "url": "https://indsr.org.tw/uploads/indsr/files/202211/39fe576c-56e1-454e-90c4-f3932effec65.pdf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022年報告",
+      "locator": "「貳、無人機供應鏈能力盤點分析」中「一、飛具設計與機體結構」段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持燁鋒為航太級鋁合金供應商，但沒有亞洲唯一或全製程同業比較，故不解決唯一性原子。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查核燁鋒官方網站及第三方研究資料，並搜尋漢翔年報與中英文唯一性相關資料；現有證據支持製造商身分及公司自述的產品／製程能力，但沒有獨立的亞洲同業比較來驗證唯一性，故該原子保留 UNKNOWN。",
+    "核心的產品範圍、全製程及亞洲唯一說法來自燁鋒官方網站；該網站是直接來源，但對唯一性屬利害關係方自述。",
+    "第三方國防安全研究院報告支持燁鋒是航太級鋁合金供應商，並提到漢翔採購，但不支持亞洲唯一或四類產品全製程能力。",
+    "未找到界定亞洲市場、競爭者母體、產品範圍與比較期間的獨立資料；不得把公司自述視為已完成市場比較。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2634/1/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "d408a83fef815b944dc5fb5035155717ac43327b2588ce2039c76127324a06b1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2634/1/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "8b272af9cb25655f2010c169c61e38234dd49f57ec5d4e8aae62073c85bf7c64",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

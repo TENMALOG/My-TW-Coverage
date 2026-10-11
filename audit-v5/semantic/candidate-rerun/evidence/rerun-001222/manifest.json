@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001222",
+  "claim_id": "4768:material_named_relationship:6ba5812c869fefaf",
+  "normalized_claim_hash": "6ba5812c869fefaf4a7a8bc87147ccbfb39d32312cea2c0c0b0ecddbc31a5fcc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8aca9eedcaac3a94",
+      "title": "晶呈科技2025年報",
+      "url": "https://www.ingenteccorp.com.tw/Uploads/Images/%E6%99%B6%E5%91%882025%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024及2025年度",
+      "locator": "第78至79頁，主要銷貨客戶名單及變動說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "以匿名代碼列示客戶銷售額、銷貨淨額占比及部分客戶類別，未公開 C016 或 C022 的公司名稱。"
+    },
+    {
+      "source_id": "src-0e12d66aa6eb93a6",
+      "title": "晶呈科技法說會簡報檔-20220608",
+      "url": "https://www.ingenteccorp.com.tw/uploads/images/%E6%99%B6%E5%91%88%E7%A7%91%E6%8A%80%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E6%AA%94-20220608.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年簡報",
+      "locator": "第20頁，特殊氣體品項表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "HF 出現在品項表，但表格對其產品歸屬或供貨狀態的界定不足。"
+    },
+    {
+      "source_id": "src-1b465a15fe6e7765",
+      "title": "晶呈科技法說會簡報檔-20251223",
+      "url": "https://www.ingenteccorp.com.tw/uploads/images/%E6%99%B6%E5%91%88%E7%A7%91%E6%8A%80%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E6%AA%94-20251223.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-23",
+      "effective_period": "2025年第一至第三季",
+      "locator": "特殊氣體應用營收表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "按黃光、蝕刻、薄膜、擴散分類列示特殊氣體應用營收。"
+    },
+    {
+      "source_id": "src-c59b0f0a754553ed",
+      "title": "晶呈科技法說會簡報檔-20220609",
+      "url": "https://www.ingenteccorp.com.tw/uploads/images/20220609%E6%A5%AD%E7%B8%BE%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1%E6%AA%94.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年簡報",
+      "locator": "公司簡介／特殊氣體應用領域頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱產品應用於半導體黃光、蝕刻、薄膜、擴散／離子植入及設備清洗製程。"
+    },
+    {
+      "source_id": "src-b82f5ba1355f2fb3",
+      "title": "晶呈強攻Micro LED面板",
+      "url": "https://www.unlistedstock.com.tw/news/detail/19265047",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "網頁第98至100行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面稱晶呈是聯電指定材料供應商，但標示資料來源為 None，故僅作為未核實線索。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2025年報、公司投資人簡報及產品資料，並搜尋具名客戶關係。產品與製程應用部分可核實；對匿名客戶的具名對應及HF目前供貨狀態仍缺乏可靠證據，故保留為UNKNOWN並停止查核。",
+    "年報客戶代碼匿名化，不能將國內晶圓代工大廠等描述自行對應至台積電或其他特定公司。",
+    "二手頁面提及台積電、聯電供應關係，但未列出可核驗的資料來源或有效期間；Micron 未找到相應證據。",
+    "F2 的正式披露主要是 F2 混合氣，不等同於純 F2；HF 在舊簡報品項表中的列示也不足以證明其目前銷售狀態。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4768/1222/hermes-attempt-1.stdout.txt"
+}

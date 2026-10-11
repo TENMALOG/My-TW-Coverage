@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001086",
+  "claim_id": "6246:material_named_relationship:dfe971c03747a12f",
+  "normalized_claim_hash": "dfe971c03747a12f21321980dd86b0a72c1e150bb58a99402e171a0c30c4457e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-888616a2e7ad9939",
+      "title": "臺龍電子顯示器零部件事業體",
+      "url": "https://www.tai-lon.com/DisplayComponentsBusinessUnit.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行官網內容；截至2026-10-07查閱，頁面未標日期",
+      "locator": "頁面首段及主要產品應用介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明列工控顯示器應用。"
+    },
+    {
+      "source_id": "src-4ed0598a7b4ce716",
+      "title": "臺龍電子股份有限公司112年報（2023年度）",
+      "url": "https://www.tai-lon.com/proimages/investors/04_Shareholders/04_AnnualReport/1130614-%E8%87%BA%E9%BE%8D_112%E5%B9%B4%E5%A0%B1_0613.pdf",
+      "source_level": 3,
+      "publication_date": "2024-06-14",
+      "effective_period": "2023年度",
+      "locator": "年報第72頁，公司目前之商品項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出工業控制等產品應用。"
+    },
+    {
+      "source_id": "src-e9620037fa9f9099",
+      "title": "臺龍電子股份有限公司111年報（2022年度）",
+      "url": "https://www.tai-lon.com/proimages/investors/04_Shareholders/04_AnnualReport/20230609%E8%87%BA%E9%BE%8D_111%E5%B9%B4%E5%A0%B1_0608--.pdf",
+      "source_level": 3,
+      "publication_date": "2023-06-09",
+      "effective_period": "2022年度",
+      "locator": "年報第188頁，銷貨集中風險及主要客戶段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列瀚宇彩晶、群創及和碩為主要客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方產品頁及相關年度年報並核對客戶與應用的範圍差異；直接供貨對象及友達／群創與背光模組的具體客戶關係仍缺少可確認的直接披露，故保留為 UNKNOWN。",
+    "客戶名單與產品應用披露的期間並不一致：客戶證據為2022年度年報，應用證據為2023年度年報，不能直接視為目前客戶結構或目前全部應用。",
+    "2022年度年報將群創列為公司主要客戶，但沒有在該名單中明確說明其採購的是背光模組；友達則出現在車載前裝屏的玻璃廠對接名單，不等於背光模組客戶。",
+    "年報中的應用清單沒有提供各應用的銷售額、營收占比或數量分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6246/1086/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,4 @@
+/* 表格在窄螢幕內自行橫向捲動，不撐開整頁 */
+main table { display: block; max-width: 100%; overflow-x: auto; }
+main table th, main table td { white-space: nowrap; }
+main table td:last-child, main table th:last-child { white-space: normal; min-width: 12em; }

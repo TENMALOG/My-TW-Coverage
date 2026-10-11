@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000897",
+  "claim_id": "4551:material_named_relationship:b6f8121b43142228",
+  "normalized_claim_hash": "b6f8121b4314222854bc23ffdd435fbba46a559064524683ec60ab7cf07c9160",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-97205cf13eea759a",
+      "title": "智伸科分散客戶、應用，受單一品牌事件衝擊相對小",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=12776d9f-d018-418f-b841-946cc6fac735",
+      "source_level": 2,
+      "publication_date": "2015-09-25",
+      "effective_period": "報導所述當時",
+      "locator": "內文列出 Bosch、Continental、Cummins、BorgWarner、Delphi 為汽車客戶。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持五家公司曾為汽車客戶；未列 ZF。"
+    },
+    {
+      "source_id": "src-00713300a0e81456",
+      "title": "Global PMX 4551 TT — Yuanta Research",
+      "url": "https://www.scribd.com/document/658566741/global-pmx-4551-tt-yuanta-sc200908-c-ycmc",
+      "source_level": 2,
+      "publication_date": "2020-09-08",
+      "effective_period": "報告列示的歷史 OEM 資訊",
+      "locator": "報告「終端 OEM 車廠」清單列出 BMW。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "屬研究報告中的歷史列示，未提供 BMW 直接採購或目前供應狀態的官方證明。"
+    },
+    {
+      "source_id": "src-5df8a19e27bb61dc",
+      "title": "智伸科技股份有限公司 110 年年報",
+      "url": "https://www.global.com.tw/wp-content/uploads/2022/09/110%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021 年",
+      "locator": "年報提及公司為 Tesla 散熱相關零組件全球廠區獨家供應業者。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報的一手披露；支持特定零組件供應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；Tier 1 名單及 BMW、Tesla 有歷史資料支持，但沒有找到足以確認目前完整客戶名單或 Stellantis 關係的可靠證據，故未將缺證視為反證。",
+    "主要 Tier 1 名單的支持主要來自媒體報導與研究報告，並非涵蓋所有客戶的公司當期官方披露。",
+    "來源涵蓋不同歷史期間；不能將歷史客戶名單視為目前主要客戶名單。",
+    "研究報告的線上副本由 Scribd 承載；其內容標示為元大投顧報告。",
+    "FCA 的歷史列示不等同於本案所稱 Stellantis 關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4551/897/hermes-attempt-1.stdout.txt"
+}

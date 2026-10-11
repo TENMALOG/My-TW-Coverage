@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001169",
+  "claim_id": "8937:profitability_assertion:584212137d4bc8f8",
+  "normalized_claim_hash": "584212137d4bc8f8b56e1922d23c7e0f76034aec764d514ba299abf08bdceaf3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-46490e87a92974a1",
+      "title": "合騏工業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/wikiviewer.aspx?keyid=4d203d60-4853-4ddd-a4a2-58093ee02d91",
+      "source_level": 2,
+      "publication_date": "2024-11-26",
+      "effective_period": "2023年度",
+      "locator": "公司各項產品營業比重",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料報導ATV約占58%，並列機車、其他車種及零件、投資收入占比。"
+    },
+    {
+      "source_id": "src-27c454f2ecb5768f",
+      "title": "8937 合騏* 年報查詢 - 歷年年報PDF下載・營收分布・致股東報告書｜Treelazy",
+      "url": "https://treelazy.com/stock/8937",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度年報對2026年營運的展望",
+      "locator": "致股東報告及未來公司發展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載年報內容稱，旗下WTIV與SOV將於2026年投入離岸風電海事工程及風機運維服務；這是計畫與展望，不是已實現收入證據。"
+    },
+    {
+      "source_id": "src-2ba47c6e503a2c5b",
+      "title": "合騏*（8937.TW）個股公告 - Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/quote/8937.TW/announcement",
+      "source_level": 2,
+      "publication_date": "2026-07-20",
+      "effective_period": "租期為2026年第三至第四季",
+      "locator": "代子公司公告與國內某公司簽訂離岸風電維運船（SOV）定期租船契約",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載公司公告：契約未稅總額約新台幣2.29億元，公告稱對未來業務與獲利有正面效益；未披露截至查詢日已認列的收入或獲利貢獻。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成聚焦查詢後，ATV營收組合占比的披露端點支持2023至2025年下降；離岸風電的已查資料支持業務布局與簽約，但未解決實際增長貢獻，故該原子主張保留UNKNOWN。",
+    "ATV占比比較使用二手來源轉載的2023年組合數據及二手頁面轉載的2025年年報數據；TWSE年報PDF連結可見，但本次無法直接讀取PDF內容。",
+    "兩期資料均為公司營收組合類占比，非ATV銷量占比；未查得可逐年確認占比變化的完整序列。",
+    "離岸風電的年報內容為營運展望，租約公告為簽約資訊；未取得可確認實際履約、收入確認及其對公司增長貢獻的資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8937/1169/hermes-attempt-1.stdout.txt"
+}

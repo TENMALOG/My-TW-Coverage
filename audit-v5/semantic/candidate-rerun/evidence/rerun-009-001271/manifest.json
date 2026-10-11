@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001271",
+  "claim_id": "9908:material_named_relationship:73633ab28e6947bb",
+  "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8bb358590587dca462cb",
+      "title": "本市公用事業整體概況（114年度）",
+      "url": "https://doed.gov.taipei/News_Content.aspx?n=FFDD2263370B2CDE&s=C1A2065958711322&sms=6EE66BCA6E3E7D7B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "114年度（2025年）",
+      "locator": "公用天然氣事業暨水電等承裝業登記輔導管理概況；一、輔導各瓦斯公司營運及安全管理；(一)普及供應家庭用天然瓦斯，第1項；第287–300行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明列大台北區瓦斯及其他三家業者，稱其氣源皆向台灣中油購進；同段列出大台北114年度供氣戶數。"
+    },
+    {
+      "source_id": "src-fb9d1a1d4537fd6b7b6c",
+      "title": "本市公用事業整體概況（114年度）",
+      "url": "https://doed.gov.taipei/News_Content.aspx?n=FFDD2263370B2CDE&s=C1A2065958711322&sms=6EE66BCA6E3E7D7B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "114年度（2025年）",
+      "locator": "公用天然氣事業暨水電等承裝業登記輔導管理概況；一、輔導各瓦斯公司營運及安全管理；(一)普及供應家庭用天然瓦斯，第1項；第287–300行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "「其氣源皆向台灣中油股份有限公司購進」；範圍為臺北市公用天然氣分區供應，不是全臺灣天然氣市場。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得臺北市政府產業發展局對114年度公用天然氣業者及氣源的直接資料，足以支持限定於該供應範圍的原主張。",
+    "證據支持的是臺北市公用天然氣供應範圍；不能外推為中油是全臺灣天然氣市場或所有用途的獨家供應者。",
+    "來源描述採購來源，未提供大台北個別採購量、比例或供應合約明細。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9908/1271/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "565566dd3b8e5e263705f09f38be4610b112098ccb3c0712433f1666f6d87c33",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9908/1271/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "d7bd06be6f541e99280d92d9deb5fae5d4c9317f0f4757fb6d1391944ec2a92d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001271/manifest.json",
+  "supersedes_manifest_sha256": "54c042e52757e7e2fbf70d8e0696789e738c11292834ba8f16bf83ed877d17e7",
+  "corrected_at": "2026-10-08T09:59:37Z"
+}

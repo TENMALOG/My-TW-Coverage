@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000715",
+  "claim_id": "1583:objective_ranking_or_market_share:25159825fab9a7d1",
+  "normalized_claim_hash": "25159825fab9a7d126cd8d29ddce3823f66bf3d8536ece5088d7456fefe9f461",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9fd18084c3a0088189fb",
+      "title": "公司簡介 - 程泰機械",
+      "url": "https://www.goodwaycnc.com/zh-tw/company/profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「產品優勢」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱每台標誌 GOODWAY 品牌的工具機皆由程泰自行研發與製造。"
+    },
+    {
+      "source_id": "src-d4a0bbb54fda051c8ceb",
+      "title": "程泰機械股份有限公司",
+      "url": "https://www.goodwaycnc.com/zh-tw/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司資訊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示股票代號 1583.TW。"
+    },
+    {
+      "source_id": "src-dbaf080534d0ab9a5c96",
+      "title": "公司簡介 - 程泰機械",
+      "url": "https://www.goodwaycnc.com/zh-tw/company/profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「公司簡介 > 行銷全球的工具機品牌」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方原文：「程泰機械成立於 1975 年，為台灣最具規模的 CNC 車床製造商之一。」同頁說明 GOODWAY 品牌工具機由程泰製造。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到現行官方繁體中文公司簡介，直接支持排名措辭及 GOODWAY 品牌與程泰的製造關係；未發現能量化或獨立驗證排名的資料，因此將排名依據限制明確列為來源 caveat。",
+    "主要證據為公司官方自述，沒有獨立市場排名或市占率資料佐證。",
+    "官方頁面未交代「規模」指營收、產量、出貨量或其他指標，也未提供比較期間、比較對象數量或單位。",
+    "官方公司簡介未標示發布日期或該排名描述的適用期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1583/715/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6f4008fe3cb85c112ccd17e7213bf5192dbb07e7009cf651d49337cc8813a31b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1583/715/isolated-prompt.txt",
+  "prompt_sha256": "ff2969aac851e0ec3e034af8af029cc7ee69b1c92707909816fe0e2f30c31e38",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000715/manifest.json",
+  "supersedes_manifest_sha256": "fa61a5250713c2a074b101996dcae5cc01adc6c2247b9ef8bd43a937379fbd66",
+  "corrected_at": "2026-10-08T09:58:37Z"
+}

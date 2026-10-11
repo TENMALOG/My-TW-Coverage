@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000882",
+  "claim_id": "1587:material_named_relationship:d2dca4718073d632",
+  "normalized_claim_hash": "d2dca4718073d6320a26988f2bf5d34a7f88f72cea86c697b179008146ddf014",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-60392e5c0bd967e1",
+      "title": "吉茂AI伺服器水冷系統零件已小量出貨 明年營收貢獻可達1成",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5181713",
+      "source_level": 2,
+      "publication_date": "2025-09-17",
+      "effective_period": "預測2026年",
+      "locator": "正文第70至72行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持約一成的管理層預測，未提供「超過10%」或放量速度的數據。"
+    },
+    {
+      "source_id": "src-eabacb599b110c46",
+      "title": "AI 伺服器散熱解決方案",
+      "url": "https://www.cryomaxcooling.com/cht/ai-cooling-solution.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第53至57行及第127至150行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明液冷方案及客製、模具等能力，但未建立原 claim 所述技術與切入供應鏈之因果關係。"
+    },
+    {
+      "source_id": "src-7f7e888b7f0da7aa",
+      "title": "5/6 早盤獵報：切入水冷股價續熱！吉茂1587亮燈漲停！",
+      "url": "https://cmnews.com.tw/article/cmoney-f4af1de7-d95d-11ef-902c-548f75901e67",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "正文「吉茂(1587)」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文中以「市場傳出」描述CDU板式熱交換器，屬傳聞而非公司確認。"
+    },
+    {
+      "source_id": "src-91396cf9281b6a5d",
+      "title": "吉茂：墨西哥廠拚年底損平；水冷已過認證小量出貨",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=4acfe5b8-92bc-40e8-bfbe-aaa0178137c9",
+      "source_level": 2,
+      "publication_date": "2025-09-17",
+      "effective_period": "預測2026年",
+      "locator": "AI伺服器水冷零件相關業務段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱明年占比有機會達1成；屬管理層展望。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官網與法說資料、同期媒體管理層引述、具名客戶/產品傳聞及2026年實際占比的聚焦查核；剩餘關鍵原子缺少可核實的客戶、產品或實際營收占比披露，故保留UNKNOWN。",
+    "2%至3%及2026年約一成的數字來自媒體對董事長談話的轉述，不是公司財報中可獨立核對的AI水冷產品營收明細。",
+    "「整體營收」是報導所述分母，但2%至3%的具體計算期間未披露。",
+    "吉茂官網可支持其液冷方案布局，不能單獨證明具名客戶、特定零件或特定專案。",
+    "北美客戶不等於廣達；公開資料未確認廣達GB200關係，未確認不代表已證明不存在。",
+    "管理層對2026年的預測不是2026年實際業績；「約一成」也不能直接改寫為已達10%以上。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1587/882/hermes-attempt-1.stdout.txt"
+}

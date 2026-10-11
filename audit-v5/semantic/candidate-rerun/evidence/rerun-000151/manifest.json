@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000151",
+  "claim_id": "3596:objective_ranking_or_market_share:f3bf92f9c38ba724",
+  "normalized_claim_hash": "f3bf92f9c38ba72455f1baeaefc479e9e59fb07bdabd6ff0c55d468e8240e490",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9c7440e966b9f067",
+      "title": "Arcadyan Technology Corporation 2024 Annual Report",
+      "url": "https://www.arcadyan.com/media/investor/shm/annual-report/2024_Annual_Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "Letter to Shareholders, pp. 1–2, Progress in Research and Development, item (III)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出76GHz–80GHz Automotive Blind Spot Detection radar system的開發項目。"
+    },
+    {
+      "source_id": "src-8d4707a1779633d9",
+      "title": "關於智易 - 智易科技",
+      "url": "https://www.arcadyan.com/zh-hant/about-us/arcadyan/philosophy/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱「智易科技成立於2003年，隸屬仁寶集團」。"
+    },
+    {
+      "source_id": "src-ed433ee75c57b58b",
+      "title": "智易科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ff8e0dd4-e0bf-42e7-9ad6-ac443023f47d",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介／沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱智易已發展為全球最大IAD製造商、市佔率超過二成；頁面未提供該排名的基準期間、定義、分母或可追溯資料來源。"
+    },
+    {
+      "source_id": "src-1b17cd460def7f5c",
+      "title": "全球最大 IAD 供應廠 智易 (3596)：迎美國高成長，越南二廠投產，產能增 100%",
+      "url": "https://cmnews.com.tw/article/stockmantalk-e37846c4-d8cb-11ef-b890-2981aea3404e",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "文中營運討論涉及2022年第四季及2023年展望",
+      "locator": "「全球最大 IAD 供應廠」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "投資文章重述全球最大及全球市佔率超過20%的說法，但沒有提供排名研究、明確排名期間或市佔率計算分母；不足以證實未限定期間的排名。"
+    },
+    {
+      "source_id": "src-33e79bc4b515b5cc",
+      "title": "Automotive Solutions - Arcadyan",
+      "url": "https://www.arcadyan.com/en-us/solutions/idea/automotive",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段及產品清單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱車用產品包括77GHz/79GHz Radar，並列出雷達及車用連網方案。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核智易官方公司簡介、FY2024年報、官方解決方案頁及排名說法的次級來源；未找到定義與期間明確的可靠資料驗證全球最大IAD製造商排名，因此該原子維持UNKNOWN。",
+    "「全球最大 IAD 製造商」僅見於缺乏可追溯排名依據的次級描述；排名期間、市場定義及衡量分母均未明，不能延伸為當前排名。",
+    "FY2024年報支持的是當年度產品／研發披露，不等於各項產品的營收、出貨量或市佔率證據。",
+    "官方汽車解決方案頁未標示發布日期；其內容支持車用雷達產品描述，但不能單獨建立特定年度的銷售規模。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3596/151/hermes-attempt-1.stdout.txt"
+}

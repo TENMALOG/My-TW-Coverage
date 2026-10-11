@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000596",
+  "claim_id": "3141:objective_ranking_or_market_share:65a03ef2f2732bd5",
+  "normalized_claim_hash": "65a03ef2f2732bd55b502fd2ab45bbf1e844ca331433f057e96f933d2fcec170",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-af7bc96999a2b159161e",
+      "title": "晶宏半導體股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=de9c21e6-aa31-4b93-96f1-41262edda88c",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「銷售狀況」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱電子紙驅動 IC 客戶包括元太；未提供客戶排名、排名期間或營收占比。"
+    },
+    {
+      "source_id": "src-9a312eb55e8d2e6fa43b",
+      "title": "晶宏半導體股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=de9c21e6-aa31-4b93-96f1-41262edda88c",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「銷售狀況」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及元太為電子紙驅動 IC 客戶，但沒有客戶排序或排名所需的期間與分母。"
+    },
+    {
+      "source_id": "src-e2f0d0a8596943f36276",
+      "title": "晶宏 114 年報（英文版）",
+      "url": "https://www.ultrachip.com/images/epost/%E6%99%B6%E5%AE%8F-114%E5%B9%B4%E5%A0%B1-EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "摘錄提及 2024 年營運結果",
+      "locator": "搜尋結果摘錄中的 2024 operating results",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "已取得的摘錄描述電子紙產品出貨量與營收變化，未提供客戶排名；不足以判定完整年報是否另有相關揭露。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達八次 focused research calls 的上限；最大客戶排名仍缺乏可核實證據，依任務限制停止。",
+    "客戶關係證據來自二手公司資料，並非晶宏對客戶排名的官方明確揭露。",
+    "未找到能確認最大客戶排名的期間、衡量依據或分母。",
+    "官方年報來源僅取得搜尋結果摘錄，不能據此斷言完整年報沒有相關資訊。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3141/596/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "8d35e40719d7972047e51f3f6572fe849c6dbd6251c1d0f7f2d817b691c12f2b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3141/596/isolated-prompt.txt",
+  "prompt_sha256": "c585d9b27c7112b3fc3975c166854c128f90541b6e0da68e364828f1f53b60a5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000596/manifest.json",
+  "supersedes_manifest_sha256": "d07982622bdf110440092d82a813ac6a435324e0bd90f151e1333c7a24632b57",
+  "corrected_at": "2026-10-08T09:58:26Z"
+}

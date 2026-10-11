@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001015",
+  "claim_id": "2409:material_named_relationship:1322b55ea86b1f7c",
+  "normalized_claim_hash": "1322b55ea86b1f7c1f268f237b6419c29696cca0e1b7412acef4cc656bedfa2e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3afa1de61fdd5eb5",
+      "title": "新興顯示面板發展趨勢與未來機會",
+      "url": "https://findit.org.tw/Files/ResArticleAttachedFile/7b4dc7a3-4435-4621-b2c8-d24636994931.pdf",
+      "source_level": 2,
+      "publication_date": "2019-04-15",
+      "effective_period": "2018 TV-panel supply estimates",
+      "locator": "PDF p. 2, lines 38-40; table 5-1, lines 56-89",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Industry analysis calls Hisense one of AUO's main customers; the table provides estimated TV-panel supply volumes, not company-wide customer revenue or shares."
+    },
+    {
+      "source_id": "src-cd7d74e1067cbe2e",
+      "title": "AUO Corporation 2024 Annual Report",
+      "url": "https://www.auo.com/upload/media/ir/2024_AUO_Annual_Report_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal years 2023 and 2024",
+      "locator": "Section 4.2.4, p. 81, lines 5874-5877",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports no customer accounting for more than 10% of net sales in either year; it does not identify customers or rule out customers being 'major' under another definition."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Current official disclosure reviewed, but it does not name customers. The available named-customer evidence is historical and scoped to TV panels, so it cannot resolve the claim as written.",
+    "The claim gives no time period, product market, or definition of 'major customer.'",
+    "The named-customer evidence is historical secondary analysis about TV panels, not a current issuer disclosure of company-wide customer revenue.",
+    "AUO's 2024 annual report says no individual customer exceeded 10% of net sales in 2023 or 2024, but does not identify customers; that threshold alone neither confirms nor contradicts the broader wording."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2409/1015/hermes-attempt-1.stdout.txt"
+}

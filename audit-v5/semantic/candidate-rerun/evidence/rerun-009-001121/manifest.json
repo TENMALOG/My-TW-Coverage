@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001121",
+  "claim_id": "1558:profitability_assertion:be4566041628db44",
+  "normalized_claim_hash": "be4566041628db4465026359c9606e8bb11743b330aeee366e8df0438c968ad0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8f47845b24cb9c5ac2cc",
+      "title": "伸興工業股份有限公司2025年度年報",
+      "url": "https://www.zenghsing.com.tw/wp-content/uploads/2026/05/2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度；持股資訊截至2025年12月31日",
+      "locator": "第84–85頁，營運概況／業務範圍第1(3)項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載明伸興持有宇隆26.06%股權，並由宇隆負責汽車產業、醫療產業、工業產業及自行車產業等精密金屬零件加工、製造及買賣。"
+    },
+    {
+      "source_id": "src-ba2c2b2e198455e8ac2b",
+      "title": "伸興營收／第3季稅後純益1.49億 年增191.1% 每股純益2.25元",
+      "url": "https://money.udn.com/money/story/5710/9123203?from=edn_newestlist_rank",
+      "source_level": 2,
+      "publication_date": "2025-11-06",
+      "effective_period": "2025年第三季",
+      "locator": "報導正文，伸興對第三季營運的說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導轉述伸興表示，宇隆在車用等領域穩定貢獻營收及獲利，成為集團營運的重要成長引擎之一。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到年報對子公司身分及業務的直接支持，並找到2025年第三季對成長引擎表述的同期報導；未找到足以確認該定性在2026年仍持續的證據。",
+    "「重要成長引擎之一」是伸興對2025年第三季營運角色的定性表述，沒有明確量化標準或獨立排名。",
+    "現有成長引擎證據指向2025年第三季；不能據此推定該定位在2026年仍然成立。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1558/1121/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5861f1d35c721cb8f610239574fcde66d69b8d4659334fb051fa24650a238788",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1558/1121/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "bfafe72b09527ff9306844e66aa4c7da30d0195cace67cb468470423a077ee3d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001121/manifest.json",
+  "supersedes_manifest_sha256": "4b2667b6bd32448d06b11222237deb5bdd4cc819538c48c2d6f7bcd3d7354ca6",
+  "corrected_at": "2026-10-08T09:59:20Z"
+}

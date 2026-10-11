@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000864",
+  "claim_id": "6175:material_named_relationship:08af81112ac77be6",
+  "normalized_claim_hash": "08af81112ac77be69d4f4a6057b9bff8f991a43442f1939698b214cc99d88f95",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-dfbfd47b78b815f6",
+      "title": "立敦科技股份有限公司公開說明書",
+      "url": "https://www.entrust.com.tw/upload/entrust/otherInfo/202107_6175_B05_20210707_141912.pdf",
+      "source_level": 3,
+      "publication_date": "2021-07-07",
+      "effective_period": null,
+      "locator": "主要原料之供應狀況，約第41頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載過去多向日本等地採購，以及合資設立立東以穩定供應；未量化日本採購比例變化。"
+    },
+    {
+      "source_id": "src-26f0d36c2cec6e57",
+      "title": "立敦(6175)下半年之後營收開始超越預期，長期獲利率改善的關鍵在這裡！",
+      "url": "https://uanalyze.com.tw/articles/924228232",
+      "source_level": 2,
+      "publication_date": "2024-11-26",
+      "effective_period": "2024年第三季報導時點",
+      "locator": "第35至37行／「產能擴充與內部供應鏈優化」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持供應立敦70%需求及降低日本供應商依賴，但未量化降低幅度或日本來源占比。"
+    },
+    {
+      "source_id": "src-fcbf99c25ec27cdc",
+      "title": "立敦新產能開出／車用電子強勁，目標續提升獲利",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=98980dad-b8c8-4f96-9055-3a6f378fa9dd",
+      "source_level": 2,
+      "publication_date": "2024-11-22",
+      "effective_period": "2024年前三季報導時點",
+      "locator": "內文關於立敦表示上游材料自製比重達70%–80%的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉述立敦說法，但表述為上游材料自製比重，未明確限定為電蝕鋁箔需求的計算口徑。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到合資關係、2024年約70%需求供應及依賴下降方向的證據；未找到量化日本供應商依賴降低幅度的資料，故該程度性表述仍為UNKNOWN。",
+    "70%數值來自次級報導；一則報導明確以立敦需求為分母，另一則轉述上游材料自製比重為70%–80%，口徑並不完全一致。",
+    "公開說明書支持過去多向日本等地採購及合資目的，但沒有前後日本採購占比。",
+    "未找到官方披露量化「大幅降低」幅度的同口徑數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6175/864/hermes-attempt-1.stdout.txt"
+}

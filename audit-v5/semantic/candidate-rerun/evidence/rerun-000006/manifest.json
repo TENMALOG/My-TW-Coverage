@@ -1,0 +1,98 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000006",
+  "claim_id": "1722:objective_ranking_or_market_share:991de260b51083b7",
+  "normalized_claim_hash": "991de260b51083b7baa2cc6e7cc250c4177c273e1c2fb60c39f796fd5423b3e0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "taifer-current-land-page",
+      "title": "業務簡介 - 台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/Products/Realestatedevelopment/Businessintroduction.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行頁面，2026-10-06檢視，頁面未標發布或更新日。",
+      "locator": "不動產開發事業：稱持有土地面積總計約170公頃，列台北、基隆、新竹、苗栗、高雄、花蓮。",
+      "source_sha256": "147624241c3044cd1fb418a5fa6c489c9370d46d8b1e1c8b23b5bdf6923fe2e2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-land-business-current.html",
+      "note": "發行人現行頁面自述；170公頃換算約51.4萬坪。頁面不提供南港現行精確面積或土地排名方法。"
+    },
+    {
+      "source_id": "moneydj-taifer-land-2009",
+      "title": "台肥持有全台土地約53萬坪，其中南港經貿園區有3.58萬坪 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/report/reportviewer.aspx?a=761ebb81-1aa3-424e-a779-35b9346f5f2d",
+      "source_level": 4,
+      "publication_date": "2009-06-30",
+      "effective_period": "MoneyDJ頁面刊載2009-06-30；土地表數字為當時公司資料。",
+      "locator": "土地資產表：全台總計533,843.53坪；台北市38,991.34坪。正文稱將50年地上權出租中信金部分計入，南港經貿園區土地3.58萬坪，並稱台肥為南港區最大地主。",
+      "source_sha256": "fda58d9d6b646e1b943fdf3fae984f90636b00816bba886b2b7948594d7032c3",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/moneydj-taifer-land-2009.html",
+      "note": "次級研究報告，正文註明公司提供。只作為2009年歷史數據，不能用來證明現行總土地面積或排名。"
+    },
+    {
+      "source_id": "taifer-2020-company-booklet",
+      "title": "台肥公司刊物（2020）不動產開發專頁",
+      "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=27a645aa-a1e4-4824-9629-b0542838b440&no=1&sourceType=0&type=FileUpload",
+      "source_level": 3,
+      "publication_date": "2020（刊物版權標示）",
+      "effective_period": "2020年公司刊物，南港經貿園區開發情況。",
+      "locator": "PDF印刷頁23（PDF第13頁），中文稱「台肥公司身為台北市南港經貿園區之最大地主」；英文稱「Owner of the largest percentage of land in Nangang Economic and Trade Park in Taipei City」。",
+      "source_sha256": "e04cd735694e853a97107c94cb026b81364ab6642d9a7ca5874810a6b528fd86",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-2020-company-booklet.pdf",
+      "note": "官方刊物直接支持公司在南港經貿園區內地主面積占比最大這一有界限的說法；不代表台肥是全台北市最大土地持有人，也未在此頁給3.58萬坪。"
+    },
+    {
+      "source_id": "taifer-c3-rights-sale-2015",
+      "title": "南港C3地上權標脫 奠定穩健成長根基 - 台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/PublicationArticleDetailC004000.aspx?Cond=ccf733a9-b97b-4dbc-b33a-f532a0df8fb1",
+      "source_level": 3,
+      "publication_date": "2015-07-01",
+      "effective_period": "C3案第一、二階段地上權標脫規劃，2015年公告。",
+      "locator": "正文：2015年第一階段45年地上權、權利金150億元，第二階段40年、權利金150億元；第一階段為公司帶來150億元現金。",
+      "source_sha256": "428e00734b8b48ea30a94ca1514dc68d450049ff33aae9ba89dca20231075f0a",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-c3-rights-sale-2015.html",
+      "note": "發行人刊物同期說明總權利金分兩階段共300億元；應將「150億」綁定第一階段，而非暗示整案總額。"
+    },
+    {
+      "source_id": "taifer-c2-project-2015",
+      "title": "南港C2開發案動工 2020年落成增8億租金 - 台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/PublicationArticleDetailC004000.aspx?CategoryID=ff714b75-1199-4a8b-be80-555d85fc808f&Cond=b4e924ac-b3fd-416e-9c43-18bdde9188d7",
+      "source_level": 3,
+      "publication_date": "2015-10-01",
+      "effective_period": "C2觀光旅館暨辦公大樓開發案動工時的估算。",
+      "locator": "正文首段稱C2總投資金額逾100億元；頁面另述基地約7,051坪、兩棟旅館及一棟商辦。",
+      "source_sha256": "8c9a6ab459575954e5fcbcaba3c49b7b7da82c2c60b02e3bbebcb0949dae1ab5",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-c2-project-2015.html",
+      "note": "可支持2015年開工時公司公布的投資估算；後續實際資金需求以年報數字為準。"
+    },
+    {
+      "source_id": "taifer-2022-annual-report",
+      "title": "111年度台肥公司年報",
+      "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=6e13a07e-4d20-4e45-92c1-8b15b273bca5&type=FileUpload&no=1&sourceType=0",
+      "source_level": 2,
+      "publication_date": "2023-07-12",
+      "effective_period": "2022年度實績及2023年預算。",
+      "locator": "年報印刷頁248：C2案所需資金總額123.85億元；截至2022-12-31累計實際動支約106.98億元，2023年度預定約16.87億元。",
+      "source_sha256": "c4c84361bb67d02340e1df32d5a98bf8d9618df2ab923ca1cb6520745de814f8",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-2022-annual-report.pdf",
+      "note": "正式年報將投資預算與已動支金額分欄，適合把原來籠統的「總投資逾100億」改成明確數字及日期。"
+    }
+  ],
+  "search_notes": [
+    "台肥現行不動產頁列全台持地約170公頃；換算約51.4萬坪。2009年MoneyDJ轉載的公司提供資料列533,843.53坪全台及南港3.58萬坪，不能視為當前數據。",
+    "台肥2020官方刊物稱其為「台北市南港經貿園區之最大地主」，英文版的範圍同樣明確是Nangang Economic and Trade Park in Taipei City；不等於全台北市最大地主。",
+    "2015年官方C3文章澄清權利金分兩階段、每階段150億元；第一階段以現金挹注公司。C2則在2015開工公告估算逾100億元，111年度年報報告總資金123.85億元及2022年底實際動支106.98億元。"
+  ],
+  "excluded_sources": [
+    {
+      "title": "台肥持有全台土地約53萬坪，其中南港經貿園區有3.58萬坪 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/report/reportviewer.aspx?a=761ebb81-1aa3-424e-a779-35b9346f5f2d",
+      "reason": "僅作2009年歷史證據；未用於證明2026現況。報告稱南港區最大地主，不能擴大成全台北市最大地主。"
+    },
+    {
+      "title": "臺北市最大地主",
+      "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=27a645aa-a1e4-4824-9629-b0542838b440&no=1&sourceType=0",
+      "reason": "公司刊物只說南港經貿園區內最大地主，未提供全台北市土地持有人比較表；未把區域排名外推為全市排名。"
+    }
+  ]
+}

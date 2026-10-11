@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000979",
+  "claim_id": "6188:profitability_assertion:4ec34a9e9eccbacc",
+  "normalized_claim_hash": "4ec34a9e9eccbacc7adbac667a4e57e8c741b08f493ca110e7d72a0dad303c85",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6c0df9b98372ecbf",
+      "title": "廣明光電2025年公司年報",
+      "url": "https://www.qsitw.com/page/rs/download/directorate/2025.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-03-28",
+      "locator": "第6頁，董事資料；廣達電腦持股29.78%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報列明廣達電腦為廣明董事及其持股比例。"
+    },
+    {
+      "source_id": "src-8d991afad317f601",
+      "title": "廣明邁向轉型 協作型機器人已出貨積極推廣",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=%7B62fac8b1-acc3-48db-99bb-eaee497430c1%7D",
+      "source_level": 2,
+      "publication_date": "2016-08-30",
+      "effective_period": "2015年至2016年轉型期",
+      "locator": "文章正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱廣明已退出光碟機市場，當時以SSD及外接式硬碟為主要產品，並推廣協作型機器人。"
+    },
+    {
+      "source_id": "src-c90d79ca5e557409",
+      "title": "廣明光電2012年公司年報",
+      "url": "https://www.qsitw.com/page/rs/download/directorate/101.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2012年度",
+      "locator": "第45頁，主要產品項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有多種薄型、半高型及外接式光碟機產品；該年報另以較廣的光電儲存及電腦週邊儲存產品類別合併列示營收。"
+    },
+    {
+      "source_id": "src-129427177db8f034",
+      "title": "廣明光電公司介紹",
+      "url": "https://www.qsitw.com/page/tw/qs/qs020000.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司歷史介紹；記載2006年跨足SSD及自動化機器人領域",
+      "locator": "公司介紹第6行及年度重要記事",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述跨足SSD與自動化機器人領域，並列出2015年投資設立達明機器人。"
+    },
+    {
+      "source_id": "src-146a52f8d7f6c2b8",
+      "title": "廣明光電服務項目",
+      "url": "https://www.qsitw.com/page/tw/pd/pd070000.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第2至7行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列明電子製造服務模式及SSD、外接HDD/SSD、docking/adaptor等範圍。"
+    },
+    {
+      "source_id": "src-1056a39a486aca28",
+      "title": "廣明光電2026年第一季合併財務報告",
+      "url": "https://www.qsitw.com/page/rs/download/fin_information/2026Q1-CON.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-29",
+      "effective_period": "截至2026-03-31",
+      "locator": "第46頁，轉投資事業相關資訊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示達明機器人主要營業項目、持股比例66.68%及子公司關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成有限範圍檢索。官方資料支持股權關係、儲存產品服務及達明機器人業務；未找到機器人事業別毛利率、雙核心業務占比或可檢驗的轉型成功標準，因此保留未解原子為UNKNOWN。",
+    "廣達持股與董事資料支持集團關係，但不等於廣明為廣達全資或多數持股子公司。",
+    "儲存產品服務頁列出製造服務模式與產品範圍，未揭露各產品線營收或獲利占比。",
+    "合併財報的整體毛利率及按地區列示的部門資訊，不能作為協作型機器人毛利率的替代證據。",
+    "早期光碟機業務描述有同期二手報導支持；官方年報證明當時產品線包含光碟機，但未單獨量化其營收比重。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6188/979/hermes-attempt-1.stdout.txt"
+}

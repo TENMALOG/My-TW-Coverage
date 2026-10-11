@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000081",
+  "claim_id": "2890:objective_ranking_or_market_share:92485629cda4cfea",
+  "normalized_claim_hash": "92485629cda4cfeab5f327e80e01c4018ada311a510fab2f4fb6caaabcd9aea5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6947638b31d6ffbe",
+      "title": "Bank SinoPac completes acquisition of 80 per cent of Amret",
+      "url": "https://amret.com.kh/en/blog/amret-sinopac",
+      "source_level": 3,
+      "publication_date": "2025-01-15",
+      "effective_period": "2025-01-15 closing",
+      "locator": "Announcement opening paragraph; completion date and 80% stake.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-f96afb94c4c954d4",
+      "title": "Bank SinoPac Plans to Acquire Amret, one of the leading financial institutions in Cambodia, to Expand Overseas Business and Broaden Its Positive Influence on Sustainable Finance",
+      "url": "https://www.sinopac.com/en/investors/20211210153457585149/20211210153458742624/20240504194527258135.html",
+      "source_level": 3,
+      "publication_date": "2024-05-04",
+      "effective_period": "Asset reference as of 2023-12-31",
+      "locator": "Second and fourth paragraphs; calls Amret Cambodia’s largest microfinance deposit-taking institution by total assets and states its total assets as of 2023-12-31.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-79ed486f7b85f4a4",
+      "title": "永豐金併購案連三發 營運版圖再下一城 永豐金證券董事會通過以現金16.28億台幣 吸收合併台灣匯立證券",
+      "url": "https://www.sinopac.com/News/20220503183151553480/20250529191106000394.html",
+      "source_level": 3,
+      "publication_date": "2025-05-29",
+      "effective_period": "SinoPac says Amret’s first-stage 80% equity closing was completed early in 2025",
+      "locator": "Paragraph beginning “永豐金及子公司永豐銀行分別於2024年12月及2024年5月”; says Amret completed the first-stage 80% equity closing early that year and joined operations.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-431cd2432ed8ba8d",
+      "title": "Bank SinoPac Group",
+      "url": "https://bank.sinopac.com/sinopacBT/en/about/tagList20180112145607380000000000000836.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Amret Plc. profile; calls Amret the largest MDI in Cambodia, without a date or ranking measure.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦檢索；交易及首階段交割可核實，但未找到能同時明確限定2025期間、微型金融市場範圍及排名分母的資料來確認排名原子。",
+    "交易完成日期及80%首階段交割有Amret與永豐金控官方資料支持。",
+    "「柬埔寨第一大微型銀行」未明確限定市場分類或排名指標；找到的有日期排名資料以微型存款金融機構總資產為口徑，參考期截至2023年末，不能直接等同於2025年交割時的排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2890/81/hermes-attempt-1.stdout.txt"
+}

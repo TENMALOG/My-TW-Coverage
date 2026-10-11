@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001132",
+  "claim_id": "6629:export_concentration:a2257218a3ef35d5",
+  "normalized_claim_hash": "a2257218a3ef35d5ea6b41d01f78a627f760d48b0d54df3b495b2db1bd58e62e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-316216de9e51fb23",
+      "title": "泰金-KY 2025 年年報（證交所文件頁面）",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=6629&colorchg=1&filename=2025_6629_20260527FE4.pdf&kind=F&step=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "年報 PDF 文件頁面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方文件搜尋結果線索；本次無法讀取文件內容，不能據此核實北美占比或其地域與營收分母口徑。"
+    },
+    {
+      "source_id": "src-cacab91972922c8e",
+      "title": "泰金-KY 2026 年第二季法人說明會資料",
+      "url": "https://mopsov.twse.com.tw/nas/STR/662920260527M001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "簡報 PDF",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報搜尋結果線索；本次無法讀取文件內容，未能確認是否包含符合原 claim 口徑的地域營收資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "研究工具的網頁內容擷取受限並觸發迴圈警告；依任務要求停止，兩項原子 claim 均未取得可核實的期間、分母及市場口徑資料。",
+    "列出的官方文件僅為搜尋到的來源線索，並非已讀取或能支持原 claim 的證據。",
+    "web_extract 回報目前的擷取後端不支援此搜尋後端；隨後觸發同工具失敗迴圈警告，因此停止，未把搜尋摘要當作核實證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6629/1132/hermes-attempt-1.stdout.txt"
+}

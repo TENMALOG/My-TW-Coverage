@@ -1,0 +1,107 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000816",
+  "claim_id": "5015:objective_ranking_or_market_share:2276d54bba3d3a65",
+  "normalized_claim_hash": "2276d54bba3d3a657eeb1d8e5d5140f650c3a4fca64911873ee184aaac01126d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-95e4b4de255d7378",
+      "title": "華祺工業股份有限公司 / RODEX FASTENERS CORP. 投資人服務專區—關於華祺",
+      "url": "https://www.rodex.com.tw/new/zindex_about_a.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 25–28",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page lists its address as Songjiang North Road, Zhongli, Taoyuan."
+    },
+    {
+      "source_id": "src-44f695de97c5cf38",
+      "title": "華祺工業股份有限公司 / RODEX FASTENERS CORP.—公司簡介",
+      "url": "https://www.rodex.com.tw/profile.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 4–5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States the company produces stainless-steel screws and stainless-steel wire."
+    },
+    {
+      "source_id": "src-8080b284e8423e73",
+      "title": "華祺工業股份有限公司—經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/12494555",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Registry lists company location in Taoyuan; last approved change shown as 2025-08-13.",
+      "locator": "Lines 34–38",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government registry confirms the company location in Zhongli, Taoyuan; the registry labels it company location, not specifically headquarters."
+    },
+    {
+      "source_id": "src-85a7c883c3e1edca",
+      "title": "日盛證券投資顧問訪談報告（投研部）",
+      "url": "https://fsmarket.fbs.com.tw/ECADMIN_Market/Bonus/NBbonus/images/GoodsImages/ResearchFile/20180125100715707.pdf",
+      "source_level": 2,
+      "publication_date": "2018-01-25",
+      "effective_period": "Market-share estimate reported in 2018.",
+      "locator": "Page 2, company introduction",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports estimated global stainless small-screw market share of about 50%, excluding mainland China, and a named competitor at about 40%; this dated, geographically qualified estimate does not establish a current global-largest ranking."
+    },
+    {
+      "source_id": "src-7665e94d2cde0283",
+      "title": "華祺工業 RODEX FASTENERS CORP. official website",
+      "url": "https://www.rodex.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Official site description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes the company as a manufacturer of stainless-steel small screws and stainless-steel wire."
+    },
+    {
+      "source_id": "src-c069d131fe452b9b",
+      "title": "華祺工業股份有限公司 / RODEX FASTENERS CORP. 投資人服務專區—經營團隊",
+      "url": "https://www.rodex.com.tw/new/zindex_about_d.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Line 25",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-hosted management biography says the company developed into the world’s largest stainless-steel small-screw manufacturer, but gives no measurement basis or effective date."
+    },
+    {
+      "source_id": "src-3bc6b06db97e4af8",
+      "title": "毛利率提升+轉單效益，華祺Q3獲利看俏",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=50563ea1-1445-4d74-901f-afbfab7fbae8",
+      "source_level": 2,
+      "publication_date": "2014-09-01",
+      "effective_period": "Company description reported in 2014.",
+      "locator": "Article text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls Huaqi the global largest specialist stainless-steel small-screw manufacturer, but supplies no ranking methodology."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Three focused searches found current issuer and registry information plus historical ranking and market-share assertions, but no current source establishing the global ranking, its comparison period, or its measurement basis. The ranking atom remains UNKNOWN.",
+    "The current government record and issuer page verify the Taoyuan company address; the explicit headquarters wording located is in a 2018 secondary report.",
+    "The global-largest statement appears in issuer-hosted biography and older secondary reporting, but those sources do not establish a current, independently benchmarked ranking or define its metric and denominator."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5015/816/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000242",
+  "claim_id": "3078:objective_ranking_or_market_share:299b9d575f6c2dfd",
+  "normalized_claim_hash": "299b9d575f6c2dfd4af62ec068bdad17a83526a6220f9b22f78eda4122ac65c6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8cc743678950bb9b",
+      "title": "COMPUTEX TAIPEI－參展商資料－僑威科技股份有限公司",
+      "url": "https://www.computextaipei.com.tw/zh-tw/exhibitor/7ACF921E10AB7F57D9292524493DC424/info.html",
+      "source_level": 2,
+      "publication_date": "2026-01-28（頁面更新：2026-05-13）",
+      "effective_period": "2026 年展商資料",
+      "locator": "「簡介」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出品牌名稱 CWT、股票代號 3078，並描述公司為電源供應器製造商。"
+    },
+    {
+      "source_id": "src-277929a023cf0f0b",
+      "title": "電源供應器製造商｜僑威科技 CWT",
+      "url": "https://www.cwt.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司簡介及電競應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明僑威創立於 1993 年，並稱具 30 年電源供應器設計製造經驗。"
+    },
+    {
+      "source_id": "src-ca080e4e09eb2db2",
+      "title": "Application-Gaming Power Supply | Channel Well Technology",
+      "url": "https://www.cwt.com.tw/en/application/info/gaming-power-supply",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "GAMING 應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其電競電源產品以 30 年電源供應器設計及製造經驗為基礎；未獨立提供精確起始年月。"
+    },
+    {
+      "source_id": "src-4f0c29bce33f82f4",
+      "title": "Power Supply OEM/ODM Manufacturer | Channel Well Technology",
+      "url": "https://www.cwt.com.tw/en/power-supply-odm-oem",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁首公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱 CWT 有超過 30 年提供全球品牌 PSU OEM/ODM 解決方案的經驗；同頁股票代號誤列為 3062。"
+    },
+    {
+      "source_id": "src-8dc1f4ba87c9d330",
+      "title": "僑威科技 CWT 簡體中文首頁",
+      "url": "https://www.cwt.com.tw/cn",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "有「全球電源供應器最大製造商」的廣泛自述，但未限定電競 PC 電源代工市場，也沒有期間、排名方法或可核對的比較數據；不據此支持原 claim。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已聚焦查找公司官方頁面、展商資料及市場排名／市占資料；查得的官方資料只確認產品、OEM/ODM 業務及年資，未找到具有明確市場範圍、期間與衡量分母的全球排名。停止進一步搜尋，排名原子維持 UNKNOWN。",
+    "僑威官方 OEM/ODM 頁將股票代號列為 3062，與 COMPUTEX 展商資料列出的 3078 不一致；該頁用於年資與 OEM/ODM 業務佐證，不用於確認股票代號。",
+    "官方網站的「全球最大電源供應器製造商」自述範圍較廣，未提供電競 PC 電源代工排名所需的市場定義、期間或排名指標。",
+    "未找到可靠的全球電競 PC 電源供應器 OEM 排名資料；因此排名原子維持 UNKNOWN，而非視為已證偽。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3078/242/hermes-attempt-1.stdout.txt"
+}

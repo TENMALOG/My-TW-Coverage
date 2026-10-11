@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000119",
+  "claim_id": "1313:objective_ranking_or_market_share:f7e881e9038a20ac",
+  "normalized_claim_hash": "f7e881e9038a20ac1eb08474f86611a2f886fed250fee124819aeec975b1dbfe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ed1f38fe9f0f17db",
+      "title": "Company Profile - UPC",
+      "url": "https://www.upc.com.tw/en/StaticPage/company_profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Achievement section: “PA and plasticizer have 30% market share in Greater China.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介重述30%主張；沒有定義各產品市場的分母或統計期間。"
+    },
+    {
+      "source_id": "src-ae8f55f156e08f74",
+      "title": "永續經營 - 聯成化科",
+      "url": "https://www.upc.com.tw/zh-TW/Html/sustainable_development",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段：主要業務包括苯酐PA及可塑劑DOP、DINP；並稱為全球最大苯酐、可塑劑供應商。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持DOP、DINP屬公司可塑劑產品，但未分別證明其全球排名。"
+    },
+    {
+      "source_id": "src-61c43fe516f0b925",
+      "title": "鄰法苯酐的碳排只有萘法苯酐的61%",
+      "url": "https://www.upc.com.tw/zh-TW/News/news/Content/20220120",
+      "source_level": 3,
+      "publication_date": "2022-01-20",
+      "effective_period": null,
+      "locator": "頁面末段粗體文字：稱聯成為全球最大的苯酐與可塑劑製造及通路商，並稱大中華地區市占率達30%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方直接自述，但未披露市場份額的分母、計算方式或統計期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到聯成官方排名及市佔率自述；針對30%市佔率的產品口徑、分母、單位及有效期間仍無可核實資料，故該原子主張保留為UNKNOWN並停止研究。",
+    "排名及30%市佔率的直接來源均為聯成官方自述，未見獨立排名或市場份額計算資料。",
+    "官方資料使用「苯酐與可塑劑」的廣義表述，未證明DOP、DINP及PA各自均有30%市佔率。",
+    "2022年官方文章與現行公司簡介均未交代30%市佔率的分母、計算單位或有效期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1313/119/hermes-attempt-1.stdout.txt"
+}

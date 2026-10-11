@@ -1,0 +1,63 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000013",
+  "claim_id": "6175:objective_ranking_or_market_share:08043f1f1f8247cf",
+  "normalized_claim_hash": "08043f1f1f8247cf3d2f4443af4779b9aa4a01ec8a3b6875f354d845486f659e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "nippon-chemi-con-company-profile-current",
+      "title": "About the Company - Nippon Chemi-Con Corporation",
+      "url": "https://www.chemi-con.co.jp/en/company/ir/individual/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "日本ケミコン官方現行公司介紹頁，2026-10-06檢視；未標明市占數字期間。",
+      "locator": "公司簡介段落稱其在鋁質電解電容器市場持最大份額；頁面未列百分比、分母或所引用的調查來源。",
+      "source_sha256": "22711102e0a6028e0a65d69f4bc0d0301b3dd67b0e274d3524761e7e322e54e1",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/chemi-con-about.html",
+      "note": "發行人自述可支持「公司官方稱其居全球領先地位」，但未提供可獨立核對的約20%市占數字。"
+    },
+    {
+      "source_id": "nippon-chemi-con-eleventh-medium-term-plan",
+      "title": "Medium-term Management Plan - Nippon Chemi-Con Corporation",
+      "url": "https://www.chemi-con.co.jp/en/company/ir/policy/plan/",
+      "source_level": 3,
+      "publication_date": "2026（第11次中期經營計畫，期間2026-04至2029-03）",
+      "effective_period": "計畫目標為FY2028鋁質電解電容器全球市占16%以上，係未來目標。",
+      "locator": "「Numerical Goals for FY2028」列 Aluminum electrolytic capacitor global market share 16% or higher。",
+      "source_sha256": "68f51215cddcde81e5e57e69c6200bed743f20cd99df51202e8cc795aa889a1c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/chemi-con-midterm-plan.html",
+      "note": "未來年度目標不是目前實際市占率，不能用以驗證或否定原句約20%。"
+    },
+    {
+      "source_id": "nichicon-aluminum-electrolytic-product-page",
+      "title": "Products - NICHICON CORPORATION",
+      "url": "https://www.nichicon.co.jp/english/products/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Nichicon官方現行產品頁，2026-10-06檢視。",
+      "locator": "Electronic devices產品清單直接列 Aluminum electrolytic capacitors。",
+      "source_sha256": "9afb5b3b668649ee36951ac7487637d9322353a974e911b9aabecf3c379eab7b",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/nichicon-products.html",
+      "note": "只確認Nichicon現行產品類別，不支持其排名或其為立敦客戶。"
+    },
+    {
+      "source_id": "rubycon-aluminum-electrolytic-product-page",
+      "title": "Products Information - Rubycon Corporation",
+      "url": "https://www.rubycon.co.jp/en/products/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Rubycon官方現行產品頁，2026-10-06檢視。",
+      "locator": "產品類別直接列chip, radial lead及snap-in aluminum electrolytic capacitors。",
+      "source_sha256": "0b6f728defb768bc73821d2872a0a1bd998ba73ab90f856d60622504b9e851d2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/rubycon-products.html",
+      "note": "只確認Rubycon現行產品類別，不支持其排名或其為立敦客戶。"
+    }
+  ],
+  "search_notes": [
+    "日本ケミコン現行官方介紹自述其在鋁質電解電容市場持最大份額，但未列20%或其他實際百分比；市占分母和統計年度亦未註明。",
+    "日本ケミコン第11次中期計畫把FY2028（2028年度）全球市占16%以上列為未來目標。這不是當期市占實績，不據此推算約20%真假。",
+    "Nichicon與Rubycon官方現行產品頁確認兩家公司生產鋁質電解電容器；這些公司產品頁不能驗證三者構成全球前三名，也不能證明三者為立敦的下游客戶。",
+    "本claim fragment置於報告「下游客戶」語境時，對三家公司與立敦間的實際供銷關係，本次檢視的官方產品／公司頁沒有提供直接證據；不將公司產品類別當成客戶證據。"
+  ]
+}

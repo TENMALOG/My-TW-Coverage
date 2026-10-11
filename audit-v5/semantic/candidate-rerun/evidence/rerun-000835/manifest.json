@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000835",
+  "claim_id": "6994:objective_ranking_or_market_share:4a494708c5380bf7",
+  "normalized_claim_hash": "4a494708c5380bf7a1ad765c06acb377de1af91d3b8031168520caf7533686bc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9a5ed11b9d0bca27",
+      "title": "富威電力上市前業績發表會",
+      "url": "https://platform.fwp.com.tw/fileserver/homepageFiles/investor/governanceNews/GN_S.pdf",
+      "source_level": 3,
+      "publication_date": "2024-12-04",
+      "effective_period": "2024-01-01 至 2024-10-21",
+      "locator": "第 32 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報列出以「輝達」為搜尋關鍵字的直轉供憑證前十名售電業者，包含富威以外業者；該表未按機房或設施拆分交易。"
+    },
+    {
+      "source_id": "src-4cceeaffa4c2e8fb",
+      "title": "輝達買綠電，為什麼首選這家才成立5年的公司？",
+      "url": "https://www.gvm.com.tw/article/117559",
+      "source_level": 2,
+      "publication_date": "2024-12-02",
+      "effective_period": "報導稱自 2023 年第三季起；報導刊於 2024-12-02",
+      "locator": "第 195、198–202 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述富威電力董事長表示，富威向輝達供應綠電，並稱其租用的 IDC 機房位於高雄軟體園區；屬二手報導及公司高層說法。"
+    },
+    {
+      "source_id": "src-6471f8ff9f50ba33",
+      "title": "直轉供憑證成交紀錄｜T-REC",
+      "url": "https://www.trec.org.tw/index.php/certification_trade_situation/direct_supply",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "直轉供憑證成交紀錄頁面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟部標準檢驗局國家再生能源憑證中心的成交紀錄查詢頁；公開欄位包含出售單位、購買者及移轉量，但頁面本身未提供該機房的唯一供應商證明。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司簡報、憑證中心成交紀錄頁及相關媒體報導；未找到場址別完整供應商或合約資料，故「該機房唯一供應商」仍為 UNKNOWN。",
+    "場址關聯來自媒體對公司高層說法的報導；公司簡報中的憑證交易統計未標示各筆交易所對應的機房。",
+    "富威簡報一處稱其為唯一向 NVIDIA 移轉憑證的能源公司，但同頁所列成交資料也列出其他售電業者向 NVIDIA 移轉憑證。這使廣義的「NVIDIA 唯一供應商」說法存疑，仍無法據此判定特定機房的唯一供應商。",
+    "原 claim 未提供起訖期間；已找到的量化憑證資料是 2024-01-01 至 2024-10-21 的統計，不足以支持未限定期間的現況宣稱。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6994/835/hermes-attempt-1.stdout.txt"
+}

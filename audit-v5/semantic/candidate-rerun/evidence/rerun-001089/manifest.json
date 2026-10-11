@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001089",
+  "claim_id": "6456:material_named_relationship:251573f509b34a00",
+  "normalized_claim_hash": "251573f509b34a00313657bf4556af07b95d97bb38fdf0865d0ab95e6b322edb",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f8c668419ae8afed",
+      "title": "Apple supply chain",
+      "url": "https://www.kgi.com.hk/zh-cn/-/media/files/kgishk/research-reports/tw-reports/2024/01/apple-supply-chain_05072024.pdf",
+      "source_level": 2,
+      "publication_date": "2024-07-05",
+      "effective_period": "2024F",
+      "locator": "Page 5, Table 12, row “Touch panel module,” GIS (6456 TT); iPad and MacBook columns and 2024F sales-weighting column.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Analyst research, not an issuer disclosure. Supports the named product/customer relationship and high sales weighting for the report's forecast period."
+    },
+    {
+      "source_id": "src-1ac9c44bf3db525c",
+      "title": "GIS-KY受惠蘋果Q4平穩；京東方訂單待放量",
+      "url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=fa361fe0-40d2-45d7-ab25-1788d8425270",
+      "source_level": 2,
+      "publication_date": "2020-12-31",
+      "effective_period": "2020",
+      "locator": "Paragraph 47.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Apple and Samsung as GIS's two smartphone-brand customers; historical report."
+    },
+    {
+      "source_id": "src-17b2b044c5654424",
+      "title": "General Interface Solution (GIS) Holding Limited — Annual Report 2025",
+      "url": "https://financialfilings.com/filings/gis-6456/annual-report/2026/47935749/",
+      "source_level": 3,
+      "publication_date": "2026-03-06",
+      "effective_period": "2025; report also includes information through 2026-02-28",
+      "locator": "Industry overview, page 87; marketing strategy, lines 2674–2679.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies major companies entering the market and GIS's general cooperation with key customers, but does not link the named headset brands to GIS as customers."
+    },
+    {
+      "source_id": "src-b71a66380761056b",
+      "title": "GIS expects revenue proportion for fingerprint recognition modules to rise to 30% in three years",
+      "url": "https://www.digitimes.com/news/a20220311PD204/general-interface-solution-fingerprint-recognition.html",
+      "source_level": 2,
+      "publication_date": "2022-03-11",
+      "effective_period": "2022",
+      "locator": "Paragraphs 64–69, especially paragraph 65.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports GIS's cooperation with Qualcomm to develop ultrasonic fingerprint modules for Samsung Electronics flagship smartphones; the report attributes details to industry sources."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused source review found historical support for the Apple and Samsung relationships, but no issuer-confirmed linkage between GIS and named major AR/VR headset brands. Further confirmation requires a customer-specific issuer disclosure or filing.",
+    "The named Apple and Samsung relationships are supported by secondary reporting rather than a current issuer disclosure naming those customers.",
+    "The 2025 issuer annual report gives general product and customer descriptions but does not name Apple or Samsung as current customers.",
+    "The annual report's mention of Apple, Meta, Sony, and Samsung as AR/VR market participants is not evidence that GIS supplies them.",
+    "The original wording does not specify a date, product scope, or what qualifies as a “major” AR/VR brand."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6456/1089/hermes-attempt-1.stdout.txt"
+}

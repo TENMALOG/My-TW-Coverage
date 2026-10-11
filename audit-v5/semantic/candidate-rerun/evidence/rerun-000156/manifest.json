@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000156",
+  "claim_id": "6143:objective_ranking_or_market_share:55422f78287ce5eb",
+  "normalized_claim_hash": "55422f78287ce5ebfd3ed12795dbfeccea8dd354a324bd2c54416e8609e4aae3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-02712f9107bd9d08",
+      "title": "Kobo彩色電子書預購優於預期，今明年出貨量可望上修；關鍵供應商元太、振曜與天鈺趨勢分析 / Better-than-expected Kobo’s color e-reader pre-orders & potential upside for shipments this year and next",
+      "url": "https://medium.com/@mingchikuo/kobo%E5%BD%A9%E8%89%B2%E9%9B%BB%E5%AD%90%E6%9B%B8%E9%A0%90%E8%B3%BC%E5%84%AA%E6%96%BC%E9%A0%90%E6%9C%9F-%E4%BB%8A%E6%98%8E%E5%B9%B4%E5%87%BA%E8%B2%A8%E量可望上修-%E9%97%9C%E9%8D%B5%E4%BE%9B%E6%87%89%E5%95%86%E5%85%83%E5%A4%AA-%E6%8C%AF%E曜%E8%88%87%E5%A4%A9%E9%88%BA%E8%B6%A8%E5%8B%A2%E5%88%86%E6%9E%90-better-than-expected-pre-orders-for-kobo-color-9a538dd35f18",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024 context; exact measurement window unspecified",
+      "locator": "Supplier analysis, item 2; corresponding English section, item 2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Directly calls Netronix the largest non-Amazon e-reader assembly supplier and states it supplied over 80% of non-Amazon shipments. The article's date is unavailable; its context refers to 1Q24 results and 2024 product launches."
+    },
+    {
+      "source_id": "src-04f61ba2e13aa7ba",
+      "title": "2024 Sustainability Report",
+      "url": "https://www.netronixinc.com/download/2024Sustainability_Report_Eng.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "Company Overview, page 4",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes itself as a leading e-reader manufacturer worldwide, but does not claim it is the largest non-Amazon assembler or provide a comparative ranking."
+    },
+    {
+      "source_id": "src-1c8a420416875bc2",
+      "title": "振曜科技(6143)攻電子紙版圖，2024年營收創高，下一步劍指電子看板市場",
+      "url": "https://uanalyze.com.tw/articles/3375510911",
+      "source_level": 2,
+      "publication_date": "2025-02-27",
+      "effective_period": "2024 e-reader shipments",
+      "locator": "Opening section, paragraph 2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 2024 e-reader shipments of 1.6 million units, but gives no non-Amazon denominator or comparative assembler ranking; it does not verify the ranking beyond the 2024-context analyst article."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦搜尋與來源檢視。找到直接支持2024背景排名的二手分析，但未找到官方或較新、具可比口徑的資料確認未標示期間的排名；因此僅支持該歷史來源語境，不推定排名至今仍成立。",
+    "直接支持排名的來源是分析師文章中的供應鏈調查陳述，未披露抽樣、比較對象清單或排名方法。",
+    "「非Amazon出貨量逾80%」未說明明確的統計期間或可核對的分母。",
+    "振曜2024年官方永續報告僅稱其為全球領先的電子閱讀器製造商，未確認「非Amazon最大」排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6143/156/hermes-attempt-1.stdout.txt"
+}

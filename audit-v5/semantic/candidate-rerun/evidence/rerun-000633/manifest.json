@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000633",
+  "claim_id": "6573:objective_ranking_or_market_share:0ab58d2ad0c9cdd6",
+  "normalized_claim_hash": "0ab58d2ad0c9cdd60d072087c1b54f41c57f11da5038de8076fbf5dffd383562",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-98245ae02795ca2b",
+      "title": "虹揚-KY聚焦高功率應用 打入台廠AI、強固供應鏈",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5083610",
+      "source_level": 2,
+      "publication_date": "2025-06-23",
+      "effective_period": "截至2025-06",
+      "locator": "報導首段及第四段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "揭露ESD訂單及終端應用，但未說明產品在電源供應鏈中的具體用途或位置。"
+    },
+    {
+      "source_id": "src-aa1b3b894dbb8190",
+      "title": "2025Q1 虹揚科技法人說明會",
+      "url": "https://www.hygroup888.com/upfiles/ADUpload/tw_/%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1_202505-%E7%B9%81%E4%B8%AD.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度、2024年度、2025Q1",
+      "locator": "第02節「產品組合銷售」—銷售分析-產品別",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供公司太陽能二極體營收占比，沒有揭露該產品在任何市場的市占率。"
+    },
+    {
+      "source_id": "src-efd625df5d23d643",
+      "title": "《未上市個股》虹揚-KY估3年內車用二極體營收占比達1成",
+      "url": "https://www.chinatimes.com/realtimenews/20170908001700-260410",
+      "source_level": 2,
+      "publication_date": "2017-09-08",
+      "effective_period": "報導當時；文中另列2014至2016年產品營收占比",
+      "locator": "報導中段，太陽能二極體中國市占排名敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱中國市場排名前三，未列市占百分比；僅作歷史背景，不足以支持近期、未界定地區的「極高市占率」。"
+    },
+    {
+      "source_id": "src-85a67b392e250a61",
+      "title": "虹揚科技 SMPS 類應用方案",
+      "url": "https://www.hygroup.com.tw/tw-ww/solution/solutiondetail-new.aspx?CID=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "SMPS類頁面中的「Server Power」及產品列表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列出伺服器電源應用與相關整流產品，能證明其產品有伺服器電源應用方案，但不能證明2025年AI伺服器及強固電腦ESD訂單即屬該電源鏈。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2025Q1法人簡報、公司產品應用頁及相關媒體報導；針對旁路二極體市占率的聚焦搜尋僅找到2017年中國市場排名的歷史資料，未找到能確認近期市占率及分母的可靠來源，故停止並將未解範圍保留為UNKNOWN。",
+    "公司2025Q1簡報的產業別與產品別百分比均為虹揚自身營收占比，不能當作市場市占率或市場覆蓋指標。",
+    "市占排名的可查歷史報導限定中國市場且發布於2017年，未給出市占百分比，不能代替 claim 所需的近期、明確地理市場與分母。",
+    "2025年AI伺服器及強固型工業電腦訂單資訊來自媒體對公司發言人的報導，未揭露客戶名稱、金額、出貨量或產品在電源鏈中的具體位置。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6573/633/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001065",
+  "claim_id": "4943:material_named_relationship:a4bc917f24a5572a",
+  "normalized_claim_hash": "a4bc917f24a5572a8b8cf0ee6d6f1cafc9020e47386ebb401d5ba2ab701f5876",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-308c0a88fa61bb92",
+      "title": "Products for Acoustic - CONCRAFT",
+      "url": "https://www.concraft.com.tw/simple_c/products_acoustic_concraft.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「聲學零組件&產品」段落及 Receiver 零組件清單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page identifies receiver components and micro-receiver applications."
+    },
+    {
+      "source_id": "src-b0e154ec35d47c13",
+      "title": "《電子零件》認列信用減損致前3季每股虧20.13元 康控：力保股東權益",
+      "url": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E5%AD%90%E9%9B%B6%E4%BB%B6-%E8%AA%8D%E5%88%97%E4%BF%A1%E7%94%A8%E6%B8%9B%E6%90%8D%E8%87%B4%E5%89%8D3%E5%AD%A3%E6%AF%8F%E8%82%A1%E8%99%A720-13%E5%85%83-%E5%BA%B7%E6%8E%A7-%E5%8A%9B%E4%BF%9D%E8%82%A1%E6%9D%B1%E7%9B%8A-000153119.html",
+      "source_level": 2,
+      "publication_date": "2021-11-15",
+      "effective_period": "Reports on 2017–2018 operating performance.",
+      "locator": "Article text stating 康控 was an Apple iPhone acoustic-components major supplier and that performance peaked in 2017–2018",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary characterization; does not define “major” or specify direct/indirect supply or a measurable denominator."
+    },
+    {
+      "source_id": "src-50c1715ddd3043ab",
+      "title": "美律今年下單金額至少成長三倍？康控-KY：媒體臆測",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0d828734-8038-4093-a214-91e510b9514b",
+      "source_level": 2,
+      "publication_date": "2017-02-13",
+      "effective_period": "Issuer clarification as of 2017-02-13, concerning the reported iPhone 8 waterproofing application.",
+      "locator": "Lines 22–33; issuer's quoted clarification at line 31",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reproduces an issuer announcement stating 康控 was not the direct supplier to the Apple customer for the reported application; this is limited to that report and date."
+    },
+    {
+      "source_id": "src-e24abc44e5703568",
+      "title": "〈蘋果新供應鏈名單〉雙鴻、嘉澤等6台廠新上榜 晶技重返200大名單",
+      "url": "https://news.cnyes.com/news/id/4653452",
+      "source_level": 2,
+      "publication_date": "2021-05-30",
+      "effective_period": "Apple FY2020 supplier list.",
+      "locator": "Article summary and opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 康控's addition to the FY2020 supplier list and describes it as moving from indirect to direct supply; list inclusion alone does not establish “major” status."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核 issuer 產品資料、issuer 澄清轉載及 Apple FY2020 名單相關報導；「主要供應商」的範圍、期間與分母仍無可靠證據可確認。",
+    "官方產品資料支持聲學零組件類別，但未明確以「機構件」作為產品名稱。",
+    "Apple 供應商名單報導可支持名單收錄，不等於供應商排名或採購金額占比。",
+    "2017年 issuer clarification 僅針對當時所報導的 iPhone 8 防水技術應用，不足以否定其他期間或間接供應關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4943/1065/hermes-attempt-1.stdout.txt"
+}

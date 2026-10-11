@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000569",
+  "claim_id": "6147:objective_ranking_or_market_share:55e95765fe157fbc",
+  "normalized_claim_hash": "55e95765fe157fbc1ea1ef7dc91b55a384919e1c348d38e8f914f04e06743106",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e783dbdc2accadacaed0",
+      "title": "公司簡介 | Chipbond",
+      "url": "https://www.chipbond.com.tw/zh-tw/html/about-chipbond",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「全方位、高品質的封裝測試服務」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方列出晶圓凸塊製作（BUMP）、捲帶式薄膜覆晶封裝（COF）及玻璃覆晶封裝（COG）。"
+    },
+    {
+      "source_id": "src-b15820d11f94d901b8dc",
+      "title": "公司簡介 | Chipbond",
+      "url": "https://www.chipbond.com.tw/zh-tw/html/about-chipbond",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「全球顯示器驅動 IC 封裝測試領導者」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方稱頎邦為全球最大顯示器驅動 IC 封裝測試廠，但未列市占百分比或計算口徑。"
+    },
+    {
+      "source_id": "src-2aa7aad715f173d28e44",
+      "title": "挖掘隱形冠軍：頎邦(6147)",
+      "url": "https://www.sie.com.tw/Luckylong/article.do?id=A20240513707199CIB",
+      "source_level": 2,
+      "publication_date": "2024-03-27",
+      "effective_period": null,
+      "locator": "文章首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章稱頎邦在面板驅動 IC 封測領域全球市占 50%；未交代數據期間、分母或計算方法。"
+    },
+    {
+      "source_id": "src-ba29aa46dcf3a4660d8f",
+      "title": "【封測】頎邦(6147)與元太(8069)攜手合作新一代電子紙",
+      "url": "https://uanalyze.com.tw/articles/704235170",
+      "source_level": 2,
+      "publication_date": "2024-04-29",
+      "effective_period": null,
+      "locator": "文章開頭頎邦公司介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手產業分析稱頎邦在 LCD 驅動 IC 封測市占約 48%；未交代數據期間、分母或計算方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核頎邦官方公司簡介及聚焦的二手市場資料；未找到足以界定原 claim 市場範圍、期間與分母的可靠資料，故保留市占率 atom 為 UNKNOWN。",
+    "市占率百分比只見於二手來源，未找到提供數據方法、有效期間及分母的官方披露。",
+    "二手來源所述市場為顯示驅動 IC 封裝測試，不能據此推定 COF、COG 與 BUMP 各自或合併市場的市占率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6147/569/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "3ba4a08a091ac882edc5438d0950df834a626e6b3b022c0d8cfba09a313c8334",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6147/569/isolated-prompt.txt",
+  "prompt_sha256": "7365d8f376d9dcb3e5bbb16c4a938c727f4abd6c3e2da45d584fc47735efd313",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000569/manifest.json",
+  "supersedes_manifest_sha256": "d7c213583ebdce08197ef9ecb146164d5f17f775fe5c23ed99c850cd49858675",
+  "corrected_at": "2026-10-08T09:58:24Z"
+}

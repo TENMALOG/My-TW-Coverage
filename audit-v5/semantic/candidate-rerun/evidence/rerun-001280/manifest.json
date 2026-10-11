@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001280",
+  "claim_id": "5604:identity_changing_event:b3e57d29547603cf",
+  "normalized_claim_hash": "b3e57d29547603cf2dd18a6c24b6b01257e7247829a247e0099789f50bb7b34b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3135dd2605da1b93",
+      "title": "中連誠企業股份有限公司－經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/51125209?fhl=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "名稱變更核准於2021-10-18",
+      "locator": "Company Profile；名稱變更記錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方經濟部登記資料，列出新舊公司名稱及核准日期。"
+    },
+    {
+      "source_id": "src-08b6d25d4d996e86",
+      "title": "中連貨：退出貨運市場後是否將改掛其他類股或是否申請下櫃，目前內部未討論這些議題",
+      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E9%80%A3%E8%B2%A8-%E9%80%80%E5%87%BA%E8%B2%A8%E9%81%8B%E5%B8%82%E5%A0%B4%E5%BE%8C%E6%98%AF%E5%90%A6%E5%B0%87%E6%94%B9%E6%8E%9B%E5%85%B6%E4%BB%96%E9%A1%9E%E8%82%A1%E6%88%96%E6%98%AF%E5%90%A6%E7%94%B3%E8%AB%8B%E4%B8%8B%E6%AB%83-%E7%9B%AE%E5%89%8D%E5%85%A7%E9%83%A8%E6%9C%AA%E8%A8%8E%E8%AB%96%E9%80%99%E4%BA%9B%E8%AD%B0%E9%A1%8C-010217854.html",
+      "source_level": 2,
+      "publication_date": "2019-04-18",
+      "effective_period": "2019年轉型規劃；董事會決議日期為2019-04-03，當時尚待股東會決議",
+      "locator": "公司重大訊息公告內容，第8項「因應措施」之轉型規劃",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Yahoo頁面刊載公司重大訊息公告內容，披露退出貨運並轉型不動產租售業務的決議及當時條件。"
+    },
+    {
+      "source_id": "src-19c2e3939d4a76e9",
+      "title": "中連誠企業股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/wikiviewer.aspx?keyid=20c4769b-cb6b-4c06-a485-a15c2311d66d",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2019年7月",
+      "locator": "公司簡介；沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載公司於2019年7月停止貨運市場並轉型為不動產租賃業務。"
+    },
+    {
+      "source_id": "src-18c26fe8efec0e07",
+      "title": "5604 中連 年報查詢－歷年年報PDF下載・營收分布・致股東報告書",
+      "url": "https://treelazy.com/stock/5604",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度年報所述業務及2026年度營運計畫",
+      "locator": "主要業務描述；未來發展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供租賃及資產出售策略的依據，但未證實此特定企業分類為公司正式定位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對更名登記、2019年業務轉型及年報業務定位的聚焦查證；剩餘不確定性涉及出售是否為核心業務，以及「資產活化型收租企業」是否為正式定位，現有資料不足以消除。",
+    "更名日期以經濟部官方登記為準；2021年10月18日為名稱變更核准登記日期。",
+    "轉型與更名並非同一年事件：退出貨運及轉型決議在2019年，更名核准在2021年。",
+    "工業用不動產租賃及出售的業務定位依第三方年報彙整資料判讀；該頁提及適時出售土地，但沒有證明出售是核心業務。",
+    "「資產活化型收租企業」是分析性描述，未核實為發行人正式用語。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5604/1280/hermes-attempt-1.stdout.txt"
+}

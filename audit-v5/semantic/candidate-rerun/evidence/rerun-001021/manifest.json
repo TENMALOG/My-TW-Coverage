@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001021",
+  "claim_id": "3294:material_named_relationship:779e8c461700907e",
+  "normalized_claim_hash": "779e8c461700907ec870b2bcf16e0e586ba1f73c28224fe1a7622f6a61c8750f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e288ea93738103b9",
+      "title": "英濟股份有限公司及子公司民國一一五年及一一四年第一季合併財務報告",
+      "url": "https://www.megaforce.com.tw/upload/media/ir/financial_report/2026/2026Q1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-03-31",
+      "locator": "附註四(二)合併基礎，PDF第10頁，子公司表列英錡科技及99.91%持股；報告載明2026-05-08經董事會通過",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "英濟官方合併財務報告。"
+    },
+    {
+      "source_id": "src-84d774de290aa38d",
+      "title": "英濟旗下光電事業英錡科技 成功開發極輕量AR成像模組",
+      "url": "https://www.megaforce.com.tw/zh-tw/News/Article?sn_id=29&y=2021",
+      "source_level": 3,
+      "publication_date": "2021-06-08",
+      "effective_period": "截至2021-06-08",
+      "locator": "新聞稿第101、115行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及概念樣品、共同開發及AR穿戴產品設計，未稱已進入智慧眼鏡供應鏈。"
+    },
+    {
+      "source_id": "src-49fac1eebe217f81",
+      "title": "LBS Light Engine for AR and Micro Laser Projector",
+      "url": "https://mega1.com.tw/en/product_info.php?id=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "產品頁查閱日：2026-10-07",
+      "locator": "產品頁第9–29行，特徵列有1.2cc及「Laser Safety Class 1」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "製造商產品頁可支持其自述的Class 1標示，但不能單獨證明正式認證已核發。"
+    },
+    {
+      "source_id": "src-dac7253614e61b88",
+      "title": "英濟旗下光電事業生力軍入列 獲日本客戶高度肯定",
+      "url": "https://www.megaforce.com.tw/zh-tw/News/Article?sn_id=36&y=2022",
+      "source_level": 3,
+      "publication_date": "2022-05-24",
+      "effective_period": "截至2022-05-24",
+      "locator": "新聞稿第101–111行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載日本客戶內部工業AR應用實績及工業顯示方案，不等同智慧眼鏡供應鏈供貨。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦檢索／查核回合；正式Class 1認證文件及AR智慧眼鏡供應鏈實際供貨的範圍仍無可核驗證據，依任務限制停止並將相關原子主張列為UNKNOWN。",
+    "持股比例來自英濟官方合併財務報告；技術、規格及客戶應用資料主要來自公司或產品製造商自述。",
+    "產品頁的Class 1標示不等同於可核驗的認證證書。",
+    "工業AR顯示方案的客戶應用、概念樣品及共同開發，均不能替代AR智慧眼鏡供應鏈實際供貨的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3294/1021/hermes-attempt-1.stdout.txt"
+}

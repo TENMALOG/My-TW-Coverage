@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001035",
+  "claim_id": "3362:material_named_relationship:2deae2e6e89ce420",
+  "normalized_claim_hash": "2deae2e6e89ce42068972f8ba2849f253c973a8787f3c6319fdde1f49cf9cfcb",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6fc45ddba7ad53cc",
+      "title": "先進光：機器人鏡頭訂單出貨 車用成長明年拚倍增",
+      "url": "https://www.cna.com.tw/news/afe/202412270300.aspx",
+      "source_level": 2,
+      "publication_date": "2024-12-27",
+      "effective_period": "2024-12-27 法說會當時；2025 年占比為預估",
+      "locator": "lines 295-296",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述董事長稱車用占比近 10%，並預估 2025 年約 15%。"
+    },
+    {
+      "source_id": "src-44549e2b57328fb6",
+      "title": "車用鏡頭成長，先進光今年營收續攻",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=5cf43639-ba99-4b9d-b467-023e95041faa",
+      "source_level": 2,
+      "publication_date": "2018-02-21",
+      "effective_period": "報導稱 2017 年起的供貨",
+      "locator": "lines 22-25",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導指先進光初期供應 Volvo 環景鏡頭。"
+    },
+    {
+      "source_id": "src-9e09bbdf5b4eb537",
+      "title": "《認識熱門股》轉型展露成效的華晶科(3059)、先進光(3362)",
+      "url": "https://uanalyze.com.tw/articles/319274135",
+      "source_level": 2,
+      "publication_date": "2023-11-22",
+      "effective_period": "截至 2023-11-22 的報導；包含 2024 年目標",
+      "locator": "lines 108-108",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱當時車用鏡頭約占營收 5%，並以 2024 年超過 10% 為目標；屬二手報導及目標值。"
+    },
+    {
+      "source_id": "src-1768e6ec15d9f6a6",
+      "title": "先進光電官方產品頁：行車應用產品",
+      "url": "https://www.aoet.com/product/56527cac95c5a/detail",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方頁面於 2026-10-07 查核",
+      "locator": "lines 23-43",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品目錄列出行車紀錄器 CCM 與 Automotive SD CCM。"
+    },
+    {
+      "source_id": "src-668e652fe9be9edc",
+      "title": "先進光 2024 年股東會年報（官方英文版）",
+      "url": "https://www.aoet.com/investor/download/shareholdermeetingrelated/694273d957f6c/journal_file",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報列示 2022-2024 年產品開發成果",
+      "locator": "產品研發成果表，p.109；2022 年項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明完成車用 5M DMS 鏡頭開發。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方年報與產品目錄，以及媒體對 Volvo 供應鏈和營收組合的報導；未找到足以確認其他歐系車廠供貨、NB 市場「穩固」或恰有三大成長領域的可靠證據，這些原子維持 UNKNOWN。",
+    "Volvo 供應鏈及環景鏡頭證據主要為 2018 年媒體報導，僅支持歷史關係。",
+    "Tier 1 路徑與 2023 年約 5% 車用占比來自二手報導；後者為當時報導值，不是年度審計分部數據。",
+    "2024 年約 10% 為管理層在法說會所述當時營收組合，並非 2026 年現況。",
+    "官方年報支持 DMS 鏡頭已完成開發，不等同證明該鏡頭已量產出貨。",
+    "官方產品目錄列有行車紀錄器 CCM，但未建立其與 Volvo 或其他車廠的特定供貨關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3362/1035/hermes-attempt-1.stdout.txt"
+}

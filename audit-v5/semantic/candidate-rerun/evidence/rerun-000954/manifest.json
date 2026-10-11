@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000954",
+  "claim_id": "6530:material_named_relationship:4d2b4989231e6648",
+  "normalized_claim_hash": "4d2b4989231e664823786b5eeefe86f9697bdd863af41f54bf8c5b9cf3abe247",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a7792f13c4317189",
+      "title": "創威光電104年度年報",
+      "url": "https://www.axcen.com.tw/upload/doc/201703291452420.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2015年度",
+      "locator": "年度報告相關客戶與供應商說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年度報告不能證明2015年度之後或目前的狀態。"
+    },
+    {
+      "source_id": "src-e7f6d9bb029958b7",
+      "title": "創威光電公司新聞：獲中華電信A級供應商評比相關公告",
+      "url": "https://www.axcen.com.tw/tw/news/12/44?page=1",
+      "source_level": 3,
+      "publication_date": "2015-07-23",
+      "effective_period": "截至公告時",
+      "locator": "公告全文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅支持歷史狀態，未載明目前效期或持續供貨。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "所查官方發行人資料支持2015年前後的歷史供貨與A級評比，但未解決目前狀態或正式認證性質；因此保留相關原子主張為UNKNOWN。",
+    "主要證據來自發行人自身公開資料，並非中華電信對當前供應商狀態的獨立確認。",
+    "資料描述的是歷史供應關係與評比；未披露供貨起訖、評級效期、評比標準或適用範圍。",
+    "「A級評比」不能僅憑現有資料改寫為正式「認證」。",
+    "此為特定客戶關係主張，來源未提供可用於計算市場占比的分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6530/954/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000736",
+  "claim_id": "4590:objective_ranking_or_market_share:fdd0dd5d84053326",
+  "normalized_claim_hash": "fdd0dd5d840533267fa457d3fe29541bdac5b78bee0df41ff39dd1b4d4a23434",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-93058db0029d90c0db84",
+      "title": "全球最大電動車品牌「心臟」 富田電機成特斯拉最老供應商",
+      "url": "https://www.cna.com.tw/news/firstnews/202102070018.aspx",
+      "source_level": 2,
+      "publication_date": "2021-02-07",
+      "effective_period": "2015",
+      "locator": "Section 「曾有2年零收入又被拖欠貨款 富田咬牙不放棄」; paragraph beginning 「2015年9月Model X」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社 states that Tesla was 富田電機's single largest customer in 2015; no sales amount or customer-share denominator is provided."
+    },
+    {
+      "source_id": "src-aeb63d507cde207f7724",
+      "title": "全球最大電動車品牌「心臟」 富田電機成特斯拉最老供應商",
+      "url": "https://www.cna.com.tw/news/firstnews/202102070018.aspx",
+      "source_level": 2,
+      "publication_date": "2021-02-07",
+      "effective_period": "2005–2021",
+      "locator": "Headline; paragraph beginning 「越過1萬多公里太平洋海域」; section 「特斯拉跨海找夥伴 台灣電動車馬達啟動」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report describes 15 years of cooperation and calls 富田電機 Tesla's oldest supplier; it does not identify the comparison cohort."
+    },
+    {
+      "source_id": "src-259bc3dcf82f38c5a319",
+      "title": "面對「蘋果化」的特斯拉，要求供應商分散生產據點⋯⋯富田電機如何穩定獲利？",
+      "url": "https://esg.businesstoday.com.tw/article/category/180689/post/202311300026",
+      "source_level": 2,
+      "publication_date": "2023-11-30",
+      "effective_period": "As reported in 2023",
+      "locator": "Opening paragraphs on cooperation since 2005 and the paragraph beginning 「目前特斯拉的訂單」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that 富田電機 remained a Tesla supplier and that Tesla orders were about 15% of 富田電機 revenue. This does not establish a supplier-tenure ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source-page checks located dated reporting for both historical descriptions and a 2023 supplier/revenue update, but no official disclosure or defined comparison set that resolves the original undated rankings.",
+    "The ranking evidence is secondary reporting, not an issuer filing establishing customer-level sales or a defined supplier comparison cohort.",
+    "The 2023 report's approximately 15% figure is Tesla orders as a share of 富田電機 revenue; it does not establish that Tesla was the largest customer.",
+    "The original wording has no period. The evidence supports historical, dated descriptions only."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4590/736/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2249363e69359146191710c3bd93b6116f94a18022a559118fed3a83e68d2666",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4590/736/isolated-prompt.txt",
+  "prompt_sha256": "ab73473f755eef919bbc1917217787860bb56d8348fea6a58ff87c26dbcd0d66",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000736/manifest.json",
+  "supersedes_manifest_sha256": "45ab9150680bae9c569fe257323f773ec2597bf26a15247a437191a26e89915b",
+  "corrected_at": "2026-10-08T09:58:39Z"
+}

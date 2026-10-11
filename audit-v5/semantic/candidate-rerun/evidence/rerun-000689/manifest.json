@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000689",
+  "claim_id": "2108:objective_ranking_or_market_share:2ea49757ee9617b6",
+  "normalized_claim_hash": "2ea49757ee9617b64e4350a07e60ee181b9ca42798a97a0e4830b859347dac59",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b96aa8c4a1e155da",
+      "title": "List of Principle Shareholders: — NANTEX Industry Co., Ltd.",
+      "url": "https://www.nantex.com.tw/index.php?id=430&index=3&lang=en&option=module&task=pageinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2025-03-31",
+      "locator": "List of Principle Shareholders; Tainan Spinning Co., Ltd. — 105,549,052 shares; 21.43%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "南帝官方列示臺南紡織為主要股東。"
+    },
+    {
+      "source_id": "src-1cf416c456a862ae",
+      "title": "公司治理架構 — 南帝化學工業股份有限公司",
+      "url": "https://www.nantex.com.tw/index.php?id=321&index=2&lang=cht&option=module&task=pageinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第十七屆董事會董事簡歷；侯博明兼任「集團總裁：臺南紡織公司、南帝化工公司」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "南帝官方治理頁面將兩家公司列於同一集團總裁職務。"
+    },
+    {
+      "source_id": "src-bd47874fe043dcf8",
+      "title": "【彼得林區：快速成長股】南帝(2108)：全球前五大、台灣第一大NBR橡膠製造廠【優分析專欄】",
+      "url": "https://api.uanalyze.com.tw/archives/%E3%80%90%E5%BD%BC%E5%BE%97%E6%9E%97%E5%8D%80%EF%BC%9A%E5%BF%AB%E9%80%9F%E6%88%90%E9%95%B7%E8%82%A1%E3%80%91%E5%8D%97%E5%B8%9D%282108%29%EF%BC%9A%E5%85%A8%E7%90%83%E5%89%8D%E4%BA%94%E5%A4%A7%E3%80%81%E5%8F%B0%E7%81%A3%E7%AC%AC%E4%B8%80%E5%A4%A7NBR%E6%A9%A1%E8%86%A0%E8%A3%BD%E9%80%A0%E5%BB%A0",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章提出全球市佔約12%，未提供年份、計算方式或市場分母。"
+    },
+    {
+      "source_id": "src-e18e57e0396ecc7c",
+      "title": "南帝 (2108) NBR乳膠產能陸續投放，2021年成長將放緩",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=238153",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較早的二手分析提到約11%，但未給出市佔分母或足以對齊原 claim 的市場定義；不構成同期間直接反證。"
+    },
+    {
+      "source_id": "src-a5f853876200fb3e",
+      "title": "Overview of Business Operation — NANTEX Industry Co., Ltd.",
+      "url": "https://www.nantex.com.tw/index.php?id=397&index=4&lang=en&option=module&task=pageinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Key Products / Capacity, MT/Y table",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁列NBR/SBR合成乳膠：林園253,000、鎮江66,900 MT/Y；NANCAR NBR橡膠：林園14,400、鎮江40,700 MT/Y。頁面未標示該表的有效期間，且產品類別分列，不能據此確認原文約18萬噸的口徑。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行多輪針對南帝官方網站、股東資料、產能頁及二手排名說法的集中檢索；仍未找到可明確界定排名期間、產品市場及市佔分母的可靠資料。依研究限制停止，未解決的排名、18萬噸產能與12%市佔原子維持UNKNOWN。",
+    "官方來源支持臺南紡織與南帝的股權及治理關聯；僅憑這些資料不推定兩家公司間的會計合併關係。",
+    "南帝官方營運頁把NBR/SBR合成乳膠與NBR橡膠分開列示，且未標示該產能表適用日期。",
+    "全球與台灣排名、市佔及18萬噸產能說法出現在二手資料中，缺少明確的期間、產品範圍或市場分母；未以附近年度或不同產品數據替代驗證。",
+    "二手文章的市佔數字不一致，且未提供可核對的計算口徑，故未將其判定為支持或直接反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2108/689/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001252",
+  "claim_id": "2221:export_concentration:abc1d459bf42c9b4",
+  "normalized_claim_hash": "abc1d459bf42c9b43de4d8899cffc7e13d9f1192ec823fc54052072c74f78132",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a293920a0207df09",
+      "title": "大甲化工級看穩，潔淨級續受惠陸半導體建廠",
+      "url": "https://m.moneydj.com/f1a.aspx?a=3f772ebb-4340-4724-9e1b-92b7e55f9bb0",
+      "source_level": 2,
+      "publication_date": "2018-01-10",
+      "effective_period": "Contemporary to the article.",
+      "locator": "Article paragraph beginning「大甲為國內不鏽鋼管件製造廠」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports petrochemical-related applications and Japan as the main export market separately; does not identify Japanese end-user industries."
+    },
+    {
+      "source_id": "src-1e58726c055a36a6",
+      "title": "大甲永和機械工業股份有限公司—關於大甲永和",
+      "url": "https://www.yhmco.com.tw/aboutus/aboutus.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「化工級事業部」用途 and 「外銷國家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists product applications and export countries, but does not cross-tabulate destination by customer industry."
+    },
+    {
+      "source_id": "src-b2568ab9720a45e7",
+      "title": "大甲永和機械工業股份有限公司 110年度年報",
+      "url": "https://www.yhmco.com.tw/investor/annual-reports/110-annual-reports.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal year 2021 and longer-term planning statements.",
+      "locator": "PDF p. 70, lines 3401–3408",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls Japan a long-standing main market for the chemical-grade business; does not quantify destination shares."
+    },
+    {
+      "source_id": "src-e4ca92e8c6badd24",
+      "title": "大甲永和機械工業股份有限公司 110年度股東常會議事手冊（含109年度營業報告書）",
+      "url": "https://www.yhmco.com.tw/investor/shareholder/110/110-handbook.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal year 2020.",
+      "locator": "PDF p. 7, lines 161–165",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Japan and the United States together as the chemical-grade products' main export markets."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of issuer reports and company product information found support for the historical revenue-share and Japan-market components, but no evidence resolving the Japan-specific customer-industry linkage or establishing the unqualified claim for a defined current period.",
+    "The approximately 50% revenue share is historical secondary reporting; the exact accounting period and consolidated-versus-parent revenue basis are not stated.",
+    "Issuer disclosures support Japan as a major market but also name the United States; no quantified Japan share of chemical-grade exports was located.",
+    "Evidence about petrochemical applications and Japan as an export destination does not by itself establish that exports were principally to Japanese petrochemical buyers."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2221/1252/hermes-attempt-1.stdout.txt"
+}

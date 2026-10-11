@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001267",
+  "claim_id": "2065:export_concentration:69d8c9071bd12cd0",
+  "normalized_claim_hash": "69d8c9071bd12cd0d42c1fabf687e0772939e54593144879aaf7a85541e0e36f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-93554024882b58b0",
+      "title": "世豐螺絲股份有限公司114年度年報",
+      "url": "https://www.shehfung.com/userfiles/%E4%B8%96%E8%B1%90-114%E5%B9%B4%E5%B9%B4%E5%A0%B1_Fianl_%E5%85%AC%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度（民國114年度）年報所述",
+      "locator": "第79頁「產品之競爭情形」；第86頁「主要產品的重要用途」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報說明最大宗用途包括DIY市場、建築工程及戶外修繕；並列主要用途為建築工程、戶外及居家DIY修繕。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得公司官方114年度年報，可核實2025年度地區銷售及產品用途；原主張未標明比重期間，歷史期間適用性仍無法確認。",
+    "原主張未指定外銷比重的年度；2025年度年報可核實該年度，不能推定其他年份。",
+    "年報分別披露地區銷售占比與產品用途，未披露「歐美建材市場」這個地區與終端用途交叉口徑的營收占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2065/1267/hermes-attempt-1.stdout.txt"
+}

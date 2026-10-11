@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001160",
+  "claim_id": "1805:identity_changing_event:b1553d11666a2a52",
+  "normalized_claim_hash": "b1553d11666a2a52a87ce3eb5d8c9a31e14277c32f2670066f0ba2e010a488f6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-962551bfdf1f011e",
+      "title": "寶徠建設股份有限公司 109 年度個體財務報告暨會計師查核報告",
+      "url": "https://blgroup.com.tw/wp-content/uploads/2021/06/109%E5%B9%B4%E5%BA%A6%E5%80%8B%E9%AB%94%E8%B2%A1%E5%A0%B1%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2009年6月26日股東會決議；2009年7月24日核准",
+      "locator": "公司沿革，第1節",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載更名為「寶徠建設股份有限公司」及經濟部核准日期。"
+    },
+    {
+      "source_id": "src-929cf50ab4d295dd",
+      "title": "經濟部商工登記公示資料查詢：寶徠建設股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/12179563",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2009年7月24日名稱變更登記",
+      "locator": "公司基本資料；名稱變更紀錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "登記記載前名稱為「凱聚股份有限公司」。"
+    },
+    {
+      "source_id": "src-92ba720696312a5f",
+      "title": "關於寶徠・寶徠建設股份有限公司",
+      "url": "https://blgroup.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2009年7月",
+      "locator": "公司沿革／大事紀，2009年7月",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網記載公司更名為「寶徠建設股份有限公司」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方公司財報、公司沿革及經濟部登記資料已足以核實名稱與更名年份；原句僅部分成立。",
+    "「凱聚建設」與官方記載的原名「凱聚股份有限公司」不同；應以登記名稱為準。",
+    "官方財報及官網均可支持2009年更名；財報另列出股東會決議日及主管機關核准日。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1805/1160/hermes-attempt-1.stdout.txt"
+}

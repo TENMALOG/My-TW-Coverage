@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000083",
+  "claim_id": "2892:objective_ranking_or_market_share:ed08854a9f3fb74e",
+  "normalized_claim_hash": "ed08854a9f3fb74ed0d2ae905474a74b71864d41ae3aee6c003dee6ed65c0fe9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-457273d572240086",
+      "title": "公司簡介",
+      "url": "https://www.firstholding.com.tw/sites/firstholding/about/overview",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "第一金控成立日：2003-01-02",
+      "locator": "公司簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供比較集合中第一金控的成立日期。"
+    },
+    {
+      "source_id": "src-7b1a39fc0f6dc9b7",
+      "title": "公股管理業務簡介",
+      "url": "https://www.nta.gov.tw/singlehtml/245?cntId=nta_570_245",
+      "source_level": 3,
+      "publication_date": "2020-02-25",
+      "effective_period": "頁面更新日期：2020-12-24；列示財政部所管直接投資具經營主導權事業",
+      "locator": "「公股管理業務簡介」正文，本部所管金融業者名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出臺灣金控、兆豐金控、第一金控、華南金控及合作金庫金控；可界定一個官方比較集合，但沒有將其稱為全部「泛公股金控」。"
+    },
+    {
+      "source_id": "src-968d30da9af71d66",
+      "title": "華南金控-設立沿革",
+      "url": "https://www.hnfhc.com.tw/HNFHC/info/a.do",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "華南金控設立日：2001-12-19（民國90年12月19日）",
+      "locator": "設立沿革首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供官方比較集合中華南金控的設立日期。"
+    },
+    {
+      "source_id": "src-929f1bf518e8389c",
+      "title": "Mega Holdings - Profile of the Company",
+      "url": "https://megaholdings.com.tw/en/about.aspx?cid=51",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "兆豐金控前身交銀金融控股設立日：2002-02-04",
+      "locator": "Company Profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介稱公司於2002年2月4日由交通銀行與國際綜合證券股份轉換組成；並記載2002年12月31日更名為兆豐金融控股。"
+    },
+    {
+      "source_id": "src-68ccad2a2137d284",
+      "title": "Company Profiles",
+      "url": "https://twfhc.com.tw/eng/tfh/tfh_1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "臺灣金控成立日：2008-01-01",
+      "locator": "Company Profiles",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介載明臺灣金控於2008年1月1日成立。"
+    },
+    {
+      "source_id": "src-f272a11c8d719431",
+      "title": "基本資料",
+      "url": "https://www.tcfhc.com.tw/investors-relations/overview/profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "合庫金控成立日：2011-12-01",
+      "locator": "基本資料中的「成立日期」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料列明成立日期為2011.12.1。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核第一金控官方成立資料及財政部與相關金控官方資料。成立年份已確認；但原文未界定「泛公股」比較母體及「之一」的排名門檻，現有證據不足以支持或否定該排名 atom，故保留 UNKNOWN。",
+    "成立年份由第一金控官方資料直接支持。",
+    "財政部國庫署資料支持一個具體的公股金融控股公司比較集合，但未定義原文所稱「泛公股」的範圍。",
+    "「歷史最悠久之一」未指定排名界線；不能僅以某一較窄比較集合中的成立日期排序，推定原文的完整排名主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2892/83/hermes-attempt-1.stdout.txt"
+}

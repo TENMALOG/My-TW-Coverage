@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001281",
+  "claim_id": "8087:identity_changing_event:edf6dae43adbf07e",
+  "normalized_claim_hash": "edf6dae43adbf07e7e1dd1352a9e2a1b25c604a365c60b68bc9defbaf7ba78f5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-11609b3adcc8201a",
+      "title": "經濟部商工登記公示資料查詢：麗升能源科技股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/16203494",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Registered name modification: 2024-06-07",
+      "locator": "Name-change record: “modified Company Name on 2024/06/07”; prior entry dated 2024/04/16 remains 華鎂鑫科技股份有限公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official registry dates the registered name modification to June 7, 2024."
+    },
+    {
+      "source_id": "src-3aa334b65be4940c",
+      "title": "櫃買中心：麗升能源科技股份有限公司更名換發新股公告",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11308/11300085481.html",
+      "source_level": 3,
+      "publication_date": "2024-08-22",
+      "effective_period": "New shares began trading 2024-09-23",
+      "locator": "Notice paragraphs 3–6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the subsequent share-replacement and trading dates; it does not support a May effective date."
+    },
+    {
+      "source_id": "src-84b58ea3239d870d",
+      "title": "華鎂鑫股東會通過更名為麗升能源科技(股)",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=428d1137-d0d8-404e-91ac-edfd88821b2a",
+      "source_level": 2,
+      "publication_date": "2024-05-24",
+      "effective_period": "Shareholders’ meeting held 2024-05-24",
+      "locator": "Announcement details, items 1 and 5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reproduces a MOPS material announcement reporting that the shareholders’ meeting approved the name change on May 24, 2024."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official registry and TPEX records resolve the distinction between the May shareholder approval and the June registered name change; no unresolved material atom remains.",
+    "The May 24 approval-date evidence is a secondary reproduction of a MOPS announcement; the June 7 registration date and prior name are confirmed by the official MOEA registry.",
+    "The TPEX notice concerns the later replacement of shares and start of trading under the renamed company; it is not the source for the May approval date."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8087/1281/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001007",
+  "claim_id": "3019:material_named_relationship:e944b5a68d31bb6d",
+  "normalized_claim_hash": "e944b5a68d31bb6dd077a65f91a53068352b05b6a579eacb4351d7799de86c65",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ee7fea5f7f842c72",
+      "title": "車載鏡頭｜亞洲光學股份有限公司",
+      "url": "https://www.asia-optical.com/product_detail.php?lang=tc&serial=7506",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「車載鏡頭」產品頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證明產品線存在，但不提供其相對於其他產品的銷售或獲利比重。"
+    },
+    {
+      "source_id": "src-8c31eaeabf2eae1e",
+      "title": "特斯拉的眼睛、小米掃地機器人：「鏡頭界鴻海」亞光如何翻身？｜天下雜誌",
+      "url": "https://www.cw.com.tw/article/5118836",
+      "source_level": 2,
+      "publication_date": "2021-11-08",
+      "effective_period": "報導亞光早期車用鏡頭合作及 Tesla 供貨。",
+      "locator": "第 390–398 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導的合作內容是 BMW、Mercedes-Benz 相關的車用鏡頭脈絡及 Tesla 供貨，未提 Continental。"
+    },
+    {
+      "source_id": "src-7169a4d444821a9f",
+      "title": "亞光各產品線正向 車載鏡頭接單1200萬顆｜自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4973108",
+      "source_level": 2,
+      "publication_date": "2025-03-07",
+      "effective_period": "報導 2024–2025 年車載鏡頭接單情況及當時的供應鏈描述。",
+      "locator": "第 73–76 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱亞光是 Tesla 供應鏈成員，但未指出純視覺車款或特定 Tesla 專案。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成六輪聚焦檢索與來源核對；Tesla 車載鏡頭關係有媒體佐證，但純視覺專案歸屬及 Bosch、Continental 供貨關係仍缺乏可核驗證據，故保留為 UNKNOWN。",
+    "Tesla 供應關係由媒體報導及受訪者說法支持；本次未找到 issuer 官方具名客戶公告。",
+    "2021 年天下雜誌的「雙B」段落指 BMW、Mercedes-Benz，並非 Bosch；相關敘述也不證明亞光直接供貨 Bosch 或 Continental。",
+    "亞光官方車載鏡頭產品頁證明產品線存在，但未列客戶名單或核心產品的量化定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3019/1007/hermes-attempt-1.stdout.txt"
+}

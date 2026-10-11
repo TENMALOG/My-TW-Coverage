@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001117",
+  "claim_id": "9945:material_named_relationship:62688d7d62c26d93",
+  "normalized_claim_hash": "62688d7d62c26d93f1379cf3fb70b3dc69f2d4722c009b1702b8cded4bf85614",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a48e27430964e862",
+      "title": "潤泰創新響應綠色採購　獲臺北市政府表揚績優企業",
+      "url": "https://www.rt-develop.com.tw/tw/News/active/2026/default_url9QLiiJ",
+      "source_level": 3,
+      "publication_date": "2026-07-03",
+      "effective_period": null,
+      "locator": "內文「供應鏈管理方面」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱營建業別主要大宗建材（鋼筋、混凝土）的供應商皆位於台灣，並報告2024年度鋼筋使用量中66.18%為使用資源再生鋼胚生產之鋼材；未點名供應商或說明中鋼的供應占比、排名。"
+    },
+    {
+      "source_id": "src-2ed9fd639c211e11",
+      "title": "SDGs | 2023 年亮點績效",
+      "url": "https://esg.rt-develop.com.tw/storage/2025/08/2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "SDG 12「永續的消費與生產模式」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告稱主要大宗建材（鋼筋、混凝土）供應商皆位於台灣，在地採購比例達100%；沒有具名鋼筋供應商或主要供應商排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已聚焦檢索潤泰創新官方新聞、ESG報告及供應鏈資料；找到的官方披露未具名中鋼，也未量化其鋼筋供應排名或占比，因此將未解主張保留為UNKNOWN。",
+    "公司公開資料支持的是供應商所在地或彙總採購資訊，並非中鋼與潤泰新的具名供應關係。",
+    "「主要供應商」缺少期間、採購分母及判定標準；不能以在地採購比例或再生鋼胚使用比例替代。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9945/1117/hermes-attempt-1.stdout.txt"
+}

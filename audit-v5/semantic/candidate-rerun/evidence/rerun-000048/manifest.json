@@ -1,0 +1,77 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000048",
+  "claim_id": "2228:objective_ranking_or_market_share:53a88eea8833176f",
+  "normalized_claim_hash": "53a88eea8833176f5e247409b6119016ec2cabb3e54340e9bace0d7b989b178d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "irf-2025-annual-report-en",
+      "title": "Iron Force Industrial Co., Ltd. 2025 Annual Report (English translation)",
+      "url": "https://www.irf.biz/en/download/2025%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-28",
+      "effective_period": "FY2025; annual report published 2026-02-28.",
+      "locator": "PDF pp.168–169 (printed pp.165–166): current major products include Impact Airbag Inflator Sub Assembly and Precision Pipe & Pinion of Pretensioner Seatbelt. PDF pp.171–172 (printed pp.168–169) lists Group A and Group B as principal sales customers for 2024/2025, with 49.73% and 23.27% of 2025 sales respectively; names are anonymized.",
+      "source_sha256": "9c649fd2ec1ba2587859358a6aedbdc3dbe23f04690f776e062c5273cad169e2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/48/jianlin-2025-annual-report-en.pdf",
+      "note": "Current issuer disclosure supports the products and customer concentration, but does not identify named customers or their product-specific share."
+    },
+    {
+      "source_id": "irf-2014-investor-presentation",
+      "title": "Iron Force Industrial Co., Ltd. investor presentation (2014-03-28)",
+      "url": "https://www.irf.biz/download/IronForce140328%E6%B3%95%E8%AA%AA%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": "2014-03-28",
+      "effective_period": "Historical customer and product-share data for 2012.",
+      "locator": "PDF p.9: customer table lists Autoliv with 55% of airbag-supplier sales and 41% of seatbelt-supplier sales; Autoliv, Takata and TRW total 93% of airbag sales, 79% of seatbelt sales and 88% overall (2012). Iron Force estimates its own 2012 pretensioner tube share at 15.09% and airbag-inflator-parts share at 12.78%.",
+      "source_sha256": "e757c89e70aafa7d5314d315d617d5195a0abff00373ffd4715da2910f484398",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/48/jianlin-2014-market-share-presentation.pdf",
+      "note": "Issuer primary source. The customer-system percentages and Iron Force part-share estimates refer to different subjects and must not be conflated."
+    },
+    {
+      "source_id": "importinfo-zf-passive-safety",
+      "title": "ImportInfo: ZF Passive Safety Systems US Inc. U.S. import activity",
+      "url": "https://www.importinfo.com/zf-passive-safety-systems-us-inc",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Bills of lading accessed 2026-10-06; entries dated 2026-09-15 include shipments by Iron Force Industrial.",
+      "locator": "Visible bill-of-lading rows dated 2026-09-15 list IRON FORCE INDUSTRIAL as shipper and ZF PASSIVE SAFETY SYSTEMS A / ZF PASSIVE SAFETY SYSTEMS US INC as consignee/notify party. Descriptions include AUTO PARTS (TUBE ROHR), AUTO PARTS (TUBE INFLATOR), and other auto parts; this supports recent shipments, not customer materiality or annual sales share.",
+      "source_sha256": "303a5511341d7822a81387cab07b5ed4c43fab84c400ad8a64ffdb5128e27ede",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/48/importinfo-zf-passive-safety.html",
+      "note": "Trade-data aggregator; manifest descriptions are not a substitute for issuer customer-sales disclosure."
+    },
+    {
+      "source_id": "importinfo-joyson-safety-systems",
+      "title": "ImportInfo: Joyson Safety Systems Acquisition LLC U.S. import activity",
+      "url": "https://www.importinfo.com/joyson-safety-systems-acquisition-l",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Bills of lading accessed 2026-10-06; entries dated 2026-07-17 through 2026-09-05 include shipments by Iron Force Industrial.",
+      "locator": "Visible entries list IRON FORCE INDUSTRIAL as shipper and JOYSON SAFETY SYSTEMS ACQUISITION LLC as consignee. Commodity descriptions state AUTO PARTS; one July 17, 2026 entry says AUTO PARTS (CCI HOUSING). They do not specifically identify airbag shells or pretensioner tubes.",
+      "source_sha256": "6d6f9bdea015e0d81314168e2ec6615dbd078000995f28b5d12299ad31cbc1d4",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/48/importinfo-joyson-safety-systems.html",
+      "note": "Trade-data aggregator; supports shipments of auto parts to Joyson but not the precise product or customer ranking."
+    },
+    {
+      "source_id": "gmi-2026-airbag-inflator-market",
+      "title": "Global Market Insights: Automotive Airbag Inflator Market Statistics, 2026–2035",
+      "url": "https://www.gminsights.com/industry-analysis/automotive-airbag-inflator-market",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Page accessed 2026-10-06; reported market shares are for 2023.",
+      "locator": "Market-share section reports Autoliv 43.71%, ZF 11.56%, and Joyson Safety Systems 7.83% of the 2023 automotive airbag-inflator market (combined 63.10%). This is a secondary estimate for a broader inflator market and not the specific upstream inflator-shell/pretensioner-tube market in the claim.",
+      "source_sha256": "dd96de39b9600f9e68e908d1fdb440de59cf56882515beed9eb20b09e3bce465",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/48/gmi-2026-airbag-inflator-market.html",
+      "note": "Used as an adjacent-market cross-check only; its market definition differs from the component-level claim."
+    }
+  ],
+  "search_notes": [
+    "將現行產品、各具名客戶關係、客戶是否屬主要客戶，以及 90%+ 市占拆成獨立判斷。",
+    "核對劍麟2025年英文年報、2014年官方法說簡報及截至2026年的美國進口提單彙整。年報確認現行產品但把大客戶匿名為Group A/B。",
+    "2014年官方簡報以2012資料區分客戶端集中度（Autoliv/Takata/TRW）與劍麟自己的零件市占；兩者不可互換。",
+    "2026年提單支持對ZF與Joyson出貨汽車零件，但Joyson貨品描述未具體列出氣囊殼體或預縮器管件，且提單不能證明客戶營收重要性。",
+    "查到的2023年全球氣囊充氣器市場估算中，Autoliv、ZF、Joyson合計63.10%；其市場邊界不同於上游殼體/管件，因此沒有將該數字直接套用或當作嚴格反證。",
+    "沒有找到與原句同期間、同產品範圍且說明分母的90%+來源；保留 UNKNOWN。"
+  ]
+}

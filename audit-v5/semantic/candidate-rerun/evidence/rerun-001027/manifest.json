@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001027",
+  "claim_id": "3311:material_named_relationship:f8cb824b540d0ac2",
+  "normalized_claim_hash": "f8cb824b540d0ac2484696fd0cac3e2ec0ee5ee5badef78b5abc4167e03bd0d0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-87c1235c982021ce",
+      "title": "〈閎暉車用新技術〉車用玻璃首度打入日系車廠 今年第3季量產出貨",
+      "url": "https://gfemobile.cnyes.com/news/id/4560666",
+      "source_level": 2,
+      "publication_date": "2021-01-14",
+      "effective_period": "報導時點；報導稱供貨週期長達八年，未列出起訖日期",
+      "locator": "正文第 33 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "唯一找到明確支持 BMW 與「獨家供應」的來源；為二手報導。"
+    },
+    {
+      "source_id": "src-d23863f162ed5580",
+      "title": "2D/3D Glass — 閎暉官方產品頁",
+      "url": "https://www.silitech.com/Product_Class.aspx?BigClassID=712cf087-503c-4781-bac0-12c08a6c900f",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "檢索時可見的官方產品頁；頁面未標示發布日期",
+      "locator": "產品列表及說明，正文第 43–52 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有車用遙控器 3D 曲面玻璃產品；未提及 BMW、智慧鑰匙或獨家供應。"
+    },
+    {
+      "source_id": "src-734d98c59ff203e8",
+      "title": "閎暉實業董事會通過子公司旭榮公司其所屬工廠逐步減產後依法關廠",
+      "url": "https://www.silitech.com/CH/event_detail.aspx?ID=b2cbf74b-0f65-4415-9a67-f21426372f71",
+      "source_level": 3,
+      "publication_date": "2020-04-09",
+      "effective_period": "2020 年公告",
+      "locator": "正文第 36–37 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公告提及汽車 3D 玻璃車用鑰匙產品及工廠逐步減產；未點名 BMW，也未說明該供應關係或獨家性是否延續。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索：找到支持 2021 年歷史關係的二手報導，以及閎暉官方對一般車用鑰匙玻璃產品的披露；未找到可確認目前 BMW 供應關係或獨家性的官方證據，故未將其外推至現在。",
+    "BMW 及獨家供應的明確證據來自一篇二手媒體報導，而非目前可查得的閎暉官方披露或監管文件。",
+    "閎暉官方資料支持其有車用鑰匙／遙控器玻璃產品，但未確認 BMW 客戶身分或獨家供應。",
+    "原主張未標示期間；2021 年的歷史報導不能單獨證明截至 2026 年關係仍有效。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3311/1027/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000885",
+  "claim_id": "2241:material_named_relationship:cb7da359191ec381",
+  "normalized_claim_hash": "cb7da359191ec381dbfecb12e57bbc11ee6d4728a05b8366d7297e9397cec858",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-636e43239039b0cb",
+      "title": "產品服務 - 艾姆勒科技股份有限公司",
+      "url": "https://www.amulaire.com/products",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "未標示日期；2026-10-07查閱",
+      "locator": "「產品介紹」第1項「逆變器散熱(Inverter)模組及其零組件」及「金屬射出成型技術」下的應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱產品用於油電混合車及電動車逆變器，並稱高功率晶片散熱應用主要為IGBT。"
+    },
+    {
+      "source_id": "src-b26d46c6d70d6fc3",
+      "title": "高功率逆變器散熱產品 - 艾姆勒科技股份有限公司",
+      "url": "https://www.amulaire.com/zh/case/cooling-products-high-power-inverters",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "未標示日期；2026-10-07查閱",
+      "locator": "頁面正文「高功率逆變器散熱產品」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方說明產品主要應用於電動車及油電混合車。"
+    },
+    {
+      "source_id": "src-1337499c136b4d4c",
+      "title": "雙引擎驅動 車用族群準備衝刺 - 今周刊",
+      "url": "https://www.businesstoday.com.tw/article/category/183008/post/201609080010/",
+      "source_level": 2,
+      "publication_date": "2016-09-08",
+      "effective_period": "報導發布時；報導稱電動車用散熱模組出貨給包括Continental在內的Tier 1供應商",
+      "locator": "正文「目前電動車用散熱模組」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持報導時期的出貨及Tier 1描述，不足以確認未標期間或現行供應狀態。"
+    },
+    {
+      "source_id": "src-c3e10ed1d7194990",
+      "title": "艾姆勒每股50元掛牌上市 早盤大漲22% - 中央社 CNA",
+      "url": "https://www.cna.com.tw/news/afe/202008260033.aspx",
+      "source_level": 2,
+      "publication_date": "2020-08-26",
+      "effective_period": "報導發布時",
+      "locator": "正文客戶與產品說明段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列Continental為艾姆勒主要客戶，並介紹其電動車逆變器散熱模組；不能證明此後仍持續供應。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核艾姆勒官方產品資料及具名客戶的歷史報導；未找到能確認現行具名供應關係的當期官方披露，因此相關原子 claim 保留UNKNOWN。",
+    "產品類型由艾姆勒官方頁面支持；頁面未標示發布或更新日期。",
+    "Infineon與Continental的具名關係來自二手報導，佐證期間較早，不能外推為2026年仍在供應。",
+    "未找到官方資料把具名客戶、特定IGBT逆變器散熱產品與原 claim 所指期間完整連結。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2241/885/hermes-attempt-1.stdout.txt"
+}

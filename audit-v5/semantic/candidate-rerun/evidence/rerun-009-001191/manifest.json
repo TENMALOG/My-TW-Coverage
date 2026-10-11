@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001191",
+  "claim_id": "3531:material_named_relationship:bc1958facad626a3",
+  "normalized_claim_hash": "bc1958facad626a387f00b35ac0882a5788e861c1de7d2cb54aa48660027ba33",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6537e0e8c2f718be049d",
+      "title": "先益電子工業股份有限公司及子公司合併財務報告暨會計師查核報告（民國114年及113年度）",
+      "url": "https://www.shianyih.com.tw/wordpress/wp-content/uploads/2026/05/%E5%85%88%E7%9B%8A114Q4_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025 and FY2024",
+      "locator": "Note XIV(5), p. 53, lines 2154–2156",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports major-customer sales as A公司: NT$311,357 thousand for 2025 and NT$491,904 thousand for 2024; customer identity is not disclosed."
+    },
+    {
+      "source_id": "src-45cc8f8693a44f5981bf",
+      "title": "先益電子工業股份有限公司及子公司合併財務報告暨會計師查核報告（民國114年及113年度）",
+      "url": "https://www.shianyih.com.tw/wordpress/wp-content/uploads/2026/05/%E5%85%88%E7%9B%8A114Q4_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "Note IV(14), p. 20, lines 785–795",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer states it primarily manufactures backlight modules and related components for sale to small- and medium-size panel, touch, and module manufacturers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused review of the issuer’s audited FY2025/FY2024 consolidated report resolved the general customer-sector statement but not the named-customer identities; further inference from the anonymized customer or from the broad customer category would be unsupported.",
+    "The claim gives no period; the latest reviewed audited issuer report covers FY2025 and FY2024.",
+    "The audited report anonymizes its disclosed major customer as A公司, so it cannot establish whether that customer is either named company.",
+    "The issuer’s general customer-sector description does not by itself verify the named customer relationships."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3531/1191/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "376cd0d23f9df2273af12f4c1a05a5d9797b43d765c2e86e69761477c03239fb",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3531/1191/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "f7f214179b55b16ed5beda7d312c4d8ec167258db3bee23e32fc75c61b8497be",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001191/manifest.json",
+  "supersedes_manifest_sha256": "825c1287d1fba73e40a600aaed496133b7cd31f8a96db29fc3c657292aeea94d",
+  "corrected_at": "2026-10-08T09:59:28Z"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000719",
+  "claim_id": "2233:objective_ranking_or_market_share:bf4ac0b6acfe8253",
+  "normalized_claim_hash": "bf4ac0b6acfe8253fa2784c556f227d417ff1d2d4e41a1844fc124be494f1d1e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e86fdbf4696f40a9",
+      "title": "宇隆Q2獲利優於首季 估下半年業績比上半年好",
+      "url": "https://news.cnyes.com/news/id/4150421",
+      "source_level": 2,
+      "publication_date": "2018-06-25",
+      "effective_period": "2018 Q1",
+      "locator": "Article paragraph identifying Bosch as the largest customer",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Historical report only; does not establish the ranking for an unspecified or current period."
+    },
+    {
+      "source_id": "src-1beb3f635d7fff2a",
+      "title": "宇隆科技股份有限公司公開說明書（股票初次上市用）",
+      "url": "https://www.turvo.com.tw/proimages/investors/download-pdf/%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8(%E8%82%A1%E7%A5%A8%E5%88%9D%E6%AC%A1%E4%B8%8A%E5%B8%82%E7%94%A8).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017–2018 (ROC years 106–107)",
+      "locator": "Risk disclosure on sales concentration in the Bosch Group",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer prospectus reports Bosch Group consolidated net sales shares of 62.94% and 59.88% for ROC years 106 and 107, respectively. This establishes historical customer exposure, not a current ranking or a comparison with every other customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found support for the historical 2018 Q1 ranking and older issuer disclosures, but no current issuer source resolving the unspecified-period ranking. The remaining scope is unresolved.",
+    "The direct historical ranking and revenue share come from a secondary news report, not a current issuer disclosure.",
+    "The issuer prospectus reports historical Bosch Group sales concentration but does not independently establish a largest-customer ranking.",
+    "The original wording does not specify the period, ranking measure, or precise Bosch legal entity."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2233/719/hermes-attempt-1.stdout.txt"
+}

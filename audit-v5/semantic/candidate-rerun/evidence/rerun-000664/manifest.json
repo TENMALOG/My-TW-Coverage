@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000664",
+  "claim_id": "6690:objective_ranking_or_market_share:2ca855b26577abb8",
+  "normalized_claim_hash": "2ca855b26577abb80bda02252207f93c0be91576e59f6267612376ad0d2d9b85",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bd71cc5856ce78f0",
+      "title": "安碁資訊｜關於我們－公司簡介",
+      "url": "https://www.acercsi.com/tw/aboutus/25",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the company as the first professional technical-services company in Taiwan to list as an MSSP; being first to list does not establish largest by market share, revenue, capacity, or another market-wide measure."
+    },
+    {
+      "source_id": "src-3812e56513b3ee1b",
+      "title": "Cloud SOC雲端資安監控服務",
+      "url": "https://www.acercsi.com/tw/service/49/131",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "服務特色第三點",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer states it has the greatest operating capacity and the most SOC customers nationwide; no figures, comparison set, or measurement period are disclosed."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對官方公司簡介、官方SOC服務頁、MOPS/公開說明書線索及相關新聞的定向搜尋與頁面核對；未找到足以確認整體MSSP排名期間、衡量指標及分母的獨立證據，故排名原子保留UNKNOWN。",
+    "Ownership support comes from the issuer's own undated company profile.",
+    "The available ranking statement is issuer self-description specific to SOC service capacity and customer count; no quantitative comparison or independent market-wide MSSP ranking was found."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6690/664/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000383",
+  "claim_id": "6903:objective_ranking_or_market_share:d9e643e450e273d5",
+  "normalized_claim_hash": "d9e643e450e273d57fa6e34982b8e952f99f0de579f7aba415790e65e8f94a21",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6fa0000bf20c5f6d",
+      "title": "工程實績-巨漢系統",
+      "url": "https://www.jiuhan.com.tw/cases/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "力成科技－竹科三廠：工程名稱及承攬工程",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面列明MEP工程、1&2樓及8樓無塵室工程，並列出無塵室裝修工程等承攬項目。"
+    },
+    {
+      "source_id": "src-5017f6298ba52e4e",
+      "title": "無塵室工程又1檔 巨漢今申請上市 - 自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4381567",
+      "source_level": 2,
+      "publication_date": "2023-07-31",
+      "effective_period": "報導刊載時介紹的業務及客戶；未提供特定工程期間。",
+      "locator": "報導客戶名單及業務範圍段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導支持巨漢從事高科技廠房無塵室工程，但未證明其承作台積電先進製程廠房工程。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對巨漢官方投資人資料、工程實績、公開報導及台積電相關資料的聚焦查找；仍未找到能確認最大客戶排名或台積電先進製程廠房承攬關係的可靠直接證據，依限制停止並將未解部分標為 UNKNOWN。",
+    "官方工程實績頁未提供工程日期、客戶完整名單或客戶別營收／訂單排名。",
+    "2023年媒體報導列舉客戶不代表完整客戶名單；未列出某客戶不構成反證。",
+    "未以台積電自身的先進製程或建廠資料替代巨漢承攬台積電工程的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6903/383/hermes-attempt-1.stdout.txt"
+}

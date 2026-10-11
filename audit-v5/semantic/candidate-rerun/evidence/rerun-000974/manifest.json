@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000974",
+  "claim_id": "3701:material_named_relationship:487aeda6c2319d55",
+  "normalized_claim_hash": "487aeda6c2319d55faa40be0989ebdecb682853cec208df8d40145929b85f5aa",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-eb509af578744986",
+      "title": "大眾控(3701)投入CPO鎖定3.2T，估相關營收成長？",
+      "url": "https://uanalyze.com.tw/articles/5108412593",
+      "source_level": 2,
+      "publication_date": "2025-03-31",
+      "effective_period": "FY2024 business/revenue description",
+      "locator": "Section 大眾控公司簡介, line 22; ([uanalyze.com.tw](https://uanalyze.com.tw/articles/5108412593))",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names servers, communications, industrial control, and automotive as 三希科技 focus areas."
+    },
+    {
+      "source_id": "src-b1b33dc849e3d56e",
+      "title": "三希集團 - FIC",
+      "url": "https://www.fic.com.tw/zh-hant/affiliates/3cems/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Section 04 / OE 廣州事業部, line 17; ([fic.com.tw](https://www.fic.com.tw/zh-hant/affiliates/3cems/))",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms cooperation with top domestic and international optical-module companies, but does not disclose whether they are the main customers by sales or volume."
+    },
+    {
+      "source_id": "src-11135deac104c56c",
+      "title": "大眾控攻三大成長方向，明年逐步發酵",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=fcb2ac21-a1b7-4204-b236-087191a2c1d8",
+      "source_level": 2,
+      "publication_date": "2023-11-24",
+      "effective_period": "Company statement reported November 23, 2023",
+      "locator": "Article body, CEO statement on 三希科技; ([moneydj.com](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=fcb2ac21-a1b7-4204-b236-087191a2c1d8))",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the chairman's statement that at least half of the world's top ten optical-communications-module companies were 三希 customers at that time."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused review of issuer-affiliated company pages and contemporaneous secondary reporting found support for the FY2024 revenue-share statement, EMS/business areas, and customer relationships. The current revenue share and the customer-base ranking remain unresolved; research stopped within the specified search-turn limit.",
+    "The approximately 85% figure is from a secondary analysis explicitly referring to FY2024; it was not independently reconciled to an audited subsidiary-revenue calculation.",
+    "The original claim gives no period for the 85% figure. Available evidence supports a historical FY2024 figure only.",
+    "The customer sources establish relationships with leading optical-module firms, but do not quantify customer concentration or prove those firms are the main customer group by revenue or volume.",
+    "The issuer-affiliated web pages have no stated publication or effective date."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3701/974/hermes-attempt-1.stdout.txt"
+}

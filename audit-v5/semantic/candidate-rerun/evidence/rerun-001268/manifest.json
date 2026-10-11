@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001268",
+  "claim_id": "2065:export_concentration:850c932731e7b8ae",
+  "normalized_claim_hash": "850c932731e7b8ae74ed87b91c44aff9cdbcbc69e30eeacce33fe90e18bb38f4",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-93554024882b58b0",
+      "title": "世豐螺絲股份有限公司114年度年報",
+      "url": "https://www.shehfung.com/userfiles/%E4%B8%96%E8%B1%90-114%E5%B9%B4%E5%B9%B4%E5%A0%B1_Fianl_%E5%85%AC%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度（民國114年度）",
+      "locator": "第84頁，市場及產銷概況／市場分析／公司主要產品之銷售（提供）地區",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報列示美洲新台幣1,126,158千元（營收54.34%）、歐洲新台幣426,606千元（20.58%）；百分比以合併營收為分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得公司官方FY2025年報的銷售地區表。出口比例原 claim 未標期間，而最新年報只足以說明FY2025為91.64%；未以其他年度替代，因此該原子仍為UNKNOWN。",
+    "官方年報PDF的網頁標題含「股票代碼：3063」，但PDF首頁列明股票代號2065及公司名稱世豐螺絲股份有限公司；以文件首頁及公司股東會年報清單確認文件身分。",
+    "年報提供FY2025數據，不能據此推定原 claim 未標明的其他期間；「美洲」亦不能直接等同於「美國」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2065/1268/hermes-attempt-1.stdout.txt"
+}

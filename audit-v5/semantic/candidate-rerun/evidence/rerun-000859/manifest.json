@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000859",
+  "claim_id": "2646:material_named_relationship:bb36b2baf871ecc0",
+  "normalized_claim_hash": "bb36b2baf871ecc0329636dbcd1ec741379d38f9f78c87e8c8d5510fee4dde22",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-980e32de0d0c3092",
+      "title": "星宇航空股份有限公司2025年法人說明會",
+      "url": "https://webassets2.starlux-airlines.com/en-TW/Images/Investor_Conference_CN_251222_new_tcm14-13890.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-22",
+      "effective_period": "2025年1月至9月",
+      "locator": "第12張投影片（PDF抽取標記P11），貨運營運績效圖表中的「營收佔比」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "圖表列示北美72%、東南亞14%、東北亞8%、港澳6%；同頁貨運收入為新台幣35.8億元。"
+    },
+    {
+      "source_id": "src-f92c83071e0c201f",
+      "title": "星宇航空股份有限公司_2025年度年報",
+      "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-08",
+      "effective_period": "2025年度",
+      "locator": "年報第100頁，「AI發展推升高科技產業動能，帶動航空貨運成長」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報提及AI、高效能運算及雲端應用帶動半導體等跨境運輸需求，並提及台灣在全球半導體供應鏈的地位及出口動能；未明確指稱AI伺服器供應鏈出口貨物。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核星宇航空官方2025年法人說明會簡報及2025年度年報；北美72%與AI產業帶動貨運有公司一手資料支持，但AI伺服器供應鏈出口的特定貨物關聯未獲具體披露，該原子主張保留UNKNOWN。",
+    "72%來自公司法人說明會的2025年1至9月貨運收入區域占比，不宜省略期間或改寫為公司整體營收占比。",
+    "公司資料支持較廣義的AI／高科技需求帶動貨運，但沒有單獨披露AI伺服器供應鏈出口貨物的貨運營收或貨量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2646/859/hermes-attempt-1.stdout.txt"
+}

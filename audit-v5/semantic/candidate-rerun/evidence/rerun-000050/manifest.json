@@ -1,0 +1,64 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000050",
+  "claim_id": "2231:objective_ranking_or_market_share:f1eaea15e5afaa59",
+  "normalized_claim_hash": "f1eaea15e5afaa5935f069c47569bb8199433cf240a18baa445e242065b037d5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "cub-2025-annual-report-en",
+      "title": "CUB Elecparts Inc. 2025 Annual Report (English)",
+      "url": "https://www.cubelec.com/download/pdf/2026/2026-5.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-11",
+      "effective_period": "FY2025; company shareholder information lists the English report in 2026 materials.",
+      "locator": "Customer concentration / sales risk section states no single customer accounted for more than 20% of sales as of publication. The reviewed disclosure does not identify SMP as the largest TPMS aftermarket customer and provides no TPMS-AM customer ranking.",
+      "source_sha256": "14a8073383da0ae763fbc05f3f223889f4004cda09fb0eda07596fbbd595dfc7",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/50/cub-2025-annual-report-en.pdf",
+      "note": "Issuer primary disclosure; customer concentration is company-wide, not TPMS-AM-specific."
+    },
+    {
+      "source_id": "moneydj-cub-tpms-customers-2014",
+      "title": "MoneyDJ: 為升TPMS產能、訂單擴，營運逐季看增",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=696e9d31-8c61-4533-828c-9149d8a4bd47",
+      "source_level": 2,
+      "publication_date": "2014-09-23",
+      "effective_period": "2014 TPMS business and customer context.",
+      "locator": "Article discusses CUB TPMS shipments mainly going to North American AM and says customers included SMP, Pacific and Wells. It does not rank those TPMS buyers or identify a largest TPMS-AM customer.",
+      "source_sha256": "d55f5b132408af9a2668e4734823d26ac590f45a26fa01365642e73000b8246f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/50/moneydj-cub-tpms-customers-2014.html",
+      "note": "Secondary contemporaneous report; historical customer examples, no product-specific buyer ranking."
+    },
+    {
+      "source_id": "moneydj-cub-profile-2024",
+      "title": "MoneyDJ: 為升電裝工業股份有限公司 company profile",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=9fb9ceba-8b82-45c8-8b0d-b14131f2449d",
+      "source_level": 2,
+      "publication_date": "2024-11-26",
+      "effective_period": "Profile updated 2024-11-26; customer/product information cited in the profile is primarily 2022 data.",
+      "locator": "Profile lists Standard Motor Products among switch, sensor and ignition customers and calls it CUB’s largest overall customer, with Wells second. It does not isolate TPMS AM sales or rank TPMS customers.",
+      "source_sha256": "e2d8547a9f4915686f0c2364af0241914bdda920505a50533a6d1362db0b892d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/50/moneydj-cub-profile-2024.html",
+      "note": "Secondary company profile; attributed claim about overall customer rank, not direct issuer evidence or a TPMS-specific ranking."
+    },
+    {
+      "source_id": "smp-2025-form-10k",
+      "title": "Standard Motor Products, Inc. 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/93389/000009338926000012/smp-20251231.htm",
+      "source_level": 3,
+      "publication_date": "2026-02-26",
+      "effective_period": "FY2025; SEC filing dated 2026-02-26.",
+      "locator": "Item 1 describes SMP as a leading manufacturer and distributor of premium replacement parts in the automotive aftermarket. The filing does not call it North America’s largest AM distributor or provide a rank supporting that wording.",
+      "source_sha256": "b65578c9c14549d4a5d7e69bb262c36bf695ce3bc55e07d8deca331e807dd93c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/50/smp-2025-form-10k.html",
+      "note": "SEC-filed company disclosure; “leading” is the issuer’s positioning, not evidence of #1 rank."
+    }
+  ],
+  "search_notes": [
+    "拆分TPMS買方關係、TPMS-AM最大客戶排名，以及SMP是否為北美最大AM經銷商。",
+    "2014年TPMS報導列SMP為為升客戶之一，但沒有對TPMS-AM客戶排名。",
+    "2024年更新的MoneyDJ公司資料稱SMP是為升最大整體客戶，且列在開關、感應器及啟動開關客戶中；資料主要截至2022年，未分解到TPMS AM。",
+    "為升2025年報未按TPMS-AM披露具名客戶排名；公司層級揭露稱單一客戶營收占比未超過20%。",
+    "SMP的2025年SEC 10-K自稱售後市場替換零件的領先全球製造商與經銷商，未聲稱其為北美最大AM經銷商；沒有獨立排名支持這個最高級表述。"
+  ]
+}

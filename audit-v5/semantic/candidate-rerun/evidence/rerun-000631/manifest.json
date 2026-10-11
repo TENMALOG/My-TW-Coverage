@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000631",
+  "claim_id": "6515:objective_ranking_or_market_share:7d430c6cf1e6bc6c",
+  "normalized_claim_hash": "7d430c6cf1e6bc6c00b63df9adc3fdc5b038da0d626c730ef0f53757e2351acd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7fa3b77c9dfe6e94",
+      "title": "穎崴大擴產1／輝達、超微都靠穎崴 揭測試探針廠成晶片出廠關鍵原因",
+      "url": "https://www.mirrormedia.mg/story/20260714fin003",
+      "source_level": 2,
+      "publication_date": "2026-07-14",
+      "effective_period": null,
+      "locator": "Paragraph beginning「本刊調查，目前全球前20大半導體廠中」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports「近9成」as the publication's own investigation, but provides no list, ranking source, or measurement period."
+    },
+    {
+      "source_id": "src-953caaf1ae24b7ae",
+      "title": "穎崴科技股份有限公司｜104人力銀行公司介紹",
+      "url": "https://www.104.com.tw/company/61enk4w",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介 paragraph beginning「測試領導廠商穎崴創立於2001年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Repeats the near-90% claim on an employer profile; the underlying top-20 definition and period are not given, and the profile is not an independent verification."
+    },
+    {
+      "source_id": "src-d42c9287039ff2f4",
+      "title": "穎崴續攻先進製程 7奈米以下營收比重近九成",
+      "url": "https://www.winwayglobal.com/zh-TW/news-detail/tgN1Sz7yjF0n7ap2",
+      "source_level": 3,
+      "publication_date": "2025-06-26",
+      "effective_period": "AI/HPC application shipments through May 2025",
+      "locator": "Company press release; paragraphs beginning「穎崴董事長王嘉煌表示」and「穎崴長期投入高階測試介面開發」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer states it develops test-interface solutions for high-end computing and that AI/HPC applications accounted for 42% of shipments through May 2025."
+    },
+    {
+      "source_id": "src-b2d3a0606019873e",
+      "title": "2025 Annual Report",
+      "url": "https://www.winwayglobal.com/dl/file/D1nEkzuLhsqH2IyC",
+      "source_level": 3,
+      "publication_date": "2026-04-25",
+      "effective_period": "Fiscal year 2025",
+      "locator": "Business plan implementation results",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer reports that 2025 was an exceptional year, driven by strong momentum in AI, HPC, and ASIC."
+    },
+    {
+      "source_id": "src-7bd728bcde1dc5ff",
+      "title": "穎崴科技2024年第2季財報新聞稿",
+      "url": "https://www.winwayglobal.com/zh-TW/news-detail/hy8TCaR7g0aA0gzS",
+      "source_level": 3,
+      "publication_date": "2024-07-31",
+      "effective_period": "2024 Q2 and first half of 2024",
+      "locator": "Paragraph beginning「在AI、HPC需求強勁下」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer reports strong AI/HPC demand and related customer demand; this is corroborative context, not evidence for the top-20 customer statistic."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱 issuer disclosures、年報與報導及雇主公司簡介；AI/HPC業務關聯有支持，但未找到能定義並核對「全球前20大」名單、期間與客戶口徑的資料，因此該原子主張維持UNKNOWN並停止研究。",
+    "「全球前20大半導體廠」沒有指定排名機構、排名年份或企業範圍；來源未列出20家名單。",
+    "公司披露的42%是截至2025年5月的AI/HPC應用出貨占比，不能替代營收占比或客戶數驗證。",
+    "「賣鏟子」及「AI軍備競賽」屬比喻性描述；可驗證的部分是公司產品與AI/HPC需求、業務表現的關聯。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6515/631/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000358",
+  "claim_id": "6473:objective_ranking_or_market_share:b29d00af5856229f",
+  "normalized_claim_hash": "b29d00af5856229f334ad35c5f9269d80b36266fc3bbb598840b3e950c25273c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-be4315f4e383acf6ffe9",
+      "title": "meimaii 美賣（公司介紹）",
+      "url": "https://company.meimaii.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司介紹及沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為社群電商並與網紅合作；未提供市場趨勢的期間或衡量數據。"
+    },
+    {
+      "source_id": "src-0e238e0e95a0a68df3c5",
+      "title": "meimaii 美賣（公司介紹）",
+      "url": "https://company.meimaii.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司介紹及企業目標",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司自述的社群電商定位，未提市佔拓展目標、數值或市場分母。"
+    },
+    {
+      "source_id": "src-085e9df74d73ea4d1a73",
+      "title": "meimaii 美賣商城",
+      "url": "https://www.meimaii.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁「熱門分類」類別菜單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有3C家電、生活日用、美食飲品、美妝保養；未提供品類銷售數據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達可用研究工具迭代上限；未解決的趨勢背景與市佔策略原子保留為UNKNOWN。",
+    "公司網站及商城類別頁可支持公司業務定位與品類菜單，不足以證明市場趨勢、市佔拓展策略或實際市佔。",
+    "原文未指定期間、社群電商市場定義、市佔衡量單位或分母。",
+    "未將商城品類菜單解讀為銷售組合、商品銷售占比或市場份額。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6473/358/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "cd78bc280a9094ef0ece33923332fe6dfbac0ef564aad5d5cc5f7d6c2b2aae90",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6473/358/isolated-prompt.txt",
+  "prompt_sha256": "913ce90f994a6d4ec1a37d9ba1b9f9b3ef8a59e8cebc275dfc5aab458f166685",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000358/manifest.json",
+  "supersedes_manifest_sha256": "0cb7e76fb0e699475e965f048f42f501748067bcae2ef41a631c2a5fb87fa1a7",
+  "corrected_at": "2026-10-08T09:58:05Z"
+}

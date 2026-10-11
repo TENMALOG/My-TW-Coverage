@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001036",
+  "claim_id": "3455:material_named_relationship:82a4ffc86eb92f92",
+  "normalized_claim_hash": "82a4ffc86eb92f926152cfe2a8738c4caa7052dec191b12f6d5c686d326178bb",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-dde49f1938909a28",
+      "title": "由田新技股份有限公司114年度年報",
+      "url": "https://www.utechzone.com.tw/upload/editor/files/20260706163002.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度",
+      "locator": "營運概況／業務內容／營業比重，印刷頁51，PDF頁54，行2888-2895",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示SEMI檢測系統營收新台幣699,768仟元，占總營收41.77%。"
+    },
+    {
+      "source_id": "src-c3dbd39053003793",
+      "title": "由田新技股份有限公司113年度年報",
+      "url": "https://www.utechzone.com.tw/upload/editor/files/20250811112702.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "2024年度",
+      "locator": "營運概況／業務內容／營業比重，印刷頁46，PDF頁49，行2595-2602",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示SEMI檢測系統營收新台幣315,051仟元，占總營收17.01%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "四個原子主張均由公司官方年報資料支持，且營收占比已以相鄰年度、相同分母口徑核對；停止研究並交由最終裁決。",
+    "產品能力、客戶導入及訂單情形取自公司年報自述；年報未具名揭露 OSAT 客戶。",
+    "營收占比比較採年報「SEMI檢測系統」占公司總營收口徑，期間為2024與2025完整年度。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3455/1036/hermes-attempt-1.stdout.txt"
+}

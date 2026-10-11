@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000643",
+  "claim_id": "8131:objective_ranking_or_market_share:468108abf2d6a30b",
+  "normalized_claim_hash": "468108abf2d6a30bba1946c77d7706ebeef6adf3505f53d1913d44324d4d58d7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-07b1c65189e9403faad4",
+      "title": "南亞科增持福懋科股權，躍居最大股東",
+      "url": "https://m.moneydj.com/f1a.aspx?a=8d360dde-1185-4db5-91d1-4dfe858b4088",
+      "source_level": 2,
+      "publication_date": "2019-12-16",
+      "effective_period": "2019-12股權交易計畫",
+      "locator": "報導首段及第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱南亞科擬將持股由19%增至32%，並將成為福懋科最大股東；使用的是計畫／未來式表述。"
+    },
+    {
+      "source_id": "src-a620c56ad6409bda754c",
+      "title": "福懋科Q1估淡季不淡 全年強勁成長可期",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=dea77b65-b632-4744-b1bf-3d13bef27b43",
+      "source_level": 2,
+      "publication_date": "2026-01-22",
+      "effective_period": "報導描述為目前；相關營收比例的計算期間未提供",
+      "locator": "第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱南亞科為福懋科大股東及客戶，並稱其占營收比重過半；未列精確比例、財報期或計算明細。"
+    },
+    {
+      "source_id": "src-9072c84363cc489c2b35",
+      "title": "福懋科Q4營收拼持穩向上 明年Q1淡季不淡",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=068c44e2-c0be-4a3e-afbe-a09d0f2fb915",
+      "source_level": 2,
+      "publication_date": "2025-12-03",
+      "effective_period": "報導描述為目前；相關營收比例的計算期間未提供",
+      "locator": "第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同樣報導南亞科占營收比重過半；未提供精確50%或底層期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦搜尋並核對可取得的來源；未找到可確認精確50%及其財報期間的官方資料。剩餘原子主張維持UNKNOWN。",
+    "未找到福懋科或監管披露確認南亞科客戶營收占比精確為50%。",
+    "交易消息支持的是2019年交易計畫及預期排名，不足以單獨確認交易完成或目前第一大股東排名。",
+    "營收占比證據來自二手媒體，且只稱「過半」；來源未揭示計算期間或詳細分母口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8131/643/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2634b7f31c5ffb655a3faaa76a4aadbe5da48f42e63b8de90fd2a7f5c33d00b0",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8131/643/isolated-prompt.txt",
+  "prompt_sha256": "08051cf0dc356d19e063c062139b8bd8b5cd92c9bce4430add2437bed185d144",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000643/manifest.json",
+  "supersedes_manifest_sha256": "86cea8801c549cfa11914634f7d92cf522b11a943edf0448959d5ce83e6b0412",
+  "corrected_at": "2026-10-08T09:58:30Z"
+}

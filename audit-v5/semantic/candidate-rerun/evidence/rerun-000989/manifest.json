@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000989",
+  "claim_id": "8210:material_named_relationship:50bccfb1d837ab2e",
+  "normalized_claim_hash": "50bccfb1d837ab2e2fb6c5120a0ae0507e82329e4fc32b8c0bf161a536624af4",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-01521690c3570355",
+      "title": "凱基證券投資策略週報，勤誠（8210 TT）",
+      "url": "https://www.kgi.com.hk/zh-hk/-/media/files/kgishk/research-reports/investment-perspectives/2026/kgis-global-markets-weekly-kickstart_20260302.pdf",
+      "source_level": 2,
+      "publication_date": "2026-03-02",
+      "effective_period": "2026 年展望",
+      "locator": "PDF 第16頁，行835–838",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱勤誠為 Amazon HGX 機殼主供；同段亦稱其為 GB 機殼主供。"
+    },
+    {
+      "source_id": "src-fb512fcf90b90e9d",
+      "title": "凱基證券投資策略週報，勤誠（8210 TT）",
+      "url": "https://www.kgi.com.hk/zh-hk/-/media/files/kgishk/research-reports/investment-perspectives/2025/kgis-global-markets-weekly-kickstart_20250512.pdf",
+      "source_level": 2,
+      "publication_date": "2025-05-12",
+      "effective_period": "2025 Q2",
+      "locator": "PDF 第17頁，行941–945",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告稱 Amazon 的 B200 HGX AI 伺服器機殼於 2025 Q2 進入量產。"
+    },
+    {
+      "source_id": "src-6c519e09ade64406",
+      "title": "勤誠受惠AWS AI伺服器需求 今年營運動能強勁",
+      "url": "https://m.cnyes.com/news/id/5864477",
+      "source_level": 2,
+      "publication_date": "2025-02-17",
+      "effective_period": "2025 年報導期間",
+      "locator": "正文第11行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨研報文章明確稱勤誠是 AWS HGX AI 伺服器機殼主要供應商；文章來源標示為投顧分析師。"
+    },
+    {
+      "source_id": "src-0d677d1a7d6b493a",
+      "title": "凱基證券投資策略週報，勤誠（8210 TT）",
+      "url": "https://www.kgi.com.hk/zh-hk/-/media/files/kgishk/research-reports/investment-perspectives/2025/kgis-global-markets-weekly-kickstart_20250217.pdf",
+      "source_level": 2,
+      "publication_date": "2025-02-17",
+      "effective_period": "2025 年報告期間",
+      "locator": "PDF 第17頁，行922–926",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告依供應鏈訪查稱勤誠為 Amazon HGX AI 伺服器機殼主要供應商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得 2025 年量產報告與 2025、2026 年凱基研究對 Amazon HGX 客戶關係及主供地位的明確支持；官方客戶專案披露未找到，後續核定應注意來源層級及排名未量化。",
+    "支持客戶、產品與「主要供應商／主供」地位的明確資料來自券商研究及投顧轉載報導，屬二級來源；未找到勤誠官方文件明確確認 Amazon/AWS 的 HGX 專案。",
+    "「主要供應商／主供」是定性排名，來源未提供市占率、供應商總數或其他可計算的分母。",
+    "2026 年資料屬當年度展望；未將其解讀為已核實至 2026-10-07 的實際出貨排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8210/989/hermes-attempt-1.stdout.txt"
+}

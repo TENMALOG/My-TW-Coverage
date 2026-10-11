@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001001",
+  "claim_id": "3541:export_concentration:23aa0cac81532d07",
+  "normalized_claim_hash": "23aa0cac81532d07101ad36811d81d41b5a21e0c8672fc868c79daa9272335fa",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b8232525239ba2ae",
+      "title": "西柏進軍醫療領域 拚1+1=4",
+      "url": "https://www.cypress.com.tw/tw/News/20200704",
+      "source_level": 3,
+      "publication_date": "2020-12-24",
+      "effective_period": "Underlying measurement period not stated; reported in the 2020-12-24 interview.",
+      "locator": "Article text, lines 201-208",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-hosted interview states that nearly 70% of customers were in North America; it gives no customer-count definition or measurement method."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到與原文一致的公司網站專訪表述；未找到能補足分母、計算方法及當前適用期間的披露，因此保留當前適用性未確認。",
+    "找到的直接來源是公司網站刊載的專訪，支持這項說法曾被公司對外表述，但不是附有計算口徑的監管申報數據。",
+    "來源未說明「90%」的分母、計量單位或期間，也未界定「近 70% 客戶」的客戶母體與計算方式。",
+    "未找到能確認上述比例適用於目前期間的公司披露；不能把 2020 年的表述當作當前數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3541/1001/hermes-attempt-1.stdout.txt"
+}

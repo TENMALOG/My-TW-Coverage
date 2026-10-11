@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000134",
+  "claim_id": "8438:objective_ranking_or_market_share:c76e972ea99e7f8f",
+  "normalized_claim_hash": "c76e972ea99e7f8ff36474f4add5b918d2c050f818bf105464ad56df3dbaf821",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-23017525c5b4dba92683",
+      "title": "Top 100 PCB Companies in 2024 — Prismark Discovery Series",
+      "url": "https://prismark.com/_files/ugd/950e51_8ed1a31c4a2e405595e3f214995f9feb.pdf?index=true",
+      "source_level": 2,
+      "publication_date": "2025-05",
+      "effective_period": "2024",
+      "locator": "Page 3; ranking table and accompanying text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Defines the ranking as the world’s largest PCB fabricators ranked by 2024 total revenues; lists Zhen Ding at rank 1 with US$5,341 million revenue."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after eight focused research/tool calls. The global PCB revenue ranking was resolved; the named-company relationships to etching chemicals remain unresolved.",
+    "The source supports only the specified PCB-fabricator revenue ranking, not a ranking of etching-chemical suppliers or users.",
+    "The original fragment gives no period, market definition, denominator, or explicit relationship between the named PCB firms and etching chemicals."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8438/134/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "dc719bb885cf27d99dd90e053fc3c5259c3632b6b48771805530187b8d486a53",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8438/134/isolated-prompt.txt",
+  "prompt_sha256": "a4d42c13dddae2bd0adfaeb659e5ef929d878599ca71e011e30654e5b6cd2b59",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000134/manifest.json",
+  "supersedes_manifest_sha256": "aa33cbbe717055586e52d05e9b7ca53ddc1a42bc65fca25c0d23104a223bcdba",
+  "corrected_at": "2026-10-08T09:57:49Z"
+}

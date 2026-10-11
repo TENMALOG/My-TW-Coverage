@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001097",
+  "claim_id": "6609:export_concentration:775f64fef4533de1",
+  "normalized_claim_hash": "775f64fef4533de1f24efc36a5a44e454700809fe3498e3026199d1f960e9f2e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-eb7d0fee94a2b82f",
+      "title": "台灣瀧澤科技股份有限公司 — MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?title=%E5%8F%B0%E7%81%A3%E7%80%A7%E6%BE%A4%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+      "source_level": 2,
+      "publication_date": "2025-07-16",
+      "effective_period": "2024",
+      "locator": "「產品及主要用途」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級來源轉述公司年報。"
+    },
+    {
+      "source_id": "src-878093f318e90c76",
+      "title": "台灣瀧澤科技股份有限公司2024年年報",
+      "url": "https://www.takisawa.com.tw/files/catimages/1748826074-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "PDF第67頁，工具機產業與精密加工說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及工具機為精密加工設備及其相關產業，未確認CNC車床專用於所稱的精密機械關鍵零組件。"
+    },
+    {
+      "source_id": "src-14442ed2fdcff31d",
+      "title": "台灣瀧澤科技2024第三季法人說明會簡報",
+      "url": "https://www.takisawa.com.tw/files/catimages/%E4%B8%AD%E6%96%87%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2024-09-25",
+      "effective_period": "2024Q2",
+      "locator": "第16頁，區域別營收表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "亞洲、歐洲等區域營收與內銷合計為總營收；未提供出口-only百分比分母。"
+    },
+    {
+      "source_id": "src-a45f3c0c76a004a6",
+      "title": "台灣瀧澤科技2025第三季法人說明會簡報",
+      "url": "https://www.takisawa.com.tw/files/catimages/20251210%E5%8F%B0%E7%81%A3%E7%80%A7%E6%BE%A4%E7%A7%91%E6%8A%80%E6%B3%95%E8%AA%AA%E6%9C%83(%E4%B8%AD%E6%96%87)%E7%B0%A1%E5%A0%B1%E6%AA%94.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-10",
+      "effective_period": "2025Q3",
+      "locator": "第17頁，區域別營收表及2025Q3區域別營收圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較後期區域別營收為亞洲63%、歐洲16%、美洲12%、其他1%、內銷8%，說明58%及23%是特定期間數字。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合並停止。未解事項限於原 claim 未標明CNC車床六成占比的期間、出口-only分母，以及「精密機械關鍵零組件」的具體用途範圍。",
+    "原 claim 未給期間；亞洲58%、歐洲23%精確對應公司2024Q2區域別營收披露，不能當作無期間限制的現況數字。",
+    "同一份2024Q2簡報顯示CNC車床占產品別營收79%，不支持約六成。",
+    "公司2025Q3簡報的區域別營收為亞洲63%、歐洲16%；CNC車床占比表列80%、圖示約81%。",
+    "汽車模具四成及CNC車床用途的具體文字來自轉述年報的次級來源；公司年報另有較廣泛的工具機產業與精密加工說明，不能據此確認每個細分用途。",
+    "出口地區占外銷收入的比例未由所查公司區域表披露；其58%、23%是占總營收比重。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6609/1097/hermes-attempt-1.stdout.txt"
+}

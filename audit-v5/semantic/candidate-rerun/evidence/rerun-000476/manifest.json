@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000476",
+  "claim_id": "4536:objective_ranking_or_market_share:7dac44f797d7d0a3",
+  "normalized_claim_hash": "7dac44f797d7d0a3b0aeb17c2625bb2f2239422ab81716a6e7e7c524d038ec18",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1f78369881e0937d",
+      "title": "拓凱實業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=963937e4-3986-4b13-94bb-9d69ce3d39e1",
+      "source_level": 2,
+      "publication_date": "2025-07-17",
+      "effective_period": null,
+      "locator": "「公司簡介」及「運動休閒產品」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "嘉實投顧提供的二手公司百科；其排名明確限定於碳纖維網球拍，未說明排名數據的基準日期或比較方法。"
+    },
+    {
+      "source_id": "src-c72cc9e8cd85c23e",
+      "title": "拓凱實業股份有限公司－公司產品：球拍／自行車／安全帽",
+      "url": "http://www.topkey.com.tw/www/_chinese/03_company/01_detail.php?pid=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「安全帽」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為全球最大賽車級安全帽製造廠，產品平均單價為500美元；為公司自述，頁面未載資料日期。"
+    },
+    {
+      "source_id": "src-d498a6a6fa1a8f74",
+      "title": "從網球拍到航太零件 都有拓凱製造 沈文振以三倍價值理論衝世界第一",
+      "url": "https://news.cnyes.com/news/id/4296244",
+      "source_level": 2,
+      "publication_date": "2019-04-05",
+      "effective_period": "報導所述截至2019年的情況",
+      "locator": "「多元化發展，創造新機會」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網刊載的《哈佛商業評論》文章稱拓凱當時高階自行車市占率達30%；屬歷史性二手資料，未提供市占率計算方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；現有證據仍無法確認未限定材質的全球網球拍OEM排名，也無法確認高階自行車供應主張的現行期間與市場定義，故保留未決項。",
+    "排名、市占率及產能比較的期間、計算方法或完整分母，來源未必交代；不可把碳纖維網球拍、碳纖維車架或賽車級安全帽的範圍擴大成整體市場。",
+    "拓凱官方產品頁未標示發布日期或數據有效期間，相關公司自述缺乏可由該頁確認的時效。",
+    "高階自行車市占率30%的來源描述的是2019年情況；目前缺少能確認該市場定義及現行市占率的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4536/476/hermes-attempt-1.stdout.txt"
+}

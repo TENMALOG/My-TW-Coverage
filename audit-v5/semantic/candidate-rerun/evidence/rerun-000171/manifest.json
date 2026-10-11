@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000171",
+  "claim_id": "2301:objective_ranking_or_market_share:c1562f098f12ec0e",
+  "normalized_claim_hash": "c1562f098f12ec0e111c70c4e9c16c3b6178b59069da3b574d969d07e5794898",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c40ed753bc4c375c",
+      "title": "光寶 通吃三大遊戲機訂單",
+      "url": "https://www.ctee.com.tw/news/20200829700008-430298",
+      "source_level": 2,
+      "publication_date": "2020-08-29",
+      "effective_period": "Forecast for 2021",
+      "locator": "Headline and closing paragraph stating「光寶將是首家通吃三大遊戲機平台的電源業者」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The article asserts global/first status but bases it on industry-sourced reporting and does not provide a global supplier census or comparison method."
+    },
+    {
+      "source_id": "src-e70de9fe5ab3e96b",
+      "title": "Lite-On Tech reportedly to ship power supplies for PS5",
+      "url": "https://www.digitimes.com/news/a20200710PD202.html",
+      "source_level": 2,
+      "publication_date": "2020-07-10",
+      "effective_period": "Prospective PS5 supply for the console launch period in 2020",
+      "locator": "Article body, sentence beginning “Lite-On Technology has reportedly become a supplier”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "DIGITIMES explicitly attributes the report to industry sources."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found contemporaneous secondary reports for the customer/order assertions but no primary confirmation or documented global comparison for uniqueness; the exclusivity atom therefore remains UNKNOWN.",
+    "The relevant customer and order details come from secondary media reports attributed to industry sources, not identified issuer or customer disclosures.",
+    "The PS5 shipment timing was prospective; the sources found do not confirm that shipments occurred in 2021.",
+    "The global-uniqueness assertion has no stated supplier universe, denominator, model scope, or comparison methodology."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2301/171/hermes-attempt-1.stdout.txt"
+}

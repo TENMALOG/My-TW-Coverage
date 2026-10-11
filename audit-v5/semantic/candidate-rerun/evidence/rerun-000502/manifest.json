@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000502",
+  "claim_id": "4912:objective_ranking_or_market_share:8324f94ac4ccaf9f",
+  "normalized_claim_hash": "8324f94ac4ccaf9f061e7aaf4738b0678c09860b70456caff962f7413e129276",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bae9e8cf2c91000b",
+      "title": "Autoliv, Inc.: Update to credit analysis",
+      "url": "https://www.autoliv.com/sites/autoliv/files/2024-07/Credit_Opinion-Autoliv-Inc-Update-to-credit-18Jul2024-PBC_1414839.pdf",
+      "source_level": 2,
+      "publication_date": "2024-07-18",
+      "effective_period": "Ranking stated in the July 2024 report; airbag share reported for 2023",
+      "locator": "Profile; Detailed credit considerations, “Strong market position in passive safety”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Moody’s Ratings directly characterizes Autoliv as the world’s largest automotive supplier of airbags, seat belts and steering wheels, and reports 47% market share in airbags for 2023."
+    },
+    {
+      "source_id": "src-bababc2c4d351a9e",
+      "title": "Annual and Sustainability Report 2023",
+      "url": "https://www.autoliv.com/sites/autoliv/files/2024-02/Annual_Sustainability_Summary_Report_2023.pdf",
+      "source_level": 3,
+      "publication_date": "2024-02-20",
+      "effective_period": "2023",
+      "locator": "“Autoliv at a Glance” and “Market Share by Product Area” / “Global Industry Leader”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Autoliv identifies itself as the worldwide leader in automotive safety systems and reports a 47% airbag market share; the report labels the market-share figures as company estimates."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Direct ranking evidence and company-reported airbag share were found; further search was unnecessary. The support is bounded to the source date and 2023 share figure.",
+    "The direct ranking statement is from Moody’s Ratings, a secondary source; Autoliv’s own report corroborates its worldwide automotive-safety leadership and reports a 47% airbag share.",
+    "Autoliv identifies its market-share figures as company estimates. The cited materials do not specify the airbag-market denominator or whether the share is measured by revenue or units.",
+    "The claim has no stated period; evidence supports the ranking as stated in the July 2024 source, not necessarily at a later date."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4912/502/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000963",
+  "claim_id": "3231:material_named_relationship:880c1f0bf1a7ff19",
+  "normalized_claim_hash": "880c1f0bf1a7ff199c8efb20ba0c72d5ebda539f83387bcae9a528aa6a6dbd9c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d7b0a495f7a74855",
+      "title": "緯創資通股份有限公司114年度年報",
+      "url": "https://www.wistron.com/file/d5fd7dbf-3923-4827-a419-5474fa89210f/2025_WistronAnnualReport_CH_All.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "致股東報告書：2025年度財務及營運表現、AI與通用型伺服器產品表現段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露營收成長及其營運重要性，但未提供市場排名、AI伺服器市場份額或「核心供應商」判準。"
+    },
+    {
+      "source_id": "src-68eebc207e4e4d98",
+      "title": "Wistron Corporation 2023 Annual Report (English translation)",
+      "url": "https://www.wistron.com/file/2ebb9922-873a-4e3c-b115-3d5d7a62aae8/2023_WistronAnnualReport_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度營運回顧及2024年度營運重點",
+      "locator": "Letter to Shareholders, 2024 Business and Operation Focus, item (3), Continued Transformation of the Industry Portfolio",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司表示將擴大AI伺服器等高毛利業務營收，並退出較低效率業務；未聲稱所有資源均投入這些領域。"
+    },
+    {
+      "source_id": "src-39442f191716cc1f",
+      "title": "緯創資通董事會通過114年度第一季財務報表及重要議案",
+      "url": "https://www.wistron.com/ch/Newsroom/2025-05-06",
+      "source_level": 3,
+      "publication_date": "2025-05-06",
+      "effective_period": "2025年公告的產能投資計畫",
+      "locator": "公告事項第2、3、5項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司擴充AI相關製造能力，不足以單獨證明供應商地位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成對緯創官方年報與公司公告的聚焦查核。仍缺手機業務出售交易證據、全力投入的資源或排他性指標，以及核心供應商的市場或客戶判準；依規則將這些原子主張保留為UNKNOWN。",
+    "主要依據為公司自編年報及公告，能核實公司披露的行動與營運數據，不等同於獨立市場地位評估。",
+    "手機事業的已證實用語是「撤出」，不是「出售」；未找到可確認出售交易方式的公司披露。",
+    "AI與通用型伺服器營收成長被合併描述，沒有足以計算AI伺服器單獨營收占比的分母。",
+    "「精實策略」、「全力投入」及「核心供應商」均未在原 claim 中定義可檢驗的範圍或標準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3231/963/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000184",
+  "claim_id": "2395:objective_ranking_or_market_share:9566784397e27fb6",
+  "normalized_claim_hash": "9566784397e27fb6684699168dc76a61bb540a969f36073476c59152762edcbf",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-66a2567823661324",
+      "title": "Industrial Peripheral and Software Solutions",
+      "url": "https://advcloudfiles.advantech.com/ecatalog/2024/04221326.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "市占估計引用 OMDIA《Industrial PCs: World, 2022 Edition》",
+      "locator": "第 3 頁；全球 IPC 市占圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "圖表是整體 IPC 市場口徑，沒有提供嵌入式或機架式 IPC 子市場排名。"
+    },
+    {
+      "source_id": "src-0244492c440ddd8c",
+      "title": "Industrial PCs Report – 2022 Data",
+      "url": "https://omdia.tech.informa.com/OM023690/Industrial-PCs-Report--2022-Data",
+      "source_level": 3,
+      "publication_date": "2022-06-27",
+      "effective_period": "2022 年全球 IPC 市場資料",
+      "locator": "公開報告頁面摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認報告涵蓋全球 IPC 市場及供應商市占估計；公開頁面未提供 41% 數值供獨立核對。"
+    },
+    {
+      "source_id": "src-e9659f66e2cafcdc",
+      "title": "Embedded PCs - Advantech",
+      "url": "https://www.advantech.com/en-us/products/embedded-pcs/sub_f7e91925-0eb5-49f9-b869-af4859231d04",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品分類及 EPC 系列說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "研華官方產品頁列出 Embedded PCs 及多個 EPC 系列。"
+    },
+    {
+      "source_id": "src-604773a66c67f91a",
+      "title": "Rackmount IPC - Advantech",
+      "url": "https://www.advantech.com/en-us/products/rackmount-ipc/sub_1-2jkby5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品分類及 1U、2U、4U Rackmount Chassis 說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "研華官方產品頁列出 Rackmount IPC 類別及相關產品。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核研華官方型錄與產品分類，以及 Omdia 2022 報告的公開摘要；仍缺目前排名及嵌入式／機架式子市場的可核對排名資料，故保留 UNKNOWN。",
+    "41% 與第一名數據出現在研華官方型錄，型錄將估計歸於 Omdia；Omdia 公開頁面確認報告範圍，但未公開可獨立核對的供應商數值。",
+    "型錄沒有明確說明 41% 市占率的計量單位。",
+    "官方產品分類能證明嵌入式及機架式 IPC 產品線存在，不支持這些子市場的排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2395/184/hermes-attempt-1.stdout.txt"
+}

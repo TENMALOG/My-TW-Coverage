@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001187",
+  "claim_id": "3141:export_concentration:76e50d1e8daf4777",
+  "normalized_claim_hash": "76e50d1e8daf47777e83cd241b8a3af2780201936e821eed1b6f3c606bd0dd39",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-76255ded6199f139",
+      "title": "Bistable Display > Products | UltraChip",
+      "url": "https://www.ultrachip.com.tw/en/habout.php?id=54",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated current issuer webpage; accessed 2026-10-07.",
+      "locator": "Bistable Display section; Pure Driver & Tcon description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists e-reader as an example application."
+    },
+    {
+      "source_id": "src-b5ffc35da3960dc0",
+      "title": "EPD driver and control IC > Bistable Display > Products | UltraChip",
+      "url": "https://www.ultrachip.com.tw/en/habout.php?id=133",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated current issuer webpage; accessed 2026-10-07.",
+      "locator": "EPD driver and control IC product table",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Several listed products are identified as EPD ESL drivers."
+    },
+    {
+      "source_id": "src-4cca54d18eee6578",
+      "title": "114年報 (2024 annual report) | UltraChip",
+      "url": "https://www.ultrachip.com/images/epost/1140515%E6%99%B6%E5%AE%8F%E5%B9%B4%E5%A0%B1%28lock%29.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024 (ROC 113), compared with FY2023.",
+      "locator": "Business overview > Market and production/sales overview > Main products’ sales regions; table for 112 and 113年度",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports FY2024 export sales of NT$1,317,854 thousand and 87.43% of total sales."
+    },
+    {
+      "source_id": "src-dfaf814fc27dd52b",
+      "title": "公司概況 > 關於晶宏 | UltraChip",
+      "url": "https://www.ultrachip.com.tw/zh/habout.php?id=31",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated current issuer webpage; accessed 2026-10-07.",
+      "locator": "Company overview, product application scope",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that product applications include medical instruments."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Sufficient official issuer evidence found for each application category and the FY2024 export ratio; no unresolved atoms remain.",
+    "Application categories are supported by issuer product pages and its FY2024 annual report; the sources do not provide sales percentages by application.",
+    "The 87% figure is supported specifically for FY2024, using export sales divided by total reported sales."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3141/1187/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000468",
+  "claim_id": "8454:objective_ranking_or_market_share:8562fb574e9c1bc9",
+  "normalized_claim_hash": "8562fb574e9c1bc90160669f6e367ddd5a9c6f3b506506b770271f646934046d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8b9c02e714522067",
+      "title": "營運概況－富邦媒體科技",
+      "url": "https://corp.momo.com.tw/CSR/operationalOverview",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023",
+      "locator": "「營運概況」首段及商品／服務項目註記",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "揭露網路購物營收占比96.24%；另註明採B2C商業運作模式，主要客戶為個人消費者。"
+    },
+    {
+      "source_id": "src-ca8d1cf341ab68ce",
+      "title": "富邦媒體科技股份有限公司2024年年報（113年度年報）",
+      "url": "https://corp.momo.com.tw/file/investor/shareholdersMeeting/202501141851/20250508172658.pdf",
+      "source_level": 3,
+      "publication_date": "2025-02-21",
+      "effective_period": "FY2024",
+      "locator": "壹、致股東報告書；「mo店+」及商品供給相關段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報提及數百萬件商品及若干主力品類，並未定義或證實涵蓋所有品類。"
+    },
+    {
+      "source_id": "src-02325aa7bbcbd185",
+      "title": "momo購物網－好評推薦",
+      "url": "https://www.momo.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "官方購物網商品／類別介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示多個品類及商品供應，未證明相對競爭優勢。"
+    },
+    {
+      "source_id": "src-c6de3a73b8c8d675",
+      "title": "物流－富邦媒體科技",
+      "url": "https://corp.momo.com.tw/market/momoLogistics",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「簡介」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其服務有別於其他電商，但未附比較指標或競品數據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視富邦媒年報、營運概況、官方商品頁及物流頁等主要一手資料。客觀排名與競爭優勢仍缺可比較的指標及市場分母，未以公司定位文字替代量化驗證。",
+    "最大B2C購物網站的排名來源是公司年報自述；未揭露排名指標、比較對象、分母或計算方法。",
+    "2023年96.24%是網路購物占公司營收比例，不是GMV、市占率或單一商品品類占比。",
+    "商品頁和物流頁可證明服務及品類存在，不能單獨證明「全品類」或相對競爭優勢。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8454/468/hermes-attempt-1.stdout.txt"
+}

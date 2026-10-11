@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000470",
+  "claim_id": "1432:objective_ranking_or_market_share:308460c572bff85d",
+  "normalized_claim_hash": "308460c572bff85d7e7f2f8866fa8e35a971c46d55866064ade56a597157e28a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-65ab77fa20a29721",
+      "title": "大魯閣實業2025年法說會",
+      "url": "https://www.taroko.com.tw/wp-content/uploads/2025/12/%E5%A4%A7%E9%AD%AF%E9%96%A3%E5%AF%A6%E6%A5%AD2025%E5%B9%B4%E6%B3%95%E8%AA%AA%E6%9C%831141229%E4%B8%8A%E5%82%B3%E7%89%88%E6%9C%AC-v1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 investor presentation; then-current operating count as stated in the deck.",
+      "locator": "Section 4.1, 運動休閒-棒壘球/保齡球",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 3 bowling venues and 1 combined batting-and-bowling venue, not four venues all categorized solely as bowling alleys."
+    },
+    {
+      "source_id": "src-bf8cd5e620fc9d0f",
+      "title": "保齡球館 - 大魯閣Taroko Sports",
+      "url": "https://www.trk.com.tw/venue/bowling",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Description of 大魯閣保齡球館",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer calls its bowling operation the largest nationwide bowling chain; that is a different business and does not verify the batting-chain ranking."
+    },
+    {
+      "source_id": "src-c37e16e4c33ccd37",
+      "title": "服務據點 新時代館 - 大魯閣Taroko Sports",
+      "url": "https://www.trk.com.tw/location/3",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "新時代館 basic information and facility categories",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer lists this venue as both a batting facility and a bowling alley, confirming that at least one venue combines the activities."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Completed eight focused search calls. The remaining ranking claims and the original reference period for the counts could not be reliably established.",
+    "The original wording does not specify an effective date for either venue count or the ranking claims.",
+    "The issuer’s 2025 count distinguishes dedicated batting and bowling venues from a combined venue; treating the combined location as a batting venue or a bowling alley changes the denominator.",
+    "No comparable market definition or size metric was provided for the batting-chain ranking. Company marketing about its bowling chain is not evidence of a batting-chain ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1432/470/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000436",
+  "claim_id": "6192:objective_ranking_or_market_share:29dfc8d397ce595b",
+  "normalized_claim_hash": "29dfc8d397ce595b7cd232551538aee7bfac7afe09ce57fabee0fd329301f909",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-973635aeeec1522d090e",
+      "title": "六人同心，穩坐台灣程控業龍頭",
+      "url": "https://www.gvm.com.tw/article/13604",
+      "source_level": 2,
+      "publication_date": "2010-01-01",
+      "effective_period": null,
+      "locator": "內文列舉中油、中鋼、台電、台積電等為服務對象",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅支持台積電是客戶之一，不支持最大客戶排名。"
+    },
+    {
+      "source_id": "src-6b6cd9e7ea886f9045a5",
+      "title": "搭上一帶一路 巨路程控接單後勁強",
+      "url": "https://n.yam.com/Article/20170525273022",
+      "source_level": 2,
+      "publication_date": "2017-05-25",
+      "effective_period": "文章提及2016年營運資訊",
+      "locator": "內文稱國內主要客戶包括台塑、中油、台電和台積電",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅列出主要客戶，未比較客戶營收或確認台積電為最大客戶。"
+    },
+    {
+      "source_id": "src-52d5bf906ebee960f799",
+      "title": "巨路 今年營收成長可期",
+      "url": "https://www.ctee.com.tw/news/20220115700021-430502",
+      "source_level": 2,
+      "publication_date": "2022-01-15",
+      "effective_period": "2021年",
+      "locator": "內文稱半導體業相關營收比重達30%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "此數據描述半導體業相關營收，不是台積電單一客戶占比，也未說明其分母是程控營收；不能用來證實原主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦搜尋；現有資料無法核實客戶排名、台積電占比、分母及適用期間，依任務限制停止研究。",
+    "找到的客戶名單只確認台積電曾被報導為巨路客戶，未揭露客戶別營收或排名。",
+    "找到的約30%數據指向半導體業相關營收，不等同於台積電占程控營收約三成。",
+    "原文未提供期間；未找到可核實該排名與比例的巨路官方揭露或申報資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6192/436/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "a52eef3e8ac58f997572cc2e5cd1fe6597a3e5552eefe78f0b00289409e825da",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6192/436/isolated-prompt.txt",
+  "prompt_sha256": "6d7d21a1ff4cb7997aac57cc8f0db0b46f0c51f0622d5a609ba1a9944370420f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000436/manifest.json",
+  "supersedes_manifest_sha256": "477538d346697788ee2581daaffa812581c2a28b073ca96adb8699b9b0063cae",
+  "corrected_at": "2026-10-08T09:58:12Z"
+}

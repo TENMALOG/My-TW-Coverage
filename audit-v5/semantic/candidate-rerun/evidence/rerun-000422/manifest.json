@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000422",
+  "claim_id": "9911:objective_ranking_or_market_share:9919abbc162a9a07",
+  "normalized_claim_hash": "9919abbc162a9a07f1686ae7928644d55b4ffbc99abeb677f1c7b2316e87b0c0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-41d798624c0c029d",
+      "title": "公司簡介 - 台灣櫻花",
+      "url": "https://www.sakura.com.tw/BrandIntro",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介，品牌沿革段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述其奠定「瓦斯器具業第一品牌」地位；未提供該排名的調查期間、方法或市場分母。"
+    },
+    {
+      "source_id": "src-d73eb457dad0d1f5",
+      "title": "櫻花集團法說會簡報",
+      "url": "https://www.sakura.com.tw/Uploads/Document/eb2ba71c-9b6f-4679-8eb4-eb8910f0f0f8/%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E8%8B%B1%E6%96%87%E7%89%882025.06.06.pdf",
+      "source_level": 3,
+      "publication_date": "2025-06-06",
+      "effective_period": "2025年簡報所述台灣市場策略",
+      "locator": "Taiwan Market—Water Heater & Kitchen Appliance；Dual brands strategy",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方將Sakura與Topax列為雙品牌，並說明兩品牌的市場定位分工。"
+    },
+    {
+      "source_id": "src-c602219eea40ccf7",
+      "title": "廚衛公司，櫻花(9911.TW)",
+      "url": "http://makssin.blogspot.com/2023/10/9911tw.html",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「市場占有率」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面稱Rinnai為主要競爭對手，但未註明該判斷或所引市場調查的來源；僅作為未獨立核實的次級線索。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司官方簡介、品牌沿革及2025年法說簡報，並核對一項次級競爭者說法。尚無可核實的獨立排名資料或官方競爭者清單；未解決的品牌排名與Rinnai競爭者範圍維持UNKNOWN。",
+    "1978年是官方所述事業／品牌起源；現行股份有限公司於1988年成立，兩者不應混為同一法律事件。",
+    "「第一品牌」缺少明確期間、品類定義、排名標準及分母；公司自述不能單獨證明獨立市場排名。",
+    "Rinnai競爭者說法僅見於未提供來源依據的個人部落格，未作為可靠證據。",
+    "Topax在公司官方資料中屬雙品牌策略；此處的矛盾判定針對其被列為台灣櫻花競爭者。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9911/422/hermes-attempt-1.stdout.txt"
+}

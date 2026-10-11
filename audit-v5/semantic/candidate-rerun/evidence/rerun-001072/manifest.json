@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001072",
+  "claim_id": "6158:material_named_relationship:abe99517d07e32de",
+  "normalized_claim_hash": "abe99517d07e32de343ee9af41c6d687824791f6195a3603b7e47d0f87432a5e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f99c0ab0d1cf676a",
+      "title": "禾昌興業股份有限公司2022年度年報",
+      "url": "https://www.p-two.com/upload/global/1684396143.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年度",
+      "locator": "年報第62頁，主要產品清單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示「軟排線（Flexible Flat Cable）」。"
+    },
+    {
+      "source_id": "src-8df703cb9b59f16f",
+      "title": "禾昌興業：環境安全及衛生政策／關於禾昌",
+      "url": "https://www.p-two.com/index.php?do=about&id=16&lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司網站現行頁面，查閱日期2026-10-07",
+      "locator": "公司介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為電子產品連接器與電子線的設計、製造廠商。"
+    },
+    {
+      "source_id": "src-c8526ad1cc93bc34",
+      "title": "禾昌興業股份有限公司年報（涵蓋108至110年度資料）",
+      "url": "https://www.p-two.com/upload/global/1622162279.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報所列歷史年度",
+      "locator": "年報第67頁，銷貨總額達門檻客戶表及註1",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "部分客戶以代號列示，年報註明因契約約定不得揭露名稱；此為資訊限制，不是反證。"
+    },
+    {
+      "source_id": "src-935f98ae3416baf2",
+      "title": "MoneyDJ法人研究報告，「LCD Panel」段落",
+      "url": "https://m.moneydj.com/z/zd/zdc/zdcz/zdcz_B05307FA-4952-4B48-B2AB-C185A5A4B9BB.djhtm",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "搜尋結果所示「LCD Panel」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "歷史性二手資料提及友達、群創開始出貨；無法支持現時客戶狀態或「主要客戶」地位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達8輪研究上限；最新年報的查詢連結曾返回404，且剩餘未解原子需要當期具名客戶與面板組裝線組的直接證據，故保留為UNKNOWN。",
+    "產品類別與用途主要由禾昌2022年度及較早年報支持，不能自動外推為2026年的產品營收結構。",
+    "具名友達、群創關係僅找到歷史二手資料，無法確定其精確期間、營收比重或是否仍為當期主要客戶。",
+    "年報未具名揭露部分大額客戶是保密限制，不應解讀為客戶關係不存在。",
+    "截至停止檢索，未取得可核對的最新年報正文中對具名客戶及「線組」用途的直接披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6158/1072/hermes-attempt-1.stdout.txt"
+}

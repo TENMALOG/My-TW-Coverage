@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000263",
+  "claim_id": "2317:objective_ranking_or_market_share:862167a3881f91f4",
+  "normalized_claim_hash": "862167a3881f91f4cd80824a6ca16633b75fc4e0ab0ddcace6dfc9d6ffdb5057",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a68438fe63234cbc",
+      "title": "Top 50 EMS Companies for 2024 - New Venture Research",
+      "url": "https://newventureresearch.com/the-mmi-top-50-for-2024/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2023 sales ranking, as identified in the page’s closing text",
+      "locator": "Top 50 table, No. 1; closing paragraph identifying the list as the 2023 Top 50 appearing in the March 2024 MMI edition",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The list places HonHai Precision (Foxconn) first. The page heading calls it the 2024 list, while its closing text describes it as the list for 2023."
+    },
+    {
+      "source_id": "src-9f2781f970be6bca",
+      "title": "Top 50 EMS Companies - 2024 (MMI press release)",
+      "url": "https://www.circuitnet.com/news/uploads/4/Top_50_EMS_Companies_-_2024.pdf",
+      "source_level": 2,
+      "publication_date": "2024-04-13",
+      "effective_period": "2023 EMS sales",
+      "locator": "Opening paragraphs and paragraph beginning “In addition to ranking providers by 2023 sales”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes the global MMI Top 50 and says providers are ranked by 2023 sales; MMI’s annual survey covers over 100 of the largest EMS companies worldwide."
+    },
+    {
+      "source_id": "src-885beb1aa5735c8c",
+      "title": "Hon Hai Announces FY2023 & 4Q23 Financial Results - Hon Hai Technology Group",
+      "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1299",
+      "source_level": 3,
+      "publication_date": "2024-03-14",
+      "effective_period": "FY2023",
+      "locator": "Full-year 2023 financial results, revenue paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure states: “For the full year 2023, revenue totaled NT$6.162 trillion.”"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The ranking and revenue atoms are supported by a published MMI ranking/list and an official issuer financial-results disclosure; no further research was needed.",
+    "The ranking is a specialized industry survey rather than a regulator or issuer filing. It ranks the MMI Top 50, compiled from a survey of over 100 large EMS providers; the MMI release estimates the Top 50 usually represents approximately 85–90% of industry revenue.",
+    "The New Venture Research list page’s heading refers to a 2024 list, while its closing text identifies the list as the 2023 ranking. The contemporaneous MMI release specifies that the ranking is based on 2023 sales. The 2023 revenue figure is directly supported by the issuer."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2317/263/hermes-attempt-1.stdout.txt"
+}

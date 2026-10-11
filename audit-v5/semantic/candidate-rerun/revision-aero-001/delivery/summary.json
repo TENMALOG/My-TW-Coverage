@@ -1,0 +1,22 @@
+{
+  "schema": "revision-batch-summary-1",
+  "batch": "revision-aero-001",
+  "generated_at": "2026-10-10T17:24:05.276332+00:00",
+  "assessment_date": "2026-10-08",
+  "queue_count": 14,
+  "reviewed": 14,
+  "verdicts": {
+    "REVISED_SUPPORTED": 4,
+    "PARTIALLY_SUPPORTED": 9,
+    "UNSUPPORTED": 1
+  },
+  "revised_supported": 4,
+  "alternatives_pending_new_review": 10,
+  "runtime": "codex gpt-6-sol high (all 14); primary source review by claude-opus-5-5",
+  "operational_notes": [
+    "attempt-1 of 2634 aborted (Windows sandbox)",
+    "false quota detection on 4541 fixed; see adjudication/operations-review.json"
+  ],
+  "outcomes_sha256": "cf2d8b226e2f2ffa51dca6f21efa2ec7afaf802ef044692da42dbe16eb731490",
+  "parent_original_acceptance_changed": false
+}

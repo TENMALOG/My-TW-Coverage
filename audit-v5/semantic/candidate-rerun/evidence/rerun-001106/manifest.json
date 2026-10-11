@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001106",
+  "claim_id": "8147:material_named_relationship:ec58d24269554297",
+  "normalized_claim_hash": "ec58d2426955429795ab5b68711e259ff73c20533e633dd595dd94a285a8f57d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0fa82aa416fc5209",
+      "title": "正淩精密工業股份有限公司2020年度營業報告書",
+      "url": "https://www.nextrongroup.com/files/uploads/INVESTOR/%E8%82%A1%E6%9D%B1%E6%9C%83/2021%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83109%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國109年度（2020年）",
+      "locator": "致股東報告書，航太市場段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱公司於109年導入並取得AS9100航太認證。"
+    },
+    {
+      "source_id": "src-fbabdcac7dae8feb",
+      "title": "Nextronic Engineering Corp AS 9100 D / ISO9001:2015 certificate",
+      "url": "https://www.nextrongroup.com/files/uploads/Quality/Nextronic_AS9100_2026_10_17.pdf",
+      "source_level": 3,
+      "publication_date": "2024-01-14（重新簽發日）",
+      "effective_period": "2023-10-18至2026-10-17",
+      "locator": "第1頁第5–24行；第2頁第38–46行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "顯示一個證書編號及AS9100D / ISO9001:2015組合，並列中央辦公室與工廠；未顯示兩張AS9100證書。"
+    },
+    {
+      "source_id": "src-16f21bc24e8aabca",
+      "title": "航太領域 | 正淩精密工業股份有限公司",
+      "url": "https://www.nextrongroup.com/zh-TW/industry/web-intro-industry-2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "航太解決方案及專業資格認證段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為航太連接器提供者，並列出連接器、線束、ATR及VPX次系統等產品。"
+    },
+    {
+      "source_id": "src-f064e05ac6499a6d",
+      "title": "正淩精密工業股份有限公司一一三年股東常會議事錄",
+      "url": "https://www.nextrongroup.com/files/uploads/INVESTOR/%E8%82%A1%E6%9D%B1%E6%9C%83/2024%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf",
+      "source_level": 3,
+      "publication_date": "2024-06-12",
+      "effective_period": "民國112年度（2023年）",
+      "locator": "附件一，民國112年度營業報告書，航太領域段落，第5頁第173–179行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司已開發符合MIL-DTL-38999規範的航太連接器，並獲國內客戶肯定。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方認證證書、航太產品頁及年度營業報告；「雙重」所指仍無法由已查得資料確認，故該原子主張保留UNKNOWN。",
+    "官方證書列示有效期至2026-10-17；本次核驗日期為2026-10-07。",
+    "證書列有AS9100D / ISO9001:2015及中央辦公室、工廠範圍，但不能據此把「雙重」解讀為兩張AS9100證書。",
+    "航太供應主張由公司官方資料支持；未取得獨立客戶或交易資料核實供貨數量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8147/1106/hermes-attempt-1.stdout.txt"
+}

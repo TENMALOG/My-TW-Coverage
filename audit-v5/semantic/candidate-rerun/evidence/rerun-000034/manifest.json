@@ -1,0 +1,63 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000034",
+  "claim_id": "1522:objective_ranking_or_market_share:9f7b131fa64ec7b2",
+  "normalized_claim_hash": "9f7b131fa64ec7b2b16840f4dce10025a6ca24c06fdc66a60fb4bebd63e838f0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "canadian-tire-tyc-lkq-product-listing",
+      "title": "Tyc 11-5132 Light Assembly, 1-pk — Canadian Tire",
+      "url": "https://www.canadiantire.ca/en/pdp/fo2502200n-light-ass-0205036p.0207320.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "加拿大輪胎線上產品目錄，截至2026-10-06檢索。",
+      "locator": "商品標題為TYC 11-5132 Light Assembly；商品號020-7320-8；頁面標示LKQ為供應商。加拿大為北美市場。",
+      "source_sha256": "63ce6fcdf4d010a186cf498f9127f93b2ac6d5f646bc802437eb626e2c3ed70c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/34/canadian-tire-product-page-search-capture.txt",
+      "note": "保存的是檢索結果摘要而非原始HTML；直接抓取頁面回傳HTTP 403。可支持至少一個TYC標示商品經LKQ供貨渠道銷售，不等於證明TYC Brother與LKQ的直接採購合約、專屬供貨或完整產品線關係。"
+    },
+    {
+      "source_id": "tyc-2025-sustainability-report",
+      "title": "堤維西交通工業股份有限公司2025永續報告書",
+      "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2025_Sustainability_1_zh.pdf",
+      "source_level": 3,
+      "publication_date": "2026-07-14",
+      "effective_period": "2025年度；公司於2026-07-14發布，報告經第三方AA1000AS v3 Type 1中度確信。",
+      "locator": "印刷頁31稱TYC持續拓展全球AM市場、提供全球130多國客戶一站式服務，且截至2025年底累計通過CAPA認證燈具2,400組。未列LKQ客戶身分或TYC北美AM市占12%。",
+      "source_sha256": "ab36f325ee1b7c7bd622da8ebc256fa1575f3c52639ede7064b2f1d4235e1e4d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/34/tyc-2025-sustainability-report.pdf",
+      "note": "發行人最新永續報告支持全球AM業務與認證投入，未揭露客戶採購合約或市場占比。"
+    },
+    {
+      "source_id": "tyc-2026-03-investor-presentation",
+      "title": "堤維西交通工業股份有限公司2026年法人說明會簡報",
+      "url": "https://mopsov.twse.com.tw/nas/STR/152220260318M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-19",
+      "effective_period": "2026年3月法人說明會。",
+      "locator": "簡報第6頁介紹TYC Americas在加州Brea營運總部及五州發貨倉，服務北美售服車燈市場及OEM客戶；全份25頁未列LKQ或市占率。",
+      "source_sha256": "562d83af5d90cd0a9427335f207d81d8dbd224b7e9da31b4e69728ea56aa7839",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/34/tyc-2026-03-investor-presentation.pdf",
+      "note": "支持北美AM物流布局，不代表直接客戶名單或市占率。"
+    },
+    {
+      "source_id": "tyc-2023-sustainability-report",
+      "title": "堤維西交通工業股份有限公司2023永續報告書",
+      "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2023_Sustainability_zh.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度公司資料。",
+      "locator": "印刷頁21稱TYC品牌行銷全球130多國、為全球OEM及AM售服市場供應商之一；印刷頁23列TYC個體營收地區分布，荷蘭約12.2%，這是地區營收占比，不是北美AM市場份額。",
+      "source_sha256": "cb72fb6522702be7e911b6444e6a08e7ff11aecb6109c903882b9e38c986b838",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/34/tyc-2023-sustainability-report.pdf",
+      "note": "報告未具名LKQ經銷商，也沒有12%北美市占或客戶占比。"
+    }
+  ],
+  "search_notes": [
+    "把「LKQ作為TYC品牌的北美銷售渠道」和「TYC Brother直接把LKQ列為客戶」分開。",
+    "檢索現行加拿大輪胎商品目錄，找到TYC 11-5132車燈並標示LKQ供貨；直接抓取頁面受HTTP 403限制，因此保存檢索結果摘要並明確標註其非原始HTML。",
+    "對照TYC最新永續報告與2026法人簡報；未找到直接列名LKQ或12%市占。",
+    "排除2023年永續報告荷蘭12.2%地區營收占比作為北美市場份額證據。"
+  ]
+}

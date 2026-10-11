@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000153",
+  "claim_id": "4905:objective_ranking_or_market_share:4172615a2601a106",
+  "normalized_claim_hash": "4172615a2601a106ccc7c82b898d1186c9cee7d4517952f84d7461993a5acd90",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4c94ff309b7df9c6",
+      "title": "台聯電訊股份有限公司民國一一五年股東常會議事手冊",
+      "url": "https://www.tainet.com.tw/wp-content/uploads/1150509%E5%8F%B0%E8%81%AF%E6%89%8B%E5%86%8AV3%E5%82%B3.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-09",
+      "effective_period": "截至2026年股東常會資料編製時",
+      "locator": "114年度營業報告書／115年度營業計畫相關段落；宜蘭科學園區新廠建設進度",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱宜蘭科學園區新廠建設已如期推進。"
+    },
+    {
+      "source_id": "src-402a8197096d0f60",
+      "title": "經濟部：三大方案投資金額突破2.4兆元 提前達標",
+      "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=118090",
+      "source_level": 3,
+      "publication_date": "2024-12-06",
+      "effective_period": "2024-12-06核准投資方案時",
+      "locator": "欣德芮股份有限公司段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載欣德芮計畫在宜蘭科學園區興建新廠；屬計畫核准／規劃證據，不單獨證明後續施工狀況。"
+    },
+    {
+      "source_id": "src-a28414d95a407130",
+      "title": "台聯電訊股份有限公司及其子公司民國一一四年第一季合併財務報告",
+      "url": "https://www.tainet.com.tw/wp-content/uploads/25Q1_%E5%8F%B0%E8%81%AF%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1Final_%E7%94%A8%E5%8D%B0%E5%BE%8C.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2025-03-31",
+      "locator": "附註／轉投資事業相關資訊；欣德芮持股比例",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列欣德芮為集團子公司，台聯電集團持股61.36%。"
+    },
+    {
+      "source_id": "src-8feb90ff922a9f9f",
+      "title": "達亞國際股份有限公司主要股東名單",
+      "url": "https://www.deltaasia.com.tw/proimage/images/1777367359.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-13",
+      "effective_period": "2026-03-13",
+      "locator": "第1頁；主要股東持有股數及持股比例表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台聯電列第一，持有8,310,864股、23.63%；第二位持有7,514,737股、21.37%。名單單位為股及佔已發行股份比例。"
+    },
+    {
+      "source_id": "src-389c9f1daff580a2",
+      "title": "台聯電取得達亞3,591,000股，計約7.40億元",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=14d686c7-bc44-41ff-a689-d77b67b5f458",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "交易日期：2023-05-29",
+      "locator": "取得有價證券公告內容；交易數量與累計持股資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導公告資料記載取得3,591,000股，累計持有6,124,440股、持股比例23.66%；屬轉述公開資訊的次級來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得官方新廠進度、子公司持股及達亞主要股東名單，並以次級來源補足2023年取得股份資料；原 claim 的兩個原子均有支持，停止研究並提交候選供最終裁決。",
+    "欣德芮擴建證據指向宜蘭科學園區新廠：官方資料確認先有投資計畫、後有建設進度；未提供產能、完工或投產數據。",
+    "達亞官方名單確認台聯電截至2026-03-13為最大股東；可得資料未精確標明台聯電首次成為最大股東的日期。",
+    "2023年持股交易數據由次級來源轉述公告資料；最大股東排名以達亞官方股東名單為依據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4905/153/hermes-attempt-1.stdout.txt"
+}

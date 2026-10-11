@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000637",
+  "claim_id": "6789:objective_ranking_or_market_share:113f7291089fc909",
+  "normalized_claim_hash": "113f7291089fc90946db33f9910fbd14518f66b3383d0993db53568e6ca8f56b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4f5974edc6e2a4ec",
+      "title": "VisEra Technologies Company Ltd. investor presentation",
+      "url": "https://www.viseratech.com/download/0/124",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021 年全球市場排名資料",
+      "locator": "第 24 頁，Main Products Global Market Share in 2021",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述 Overall: No.3、Foundry: No.1；Foundry No.1 是較窄的競爭範圍，不能直接當作所有全球 CIS 彩色濾光片市場排名第一的證明。"
+    },
+    {
+      "source_id": "src-656207be6df9dc6a",
+      "title": "CIS需求增，采鈺、精材亮眼，台積電休息，子弟兵上場",
+      "url": "https://ww2.money-link.com.tw/realtimenews/NewsContent.aspx?SN=49424900&PU=0017",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導討論 2021 年 CIS 市場及 2022 年展望；所稱「目前」期間未明確",
+      "locator": "采鈺業務段落，從「同等技術的廠商為日、韓等IDM大廠」起",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱采鈺全球市占約 22.5%，並描述 IDM 與 Fabless／代工服務的市場背景；未明確提供可與 claim 對應的彩色濾光片市場分母，也未支持 45–50%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成 8 個聚焦研究回合。官方資料支持較窄的全球晶圓代工服務排名，但未找到可核對 45–50% 精確市占率及其市場分母的可靠來源，依規則停止。",
+    "排名資料來自 issuer 自行發布的簡報；該頁未在排名旁交代市場調查來源或完整排名口徑。",
+    "富聯網報導的約 22.5% 數字屬次級來源，未提供可獨立核對的原始市調依據，且其分母與 claim 的彩色濾光片市場未能確認相同。",
+    "未以營收產品占比、出貨案例或 CIS 晶片整體市場數據替代彩色濾光片市場份額。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6789/637/hermes-attempt-1.stdout.txt"
+}

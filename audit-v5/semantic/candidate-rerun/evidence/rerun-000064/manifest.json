@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000064",
+  "claim_id": "3162:objective_ranking_or_market_share:ef970bc4a035c623",
+  "normalized_claim_hash": "ef970bc4a035c623ab843384d1764fb48fd2cf7da5e4e252ca33f016abfabaf2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ed537428d5e2516f",
+      "title": "China's CATL tops rank for global EV battery installation",
+      "url": "https://touch.shio.gov.cn/jsp/zfxw_detail_en.jsp?id=20221106214450128",
+      "source_level": 2,
+      "publication_date": "2022-11-06",
+      "effective_period": "January–September 2022",
+      "locator": "Article body, opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shanghai government-hosted republication citing SNE Research via Yicai; reports CATL ranked first globally with 119.8 GWh of installed power batteries and 35.1% global share in the period. This supports only that defined ranking, not the claim’s unspecified “largest.”"
+    },
+    {
+      "source_id": "src-99ba114ee65c449a",
+      "title": "敏實旗下精確新廠訂單助攻 明年業績看倍增",
+      "url": "https://www.cna.com.tw/news/afe/202208260090.aspx",
+      "source_level": 2,
+      "publication_date": "2022-08-26",
+      "effective_period": "Orders reported in 2022; planned gradual deliveries by year-end",
+      "locator": "Paragraph beginning「法人指出，精確電池盒產品取得…」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "CNA attributes the order information to analysts; it is not a disclosed contract or issuer filing."
+    },
+    {
+      "source_id": "src-e257deef050a8c71",
+      "title": "訂單旺 精確Q4拚賺贏前三季",
+      "url": "https://www.ctee.com.tw/news/20231219700210-439901",
+      "source_level": 2,
+      "publication_date": "2023-12-19",
+      "effective_period": "Q4 2023",
+      "locator": "Paragraph beginning「精確指出，目前三大電池廠客戶包括…」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that 精確 identified 蜂巢能源 among its battery-company customers and that shipments were growing; no quantities disclosed."
+    },
+    {
+      "source_id": "src-3846418fa2d1144b",
+      "title": "個股：新訂單挹注，精確(3162)11月營收創9個月來新高，估Q4攀全年高峰",
+      "url": "https://fnc.ebc.net.tw/fncnews/stock/165867",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "November 2023 shipments; Q4 2023",
+      "locator": "Paragraphs beginning「精確切入新能源車廠…」 and「精確指出，11月億緯鋰能出貨量能增加…」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊快報 reporting identifies EVE as a battery-company customer and reports increased November shipments. The extracted page did not show a publication date."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到可支持三家電池盒客戶關係的同期報導；「最大」仍因原文未限定市場、期間與排名指標而無法判定。依任務約定，不以特定年份或裝機量排名替代未限定的原 claim。",
+    "三家客戶關係有同期媒體報導支持，但所查證據不是公開合約或監管申報；其中2022年CNA報導將訂單消息歸於法人。",
+    "來源未提供三家客戶各自的訂單金額、出貨量或相關市場份額，不能據此計算公司市場份額。",
+    "CATL排名證據限定為2022年1–9月全球EV動力電池裝機量，不能替代原文未界定的「最大」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3162/64/hermes-attempt-1.stdout.txt"
+}

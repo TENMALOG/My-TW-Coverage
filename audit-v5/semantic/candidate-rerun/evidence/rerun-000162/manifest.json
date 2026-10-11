@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000162",
+  "claim_id": "6416:objective_ranking_or_market_share:a6c6b74e700a6d31",
+  "normalized_claim_hash": "a6c6b74e700a6d3190e895cf0fb4ba823d2513a9e56097e54738373710e12db9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e64ab9ac5144247e",
+      "title": "【台股研究報告】瑞祺電通(6416)新專案訂單陸續發酵，2025年獲利將創高！",
+      "url": "https://cmnews.com.tw/article/star-c2f239a9-d8c8-11ef-9e9a-ba5353a0ee31",
+      "source_level": 2,
+      "publication_date": "2024-07-08",
+      "effective_period": "文章所述當時；未明確界定",
+      "locator": "「瑞祺電通(6416)簡介」段落，稱主要客戶多為網路安全軟體業者或系統整合業者",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持客戶類型的概括描述；不是公司官方披露，也未量化客戶或出貨構成。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8輪聚焦檢索；達到研究輪次上限，仍缺少可核實的客戶身份、出貨分母與期間、排名依據及 OEM 白牌證據。",
+    "找到瑞祺電通2024年英文年報的官方連結，但文件抽取失敗，未能核實其中是否披露相關客戶、出貨占比或 OEM 資訊，因此不將其作為具體主張的證據。",
+    "未以銷售組合、產品列表或未具名客戶推定出貨目的地、客戶排名或供應模式。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6416/162/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000038",
+  "claim_id": "1525:objective_ranking_or_market_share:fd492ed31d1ccf47",
+  "normalized_claim_hash": "fd492ed31d1ccf47e205db57cf06e02d7b48e2ed70cb5d60be7a9b9527d1ce87",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-b09a402220655e9c44ba",
+      "title": "江申工業永續報告書（2024）",
+      "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8/2024%E5%B9%B4%20%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024 年報告；排名的具體基準期間未說明",
+      "locator": "公司概況／主要產品說明；PDF 文字稱「是國內規模最大的商用車車架製造企業」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方資料，支持最大商用車車架製造企業的描述；未提供排名方法或量化比較數據。"
+    },
+    {
+      "source_id": "src-123e557c13d58c43a27d",
+      "title": "江申工業股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba345a19-2ea3-4cef-b535-2064da9f7be4",
+      "source_level": 2,
+      "publication_date": "2025-08-21",
+      "effective_period": null,
+      "locator": "公司簡介／沿革與背景；稱「在3.5噸以上貨車(大貨車、巴士國產車等)之車架市佔高達100%」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二級來源直接報導該數值，但未提供市佔的有效期間、明確分母或計算依據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查公司官方資料、年報／公開資訊導向搜尋及二級公司資料；官方報告支持排名，但未找到可確認 100% 市佔分母與有效期間的官方披露，因此保留該原子為 UNKNOWN。",
+    "排名說法有公司 2024 年永續報告書支持，但未披露比較年度或排名方法。",
+    "100% 市佔數值目前找到的是 MoneyDJ 二級來源；公司官方資料與已查來源未提供可核對的市佔分母、方法及有效期間。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1525/38/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "9f1d73e0165038843773d9cb4b37d76ed84110a10083aaf1b3754d81a1f43129",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1525/38/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "0ce84f4b4784300006c4d61cb2a19a9634daca92cc991478cc98f787b952c110",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000508",
+  "claim_id": "7610:objective_ranking_or_market_share:8dc2d0884b44a2f2",
+  "normalized_claim_hash": "8dc2d0884b44a2f2b0303c9ebffd1a39f47c5bb54d531a3084687d0e4b5a6633",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7f413636c50eeb5b",
+      "title": "台積電在台唯一鎢金屬合格供應商 聯友金屬申請創新板",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_more.aspx?nsl_id=e1c339b2997d4473b74a2f4413d7b6e2",
+      "source_level": 2,
+      "publication_date": "2025-04-25",
+      "effective_period": "報導發布時點；更長期間未說明。",
+      "locator": "內文第2段；頁面標示來源為中央社。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導直接作出此唯一供應商聲稱；文中另稱終端客戶包括 Tesla。未附客戶端資格文件或競爭者名冊。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到日期明確且直接涵蓋三家公司的中央社報導，並查核發行人及交易所相關資料；未找到客戶端資格名冊或能界定比較母體的主要披露。此候選結論限於該報導所述時點，絕對唯一性及其後持續性留待最終裁定。",
+    "核心證據為中央社的二手報導（由工研院 IEK 產業情報網刊載），不是客戶發布的合格供應商名冊或監管文件；唯一性尚無客戶端或競爭者端資料獨立核實。",
+    "BusinessNext 後續報導（https://www.bnext.com.tw/article/92141/lianyou-metals-7610-company-story）稱聯友是台積電、Apple在台的鎢金屬合格供應商，並另稱與Tesla長期往來；該文未否定Tesla合格資格，但沒有獨立確認Tesla的唯一供應商身分。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7610/508/hermes-attempt-1.stdout.txt"
+}

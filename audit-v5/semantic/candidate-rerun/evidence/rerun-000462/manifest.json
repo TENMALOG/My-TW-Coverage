@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000462",
+  "claim_id": "2612:objective_ranking_or_market_share:f023856ea96f015b",
+  "normalized_claim_hash": "f023856ea96f015b9c92979830b32e0dd943cf7833802df73136cc6a7f88f558",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9aaecaf0d74e1619",
+      "title": "2024年（民國113年）永續報告書",
+      "url": "http://cmt.tw/wp-content/uploads/2025/08/CMT_ESG-Report_2024_ch.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01至2024-12-31",
+      "locator": "第9頁「關於中航」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供公司對偉聯運輸規模排名的描述，但沒有市占率、分母、單位或市場界定，不能據此確認「市佔率頗高」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱中航2024年度官方永續報告及公司官方資料；經營活動與子公司關係可確認。市占率主張缺少市場定義、分母、期間及數值，不能以規模排名代替，故保留為UNKNOWN。",
+    "主要證據為發行公司自編永續報告書，屬官方一手披露；規模排名是公司自述，未見獨立市場資料驗證。",
+    "2024年報告所列業務範圍與服務據點支持經營活動，但不提供可量化市占率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2612/462/hermes-attempt-1.stdout.txt"
+}

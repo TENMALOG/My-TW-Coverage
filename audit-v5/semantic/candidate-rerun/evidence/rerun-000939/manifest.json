@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000939",
+  "claim_id": "6143:material_named_relationship:8a9881912d069058",
+  "normalized_claim_hash": "8a9881912d0690583dddbbdb74305ebe66a9f54f077d033a82b98c8846642d69",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-92543df4cefcd308",
+      "title": "振曜科技、E Ink元太科技與Readmoo攜手e啟讀出未來",
+      "url": "https://www.netronixinc.com/news_01.aspx?ID=85&type=",
+      "source_level": 3,
+      "publication_date": "2018-11-07",
+      "effective_period": "2018年彰化縣捐贈專案",
+      "locator": "公告正文，尤其「主要由元太科技提供的電子紙顯示模組」一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "振曜官方公告；專案層級證據，不代表全公司或所有期間的採購情況。"
+    },
+    {
+      "source_id": "src-796438da9e73dfc0",
+      "title": "振曜科技股份有限公司公開說明書",
+      "url": "https://www.netronixinc.com/NetronixWebAdm/upload/investors/%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8/20181222753.pdf",
+      "source_level": 3,
+      "publication_date": "2018-12-14",
+      "effective_period": "截至2018-12-14刊印日；文件描述關鍵材料電子紙Panel及進貨集中風險",
+      "locator": "第7頁，風險事項第9(1)項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱元太在電子紙Panel技術上居主導地位，並稱進貨較為集中；沒有宣稱獨家，也沒有提供相關採購分母或數值。"
+    },
+    {
+      "source_id": "src-9145c0b3de2e85d9",
+      "title": "振曜與群創打造寶可夢列車",
+      "url": "https://www.netronixinc.com/news_01.aspx?ID=113&type=news",
+      "source_level": 3,
+      "publication_date": "2022-01-26",
+      "effective_period": "台北捷運電子紙列車專案",
+      "locator": "公告正文「群創TFT背板及模組製造、元太彩色電子紙、振曜科技整機製造」一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "振曜官方公告披露特定專案的分工；不是振曜整體採購紀錄，且未說明各模組採購量或供應商排他性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核振曜官方專案公告及公開說明書。它們支持特定專案供應關係，但未提供判定公司整體、特定期間及採購分母下「獨家」所需的證據；因此保留該原子 claim 為 UNKNOWN。",
+    "供應關係的直接證據來自振曜對特定合作及捐贈專案的公司公告，不是涵蓋全公司採購的供應商清單。",
+    "振曜2018年公開說明書談的是電子紙Panel技術及進貨集中，不能直接等同於電子紙顯示模組獨家採購。",
+    "振曜官方網站列有2025年年報，但可取得的頁面未提供可檢索的年報正文，因此本次未能以該年報確認較近期的供應商範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6143/939/hermes-attempt-1.stdout.txt"
+}

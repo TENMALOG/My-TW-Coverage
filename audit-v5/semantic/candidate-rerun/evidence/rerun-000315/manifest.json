@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000315",
+  "claim_id": "5355:objective_ranking_or_market_share:bc0ba778fa8f319e",
+  "normalized_claim_hash": "bc0ba778fa8f319ec99092aa487777fc6f5f9d810199a3d4f5d723a2805a52b5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3195b477bfe7f19c",
+      "title": "佳總興業股份有限公司年報（113年度）",
+      "url": "https://www.gia-tzoong.com.tw/proimages/financial/113-%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-18",
+      "effective_period": "FY2024; 2025 business plan",
+      "locator": "Section 壹「致股東報告書」, 2025 sales plan: MCPCB aluminum/copper substrates described as high-heat-dissipation products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The forecast concerns expected sales direction, not market share or ranking."
+    },
+    {
+      "source_id": "src-d76813343c9954dc",
+      "title": "GIA TZOONG ENTERPRISE CO., LTD. — company homepage",
+      "url": "https://www.gia-tzoong.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "PRODUCT TYPE and 產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer lists MCPCB, FR4, DBC, and electronic/hybrid circuit board products; the page does not state a publication date."
+    },
+    {
+      "source_id": "src-bc76f6c16318efee",
+      "title": "High Thermal Conductivity MCPCB — GIA TZOONG",
+      "url": "https://www.gia-tzoong.com.tw/category-MCPCB-pro-A.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product category and listed High Thermal Conductivity MCPCB products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official product page; no publication date or market-share data given."
+    },
+    {
+      "source_id": "src-839bebe8c79e8ab0",
+      "title": "佳總興業股份有限公司 Company Profile",
+      "url": "https://www.gia-tzoong.com.tw/proimages/file/PSC_Profile.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Historical milestone states 2013",
+      "locator": "Company timeline, 2010–2015: 「2013年，鋁基板的市場佔有率達85%以上」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-reported historical share; the profile does not define geography, LED applicability, denominator, or units, so this cannot be treated as a current Taiwan-market ranking."
+    },
+    {
+      "source_id": "src-b75558c7c1959d74",
+      "title": "個股：佳總(5355)董座曾繼立表示，8月起營收逐步走揚，江門廠Q3可望轉虧為盈",
+      "url": "https://www.gia-tzoong.com.tw/webls-zh-tw/msg/msg481.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Headline and opening paragraph, attributed to 財訊快報/戴海茜",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The article uses the phrase 「國內最大LED散熱鋁基板廠」, but the page supplies no publication date, comparison set, denominator, or quantitative basis. It is hosted in the issuer’s news archive and is not independent current market-share evidence."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches located current issuer product disclosures and historical ranking-related statements, but no dated, comparable source defining the Taiwan LED thermal-aluminum-substrate market and its ranking denominator. The ranking atom remains UNKNOWN.",
+    "產品資料主要來自發行人年報、官網及公司型錄；型錄與官網頁面未標明發布日期。",
+    "型錄所載2013年鋁基板市占率超過85%未定義地理市場、LED細分市場或分母，不可直接替代台灣LED散熱鋁基板市場排名。",
+    "公司網站轉載的財訊快報文章雖使用「國內最大」表述，但頁面無日期及比較方法，故僅作為未驗證的歷史性二手表述。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5355/315/hermes-attempt-1.stdout.txt"
+}

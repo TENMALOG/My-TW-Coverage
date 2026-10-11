@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000306",
+  "claim_id": "4958:objective_ranking_or_market_share:40a491b3e2ad9593",
+  "normalized_claim_hash": "40a491b3e2ad95933f81493d53b2379c44b478addd0b3080f04508960bf7ebbb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1713e21b7a3e7afd",
+      "title": "臻鼎-KY Q2、上半年每股賺2.19元與3.55 元，今年資本支出逾800億元",
+      "url": "https://www.investor.com.tw/onlinenews/HeadlineNews.asp?AJX=2026%2F8%2F9135950",
+      "source_level": 2,
+      "publication_date": "2026-08-11",
+      "effective_period": "2026 first-half results; report refers to the second-half 2026 customer pull-in season",
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊快報 states that Apple is Zhen Ding's largest customer. No sales share or customer-ranking basis is given."
+    },
+    {
+      "source_id": "src-97a42bc06ff3abb3",
+      "title": "臻鼎：吃苹果长大的 PCB 龙头",
+      "url": "http://pdf.dfcfw.com/pdf/H3_AP201807121165796824_1.pdf",
+      "source_level": 2,
+      "publication_date": "2018-07-12",
+      "effective_period": "Historical customer description in 2018 research, discussing 2017-era customer context",
+      "locator": "Section 2.2, “以手机等消费电子为支柱领域”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Microsoft as a principal consumer-electronics end-brand customer in the historical period; does not establish current status."
+    },
+    {
+      "source_id": "src-440b94b00080dce1",
+      "title": "4958臻鼎-KY - 2024/12/21基本面分析",
+      "url": "https://vocus.cc/article/676669d3fd89780001fed865",
+      "source_level": 1,
+      "publication_date": "2024-12-21",
+      "effective_period": "Article discusses 2024; the customer-list period is not specified",
+      "locator": "Opening section, “公司簡介”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Microsoft among major customers without identifying supporting evidence; insufficient to verify current status."
+    },
+    {
+      "source_id": "src-21b366b6f111c697",
+      "title": "Zhen Ding Technology Holding (4958 TT) Investor Presentation",
+      "url": "https://www.zdtco.com/download/upload2025_06_02220250602145905t1jzywoQ31pdf",
+      "source_level": 3,
+      "publication_date": "2025-06",
+      "effective_period": "2025 investor presentation",
+      "locator": "AI-server business discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer refers to two major cloud customers without naming them; this does not identify Microsoft."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "After focused searches of issuer disclosures, investor materials, and secondary coverage, Apple’s largest-customer description was found in 2026 secondary reporting, but reliable current evidence naming Google or Microsoft was not found. Stopped with those atoms unresolved rather than infer identities from anonymized customer references.",
+    "The issuer materials reviewed discuss customers and customer programs without naming Google or Microsoft; anonymized customer references cannot be mapped to a brand.",
+    "The Apple ranking comes from secondary reporting, not an issuer customer-concentration table; the report gives no revenue share, amount, or ranking methodology.",
+    "The named Microsoft evidence from securities research concerns a historical period. The 2024 Google/Microsoft customer list is user-published and unsourced."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4958/306/hermes-attempt-1.stdout.txt"
+}

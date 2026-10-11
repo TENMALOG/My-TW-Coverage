@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000054",
+  "claim_id": "2239:objective_ranking_or_market_share:8d3dc1316d4155c8",
+  "normalized_claim_hash": "8d3dc1316d4155c8d3324b1196b77e6dc5ab2a2fcd24adcb8f4d8c7700852104",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c76adb9da277c3ef20af",
+      "title": "無懼大陸車市衰退 台灣汽車零件廠英利訂單不斷的祕密",
+      "url": "https://today.line.me/tw/v3/article/wO2VeR",
+      "source_level": 2,
+      "publication_date": "2019-11-22",
+      "effective_period": "報導發布時；未載明材料或產線的統計基準日",
+      "locator": "報導中「朝輕量發展！複合材料將成競爭利器」前段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "LINE TODAY刊載、標示來源為NOWnews，內文標示「文／財訊雙周刊」；描述萊特維研發並生產汽車內外飾輕型複合材料SYMALITE。"
+    },
+    {
+      "source_id": "src-3f41449d2a86175751da",
+      "title": "無懼大陸車市衰退 台灣汽車零件廠英利訂單不斷的祕密",
+      "url": "https://today.line.me/tw/v3/article/wO2VeR",
+      "source_level": 2,
+      "publication_date": "2019-11-22",
+      "effective_period": "報導發布時；實際統計基準日未載明",
+      "locator": "報導中「朝輕量發展！複合材料將成競爭利器」前段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱SYMALITE在中國大陸獨家授權給英利，並稱其為亞洲唯一生產線；這是二手報導中的陳述，未提供市場普查或官方佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已停止檢索；現有資料只能確認二手報導在2019年作出該唯一性陳述，無法核定原 claim 的期間或當前唯一性。",
+    "未找到可核實「亞洲唯一」的英利官方披露或監管／申報來源。",
+    "現有報導未界定產線統計口徑、統計基準日及亞洲範圍的核查方法。",
+    "文章標示來源為財訊雙周刊，經NOWnews刊載於LINE TODAY；屬二手報導，不能單獨證明該唯一性持續至其他期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2239/54/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-001",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d76ee3b6b578d1bce491ddb503feb35e2309d2f7955b4135b8f51d6b1900b20c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2239/54/isolated-prompt.txt",
+  "prompt_sha256": "5e945daf2d98bfeeb2790663d53d90fac5dd53372672cbabd8cd28107d86c8fa",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000054/manifest.json",
+  "supersedes_manifest_sha256": "ff9974bb23ff03989f47411d297cfb7646edf9584f441fd70016b6e221721c63",
+  "corrected_at": "2026-10-08T09:57:43Z"
+}

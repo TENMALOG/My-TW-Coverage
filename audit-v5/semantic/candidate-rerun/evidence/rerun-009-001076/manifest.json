@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001076",
+  "claim_id": "5328:material_named_relationship:6e569e23de500446",
+  "normalized_claim_hash": "6e569e23de500446e2e1194fa5bbae192ce970f326351332e0dc6ac71651241e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8164d3c603fdf1731440",
+      "title": "華容打入中國車廠供應鏈 出貨充電樁電容",
+      "url": "https://news.cnyes.com/news/id/4143274",
+      "source_level": 2,
+      "publication_date": "2018-06-13",
+      "effective_period": "2018年；報導稱取得當年中國車廠充電樁相關訂單",
+      "locator": "標題及首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網報導；內文指出透過中國代理商取得中國車廠充電樁相關訂單。"
+    },
+    {
+      "source_id": "src-d772196cd033312c60dd",
+      "title": "華容打入中國車廠供應鏈 出貨充電樁電容",
+      "url": "https://news.cnyes.com/news/id/4143274",
+      "source_level": 2,
+      "publication_date": "2018-06-13",
+      "effective_period": "2018年6月報導時點",
+      "locator": "標題及首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網報導；標題直接表述打入中國車廠供應鏈，內文稱取得充電樁相關訂單。"
+    },
+    {
+      "source_id": "src-a9ad2a6a86c9e66d70b9",
+      "title": "華容跨足電動車電池領域 美國、歐洲貢獻多",
+      "url": "https://news.cnyes.com/news/id/4115717",
+      "source_level": 2,
+      "publication_date": "2018-05-08",
+      "effective_period": "2018年報導時點",
+      "locator": "內文「近年華容積極轉型」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊快報報導稱華容透過中國大陸代理商與大陸車廠接觸，取得充電樁相關訂單；未列出車廠名稱。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到直接且同期的報導支持兩項原子主張；停止進一步檢索。證據為次級來源，提交最終裁定。",
+    "查得的直接證據為同期媒體報導，未找到本次檢索可核實的華容官方披露或監管文件確認該客戶關係。",
+    "報導未具名中國車廠，亦未披露訂單數量、出貨量或金額；其中一篇報導內文主要確認取得訂單。",
+    "證據限定於2018年報導時點，不能據此推斷目前仍在供應。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5328/1076/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "253dc57fe1a7690b9c669c75b31558579b5ae97c0e8069b976ae1d2c6f7696e9",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5328/1076/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "27ff9a6da96d008457598a39ea152e2f72fe09907d2a7e683e253553659e0e16",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001076/manifest.json",
+  "supersedes_manifest_sha256": "ba688e032c30839f534f28dab590ade8c525efc363daa1304fb1226d89784e97",
+  "corrected_at": "2026-10-08T09:59:15Z"
+}

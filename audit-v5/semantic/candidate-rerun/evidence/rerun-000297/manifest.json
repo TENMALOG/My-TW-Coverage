@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000297",
+  "claim_id": "4555:objective_ranking_or_market_share:0bf8c0e0c843a66a",
+  "normalized_claim_hash": "0bf8c0e0c843a66a3fb31607ff2b783ccb4268fb60975392aa8772bba43cb9db",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-802f6e5bbf65fb13",
+      "title": "台灣氣立 CHELIC | 2025年法人說明會簡報",
+      "url": "https://www.chelic.com/document/TW/Meeting/CHELIC%E6%B3%95%E8%AA%AA%E7%B0%A1%E5%A0%B1250818D.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-18",
+      "effective_period": "2025年上半年",
+      "locator": "第6–10頁：氣動元件、產品研發方向及相關應用產業",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "氣立官方簡報列示氣動元件及自動化設備等應用產業。"
+    },
+    {
+      "source_id": "src-fe310de1619d5154",
+      "title": "研發整合驅策萬千自動化精銳：台灣氣立工業4.0最強技術後盾",
+      "url": "https://www.ieatpe.org.tw/magazine/ebook331/storypage03.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "歷史性敘述；具體客戶排名年度未載明",
+      "locator": "「擴大中國大陸布局」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導支持富士康相關經銷商變動曾影響氣立，但未稱富士康是氣立最大的客戶。"
+    },
+    {
+      "source_id": "src-2b7bdc3506ba07da",
+      "title": "【雷神杯】4555 台灣氣立：主攻中高階氣動元件的公司",
+      "url": "https://redhouse.statementdog.com/archives/2640",
+      "source_level": 1,
+      "publication_date": "2016-05-14",
+      "effective_period": "文中轉述2014年銷售資料；未涵蓋完整歷史期間",
+      "locator": "「主要客戶」及「富士康採購政策」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及富士康是主力客戶及一項年度銷售比例，但未列出其他客戶銷售額以證明排名第一。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對氣立、富士康／鴻海、最大客戶及官方資料的檢索。現有資料支持產品與歷史間接出貨關係，但沒有定義完整歷史期間並比較同期間所有客戶的可靠證據；該排名原子維持 UNKNOWN。",
+    "未找到能確認客戶排名的氣立官方披露或監管／申報資料。",
+    "關於經銷商出貨及2014年客戶銷售比例的具體資料來自個人投資分析文章；其自述為學員團隊依公開資訊所作的主觀分析，應低權重採用。",
+    "貿易雜誌文章引述氣立財務長兼發言人，可支持富士康相關業務影響及產品應用背景，但沒有公布富士康的銷售排名或完整期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4555/297/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000595",
+  "claim_id": "3141:objective_ranking_or_market_share:84f650c3f04863f8",
+  "normalized_claim_hash": "84f650c3f04863f86730fab9d592e042ac9a457f63d4a04f903c5dc1316e8301",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-99cb19842992857b",
+      "title": "晶宏半導體股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=de9c21e6-aa31-4b93-96f1-41262edda88c",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「市場銷售與競爭」及「銷售狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱全球電子貨架標籤市場市占率為55%，但未證明分母為驅動晶片市場，也未揭露數據來源或期間。"
+    },
+    {
+      "source_id": "src-bc2d075f940e656b",
+      "title": "公司概況 > 關於晶宏 | UltraChip 晶宏半導體",
+      "url": "http://www.ultrachip.com/habout.php?id=31",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹中電子紙驅動IC段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為全球電子紙驅動IC第一大供應商；屬公司自述，未提供獨立排名依據，且電子紙驅動IC範圍不必然等同ESL驅動晶片市場。"
+    },
+    {
+      "source_id": "src-3f7c245e4c79d091",
+      "title": "元太處分晶宏持股逾2700張，處分利益逾4億元",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=d6d87bc5-444d-4d3f-83d4-48630f6c6316",
+      "source_level": 2,
+      "publication_date": "2022-08-22",
+      "effective_period": "2021-10-26至2022-08-19",
+      "locator": "新聞內文第一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導元太已處分晶宏普通股2,703,676股，並將該次處分描述為全數出清。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪可用工具呼叫上限；現有證據不足以核實55%數據的市場分母、原始來源及有效期間。",
+    "55%數據僅見於二手資料，未找到可核查的原始市調或公司、監管機構披露。",
+    "55%所指市場分母及測算期間不明，不能據此認定為ESL驅動晶片市占率。",
+    "晶宏官網的全球第一描述屬公司自述，且描述的是電子紙驅動IC。",
+    "元太2022年全數處分持股支持否定無時間限定的現行投資關係，但不否定歷史投資關係或持股處分後的業務合作。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3141/595/hermes-attempt-1.stdout.txt"
+}

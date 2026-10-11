@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000503",
+  "claim_id": "2904:objective_ranking_or_market_share:7f1bb17b9de305f7",
+  "normalized_claim_hash": "7f1bb17b9de305f77764eca6655de28e1fb3dfee14d7ce6ed196e8a06e79c143",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-585153d681f81ee2",
+      "title": "關於匯僑",
+      "url": "https://www.pocs.com.tw/msg/message-%E9%97%9C%E6%96%BC%E5%8C%AF%E5%83%91-4.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於匯僑」段落，兩座儲槽區及總容積資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供匯僑自身設施規模，沒有台塑集團或台灣中油的對照資料。"
+    },
+    {
+      "source_id": "src-b81d122df9d15fbe",
+      "title": "匯僑股份有限公司法說會簡報",
+      "url": "https://www.pocs.com.tw/proimages/Investor_Relations/Investor_Seminar/2024%E6%B3%95%E8%AA%AA%E6%9C%83(%E4%B8%AD%E6%96%87).pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-30",
+      "effective_period": "簡報中槽區船舶裝卸量資料截至民國112年（2023年）；公司規模自述未另標明基準日",
+      "locator": "第2頁「公司簡介」；第5頁「槽區介紹」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為國內最具規模的油化槽專業儲轉公司；槽區表列儲槽容量及2023年船舶裝卸量，未提供同業排名比較。"
+    },
+    {
+      "source_id": "src-11891b5ea915f3ad",
+      "title": "冷門卻有特許行業保護的石化轉儲包租公-匯僑(2904)",
+      "url": "https://shop.nstock.tw/author/article?id=74",
+      "source_level": 2,
+      "publication_date": "2020-11-29",
+      "effective_period": "文章所述當時；比較基準日未明示",
+      "locator": "「公司介紹」段落，稱石化轉儲業務僅次於中油及台塑集團",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章支持的是概括性的石化轉儲業務相對排名，並未明確聲稱以儲槽容量計排名，也未列出比較數據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司官網、2024年法說會簡報及相關二手資料；未找到定義比較母體、期間與容量口徑的同業排名證據，未解決的排名限定保留為 UNKNOWN。",
+    "官網及法說會簡報是匯僑自身披露，可支持其自述與自身設施數據，不能代替獨立同業排名。",
+    "二手文章所述「石化轉儲業務」排名，與原 claim 指定的「儲槽規模」容量排名並非明確相同指標。",
+    "原 claim 未給出比較期間、同業範圍或容量口徑；現有來源也未提供台塑集團及台灣中油的可比容量數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2904/503/hermes-attempt-1.stdout.txt"
+}

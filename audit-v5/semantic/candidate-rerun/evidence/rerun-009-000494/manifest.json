@@ -1,0 +1,45 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000494",
+  "claim_id": "1532:objective_ranking_or_market_share:63f553b91ed507d5",
+  "normalized_claim_hash": "63f553b91ed507d5220f9729dfa779c78049cde80b723e58a18285f9d808e0ef",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-19b98795c5c4b2bc2085",
+      "title": "2015企業社會責任報告書 - 勤美",
+      "url": "https://www.cmp.com.tw/uimg/responsibilityreport/20190102005358981.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2015 reporting period; the ranking statement is not separately dated",
+      "locator": "「關於勤美」／公司簡介，印刷頁4–5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "勤美官方報告中的相關表述是「勤美集團」為「大中華地區最具規模的專業鑄造集團之一」，並非原主張的精確主體與措辭。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方歷史報告中的近似表述；對原主張所需的精確主體、未指定期間的現況及排名基準，未找到足以核實的證據。",
+    "唯一找到的直接相關排名表述出自勤美官方2015年企業社會責任報告書，屬歷史性企業自述。",
+    "報告中的主體為「勤美集團」，不能直接等同於勤美股份有限公司單一法人。",
+    "報告未說明「最具規模」所依據的期間、鑄造市場範圍、比較對象或量化排名指標。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1532/494/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "911095ca2f7adabd97468b1a19ae40ac2fefb578047f60c8150a98533ea5e913",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1532/494/isolated-prompt.txt",
+  "prompt_sha256": "49d001e65ec959ecc364076ea9cdc131a1b36dbe13f0a9578898b63c5b8da556",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000494/manifest.json",
+  "supersedes_manifest_sha256": "c4862801884874731350f1de2247d247fd4130c335e3d776f3518f37d0da1518",
+  "corrected_at": "2026-10-08T09:58:17Z"
+}

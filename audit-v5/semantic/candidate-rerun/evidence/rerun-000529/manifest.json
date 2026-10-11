@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000529",
+  "claim_id": "2542:objective_ranking_or_market_share:ed6d035d3884b395",
+  "normalized_claim_hash": "ed6d035d3884b395f560ae18bc753b78795995ba5cdd42de4aed877565241f29",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1a6377f16ec5585e",
+      "title": "史上最大量縮潮 2025十大建商總銷「蒸發逾2千億」",
+      "url": "https://news.591.com.tw/news/12076",
+      "source_level": 2,
+      "publication_date": "2026-01-23",
+      "effective_period": "2025",
+      "locator": "文章開頭2025年全台十大建商排名；後段「季軍興富發」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "591報導其年度全台建商推案總銷排名第3。文章未將排名範圍定義為「民營建商」，亦未支持不限定年度或指標的泛稱。"
+    },
+    {
+      "source_id": "src-55d899ebc9550324",
+      "title": "興富發建設股份有限公司 2026年股東常會議事手冊",
+      "url": "https://www.highwealth.com.tw/upload/stakeholder/stock/shareholder/%E8%88%88%E5%AF%8C%E7%99%BC115%E5%B9%B4%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026年產品策略",
+      "locator": "營業報告書第9頁「產品策略」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明列四類主要產品，但未稱其為所有品項的完整清單。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方股東會資料及2025年全台建商排名報導；剩餘不確定性在於原文未界定排名指標與「全品項」範圍，已識別來源不足以消除該差異。",
+    "排名證據來自591新建案的二手統計報導，衡量的是2025年年度推案總銷，不是未限定期間或指標的建商規模排名。",
+    "該排名未明確界定「民營建商」的範圍；公司資料列出的四類主要產品也不能證明「全品項」的絕對完整性。",
+    "公司股東會議事手冊為官方一手來源；可確認產品策略與列舉的個案，但其公開發布日期未能由文件內容確定。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2542/529/hermes-attempt-1.stdout.txt"
+}

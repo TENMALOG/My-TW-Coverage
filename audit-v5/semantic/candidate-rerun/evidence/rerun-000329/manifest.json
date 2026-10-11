@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000329",
+  "claim_id": "6207:objective_ranking_or_market_share:5b5191cdf2afd95c",
+  "normalized_claim_hash": "5b5191cdf2afd95cf3448bafd27adf3368095299b1b4da2567a6f8a8d2346b2c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-97aa622d69efc26b",
+      "title": "Laser Equipment — LaserTek Taiwan",
+      "url": "https://lasertek.com.tw/laser.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Passive Component Industry；Specialized models for chip resistors；Thick film chip resistors / Thin film chip resistors",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網產品分類與產品描述，支持雷科提供晶片電阻用雷射設備。"
+    },
+    {
+      "source_id": "src-196f79b8c02342f1",
+      "title": "Thin Film Laser Trimmer TF-3050 S3",
+      "url": "https://lasertek.com.tw/laser_trimmer_tf3050g_s3.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品規格及 Application 欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁將其列為 Thick-film R-SMD Laser Trimmer，並說明可處理至 0201 尺寸電阻。"
+    },
+    {
+      "source_id": "src-b5d638887d5cbd3b",
+      "title": "雷科 訂單能見度拉長至10月",
+      "url": "https://www.ctee.com.tw/news/20210421701251-439901",
+      "source_level": 2,
+      "publication_date": "2021-04-21",
+      "effective_period": null,
+      "locator": "內文第二段：稱雷科全球雷射修阻機市佔率高達65%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "工商時報的歷史報導，提供曾被報導為65%的線索；未列出統計期間、分母、方法或原始依據，不足以確認目前市佔率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成六輪聚焦查找，包含雷科官方產品資料、官方投資人／財務資料線索及相關媒體報導；未找到可驗證目前全球市佔率及其統計分母的方法資料，故保留該原子主張為UNKNOWN。",
+    "找到的市佔率數字來自2021年的媒體報導，不是目前的官方市佔資料。",
+    "該媒體報導未揭露市佔率的統計期間、產品市場邊界、分母或計算方法。",
+    "雷科官方產品資料支持設備類別與用途，但未提供全球市佔率數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6207/329/hermes-attempt-1.stdout.txt"
+}

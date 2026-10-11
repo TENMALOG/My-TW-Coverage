@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001149",
+  "claim_id": "5608:material_named_relationship:1a2dfe39ec2a2efd",
+  "normalized_claim_hash": "1a2dfe39ec2a2efdb45d8a0ba25576d8b317425684d1f8cb9d00417d7d26441f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8005fd0777f36632",
+      "title": "2025 Annual Report (Revised), Shih Wei Navigation Co., Ltd.",
+      "url": "https://www.swnav.com.tw/uploads/files/shares/shareholders/2026/2025%20Annual%20Report(Revised).pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-10",
+      "effective_period": "FY2025; annual report dated 2026-04-10",
+      "locator": "PDF pp. 1–143; customer-name search and business description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Does not name China Steel as a customer. This is lack of confirming evidence, not evidence that China Steel is not a customer."
+    },
+    {
+      "source_id": "src-3f9eb2af653644a6",
+      "title": "What We Do, Shih Wei Navigation Co., Ltd.",
+      "url": "https://www.swnav.com.tw/en/about/Our-Business",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Business Model section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes bulk cargo shipping and states that lessees determine routes and ports of call; it does not identify international raw-material traders as major customers."
+    },
+    {
+      "source_id": "src-910514a7edec8bde",
+      "title": "Consolidated Financial Statements, Shih Wei Navigation Co., Ltd. and subsidiaries, FY2023",
+      "url": "https://www.swnav.com.tw/uploads/files/shares/financial/financial-112Q4-ALL.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023",
+      "locator": "PDF p. 61, Note 14(4), Major Customer Information",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that no single customer accounted for 10% or more of consolidated revenue in FY2023. This older disclosure neither identifies customer categories nor disproves the broader claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches of issuer disclosures and related reliable sources did not find evidence resolving the named-customer or customer-category claims. The remaining atoms are UNKNOWN because customer identity, period, and the denominator or definition of “major” are not established.",
+    "The FY2025 issuer annual report describes cargoes and operations but does not identify POSCO, 中鋼, or international raw-material traders as major customers.",
+    "The FY2023 audited financial statements state that no single customer reached 10% of consolidated revenue for that year; this is a different period and does not resolve customer identities or the stated customer categories.",
+    "A cargo type, chartering arrangement, or customer relationship elsewhere in the shipping industry cannot by itself establish 四維航’s named or major-customer relationships."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5608/1149/hermes-attempt-1.stdout.txt"
+}

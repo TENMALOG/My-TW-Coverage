@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000713",
+  "claim_id": "1540:objective_ranking_or_market_share:6d45c395e82f2ccd",
+  "normalized_claim_hash": "6d45c395e82f2ccdfdb6f1dd3f702899c0e08a550a6175ee1280b789c4df1cec",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7be0ac47060c70038253",
+      "title": "喬福訂單能見度看到明年第二季初 工具機市況一次掌握",
+      "url": "https://today.line.me/tw/v3/article/DRXBq7X",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導涉及2025年第三季營收及第四季展望；確切刊登日期未能確認",
+      "locator": "搜尋結果摘要中喬福市場與營收比重段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "LINE TODAY刊載、標示來源為工商時報。摘要稱中國大陸與美國為兩大市場，營收比重幾乎各半；未提供精確比例或明確排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用完8個聚焦研究回合；未找到足以核實排名、期間及衡量口徑的可靠資料。",
+    "找到的市場比重資訊來自二手媒體報導，不是已核對的公司原始揭露。",
+    "報導未提供精確營收比例，且原主張沒有指定期間或市場排名的衡量口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1540/713/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "cb28d1e5c6594e6692b7815d1f71033e7d098fd04bbb56df99526dcc21bac027",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1540/713/isolated-prompt.txt",
+  "prompt_sha256": "e290b0a56e3ff5a533b8eb748d2973426ed5faf7c557e1aca8075a9d0c74e0c3",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000713/manifest.json",
+  "supersedes_manifest_sha256": "85d10945a2eacec5981022eb8ffbd01ffeac4cf9e6265f2fb5cac477d5abc9a8",
+  "corrected_at": "2026-10-08T09:58:37Z"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001262",
+  "claim_id": "4406:material_named_relationship:95003ef6de91feba",
+  "normalized_claim_hash": "95003ef6de91feba06ad2e9ed9ccfc0cf6c8a6f8cdbd71aafa45e0e71592baf9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d141d73a5e9789a0",
+      "title": "新昕纖維股份有限公司 103 年度年報",
+      "url": "https://www.hsinsin.com.tw/images/investor/103_annual.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2014年度",
+      "locator": "第45頁，主要供應商資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "查得頁面摘錄顯示年報有主要供應商資料段落，但未取得可核實的南亞名稱或交易內容。"
+    },
+    {
+      "source_id": "src-6ae708280fdfcccf",
+      "title": "新昕纖維股份有限公司—MoneyDJ理財網公司資料",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/wikiviewer.aspx?keyid=c757db12-b5cf-44b2-8060-a329331ecbe2",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "資料描述涵蓋2025年，更新日2026-10-06",
+      "locator": "重要原物料；公司產品原料為聚酯絲",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅支持一般聚酯絲原料描述，沒有指明 POY 或其採購來源。"
+    },
+    {
+      "source_id": "src-3b8ae56f682a5d15",
+      "title": "遠東新世紀股份有限公司—MoneyDJ理財網公司資料",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?keyid=5d541253-3aac-46cc-8cff-be3fa87c7819",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "紡織品客戶／聚酯絲客戶資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出新昕纖為遠東新聚酯絲客戶；屬二手資料，沒有提供交易期間、規模或 POY 規格。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報線索及相關二手公司資料；現有證據只支持遠東新與新昕纖存在一般聚酯絲客戶關係，未能確認聚酯粒、POY、供應商主要性或南亞供貨。",
+    "原主張未提供期間；查得資料不能確定其指歷史或現行採購。",
+    "新昕纖114年度年報頁面轉載內容稱公司於2025年底停止生產、後續改以買賣貿易方式營運；這使未標期間的現行採購說法更需釐清，但不能據此否定歷史採購。來源：https://treelazy.com/stock/4406",
+    "MoneyDJ資料為二手來源；未提供足以判斷供應商「主要」地位的採購占比、排名口徑或交易期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4406/1262/hermes-attempt-1.stdout.txt"
+}

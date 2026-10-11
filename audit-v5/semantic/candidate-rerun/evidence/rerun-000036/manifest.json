@@ -1,0 +1,51 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000036",
+  "claim_id": "1524:objective_ranking_or_market_share:3fdf0568b0589c62",
+  "normalized_claim_hash": "3fdf0568b0589c62adc1d87c6252bce783ca985219cb3fe12c476acf9f695601",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "gordon-2023-annual-report",
+      "title": "耿鼎企業股份有限公司112年度年報",
+      "url": "https://www.gordon.com.tw/pdf/annual/2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度；公司歷史沿革另記載2016年LKQ供應商評估獎。",
+      "locator": "PDF第9頁記載2016年獲LKQ Supplier Appraisal Award；PDF第55頁稱耿鼎為北美AM鈑金件供應商之一；PDF第59頁列2023年最大銷貨客戶代號A、占銷貨淨額24.66%，未具名。",
+      "source_sha256": "ee1697d67c23a1b946717928204cefe802762833af0032dc8f6ffd5294f18d6c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1524/36/gordon-annual-report-2023.pdf",
+      "note": "歷史供應商獎項不證明LKQ目前仍是客戶或現行最大客戶；公司對自身供應商地位的描述沒有市場排名。"
+    },
+    {
+      "source_id": "gordon-2025-investor-presentation",
+      "title": "耿鼎企業股份有限公司2025年12月法人說明會簡報",
+      "url": "https://www.gordon.com.tw/download/1141212_Institutional%20Investors%27Call%20Report%28Chinese%29.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-12",
+      "effective_period": "2025年12月簡報；第6頁銷售區域數字依2024年年報。",
+      "locator": "第6頁列北美40.6%並明示標題為銷售區域；第15頁將提昇AM件市占列為未來策略方向，沒有量化市占或LKQ客戶排名。",
+      "source_sha256": "3e011cb646ce3f440393c021aee69361a94a6ca16c616441a47dcee2894190dd",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1524/36/gordon-investor-presentation-2025.pdf",
+      "note": "40.6%為公司自身銷售地域組合，不是LKQ的市場市占。"
+    },
+    {
+      "source_id": "lkq-2025-form-10k",
+      "title": "LKQ Corporation 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "截至2025-12-31財年。",
+      "locator": "Item 1稱LKQ North America是替代車輛碰撞替換產品、塗料及車體維修相關產品等的leading provider，覆蓋美國與加拿大主要市場；公司沒有據此主張AM鈑金細分領域market leader或披露該領域約40%份額。",
+      "source_sha256": "f1429b846dfb35c1ac28ed66f15de648ced3f6efa35870621af5eadc98c073da",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1524/36/lkq-2025-form-10k.html",
+      "note": "公司申報只足以支持寬泛的collision replacement products領先供應商自述；不可擴大到單一鈑金類別或「市場龍頭」排名。"
+    }
+  ],
+  "search_notes": [
+    "本條目將客戶排名與行業排名分開評估。",
+    "耿鼎112年報證明2016年曾獲LKQ供應商獎，但2023年度最大客戶以代號A披露，不能把A推定為LKQ。",
+    "LKQ 2025年Form 10-K使用「leading provider」描述較廣泛的北美替代碰撞件業務，沒有提供AM鈑金件的第一名或量化市占資料。",
+    "耿鼎2025年簡報的40.6%是自身銷售區域北美占比，不是LKQ的市占。"
+  ]
+}

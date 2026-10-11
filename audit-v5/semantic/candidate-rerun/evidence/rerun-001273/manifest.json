@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001273",
+  "claim_id": "9931:material_named_relationship:73633ab28e6947bb",
+  "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-457937678c2a1dbb",
+      "title": "欣高石油氣股份有限公司 2024 年報（中文）",
+      "url": "https://www.hkgas.com.tw/FileList/%E6%AC%A3%E9%AB%98%E5%85%AC%E5%8F%B8114%E5%B9%B4%28113%E5%B9%B4%29%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "ROC years 112–113 (2023–2024); table denominator is net purchase amount, in NT$ thousand",
+      "locator": "Printed p. 48, subsection 1 售氣, table 最近二年度售氣主要供應商資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Table shows nonzero “Other” shares (0.05% in each of ROC years 112 and 113); it does not name those suppliers or give gas-volume shares. ([hkgas.com.tw](https://www.hkgas.com.tw/FileList/%E6%AC%A3%E9%AB%98%E5%85%AC%E5%8F%B8114%E5%B9%B4%28113%E5%B9%B4%29%E5%B9%B4%E5%A0%B1.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-3320b69621fa6038",
+      "title": "欣高石油氣股份有限公司產品頁",
+      "url": "https://www.hkgas.com.tw/product.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "三、主要原料之供應狀況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes CPC as its main source and mentions mutual gas-supply support agreements with 欣雄 and 南鎮; this does not by itself establish that backup gas was actually purchased. ([hkgas.com.tw](https://www.hkgas.com.tw/product.aspx?utm_source=openai))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after 8 focused research/tool turns. The official issuer report supports CPC as supplier but reports a nonzero “Other” share by purchase value, so the complete exclusivity wording is not supported.",
+    "The supplier table measures net purchase amount, not natural-gas volume, and aggregates the residual supplier(s) as “Other.”",
+    "The issuer’s product page is undated; its statement that CPC is the main source supports primacy, not exclusivity.",
+    "The 2024 annual report’s interim column is labeled ROC 114 through the previous quarter; the annual supplier percentages cited here are limited to ROC years 112–113."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9931/1273/hermes-attempt-1.stdout.txt"
+}

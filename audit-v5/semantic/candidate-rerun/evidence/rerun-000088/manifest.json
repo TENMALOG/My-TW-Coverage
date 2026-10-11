@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000088",
+  "claim_id": "5880:objective_ranking_or_market_share:a7669e207f28c0b5",
+  "normalized_claim_hash": "a7669e207f28c0b555c137ce34131f866c6975eee11a55666aa6e3a0eab4d2cc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7c5c1fc92d4c7eb5",
+      "title": "前十大股東 - 合庫金控",
+      "url": "https://www.tcfhc.com.tw/investors-relations/shareholder-service/shareholder",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "基準日：民國115年4月20日（2026-04-20）",
+      "locator": "投資人專區 > 股務專區 > 前十大股東；名單直接列財政部為股東，未將臺灣銀行列為該最大持股的登記股東。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方名單確認財政部的直接登記持股；僅憑前十大名單，不能判定是否存在其他未列出的間接持股。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱合庫金控官方股東名單並以精確路徑相關搜尋交叉查找；官方資料支持財政部直接列名為最大股東，但未找到支持臺灣銀行間接持股路徑的可靠來源。",
+    "原 claim 未指定時間；此核驗支持的持股排名僅對應官方名單所載基準日。",
+    "前十大股東名單不是完整受益所有權穿透資料，故不能排除名單以外的其他間接持股。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5880/88/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000067",
+  "claim_id": "4528:objective_ranking_or_market_share:d7d5512cdbb52739",
+  "normalized_claim_hash": "d7d5512cdbb52739acfd58138aec7bd960a59b0485773d283596823f07512401",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0d4d6917c881c4a6",
+      "title": "汽車傳動零件廠-江興鍛(4528) 淮安新廠即將貢獻產能，訂單穩定度高、帶動營收成長！",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=20178",
+      "source_level": 2,
+      "publication_date": "2014-11-25",
+      "effective_period": "2014年前三季",
+      "locator": "「前三季營收成長19.4%」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只支持廣州NTN在2014年前三季為最大客戶，不支持目前排名或NTN集團整體排名。"
+    },
+    {
+      "source_id": "src-9cd1acf69c521856",
+      "title": "新/舊客戶訂單加持，江興鍛4月營收增3成、創高",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=fbf70704-fd2b-4a1a-bf45-6482c5fe8ffb",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章中段「主要出貨給OEM汽車零組件一階（Tier 1）廠」及主要客戶列表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列有廣州NTN、DANA等，但無可確認日期，且所列名單未包括AAM。"
+    },
+    {
+      "source_id": "src-d5769febef03c064",
+      "title": "江興鍛拓展新客戶 拚轉盈",
+      "url": "https://www.ctee.com.tw/news/20241214700165-439901",
+      "source_level": 2,
+      "publication_date": "2024-12-14",
+      "effective_period": "2024年12月報導所述狀況",
+      "locator": "全文；公司及其客戶狀況、拓展新客戶相關段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導指出公司正拓展新客戶，並稱日系車廠客戶在中國市場銷量下滑；未提供原句所列客戶的完整現況或排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；證據支持部分歷史客戶關係與2014年前三季排名，但未找到能確認原句未註明期間之現況及完整Tier 1分類的可靠官方來源，未解部分保留為UNKNOWN。",
+    "有關具體客戶身份、占比及排名的可核實資料主要來自2014年的投顧報告，並非現行官方披露。",
+    "未找到可核實的官方來源確認現時完整客戶名單、NTN目前排名或AAM的Tier 1分類。",
+    "MoneyDJ報導未能確認出版日期及適用期間，故不能據此替原句補定期間。",
+    "客戶供應鏈層級與江興鍛自身被稱為Tier 2是不同分類，不應混為一談。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4528/67/hermes-attempt-1.stdout.txt"
+}

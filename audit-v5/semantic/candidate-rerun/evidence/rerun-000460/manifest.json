@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000460",
+  "claim_id": "2607:objective_ranking_or_market_share:4b0fbf64456a202c",
+  "normalized_claim_hash": "4b0fbf64456a202ced0c05e77c24a8c62a99557af5f0f07bb36a13bc60d3542e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e100d181091c4f5b",
+      "title": "主要客戶群 | 長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A06-0-Clients.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "主要客戶群 roster",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists multiple shipping-company customers alongside 長榮海運 and 陽明海運."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after the maximum tool-calling iterations were reached. Unresolved atoms remain UNKNOWN.",
+    "The official customer roster supports customer-group membership, not customer ranking, market share, revenue contribution, or transaction volume.",
+    "The roster is undated and gives no effective period.",
+    "The evidence does not establish customer-specific hauling or vessel-rental services."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2607/460/hermes-attempt-1.stdout.txt"
+}

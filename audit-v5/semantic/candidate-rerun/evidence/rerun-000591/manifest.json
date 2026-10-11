@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000591",
+  "claim_id": "3014:objective_ranking_or_market_share:6d9b204267d9ed3f",
+  "normalized_claim_hash": "6d9b204267d9ed3fcad8df59c4b2a066b5871e52cb3be13044af02242af0948b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3276c564f8a18c60",
+      "title": "ITE 聯陽半導體產品列表",
+      "url": "https://ite.com.tw/dist/products_list.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "IT8728F；Legacy LPC Super I/O",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品頁列示 Super I/O 晶片。"
+    },
+    {
+      "source_id": "src-baace24afb31552c",
+      "title": "聯陽 EC成功獲得美系Agentic AI運算平台採用並做好量產準備",
+      "url": "https://www.ite.com.tw/tw/news/20260612TW",
+      "source_level": 3,
+      "publication_date": "2026-06-12",
+      "effective_period": "公告發布時；全球筆電 EC 市場",
+      "locator": "公告正文：「在全球筆電市場的EC產品市占率超過45%」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述市占率；未交代分母、計量單位或排名比較。"
+    },
+    {
+      "source_id": "src-4c37b7de257673c6",
+      "title": "聯陽半導體股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ce04b60f-9d45-4f00-8741-ee11be2a9894",
+      "source_level": 2,
+      "publication_date": "2025-07-31",
+      "effective_period": null,
+      "locator": "「市場銷售與競爭」：NB用 EC 全球市占率 35–40%，稱為全球領導廠",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級來源報稱全球筆電 EC 市占與領導地位，但未說明分母、計量單位或數值有效期間。"
+    },
+    {
+      "source_id": "src-03c80719e2bd96ac",
+      "title": "【研究報告】聯陽 (3014) WFH給了一對成長的翅膀",
+      "url": "https://cmnews.com.tw/article/cmoney-76aea0f7-d8ce-11ef-ae5f-bd941a4f5bb1",
+      "source_level": 2,
+      "publication_date": "2021-07-30",
+      "effective_period": "報告發布時附近；精確市占率期間未明",
+      "locator": "「聯陽隸屬聯電旗下，高速I/O及EC全球市佔領先」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級研究報告報稱 Super I/O 全球市占約 45–50%；未揭露計算口徑或分母，且資料較早。"
+    },
+    {
+      "source_id": "src-2b37588f7b14a34b",
+      "title": "ITE Tech. Inc. About",
+      "url": "https://ite.com.tw/en/about/history",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介：稱 ITE 在 Super I/O、Keyboard 與 Embedded Controller 技術方面具有全球領先地位",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方表述是技術領先，並非明確的市占率排名或市占率計量。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核聯陽官方產品資料、2026 年官方 EC 公告及次級市場資料。現有資料不足以確認兩類產品的市占率分母與可比排名，故未將市占領先判為支持；依任務要求停止並保留未知原子。",
+    "可查的 Super I/O 市占估計來自次級來源，未提供分母、計量單位或明確有效期間；較早報告不能證明未限定期間的現況。",
+    "官方 EC 市占數據限於全球筆電 EC，且為公司自述；未披露計算口徑或競爭者比較。",
+    "官方網站的全球領先表述涉及技術，不等同於已驗證的市占率排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3014/591/hermes-attempt-1.stdout.txt"
+}

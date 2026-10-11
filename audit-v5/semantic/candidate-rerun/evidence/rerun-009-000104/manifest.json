@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000104",
+  "claim_id": "2427:objective_ranking_or_market_share:626114d027f188f8",
+  "normalized_claim_hash": "626114d027f188f8ced837430a7f4fafa4d3b64c2c3e8f3d420dbb50542f8903",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-509966aaf23997cf9e8b",
+      "title": "產品資訊｜三商電腦股份有限公司",
+      "url": "https://www.mds.com.tw/tc/products_list.php?Class2=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「金融科技 轉型競爭力」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其存款／循環功能 ATM 在台市占率居第一；未提供市占數字、期間或公股／民營銀行範圍，不能證明整體 ATM 市占過半。"
+    },
+    {
+      "source_id": "src-8416fbe21b615b8c8ecc",
+      "title": "三商電腦股份有限公司｜MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=5cff4bc7-c918-4efa-b1f1-76087ae997af",
+      "source_level": 2,
+      "publication_date": "2026-07-29",
+      "effective_period": null,
+      "locator": "「市場銷售與競爭」相關內容；頁面摘要稱台灣 ATM 約 33,420 台、三商電市占約 50% 以上",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手投顧百科摘要未說明市占率的計算方式、基準期間或是否只涵蓋各大公股及民營銀行，不能單獨驗證原文完整範圍。"
+    },
+    {
+      "source_id": "src-7a1424a3e174d9f4dd2f",
+      "title": "個股：三商電(2427)前8月RATM市佔率82%，看好今年ATM需求成長五成",
+      "url": "https://fnc.ebc.net.tw/fncnews/stock/17776",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導稱前一年及當年1–8月；年份未明",
+      "locator": "報導首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱前一年整體 ATM 市占接近五成，並稱當年1–8月 RATM 市占率82%。報導未提供可核對的整體 ATM 市場分母；RATM數據是不同、較窄的市場範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達工具呼叫上限。關鍵範圍、期間及市占率分母仍未獲可靠證據確認，故保留 UNKNOWN，停止研究。",
+    "官方資料只支持存款／循環功能 ATM 的相對排名，未揭露市占率數值或市場分母。",
+    "二手資料對整體 ATM 市占率的描述缺乏計算方法、明確有效期間及銀行範圍。",
+    "RATM 市占率不能替代整體 ATM 市占率；未標明年份的報導也不能用來推定特定年度狀況。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2427/104/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "e787d34d1e91a86951e5804b49bfa8fe246b10963bcd4ffd2028b54476d85a06",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2427/104/isolated-prompt.txt",
+  "prompt_sha256": "a35f7a9b574ce96801dd4f907b6e4ab1d4572120ebff900da2cc70b3b01dce05",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000104/manifest.json",
+  "supersedes_manifest_sha256": "ea9d6ceffae5df8df00561b87ef26867907ba38d5f1d5d248d3cd25c699573da",
+  "corrected_at": "2026-10-08T09:57:47Z"
+}

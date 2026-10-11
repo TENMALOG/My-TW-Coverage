@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000679",
+  "claim_id": "9929:objective_ranking_or_market_share:5873511e414e911d",
+  "normalized_claim_hash": "5873511e414e911d724e466ddd74af91ec239a0952adac5d99beb4bb69cb8008",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1ea20c2357db406b",
+      "title": "公司歷史總覽 / company history",
+      "url": "https://www.choiceprintgroup.com/about/history.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Minguo year 79 (1990) public-issuance approval; Minguo year 88 (1999) listing",
+      "locator": "「民國79年」and「民國88年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides the issuer’s timeline. Its “first” wording concerns approval for public issuance, which is distinct from being the first listed printing company."
+    },
+    {
+      "source_id": "src-62cf75bbac5b0570",
+      "title": "秋雨創新 — 公司簡介",
+      "url": "https://www.choiceprintgroup.com/about/intro.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated company profile; claim is presented as a company distinction",
+      "locator": "Opening sentence:「是台灣首家股票上市的印刷公司」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Direct issuer statement supporting the ranking as worded."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer’s official profile and history directly address the name, origin date, and ranking. Further searches were not needed to assess the wording; independent corroboration of the ranking remains a caveat for final adjudication.",
+    "The 1946 date refers to the issuer’s stated historical origin as 秋雨印製所; the official history records the later 秋雨印刷股份有限公司 organization in 1976.",
+    "The “first listed printing company” statement is directly supported by the issuer’s official company profile, but the reviewed sources do not independently verify the historical ranking or define its comparison set.",
+    "The issuer history distinguishes first approval for public issuance in 1990 from the company’s stock listing in 1999."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9929/679/hermes-attempt-1.stdout.txt"
+}

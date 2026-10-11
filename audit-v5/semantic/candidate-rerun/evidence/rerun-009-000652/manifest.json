@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000652",
+  "claim_id": "5403:objective_ranking_or_market_share:e50a246d694f5936",
+  "normalized_claim_hash": "e50a246d694f5936b3ffd4e95635ea19c47bf7f5744eb03f3842f66e14f60b6a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-302d6469416695c91ac9",
+      "title": "台股個股分析-銀行信託系統龍頭-中菲電腦(代號:5403) - 勳仔的理財小角落",
+      "url": "https://shiuncorner.com/2020/09/23/tw_stock_5403/",
+      "source_level": 2,
+      "publication_date": "2020-09-23",
+      "effective_period": "文章引用中菲108年度年報；原始揭露的客戶期間未在文章中明確界定",
+      "locator": "「產業狀況分析」段；稱民營、官股及外商銀行幾乎均有合作，並提及台灣銀行、彰化銀行等例子",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章轉述年報並列舉部分客戶，不能據此驗證「台灣各大」銀行的完整範圍。"
+    },
+    {
+      "source_id": "src-8010c09f72b55b6cb105",
+      "title": "中菲(5403)股價與合理價：可以買嗎？1 個量化訊號觸發中｜FinLab",
+      "url": "https://finlab.finance/stocks/5403",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年度年報所述期間",
+      "locator": "公司業務摘要段；稱2024年年報表示銀行信託解決方案獲約三十餘家國內外銀行採用、市佔約8成",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手彙整頁轉述年報，未提供市場份額的分母或計算方法。"
+    },
+    {
+      "source_id": "src-9fddcb17199c5a791a74",
+      "title": "個股分析：中菲電腦(5403)金融資訊系統隱形龍頭 - Duncan Teng 的投資觀察",
+      "url": "https://duncanteng.me/2020-5403-01/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "文章轉述年報；其相關內容指向較早年度，未明確列出統計基準日",
+      "locator": "「商業模式」段；稱銀行信託部解決方案約三十餘家國內外銀行採用、市佔約8成",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章轉述年報，不能補足市佔分母與計算口徑。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索公司年報、公司網站及相關二手資料。市佔數字僅取得二手轉述，市場分母與計算口徑未能確認；「各大公股行庫與民營銀行」的完整客戶範圍亦無法由現有資料證實。",
+    "約80%的市佔數字由二手資料轉述年報；本次未能確認原始年報中的明確分母、計算方法或市場界定。",
+    "銀行客戶採用數及市佔數不能等同於台灣所有大型公股與民營銀行皆為客戶。",
+    "未找到足以證明該市佔率在目前期間仍維持不變的直接、具方法細節的資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5403/652/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2df84683ce944a2a4999f690d924f071d09f176c5f5d78dea88e8094b4daf2ad",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5403/652/isolated-prompt.txt",
+  "prompt_sha256": "2c202374b2b6e27195cd32acac3ad0d2fee2ed877f403880e005b1f80614ddb9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000652/manifest.json",
+  "supersedes_manifest_sha256": "3201b251e90a704a297941663d012e9c73f93ca867c61df84209acc56ea73e06",
+  "corrected_at": "2026-10-08T09:58:31Z"
+}

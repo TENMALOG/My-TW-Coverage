@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000285",
+  "claim_id": "3362:objective_ranking_or_market_share:0734bd9829977ceb",
+  "normalized_claim_hash": "0734bd9829977ceb29636bc7ea01fa3b68f0f7c26ec3c84d9c31cb77e90732ca",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-21bb71ec63cb16dd",
+      "title": "《光電股》新平板高階鏡頭8月放量 先進光董座：今年營收有望創歷年高",
+      "url": "https://www.ctee.com.tw/news/20240620700857-430201",
+      "source_level": 2,
+      "publication_date": "2024-06-20",
+      "effective_period": "報導涉及 2024-06-20 股東會；市佔數字的實際測量期間未說明。",
+      "locator": "全文中「先進光今天舉行股東會，先進光主攻NB鏡頭，全球市佔率達70%」一段。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "工商時報報導支持「曾被報導為 70%」；文中未交代市佔率數據來源、分母或計量基礎。"
+    },
+    {
+      "source_id": "src-896dd35ebd750d7e",
+      "title": "先進光(3362) 2025Q4法說會簡報PDF下載 | 12月30日法人說明會",
+      "url": "https://finmoconf.diveinvest.net/presentation/69536853bab52fb5c872465a",
+      "source_level": 1,
+      "publication_date": "2025-12-30",
+      "effective_period": "第三方頁面摘要稱簡報列示 2024 年全球市佔率估計為 77%。",
+      "locator": "該頁「NB 鏡頭市場地位」摘要；頁面連結至公開資訊觀測站簡報 https://mopsov.twse.com.tw/nas/STR/336220251230M001.pdf。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第三方簡報摘要，非已核驗的原始簡報內容；直接讀取所連結 PDF 逾時。僅作為存在不同數字的線索，不能據此裁定 70% 為錯。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索公司官方網站、公開資訊觀測站簡報線索及財經媒體報導；未取得可核驗的原始市佔統計或其分母與期間，且官方簡報 PDF 讀取逾時。依據可用證據停止，市佔率主張維持 UNKNOWN。",
+    "70% 數字目前可追溯至媒體報導，未找到可核驗的公司原始揭露或具明確市場口徑的獨立市場資料。",
+    "第三方簡報摘要提及 2024 年 77% 估計，但原始簡報未能讀取；其期間及統計口徑也未能確認，不能直接視為對 70% 的反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3362/285/hermes-attempt-1.stdout.txt"
+}

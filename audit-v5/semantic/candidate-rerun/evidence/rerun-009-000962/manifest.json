@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000962",
+  "claim_id": "2425:identity_changing_event:55f86d211d68f828",
+  "normalized_claim_hash": "55f86d211d68f82848046b98710a07eaee19e89cc6f8eeb84695bbc1541b3b33",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-785c17f372098328c6b5",
+      "title": "承啟科技股份有限公司 — 經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22332192?fhl=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Registry history includes 華東承啟科技股份有限公司 in 2012 and 承啟科技股份有限公司 from 2013/01/16",
+      "locator": "Company name-change history; entries dated 2012/08/14 and 2013/01/16",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Ministry of Economic Affairs company registry."
+    },
+    {
+      "source_id": "src-a9b2be5464acba17269a",
+      "title": "Shenzhen Stock Exchange filing mentioning WALTON CHAINTECH CORPORATION",
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2015-05-25/7f6c9de7-068e-457e-8dc2-69e2be9e963e.PDF",
+      "source_level": 3,
+      "publication_date": "2015-05-25",
+      "effective_period": "Historical name before the 2013 change",
+      "locator": "Filing text: “WALTON CHAINTECH CORPORATION” and “中文名称为华东承启科技股份有限公司”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official exchange filing; it supports the English name and its Chinese legal-name pairing."
+    },
+    {
+      "source_id": "src-cce61797891d263f59c4",
+      "title": "承啟科技股份有限公司 — 經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22332192?fhl=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "From 2013/01/16",
+      "locator": "Company name-change history; entry dated 2013/01/16",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Ministry of Economic Affairs company registry."
+    },
+    {
+      "source_id": "src-6d8e13e6144bd83450f2",
+      "title": "承啟：公告本公司名稱由「華東承啟科技股份有限公司」更名為「承啟科技股份有限公司」",
+      "url": "https://news.cnyes.com/news/id/1757387",
+      "source_level": 2,
+      "publication_date": "2013-03-28",
+      "effective_period": "Name change approved January 16, 2013",
+      "locator": "Announcement text, items 1 and 5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary publication reproducing the company announcement; states the prior and new Chinese names and Ministry approval date."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official registry evidence for the 2013 Chinese-name change and filing evidence for the prior English name; the asserted prior Chinese name conflicts with the registry record.",
+    "The official registry supports the legal Chinese names and the dated transition, but does not establish the exact phrase 承啟大眾科技 as a registered name.",
+    "The Walton Chaintech Corporation name and its Chinese-name pairing are supported by a later securities filing describing the company’s historical identity."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2425/962/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6c3987cb36a3f812587b3f148e863fa1fa4a9419ee51ad035ce026fee4a85d46",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2425/962/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "b03573086855079f48aad937398a79b5608b6979cf6ec2e9055f856838c55572",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000962/manifest.json",
+  "supersedes_manifest_sha256": "85c6268cee43439028008f0dd5f58ac8b5a72a3b969ddd6163efa54157fd2cec",
+  "corrected_at": "2026-10-08T09:59:02Z"
+}

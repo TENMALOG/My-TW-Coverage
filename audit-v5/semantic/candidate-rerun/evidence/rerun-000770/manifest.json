@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000770",
+  "claim_id": "2027:objective_ranking_or_market_share:ef66ad3900032a5c",
+  "normalized_claim_hash": "ef66ad3900032a5c6529e7620bdac29d9a2b9b7a32f6b327c9036446e88d6db0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f84da9740a2d4103",
+      "title": "公司沿革及業務內容（大成不銹鋼工業股份有限公司）",
+      "url": "https://www.tachen.com.tw/download/%E5%85%AC%E5%8F%B8%E6%B2%BF%E9%9D%A9%E5%8F%8A%E6%A5%AD%E5%8B%99%E5%85%A7%E5%AE%B9.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1989年至文件所述期間；文件發布日未確認。",
+      "locator": "「1989年在美國洛杉磯成立美國大成公司」段落；美國八大城市發貨倉庫段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司資料載明設立年份、約十年後的美國市場地位及多個美國發貨倉庫。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人公司沿革及業務資料、TWSE法說會文件並進行針對全球排名的搜尋；可支持通路業務發展及長期經營美國市場，但未找到可驗證全球最大排名的資料。依規則將全球排名原子保留為 UNKNOWN。",
+    "排名與市場領導地位的證據來自發行人自述，未見獨立排名、全球市場界定、比較對象或銷售額／銷量分母。",
+    "美國不銹鋼通路商排名、美國鋁捲板通路商的歷史併購排名，以及美國工業鋁捲板製造廠排名，市場範圍或業務定義各不相同，不能相互替代。",
+    "所引發行人文件的發布日期未能確認，因此在 source metadata 中標為 null。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2027/770/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001178",
+  "claim_id": "3131:material_named_relationship:0549fcefd5513e0f",
+  "normalized_claim_hash": "0549fcefd5513e0f522e477b64a18fd2883f0a031a90f2a14bdd8fda554c4861",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f07fff373c1e3029",
+      "title": "弘塑科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?keyid=54372b56-cb2c-47d1-8b42-3708d458f1ed",
+      "source_level": 2,
+      "publication_date": "2026-09-04",
+      "effective_period": "2025 customer list; exact as-of date unstated",
+      "locator": "「市場銷售與競爭」→「主要客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides a named Taiwan major-customer list but does not list 聯發科; this omission does not establish that 聯發科 is not a customer."
+    },
+    {
+      "source_id": "src-affc8c2efa14b4da",
+      "title": "客戶需求旺 弘塑Q4看樂觀，明年會更好",
+      "url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=ac18f70b-b005-4192-af65-5f1e27301290",
+      "source_level": 2,
+      "publication_date": "2020-09-18",
+      "effective_period": "Report describes customers and business outlook circa 2020",
+      "locator": "Article paragraph beginning「目前弘塑的客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names 日月光（3711） among 弘塑's customers; historical corroboration."
+    },
+    {
+      "source_id": "src-18f78c02e1f952aa",
+      "title": "3131 弘塑法說會：半導體先進封裝領軍，AI晶片需求驅動成長",
+      "url": "https://vocus.cc/article/68a349a9fd897800016cc045",
+      "source_level": 1,
+      "publication_date": "2025-08-18",
+      "effective_period": "Article describes 2025 Q2 investor-conference context",
+      "locator": "Lines 39, 44, and 70",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names 聯發科 as a customer/key supplier relationship but does not provide a verifiable underlying disclosure for that specific claim; treated only as an uncorroborated lead."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks did not locate reliable issuer or filing evidence for 聯發科. The available direct named assertion is an uncorroborated secondary summary, so that atom remains UNKNOWN.",
+    "The current named-customer evidence is a secondary company profile, not a direct issuer filing.",
+    "The source uses the qualitative label「主要客戶」without a stated revenue denominator, customer share, or ranking.",
+    "No evidence found establishes the 聯發科 relationship; failure to find evidence is not evidence of absence."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3131/1178/hermes-attempt-1.stdout.txt"
+}

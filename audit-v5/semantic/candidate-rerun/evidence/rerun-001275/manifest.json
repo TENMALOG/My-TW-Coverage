@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001275",
+  "claim_id": "8908:material_named_relationship:73633ab28e6947bb",
+  "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-43667ee8678a5b01",
+      "title": "欣雄天然氣股份有限公司113年度股東會年報",
+      "url": "https://www.shng.com.tw/assets/files/invment/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度；供應商資料列示2023、2024及截至2025年3月31日",
+      "locator": "PDF第48–49頁（印刷頁碼46–47），「主要原料之供應狀況」及「最近二年度主要供應商資料」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方年報明確指出CPC是國內天然氣唯一供給者及國內各瓦斯公司的氣源唯一供應商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "發行人官方113年度年報直接支持該供氣關係，已足以形成候選結論；在達到8個研究回合前停止。",
+    "年報的獨家供應表述是對國內天然氣氣源及各瓦斯公司供氣關係的描述。",
+    "年報所列CPC占2024年度進貨淨額96.48%，分母是全部進貨淨額；不可將其等同於天然氣氣源占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8908/1275/hermes-attempt-1.stdout.txt"
+}

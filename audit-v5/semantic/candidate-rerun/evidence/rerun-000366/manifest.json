@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000366",
+  "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
+  "normalized_claim_hash": "144af8e9daef4625208c4cc9bba463ccd7d7a2595e20010168f6c84716d0a12f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7f2d082d23461551",
+      "title": "NVIDIA 輝達授權代理商 - 益登科技",
+      "url": "https://www.edomtech.com/zh-tw/manufacturers-detail/nvidia/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "NVIDIA Jetson and closing distributor statement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms EDOM is an authorized NVIDIA distributor and describes Jetson; provides no supplier ranking, comparative metric, or period."
+    },
+    {
+      "source_id": "src-3fcef6b873292473",
+      "title": "NVIDIA A100 80GB PCIe GPU-益登科技",
+      "url": "https://edomtech.com/zh-tw/product-detail/nvidia-a100-80gb-pcie-gpu",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product title, product description, and “NVIDIA Authorized Distributor” notation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer product page for an NVIDIA GPU; establishes an offering, not supplier rank or market share."
+    },
+    {
+      "source_id": "src-923a4901078ceb2e",
+      "title": "益登科技強化NVIDIA Jetson Thor亞太區經銷佈局",
+      "url": "https://www.edomtech.com/zh-tw/edom_news-detail/edom-strengthens-nvidia-jetson-thor-distribution-across-apac",
+      "source_level": 3,
+      "publication_date": "2025-08-26",
+      "effective_period": "Jetson Thor supply and Jetson-series Asia-Pacific authorized-distributor status announced on 2025-08-26; duration not specified.",
+      "locator": "Announcement opening and paragraphs identifying EDOM as Jetson-series Asia-Pacific authorized distributor and listing Jetson Thor products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer announcement supports Jetson distribution in the stated product and region scope; it does not establish that NVIDIA is EDOM’s largest supplier."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches covered EDOM’s official NVIDIA distributor and product pages, its Jetson distribution announcement, and its annual-report/investor materials. No evidence located establishes the largest-supplier ranking with a defined period, scope, and metric; that atom remains UNKNOWN.",
+    "EDOM’s official product and distributor disclosures substantiate the product and distribution relationship, not a supplier ranking.",
+    "No period, supplier comparison set, geography, market definition, or ranking denominator is supplied for “最大供應商”; no nearby product or platform evidence resolves those missing elements."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3048/366/hermes-attempt-1.stdout.txt"
+}

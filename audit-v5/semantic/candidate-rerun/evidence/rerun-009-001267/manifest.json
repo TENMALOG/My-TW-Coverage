@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001267",
+  "claim_id": "2065:export_concentration:69d8c9071bd12cd0",
+  "normalized_claim_hash": "69d8c9071bd12cd0d42c1fabf687e0772939e54593144879aaf7a85541e0e36f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-244302cb21dfe0eeb8d4",
+      "title": "世豐螺絲股份有限公司114年度年報",
+      "url": "https://www.shehfung.com/userfiles/%E4%B8%96%E8%B1%90-114%E5%B9%B4%E5%B9%B4%E5%A0%B1_Fianl_%E5%85%AC%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度（民國114年度）",
+      "locator": "第84頁，表「公司主要產品之銷售(提供)地區」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示內銷173,227仟元、外銷小計1,899,269仟元、合計2,072,496仟元及各自比率。"
+    },
+    {
+      "source_id": "src-4e1841fe892aa2db4b41",
+      "title": "世豐螺絲股份有限公司114年度年報",
+      "url": "https://www.shehfung.com/userfiles/%E4%B8%96%E8%B1%90-114%E5%B9%B4%E5%B9%B4%E5%A0%B1_Fianl_%E5%85%AC%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度（民國114年度）",
+      "locator": "第84頁，表「公司主要產品之銷售(提供)地區」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "按銷售地區列營收金額與占總營收比率；美洲54.34%，歐洲20.58%。"
+    },
+    {
+      "source_id": "src-939ed89886eb1ecb87b1",
+      "title": "世豐螺絲股份有限公司114年度年報",
+      "url": "https://www.shehfung.com/userfiles/%E4%B8%96%E8%B1%90-114%E5%B9%B4%E5%B9%B4%E5%A0%B1_Fianl_%E5%85%AC%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度（民國114年度）年報所述",
+      "locator": "第79頁「產品之競爭情形」；第86頁「主要產品的重要用途」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報說明最大宗用途包括DIY市場、建築工程及戶外修繕；並列主要用途為建築工程、戶外及居家DIY修繕。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得公司官方114年度年報，可核實2025年度地區銷售及產品用途；原主張未標明比重期間，歷史期間適用性仍無法確認。",
+    "原主張未指定外銷比重的年度；2025年度年報可核實該年度，不能推定其他年份。",
+    "年報分別披露地區銷售占比與產品用途，未披露「歐美建材市場」這個地區與終端用途交叉口徑的營收占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2065/1267/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2cbe9a029f00ffa1d5270829439ddbd6e23bb33e6b23d5ce30efd2c92b296044",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2065/1267/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "a39be5f7248c213d336211623693f4ce8f3b0088e5408b03e63785ce52042c4f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001267/manifest.json",
+  "supersedes_manifest_sha256": "894f1f503b4f8cd88a7eef00e0c551d27a6cdb139ec352240d6b1fba993da93a",
+  "corrected_at": "2026-10-08T09:59:37Z"
+}

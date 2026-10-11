@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000747",
+  "claim_id": "6793:objective_ranking_or_market_share:90e8d4fffb58444d",
+  "normalized_claim_hash": "90e8d4fffb58444dc767d7ef893b43017b2db8dda5ac502ca43f4c316a44cfb2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d19d657fcbe35155",
+      "title": "天力離岸:公告本公司生產線停止生產及資遣部分員工",
+      "url": "https://news.cnyes.com/news/id/5989967",
+      "source_level": 2,
+      "publication_date": "2025-05-22",
+      "effective_period": "May 22, 2025",
+      "locator": "Issuer announcement text under “事件緣由”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reproduced issuer filing states that production of the 309 ordered blades was completed on May 22 and cooperation with Vestas would be fully ended."
+    },
+    {
+      "source_id": "src-3db127d5143a72c5",
+      "title": "天力、森崴才接連出事，永冠-KY又爆下市危機，離岸風電為何陷入困境？",
+      "url": "https://www.bnext.com.tw/article/91830/taiwan-offshore-wind-etf-avoid-2026",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025 and subsequent Taiwan activity described in the article",
+      "locator": "Section “森崴、天力為何接連出事？離岸風電結構性壓力浮現,” paragraph on 天力離岸",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that Vestas stopped providing new local blade orders and that the blade line stopped production on May 22, 2025; it also notes Vestas had not fully exited Taiwan."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Targeted searches located the issuer announcement and contemporaneous reporting. They support the 2025 end of cooperation and high revenue concentration, but do not resolve whether Vestas was the sole customer across the company or within a defined business scope.",
+    "The available issuer announcement is reproduced by financial-news websites; a direct MOPS/TPEx filing URL was not verified.",
+    "The disclosed 94% and 98% figures are shares of consolidated revenue, not customer counts.",
+    "Ending cooperation with 天力離岸’s Vestas group does not establish that Vestas ended all business or operations in Taiwan."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6793/747/hermes-attempt-1.stdout.txt"
+}

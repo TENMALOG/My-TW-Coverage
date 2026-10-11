@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000938",
+  "claim_id": "6143:material_named_relationship:2043b380b9c2aeb3",
+  "normalized_claim_hash": "2043b380b9c2aeb349798d160286df986316bf1153dedebd298a91d98ade6e30",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5b686afb78cbe592",
+      "title": "Kobo 彩色閱讀器熱銷帶動訂單上修，元太、天鈺、振曜受益",
+      "url": "https://finance.technews.tw/2024/05/06/better-than-expected-kobo-color-e-reader-pre-orders/",
+      "source_level": 2,
+      "publication_date": "2024-05-06",
+      "effective_period": "未披露；報告刊於 2024-05-06",
+      "locator": "「元太、天鈺、振曜受益」段落，振曜相關句",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接轉述分析師所稱的逾 80% 比重；未交代統計期間或方法。"
+    },
+    {
+      "source_id": "src-5e9224ab67d18f4b",
+      "title": "《振曜、沛亨攜手桃園「e啟讀出未來」》",
+      "url": "https://www.netronixinc.com/news_01.aspx?ID=111&type=news",
+      "source_level": 3,
+      "publication_date": "2021-11-18",
+      "effective_period": "2021 年 Kobo Forma 專案",
+      "locator": "公司新聞稿正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅佐證振曜曾參與 Kobo 閱讀器設計製造及硬體組裝，不佐證獨家性或 2024 年合約狀況。"
+    },
+    {
+      "source_id": "src-3cd920cb1cbbbc52",
+      "title": "Kobo彩色電子書出貨量可望上修 郭明錤看旺3供應鏈後市",
+      "url": "https://ec.ltn.com.tw/amp/article/breakingnews/4663476",
+      "source_level": 2,
+      "publication_date": "2024-05-06",
+      "effective_period": "未披露；報告刊於 2024-05-06",
+      "locator": "第 45 段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同樣轉述郭明錤的分析，並非獨立的市場出貨量核驗。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱分析師說法的媒體轉述及振曜官方資料；官方資料未能核實市場份額或廣泛排他性，現有來源不足以將獨家性擴張至整個非 Amazon 市場。",
+    "逾 80% 的說法來自同一項分析師供應鏈分析的媒體轉述，不能視為多個獨立來源交叉驗證。",
+    "「非 Amazon 出貨量」是來源給出的市場分母，但未提供測量期間、底層出貨數據或計算方法。",
+    "公司官方資料確認振曜參與 Kobo 閱讀器設計製造及硬體組裝，但所查官方資料沒有確認排他性或逾 80% 的市場比重。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6143/938/hermes-attempt-1.stdout.txt"
+}

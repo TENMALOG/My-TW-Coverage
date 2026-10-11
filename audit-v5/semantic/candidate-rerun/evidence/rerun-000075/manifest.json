@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000075",
+  "claim_id": "2836:objective_ranking_or_market_share:8aa22fea75ecafb5",
+  "normalized_claim_hash": "8aa22fea75ecafb53b3e7430573b769eefc0040ce9b9c03b5c685a19897290c9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1f1f25ebac92dd48",
+      "title": "關於高銀 - 高雄銀行",
+      "url": "https://www.bok.com.tw/bokinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司沿革／設立日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "銀行官方資料列設立日期為民國71年1月13日，即1982年1月13日。"
+    },
+    {
+      "source_id": "src-abf7a5af0ce706bb",
+      "title": "基本資料查詢 - 銀行局全球資訊網（高雄銀行股份有限公司）",
+      "url": "https://www.banking.gov.tw/ch/home.jsp?bank_no=016&id=606&mcustomize=FscSearch_BankSub.jsp&parentpath=0%2C590%2C604&title=%E6%9C%AC%E5%9C%8B%E9%8A%80%E8%A1%8C",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "機構基本資料表「設立日期」欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "銀行局資料列設立日期為1981年7月8日，與銀行官方沿革頁所載日期不同。"
+    },
+    {
+      "source_id": "src-5067e96b34dfe153",
+      "title": "永續發展專區 - 高雄銀行",
+      "url": "https://ibank.bok.com.tw/DSP/esg/manage.xhtml",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "股東結構",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "銀行官方頁面明確記載「本行最大股東為高雄市政府」，持股占比40.33%；未標示比例基準日。"
+    },
+    {
+      "source_id": "src-66ae5e5bdc763ff8",
+      "title": "高雄市政府財政局：高雄市議會通過「市府參與高銀增資預算」共創市民、股東、員工、市府多贏",
+      "url": "https://finance.kcg.gov.tw/News_Content.aspx?n=6976FD3842A19BA6&sms=11E45B2CB786190D&s=D10A7BE20BBD45A0",
+      "source_level": 3,
+      "publication_date": "2024-02-02",
+      "effective_period": "新聞稿發布時",
+      "locator": "新聞稿正文，市府參與增資及股東身分說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "市府財政局稱市府為高銀最大股東；支持最大股東身分，但不提供目前持股比例。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱高雄銀行官方公司概況與股東結構、金管會銀行局基本資料及高雄市政府財政局新聞稿。最大股東主張有官方來源支持；設立日期有官方來源歧異；唯一性及目前政府主導程度仍缺乏明確定義與足夠證據，故保留為UNKNOWN。",
+    "成立日期存在兩個官方記載：銀行官方沿革頁為1982年1月13日，金管會銀行局資料為1981年7月8日；未找到足以判明兩者差異的解釋。",
+    "銀行官方頁面提供高雄市政府持股占比40.33%，但未標示比例的基準日。",
+    "未找到可靠來源界定「市屬商業銀行」及「地方政府主導」的判準，也未找到足以驗證「臺灣唯一」的完整比較資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2836/75/hermes-attempt-1.stdout.txt"
+}

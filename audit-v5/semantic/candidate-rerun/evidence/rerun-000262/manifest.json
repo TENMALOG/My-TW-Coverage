@@ -1,0 +1,81 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000262",
+  "claim_id": "2308:objective_ranking_or_market_share:abbcc068786a6239",
+  "normalized_claim_hash": "abbcc068786a62394ca9cd331d0ec77443d9520e1ec8b8a2fafa223efc56cdd5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-35eb1c0a727680f9",
+      "title": "Configurable Power Supply | DeltaPSU",
+      "url": "https://psu.deltaww.com/en/configurable-power/details",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Introductory paragraph under “Configurable Power”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Delta calls itself “the world’s largest provider of switching power supplies”; no market definition, metric, denominator, or date is specified."
+    },
+    {
+      "source_id": "src-4a28ebb9060407e0",
+      "title": "Delta Electronics Global | Intelligent, Sustainable, Connecting",
+      "url": "https://www.deltaww.com/en-US/index",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Delta as a “global leader” in switching power supplies, but does not establish a number-one ranking or define a market denominator."
+    },
+    {
+      "source_id": "src-3969ef4ff15bdbc7",
+      "title": "Delta Electronics, Inc. 2024 Annual Report",
+      "url": "https://filecenter.deltaww.com/IR/download/annual_report/2024annual.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "FY2024",
+      "locator": "Letter to Shareholders, Automation discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes industrial-automation solutions, including a Digital Twin solution for equipment specification testing and production-line planning."
+    },
+    {
+      "source_id": "src-f5604b9742600ef5",
+      "title": "Products - EV Charging - Delta",
+      "url": "https://www.deltaww.com/en-US/products/EV-Charging",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "EV Charging product page",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Delta EV chargers and charging-management solutions."
+    },
+    {
+      "source_id": "src-b453528c662e6047",
+      "title": "Products - Industrial Automation - Delta",
+      "url": "https://www.deltaww.com/en-US/products/industrial-automation",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening description on the Industrial Automation product page",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Delta’s industrial-automation and smart-manufacturing solutions."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official disclosures supporting the three business-activity atoms and an issuer statement of global largest-provider status. The ranking remains unresolved because the available assertion lacks the market scope, denominator, metric, and effective period needed to verify an objective ranking.",
+    "The “world’s largest” statement is an issuer self-description; the reviewed official materials do not provide a dated, defined market ranking or its denominator.",
+    "The FY2024 annual report and product pages support the listed business activities, not market leadership in AI servers, EV charging, or industrial automation."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2308/262/hermes-attempt-1.stdout.txt"
+}

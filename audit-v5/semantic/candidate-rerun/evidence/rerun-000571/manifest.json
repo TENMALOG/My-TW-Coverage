@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000571",
+  "claim_id": "6261:objective_ranking_or_market_share:37228631f06f5ce4",
+  "normalized_claim_hash": "37228631f06f5ce4769e5bc3a111cb3a360031ef300b6b30909741235bd4beb6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-859487d3a7b75784",
+      "title": "法人研究報告內文：09年久元在LED與IC測試雙產品線支撐下，預估將呈現逐季成長",
+      "url": "https://www.moneydj.com/z/zd/zdc/zdcz/zdcz_26B7F4A3-763C-42D9-B562-887851BB9709.djhtm",
+      "source_level": 2,
+      "publication_date": "2009-05-20",
+      "effective_period": "2009年；報告討論當年LED挑揀代工訂單",
+      "locator": "營運概況及摘要段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "康和證券研究報告稱晶電為久元LED最大客戶；這是LED業務範圍的說法，並非久元公司整體客戶排名。"
+    },
+    {
+      "source_id": "src-40aee6d94768787a",
+      "title": "久元6月營收新台幣2.5億元，月減12.73％",
+      "url": "https://www.ledinside.com.tw/news/20110712-15984.html",
+      "source_level": 2,
+      "publication_date": "2011-07-12",
+      "effective_period": "2011年6月及上半年",
+      "locator": "「其中，來自LED客戶的切割挑檢業務」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱晶電是久元LED切割挑檢業務的最大客戶，並占該業務近9成；該分母不是久元公司總營收。"
+    },
+    {
+      "source_id": "src-3abdd8a42e24a91e",
+      "title": "久元調整產品帶動毛利，惟今年仍處轉型期",
+      "url": "https://www.ledinside.com.tw/news/20170531-34301.html",
+      "source_level": 2,
+      "publication_date": "2017-05-31",
+      "effective_period": "2017年第1季",
+      "locator": "「久元今年第1季各業務營收比重」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列出LED切割挑撿占23.5%、IC測試代工占55.6%、設備銷售占20.9%。這是業務別營收組成，不是晶電占久元總營收的比率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦搜尋並核對相關報導原文；仍缺少能確認公司整體最大客戶、明確期間及公司總營收分母的可靠來源，故保留UNKNOWN。",
+    "找到的客戶排名資料為二手報導，指向LED相關業務而非公司整體。",
+    "23.5%的近似數字來源於2017年第1季的業務別營收組成，並非客戶別營收。",
+    "原句未提供期間；因此不能將歷史業務或客戶資訊當作未標期間的現況主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6261/571/hermes-attempt-1.stdout.txt"
+}

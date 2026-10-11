@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000603",
+  "claim_id": "3567:objective_ranking_or_market_share:771daad65f7afad8",
+  "normalized_claim_hash": "771daad65f7afad8ecb421f6b5902ce613cb8cf0b82510fd7acdedcb798ae8fe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9bfc8cfd0dffdf61",
+      "title": "公司簡介 - 逸昌科技",
+      "url": "https://www.etrendtech.tw/about-us/profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「營業項目」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示「捲帶包裝」。"
+    },
+    {
+      "source_id": "src-cce10dadad118df7",
+      "title": "服務項目 - 逸昌科技",
+      "url": "https://www.etrendtech.tw/tech.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "服務項目介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 FT 的 Load Board／DUT Board 設計。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方簡介與服務項目，並以公開資料搜尋「台灣第一家」主張的獨立佐證；未找到能核實歷史比較範圍及同業先後的可靠來源，故該原子主張維持 UNKNOWN。",
+    "核心證據為公司官方網站，適合確認公司自我定位及其列示的服務項目；未獨立驗證各服務在特定期間的實際交易或產能。",
+    "「台灣第一家」是比較性歷史主張。現有官方頁面未提供比較範圍、方法或同業資料，因此不能據此確認該排名。",
+    "相關官方頁面未標示發布日期或明確適用期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3567/603/hermes-attempt-1.stdout.txt"
+}

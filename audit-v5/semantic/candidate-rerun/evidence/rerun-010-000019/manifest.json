@@ -1,0 +1,88 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000019",
+  "claim_id": "4432:objective_ranking_or_market_share:5839812e308b4ea7",
+  "normalized_claim_hash": "5839812e308b4ea760367acda59bb231d66e274b8245edd6cf2ae62a1d19de96",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-4c6e54656c9cba36d01e",
+      "title": "運動服飾-銘旺實(4432)( 2015年版 ) - StockFeel 股感",
+      "url": "https://www.stockfeel.com.tw/%E9%81%8B%E5%8B%95%E6%9C%8D%E9%A3%BE-%E9%8A%98%E6%97%BA%E5%AF%A64432/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2015-era; exact measurement period not stated",
+      "locator": "Section “銘旺實在產業中的機會”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States Under Armour products accounted for about 20% of 銘旺實 revenue; secondary source."
+    },
+    {
+      "source_id": "src-9abbe95c963a126d1b9b",
+      "title": "UA新單延後出貨 銘旺實Q4展望趨保守 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=2947bbff-d368-4730-8e0b-fc6fdfeb5081",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2015 Q3-era report; exact publication date not established in retrieved material",
+      "locator": "Search-result excerpt: discussion of Gear as second-largest customer and UA orders",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Says Gear was the second-largest customer and its UA-related revenue was around 20% of company revenue; Gear is an intermediary, so this does not establish a direct Under Armour customer relationship."
+    },
+    {
+      "source_id": "src-405cede913715a70a103",
+      "title": "銘旺實Q1獲利 飆單季新高",
+      "url": "https://www.chinatimes.com/newspapers/20140419000161-260206",
+      "source_level": 2,
+      "publication_date": "2014-04-19",
+      "effective_period": "2014 Q1-era report",
+      "locator": "Article text: Sports Direct identified as largest customer; revenue contribution stated as over 60%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting; supports Sports Direct, not Under Armour, as largest in the reported period."
+    },
+    {
+      "source_id": "src-b783630f6bf9f05f5792",
+      "title": "UA新單延後出貨 銘旺實Q4展望趨保守 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=2947bbff-d368-4730-8e0b-fc6fdfeb5081",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2015 Q3-era report; exact publication date not established in retrieved material",
+      "locator": "Search-result excerpt: “第二大客戶Gear” and description of Gear’s Under Armour orders",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Gear as the second-largest customer and associates its roughly 20% share with UA-related orders; does not identify Under Armour itself as the largest customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Stopped after the research-tool iteration limit was reached; unresolved period and direct-customer scope remain.",
+    "No current official issuer disclosure or filing establishing the stated percentage or customer ranking was located in the research results.",
+    "The original claim does not specify a reporting period; historical 2014/2015-era evidence cannot establish a current ranking.",
+    "Sources distinguish Under Armour-branded products/orders from the direct customer/intermediary Gear.",
+    "The reported revenue denominator is not defined as standalone or consolidated in the retrieved excerpts."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4432/19/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "78983b86f8f6277cd1a16ffb8303c9b45751b927216538ec2d2f6b9af04aeaf8",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4432/19/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "570b2a2a4b4b6c6831e5b7dd0a896212fdf37eab1fb693233735b63cb450e5c9",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

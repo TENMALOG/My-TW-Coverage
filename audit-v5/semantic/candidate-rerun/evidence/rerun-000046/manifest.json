@@ -1,0 +1,51 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000046",
+  "claim_id": "2228:objective_ranking_or_market_share:82e3738fa7cb1ef3",
+  "normalized_claim_hash": "82e3738fa7cb1ef3d4eacd3d64bbcecdf769cad2870ac0cfd0be9fea2b59b542",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "irf-2025-annual-report-en",
+      "title": "Iron Force Industrial Co., Ltd. 2025 Annual Report (English translation)",
+      "url": "https://www.irf.biz/en/download/2025%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-28",
+      "effective_period": "FY2025; report printed 2026-02-28.",
+      "locator": "PDF pp.131–132 (printed pp.128–129), current product items: side impact airbag inflator sub-assemblies, side curtain and knee airbag parts, and precision pipe & pinion of pretensioner seatbelt. PDF pp.168–169 (printed pp.165–166) describes the two products and use. No company-specific global share above 90% is stated in the report.",
+      "source_sha256": "9c649fd2ec1ba2587859358a6aedbdc3dbe23f04690f776e062c5273cad169e2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/46/jianlin-2025-annual-report-en.pdf",
+      "note": "Current primary issuer report supports the product families; it does not provide the asserted market-share percentages or a global hidden-champion ranking."
+    },
+    {
+      "source_id": "irf-official-auto-parts",
+      "title": "劍麟股份有限公司官網：汽車零配件",
+      "url": "https://www.irf.biz/1_autoparts.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06可查的公司網站。",
+      "locator": "汽車零配件頁列台灣與大陸產品，包括預縮式安全帶管件、氣囊充氣殼體及相關精密金屬配件。",
+      "source_sha256": "c9320c883c9914711225dc9237f4a680b094f43d038286be7deca593bcec2aae",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/46/jianlin-official-auto-parts.html",
+      "note": "發行人現行產品頁，佐證公司持續列示兩類產品。"
+    },
+    {
+      "source_id": "cnyes-2013-ipo-market-share",
+      "title": "鉅亨網：劍麟11月底上市 下半年營運旺 今年EPS估衝破5元",
+      "url": "https://news.cnyes.com/news/id/1875452",
+      "source_level": 2,
+      "publication_date": "2013-10-22",
+      "effective_period": "2013年公司上市前資料。",
+      "locator": "正文稱劍麟將氣囊充氣殼體及預縮式安全帶精密導管出貨給Autoliv、TRW、TAKATA三大供應商，三家合計占全球新車市場逾90%；同段另稱劍麟自身氣囊產品全球市占12%、安全帶產品15%。",
+      "source_sha256": "cf0a60b945f3d388d0ec0c57c0ab69a145ed6fe037759ab2d77b7dce10d9259a",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/46/cnyes-2013-ipo-article.html",
+      "note": "歷史媒體報導；清楚區分客戶端系統市場份額逾90%與劍麟兩條產品線份額12%及15%。不能用作2026年市占估值。"
+    }
+  ],
+  "search_notes": [
+    "把「隱形冠軍」定位、氣囊充氣殼體產品、預縮式安全帶管件產品，以及兩項全球市占率拆為獨立主張。",
+    "劍麟2025年年報與公司現行產品頁均確認公司生產氣囊充氣殼體及預縮式安全帶精密管件。",
+    "2013年鉅亨網報導列劍麟自身氣囊產品市占12%、安全帶產品15%；同篇逾90%指其三大系統客戶占全球新車市場的比重。",
+    "最新2025年年報未披露劍麟上述產品的全球市占或「隱形冠軍」排名；舊有12%／15%數字也不能直接當作現況。保留兩項現行逾90%說法及冠軍定位為UNKNOWN。"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000881",
+  "claim_id": "1568:material_named_relationship:1946ef9117a00ea3",
+  "normalized_claim_hash": "1946ef9117a00ea319fac6fbdf350a298eeda7f6d3b53f3ae87411bec48a2f78",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-07298b2e8068a0e1",
+      "title": "2024 ESG Report",
+      "url": "https://www.tsangyow.com.tw/_upload/esg/2024%E5%B9%B4%E5%BA%A6%20%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%28%E8%8B%B1%E6%96%87%E7%89%88%29.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 reporting year",
+      "locator": "About Tsang Yow, opening company-profile paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports the broader Tier 1 automotive-component classification only."
+    },
+    {
+      "source_id": "src-6d5c9c291cf1212f",
+      "title": "傳動系統的最佳策略夥伴",
+      "url": "https://www.tsangyow.com.tw/_upload/files/1566810398.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Page 17, China transmission-market overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Aisin among AT/CVT suppliers in market context; does not identify it as a 倉佑 customer."
+    },
+    {
+      "source_id": "src-7a3f2cf1bd6f43c3",
+      "title": "Corporate Profile | JATCO Ltd",
+      "url": "https://www.jatco.co.jp/english/company/profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "As of June 30, 2026",
+      "locator": "Main Businesses Areas",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official corporate profile identifies automobile-transmission development, manufacture, and sale."
+    },
+    {
+      "source_id": "src-af34da3157a52422",
+      "title": "Global Network | AISIN CORPORATION",
+      "url": "https://www.aisin.com/en/profile/global/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "As of September 2026",
+      "locator": "Japan group-company listings; automatic-transmission manufacturing subsidiaries",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official group network identifies AISIN entities manufacturing automatic transmissions and components."
+    },
+    {
+      "source_id": "src-b5e2214dc3c1b251",
+      "title": "AT, CVT, MT | AISIN CORPORATION",
+      "url": "https://www.aisin.com/en/product/mobility/ats-cvts-mts/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product disclosure",
+      "locator": "AT/CVT/MT product page",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official product page lists AISIN transmission products."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "四輪聚焦搜尋後，官方 ESG 報告已確認三家公司的客戶群納入關係及較寬的 Tier 1 零組件分類；對 JATCO/Aisin 的 issuer-site 搜尋只找到市場供應商脈絡，未找到倉佑客戶關係證據。未解部分保留 UNKNOWN，沒有把資料缺漏當成否定證據。",
+    "2024 ESG報告確認 BorgWarner、Valeo、Magna 屬其全球客戶群，但沒有提供客戶個別營收、排名或「主要客戶」定義。",
+    "倉佑簡報將 JATCO 與 Aisin 列在變速箱市場供應商脈絡中；這不代表它們是倉佑客戶。未找到能確認其客戶關係的資料，不能據此判定不存在關係。",
+    "報告使用的分類是「Tier 1 automotive component manufacturers」，並非原 claim 所用的「transmission system integrators」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1568/881/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000895",
+  "claim_id": "3162:material_named_relationship:3eadbf59b44aa00d",
+  "normalized_claim_hash": "3eadbf59b44aa00d9908bf7a2e742c7072fc55172d4879d9e180d0466ce99866",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-234546edbc704321",
+      "title": "《DJ在線》比亞迪年銷破300萬輛，供應鏈續按讚2024",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=d6dac77a-fcc4-438f-bddd-e36710a4bf37",
+      "source_level": 2,
+      "publication_date": "2024-01-02",
+      "effective_period": "報導稱精確於2023年已切入供應鏈，預期2024年開始放量。",
+      "locator": "內文提及精確（3162）2023年已切入比亞迪供應鏈。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reputable financial-news report; it states the relationship but describes future shipments as expected."
+    },
+    {
+      "source_id": "src-130cefab6ca1ba54",
+      "title": "搶單有成 比亞迪台鏈看旺",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=0&nsl_id=c81c60bb90124fbcb29c4b792a710592",
+      "source_level": 2,
+      "publication_date": "2024-01-23",
+      "effective_period": "報導稱2023年中簽約，2024年1月中開始小批量產出貨。",
+      "locator": "內文第251–253行；頁面標示來源為《工商時報》。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports both the contract and commencement of small-batch production shipments."
+    },
+    {
+      "source_id": "src-e2a9fae7065955e3",
+      "title": "精確子公司轉讓陸企股權",
+      "url": "https://money.udn.com/money/story/11074/9004649",
+      "source_level": 2,
+      "publication_date": "2025-09-14",
+      "effective_period": "報導稱自2024年第4季起陸續取得比亞迪等車廠訂單。",
+      "locator": "內文第129及132行。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports BYD among automakers ordering battery boxes; does not quantify BYD-specific order value."
+    },
+    {
+      "source_id": "src-fc919a74567a832f",
+      "title": "公司簡介及2025營運展望（精確實業股份有限公司簡報）",
+      "url": "https://www.al-alloy.com.tw/upload/Download/2025_08_01_21531581.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報列示湖州生產線BYD訂單期間為2025-07至2026-11。",
+      "locator": "第31及33頁：湖州精確生產線BYD訂單；第33頁列示訂單期間。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer primary disclosure supports a separate production-line business relationship with BYD; it is not treated as proof of the earlier automotive-parts shipments."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "關係性主張已由多篇報導支持，且公司簡報另證實一項不同範疇的BYD訂單；停止於已足以評估原文的證據範圍，未推定未披露的金額或供貨規模。",
+    "關於2023年簽約及2024年初汽車零組件出貨的具體敘述，找到的是媒體報導，未找到公司或監管機構對該筆交易的同期直接公告。",
+    "公司2025年簡報披露的BYD生產線訂單屬另一業務範疇，不應與汽車零組件出貨混為一談。",
+    "證據支持存在供應關係，但不足以推定比亞迪訂單的金額、營收占比、數量或持續性。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3162/895/hermes-attempt-1.stdout.txt"
+}

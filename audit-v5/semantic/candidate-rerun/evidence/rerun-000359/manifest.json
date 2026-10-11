@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000359",
+  "claim_id": "1603:objective_ranking_or_market_share:12171e5a5dfe2650",
+  "normalized_claim_hash": "12171e5a5dfe2650c49ed704e928983edbc9a3027ad4c5b527ce5a5436bb61ac",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2b1660e61e4d18be",
+      "title": "中華電線電纜股份有限公司永續報告書",
+      "url": "http://www.cwco.com.tw/assets/pdf/ESG.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「產品上、中、下游之關聯性」中的鋁門窗事業部。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "指出鋁門窗事業上游原料多為進口鋁合金錠，但沒有列出第一銅或華新麗華為供應商。不同抓取版本分別標示2025年8月／涵蓋2024年，以及2026年8月／涵蓋2025年，故日期與期間不確定。"
+    },
+    {
+      "source_id": "src-f71e0c87b19e755d",
+      "title": "第一伸銅科技股份有限公司官方網站",
+      "url": "https://www.fcht.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司及產品介紹。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "介紹銅與銅合金銅片產品，未證明其向華電供應鋁錠或有相關交易。"
+    },
+    {
+      "source_id": "src-3893e799854b0566",
+      "title": "電線電纜事業 – 華新麗華",
+      "url": "https://www.walsin.com/our-business/wire-cable",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "電線電纜事業介紹。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "介紹裸銅線、銅條等產品，未證明華新麗華向華電供應鋁錠或有相關交易。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視華電官方永續報告、華電產品頁及兩家被指名公司的官方產品資訊，並進行針對性供應商查詢；可取得資料僅支持一般原料類別或供應商產品介紹，未確認具名交易關係，故在研究範圍內停止並保留 UNKNOWN。",
+    "原文以「第一銅、華新麗華」並列兩種材料，沒有交代各公司與各材料的對應；「銅元」一詞也未釐清。",
+    "華電官方永續報告的同一網址在不同抓取中呈現不同年度版本，故報告出版日期與有效期間無法可靠確定。",
+    "公司產品介紹只能確認各自公開介紹的產品，不能據此推定其與華電存在供應交易。",
+    "此項是供應商身分主張，未見排名、市占率或數量；不得由其 objective_ranking_or_market_share 標籤推導排名或市場份額。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1603/359/hermes-attempt-1.stdout.txt"
+}

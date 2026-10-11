@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000236",
+  "claim_id": "9941:objective_ranking_or_market_share:72928707fcb8c094",
+  "normalized_claim_hash": "72928707fcb8c094c46bea1a942e9d22b845e06a73a6b04bb046b6cceb826a50",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e25fd88298ba56d5",
+      "title": "新鑫股份有限公司 Shinshin Credit Corporation — 裕隆集團",
+      "url": "https://www.shincredit.com.tw/About/Affiliate",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方頁面稱排名自2008年至「至今」；頁面未標示更新日期",
+      "locator": "「裕隆集團」段落末段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "內容稱新鑫專營商用車融資租賃，並稱商用車市場佔有率第一；沒有明確寫出分期市場的排名口徑或其分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方來源支持較廣義的商用車市場排名，但來源未解決分期市場定義及市佔分母；不以未界定的排名口徑替代原主張。",
+    "排名資訊來自公司官方介紹，屬發行人自述，未見獨立市場數據或排名方法佐證。",
+    "來源未披露市佔分母、衡量單位、比較範圍或明確地域市場。",
+    "「融資租賃」業務描述與「分期市佔」並非足以互換的市場定義；來源未明確將第一名排名限定於分期市場。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9941/236/hermes-attempt-1.stdout.txt"
+}

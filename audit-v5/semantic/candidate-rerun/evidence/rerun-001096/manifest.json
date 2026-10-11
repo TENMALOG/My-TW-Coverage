@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001096",
+  "claim_id": "6672:material_named_relationship:80c644ca1738e6b5",
+  "normalized_claim_hash": "80c644ca1738e6b5c5127edd3c4f9fb4adddbaedeb1751a1406025f648c99879",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a0fc7eee97a72f53",
+      "title": "2017 Annual Report — Company History",
+      "url": "https://www.ventec-group.com/media/114406/7annual-report-eng.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年表記載2009年PI產品獲NASA與Boeing認可。",
+      "locator": "Company History表格中2009年條目。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只證明歷史產品認可，未提供當前客戶名單或直接交易證據。"
+    },
+    {
+      "source_id": "src-90da232e94a42cce",
+      "title": "《頭家開講》軍工航太高階戰 打造強兵團",
+      "url": "https://www.mirrormedia.mg/story/20190413bus001",
+      "source_level": 2,
+      "publication_date": "2019-04-13",
+      "effective_period": "報導描述2019年前後的供應鏈與認證情況。",
+      "locator": "報導中介紹騰輝F-35 CCL供應及Airbus、Boeing、Raytheon等認證的段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導；將供應、認證和客戶關係區分看待，不能據此確認目前直接交易狀態。"
+    },
+    {
+      "source_id": "src-46a383e8670cd0a8",
+      "title": "車市回升訂單復甦有感 騰輝-KY第四季營收向上",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=%7B5e2b4913-4157-46c0-b459-4fcc87393f38%7D",
+      "source_level": 2,
+      "publication_date": "2020-09-30",
+      "effective_period": "2020年報導的汽車頭燈材料認可。",
+      "locator": "報導中列出Koito、Stanley及Ichikoh汽車頭燈材料認可的段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未交代電動車專用範圍或Tier 1供應鏈層級。"
+    },
+    {
+      "source_id": "src-12830e54bb7a65a6",
+      "title": "Investors — Ventec International Group",
+      "url": "https://www.ventec-group.com/investors/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "投資人頁面公司介紹與CCL、鋁基板等產品說明。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面證明公司供應PCB相關材料，不證明其客戶是全球一線PCB製造商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方投資人資料與年報，以及針對軍工航太和汽車頭燈認可的歷史報導；剩餘原子缺少可核實的當前客戶、EV項目屬性、Tier 1層級或PCB客戶排名證據，故保留UNKNOWN。",
+    "公司官方年表支持歷史產品認可，並非當前客戶名單。",
+    "Koito與Stanley材料認可資訊來自2020年二手報導，範圍是汽車頭燈材料，未限定EV。",
+    "「Tier 1」和「全球一線PCB板廠」均缺少來源中的定義或可核驗客戶清單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6672/1096/hermes-attempt-1.stdout.txt"
+}

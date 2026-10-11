@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000388",
+  "claim_id": "9945:objective_ranking_or_market_share:596c67d69f51bdc0",
+  "normalized_claim_hash": "596c67d69f51bdc0b5b9e5d453e91812911ab3b459c3865243d73e79c9aef8c0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2aa2198094e6102d358f",
+      "title": "潤泰創新國際股份有限公司 2025-12-12 法人說明會（中文）",
+      "url": "https://www.rt-develop.com.tw/upload/2025_12_123/202512121800102w04a7HCz1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-12",
+      "effective_period": "持股比例截至2025-09-30",
+      "locator": "投影片5、19",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "投影片19明列「截至2025/09/30潤泰創新綜合持股25.65%」，並另列潤泰創新持有潤成投控25%、直接持有南山人壽0.23%。"
+    },
+    {
+      "source_id": "src-aa8e31f7cb3d4f1f2157",
+      "title": "潤泰創新國際股份有限公司及子公司合併財務報告暨會計師查核報告（民國114年度及113年度）",
+      "url": "https://www.rt-develop.com.tw/upload/2026_03_263/2026032614511177mba5Yba1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-26",
+      "effective_period": "2025-12-31",
+      "locator": "附註六（七），印刷頁~46~",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報列示潤泰新持有潤成投控25.00%，並直接持有南山人壽0.23%；與法人說明會所列綜合持股口徑相符。"
+    },
+    {
+      "source_id": "src-d8556079ce7607da7fa0",
+      "title": "潤泰創新國際股份有限公司 2025-12-12 法人說明會（中文）",
+      "url": "https://www.rt-develop.com.tw/upload/2025_12_123/202512121800102w04a7HCz1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-12",
+      "effective_period": "截至2025-09-30；投資收益為2025Q3",
+      "locator": "投影片19「壽險事業－南山人壽為獲利引擎」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人以「獲利引擎」描述南山人壽，並列出潤成投控2025Q3投資收益新台幣4,579,614仟元。"
+    },
+    {
+      "source_id": "src-4c185db5a78df9609720",
+      "title": "潤泰創新國際股份有限公司及子公司合併財務報告暨會計師查核報告（民國114年度及113年度）",
+      "url": "https://www.rt-develop.com.tw/upload/2026_03_263/2026032614511177mba5Yba1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-26",
+      "effective_period": "2025-01-01至2025-12-31",
+      "locator": "附註六（七），印刷頁~46~至~47~",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "權益法認列關聯企業損益份額表列潤成投控6,438,142仟元、潤泰全球1,051,307仟元、日友環保149,618仟元、南山人壽直接投資67,168仟元；潤成投控摘要財務資訊亦列其為南山人壽相關持股架構。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "發行人法人說明會及經會計師查核的年度財務報告已為兩個原子主張提供支持；保留持股口徑及獲利歸屬的限定，交由最終審核。",
+    "「持股約25%」採發行人綜合持股口徑；並非南山人壽直接持股比例。",
+    "「最大獲利來源」未在原 claim 中指定期間或分母。官方投資人簡報定性稱南山人壽為獲利引擎；年報的最大單一權益法損益份額則列在潤成投控名下，不能視為南山人壽單體損益的精確拆分。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9945/388/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "7926d7280722fdc27f18b35756dd176c19b7d0648f1e98ee739e8c584e10364c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9945/388/isolated-prompt.txt",
+  "prompt_sha256": "732638dadabe8401596c23d64b9c60740b606b37af7927e957918ddd5e7365ef",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000388/manifest.json",
+  "supersedes_manifest_sha256": "3afc6ca4e47f9df3379d10bd2d1f38474de0325bc1ed74d81011a90295637af9",
+  "corrected_at": "2026-10-08T09:58:08Z"
+}

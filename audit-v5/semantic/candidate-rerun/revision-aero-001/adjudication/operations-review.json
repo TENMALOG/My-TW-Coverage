@@ -1,0 +1,8 @@
+{
+  "events": [
+    {"at": "2026-10-11", "claim_ticker": "4541", "issue": "false_quota_detection",
+     "detail": "Controller regex matched the word 'quotation' (prompt text echoed in public events) as a quota error and cancelled not-yet-started items. The adjudication output for this item is complete and valid; the 'quota_or_rate_limit' tag in its execution.errors is a controller false positive. Actual Codex quota at the time: 5h 31%, weekly 85% used.",
+     "fix": "quota_hit() now inspects only stderr error lines and error/turn.failed events (run_revision_batch.py).",
+     "frozen_records_modified": false}
+  ]
+}

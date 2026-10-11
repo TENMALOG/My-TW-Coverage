@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000008",
+  "claim_id": "1722:objective_ranking_or_market_share:fd708de33a7d0e86",
+  "normalized_claim_hash": "fd708de33a7d0e8643d8fad8ef6b92934ddf934b7e9e40ccae17fa8232b0c837",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "taifer-nongyou-intro-current",
+      "title": "農友牌簡介 - 台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/Products/Products/aboutnongyou.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "台肥現行官網產品頁，2026-10-06檢視，未標發布或更新日期。",
+      "locator": "頁面介紹農友牌肥料系列、自產與進口轉售產品及農民服務；未提供經銷通路拆分或農會通路排名。",
+      "note": "發行人現行品牌頁，支持「農友牌」為台肥肥料品牌及其產品資訊，不支持最大通路。",
+      "source_sha256": "efcd52ce6f4cd6e93662674c51886b21ca958b3c1ef864358ef50d1bb27be457",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-nongyou-intro-current.html"
+    },
+    {
+      "source_id": "taifer-csr-2015",
+      "title": "台灣肥料股份有限公司 2015 CSR Corporate Social Responsibility Report 企業社會責任報告書",
+      "url": "https://sustaihubtokyo.s3-ap-northeast-1.amazonaws.com/CSRreport/Mops/03795101_%E5%8F%B0%E8%82%A5_1722/03795101_1722_104_CSRreport.pdf",
+      "source_level": 2,
+      "publication_date": "2016-06（報告現行版本發行日；首次版2015-12）",
+      "effective_period": "2015年度報告；受眾、經銷與銷售描述綁定報告期間。",
+      "locator": "「客戶服務」2.3.2.4：稱農友牌肥料客戶以全省農會及肥料專售店為主，轉銷農友及消費者；未稱農會為最大單一通路。",
+      "note": "台肥發行的正式CSR報告，涵蓋2015年度，列明版本於2016年6月發行。屬公司對主要客戶渠道的歷史自述，不提供按渠道的數量/營收比較。",
+      "source_sha256": "1f7f51697b4686cb4e8de6c719006eb075f63d3966c2c0d13fb82ffc21bc05ab",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-csr-2015.pdf"
+    },
+    {
+      "source_id": "taifer-sales-network-2019",
+      "title": "滿滿正能量 北區營業所深耕在地 - 台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/PublicationArticleDetailC004000.aspx?Cond=8c4b84d1-965e-4484-9c33-41ceba543125",
+      "source_level": 3,
+      "publication_date": "2019-01-14",
+      "effective_period": "台肥刊物記錄的2019年北區營業所及肥料銷售情況。",
+      "locator": "正文稱農友牌肥料銷售量穩居全台第一，但並非全省農會都有販售；第一名描述的是產品銷售，不是農會通路相對其他通路的規模。",
+      "note": "台肥公司刊物。支持並非所有農會均有販售，也把產品總銷量排名與通路排名區分。",
+      "source_sha256": "a74c8f309e709e99965898bf46abd1f8b6dc49ab9cdffdfce94c9541c1137d92",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-sales-network-2018.html"
+    },
+    {
+      "source_id": "taifer-2025-annual-report",
+      "title": "114年度台肥公司年報",
+      "url": "https://www.taifer.com.tw/StandardTemplates/Handlers/FileHandler.ashx?fid=0684f8ce-a497-436b-8213-d73f9285ecff&no=1&sourceType=0&type=FileUpload",
+      "source_level": 2,
+      "publication_date": "2026-05-18",
+      "effective_period": "台肥114年度（2025會計年度）年報。",
+      "locator": "肥料產業上下游關聯圖列農會、肥料商及農民為下游參與者；未比較各通路規模，未稱農會為最大經銷通路。",
+      "note": "正式年報的近期下游概覽；用於確認年報列示通路類別，不從未標示排名推斷反證。",
+      "source_sha256": "d16f050bf201ab4b3eef285073f991a5d1781bb94809503c59b127195d3c0995",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1722/taifer-2025-annual-report.pdf"
+    }
+  ],
+  "search_notes": [
+    "台肥2015年度CSR報告（2016年6月版本）稱農友牌主要客戶為全省農會及肥料專售店，轉銷農友與消費者；其文字未提供通路排名或渠道銷量/營收。",
+    "台肥2019年刊物稱農友牌肥料總銷售量穩居全台第一，但同篇明確表示並非全省農會都有販售；這是產品銷量排名，不是農會通路排名。",
+    "台肥現行農友牌頁及114年度（2025）年報可供核對品牌和下游類別，但沒有按農會、肥料專賣店等通路拆分的銷量或營收。搜尋未找到可比較數據證明農會系統是最大單一經銷通路。"
+  ],
+  "excluded_sources": [
+    {
+      "title": "2019台肥刊物：滿滿正能量 北區營業所深耕在地",
+      "url": "https://www.taifer.com.tw/PublicationArticleDetailC004000.aspx?Cond=8c4b84d1-965e-4484-9c33-41ceba543125",
+      "reason": "該文「全台第一」指農友牌肥料產品銷量，不是農會這一通路相對其他渠道最大；未用於證成最大通路。"
+    }
+  ]
+}

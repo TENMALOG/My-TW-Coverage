@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000997",
+  "claim_id": "3015:profitability_assertion:216c65fa804875f8",
+  "normalized_claim_hash": "216c65fa804875f899fcf3a520551b881fe4fc8052e9356084d2c096f4ca6a2e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-708865e8f6f7a93c",
+      "title": "致股東報告書",
+      "url": "https://www.fsp-group.com.tw/tw/ChairmanStatement.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 會計年度",
+      "locator": "第 105–107 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露公司整體營收與營業毛利，並非所列應用的分部毛利率。"
+    },
+    {
+      "source_id": "src-9eb6752199a7b05c",
+      "title": "邊緣運算－支援數位轉型的重要關鍵",
+      "url": "https://www.fsp-group.com/tw/microsite/edge-computing/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第 206、221 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出邊緣人工智能系統，並稱產品線可滿足邊緣 AI 系統需求。"
+    },
+    {
+      "source_id": "src-979b85bd994c5b5c",
+      "title": "全漢趨勢應用",
+      "url": "https://www.fsp-group.com/tw/fsp30/Applications.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第 17–19 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司積極投入儲能系統搭配逆變器的設計，並列出儲能系統與太陽能逆變器。"
+    },
+    {
+      "source_id": "src-ee891b51874b02ef",
+      "title": "關於全漢",
+      "url": "https://www.fsp-group.com/tw/AboutFSP.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第 92–98 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品總覽列有太陽能逆變器、儲能系統。"
+    },
+    {
+      "source_id": "src-77212063f3a82b9a",
+      "title": "全漢主攻Edge AI，帶動2024年營收/毛利率往上",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=285c1abf-fad7-47e6-bc44-243a01ab4939",
+      "source_level": 2,
+      "publication_date": "2024-01-08",
+      "effective_period": "2024 年展望",
+      "locator": "第 40–42 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導轉述公司稱 Edge AI 電源規格提升有助產品 ASP 與毛利率；未提供所列各應用的分部毛利率或「高毛利」門檻。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方股東報告、產品與應用頁面，以及一則相關二手報導；布局類原子有支持，但所列應用的高毛利主張仍缺乏可比期間、應用別分母及毛利率數據，故保留 UNKNOWN。",
+    "官方產品頁可支持產品線與布局，但未提供這些應用各自的銷售占比或毛利率。",
+    "Edge AI 對 ASP、毛利率的說法來自二手媒體轉述，且不等同於經披露的產品別毛利率。",
+    "未能確定「高毛利」的比較基準、衡量門檻或期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3015/997/hermes-attempt-1.stdout.txt"
+}

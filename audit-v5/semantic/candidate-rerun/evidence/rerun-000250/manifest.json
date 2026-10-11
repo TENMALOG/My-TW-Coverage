@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000250",
+  "claim_id": "6290:objective_ranking_or_market_share:19c3d40cace1a46e",
+  "normalized_claim_hash": "19c3d40cace1a46e8e35af1d67fd1700209c0aadeae413e0ecc16c080f4c66cc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-da399424643aa4d6",
+      "title": "良維董事長 李淳正 意外找到桃花源",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?nsl_id=0a9867b373dd420baa98db0261afdf10",
+      "source_level": 2,
+      "publication_date": "2024-06-10",
+      "effective_period": "Customer relationship reported as current in June 2024",
+      "locator": "Customer-list paragraph and section on ChargePoint",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names ChargePoint among Longwell customers and discusses the charging-station business relationship."
+    },
+    {
+      "source_id": "src-06889262f16cf203",
+      "title": "良維(6290)-4月營收創下歷史高!且開始出這家CSP廠的貨!",
+      "url": "https://uanalyze.com.tw/articles/3020717797",
+      "source_level": 2,
+      "publication_date": "2025-05-12",
+      "effective_period": "2025 reporting",
+      "locator": "營運狀況 and AI伺服器需求延續 sections",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports AWS as a main supplier relationship and gives a reported estimate of AWS cable order allocation; this is not a ranking of customer value within the claimed product market."
+    },
+    {
+      "source_id": "src-4113941e6da22657",
+      "title": "2025年首季創下單季新高，良維營收爆發看好資料中心與AI換機潮",
+      "url": "https://www.moneyweekly.com.tw/ArticleData/Info/Article/182926",
+      "source_level": 2,
+      "publication_date": "2025-06-11",
+      "effective_period": "2025 reporting",
+      "locator": "Final customer paragraph stating Microsoft was shipping in small volume",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports small-volume shipments to Microsoft."
+    },
+    {
+      "source_id": "src-e4239177e18984f5",
+      "title": "良維營收／9月9.15億元創新高 可望推第3季獲利創高、全年 EPS 逾9元",
+      "url": "https://money.udn.com/money/story/11074/9065137",
+      "source_level": 2,
+      "publication_date": "2025-10-12",
+      "effective_period": "2025",
+      "locator": "Final paragraphs on CSP customers and small-volume Microsoft shipments",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Further reports small-volume Microsoft shipments in 2025."
+    },
+    {
+      "source_id": "src-eebbcf10c64f8d08",
+      "title": "良維 Q1 業績同期新高 輝達 Vera Rubin 下半年出貨 業績喊衝",
+      "url": "https://money.udn.com/money/story/5612/9437364",
+      "source_level": 2,
+      "publication_date": "2026-04-12",
+      "effective_period": "2026 reporting",
+      "locator": "Final paragraph listing AI-server high-current customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Lenovo among Longwell's brand-server AI high-current customers."
+    },
+    {
+      "source_id": "src-32259889d0ced770",
+      "title": "良維董座定調今年為EV元年，ChargePoint可望躍升第一大客戶",
+      "url": "https://tw.stock.yahoo.com/news/%E8%89%AF%E7%B6%AD%E8%91%A3%E5%BA%A7%E5%AE%9A%E8%AA%BF%E4%BB%8A%E5%B9%B4%E7%82%BAev%E5%85%83%E5%B9%B4-chargepoint%E5%8F%AF%E6%9C%9B%E8%BA%8D%E5%8D%87%E7%AC%AC-%E5%A4%A7%E5%AE%A2%E6%88%B6-085821685.html",
+      "source_level": 2,
+      "publication_date": "2023-02-17",
+      "effective_period": "2023 outlook and customer relationship",
+      "locator": "Paragraphs describing ChargePoint as a charging-station customer and discussing expected shipments",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports ChargePoint as a customer; its forecast that ChargePoint might become the largest overall customer was prospective, not an achieved ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found reporting for the listed customer relationships and AWS's overall customer prominence, but not a reliable, period-specific disclosure establishing AWS's rank specifically among customers for AI high-power cables. Research stopped at the tool-call iteration limit.",
+    "The named-customer evidence is predominantly secondary reporting, not an issuer disclosure confirming each named relationship in a single dated list.",
+    "Customer status and shipment scale vary by period; Microsoft is specifically described as a small-volume shipper in 2025.",
+    "Some reports call AWS the largest customer overall, while the claim scopes the ranking to AI high-power lines. Those scopes are not interchangeable.",
+    "No source located establishes the denominator or comparative customer data needed to verify the product-specific AWS ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6290/250/hermes-attempt-1.stdout.txt"
+}

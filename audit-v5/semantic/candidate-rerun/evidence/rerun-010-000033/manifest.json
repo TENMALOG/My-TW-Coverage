@@ -1,0 +1,113 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000033",
+  "claim_id": "1522:objective_ranking_or_market_share:c39cb97e670a83a1",
+  "normalized_claim_hash": "c39cb97e670a83a16876ee19fc5913d981445510b3268b3b4c0bccd86524ae3b",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-a9c5ebb357eb712d4233",
+      "title": "TYC Brother Industrial Co., Ltd. — TYC Group Global Footprint",
+      "url": "https://www2.tyc.com.tw/group",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Taiwan / TYC Brother Ind. Co., Ltd. HQ profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes TYC as a worldwide supplier to OEM and replacement aftermarket, and as one of the world's largest vehicle-lighting manufacturers. The broad vehicle-lighting description does not isolate AM market leadership."
+    },
+    {
+      "source_id": "src-18d2f982ae10143ae400",
+      "title": "TYC Brother Industrial Company 堤維西交通工業(股)公司",
+      "url": "https://www.tyc.com.tw/assets/uploads/shareholders/file1724811846.pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-27",
+      "effective_period": "Company profile in the 2024 presentation; precise effective period not specified.",
+      "locator": "TYC Brother Industrial company profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer presentation describes TYC as supplying global OEM and replacement-aftermarket markets."
+    },
+    {
+      "source_id": "src-a1a6f9c872b6a91fc4a6",
+      "title": "TYC Brother Industrial Co., Ltd. — TYC Group Global Footprint",
+      "url": "https://www2.tyc.com.tw/group",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Taiwan / TYC Brother Ind. Co., Ltd. HQ profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Relevant for the company's vehicle-lighting and aftermarket activities, but does not establish AM-specific leadership."
+    },
+    {
+      "source_id": "src-21c9011f2f2bdaa449d1",
+      "title": "堤維西交通工業（1522）：全球車燈領導者的轉型與成長之路",
+      "url": "https://uc913.com/stock-1522",
+      "source_level": 1,
+      "publication_date": "2026-09-10",
+      "effective_period": null,
+      "locator": "Introduction and key-summary section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Asserts leadership but supplies no underlying market study, methodology, or supporting citation; insufficient to verify the claim."
+    },
+    {
+      "source_id": "src-f7ae53fe88b454fd8b74",
+      "title": "堤維西交通工業（1522）：全球車燈領導者的轉型與成長之路",
+      "url": "https://uc913.com/stock-1522",
+      "source_level": 1,
+      "publication_date": "2026-09-10",
+      "effective_period": null,
+      "locator": "Introduction and key-summary section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States 12% North American AM share but provides no source, denominator, or methodology; treated as an unverified assertion."
+    },
+    {
+      "source_id": "src-d117d9ccb937aa15e3cb",
+      "title": "堤維西交通工業（1522）：全球車燈領導者的轉型與成長之路",
+      "url": "https://uc913.com/stock-1522",
+      "source_level": 1,
+      "publication_date": "2026-09-10",
+      "effective_period": null,
+      "locator": "Introduction and key-summary section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States a global top-five ranking without a source, ranking method, or reference year; treated as an unverified assertion."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches and review of available issuer materials did not locate reliable evidence establishing the claimed AM-specific share or rank, including their periods and market definitions. Further search would exceed the focused research limit without a promising primary or reputable source.",
+    "Issuer materials support the company's global vehicle-lighting and aftermarket activities, not the claimed AM-specific market share or ranking.",
+    "The source repeating both the 12% figure and top-five ranking provides no underlying market study, denominator, or reference period and is treated as low-reliability evidence.",
+    "The original claim does not state a measurement or ranking year."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1522/33/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "eea0b3aa4b7ce8b86aba754ad3f26095f40caa38beba24ec550d7e896536b5b6",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1522/33/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "3b8c80962bdb661e6cb7890081645eea7d45aa7f54ea5cd1af569899588beea4",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

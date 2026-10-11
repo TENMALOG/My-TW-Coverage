@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001014",
+  "claim_id": "3023:material_named_relationship:1532be7088e9ba55",
+  "normalized_claim_hash": "1532be7088e9ba55af6394be8ee7e17d3a16f95e243f3009103a1a1e65d8211d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9739f6e980dee903",
+      "title": "SINBON Corporate Social Responsibility Report 2020",
+      "url": "https://www.sinbon.com/files/2020_CSR_Rport_EN_1020-%E5%B7%B2%E5%A3%93%E7%B8%AE.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年Amazon Robotics供應商評鑑",
+      "locator": "第54頁，Sustainable Supply Chain；Amazon Robotics 2020 supplier evaluation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "信邦自有報告記載Amazon Robotics供應商評鑑及產品準時交付，確認供應商關係；未在該處指明具體機器人型號。"
+    },
+    {
+      "source_id": "src-eacbcfee11c31729",
+      "title": "個股：Amazon Go正夯，信邦(3023)今年搶攻汽車電子及工業機器人商機",
+      "url": "https://tw.stock.yahoo.com/news/%E5%80%8B%E8%82%A1-amazon-go%E6%AD%A3%E5%A4%AF-%E4%BF%A1%E9%82%A6-3023-014958423.html",
+      "source_level": 2,
+      "publication_date": "2017-07-20",
+      "effective_period": "報導當時；另提及洽談2018年新訂單",
+      "locator": "文章首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊快報報導信邦受惠於Amazon無人搬運車／自動倉儲機器人訂單。"
+    },
+    {
+      "source_id": "src-433f8c0597818343",
+      "title": "〖充電樁卡位戰3〗看破資訊產業利潤低　信邦打入美國充電樁龍頭供應鏈",
+      "url": "https://www.mirrormedia.mg/story/20210901ind004",
+      "source_level": 2,
+      "publication_date": "2021-09-09",
+      "effective_period": "報導截至2021-09-09；文中稱為長期合作，未明確列出供貨起訖日期",
+      "locator": "導言及正文第134、138、147、153段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導指信邦供應ChargePoint充電槍槍頭及線束訂單，並稱信邦有團隊專門服務ChargePoint。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核信邦官方永續報告、投資人資料及針對兩項具名關係與全球稀有性所作的聚焦搜尋。具名供應關係有部分支持；全球稀有程度缺少可比較的供應商總體與判定標準，故保留UNKNOWN並停止。",
+    "Amazon關係有信邦2020年永續報告作一手佐證；自動倉儲機器人訂單的具體描述另來自2017年財訊快報報導。",
+    "ChargePoint具名供應關係本次查得的直接來源為2021年《鏡週刊》報導，未找到相應的官方具名披露。",
+    "資料未提供相關供貨金額、各自市場分母或全球同類供應商數量；不能把兩項關係的存在當成「全球極少數」的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3023/1014/hermes-attempt-1.stdout.txt"
+}

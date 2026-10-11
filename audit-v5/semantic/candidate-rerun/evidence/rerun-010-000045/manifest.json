@@ -1,0 +1,60 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000045",
+  "claim_id": "2115:objective_ranking_or_market_share:ce0e7e4bf82e336c",
+  "normalized_claim_hash": "ce0e7e4bf82e336ce97448f6bae53a869f1b1925c49c846902b268999fd6ca8d",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-c2d96ca2dc2217ab140e",
+      "title": "六暉工業（印尼）股份有限公司（issuer website）",
+      "url": "https://www.luhai.id/zh-TW",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview, group history, Taiwan branch production-line entry, and global branches/contact addresses.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer source identifies operations in Taiwan, Xiamen, Kunshan, and Indonesia, and lists the Taiwan branch in Changhua."
+    },
+    {
+      "source_id": "src-fe683d5fa193034d2d6b",
+      "title": "成本控制+胎壓偵測器更換需求，六暉營運添動能",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=5d02acf3-41cc-421b-baa8-0b3fef9c0dd3",
+      "source_level": 2,
+      "publication_date": "2013-12-23",
+      "effective_period": "Discusses 2013 conditions; exact measurement period for the share is not stated.",
+      "locator": "Second paragraph.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 60% for two-wheel inner-tube valves in China and Indonesia. It does not verify a 60% share of Indonesia’s inner-tube market itself or specify a market-share denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches found issuer evidence for the locations but no reliable evidence resolving the 60% market-share atom. The available 2013 secondary report uses a different product-market description and combines China and Indonesia, so the unresolved atom remains UNKNOWN.",
+    "The location evidence comes from an undated issuer webpage.",
+    "The 60% figure is not verified for the claim’s stated product market, Indonesia-only geography, measurement period, or denominator."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2115/45/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "6838a61e551641fd365665c8aa53c7ebf9117ea414c9311213c344020c3ef84d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2115/45/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "da89ed254669773cdd8e8ac0e4562ca5df7409efa5badee5b8ad09bf1681570b",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

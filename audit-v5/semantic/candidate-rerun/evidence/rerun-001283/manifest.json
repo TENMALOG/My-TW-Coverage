@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001283",
+  "claim_id": "8476:material_named_relationship:1f56f40e7746d7f1",
+  "normalized_claim_hash": "1f56f40e7746d7f14e066cbd9107d4693457e870cedb5e958bed063c95912c6c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-cab527da5a40292a",
+      "title": "台境企業股份有限公司107年度年報",
+      "url": "https://www.tesc.com.tw/web_EN/doc/governance/annual_report/%E5%8F%B0%E5%A2%83107%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "合約期間分別為2015-11-05至2020-12-31、2016-01-21至2020-03-31",
+      "locator": "重要契約表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明合約對象、契約期間及污染整治工程內容。"
+    },
+    {
+      "source_id": "src-c3fbab728ae7b72b",
+      "title": "台境企業永續報告書（SASB揭露）",
+      "url": "https://www.tesc.com.tw/doc/governance/%E5%8F%B0%E5%A2%83%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8V12%28%E8%91%A3%E4%BA%8B%E6%9C%831218%29-SASB.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "下游客戶數及依產品／服務類型分類的營收揭露",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告約162家下游客戶，並揭露服務類別營收；所查內容未提供具名客戶營收排名或占比。"
+    },
+    {
+      "source_id": "src-420aee6125971e38",
+      "title": "台境企業股份有限公司112年度股東會年報",
+      "url": "https://www.tesc.com.tw/doc/governance/annual_report/112%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "113年度營業計畫概要",
+      "locator": "營業計畫概要，拓展焚化爐代操作市場段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司將廢棄物發電及政府綠電政策視為焚化爐市場機會；未支持原子句所述的環境部特定合作或已落實發電。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成6回合聚焦搜尋；已取得歷史合約及公司策略的一手資料。對客戶重要性、環境部特定政策合作及售電對象／數量仍缺少相應口徑或實績證據，故未以相近資料替代，將未解原子句保留為UNKNOWN。",
+    "合約證據是歷史資料，不能直接推定目前客戶關係或客戶重要性。",
+    "「主要客戶」需要具名客戶營收占比、排名或其他明確重要性口徑；目前查得資料未提供該分母或排名。",
+    "年報對廢棄物發電及綠電政策的表述屬市場機會／營運計畫，不能替代已執行的政策合作或售電紀錄。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8476/1283/hermes-attempt-1.stdout.txt"
+}

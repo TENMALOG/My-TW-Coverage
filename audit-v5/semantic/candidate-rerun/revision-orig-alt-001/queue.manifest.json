@@ -1,0 +1,21 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "revision-orig-alt-001",
+  "selection": {
+    "rule": "narrower alternatives proposed in orig-recheck-001 for non-passed revisions"
+  },
+  "created_at": "2026-10-10T22:59:13.648588+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 11,
+  "queue_sha256": "7771a00b9327b489ec420cb8757935d1a8a1e67d4ea6a1180b0733bc1e5a09c5",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/orig-recheck-001/delivery/outcomes.jsonl": "e814a19124ecc5f4e69efc46ee10c128d815146ce80478ea2d0ef3e08e6c8371",
+    "audit-v5/semantic/candidate-rerun/orig-recheck-001/queue.jsonl": "bdd9bd033cdc24df4a96d5294fd76cc3afe66fdc5a261ee44ad03cf399d429f7"
+  },
+  "prompt_template_sha256": "ba7c75bbe269eec6e3ca6d213254d7caf2f46de8a1cde188fac9a6ff2a7b0a73",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "e2a344875a3a890b1251b2f0327b05ca9138fcc234e81fcb5b8ba4427fa9f63c",
+  "prior_verdicts_withheld": true,
+  "original_acceptance_authority": false
+}

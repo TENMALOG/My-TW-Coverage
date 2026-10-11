@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001011",
+  "claim_id": "2383:material_named_relationship:76a1350152921c96",
+  "normalized_claim_hash": "76a1350152921c965ef7c2ef1e8a01b697d38e2c4d15c19397c8b9122b05ca03",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-20baa0f700a45785",
+      "title": "〖新台股龍捲風〗當大家都在看NVIDIA財報時，美國偷偷出現小動作！？目的？",
+      "url": "https://news.cnyes.com/news/id/5299807",
+      "source_level": 2,
+      "publication_date": "2023-08-23",
+      "effective_period": "報導所述2023年 NVIDIA 伺服器供應情況；具體觀察期未明",
+      "locator": "正文第21行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級財經報導；稱 OAM/UBB 市占率逾90%，但未說明分母與估算來源。"
+    },
+    {
+      "source_id": "src-5626e8c7ba8690f4",
+      "title": "台灣電子硬體產業：IT Hardware",
+      "url": "https://www.kgi.com.hk/zh-cn/-/media/files/kgishk/research-reports/tw-reports/it-hardware-07072025e.pdf",
+      "source_level": 2,
+      "publication_date": "2025-07-07",
+      "effective_period": "AWS Trainium 2/2.5 compute tray",
+      "locator": "第8頁圖19，PDF行581-593",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示台光電為M8 CCL供應商，但未使用「獨家」表述。"
+    },
+    {
+      "source_id": "src-1920b85f6935fc7c",
+      "title": "受惠輝達 Rubin 世代 CCL 規格升級！外資點名台光電是唯一 M9 合格供應商",
+      "url": "https://technews.tw/2025/09/04/ccl-rubin/",
+      "source_level": 2,
+      "publication_date": "2025-09-04",
+      "effective_period": "報導所述GB300時期；AI GPU CCL整體份額，非明確的OAM/UBB分母",
+      "locator": "正文第122-124行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉述未具名外資對GB300市占的估算，報導沒有將該份額界定為OAM/UBB專屬份額。"
+    },
+    {
+      "source_id": "src-7fb64cb032ca8eac",
+      "title": "Fubon Research AWS Trainium 3 伺服器展望",
+      "url": "https://www.scribd.com/document/1013677185/%E5%AF%8C%E9%82%A6-AWS-Trainium-3-%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%B1%95%E6%9C%9B-20260202",
+      "source_level": 2,
+      "publication_date": "2026-02-02",
+      "effective_period": "預計量產的AWS Trainium 3配置",
+      "locator": "正文第8頁，Scribd文本行364-372",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告列出台光電與台燿同為M8 CCL供應商；來源為第三方平台上的富邦研究報告鏡像。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到可區分H100歷史市占、GB200/GB300供應商估列，以及Trainium 2與Trainium 3獨供狀態的資料；剩餘未決事項缺少相同產品範圍與分母的官方份額披露，故未以相鄰平台或較廣市場數據補足。",
+    "未找到台光電或相關客戶公開、逐平台列出NVIDIA/AWS供應商及市場份額的官方披露。",
+    "市占率主張必須限定產品代際、板件類型、觀察期間與分母；來源對GB300的廣義AI GPU CCL市占估算不能替代OAM/UBB專屬份額。",
+    "凱基與富邦資料屬券商研究估列，不等同發行人或客戶確認；富邦報告本次可讀版本為Scribd鏡像。",
+    "2023年對NVIDIA OAM/UBB份額的報導未充分交代計算口徑，僅支持其當時曾被如此報導。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2383/1011/hermes-attempt-1.stdout.txt"
+}

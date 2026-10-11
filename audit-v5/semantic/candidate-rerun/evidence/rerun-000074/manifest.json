@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000074",
+  "claim_id": "2834:objective_ranking_or_market_share:f95bff030d5de303",
+  "normalized_claim_hash": "f95bff030d5de303b2c80e441561e40eb3a5bda1a5f618546bc07ee78b6fb254",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-33b180e944f43841",
+      "title": "股東服務－臺灣中小企業銀行",
+      "url": "https://ir.tbb.com.tw/shareholder/shareholders-meeting",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Shareholder record date: 2026-08-06",
+      "locator": "「前十大股東」 table; first row 臺灣銀行股份有限公司 and fourth row 財政部",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure. The dated snapshot contradicts a present-tense reading of the claim, but does not resolve its unspecified historical period."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after locating the issuer’s dated primary-source shareholder list. The available evidence resolves the ranking for 2026-08-06, but the claim’s missing period prevents determining its historical validity.",
+    "The issuer page provides an effective record date but no publication date.",
+    "The claim has no date or other period scope; historical validity remains unresolved."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2834/74/hermes-attempt-1.stdout.txt"
+}

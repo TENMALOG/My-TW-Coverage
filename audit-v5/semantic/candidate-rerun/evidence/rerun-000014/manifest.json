@@ -1,0 +1,62 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000014",
+  "claim_id": "8942:objective_ranking_or_market_share:271aa5af591a1811",
+  "normalized_claim_hash": "271aa5af591a181104629ea1ddcd8bd6f451986d4e70fc4e8bc387d7838d96cd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "xxentria-2025-annual-report",
+      "title": "森鉅科技材料股份有限公司及子公司114年度年報",
+      "url": "https://xxentria-tech.com/assets/uploads/invester/financialreport/33/report6a8ee01d345bc.pdf",
+      "source_level": 2,
+      "publication_date": "2026（年報下載頁列2025年度）",
+      "effective_period": "民國114年度（2025）；市占描述未註明調查資料的基準日。",
+      "locator": "PDF第82頁（印刷頁67），「二、市場及產銷概況／1.市場分析／（2）市場占有率」：在鋁（鋼）塑複合板項下稱依帷幕牆協會非正式統計，ALCOPLA國內室內板及室外板市占約30%，北美廂式掛車市占約50%。",
+      "source_sha256": "f5057bfa99c1ec437ea8164e237c2619c975e5a2ec7d1f724981e538c50303c6",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/8942/xxentria-2025-annual-report.pdf",
+      "note": "發行人正式年報。北美約50%為公司披露的廂式掛車市場描述，沒有分拆至G-BOND／A-BOND或提供原始外部統計附件。"
+    },
+    {
+      "source_id": "xxentria-gbond-product-catalog-current",
+      "title": "G-BOND 型錄（中文） - 森鉅科技材料",
+      "url": "https://www.xxentria-tech.com/assets/uploads/G-BOND_%E5%9E%8B%E9%8C%84%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行型錄，版本日未標示；2026-10-06取得。",
+      "locator": "PDF第2頁稱G-BOND為鍍鋅鋼塑複合板、A-BOND為高強度鋁塑複合板，均為貨櫃車體／車門板材；第6頁稱美國公路上有超過80萬輛以G-BOND打造的貨櫃車，並稱其在美國貨櫃車市場占有率超越60%。該數值文中指向G-BOND與美國貨櫃車，沒有定義調查期間。",
+      "source_sha256": "ee2f6b56afca46d3c4604b1367e75feca0b6b6d1adb15f6c71be921f6a04d87e",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/8942/gbond-catalog-cn.pdf",
+      "note": "發行人型錄支持產品名稱及用途；未標日期的美國G-BOND數字不可直接當成2025北美兩產品合計市占。"
+    },
+    {
+      "source_id": "xxentria-current-trailer-body-products",
+      "title": "貨櫃車體 - 森鉅科技材料",
+      "url": "https://www.xxentria-tech.com/index.php/zh-TW/homepage/industry",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "森鉅官網現行產品／產業頁，2026-10-06檢視。",
+      "locator": "頁面介紹G-BOND鍍鋅鋼塑複合板與A-BOND高強度鋁塑複合板，供貨櫃車車體及車門板材使用。",
+      "source_sha256": "f41cabff61836f0b6479bda874f89fbd7700c581c151df089c0228d92ac064a2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/8942/xxentria-trailer-body-products.html",
+      "note": "直接產品說明；沒有外部排名、兩產品合併市占或市場分母。"
+    },
+    {
+      "source_id": "xxentria-2019-company-story",
+      "title": "森鉅－創新精神（富比士專訪，官網中文翻譯）",
+      "url": "https://www.xxentria-tech.com/index.php/zh-TW/homepage/news/47",
+      "source_level": 3,
+      "publication_date": "2019-10-27",
+      "effective_period": "公司官網於2019-10-27刊載的專訪中文翻譯，內容為歷史市場自述。",
+      "locator": "文章提及G-BOND及近期A-BOND，再稱森鉅貨櫃車專用複合板在北美市占60%；未在此句拆分兩產品份額。",
+      "source_sha256": "ec2733b9721cdced3bdcf083d901d058c758e7230b78be35bdad16abb5b36376",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/8942/xxentria-2019-company-story.html",
+      "note": "公司官網轉載／翻譯的2019年文章，可支持公司當年曾作60%的北美複合板市場自述；不是2025當期獨立統計，也未定義為全部半掛車市場。"
+    }
+  ],
+  "search_notes": [
+    "2025年度最新年報在正式市占段落列北美廂式掛車約50%，並列出此數據所在的鋁（鋼）塑複合板業務範圍；該年報沒有將比例分配到G-BOND或A-BOND，也沒有稱森鉅在全球排名第一。",
+    "未標日期的官網型錄稱美國貨櫃車市場G-BOND市占超過60%；2019-10-27官網文章則稱森鉅貨櫃車專用複合板北美市占60%。兩者與最新年報的期間、地區及市場分類不同，不能以同一比例互相替代。",
+    "G-BOND是鍍鋅鋼塑複合板，A-BOND是高強度鋁塑複合板；型錄把兩者用於貨櫃車體材料，但未將約60%量化份額同時且明確歸屬於兩個產品。"
+  ]
+}

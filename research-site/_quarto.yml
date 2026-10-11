@@ -1,0 +1,63 @@
+# 草案：本地預覽用。網站名稱、網域與部署平台尚未定案。
+project:
+  type: book
+  output-dir: _site
+
+lang: zh-Hant
+
+book:
+  title: "臺灣上市櫃企業的產業定位與供應鏈關係"
+  subtitle: "以公開資料為基礎的可追溯研究（示範版）"
+  author: "臺灣產業研究專案"   # 暫定，待董事長決定署名
+  date: "2026-10-08"
+  date-format: "YYYY-MM-DD"
+  search: true
+  output-file: "tw-industry-research"
+  chapters:
+    - index.qmd
+    - part: "研究主文"
+      chapters:
+        - chapters/main/introduction.qmd
+        - chapters/main/data-method.qmd
+        - chapters/main/results.qmd
+        - chapters/main/discussion.qmd
+    - part: "產業專章"
+      chapters:
+        - chapters/industries/aerospace-defense.qmd
+    - part: "公司研究頁：航太與國防"
+      chapters:   # 由 scripts/build_company_pages.py 產生
+        - chapters/companies/2634.qmd
+        - chapters/companies/4541.qmd
+        - chapters/companies/4546.qmd
+        - chapters/companies/4572.qmd
+        - chapters/companies/8222.qmd
+        - chapters/companies/2645.qmd
+        - chapters/companies/2630.qmd
+        - chapters/companies/2208.qmd
+        - chapters/companies/2644.qmd
+        - chapters/companies/6753.qmd
+    - index-companies.qmd
+    - references.qmd
+  appendices:
+    - appendices/method.qmd
+    - appendices/evidence.qmd
+    - appendices/changelog.qmd
+
+bibliography: references/aerospace-defense.json
+link-citations: true
+filters:
+  - filters/refs.lua
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    css: styles.css
+  typst:
+    mainfont: "Microsoft JhengHei"
+    fontsize: 10pt
+    papersize: a4
+    toc: true
+    number-sections: true
+    section-numbering: "1.1"
+    citeproc: true

@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000506",
+  "claim_id": "6505:objective_ranking_or_market_share:e2932b76fb13de47",
+  "normalized_claim_hash": "e2932b76fb13de47059dbe1d548b0699e336a6ca02ac4b4b971a069b37d2352d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-30b0c9ae3ffb52f4",
+      "title": "關於我們－事業部門－台塑石化股份有限公司",
+      "url": "https://www.fpcc.com.tw/tw/about/business",
+      "source_level": 3,
+      "publication_date": "2024-05-27",
+      "effective_period": "截至網頁資料日期",
+      "locator": "「烯烴事業部」及「主要營業項目」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人資料直接確認事業及產品；未提供該事業營收占比。"
+    },
+    {
+      "source_id": "src-8941f0c2fc93c7a9",
+      "title": "六輕計畫與經濟發展",
+      "url": "https://www.fpg.com.tw/uploads/images/media-center/ebook-top/2026/2026_sixth_CH.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026年資料",
+      "locator": "「5. 輕油裂解廠」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載三座輕油裂解廠乙烯年產能合計293.5萬公噸；未能核實無期間主張的313萬噸。"
+    },
+    {
+      "source_id": "src-97e6c3fc425c07d5",
+      "title": "114年度年報－台塑石化股份有限公司",
+      "url": "https://www.fpcc.com.tw/uploads/images/ir/AGM/2025%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "2025年度；年報列示麥寮一廠、二廠、三廠地址",
+      "locator": "年報前段「總公司及工廠之地址」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報列出三座麥寮廠；廠址列示本身不代表每座當期均運轉。"
+    },
+    {
+      "source_id": "src-e46445e3e09928d6",
+      "title": "台塑石化公司關於輕油裂解廠運轉狀況之聲明",
+      "url": "https://www.fpg.com.tw/tw/issue-news/2026/613",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "聲明記載2025年9月及2026年3月24日停運事件",
+      "locator": "聲明中關於烯烴一廠、三廠停運及運轉套數的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人說明其2025年9月關停一廠、2026年3月24日再關停三廠；後續復運狀況未由此來源確認。"
+    },
+    {
+      "source_id": "src-9d297f2cd75faf05",
+      "title": "112年度年報－台塑石化股份有限公司",
+      "url": "https://www.fpcc.com.tw/uploads/images/ir/%E5%8F%B0%E5%A1%91%E7%9F%B3%E5%8C%96112%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%E4%B8%8A%E5%82%B3%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2024-04-30",
+      "effective_period": "公司對2023年營運的年報描述",
+      "locator": "「經營理念、公司願景」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱輕油裂解廠生產乙烯、丙烯及丁二烯等基本原料，產能規模位居國內第一；未明定按銷售量或市場份額排名。"
+    },
+    {
+      "source_id": "src-3281d1eeb1bb520e",
+      "title": "About Company－Company Profile－Formosa Petrochemical Corporation",
+      "url": "https://www.fpcc.com.tw/en/about/overview",
+      "source_level": 3,
+      "publication_date": "2024-12-31",
+      "effective_period": "頁面註明數據截至2023-12-31",
+      "locator": "Company Profile第一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人稱其為台灣領先的乙烯生產者；此描述不足以確定所有石化基本原料按供應量計的最大排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦發行人、年報及台塑企業官方資料的檢索。32%營收、69%市占、丙烯251萬噸產能及最大供應商的比較口徑仍缺乏可核實的期間或分母；依研究限制停止並保留為UNKNOWN。",
+    "台塑企業的2026年資料支持三座設置數及293.5萬公噸乙烯年產能，但不能替代原主張未標明年度的313萬噸。",
+    "公司披露的產能排名與實際供應量、市占率不是同一指標；市占率所需市場分母未明。",
+    "停運聲明提供特定日期的運轉狀況，未確認之後是否復運。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6505/506/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001056",
+  "claim_id": "3710:material_named_relationship:aa9aa33df769ae96",
+  "normalized_claim_hash": "aa9aa33df769ae967160822ee3104a43e5e9854a2674068f319ad814afdf7bf5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b2c7566191887b24",
+      "title": "連展投控 2025 年公司年報",
+      "url": "https://www.acon-holding.com/uploads/images/ir/annual/annual_report_2025.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025會計年度",
+      "locator": "第5頁，研究發展情況；PDF擷取行119–120",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持低軌衛星零組件處於開發、優化及測試驗證進程；未確認傳輸解決方案的交付或商業供應。"
+    },
+    {
+      "source_id": "src-9d9e031259b01bea",
+      "title": "連展投控：創新服務",
+      "url": "https://www.acon-holding.com/tw/esg/topic/%E5%89%B5%E6%96%B0%E6%9C%8D%E5%8B%99",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網頁面版本日期未標明；頁面列有2022–2024年研發投入資訊",
+      "locator": "「創新研發」及「投入資源與績效亮點」，頁面行174、184–201",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司介紹連展科技、連訊通信的連接器／光通訊產品能力，並列連騰低軌衛星天線模組為前瞻研發布局。"
+    },
+    {
+      "source_id": "src-909a1aedcc12f812",
+      "title": "打進美系低軌衛星營運商龍頭SpaceX供應鏈？連騰：以公告為準",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=497d0b46-2044-47d5-993b-de4c3381f344",
+      "source_level": 2,
+      "publication_date": "2022-06-24",
+      "effective_period": "2022年6月報導所述情況；預期2022年第四季出貨",
+      "locator": "行27–33",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "解決方案及預期出貨為被澄清公告轉述的媒體說法，未獲公司確認。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查公司官方年報與研發資料，以及2022年相關澄清公告。找到的材料支持部分一般產品能力，但SpaceX關係、特定技術整合及已提供傳輸方案均未獲確認；依證據範圍停止，未將缺乏確認視為否定。",
+    "2022年澄清公告轉述媒體報導，不等於公司認可報導內容；公司明示不評論特定客戶與特定訂單。",
+    "「預計2022年第四季出貨」是當時的預期，不是已出貨證據。",
+    "2025年度年報晚於2022年報導，且談的是低軌衛星零組件開發進度；不應用來追認或否定2022年特定客戶關係。",
+    "官網創新服務頁面未標明精確發布或更新日期，因此只用於支持其所列的一般產品能力與研發方向。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3710/1056/hermes-attempt-1.stdout.txt"
+}

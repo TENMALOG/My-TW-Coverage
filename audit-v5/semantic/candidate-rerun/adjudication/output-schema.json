@@ -1,0 +1,169 @@
+{
+  "type": "object",
+  "properties": {
+    "claim_id": {
+      "type": "string"
+    },
+    "normalized_claim_hash": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "ACCEPTED",
+        "PARTIALLY_SUPPORTED",
+        "UNKNOWN_AFTER_RESEARCH",
+        "UNSUPPORTED",
+        "PERIOD_UNRESOLVED"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "period_assessment": {
+      "type": "string"
+    },
+    "qualifier_coverage_complete": {
+      "type": "boolean"
+    },
+    "complete_original_supported": {
+      "type": "boolean"
+    },
+    "all_sources_inspected": {
+      "type": "boolean"
+    },
+    "atomic_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "SUPPORTED",
+              "UNKNOWN",
+              "CONTRADICTED"
+            ]
+          },
+          "period": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "source_kind": {
+                  "type": "string"
+                },
+                "publication_date": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "effective_period": {
+                  "type": "string"
+                },
+                "locator": {
+                  "type": "string"
+                },
+                "support_summary": {
+                  "type": "string"
+                },
+                "support_excerpt": {
+                  "type": "string"
+                },
+                "inspection_method": {
+                  "type": "string",
+                  "enum": [
+                    "captured_content",
+                    "live_full_page",
+                    "uninspected"
+                  ]
+                }
+              },
+              "required": [
+                "url",
+                "title",
+                "source_kind",
+                "publication_date",
+                "effective_period",
+                "locator",
+                "support_summary",
+                "support_excerpt",
+                "inspection_method"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "text",
+          "status",
+          "period",
+          "reason",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "revised_claim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "revised_claim_supported": {
+      "type": "boolean"
+    },
+    "unresolved_qualifiers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "research_complete": {
+      "type": "boolean"
+    },
+    "research_stop_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "claim_id",
+    "normalized_claim_hash",
+    "verdict",
+    "rationale",
+    "period_assessment",
+    "qualifier_coverage_complete",
+    "complete_original_supported",
+    "all_sources_inspected",
+    "atomic_claims",
+    "revised_claim",
+    "revised_claim_supported",
+    "unresolved_qualifiers",
+    "contradictions",
+    "research_complete",
+    "research_stop_reason"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000055",
+  "claim_id": "2239:objective_ranking_or_market_share:f1b8e1134f6bc9d1",
+  "normalized_claim_hash": "f1b8e1134f6bc9d1820d48877d8355333448b9455167298acd23c978e02bc175",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5d15bfa5834e19cfc37c",
+      "title": "Changchun Engley Automobile Industry Co., Ltd. — company presentation",
+      "url": "https://www.engley.com.tw/uploads/20231130/577d8b7b3b219d3fcf9ca6fea7ac52cc.pdf",
+      "source_level": 3,
+      "publication_date": "2023-11-29",
+      "effective_period": "Company presentation dated 2023-11-29; line establishment described from 2013.",
+      "locator": "Slide/page labeled 17, “Non-Metallic - LWRT”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Laitwei was established in September 2013, introduced a complete European production line, and develops and produces automotive lightweight composite SYMALITE."
+    },
+    {
+      "source_id": "src-de81bd78b40a14f163ec",
+      "title": "Changchun Engley Automobile Industry Co., Ltd. — company presentation",
+      "url": "https://www.engley.com.tw/uploads/20231130/577d8b7b3b219d3fcf9ca6fea7ac52cc.pdf",
+      "source_level": 3,
+      "publication_date": "2023-11-29",
+      "effective_period": "Company presentation dated 2023-11-29.",
+      "locator": "Slide/page labeled 17, “Non-Metallic - LWRT”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Directly states that the Laitwei production line is one of five worldwide and the only SymaLITE lightweight-composite production line in Asia."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research stopped after the available tool-call limit was reached; current independent verification of the Asia-wide production-line denominator remains unresolved.",
+    "The exact exclusivity wording is supported by an official issuer presentation, but no independent enumeration of SymaLITE production lines in Asia was found.",
+    "The evidence is dated 2023-11-29 and does not independently establish that the exclusivity remains true today."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2239/55/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-001",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c93936c86b6f626efd5530a6f67851bd86ac7b5739f7894bc25e1c443ff1f5b9",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2239/55/isolated-prompt.txt",
+  "prompt_sha256": "c0e5beaef92ff0c63267ab47cabadb7fd2d2474161ad0da75a2cbdfd70070ead",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000055/manifest.json",
+  "supersedes_manifest_sha256": "79cf556f1f7457698066c39fefa772aa0669b8e9b641b7e65bf87e700155a3ca",
+  "corrected_at": "2026-10-08T09:57:43Z"
+}

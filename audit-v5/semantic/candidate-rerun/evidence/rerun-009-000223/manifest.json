@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000223",
+  "claim_id": "5225:objective_ranking_or_market_share:017ed3b68dac411f",
+  "normalized_claim_hash": "017ed3b68dac411f389f6a7e2c1503f37ba7406868fab446079ffe4218da6aff",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c395f1c9204b278a7c2a",
+      "title": "東科法說會／最壞情況已過 第3季起營運回溫",
+      "url": "https://udn.com/news/story/7252/9682443",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article text: paragraph beginning「據悉，東科聲霸（Soundbar）產品的前三大客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Samsung, LG, and Sony as the top three Soundbar customers; report period is not specified in the retrieved text."
+    },
+    {
+      "source_id": "src-f5c47c7a17663d3b7877",
+      "title": "《川普再起》東科-KY越南廠可再承擔逾7成產能",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0468f4ef-9931-447b-aa0e-67e61332ddaf",
+      "source_level": 2,
+      "publication_date": "2024-11-11",
+      "effective_period": "As described at the 2024-11-11 investor conference",
+      "locator": "Article text: paragraph beginning「對於川普2.0再臨及貿易戰再起」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Management is reported as referring to a「韓系最大客戶」without naming that customer."
+    },
+    {
+      "source_id": "src-f05ea3ca9d87cfc540f3",
+      "title": "東科法說會／最壞情況已過 第3季起營運回溫",
+      "url": "https://udn.com/news/story/7252/9682443",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article text: paragraph beginning「據悉，東科聲霸（Soundbar）產品的前三大客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports Samsung as a Soundbar customer, but does not establish that Samsung is the largest customer overall."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次最多8輪聚焦檢索；最大客戶身份與排名範圍仍無法確認。",
+    "Retrieved evidence naming Samsung and LG is secondary reporting and specifically concerns Soundbar customers, not necessarily the issuer’s total customer base.",
+    "The report that identifies an unnamed largest Korean customer does not name Samsung; no reliable evidence found here binds that ranking to Samsung or establishes its denominator and period."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5225/223/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2518a62e423f55d85c4a99ac593e2fd8504577faf9e513363ab21791dddcccfb",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5225/223/isolated-prompt.txt",
+  "prompt_sha256": "37a09ea2bf8ab71eda9b80d8b6318153c6a85eb6bc2ef391a3530b453dae9cf4",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000223/manifest.json",
+  "supersedes_manifest_sha256": "7ea9395ccafeceb0fca53e0d51869145a675664a6c847308cfe30cfcdb90471e",
+  "corrected_at": "2026-10-08T09:57:55Z"
+}

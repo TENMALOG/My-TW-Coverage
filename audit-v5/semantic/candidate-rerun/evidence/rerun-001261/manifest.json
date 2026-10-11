@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001261",
+  "claim_id": "4417:material_named_relationship:b3e7a7e705586906",
+  "normalized_claim_hash": "b3e7a7e705586906032fe15661141819dd83379877078a3ef5a3d578896f3acc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-41872e4ee1ce1a6e",
+      "title": "金洲海洋科技股份有限公司 113年度年報",
+      "url": "https://www.king-net.com.tw/images/doc/annual-report-113.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024（民國113年度；進貨名單亦列至FY2025前一季）",
+      "locator": "第60頁，「主要原料之供應狀況」及最近二年度主要進貨廠商表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "主要原料表列台化、遠東新、巴斯夫及子公司；進貨名單中的最大廠商名稱以「廠商A」呈現，未能確認其身分。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查發行人官方年報及相關官方頁面。年報可支持部分原料及台化—尼龍原絲關係，但HDPE直接採購與力鵬供應關係仍缺少可核實的具名、對應原料證據；官方114年度年報PDF連結無法由檢索工具取得，故保留未決原子為UNKNOWN。",
+    "可核對的發行人年報為113年度年報，描述FY2024，不能據此推定其他年度供應關係不變。",
+    "年報將主要進貨廠商之一匿名為「廠商A」，故具名供應商資訊並不完整。",
+    "PE線、繩的採購資訊不等於直接採購HDPE樹脂；尼龍原絲供應關係也不等於尼龍粒供應關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4417/1261/hermes-attempt-1.stdout.txt"
+}

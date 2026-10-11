@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001226",
+  "claim_id": "4772:material_named_relationship:3a0d22b29d62a4aa",
+  "normalized_claim_hash": "3a0d22b29d62a4aaf9f4201f57ffa6948b73efdc31ae6d433d4d0cfc42ecf845",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0ce9f52a427bf82c",
+      "title": "元富投顧研究部，台特化（4772）個股報告（reproduced on Scribd）",
+      "url": "https://www.scribd.com/document/894148259/4772%25E5%258F%25B0%25E7%2589%25B9%25E5%258C%259620250624-%25E5%25A0%25B1%25E5%2591%258A",
+      "source_level": 2,
+      "publication_date": "2025-06-24",
+      "effective_period": "Advanced-process application described; no 3nm delivery period specified",
+      "locator": "Page 2, lines 167–180",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports the 2024 customer share and general advanced-process CVD application, but does not identify 3nm-specific supply."
+    },
+    {
+      "source_id": "src-24ffbbf33bf87495",
+      "title": "公司簡介 — 台灣特品化學股份有限公司",
+      "url": "https://www.tscs.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "January 2018 and December 2019",
+      "locator": "Lines 47–62",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer history records supplier evaluation approval in January 2018 and a December 2019 award from a major global semiconductor manufacturer identified only as T-company."
+    },
+    {
+      "source_id": "src-84c6526c38cb45b0",
+      "title": "鉅亨網，〈觀察〉中美晶、大立光爭相入股 台特化擁何優勢打入台積供應鏈首年就獲獎",
+      "url": "https://anuenews.cnyes.com/news/id/4423576",
+      "source_level": 2,
+      "publication_date": "2019-12-17",
+      "effective_period": "First supply year; award reported in 2019",
+      "locator": "Lines 25–27 and 37",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies TSMC and states that 台特化 was selected as a preferred supplier in its first year of supply."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research exhausted at the eight-turn limit; the 2nm- and 3nm-specific supply atoms remain unresolved.",
+    "The 60% revenue-share figure and general CVD description come from a brokerage report accessed through an unofficial Scribd reproduction, not a directly retrieved issuer filing.",
+    "The issuer's public history anonymizes the 2019 award-giving manufacturer as T-company; the identification as TSMC and the 'first supply year' detail rely on secondary reporting.",
+    "The claim gives no period for the revenue share. Evidence found anchors it to FY2024; it should not be carried forward to later periods.",
+    "No reliable evidence reviewed establishes node-specific silicon-ethane qualification or deliveries for TSMC 2nm or 3nm CVD."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4772/1226/hermes-attempt-1.stdout.txt"
+}

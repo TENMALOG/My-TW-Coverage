@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000820",
+  "claim_id": "8415:objective_ranking_or_market_share:016f3d5d3ac36d27",
+  "normalized_claim_hash": "016f3d5d3ac36d27cc8ff27e26078daf7e840e887badbf1ab73fb208c6e5caa1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4f8b54b38c53b421c186",
+      "title": "大成國際鋼鐵股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c4a21d08-d2dc-4bdc-a201-d0ec380f0a97",
+      "source_level": 2,
+      "publication_date": "2025-07-30",
+      "effective_period": "2022 年數據",
+      "locator": "「市場銷售及競爭」段落，網頁第 25–26 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ 條目由嘉實投顧提供；屬二手資料。"
+    },
+    {
+      "source_id": "src-c6d2d8fd7eb1aceb64ab",
+      "title": "大成國際鋼鐵股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c4a21d08-d2dc-4bdc-a201-d0ec380f0a97",
+      "source_level": 2,
+      "publication_date": "2025-07-30",
+      "effective_period": "2022 年",
+      "locator": "「市場銷售及競爭」段落，網頁第 25 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "數據歸因於 ITIS 智網；此項來源未直接取得 ITIS 原始資料核驗。"
+    },
+    {
+      "source_id": "src-b7aa0c5b2a9572d50001",
+      "title": "大成國際鋼鐵股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c4a21d08-d2dc-4bdc-a201-d0ec380f0a97",
+      "source_level": 2,
+      "publication_date": "2025-07-30",
+      "effective_period": "2022 年",
+      "locator": "「市場銷售及競爭」段落，網頁第 25–26 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "該條目載明市佔率為 6.74%，並交代其計算依據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到明確列出 2022 年期間、BBI-USA、分子與分母口徑及 6.74% 的來源，足以支持候選判定；但尚未獨立核驗 2022 年發行人原始披露或 ITIS 原始資料，因此未視為研究窮盡。",
+    "找到的直接支持為 MoneyDJ 所載、嘉實投顧提供的二手資料；未取得可直接核對 2022 年數字的發行人原始披露或 ITIS 原始資料。",
+    "此 6.74% 是以銷貨成本除以進口值形成的特定比率，不宜解讀為以美國扣件總需求或全市場銷售額為分母的普遍市場份額。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8415/820/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "eead20ce4221f9d11e05f42036f5797d375583a0d7bc8bf77a2942f94719f844",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8415/820/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "85318aa7cbbaca094873b41566acc834df3353e5d7af0e8d0aa50eb6344134e6",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000820/manifest.json",
+  "supersedes_manifest_sha256": "d6e140f524a79f30da3f2f99ad66471d644960d68ce58d51cf0774801b1a3796",
+  "corrected_at": "2026-10-08T09:58:47Z"
+}

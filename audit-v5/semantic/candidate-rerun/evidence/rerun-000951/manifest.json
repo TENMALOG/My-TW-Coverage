@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000951",
+  "claim_id": "6417:profitability_assertion:786b6167ef6e8579",
+  "normalized_claim_hash": "786b6167ef6e85798f98cf4741991270975151651036cb36370fd225027b3899",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ec1b3825a2f9f743",
+      "title": "韋僑科技2024年Q3法人說明會",
+      "url": "https://www.sag.com.tw/wp-content/uploads/2024/11/2024%E5%B9%B4Q3%E6%B3%95%E8%AA%AA%E6%9C%83Final-20241119%E4%B8%AD%E8%8B%B1%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2024-11-19",
+      "effective_period": "產業營收占比為2021年至2024年Q1–Q3",
+      "locator": "第12–13頁；第39–40頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露Healthcare營收占比及醫材專案營收情況，未披露醫療業務毛利率。"
+    },
+    {
+      "source_id": "src-4b745ca1bb3ebab4",
+      "title": "易主重生的隱形冠軍！它變身AI眼耳 深耕RFID拿下日本電裝、陶氏化學",
+      "url": "https://money.udn.com/money/amp/story/5612/9014180",
+      "source_level": 2,
+      "publication_date": "2025-09-18",
+      "effective_period": "報導所述當時；特定產品期間未披露",
+      "locator": "正文第52–58段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及Stryker止血紗布RFID應用及Medtronic為韋僑客戶之一，但未建立Medtronic與該應用的關聯。"
+    },
+    {
+      "source_id": "src-13241b167c895aa9",
+      "title": "搶攻醫材、工控 RFID 市場！韋僑前三季每股盈餘3.24元創歷年同期次高",
+      "url": "https://finance.technews.tw/2025/11/19/rfid-med/",
+      "source_level": 2,
+      "publication_date": "2025-11-19",
+      "effective_period": "截至2025年第三季法人說明會報導",
+      "locator": "正文第137段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述韋僑總經理談及Stryker止血紗布搭載RFID及相關追蹤功能。"
+    },
+    {
+      "source_id": "src-b74fcbe0c4e95884",
+      "title": "HEALTHCARE - RFID智慧標籤解決方案的提供者｜韋僑科技",
+      "url": "https://www.sag.com.tw/application-healthcare/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "In a hospital；Sterilization Process with No Challenge",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明一般性手術工具RFID追溯與滅菌管理能力，未指名Medtronic客戶或專案。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核查韋僑官方醫療應用頁、2024年Q3法人說明會及2025年媒體報導。仍缺少Medtronic特定產品或系統專案的直接證據，以及醫療分部毛利率披露；不以一般客戶名單、方案能力或公司整體財務數據替代，未解項標為UNKNOWN。",
+    "Stryker止血紗布與RFID的關聯來自媒體報導，未找到韋僑或Stryker的直接專案公告。",
+    "韋僑官方資料支持醫療RFID方案和手術工具管理能力，但沒有公開披露具名客戶部署。",
+    "Medtronic僅有一般客戶關係的媒體報導，不能外推為該公司採用韋僑的止血紗布或手術器械系統。",
+    "醫療營收占比不是醫療業務毛利率；未找到該分部毛利率、比較基準或可驗證的「超高」定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6417/951/hermes-attempt-1.stdout.txt"
+}

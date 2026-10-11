@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001151",
+  "claim_id": "2415:material_named_relationship:7b99bddf699419a9",
+  "normalized_claim_hash": "7b99bddf699419a9a30e1498c88de0d6a5c6a912f82591cba653d5ae8cb9555b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fc4414d5332ff21d",
+      "title": "錩新科技股份有限公司 114年度年報（FY2025）",
+      "url": "https://treelazy.com/stock/2415",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "114年度年報文字；營收分布及產銷政策",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "No individual Bose revenue amount or share is disclosed in the reviewed text."
+    },
+    {
+      "source_id": "src-0a2933f7fe3fba63",
+      "title": "TWSE electronic document query — 錩新 2025 annual report",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=2415&colorchg=1&filename=2025_2415_20260611F04.pdf&kind=F&step=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "2025 annual-report PDF link",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official filing page identified the report PDF; direct PDF retrieval failed during this review."
+    },
+    {
+      "source_id": "src-538bbc4b344ca42a",
+      "title": "受惠於車市需求，錩新訂單穩定成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=1ce0c98e-3ac4-4f90-a322-930c2baba683",
+      "source_level": 2,
+      "publication_date": "2014-07-03",
+      "effective_period": "2014",
+      "locator": "Article text on speaker-component customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Bose as a customer but does not rank customers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Reached the eight-turn research limit. Ranking and individual-share atoms remain unresolved.",
+    "The claim does not specify its period or the revenue denominator for the percentages.",
+    "The FY2025 annual-report PDF was identified through the TWSE filing page, but direct PDF retrieval failed; the report text was available through a third-party page reproducing it.",
+    "The 2014 report is historical. Any combined customer-share figures in older reporting cannot establish individual shares or current rankings."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2415/1151/hermes-attempt-1.stdout.txt"
+}

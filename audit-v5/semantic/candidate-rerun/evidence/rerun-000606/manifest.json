@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000606",
+  "claim_id": "3661:objective_ranking_or_market_share:3565731645cc816a",
+  "normalized_claim_hash": "3565731645cc816ae617242183a8f395e2b6f2bc695b9f8d71b941db6a452adc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ff64c4ebd28e60a1",
+      "title": "Advanced Package Solutions - Alchip",
+      "url": "https://www.alchip.com/en/ASIC_Turnkey_Solutions/ASIC_Design_Services/Advanced_Package_Solutions",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening paragraph and TSMC 3DFabric technology discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms collaboration with TSMC, but contains no exclusivity statement."
+    },
+    {
+      "source_id": "src-d7c6e2c40adcefe9",
+      "title": "Alchip Technologies, Limited 2024 Annual Report",
+      "url": "https://www.alchip.com/upload/2025_05_15/3_20250515095519oqqpsf9j21.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "Fiscal year 2024",
+      "locator": "I. Letter to Shareholders; IV. Overview of Business Operations",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report refers to advanced-node designs and partner collaboration but does not establish TSMC as the sole advanced-process partner. The English report identifies itself as a summary translation; the Chinese version prevails."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches of Alchip's official disclosures and its 2024 annual report supported the TSMC relationship but did not resolve exclusivity; the sole-partner atom remains UNKNOWN.",
+    "The direct evidence is an issuer disclosure of collaboration and process use, not an explicit statement of exclusive foundry status.",
+    "The annual report is an English summary translation and states that the Chinese version prevails."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3661/606/hermes-attempt-1.stdout.txt"
+}

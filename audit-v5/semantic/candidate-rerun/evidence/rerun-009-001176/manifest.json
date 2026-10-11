@@ -1,0 +1,72 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001176",
+  "claim_id": "3551:material_named_relationship:ef53cf0cab8d93a9",
+  "normalized_claim_hash": "ef53cf0cab8d93a9025f50a7641125e14496ff8d96ffcbd842488554b90d8dae",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-00a0df6caaf04197b2d2",
+      "title": "世禾去年營收攻高，今年續拚雙位數成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=223a4532-1f78-4233-8147-ba962838bbaa",
+      "source_level": 2,
+      "publication_date": "2025-01-13",
+      "effective_period": "Customer description reported in January 2025; article reports 2024 revenue.",
+      "locator": "Article text, paragraph beginning「目前世禾在台灣與中國皆有設廠」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary report says Taiwan's main customers include TSMC and Innolux. It also says semiconductor customers collectively account for nearly 80% of revenue, not that TSMC accounts for that share."
+    },
+    {
+      "source_id": "src-68e34d7c028f98a9f0fe",
+      "title": "世禾科技股份有限公司, 申請現金增資發行新股暨股票上櫃前公開承銷文件",
+      "url": "https://www.sht.com.tw/upload/data/%E7%94%B3%E8%AB%8B%E7%8F%BE%EF%A4%8A%E5%A2%9E%E8%B3%87%E7%99%BC%EF%A8%88%E6%96%B0%E8%82%A1%E8%BE%A6%EF%A7%A4%E8%82%A1%E7%A5%A8%E4%B8%8A%E6%AB%83%E5%89%8D%E5%85%AC%E9%96%8B%E6%89%BF%E9%8A%B7%E6%9A%A8%E8%82%A1%E7%A5%A8%E5%88%9D%E6%AC%A1%E4%B8%8A%E6%AB%83%E7%94%A8970331.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2004–FY2006 and 1H 2007, as shown in the filing.",
+      "locator": "PDF pp. 182–183; lines 6750–6771 and 8679–8688",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer filing identifies TSMC as 世禾's first-largest sales customer in FY2004–FY2006 and reports sales to it in 1H 2007. Historical corroboration only."
+    },
+    {
+      "source_id": "src-b7472c0f42ecce6adf65",
+      "title": "世禾科技股份有限公司, 申請現金增資發行新股暨股票上櫃前公開承銷文件",
+      "url": "https://www.sht.com.tw/upload/data/%E7%94%B3%E8%AB%8B%E7%8F%BE%EF%A4%8A%E5%A2%9E%E8%B3%87%E7%99%BC%EF%A8%88%E6%96%B0%E8%82%A1%E8%BE%A6%EF%A7%A4%E8%82%A1%E7%A5%A8%E4%B8%8A%E6%AB%83%E5%89%8D%E5%85%AC%E9%96%8B%E6%89%BF%E9%8A%B7%E6%9A%A8%E8%82%A1%E7%A5%A8%E5%88%9D%E6%AC%A1%E4%B8%8A%E6%AB%83%E7%94%A8970331.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Business relationship said to begin in 2000; transaction data for FY2005, FY2006, and 1H 2007.",
+      "locator": "PDF p. 185, lines 6870–6878",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Direct issuer evidence of historical business dealings. It reports UMC as ninth-largest customer in FY2006, but says 1H 2007 sales fell below the top ten."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found recent secondary support for TSMC and direct issuer evidence only for UMC's historical relationship. Current UMC status remains unresolved; the listed 2025 issuer annual report could not be inspected through the available retrieval tools.",
+    "The claim has no stated as-of date. TSMC is supported by a report published in January 2025, while current continuity is not established.",
+    "The nearly 80% revenue figure in the 2025 secondary report refers to semiconductor customers collectively, not TSMC alone; it cannot establish a customer-specific denominator or share.",
+    "UMC's direct issuer evidence is historical and cannot be treated as proof of a present relationship.",
+    "The issuer's investor page lists a 2025 annual report published May 18, 2026, but the available search backend did not expose its contents for checking current named customers."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3551/1176/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ab2a2da1f90756cde1f1018873627e2c5e3ec419146a5c4348225c8ad1efaa06",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3551/1176/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "5291a8b7465a7fa6feb79db8af0e069bff91075e136d0a70ed38d81ac72f3851",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001176/manifest.json",
+  "supersedes_manifest_sha256": "ed6baabbba01066ee721bc75da3ec6a3f5e2022aed1f19faa324231e1920c234",
+  "corrected_at": "2026-10-08T09:59:26Z"
+}

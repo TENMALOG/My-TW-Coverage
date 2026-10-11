@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000479",
+  "claim_id": "8467:objective_ranking_or_market_share:48dd1d22ba83c457",
+  "normalized_claim_hash": "48dd1d22ba83c4579861ffb300768ff34248f9a6d80238002559655019739e81",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b7ed25796730643c",
+      "title": "波力仍看今年營收雙位數增；柬埔寨廠明年初試產",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3ee11a11-01f5-4bc3-bc8e-5a40a75289b3",
+      "source_level": 2,
+      "publication_date": "2025-11-11",
+      "effective_period": "報導所稱「現在」，即2025年11月",
+      "locator": "第一、二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "上下文提及高階冰上曲棍球桿銷售及碳纖球桿合作，但市佔率句本身只稱「高階冰球市場」，沒有明確說明該市場僅指球桿。"
+    },
+    {
+      "source_id": "src-94f73e6c9b5a7050",
+      "title": "波力-KY 2024Q3 investor presentation",
+      "url": "https://bonnyworldwide.com/upload/investor_download/846720240911M001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第5頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報稱Bauer為全球冰上曲棍球第一品牌且市佔率超過50%，但未將該數字限定為高階球桿市場，也未列地域及分母，不能替代原 claim 所指市場。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司簡報及聚焦搜尋相關報導；找到管理層所述「高階冰球市場」逾五成的數字，但未找到能確認其專指高階冰球桿市場、地域及分母的可靠資料。",
+    "逾五成數字來自媒體轉述的公司總經理說法，並非附有市場調查方法或計算基礎的獨立市場份額數據。",
+    "公司2024年簡報所述Bauer逾五成市佔率未限定為高階球桿市場，不能單獨證明原 claim。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8467/479/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000346",
+  "claim_id": "8069:objective_ranking_or_market_share:5f18abcc84d8634a",
+  "normalized_claim_hash": "5f18abcc84d8634ab68db7819ad3bc47e29da56b01fc8cb4a149f0a6c079b80e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b8aea8bc788a457cba18",
+      "title": "E-Reader Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+      "url": "https://www.mordorintelligence.com/industry-reports/e-reader-market",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026 年報告背景；出貨量份額的具體觀察年度未明示。",
+      "locator": "Competitive Landscape；Key Questions Answered, “Who dominates global shipments?”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接稱 Amazon 約占全球電子閱讀器出貨量 80%。報告未在該數字旁標出數據年度。"
+    },
+    {
+      "source_id": "src-f26b700efb9524f19ebb",
+      "title": "E-Reader Market Size & Share Analysis - Growth Trends and Forecast (2026 - 2031)",
+      "url": "https://www.mordorintelligence.com/industry-reports/e-reader-market",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026 年報告背景；出貨量份額的具體觀察年度未明示。",
+      "locator": "Competitive Landscape；Key Questions Answered, “Who dominates global shipments?”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接稱 Rakuten Kobo 排名第二、約占全球出貨量 10%；未在該數字旁標出數據年度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "找到同一市場研究來源對 Amazon 與 Kobo 的全球出貨排名及份額直接表述；進一步研究仍無法從該頁確認這些份額的具體觀察年度，故保留此限制並提交最終裁定。",
+    "排名與份額依據二級市場研究來源，並非 issuer 或監管機關披露；Mordor Intelligence 表示其市場估算使用 proprietary estimation framework，該頁未提供這兩項品牌份額的具體計算依據。",
+    "來源未明示出貨量份額的觀察年度，因此不能將數字當作某一特定年度的實測結果；以上僅按該報告的 2026 年背景記錄。",
+    "來源指全球電子閱讀器設備出貨量，不能據此推論電子書平台銷售額、用戶數或其他市場口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8069/346/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "57e675c8fee4e1be50e1beae53c7e6fa8b6af53172ea17a4e859131772b21a8b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8069/346/isolated-prompt.txt",
+  "prompt_sha256": "09aa40d71d8937069e01fe3b7254b92f4a0c6882413dcefe4bd3aaa33d7bfd50",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000346/manifest.json",
+  "supersedes_manifest_sha256": "095c7402ecc4922e6e1f54466c550a5f819a80bb4e0c2ef0727c5944418d8764",
+  "corrected_at": "2026-10-08T09:58:04Z"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000500",
+  "claim_id": "4534:objective_ranking_or_market_share:df5a6c2d9d123139",
+  "normalized_claim_hash": "df5a6c2d9d123139ce6ce18d6e68f5c91e3890c31d609dfdcb98dae058415c03",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b229332404484ed7",
+      "title": "慶騰精密科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=402443c7-804b-40da-8c99-d5222c8a5f12",
+      "source_level": 2,
+      "publication_date": "2025-07-16 (page update date)",
+      "effective_period": null,
+      "locator": "「(二)產品與競爭條件」→「2.重要原物料」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "嘉實投顧-provided secondary article lists iron-powder suppliers including Swedish and US Höganäs, Quebec, JF, Baosteel, and Ansteel. It gives no effective period or supplier quantities."
+    },
+    {
+      "source_id": "src-78d19620c8c1a217",
+      "title": "源自瑞典的金属粉末领域先锋 | 关于我们 | Höganäs公司",
+      "url": "https://www.hoganas.com/zh/about-hoganas/our-history",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「Höganäs诞生」 section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The company’s history says it was founded in Höganäs, a town in southern Sweden."
+    },
+    {
+      "source_id": "src-1a497d68e908e152",
+      "title": "A wide range of iron powders | Höganäs",
+      "url": "https://www.hoganas.com/en/powder-technologies/iron-powder",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company page calls Höganäs the world’s leading manufacturer of iron powders; it does not substantiate a largest-by-measure ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found secondary support for Höganäs being one of multiple iron-powder suppliers and official evidence for its Swedish origin. No period-specific primary supplier disclosure or evidence establishing the claimed global-largest ranking and its measurement basis was found; the ranking atom remains UNKNOWN.",
+    "The supplier evidence is secondary and does not state the effective period or purchase volumes.",
+    "The latest issuer annual report reviewed did not identify Höganäs by name as a supplier; that omission is not evidence against the supplier relationship.",
+    "Höganäs’s self-description as “world-leading” does not establish that it is the largest."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4534/500/hermes-attempt-1.stdout.txt"
+}

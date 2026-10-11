@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000914",
+  "claim_id": "1710:profitability_assertion:cada73a15ab322ff",
+  "normalized_claim_hash": "cada73a15ab322fff0e24ce55d4354ed3d4e1de8e27e9d300f66e9629ca72ca0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6324997933e15b6a",
+      "title": "東聯化學－公司簡介",
+      "url": "https://www.oucc.com.tw/cn/about-63-page79",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第327–340行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "介紹研發及專業能力，但未提供可驗證「技術大將／領導者」稱號的排名或比較資料。"
+    },
+    {
+      "source_id": "src-b8f329540f81f108",
+      "title": "東聯化學股份有限公司2024年年報",
+      "url": "https://www.oucc.com.tw/storage/system/investor/PDF/annual_report/2024.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "PDF第4頁、第63頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露超高純度CO2銷售對象，以及不同純化CO2等級供應電子級、半導體級客戶；未列出該等級的實際供應量。"
+    },
+    {
+      "source_id": "src-f8fa0e98b75074cc",
+      "title": "東聯化學－特用化學事業",
+      "url": "https://www.oucc.com.tw/sc-products",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "EA自2001年商轉；EOD自2011年投產",
+      "locator": "第328–331行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露以EO為原料開發特化品、EA廠商轉及EO衍生物工廠投產。"
+    },
+    {
+      "source_id": "src-fa378d736963cce2",
+      "title": "東聯化學2025年營業計畫及股東會手冊",
+      "url": "https://www.oucc.com.tw/storage/system/investor/PDF/manual/2025-2.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度計畫",
+      "locator": "PDF第7頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將逐步提高電子級及半導體客戶的超高純度CO2供應量列為計畫；屬目標而非已實現供應量。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核東聯官方公司簡介、特化事業資料、2024年年報與2025年度營運計畫。可確認的產品與客戶範圍已整理；「技術大將」缺乏可比較指標，「高毛利轉型」缺乏必要毛利率比較，因此保留為UNKNOWN。",
+    "主要依據東聯官方公司資料、2024年年報及2025年度營運計畫；公司自行披露可證明產品、事業及計畫，不等同獨立驗證。",
+    "年報所述全球EG用途占比不是東聯自身銷售組合；東聯自身營收占比另列為EG 64%、特化29%、氣體7%。",
+    "超高純度半導體／電子級氣體的明確證據限於CO2；供應量及占比未披露。",
+    "高毛利轉型未找到足以比較的產品或事業毛利率資料；營收比重及公司淨利不能替代毛利率證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1710/914/hermes-attempt-1.stdout.txt"
+}

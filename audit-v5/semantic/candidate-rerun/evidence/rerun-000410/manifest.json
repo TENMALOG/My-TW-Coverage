@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000410",
+  "claim_id": "2059:objective_ranking_or_market_share:c23a7e78fb5bb734",
+  "normalized_claim_hash": "c23a7e78fb5bb734a72ed4237a991f379d3f5cbd9f52b1cec0644a639815e6fa",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9e2ca41b24774ce7",
+      "title": "King Slide — A pioneering green supplier of functional mechanical products",
+      "url": "https://www.kingslide.com/about_intro",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革所述成立年份：1986",
+      "locator": "About King Slide; company milestone and history",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方網站記載 King Slide Works was founded in 1986。"
+    },
+    {
+      "source_id": "src-3382210f58937a0f",
+      "title": "2059 Investor English",
+      "url": "https://www.kingslide.com/media/wysiwyg/company/investor/document/205920260807E001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026版簡報檔；排名文字未標明統計期間",
+      "locator": "Slide 2, company profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述「No.1 server rail kits manufacturer」，但未界定全球或其他地域排名，也未說明方法。"
+    },
+    {
+      "source_id": "src-a900ad7779867c3a",
+      "title": "公司基本資料 — KingSlide",
+      "url": "https://www.kingslide.com/investor_stockholderservice_basicinfo?___from_store=default&___store=taiwan",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司地址欄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料列地址為高雄市路竹區；頁面未提供該資料的生效日期。"
+    },
+    {
+      "source_id": "src-b19516b54270bf44",
+      "title": "King Slide investor presentation",
+      "url": "https://www.kingslide.com/media/wysiwyg/company/investor/document/205920120608E001.pdf",
+      "source_level": 3,
+      "publication_date": "2012-06-08",
+      "effective_period": "2012年簡報；另列2011/2012營運資料",
+      "locator": "Slide 2, company profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述「No.1 server rail kits manufacturer in Asia」；只支持當時的自述，未提供排名計算或市場定義。"
+    },
+    {
+      "source_id": "src-62cfe95dad5b27da",
+      "title": "King Slide: Diversification Management Assists Brand to Successfully Enter the Home Furnishing Market",
+      "url": "https://www.taiwanexcellence.org/en/press/newsroom/1129",
+      "source_level": 2,
+      "publication_date": "2020-09-11",
+      "effective_period": "文章於2020年發布；市佔統計期間未明示",
+      "locator": "Company overview paragraph stating 30 percent market share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接報稱30%市佔，但未披露分母、單位、市場邊界或計算方法；文中談的是品牌。"
+    },
+    {
+      "source_id": "src-c0742a679d73f9a7",
+      "title": "伺服器零組件｜川湖(2059)看好AI伺服器市場需求，計劃擴大美國投資以提升產能",
+      "url": "https://uanalyze.com.tw/articles/759296469",
+      "source_level": 2,
+      "publication_date": "2024-09-08",
+      "effective_period": "文章所述為2024年市場狀況",
+      "locator": "法說會與市場份額段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導分別稱一般伺服器導軌市佔約30%、AI伺服器導軌約50%；未列分母與估算方法，且30%僅對應一般伺服器範圍，不能等同未區分市場的原 claim。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找公司官方資料、歷史投資人簡報及可追溯的排名與市佔報導；尚缺現況排名的可比市場定義，以及市佔率的期間、分母、單位與計算方法，因此未解決部分保留 UNKNOWN。",
+    "成立年份與高雄總部有公司官方資料直接支持。",
+    "排名及市佔說法主要是歷史或未交代方法的自述、宣傳文章與二手報導，沒有找到可確認現況的官方市場統計或具明確分母的市場研究。",
+    "不同來源使用「server rail kits」「server rail brand」「一般伺服器導軌」等不同範圍，不應視為同一市場口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2059/410/hermes-attempt-1.stdout.txt"
+}

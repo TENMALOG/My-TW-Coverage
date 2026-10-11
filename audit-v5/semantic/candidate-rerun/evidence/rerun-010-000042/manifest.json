@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000042",
+  "claim_id": "1536:objective_ranking_or_market_share:fd8ac95e7e36addc",
+  "normalized_claim_hash": "fd8ac95e7e36addcacfe3fb514c2f0e79481187072af8ef4e9a895b8412d9da4",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-557e196a3f72d2f17b98",
+      "title": "【和大法說會重點內容備忘錄】未來展望趨勢 20250919",
+      "url": "https://blog.fugle.tw/post/earnings-call-1536-2025-09-19",
+      "source_level": 2,
+      "publication_date": "2025-09-19",
+      "effective_period": "2025 investor-conference discussion; exact customer-ranking period unspecified",
+      "locator": "Section 3, 財務表現; Section 7, Q&A",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary AI-generated summary says the top customer is “B company”; it does not identify the company as BorgWarner."
+    },
+    {
+      "source_id": "src-f79126aab784c5eb434d",
+      "title": "【台股研究報告】和大(1536):除大客戶為特斯拉外，還將獲福特、BMW電動車訂單",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=516311",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Article discusses 2022 operations and 2023 estimates",
+      "locator": "Section “BorgWarner 擴大委外趨勢持續，和大業績進補”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports BorgWarner as a customer/channel, but does not rank it as 和大’s largest customer."
+    },
+    {
+      "source_id": "src-dc98f61e7b84281020f9",
+      "title": "【和大法說會重點內容備忘錄】未來展望趨勢 20250919",
+      "url": "https://blog.fugle.tw/post/earnings-call-1536-2025-09-19",
+      "source_level": 2,
+      "publication_date": "2025-09-19",
+      "effective_period": "2025 investor-conference discussion; exact customer-revenue period unspecified",
+      "locator": "Section 3, 財務表現; Section 7, Q&A",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides top-five concentration and an anonymized largest customer, not an individual 40% share attributable to BorgWarner."
+    },
+    {
+      "source_id": "src-f0d018f7f861c778a6f9",
+      "title": "【台股研究報告】和大(1536):除大客戶為特斯拉外，還將獲福特、BMW電動車訂單",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=516311",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Article discusses 2022 operations and 2023 estimates",
+      "locator": "Section “BorgWarner 擴大委外趨勢持續，和大業績進補”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly describes the oil-pump gears and torque-converter-system supply through BorgWarner; it is secondary reporting, not an issuer disclosure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Stopped when the research-tool iteration limit was reached. The available evidence did not resolve the customer identity or the 40% revenue denominator and period.",
+    "No reviewed official issuer disclosure directly confirmed BorgWarner’s customer ranking or a 40% revenue share.",
+    "The 2025 conference summary anonymizes the largest customer as “B company”; that does not establish it is BorgWarner.",
+    "The product-supply evidence is secondary and historical; it should not be treated as confirmation of current products, customer ranking, or revenue concentration."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1536/42/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "30652fa40f148888e613e1794d209c4d7e994a2987a9148e97e16d710e83cb26",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1536/42/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "dc39bc076d46d3c78a5fde58d8bf597c50663a08df3a12b93b9482632bd1dcf3",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

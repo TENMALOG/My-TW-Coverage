@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000308",
+  "claim_id": "5228:objective_ranking_or_market_share:b96cf4a86eed0538",
+  "normalized_claim_hash": "b96cf4a86eed0538d48e13b3eef98a8b97521cad9b8d21778781083ab61932f1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a1ae40cb4381ea44",
+      "title": "應用解決方案－鈺鎧科技股份有限公司",
+      "url": "http://www.maxecho.com.tw/tw/application",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「醫療設備」節",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面列出醫療設備應用。"
+    },
+    {
+      "source_id": "src-d803149df533188f",
+      "title": "鈺鎧 (5228) 2026Q3法說會簡報PDF下載",
+      "url": "https://finmoconf.diveinvest.net/presentation/6a96df14a16a75b813c074d6",
+      "source_level": 2,
+      "publication_date": "2026-09-02",
+      "effective_period": "2026年第二季法人說明會簡報",
+      "locator": "Slide 26",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報轉載文字列出儀表板、電動窗及胎壓偵測器。"
+    },
+    {
+      "source_id": "src-4a1ec873a65f4196",
+      "title": "MAX ECHO TECHNOLOGY CORP. 公開說明書",
+      "url": "https://www.fbs.com.tw/wcm/new_web/trade/trade_20220510_144460/20220510-op.pdf",
+      "source_level": 3,
+      "publication_date": "2022-05-06",
+      "effective_period": "2022年上櫃公開說明書",
+      "locator": "產品策略說明：客製化研發電子耳電力及音訊傳輸模組",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持電子耳相關模組研發，不支持「全球最大」排名。"
+    },
+    {
+      "source_id": "src-4bfa3f995f831daa",
+      "title": "《電零組》鈺鎧訂單能見度佳 衝刺機器人、航太",
+      "url": "https://wantrich.chinatimes.com/news/20260903900277-420101",
+      "source_level": 2,
+      "publication_date": "2026-09-03",
+      "effective_period": "報導稱穩定供貨超過五年；客戶全球市占率約70%，但未明確界定市場及期間",
+      "locator": "產品應用結構及人工電子耳供應鏈段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導的70%是對未具名終端客戶的描述，不是鈺鎧市占率或供應商排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次工具呼叫上限；仍未找到可確認電子耳品牌身份、排名範圍及統計期間的可靠證據，亦未核實WiFi模組與車燈控制的精確措辭。",
+    "公司官網的應用類別及描述屬公司自述，未提供各應用營收占比，因此不能據此判定領域相對集中程度。",
+    "車用細項取自法說簡報轉載頁，不是本次直接查閱的官方簡報原件；該頁列出頭燈與尾燈，但未證明「車燈控制」。",
+    "官方頁面的Wi-Fi 6設備描述不等同於WiFi模組。",
+    "媒體所述約70%市占率指未具名終端客戶，不能推論為鈺鎧自身市占率或鈺鎧是全球最大供應商。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5228/308/hermes-attempt-1.stdout.txt"
+}

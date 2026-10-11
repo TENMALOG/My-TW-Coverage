@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000380",
+  "claim_id": "6691:objective_ranking_or_market_share:d5272625e216200f",
+  "normalized_claim_hash": "d5272625e216200fbaa531b9ff93116e9a06b0087f79ac0b256087b7593d4540",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ed0e5d53b49a50ef",
+      "title": "關於我們－洋基工程股份有限公司",
+      "url": "https://www.yankey.com/chinese/about/about-us",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年承攬",
+      "locator": "公司沿革中2024年條目：「承攬艾司摩爾（ASML）林口園區新廠EPC統包工程案」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方來源確認ASML林口園區新廠EPC統包工程及承攬年度；該頁未明列機電工程細項。"
+    },
+    {
+      "source_id": "src-8dc6fc8ac3089b0e",
+      "title": "洋基工程奪得ASML林口新廠工程案 金額達98億元",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4638635",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年公告的工程案；預估工期3至4年",
+      "locator": "內文首段：承攬ASML林口園區新廠統包工程，包含機電及土木工程",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導提供工程範圍及工期細節；屬次級來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次工具呼叫上限；台積電客戶排名及營收占比仍缺少可核實的期間、分母口徑與直接證據。",
+    "未找到能確認台積電客戶排名或其在洋基工程營收占比的可靠證據；不據此判定原說法為假。",
+    "ASML林口工程的承攬年度由公司官方沿革支持；機電及土木細節來自媒體報導。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6691/380/hermes-attempt-1.stdout.txt"
+}

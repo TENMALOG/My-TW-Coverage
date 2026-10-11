@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000756",
+  "claim_id": "8996:objective_ranking_or_market_share:49ffb2ed084de05d",
+  "normalized_claim_hash": "49ffb2ed084de05d63c364e70da125ceb498ed7ac860ea1bf0e3296af3c0c931",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a2bbbddf0aa4f442",
+      "title": "高力熱處理工業股份有限公司－首頁",
+      "url": "https://www.kaori.com.tw/tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「領導品牌 全台第一也是唯一」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明載成功銷售至七十多個國家。"
+    },
+    {
+      "source_id": "src-1857fdb428f57776",
+      "title": "硬銲型板式熱交換器",
+      "url": "https://www.kaori.com.tw/tw/modules/bphe/main",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「高力硬銲型板式熱交換器：高效熱傳的關鍵」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱其熱交換器使用精密真空銲接技術；頁面未界定此技術在台灣的獨占性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人官網首頁、產品技術頁及投資人關係頁面；現有官方資料未能確認市佔嚴格超過90%，缺少可驗證的期間、分母與計算依據。",
+    "關於唯一製造商、市佔率與銷售國家數的核心資料來自發行人官網自述，未找到獨立市場統計佐證。",
+    "市佔率的產品市場界定、分母、估算方法及有效期間均未揭露。",
+    "官網相關頁面未標示這些數據的發布日期或適用期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8996/756/hermes-attempt-1.stdout.txt"
+}

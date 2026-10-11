@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000448",
+  "claim_id": "2882:objective_ranking_or_market_share:cadef22332fa1adf",
+  "normalized_claim_hash": "cadef22332fa1adff4533ef9266ceeb33a5d277b0fbe961ed7827f14f27afc59",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7900bb3f651c8a9c",
+      "title": "2024年信用卡大戰》台灣人1年刷卡超過4兆元　中國信託奪「三冠王」國泰、富邦緊追在後",
+      "url": "https://www.cmmedia.com.tw/home/articles/51970",
+      "source_level": 2,
+      "publication_date": "2025-01-16",
+      "effective_period": "2024-12",
+      "locator": "Final paragraphs on Cathay United Bank's 2024 main card and CUBE circulating cards",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports CUBE's cumulative circulating cards exceeded 6 million by 2024 year-end; exact count not provided."
+    },
+    {
+      "source_id": "src-938d2be1775946ab",
+      "title": "BOSS魔王級擂台較勁　10張百萬信用卡爭霸主",
+      "url": "https://www.cardu.com.tw/news/detail.php?60947",
+      "source_level": 2,
+      "publication_date": "2026-01-15",
+      "effective_period": null,
+      "locator": "Article text stating CUBE exceeds 6 million and is the largest of the compared individual cards",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary source; count cutoff and detailed counting method are not stated."
+    },
+    {
+      "source_id": "src-3e486f665ea9abbb",
+      "title": "CUBE卡有陷阱？海外消費「3%回饋剩0.3%」　國泰世華銀回應了",
+      "url": "https://tw.stock.yahoo.com/news/cube%E5%8D%A1%E6%9C%89%E9%99%B7%E9%98%B1%EF%BC%9F%E6%B5%B7%E5%A4%96%E6%B6%88%E8%B2%BB%E3%80%8C3%E5%9B%9E%E9%A5%8B%E5%89%A903%E3%80%8D-%E5%9C%8B%E6%B3%B0%E4%B8%96%E8%8F%AF%E9%8A%80%E5%9B%9E%E6%87%89%E4%BA%86-105900372.html",
+      "source_level": 2,
+      "publication_date": "2024-03-22",
+      "effective_period": "As reported on 2024-03-22",
+      "locator": "Article text and image caption stating CUBE cumulative circulating cards exceeded 6 million",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the figure with an image attributed to Cathay United Bank. The article gives no exact count."
+    },
+    {
+      "source_id": "src-1443bca348c69827",
+      "title": "富豪財管一銀首登冠　AI理財國泰世華奪魁",
+      "url": "https://www.cardu.com.tw/news/detail.php?54702",
+      "source_level": 2,
+      "publication_date": "2024-11-27",
+      "effective_period": "2024-09 for robo-advisory AUM; 2024-10 for high-asset wealth-management AUM comparisons",
+      "locator": "Final paragraph on bank robo-advisory AUM and market shares",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Cathay United Bank's 20.83% share and first place among banks for robo-advisory AUM. This is not a market-share figure for overall wealth management; the denominator is the reported robo-advisory AUM market."
+    },
+    {
+      "source_id": "src-9e350edd12969eed",
+      "title": "台銀超車土銀 奪去年房貸王",
+      "url": "https://www.ctee.com.tw/news/20250219700098-439901",
+      "source_level": 2,
+      "publication_date": "2025-02-19",
+      "effective_period": "2024-12-31",
+      "locator": "2024 housing-loan ranking and comparison with 2023",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the top-ten bank ranking based on FSC statistics: Cathay United Bank was seventh at year-end 2024. It provides rank context, not Cathay's market-share percentage or a threshold for 'extremely high.'"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對發卡數、財富管理市佔及房貸排名的來源查核。卡數近600萬及單一卡別領先有次級報導支持；其餘未解原子欠缺明確期間、市場範圍、分母或量化門檻，故保留 UNKNOWN，停止進一步搜尋。",
+    "卡數及銀行排名資料主要由媒體根據金管會統計或銀行提供資訊報導；本次未取得可核對的金管會原始月表。",
+    "「發卡王」可能指全行排名，也可能指單一卡別排名；兩種口徑的結論不同。",
+    "財富管理資料涉及機器人理財這一特定子市場，不能替代整體財富管理市場份額。",
+    "房貸資料提供銀行排名，未提供可直接驗證「市佔率極高」的比例或定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2882/448/hermes-attempt-1.stdout.txt"
+}

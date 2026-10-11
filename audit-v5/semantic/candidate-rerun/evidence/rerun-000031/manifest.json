@@ -1,0 +1,38 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000031",
+  "claim_id": "1506:objective_ranking_or_market_share:b7bdbc426ed03c94",
+  "normalized_claim_hash": "b7bdbc426ed03c94e5fb7463646ab4545b8b8279e9dd8c5204b3db881eb8cc72",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "rightway-nasa-pistons",
+      "title": "NASA高性能鋁合金活塞－正道工業股份有限公司",
+      "url": "https://www.rightway.com.tw/index.php?id=389&index=1&lang=cht&option=module&task=pageinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "正道官方技術頁，截至2026-10-06可查；頁面未標明該技術及數據的起始日期。",
+      "locator": "頁面「NASA高性能鋁合金活塞」：第1段稱公司取得NASA授權、為全球唯一有量產實績的專業NASA活塞生產廠，並稱年產NASA鋁合金活塞逾20萬顆；第2段稱近期開發第一顆NASA鍛造鋁合金活塞。",
+      "source_sha256": "8cb9e69b6dee5f59d1d4b30b11adf24619e2abb19cb670fb28812b18726b4ea0",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1506/31/rightway-nasa-pistons.html",
+      "note": "發行人自述。頁面把年產量放在一般NASA鋁合金活塞描述，接著另述首顆鍛造版近期開發；沒有說鍛造版年產20萬顆或已量產。全球唯一排名亦未有獨立市場盤點。"
+    },
+    {
+      "source_id": "nasa-marshall-nasa398-commercialization",
+      "title": "Marshall Alloy and Its Inventors Inducted into Space Technology Hall of Fame — NASA",
+      "url": "https://www.nasa.gov/technology/marshall-alloy-and-its-inventors-inducted-into-space-technology-hall-of-fame/",
+      "source_level": 3,
+      "publication_date": "2018-06-18",
+      "effective_period": "NASA對NASA 398／MSFC-398歷史及商用授權背景的說明。",
+      "locator": "NASA稱NASA 398為Marshall開發的高強度鋁合金，為活塞高溫需求研發，並經NASA技術移轉尋找授權商業化；文中提及BRP/Evinrude應用。未提及正道工業。",
+      "source_sha256": "7f7856a7ac58c95e8b1ad2b6cf047af41b13e902ef933b96377bbff758de0f5f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1506/31/nasa-marshall-nasa398-commercialization.html",
+      "note": "NASA官方來源可支持NASA 398技術及其授權商業化背景，不能據此驗證正道取得授權、全球唯一地位或正道年產量。"
+    }
+  ],
+  "search_notes": [
+    "直接查核正道官方NASA活塞技術頁中「NASA授權」、「全球唯一」、「年產量」及「鍛造」的相鄰語句，確認不同描述的範圍。",
+    "比對NASA官方NASA 398技術移轉資料；該資料說明合金與授權商業化背景，但未提及正道。",
+    "將NASA鋁合金活塞整體產量與近期開發的鍛造版分開；不把公司自述的全球唯一當成獨立市場排名。"
+  ]
+}

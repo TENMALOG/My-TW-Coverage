@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000363",
+  "claim_id": "3033:objective_ranking_or_market_share:54d8ccbbd3d4f3e1",
+  "normalized_claim_hash": "54d8ccbbd3d4f3e157041a47be405d0e84ab112acb2709908ab21df476511881",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-058ada334ba3eab4adbd",
+      "title": "威健實業股份有限公司 — 產品保固與維修服務",
+      "url": "https://www.weikeng.com.tw/service.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「AMD處理器」及「AMD 工作站顯示卡」段落；工作站顯示卡段落稱本公司售出之 AMD 工作站顯示卡。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "威健官方服務頁直接支持其銷售 AMD 處理器及工作站顯示卡；未提供產品線收入或排名資料。"
+    },
+    {
+      "source_id": "src-c4a5fa9286258b9ecae6",
+      "title": "威健實業股份有限公司 114 年度年報",
+      "url": "https://www.weikeng.com.tw/files/AR/2025_annual_report.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-12",
+      "effective_period": "2025 年度（民國 114 年）",
+      "locator": "年報公司營運概述中列舉代理半導體零組件品牌的段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報列出 AMD 為威健代理品牌之一；沒有比較 AMD 與其他代理線的營收或規模。"
+    },
+    {
+      "source_id": "src-4a36c50f8a8342944510",
+      "title": "【研究報告】威健(3033)AMD亞太區最大通路商，成長配息兼具，存股新選擇！",
+      "url": "https://cmnews.com.tw/article/sharon-7c68bce1-d8c8-11ef-ab64-2fb21d9834b1",
+      "source_level": 2,
+      "publication_date": "2021-09-24",
+      "effective_period": "文中主要描述 2020 年營運及 2021 年展望",
+      "locator": "「2020 年雖受疫情干擾」及「大客戶 AMD」段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級研究報告稱 AMD 為威健最大客戶，並稱約占威健營收 20%；沒有證明 AMD CPU/GPU 是最大代理產品線，亦非當期官方排名。"
+    },
+    {
+      "source_id": "src-7fa20b215951fd0fe943",
+      "title": "威健實業股份有限公司 114 年度年報",
+      "url": "https://www.weikeng.com.tw/files/AR/2025_annual_report.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-12",
+      "effective_period": "2025 年度（民國 114 年）",
+      "locator": "年報公司營運概述中列舉代理半導體零組件品牌的段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出多個代理品牌但未披露品牌或產品線的營收占比、排名或比較分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索威健官方產品與服務頁、2025 年度年報及聚焦次級研究來源；未找到定義比較口徑、期間、範圍及分母的代理線排名披露，因此最大代理線原子維持 UNKNOWN。",
+    "威健官方頁面支持 AMD 產品銷售／服務，但沒有提供代理線間的比較數據。",
+    "次級來源所稱 AMD 為最大客戶及約占公司營收 20%，不等同於 AMD CPU/GPU 是最大代理線；其期間亦為 2020 至 2021 年相關描述。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3033/363/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "e85658c4fb02425bf96dcf9e78d1bd4f58f68528566c97f53fc614ad03524adf",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3033/363/isolated-prompt.txt",
+  "prompt_sha256": "a0963958090242a6743ec4fa3b5fd0a5d73a00802281f9311caad9d8705e9105",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000363/manifest.json",
+  "supersedes_manifest_sha256": "2e78284456ec0bbb2d1e8d15c65da6847a0fab32d9c72b0da6269864ad857037",
+  "corrected_at": "2026-10-08T09:58:06Z"
+}

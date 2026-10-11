@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000214",
+  "claim_id": "2614:objective_ranking_or_market_share:fc653f741714d04d",
+  "normalized_claim_hash": "fc653f741714d04d430c12da566b93243e6cf3828c5b4890761e51c4ddc3d4c3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-29be53de23b143fb",
+      "title": "Eastern Media International Corporation 2024 Annual Report",
+      "url": "https://eng.emic.com.tw/upload/2026_01_23_1721380.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-28",
+      "effective_period": "2024 versus 2023",
+      "locator": "Section 4.2, Media Business, printed page 7",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱ET New Media 2024年營收新台幣19.15億元，較2023年減少4.2%；這是事業總營收，不是數位廣告專項，故不構成對數位廣告趨勢的直接否定或證明。"
+    },
+    {
+      "source_id": "src-bb5120bb0bf459a5",
+      "title": "東森國際股份有限公司 2024 永續報告書",
+      "url": "https://csr.emic.com.tw/upload/2025_11_06_0948340.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024",
+      "locator": "Section 1.1, printed page 6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱ETtoday新聞雲在comScore的總流量、每人月訪次、每人月頁數三項數據均為全台第一；報告未在該處給出數值或完整比較母體。"
+    },
+    {
+      "source_id": "src-b5d0066ea515d487",
+      "title": "Eastern Media International Corporation Investor Conference (Symbol: 2614), December 31, 2024",
+      "url": "https://eng.emic.com.tw/upload/2025_02_05_1424230.pdf",
+      "source_level": 3,
+      "publication_date": "2024-12-31",
+      "effective_period": "簡報回顧公司沿革，標示EBC於2017年出售",
+      "locator": "Slide 3, EMI development course",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "區分2011年ETtoday新聞與社群媒體事業，以及2017年出售的EBC電視頻道；不能據此確認是否另有ETtoday衛星頻道。"
+    },
+    {
+      "source_id": "src-d2f5c3c78b7c55d3",
+      "title": "Most Visited News & Media Publishers Websites in Taiwan | Similarweb",
+      "url": "https://www.similarweb.com/zh-tw/top-websites/taiwan/news-and-media/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026-08",
+      "locator": "台灣新聞與媒體發行商網站排名及排名分析",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Similarweb列ettoday.net為第4名；這是特定月份、網站層級及其分類口徑，與公司宣稱的comScore流量口徑未必可直接比較。"
+    },
+    {
+      "source_id": "src-377385eb159ce0f0",
+      "title": "關於東森 | 東森電視",
+      "url": "https://www.ebc.net.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "關於東森，頻道介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "東森電視稱其經營8個衛星電視頻道；該頁介紹的是東森電視，不能證明頻道屬於東森國際或ETtoday新媒體事業。"
+    },
+    {
+      "source_id": "src-a05ff417bd31c00f",
+      "title": "東森深化OMO消費科技新經濟 東購獲利年增25%、東森新媒體近兩平",
+      "url": "https://finance.ettoday.net/news/2158183",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2021",
+      "locator": "「東森新媒體ETtoday線上數位廣告持續成長」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導對應2021年法說與營運資訊，稱線上數位廣告持續成長，但未列示該項收入金額、期間比較或分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視官方年報、永續報告書、法說簡報、Similarweb排名及相關公司報導。流量排名缺少可統一比較的口徑，衛星頻道歸屬未釐清，數位廣告專項缺少可核對的連續期間數據；在研究預算內停止，未解決部分維持UNKNOWN。",
+    "公司年報、永續報告書及法說簡報屬官方一手資料；排名宣稱仍是公司自行引用或呈列，且未完整披露比較母體與指標方法。",
+    "Similarweb提供的是特定月份、網站分類下的網站排名，不等同於品牌跨平台總流量，也不宜與未披露方法的公司排名宣稱直接互換。",
+    "ET New Media整體營收、合併線上線下廣告收入及數位廣告專項收入是不同分母；本次未將前兩者當作數位廣告收入趨勢的替代證據。",
+    "東森電視官方頻道資料描述該電視事業，但不能單獨證明其屬東森國際；東森國際法說簡報另記載EBC於2017年出售。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2614/214/hermes-attempt-1.stdout.txt"
+}

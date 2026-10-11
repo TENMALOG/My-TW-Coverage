@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001257",
+  "claim_id": "1464:material_named_relationship:d334c64365468203",
+  "normalized_claim_hash": "d334c64365468203ef81687f20b595c9c03769418fc84b87a473df01af17877c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1cdd81ad380e966d",
+      "title": "得力實業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c5cb26b8-a80d-4246-977a-e0a0e88eef1f",
+      "source_level": 2,
+      "publication_date": "2025-07-22 (page update date)",
+      "effective_period": "Customer-list period not separately specified; page also gives 2024 sales-geography context.",
+      "locator": "Section 三、1. 銷售狀況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Columbia among 得力's main customers."
+    },
+    {
+      "source_id": "src-64ca0ae939c8d54c",
+      "title": "得力訂單樂觀，明年營收有望雙位數成長 - First Commercial Bank / MoneyDJ",
+      "url": "https://wealth.firstbank.com.tw/investment-tips/trend-insight/news/news-detail?id=%7B35E3625D-BD45-49ED-9DFC-AB48CC176742%7D",
+      "source_level": 2,
+      "publication_date": "2024-12-13",
+      "effective_period": "Company investor conference reported on 2024-12-13.",
+      "locator": "Article dated 2024/12/13, paragraph listing five leading customers and revenue shares",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Uniqlo among the five leading customers and reports its revenue share at approximately 10–12%."
+    },
+    {
+      "source_id": "src-fa2abfc972b7713b",
+      "title": "〖紡織〗長纖布-明年有機會雙位數成長的產業! - UAnalyze",
+      "url": "https://uanalyze.com.tw/articles/525508355",
+      "source_level": 2,
+      "publication_date": "2024-11-29",
+      "effective_period": "Article's contemporary company/customer description in November 2024.",
+      "locator": "Paragraph beginning “而得力在長纖布占比約為”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Says 得力 also shipped to Columbia."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused re-verification found secondary evidence for every named relationship and specific 2024 revenue-share evidence for Under Armour; no unresolved atom remained. Candidate acceptance is subject to final adjudication.",
+    "No current official issuer disclosure naming these brands was located; support is from secondary sources.",
+    "The MoneyDJ profile gives a page update date but does not specify the effective period for each customer relationship.",
+    "The 2024 investor-conference article reports revenue percentages for UA, Uniqlo, and Adidas, but does not state customer-specific contract terms."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1464/1257/hermes-attempt-1.stdout.txt"
+}

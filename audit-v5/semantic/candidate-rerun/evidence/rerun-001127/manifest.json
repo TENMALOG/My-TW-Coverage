@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001127",
+  "claim_id": "6584:material_named_relationship:e6c7482a3be5e405",
+  "normalized_claim_hash": "e6c7482a3be5e40560ff7eda9aac0883ada0b2ce2f0ab4e98bc784b100117813",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5886160930677923",
+      "title": "南俊國際股份有限公司 2024 年永續報告書",
+      "url": "https://cn.repon.com.tw/_upload/files/20250826.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "第67頁，4.2.1「品牌發展與市場成果」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱2024年與Supermicro等合作並推動伺服器滑軌量產出貨；未揭露Supermicro供應商排名。"
+    },
+    {
+      "source_id": "src-bdd2b42fd4792791",
+      "title": "南俊國際 2025Q2 法說會簡報資料頁（簡報文字整理）",
+      "url": "https://finmoconf.diveinvest.net/presentation/687b8eb7a2ef6df04281fcd5",
+      "source_level": 2,
+      "publication_date": "2025-05-23",
+      "effective_period": "時間軸列示2019年首次進入美系CSP供應鏈；2025年列示越南廠量產",
+      "locator": "「歷史沿革與里程碑」表格，年份2019、2025",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第三方簡報資料庫的簡報文字整理，不是公司原始文件的可讀轉錄；頁面標題與正文有年份標示不一致，故僅作輔助證據。"
+    },
+    {
+      "source_id": "src-21970c8857121e46",
+      "title": "富果直送：南俊國際 20250820 法說會備忘錄",
+      "url": "https://blog.fugle.tw/post/earnings-call-6584-2025-08-20",
+      "source_level": 2,
+      "publication_date": "2025-08-21",
+      "effective_period": "合作起始年列為2002；客戶營收比重為2025上半年",
+      "locator": "第2節「客戶合作」及第3節「客戶結構」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手法說摘要稱與美超微合作始於2002年，並列出其2025上半年營收占比；未證實2025年成為第二供應商。"
+    },
+    {
+      "source_id": "src-4afb94a2be7b9603",
+      "title": "東森財經新聞／財訊快報：傳美超微奪xAI/甲骨文大單，南俊打入供鏈",
+      "url": "https://fnc.ebc.net.tw/fncnews/stock/199954",
+      "source_level": 2,
+      "publication_date": "2025-10-30",
+      "effective_period": "報導發布於2025年；提及特定伺服器產品線",
+      "locator": "報導首段及關於Supermicro 4U以下機種、AI伺服器滑軌的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱南俊為Supermicro AI伺服器滑軌獨供商，並描述其在特定機種的供貨情況；範圍有限，未提供Supermicro全部滑軌產品的供應商名單或排名，不能據此判定整體「第二供應商」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到公司官方2024年永續報告及可查的2025年法說資料與新聞報導。未找到官方資料明確確認2025年Supermicro滑軌供應商排名；二手資料對產品範圍的描述不足以解決該原子主張，故保留UNKNOWN。",
+    "官方永續報告屬公司自述，並未披露Supermicro滑軌供應商的完整名單、數量或排名。",
+    "法說會摘要與新聞報導為二手資料；其中「獨供」只涉及報導所述的特定產品範圍，不能推及所有滑軌。",
+    "第三方簡報資料頁的標題與正文年份標示不一致，時間軸資訊僅作輔助佐證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6584/1127/hermes-attempt-1.stdout.txt"
+}

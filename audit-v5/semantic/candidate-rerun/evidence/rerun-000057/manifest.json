@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000057",
+  "claim_id": "2245:objective_ranking_or_market_share:03b9308fa26ebeb9",
+  "normalized_claim_hash": "03b9308fa26ebeb920fceca851a9bdb02876421472163ecfd976e880c907e5cc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-086ee16c715abeab",
+      "title": "Annual Report 2025 — Standard Motor Products, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/93389/000009338926000041/a2025-standardmotorproduct.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-21",
+      "effective_period": "Year ended 2025-12-31",
+      "locator": "“About SMP” and “Our Four Operating Segments” sections",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer annual report filed with the SEC. It describes SMP as a leading global manufacturer and distributor of aftermarket replacement parts and identifies its aftermarket customers, but does not rank SMP as the largest distributor or provide a market-share comparison."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches for the exact Chinese wording and English equivalents, followed by review of official issuer and SEC disclosures, did not resolve the ranking. The essential market scope and comparison basis are unspecified, so the atom remains UNKNOWN.",
+    "The official issuer disclosure supports SMP’s aftermarket business description, not the comparative superlative.",
+    "No reliable source located in this review defines the claimed market, geography, time period, ranking measure, or denominator."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2245/57/hermes-attempt-1.stdout.txt"
+}

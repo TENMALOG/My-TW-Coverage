@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001028",
+  "claim_id": "3310:material_named_relationship:1c626cdf7c25b3bb",
+  "normalized_claim_hash": "1c626cdf7c25b3bb1a0e01432377dd9100d38811702f7ab46666a67eb0306687",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c97503d98daeab53",
+      "title": "佳穎(3310) 2025Q4法說會簡報PDF下載 | 11月21日法人說明會",
+      "url": "https://finmoconf.diveinvest.net/presentation/69206706bab52fb5c81d8665",
+      "source_level": 2,
+      "publication_date": "2025-11-21",
+      "effective_period": "As reported at the 2025-11-21 investor presentation",
+      "locator": "Sections II.1–II.2, automotive products and sensor applications",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary transcription lists automotive oxygen-sensor terminals and sensor applications."
+    },
+    {
+      "source_id": "src-f3260aaf2e7cc6e6",
+      "title": "車用電子 | 佳穎精密企業股份有限公司",
+      "url": "https://www.chialin.com.tw/article.php?id=114&lang=tw&tb=8",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product categories under 車用電子",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page lists terminals among automotive-electronics products."
+    },
+    {
+      "source_id": "src-5a3bba27cd6edacb",
+      "title": "關於佳穎 | 佳穎精密企業股份有限公司",
+      "url": "https://chialin.com.tw/article.php?lang=tw&tb=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview and business description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page describes its automotive-connector supply-chain focus."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research limit reached. Some atoms are supported, but the main-supply quantifier, injector product assertion, and ‘key components’ characterization remain unresolved.",
+    "The 2025 investor-presentation contents were available through a secondary transcription; the linked MOPS PDF could not be fetched directly during this review.",
+    "The 85% figure is the 2024 Electronic Business Unit product-mix share, not a verified share of consolidated company revenue.",
+    "The issuer’s website statements do not specify a reporting period or customer-level supply/revenue breakdown."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3310/1028/hermes-attempt-1.stdout.txt"
+}

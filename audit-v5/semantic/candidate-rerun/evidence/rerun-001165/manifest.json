@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001165",
+  "claim_id": "5534:profitability_assertion:10c8420d0242f966",
+  "normalized_claim_hash": "10c8420d0242f9660c84b419ae2b396166427daaebd0e2eac4a344dfd17c2c60",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3287e4e655396431",
+      "title": "長虹建設股份有限公司公開說明書（114年度現金增資發行新股暨國內第四次）",
+      "url": "https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4CT3AKGsKFQPWXrpPCAOrHNGVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司整體財務資料包括2023–2024年度",
+      "locator": "PDF第80頁， lines 4375–4386；PDF第30頁， lines 1661–1681",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財務績效表為公司整體營收、成本及毛利，產品分類頁列示產品但未按商辦／廠辦披露毛利率；不能據此確認特定產品的「高毛利」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司公開說明書並以聚焦查詢尋找「穩定現金流」及廠辦／商辦毛利相關佐證。剩餘主張缺少產品別現金流與毛利率證據，依證據範圍要求保留為UNKNOWN。",
+    "主要依據為公司公開說明書；其產品規劃可支持住宅與廠辦並行，但沒有明確採用「雙軌」一詞。",
+    "出租收入占公司整體營收比重不等於商辦／廠辦帶來的現金流，也不能單獨證明現金流穩定。",
+    "未找到按商辦／廠辦產品拆分的毛利率或可核實的「高毛利」比較基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5534/1165/hermes-attempt-1.stdout.txt"
+}

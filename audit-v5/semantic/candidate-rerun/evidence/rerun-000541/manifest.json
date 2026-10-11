@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000541",
+  "claim_id": "3030:objective_ranking_or_market_share:0bce561f06e3e4e6",
+  "normalized_claim_hash": "0bce561f06e3e4e6cc5dc0da6356fd7bd85418c7047526229cdf8d9a2e7789fb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a32f31a0f458f7f1",
+      "title": "德律科技公司介紹",
+      "url": "https://www.tri.com.tw/tw/about/about.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司概稱產品全球市佔率名列前茅；未明確指向 AOI 或提供排名細節，僅作一般性佐證。"
+    },
+    {
+      "source_id": "src-f9eb916574110e52",
+      "title": "德律AOI全球市占第一；積極擴大半導體檢測布局",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=eb5666be-82b2-427d-a93b-a497149c823d",
+      "source_level": 2,
+      "publication_date": "2026-05-27",
+      "effective_period": "報導當日董事長對全球 SMT AOI 市場排名的描述",
+      "locator": "報導首兩段：全球 SMT 市場約 20% 市佔、居全球第一",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手新聞轉述董事長說法；未提供市佔率計算方法或獨立市場資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司介紹及針對台灣 AOI 排名的檢索結果，並核對全球 SMT AOI 排名報導；台灣最大排名仍缺乏可比資料與明確市場分母，故保留 UNKNOWN。",
+    "全球 SMT AOI 排名及約 20% 市佔率來自二手新聞對董事長發言的轉述，未附獨立市場研究或計算方法。",
+    "公司網站的「產品在全球的市佔率已是名列前茅」未限定 AOI 產品、特定市場或期間。",
+    "未找到可據以比較台灣 AOI 廠商規模或市佔率的資料；此缺口不代表該排名為假。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3030/541/hermes-attempt-1.stdout.txt"
+}

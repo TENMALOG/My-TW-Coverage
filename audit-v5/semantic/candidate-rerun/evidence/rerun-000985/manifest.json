@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000985",
+  "claim_id": "5310:profitability_assertion:ccc836ffe3afcdca",
+  "normalized_claim_hash": "ccc836ffe3afcdcaf8d9512b97c20db01148bb74e17b5439aca1b14257c1d94f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-7e0fb741a541853d",
+      "title": "天剛資訊股份有限公司 114 年股東會年報",
+      "url": "https://www.cgs.com.tw/attach/114-meeting-year-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "年報 PDF；損益表及投資收益相關附註（內容未能讀取）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報連結已找到，但未能核對收益組成、金額及期間；不作為該主張的實證。"
+    },
+    {
+      "source_id": "src-0d10f613c2727ff3",
+      "title": "天剛資訊股份有限公司 113 年股東會年報",
+      "url": "https://www.cgs.com.tw/attach/113-meeting-year-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "年報 PDF；營業概況或經營方針（內容未能讀取）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報連結已找到，但無法核對相關原文、具體業務範圍或期間；不作為該主張的實證。"
+    },
+    {
+      "source_id": "src-90deb510150fc0fc",
+      "title": "天剛資訊股份有限公司 112 年股東會年報",
+      "url": "https://www.cgs.com.tw/attach/112-meeting-year-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "年報 PDF；營業概況或經營方針（內容未能讀取）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報連結已找到，但無法核對相關原文、具體業務範圍或期間；不作為該主張的實證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用完本次研究額度；官方 PDF 擷取因工具後端限制失敗。依證據不足原則，未以搜尋摘要或鄰近年度資料替代，未解決的原子主張均標為 UNKNOWN。",
+    "已找到天剛官方年報 PDF 連結，但本次內容擷取工具無法讀取網址內容。",
+    "搜尋結果摘要僅作為查找線索，未用來判定主張成立。",
+    "缺少可核對的年度營收、投資收益占比及公司多角化策略原文；不得據此推定主張為真或為假。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5310/985/hermes-attempt-1.stdout.txt"
+}

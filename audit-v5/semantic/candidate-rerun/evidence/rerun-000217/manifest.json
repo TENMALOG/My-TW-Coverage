@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000217",
+  "claim_id": "5288:objective_ranking_or_market_share:26d23c8673c73aeb",
+  "normalized_claim_hash": "26d23c8673c73aeb22bcbc019b9a898dae7ab8e396c58a80ffb2fe3695992598",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-cb478608f059bc7a",
+      "title": "About - Eurocharm Group",
+      "url": "https://www.eurocharm.com.tw/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer identifies Polaris among the companies it principally supplies."
+    },
+    {
+      "source_id": "src-754deaa2fb997dfe",
+      "title": "豐祥控股股份有限公司 (5288) investor presentation, June 25, 2025",
+      "url": "https://www.eurocharm.com.tw/wp-content/uploads/2025/06/%E8%B1%90%E7%A5%A5%E7%B0%A1%E5%A0%B1-_%E6%B3%95%E8%AA%AA%E6%9C%83_20250625_%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2025-06-25",
+      "effective_period": "FY2024",
+      "locator": "Slide 25, 客戶結構 table, 客戶別 row 2, 2024 column",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Polaris is listed at 18.17% of sales."
+    },
+    {
+      "source_id": "src-51c7d2771ff1037f",
+      "title": "豐祥控股股份有限公司 investor presentation, December 20, 2018",
+      "url": "https://www.eurocharm.com.tw/wp-content/uploads/2018/12/%e8%b1%90%e7%a5%a5%e7%b0%a1%e5%a0%b1-_%e6%b3%95%e8%aa%aa%e6%9c%83_20181220_%e4%b8%ad%e6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2018-12-20",
+      "effective_period": "2018 Q3",
+      "locator": "Slide 24, 客戶結構 table, 客戶別 row 2, 2018.Q3 column",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer table lists Yamaha at 5% of customer sales."
+    },
+    {
+      "source_id": "src-01c15f0fe94187fe",
+      "title": "豐祥-KY今年營收拚持平，規劃赴美設廠",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=511196b3-0448-45d2-9693-033dd326cbc6",
+      "source_level": 2,
+      "publication_date": "2023-06-27",
+      "effective_period": "Relationship reported June 2023; proposed plant timing described as 2–3 years later",
+      "locator": "Article paragraphs on North American customers and the proposed U.S. assembly plant",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ reports Harley-Davidson requested a U.S. assembly facility; this is attributed secondary evidence."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused searches of issuer materials and secondary reporting; the available tool-call limit was reached. Unspecified-period or current-status interpretation of the complete roster remains unresolved.",
+    "The original wording provides no reference period for the customer list. Supporting evidence spans different periods, so it cannot establish that every named company was a customer at the same time.",
+    "Honda’s largest-customer status is supported for FY2024 specifically; it should not be generalized to every period.",
+    "The Yamaha evidence is historical (2018 Q3). The Harley-Davidson evidence is secondary reporting from 2023 and does not confirm current status.",
+    "Customer sales percentages are issuer sales mix, not market share in any end market."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5288/217/hermes-attempt-1.stdout.txt"
+}

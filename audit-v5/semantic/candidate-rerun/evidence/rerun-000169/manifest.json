@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000169",
+  "claim_id": "2301:objective_ranking_or_market_share:253cd0fbdf268d3a",
+  "normalized_claim_hash": "253cd0fbdf268d3a048697056d81748f02d13c204eb8cf6c139c57bc2154886b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-210a378783b4a362",
+      "title": "【光寶科法說會重點內容備忘錄】未來展望趨勢 20251029",
+      "url": "https://blog.fugle.tw/post/earnings-call-2301-2025-10-29",
+      "source_level": 2,
+      "publication_date": "2025-10-30",
+      "effective_period": "2025-10-29 法說會",
+      "locator": "「非 AI 業務發展」段落之「低軌衛星」項及 Q14",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要使用「市佔率接近六成」，並稱持續朝七成邁進；未揭露分母、統計期間或市場研究來源，且不等同於逾六成的明確證據。摘要為 AI 生成的二手資料。"
+    },
+    {
+      "source_id": "src-4d137e8db6958874",
+      "title": "光寶科技十一月份全球合併營收NT$ 142億元 年增14%",
+      "url": "https://www.liteon.com/zh-tw/news/press-center/content/liteon-monthly-sales-nov-2025",
+      "source_level": 3,
+      "publication_date": "2025-12-10",
+      "effective_period": "2025年11月",
+      "locator": "資訊及消費性電子部門業績說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料提及低軌衛星產品出貨穩定成長，但未披露全球排名或市佔率；僅能確認相關產品出貨。"
+    },
+    {
+      "source_id": "src-c84cd84b9dde1cb4",
+      "title": "《DJ在線》低軌衛星商轉加速 台系電源廠動能看升",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=6c638be3-7092-4f97-863d-432737850e2c",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "光寶科低軌衛星電源供應情況段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導的是美系第一大品牌客戶的地面電源市佔接近七成、預估未來約六成，以及第二大品牌客戶供應情況；這是特定客戶分母，並非全球低軌衛星電源整體市場市佔率。未能核實其發布日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達使用者設定的最多 8 個 focused research turns；全球排名與整體市佔率逾六成仍未取得範圍、分母及期間均可核實的證據。",
+    "富果法說摘要明示使用 AI 技術整理官方影音，屬二手來源；其「接近六成」不等同於「逾六成」。",
+    "市佔率報導可能指地面終端電源或特定品牌客戶供貨占比，未找到與全球整體低軌衛星電源市場相匹配的分母、產品定義及統計期間。",
+    "未把官方資料中的出貨成長、單一客戶供貨情況或市場目標替代成全球排名或整體市佔率證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2301/169/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000887",
+  "claim_id": "2248:material_named_relationship:13d404696b3234ea",
+  "normalized_claim_hash": "13d404696b3234ea5e6a0d96918d30a56941fe10c51790c4ed207e8b7a2250ac",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e2846326c617f466",
+      "title": "華勝汽車電子股份有限公司（股票代號2248）公司簡報",
+      "url": "https://hs-elan.tw/en/bocupload/2025/11/14/176309825720187pp55.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報包含截至 2025-09-30 的公司資訊及 2025 年產品系列資訊",
+      "locator": "公司簡介及「主要產品組合」段落；搜尋摘錄列有內外飾點光源產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未明確把內外飾電子件與 Tier 1 資格相連。"
+    },
+    {
+      "source_id": "src-10a5f8f9d87fce7e",
+      "title": "新上市公司：華勝-KY(2248)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d69517ec0c019568fd90b2017e",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "文章所述現況",
+      "locator": "第 11 行：列明公司與全球通用等傳統車廠合作多年",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方交易所文章支持與 GM 長期合作，但不獨立證實 2007 年起始年份。"
+    },
+    {
+      "source_id": "src-0962b7935f6bd9bb",
+      "title": "《華勝-KY專訪2》不只賣產品，而是讓車子更好賣",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ecdd8b58-96ba-43ef-89f5-ddf73564e727",
+      "source_level": 2,
+      "publication_date": "2025-02-19",
+      "effective_period": "報導追述自 2007 年開始的供應關係",
+      "locator": "文章首段，引用董事長稱「2007年就成為全球通用汽車配套供應商」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手媒體報導，所引述者為公司董事長；未附 GM 文件。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人簡報、臺灣證券交易所公司介紹及媒體訪談。現有資料足以支持氛圍燈的公司自述 Tier 1 定位，以及被董事長追述的 GM 供應關係起始年份；但未找到能把 Tier 1 資格明確對應至閱讀燈及內外飾電子件的來源，因此這兩項保留 UNKNOWN。",
+    "Tier 1 定位及產品資訊主要來自發行人簡報，屬公司自述，並非車廠或獨立機構對供應商層級的確認。",
+    "2007 年 GM 關係的具體年份來自二手報導對董事長的引述；未找到 GM 原始供應商紀錄。",
+    "2007 年的供應商關係指向公司營運集團；現有來源未釐清當時的具體法律實體。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2248/887/hermes-attempt-1.stdout.txt"
+}

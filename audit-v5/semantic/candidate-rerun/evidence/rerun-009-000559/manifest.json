@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000559",
+  "claim_id": "3189:objective_ranking_or_market_share:d30c008603686d3a",
+  "normalized_claim_hash": "d30c008603686d3a02c99b6017b03aa52f7aee7c4bf71d608bafd14677aeb3d9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6306820e98cbde8aff5a",
+      "title": "景碩科技—主要股東",
+      "url": "https://www.kinsus.com.tw/zh-tw/html/major_shareholders/index",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Shareholding basis date: 2026-03-29",
+      "locator": "Major-shareholders table; first three entries and their related-party/relationship notes",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company disclosure gives the three shareholding percentages and states that the three investment companies are each 100% held by Pegatron."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer's official major-shareholders disclosure provides the ownership links, rankings, percentages, and basis date needed to assess the claim.",
+    "The issuer identifies the three investment companies—not Pegatron itself—as the direct shareholders.",
+    "The evidence establishes this ranking as of the disclosed basis date; it does not establish the ranking for other periods."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3189/559/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ddac3575dd106256fe934175b176f10287fc842fbc4a59ee60576456c979598b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3189/559/isolated-prompt.txt",
+  "prompt_sha256": "2a1252f7ce865510329e872e4cd34a86d2fd1bf72750a4da669c5f42eafdea8e",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000559/manifest.json",
+  "supersedes_manifest_sha256": "d550eac1933988ee22e7930833f1e61da1affb59b21bfbf55db4a737769f8963",
+  "corrected_at": "2026-10-08T09:58:23Z"
+}

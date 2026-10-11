@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000281",
+  "claim_id": "3217:objective_ranking_or_market_share:2f5f1672a80405d9",
+  "normalized_claim_hash": "2f5f1672a80405d95f092e94947653b1a97c3b73e54d7bc9fb7be44285f30377",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-13cba77e11e3807b7d33",
+      "title": "Two Reasons to Use Argosy’s DDR5 SO-DIMM Connectors",
+      "url": "https://argosytw.com/en/news/reasons_why_use_argosy_ddr5_connectors",
+      "source_level": 3,
+      "publication_date": "2021-06-16",
+      "effective_period": "2020",
+      "locator": "“Experienced & Mass Production”段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其DDR3/4 SO-DIMM連接器2020年出貨超過1億顆，全球筆電市佔率超過50%；屬公司自述的歷史數據。"
+    },
+    {
+      "source_id": "src-5208b170b640422c92db",
+      "title": "Milestones - Argosy Research Inc.",
+      "url": "https://argosytw.com/en/about-us/milestones",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020；2021至2024",
+      "locator": "2020及2025里程碑項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面稱2020年DDR SO-DIMM與M.2合計全球筆電市佔率超過50%；另稱2021至2024年兩類產品合計在全球電腦市場市佔率超過45%。均未單獨證明未注明期間的SO-DIMM市佔率超過50%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次最多8個聚焦研究回合；現有官方資料只支持2020年的歷史數據，未能確認原文未注明期間的主張。",
+    "市佔率數據為公司自述；查得資料未交代獨立驗證情況、計算方法或具體市場分母。",
+    "2020年的DDR3/4 SO-DIMM數據不能證明原文未注明期間的現況。",
+    "2021至2024年的公司里程碑數據涵蓋DDR SO-DIMM與M.2合計，且使用全球電腦市場口徑，不等同於單獨SO-DIMM的筆電市佔率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3217/281/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "573a4fc902c1ae94a2258ccfebd65c68e7696715a17eca1b39b31724d0db1a69",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3217/281/isolated-prompt.txt",
+  "prompt_sha256": "94e7b343e1884df678bc38ac39c80ca8a7461dd25cea1ef4b79ebaabe06372b4",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000281/manifest.json",
+  "supersedes_manifest_sha256": "b10e7db55784f984c729d789cbe083699d89a558f2ad32193e92fb9a7ecf0f91",
+  "corrected_at": "2026-10-08T09:57:59Z"
+}

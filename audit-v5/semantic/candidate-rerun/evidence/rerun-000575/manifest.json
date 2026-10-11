@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000575",
+  "claim_id": "6830:objective_ranking_or_market_share:f1578b23f3b713fe",
+  "normalized_claim_hash": "f1578b23f3b713fe1970636b045393f4c1c36103a2094aad12a90bf6ad43002e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e4bd7e5d46ef03e3",
+      "title": "汎銓8月下旬轉上市，下半年動能看升溫",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=38214530-e04b-4ae3-bef6-2742e7972a70",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022 年報導所述期間",
+      "locator": "報導中引述董事長柳紀綸：「公司在台灣MA市佔率超過50%；若再細分為先進製程，公司在5nm製程節點以下，市佔率更高」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "引述內容支持台灣 MA 市佔率及 5nm 以下相對較高的說法，沒有提供全球先進製程 MA 市佔率。"
+    },
+    {
+      "source_id": "src-4eb50b5572e0cf64",
+      "title": "台積電概念股添新兵 汎銓在半導體材料分析領域拿下過半市占率",
+      "url": "https://www.cmmedia.com.tw/home/articles/35243",
+      "source_level": 2,
+      "publication_date": "2022-07-27",
+      "effective_period": "2022 年報導所述期間",
+      "locator": "導言稱汎銓拿下過半市占率，並稱其為台灣半導體材料分析業界的隱形冠軍",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導及訪談描述；未交代市佔率分母或估算方法。"
+    },
+    {
+      "source_id": "src-ef78f8baf55a1237",
+      "title": "先進製程不可或缺的材料分析 —— 汎銓科技（6830）",
+      "url": "https://statementdog.com/blog/archives/12804",
+      "source_level": 2,
+      "publication_date": "2022-08-04",
+      "effective_period": "2022 年報導所述期間",
+      "locator": "「汎銓為 MA 領導者，先進製程市占率超過 5 成」及「汎銓在先進製程 MA 市占率超過 50％」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手產業分析；該處未界定此先進製程市佔率的地域、分母或測量方法，不能據此確認全球市佔率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到與主張最接近的 2022 年公司說法及二手報導，但全球市佔率的市場範圍、分母與方法仍未有可靠證據；停止以避免將台灣或地域未明的數字推作全球數字。",
+    "找到的市佔率數字來自二手報導對公司說法的轉述或二手產業分析，未找到具明確全球口徑、分母及計算方法的官方或監管披露。",
+    "2022 年資料只能支持該時期的相關表述，不能據此確認目前的市場地位。",
+    "台灣 MA 市場、未界定地域的先進製程 MA 市場，以及全球先進製程 MA 市場是不同範圍，不互相替代。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6830/575/hermes-attempt-1.stdout.txt"
+}

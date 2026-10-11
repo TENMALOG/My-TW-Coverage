@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000611",
+  "claim_id": "3711:objective_ranking_or_market_share:c038454aa18420d4",
+  "normalized_claim_hash": "c038454aa18420d4aa618db2fd6c206113ea548ae0302b58f34fc1f846d1a756",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4de5e9ef80c5212d9404",
+      "title": "Top 10 OSAT Companies of 2024 Revealed—China Players See Double-Digit Growth, Reshaping the Global Market Landscape, Says TrendForce",
+      "url": "https://trendforce.com/presscenter/news/20250513-12577.html",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024",
+      "locator": "Article text: “ASE led the ranking with revenue of $18.54B”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TrendForce identifies this as the 2024 ranking of the global top 10 OSAT companies."
+    },
+    {
+      "source_id": "src-0d7bdde70a447b6c23f7",
+      "title": "Top 10 OSAT Companies of 2024 Revealed—China Players See Double-Digit Growth, Reshaping the Global Market Landscape, Says TrendForce",
+      "url": "https://trendforce.com/presscenter/news/20250513-12577.html",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024",
+      "locator": "Article text: combined revenue of the world's top 10 OSAT companies; ASE held nearly a 45% share among the top ten",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The disclosed share denominator is the top ten's combined revenue, not a defined total global OSAT market."
+    },
+    {
+      "source_id": "src-e67ee90e3988806fd5ce",
+      "title": "全球封測前10大！日月光穩居霸主 陸廠來勢洶洶",
+      "url": "https://www.chinatimes.com/realtimenews/20250513003532-260410",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024",
+      "locator": "Article text: “日月光市占率仍是全球首位”; following paragraph describes ASE's nearly 45% share of the top ten",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting attributes the ranking to TrendForce, but the cited share figure is explicitly relative to the top ten rather than a stated total-market denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research exhausted for this re-verification. Available evidence supports ASE's first-place 2024 revenue ranking, but does not resolve the original market-share denominator or its unspecified period.",
+    "The claim gives no reference period; the directly verified ranking is for 2024.",
+    "The reported nearly 45% share uses the top ten OSAT companies' combined revenue as its denominator. It does not by itself establish a share of a separately defined total global OSAT market."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3711/611/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "bdd37a354a96a2dc58fd12d726617e742ea1077825581dcec6abbfcfe4ca08dc",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3711/611/isolated-prompt.txt",
+  "prompt_sha256": "2fbc865f2c6ac23941a1c7adc31841a9b6eecae3f268a582900964f71f2dd912",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000611/manifest.json",
+  "supersedes_manifest_sha256": "c036388d14aba6ab37f04d3ead8a84a47ad040f5fddb831fc3924bc9782a36de",
+  "corrected_at": "2026-10-08T09:58:27Z"
+}

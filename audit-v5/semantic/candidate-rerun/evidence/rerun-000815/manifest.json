@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000815",
+  "claim_id": "5011:objective_ranking_or_market_share:858cd671ae58c706",
+  "normalized_claim_hash": "858cd671ae58c7062a47f9a7a1cded9882dc330da680a6d912f03f382372c8e2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-280179ee7e1fb65b",
+      "title": "久陽精密114年度年報",
+      "url": "https://www.ofco.com.tw/sites/default/files/pdf/114%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-04",
+      "effective_period": "114年度（2025年）",
+      "locator": "第91頁，主要商品銷售地區表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "德國銷售額占合併銷售總額6.74%；這是不同於出口國分布的分母，不能用來推定原句36%的口徑。"
+    },
+    {
+      "source_id": "src-2763f1edc25465e8",
+      "title": "2026年第一季營運暨財務報告",
+      "url": "https://www.ofco.com.tw/sites/default/files/pdf/2026Q1%E4%B9%85%E9%99%BD%E6%B3%95%E8%AA%AA%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-26",
+      "effective_period": "2025年及2026年第一季出口國分布",
+      "locator": "第12頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "德國在圖表中分別占2025年出口國分布33%、2026年第一季35%；未支持36%。"
+    },
+    {
+      "source_id": "src-0bafc2c4031e9a73",
+      "title": "公司簡介｜OFCO 久陽精密",
+      "url": "https://www.ofco.com.tw/?q=about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "歷史沿革",
+      "locator": "第44–48、79–83行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載2011年取得ISO 14001，以及1995年取得ISO-9001/CNS 12681認可。"
+    },
+    {
+      "source_id": "src-e0c1294848276dae",
+      "title": "OFCO 久陽精密官方網站",
+      "url": "https://www.ofco.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網站現行公司介紹，未標明資料截至日",
+      "locator": "首頁ABOUT介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述主力產品100%台灣製造。"
+    },
+    {
+      "source_id": "src-2aefb452a028274e",
+      "title": "產品介紹｜OFCO 久陽精密",
+      "url": "https://www.ofco.com.tw/?q=allproducts",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "產品頁現行內容，未標明資料截至日",
+      "locator": "第6–24行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有外六角螺栓及內六角孔螺栓產品；產品列表本身不證明目前由久陽自行製造。"
+    },
+    {
+      "source_id": "src-055ee2229e09e183",
+      "title": "專業認證｜OFCO 久陽精密",
+      "url": "https://www.ofco.com.tw/?q=certificate",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面所列ISO 14001:2015證書：2022-12-19至2025-12-18",
+      "locator": "第49行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱通過ISO 9001及ISO 14001；頁面所列ISO 14001證書效期已屆滿。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方網站、2025年度年報及2026年第一季法說資料。未找到可確定「雙主軸」具體所指，亦無法用明確期間及分母核實德國占36%；依合同保留為UNKNOWN。",
+    "2025年度年報的德國6.74%是占合併銷售額；法說簡報的德國33%及35%是出口國分布。兩種分母不可互換。",
+    "官方網站部分介紹未標資料截至日期；其現行宣稱須與年報披露的停產及採購成品安排一併閱讀。",
+    "找到的官方ISO 14001證書效期已屆滿；本次證據只支持曾取得認證，不支持目前證書仍有效。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5011/815/hermes-attempt-1.stdout.txt"
+}

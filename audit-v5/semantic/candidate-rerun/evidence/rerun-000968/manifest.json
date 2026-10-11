@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000968",
+  "claim_id": "3535:material_named_relationship:5e9de20c95bfbdc1",
+  "normalized_claim_hash": "5e9de20c95bfbdc1b01acfcb43c09f5b1f778dee26a54e6fa0e6200fcf187cb7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4be9cba496ece911",
+      "title": "晶彩科技 2025 年第 1 次法人說明會",
+      "url": "https://s3.ap-northeast-1.wasabisys.com/cdn.favite.com/2025/07/2025%E5%B9%B4H1%E6%99%B6%E5%BD%A9%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E4%B8%AD%E6%96%87%E7%89%88_V1.0-%E4%B8%8A%E5%82%B3%E6%AA%94.pdf",
+      "source_level": 3,
+      "publication_date": "2025-07-25",
+      "effective_period": "2025 年上半年營運簡報",
+      "locator": "第 10–11 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 FOWLP/FOPLP 2.5D/3D Die Location Metrology、FOPLP RDL AOI 等產品與用途。"
+    },
+    {
+      "source_id": "src-7a2d233eecd30bc6",
+      "title": "晶彩科技 2025 年年報（民國 114 年度）",
+      "url": "https://s3.ap-northeast-1.wasabisys.com/cdn.favite.com/2026/05/114%E5%B9%B4%E5%A0%B1_%E4%B8%AD%E6%96%87%E7%89%88_final_%E4%B8%8A%E5%82%B3.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 年度；部分資料截至 2026-03-31",
+      "locator": "第 58 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司概述先進封裝與高階 IC 載板供應鏈布局，未點名台積電或 CoWoS-L。"
+    },
+    {
+      "source_id": "src-3cfc6066c1b717a8",
+      "title": "晶彩科打入台積供應鏈",
+      "url": "https://money.udn.com/money/amp/story/5710/9302376",
+      "source_level": 2,
+      "publication_date": "2026-02-02",
+      "effective_period": "報導所述 CoWoS-L Gen2 供應鏈情況；實際期間未明",
+      "locator": "第 42–46、51 段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱成功進入並轉述驗證消息，但公司不評論單一客戶出貨；未獲官方確認。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對晶彩科官方 2025 年法人說明會與 2025 年年報，並對照 2026-02-02 經濟日報報導。官方資料確認 AI AOI／先進封裝布局，但未確認紅外線穿透技術獨占或台積電 CoWoS-L 關係；超出一般布局的原子仍缺乏官方或可界定範圍的獨立證據。",
+    "台積電 CoWoS-L 供應鏈與獨占性主要見於二手新聞報導及業界轉述，未見晶彩科或台積電的具體官方確認。",
+    "「獨占性」缺乏明確市場、競爭者、製程站點範圍與期間；不能由特定站點的報導推廣至 AI AOI 與紅外線技術整體。",
+    "公司年報提到一般先進封裝供應鏈布局，不等同於台積電特定客戶關係或 CoWoS-L 特定製程導入。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3535/968/hermes-attempt-1.stdout.txt"
+}

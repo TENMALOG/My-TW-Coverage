@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000223",
+  "claim_id": "5225:objective_ranking_or_market_share:017ed3b68dac411f",
+  "normalized_claim_hash": "017ed3b68dac411f389f6a7e2c1503f37ba7406868fab446079ffe4218da6aff",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a7e9ecc82f9fe952",
+      "title": "東科法說會／最壞情況已過 第3季起營運回溫",
+      "url": "https://udn.com/news/story/7252/9682443",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article text: paragraph beginning「據悉，東科聲霸（Soundbar）產品的前三大客戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Samsung, LG, and Sony as the top three Soundbar customers; report period is not specified in the retrieved text."
+    },
+    {
+      "source_id": "src-c2fc1841aa096504",
+      "title": "《川普再起》東科-KY越南廠可再承擔逾7成產能",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0468f4ef-9931-447b-aa0e-67e61332ddaf",
+      "source_level": 2,
+      "publication_date": "2024-11-11",
+      "effective_period": "As described at the 2024-11-11 investor conference",
+      "locator": "Article text: paragraph beginning「對於川普2.0再臨及貿易戰再起」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Management is reported as referring to a「韓系最大客戶」without naming that customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次最多8輪聚焦檢索；最大客戶身份與排名範圍仍無法確認。",
+    "Retrieved evidence naming Samsung and LG is secondary reporting and specifically concerns Soundbar customers, not necessarily the issuer’s total customer base.",
+    "The report that identifies an unnamed largest Korean customer does not name Samsung; no reliable evidence found here binds that ranking to Samsung or establishes its denominator and period."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5225/223/hermes-attempt-1.stdout.txt"
+}

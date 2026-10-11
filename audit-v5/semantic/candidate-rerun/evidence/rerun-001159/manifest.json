@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001159",
+  "claim_id": "5292:material_named_relationship:2c2209bac7363a05",
+  "normalized_claim_hash": "2c2209bac7363a0560670db71838d287c3bee1954f8f5a539faf1297c043cb4e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c38802c187005be6",
+      "title": "華懋科技股份有限公司上市前業績發表會簡報",
+      "url": "https://www.dtech.com.tw/storage/files/%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83/%E6%A5%AD%E7%B8%BE%E7%99%BC%E8%A1%A8%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第5頁，公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人稱華懋正式成為台積電VOCs防治污染設備供應商；未說明目前是否仍為客戶或其客戶重要性。"
+    },
+    {
+      "source_id": "src-3d090109fa237fc0",
+      "title": "華懋 揮發氣體設備第一把交椅，沒有它的設備，半導體廠都要停工",
+      "url": "https://www.investor.com.tw/onlineNews/FreeColArticle.asp?articleNo=7259",
+      "source_level": 2,
+      "publication_date": "2023-10-06（刊期區間至2023-10-12）",
+      "effective_period": null,
+      "locator": "文章正文稱聯電等龍頭大廠為華懋客戶",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體具名報導客戶關係；非發行人或監管機關直接披露。"
+    },
+    {
+      "source_id": "src-50e9f80b621260a8",
+      "title": "華懋～小兵立大功的冷門股",
+      "url": "https://vocus.cc/article/69681136fd897800019f2a1e",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章關於客戶分佈的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "自媒體文章提及Micron，但未提供可核查的一手披露或具體佐證；僅作搜尋線索，不足以支持該原子主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人簡報並以多組具名客戶查詢尋找Micron及客戶排名佐證；所得Micron線索僅為未充分佐證的自媒體內容，未能消除客戶期間、主要客戶定義及營收分母等缺口，故保留UNKNOWN並停止。",
+    "發行人簡報支持半導體業務與台積電供應關係，但未披露台積電客戶排名、營收占比或該關係的最新狀態。",
+    "聯電具名客戶關係依據為2023年媒體報導，並非發行人或監管文件直接確認。",
+    "Micron僅見自媒體提及，沒有足夠可核查佐證；不據此作肯定判斷。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5292/1159/hermes-attempt-1.stdout.txt"
+}

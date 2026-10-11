@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000089",
+  "claim_id": "5880:objective_ranking_or_market_share:0f3b5a58ad55e774",
+  "normalized_claim_hash": "0f3b5a58ad55e774c205a6bcfa4123699ddf72af62e6539b482c4f5e1ed7c715",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-79b64ee820cec16ea43e",
+      "title": "合庫金控獲利穩定成長 永續發展備受國際肯定",
+      "url": "https://www.tcfhc.com.tw/news/message/news/2025/006-1140326",
+      "source_level": 3,
+      "publication_date": "2025-03-26",
+      "effective_period": "As of 2024-12-31 (ROC year 113)",
+      "locator": "「在業務推展方面」 paragraph: 合庫銀行截至113年底中小企業放款餘額名列全體銀行第2名。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official holding-company disclosure; reports a rank by outstanding balance, not a market-share percentage or its denominator."
+    },
+    {
+      "source_id": "src-c452bc75c469544fcd42",
+      "title": "歷史新高！第一銀行中小企業放款餘額突破兆元 穩居市場龍頭",
+      "url": "https://www.firstbank.com.tw/sites/fcb/touch/zh_TW/1565710474939",
+      "source_level": 3,
+      "publication_date": "2026-01-07",
+      "effective_period": "2025-12-31; states domestic SME loan market-share leadership for 16 consecutive years",
+      "locator": "Opening paragraph: 2025 year-end SME loan balance and domestic SME loan market-share leadership for 16 consecutive years.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official competitor disclosure supporting 第一銀行's reported market leadership; it does not independently state 合作金庫銀行's rank."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused checks of official issuer disclosures. Dated evidence places 合庫銀行 second by SME loan outstanding at 2024 year-end and reports 第一銀行 as the domestic SME lending market-share leader through 2025 year-end. The claim's missing period remains unresolved; assigning one would require guessing.",
+    "The original claim has no as-of date, preventing a period-specific verdict.",
+    "The claim does not specify whether market share uses all domestic banks' SME loan outstanding as its denominator; the 2024 合庫金控 disclosure gives a rank by balance, not a percentage.",
+    "第一銀行's market-leadership statement is self-reported and supports its own position, rather than directly enumerating all banks' rankings."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5880/89/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-001",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "96134cc83d1fc2e5e4c2da5c8f3170bf340dd830b554e27b036a8c03a6bef505",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5880/89/isolated-prompt.txt",
+  "prompt_sha256": "86bf9d0889a1ac31a607ded1d052b425edfff56b95fb408206d6764e5d7ca03a",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000089/manifest.json",
+  "supersedes_manifest_sha256": "7b592f64951c0ced446201ba57180941744147ed239607d1f03a9ac89b3bf0ce",
+  "corrected_at": "2026-10-08T09:57:46Z"
+}

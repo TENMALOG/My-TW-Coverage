@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000764",
+  "claim_id": "3130:objective_ranking_or_market_share:566bc6a4f3ac3901",
+  "normalized_claim_hash": "566bc6a4f3ac390198819c6b111c75323bf21617b7cbf22d6fa7266054844a41",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c1c06d9305d3bd6f",
+      "title": "公司概況－104資訊科技股份有限公司",
+      "url": "https://corp.104.com.tw/zh/about104",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網頁未標示發布日期",
+      "locator": "公司基本資料 > 主要業務",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人列明主要業務包括線上人力招募。"
+    },
+    {
+      "source_id": "src-4dd143f85f203fd4",
+      "title": "NEWS RELEASE：104 AI工具再升級！用戶使用率突破86.8%",
+      "url": "https://corp.104.com.tw/archive/storage/news/filename_1544.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-05",
+      "effective_period": "新聞稿發布日；未提供排名統計期間",
+      "locator": "第3頁「關於104資訊科技集團」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人自述104為台灣流量最多的人力資源服務網站，但未列比較對象、測量期間或流量分母；不能單獨驗證未限定指標的「最大」。"
+    },
+    {
+      "source_id": "src-f097fa08a283e1fb",
+      "title": "在台灣造訪量最大的工作和就業網站",
+      "url": "https://www.similarweb.com/zh-tw/top-websites/taiwan/jobs-and-career/jobs-and-employment/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026年9月；台灣「工作和就業」網站造訪量排名",
+      "locator": "2026年9月台灣熱門工作和就業網站排名表及排名分析",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "104.com.tw列第1，1111.com.tw列第2；指標為網站造訪量，類別限於「工作和就業」，不是所有線上人力資源服務平台的完整市場規模。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人官方公司概況、官方新聞稿、104平台頁面及Similarweb類別排名。可支持公司成立年份與平台經營，但未找到足以界定並驗證原句廣義「最大」主張的市場範圍與分母；該原子主張維持UNKNOWN。",
+    "1993年是發行人列示的公司成立日期；發行人資料稱104人力銀行成立於1996年。",
+    "「最大」缺少明確市場邊界、衡量指標及期間。Similarweb的資料僅限台灣「工作和就業」網站造訪量排名；發行人的流量領先說法未公開比較方法。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3130/764/hermes-attempt-1.stdout.txt"
+}

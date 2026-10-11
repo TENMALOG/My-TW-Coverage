@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000554",
+  "claim_id": "2455:objective_ranking_or_market_share:0c9b77b516d1cc7d",
+  "normalized_claim_hash": "0c9b77b516d1cc7ddf1441b9cd866c4520a3f19ed0aba7c6aa446f225855db6a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1fe67f06c5ab4813d43f",
+      "title": "全新光電股份有限公司：公司年報列表",
+      "url": "http://www.vpec.com.tw/vpec/homeweb/about.php?menu1=M100004&menu2=M200018&menu3=M300004&level=3",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "官網搜尋結果列有 2023 年及 2022 年年報連結",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅確認官方網站列出年報；未取得能支持客戶排名或 28% 營收占比的年報內容。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達最多 8 個聚焦研究回合；客戶排名、28% 數值及宏捷科的語義角色仍未獲可靠證據確認。",
+    "搜尋到的官方年報列表不是年報內容，不能作為客戶集中度的證據。",
+    "搜尋結果未提供可核對期間、分母與口徑的可靠資料；未以鄰近期間或其他營收占比替代該主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2455/554/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c042bddc11e81ab7d6ea0c10e69b699a0b1f81f52c83bb25b5d484860046ac71",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2455/554/isolated-prompt.txt",
+  "prompt_sha256": "6b8cc1a375e627bf29eb96c59e9b7d09f4e10ea052ccdea62aa68e1eeebf449e",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000554/manifest.json",
+  "supersedes_manifest_sha256": "3612cba46f6924e89e52ed43e88937042c88aa3ae977c165505994bfd043451b",
+  "corrected_at": "2026-10-08T09:58:22Z"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000902",
+  "claim_id": "2891:profitability_assertion:8c8dbd5c92337bba",
+  "normalized_claim_hash": "8c8dbd5c92337bbad37f21b3034c70ff38c8883746e0aae5defa9a5421aa6825",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a9b8600f2132ab726d81",
+      "title": "台灣人壽｜中信金控",
+      "url": "https://www.ctbcholding.com/content/twhoo/zh_tw/ctbc-bank/ctbc-taiwanlife.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面記載2015年成為中信金控100%持股子公司；現行公司介紹頁",
+      "locator": "頁面「台灣人壽」介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方頁面。"
+    },
+    {
+      "source_id": "src-7ab0ecacaf837bb74492",
+      "title": "台灣人壽｜中信金控",
+      "url": "https://www.ctbcholding.com/content/twhoo/zh_tw/ctbc-bank/ctbc-taiwanlife.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021年（民國110年）",
+      "locator": "頁面「台灣人壽」介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載明2021年稅後獲利231億元、占金控獲利逾四成，並稱其為第二大獲利引擎。"
+    },
+    {
+      "source_id": "src-0b3301aff2b2935f2df0",
+      "title": "中國信託金控2025年獲利再創新高",
+      "url": "https://www.ctbcholding.com/content/dam/twhoo/file/news/2026/20260312.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-12",
+      "effective_period": "2025全年",
+      "locator": "新聞稿「子公司方面」段及台灣人壽獲利段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方提供銀行與壽險子公司的獲利數字，但未列全體子公司排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視發行人官方公司介紹與2025全年獲利資料；歷史排名有直接官方支持，但目前排名缺少完整子公司比較資料，故該原子主張維持UNKNOWN。",
+    "「獲利引擎」是官方描述用語；官方頁面未交代其排名方法及完整比較對象。",
+    "2021年的歷史排名不能單獨證明無期間限定的現在式主張。",
+    "2025年官方資料只提供部分子公司的獲利數字，不能據此確認台灣人壽在全部子公司中的第二名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2891/902/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0e5079f47f10f436cf5653ff0ef259b3e89e0c1d48180ce3bd7a4d4a1b1edbc4",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2891/902/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "fb06a0c42ec1390d2f2b78416d1dc5535861ec0354bedf49a976fc7414edcb13",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000902/manifest.json",
+  "supersedes_manifest_sha256": "258b82dc2d59186261e3b0f354db8b7bb8b24f0399c59ab757e085ff6a2d180f",
+  "corrected_at": "2026-10-08T09:58:56Z"
+}

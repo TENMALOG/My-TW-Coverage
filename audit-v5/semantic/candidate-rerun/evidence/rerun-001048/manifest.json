@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001048",
+  "claim_id": "3622:profitability_assertion:69d5bd3e7a60ca9d",
+  "normalized_claim_hash": "69d5bd3e7a60ca9d46e4f03ee3dde19d2357be50c0d1ed1f9a3a2de7748f206f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c44de8b82a9b425e",
+      "title": "洋華光電股份有限公司115年股東會年報",
+      "url": "https://www.yfo.com.tw/_i/assets/upload/files/115%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B10424-%E5%85%AD%E6%A0%A1%281%29.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "年報第4頁營業計劃實施成果",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱機電產品產能近滿載；這只能佐證產能狀況，不能單獨證明訂單滿載。"
+    },
+    {
+      "source_id": "src-915d0e7894f90c83",
+      "title": "重電四雄熄火！「這檔小雄兵」亮燈連六紅強噴27％",
+      "url": "https://www.mirrormedia.mg/external/ftnn_307814",
+      "source_level": 2,
+      "publication_date": "2024-09-25",
+      "effective_period": "報導稱當時訂單滿至2025年",
+      "locator": "內文第127–128行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導明確稱洋華受惠電網計畫、訂單滿到隔年。"
+    },
+    {
+      "source_id": "src-b0ed3dfee751c9f0",
+      "title": "洋華光電：冷縮普通接續匣CSNJ產品頁",
+      "url": "https://www.yfo.com.tw/productdetail_tw.php?id=125",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品說明及規格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁說明其為69/161kV交連PE電纜用高壓接續匣。"
+    },
+    {
+      "source_id": "src-c29f47ec9447ade8",
+      "title": "洋華光電：屋內/屋外型電纜終端匣EB-A產品頁",
+      "url": "https://www.yfo.com.tw/productdetail_tw.php?id=112",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁說明其為69/161kV交連PE電纜用高壓終端匣。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2025年度年報、公司產品資料及2024年同期媒體報導；剩餘未解事項是機電事業是否為最大獲利來源，所查官方資料沒有分部獲利占比，故保留UNKNOWN。",
+    "公司年報披露產品營收比重及整體獲利資料，未披露機電事業與光電事業各自的獲利金額或占比；營收占比不可替代獲利占比。",
+    "「台電強韌電網計畫」及訂單滿至2025年的直接表述來自2024年媒體報導；公司年報提供的是能源政策、台電電力設施／電網工程及產能近滿載等較廣或不同口徑的佐證。",
+    "不以產能近滿載推定訂單滿載，也不把2024年報導的訂單狀況延伸為目前狀況。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3622/1048/hermes-attempt-1.stdout.txt"
+}

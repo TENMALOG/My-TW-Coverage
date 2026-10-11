@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000899",
+  "claim_id": "2890:profitability_assertion:87eb0db69c8e92ab",
+  "normalized_claim_hash": "87eb0db69c8e92ab308d1b5925733c28248d608011cb9c02989a4eddd88a84c1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a6cc7ddeceebdaf1b9af",
+      "title": "永豐金控 2025年第四季公司簡介",
+      "url": "https://www.sinopac.com/upload/sinopac/spfcMenu/19cd142885e0000013e7.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-06",
+      "effective_period": "FY2025; profit-contribution data through 2025",
+      "locator": "PDF p. 5, slide 6,「銀證雙引擎的營運模式」and「各子公司獲利佔比」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shows 永豐銀行 at 70% of subsidiary profit contribution."
+    },
+    {
+      "source_id": "src-fa9832e487012c75b96e",
+      "title": "永豐金控 2025年第四季營運報告",
+      "url": "https://www.sinopac.com/investors/20211210153457585149/20211210153458742624/20260309141442543244.html",
+      "source_level": 3,
+      "publication_date": "2026-03-10",
+      "effective_period": "FY2025",
+      "locator": "2025年第四季營運報告, paragraphs on 永豐銀行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the bank’s 2025 after-tax net profit as NT$19.46 billion."
+    },
+    {
+      "source_id": "src-101c39c523b3357e5686",
+      "title": "永豐金控 2025年第四季公司簡介",
+      "url": "https://www.sinopac.com/upload/sinopac/spfcMenu/19cd142885e0000013e7.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-06",
+      "effective_period": "FY2025; profit-contribution data through 2025",
+      "locator": "PDF p. 5, slide 6,「銀證雙引擎的營運模式」and「各子公司獲利佔比」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shows 永豐金證券 at 23% of subsidiary profit contribution."
+    },
+    {
+      "source_id": "src-3181cb503026f6f9b7bf",
+      "title": "永豐金控 2025年第四季營運報告",
+      "url": "https://www.sinopac.com/investors/20211210153457585149/20211210153458742624/20260309141442543244.html",
+      "source_level": 3,
+      "publication_date": "2026-03-10",
+      "effective_period": "FY2025",
+      "locator": "2025年第四季營運報告, paragraphs on 永豐金證券",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the securities subsidiary’s 2025 after-tax net profit as NT$6.47 billion."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Sufficient official issuer evidence supports both engines and the issuer’s dual-engine characterization; stopped before the research-turn limit.",
+    "The issuer’s 2025 profit-contribution breakdown also includes 京城銀行 at 4% and other subsidiaries at 3%;「雙獲利引擎」is supported as a description of the two principal engines, not as a claim that they are the group’s only profit contributors."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2890/899/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "88150d35881908d8fe32e4aef570b476363dade646f501aef595cb0a62503923",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2890/899/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "7d585947bb72dd5c0370e910311d052e068ea281ab5880f96650afe8ad892ed6",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000899/manifest.json",
+  "supersedes_manifest_sha256": "832709c8b875be06e78f1b20c95fd4f4f26ebadecfc7f435fddb158bb3b12212",
+  "corrected_at": "2026-10-08T09:58:56Z"
+}

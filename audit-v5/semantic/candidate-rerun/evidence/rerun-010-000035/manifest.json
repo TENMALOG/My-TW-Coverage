@@ -1,0 +1,74 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000035",
+  "claim_id": "1524:objective_ranking_or_market_share:37a66df6e8c59992",
+  "normalized_claim_hash": "37a66df6e8c5999230965088a8f6edcb9888b5120e583dee7c7ddd6856ebc3a4",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-14d62d9bb1bf3308c519",
+      "title": "LKQ示警：美國汽車「可修復理賠」案件下滑！恐將波及台灣AM相關供應鏈",
+      "url": "https://today.line.me/tw/v3/article/WBw2G9g",
+      "source_level": 2,
+      "publication_date": "2025-04-25",
+      "effective_period": "報導發布於 2025-04-25；排名所涵蓋期間未說明。",
+      "locator": "文中「耿鼎(1524)」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導明確稱耿鼎在美洲市場的最大客戶為 LKQ；沒有交代排名依據或客戶銷售占比。"
+    },
+    {
+      "source_id": "src-7b023f48244773d4495a",
+      "title": "LKQ示警：美國汽車「可修復理賠」案件下滑！恐將波及台灣AM相關供應鏈",
+      "url": "https://today.line.me/tw/v3/article/WBw2G9g",
+      "source_level": 2,
+      "publication_date": "2025-04-25",
+      "effective_period": "報導發布於 2025-04-25；市佔率的測量期間未說明。",
+      "locator": "文中「耿鼎(1524)」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 LKQ 擁有美國汽車鈑金後售市場近 40% 市佔率，但未列出數據來源、計算方法或分母。"
+    },
+    {
+      "source_id": "src-d478ac02440a234d27e1",
+      "title": "LKQ Corporation Form 10-K for fiscal year ended December 31, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569625000020/lkq-20241231_ars.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至 2024-12-31 的財政年度。",
+      "locator": "Item 1, Business; Wholesale - North America Segment",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方文件說明北美業務涵蓋多類碰撞替換產品，並稱其具有最大的替代車輛零件與配件分銷網絡；未披露近 40% 的鈑金 AM 市佔率。此處僅作範圍背景，不能驗證該比例。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已完成多輪聚焦搜尋；可找到的近 40% 說法缺乏可追溯的數據來源與必要市場口徑，官方 LKQ 年報亦未提供該比例。依規則停止，未以相鄰指標或不同市場分母替代。",
+    "客戶排名及近 40% 市佔率目前僅找到二手報導的直接陳述，未取得耿鼎官方披露對排名的佐證。",
+    "LKQ 官方年報描述業務範圍與分銷網絡，但不提供該鈑金 AM 市佔率測量值。",
+    "耿鼎官方網站列有 2023 年年報，但該 PDF 抽取請求逾時，未能檢視其是否披露客戶排名。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1524/35/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "098cc6e8ca30a75b64b73ebbae072b2c80c69d3e5705baff32aa2d70552c8d33",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1524/35/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "b9e4a5a1961ffe355de5d0752fb5fdfb354221ef29328886effebe51866aa358",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000924",
+  "claim_id": "3491:material_named_relationship:01090b65e377130f",
+  "normalized_claim_hash": "01090b65e377130f10e0cdef88a08c4bc8a4a1dce70b75cbbb023d1b9226dd44",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f8059f19b0cf80d24cb0",
+      "title": "昇達科技（3491）2026年8月6日法人說明會簡報",
+      "url": "https://www.umt-tw.com/upload/Investors/%283491%29_2026_0806_.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-06",
+      "effective_period": "截至2026-08-06的公司業務與競爭優勢描述",
+      "locator": "第10頁，低軌／太空長期競爭優勢：「關鍵供應鏈：不易取代之關鍵供應商」；第8頁列低軌衛星為業務之一。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自身簡報，支持的是發行人對自身角色的描述，未提供全球市占率或獨立排名。"
+    },
+    {
+      "source_id": "src-e2d4b5e3747becafe67a",
+      "title": "昇達科技（3491）2026年4月28日法人說明會簡報",
+      "url": "https://www.umt-tw.com/upload/Investors/3491_20260428.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-28",
+      "effective_period": "2026Q1",
+      "locator": "第15頁，「低軌營收佔比」列2026Q1為80.0%；第11頁列2026Q1低軌產品季營收。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報披露的Q1占比為80.0%，並非「超過80%」；簡報註明2026Q1為公司自結數，尚未經會計師查核。"
+    },
+    {
+      "source_id": "src-05057cb6dc92819eca03",
+      "title": "昇達科技（3491）2026年8月6日法人說明會簡報",
+      "url": "https://www.umt-tw.com/upload/Investors/%283491%29_2026_0806_.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-06",
+      "effective_period": "2026H1",
+      "locator": "第6頁，低軌衛星產品營收佔比由2025H1的59%升至2026H1的77%；第8頁列2026H1低軌衛星營收佔比77.0%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報披露最新取得的半年度占比為77.0%；簡報註明2026Q2數據為公司自結數，尚未經會計師核閱。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2026Q1及2026H1投資人簡報，並核對供應鏈角色與營收占比口徑。占比 claim 缺少參照期間，現有披露不足以判定其是否在其他未指明期間曾高於80%；未以缺乏該期間證據推定為否。",
+    "「關鍵供應商」的證據來自公司自身簡報，沒有獨立全球排名或市占率佐證。",
+    "公司2026Q1簡報列示80.0%，不能等同於「超過80%」。",
+    "2026H1簡報列示77.0%；其簡報註明2026Q2數據為公司自結、尚未經會計師核閱。",
+    "原 claim 未提供參照期間，因此不能把特定季度或半年數據外推為所有期間的結果。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3491/924/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5ecb8a26db9ef902d3965b76cb67166342c439e0b3e63913ca7553d7adbbf066",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3491/924/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "02f354dc5f2cd40a80c17c3f26ef7692fbbeb6f0fcdde3c4925c612ed8734b2d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000924/manifest.json",
+  "supersedes_manifest_sha256": "5267ebf2fb0737f93f014ca993bba95b845e40fab9b3332bb26b88b46567eefe",
+  "corrected_at": "2026-10-08T09:58:58Z"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000367",
+  "claim_id": "3312:objective_ranking_or_market_share:ef9a168379d5a594",
+  "normalized_claim_hash": "ef9a168379d5a594c71fc8896b3cf1797ae88c64bb581fa8b25a5c523ae6d3ba",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-277829f12e1fe5e1",
+      "title": "熱門股》網通大廠加持 弘憶股創新高價",
+      "url": "https://ec.ltn.com.tw/article/paper/1648819",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "指出弘憶主要代理瑞昱產品，包含無線通訊、寬頻通訊等產品線；摘要未顯示精確日期。"
+    },
+    {
+      "source_id": "src-ff7443862c8a5ba6",
+      "title": "2024 弘憶國際永續報告書",
+      "url": "https://www.gmitec.com/wp-content/uploads/2025/08/GMI-2024-ESG-Report.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-22",
+      "effective_period": "2024年度；供應商描述涵蓋最近二年度",
+      "locator": "第17頁，2.1營運概況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認瑞昱為最近二年度主要進貨廠商，但未揭露其占比或「最大代理線」排名。"
+    },
+    {
+      "source_id": "src-24cbded8f4d29bd5",
+      "title": "弘憶股網通產品線今年營收目標看增一成",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=6529ddb0-11a9-4471-a1f4-7ce5a09e6015",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導提及112年度財報及其後展望；精確發布日期與占比期間未確認",
+      "locator": "文章摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱瑞昱產品占弘憶代理業務近90%，為最大宗；未提供可確認的精確發布日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "因工具呼叫迭代上限而停止，且使用者要求不再呼叫工具；未達任務所列最多8個研究回合。音訊晶片代理及其排名仍未解決。",
+    "官方2024永續報告書可確認主要供應商及應用情況，但沒有按供應商或晶片類別揭露代理營收占比。",
+    "「近90%」及代理業務最大宗的數據來自二手報導；精確發布日期與測量期間未能確認。",
+    "已查資料不能證明該占比代表市場市占，也不能證明音訊晶片屬弘憶代理產品。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3312/367/hermes-attempt-1.stdout.txt"
+}

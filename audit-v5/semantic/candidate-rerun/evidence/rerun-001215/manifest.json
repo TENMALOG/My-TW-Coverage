@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001215",
+  "claim_id": "4714:material_named_relationship:b4e9d205c61c6d99",
+  "normalized_claim_hash": "b4e9d205c61c6d9909c103afa5478d78819ad8f5246d89d621fe02c8dd5a1564",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f03d6f7bc4e88f7e",
+      "title": "永捷創新科技股份有限公司—主要產品及服務",
+      "url": "https://u-best-inno.com/index/items",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 32–48",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page lists PU synthetic resin and PU adhesive."
+    },
+    {
+      "source_id": "src-d753e9e0ed7bb06e",
+      "title": "永捷創新科技股份有限公司—PU合成樹脂",
+      "url": "https://u-best-inno.com/product/1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 22–33",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports general synthetic-leather/shoe use and adhesive applications, but not sports-shoe specificity."
+    },
+    {
+      "source_id": "src-0587ca9a5fea3e80",
+      "title": "永捷創新科技（4714）：可撓式 OLED 與環保 PU 樹脂雙引擎驅動",
+      "url": "https://uc913.com/stock-4714/",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2024 revenue, as stated by the page",
+      "locator": "Search-result passage on shoe materials and application share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary assertion of approximately 40%; scope and denominator are not substantiated there."
+    },
+    {
+      "source_id": "src-7fe661e76f044961",
+      "title": "POU CHEN GROUP—製鞋業務",
+      "url": "https://www.pouchen.com/index.php/tw/investor-relations/faq/8-pcc/7-footwear-business",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 56–69",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms Pou Chen makes shoes for Nike and adidas, but says nothing about 永捷 supplying Pou Chen."
+    },
+    {
+      "source_id": "src-2fb5cfa94cec59db",
+      "title": "Feng Tay Enterprises Co., Ltd.",
+      "url": "https://www.fengtay.com/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About Feng Tay",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Feng Tay as an athletic-shoe producer and Nike manufacturing partner; does not establish a supply relationship with 永捷."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official issuer product disclosures and official manufacturer descriptions, but no reliable primary evidence for the 40% figure or the claimed supplier chain. Further results located were secondary or did not resolve those gaps.",
+    "The issuer's product disclosures support general product categories and applications, not the full sports-shoe or “traditional business” characterization.",
+    "The 40% figure was found only in a secondary source, with unclear scope and methodology.",
+    "Evidence that 寶成 and 豐泰 manufacture for named brands does not establish that 永捷 supplies either manufacturer.",
+    "The issuer's public product pages do not provide a period-specific denominator for the claimed 40%."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4714/1215/hermes-attempt-1.stdout.txt"
+}

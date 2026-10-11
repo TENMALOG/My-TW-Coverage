@@ -1,0 +1,100 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000051",
+  "claim_id": "2231:objective_ranking_or_market_share:53dc6e668cc52c45",
+  "normalized_claim_hash": "53dc6e668cc52c454421a08c70d0c90f06e1305e30690595aee43694072b3df3",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-d4b6dea7b479424fc242",
+      "title": "為升電裝工業股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=9fb9ceba-8b82-45c8-8b0d-b14131f2449d",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022",
+      "locator": "「銷售狀況／客戶方面」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Standard Motor Products and Wells.MFG as customers, while describing purchases of switches and sensor products; it does not establish TPMS-specific purchases."
+    },
+    {
+      "source_id": "src-17c81b2dfbdd259a4725",
+      "title": "為升電裝工業股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=9fb9ceba-8b82-45c8-8b0d-b14131f2449d",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022",
+      "locator": "「銷售狀況／客戶方面」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names SMP and Wells.MFG as customers but does not identify them as TPMS customers."
+    },
+    {
+      "source_id": "src-2435fac5548af5733993",
+      "title": "為升 (2231) 在毫米波雷達市場的技術地位與長線潛力",
+      "url": "https://vocus.cc/article/68bbb8b4fd8978000145ed25",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2025 context",
+      "locator": "Section discussing AM channels and SMP/Wells",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Broadly describes products sold through SMP and Wells; does not specify TPMS sales to them or quantify North American TPMS sales."
+    },
+    {
+      "source_id": "src-628ed0a5bc0859f3c45f",
+      "title": "【雷神盃】2231為升：財務與質化分析",
+      "url": "https://redhouse.statementdog.com/archives/2367",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2014",
+      "locator": "「市佔率」section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary author calculation: about 0.9 million 為升 TPMS shipments to North America divided by an estimated 11.8 million-unit North American AM market, yielding about 7.6%. It concerns 2014 only and is not treated as a contradiction of a claim with no stated period."
+    },
+    {
+      "source_id": "src-49b8528cf4c151f6c759",
+      "title": "【法說會備忘錄】為升電裝20250605",
+      "url": "https://blog.fugle.tw/post/earnings-call-2231-2025-06-05",
+      "source_level": 1,
+      "publication_date": "2025-06-05",
+      "effective_period": "2025 Q1 / 2025-06-05 earnings-call summary",
+      "locator": "TPMS description: 「通用型胎壓感測器 (約 90% 為 AM 市場)」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The memo identifies itself as an LLM-generated summary of an official exchange recording. Its wording describes product/channel mix, not market share; the recording was not independently verified here."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches did not locate a reliable issuer or regulator disclosure establishing the claimed 90% North American AM TPMS market share or the specific SMP/Wells-to-TPMS link. The available 90% reference has a different denominator, and the historical 2014 estimate cannot resolve the claim's unstated period.",
+    "The 2022 customer details and 2014 market-share estimate are secondary sources; the latter is an author calculation and applies only to 2014.",
+    "The 2025 summary that mentions approximately 90% is LLM-generated and describes AM channel mix, not North American market share.",
+    "No located source supplies a period-matched North American AM TPMS market denominator and 為升 sales figure supporting the stated 90% share."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2231/51/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "27f69fd83bc175724a96bef86e4c3f8c37f064bf76b989fba137faa0d80d2a20",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2231/51/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "c0a6c50a38dedfc802ef51d491159c21ae6a669aef48ac9d2df4bdd2f3d35468",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

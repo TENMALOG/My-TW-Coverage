@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000797",
+  "claim_id": "1527:objective_ranking_or_market_share:2cd5717ea34e0ce8",
+  "normalized_claim_hash": "2cd5717ea34e0ce84269fd448150676394551121726f6eadf7a6f16bdb1494a0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a5ce859839a7c3a0",
+      "title": "公司簡介 - 鑽全實業股份有限公司",
+      "url": "https://www.basso.com.tw/zh-tw/a1-3950/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile",
+      "locator": "Lines 106–108",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer says the company is located in Taichung Industrial Park and identifies the head office at No. 24, 36th Road."
+    },
+    {
+      "source_id": "src-ab1eddd5f3852432",
+      "title": "鑽全實業股份有限公司 - 經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/20982120?fhl=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Registry record accessed October 7, 2026",
+      "locator": "Location of Company",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government registry gives the company location as Taichung City, Industrial District 36th Road, No. 24."
+    },
+    {
+      "source_id": "src-905b278a28ce6fa1",
+      "title": "鑽全實業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=44c13733-6579-4a1a-b315-147a4627fdcc",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview, lines 51–59",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls Basso the global largest pneumatic nailer ODM manufacturer, but supplies no ranking methodology, comparator set, or measured basis."
+    },
+    {
+      "source_id": "src-74322572e9a81647",
+      "title": "鑽全(1527)美國房市疲軟反而是好機會？積極投入研發費，電動工具營收佔比上看10%？",
+      "url": "https://uanalyze.com.tw/articles/3353313229",
+      "source_level": 2,
+      "publication_date": "2025-04-03",
+      "effective_period": null,
+      "locator": "Opening description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Also characterizes Basso as the global largest pneumatic nailer ODM manufacturer; it does not define the ranking metric or denominator."
+    },
+    {
+      "source_id": "src-7b9e1251ae5e912c",
+      "title": "Introduction - BASSO industry Corporation",
+      "url": "https://www.basso.com.tw/en/a1-3786/Introduction.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile",
+      "locator": "Lines 73–76",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer calls Basso one of the world's leading manufacturers and a leading manufacturer in its field, but does not state it is the largest."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對公司官方資料、政府登記及多個二級來源；排名原子仍缺少可驗證的比較口徑與分母，因此保留為 UNKNOWN。",
+    "成立年份及總公司地址有公司官方資料和政府登記資料支持。",
+    "全球最大排名僅見於二級來源對「ODM」的描述；未找到界定排名指標、比較範圍或日期的依據。",
+    "「代工」與來源使用的「ODM」並非可在此審核中直接視為完全相同的精確用語。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1527/797/hermes-attempt-1.stdout.txt"
+}

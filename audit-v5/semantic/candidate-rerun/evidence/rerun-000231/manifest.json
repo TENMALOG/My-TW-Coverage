@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000231",
+  "claim_id": "5871:objective_ranking_or_market_share:87162f778667a426",
+  "normalized_claim_hash": "87162f778667a426d72741f8538ca378d959f4a961d35f7627e7ed4ba4147862",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-fea487be03d23613",
+      "title": "中租控股布局東協消金市場「zingala銀角零卡」全新更名",
+      "url": "https://www.chaileaseholding.com/News/Detail/176",
+      "source_level": 3,
+      "publication_date": "2022-05-17",
+      "effective_period": "公告稱當時合作業者突破4萬家",
+      "locator": "內文「合作業者突破4萬家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中租控股官方新聞稿；未交代商家計數及去重口徑。"
+    },
+    {
+      "source_id": "src-42dfc952b97d11a0",
+      "title": "先買後付市場熱，金融、科技業都搶進！PChome 推「慢點付」，如何降低呆帳風險？",
+      "url": "https://www.managertoday.com.tw/articles/view/65380",
+      "source_level": 2,
+      "publication_date": "2022-07-05",
+      "effective_period": "報導刊出於2022-07-05；排名所據期間不明",
+      "locator": "「台灣 BNPL 玩家，優勢、會員數一次盤點」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱其為台灣最大BNPL業者，但未指出排名指標、比較範圍或計算方法。"
+    },
+    {
+      "source_id": "src-17b2671fb3334e5e",
+      "title": "zingala銀角零卡結盟綠界科技打造完整彈性支付生態系",
+      "url": "https://www.chaileaseholding.com/News/Detail/208",
+      "source_level": 3,
+      "publication_date": "2025-10-07",
+      "effective_period": "截至2025年9月合作商家數突破4萬家",
+      "locator": "內文「截至2025年9月……合作商家數突破4萬家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較晚的官方數據供時效性對照；不否定2022年的數字。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方來源核實品牌歸屬及2022年會員、合作業者數字，並查得明確提出排名說法的二手報導；排名缺少指標和市場分母，故該原子保留UNKNOWN。",
+    "86萬會員及逾4萬合作業者均由中租控股2022-05-17官方新聞稿支持，應保留歷史時點；官方於2025-10-07發布的數據顯示，截至2025年9月會員接近170萬、合作商家仍突破4萬家。",
+    "「台灣最大BNPL」只有二手報導明確如此稱述，未揭露排名指標、比較範圍或分母，不能據此確認具體市場排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5871/231/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001126",
+  "claim_id": "6584:profitability_assertion:5e3c3a2f673f6a83",
+  "normalized_claim_hash": "5e3c3a2f673f6a830aa261d55c2650b42a0f6cc4ae38d7566195417bfa0f1c2b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5e5ac947244b0ca4",
+      "title": "2021年我們拿到第十個台灣精品獎",
+      "url": "https://repon.com.tw/tw/new?id=1610683396",
+      "source_level": 3,
+      "publication_date": "2021-01-15",
+      "effective_period": "1977年起；1983年開始生產鋼珠滑軌",
+      "locator": "公司沿革段落：1977年以沖壓技術起家、早期從事電腦機殼；1983年生產第一支鋼珠滑軌。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方回顧其早期業務，與「以滑軌創業」的字面說法相抵觸。"
+    },
+    {
+      "source_id": "src-a88446a0e77bb946",
+      "title": "新莊家庭工廠起家，46歲老傳產南俊如何從「撞牆6年找不到大客戶」，翻全球前五大伺服器滑軌廠",
+      "url": "https://www.businesstoday.com.tw/article/category/183015/post/202303080007/",
+      "source_level": 2,
+      "publication_date": "2023-03-08",
+      "effective_period": "1983年起的早期滑軌業務",
+      "locator": "沿革段落：1983年開始生產滑軌，創辦人鎖定辦公家具市場。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級報導；未提供該用途的營收或銷售占比。"
+    },
+    {
+      "source_id": "src-3dbd53ed95545990",
+      "title": "南俊國際股份有限公司113年年報",
+      "url": "https://repon.com.tw/_upload/files/3_113-C.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度年報；所述策略與產品出貨截至年報編製時",
+      "locator": "第6頁，未來公司發展策略第1點；另見年報後段長短期業務發展計畫。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人申報資料稱資料中心伺服器導軌新產品量產出貨，並參與大型雲端服務業者資料中心計畫。"
+    },
+    {
+      "source_id": "src-82c644b33718abe3",
+      "title": "南俊伺服器營收占比逾5成　GB系列拚年底出貨放量",
+      "url": "https://www.cna.com.tw/news/afe/202508200273.aspx",
+      "source_level": 2,
+      "publication_date": "2025-08-20",
+      "effective_period": "2025年8月20日法說會；第二季毛利率數據為2025年第二季",
+      "locator": "報導第296–297行，引用財務長稱伺服器滑軌ASP及毛利率高於平均；同篇第290行列雲端伺服器營收占比。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "屬媒體轉述管理層說法；公司平均是比較基準，未披露伺服器滑軌單獨毛利率數值。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對發行人沿革、2024年年報及2025年法說會相關報導；原始起家描述不符官方沿革，櫥櫃滑軌的早期時間點及產品別絕對毛利率仍無可靠證據，故保留未解範圍並停止。",
+    "「起家」可能指公司最初創業，也可能指最初的滑軌市場；來源支持後者的辦公家具用途，但公司官方沿革記載創業初期做沖壓及電腦機殼。",
+    "未找到能確認櫥櫃滑軌是否為創業初期產品的可靠來源。",
+    "高毛利的證據是管理層所述伺服器滑軌毛利率高於公司平均；沒有找到雲端伺服器滑軌單獨的絕對毛利率或完整分部毛利率披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6584/1126/hermes-attempt-1.stdout.txt"
+}

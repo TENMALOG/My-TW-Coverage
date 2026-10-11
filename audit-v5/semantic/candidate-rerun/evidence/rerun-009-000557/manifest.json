@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000557",
+  "claim_id": "3131:objective_ranking_or_market_share:9ac9f9c3666d39ed",
+  "normalized_claim_hash": "9ac9f9c3666d39eda68bde1a4cdf78f4d7e58bb37753613425d02d0998bca4fa",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5e3c3ca8672b5462100b",
+      "title": "Honsu Group 2025Q1 Business Update",
+      "url": "https://doc.twse.com.tw/nas/STR/313120250513E001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報涵蓋2024年度及2025Q1資訊",
+      "locator": "P-6, Company Introduction—Main Customer",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將 tsmc 列於台灣主要客戶名單中，未提供客戶排名或客戶別營收數據。"
+    },
+    {
+      "source_id": "src-dbaff6fa5739eb465030",
+      "title": "Honsu Group 2025Q1 Business Update",
+      "url": "https://doc.twse.com.tw/nas/STR/313120250513E001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報涵蓋2024年度及2025Q1資訊",
+      "locator": "P-6, Company Introduction—Main Customer; P-20, Process Application Opp.; P-21, Product Development Focus on AI/HPC Advanced Package",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "分別列出台積電為主要客戶、CoWoS為先進封裝應用，以及弘塑的濕製程設備產品；簡報未明確將台積電與特定CoWoS訂單逐一對應。"
+    },
+    {
+      "source_id": "src-fca61d5374a0506888bf",
+      "title": "台積CoWoS擴產 弘塑訂單滿手",
+      "url": "https://www.ctee.com.tw/news/20240715700142-439901",
+      "source_level": 2,
+      "publication_date": "2024-07-15",
+      "effective_period": "2024年報導",
+      "locator": "開頭段落及「弘塑自InFO即開始供貨台積電」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "工商時報報導弘塑受惠台積電CoWoS擴產，並稱弘塑自InFO起供貨台積電、CoWoS與InFO濕製程設備相近；這是次級報導，未直接核實特定CoWoS設備訂單由台積電下單。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視弘塑公司簡報並搜尋相關產業報導；CoWoS關聯有支持，但缺少可靠來源證明台積電在明確期間內是弘塑最大客戶，因此該原子主張維持UNKNOWN。",
+    "弘塑公開簡報未提供足以判定最大客戶排名的客戶別營收或占比資料。",
+    "CoWoS供應鏈關聯有公司簡報與次級報導支持，但報導沒有核實特定台積電CoWoS設備訂單。",
+    "沒有以CoWoS應用或銷售組合替代客戶排名證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3131/557/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0db7466f3dcf51b2c8e61351f040b059f5613eca4dc9b6f2c560f227c7c044f2",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3131/557/isolated-prompt.txt",
+  "prompt_sha256": "d66364d90ca7936065cc6e7e54eec9715a2ae5da29b6ccda6d7c93882b345e3f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000557/manifest.json",
+  "supersedes_manifest_sha256": "a764e2ed4e7ebc4436bb808dceab0e5359fa4a06f442808e1e5435c1f7ed231d",
+  "corrected_at": "2026-10-08T09:58:23Z"
+}

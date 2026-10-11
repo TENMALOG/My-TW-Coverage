@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000922",
+  "claim_id": "3363:profitability_assertion:be639013857fa973",
+  "normalized_claim_hash": "be639013857fa97395aaa4590ca30851948aee8e55ddf0a393fa68046bcebf14",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4ad21171ab1c2dbc",
+      "title": "上詮私募5.22億 奇景光電參與私募",
+      "url": "https://www.foci.com.tw/zh-tw/article/22",
+      "source_level": 3,
+      "publication_date": "2024-06-11",
+      "effective_period": "Development status reported as of 2024-06-11",
+      "locator": "Paragraph 2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms collaboration with semiconductor customers but does not name TSMC or COUPE."
+    },
+    {
+      "source_id": "src-128d34c9f84e8c63",
+      "title": "郭明錤發表矽光子技術展望　奇景、上詮都是台積電獨家供應商",
+      "url": "https://www.knews.com.tw/news/3BEEDF8C658D35A96737F643E988EB4B",
+      "source_level": 2,
+      "publication_date": "2025-01-23",
+      "effective_period": "Analyst forecasts concerning future COUPE adoption and Rubin Ultra",
+      "locator": "Paragraphs 271 and 286–288",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports a forecast about possible COUPE adoption and a separate conditional FAU-supplier estimate; it does not confirm exclusive bundling into an NVIDIA accelerator."
+    },
+    {
+      "source_id": "src-b69662fe73e7cd45",
+      "title": "NVIDIA 矽光子技術",
+      "url": "https://www.nvidia.com/zh-tw/networking/products/silicon-photonics/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product-page description; includes Vera Rubin-related network products",
+      "locator": "Lines 48–60, 82–95, 138–149",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies CPO products as Quantum-X and Spectrum-X network switches/platforms; it does not identify 上詮 or confirm use on an accelerator chip."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視 issuer、TSMC、NVIDIA 官方資料及相關二手報導；剩餘的客戶分配、全數出貨、高毛利、獨家綁定及加速器晶片位置均缺乏可核實的範圍、期間或分母，故保留為 UNKNOWN。",
+    "原文「嘔心聯合」語意不清，未擅自更正或推定其所指。",
+    "「下個跨世代」未提供可核對的基準日期；Rubin 相關供應鏈預測與實際採用／出貨不能互相替代。",
+    "Kuo 相關內容是媒體轉述的分析師供應鏈估計，不是公司、TSMC 或 NVIDIA 的正式確認，也不等同於產業共識。",
+    "未找到能證明全數出貨、出口目的地、該產品毛利率或其在加速器晶片上的確切位置的可靠資料；不以缺少公開證據推論相反結論。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3363/922/hermes-attempt-1.stdout.txt"
+}

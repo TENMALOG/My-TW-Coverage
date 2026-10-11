@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000444",
+  "claim_id": "7765:objective_ranking_or_market_share:ca7dd7afc3bd6233",
+  "normalized_claim_hash": "ca7dd7afc3bd62334cea9b4299ea91de4b64c1fc1a210308908ca6818c3f6df2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c05fd4a04563953567fd",
+      "title": "「特定電信服務市場之市場顯著地位者認定及特別管制措施」公開諮詢文件",
+      "url": "https://api.ncc.gov.tw/chncc/app/data/doc?aplistdn=undefined&detailNo=2&id=56&module=commonMessage8&preview=undefined&serno=48546_4195_news&type=s",
+      "source_level": 3,
+      "publication_date": "2022-12-26",
+      "effective_period": "固定通信網路寬頻零售服務：帳號數市占率為2019、2020、2021年資料；電路數及頻寬市占率截至2022-03-31",
+      "locator": "第14至18頁，固定通信網路寬頻零售服務市場之相對規模及技術優勢",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "NCC界定市場為全國固定通信網路寬頻零售服務，包含FTTx、xDSL、Cable等技術；記載2021年中華電信依帳號數計算市占率59.77%，並稱其為全國最大IASP。"
+    },
+    {
+      "source_id": "src-9ca6c6428c7421dc52ea",
+      "title": "中華電信攜手Nokia驗證高速25GS-PON技術，提供光世代飆速與5G基站傳輸方案",
+      "url": "https://www.cht.com.tw/zh-tw/home/cht/messages/2023/0518-1300",
+      "source_level": 3,
+      "publication_date": "2023-05-18",
+      "effective_period": "2023年技術驗證；新聞稿將商用後提供5G基地台前傳／後傳方案描述為未來用途",
+      "locator": "新聞稿正文第2至3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持中華電信驗證光纖接取技術並提出5G基地台傳輸用途；不證明全台已部署的5G骨幹，也不提供「第一大」比較。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對NCC市場資料及中華電信官方披露。固網寬頻排名有明確的歷史期別支持；「5G網路骨幹」的定義、全台部署範圍及排名分母仍不明，故保留為UNKNOWN。",
+    "原文沒有期間；NCC支持的寬頻領先資料是歷史資料，不能據此推定目前仍居首。",
+    "「全台第一大」的修飾範圍不明，可能只指ISP／固網寬頻，也可能涵蓋5G網路骨幹。",
+    "NCC固網寬頻帳號市占率不能替代5G網路骨幹的排名；5G用戶市占、網速或覆蓋率也不是同一分母或指標。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7765/444/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "cf3d520aba86295fbe80c0989c4ec46d7068af1c78b54ad85a984a46ac7aeffc",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/7765/444/isolated-prompt.txt",
+  "prompt_sha256": "1f61956eaee7b994880beb3f025683eb661412cc295dd452b7497c3f5220b5a3",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000444/manifest.json",
+  "supersedes_manifest_sha256": "01fbac69e0498e7c0b399fa04817ec743958888636f33c2a8dad7473a6b4608a",
+  "corrected_at": "2026-10-08T09:58:13Z"
+}

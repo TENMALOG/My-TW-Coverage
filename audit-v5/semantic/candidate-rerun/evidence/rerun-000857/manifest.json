@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000857",
+  "claim_id": "6508:export_concentration:9321018679533bfd",
+  "normalized_claim_hash": "9321018679533bfde172a48f5561eda9ebab34e55732f34d4a1e5a67cc018e1f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c342394e0fc51542",
+      "title": "惠光股份有限公司 2025年度年報資料（第三方鏡像）",
+      "url": "https://treelazy.com/stock/6508",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "Annual-report market-layout section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The accessible text does not verify this export-share percentage."
+    },
+    {
+      "source_id": "src-6eda7cb46f135e40",
+      "title": "惠光股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ff615120-8eb5-4a16-ba96-cea2f3a5abdf",
+      "source_level": 2,
+      "publication_date": "2025-07-29",
+      "effective_period": "2024 product sales",
+      "locator": "「市場銷售及競爭」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports country shares of product sales, a different denominator from the claimed share of exports; not used to confirm or contradict the claim."
+    },
+    {
+      "source_id": "src-58e30dddf32f23f0",
+      "title": "高品質與耐久性PE地工膜,地工格穴, 水泥防護襯墊 — 惠光股份有限公司",
+      "url": "https://065702181.tw66.com.tw/web/SEC?postId=954797",
+      "source_level": 3,
+      "publication_date": "2025-09-18",
+      "effective_period": null,
+      "locator": "Product description and application lists, lines 8, 20, 26, and 33",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-attributed page describes landfill, water-resource, river, harbor, and road-infrastructure applications."
+    },
+    {
+      "source_id": "src-6ff20a29841d39ad",
+      "title": "Safety Data Sheet — HUITEX Geomembrane",
+      "url": "https://www.huitex.com/wp-content/uploads/2025/10/SDS-HUITEX-GEOMEMBRANE-%E8%8B%B1%E6%96%87%E7%89%88-20250922.pdf",
+      "source_level": 3,
+      "publication_date": "2025-09-22",
+      "effective_period": null,
+      "locator": "Section 1, Main Applications",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Manufacturer SDS lists landfills, canals, potable-water containment, and water reservoirs among product applications."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of available issuer-attributed materials did not resolve the export-share figures. The official TWSE annual-report PDF link timed out when opened; no further reliable source located the required period and denominator.",
+    "The available annual-report material and company product pages do not establish the three claimed export percentages.",
+    "A secondary source reports 2024 country shares of product sales, not the claimed export-only or geosynthetic-export denominator; those figures are not treated as confirmation or contradiction.",
+    "Product application descriptions do not prove that 惠光 supplied specific projects in the named countries."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6508/857/hermes-attempt-1.stdout.txt"
+}

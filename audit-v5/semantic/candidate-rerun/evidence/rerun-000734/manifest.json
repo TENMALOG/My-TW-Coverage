@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000734",
+  "claim_id": "4587:objective_ranking_or_market_share:d95215ea397fbeb3",
+  "normalized_claim_hash": "d95215ea397fbeb3959328f3f1c839f0d8437cd0d83cc82db2f3774232c4e004",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5004d13f70e87157",
+      "title": "History & Milestones - Advantech",
+      "url": "https://www.advantech.com/ko-kr/about/historyandmilestones",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013年",
+      "locator": "2013年沿革項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "研華官方沿革列出收購LNC。"
+    },
+    {
+      "source_id": "src-245c16ae2aa6540f",
+      "title": "研華併寶元數控 深耕智慧控制",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?nsl_id=52983226e1a64090b39da009a10df50e",
+      "source_level": 2,
+      "publication_date": "2013-08-30",
+      "effective_period": "2013年併購公告時",
+      "locator": "品牌名稱段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅能證明當時宣布使用該名稱，不能證明現況。"
+    },
+    {
+      "source_id": "src-2580d2505244479b",
+      "title": "ADVANTECH CO., LTD. AND SUBSIDIARIES — Consolidated Financial Statements, 2025 Q1",
+      "url": "https://advcloudfiles.advantech.com/investor/Quarterly/2025_Q1_Consolidated-English.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年第二季起；截至2025-03-31",
+      "locator": "投資子公司表註3",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明載集團於2024年第二季失去對LNC及其子公司的控制權，相關投資自該季起改列權益法。"
+    },
+    {
+      "source_id": "src-8c244847b60bb960",
+      "title": "寶元數控LNC | EtherCAT控制器系統",
+      "url": "https://www.lnc.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "網站標題及首頁公司識別",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網目前呈現「寶元數控LNC」識別，但沒有明確說明持續採用「Advantech-LNC」雙品牌；此處不足以單憑未呈現該字樣判定其未使用。"
+    },
+    {
+      "source_id": "src-2387202512b1e805",
+      "title": "Taiwan Primed for Smart Machinery Development",
+      "url": "https://international.thenewslens.com/article/51078",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "介紹Advantech-LNC的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱LNC品牌產品是中國市場的leading CNC controller brand；未提供量化排名，也未涵蓋原文所稱台灣／華語圈整體。"
+    },
+    {
+      "source_id": "src-960d8a5eda93a685",
+      "title": "寶元數控精密股份有限公司",
+      "url": "https://0424636889.web66.com.tw/",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹段落末",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "企業名錄頁面載有超過500家設備廠客戶的說法；未見日期、分母定義或可追溯的公司原始披露。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦搜尋並核對研華官方沿革、合併財報及相關報導；未找到可靠且具明確期間與口徑的資料解決現行雙品牌、最大排名及500家客戶等未決原子主張，故保留為UNKNOWN。",
+    "2013年併購及品牌命名有同期報導和研華官方沿革支持；這不證明現時子公司身分或現行品牌策略。",
+    "排名資料所指市場、期間及比較分母不吻合原主張，不能外推為台灣／華語圈最大。",
+    "500家客戶的相符文字出現在無日期的第三方企業名錄，缺少可核查的官方來源和統計口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4587/734/hermes-attempt-1.stdout.txt"
+}

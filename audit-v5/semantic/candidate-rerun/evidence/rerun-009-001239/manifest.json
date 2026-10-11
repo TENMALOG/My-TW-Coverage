@@ -1,0 +1,32 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001239",
+  "claim_id": "4568:material_named_relationship:a65538f94693cd90",
+  "normalized_claim_hash": "a65538f94693cd900bb05c0ca7396d2268b51021f32f656b1e98d5f5d6094d39",
+  "accessed_date": "2026-10-07",
+  "sources": [],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；較新官方資料未提供可核驗的具名供應商延續資訊，且交易所年報 PDF 擷取受工具限制。未以缺少披露推斷關係不存在。",
+    "具名供應商及多數具名車廠關係的依據是2017年二手報導，不足以證明具名供貨關係延續至今。",
+    "官方資料支持相關產品應用；2018年年報及2024年永續報告的客戶資訊未能對具名供應商作完整核驗。",
+    "來源網址未能從檢索結果中可靠保留，因此填 null，未猜測或拼造網址。",
+    "嘗試取得較新的交易所年報 PDF 時逾時；內容擷取工具亦無法擷取該 URL。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4568/1239/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5b8e7a8ce8ac4a8cb784734102c2f7ddc5b2b8cee6ee8f759d55fcc87c124385",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4568/1239/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "1abbb99f450c0eb42edaf023d3df5dd36c691da02e1c7f57aac1699c3516358b",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001239/manifest.json",
+  "supersedes_manifest_sha256": "bdcda9544927c461e8a4c82284adb955d379b243e1bf82a0dfd14982980409ec",
+  "corrected_at": "2026-10-08T09:59:34Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000752",
+  "claim_id": "6982:objective_ranking_or_market_share:d789441c0ced0dea",
+  "normalized_claim_hash": "d789441c0ced0dea7c451f8e8a83524c0012ddaec865f1e153dd86a68e7f73fe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b9adaa55f36261db",
+      "title": "大井泵浦工業股份有限公司公開說明書",
+      "url": "https://www.kgi.com.tw/zh-tw/-/media/files/kgis/3_2_6_ipo/competitive-bidding/6982-3.pdf",
+      "source_level": 3,
+      "publication_date": "2024-12-04",
+      "effective_period": null,
+      "locator": "公司背景／國內民生用產品市佔率段落；精確印刷頁碼未由檢索結果確認",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱依業務人員訪視既有經銷商概略得知，國內民生用產品市佔率約四成；未細分五金行通路或住宅加壓泵浦。"
+    },
+    {
+      "source_id": "src-c24c182ff7a22946",
+      "title": "大井泵浦工業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=bcd60b73-6a8b-4957-96a9-a8fe4b2d6243",
+      "source_level": 2,
+      "publication_date": "2025-12-01",
+      "effective_period": null,
+      "locator": "「沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱台灣公寓大廈頂樓泵浦占有率超過六成；沒有提供五金行通路定義、分母、計算方法或數據期間，市場範圍與原 claim 不同。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依使用者指示，在工具呼叫次數上限後停止研究。",
+    "公開說明書的約四成是國內民生用產品的概估，不是五金行通路的住宅加壓泵浦市佔率。",
+    "超過六成的次級來源說法限定於公寓大廈頂樓泵浦；來源未揭露分母、計算方法或適用期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6982/752/hermes-attempt-1.stdout.txt"
+}

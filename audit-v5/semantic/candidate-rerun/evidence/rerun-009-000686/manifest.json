@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000686",
+  "claim_id": "1718:objective_ranking_or_market_share:806de1b1b6f17477",
+  "normalized_claim_hash": "806de1b1b6f174776fad0fe78ff57dd4031c228fc8d3bb474d6265f7a3f6e1f7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-40304aa0bc9421678e55",
+      "title": "中國人造纖維股份有限公司：公司業務與產業概況",
+      "url": "https://www.cmfc.com.tw/about_tw.php?id=7",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產業之現況與發展；產業上、中、下游之關聯性",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面列出產品與產業資訊，未確認特定名單未公開或其保密原因。"
+    },
+    {
+      "source_id": "src-4f50f2f6a7a0630b112c",
+      "title": "中國人造纖維股份有限公司：公司業務與產業概況",
+      "url": "https://www.cmfc.com.tw/about_tw.php?id=7",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產業上、中、下游之關聯性；乙二醇長期策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面只提及增加乙二醇市場銷售量及佔有率的長期方向，未提供現有市占率或足以判定「極高」的基準。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪允許的 8 次聚焦研究工具呼叫上限；兩項原子主張仍缺少可核實的範圍與證據。",
+    "官方頁面未標示發布日期或適用期間。",
+    "公開資料未釐清原文所指的具體名單、產品市場、國內市場範圍、計量期間或市占率分母。",
+    "未找到足以證實或否定「市占率極高」的量化資料；資料未提及不等於反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1718/686/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d82eda91002f2073f55e9e9d8acf501922250fdf8d54de94a17a33b8abe1bbdd",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1718/686/isolated-prompt.txt",
+  "prompt_sha256": "f380f19ee5dd96e44fcb07f3e3110d81a41abd2cbc84bef52546551b34170cb9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000686/manifest.json",
+  "supersedes_manifest_sha256": "1093a3ba2967be907d6a2224eb7ed3a7189d4a5e007a9a2cdf9cca4c84046416",
+  "corrected_at": "2026-10-08T09:58:34Z"
+}

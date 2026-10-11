@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001266",
+  "claim_id": "5007:material_named_relationship:75fcb753c0bc1a29",
+  "normalized_claim_hash": "75fcb753c0bc1a29a4a46b5459ef0797a83eaed32a2324b3da2e35537ce9fd0c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2e4ef201a6d8b3c5",
+      "title": "三星科技-114年報",
+      "url": "https://www.sanshing.com.tw/download/investor4-114.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "第四章「營運概況」／一、「業務內容」／（一）業務範圍／2.目前之商品項目，PDF第71頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱產品並非直接供應汽車廠，而是供應予汽車廠的OEM廠商。"
+    },
+    {
+      "source_id": "src-57f4232a081b13ba",
+      "title": "《鋼鐵股》三星H2獲利拚好轉 看好切入AI伺服器、人型機器人",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202507310123122",
+      "source_level": 2,
+      "publication_date": "2025-07-31",
+      "effective_period": "截至2025-07-31的報導",
+      "locator": "報導中三星汽車扣件供應鏈段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "時報新聞轉載報導稱公司扣件長期供應Tier 1供應商，並以Mercedes-Benz、BMW作終端客戶例子。"
+    },
+    {
+      "source_id": "src-6fdce4dc42a97d27",
+      "title": "車市景氣看淡，三星今年營運恐衰退",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3f432b31-848a-4da5-89d3-379e2b697ae1",
+      "source_level": 2,
+      "publication_date": "2019-07-26",
+      "effective_period": "2019年報導所述期間",
+      "locator": "報導中三星客戶與供應鏈段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱客戶主要為各大車廠Tier 2、Tier 3供應商；屬歷史性二級來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對公司FY2025年報及兩則不同年份的供應鏈報導；官方年報未提供Tier分類，Tier 2關係僅有2019年二級來源支持，因此目前Tier 2關係及原 claim 所暗示的當前、完整Tier 1/Tier 2覆蓋範圍仍未解決。",
+    "公司最新查得的年報支持終端品牌使用及間接供貨路徑，但未將客戶正式分列為Tier 1或Tier 2。",
+    "Tier 1與Tier 2分類來自不同年份的二級來源；未查得公司披露的當前Tier客戶清單、定義、銷售占比或數量。",
+    "「全球各大」不能據已列舉的若干終端品牌推廣為涵蓋所有主要品牌；年報也未按品牌量化供貨。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5007/1266/hermes-attempt-1.stdout.txt"
+}

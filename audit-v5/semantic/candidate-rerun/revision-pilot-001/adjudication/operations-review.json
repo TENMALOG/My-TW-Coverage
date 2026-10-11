@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-10T06:58:27.062285+00:00",
+  "claim_id": "revision:c10fec7aa2a88fc393e2:29d8a1d8ca7a7d60",
+  "cause": "Bare 401 regex matched a request-ID substring in a service reconnect error, incorrectly stopping the queue as quota_or_auth_failure.",
+  "observed_false_match_context": [
+    "nai.com if the error persists. Please include the request ID 6eaaa6e6-a258-4016-b213-4d38f33f80ba in your message.)\"}"
+  ],
+  "correction": "Require HTTP/status/error-code context or explicit Unauthorized/Too Many Requests wording; retain text-based quota guards.",
+  "new_controller_sha256": "de9073abf543a54849a6c0ebcc5bebd9d762720a2a9dddd6bd5e9a97fa592ce6",
+  "existing_model_outputs_changed": false
+}

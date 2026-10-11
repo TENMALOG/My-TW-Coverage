@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001217",
+  "claim_id": "4722:material_named_relationship:91f6aff6a0b18ed3",
+  "normalized_claim_hash": "91f6aff6a0b18ed3f869ddbe46cc976e0168ff46f5f0f9da384299c2c3bf0491",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-74aea3f85f15ca71",
+      "title": "國精化獲CCL大廠追單",
+      "url": "https://money.udn.com/money/amp/story/5710/9172918",
+      "source_level": 2,
+      "publication_date": "2025-12-01",
+      "effective_period": "截至報導日的供應鏈驗證及出貨情況",
+      "locator": "第9、11、17段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列出台光電、台燿、斗山、生益科技等，未列聯茂；未列不構成聯茂不是客戶的反證。"
+    },
+    {
+      "source_id": "src-25af04a2d0312661",
+      "title": "國精化學2025年11月7日法人說明會簡報",
+      "url": "https://www.qualipoly.com/files/4722%E5%9C%8B%E7%B2%BE%E5%8C%96%E5%AD%B820251107%E6%B3%95%E8%AA%AA%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-07",
+      "effective_period": "截至2025-11-07的公司簡報所述市場方向",
+      "locator": "第19頁（PDF P19，高速通訊5G/6G基礎建設）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司資料只支持較廣義的5G/6G基礎建設方向，沒有具體列明基地台。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱國精化官方法說會簡報及針對命名供應鏈關係的報導，並以精確中文詞組補查聯茂及5G基地台。證據足以支持AI伺服器應用方向，但主要客戶排名、聯茂客戶關係及基地台這一具體終端用途仍缺乏所需範圍與分母資料，故保留為UNKNOWN並停止查找。",
+    "客戶關係的供應鏈驗證或出貨，不等於「主要客戶」；來源未提供客戶集中度、銷售占比或排名分母。",
+    "經濟日報報導載明國精化對相關客戶內容不便評論；應將其對供應鏈及驗證出貨的報導視為有來源歸屬的二手證據，而非已披露的客戶銷售排名。",
+    "公司簡報的AI伺服器及5G/6G基礎建設資訊支持應用方向，但未量化各應用的出貨、營收或占比；5G/6G基礎建設不能直接等同於5G基地台。",
+    "未見聯茂為國精化主要客戶的可靠證據；未列名不構成不存在客戶關係的反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4722/1217/hermes-attempt-1.stdout.txt"
+}

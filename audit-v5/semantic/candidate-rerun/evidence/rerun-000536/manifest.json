@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000536",
+  "claim_id": "8478:objective_ranking_or_market_share:803bb81e8eda9129",
+  "normalized_claim_hash": "803bb81e8eda91299c57458dc8e1dc83cc4a59cb1d04e6a695fe8b080f6206a0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a40264c003b6c556",
+      "title": "About MarineMax Yachts",
+      "url": "https://www.marinemax.com/yachts/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“Largest Dealership” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports over 50 stores and specialist yacht sales and service centers in the USA (an absolute count); it does not state a percentage or market share."
+    },
+    {
+      "source_id": "src-df0c5c3d9f57b410",
+      "title": "東哥企業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=b88c6e84-de94-44c3-bab3-2335aa67f867",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介—沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary profile calls MarineMax the largest yacht-sales channel company in the U.S. and gives an approximate outlet count, but supplies no date, rank methodology, or market denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after five focused research turns. The available primary and secondary evidence does not resolve the U.S.-only ranking on a defined basis or the unexplained 50%+ figure.",
+    "MarineMax's ranking language is its own company description; no independent ranking with a defined metric and comparison set was located.",
+    "The official MarineMax page's “over 50” is a store/center count, not 50%+.",
+    "The claim's period and the percentage's metric and denominator are unspecified."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8478/536/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001012",
+  "claim_id": "2383:material_named_relationship:db9504c222045fa9",
+  "normalized_claim_hash": "db9504c222045fa90e92399a88633d91c3c48d302eb52a1607efc8b7233fd3be",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b2e8235efc331330",
+      "title": "焦點股》台光電：韓廠斗山搶單？股價連兩日重挫",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4605997",
+      "source_level": 2,
+      "publication_date": "2024-03-13",
+      "effective_period": "H100 供應關係及當時對 B100 訂單的市場預期",
+      "locator": "文中法人分析段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "H100 OAM／UBB 獨供與 B100 訂單 80% 以上是兩項不同陳述；後者不能外推至 GB200／GB300。"
+    },
+    {
+      "source_id": "src-f0262b05dec1f5b5",
+      "title": "Taiwan IT Hardware Industry Report",
+      "url": "https://www.kgi.com.hk/zh-hk/-/media/files/kgishk/research-reports/tw-reports/it-hardware-07072025e.pdf",
+      "source_level": 2,
+      "publication_date": "2025-07-07",
+      "effective_period": "報告中的 2025 年供應鏈分析；GB200 NVL72、B200／300",
+      "locator": "圖 19：主要 CPU 及 ASIC 伺服器 CCL 及 PCB 規格比較",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出 CCL 供應商及板型，未提供份額，也不能用 Switch Tray 供應關係替代 OAM／UBB 供應證據。"
+    },
+    {
+      "source_id": "src-55042342d8e5b5ce",
+      "title": "台光電子材料股份有限公司 2025 年報",
+      "url": "https://www.emctw.com/upload/media/New_Investors/Financial_Information/Annual_Reports/CH/2025.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-01",
+      "effective_period": "2025 年度營運；年報刊印日為 2026-05-01",
+      "locator": "致股東報告書第 2 頁；PDF 第 5 頁，行 136–162",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其 AI 伺服器應用市佔率領先、並為全球主要 AI 伺服器品牌核心供應商，但未點名 NVIDIA、GB200／GB300、OAM／UBB 或其份額。"
+    },
+    {
+      "source_id": "src-3efd63cfdaa607ec",
+      "title": "台光電（2383）AI 伺服器：市佔率評析與供應鏈驗證邏輯",
+      "url": "https://vocus.cc/article/68594fa3fd8978000132d4ca",
+      "source_level": 1,
+      "publication_date": "2025-06-23",
+      "effective_period": "文章轉述 2025-06-23 元大投顧對 GB200／GB300 GPU UBB 的估計",
+      "locator": "「台光電 AI 伺服器市佔率拆解」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章轉述台光電在 GB200／GB300 UBB 約為 20–25% 二供；屬二手轉述，未直接核驗原始券商報告，僅作 caveat。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找並核對發行人 2025 年報及供應鏈研究資料；公開證據仍未解析 GB200／GB300 的指定板型供應關係，也未界定或驗證「超過 80%」的期間與分母。",
+    "台光電最新查得的 2025 年報披露 AI 伺服器材料的概括性領先地位，但未點名 NVIDIA 或披露指定 GPU 世代及板型份額。",
+    "市場供應鏈報告可作為交叉參考，但供應商名單不等同於完整供貨比例；同一系統中的 OAM、UBB、Switch Tray 等板型不可互換。",
+    "GB200／GB300 UBB 的 20–25% 數字來自投資評論對券商報告的轉述，未取得原始報告直接核驗。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2383/1012/hermes-attempt-1.stdout.txt"
+}

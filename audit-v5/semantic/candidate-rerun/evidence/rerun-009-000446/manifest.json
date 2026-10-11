@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000446",
+  "claim_id": "2882:objective_ranking_or_market_share:bdb9b99f8967d1f7",
+  "normalized_claim_hash": "bdb9b99f8967d1f703f1167b92f5a58744672c9c710c2811ade497439dedae12",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-dad7add1c61257dd8cc6",
+      "title": "2026年第一季法人說明會",
+      "url": "https://www.cathayholdings.com/holdings/-/media/7aee001d75d7457194a79e50e571e399.pdf?sc_lang=zh-tw",
+      "source_level": 3,
+      "publication_date": "2026-05",
+      "effective_period": "2026-03-31",
+      "locator": "第4頁，「總資產排名 (US$bn)」圖表及「2026/3/31 總資產」註記；同業排序以「國泰」起列。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "國泰金控官方投資人簡報；圖表比較台灣主要金控同業的總資產排名。"
+    },
+    {
+      "source_id": "src-ac6fc7d2eda923da863f",
+      "title": "國泰金控王接班大戲 蔡宏圖長子蔡宗翰進董事會引爆熱議",
+      "url": "https://www.mirrordaily.news/story/6068",
+      "source_level": 2,
+      "publication_date": "2025-06-13",
+      "effective_period": "2025-06-13",
+      "locator": "報導第二段，描述霖園集團與國泰金控的關係。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鏡報次級媒體來源；原文稱國泰金控為霖園集團「最主要的核心」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩項原子主張均找到對應證據，且已限定資產排名期間；在研究回合上限前停止。",
+    "資產排名來自國泰金控官方簡報，排名圖表比較的是其列示的台灣主要金控同業，並非本次查核取得的金管會全體金控逐家排名表；此處支持的是截至2026年3月31日的排名。",
+    "霖園集團核心地位由媒體報導支持，未找到本次查核中直接採用該分類的官方集團資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2882/446/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6fd569085f63dd09b29704050f62976b2e875f3bd6336f5ca7acac454a80b6c6",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2882/446/isolated-prompt.txt",
+  "prompt_sha256": "6d508af4d9d9d719e925a864c2a9c999b3915e63177c45c35ea4b7f36faf12aa",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000446/manifest.json",
+  "supersedes_manifest_sha256": "eeca08590478d2f7af3e375a7aeac310180ce7b5f8fc098aa9d6aec0be2507ac",
+  "corrected_at": "2026-10-08T09:58:13Z"
+}

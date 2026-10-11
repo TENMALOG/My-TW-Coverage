@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000953",
+  "claim_id": "6530:material_named_relationship:02c3945e52c21e28",
+  "normalized_claim_hash": "02c3945e52c21e281d143fa29dda81bbeb4866fca55d3e5a84dc697b649d5499",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f016d24288cfd3fb",
+      "title": "創威光電股份有限公司104年度年報",
+      "url": "https://axcen.com.tw/upload/doc/201703291452420.pdf",
+      "source_level": 3,
+      "publication_date": "2016-05-09",
+      "effective_period": "2015年度；年報於2016-05-09刊印",
+      "locator": "PDF第55頁（印刷頁碼51），技術及研發概況，行1716–1718",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報同樣稱「A級評比」，未說明為正式認證。"
+    },
+    {
+      "source_id": "src-e7f6d9bb029958b7",
+      "title": "創威光電 獲中華電A級供應商",
+      "url": "https://www.axcen.com.tw/tw/news/12/44?page=1",
+      "source_level": 3,
+      "publication_date": "2015-07-23",
+      "effective_period": "截至2015-07-23的歷史描述",
+      "locator": "正文，頁面第18行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱獲得「A級」評比；未載明正式認證制度或證書。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成5輪聚焦檢索後，找到的直接正面證據限於2015–2016年創威自述；近期供應狀態及「評比」是否屬正式認證仍無可靠證據，故保留為UNKNOWN。",
+    "核心正面證據來自創威自身網站及年報，並非中華電信出具的供應商名冊、評比結果或認證文件。",
+    "披露描述的是光收發模組供應及「A級評比」；未提供採購金額、供應排名分母、評比標準、效期或數量。",
+    "沒有找到近期直接確認，不構成供應關係已終止的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6530/953/hermes-attempt-1.stdout.txt"
+}

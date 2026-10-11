@@ -1,0 +1,74 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000013",
+  "claim_id": "6175:objective_ranking_or_market_share:08043f1f1f8247cf",
+  "normalized_claim_hash": "08043f1f1f8247cf3d2f4443af4779b9aa4a01ec8a3b6875f354d845486f659e",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-3db80e8dbc9c85d9569d",
+      "title": "Nippon Chemi-Con Corporation, 11th Medium-term Management Plan",
+      "url": "https://www.chemi-con.co.jp/en/company/ir/library/presentation/pdf/explanatory_2025q4_2-E.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 estimate; 2028 target; 2031 and beyond vision",
+      "locator": "Slide 7, “Medium to Long-term Management Vision,” market-share chart",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shows Chemi-Con at 15% for 2024, a 2028 target of 16% or higher, and a 2031-and-beyond target of 20% or higher; labels the 2024 figures as estimates based on external research. The share denominator and underlying research methodology are not stated in the chart."
+    },
+    {
+      "source_id": "src-86c5194671d1cc7f78e4",
+      "title": "Nichicon, Aluminum Electrolytic Capacitors",
+      "url": "https://www.nichicon.co.jp/english/products/aec/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product page heading and product types",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company page describes Nichicon's aluminum electrolytic capacitor range."
+    },
+    {
+      "source_id": "src-f4a91186299585b9288b",
+      "title": "Rubycon Corporation, Aluminum Electrolytic Capacitors",
+      "url": "http://rubycon.co.jp/en/products/alumi",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product page, “Aluminum Electrolytic Capacitors” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company page describes multiple types and applications of Rubycon aluminum electrolytic capacitors."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches and issuer disclosures did not establish an achieved approximately 20% share for a specified period and denominator. The unresolved scope cannot be recovered from the isolated wording, so that atom remains UNKNOWN.",
+    "The isolated wording gives no period or denominator for the approximately 20% share assertion.",
+    "The issuer's 2024 estimate is attributed to external research, but the chart does not identify the underlying source or whether share is measured by value or volume.",
+    "The issuer's future share figures are targets or vision statements, not evidence that those shares were achieved."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6175/13/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "3a5f5664815e4c68dc926e65b9c5bb49dd03a4d42b134ecaf9fbb3be60aa390d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6175/13/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "790d2afe6d5dabacd07d92a92d194fe41ca7e7fd4b84fcff4b6da871f9c8ac1a",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

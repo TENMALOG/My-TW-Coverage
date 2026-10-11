@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001082",
+  "claim_id": "6272:material_named_relationship:26fd9e31be5e5d75",
+  "normalized_claim_hash": "26fd9e31be5e5d759a39bf6931bed7d343870da24203843b1e2dabfe8ac02144",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fa4884149520a355",
+      "title": "AI/車用雙回溫，驊陞下半年轉成長可期",
+      "url": "https://m.moneydj.com/f1a.aspx?a=df7731c5-805c-4e60-a440-2f72d6a40d16&c=MB06",
+      "source_level": 2,
+      "publication_date": "2026-06-02",
+      "effective_period": "報導所述當時的AI伺服器出貨及車用需求",
+      "locator": "導言及「智能電子部分」「車用部分」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導AI伺服器連接器出貨與車用需求回升，未稱新能源車滲透率是同期營運增長原因，也未量化兩者合計貢獻。"
+    },
+    {
+      "source_id": "src-9befab784a7e2091",
+      "title": "歡慶驊陞科技（6272）正式掛牌上市 — 智能與車用電子雙引擎開啟成長新紀元",
+      "url": "https://www.wieson.com/news-view.php?lang=tw&sn=94",
+      "source_level": 3,
+      "publication_date": "2025-12-23",
+      "effective_period": "公司於2025-12-23發布的未來發展策略",
+      "locator": "「面對未來需求」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將AI智能高速傳輸與車用電子列為雙引擎發展核心；不是對特定AI伺服器與新能源車滲透率共同營運效果的量化驗證。"
+    },
+    {
+      "source_id": "src-2fb552b007491092",
+      "title": "驊陞IPO上市案 證交所董事會通過",
+      "url": "https://www.wieson.com/news-view.php?lang=tw&sn=88",
+      "source_level": 3,
+      "publication_date": "2025-08-27",
+      "effective_period": "公司所述長期AI-GPU顯示卡連接器合作；未提供起訖日期",
+      "locator": "「長期與國際頂尖AI-GPU晶片大廠緊密合作」及「高階AI-GPU顯示卡高頻高速連接器」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持AI-GPU顯示卡連接器合作，不足以證明NVIDIA具名關係或AI加速器伺服器供應。"
+    },
+    {
+      "source_id": "src-a4faa528dc1dfb9b",
+      "title": "新能源車市占持續攀升 帶動驊陞車電營收創新高",
+      "url": "https://www.wieson.com/news-view.php?lang=tw&sn=86",
+      "source_level": 3,
+      "publication_date": "2025-04-24",
+      "effective_period": "2024年車用業務實績",
+      "locator": "首段及車用子公司營收與集團營收占比段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持新能源車相關車用業務曾是集團成長引擎，但不涵蓋同期AI伺服器供應鏈切入的共同營運效果。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對公司官方披露、AI伺服器出貨報導及新能源車營運資料的檢索；剩餘未解部分涉及具名NVIDIA關係、AI加速器伺服器的精確供應範圍，以及兩項因素共同推升營運的同期因果與分母，現有來源不足以確認。",
+    "GPU廠AI伺服器出貨細節主要來自MoneyDJ二手報導；公司官方資料提供較廣義的GPU廠及AI資料中心供應鏈陳述。",
+    "公司官方新聞稿屬發行人自述；車用與AI業務的營運因果及量化貢獻未由獨立分部數據完整驗證。",
+    "「NVIDIA」及「AI加速器伺服器」的具體客戶與產品範圍未由已找到的來源確認。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6272/1082/hermes-attempt-1.stdout.txt"
+}

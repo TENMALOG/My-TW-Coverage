@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000856",
+  "claim_id": "6508:export_concentration:d679e0352a3e6a29",
+  "normalized_claim_hash": "d679e0352a3e6a290698650ae9b64bbdb909eee4ab9228cd290ec59e66ed4816",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-67315db2f156d6c2",
+      "title": "惠光股份有限公司 2024 Annual Report",
+      "url": "https://www.huikwang.com/wp-content/uploads/2026/03/%E6%83%A0%E5%85%89113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%E8%8B%B1%E6%96%87-%E6%9B%B4%E6%96%B0.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-26",
+      "effective_period": "2025年2月",
+      "locator": "第7頁，Future Development Strategies; cotton insecticide registered in U.S. market in February 2025",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方年報確認登記及預期貢獻，不單獨量化後續銷售。"
+    },
+    {
+      "source_id": "src-a054f102292a3935",
+      "title": "惠光114年4月營收2.31億、年增64.19%",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=b43868d4-7cc8-44d5-9449-55b97376f802",
+      "source_level": 2,
+      "publication_date": "2025-05-08",
+      "effective_period": "2025年4月",
+      "locator": "營收說明備註；2025年4月營收及年增率",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導轉述公司說明；所述成長因素包括美國新增銷售市場與中國大陸案場訂單，未拆分各因素貢獻額。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成本輪限定範圍的檢索；可核實的公司官方年報支持部分市場及美國登記資訊，但中國大陸比例與 claim 不符，澳洲主要外銷市場的分母及產品範圍仍未明確。",
+    "2024年地區銷售佔比是年報可核實的最近完整年度資料；未取得可核實的2025年地區占比。",
+    "年報地區表以全公司合併產品銷售額為分母，不能與出口額占比或單一事業群市場分布混為一談。",
+    "美國市場帶動成長的佐證限於2025年4月營收說明，且同時列出中國大陸地工材料訂單，未提供各因素的量化貢獻。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6508/856/hermes-attempt-1.stdout.txt"
+}

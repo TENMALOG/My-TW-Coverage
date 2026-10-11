@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000107",
+  "claim_id": "6593:objective_ranking_or_market_share:bcd8051088ba12eb",
+  "normalized_claim_hash": "bcd8051088ba12eba01371cb24c99da3d9adf451b8caa0da5963fad9ad7bc72f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1296295bfdd59115",
+      "title": "台灣信用卡製卡霸主 台灣銘板11月上櫃",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%81%A3%E4%BF%A1%E7%94%A8%E5%8D%A1%E8%A3%BD%E5%8D%A1%E9%9C%B8%E4%B8%BB-%E5%8F%B0%E7%81%A3%E9%8A%98%E6%9D%BF11%E6%9C%88%E4%B8%8A%E6%AB%83-095440218.html",
+      "source_level": 2,
+      "publication_date": "2017-09-19",
+      "effective_period": "Customer and order information reported in September 2017.",
+      "locator": "Paragraph beginning「台灣銘板表示，國內4大信用卡發卡行」.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report distinguishes three current major customer relationships from past cooperation with the fourth; it does not establish all-four core-supplier status or debit-card coverage."
+    },
+    {
+      "source_id": "src-baf63fc00d1489cd",
+      "title": "US7744005B2 - Induction card with a printed antenna",
+      "url": "https://patents.google.com/patent/US7744005B2/en",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "U.S. Patent 7,744,005 B2; application 12/015,492 filed 2008-01-16.",
+      "locator": "Patent record Info and Description sections; assignee and printed-antenna invention details.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Patent database record identifies Taiwan Name Plate Co Ltd as original assignee and describes a printed antenna coil in an induction card. The page links to USPTO records but is a third-party patent database."
+    },
+    {
+      "source_id": "src-d3318cfc9f5d5641",
+      "title": "台灣銘板成功轉型 國內4大發卡銀行 就有3家是他的客戶",
+      "url": "https://www.cmmedia.com.tw/home/articles/5706",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Bank relationships reported in pre-listing coverage in 2017.",
+      "locator": "Paragraph beginning「以國內4大信用卡發卡行」.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Corroborates three banks supplying over half their orders through Taiwan Name Plate and past cooperation with the fourth."
+    },
+    {
+      "source_id": "src-43c094bed0c21eeb",
+      "title": "台灣銘板11月掛牌上櫃 信用卡、銘板訂單雙成長",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/2198925",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Pre-listing coverage in 2017; exact measurement period for the 35% figure is unstated.",
+      "locator": "Opening paragraph and paragraph beginning「台灣銘板總經理印文正指出」.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Liberty Times reports a 35% share and also reports that three of the four leading card issuers were customers; the market-share denominator and calculation are not supplied."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after seven focused research turns. The remaining material gaps are the denominator and measurement period underlying the 35% figure, and evidence establishing core credit/debit-card supplier status across all four banks.",
+    "Most business and customer assertions are from 2017 media reports attributing information to company representatives, not independently audited market data.",
+    "The 35% figure is reported without a defined market-share denominator, unit, or calculation period.",
+    "The bank evidence distinguishes three then-current major customer relationships from prior cooperation with the fourth; it does not establish debit-card supply or core-supplier status for all four.",
+    "The patent record reviewed is a third-party patent database page that links to USPTO records; its title and assignee support a printed-antenna patent connection but do not independently validate every aspect of the company’s RFID technology claim."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6593/107/hermes-attempt-1.stdout.txt"
+}

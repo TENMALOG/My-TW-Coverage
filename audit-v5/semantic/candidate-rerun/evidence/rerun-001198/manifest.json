@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001198",
+  "claim_id": "6104:material_named_relationship:ccadff902f8888ec",
+  "normalized_claim_hash": "ccadff902f8888ec6b828608f86045a13132b884450098f48829b81a9b1e323f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-77c688b70b1a765d",
+      "title": "創惟 6104 年報查詢／114年度致股東報告（年報文字轉錄）",
+      "url": "https://treelazy.com/stock/6104",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025 (民國114年度)",
+      "locator": "致股東報告—研究發展狀況及未來發展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes products and technical capabilities, but provides no high-speed-transmission market ranking or market-share denominator."
+    },
+    {
+      "source_id": "src-44c7262ec3bda346",
+      "title": "任天堂Switch 2將登場 法人點名6104創惟 今明兩年EPS分別為3.4元及7.39元",
+      "url": "https://www.168abc.net/_News/Detail.aspx?News_Sn=775011",
+      "source_level": 1,
+      "publication_date": "2024-09-29",
+      "effective_period": "Previous generation; next generation discussed as upcoming in 2024",
+      "locator": "Article text, paragraph 219",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report distinguishes prior-generation 50% supply share from an analyst-attributed exclusive-supply claim for a new model; it does not resolve the original claim’s generation or reporting period."
+    },
+    {
+      "source_id": "src-1315dae41443c9ea",
+      "title": "創惟科技股份有限公司112年度年報",
+      "url": "https://genesyslogic.com.tw/upload/Shareholder/Meeting_20260503082658_0.pdf",
+      "source_level": 3,
+      "publication_date": "2024-04-22",
+      "effective_period": "FY2023",
+      "locator": "PDF pp. 10–12",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents product development and adoption examples, not a market-wide position."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成最多 8 個聚焦檢索回合；關鍵的代際、期間、需求分母及市場排名仍未由可核讀的官方披露解決，依任務限制停止。",
+    "創惟 FY2025 年報的可讀文字來自第三方轉錄頁面；官方 TWSE 年報 PDF 連結在本次檢索中逾時，故未將該官方 PDF 當作已直接核讀的證據。",
+    "Nintendo USB-IC 供應及世代市占資訊來自二手轉載，且部分內容歸因於未具名法人；不能視為創惟官方確認。",
+    "原 claim 未限定期間、Switch 世代、高速傳輸市場邊界或市場地位衡量方式。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6104/1198/hermes-attempt-1.stdout.txt"
+}

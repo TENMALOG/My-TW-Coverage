@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000785",
+  "claim_id": "1434:objective_ranking_or_market_share:78a69698062119b8",
+  "normalized_claim_hash": "78a69698062119b8c1274d7e8210711061af1debec5bfcf79ac379f79680174d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3180161e7cde653b",
+      "title": "福懋興業股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=10b7d8c9-e5b0-4c4a-9d9b-f793af05fb5c",
+      "source_level": 2,
+      "publication_date": "2025-07-21",
+      "effective_period": null,
+      "locator": "「公司簡介／沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接稱福懋為「台灣最大的輪胎簾布製造商」，但沒有列出排名期間、分母、產量或市占率；屬二手公司資料。"
+    },
+    {
+      "source_id": "src-303de35a8121dffe",
+      "title": "輪胎市況轉佳簾布需求增 福懋同步受惠｜鉅亨網",
+      "url": "https://news.cnyes.com/news/id/4527862",
+      "source_level": 2,
+      "publication_date": "2020-09-25",
+      "effective_period": "報導所述當時；截至2020-09-25",
+      "locator": "內文「而目前福懋客戶幾乎涵蓋國內各大廠」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列舉國內及國外輪胎廠客戶，支持該歷史期間有向國內外業者供貨；未提供供貨數量或後續客戶變動。"
+    },
+    {
+      "source_id": "src-a3b59ae01db854c7",
+      "title": "福懋興業股份有限公司2024年度年報",
+      "url": "https://www.ftc.com.tw/newftc/files.php?file=70aca3829dec527ed77e2df324969496&m=annual_report",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度回顧及2025年度展望",
+      "locator": "致股東報告書「114年度營業計畫概要」第2節「輪胎簾布」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱海洋回收聚胺6環保簾布已獲主要自行車廠及輪胎廠重視並陸續導入採用；未列客戶名稱或國內外供應分布。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核福懋官方2024年年報、官方公司資料及具名客戶的二手報導；未找到有明確期間、台灣市場比較範圍與產量或市占率指標的官方排名資料，因此排名原子維持UNKNOWN。",
+    "「台灣最大」僅見於未提供排名方法或市場數據的二手公司資料；官方資料未能核實其市場分母、排名期間或衡量單位。",
+    "具名國內外客戶名單來自2020年媒體報導，不代表目前客戶名單或供貨規模；官方年報較新資料未列出國內外具名客戶。",
+    "「大廠／主要輪胎廠」沒有量化門檻；可確認的是來源列舉的客戶及年報所述主要廠商導入採用，並無供貨量證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1434/785/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000617",
+  "claim_id": "5262:objective_ranking_or_market_share:f119d6b2ee83a82c",
+  "normalized_claim_hash": "f119d6b2ee83a82cb7883b9092e0b7d636ca8bb909b9b3a72616875af6a42bca",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8c58f1f7e711a406",
+      "title": "公司簡介 - GIGASTONE 立達國際電子",
+      "url": "https://tw.gigastone.com/page/11772/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "ROC year 105, as stated in the issuer’s company history",
+      "locator": "Company history; entry for ROC year 105",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer history says the brand was listed for sale on Costco’s online shopping platform."
+    },
+    {
+      "source_id": "src-ce451cf5ee63ed53",
+      "title": "Gigastone Bundles All Micro SD Cards With Complimentary Adapters to Focus on Customer Needs",
+      "url": "https://www.prnewswire.com/news-releases/gigastone-bundles-all-micro-sd-cards-with-complimentary-adapters-to-focus-on-customer-needs-300303693.html",
+      "source_level": 3,
+      "publication_date": "2016-07-25",
+      "effective_period": "2016 announcement; geography of individual named retailers not specified",
+      "locator": "Distribution and notable-customer paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes global big-box and e-commerce distribution and names retailers, but does not establish that the physical-retail relationships are US-specific."
+    },
+    {
+      "source_id": "src-0f3a7e8693e7a0a5",
+      "title": "立達國際電子股份有限公司",
+      "url": "https://www.tpex.org.tw/storage/co_report/2013/12/1387433416_13568_CH_%E6%AB%83%E8%B2%B7%E6%96%B0%E6%98%9F_5262.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013 company report",
+      "locator": "未來展望, 1. 業務發展",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Discusses local agents, physical stores, and online sales in a general retail-network context; it does not bind physical-store sales to the United States."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after a web-extract tool loop warning. The available evidence supports historical Amazon and Costco channel presence, but the Amazon customer ranking and US-specific physical-retailer scope remain unresolved.",
+    "Issuer-history entries establish historical channel activity, not necessarily current activity.",
+    "The company-provided 2016 press release lists notable customers but gives no customer ranking, sales denominator, or retailer-by-retailer geographic attribution.",
+    "The TPEX filing describes physical and online retail channels generally; it does not identify a US-specific physical-retailer relationship."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5262/617/hermes-attempt-1.stdout.txt"
+}

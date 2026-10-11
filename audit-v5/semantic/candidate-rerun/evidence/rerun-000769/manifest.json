@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000769",
+  "claim_id": "2002:objective_ranking_or_market_share:71c65f9aa39ab582",
+  "normalized_claim_hash": "71c65f9aa39ab582ae5eddc558c4265867c8624b7c3bf79c92640f92212a9b9c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a68587f89e196f1d",
+      "title": "中鋼公司-CSC",
+      "url": "https://www.csc.com.tw/csc/ch/ifo/ifo.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「中鋼簡介」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports crude-steel annual capacity of about 10 million metric tons; capacity does not establish annual production of 10.5 million tons."
+    },
+    {
+      "source_id": "src-e2ccaa5e9562f5d3",
+      "title": "111年度智財報告書",
+      "url": "https://www.csc.com.tw/csc/ts/int/download/int_report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022 (民國111年度 report; the output measurement year is not separately stated)",
+      "locator": "Chapter 1, §1.1.1, report page 4",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports annual crude-steel production exceeding 10 million metric tons, but not the exact 10.5-million figure or its measurement year."
+    },
+    {
+      "source_id": "src-a5f33a80be8e6d43",
+      "title": "DEVELOPMENT OF THE COMPANY — DRAGON STEEL CORPORATION",
+      "url": "https://www.csc.com.tw/csc_e/gc/gro_ste_p2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“BRIEF INTRODUCTION OF OPERATION”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "CSC’s official group page states Dragon Steel is located in Taiwan and describes its blast-furnace production line, two blast furnaces, three basic oxygen furnaces, and crude-steel capacity exceeding 6 million metric tons annually."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得官方公司資料支持最大企業的自述，並找到官方集團資料中的高爐一貫製程反例。對1,050萬噸產量，官方資料未提供可綁定特定年份的精確數值；不能以產能或未指明年份的「超過1,000萬噸」替代。",
+    "「最大」的比較口徑及排名指標未在引用的公司資料中明確定義。",
+    "Dragon Steel 的來源是 CSC 官方集團頁；其明確證明台灣另有具高爐與轉爐一貫製程的廠，但頁面未標示發布或資料有效日期。",
+    "年產能、年產量及粗鋼產量的具體測量年份不可互換；現有官方材料未核實無期間標註的1,050萬噸數字。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2002/769/hermes-attempt-1.stdout.txt"
+}

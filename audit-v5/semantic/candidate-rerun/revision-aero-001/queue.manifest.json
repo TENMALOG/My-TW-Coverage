@@ -1,0 +1,28 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "revision-aero-001",
+  "selection": {
+    "industry_folder": "Aerospace & Defense",
+    "rule": "all inventory parents whose current report is in this industry folder and not in any prior revision queue"
+  },
+  "created_at": "2026-10-10T17:03:06.753146+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 14,
+  "queue_sha256": "fcba9b7117c332cbb3ee707ce99c0c7ea126d92b4a32620ff570ae04eb520a5a",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/inventory.jsonl": "3c2b97edd0947c6b5248833a9147a90c3e14899c6048a85aadbe90a82199d553",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/queue.jsonl": "6ffe9737b5b318f78ba670e3e1ad7ee5e9ac1364889a84a85a9951afbbe4d435"
+  },
+  "prompt_template": {
+    "derived_from": "audit-v5/source-cache/candidate-rerun/adjudication/claims/9da61548d684833d6e4b/attempt-1/prompt-1.txt",
+    "sha256": "e08859be2c99a133cd99098d0e7d426ad5ec4284d0bf82b5aef6f335a407c8af"
+  },
+  "schema_template": {
+    "derived_from": "audit-v5/source-cache/candidate-rerun/adjudication/claims/9da61548d684833d6e4b/attempt-1/claim-output-schema.json",
+    "sha256": "cdcfa0a126c4dcb8eb3bde27285e34e3f8af54a27620cba94f6b634603352d4d"
+  },
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "1d30151c194d619b412f524adf35c962b54a0311991de3d0bc8207eef63ff6b2",
+  "original_acceptance_authority": false
+}

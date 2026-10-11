@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000761",
+  "claim_id": "9937:objective_ranking_or_market_share:2afddb814522cda5",
+  "normalized_claim_hash": "2afddb814522cda5357c14eeb4edfe17472006bfaad007bd2ea9f3833259c24a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-cc4754dbe29ad804",
+      "title": "2022永續報告書",
+      "url": "https://inv.npcgas.com.tw/html/investors/111%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-9937.pdf",
+      "source_level": 3,
+      "publication_date": "2023-09",
+      "effective_period": "2022-01-01 至 2022-12-31",
+      "locator": "利害關係人議合／利害關係人對本公司的意義—供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "「主要供應商」及汽、柴油由台塑石化提供，支持供應關係，但未明確聲明唯一或排他供應。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；官方資料支持汽、柴油供應關係，但未能確認 claim 中的「唯一」。依研究上限停止，唯一性保留 UNKNOWN。",
+    "證據來自全國加油站官方2022年度永續報告書，不足以推定其他期間的供應情況。",
+    "報告使用「主要供應商」一詞，且明確描述的是汽、柴油供應；不能將其擴大解讀為所有油品類別或排他供應。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9937/761/hermes-attempt-1.stdout.txt"
+}

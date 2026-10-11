@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000754",
+  "claim_id": "7795:objective_ranking_or_market_share:b856cd136904fdc5",
+  "normalized_claim_hash": "b856cd136904fdc59cbb7f93be7316d542bee9f778d17f4a123619bb0d18d8f7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4d25c13a0b3e3892",
+      "title": "長廣精機股份有限公司 - 首頁",
+      "url": "https://www.eternal-epm.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「產品服務」及產品應用介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示真空壓膜機及其應用，未提及醫療推桿；僅作已查資料範圍說明，不能據此判定該業務不存在。"
+    },
+    {
+      "source_id": "src-181f86d078d1f7c8",
+      "title": "新上市公司：長廣(7795) - 臺灣證券交易所",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d69a3d6cf9019bc0c50dad0740",
+      "source_level": 3,
+      "publication_date": "2026-01-16",
+      "effective_period": "公司上市介紹",
+      "locator": "「公司簡介與營運模式」及「核心產品與技術優勢」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "介紹長廣半導體封裝設備及真空壓膜機業務，未提及醫療推桿；此處未提及不等於反證。"
+    },
+    {
+      "source_id": "src-35295ebd0a468c06",
+      "title": "AI、HPC全面爆發！ABF設備供不應求　長廣站在風口明年1月上市",
+      "url": "https://inews.setn.com/news/1767372",
+      "source_level": 2,
+      "publication_date": "2025-12-18",
+      "effective_period": "報導發布時；未列明市佔統計期間",
+      "locator": "長廣總經理談市場地位段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體轉述公司稱全球中高階真空壓膜機市佔率 95%；市場範圍與分母口徑未充分交代。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官網、證交所資料及醫療推桿關聯的聚焦檢索；市佔精確分母與期間、以及醫療推桿關聯仍無可靠證據可解決。",
+    "95% 市佔數字可追溯至公司官網自述及媒體轉述，但沒有找到公開的市場分母、統計方法或明確統計期間。",
+    "證交所資料支持長廣在高階 ABF 載板壓膜設備市場居領先地位，並未確認 95% 這個精確數值。",
+    "未找到醫療推桿與長廣的可靠關聯證據；這不代表已證明該關聯不存在。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7795/754/hermes-attempt-1.stdout.txt"
+}

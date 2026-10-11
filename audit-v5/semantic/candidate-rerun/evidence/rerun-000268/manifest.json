@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000268",
+  "claim_id": "2355:objective_ranking_or_market_share:e2751dcf4f662431",
+  "normalized_claim_hash": "e2751dcf4f6624316729cfbae6f043526e954821e293a8e8e8a955b2279c54be",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0d73602de0c382b1",
+      "title": "電動車帶領PCB技術再進化",
+      "url": "https://www.moea.gov.tw/MNS/doit/industrytech/IndustryTech.aspx?menu_id=13545&it_id=455",
+      "source_level": 3,
+      "publication_date": "2022-12-21",
+      "effective_period": null,
+      "locator": "Paragraph discussing Taiwan automotive PCB makers; states Chin Poon is the world's fourth-largest automotive PCB manufacturer.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Ministry of Economic Affairs article. It gives no underlying data year, ranking measure, denominator, or cited ranking dataset."
+    },
+    {
+      "source_id": "src-c43a4bd0113b3406",
+      "title": "【PCB】由敬鵬(2355)看車用PCB市場何時復甦",
+      "url": "https://uanalyze.com.tw/articles/375404706",
+      "source_level": 2,
+      "publication_date": "2024-02-27",
+      "effective_period": null,
+      "locator": "Opening discussion states global fourth place and approximately 10% market share.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary analyst commentary; it gives no market-share denominator, calculation, or specific measurement year."
+    },
+    {
+      "source_id": "src-0bf6a4765e608a34",
+      "title": "敬鵬法人說明會 (2017 Investor Conference Presentation, Mandarin)",
+      "url": "http://www.chinpoon.com/archive/download/item/20170919%20Chin%20Poon%20Investor%20Conference%20Presentation_Mandarin.pdf",
+      "source_level": 3,
+      "publication_date": "2017-09-19",
+      "effective_period": "2016",
+      "locator": "Slide headed「全球第一大汽車板廠 2016」, market-share table and explanatory notes.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer reports 2016 shares of 13.1%, 11.7%, and 10.0%. The three denominators are, respectively, Fuji Chimera Research Institute's estimated US$4.19 billion market, IHS's estimate based on 93.57 million vehicles multiplied by US$50 per vehicle (US$4.6785 billion), and N.T. Information's estimated US$5.50 billion market. These are historical estimates with materially different denominators."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Eight focused research turns were used. The claim remains unresolved because available current-context assertions lack a disclosed measurement period and ranking or market-share basis; older issuer data cannot be substituted for the unqualified claim.",
+    "The Ministry article is an official dated statement, but it does not identify the ranking's effective period, metric, denominator, or original dataset.",
+    "The 2024 UAnalyze article repeats the fourth-place and approximately 10% assertions without disclosing their underlying data or methodology.",
+    "The issuer's 2016 presentation shows that market-share estimates vary materially by denominator and is too old to establish the unqualified claim."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2355/268/hermes-attempt-1.stdout.txt"
+}

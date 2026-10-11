@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000077",
+  "claim_id": "2845:objective_ranking_or_market_share:f2164388106df7ee",
+  "normalized_claim_hash": "f2164388106df7eebcdf3896fed9ccadf6553d4732b7dfbdc317c57ed00ddd3f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-09ab46ddbee0b0b0",
+      "title": "遠東商銀Bankee榮獲《全球經濟雜誌》頒發「最佳創新數位銀行」獎",
+      "url": "https://www.feg.com.tw/tw/news/news_detail.aspx?id=12556",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "文章所稱「至目前為止」；頁面擷取內容未顯示明確發布日。",
+      "locator": "「掌握全臺九成虛擬資產金流」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "遠東商銀官方新聞稿稱自2019年起提供服務，並稱負責全臺97%以上虛擬資產出入金金流；未交代市占計算分母或方法。"
+    },
+    {
+      "source_id": "src-af5f9d8f4cb63d5f",
+      "title": "遠銀雄霸虛擬資產金流服務 啟動跨域防詐",
+      "url": "https://www.storm.mg/article/11093732",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導所述當時；文章稱9家VASP中有5家選擇遠銀，但確切發布日期未核實。",
+      "locator": "文章首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱5家VASP選擇遠銀作信託架構金流服務銀行，並稱國內VASP市場金流服務市占率逾95%；未交代百分比的計算分母、單位或期間。"
+    },
+    {
+      "source_id": "src-cf29d25fcb66f966",
+      "title": "金管會公告完成洗錢防制登記之提供虛擬資產服務之事業或人員名單",
+      "url": "https://www.fsc.gov.tw/ch/home.jsp?id=96&parentpath=0,2&mcustomize=news_view.jsp&dataserno=202509220001&dtable=News",
+      "source_level": 3,
+      "publication_date": "2025-09-22",
+      "effective_period": "2025-09-22公告時：9家業者完成洗錢防制登記。",
+      "locator": "新聞稿首段及VASP登記制度說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "金管會說明VASP提供服務前應完成洗錢防制登記，並公告當時有9家完成登記。此為AML登記狀態及歷史家數，不等同新法許可或現況名單，也未確認其中哪些業者選擇遠銀。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對發行人與金管會一手資料及直接涉及信託架構的媒體報導；在研究範圍內未找到可確認信託金流市占分母、計算方法及現行期間的公開資料，故保留該原子主張為UNKNOWN。",
+    "遠銀的97%數字是發行人自述，沒有公開計算方法或分母，且涵蓋的出入金金流不必然等於信託架構金流。",
+    "風傳媒報導直接涉及信託架構及5家合作業者，但其逾95%市占數字未說明衡量單位、分母或期間。",
+    "金管會資料確認的是2025-09-22時有9家完成洗錢防制登記；登記不等於新法許可，且VASP名單會變動。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2845/77/hermes-attempt-1.stdout.txt"
+}

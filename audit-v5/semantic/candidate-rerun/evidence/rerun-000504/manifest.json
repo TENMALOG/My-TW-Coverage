@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000504",
+  "claim_id": "6505:objective_ranking_or_market_share:7f3ac62fdb7f42ab",
+  "normalized_claim_hash": "7f3ac62fdb7f42abfd0108723b3f004214b3e96bb37334928f177864d1c4c541",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-63e3783a744e2158",
+      "title": "台塑石化股份有限公司及子公司合併財務報告暨會計師核閱報告（2025年第三季）",
+      "url": "https://www.fpcc.com.tw/uploads/images/ir/114Q3%E4%B8%AD%E6%96%87%E5%90%88%E4%BD%B5.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-05",
+      "effective_period": "截至2025-09-30",
+      "locator": "附註一「公司沿革」，第10頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載公司設廠於雲林縣麥寮鄉台塑企業麥寮園區，主要營業項目包括提煉石油及碳氫化合物製造。"
+    },
+    {
+      "source_id": "src-55e121c20a6eec71",
+      "title": "2023 Annual Report",
+      "url": "https://www.fpcc.com.tw/uploads/images/ir/2023%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報所述現況（2023年度）",
+      "locator": "Foreword",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為台灣目前唯一民營石油煉製企業。"
+    },
+    {
+      "source_id": "src-41f48ecb91dac54f",
+      "title": "台塑企業簡介（2025企業簡介）",
+      "url": "https://www.fpg.com.tw/uploads/images/media-center/ebook-top/2025/2025%20intro_CH_0714.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025企業簡介所述現況",
+      "locator": "第8至9頁及第14頁「六輕計畫」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "介紹台塑石化煉油廠及麥寮廠區，並說明六輕計畫位於雲林縣麥寮鄉。"
+    },
+    {
+      "source_id": "src-20eb310745138023",
+      "title": "關於我們－公司沿革－台塑石化股份有限公司",
+      "url": "https://www.fpcc.com.tw/tw/about/history",
+      "source_level": 3,
+      "publication_date": "2023-05-25",
+      "effective_period": "1992年4月",
+      "locator": "1992年4月公司成立沿革項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司沿革記載資本額新台幣150億元，由台塑、南亞、台化、福懋、台朔重工等公司共同投資。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得台塑石化及台塑企業官方沿革、年報、企業簡介與廠區資料，原句各原子均有直接支持；停止進一步搜尋，提交候選供最終裁定。",
+    "「唯一民營」由公司及母集團官方資料明確支持；本次未找到獨立主管機關按煉油業者逐一列示的現行名冊，因此此排名性敘述仍宜由最終審核者確認其市場界定。",
+    "官方資料對廠區的名稱使用「台塑企業麥寮園區」、「麥寮廠區」及「六輕計畫」等表述；支持所在地與六輕關聯，但名稱未必是同一正式地名。",
+    "證據主要為公司及台塑企業的第一方披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6505/504/hermes-attempt-1.stdout.txt"
+}

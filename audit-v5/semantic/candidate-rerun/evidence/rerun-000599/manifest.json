@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000599",
+  "claim_id": "3264:objective_ranking_or_market_share:60de4d8a051579fe",
+  "normalized_claim_hash": "60de4d8a051579fe0ad92037156e26dee31a1a04d048d594af4ce684500393b3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1b09c56ccfa4d96a",
+      "title": "【台股研究報告】欣銓(3264)車用需求將迎來復甦，攜手全球大客戶為營運加速！",
+      "url": "https://cmnews.com.tw/article/3471-b26005eb-d8c8-11ef-8d7d-b0605229aeea",
+      "source_level": 2,
+      "publication_date": "2023-12-04",
+      "effective_period": "Discusses 2023 operations.",
+      "locator": "Sections “公司簡介” and “欣銓車用五大客戶，在全球車用半導體市場維持高市佔率！”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Renesas, TI, and Infineon and describes close cooperation; the report is secondary, not an issuer confirmation."
+    },
+    {
+      "source_id": "src-114e0c7e04807983",
+      "title": "車用、高階需求護體 欣銓下半年營運看穩",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0cc3f110-2986-4857-b953-75accf6dc162",
+      "source_level": 2,
+      "publication_date": "2022-08-01",
+      "effective_period": "Reports 2022 H1 revenue mix and customer relationships.",
+      "locator": "Paragraph beginning “欣銓為專業半導體測試廠”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists TI, NXP, STMicro, Infineon, and Renesas among important IDM customers; describes automotive/ security as an application category."
+    },
+    {
+      "source_id": "src-72ab2640993d9fa2",
+      "title": "欣銓科技大舉投資285億元 強化半導體測試服務產能",
+      "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=123486",
+      "source_level": 3,
+      "publication_date": "2026-07-31",
+      "effective_period": "General company/customer relationship statement; no automotive-specific period given.",
+      "locator": "Company description in the Ministry of Economic Affairs announcement.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Officially describes the company as an important strategic partner to multiple global heavyweight customers, but does not identify automotive IC customers or confirm designated testing status."
+    },
+    {
+      "source_id": "src-aab0ecc3e76625af",
+      "title": "[TW] 3264 欣銓 – 歷年法說會",
+      "url": "https://solidinvesting.wordpress.com/2019/02/24/tw-3264-%E6%AC%A3%E9%8A%93-%E6%AD%B7%E5%B9%B4%E6%B3%95%E8%AA%AA%E6%9C%83/",
+      "source_level": 1,
+      "publication_date": "2019-02-24",
+      "effective_period": "Summarizes investor-call material through 2018 Q2.",
+      "locator": "“車用電子” item 4; author describes a summary of four investor calls.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Says the five largest automotive IDM vendors were customers and that 欣銓 was an important Asian partner for Tier 1 automotive IC vendors, sometimes the only one. This is a secondary personal summary, not the original issuer disclosure, and does not establish formal designation terms."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks located relevant customer and market-share context, but no official evidence for the claimed testing-services market share or formal designation. Further inference from the customers’ MCU market share would substitute a different denominator.",
+    "The located “over 80%” figure refers to the combined automotive MCU market share of five customer IDMs, not 欣銓’s share of automotive MCU testing services.",
+    "The reports identifying automotive IDM customers are secondary sources. Customer relationships do not by themselves establish a testing-market share or formal designation.",
+    "No official issuer or regulator disclosure located in this research establishes the claimed testing-market denominator, measurement period, or greater-than-80% figure."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3264/599/hermes-attempt-1.stdout.txt"
+}

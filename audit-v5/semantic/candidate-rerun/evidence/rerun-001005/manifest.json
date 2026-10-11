@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001005",
+  "claim_id": "3665:material_named_relationship:d75e95843aa246a6",
+  "normalized_claim_hash": "d75e95843aa246a6532b9d480e17f59062e31b83d25225e4a17126c9a597f023",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-cd7546e550ddf786",
+      "title": "F-貿聯 不只是特斯拉概念股",
+      "url": "https://www.moneyweekly.com.tw/Magazine/Info/%E7%90%86%E8%B2%A1%E5%91%A8%E5%88%8A/24885/",
+      "source_level": 2,
+      "publication_date": "2015-03-26",
+      "effective_period": "Reports relationship start in 2006 and supplier status in 2015, but not continuous status.",
+      "locator": "Article paragraph beginning “F-貿聯是電動車巨擘特斯拉…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Does not specify that major-supplier status applied continuously from the start of cooperation."
+    },
+    {
+      "source_id": "src-120b80d7241de4f4",
+      "title": "BizLink 2023 Sustainability Report",
+      "url": "https://drive.google.com/file/d/1_fz5gMFNpIXjk3tx7ivqog8tiFUznSqE/view?usp=drive_link",
+      "source_level": 3,
+      "publication_date": "2024",
+      "effective_period": "2023 reporting period",
+      "locator": "Chapter 3 product/R&D disclosures.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents development plans and product areas, but not when the company expanded into them."
+    },
+    {
+      "source_id": "src-fac7b1242b2b5964",
+      "title": "High-Current Power Harness",
+      "url": "https://www.bizlinktech.com/products/high-current-power-harness",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product page; no launch date stated.",
+      "locator": "Product description, lines 0-2 and 26-28.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official page describes a harness for EV and EV supply-equipment charging; does not establish historical entry timing."
+    },
+    {
+      "source_id": "src-8e424d4294afbd75",
+      "title": "Wire Harness (HV)",
+      "url": "https://www.bizlinktech.com/products/wire-harness-hv",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product page; no launch date stated.",
+      "locator": "Product title and features, lines 0-20.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official page lists an HV wire-harness product; does not establish when it entered the portfolio."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱相關二級報導、貿聯官方產品頁及官方永續報告入口/報告內容。證據支持2006年合作起始、2015年主要供應商描述及截至2023年的相關產品開發；持續供應期間與產品擴展時間仍缺乏可核實資料，故保留為UNKNOWN並停止。",
+    "Tesla合作起始年及主要供應商描述來自2015年二級來源；本次未找到相應的Tesla或貿聯官方披露來獨立確認該客戶關係。",
+    "2023年永續報告對液冷式充電樁的表述是研發計畫，不能單獨證明已商業化銷售。",
+    "現行官方產品頁能證明有相關產品項目，但不提供產品上市日期，也不表示相關充電或高壓產品供應Tesla。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3665/1005/hermes-attempt-1.stdout.txt"
+}

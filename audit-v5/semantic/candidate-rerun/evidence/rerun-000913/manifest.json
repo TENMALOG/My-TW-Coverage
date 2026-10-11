@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000913",
+  "claim_id": "1312:profitability_assertion:c5d7e505a1dc02fb",
+  "normalized_claim_hash": "c5d7e505a1dc02fbabe7a6425a5704d3ff59ce9effb93399fb07c923c48a7294",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-090c498ba58839ac",
+      "title": "國喬石油化學股份有限公司 2024 法人說明會",
+      "url": "https://www.gppc.com.tw/gppc/Investment_PDF/113-InvestorConference_C01.pdf",
+      "source_level": 3,
+      "publication_date": "2024-11-27",
+      "effective_period": "2024年 ABS 銷售客戶行業別",
+      "locator": "第15頁，「ABS銷售客戶行業別」圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "家電39%；汽車/機車約2%。此為 ABS 行業銷售分布，不是整體公司或所有樹脂產品的終端市場占比。"
+    },
+    {
+      "source_id": "src-d7aa886278c5b33b",
+      "title": "國喬石油化學股份有限公司 ABS塑膠產品介紹",
+      "url": "https://www.gppc.com.tw/gppc/product-3.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "ABS產品用途說明及通用級、耐燃級產品用途表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有資訊產品、電子零件及電器產品外殼等一般用途，未標示「高階消費電子」。"
+    },
+    {
+      "source_id": "src-9be6e8b152e4ba71",
+      "title": "國喬石油化學股份有限公司 尼龍6,6產品介紹",
+      "url": "https://www.gppc.com.tw/gppc/product-6.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "尼龍66產品最終用途說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示醫療器材為可能應用之一；頁面用途表另註明僅供參考。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱國喬官方 ABS產品用途、尼龍66產品用途、2024法人說明會及2025法人說明會資料。官方資料能支持部分產品用途與2024年 ABS 行業分布，但未提供歷年可比終端市場分布、應用別毛利，亦未能核實無人機、保險桿或高階消費電子的核心銷售地位；相關未解原子維持UNKNOWN。",
+    "2024年法人說明會的行業圖表只呈現單年 ABS 客戶行業占比，未提供可比歷年基期；圖中百分比按整數顯示，地域範圍未說明。",
+    "ABS 客戶行業占比不等同於公司全部產品或全部終端市場的銷售組合。",
+    "公司產品用途資料可支持某用途被列為可能用途，但本身不能證明該用途已有實際銷售、規模、毛利或核心地位；ABS產品頁另註用途僅供參考。",
+    "所查官方資料未按終端應用披露毛利或利潤，因此「高毛利」無法核實。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1312/913/hermes-attempt-1.stdout.txt"
+}

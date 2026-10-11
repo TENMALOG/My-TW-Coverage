@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000239",
+  "claim_id": "1537:objective_ranking_or_market_share:a9061697368a9c39",
+  "normalized_claim_hash": "a9061697368a9c399e2b2ca6bb8f381dc44ba4b52de0f0c7a70e77586279d407",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c2e9d5ab75870413",
+      "title": "Company Profile-Kung Long Batteries",
+      "url": "https://www.kunglong.com/about/profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile；自有品牌LONG段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持品牌所有權，但未載明行銷或銷售國家數。"
+    },
+    {
+      "source_id": "src-9f8b05dd7f7328c5",
+      "title": "董監成長啟動，未來展望審慎樂觀!｜柚子",
+      "url": "https://vocus.cc/article/67daac00fd89780001f27632",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「公司簡介」首段。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章稱廣隆具有「東南亞最大UPS電池產能」，但未提供排名方法、產能數值或基準期間；不能替代原文所稱的亞洲排名。"
+    },
+    {
+      "source_id": "src-2b1fe6371704fa77",
+      "title": "Locations-Kung Long Batteries",
+      "url": "https://www.kunglong.com/worldwide/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Global locations頁面；依區域列示服務據點。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示若干全球服務據點，未提供LONG品牌行銷國家總數，亦未界定據點是否等同銷售市場。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成六輪聚焦搜尋與來源檢視。官方公司資料及全球據點頁未提供所需排名或逾100國的口徑與期間；二手來源僅有未附方法的東南亞排名說法。依研究限制停止，未解決部分保留為UNKNOWN。",
+    "官方公司簡介可證明產品類別、生產據點及LONG品牌所有權，不能證明同業產能排名或品牌覆蓋國家數。",
+    "唯一找到直接提及排名的二手來源說的是「東南亞」，而非整個亞洲，且未揭露產能比較方法。",
+    "官方全球服務據點不等同LONG品牌銷售／行銷國家數；未找到的證據不構成反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1537/239/hermes-attempt-1.stdout.txt"
+}

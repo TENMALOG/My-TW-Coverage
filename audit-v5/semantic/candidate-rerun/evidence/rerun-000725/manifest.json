@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000725",
+  "claim_id": "3219:objective_ranking_or_market_share:96e9ac24bd44c81e",
+  "normalized_claim_hash": "96e9ac24bd44c81ef82ff1bec62eb5acd8c8c32480583fe931f16e4ca9f01026",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-988d984e115213db",
+      "title": "Aethertek Investor Presentation (2026/08), filed with the Taiwan Market Observation Post System",
+      "url": "https://mopsov.twse.com.tw/nas/STR/321920260827M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-27",
+      "effective_period": "2026-01 to 2026-06 customer and product breakdown",
+      "locator": "Slide 7, “2026 Jan-Jun Revenue Breakdown By Product Category”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports AI-server revenue and customer category, but no named AI-server customer ranking or customer-level denominator."
+    },
+    {
+      "source_id": "src-c21a91a9d55d6ac5",
+      "title": "倚強科拓半導體測試，明年添新動能",
+      "url": "https://today.line.me/tw/v3/article/pep69V7",
+      "source_level": 2,
+      "publication_date": "2026-09-29",
+      "effective_period": "Company AI-server testing business, including reported 2026 first-half revenue share",
+      "locator": "Article paragraphs 1–2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 2–3 international CSP customers without names or a largest-customer ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of the issuer's 2026 investor presentation and relevant secondary reporting did not resolve either customer identity or ranking. Further verification requires an issuer or filing disclosure that names the AI-server customer and defines the period and comparison metric.",
+    "The original wording does not specify a period, the meaning of “largest,” the comparison universe, or a ranking denominator and unit.",
+    "The issuer's 2026 presentation is primary evidence for product categories and reported revenue, but does not name Meta as an AI-server customer.",
+    "The secondary report identifies 2–3 CSP customers without naming them; it cannot resolve Meta's identity or rank."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3219/725/hermes-attempt-1.stdout.txt"
+}

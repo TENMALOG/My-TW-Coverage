@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000663",
+  "claim_id": "6462:objective_ranking_or_market_share:d15da7bf0a3e513d",
+  "normalized_claim_hash": "d15da7bf0a3e513dd0c4cb24711e47fc012c2c1220d3d30901f979fb75b1ae64",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8ce157aa6e76ff5f",
+      "title": "Egis’ Fingerprint Sensor, ET320, selected for Samsung Galaxy A5",
+      "url": "https://www.egistec.com/egis-fingerprint-sensor-et320-selected-for-samsung-galaxy-a5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Galaxy A5 (2016) models; announcement text says May 2016, exact day not stated",
+      "locator": "Announcement body, paragraph beginning “Samsung Electronics has selected Egis’ ET320”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer announcement identifies a specific Samsung device design win."
+    },
+    {
+      "source_id": "src-d1da54bd649a108a",
+      "title": "今日焦點股 重點精選",
+      "url": "https://www.ctee.com.tw/news/20190807700230-430298",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2019 reporting",
+      "locator": "神盾(6462) item",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Samsung as the largest customer and discusses A-series and under-display optical fingerprint supply, but does not establish a traditional-IC-only ranking."
+    },
+    {
+      "source_id": "src-e5b0f5164155a6b8",
+      "title": "Egis Expands to Auto Market for Hyundai and KIA, also Supporting KIA PAY.",
+      "url": "https://egistec.com/egis-expands-to-auto-market-for-hyundai-and-kia-also-supporting-kia-pay",
+      "source_level": 3,
+      "publication_date": "2021-07-13",
+      "effective_period": "Kia K9 adoption since May 2021; mass production reported in May 2021",
+      "locator": "Announcement paragraphs 1 and 5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer announcement names Kia K9 and describes the fingerprint-sensor application."
+    },
+    {
+      "source_id": "src-46bc9c2942f31b29",
+      "title": "About",
+      "url": "https://egistec.com/about-us/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Who We Are, paragraph beginning “As an IP company”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page directly identifies UCIe IP and American Tier-1 CSP customer verification; customer names and timing are undisclosed."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人公告與公司簡介，並對三星排名及傳統指紋IC範圍作多次定向檢索；仍未找到能確認該產品範圍排名的可靠來源，故該原子主張維持 UNKNOWN。",
+    "三星「最大客戶」排名來自二手報導，未列排名指標或分母；該報導不足以證明「傳統指紋IC最大客戶」這一更窄範圍。",
+    "Kia K9 導入及 CSP 驗證均有發行人來源；CSP 客戶名稱及驗證日期未披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6462/663/hermes-attempt-1.stdout.txt"
+}

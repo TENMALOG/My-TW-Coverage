@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001091",
+  "claim_id": "6407:material_named_relationship:a34e8291ea05e6ae",
+  "normalized_claim_hash": "a34e8291ea05e6aee1ae524b4a46a06cab98452ebcc9a6667d984207f3b7eae3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8cedc05b84a6f142",
+      "title": "Huawei sees first-half earnings surge on smartphone renaissance",
+      "url": "https://finance.yahoo.com/video/huawei-sees-first-half-earnings-112333571.html",
+      "source_level": 2,
+      "publication_date": "2024-08-29",
+      "effective_period": "報導回顧華為於2023年藉Mate 60系列重返5G高階手機市場",
+      "locator": "Reuters影片報導文字摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reuters報導支持華為重返5G高階手機市場；屬媒體報導，非華為對手機網路規格的官方產品聲明。"
+    },
+    {
+      "source_id": "src-e60a38e446441a8f",
+      "title": "〈美擴大管制華為〉華為占營收比重逾4成 相互訂單驟減本業難有表現",
+      "url": "https://gfemobile.cnyes.com/news/id/4526491",
+      "source_level": 2,
+      "publication_date": "2020-09-21",
+      "effective_period": "報導所述2019年及2020年上半年",
+      "locator": "報導中引述相互發言人林維鵬關於華為營收占比的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "引述公司發言人，並指出相互直接供貨對象包括鏡頭模組廠、終端則包括華為；可支持當時華為是重要終端客戶。"
+    },
+    {
+      "source_id": "src-1f6628186bccfdc1",
+      "title": "《老簡看台股》華為重返5G手機市場帶旺供應鏈，相互（6407）轉虧為盈，股價有望翻倍",
+      "url": "https://cmnews.com.tw/article/money-7e3b85cf-d8cc-11ef-b929-d65fe3234c94",
+      "source_level": 2,
+      "publication_date": "2023-11-16",
+      "effective_period": "文章討論2023年6月至9月月營收，並展望其後營運",
+      "locator": "文章開頭引言及「大立光、相互受惠華為」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供作者對營收回升原因的判斷，但未見公司披露的客戶或產品營收拆分，無法核實「重要動能」的貢獻程度。"
+    },
+    {
+      "source_id": "src-d37f3a6676cb6a04",
+      "title": "产品中心, 常熟东南相互电子有限公司",
+      "url": "https://www.mutualtek.com/productcate/166.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司網站稱其FPC、RFPC用於包括華為在內的品牌手機；未說明華為是否為直接客戶、客戶排名或營收占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦搜尋；找到華為重返5G市場及相互與華為歷史客戶關係的支持資料，但未找到相互官方披露可驗證2023年華為訂單、鏡頭模組用版需求增幅或其營收貢獻的資料，相關原子主張保留UNKNOWN。",
+    "相互網站可支持其FPC/RFPC用於華為等品牌手機，但沒有披露客戶排名、訂單或營收占比。",
+    "關於華為帶動2023年相互營收回升的直接因果說法，查得來源為投資評論文章，並非相互公告或財報中的客戶／產品營收拆分。",
+    "2019年及2020年上半年華為營收占比是較早期間的終端客戶數據，不能直接替代2023年的客戶占比或訂單表現。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6407/1091/hermes-attempt-1.stdout.txt"
+}

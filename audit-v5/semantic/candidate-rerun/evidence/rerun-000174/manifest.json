@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000174",
+  "claim_id": "2323:objective_ranking_or_market_share:3c7df6a4b4366ff5",
+  "normalized_claim_hash": "3c7df6a4b4366ff5261c832c139fce8bc7774e7b599c9ff2258764969e2faf2b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-03b7d4525cea4a95",
+      "title": "CMC Magnetics Corporation 2023 Annual Report",
+      "url": "https://www.cmcnet.com.tw/files/20240710115110847.pdf",
+      "source_level": 3,
+      "publication_date": "2024-04-16",
+      "effective_period": "Establishment date: 1978-12-02",
+      "locator": "Chapter II, Company Profile, section I, Establishment date",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure."
+    },
+    {
+      "source_id": "src-387191815e6d03b8",
+      "title": "CMC Magnetics Corporation 2021 Annual Report",
+      "url": "https://www.cmcnet.com.tw/files/20221118182332453.pdf",
+      "source_level": 3,
+      "publication_date": "2022-04-19",
+      "effective_period": "2021",
+      "locator": "Letter to Shareholders, optical-disc products discussion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer describes securing the world's largest market share for optical disc products. This does not specify a manufacturing-volume ranking or its denominator."
+    },
+    {
+      "source_id": "src-2a943585b0759048",
+      "title": "About CMC",
+      "url": "https://www.cmcnet.com.tw/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About CMC, references to the CMC Group",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies a CMC Group; does not state a relationship with TCC Group."
+    },
+    {
+      "source_id": "src-403d1f6c454a2b3a",
+      "title": "TCC Group Holdings",
+      "url": "https://tccgroupholdings.com/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Official group homepage",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The reviewed page did not establish an affiliation with 中環; it is not a comprehensive ownership disclosure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official issuer materials established the identity, founding date, and Taipei headquarters. Searches did not resolve the exact global manufacturing rank or substantiate the TCC Group affiliation; those atoms remain UNKNOWN.",
+    "The founding date and Taipei headquarters are supported by issuer annual reports, but the headquarters citation is from the 2021 annual report.",
+    "The global-ranking language is the issuer's own assertion; the reviewed material does not supply an independent measurement, market denominator, or clear period for the exact manufacturing-ranking claim.",
+    "No source reviewed established the claimed TCC Group affiliation. Lack of evidence is not evidence that the affiliation is false."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2323/174/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001107",
+  "claim_id": "8080:identity_changing_event:244f401c29e801b6",
+  "normalized_claim_hash": "244f401c29e801b616ce79fba86b48f38dc1752aa094bea50d92347ef934a784",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-061ab4d62907424b",
+      "title": "TPEX announcement: 印鉐事業股份有限公司 renamed 泰霖事業股份有限公司",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11312/11300116991.html",
+      "source_level": 3,
+      "publication_date": "2024-12-27",
+      "effective_period": "2025-01-20",
+      "locator": "Announcement item 2; items 5–6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Specifies the new name as 泰霖事業股份有限公司 and the date new shares began trading."
+    },
+    {
+      "source_id": "src-4f549b97b919905c",
+      "title": "Ministry of Economic Affairs Company Registration Search: 泰霖事業股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/84492351",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-01-30",
+      "locator": "Company-history entry dated 115年01月30日",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists the registered company name as 泰霖事業股份有限公司. The official page returned a 403 when opened; this detail was available in its search-result extract."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found primary evidence for the January 2025 change and an official registry entry listing 泰霖事業股份有限公司 on January 30, 2026. No accessible complete registry change-history resolved whether a separate January 2026 event occurred, so that atom remains UNKNOWN.",
+    "The TPEX notice is primary evidence for the documented name change and its effective trading date.",
+    "The Ministry registry result is official, but its page could not be opened directly; the January 30, 2026 entry was visible in the search-result extract.",
+    "The available evidence does not establish whether any separate name-change event occurred in January 2026."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8080/1107/hermes-attempt-1.stdout.txt"
+}

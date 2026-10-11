@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001003",
+  "claim_id": "7788:material_named_relationship:2068abc51a1555a2",
+  "normalized_claim_hash": "2068abc51a1555a24150d4778edff5aeaf4cb61edc0779ea72de6e598fe43f7a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-074eb6cb8f288412",
+      "title": "臺企銀挺新創「類金控」模式養大創業之星",
+      "url": "https://www.businesstoday.com.tw/article/category/183017/post/202309070025/",
+      "source_level": 2,
+      "publication_date": "2023-09-07",
+      "effective_period": "文章於 2023-09-07 描述該供應關係；實際供貨期間未說明。",
+      "locator": "正文第 57 行附近",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱 Tesla 車載系統繼電器由松川精密供應，並稱其為主要供應鏈夥伴。文章標示為廣告企劃製作，非公司或 Tesla 的直接披露。"
+    },
+    {
+      "source_id": "src-0292df16e9c40f11",
+      "title": "AI+特斯拉雙引擎發動　這檔目標價至405元",
+      "url": "https://www.mirrormedia.mg/external/setn_1900350",
+      "source_level": 2,
+      "publication_date": "2026-09-03",
+      "effective_period": "文章於 2026-09-03 描述供應關係；實際供貨期間未說明。",
+      "locator": "正文第 138 行附近",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱松川是 Tesla 主要繼電器供應商。內容標示為贊助文章，並將該說法歸於未具名法人，非公司直接披露。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官方材料與具名媒體報導的查核；二手報導明確支持基本關係，但供貨起始日期、規模及官方確認仍未取得。",
+    "支持關係的來源均為二手媒體報導，且標示為廣告企劃或贊助內容。",
+    "未找到松川精密或 Tesla 對此關係的直接官方確認；不應將車載繼電器關係外推為 Tesla 儲能產品供應關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7788/1003/hermes-attempt-1.stdout.txt"
+}

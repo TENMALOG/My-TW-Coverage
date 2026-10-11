@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000352",
+  "claim_id": "8163:objective_ranking_or_market_share:d28f7bc2f49da606",
+  "normalized_claim_hash": "d28f7bc2f49da6060d9009ef6e4bf5d9e769110575471b47a863ce1f8fcaa653",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1fca232503d79fcd",
+      "title": "達方電子股份有限公司2025年第4季法人說明會",
+      "url": "https://www.darfon.com/Content/Upload/files/2026-03-04%20Darfon%202025Q4%20Results%20Conference%20CN(%E4%B8%AD%E6%96%87).pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-04",
+      "effective_period": "2025年第4季及2025年度產品組合",
+      "locator": "「產品組合」頁，IT週邊產品定義",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列明IT週邊產品包括筆記型與桌上型電腦鍵盤。"
+    },
+    {
+      "source_id": "src-52c1a8f018f60651",
+      "title": "達方電子公司簡介",
+      "url": "https://files.me.ncku.edu.tw/webfile/webdate/file_20221202083308.pdf",
+      "source_level": 3,
+      "publication_date": "2022-12-01",
+      "effective_period": "公司簡介資料發布時",
+      "locator": "「Human Interface Device Product Lines」頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品線明列「Backlit Notebook Keyboard Module」。"
+    },
+    {
+      "source_id": "src-ba5b73a4369c42ab",
+      "title": "ABOUT DARFON",
+      "url": "https://www.darfon.com/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面稱「currently」；官網未標示此說法的起始日期或排名統計期間",
+      "locator": "公司簡介中 Human Interface Devices 段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述其目前是全球第一大 laptop keyboard manufacturer；未揭露排名方法、分母或數量單位。"
+    },
+    {
+      "source_id": "src-824de10aec8f6077",
+      "title": "DARFON",
+      "url": "https://www.darfon.com/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行首頁標語；未標示排名統計期間",
+      "locator": "首頁標語",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為全球 No. 1 notebook keyboard 製造商及精密元件解決方案領導製造商；未揭露排名依據。"
+    },
+    {
+      "source_id": "src-e56a92afe2af9a72",
+      "title": "【頭家開講】鍵盤之王勇於跟蘋果說不 橫槓電單車闖出綠能移動一片天",
+      "url": "https://www.mirrormedia.mg/story/20240807bus001",
+      "source_level": 2,
+      "publication_date": "2024-08-07",
+      "effective_period": "報導描述達方在2024年時的市場地位",
+      "locator": "導言及鍵盤事業相關段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱達方全球市占仍為前三大；該排名範圍包含第一名，且報導未提供可比較的排名資料或明確鍵盤模組分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核達方現行官網、公司法說會與公司簡介，並比對一篇2024年媒體報導；官方頁面直接支持全球第一的公司自述，但排名口徑仍未披露。",
+    "第一名的直接來源是達方官網自述，頁面沒有註明統計期間、比較對象、排名依據、分母或單位。",
+    "官網用語是「laptop keyboard manufacturer」；2022年公司簡介列出「Backlit Notebook Keyboard Module」，支持產品範圍涉及筆電鍵盤模組，但沒有把第一名排名明確限定在模組子類別。",
+    "2024年媒體所述「全球前三大」與第一名並不互斥，也不是獨立的第一名驗證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8163/352/hermes-attempt-1.stdout.txt"
+}

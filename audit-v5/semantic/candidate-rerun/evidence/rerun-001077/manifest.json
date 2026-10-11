@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001077",
+  "claim_id": "5345:profitability_assertion:a313145adca2eb03",
+  "normalized_claim_hash": "a313145adca2eb03955aa981c51a5dc0ef5a5783bcd5de71c78c516870177778",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1bdae53255fe4c35",
+      "title": "天揚（5345）112年度第三季合併財務報告會計師核閱報告",
+      "url": "https://winvest.tw/News/Detail/5323",
+      "source_level": 2,
+      "publication_date": "2023-11-10",
+      "effective_period": "截至2023-09-30；報告稱近幾年度持續推出電源控制產品",
+      "locator": "會計師核閱報告「繼續經營有關之重大不確定性」段，頁面第126–132行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級網站刊載公司公告及會計師核閱報告內容；記載近年推出電源控制新產品，並持續投入推展及研發所需營業費用。"
+    },
+    {
+      "source_id": "src-ccb3395ddb18ae33",
+      "title": "天揚精密科技股份有限公司2024年度年報",
+      "url": "https://www.teamyoung.com/downloads/dIjQza8ub1YnOIzjZMWu0gAooBvIu2ICJ5m3Iapq.pdf?d=invest&filename=2024%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度及截至2025-04-30",
+      "locator": "年報第55頁，技術及研發概況，行2873–2876",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露2024年度投入研發金額新台幣15,591仟元、2025年截至4月30日投入1,186仟元；此項披露支持公司在該期間有研發投入，但未單獨識別為智慧電源控制技術研發。"
+    },
+    {
+      "source_id": "src-b062da6f8754834e",
+      "title": "馥鴻建設2025年法人說明會",
+      "url": "https://www.teamyoung.com/downloads/8UgGW7Gw03NULcl1YCoqdquWvhyqunGoZehCLL2G.pdf?d=invest&filename=%E6%B3%95%E8%AA%AA%E6%9C%83114%E5%B9%B4%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-16",
+      "effective_period": "2025年法人說明會",
+      "locator": "簡報第4頁，公司簡介及主要營業項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報載明公司於2025年更名，並列示智慧電源控制系統買賣及住宅、大樓開發租售等營業項目；未找到「科技事業成為未來成長引擎」的表述。這只能說明後續揭露，不能證明或否定更早時點是否曾有該期待。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合。第一項有截至2023年的歷史支持；第二項仍缺少公司對「科技事業」及其作為未來成長引擎的直接表述，且原始主張未提供可鎖定的年份，故保留UNKNOWN。",
+    "原始主張未附報告刊載日期，無法確定兩項陳述的具體時間基準。",
+    "有關2023年研發的佐證來自次級網站刊載的會計師核閱報告；2024年年報雖披露研發支出，未將支出明確歸屬於智慧電源控制技術。",
+    "公司2025年更名為馥鴻建設，後續營業項目同時包含電源控制產品與不動產業務；不得據此推定早期主張中的「科技事業」定義或其成長展望。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5345/1077/hermes-attempt-1.stdout.txt"
+}

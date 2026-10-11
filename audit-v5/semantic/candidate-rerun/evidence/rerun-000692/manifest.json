@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000692",
+  "claim_id": "4706:objective_ranking_or_market_share:821cbf49841c14fb",
+  "normalized_claim_hash": "821cbf49841c14fb8912e8acf372331363dd1d40e04172cb9e08de30b7fb4242",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0cd76f0de194690a",
+      "title": "關於大恭｜大恭化學工業股份有限公司",
+      "url": "http://www.tkc.com.tw/tc/about.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1966年4月20日",
+      "locator": "公司簡介／公司沿革／1966",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料記載經濟部正式核准設立日期。"
+    },
+    {
+      "source_id": "src-4f5f8560db9432cd",
+      "title": "大恭化學 獲評A+級",
+      "url": "https://www.ctee.com.tw/news/20120726700070-439901",
+      "source_level": 2,
+      "publication_date": "2012-07-26",
+      "effective_period": "約2012年；報導所述當時",
+      "locator": "報導中段及「產能方面」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱大恭為國內顏料產量最大製造商，並稱合成有機顏料產能達4,200噸/年；此為歷史報導，不足以證明目前排名。"
+    },
+    {
+      "source_id": "src-6eeafdca28fef707",
+      "title": "大恭化學工業股份有限公司｜MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=15774b5b-cfd8-4723-81dd-6fc7cbde54cc",
+      "source_level": 2,
+      "publication_date": "2025-07-16",
+      "effective_period": "排名期間未明；頁面另列2024年台灣市場市佔率",
+      "locator": "「公司簡介／沿革與背景」及「2024年」市場佔有率段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料重述產量最大排名，並列出2024年市佔率，但未交代排名期間、各廠商產量比較、總市場分母或市佔率計算方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方沿革、相關二手公司資料及產業報導，並以官方年報／投資人資料和排名用語作定向搜尋；未找到可確認目前台灣顏料製造商產量排名及其比較分母的官方或獨立資料。依研究範圍停止，排名原子保留UNKNOWN。",
+    "成立日期由公司官方資料支持。",
+    "產量排名的明確歷史報導指向2012年，不能外推為目前狀況。",
+    "較新的二手資料雖重述排名，未提供可核實的同期比較產量、排名口徑或市場分母；市佔率不能直接替代產量排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4706/692/hermes-attempt-1.stdout.txt"
+}

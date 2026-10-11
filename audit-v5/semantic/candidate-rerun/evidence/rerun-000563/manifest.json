@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000563",
+  "claim_id": "5222:objective_ranking_or_market_share:dbde28318bead583",
+  "normalized_claim_hash": "dbde28318bead5830c6f8ab69bd2fb599194f5f78a45e9738e5c21e3be6b8de4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9ae3eac1d5b407c3",
+      "title": "全訊科技",
+      "url": "https://www.transcominc.com.tw/Chinese/index.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介、廠房、營業項目及微波功率放大器產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述研發、生產微波功率放大器，產品規劃涵蓋高頻通訊應用；頁面列有封裝組裝及測試設施。"
+    },
+    {
+      "source_id": "src-970b2f26ccf49cb6",
+      "title": "5222 全訊 TRANSCOM－公司投資人關係整合平台",
+      "url": "https://irplatform.tdcc.com.tw/ir/zh/contact/detail/402897977667464801766773c8a80002",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司基本資料／頁面標題",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "識別5222為全訊（TRANSCOM）；該頁提供公司官網連結。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找並以發行人官網核對設立日期、製程、產品及測試能力；對「台灣唯一」仍缺少可定義的比較分母及完整市場證據，故保留為UNKNOWN。",
+    "主要技術與公司沿革來源為發行人官網自述；可支持公司所述業務能力，不能獨立證明其市場地位或唯一性。",
+    "沒有找到界定「台灣唯一」之市場範圍、資格標準或完整公司比較集合的可靠來源。",
+    "官網未標示相關頁面發布或更新日期，故業務能力的有效期間未能確定。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5222/563/hermes-attempt-1.stdout.txt"
+}

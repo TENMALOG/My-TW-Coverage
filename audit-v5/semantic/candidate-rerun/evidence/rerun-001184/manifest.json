@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001184",
+  "claim_id": "2330:material_named_relationship:d4821272fa108886",
+  "normalized_claim_hash": "d4821272fa10888632b4498e682e4cb671180cce583ac6f10c890dd654b2dd9a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2dddf0eeb3bdba54",
+      "title": "TSMC 2024 Supply Chain Management Forum Presents Awards to Outstanding Suppliers",
+      "url": "https://pr.tsmc.com/schinese/news/3192",
+      "source_level": 3,
+      "publication_date": "2024-12-02",
+      "effective_period": "Awarded in 2024; contributions described as having occurred over the preceding year",
+      "locator": "Lines 291, 298–300, 323",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TSMC lists Tokyo Electron among its 2024 award-winning suppliers."
+    },
+    {
+      "source_id": "src-40787479399912f3",
+      "title": "TSMC Announces Updates for TSMC Arizona",
+      "url": "https://pr.tsmc.com/english/news/2977",
+      "source_level": 3,
+      "publication_date": "2022-12-06",
+      "effective_period": "TSMC Arizona equipment arrival ceremony in 2022",
+      "locator": "Line 307",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TSMC describes Tokyo Electron as a long-time supplier and identifies its tools among equipment revealed for TSMC Arizona."
+    },
+    {
+      "source_id": "src-bd9200be7ad39934",
+      "title": "EUV lithography systems – Products | ASML",
+      "url": "https://www.asml.com/en/products/euv-lithography-systems",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Lines 100–102 and 197",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "ASML states the EUV technology is unique to ASML and says only ASML continued work toward a viable system."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found official TSMC supplier disclosures for all named companies and official ASML evidence for EUV uniqueness; no unresolved atoms remain.",
+    "The supplier evidence establishes named supplier relationships and collaboration, not supplier rankings, exclusivity, procurement concentration, or a specific share of TSMC purchases.",
+    "The EUV exclusivity evidence is ASML's own description of its technology; it does not imply ASML is the exclusive supplier of all lithography or semiconductor equipment."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2330/1184/hermes-attempt-1.stdout.txt"
+}

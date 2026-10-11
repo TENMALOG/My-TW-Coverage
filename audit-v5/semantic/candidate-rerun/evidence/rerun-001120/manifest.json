@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001120",
+  "claim_id": "9950:material_named_relationship:f674c7866ea25891",
+  "normalized_claim_hash": "f674c7866ea258918e06311b4081867ae198bd3125fd7aa4f2f5df78a0784fa5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2013cb9bdf7e6d1c",
+      "title": "萬國通路股份有限公司106年度年報",
+      "url": "https://tw.eminent.com/upload/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/20181107/106%E5%B9%B4%E5%BA%A6%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017年度及2018年第一季（年報所述期間）",
+      "locator": "主要供應商／供應商變化說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報提及供應商供應拉桿等主要配件；未確認萬國通向外供應拉桿系統。"
+    },
+    {
+      "source_id": "src-99e7f0e4e2fc42ca",
+      "title": "萬國通路投資人說明會簡報（英文版）",
+      "url": "https://tw.eminent.com/upload/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/2023%E6%B3%95%E8%AA%AA%E6%9C%83/%E8%90%AC%E5%9C%8B%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29_112_12_08.pdf",
+      "source_level": 3,
+      "publication_date": "2023-12-08",
+      "effective_period": "2023年產品資料",
+      "locator": "產品規格及特色說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出成品旅行箱配備多段式鋁合金拉桿；未證明萬國通是該零組件的供應商。"
+    },
+    {
+      "source_id": "src-0c4e92c73d0f1765",
+      "title": "eminent 萬國通路官方 FAQ：行李箱沒附鑰匙",
+      "url": "https://page.line.me/746watrz/faq/1963176376640095",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第9–13行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明 TSA007 鑰匙孔與海關檢查用途；未提供鎖具供應關係或認證文件。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報、官方產品／投資人資料及官方 FAQ；可核實的是成品配件資訊與部分採購脈絡，仍缺少證明兩類零組件對外供應關係的來源。",
+    "成品包含某配件，不等於公司是該配件的外部供應商。",
+    "年報中記載採購或供應商供貨，不足以證明公司不可能另有對外供應業務。",
+    "未找到可核實的鎖具認證文件；官方產品資料提到 TSA 密碼鎖，不能單獨確認其認證範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9950/1120/hermes-attempt-1.stdout.txt"
+}

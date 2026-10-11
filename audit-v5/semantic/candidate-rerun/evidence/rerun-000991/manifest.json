@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000991",
+  "claim_id": "4915:material_named_relationship:d66840e186941aae",
+  "normalized_claim_hash": "d66840e186941aaee18ab0ba1c7ea001d8844c507810ca99ddd92cc19195dbe1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-61671f5e1755ec7d",
+      "title": "2024 Annual Report, Chapter 4: Operational Highlights",
+      "url": "https://www.primax.com.tw/images/financial/annual-reports/2024_Annual_report_eng_v1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "Chapter 4, Current Products (Services), III Automotive and AIoT, C-2 Industrial IoT Products and C-3 Smart IoT Products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有industrial IoT video devices、communication gateways、integrated wireless gateway devices，以及security control and other B2B camera modules。"
+    },
+    {
+      "source_id": "src-3901da46e9793725",
+      "title": "Primax Automotive Camera Modules",
+      "url": "https://www.primax.com.tw/en/products-services/autoccm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Key Products: ADAS Camera",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁列出ADAS Camera；未提供具名客戶或出貨量。"
+    },
+    {
+      "source_id": "src-0c150e360f18271c",
+      "title": "致伸車用ADAS獲特斯拉柏林廠認證 下半年放量",
+      "url": "https://tw.stock.yahoo.com/news/%E8%87%B4%E4%BC%B8%E8%BB%8A%E7%94%A8adas%E7%8D%B2%E7%89%B9%E6%96%AF%E6%8B%89%E6%9F%8F%E6%9E%97%E5%BB%A0%E8%AA%8D%E8%AD%89-%E4%B8%8B%E5%8D%8A%E5%B9%B4%E6%94%BE%E9%87%8F-060036874.html",
+      "source_level": 2,
+      "publication_date": "2022-04-05",
+      "effective_period": "報導描述2022年前後的供應情況",
+      "locator": "Article body, Tesla Shanghai/Berlin supply statements",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供有限的歷史佐證，未證明目前地位或整體供應商排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索並核對公司年報、公司產品頁及歷史媒體報導；未找到足以確認Tesla主要供應商地位及其目前適用性的可靠證據，該原子保留UNKNOWN。",
+    "公司年報的產品清單支持產品組合，但未證明各品項的銷量、營收占比或對公司具重大性的程度。",
+    "Tesla供應關係的證據來自次級媒體對特定時期與工廠的報導，不能據此推定目前供應狀況或整體供應商排名。",
+    "本項沒有可適用的市場分母或量化單位；Tesla「主要供應商」也未給出排名、份額或其他可檢驗定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4915/991/hermes-attempt-1.stdout.txt"
+}

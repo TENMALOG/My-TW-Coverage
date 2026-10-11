@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000670",
+  "claim_id": "7819:objective_ranking_or_market_share:e0b3c59b20774ef5",
+  "normalized_claim_hash": "e0b3c59b20774ef51af2d409e1f663ca7201ffd9d0421db57dc2f7875fe59647",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1ffb4a992b6b4585",
+      "title": "「精誠金融科技」將於12下旬提出登錄興櫃",
+      "url": "https://www.systexfintech.com/page/20241021",
+      "source_level": 3,
+      "publication_date": "2024-10-21",
+      "effective_period": "未明；頁面於2024-10-21發布該項公司說法",
+      "locator": "正文中以「精誠金融科技指出」及「以刷卡機端設備來看」起始的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱刷卡機端設備市占超過七成；沒有交代銷售量分母、測量期間或計算方法。"
+    },
+    {
+      "source_id": "src-a684009f26ed962f",
+      "title": "公司概況資料表（精誠金融科技股份有限公司，7819）",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2025/01/1736852644_3084_CH_7819.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "資料含113年度（2024）自結營收；服務設備數的測量期間未明",
+      "locator": "第5頁「四、未來展望」；第6頁「主要業務項目」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱服務全台信用卡半數實體特約商店刷卡機，並描述全年無休提供設備維運；未給出維修保養業務市占或其分母。"
+    },
+    {
+      "source_id": "src-fb4ccf2fdd2e94d8",
+      "title": "興櫃新兵報到 精誠金融科技12日每股80元掛牌",
+      "url": "https://news.cnyes.com/news/id/5856371",
+      "source_level": 2,
+      "publication_date": "2025-02-10",
+      "effective_period": "報導所述2025年度刷卡機全年市場需求",
+      "locator": "正文「目前精誠金融科技刷卡機穩占全年市場需求量5.2萬支的50%以上銷售量」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級報導將銷售分母具體表述為全年市場需求量5.2萬支，並稱銷售量逾五成；與原 claim 的逾七成銷售市占不能直接對應。"
+    },
+    {
+      "source_id": "src-55325567d9d47d14",
+      "title": "搶吃兆元非現金支付商機！精誠金融衝市占 攜手10夥伴造刷卡機生態圈",
+      "url": "https://money.udn.com/money/story/5612/9467703",
+      "source_level": 2,
+      "publication_date": "2026-04-27",
+      "effective_period": "報導當時的設備存量及維運服務情況",
+      "locator": "正文「累積鋪設43萬台刷卡機」及「年約負責維運服務22萬台」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導描述維運設備數與全台鋪設設備數，並稱售後服務市占率第一；未將設備台數換算為維修保養業務的市場份額。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方說法、TPEx刊載公司概況及不同年份的媒體報導；可找到的市場數字使用不同期間與分母，未能核實原 claim 的兩項精確市占口徑。",
+    "官方公司頁面的逾七成說法為公司自述，未提供市場調查、分母、測量期間或計算方法。",
+    "TPEx文件為公司及推薦證券商提供的公司概況資料；其中實體商店設備服務、收單授權系統與終端設備銷售是不同範圍。",
+    "次級報導中的年銷售量、維運設備台數及累積鋪設設備數，分別是年度流量、服務設備數及設備存量，不能互相替代為同一市占分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7819/670/hermes-attempt-1.stdout.txt"
+}

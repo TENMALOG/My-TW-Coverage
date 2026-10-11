@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001190",
+  "claim_id": "3105:material_named_relationship:5eadd5b07622243d",
+  "normalized_claim_hash": "5eadd5b07622243d6b8aef9dfa0fe8fda849ac75d7e49de6c6960b3c692a8127",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0edcfcc44511cf3e",
+      "title": "WIN Semiconductor 2016 Corporate Social Responsibility Report",
+      "url": "https://www.winfoundry.com/zh-TW/Base/DownLoadStaticFile?FileName=4_5_WIN_CSR_2016_CHT.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2016",
+      "locator": "Supply-chain table, row “砷化鎵磊晶圓 (EPI wafer)”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists IQE in the EPI-wafer category."
+    },
+    {
+      "source_id": "src-e0ee4215fa6c33dc",
+      "title": "WIN Semiconductors Corporation 2021 Offering Circular",
+      "url": "https://links.sgx.com/FileOpen/WIN%20Semiconductors%20Corporation%20-%20Final%20OC%20%2807.01.2021%29.ashx?App=Prospectus&FileID=47489",
+      "source_level": 3,
+      "publication_date": "2021-01-07",
+      "effective_period": "2021 offering-circular context",
+      "locator": "Supply-chain diagram, “EPI Wafer”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names IQE in the EPI-wafer supply-chain stage."
+    },
+    {
+      "source_id": "src-15d60048ab9b017c",
+      "title": "WIN Semiconductor 2023 Annual Report",
+      "url": "https://www.winfoundry.com/zh-TW/Base/DownLoadFile/436?TargetTable=Articleattachment&filename=%E7%A9%A9%E6%87%8B112%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "Industry upstream/downstream relationship table, row “砷化鎵磊晶圓 (EPI Wafer)”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists IQE among EPI-wafer supply-chain companies."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research budget exhausted. Supplier-category placement was found in issuer materials, but no source established VPEC’s rank or a procurement denominator.",
+    "The issuer sources describe supply-chain categories; they do not disclose supplier-specific procurement amounts or volumes.",
+    "The materials list several EPI-wafer companies without ranking them, so “major supplier” is not established.",
+    "The dated materials support historical supply-chain placement, not necessarily a current direct commercial relationship."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3105/1190/hermes-attempt-1.stdout.txt"
+}

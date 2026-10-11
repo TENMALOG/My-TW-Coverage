@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000519",
+  "claim_id": "9905:objective_ranking_or_market_share:9dd75a043dafb144",
+  "normalized_claim_hash": "9dd75a043dafb1443bd0aab5f37252c68e3f99fa6f202590f467a3abf90d38c4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-71d3e75ad37b8059",
+      "title": "大華金屬工業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=5fd6e9e7-6bce-4a5a-a725-638c2b2b9708",
+      "source_level": 2,
+      "publication_date": "2025-07-17 (page's stated update date)",
+      "effective_period": null,
+      "locator": "(一)公司簡介, 1.沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports domestic aluminum-can market share of about 35%, without a stated denominator or measurement period."
+    },
+    {
+      "source_id": "src-cda4afb7f10167c5",
+      "title": "大華金屬工業股份有限公司 (official website)",
+      "url": "https://www.greatchina.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "大華優勢, 鋁罐市占率",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer states domestic aluminum-can share is over 30%, but provides no exact percentage, denominator, or period."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found matching secondary reporting and a current issuer website disclosure, but did not locate an official annual-report or regulator source validating the exclusivity claim or the approximately 35% figure with a defined period and denominator. The unresolved market-share scope prevents full support.",
+    "MoneyDJ is a secondary source and dates its entry update, not the effective period of the ranking or market-share estimate.",
+    "The issuer website is primary for the company's own statements, but its leadership and over-30% share claims are self-reported and lack a cited methodology.",
+    "No source located defined the denominator for the approximately 35% share or the criteria for a comprehensive packaging-container manufacturer."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9905/519/hermes-attempt-1.stdout.txt"
+}

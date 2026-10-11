@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000100",
+  "claim_id": "8930:objective_ranking_or_market_share:0e49eeeb7dba1af5",
+  "normalized_claim_hash": "0e49eeeb7dba1af5988b0912996ec53924a0af88dc09b88fded984480dcb3b75",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-be5966adc7f28083",
+      "title": "私藏定存股｜低調的台灣行業龍頭，即將邁入黃金成長期｜青鋼(8930)｜邏輯投資",
+      "url": "https://vocus.cc/article/673c9bb6fd89780001de04c7",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章中客戶類型段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及經銷商／代理商及工程公司，未證實中大型建設公司這一特定客群。"
+    },
+    {
+      "source_id": "src-912f563f1675ce2f",
+      "title": "一一一年度年報",
+      "url": "https://ckm.com.tw/data/uploads/5a9c27fc12c03399c0bbb653a1f34874.pdf",
+      "source_level": 3,
+      "publication_date": "2023-05-10",
+      "effective_period": "2022年度",
+      "locator": "營運概況市場及產銷狀況；擷取內容顯示約第79頁有銷量（坪）及市佔率（%）表格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報可確認有產品市佔率表及以坪表示的銷量欄位；目前擷取內容未提供該表的具體數值。"
+    },
+    {
+      "source_id": "src-bcd1757626f577d0",
+      "title": "一一三年度年報",
+      "url": "https://www.ckm.com.tw/data/uploads/6cbc61dfe26c4fbb64a31ef258352dab.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "營運概況，市場及產銷狀況（年報目錄列於第81頁起）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "已查閱的擷取內容未提供可核實中大型建設公司客群的具體資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪工具呼叫上限；客群範圍及市佔率原始表格數值仍有未核實部分。",
+    "市佔率的明確數值及長期趨勢來自次級投資評論對年報的整理；官方年報擷取內容可見市佔率表格欄位，但未能讀取具體數值。",
+    "次級來源指出市佔率資料為公司自行推估，且本次未取得足以獨立確認市場分母的資料。",
+    "「中大型建設公司」客群未獲直接證實；不可將經銷商、代理商或工程公司等鄰近客群資料替代。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8930/100/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000113",
+  "claim_id": "2855:objective_ranking_or_market_share:23dcc1ae4b2739ba",
+  "normalized_claim_hash": "23dcc1ae4b2739baeee3a84719a59705ff44e411bda8fab84a790661e779f9ae",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-cb4b01c9838ba5002104",
+      "title": "President Securities Corporation 2024 Annual Report",
+      "url": "https://www.pscnet.com.tw/upload/pscnet/file/20250520100040955983.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-20",
+      "effective_period": "2024",
+      "locator": "Business Environment, Market Overview；目錄列於第107頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "已取得年報內容，但可檢視片段未提供可核對的連續年度排名，不能據此支持「穩定前十」。"
+    },
+    {
+      "source_id": "src-163fa611769d00242832",
+      "title": "President Securities Corporation 2024 General Shareholders’ Meeting Meeting Agenda",
+      "url": "https://www.pscnet.com.tw/upload/pscnet/file/20240528115017830368.pdf",
+      "source_level": 3,
+      "publication_date": "2024-06-27",
+      "effective_period": "2023",
+      "locator": "Appendix I, 2023 Business Report, pp.13–14",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "已檢視文件；可檢視片段未呈現排名內容，且單一年度資料即使確認也不足以證明未界定期間內的穩定排名。"
+    },
+    {
+      "source_id": "src-aab8aa23556f562e6dc3",
+      "title": "President Securities Corporation 2024 Annual Report",
+      "url": "https://www.pscnet.com.tw/upload/pscnet/file/20250520100040955983.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-20",
+      "effective_period": "2024",
+      "locator": "Business Environment, Market Overview；目錄列於第107頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "已取得年報內容，但可檢視片段未提供電子下單比率及其分母或比較基準，不能支持「比率高」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8輪聚焦查找；依限制停止。兩項原子主張仍缺少已核對、範圍與期間可比的證據。",
+    "搜尋結果預覽曾顯示2024年市占排名及2025年電子交易比率的相關說法，但未直接核對其原文頁面，依任務要求僅作為搜尋線索，未作為支持證據。",
+    "官方年報或股東會文件的存在，不等於已核實其中的排名、期間、分母或比率定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2855/113/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "02a9ae96fc8856ff220b1dfa8c7a8a502dd78e272d1fcd6ecbe54951f2b154dd",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2855/113/isolated-prompt.txt",
+  "prompt_sha256": "65603e74505cbbce83514d2fadcb4711b349084573dda288c7dd47b2ee98ae20",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000113/manifest.json",
+  "supersedes_manifest_sha256": "3f1f226483ac87c0aeb597d0192325b8aaaf536be82894a64e13c1f59fb090ab",
+  "corrected_at": "2026-10-08T09:57:47Z"
+}

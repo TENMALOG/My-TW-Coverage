@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000846",
+  "claim_id": "7507:objective_ranking_or_market_share:bfc75b334da69cf9",
+  "normalized_claim_hash": "bfc75b334da69cf9926ea1d25060b4cfdeb6f9f034638edb5a89504032901771",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-74a75476708ffcc8",
+      "title": "Enrestec Inc. – Waste Tire Pyrolysis · rCB · TPO · Equipment Sales",
+      "url": "https://www.enrestec.com.tw/en/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Plant opened in 2013; current issuer description",
+      "locator": "“The world's first waste tire pyrolysis plant in 24-hour commercial operation” and company timeline",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure supports commercialization by Enrestec, but does not establish that it remains the only such company."
+    },
+    {
+      "source_id": "src-ecbd80e196946285",
+      "title": "About Us – Enrestec",
+      "url": "https://www.enrestec.com.tw/en/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current site, checked 2026-10-07",
+      "locator": "About Us; company description and pyrolysis resource-recovery activities",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer self-description."
+    },
+    {
+      "source_id": "src-926a52eb81366463",
+      "title": "Second life for used tyres, Gases for Life, Issue 01 | June 2016",
+      "url": "https://corporate.messergroup.com/documents/20127/4893390/Gases%2Bfor%2BLife%2Bno.%2B18%2B-%2BFollowing%2Bnature%E2%80%99s%2Bexample.pdf/e8bab825-40a0-6a31-e6a9-b7533ac110aa?t=1597676191210",
+      "source_level": 2,
+      "publication_date": "2016-06",
+      "effective_period": "ReOil plant operating since 2015, as reported in 2016",
+      "locator": "Article “Second life for used tyres”; ReOil plant in Myślenice, Poland",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Messer’s corporate publication describes ReOil processing shredded waste tires by pyrolysis into carbon black and oil, and says the plant had been operating since 2015."
+    },
+    {
+      "source_id": "src-3da6e045702b76fb",
+      "title": "About us | reoil.pl",
+      "url": "https://reoil.pl/en/about-us/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Plant construction/startup reported for 2013–2016; commercial progress reported through 2025",
+      "locator": "Development / History timeline",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "ReOil’s own account reports plant construction and pyrolysis startup in 2013–2016, followed by process improvement, rCB production, and 2021 profitability with long-term TPO and rCB offtake contracts."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得環拓商業化的官方披露及至少一個有佐證的海外商業營運反例，足以判定原文的全球唯一性不成立；無需再擴大搜尋。",
+    "環拓與 ReOil 的公司網站屬於當事公司披露；ReOil 的商業營運另有 Messer 2016 年刊物佐證。",
+    "原文未指定「成功商業化」的門檻或評估日期；全球唯一性依通常含義檢核，未改成特定連續式製程或其他更窄範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7507/846/hermes-attempt-1.stdout.txt"
+}

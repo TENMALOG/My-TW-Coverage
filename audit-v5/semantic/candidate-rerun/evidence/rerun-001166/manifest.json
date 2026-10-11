@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001166",
+  "claim_id": "8478:export_concentration:2c102225efac7f2c",
+  "normalized_claim_hash": "2c102225efac7f2cf9b00676d77ab37b25db4c92bbb5b54aea00aab9c1dbc5a5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c0f02f66b93335c1",
+      "title": "東哥企業股份有限公司114年度年報（FinancialFilings轉載）",
+      "url": "https://financialfilings.com/filings/ocean-alexander-8478/annual-report/2026/55975749/",
+      "source_level": 2,
+      "publication_date": "2026-04-15",
+      "effective_period": "2024及2025年度",
+      "locator": "年報第1598–1608行，主要商品銷售地區表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "單位為新台幣仟元及百分比；2024年度外銷銷售額美洲95.37%、澳洲4.63%，2025年度美洲100%、澳洲0%。表中沒有美國國別占比。"
+    },
+    {
+      "source_id": "src-88819d3abca8ae91",
+      "title": "27R型 — Ocean Alexander",
+      "url": "https://oceanalexander.com/zh-hant/yachts/27r%E5%9E%8B/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品介紹及技術規格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品頁描述27米遊艇並列雙V12、1650 HP引擎規格。"
+    },
+    {
+      "source_id": "src-2bd72a136147085f",
+      "title": "40P — Ocean Alexander",
+      "url": "https://oceanalexander.com/zh-hant/yachts/40%E4%BE%BF%E5%A3%AB/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "技術規格，標準功率",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品頁列雙MAN V16、2600馬力。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦查核。官方現行產品資料與2025年度年報支持大型遊艇及動力型號，但未找到能確認70–120呎整體主力範圍或美國國別外銷占比的資料；相關原子保留為UNKNOWN。",
+    "年報資料來自FinancialFilings轉載的公司年報頁面，並非本次直接取得的官方申報PDF；因此source_level標為2。",
+    "年報銷售地區表以區域分類，不能將「美洲」直接等同於「美國」。",
+    "公司現行產品頁只能證實所列型號的規格，不能據此推定完整產品範圍或歷史期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8478/1166/hermes-attempt-1.stdout.txt"
+}

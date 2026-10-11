@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000911",
+  "claim_id": "1708:export_concentration:c24aa34e9be5f666",
+  "normalized_claim_hash": "c24aa34e9be5f666f674fe7962d64ff36e49dd3f2f764bf35531d4cdc57a0ed5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-65b70586c0697c33",
+      "title": "銷售分佈－東南實業股份有限公司",
+      "url": "https://www.sesoda.com.tw/page/Sales",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「銷售分佈」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a global distributor/agent model but does not name Australia or identify country-specific distributors."
+    },
+    {
+      "source_id": "src-6f53ba79207e75b3",
+      "title": "東南實業股份有限公司民國一一四年度及一一三年度個體財務報告暨會計師查核報告",
+      "url": "https://www.sesoda.com.tw/putFiles/c91zI87Uz0ZJfUmf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025 and FY2024",
+      "locator": "Note XIV, customer-contract revenue, major geographical markets",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports FY2025 Australia chemical-product revenue of NT$286,300 thousand; product-level and sales-channel details are not provided."
+    },
+    {
+      "source_id": "src-2c126779d0f4e4fe",
+      "title": "2025東南實業股份有限公司法人說明會",
+      "url": "https://www.sesoda.com.tw/putFiles/6fezM4bXN7QSeSm2",
+      "source_level": 3,
+      "publication_date": "2025-11-18",
+      "effective_period": "Not separately specified; stated as the SOP sales strategy in the presentation",
+      "locator": "PDF page 3, 「銷售策略」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States: 「98%硫酸鉀為外銷」; no explicit denominator unit or measurement method."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Reviewed issuer sales-channel information, its 2025 investor presentation, and FY2025 audited financial statements. The export percentage and global channel approach are supported, but official disclosures located do not establish named distributor relationships in each country; those atoms remain UNKNOWN.",
+    "The 98% figure is for potassium sulfate, not all company exports; its precise denominator and unit are not disclosed in the cited presentation.",
+    "FY2025 country revenue figures are for chemical products at the parent-company level, not specifically potassium sulfate and not evidence of distributor relationships.",
+    "The issuer confirms a worldwide distributor/agent approach but does not publicly identify distributors by the four named countries in the sources reviewed."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1708/911/hermes-attempt-1.stdout.txt"
+}

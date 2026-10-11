@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001115",
+  "claim_id": "2404:material_named_relationship:c9fafe0c318e0dc0",
+  "normalized_claim_hash": "c9fafe0c318e0dc01bf8feb86a2d82da33db23fbcb9f48758d1d2e721ba84954",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b56e4fad2de2e2a7",
+      "title": "漢唐集成股份有限公司 113 年度年報",
+      "url": "https://www.uisco.com.tw/113year.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "2025 年營業計畫",
+      "locator": "第 6 頁，lines 160–180",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將 Micron 擴產合作列於營運方針，另將新加坡無塵室專案明確指為 VSMC。"
+    },
+    {
+      "source_id": "src-b10ece2a2a4a135b",
+      "title": "UIS Semiconductor project list",
+      "url": "https://www.uisco.com.tw/en/Semiconductor.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Micron project list, lines 18–20",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 Micron Memory Taiwan Co., Ltd. 及 FAB A1–A3，未標示新加坡廠；頁面清單未標明期間，缺列不作為反證。"
+    },
+    {
+      "source_id": "src-0a918f3c2b0d2197",
+      "title": "漢唐受邀出席 VSMC 新加坡 12 吋晶圓廠首批設備移機典禮",
+      "url": "https://www.uisco.com.tw/Awards_20251027.html",
+      "source_level": 3,
+      "publication_date": "2025-10-27",
+      "effective_period": "2025 年新加坡 VSMC 專案",
+      "locator": "正文第 22–30 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方說明漢唐參與新加坡 VSMC 廠房工程；不是 Micron 專案證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱漢唐官方年報、工程實績頁及新加坡專案公告，並以中英文名稱檢索 ASML、聯發科及 Micron 新加坡廠相關說法；未能為未解原子找到直接可靠證據，依規則停止並保留 UNKNOWN。",
+    "「核心客戶」是概括性描述；官方年報用語為「主要業主」，並披露相關建廠計畫。",
+    "Micron 台灣專案與新加坡 VSMC 專案不能互相替代，不能據此確認 Micron 新加坡廠。",
+    "ASML、聯發科及 Micron 新加坡廠均未找到直接關係證據；未找到證據不等於證明不存在。",
+    "官方工程實績頁未標明清單期間或其是否完整。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2404/1115/hermes-attempt-1.stdout.txt"
+}

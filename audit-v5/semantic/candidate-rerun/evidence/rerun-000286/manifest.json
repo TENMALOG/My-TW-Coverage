@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000286",
+  "claim_id": "3441:objective_ranking_or_market_share:8b98c062556b5eb7",
+  "normalized_claim_hash": "8b98c062556b5eb7801b63d818119d766fcaaca0b3699b850470a41431aaa0c3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6e346d2b9bfd4327",
+      "title": "光學股轉型秀受市場追捧 聯一光、佳凌、先進光一度亮燈漲停",
+      "url": "https://www.ctee.com.tw/news/20260727700880-430201",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026年7月報導所述現況",
+      "locator": "正文中聯一光段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱聯一光是台灣唯一的光學玻璃毛胚純台資製造商；非官方來源。"
+    },
+    {
+      "source_id": "src-2b79524191e3efb3",
+      "title": "聯一光學工業股份有限公司",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=b9b75de6-2651-41ad-95e5-beebb0a120d6",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "詞條標示更新日期2020-08-25",
+      "locator": "「公司簡介—沿革與背景」、「重要原物料及相關供應商」及「產業上中下游」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱毛胚屬光學產業上游、是鏡片與鏡頭生產原料；同時指出光學玻璃為毛胚原料。資料未確立「最上游」所採用的完整產業鏈邊界。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "在8個研究回合上限內已取得近期媒體佐證及產業鏈描述；未找到官方來源確認唯一性，也未找到能界定並驗證「最上游」的完整產業鏈範圍，故保留該原子為UNKNOWN。",
+    "未找到公司或監管機關來源直接確認「台灣唯一純台資」或「最上游」兩項完整表述。",
+    "唯一性有2026年工商時報報導佐證，但缺乏明確列舉全體同業的官方名錄或獨立市場普查。",
+    "MoneyDJ詞條標示2020-08-25更新，部分產業與營運資料較早；其內容可佐證流程描述，不能視為當前官方確認。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3441/286/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000384",
+  "claim_id": "8926:objective_ranking_or_market_share:374f48cdf5d509d2",
+  "normalized_claim_hash": "374f48cdf5d509d25c77adf1db63fda1f64ed09f967f3acdc32867376343b73a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-fddf55c897f6685ac1c3",
+      "title": "台灣汽電共生｜公司沿革",
+      "url": "https://www.cogen.com.tw/tw/about-history",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "歷史事件：1992年成立",
+      "locator": "頁面開頭公司沿革摘要；1992–2000年沿革段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方歷史資料直接支持成立年份。"
+    },
+    {
+      "source_id": "src-10673084b7a6ac4d1408",
+      "title": "台灣汽電共生｜集團企業",
+      "url": "https://www.cogen.com.tw/tw/about-enterprise",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司網站現行資料；列示森霸電力二期於2025年商轉",
+      "locator": "頁首「台汽電主要轉投資事業」段；四家民營天然氣電廠的容量與持股資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述四家轉投資民營天然氣電廠合計3,650MW，約占民營IPP總裝置容量50.35%；未提供比例的計算日期及完整分母明細。"
+    },
+    {
+      "source_id": "src-0b99b9c00302176a7597",
+      "title": "法人說明會（114年12月5日）",
+      "url": "https://www.cogen.com.tw/files/8FFE1D790eb90CE0Ec5dFAC93a685C797a6c3495.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-05",
+      "effective_period": "2025年12月5日簡報；所列電廠容量資料",
+      "locator": "第5頁：星能電力、森霸電力、星元電力及國光電力之電廠容量與台汽電持股比例",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報證實相關投資電廠及其容量，但未提供民營電力集團排名。"
+    },
+    {
+      "source_id": "src-c53b83afd6d01497f490",
+      "title": "台灣電力公司－民營電廠(IPP)",
+      "url": "https://www.taipower.com.tw/2289/2558/2387/10656",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "民營電廠容量表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示IPP電廠及裝置容量，但按電廠而非企業集團彙總，不能單獨驗證集團排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方沿革、集團容量資料、2025年法人說明會及台電IPP資料。成立年份已確認；排名原子仍缺明確比較期間、完整市場範圍及可核對的集團排名口徑，故保留UNKNOWN並停止研究。",
+    "官方公司頁的3,650MW及50.35%為公司自述；未見同頁提供計算日期、完整分母明細或獨立集團排名。",
+    "台電IPP資料列示電廠層級容量，未提供民營電力集團的合併排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8926/384/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d9be3b2f42eb79655861cbb5eb2a2fc2da0a04b01c2dacd8a2e8a1f02e96dfae",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8926/384/isolated-prompt.txt",
+  "prompt_sha256": "ed3d820954b1a2453a255f5319fda6472afb172f3b84311130687ad266d5fbd0",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000384/manifest.json",
+  "supersedes_manifest_sha256": "a92bcb49b196ae47a19afbeb3c520d8c89a6a364da1ce42ce2f040a6e8a5650e",
+  "corrected_at": "2026-10-08T09:58:08Z"
+}

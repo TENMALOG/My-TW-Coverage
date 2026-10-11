@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000376",
+  "claim_id": "6776:objective_ranking_or_market_share:59f0a1faacffbf5e",
+  "normalized_claim_hash": "59f0a1faacffbf5e1e9172b448e658dffbde307e46c593e46f42880610be1883",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9e898e163a7606ce",
+      "title": "成為 Adobe 授權經銷商｜Weblink × Adobe",
+      "url": "https://adbecsp.weblink.com.tw/partners/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行網頁，檢索於2026-10-06；未標示起始日期",
+      "locator": "「步驟四：開通展碁 VIP Marketplace 下單權限」及頁尾「Adobe 台灣總代理（Distributor）」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "展碁官方頁面；支持 Adobe 分銷/授權通路關係，但不是 Adobe 原廠獨立確認。"
+    },
+    {
+      "source_id": "src-2480b1892911c599",
+      "title": "展碁CSP雲端服務",
+      "url": "https://csp.weblink.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行網頁，檢索於2026-10-06；未標示起始日期",
+      "locator": "頁面產品項目「Microsoft 365」、「Microsoft Azure」及「Microsoft 永久授權」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "展碁官方服務頁，列出 Microsoft 訂閱及永久授權產品。"
+    },
+    {
+      "source_id": "src-288681010f7eea22",
+      "title": "展碁國際股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=df0abf2f-6882-434d-b4b4-3f2511955f0f",
+      "source_level": 2,
+      "publication_date": "2026-09-23",
+      "effective_period": null,
+      "locator": "「公司簡介」稱「國內第一大軟體產品通路代理商」；頁尾註明本文由嘉實投顧提供、更新日期2026/09/23",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料重述排名，但未提供排名計算方法、比較母體或量化依據，故不足以解決此原子主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對展碁官方產品與授權頁面、年報資料及排名措辭的聚焦檢索；未找到可核實台灣軟體通路排名之範圍與量化方法的官方或監管證據，排名原子維持 UNKNOWN。",
+    "Adobe 與 Microsoft 的產品/通路證據主要來自展碁官方頁面，能支持其提供相關服務，不能單獨證明市場規模或排名。",
+    "找到的排名陳述來自二手資料，沒有揭露期間、比較母體、分母或衡量單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6776/376/hermes-attempt-1.stdout.txt"
+}

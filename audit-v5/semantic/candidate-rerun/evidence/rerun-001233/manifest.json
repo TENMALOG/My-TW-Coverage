@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001233",
+  "claim_id": "3402:material_named_relationship:5daa2e03baf70358",
+  "normalized_claim_hash": "5daa2e03baf703582b55e6c9fa605eac96c933d0eb64da7b0ba2a35a6e3c4961",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4bf9634ee0a1a708",
+      "title": "漢科系統科技股份有限公司：氣體／特殊管路工程",
+      "url": "https://www.wholetech.com.tw/wholetech/views/DP/DP.php?dp=6&lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行官網頁面，查閱日期2026-10-07；頁面未標示生效日。",
+      "locator": "第一事業部，業務說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司自述的技術與服務能力，但不證明相對同業的「高度技術優勢」。"
+    },
+    {
+      "source_id": "src-4ed06454b37e77c5",
+      "title": "漢科系統科技股份有限公司—TPEx業績發表簡報",
+      "url": "https://www.tpex.org.tw/event/web/supervise_11411/1.3402%E6%BC%A2%E7%A7%91.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-27",
+      "effective_period": "簡報所列主要客戶群，截至2025-11-27。",
+      "locator": "第9頁（PDF第9頁），「主要客戶群」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面列有台積電標誌，能支持其被公司列為主要客戶群之一；不能證明其為台積電特殊氣體管路工程的主要供應商之一。"
+    },
+    {
+      "source_id": "src-dee4934af2ab1354",
+      "title": "漢科系統科技股份有限公司2018年度年報（民國107年度）",
+      "url": "https://www.wholetech.com.tw/wholetech/images/investors/annual_report/107year.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報記載的公司沿革為民國86至87年（1997至1998年）。",
+      "locator": "公司簡介／公司沿革，民國86至87年",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載曾取得台積電等大廠二次配管主承攬商資格；這是歷史資格資訊，並非目前供貨狀態或供應商重要性排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱漢科官網業務資料、TPEx所載公司業績簡報及公司年報。現有資料能確認其特殊氣體管路業務，但未能核實「高度」相對技術優勢或目前對台積電的主要供應商地位；未以不同年份或其他客戶資訊替代缺失證據。",
+    "技術能力與優勢資料主要來自漢科自述，未找到可比較同業的獨立評估或量化基準。",
+    "主要客戶群名單不等同於某一工程類別的供應商名單，也不代表供應商排名或目前供貨狀態。",
+    "年報所述台積電二次配管主承攬商資格屬歷史資訊；不可替代目前供應關係的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3402/1233/hermes-attempt-1.stdout.txt"
+}

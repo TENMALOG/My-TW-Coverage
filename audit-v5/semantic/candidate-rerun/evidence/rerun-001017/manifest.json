@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001017",
+  "claim_id": "3217:material_named_relationship:9249a974b3559c5a",
+  "normalized_claim_hash": "9249a974b3559c5aa4de871e8881373b13537a275922279a60206a4e5b6f79b0",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e73149d755160e16",
+      "title": "新品/新客戶訂單挹注，優群今年營收拚增雙位數",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=77de44c0-d4ea-4168-b077-4a5ccc73a7d6",
+      "source_level": 2,
+      "publication_date": "2023-06-13",
+      "effective_period": "截至2023年6月；預計2023年下半年出貨",
+      "locator": "正文第40–42行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述總經理稱已成為Meta伺服器供應商並打入供應鏈，同時明確把開始出貨列為下半年預期。"
+    },
+    {
+      "source_id": "src-4b4b62e11a601b4c",
+      "title": "成為美超微AI伺服器供應鏈　優群：下半年展望樂觀",
+      "url": "https://health.ftvnews.com.tw/news/detail/2023606W0153",
+      "source_level": 2,
+      "publication_date": "2023-06-06",
+      "effective_period": "截至2023年6月；報導談及當年新機種",
+      "locator": "正文第21–26行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章標示內容來源為中央社，並引述優群總經理稱優群原已在Supermicro伺服器供應鏈中。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "三項原子主張均有同期報導支持；未找到相應的官方客戶確認或量化供應資料，但這些缺項不否定原文的定性歷史表述。",
+    "關鍵客戶關係及需求敘述來自同期媒體對優群總經理發言的報導，未找到Supermicro或Meta對此供應關係的直接確認。",
+    "Long-DIMM營收年增數字是當時預測，不能視為實際達成；該預測也未分離伺服器用途與桌機用途。",
+    "報導未提供Long-DIMM伺服器市場的市占率、出貨量或客戶採購量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3217/1017/hermes-attempt-1.stdout.txt"
+}

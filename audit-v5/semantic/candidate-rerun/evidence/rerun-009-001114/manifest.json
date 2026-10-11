@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001114",
+  "claim_id": "6908:export_concentration:fd2c6df51c194b44",
+  "normalized_claim_hash": "fd2c6df51c194b4487a41abf7a4af613c88581bea420a1ed696ad66b35229753",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b1b53aa58c6b1401288b",
+      "title": "Acer Gaming Inc. 2025 Annual Report",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/52656/2026/RNS/52656_rns_2026-06-10_acc3e15b-55bc-495d-a117-5aa212a17547.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度比較數據",
+      "locator": "第63頁，Revenue Percentage表；第63–64頁產品表及總營收",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報原始披露文件。列示各產品類別收入與總額，但該表印出的2024年比例欄與列示金額不符；按披露金額除以總營收計算後支持本原子主張。"
+    },
+    {
+      "source_id": "src-eb16cad07ba1a77e87b7",
+      "title": "Acer Gaming Inc. 2025 Annual Report",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/52656/2026/RNS/52656_rns_2026-06-10_acc3e15b-55bc-495d-a117-5aa212a17547.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度比較數據",
+      "locator": "第76頁，Regions where major products (services) are sold表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報披露台灣、外銷分項及占比。"
+    },
+    {
+      "source_id": "src-3d0712b8ede602cc6c98",
+      "title": "臺灣證券交易所新聞稿：宏碁遊戲公開說明書摘要",
+      "url": "https://investoredu.twse.com.tw/Mobile_Pages/..%2FFileSystem%2FFileUpload%2F013dde25-3e91-4d99-bd50-84b285b63f0e.pdf",
+      "source_level": 3,
+      "publication_date": "2025-10-17",
+      "effective_period": "2024年度（民國113年度）",
+      "locator": "第2頁，市場結構",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "交易所文件確認113年度內銷57.40%、外銷42.60%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到發行人年報中的2024年產品與地區收入金額，並以證交所公開說明書摘要交叉確認內外銷比例；兩個原子主張均已解決。",
+    "2025年年報的產品收入表中，2024年百分比欄與同表所列收入金額及總營收不一致；候選接受的產品占比是根據年報原始金額與總額重算，而非採用該百分比欄。",
+    "原主張將「遊戲主機及周邊商品」與「電腦周邊商品」合併概稱為硬體與周邊；兩類合計四捨五入後為76%。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6908/1114/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0bf58788330e7f55135317af7622be376917cebcc1ad1b42ef9e6ee389348e5b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6908/1114/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "6613c67e91c62a9d529ebaf4c4d5cbead62efb9b4164a582647ae5c51ceec417",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001114/manifest.json",
+  "supersedes_manifest_sha256": "1d80a7093f541c86fe1a8836d863c26fe7f29c62556cd4284fa4749298c46662",
+  "corrected_at": "2026-10-08T09:59:19Z"
+}

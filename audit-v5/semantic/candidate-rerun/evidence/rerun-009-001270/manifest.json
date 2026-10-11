@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001270",
+  "claim_id": "9908:material_named_relationship:9ee2a3f7848520f1",
+  "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a2990f8b68e406463d67",
+      "title": "臺北市天然氣用戶專區－供應轄區及天然瓦斯費率",
+      "url": "https://doed.gov.taipei/News_Content.aspx?n=DF76AAA7321DB643&s=0F85250B9064F614&sms=E353A79DCCB9ECCE",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Page updated 2026-01-08",
+      "locator": "Lines 277–304, especially 281 and 291–304",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the four Taipei natural-gas companies purchase their gas source from Taiwan CPC and identifies 大台北區瓦斯 and its service territory."
+    },
+    {
+      "source_id": "src-f4376a471f5c59039793",
+      "title": "2024 永續報告書－大台北區瓦斯股份有限公司",
+      "url": "https://www.taipeigas.com.tw/Content/Files/csrDownload/2024%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%28%E4%B8%AD%29%E5%A4%A7%E5%8F%B0%E5%8C%979908.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 reporting period",
+      "locator": "Climate-related risks and opportunities; supply-chain response measures",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer says it signed an annual supply contract with CPC to secure natural-gas supply for basic public needs."
+    },
+    {
+      "source_id": "src-5ea4e9411f7770dad394",
+      "title": "臺北市天然氣用戶專區－供應轄區及天然瓦斯費率",
+      "url": "https://doed.gov.taipei/News_Content.aspx?n=DF76AAA7321DB643&s=0F85250B9064F614&sms=E353A79DCCB9ECCE",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Page updated 2026-01-08",
+      "locator": "Lines 277–304, especially 281 and 291–304",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The statement that the utilities' gas sources are all purchased from Taiwan CPC, combined with the listing of 大台北區瓦斯, supports sole-source status for its natural-gas supply in this defined utility context."
+    },
+    {
+      "source_id": "src-59b801748baf7ed5409d",
+      "title": "環境永續－氣候變遷風險與機會",
+      "url": "https://www.taipeigas.com.tw/ESG/environment/institution",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 climate-risk assessment",
+      "locator": "2024 climate-risk matrix and supply-chain response measures",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer states it signed an annual natural-gas supply contract with Taiwan CPC; this corroborates the supplier relationship but does not independently establish exclusivity."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official issuer and Taipei City government disclosures support the supplier relationship and exclusivity within the defined public natural-gas utility context; no further research was needed.",
+    "The clearest exclusivity support is the Taipei City government's statement covering all four district-serving public-gas utilities, alongside its identification of 大台北區瓦斯 as one of them.",
+    "The issuer's own disclosure confirms an annual supply contract with CPC but does not explicitly label CPC an exclusive supplier."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9908/1270/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "b6914aa0c6420de29e4903def3293f47411e77bb470e021db3650e9274fa8911",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9908/1270/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "8fb5d4e1e462ecb4315ddaec429f203275515f23c2cd050ffb46f7008403ef63",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001270/manifest.json",
+  "supersedes_manifest_sha256": "f4ffb9b7f89837d2d67c4df8720b05a38bdb7d2bbff003df8188bf22edf47066",
+  "corrected_at": "2026-10-08T09:59:37Z"
+}

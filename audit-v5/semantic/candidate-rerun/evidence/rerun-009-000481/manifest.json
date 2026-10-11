@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000481",
+  "claim_id": "8467:objective_ranking_or_market_share:5b5b16a8a12e4d56",
+  "normalized_claim_hash": "5b5b16a8a12e4d5619703937659ecedd41b1ca1455353409d92bd3f680006a5b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-78c60fecba998e82d60d",
+      "title": "富果直送｜白話投資好文",
+      "url": "https://blog.fugle.tw/post/earnings-call-8467-2025-11-10",
+      "source_level": 2,
+      "publication_date": "2025-11-10",
+      "effective_period": null,
+      "locator": "OEM/ODM section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Bauer as the principal brand customer and the relationship as a major revenue source; does not explicitly rank Bauer as the largest customer."
+    },
+    {
+      "source_id": "src-3c9e64c2a23f10b0f7a8",
+      "title": "富果直送｜白話投資好文",
+      "url": "https://blog.fugle.tw/post/earnings-call-8467-2025-11-10",
+      "source_level": 2,
+      "publication_date": "2025-11-10",
+      "effective_period": "As described in the 2025-11-10 report",
+      "locator": "OEM/ODM section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that 波力-KY manufactures ice hockey sticks and helmets for Bauer Hockey."
+    },
+    {
+      "source_id": "src-ca3913523cb6057ccbc1",
+      "title": "波力股東會／總經理：曲棍球桿訂單2036年前無虞",
+      "url": "https://money.udn.com/money/story/5710/9515555",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Reports 2024 and 2025 figures and a 2026 target",
+      "locator": "Passage on high-end sticks and global market share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 40% for 2024, 50% for 2025, and a 60% target for 2026; does not clearly define the relevant product-market denominator or support an actual share above 50%."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped at the tool-iteration limit. The unresolved ranking and market-share scope could not be verified from the evidence obtained.",
+    "The available product-scope evidence is secondary reporting, not an independently verified official issuer disclosure.",
+    "No source reviewed established Bauer’s customer ranking with a defined period and revenue denominator.",
+    "The market-share wording lacks a clear market definition and measurement period; reported 2025 share was 50%, while 60% was presented as a target."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8467/481/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "003f942ac412211abb4b8f2e0d43aede2bf8d17b1c16c041e5952969ba6eda28",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8467/481/isolated-prompt.txt",
+  "prompt_sha256": "1079035dc15327e280a9fda0a7962b4c123b33487aba62e43ad482d71ed04939",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000481/manifest.json",
+  "supersedes_manifest_sha256": "c127d80f16a1743d3b83872656f6b73bba72d286c1a0af21abea2d232ae9f692",
+  "corrected_at": "2026-10-08T09:58:16Z"
+}

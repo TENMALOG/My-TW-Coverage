@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000654",
+  "claim_id": "6231:objective_ranking_or_market_share:1da870e8d9816ee5",
+  "normalized_claim_hash": "1da870e8d9816ee5be72ff12f1b5fd14b3c8093584258d7a106c91a14085c133",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-47772e26f87845a5",
+      "title": "Insyde Software analyst meeting 2025",
+      "url": "https://www.insyde.com/wp-content/uploads/Insyde-Software-analyst-meeting-2025_0307_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03",
+      "effective_period": "簡報發布時；市佔率統計期間及方法未披露",
+      "locator": "About Insyde：#1 BIOS Vendor for Notebooks by Market Share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報指稱其為筆記型電腦BIOS市佔率第一，並非AI PC專屬市場份額。"
+    },
+    {
+      "source_id": "src-ef92268cf9a25086",
+      "title": "系微AI PC權利金入帳，推升9月營收創高",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=5c27a9c2-4234-465f-9613-66b1ae9289e9",
+      "source_level": 2,
+      "publication_date": "2024-10-14",
+      "effective_period": "2023至2024年NRE收入占比",
+      "locator": "正文第三段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導NRE營收比重由25%升至30%；占比變化不等於絕對收入的完整年度趨勢。"
+    },
+    {
+      "source_id": "src-5b32821e8e1316bf",
+      "title": "系微股份有限公司2025年度年報",
+      "url": "https://www.insyde.com/wp-content/uploads/2025_6231_20260416.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-16",
+      "effective_period": "2025年度營運結果及2026年展望",
+      "locator": "〈致股東報告書〉「一一四年度營業結果」及未來發展策略段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱2025年伺服器BIOS需求量較前一年增加、OpenBMC耕耘見起色；另稱AI伺服器帶來強烈需求。沒有AI伺服器收入的獨立數列。"
+    },
+    {
+      "source_id": "src-c0aa8d35a988e14c",
+      "title": "系微去年業績創高 今年更旺",
+      "url": "https://www.ctee.com.tw/news/20250312700252-439901",
+      "source_level": 2,
+      "publication_date": "2025-03-12",
+      "effective_period": "報導2023至2024年NRE收入占比及近年趨勢",
+      "locator": "「系微目前主要營收動能來自授權金（Royalty）和NRE」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述公司稱NRE收入近年成長、占比達30%，並說明平台增加帶動開案需求；未提供完整逐年金額。"
+    },
+    {
+      "source_id": "src-2b7f535f02c6c098",
+      "title": "系微2024全年度業績喜創新高，展望2025持續正向樂觀",
+      "url": "https://www.insyde.com/zh-hant/news/press-releases/%E7%B3%BB%E5%BE%AE2024%E5%85%A8%E5%B9%B4%E5%BA%A6%E6%A5%AD%E7%B8%BE%E5%96%9C%E5%89%B5%E6%96%B0%E9%AB%98%E5%B1%95%E6%9C%9B2025%E6%8C%81%E7%BA%8C%E6%AD%A3%E5%90%91%E6%A8%82%E8%A7%80/",
+      "source_level": 3,
+      "publication_date": "2025-01-08",
+      "effective_period": "公司稱AI PC風潮下x86市場市佔率超過五成；統計期間未披露",
+      "locator": "總經理引述段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述的範圍是x86市場，未披露AI PC市場市佔率、分母或方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司新聞稿、投資人簡報、年報及相關財經報導；未找到AI PC專屬市佔率資料或足以驗證授權金及NRE多年穩健增長的分項收入序列，故保留未解原子為UNKNOWN。",
+    "系微所述「x86市場超過五成」及「筆電BIOS市佔率第一」均為公司自述，披露未附上市調機構、分母、單位或計算方法。",
+    "NRE收入占比由25%升至30%是收入組合比例，不等於逐年絕對收入金額持續增加。",
+    "總營收成長、AI PC產品開始認列權利金及伺服器BIOS需求增加，不能替代BIOS授權金與NRE各自的多年收入序列。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6231/654/hermes-attempt-1.stdout.txt"
+}

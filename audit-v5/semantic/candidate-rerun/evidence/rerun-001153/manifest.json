@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001153",
+  "claim_id": "5530:identity_changing_event:c7b0e4ebc3050d7a",
+  "normalized_claim_hash": "c7b0e4ebc3050d7a10ea922c6b53837b34ef808ce018e17c7df4954dcfe6e601",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5203cb922d541dd6",
+      "title": "經濟部商工登記公示資料：龍巖股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22415496?fhl=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2011-03-18",
+      "locator": "Company Profile; Issue No. 10001052400",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the official company-name change from 大漢建設股份有限公司 to 龍巖股份有限公司 on 2011/03/18."
+    },
+    {
+      "source_id": "src-44d167bfa4718d2e",
+      "title": "龍巖股份有限公司2011年度年報（財務報表附註）",
+      "url": "https://www.lyls.com.tw/uploads/sitePage/%E6%8A%95%E8%B3%87%E4%BA%BA%E9%97%9C%E4%BF%82/2011%E5%B9%B4%E5%BA%A6%E5%85%AC%E5%8F%B8%E5%B9%B4%E5%A0%B1_ch.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Merger basis date 2011-02-01; name change following merger",
+      "locator": "財務報表附註，第一節「公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States the merger with 龍巖人本服務股份有限公司, the 2011-02-01 merger basis date, and that the company survived and was renamed 龍巖股份有限公司."
+    },
+    {
+      "source_id": "src-3a65d97e3f30e2a1",
+      "title": "關於龍巖｜生命服務品牌與企業介紹",
+      "url": "https://www.lyls.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2011-02",
+      "locator": "Company timeline, 2011年2月",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer timeline says 大漢建設與龍巖人本正式合併."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Issuer annual-report and timeline disclosures, together with the government company registry, resolve both claim atoms; further searching was unnecessary.",
+    "The original wording’s「與龍巖合併」is imprecise: the issuer’s report names the counterparty as 龍巖人本服務股份有限公司 and states that 大漢建設 was the surviving company.",
+    "The merger basis date and the legal name-change registration date differ: 2011-02-01 and 2011-03-18, respectively."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5530/1153/hermes-attempt-1.stdout.txt"
+}

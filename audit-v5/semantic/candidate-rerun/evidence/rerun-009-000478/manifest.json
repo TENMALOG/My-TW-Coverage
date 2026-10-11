@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000478",
+  "claim_id": "6670:objective_ranking_or_market_share:0b9c48bd7d884e3f",
+  "normalized_claim_hash": "0b9c48bd7d884e3f7b3bd20a3c1fca752baf27e5a52f6bd6d2d5e4d57c2e6f75",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bb1e9729ba48f284fcd5",
+      "title": "復盛應用12月上市 高爾夫球桿頭市占率4成",
+      "url": "https://www.cna.com.tw/news/afe/201811190252.aspx",
+      "source_level": 2,
+      "publication_date": "2018-11-19",
+      "effective_period": "報導時點（2018年）",
+      "locator": "文末公司業務介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱其為「目前全球最大的高爾夫球桿頭代工廠」，但僅支持2018年的狀況。"
+    },
+    {
+      "source_id": "src-8f100076af25d0666006",
+      "title": "關於復盛應用",
+      "url": "https://www.fusheng-precision.com/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查閱時現行網站內容（2026-10-07）",
+      "locator": "頁面「全球最大／高爾夫球具製造商」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司現行自述涵蓋高爾夫球具，未明確支持「球桿頭代工製造商」這一較窄的排名範圍。"
+    },
+    {
+      "source_id": "src-152ae8c658c85ad5d9c6",
+      "title": "復盛應用高球本業穩健成長，非高球布局續添動能",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=7b7744b9-b9d9-4a90-94a1-0ee2f7620286",
+      "source_level": 2,
+      "publication_date": "2026-07-20",
+      "effective_period": "報導時點；文中並提及2026年上半年營收",
+      "locator": "高爾夫球市場需求與市占率段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確報導全球球桿頭市占率約四成，中高階市場市占率超過五成；未披露分母的計量口徑或估算方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成六輪聚焦查找。市占率原子有2026年報導支持；現時全球最大球桿頭代工排名缺少期間匹配且範圍精確的證據，故保留為UNKNOWN。",
+    "市占率數字來自二級媒體報導，未提供市場分母的計量基礎或計算方法。",
+    "全球最大球桿頭代工廠的精確匹配報導為2018年；公司現行網站的自述使用較廣泛的「高爾夫球具製造商」範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6670/478/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6abf321871b40e63254949beb71e857586d3b50600c5146410ef59f36d86a557",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6670/478/isolated-prompt.txt",
+  "prompt_sha256": "5ddc62dd6dbf8c970f33f5d9f925d009bf84c4a94bab96842d00002eab026700",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000478/manifest.json",
+  "supersedes_manifest_sha256": "29fdf83c027b349ae0f9e4527ba4184a1a961a845cc7dce6b9bd0277bf353848",
+  "corrected_at": "2026-10-08T09:58:16Z"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000988",
+  "claim_id": "8210:material_named_relationship:9f65655c70eed5bc",
+  "normalized_claim_hash": "9f65655c70eed5bcd9d0bcd948d454502c428a843e86289ac391c0e13f795df3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0da9a010cfd032c6",
+      "title": "勤誠受惠AWS AI伺服器需求 今年營運動能強勁",
+      "url": "https://m.cnyes.com/news/print/5864477",
+      "source_level": 2,
+      "publication_date": "2025-02-17",
+      "effective_period": "As reported on February 17, 2025; no explicit contract period.",
+      "locator": "Article paragraph 3.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly describes Chenbro as a major supplier of AWS HGX AI server chassis. The article attributes its reporting to an investment analyst; no market-share or ranking denominator is supplied."
+    },
+    {
+      "source_id": "src-14289bcc3076f4c2",
+      "title": "Chenbro Micom Co., Ltd. - Annual Report 2025",
+      "url": "https://financialfilings.com/filings/chenbro-8210/annual-report/2026/48047170/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025; report also discusses the 2026 outlook.",
+      "locator": "Lines 2882–2885.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Annual-report text names AWS among downstream cloud-service providers generally; it does not confirm a direct Chenbro–AWS supply relationship or HGX-specific supply."
+    },
+    {
+      "source_id": "src-0c5774e619efd4e8",
+      "title": "勤誠下半年穩健續升，敲定美國廠投資案",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=dbb2a1a2-f4e3-4347-823f-a36d32144ba7&c=MB07",
+      "source_level": 2,
+      "publication_date": "2025-08-07",
+      "effective_period": "Chenbro’s stated second-half 2025 outlook.",
+      "locator": "Paragraphs 54–56.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Quotes Chenbro CEO Chen Ya-nan saying the company was a main HGX chassis supplier and would continue shipping. The quote does not name AWS as the HGX customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The exact AWS–HGX supplier wording was located in secondary reporting, with separate issuer-attributed corroboration for HGX chassis supply generally. Further searching was stopped; the AWS-specific wording and undefined supplier scope remain matters for final adjudication.",
+    "The AWS-specific HGX designation is supported by secondary reporting, not by an issuer disclosure located in this review.",
+    "Chenbro’s CEO separately confirmed HGX chassis supply and continued shipments, without identifying AWS as the customer.",
+    "“Main/major supplier” is not accompanied by a market-share figure, ranking, or defined supplier universe."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8210/988/hermes-attempt-1.stdout.txt"
+}

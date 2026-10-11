@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000314",
+  "claim_id": "5315:objective_ranking_or_market_share:a798cfedc1bf6d88",
+  "normalized_claim_hash": "a798cfedc1bf6d88bc2caf81be4a45c0a53c4eed3d76d29969a5e630c3cd3716",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a3b8870f80b5204f",
+      "title": "光聯科技股份有限公司 2025 年第三季法人說明會",
+      "url": "https://www.urt.com.tw/upload-files/Investors/CSR/Shareholder/114_Corporate_briefing_session_pdf.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-21",
+      "effective_period": "2025年第三季",
+      "locator": "「2025Q3 銷售分析－地區別」圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供2025年第三季地區銷售占比為歐洲67%，但未確認原主張所指期間或約60%的數值。"
+    },
+    {
+      "source_id": "src-f33a5f7c09725f96",
+      "title": "光聯科技官方網站－應用方案",
+      "url": "https://www.urt.com.tw/zh-TW/application/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「智慧家電產品面板」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "描述防水、防塵為智慧家電產品面板的基本要求。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦查找，找到公司官方產品說明及2025年第三季地區銷售資料；未找到能確認原主張所指期間及歐洲約60%占比的可靠來源，該數值保留為UNKNOWN。",
+    "產品規格來源為公司官網的應用描述，未提供發布或生效日期；多項規格屬按應用需求提供，不能推及全部產品。",
+    "官網未提供寬溫操作的數值範圍，也未提供智慧家電面板的防塵等級。",
+    "公司簡報的地區銷售占比未說明地區歸屬規則；其2025年第三季數值不能替代原主張未指明期間的約60%。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5315/314/hermes-attempt-1.stdout.txt"
+}

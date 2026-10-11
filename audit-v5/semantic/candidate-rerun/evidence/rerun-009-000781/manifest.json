@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000781",
+  "claim_id": "1307:objective_ranking_or_market_share:dd1e646d1fa31e1b",
+  "normalized_claim_hash": "dd1e646d1fa31e1befc23867aa415e85de5a62f98c90a7f5a844042e0a88da2a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3725e58705b72b2f46c6",
+      "title": "世界盃足球、Nike都用它 三芳化學不在低級品中打混仗，當上鞋材界輝達",
+      "url": "https://www.cw.com.tw/index.php/article/5141482",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導以「如今」描述；文章為2026年世界盃脈絡，未明示市占統計期間。",
+      "locator": "「全球運動鞋皮的規格制定者」段落及「小檔案」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導明確稱三芳為全球運動鞋品牌最大的人工皮革供應商。"
+    },
+    {
+      "source_id": "src-d5278dbc031706ae6365",
+      "title": "世界盃足球、Nike都用它 三芳化學不在低級品中打混仗，當上鞋材界輝達",
+      "url": "https://www.cw.com.tw/index.php/article/5141482",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導以「如今」描述；未明示排名期間。",
+      "locator": "「全球運動鞋皮的規格制定者」及「砸近8成股本開發超細纖維」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "內容談及人工皮革供應商排名及 PU 樹脂技術，但沒有明確聲稱 PU 合成皮細分市場的全球排名。"
+    },
+    {
+      "source_id": "src-a7e7f0dbf3b51bd0c3e7",
+      "title": "世界盃足球、Nike都用它 三芳化學不在低級品中打混仗，當上鞋材界輝達",
+      "url": "https://www.cw.com.tw/index.php/article/5141482",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導以「如今」描述；未明示市佔統計期間。",
+      "locator": "「全球運動鞋皮的規格制定者」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱市佔率為4成，未交代分母或計算口徑；該數字不能證明「逾40%」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合。可核實的二手報導支持較窄的供應商排名及約4成說法，但缺少 PU 細分市場排名、逾40%門檻所需證據，以及明確分母、口徑與期間；因此保留未解原子為 UNKNOWN。",
+    "未找到能明確證實 PU 合成皮細分市場排名、市佔分母及統計期間的官方 issuer 或 regulator 披露。",
+    "天下雜誌報導支持的是運動鞋品牌人工皮革供應商排名，並報稱市佔4成；不能擴大解讀為 PU 合成皮市場排名或「逾40%」。",
+    "其他搜尋結果中出現「全球超過4成」等說法，但未取得可核實其市場定義與計算口徑的原始資料，未作為已解決證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1307/781/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "86994a4048d39c59471d78b2694fa7a105bdb5efc87c4991a95601239ddc3004",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1307/781/isolated-prompt.txt",
+  "prompt_sha256": "6475003ff0e02db5dc4ed5164b8869e971deb8dc615c429460051d87bab3dd62",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000781/manifest.json",
+  "supersedes_manifest_sha256": "1ec0edb9fda78da62be5d5368e55eace880382e873a54429090545028aacf001",
+  "corrected_at": "2026-10-08T09:58:43Z"
+}

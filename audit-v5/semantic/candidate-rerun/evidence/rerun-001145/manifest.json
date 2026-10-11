@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001145",
+  "claim_id": "6655:material_named_relationship:e43d28680738ba3b",
+  "normalized_claim_hash": "e43d28680738ba3b722f8c86c5c769ac07b1cc820ddadeb625143446d0d3a286",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-032e5d3c3127bf86",
+      "title": "科定企業股份有限公司年報（2025年度，第三方平台轉載）",
+      "url": "https://financialfilings.com/filings/kd-6655/annual-report/2026/49925108/",
+      "source_level": 2,
+      "publication_date": "2026-06-10",
+      "effective_period": "2025年度；年報刊印日為2026-05-02",
+      "locator": "（三）主要原料之供應狀況，木皮列項及其後供應說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報內容由第三方平台承載；列示的是來源地區與材料類別，沒有各地採購量或比例。"
+    },
+    {
+      "source_id": "src-9a911f3c1a7e5b99",
+      "title": "KEDING — KD Panels FAQ",
+      "url": "https://keding-global.com/product/kd-panels/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "FAQ「Where do these wood materials come from?」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面稱採購人員在原產地查看及採購原木，列舉俄羅斯、歐洲、北美及南美；頁面未標明此說明的適用年度。"
+    },
+    {
+      "source_id": "src-0e5f633bf5f518e1",
+      "title": "KD科定企業股份有限公司：認證標章",
+      "url": "https://www.twkd.com/tw/quality_certification.php?cid=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面稱塗裝木皮板自2011年通過FSC驗證；目前證書有效期未在該項目列明。",
+      "locator": "「KD塗裝木皮板」—「FSC™驗證」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司產品／監管鏈驗證的說法，未證明地區供應商本身獲認證或各地來料均為FSC材料。"
+    },
+    {
+      "source_id": "src-17fcd7cdbe2153bb",
+      "title": "科定企業2024年永續報告書",
+      "url": "https://www.twkd.com/data/editor/files/%E7%A7%91%E5%AE%9A_2024%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024年度",
+      "locator": "第50–51頁，供應商ESG管理",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司鼓勵供應商使用FSC／PEFC認證綠色材料；未披露已認證供應商名單、數量或與北美／歐洲來源的對應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已在8個以內的聚焦研究輪次中找到公司年報、公司產品頁及公司永續／認證披露。地理來源有支持；未找到能把FSC狀態連結至北美、歐洲等來源地的具體供應商或原料批次的證據，因此該原子保留UNKNOWN。",
+    "2025年度年報的來源地區清單為定性披露，沒有採購數量、占比或具名供應商。",
+    "公司產品FSC監管鏈驗證與供應商自身的FSC認證、特定地區來料的FSC狀態，是不同層級的主張。",
+    "年報資料由第三方平台轉載；公司網站的FSC說明未列明該項證書目前的有效期限。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6655/1145/hermes-attempt-1.stdout.txt"
+}

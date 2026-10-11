@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000850",
+  "claim_id": "4541:material_named_relationship:2ab6d5fc7471158f",
+  "normalized_claim_hash": "2ab6d5fc7471158fbdd8657687752700b5492e54748df61ae42f263e75cbf591",
+  "accessed_date": "2026-10-07",
+  "sources": [],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "web_extract 工具無法擷取 URL，且連續失敗後觸發工具迴圈警告；所有原子主張均保留為 UNKNOWN。",
+    "本次未取得可引用的來源，因此未以未找到證據作為反證。",
+    "網頁擷取工具連續失敗並觸發工具迴圈警告；依任務限制停止研究。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4541/850/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "34f7fcff9fcf19e1e886419e4da1a0ac688a1678a4894243b1e83d444713e5a7",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4541/850/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "e02db85a2aec73abc80e17496a503694f43a18a508a850ee406fac815d740e65",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000850/manifest.json",
+  "supersedes_manifest_sha256": "6e92a8b5afece06736731d40f007f739d14f69313c4950c38bd472dbdef22540",
+  "corrected_at": "2026-10-08T09:58:50Z"
+}

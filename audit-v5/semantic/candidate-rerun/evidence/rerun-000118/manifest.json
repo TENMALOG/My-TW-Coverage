@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000118",
+  "claim_id": "6026:objective_ranking_or_market_share:f276a5441599570d",
+  "normalized_claim_hash": "f276a5441599570d51280d57e2d90db50062955ab7c36b0f40fde988a25eed46",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5ab336bd0290e893",
+      "title": "福邦證券股份有限公司112年度年報（公司網站檔名：113年報.pdf）",
+      "url": "https://www.gfortune.com.tw/Static/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E8%82%A1%E6%9D%B1%E5%B0%88%E5%8D%80/113%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2024-03-15",
+      "effective_period": "2023年度",
+      "locator": "壹、致股東報告書，第1–4頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明載以具投資銀行特色的證券服務為發展重心，並以承銷及資產管理等業務為發展重心。"
+    },
+    {
+      "source_id": "src-ca596ed7294da364",
+      "title": "福邦證券－永續金融",
+      "url": "https://www.gfortune.com.tw/Static/ESG/%E5%AE%A2%E6%88%B6%E5%83%B9%E5%80%BC/%E6%B0%B8%E7%BA%8C%E9%87%91%E8%9E%8D.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "永續金融推動",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露2024年協助中小企業籌資6件、金額新台幣15.62億元；屬具體服務活動佐證，不是該定位用語的逐字來源。"
+    },
+    {
+      "source_id": "src-7aca7ae1fb92bbe2",
+      "title": "福邦證券股份有限公司公開說明書",
+      "url": "https://www.cathaysec.com.tw/RiskManage/62CC2EC7-139F-432A-A6CC-0BDF1D67DD4F.pdf",
+      "source_level": 3,
+      "publication_date": "2016-01-13",
+      "effective_period": "主要涉及2014年度產業狀況及截至2015年8月的公司資料",
+      "locator": "「同業競爭態勢日益嚴峻」之「因應對策」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司陳述以證券承銷為核心，並配合經紀、自營、股務代理及債券業務發展投資銀行業務；屬較早期佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視福邦官方年報、官方永續金融披露、公開說明書及針對金控券商比較的定向搜尋。承銷與中小企業定位有來源支持；大型金控券商策略比較仍缺乏足以界定群體、期間及衡量方式的可靠證據，故保留為UNKNOWN並停止搜尋。",
+    "公司定位與業務策略主要依發行人年報及公開說明書佐證，屬發行人自述。",
+    "可取得的年報策略陳述涵蓋2023年度；2024年官方永續金融頁面佐證中小企業籌資活動，但未核實較新年報中策略重心是否變更。",
+    "未取得支持大型金控券商比較主張的可靠、可比期間資料；亦無明確比較群體、經紀市占指標或「以經紀市占為主」的定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6026/118/hermes-attempt-1.stdout.txt"
+}

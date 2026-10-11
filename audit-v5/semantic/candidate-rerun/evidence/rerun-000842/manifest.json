@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000842",
+  "claim_id": "6951:objective_ranking_or_market_share:477ec4a344c88ad9",
+  "normalized_claim_hash": "477ec4a344c88ad936ef0e0c76d09147e7138798edf1677a0650d8f35bddb5a1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-55a0e2cb0afcdcdf",
+      "title": "新上市公司：青新(6951) — 臺灣證券交易所",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/ff8080818f85b3e301900a8b85260218",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article conclusion",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that 青新 became the company with the largest medical-waste collection volume in Taiwan; does not extend the ranking to hazardous industrial waste."
+    },
+    {
+      "source_id": "src-50931c34c44286e3",
+      "title": "青新環境工程股份有限公司 113年股東常會議事手冊",
+      "url": "https://www.chin-hsin.com.tw/paper/0501010000/download/438",
+      "source_level": 3,
+      "publication_date": "2024-05-17",
+      "effective_period": "Business launched in 2022; 2023 revenue reported",
+      "locator": "PDF pages 5 and 23",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that 青新木 manufacturing and sales began in 2022; reports 2023 plastic-lumber manufacturing revenue."
+    },
+    {
+      "source_id": "src-f525f7facad16905",
+      "title": "青新環境工程股份有限公司公開說明書／興櫃登錄資料",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2023/05/1683883841_15528_CH_6951.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Document covers business activity through 2022; reports 2022 sales",
+      "locator": "PDF pages 4–6, sections on recycled green building materials and 青新木 sales",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes 青新木 building-material production and sales and identifies it as recycled green building material."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核交易所資料、公司股東會文件及興櫃登錄資料；仍無法確認有害事業廢棄物清運的全國排名，該範圍標為 UNKNOWN。",
+    "全國最大這一排名可由交易所來源支持的範圍僅為醫療廢棄物清運量；來源未載明測量期間。",
+    "公司披露的2023年事業廢棄物市場占有率不等同於有害事業廢棄物專項排名。",
+    "醫療廢塑膠回收與青新木製造有公司披露支持，但所查資料未提供相應回收量或全國市場排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6951/842/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000789",
+  "claim_id": "4426:objective_ranking_or_market_share:892c19ef3e0b894a",
+  "normalized_claim_hash": "892c19ef3e0b894aba371211f7112a6c77567009af3c32be5f1c667e02eca6b0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-09fe060f0848528d",
+      "title": "利勤實業永續報告書 2024",
+      "url": "https://www.li-cheng.com.tw/storage/upload/a9/file/2026-01-30/0lWFiznGtmApRjYGfYC0jwq9UVJ01ZeUVxWuClMH.pdf",
+      "source_level": 3,
+      "publication_date": "2025-06",
+      "effective_period": "2024",
+      "locator": "p. 9",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names NB among major brands using 利勤’s 3D fabric."
+    },
+    {
+      "source_id": "src-82cb4dc6ff1d3e5b",
+      "title": "NIKE財報優 紡織供應鏈同樂",
+      "url": "https://www.textilesinfo.tw/mod/news/index.php?REQUEST_ID=75d9f35204bd83598ebc3de0e835f5a596091d5a87cb7450fc81dc1cd420372a",
+      "source_level": 2,
+      "publication_date": "2023-10-13",
+      "effective_period": "2023",
+      "locator": "Article section on 利勤",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 利勤 as a supplier in Nike’s 3D spacer-fabric supply system."
+    },
+    {
+      "source_id": "src-f21bcb3130514bb1",
+      "title": "利勤實業股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=99a6da16-7ba5-4617-a50e-687212f672f0",
+      "source_level": 2,
+      "publication_date": "2025-07-23",
+      "effective_period": "2024",
+      "locator": "「市場銷售與競爭」—「銷售狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists New Balance among the company’s principal customers for 2024."
+    },
+    {
+      "source_id": "src-26bcb76a2913e7db",
+      "title": "利勤實業｜About Li-Cheng",
+      "url": "https://li-cheng.com.tw/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company description, brand and approved-supplier statements",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The company lists Adidas among brands using its products and says it is an approved supplier to the listed brands; the page is undated."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱利勤官方網站及2024永續報告，並以二級來源交叉核對2024主要客戶名單；未找到指定期間、銷售/營收分母及具名客戶排名，因此「Nike為最大客戶」仍為UNKNOWN。",
+    "公司2024永續報告書未經外部查證；其品牌使用披露可佐證產品/供應關係，但不提供具名客戶的銷售額或排名。",
+    "MoneyDJ的2024主要客戶名單屬二級來源；其來源頁面未在所引段落提供各品牌營收占比。",
+    "Nike的1999及2004里程碑證明歷史合作與策略夥伴指定，但不足以單獨證明合作期間不中斷或目前仍是核心供應商。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4426/789/hermes-attempt-1.stdout.txt"
+}

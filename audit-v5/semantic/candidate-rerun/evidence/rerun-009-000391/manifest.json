@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000391",
+  "claim_id": "6952:objective_ranking_or_market_share:ea612b92d7bf70a2",
+  "normalized_claim_hash": "ea612b92d7bf70a28bce0549e46cdac09b728f783215e04a1b0adcbb880cebbb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bf4ec20078bacbe7f389",
+      "title": "大成突破產業天花板的台灣第一顆生食級雞蛋如何誕生？斥資10億元的背後、看不見的地方才最難做！",
+      "url": "https://today.line.me/tw/v3/article/zN6DNvK",
+      "source_level": 2,
+      "publication_date": "2023-10-11",
+      "effective_period": null,
+      "locator": "文章稱大成集團雞蛋市占率位居全台首位；未列市占數值、分母或計算期間。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-0f0767fd89e9bf93f337",
+      "title": "三度控管、四大食安把關！大成可生食「上品語鮮蛋」宣布全台通路上市、產能足夠將維持中低蛋價",
+      "url": "https://www.foodnext.net/news/industry/paper/6851037244",
+      "source_level": 2,
+      "publication_date": "2024-12-10",
+      "effective_period": null,
+      "locator": "文中提到蛋品約占大成集團營收4%至5%；這是營收比重，並非市場占有率，不能替代本主張。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-4994df1668d88d015dc6",
+      "title": "大成與卜蜂可敬的對手 大武山掛牌寫下蛋雞產業新的一頁",
+      "url": "https://www.mirrormedia.mg/story/20240513ind004",
+      "source_level": 2,
+      "publication_date": "2024-05-13",
+      "effective_period": "報導描述大武山當時市占約3%，並稱新廠落成後市占可望提升至10%。",
+      "locator": "文末關於彰化洗選廠與市占的段落；該數值指大武山的預期，不是大成長城的既有市占。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-6f36e28a30e1e8d44129",
+      "title": "大武山牧場科技股份有限公司認購相關資訊及公司概況資料表",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2023/06/1686307035_14812_CH_6952.pdf",
+      "source_level": 3,
+      "publication_date": "2023-06",
+      "effective_period": null,
+      "locator": "第2頁列出大成為大武山採樣同業；文件未提供大成長城的市場占有率。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用完本輪可用的聚焦研究工具次數；尚未找到具明確市場定義、期間及分母的大成長城約10%市占來源。",
+    "現有相關報導涉及雞蛋市場，但未提供可核對的約10%市占數值及其分母、期間與市場範圍。",
+    "大武山的未來市占目標，以及大成蛋品占集團營收的比例，均不能替代大成長城的市占數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6952/391/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "166f18b6b8172d4833b8394f3cc4ee360edfc1c7e1f26daf77dc9f2c73a22a14",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6952/391/isolated-prompt.txt",
+  "prompt_sha256": "2d48670aede743853457fc2811aed66de96be67c62282a535aa1e5b76034c3e9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000391/manifest.json",
+  "supersedes_manifest_sha256": "1a4f2b4c10f6c7ba4b4cc32b9fcf0baa7b431381cf0ecfa45a1672b4e56b4182",
+  "corrected_at": "2026-10-08T09:58:08Z"
+}

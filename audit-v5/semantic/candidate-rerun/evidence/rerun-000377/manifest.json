@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000377",
+  "claim_id": "8070:objective_ranking_or_market_share:13e7c6a3959a27bd",
+  "normalized_claim_hash": "13e7c6a3959a27bd51186c92653646c48277fd76ea9a2d57d933c77907336d19",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-84eccd284499307c",
+      "title": "產品與服務｜長華電材股份有限公司",
+      "url": "https://www.cwei.com.tw/products",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "IC封裝材料 > 封膠樹酯",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁稱住友電木封膠樹酯全球市佔率第一；不是長華國內市佔率67%的證據。"
+    },
+    {
+      "source_id": "src-3266cff02e514129",
+      "title": "公司簡介｜長華電材股份有限公司",
+      "url": "https://www.cwei.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司成立初期；公司設立日期為1989年5月13日。",
+      "locator": "公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱成立初期以代理日本住友培科封膠樹酯材料為主；支持代理關係的歷史背景。"
+    },
+    {
+      "source_id": "src-e2d38be8ee4905d7",
+      "title": "長華電材股份有限公司｜MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=dcc1174c-b8ad-4de4-9ab2-b81202eef820",
+      "source_level": 2,
+      "publication_date": "2026-10-02",
+      "effective_period": null,
+      "locator": "市場銷售與競爭 > 銷售狀況 > 國內市佔率",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接報導封膠樹酯國內市佔率67%，但未標明該數字的有效期間、明確市場邊界、分母或計算口徑。"
+    },
+    {
+      "source_id": "src-0bdeacb30031d53e",
+      "title": "【長華*法說會重點內容備忘錄】未來展望趨勢 20260128",
+      "url": "https://blog.fugle.tw/post/earnings-call-8070-2026-01-28",
+      "source_level": 1,
+      "publication_date": "2026-01-28",
+      "effective_period": "摘要所述2026-01-28法說會；市佔數字未另標期間。",
+      "locator": "主要業務與產品組合 > 封裝樹脂",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "AI法說摘要稱長華在台灣市場佔有率75%至80%，與67%不一致；該摘要自述由AI依影音整理，且其連結的官方簡報未載該市佔數字，僅列作待核線索，不作可靠反證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官方產品與簡介、公開資訊觀測站法說簡報及市場資料的集中檢索；找到的二手來源雖直接列出67%，但缺少可驗證其有效期間、分母與計量口徑的資訊，官方資料亦未披露該數字，故保留該原子主張為UNKNOWN並停止。",
+    "代理關係有長華電材官方產品頁支持；67%市佔率目前僅找到MoneyDJ二手資料明確報導，未找到可核對其期間、分母或計算方法的官方披露。",
+    "官方資料所稱住友電木封膠樹酯全球市佔率第一，與長華電材在國內市場的市佔率是不同主體或市場範圍，不能替代67%主張。",
+    "另見AI整理的法說摘要提及75%至80%，但其所連官方簡報未披露該數字，證據不足以判定與67%構成可比的矛盾。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8070/377/hermes-attempt-1.stdout.txt"
+}

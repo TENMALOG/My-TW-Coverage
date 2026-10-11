@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000471",
+  "claim_id": "1515:objective_ranking_or_market_share:5787037fd7c3cb1b",
+  "normalized_claim_hash": "5787037fd7c3cb1ba0fc00917fcd69c6e01d9b7b9ac6dc477f46dbf09d2a4074",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b0f33bbd7aa39a58",
+      "title": "Rexon Industrial Corp., Ltd. 2024 Annual Report",
+      "url": "https://www.rexon.net/en/data/report/1750724531U27I2.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-02",
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "Letter to Shareholders, 2024 business results",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports consolidated operating revenue, but the retrieved sections do not provide a product-category ranking."
+    },
+    {
+      "source_id": "src-53d31c309fb680ef",
+      "title": "衝刺商用健身器材產品營運",
+      "url": "https://www.rexon.net/news.php?act=view&no=40",
+      "source_level": 3,
+      "publication_date": "2022-06-01",
+      "effective_period": "2022",
+      "locator": "Opening paragraph; commercial customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company disclosure names Technogym among commercial customers."
+    },
+    {
+      "source_id": "src-ed6167ce84382c9c",
+      "title": "力山接單報喜 全年大進補",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_more.aspx?nsl_id=2054d69ce6da4c96b2297607d307877d",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Passage listing major fitness-machine customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary industry reporting."
+    },
+    {
+      "source_id": "src-81a989da0658f8ff",
+      "title": "健身巨頭的轉型強心針",
+      "url": "https://www.rexon.net/news.php?act=view&no=35",
+      "source_level": 3,
+      "publication_date": "2022-07-13",
+      "effective_period": "2022",
+      "locator": "Company news article; expanded Peloton manufacturing and supply cooperation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Primary company disclosure confirms cooperation, but the retrieved passage does not identify treadmill or flywheel models."
+    },
+    {
+      "source_id": "src-6dde78cec8541b1e",
+      "title": "力山工業股份有限公司",
+      "url": "https://www.rexon.net/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Homepage partner list, fitness-equipment category",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official partner listing includes Precor; a partner listing does not independently establish that it is a major customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research did not retrieve period-specific official product-category revenue figures establishing the claimed revenue ranking. Customer relationships were partially corroborated; the unresolved ranking remains UNKNOWN.",
+    "The original claim gives no period for the revenue ranking; evidence about a different year or about household-versus-commercial sales mix cannot establish it.",
+    "Customer-name evidence is partly from secondary reporting. Rexon's partner list corroborates brand association but does not, by itself, prove customer status or that a customer is major.",
+    "No market-share or industry-ranking claim was assessed."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1515/471/hermes-attempt-1.stdout.txt"
+}

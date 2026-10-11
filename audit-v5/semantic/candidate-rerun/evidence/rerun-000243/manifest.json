@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000243",
+  "claim_id": "3092:objective_ranking_or_market_share:e36782398881d1ed",
+  "normalized_claim_hash": "e36782398881d1edcc0d1951f63f0fb85d969d26b2dbd8d4c1e69cd93c87fd18",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-91083b77e8bdaf7d",
+      "title": "【賀】鴻碩精密電工股份有限公司(3092)於2021年5月13日在臺灣證券交易所掛牌上市 | 新聞中心",
+      "url": "https://www.hotron-ind.com/tw/news/2/3",
+      "source_level": 3,
+      "publication_date": "2021-05-13",
+      "effective_period": null,
+      "locator": "新聞內文：稱鴻碩為「全球最大螢幕訊號連接線廠商」，並稱全球每2台螢幕有1台使用其線材。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司自述；未列市場調查機構、排名方法或統計期間。"
+    },
+    {
+      "source_id": "src-7f2c120cf2512142",
+      "title": "利害關係人專區 | ESG企業永續",
+      "url": "https://www.hotron-ind.com/tw/esg/2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面陳述「全球線材市佔率排名維持前3名」。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "範圍為一般線材市場，並非螢幕訊號線細分市場；不能據此判定該細分市場排名。"
+    },
+    {
+      "source_id": "src-57a6c10988f8e703",
+      "title": "連接線系列 | 產品中心",
+      "url": "https://www.hotron-ind.com/tw/product/2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品列表列有 USB 3.0 A TO B CABLE。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "產品存在不等同於主力地位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱鴻碩官方新聞、ESG頁面及產品目錄，並搜尋官方申報與市場資料線索；未找到具明確期間、螢幕訊號線市場定義、分母與可核驗排名方法的證據。剩餘排名及主力地位原子維持 UNKNOWN，停止研究。",
+    "全球最大排名的直接來源是公司自己的2021年上市新聞；其「每兩台螢幕一台使用鴻碩線材」說法未列統計期間、螢幕市場分母的計算方式或獨立調查依據。",
+    "公司官方ESG頁面的「全球線材市佔率排名前3」指向較廣的線材市場，不能替代螢幕訊號線市場的排名證據。",
+    "官方產品目錄證明 HDMI、DP、USB 線材有列售，但未提供各產品線的營收占比、出貨量或其他可判定「主力」的資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3092/243/hermes-attempt-1.stdout.txt"
+}

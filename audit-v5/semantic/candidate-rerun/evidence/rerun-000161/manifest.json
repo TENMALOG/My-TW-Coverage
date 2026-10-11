@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000161",
+  "claim_id": "6245:objective_ranking_or_market_share:01e6d42e67b49976",
+  "normalized_claim_hash": "01e6d42e67b49976ee66963eacb7910518f902c1882085dd09814c30be8f6204",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9d70453de98f888e",
+      "title": "【工業電腦】立端(6245)面臨全球高利率環境，最壞的情況過去了嗎? | 優分析",
+      "url": "https://uanalyze.com.tw/articles/833985311",
+      "source_level": 2,
+      "publication_date": "2024-05-16",
+      "effective_period": "文章發布時；全球市佔率的統計期間未說明",
+      "locator": "文章內立端介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "聲稱全球市佔率逾四成，並列出區域數字，但未說明市場分母、數據來源或計算方法。"
+    },
+    {
+      "source_id": "src-9ff2326543872bd7",
+      "title": "Company Profile - Lanner Electronics",
+      "url": "https://www.lannerinc.com/corporate/company-profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013 Gartner Magic Quadrants",
+      "locator": "“The Network Communications Specialist” 段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司所述 39% 是 46 家相關企業中使用立端硬體的比例，不是硬體市場市佔率。"
+    },
+    {
+      "source_id": "src-a7edcf13f10652fd",
+      "title": "Lanner to be a Preferred Industrial OT Security Appliance Provider for Industrial Cybersecurity Leaders",
+      "url": "https://www.lannerinc.com/news-and-events/latest-news/lanner-to-be-a-preferred-industrial-ot-security-solution-provider-for-industrial-cybersecurity-leaders",
+      "source_level": 3,
+      "publication_date": "2021-12-09",
+      "effective_period": "2021 Frost Radar Industrial Cybersecurity Report 所涵蓋的領先工業資安方案供應商",
+      "locator": "正文中 “All told, 42.1 percent ... (8 of 19)”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "立端稱 19 家領先工業資安方案供應商中有 8 家使用其工業閘道器平台，比例為 42.1%；公司註明數字基於內部計算。這是特定群體的採用率，不是全球網路安全硬體市場市佔率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成兩輪聚焦查找後，已找到原說法的二手報導及立端官方披露的較窄採用率資料；仍缺少能對應全球市場分母、期間與排名方法的可靠來源，因此未將這些不同口徑的數字替代原 claim。",
+    "優分析的「全球最大」及「全球市佔率逾四成」說法沒有可核對的排名方法或全球市場分母。",
+    "立端官網的 39% 與 42.1% 均指特定企業／方案供應商採用其硬體的比例；兩者的期間與涵蓋範圍不同，也都不是市場銷售額或出貨量市佔率。",
+    "所查官方資料可支持立端提供網路安全硬體及其在特定群體中的採用情形，但不能據此推導全球排名或全球市佔率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6245/161/hermes-attempt-1.stdout.txt"
+}

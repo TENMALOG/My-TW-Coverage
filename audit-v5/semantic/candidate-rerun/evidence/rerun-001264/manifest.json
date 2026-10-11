@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001264",
+  "claim_id": "1516:identity_changing_event:8fcd31ee824b57a5",
+  "normalized_claim_hash": "8fcd31ee824b57a50a60f06f6b3acd6f26dfa21ce0f413a99b46677a8854bb68",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-557c75d52c3ee52f",
+      "title": "2022 Annual Report, 川飛能源股份有限公司",
+      "url": "https://www.falconpower.tw/wp-content/uploads/2023/05/2022-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2023-05-20",
+      "effective_period": "Transformation: second half of 2008; issuer-reported formal renaming: 2009-03-02.",
+      "locator": "Financial statements, Note 1, Company History",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer chronology places transformation before the 2009 formal renaming."
+    },
+    {
+      "source_id": "src-55108976713e607b",
+      "title": "川飛更名換發新股自3/2起開始買賣",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=234e8b1a-009d-4ed9-b8f3-86c72d13b2a0",
+      "source_level": 2,
+      "publication_date": "2009-02-24",
+      "effective_period": "New-name securities began trading 2009-03-02.",
+      "locator": "Announcement, lines 34–59",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports the 2009 date for the new-name securities/trading milestone, not necessarily the registry's legal name-change entry."
+    },
+    {
+      "source_id": "src-addf798b7c981a02",
+      "title": "經濟部商工登記公示資料查詢：川飛能源股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22071751",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Name-change registration entry dated 2008-09-12.",
+      "locator": "Company profile, name-change entry",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists the prior name 川飛工業股份有限公司 and a 2008-09-12 name-change entry."
+    },
+    {
+      "source_id": "src-105fc333558caefe",
+      "title": "川飛能源股份有限公司, MoneyDJ company-history profile",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c627e8a4-5f1f-4fb4-9e18-1fa9ad72c78e",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Early company history through 2008.",
+      "locator": "沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly describes the company's early business as production of bicycle derailleurs; secondary-source attribution."
+    },
+    {
+      "source_id": "src-60120a3a6ebc260c",
+      "title": "簡介, 川飛能源股份有限公司",
+      "url": "https://www.falconpower.tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "ROC year 97 (2008).",
+      "locator": "Lines 16–18 and 45–47",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the company changed its name because of business transformation and describes the 2008 transition into energy business."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused issuer, government-registry, and contemporaneous announcement checks established the main chronology and identity. Remaining uncertainty is the conflicting legal-name-change date and the scope of the specific derailleur wording; further searching was not likely to resolve those from the reviewed primary records.",
+    "官方公司登記資料記載名稱變更日為2008-09-12；issuer年報稱正式更名日為2009-03-02。2009-03-02亦有新名稱股票開始交易的同期公告佐證，故不能不加區分地視為同一行政里程碑。",
+    "官方issuer材料主要用「自行車零組件」及「自行車傳動與制動零件」描述早期製造業務；「自行車變速器」的明確表述來自二級來源，雖有issuer年報所列變速器產品佐證，仍應避免把更廣的零件類別誤寫成唯一產品。",
+    "轉型時間順序有官方年報與公司簡介支持：轉型始於2008年，早於年報所述的2009年正式更名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1516/1264/hermes-attempt-1.stdout.txt"
+}

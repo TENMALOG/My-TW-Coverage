@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000905",
+  "claim_id": "5258:profitability_assertion:058c3be540bc456a",
+  "normalized_claim_hash": "058c3be540bc456a35613859d96e1648bfbd87790bf9e42f380cd0ec192a4c1a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f1dd4441c07dbf98",
+      "title": "虹堡科技2019年股東會年報",
+      "url": "https://www.castlestech.com/wp-content/uploads/2024/01/2019-Shareholders-Meeting-Annaul-Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報所述產品開發計畫，涉及民國108年（2019）",
+      "locator": "產品發展／無人自助設備段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明列自助洗衣為多功能讀卡機設備的應用場景。"
+    },
+    {
+      "source_id": "src-8cf6f24b30c0a866",
+      "title": "虹堡科技2024年4月30日法人說明會簡報",
+      "url": "https://www.castlestech.com/wp-content/uploads/2024/04/2024.04.30-%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E8%A1%A8%E6%9C%83-%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2024-04-30",
+      "effective_period": "2024年市場展望",
+      "locator": "第11頁，產業現況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司談及無人自助應用擴大及充電樁終端需求，但沒有量化成長率或明確市場分母。"
+    },
+    {
+      "source_id": "src-27aaf54c3f06487c",
+      "title": "美飲料商大單放量＋無人自助商機起飛，虹堡旺到明年中，充電樁商機甜",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%A3%B2%E6%96%99%E5%95%86%E5%A4%A7%E5%96%AE%E6%94%BE%E9%87%8F-%E7%84%A1%E4%BA%BA%E8%87%AA%E5%8A%A9%E5%95%86%E6%A9%9F%E8%B5%B7%E9%A3%9B-%E8%99%B9%E5%A0%A1%E6%97%BA%E5%88%B0%E6%98%8E%E5%B9%B4%E4%B8%AD-%E充電樁商機甜-045140610.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導描述2021年前後美國市場情況",
+      "locator": "正文關於美國無人自助需求及充電樁應用的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱美國部分自助洗衣、販賣機及停車應用需求高；這是特定市場、特定時期的二手描述，未提供量化成長率，也不能代表虹堡該業務的實際成長。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司年報、股東會資料、法說會材料及相關二手報導；應用場景可獲部分確認，但高成長主張缺少明確市場、期間與成長分母，高毛利主張缺少垂直業務毛利資料，故保留未解原子主張。",
+    "應用場景的直接公司證據包含較早期的產品開發描述，不能推定為目前已形成特定規模的出貨或收入。",
+    "公司公開材料未按無人自助垂直市場拆分營收或毛利率；總體財務指標不能作為該業務毛利率證據。",
+    "二手報導對美國市場需求的描述有特定地域和時期限制，且未提供量化市場成長率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5258/905/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000441",
+  "claim_id": "6214:objective_ranking_or_market_share:efede12ca151ffcc",
+  "normalized_claim_hash": "efede12ca151ffcc7a9ca02117a32b51da4881f6a81cf84473cfa7ef972de1f1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-90b82c78ef6b346f",
+      "title": "2025 SYSTEX Company Profile",
+      "url": "https://tw.systex.com/wp-content/uploads/sites/2/2025-SYSTEX-Company-Profile-20251113TWV1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-13",
+      "effective_period": "簡報發布時所述；實際統計基準日未說明",
+      "locator": "公司概況項目中營運據點國家／地區列表；頁碼／投影片編號未由檢索結果提供",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報列出「台灣、中國、香港、日本、越南、新加坡等」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得發行人2025年官方公司簡介，支持成立年份、員工約數、據點數及地區列表。排名字句未附衡量指標或比較母體，針對該排名的檢索未找到可獨立驗證的同口徑比較資料；因此該原子主張維持UNKNOWN，不以相鄰年份或其他規模指標代替。",
+    "員工數、營運據點數及地區分布均來自發行人2025年公司簡介，資料基準日及部分統計口徑未說明。",
+    "「台灣最大資訊服務上市公司」雖出現在發行人簡報中，但缺少最大所依據的指標、期間及比較母體；該簡報亦未提供可獨立核驗排名的數據。",
+    "官方簡報免責聲明指出，簡報資訊不明示或暗示保證其正確性、完整性或可靠性。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6214/441/hermes-attempt-1.stdout.txt"
+}

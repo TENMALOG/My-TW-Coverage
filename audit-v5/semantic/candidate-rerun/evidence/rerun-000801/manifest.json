@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000801",
+  "claim_id": "1541:objective_ranking_or_market_share:57a50cd0ac0fa618",
+  "normalized_claim_hash": "57a50cd0ac0fa61889aea0c199a7c38b172b6218c32209baa70a013552332f6e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f736442a4e905f5b",
+      "title": "Chang Type Industrial Co., Ltd. — Annual Report 2025",
+      "url": "https://financialfilings.com/filings/chang-type-1541/annual-report/2026/46382997/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "年報回述民國89–90年（2000–2001年）起的歷史",
+      "locator": "「技術及研發概況」段，DeWalt 生產記載",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報重述取得認證及生產 DeWalt 電動圓盤鋸木機的歷史；未證實目前仍生產。"
+    },
+    {
+      "source_id": "src-c733f5ba9090c1ee",
+      "title": "錩泰工業股份有限公司九十三年度年報",
+      "url": "https://www.toty.com.tw/news_file/report.pdf",
+      "source_level": 3,
+      "publication_date": "2005-05-30",
+      "effective_period": "民國84年（1995年）起之歷史合作記載",
+      "locator": "公司沿革：民國84年 Ryobi／Craftsman 合作記載",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報證實 Craftsman 品牌檯式電動鋸木機的歷史製造合作，但未明確證實為圓鋸機。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；客戶名稱因年報匿名揭露而無法確認，且未找到足以補足 Craftsman 圓鋸機具體品類及現行供貨狀態的可靠證據。",
+    "錩泰的114年度年報銷貨客戶表以代號揭露最大客戶，不能據此辨認其為哪個品牌商。",
+    "2025年年報內容由第三方網站承載；可取得的發行人官網直接年報證據則為2004年度年報，刊印日期為2005年5月30日。",
+    "歷史代工記載不等於目前仍有該品牌或產品的訂單；Craftsman 的歷史產品描述也未明確等同於圓鋸機。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1541/801/hermes-attempt-1.stdout.txt"
+}

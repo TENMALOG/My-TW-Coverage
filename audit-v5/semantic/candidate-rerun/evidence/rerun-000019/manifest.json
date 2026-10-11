@@ -1,0 +1,26 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000019",
+  "claim_id": "4432:objective_ranking_or_market_share:5839812e308b4ea7",
+  "normalized_claim_hash": "5839812e308b4ea760367acda59bb231d66e274b8245edd6cf2ae62a1d19de96",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "hakers-2025-annual-report",
+      "title": "銘旺實業股份有限公司114年報",
+      "url": "https://www.haksport.com/wp-content/uploads/2026/07/114%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "民國114年度（2025）；年報客戶集中資料比較民國113及114年度。",
+      "locator": "PDF第89頁（印刷頁85），「最近二年度任一年度中曾占銷貨總額10%以上之客戶」表：2025年客戶甲新台幣383,768千元、占35.24%；客戶乙占16.89%；客戶丙占14.62%。註記允許因契約不能揭露名稱而以代號替代。PDF第85頁（印刷頁81）「市場佔有率」段稱集團全球市占仍有很大成長空間，沒有按客戶或品牌列數值。",
+      "source_sha256": "0f5222d680e9538b3e381ea0748dd4708dfce0e7a6f7786ebf11d4136622156e",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4432/hakers-2025-annual-report.pdf",
+      "note": "發行人官網於2026年上架的正式114年報。最大客戶名稱匿名；未揭露客戶甲為Under Armour，也未提供品牌別20%占比。"
+    }
+  ],
+  "search_notes": [
+    "由銘旺實官網WordPress媒體庫取得114年報PDF，直接檢視銷貨集中與市場占有率段落。",
+    "年報以客戶甲/乙/丙代稱主要客戶，並註明可因契約約定不得揭露名稱而使用代號；2025年表列客戶甲占營收35.24%。無法把客戶甲識別成Under Armour。",
+    "年報市場占有率段僅稱集團全球市占仍有很大成長空間，未給出Under Armour品牌別銷售、20%比例或最大客戶關係；也未指定原 claim 的年份。缺少客戶名稱與期間證據，原句保持UNKNOWN。"
+  ]
+}

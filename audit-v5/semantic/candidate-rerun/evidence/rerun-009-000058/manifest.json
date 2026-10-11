@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000058",
+  "claim_id": "2245:objective_ranking_or_market_share:9d1fc3aba637d71d",
+  "normalized_claim_hash": "9d1fc3aba637d71d1ebdfbc18048021f003af76ef9818a636b864262b17fcf3d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f46f28d98bf3fb6dd7f0",
+      "title": "SMP Form 10-K - 2025 - Annual Report",
+      "url": "https://www.smpcorp.com/media/yytl0me1/2025annualreport.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal year ended December 31, 2025",
+      "locator": "Item 1, Business; discussion of North American aftermarket customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes SMP as a manufacturer and distributor and lists multiple large retailer and distributor customers; does not substantiate the claimed largest-distributor ranking."
+    },
+    {
+      "source_id": "src-95e91b47b8e26c0a797b",
+      "title": "鉅亨網-股市-未上市",
+      "url": "https://www.berich.com.tw/AG/Cnyes2/talktalk/talk_detail.asp?ii=189611",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Search-result excerpt discussing 詠勝昌 customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "User-generated forum content names Standard Motor Products among customers, but provides no evidence that it is the largest distributor."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches did not resolve the ranking or its scope; further work would require the original report context or an authoritative disclosure defining what “largest distributor” refers to.",
+    "Search results and snippets were used only as discovery leads; no source located establishes a ranking.",
+    "The official issuer materials located do not identify SMP as 詠勝昌’s largest distributor or define a relevant distributor market and comparison basis."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2245/58/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-001",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d15b3b182b3865fac534575a4cc1bb451edf209f2a3927895848f826816fe289",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2245/58/isolated-prompt.txt",
+  "prompt_sha256": "efc1490949a95be8ad5f096c97e6129a1fe6d158f5153dd61e0653085d322d3b",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000058/manifest.json",
+  "supersedes_manifest_sha256": "c2670ac3156aaad45383658a0fc4a85a8195f967f7894841e771218c3250bafc",
+  "corrected_at": "2026-10-08T09:57:44Z"
+}

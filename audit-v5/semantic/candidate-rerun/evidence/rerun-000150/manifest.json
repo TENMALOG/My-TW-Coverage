@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000150",
+  "claim_id": "3596:objective_ranking_or_market_share:6e94f9bb077f0c5b",
+  "normalized_claim_hash": "6e94f9bb077f0c5be026008b9855bc1eee3cb5851907751f8973a1d7efcf9bfe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3f6c9a73f1f35bd6",
+      "title": "Company Profile – Arcadyan",
+      "url": "https://www.arcadyan.com/en-us/investor/company-profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile table: Company Name and Stock Ticker fields",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer primary source identifies Arcadyan Technology Corporation and stock ticker 3596."
+    },
+    {
+      "source_id": "src-7d538c29f22851ae",
+      "title": "公司理念 – 智易科技",
+      "url": "https://www.arcadyan.com/zh-hant/about-us/arcadyan/philosophy",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "願景: 成為全球寬頻接取及多媒體終端產品領導者",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "This is stated as a vision to become a leader, not evidence that the company currently holds broad market leadership."
+    },
+    {
+      "source_id": "src-6a9a2f47c056075c",
+      "title": "2017 Arcadyan Corporation Social Responsibility Report",
+      "url": "https://csr.arcadyan.com/media/resources/reports/2017_Arcadyan_Corporation_Social_Responsibility_Report_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017",
+      "locator": "Page 1, President's letter: total shipments of IAD products ranked top three in the world",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer primary source gives a top-three shipment ranking for 2017, not a first-place ranking; it does not provide the underlying market denominator."
+    },
+    {
+      "source_id": "src-928f54957ed5393f",
+      "title": "智易113年度年報",
+      "url": "https://www.arcadyan.com.tw/media/investor/shm/annual-report/%E6%99%BA%E6%98%93113%E5%B9%B4%E5%A0%B1_%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-30",
+      "effective_period": "Fiscal year 2024; includes 2025 plans",
+      "locator": "致股東報告書, pages 1–5; IAD product development and operating strategy",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The report discusses IAD development and market-share growth plans but gives no global IAD vendor ranking or comparable market-share denominator."
+    },
+    {
+      "source_id": "src-ed433ee75c57b58b",
+      "title": "智易科技股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ff8e0dd4-e0bf-42e7-9ad6-ac443023f47d",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company description: states global-largest IAD manufacturer and market share above 20%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary source repeats the ranking, but the page does not identify the measurement period, source, market definition, or denominator."
+    },
+    {
+      "source_id": "src-b0854dd17f8a991a",
+      "title": "Solutions Introduction – Home Wireless Network Solutions",
+      "url": "https://www.arcadyan.com/en-us/solutions/idea/wifi",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Home Wireless Network Solutions, Wi-Fi CPE subsection",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer describes itself as the world's leading manufacturer of home broadband Wi-Fi CPE, a narrower product category than broadband networking equipment generally."
+    },
+    {
+      "source_id": "src-c23d5190a88523ee",
+      "title": "Solutions Introduction – Broadband Solutions",
+      "url": "https://www.arcadyan.com/en-us/solutions/idea/fttx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Broadband Solutions introduction and xDSL subsection",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer calls itself a major supplier of global broadband equipment and xDSL home broadband equipment; this is not a broad, measured leadership ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches of issuer disclosures, annual reports, and secondary coverage found no period-specific, independently verifiable global IAD ranking or market-share measure matching the claim's scope. The unresolved ranking atoms remain UNKNOWN.",
+    "The issuer's own product descriptions establish its product scope and self-description, not an independent market ranking.",
+    "The 2017 issuer disclosure ranks IAD shipments in the global top three; that historical, shipment-based statement neither establishes first place nor disproves it.",
+    "The secondary global-largest IAD claim lacks a stated period, market definition, denominator, and methodology.",
+    "The issuer's global-leading Wi-Fi CPE description covers a narrower product category than the claim's broad broadband networking equipment wording."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3596/150/hermes-attempt-1.stdout.txt"
+}

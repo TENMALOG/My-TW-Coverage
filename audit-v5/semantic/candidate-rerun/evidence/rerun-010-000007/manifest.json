@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000007",
+  "claim_id": "1722:objective_ranking_or_market_share:584c29afa2ffa73c",
+  "normalized_claim_hash": "584c29afa2ffa73c5a614f3aee64d33283e32e4a8afcb43dc3e19eed4af8ed99",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-7fea67b2483292d47af2",
+      "title": "台肥集團・台海生技｜首頁",
+      "url": "https://www.taiwanyes-dow.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面未標日期；公司簡介回述2006年投資及持股",
+      "locator": "「台海生技-公司簡介」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面稱台灣海洋深層水股份有限公司為台肥100%持股子公司。"
+    },
+    {
+      "source_id": "src-8da3533b4d287a557368",
+      "title": "分區介紹－台肥花蓮深層海水園區",
+      "url": "https://www.taifer.com.tw/dpark/Stationinformation/Partitionintroduction.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面未標日期",
+      "locator": "「加工生產區」段落及頁尾地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載明台灣海洋深層水公司承租作為生產加工廠；園區地址為花蓮縣花蓮市華東15號。"
+    },
+    {
+      "source_id": "src-d180200ba15363cde387",
+      "title": "台肥集團・台海生技｜首頁",
+      "url": "https://www.taiwanyes-dow.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面未標日期",
+      "locator": "「台海生技-公司簡介」及「總公司」聯絡資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面稱其專營海洋深層水應用與生產，總公司地址列於花蓮。"
+    },
+    {
+      "source_id": "src-056ad2be1745f3c81643",
+      "title": "2015台肥生技月展現生物科技新亮點－台灣肥料股份有限公司",
+      "url": "https://www.taifer.com.tw/PublicationArticleDetailC004000.aspx?Cond=914f4146-e0d2-4fb7-92e2-287431d7a187&Keyword=%E6%B5%B7%E8%97%BB",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "文章談及2015年活動；現況排名未確立",
+      "locator": "文章中「亞洲最大的海洋深層水取水及生產基地」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台肥官方對其花蓮基地的排名陳述；未附排名方法、比較對象或規模指標。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查得台肥及台海生技官方資料支持子公司身分與花蓮生產加工設施；未找到可釐清「亞洲最大」比較範圍、指標或現況的可靠證據，故該原子主張維持 UNKNOWN。",
+    "公司及台肥官方頁面可支持子公司關係與花蓮生產設施，但屬公司自身資料。",
+    "「亞洲最大」目前僅找到台肥官方陳述，未見可核對的比較對象、排名方法或規模指標。",
+    "來源所用「取水及生產基地」與原 claim 的「深層海水廠」並非完全相同的排名單位；來源亦未確認該排名現況。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1722/7/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "c68bf9711923580ef2b7763688236e440df00ef7a205f2fa43d493881c33aaf1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1722/7/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "b5adcf9326afb947ea8edb28ed5c1c27525e763090f068e9185db2cfaaebd1f3",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

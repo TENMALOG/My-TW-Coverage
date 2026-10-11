@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001156",
+  "claim_id": "4553:material_named_relationship:da1544701e031d80",
+  "normalized_claim_hash": "da1544701e031d80a46dd48e7863cf45dd8e940a92d2673a96f43e7cff32b479",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-172bb0b272b79351",
+      "title": "投資臺灣事務所通過日揚、盛復等3件投資案，金額逾13億元",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=77fd3fd9-74cf-4ed7-ad5e-ead0a2ae9d0b",
+      "source_level": 2,
+      "publication_date": "2020-03-13",
+      "effective_period": "Reported in 2020; the article describes 盛復 as a second-tier supplier to Jaguar and says it had JLR EV-chassis-part orders.",
+      "locator": "Paragraph about 盛復, lines 42–43.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary report; it attributes the information to Taiwan's Ministry of Economic Affairs."
+    },
+    {
+      "source_id": "src-c28dddcb1d764536",
+      "title": "113年2月27日 投資臺中訪廠系列--盛復工業",
+      "url": "https://www.economic.taichung.gov.tw/16103/17901/18159/2579453",
+      "source_level": 3,
+      "publication_date": "2024-02-27",
+      "effective_period": "Government visit page published 2024-02-27; no separate order period specified.",
+      "locator": "Description of 盛復, lines 262–275.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Jaguar as a terminal-customer brand; it does not state the intermediary or tier."
+    },
+    {
+      "source_id": "src-08d8a1640e8554b4",
+      "title": "公司資訊 | alfot",
+      "url": "https://www.alfot.com/%E5%85%AC%E5%8F%B8%E8%B3%87%E8%A8%8A",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview, lines 53–57.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page lists Audi among OEM-supplier relationships but does not specify whether supply is direct or through Tier 1; the page gives no dated effective period."
+    },
+    {
+      "source_id": "src-68adf7c98edf4323",
+      "title": "產業價值鏈資訊平台—盛復經營實績",
+      "url": "https://ic.tpex.org.tw/company_list.php?stk=4553&stkName=%E7%9B%9B%E5%BE%A9&t=company_reward",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Milestones dated 2019–2020.",
+      "locator": "2019–2020 milestones, lines 90–103.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TPEx-hosted issuer-submitted history records JLR control-arm parts and Range Rover toe-link production; it does not name the Tier 1 intermediary."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對盛復官網、櫃買中心產業價值鏈頁面及2020／2024年政府相關資料。查得資料足以支持部分品牌的二階供應關係，但未找到Audi經Tier 1間接供應的證據，故該原子主張保留UNKNOWN並停止檢索。",
+    "支持二階供應關係的2020年報導是MoneyDJ轉述，並標示資料來源為經濟部；未查得該項關係的現行合約或近期官方披露。",
+    "盛復官網列示Mercedes-Benz、BMW、Audi、Jaguar等OEM供應關係，但頁面未標明資料有效期間，也未說明各品牌的直接或間接供應層級。",
+    "台中市政府2024年資料列出BENZ、BMW、Jaguar等終端客戶品牌，但未說明Tier 1渠道；該資料沒有列Audi，不能據此推定Audi不存在。",
+    "「歐系豪車」屬概括性市場描述；來源支持的是特定汽車品牌及零件專案關係，未提供市場分類標準或量化分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4553/1156/hermes-attempt-1.stdout.txt"
+}

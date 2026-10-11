@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000788",
+  "claim_id": "4426:objective_ranking_or_market_share:61a3927d443dd49c",
+  "normalized_claim_hash": "61a3927d443dd49c098c227787ecfb5c1cf0f07bbea69921dc3f5f096410be52",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e2ab1ea3bfe32c8eb9e2",
+      "title": "利勤實業｜關於利勤",
+      "url": "https://www.li-cheng.com.tw/tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介，第一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為全球3D立體織物業界的專業領導廠，並稱年產量達1,500噸以上；未提供全球排名比較或「最大」的衡量分母。"
+    },
+    {
+      "source_id": "src-f485be5e1158325ba691",
+      "title": "利勤實業｜關於利勤",
+      "url": "https://www.li-cheng.com.tw/tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介，第一段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網原文稱「目前為全世界3D立體織物(Spacer Fabrics)業界中……的專業領導廠」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視利勤官網、年報搜尋結果及針對全球排名與市占的搜尋結果；未找到可靠的全球比較排名或明確衡量分母，故未解決的「全球最大」原子主張維持UNKNOWN。",
+    "領導廠商的支持依據是利勤自身官網的自述，並非獨立排名或市場研究。",
+    "官網所列年產量未附比較期間或全球同業基準，不能替代全球最大排名的證據。",
+    "本次查得的公司資料沒有界定「最大」的市場範圍、衡量指標或分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4426/788/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "853e5ba5fe22e99a25326a648ca5d8bc3aea6931048faba60686066f19809a1a",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4426/788/isolated-prompt.txt",
+  "prompt_sha256": "aec31ba90a5ce1dfbe6041f58af268d384c45da7644510b11451e9ad7ebd13e7",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000788/manifest.json",
+  "supersedes_manifest_sha256": "5ea9fd3339be8787b9c9fd7a4a2e8804d8f2f9ca4e1cf5c69a671fc2ba3350d3",
+  "corrected_at": "2026-10-08T09:58:44Z"
+}

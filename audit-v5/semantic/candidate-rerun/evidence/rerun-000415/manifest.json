@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000415",
+  "claim_id": "6629:objective_ranking_or_market_share:f4667886c406f031",
+  "normalized_claim_hash": "f4667886c406f031709aecde313ecbe6fffafe49c8233d4519b5e6d5e2714727",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f68b817a8679a198",
+      "title": "Ikano Retail Community Impact Report",
+      "url": "https://www.ikea.com/sg/en/newsroom/corporate-news/ikano-retail-community-impact-report-pub2c958fa0/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“About IKEA Singapore” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "IKEA states it is the world’s largest home furnishing retailer, but gives no ranking period or metric there; this does not establish the narrower furniture-retailer claim."
+    },
+    {
+      "source_id": "src-74d7ef4a5cf2e423",
+      "title": "Inter IKEA Group Financial Summary FY25",
+      "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/fy25-financial-reports/inter-ikea-group-financial-summary_fy25_final.pdf?amp%3Bsc_lang=en&rev=e033ee4605c849c3b6f9d9ada1767fed2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY25: 1 September 2024–31 August 2025",
+      "locator": "Pages 2–3, IKEA retail sales",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports total IKEA sales of EUR 44.6 billion across franchisees, including products, food, and services. It does not provide furniture-only sales or a comparison establishing a global ranking."
+    },
+    {
+      "source_id": "src-e6baad37403b2e46",
+      "title": "Top retail selling countries IKEA 2025 | Statista",
+      "url": "https://www.statista.com/statistics/255583/leading-5-selling-countries-of-ikea-products/",
+      "source_level": 2,
+      "publication_date": "2026-02-06",
+      "effective_period": "FY2025 context; the ranking statement has no separately specified period",
+      "locator": "IKEA profile section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls IKEA the world’s largest furniture retailer, but provides no comparative ranking method, denominator, or underlying furniture-retailer sales table to substantiate that assertion."
+    },
+    {
+      "source_id": "src-55fa2ed1c33bb26d",
+      "title": "Biggest IKEA retailer reports profit rise as it tries to sway budget-conscious buyers",
+      "url": "https://www.reuters.com/business/retail-consumer/biggest-ikea-retailer-reports-profit-rise-as-it-tries-to-sway-budget-conscious-buyers-2025-11-11/",
+      "source_level": 2,
+      "publication_date": "2025-11-11",
+      "effective_period": "Ingka Group FY2025, ending 31 August 2025",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reuters describes Ingka Group as the world’s biggest retailer of IKEA furniture and identifies it as the largest IKEA franchisee. This is about a specific IKEA operator, not a comparative ranking of IKEA against global furniture retailers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found an official broader-category description and official sales totals, but no reliable source establishing the exact furniture-retailer ranking with a defined period, comparison set, and denominator. The remaining atom is unresolved.",
+    "The official IKEA source uses “home furnishing retailer,” not the claim’s narrower “furniture retailer.”",
+    "The official FY25 total covers sales of IKEA products, food, and services across franchisees; it is not a furniture-only ranking denominator.",
+    "The secondary source repeats the ranking but does not state its methodology, comparison set, or period. Reuters’ reference is to Ingka Group as an IKEA retailer, not to a global ranking of furniture retailers."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6629/415/hermes-attempt-1.stdout.txt"
+}

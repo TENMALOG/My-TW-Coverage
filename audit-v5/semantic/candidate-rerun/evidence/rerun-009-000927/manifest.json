@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000927",
+  "claim_id": "3596:material_named_relationship:6f767b0b0a1b829f",
+  "normalized_claim_hash": "6f767b0b0a1b829fc7a56641b85050865cad05e984f78bed5ee79ceab9729dd3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e9abafc025128fb3251f",
+      "title": "FCC, FCC's Public Safety and Homeland Security Bureau Announces Conditional Approval and Exemption of Certain Routers From FCC Covered List (DA 26-850)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-850A1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-14",
+      "effective_period": "文件所列 Arcadyan 路由器核准期間：2026-06-12 至 2027-12-12；這不是供應合約期限。",
+      "locator": "表格中 Arcadyan Technology Corporation 項目：T-Mobile 5G FWA broadband devices，含 G5AR、G5MAR、GxMAR、GxMAR-ODU、GxAR Series。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "監管文件對特定路由器及其 T-Mobile 5G FWA 用途的直接佐證；核准期間不應解讀為商業合約期間。"
+    },
+    {
+      "source_id": "src-2e63144069d23c44c6ed",
+      "title": "T-Mobile Internet Support, Welcome to T-Mobile Internet",
+      "url": "https://www.t-mobile.com/support/home-internet",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面稱所列設備為 T-Mobile 於 2025 年收到的型號；頁面目前列出 Arcadyan 型號。",
+      "locator": "頁面第 9–10 行：能效資訊按 2025 年收到的設備型號提供；表格列出 G4AR、G5AR，製造商為 Arcadyan。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "T-Mobile 官方設備資訊，可佐證其使用 Arcadyan 閘道器；沒有說明其在供應商中的重要性或排名。"
+    },
+    {
+      "source_id": "src-21b596c986f287f1bd3d",
+      "title": "FCC, FCC's Public Safety and Homeland Security Bureau Announces Conditional Approval and Exemption of Certain Routers From FCC Covered List (DA 26-850)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-850A1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-14",
+      "effective_period": "文件所列 Arcadyan 路由器核准期間：2026-06-12 至 2027-12-12。",
+      "locator": "表格列出 Arcadyan 為 T-Mobile 5G FWA 設備路由器供應者，但未提供供應商排名或份額。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只能支持供應關係，無法驗證「核心」程度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核 FCC 監管文件及 T-Mobile 官方設備資訊，足以支持特定型號的供應關係；針對「核心」程度，仍缺少公司或客戶披露的量化占比、排名或明確定義，故保留 UNKNOWN。",
+    "FCC 的條件核准期間不是供應合約期限。",
+    "T-Mobile 官方設備清單與 FCC 產品列示均未揭露智易的訂單量、收入占比、供應份額或供應商排名。",
+    "「核心供應商」未定義評估門檻；缺少比較基準時，不宜把已證實的產品供應關係提升為核心供應商地位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3596/927/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0dfb51f8e7493e2109a8141a3bde981846669f0039cda32aa83878642744c70e",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3596/927/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "1809111b400f351dbd7d3a28b8371e22afa3b7c019d3b8bb6da682397c3478d9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000927/manifest.json",
+  "supersedes_manifest_sha256": "c795716e584f1d69dc64ccb146343d0e50b71e8e438b11694e0557324044e925",
+  "corrected_at": "2026-10-08T09:58:59Z"
+}

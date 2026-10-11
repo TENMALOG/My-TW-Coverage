@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000211",
+  "claim_id": "1435:objective_ranking_or_market_share:0263fe5dc37d5f06",
+  "normalized_claim_hash": "0263fe5dc37d5f068030aead168ecd374850c05c7078a2cbcc75cb0ddd4e3ef2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4ed3d0d5d71a7e8f2106",
+      "title": "中福:本公司董事會決議以公開標售方式處分位於桃園市中壢區中壢廠全部土地及廠房",
+      "url": "https://news.cnyes.com/news/id/5902325",
+      "source_level": 2,
+      "publication_date": "2025-03-15",
+      "effective_period": "董事會於2025-03-15決議委託，標售委託契約期間未由此來源完整界定",
+      "locator": "公告內容第5(1)至(3)項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網刊載的重大訊息文本載明中福董事會授權董事長簽約委託第一太平戴維斯辦理相關公開標售事宜。"
+    },
+    {
+      "source_id": "src-27db32e294182faf33c9",
+      "title": "價值和風險評估",
+      "url": "https://www.jll.com/zh-tw/services/value-risk",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面服務介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "仲量聯行官方頁面說明其提供不動產鑑價及風險顧問服務；此僅證明一般服務能力，未證明其曾受中福委託或評估中福的不動產。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對中福、仲量聯行及不動產評估委託的聚焦搜尋；仍無可靠來源能確認仲量聯行對中福的具體評估標的與期間，因此該原子主張維持 UNKNOWN。",
+    "第一太平戴維斯的委託資訊來自鉅亨網刊載的重大訊息文本，並非本次查得的公開資訊觀測站原始頁面。",
+    "仲量聯行官方服務頁只能說明其一般業務能力，不能作為其承接中福不動產評估工作的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1435/211/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "a6947248ecd0cbd2b442ec51128fc5ed961e92a806f9d29db0f28b17d638cb2b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1435/211/isolated-prompt.txt",
+  "prompt_sha256": "4c5397aafe628c7590c0729a1a64fcf432c9642d0dfe1b43d99ad179b00a80ba",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000211/manifest.json",
+  "supersedes_manifest_sha256": "f9326ce65748a90cd024e5c26364719ec536140f40f0d7c0bd226fd6a3c3ef4c",
+  "corrected_at": "2026-10-08T09:57:54Z"
+}

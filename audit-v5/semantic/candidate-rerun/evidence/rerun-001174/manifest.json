@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001174",
+  "claim_id": "2493:export_concentration:e11eec4c999dcd1d",
+  "normalized_claim_hash": "e11eec4c999dcd1dcd54fe6c81afdc80582f5b2a9b26394d96b425650e22dca2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-bdd430a61c8cfd5d",
+      "title": "揚博(2493)股價與合理價：可以買嗎？1 個量化訊號觸發中｜FinLab",
+      "url": "https://finlab.finance/stocks/2493",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "主要業務；2024年產品銷售內銷、外銷比例敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級資料報告約38%內銷、約62%外銷；未清楚揭示該比例的分母及報表範圍。"
+    },
+    {
+      "source_id": "src-479522fe3af877b0",
+      "title": "揚博科技股份有限公司113年報（中文）—臺灣證券交易所電子資料查詢作業",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=2493&colorchg=1&filename=2024_2493_20250611F04.pdf&kind=F&step=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "年報下載頁；PDF內容未能擷取",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報可供下載，但PDF擷取逾時；此來源未能核實38%數值。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8輪聚焦搜尋；官方年報PDF擷取逾時，後續可得資料不足以核實聲稱的分母與報表範圍，因此未將次級資料的約數提升為已支持的精確年度比例。",
+    "可查得的次級資料呈現約38%與約62%，但未充分界定分母、合併或個體範圍。",
+    "臺灣證券交易所的年報下載頁可取得，但PDF內容擷取逾時，未能核實該年報中的原始銷售地區表格。",
+    "未將其他年度的銷售地區比例或產品組合比例替代為2024年內外銷比例。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2493/1174/hermes-attempt-1.stdout.txt"
+}

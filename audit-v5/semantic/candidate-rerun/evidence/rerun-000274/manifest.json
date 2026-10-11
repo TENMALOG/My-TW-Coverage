@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000274",
+  "claim_id": "3017:objective_ranking_or_market_share:f76fbbb6956b1040",
+  "normalized_claim_hash": "f76fbbb6956b1040d60d08ec2ae578fa19edaf6e9452b6ddafbca3747d1419a5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-22adf6776e741ab9",
+      "title": "Cooling Product",
+      "url": "https://www.avc.co/en-us/ProductTechnology/%E6%95%A3%E7%86%B1%E7%94%A2%E5%93%81",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品頁面說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料列出液冷技術及整合式散熱解決方案；未明確限定AI伺服器應用。"
+    },
+    {
+      "source_id": "src-300de760a5647dff",
+      "title": "台達電、奇鋐搶AI基建商機",
+      "url": "https://www.ctee.com.tw/news/20260605700224-439901",
+      "source_level": 2,
+      "publication_date": "2026-06-05",
+      "effective_period": "截至報導日",
+      "locator": "奇鋐段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱奇鋐與Meta等國際客戶合作、參與新世代AI架構規劃；未確認對Meta直接或間接供貨。"
+    },
+    {
+      "source_id": "src-8a0fc04783522855",
+      "title": "AI動能強　奇鋐、富世達9月營收同創歷史新高",
+      "url": "https://www.cna.com.tw/news/afe/202510070261.aspx",
+      "source_level": 2,
+      "publication_date": "2025-10-07",
+      "effective_period": "2025年下半年展望",
+      "locator": "奇鋐財務長展望段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導公司將GB系列出貨、ASIC液冷方案及手機散熱產品列為下半年營運動能；未提供AI散熱單項營收。"
+    },
+    {
+      "source_id": "src-ef859c5ce1ef9dde",
+      "title": "輝達AI伺服器主力零件供應商曝光 台廠包辦半邊天",
+      "url": "https://www.cna.com.tw/news/afe/202503200150.aspx",
+      "source_level": 2,
+      "publication_date": "2025-03-20",
+      "effective_period": "2025年GTC公布的AI伺服器生態系",
+      "locator": "末段12家主力供應商名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出包括奇鋐在內的7家台廠；報導涵蓋多種零件，不能據此判定某個特定RVL類別的台商唯一性。"
+    },
+    {
+      "source_id": "src-d2444fb805b52f8c",
+      "title": "AWS ASIC伺服器量產在即！散熱、組裝、滑軌供應鏈摩拳擦掌",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000759442_D665TA9U3IEK8M3C15677",
+      "source_level": 2,
+      "publication_date": "2026-06-23",
+      "effective_period": "2026年Trainium 3伺服器量產與出貨",
+      "locator": "AWS Trainium 3供應鏈段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出奇鋐為散熱供應鏈廠商，並稱L6相關散熱零組件已於2026年5月開始出貨。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對奇鋐、NVIDIA RVL及Microsoft、AWS、Meta供應關係的定向搜尋；仍未找到可核實全球唯三、唯一台商的品類化分母或NVIDIA原始資格名單。未解範圍依規則保留為UNKNOWN。",
+    "來源未提供完整的NVIDIA RVL原始名單或分品類全球供應商總數。",
+    "NVIDIA GTC主力供應商報導不等同於特定產品、平台或期間的正式RVL資格證明。",
+    "對Microsoft與Meta，找到的是合作及共同設計表述，尚不足以確認直接或間接供貨。",
+    "來源報導的供應鏈定位僅適用於具體產品與期間，不代表所有平台或持續性訂單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3017/274/hermes-attempt-1.stdout.txt"
+}

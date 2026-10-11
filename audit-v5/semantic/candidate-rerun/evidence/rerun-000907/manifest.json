@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000907",
+  "claim_id": "6026:identity_changing_event:504673eb4d7df212",
+  "normalized_claim_hash": "504673eb4d7df2120df7bd5030441bb49634034081377db2ececabcaa646d567",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2fb76d1c84ca7b13",
+      "title": "福邦證券：基本資料與公司沿革",
+      "url": "https://www.gfortune.com.tw/Static/%E9%97%9C%E6%96%BC%E7%A6%8F%E9%82%A6/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2016-01-27",
+      "locator": "第62行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer history states initial OTC listing on January 27."
+    },
+    {
+      "source_id": "src-9223c122a6c58232",
+      "title": "櫃買中心公告：福邦證券股份有限公司初次上櫃",
+      "url": "https://www.tpex.org.tw/storage/eb_data/10501/10500016982.htm",
+      "source_level": 3,
+      "publication_date": "2016-01-26",
+      "effective_period": "2016-01-27",
+      "locator": "公告事項第2項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Specifies the date OTC trading began."
+    },
+    {
+      "source_id": "src-8189961a034d2c55",
+      "title": "TPEx產業價值鏈資訊平台：福邦證券公司資料",
+      "url": "https://ic.tpex.org.tw/company_data.php?column=vision_story&table=company_vision&userId=6026",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1989-09-05",
+      "locator": "公司沿革第1項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the original 三陽證券 as established on 1989-09-05."
+    },
+    {
+      "source_id": "src-7aca7ae1fb92bbe2",
+      "title": "福邦證券股份有限公司及子公司合併財務報表附註",
+      "url": "https://www.cathaysec.com.tw/RiskManage/62CC2EC7-139F-432A-A6CC-0BDF1D67DD4F.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2003-08-12",
+      "locator": "「一、公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the company was renamed 福邦證券股份有限公司 on ROC year 92, August 12."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方發行人資料及櫃買中心公告已核實成立、改名及上櫃日期；英文名稱差異亦有櫃買中心公告可核對，故停止研究。",
+    "原文英文名稱「G. Fortune Securities」與櫃買中心公告所列英文全名及簡稱不符。",
+    "公司沿革頁以民國紀年記載部分日期；民國78年及92年分別換算為1989年及2003年。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6026/907/hermes-attempt-1.stdout.txt"
+}

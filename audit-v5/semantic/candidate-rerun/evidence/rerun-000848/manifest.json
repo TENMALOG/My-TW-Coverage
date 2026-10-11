@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000848",
+  "claim_id": "2645:material_named_relationship:8a2772f0488a5e3a",
+  "normalized_claim_hash": "8a2772f0488a5e3a0b268ac49c525ccfaf921ec8943733ba132a7e0987704245",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-65fb1e729b3397cc",
+      "title": "Evergreen Aviation Technologies Corp. — Boeing Supplier Spotlight",
+      "url": "https://www.boeing.com/content/dam/boeing/boeingdotcom/suppliers/Evergreen-Aviation-Technologies-Corp.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Includes 2022 Supplier of the Year recognition; supplier tenure stated in the document.",
+      "locator": "Page 1, supplier tenure and Boeing-associated products.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms supplier relationship and products but does not state Tier 1."
+    },
+    {
+      "source_id": "src-c70371f28ac86337",
+      "title": "長榮航太打入空巴產業鏈 列一階機體組件供應商",
+      "url": "https://www.cna.com.tw/news/afe/202505090267.aspx",
+      "source_level": 2,
+      "publication_date": "2025-05-09",
+      "effective_period": "2025-05-09",
+      "locator": "Paragraphs 277–280.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports Airbus Tier 1 airframe-component status and a direct business/manufacturing relationship."
+    },
+    {
+      "source_id": "src-85c24884e16fd8ec",
+      "title": "112-113年工業發展年鑑, 第二篇金屬機電產業篇, 第四章重機產業",
+      "url": "https://www.ida.gov.tw/ctlr?PRO=filepath.DownloadFile&f=publication&id=3474&t=f",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Industry description references Boeing 777 RCB and MDCD orders; exact order dates not specified in the located passage.",
+      "locator": "Search-indexed passage on EGAT’s Tier-1 system-parts supply-chain capability and Boeing 777 RCB/MDCD orders.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government industry-yearbook evidence is relevant but does not expressly assign the Tier-1 label to the specific Boeing orders."
+    },
+    {
+      "source_id": "src-39e9da01b4955d7c",
+      "title": "長榮航太法人說明會, 2025-05-19",
+      "url": "https://www.egat.com.tw/documents/295/PPTfashuohuai519chinese.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-19",
+      "effective_period": "As reported in the 2025-05-19 presentation.",
+      "locator": "營運策略 slide, bullet stating the Airbus agreement was completed and components would be supplied directly to the Airbus production line.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer disclosure supports the agreement and direct-to-line supply; it does not itself use the exact phrase Tier 1."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found strong issuer and news support for the 2025 Airbus relationship, but did not resolve whether EGAT’s Boeing contracts are specifically Tier 1. Further review is left to final adjudication.",
+    "Boeing supplier status and Boeing-specific Tier 1 status are distinct: the former is supported; the latter is not explicitly established by the located sources.",
+    "The Airbus Tier 1 characterization is reported by CNA; the issuer’s own investor presentation independently confirms the signed agreement and direct component supply to the Airbus production line.",
+    "No market denominator or sales measure applies to these relationship/status claims."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2645/848/hermes-attempt-1.stdout.txt"
+}

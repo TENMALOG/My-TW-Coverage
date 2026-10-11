@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000941",
+  "claim_id": "6220:profitability_assertion:340f4e1af42c6eb1",
+  "normalized_claim_hash": "340f4e1af42c6eb16b0da214a45df99123077e5bc932869e5ada976c2c08d658",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-879a7d337ed39fc4",
+      "title": "岳豐法人說明會簡報, dated November 25, 2025",
+      "url": "https://mopsov.twse.com.tw/nas/STR/622020251125M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-25",
+      "effective_period": "Financial highlights cover 2025 Q1–Q3; no Sony-specific period or figures stated.",
+      "locator": "Financial Highlights > 2025 Q1–Q3 income statement and gross margin",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The presentation reports aggregate company financial measures, not profitability by OEM customer. Official PDF access timed out."
+    },
+    {
+      "source_id": "src-5e209e68cdb73e26",
+      "title": "岳豐 2025Q4 法說會詳情及簡報內容",
+      "url": "https://finmoconf.diveinvest.net/presentation/6926fe87bab52fb5c8698c68",
+      "source_level": 2,
+      "publication_date": "2025-11-25",
+      "effective_period": "Financial highlights cover 2025 Q1–Q3; no Sony-specific period or figures stated.",
+      "locator": "Financial Highlights > 2025 Q1–Q3 income statement and gross margin",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reproduces company-level gross margin data and the OEM list, but does not provide customer-level margin data."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches covered issuer materials and the linked investor presentation. The specific customer-margin atoms remain unresolved; the official PDF retrieval timed out, and no customer-level margin disclosure was located within the research limit.",
+    "The claim does not specify a period, a definition or threshold for “high margin,” or a customer-level profit denominator.",
+    "The OEM listing supports categorization, not contract terms, current order status, revenue scale, or profitability.",
+    "The issuer's linked MOPS PDF timed out during retrieval. The presentation text was cross-checked in a secondary page that reproduces it; the secondary page's meeting label and embedded presentation quarter differ."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6220/941/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000432",
+  "claim_id": "2373:objective_ranking_or_market_share:3dc2f728f9ba57e4",
+  "normalized_claim_hash": "3dc2f728f9ba57e4790d95d626e8f5b829896f38493eaf2b4aa9a40adc05f3f2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-98aa0f8b3d222a5a",
+      "title": "震旦行股份有限公司民國104年度年報",
+      "url": "https://www.aurora.com.tw/storage/architecture/page~112/page~136/page~174/2015.pdf",
+      "source_level": 3,
+      "publication_date": "2016-04-27",
+      "effective_period": "公司沿革：1965年成立",
+      "locator": "第1頁，公司簡介「設立日期」及公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報載明「本公司創業於1965年10月」及「1965年，震旦行股份有限公司成立」。"
+    },
+    {
+      "source_id": "src-a3fe6537c27e7add",
+      "title": "1965－1970 成長歷程",
+      "url": "https://www.aurora.com.tw/milestones-1965-1970",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1965年10月20日",
+      "locator": "1965年10月20日條目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面記載「震旦行在台北市成立」。"
+    },
+    {
+      "source_id": "src-b641be2f39979d8f",
+      "title": "震旦簡介－震旦集團",
+      "url": "https://www.aurora.com.tw/about-aurora",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "集團簡介段落：台灣八家事業體及OA市場佔有率",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱台灣有包括震旦行在內的八家事業體，並稱OA市場佔有率超過50%；未提供明確期間、分母或排名，也非震旦行單一公司的排名數據。"
+    },
+    {
+      "source_id": "src-d6e2ba756ae72f4d",
+      "title": "震旦行股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=a16a3cf2-68e0-4cff-8ce4-6ba54666fea5",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介「沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料稱集團在辦公設備及辦公家具領域居國內通路領導地位，但未提供可核驗的排名、期間、定義或分母，且措辭不等同於原 claim 的「台灣最大之一」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢查震旦行官方年報、官方集團與成長歷程頁面，以及二手公司資料；未發現足以驗證「台灣最大辦公設備通路集團之一」的具體排名或市場份額口徑，該原子主張維持 UNKNOWN。",
+    "成立年份由震旦行官方年報及官方成長歷程支持。",
+    "OA市場佔有率逾50%的官方說法為集團層級，涉及多家台灣事業體；不能改作震旦行單一公司的市佔或排名。",
+    "未找到具明確期間、辦公設備市場定義、分母及比較對象的排名或市場份額證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2373/432/hermes-attempt-1.stdout.txt"
+}

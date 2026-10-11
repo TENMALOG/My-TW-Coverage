@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000812",
+  "claim_id": "4560:objective_ranking_or_market_share:1dbc11a600b8a933",
+  "normalized_claim_hash": "1dbc11a600b8a933138c9f40d78ca45c2e8f58a165e2b34489f5364cc7a3951a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f6a64aa38ed55e48",
+      "title": "Strong H Machinery Technology (Cayman) Incorporation 2025 Annual Report",
+      "url": "https://en.strongh.tw/upload/download/ShareholderServices/AGMAnnualReports/2025AnnualReport0527.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 fiscal year / report published 2026; ranking reference period unspecified",
+      "locator": "p. 78, section “2. Market share”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer says it is “one of the largest industrial sewing machine parts manufacturers and sellers in the world,” but gives no ranking basis or denominator in this passage."
+    },
+    {
+      "source_id": "src-42d83f78cc5d9ab6",
+      "title": "企業簡介 — 強信機械科技股份有限公司",
+      "url": "https://www.strongh.tw/view/comIntroduction/introduction.jsp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile, accessed 2026-10-07",
+      "locator": "Company profile, paragraph 1",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the issuer as a Cayman-registered offshore holding company."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對發行人最新可得的2025年度年報及公司簡介；已支持註冊地、生產據點與品牌行銷說法。排名原子缺少可核驗的市場範圍及比較依據，故保留UNKNOWN並停止研究。",
+    "所用公司資料為發行人年報及公司簡介；其中全球排名描述是發行人自述，未找到可獨立核驗該排名的比較資料。",
+    "年報披露的主要生產據點包括萊州和青島；不可將萊州解讀為唯一生產基地。",
+    "排名說法未指定比較市場範圍、比較對象、期間、方法、分母或量化單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4560/812/hermes-attempt-1.stdout.txt"
+}

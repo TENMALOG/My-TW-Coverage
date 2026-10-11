@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001103",
+  "claim_id": "7861:material_named_relationship:0e6c2ee1cf83ce9e",
+  "normalized_claim_hash": "0e6c2ee1cf83ce9ed4cf7794286bc1ae2ba705cf867fc0465b5c3fc393111a76",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ab9a2116e137cef7",
+      "title": "貝爾威勒電子股份有限公司 115年股東常會手冊，附件一：114年度營業報告書",
+      "url": "https://www.bellwether-corp.com/upload/investor/1150429%E8%B2%9D%E7%88%BE%E6%89%8B%E5%86%8A(%E4%B8%8A%E5%82%B3%E6%AA%94).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "PDF第7頁，營運概況及營業計畫實施成果",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將AI、雲端與資料中心需求增長連結至伺服器及高速傳輸連接器需求提升，並報告2025年度營收與獲利創公司歷史新高；沒有拆分AI需求的單獨貢獻。"
+    },
+    {
+      "source_id": "src-34818dcf3824a3de",
+      "title": "AI 大電流、高速連接需求強勁！貝爾威勒 11/12 以每股 105 元登錄興櫃",
+      "url": "https://finance.technews.tw/2025/11/10/high-speed-computing-architecture/",
+      "source_level": 2,
+      "publication_date": "2025-11-10",
+      "effective_period": "2025-11-10董事長公開說明",
+      "locator": "正文第1段及第3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導明確引述董事長稱已成功切入國際AI伺服器供應鏈；屬受訪者陳述，未列具名AI伺服器終端客戶。"
+    },
+    {
+      "source_id": "src-90a077bb788e2c91",
+      "title": "貝爾威勒電子股份有限公司｜興櫃前法人說明會簡報",
+      "url": "https://www.bellwether-corp.com/upload/investor/7861%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92%EF%BD%9C%E8%88%88%E6%AB%83%E5%89%8D%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1(%E4%B8%8A%E5%82%B3).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報列示產品與2025年上半年營運資料",
+      "locator": "PDF第17至18頁，High Power Series、High Speed Series及Internal High Speed Cable",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品簡報列有高功率連接器、BBC Cable及高速連接器/內部高速線纜產品。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方年度營業報告、官方產品簡報及董事長受訪報導共同支持全部質性原子；未見AI伺服器專屬營收拆分或具名終端客戶資料，已將此範圍限制列明。",
+    "國際AI伺服器供應鏈的明確表述來自媒體對董事長公開發言的報導；公司正式營業報告確認AI伺服器應用，但未點名相關終端客戶或單獨披露AI伺服器營收。",
+    "公司資料支持高功率/高電流與高速連接器、線束產品線存在，但未公開證明各產品類別在AI伺服器中的個別出貨量或營收。",
+    "AI基礎設施需求與公司營運的關聯由公司營業報告作質性說明；未提供AI需求的獨立營收歸因或市場分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7861/1103/hermes-attempt-1.stdout.txt"
+}

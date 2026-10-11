@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001241",
+  "claim_id": "2069:material_named_relationship:03452c1b1852a645",
+  "normalized_claim_hash": "03452c1b1852a6452b184f6f3e0bcfd5ce15b4dedeeafd78f40c3de91834ed1d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4a9e5fe6075ba2cc",
+      "title": "運錩 2022 法人說明會簡報",
+      "url": "https://www.yuenchang.com.tw/files/uploads/roadshow/2022.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022 deck; the deck also presents 2021 and 2022 Q3 data",
+      "locator": "PDF page 8, industry overview diagram (lines 54–60)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists 唐榮 among upstream integrated stainless-steel mills and 運錩 as a processing/cutting center; this does not establish a direct supplier relationship."
+    },
+    {
+      "source_id": "src-6b3c994738589bb1",
+      "title": "運錩 113年度年報（2024年度年報）",
+      "url": "https://www.yuenchang.com.tw/files/%E8%82%A1%E5%8B%99/%E8%82%A1%E6%9D%B1%E6%9C%83/1140527%E8%82%A1%E6%9D%B1%E6%9C%83113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1_%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "FY2023–FY2024",
+      "locator": "Printed pages 78–79, section (三)–(四) (lines 3383–3419)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names raw-material suppliers as A–D and discloses high-value suppliers by codes; no code-to-company mapping is given."
+    },
+    {
+      "source_id": "src-086153dd5dd8f682",
+      "title": "運錩 113年度年報（2024年度年報）",
+      "url": "https://www.yuenchang.com.tw/files/%E8%82%A1%E5%8B%99/%E8%82%A1%E6%9D%B1%E6%9C%83/1140527%E8%82%A1%E6%9D%B1%E6%9C%83/1140527%E8%82%A1%E6%9D%B1%E6%9C%83113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1_%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "FY2023–FY2024",
+      "locator": "Printed pages 78–79, section (三)–(四) (lines 3383–3419)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names raw-material suppliers as A–D and discloses high-value suppliers by codes; no code-to-company mapping is given."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after eight focused research turns. Official sources support the upstream-industry context but do not establish the five named firms as 運錩 suppliers; the final MOPS document link could not be accessed within the tool.",
+    "The investor-deck diagram describes industry value-chain tiers and is not a named procurement disclosure.",
+    "The annual report names stainless-steel coil suppliers as A–D and reports procurement shares by coded supplier; it does not identify the companies behind those codes.",
+    "The claim supplies no period or definition/denominator for “major supplier.”",
+    "The official MOPS link located for a 2026 presentation was inaccessible through the research tool."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2069/1241/hermes-attempt-1.stdout.txt"
+}

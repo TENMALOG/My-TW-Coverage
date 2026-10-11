@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000532",
+  "claim_id": "3489:objective_ranking_or_market_share:6f1e5cdcedde4c99",
+  "normalized_claim_hash": "6f1e5cdcedde4c992552ad5fc4dc0e9b6479c738d08370cc771764bc3fc362dd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ed3ad13ce81b32a9",
+      "title": "森寶（3489）股價：可以買嗎？EPS、配息、法人籌碼｜FinLab",
+      "url": "https://finlab.finance/stocks/3489",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介中商業模式與森碁營造條目（搜尋結果摘要）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要描述土地開發及透過森碁營造承攬施工；未提供建築設計環節的直接證據。"
+    },
+    {
+      "source_id": "src-3f4c2b89780cc625",
+      "title": "【森寶法說會重點內容備忘錄】未來展望趨勢20250909",
+      "url": "https://blog.fugle.tw/post/earnings-call-3489-2025-09-09",
+      "source_level": 2,
+      "publication_date": "2025-09-30",
+      "effective_period": "2025年法說會內容摘要",
+      "locator": "第2節「森寶主要業務與產品組合」之「核心業務」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要描述森寶從事住宅開發銷售，森碁營造負責營造工程，並稱形成開發與營造一條龍架構。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依任務指示在有限研究輪次內停止；官方網站內容擷取發生逾時，且本次未取得官方申報或原始法說會資料。未解決的範圍與成效主張保留為UNKNOWN。",
+    "所有支持所有權及開發—營造架構的材料均為二手來源；未取得可核對的森寶官方年報、法說會原始影音或監理機關申報文件。",
+    "富果文章自述依官方法說會影音整理，但本次只查閱到其摘要，不代表已獨立核實原始披露。",
+    "未找到支持「最大競爭優勢」或進度、成本風險、施工品質等成效的證據；這些未知不構成反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3489/532/hermes-attempt-1.stdout.txt"
+}

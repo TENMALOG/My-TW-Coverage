@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000867",
+  "claim_id": "4414:material_named_relationship:1784fcab0b4355b8",
+  "normalized_claim_hash": "1784fcab0b4355b8b216bc5778397d07acf030e7858093c907f87fecb83eda83",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2115985e00f87f08",
+      "title": "如興股份有限公司：2025年法人說明會簡報",
+      "url": "https://www.roohsing.com.tw/data/shareholder_legal/1765436610TE8R5.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-11",
+      "effective_period": "2025年1月至9月",
+      "locator": "客戶發展策略／前五大客戶營收占比",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出的前五大客戶為WalMart、LEVI'S、GAP、GU及TCP；未列出CK Jeans，但此表僅列前五大，不能據此判定CK Jeans並非客戶或主要客戶。"
+    },
+    {
+      "source_id": "src-a94855d0cd353f50",
+      "title": "如興總經理孫瑒：牛仔褲流行風潮再起 新增Stella等新客戶",
+      "url": "https://news.cnyes.com/news/id/4126508",
+      "source_level": 2,
+      "publication_date": "2018-05-17",
+      "effective_period": "2018年",
+      "locator": "報導正文，三大品牌客戶與新增品牌客戶段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持CK Jeans曾是新增客戶，但沒有證明其在當時或後來屬於主要客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司法人說明會資料及針對Calvin Klein Jeans的歷史報導；可支持LEVI'S、GAP於2025年前三季為前五大客戶，並支持CK Jeans於2018年曾為新增客戶。未找到足以確認CK Jeans主要客戶地位或後續合作狀態的證據，該原子主張保留為UNKNOWN。",
+    "原 claim 未指定期間；2025年資料支持LEVI'S與GAP在該期間屬前五大客戶，不能直接外推為2026年現況。",
+    "2018年關於Calvin Klein Jeans的證據是媒體對管理層說法的轉述，只能支持歷史客戶關係，不能支持其主要客戶地位或持續合作。",
+    "原文的「等全球牛仔品牌」未列明其他品牌，無法逐一核實。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4414/867/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000690",
+  "claim_id": "4306:objective_ranking_or_market_share:88dab30976986d42",
+  "normalized_claim_hash": "88dab30976986d42d0abfab0fd2b8a73ccc0551d749a1c62f1c1f7d315035dd6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-de6cd2361d0726d4",
+      "title": "4306 2025Q4 Financial Report",
+      "url": "https://mopsov.twse.com.tw/server-java/t164sb01?CO_ID=4306&REPORT_ID=C&SSEASON=4&SYEAR=2025&step=1",
+      "source_level": 3,
+      "publication_date": "2026-03-13",
+      "effective_period": "2025 fiscal year",
+      "locator": "Report heading and introductory company identification",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official regulator-hosted filing identifies code 4306 and 炎洲股份有限公司."
+    },
+    {
+      "source_id": "src-773332d9ea3dc45f",
+      "title": "Yem Chio 2024 Annual Sustainability Report",
+      "url": "https://www.ycgroup.tw/upload/csr/csrbook_2024_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Establishment date stated in the 2024 report",
+      "locator": "Section 2-1, Company Profile; indexed report text states “Date of Establishment: 1978.03.07”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure supports the year and gives the date as March 7, 1978."
+    },
+    {
+      "source_id": "src-01f08d41ba4df150",
+      "title": "萬洲化學 - 新南向商情網",
+      "url": "https://www.southbiz.com.tw/TWtrader/more?id=e1e69f791e4146549b10b9f0d725d1b0",
+      "source_level": 2,
+      "publication_date": "2023-11-23",
+      "effective_period": "Describes integration after 2009; ranking date not specified",
+      "locator": "Company description, paragraph on 2009 integration into 炎洲集團",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Uses “world’s largest BOPP producer” without defining whether this refers to BOPP film or tape, or identifying the metric or period."
+    },
+    {
+      "source_id": "src-7dd5779793fa8de0",
+      "title": "2014 萬洲化學企業社會責任報告書",
+      "url": "https://www.ycgroup.tw/upload/csr/csrbook_2014.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2014",
+      "locator": "Section 1.1, Company Profile, printed page 6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Achem report describes it as one of the world’s largest professional producers of BOPP and PVC tapes, but does not substantiate the exact global top-three tape-company ranking."
+    },
+    {
+      "source_id": "src-3dc3dadf975b15b3",
+      "title": "炎洲併亞化 今年合併營收上看150億元",
+      "url": "https://www.ycgroup.tw/news_detail.php?index_id=183",
+      "source_level": 3,
+      "publication_date": "2010-03-02",
+      "effective_period": "2010 announced expansion plan; capacity stated as expected after new lines came online",
+      "locator": "First paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company-site publication of a Central News Agency report says BOPP film capacity was expected to rise to 172,000 tonnes annually, still behind Nan Ya; this is a prospective capacity comparison, not a current ranking or a resolution for other periods."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用聚焦查詢檢索公司官方披露、監管申報及二手資料；排名所需的時點、全球市場範圍和比較基準仍未找到，依研究輪次限制停止，相關原子主張保留為UNKNOWN。",
+    "兩項全球排名都沒有可核對的排名年份、明確市場定義及比較指標。",
+    "新南向商情網的排名文字屬對Achem資料的二手轉述；其「BOPP生產商」表述不能直接等同於BOPP薄膜生產商。",
+    "炎洲官方網站刊載的2010年報導談的是擴產後預期產能，且稱其僅次於南亞；不能據此推斷其他年份的排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4306/690/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000164",
+  "claim_id": "6638:objective_ranking_or_market_share:a10e7dbfbe350734",
+  "normalized_claim_hash": "a10e7dbfbe35073494fbf4c7fb262a7f087d492f19a9b2800543a2a91bf5bfc3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-aa5cad6efc939c9c",
+      "title": "沅聖掉單 衝擊中帶轉機",
+      "url": "https://www.ctee.com.tw/news/20191224700301-430503",
+      "source_level": 2,
+      "publication_date": "2019-12-24",
+      "effective_period": "2019 reporting context linking the historic concentrated customer to the Amazon-acquired U.S. customer.",
+      "locator": "Opening and final paragraphs.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides contextual linkage to the unnamed U.S. customer acquired by Amazon; the customer identity is not explicitly named in the concentration paragraph."
+    },
+    {
+      "source_id": "src-d6cc8cfe79d54d6b",
+      "title": "樺緯物聯、沅聖將合併 瞄準實體 AI 風口",
+      "url": "https://money.udn.com/money/story/5612/9594598",
+      "source_level": 2,
+      "publication_date": "2026-06-29",
+      "effective_period": "Retrospective description of the 2019 customer relationship and subsequent transition.",
+      "locator": "Paragraph beginning「沅聖是智慧物聯網公司」.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Ring as the historical major smart-doorbell customer; retrospective reporting rather than a contemporaneous issuer disclosure."
+    },
+    {
+      "source_id": "src-135307b86cb7fef1",
+      "title": "大客戶供應鏈調整 沅聖掉單",
+      "url": "https://www.ctee.com.tw/news/20191223700573-439803",
+      "source_level": 2,
+      "publication_date": "2019-12-23",
+      "effective_period": "2019 orders and model shipments.",
+      "locator": "Opening paragraphs and the paragraph summarizing the company's response.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the ODM design change, one replacement product not won, and the customer's four shipped models."
+    },
+    {
+      "source_id": "src-24366cd191f66e19",
+      "title": "Amazon and Ring Close Acquisition—Now Working Together to Empower Neighbors with Affordable Ways to Monitor their Homes and Reduce Crime in Neighborhoods",
+      "url": "https://press.aboutamazon.com/2018/4/amazon-and-ring-close-acquisition-now-working-together-to-empower-neighbors-with-affordable-ways-to-monitor-their-homes-and-reduce-crime-in-neighborhoods",
+      "source_level": 3,
+      "publication_date": "2018-04-12",
+      "effective_period": "Amazon's home-security product portfolio as described on 2018-04-12.",
+      "locator": "Sections describing products under the Amazon umbrella and continued operation under respective brands.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Ring Video Doorbells and other Ring security products among home-security solutions under the Amazon umbrella; says Ring, Blink, and Amazon Cloud Cam would continue under their respective brands."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦檢索及可取得來源核對；歷史客戶關係、Amazon 收購及早期收入集中度有部分支持，但現時 Ring 客戶排名與主訂單狀態仍無可靠具名證據，依研究上限停止並保留為 UNKNOWN。",
+    "歷史客戶收入占比及訂單資訊主要來自媒體對沅聖財報與公司說法的轉述，並非本次直接核對的原始客戶明細。",
+    "2019年同期報導描述被 Amazon 收購的美系智慧門鈴客戶，但未在收入占比段落直接具名；Ring 的歷史客戶身分由後續媒體回顧補充。",
+    "沅聖官網介紹其 ODM、JDM、OEM 服務及智慧門鈴能力，只能證明一般能力，不能證明特定 Ring 訂單。",
+    "未找到能確認目前 Ring 客戶排名或訂單狀態的客戶具名資料；官方2024年度報告 PDF 曾出現在檢索結果中，但本次無法成功擷取其全文，故不據此推斷。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6638/164/hermes-attempt-1.stdout.txt"
+}

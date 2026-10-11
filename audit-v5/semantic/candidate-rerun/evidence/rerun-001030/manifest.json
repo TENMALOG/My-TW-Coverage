@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001030",
+  "claim_id": "3311:material_named_relationship:d84da2c8e18d086f",
+  "normalized_claim_hash": "d84da2c8e18d086f6ed8f2726e30e2bc08ea97776072318180b06f391db6ba87",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c36f9f83c8610cb7",
+      "title": "閎暉布局3D玻璃等新應用，靜待轉型效益顯現",
+      "url": "https://m.moneydj.com/f1a.aspx?a=0f996e0a-3d8b-4be1-88ff-2f03de9802c6",
+      "source_level": 2,
+      "publication_date": "2017-09-04",
+      "effective_period": "報導稱公司已取得 BMW 智慧鑰匙訂單，未說明開始量產或供貨日期。",
+      "locator": "正文第110行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持取得訂單，不單獨證明獨家供應或實際供貨起始日。"
+    },
+    {
+      "source_id": "src-87c1235c982021ce",
+      "title": "閎暉車用新技術：車用玻璃首度打入日系車廠 今年第3季量產出貨",
+      "url": "https://gfemobile.cnyes.com/news/id/4560666",
+      "source_level": 2,
+      "publication_date": "2021-01-14",
+      "effective_period": "報導時點；稱供應第3年、供貨週期長達8年，未提供精確合約期間。",
+      "locator": "正文第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體以「據悉」報導獨家供應，並限定為 BMW 智慧鑰匙玻璃按鍵；非 BMW 或閎暉正式公告。"
+    },
+    {
+      "source_id": "src-f6162ef68c800de2",
+      "title": "閎暉2018年年報",
+      "url": "https://www.silitech.com/CH/webfiles/15efb24c-fe03-4f28-81af-153a4b90a921.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2018會計年度",
+      "locator": "致股東報告書「營運表現」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露開發3D玻璃車用鑰匙等應用；該段未指名 BMW 或確認供應關係，僅作產品背景佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多組聚焦搜尋並檢視媒體報導及閎暉官方資料；截至2026年的持續供應與獨家狀態仍缺乏可確認證據，故保留為UNKNOWN。",
+    "精確的 BMW 供應及獨家資訊來自媒體報導，而非找到的閎暉或 BMW 正式公告。",
+    "閎暉官方年表記載2015年跨入車用玻璃產業，但未確認 BMW 客戶關係；此未提及不能作為反證。",
+    "報導所稱「獨家」應限於 BMW 智慧鑰匙玻璃按鍵這一具體產品範圍；報導並指明透過 Tier 1 客戶間接供應。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3311/1030/hermes-attempt-1.stdout.txt"
+}

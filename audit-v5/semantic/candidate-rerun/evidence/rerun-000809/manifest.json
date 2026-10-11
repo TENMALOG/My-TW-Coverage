@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000809",
+  "claim_id": "2065:objective_ranking_or_market_share:d09032770245bcd5",
+  "normalized_claim_hash": "d09032770245bcd59842ebf55c35ac60309939946be42aa30c39fd830bf06a55",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-de87141d72ee8d97",
+      "title": "世豐螺絲（2065）法人說明會，2025年4月9日",
+      "url": "https://www.shehfung.com/userfiles/2065%E4%B8%96%E8%B1%90-%E6%B3%95%E8%AA%AA%E6%9C%8320250409.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-09",
+      "effective_period": null,
+      "locator": "PDF第9頁（文字擷取標示P8；客戶屬性）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示「歐洲、澳洲」及「建築批發、五金零售通路商」等客戶屬性，未按地區拆分。"
+    },
+    {
+      "source_id": "src-712fb80025f44d8e",
+      "title": "世豐螺絲股份有限公司及子公司114年度及113年度合併財務報告暨會計師查核報告",
+      "url": "https://www.shehfung.com/userfiles/114Q4_%E4%B8%96%E8%B1%90%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1_%E7%94%A8%E5%8D%B0%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-06",
+      "effective_period": "2025-01-01至2025-12-31",
+      "locator": "附註十四（四）「地區別資訊」，PDF第61頁／報告頁60",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "按客戶所在地列示外部客戶收入；報告指出收入地區按客戶所在地理位置歸類。美國收入高於荷蘭、列支敦士登及整個「其他」類別的合計。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司2025年度合併財報及官方法人說明會，足以評估銷售區域排名與客戶通路描述；原文未定義的其他「最大市場」口徑仍無法由這些披露判定。",
+    "原始文字是片語，未明示期間、「最大市場」的定義、排名指標或分母；本次將其按最自然的公司銷售區域收入解讀。若指產業總體市場規模，該部分仍屬UNKNOWN。",
+    "2025年度財報按國家列示客戶所在地收入，未單列歐洲合計；以荷蘭、列支敦士登及全部「其他」作歐洲上限，仍低於美國收入。",
+    "公司簡報將歐洲與澳洲合併呈現通路客戶類型，沒有披露該類客戶的銷售額或地區拆分。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2065/809/hermes-attempt-1.stdout.txt"
+}

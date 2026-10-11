@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000222",
+  "claim_id": "5225:objective_ranking_or_market_share:534c2c4cfb9c89c8",
+  "normalized_claim_hash": "534c2c4cfb9c89c8ebb3da2bcf077ad62df92a117c9f2aaf7d6af3813ec66ebe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1e0ba4ebc84733b6",
+      "title": "東科-KY：電視薄型化成Soundbar銷售關鍵 | MoneyDJ理財網 | LINE TODAY",
+      "url": "https://today.line.me/tw/v3/article/8nwmy5q",
+      "source_level": 2,
+      "publication_date": "2022-11-16",
+      "effective_period": "Q3 2022 and FY2021 revenue mix",
+      "locator": "Article text on Soundbar ODM ranking and revenue proportions",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Soundbar as 70% of 東科’s Q3 revenue and about 51% of FY2021 revenue; these percentages use company revenue as the denominator, not global market share."
+    },
+    {
+      "source_id": "src-7f3c691987b7357a",
+      "title": "東科控股股份有限公司 2024年第三季法人說明會簡報",
+      "url": "https://www.eastech.com/sites/default/files/institutional-investors/2024-11/20241111%20-%20%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E6%AA%94_%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": "2024-11-11",
+      "effective_period": "Q3 2024 and first three quarters of 2024",
+      "locator": "產品種類結構 tables",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official revenue-mix data is reported for broader categories such as home audio systems; it does not provide Sound Bar global market share or its denominator."
+    },
+    {
+      "source_id": "src-90bce072cca7091e",
+      "title": "OTT浪潮推升聲霸銷售 東科-KY今年營運拚新高",
+      "url": "https://www.cna.com.tw/news/afe/202212080294.aspx",
+      "source_level": 2,
+      "publication_date": "2022-12-08",
+      "effective_period": "2022; cumulative revenue through November 2022",
+      "locator": "Opening paragraphs and company operating outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Attributes stronger company performance to brisk Soundbar sales; reports first-11-month revenue growth of 40% year over year. Does not give Soundbar’s standalone revenue contribution."
+    },
+    {
+      "source_id": "src-f1a8487d6cb9f3f4",
+      "title": "東科控股股份有限公司 2024年度年報",
+      "url": "https://www.eastech.com/sites/default/files/2025-05/2024zhongwennianbao_-_suo_0.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "FY2024 results and 2025 operating plan",
+      "locator": "營業報告書: 2024年度營業計畫實施成果 and 2025年營業計畫概要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports total revenue growth and states that 2025 growth momentum was expected from new products and customers, alongside the core Sound Bars. It does not isolate Sound Bar’s contribution to revenue growth."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報與法人說明會資料及相關財經媒體報導；尚未找到界定全球Sound Bar市場分母、單位及東科-KY市佔率的可靠資料，因此該原子主張維持UNKNOWN。於達到8輪搜尋上限前停止。",
+    "Soundbar占東科-KY自身營收的比例，不等於東科-KY在全球Sound Bar市場的市佔率。",
+    "全球最大Soundbar ODM廠是市場排名描述，不提供市佔率數值或明確市場分母。",
+    "2022年營收成長動能的報導不能直接證明該產品在未註明期間仍是主要成長動能；官方產品營收分類也未單列Sound Bar。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5225/222/hermes-attempt-1.stdout.txt"
+}

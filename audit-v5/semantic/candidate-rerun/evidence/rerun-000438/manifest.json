@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000438",
+  "claim_id": "6192:objective_ranking_or_market_share:d0ce09fbc459509c",
+  "normalized_claim_hash": "d0ce09fbc459509c1ac74e92f4c0065a9cd757a7e1eb091afb9977d989aeab48",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6bddb79542990a3e",
+      "title": "公司簡介 - 巨路國際股份有限公司",
+      "url": "https://www.elumax.com/about/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "核心價值段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Emerson is a commercial partner, not that 巨路 is its exclusive agent."
+    },
+    {
+      "source_id": "src-c890bc5f63147478",
+      "title": "Emerson Overview Infographic 2025",
+      "url": "https://ir.emerson.com/_assets/_6c168c88c608f97524192f774d90c8fa/emerson/db/1068/10006/file/Emerson+Overview+Infographic+2025.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02",
+      "effective_period": null,
+      "locator": "Title and company overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls Emerson “the global automation leader”; it gives no ranking for the specific process-control-manufacturer market."
+    },
+    {
+      "source_id": "src-6f2d9b5e701b5bc2",
+      "title": "Emerson Electric Is the Undisputed Global Leader in Process Automation",
+      "url": "https://www.morningstar.com/company-reports/1250043-emerson-electric-is-the-undisputed-global-leader-in-process-automation",
+      "source_level": 2,
+      "publication_date": "2024-11-05",
+      "effective_period": null,
+      "locator": "Business Strategy and Outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Morningstar says Emerson holds first or second share in various product categories; this does not establish an overall largest-manufacturer ranking."
+    },
+    {
+      "source_id": "src-7c338094a36df2ab",
+      "title": "Accredited Service Providers in Asia Pacific",
+      "url": "https://www.emerson.com/en/final-control/services/accredited-service-provider/accredited-service-providers-ap",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Asia Pacific provider list",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms accredited service-provider status for listed Lumax entities, not exclusivity."
+    },
+    {
+      "source_id": "src-2bc42461a0ca6938",
+      "title": "关于巨路",
+      "url": "https://www.lumaxcontrol.com/html/web/guanyujulu/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "主营业务",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes 巨路控制工程（大连）有限公司 and its affiliate as Taiwan 巨路国际’s wholly owned subsidiaries, and calls the Dalian company Emerson Fisher’s 唯一区域合作伙伴 for specified regions and process-control products."
+    },
+    {
+      "source_id": "src-f89fae01e6199925",
+      "title": "六人同心，穩坐台灣程控業龍頭",
+      "url": "https://www.gvm.com.tw/article/13604",
+      "source_level": 2,
+      "publication_date": "2010-01",
+      "effective_period": "Historical account published in January 2010",
+      "locator": "Article body, paragraph on Fisher and Emerson",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that 巨路 became Emerson’s exclusive agent in Taiwan; this historical, territory-specific report does not establish present or broader exclusivity."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找並核對巨路、其大連子公司及Emerson的官方資料，以及相關次級來源；仍無法證實全球排名或未限定範圍的獨家代理，故保留為UNKNOWN。",
+    "「全球最大」缺少明確市場定義、排名依據及期間；Emerson的「全球自動化領導者」自述不能直接證明該排名。",
+    "巨路台灣官網稱Emerson為商業夥伴；Emerson官方名錄確認部分Lumax實體為認證服務提供者，兩者均未確認廣義獨家代理。",
+    "唯一區域合作夥伴的官方說法限於大連子公司、指定中國地區及Emerson Fisher產品；遠見報導的台灣獨家代理說法是2010年的歷史資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6192/438/hermes-attempt-1.stdout.txt"
+}

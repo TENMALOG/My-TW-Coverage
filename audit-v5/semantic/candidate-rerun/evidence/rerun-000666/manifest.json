@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000666",
+  "claim_id": "6763:objective_ranking_or_market_share:66e5afa9447c9ff4",
+  "normalized_claim_hash": "66e5afa9447c9ff4aad0c7a0e3db4d3655329ac15b26b5eba2e71c0bc6606572",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-013a5e68cb61428e",
+      "title": "綠界科技股份有限公司—投資人專區公司資訊",
+      "url": "https://www.ecpay.com.tw/Investor/Company_Info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方頁面自述為台灣第三方支付市場規模最大的支付品牌，並稱其中小型電商金流市占率達七成；未提供排名方法、比較期間或整體市場分母。"
+    },
+    {
+      "source_id": "src-784ab3e190f521c3",
+      "title": "台灣第三方最大支付品牌綠界科技 一站解決網路創業所需",
+      "url": "https://www.ecf.com.tw/tw/article/show.aspx?num=8094",
+      "source_level": 2,
+      "publication_date": "2024-11-15",
+      "effective_period": null,
+      "locator": "文章開頭",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "專題文章稱綠界為台灣第三方支付市場規模最大的支付品牌，並報導其中小型電商金流市場市占率七成；未交代「規模」定義、比較期間或市占率分母，不能獨立驗證整體市場排名。"
+    },
+    {
+      "source_id": "src-c18f2f0760ddbb9f",
+      "title": "生態系結盟模式助綠界穩居中小型電商支付龍頭",
+      "url": "https://www.ecpay.com.tw/announcement/DetailAnnouncement?nID=4515",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公告內文；頁面稱綠界為規模最大的第三方支付品牌，並稱中小型電商及品牌電商市占第一",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人公告中的直接排名主張；內文主要涉及中小型電商及品牌電商，未提供整體第三方支付市場的規模指標、分母或可核對的排名資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人官方公司資料及公告、2024年專題文章，並檢索主管機關與市場排名相關資料；找到的是未交代排名口徑的自述及較窄市場的市占率主張。核心排名仍缺少可比市場分母、指標和期間，因此停止並保留為 UNKNOWN。",
+    "官方來源可證明綠界科技曾作出該排名自述，但自述本身不足以核實客觀市場排名。",
+    "中小型電商金流市占率的主張範圍較窄，不能替代整體第三方支付市場的排名證據。",
+    "未找到能以明確期間、台灣第三方支付市場定義及可比分母驗證「規模最大」的官方或獨立排名資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6763/666/hermes-attempt-1.stdout.txt"
+}

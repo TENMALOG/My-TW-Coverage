@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000793",
+  "claim_id": "8916:objective_ranking_or_market_share:94054a91233ed989",
+  "normalized_claim_hash": "94054a91233ed9895e0e1f5d16b38e8c4ddc560793c5036e8fe99411ffe77dbc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b60e9de8241ef3fa",
+      "title": "關於光隆 - 光隆實業",
+      "url": "https://www.klf.com.tw/chinese/06_about/01_detail.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About KWONG LUNG paragraph: “為羽絨產業中，唯一整合上游羽絨原料精洗生產，和下游成衣及家居紡織製造。”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer self-assertion; it does not supply a global market definition, comparison set, denominator, or independent corroboration."
+    },
+    {
+      "source_id": "src-695cd10bf909dd02",
+      "title": "光隆實業股份有限公司 - 經濟部商工登記公示資料查詢",
+      "url": "https://findbiz.nat.gov.tw/fts/company/33111800",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Registry record; page reports last approved change on 2026-06-05.",
+      "locator": "公司基本資料：公司所在地 臺北市大安區敦化南路二段105號16樓",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official government registry confirms the company’s registered location in Taipei."
+    },
+    {
+      "source_id": "src-1a3cc09a394e4c9a",
+      "title": "關於光隆 - 光隆實業（全球據點）",
+      "url": "https://klf-group.com/chinese/06_about/01_detail.php?dpid=5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "全球據點表：臺灣｜光隆實業股份有限公司｜10682臺北市敦化南路二段105號16樓",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer’s undated location listing; it also lists separate offices and manufacturing sites."
+    },
+    {
+      "source_id": "src-fb91494005460bb4",
+      "title": "家庭紡織事業部 - 光隆實業",
+      "url": "https://klf-group.com/chinese/01_products/02_02editor_01.php?dpid=10&lpid=5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Business-unit description: precision processing of down raw materials; production of bedding, cushions, and other home-textile goods.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page describes upstream processing and home-textile manufacturing."
+    },
+    {
+      "source_id": "src-af00620084bc8684",
+      "title": "成衣事業部 - 光隆實業",
+      "url": "https://klf-group.com/chinese/01_products/01_02editor.php?dpid=2&lpid=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Business-unit description: apparel OEM production and manufacturing bases.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page describes downstream apparel manufacturing."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對 issuer 資料、政府公司登記及同業整合能力的聚焦檢索。創立時間、台北公司所在地及整合業務能力有來源支持；全球唯一性缺少可界定並核驗的市場分母，因此保留為 UNKNOWN。",
+    "全球唯一性只找到 issuer 自述，未找到具明確市場範圍、比較標準和分母的獨立驗證。",
+    "台北所在地有官方公司登記及 issuer 據點表支持；這些來源未明確使用「總部」一詞。",
+    "issuer 網頁未標示發布日期；相關能力描述的具體有效期間未明示。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8916/793/hermes-attempt-1.stdout.txt"
+}

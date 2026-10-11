@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000625",
+  "claim_id": "6411:objective_ranking_or_market_share:39af3c3dfe85aa8b",
+  "normalized_claim_hash": "39af3c3dfe85aa8b88dca69d367c74ff8b32372f46b021a1d00c30da8c37758e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9bff2d5d3ec5c632",
+      "title": "公司簡介 — 晶焱科技",
+      "url": "https://www.amazingic.com/tw/about/Company-Profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司簡介現行頁面",
+      "locator": "公司簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只支持「台灣第一家靜電防護解決方案專業服務團隊」的自述，未明確聲稱首家ESD防護IC設計公司。"
+    },
+    {
+      "source_id": "src-bd955420c0a91026",
+      "title": "全方位靜電防護設計專案躋身全球市占前三 — 逢甲大學逢甲人專訪",
+      "url": "https://www.fcu.edu.tw/fcuershare/news/37902/",
+      "source_level": 2,
+      "publication_date": "2024-05-01",
+      "effective_period": "報導發布時；報導稱排名在第二、第三之間",
+      "locator": "導言及「發展各式靜電防護設計專案 全球市占排前三」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導全球市占前三，並轉述創辦人稱排名徘徊於第二、第三；未列市占率數值或市場分母。"
+    },
+    {
+      "source_id": "src-89e27dd1767ad101",
+      "title": "晶焱科技股份有限公司 2024櫃買市場業績發表會",
+      "url": "https://mopsov.twse.com.tw/nas/STR/641120240827M001.pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-27",
+      "effective_period": "2024年簡報所述當時；另標示2021年曾排名第二",
+      "locator": "第32頁，「Global ESD/EOS Protection Market」；標示「AMAZING in World No.3!」及「No.2 @2021」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人公開簡報中的全球ESD/EOS防護市場排名自述；市場預測圖標示來源為2023 OMDIA，但排名的精確資料年度及市占計算口徑未清楚列明。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱晶焱官方公司簡介、公開資訊觀測站所載2024年業績發表會簡報及逢甲大學2024年專訪。現有證據支持「首家解決方案專業服務團隊」及全球前三排名，但未找到足以確認「台灣首家ESD防護IC設計公司」精確先後比較的資料，因此保留該原子主張為UNKNOWN並停止。",
+    "「台灣第一家」的官方表述是靜電防護解決方案專業服務團隊，並非明確的「首家ESD防護IC設計公司」比較結論。",
+    "全球排名有發行人2024年簡報及2024年大學專訪支持；簡報標示全球ESD/EOS防護市場及No.3、2021年No.2，但排名資料年度、完整市場分母及計算方法未充分列明。",
+    "逢甲大學專訪為二級來源，排名部分轉述公司創辦人說法。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6411/625/hermes-attempt-1.stdout.txt"
+}

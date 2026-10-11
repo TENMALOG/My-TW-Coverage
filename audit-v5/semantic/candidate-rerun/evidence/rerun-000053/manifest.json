@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000053",
+  "claim_id": "2239:objective_ranking_or_market_share:1f382b871069e7dc",
+  "normalized_claim_hash": "1f382b871069e7dce8722ac1c3decf0032d3edd5576d35e872bffc32a54f9c27",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f1c711c21891ed17",
+      "title": "Changchun Engley automobile industry Co., Ltd. investor presentation",
+      "url": "https://www.engley.com.tw/uploads/20231130/577d8b7b3b219d3fcf9ca6fea7ac52cc.pdf",
+      "source_level": 3,
+      "publication_date": "2023-11-29",
+      "effective_period": "截至2023-11-29",
+      "locator": "第18頁，SymaLITE車底護板產品應用",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出AUDI Q3、Q5、A4L、A6L、A3車底護板。"
+    },
+    {
+      "source_id": "src-cf4d988674ce8249",
+      "title": "【研究報告】子公司A股上市飆出16根漲停板！英利-KY(2239)掌握SymaLITE的關鍵技術",
+      "url": "https://cmnews.com.tw/article/ryan-7a3b8ac6-d8c8-11ef-b79d-cdceecdfd709",
+      "source_level": 2,
+      "publication_date": "2021-05-18",
+      "effective_period": "報導發布時",
+      "locator": "「關鍵複合材料技術」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "研究報告稱英利SymaLITE材料主要提供Audi車型護底板、輪罩使用；屬次級來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方簡報直接支持產線、唯一性及Audi車型底盤護板應用，另有次級來源明確描述供貨；已完成聚焦查證，剩餘 caveat 為後續期間狀態及獨立核驗。",
+    "產線唯一性與全球五條的數量為英利官方簡報自述，未取得獨立全球產線清冊核驗。",
+    "Audi供貨的明確文字見2021年次級研究報告；2023年官方簡報列示Audi車型及車底護板產品，但沒有供貨量、合約期間或後續持續供貨資訊。",
+    "證據確認的是所列披露期間，不能據此確認2023年11月29日之後產線狀態或供貨延續。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2239/53/hermes-attempt-1.stdout.txt"
+}

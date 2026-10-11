@@ -1,0 +1,108 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001081",
+  "claim_id": "6217:profitability_assertion:e88c8f3648ead646",
+  "normalized_claim_hash": "e88c8f3648ead6462277c6f714382125c241bb115360f51d6b17099239cc2be8",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e030f64067a2e5bf",
+      "title": "IC 測試探針 - 中國探針股份有限公司",
+      "url": "https://wp.ccpcontactprobes.com/ic-test-probes/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "檢索時公司現行產品目錄",
+      "locator": "頁面標題及IC Testing Probes產品目錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方產品頁列示IC測試探針。"
+    },
+    {
+      "source_id": "src-eaf02b221da78565",
+      "title": "中國探針法人說明會簡報（2024年11月13日）",
+      "url": "https://www.ccpcontactprobes.com/sites/default/files/2025-04/CCP_Contact_Probes_Investor_Conference_2024_official_20241113_0.pdf",
+      "source_level": 3,
+      "publication_date": "2024-11-13",
+      "effective_period": "簡報列示2023至2025年高功率產品路線",
+      "locator": "第18頁，High Power Burn-in Socket及應用晶片",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司把AI人工智能晶片列為高功率老化測試座應用。"
+    },
+    {
+      "source_id": "src-bf6d014cd40095fa",
+      "title": "中國探針股份有限公司及子公司2025年度合併財務報告",
+      "url": "https://www.ccpcontactprobes.com/sites/default/files/2026-03/Consolidated_Financial_Statements_2025Q4.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "第11頁，合併綜合損益表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示全公司2025年度營收及合併毛利率約19%，未拆分測試探針或測試座產品毛利率。"
+    },
+    {
+      "source_id": "src-a732b381ae3fe5a2",
+      "title": "中探針擴半導體測試產品，毛利結構獲改善",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=fa6e114b-4dd7-47b7-ae3c-12e5c4f031c5",
+      "source_level": 2,
+      "publication_date": "2026-02-26",
+      "effective_period": "報導所述近年產品組合及2026年展望",
+      "locator": "產品組合與毛利結構段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導談及半導體測試新品放量及整體產品組合改善，但未提供測試探針或Socket的產品別毛利數據。"
+    },
+    {
+      "source_id": "src-d093b32c4f755234",
+      "title": "中探針測試座訂單滿載 下半年營運拚轉盈",
+      "url": "https://anuenews.cnyes.com/news/id/6066739",
+      "source_level": 2,
+      "publication_date": "2025-07-16",
+      "effective_period": "2025年產品合作及出貨情況",
+      "locator": "正文第18至20行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱公司過往與封測廠合作，並描述其與IC設計業者合作開發與驗證。"
+    },
+    {
+      "source_id": "src-cb2b3f17361641d5",
+      "title": "〈SEMICON〉中探針測試座打進IC設計大廠 大搶先進封裝商機",
+      "url": "https://anuenews.cnyes.com/news/id/6149219",
+      "source_level": 2,
+      "publication_date": "2025-09-10",
+      "effective_period": "2025年9月客戶導入情況",
+      "locator": "正文第208至219行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台系描述明確用於IC設計大廠集團；未指明封測廠客戶所在地。"
+    },
+    {
+      "source_id": "src-08df6f42a82c48dc",
+      "title": "中探針1200W測試座通過驗證 打進封測大廠",
+      "url": "https://anuenews.cnyes.com/news/id/6195951",
+      "source_level": 2,
+      "publication_date": "2025-10-17",
+      "effective_period": "2025年10月供應鏈導入情況",
+      "locator": "報導首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只稱封測與IC設計大廠供應鏈，未披露封測客戶是否為台系。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦檢索並查閱公司產品資料、公司簡報、公司財報及媒體對法說會與公司說法的報導。未找到產品別毛利率、可比較的「表現亮眼」指標，或封測客戶所在地的可靠披露；這些原子維持UNKNOWN。",
+    "多項2025年客戶導入及產品進展資訊來自媒體對公司總經理說法的轉述，未披露客戶名稱、出貨金額或可獨立核實的客戶文件。",
+    "公司2025年度財報僅提供合併口徑毛利率，不能用來推定測試探針、Socket或Burn-in Socket的個別毛利率。",
+    "「台系」有直接報導支持於IC設計集團，但目前查得資料未明確將同一地理屬性連結至封測廠客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6217/1081/hermes-attempt-1.stdout.txt"
+}

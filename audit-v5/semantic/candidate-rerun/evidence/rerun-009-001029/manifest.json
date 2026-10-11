@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001029",
+  "claim_id": "3191:identity_changing_event:98fd69deb068be8d",
+  "normalized_claim_hash": "98fd69deb068be8d150a1b638d5e0f09adcee31c0a935ae794645e24d8c315d6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3645746355749eeaea35",
+      "title": "經濟部商工登記公示資料查詢：雲嘉南科技股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/86105242",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Name-change registration dated 2023-07-17",
+      "locator": "Company information, lines 20–29 and 242–244",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government registry explicitly lists the prior name as 和進電子股份有限公司."
+    },
+    {
+      "source_id": "src-22aaa2567e5b21945a57",
+      "title": "TPEx announcement: 雲嘉南科技股份有限公司 name change and replacement shares",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11301/11300003141.html",
+      "source_level": 3,
+      "publication_date": "2024-01-25",
+      "effective_period": "2024 name-change-related share replacement and trading schedule",
+      "locator": "Lines 4–18",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TPEx identifies stock 3191 as formerly named 和進電子股份有限公司."
+    },
+    {
+      "source_id": "src-ea601bd72eaabed09665",
+      "title": "經濟部商工登記公示資料查詢：雲嘉南科技股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/86105242",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023-07-17",
+      "locator": "Lines 28–29; historical entries at lines 203–204",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Records the name change from 和進電子股份有限公司 on 2023-07-17."
+    },
+    {
+      "source_id": "src-b63b14bf3ad177b1fa62",
+      "title": "TPEx announcement: 雲嘉南科技股份有限公司 name change and replacement shares",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11301/11300003141.html",
+      "source_level": 3,
+      "publication_date": "2024-01-25",
+      "effective_period": "2024-02-05 through 2024-02-21 for trading suspension and new-share trading arrangements",
+      "locator": "Lines 10–12 and 16–29",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The notice concerns name-change-related share replacement; it states the new shares would begin trading on 2024-02-21."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official registry and TPEx records resolve the identity and timing distinction; no material atom remains unresolved.",
+    "The official registry establishes the legal name-change date; the TPEx notice describes the subsequent stock-replacement and trading schedule.",
+    "The TPEx notice was issued in 2024, but its issuance date should not be conflated with the 2023 registry date of the corporate name change."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3191/1029/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "0c68a4dddc58cd9e075c1e77bcbb912765f2ec85b4dfd4a2ac562995a517d86c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3191/1029/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "efce22ff177860ff4455c5b0e63d61360a03a9d584dd3a2a19213ba61eed63bf",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001029/manifest.json",
+  "supersedes_manifest_sha256": "5450caaa95a2b4eccc8daed22a970eb8bc2055ccf43113f37ce691cc47a8dda6",
+  "corrected_at": "2026-10-08T09:59:10Z"
+}

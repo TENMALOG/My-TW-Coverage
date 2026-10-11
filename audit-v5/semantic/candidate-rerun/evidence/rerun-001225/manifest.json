@@ -1,0 +1,97 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001225",
+  "claim_id": "4772:material_named_relationship:ea95514bb8419145",
+  "normalized_claim_hash": "ea95514bb84191459248830bb4fd1bf0323e645caaa8ba6a6f9436fdf2223c61",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0ce9f52a427bf82c",
+      "title": "4772台特化20250624 報告",
+      "url": "https://www.scribd.com/document/894148259/4772%25E5%258F%25B0%25E7%2589%25B9%25E5%258C%259620250624-%25E5%25A0%25B1%25E5%2591%258A",
+      "source_level": 2,
+      "publication_date": "2025-06-24",
+      "effective_period": "2024",
+      "locator": "Report text surfaced in search result: 2024 revenue share and largest-customer identification.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary analyst report hosted on Scribd; attribution is not independently confirmed by the issuer's public annual report."
+    },
+    {
+      "source_id": "src-840ac21c6f7386b6",
+      "title": "台灣特品化學股份有限公司 112年度年報",
+      "url": "https://www.tscs.com.tw/wp-content/uploads/2024/04/R1304000109%E5%8F%B0%E7%81%A3%E7%89%B9%E5%93%81%E5%B9%B4%E5%A0%B1%E4%B8%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2024-04-12",
+      "effective_period": "2019",
+      "locator": "PDF p. 7, company history: November 2019 entry.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the 2019 supplier-forum award, but not the first-year characterization."
+    },
+    {
+      "source_id": "src-72965fa77ffd677f",
+      "title": "台特化榮獲台積公司的電子特氣材料類供應商最高榮譽獎 中美矽晶與有榮焉",
+      "url": "https://www.saswafer.com/?p=10926",
+      "source_level": 3,
+      "publication_date": "2019-12-05",
+      "effective_period": "2019",
+      "locator": "Announcement text describing the 2019 forum and award.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Published by 台特化's affiliated group company; identifies 台特化 and the TSMC Excellent Performance Award."
+    },
+    {
+      "source_id": "src-61287d2a4ecfcc4b",
+      "title": "〈觀察〉中美晶、大立光爭相入股 台特化擁何優勢打入台積供應鏈首年就獲獎",
+      "url": "https://news.cnyes.com/news/id/4423576",
+      "source_level": 2,
+      "publication_date": "2019-12-17",
+      "effective_period": "2018–2019",
+      "locator": "Article opening and concluding paragraph.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Contemporaneous secondary reporting explicitly states that 台特化 was recognized in its first year in TSMC's supply chain."
+    },
+    {
+      "source_id": "src-117258d3fdfd40a6",
+      "title": "台特化上櫃前業績發表會簡報",
+      "url": "https://www.tscs.com.tw/wp-content/uploads/2024/08/TSC%E5%85%AC%E5%8F%B8%E7%B0%A1%E5%A0%B1_%E6%A5%AD%E7%B8%BE%E7%99%BC%E8%A1%A8%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "PDF p. 34, vendor qualifications.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names no customers, so it does not resolve the VIS relationship."
+    },
+    {
+      "source_id": "src-cac60896c4543e17",
+      "title": "靠製「毒氣」打進台積、英特爾 瀕倒小工廠如何從破產邊緣重生？",
+      "url": "https://www.cheers.com.tw/article/article.action?id=5100633&page=2",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "By 2022; exact order and delivery dates unspecified",
+      "locator": "Section on the group's investment and new U.S. customers.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports an interview statement that 台特化 obtained Intel and Texas Instruments orders; the article does not establish whether supply remains active."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after 8 focused research turns, the stated limit. The VIS relationship remains unresolved, and the available primary issuer customer-concentration disclosure does not name the largest customer.",
+    "The issuer's annual report anonymizes major customers, so its 59.63% figure cannot by itself identify TSMC.",
+    "The 2024 TSMC revenue-share attribution comes from a secondary analyst report hosted on Scribd, not a named-customer issuer filing.",
+    "The first-year award characterization comes from contemporaneous secondary reporting; the issuer's report confirms the award but not that timing.",
+    "The TI evidence supports historical orders only; current supply status is not shown.",
+    "The issuer's presentation describes unnamed tier-one customer qualifications and does not establish a VIS supply relationship."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4772/1225/hermes-attempt-1.stdout.txt"
+}

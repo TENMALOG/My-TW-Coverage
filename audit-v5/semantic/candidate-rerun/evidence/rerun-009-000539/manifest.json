@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000539",
+  "claim_id": "2423:objective_ranking_or_market_share:ac4c5aacc850ead3",
+  "normalized_claim_hash": "ac4c5aacc850ead3a0390fae32e7c3ba729e5fee8395c59fbaefa6ea10d967fa",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4aa264b2902e43e66563",
+      "title": "Investor Presentation, Q4 2025 (Version 1, English)",
+      "url": "https://gwinstek.com/upload/media/EastAsia/Shareholders/Shareholders_meeting/shareholders'meeting/others/Investor%20Presentation%2C%20Q4%202025%20(Version%201%2C%20English).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年1月至11月",
+      "locator": "銷售區域表格中「Europe and America」列",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "固緯官方簡報摘錄顯示歐洲與美洲合併列示，不能據此判定歐洲單獨為最大出口市場。"
+    },
+    {
+      "source_id": "src-f6ffc186fd232efcb363",
+      "title": "固緯電子（2423）：深耕測試儀器，布局未來科技",
+      "url": "https://uc913.com/stock-2423",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2024年第一季",
+      "locator": "「市場布局與區域營收」段落及銷售區域分布",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級來源稱中國市場是最大單一銷售市場，並將歐美合併列示；資料屬銷售區域而非出口市場，不能直接裁定原句。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次可用研究工具呼叫上限；原句期間、出口市場定義及可比較的完整分母仍未查明。",
+    "官方簡報摘錄所示為「歐洲與美洲」合併區域，未提供此處可核驗的歐洲單獨出口額或完整市場排名。",
+    "2024年第一季區域分布資料來自次級來源，且描述銷售市場，不是明確的出口市場比較。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2423/539/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ee40ed69fa274456b86654b0ba5ac6cb2f401e1dd45cf207673734faa65dd43c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2423/539/isolated-prompt.txt",
+  "prompt_sha256": "dfa793853fa0c85b9938e4b65cfc05108f29fafd02e916cf680a9e13f92c5d8c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000539/manifest.json",
+  "supersedes_manifest_sha256": "36154d0cf86492a1dcabe8b996ebead886a9167e2ee2d395b69158b164617a3b",
+  "corrected_at": "2026-10-08T09:58:21Z"
+}

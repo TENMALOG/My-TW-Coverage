@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000406",
+  "claim_id": "1558:objective_ranking_or_market_share:0fd3b72d834f9729",
+  "normalized_claim_hash": "0fd3b72d834f9729b1d82845054f62a0715e633a2b40d3a3437c8e08ef0cea96",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1d10623b31b1a2d732db",
+      "title": "SVP Worldwide | About Us",
+      "url": "https://www.svpworldwide.com/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About SVP Worldwide, “About the Company”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company page names SINGER, HUSQVARNA VIKING, and PFAFF as SVP Worldwide brands."
+    },
+    {
+      "source_id": "src-b6b4f47b174be1f4960c",
+      "title": "全球縫紉機市場：家用縫紉機2024年強勢復甦，工業縫紉機市場預計2025年迎來增長機會，伸興(1558)與高林股(1531)的觀察重點",
+      "url": "https://uanalyze.com.tw/articles/727027114",
+      "source_level": 2,
+      "publication_date": "2024-10-06",
+      "effective_period": "Article published in 2024; underlying period for the brand-share estimate not specified",
+      "locator": "“家用縫紉機” section; brand-share distribution",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports SINGER at 30–33%, above listed competitors, for the global household sewing-machine market; also reports annual market volume of approximately 9–10 million units, but does not state the share methodology or explicitly tie that volume to the share denominator."
+    },
+    {
+      "source_id": "src-da9fb55aadfeb6e66b07",
+      "title": "SVP Worldwide | About Us",
+      "url": "https://www.svpworldwide.com/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "About SVP Worldwide, “About the Company”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Says SVP Worldwide is the largest consumer sewing-machine company and accounts for approximately one in three machines sold annually worldwide; the statement applies to SVP and its portfolio, not SINGER individually."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found official evidence for the SINGER–SVP brand relationship and secondary evidence for a household-market ranking, but did not establish SINGER’s standalone first-place share across all sewing-machine categories. The broader ranking remains UNKNOWN.",
+    "The official SVP Worldwide statement concerns the company and its three-brand portfolio, not SINGER as a standalone brand.",
+    "The market-share ranking comes from secondary analysis, not an issuer or regulator disclosure; its calculation method, precise denominator, and underlying measurement period are not specified.",
+    "The ranking evidence is limited to household sewing machines, whereas the original wording does not define the market segment."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1558/406/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c74f47fbb43e61a765a169eb95f307c10bc520291f6d8219eb008298e1f0e890",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1558/406/isolated-prompt.txt",
+  "prompt_sha256": "1c77391730d731703140ccdfca435232c72889675362167aba802a0343ff333b",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000406/manifest.json",
+  "supersedes_manifest_sha256": "447e19bfba7fa3865677ca11025161784d94e7deff1df28849a74bc1b623c194",
+  "corrected_at": "2026-10-08T09:58:10Z"
+}

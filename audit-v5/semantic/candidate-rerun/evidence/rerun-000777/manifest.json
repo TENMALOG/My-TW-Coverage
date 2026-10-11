@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000777",
+  "claim_id": "6561:objective_ranking_or_market_share:8a87b4b5a9098e5e",
+  "normalized_claim_hash": "8a87b4b5a9098e5e326f378dbbff1a6a47da6a7dc282f7a6d7b662f843a889c2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6da6322f5fbbec70",
+      "title": "是方電訊股份有限公司個體財務報告暨會計師查核報告",
+      "url": "https://www.chief.com.tw/wp-content/uploads/2026/02/%E6%98%AF%E6%96%B9%E9%9B%BB%E8%A8%8A114Q4%E9%9B%BB%E5%AD%90%E6%9B%B8%E5%80%8B%E9%AB%94.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025-12-31",
+      "locator": "附註一，持股及最終母公司段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露中華電信及其控制個體於2025年底合計持有58.56%股權。"
+    },
+    {
+      "source_id": "src-5286bc224e1fbef9",
+      "title": "關係企業｜中華電信",
+      "url": "https://www.cht.com.tw/zh-tw/home/cht/about-cht/introduction/related-companies",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "關係企業頁，是方電訊項目中的投資比例",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面列示投資比例約56%；頁面未標示該比例的明確基準日期。"
+    },
+    {
+      "source_id": "src-86884a9824dfea7f",
+      "title": "公司簡介｜是方電訊",
+      "url": "https://www.chief.com.tw/introduction/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介中關於國內最大中立機房服務營運商的描述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅為公司自述，沒有披露排名方法或可核對的比較數據。"
+    },
+    {
+      "source_id": "src-40388bc5b2acc594",
+      "title": "IDC Services｜Chief Telecom",
+      "url": "https://en.chief.com.tw/idc/idc-service",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Carrier-grade Internet Data Center及Space/Cage and Suites段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接描述其IDC為carrier-grade。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核是方及中華電信官方頁面與是方2025年財報；未找到足以驗證全台規模排名或「高度」中立程度的獨立比較資料，因此將這些原子主張保留為UNKNOWN。",
+    "集團持股58.56%為中華電信及其控制個體合計數；不應表述為中華電信單一法人直接持有該全部比例。",
+    "最大規模與中立程度的佐證主要是公司自述，缺少可比較的市場分母、規模指標或獨立驗證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6561/777/hermes-attempt-1.stdout.txt"
+}

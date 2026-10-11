@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001000",
+  "claim_id": "1617:material_named_relationship:1f14e00f8c9b676c",
+  "normalized_claim_hash": "1f14e00f8c9b676c3d8fbe5e3aa3e0d0ee52e70387e38f8dae8f8d5d42af3280",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fda750bfb8e827da",
+      "title": "榮星電線工業股份有限公司106年度年報",
+      "url": "https://www.jswire.com.tw/userfiles/files/20220223015331226.pdf",
+      "source_level": 3,
+      "publication_date": "2018-06-07",
+      "effective_period": "2017年度年報",
+      "locator": "第72頁「主要原料之供應狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只稱直接向國內裸銅線大廠進貨，沒有列出大亞；不足以確認或否定此供應關係。"
+    },
+    {
+      "source_id": "src-f016a7f17649965f",
+      "title": "榮星電線工業股份有限公司101年度年報",
+      "url": "https://en.jswire.com.tw/userfiles/files/20220223015121823.pdf",
+      "source_level": 3,
+      "publication_date": "2013-06-25",
+      "effective_period": "2012年度年報",
+      "locator": "第55頁「主要原料之供應狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱採購對象為國內裸銅線大廠並列出部分公司，但未確認華榮、大亞或所列廠商的煉銅能力。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦的官方年報及官方財務資訊頁檢索。官方頁雖列出2025年報，但本次工具路徑無法讀取該Google Drive檔案內容；未能核實現行採購名單或煉銅能力，因此相關原子維持UNKNOWN。",
+    "榮星官方財務資訊頁列有2025年報，但該連結指向Google Drive；本次可見頁面僅顯示載入畫面，搜尋及擷取未取得可核對的2025年報相關段落。",
+    "成本比例有官方年報支持，但只適用於漆包線成本，不能擴大解讀為榮星公司整體成本。",
+    "華新麗華的採購關係有2012年度年報支持；該證據是歷史資料，不能視為現行供應商名單。",
+    "所查2017年度年報僅泛稱向國內裸銅線大廠進貨，未提供完整具名供應商名單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1617/1000/hermes-attempt-1.stdout.txt"
+}

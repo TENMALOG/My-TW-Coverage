@@ -1,0 +1,61 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000015",
+  "claim_id": "8942:objective_ranking_or_market_share:96c34e1e0641bb89",
+  "normalized_claim_hash": "96c34e1e0641bb89db684da10498274e668b5e62efe7cbe501e34eb37e4ac972",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-3c3c1c3b528ef3ea235a",
+      "title": "Wabash National Corporation comments to FMCSA, Docket No. FMCSA-2016-0167",
+      "url": "https://downloads.regulations.gov/FMCSA-2016-0167-0004/attachment_1.pdf",
+      "source_level": 3,
+      "publication_date": "2016-07-07",
+      "effective_period": "Assertion made in July 2016; no measurement period specified.",
+      "locator": "Page 1, paragraph beginning “As the largest trailer manufacturer in North America”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Primary Wabash statement submitted in an official regulatory docket. It supports that Wabash made this claim in 2016, not an independently verified ranking or the unspecified/current wording."
+    },
+    {
+      "source_id": "src-afab417fd4ae922a67fd",
+      "title": "Trailer Output Report: 2023 | Trailer Body Builders",
+      "url": "https://www.trailer-bodybuilders.com/whats-in-print/article/21282636/trailer-output-report-2023",
+      "source_level": 2,
+      "publication_date": "2024-02-22",
+      "effective_period": "2023 production",
+      "locator": "Article text on survey scope and methodology; extracted passage reports Hyundai Translead's 2023 output but provides no Wabash comparative rank.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary industry survey. The retrieved text does not establish Wabash's rank; its production figure and comparison with other manufacturers are not available in the extracted passage."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Research remained unresolved after focused searches; the user then directed that no further tool calls be made because the tool-calling iteration limit had been reached.",
+    "The 2016 ranking language is Wabash's own statement in a regulatory submission, not an agency finding.",
+    "The claim supplies no year, trailer-category boundary, ranking metric, or denominator.",
+    "The 2023 survey extract is incomplete for comparing Wabash with other manufacturers; its failure to establish Wabash's rank is not evidence that Wabash was not largest."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8942/15/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "1d9657bc9c2c081f6c675062c5dd1614117ec79b3844c8d1ccbce2d27e7290be",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8942/15/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "47ebf828ecf6d03a9e5f9f6fa5f1797e6107bf1baac9d9360a4208a47a3311e1",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000459",
+  "claim_id": "2607:objective_ranking_or_market_share:eae39f4c4c4f4d7b",
+  "normalized_claim_hash": "eae39f4c4c4f4d7b4a4f0ed86c2e2ee0f1952185c1979311072a6cb53ccccd29",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0bab5249f827b5d1",
+      "title": "首頁 | 長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「我們的服務」之「內陸貨櫃運輸」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司在北部、台中及高雄配置曳引車及車架，提供運輸服務。"
+    },
+    {
+      "source_id": "src-7764ac619633e7a0",
+      "title": "長榮國際儲運股份有限公司民國97年度財務報告",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/download/D03-0-Financial/97quarter_6.pdf",
+      "source_level": 3,
+      "publication_date": "2009-03-25",
+      "effective_period": "2008年度",
+      "locator": "第45頁，部門別財務資訊，列示「內陸運輸」為主要產業部門",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持內陸運輸是2008年度的主要產業部門，不足以單獨確立未指明年份的排名或相對業務重要性。"
+    },
+    {
+      "source_id": "src-fbfca4ae33230893",
+      "title": "經營團隊 | 長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A03-0-Team.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "經營團隊表格，「貨車部」所營業務",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持榮運負責貨櫃拖運，但未具體限定為進出口貨櫃。"
+    },
+    {
+      "source_id": "src-1c9bad117675ddfb",
+      "title": "主要服務項目 | 長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B01-1-Intro.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「貨櫃進出管制與吊卸作業」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明出口貨櫃放行後交由運輸公司提領並拖往碼頭；未指明承運公司為榮運。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人官方服務頁、經營團隊資料及歷史財務報告，並以多組聚焦查詢尋找車隊排名及進出口貨櫃拖運的直接佐證；未找到可驗證「全台最大」的期間、車隊口徑與同業比較資料。",
+    "官方網站支持內陸貨櫃運輸及一般貨櫃拖運服務，但未提供全台車隊排名所需的比較資料。",
+    "官方進出口作業說明提及出口貨櫃由運輸公司拖往碼頭，沒有明確將該運輸公司指認為榮運。",
+    "2008年度官方財務報告只能支持該年度內陸運輸屬主要產業部門，不能代替未指定期間的車隊排名證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2607/459/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000795",
+  "claim_id": "9938:objective_ranking_or_market_share:75e89fb7124e96b1",
+  "normalized_claim_hash": "75e89fb7124e96b1b05c53aa0e4d3d0b334c1f16cea74681e8ed12c08a1898c9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0b504139373d5a29",
+      "title": "〖鞋材〗百和(9938)-關稅影響大不大?教你用簡單模型設定情境!",
+      "url": "https://uanalyze.com.tw/articles/8951514127",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "Article passage listing 2024 brand shares of 百和 revenue.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports On Running at approximately 6.6%; secondary analysis."
+    },
+    {
+      "source_id": "src-884bf6798dc1d5aa",
+      "title": "〖製鞋/鞋材〗百和(9938)-復甦進行中，第一大客戶調升財測!",
+      "url": "https://uanalyze.com.tw/articles/998036495",
+      "source_level": 2,
+      "publication_date": "2024-09-09",
+      "effective_period": null,
+      "locator": "Brand/customer roster image captioned as sourced from 百和’s investor-conference presentation.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reproduction of issuer presentation material; the image identifies brands but does not quantify Hoka revenue."
+    },
+    {
+      "source_id": "src-a69a3ea57fb9d2e0",
+      "title": "法人說明會-台灣百和工業股份有限公司",
+      "url": "https://www.paiho.com/tw/investors/message/investor-conference-information/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024-07-16 conference",
+      "locator": "Issuer investor-conference index, listing the 2024-07-16 presentation.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the issuer presentation existed and its date; the page itself does not independently establish the Hoka roster."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused re-verification found secondary reporting of the FY2024 brand shares and a presentation-derived brand roster. The issuer index confirms the relevant conference presentation date, but no primary issuer brand-share methodology or audited brand breakdown was located.",
+    "The FY2024 percentages come from secondary analysis rather than an issuer-audited brand-revenue breakdown; the source does not explain its attribution methodology.",
+    "The denominator is described as 百和 revenue. No geographic market definition is provided, so these percentages must not be read as global or regional footwear-market shares.",
+    "Hoka is supported by a brand roster reproduced from investor-presentation material, not by a quantified revenue disclosure.",
+    "The claim itself gives no period; the percentages are pinned here to FY2024 based on the source."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9938/795/hermes-attempt-1.stdout.txt"
+}

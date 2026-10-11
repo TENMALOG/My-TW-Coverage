@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000524",
+  "claim_id": "2640:objective_ranking_or_market_share:aa3a18660be7ca86",
+  "normalized_claim_hash": "aa3a18660be7ca86833aa893d8b6c2ec7e10c06149861d2c382e6e32b0310fe0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bfb8189f6a6360f9",
+      "title": "關於 55688",
+      "url": "https://www.55688.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面2026年項目",
+      "locator": "「數位轉型與綠色出行」下「2026年」項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露目前有2.9萬位專業駕駛；頁面未提供司機會員的具體定義或約24,000人的期間。"
+    },
+    {
+      "source_id": "src-c50f4d8028428f0d",
+      "title": "計程車/多元計程車GPS點位 (GPS data probe by taxi) | TDX 運輸資料流通服務",
+      "url": "https://tdx.transportdata.tw/data-mart/detail/4d489cc4-5575-45cf-baf2-bff56252418c",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "資料集說明：「目前車量數約22,000台」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未標示該車量數的統計日期或定義，不能視為約29,000輛的反證或佐證。"
+    },
+    {
+      "source_id": "src-4da23e333fe3270c",
+      "title": "大車隊5月合併營收，持續穩健成長再創新高",
+      "url": "https://www.taiwantaxi.com.tw/Article?fid=6&sid=10806&tid=11150",
+      "source_level": 3,
+      "publication_date": "2024-06-12",
+      "effective_period": "截至2024年6月公告時",
+      "locator": "【113/06/12新聞稿】「大車隊發放現金股利6元」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱計程車車輛數由2.3萬台增至2.5萬台，當月突破2.6萬台；此數字不證實其他期間的約29,000輛。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方介紹與公告、交通部TDX資料集頁及相關數字；仍無法確認原 claim 所需的排名口徑、兩項數量及其統計期間，故保留未解原子為UNKNOWN。",
+    "官方公司與TDX頁面提供的車隊數量、市占率描述，其統計期間與口徑並不完全一致。",
+    "TDX資料集頁雖載有「全台計程車市占率第一」說法，但未提供可核查的期間、計算方法或市場分母；不宜將該描述當作已獨立驗證的排名。",
+    "約24,000名司機會員及約29,000輛營運車輛均缺少能同時確認數值、單位定義與期間的可靠來源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2640/524/hermes-attempt-1.stdout.txt"
+}

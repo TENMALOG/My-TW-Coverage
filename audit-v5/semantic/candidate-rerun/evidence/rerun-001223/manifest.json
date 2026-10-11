@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001223",
+  "claim_id": "2250:material_named_relationship:905ace00ffdd5c7a",
+  "normalized_claim_hash": "905ace00ffdd5c7abbfb6537da8a692d003ee8476619e3ae39826c50591c781d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0d01cde14ab3a8b6",
+      "title": "IKKA-KY 2025 Investor Conference Presentation (Chinese)",
+      "url": "https://www.ikka.com.tw/proimages/pdf/2025/2025.03.25_IKKA(KY)_%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E6%9C%83%E7%B0%A1%E5%A0%B1%E8%B3%87%E6%96%99-%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-25",
+      "effective_period": "Supply-chain and automaker relationships presented as of 2025-03-25",
+      "locator": "Slide 7, terminal car factory logos; slide 12, automobile-business relevance to carmakers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shows Toyota, Nissan, and Honda in the terminal-OEM context."
+    },
+    {
+      "source_id": "src-3b11c0a3ec3505d1",
+      "title": "IKKA Holdings (Cayman) Limited 2025 Annual Report",
+      "url": "https://www.ikka.com.tw/proimages/pdf/2026/%E8%AD%AF-IKKA-KY_114%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-15",
+      "effective_period": "FY2025; report states publication date 2026-05-15",
+      "locator": "Shareholders’ letter, printed page 1; automotive discussion, PDF page 107",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Toyota, Honda, and Nissan as Japanese automakers with which the Group collaborates on next-generation products/components; separately describes EPB-module supply to Toyota."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official issuer disclosures support the full qualitative claim. Further research was unnecessary for candidate-level verification; the specific Tier 1-to-OEM pairings remain unstated and are not asserted.",
+    "Evidence is primarily issuer disclosure: a 2025 investor presentation and the 2025 annual report published 2026-05-15.",
+    "The investor presentation’s major-customer revenue chart does not identify its reference period; no customer percentages are relied on as proof of the qualitative claim.",
+    "The issuer shows the supply-chain relationship at a group level, not a supplier-by-supplier mapping to Toyota, Nissan, or Honda.",
+    "Issuer materials use varying Sumitomo names, including Sumitomo Electric, Sumitomo Electric Wiring Systems, and 住友電裝; exact legal-entity equivalence is not established here."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2250/1223/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000435",
+  "claim_id": "6192:objective_ranking_or_market_share:3a45ecd2ce0afe92",
+  "normalized_claim_hash": "3a45ecd2ce0afe92daaab989c1fd017ef5796724c2bb1f12b4b0b4229e160f6a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a9ab6df217aef56d",
+      "title": "EMERSON - 巨路國際股份有限公司",
+      "url": "https://www.elumax.com/product_services/%E5%B7%A5%E6%A5%AD%E7%A8%8B%E6%8E%A7/%E7%A8%8B%E6%8E%A7%E7%B3%BB%E7%B5%B1/emerson/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面標題及工業程控／程控系統導覽",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只確認巨路官網有 EMERSON 產品頁，未確認代理或獨家代理關係。"
+    },
+    {
+      "source_id": "src-b7273e6ea13f5844",
+      "title": "艾默生中國官方網站",
+      "url": "https://emerson.cn/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "網站標題及公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方中文網站以「艾默生」稱呼 Emerson；支持名稱對應。"
+    },
+    {
+      "source_id": "src-2a5bec59a51f2294",
+      "title": "自动化系统",
+      "url": "https://www.emerson.cn/zh/automation-systems",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料介紹艾默生自動化系統及產品組合，但未提供可核實的市場排名或相應分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次研究工具呼叫上限；依任務限制停止，排名及獨家代理原子維持 UNKNOWN。",
+    "巨路與艾默生官網可支持品牌／名稱關聯及巨路列有相關產品，但不足以證明代理授權或其排他範圍。",
+    "未取得具有明確市場定義、期間及排名分母的「最大」排名證據。",
+    "未取得載明地域、產品範圍與有效期間的獨家代理官方文件。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6192/435/hermes-attempt-1.stdout.txt"
+}

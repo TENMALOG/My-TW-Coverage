@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000611",
+  "claim_id": "3711:objective_ranking_or_market_share:c038454aa18420d4",
+  "normalized_claim_hash": "c038454aa18420d4aa618db2fd6c206113ea548ae0302b58f34fc1f846d1a756",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0939cba52202edad",
+      "title": "Top 10 OSAT Companies of 2024 Revealed—China Players See Double-Digit Growth, Reshaping the Global Market Landscape, Says TrendForce",
+      "url": "https://trendforce.com/presscenter/news/20250513-12577.html",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024",
+      "locator": "Article text: combined revenue of the world's top 10 OSAT companies; ASE held nearly a 45% share among the top ten",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The disclosed share denominator is the top ten's combined revenue, not a defined total global OSAT market."
+    },
+    {
+      "source_id": "src-c30c8e7853f3b118",
+      "title": "全球封測前10大！日月光穩居霸主 陸廠來勢洶洶",
+      "url": "https://www.chinatimes.com/realtimenews/20250513003532-260410",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024",
+      "locator": "Article text: “日月光市占率仍是全球首位”; following paragraph describes ASE's nearly 45% share of the top ten",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting attributes the ranking to TrendForce, but the cited share figure is explicitly relative to the top ten rather than a stated total-market denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research exhausted for this re-verification. Available evidence supports ASE's first-place 2024 revenue ranking, but does not resolve the original market-share denominator or its unspecified period.",
+    "The claim gives no reference period; the directly verified ranking is for 2024.",
+    "The reported nearly 45% share uses the top ten OSAT companies' combined revenue as its denominator. It does not by itself establish a share of a separately defined total global OSAT market."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3711/611/hermes-attempt-1.stdout.txt"
+}

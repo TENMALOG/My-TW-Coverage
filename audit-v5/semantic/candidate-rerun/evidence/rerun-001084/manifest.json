@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001084",
+  "claim_id": "6405:material_named_relationship:5e6bfe6393ffffc7",
+  "normalized_claim_hash": "5e6bfe6393ffffc764556e1e419c8de05161e6909e2345565493706d041deed3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-875a4e0baebde3b9",
+      "title": "TFT玻璃薄化需求，悅城今年營收續兩位數成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=b2ee24eb-b072-415b-9e89-9a17db97e569",
+      "source_level": 2,
+      "publication_date": "2013-03-21",
+      "effective_period": "報導所述2013年前後",
+      "locator": "正文主要客戶段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅列出台灣面板廠，不能證成國外主要面板廠客戶關係或當前關係。"
+    },
+    {
+      "source_id": "src-82343e77fb10df97",
+      "title": "悅城科技股份有限公司2023年年報",
+      "url": "https://www.onano-nm.com/temp/2023-Shareholders%20Meeting/%E6%82%85%E5%9F%8E%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度及年報刊印時",
+      "locator": "營運概況／銷貨風險",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報稱主要營收來自光電面板薄化玻璃處理、主要銷貨對象為面板廠；該段未列客戶名稱或國內外、電視／IT市場範圍。"
+    },
+    {
+      "source_id": "src-e05cc8104d0f52dc",
+      "title": "悅城澄清媒體報導（公開資訊觀測站重大訊息公告內容，MoneyDJ轉載）",
+      "url": "https://m.moneydj.com/f1a.aspx?a=36865bf8-d2b7-46a7-b8b7-57fca7d8780c&c=MB06",
+      "source_level": 2,
+      "publication_date": "2026-09-30",
+      "effective_period": "公司稱相關玻璃製程已於2025年結束",
+      "locator": "公告第8項因應措施",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載公司重大訊息；公司列明已結束玻璃基板、TGV、CPO、玻璃加工及玻璃鍍膜等製程。"
+    },
+    {
+      "source_id": "src-06b5ed2d2cccef02",
+      "title": "今年每股稅後 -1.06元？悅城：以公告為準（公開資訊觀測站重大訊息公告內容，MoneyDJ轉載）",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=e68f637b-6b84-4730-8aaf-98bbc97f9d80",
+      "source_level": 2,
+      "publication_date": "2026-10-01",
+      "effective_period": "截至2026-10-01的公司澄清",
+      "locator": "公告第8項因應措施",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱媒體所述客戶資訊為自行推估與臆測，並表示已於2025年結束列明的玻璃相關製程；未直接否定所有其他形式的封裝供應鏈關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合；歷史具名客戶關係獲部分支持，但海外／現況面板客戶範圍及國際AI晶片封裝供應鏈關係仍缺直接證據，依合約停止並保留為UNKNOWN。",
+    "具名友達、群創關係的材料是2013年二級媒體報導，不能作為目前客戶關係證據。",
+    "公司2023年年報支持面板廠作為主要銷貨對象的概括描述，但未列出海外客戶或TV／IT市場分類。",
+    "2026年重大訊息內容由MoneyDJ轉載；所述玻璃業務終止對玻璃相關封裝路徑有實質限制，但不能據此推斷公司不存在任何其他材料或客戶關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6405/1084/hermes-attempt-1.stdout.txt"
+}

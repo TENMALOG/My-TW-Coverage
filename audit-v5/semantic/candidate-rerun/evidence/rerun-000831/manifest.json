@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000831",
+  "claim_id": "6806:objective_ranking_or_market_share:8a5ced4ccef9e61c",
+  "normalized_claim_hash": "8a5ced4ccef9e61cbe0fac16f7d3615a3c425dab0db52a446fe308f32d4bff4d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-be72716958b45498",
+      "title": "森崴能源官方網站",
+      "url": "https://www.shinfox.com.tw/index.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網自述森崴能源為正崴集團子公司。"
+    },
+    {
+      "source_id": "src-2dbcd97b2779c526",
+      "title": "富威電力股份有限公司及子公司—2025年第3季合併財務報告",
+      "url": "https://platform.fwp.com.tw/fileserver/homepageFiles/investor/index/finance/2025/2025Q3Merge.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-05",
+      "effective_period": "2025年第3季",
+      "locator": "第10頁，公司沿革第1段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載森崴能源持有富威電力62.90%股權，正崴精密工業為該集團最終母公司。"
+    },
+    {
+      "source_id": "src-e0f7327c852cd96a",
+      "title": "正崴集團最強能源艦隊 森崴躍最大本土離岸風電統包商",
+      "url": "https://money.udn.com/money/story/10871/6225594",
+      "source_level": 2,
+      "publication_date": "2022-05-18",
+      "effective_period": "2022年報導時點",
+      "locator": "第112–118段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱森崴轉投資的富崴能源承攬台電二期工程，並據此描述森崴成為台灣最大的離岸風電EPC業者；沒有交代比較集合或排名方法。"
+    },
+    {
+      "source_id": "src-92d637607d2dc1a5",
+      "title": "台電離岸風力發電第二期計畫—計畫介紹",
+      "url": "https://tpc-offshorewind-p2.tw/project",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年得標；計畫裝置容量294.5 MW",
+      "locator": "計畫介紹及計畫組織架構",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台電列富崴能源為得標承攬商及「國內本土統包商」；此單一專案資料不構成全台業者排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對官方公司資料、台電專案資料及排名表述的檢索；未找到可驗證該排名之比較分母及現行期間的可靠資料，故該原子主張標記為UNKNOWN。",
+    "「最大」缺少明確期間、比較對象、排名指標及市場分母。",
+    "報導所述EPC工程與運維合約總額並非單純EPC工程金額；排名依據不明。",
+    "台電資料指明台電二期總承攬商為富崴能源，而非森崴能源本體。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6806/831/hermes-attempt-1.stdout.txt"
+}

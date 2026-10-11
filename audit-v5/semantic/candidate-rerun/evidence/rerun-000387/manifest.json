@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000387",
+  "claim_id": "9945:objective_ranking_or_market_share:0956ae2b616a5788",
+  "normalized_claim_hash": "0956ae2b616a578831e07928822fb24bdc89d499a13dc79bbd5b08e1293d1628",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-57d896c2bb89a442",
+      "title": "潤泰創新國際股份有限公司法人說明會簡報",
+      "url": "https://www.rt-develop.com.tw/upload/2025_12_123/20251212151200hazinnfdR1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-12",
+      "effective_period": "截至2025-09-30",
+      "locator": "第5頁，Other investments",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 Sun Art Retail 持股0.98%。"
+    },
+    {
+      "source_id": "src-183da4aa25ac3884",
+      "title": "南山人壽董監事及主要股東持股與設質情形",
+      "url": "https://www.nanshanlife.com.tw/nanshanlife/portal-api/File/789",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "資料日期：2026-08-31",
+      "locator": "主要股東持股表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示潤泰創新國際直接持有南山人壽34,081,844股，占已發行股數0.2319%；可與公司簡報的總持有口徑區分。"
+    },
+    {
+      "source_id": "src-8d20b310d2089725",
+      "title": "Sun Art Retail Group Limited — Our Business",
+      "url": "https://www.sunartretail.com/en/business/business.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company profile / business description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料說明其以 RT-Mart 與 RT-Super 品牌經營零售業務，支持 Sun Art Retail 與大潤發品牌的對應。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得潤泰新官方法人說明會簡報、南山人壽官方股東資料及 Sun Art Retail 官方業務介紹，足以逐項核對股權口徑、獲利組成與投資事業；未發現需要以未核實資料補足的原子主張。",
+    "南山人壽約25%的比例是潤泰新簡報所列總持有口徑，包含間接持股，不是直接登記持股比例。",
+    "獲利來源排名依潤泰新簡報列示期間及獲利組成表；不應延伸為未來各期必然排名。",
+    "日友環保及 Sun Art Retail 的持股比例採公司簡報截至2025-09-30資料；Sun Art Retail 對應大潤發品牌由其官方業務介紹佐證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9945/387/hermes-attempt-1.stdout.txt"
+}

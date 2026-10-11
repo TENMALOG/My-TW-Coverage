@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000723",
+  "claim_id": "3219:objective_ranking_or_market_share:0ef62b067682d21f",
+  "normalized_claim_hash": "0ef62b067682d21f44b2b5e1a6dd9713f4b63fb1cd90a87ce6cbe51e657ee293",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-93336b978a4c3093",
+      "title": "3219 Aethertek Technology — 2025 / 08 Investor Presentation",
+      "url": "https://mopsov.twse.com.tw/nas/STR/321920250808M001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025/08 investor presentation",
+      "locator": "Official presentation; extracted text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer presentation. The extracted material does not establish that Meta was the largest customer or specify a customer-ranking period or basis."
+    },
+    {
+      "source_id": "src-19ba3aebaa4b2808",
+      "title": "倚強科（3219）：上半年營收大增45%，雙主軸業務齊發，展望5G與AI商機｜理柴知道:法說最速報!",
+      "url": "https://vocus.cc/article/689c58ebfd897800018260d7",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2025 H1 results / Q2 discussion, as described by the article",
+      "locator": "Section II, 上半年財務與營運概況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The article says Meta was the first-largest customer in its summary of the results and supply-chain discussion. It is a secondary summary, not a verified verbatim issuer disclosure, and does not define the ranking basis."
+    },
+    {
+      "source_id": "src-1a34db635c391835",
+      "title": "Meta AI 眼鏡浪潮下的新亮點",
+      "url": "https://news.cnyes.com/news/id/6137429",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "Article describes Meta as the current largest customer; exact measurement period is not stated",
+      "locator": "Paragraph under “Meta AI 眼鏡概念股”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "An analyst-contributor article asserts that Meta is currently 倚強科's first-largest customer. It does not identify the underlying primary disclosure or define the period, revenue basis, or denominator."
+    },
+    {
+      "source_id": "src-d2d5ea93dd1aa309",
+      "title": "【倚強科法說會重點內容備忘錄】未來展望趨勢 20250811",
+      "url": "https://blog.fugle.tw/post/earnings-call-3219-2025-08-11",
+      "source_level": 2,
+      "publication_date": "2025-08-11",
+      "effective_period": "2025 H1 results / 2025 Q2",
+      "locator": "Sections 1. 營運摘要 and Q&A; source links to official recording and presentation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The memo, which says it uses AI to summarize the official exchange recording, refers to a first-largest customer but does not identify that customer as Meta. It therefore does not resolve the identity atom."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of the official investor-presentation extract and secondary reporting did not establish the customer identity and ranking basis from primary evidence; the unresolved scope and denominator remain UNKNOWN.",
+    "The sources that explicitly name Meta are secondary commentary or summaries, not a verified verbatim statement or customer-level filing disclosure.",
+    "The official investor presentation was reviewed through extracted text; that material did not establish the claimed customer ranking.",
+    "The original wording gives no period, revenue or order basis, denominator, or units for “largest.”"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3219/723/hermes-attempt-1.stdout.txt"
+}

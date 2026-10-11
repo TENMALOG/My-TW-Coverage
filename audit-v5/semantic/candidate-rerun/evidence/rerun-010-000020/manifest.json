@@ -1,0 +1,73 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000020",
+  "claim_id": "4438:objective_ranking_or_market_share:05ea182e0e761907",
+  "normalized_claim_hash": "05ea182e0e7619078a80863dd6914a2f680543e369bdaa0e94e10d5e4aa2c063",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-96fbb73b21f2c6f56600",
+      "title": "廣越企業(4438 TT) 法人說明會簡報",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820251021M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-10",
+      "effective_period": "歷史公司資料；成立時間列為1995年10月",
+      "locator": "第6頁基本資訊；第9頁創立時間",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人簡報列明「4438 TT」及「1995年10月成立」。"
+    },
+    {
+      "source_id": "src-ff84d8c3b4ec5f635fc3",
+      "title": "廣越企業(4438 TT) 法人說明會簡報",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820251021M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-10",
+      "effective_period": "簡報發布時；產品營收組合為2024年",
+      "locator": "第6頁「廣越為全球前三大高端戶外機能服飾製造商」及2024年產品組合",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人自述的是較廣的高端戶外機能服飾品類前三名，未披露高階羽絨外套製造商排名或排名依據。產品組合數據不是市場占有率或排名證據。"
+    },
+    {
+      "source_id": "src-d78589f2dc6e90aa01da",
+      "title": "QVE investor presentation_202604_EN_20260414_final",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/52394/2026/RNS/52394_rns_2026-04-14_f05a9dd3-92b1-41cb-913d-7fa6fe698a9c.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04",
+      "effective_period": "2026年4月簡報中的公司名稱與股票代號",
+      "locator": "封面及免責聲明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人簡報封面列明「Quang Viet Enterprise Co., Ltd. (4438 TT)」，免責聲明亦稱文件由 Quang Viet Enterprise Co., Ltd. 提供。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已檢視發行人簡報並進行聚焦搜尋。成立年份及英文名稱可核實；未找到可確認原主張所指特定市場、期間與排名分母的可靠證據，該排名原子維持UNKNOWN。",
+    "成立年份及排名描述來自發行人簡報；其中排名是公司自述，簡報未提供獨立市場研究或排名方法。",
+    "「高端戶外機能服飾」與「高階羽絨外套」不是可直接互換的市場定義；2024年產品營收組合也不能替代全球市場排名或市占率證據。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4438/20/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "ca4e98c19414806c06967a1bf287331d510998e0e5d05d08ba84d06cf2795d4c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4438/20/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "affe1c952af30bffa66652540546d1aa934275e55b8fbb0ee8ed8874a6834cb3",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

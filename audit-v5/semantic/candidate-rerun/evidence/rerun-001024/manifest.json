@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001024",
+  "claim_id": "3305:profitability_assertion:17948c52e4a11c29",
+  "normalized_claim_hash": "17948c52e4a11c2988bbe77f179c9acb2774c6ef0424538eee274c984c222862",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-581989f850a80d05",
+      "title": "《其他電子》高階錫膏獲導入Nvidia GPU 昇貿獲利進補",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202306010111647",
+      "source_level": 2,
+      "publication_date": "2023-06-01",
+      "effective_period": "2023年報導所述及當時公司展望",
+      "locator": "標題下第1段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱昇貿看好高階錫膏占比隨AI伺服器需求攀升，但沒有說明占比的分母或提供後續實際數據。"
+    },
+    {
+      "source_id": "src-cf71f0427fa0b146",
+      "title": "《電零組》金屬價格飆漲+AI伺服器助攻 昇貿獲利大躍進",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202404300104155",
+      "source_level": 2,
+      "publication_date": "2024-04-30",
+      "effective_period": "2023年開始供貨；2024年報導",
+      "locator": "標題下第2段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱GPU以錫膏直接焊接至IC載板及PCB，昇貿高階錫膏已供應AI伺服器組裝廠。"
+    },
+    {
+      "source_id": "src-016074e8804e20ed",
+      "title": "SHENMAO Unveils Low-Temperature Solder Paste for Reliable AI Server Cooling Assembly",
+      "url": "https://www.circuitnet.com/news/uploads/5/SHENMAO_PF602-P241M-HS_25_Final.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年10月產品發布資料",
+      "locator": "新聞稿標題及產品說明段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "昇貿產品新聞稿支持其有AI伺服器散熱組件用低溫錫膏，但未披露該產品的毛利率或占比變化。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；現有資料足以支持一般AI伺服器高階錫膏需求增加，並指出GPU Socket機制不符報導描述，但未找到CPU Socket需求或高毛利錫膏子類別占比的可核實披露，故保留UNKNOWN。",
+    "所引用的台股新聞為二級報導，不等同公司原始披露；昇貿產品新聞稿僅支持AI伺服器散熱組件用錫膏，不能證明Socket用途或毛利占比。",
+    "原 claim 未定義「占比」分母、比較期間，亦未量化「激增」；伺服器應用占錫膏用途比例與高毛利錫膏占公司營收比例是不同口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3305/1024/hermes-attempt-1.stdout.txt"
+}

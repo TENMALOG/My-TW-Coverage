@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000641",
+  "claim_id": "8086:objective_ranking_or_market_share:195cb9f67a470584",
+  "normalized_claim_hash": "195cb9f67a4705849dc34f1143bb2eb6c2a7f9ecca7e7e8503e81aa42c5792de",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-31ecfaf937298bfd",
+      "title": "WIN Semiconductors — Foundry Service",
+      "url": "https://www.winfoundry.com/en-US/Service/service_foundry",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "WIN says it has been the world’s largest 150 mm GaAs pure-play foundry since 2007; the page also refers to capacity exceeding 340,000 wafers in 2018 and over 50% of global GaAs foundry demand, without dating that share figure.",
+      "locator": "Service > Foundry Service",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company statement; its specific ranking is limited to 150 mm pure-play GaAs foundry and does not disclose a ranking methodology."
+    },
+    {
+      "source_id": "src-6b2c5cb49f1ce6bc",
+      "title": "Morningstar — Win Semiconductors Corp 3105, Company Profile",
+      "url": "https://www.morningstar.com/stocks/roco/3105/quote",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025",
+      "locator": "Company Profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States WIN had over 50% share in the GaAs foundry market in 2025 and was followed by Advanced Wireless Semiconductor and GCS Holdings; does not specify the share denominator or methodology."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得官方公司排名自述及可追溯至2025年的獨立市場排名佐證；原子主張可作候選支持，保留範圍與市占計算口徑供最終裁定。",
+    "WIN官網的明確排名自述限定為150 mm（6吋）純GaAs代工；Morningstar提供2025年全球GaAs代工市場排名佐證。",
+    "可取得的來源未交代市占率按營收、晶圓量或產能計算的分母與方法。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8086/641/hermes-attempt-1.stdout.txt"
+}

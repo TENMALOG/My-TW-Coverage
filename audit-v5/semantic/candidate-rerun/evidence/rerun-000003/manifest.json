@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000003",
+  "claim_id": "2645:objective_ranking_or_market_share:acb07c2f05995949",
+  "normalized_claim_hash": "acb07c2f05995949a72a6d0c190e016489fc3dc71f58f1f9990154e19b09035c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "egat-history-zh",
+      "title": "關於長榮航太 - EVERGREEN AVIATION TECHNOLOGIES CORP.",
+      "url": "https://www.egat.com.tw/zh-hant/company-profile/history",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company page retrieved 2026-10-06; the >40-airline statement has no publication/update date",
+      "locator": "簡介, paragraph 2",
+      "source_sha256": "0e70d6fa662509268a96a2563b83a1a9f36b00e95600b98e8d4b9458359cea41",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2645/egat-history.html",
+      "note": "EGAT says it has served more than 40 airlines globally and describes its services as aircraft maintenance, modifications, and component repair."
+    },
+    {
+      "source_id": "egat-scheduled-maintenance-zh",
+      "title": "定期維修 - EVERGREEN AVIATION TECHNOLOGIES CORP.",
+      "url": "https://www.egat.com.tw/zh-hant/service-support/hmv-and-base-services",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current service page retrieved 2026-10-06; no publication/update date",
+      "locator": "機體維修 list",
+      "source_sha256": "e2f36da39891281288512c6c707ad2fb630985f3dd979c1ae547c8767cbc2e59",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2645/egat-scheduled-maintenance.html",
+      "note": "Lists Airbus A318/A319/A320/A321 and A330 families and Boeing B737NG, B747-400/B747-8, B767, and B787 models. The separate 2025 issuer presentation supports B777 maintenance activity."
+    },
+    {
+      "source_id": "egat-2025-investor-presentation",
+      "title": "長榮航太法人說明會 (2025-05-19)",
+      "url": "https://www.egat.com.tw/documents/295/PPTfashuohuai519chinese.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-19",
+      "effective_period": "Company status and strategy as of 2025-05-19",
+      "locator": "PDF page 4: global major-customer and airframe-capacity metrics; PDF page 11: operations strategy",
+      "source_sha256": "505bca12cb089214eb687815dc3a223ba72f333e5e5b065af4d672498eb48a5a",
+      "source_hash_scope": "Saved UTF-8 text excerpt from the web PDF reader; not the original PDF bytes",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2645/egat-2025-pdf-excerpt.txt",
+      "retrieval_note": "The web PDF reader exposed the relevant pages; direct fetch from the local retrieval environment returned HTTP 404, so the original PDF-byte hash is unavailable.",
+      "note": "The deck states that B747/B767/B777/B787 airframe-maintenance counts lead globally and that A350/B737MAX capabilities and customer expansion are under development. It separately says 30 global major customers and eighth place in overall global airframe maintenance capacity; these are different metrics from airline count and B747-specific heavy-check ranking."
+    },
+    {
+      "source_id": "airways-egat-cirium-2025",
+      "title": "In Photos: Inside the EGAT facilities in Taipei - Airways",
+      "url": "https://www.airwaysmag.com/new-post/inside-the-egat-facilities-in-taipei",
+      "source_level": 4,
+      "publication_date": "2025-10-23",
+      "effective_period": "Cirium data for 2024; article published 2025-10-23",
+      "locator": "Background, paragraphs 3-4; Our Visit, paragraphs 1-2",
+      "source_sha256": "a7882281603d8ddf8dc7c9d1b45d6099417a1b7a733efbe573d41dc9f3e1407b",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2645/airways-egat-mro-2025.html",
+      "note": "Airways attributes to Cirium the finding that EGAT is the world's largest provider of C/heavy checks on four-engine aircraft; it says the work is exclusively Boeing 747 and calls EGAT the largest 747 MRO provider worldwide. It reports more than 1,000 747 heavy-check events, compared with 845 on 767 and 750 on 777."
+    }
+  ],
+  "retrieval_observations": [
+    {
+      "url": "https://www.egat.com.tw/documents/189/EGAT-2023_Annual_ReportEnglish.pdf",
+      "observed_result": "Official-host web open returned 403; local direct fetch returned 404",
+      "semantic_consequence": "Not relied upon. The current EGAT company page independently states more than 40 airlines; the annual-report search excerpt was treated only as a discovery lead."
+    }
+  ],
+  "search_notes": [
+    "The 2025 deck's 30 global major customers is not treated as a contradiction of the company page's more-than-40 airline figure because the wording and denominator differ.",
+    "The deck's eighth-place ranking is overall airframe-maintenance capacity; the B747 ranking is a narrower heavy-check/MRO claim sourced to the Cirium-referencing industry article."
+  ]
+}

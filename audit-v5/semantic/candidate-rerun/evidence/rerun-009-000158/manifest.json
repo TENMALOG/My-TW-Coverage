@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000158",
+  "claim_id": "6143:objective_ranking_or_market_share:73dfb069f9845e04",
+  "normalized_claim_hash": "73dfb069f9845e0424c4a4b3e9d3aed1ee515ff2f5ed382432fee5ce6df0bdd5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6da42d3e5519676ebbe7",
+      "title": "Rakuten Annual Report 2012",
+      "url": "https://corp.rakuten.co.jp/investors/assets/doc/documents/ar_2012_all.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2012",
+      "locator": "Business overview / Internet Services discussion of Kobo",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Rakuten acquired Kobo in January 2012 and made it a consolidated subsidiary."
+    },
+    {
+      "source_id": "src-771ffd86e7c8ff7cf7b0",
+      "title": "振曜科技持續佈局彩色閱讀器 豐富閱讀體驗",
+      "url": "https://www.netronixinc.com/news_01.aspx?ID=105&type",
+      "source_level": 3,
+      "publication_date": "2020-10-13",
+      "effective_period": "2020 Kobo Forma e-reader project",
+      "locator": "Project description identifying Netronix's responsibility for reader design, manufacturing, and hardware assembly",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Netronix disclosure describing its role in the Kobo Forma project with Rakuten Kobo and E Ink."
+    },
+    {
+      "source_id": "src-0a768700f26234149412",
+      "title": "振曜科技 Netronix 供應鏈調查：Kobo、MooInk、BooksPad 背後的電子紙 ODM",
+      "url": "https://www.readwithpro.com/blog/netronix-ereader-odm-supply-chain",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Section: 主要幫哪些品牌做機器？",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Asserts Kobo is the largest customer by shipment volume, but does not state the measurement period or fully define the customer cohort and denominator."
+    },
+    {
+      "source_id": "src-c42287706c323b9ae6b1",
+      "title": "振曜科技持續佈局彩色閱讀器 豐富閱讀體驗",
+      "url": "https://www.netronixinc.com/news_01.aspx?ID=105&type",
+      "source_level": 3,
+      "publication_date": "2020-10-13",
+      "effective_period": "2020 Kobo Forma e-reader project",
+      "locator": "Project description identifying Netronix's manufacturing role",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms a specific Kobo manufacturing collaboration only; it does not rank Kobo against other customers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official support for the Rakuten affiliation and a Kobo manufacturing project, but no reliable, period-specific disclosure resolving the largest-customer ranking. The ranking remains UNKNOWN.",
+    "The official Netronix disclosure concerns one Kobo Forma project and cannot by itself establish customer primacy.",
+    "The secondary shipment-ranking statement lacks a clear time period and defined comparison denominator; it does not establish largest customer by revenue."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6143/158/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "e139374f59ca80b68fcd86069f95185dde34914a2a6d37a347732ce703c5b853",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6143/158/isolated-prompt.txt",
+  "prompt_sha256": "0e72508f4f157b8a1ba8ee6bcbe6a4d8ccb2b5a8c43729e4cfcd5e2c87d8b6e5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000158/manifest.json",
+  "supersedes_manifest_sha256": "2f61025ccd17ae28a036a07594cdfecd90ae942e22d82bd726b0c4c4d70eb2a9",
+  "corrected_at": "2026-10-08T09:57:50Z"
+}

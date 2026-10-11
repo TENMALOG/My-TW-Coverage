@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001165",
+  "claim_id": "5534:profitability_assertion:10c8420d0242f966",
+  "normalized_claim_hash": "10c8420d0242f9660c84b419ae2b396166427daaebd0e2eac4a344dfd17c2c60",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5c457158759792baff34",
+      "title": "長虹建設股份有限公司公開說明書（114年度現金增資發行新股暨國內第四次）",
+      "url": "https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4CT3AKGsKFQPWXrpPCAOrHNGVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "產品規劃方向；營收分類為2023及2024年度",
+      "locator": "PDF第30頁， lines 1661–1681",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司公開說明書列出工商業大樓（辦公室、廠辦大樓）、住宅大樓等產品，並稱將持續推出住宅及廠辦大樓、規劃高級住宅及智慧型廠辦。"
+    },
+    {
+      "source_id": "src-284421984ee8fb968329",
+      "title": "長虹建設股份有限公司公開說明書（114年度現金增資發行新股暨國內第四次）",
+      "url": "https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4CT3AKGsKFQPWXrpPCAOrHNGVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023–2024年度",
+      "locator": "PDF第30頁， lines 1662–1674",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示不動產出租收入占總營收比重：2023年度2.38%、2024年度2.11%。此為公司整體出租收入，不是商辦／廠辦項目現金流或其穩定性證據。"
+    },
+    {
+      "source_id": "src-ce1a4592ee5878d1ebf6",
+      "title": "長虹建設股份有限公司公開說明書（114年度現金增資發行新股暨國內第四次）",
+      "url": "https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4CT3AKGsKFQPWXrpPCAOrHNGVqShCBbmcV5ZZEQjxM7OGrotMHKIhGc6lE66OFc13qIzFwQxt3jaoO_i0494XfLJ4B8k7UxoWxQ",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司整體財務資料包括2023–2024年度",
+      "locator": "PDF第80頁， lines 4375–4386；PDF第30頁， lines 1661–1681",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財務績效表為公司整體營收、成本及毛利，產品分類頁列示產品但未按商辦／廠辦披露毛利率；不能據此確認特定產品的「高毛利」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司公開說明書並以聚焦查詢尋找「穩定現金流」及廠辦／商辦毛利相關佐證。剩餘主張缺少產品別現金流與毛利率證據，依證據範圍要求保留為UNKNOWN。",
+    "主要依據為公司公開說明書；其產品規劃可支持住宅與廠辦並行，但沒有明確採用「雙軌」一詞。",
+    "出租收入占公司整體營收比重不等於商辦／廠辦帶來的現金流，也不能單獨證明現金流穩定。",
+    "未找到按商辦／廠辦產品拆分的毛利率或可核實的「高毛利」比較基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5534/1165/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f4dd707a9e95efa4db74ad039c7ec8ab7857861ba835c08e157bddff95a90094",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5534/1165/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "d9d52e72c1f424f169e5b4dd9c9b339111db6b648aafb9309d7dda490488a382",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001165/manifest.json",
+  "supersedes_manifest_sha256": "ff49dace3012526d525b685de4eb88d6139a23e35c71bef9b88a451f46593689",
+  "corrected_at": "2026-10-08T09:59:25Z"
+}

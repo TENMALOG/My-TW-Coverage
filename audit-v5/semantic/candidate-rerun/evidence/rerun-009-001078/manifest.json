@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001078",
+  "claim_id": "6114:material_named_relationship:95a80caca976facc",
+  "normalized_claim_hash": "95a80caca976facc6325044821e86a3129a632b84e5cd72441a2aa9f745ce69d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f0863519abbeed06860e",
+      "title": "久威國際股份有限公司109年度年報",
+      "url": "https://www.juic.com.tw/mdb/docs/524/5241_110.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年度（民國109年）",
+      "locator": "年報印刷頁56–57，競爭利基及發展因素",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報討論客戶、產品加工與中國消費型電子品牌客戶拓展，但未將進入具名客戶供應鏈歸因於精準供應鏈管理。"
+    },
+    {
+      "source_id": "src-cd4b37400fe0c7387d8a",
+      "title": "蘇州世華新材料科技股份有限公司招股說明書（新浪財經所載）",
+      "url": "https://money.finance.sina.com.cn/corp/view/vISSUE_RaiseExplanationDetail.php?id=6626497&stockid=688093",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017–2019年度",
+      "locator": "「通過各主要客戶向蘋果供貨情況」章節，頁碼標示1-1-160及後續銷售表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "申請人披露其透過久威國際等客戶，以 Apple 認證模式向 Apple 供貨；屬於該申請人的原始上市申請披露，不是久威自行披露。"
+    },
+    {
+      "source_id": "src-b1c26c4f1793216c0ab7",
+      "title": "久威國際股份有限公司109年度年報",
+      "url": "https://www.juic.com.tw/mdb/docs/524/5241_110.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年度（民國109年）",
+      "locator": "年報印刷頁57，發展遠景之有利因素",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露公司積極開發中國消費型電子品牌客戶並與其重要零組件供應鏈合作；沒有確認具名大型 EMS 客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪定向檢索。歷史 Apple 供應鏈路徑有文件支持；管理能力的因果歸屬及中國大型 EMS 關係仍缺乏明確證據。最新年報 PDF 連結逾時，故未以未核實內容推斷。",
+    "Apple相關證據來自另一家公司的上市申請文件，支持的是透過久威向 Apple 供貨的歷史供應鏈路徑，不等同於久威直接向 Apple 銷售，也不能證明現時合作狀態。",
+    "久威2020年年報所述中國消費型電子品牌客戶及其零組件供應鏈，與「中國大型電子製造服務商」不是可互換的客戶類別。",
+    "久威2025年度年報的交易所文件連結顯示於2026-05-29申報；嘗試開啟 PDF 時逾時，因此未能核查其中是否有最新具名客戶披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6114/1078/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f4d6c6ca7c35ca4d1f2bd2be78c6ccd9bf706f85ae19dcebb375f2bb64c9e61b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6114/1078/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "6a03f41fb3c9da7e5998c96636482c31152cc8cf0836da57e35f4fd8d3c2a9f0",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001078/manifest.json",
+  "supersedes_manifest_sha256": "89b6d4c860f0c341cf36ef8679ff65a218c423828ac3b008f7111fbbd1c73a9d",
+  "corrected_at": "2026-10-08T09:59:15Z"
+}

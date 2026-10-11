@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000417",
+  "claim_id": "6629:objective_ranking_or_market_share:6df22dec22cccf22",
+  "normalized_claim_hash": "6df22dec22cccf22ec264070a7c07623a3c858071a48fa8af09f431fe8331c56",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-894f7fd8a6e8467f",
+      "title": "Inter IKEA Holding B.V. Annual Report FY24",
+      "url": "https://www.inter.ikea.com/-/media/interikea/igi/financial-reports/fy24-financial-reports/inter-ikea-holding-bv-annual-report-fy24.pdf?rev=1890896b6f86458e9020b75754d69e16",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "12-month period ended 31 August 2024",
+      "locator": "Pages 3–4, Management Board report, sections “Retail Concept,” “Range,” and “Supply”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the IKEA brand, the home-furnishing product range, and IKEA Industry's furniture production."
+    },
+    {
+      "source_id": "src-fd6b8b52277ae4b9",
+      "title": "Gross profit of IKEA globally 2025 | Statista",
+      "url": "https://www.statista.com/statistics/241801/gross-profit-of-ikea-worldwide",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025",
+      "locator": "Section “IKEA's brand value”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Statista says IKEA was the world's most valuable furniture retailer brand in 2025, valued at about US$25.7 billion. This is a specific brand-value ranking of furniture retailer brands, not proof of an unspecified “largest furniture brand” ranking."
+    },
+    {
+      "source_id": "src-702a03f99beee19d",
+      "title": "IKEA continues to lower prices for customers",
+      "url": "https://www.ikea.com/global/en/newsroom/corporate/ikea-retail-sales-fy24-241010/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY24",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "IKEA reports FY24 total retail sales of EUR 45.1 billion across its franchisees, including products, food, and services. It does not compare IKEA with other brands or establish a furniture-only denominator."
+    },
+    {
+      "source_id": "src-4f09ef1e2ef81794",
+      "title": "Ikano Retail FY24 Annual Report",
+      "url": "https://www.ikea.com/sg/en/newsroom/corporate-news/our-year-ikano-retail-fy24-annual-report-pub268f1130",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY24",
+      "locator": "Section “About IKEA Singapore”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls IKEA the world's largest home furnishing retailer and gives store and country counts. Retailer status and those scale indicators do not establish that IKEA is the world's largest furniture brand under the claim's unspecified metric."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks found relevant official and secondary evidence but no evidence resolving the original claim's undefined ranking metric and period. Further substitution of retailer size or brand value for the unqualified wording would exceed the evidence.",
+    "The original claim does not specify a measurement, comparator set, denominator, or period.",
+    "The closest global ranking found is a 2025 brand-value ranking for furniture retailer brands; it is narrower than the original wording.",
+    "The official IKEA source located describes IKEA as the largest home furnishing retailer, which is not interchangeable with a furniture-brand ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6629/417/hermes-attempt-1.stdout.txt"
+}

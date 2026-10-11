@@ -1,0 +1,38 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000037",
+  "claim_id": "1524:objective_ranking_or_market_share:7bfdfa0fb2fba733",
+  "normalized_claim_hash": "7bfdfa0fb2fba7334dc6779cdcf48b3f6347640e8bcf23f1bd617281cd649d06",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "gordon-2023-annual-report",
+      "title": "耿鼎企業股份有限公司112年度年報",
+      "url": "https://www.gordon.com.tw/pdf/annual/2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度；沿革記載2016年LKQ供應商獎。",
+      "locator": "PDF第9頁記載2016年獲LKQ Supplier Appraisal Award；PDF第55頁稱耿鼎為北美AM鈑金件供應商之一；第59頁最大銷貨客戶代號A占24.66%，未具名。",
+      "source_sha256": "ee1697d67c23a1b946717928204cefe802762833af0032dc8f6ffd5294f18d6c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1524/37/gordon-annual-report-2023.pdf",
+      "note": "可支持歷史LKQ供應商關係及耿鼎自身的北美供應地位，不能證明LKQ為現行最大客戶或北美市場排名。"
+    },
+    {
+      "source_id": "lkq-2025-form-10k",
+      "title": "LKQ Corporation 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "截至2025-12-31財年。",
+      "locator": "Item 1稱LKQ North America為alternative vehicle collision replacement products、paint/body repair產品等的leading provider，覆蓋美國及加拿大主要市場；未專門宣稱其為AM sheet metal市場第一名或提供細分市場排名。",
+      "source_sha256": "f1429b846dfb35c1ac28ed66f15de648ced3f6efa35870621af5eadc98c073da",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1524/37/lkq-2025-form-10k.html",
+      "note": "可支持LKQ對自身較廣泛的北美替代碰撞件業務使用leading provider定位，不能擴張為AM鈑金單一細類的第一名。"
+    }
+  ],
+  "search_notes": [
+    "分拆客戶身分與LKQ自身在北美碰撞件業務的市場定位。",
+    "耿鼎112年報記載2016年獲LKQ供應商獎；2023年最大客戶以代號A披露，實名未公開。",
+    "LKQ 2025 Form 10-K稱其為北美替代車輛碰撞件等業務的leading provider，但沒有把排名細化為AM鈑金件或宣稱絕對第一。"
+  ]
+}

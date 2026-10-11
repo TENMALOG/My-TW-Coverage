@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001247",
+  "claim_id": "5009:profitability_assertion:b8037559961325d8",
+  "normalized_claim_hash": "b8037559961325d829c4106c524a6b2ac74b88368dfc15064e9fd1db571ad363",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8b013a2c8154587b",
+      "title": "航太/國防需求強，榮剛、精剛營運看旺",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=fa5ba91d-1186-4e78-9785-7dada9092f5c",
+      "source_level": 2,
+      "publication_date": "2022-11-22",
+      "effective_period": "2022年第3季；文中另述2022年9月以來接單占比",
+      "locator": "正文中段：「航太、石化、能源三大高毛利產品線」及三類合計出貨、接單占比",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確支持「三大高毛利產品線」這一表述；報導引述法人觀點，屬二手來源。"
+    },
+    {
+      "source_id": "src-a7f6f28e2ef04092",
+      "title": "榮剛新產能遞延，限制營運成長力道",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=91905602-c0de-42b2-a1c5-65d09f39aa74",
+      "source_level": 2,
+      "publication_date": "2025-07-28",
+      "effective_period": "2025年第1季產品／接單結構",
+      "locator": "正文第1段：「高毛利率的航太、油氣與能源」及第1季產品區分",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較近期佐證航太、油氣、能源三類仍被描述為高毛利訂單類別；文中稱相關接單產品結構占比逾60%，屬二手報導。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到直接支持原句的來源及較近期佐證；未達8次研究上限，且未發現足以推翻原句的證據。",
+    "明確使用「三大高毛利產品線」的直接來源為二手新聞報導，並非公司或監管機關的一手披露。",
+    "來源對第三類的稱呼有「石化」與「油氣」差異；本 claim 未列明三類名稱。",
+    "來源未界定高毛利的量化門檻，也未披露各類別的獨立毛利率；相關占比是接單或出貨的三類合計比例。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5009/1247/hermes-attempt-1.stdout.txt"
+}

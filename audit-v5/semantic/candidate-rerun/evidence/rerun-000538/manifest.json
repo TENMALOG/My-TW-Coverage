@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000538",
+  "claim_id": "2423:objective_ranking_or_market_share:89e017344f0a4685",
+  "normalized_claim_hash": "89e017344f0a46856136ae0985e73db6412007b81a702a26f77fe2cc3143572c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8918850162f7a6f8",
+      "title": "固緯電子－關於固緯",
+      "url": "https://www.gwinstek.com/zh-TW/about_gw/index",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於固緯」公司簡介，全球據點及產品行銷敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁載明「產品行銷服務全球80餘國」。"
+    },
+    {
+      "source_id": "src-3e11de23f0853f11",
+      "title": "固緯電子實業股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=b7197ecf-ea6f-4a49-ac04-55d04e3081e5",
+      "source_level": 2,
+      "publication_date": "2026-08-31（頁面更新日）",
+      "effective_period": null,
+      "locator": "「公司簡介－沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱其為「台灣綜合測試儀器的龍頭」，但未提供排名指標或市場分母；措辭也不等同於可量化的最大製造商排名。"
+    },
+    {
+      "source_id": "src-8d65b89ec6f3083a",
+      "title": "用性價比與多樣選擇闖出一片天－固緯電子 電子儀器的隱形冠軍",
+      "url": "https://itbs.org.tw/ceo/photo14.aspx",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章開頭公司介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱其為台灣最大、亞洲第三大的通用電子儀器領導廠商，但未見排名方法、分母或可確認的出版日期，不能據此核驗原文所指的現況排名。"
+    },
+    {
+      "source_id": "src-49ba27ff3bbdd084",
+      "title": "About GW Instek",
+      "url": "https://www.gwinstek.com/en-global/about_us/index",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方英文頁載明產品銷售至全球80多個國家。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱固緯官方中英文公司簡介及排名相關二手資料；現有來源未提供足以核驗「台灣最大」的排名口徑、分母和期間，因此該原子主張維持UNKNOWN。",
+    "成立年份及國家數的主要證據為公司官方自述；官方頁未標示發布日期或國家數的統計基準日。",
+    "「台灣最大」有公司自述及二手資料中的近似描述，但未找到明確市場定義、排名指標、分母或可核驗的當期比較資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2423/538/hermes-attempt-1.stdout.txt"
+}

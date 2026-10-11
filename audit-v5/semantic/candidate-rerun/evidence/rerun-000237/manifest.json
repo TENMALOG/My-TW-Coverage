@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000237",
+  "claim_id": "5904:objective_ranking_or_market_share:1c808dde25b1f8c1",
+  "normalized_claim_hash": "1c808dde25b1f8c146cb50d141b7b355486625f3cfa38115479e2d6cd86fdad1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-cd70a3ffc7358197",
+      "title": "公司簡介－投資人專區－寶雅 POYA",
+      "url": "https://www.poya.com.tw/investor/43/223",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile; page undated.",
+      "locator": "Company profile table: 地址 台南市民族路三段74號.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer disclosure; confirms the company’s listed address is in Tainan."
+    },
+    {
+      "source_id": "src-2992dcfedf6f8ff2",
+      "title": "POYA — Corporate Overview",
+      "url": "https://www.poya.com.tw/investor/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Issuer describes its ranking as current; page undated.",
+      "locator": "About POYA section: “currently ranked as No. 1 beauty and grocery channel.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer self-description; no market denominator, metric, or ranking period is supplied."
+    },
+    {
+      "source_id": "src-6fbed1ae3041ed32",
+      "title": "【商業數據圖解】2024台灣「零售與電商」產業市佔率英雄榜",
+      "url": "https://www.mirai.com.tw/2024-taiwan-retail-and-e-commerce-industry-market-share-rankings",
+      "source_level": 2,
+      "publication_date": "2025-07-22",
+      "effective_period": "2024",
+      "locator": "美妝藥局零售業 section; POYA listed first with 11.1% share.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The reported denominator is the beauty-and-pharmacy retail industry, with market share based on companies’ Taiwan annual revenues; it does not establish the narrower claimed specialty-channel ranking."
+    },
+    {
+      "source_id": "src-cb94a060cf670798",
+      "title": "寶雅國際股份有限公司民國114年度及113年度財務報告暨會計師查核報告",
+      "url": "https://www.poya.com.tw/investor_template-detail/13/884",
+      "source_level": 3,
+      "publication_date": "2026-02-23",
+      "effective_period": "2025-01-01 to 2025-12-31",
+      "locator": "Report cover/header: company address 臺南市民族路三段74號.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer financial report; states company address, not an explicit headquarters designation."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對 issuer 公司資料、企業簡介與年度財務報告，並查閱一項具市場定義的2024年外部零售市佔分析；仍無法確認原 claim 所稱生活百貨及美妝專賣通路的精確比較市場與排名分母，因此將排名 atoms 保留為 UNKNOWN。",
+    "公司識別、業務範圍及台南地址由 issuer disclosures 支持；地址資料本身並未明確使用「總部」一詞。",
+    "「No. 1 beauty and grocery channel」是公司自述，沒有披露可核對的市場分母、排名指標或有效期間。",
+    "外部2024年市佔資料的市場定義是「美妝藥局零售業」，與原 claim 所稱生活百貨及美妝專賣通路並不完全相同。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5904/237/hermes-attempt-1.stdout.txt"
+}

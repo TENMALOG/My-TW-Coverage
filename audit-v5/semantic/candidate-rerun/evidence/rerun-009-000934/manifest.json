@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000934",
+  "claim_id": "5353:material_named_relationship:7c785d294ea73984",
+  "normalized_claim_hash": "7c785d294ea73984f9476986a134011134eedb5756ba7ba4a4900da919d4acce",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d52f24766f15b53e0158",
+      "title": "台林電通董事 陳俊廷十年磨一劍 為台林電通成功轉型",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=2&nsl_id=0b3ea1fcc2134689a2af997ce3a501ef",
+      "source_level": 2,
+      "publication_date": "2023-01-16",
+      "effective_period": "報導回溯自2013年合作，描述截至報導時的關係",
+      "locator": "導言及「攜Gogoro切入電動摩托車商機」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "產科國際所頁面載有工商時報報導；報導引用台林董事長陳俊廷的說法。"
+    },
+    {
+      "source_id": "src-57a007ce1e5872b38ce6",
+      "title": "台林電通(5353) 113年法人說明會",
+      "url": "https://www.tailyn.com.tw/media/f/83e36530cd74f067a491aa88d5c0231f.pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-16",
+      "effective_period": null,
+      "locator": "第11頁「車用電子產品製造經驗」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出MCU／馬達控制器、ECU／電控系統等產品類別，但未指名 Gogoro，也未揭露獨家供應關係。"
+    },
+    {
+      "source_id": "src-5dc7b6ac203e60299df7",
+      "title": "台林電通董事 陳俊廷十年磨一劍 為台林電通成功轉型",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=2&nsl_id=0b3ea1fcc2134689a2af997ce3a501ef",
+      "source_level": 2,
+      "publication_date": "2023-01-16",
+      "effective_period": "報導回溯自2013年合作，描述截至報導時的關係",
+      "locator": "導言及「攜Gogoro切入電動摩托車商機」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明台林製造 Gogoro 的馬達控制器並為策略夥伴；未稱台林為獨家或唯一供應商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對台林、Gogoro、馬達控制器及獨家／唯一供應的中文檢索，並查閱台林法人說明會材料及 Gogoro 披露。找到歷史MCU製造關係證據，未找到能確認獨家供應、產品範圍或目前供應狀態的可靠來源；因此未將缺乏披露視為反證。",
+    "支持製造關係的來源是2023年工商時報報導，非供應合約或具名的 Gogoro 供應商公告。",
+    "台林2024年法人說明會簡報證明其列有相關車用電子產品類別，但未確認 Gogoro 客戶關係或排他性。",
+    "「電控模組」的範圍未被原 claim 界定；來源具體提到的是馬達控制器（MCU）。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5353/934/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ec3dc19c30a5bdb8a190a60889119e0be84f12d7f81b4903450c667f000925e1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5353/934/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "7a156fab869c3093da8c2964e69d89c1e97985b603745459371f7e65d4586576",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000934/manifest.json",
+  "supersedes_manifest_sha256": "4d70009d99dd5ff4199224e8bc704f87f34eba36bd7041d9b2898f7e6a726a9e",
+  "corrected_at": "2026-10-08T09:59:00Z"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000416",
+  "claim_id": "6629:objective_ranking_or_market_share:a8ac715de8b715a0",
+  "normalized_claim_hash": "a8ac715de8b715a0ba320de418355ada77b3db7de1dc2dd2ac21840679379728",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ab2ddbb611f3d7f3",
+      "title": "The Home Depot, Inc. 2024 Annual Report / Form 10-K",
+      "url": "https://sec.gov/Archives/edgar/data/354950/000035495025000125/thd2024ars.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-20",
+      "effective_period": "Fiscal 2024, ended 2025-02-02",
+      "locator": "Form 10-K, Item 1—Business, opening company overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The filing describes Home Depot as the world’s largest home-improvement retailer based on net sales for fiscal 2024. This is an issuer statement with a narrower category and a worldwide, not U.S. mass-retail, scope."
+    },
+    {
+      "source_id": "src-8662a6dcfbd07523",
+      "title": "櫃買中心電子報：新上櫃公司介紹—泰金投資控股股份有限公司",
+      "url": "https://nweb.tpex.org.tw/tpex168/newstar_1.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Company profile references capital as of 2019-06-30",
+      "locator": "泰金投資控股股份有限公司 profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Home Depot among 泰金’s major customers, but provides no U.S. retail ranking, market definition, or ranking measure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official issuer and TPEX sources found support only for the narrower FY2024 home-improvement-retailer description. The original U.S. mass-retail scope and ranking denominator remain unresolved, so no broader inference is made.",
+    "The exact claim’s market category, period, and ranking measure or denominator are not specified.",
+    "The closest official ranking evidence is Home Depot’s own statement about the home-improvement retail category, not the broader U.S. mass-retail channel category.",
+    "The TPEX profile supports Home Depot’s identification as a 泰金 major customer, not the ranking assertion."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6629/416/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000456",
+  "claim_id": "2851:objective_ranking_or_market_share:5019a1f91c5268c9",
+  "normalized_claim_hash": "5019a1f91c5268c9b04f99c384746903561f2944a09177cd6cee7dd3d8663f1a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-689f20be12bcc58e44a7",
+      "title": "中央再保險公司114年法人說明會中文簡報",
+      "url": "https://www.centralre.com/content/information/douc/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E4%B8%AD%E5%A4%AE%E5%86%8D%E4%BF%9D114%E5%B9%B4%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E4%B8%AD%E6%96%87%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "2025年法人說明會披露時點",
+      "locator": "第5、8頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第5頁列明公司承作國內外保險業財產及人身再保險；第8頁稱國內有3家再保業者，另兩家為外商分公司。"
+    },
+    {
+      "source_id": "src-650b3484783a20b2e6e8",
+      "title": "中央再保險公司114年法人說明會中文簡報",
+      "url": "https://www.centralre.com/content/information/douc/%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/%E4%B8%AD%E5%A4%AE%E5%86%8D%E4%BF%9D114%E5%B9%B4%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83%E4%B8%AD%E6%96%87%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "2025年法人說明會披露時點",
+      "locator": "第8、30頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第8頁列出全球主要大型再保險人也是國內市場主要供給者；第30頁僅稱公司有穩健的國內市場地位，未量化市場集中度或寡占程度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方法人說明會及監理機關相關資料；未找到可判定國內再保市場集中度或市場份額的可比數據，故第二項維持UNKNOWN並停止研究。",
+    "市場結構及本土業者身分的依據是公司自己的法人說明會簡報；簡報未提供獨立核驗的市場份額或集中度數據。",
+    "「本土唯一」限於簡報所列再保險業者分類，不能據此推導台灣市場由中再保單獨主導；簡報同時指出全球大型再保險人也是國內市場供給者。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2851/456/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5a3b483555891bdacfa0f22fcf2bed4c3ca8a042084c33c0d8b182040a83d40c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2851/456/isolated-prompt.txt",
+  "prompt_sha256": "f7c8e16ac2cbf5738dc89b213a80e3bf34083b7cf6a73de64f02be20b90e2200",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000456/manifest.json",
+  "supersedes_manifest_sha256": "e18e1d35a32177a461c717ddd91201afdbe07fedc864244e1832f8e2e278b23c",
+  "corrected_at": "2026-10-08T09:58:14Z"
+}

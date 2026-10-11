@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000437",
+  "claim_id": "6192:objective_ranking_or_market_share:7b53b3873666c020",
+  "normalized_claim_hash": "7b53b3873666c02067abfc6ec372919445bc8fd90b10529fb7101c80ed3aafd2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6bddb79542990a3e",
+      "title": "公司簡介 - 巨路國際股份有限公司",
+      "url": "https://www.elumax.com/about/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「核心價值」段落，客戶群介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出包括台積電在內的客戶，但未提供客戶排名或程控客戶名單。"
+    },
+    {
+      "source_id": "src-7380297d1f771d3b",
+      "title": "巨路前三季EPS逾7元 同期新猷",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?nsl_id=f0807a2aa87b4a4b95d1ee3a6d15aee5",
+      "source_level": 2,
+      "publication_date": "2024-11-12",
+      "effective_period": "2024年前三季及報導時點",
+      "locator": "文末業務組合段：「進一步細分產業別」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱半導體產業比重約30%，屬產業別資訊，不能替代台積電個別客戶占比；具體分母表述亦有歧義。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依使用者指示，在達到工具呼叫迭代上限後停止研究；排名與個別客戶營收占比仍缺乏可核實資料。",
+    "公司官網支持台積電是巨路客戶，但未確認其為程控業務客戶。",
+    "2024年二手報導中的約30%指半導體產業業務比重，不能轉作台積電客戶占比或排名證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6192/437/hermes-attempt-1.stdout.txt"
+}

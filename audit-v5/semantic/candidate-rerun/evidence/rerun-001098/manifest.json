@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001098",
+  "claim_id": "6775:material_named_relationship:a052379ee5b663df",
+  "normalized_claim_hash": "a052379ee5b663dfd309022512258953745f3df523ea4a2700ec7907f91ad778",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4ff013d26b5611ee",
+      "title": "穎台Mini LED大出擊　擴大應用面與產品線",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000593489_SVK33CXF9I5LD78UA4NQG",
+      "source_level": 2,
+      "publication_date": "2020-09-11",
+      "effective_period": "2020",
+      "locator": "Article opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports introduction to a gaming brand and stable mass production for high-end gaming notebooks. No customer name, unit count, or market-share denominator is stated."
+    },
+    {
+      "source_id": "src-efff42c3efd64539",
+      "title": "Mini LED — 穎台科技股份有限公司",
+      "url": "https://www.entire.com.tw/m/412-1812-1044.php?Lang=zh-tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product page accessed 2026-10-07; page does not state a supply period",
+      "locator": "Mini LED section, diffuser-plate specifications and applications",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer lists diffuser-plate products for various Mini LED backlight modules. It does not state stable supply, supplier count, or Taiwan market position."
+    },
+    {
+      "source_id": "src-a07e79656f752c7b",
+      "title": "4年前股價跌剩1/9黯然下市　穎台手握祕密武器，要演上市復仇記！",
+      "url": "https://www.businesstoday.com.tw/article/category/80392/post/202005280021/",
+      "source_level": 2,
+      "publication_date": "2020-05-28",
+      "effective_period": "Reported in May 2020",
+      "locator": "Mini LED diffuser discussion, paragraph beginning「據悉」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that a 17.3-inch MSI gaming notebook with Mini LED used 穎台's microstructured diffuser plate. The report is secondary and does not quantify shipments."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成聚焦檢索並核對歷史媒體報導與公司現行產品頁。歷史電競筆電導入有支持；未找到可驗證截至2026年台灣供應商相對數量及穩定供貨狀況的證據，因此該現況原子維持 UNKNOWN。",
+    "有關供應商相對地位、穩定量產及筆電導入的具體證據來自2020年媒體報導，不是現行公司年報或監管申報中的確認。",
+    "公司現行產品頁支持其列有 Mini LED 擴散板產品，但不能替代對穩定供貨或台灣供應商數量的證據。",
+    "電競筆電供應鏈的支持為歷史性設計導入／產品採用報導；沒有據此推斷目前仍供貨、累計出貨量或市場占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6775/1098/hermes-attempt-1.stdout.txt"
+}

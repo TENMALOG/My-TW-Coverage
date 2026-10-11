@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000257",
+  "claim_id": "7750:objective_ranking_or_market_share:f2879969d03c99dd",
+  "normalized_claim_hash": "f2879969d03c99ddbbf08c42c32baefa821bad8341f75b6a32918f01435292ef",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f5e88687fae4600d",
+      "title": "公司概況資料表 — 新代科技股份有限公司（股票代號：7750）",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2024/06/1717493865_17844_CH_7750.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 company-profile filing; statement has no stated measurement period",
+      "locator": "公司簡介，第一段：『為亞太市場領導品牌』；同段列出機床控制器系統為主力產品。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official exchange-hosted filing, but the profile states that the information was supplied by the company and its recommending securities firms. It is a qualitative self-description, not an independently substantiated market ranking."
+    },
+    {
+      "source_id": "src-02a1e6dc52e9c002",
+      "title": "把機器人當配件賣！機械工具機股王「新代」，如何從一顆控制器打進整座工廠？",
+      "url": "https://www.bnext.com.tw/article/91977/syntec-2026-q2",
+      "source_level": 2,
+      "publication_date": "2026-08-25",
+      "effective_period": "2025 market-share estimate",
+      "locator": "Article opening discussion of China market; states that, according to the company’s estimate, its 2025 share of the China controller market was about 23%.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reputable secondary report attributing the estimate to the company; it does not disclose the market-share calculation, unit/value basis, or underlying dataset."
+    },
+    {
+      "source_id": "src-4184caa603b8afd6",
+      "title": "CNC數控國家隊先行 貫通雲端產服生態系",
+      "url": "https://ctimes.com.tw/DispArt-tw.asp?O=HK4566F6FVMARASTD0",
+      "source_level": 2,
+      "publication_date": "2020-05-06",
+      "effective_period": "Market description reported in 2020",
+      "locator": "Section「新代下一個5年計畫 力促產業及區域市場分散」; identifies Guangzhou CNC and FANUC as the companies ahead of Syntec.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Dated secondary reporting; does not establish a present-day ranking or market-share methodology."
+    },
+    {
+      "source_id": "src-20cb077cfe3cf999",
+      "title": "【工具機興櫃奇兵1】研發工具機關鍵「大腦」 新代科技磨劍29年拚明年上市",
+      "url": "https://www.ftnn.com.tw/news/249502",
+      "source_level": 2,
+      "publication_date": "2024-06-13",
+      "effective_period": "Company statements reported at a 2024-06-12 media event",
+      "locator": "Market discussion; reports about 20% share each for Syntec and FANUC, and about 20% for Guangzhou CNC.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "This account does not identify Siemens as the sole other company ahead of Syntec or supply a formal ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱官方公司概況資料、發行人相關頁面及多個針對中國市佔與排名的來源；找到可歸因於公司的2025年約23%估計，但沒有能解決未注明期間之中國排名及其口徑的同期間可靠證據。停止進一步擴展搜尋，排名原子保留為UNKNOWN。",
+    "公司概況資料中的「亞太市場領導品牌」是公司提供的定性描述，沒有獨立排名或市場分母。",
+    "2025年約23%的中國控制器市場市佔是媒體轉述的公司估計；市場範圍、單位或銷售額口徑及計算方法均未披露。",
+    "中國排名相關報導屬不同年份的二手資料，並未以一致的產品範圍、分母或排名方法作比較；全球排名不能替代中國市場排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7750/257/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000995",
+  "claim_id": "6958:identity_changing_event:7e0c30264a02b91a",
+  "normalized_claim_hash": "7e0c30264a02b91ae8f3abb467f01850549517c7f411a7768a2aae5e0f4a358c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-69a3c72dd3294541",
+      "title": "新上市公司：日盛台駿(6958)",
+      "url": "https://www.twse.com.tw/market_insights/zh/preview/8a8216d6913637e401916849a9de00c0",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 issuer profile; publication date not displayed",
+      "locator": "Line 10",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TWSE states paid-in capital of NT$35.12億元. ([twse.com.tw](https://www.twse.com.tw/market_insights/zh/preview/8a8216d6913637e401916849a9de00c0))"
+    },
+    {
+      "source_id": "src-21c28e9439018a4c",
+      "title": "企業沿革 - 日盛台駿國際租賃",
+      "url": "https://www.inftfinance.com/tw/AboutUs/ugC_Company.aspx?ID=3",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "December 2022",
+      "locator": "Lines 101–105",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer chronology records the merger with 臺灣工銀租賃 and renaming. ([inftfinance.com](https://www.inftfinance.com/tw/AboutUs/ugC_Company.aspx?ID=3))"
+    },
+    {
+      "source_id": "src-4f0f8519a0c8dfbc",
+      "title": "日盛台駿國際租賃(股)公司於112年12月28日送件申請股票上市",
+      "url": "https://investoredu.twse.com.tw/Mobile_Pages/../FileSystem/FileUpload/fa78278b-30fa-454f-bd95-43ea9ee126d5.pdf",
+      "source_level": 3,
+      "publication_date": "2023-12-28",
+      "effective_period": "Paid-in capital stated in the 2023 listing application notice",
+      "locator": "Page 1, lines 3–10",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TWSE's application notice lists paid-in capital as NT$3,511,931 thousand, consistent with approximately NT$35.12億元. ([investoredu.twse.com.tw](https://investoredu.twse.com.tw/Mobile_Pages/..%2FFileSystem%2FFileUpload%2Ffa78278b-30fa-454f-bd95-43ea9ee126d5.pdf))"
+    },
+    {
+      "source_id": "src-b0276c56bd4f003f",
+      "title": "日盛台駿國際租賃股份有限公司股票自113年8月20日開始上市買賣",
+      "url": "https://investoredu.twse.com.tw/Mobile_Pages/../FileSystem/FileUpload/3f27400d-89c1-4f9f-a01d-c8d88f2905c5.pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-19",
+      "effective_period": "Trading began 2024-08-20",
+      "locator": "Page 1, lines 1–7 and 25–36",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official TWSE notice confirms the listing date and code 6958. ([investoredu.twse.com.tw](https://investoredu.twse.com.tw/Mobile_Pages/..%2FFileSystem%2FFileUpload%2F3f27400d-89c1-4f9f-a01d-c8d88f2905c5.pdf))"
+    },
+    {
+      "source_id": "src-1ffbff70417bd53e",
+      "title": "日盛台駿20日掛牌上市 簡志明：擴大東南亞綠能布局",
+      "url": "https://www.cna.com.tw/news/afe/202408200076.aspx",
+      "source_level": 2,
+      "publication_date": "2024-08-20",
+      "effective_period": "After the August 20, 2024 listing",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "CNA states that the listing brought the count to four and names the three existing listed leasing companies. ([cna.com.tw](https://www.cna.com.tw/news/afe/202408200076.aspx?utm_source=openai))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到TWSE及發行人官方資料核對沿革、資本額與上市日期，並以CNA核對上市租賃公司家數；剩餘關鍵字句的年代落差已由發行人沿革直接說明，無需再擴展搜尋。",
+    "TWSE的新上市公司介紹將1981年成立與日盛國際租賃前身的說法簡寫在一起； issuer沿革則明確記載1981年設立時名稱為國穎企業，1997年才更名為日盛國際租賃。",
+    "35.12億元為TWSE上市期公司介紹列示的實收資本額，不應解讀為目前資本額。",
+    "「第四家上市租賃股」依新聞對上市租賃公司的市場分類支持；它不是TWSE正式產業類別或具有明確規則的排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6958/995/hermes-attempt-1.stdout.txt"
+}

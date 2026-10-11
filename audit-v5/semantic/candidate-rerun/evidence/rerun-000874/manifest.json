@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000874",
+  "claim_id": "1336:material_named_relationship:060ea61467d8c536",
+  "normalized_claim_hash": "060ea61467d8c53661b940a7bb84d638e4e9894a525651573db1d1c154e532d6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f4f76a50066d3c12",
+      "title": "TaiHan Precision Technology, 2024 Annual Report",
+      "url": "https://www.thpt.com.tw/wp-content/uploads/2025/06/113%E5%B9%B4%E5%BA%A6%E5%8F%B0%E7%BF%B0%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-FINAL.pdf",
+      "source_level": 3,
+      "publication_date": "2025-06",
+      "effective_period": "FY2023",
+      "locator": "Section: 主要銷售客戶名單; printed p. 51",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Customer A at 62.25% for FY2023 and identifies Customer A as BROTHER."
+    },
+    {
+      "source_id": "src-d598460fdc4ff1b0",
+      "title": "TaiHan May revenue rises over 70%; second-half outlook improves (台翰5月營收年增逾七成，下半年營運看升)",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=63787637-667f-4f3d-9644-4363305054f5",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Around 2021; exact article publication date not verified",
+      "locator": "Article text discussing TaiHan's printer/MFP customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Epson among the company's major printer/MFP brand customers; secondary, period-specific evidence."
+    },
+    {
+      "source_id": "src-b825b7d11c0a2d84",
+      "title": "TaiHan annual reports page",
+      "url": "https://www.thpt.com.tw/invest_annual_reports/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Page lists a 2025 Annual Report",
+      "locator": "Annual reports listing",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms a 2025 report is listed, but its customer disclosure was not retrieved in this review."
+    },
+    {
+      "source_id": "src-a80e27315014e5e4",
+      "title": "TaiHan Precision Technology, 2018 Annual Report (107年度年報)",
+      "url": "https://www.thpt.com.tw/wp-content/uploads/2022/08/107%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2018 and Q1 2019",
+      "locator": "Section: 主要銷售客戶名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies EPSON as Customer D: 9.14% of sales in FY2018 and 10.64% through Q1 2019."
+    },
+    {
+      "source_id": "src-68a77a1744c28a7a",
+      "title": "TaiHan (1336): first-quarter EPS report (個股：台翰(1336)首季EPS 0.04元，估今年營運先蹲後跳)",
+      "url": "https://tw.stock.yahoo.com/news/%E5%80%8B%E8%82%A1-%E5%8F%B0%E7%BF%B0-1336-%E9%A6%96%E5%AD%A3eps-0-233902241.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Around 2020; exact article publication date not verified",
+      "locator": "Article text describing TaiHan's principal customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Canon, Epson, Brother, and Kyocera and describes them as Japanese printer/MFP brand companies."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped within the focused-research limit after reviewing issuer annual-report disclosures and historical corroboration. The 2025 annual report is listed by the issuer, but its customer disclosure was not retrieved; current-period status therefore remains unresolved.",
+    "The FY2024 annual report identifies Brother but aggregates other sales as “Other”; that aggregation does not prove the other named brands were absent.",
+    "The issuer's annual-report page lists a 2025 Annual Report, but its customer table was not retrieved, leaving the latest-period customer mix unresolved.",
+    "The 2020–2021 customer-name reporting is secondary and historical; it cannot by itself substantiate an undated present-tense relationship."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1336/874/hermes-attempt-1.stdout.txt"
+}

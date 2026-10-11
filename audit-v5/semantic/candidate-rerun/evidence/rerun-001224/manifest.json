@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001224",
+  "claim_id": "4768:material_named_relationship:2a1b1bc0ddbd85ff",
+  "normalized_claim_hash": "2a1b1bc0ddbd85ff1a8977a0d33ecb57d36bfcb2954de93b1ccc758d54784170",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-22ef94fc6880ef47",
+      "title": "藏在苗栗的護國群山　它從沒有明天到稱霸亞洲",
+      "url": "https://www.businessweekly.com.tw/Archive/Article?StrId=7005818",
+      "source_level": 2,
+      "publication_date": "2022-04-28",
+      "effective_period": "Relationship described as contemporaneous in 2022.",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports cylinders being sent to TSMC and UMC; no sales amount or customer-ranking denominator."
+    },
+    {
+      "source_id": "src-8aca9eedcaac3a94",
+      "title": "晶呈科技股份有限公司 114年度年報",
+      "url": "https://www.ingenteccorp.com.tw/Uploads/Images/%E6%99%B6%E5%91%882025%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-21",
+      "effective_period": "FY2025 product-application disclosure.",
+      "locator": "Printed p. 73; PDF p. 77, section on important uses of major products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly identifies Xe and Neon Mixture as semiconductor exposure excimer-laser gases."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of the issuer’s FY2025 annual report and relevant secondary reporting did not resolve Micron’s customer status, TSMC’s asserted major-customer scope or denominator, or CVD-specific use. Unresolved atoms remain UNKNOWN rather than inferred.",
+    "Named customer relationships for TSMC and UMC are supported by secondary reporting from 2022, not by a current named-customer issuer disclosure.",
+    "The issuer's FY2025 annual report reports sales amounts and percentages for anonymized customer codes; it does not map those codes to TSMC, UMC, or Micron.",
+    "The annual report distinguishes etching, layer-film, and exposure excimer-laser applications. It does not specifically name CVD."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4768/1224/hermes-attempt-1.stdout.txt"
+}

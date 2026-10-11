@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001099",
+  "claim_id": "6862:material_named_relationship:66e629f45464b976",
+  "normalized_claim_hash": "66e629f45464b976cf17d5f9a1c3ec2ccf9e5627db9a490f0788105f1e308409",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f81d6eb0b1917e8a",
+      "title": "三集瑞-KY 2024上市前業績發表會簡報",
+      "url": "https://zh-tw.trio.com.tw/uploadfiles/378/News/Investor-Conference/1130926%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2024-09-26",
+      "effective_period": "Full-year 2023 to 2024 H1",
+      "locator": "p.26, application-market table, lines 451-486",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Comparable AI-only category percentages are shown for 2023 and 2024 H1. ([zh-tw.trio.com.tw](https://zh-tw.trio.com.tw/uploadfiles/378/News/Investor-Conference/1130926%E7%B0%A1%E5%A0%B1.pdf))"
+    },
+    {
+      "source_id": "src-30b719450e30c615",
+      "title": "三集瑞-KY 2026年第一季法人說明會簡報",
+      "url": "https://zh-tw.trio.com.tw/uploadfiles/378/2026/6862-2026Q1-zht.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-28",
+      "effective_period": "2023 full year, 2024 full year, 2025 full year, and through April 2026",
+      "locator": "p.6, application-market table, lines 76-110",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The later comparison reports AI/server together (13.03%, 27.75%, 31.76%, and 35.56%); it does not provide a comparable AI-only series. ([zh-tw.trio.com.tw](https://zh-tw.trio.com.tw/uploadfiles/378/2026/6862-2026Q1-zht.pdf))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after reviewing issuer presentations spanning 2024-09 through 2026-05. These establish the historical AI-share figure and current product-stage distinctions, but do not disclose the named-platform mapping needed to resolve the remaining relationship atoms.",
+    "The 2024 15.49% figure is an AI-only application mix for 2024 H1; later issuer disclosures use combined AI/server or AI/automotive/server categories, which are not interchangeable.",
+    "The 2026 molded-TLVR initial delivery disclosure does not name the customer, platform, or product SKU.",
+    "GPU-board development cooperation with NVIDIA and AMD is described separately from TLVR product stages; the reviewed issuer materials do not connect that cooperation to the delivered molded TLVR."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6862/1099/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000807",
+  "claim_id": "2049:objective_ranking_or_market_share:1bbe1fedf9ba0664",
+  "normalized_claim_hash": "1bbe1fedf9ba06648fa224c6091889eb610cbd7d07b022983fbf8dad12735698",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-59175d6467aeb921",
+      "title": "Company Profile | HIWIN",
+      "url": "https://www.hiwin.tw/about_hiwin.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile，Global Headquarters: Taichung, Taiwan",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方公司簡介；未列出此資料的生效日期。"
+    },
+    {
+      "source_id": "src-e7a0ee77d7035fcc",
+      "title": "HIWIN ESG—商標權管理",
+      "url": "https://esg.hiwin.tw/ch4/ch4_1.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第168行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方頁面明確支持品牌行銷全球的陳述。"
+    },
+    {
+      "source_id": "src-0ae137de91b6c2ab",
+      "title": "HIWIN打擊仿冒、絕不寬待!",
+      "url": "https://www.hiwin.tw/fight_counterfeit/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第107–109行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱HIWIN為全球第二大線性滑軌製造商；未披露排名方法或市場分母。"
+    },
+    {
+      "source_id": "src-5620a94f32fa440b",
+      "title": "AI 機器人｜全球滾珠螺桿巨頭 上銀 (2049) 有望掌握人形機器人商機嗎？",
+      "url": "https://uanalyze.com.tw/articles/9860012116",
+      "source_level": 2,
+      "publication_date": "2025-03-18",
+      "effective_period": null,
+      "locator": "第20行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章稱線性滑軌及滾珠螺桿三大廠合計市佔超過70%，但原文列名為「THK、上銀、NXK」；未提供市佔分母、計算方式或數字期間，不能確認所稱NXK即NSK。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視發行人官方公司與ESG頁面、官方排名陳述及相關二手資料；剩餘市佔率原子缺少可確認公司名稱、期間及分母的可靠證據，排名口徑亦未充分揭露。",
+    "官方公司簡介支持成立時間、總部與品牌資訊；總部及品牌頁面未標明資料生效日期。",
+    "官方網站對全球滾珠螺桿排名的表述為「最大」，與原文「第二大」不符；排名口徑、分母及具體基準日期均未披露。",
+    "官方網站稱線性滑軌排名全球第二，可支持「全球前三大」，但未披露排名方法或市場分母。",
+    "市佔率超過七成僅找到一則二手文章作為線索；其名稱寫作「NXK」而非「NSK」，且欠缺期間與市佔率計算口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2049/807/hermes-attempt-1.stdout.txt"
+}

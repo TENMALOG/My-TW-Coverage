@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000994",
+  "claim_id": "1537:material_named_relationship:56ca1726cfc6960f",
+  "normalized_claim_hash": "56ca1726cfc6960f7038b85858e3cb27ae798bd35a477b40ad68fdb4b660e211",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-bd66b370ea021fc4",
+      "title": "廣隆光電經營實績及未來展望（2024Q2C）",
+      "url": "https://www.kunglong.com.tw/upload/investor/inv05/pdf/2024Q2C.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023 年及 2024 年第二季",
+      "locator": "產品銷售別圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報列 UPS 電池產品銷售占比 66% 及 67%；分母為圖表所列產品銷售組成，未明確標示為合併營收。"
+    },
+    {
+      "source_id": "src-b997ee875779c984",
+      "title": "廣隆光電四大優勢",
+      "url": "https://www.businesstoday.com.tw/article/category/183016/post/200204040030/",
+      "source_level": 2,
+      "publication_date": "2002-04-04",
+      "effective_period": "2001 年",
+      "locator": "文中「以二○○一年公司營收來看」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 2001 年 UPS 項目占公司營收 71.79%；僅支持該歷史期間，不支持未註明期間的 claim。"
+    },
+    {
+      "source_id": "src-6d08951837728036",
+      "title": "大停電 廣隆UPS電池受惠",
+      "url": "https://tw.stock.yahoo.com/news/%E5%A4%A7%E5%81%9C%E9%9B%BB-%E5%BB%A3%E9%9A%86ups%E9%9B%BB%E6%B1%A0%E5%8F%97%E6%83%A0-201000181.html",
+      "source_level": 2,
+      "publication_date": "2022-03-03",
+      "effective_period": "2022 年報導所述期間",
+      "locator": "報導首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持 APC 的歷史供應關係；未披露客戶營收占比或當前排名。"
+    },
+    {
+      "source_id": "src-a724f98c0fc60cf1",
+      "title": "Get to know the full range of APC Branded offers",
+      "url": "https://www.se.com/ww/en/brands/apc/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面現行資訊",
+      "locator": "頁面 APC 品牌介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持 APC 與 Schneider Electric 的品牌關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；歷史 APC 關係及 APC 品牌歸屬可核實，但當前營收分母與期間、Eaton/Vertiv 客戶關係仍未有足夠可靠證據。",
+    "原 claim 未標明營收占比與客戶關係所適用的期間。",
+    "官方簡報的產品銷售組成不等同於已明確界定分母的合併營收占比。",
+    "APC 客戶關係證據來自 2022 年媒體報導；未找到現行官方具名客戶披露。",
+    "未找到 Eaton 或 Vertiv 與廣隆之客戶關係證據；未將缺少披露解讀為不存在該關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1537/994/hermes-attempt-1.stdout.txt"
+}

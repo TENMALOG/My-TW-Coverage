@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000861",
+  "claim_id": "2646:material_named_relationship:2da1bdd0a02eaff8",
+  "normalized_claim_hash": "2da1bdd0a02eaff8581491683342776ef4203712152cc5ce6c3fcd33482b422e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-be9efebf43b257a4",
+      "title": "STARLUX takes delivery of first Airbus A350-1000 — Airbus",
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-01-starlux-takes-delivery-of-first-airbus-a350-1000",
+      "source_level": 3,
+      "publication_date": "2026-01-06",
+      "effective_period": "Order status reported on 2026-01-06.",
+      "locator": "Paragraph 2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States STARLUX has ordered 10 A350F freighters for its future cargo network."
+    },
+    {
+      "source_id": "src-f92c83071e0c201f",
+      "title": "STARLUX Airlines 2025 Annual Report (Chinese)",
+      "url": "https://webassets2.starlux-airlines.com/zh-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E4%B8%AD%E6%96%87%E7%89%88%29-V8_tcm5-15388.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-08",
+      "effective_period": "Fleet expansion plan through ROC year 122 (2033).",
+      "locator": "Page 104, “Fleet expansion strategy”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists 10 A350F freighters in the planned fleet."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方Airbus交機及機隊聲明與星宇航空2025年年報已分別確認營運機隊、A350F訂購狀態及2033年機隊規劃；未見未解決原子，故在研究預算用盡前停止。",
+    "Airbus的聲明支持截至2026-01-06的全空巴營運機隊；其同一聲明將A350F明確列為已訂購、供未來貨運網絡使用，而非當時已營運機型。",
+    "星宇航空年報所列76架及五種機型是至民國122年（2033年）的規劃；年報亦表示會視需求、製造商產能及交機進度調整機隊配置。",
+    "因此，若原句被解讀為五種機型在同一時點均已投入營運，證據不支持該時間解讀；若解讀為現有全空巴機隊及已訂購／規劃機型，證據支持。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2646/861/hermes-attempt-1.stdout.txt"
+}

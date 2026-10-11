@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000925",
+  "claim_id": "3491:material_named_relationship:7b383e1fa939f2a4",
+  "normalized_claim_hash": "7b383e1fa939f2a4e0386990a5780da00965c2258b56d8054041cee9cf257695",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-bb6b3bb9274f4d91",
+      "title": "〖台股研究報告〗昇達科(3491)受惠低軌道衛星翻倍成長，全年獲利將創高且毛利率達 5 成",
+      "url": "https://cmnews.com.tw/article/star-c2c1a6fa-d8c8-11ef-98d1-fd7cb2c457e1",
+      "source_level": 2,
+      "publication_date": "2024-04-25",
+      "effective_period": "報導所述2023年底合約及2024年產品項目",
+      "locator": "「低軌道衛星產品受惠 SpaceX 擴大下單、Amazon 簽訂長約將成長 200%」段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱合約實際產品項目由原估8種增加至10種以上，且其中絕大多數具獨家供應資格；未列出完整產品清單或獨家項目數。"
+    },
+    {
+      "source_id": "src-a3ffcbdcea0b5eca",
+      "title": "昇達科待交訂單達5.2億，今年營收/獲利成長正面看",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=b6e9c541-b40c-486f-926e-940e8775838e",
+      "source_level": 2,
+      "publication_date": "2024-04-24",
+      "effective_period": "截至2024年4月的合約及出貨情況",
+      "locator": "報導稱長約涵蓋8項獨家供應元件；目前出貨元件已達十多項，另有昇達科作為第二供應商的元件。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "引述公司董事長的匿名客戶說明；所提供的合約與出貨範圍不同，不能據此計算全部產品中獨家供應的比例。"
+    },
+    {
+      "source_id": "src-38c45894a63d6e27",
+      "title": "昇達科 2024 Annual Report",
+      "url": "https://www.umt-tw.com/upload/Finance/2024_3491_20250610FE4_20250721_101539.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度年報及2025年營運計畫",
+      "locator": "第6頁，2025 Business Plan，列出Amazon Kuiper為低軌衛星供應鏈合作對象。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司一手資料確認供應鏈合作關係，但未揭露四年合約或合約產品數。"
+    },
+    {
+      "source_id": "src-a02380547e4f2c74",
+      "title": "亞馬遜旗下低軌衛星業者2024年將大量發射衛星！哪間台廠受惠最明顯？",
+      "url": "https://uanalyze.com.tw/articles/120174037",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "主要為2023年及2024年預估",
+      "locator": "「樂觀法人看法」段落，稱昇達科承接Kuiper酬載中的8項產品並為獨家供應商。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手市場報導，僅支持特定8項產品被報導為獨家，未支持全部產品中的多數比例。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已交叉檢視公司年報、公司高層受訪報導及相關二手研究報導；合約年期有支持，但「多數產品」的範圍與分母未能核實，故保留UNKNOWN。",
+    "昇達科的公司年報確認Amazon Kuiper供應鏈合作關係，但未披露該具名客戶的四年合約或獨家供應比例。",
+    "四年合約與獨家產品數量的具名說法主要來自二手報導；MoneyDJ引用公司董事長時使用匿名客戶B。",
+    "「合約產品」與「目前出貨產品」是不同範圍，現有來源未提供可核實的完整產品分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3491/925/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000870",
+  "claim_id": "4438:material_named_relationship:d4f5adfeb43875d9",
+  "normalized_claim_hash": "d4f5adfeb43875d98b9504672ced6afe487608d3e42c32f9c574b0774d27c509",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9fd897e3209a1237",
+      "title": "廣越企業法人說明會簡報",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820190813M001.pdf",
+      "source_level": 3,
+      "publication_date": "2019-08-13",
+      "effective_period": "截至該簡報發布時的公司描述",
+      "locator": "第15頁，競爭優勢／垂直整合原物料供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載福懋廠區支持廣越中國及越南生產基地準確、適時交貨；未提供績效數值。"
+    },
+    {
+      "source_id": "src-76a2627299388b54",
+      "title": "廣越企業股份有限公司年報",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/10705.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2016、2017年度",
+      "locator": "第63頁，主要進貨供應商表註記",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱福懋集團為公司法人董事；未將其分類為策略股東。"
+    },
+    {
+      "source_id": "src-2c6662e483510ca3",
+      "title": "廣越企業股份有限公司主要股東資訊",
+      "url": "https://www.qve.com.tw/uploads/root/investor_annual_new/11202.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2023-06-30",
+      "locator": "附表十一，主要股東資訊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "福懋興業持有18,595,352股，占17.97%。"
+    },
+    {
+      "source_id": "src-fdbdfcc4f5376154",
+      "title": "Formosa Taffeta Co., Ltd. Annual Report 2025",
+      "url": "https://financialfilings.com/filings/ftc-1434/annual-report/2025/33261710/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "截至2025-12-31；年報另述2025-08-28現金增資後持股比例",
+      "locator": "投資廣越企業股份有限公司之附註／持股比例",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報轉錄資料記載福懋參與廣越現金增資後持股比例由17.98%降至17.59%。"
+    },
+    {
+      "source_id": "src-af3f60338bff3150",
+      "title": "廣越企業公司簡介簡報",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820150923M001.pdf",
+      "source_level": 3,
+      "publication_date": "2015-09-23",
+      "effective_period": "截至該簡報發布時的公司描述",
+      "locator": "第28頁，垂直整合原物料供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同樣陳述支持準時交貨及價格競爭力，未提供量化驗證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成五輪不同的聚焦搜尋，取得廣越歷史公司簡報、股權披露及後續年度報告交叉比對。未找到「策略股東」的明確定義或足以確認廠區及供貨安排現況的資料；這些範圍與期間限制已標示，停止進一步搜尋。",
+    "主要供應商、工廠配置及交貨配合的直接證據主要來自廣越自身歷史簡報，屬發行人自述。",
+    "廣越年報以「福懋集團」呈列部分採購資料，不能直接當作福懋興業單一法人採購占比。",
+    "「20%」出現在廣越簡報，但所查股權披露為17.92%、17.97%及17.59%；不能把簡報概數當作精確持股比例。",
+    "所查資料未明確支持「策略股東」稱謂，也未提供工廠現況或交期績效的量化資料。",
+    "2025年持股資料來自第三方轉錄的福懋年度報告；其他主要持股比例來源為廣越官方資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4438/870/hermes-attempt-1.stdout.txt"
+}

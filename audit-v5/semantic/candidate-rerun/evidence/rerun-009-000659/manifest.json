@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000659",
+  "claim_id": "8284:objective_ranking_or_market_share:f6ddbfcfc3bb8e15",
+  "normalized_claim_hash": "f6ddbfcfc3bb8e156d03e962d3c9044eb99c42a2e7616ea0a1bb029deaa92277",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4225edae8f96a252d03e",
+      "title": "三竹資訊積極打詐 唯一簡訊業者獲政院表揚",
+      "url": "https://www.setn.com/news/1322749",
+      "source_level": 2,
+      "publication_date": "2023-07-14",
+      "effective_period": "2023年7月論壇及頒獎事件",
+      "locator": "報導正文首段及末段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導轉載桃園電子報內容，稱三竹是唯一獲頒感謝狀的簡訊業者。"
+    },
+    {
+      "source_id": "src-0d1e1f68309440afd0e6",
+      "title": "三竹推出專屬商用簡訊簡碼 助防堵電信詐騙",
+      "url": "https://www.ctee.com.tw/news/20240402700936-431202",
+      "source_level": 2,
+      "publication_date": "2024-04-02",
+      "effective_period": "回述2023年7月NCC論壇及頒獎事件",
+      "locator": "「資安最高規!三竹為唯一榮獲電信堵詐感謝狀之簡訊業者」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "工商時報報導稱三竹是唯一獲此感謝狀的簡訊業者，並指出頒獎發生於NCC舉辦的論壇。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到兩篇報導直接支持限定於簡訊業者的唯一性；研究工具迭代上限已達，未再進一步查找官方頒獎紀錄。",
+    "所查得的直接佐證為媒體報導，未取得行政院或NCC的官方頒獎名單或原始紀錄。",
+    "報導支持的唯一性範圍是「簡訊業者」；同場亦有其他電信及協力業者獲頒感謝狀。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8284/659/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f4a672ad47fa94b446bb9b53e1aa89446dc1be762e02fe9b1a927ec1878555b3",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8284/659/isolated-prompt.txt",
+  "prompt_sha256": "e0562a535d0bebaeb4a8a2cd4a33b2d433751d8582efc4e0933374303c015d5d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000659/manifest.json",
+  "supersedes_manifest_sha256": "7b8556444f93a7751aafacc3002adf2bb75e8505e6a8844acbdd1d59bd293dbb",
+  "corrected_at": "2026-10-08T09:58:32Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000847",
+  "claim_id": "8390:objective_ranking_or_market_share:f55fed9eabcb8974",
+  "normalized_claim_hash": "f55fed9eabcb89749001dfa4075a254956ff9d3c34d841fd733df29c4fc3f7d7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1441b1f0063c5d69",
+      "title": "金益鼎企業股份有限公司113年度年報",
+      "url": "https://www.jyd.com.tw/storage/system/PDF/2025/113-tw-edit.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "113年度年報；研發案預計完成年度為114年度（2025）。",
+      "locator": "第90頁「太陽能板回收」研發說明及第91頁研發計劃表；PDF文字行3710–3729、3738–3746。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第91頁的98%欄位屬研發案目前進度；表中沒有回收率測量值、單位或分母。"
+    },
+    {
+      "source_id": "src-d1da436543e383ac",
+      "title": "金益鼎新竹二廠將商轉，拚放大回收量能",
+      "url": "https://5850web.moneydj.com/z/zf/zufzVIP_124D932C-7F59-4AE3-86F5-B6E02285B85B_E_.djhtm",
+      "source_level": 2,
+      "publication_date": "2025-12-15",
+      "effective_period": "報導稱技術處於研發階段；測量期間未載明。",
+      "locator": "報導正文，太陽能板回收技術回收率近98%的敘述。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱「分析指出」，未提供原始測量來源、回收率定義、分母或物料範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報、環境部相關資訊及二手報導。唯一性有公司年報直接陳述，但未獨立核對比較母體；回收率的期間、分母與測量口徑仍未解決，故保留UNKNOWN。",
+    "唯一上市櫃公司的比較主張來自金益鼎自身年報，未找到同期完整的代碼持有人名單及上市櫃身分逐一比對資料。",
+    "98%回收率的二手報導未說明測量口徑；公司年報中的同一數字明確位於研發案進度欄，不應替代回收率證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8390/847/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000683",
+  "claim_id": "1314:objective_ranking_or_market_share:8ac4eb234307c882",
+  "normalized_claim_hash": "8ac4eb234307c882720c30589059efbe50856b3fc90687a6cc47849c4249a806",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9fb9e353506ddb6c",
+      "title": "Caprolactam (CPL) — China Petrochemical Development Corporation",
+      "url": "https://cpdc.com.tw/en/product_detail/CaprolactamCPL",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Directly states CPDC is one of the top five CPL manufacturers worldwide; no ranking methodology or denominator is provided."
+    },
+    {
+      "source_id": "src-bcb10d39651ba23f",
+      "title": "CPDC Investor Presentation",
+      "url": "http://media.corporate-ir.net/media_files/IROL/16/160309/ECB/20141203_AM10-CPDC_Investor_Presentation_Final-IR-CPDC.pdf",
+      "source_level": 3,
+      "publication_date": "2014-12-03",
+      "effective_period": "Presentation dated 2014-12-03; exact ranking measurement period unspecified.",
+      "locator": "Investor presentation ranking statements; slide/page number not verified.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer states “TOP 10 AN manufacturer in the world”; no denominator, ranking methodology, or capacity/output metric is given."
+    },
+    {
+      "source_id": "src-af27284924e1e394",
+      "title": "Acrylonitrile (AN) — China Petrochemical Development Corporation",
+      "url": "https://www.cpdc.com.tw/tw/product_detail/%E4%B8%99%E7%83%AF%E8%85%88-AN",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Current issuer page says CPDC is one of Taiwan’s two AN manufacturers and a globally leading AN manufacturer, but does not state a global top-ten rank."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司現行CPL與AN產品頁、公司年報索引、政府綠色工廠資料及歷史投資人簡報，並針對2024年年報檢索AN前十大排名。仍缺少可確認AN目前排名及排名口徑的證據，因此該原子主張維持UNKNOWN。",
+    "全球排名資料主要是發行公司自行陳述，未提供可核對的排名方法、製造商母體或以產能、實際產量等何種指標排序。",
+    "AN前十大排名只找到2014年簡報中的陳述；公司現行AN產品頁沒有重述該名次。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1314/683/hermes-attempt-1.stdout.txt"
+}

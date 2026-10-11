@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000629",
+  "claim_id": "6494:objective_ranking_or_market_share:98025032285ef223",
+  "normalized_claim_hash": "98025032285ef2236fed349ffdc21d0d155c94d83d71fb5054320ff4d3ea7ca8",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c1bc3dfcb0d29785",
+      "title": "九齊科技股份有限公司：產品資訊",
+      "url": "https://www.nyquest.com.tw/tw/product",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品類別及NY4、NY5、NY8、NX1系列介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網直接列出4位元MCU語音系列、8位元通用MCU與32位元MCU語音系列；同頁亦列有其他語音及周邊產品。"
+    },
+    {
+      "source_id": "src-7986686b719ea2db",
+      "title": "九齊科技股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?title=%E4%B9%9D%E9%BD%8A%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+      "source_level": 2,
+      "publication_date": "2025-08-04",
+      "effective_period": "2024年產品營收",
+      "locator": "「營業項目與產品結構」及「產品與競爭條件」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出4/8/32-bit MCU為主要產品，並稱2024年MCU占產品營收86%；未拆分各位元MCU占比。"
+    },
+    {
+      "source_id": "src-2303debcb9ceb626",
+      "title": "九齊科技股份有限公司113年度年報",
+      "url": "https://www.nyquest.com.tw/upload/2025_04_294/%E4%B9%9D%E9%BD%8A113%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1final.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "2024年度",
+      "locator": "致股東報告書／研發狀況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "「市場專用晶片」不能單獨證明高度客製化設計。"
+    },
+    {
+      "source_id": "src-26728c5320a1ff85",
+      "title": "九齊 全年拚賺1.5個股本",
+      "url": "https://www.ctee.com.tw/news/20211206700056-430502",
+      "source_level": 2,
+      "publication_date": "2021-12-06",
+      "effective_period": "報導所述為過去的LED閃燈MCU細分市場，未明確界定期間",
+      "locator": "九齊產品應用及LED閃燈MCU市佔率相關段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅提及LED閃燈MCU細分市場的歷史描述，沒有量化市佔率或明確全球市場分母；報導亦稱中國MCU廠商進入後對其造成排擠。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依使用者指示停止進一步工具研究：已達本回合工具呼叫上限。",
+    "官網與年報屬公司一手資料，可確認產品類別及公司自述的研發方向，但不能獨立驗證性能價格優勢或市場領先程度。",
+    "關於LED閃燈MCU市佔率的報導是二手資料，涉及不同且較窄的歷史市場範圍，未提供市佔分母或數值。",
+    "未以出貨案例、銷售區域或MCU營收占比推論全球市場市佔率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6494/629/hermes-attempt-1.stdout.txt"
+}

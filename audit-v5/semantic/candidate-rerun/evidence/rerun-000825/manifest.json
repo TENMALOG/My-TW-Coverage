@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000825",
+  "claim_id": "5604:objective_ranking_or_market_share:16da157ef7a9024f",
+  "normalized_claim_hash": "16da157ef7a9024f74885ae2b2049b94971a9e7a56dc4f4d49f032a03d660ffe",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3fc01552f57ce0f5",
+      "title": "財訊雙週刊第648期（Zinio刊載）",
+      "url": "https://www.zinio.com/pt/publications/cai-xun-shuang-zhou-kan/8130/issues/507349/articles",
+      "source_level": 2,
+      "publication_date": "2021-12-09",
+      "effective_period": "約2021年",
+      "locator": "文中中連段落：「最大法人股東新竹物流是最大承租戶」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手媒體報導；未說明排名所依據的租戶名單、比較期間或租金／面積口徑。"
+    },
+    {
+      "source_id": "src-233e346faa37868e",
+      "title": "CMoney金錢報：中連貨運去年EPS 8.80元 將配息7.95元",
+      "url": "https://cmnews.com.tw/article/cmoney-d1e6c143-d8cd-11ef-94bc-40ca2f2b66ae",
+      "source_level": 2,
+      "publication_date": "2021-02-05",
+      "effective_period": "約2020至2021年",
+      "locator": "文章首段：4.7萬餘坪土地約半數土地主要租給新竹貨運",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導，未交代精確測量基準日或「半數」的土地面積分母。"
+    },
+    {
+      "source_id": "src-0811ad430679d60e",
+      "title": "中連貨：公司依4/3公告之合作備忘錄與新竹物流簽訂不動產出租合約",
+      "url": "https://m.esunsec.com.tw/news/instant-detail.aspx?id=%7B7406A56F-B309-46FA-A300-74F30EAD4183%7D",
+      "source_level": 2,
+      "publication_date": "2019-06-28",
+      "effective_period": "租約起於2019-07；公告所列租期至2029-07",
+      "locator": "公告第5項：列出9處出租地點及約20,500坪面積",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告未指明各地點的實際使用方式。"
+    },
+    {
+      "source_id": "src-d8afeecc9545eda2",
+      "title": "中央社：中連分3批大量解僱千人 4.7萬坪地轉型供出租",
+      "url": "https://www.cna.com.tw/news/firstnews/201904160286.aspx",
+      "source_level": 2,
+      "publication_date": "2019-04-16",
+      "effective_period": "2019年轉型期間",
+      "locator": "文中稱全台各場站土地和倉儲空間約4.7萬坪可供出租，部分場站先供新竹物流挑選",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "有助釐清約4.7萬坪的口徑包含土地與倉儲空間，並非明確的純土地總面積。"
+    },
+    {
+      "source_id": "src-18c26fe8efec0e07",
+      "title": "中連5604年報查詢：114年度年報摘錄",
+      "url": "https://treelazy.com/stock/5604",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度；截至2025-12-31",
+      "locator": "114年度營業報告及出租面積資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手年報摘錄呈現總出租面積與出租率；該摘錄不足以判定租戶排名或個別承租戶占比，不能據此推論完整年報沒有相關資料。"
+    },
+    {
+      "source_id": "src-8dceee2392f3bf18",
+      "title": "中連：財政部國有財產署北區分署向本公司提起拆屋還地訴訟",
+      "url": "https://www.toalpha.tw/stock/5604",
+      "source_level": 2,
+      "publication_date": "2026-07-21",
+      "effective_period": "2026年公告",
+      "locator": "重大訊息公告第5至7項：基隆站土地出租予新竹物流，並列出可能終止租約的月營收影響",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手網站轉載發行人公告；只確認一處租賃關係，不能證明全公司承租戶排名或土地占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成4輪聚焦搜尋；找到歷史報導與租約公告，但未找到可確認現況租戶排名、精確土地分母及營運用途的租戶明細。剩餘現況原子保留為UNKNOWN。",
+    "最大承租戶及約半數的直接表述來自二手媒體報導，並非本次找到的現行租戶明細或官方排名表。",
+    "約4.7萬坪的來源描述涵蓋場站土地及倉儲空間；與租約所列出租面積及「場站土地」分母並非完全同一口徑。",
+    "2025年年報摘錄的合計出租資料及2026年單一站點公告，均不足以建立目前的租戶排序或新竹物流占比。",
+    "web_extract 因搜尋後端限制未能提取頁面全文；此工具限制不作為反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5604/825/hermes-attempt-1.stdout.txt"
+}

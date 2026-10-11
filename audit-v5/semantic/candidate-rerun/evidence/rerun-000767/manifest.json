@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000767",
+  "claim_id": "2006:objective_ranking_or_market_share:9ea68a7171bfd47f",
+  "normalized_claim_hash": "9ea68a7171bfd47fe718b7a002c2436cb5fa71636354bff97f0f408b4cb56405",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a76d445455981707",
+      "title": "東和鋼鐵企業股份有限公司－鋼筋",
+      "url": "https://www.tunghosteel.com/Product/Intro/1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品概述；「東和鋼鐵所生產的鋼筋種類包括」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面列出光面、竹節及螺紋節鋼筋；另載年總產能達120萬噸。產能不等同市占率。"
+    },
+    {
+      "source_id": "src-19654239381b0782",
+      "title": "東和鋼鐵企業股份有限公司－型鋼",
+      "url": "https://www.tunghosteel.com/Product/Intro/2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「東和鋼鐵所生產的型鋼種類包括：H型鋼、I型鋼、槽鋼、U型鋼等類別」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面支持H型鋼屬其型鋼產品；未載台灣市占率。"
+    },
+    {
+      "source_id": "src-042ed38c3f53bceb",
+      "title": "台灣鋼筋市佔第三的東和鋼鐵 (2006) 9月營收年增逾 4%，第4季挑戰仍高？",
+      "url": "https://uanalyze.com.tw/articles/3884034667",
+      "source_level": 2,
+      "publication_date": "2025-10-08",
+      "effective_period": "文中產品結構及市占敘述未明確界定統計期間；另載2025年營運資料",
+      "locator": "「公司概況與產品結構」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱鋼筋市占約15%至20%、H型鋼市占接近六成；未提供各項市占率的分母或計算方法，不能確認是否對應原文九成的市場定義。"
+    },
+    {
+      "source_id": "src-3acd8c57715aadea",
+      "title": "東和鋼鐵企業股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=2da994f5-c242-4488-8e4c-a72634137cb3",
+      "source_level": 2,
+      "publication_date": "2026-07-30",
+      "effective_period": "頁面載2025年產品營收與銷售地區資料；競爭情形的統計期間未明示",
+      "locator": "「(三)市場銷售及競爭」及「(二)產品與競爭條件」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手資料稱H型鋼需求主要由東鋼及中龍供應，並稱東鋼、豐興、威致、海光等鋼筋主要廠商合計約占近3至4成市占；未給出與原文九成相同的產品範圍或分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已確認兩項產品主張；針對九成市占的查詢未找到可辨識其產品範圍、期間及分母的可靠佐證，故該原子主張保留UNKNOWN。",
+    "官方產品頁可證明公司生產鋼筋與H型鋼，但不能證明市占率。",
+    "所查二手資料對鋼筋與H型鋼分別提供市占描述；統計分母、口徑或期間未充分揭露，不能替代原文未界定的九成市占主張。",
+    "未找到可核實原文九成數字的官方公司披露或監管文件。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2006/767/hermes-attempt-1.stdout.txt"
+}

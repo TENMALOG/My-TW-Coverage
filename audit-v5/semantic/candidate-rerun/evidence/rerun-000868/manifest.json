@@ -1,0 +1,97 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000868",
+  "claim_id": "4438:material_named_relationship:71def6e48a4142d5",
+  "normalized_claim_hash": "71def6e48a4142d5cf0e2a7d7d6ce9f1244634b2286e7e83d5c4be09da08324d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-aef00268f51e948a",
+      "title": "廣越公司簡介",
+      "url": "https://www.qve.com.tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行公司簡介，查閱日2026-10-07",
+      "locator": "公司簡介；主要合作客戶與公司定位",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司使用「國際一線品牌」描述主要合作客戶。"
+    },
+    {
+      "source_id": "src-ed33c875274d451d",
+      "title": "廣越新客戶Alo Yoga Q4出貨，明年營運續看成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=183701de-f302-4361-84f5-6609a9935860",
+      "source_level": 2,
+      "publication_date": "2025-07-09",
+      "effective_period": "預計自2025年第四季開始",
+      "locator": "新聞正文首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 Alo Yoga 預計Q4起於約旦廠開始出貨。"
+    },
+    {
+      "source_id": "src-09e92d8490110bd4",
+      "title": "QVE investor presentation 2026",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820260415E001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-15",
+      "effective_period": "簡報列示2021–2025資料",
+      "locator": "品牌市場份額表；The North Face 對應 Parent Company VF Corp",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "廣越簡報明列品牌與母公司對應關係。"
+    },
+    {
+      "source_id": "src-18e4a8b792720100",
+      "title": "成衣廠卡位新客戶 營運添動能",
+      "url": "https://tw.stock.yahoo.com/news/%E6%88%90%E8%A1%A3%E5%BB%A0%E5%8D%A1%E4%BD%8D%E6%96%B0%E5%AE%A2%E6%88%B6-%E7%87%9F%E9%81%8B%E6%B7%BB%E5%8B%95-201000309.html",
+      "source_level": 2,
+      "publication_date": "2024-06-17",
+      "effective_period": "2024年營運展望",
+      "locator": "文章第298–309段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 Lululemon 將成為廣越2024年成長力道最強的品牌客戶。"
+    },
+    {
+      "source_id": "src-fff0b7a2b0618c39",
+      "title": "Quang Viet Enterprise English site",
+      "url": "https://www.qve.com.tw/eng/enindex/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行客戶名單，查閱日2026-10-07",
+      "locator": "About QVE; Our Customers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將 Arc'teryx 列於客戶名單。"
+    },
+    {
+      "source_id": "src-6ea5199a4613401e",
+      "title": "QVE investor presentation 2025",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820251111E001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-11",
+      "effective_period": "合作沿革；2014年",
+      "locator": "Milestone",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列示2014年進入 Arc'teryx supply chain。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到廣越官方客戶名單與合作沿革，以及對應2024–2025年展望的報導；剩餘不確定點為原 claim 未標示成長率期間、訂單計量口徑，以及 Alo「最新客戶」的比較時點，故停止並保留未解原子為 UNKNOWN。",
+    "原 claim 未標明訂單成長率所屬年度；所找到的60%、5%、10%數字對應2025年展望，而非無期限的現況或已實現全年數字。",
+    "報導所稱「訂單年增」未說明以訂單金額或件數為分母，數值為媒體轉述的管理層估計。",
+    "Lululemon「最快速成長」只在2024年展望語境下獲支持。",
+    "Alo Yoga 的約旦廠出貨是2025年7月報導中的預計安排；「最新客戶」的相對時間排序未獲證實。",
+    "Puma 與 Arc'teryx 的公司來源支持其為客戶／供應鏈合作品牌，但不足以單獨確認兩者在未限定期間內的客戶排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4438/868/hermes-attempt-1.stdout.txt"
+}

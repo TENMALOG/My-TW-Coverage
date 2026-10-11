@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000173",
+  "claim_id": "2312:objective_ranking_or_market_share:21dca8dbbc43aba7",
+  "normalized_claim_hash": "21dca8dbbc43aba7519d6fc3af823ad4e930431fe1995b931f89e12816126956",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b4746282dee2deb6",
+      "title": "泰國將成最大生產基地！從印表機做到充電樁，泰金寶的變色龍戰略",
+      "url": "https://www.cw.com.tw/article/5127750",
+      "source_level": 2,
+      "publication_date": "2023-10-17",
+      "effective_period": "報導預測新廠將於2024年第一季成為金仁寶集團最大生產基地",
+      "locator": "內文「很快，明年第一季起」及「15萬坪新廠區……明年第一季，這裡將成金仁寶集團最大生產基地」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級媒體報導；是對規劃新廠的未來預測，不是新廠後續落成或排名已實現的證據。"
+    },
+    {
+      "source_id": "src-6dd89b380c0ff800",
+      "title": "KINPO GROUP｜全球據點",
+      "url": "https://www.kinpogroup.com/en-US/global-network",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Philippines section：Cal-Comp Technology、Kinpo Electronics (Philippines)、Cal-Comp Precision (Philippines) 及其地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "集團官方全球據點頁列出菲律賓的集團企業及地址；未標示頁面適用日期。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行多輪針對官方資料及該排名表述的聚焦檢索；未找到可確認泰國新廠預測已實現、且界定集團範圍與比較指標的可靠資料，因此排名主張保留為UNKNOWN。",
+    "「泰國泰金寶為集團最大製造基地」未指定期間、集團範圍或「最大」的衡量指標；可找到的相關報導是對規劃新廠的未來預測。",
+    "官方全球據點頁支持中國、巴西及菲律賓均有集團據點，但頁面未標示適用日期，也未提供據點相對規模或產能排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2312/173/hermes-attempt-1.stdout.txt"
+}

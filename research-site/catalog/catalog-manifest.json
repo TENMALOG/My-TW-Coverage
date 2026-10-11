@@ -1,0 +1,33 @@
+{
+  "schema": "research-catalog-1",
+  "assessment_date": "2026-10-08",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/delivery/consolidated-status.jsonl": "263ab2cc623ecf8b90aa6456c17a3caf31d34a5bafbccb29117a0af1bb137be2",
+    "audit-v5/semantic/candidate-rerun/delivery/accepted-original-claims.jsonl": "2a8ae93d1ff113c0a0413461a6094b0b5ec35c2674914a201cd30cef806501db",
+    "audit-v5/semantic/candidate-rerun/delivery/revised-claim-proposals.jsonl": "f7ce1941a99cc6f42168b8fa0264f468c0863643b9a7567508fc950195cb4f2d",
+    "audit-v5/semantic/candidate-rerun/delivery/summary.json": "a7cd3da5465cfd8f0c97b591f0e412cb6cc2ca4ca3dcdbda3e67859b86118e4b",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/inventory.jsonl": "18058b4917ced8bf63721f8b669a5ae8594b4e3a3279852ad3f54a8560758d33",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/queue.jsonl": "6ffe9737b5b318f78ba670e3e1ad7ee5e9ac1364889a84a85a9951afbbe4d435",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/delivery/pilot-outcomes.jsonl": "10c717e470cdf1ba0f3029b73904d5179841f6365ea2304588f0ded034223787",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/delivery/accepted-revisions.jsonl": "f93d55d69529d0ba15f5425f211da002bddaa0e4baa202bc4d20e0b91f0c90b5",
+    "audit-v5/semantic/candidate-rerun/revision-pilot-001/delivery/summary.json": "d4399390ddf5396292dc6b7e2b299fd26526564882dce4eadadc0bf764e29aed"
+  },
+  "outputs": {
+    "industry-summary.csv": "390567c46ce2ff7fcdaca6e64a67ce5b467dcf218820b470305f80b2a395c9f0",
+    "path-remaps.json": "163ac3e3051280b4271935d24529705962fcb710f1f41940b4e400283773dbf4",
+    "release-scope-claims.csv": "70b2031a0e4168edb4844fa87b0b19f11d62852d1de64dbbb28e50e64f7933a8",
+    "release-scope-companies.csv": "a2c3936d6072166cdd7cdbc6309d12ea5c8e13b787d2c1db1fe6796bc0900bbb"
+  },
+  "totals": {
+    "reports": 1733,
+    "industry_folders": 98,
+    "claims_in_scope": 1394,
+    "companies_with_claims": 835,
+    "original_accepted": 28,
+    "revised_supported": 26,
+    "revision_parents": 1370,
+    "revisions_pending": 1340,
+    "claims_without_proposal": 24,
+    "path_remaps": 5
+  }
+}

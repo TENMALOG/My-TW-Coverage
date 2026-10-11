@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000298",
+  "claim_id": "4927:objective_ranking_or_market_share:9a67db1c7ece4dcb",
+  "normalized_claim_hash": "9a67db1c7ece4dcb38b2d4d70eb830eb4abc936e6e861fc7dbac1b0fcc4d9dfa",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4716ea48f672657ee4f4",
+      "title": "113年度年報：泰鼎國際股份有限公司",
+      "url": "https://www.apex-intl.com.tw/files/investor/2024_4927_20250528F04_20250523_173139.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-30",
+      "effective_period": "2024年度",
+      "locator": "年報封面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示泰鼎國際股份有限公司、Apex International Co., Ltd.及股票代碼4927。"
+    },
+    {
+      "source_id": "src-7add02997e5919c7030b",
+      "title": "泰鼎與韓國網通PCB廠梨樹飛達成立合資子公司",
+      "url": "https://www.apex-intl.com.tw/news/info/252",
+      "source_level": 3,
+      "publication_date": "2024-10-14",
+      "effective_period": "公告時；泰國市場",
+      "locator": "公告內合資及產能說明段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱「作為泰國最大的台灣印刷電路板供應商」。"
+    },
+    {
+      "source_id": "src-64a8da950a859d9b5ea6",
+      "title": "泰鼎與韓國網通PCB廠梨樹飛達成立合資子公司",
+      "url": "https://www.apex-intl.com.tw/news/info/252",
+      "source_level": 3,
+      "publication_date": "2024-10-14",
+      "effective_period": "公告時；最大月產能",
+      "locator": "公告內合資及產能說明段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司表述最大月產能約100萬平方公尺，與原文的平方呎單位不符。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成兩輪聚焦檢索；官方公告支持排名自述並明確給出產能單位，但稱號仍無可靠證據，且原文平方呎單位與公告不符。",
+    "泰國最大台資PCB供應商的排名來自發行人公告自述，未由獨立市場排名資料核實。",
+    "產能來源明確使用平方公尺；不應改寫為平方呎。",
+    "未找到「泰國 PCB 王」稱號的可靠來源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4927/298/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "69714f6db9eee391bf46a759427ca6cc9be7d03333e6d1ffd0489664aae89c2d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4927/298/isolated-prompt.txt",
+  "prompt_sha256": "c7490f8c13249032e04876e052df765777a0a2fca431601d2f887d63937a55ca",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000298/manifest.json",
+  "supersedes_manifest_sha256": "091afe5bed6a43f37a3735031bf9da1f7443f807f46fe7f60e6f6c08bbda5997",
+  "corrected_at": "2026-10-08T09:58:01Z"
+}

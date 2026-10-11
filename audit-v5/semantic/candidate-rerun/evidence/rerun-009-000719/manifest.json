@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000719",
+  "claim_id": "2233:objective_ranking_or_market_share:bf4ac0b6acfe8253",
+  "normalized_claim_hash": "bf4ac0b6acfe8253fa2784c556f227d417ff1d2d4e41a1844fc124be494f1d1e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7807e8418449e315cb96",
+      "title": "宇隆Q2獲利優於首季 估下半年業績比上半年好",
+      "url": "https://news.cnyes.com/news/id/4150421",
+      "source_level": 2,
+      "publication_date": "2018-06-25",
+      "effective_period": "2018 Q1",
+      "locator": "Article paragraph beginning「宇隆目前最大的客戶仍是國際汽車零組件大廠 Bosch」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊快報 report republished by 鉅亨網; states approximately 63% of first-quarter revenue."
+    },
+    {
+      "source_id": "src-a895eeef0c4e9a8369cd",
+      "title": "宇隆Q2獲利優於首季 估下半年業績比上半年好",
+      "url": "https://news.cnyes.com/news/id/4150421",
+      "source_level": 2,
+      "publication_date": "2018-06-25",
+      "effective_period": "2018 Q1",
+      "locator": "Article paragraph identifying Bosch as the largest customer",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Historical report only; does not establish the ranking for an unspecified or current period."
+    },
+    {
+      "source_id": "src-967a78c83b3ee782db41",
+      "title": "宇隆科技股份有限公司公開說明書（股票初次上市用）",
+      "url": "https://www.turvo.com.tw/proimages/investors/download-pdf/%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8(%E8%82%A1%E7%A5%A8%E5%88%9D%E6%AC%A1%E4%B8%8A%E5%B8%82%E7%94%A8).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017–2018 (ROC years 106–107)",
+      "locator": "Risk disclosure on sales concentration in the Bosch Group",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer prospectus reports Bosch Group consolidated net sales shares of 62.94% and 59.88% for ROC years 106 and 107, respectively. This establishes historical customer exposure, not a current ranking or a comparison with every other customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found support for the historical 2018 Q1 ranking and older issuer disclosures, but no current issuer source resolving the unspecified-period ranking. The remaining scope is unresolved.",
+    "The direct historical ranking and revenue share come from a secondary news report, not a current issuer disclosure.",
+    "The issuer prospectus reports historical Bosch Group sales concentration but does not independently establish a largest-customer ranking.",
+    "The original wording does not specify the period, ranking measure, or precise Bosch legal entity."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2233/719/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "664809fa7234bd19694f359407dfae0d4124d73189e62952bd84b6207ca18362",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2233/719/isolated-prompt.txt",
+  "prompt_sha256": "0d04af206987b767377ee2eb776cca03963bcbd851f7429a22fa67ad26400c68",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000719/manifest.json",
+  "supersedes_manifest_sha256": "74c601a9e0098f1f6fe5ebbcf9f95b9e819bb4301fe78f383d30f064db9856bf",
+  "corrected_at": "2026-10-08T09:58:37Z"
+}

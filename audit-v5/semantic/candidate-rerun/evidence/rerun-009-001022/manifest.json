@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001022",
+  "claim_id": "3037:material_named_relationship:fc84aa5e0c3063d9",
+  "normalized_claim_hash": "fc84aa5e0c3063d98f697485f9be8c7260a7505af57f957f5d1354a7b4694962",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-886eb6ea0b94ecc56cfa",
+      "title": "The Ajinomoto Group’s Unexpected Role in Semiconductor Manufacturing: The Insulating Film “ABF” Born from “AminoScience”",
+      "url": "https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience",
+      "source_level": 3,
+      "publication_date": "2026-03",
+      "effective_period": "Describes ABF and the business at publication in March 2026; no specific contract period stated.",
+      "locator": "Lines 86–95, 103, and 143 of the opened page",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies ABF as developed by Ajinomoto Fine-Techno, describes it as film-like insulation, and discusses its use in FC-BGA packages."
+    },
+    {
+      "source_id": "src-029cab4ed9ec4d7bbd73",
+      "title": "Our Technologies — Ajinomoto Group",
+      "url": "https://www.ajinomoto.com/innovation/rd-organizations-and-facilities/bioscience_chemicals/technology",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current page; no explicit reference period stated.",
+      "locator": "Electronic Materials section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Ajinomoto develops ABF and delivers it to semiconductor package-substrate manufacturers."
+    },
+    {
+      "source_id": "src-cfb0dc1fc41f95a41c20",
+      "title": "The Ajinomoto Group’s Unexpected Role in Semiconductor Manufacturing: The Insulating Film “ABF” Born from “AminoScience”",
+      "url": "https://www.ajinomoto.com/stories/the-ajinomoto-groups-unexpected-role-in-semiconductor-manufacturing-the-insulating-film-abf-born-from-aminoscience",
+      "source_level": 3,
+      "publication_date": "2026-03",
+      "effective_period": "Market-share statement current at publication in March 2026; exact measurement period not stated.",
+      "locator": "Lines 88 and 94–97 of the opened page",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ajinomoto Fine-Techno representatives describe approximately 95% global share for ABF in FC-BGA insulation use. This supports a leading position, not a sole-source relationship or a defined exclusivity claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official Ajinomoto sources establish ABF’s developer, product function, supply channel, and a reported market-share figure. They do not resolve the undefined scope of exclusivity or a Unimicron-specific sole-source relationship; those atoms remain UNKNOWN.",
+    "The cited evidence is from Ajinomoto Group or subsidiary disclosures, not Unimicron’s own filing or a supply agreement.",
+    "The reported market share is not accompanied by a stated denominator methodology or measurement basis.",
+    "No evidence found establishes that Unimicron uses Ajinomoto as its exclusive source for this material."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3037/1022/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "5b680f70a1476903c834e9783e34eba74a657dc2d37182d22308840c625bb37d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3037/1022/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "e37286d42b50066c88feab317c5afbd547dc43858416a1b2ca01886d711a998f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001022/manifest.json",
+  "supersedes_manifest_sha256": "182a9382821fa61ff62b525100107c41e00e82eec03c87b89be2f6cdd6e375f6",
+  "corrected_at": "2026-10-08T09:59:09Z"
+}

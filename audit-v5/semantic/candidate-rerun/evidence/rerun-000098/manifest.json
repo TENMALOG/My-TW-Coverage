@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000098",
+  "claim_id": "2062:objective_ranking_or_market_share:95163601c6041a89",
+  "normalized_claim_hash": "95163601c6041a8963e523b291f12c0c2c14d3b143c920f1840603abd9b0bd60",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-31ff30d29bec072a",
+      "title": "橋椿回台 將投資16億中科擴廠",
+      "url": "https://www.chinatimes.com/newspapers/20191231000407-260511",
+      "source_level": 2,
+      "publication_date": "2019-12-31",
+      "effective_period": "報導所述法說資訊；統計期間未揭露",
+      "locator": "內文客戶段落：「所有往來客戶」在北美與歐洲市場的市佔率達六成以上",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體轉述公司說法，並非獨立市場份額研究。"
+    },
+    {
+      "source_id": "src-edcbefa7cd7826cc",
+      "title": "橋椿(2062) 2026Q1法說會簡報PDF下載",
+      "url": "https://finmoconf.diveinvest.net/presentation/69aec904bab52fb5c8ac878f",
+      "source_level": 2,
+      "publication_date": "2026-03-10",
+      "effective_period": "2026 年法說資料；統計期間未揭露",
+      "locator": "頁面轉錄的 Customer Relationship 內容",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手轉錄公司法說資料；原始 MOPS 簡報連結的直接擷取逾時，未能核對 PDF 頁碼或原文。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成 8 輪聚焦檢索；原始四品牌合計市佔及其市場分母、期間仍無可靠證據可確認。",
+    "主要依據是媒體對公司法說內容的轉述，不是獨立核實的市場份額資料。",
+    "現有來源未界定市佔的產品市場、分母、統計期間；地域表述有北美與歐洲，不能直接等同於未定義的「歐美」。",
+    "2026 年法說資料來源頁是二手轉錄；MOPS 原始 PDF 擷取逾時，未能直接核對原文或頁碼。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2062/98/hermes-attempt-1.stdout.txt"
+}

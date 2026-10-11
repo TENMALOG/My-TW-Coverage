@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000106",
+  "claim_id": "2433:objective_ranking_or_market_share:326ac8fb4b455e88",
+  "normalized_claim_hash": "326ac8fb4b455e8875796ab0583122cfca20f8be1698d0640a51018787653d6f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3bbc933258cfe04d",
+      "title": "Ricoh Group Integrated Report 2024",
+      "url": "https://www.ricoh.com/-/media/Ricoh/Sites/com/about/integrated-report/pdf2024_e/all_en_spread.pdf?rev=5a749892f5ef45b184464408076771f2&sc_lang=ja-JP",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023–FY2024 data, unless otherwise noted",
+      "locator": "Ricoh at a Glance / Digital Products descriptions in indexed report text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Ricoh material describes office MFPs and printers; it does not establish the claimed industry label."
+    },
+    {
+      "source_id": "src-75699d815f9507c6",
+      "title": "互盛股份有限公司 102年度年報",
+      "url": "https://www.eosasc.com.tw/storage/architecture/page~108/page~121/page~163/102.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Historical statement concerning 1986",
+      "locator": "Company history timeline; indexed PDF excerpt (PDF page not verified)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports historical exclusivity only."
+    },
+    {
+      "source_id": "src-0963180a8f6d77df",
+      "title": "互盛2024合併營收27.6億元 每股盈餘3.28元",
+      "url": "https://www.eosasc.com.tw/investment-news-page878",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 company announcement",
+      "locator": "Article paragraph describing office platforms and smart video systems",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms that Huxen offers smart video systems, but does not link their procurement to Ricoh."
+    },
+    {
+      "source_id": "src-42dbbdb1cfddb646",
+      "title": "Your Best Partner! Huxen",
+      "url": "https://eosasc.tw/en/abouthuxen",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Section “From RICOH Distribution to Comprehensive Integration Services”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company profile says Huxen originally distributed Ricoh copiers and office machines."
+    },
+    {
+      "source_id": "src-43b9ca9eb138c925",
+      "title": "互盛電(2433)股價：可以買嗎？EPS、配息、法人籌碼｜FinLab",
+      "url": "https://finlab.finance/stocks/2433",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "FY2024 figures as summarized on the page",
+      "locator": "Company and supply-chain summary; RICOH supplier bullet",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Page summary reports Ricoh at approximately 40% of Huxen's 2024 net purchases and another supplier at approximately 20%; the underlying primary table was not verified."
+    },
+    {
+      "source_id": "src-14a7a075f0e99e6a",
+      "title": "比定存還好賺！有了殖利率 7.14％ 的辦公設備商 互盛電 (2433) ...",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=45710",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article passage listing Ricoh-related equipment and video-conferencing systems",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary account; date, product scope, and procurement details are not established."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達工具呼叫迭代上限；依任務限制停止研究，未再進行工具呼叫。",
+    "1986年獨家銷售權的證據是歷史記載，不能直接延伸為現況。",
+    "供應商占比資料來自二手或自動整理頁面，期間與採購分母不一致；未核驗到支撐當前排名的官方原始表格。",
+    "未找到官方資料將視訊設備採購明確歸於RICOH。",
+    "Ricoh官方報告描述其辦公影像及數位產品業務，但未支持「光學大廠」這一特定表述。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2433/106/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000093",
+  "claim_id": "1109:objective_ranking_or_market_share:5fd4ab936a526e30",
+  "normalized_claim_hash": "5fd4ab936a526e309268f5b87c9dfa14c402cdb16278ba751708581f06fc8ce1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4b0c7bb18ea7e5e6",
+      "title": "關係企業 | 關於信大 | 信大水泥股份有限公司",
+      "url": "https://www.hsingta.com.tw/about/affiliated-companies",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "關係企業 section, 江蘇信寧新型建材有限公司 entry",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms the named company's location but provides no market-share measurement."
+    },
+    {
+      "source_id": "src-6858f371fb26f5d0",
+      "title": "信大水泥股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=37f1d276-0145-4b86-bb22-2fc57ffae56e",
+      "source_level": 2,
+      "publication_date": "2026-10-02 (page update date)",
+      "effective_period": "2025 sales information as stated on the page",
+      "locator": "(三)市場銷售與競爭, 1.銷售狀況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes mainland sales by destination, including areas around Nanjing; those geographic sales proportions are not market share and do not establish the claimed 15%."
+    },
+    {
+      "source_id": "src-454bead02f8d6d75",
+      "title": "杨博元：爷爷坚持做实体产业，他说因为可以照顾很多人",
+      "url": "http://www.jsstb.gov.cn/rwft/201704/t20170406_11739582.htm",
+      "source_level": 2,
+      "publication_date": "2017-04-06",
+      "effective_period": "Reported company operations in 2017",
+      "locator": "Interview passages describing the company's cement products and a Nanjing Jiangbei project",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides business context but no market-share figure, channel definition, or denominator."
+    },
+    {
+      "source_id": "src-b167dc199916b842",
+      "title": "水泥類股 今年持續成長",
+      "url": "https://yilin0958989.pixnet.net/blog/posts/7118085964",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2017 performance and 2018 outlook, as described in the repost",
+      "locator": "Paragraph beginning 在大陸水泥廠貢獻下",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "A broker-blog repost attributed to 工商時報 says Nanjing cement-plant market share increased, but gives no 15% figure or defined denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks did not locate a reliable disclosure supporting the numeric share. The period, channel/product scope, geographic boundary, and denominator remain unspecified, so the share atom is left UNKNOWN.",
+    "The issuer's directory is undated and establishes location only.",
+    "The secondary profile's area-based sales proportions are not the same measure as market share.",
+    "The 2017 reposted report provides only a qualitative statement that Nanjing cement-plant share had increased; it does not substantiate approximately 15%."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1109/93/hermes-attempt-1.stdout.txt"
+}

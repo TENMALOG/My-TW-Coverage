@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000240",
+  "claim_id": "1597:objective_ranking_or_market_share:00f892e251ed2b4f",
+  "normalized_claim_hash": "00f892e251ed2b4f6192cffe72c88035453a5ef4f67afa39434a2ccb6755257f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c4e7ff7886db8c8c",
+      "title": "109英文年報1100511.pdf",
+      "url": "https://chieftek.com/wp-content/uploads/2025/12/FINANCIAL/2020_1597_20210528FE4_20220614_113249.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020",
+      "locator": "搜尋結果摘要；未核讀原始年報",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要稱產品為醫療產業產品的關鍵零組件；不等同已確認應用於醫療精密儀器。"
+    },
+    {
+      "source_id": "src-4ac80536146fa347",
+      "title": "PowerPoint 簡報",
+      "url": "https://chieftek.com/wp-content/uploads/2025/12/20230913Conference_en.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "搜尋結果摘要中的 Miniature robot arm application 項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要列出醫療產業應用，但未提供應用重要性或占比；僅為查找線索。"
+    },
+    {
+      "source_id": "src-0a87c302b4761068",
+      "title": "Linear motor stages - 直得科技股份有限公司cpc - Chieftek",
+      "url": "https://chieftek.com/products/linear-motor-stages",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品頁搜尋結果摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要提及精密自動化應用，但不支持應用排名或主要程度；僅為查找線索。"
+    },
+    {
+      "source_id": "src-35c07ed5576020d2",
+      "title": "直得科技股份有限公司｜台灣智慧機械官方網站 - 貿易產業拓展網",
+      "url": "https://industry.meettaiwan.com/smartmachinery/zh-tw/suppliers/detail?id=262&page=2",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介搜尋結果摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "摘要提及自動化產業及自動化設備應用；未核讀頁面原文。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用8次聚焦搜尋；達到工具回合上限。各原始來源及其具體範圍尚未核讀，相關原子主張維持 UNKNOWN。",
+    "本輪取得的內容均為搜尋結果摘要，未核讀連結中的年報、簡報或網頁原文；依任務要求，摘要只能作為查找線索，不能作為定案證據。",
+    "未找到可核實原句中「主要」或「最大領域」的期間、分母、排名依據或市場定義。",
+    "醫療相關應用、半導體相關應用及自動化相關應用的摘要描述，不足以替代原句所稱的具體設備範圍或重要性排序。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1597/240/hermes-attempt-1.stdout.txt"
+}

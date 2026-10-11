@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000717",
+  "claim_id": "1595:objective_ranking_or_market_share:59183f089735bcd1",
+  "normalized_claim_hash": "59183f089735bcd13d3b5d9feefbb3a8cecb4f4c28bd8a5543c77c3dbff8726c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b6b3782925725f164ac8",
+      "title": "川寶科技股份有限公司－防焊曝光機產品頁",
+      "url": "https://www.cbtech.com.tw/web/product/product.jsp?dmid=DM1698721678915&lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品介紹 > 汞燈源曝光機 > 防焊曝光機；CBT-810AC、CBT-810A",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面將兩型號標示為半自動防焊曝光機。"
+    },
+    {
+      "source_id": "src-df3da55eed3944191ffe",
+      "title": "Chime Ball Group Roadshow",
+      "url": "https://www.cbtech.com.tw/uploads/conference/tw/1523503400_9576.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "PCB BU Product Introduction；FPC/PCB Solder Mask Exposure",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報將PCB/FPC防焊曝光設備列為PCB事業產品；未在可查定位內容中提供全球排名。"
+    },
+    {
+      "source_id": "src-3c830bbf63c8c64af097",
+      "title": "川寶科技股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ce94cf8a-1865-4ce4-b81e-80fe9bc5fac0",
+      "source_level": 2,
+      "publication_date": "2026-07-31（頁面標示更新日期）",
+      "effective_period": null,
+      "locator": "「公司簡介」及「市場銷售競爭」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "該二手資料直接稱川寶為全球最大PCB半自動曝光機廠，並稱全球市佔達八成；但未提供該排名或市佔數字的原始來源、分母定義或統計方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查證；現有資料仍不足以核實全球排名所需的比較範圍、期間及衡量分母。",
+    "官方產品資料支持產品類別與型號，但查得的官方資料未證實全球最大排名。",
+    "MoneyDJ為二手資料；其全球市佔與排名說法缺乏可核查的來源、期間及市場分母定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1595/717/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ad724fe50f7594a9f02b6527a6dfd7c1337b673321eefac474c545c0a17efdf0",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1595/717/isolated-prompt.txt",
+  "prompt_sha256": "bd2d96370aad9ccb57dd6ce38cd191a88a901354ecff8a614d7887835c004905",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000717/manifest.json",
+  "supersedes_manifest_sha256": "28d6caa27a1974cb7c6b748b97725530f88cee4f4e32aec155e30bc00b431346",
+  "corrected_at": "2026-10-08T09:58:37Z"
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000004",
+  "claim_id": "4546:objective_ranking_or_market_share:db06b1cb4d0d13e1",
+  "normalized_claim_hash": "db06b1cb4d0d13e1697ff1cc445e8970d8fa60b545a2207c31dd027eb5cbe193",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "chaheng-about-zh",
+      "title": "長亨簡介 - 長亨精密股份有限公司",
+      "url": "https://www.chaheng.com/chinese/about.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行官網頁面；2026-10-06 查閱，頁面未標發布或更新日期。",
+      "locator": "公司簡介段落：產品100%外銷歐美大廠；逐項列舉多項全球市佔第一產品。",
+      "source_sha256": "f9cbea716a3f59a00c3ec44b9026692018db6236ea1879749047e3ab835aa2e5",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4546/chaheng-about-zh.html",
+      "note": "發行人自述，直接支持「公司官網作出此說法」；未提供市佔計算方法、比較母體、資料期間或第三方驗證。官網的100%產品外銷主張也沒有說明分母及統計期間。"
+    },
+    {
+      "source_id": "moneydj-4546-profile",
+      "title": "長亨精密股份有限公司 - MoneyDJ 理財網",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=09016fb8-7af9-44e2-8679-eb892e0b2bdb",
+      "source_level": 4,
+      "publication_date": null,
+      "effective_period": "頁面列示2025全年銷售地區資料，於2026-10-06擷取；未見頁面更新日期。",
+      "locator": "「市場銷售與競爭／銷售狀況」：2025內銷27%、外銷73%，法國16%、美國49%；其後稱主要客戶包括GE Aviation、Safran。",
+      "source_sha256": "67aa98f92e8908386d63e5c4efc4e7c7f48ae5cf12691b5e43bd27f8bff40403",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4546/moneydj-4546-company-profile.html",
+      "note": "次級公司資料頁，支持其所載2025年地區銷售分布及主要客戶名稱；沒有列主要客戶銷售占比，也未提供該客戶名單的獨立核實方法。原始頁面於本次擷取的 SHA-256 為 67aa98f92e8908386d3e5c4efc4e7c7f48ae5cf12691b5e43bd27f8bff40403。"
+    },
+    {
+      "source_id": "chaheng-2016-annual-report",
+      "title": "長亨精密股份有限公司 105 年度年報",
+      "url": "https://www.chaheng.com/chinese/stakeholder1-4.php?DownSn=17&opp=download",
+      "source_level": 2,
+      "publication_date": "2017-07-19（公司年報列表所示上架日）",
+      "effective_period": "2015及2016年度客戶資料；年報第62頁（PDF第66頁）。",
+      "locator": "銷貨客戶表：Safran佔2015銷貨淨額88.78%、2016年83.11%；第84頁說明目前銷貨大都集中於Safran，並稱GE給予相當數額長期訂單。另第62頁述Safran銷貨收入增加。",
+      "source_sha256": "c6df863ab4808a4266a82b67c41987104518c9cb2069546028f85f7efa2c47f7",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4546/chaheng-2016-annual-report.pdf",
+      "note": "官方年報是正式發行人揭露，確認歷史上Safran為主要且高度集中的客戶，並確認GE有長期訂單；不能直接代表2025客戶集中度或相對排序。"
+    },
+    {
+      "source_id": "ge-aviation-rebrand-2022",
+      "title": "GE Aviation opens new Asia-Pacific Service Centre in Australia - GE Aerospace",
+      "url": "https://www.geaerospace.com/news/press-releases/systems/ge-aviation-opens-new-asia-pacific-service-centre-australia",
+      "source_level": 3,
+      "publication_date": "2022-09-06",
+      "effective_period": "GE官方公告，2022-09-06。",
+      "locator": "公告末段將GE Aviation稱為「is becoming GE Aerospace」。",
+      "source_sha256": "018c3a48daf6c2cf2627f40e6982815b1abcb6f7a6e78bd0407a20591d816043",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4546/ge-aviation-name-change-2022.html",
+      "note": "用於名稱沿革：MoneyDJ列GE Aviation，對照原 claim 使用的GE Aerospace。名稱沿革不會額外證明長亨在當期的客戶重要性。"
+    }
+  ],
+  "search_notes": [
+    "查閱長亨現行官網公司簡介；可確認官網目前逐項聲稱多項產品全球市佔第一及100%外銷，但該頁沒有排名方法、量化市佔率或期間。",
+    "MoneyDJ公司資料載明2025外銷占銷售地區73%、主要客戶包括GE Aviation與Safran。這與官網「產品100%外銷」表面上不同；前者是全公司銷售地區比例，後者未說明是否只按產品或特定產品計算，故不作直接反證，也不將二者混為同一口徑。",
+    "官方105年度年報表列2015及2016年Safran分別占銷貨淨額88.78%及83.11%，並描述GE長期訂單；這是歷史佐證，不代替當期占比。GE官方2022公告確認GE Aviation改用GE Aerospace品牌名稱。",
+    "以列舉的CFM56、CF6、GEnx、LEAP、GE9X產品與global market share/市佔率等片語搜尋；找到的直接排名來源仍是長亨官網。其他結果談的是整體發動機或較大產品類別市佔，並非長亨所列個別零件的份額，故排除為不等價證據。",
+    "未找到能獨立驗證各列舉零件全球第一的產業排名或可重算份額；不把公司自述升格為獨立驗證的客觀排名。"
+  ],
+  "excluded_sources": [
+    {
+      "title": "Aeroengine fan blade market overview/search-result market reports",
+      "url": "https://www.maiaresearch.com/market-report/1874049-Aeroengine-Fan-Blades-1874049.html",
+      "reason": "涵蓋較廣的航空發動機風扇葉片製造商市場，非長亨主張的個別發動機零件與特定型號全球市佔率；不能驗證「該零件全球第一」。"
+    },
+    {
+      "title": "2016長亨年報中的客戶資料",
+      "url": "https://www.chaheng.com/chinese/stakeholder1-4.php?DownSn=17&opp=download",
+      "reason": "僅用於支持2015–2016歷史客戶關係，不用來推斷2025主要客戶排序或銷售比重。"
+    }
+  ]
+}

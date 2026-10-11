@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000566",
+  "claim_id": "5483:objective_ranking_or_market_share:f9ec0490463350f9",
+  "normalized_claim_hash": "f9ec0490463350f9f4bcbc8083fc9025733a07271272d73e3e960b57fffaafc0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-252edfec135aafc3",
+      "title": "About SAS | Sino-American Silicon Products Inc.",
+      "url": "https://www.saswafer.com/en/about-us/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening paragraph and paragraph on the 2011 spin-offs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Contains the three-field product description but also documents that semiconductor and sapphire businesses were carved out; page gives no effective date for its opening description."
+    },
+    {
+      "source_id": "src-45e6359f1c3a63f3",
+      "title": "Group Profile | Sino-American Silicon Products Inc.",
+      "url": "https://saswafer.com/en/profile-en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行集團介紹",
+      "locator": "Opening paragraphs; “Maximizing Group Synergies”; “Advancing Renewable Energy...”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Current description spans semiconductors, automotive components, renewable energy, and energy services; it does not identify semiconductor, solar, and sapphire as the group's three major businesses."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱中美晶官方舊版介紹及現行中英文集團介紹。排名缺少可驗證的期間、範圍與分母；藍寶石是否仍屬廣義集團主要事業亦未獲現行資料確認，故保留為UNKNOWN。",
+    "「台灣最大」僅見於中美晶未標示日期的官方自述，沒有獨立排名資料或可核對的供應量、市佔率及市場定義。",
+    "官方網站同時保留含有舊版現時語氣的介紹文字與較新的集團介紹；舊版頁面所述事業分割時間為2011年，不能直接視為現行事業結構。",
+    "集團層級的半導體布局不等同中美晶母公司直接經營半導體晶圓業務。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5483/566/hermes-attempt-1.stdout.txt"
+}

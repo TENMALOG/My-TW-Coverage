@@ -1,0 +1,51 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000033",
+  "claim_id": "1522:objective_ranking_or_market_share:c39cb97e670a83a1",
+  "normalized_claim_hash": "c39cb97e670a83a16876ee19fc5913d981445510b3268b3b4c0bccd86524ae3b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "tyc-2025-sustainability-report",
+      "title": "堤維西交通工業股份有限公司2025永續報告書",
+      "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2025_Sustainability_1_zh.pdf",
+      "source_level": 3,
+      "publication_date": "2026-07-14",
+      "effective_period": "2025年度；公司於2026-07-14發布，報告經第三方AA1000AS v3 Type 1中度確信。",
+      "locator": "印刷頁31：公司稱持續拓展全球AM市場，提供全球130多國客戶一站式購足服務；截至2025年底累計通過CAPA認證燈具2,400組。報告未載北美AM車燈12%市占或全球前五名排名。",
+      "source_sha256": "ab36f325ee1b7c7bd622da8ebc256fa1575f3c52639ede7064b2f1d4235e1e4d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/33/tyc-2025-sustainability-report.pdf",
+      "note": "發行人最新可取得永續報告。第三方確信聲明不等於對未揭露的市場排名或市占數字進行查核。"
+    },
+    {
+      "source_id": "tyc-2026-03-investor-presentation",
+      "title": "堤維西交通工業股份有限公司2026年法人說明會簡報",
+      "url": "https://mopsov.twse.com.tw/nas/STR/152220260318M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-19",
+      "effective_period": "2026年3月法人說明會。",
+      "locator": "簡報第6頁介紹TYC Americas在加州Brea的營運總部及分布於五州的發貨倉，服務北美售服車燈市場與OEM客戶；全份25頁沒有12%市占或全球前五名數字。",
+      "source_sha256": "562d83af5d90cd0a9427335f207d81d8dbd224b7e9da31b4e69728ea56aa7839",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/33/tyc-2026-03-investor-presentation.pdf",
+      "note": "支持北美AM物流和營運布局，未給市占率／全球排名。"
+    },
+    {
+      "source_id": "tyc-2023-sustainability-report",
+      "title": "堤維西交通工業股份有限公司2023永續報告書",
+      "url": "https://www.tyc.com.tw/assets/uploads/sustainable/reports/TYC_2023_Sustainability_zh.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度公司揭露。",
+      "locator": "印刷頁21稱TYC品牌行銷全球130多國，並稱公司為全球OEM及AM售服市場夥伴／供應商之一；印刷頁23同時列2023年營收區域中荷蘭約12.2%，這是地區營收占比，並非北美AM車燈市占。報告沒有北美12%市占或全球前五名排名。",
+      "source_sha256": "cb72fb6522702be7e911b6444e6a08e7ff11aecb6109c903882b9e38c986b838",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1522/33/tyc-2023-sustainability-report.pdf",
+      "note": "支持公司自述的全球布局；2023年報告中出現的12.2%屬荷蘭區域銷售占比，與市場份額無關。"
+    }
+  ],
+  "search_notes": [
+    "優先查堤維西2025永續報告與2026年3月法人簡報，再回溯2023永續報告核對全球定位及12%數字上下文。",
+    "最新報告說TYC品牌全球130多國、北美具配送倉，但未列市占或全球排名。",
+    "將2023報告荷蘭12.2%區域營收與市場份額分開；未把地理營收占比推成產品市占。",
+    "公司自述全球供應商定位不等於可量化的全球前五名。"
+  ]
+}

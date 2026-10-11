@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001220",
+  "claim_id": "1304:profitability_assertion:c324a7d5e4db1022",
+  "normalized_claim_hash": "c324a7d5e4db10228658d8ed63fca1d473411afd26a4eb7e0eba42b2f7b6dd64",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5537b176dacb7ad4",
+      "title": "關於台聚",
+      "url": "https://www.usife.com.tw/zh-tw/dirAbout/frmAbout",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹中EVA應用段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明熱熔膠用途。"
+    },
+    {
+      "source_id": "src-8378196c867e68cc",
+      "title": "看好日本太陽能封裝膜需求，台聚下半年衝出貨",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3b45343a-9a16-4d6e-b449-839783bc626c",
+      "source_level": 2,
+      "publication_date": "2011-02-11",
+      "effective_period": "報導所述的2011年市場情境",
+      "locator": "報導中台聚談太陽能級EVA出貨的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導僅提供歷史性、定性描述，未給產品毛利率數值或可適用於其他期間的證據。"
+    },
+    {
+      "source_id": "src-1208b53fa2afd876",
+      "title": "EVA－乙烯醋酸乙烯酯",
+      "url": "https://www.usife.com.tw/zh-tw/dirProduct/frmProduct2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「主要用途」清單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明熱熔膠用途。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得台聚官方產品與應用資料；毛利主張欠缺期間、分母及比較基準，現有歷史二手資料不足以解決該原子主張，故保留UNKNOWN。",
+    "官方資料證實的是EVA級料及其用途，並未證實台聚製造完成的太陽能封裝膜、鞋材或熱熔膠成品。",
+    "未找到產品別毛利率或「高毛利」的明確門檻與比較對象。",
+    "2011年二手報導的毛利描述是歷史情境，不能替代未指定期間的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1304/1220/hermes-attempt-1.stdout.txt"
+}

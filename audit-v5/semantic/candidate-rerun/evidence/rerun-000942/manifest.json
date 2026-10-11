@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000942",
+  "claim_id": "6220:profitability_assertion:e4804995c2f71ae0",
+  "normalized_claim_hash": "e4804995c2f71ae03189a3ecb5f39b25104594086381520d91881d3d7bad2695",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f9fa03290554b676",
+      "title": "岳豐(6220) 2026Q2法說會簡報PDF下載 | 6月26日法人說明會",
+      "url": "https://finmoconf.diveinvest.net/presentation/6a3e8a95a16a75b813460d08",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026 Q1",
+      "locator": "Financial Highlights—2026 Q1 income statement; gross margin 28.06%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The reported denominator is consolidated/company-wide revenue; it does not establish networking-cable or OEM gross margin, nor customer-specific margins."
+    },
+    {
+      "source_id": "src-c05f8a8d8d73b07f",
+      "title": "法人說明會資訊—岳豐科技股份有限公司",
+      "url": "https://www.cables.com.tw/seminar-2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-06-26",
+      "locator": "2026年6月26日自辦法人說明會 entry",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page confirms the presentation date and existence, but does not itself show the OEM list."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人官方法人說明會索引及可取得的簡報轉錄；官方 PDF 端點受檢索工具限制，且現有資料未提供客戶—產品對應或網通線材 OEM 毛利率。未解決的原子主張保留為 UNKNOWN。",
+    "岳豐官方網站確認 2026-06-26 舉行法人說明會，但官方簡報 PDF 端點無法由本次檢索工具讀取；OEM 名單內容來自簡報的二手轉錄。",
+    "公司整體毛利率、產品營收占比或 OEM 名單均不能替代特定客戶、特定網通線材 OEM 業務的毛利資料。",
+    "原 claim 未界定「高毛利」的衡量方式、期間或比較基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6220/942/hermes-attempt-1.stdout.txt"
+}

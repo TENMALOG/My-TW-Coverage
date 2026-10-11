@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000705",
+  "claim_id": "6959:objective_ranking_or_market_share:04813286c96d4265",
+  "normalized_claim_hash": "04813286c96d426572e7959e3ac98fbaf9e0aab3b66ac52d8b6bc934c485c4a3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6f66fa2a655ab191",
+      "title": "兆捷科技國際股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=f7d5b2a6-2387-40a4-adb1-752a64d1a51c",
+      "source_level": 2,
+      "publication_date": "2025-07-30",
+      "effective_period": null,
+      "locator": "特殊氣體產品分類：電子植入、清潔蝕刻、沉積薄膜及雷射氣體",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手摘要列出四類產品，並稱資料來源為公開說明書。"
+    },
+    {
+      "source_id": "src-9ce63f1aa6b90042",
+      "title": "兆捷參展 SEMICON Taiwan 2026 展示高階電子特氣布局",
+      "url": "https://money.udn.com/money/story/5612/9727447",
+      "source_level": 2,
+      "publication_date": "2026-09-01",
+      "effective_period": null,
+      "locator": "報導正文：離子植入、清潔、薄膜沉積及雷射四類產品線",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱兆捷展出四類產品線，並轉述其生產技術能力；屬二手報導。"
+    },
+    {
+      "source_id": "src-40f8bed3d191b99d",
+      "title": "11B Enriched Boron Trifluoride (11BF3) - 兆捷科技國際股份有限公司",
+      "url": "https://www.iemtw.com/tw/products/ion-implantation-gas-11bf3-sagi",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品標題及正文；「氣體與對應鋼瓶規格」表格列出11BF3",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方產品頁明確列出離子植入用11B富集三氟化硼（11BF3）；原文僅寫BF3，規格範圍較寬。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達工具呼叫上限；排他性缺少獨立市場比較證據，保留為UNKNOWN。",
+    "四類產品布局及台灣唯一的說法主要見於二手摘要或新聞報導；相關來源雖提及公開說明書或公司說法，未提供完整競爭者名單、比較方法或市場範圍。",
+    "公司官方頁面可支持其列示的離子植入氣體產品，但不能單獨證明市場排他性。",
+    "官方頁所列三氟化硼為11B富集規格；這不等於證明公司供應所有BF3規格。",
+    "原文「目前」沒有明確基準日期；產品頁未標示供應狀態的起始或有效期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6959/705/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000324",
+  "claim_id": "6176:objective_ranking_or_market_share:b2f52f3fc1ef841a",
+  "normalized_claim_hash": "b2f52f3fc1ef841a915cf2de2ce322c78869ab91096ffb83673f4bcf3a7e9913",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c07987a0ffda2ad75db5",
+      "title": "Company Overview - Radiant Opto-Electronics",
+      "url": "https://www.radiant.com.tw/xhtml/en/about02.jsf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "July 1995 (founding date)",
+      "locator": "Company Overview; “Founding date July 1995” and “Radiant was founded in July 1995.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure."
+    },
+    {
+      "source_id": "src-6d3d90173de04087a647",
+      "title": "Radiant Corporate Sustainability: “Is AI an investment or a cost? Use the right scenarios to improve transformation efficiency and accelerate AI value realization”",
+      "url": "https://esg.radiant.com.tw/story_detail?id=163",
+      "source_level": 2,
+      "publication_date": "2024-08-07",
+      "effective_period": null,
+      "locator": "Article body, “Harnessing AI technology to accelerate dual-axis transformation”; describes Radiant as “the world's largest backlight module factory.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer's ESG site hosts the article, which is attributed to Business Weekly. It asserts the ranking but supplies no metric, denominator, comparison set, or supporting data."
+    },
+    {
+      "source_id": "src-e0a46eed9a5a7e9bc5d9",
+      "title": "Company Overview - Radiant Opto-Electronics",
+      "url": "https://www.radiant.com.tw/xhtml/en/about02.jsf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Overview; lists LCD backlight modules as a key product and describes a future aim to become a leader in backlight-module manufacturing.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure; it does not claim that Radiant is currently the world's largest."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official issuer pages and the company-hosted article found no reliable comparative ranking with a defined market scope, period, denominator, and measurement unit. The ranking atom remains UNKNOWN.",
+    "The founding date is directly supported by the issuer's official company overview.",
+    "The global-largest description appears in an article hosted on the issuer's ESG site but attributed to Business Weekly; it is an assertion, not a documented comparative ranking.",
+    "The issuer's official profile supports its involvement in LCD backlight modules and global manufacturing, but does not establish a number-one position."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6176/324/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f737043685465d6b251b09b8a2266d4a0c5b648208627fadb0defb065336d7d0",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6176/324/isolated-prompt.txt",
+  "prompt_sha256": "0e7fb5c527560c5853c22c90ef7d362d483f6de8cb9bd092c7e30e16fe0c7b0d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000324/manifest.json",
+  "supersedes_manifest_sha256": "ca6e8a68c3aaa85ca8516cc0177027b9ffa531c0bf281da9a63394e7cea8bebd",
+  "corrected_at": "2026-10-08T09:58:03Z"
+}

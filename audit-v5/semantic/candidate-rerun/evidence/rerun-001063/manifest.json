@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001063",
+  "claim_id": "3714:material_named_relationship:28aa27396a338166",
+  "normalized_claim_hash": "28aa27396a3381664395250180cfd424996b51212bb7fddf0159e1e833530364",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1cc9d721edbbcba0",
+      "title": "《蘋果WWDC》客戶改款備貨，富采H2營運盼回神",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75780675-7ec0-4840-ab21-b211ca6e8b8a",
+      "source_level": 2,
+      "publication_date": "2023-06-01",
+      "effective_period": "報導截至 2023-06-01 的 MacBook Mini LED 供貨狀況",
+      "locator": "第 45 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱富采與三安共同供應 MacBook 背光 Mini LED；未量化雙方份額。"
+    },
+    {
+      "source_id": "src-3a253bbc081e3944",
+      "title": "Apple unveils stunning new iPad Pro with M4 chip and Apple Pencil Pro",
+      "url": "https://www.apple.com/newsroom/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/",
+      "source_level": 3,
+      "publication_date": "2024-05-07",
+      "effective_period": "2024 年 M4 iPad Pro",
+      "locator": "第 43、72–75 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Apple 官方資料確認該世代 iPad Pro 採用串聯 OLED；用於限定 Mini LED 關係的產品世代，不證明富采供應商身分。"
+    },
+    {
+      "source_id": "src-9c693248d19682e2",
+      "title": "湘财证券：电子行业双周报（2021-09-30）",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202109301519516415_1.pdf",
+      "source_level": 2,
+      "publication_date": "2021-09-30",
+      "effective_period": "2021 年 MacBook Mini LED 供應鏈拉貨期",
+      "locator": "PDF 第 1 頁第 79–83 行；第 8 頁第 336–340 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱富采為 MacBook 主要 Mini LED 背光元件供應商；屬券商研究報告，引用 WitsView，未披露供應份額或「主要」的計量口徑。"
+    },
+    {
+      "source_id": "src-eeaba777e8e55655",
+      "title": "Mini LED廠打蘋果光",
+      "url": "https://www.e-teca.org.tw/contentcategoriesnews-page803",
+      "source_level": 2,
+      "publication_date": "2021-10-18",
+      "effective_period": "2021 年新款 MacBook 首次導入 Mini LED 的供應鏈",
+      "locator": "第 120–121 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉述供應鏈消息，稱富采負責供應新款 MacBook 的 Mini LED 晶粒；未提供供應量或市場排名。"
+    },
+    {
+      "source_id": "src-26dbba17bc9a0610",
+      "title": "BOE poised to become Apple’s top MacBook display panel supplier in 2025, says Omdia",
+      "url": "https://omdia.tech.informa.com/pr/2025/jul/boe-poised-to-become-apples-top-macbook-display-panel-supplier-in-2025-says-omdia",
+      "source_level": 2,
+      "publication_date": "2025-07-02",
+      "effective_period": "Omdia 對 2025 年 Apple MacBook 面板供應的分析",
+      "locator": "第 133–145 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "討論面板供應及 MacBook Pro 面板供應商，並未確認 Mini LED 晶片供應商或富采的晶片份額；面板供應資料不能替代晶片供應證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成六輪聚焦搜尋與來源核對。歷史供應關係有二級來源支持，但未找到官方具名確認、可驗證的供應份額或足以確定未限定期間之「主要供應商」地位的資料；依任務限制停止，未解部分保留 UNKNOWN。",
+    "未找到富采或 Apple 的官方文件確認這兩條產品線的具名晶片供應關係及份額；支持材料主要是媒體報導與券商研究報告。",
+    "「主要」沒有指定按出貨量、訂單額、營收或其他口徑衡量，來源也沒有提供相應分母或排名。",
+    "報導可能將富采集團與旗下晶粒供應公司混稱為富采；具體簽約或供貨法人未由本次來源確認。",
+    "Apple 官方資料顯示 2024 年 M4 iPad Pro 使用串聯 OLED；這不否定較早 Mini LED 世代的供應關係，但限制了未限定世代的表述。",
+    "MacBook Pro 的資料顯示供應鏈並非必然獨家：2023 年報導稱富采與三安共同供貨。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3714/1063/hermes-attempt-1.stdout.txt"
+}

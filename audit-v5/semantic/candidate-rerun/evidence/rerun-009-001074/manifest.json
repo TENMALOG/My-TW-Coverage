@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001074",
+  "claim_id": "5251:material_named_relationship:7a2e178397650de7",
+  "normalized_claim_hash": "7a2e178397650de7fd460d11d5275939637e59716d5c7468f94115cc54991efd",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d9ed8a023fa56785b035",
+      "title": "天鉞電子與OPTEX合作多年，今年進一步取得OPTEX台灣地區代理業務",
+      "url": "https://www.secufirst.com.tw/pages/%E6%96%B0%E8%81%9E%E7%9B%B8%E9%97%9C",
+      "source_level": 3,
+      "publication_date": "2023-04-24（頁面標示的來源日期）",
+      "effective_period": "2023 年",
+      "locator": "頁面新聞內容；其下標示「來源:2023/04/24 聯合新聞網」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "天鉞電子自有網站轉載內容，稱 OPTEX 高階感測器已有銷售基礎，並稱公司進一步取得台灣地區代理業務。"
+    },
+    {
+      "source_id": "src-c2f6dd004f54c8355a8e",
+      "title": "安防業務強勁成長─天鉞電",
+      "url": "https://udn.com/news/story/6850/8713521",
+      "source_level": 2,
+      "publication_date": "2025-05-04",
+      "effective_period": "約 2023 年起（報導稱兩年前取得代理權）",
+      "locator": "正文第 78 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "聯合新聞網刊載的萬寶週刊文章稱天鉞電取得 OPTEX 台灣總代理權，並以此強化智慧安控產品線。"
+    },
+    {
+      "source_id": "src-453bd897610dad2e7937",
+      "title": "天鉞電子｜台灣總代理服務（工程實績與最新消息）",
+      "url": "https://www.jsw-rep.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "工程實績列示於 2024-12-14、2024-12-17；另有 2025 年應用內容",
+      "locator": "首頁「工程實績」：Optex 室內 PIR 感測器用於監獄與看守所；「最新消息」：2025-09-01 台灣安防應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "天鉞電子自有網站的工程實績及市場應用自述；可作直接但具自我宣傳性質的公司來源。"
+    },
+    {
+      "source_id": "src-222fa25c6fc9a8f3c317",
+      "title": "天鉞電攜手系統保全客戶 打造 AI 戰術指揮防線",
+      "url": "https://money.udn.com/money/amp/story/11162/9609641",
+      "source_level": 2,
+      "publication_date": "2026-07-06",
+      "effective_period": "2026 年報導所述應用",
+      "locator": "正文第 44–51 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟日報報導天鉞電與系統保全客戶合作，將 OPTEX REDSCAN 光達融入周界防禦，並與影像管理及實體安全資訊平台整合；未列出客戶名稱。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "找到支持代理銷售及本地安防應用的公司資料與媒體報導；原句的狹義關係主張已有支持，未將其擴張解讀為廣泛市占或重大營收貢獻。",
+    "代理及工程實績的直接來源主要為天鉞電自有網站，存在公司宣傳來源的限制。",
+    "媒體報導支持代理關係及具體整合應用，但沒有披露終端客戶名、銷售量、市占率或營收占比；不應據此推論其供應規模或市場滲透程度。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5251/1074/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c49f25f2f6415189e98dbdc849c16c7becf7eb5931a30a563dd310de0dbde80a",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5251/1074/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "1f63582db91e11a5a12ecd1f9f44b9e73d041856934f6923219ab705b6d3cd3f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001074/manifest.json",
+  "supersedes_manifest_sha256": "4d0d1714745aedaa76498341d47a0388903268d50278356fcfc7857cb0f4e6f7",
+  "corrected_at": "2026-10-08T09:59:15Z"
+}

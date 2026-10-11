@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000385",
+  "claim_id": "8926:objective_ranking_or_market_share:edc06851f49467ab",
+  "normalized_claim_hash": "edc06851f49467abdaf90e6d05ebb535b7ef81aeb273a81302a7c9309af1b43c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6192d97f2cdd9488",
+      "title": "2023年永續報告書",
+      "url": "https://esg.cogen.com.tw/files/20250711161429470.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "Company overview / customer count",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports nine customers, including Taipower, but provides no customer ranking or comparative denominator."
+    },
+    {
+      "source_id": "src-233a5fe04f556d95",
+      "title": "114年度年報",
+      "url": "https://www.cogen.com.tw/files/57700f18b821825124DEa1f3Bdb75871B91ED140.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-31",
+      "effective_period": "2026 operating plan",
+      "locator": "Operating plan, basis for expected production and sales",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms consideration of surplus electricity sales to Taipower, without specifying a long-term PPA or its duration."
+    },
+    {
+      "source_id": "src-27ddb8e7ec70713c",
+      "title": "檢討民營電廠購電合約之辦理情形",
+      "url": "https://www.ey.gov.tw/File/F8F090277D1D9D89?A=C",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Discusses private power plant arrangements and references 2016 operating context",
+      "locator": "Overview of Taipower purchasing from private power plants",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes 25-year purchase-and-sale contracts for private power plants generally; it does not identify a Taiwan Cogeneration contract or establish that the issuer’s surplus sales use such a contract."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research exhausted; customer ranking and issuer-specific long-term PPA scope remain unresolved.",
+    "Issuer disclosures confirm Taipower is among the customers and that surplus electricity sales to it are considered, but do not establish a largest-customer ranking.",
+    "The ranking period, entity scope (parent or consolidated group), and denominator for “largest” are unspecified.",
+    "General information about 25-year Taipower contracts with private power plants does not establish a specific contract with Taiwan Cogeneration or distinguish the parent’s cogeneration plant from investee IPPs."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8926/385/hermes-attempt-1.stdout.txt"
+}

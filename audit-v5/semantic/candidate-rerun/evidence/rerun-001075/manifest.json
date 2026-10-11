@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001075",
+  "claim_id": "5315:profitability_assertion:a8d38d9aef0affb8",
+  "normalized_claim_hash": "a8d38d9aef0affb842b4723353196790a251f6e7060f82d9b44ada787fbe092c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8c514ea23834d36c",
+      "title": "光聯車用接單大爆發（經濟日報，豐雲學堂轉載）",
+      "url": "https://www.sinotrade.com.tw/richclub/news/63e9302ae4d28a05a89a353f",
+      "source_level": 2,
+      "publication_date": "2023-02-12",
+      "effective_period": "報導所述當時；未給合約期間",
+      "locator": "文章首段及「光聯透露」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持具名車廠的車用供應關係，但沒有說明各車廠採購的具體產品類別。"
+    },
+    {
+      "source_id": "src-d54c8418348533b8",
+      "title": "光聯科技股份有限公司 2025 年度年報",
+      "url": "https://www.urt.com.tw/upload-files/Investors/CSR/Shareholder/2025_Annual_Report_chinese_.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度及2026年度營業計畫",
+      "locator": "第3–5頁及第7頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持車用顯示產品及儀表板模組研發/拓展方向，但未具名車廠或客戶別產品。"
+    },
+    {
+      "source_id": "src-54cdf2aeb816700d",
+      "title": "車用顯示器產品介紹（光聯科技官網）",
+      "url": "https://www.urt.com.tw/zh-TW/news/4/data/14",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「車用顯示器通過IATF16949驗證」及產品規格表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品介紹說明車用顯示器及相關儀表、娛樂、導航和氣候控制應用；未列出具名採購車廠。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2025年度官方年報、官方車用產品介紹，並檢索具名車廠與光聯的公開資料。官方來源確認車用顯示產品及相關研發方向；具名車廠關係僅找到2023年次級報導，未找到能把各車廠與儀表/中控特定模組直接對應的可靠資料，故該原子維持UNKNOWN。",
+    "具名車廠供應關係的證據來自2023年經濟日報報導轉載，並非年報、公司公告或車廠確認；只支持報導所述時點。",
+    "官方年報將車用顯示及儀表板模組列為產品定位或研發拓展項目，不等於證明相關模組已向每一家具名車廠出貨。",
+    "年報公布公司整體營收和毛利，未提供車用或其他應用別毛利率、具名客戶銷售額或客戶別出貨量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5315/1075/hermes-attempt-1.stdout.txt"
+}

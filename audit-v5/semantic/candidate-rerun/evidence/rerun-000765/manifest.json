@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000765",
+  "claim_id": "3130:objective_ranking_or_market_share:96c37785e24a9e4c",
+  "normalized_claim_hash": "96c37785e24a9e4c301d232fbc122aaf7ff515881035c3670fa8793da8f89651",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-69f25057c4e5e6cd",
+      "title": "一零四資訊科技股份有限公司（2023年年報）",
+      "url": "https://corp.104.com.tw/archive/storage/year/filename_2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023",
+      "locator": "壹、致股東報告書；研究與發展成果；媒合引擎優化",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes personalized job search and machine-learning algorithms designed to improve job-recommendation accuracy."
+    },
+    {
+      "source_id": "src-4dd143f85f203fd4",
+      "title": "104 AI工具再升級！用戶使用率突破86.8% 智慧媒合率超過4成",
+      "url": "https://corp.104.com.tw/archive/storage/news/filename_1544.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-05",
+      "effective_period": "As described in the issuer's 2026-02-05 release",
+      "locator": "新聞稿第2頁，AI推薦工作／推薦人才",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes AI recommendations of jobs using internal data and behavior models, including job-seeker resumes and preferences."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人年報、發行人新聞稿及市場比較線索；未找到可驗證「全台最大線上職缺庫」的同口徑資料。依研究範圍停止，該排名原子保留為UNKNOWN。",
+    "最大資料庫的表述來自發行人自述，未見獨立市場排名或比較方法。",
+    "發行人披露的「人才資料庫」與原主張的「線上職缺庫」不是同一統計對象。",
+    "未找到可比較的職缺數量、競爭平台範圍、去重方式或排名基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3130/765/hermes-attempt-1.stdout.txt"
+}

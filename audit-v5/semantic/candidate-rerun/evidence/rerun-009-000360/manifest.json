@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000360",
+  "claim_id": "1603:objective_ranking_or_market_share:fe4b64c156172c36",
+  "normalized_claim_hash": "fe4b64c156172c36b8706c6e928263e65ebc0eb6666b86fc1e90e59d6fd5edaf",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-275918053d45fd1abe3a",
+      "title": "第一伸銅科技股份有限公司",
+      "url": "https://www.fcht.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The company describes producing copper and copper-alloy sheets for semiconductor/electronics, automotive terminals, consumer electronics, and construction. It gives no market share or ranking for the claim's category."
+    },
+    {
+      "source_id": "src-d9968a4b21c26ad7f858",
+      "title": "銅線材 – 華新麗華｜Walsin Lihwa",
+      "url": "https://www.walsin.com/product/copperwire",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes copper rod and wire products and production capacity; this is not evidence of aluminum-ingot market position."
+    },
+    {
+      "source_id": "src-e01c87cd3a3cabccc470",
+      "title": "電線電纜事業 – 華新麗華｜Walsin Lihwa",
+      "url": "https://www.walsin.com/our-business/wire-cable",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Business overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes the company's cable and wire business, including upstream bare copper wire and copper rod; no aluminum-ingot ranking or share is provided."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research did not resolve the fragment's meaning or establish a period, market definition, denominator, units, ranking, or share; unresolved atoms remain UNKNOWN.",
+    "The supplied claim is a fragment, not a complete proposition; the pairing between companies and material categories is not explicit.",
+    "No retrieved reliable source establishes a period-specific ranking or market share for either company in the implied categories.",
+    "Product descriptions and capacity figures do not establish market share, ranking, or a common market denominator."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1603/360/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "02be8877d520eb39433d6b0610ed5c6399adb2369a98ca4cee218727e64eb975",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1603/360/isolated-prompt.txt",
+  "prompt_sha256": "98a6c7601eecc6dbc002bb064bedbafa329eb463a18e195afddbdaf9b75d7ae7",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000360/manifest.json",
+  "supersedes_manifest_sha256": "c7211e06163f3d9484b85bade8aa9215d2ca9521bcd0333f727b9c3a05a8bfca",
+  "corrected_at": "2026-10-08T09:58:05Z"
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000960",
+  "claim_id": "2301:material_named_relationship:458a4adc5a257829",
+  "normalized_claim_hash": "458a4adc5a257829a6fb8d6a6ec057b7020d57242f878cb0585eb39dcd4c71b1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8137bec591b94e28",
+      "title": "AI Server Power Supply - Global Market Share And Ranking",
+      "url": "https://www.marketresearch.com/QYResearch-Group-v3531/AI-Server-Power-Supply-Global-42340828/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "搜尋結果摘要：列出全球主要製造商，包含 LITEON Technology。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持其被列為全球主要製造商之一，但未提供可核實的排名、市占率或市場分母。"
+    },
+    {
+      "source_id": "src-52c026d47e92cdb8",
+      "title": "LITEON 2026 年 6 月營收公告",
+      "url": "https://www.liteon.com/zh-tw/news/press-center/content/liteon-monthly-sales-june-2026",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 年 6 月及上半年",
+      "locator": "公告摘要及營收組成說明：雲端及物聯網部門涵蓋 AI 伺服器電源與 BBU。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述其產品與雲端及 AI 伺服器應用的關聯；不是全球排名或市占率證據。"
+    },
+    {
+      "source_id": "src-fe69b18c57c19443",
+      "title": "LITEON COMPUTEX 2025 新聞稿",
+      "url": "https://www.liteon.com/zh-tw/news/press-center/content/liteon-computex-nv-2025",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "COMPUTEX 2025，2025 年 5 月 20–23 日",
+      "locator": "新聞稿：GB200/GB300 整合式方案及列出的 20kW Capacitor Shelf。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述展示內容；未提供客戶部署證據。"
+    },
+    {
+      "source_id": "src-0d086a58e7e36f1b",
+      "title": "LITEON Q4 及全年 2025 業績公告",
+      "url": "https://www.liteon.com/en/news/press-center/content/quarterly-fourth-eps-2025",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 年全年展望",
+      "locator": "展望段落：AI-related revenue contribution 預計於 2026 年超過 30%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "屬較廣的 AI 相關營收口徑，未拆分 AI 伺服器營收。"
+    },
+    {
+      "source_id": "src-cbe41dd5e182a459",
+      "title": "LITEON COMPUTEX 2026 新聞稿",
+      "url": "https://www.liteon.com/en/news/press-center/content/liteon-computex-2026",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "COMPUTEX 2026，2026 年 6 月 2–5 日",
+      "locator": "新聞稿摘要：首次展示液冷 800 VDC Power Rack，並述及整合 Power Shelf 與 BBU。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認 800 VDC Power Rack 展示；未將此產品明確連結至 GB200/GB300 或兆瓦級額定規格。"
+    },
+    {
+      "source_id": "src-edb2770c7eea76d0",
+      "title": "LITEON Q1 2026 業績公告",
+      "url": "https://www.liteon.com/en/news/press-center/content/quarterly-first-eps-2026",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 年全年展望",
+      "locator": "展望段落：AI-related products 預計約占 2026 年總營收 30%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "不同於 AI 伺服器專屬營收占比，不能直接驗證「AI 伺服器營收占比突破 25%」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找並取得相關公司披露及市場研究資料；兆瓦級、800V、GB200/GB300 三項規格的同一產品連結，以及 AI 伺服器專屬營收占比，仍缺直接證據。官方頁面擷取逾時，故未推定缺失細節，未解原子維持 UNKNOWN。",
+    "公司新聞稿可證明公司披露的展示內容及展望，不等同於量產、客戶部署或獨立驗證。",
+    "市場研究報告將 LITEON 列為全球主要 AI 伺服器電源供應器製造商之一，但未在可核實摘要中提供排名、市占率或明確的市場分母。",
+    "公司披露的 AI-related products/revenue 占比與 AI 伺服器專屬營收占比不是同一口徑。",
+    "官方新聞頁面直接開啟／擷取遇到逾時；採用官方搜尋結果摘要定位，未推定未顯示的出版日期。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2301/960/hermes-attempt-1.stdout.txt"
+}

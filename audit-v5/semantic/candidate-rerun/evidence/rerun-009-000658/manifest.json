@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000658",
+  "claim_id": "6902:objective_ranking_or_market_share:f2d0f66b5bcf6aed",
+  "normalized_claim_hash": "f2d0f66b5bcf6aedb16a4421ada2bd480d098f02e1f6697f6f9273e27d433e8d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d52e5937bdcd61f49f98",
+      "title": "Gogolook — About / Milestones",
+      "url": "https://www.gogolook.com/zh-tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013",
+      "locator": "Milestones, 2013: “獲韓國 LINE 母公司 Naver 投資”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer’s own history explicitly identifies NAVER as LINE’s parent in describing the 2013 investment."
+    },
+    {
+      "source_id": "src-21494974f93fdf919334",
+      "title": "Gaining favor from Google and Naver, TrustTech startup Gogolook realizes the dream of going public",
+      "url": "https://meet-global.bnext.com.tw/articles/view/47692",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2013 acquisition; later buyback",
+      "locator": "Section “Acquired by Naver in 2013, the team bought back the company later”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that NAVER acquired Gogolook in 2013 and owned over half the company’s shares. This is secondary reporting, not a share register or filing."
+    },
+    {
+      "source_id": "src-8386004f409ebda426bc",
+      "title": "Gogolook — About / Milestones",
+      "url": "https://www.gogolook.com/zh-tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017",
+      "locator": "Milestones, 2017: “走出 Naver 羽翼 創辦團隊重掌經營權”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer history corroborates that the founders regained managerial authority after investment by Taiwan investors; it does not disclose NAVER’s exact share percentage."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The official issuer history and secondary reporting support both parts of the wording; further searching was not needed for this candidate assessment.",
+    "The exact majority percentage and transaction-date share register were not verified from a filing or shareholder register.",
+    "The majority-stake detail is supported by secondary reporting; Gogolook’s official history confirms the investment and later change in managerial authority but does not state NAVER’s ownership percentage."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6902/658/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "4f9d51355a9b187e5f61d74e99b5353c94f34bf12cfbeb9511e7be04226f5918",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6902/658/isolated-prompt.txt",
+  "prompt_sha256": "717884c9ba7dbf01a2e7b9eaad19ce4e456b656bde1a254c005cdc0d487beb4d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000658/manifest.json",
+  "supersedes_manifest_sha256": "ee8addf47a7b57ee8487d2ca259407a881d8ecf89331a5ff59ccefeb0ce917ff",
+  "corrected_at": "2026-10-08T09:58:32Z"
+}

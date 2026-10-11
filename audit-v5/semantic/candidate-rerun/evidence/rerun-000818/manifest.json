@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000818",
+  "claim_id": "6904:objective_ranking_or_market_share:c9e2cfd9b443469d",
+  "normalized_claim_hash": "c9e2cfd9b443469dfb65f8109d8521878b37e990c9bfc93fa4db95b189ea4f95",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4a7b183e400f1591",
+      "title": "伯鑫2024年永續報告書（中文版）",
+      "url": "https://www.proxene.com.tw/web/content/7165?unique=ede469363a7b47b1fa25fe74851825e501b04aaa",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024 report; statement refers generally to recent years",
+      "locator": "Product innovation section, p.42",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer disclosure states the company’s share in the global industrial-grade adjustable-wrench market is approximately 25%; it does not give a calculation basis."
+    },
+    {
+      "source_id": "src-89e793801524a9ab",
+      "title": "投資加碼台中！「扳手大廠」伯鑫工具神岡新廠落成",
+      "url": "https://www.taichung.gov.tw/8868/8872/9962/2534851",
+      "source_level": 3,
+      "publication_date": "2023-12-24",
+      "effective_period": "Statement made at the December 24, 2023 factory-opening event",
+      "locator": "Founder/general manager’s quoted remarks",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Attributes a near-25% global adjustable-wrench share estimate to the company founder/general manager; it does not provide methodology or denominator details."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對 issuer 2024 永續報告及台中市政府報導；全球第一名排序仍無明確證據，依規則列為 UNKNOWN。",
+    "2024年永續報告書由公司編製，報告載明尚未經外部查證。",
+    "約25%是公司披露的估計；公開資料未界定市佔率是按銷量、銷售額或其他口徑計算，也未提供計算用分子、分母。",
+    "官方市府報導中的「全球前三大」不能確認全球第一名，也不足以排除第一名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6904/818/hermes-attempt-1.stdout.txt"
+}

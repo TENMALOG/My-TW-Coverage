@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000047",
+  "claim_id": "2228:objective_ranking_or_market_share:78fc8e4a85f351e4",
+  "normalized_claim_hash": "78fc8e4a85f351e4c38527899d80f6f731c096d52b31a383d978f1161129d791",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "irf-2025-annual-report-en",
+      "title": "Iron Force Industrial Co., Ltd. 2025 Annual Report (English translation)",
+      "url": "https://www.irf.biz/en/download/2025%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-28",
+      "effective_period": "FY2025; report printed 2026-02-28.",
+      "locator": "PDF pp.171–172 (printed pp.168–169): principal sales customers for 2024, 2025 and Q1 2026 are anonymized as Group A and Group B; Group A represented 49.73% of 2025 revenue, Group B 23.27%. The 2025 report does not name Autoliv, ZF or Joyson and does not state their global market shares.",
+      "source_sha256": "9c649fd2ec1ba2587859358a6aedbdc3dbe23f04690f776e062c5273cad169e2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/47/jianlin-2025-annual-report-en.pdf",
+      "note": "Current primary issuer disclosure; supports customer concentration but anonymizes names and does not give global market share."
+    },
+    {
+      "source_id": "irf-2013-investor-presentation",
+      "title": "劍麟股份有限公司上市前業績發表會簡報（2013-10）",
+      "url": "https://www.irf.biz/download/IronForce131024%E4%B8%8A%E5%B8%82%E5%89%8D%E6%A5%AD%E7%B8%BE%E7%99%BC%E8%A1%A8%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": "2013-10",
+      "effective_period": "2013年上市前；歷史客戶及產品安排。",
+      "locator": "PDF第16頁載與三大SRS廠維持合作；表格提及Autoliv、Takata、TRW及氣囊殼體／預縮式安全帶精密管件供應合作。",
+      "source_sha256": "65d2e62dd7a9dafbd65155e5057a9df8bd364dd16ed4a3ae3ae8532f164b829f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/47/jianlin-2013-investor-presentation.pdf",
+      "note": "發行人第一手歷史簡報，支持Autoliv歷史合作，未提ZF或Joyson，亦未聲稱供應商零件市占90%。"
+    },
+    {
+      "source_id": "uanalyze-2025-jianlin",
+      "title": "優分析：劍麟(2228) 波蘭廠擴產效益評估與原物料成本挑戰",
+      "url": "https://uanalyze.com.tw/articles/3876212455",
+      "source_level": 2,
+      "publication_date": "2025-03-24",
+      "effective_period": "文章所述2023–2025公司與產業狀況。",
+      "locator": "第23行稱劍麟車用零件供應Autoliv、ZF及均勝電子等Tier 1，並在同句稱「在全球市場佔有率超過9成」；未拆出該份額屬客戶系統端還是劍麟零件端、產品邊界、口徑或底層來源。",
+      "source_sha256": "c9ee717b737bf6ad4912abca76719ad897d71a0aea7960e29e9552fa7dbc0578",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/47/uanalyze-2025-jianlin.html",
+      "note": "二手產業文章，對客戶名單提供候選支持，但90%句子指涉含混，不能單獨確定份額歸屬或精確市場定義。"
+    },
+    {
+      "source_id": "importkey-2026-iron-force-joyson-zf",
+      "title": "ImportKey：Joyson Safety Systems Acquisition US customs records",
+      "url": "https://importkey.com/i/joyson-safety-systems-acquisition",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "頁面更新至2026-07；列2026年進口紀錄。",
+      "locator": "2026-07-31、07-16、06-30、06-19等紀錄把IRON FORCE INDUSTRIAL CO LTD列為供應商、JOYSON SAFETY SYSTEMS ACQUISITION列為買方，貨品描述為AUTO PARTS／CCI HOUSING；同頁供應商資料將ZF PASSIVE SAFETY SYSTEMS列為Iron Force的買方。",
+      "source_sha256": "a821d08415d1d175a324ee2c05f19a2d5326ae1b02d40ff13ae0f3afbd59d75d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/47/importkey-joyson-jianlin-records.html",
+      "note": "海關資料彙整平台的交易紀錄支持近期對Joyson的汽車零件出貨；ZF只見於該平台買方名單，未取得帶日期且標明產品的個別ZF提單。"
+    },
+    {
+      "source_id": "cnyes-2013-jianlin-market-share",
+      "title": "鉅亨網：劍麟11月底上市 下半年營運旺 今年EPS估衝破5元",
+      "url": "https://news.cnyes.com/news/id/1875452",
+      "source_level": 2,
+      "publication_date": "2013-10-22",
+      "effective_period": "2013年上市前市場估值。",
+      "locator": "報導稱劍麟主要出貨給Autoliv、TRW、TAKATA三大供應商，三家占全球新車市場超過9成；同段稱劍麟自己的全球氣囊市占約12%、安全帶產品約15%。",
+      "source_sha256": "e8c4cd1a16c483255356b133b34883bcc373fe235eff4036d51eed45fe51717e",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2228/47/cnyes-2013-jianlin-market-share.html",
+      "note": "歷史二手報導清楚區分2013年客戶端整車安全系統市場集中度與劍麟自身兩類產品份額；不能推定2026現況。"
+    }
+  ],
+  "search_notes": [
+    "拆查Autoliv、ZF、均勝電子三家客戶關係，以及「全球市占90%+」的主體與市場邊界。",
+    "劍麟2025年官方年報把大客戶匿名為Group A/B，2025年營收分別占49.73%及23.27%，不披露具名客戶或相關全球系統市占。",
+    "2013年官方簡報顯示Autoliv/Takata/TRW為當時合作SRS廠；2025年二手產業文章列Autoliv、ZF、均勝為主要代工夥伴。ImportKey近期海關資料顯示Iron Force向Joyson Safety Systems交付汽車零件，並將ZF Passive Safety列為買方。",
+    "90%數字的近期文章未說明指的是劍麟零件市占或下游客戶系統市場。2013年鉅亨報導中的90%明確屬三大系統客戶之全球新車市場比重；劍麟自身氣囊／安全帶產品市占則當時約12%／15%。沒有將歷史或客戶端口徑移植為現行劍麟份額。"
+  ]
+}

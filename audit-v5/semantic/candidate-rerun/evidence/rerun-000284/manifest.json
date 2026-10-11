@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000284",
+  "claim_id": "3362:objective_ranking_or_market_share:0d1f1f055061087b",
+  "normalized_claim_hash": "0d1f1f055061087bd04015f127740082779d57eaaa83a5e193a5d1e0df6b7c73",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-de3f2e67514cc62f",
+      "title": "龍頭廠聯手藉專利訴訟戰力守市占　先進光狙擊2線廠 大立光背後助攻",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BE%8D%E9%A0%AD%E5%BB%A0%E8%81%AF%E6%89%8B%E藉專利訴訟戰力守市占-%E5%85%88%E9%80%B2%E5%85%89%E7%8B%99%E6%93%8A2%E7%B7%9A%E5%BB%A0-%E5%A4%A7%E7%AB%8B%E5%85%89%E8%83%8C%E5%BE%8C%E5%8A%A9%E6%94%BB-053136781.html",
+      "source_level": 2,
+      "publication_date": "2026-05-08",
+      "effective_period": null,
+      "locator": "Article passage stating Ability Opto had over 70% global share in notebook lenses.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a reported greater-than-70% figure, but does not specify the share's effective period, denominator methodology, or underlying data source."
+    },
+    {
+      "source_id": "src-21bb71ec63cb16dd",
+      "title": "《光電股》新平板高階鏡頭8月放量 先進光董座：今年營收有望創歷年高",
+      "url": "https://www.ctee.com.tw/news/20240620700857-430201",
+      "source_level": 2,
+      "publication_date": "2024-06-20",
+      "effective_period": null,
+      "locator": "Article passage stating the company focused on NB lenses and had 70% global market share.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting; says 70%, not strictly above 70%, and provides no denominator or underlying measurement period."
+    },
+    {
+      "source_id": "src-4f9f1956bf28e3c0",
+      "title": "Ability Opto-Electronics Technology sues Powertip for patent infringement, seeks TWD53.3 million in damages",
+      "url": "https://www.tiplo.com.tw/en/tn/1441/48272",
+      "source_level": 2,
+      "publication_date": "2025-12-02",
+      "effective_period": null,
+      "locator": "Article passage stating Ability leads the global notebook camera lens market with a 70% share.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TIPLO secondary reporting; reports 70%, without a denominator methodology or market-share reference period."
+    },
+    {
+      "source_id": "src-07d034333d27d3bb",
+      "title": "2025-12-30 Investor Conference Presentation (AOET group company profile)",
+      "url": "https://mopsov.twse.com.tw/nas/STR/336220251230M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-30",
+      "effective_period": null,
+      "locator": "Slide titled “NB Lens Worldwide Market Share/Milestones”; extracted content lists 77%, 70%, and 65%.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer presentation. The extracted slide text does not establish which periods correspond to the three percentages."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research limit reached; the available sources do not resolve the period and denominator needed to verify the strict greater-than-70% share claim.",
+    "The secondary reports do not disclose a consistent market-share methodology or effective period.",
+    "The issuer's presentation contains multiple share figures, but the extracted text does not identify their corresponding periods."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3362/284/hermes-attempt-1.stdout.txt"
+}

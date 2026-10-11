@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001192",
+  "claim_id": "3680:material_named_relationship:5ef6c70b8bcc1cf0",
+  "normalized_claim_hash": "5ef6c70b8bcc1cf07d750693780f74ce1560d509cf54178135478f847cdd92fe",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1756b58aa82bbc7d",
+      "title": "2024 永續報告書",
+      "url": "https://esg.gudeng.com/UploadFile/FileDownloadItem/638990540882468978.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "報告內產品里程碑圖涵蓋至2024年；列出7nm/5nm曝光機世代",
+      "locator": "第3頁，NXE 3400B與7nm/5nm標示；EUV POD產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料能證明產品及技術世代，不足以證明台積電7nm節點採用或家登的供應地位。"
+    },
+    {
+      "source_id": "src-5fbb06e5069c28b3",
+      "title": "Gudeng eyeing revenue of NT$10 billion",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2025/01/21/2003830547",
+      "source_level": 2,
+      "publication_date": "2025-01-21",
+      "effective_period": "報導發布時；提及台積電5nm、4nm、3nm EUV晶片生產",
+      "locator": "報導首段及「TSMC utilizes EUV tools」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級媒體報導稱家登為台積電EUV POD獨家供應商，並列出台積電使用EUV的節點；未按節點揭露供應份額。"
+    },
+    {
+      "source_id": "src-36a21254b536328a",
+      "title": "In no rush to build in US: Gudeng says",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2025/12/11/2003848659",
+      "source_level": 2,
+      "publication_date": "2025-12-11",
+      "effective_period": "報導發布時；涵蓋台積電2nm及3nm生產",
+      "locator": "第41行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導將家登描述為台積電EUV POD主要供應商，並明確提及2nm生產用途；沒有節點別份額數據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對官方公司資料及節點供應關係的集中檢索；5nm、3nm及2nm有支持性報導，但7nm仍缺少直接的客戶—節點—供應地位證據，故保留UNKNOWN並停止。",
+    "台積電未在所查官方資料中披露家登按製程節點的EUV POD採購份額或供應商排名；「主要供應商」是次級媒體的定性表述。",
+    "家登官方報告的產品營收分類及產品里程碑未按台積電客戶與7/5/3/2nm節點拆分，不能單獨驗證各節點供應關係。",
+    "原標籤「壟斷」比正文所稱「獨家或主要供應商」更強；已查證資料不足以將其延伸為市場整體壟斷。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3680/1192/hermes-attempt-1.stdout.txt"
+}

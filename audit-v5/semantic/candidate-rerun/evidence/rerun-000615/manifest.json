@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000615",
+  "claim_id": "5236:objective_ranking_or_market_share:f457de3e9c8982f8",
+  "normalized_claim_hash": "f457de3e9c8982f8f0439686606cce795e169b4e78d0ac58ef385e86db7c4dba",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c82edf031a7852a7",
+      "title": "新上市公司：凌陽創新(5236)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d69ef76943019f5a301cef011e",
+      "source_level": 3,
+      "publication_date": "2026-07-16",
+      "effective_period": "發布時；全球筆記型電腦嵌入式攝影機晶片市場",
+      "locator": "「公司簡介」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方描述公司在全球筆記型電腦嵌入式攝影機晶片市場中占有領先地位，但未提供市佔數值或涵蓋所有Webcam Controller的市場定義。"
+    },
+    {
+      "source_id": "src-c4101b79bd417d94",
+      "title": "凌陽創新科技股份有限公司興櫃前法人座談會簡報",
+      "url": "https://www.sunplusit.com/Documents/InvestorRelations/2020/5236%E5%87%8C%E9%99%BD%E5%89%B5%E6%96%B0_2020922%E6%B3%95%E8%AA%AA%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": "2020-09-22",
+      "effective_period": "簡報日期；市佔測量期間未在該投影片明確標示",
+      "locator": "投影片「行銷實績」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱筆記型電腦內建網路攝影機ISP晶片全球市佔率超過25%；該分母是NB內建攝影機ISP晶片，不是未限定範圍的所有網路攝影機控制晶片。"
+    },
+    {
+      "source_id": "src-f2cf102beb02c2eb",
+      "title": "凌陽創新科技股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=810481af-5b5d-47e2-823b-d9e51a79b15f",
+      "source_level": 2,
+      "publication_date": "2025-08-05",
+      "effective_period": "頁面更新至2025-08-05；頁面列示2024年銷售資訊",
+      "locator": "「營業項目與產品結構」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ頁面標示本文由嘉實投顧提供；列出鍵盤、滑鼠等人機介面MCU及筆電內建／USB外接網路攝影機ISP為兩類主要產品。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得官方交易所與公司資料，足以支持產品線及較窄的筆電嵌入式攝影機市場地位；原 claim 未限定範圍的全球Webcam Controller市佔領先仍缺少相同市場定義、期間及排名證據，因此該原子主張維持UNKNOWN並停止研究。",
+    "市佔與領先地位證據所指市場為筆電內建／嵌入式攝影機晶片，不能直接外推至所有網路攝影機控制晶片。",
+    "公司簡報的超過25%市佔資料發布於2020年，且未在該投影片明確標示測量期間；不應視為當前市佔。",
+    "鍵鼠控制晶片產品分類的明確近期來源為MoneyDJ所載嘉實投顧資料；官方2020年簡報顯示該HID類別當時占產品銷售金額5%。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5236/615/hermes-attempt-1.stdout.txt"
+}

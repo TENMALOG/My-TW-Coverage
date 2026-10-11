@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001253",
+  "claim_id": "1341:export_concentration:68cf7713a01f37cf",
+  "normalized_claim_hash": "68cf7713a01f37cfed87d66ceb22943f0011fc7dbf5089bb513e9f6e2c6843af",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-91f85a7d1c2f6e33",
+      "title": "富林-KY 2024年度年報",
+      "url": "https://financialfilings.com/filings/fulin-ky-1341/annual-report/2025/33237225/",
+      "source_level": 2,
+      "publication_date": "2025-03-31",
+      "effective_period": "2023及2024年度",
+      "locator": "第67頁，主要商品銷售地區表及註2",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "地區占比以銷售額為口徑；亞洲分類不含越南及其他東協國家。"
+    },
+    {
+      "source_id": "src-9764a4178095f488",
+      "title": "富林塑膠官方網站：環境資訊及廠址",
+      "url": "https://www.fulinvn.com/tc/environment2.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查閱時官網所列廠址",
+      "locator": "同奈廠及海防廠地址",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網分別列出越南同奈廠與海防廠。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官網與2024年度年報；仍無證據可確定未標期的47%所指期間，或驗證東亞市場占比，因此保留未解原子主張為UNKNOWN。",
+    "銷售地區占比及年報定位取自第三方平台刊載的公司年報內容；公司官網可獨立核實海防與同奈廠址。",
+    "原主張未標明銷售占比的年度；年報中約47%的數值對應2023年，而非2024年。",
+    "年報的亞洲分類不等同於東亞，亦未揭露東亞分項。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1341/1253/hermes-attempt-1.stdout.txt"
+}

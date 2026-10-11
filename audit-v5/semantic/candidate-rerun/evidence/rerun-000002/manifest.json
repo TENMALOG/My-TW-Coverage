@@ -1,0 +1,61 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000002",
+  "claim_id": "2644:material_named_relationship:5c551327d27428ea",
+  "normalized_claim_hash": "5c551327d27428ea984cf180716d7660497e1074b3d0776f3e2318ed7db2bd93",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "jongshyn-identity",
+      "title": "投資人專區 - 中信造船",
+      "url": "https://www.jongshyn.com/investor.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current issuer page retrieved 2026-10-06; no page update date",
+      "locator": "Company basics: company name 中信造船股份有限公司 and stock code 2644",
+      "source_sha256": null,
+      "raw_path": null,
+      "note": "Used to bind the target company to issuer ticker 2644 before assessing supplier evidence."
+    },
+    {
+      "source_id": "moneydj-2644-profile",
+      "title": "中信造船股份有限公司 - MoneyDJ 理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba7cecbd-87c7-44f2-bc65-cf7af304d446",
+      "source_level": 4,
+      "publication_date": "Updated 2025-06-18",
+      "effective_period": "Company profile current to its stated 2025-06-18 update; supplier period and amounts are not stated",
+      "locator": "Section (二) 產品與競爭條件, item 2. 重要原物料",
+      "source_sha256": "1113f83a387780cbb0ee3eb130ad39a954a5758584b79aa839f3b1864fd15118",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2644/moneydj-2644-company-profile.html",
+      "note": "Lists 中鋼鋁、中鋼 and French aluminum under aluminum plate / steel plate raw materials. This supports listing 中鋼 as a material source in the profile, but gives no supplier share, purchase value, or basis for calling it a major supplier."
+    },
+    {
+      "source_id": "jongshyn-2023-investor-presentation",
+      "title": "中信造船營運簡報書",
+      "url": "https://www.jongshyn.com/upload/ckeditor/files/2023-%E4%B8%AD%E4%BF%A1%E9%80%A0%E8%88%B9%E7%87%9F%E9%81%8B%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2023-06 (PDF metadata and cover)",
+      "effective_period": "Company briefing dated 2023-06",
+      "locator": "All 46 slides rendered; no slide names 中鋼 or lists steel-plate suppliers",
+      "source_sha256": "293ce44904e36f5645afbea3591e79eae6c8bb82fa13bb189ffae2d4673dc27c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2644/jssc-2023-investor-presentation.pdf",
+      "note": "Official issuer deck inspected as a primary-source follow-up. It contains operational history, contracts, capacity, and competitive advantages; it does not disclose the claimed steel-plate supplier or supplier materiality."
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "台灣國際造船 104 年年報",
+      "url": "https://www.csbcnet.com.tw/Uploads/AnnualReport104.pdf",
+      "reason": "This source says 中鋼 was a major plate supplier for 台灣國際造船 (2208), not 中信造船 (2644). It was excluded because the issuer identity does not match."
+    },
+    {
+      "title": "無人艦艇百億美元商機，台灣看得到吃不到？ - 遠見雜誌",
+      "url": "https://www.gvm.com.tw/article/100597",
+      "reason": "Discusses 中鋼 as a broad ship-hull material supplier in Taiwan, but does not bind that relationship or the 'major' qualifier to 中信造船 (2644)."
+    }
+  ],
+  "search_notes": [
+    "Targeted issuer-site searches found the official identity page and 2023 investor presentation; neither provides a supplier list or steel-plate procurement breakdown.",
+    "The accessible supplier list is a secondary MoneyDJ company profile. It names several plate sources but does not establish which is primary by spend, tonnage, or operational dependence."
+  ]
+}

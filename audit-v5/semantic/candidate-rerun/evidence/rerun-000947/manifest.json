@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000947",
+  "claim_id": "6285:material_named_relationship:b8e94427fc91e691",
+  "normalized_claim_hash": "b8e94427fc91e6910d2462551ee95e2082cb813e5d78e6465178feba245da2a8",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fa9796b8cef081cd",
+      "title": "公司簡介－關於啓碁－啓碁科技股份有限公司",
+      "url": "https://www.wnc.com.tw/about/wnc",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第197行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人稱其為網通設備品牌商及tier-1電信業者的重要供應商；未具名個別客戶。"
+    },
+    {
+      "source_id": "src-f2eb4b5022658deb",
+      "title": "核心競爭力－啓碁科技股份有限公司",
+      "url": "https://www.wnc.com.tw/cn/about/wnc/core-competencies",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第158–162行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方列為先進研發實力的項目包括RF天線設計及系統集成能力。"
+    },
+    {
+      "source_id": "src-1150f0ef25c04458",
+      "title": "After SpaceX's requests, Taiwanese suppliers move manufacturing abroad, sources say",
+      "url": "https://www.marketscreener.com/news/latest/After-SpaceX-s-requests-Taiwanese-suppliers-move-manufacturing-abroad-sources-say-48253450/",
+      "source_level": 2,
+      "publication_date": "2024-11-05",
+      "effective_period": "2024年",
+      "locator": "第747–756行；Reuters報導",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reuters依兩名廠區員工及一名承包商報導，稱WNC為SpaceX供應商，並於2024年在越南廠為Starlink生產路由器及其他網路設備；WNC以客戶保密為由未評論。"
+    },
+    {
+      "source_id": "src-fa960b68ea857705",
+      "title": "第二章　國際低軌衛星產業鏈與專利分析",
+      "url": "https://www.ctci.org.tw/media/9956/2023-09-%E8%87%BA%E7%81%A3%E4%BD%8E%E8%BB%8C%E8%A1%9B%E6%98%9F%E7%99%BC%E5%B1%95%E4%B9%8B%E6%A9%9F%E6%9C%83%E8%88%87%E6%8C%91%E6%88%B0.pdf",
+      "source_level": 2,
+      "publication_date": "2023-09",
+      "effective_period": "報告所述之2023年產業狀況",
+      "locator": "第二章圖2.32及相鄰文字",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "研究報告將SpaceX列為啟碁的低軌衛星客戶，供應產品為終端路由器；屬二手研究資料，非發行人披露。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核啟碁官方公司資料、Reuters報導及低軌衛星產業研究報告。核心供應關係有二手資料支持，但因果關係未獲證明，且未找到發行人官方具名確認Starlink客戶關係的披露；因此保留該原子主張為UNKNOWN並停止。",
+    "RF能力及tier-1電信供應商身分來自啟碁公司簡介，屬發行人自述，未列具名客戶或量化客戶、營收分母。",
+    "Starlink供應關係有Reuters報導及2023年研究報告支持，但未找到啟碁官方文件直接具名確認該客戶；Reuters所述依據包括未具名員工及承包商，並記載啟碁未評論個別客戶。",
+    "低軌衛星關係的具體證據是Starlink地面網路設備，不足以推論啟碁供應衛星本體、RF天線，或已進入多家低軌衛星巨頭的供應鏈。",
+    "來源未建立RF天線能力與客戶／供應商關係之間的因果鏈。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6285/947/hermes-attempt-1.stdout.txt"
+}

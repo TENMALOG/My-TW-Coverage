@@ -1,0 +1,59 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000722",
+  "claim_id": "2476:objective_ranking_or_market_share:e9cbf6611b6656f4",
+  "normalized_claim_hash": "e9cbf6611b6656f4b21e85603e31e90ebc89eeb4d08815955b279978f7db2d7c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-54d42ea7408f9e28f045",
+      "title": "郭明錤：大立光iPhone音圈馬達獨家金屬機殼供應商是它！",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/3584494",
+      "source_level": 2,
+      "publication_date": "2021-06-28",
+      "effective_period": "報導所述 2021 年下半年新款 iPhone",
+      "locator": "報導第 2 至 4 段，尤其說明鉅祥獨家取得大立光 iPhone 自動對焦超廣角 VCM 機殼訂單的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "自由財經報導，明確將供應商資訊歸因於郭明錤及其產業調查；屬媒體轉述，非鉅祥或大立光的官方確認。"
+    },
+    {
+      "source_id": "src-9e95c05c3529b1361268",
+      "title": "郭明錤：鉅祥獨家取得iPhone的VCM金屬機殼訂單",
+      "url": "https://news.cnyes.com/news/id/4666052",
+      "source_level": 2,
+      "publication_date": "2021-06-28",
+      "effective_period": "報導所述 2021 年下半年新款 iPhone",
+      "locator": "內文第 1 段及說明 VCM 金屬機殼訂單的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網同樣轉述郭明錤報告；與自由財經所據資訊來源相同，並非獨立的官方驗證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對鉅祥、大立光、VCM 機殼獨家供應及最大客戶排名的聚焦檢索；獨家供應原子有具明確歸因及期間限制的二級來源支持，但最大客戶排名仍缺乏可靠證據，故保留為 UNKNOWN。",
+    "獨家供應資訊來自媒體轉述分析師報告及其所稱的產業調查，未找到鉅祥或大立光的官方披露確認。",
+    "兩篇可用報導轉述同一份郭明錤報告，不構成兩個獨立證據來源。",
+    "來源支持的範圍限於報導所述的大立光供應之 iPhone 自動對焦超廣角 VCM 機殼訂單；不能外推至所有 iPhone VCM 機殼或後續年度。",
+    "未找到能確認大立光為鉅祥最大客戶的來源，也未能確立該排名的期間或衡量分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2476/722/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "262b8578879fd75342a49a30c663bd965389d1030cec5c03daad7034d5fe46a8",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2476/722/isolated-prompt.txt",
+  "prompt_sha256": "722731e18bee8d8b97421d1919f03773ef7f8ef2ec83aeada5d922bddadf084b",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000722/manifest.json",
+  "supersedes_manifest_sha256": "a1e28a339b4be3a4b3d20fdea74e6fa9f62f970809c6d5c2886c3f5bb1e35b3c",
+  "corrected_at": "2026-10-08T09:58:38Z"
+}

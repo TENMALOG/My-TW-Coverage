@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001050",
+  "claim_id": "3523:material_named_relationship:6067227deddd249a",
+  "normalized_claim_hash": "6067227deddd249a1debb60ec1cf5e3851d9fe0743053b769de124b0ce9f736f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ddd8f3cbf478bd2f",
+      "title": "迎輝(3523)股價：可以買嗎？EPS、配息、法人籌碼｜FinLab",
+      "url": "https://finlab.finance/stocks/3523",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2025年度客戶資訊",
+      "locator": "「主要業務」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱2025年主要客戶名稱未完整公開，列出A/B/C客戶營收但未提供足以確認觸控模組廠身分的資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "在有限查核後仍未找到可核實客戶身分、期間及主要客戶口徑的原始披露；官方年報PDF擷取逾時，停止研究並保留未解原子主張為UNKNOWN。",
+    "查得的2025年度客戶資訊來自二手整理，未取得可直接核對客戶名稱的公司原始披露。",
+    "曾嘗試開啟櫃買／證交所連結的迎輝114年度年報PDF，但檔案擷取逾時；未將未讀取的PDF內容當作證據。",
+    "主要客戶未具名不代表友達、群創或觸控模組廠不是客戶，故相關原子主張均維持UNKNOWN。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3523/1050/hermes-attempt-1.stdout.txt"
+}

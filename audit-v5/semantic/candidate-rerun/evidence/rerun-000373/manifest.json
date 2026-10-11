@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000373",
+  "claim_id": "6227:objective_ranking_or_market_share:43389475739d47d9",
+  "normalized_claim_hash": "43389475739d47d9a0e4ccab19d778aebbb6d250edccc39f369b0129e3901d21",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b9a522979968bdf5",
+      "title": "Semiconductor business | Business details | Macnica recruitment site",
+      "url": "https://www.macnica.co.jp/en/recruit/voice/semiconductor",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021 market-share data, cited in the page footnote",
+      "locator": "Semiconductor uses/ranking statement and Gartner footnote",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Macnica page states No. 1 semiconductor distributor share in Japan and cites Gartner, Semiconductor Distributors, Worldwide, 2021, revenue basis."
+    },
+    {
+      "source_id": "src-ff4c34101d63927d",
+      "title": "Company Profile | Macnica Galaxy",
+      "url": "https://www.macnica.com/apac/galaxy/en/about-us/company-profile/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current profile; no publication or end date stated",
+      "locator": "Opening paragraph and semiconductor product-category description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Galaxy represents product lines from leading global semiconductor manufacturers and describes its semiconductor-distribution role."
+    },
+    {
+      "source_id": "src-2a099e7d770b314f",
+      "title": "Milestones | Macnica Galaxy",
+      "url": "https://www.macnica.com/apac/galaxy/en/about-us/milestones",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Altera: 1986; Renesas: 2017 and 2019; NVIDIA GPU: 2023",
+      "locator": "Milestones for 1986, 2017, 2019, and 2023",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company history records the start of representation for these manufacturers/product lines."
+    },
+    {
+      "source_id": "src-84973ec555bf0ac7",
+      "title": "Macnica Galaxy Showcases Comprehensive AI Automation Solutions at NVIDIA GTC",
+      "url": "https://www.macnica.com/apac/galaxy/en/news-events/galaxy-news/2025GTC-press-release",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "At publication; page identifies Macnica Galaxy as an NVIDIA authorized distributor in Taiwan",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official company release identifies Macnica Galaxy as NVIDIA’s authorized distributor in Taiwan and names Enterprise GPU and networking offerings."
+    },
+    {
+      "source_id": "src-20dd04efcb0b3c8b",
+      "title": "Agilex™ | Macnica Galaxy",
+      "url": "https://macnica.com/apac/galaxy/en/products-support/products/intel-fpga/intel-agilex",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product page as accessed",
+      "locator": "Agilex 9 and Agilex 5 product descriptions",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Galaxy product page describes RF applications, high-speed transceivers, high-performance FPGA products, and communication-infrastructure applications."
+    },
+    {
+      "source_id": "src-50aa079937990f4e",
+      "title": "NVIDIA | Macnica Galaxy",
+      "url": "https://www.macnica.com/apac/galaxy/en/products-support/products/nvidia/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current product page as accessed",
+      "locator": "NVIDIA product overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Galaxy page identifies its NVIDIA GPU and networking offerings and describes accelerated computing applications."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and checks of official Macnica/Macnica Galaxy company, ranking, milestones, and product disclosures resolved the claim’s components sufficiently for candidate review; remaining caveats concern independent verification of the ranking methodology and undisclosed revenue mix.",
+    "The Japan No. 1 ranking is stated by Macnica itself. Its footnote cites Gartner’s worldwide 2021 distributor market-share data on a revenue basis, but the underlying Gartner material and the Japan-specific calculation were not independently reviewed.",
+    "The official company sources confirm product representation and product examples, but do not disclose sales mix proving that these lines account for a majority of revenue.",
+    "Several official company and product pages do not display publication dates; periods are limited to dates explicitly stated on the pages or milestones."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6227/373/hermes-attempt-1.stdout.txt"
+}

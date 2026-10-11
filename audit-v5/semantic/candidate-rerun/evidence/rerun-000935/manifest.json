@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000935",
+  "claim_id": "6134:profitability_assertion:d800508e968eee23",
+  "normalized_claim_hash": "d800508e968eee237a752a76fddbc0d4d48256998ff7413b6ac4076745573297",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-632d0b6b43dc6000",
+      "title": "萬旭電業股份有限公司 2025 年年報",
+      "url": "https://www.wanshih.com.tw/uploadfiles/973/investors/2026-meeting-annual-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "第51頁，營業比重表；第51頁，公司目前之商品及服務項目。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "視訊安控營收新台幣175,788仟元（9%）；醫療產品新台幣125,320仟元（7%）。"
+    },
+    {
+      "source_id": "src-4995634349629b85",
+      "title": "MoneyDJ：轉型有成萬旭今年小賺，長期營運拚逐年好轉",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=%7B819f0f88-06d0-4a43-b1e5-fce691c3b543%7D",
+      "source_level": 2,
+      "publication_date": "2016-07-22",
+      "effective_period": "報導所述2011–2016年營運及產品組合",
+      "locator": "正文第22–24行。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二級媒體報導當時筆電市場紅海，以及萬旭產品與客戶轉型情況。"
+    },
+    {
+      "source_id": "src-b97ca927ac5ea533",
+      "title": "經濟日報：萬旭法說會／儲能、車用與 AI 三箭齊發 明年展望樂觀",
+      "url": "https://money.udn.com/money/amp/story/5612/9221725",
+      "source_level": 2,
+      "publication_date": "2025-12-23",
+      "effective_period": "2025年前三季產品營收占比及毛利率；報導於2025-12-23刊出",
+      "locator": "正文第9、13–16行。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱儲能工控與車用電子為高毛利產品；列示醫療36%、視訊30%、儲能工控24%的前三季毛利率。屬二級報導，非年報逐類毛利率表。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得官方FY2025年報及相關媒體報導，足以評估各原子主張；剩餘限制已在來源 caveats 中標明。",
+    "官方年報支持轉型描述、產品類別及FY2025營收占比；它沒有逐一提供這四類產品的毛利率。",
+    "四類均屬高毛利的判斷部分依賴二級媒體報導；其中車用電子有高毛利定位描述，但沒有單獨毛利率數字。",
+    "年度營收占比與前三季毛利率是不同期間的指標，不應視為同一期間的產品獲利率資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6134/935/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000952",
+  "claim_id": "6465:material_named_relationship:1b1eac4e47b8e85f",
+  "normalized_claim_hash": "1b1eac4e47b8e85f40cc9804690f8318a7bdf978c70b4c47ef91d488670a9a19",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4654b569261b1ea3",
+      "title": "LTE 雪茄頭型車載衛星定位監控器 AP3",
+      "url": "https://www.atrack.com.tw/tw/product/84",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方產品頁現行內容；頁面未標示生效日期",
+      "locator": "AP3 (JAPAN ONLY)；CELLULAR 規格列 AP3-LJ (Softbank)、LTE FDD Cat.1",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "威潤官方產品頁，直接支持產品型號、用途及 SoftBank 網路版本。"
+    },
+    {
+      "source_id": "src-f31ee313c55cbea6",
+      "title": "威潤打入軟銀電信供應鏈 搶攻車隊管理市場",
+      "url": "https://www.cna.com.tw/news/afe/201807260326.aspx",
+      "source_level": 2,
+      "publication_date": "2018-07-26",
+      "effective_period": "2018 年下半年計畫導入",
+      "locator": "正文稱 AP3 搭配 SoftBank 通訊及第三方軟體一起販售，並稱專案預計第 4 季陸續導入",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供合作販售背景；實際出貨佐證以 2018-11-01 報導為主。"
+    },
+    {
+      "source_id": "src-0ddf3ec5106c85c2",
+      "title": "威潤車用衛星定位監控器　打入日本軟銀電信供應鏈",
+      "url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000537933_SDZLL8ST214KAE4ZKXWIV",
+      "source_level": 2,
+      "publication_date": "2018-07-27",
+      "effective_period": "2018 年 7 月",
+      "locator": "報導正文稱新開發的 4G LTE 衛星定位監控器通過日本 SoftBank 電信產品測試與認證",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "DIGITIMES 報導引述威潤說法；屬產品測試／認證的報導，未提供 SoftBank 原始認證文件。"
+    },
+    {
+      "source_id": "src-e93c3f81aa199099",
+      "title": "威潤科技與軟銀電信合作案正式出貨",
+      "url": "https://ctimes.com.tw/DispArt/tw/AP3/%E8%A1%9B%E6%98%9F%E5%AE%9A%E4%BD%8D/%E7%9B%A3%E6%8E%A7%E5%99%A8/%E5%A8%81%E6%BD%A4%E7%A7%91%E6%8A%80/%E8%BB%9F%E9%8A%80%E9%9B%BB%E4%BF%A1/181101100372.shtml",
+      "source_level": 2,
+      "publication_date": "2018-11-01",
+      "effective_period": "2018 年 10 月底至 11 月初",
+      "locator": "正文稱 AP3 已放量出貨，並稱首張超過千台之訂單已正式出貨",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "產業媒體刊載的公司合作消息；支持實際出貨，但不是 SoftBank 直接披露或監管申報。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到威潤官方產品規格及 2018 年測試、合作販售與實際出貨的相互印證；剩餘限制是沒有 SoftBank 原始認證／採購文件，也沒有證據判定現時供應狀態。",
+    "未找到 SoftBank 直接發布的認證或採購文件；測試、認證及出貨細節來自中央社與產業媒體對威潤消息的報導。",
+    "威潤官方產品頁可核實 AP3-LJ 為 SoftBank 版本，但不能單獨證明當前商業供應狀態。",
+    "「衛星監控」在此指 GNSS 衛星定位監控設備，不代表設備使用衛星通訊。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6465/952/hermes-attempt-1.stdout.txt"
+}

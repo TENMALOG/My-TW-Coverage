@@ -1,0 +1,109 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000129",
+  "claim_id": "1723:objective_ranking_or_market_share:abedfbeca6ee0f1f",
+  "normalized_claim_hash": "abedfbeca6ee0f1fe3694e6be6869779098bd6ea11e8f76ed9adb636e42dbed2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5e3a7c1096267867",
+      "title": "China Steel Chemical Corporation — Company Profile",
+      "url": "https://cscc.com.tw/en/abo_bri.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司現況；頁面未標示資料日期",
+      "locator": "Company Profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介稱中碳為中鋼公司的子公司；不證明「重點培育」或「金雞母」。"
+    },
+    {
+      "source_id": "src-5c19cb48b9a69551",
+      "title": "中碳綠色事業",
+      "url": "https://www.cscc.com.tw/green.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "未標示；頁面含未註明更新日期的內容",
+      "locator": "「鋰離子電池負極材料」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "描述介相石墨碳微球作為鋰離子電池負極材料，並提及動力電池用途。"
+    },
+    {
+      "source_id": "src-1afcf77cefbf915d",
+      "title": "中鋼碳素化學股份有限公司法人說明會簡報",
+      "url": "https://www.cscc.com.tw/downlaod/fin_brief11503.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03",
+      "effective_period": "2026年3月簡報所述公司現況",
+      "locator": "第6頁煤化學工業產品關聯圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出軟瀝青、雜酚油及中碳在產業鏈中的加工位置。"
+    },
+    {
+      "source_id": "src-4531fb14c046a9b8",
+      "title": "中鋼碳素化學股份有限公司",
+      "url": "https://www.csc.com.tw/csc/gc/gro_Ind_p1.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "未標示",
+      "locator": "「業務簡介」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中鋼集團頁面稱中碳為台灣唯一的專業煤化學工廠；屬集團官方描述。"
+    },
+    {
+      "source_id": "src-b7c772e0b919fd60",
+      "title": "中鋼碳素化學股份有限公司永續資訊：公司簡介",
+      "url": "https://www.cscc.com.tw/csr/ov/ov_abo.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "未標示；公司現況頁面",
+      "locator": "公司簡介及主要產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱煤焦油經脫水、蒸餾後產出軟瀝青、雜酚油等產品。"
+    },
+    {
+      "source_id": "src-20f7dff048180700",
+      "title": "中鋼碳素化學股份有限公司法人說明會簡報",
+      "url": "https://www.cscc.com.tw/downlaod/fin_brief11309.pdf",
+      "source_level": 3,
+      "publication_date": "2024-09",
+      "effective_period": "2024年9月簡報",
+      "locator": "第10頁：碳材料產品及終端應用；第12頁：介相石墨碳微球產品概述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將介相石墨碳微球列為負極材料，並列出鋰離子電池動力應用。"
+    },
+    {
+      "source_id": "src-bf09756a396efb89",
+      "title": "中鋼碳素化學股份有限公司（公司沿革及產能）",
+      "url": "https://www.cscc.com.tw/about.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面稱2018年啟用屏南廠、後續完成產線；未標示頁面更新日",
+      "locator": "公司沿革／介相碳微球與介相石墨碳微球產能",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示年產能資訊；不能據此確認實際年度產出。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核中碳及中鋼集團官方公司資料、法人說明會簡報與產品說明，足以支持公司關係、煤化學產品、產品開發及電池用途。針對「重點培育／金雞母」、寡占、實際量產量及全球稀缺性，未找到具所需期間、市場範圍與分母的可靠證據；依規則將未解原子保留為 UNKNOWN。",
+    "「台灣唯一」及產品／製程資料主要來自公司或集團官方自述，未以獨立產業普查驗證。",
+    "公司列示的設計產能不等於實際產量；本次未找到具期間與產品明細的實際產量或出貨量。",
+    "全球稀缺性與寡占需要明確市場定義及分母；現有資料沒有相關供應商數量、市占率或市場規模。",
+    "官方產品用途資料支持應用方向，不證明產品已被特定電動車或電池廠採用，也不提供實際裝車量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1723/129/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000039",
+  "claim_id": "1525:objective_ranking_or_market_share:67775914202401b9",
+  "normalized_claim_hash": "67775914202401b9d4d9c391a54a1bdcda56972b56ca283c268f83b87d58acca",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-d46e1e4db115da34e514",
+      "title": "江申工業股份有限公司 — Company History",
+      "url": "https://www.kian-shen.com/tw/Web/page/51",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Beginning May 1984",
+      "locator": "Company History, entry dated 1984年05月",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer history says 江申 began supplying 國瑞汽車 and 中華汽車 with large-truck and bus frames."
+    },
+    {
+      "source_id": "src-15bb4052789005e5f88e",
+      "title": "江申工業股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba345a19-2ea3-4cef-b535-2064da9f7be4",
+      "source_level": 2,
+      "publication_date": "2025-08-21",
+      "effective_period": null,
+      "locator": "Company profile, section「公司簡介」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary profile states 100% frame share for the narrower segment of trucks over 3.5 tonnes, including large trucks and domestically manufactured buses. It does not specify the share’s period or denominator."
+    },
+    {
+      "source_id": "src-90cd71ad3c9b5943e42b",
+      "title": "江申工業永續報告書（2024）",
+      "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8/2024%E5%B9%B4%20%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "Chapter 3, description of principal products and market position",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes its frames as an oligopoly-market product; it does not quantify the share as 100%."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Focused searches located official issuer history and the 2024 sustainability report, plus a secondary source for the narrower 100% claim. The share’s measurement period and denominator remain unresolved.",
+    "The official issuer history establishes a supply relationship beginning in 1984, but does not establish that the relationship remains current.",
+    "The 100% figure is found in secondary company-profile material, not in the reviewed issuer sustainability report; its period and denominator are unspecified.",
+    "The narrower market scope in the secondary source should not be broadened to all vehicle frames or treated as a current measured share."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1525/39/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "5eeee2d2f9214381339036aeb81fd64e75b974c20e9b55a04d2f306e05631152",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1525/39/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "224ed0e8b9a8449dba9e7d02aab52ed9f88baadef3e932862d2a90d5b4b9995d",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

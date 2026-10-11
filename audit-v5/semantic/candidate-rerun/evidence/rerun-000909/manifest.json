@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000909",
+  "claim_id": "1708:export_concentration:f1f882d8f1abeb7f",
+  "normalized_claim_hash": "f1f882d8f1abeb7fb5f79c7711507c9799288ae030190928b5b01c8d359aa902",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-40e879b9c70c7c95",
+      "title": "Sesoda Corporation Investor Conference",
+      "url": "https://www.sesoda.com.tw/en/putFiles/73AZM64xpDTu9UX5",
+      "source_level": 3,
+      "publication_date": "2025-11-18",
+      "effective_period": "2025年簡報所述銷售策略",
+      "locator": "第3頁，Potassium Sulfate—Sales Strategy",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司直接披露SOP產量中98%出口至全球市場。"
+    },
+    {
+      "source_id": "src-c47aec421e4c7b6b",
+      "title": "東鹼法說會／鉀肥需求穩、避開中國大陸競爭 訂單看到明年Q1",
+      "url": "https://money.udn.com/money/story/5612/9148225",
+      "source_level": 2,
+      "publication_date": "2025-11-18",
+      "effective_period": "2025年法說會報導",
+      "locator": "正文，關於高經濟作物應用的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱鉀肥主要應用於高經濟作物，並以榴槤和酪梨為例，未明確涵蓋原句列出的葡萄、菸草及柑橘。"
+    },
+    {
+      "source_id": "src-3af0d4f78eef486e",
+      "title": "硫酸鉀—產品資訊",
+      "url": "https://www.sesoda.com.tw/product/K2SO1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品介紹及「應用」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出葡萄、柑橘、菸草及精緻作物用途，但未將每種列舉作物明確分類為高價值作物。"
+    },
+    {
+      "source_id": "src-22b6060c027361bd",
+      "title": "鉀肥供應與作物品質",
+      "url": "https://kmweb.moa.gov.tw/theme_data.php?id=53955&sub_theme=agri_life&theme=news",
+      "source_level": 3,
+      "publication_date": "2014-01-15",
+      "effective_period": null,
+      "locator": "「對作物的影響」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "農業部資料指出菸草、葡萄、果樹等作物對高含量氯敏感，因而多偏好施用硫酸鉀。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；出口比例、報導所列主要市場及SOP作物用途有證據支持，但「列舉作物均屬高價值作物」缺少逐項對應證據，故保留為UNKNOWN。",
+    "市場清單來自2025年法說會的二手新聞報導；公司簡報直接支持的是98%產量外銷至全球市場，未列出這些目的地或各地出口占比。",
+    "公司中文產品頁另稱「超過九成」產量外銷，英文產品頁稱「超過98%」；2025年公司簡報則明確寫98%。本次以有日期的公司簡報作為比例判定依據。",
+    "用途資料是產品應用描述，不是各作物實際使用量、客戶銷售或市場需求的測量。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1708/909/hermes-attempt-1.stdout.txt"
+}

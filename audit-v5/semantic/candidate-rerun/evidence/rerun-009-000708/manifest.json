@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000708",
+  "claim_id": "8935:objective_ranking_or_market_share:6e616151ae29b468",
+  "normalized_claim_hash": "6e616151ae29b468f7f7aa7974a203ae5d0e81a22f95cc0b18b6e25b38868251",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b1c8ad780dfdbc945173",
+      "title": "鞋底廠變國防供應商？邦泰(8935)轉型升級，搶攻無人機與AI機器人市場！",
+      "url": "https://today.line.me/tw/v3/article/5ylwM5K",
+      "source_level": 2,
+      "publication_date": "2025-08-04",
+      "effective_period": null,
+      "locator": "「器材事業處」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱邦泰長期為 NIKE 提供高功能性棒球鞋底；文末標示資料來源為優分析產業資料庫。"
+    },
+    {
+      "source_id": "src-3032d54f3824f9a441bb",
+      "title": "大底類 - Pontex - 邦泰複合材料股份有限公司",
+      "url": "https://www.pontex.com/product_page.php?cat=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「大底類」頁面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網產品類別列出棒球鞋等鞋款，並稱邦泰是 NIKE 高功能性釘鞋大底在亞洲最大的生產基地；沒有說明棒球鞋底單一品類的供貨情況。"
+    },
+    {
+      "source_id": "src-a9cfc4625d4059d0742d",
+      "title": "鞋底廠變國防供應商？邦泰(8935)轉型升級，搶攻無人機與AI機器人市場！",
+      "url": "https://today.line.me/tw/v3/article/5ylwM5K",
+      "source_level": 2,
+      "publication_date": "2025-08-04",
+      "effective_period": null,
+      "locator": "「器材事業處」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱邦泰是 NIKE 高功能性棒球鞋底的亞洲最大供應商；未提供排名方法或數據。"
+    },
+    {
+      "source_id": "src-4baffd917e83dabeef54",
+      "title": "大底類 - Pontex - 邦泰複合材料股份有限公司",
+      "url": "https://www.pontex.com/product_page.php?cat=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「大底類」頁面",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網表述為 NIKE 高功能性釘鞋大底的亞洲最大生產基地，未提供期間、分母或棒球鞋底單一品類排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到 issuer 官網的相關表述及一篇明確提及棒球鞋底排名的二級報導；公開資料未解決原句所需的棒球鞋底專屬排名範圍、期間與分母，因此該排名原子維持 UNKNOWN。",
+    "官網是 issuer primary source，但其排名表述涵蓋高功能性釘鞋大底，沒有界定棒球鞋底的單一市場。",
+    "二級報導支持棒球鞋底及亞洲最大供應商的說法，但未披露排名依據、比較對象或測量單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8935/708/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "d056e6cc847b0102de99627e92996471ce647cba21ffefed11eadd7848c48a5e",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8935/708/isolated-prompt.txt",
+  "prompt_sha256": "3ac179a69c7b11f72d905871b40e259d488cf3782333e37ed1a17c363cba7336",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000708/manifest.json",
+  "supersedes_manifest_sha256": "24b90140a4d66bfafe59824a6d2cacfd1ed7067d7bc76812e17b616118b1e636",
+  "corrected_at": "2026-10-08T09:58:36Z"
+}

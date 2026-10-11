@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001079",
+  "claim_id": "6205:profitability_assertion:3622ea1b4a869dfe",
+  "normalized_claim_hash": "3622ea1b4a869dfe45a11ee48a650aba3c70ab4b89a1f2cf1f80848a6cab366b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-53d3633d15b9e621",
+      "title": "詮欣104年度年報",
+      "url": "https://www.coxoc.com.tw/wp-content/uploads/inve_file_92.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2015年度營運及2016年產品計畫",
+      "locator": "第44–45頁，產品開發及產業概況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載電腦、消費性電子及通訊連接器的開發方向，未提供PC或消費性電子營收占比。"
+    },
+    {
+      "source_id": "src-c4b6aee7a579b9c1",
+      "title": "詮欣112年度年報",
+      "url": "https://www.coxoc.com.tw/wp-content/uploads/112%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "112年度年報",
+      "locator": "第5頁，經營方針第1點",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "使用「利基型市場」描述轉型目標；未等同於已披露或比較各市場毛利率。"
+    },
+    {
+      "source_id": "src-327db84caf49aa13",
+      "title": "詮欣下半年營收動能轉強，車用/網通明年貢獻續增",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=7d47c8cf-244c-4705-90f9-293bd4a6834d",
+      "source_level": 2,
+      "publication_date": "2026-09-21",
+      "effective_period": "2026年上半年",
+      "locator": "報導正文，車用營收占比段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供車用占比，但不足以重建所有舊、新產品類別的同口徑長期占比。"
+    },
+    {
+      "source_id": "src-251f30a315cf951e",
+      "title": "詮欣H1車用占比拉高到28%，逐步進入高成長期",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=7b78ae85-fc83-4169-baf2-8f264dc937e1",
+      "source_level": 2,
+      "publication_date": "2025-08-01",
+      "effective_period": "2024及2025年上半年",
+      "locator": "正文第40–44行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導2025年上半年網通占比由同期11%升至15%；未提供可核對的公司原始分部報表。"
+    },
+    {
+      "source_id": "src-de7bc9e733528550",
+      "title": "詮欣股份有限公司一一四年度年報",
+      "url": "https://www.coxoc.com.tw/wp-content/uploads/114%E5%B9%B4%E8%A9%AE%E6%AC%A3%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-30",
+      "effective_period": "2025年度",
+      "locator": "第3頁，合併營業收入、營業毛利及稅後淨利表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "揭露集團總體財務數據，未按車用、網通或其他應用市場拆分毛利。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合；歷史營收構成、完整轉型幅度及分部毛利率仍缺少同口徑的一手量化資料，依任務限制停止並將未解範圍保留為UNKNOWN。",
+    "公司年報支持轉型方向與「逐步轉型」的自述，但沒有單獨證明「成功且大幅度」的完整營收結構變化。",
+    "車用及網通占比資料來自MoneyDJ報導，屬二手來源；本次未取得可核對上述分部占比的公司原始資料表。",
+    "合併毛利率不等於車用或高速網通分部毛利率，不能據此判定兩個市場相對高毛利。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6205/1079/hermes-attempt-1.stdout.txt"
+}

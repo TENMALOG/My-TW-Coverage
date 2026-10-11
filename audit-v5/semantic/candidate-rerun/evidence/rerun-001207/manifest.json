@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001207",
+  "claim_id": "8298:profitability_assertion:efe47d18a6578fd0",
+  "normalized_claim_hash": "efe47d18a6578fd0f15371bc8e7dff69bf863480d004567888e0402526560c21",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-14435d2934a17bcb",
+      "title": "威睿 114年綜合損益表，每股盈餘2.39元",
+      "url": "https://m.moneydj.com/f1a.aspx?a=3eaaec94-b19e-4b98-8f4b-6e7c9f9c6a5a",
+      "source_level": 2,
+      "publication_date": "2026-04-20",
+      "effective_period": "2025-01-01至2025-12-31（民國114年度）",
+      "locator": "114年度綜合損益表；營業收入合計、營業毛利（毛損）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示營業收入267,421仟元、營業毛利222,082仟元及毛利率83.05%。轉載財務數據的次級來源；頁面未明確標示財報合併或個別口徑。"
+    },
+    {
+      "source_id": "src-100c25c2ead12eb2",
+      "title": "威睿科技股份有限公司113年度年報",
+      "url": "https://www.genie-networks.com/wp-content/uploads/2025/07/%E5%A8%81%E7%9D%BF%E7%A7%91%E6%8A%80_%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-09",
+      "effective_period": "2024-01-01至2024-12-31（民國113年度）",
+      "locator": "年報印刷頁74；最近二年度營業收入及營業毛利表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示2024年營業收入176,830仟元、營業毛利159,831仟元，毛利／營收約90.39%；僅支持2024年度，不代表2025年度或現行狀況。"
+    },
+    {
+      "source_id": "src-9c0fb6cf446b34b0",
+      "title": "威睿科技股份有限公司111年度年報",
+      "url": "https://www.genie-networks.com/wp-content/uploads/2023/07/%E5%A8%81%E7%9D%BF%E7%A7%91%E6%8A%80_%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2023-05-01",
+      "effective_period": "2022-01-01至2022-12-31（民國111年度）",
+      "locator": "年報印刷頁73–75：產品產製過程、主要原料、銷售量值",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載明生產部門將軟體安裝於伺服器硬體後測試、登錄並交貨；伺服器為主要生產原料，並列網路流量分析設備、大數據分析設備及保固收入。"
+    },
+    {
+      "source_id": "src-835ea440ddb51e26",
+      "title": "關於威睿 - Genie Networks",
+      "url": "https://www.genie-networks.com/tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為提供電信級網路設備的軟體開發商，並研發技術、行銷自有品牌產品；未披露現行軟體授權收入占比或純授權模式。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得2025年度毛利數據、2024年度年報比較資料，以及公司介紹與2022年度年報中的交付模式資料；現有來源不足以驗證現行授權收入組成，未以歷史資料推定現況。",
+    "2025年度毛利率數據來自次級財務資訊來源；查得資料未明確標示其合併或個別報表口徑。",
+    "純軟體授權模式缺少現行收入來源拆分或授權收入占比資料；2022年交付模式不能直接外推至目前。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8298/1207/hermes-attempt-1.stdout.txt"
+}

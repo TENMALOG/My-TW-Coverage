@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000802",
+  "claim_id": "1570:objective_ranking_or_market_share:c4ddcbe07eeee869",
+  "normalized_claim_hash": "c4ddcbe07eeee869f2b575f0b0bb3ce1112cab5ddc6a4893012db85ab0f58dcc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-414e640c5383b9af",
+      "title": "力肯實業股份有限公司一一四年度年報",
+      "url": "https://doc.twse.com.tw/pdf/2025_1570_20260520F04_20261003_211625.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-09",
+      "effective_period": "2025年度",
+      "locator": "PDF第1頁，年報封面與刊印日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認年報所屬年度；客戶揭露頁擷取逾時，未能核實該年度客戶名稱或排名。"
+    },
+    {
+      "source_id": "src-ef0b918c7e612c37",
+      "title": "力肯實業股份有限公司113年度年報",
+      "url": "https://www.depoan.com/downloads/investor/20250821135210.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "2024年度；並列2023年度客戶資料",
+      "locator": "PDF第62頁，最近二年度主要銷貨客戶資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "2024年度第一大銷貨客戶列為匿名A客戶，金額新台幣290,061仟元，占銷貨淨額40%；未揭露其品牌或國別。"
+    },
+    {
+      "source_id": "src-341a6a61be34a56b",
+      "title": "Company | Techtronic Industries TTI",
+      "url": "https://www.ttigroup.com/company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company/About Us",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司資料稱TTI在香港交易所上市，並介紹其全球工具品牌組合；未證明TTI本身是美國釘槍品牌，也未建立該品牌與力肯當期最大客戶之關係。"
+    },
+    {
+      "source_id": "src-521b7dd45c4446bc",
+      "title": "力肯2月營收續看增，首季營運不淡",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=%7B4810e7f0-d110-4ddb-b86f-e6261395c228%7D",
+      "source_level": 2,
+      "publication_date": "2015-03-06",
+      "effective_period": "2014年度（報導所稱「去年」）",
+      "locator": "報導正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱TTI占力肯前一年度營收逾三成，為當時最大客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到歷史媒體報導、力肯官方2024年度客戶揭露，以及2025年度年報；最新年報客戶頁擷取逾時。依研究範圍停止，未解的品牌身分與現期排名維持UNKNOWN。",
+    "「美國知名釘槍品牌」未指明品牌、知名度判準或主張期間。",
+    "力肯2024年度年報雖列出客戶排名，但客戶以A、B、C匿名揭露；這不是該客戶並非美國品牌的證據。",
+    "2025年度年報封面可確認報告期間與刊印日期，但該PDF客戶揭露頁擷取逾時，故未能核實其客戶排名。",
+    "2014年度TTI最大客戶的資訊來自二手媒體報導，且不得替代未指明期間的排名主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1570/802/hermes-attempt-1.stdout.txt"
+}

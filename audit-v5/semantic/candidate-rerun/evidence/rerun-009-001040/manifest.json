@@ -1,0 +1,45 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001040",
+  "claim_id": "3526:material_named_relationship:8509346172039fce",
+  "normalized_claim_hash": "8509346172039fcea3094ead4e0d5be4631fb13b93da8fdf65d4d1ed9ca7855d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e9553d48fa7f2e2cf234",
+      "title": "凡甲科技官方網站所託管之簡報 PDF（檔名 1763542707346383076.pdf）",
+      "url": "https://www.alltopconnector.com/data/briefing/files/1763542707346383076.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "未能檢視 PDF，無法確認頁碼或相關內容",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方網站 PDF 的開啟與擷取均未成功；未將搜尋摘要當作證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "針對官方產品頁與官方簡報進行查證後，頁面開啟、PDF 擷取及截圖均受工具存取限制；繼續依賴搜尋摘要不符合證據要求，故保留未解原子為 UNKNOWN。",
+    "已找到凡甲官網託管的簡報 PDF 作為查證線索，但 PDF 無法由研究工具開啟或擷取；相關搜尋摘要未作為證據。",
+    "凡甲官網相關產品頁的直接開啟亦失敗，因此無法核實 BMS 產品範圍。",
+    "未找到可核實的市場排名、客戶規模數據、期間或分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3526/1040/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c614316b156e88949057e2a50e1e5596f30ac5f97da5e5c645920747d7703b40",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3526/1040/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "29c880866268cac589ca40d852cb77d86ea178d020c8b39c831a10385867e1c3",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001040/manifest.json",
+  "supersedes_manifest_sha256": "a0d2c971988e04eeeb80825b182337d08b408ff64eb78d64e37e8f5427841bdd",
+  "corrected_at": "2026-10-08T09:59:11Z"
+}

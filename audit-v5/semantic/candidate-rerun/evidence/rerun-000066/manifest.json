@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000066",
+  "claim_id": "3552:objective_ranking_or_market_share:1a523bd0dd0f352b",
+  "normalized_claim_hash": "1a523bd0dd0f352bc85e386871b8aa82aac71c293b9e9dc175316b81ef72add7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8063f3eb700232a2",
+      "title": "Automotive News top 100 parts suppliers by OEM sales (2024)",
+      "url": "https://www.autonews.com/top-100-suppliers-2024",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2023 sales",
+      "locator": "Table “Automotive News top 100 parts suppliers by OEM sales,” 2023 column; Bosch Group is ranked 1st with $55,890 million in total global OE automotive-parts sales.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports only a ranking by total global original-equipment automotive-parts sales, not an unspecified product-market or market-share ranking."
+    },
+    {
+      "source_id": "src-688963fc0b3a9676",
+      "title": "Bosch annual report 2024",
+      "url": "https://assets.bosch.com/media/en/global/bosch_group/our_figures/publication_archive/pdf_1/gb2024.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal year 2024",
+      "locator": "“Ambitions,” page 2: Bosch describes itself as “the biggest automotive supplier.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer statement, but does not specify the ranking measure or establish first place in a narrower product market."
+    },
+    {
+      "source_id": "src-3239bf24c5283565",
+      "title": "台股照明燈／萬五徘徊：汽電零組件成主軸",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%85%A7%E6%98%8E%E7%87%88%EF%BC%8F%E8%90%AC%E4%BA%94%E5%BE%98%E5%BE%8A%EF%BC%9A%E6%B1%BD%E9%9B%BB%E9%9B%B6%E7%B5%84%E4%BB%B6%E6%88%90%E4%B8%BB%E8%BB%B8-014529492.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Article discusses 2021 supply and 2022 market conditions",
+      "locator": "Article passage on 同致 as a supplier of reverse-radar systems.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting says 同致's global share ranking is behind Bosch and Valeo; it does not establish Bosch's ordering relative to Valeo or provide the market-share denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found evidence for a separately scoped overall automotive-parts sales ranking and an underspecified secondary reverse-radar comparison, but no reliable evidence resolving the unqualified original wording.",
+    "The original wording omits the market or product category, ranking metric, denominator, and period.",
+    "The scoped total-supplier sales ranking must not be treated as evidence of first place in parking sensors or reverse radar.",
+    "The reverse-radar market-share reference is secondary reporting and does not establish Bosch's exact rank or share."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3552/66/hermes-attempt-1.stdout.txt"
+}

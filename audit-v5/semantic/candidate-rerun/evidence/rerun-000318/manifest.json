@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000318",
+  "claim_id": "5469:objective_ranking_or_market_share:bf78a8b9fd6271dd",
+  "normalized_claim_hash": "bf78a8b9fd6271dd734185a25720d413858ba41587c47888219ac530a3a0b7ca",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-824f7d0031c0c287",
+      "title": "Introduction | HannStar Board Corporation",
+      "url": "https://tw.hannstarboard.com/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company description and products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述主要從事PCB生產及銷售，產品包括筆記型電腦用PCB；列示含子公司的PCB總產能逾1,100萬平方英呎/月。"
+    },
+    {
+      "source_id": "src-a15f25140041316e",
+      "title": "Organizational | HannStar Board Corporation",
+      "url": "https://tw.hannstarboard.com/en/organization",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Anthony Chiao / PSA family",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面將瀚宇博德列入PSA家族公司。"
+    },
+    {
+      "source_id": "src-f9a2e962b1468cfa",
+      "title": "List of Major Shareholders | HannStar Board Corporation",
+      "url": "https://tw.hannstarboard.com/en/list-of-major-shareholders",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025-04-17",
+      "locator": "List of Major Shareholders",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "名單列示華新科技持股20.32%、華新麗華持股12.06%；此資料呈現股權，不等同於控制權判定。"
+    },
+    {
+      "source_id": "src-c81580386933021e",
+      "title": "HannStar Board International Holdings Limited Annual Report 2008",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2009/0408/ltn20090408462.pdf",
+      "source_level": 3,
+      "publication_date": "2009-04-08",
+      "effective_period": "2008年度",
+      "locator": "Business Review, p. 14",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱集團是全球最大Notebook PCB供應商；報告2008年約出貨5,500萬片、全球市占逾40%。此為公司年報自述，並非獨立市場排名。"
+    },
+    {
+      "source_id": "src-a99a1aa3377a5992",
+      "title": "HannStar Board International Holdings Limited Annual Report 2010",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0411/ltn20110411483.pdf",
+      "source_level": 3,
+      "publication_date": "2011-04-11",
+      "effective_period": "2010年度",
+      "locator": "Overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱2010年Notebook PCB出貨量超過全球市場40%，處於領先地位；未明確重申「全球最大」，也不能證明目前排名。"
+    },
+    {
+      "source_id": "src-ee7b4fcb441f75d8",
+      "title": "瀚宇博德及精成科技聯合法人說明會",
+      "url": "https://doc.twse.com.tw/nas/STR/619120251103M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-03",
+      "effective_period": "2025年法人說明會",
+      "locator": "第15頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報提及「鞏固AI NB龍頭」，但沒有支持一般Notebook PCB市場的全球最大排名，也沒有提供該排名所需的市場定義及分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方介紹、PSA組織資料、主要股東資料、歷史年報及2025年公司簡報。找到的明確全球最大Notebook PCB排名限於2008年；現有資料未解決無期間限定的排名主張，因此該原子 claim 保留為UNKNOWN。",
+    "2008及2010年的排名、市占與出貨量來自公司年報自述，屬歷史資料，不能外推為現況。",
+    "「PCB大廠」沒有明確量化門檻；公司披露的1,100萬平方英呎/月產能包含子公司。",
+    "「旗下」可表示企業網絡關係，但現有資料不足以將其確定表述為華新麗華目前直接或全資控制的子公司。",
+    "2025年簡報中的AI NB領導地位與一般Notebook PCB市場排名不是同一範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5469/318/hermes-attempt-1.stdout.txt"
+}

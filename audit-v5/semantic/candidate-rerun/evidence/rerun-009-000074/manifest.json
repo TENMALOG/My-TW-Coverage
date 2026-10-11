@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000074",
+  "claim_id": "2834:objective_ranking_or_market_share:f95bff030d5de303",
+  "normalized_claim_hash": "f95bff030d5de303b2c80e441561e40eb3a5bda1a5f618546bc07ee78b6fb254",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0a627a72fe341b462262",
+      "title": "股東服務－臺灣中小企業銀行",
+      "url": "https://ir.tbb.com.tw/shareholder/shareholders-meeting",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Shareholder record date: 2026-08-06",
+      "locator": "「前十大股東」 table; first row 臺灣銀行股份有限公司 and fourth row 財政部",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure. The dated snapshot contradicts a present-tense reading of the claim, but does not resolve its unspecified historical period."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after locating the issuer’s dated primary-source shareholder list. The available evidence resolves the ranking for 2026-08-06, but the claim’s missing period prevents determining its historical validity.",
+    "The issuer page provides an effective record date but no publication date.",
+    "The claim has no date or other period scope; historical validity remains unresolved."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2834/74/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-001",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "b080504f65af79812959f94345ba7958c08f950242f84f8a9f38effd25383d6e",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2834/74/isolated-prompt.txt",
+  "prompt_sha256": "f61097f61330937ae156918f0f0efd5212236422412a6d085971cdcbfa336f23",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000074/manifest.json",
+  "supersedes_manifest_sha256": "93dbdcf6961262f1b8b8193eeff5488048ad64847de8475aeeb40660161357dc",
+  "corrected_at": "2026-10-08T09:57:45Z"
+}

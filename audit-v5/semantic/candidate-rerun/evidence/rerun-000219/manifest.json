@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000219",
+  "claim_id": "4749:objective_ranking_or_market_share:b6aa8390164f3bc1",
+  "normalized_claim_hash": "b6aa8390164f3bc1dd6b51212caa5e5e9e65696b8b5db9c3f02a3d274deae0e4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0feb9d1ea3a9d74f",
+      "title": "新應材、台特化...受惠台積電在地化採購，「這2檔」特化股業績持續創高",
+      "url": "https://wealth.businessweekly.com.tw/GArticle.aspx?id=ARTL003016622",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "文中稱2024年占比72%，並預估2025年75%；出版日期未能確認。",
+      "locator": "新應材段落：「台積電為新應材最大客戶」及其營收占比敘述。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導直接指名台積電為最大客戶，但所述占比和2024年上半年79%不是同一期間數據。"
+    },
+    {
+      "source_id": "src-4bb605bf61d1459d",
+      "title": "新應材股份有限公司公開說明書",
+      "url": "https://www.kgi.com.tw/zh-tw/-/media/files/kgis/3_2_6_ipo/competitive-bidding/4749-3.pdf",
+      "source_level": 3,
+      "publication_date": "2025-01-03",
+      "effective_period": "2024年上半年（民國113年上半年度）",
+      "locator": "「銷貨集中於S1客戶」及相關銷貨收入段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "客戶匿名為S1，未在所查段落明示台積電身分或該客戶占比79%。"
+    },
+    {
+      "source_id": "src-342acd3281ba3a64",
+      "title": "【產業焦點】新應材(4749)搶占先進製程材料需求 成長動能備受關注",
+      "url": "https://uanalyze.com.tw/articles/4193025512",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年上半年",
+      "locator": "文中分別提及台積電供應鏈關係及最大單一客戶占比約79%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "兩項資訊在同一報導中出現，但未直接證明匿名最大客戶即為台積電。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪可用工具呼叫上限；未找到一手資料同時確認台積電身分與2024年上半年約79%的客戶營收占比。",
+    "新應材公開說明書在客戶集中度段落以S1代稱客戶；引用台積電供應鏈關係或市場報導，不能替代一手文件對S1身分的確認。",
+    "新應材官方2026年5月法人說明會圖表另列2024年度「半導體應用材料」占營收約79%。這是產品類別占比，不是單一客戶占比，不能互相替代。",
+    "二手報導所述2024年上半年單一客戶約79%，與另一篇報導所列2024全年台積電占比72%是不同期間數據，不應合併為同一期間或當前占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4749/219/hermes-attempt-1.stdout.txt"
+}

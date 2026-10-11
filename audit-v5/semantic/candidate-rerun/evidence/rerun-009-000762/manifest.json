@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000762",
+  "claim_id": "9960:objective_ranking_or_market_share:e41b23b10a6c9c28",
+  "normalized_claim_hash": "e41b23b10a6c9c2811c8a85f79e7c877a9ac1e88e900f86986b5f963c2f55be4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-036753aec28634f91071",
+      "title": "邁達康高爾夫 — 邁達康集團簡介",
+      "url": "https://www.golfshop.com.tw/aboutus/aboutus_2024.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview paragraph beginning 「邁達康高爾夫在台深耕十餘年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page states the company is the first brand among Taiwan golf-equipment chain channels. The page does not provide a ranking source, metric, denominator, or dated assessment."
+    },
+    {
+      "source_id": "src-4c3fc42132c992275895",
+      "title": "邁達康高爾夫 — 邁達康集團簡介",
+      "url": "https://www.golfshop.com.tw/aboutus/aboutus_2024.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview paragraph beginning 「邁達康高爾夫在台深耕十餘年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page calls 邁達康 the only Taiwan OTC-listed golf-products channel company; it does not identify the comparison universe or substantiate exclusivity."
+    },
+    {
+      "source_id": "src-5096ff5df63791fec1be",
+      "title": "證券櫃檯買賣中心 — 邁達康基本資料",
+      "url": "https://ic.tpex.org.tw/company_basic.php?stk_code=9960",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company basic data table, 「市場別」 field",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TPEx information identifies the company's market as 上櫃; it confirms this company's listing status, not that it is the only listed golf-products channel company."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official issuer and TPEx materials found the issuer's assertion and confirmation of its listing status, but no dated independent ranking or comprehensive evidence establishing the claimed uniqueness.",
+    "The issuer page is primary evidence of the company's own statement, not independent substantiation of the ranking or exclusivity.",
+    "The issuer page provides no publication date, assessment period, ranking metric, or market denominator.",
+    "The TPEx source confirms 邁達康的上櫃身分 but does not resolve the claim's exclusivity across a defined company universe."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9960/762/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "7632513c34f57dfb6795657ca2077e87b01d57a8da9adbe6fa90be7148d67204",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9960/762/isolated-prompt.txt",
+  "prompt_sha256": "3c1f09b7cbc80cebdf7a2bc846b461ce617873476d1b4d445cd4448b171ae8d4",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000762/manifest.json",
+  "supersedes_manifest_sha256": "d9fbbc57e31115fe09434cdee2eed98c87ae1aef678c831d4f872f0079661872",
+  "corrected_at": "2026-10-08T09:58:41Z"
+}

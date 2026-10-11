@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000356",
+  "claim_id": "5478:objective_ranking_or_market_share:ce91f88d8082e000",
+  "normalized_claim_hash": "ce91f88d8082e000ee2a8bf6335ab2278fd80f2aa033806d90ec84ff259a3665",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bcc3c4afd55f2e0b",
+      "title": "智冠科技股份有限公司113年度營業報告書",
+      "url": "https://www.soft-world.com/Investors/ShareholderFile?Sn=2024&type=%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024 (ROC year 113)",
+      "locator": "113年度營業報告書，遊戲事業群段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Groups Taiwan, Hong Kong, and Macau in its market-share description; does not establish a separate expansion chronology for Hong Kong or Macau."
+    },
+    {
+      "source_id": "src-7950ffb0e546c598",
+      "title": "智冠(5478)-台灣遊戲點數卡的龍頭",
+      "url": "https://www.stockfeel.com.tw/%E6%99%BA%E5%86%A05478-%E5%8F%B0%E7%81%A3%E9%81%8A%E6%88%B2%E9%BB%9E%E6%95%B8%E5%8D%A1%E7%9A%84%E9%BE%8D%E9%A0%AD/",
+      "source_level": 2,
+      "publication_date": "2020-01-17",
+      "effective_period": "Article describes the situation at its 2020 update",
+      "locator": "Article text stating MyCard's share of the Taiwan point-card market",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Historical secondary assertion of 60%; no calculation method or denominator detail is given."
+    },
+    {
+      "source_id": "src-a47b51afd0396933",
+      "title": "智冠科技-產品與服務",
+      "url": "https://www.soft-world.com/Services",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "MyCard section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Hong Kong and Macau as places where MyCard offers local payment options; does not describe market-entry timing."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核智冠FY2024股東會營業報告、現行官方產品與服務頁及歷史二級來源；尚無證據確認台灣單一市場目前約60%的市占率與其分母，也未找到港澳市場的擴張時間。",
+    "FY2024年報的最高市占率範圍是台灣、香港、澳門合併描述，不能替代台灣單一市場排名或市占率。",
+    "60%數字僅見於2020年二級來源；來源未揭露計算方法或市場分母，不能證明為目前數字。",
+    "智冠現行產品頁未標示發布日期；它支持目前頁面所述的合作、通路及服務地區，但不提供相關擴張的歷史日期。",
+    "MyCard在港澳提供服務不等於已證明何時或如何拓展進入港澳市場。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5478/356/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000509",
+  "claim_id": "7610:objective_ranking_or_market_share:f09b19c3cba50f22",
+  "normalized_claim_hash": "f09b19c3cba50f22907aabed55abc7163c572f4dce592cdd137eccd8cfd76f34",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0f13690e72e6d9b4",
+      "title": "Group Locations | ALCONIX CORPORATION",
+      "url": "https://www.alconix.com/en/company/group",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Trading segment, Aluminum and copper products; ALUMINUM & COPPER RECYCLING CENTER CORPORATION business description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the subsidiary's business as recycling aluminum and copper scrap from collection to sales."
+    },
+    {
+      "source_id": "src-2d7062c0807d8de1",
+      "title": "脱炭素の救世主！？非鉄金属のリサイクルで日本一を目指すアルコニックスが取り組む再生資源活用",
+      "url": "https://www.alconix.com/media/owned/2025/06/06/afd979573e2f1571bad5c89467b5f473d90938e0.html",
+      "source_level": 3,
+      "publication_date": "2025-06-06",
+      "effective_period": "As described in the article published 2025-06-06",
+      "locator": "Interview section describing nationwide relationships with non-ferrous recycling dealers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company-reported description; it does not quantify the network or establish global reach."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official Alconix business, group, and recycling disclosures established recycling activity and a domestic supplier network, but did not resolve the broad ranking or global-network assertions. Those atoms remain UNKNOWN pending comparable independent ranking data and evidence defining the current geographic scope of scrap procurement.",
+    "The ranking and network evidence is primarily issuer-reported; no independent market-wide ranking with a defined market, metric, denominator, and period was located.",
+    "The issuer's stated goal concerns non-ferrous scrap collection volume, which is narrower than the claim's undefined description of the largest metal recycler.",
+    "The article's discussion of overseas sourcing is prospective and does not establish a current global procurement network."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7610/509/hermes-attempt-1.stdout.txt"
+}

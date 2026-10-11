@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000598",
+  "claim_id": "3227:objective_ranking_or_market_share:9484acc8041462d9",
+  "normalized_claim_hash": "9484acc8041462d98a2f7859c9c894152c6056f002f4e54b25463e622a658d3e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-dff9d0419ebd5704401f",
+      "title": "PixArt Imaging Inc. 2022 ESG Report",
+      "url": "https://www.pixart.com/upload/ckfiles/files/pixart-2022-esg-report-en-S.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022報告期；報告發布日期未由檢索材料確認",
+      "locator": "Brand Introduction；段落稱 “We are the largest supplier of optical mouse sensor chips.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司自述直接支持其2022報告期的排名說法；未列出排名測量口徑或市場分母。"
+    },
+    {
+      "source_id": "src-6cea69b1af7b8a5a9cad",
+      "title": "PixArt Imaging Inc. - Company Profile",
+      "url": "https://www.pixart.com/about_pixart-company_profile/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile；段落稱其為 “the world-leading supplier in optical mouse sensor chips”。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方現行簡介使用「world-leading」，但未明確支持「最大」這一排名。"
+    },
+    {
+      "source_id": "src-2a13b0a5f6c354798040",
+      "title": "PixArt Imaging Inc. - Company Profile",
+      "url": "https://www.pixart.com/about_pixart-company_profile/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile；首段及 “PixArt is expertized in CMOS image sensors (CIS), capacitive touch controllers and related imaging applications” 段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介直接支持其CIS與相關感測／影像應用IC設計專注領域。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱官方公司簡介與官方2022 ESG報告。核心業務描述有官方資料支持；全球最大供應商這一未標期間的排名仍缺少現時、可核對的市場口徑，故保留為UNKNOWN。",
+    "「最大供應商」來自公司官方自述，現有資料未提供市占率、出貨量或營收排名口徑。",
+    "官方2022 ESG報告的自述不能在缺少期間資訊時外推為現時排名；官方公司簡介的「world-leading」也不等同明確的第一名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3227/598/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "73bc07a5276a21365081ec7842868b0f7dcd7ca59d09bd1339104ba8fb5c74f2",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3227/598/isolated-prompt.txt",
+  "prompt_sha256": "29eb7008c279fc40b22f7da44590a6d152a1e331ad7990871200c59a73ff6824",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000598/manifest.json",
+  "supersedes_manifest_sha256": "60b2380b2e2576f8dc1621185aa2b9d2470627e88d34f0518d5687ab9d1429f1",
+  "corrected_at": "2026-10-08T09:58:26Z"
+}

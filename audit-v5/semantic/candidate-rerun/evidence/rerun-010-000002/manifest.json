@@ -1,0 +1,73 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000002",
+  "claim_id": "2644:material_named_relationship:5c551327d27428ea",
+  "normalized_claim_hash": "5c551327d27428ea984cf180716d7660497e1074b3d0776f3e2318ed7db2bd93",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-87aa4b2368339739048a",
+      "title": "中信造船股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba7cecbd-87c7-44f2-bc65-cf7af304d446",
+      "source_level": 2,
+      "publication_date": "2025-06-18（頁面更新日期）",
+      "effective_period": null,
+      "locator": "（二）產品與競爭條件 > 2.重要原物料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出「鋁合金板／鋼板：中鋼鋁、中鋼、法國鋁業」；未提供採購量、供應期間或鋼板用途的細分。"
+    },
+    {
+      "source_id": "src-9e7f320c826939eede82",
+      "title": "中信造船股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba7cecbd-87c7-44f2-bc65-cf7af304d446",
+      "source_level": 2,
+      "publication_date": "2025-06-18（頁面更新日期）",
+      "effective_period": null,
+      "locator": "（二）產品與競爭條件 > 2.重要原物料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅列出材料供應來源，沒有證明中鋼相較其他來源的供應規模或重要性。"
+    },
+    {
+      "source_id": "src-d7dd8d4538567c7e5d1c",
+      "title": "中信造船股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=ba7cecbd-87c7-44f2-bc65-cf7af304d446",
+      "source_level": 2,
+      "publication_date": "2025-06-18（頁面更新日期）",
+      "effective_period": null,
+      "locator": "（二）產品與競爭條件 > 2.重要原物料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出「鋁合金板／鋼板：中鋼鋁、中鋼、法國鋁業」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已達本輪工具呼叫上限；現有資料不足以核實供應關係的用途、期間及「主要」所需的排名或採購占比。",
+    "MoneyDJ頁面標明內容由嘉實投顧提供，屬二手資料；其供應來源條目未附中信造船採購揭露、期間或數量。",
+    "中信造船網站刊載的2016年潛艦專題提到中鋼開發潛艦用鋼材，但內容未證明中鋼向中信造船供應鋼板，也未涉及其是否為主要供應商：https://www.jongshyn.com/news_info.asp?id=25。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2644/2/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "0845a3b40ae0fec014ad021cc1a8f4eb07bd7c3444c64f619fb98ac8a9c25e03",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2644/2/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "cd7885460789f93a7f9fdf85814ab82dc8f9351fd26eb252c1c91a0c0a304302",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

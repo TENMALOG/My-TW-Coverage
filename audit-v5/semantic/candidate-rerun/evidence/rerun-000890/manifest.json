@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000890",
+  "claim_id": "2252:material_named_relationship:79973c44b52acaed",
+  "normalized_claim_hash": "79973c44b52acaed40cb938150a838707ab132947698adbfbc533c356be8d1ed",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-507d365fe95aa0c4",
+      "title": "《興櫃股》為昇科 搶當毫米波雷達前三強",
+      "url": "https://tw.stock.yahoo.com/news/%E8%88%88%E6%AB%83%E8%82%A1-%E7%82%BA%E6%98%87%E7%A7%91-%E6%90%B6%E7%95%B6%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E9%81%94%E5%89%8D%E4%B8%89%E5%BC%B7-005151618.html",
+      "source_level": 2,
+      "publication_date": "2021-08-27",
+      "effective_period": "2021年",
+      "locator": "報導正文：前五大商用車廠供應關係段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導只把獨家供應範圍稱為 FCW 系統。"
+    },
+    {
+      "source_id": "src-b7f7610d40a474eb",
+      "title": "為昇科擬今年底上市　毫米波雷達切入中國前3大商用車",
+      "url": "https://finance.ftvnews.com.tw/news/detail/2022420W0157",
+      "source_level": 2,
+      "publication_date": "2022-04-20",
+      "effective_period": "2022年",
+      "locator": "第17至18行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導引述公司副總經理稱，對中國大陸商用車前兩大品牌的供貨比重分別為100%及近100%，但未稱為獨家合約，也未將該供貨範圍識別為 AEB／BSD 雷達。"
+    },
+    {
+      "source_id": "src-4b19c237451dca7a",
+      "title": "為升電裝 2024 永續報告書",
+      "url": "https://www.cubelec.com.tw/download/pdf/2025/cub%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B82024%20%E6%B0%B8%E7%BA%8C%E9%95%B7%E5%AE%9A%E7%89%88V2.0.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年",
+      "locator": "2024年研究發展狀況；報告書組織邊界與範疇",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方集團報告提及 BSD、FCW、AEB 雷達應用；同一報告明示為昇科科技股份有限公司不在其永續報告書組織邊界內，故不足以完成對2252的歸屬確認。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到一項與原 claim 接近但產品範圍不同的歷史報導，並檢視官方集團報告的產品與組織邊界揭露；未找到可把兩家獨家供應關係直接連結至2252的 AEB／BSD 雷達之可靠來源。官方法人說明會頁面未能載入，故保留未解範圍為 UNKNOWN。",
+    "獨家供應關係的證據是2021年媒體報導，屬次級來源，且產品範圍明確為 FCW 系統。",
+    "2022年報導所述100%及近100%供貨比重，不等同於獨家供應合約。",
+    "為升電裝2024永續報告雖列出 BSD、FCW、AEB 雷達應用，但將為昇科科技排除在該報告組織邊界之外。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2252/890/hermes-attempt-1.stdout.txt"
+}

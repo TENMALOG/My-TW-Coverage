@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000160",
+  "claim_id": "6245:objective_ranking_or_market_share:658825ba3e219605",
+  "normalized_claim_hash": "658825ba3e2196059d06c25f3e985224c99eb2f59a73c6deb3fa2a4ff5919666",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9ff2326543872bd7",
+      "title": "Company Profile - Lanner Electronics",
+      "url": "https://www.lannerinc.com/corporate/company-profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面引用的 Gartner Magic Quadrants 為 2013 年",
+      "locator": "The Network Communications Specialist",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網稱 Gartner 所列 46 家公司中 39% 使用立端硬體；指標是公司採用比例，不是全球市場市佔率。"
+    },
+    {
+      "source_id": "src-1be41c4e0c2b5faf",
+      "title": "【工業電腦】全球資安事件頻傳，立端(6245)能否受惠，此時缺了關鍵鑰匙。",
+      "url": "https://uanalyze.com.tw/articles/681765683",
+      "source_level": 2,
+      "publication_date": "2024-07-17",
+      "effective_period": null,
+      "locator": "立端介紹段落：「在美國出貨量市佔率約40~50%」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章談美國出貨量而非北美市場，且未列出數據期間、分母、單位定義或可核驗的統計來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱立端官方公司資料及年報／投資人資料相關搜尋結果，並核對重述該排名與數字的二手文章；未找到定義清楚且具期間、分母與方法的官方或可靠市場份額資料。相關原子主張維持 UNKNOWN。",
+    "二手文章重述全球排名及市佔數字，但沒有為這些數字提供可追溯的原始統計、期間、分母或市場定義。",
+    "立端官網的 39% 指標是特定 Gartner 公司群中使用立端硬體的公司比例，不是網路安全硬體的市場市佔率。",
+    "美國出貨量份額不能直接替代北美市場份額。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6245/160/hermes-attempt-1.stdout.txt"
+}

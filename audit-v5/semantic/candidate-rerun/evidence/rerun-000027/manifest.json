@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000027",
+  "claim_id": "1319:objective_ranking_or_market_share:2a6fc80138e4eb21",
+  "normalized_claim_hash": "2a6fc80138e4eb2179ecf54b34dba861d87c5ec99b9a19abc1272d07f3aafb6e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "tyg-2025-annual-report",
+      "title": "東陽實業廠股份有限公司2025年度年報（民國114年度）",
+      "url": "https://www.tyg.com.tw/?sdm_process_download=1&download_id=1630",
+      "source_level": 3,
+      "publication_date": "2026",
+      "effective_period": "2025年度銷售客戶揭露及AM事業／2026市場計畫敘述。",
+      "locator": "PDF第8頁（印刷頁4）：公司稱在美國市場產品獲CAPA認證，並取得LKQ Keys IQ認證；稱LKQ為美國最大AM零件通路商。PDF第95頁（印刷頁91）：年報對State Farm與AM件政策的產業說明。PDF第106頁（印刷頁102）：最近年度主要銷貨客戶中以代號A列示，2025年金額NT$5,173,269仟元、占20.62%，註明受契約約定不得揭露名稱。",
+      "source_sha256": "c3dfe3051f54d0158ea6f23792c7194ab66764107f66be4fc09ff727ab22fee3",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/27/tyg-2025-annual-report.pdf",
+      "note": "發行人年報；認證和產業描述屬公司披露，客戶代號不能據以推定為LKQ或Keystone。"
+    },
+    {
+      "source_id": "lkq-keystone-automotive-industries",
+      "title": "Keystone Automotive Industries – LKQ Corp",
+      "url": "https://lkqcorp.com/blog/global-presence/brand/keystone-automotive-industries/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視的LKQ公司介紹。",
+      "locator": "LKQ公司頁稱Keystone Automotive Industries, Inc.為LKQ子公司、全美最大aftermarket auto parts supplier，並稱其為提供替換零件的ISO 9001 distributor。",
+      "source_sha256": "9b6640126ba0cf59adfe596f69cb6893563b62997b39bb22986a42a688f2078f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/27/lkq-keystone-automotive-industries.html",
+      "note": "LKQ自身公司資料；Keystone與LKQ是同一企業集團，不能當作兩個彼此獨立的最大通路商。"
+    },
+    {
+      "source_id": "court-2005-keystone-tong-yang",
+      "title": "General Motors Corp. v. Keystone Automotive Industries, Inc. and Tong Yang Industry Co., Ltd.",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-mied-2_02-cv-74587/pdf/USCOURTS-mied-2_02-cv-74587-0.pdf",
+      "source_level": 4,
+      "publication_date": "2005-05-10",
+      "effective_period": "美國密西根東區聯邦地方法院商標爭議裁定。",
+      "locator": "PDF第1–2頁（印刷頁1–2）：法院背景及行銷通路段落稱Tong Yang在台製造汽車替換件並透過Keystone等經銷商在美國銷售；原文提到相關主張與Yang declaration。",
+      "source_sha256": "378a6424e0d8342df979fcc30b1253b9440bbf97336a7e6483f5a7b06022bd60",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/27/court-2005-keystone-tong-yang-opinion.pdf",
+      "note": "法院材料證明至少有歷史性經銷關係，不證明截至2026年的供貨規模或最大客戶排名。"
+    },
+    {
+      "source_id": "statefarm-auto-replacement-parts",
+      "title": "Auto Replacement Parts – State Farm",
+      "url": "https://www.statefarm.com/claims/auto/replacement-parts",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視的State Farm現行理賠零件政策。",
+      "locator": "Standards段落：估價中列出的非OEM碰撞零件需CAPA或NSF認證；相關類別包括保險桿、燈具、散熱器支架、外鈑金及塑膠／複合材料零件。頁面稱實際使用零件由車主選擇。",
+      "source_sha256": "86d2b25059e7387026d7c4b76de60f7de51bd795e6eb474908c3d0fdcdca6b53",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/27/statefarm-auto-replacement-parts.web-capture.txt",
+      "note": "官網網頁透過web擷取文字存證（非HTML原始檔）；支持其認證零件估價政策，不證明State Farm採購東陽零件或東陽直接受益。"
+    },
+    {
+      "source_id": "capa-participants",
+      "title": "Participants – Certified Automotive Parts Association",
+      "url": "https://www.capacertified.org/Participants",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視的CAPA參與者名冊。",
+      "locator": "名冊列Tong Yang Industry Co., Ltd.及台南地址。",
+      "source_sha256": "c4286b4a93bc9fb70bc8d6930c28f543faebd2528203064bbbc3e0282b4e9c11",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1319/27/capa-participants.html",
+      "note": "CAPA官方名冊支持東陽為計畫參與者；特定零件是否在某時點有效認證仍以零件級紀錄為準。"
+    }
+  ],
+  "search_notes": [
+    "分別核對東陽2025年報、LKQ／Keystone官方公司資料、CAPA名冊、State Farm現行零件政策及2005年法院材料。",
+    "LKQ與Keystone Automotive Industries屬母子公司關係；發行人年報只以代號A揭露主要客戶，未揭示其是否為LKQ或Keystone。",
+    "Keystone關係有2005年法院文件的歷史渠道證據，不足以證明現行最大夥伴地位。",
+    "State Farm目前公開政策接受符合CAPA或NSF標準的部分非OEM碰撞件；沒有找到特定東陽零件採購或收入受益數據。"
+  ]
+}

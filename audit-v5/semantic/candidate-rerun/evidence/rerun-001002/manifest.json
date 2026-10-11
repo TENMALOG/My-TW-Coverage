@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001002",
+  "claim_id": "3071:material_named_relationship:2d5f28d692feacbe",
+  "normalized_claim_hash": "2d5f28d692feacbeb8a49e289369339b46b9c36ef470dd3ace00d9d75513b1a2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-bbc7c377fe3c5edd",
+      "title": "協禧電機股份有限公司 113 年股東會年報",
+      "url": "https://www.adda.com.tw/upload/investors_page_file/113%E5%B9%B4-%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度及年報刊印日止",
+      "locator": "第58頁，最近年度研發開發成功之技術或產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將電池模組列為車用電子散熱產品。"
+    },
+    {
+      "source_id": "src-80afee5a547b8ebb",
+      "title": "車載需求穩定挹注，協禧5月營收年增近四成",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f70074d0-4e87-42fd-8d98-23d8dd4f0c1f&c=MB06",
+      "source_level": 2,
+      "publication_date": "2026-06-10",
+      "effective_period": "2026年報導時",
+      "locator": "報導內公司對車載應用與營收動能的說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導引述公司稱車載應用是主要營收來源與成長動能；非公司原始披露文件。"
+    },
+    {
+      "source_id": "src-50dccb5c9398ab38",
+      "title": "協禧車用布局邁大步 拿下韓系電池大廠新認證 明年放量出貨",
+      "url": "https://anuenews.cnyes.com/news/id/4892084",
+      "source_level": 2,
+      "publication_date": "2022-07-13",
+      "effective_period": "報導描述2022年當時情況",
+      "locator": "韓系電池客戶供應車廠的段落及協禧車用出貨段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章提到 GM 是韓系電池客戶的車廠客戶，並未將協禧產品供貨連結至 GM。"
+    },
+    {
+      "source_id": "src-a3f7a992618bc327",
+      "title": "電动车散热：车用电子、充电桩与车载系统的高效静音散热方案",
+      "url": "https://www.adda.com.tw/cn/news_detail/electric-vehicle-heat-dissipation/",
+      "source_level": 3,
+      "publication_date": "2026-09-07",
+      "effective_period": "公司產品資訊頁刊載時",
+      "locator": "電池模組系統恒溫管理段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列出供 BMS 與 EV 電池模組使用的散熱方案。"
+    },
+    {
+      "source_id": "src-037817ff96e7a806",
+      "title": "協禧3071展望2020、2018",
+      "url": "https://davidli.pixnet.net/blog/posts/3047840787",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "報導所述2020年前後情況",
+      "locator": "車載產品及 Ford 等車廠段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較早的轉載／整理內容提到 Ford 等車廠，但未確認間接供貨鏈或現行關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對協禧官方年報、公司產品資訊及具名車廠供應關係的查找。未找到可確認歐美 Tier 1 認證、間接供應 GM 或現行 Ford/Tesla 關係的充分證據；依規則保留未解原子為 UNKNOWN。",
+    "公司年報與產品頁可支持車用散熱產品項目及應用描述，但未提供各應用的客戶名稱、出貨量或量產狀態。",
+    "2022年鉅亨網報導支持當時間接供應 Tesla 的說法；未查得近期公司或監管文件確認該關係仍持續。",
+    "Tier 1 出貨、Tier 1 認證及通過特定電池客戶認證是不同主張，不能互相替代。",
+    "GM 出現在報導中是韓系電池客戶的下游客戶資訊，並非協禧對 GM 供貨的證據。",
+    "2026年 MoneyDJ 報導稱協禧主要出貨給 Tier 2 廠商；此資訊未必排除其他產品或期間的不同供應鏈，但無法用來確認原文所稱歐美 Tier 1 認證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3071/1002/hermes-attempt-1.stdout.txt"
+}

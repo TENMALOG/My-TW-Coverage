@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000105",
+  "claim_id": "2427:objective_ranking_or_market_share:1d56a8bd2f1d7f51",
+  "normalized_claim_hash": "1d56a8bd2f1d7f517bbe3f53d62f239183e0a0ac907cd63022ee1d00caa529d6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b409576f7ed243db",
+      "title": "循環式存提款機 (SR7500) - 產品資訊 ∣ 三商電腦股份有限公司",
+      "url": "https://www.mds.com.tw/tc/products_detail.php?PKey=1&Page=0",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品特色",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁列示循環式存提款機。"
+    },
+    {
+      "source_id": "src-bbb863d4826b4dca",
+      "title": "臺外幣現鈔兌換機 - 產品資訊 ∣ 三商電腦股份有限公司",
+      "url": "https://www.mds.com.tw/tc/products_detail.php?PKey=7&Page=0",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品特色／服務功能",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁列示本國及外國人適用，以及新臺幣與外幣現鈔兌換服務。"
+    },
+    {
+      "source_id": "src-2d413d427bceb55d",
+      "title": "專業型繳費機 (SR7500-CRS7) - 產品資訊 ∣ 三商電腦股份有限公司",
+      "url": "https://www.mds.com.tw/tc/products_detail.php?PKey=6&Page=0",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品特色",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司產品頁描述其整合存提款ATM並支援多元繳費。"
+    },
+    {
+      "source_id": "src-f8d2759df2c4e679",
+      "title": "三商電非金融業務旺，2024營收看雙位數成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=4c543048-05a6-4cb4-b572-c74e1f1fe1a0",
+      "source_level": 2,
+      "publication_date": "2024-01-09",
+      "effective_period": "報導時點；具體統計期未說明",
+      "locator": "內文首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱三商電在臺灣ATM市佔率過半，未列分母、台數或測量方法。"
+    },
+    {
+      "source_id": "src-5d87efd6261615df",
+      "title": "產品資訊 ∣ 三商電腦股份有限公司",
+      "url": "https://www.mds.com.tw/tc/products_list.php?Class2=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "金融科技／產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示ATM、臺外幣現鈔兌換機及專業型繳費機等產品；沒有具名銀行客戶或部署資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方產品頁及可取得的公司投資人資料，並找到報導ATM市佔過半的二級來源。未找到可核實銀行部署、設備市佔分母或外幣兌換機與繳費機市佔的可靠資料；這些範圍仍屬UNKNOWN。",
+    "MoneyDJ是二級來源；其ATM市佔報導未定義市場分母、計量單位或統計期。",
+    "公司官網的產品清單證明產品存在，不等同於銀行採購或實際部署證據。",
+    "公司官網所述「存款／循環功能ATM市佔穩居第一」是較窄的產品分類，且未提供數值，不能與整體ATM市佔直接等同。",
+    "原句括號中的「市佔逾五成」適用於ATM一項或全部列示設備，語意不明；未將ATM市佔延伸至兌換機或繳費機。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2427/105/hermes-attempt-1.stdout.txt"
+}

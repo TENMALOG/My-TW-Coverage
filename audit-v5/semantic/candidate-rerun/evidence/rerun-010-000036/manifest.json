@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000036",
+  "claim_id": "1524:objective_ranking_or_market_share:3fdf0568b0589c62",
+  "normalized_claim_hash": "3fdf0568b0589c62adc1d87c6252bce783ca985219cb3fe12c476acf9f695601",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-df80d24fa846d46c0b20",
+      "title": "個股筆記：1319 東陽/1522 堤維西/1524 耿鼎/6605 帝寶",
+      "url": "https://vocus.cc/article/66fe357ffd8978000141feb8",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article passage on 耿鼎: “在美洲市場的最大客戶為 LKQ”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Undated individual-investor commentary; customer-ranking period and basis are not stated."
+    },
+    {
+      "source_id": "src-85b1659cc8844e594b26",
+      "title": "耿鼎企業股份有限公司 2023 年年報",
+      "url": "https://www.gordon.com.tw/pdf/annual/2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "Printed pages 2–3, operating strategy and outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies North America as the company's largest market and discusses growing aftermarket share, but the reviewed passages do not identify LKQ as the largest customer."
+    },
+    {
+      "source_id": "src-5201a4a598c2e6d71f65",
+      "title": "個股筆記：1319 東陽/1522 堤維西/1524 耿鼎/6605 帝寶",
+      "url": "https://vocus.cc/article/66fe357ffd8978000141feb8",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article passage on 耿鼎: LKQ “擁有美國汽車板金後售市場近 40% 的市佔率”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Undated individual-investor commentary. It states the United States rather than North America and does not specify the period or denominator."
+    },
+    {
+      "source_id": "src-e7cb5eba79125efc3322",
+      "title": "耿鼎企業股份有限公司 2023 年年報",
+      "url": "https://www.gordon.com.tw/pdf/annual/2023.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023",
+      "locator": "Printed page 3, market and operating outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Mentions expanding aftermarket market share as an objective; it does not establish LKQ's market share or a near-40% figure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "Research stopped at the tool-call limit. The unresolved atoms remain UNKNOWN.",
+    "The only located source for the LKQ customer ranking and near-40% figure was undated individual-investor commentary.",
+    "The reported share is framed as the U.S. aftermarket sheet-metal market, whereas the claim says North America; period and denominator are unstated.",
+    "The official 2023 annual report material reviewed does not resolve either assertion."
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1524/36/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "5b6d7d763a1b8fbc5b6214310cfaedf9689e91dce84056f6454c83964ecef7ef",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1524/36/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "6f847b5d7fbf8adfe8d87bd6c15c6968beb12f857959914cd6494338f7f73afc",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

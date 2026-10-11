@@ -1,0 +1,76 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000049",
+  "claim_id": "2231:objective_ranking_or_market_share:be355493562a87fb",
+  "normalized_claim_hash": "be355493562a87fbb8c181b353ddb82b2d2ac07e2148097d5cb6b24a37099e5f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "cub-2025-annual-report-en",
+      "title": "CUB Elecparts Inc. 2025 Annual Report (English)",
+      "url": "https://www.cubelec.com/download/pdf/2026/2026-5.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-11",
+      "effective_period": "FY2025; posted in 2026 annual-meeting materials.",
+      "locator": "Business/product descriptions list TPMS and automotive millimeter-wave radar including 77GHz. TPMS market section says more than 90% of older U.S. vehicles were equipped with TPMS after 2015 (vehicle penetration, not CUB share). The report states company-specific electrical-parts market statistics are difficult to obtain because product tax codes cover broad categories; no TPMS aftermarket share of 90% is disclosed.",
+      "source_sha256": "14a8073383da0ae763fbc05f3f223889f4004cda09fb0eda07596fbbd595dfc7",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/49/cub-2025-annual-report-en.pdf",
+      "note": "Issuer annual report downloaded from the company shareholder-info page; distinguishes vehicle penetration and company shipment/channel data from market share."
+    },
+    {
+      "source_id": "cub-product-introduction-en",
+      "title": "CUB Elecparts official product introduction",
+      "url": "https://www.cubelec.com.tw/product-en.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current site content accessed 2026-10-06.",
+      "locator": "Product introduction describes CUB PUR TPMS as a CUB-developed solution for the global TPMS market and states CUB developed 24GHz, 77GHz, and 79GHz millimeter-wave radar, with 24GHz/77GHz production lines.",
+      "source_sha256": "57e6c18f1d86dca637515b06fc6cf8bdf05f3086a0b6470a7f34dbc08410b74d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/49/products-en.html",
+      "note": "Current issuer product page supports TPMS and radar products; company-authored claims are not independent market-share evidence."
+    },
+    {
+      "source_id": "cub-adas-77ghz-en",
+      "title": "CUB Elecparts: 77GHz Millimeter Wave Radar",
+      "url": "https://www.cubelec.com.tw/adas-prodcut02-en.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current site content accessed 2026-10-06.",
+      "locator": "Official ADAS product page identifies a 77GHz millimeter-wave radar and describes its turn-assist active warning application.",
+      "source_sha256": "cdcfaa204f444b789096b2c28eda7f04770656b061ff995a1cc24b2871ba6bcc",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/49/adas-product-77ghz-en.html",
+      "note": "Issuer product page; direct current product evidence."
+    },
+    {
+      "source_id": "cub-sustainability-report-2024",
+      "title": "CUB Elecparts 2024 Sustainability Report",
+      "url": "https://www.cubelec.com.tw/download/pdf/2025/cub%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B82024%20%E6%B0%B8%E7%BA%8C%E9%95%B7%E5%AE%9A%E7%89%88V2.0.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-26",
+      "effective_period": "2024 sustainability statements; file metadata created 2025-08-26.",
+      "locator": "Management message describes CUB as a global aftermarket universal TPMS leader and Taiwan automotive-electronics innovation leader. These are issuer self-descriptions without a defined ranking method or market-share denominator.",
+      "source_sha256": "8f7fa0104af4db82922fb7607685319432f340473129dff1e00dc0113705122b",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/49/cub-sustainability-report-2024.pdf",
+      "note": "Official, but promotional self-description; does not independently establish the broad “Taiwan automotive electronics leader” claim."
+    },
+    {
+      "source_id": "moneydj-cub-tpms-am-2014",
+      "title": "MoneyDJ: 為升TPMS產能、訂單擴，營運逐季看增",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=696e9d31-8c61-4533-828c-9149d8a4bd47",
+      "source_level": 2,
+      "publication_date": "2014-09-23",
+      "effective_period": "2014 company operating context.",
+      "locator": "Article says CUB mainly supplied the North American AM market, which accounted for 90% of CUB TPMS product shipments. It does not say that CUB held 90% of the TPMS AM market.",
+      "source_sha256": "e6c9a09aa5b54d7d29a9b4038630a1084d8eb29b9752a6640147d3c20d85ecdb",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/49/moneydj-cub-tpms-am-2014.html",
+      "note": "Secondary contemporary report; supports historical company shipment/channel mix, not market share or current status."
+    }
+  ],
+  "search_notes": [
+    "拆分公司身分/領導地位、TPMS產品、AM通路、AM市占、77GHz雷達產品。",
+    "下載公司官網2025年報並核對官網現行TPMS與77GHz雷達產品頁；年報支持產品存在，但未披露TPMS AM市占約90%。",
+    "查找90%相關來源：年報中一處是2015年後美國舊車TPMS裝配率；2014年MoneyDJ另一處是為升本身TPMS出貨約90%供應北美AM通路。兩者均不是為升在TPMS AM市場的市占率。",
+    "公司2024永續報告自述為全球AM通用型TPMS領導廠商及台灣汽車電子創新領航者，但未給客觀排名標準或市占分母；「台灣汽車電子龍頭」仍不宜作為已核實排名。",
+    "最新年報市場分析指出公司相關產品占汽車零組件整體市場比重不易統計，且採用的出口稅則涵蓋多類零件，無法據此核實單一TPMS市場市占。"
+  ]
+}

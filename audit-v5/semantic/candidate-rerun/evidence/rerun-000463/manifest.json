@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000463",
+  "claim_id": "2636:objective_ranking_or_market_share:b0e48b98528244b3",
+  "normalized_claim_hash": "b0e48b98528244b3253902d1ae4626ff9ffdb7d6aafea5ff8f901c46c292cbf1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4dca58f24297673a",
+      "title": "2025 台驊永續報告書",
+      "url": "https://www.t3ex-group.com/files/ESGReport/2025%E6%9B%B8%E5%86%8Atw.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023–FY2025",
+      "locator": "第11–12頁，營運績效說明及「主要產品（服務）營收結構」表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示年度合併營收及海運、空運等服務類別收入占比的年度變化；公司說明疫情後海運運價高檔、其後市場回歸常態及景氣趨緩對營收的影響。"
+    },
+    {
+      "source_id": "src-e67cdd143c800753",
+      "title": "台驊控股民國一一二年度年報",
+      "url": "https://www.t3ex-group.com/files/Finance/2023_2636_20240529F04.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2022–FY2023",
+      "locator": "營運回顧，第1頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明運價反轉影響海運、空運收入，並記錄不同事業群在該年度的營運表現變化。"
+    },
+    {
+      "source_id": "src-3a40838c98ed0560",
+      "title": "台驊控股民國一一三年度年報",
+      "url": "https://www.t3ex-group.com/files/Finance/2024_2636_20250526F04.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-06",
+      "effective_period": "FY2024",
+      "locator": "營運回顧，第2頁，海運、空運及鐵路事業說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明海運市場波動時部分高附加價值貨物轉向空運；海運運價上漲時部分貨物轉向中歐鐵路。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得官方年報與永續報告，兩個原子主張均有歷史披露支持，於研究上限內停止；仍需最終 adjudication。",
+    "「通常」以FY2023–FY2025三個完整年度的官方產品／服務營收結構作為歷史支持，不宜外推為未來保證。",
+    "營收占比以台驊集團合併營收為分母，屬產品／服務類別口徑。",
+    "運價與營收結構的關聯以公司披露的歷史案例支持；不能據此認定運價是收入組合變動的唯一原因。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2636/463/hermes-attempt-1.stdout.txt"
+}

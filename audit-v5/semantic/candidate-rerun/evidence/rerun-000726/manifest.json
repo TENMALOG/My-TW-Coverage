@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000726",
+  "claim_id": "3616:objective_ranking_or_market_share:da6309bf6fbd75aa",
+  "normalized_claim_hash": "da6309bf6fbd75aaf72a9c3f2e85bb49406b6a51a5dfe930a2579c3e4b19079f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-002865c9e8a23c5e",
+      "title": "公司概況資料表（泓辰材料股份有限公司，股票代號 3616）",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2024/10/1730081425_9960_CH_3616.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Company profile revised July 2024; history records the move in 2015",
+      "locator": "歷史沿革：民國104年總公司3月遷址至新北市中和、同年7月搬遷至桃園市平鎮工業區。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official TPEX disclosure based on issuer-provided information."
+    },
+    {
+      "source_id": "src-32abb683051ab6dc",
+      "title": "HCM 泓辰 — official website",
+      "url": "https://www.hcmaterial.com.tw/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Address displayed on the site at retrieval; page undated",
+      "locator": "Contact/address section: No. 2-3, Gongye 1st Rd., Pingzhen Dist., Taoyuan City.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer source; address listing supports location but does not independently establish corporate headquarters status."
+    },
+    {
+      "source_id": "src-416d2c47c5d5054c",
+      "title": "HCM — About",
+      "url": "https://www.hcmaterial.com.tw/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated page",
+      "locator": "About HCM: company self-describes as the first to mass-produce LMFP.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports HCM’s own capability claim, not the number of global producers."
+    },
+    {
+      "source_id": "src-8c376b898f618454",
+      "title": "HCM 穩定供應全球 LMFP 材料",
+      "url": "https://www.hcmaterial.com.tw/tw/news/page/HCM%20%E7%A9%A9%E5%AE%9A%E4%BE%9B%E6%87%89%E5%85%A8%E7%90%83%20LMFP%20%E6%9D%90%E6%96%99%EF%BD%9C2025%20%E5%B9%B4%207%20%E6%9C%88",
+      "source_level": 3,
+      "publication_date": "2025-07-18",
+      "effective_period": "July 2025",
+      "locator": "Article states that the production line was fully started, with capacity for expansion and flexible supply.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer statement; gives no production tonnage or independent verification."
+    },
+    {
+      "source_id": "src-4f37cf61bf8913a6",
+      "title": "ARENA funds breakthrough battery cathode technology project",
+      "url": "https://arena.gov.au/assets/2025/02/ARENA-Media-Release_VSPC_20022025_FINAL.pdf",
+      "source_level": 3,
+      "publication_date": "2025-02-20",
+      "effective_period": "Project announcement dated 2025-02-20",
+      "locator": "Media release: VSPC project to construct a 250 tonne per annum demonstration facility; process produces LFP and LMFP powders; samples intended for potential offtake partners and investors, with a future commercial plant as the goal.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Australian government agency release. It describes a planned demonstration project, not an existing commercial or mass-production operation."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research supported the founding year, listed Pingzhen address, and HCM’s self-reported LMFP production capability. The comparative rarity and sole non-China assertions remain unresolved because no reliable, time-bounded global census or consistent definition of operating production was found.",
+    "The TPEX company profile is an official trading-center disclosure but identifies the company and recommending securities firms as responsible for the supplied information.",
+    "HCM’s production history and operating-line statements are issuer disclosures; the reviewed material does not independently verify output volumes or capacity.",
+    "The words “few,” “only,” “manufacturer,” and “mass-production capability” are not tied in the claim to a date, a defined production threshold, or an exhaustive global market denominator."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3616/726/hermes-attempt-1.stdout.txt"
+}

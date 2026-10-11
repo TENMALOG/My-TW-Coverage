@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001152",
+  "claim_id": "3373:export_concentration:634df8821bef335f",
+  "normalized_claim_hash": "634df8821bef335f2b17bb22935d7b14e601ef761670839a558f1f623a3ed34e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-307f33d6afbedb5b",
+      "title": "熱映光電（3373）法人說明會新聞稿",
+      "url": "https://www.radiantek.com.tw/ch/investors/information-download/0/19/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國101年度（2012）",
+      "locator": "PDF第3頁，行93–100",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露101年度外銷比重為94.2%；同段另列全球區域營收比例。這是不同年度的具體數值，並未支持未標明期間的97%。"
+    },
+    {
+      "source_id": "src-dc2feead8a32c9f1",
+      "title": "熱映光電股份有限公司及子公司合併財務報告暨會計師查核報告（民國114及113年度）",
+      "url": "https://www.radiantek.com.tw/ch/investors/finance-download/3/2025/data_file_q4/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國114及113年度（2025及2024）",
+      "locator": "PDF第9頁（文件頁碼），合併綜合損益表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示年度合併營業收入總額，未列外銷比重；不能據此推算或否定97%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "依研究上限停止；原主張的期間與分母仍未釐清，故保留UNKNOWN。",
+    "原主張未標明年度或其他期間。",
+    "可查到的歷史官方數值不應替代原主張的未明期間。",
+    "未找到能核對97%的同期間、同分母資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3373/1152/hermes-attempt-1.stdout.txt"
+}

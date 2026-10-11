@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000154",
+  "claim_id": "4905:objective_ranking_or_market_share:f8236f9419738a17",
+  "normalized_claim_hash": "f8236f9419738a17c0e6500d00ed9f137b10ffa4020cfdbb0e7293dc5f178f8d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f151c9b50b8d789c",
+      "title": "達亞2024年永續報告書",
+      "url": "https://www.deltaasia.com.tw/proimage/images/1754903329.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024年度報告；公司資料見第21頁",
+      "locator": "第21頁，公司基本資料：產業類別「上櫃生技醫療業」、股票代號6762",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "達亞國際官方報告。"
+    },
+    {
+      "source_id": "src-8feb90ff922a9f9f",
+      "title": "達亞國際股份有限公司主要股東名單",
+      "url": "https://www.deltaasia.com.tw/proimage/images/1777367359.pdf",
+      "source_level": 3,
+      "publication_date": "民國115年3月13日",
+      "effective_period": "截至民國115年3月13日",
+      "locator": "主要股東名單表頭及前兩名股東列；單位為股及持股百分比",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方名單列出台聯電訊為首位，23.63%；第二位許雅雯為21.37%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到達亞官方產業分類及有日期的官方主要股東名單，足以支持上述限定日期的候選判定；不延伸推定未載明期間。",
+    "原 claim 是片語，未明示日期或完整主詞；此處依 queue issuer 將「生技公司最大股東」解讀為台聯電是達亞的最大個別股東。",
+    "股東排名僅由民國115年3月13日的官方名單支持，不據此推定其他日期或控制權／關係人合併後的排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4905/154/hermes-attempt-1.stdout.txt"
+}

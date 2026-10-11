@@ -1,0 +1,100 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000044",
+  "claim_id": "2115:objective_ranking_or_market_share:62d5c63efe920f40",
+  "normalized_claim_hash": "62d5c63efe920f4061a94072bbf2f0a3c3ac5322f21bd4ddcf3ae8a96db9415d",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-5daedd241bf5c588df59",
+      "title": "六暉控股股份有限公司（公司簡報）",
+      "url": "https://www.luhai.com.tw/upload/editupfile/14102419103289053.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013 data; presentation context appears to be 2014",
+      "locator": "Slide/section titled「產業地位」; also「核心競爭優勢」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States the group was estimated to represent at least one-tenth of global valve-stem market capacity and was the largest professional supplier by capacity/output. The estimate is historical and capacity-based."
+    },
+    {
+      "source_id": "src-c44d11dd1ffa644420b3",
+      "title": "六暉-KY：明年Q1仍不樂觀 股利發放維持50％",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4138623",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022 earnings-call context; exact measurement period not stated",
+      "locator": "Article opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that Liou Hwei was the global tire valve-stem manufacturer with the largest capacity; this is secondary reporting and does not establish the claim for an unspecified or current period."
+    },
+    {
+      "source_id": "src-f9f782df0620aa2d4754",
+      "title": "六暉-KY：明年Q1仍不樂觀 股利發放維持50％",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4138623",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022 earnings-call context; exact measurement period not stated",
+      "locator": "Article opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports「市佔約10％」but does not identify whether share is measured by sales, shipments, capacity, or another denominator."
+    },
+    {
+      "source_id": "src-9f5f6c09b904bacfc5be",
+      "title": "六暉控股股份有限公司（公司簡報）",
+      "url": "https://www.luhai.com.tw/upload/editupfile/14102419103289053.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2013",
+      "locator": "Slide/section titled「產業地位」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Estimates at least one-tenth of global valve-stem market capacity from company capacity and industry capacity figures. This is not evidence of a 10% sales or shipment share, nor of a current share."
+    },
+    {
+      "source_id": "src-02e652bf4afd08e8ba07",
+      "title": "隱形冠軍系列報導二－六暉控股二代接班 再創另一個40年高峰",
+      "url": "https://wantrich.chinatimes.com/news/20210902900058-420101",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2021 article context",
+      "locator": "Article paragraph beginning「六暉目前集團每月約6,600萬顆產能」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports global valve-stem market share of 15% at the time. Secondary reporting; it does not resolve the denominator or establish a comparable basis to the 2022 10% report."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查閱公司簡報及相關媒體報導。現有證據僅能支持有期間限制的歷史領導地位描述或口徑未明的市佔說法；未能確認原文未標明期間及分母的完整主張，故保留未決原子主張。",
+    "未找到可確認該市佔率所指市場（產品範圍）、分母、單位及計算方法的當期官方量化披露。",
+    "公司簡報中的至少十分之一是2013年全球市場產能估算，不能直接替代銷售或出貨市佔率，也不能外推為當前數值。",
+    "二級來源對市佔率的報導有約10%與15%之別；來源沒有提供足以確認二者是否採用相同期間及口徑的資料。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2115/44/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "fdad624640d5614f5d67c007a47192c9f82bcc566572e1c494a5dbecd69444b8",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2115/44/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "2d849c36eee317ab09457192f533c2d66023a7e7f40d0c6d5e77dc2032115b98",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

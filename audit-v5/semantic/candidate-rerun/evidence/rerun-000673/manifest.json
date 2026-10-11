@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000673",
+  "claim_id": "6443:objective_ranking_or_market_share:07b85c17bb52a20f",
+  "normalized_claim_hash": "07b85c17bb52a20f5d45bc64e79c9b0d95865dc4edc7c8da2e4cb487d8ecf152",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d951750a71cd1b14",
+      "title": "公司簡介 - 元晶太陽能科技股份有限公司",
+      "url": "https://www.tsecpv.com/company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確列示太陽能模組的研發、生產及銷售。"
+    },
+    {
+      "source_id": "src-aae0f1919649711d",
+      "title": "N型高效率 - 元晶太陽能科技股份有限公司",
+      "url": "https://www.tsecpv.com/industry/n-type",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "N型高效率電池產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人產品頁列出N型電池及最高轉換效率24.9%以上；此產品規格未構成同業技術排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人公司簡介、產品規格及產業資料；找到製造業務與產品規格的直接資料，但未找到可按明確期間、同業範圍及產能口徑核實最大排名，亦未找到可操作化「技術領先」的比較基準。停止進一步搜尋，未解決部分保留為UNKNOWN。",
+    "產能最大一項有發行人官網自述，但未提供排名的比較範圍、統一口徑或可核對的同業資料。",
+    "電池與模組是不同製程的年產能數字；不應相加或視為同一市場的單一產能排名。",
+    "N型產品及效率規格能證明產品與技術資訊的存在，不能單獨證明「技術領先」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6443/673/hermes-attempt-1.stdout.txt"
+}

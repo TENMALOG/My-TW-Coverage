@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000665",
+  "claim_id": "6690:objective_ranking_or_market_share:e280e76cce489447",
+  "normalized_claim_hash": "e280e76cce489447aeb452f0da21c0c1216aa369ffeea3699f3c6c1ff636954a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-0c2d6ab8d76a84c2",
+      "title": "資安需求增 安碁資訊今年營運樂觀",
+      "url": "https://www.acercsi.com/tw/news/21/45",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "正文引述總經理稱「目前在台市佔已達第一」；頁面標示資料來源為自由時報",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載媒體報導中的公司高層說法；未提供排名口徑或比較資料。"
+    },
+    {
+      "source_id": "src-f00611c6ce450907",
+      "title": "【個股分析】台股唯一雲端資安公司－安碁資訊(6690)",
+      "url": "https://vocus.cc/article/653a3198fd897800012bbc9e",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章列示「在台灣市佔率超過6成」的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未交代市佔分母、統計期間或依據；不能據此確認全台SOC市場市佔。"
+    },
+    {
+      "source_id": "src-b5f1ceb09ccf02e1",
+      "title": "安碁資訊：下半年有望優於上半年 拚全年營收雙位數成長",
+      "url": "https://www.cna.com.tw/news/afe/202609020264.aspx",
+      "source_level": 2,
+      "publication_date": "2026-09-02",
+      "effective_period": "報導當時",
+      "locator": "文中總經理談資安委外監控市場的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社引述公司總經理；數字明確指公部門，並非台灣SOC整體市場。"
+    },
+    {
+      "source_id": "src-3812e56513b3ee1b",
+      "title": "Cloud SOC雲端資安監控服務",
+      "url": "https://www.acercsi.com/tw/service/49/131",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "服務介紹中「SOC客戶數全台最多」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述；未提供排名方法、比較對象或市佔數據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官網資料、公司轉載媒體報導及相關二手分析；未找到可核實45%／40%／15%口徑或全台SOC整體市佔逾六成的可靠資料，依合約將未解範圍保留為UNKNOWN。",
+    "45%／40%／15%只見於未交代分母、期間及來源的個人投資分析文章；不據此推定為客戶數或營收占比。",
+    "逾六成的可核實範圍是公部門市佔，不能替代台灣SOC全市場市佔。",
+    "客戶數與領導地位資料包含公司轉載或公司自述，並非獨立市場調查。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6690/665/hermes-attempt-1.stdout.txt"
+}

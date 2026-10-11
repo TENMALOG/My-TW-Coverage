@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001243",
+  "claim_id": "2031:material_named_relationship:7b09467cb212b42e",
+  "normalized_claim_hash": "7b09467cb212b42e080ec32c11bc0b4fa85472fb93aac74847ca0f8f433eb9f2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-221bca8a9e35cbf6f1e7",
+      "title": "新光鋼鐵股份有限公司民國114年年報（2025 Annual Report）",
+      "url": "https://www.hkssteel.com.tw/download/fin/2026/sh_year.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-31（年報刊印日）",
+      "effective_period": "民國114年度（2025年）年報背景",
+      "locator": "「市場及產銷概況」>「市場未來之供需狀況」>「A.鋼板」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其向中鋼採購鋼板；未列出採購金額、數量或占比。"
+    },
+    {
+      "source_id": "src-268de16ad8ddc148b506",
+      "title": "新光鋼鐵股份有限公司民國114年年報（2025 Annual Report）",
+      "url": "https://www.hkssteel.com.tw/download/fin/2026/sh_year.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-31（年報刊印日）",
+      "effective_period": "民國114年度（2025年）年報",
+      "locator": "「市場及產銷概況」>「市場未來之供需狀況」>「A.鋼板」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證實有向中鋼採購鋼板，但該處未披露33%或可判定該比例的採購分母、單位及計算期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方年報及以中、英文關鍵詞檢索相關比例；找到採購關係證據，但未找到可核驗33%主張的期間與分母。",
+    "年報是公司一手披露，支持採購關係，但不是33%比例的證據。",
+    "未找到可靠來源能界定該比例的年份、採購範圍或計量單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2031/1243/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "be1661f91a88bc1fbc922708dedc7fe30c2a3bf8b7bf516bb7683ab4e29f8ef2",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2031/1243/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "d466015e999ee5e5c3aac4958893ba69c47dfcfb589bf6eea1883000905aea00",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001243/manifest.json",
+  "supersedes_manifest_sha256": "aec9585c192d8e722cdfff622cf82e45635a6d15066731813c3c3d4229984ab2",
+  "corrected_at": "2026-10-08T09:59:34Z"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000894",
+  "claim_id": "4535:material_named_relationship:791df309aac80cff",
+  "normalized_claim_hash": "791df309aac80cff76541f264941b715a38f4dae06df0d3f04de460093ffb6e6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-655e9ba531190458",
+      "title": "至興精機110年度公司年報",
+      "url": "https://www.fineblanking.com.tw/rwd1280/store/F2/110%E5%B9%B4%E5%BA%A6%E5%85%AC%E5%8F%B8%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "年報涵蓋民國107至110年度（2018至2021年）",
+      "locator": "「其他精沖件」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱 Autoliv 為全球大型氣囊及安全帶生產廠，但未提供此處所需的共同 Tier 1 定義或對三家公司的完整分類。"
+    },
+    {
+      "source_id": "src-7ac5ed46827ba22b",
+      "title": "至興精機112年度永續報告書",
+      "url": "https://www.fineblanking.com.tw/rwd1280/store/F2/fbt2023ESG.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國112年度（2023年）",
+      "locator": "「市場面」及「產品面」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告未建立 Joyson Safety Systems 與氣囊零組件的供貨關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；官方資料僅支持 Autoliv 安全帶相關精沖件的歷史訂單，其餘客戶—產品關係及共同 Tier 1 分類仍缺乏足以核實的資料。",
+    "年報支持的是 Autoliv 安全帶相關精沖件的歷史訂單關係；年報所列安全帶鐵件部品產量並非 Autoliv 客戶別出貨量。",
+    "至興永續報告的產品與市場概述不能作為特定客戶供貨證據。",
+    "對 ZF、Joyson Safety Systems 及氣囊零組件的客戶別證據不足；UNKNOWN 不代表已證明不存在供貨。",
+    "「全球汽車安全 Tier 1」未附判定標準或市場分母，故不能據現有公司資料核實三家公司的共同分類。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4535/894/hermes-attempt-1.stdout.txt"
+}

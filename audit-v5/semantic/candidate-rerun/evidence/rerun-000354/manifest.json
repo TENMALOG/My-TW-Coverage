@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000354",
+  "claim_id": "8215:objective_ranking_or_market_share:e396f3af21b11405",
+  "normalized_claim_hash": "e396f3af21b11405b2bf26f94f854d040dccc49e42d58189462794c90f227c3d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-baa17271964c988c",
+      "title": "從連虧9年變小金雞，明基材如何打進超龜毛日本電動車市場？關鍵在2015年決定「打深一口井」",
+      "url": "https://esg.businesstoday.com.tw/article/category/180689/post/202202230027",
+      "source_level": 2,
+      "publication_date": "2022-02-23",
+      "effective_period": "Article describes the then-current situation; exact measurement date not specified.",
+      "locator": "Opening paragraph: describes BenQ Materials as one of the only two companies in Taiwan able to produce battery separator material.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting; its dated statement does not establish the manufacturer count at the claim’s unspecified reference date."
+    },
+    {
+      "source_id": "src-ada8f22c194fb174",
+      "title": "2023～2024 Current Status and Future Prospects of LiB Material Market ～Major Four Materials～",
+      "url": "https://yano.co.jp/market_reports/C66105420",
+      "source_level": 2,
+      "publication_date": "2024-07-25",
+      "effective_period": "Research period: 2023-12-08 to 2024-03-08.",
+      "locator": "Research report description: target manufacturers by country lists Taiwan: 2.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Market-research survey, not a current census; the listed count does not establish the population at an unspecified claim date."
+    },
+    {
+      "source_id": "src-e4b3042d1ab68c11",
+      "title": "儲能應用-明基材料",
+      "url": "https://www.benqmaterials.com/tw/product-detail/77__11/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“應用實績” section: says dry-process products can supply electric-vehicle applications and identifies an ESS energy-storage device application.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer disclosure; no dated shipment or deployment quantities are given."
+    },
+    {
+      "source_id": "src-8f5cd01f0573f2b9",
+      "title": "電池隔離膜-BenQ Materials",
+      "url": "https://www.benqmaterials.com/tw/product/82/89",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product categories include “電動車應用” and “儲能應用”; introductory description says the technologies address vehicle and energy-storage needs.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer product/application disclosure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人產品資料及兩項有日期的比較性來源；唯一製造商主張仍因 claim 未定期間且缺少當期完整市場母體而無法判定，故保留 UNKNOWN。",
+    "明基材料官網屬發行人自述，可支持其技術與產品應用說明，但不是獨立驗證。",
+    "比較性資料顯示台灣在2022年及2023–2024調查期間有兩家隔離膜製造商；由於原 claim 未標明期間，這些資料不能確定其未限定期間的唯一性。",
+    "未找到能界定 claim 參考日期及台灣鋰電池隔離膜製造商完整母體的當期官方名冊或市場統計。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8215/354/hermes-attempt-1.stdout.txt"
+}

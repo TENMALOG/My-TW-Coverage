@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000196",
+  "claim_id": "6228:objective_ranking_or_market_share:5c4944216c7b1727",
+  "normalized_claim_hash": "5c4944216c7b17272ffeec67f5765585626fdbc1912b7cb6d9d5090e3468529a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2883a5ce05b42a4b",
+      "title": "全譜科技股份有限公司一百零九年度年報",
+      "url": "https://www.scanace.com/archive/IR/Corporate%20Governance/%E8%82%A1%E6%9D%B1%E6%9C%83/%E5%B9%B4%E5%A0%B1/109%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2021-05-05",
+      "effective_period": "2020年度及年報刊印時",
+      "locator": "公司簡介及公司沿革，年報印刷頁第7–8頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公司從事專業底片型掃描器研發、製造與銷售，但未提供全球競爭者比較或消費型與專業型供應商數量。"
+    },
+    {
+      "source_id": "src-650ebf4deb8af844",
+      "title": "掃描器知名大廠－全譜科技股份有限公司介紹",
+      "url": "https://www.fuji.com.tw/posts/2849",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "僅稱投入市場後兩年；未給日曆年份",
+      "locator": "公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報稱市佔率達30%及全球第一，但未說明市場分母、單位、地域細分或方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成四輪聚焦檢索，包含官方年報及針對市佔率、Olympus 委託與供應商比較的搜尋。唯一可確認的核心歷史交易是2000年 Kodak 委託案；其餘原子缺少可核驗的時期、比較範圍或市場分母，故保留 UNKNOWN。",
+    "官方年報支持 Kodak 的一項歷史委託設計製造及出貨，不足以證明長期合作。",
+    "有關 Olympus、全球供應商稀少程度及30%市佔率的直接來源是零售商網站上的公司介紹；未見相應的市場比較方法或市佔率分母。",
+    "未能核實不代表相關主張為假；特別是官方文件未提及 Olympus，不能視為否定證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6228/196/hermes-attempt-1.stdout.txt"
+}

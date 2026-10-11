@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000934",
+  "claim_id": "5353:material_named_relationship:7c785d294ea73984",
+  "normalized_claim_hash": "7c785d294ea73984f9476986a134011134eedb5756ba7ba4a4900da919d4acce",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-915207509fee6821",
+      "title": "台林電通董事 陳俊廷十年磨一劍 為台林電通成功轉型",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=2&nsl_id=0b3ea1fcc2134689a2af997ce3a501ef",
+      "source_level": 2,
+      "publication_date": "2023-01-16",
+      "effective_period": "報導回溯自2013年合作，描述截至報導時的關係",
+      "locator": "導言及「攜Gogoro切入電動摩托車商機」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明台林製造 Gogoro 的馬達控制器並為策略夥伴；未稱台林為獨家或唯一供應商。"
+    },
+    {
+      "source_id": "src-ab5b7f820f38e21b",
+      "title": "台林電通(5353) 113年法人說明會",
+      "url": "https://www.tailyn.com.tw/media/f/83e36530cd74f067a491aa88d5c0231f.pdf",
+      "source_level": 3,
+      "publication_date": "2024-08-16",
+      "effective_period": null,
+      "locator": "第11頁「車用電子產品製造經驗」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出MCU／馬達控制器、ECU／電控系統等產品類別，但未指名 Gogoro，也未揭露獨家供應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對台林、Gogoro、馬達控制器及獨家／唯一供應的中文檢索，並查閱台林法人說明會材料及 Gogoro 披露。找到歷史MCU製造關係證據，未找到能確認獨家供應、產品範圍或目前供應狀態的可靠來源；因此未將缺乏披露視為反證。",
+    "支持製造關係的來源是2023年工商時報報導，非供應合約或具名的 Gogoro 供應商公告。",
+    "台林2024年法人說明會簡報證明其列有相關車用電子產品類別，但未確認 Gogoro 客戶關係或排他性。",
+    "「電控模組」的範圍未被原 claim 界定；來源具體提到的是馬達控制器（MCU）。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5353/934/hermes-attempt-1.stdout.txt"
+}

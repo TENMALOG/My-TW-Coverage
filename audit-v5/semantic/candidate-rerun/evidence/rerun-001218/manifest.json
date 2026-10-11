@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001218",
+  "claim_id": "4755:material_named_relationship:abc05f6218234d25",
+  "normalized_claim_hash": "abc05f6218234d25c5a4d59005cab483feab732c55233d90189425b6e43d1be3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-db96bce297de71db",
+      "title": "三福化工股份有限公司114年度年報",
+      "url": "https://mopsov.twse.com.tw/nas/STR/475520251223M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-05（年報刊印日期）",
+      "effective_period": "2025年度",
+      "locator": "精密化學品市場分析，報告頁73；主要銷貨客戶表，報告頁75",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報列出具名客戶作為客戶例示，但銷貨客戶表將具名客戶匿名化。"
+    },
+    {
+      "source_id": "src-0eff0faba68be273",
+      "title": "財報狗：產業解析：面板級封裝材料與設備供應鏈機會",
+      "url": "https://statementdog.com/industry_reports/41",
+      "source_level": 2,
+      "publication_date": "2026-04-13",
+      "effective_period": "截至報導日期；涉及的營收成長描述為2025年",
+      "locator": "「三福化(4755)」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱三福化光阻剝離液已供貨給台積電CoWoS製程。"
+    },
+    {
+      "source_id": "src-6eb3513c8629a1d1",
+      "title": "三福化工企業社會責任專區",
+      "url": "https://www.sfchem.com.tw/zh-hant/page/csr",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面提及2025年度報告期間，董事長文字中的「今年」未標明絕對年份",
+      "locator": "「董事長的話」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及CoWoS製程清洗劑使用量增加，但未具名客戶，也未提InFO；只作一般產品應用佐證。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱三福化年報、公司CSR頁面及一篇明確提及台積電InFO／CoWoS供貨關係的產業分析。具名客戶營收重要性仍因年報匿名列示而無法核實。",
+    "具名客戶名單來自三福化年報的精密化學品客戶描述；年報的主要銷貨客戶表則以A、B、C匿名，未提供具名客戶的排名或占比。",
+    "台積電InFO／CoWoS的具名供貨關係由財報狗產業分析支持，屬二手來源；三福化官方資料對CoWoS清洗劑有一般性描述，但未在該處具名連結台積電，也未提及InFO。",
+    "客戶關係主張不涉及可量化市場分母；年報未提供具名客戶銷售額或占比，故不以未披露資料推定其重要程度。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4755/1218/hermes-attempt-1.stdout.txt"
+}

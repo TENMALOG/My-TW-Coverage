@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001201",
+  "claim_id": "8112:material_named_relationship:cafe7c80dddb81bf",
+  "normalized_claim_hash": "cafe7c80dddb81bfc9a6064850aeaa244fe9a0fb76fd2d5b1bf99e08b9ff5062",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-babbe94da5f86395",
+      "title": "至上電子股份有限公司 2025 年度年報（TWSE 年報查詢頁）",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=8112&colorchg=1&filename=2025_8112_20260526F04.pdf&kind=F&step=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 會計年度",
+      "locator": "股東報告書；載明代理 Samsung 品牌，未載明代理區域或台灣排名",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方披露能確認代理關係，不能證明台灣主力代理地位。"
+    },
+    {
+      "source_id": "src-d5311f13cc2f2618",
+      "title": "至上電子官方網站",
+      "url": "https://www.supreme.com.tw/WP/WP0000.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "官方網站解決方案／產品線導覽列有 Samsung Electronics、Samsung SEMCO、Samsung SDI",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "佐證至上官方網站呈列相關 Samsung 產品線；未載明台灣代理權排名或供應商採購占比。"
+    },
+    {
+      "source_id": "src-4f31d1847e633b0f",
+      "title": "至上電子股份有限公司公司簡介",
+      "url": "https://trade.1111.com.tw/Comp_Info?vNo=169376",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介稱至上為 Samsung 在台灣地區的主力代理商；沿革稱 1990 年成為三星主要代理商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未標明該描述的更新日期或持續有效期間，不能據此確認主張期間內的現況。"
+    },
+    {
+      "source_id": "src-8c02e21fc1647d02",
+      "title": "鉅亨網：三星高層來台推廣自家HBM 主力代理商至上添營運新動能",
+      "url": "https://m.cnyes.com/news/id/5525967",
+      "source_level": 2,
+      "publication_date": "2024-04-16",
+      "effective_period": "報導於 2024 年 4 月",
+      "locator": "報導稱至上是 Samsung 在大中華區的主力代理商之一",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導所述區域及「之一」的表述不同於「台灣主力代理商」，不能直接替代原主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對最新可得的發行人年度披露、官方網站及相關二手資料；剩餘兩項關鍵範圍（供應商重要性及台灣代理地位）缺少相應期間與明確分母／地區排名證據，依契約保留為 UNKNOWN。",
+    "TWSE 年報查詢頁提供發行人年報入口；該 PDF 抓取在本次檢索中逾時，相關文字以年報索引及年報文字版交叉核對。",
+    "「主力代理」的歷史公司簡介未標示有效期間；Greater China 的媒體報導不等同 Taiwan 範圍。",
+    "沒有查得可支持「主要供應商」的供應商排名或採購金額／占比資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8112/1201/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001146",
+  "claim_id": "8933:export_concentration:d68998658367f462",
+  "normalized_claim_hash": "d68998658367f4629458b6011fe4f6d28f817a1532f38c7b12e6bf891798b828",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5d5bd084c939ed37",
+      "title": "愛地雅113年年報（2024 Annual Report）",
+      "url": "https://www.idealbike.com.tw/_i/assets/upload/files/%E6%84%9B%E5%9C%B0%E9%9B%85113%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "2024-01-01至2024-12-31",
+      "locator": "第73頁，「二、市場及產銷概況」>「（一）市場分析」>「主要商品之地區別銷售比率」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "表列地區、金額（新台幣仟元）及占比；總計為100.00%。"
+    },
+    {
+      "source_id": "src-b33855d7088dd32c",
+      "title": "愛地雅工業股份有限公司及子公司合併財務報告暨會計師查核報告（民國113及112年度）",
+      "url": "https://www.idealbike.com.tw/_i/assets/upload/files/%E6%84%9B%E5%9C%B0%E9%9B%85113%E5%B9%B4%E5%BA%A6%E6%84%9B%E5%9C%B0%E9%9B%85%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度（並列2023年度比較數）",
+      "locator": "第49頁，收入附註「客戶合約收入之細分」>「主要地區市場」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "合併財報按地區列示客戶合約收入；亞洲金額為新台幣569,625仟元。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對發行人年報、合併財報及官方銷售範圍的重點查核；2024年度三個地區均有官方銷售占比佐證。",
+    "原主張未指定期間；直接量化佐證為2024年度，不能據此推定其他年度的市場分布相同。",
+    "年報與合併財報揭露的是按地區劃分的銷售／客戶收入，並非另列海關定義的出口金額。來源支持這些地區為主要銷售市場；「外銷」的嚴格統計口徑未獨立揭露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8933/1146/hermes-attempt-1.stdout.txt"
+}

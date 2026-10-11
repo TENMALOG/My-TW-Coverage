@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001202",
+  "claim_id": "8112:material_named_relationship:520feb9d0a03f34a",
+  "normalized_claim_hash": "520feb9d0a03f34a8f890de31561ee6dfc886a57547ef31058199f6399a1d7ed",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8138cc6bb771c71f698a",
+      "title": "至上電子股份有限公司 111年度年報 (FY2022 Annual Report)",
+      "url": "https://cb.icspec.com/2022/%E5%8F%B0%E8%82%A1/%E8%87%B3%E4%B8%8A22%E5%B9%B4%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2022 (ROC 111)",
+      "locator": "Printed pp. 106–107; sections on major suppliers and suppliers exceeding 10% of consolidated net purchases.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Copy of the issuer's annual report; identifies Samsung for memory and non-memory components and lists Shanghai and Taiwan Samsung as the top two suppliers."
+    },
+    {
+      "source_id": "src-6a0a61ffe90e93de3cbc",
+      "title": "至上電子股份有限公司公開說明書（含114年度及115年1–3月資料）",
+      "url": "https://www.twfhcsec.com.tw/Content/fileredirect?Path=MTIzNDAwMDA1Njc4axHvgwZLYmOfV32EChcnh9GVqShCBbmcVp1ZEQjxM7OGrotMHKIhGc6lE6OKF8uvDNOq61H4sVaJU4qHi1lYH4Yfd9lr18CUO1opOhNz5be2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025 and 2026 Q1",
+      "locator": "Company business and principal brands disclosure; major-purchase-supplier table.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a current Samsung product/brand relationship, but the named suppliers in the purchase table are masked, so current major-supplier identity cannot be confirmed."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found direct historical support and recent evidence of a Samsung product relationship, but the latest major-supplier identities are anonymized; the current-period ranking remains unresolved.",
+    "The FY2022 evidence is historical and cannot by itself establish the relationship's current status.",
+    "The latest-period purchase table masks supplier identities; brand representation is not equivalent to proof of a current major-supplier ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8112/1202/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "106df0adb530c4d7f180d235971791931e4cf0239c120ba53e44695a2eecc023",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8112/1202/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "051b7048d77e596cdd7b46634ef2e50afaaedb36728ada0b8cd0bdc83c423c31",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001202/manifest.json",
+  "supersedes_manifest_sha256": "1d9f4be4bf5e04dc08d1727286dc9b4a5416c78b93eae055e75faec8dbf9537c",
+  "corrected_at": "2026-10-08T09:59:29Z"
+}

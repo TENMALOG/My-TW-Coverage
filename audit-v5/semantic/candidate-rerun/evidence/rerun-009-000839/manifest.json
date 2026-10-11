@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000839",
+  "claim_id": "6951:objective_ranking_or_market_share:f85c202bfd3023a7",
+  "normalized_claim_hash": "f85c202bfd3023a74f97d96405391900c673a686b3f3d7c19dc05c5963afb8e9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5050b6f8366ff16ba514",
+      "title": "青新環境工程股份有限公司，2026年第一季法人說明會簡報",
+      "url": "https://www.chin-hsin.com.tw/paper/0508010000/download/725",
+      "source_level": 3,
+      "publication_date": "2026-06-04",
+      "effective_period": "2025年度醫療廢棄物市場清運量",
+      "locator": "第11頁（PDF第10頁），「醫療及事業廢棄物清除」：醫療廢棄物市占率43%、第1位，標示「2025年醫廢市場清運量」。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人簡報直接揭露排名與市占率；未在該頁列明市場分母的具體數值及計算方法。"
+    },
+    {
+      "source_id": "src-031f500c9d4c848bad17",
+      "title": "臺灣證券交易所：新上市公司：青新(6951)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/ff8080818f85b3e301900a8b85260218",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹段落，稱青新在醫療廢棄物清運服務上已成為全台清運量最大的公司。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接支持全台範圍及清運量第一的表述；頁面未提供可核實的發布日期或排名年度。"
+    },
+    {
+      "source_id": "src-6a8d8212567e4191b1e6",
+      "title": "青新環境工程股份有限公司及子公司，民國115年第一季合併財務報告暨會計師核閱報告",
+      "url": "https://www.chin-hsin.com.tw/paper/0503010000/download/722",
+      "source_level": 3,
+      "publication_date": "2026-05-05",
+      "effective_period": "截至2026-03-31",
+      "locator": "合併財務報表附註第11頁（PDF第10頁），公司沿革第2點。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明載日友環保持有青新57.42%股權，為青新母公司。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩個原子主張均找到發行人或交易所來源支持；排名依最新找到的公司2026年6月4日簡報所列2025年度市場清運量資料判定。",
+    "醫療廢棄物排名與43%市占率來自發行人2026年法人說明會簡報，簡報該頁沒有交代市場分母的具體數值或完整計算方法。",
+    "證交所頁面直接支持「全台清運量最大」，但頁面未標示發布日期或對應排名年度；最新可定位的年度排名依據為青新簡報所列2025年度數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6951/839/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "fbc13ff039885fb80c46b099d26074d29c60b3d0a97e31b1bfc00862c819717d",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6951/839/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "b91ed82873e0823a5d44ade6bd7d8dafd004e147cee71ece541d01e4ef43177e",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000839/manifest.json",
+  "supersedes_manifest_sha256": "cf5e38a484cc8439ce55660fa5eea0228b1a0e40847d8ea8a0898973521128ae",
+  "corrected_at": "2026-10-08T09:58:49Z"
+}

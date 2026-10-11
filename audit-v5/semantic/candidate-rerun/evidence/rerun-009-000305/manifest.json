@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000305",
+  "claim_id": "4958:objective_ranking_or_market_share:e9718e647cdf6213",
+  "normalized_claim_hash": "e9718e647cdf62133d0f3317d3c5beb81649d91df9a358c4d3c3410f7772642c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-199146e1aecefc3bc5cc",
+      "title": "臻鼎-KY：軟板龍頭續保持 並衝刺2030年三大目標",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=e08f7740-490e-4c88-97e0-996db00bbf5d",
+      "source_level": 2,
+      "publication_date": "2025-05-29",
+      "effective_period": "報導時點；未明確說明排名數據期間",
+      "locator": "報導開頭兩段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ 記者報導並歸述董事長說法：軟板居全球第一、全球市佔率仍居第一。屬二手報導，未列出該排名的市場分母或計算方法。"
+    },
+    {
+      "source_id": "src-97d475f4e3f72b404cb9",
+      "title": "臻鼎科技控股（4958 TT）投資人簡報",
+      "url": "https://www.zdtco.com/download/upload2026_04_13220260413092023qqe6x83Xp1pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "簡報列示 2030 年目標",
+      "locator": "第 17 頁，四大產品線及 2030 目標",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司列出「軟性電路板」2030 目標為「保持 #1」。簡報未在該項旁說明排名的市場分母或方法。"
+    },
+    {
+      "source_id": "src-c0abe7a8297690ec1cb5",
+      "title": "臻鼎科技集團－軟性電路板",
+      "url": "https://www.zdtco.com/tw/product/%E8%BB%9F%E6%80%A7%E9%9B%BB%E8%B7%AF%E6%9D%BF",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "FPC 產品介紹及「相關應用」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "頁面稱 FPC 主要用於手機、筆記本電腦、PDA、數位相機、液晶顯示屏等；未明確提及 iPhone。"
+    },
+    {
+      "source_id": "src-9425d166f681907b28a1",
+      "title": "臻鼎科技集團－軟性電路板",
+      "url": "https://www.zdtco.com/tw/product/%E8%BB%9F%E6%80%A7%E9%9B%BB%E8%B7%AF%E6%9D%BF",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "FPC 產品介紹及「相關應用」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面列出平板電腦為相關應用，但未表示其為主要應用。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司投資人簡報、官方 FPC 產品頁及報導排名說法的 MoneyDJ 來源；可支持全球領先排名與一般手機用途，但找不到能確認 iPhone 特定應用及平板屬主要應用的可靠資料。",
+    "全球第一的軟板排名有二手媒體對董事長說法的報導，以及公司簡報所列「2030 年保持 #1」目標作佐證；來源未披露排名的市場邊界、分母或計算方法。",
+    "官方 FPC 產品頁支持手機為主要使用領域，並列出平板相關應用，但未點名 iPhone 或提供各應用占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4958/305/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "1b9f3165d2b5795ab5e147ed8767ce4feaf95f5ceebacd39ea5c0c9fa1db5f3e",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4958/305/isolated-prompt.txt",
+  "prompt_sha256": "23e17be459de415645e63af514830733c48e5da724946565721d63e87c190a1d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000305/manifest.json",
+  "supersedes_manifest_sha256": "880a7b46ef008ccc4a95c79ed0a5d54b09f27ba7fbd575934fb9b24c06803f9f",
+  "corrected_at": "2026-10-08T09:58:01Z"
+}

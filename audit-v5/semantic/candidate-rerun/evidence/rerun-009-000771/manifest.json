@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000771",
+  "claim_id": "2030:objective_ranking_or_market_share:7946eb2d40401c49",
+  "normalized_claim_hash": "7946eb2d40401c4905061cfcef47552901271ec5fd7ca8ebf018235c42c35d8c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-08e516ebe3569f120497",
+      "title": "不只臺商，4家根留臺灣企業也繼續投資臺灣",
+      "url": "https://investtaiwan.nat.gov.tw/threeMajorNewsPage1135168cht?lang=cht&newsNum=1135168",
+      "source_level": 3,
+      "publication_date": "2019-11-21",
+      "effective_period": "公告發布於2019-11-21；排名所採用的統計期間未載明。",
+      "locator": "段落起始：「擁有40多年歷史的彰源企業以FROCH品牌行銷全球100多個國家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟部投資臺灣入口網公告直接稱彰源為臺灣第1大、全球第3大不銹鋼管製造商；未附排名方法或數據分母。"
+    },
+    {
+      "source_id": "src-6b966fd64d2fc44d1606",
+      "title": "不只臺商，4家根留臺灣企業也繼續投資臺灣",
+      "url": "https://investtaiwan.nat.gov.tw/threeMajorNewsPage1135168cht?lang=cht&newsNum=1135168",
+      "source_level": 3,
+      "publication_date": "2019-11-21",
+      "effective_period": "公告發布於2019-11-21；未說明排名數據的實際期間。",
+      "locator": "段落起始：「擁有40多年歷史的彰源企業以FROCH品牌行銷全球100多個國家」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持公告所述的2019年排名，未證明排名在其後仍然成立。"
+    },
+    {
+      "source_id": "src-dfec9a2eac03767ce658",
+      "title": "《鋼鐵股》彰源Q2毛利率向上，兩岸擴產進行中",
+      "url": "https://www.chinatimes.com/realtimenews/20190626001046-260410",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導描述彰源台灣廠當時的產能；未提供不鏽鋼板排名期間。",
+      "locator": "文末段落起始：「彰源為不鏽鋼管、不鏽鋼板製造廠」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱台灣廠鋼板月產能約5,000公噸，但沒有台灣市場總量、同業比較或第一大排名證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查詢政府官方公告、公司資料及相關報導；找到2019年官方不鏽鋼管排名陳述，但未找到可確認不鏽鋼板排名或管材排名延續至目前的比較資料。未解部分保留為UNKNOWN。",
+    "官方公告直接支持的是不鏽鋼管排名，並未提及不鏽鋼板排名。",
+    "官方排名公告未公開比較範圍、指標或統計期間；不應將其解讀為已由產量、銷量或產能數據獨立驗證。",
+    "彰源不鏽鋼板月產能資料僅描述公司產能，不能推導其在台灣市場排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2030/771/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "735d1fc9ff637a14aca447bb105a9d0232a97b745ed6fc50095de9296bcc4a92",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2030/771/isolated-prompt.txt",
+  "prompt_sha256": "ac416f9cd14b3077f87da24ce6bd2b0b88bcdea61569a6235bcc6011dc6304f8",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000771/manifest.json",
+  "supersedes_manifest_sha256": "8b9b1e20923fab317f37f46b31bcab811503cd91e3d7b278219ae48374fa05c8",
+  "corrected_at": "2026-10-08T09:58:42Z"
+}

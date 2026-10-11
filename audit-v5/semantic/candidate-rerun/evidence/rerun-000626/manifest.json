@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000626",
+  "claim_id": "6411:objective_ranking_or_market_share:27fa17d018a64993",
+  "normalized_claim_hash": "27fa17d018a64993e3f435e5f769c4c14ccd141709ae33a7f715568dd537cfa5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-907ff24846138e30",
+      "title": "晶焱科技股份有限公司 2026 櫃買市場業績發表會",
+      "url": "https://mopsov.twse.com.tw/nas/STR/641120260521M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-21",
+      "effective_period": "2026年簡報所列產品與市場布局",
+      "locator": "第11頁，ESD Protection Device Product Families（AZ9 Automotive、AEC-Q101）；第12頁，Automotive CAN產品家族",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持車用產品及相關產品系列存在，不證明車用或車內通訊網路市佔率擴張。"
+    },
+    {
+      "source_id": "src-3633b891873e7aeb",
+      "title": "晶焱獲轉單 業績進補",
+      "url": "https://money.udn.com/money/story/11074/9517869",
+      "source_level": 2,
+      "publication_date": "2026-05-21",
+      "effective_period": "2026年第一季應用別營收",
+      "locator": "報導稱首季消費性應用營收比重超過八成",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "營收組成比例不能替代消費性電子市場市佔率或「支配地位」的證據。"
+    },
+    {
+      "source_id": "src-0cefa7eaec24f8d7",
+      "title": "晶焱科技股份有限公司",
+      "url": "https://www.icaa.org.tw/amazing-micro",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹「特色優勢」段落列出USB4、HDMI 2.1、DP 2.0等介面的靜電保護方案",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持部分介面已有產品方案，不直接證實需求升級、PCIe 5.0或其銷售效果。"
+    },
+    {
+      "source_id": "src-b375811d11999465",
+      "title": "晶焱搶AI商機 今年營收估持平或小增 明年拚歐美市場貢獻",
+      "url": "https://hk.finance.yahoo.com/news/%E6%99%B6%E7%84%B1%E6%90%B6ai%E5%95%86%E6%A9%9F-%E4%BB%8A%E5%B9%B4%E7%87%9F%E6%94%B6%E4%BC%B0%E6%8C%81%E5%B9%B3%E6%88%96%E5%B0%8F%E5%A2%9E-%E6%98%8E%E5%B9%B4%E6%8B%9A%E6%AD%90%E7%BE%8E%E5%B8%82%E5%A0%B4%E8%B2%A2%E7%8D%BB-080853271.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文中引述總經理表示AI伺服器ESD使用數量相近或略多，低電容目標使平均銷售單價較高",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "使用量與ASP陳述不等於晶焱市佔率變化；頁面未能核實刊登日期。"
+    },
+    {
+      "source_id": "src-85bd8c5b3012cede",
+      "title": "晶焱 大啖PCIe Gen 4商機",
+      "url": "https://www.ctee.com.tw/news/20220221700107-430502",
+      "source_level": 2,
+      "publication_date": "2022-02-21",
+      "effective_period": "報導所述PCIe Gen 4市場情況",
+      "locator": "報導談PCIe Gen 4介面及其ESD突波風險",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅涉及PCIe Gen 4，不能據此推定PCIe 5.0的需求、期間或對晶焱的受惠程度。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索並查閱公司2026年公開說明會簡報及相關公司與媒體資料；仍缺PC／消費性、車用、AI PC、AI伺服器的分市場市佔率與可比期間資料，以及PCIe 5.0需求升級的直接證據，故保留未決原子，不以相鄰市場或世代替代。",
+    "公司2026年簡報所列全球排名註明資料來源為2023 OMDIA，但簡報未交代排名的細分市場定義、分母或市佔率數值；全球排名不能直接代表PC或消費性電子分市場地位。",
+    "管理層受訪與公司產品資料可支持需求展望、產品方案或應用布局，不能替代按市場、期間及分母計算的市佔率變化證據。",
+    "USB4產品方案與PCIe Gen 4報導均不能外推為PCIe 5.0需求升級；未找到直接支持PCIe 5.0部分的來源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6411/626/hermes-attempt-1.stdout.txt"
+}

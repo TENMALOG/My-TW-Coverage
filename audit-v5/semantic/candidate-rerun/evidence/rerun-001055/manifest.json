@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001055",
+  "claim_id": "3689:material_named_relationship:327d4c4c134b9cff",
+  "normalized_claim_hash": "327d4c4c134b9cffaa4da051078feb9c11465d3754bec518cfa606348e7af92f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-60fd12a1155b9764",
+      "title": "《電零股》躋身Nvidia供應鏈 湧德今年業績進補",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202505210102558",
+      "source_level": 2,
+      "publication_date": "2025-05-21",
+      "effective_period": "報導稱高速連接器已進入 GB200 供應鏈並開始出貨",
+      "locator": "內文稱湧德網通高速連接器產品打入 Nvidia GB200 供應鏈，並已開始出貨。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導，非公司原始申報。 ([yuanta.com.tw](https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202505210102558&utm_source=openai))"
+    },
+    {
+      "source_id": "src-86fc0295e91c488c",
+      "title": "COMPUTEX／湧德打入GB200供應鏈 今年EPS上看8元、明年推1.6TB新品",
+      "url": "https://tech.udn.com/tech/story/123153/8755360",
+      "source_level": 2,
+      "publication_date": "2025-05-21",
+      "effective_period": "報導稱 GB200 高速連接器已開始出貨",
+      "locator": "內文引述湧德表示 GB200 高速連接器已開始出貨。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體轉述公司說法。 ([tech.udn.com](https://tech.udn.com/tech/story/123153/8755360?utm_source=openai))"
+    },
+    {
+      "source_id": "src-a8a967133c80015b",
+      "title": "輝達GB200大量出貨　湧德業績同步看俏",
+      "url": "https://www.ftvnews.com.tw/news/detail/2025602W0233",
+      "source_level": 2,
+      "publication_date": "2025-06-02",
+      "effective_period": "報導稱湧德旗下 GB200 高速連接器已陸續出貨",
+      "locator": "報導引述湧德表示其 GB200 高速連接器已陸續出貨。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體轉述，沒有披露出貨數量。 ([ftvnews.com.tw](https://www.ftvnews.com.tw/news/detail/2025602W0233?utm_source=openai))"
+    },
+    {
+      "source_id": "src-ecb0b12fb5986320",
+      "title": "External - 產品分類 - 產品介紹 - 湧德電子",
+      "url": "https://www.ude-corp.com/tw/product/category/138",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "External Cable 產品分類，列有 AOC、DAC 等線材方案。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品頁只證明一般產品線，沒有證明線材供應至 GB200。 ([ude-corp.com](https://www.ude-corp.com/tw/product/category/138?utm_source=openai))"
+    },
+    {
+      "source_id": "src-b57a483aa8e536da",
+      "title": "2025年度法說會",
+      "url": "https://www.ude-corp.com/tw/investors/calendar/14983",
+      "source_level": 3,
+      "publication_date": "2025-12-23",
+      "effective_period": "2025-12-23 法說會",
+      "locator": "公司官網列出法說會及中英文簡報附件；頁面抓取逾時，未能核對附件內容。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未作為線束供應關係的證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成針對 GB200 連接器、線束及公司官方產品／法說會資料的聚焦檢索。連接器供應關係有多篇報導佐證；線束與 GB200 的具體連結仍無可靠證據，故保留為 UNKNOWN。",
+    "GB200 相關的正面證據來自媒體報導或媒體轉述，未找到可直接核實該供應關係的 issuer filing 或公司原始公告。",
+    "湧德官網的一般線材產品資訊不能證明其線束或線材供應給 GB200。",
+    "公司官網列有 2025-12-23 法說會附件，但該頁面抓取逾時，附件內容未能核查。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3689/1055/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000542",
+  "claim_id": "3587:objective_ranking_or_market_share:d51886a6ad107637",
+  "normalized_claim_hash": "d51886a6ad10763718e2c96e0b1f5a38834e0bd262a1ebd03b06300eaa3e24bd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-176e7e198ee16f13",
+      "title": "MA-tek follows big clients as it expands (Taipei Times; republished on MA-tek’s website)",
+      "url": "https://www.matek.com/news-detail/205/",
+      "source_level": 2,
+      "publication_date": "2023-10-09",
+      "effective_period": "2023-09 to 2023-10",
+      "locator": "Article body, paragraphs beginning “The opening of MA-tek’s lab in Kumamoto last month…” and “The chairwoman said that the Kumamoto lab is for MA-tek’s biggest client…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Attributes the client and site rationale directly to MA-tek’s chairperson."
+    },
+    {
+      "source_id": "src-b1980adedf575e86",
+      "title": "《其他電》日本半導體需求強 2實驗室貢獻閎康明年營收逾10%",
+      "url": "https://wantrich.chinatimes.com/news/20230914900759-420101",
+      "source_level": 2,
+      "publication_date": "2023-09-14",
+      "effective_period": "2023-09-07 opening",
+      "locator": "Article body, paragraphs beginning “台灣晶圓代工大廠日本熊本廠…” and “謝詠芬表示…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the Kumamoto laboratory formally opened September 7, 2023."
+    },
+    {
+      "source_id": "src-b79ef0f0f1123264",
+      "title": "台積公司慶祝JASM在日本熊本正式啟用",
+      "url": "https://pr.tsmc.com/chinese/news/3113",
+      "source_level": 3,
+      "publication_date": "2024-02-24",
+      "effective_period": "JASM Kumamoto fab opening, 2024-02",
+      "locator": "Opening paragraphs identifying JASM as TSMC’s majority-owned wafer-manufacturing subsidiary in Kumamoto",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official confirmation that TSMC’s Japanese manufacturing subsidiary is located in Kumamoto."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Contemporaneous reporting carrying the chairperson’s direct statement supports the dated historical reading of all atoms. Stopped after focused searches; current customer ranking and exact lab-to-fab distance remain unverified.",
+    "The customer ranking is an attributed 2023 statement; no numerical revenue share or ranking methodology was located, and it should not be carried forward as a current ranking.",
+    "The sources establish the lab and fab in Kumamoto and report the service rationale, but do not provide a measured distance between them.",
+    "Later coverage describes the Kumamoto lab’s role differently: CTEE’s 2025-09-02 report says it mainly served TSMC (https://www.ctee.com.tw/news/20250902701505-430201), while BusinessNext’s 2025-12-31 report says it focused on local firms and served as backup capacity (https://www.bnext.com.tw/article/89653/jasm-2025). This limits conclusions about its current customer mix, not the reported 2023 establishment rationale."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3587/542/hermes-attempt-1.stdout.txt"
+}

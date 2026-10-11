@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001141",
+  "claim_id": "8924:material_named_relationship:737bd19f1360d702",
+  "normalized_claim_hash": "737bd19f1360d70256ed99b0abd96c8b46464beca980c30f8ad431832c778ffe",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-058cceb0c447416b",
+      "title": "大田精密工業股份有限公司 2025年年報（民國114年度）",
+      "url": "https://www.o-ta.com.tw/wp-content/uploads/2026/05/2025_8924_20260529F04_20260506_134212.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025 (ROC 114)",
+      "locator": "PDF extraction lines 3754–3757 and 4315–4319, PDF pp.76 and 91",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Titleist as a golf brand customer served by O-TA and includes it in the long-term OEM/ODM/IDM partner list; does not state its customer rank or revenue share."
+    },
+    {
+      "source_id": "src-1cdc26768c3e67f0",
+      "title": "大田精密工業股份有限公司 2012年年報（民國101年度）",
+      "url": "https://www.o-ta.com.tw/wp-content/uploads/2023/12/101.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2012",
+      "locator": "PDF extraction lines 2425–2429, printed p.62",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names Callaway among international brands with which O-TA maintained long-term OEM/ODM/IDM cooperation; gives no customer ranking or revenue share."
+    },
+    {
+      "source_id": "src-097228034b3e7fc2",
+      "title": "我國高爾夫球桿頭產業的發展 — MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/report/ReportViewer.aspx?a=bd6dd5d0-a448-4c46-a263-78879fe7a593",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Describes orders beginning in 2000 and changes after 2002",
+      "locator": "Lines 121–123",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports historical TaylorMade orders for O-TA, followed by order transfers after O-TA gained Nike and Callaway orders."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢查最新可取得的發行人FY2025年報及歷史年報、產業資料。品牌地位與Titleist合作關係有支持，但Callaway及TaylorMade的現況，以及三者是否屬主要客戶，仍缺少當期客戶重要性、排名或營收占比證據；停止研究並保留未解原子為UNKNOWN。",
+    "年報中的產業主流品牌名單不能替代公司客戶名單。",
+    "歷史合作或接單證明曾有關係，不足以證明未指明期間的主要客戶地位。",
+    "已查閱大田FY2025年報；該報未提供可判定這三個品牌客戶重要性或營收占比的資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8924/1141/hermes-attempt-1.stdout.txt"
+}

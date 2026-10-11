@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000528",
+  "claim_id": "2542:objective_ranking_or_market_share:ca12741b0453c297",
+  "normalized_claim_hash": "ca12741b0453c2976b18d71b0667c1d42ebbeaa83c753db2084b6c472ea1e56f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-597bc34ae92019cb",
+      "title": "Highwealth 2024 Annual Report",
+      "url": "https://www.highwealth.com.tw/upload/stakeholder/infor/annual/Highwealth%202024%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-25",
+      "effective_period": "Board term 2023-06-13 to 2026-06-12",
+      "locator": "Corporate Governance Report, board-member information",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Cao Yuanbo as chairman for the reported board term; establishes historical, not current, leadership."
+    },
+    {
+      "source_id": "src-3fa650b0152f7850",
+      "title": "關於興富發｜永續治理｜興富發建設",
+      "url": "https://esg.highwealth.com.tw/governance/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Includes historical rankings and a 2025 survey reference",
+      "locator": "「重要里程碑與獲獎紀錄」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer lists rankings in specific publications and categories; these do not specify a comparable current ranking of Taiwan’s private developers."
+    },
+    {
+      "source_id": "src-f903256b95244631",
+      "title": "公告本公司董事會選任董事長",
+      "url": "https://finance.biggo.com.tw/news/twse_major_2542_1150617_140033",
+      "source_level": 2,
+      "publication_date": "2026-06-17",
+      "effective_period": "Effective 2026-06-17",
+      "locator": "Announcement details: old chairman Cao Yuanbo; new chairman Wang Qiaoqi",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary aggregator reproduces a Taiwan market-material-information announcement stating Cao retired and Wang succeeded him."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "研究已用於核實主要原子主張；排名主張仍欠缺可比的年份、市場定義及分母。現有工具迭代已達上限，故保留為UNKNOWN，交由最終裁定。",
+    "1980年為公司沿革起點；當時名稱為鈜福建設，後經合併及更名，與現名的沿革關係應一併說明。",
+    "“台灣最大民營建商之一”未限定期間、建商範圍或排名分母；某一調查或特定年度的排名不能直接證明此廣義描述。",
+    "董事長更替資料來自重刊公告的二級來源；2024年官方年報僅能證明曹淵博在該年報所列期間擔任董事長。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2542/528/hermes-attempt-1.stdout.txt"
+}

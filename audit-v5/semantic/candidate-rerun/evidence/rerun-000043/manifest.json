@@ -1,0 +1,63 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000043",
+  "claim_id": "2105:objective_ranking_or_market_share:daa2ec046bdc0d7f",
+  "normalized_claim_hash": "daa2ec046bdc0d7f53225ae92621fec1cabb8166a168371d5beb2b7f8b37dfb3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "chengshin-fy2025-annual-report-zh",
+      "title": "正新橡膠工業股份有限公司114年度年報（中文，2025財年）",
+      "url": "https://www.cst.com.tw/upload/year_report/2605061452060000001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-06",
+      "effective_period": "2025年度（民國114年）。",
+      "locator": "PDF第80頁（印刷頁76），肆、營運概況／二、市場及產銷概況／市場占有率：記載正新輪胎營業額持續維持台灣第一，並稱Tire Business揭露正新為全球第十六大輪胎製造商。",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2105/43/cheng-shin-2025-annual-report-zh.pdf",
+      "note": "發行人官方年報。直接支持台灣營收第一；該中文版本記載全球第16名，未支持全球前十。",
+      "source_sha256": "fd095f1cff8322145bfec8281780eff1296e081aba5225e1ca94ce2ee3b1d86f"
+    },
+    {
+      "source_id": "chengshin-fy2025-annual-report-en",
+      "title": "Cheng Shin Rubber Ind. Co., Ltd. 2025 Annual Report (English version)",
+      "url": "https://www.cst.com.tw/upload/year_report/2605061452260000001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-06",
+      "effective_period": "FY2025.",
+      "locator": "Market Share section: states the Company is the largest professional tire manufacturer in Taiwan by revenue and says Tire Business ranks Ching Hsin 12th globally.",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2105/43/cheng-shin-2025-annual-report-en.pdf",
+      "note": "與同年度中文年報所列第16名不同；兩個官方版本都將全球排名列在前十以外。",
+      "source_sha256": "dc7f12a49dd44ffd00fde815982ff3f137e3051a828a01a12d0ffedbe62ece08"
+    },
+    {
+      "source_id": "tire-business-gtr-2025",
+      "title": "European Rubber Journal / Tire Business, Global Tire Report 2025",
+      "url": "https://www.european-rubber-journal.com/files/assets/documents/2151842/GTR%202025.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11/12",
+      "effective_period": "2024年輪胎銷售額排名；表中並列2023名次。",
+      "locator": "PDF第3頁（期刊印刷頁19），2025 Global ranking of tire producers (based on 2024 sales, including subsidiaries)：Maxxis International / Cheng Shin Rubber列第16；2023排名欄為第12。",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2105/43/global-tire-report-2025.pdf",
+      "note": "排名發布者的直接榜單；核實中文年報第16名，並顯示第12名是前一年度排名。",
+      "source_sha256": "da67057c84667b01ce7fbc90e822078cb0758d7ec8b219bb7b5072321d8335bc"
+    },
+    {
+      "source_id": "tire-business-gtr-2026-public-list",
+      "title": "2026全球輪胎製造商75強名單（公開榜單整理）",
+      "url": "https://www.cnpp.cn/focus/3569837.html",
+      "source_level": 2,
+      "publication_date": "2026-09-12",
+      "effective_period": "該頁稱按2025年輪胎業務相關銷售額排序。",
+      "locator": "網頁表格列2026榜單；正新橡膠位列第18，2025年銷售額29.13億美元。文章稱榜單由Tire Business發布。",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2105/43/global-tire-ranking-2026-secondary.html",
+      "note": "第三方公開榜單整理，用於核對2026版最新排名；最新一期位置也在前十以外。",
+      "source_sha256": "832b853742b8a7018aac2784ed01c40001d21cbeb25652cb22d7ec2cae13e6cf"
+    }
+  ],
+  "search_notes": [
+    "將台灣最大輪胎製造商與全球前十大兩個排名子句拆開核對，並確認比較基準是營收／輪胎銷售額及年度。",
+    "正新2025財年年報中文版本稱按營業額維持台灣第一，並列全球第16；英文版本同年度文字列第12，版本間的精確名次不一致，但均不支持全球前十。",
+    "Tire Business／European Rubber Journal 2025 Global Tire Report以2024年輪胎銷售額排名，正新第16（前一年第12）；2026榜單公開整理頁以2025年銷售額列正新第18。",
+    "因此保留台灣營收排名的發行人支持，並將「全球前十大」列為未受支持且與可查榜單相反；重寫時標示年度及排名口徑。"
+  ]
+}

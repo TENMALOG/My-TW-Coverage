@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000822",
+  "claim_id": "2608:objective_ranking_or_market_share:8bdb0d8de660d7b1",
+  "normalized_claim_hash": "8bdb0d8de660d7b1ad62bd5facffd961441e008a9f44426962d3d313495310ee",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-363cb2c028298f34",
+      "title": "嘉里大榮物流股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=95a24c67-3bc9-4b4e-8fc9-391044cd0564",
+      "source_level": 2,
+      "publication_date": "2025-07-24",
+      "effective_period": null,
+      "locator": "第27行；頁面更新日期見第91行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "重述「貨運量市佔率約35%左右」，但未標明該數字的期間、貨運市場定義、分母或方法。"
+    },
+    {
+      "source_id": "src-42635478d2641a9e",
+      "title": "物流供應鏈爆單，台灣「宅配三雄」營收三級跳，員工過勞、罷工成隱憂",
+      "url": "https://www.thenewslens.com/article/152201",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "嘉里大榮段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "載有相同約35%說法，未說明其測量期間與分母。"
+    },
+    {
+      "source_id": "src-423da54391bae012",
+      "title": "立法院全球資訊網：中華郵政物流業務市占率不高……",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=43899&pid=197923",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "表列2015–2019年度",
+      "locator": "第223–227、265–404行；附表12及註",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供國內物流（宅配）營業額及市占率；嘉里大榮所列市占率為20.84%–23.07%。報告說明該統計範圍與業者定義不一致，故不等同未定義的國內貨運量市占率。"
+    },
+    {
+      "source_id": "src-f052c142f1d46d7a",
+      "title": "嘉里大榮物流股份有限公司2025年度年報",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/52162/2026/RNS/52162_rns_2026-05-11_2f72d5b9-63bf-4062-932f-eaab702bfcaa.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-11",
+      "effective_period": "2025年度",
+      "locator": "第36頁，PDF第36頁，行3611–3615",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "後續年報稱目前全國約180處營運據點；不同年度、口徑可能不同，不能據此否定2023年歷史數字。"
+    },
+    {
+      "source_id": "src-0a33e4a9d2e44f42",
+      "title": "嘉里大榮新物流中心11月啟用 迎Q4旺季",
+      "url": "https://news.cnyes.com/news/id/5307604",
+      "source_level": 2,
+      "publication_date": "2023-08-30",
+      "effective_period": "2023-08-30法說會報導時點",
+      "locator": "第110–112行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列示營業車輛3,350台；本身未證明數字嚴格高於3,350。"
+    },
+    {
+      "source_id": "src-f3747b737e7d2452",
+      "title": "KTJ嘉里大榮物流官方網站",
+      "url": "https://kerrytj-web.wztech.com.tw/zh/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面於2026-10-07查閱；數字的統計日期未標示",
+      "locator": "首頁營運數據，第58行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司網站列示「3,350+ 營運車輛」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得可定位的官方年報、官方網站資料、立法院統計及歷史法說會報導。市占分母與比較性排名仍無可比證據，據此保留UNKNOWN；不以不同市場口徑或歷史快照替代原文未標明的期間。",
+    "35%市占說法見於二手公司介紹，未附測量期間、市場定義、分母或計算方法。",
+    "立法院列出的20.84%–23.07%是2015–2019年國內物流（宅配）市場的營業額市占率，且該報告明示統計範圍與業者定義有差異；不可用作35%貨運量市占的同口徑驗證。",
+    "190處、11座及92個數字來自2023年法說會的媒體報導；2025年度年報後續列約180處，故舊數字應明確標示期間。",
+    "官方網站的3,350+車輛數未標示統計基準日。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2608/822/hermes-attempt-1.stdout.txt"
+}

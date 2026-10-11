@@ -1,0 +1,72 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000201",
+  "claim_id": "6884:objective_ranking_or_market_share:ab0687cfaac7a080",
+  "normalized_claim_hash": "ab0687cfaac7a080711eb8e0c977b44f700b21063a8890aa58a69f05e4f7d0db",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3a1e6372ae46984104e7",
+      "title": "宏碁旗下海柏特持續「三多策略」 樂觀2026年營收雙位數成長",
+      "url": "https://money.udn.com/money/story/5612/9164684",
+      "source_level": 2,
+      "publication_date": "2025-11-26",
+      "effective_period": "報導引述的管理層說法涵蓋2021年至2025年上半年",
+      "locator": "正文後段，侯知遠談公司核心競爭力及授權維持率的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟日報報導引述董事長稱維持率在所述期間皆超過九成；未列底層數據或計算口徑。"
+    },
+    {
+      "source_id": "src-70e727ff8327909dd09c",
+      "title": "宏碁旗下海柏特持續「三多策略」 樂觀2026年營收雙位數成長",
+      "url": "https://money.udn.com/money/story/5612/9164684",
+      "source_level": 2,
+      "publication_date": "2025-11-26",
+      "effective_period": "報導引述的維持率資訊只涵蓋至2025年上半年",
+      "locator": "正文後段，侯知遠談授權維持率的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "來源支持的截止期間為2025年上半年，沒有提供其後數據。"
+    },
+    {
+      "source_id": "src-09092831e91b8a3d856f",
+      "title": "東協財經／宏碁旗下海柏特明年營收拚增雙位數　評估進軍印度中國",
+      "url": "https://www.cna.com.tw/news/afe/202511260200.aspx",
+      "source_level": 2,
+      "publication_date": "2025-11-26",
+      "effective_period": null,
+      "locator": "正文末段，侯知遠談評估進軍第七個市場後稱「終極目標是成為亞太區授權維修服務第一品牌」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導將此表述為管理層目標；不構成已取得第一名的證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦搜尋，找到可支持管理層歷史說法期間及其目標表述的新聞報導；未找到公司或監管機構披露的維持率計算口徑、底層數據或2025年上半年之後的維持率，因此相關延伸主張保留為UNKNOWN。",
+    "找到的維持率證據是媒體對管理層說法的報導，未找到佐證各期比率的公司原始數據或正式申報。",
+    "來源未揭露維持率的計算公式、分母、各期數值或明確地域範圍。",
+    "已找到的維持率期間止於2025年上半年，不能外推至之後。",
+    "「亞太區第一品牌」是目標表述；來源沒有提供可衡量的排名定義或已達成排名的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6884/201/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "1e5788c888fe87e78132f26f9f43a9f5845ada246620e74e0c57927e08fbfe17",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6884/201/isolated-prompt.txt",
+  "prompt_sha256": "8674bc68fe815e5b9aac427540b6d9aebaf26c94cc07da4992ed2ba5131427b4",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000201/manifest.json",
+  "supersedes_manifest_sha256": "8feafed766ad5e4feebb9e1bfe232015bbb44f6ebecb76ed654a3b53a34ad602",
+  "corrected_at": "2026-10-08T09:57:53Z"
+}

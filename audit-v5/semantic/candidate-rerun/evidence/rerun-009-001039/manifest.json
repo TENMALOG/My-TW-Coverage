@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001039",
+  "claim_id": "3526:profitability_assertion:bea1b55c7add10ff",
+  "normalized_claim_hash": "bea1b55c7add10ff31989b530ee3e151dbaae40ee62d650f800b08f9d3947b7b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a63a70f738d17d9a8bfa",
+      "title": "凡甲科技股份有限公司 2025 年報（1150424-凡甲年報-15.docx）",
+      "url": "https://www.alltopconnector.com/data/information/files/1779087124881442433.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 年度回顧",
+      "locator": "壹、致股東報告書；頁碼未核實",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱電動車與伺服器是其掌握成長動能的關鍵領域。"
+    },
+    {
+      "source_id": "src-631d17be65af96cdff18",
+      "title": "凡甲科技股份有限公司 2025 年報（1150424-凡甲年報-15.docx）",
+      "url": "https://www.alltopconnector.com/data/information/files/1779087124881442433.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 年度回顧",
+      "locator": "壹、致股東報告書；頁碼未核實",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持成長動能的描述，但未量化或明確使用「高成長」分類。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查得最新公司年報及相關營業計畫；「高成長」限定仍缺少可核驗的量化或明確定性證據，故該原子主張保留 UNKNOWN。",
+    "2024 年營業計畫亦列出擴大車用、伺服器及可折式高速線等應用的市場滲透率，並提到固守筆記型電腦應用的市場地位；因此「兩大」可作為重點概括，不宜解讀為完整或排他的業務分類。 ([alltopconnector.com](https://www.alltopconnector.com/data/information/files/1726652788484539996.pdf?utm_source=openai))",
+    "公司資料未提供本 claim 所需的「高成長」判定門檻、共同期間或伺服器與車用各自的成長率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3526/1039/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "98e9eb122e2a952715ad48187d7dafc313e49b09862141a9909e25a2e1e61627",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3526/1039/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "95a214d9bfdc1af6562eff47ef6e8d367794624ff75c078952087a224dc6cfe7",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001039/manifest.json",
+  "supersedes_manifest_sha256": "b853570997ef1bfd5c278627269a21ad3b104ee3d31080bd94752ad9d5b1b6d9",
+  "corrected_at": "2026-10-08T09:59:11Z"
+}

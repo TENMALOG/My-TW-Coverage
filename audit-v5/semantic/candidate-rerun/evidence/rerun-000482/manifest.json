@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000482",
+  "claim_id": "9914:objective_ranking_or_market_share:6f51a2c9276ae36b",
+  "normalized_claim_hash": "6f51a2c9276ae36b884c4eb7a1ec8109d2832a0e30edeccab2e4354cdff243a5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-368010af4cdb18d4",
+      "title": "MERIDA DISTRIBUTORS WORLDWIDE",
+      "url": "https://www.merida-bikes.com/en/frontend/distributors/index",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Country-by-country distributor listings.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Does not classify retail outlets as bicycle specialty shops."
+    },
+    {
+      "source_id": "src-0c93a81008f9f123",
+      "title": "Distributor in the spotlight - MERIDA Benelux",
+      "url": "https://merida-bikes.com/en-nz/news/detail/1529/Distributor+in+the+spotlight+-+MERIDA+Benelux",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article description states the Benelux distributor has 600 dealers.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Does not specify dealer type or the network's full European scope."
+    },
+    {
+      "source_id": "src-9f8a4b58b30e3560",
+      "title": "【美利達法說會重點內容備忘錄】未來展望趨勢 20260814",
+      "url": "https://blog.fugle.tw/post/earnings-call-9914-2026-08-14",
+      "source_level": 2,
+      "publication_date": "2026-08-14",
+      "effective_period": null,
+      "locator": "Section “主要市場分佈” states Europe is the largest market, about 55% of group revenue.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary summary of an investor conference; no corresponding primary disclosure establishing the period and denominator was verified."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Completed eight focused research calls, the stated search limit. The specialty-shop composition and full network scope remain unresolved.",
+    "The original phrase does not specify whether “largest market” refers to MERIDA's regional sales or to the overall bicycle market; the evidence found supports only the former interpretation.",
+    "The European revenue-share evidence is secondary and does not specify the exact measurement period.",
+    "Official distributor materials confirm distributor/dealer presence but do not verify specialty-shop composition or total European network size."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9914/482/hermes-attempt-1.stdout.txt"
+}

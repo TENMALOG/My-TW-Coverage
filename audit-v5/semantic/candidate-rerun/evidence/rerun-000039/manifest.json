@@ -1,0 +1,39 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000039",
+  "claim_id": "1525:objective_ranking_or_market_share:67775914202401b9",
+  "normalized_claim_hash": "67775914202401b9d4d9c391a54a1bdcda56972b56ca283c268f83b87d58acca",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "kian-shen-2025-annual-report",
+      "title": "江申工業股份有限公司115年股東常會年報（114年度）",
+      "url": "https://www.kian-shen.com/product_image/images/users/KSC-B320/115%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1(%E5%B0%9A%E6%9C%AA%E9%81%A9%E7%94%A8%E6%B0%B8%E7%BA%8C%E6%8F%AD%E9%9C%B2%E6%BA%96%E5%89%87).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度（民國114年）。",
+      "locator": "PDF第7頁公司沿革稱與日本武部鐵工所合作，生產大貨車及巴士車架供應國瑞與中華汽車（沿革中的歷史描述）；PDF第59頁稱車架屬寡占產品，木床市占90%；PDF第63頁「最近二年度任一年度中曾佔銷貨總額百分之十以上之客戶」表列114年度中華汽車占銷貨淨額42%、國瑞汽車28%。這是公司整體銷貨客戶集中度，不是車架市占。",
+      "source_sha256": "00abffb308a2ae91ba6c1335a07da9aa471c4a6b80b58de7af1ff923d56523e1",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1525/39/kian-shen-2025-annual-report.pdf",
+      "note": "支持中華與國瑞為當期重要客戶，也支持歷史車架供應關係；兩家客戶占比不能當作車架產品市場份額。"
+    },
+    {
+      "source_id": "kian-shen-2019-csr-report",
+      "title": "江申工業股份有限公司2019年企業社會責任報告書",
+      "url": "https://www.yulon-group.com/resource/20211124152426297.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2019年度。",
+      "locator": "PDF第10頁明列3.5至35噸商用車及巴士底盤，稱為國內最大商用車車架生產公司，年產能超過12,500輛；未列兩家客戶的市占或車架100%份額。",
+      "source_sha256": "ff57cab216c5737176ad17ca81787514e82ef67c2d68fd4a10cfb85eab64c848",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1525/39/kian-shen-2019-csr-report.pdf",
+      "note": "支持車架產品類別與歷史生產者排名，沒有車架市占率的百分比。"
+    }
+  ],
+  "search_notes": [
+    "把中華、國瑞客戶身分、車架產品供應關係、車架市場占有率分開核查。",
+    "江申2025年報列中華與國瑞為2025年重要銷貨客戶，占公司總銷貨淨額42%及28%；此為跨產品客戶營收組成，不是單一車架產品市占。",
+    "年報公司沿革記載曾向兩家公司供應大貨車與巴士車架；該文字位於歷史沿革，不據此聲稱當期每一筆銷售均為車架。",
+    "同一份年報稱車架屬寡占產品，另列木床市場占有率90%；未披露車架100%市場份額。"
+  ]
+}

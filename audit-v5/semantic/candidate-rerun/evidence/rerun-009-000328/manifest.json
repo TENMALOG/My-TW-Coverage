@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000328",
+  "claim_id": "6176:objective_ranking_or_market_share:98d2560ecfdbae12",
+  "normalized_claim_hash": "98d2560ecfdbae12269ec0476d1b5316ea81e8d65b0a58d910b9f88ff07f0072",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7b71ab815ed8f05cccb6",
+      "title": "瑞儀Q4營收挑戰季增3成；但全年估衰退",
+      "url": "https://www.ledinside.com.tw/news/20161214-33545.html",
+      "source_level": 2,
+      "publication_date": "2016-12-14",
+      "effective_period": "2016 年報導所述期間",
+      "locator": "文章對瑞儀產品與客戶的描述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱瑞儀為 Apple iPad、MacBook 等產品的供應商；未提供供應量或營收占比。"
+    },
+    {
+      "source_id": "src-8185c7f7513fc02c68aa",
+      "title": "蘋果供應鏈最大背光模組廠 瑞儀：客戶很Chill 產地不會再移了",
+      "url": "https://tw.stock.yahoo.com/news/%E8%98%8B%E6%9E%9C%E4%BE%9B%E6%87%89%E9%8F%88%E6%9C%80%E5%A4%A7%E8%83%8C%E5%85%89%E6%A8%A1%E7%B5%84%E5%BB%A0-%E7%91%9E%E5%84%80%EF%BC%9A%E5%AE%A2%E6%88%B6%E5%BE%88chill-%E7%94%A2%E5%9C%B0%E4%B8%8D%E6%9C%83%E5%86%8D%E7%A7%BB%E4%BA%86-031542973.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導提及 2025 年 4 月 24 日法說會",
+      "locator": "文章首段及董事長談話",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財訊報導稱瑞儀是 Apple 電腦與平板背光模組的最大供應商；這是供應商在 Apple 相關品類中的地位，不能據此確認 Apple 在瑞儀客戶中的排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本次可用研究工具回合上限；最大客戶排名及其期間、分母仍未獲可靠證據確認。",
+    "找到的產品供應關係證據是二手產業報導，且只支持歷史期間，不能證明目前仍供應。",
+    "「Apple 電腦與平板背光模組最大供應商」與「Apple 是瑞儀最大客戶」是不同排名命題，不能互相替代。",
+    "未找到可核實 Apple 客戶排名、期間或營收占比的官方 issuer 或監管披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6176/328/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "02bfd5e5d38e72807a0dc07623b12a2f469eb6b23d0f0d6339f9ea3890b41e88",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6176/328/isolated-prompt.txt",
+  "prompt_sha256": "ae8cf20da756e8a81e4598945df4a5348f21645bc567f1656bf825939f5a0efc",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000328/manifest.json",
+  "supersedes_manifest_sha256": "7c8dfcdf37695f2f80a36f4634985539458d68b483c86eed881ee665a177c972",
+  "corrected_at": "2026-10-08T09:58:03Z"
+}

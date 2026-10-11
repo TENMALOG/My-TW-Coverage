@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000137",
+  "claim_id": "3047:objective_ranking_or_market_share:8d08849b1db7901e",
+  "normalized_claim_hash": "8d08849b1db7901e4d2e0d4ae3ea8b008e11cc329a4749a729cec90bb49e972e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-88ec385d0a29b448",
+      "title": "康全電訊股份有限公司113年度年報",
+      "url": "https://www.comtrend.com/tw/shareholder/download/4-3-4-113.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-30",
+      "effective_period": "2024財年，相較2023財年",
+      "locator": "第1頁，致股東報告書；第69–70頁，印度市場及RMDU出貨",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱新市場拓展及新產品出貨帶動年度營運較前一年度大幅成長，並稱RMDU於印度市場2024年大量出貨；未分列印度對營收增長的金額或比例。"
+    },
+    {
+      "source_id": "src-0608cdba6cd543a6",
+      "title": "訊舟看好印度市場 搶攻電信設備商機",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f93aba50-7979-4521-91f6-c956d8cf8a2b",
+      "source_level": 2,
+      "publication_date": "2024-09-25",
+      "effective_period": "2023年底至2024年所述訂單",
+      "locator": "報導第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及康全取得印度電信設備標案，另提及Jio的5G FWA採購；未明確說明兩者為同一訂單，也未指認得標客戶。"
+    },
+    {
+      "source_id": "src-91aef18d19e1e894",
+      "title": "開盤一字鎖！這檔10月營收年增逾460%背後的秘密",
+      "url": "https://today.line.me/tw/v3/article/j7M6P12",
+      "source_level": 2,
+      "publication_date": "2024-11-11",
+      "effective_period": "2023年底至2024年10月",
+      "locator": "報導第二至三段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "理財周刊報導印度標案於2024年初開始出貨並與營收成長並述；屬媒體報導，非公司年報的印度營收分拆。"
+    },
+    {
+      "source_id": "src-7ca5d9d27bf54bbe",
+      "title": "訊舟9月24日召開法說會 子公司康全電訊成焦點",
+      "url": "https://news.cnyes.com/news/id/5722304",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年第二季至2024年9月報導時點",
+      "locator": "報導第三段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網稱康全打入印度市場帶動訊舟營運成長、獲利提升；未量化獲利貢獻或證明其為集團重要獲利引擎。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱康全電訊官方113年度年報及聚焦媒體報導；未找到能把具名客戶、5G標案與康全得標直接連結的證據，也未找到量化集團獲利貢獻。其餘範圍已足以區分可支持與未解原子，未以相近資料替代缺失範圍。",
+    "直接持股比例有康全電訊官方年報支持；「子公司」分類未僅憑33.49%持股資料確立。",
+    "印度標案資訊由MoneyDJ報導；該報導未明確確認標案客戶為Reliance Jio，也未確認標案本身為5G標案。",
+    "官方年報支持2024年印度RMDU大量出貨及公司整體營收大幅成長，但沒有印度市場的營收拆分或其單獨貢獻比例。",
+    "「重要獲利引擎」缺少集團獲利貢獻額、分母及重要性標準；媒體敘述不足以確認此評價。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3047/137/hermes-attempt-1.stdout.txt"
+}

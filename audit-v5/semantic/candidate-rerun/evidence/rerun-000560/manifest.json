@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000560",
+  "claim_id": "3413:objective_ranking_or_market_share:ebe2223d339ab310",
+  "normalized_claim_hash": "ebe2223d339ab310f6cdabe7202e3ac5333683721f9af7ac94e06de6d62d4ae4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9be4939c126a73f7",
+      "title": "京鼎獲應材入股持股8.4% 成僅次鴻海第二大股東",
+      "url": "https://tw.stock.yahoo.com/news/%E4%BA%AC%E9%BC%8E%E7%8D%B2%E6%87%89%E6%9D%90%E5%85%A5%E8%82%A1%E6%8C%81%E8%82%A18-4-%E6%88%90%E5%83%85%E6%AC%A1%E9%B4%BB%E6%B5%B7%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%82%A1%E6%9D%B1-104131201.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022",
+      "locator": "Article excerpt quoting 京鼎’s general manager",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes Applied Materials as one of the company’s largest customers, not as the uniquely largest contracting party."
+    },
+    {
+      "source_id": "src-4bf1f625afd0845c",
+      "title": "強強聯手！半導體設備龍頭應材入股這家台股",
+      "url": "https://cmnews.com.tw/article/ugly-3aa78b0b-d8cb-11ef-ba53-e95861c13490",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2021 revenue, as described by the article",
+      "locator": "Article passage claiming 84% of 京鼎’s 2021 revenue came from Applied Materials",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary attribution to the annual report; the period and revenue denominator do not independently establish the broader outsourcing-party ranking."
+    },
+    {
+      "source_id": "src-0e6fc7a2f2f6fdca",
+      "title": "京鼎(3413)股價與合理價：可以買嗎？",
+      "url": "https://finlab.finance/stocks/3413",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024 annual report, as summarized on the page",
+      "locator": "Company information passage summarizing the annual report’s largest-customer disclosure",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the largest customer as anonymized 甲公司, at 84.82% of annual net sales; does not identify the customer as Applied Materials."
+    },
+    {
+      "source_id": "src-e0b56e3751f932aa",
+      "title": "Table of Contents - FITI GROUP (京鼎 2024 annual report)",
+      "url": "https://www.foxsemicon.com/en-us/file/shareholder/113%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1en.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "April 2022 transaction; included in the 2024 annual report",
+      "locator": "Corporate history excerpt: “April 2022 Acquisition of our privately placed ordinary shares by Applied Materials”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer annual report; supports acquisition of shares, but the excerpt does not establish current ownership."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research exhausted after eight focused tool calls, including one failed PDF extraction. The largest-outsourcing-client atom remains UNKNOWN.",
+    "The official issuer source supports the historical share acquisition, not present-day ownership.",
+    "The evidence for customer identity and ranking is incomplete: public secondary reporting uses different periods and revenue measures, while the 2024 largest-customer disclosure is summarized as anonymized.",
+    "Search-result excerpts were used for discovery; the annual-report PDF extraction attempt was denied by the source server."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3413/560/hermes-attempt-1.stdout.txt"
+}

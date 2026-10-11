@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000186",
+  "claim_id": "3013:objective_ranking_or_market_share:0924d32218acf258",
+  "normalized_claim_hash": "0924d32218acf258e39d1db0666256a13d7739b611881753d8d3a19cac03e4f0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-444b3ca21fa04daa",
+      "title": "晟銘電AI伺服器訂單Q4增溫，晶片供給仍具挑戰",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0d33ea93-5618-4880-a519-2738f0aae8e7",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導時點未確認；文中提及前三季營收結構及Q4展望",
+      "locator": "搜尋結果摘要中「客戶包含…緯穎(6669)…」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ報導列出客戶名單；未提供交易規模或客戶占比。"
+    },
+    {
+      "source_id": "src-656553dbc814000e",
+      "title": "伺服器標準品 | 晟銘電子科技股份有限公司",
+      "url": "https://www.uneec.com/tw/products/18050411210111",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行產品頁；未標明日期",
+      "locator": "「伺服器標準品」介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認一般伺服器標準品機殼及OEM/ODM能力，但未將此產品明確限定為AI伺服器機殼。"
+    },
+    {
+      "source_id": "src-02978484a0e5d591",
+      "title": "晟銘電 強攻液冷散熱商機 | 晟銘電子科技股份有限公司",
+      "url": "https://www.uneec.com/tw/new_data/24060609433820",
+      "source_level": 2,
+      "publication_date": "2024-04-10",
+      "effective_period": "報導所述2024年業務與規劃",
+      "locator": "內容第1至4段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司網站轉載並署名《工商時報》李淑惠／台北報導；內容支持AI伺服器機櫃及相關機構件供應鏈，但未明確建立AI伺服器機殼的OEM合同關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對客戶名單、最大客戶排名及AI伺服器機殼代工的搜尋與來源檢視。未找到能確認廣達客戶排名或明確連結AI伺服器機殼與OEM合同的可靠資料；未解原子保留UNKNOWN。",
+    "客戶名單來自MoneyDJ報導，檢索到的頁面內容未能確認其發布日期及名單所對應的明確期間。",
+    "目前可得資料沒有客戶別營收、訂單或排名分母，因此不支持「廣達為最大客戶」。",
+    "晟銘電官網的AI伺服器機櫃資料頁轉載《工商時報》報導；其機櫃／機構件描述不能直接等同AI伺服器機殼OEM合同。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3013/186/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000189",
+  "claim_id": "3479:objective_ranking_or_market_share:ec2d0140eda8f433",
+  "normalized_claim_hash": "ec2d0140eda8f4336e09a7a8342eadc8dcd0a6ff831c47a723c4cb87ed0974ea",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4e00960dc28f87c5",
+      "title": "安勤科技推出最新多功能觸控電腦APC-2138，主打零售與半工業應用市場",
+      "url": "https://www.avalue.com/tw/news/list/APC-2138_PR_TW",
+      "source_level": 3,
+      "publication_date": "2023-09-28",
+      "effective_period": "截至2023-09-28的公司業務描述",
+      "locator": "新聞稿首段及「關於安勤科技」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人直接稱安勤為專業嵌入式工業電腦製造商及專業工業電腦設計製造公司。"
+    },
+    {
+      "source_id": "src-d10a9de0c343a5db",
+      "title": "About Avalue",
+      "url": "https://avalue.com/en/esg/article/AboutAvalue",
+      "source_level": 3,
+      "publication_date": "2025-08-31",
+      "effective_period": "2024 fiscal year and company description published 2025-08-31",
+      "locator": "Product and Service",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人稱其專營工業電腦製造、加工及進出口，並列示工業電腦等產品。"
+    },
+    {
+      "source_id": "src-6f8e0fcafc739565",
+      "title": "Avalue Technology – Shareholder Information",
+      "url": "http://avalue.com/en/investor/Shareholder-Information",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-04-11",
+      "locator": "Shareholding Structure → As of 2026-04-11 → Major shareholders",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人列示Compal Electronics, Inc.持股14,924,070股、持股比例20.55%；所列次高持股比例為4.27%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩項原子主張均由發行人來源支持；在達到八個研究回合上限前停止。",
+    "股東數據來自安勤發行人網站，為截至2026-04-11的披露；此處未另以股東名冊或監管申報獨立核對。",
+    "「最大股東」依安勤股東資訊所列主要股東比較判定；20.55%與「約2成」一致。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3479/189/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000423",
+  "claim_id": "9911:objective_ranking_or_market_share:58fa6a469bd3bfc1",
+  "normalized_claim_hash": "58fa6a469bd3bfc12f76f2825fcad45149ea89166e5397c1cd1956e69d50b8fd",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6e7c1a8fa7cb57c2",
+      "title": "櫻花集團：2018年6月7日法人說明會簡報（中文版）",
+      "url": "https://www.sakura.com.tw/Uploads/Document/8ca07e60-a004-4b58-97ed-3d17c7fd55a7/20180607%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88).pdf",
+      "source_level": 3,
+      "publication_date": "2018-06-07",
+      "effective_period": "2017",
+      "locator": "第15頁，「瓦斯熱水器」及「市占率 (S+T)」圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告櫻花+莊頭北在台灣瓦斯熱水器市場的合計市佔率為51%；不是單一品牌或未區分品類的全部熱水器市佔率。"
+    },
+    {
+      "source_id": "src-8e06ace30f69e9f4",
+      "title": "櫻花集團：2021年11月23日法人說明會簡報（中文版）",
+      "url": "https://www.sakura.com.tw/Uploads/Document/4ed0deae-26ac-41b7-a556-610adafb5a66/20211123%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1(%E4%B8%AD%E6%96%87%E7%89%88).pdf",
+      "source_level": 3,
+      "publication_date": "2021-11-23",
+      "effective_period": "2020",
+      "locator": "第16頁，「瓦斯熱水器」市佔率圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示櫻花+莊頭北合計56%、其他44%；市場總量約每年45–50萬台。支持2020年雙品牌在台灣瓦斯熱水器市場占多數，但原文的產品與品牌範圍更寬。"
+    },
+    {
+      "source_id": "src-dce9127ea3d12b2a",
+      "title": "台灣櫻花股份有限公司 — MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=8a339691-cbb8-45ef-a247-f0d875382ba4",
+      "source_level": 2,
+      "publication_date": "2026-09-22",
+      "effective_period": "2025",
+      "locator": "「銷售狀況」：熱水器內銷佔91.4%、外銷佔8.6%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手公司資料，內容標示更新日期為2026-09-22；未交代內銷比例的分母或計量單位，亦未提供可供核對的原始披露。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦檢索；未取得可核實89%及其期間、分母的原始來源。市佔資料只支持較窄的雙品牌瓦斯熱水器範圍，因此原子主張仍列UNKNOWN。",
+    "官方法說資料的市佔口徑是櫻花+莊頭北合計，且限定為瓦斯熱水器；不可直接擴展至單一品牌或未限定類型的熱水器。",
+    "搜尋結果曾出現一篇二手文章提及熱水器內銷89%，但原頁提取受登入／付費限制；依規則未將搜尋摘要視為核實證據。",
+    "MoneyDJ列示的2025年91.4%與原文89%期間不同，且其比例分母未明，不能據此判定89%在其他期間為錯。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9911/423/hermes-attempt-1.stdout.txt"
+}

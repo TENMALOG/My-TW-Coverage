@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000213",
+  "claim_id": "2371:objective_ranking_or_market_share:7c1b7458bb352b9a",
+  "normalized_claim_hash": "7c1b7458bb352b9a4c2a757739ec3938617dcdd9f0442ae0a5075cf2674e1b88",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-43d7eebf0ab457c1",
+      "title": "大同獲台電變壓器標案12.77億元",
+      "url": "https://www.tatung.com/news/detail/1298",
+      "source_level": 3,
+      "publication_date": "2023-07",
+      "effective_period": "Contract announced in July 2023; deliveries expected to begin mid-2024.",
+      "locator": "Company announcement, opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms a Taipower transformer contract and other Taipower project work; does not identify Taipower as the largest domestic customer."
+    },
+    {
+      "source_id": "src-6f553a1f1e26e1a5",
+      "title": "大同在手訂單逾200億，看好美國電力市場前景",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=7f8105cd-588d-4eee-8700-e74d22bc5f29",
+      "source_level": 2,
+      "publication_date": "2025-07-23",
+      "effective_period": "Statements made at the company's July 2025 investor conference.",
+      "locator": "Article paragraphs on domestic and export sales",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports that domestic sales were about 91% of Power Business Group sales and that most domestic sales came from Taipower; does not establish a largest-customer ranking."
+    },
+    {
+      "source_id": "src-28334c256bd4e5d9",
+      "title": "大同與KPMG完成簽約 正式啟動美國大計畫",
+      "url": "https://www.tatung.com/news/detail/1373",
+      "source_level": 3,
+      "publication_date": "2025-04",
+      "effective_period": "Company account of its strategy and orders as of Q1 2025.",
+      "locator": "Paragraph beginning “執行地緣政治的風險分散策略”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes regional locations, local alliances, and seeking orders from power companies and private enterprises; does not identify the buyers behind reported orders."
+    },
+    {
+      "source_id": "src-85fd3a23a7057aa9",
+      "title": "TATUNG CO. 2025 Investor Conference",
+      "url": "https://www.tatung.com/content-en/download/investors/Tatung_Presentation_20250723_en.pdf",
+      "source_level": 3,
+      "publication_date": "2025-07-23",
+      "effective_period": "2025 investor conference.",
+      "locator": "Power BG Global Expansion – Middle East / India",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes participation in Israeli infrastructure projects and partnering with Voltamp Power to pursue opportunities; not evidence of power-company customers."
+    },
+    {
+      "source_id": "src-114c6d58d94bb856",
+      "title": "大同五大電力解決方案2025智慧能源週展出",
+      "url": "https://tatung.com/News/detail/2394",
+      "source_level": 3,
+      "publication_date": "2025-10",
+      "effective_period": "Described as a current supplier relationship in the October 2025 announcement; no start or end dates specified.",
+      "locator": "Paragraph on smart meters and energy management",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Tatung is a supplier to power companies in Japan, Thailand, and Malaysia; Thailand and Malaysia are the Southeast Asian examples."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused research found direct issuer support for Southeast Asian utility supply but no evidence resolving the Taipower ranking or actual Middle East power-company customer relationship; those atoms remain UNKNOWN.",
+    "The claim gives no reference period, business segment, or metric for “largest domestic customer”; contract awards and a report that domestic Power Business Group sales mostly came from Taipower do not prove that ranking.",
+    "The Southeast Asia evidence is limited to smart meters and named utility markets in Thailand and Malaysia.",
+    "The Middle East disclosures describe business development and pursuit of orders, not identified completed sales to power companies."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2371/213/hermes-attempt-1.stdout.txt"
+}

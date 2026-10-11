@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000157",
+  "claim_id": "6143:objective_ranking_or_market_share:93413fcf26dee269",
+  "normalized_claim_hash": "93413fcf26dee26972d7c26d8a4d47b4f86b3b2277f93984be36bf3f02fd8098",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-07af3102b4bd234a8776",
+      "title": "振曜科技股份有限公司 法人說明會 2026.03.12 Q&A",
+      "url": "http://www.netronixinc.com/NetronixWebAdm/upload/investors/%e6%b3%95%e4%ba%ba%e8%aa%aa%e6%98%8e%e6%9c%83/QA%e6%aa%94%e6%A1%88/2026326864.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-12",
+      "effective_period": "2026-03-12 Q&A; no broader effective period stated",
+      "locator": "Q&A, “Kindle 與 Kobo 市佔?” answer; closing statement says the company’s “第一大客人” may continue to gain share, in context of Kobo.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    },
+    {
+      "source_id": "src-b636168d354de68e8cbc",
+      "title": "Our Global Services | Rakuten Group, Inc.",
+      "url": "https://global.rakuten.com/corp/about/company/global/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Rakuten Kobo Inc. entry; category listed as “Subsidiary of Rakuten Group.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": null
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已到達允許的研究上限；已找到振曜官方法說會Q&A及Rakuten官方子公司資料，未再延伸檢索未披露的排名計算基礎或客戶占比。",
+    "largest-customer排名來自法說會問答的上下文表述；公司未明示排名指標、完整比較期間或各客戶銷售額分母。",
+    "Rakuten官方服務頁未標註發布或生效日期。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6143/157/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "1905c5db57f71649434da5d26955f8f2d50f98a3bab22dff51ac78d6ae5a8c81",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6143/157/isolated-prompt.txt",
+  "prompt_sha256": "a5c7f7c206d44f7f9e2ca70eaf42ec99c9e03ed2443cb665c54d8401f8584619",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000157/manifest.json",
+  "supersedes_manifest_sha256": "96394c8a6cefc81853c3784501e88dfb692ec5dd24fcbb6cc4160223a03759ab",
+  "corrected_at": "2026-10-08T09:57:50Z"
+}

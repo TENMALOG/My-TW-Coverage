@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000928",
+  "claim_id": "3558:profitability_assertion:9f4ccf27dd9b4c28",
+  "normalized_claim_hash": "9f4ccf27dd9b4c28362eb37440fe9c6d36171ced38fa84a1a644270e4f79d7bc",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f3f90b6157406b81",
+      "title": "神準科技股份有限公司及子公司114年度合併財務報告",
+      "url": "https://statics.senaonetworks.com/wp-content/uploads/2026/03/17093522/114%E5%B9%B4%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-10",
+      "effective_period": "2025會計年度",
+      "locator": "第64頁，附註「產品別資訊」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出伺服器與邊緣運算設備系統產品銷售收入。"
+    },
+    {
+      "source_id": "src-77c793fd72543be6",
+      "title": "關於神準－集團簡介",
+      "url": "https://www.senaonetworks.com/zh-hant/company/about-senao-networks",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司成立以來；官網未標明該陳述的具體統計期間",
+      "locator": "「成就與榮耀」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅支持公司自述的研發能力、專利與獎項，未提供台灣同業比較。"
+    },
+    {
+      "source_id": "src-62d571f647537401",
+      "title": "神準科技2024年永續報告書",
+      "url": "https://statics.senaonetworks.com/wp-content/uploads/2025/09/05113333/senao-esg-report-2024-2.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "「認識神準科技」及品牌產品介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人資料將EnGenius列為自有品牌。"
+    },
+    {
+      "source_id": "src-cdff3a3ceba44c9a",
+      "title": "企業SD-WAN/CPE｜邊緣運算網路",
+      "url": "https://www.senaonetworks.com/products/edge-computing/branch-sd-wan/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行產品頁；未標明起始期間",
+      "locator": "產品介紹及神準x86 SASE設備產品線",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官網列示邊緣運算網路設備及產品型號。"
+    },
+    {
+      "source_id": "src-aada2c18ca12d414",
+      "title": "神準科技股份有限公司113年股東常會議事手冊",
+      "url": "https://statics.senaonetworks.com/wp-content/uploads/2024/06/17100831/%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A-2.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度營運計畫",
+      "locator": "營業計畫及未來發展策略，「ODM產品」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司表示將持續開拓ODM產品客戶；未把ODM與OEM分別量化。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人官網、2025年度財務報告、永續報告及股東會文件；尚無明確同業基準、產品別毛利率或足以確認「隸屬」非正式含義的證據，未以鄰近年度或整體毛利率替代未解主張。",
+    "「極具研發實力」及「高毛利」是缺少明確比較基準的評價性用語；已查資料不能量化驗證其相對程度。",
+    "公司官網及永續報告屬發行人資料；可支持公司自身披露的能力、產品與品牌，但不能獨立證明相對同業排名。",
+    "神腦國際持股及重大影響力不等於母子公司控制關係；「隸屬於神腦集團」若採非正式、寬泛用法，仍需明確定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3558/928/hermes-attempt-1.stdout.txt"
+}

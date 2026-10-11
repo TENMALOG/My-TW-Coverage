@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000597",
+  "claim_id": "3141:objective_ranking_or_market_share:76eab7724d46fd0c",
+  "normalized_claim_hash": "76eab7724d46fd0c86f5bc778260ad297ce06ee402531e2b9a5ebdcaa7bf1c0a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1301364fa9a3d007",
+      "title": "E Ink 元太科技 投資人關係",
+      "url": "https://tw.eink.com/investor/finance?bookmark=report",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "官方投資人關係頁標題及公司年報連結",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方頁面將 E Ink 與元太科技並列使用。"
+    },
+    {
+      "source_id": "src-ddc6ac409697849a",
+      "title": "元太出清晶宏持股 獲利逾4億元",
+      "url": "https://www.fountmedia.io/article/161553",
+      "source_level": 2,
+      "publication_date": "2022-08-19",
+      "effective_period": "處分期間為 2021-10-26 至 2022-08-19",
+      "locator": "報導內元太處分晶宏普通股的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導轉述元太已全數出清所持 2,703,676 股；屬媒體報導，非此處取得的原始交易公告。"
+    },
+    {
+      "source_id": "src-a948256bdb2462d4",
+      "title": "晶宏(3141)股價與合理價：可以買嗎？",
+      "url": "https://finlab.finance/stocks/3141",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025（頁面歸述的年報客戶排名）",
+      "locator": "客戶集中度說明及 2025 年報客戶代號／銷售占比摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手摘要列出匿名客戶代號與銷售占比，未將元太映射至任何代號；不能據此判定元太是否第一大客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查找公司官方頁面、年報入口及多組聚焦查詢，找到持股出清報導與二手客戶資料；客戶排名仍匿名且無法對應元太，故保留 UNKNOWN 並停止研究。",
+    "持股出清資訊來自媒體報導轉述，未在本次研究中取得原始交易公告。",
+    "客戶關係及匿名客戶排名資料來自二手來源；未取得能具名確認最大客戶的晶宏官方披露。",
+    "claim 未標示期間，因此母公司關係只按現況現在式解讀；未裁定更早期間的關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3141/597/hermes-attempt-1.stdout.txt"
+}

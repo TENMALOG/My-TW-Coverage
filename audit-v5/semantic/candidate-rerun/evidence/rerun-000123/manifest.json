@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000123",
+  "claim_id": "1326:objective_ranking_or_market_share:ab200ad4f1ede1d8",
+  "normalized_claim_hash": "ab200ad4f1ede1d84dba5e57e8dfa75179ccabd2ed483fe67a63f053d7c37c30",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a5f68f693e1fcfcc",
+      "title": "台化113年度年報",
+      "url": "https://www.fcfc.com.tw/download/472051",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "致股東報告書及113年度營業結果",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報提及地緣政治風險及原料、能源成本等營運因素；本次查得內容未量化或比較台塑化關係對台化庫存或生產的緩衝效果。"
+    },
+    {
+      "source_id": "src-681faf6df122edab",
+      "title": "紓解台灣石化產業原料短缺困境的六輕計畫",
+      "url": "https://www.fpcc.com.tw/tw/about/no6",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面所載資料未明確標示統一有效期間；頁面註記台塑企業提供於2022-12-30",
+      "locator": "六輕計畫介紹及投資公司／工廠類別表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出煉油、輕油裂解及汽電共生設施與產能；未提供可驗證「世界最佳」的效率指標或國際比較。"
+    },
+    {
+      "source_id": "src-30b0c9ae3ffb52f4",
+      "title": "台塑石化事業部門",
+      "url": "https://www.fpcc.com.tw/tw/about/business",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面未標示",
+      "locator": "煉油事業部、烯烴事業部及內銷服務項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明台塑化煉製油品並生產、銷售乙烯、丙烯等石化基本原料；沒有台化採購比例或其供應商排名資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦檢索。官方資料支持台化持有台塑化24.15%及台塑化營運煉油、輕油裂解設施；供應商地位、全球效率排名及最大庫存／生產緩衝效果仍缺少所需期間、比較基準與量化披露，故未解原子維持UNKNOWN。",
+    "台化年報的供應狀況章節可由目錄定位，但本次取得的索引資料未呈現供應商明細及採購占比；未以章節標題推定供應商排名。",
+    "台塑化官方公司頁面可確認設施與業務類別，不提供所稱全球能源轉換效率排名。",
+    "「絕對且獨家擁有」按字面股權解讀與年報列出的多名股東及持股比例不符；如原意不是股權所有權，仍須另有明確定義及證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1326/123/hermes-attempt-1.stdout.txt"
+}

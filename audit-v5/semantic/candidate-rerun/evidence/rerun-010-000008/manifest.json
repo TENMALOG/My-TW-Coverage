@@ -1,0 +1,113 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000008",
+  "claim_id": "1722:objective_ranking_or_market_share:fd708de33a7d0e86",
+  "normalized_claim_hash": "fd708de33a7d0e8643d8fad8ef6b92934ddf934b7e9e40ccae17fa8232b0c837",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-1fda5cddf57b4986cee8",
+      "title": "農友牌簡介",
+      "url": "https://www.taifer.com.tw/Products/Products/aboutnongyou.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段及「農友牌自產肥料產品」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台肥官方來源；另稱年供應國內市場七十餘萬公噸、約七成市場占有率，但該市場占有率不是農會通路占比或通路排名。"
+    },
+    {
+      "source_id": "src-adfbf05e1dca8e6ed4c0",
+      "title": "說到做到 預購肥料來了 每包還補助20元",
+      "url": "https://www.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri&id=8084",
+      "source_level": 3,
+      "publication_date": "2020-04-16",
+      "effective_period": "2020年",
+      "locator": "「台肥生產線假日不休息 24小時全力生產」及「建立肥料合理調度機制」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "農糧署官方資料；描述台肥肥料配送至鄉鎮農會及肥料行，未提供各通路銷售量或占比。"
+    },
+    {
+      "source_id": "src-e2a9211e06fe69f509f2",
+      "title": "說到做到 預購肥料來了 每包還補助20元",
+      "url": "https://www.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri&id=8084",
+      "source_level": 3,
+      "publication_date": "2020-04-16",
+      "effective_period": "2020年",
+      "locator": "「台肥生產線假日不休息 24小時全力生產」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅記載配送至鄉鎮農會及肥料行，不證明全台所有層級的農會均為通路。"
+    },
+    {
+      "source_id": "src-335e96e655db2e93c03d",
+      "title": "農友牌簡介",
+      "url": "https://www.taifer.com.tw/Products/Products/aboutnongyou.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面全文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認「農友牌」為台肥肥料系列，但未說明農會經銷範圍。"
+    },
+    {
+      "source_id": "src-ab1eb34ce987ecc572ea",
+      "title": "農友牌簡介",
+      "url": "https://www.taifer.com.tw/Products/Products/aboutnongyou.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "約七成市場占有率指整體肥料市場，不是農會通路的銷售占比或通路排名。"
+    },
+    {
+      "source_id": "src-037d33fc2d7451ab5d43",
+      "title": "說到做到 預購肥料來了 每包還補助20元",
+      "url": "https://www.moa.gov.tw/theme_data.php?theme=news&sub_theme=agri&id=8084",
+      "source_level": 3,
+      "publication_date": "2020-04-16",
+      "effective_period": "2020年",
+      "locator": "「台肥生產線假日不休息 24小時全力生產」及「建立肥料合理調度機制」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及農會與肥料行等配送或購買管道，未比較其銷售規模。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "檢索到的官方資料確認產品系列及農會作為其中一種配送管道，但未找到全國各級農會覆蓋證據或通路間比較數據；核心排名主張仍無法判定。",
+    "台肥官方所述約七成市場占有率是整體肥料市場指標，不能作為農會通路占比或排名的證據。",
+    "農業部資料支持2020年鄉鎮農會為台肥肥料的管道之一，但未提供通路分項銷售數據，也未確認所有層級或全國範圍。",
+    "原主張沒有明示比較期間、通路排名指標或分母。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1722/8/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "b873ec45f12df1e8ecb0585757a2a330dfa4fcae32d27e7bbae2ee806b0165a6",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1722/8/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "49857ce8f3d98070286a658851be11648192f7cc7ee112a4f2c3aef2d7c293f0",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

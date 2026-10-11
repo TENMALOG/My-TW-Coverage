@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001206",
+  "claim_id": "8298:material_named_relationship:2b7d8122908935b6",
+  "normalized_claim_hash": "2b7d8122908935b687ad6acd6be4fb95f9f7e6cede8ca0e74a54c776a0891c67",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-835ea440ddb51e26",
+      "title": "關於威睿 — Genie Networks",
+      "url": "https://www.genie-networks.com/tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile; accessed 2026-10-07",
+      "locator": "Company profile, customer description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists large enterprises among customer groups."
+    },
+    {
+      "source_id": "src-100c25c2ead12eb2",
+      "title": "威睿科技股份有限公司 113年度年報",
+      "url": "https://www.genie-networks.com/wp-content/uploads/2025/07/%E5%A8%81%E7%9D%BF%E7%A7%91%E6%8A%80_%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-09",
+      "effective_period": "Fiscal year 2024; report printed 2025-05-09",
+      "locator": "Printed pp. 71 and 78; PDF pp. 74–75 and 81–82",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies telecom network operators as main customers, while listing government, academic institutions, and large enterprises as end-customer categories without showing each category’s major-customer status."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official issuer profile and the latest located official annual report support the customer categories, but do not substantiate the blanket qualifier that every listed category is a major customer group. The unresolved qualifier is retained as UNKNOWN.",
+    "The evidence for customer categories is issuer-reported, not independent customer-by-customer verification.",
+    "The 2024 annual report identifies customer types but does not provide category-level sales shares or rankings for government, academic, or large-enterprise customers."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8298/1206/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001274",
+  "claim_id": "8908:material_named_relationship:9ee2a3f7848520f1",
+  "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-43667ee8678a5b01",
+      "title": "欣雄天然氣股份有限公司 113年度年報",
+      "url": "https://www.shng.com.tw/assets/files/invment/113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024",
+      "locator": "PDF p. 45, lines 2478–2483; p. 46, lines 2558–2559",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly states that CPC is the sole domestic natural-gas supplier and the sole gas-source supplier for gas companies."
+    },
+    {
+      "source_id": "src-41f0b078c35386a7",
+      "title": "立法院全球資訊網：燃氣發電為我國推動能源轉型之重要橋接能源……",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=56112&pid=255077",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Report discusses conditions through July 2025",
+      "locator": "Article section on domestic natural-gas supply facilities and CPC",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States CPC is Taiwan’s sole natural-gas supplier and LNG importer; corroborates the national-market scope."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research limit reached. The full wording is explicitly supported for FY2024, with official corroboration through July 2025; no later issuer disclosure directly restating exclusivity was located.",
+    "The issuer’s newer FY2025 annual report was checked but does not repeat the CPC supplier/exclusivity statement; that omission is not evidence of a change.",
+    "The issuer annual report’s 96.48% figure is CPC’s share of total net purchases, not a natural-gas-only purchase denominator. The exclusivity finding rests on the report’s separate express statement."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8908/1274/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000224",
+  "claim_id": "5283:objective_ranking_or_market_share:6faaf45e05c0640f",
+  "normalized_claim_hash": "6faaf45e05c0640f992e4bc94e52dff9a83022cbd98f35c6e4be7838e5ec6e90",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3c53f8a8e6ac49fe",
+      "title": "禾聯碩 上市前業績發表會簡報",
+      "url": "https://www.heran.com.tw/wp-content/uploads/%E7%A6%BE%E8%81%AF%E7%A2%A9-%E4%B8%8A%E5%B8%82%E5%89%8D%E6%A5%AD%E7%B8%BE%E7%99%BC%E8%A1%A8%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2017 market data",
+      "locator": "Slide 22,「市場概況－產業地位」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer presentation reports domestic LCD-display sales value of NT$13.507 billion, company sales value of NT$2.031 billion, market share 15.03%, and industry rank 1; it lists 16 well-known brands. The slide cites MOEA statistical reports and the home-appliance association. This is a historical sales-value measure, not current market data."
+    },
+    {
+      "source_id": "src-89cba907674e58e5",
+      "title": "禾聯碩年報（annual-report-114.pdf）",
+      "url": "https://www.heran.com.tw/wp-content/uploads/annual-report-114.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024 discussion and FY2025 outlook",
+      "locator": "「預期銷售數量及其依據」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer says LCD displays have long ranked near the top and maintained a certain market share, but provides no quantified share, denominator, or specific measurement period in this statement."
+    },
+    {
+      "source_id": "src-247a59acec088547",
+      "title": "HD-75QSF91 - 禾聯家電",
+      "url": "https://www.heran.com.tw/product/hd-75qsf91",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product features for model HD-75QSF91",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists 4K UHD 3840×2160 resolution and 4K HDR support."
+    },
+    {
+      "source_id": "src-117177543a150346",
+      "title": "HD-55YF7N7 - 禾聯家電",
+      "url": "https://www.heran.com.tw/product/hd-55yf7n7",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product features for model HD-55YF7N7",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the model as a 4K connected-TV series and lists built-in Netflix, YouTube, and Prime Video."
+    },
+    {
+      "source_id": "src-cd998bd3089c4f31",
+      "title": "58HYA-F1 - 禾聯家電",
+      "url": "https://www.heran.com.tw/product/58hya-f1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product features for model 58HYA-F1",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists 4K UHD 3840×2160 resolution and 4K HDR support."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢查公司官方簡報、年報及產品頁，並以聚焦搜尋查找較新的台灣電視市佔資料；找到的可量化官方市佔數字僅為2017年資料。未達8個研究回合即停止，因「極高」的期間、衡量口徑與門檻仍無法由現有來源確定。",
+    "2017 年市佔率數字來自公司簡報，衡量的是國內銷售值；簡報引用經濟部統計處生產統計月報及家電聯誼會，並非近年數據。",
+    "年報的近年市佔描述沒有數字、明確分母或具體期間，不能據此確認「極高」。",
+    "產品頁面是廠商自述的功能與規格，並非獨立畫質測試；頁面未提供出版日期。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5283/224/hermes-attempt-1.stdout.txt"
+}

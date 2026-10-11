@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001061",
+  "claim_id": "3714:material_named_relationship:07cd0f9ac46bc089",
+  "normalized_claim_hash": "07cd0f9ac46bc08926f313bcc24f0c9dc35c99374e4ce0cc5e657ed12dcf60c3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-49ecb91572528d8f",
+      "title": "Ennostar 2024 ESG Report",
+      "url": "https://www.ennostar.com/upfiles/ESG/2024_Sustainability_Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "About Ennostar, p. 10",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方報告描述集團聚焦於III-V族化合物半導體光電材料的技術發展與製造。"
+    },
+    {
+      "source_id": "src-1cc9d721edbbcba0",
+      "title": "《蘋果WWDC》客戶改款備貨，富采H2營運盼回神",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75780675-7ec0-4840-ab21-b211ca6e8b8a",
+      "source_level": 2,
+      "publication_date": "2023-06-01",
+      "effective_period": "2023",
+      "locator": "正文第4至5段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱富采是iPad背光Mini LED主要供應商，MacBook方面則與三安共同供貨；未提供供應份額或判定「主要」的數值分母。"
+    },
+    {
+      "source_id": "src-e4af73b383a9c19f",
+      "title": "三安光电打入“果链”，让谁紧张？",
+      "url": "https://web.csia.net.cn/newsinfo/7130715.html",
+      "source_level": 2,
+      "publication_date": "2024-05-06",
+      "effective_period": "主要回顧2021至2023年供應鏈情況",
+      "locator": "「苹果Mini LED供应新选择」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中國半導體行業協會文章稱三安進入Apple供應鏈，並轉述公開資料指Apple Mini LED晶片主要由富采旗下晶元光電供應；屬二手且歷史性描述，不能證明目前的主要供應商地位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索富采官方資料及多項供應鏈報導；可確認化合物半導體技術主張，但蘋果供應商主張只有歷史性、產品線限定的二手資料，無法據此確認未註明期間的現況。",
+    "Apple產品範圍需區分iPad與MacBook；已找到的歷史報導對兩者描述不同。",
+    "未找到可確認目前供應關係及「主要」供應商判定分母的直接官方披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3714/1061/hermes-attempt-1.stdout.txt"
+}

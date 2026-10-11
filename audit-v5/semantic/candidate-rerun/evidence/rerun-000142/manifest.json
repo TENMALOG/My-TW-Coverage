@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000142",
+  "claim_id": "3221:objective_ranking_or_market_share:1c545b7df1052ede",
+  "normalized_claim_hash": "1c545b7df1052ede6cec71d1149349eb25953430482c20da8475a5801252a883",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7777206ffc1a968d",
+      "title": "台灣嘉碩 2025 永續報告書 / TST ESG Report",
+      "url": "https://www.taisaw.com/assets/images/upload/TST_ESG_Report_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年報告所述",
+      "locator": "第9頁，國內市場競爭描述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方報告稱，在公開發行的SAW元件製造商中，除台嘉碩外，其他業者仍處開發導入階段或僅止於後段封裝；此證據的明確比較母體限於公開發行公司。"
+    },
+    {
+      "source_id": "src-4bb4ad6ba6f13304",
+      "title": "台灣嘉碩科技股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=38c9826f-c519-4f94-ae22-49e49b178e6c",
+      "source_level": 2,
+      "publication_date": "2026-09-04",
+      "effective_period": "公司成立背景；頁面標示更新至2026-09-04",
+      "locator": "「（一）公司簡介」→「沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "直接稱主要技術團隊來自摩托羅拉電子通訊零件事業部；資料標明由嘉實投顧提供。"
+    },
+    {
+      "source_id": "src-5112789d08db3947",
+      "title": "Tai-Saw Technology Co., Ltd. — Profile",
+      "url": "https://www.taisaw.com/profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司成立背景",
+      "locator": "公司沿革，1997年10月",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料稱公司由Motorola技術團隊創立，未在此頁明確指明電子通訊零件事業部。"
+    },
+    {
+      "source_id": "src-dfc44d241ec5413b",
+      "title": "Tai-Saw Technology Co., Ltd. — 關於嘉碩／經營理念",
+      "url": "https://www.taisaw.com/cn/mission",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面現行公司介紹；未標明適用起始日期",
+      "locator": "關於嘉碩，公司經營團隊介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱經營團隊涵蓋摩托羅拉通訊零件部門及其他科技產業人員；並非逐一說明核心技術團隊成員。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司官方網站與2025年永續報告、MoneyDJ公司資料及中央社相關報導；主要措辭已有直接二級來源支持，但市場唯一性缺少全台業者的官方或獨立完整盤點，依研究範圍停止並交由最終審查裁定。",
+    "「台灣唯一」的直接明確表述來自MoneyDJ所載嘉實投顧公司資料，屬二級來源；沒有找到涵蓋台灣所有業者的官方競爭者名冊或獨立市場盤點。",
+    "公司2025年永續報告提供的比較證據僅明確涉及公開發行公司，不應擴大解讀為對所有非公開發行業者的完整比較。",
+    "Motorola來源敘述獲公司官方資料部分佐證，但官方頁面分別使用「Motorola技術團隊」及「經營團隊涵蓋通訊零件部門人員」等表述，沒有逐人確認核心技術團隊的背景。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3221/142/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000799",
+  "claim_id": "1560:objective_ranking_or_market_share:06635179641a8d57",
+  "normalized_claim_hash": "06635179641a8d57263551327b90ca623dc65a15daa237833f4b5d39d5f9a8ce",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-aab2cf66c2b583fc",
+      "title": "中國砂輪企業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?title=%E4%B8%AD%E5%9C%8B%E7%A0%82%E8%BC%AA%E4%BC%81%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+      "source_level": 2,
+      "publication_date": "2026-07-31",
+      "effective_period": "客戶名單期間未註明",
+      "locator": "公司簡介／主要客戶",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出Intel為主要客戶；未註明產品線或供貨期間。"
+    },
+    {
+      "source_id": "src-d9722042e17aae0a",
+      "title": "台積電 3nm 製程重要供應商，鑽石碟大廠「中砂」展望分析",
+      "url": "https://vocus.cc/article/656bfa76fd8978000190f6de/",
+      "source_level": 2,
+      "publication_date": "2024-12-03",
+      "effective_period": "未明確限定",
+      "locator": "第46行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱鑽石碟近六成供應台積電，但未提供期間、分母或實物數據。"
+    },
+    {
+      "source_id": "src-03b67fd4ac18ad53",
+      "title": "KINIK 3Q25 法說會簡報",
+      "url": "https://www.kinik.com.tw/upload/Investors/Conference/2025Q3%20KINIK%20%E4%B8%AD%E7%A0%82%E5%85%AC%E5%8F%B8%E6%B3%95%E8%AA%AA%E6%9C%83.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 Q3",
+      "locator": "第8頁，國內外客戶鑽石碟營收百分比",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只披露匿名最大客戶的營收占比58.65%；不是出貨量比例，也未確認客戶身分。"
+    },
+    {
+      "source_id": "src-cfc1592142192910",
+      "title": "「磨」王既出‧誰與爭鋒 中國砂輪企業",
+      "url": "https://nspp.mofa.gov.tw/nspp/news.php?post=195332&unit=406",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "歷史合作；報導約為2021年",
+      "locator": "中砂再生晶圓客戶介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅提及「力晶」為歷史再生晶圓客戶；未明確確認力積電（PSMC）或其現行客戶身分。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7輪聚焦搜尋與查閱。其餘未解部分涉及官方未具名客戶、出貨量分母與期間，以及力積電的明確客戶身分；依規則保留為UNKNOWN。",
+    "官方法說資料將鑽石碟客戶以類別匿名揭露；所見最大單一客戶比例是營收占比，而非出貨量占比。",
+    "台積電最大客戶及近六成供應的具名說法來自二手分析，來源未清楚界定數據期間和計算分母。",
+    "聯電、Micron及Intel的二手客戶名單未指定產品線；較早的政府刊載報導將其置於再生晶圓客戶脈絡。",
+    "查得的「力晶」歷史客戶資料不足以確認力積電（PSMC）為客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1560/799/hermes-attempt-1.stdout.txt"
+}

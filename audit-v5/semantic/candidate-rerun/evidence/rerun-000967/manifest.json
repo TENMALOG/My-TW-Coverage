@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000967",
+  "claim_id": "3324:profitability_assertion:b0fb085043544429",
+  "normalized_claim_hash": "b0fb085043544429f650a4da08c65afa504ab845ba90dd640436aa91924b4070",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d625a9d297b83581",
+      "title": "Auras Technology 2024 Annual Report (Chinese)",
+      "url": "https://www.auras.com.tw/CMSFS/Shareholders/FinancialAnnualChinese/ed4475a3-db60-455c-9ce9-93699a2fe601.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024 results and FY2025 outlook",
+      "locator": "PDF p. 2, FY2024 results; PDF p. 3, high-performance VC outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Links overall margin improvement to product mix and several demand factors; says VC adoption may support ASP and profitability structure, but provides no VC-specific margin attribution. ([auras.com.tw](https://www.auras.com.tw/CMSFS/Shareholders/FinancialAnnualChinese/ed4475a3-db60-455c-9ce9-93699a2fe601.pdf))"
+    },
+    {
+      "source_id": "src-47260f4b92044edd",
+      "title": "Auras Technology, COMPUTEX 2025",
+      "url": "https://www.auras.com.tw/News/NewsContent/14-8",
+      "source_level": 3,
+      "publication_date": "2025-05-19",
+      "effective_period": "2025 product/technology disclosure",
+      "locator": "Section 4, “Spec Migration”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Company describes VGA VC adoption to improve cooling performance stability and thermal conductivity. ([auras.com.tw](https://www.auras.com.tw/News/NewsContent/14-8?utm_source=openai))"
+    },
+    {
+      "source_id": "src-8437a720f8d37709",
+      "title": "MoneyDJ, Auras FY2025 comprehensive income statement",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=16342f7b-7c24-4992-bbbf-e41bbb725623",
+      "source_level": 2,
+      "publication_date": "2026-03-03",
+      "effective_period": "FY2024 and FY2025",
+      "locator": "Income-statement table, revenue and gross-profit rows",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports consolidated gross margin of 25.52% in FY2024 and 27.38% in FY2025; cites Taiwan’s MOPS as data source. ([moneydj.com](https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=16342f7b-7c24-4992-bbbf-e41bbb725623))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司年報、公司技術公告及財務披露的聚焦查核；剩餘不確定點是VC對公司整體毛利率的具體因果貢獻，公開資料未提供產品級毛利或歸因拆分。",
+    "“散熱優勢”是公司對其產品能力的描述，未有獨立市場排名或比較數據佐證。",
+    "毛利率數據是公司整體合併口徑，以合併營收為分母，不是電競筆電、VGA或VC產品線的毛利率。",
+    "FY2024年報敘述將毛利率四捨五入為26%；MoneyDJ所列財報精確比例為25.52%。",
+    "官方FY2025年報下載連結在本次查詢中回傳404；FY2025毛利率數字引用MoneyDJ轉載的MOPS財報資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3324/967/hermes-attempt-1.stdout.txt"
+}

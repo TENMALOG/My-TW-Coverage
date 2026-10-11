@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000464",
+  "claim_id": "2642:objective_ranking_or_market_share:6cfd9d7f082d8b12",
+  "normalized_claim_hash": "6cfd9d7f082d8b123e573a27fc7e9b6e1fb9f4f83bcb2717568edf7bad9a05eb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-4184f0c22abce070376b",
+      "title": "台灣宅配通－品牌故事",
+      "url": "https://www.e-can.com.tw/aboutus_brand.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2000年成立；2000年7月28日起正式營運",
+      "locator": "「品牌故事」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網稱於2000年成立台灣第一家戶對戶宅配服務公司（C2C、B2C、C2B），並稱為台灣第一家提供戶對戶宅配服務公司。"
+    },
+    {
+      "source_id": "src-7c50a4bf0a2cee21e70b",
+      "title": "台灣宅配通－品牌故事",
+      "url": "https://www.e-can.com.tw/aboutus_brand.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2000年成立",
+      "locator": "「品牌故事」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "原文稱「秉持著東元集團」並「結合日本通運」的宅配服務技術know-how和經營經驗，於2000年成立。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "發行人官方品牌故事直接涵蓋歷史先行地位、成立年份及技術合作要點；已完成針對性查核，無未解原子主張。",
+    "直接支持兩項主張的主要來源是發行人官網；「台灣第一家」屬公司自述，缺少獨立的業者完整比較。",
+    "官網支持日本通運提供宅配技術know-how與經營經驗，但不足以單獨證明日本通運是法律上的共同創辦人或成立時股東。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2642/464/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "053a0ba485355f038bed6734c47a10633153c1ef6181beb512619f2af8e5ef43",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2642/464/isolated-prompt.txt",
+  "prompt_sha256": "c76424c01d3ec7d768ba9ed07c7f700f88da703a5a953d855122cfc7ca52b3e5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000464/manifest.json",
+  "supersedes_manifest_sha256": "033e77da1be7a2d89f64452e67d4f9c308ab96bc7c8fbff61484efbe183821b9",
+  "corrected_at": "2026-10-08T09:58:15Z"
+}

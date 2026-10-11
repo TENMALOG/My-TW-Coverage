@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001034",
+  "claim_id": "3338:material_named_relationship:f2a716d3ac6b0cbc",
+  "normalized_claim_hash": "f2a716d3ac6b0cbccdc75f80bc1ed1766778078c78420c8d9813b2dbf0c95683",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a69a1d43ac8e0567",
+      "title": "泰碩 3338：首次進入輝達背板的散熱公司，但獲利尚未改善（2026/07/20 法人說明會整理）",
+      "url": "https://vocus.cc/article/6a75db20fd897800011e9013",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026-07-20",
+      "locator": "法說會逐字稿中 RVL 問答段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手整理提到 RVL 是取得 ODM 信任的重要管道；未明確表示泰碩已取得 RVL 資格。"
+    },
+    {
+      "source_id": "src-dd8fedcbc017a134",
+      "title": "法人說明會 - 泰碩電子",
+      "url": "https://www.taisol.com/investor/shareholders/investor-conference/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-07-20 法人說明會",
+      "locator": "法人說明會資料表，2026 年場次",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面確認法說會日期；頁面本身未證實 RVL 資格。"
+    },
+    {
+      "source_id": "src-4b7cbf507df825fd",
+      "title": "泰碩電子股份有限公司民國107年度年報",
+      "url": "https://www.taisol.com/wp-content/uploads/Investor/AnnualReport_2018.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2018年度",
+      "locator": "致股東報告書，第6頁：直接供應浪潮、聯想、中興等中國客戶伺服器散熱模組",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司一手披露直接供應關係及產品類別。"
+    },
+    {
+      "source_id": "src-644bf1152c3e8716",
+      "title": "陸車客戶自駕系統上路，泰碩Q2起車用增溫",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=a3f3ae81-f4bb-43c0-89ab-5333bab22de6",
+      "source_level": 2,
+      "publication_date": "2025-02-13",
+      "effective_period": "2024年度伺服器應用營收",
+      "locator": "首段及伺服器營運段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱泰碩已打入陸系大廠供應鏈；未具名客戶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已在研究回合限制內查閱公司年報、官方法說會頁面及相關報導；RVL 資格仍缺少一手確認。官方2026年法說會PDF的直接開啟回傳內部錯誤，二手逐字稿不足以確認該資格。",
+    "2018年年報支持的是截至該年度的披露，不能據此推定供應關係延續至今。",
+    "台系供應鏈的2024年營收關聯來自二手報導，未具名客戶，也未說明直接或間接供貨。",
+    "RVL 資格與出現在 NVIDIA 合作、生態系或活動名單並非同一項主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3338/1034/hermes-attempt-1.stdout.txt"
+}

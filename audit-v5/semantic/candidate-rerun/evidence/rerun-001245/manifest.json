@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001245",
+  "claim_id": "2034:material_named_relationship:046bc996fc30f235",
+  "normalized_claim_hash": "046bc996fc30f2356c0ceff39cf313720145dd83591a218976657e9c5c4b2205",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-90ecc1e4ecda02c6",
+      "title": "《DJ在線》陸鋼品雙反調查逆轉，不鏽鋼業者樂觀其成",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=500022e0-1536-4202-9d7c-b17ec98edc31",
+      "source_level": 2,
+      "publication_date": "2019-09-17",
+      "effective_period": "報導描述允強及彰源當時的國內原料供應情形；原始統計期間未說明。",
+      "locator": "第38行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "可區分報導所述公司：允強的主要國內來源為燁聯、唐榮；華新麗華出現在彰源供應商敘述中。"
+    },
+    {
+      "source_id": "src-d45ff54310906bdc",
+      "title": "代理服務",
+      "url": "https://www.walsin.com/our-business/resources-business/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網站現行內容；未標示生效起日或允強交易期間。",
+      "locator": "「代理服務」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "華新麗華說明其進口印尼青山產品並在台銷售予國內鋼廠，但未點名允強。"
+    },
+    {
+      "source_id": "src-1a6f6696e119407e",
+      "title": "華新代理青山在台不鏽鋼料業務，同業表疑慮",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=b8bb1ac2-4fa5-4a3d-9da7-767e13dfe5ba",
+      "source_level": 2,
+      "publication_date": "2020-05-27",
+      "effective_period": "報導描述2020年台灣青山產品代理及進口市場情況。",
+      "locator": "報導正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供市場及代理背景，未證明允強是買方。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "聚焦檢索及可取得的官方、監管與媒體資料未能補足華新麗華或印尼青山與允強之直接關係；最新官方年報下載在本次工具請求中逾時或回傳404。未將產業市場資訊替代為公司特定採購證據。",
+    "找到的允強具名供應商證據是2019年的二手媒體報導，不能外推為目前供應關係。",
+    "該報導所述約五成進口占比沒有明確分母、單位或原始統計期間。",
+    "允強官方投資人頁面列有年度報告，但本次官方年報頁面請求逾時；TWSE所鏈接年報PDF請求回傳404，故未能以年報核實較近期供應商。",
+    "華新麗華官方頁面可證明其代理青山產品在台銷售，不足以證明允強是其客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2034/1245/hermes-attempt-1.stdout.txt"
+}

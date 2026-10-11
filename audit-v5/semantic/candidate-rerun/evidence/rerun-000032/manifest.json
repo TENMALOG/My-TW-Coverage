@@ -1,0 +1,62 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000032",
+  "claim_id": "1521:objective_ranking_or_market_share:b0344d1922014380",
+  "normalized_claim_hash": "b0344d1922014380274da1d2e808148008ddae47291dd07ef5f7ce218ba8ccf4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "tayih-business-philosophy",
+      "title": "大億交通：經營理念與願景",
+      "url": "https://www.tayih-ind.com.tw/aboutus/%E7%B6%93%E7%87%9F%E7%90%86%E5%BF%B5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司現行網站頁面，截至2026-10-06查閱；頁尾著作權年份為2023，頁內市占數據沒有標示統計年度。",
+      "locator": "第82行稱公司為國內市場佔有率72%的OEM車燈專業廠；第98至104行圖文標示「國內OEM市場 72% 市佔率 全台第一」。",
+      "source_sha256": "65e8a8e98c39af03596eef4e6d7cd98a50a32e27618c081b6e0a560e9d51db56",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1521/32/tayih-business-philosophy.html",
+      "note": "發行人公開頁支持72%作為公司所刊載的數字，但沒有統計期間、分母、資料來源或計算方法。"
+    },
+    {
+      "source_id": "tayih-2025-annual-report",
+      "title": "大億交通工業製造股份有限公司114年度年報",
+      "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2025.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04",
+      "effective_period": "民國114年度（2025）。",
+      "locator": "年報印刷頁53（PDF第57頁）「市場及產銷概況」稱本公司以OEM客戶為主要合作對象，並載「市場佔有率：國內約為80%」。",
+      "source_sha256": "bf5ef2aea761e3b083e64f2f35911b9669241edee1e180534db81d01634744e3",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1521/32/tayih-2025-annual-report.pdf",
+      "note": "發行人最新年度年報自述；未明確列出市場分母或第三方統計方法，且約80%與官網未註年的72%不同。"
+    },
+    {
+      "source_id": "tayih-2024-annual-report",
+      "title": "大億交通工業製造股份有限公司113年度年報",
+      "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2024.pdf",
+      "source_level": 3,
+      "publication_date": "2025",
+      "effective_period": "民國113年度（2024）。",
+      "locator": "市場分析段落稱公司主要以OEM客戶合作，國內市場占有率約80%。",
+      "source_sha256": "71f5f27c947df00616dd94401dfc82474d9d2d6366ab8ecaa02c71164cc54e8d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1521/32/tayih-2024-annual-report.pdf",
+      "note": "與2025年報同樣自述約80%；未解釋官網72%頁的統計期間或口徑。"
+    },
+    {
+      "source_id": "tayih-2023-annual-report",
+      "title": "大億交通工業製造股份有限公司112年度年報",
+      "url": "https://www.tayih-ind.com.tw/upload-files/pdf/annual_report/annual_report2023.pdf",
+      "source_level": 3,
+      "publication_date": "2024",
+      "effective_period": "民國112年度（2023）。",
+      "locator": "市場分析段落載「市場佔有率：國內為80%」。",
+      "source_sha256": "fac8e4b1c8a08690e23d8cca87d77cd7e68f95a4b30a77f50179167780b0c493",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1521/32/tayih-2023-annual-report.pdf",
+      "note": "較早年度年報同樣自述80%，有助於確認80%為年報連續使用之說法，仍屬發行人自述。"
+    }
+  ],
+  "search_notes": [
+    "先查公司官網的72%市占說法，再核對2023、2024、2025三份發行人年報。",
+    "年報說公司以OEM客戶為主要合作對象；公司網站將72%界定為國內OEM車燈市場，但都沒有提供細分分母、樣本或計算方式。",
+    "三份年報一致自述80%／約80%，與無統計年度的官網72%不一致；不把一個數字當成外部獨立驗證。"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000245",
+  "claim_id": "3484:objective_ranking_or_market_share:277360a2dcd0bf7c",
+  "normalized_claim_hash": "277360a2dcd0bf7ce625ba964556cb3c802849c9b42e09663f47e30de1835b29",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-80cdc123295653cc739b",
+      "title": "存股助理第230期︱Makita歐洲市場遇逆風，崧騰後市分析",
+      "url": "https://www.businesstoday.com.tw/subscription_catalog/category/201856/post/202210030030/",
+      "source_level": 2,
+      "publication_date": "2022-10-03",
+      "effective_period": "Described as current on the publication date; underlying revenue period unspecified",
+      "locator": "Article body, opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly calls Makita 崧騰's largest customer and attributes about 70% of revenue to Makita."
+    },
+    {
+      "source_id": "src-38b869174832c91ba562",
+      "title": "一一三年度 年報",
+      "url": "https://www.solteam.com.tw/download/%E5%B4%A7%E9%A8%B0-114%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-OK.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-16",
+      "effective_period": "FY2024 and recent-period information included in the report",
+      "locator": "肆、營運概況; table of major sales customers and note on coded customer names",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official disclosure; it permits coded names when contract terms prevent disclosure and does not establish that a coded customer is Makita."
+    },
+    {
+      "source_id": "src-1c95f506dca20f881a5d",
+      "title": "模具設計成競爭力 模組整合是成長焦點",
+      "url": "https://www.cmoney.tw/forum/article/174007174",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening section labeled 法說會摘要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Makita is the largest customer, but the page provides no clear publication date or precise period for that assertion."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused review of official issuer disclosure and dated secondary reporting found historical support but no current, period-specific official identification of the largest customer as Makita.",
+    "The dated secondary report supports a historical assertion, but does not specify the underlying revenue period or accounting basis.",
+    "崧騰's official annual report permits customer-name codes where contract terms restrict disclosure; the reviewed report does not identify Makita as the coded customer.",
+    "The undated CMoney forum summary is not sufficient to resolve the latest-period claim."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3484/245/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "44b90c787e4d0ddb18aa6e38d76d49b15df2821b3d3debf3ce32f1499f9655b5",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3484/245/isolated-prompt.txt",
+  "prompt_sha256": "995359816a8b67e6219b4ad603a4b065057257f950cf83a59a8b76b013baa077",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000245/manifest.json",
+  "supersedes_manifest_sha256": "751ab053a2c03a404610ea3657cca4968eda74297d24530f3c4f06c9f943ef54",
+  "corrected_at": "2026-10-08T09:57:57Z"
+}

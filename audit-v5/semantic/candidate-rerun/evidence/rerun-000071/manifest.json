@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000071",
+  "claim_id": "4581:objective_ranking_or_market_share:73abdc91543dcce2",
+  "normalized_claim_hash": "73abdc91543dcce2c7730bd88e5445109107f01e487fa8fbd0150978ce6ee75b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-57cb3b771e4e991c",
+      "title": "【法說會摘要】商用卡車前景：光隆精密(4581)營運隨北美客戶穩定增長",
+      "url": "https://uanalyze.com.tw/articles/268446165",
+      "source_level": 2,
+      "publication_date": "2024-08-28",
+      "effective_period": null,
+      "locator": "Paragraph beginning “北美前四大卡車廠都是客戶…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports TRATON at 10%; no measurement period, truck-class scope, or denominator is supplied."
+    },
+    {
+      "source_id": "src-723bcb04785fee64",
+      "title": "About World Known Precision Industry",
+      "url": "https://tw.wkgroup.com/en/about-categories/about-wkpt",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Paragraph beginning “WKPT precision CNC metal machining products are sold…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls Cummins the world's largest diesel-engine manufacturer; this does not establish a North America-specific ranking or its denominator."
+    },
+    {
+      "source_id": "src-fe8f93429872ecd3",
+      "title": "2024 Annual Strategy Dossier of North America's Class 6-8 Truck Top 4 Truck Manufacturers",
+      "url": "https://www.businesswire.com/news/home/20240702704511/en/2024-Annual-Strategy-Dossier-of-North-Americas-Class-6-8-Truck-Top-4-Truck-Manufacturers---Daimler-DTNA-Volvo-VTNA-PACCAR-Navistar-Traton---ResearchAndMarkets.com",
+      "source_level": 2,
+      "publication_date": "2024-07-02",
+      "effective_period": "2024 dossier; references North American Class 6–8 trucks.",
+      "locator": "Headline and opening description naming Daimler, Volvo, PACCAR, and Navistar (Traton).",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports the set as top-four manufacturers for the stated Class 6–8 scope, not the company's customer relationships."
+    },
+    {
+      "source_id": "src-c503f2743133458f",
+      "title": "Automotive & Commercial Vehicle Parts Manufacturer | Powertrain & Chassis | WKPT",
+      "url": "https://tw.wkgroup.com/en/industry-categories/transportation",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Advantage / customer section.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer page names Cummins, Navistar, Haldex, and Volvo; it does not independently confirm Daimler, PACCAR, or TRATON as customers."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found secondary reporting for the customer and OEM claims, but no primary source establishing the claimed indirect component-flow path or market-share figures with a defined period and denominator. Remaining scope gaps are marked UNKNOWN.",
+    "The most specific evidence for Cummins's customer ranking, the four OEM customer relationships, and their market-share figures is secondary reporting, not an issuer filing or a primary customer-level disclosure.",
+    "The issuer's website identifies Cummins as a main customer and calls it the world's largest diesel-engine manufacturer, but does not establish Cummins's North America-specific leadership or its rank among the issuer's customers.",
+    "The 2024 article does not state the period, truck class, or denominator underlying the 30%, 20%, and 10% figures. A separate North American Class 6–8 top-four report confirms a relevant manufacturer set but cannot validate those percentages."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4581/71/hermes-attempt-1.stdout.txt"
+}

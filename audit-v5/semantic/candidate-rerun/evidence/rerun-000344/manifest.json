@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000344",
+  "claim_id": "8046:objective_ranking_or_market_share:b6b6b05ab39bd5c8",
+  "normalized_claim_hash": "b6b6b05ab39bd5c86f535b9df27562556ca5ea1c25c42d55fc4158a0edc9aee9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-430edc36e5a1a232",
+      "title": "公司簡介（南亞電路板官網）",
+      "url": "https://www.nanyapcb.com.tw/nypcb/Chinese/AboutNanYaPCB/CompanyProfile/Company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行公司資料；頁面未明示起始日",
+      "locator": "公司簡介，「經營項目」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出傳統 PCB、HDI、Rigid-Flex、ABF 載板及 PP 載板等經營項目。"
+    },
+    {
+      "source_id": "src-b69a9bc69cacee1b",
+      "title": "2024 Q1 Operation Briefing of Nan Ya PCB Corp.",
+      "url": "https://www.nanyapcb.com.tw/nypcb/images/InvestorRelations/FinancialReport/NYPCB%20ENG%2020240423.pdf",
+      "source_level": 3,
+      "publication_date": "2024-05-28",
+      "effective_period": "2024 Q1 實績及當時產品開發方向",
+      "locator": "投影片 9「ABF Substrate」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出 4nm AI PC processors 等 ABF 開發項目；未將其明確標示為已出貨的高階 CPU 載板。"
+    },
+    {
+      "source_id": "src-1a9fd5bebfd72d65",
+      "title": "2024年營運概況（南亞電路板）",
+      "url": "https://www.nanyapcb.com.tw/nypcb/images/InvestorRelations/FinancialReport/NYPCBCH20250219.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-12",
+      "effective_period": "2024 年實績及 2025 年產品發展方向",
+      "locator": "投影片 9「ABF載板」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出 AI PC 處理器及數據中心處理器的應用載板開發方向；未披露實際採用或出貨。"
+    },
+    {
+      "source_id": "src-3c5aef5d93530792",
+      "title": "2025 Operation Briefing of Nan Ya PCB Corp.",
+      "url": "https://www.nanyapcb.com.tw/nypcb/images/InvestorRelations/FinancialReport/NYPCBENG20260316.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-17",
+      "effective_period": "2025 年實績",
+      "locator": "投影片 3「Consolidated Revenues」及投影片 8「Revenue Structure (By Applications)」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "營收說明列出多項高階應用需求，未按成長動能或收入貢獻排序，也未披露 AI 伺服器專屬的分母或數值。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核南電官方公司簡介及多期官方營運簡報。剩餘的實際封裝採用、網通 ASIC 對應關係與「最大」動能排名，官方披露未提供足以核實的範圍、期間或分母；依合約將其保留為 UNKNOWN。",
+    "公司產品開發方向或前瞻性陳述不等同於已量產、出貨或客戶實際採用。",
+    "2025 年營收成長披露涵蓋多種應用，沒有 ABF 專屬的 AI 伺服器收入分母或成長貢獻拆分。",
+    "官方資料未為「需求爆發」提供特定市場、期間、量化指標或比較基準，也未對各成長動能作排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8046/344/hermes-attempt-1.stdout.txt"
+}

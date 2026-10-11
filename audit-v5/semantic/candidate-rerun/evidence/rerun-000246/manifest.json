@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000246",
+  "claim_id": "3501:objective_ranking_or_market_share:96a8139850c775d5",
+  "normalized_claim_hash": "96a8139850c775d51b71fe8921429396194b91abb5e969938ff5530f4cfd12c0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-245d6c1a4553cf2e",
+      "title": "維熹(3501) 2025Q4法說會簡報PDF下載 | 12月3日法人說明會",
+      "url": "https://finmoconf.diveinvest.net/presentation/69303903bab52fb5c8d603e1",
+      "source_level": 2,
+      "publication_date": "2025-12-03",
+      "effective_period": "2024全年",
+      "locator": "搜尋結果所列「五年度銷售分析」表格；家電類2024銷售比率44.64%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "表格列的是應用類別銷售比率，未提供家電電源線單一產品的營收或其在總營收中的占比。"
+    },
+    {
+      "source_id": "src-93dd56e0ca0da782",
+      "title": "產品介紹－維熹科技股份有限公司",
+      "url": "https://www.wellshin.com.tw/mod/product/index.php?REQUEST_ID=46889a3a0a28b9acb1acb693ab864c4c&cls=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "搜尋結果摘要：產品應用涵蓋家用電器、資通訊3C等領域",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持3C為應用領域，但未證實「3C電子線材」這一具體產品描述。"
+    },
+    {
+      "source_id": "src-b82016f72a3faf06",
+      "title": "EV 電動車連接器 (Electric Vehicle Connector)－維熹科技股份有限公司",
+      "url": "https://www.wellshin.com.tw/m/mod/product/index.php?REQUEST_ID=4dae209baac8dd65d87eb19319e460e7a1fda3bf0eaa230d78b70f1b779cea24",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "搜尋結果所列產品描述：「中國電動車(EV)充電站專用充電槍」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方網站產品目錄；未提供產品發布或銷售期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達最多8個聚焦研究回合；仍未取得能確認3C電子線材、電動車充電線及家電電源線單品營收排名的可靠證據，未以應用類別或相近產品替代。",
+    "家電類的銷售占比是應用類別層級，不可替代家電電源線單一產品的營收占比。",
+    "法說會簡報的產品分類與銷售比率資料來自次級網站呈現；未能直接核對官方簡報原件。",
+    "官方網站產品頁未標示發布日期或適用期間；產品列示本身不證明特定期間的銷售規模。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3501/246/hermes-attempt-1.stdout.txt"
+}

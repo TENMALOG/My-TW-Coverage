@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000551",
+  "claim_id": "2351:objective_ranking_or_market_share:33136b7be916bb4a",
+  "normalized_claim_hash": "33136b7be916bb4a8f5c9fb9f9bb0625465f9bc079ad9a8e7a621248941d7d7d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2c71762215e8bc9b",
+      "title": "SDI Corporation 2024 Sustainability Report",
+      "url": "https://www.sdi.com.tw/upload/socialen/2509231502190000002.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "Section 1.1, About SDI, PDF p. 7",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將自身描述為高功率及能源管理導線架的領先製造商；「領先」未明確等同全球第一或最大。"
+    },
+    {
+      "source_id": "src-1156b1796de6303c",
+      "title": "SDI Corporation (2351:TT SDI), investor presentation",
+      "url": "https://doc.twse.com.tw/nas/STR/235120251111E001.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "SEMI資料截至2020年4月",
+      "locator": "Slide 3, Power Market Position",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報列出全球功率導線架市場US$733M、順德16.9%市佔率，次位Jihlin為13%；數據來源標為SEMI Industry Research and Statistics, April 2020。簡報未提供可確認目前排名的更新資料；原始SEMI研究未取得。"
+    },
+    {
+      "source_id": "src-6a9ee712a382d5e5",
+      "title": "SDI Corporation 2023 Sustainability Report",
+      "url": "https://www.sdi.com.tw/upload/socialen/2411011511480000002.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023-01-01 to 2023-12-31",
+      "locator": "Section 1.1, About SDI",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為 power and separation-type lead frames 的 leading manufacturer；未提供分離式導線架的第一名或最大製造商排名依據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱順德2024年永續報告、歷年產品與市場資料及投資人簡報，並針對當期功率導線架排名及分離式導線架排名進行定向檢索。可核實的功率導線架市佔率資料仍是2020年資料，且未找到分離式導線架的量化排名；依限制不以舊年度資料替代未限定期間的主張，未解部分保留UNKNOWN。",
+    "全球前五大及「領先製造商」表述來自公司自己的永續報告，報告未交代排名方法或完整市場分母。",
+    "功率導線架第一名的可量化資料是公司簡報轉述的SEMI 2020年資料，不是當期排名；簡報以市場規模及市佔率呈現，但未取得原始SEMI研究。",
+    "未找到分離式導線架全球第一或最大的獨立排名證據；「領先」不足以證明「最大」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2351/551/hermes-attempt-1.stdout.txt"
+}

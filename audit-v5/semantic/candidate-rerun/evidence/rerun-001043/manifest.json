@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001043",
+  "claim_id": "3585:material_named_relationship:2d0031cdad644303",
+  "normalized_claim_hash": "2d0031cdad6443034ec3cbe00b7faa4d7fc81cb3658d49751520d00c7bb32154",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5ed2e519bb18a3f3",
+      "title": "聯致科技股份有限公司113年度年報",
+      "url": "https://www.amcorp.com.tw/fininfo/Annual%20Report113.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-22",
+      "effective_period": "2024-01-01至2024-12-31",
+      "locator": "印刷頁37及頁40",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "分別披露接著層研發方向及欣興電子銷貨總額，未建立特定材料與客戶銷貨之連結。"
+    },
+    {
+      "source_id": "src-f6ce16c658fedf31",
+      "title": "聯致（3585）年報查詢，轉載114年度致股東報告",
+      "url": "https://treelazy.com/stock/3585",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度營運回顧；2026年度計畫",
+      "locator": "114年度致股東報告，經營方針及未來發展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及拓展新客戶、推廣玻璃基板化學品材料，以及投入AI運算所需材料；未披露頂級AI晶片客戶或其供應鏈資格。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成允許範圍內的聚焦查核；最新年度年報PDF擷取受工具逾時限制。未解決的產品別供貨與AI終端客戶／供應鏈資格問題保留為UNKNOWN。",
+    "2024年度主要客戶銷貨金額是總產品口徑，沒有產品別或用途別拆分。",
+    "聯致114年度年報的公開資訊觀測站下載頁已找到，但PDF擷取逾時；最新年度內容以第三方年報文字轉載為準，故來源等級列為2。",
+    "未找到能確認特定AI晶片終端客戶、間接供應關係、認證或訂單的可靠披露；這使該前景主張維持UNKNOWN，不代表已證明其不可能。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3585/1043/hermes-attempt-1.stdout.txt"
+}

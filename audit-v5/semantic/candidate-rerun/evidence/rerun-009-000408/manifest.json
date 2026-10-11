@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000408",
+  "claim_id": "1810:objective_ranking_or_market_share:51ab5ce5d9716cb5",
+  "normalized_claim_hash": "51ab5ce5d9716cb51e4eca9ce26b6c96459511e5a4466088897f2e74a2e71f8d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-392bd5390d211bb157df",
+      "title": "從衛浴到國防軍事 和成屢創新機",
+      "url": "https://www.ieatpe.org.tw/magazine/ebook378/enterprise.html",
+      "source_level": 2,
+      "publication_date": "2022-12",
+      "effective_period": "Described as current in the December 2022 article; exact measurement period not stated.",
+      "locator": "Closing section, paragraph beginning「和成的勇氣不僅用於開發新產品」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Taipei Importers and Exporters Association magazine reports that HCG was the local first-ranked sanitary-ware brand. No percentage or market-share denominator is supplied."
+    },
+    {
+      "source_id": "src-e5d81b1bf66c429d5166",
+      "title": "企業轉型70%失敗率下的逆襲！HCG和成如何以「陶瓷DNA」華麗轉身？",
+      "url": "https://www.businessweekly.com.tw/business/indep/1005725",
+      "source_level": 2,
+      "publication_date": "2025-07-10",
+      "effective_period": "As reported in the July 2025 feature; exact underlying measurement period not stated.",
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The feature, marked「Powered by HCG和成」, describes HCG as first in sales in the Philippines and states approximately 50% local market share. Sponsored content; market denominator and methodology are not specified."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "經七輪聚焦查找，菲律賓排名有可核驗報導支持；台灣與中國排名仍缺可靠來源對應的期間、衛浴市場定義及分母，依任務要求保留為UNKNOWN並停止。",
+    "台灣第二及中國第四的相關搜尋結果未能由可讀取的來源正文核驗，因此未將搜尋摘要當作證據。",
+    "菲律賓來源未提供一致的市場範圍、分母或排名方法；2025年報導為和成贊助內容，所報約五成市佔未附計算依據。",
+    "菲律賓證據支持報導所述時點的排名，不足以證明排名在其他未指明期間持續不變。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1810/408/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "61c929053df4f225122843117a13889390f9a1858ed8c7ad413057550a5feff1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1810/408/isolated-prompt.txt",
+  "prompt_sha256": "e367c67ed5b2c2d2677ed97980424c09d3d10988a4cd85e9aa841a813f38744c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000408/manifest.json",
+  "supersedes_manifest_sha256": "57beaa010f0697d3e1e9a22a48fa6f978b4cd20e47af3b187e91a0db76c76e87",
+  "corrected_at": "2026-10-08T09:58:10Z"
+}

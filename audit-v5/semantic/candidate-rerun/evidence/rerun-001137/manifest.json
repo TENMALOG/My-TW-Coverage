@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001137",
+  "claim_id": "3085:identity_changing_event:cbc12ace2547a854",
+  "normalized_claim_hash": "cbc12ace2547a8547fcead69e725c1a963f21eb9d34a1d89d06eb0a22b6a91a7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-eab9c703ef7513a8",
+      "title": "台鋼新零售股份有限公司及其子公司 2025 Q2 consolidated financial statements",
+      "url": "https://www.newretail.com.tw/wp-content/uploads/2025/08/%E6%96%B0%E9%9B%B6%E5%94%AE114Q2-%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1_final_compressed.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "June 5, 2025",
+      "locator": "Company history note",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer filing states the company changed its name on June 5, 2025."
+    },
+    {
+      "source_id": "src-ed074266fe2f78c6",
+      "title": "Ministry of Economic Affairs company registry: 台鋼新零售股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/89836340",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current registry record",
+      "locator": "Company information and securities code fields",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Registry search result associates company code 3085 with 新零售."
+    },
+    {
+      "source_id": "src-64881d1fff485e21",
+      "title": "台鋼新零售 official site, About Us",
+      "url": "https://www.newretail.com.tw/%E9%97%9C%E6%96%BC%E5%8F%B0%E9%8B%BC%E6%96%B0%E9%9B%B6%E5%94%AE/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current issuer description",
+      "locator": "About Us, lines 85–95",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Current description covers group retail support, e-commerce platforms, retail systems, and services; it does not characterize the overall business as B2C apparel e-commerce."
+    },
+    {
+      "source_id": "src-3afc927dd2cda0aa",
+      "title": "創新新零售股份有限公司及子公司 2025 Q1 consolidated financial statements",
+      "url": "https://www.newretail.com.tw/wp-content/uploads/2025/08/%E6%96%B0%E9%9B%B6%E5%94%AE114Q1-%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1_final_compressed.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "January 1–March 31, 2025",
+      "locator": "Note 14, Operating segments, PDF page 32",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The e-commerce platform segment's principal activity is e-commerce apparel sales."
+    },
+    {
+      "source_id": "src-8574e235e9fde4bd",
+      "title": "創新新零售 2024 shareholder-meeting minutes",
+      "url": "https://www.newretail.com.tw/wp-content/uploads/2025/02/%E5%89%B5%E6%96%B0113%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84-1130702%E4%B8%8A%E5%82%B3.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 shareholder-meeting materials",
+      "locator": "Business description quoted in the meeting materials",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Historical issuer-hosted material calls the company a B2C apparel e-commerce company; it does not alone verify that characterization for the later/current period."
+    },
+    {
+      "source_id": "src-9f5330984b5c5c2b",
+      "title": "MoneyDJ, notice of company name change",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0b477428-b61e-4fcb-8d5d-0b72d0ce0e9d",
+      "source_level": 2,
+      "publication_date": "2025-06-09",
+      "effective_period": "Approval and name change dated June 5–6, 2025",
+      "locator": "Republished MOPS material, paragraphs 34–56",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reproduces the issuer's major-information notice: former name, new name, approval date, and unchanged ticker 3085."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found primary issuer and registry evidence for the corporate identity, group affiliation, apparel e-commerce segment, prior name, and 2025 name change. Current-period evidence did not fully establish the B2C apparel-e-commerce characterization, so that atom remains UNKNOWN.",
+    "Group affiliation is supported by the issuer's own description; the cited page does not specify ownership percentage.",
+    "The B2C apparel-e-commerce label appears in 2024 issuer-hosted material, while the 2025 Q1 filing confirms an apparel e-commerce segment but not the current B2C designation.",
+    "The company’s current issuer description includes broader retail and information-services activities, so the narrower B2C apparel identity should not be inferred from the apparel segment alone."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3085/1137/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000210",
+  "claim_id": "1435:objective_ranking_or_market_share:3716d349ab2a4699",
+  "normalized_claim_hash": "3716d349ab2a4699cec33be520968d1172a8941a77d00758752934598fee1464",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-99cb6d73b335bda8",
+      "title": "中福董事會決議以公開標售方式處分桃園市中壢區中壢廠全部土地及廠房",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=cb8e17b7-1edc-4af2-a61f-1dd5a8142bf1",
+      "source_level": 2,
+      "publication_date": "2025-03-15",
+      "effective_period": "董事會決議日2025-03-15",
+      "locator": "公告第1、5(1)-(3)項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ轉載公開資訊觀測站重大訊息；記載董事會授權董事長簽約委託第一太平戴維斯辦理中壢廠土地及廠房公開標售。"
+    },
+    {
+      "source_id": "src-417ca010728bc137",
+      "title": "中福擬展延委託第一太平戴維斯以公開標售處分桃園市中壢區中壢廠全部土地及廠房之契約",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=4954b670-ad57-4e09-9a7a-a988b4183e32",
+      "source_level": 2,
+      "publication_date": "2026-03-13",
+      "effective_period": "2026-03-13公告；提及原委託及展延",
+      "locator": "公告第1、5(1)-(3)項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公開資訊觀測站重大訊息轉載；提及既有委託契約及展延，並說明原處分標的與第一太平戴維斯受託事宜。"
+    },
+    {
+      "source_id": "src-f9794f01e8e38686",
+      "title": "價值和風險評估",
+      "url": "https://www.jll.com/zh-tw/services/value-risk",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "服務頁標題及服務說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅證明一般服務能力，無法確認中福資產的特定估價工作。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行針對中福、第一太平戴維斯及仲量聯行的公告與服務資料搜尋；第一太平戴維斯的標售委託有公告轉載佐證，但未找到可核實的JLL中福特定資產估價證據，該部分維持UNKNOWN。",
+    "第一太平戴維斯委託資訊由MoneyDJ轉載公開資訊觀測站公告；此處未取得可核對的原始MOPS頁面。",
+    "JLL官方服務頁面只證明一般服務能力，不證明對中福或特定資產的委託。",
+    "提供的 claim 片段未列排名、市占率、比較市場、期間或分母，不能據此驗證任何排名或市占主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1435/210/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000117",
+  "claim_id": "6023:objective_ranking_or_market_share:cec62e122390ab9a",
+  "normalized_claim_hash": "cec62e122390ab9ab7396ea1af0cb64c352f2d0637fd78c561125684fce350f3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6c9110b183f4e8d6",
+      "title": "元大期貨 - 元大金控",
+      "url": "https://www.yuanta.com/Yuanta-Group/Futures",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "元大期貨介紹段稱長年穩居業界十冠王，並列出多項排名指標。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方概括性自述；未列各指標的連續排名年度、方法或比較母體。"
+    },
+    {
+      "source_id": "src-ff6e5bc3500a525f",
+      "title": "元大期貨營運成果豐碩 深耕台灣放眼亞太",
+      "url": "https://www.yuanta.com/TW/News-and-Media/Press-Releases/Detail?id=c278b201-5bd8-4900-96e9-acbf1b9e4bee",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度（民國112年度）",
+      "locator": "第一、二段，列出2023年度稅後淨利及市場排名自述。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "單年度公司新聞稿，無法證明長年連續第一。"
+    },
+    {
+      "source_id": "src-c7638c43ec7d037d",
+      "title": "元大期營運動能穩健 獲利位居專營期貨商第一",
+      "url": "https://www.yuanta.com/TW/News-and-Media/Press-Releases/Detail?id=539bae7c-8b96-48e7-ba7c-5c467aebdcb5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年度（民國111年度）",
+      "locator": "第二段，稱全年稅後淨利新臺幣11.45億元，領先全台14家專營期貨商。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持2022年度稅後淨利排名的公司自述，不支持未定義獲利指標的長期連續排名。"
+    },
+    {
+      "source_id": "src-bf7a821bea7dc32a",
+      "title": "臺灣期貨交易所－期貨商每股稅前盈餘統計表",
+      "url": "https://www.taifex.com.tw/cht/8/epsBeforeTax",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026年1月至8月",
+      "locator": "2026/08表格，元大期貨（F021）累計每股稅前盈餘3.31元，列第6。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方統計、單位元/股；依每股稅前盈餘排序，並包含證券商等表列機構。此非原 claim 明確指定的獲利口徑或比較母體，僅顯示指標選擇會影響排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合。找到官方公司概括自述、2022及2023年度新聞稿，以及期交所獲利指標統計；仍缺各項指標一致口徑的多年排名資料、明確市場範圍及比較分母，因此未將未解部分推定為成立或不成立。",
+    "元大金控與元大期貨官方頁面屬第一手來源，但排名敘述未附完整比較數據或可重算方法。",
+    "2022及2023年度新聞稿只支持所述年度的公司排名自述，不能替代多年連續排名序列。",
+    "「獲利」可能指稅前、稅後或每股獲利；期交所2026年每股稅前盈餘統計的期間與比較母體，不能直接等同原 claim 的泛稱獲利。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6023/117/hermes-attempt-1.stdout.txt"
+}

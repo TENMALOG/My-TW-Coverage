@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000337",
+  "claim_id": "6673:objective_ranking_or_market_share:e881d11eadac0b96",
+  "normalized_claim_hash": "e881d11eadac0b964611a1e07d500ad2da9a3ab9ac60eb6a1819cb1eb6895978",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7d30b5a3e45d5efb",
+      "title": "和詮科技股份有限公司 114年度年報",
+      "url": "https://iftc.com.tw/reports/annual_2025_Annual.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-20",
+      "effective_period": "2025 fiscal year; address stated in annual report printed 2026-04-20",
+      "locator": "Front matter, section 二、總公司、分公司、工廠之地址及電話",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists the head office as 高雄市前鎮區新生路248-20號1樓."
+    },
+    {
+      "source_id": "src-0d2e81eee7e63d81",
+      "title": "Innovision FlexTech Corporation (6673.TWO) Company Profile & Facts - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/6673.TWO/profile",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company profile heading and company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Maps the English name Innovision FlexTech Corporation to ticker 6673.TWO."
+    },
+    {
+      "source_id": "src-8b9917900e3432a8",
+      "title": "和詮登錄興櫃 啟動抗光銀幕新紀元 - 工商時報",
+      "url": "https://www.ctee.com.tw/news/20180307700149-439901",
+      "source_level": 2,
+      "publication_date": "2018-03-07",
+      "effective_period": "Article published 2018-03-07; ranking coverage period unspecified",
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the company as the world’s largest special-projection ambient-light-rejecting screen manufacturer, without supporting comparative market data or defining the ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found a secondary repetition of the ranking claim and current official issuer disclosures confirming the company’s business and head-office location, but no reliable comparative evidence resolving the global-rank atom. That atom remains UNKNOWN.",
+    "The global-largest statement appears in secondary reporting, but no source found provides a defined market, denominator, measurement unit, period, or comparative methodology.",
+    "The 2018 article’s wording concerns an ambient-light-rejecting screen manufacturer; the original claim specifically says screen-material manufacturer.",
+    "The issuer’s 2025 annual report supports the head-office location and product category, not a global ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6673/337/hermes-attempt-1.stdout.txt"
+}

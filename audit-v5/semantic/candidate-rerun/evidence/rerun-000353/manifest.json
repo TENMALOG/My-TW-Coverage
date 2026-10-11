@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000353",
+  "claim_id": "8163:objective_ranking_or_market_share:a9244fd19563c328",
+  "normalized_claim_hash": "a9244fd19563c328027831308c98c36dff54ecf6293293be73fcbf3968d62cf1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5c9e6c20b4790551",
+      "title": "【頭家開講】三台筆電鍵盤就有一台是他們家的 更跨界造出日本人愛騎的電單車",
+      "url": "https://tw.news.yahoo.com/%E9%A0%AD%E5%AE%B6%E9%96%8B%E8%AC%9B-%E4%B8%89%E5%8F%B0%E7%AD%86%E9%9B%BB%E9%8D%B5%E7%9B%A4%E5%B0%B1%E6%9C%89-%E5%8F%B0%E6%98%AF%E4%BB%96%E5%80%91%E5%AE%B6%E7%9A%84-%E6%9B%B4%E8%B7%A8%E7%95%8C%E9%80%A0%E5%87%BA%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%84%9B%E9%A8%8E%E7%9A%84%E9%9B%BB%E5%96%AE%E8%BB%8A-212856128.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "內文開頭有關 Dell 與 Apple Mac 訂單的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手媒體報導歷史訂單；未具體界定訂單期間、鍵盤模組品項或目前供應狀態。"
+    },
+    {
+      "source_id": "src-90e9faf9eaa0310d",
+      "title": "ABOUT DARFON-DARFON",
+      "url": "https://www.darfon.com.tw/en/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "介紹 IT Peripherals 人機介面產品的段落；稱 Darfon is currently the No.1 laptop keyboard manufacturer in the world",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方現行頁面自述排名；未列排名基準、分母、單位或明確資料期間。"
+    },
+    {
+      "source_id": "src-4112b4d0b1f0c242",
+      "title": "Darfon Electronics Corp. Investor Conference",
+      "url": "https://www.darfon.com.tw/Content/Upload/files/%E6%B3%95%E8%AA%AA%E6%9C%83/2023/20230426EN.pdf",
+      "source_level": 3,
+      "publication_date": "2023-04-26",
+      "effective_period": "2023年法說簡報",
+      "locator": "IT Peripherals 頁面；標示 Worldwide Top 3 NB Keyboard Supplier",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報採用「全球前三大」表述；未列排名方法或市場分母，與官網未標期間的 No.1 自述無法作嚴格同期間比較。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行聚焦搜尋及來源擷取；達到本回合工具調用上限後停止。主要品牌／鍵盤模組供應關係及排名分母仍未解決。",
+    "全球第一的排名依據來自公司官網自述，沒有附上市場分母、出貨量或排名方法。",
+    "「主要筆電品牌」與「鍵盤模組」的供應關係缺乏能同時確認產品、品牌範圍及期間的直接來源。",
+    "2023 年官方法說簡報稱全球前三大；官網 No.1 頁面未標日期，故不能據此判定排名變化或確切有效期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8163/353/hermes-attempt-1.stdout.txt"
+}

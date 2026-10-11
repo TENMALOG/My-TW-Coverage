@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000762",
+  "claim_id": "9960:objective_ranking_or_market_share:e41b23b10a6c9c28",
+  "normalized_claim_hash": "e41b23b10a6c9c2811c8a85f79e7c877a9ac1e88e900f86986b5f963c2f55be4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-17d826cc56da60e7",
+      "title": "邁達康高爾夫 — 邁達康集團簡介",
+      "url": "https://www.golfshop.com.tw/aboutus/aboutus_2024.asp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview paragraph beginning 「邁達康高爾夫在台深耕十餘年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page calls 邁達康 the only Taiwan OTC-listed golf-products channel company; it does not identify the comparison universe or substantiate exclusivity."
+    },
+    {
+      "source_id": "src-225c732d1e39e078",
+      "title": "證券櫃檯買賣中心 — 邁達康基本資料",
+      "url": "https://ic.tpex.org.tw/company_basic.php?stk_code=9960",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company basic data table, 「市場別」 field",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TPEx information identifies the company's market as 上櫃; it confirms this company's listing status, not that it is the only listed golf-products channel company."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official issuer and TPEx materials found the issuer's assertion and confirmation of its listing status, but no dated independent ranking or comprehensive evidence establishing the claimed uniqueness.",
+    "The issuer page is primary evidence of the company's own statement, not independent substantiation of the ranking or exclusivity.",
+    "The issuer page provides no publication date, assessment period, ranking metric, or market denominator.",
+    "The TPEx source confirms 邁達康的上櫃身分 but does not resolve the claim's exclusivity across a defined company universe."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9960/762/hermes-attempt-1.stdout.txt"
+}

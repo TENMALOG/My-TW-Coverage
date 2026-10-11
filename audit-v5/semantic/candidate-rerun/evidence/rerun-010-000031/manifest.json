@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000031",
+  "claim_id": "1506:objective_ranking_or_market_share:b7bdbc426ed03c94",
+  "normalized_claim_hash": "b7bdbc426ed03c94e5fb7463646ab4545b8b8279e9dd8c5204b3db881eb8cc72",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-a71d9bd51cc325dfcd68",
+      "title": "Company Profile-Right Way Industrial Co., Ltd",
+      "url": "https://www.rightway.com.tw/index.php?lang=en&temp=intro",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司簡介列明2005年獲NASA授權使用高性能鋁合金材料。",
+      "locator": "Milestones: 2005 — Licensed by NASA (USA) to use high performance aluminum alloy materials",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方簡介；記載授權年份，但未提供授權文件或授權範圍細節。"
+    },
+    {
+      "source_id": "src-08049e5031bd8112bf62",
+      "title": "NASA High Performance Pistons-Right Way Industrial Co., Ltd",
+      "url": "https://www.rightway.com.tw/index.php?lang=en&temp=info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面現在式描述；未標明起訖期間。",
+      "locator": "NASA High Performance Pistons 段落及高溫強度說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁將NASA合金用於活塞，並描述其高溫性能；屬公司自述。"
+    },
+    {
+      "source_id": "src-0987c95b900136c8e71a",
+      "title": "NASA High Performance Pistons-Right Way Industrial Co., Ltd",
+      "url": "https://www.rightway.com.tw/index.php?lang=en&temp=info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面現在式描述及「近期」開發情況；無明確日期。",
+      "locator": "首段稱全球唯一可與NASA合作製造高品質cast pistons；次段稱first NASA forged aluminum piston is under evaluation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方頁明確區分已量產的鑄造活塞與仍在評估中的首顆鍛造活塞。全球唯一的範圍屬公司自述，未有獨立全球市場核驗。"
+    },
+    {
+      "source_id": "src-ce5a92c2f8fd7e419237",
+      "title": "NASA High Performance Pistons-Right Way Industrial Co., Ltd",
+      "url": "https://www.rightway.com.tw/index.php?lang=en&temp=info",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面現在式聲稱；未提供特定統計年度。",
+      "locator": "NASA High Performance Pistons 首段：\"Today, we produce more than 200,000 pistons annually using NASA alloys.\"",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方產量陳述；單位為活塞顆數／年，未披露統計年度、核驗資料或是否全為鍛造件。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查閱發行人官方NASA活塞頁及公司簡介，足以辨明授權年份、年產量陳述，以及鑄造量產與鍛造評估的差異。全球唯一性仍只有公司自述，缺少獨立全球市場母體資料，故不延伸推定其經外部驗證。",
+    "所找到的直接資料均為正道公司官方網站的自我陳述，未找到NASA或監管機關文件獨立核實授權、產量或全球唯一性。",
+    "官方資料未提供逾20萬顆年產量的具體統計年度；該數字不能據此歸屬到特定年度。",
+    "原主張把NASA鍛造活塞與量產實績相連，但公司官方頁明確將量產實績指向鑄造活塞，並稱首顆鍛造活塞仍在評估中。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1506/31/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "0249c3ef8d6105f65f8c1eec37bb035e1912c7cae8f3c168714a2b937ad085e7",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1506/31/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "328936ba6fade6853b6b6cfb8ee1ca3eecafe5db0eb9109c40105be62640be63",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000946",
+  "claim_id": "6263:material_named_relationship:b8c4cba57cba6846",
+  "normalized_claim_hash": "b8c4cba57cba6846a510355236b4c2dabada5150509fe94a1fd2aaa46ce05550",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0c604718eb3a7206",
+      "title": "Marvell Portfolio",
+      "url": "https://www.marvell.com/products/portfolio.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current portfolio, accessed 2026-10-07",
+      "locator": "Networking and security portfolio; enterprise and industrial Ethernet switches and controllers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents another supplier of networking silicon in enterprise and industrial markets."
+    },
+    {
+      "source_id": "src-74795a9270d48587",
+      "title": "MediaTek Wi-Fi 6 / Filogic",
+      "url": "https://www.mediatek.com/products/networking-and-connectivity/wifi-6",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current portfolio, accessed 2026-10-07",
+      "locator": "Filogic Wi-Fi solutions, router/repeater platforms, and networking chipsets",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents another supplier of consumer networking chipsets."
+    },
+    {
+      "source_id": "src-66f91275717c0525",
+      "title": "Intel Ethernet Products",
+      "url": "https://www.intel.com/content/www/us/en/products/details/ethernet.html?wapkw=onp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current portfolio, accessed 2026-10-07",
+      "locator": "Ethernet controllers and products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents another supplier of Ethernet networking silicon."
+    },
+    {
+      "source_id": "src-e1f95820f471e41a",
+      "title": "永續供應鏈 - PLANET Technology ESG",
+      "url": "https://www.planet.com.tw/tw/sustainability/supply-chain",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 supplier survey and initiatives",
+      "locator": "Supply-chain resilience and supplier-management sections",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes general supply-chain resilience efforts, but not the named relationships or the claimed outcome."
+    },
+    {
+      "source_id": "src-805f7f5aae5f334a",
+      "title": "基本資料｜公司治理｜盛達電業",
+      "url": "https://www.esg.billion.com/corporate-governance/3027",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company description, accessed 2026-10-07",
+      "locator": "Company profile and business scope",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports power-related business activity; does not provide a market ranking or establish the full wording."
+    },
+    {
+      "source_id": "src-ac57e29f3eb2537d",
+      "title": "關於台聯 - 台聯電訊股份有限公司",
+      "url": "https://www.tainet.com.tw/about-tainet/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company description, accessed 2026-10-07",
+      "locator": "Telecommunications and communications-network business sections",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes communications products and solutions; does not establish the specific module-manufacturer characterization."
+    },
+    {
+      "source_id": "src-d78eb23b7bd8e570",
+      "title": "上櫃公司產業類別調整公告",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11505/11502011171.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 industry-classification notice",
+      "locator": "Entry identifying 台聯電訊股份有限公司, stock code 4905",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official exchange source for the company-name/ticker pairing."
+    },
+    {
+      "source_id": "src-4db7848e21445cd1",
+      "title": "113 年度公司治理評鑑系統",
+      "url": "https://dsp.twse.com.tw/public/static/downloads/announcement/official/R-1142200577-1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 evaluation data",
+      "locator": "Company-code listing: 5348 正能量智能",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Verifies identity only; it does not describe sensor or IIoT products."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research is exhausted for this pass. Remaining supplier-relationship, product-scope, and supply-chain-outcome atoms lack direct supporting disclosure and remain UNKNOWN.",
+    "PLANET's 2025 supplier disclosure provides aggregate supplier-management information and does not identify the three named companies; non-disclosure does not prove that no relationship exists.",
+    "Company product portfolios establish that those firms offer relevant silicon or power/communications business, not their market share or their relationship with PLANET.",
+    "The claim gives no procurement period, supplier-share denominator, market definition for “major,” or measurable definition of supply-chain autonomy."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6263/946/hermes-attempt-1.stdout.txt"
+}

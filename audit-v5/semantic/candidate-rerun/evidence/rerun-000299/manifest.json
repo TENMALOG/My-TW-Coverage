@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000299",
+  "claim_id": "4927:objective_ranking_or_market_share:f082dccad3e35593",
+  "normalized_claim_hash": "f082dccad3e35593e5feafcd85654e3cd2e703292be5e4dd8c58a02e884af3f5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5ad6d485506a1631",
+      "title": "Apex International Co., Ltd. 2020 Annual Report",
+      "url": "https://www.apex-intl.com.tw/files/shareholders_meeting/2021%20AGM-2020_Annual%20_Report%20.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020 business report and 2021 business outlines",
+      "locator": "Letter to Shareholders, printed pp. 3–5; Company Profile, printed p. 5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Discusses expansion of Korean business from the Home-Appliance Division alongside existing LCD-TV/STB business and lists product applications, but gives no Samsung-specific segment ranking or denominator."
+    },
+    {
+      "source_id": "src-d227637f09d96fbc",
+      "title": "Apex International Co., Ltd. 2021 Annual Report",
+      "url": "https://www.apex-intl.com.tw/files/shareholders_meeting/2022%20AGM-2021_Annual%20_Report%20.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021 business report and 2022 business outlines",
+      "locator": "Letter to Shareholders, printed pp. 3–5",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Repeats plans concerning Korean business and the Home-Appliance Division, but does not identify the largest customer for TV/home-appliance PCB or provide a ranking basis."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of relevant official annual reports found no period-specific customer ranking or segment denominator; the largest-customer atom remains UNKNOWN.",
+    "The claim does not specify a time period, the scope of “TV/home-appliance PCB,” or the denominator for “largest.”",
+    "The official reports support a historical Samsung relationship and describe relevant product lines, but do not disclose the claimed segment-level customer ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4927/299/hermes-attempt-1.stdout.txt"
+}

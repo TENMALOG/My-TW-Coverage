@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001260",
+  "claim_id": "4420:material_named_relationship:0155dbd71bc5840d",
+  "normalized_claim_hash": "0155dbd71bc5840d8a76cb59c023df0d9db061b49a0610ffc51787113c4ab2c4",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-3af0c56c4db84aca",
+      "title": "光明絲織廠股份有限公司 113 年度年報",
+      "url": "https://www.kwangming.com/ebook/year113.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023–FY2024（民國112–113年度）",
+      "locator": "第49頁「最近二年度主要供應商資料」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "供應商表未確認未具名「其他」的身分或其是否屬化纖大廠。"
+    },
+    {
+      "source_id": "src-5eeb2030f6f048e4",
+      "title": "宜進實業股份有限公司 2024 年永續報告書",
+      "url": "https://www.yijinn.com.tw/_run.php?id=528&work=download",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "公司組織及營運範圍相關揭露",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方報告將光明列為宜進子公司。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱光明官方113年度年報及宜進官方報告，並嘗試核對114年度年報；114年度官方PDF擷取失敗，故對未明確揭露的採購項目及最新年度供應商狀況保留UNKNOWN。",
+    "查得的光明官方年報為FY2024（民國113年度）；雖搜尋結果顯示FY2025（民國114年度）年報已可查詢，但該官方PDF連結本次擷取回傳404，故未核實其原料及供應商細節。",
+    "主要供應商占比的分母為年報所列進貨淨額；此占比不是原料採購量或某單一原料的供應占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4420/1260/hermes-attempt-1.stdout.txt"
+}

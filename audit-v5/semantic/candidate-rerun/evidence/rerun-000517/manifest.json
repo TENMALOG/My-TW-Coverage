@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000517",
+  "claim_id": "1323:objective_ranking_or_market_share:61b971a876a3995b",
+  "normalized_claim_hash": "61b971a876a3995b7a613ea2c10a62e6c003dd2a7ebad6a0c5342d7c8b88872f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-40ba1292f5101d3d",
+      "title": "永裕塑膠工業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=4ba7d40e-dc6a-4bbd-a0ba-42790b34ee56",
+      "source_level": 2,
+      "publication_date": "2026-07-29",
+      "effective_period": null,
+      "locator": "公司簡介，1.沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Calls the company the largest domestic daily-chemical-container producer; the market category and scope do not match the claim exactly, and no denominator or ranking methodology is given."
+    },
+    {
+      "source_id": "src-d505698a23fe7250",
+      "title": "永裕塑膠—Company Profile",
+      "url": "https://www.yonyu.com.tw/yonyu/en/about.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company Profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer describes product/mold design and fabrication, formulation, molding, tube manufacturing, decoration, and automated assembly."
+    },
+    {
+      "source_id": "src-8268de92770ee4f6",
+      "title": "永裕塑膠工業股份有限公司",
+      "url": "https://www.pack.org.tw/web/vendor/vendor_in.jsp?dm_no=DM1576545627272&subdm_no=DM1576546320153&sp_no=SP1574670171287&lang=tw",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "廠商類別 > 包裝容器 > 塑膠瓶罐；產品項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Taiwan Packaging Association lists cosmetic containers, makeup packaging, compact cases, co-extruded plastic bottles, plastic tubes, and injection-molded products."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source checks found support for the product and capability wording but no reliable evidence resolving the exact Taiwan-largest ranking, its period, or market denominator.",
+    "The issuer’s website is primary evidence for its own products and described capabilities, but not independent evidence of market leadership.",
+    "The secondary MoneyDJ ranking statement concerns domestic daily-chemical containers, not precisely the claim’s cosmetics-and-cleaning-products container market; it supplies no denominator or methodology."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1323/517/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000879",
+  "claim_id": "1536:material_named_relationship:1b0a30cf02a7f3d9",
+  "normalized_claim_hash": "1b0a30cf02a7f3d9470dccf6911ed465a29eb65bfac9e5080aff0acb741fbb90",
+  "accessed_date": "2026-10-07",
+  "sources": [],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped before the research limit because the available extraction attempt failed and the runtime instructed that discovery work end. All atoms remain unresolved.",
+    "No usable evidence was obtained. The attempted page extraction failed because the configured backend is search-only."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1536/879/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "cb233bfae3ac271b6237c94452936d24d40e8f16121b4a15d9294290eb82ce7f",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1536/879/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "f902c43b0f698b9fd36c24a51e53d93d447dee5f3dd97dca87d9928509911ca5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000879/manifest.json",
+  "supersedes_manifest_sha256": "133835a4bf9428f053d540a2ec8b5fc019dec6637e989d052a6d248187affb43",
+  "corrected_at": "2026-10-08T09:58:54Z"
+}

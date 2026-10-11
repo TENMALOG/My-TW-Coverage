@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000735",
+  "claim_id": "4590:objective_ranking_or_market_share:360bcbc09d6f1e13",
+  "normalized_claim_hash": "360bcbc09d6f1e13c473cf66f6ad2f92ec30998295e726f887800fa919b5bf72",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f7fc3115f7b727d28133",
+      "title": "與馬斯克牽手15年、打造電動車「心臟」！富田電機如何跨界造車、成特斯拉最資深供應商？",
+      "url": "https://www.bnext.com.tw/article/61330/tesla-fukuta",
+      "source_level": 2,
+      "publication_date": "2021-02-08",
+      "effective_period": "2015 for largest-customer ranking; article also describes the relationship as of 2021",
+      "locator": "Article passage beginning “2015年9月Model X…”, which states Tesla became the single largest customer; earlier passage describes Fukuta as Tesla’s oldest supplier.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "BusinessNext article credited to Central News Agency; secondary reporting based on an interview with Fukuta’s chairperson."
+    },
+    {
+      "source_id": "src-863105214f04317c3fdd",
+      "title": "與馬斯克牽手15年、打造電動車「心臟」！富田電機如何跨界造車、成特斯拉最資深供應商？",
+      "url": "https://www.bnext.com.tw/article/61330/tesla-fukuta",
+      "source_level": 2,
+      "publication_date": "2021-02-08",
+      "effective_period": "2005–2021, as described in the article",
+      "locator": "Opening section says Fukuta had spent 15 years working with Tesla and was considered its oldest supplier; later passage says Tesla first approached Fukuta in 2005.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "BusinessNext article credited to Central News Agency; the superlative is reported, not independently benchmarked across Tesla’s supplier base."
+    },
+    {
+      "source_id": "src-a4620fb4e14511bca807",
+      "title": "英飛凌助攻 馬自達最新增程型電動車導入富田電機七合一驅動系統 台廠設計的完整動力總成系統首度進入國際車廠供應鏈",
+      "url": "https://compotechasia.com/a/press/2023/1016/55742.html",
+      "source_level": 2,
+      "publication_date": "2023-10-16",
+      "effective_period": "2023 Mazda MX-30 e-SKYACTIV R-EV",
+      "locator": "Release states the MX-30 e-SKYACTIV R-EV adopted Fukuta’s seven-in-one drive system and lists the motor among the system’s components; it includes comments from Fukuta’s chairperson.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Infineon-authored partner press release republished by Compotech Asia; not a Mazda filing or an issuer disclosure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；現有來源支持三項具體且有時間／產品範圍限制的陳述，但無法支持將Tesla客戶排名或供應商資歷表述為不限定期間的現況，也未找到Mazda或Tesla官方來源進一步確認。",
+    "Tesla「最大客戶」排名僅有2015年的二手報導支持，來源未提供排名計算口徑或客戶營收占比，不能外推為現況。",
+    "Tesla「最資深／最老供應商」為2021年報導中的描述，未有Tesla官方供應商名單或獨立比較資料驗證其在Tesla全部供應商中的排名。",
+    "Mazda部分由Infineon合作新聞稿支持，適用於指定的MX-30 e-SKYACTIV R-EV及其七合一系統，不宜泛化至Mazda所有EV或其他期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4590/735/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c69b570d50a17c58d9e8eb2360321374bbe1100bce0e494865eadd9d97f47dbe",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4590/735/isolated-prompt.txt",
+  "prompt_sha256": "ef5fa9a436df7c7d8ce79c959cc11ad85fc065436c38942db9da4ac455cc18cf",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000735/manifest.json",
+  "supersedes_manifest_sha256": "5591b5964238f36a783fdadb90d9db4b3b37866031f5924a60b37b673398a5db",
+  "corrected_at": "2026-10-08T09:58:39Z"
+}

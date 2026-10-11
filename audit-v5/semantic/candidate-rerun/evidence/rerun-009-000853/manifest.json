@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000853",
+  "claim_id": "4572:material_named_relationship:b06442b0f8987e25",
+  "normalized_claim_hash": "b06442b0f8987e25d3bdcc3f8e05a70fed817352a41532eb792a7d6d7b3b947d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-da24166a931e658dc63f",
+      "title": "駐龍報喜2018營收成長近50％",
+      "url": "https://www.taia.org.tw/news_d.asp?navno=2&newsno=1559&secno=210",
+      "source_level": 2,
+      "publication_date": "2019-01-21",
+      "effective_period": "報導截至2019年1月的資格描述",
+      "locator": "第19–20行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台灣區航太工業同業公會頁面轉載《經濟日報》報導，稱駐龍為波音在台3家結構合格供應商之一。"
+    },
+    {
+      "source_id": "src-533db1d717367c54144b",
+      "title": "軍工產業鏈10傑／訂單歸零還幫員工加薪10% 駐龍董座：今年接單一吐怨氣",
+      "url": "https://money.udn.com/money/amp/story/123465/7090057",
+      "source_level": 2,
+      "publication_date": "2023-04-28",
+      "effective_period": "截至2023年4月的報導",
+      "locator": "第68行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱駐龍取得波音全製程認證，並列舉製程項目；未附波音證書或其正式適用範圍文件。"
+    },
+    {
+      "source_id": "src-7808b717c1bd6802c38b",
+      "title": "駐龍精密機械股份有限公司113年度營業報告書（114年股東常會議事錄附件）",
+      "url": "https://www.drewloong.com.tw/wp-content/uploads/pdf/114%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "PDF第6頁／檢索行70–75",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為飛機結構全製程製造廠商，並擁有波音及賽峰認證；未明確稱「波音全製程認證」或列出該認證的逐項範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年度營業報告、航太工業同業公會轉載資料及具名媒體報導；找到有期間界限的支持證據，但未找到波音第一手名冊或認證文件來確認目前台灣合格供應商數量及全製程認證的正式範圍。",
+    "「僅三家」及「波音全製程認證」的具體描述來自有日期的二手報導，並非波音公布的供應商名冊或認證文件。",
+    "公司113年度營業報告是較高層級的第一手披露，但分別陳述全製程製造能力與波音認證，未把兩者明確定義為一項波音全製程認證。",
+    "所查證據支持歷史描述，不能單獨證明無明確期間的原句截至2026年10月仍完整成立。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4572/853/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "3d2329a59330efc3e97363864cfe8c305131fe0706a98be786656290218b1785",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/4572/853/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "8b65ec6547d87eb986682d1a73873d87056d4eea6387c61611b7dfdad3ebc124",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000853/manifest.json",
+  "supersedes_manifest_sha256": "e35eb0374b39812b6a65868c60c1a3556c8815145e1aa381469335d4aea6be93",
+  "corrected_at": "2026-10-08T09:58:51Z"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000366",
+  "claim_id": "3048:objective_ranking_or_market_share:144af8e9daef4625",
+  "normalized_claim_hash": "144af8e9daef4625208c4cc9bba463ccd7d7a2595e20010168f6c84716d0a12f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-de351698c69966cdda87",
+      "title": "NVIDIA 輝達授權代理商 - 益登科技",
+      "url": "https://www.edomtech.com/zh-tw/manufacturers-detail/nvidia/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "NVIDIA Jetson and closing distributor statement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms EDOM is an authorized NVIDIA distributor and describes Jetson; provides no supplier ranking, comparative metric, or period."
+    },
+    {
+      "source_id": "src-2395ce862d441290dab6",
+      "title": "NVIDIA A100 80GB PCIe GPU-益登科技",
+      "url": "https://edomtech.com/zh-tw/product-detail/nvidia-a100-80gb-pcie-gpu",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product title, product description, and “NVIDIA Authorized Distributor” notation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer product page for an NVIDIA GPU; establishes an offering, not supplier rank or market share."
+    },
+    {
+      "source_id": "src-c306f88bec7ba2015bbe",
+      "title": "益登科技強化NVIDIA Jetson Thor亞太區經銷佈局",
+      "url": "https://www.edomtech.com/zh-tw/edom_news-detail/edom-strengthens-nvidia-jetson-thor-distribution-across-apac",
+      "source_level": 3,
+      "publication_date": "2025-08-26",
+      "effective_period": "Jetson Thor supply and Jetson-series Asia-Pacific authorized-distributor status announced on 2025-08-26; duration not specified.",
+      "locator": "Announcement opening and paragraphs identifying EDOM as Jetson-series Asia-Pacific authorized distributor and listing Jetson Thor products",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer announcement supports Jetson distribution in the stated product and region scope; it does not establish that NVIDIA is EDOM’s largest supplier."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches covered EDOM’s official NVIDIA distributor and product pages, its Jetson distribution announcement, and its annual-report/investor materials. No evidence located establishes the largest-supplier ranking with a defined period, scope, and metric; that atom remains UNKNOWN.",
+    "EDOM’s official product and distributor disclosures substantiate the product and distribution relationship, not a supplier ranking.",
+    "No period, supplier comparison set, geography, market definition, or ranking denominator is supplied for “最大供應商”; no nearby product or platform evidence resolves those missing elements."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3048/366/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f6c457a590b259dfd736a0b6d12d78b6d5137fb72018ef66199593c668d643e5",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3048/366/isolated-prompt.txt",
+  "prompt_sha256": "4a2d39126c4d08363c449f9f4567dfe3e4bee9b50c60ed68a5fc514b245f851c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000366/manifest.json",
+  "supersedes_manifest_sha256": "2f9e710b2a46eda4af81286fefe4d29a73ab5c3cbce5d10535484403f78732d2",
+  "corrected_at": "2026-10-08T09:58:06Z"
+}

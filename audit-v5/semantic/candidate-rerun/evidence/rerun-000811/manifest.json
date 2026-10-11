@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000811",
+  "claim_id": "3004:objective_ranking_or_market_share:6e42f02d92f00cdb",
+  "normalized_claim_hash": "6e42f02d92f00cdba340994b35070c2428279d8b4a49f8566a3627f9b1689724",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-64092f44f673bda7",
+      "title": "Getac 神基控股—企業簡介與公司沿革",
+      "url": "https://tw.getacgroup.com/corporate/index.php?index_id=20",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "The issuer states that it adopted the investment-holding name in 2021 and the current 神基控股 name in 2024.",
+      "locator": "企業簡介／源起",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page identifies the company, its ticker, and the name changes."
+    },
+    {
+      "source_id": "src-6257ebfa8d713d25",
+      "title": "豐達科技股份有限公司 2023 股東常會議事手冊",
+      "url": "https://www.nafco.com.tw/wp-content/uploads/2023/06/112%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A-20230425%E4%B8%AD%E6%96%87-final-%E4%B8%8A%E5%82%B3.pdf",
+      "source_level": 3,
+      "publication_date": "2023-04-25",
+      "effective_period": "Shareholder snapshot dated 2023-03-27.",
+      "locator": "股東常會議事手冊，主要股東名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports 20,578,174 ordinary shares, equal to 39.08%."
+    },
+    {
+      "source_id": "src-54d16c179caf3655",
+      "title": "豐達科3004籌碼面—董監持股概況",
+      "url": "https://tweb.money-link.com.tw/TWStock/StockChips.aspx?SymId=3004&TWMId=Chips_drt01",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2026-08.",
+      "locator": "董監持股概況／大股東",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary update reports 35.38%; its snapshot differs from the 2023 figure."
+    },
+    {
+      "source_id": "src-332e931f6ed13e0b",
+      "title": "Getac Holdings Corporation 2025 Annual Report",
+      "url": "https://tw.getacgroup.com/upload/investor_report_m_files/84c2e3d94fb56f4428f2d89774cf7c12.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Investment holdings as of 2026-03-31.",
+      "locator": "Investments table: 豐達科技股份有限公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official Getac annual report reports 22,773,145 shares and 35.38% held in 豐達科; it does not by itself establish the complete shareholder ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方歷史股東名單、官方近期持股資料及次級月度排序資料；剩餘不確定性來自原 claim 缺少基準日期及「約」的精度定義，無法靠更多檢索補足。",
+    "原始 claim 未給持股比例的 as-of 日期，也未界定「約40%」的容許誤差。",
+    "2026年8月的持股與大股東排序來自次級資料；官方 Getac 年報支持截至2026年3月31日的35.38%持股數據，但其投資表不是豐達科完整股東排名表。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3004/811/hermes-attempt-1.stdout.txt"
+}

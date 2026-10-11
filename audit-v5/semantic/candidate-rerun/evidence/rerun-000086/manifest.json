@@ -1,0 +1,107 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000086",
+  "claim_id": "2892:objective_ranking_or_market_share:88dd8b6be75d5904",
+  "normalized_claim_hash": "88dd8b6be75d59042a44354cc84d8bf0ba467bd3d4ea29437d5017f85f0b1aa6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-168e28515636f103",
+      "title": "Company Profile | First Bank",
+      "url": "https://firstbank.com.tw/sites/fbweb/en_US/CompanyProfile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "History",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official bank profile identifies the institution as First Commercial Bank."
+    },
+    {
+      "source_id": "src-ef9a802662b998db",
+      "title": "第一銀行（官方中小企業貸款產品頁）",
+      "url": "https://www.firstbank.com.tw/sites/fcb/1565698947234",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Applications stated to be open through 2027-12-31",
+      "locator": "對象; 用途; 申貸期限",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official page describes loan eligibility and uses for SMEs."
+    },
+    {
+      "source_id": "src-1cecf67dfa3bced0",
+      "title": "微企e時貸 - 線上平台 | 第一銀行",
+      "url": "https://www.firstbank.com.tw/sites/fcb/touch/1565688590687",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "商品特色; 服務對象",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official bank page identifies a micro-enterprise loan product."
+    },
+    {
+      "source_id": "src-c4a7a68debc1b5a9",
+      "title": "第一銀行 第e數速貸 | 房屋貸款",
+      "url": "https://firstloan.firstbank.com.tw/LoanPlatform/fcb-mortgage-options.action",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Page title and 房屋貸款 category",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official First Bank loan platform."
+    },
+    {
+      "source_id": "src-b98827d3d10eaa5b",
+      "title": "理財服務內容 - 財富管理業務 | 第一銀行",
+      "url": "https://www.firstbank.com.tw/sites/fcb/WealthManagementBusiness",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "精采生活",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official page lists wealth-management advisory and planning services."
+    },
+    {
+      "source_id": "src-94ddc6b6faf17c1e",
+      "title": "First Bank（Shanghai Free Trade Zone Sub-branch）",
+      "url": "https://firstbank.com.tw/sites/fcb/touch/en_US/1565683505461",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Loans & Guarantees",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official branch page lists commercial loans, mortgage business, and import/export trade financing."
+    },
+    {
+      "source_id": "src-addea891527cfdef",
+      "title": "企業網銀（第e金網）- 線上交易服務 | 第一銀行",
+      "url": "https://www.firstbank.com.tw/sites/fcb/touch/1565687620849",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "進出口貿易",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official bank page lists import-letter-of-credit services, import/export collections, and export bill discounting."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused official-source research resolved each listed business category; stopped before the 8-turn ceiling.",
+    "The claim specifies no time period, geographic market, scale, market-share denominator, or units; the sources support service categories, not rankings or market-share conclusions.",
+    "Trade-financing evidence includes an official overseas-branch service description; it does not quantify or establish the geographic reach of that service."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2892/86/hermes-attempt-1.stdout.txt"
+}

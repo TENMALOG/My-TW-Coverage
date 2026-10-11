@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000126",
+  "claim_id": "1714:objective_ranking_or_market_share:adfae1c40f1b5b8e",
+  "normalized_claim_hash": "adfae1c40f1b5b8ece180f0cdc4ea1c1fa09100b626a157974b588791a622e01",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5563f88594fd4de3",
+      "title": "2015 和桐化學 CSR 報告書（第三方鏡像）",
+      "url": "http://ushop20153.ecmaster.tw/hipershop/ecmas0153/store/F3/HT-2015%20CSR.pdf",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "2015年",
+      "locator": "搜尋結果摘錄：「主要原物料為煤油」及「2015 年總煤油使用量為210,977.2公噸」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文件內容指向和桐化學，但取得自第三方鏡像；僅支持歷史煤油使用，不支持苯或供應商來源地。"
+    },
+    {
+      "source_id": "src-0eda5a0a3bdcd858",
+      "title": "責任治理－和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/products-33?lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年",
+      "locator": "「在地與綠色採購」：2024年在地採購總額新台幣1,445,923仟元、在地採購比例37.45%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "此為未按原料種類或來源地細分的公司整體披露，不能證明煤油或純苯的來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用本次允許的聚焦研究額度；對純苯用途、原料來源地、供應商設施規模及供應穩定性的證據仍不足，故保留為UNKNOWN。",
+    "煤油用途證據來自第三方鏡像中的歷史CSR報告，不能直接代表目前採購狀況。",
+    "官方2024年在地採購比例是整體採購披露，未按煤油、純苯或來源國拆分。",
+    "公司年報頁列有2024年度年報，但本次未能從所提供的資料中取得可核對其原料供應商細節的年報內容。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1714/126/hermes-attempt-1.stdout.txt"
+}

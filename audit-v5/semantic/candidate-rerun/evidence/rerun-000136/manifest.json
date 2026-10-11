@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000136",
+  "claim_id": "2345:objective_ranking_or_market_share:45533474be4d6591",
+  "normalized_claim_hash": "45533474be4d6591f5276b0388cf6439895ab4376991ab74b209edab39228c84",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ad834b8ac7f09865",
+      "title": "千金股解密—智邦2345",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5387428",
+      "source_level": 2,
+      "publication_date": "2026-04-07",
+      "effective_period": "截至報導日的「目前」狀態；未披露統計期間",
+      "locator": "導言段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱智邦目前在白牌交換器市場的市占約49%，但沒有提供原始統計來源、計算基礎或具體分母定義。"
+    },
+    {
+      "source_id": "src-dcc69b4dc860a3e3",
+      "title": "台灣第一家千億市值網通廠　智邦響應臉書計劃，獲利大增近七成",
+      "url": "https://www.cw.com.tw/article/5100305",
+      "source_level": 2,
+      "publication_date": "2020-05-19",
+      "effective_period": "報導當時",
+      "locator": "「開放網路大成功」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "天下雜誌描述智邦是早期加入OCP的網通設備廠之一，並報導其在OCP開放社群積極貢獻；這支持實質參與，但不證明正式的「核心成員」資格。"
+    },
+    {
+      "source_id": "src-3b750d4f6ccc7b76",
+      "title": "大摩：白牌交換器續成長 智邦市占近50％",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/4709690",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年第1季",
+      "locator": "報導中段，轉述Morgan Stanley及IDC資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱智邦在白牌交換器供應商中市占48.3%，並列出天弘45.9%、廣達3.8%；沒有明示市占是按營收或數量計算。"
+    },
+    {
+      "source_id": "src-0c4acd9ac5d7f3f5",
+      "title": "Membership Directory — Open Compute Project",
+      "url": "https://www.opencompute.org/membership/membership-directory?level=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查核時的名錄狀態（2026-10-06）",
+      "locator": "Bronze會員名單；列有Accton",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "OCP官方名錄頁面列出Accton為Bronze企業會員。"
+    },
+    {
+      "source_id": "src-2fb3ebf086b5af3c",
+      "title": "Accton Technology Contributes AI/ML-Optimized DDC 800G Designs to OCP",
+      "url": "https://www.accton.com/accton-technology-contributes-ai-ml-optimized-ddc-800g-designs-to-ocp",
+      "source_level": 3,
+      "publication_date": "2024-10-15",
+      "effective_period": "截至2024-10-15的會員及貢獻描述",
+      "locator": "新聞稿引述智邦研發中心資深副總裁的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "智邦官方稱其為OCP協作社群的長期會員，並宣布將提交硬體設計。"
+    },
+    {
+      "source_id": "src-27a39f47378a9170",
+      "title": "Membership — Open Compute Project",
+      "url": "https://www.opencompute.org/membership",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查核時的OCP會員架構（2026-10-06）",
+      "locator": "Membership Levels & Overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "OCP官方列出Startup、Bronze、Silver、Gold、Platinum會員層級，未列出「core member」級別。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查詢公司、OCP官方名錄與會員層級，以及報導所引述的市場資料；全球領先、市占近49%及OCP會員身分有來源支持，但沒有找到將「核心成員」定義為正式資格的官方證據，故該原子主張維持UNKNOWN並停止研究。",
+    "市占率資料來自媒體轉述研究報告，而非取得Morgan Stanley或IDC的原始市占表；2024年第1季報導沒有說明市占按營收或出貨量計算。",
+    "2026年報導提供約49%的現況描述，但未披露統計期間、方法或完整分母。",
+    "OCP官方資料確認Accton為Bronze企業會員；「核心成員」未在所查官方會員層級中出現。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2345/136/hermes-attempt-1.stdout.txt"
+}

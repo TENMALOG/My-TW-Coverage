@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000309",
+  "claim_id": "5228:objective_ranking_or_market_share:bc677a4369a50038",
+  "normalized_claim_hash": "bc677a4369a50038085c6436cbc85011c326b77cd1461e9354c5ef92d5694e2d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-020cfc1e5634fc2a",
+      "title": "Cochlear Limited Annual Report 2026",
+      "url": "https://announcements.asx.com.au/asxpdf/20260818/pdf/072vl3mz6g9cps.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-18",
+      "effective_period": "FY2026, ended 2026-06-30",
+      "locator": "Page 29, “Cochlear implant market share” chart",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Cochlear estimates its global share of the cochlear-implant market at over 60%. The report separately shows approximately 4% for hearing devices treating severe-or-higher hearing loss; that broader denominator is not used for this claim. Share is reported as a percentage; unit-versus-revenue basis is not stated."
+    },
+    {
+      "source_id": "src-69b5790ac1d2277c",
+      "title": "Cochlear Implants Market to Hit US$4.73 Billion by 2030",
+      "url": "https://www.globenewswire.com/news-release/2025/02/19/3028672/0/en/cochlear-implants-market-to-hit-us-4-73-billion-by-2030-with-9-2-cagr-marketsandmarkets.html",
+      "source_level": 2,
+      "publication_date": "2025-02-19",
+      "effective_period": "Calendar 2023",
+      "locator": "Sections “COCHLEAR LTD. (AUSTRALIA)” and “SONOVA (SWITZERLAND)”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MarketsandMarkets identifies Cochlear Ltd. as the prominent leader in the global cochlear-implant market in 2023 and describes Sonova as the second-largest company. This is secondary research and does not specify a unit-versus-revenue ranking denominator."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found current official FY2026 market-share disclosure and secondary ranking corroboration; remaining uncertainty is limited to the issuer's undisclosed share-measurement basis and the company-versus-brand distinction.",
+    "The latest quantified share located is Cochlear's own estimate; the cited chart does not state whether the share is based on units or revenue.",
+    "The evidence supports leadership in the global cochlear-implant market, not the broader market for hearing devices or all implantable hearing solutions.",
+    "The issuer reports company-level market share; it does not separately quantify trademark-level share. MarketsandMarkets provides secondary corroboration of Cochlear's 2023 market leadership."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5228/309/hermes-attempt-1.stdout.txt"
+}

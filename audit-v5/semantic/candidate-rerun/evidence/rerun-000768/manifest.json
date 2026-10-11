@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000768",
+  "claim_id": "2012:objective_ranking_or_market_share:49de828dafb735f1",
+  "normalized_claim_hash": "49de828dafb735f1e8b10659eae54162965738c383fe12d433d6b2ad3b7e39b8",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ee8a81d6d189337d",
+      "title": "公司簡介－春雨集團",
+      "url": "https://www.chunyu.com.tw/company-profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於春雨集團」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述產品及製造業務，包括螺栓、螺帽和攻牙螺絲。"
+    },
+    {
+      "source_id": "src-8431b07896e3d5dd",
+      "title": "2022至2024年台灣扣件廠商營收排行",
+      "url": "https://fastener-world.com/zh/article/9168.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022至2024年排名資料；所述前三名依2024年營收",
+      "locator": "資料來源註記及「從營收額規模來看」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "文章稱2024年扣件製造商營收前三名包括恒耀國際、開曼東明控股及春雨工廠；註明資料來源為《天下雜誌》第823期「2025兩千大企業調查」，金額單位為新台幣億元。文章另稱扣件製造商類別有18家入榜。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到公司官方產品資料及2024年營收前三名的具名排名；為避免把營收排名外推為市占率或全市場絕對排名，停止於此，交由最終裁定確認範圍是否足以支持原句。",
+    "排名資料由產業媒體整理，所述原始資料為《天下雜誌》2025兩千大企業調查；本次未取得原始榜單以獨立核對。",
+    "排名期間為2024年，且比較母體為調查入榜的扣件製造商；不應據此推論其他年度排名或全市場市占率、產量排名。",
+    "公司官方頁面支持其製造螺絲、螺帽等產品，但未提供相對規模排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2012/768/hermes-attempt-1.stdout.txt"
+}

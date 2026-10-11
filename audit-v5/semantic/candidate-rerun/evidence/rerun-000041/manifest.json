@@ -1,0 +1,39 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000041",
+  "claim_id": "1536:objective_ranking_or_market_share:cce96a49ba94ccaf",
+  "normalized_claim_hash": "cce96a49ba94ccafa130d765c49ed31099ec2174348ca22476ebeecea0d70ec9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "hota-2025-annual-report",
+      "title": "和大工業股份有限公司114年度年報",
+      "url": "https://www.hota.com.tw/upload/25/114%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度；另列2024年度與2026年第一季比較。",
+      "locator": "PDF第71頁（印刷頁68）「最近二年度主要銷貨客戶資料」以代號揭露：第一大客戶甲公司占銷貨淨額2024年43.94%、2025年51.19%，2026年第一季54.61%；未具名BorgWarner。PDF第65頁（印刷頁62）稱與美國B公司共同研發扭力轉換零件、與美國C公司研發油泵齒輪，客戶均匿名；年報全篇未出現BorgWarner。",
+      "source_sha256": "b65d4918d29ac35084727b19c18d353be1bd5c93051afd2ac30437e22e300ddd",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1536/41/hota-2025-annual-report.pdf",
+      "note": "支持第一大客戶集中且比例在近兩年約44%與51%；因匿名無法將甲公司映射至BorgWarner。產品研發客戶亦以代號列名，不能認定為BorgWarner或推成出貨。"
+    },
+    {
+      "source_id": "hota-2024-borgwarner-supplier-award",
+      "title": "和大工業ESG專區：2024 BorgWarner最佳供應商",
+      "url": "https://www.hota.com.tw/esg.html",
+      "source_level": 3,
+      "publication_date": "2024",
+      "effective_period": "和大官網列示2024年度供應商獎項。",
+      "locator": "官網榮耀與肯定區塊列「BorgWarner最佳供應商」及「2024 BorgWarner最佳供應商」，支持和大曾獲BorgWarner供應商認可；此獎項未揭露其在和大客戶中的營收排名。",
+      "source_sha256": "a2fa6129276c258038d18135e379cc66492c941b7cdd1c066228cb5e2163382c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1536/41/hota-esg-awards.html",
+      "note": "證實供應商關係／客戶往來，但不能確認BorgWarner是第一大客戶或其營收占比。"
+    }
+  ],
+  "search_notes": [
+    "核對BorgWarner與和大之間是否有商業往來、主要客戶排名及營收占比、具名產品關係。",
+    "和大官方ESG專區確認2024 BorgWarner最佳供應商獎，支持和大是BorgWarner供應商。",
+    "和大114年度年報全篇未具名BorgWarner；銷貨客戶以代號甲、乙揭露。甲公司占2024年銷貨43.94%、2025年51.19%、2026年第一季54.61%。",
+    "年報稱美國B公司共同研發扭力轉換系統零件、美國C公司研發油泵齒輪，但未具名且為共同研發描述；未能證明B/C為BorgWarner，也未能據此確認商品出貨。"
+  ]
+}

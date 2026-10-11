@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001033",
+  "claim_id": "3338:profitability_assertion:d8fd097329e5101b",
+  "normalized_claim_hash": "d8fd097329e5101bf83fe774b55e2dbba35584dac2daaee6aac272e37547857c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-464a90624222bed7",
+      "title": "泰碩電子2025法人說明會簡報",
+      "url": "https://www.taisol.com/wp-content/uploads/2025/08/%E6%B3%B0%E7%A2%A9%E9%9B%BB%E5%AD%902025%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83-%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-18",
+      "effective_period": "截至2025-08-18",
+      "locator": "第9頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "In-Rack CDU列示30KW至120KW，並將150KW標註為「開發中」。"
+    },
+    {
+      "source_id": "src-efc37f4f452faa4e",
+      "title": "瞄準伺服器高價深水區，泰碩120KW CDU搶市",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=ff162a84-474d-46a2-83ac-b06ee9c1af93",
+      "source_level": 2,
+      "publication_date": "2025-08-18",
+      "effective_period": "2025-08",
+      "locator": "報導內文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱120KW CDU將送客戶驗證，且測試單即將出貨；這不是量產出貨的確認。"
+    },
+    {
+      "source_id": "src-314374b63c1958c5",
+      "title": "新CDU下季試產，泰碩期明年重回成長",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=499b9d21-5c83-42fe-bf5f-393331dcb8a7",
+      "source_level": 2,
+      "publication_date": "2025-12-04",
+      "effective_period": "報導所述規劃為2026年第一季",
+      "locator": "標題及首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱120KW CDU通過客戶測試，規劃於2026年第一季小幅試產；未確認量產出貨。"
+    },
+    {
+      "source_id": "src-c2e3fc1bc346bda5",
+      "title": "泰碩AI液冷比重近半，Q4營收拚全年高峰",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=641f0705-2ed4-4c6d-9340-61787703be4c",
+      "source_level": 2,
+      "publication_date": "2026-09-14",
+      "effective_period": "2026年上半年至2026年第三季報導時點",
+      "locator": "報導內文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及AI液冷新品量產初期及液冷元件出貨放量，但未指出120KW CDU的具體量產或出貨狀態。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司2025年法人說明會簡報、公司新聞及截至2026年9月的相關報導；仍未找到能直接確認120KW CDU量產出貨的容量特定資料，因此該原子主張保留UNKNOWN。",
+    "原主張未提供狀態所屬日期；2025年8月的150KW開發狀態不能直接視為2026年10月的現況。",
+    "2026年液冷新品量產及出貨的報導沒有明確對應120KW CDU，不能據此確認該型號已量產出貨。",
+    "120KW與150KW均為產品容量規格；此處沒有市場占比或市場分母主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3338/1033/hermes-attempt-1.stdout.txt"
+}

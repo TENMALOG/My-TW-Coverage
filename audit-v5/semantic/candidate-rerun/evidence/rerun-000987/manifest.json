@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000987",
+  "claim_id": "8210:material_named_relationship:65759e97a5ce218d",
+  "normalized_claim_hash": "65759e97a5ce218d6f55d3ceb985b1fc1c1afa40ff43f8861480137d7a2203d6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0d677d1a7d6b493a",
+      "title": "凱基證券投資策略週報 Global Markets Weekly Kickstart",
+      "url": "https://www.kgi.com.hk/zh-hk/-/media/files/kgishk/research-reports/investment-perspectives/2025/kgis-global-markets-weekly-kickstart_20250217.pdf",
+      "source_level": 2,
+      "publication_date": "2025-02-17",
+      "effective_period": "報告描述 2025 年初的 Amazon HGX 訂單及勤誠供應商角色。",
+      "locator": "PDF 第 17 頁，勤誠(8210 TT)「短期AI營收較強」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "券商研究報告；相關供應關係明示係根據供應鏈訪查，非勤誠或 Amazon 的正式披露。"
+    },
+    {
+      "source_id": "src-0da9a010cfd032c6",
+      "title": "勤誠受惠AWS AI伺服器需求 今年營運動能強勁",
+      "url": "https://m.cnyes.com/news/print/5864477",
+      "source_level": 2,
+      "publication_date": "2025-02-17",
+      "effective_period": "2025 年預測。",
+      "locator": "正文首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱 AWS ASIC 相關產品營收占比預估升至 20–30%；不能據此認定為訂單占比。"
+    },
+    {
+      "source_id": "src-d8fce561282b25e1",
+      "title": "GTC大會將登場！同為輝達、亞馬遜供應商的這檔有機會噴發",
+      "url": "https://www.moneyweekly.com.tw/ArticleData/Info/Article/167363/?BackID=93",
+      "source_level": 2,
+      "publication_date": "2025-03-13",
+      "effective_period": "2025 年預測。",
+      "locator": "正文第 177 行附近",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱預期訂單比重升至 20–30%，但沒有明確交代分母或計算口徑。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查找券商研究、財經媒體及勤誠官方披露線索。HGX 供應商描述有券商供應鏈訪查支持；兩個比例仍因來源口徑與分母不明而無法驗證，故保留為 UNKNOWN。",
+    "未找到勤誠或 Amazon 的官方披露確認所述比例。",
+    "ASIC 比例數字來自二手報導轉述的法人預估，不是已核實的 2025 年實績。",
+    "「產品營收占比」與「訂單比重」是不同指標；來源未提供足以對齊口徑的分母定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8210/987/hermes-attempt-1.stdout.txt"
+}

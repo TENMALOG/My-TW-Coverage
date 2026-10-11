@@ -1,0 +1,81 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000537",
+  "claim_id": "2360:objective_ranking_or_market_share:1e49821a8cff17a7",
+  "normalized_claim_hash": "1e49821a8cff17a72d749a6e53e8c2ec92eace2b317442049145af05c3a224b1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-22c6122d4c50833c",
+      "title": "Chroma ATE Inc.-News | Chroma ATE Inc.",
+      "url": "http://chromaate.com/news",
+      "source_level": 3,
+      "publication_date": "2017-10-30",
+      "effective_period": null,
+      "locator": "2017 Third Quarter Financial Results 條目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "條目內將 Chroma ATE Inc. 標示為 TAIEX: 2360。"
+    },
+    {
+      "source_id": "src-399735cdcc1b50a3",
+      "title": "Financial Reports | Chroma ATE Inc. | Global",
+      "url": "https://www.chromaate.com/en/investors/financial_reports",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Stock Information",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方投資人資訊頁列出 Stock Code: 2360。"
+    },
+    {
+      "source_id": "src-79defd890bd9e0c8",
+      "title": "Chroma received the Distinguished Enterprise Innovation Award, the highest honor available from the 5th National Industrial Innovation Award",
+      "url": "https://chromaate.com/en/newsroom/news155",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "正文首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載其從事 precision test and measurement instruments 的 research, development and manufacturing。"
+    },
+    {
+      "source_id": "src-b13151ae9f810b24",
+      "title": "Message From Our CEO | Chroma 30th Anniversary",
+      "url": "https://chromaate.com/en/chroma30/CEO.html",
+      "source_level": 3,
+      "publication_date": "2014-11-08",
+      "effective_period": "2014年",
+      "locator": "周年訊息正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只稱電力電子測試解決方案曾取得全球第一市占；未證明公司整體在亞洲自動化測試與量測設備市場居首。"
+    },
+    {
+      "source_id": "src-2d6a9c8147a5df35",
+      "title": "2025-CompanyProfile-ChromaATEInc.pdf",
+      "url": "https://www.chromaate.com/downloads/about/2025-CompanyProfile-ChromaATEInc.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介開頭",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱其為全球領先的供應商，但未提供亞洲排名、比較期間、該市場的定義或衡量分母。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索發行人官方公司介紹、新聞與投資人財務資訊，並以市場排名和市占率為方向查找比較資料；仍無法確認「亞洲最大」的市場範圍、排名期間或衡量分母，因此該原子主張保留為UNKNOWN。",
+    "成立年份及精密測試與量測儀器的研發、製造均由發行人官方資料支持；官方資料未提供該公司在亞洲整體自動化測試與量測設備市場排名的可比較依據。",
+    "特定電力電子測試解決方案的全球市占第一，不能推及公司整體、亞洲地區或不同設備市場。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2360/537/hermes-attempt-1.stdout.txt"
+}

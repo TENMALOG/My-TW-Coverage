@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000973",
+  "claim_id": "3611:identity_changing_event:9235ca41b694fe7a",
+  "normalized_claim_hash": "9235ca41b694fe7a43d894c4bca1f982feb7a5b3de05d7e16c4653133715ea1b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-891d63f27bcb1e9b",
+      "title": "鼎翰科技永續報告書 2024",
+      "url": "https://fs.tscprinters.com/system/files/tsc_sustainability_report_2024_tc_full_0.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007年",
+      "locator": "第1章「關於鼎翰」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告記載鼎翰於2007年從母公司分割而獨立。"
+    },
+    {
+      "source_id": "src-50d8c05ec34cdd50",
+      "title": "公司簡介｜TSC Printers",
+      "url": "https://apac.tscprinters.com/zh-TW/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007年",
+      "locator": "「重要里程碑」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鼎翰官方公司簡介列明2007年自母公司分割獨立並成立鼎翰科技。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方公司永續報告直接支持母公司身分及2007年分割事件，官方公司簡介另行佐證；兩個原子主張均已支持，故提前停止研究。",
+    "永續報告書標示為2024年報告，但檢索到的來源未提供確切發布日期。",
+    "公司簡介為未標日期的官方頁面；用於佐證2007年沿革里程碑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3611/973/hermes-attempt-1.stdout.txt"
+}

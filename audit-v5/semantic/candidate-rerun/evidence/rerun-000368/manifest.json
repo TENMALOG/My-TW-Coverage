@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000368",
+  "claim_id": "3312:objective_ranking_or_market_share:30b39681faeb2489",
+  "normalized_claim_hash": "30b39681faeb24891cde145d627135d95270c8bb4cf137c9a385c6e570606551",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5ea0f2be29e1b952",
+      "title": "弘憶國際股份有限公司 GMI Technology Inc. 一一四年度年報",
+      "url": "https://www.gmitec.com/wp-content/uploads/2026/08/2025%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-27",
+      "effective_period": "2025年度",
+      "locator": "年報第94頁，供應商說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將瑞昱列為主要供應商之一。"
+    },
+    {
+      "source_id": "src-95cabb006553bba2",
+      "title": "弘憶股後市營運看樂觀；新業務布局漸發酵",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=97f24005-12cf-4e48-aceb-1ba27e4840b0",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年",
+      "locator": "文中主要代理線與營收比重段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱瑞昱產品為弘憶股主要代理線。"
+    },
+    {
+      "source_id": "src-24cbded8f4d29bd5",
+      "title": "弘憶股網通產品線今年營收目標看增一成",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=6529ddb0-11a9-4471-a1f4-7ce5a09e6015",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年股東會及當年展望",
+      "locator": "文中「瑞昱產品占近90%」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "比例分母為弘憶代理業務，非弘憶股營收；不能用來證明營收占比逾七成。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪工具呼叫上限；未能補足供應商排名、嚴格高於70%的公司營收占比，以及網通／音訊代理品項範圍的直接證據。",
+    "弘憶股年報列出多家主要供應商，沒有提供足以確認瑞昱排名第一的比較資料。",
+    "「約七成」是二手報導的近似值，不等同於「逾七成」；未以官方披露核實該比例。",
+    "「近90%」報導所用分母是代理業務，不能替換為公司營收。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3312/368/hermes-attempt-1.stdout.txt"
+}

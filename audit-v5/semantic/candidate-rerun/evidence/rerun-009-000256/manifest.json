@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000256",
+  "claim_id": "6940:objective_ranking_or_market_share:6cfe81e246b74e61",
+  "normalized_claim_hash": "6cfe81e246b74e61012d05d9c26f3f6c7b538ee1a2afb1aa479f1588287cee8f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-73eb93fa0a862300f5b6",
+      "title": "政府電子採購網－決標公告：嘉義綠能園區行政大樓鈦酸鋰儲能暨能源管理系統(採購帶安裝)一批",
+      "url": "https://web.pcc.gov.tw/tps/atm/AtmAwardWithoutSso/QueryAtmAwardDetail?pkAtmMain=NTM0ODM3MTQ=",
+      "source_level": 3,
+      "publication_date": "110/08/19",
+      "effective_period": null,
+      "locator": "決標公告的機關資料、投標廠商及決標品項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料確認格斯得標一件中油採購案；未提供客戶營收排名或可比較的客戶銷售額。"
+    },
+    {
+      "source_id": "src-acb60b0855132c05cf48",
+      "title": "政府電子採購網－決標公告：嘉義綠能園區行政大樓鈦酸鋰儲能暨能源管理系統(採購帶安裝)一批",
+      "url": "https://web.pcc.gov.tw/tps/atm/AtmAwardWithoutSso/QueryAtmAwardDetail?pkAtmMain=NTM0ODM3MTQ=",
+      "source_level": 3,
+      "publication_date": "110/08/19",
+      "effective_period": "110/08/18至111/01/25（預估履約起迄）",
+      "locator": "標案案號N1E10A040；標案名稱、得標廠商、決標金額及履約起迄日期欄位",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方採購決標公告；決標金額為新台幣18,000,000元。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "因工具呼叫迭代上限停止研究；最大客戶排名所需的期間及客戶營收比較資料仍未取得，該原子主張維持UNKNOWN。",
+    "官方決標公告證實的是單一採購案及其金額，不是客戶銷售額排名。",
+    "原文未指定「最大客戶」的期間、排名指標或比較範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6940/256/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "bfa8e947199a7a1ecc1a7b049a9d00cb853b2d98af37b45683e74eab929b223c",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6940/256/isolated-prompt.txt",
+  "prompt_sha256": "157b0cb4fa7ed7c9894c0b83321af4c7355276eb7f735cdd9a586a133615b320",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000256/manifest.json",
+  "supersedes_manifest_sha256": "7a757a7816c1106d2860e84f3cc9944412b96be39915736a4407983096881b11",
+  "corrected_at": "2026-10-08T09:57:57Z"
+}

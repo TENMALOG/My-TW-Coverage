@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000948",
+  "claim_id": "6285:material_named_relationship:acaea29878c8bc70",
+  "normalized_claim_hash": "acaea29878c8bc70953fbac87f08861e57ec12f22f0bf4735a42092c66f29c9b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fa9796b8cef081cd",
+      "title": "公司簡介－關於啓碁科技",
+      "url": "https://www.wnc.com.tw/about/wnc",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated current company profile",
+      "locator": "Company profile, paragraph beginning「為滿足客戶多元技術整合產品之需求」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持車廠／車用電子客戶類別，但沒有「主要車廠」的定義或具名客戶。"
+    },
+    {
+      "source_id": "src-da85225806ffe965",
+      "title": "WNC 2025 Annual Report",
+      "url": "https://www.wnc.com.tw/uploads/files/shares/annual-reports/2025_WNC_Annual_Report_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 automotive business discussion",
+      "locator": "PDF p. 4, lines 102–108",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提到拓展汽車市場直供業務及車用產品，未確認 Tier-1 客戶身分。"
+    },
+    {
+      "source_id": "src-a7418c3c2b5f892b",
+      "title": "啓碁科技獲得 TUV NORD Taiwan Automotive SPICE CL2 級認證",
+      "url": "https://www.wnc.com.tw/news/wnc-receives-automotive-spice-cl2/detail",
+      "source_level": 3,
+      "publication_date": "2023-10-06",
+      "effective_period": "2023 announcement",
+      "locator": "Press release, executive statement on entering the global Tier-1 automaker supply chain",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將進入 Tier-1 車廠供應鏈描述為認證帶來的契機，並非現有客戶關係的確認。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦的官方公司簡介、2025 年年報及相關官方公告查核；剩餘原子缺少明確的客戶範圍、地域或現行 Tier-1 關係證據，故保留為 UNKNOWN。",
+    "官方年報對 LEO 服務營運商的表述是解決方案能力的前瞻描述，未提供特定客戶、合約或營收證據。",
+    "企業網路、資料中心及車用產品披露只證明產品布局，不能單獨證明相應買方類別。",
+    "官方簡介支持電信營運商及車廠等一般類別，但未提供各國客戶清單或「主要」的衡量口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6285/948/hermes-attempt-1.stdout.txt"
+}

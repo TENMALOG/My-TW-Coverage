@@ -1,0 +1,45 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000272",
+  "claim_id": "2402:objective_ranking_or_market_share:6eadc6e5bdc3ad83",
+  "normalized_claim_hash": "6eadc6e5bdc3ad83c1c2cb398bc7f4c817971b1dfaee8420333ad0a0e39421bb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2d7af8fefb29814fca1c",
+      "title": "切入高階應用市場，毅嘉(2402)FPC產品戰略能否全面開花?",
+      "url": "https://uanalyze.com.tw/articles/3013720805",
+      "source_level": 2,
+      "publication_date": "2025-06-03",
+      "effective_period": null,
+      "locator": "「從市場端來觀察」段落；文中稱「毅嘉市占率僅約1-2%」。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二級來源直接報導約1-2%，並在同段提及TPCA與工研院產科所的2024年全球軟板報告；但沒有清楚指出該市占數字的年份、原始資料或分母計量基礎。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦搜尋並找到一則直接報導該數字的二級來源，但未找到可核實該數字期間、分母基礎及原始依據的官方或獨立證據；依任務要求將未解範圍保留為UNKNOWN。",
+    "找到的1-2%說法來自二級來源，並非毅嘉官方或監管披露。",
+    "報導提及TPCA與工研院產科所的2024年全球軟板報告，但未明確說明毅嘉的1-2%數字是否直接取自該報告。",
+    "市占率的計算期間與分母計量基礎未披露；不能用相鄰的市場規模或公司營收資料補足。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2402/272/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "904936a8e27cb8c242b4e5243af97b260be426e52ca166d5bb84520a2c0d6024",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2402/272/isolated-prompt.txt",
+  "prompt_sha256": "59c445e68abb8804ff26acc47201727b162f08eaeb8454e975da5028c8d5feee",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000272/manifest.json",
+  "supersedes_manifest_sha256": "34bb8e125e585019a6b161e8ef916b904fc1d88cbfc35e80784258889f2dc763",
+  "corrected_at": "2026-10-08T09:57:59Z"
+}

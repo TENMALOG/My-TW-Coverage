@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001013",
+  "claim_id": "2383:material_named_relationship:fee79a79f19e5cdf",
+  "normalized_claim_hash": "fee79a79f19e5cdf7f9bc2cc0925ae266bbafdbe9a3c21389e6835c8b55ac591",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-5626e8c7ba8690f4",
+      "title": "2025–26 年 ASIC 伺服器市場成長為亮點 (KGI Taiwan electronic hardware report)",
+      "url": "https://www.kgi.com.hk/zh-cn/-/media/files/kgishk/research-reports/tw-reports/it-hardware-07072025e.pdf",
+      "source_level": 2,
+      "publication_date": "2025-07-07",
+      "effective_period": "Trainium 2/2.5 platform; report dated 2025-07-07",
+      "locator": "Table 19 and accompanying industry-survey text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies AWS Trainium 2/2.5 compute-tray CCL as M8."
+    },
+    {
+      "source_id": "src-91448766b14dc768",
+      "title": "台光電衝上千元俱樂部　法人上修下半年營收展望",
+      "url": "https://www.knews.com.tw/news/E370AF1D685F3C4A230254CA12301E85",
+      "source_level": 2,
+      "publication_date": "2025-07-18",
+      "effective_period": "AWS Trainium 2; reported 2025-07-18",
+      "locator": "Paragraph beginning “法人指出，台光電AI伺服器客戶均為一線大廠”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports, attributing the information to market analysts, that 台光電 exclusively supplies Trainium 2's M8-grade CCL."
+    },
+    {
+      "source_id": "src-7fb64cb032ca8eac",
+      "title": "富邦-AWS Trainium 3 伺服器展望-20260202",
+      "url": "https://www.scribd.com/document/1013677185/%E5%AF%8C%E9%82%A6-AWS-Trainium-3-%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%B1%95%E6%9C%9B-20260202",
+      "source_level": 2,
+      "publication_date": "2026-02-02",
+      "effective_period": "AWS Trainium 3 platform; report dated 2026-02-02",
+      "locator": "Section “新增 Switch Board，預期 CCL 台光電、台燿及 PCB 金像電將受益”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Names 台光電 and 台燿 as suppliers of M8 CCL for Trainium 3 compute trays; describes 台光電 as a main supplier for the switch board."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after four focused search turns: secondary evidence supports the Trainium 2 atoms and contradicts Trainium 3 exclusivity. Primary-source confirmation remains unavailable.",
+    "No issuer or AWS primary disclosure confirming the named supplier, M8 grade, or exclusivity was located.",
+    "The Trainium 2 exclusivity report attributes the information to market analysts; it does not disclose a measured supplier-share denominator.",
+    "The Trainium 3 evidence is a broker report hosted on Scribd; it distinguishes compute tray from switch board, and does not provide supplier allocation percentages."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2383/1013/hermes-attempt-1.stdout.txt"
+}

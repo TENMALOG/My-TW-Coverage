@@ -1,0 +1,49 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000045",
+  "claim_id": "2115:objective_ranking_or_market_share:ce0e7e4bf82e336c",
+  "normalized_claim_hash": "ce0e7e4bf82e336ce97448f6bae53a869f1b1925c49c846902b268999fd6ca8d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "luhai-2024-investor-conference",
+      "title": "六暉控股113年Q3法人說明會簡報（2024-11-06）",
+      "url": "https://emops.twse.com.tw/nas/STR/211520241106E001.pdf",
+      "source_level": 3,
+      "publication_date": "2024-11-06",
+      "effective_period": "2024年11月公司據點與營運現況。",
+      "locator": "PDF第5頁「Global Locations」列台灣總部與彰化田中、中國廈門廈暉與崑山陸暉、印尼PT. LUHAI等據點；作者原審查亦記載該頁分列人數與廠區面積。",
+      "source_sha256": "2fbb1843b0ba1ad369aeeb46a2e19906103fb94fe13d49bdcf0f422de1fcabef",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2115/45/luhai-2024-investor-conference.pdf",
+      "note": "發行人官方法說簡報，直接支持報告列出的四地據點；此為2024年快照。"
+    },
+    {
+      "source_id": "luhai-official-global-branches",
+      "title": "六暉工業（印尼）官方網站：全球分支機構",
+      "url": "https://www.luhai.id/zh-TW/our-product/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06可查的官網內容；頁尾標示©2023。",
+      "locator": "「全球分支機構」列印尼六暉、六暉控股、廈門廈暉、昆山六暉；下方地址列印尼萬丹省、台灣彰化縣田中鎮、中國廈門市集美區及昆山市花橋鎮（瀏覽器擷取文字第112–154行）。",
+      "note": "發行人官網目前仍列出相應法人／據點及地址，作為2024簡報後的存在性核對；頁面本身未明確把每個地址稱作生產線位置。"
+    },
+    {
+      "source_id": "moneydj-2013-indonesia-two-wheel-inner-tube-valve-share",
+      "title": "MoneyDJ：成本控制+胎壓偵測器更換需求，六暉營運添動能",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=5d02acf3-41cc-421b-baa8-0b3fef9c0dd3",
+      "source_level": 2,
+      "publication_date": "2013-12-23",
+      "effective_period": "報導2013年市場情況及當時法人研究估計。",
+      "locator": "正文稱六暉「在全球自行車與機車內胎氣門嘴市佔率極高，其中在中國與印尼兩輪內胎市佔率高達60%」；文章明言依據國內法人最新研究報告。",
+      "source_sha256": "3b757f26a26721da9b2e3cae9c939eee67794fa8dc58d1f2e1dfaf36d06ab980",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2115/45/moneydj-2013-market-share.html",
+      "note": "二手媒體轉述、逾12年前的法人研究估計；語句涉及中國與印尼兩地／兩輪內胎氣門嘴市場，不能確認為印尼單一市場目前市占。"
+    }
+  ],
+  "search_notes": [
+    "將四地生產據點與印尼兩輪內胎市占率拆為獨立原子主張。",
+    "2024年發行人法人說明會簡報第5頁直接列出台灣彰化田中、中國廈門與昆山、印尼等據點；發行人官網至今仍列上述公司據點及地址。",
+    "60%只在2013年MoneyDJ文章找到，該文轉述當時法人研究，表述為中國與印尼兩輪內胎氣門嘴市占高達60%；沒有印尼單一市場的明確拆分或現行份額。",
+    "2024年法說簡報未再披露該60%數字，最新年報及官網資料也沒有提供印尼兩輪內胎市占率。將未具期間且無現行直接證據的份額保留為UNKNOWN。"
+  ]
+}

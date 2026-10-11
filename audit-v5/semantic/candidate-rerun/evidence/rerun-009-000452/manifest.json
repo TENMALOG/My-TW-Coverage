@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000452",
+  "claim_id": "2852:objective_ranking_or_market_share:a9cea9f32089f2c8",
+  "normalized_claim_hash": "a9cea9f32089f2c89ef0ef9a6b6b6005939f7fb4b3083292270ab7fd2768ed94",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-3ea20c9080e08e228650",
+      "title": "商品審閱專區－第一產物保險股份有限公司",
+      "url": "https://www.firstins.com.tw/service/section/product-review",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「行銷通路專案商品保單條款樣張」表列「第一銀行-一保安心Plus 個人傷害保險專案」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第一保官方商品頁；支持具名通路商品專案，不足以證明長期合作。"
+    },
+    {
+      "source_id": "src-6eb57329dbd43b2d1eb0",
+      "title": "商品審閱專區－第一產物保險股份有限公司",
+      "url": "https://www.firstins.com.tw/service/section/product-review",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「行銷通路專案商品保單條款樣張」表列「第一銀行-一保安心Plus 個人傷害保險專案」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證明具名專案存在，不足以確定合作關係持續多久。"
+    },
+    {
+      "source_id": "src-9bc7d3fefc440c0aa8eb",
+      "title": "商品審閱專區－第一產物保險股份有限公司",
+      "url": "https://www.firstins.com.tw/service/section/product-review",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「行銷通路專案商品保單條款樣張」表列「華泰保經-新全日守護個人傷害保險專案」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持具名經紀人通路商品專案，不足以證明拓展業務的目的或結果。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行多輪聚焦檢索並查閱第一保官方商品頁；因工具呼叫迭代上限停止，長期性、車商保代及業務拓展目的仍待可直接確認的公司披露。",
+    "官方商品頁列示通路專案可支持具名商品與通路的關聯，但不單獨證明合作期間、銷售規模、通路增長或拓展業務的策略意圖。",
+    "年報 PDF 的網頁擷取未能取得正文，未據此推定年報內容。",
+    "未找到足以確認第一保車商保代通路使用情形的公司特定可靠證據；未找到不等於證明沒有使用。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2852/452/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "03af494874d75a9973580d9b652e8285dead57483f37093d56821de36513dec9",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2852/452/isolated-prompt.txt",
+  "prompt_sha256": "8eff920d495d2fa70df428abb9be402df1fac01bbf867cff87791ad57dff5453",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000452/manifest.json",
+  "supersedes_manifest_sha256": "311b454c2e19e1e709c2444aa8f9bd951adc59f3462668cded27c56278ea5456",
+  "corrected_at": "2026-10-08T09:58:14Z"
+}

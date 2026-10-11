@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000355",
+  "claim_id": "3687:objective_ranking_or_market_share:cae577f91575490d",
+  "normalized_claim_hash": "cae577f91575490df5a4c249bfafbbcf0efa91c3a18aa5d30f48fc1f08a42c21",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-da4c567cabc49638",
+      "title": "2024 永續報告書",
+      "url": "https://corp.ecpay.com.tw/wp-content/uploads/2025/08/%E7%B6%A0%E7%95%8C%E7%A7%91%E6%8A%80-2024-ESG%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "截至2024-12-31；報告期間為2024年度",
+      "locator": "第6–7頁，價值鏈簡介及2024年價值鏈重大變化",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露超過41.5萬名中小企業會員及年會員數41.5萬戶；沒有把該數字界定為賣家數或活躍商家數。"
+    },
+    {
+      "source_id": "src-57f65b4f22afb9c0",
+      "title": "公司治理－董事會（茂為歐買尬數位科技）",
+      "url": "https://www.macrowell.com.tw/financial/financial_b_dire2.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面所列董事會決議涵蓋2022年",
+      "locator": "董事會決議：2022-05-12提及增加對子公司綠界科技持股；另有配合綠界上櫃之決議",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面支持歷史上稱綠界為子公司，但未確認claim所指期間的現行關係。"
+    },
+    {
+      "source_id": "src-27b8e2a670010428",
+      "title": "綠界科技股份有限公司（統編97025978）公司資料",
+      "url": "https://info.technews.tw/company/97025978-%E7%B6%A0%E7%95%8C%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "頁面所列投資資料期間未明確標示",
+      "locator": "轉投資資料及董事資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級公司資料頁列茂為歐買尬持股26.31%；應以公開資訊觀測站原始申報確認，且該持股資訊不單獨判定控制關係。"
+    },
+    {
+      "source_id": "src-d303639ae92d926f",
+      "title": "綠界科技穩坐中小型電商支付龍頭 雙軌策略深化生態系護城河",
+      "url": "https://www.ecpay.com.tw/announcement/DetailAnnouncement?nID=6166",
+      "source_level": 3,
+      "publication_date": "2026-06-05",
+      "effective_period": "股東會新聞稿所述台灣中小型電商市場；基準期間未具體說明",
+      "locator": "第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述維持台灣中小型電商市場超過70%市占率；這不是整體第三方支付市場市占率，亦未說明計算口徑。"
+    },
+    {
+      "source_id": "src-a9d04eb9c83d7ab1",
+      "title": "綠界科技股份有限公司提升企業價值計畫",
+      "url": "https://corp.ecpay.com.tw/wp-content/uploads/2026/01/%E7%B6%A0%E7%95%8C%E7%A7%91%E6%8A%80%E6%8F%90%E5%8D%87%E4%BC%81%E6%A5%AD%E5%83%B9%E5%80%BC%E8%A8%88%E7%95%AB.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「風險及競爭評估」之「產業競爭分析」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方計畫明列LINE Pay、藍新科技為市場主要競爭者；文件未明示該描述的基準日。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索並找到官方業務、會員、競爭者及市場定位披露；仍缺少可確認整體第三方支付市占率分母與計算方法的資料，以及可確認現行子公司／控制關係的當期原始申報，故未以較窄市場或歷史稱謂替代未解範圍。",
+    "市占率與龍頭地位主要依綠界科技自身官方披露；未找到可獨立核驗其市占率計算口徑的監管或市場資料。",
+    "約七成的數字限於台灣中小型電商相關市場，不能代替整體第三方支付市場市占率。",
+    "41.5萬是公司披露的中小企業會員規模，來源未將其等同於電商賣家數或活躍商家數。",
+    "歐買尬官方頁面能證明2022年曾稱綠界為子公司，但未足以確認claim所指期間的現行控制關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3687/355/hermes-attempt-1.stdout.txt"
+}

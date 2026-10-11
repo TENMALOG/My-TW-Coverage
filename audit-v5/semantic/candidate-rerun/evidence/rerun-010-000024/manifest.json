@@ -1,0 +1,87 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000024",
+  "claim_id": "2206:objective_ranking_or_market_share:2206926921111339",
+  "normalized_claim_hash": "22069269211113398986f37513a8b5b0d3b474eddda9ab497c3e6564cd759dea",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-3affafa72ed1bec13c50",
+      "title": "Sanyang Motor 2025 Taiwan CEO Week",
+      "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2025/SYM_20250422_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-22",
+      "effective_period": "2024年營運情況；簡報發布於2025年",
+      "locator": "第3、4頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第4頁稱機車部門在台灣製造並銷售SYM機車；第3頁列新竹廠二輪車年產能30萬輛。"
+    },
+    {
+      "source_id": "src-795cad957ef226fcb3c5",
+      "title": "Sanyang Motor 2025 Taiwan CEO Week",
+      "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2025/SYM_20250422_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-22",
+      "effective_period": "2024年營運情況；簡報發布於2025年",
+      "locator": "第3、4頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第4頁稱汽車部門在台灣製造並進口Hyundai車輛；第3頁列新竹廠四輪車年產能2萬輛。"
+    },
+    {
+      "source_id": "src-621fe527370165646502",
+      "title": "About Sanyang - SANYANG MOTOR",
+      "url": "https://www.sanyang.com.tw/en/about-page84",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為「the sole international enterprise in Taiwan that manufactures both motorcycles and automobiles」；這是發行人自我陳述，未提供競爭者清單或比較方法。"
+    },
+    {
+      "source_id": "src-d8abb5fc75c662955449",
+      "title": "Sanyang Motor 2025 Taiwan CEO Week",
+      "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2025/SYM_20250422_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-22",
+      "effective_period": "2024年營收及簡報發布時所列資料",
+      "locator": "第3頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "簡報列示2024年營收新台幣656億元、全職員工2,300人及新竹廠二輪與四輪車產能；未定義「重量級」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已查閱公司網站、2025年公司投資簡報及車輛產業相關搜尋結果；仍未找到能驗證全台唯一性的完整比較資料，也未找到「重量級」的明確標準，故這些原子主張維持UNKNOWN。",
+    "製造能力與簡報所列產能有公司一手資料支持；產能不代表實際產量。",
+    "「台灣唯一」目前只有公司自述支持，缺少可驗證全體比較範圍的獨立官方資料。",
+    "「重量級」未提供可操作的定義或門檻。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2206/24/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "87b90ffdfb84cf7ef27b1b3a2d29e44688583345b255dca1d02a6d88e8e2183a",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2206/24/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "4f6b8d8e54bd7f1189ac85679bdd32be979f0974bec447c27d3a002c85dedf19",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

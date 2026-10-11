@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000536",
+  "claim_id": "8478:objective_ranking_or_market_share:803bb81e8eda9129",
+  "normalized_claim_hash": "803bb81e8eda91299c57458dc8e1dc83cc4a59cb1d04e6a695fe8b080f6206a0",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-69ddea7c1ee47db61f77",
+      "title": "About MarineMax Yachts",
+      "url": "https://www.marinemax.com/yachts/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening statement under “About MarineMax Yachts”; “Largest Dealership” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MarineMax's own page says it is the world's largest stocking yacht dealer and operates over 50 stores and specialist yacht sales and service centers throughout the USA. It does not substantiate an independently measured U.S. ranking."
+    },
+    {
+      "source_id": "src-e840069c39a83e860e6a",
+      "title": "東哥企業股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=b88c6e84-de94-44c3-bab3-2335aa67f867",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介—沿革與背景",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary profile calls MarineMax the largest yacht-sales channel company in the U.S. and gives an approximate outlet count, but supplies no date, rank methodology, or market denominator."
+    },
+    {
+      "source_id": "src-ad0be7096587b5641354",
+      "title": "About MarineMax Yachts",
+      "url": "https://www.marinemax.com/yachts/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "“Largest Dealership” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports over 50 stores and specialist yacht sales and service centers in the USA (an absolute count); it does not state a percentage or market share."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after five focused research turns. The available primary and secondary evidence does not resolve the U.S.-only ranking on a defined basis or the unexplained 50%+ figure.",
+    "MarineMax's ranking language is its own company description; no independent ranking with a defined metric and comparison set was located.",
+    "The official MarineMax page's “over 50” is a store/center count, not 50%+.",
+    "The claim's period and the percentage's metric and denominator are unspecified."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8478/536/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "aa7ef184d5f8562fc9bd4d4077a9766168c567fef953109576db67c78eaff4db",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8478/536/isolated-prompt.txt",
+  "prompt_sha256": "c7445aa25b4a5aca7f74610e0d2188b7f3cc1f25f1efdff04d0ff5b512965bc1",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000536/manifest.json",
+  "supersedes_manifest_sha256": "2860b4c2f341c4f3c95c62147727d95608ab18e92d0f1696dad24cff1240b0cf",
+  "corrected_at": "2026-10-08T09:58:21Z"
+}

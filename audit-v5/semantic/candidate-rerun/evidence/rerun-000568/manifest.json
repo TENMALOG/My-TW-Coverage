@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000568",
+  "claim_id": "6147:objective_ranking_or_market_share:b5110c677f121bef",
+  "normalized_claim_hash": "b5110c677f121bef55be7c303c97a582609e84a022c5403a366e0ffedb1c29b2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9cc6c6bc74e7fa35",
+      "title": "About Chipbond",
+      "url": "https://www.chipbond.com.tw/en/html/about-chipbond",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Diverse and High-Quality Packaging and Testing Solutions",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司明列 wafer-level bumps（BUMP）製造服務。"
+    },
+    {
+      "source_id": "src-d996f1fe096d0890",
+      "title": "挖掘隱形冠軍：頎邦(6147)",
+      "url": "https://www.sie.com.tw/Luckylong/article.do?id=A20240513707199CIB",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章開頭產業地位描述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手來源稱頎邦在面板驅動 IC 封測領域市占率高達 50%；沒有提供數據來源、分母或統計期間。"
+    },
+    {
+      "source_id": "src-a81abf01bfde1abb",
+      "title": "【研究報告】頎邦 (6147) 中高階測試產能嚴重吃緊，漲價風暴即將來襲",
+      "url": "https://www.cmoney.tw/notes/note-detail.aspx?nid=245868",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "文章開頭產業地位描述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手研究報告稱驅動 IC 封裝全球市占率約 50%，但未交代分母、統計期間或排名方法，不能據此核實原 claim 的精確口徑。"
+    },
+    {
+      "source_id": "src-4f77d37d7dab4ca4",
+      "title": "Products | Chipbond — COF",
+      "url": "https://www.chipbond.com.tw/en/product/processing_service/package/cof",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "COF manufacturing process and production experience",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司說明 COF 製程，並表示具備 COF 封裝生產經驗與技術。"
+    },
+    {
+      "source_id": "src-1667bd61d5a5b496",
+      "title": "Products | Chipbond — COG",
+      "url": "https://www.chipbond.com.tw/en/product/processing_service/package/cog",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "COG introduction and production experience",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司說明 COG 是驅動 IC 封裝技術，並稱具備相關製程經驗與能力。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱頎邦官方公司介紹與 COF、COG 產品資料，並追查二手市占率說法；未找到能界定約 50% 市占率口徑或純封裝全球排名的可靠來源，故保留相關原子為 UNKNOWN。",
+    "全球最大之排名證據是公司自述，且表述為封裝測試廠，並非獨立的純封裝排名。",
+    "約 50% 的市占率數字僅見於二手報導；市場分母、範圍及統計期間不明，不能視為已核實。",
+    "官方產品頁可支持 COF、COG 及凸塊服務存在，但未提供服務占比或市場排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6147/568/hermes-attempt-1.stdout.txt"
+}

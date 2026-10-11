@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000908",
+  "claim_id": "8114:material_named_relationship:921e6972ef8ae42f",
+  "normalized_claim_hash": "921e6972ef8ae42fbcdddb9bfe8da6065a86427b475d065bf31cae5638e11da2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-351912a58a60d0cf",
+      "title": "About Portwell",
+      "url": "https://www.portwell.com.tw/about/",
+      "source_level": 3,
+      "publication_date": "2020-07-29（頁面標示）",
+      "effective_period": null,
+      "locator": "About Portwell；公司業務介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司介紹僅作一般業務背景，未確認主張中的「車用智聯網」業務範圍。"
+    },
+    {
+      "source_id": "src-bd4a71428cce9a34",
+      "title": "2024 年報",
+      "url": "https://www.posiflex.com/tw/investor/report-detail/2024/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 年報（報告期依年報；頁面未顯示具體期間）",
+      "locator": "振樺電子官方投資人專區，2024 年報下載頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面確認年報可供下載，但未取得可核實寧德時代供應鏈關係的內容；不能據此支持或否定主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦檢索，仍未找到能核實三家具名企業供應鏈關係及其期間、產品範圍的可靠證據；官方投資人頁面無法直接擷取年報內容，故未作超出證據的推斷。",
+    "原主張沒有明確期間，也未說明供應的產品、交易範圍或供應鏈關係所指的具體法人，因此期間及關係定義均無法綁定。",
+    "檢索到的官方公司資料未能確認三家具名企業與振樺電的供應關係；官方投資人年報頁面僅為下載索引，不能當作客戶關係的證明。",
+    "沒有足夠證據將主張判為矛盾；本次 UNKNOWN 不代表已證明不存在相關關係。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8114/908/hermes-attempt-1.stdout.txt"
+}

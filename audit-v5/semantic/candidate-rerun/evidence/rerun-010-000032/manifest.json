@@ -1,0 +1,60 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000032",
+  "claim_id": "1521:objective_ranking_or_market_share:b0344d1922014380",
+  "normalized_claim_hash": "b0344d1922014380274da1d2e808148008ddae47291dd07ef5f7ce218ba8ccf4",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-fbf16e87265c57e176b5",
+      "title": "大億交通工業製造股份有限公司：大億的理念與願景／經營理念",
+      "url": "https://www.tayih-ind.com.tw/aboutus/%E7%B6%93%E7%87%9F%E7%90%86%E5%BF%B5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「經營理念」段落及「國內OEM市場／72%／市佔率／全台第一」區塊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面直接自述全台第一；未提供排名調查、比較廠商或計算口徑。"
+    },
+    {
+      "source_id": "src-234f274eb5a54df29683",
+      "title": "大億交通工業製造股份有限公司：大億的理念與願景／經營理念",
+      "url": "https://www.tayih-ind.com.tw/aboutus/%E7%B6%93%E7%87%9F%E7%90%86%E5%BF%B5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「經營理念」段落及「國內OEM市場／72%／市佔率」區塊",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面直接公布 72% 數字；未標明數據年度或市佔計算方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已取得大億交通官方理念頁原文，直接包含「全台第一」及「國內 OEM 市場 72% 市佔率」；保留未揭露期間與計算口徑的 caveats，停止進一步搜尋。",
+    "關鍵排名與市佔數字來自公司官方自述，沒有找到可獨立核驗其排名或 72% 計算方法的資料。",
+    "官方頁面未標註該數字的有效期間，也未界定市佔分母採營收、出貨量或其他口徑。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1521/32/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "c37c09e933d25c0a1bf79b267d3f2b33420ed02ea8c8d759c4cdafa725f62a75",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1521/32/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "67220ba270b780f253c7c39a4ebdf08c7f217a9edc505576d2cdc6df0da97929",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

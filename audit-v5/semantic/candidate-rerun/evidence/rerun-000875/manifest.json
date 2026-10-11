@@ -1,0 +1,84 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000875",
+  "claim_id": "1506:material_named_relationship:bfd3eddf17697b9b",
+  "normalized_claim_hash": "bfd3eddf17697b9b2d4ed52f68f6bbeffb448e740b6fb89a0a8634165205f06c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2dd781ee8279eb1f",
+      "title": "正道工業股份有限公司 114年度年報",
+      "url": "https://www.rightway.com.tw/userfiles/%E6%AD%A3%E9%81%93114%E5%B9%B4%E5%A0%B1(%E4%B8%8A%E5%82%B3).pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-15",
+      "effective_period": "FY2024–FY2025",
+      "locator": "PDF pp. 83–84, recent two years' major sales customers table",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Provides named customer sales and shares for Thermo King and Perusahaan Otomobil Nasional; it does not provide Yamaha-specific sales."
+    },
+    {
+      "source_id": "src-277bafd00abae014",
+      "title": "Our Story — Trane Technologies",
+      "url": "https://www.tranetechnologies.com/en/index/our-story.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current corporate description; page accessed 2026-10-07",
+      "locator": "Sections “Our strategic brands” and “Thermo King”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies Thermo King as a Trane Technologies brand; this does not establish a direct customer relationship between the issuer and Trane Technologies."
+    },
+    {
+      "source_id": "src-c227fb38822134f0",
+      "title": "正道工業 2024年永續報告書",
+      "url": "https://www.rightway.com.tw/userfiles/%E6%AD%A3%E9%81%93%E5%B7%A5%E6%A5%AD%202024%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007 and 2010 award events; report covers 2024",
+      "locator": "PDF p. 16, company history",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Records a BRP Supplier Recognition Program award in 2007 and a BRP quality award in 2010."
+    },
+    {
+      "source_id": "src-ff8c8fc5769b08de",
+      "title": "顧客 — 正道工業",
+      "url": "https://www.rightway.com.tw/index.php?id=258&index=4&lang=cht&option=module&task=pageinfo",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Customer page, customer-logo section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports a customer listing, not a sales-based major-customer designation."
+    },
+    {
+      "source_id": "src-3a3aa86dd68197c8",
+      "title": "正道工業 104年度年報",
+      "url": "https://www.rightway.com.tw/userfiles/104%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2014 supplier relationship; report covers FY2015",
+      "locator": "PDF p. 4, shareholder letter / 2016 outlook",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the company became a major U.S. Polaris aluminum-forging supplier in 2014."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8輪聚焦檢索。官方資料足以核實Thermo King為FY2025最大客戶及部分客戶關係，但未能核實Trane Technologies獨立直接客戶身分、各客戶對應產品或其他具名客戶的當期銷售規模；依契約停止並保留未解原子為UNKNOWN。",
+    "正道工業FY2025年報提供Thermo King的最新銷售額及淨銷貨額占比；這是最明確的「主要客戶」支持。",
+    "Trane Technologies官方資料將Thermo King列為其品牌；這種母品牌關係不能單獨證明Trane Technologies本身是正道工業的直接交易客戶。",
+    "客戶頁的品牌標誌支持公司將相關品牌列作客戶，但未提供有效期間、銷售額、銷售占比或排名。",
+    "歷史供應商獎項及2014年Polaris供應商陳述可支持過往關係，不能直接推定當期銷售或當期主要客戶地位。",
+    "產品線／市場類別與個別客戶之間沒有在查得的公司一手資料中明確配對。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1506/875/hermes-attempt-1.stdout.txt"
+}

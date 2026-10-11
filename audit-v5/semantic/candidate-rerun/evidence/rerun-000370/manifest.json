@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000370",
+  "claim_id": "3360:objective_ranking_or_market_share:1e5c4a342b962d2f",
+  "normalized_claim_hash": "1e5c4a342b962d2f17c05c39e339681b888beebe2f56846942dcff4f21330a9f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-87f1fad8dff67a40",
+      "title": "Sony Showcases its Unconventional Image Sensors at CEATEC 2024",
+      "url": "https://www.sony.com/en/SonyInfo/blog/2024/10/07",
+      "source_level": 3,
+      "publication_date": "2024-10-07",
+      "effective_period": "2023 sales",
+      "locator": "Search-result snippet referring to Sony as No. 1 by image-sensor sales and stating 53% in 2023",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official-source discovery lead only; the page text was not verified, and global market leadership would not establish 尚立-specific supplier ranking."
+    },
+    {
+      "source_id": "src-fa463075419481a5",
+      "title": "Sony is set to capture 50% of the CIS market",
+      "url": "https://www.yolegroup.com/press-release/sony-is-set-to-capture-50-of-the-cis-market/",
+      "source_level": 2,
+      "publication_date": "2024-07-03",
+      "effective_period": "Market discussion covering 2023 and projections through 2029",
+      "locator": "Search-result snippet discussing Sony’s CIS market share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reputable-secondary discovery lead only; it does not establish the intended market scope of the claim."
+    },
+    {
+      "source_id": "src-d5451064a9264859",
+      "title": "尚立首季營收年減，後市手機CIS需求看增",
+      "url": "https://www.moneydj.com/KMDJ/news/newsviewer.aspx?a=4d598482-d881-4b7f-83cf-5594a673f14d",
+      "source_level": 2,
+      "publication_date": "2024-04-08",
+      "effective_period": "2024 outlook; article also refers to 2023 product applications",
+      "locator": "Search-result snippet describing Sony CIS as 尚立’s main agency product and giving a company-revenue share",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary discovery lead only, not independently verified; the stated revenue share is not treated as proof of ranking."
+    },
+    {
+      "source_id": "src-10ab50603a944e1b",
+      "title": "尚立(3360)Sony在台灣CIS代理商，下半年挑戰轉盈？",
+      "url": "https://uanalyze.com.tw/articles/6437012539",
+      "source_level": 2,
+      "publication_date": "2025-03-25",
+      "effective_period": "2025 article context",
+      "locator": "Search-result snippet describing 尚立 as a Sony CIS agent in Taiwan and calling CIS a core business",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary discovery lead only; not independently verified from the article text."
+    },
+    {
+      "source_id": "src-5d1eb8a151b2095a",
+      "title": "尚立股份有限公司 113年股東常會年報",
+      "url": "https://www.sunnic.com/tw//upload_files/fonlego-rwd/download/01113%E5%B9%B4-%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83-%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87-(0515)-%E4%B8%8A%E5%82%B3(1).pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023 fiscal year",
+      "locator": "Annual-report PDF; extracted text was garbled, preventing verification of relevant disclosures or page locator",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer source, but the retrieved text did not resolve the claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after reaching the research limit; unresolved scope, period, and source-verification issues remain.",
+    "Search-result snippets were treated as discovery leads, not as evidence.",
+    "The issuer annual-report PDF was retrieved, but its extracted text was garbled and yielded no usable locator.",
+    "No verified evidence established the period, market definition, or denominator for “largest supplier.”"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3360/370/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001236",
+  "claim_id": "8996:material_named_relationship:c5043cc84b2f2ef8",
+  "normalized_claim_hash": "c5043cc84b2f2ef84495db47d1e608f0b67a1a019cea896840ca454b7f3299f9",
+  "accessed_date": "2026-10-07",
+  "sources": [],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after the web extraction tool loop warning, as required; unresolved atoms remain UNKNOWN.",
+    "No source was successfully retrieved, so no factual conclusion is drawn from absence of evidence.",
+    "The available web extraction tool returned a backend limitation and then a tool loop warning; no source locators or publication dates can be supplied."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8996/1236/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "022c40da085d97794671d4658b89510c4ff9cd6045d45478b50ecee666078e01",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8996/1236/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "f0fdbbaa558f2cffa68b1fa655e283b955ea5f0390d8ce21ce24467a579bab02",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001236/manifest.json",
+  "supersedes_manifest_sha256": "5e6b53104058db12d2d6b113c02fde6bf2704d277050c7cda159ab85e13ba4e0",
+  "corrected_at": "2026-10-08T09:59:33Z"
+}

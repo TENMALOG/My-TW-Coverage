@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000622",
+  "claim_id": "6239:objective_ranking_or_market_share:1ef7e877642549e6",
+  "normalized_claim_hash": "1ef7e877642549e6ecc29f4b6d4d58e9f7df56b43d26972b9f9a07a5fb0c3b37",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f7f4eb8586c1641ad2c9",
+      "title": "Top 10 OSAT Companies of 2024 Revealed—China Players See Double-Digit Growth, Reshaping the Global Market Landscape, Says TrendForce",
+      "url": "https://www.trendforce.com/presscenter/news/20250513-12577.html",
+      "source_level": 2,
+      "publication_date": "2025-05-13",
+      "effective_period": "2024年度",
+      "locator": "Powertech Technology排名段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確稱力成排名第五，營收US$2.28B；排名範圍是全球OSAT，計量依據為營收。"
+    },
+    {
+      "source_id": "src-eeb1f2eea08a1098409d",
+      "title": "About PTI - Powertech Technology Inc.",
+      "url": "https://pti.com.tw/en/about/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Our Vision段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱其為「world's leading memory packaging and testing solution provider」；這是未附排名或比較方法的公司自述，不能證明「最大」。"
+    },
+    {
+      "source_id": "src-6085d1d3878705bd8c2b",
+      "title": "Powertech Technology Inc. 2023 Annual Report",
+      "url": "https://www.pti.com.tw/Handlers/CompanyAnnualReportDownload.ashx?id=2b236895-54d5-4277-9800-b1dae0032a3c&lang=en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度",
+      "locator": "V. Operational Highlights, Industry Summary / State of Competition",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱公司將維持記憶體封裝測試的領先地位，但未提出記憶體封測市場的比較排名或「最大」依據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對全球OSAT排名、官方公司資料及記憶體封測排名的聚焦檢索；找到可支持2024年度一般OSAT第五名的來源，但未找到可靠且界定期間與市場分母的證據證明記憶體封測領域全球最大，該原子保留UNKNOWN。",
+    "2024年度第五名是一般全球OSAT營收排名，不是記憶體封測專屬排名，也不應外推至未標明的其他期間。",
+    "力成官方資料中的「領先」屬公司自述，未提供可驗證全球最大排名所需的期間、市場範圍、分母或衡量指標。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6239/622/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "27ff034a64af8540c40ba21d3497f0b74e9cfae4109379af162c1183ecd44b36",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6239/622/isolated-prompt.txt",
+  "prompt_sha256": "f0fce5b69c991ce54caa56ce470c0acfb56cc1195e9215e912adc065b8d5ff19",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000622/manifest.json",
+  "supersedes_manifest_sha256": "7efada1057ced63b79a06c30ca24fa7585a36f3d34a5e0ad2c3dc0e9509637aa",
+  "corrected_at": "2026-10-08T09:58:28Z"
+}

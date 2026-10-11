@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000029",
+  "claim_id": "1339:objective_ranking_or_market_share:375175af06d90a6f",
+  "normalized_claim_hash": "375175af06d90a6ffde450be286a206887f4ab28adf1002af9832a4ab4b5ffd5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "ycc-2024-shareholders-annual-report-corrected",
+      "title": "昭輝實業2024年股東會年報（會後修訂版）",
+      "url": "https://www.yccco.com.tw/upload/2025/12/20251229060221084.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-29",
+      "effective_period": "2024年度年報；客戶集中度揭露回顧最近二年度。",
+      "locator": "PDF印刷頁64至66：CAPA產品認證敘述；印刷頁74「進貨或銷貨集中所面臨之風險」：最近二年度銷貨客戶A集團比率高於10%，其餘客戶銷售金額相對分散。",
+      "source_sha256": "a29e3c39c8856fca9aec760f78ecb0f59ab86f913a6aa82a2336c7a1142df2d5",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/29/ycc-2024-shareholders-annual-report-corrected.pdf",
+      "note": "發行人正式年報。A集團名稱未公開，年報沒有列出前兩大客戶合計比率；CAPA內容是部分產品認證，不等於公司整體取得公司級認證。"
+    },
+    {
+      "source_id": "ycc-2024-sustainability-report",
+      "title": "YCC 2024 Sustainability Report（昭輝2024年永續報告書）",
+      "url": "https://www.yccco.com.tw/upload/2025/08/20250829103955989.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-29",
+      "effective_period": "封面標示2024年報告；報告於2025年上傳。",
+      "locator": "PDF第5頁董事長序：稱YCC為LKQ的重要供應商，描述LKQ為美國最大AM零件通路，並稱YCC有400多件CAPA認證產品；第6頁公司沿革分列2000年生產線CAPA Association認證及2001年CAPA產品認證；第48頁說明CAPA產品認證測試。",
+      "source_sha256": "82fa2fe11c8c71eb07deb0abf39bb1ef4a563042d83875bdd94cb8d784167811",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/29/ycc-2025-sustainability-report.pdf",
+      "note": "發行人報告支持重要供應關係與產品認證，且明確把生產線認證、產品認證分開列示；LKQ最大通路排名屬公司報告中的描述，非本次取得的獨立市占統計。"
+    },
+    {
+      "source_id": "capa-participants",
+      "title": "CAPA Certified — Participants",
+      "url": "https://www.capacertified.org/Participants",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06查閱的CAPA名冊。",
+      "locator": "名冊列出Y.C.C. Parts Manufacturing Co., Ltd.及其彰化地址。",
+      "source_sha256": "cab30a12151376220e7efe0428b37c43d417ba92a5c8e64d901525ffe1cebcad",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/29/capa-participants.html",
+      "note": "CAPA參與者名冊可證明參與者身分，不能單獨證明公司本體持有一項涵蓋全公司的品質認證。"
+    },
+    {
+      "source_id": "capa-ycc-certified-part-example",
+      "title": "CAPA Certified Part Search — Y.C.C. Parts Manufacturing Co., Ltd.",
+      "url": "https://www.capacertified.org/SealSearch/SealSearchResults?sealnum=86477803",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "CAPA資料庫於2026-10-06查閱；列出特定YCC零件及認證狀態。",
+      "locator": "搜尋結果列出料號Y-HDBP179CA，狀態Certified，Honda Accord 2013–2015前保險桿外蓋。",
+      "source_sha256": "71392bed82f189184633c075d3d802f6c69b252996d68ee1e4108410b4485800",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/29/capa-ycc-part-search.html",
+      "note": "特定零件的認證例證；不代表YCC全部產品或公司整體。"
+    },
+    {
+      "source_id": "lkq-2025-10k",
+      "title": "LKQ Corporation 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1065696/000106569626000012/lkq-20251231.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "LKQ 2025財政年度申報，於2026年提交。",
+      "locator": "North America業務描述將LKQ稱為替代碰撞件的leading provider；未以該處文字確認其為北美最大AM經銷商，也未識別YCC為最大供應商或客戶。",
+      "source_sha256": "f1429b846dfb35c1ac28ed66f15de648ced3f6efa35870621af5eadc98c073da",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1339/29/lkq-2025-10k.html",
+      "note": "LKQ官方申報作為交叉核對；沒有列出YCC名稱或其對LKQ銷售占比。"
+    }
+  ],
+  "search_notes": [
+    "將CAPA認證範圍拆成產品認證、生產線歷史認證及公司參與者身分，避免把不同認證對象合併。",
+    "先查發行人最新永續報告與股東會年報，再比對CAPA官方名冊／產品紀錄及LKQ官方年報。",
+    "YCC年報以A集團匿名披露一筆逾10%客戶，不能把客戶代號推定為LKQ或N Group。",
+    "歷史二手來源中的客戶排名與占比有年份限制，不能當作現行營收結構。"
+  ]
+}

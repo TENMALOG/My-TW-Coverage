@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000602",
+  "claim_id": "3527:objective_ranking_or_market_share:8eb795fd7f9d812e",
+  "normalized_claim_hash": "8eb795fd7f9d812e99f25ee826c3af6ae5b997613a33b7953586af93231b9fe6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f81e8b20811567ec",
+      "title": "MBI 法說會 2018/05/09 (英文)",
+      "url": "https://mopsov.twse.com.tw/nas/STR/352720180509E001.pdf",
+      "source_level": 3,
+      "publication_date": "2018-05-09",
+      "effective_period": "Presentation dated 2018-05-09; ranking measurement period not stated.",
+      "locator": "Slides 2 and 4: “World No.1 LED signage display driver IC supplier”; “No.1 market share in fine-pitch display driver IC market.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer presentation hosted in the Taiwan market disclosure system. It is primary evidence of the issuer’s statement, not independent substantiation of the ranking or its denominator."
+    },
+    {
+      "source_id": "src-5f46b229db2b0d1f",
+      "title": "聚積科技｜Macroblock",
+      "url": "https://www.mblock.com.tw/zh-tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated company webpage, as presented during this review.",
+      "locator": "LED 顯示屏驅動晶片 section.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The page identifies the LED display driver IC offering as suitable for ultra-small-pitch, mini-LED, and micro-LED displays."
+    },
+    {
+      "source_id": "src-4208126d36a47cde",
+      "title": "IoT｜精準行銷 ∣聚積科技",
+      "url": "https://www.mblock.com.tw/zh-tw/iot?sub=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated company webpage, as presented during this review.",
+      "locator": "「精準行銷系統方案」section and accompanying description of 聚積科技精準行銷商情分析系統.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page describing the system and its IoT retail applications."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱 issuer 官方簡報及公司產品、IoT 頁面，並以聚焦搜尋核對排名佐證。排名原子仍缺少明確期間、完整市場定義及分母，故保留 UNKNOWN；其餘兩項由公司官方頁面支持。",
+    "排名證據來自聚積科技自己的 2018 年法說會簡報，未提供可核驗的市場份額數值、計算方法或明確排名期間。",
+    "Mini LED／Micro LED 驅動 IC 與 IoT 系統的證據來自未標示日期的公司網站頁面，支持公司目前列示的產品與服務，不足以確定其推出時間或歷史持續期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3527/602/hermes-attempt-1.stdout.txt"
+}

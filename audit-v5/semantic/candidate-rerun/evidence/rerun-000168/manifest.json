@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000168",
+  "claim_id": "8089:objective_ranking_or_market_share:cee0f405aeaab0db",
+  "normalized_claim_hash": "cee0f405aeaab0dbd0c3d47eef506b43346384e5a60dab75b42d52b3651b519b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-058b036b85f0e85d",
+      "title": "Jio ARPU at Rs 181.7, 5G base swells to 108 million subscribers",
+      "url": "https://moneycontrol.com/news/business/earnings/jio-arpu-at-rs-181-7-5g-base-swells-to-108-million-subscribers-12695391.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2024；截至2024年3月31日的業者資料",
+      "locator": "文章導言及 Jio FY2024 訂戶、5G 訂戶段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 Jio 為印度最大行動電話業者；屬二級來源。"
+    },
+    {
+      "source_id": "src-c886e7ed551e77fd",
+      "title": "Highlights of Telecom Subscription Data as on 30th November, 2024",
+      "url": "https://trai.gov.in/sites/default/files/2025-01/PR_No.06of2025.pdf",
+      "source_level": 3,
+      "publication_date": "2025-01-22",
+      "effective_period": "截至2024-11-30",
+      "locator": "Top five Wireless Broadband Service providers 表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方監管資料列 Reliance Jio 465.10 million、Bharti Airtel 280.76 million；此處口徑是無線寬頻服務訂戶，不是完整行動電信訂戶排名。"
+    },
+    {
+      "source_id": "src-0608cdba6cd543a6",
+      "title": "訊舟看好印度市場 搶攻電信設備商機",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f93aba50-7979-4521-91f6-c956d8cf8a2b",
+      "source_level": 2,
+      "publication_date": "2024-09-25",
+      "effective_period": "2024年",
+      "locator": "文章首段及第二段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱標案挹注營運動能，但沒有提供標案收入或營收增幅的因果拆分。"
+    },
+    {
+      "source_id": "src-e0745d5cf605c50f",
+      "title": "個股分析：康全電訊(8089)搶下印度電信標案，Q2出貨加溫營收看旺",
+      "url": "https://fnc.ebc.net.tw/fncnews/stock/169519",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年",
+      "locator": "文章中標案產品與DPU說明段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "描述康全的印度標案與DPU，未稱為5G CPE標案，亦未給出規模。"
+    },
+    {
+      "source_id": "src-ba9bf2b916a2eace",
+      "title": "印度衝5G基建 台鏈跟著旺",
+      "url": "https://www.ctee.com.tw/news/20241014700067-439901",
+      "source_level": 2,
+      "publication_date": "2024-10-14",
+      "effective_period": "2024年1月至9月",
+      "locator": "文章末段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列出康全前三季總營收成長，沒有量化標案對成長的貢獻。"
+    },
+    {
+      "source_id": "src-636cf2f354f6258e",
+      "title": "營收速報 - 康全電訊(8089)10月營收4.48億元年增率高達460.86％",
+      "url": "https://news.cnyes.com/news/id/5771342",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024年1月至10月",
+      "locator": "累計營收段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導列累計營收新台幣35.63億元、年增348.44%；屬整體營收。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達本輪工具研究次數上限；尚未解決的買方、5G CPE產品範圍、標案規模及營收因果歸屬保留為 UNKNOWN。",
+    "標案買方、產品類型、合約金額與出貨數量未由可查來源確認。",
+    "Jio訂戶排名的官方佐證採用無線寬頻訂戶口徑，不等同所有行動電信訂戶口徑。",
+    "營收成長數據是康全整體營收，不能直接視為印度標案或5G CPE營收。",
+    "標案及營收因果關係主要來自二級媒體對公司說法的報導；未找到可量化歸因的官方披露。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8089/168/hermes-attempt-1.stdout.txt"
+}

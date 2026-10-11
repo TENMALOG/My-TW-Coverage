@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001046",
+  "claim_id": "3605:material_named_relationship:9afdef477b549205",
+  "normalized_claim_hash": "9afdef477b5492056185f8ebb7059881e1761a3bdf3698f244bd300ad2fd96b9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9b069f8b11bb081b",
+      "title": "宏致電子 2025 Investor Conference",
+      "url": "https://www.acesconn.com/upload/investor/%28CN%29%20ACES%20Investor%20Conference-20250910_FINAL.pdf",
+      "source_level": 3,
+      "publication_date": "2025-09-10",
+      "effective_period": "截至 2025-09-10 的產品組合與應用說明",
+      "locator": "PDF 第 14–15 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列有伺服器／資料中心應用的高速連接器產品。"
+    },
+    {
+      "source_id": "src-bc042e894a6ed611",
+      "title": "宏致併購美國Genesis 強化網通、雲端佈局",
+      "url": "https://www.acesconn.com/tw/news_detail?id=44",
+      "source_level": 3,
+      "publication_date": "2020-12-17",
+      "effective_period": "2020 年收購公告及當時所述 Genesis 產品／市場布局",
+      "locator": "第 14–18 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告描述 Genesis 的雲端資料中心、網通及高速連接器／線產品，並說明併購的布局目的；沒有披露其後營收貢獻或「帶動」程度。"
+    },
+    {
+      "source_id": "src-362f9ef0f92b3d0f",
+      "title": "ACES Wire Harness 產品頁",
+      "url": "https://www.acesconn.com/tw/family_list/Wire%20Harness/44",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品分類頁標題「Wire Harness」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方產品目錄列有線束產品。"
+    },
+    {
+      "source_id": "src-f1ba30d09e1ad4bf",
+      "title": "宏致集團簡介",
+      "url": "https://www.acesconn.com/tw/about2",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "第 43–46 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將 MEC 龍翰列為連接線事業群，產品包含高速傳輸線材、模組與車用線束。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達最多 8 個研究回合。營收占比的期間與分母，以及 Genesis 對該營收的具體貢獻仍未有足夠證據。",
+    "原 claim 未提供報告日期、營收期間或「雲端／伺服器」分類口徑。",
+    "公司 2025 年簡報的市場分布圖沒有明確標示營收分母，不能直接等同營收占比。",
+    "線束證據確認的是公司產品目錄／集團事業範圍，不能推導其營收貢獻或與伺服器產品的關聯。",
+    "已查到的最新公司法說材料為 2025-09-10；檢索未取得 2026 年材料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3605/1046/hermes-attempt-1.stdout.txt"
+}

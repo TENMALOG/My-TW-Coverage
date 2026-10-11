@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000657",
+  "claim_id": "6738:objective_ranking_or_market_share:7d16cd36e6e8ebf5",
+  "normalized_claim_hash": "7d16cd36e6e8ebf5d956cee3cc515baaefa9ea19ab495ac973e115aeb9d3dcfa",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8bd7df8af47d5165",
+      "title": "鼎恒攜手台灣微軟策略結盟　拓展HR SaaS國際版圖",
+      "url": "https://finance.ettoday.net/news/2572025",
+      "source_level": 2,
+      "publication_date": "2023-08-30",
+      "effective_period": "2023-08-30 報導所述 SPT-DN 合作",
+      "locator": "「在與微軟合作上」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱 MAYO 為微軟 SPT-DN 計畫在台灣首家 HR SaaS 合作夥伴；「首家」及該計畫範圍不等於「唯一 HR 創新合作夥伴」。"
+    },
+    {
+      "source_id": "src-b6688cad5fab8ed8",
+      "title": "鼎恒數位科技股份有限公司/MAYOHR",
+      "url": "https://ai-taiwan.com.tw/index.php/2024/vendor/77",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2024 年參展廠商頁面",
+      "locator": "「國際級資安標準防護」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "廠商介紹稱系統採微軟 Azure 及 SSL 加密技術；頁面未列明確發布日期。"
+    },
+    {
+      "source_id": "src-bd1d16f34d60f202",
+      "title": "MAYO鼎恒數位科技攜手跨領域合作夥伴實踐普惠人資 從三大面向著手 共創美好職場生活",
+      "url": "https://news.microsoft.com/zh-tw/mayo-microsoft/",
+      "source_level": 3,
+      "publication_date": "2023-02-17",
+      "effective_period": "文中所述 2022 年底及 2023 年合作／獎項情況",
+      "locator": "「MAYO鼎恒數位科技 2023年將整合九個跨領域服務」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方原文稱其為獲微軟年度最佳 ISV 合作夥伴獎項的唯一「人資產品」，並非唯一合作夥伴。"
+    },
+    {
+      "source_id": "src-8c8c6280de6cc8a5",
+      "title": "Microsoft AI Day",
+      "url": "https://www.digitimes.com.tw/seminar/Microsoft_20191129/",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "活動日期：2019-11-29",
+      "locator": "活動議程 14:10–14:30，智慧生活場次",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "活動議程列出鼎恒數位科技主講「AI面試暨HR創新應用」，但未稱其為合作夥伴或唯一合作夥伴。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對原文措辭、微軟官方公告、合作報導及相關活動議程的聚焦查核；找到的近似證據均不支持原 claim 的排他性原文，故該原子維持 UNKNOWN。",
+    "Azure 使用情況有 2023 年新聞報導及 2024 年參展廠商資料支持；後者未提供明確發布日期。",
+    "「唯一 HR 產品獲獎」、「台灣首家 HR SaaS 合作夥伴」與「唯一 HR 創新合作夥伴」是不同主張，不應互相替代。",
+    "沒有找到界定「HR 創新合作夥伴」資格範圍、比較母體及期間的直接來源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6738/657/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000556",
+  "claim_id": "3016:objective_ranking_or_market_share:40c7fe6e149af7e4",
+  "normalized_claim_hash": "40c7fe6e149af7e443e217d5ced190c6e92792cf99c1825e6e7c3924bf64e50e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1e77740a98c101b2",
+      "title": "主要股東名單",
+      "url": "https://www.epi.episil.com/Default/Shareholder_Services/shareholders-list",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-04-14",
+      "locator": "主要股東名單表格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列漢磊科技股份有限公司持有嘉晶57.86%股份。"
+    },
+    {
+      "source_id": "src-cfcf10f72b3b5c11",
+      "title": "公司沿革",
+      "url": "https://www.episil.com/zh-tw/about/about_milesstone",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021年合併沿革",
+      "locator": "「110」年度沿革項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載漢磊投控與漢磊科技合併，合併後公司名稱為漢磊科技股份有限公司。"
+    },
+    {
+      "source_id": "src-b59eaae800059882",
+      "title": "嘉晶概要",
+      "url": "https://www.epi.episil.com/Default/Company_Profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「嘉晶概要」及公司營業項目表格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司簡介明列專業磊晶製程供應商及Si/SiC/GaN磊晶材料業務。"
+    },
+    {
+      "source_id": "src-84ee6c7a5f81d481",
+      "title": "5G、電動車都要的材料！同時生產碳化矽、氮化鎵，全台只有它做得到",
+      "url": "https://www.bnext.com.tw/article/60316/episil",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2020年12月號相關報導；確切刊登日未取得",
+      "locator": "文章標題及「目前，嘉晶是台灣唯一有能力量產……」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持報導當時的唯一性說法，不足以確認未標期間的現況。"
+    },
+    {
+      "source_id": "src-6bcf58a52474c335",
+      "title": "SiC/SiC Epitaxy",
+      "url": "https://www.epi.episil.com/EN/Epitaxial_Products/sic-sic-epitaxy",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "SiC/SiC Epitaxy產品頁及晶圓規格連結",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "現行官方頁面列出6吋、8吋SiC磊晶規格及量產經驗，未列4吋產品。"
+    },
+    {
+      "source_id": "src-41816295cabd6da2",
+      "title": "GaN/Si Epitaxy",
+      "url": "https://www.epi.episil.com/en/Epitaxial_Products/gan-si-epitaxy",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "GaN/Si Epitaxy產品頁及6吋晶圓規格連結",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面列出6吋GaN/Si磊晶晶圓規格，並稱團隊具量產經驗。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得公司官方簡介、主要股東資料及現行產品規格，並核對到2020年對唯一性及4吋SiC能力的歷史報導。仍無足夠近期、官方或可比市場資料確認目前的唯一性與4吋SiC量產狀態，因此相關原子維持UNKNOWN。",
+    "「台灣唯一」屬市場比較性主張，現有證據沒有完整的台灣供應商分母或量產判準。",
+    "明確列出4吋及6吋SiC與6吋GaN的唯一性說法來自2020年報導，不應直接延伸為現況。",
+    "現行官方產品頁列出SiC 6吋、8吋及GaN 6吋、8吋規格；其未列4吋SiC不等同於否定該能力。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3016/556/hermes-attempt-1.stdout.txt"
+}

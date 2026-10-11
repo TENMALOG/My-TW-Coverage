@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000880",
+  "claim_id": "1536:material_named_relationship:896f01fa3513114d",
+  "normalized_claim_hash": "896f01fa3513114dca515515e99932f326a23cb0ad88e62171480dbab17e1f8c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b57fa2d89cf3fd0f",
+      "title": "個股筆記：1536 和大，明年溫和復甦、預計 2026 年起大幅成長的汽機車零組件商",
+      "url": "https://vocus.cc/article/676428ebfd89780001fcd28b",
+      "source_level": 1,
+      "publication_date": "2024-12-21",
+      "effective_period": "January–October 2024",
+      "locator": "Section「2024/11/14 法說會內容」, item 13",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the 20% figure but supplies no denominator or unit."
+    },
+    {
+      "source_id": "src-6765ac3d3606945c",
+      "title": "Hota Announces Targets for 2014",
+      "url": "https://www.cens.com/cens/html/en/news/news_inner_45153.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "Circa 2014",
+      "locator": "Article text: reported chairman statement on sole supply",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Historical evidence only; it does not resolve present-day exclusivity or product scope."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found secondary reporting for the 2024 customer rank/share and historical exclusivity, but no accessible primary evidence resolving the 20% denominator or current exclusivity and scope. Further searches did not resolve those atoms; they remain UNKNOWN.",
+    "The customer-rank and 20% figures come from an individual investor's secondary conference notes, not a verified issuer transcript.",
+    "The 20% denominator and unit are unspecified.",
+    "The sole-supplier evidence is historical secondary reporting and does not establish a current, Tesla-wide exclusive relationship.",
+    "An official Taiwan Stock Exchange recording of Hota's November 14, 2024 investor conference was located, but its substantive contents were not available in searchable text for this review."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1536/880/hermes-attempt-1.stdout.txt"
+}

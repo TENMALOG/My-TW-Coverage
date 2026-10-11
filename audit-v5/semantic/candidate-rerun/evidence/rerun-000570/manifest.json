@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000570",
+  "claim_id": "6147:objective_ranking_or_market_share:6bdc058d1011e062",
+  "normalized_claim_hash": "6bdc058d1011e06261304d84e7396e977ee970bf59ff142edcae3c3fbf2c8366",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-baf0e5a1aaf68739",
+      "title": "ChipMOS TECHNOLOGIES INC. — Company Overview",
+      "url": "https://www.chipmos.com/english/ir/company.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Overview",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer describes ChipMOS as one of the world's largest semiconductor services companies; no specific ranking, denominator, or unit is given."
+    },
+    {
+      "source_id": "src-ff55426bcd721aa3",
+      "title": "ChipMOS Announces Completion of Merger with ChipMOS Taiwan",
+      "url": "https://www.chipmos.com/english/news/news-detail.aspx?NID=32",
+      "source_level": 3,
+      "publication_date": "2016-10-31",
+      "effective_period": "As stated in the 2016 announcement",
+      "locator": "Company description in the announcement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer describes one of the world's largest LCD-driver capacity footprints for packaging and testing, not a rank of first."
+    },
+    {
+      "source_id": "src-9cc6c6bc74e7fa35",
+      "title": "About Chipbond",
+      "url": "https://www.chipbond.com.tw/en/html/about-chipbond",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company overview paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Direct issuer statement; no methodology or quantitative ranking data is provided."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and official issuer pages found only scoped or non-singular descriptions. The original market scope and measurement basis remain unresolved, so further attribution to a specific global ranking would require inference.",
+    "The available ranking statements are issuer self-descriptions, not independent market rankings.",
+    "The original claim omits the market definition, period, ranking metric, denominator, and units.",
+    "Chipbond's statement is specifically about display-driver IC packaging and testing; applying it to a broader market would change the denominator."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6147/570/hermes-attempt-1.stdout.txt"
+}

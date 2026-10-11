@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000311",
+  "claim_id": "5243:objective_ranking_or_market_share:7d90a20a437364ad",
+  "normalized_claim_hash": "7d90a20a437364adf23b2310b07689e84e268d728cf4ae3ca58f8c3b0dce9f85",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-7b6267618c2de6bc",
+      "title": "乙盛獲 AI 伺服器大單",
+      "url": "https://money.udn.com/money/story/5710/9152920",
+      "source_level": 2,
+      "publication_date": "2025-11-21",
+      "effective_period": "2025-11-20 法人說明會之管理層說法",
+      "locator": "報導前段「透過ODM廠接獲AI伺服器訂單」及文末「墨西哥有兩座廠」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導分別提及伺服器訂單透過ODM廠取得，以及墨西哥廠供應網通、車用和消費性電子應用；未確認伺服器訂單由墨西哥廠生產或其客戶位於北美。"
+    },
+    {
+      "source_id": "src-b86974111a3f26e8",
+      "title": "乙盛精密工業股份有限公司",
+      "url": "https://www.eson.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁頁尾「子公司」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網列出昆山、無錫、煙台、東莞、斯洛伐克、墨西哥、越南及馬來西亞等據點；頁面未說明布局完整性的衡量方式。"
+    },
+    {
+      "source_id": "src-535100ec6c7f53a7",
+      "title": "乙盛-KY低軌衛星/車用訂單穩健，續拓歐美新客戶",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=af8bea7e-ab47-4bd2-9874-33124d61ecab",
+      "source_level": 2,
+      "publication_date": "2026-01-22",
+      "effective_period": "報導所述產能布局及車用訂單情況",
+      "locator": "「在產能布局方面」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導將墨西哥在地化生產優勢與主要供應北美電動車客戶的車用訂單並述；未列具名客戶或提供數值化的就近服務指標。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成7次聚焦研究查詢／取證；全球據點、墨西哥最大產能及車用服務有來源支持，但未找到可靠資料將墨西哥廠、伺服器生產及北美伺服器客戶明確連結，因此該原子主張保留為 UNKNOWN。",
+    "關於布局和產能排名的主要證據是媒體對公司管理層法人說明會發言的轉述，並非取得的原始法說會簡報或申報文件。",
+    "「最大產能」是集團內的定性產能排名；來源未披露產能單位、各廠數值或比較表。",
+    "來源未列北美車用或伺服器客戶名單，也未提供可量化的地理距離或交期數據。",
+    "公司官網列示多國子公司，但未提供各據點的產能、產品與客戶對應資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5243/311/hermes-attempt-1.stdout.txt"
+}

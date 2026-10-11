@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001128",
+  "claim_id": "2816:identity_changing_event:00fd24fba693ef88",
+  "normalized_claim_hash": "00fd24fba693ef88a40ae993a054c78c56c8b358050d746afd6ea376d1fe6441",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d4b988c2976a8ba6",
+      "title": "公司紀事—旺旺友聯產物保險股份有限公司",
+      "url": "https://ally.wwunion.com/web/about/about.jsp?cpid=CP1636611157481",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007-11",
+      "locator": "2007/11條目：約第295–297行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載2007年11月19日股東會決議通過更名為「旺旺友聯產物保險股份有限公司」。"
+    },
+    {
+      "source_id": "src-34647bf161a6dbbf",
+      "title": "經濟部商工登記公示資料查詢：旺旺友聯產物保險股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/03110001",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007-12-17",
+      "locator": "公司基本資料及歷史記錄：「096年12月17日…變更名稱」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "政府登記確認更名日期；民國96年為2007年。"
+    },
+    {
+      "source_id": "src-aecc41d9684c3e4f",
+      "title": "公司簡介—旺旺友聯產物保險股份有限公司",
+      "url": "https://ally.wwunion.com/web/about/about.jsp",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2007-06",
+      "locator": "公司背景段：2007年6月旺旺集團入主",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方簡介將入主時間列為2007年，而非2009年。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "各原子已由公司官方沿革及經濟部登記資料核對；沒有待以 UNKNOWN 保留的未解原子。",
+    "公司官方沿革與經濟部商工登記資料均支持2007年，而非原 claim 所述的2009年。",
+    "經濟部登記資料使用民國紀年「96年」；此處依官方公司沿革所列西元年份對照為2007年。",
+    "本 claim 涉及公司身分與歷史事件，市場定義、分母及計量單位不適用。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2816/1128/hermes-attempt-1.stdout.txt"
+}

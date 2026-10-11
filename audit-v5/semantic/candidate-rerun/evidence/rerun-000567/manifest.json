@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000567",
+  "claim_id": "5483:objective_ranking_or_market_share:330863256f88c588",
+  "normalized_claim_hash": "330863256f88c5881006c8d7139d63e8f36fe62e148ad68c37d2bf853ffac2c6",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-45e6359f1c3a63f3",
+      "title": "Group Profile | Sino-American Silicon Products Inc.",
+      "url": "https://saswafer.com/en/profile-en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening paragraph and 2011 carve-out description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The undated page makes a broad SAS largest-supplier statement but also says the semiconductor business was carved out to GlobalWafers. Its timing and scope are therefore unclear."
+    },
+    {
+      "source_id": "src-2e42a11fd15e0aa8",
+      "title": "SAS announces to spin-off 2 business units to enhance operating performance and business specialization",
+      "url": "https://saswafer.com/en/sas-announces-to-spin-off-2-business-units-to-enhance-operating-performance-and-business-specialization",
+      "source_level": 3,
+      "publication_date": "2011-04-14",
+      "effective_period": "Planned carve-out date: 2011-10-01",
+      "locator": "Company announcement; paragraphs describing the semiconductor-unit spin-off",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "SAS announced that its semiconductor unit would be spun off into GlobalWafers; the announcement described the new subsidiary as wholly owned after completion."
+    },
+    {
+      "source_id": "src-dcc8d0e949c6c45a",
+      "title": "SAS (5483 TT) 2024Q1 Earnings Call",
+      "url": "https://www.saswafer.com/wp-content/uploads/2024/05/SAS_company-profile-20240510_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2024-05-10",
+      "effective_period": "2024 Q1",
+      "locator": "Business Strategy, p. 8; separate GlobalWafers section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes its semiconductor position through affiliated-company arrangements and presents GlobalWafers separately; this does not establish that SAS itself manufactures the claimed wafer range."
+    },
+    {
+      "source_id": "src-30028108079672b6",
+      "title": "Global Wafers Co., Ltd. (6488 TT) the largest manufacturer specializing in 3”to 12”silicon wafer manufacturing in Taiwan and also the sixth largest manufacturer in the world",
+      "url": "https://saswafer.com/en/global-wafers-co-ltd-6488-tt-the-largest-manufacturer-specializing-in-3to-12silicon-wafer-manufacturing-in-taiwan-and-also-the-sixth-largest-manufacturer-in-the-world-ready-to",
+      "source_level": 3,
+      "publication_date": "2014-10",
+      "effective_period": "As described in the October 2014 announcement",
+      "locator": "Headline and opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The page attributes the 3–12-inch product range and Taiwan-largest manufacturer wording to GlobalWafers, and says it was spun off from SAS in 2011. It gives no ranking metric or denominator."
+    },
+    {
+      "source_id": "src-2fb740df00be8cf3",
+      "title": "Global Wafers Co., Ltd. (6488 TT) the largest manufacturer specializing in 3”to 12”silicon wafer manufacturing in Taiwan and also the sixth largest manufacturer in the world",
+      "url": "https://saswafer.com/en/global-wafers-co-ltd-the-largest-manufacturer-specializing-in-3to-12silicon-wafer-manufacturing-in-taiwan-and-also-the-sixth-largest-manufacturer-in-the-world-ready-to",
+      "source_level": 3,
+      "publication_date": "2014-10",
+      "effective_period": "As described in the October 2014 announcement",
+      "locator": "Headline and opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The page explicitly names GlobalWafers as the 3–12-inch silicon-wafer manufacturer and says it spun off from SAS in 2011. The ranking metric and denominator are unstated."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused official-source research found historical support for the spun-off subsidiary but no unambiguous current, issuer-specific 3–12-inch product scope or Taiwan ranking with a defined denominator. Those atoms remain UNKNOWN.",
+    "The undated SAS Group Profile contains a broad largest-supplier claim but also states that the semiconductor business was carved out to GlobalWafers in 2011; it further lists SAS products and services as solar ingots/wafers. Treat its broad ranking statement as temporally and organizationally ambiguous.",
+    "The October 2014 ranking is company-published and concerns GlobalWafers, not unambiguously the parent issuer. It gives no market denominator, ranking metric, or comparison period.",
+    "The source supports a 3–12-inch silicon-wafer range; it does not establish that silicon ingots themselves were offered across that same size range."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5483/567/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001188",
+  "claim_id": "3374:material_named_relationship:be32d9ad91c6729d",
+  "normalized_claim_hash": "be32d9ad91c6729db96b2786338fcf6303a0361aedb120deaa7f2b135ead5f3a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ebea7100e2a18cd12108",
+      "title": "精材科技：主要股東名單",
+      "url": "https://www.xintec.com.tw/chi/FIN/IR_Shareholders-Service-MS.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-03-30",
+      "locator": "主要股東名單；2026/3/30資料，台灣積體電路製造股份有限公司列41.01%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "精材官方股東資訊，直接支持30%以上持股。"
+    },
+    {
+      "source_id": "src-c43f4f0111d27a61e5c3",
+      "title": "TSMC Form 20-F for year ended December 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-02-28",
+      "locator": "Item 4, Xintec, Inc.：列示TSMC持有約41.0%股權。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TSMC向SEC提交的公司文件，與精材股東名單相互印證。"
+    },
+    {
+      "source_id": "src-c26d32a74858ce843a00",
+      "title": "Xintec Inc. 2024 Annual Report",
+      "url": "https://www.xintec.com.tw/eng/FIN/file/A/Annual_reports_2024.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度",
+      "locator": "第102頁，風險與客戶集中度：TSMC Group為2024年最大客戶，銷售占75%；第77–78頁，集團整合與晶圓級封裝服務。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持雙方有業務合作及精材對TSMC Group有銷售，但沒有明確證明台積電向精材供應實體晶圓。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核精材官方股東名單、精材官方2024年年報及TSMC的SEC文件。持股原子已確認；官方年報未能確認台積電直接供應晶圓給精材，因此該原子維持UNKNOWN並停止研究。",
+    "持股比例有精材官方股東名單及TSMC向SEC提交的公司文件支持。",
+    "「晶圓供應」的供應方向與期間在原文中未定義；客戶關係或供應鏈合作不能單獨證明台積電直接供應實體晶圓。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3374/1188/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "8333fed17ab0d0dc05ac56e921f3de399277f5376c61e42a3a3f2c8a9c30c201",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3374/1188/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "0d454079253d8e2e283469840a8259b1f9520966a278921038ed0622e745fc8a",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001188/manifest.json",
+  "supersedes_manifest_sha256": "41384cb963fa3e1ab854220cf56c1e2443a41bd481cc3094783ffe10c14056c4",
+  "corrected_at": "2026-10-08T09:59:28Z"
+}

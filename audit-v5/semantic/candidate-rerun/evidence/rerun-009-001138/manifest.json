@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001138",
+  "claim_id": "5278:profitability_assertion:24a745be10d45843",
+  "normalized_claim_hash": "24a745be10d4584377dae23cb142d9c090efe120cdd2e17718b33217011e1d7f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c12cd9e287610f142f26",
+      "title": "大研生醫 2025/09/18 雞排法說簡報（現場簡報）",
+      "url": "https://imgc.daikenshop.com/images/investorZone/PDF/20250918%E9%9B%9E%E6%8E%92%E6%B3%95%E8%AA%AA%E7%B0%A1%E5%A0%B1_%E7%8F%BE%E5%A0%B4%E7%B0%A1%E5%A0%B1%20%E5%A4%A7%E7%A0%94.pdf",
+      "source_level": 3,
+      "publication_date": "2025-09-18",
+      "effective_period": "2020–2024",
+      "locator": "第26頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方簡報列出2020至2024年營收及近五年CAGR 88%；歷年數值為新臺幣108,059千元、509,443千元、884,966千元、1,190,415千元、1,362,387千元。"
+    },
+    {
+      "source_id": "src-065bcc4fca93999e8012",
+      "title": "尚凡現金殖利率估逾5%；大研生醫啟動公發",
+      "url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=4e2b17c7-68d0-4ead-bf52-49d4119b977c",
+      "source_level": 2,
+      "publication_date": "2024-02-19",
+      "effective_period": "報導截至2024-02-19所述營收占比；精確計算期間未載明",
+      "locator": "正文第40–42行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "MoneyDJ報導稱大研生醫保健品成長強勁帶動尚凡，並列保健品與交友類App佔合併營收約55%及45%；屬媒體來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩個原子均取得相符證據；停止於8個研究回合上限之前。",
+    "「高速」沒有原文定義的量化門檻；官方簡報提供的2020–2024年CAGR及年度營收序列支持此描述。",
+    "「新成長引擎」為對營收占比及成長貢獻的概括；占比證據來自媒體報導，且報導未明示該占比的精確計算期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5278/1138/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "60d403b0aca9b7ea5972c544d7e2ed11dc9f64a93e4f7bf79b4dce4072f312c1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/5278/1138/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "22d008f061dd5317d6db95c5deabe0356db362583aaa1925a82628220294a9df",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001138/manifest.json",
+  "supersedes_manifest_sha256": "8250bc713f94b9b2e744972153c442f428aa34482f9316eda72bcd0a3d23998c",
+  "corrected_at": "2026-10-08T09:59:22Z"
+}

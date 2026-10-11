@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000682",
+  "claim_id": "1304:objective_ranking_or_market_share:67cf53fe6274fce5",
+  "normalized_claim_hash": "67cf53fe6274fce5bc48ed2e0ea309468cf6c3145d3d58783225838e890d3b4a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8117b014e2ef8d1f",
+      "title": "關於台聚",
+      "url": "https://www.usife.com/zh-tw/dirAbout/frmAbout",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於台聚」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台聚公司官網稱其在高雄市仁武區建立「台灣第一座 LDPE 工廠」；支持LDPE範圍，不足以單獨證明涵蓋所有PE種類的廣義首位主張。"
+    },
+    {
+      "source_id": "src-6d5d40338c472f38",
+      "title": "半世紀企業 新世代原料 - USI 台聚 臺灣主要石化集團之一",
+      "url": "https://ipd.nat.gov.tw/srido/News/Detail?ModuelID=N7&ID=87fcabce-d1e3-4143-868d-36483f97bdb0",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "1968年",
+      "locator": "「半百台聚 產業縮影」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟部產業發展署頁面記載台聚於1968年在高雄仁武設立國內第一座LDPE工廠；同樣未證明第一座涵蓋全部PE種類。"
+    },
+    {
+      "source_id": "src-57c8870e63429169",
+      "title": "台聚關係企業",
+      "url": "https://www.usig.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁集團簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網稱集團跨及創投等轉投資領域。"
+    },
+    {
+      "source_id": "src-966ca0abc6d2d867",
+      "title": "企業社會責任報告書 2016（越峯電子材料股份有限公司）",
+      "url": "https://www.usig.com/ACMECSR/CSRReport/acme2016.pdf",
+      "source_level": 3,
+      "publication_date": "2017-11",
+      "effective_period": "2016年報告期間及報告所列集團概況",
+      "locator": "第10頁「所屬集團－台聚集團」；第11頁集團關係企業概況圖「投資」類",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告稱集團事業版圖拓展至創投等轉投資領域，且列示投資類關係企業。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核台聚公司與集團官方資料及政府產業資料。來源支持台灣第一座LDPE工廠及集團跨足所列業務，但未找到能排除更早其他PE種類生產設施的證據；該首位主張依要求保留為UNKNOWN。",
+    "首位主張的官方證據明確限定為LDPE工廠，不能無條件擴大為所有PE種類的第一家生產者。",
+    "集團現行簡介未標示發布日期；關係企業報告資料反映的是2016年集團概況，未單獨證明目前每項關係或業務均維持不變。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1304/682/hermes-attempt-1.stdout.txt"
+}

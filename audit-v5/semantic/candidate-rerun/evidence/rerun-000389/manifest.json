@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000389",
+  "claim_id": "6464:objective_ranking_or_market_share:7ee6bae723c03229",
+  "normalized_claim_hash": "7ee6bae723c03229ff7aa8e514d94a0573a925902ad8075b84044b856666d3d3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-44016767e31729d9",
+      "title": "Taiwan Optical Platform (top MSO) — Investor Presentation, Version 2018 Q3",
+      "url": "https://www.topmso.com.tw/assets/uploads/download/downloadFile5f840796b45f5.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2018 Q3",
+      "locator": "Company Background, Products and Services — Cable TV Business",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer reports 283K cable-TV subscribers."
+    },
+    {
+      "source_id": "src-d01b54aabcb1fc13",
+      "title": "NCC 有線電視業務申訴案件分析報告-114 年度",
+      "url": "https://api.ncc.gov.tw/chncc/app/data/doc?id=1169&module=commonMessage454&detailNo=1479368718235471872&serno=418713c4-7aa1-47f4-b56f-c3dc56ae1e3f&type=s&preview=undefined&aplistdn=undefined",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025 Q4 (ROC year 114)",
+      "locator": "MSO-level subscriber denominator in the operator analysis; group row for Taiwan Digital Optical Platform",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "NCC material reports 423,900 subscribers for the group, showing that the 300,000 figure cannot be treated as an undated current count."
+    },
+    {
+      "source_id": "src-d180625728fe1237",
+      "title": "集團介紹 | 台灣數位光訊科技集團",
+      "url": "https://www.topmso.com.tw/index.php/tw/groupintroduction/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "From 2019 expansion; page date unspecified",
+      "locator": "集團介紹, opening company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the cable-TV business expanded to Chiayi County in 2019."
+    },
+    {
+      "source_id": "src-566615b69f75b9ca",
+      "title": "企業概況 | 台灣數位光訊科技集團永續報告書",
+      "url": "https://www.topmso.com.tw/index.php/tw/csr/report_companyProfile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated company profile; includes information through 2025",
+      "locator": "產品及服務, cable-system service-area description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Chiayi County among the areas served by the group’s cable systems."
+    },
+    {
+      "source_id": "src-8f888cef2f08c9c5",
+      "title": "台數科拚有線電視前三強，預計12/16掛牌上市",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=a5cc3041-9d41-43f9-b3c9-8aeabbef18a9",
+      "source_level": 2,
+      "publication_date": "2015-11-18",
+      "effective_period": "Company statement reported November 2015",
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the company’s stated user count as 300,000 and national rank as fourth; secondary reporting, not a dated issuer filing."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視台數科官方公司介紹、永續報告及2018年簡報，並查核MoneyDJ歷史報導與NCC資料。剩餘不確定性主要來自缺少排名期間與中部市場定義、訂戶數as-of date缺失，以及公司對彰化服務範圍的披露差異；進一步搜尋未能消除這些範圍問題。",
+    "原 claim 未提供 as-of date；2015、2018及2025訂戶數不能互相替代。",
+    "台數科公司介紹與永續報告對彰化縣的服務類別描述不一致；苗栗縣則出現在較廣的網路服務範圍，而非已列出的有線電視系統範圍。",
+    "全國MSO排名、市占率或訂戶數不能直接證明「中部最大」；「中部」及比較對象均未定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6464/389/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001093",
+  "claim_id": "6668:material_named_relationship:f58eb40c91008287",
+  "normalized_claim_hash": "f58eb40c910082871697b1858ba56e9c97c362766a4cdbe611a75e5fc2ec4962",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d8490019c5dd8ed5",
+      "title": "中揚光轉型奏效車用訂單入手 下半年拚轉盈",
+      "url": "https://www.cna.com.tw/news/afe/202404290096.aspx",
+      "source_level": 2,
+      "publication_date": "2024-04-29",
+      "effective_period": "報導稱日、美車廠訂單預計2024年下半年出貨",
+      "locator": "第291段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述董事長稱日系10年、美系7年保證供貨，與3至5年的說法不一致；是否指同一美系訂單未明。"
+    },
+    {
+      "source_id": "src-2970b128750e65c5",
+      "title": "中揚光電股份有限公司一一四年股東常會議事手冊",
+      "url": "https://www.zy-tech.com.tw/upload/web/20250519/02-01_%E4%B8%AD%E6%8F%9A%E5%85%89%E9%9B%BB%E8%AD%B0%E4%BA%8B%E6%89%8B%E5%86%8A%E6%89%8B%E5%86%8A%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-19",
+      "effective_period": "議事手冊所述營運及研發規劃",
+      "locator": "第9頁，行銷策略第(2)款",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司揭露與 Tier 1 模組廠合作車載專案開發，但未確認美系客戶身分或供應鏈層級。"
+    },
+    {
+      "source_id": "src-20e495882cf453f6",
+      "title": "(獨家)車用光學熱 中揚光獲美系車廠新訂單將配合赴泰設組裝廠",
+      "url": "https://news.cnyes.com/news/id/5466357",
+      "source_level": 2,
+      "publication_date": "2024-02-28",
+      "effective_period": "報導稱美系車廠供應鏈在泰國的生產計畫及5至8年需求",
+      "locator": "第15至18段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱美系客戶提出5至8年需求；用語是需求期，不能等同已確認訂單合約期。"
+    },
+    {
+      "source_id": "src-d73a9e33d9a0eb6b",
+      "title": "車用鏡頭趨勢帶動下，中揚光電(6668)營運將開始觸底回升？",
+      "url": "https://uanalyze.com.tw/articles/302488664",
+      "source_level": 2,
+      "publication_date": "2024-12-12",
+      "effective_period": "文章描述美系3至5年訂單",
+      "locator": "第27段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "使用「大額訂單」形容，未提供可衡量規模或比較分母。"
+    },
+    {
+      "source_id": "src-97fddb221070fd2b",
+      "title": "《光電股》打入智慧型手機供應鏈 中揚光「模造玻璃」業務起飛",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockTodayNews&id=202404290101922",
+      "source_level": 2,
+      "publication_date": "2024-04-29",
+      "effective_period": "報導稱預計2024年下半年開始交貨",
+      "locator": "報導段落，2024/04/29 10:19，日系訂單說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱日系10年期長單主要供應4顆環景鏡頭模造玻璃；未提供數量或合約文本。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司股東會資料及多篇2024年媒體報導。可支持日系10年、4顆環景鏡頭的報導性說法；日、美客戶的Tier 1 身分及美系訂單期限、規模仍缺公司正式披露，且次級來源的期間說法不一致，故停止並保留為 UNKNOWN。",
+    "精確客戶身分及訂單條款主要來自媒體轉述，未找到公司或監管文件披露合約文本、客戶名稱、數量或價值。",
+    "公司2025年股東會資料可確認與 Tier 1 模組廠合作開發車載專案，但不能據此推定特定日系或美系客戶的 Tier 1 身分。",
+    "美系訂單期間在媒體來源中分別出現3至5年、7年及5至8年需求；報導可能描述不同期限或不同範圍，現有證據不足以消解差異。",
+    "「大單」沒有可核驗的金額、數量或相對基準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6668/1093/hermes-attempt-1.stdout.txt"
+}

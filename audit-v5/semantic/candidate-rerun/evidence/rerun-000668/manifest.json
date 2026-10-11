@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000668",
+  "claim_id": "6925:objective_ranking_or_market_share:f4539b5294dcb0a4",
+  "normalized_claim_hash": "f4539b5294dcb0a430a0fc4d8c9aca8e19eca84dab92bddb3d0eab7895a2c4ac",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f2b0e9ed5a243563",
+      "title": "關於意藍｜eLAND",
+      "url": "https://www.eland.com.tw/company-profile/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "企業理念，第2段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡介概括宣稱社群數據分析平台等領域市占率居國內第一；未提供該社群監測細分市場的明確定義、分母或份額數值。"
+    },
+    {
+      "source_id": "src-b8ba096993e5c2f6",
+      "title": "eLAND｜意藍資訊官方網站",
+      "url": "https://www.eland.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "首頁「讓數據增值」介紹段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方首頁描述意藍以 SaaS 訂閱制提供解決方案；屬營運模式自述，未表示所有業務均採此模式。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱意藍官方簡介與首頁，並檢索相關公司及市場排名資料；未找到能明確綁定市場定義、期間及分母的證據。故排名原子維持 UNKNOWN，未以客戶覆蓋率或資料庫規模替代市占證據。",
+    "市占排名證據來自公司官方簡介的概括性自述，並非具方法說明的獨立市場調查。",
+    "未找到界定兩項細分市場、披露排名期間、市占分母、計算方法或份額數值的可靠資料。",
+    "官網的 SaaS 說明支持營運模式描述，但不能據此推定所有產品或營收都採 SaaS 模式。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6925/668/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000332",
+  "claim_id": "6230:objective_ranking_or_market_share:d3934452c5eec0ad",
+  "normalized_claim_hash": "d3934452c5eec0ad377a5d92badc6788c02fdf0a83a24b653fc3662bc4e5c44d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-33f4b7ab95842047",
+      "title": "【研究報告】NB領導廠超眾 (6230)，挾PS5光芒獲利出眾",
+      "url": "https://cmnews.com.tw/article/cmoney-6b920fa1-d8cd-11ef-8d69-e0a85a5bc80f",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報告提及2020年第三季營收結構及2021年展望；領先地位的評估期間未明。",
+      "locator": "「NB散熱模組具領先地位」及「評價與結論」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司在產業具有技術領先及全球領先地位，但未建立「穩居霸主」所需的市場排名與持續期間。"
+    },
+    {
+      "source_id": "src-c7d5c6a78e9c198b",
+      "title": "尼得科超眾科技股份有限公司112年股東會年報",
+      "url": "https://www.ccic.com.tw/upload/files/20260528085058o1bnz.pdf",
+      "source_level": 3,
+      "publication_date": "2024-05-20",
+      "effective_period": "2023年度年報；相關銷售政策談及2024年度。",
+      "locator": "「預計銷售數量及其依據」及「重要之產銷政策」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未披露相關市場排名或持續領先期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查找精確市佔措辭、公司官方網站及年報資料；目前只找到CMoney對30%及45%的二手陳述，未找到可核對統計口徑、期間與伺服器市場分母的官方或原始來源。依要求保留未解範圍，不以相鄰年份或不同市場指標替代。",
+    "30%與45%數字目前可追溯到CMoney研究報告的直接陳述，未找到其引用的原始市調或公司披露。",
+    "NB數字明示為全球NB散熱模組市佔；出貨量或營收等計算基礎及數字基準期間未載明。",
+    "伺服器45%數字未明確界定地理市場、散熱產品分母及統計口徑，不能以NB全球市場定義代替。",
+    "公司年報提及維持PC及伺服器等散熱零組件現有市佔，但未揭露本項主張的精確數字或排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6230/332/hermes-attempt-1.stdout.txt"
+}

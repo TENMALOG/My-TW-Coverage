@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001111",
+  "claim_id": "1472:identity_changing_event:ead6a8ddf3696763",
+  "normalized_claim_hash": "ead6a8ddf3696763578959e7061197dd8353fe466b3cd0cc831e6e0876990ee9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-948be81ac3a2610c",
+      "title": "三洋實業 112 年度年報",
+      "url": "https://triocean.com.tw/wp-content/uploads/2024/06/112%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至 2024 年 3 月 31 日的關係企業資料，並記載 2020 年投資",
+      "locator": "PDF 第 90 頁；來源行 4231–4243",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示上鋌營造股份有限公司為 100% 持有之子公司。"
+    },
+    {
+      "source_id": "src-46a86e41a9abd341",
+      "title": "三洋實業 2024 年永續報告書",
+      "url": "https://triocean.com.tw/wp-content/uploads/2025/08/%E4%B8%89%E6%B4%8B2024%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8%E7%BE%8E%E7%B7%A8-Final%E7%89%88%E6%9C%AC_%E7%B6%B2%E9%A0%81%E7%89%88_compressed.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 年報告所述資格及營運沿革",
+      "locator": "PDF 第 17 頁；來源行 668–671",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告明確稱具甲級營造廠資格者為上鋌營造，不是原文的上騰營造。"
+    },
+    {
+      "source_id": "src-be7895b3de283196",
+      "title": "三洋實業公司簡介",
+      "url": "https://triocean.com.tw/products/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網頁未標日期；內容明確回述 2021 年民間工程案件",
+      "locator": "公司簡介第 30 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱 2021 年參與民間企業各類工程案件，以爭取更多承攬機會。"
+    },
+    {
+      "source_id": "src-432d92026bb0fc0a",
+      "title": "三洋實業 111 年度年報",
+      "url": "https://triocean.com.tw/wp-content/uploads/2023/06/R1205001021%E4%B8%89%E6%B4%8B%E5%AF%A6%E6%A5%AD%E5%B9%B4%E5%A0%B1%E4%B8%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "列載 2022 年政府工程契約",
+      "locator": "PDF 第 68–70 頁；來源行 2671–2748",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出上鋌營造與政府機關簽訂之工程契約，包括 2022 年社會住宅及公共工程案件。"
+    },
+    {
+      "source_id": "src-38c99406b919be31",
+      "title": "上鋌營造公司簡介",
+      "url": "https://shang-ting.com.tw/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "網頁未標日期；描述公司目前承攬項目",
+      "locator": "公司介紹第 22 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱上鋌營造為三洋實業旗下子公司，承攬政府公共工程為主、民間企業廠房（住宅）為輔。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人年報、永續報告書及公司與子公司官方簡介；更名及更正名稱後的營造業務有支持，但原文子公司名稱與資格對象存在未能消解的字符差異，因此不將整句判為候選接受。",
+    "原文寫「上騰營造」，發行人資料則一致列為「上鋌營造」；名稱差異使原文不能完整判定為受支持。",
+    "2021 年公司簡介表述的是參與投標及民間案件、爭取承攬機會；政府契約可由後續年報確認，但未找到對應期間逐項列示的民間工程契約。",
+    "甲級資格的證據對應「上鋌營造」，不能直接套用到原文所寫的「上騰營造」。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1472/1111/hermes-attempt-1.stdout.txt"
+}

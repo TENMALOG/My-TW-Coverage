@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000572",
+  "claim_id": "6532:objective_ranking_or_market_share:9f3fc56944fd9568",
+  "normalized_claim_hash": "9f3fc56944fd95681596b5b3f483faeb0d32f891ff3875db094bdb60323390e1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8b829a8468062dcb",
+      "title": "關於瑞耘 About-Calitech",
+      "url": "https://www.calitech.com.tw/zh-tw/About-Calitech",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "里程碑至2024年；現行擴張狀態未明",
+      "locator": "設備系統產品及重要里程碑：2021年全自動化SRD模組開發並量產",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持歷史設備開發及量產，不足以證明目前積極擴展。"
+    },
+    {
+      "source_id": "src-474848a0b331a306",
+      "title": "個股分析：瑞耘（6532）｜周伯瑋－輕鬆投資學院",
+      "url": "https://www.ezdiamond.com.tw/articles/295",
+      "source_level": 2,
+      "publication_date": "2022-06-15",
+      "effective_period": "合作逾十年截至2022年報導時",
+      "locator": "「未來成長動能」中應材合作段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持截至2022年的合作描述，未確認2022年後的連續性。"
+    },
+    {
+      "source_id": "src-b4638a5028f5fdc7",
+      "title": "製程設備",
+      "url": "https://www.calitech.com.tw/zh-tw/product/our-process-equipment",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行網站產品介紹",
+      "locator": "SRD及其他製程設備產品段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證明現行網站列有設備產品，但未提供產品線擴展的期間或量化資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對瑞耘官方網站、產品頁、官方里程碑及具名二級來源的查核。可支持部分產品與歷史合作資訊，但尚缺Applied Materials客戶身分的官方具名佐證、合作延續至目前的證據，以及「全球最大」的明確年度與排名分母；因此未將未解決原子推定為成立。",
+    "瑞耘官方里程碑以「國際設備大廠」描述合作方，未具名Applied Materials。",
+    "Applied Materials 客戶身分、約2007年合作起始及2011年OEM合約由2022年二級來源報導；沒有找到相應的瑞耘官方具名確認。",
+    "「全球最大」缺少明確排名年度、市場範圍及排名分母的可核實依據。",
+    "SRD的開發、製造、銷售與2021年模組量產有公司資料支持，但不等同於證明目前仍在積極擴展產品線。",
+    "「獨特技術」僅見於二級來源的描述，缺少公司官方確認或可比較的技術標準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6532/572/hermes-attempt-1.stdout.txt"
+}

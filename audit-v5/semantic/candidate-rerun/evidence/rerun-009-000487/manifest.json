@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000487",
+  "claim_id": "6655:objective_ranking_or_market_share:ccaa6c4b5d8549e4",
+  "normalized_claim_hash": "ccaa6c4b5d8549e4db51cbd628161ccf1ea880fb73bdf5582bac68c39edaa2d9",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-313a42afe5a68e271dad",
+      "title": "建材龍頭科定與全球頂尖PP印刷商結盟 進軍櫥櫃百億市場",
+      "url": "https://www.twkd.com/tw/media_center.php?act=view&id=66",
+      "source_level": 3,
+      "publication_date": "2021-07-23",
+      "effective_period": "Article published 2021-07-23; ranking period not stated.",
+      "locator": "Paragraph beginning “DNP 大日本為全球最大規模的 PP 仿真木皮製造商”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer's own media release makes the ranking assertion in the context of its DNP partnership; it does not identify how “largest” is measured."
+    },
+    {
+      "source_id": "src-4a543572ccdd5167621c",
+      "title": "DNP to Mass-produce Eco-Friendly Decorative Film for Automobile Interiors",
+      "url": "https://www.global.dnp/en/news/detail/2024/06/0604_20175242",
+      "source_level": 3,
+      "publication_date": "2024-06-04",
+      "effective_period": "Describes DNP's PP-based automotive decorative-film technology as of 2024-06-04.",
+      "locator": "Opening paragraph and “Background” / “Going Forward” sections",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms DNP established mass-production technology for PP-based automotive decorative film and gives a future cumulative-sales target; it does not state or establish global producer rank."
+    },
+    {
+      "source_id": "src-6a49d3793f6b426a8cb9",
+      "title": "最大份額的產品和服務",
+      "url": "https://www.global.dnp/zh-CHT/our-business/global-share",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Section “全球市場占有率最高的產品和服務”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "DNP lists other products for which it claims leading global share, but does not list PP imitation wood-grain veneer. This omission is not evidence that the claim is false."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found the issuer's direct assertion and relevant official DNP product disclosures, but no independent ranking evidence or defined market denominator. Further searches within the research limit are unlikely to resolve the missing ranking basis.",
+    "The direct ranking assertion is from Keding, the issuer and DNP's commercial partner, rather than an independent market study or DNP disclosure.",
+    "The source uses “largest-scale” but does not specify whether scale means sales, output, production capacity, or another measure; it also does not define the compared market or competitors.",
+    "DNP's official 2024 disclosure concerns PP-based decorative films for automotive interiors and cannot by itself verify a broader product-category ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6655/487/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "f1cfaade083d2bfd6719c20a7ed3e90fffe95e5fef4ac56d1da68f91c2dfe4dc",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6655/487/isolated-prompt.txt",
+  "prompt_sha256": "9fbd15be1466eea9106e72f06c9a7dff130a109a75b987d250622b1b7dab530f",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000487/manifest.json",
+  "supersedes_manifest_sha256": "86d042da8a87eb78278cec14ceb735616b463f58230dab3d4b6b23e02598b59a",
+  "corrected_at": "2026-10-08T09:58:17Z"
+}

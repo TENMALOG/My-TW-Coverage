@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001112",
+  "claim_id": "3528:profitability_assertion:90c59cc187b13900",
+  "normalized_claim_hash": "90c59cc187b1390038689c9d9151b685d6c5fd4e8bad53f59949f2904ea2ef69",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fe682abc52b09a38",
+      "title": "安馳(3528) 2025年營收大增69%，雙強代理線助攻邊緣AI與車用佈局",
+      "url": "https://www.macnica.com/apac/anstek/zh_tw/news-events/news/_-3528--2025_69-ai/",
+      "source_level": 3,
+      "publication_date": "2026-03-27",
+      "effective_period": "2025 年業務回顧及 2026 年策略",
+      "locator": "「專注高附加價值整合產品」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司將國防列入其長期專注的高階應用領域。"
+    },
+    {
+      "source_id": "src-91a701e1da1814f6",
+      "title": "安馳2025年第一季稅後淨利1.35億元創單季新高 EPS 2.02元",
+      "url": "https://www.macnica.com/apac/anstek/zh_tw/news-events/news/_2025_1-35_--eps-2-02/",
+      "source_level": 3,
+      "publication_date": "2025-05-06",
+      "effective_period": "2025 年第一季",
+      "locator": "各代理線及第一季市場需求段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露 ATE 自動測試及工業自動化測試相關訂單需求。"
+    },
+    {
+      "source_id": "src-616cf17b3685132e",
+      "title": "安馳2023年3月營收6.5億 為歷史次高",
+      "url": "https://www.macnica.com/apac/anstek/zh_tw/news-events/news/_2023_3_6-5_-_/",
+      "source_level": 3,
+      "publication_date": "2023-04-12",
+      "effective_period": "2023 年第一季",
+      "locator": "ADI 代理線需求段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露工控、測試設備與儀器相關需求提升。"
+    },
+    {
+      "source_id": "src-b0244fca7b37e8a7",
+      "title": "訂單需求回升 產品組合優化見效 安馳12月營收4.39億元 年增60.05%",
+      "url": "https://www.macnica.com/apac/anstek/zh_tw/news-events/news/_-_-_12_4-39_-_60-05-/",
+      "source_level": 3,
+      "publication_date": "2025-01-10",
+      "effective_period": "2024 年",
+      "locator": "2024 年代理線需求與出貨段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露 AMD 代理線的醫療基因加速等應用需求回升並帶動出貨增加。"
+    },
+    {
+      "source_id": "src-70aef6a3dab3f04b",
+      "title": "安馳2024年稅後淨利2.77億元 年成長145.84%",
+      "url": "https://www.macnica.com/apac/anstek/zh_tw/news-events/news/_2024_2-77_-_145-84--.html",
+      "source_level": 3,
+      "publication_date": "2025-03-18",
+      "effective_period": "2024 全年",
+      "locator": "2024 年平均毛利率與利基型產品比重段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露公司平均毛利率為 13%，並將較前一年增加 2 個百分點歸因於利基型產品比重成長等產品組合因素；不是四個應用市場各自的毛利率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱安馳官方披露及相關市場資料，四類應用均有公開活動證據；但缺少逐市場毛利率與一致的利基市場定義，故該合併性質仍為 UNKNOWN，停止進一步推定。",
+    "原 claim 未標示期間；相關市場活動證據分布於不同年度，不能視為同一期間的市場占比或業績構成。",
+    "公司披露的平均毛利率是公司層級指標，未按上述應用市場拆分；不能據此確認四類市場全部屬高毛利。",
+    "「深耕」是定性表述；公開披露可確認相關應用、訂單或出貨活動，但未提供可統一比較的市場份額或投入指標。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3528/1112/hermes-attempt-1.stdout.txt"
+}

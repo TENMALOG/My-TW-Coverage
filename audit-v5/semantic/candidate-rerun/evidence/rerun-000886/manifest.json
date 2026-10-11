@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000886",
+  "claim_id": "2243:material_named_relationship:eb26bcbe4bda3836",
+  "normalized_claim_hash": "eb26bcbe4bda3836c6dcbb9de23b394bc5282ad62aa0b2f69a30ecd0b304e98b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4a2d8f55d175f76b",
+      "title": "宏旭-KY 法說會重點內容備忘錄：未來展望趨勢20251216",
+      "url": "https://blog.fugle.tw/post/earnings-call-2243-2025-12-16-3",
+      "source_level": 2,
+      "publication_date": "2025-12-16（頁面標示2026-03-03更新）",
+      "effective_period": "摘要提及2023年策略合作及2024年客戶排名",
+      "locator": "第1節策略合作；第3節重要合作",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級法說摘要點名比亞迪，但其2024年第一大客戶說法與發行人簡報不一致。"
+    },
+    {
+      "source_id": "src-3078763d28f5b041",
+      "title": "宏旭-KY 2025Q4法人說明會簡報（公開資訊觀測站檔案）",
+      "url": "https://mopsov.twse.com.tw/nas/STR/224320251215M001.pptx",
+      "source_level": 3,
+      "publication_date": "2025-12-16",
+      "effective_period": "簡報所述問界品牌合作狀況；比例測量期間及計算分母未明",
+      "locator": "Clients & Markets → 新一線客戶 → 問界品牌",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人簡報稱承制問界品牌70%以上的外覆蓋件模具；未稱全部車身鈑金模具，也未解釋分母。"
+    },
+    {
+      "source_id": "src-020460b068944487",
+      "title": "宏旭-KY 2025Q4法說會簡報PDF下載及內容整理",
+      "url": "https://finmoconf.diveinvest.net/presentation/69400b03bab52fb5c88ce1d0",
+      "source_level": 2,
+      "publication_date": "2025-12-16",
+      "effective_period": "簡報所述問界品牌合作狀況；比例測量期間及計算分母未明",
+      "locator": "第80至81行，Clients & Markets → 新一線客戶",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "可讀取的簡報內容轉錄，文字為「承制其中70%以上的外覆蓋件模具」；不支持改寫成全部車身鈑金模具的比例。"
+    },
+    {
+      "source_id": "src-12112c79beaf3423",
+      "title": "宏旭-KY站穩中國放眼國際",
+      "url": "https://fnc.ebc.net.tw/fncnews/else/5420",
+      "source_level": 2,
+      "publication_date": "2017-09-14",
+      "effective_period": "報導所述的歷史客戶拓展情況；未給出客戶關係終止或延續日期",
+      "locator": "「鎖定進入障礙高的 OE 市場」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱宏旭曾打入長安福特；僅支持歷史關係，未證明當前核心客戶地位。"
+    },
+    {
+      "source_id": "src-cbc4ff10977c6971",
+      "title": "宏旭下半年為模具入帳旺季，營收、毛利將走升",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=75a5e46a-2470-403f-8345-4c040b11aa4b",
+      "source_level": 2,
+      "publication_date": "2017-09-28",
+      "effective_period": "報導發布時的客戶名單",
+      "locator": "客戶介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "將東風日產列為客戶，但沒有支持未限定期間的「核心」定位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成最多8個聚焦研究回合；剩餘原子缺乏能同時確認客戶名稱、核心性及適用期間的發行人資料，且問界比例的原始分母未披露，故保留為UNKNOWN。",
+    "原 claim 未指定客戶關係的判定期間；東風日產與長安福特的可核實點名資料僅為2017年報導，不能證明其目前仍屬核心客戶。",
+    "比亞迪的點名資料來自次級法說摘要；發行人2025年簡報未點名該公司，且對2024年第一大客戶的說法與摘要不一致。",
+    "問界比例的發行人簡報口徑是「外覆蓋件模具」，未披露計算分母或比例測量期間；不等同於全部車身鈑金模具。",
+    "公開資訊觀測站原始簡報為PPTX；檢索工具未能直接讀取該檔，簡報內容以可讀轉錄頁核對。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2243/886/hermes-attempt-1.stdout.txt"
+}

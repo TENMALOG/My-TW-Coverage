@@ -1,0 +1,51 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000020",
+  "claim_id": "4438:objective_ranking_or_market_share:05ea182e0e761907",
+  "normalized_claim_hash": "05ea182e0e7619078a80863dd6914a2f680543e369bdaa0e94e10d5e4aa2c063",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "qve-2026-investor-presentation",
+      "title": "廣越企業 (4438 TT) 法人說明會簡報（2026年4月）",
+      "url": "https://www.qve.com.tw/uploads/root/FILE/443820260415M001.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-15",
+      "effective_period": "公司現行介紹及發行人自述；產品組合為2024年度。",
+      "locator": "PDF第6頁：廣越企業、4438 TT、1995年10月成立、羽絨夾克占2024產品組合34.53%；標題自述「全球前三大高端戶外機能服飾製造商」。",
+      "source_sha256": "a0ff606c9b0389fab82eaab24f512785a7bd9151e3f4260634dd0a0b1d176a62",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4438/qve-2026-investor-presentation.pdf",
+      "note": "發行人官方投資人簡報；「前三大」是公司自述，類別為高端戶外機能服飾，並非全球高階羽絨外套製造商的獨立排名。"
+    },
+    {
+      "source_id": "qve-2024-sustainability-report",
+      "title": "廣越企業股份有限公司2024永續報告書",
+      "url": "https://www.qve.com.tw/uploads/root/CSR/SustainableReport_2024_V8.pdf",
+      "source_level": 2,
+      "publication_date": "2025",
+      "effective_period": "2024-01-01至2024-12-31。",
+      "locator": "PDF第8頁（印刷頁06），公司簡介列成立於1995年10月、代工製造高端機能服飾及羽絨衣，產品銷售量列羽絨外套3,461千件、樹脂棉外套3,742千件，並稱躋身世界級羽絨衣生產領導地位。",
+      "source_sha256": "749742cb0e6821286a18577c83f831d23ef4b3d3f034f4a43b8ea1d6e0935878",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4438/qve-2024-sustainability-report.pdf",
+      "note": "發行人報告；其產量數字及「領導地位」敘述沒有提供全球同業排名比較。"
+    },
+    {
+      "source_id": "qve-about-current",
+      "title": "關於廣越 - 廣越企業股份有限公司",
+      "url": "https://www.qve.com.tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行官方公司介紹；頁面未標示更新日期。",
+      "locator": "公司簡介首段：廣越企業於1995年10月成立，英文名Quang Viet Enterprise Co., Ltd.，從事成衣加工、製造及買賣，為全球領先的高端機能服飾及羽絨衣製造商。",
+      "source_sha256": "e853265b8889a1d8d8aa20168da887a53aefb5cb385966180c3e3272269db1da",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/4438/qve-about.html",
+      "note": "發行人現行官網；公司自述的「全球領先」不是可獨立驗證的第一名排名。"
+    }
+  ],
+  "search_notes": [
+    "使用4438發行人官方網站、2026年4月法人說明會簡報及2024永續報告核對。已保存文件原始下載檔並計算SHA-256。",
+    "官方簡報列出「全球前三大高端戶外機能服飾製造商」；該類別範圍與「全球最大高階羽絨外套製造商」不相同，也未列比較標準或第三方來源。",
+    "永續報告提供2024羽絨外套銷量3,461千件，但單一公司銷量不構成全球排名證據。未披露同業比較只代表本次資料不足，不代表已證明排名相反。",
+    "原報告把英文公司名寫為Kwong Lung Enterprise；4438官方英文名稱為Quang Viet Enterprise Co., Ltd.，重寫時已更正發行人名稱。"
+  ]
+}

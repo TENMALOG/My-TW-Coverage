@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000065",
+  "claim_id": "3552:objective_ranking_or_market_share:e17dab0717bd3ebb",
+  "normalized_claim_hash": "e17dab0717bd3ebbb9fe740bf7347b1314b47910aaeff36108f2cae4f6c49061",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-439101247409cfea",
+      "title": "雷達偵測系統在智慧車輛之應用發展趨勢",
+      "url": "https://www.materialsnet.com.tw/DocView.aspx?id=24212",
+      "source_level": 2,
+      "publication_date": "2016-04-05",
+      "effective_period": "2016年刊載時的市場狀況",
+      "locator": "「台廠陸續加入防撞系統供應鏈」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱同致全球市佔率僅次於Bosch、Valeo；未給出市佔數值或排名方法。"
+    },
+    {
+      "source_id": "src-ce77a292c70d6be1",
+      "title": "2024 TungThih Electronic Co.,Ltd. Sustainability Report",
+      "url": "https://www.tungthih.com/ckfinder/files/%E5%90%8C%E8%87%B4%E9%9B%BB%E5%AD%902024ESG%E5%A0%B1%E5%91%8A%E6%9B%B8_EN(20251022).pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "報告資料涵蓋2024-01-01至2024-12-31",
+      "locator": "Message from the Chairman",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為汽車電子領域領先Tier 1供應商，但未將此定位與48家車廠數量或直接供貨關係相連。"
+    },
+    {
+      "source_id": "src-3a1ba8a93573c061",
+      "title": "同致電子企業股份有限公司 TungThih Electronic Co., Ltd — 產品",
+      "url": "https://www.tungthih.com/product.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "自1990年產品推出以來的累計供貨範圍；頁面未標示統計截止日",
+      "locator": "超聲波感測器介紹段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱產品已供貨至50多個國家。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到公司產品頁對累計供貨國家及車廠數的明確陳述、公司永續報告對Tier 1定位的自述，以及2016年排名資料。有限檢索未找到可確認現行排名或逐家直接Tier 1供貨關係的證據；未以歷史排名或累計供貨範圍推定這些未解主張。",
+    "排名資料來自2016年二手產業文章，並非同致或監管機構的排名披露；未提供市場分母、排名方法或具體市佔率。",
+    "公司產品頁的48家車廠及50多個國家數字沒有發布日期或統計截止日，文字指向自1990年推出以來的供貨範圍，不能替代現行客戶數或活躍市場數。",
+    "Tier 1定位來自公司永續報告的自述；報告未證明48家車廠均由同致直接供貨，或均屬停車感測器產品客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3552/65/hermes-attempt-1.stdout.txt"
+}

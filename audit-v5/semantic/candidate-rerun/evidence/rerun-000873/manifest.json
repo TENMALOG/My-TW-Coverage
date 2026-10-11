@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000873",
+  "claim_id": "2258:material_named_relationship:918bd151a76df137",
+  "normalized_claim_hash": "918bd151a76df13787fb26f0faec3fc90f6d31ad519b48d1f138fa204573be4f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d3f1f740a2071cca",
+      "title": "搶攻電動車 鴻華先進：2月接單4月出貨",
+      "url": "https://www.cna.com.tw/news/afe/202101260348.aspx",
+      "source_level": 2,
+      "publication_date": "2021-01-26",
+      "effective_period": "As reported January 26, 2021",
+      "locator": "Article passage on Foxtron’s relationship with MIH; quotes Foxtron General Manager Lee Ping-yen.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Directly reports the executive’s statement that Foxtron was one of MIH Alliance’s founding members."
+    },
+    {
+      "source_id": "src-76622ddc0dcada8b",
+      "title": "Hon Hai Precision Industry Co., Ltd. Q3 FY20 Results",
+      "url": "https://image.honhai.com/law_talk/Hon_Hai_3Q20_results_English.pdf",
+      "source_level": 3,
+      "publication_date": "2020-11-12",
+      "effective_period": "Prospective statement concerning MIH’s planned independence by June 2021",
+      "locator": "Slide titled “What is MIH Alliance?”, PDF page 21/31.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States Hon Hai and Foxtron would be MIH founder members after the organization became independent; corroborates the plan, not by itself the later completion."
+    },
+    {
+      "source_id": "src-3abe4fbfa9f664be",
+      "title": "鴻華先進科技自主開發電動巴士MODEL T 正式交付高雄客運",
+      "url": "https://www.foxconn.com/zh-tw/press-center/events/foxconn-events/747",
+      "source_level": 3,
+      "publication_date": "2022-03-03",
+      "effective_period": "Model T electric bus delivered March 3, 2022",
+      "locator": "Chairman Liu Young-way’s remarks on Model T components.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that over 65% of Model T components were supplied by MIH Alliance members and Taiwanese suppliers; the combined groups are not disaggregated, and this is not a measure of MIH membership composition."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Seven focused search turns found evidence for the historical founding-member relationship and a related but non-equivalent Model T sourcing figure. The Taiwan-supplier percentage remains unresolved because its scope, period, and denominator are unspecified.",
+    "MIH membership evidence supports Foxtron’s historical founding-member status; it does not verify its current membership status.",
+    "The Model T percentage is a combined sourcing figure for MIH Alliance members and Taiwanese suppliers, not a standalone Taiwan-supplier percentage.",
+    "No reliable source found that defines the denominator, measurement basis, or period for the claimed Taiwan-supplier share."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2258/873/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001051",
+  "claim_id": "3645:material_named_relationship:bd156a6d7a730ace",
+  "normalized_claim_hash": "bd156a6d7a730ace22a6b00fa2fc15653c90afb171fd07e7bbec98215b7639e7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f9f0aed69ebbf99fdc98",
+      "title": "達邁擴建新產線2026量產 透明PI已供AR眼鏡",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f542ad9f-0c1b-4afa-881d-ab6ca56894a4",
+      "source_level": 2,
+      "publication_date": "2024-12-27",
+      "effective_period": "報導稱截至2024年12月，透明PI已供Meta AR眼鏡。",
+      "locator": "正文，AR眼鏡應用段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱達邁以透明PI進入Meta AR眼鏡，並說明達邁提供PI膜、子公司柏彌蘭負責細線路製程。"
+    },
+    {
+      "source_id": "src-58482a9b2c42ec7aadb2",
+      "title": "達邁大啖Meta AR眼鏡利多",
+      "url": "https://www.tpca.org.tw/message/MessageView?id=26644&mid=112",
+      "source_level": 2,
+      "publication_date": "2025-01-22",
+      "effective_period": "報導所述近期供應鏈狀態；Meta AR眼鏡仍處開發初期。",
+      "locator": "正文，達邁PI材料段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱達邁以透明PI進入Meta AR眼鏡供應鏈，並描述其眼球追蹤及操控用途。"
+    },
+    {
+      "source_id": "src-ea4fde214c485c82cb8a",
+      "title": "達邁擴建新產線2026量產 透明PI已供AR眼鏡",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f542ad9f-0c1b-4afa-881d-ab6ca56894a4",
+      "source_level": 2,
+      "publication_date": "2024-12-27",
+      "effective_period": "報導所述截至2024年12月的產品應用。",
+      "locator": "正文，AR眼鏡應用段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "描述達邁提供PI膜、柏彌蘭提供細線路製程，並稱該方案可完成眼球追蹤功能。"
+    },
+    {
+      "source_id": "src-3b5bf8a1642fb97f8d1d",
+      "title": "達邁大啖Meta AR眼鏡利多",
+      "url": "https://www.tpca.org.tw/message/MessageView?id=26644&mid=112",
+      "source_level": 2,
+      "publication_date": "2025-01-22",
+      "effective_period": "報導所述Meta AR眼鏡開發階段的技術用途。",
+      "locator": "正文，達邁PI材料段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "指出透明膜上製作超微細OPI線路，並以FOG製程連接鏡框IC零件與顯示器玻璃基板；將其用途描述為眼球追蹤及操控。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦檢索並找到兩篇相互印證的具體報導；未找到可直接核實Meta客戶關係的官方原始披露，因此保留來源層級與產品期間 caveat，停止檢索。",
+    "找到的具體Meta供應鏈與技術細節來自MoneyDJ及TPCA等二級報導；本次未找到達邁或Meta直接確認該客戶關係的正式披露。",
+    "來源將產品描述為開發初期，且對應的產品型號、認證完成情況、量產狀態及出貨規模未明確說明。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3645/1051/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2494dc05489276ad518c0784ed1c7e0ea467cecfb5ad3e8daee82c2b97a0508b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3645/1051/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "86abb4a9338ecbdf8a5f74ed1f41ad511b93355ca30ebbcc4c815212cf152860",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001051/manifest.json",
+  "supersedes_manifest_sha256": "e660d9efcc7c1e1d76220fda753ad0d305095e9b0bcbdcd41ca8c266b8625349",
+  "corrected_at": "2026-10-08T09:59:12Z"
+}

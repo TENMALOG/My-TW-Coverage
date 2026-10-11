@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001278",
+  "claim_id": "9918:material_named_relationship:9ee2a3f7848520f1",
+  "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4e99ca52588fda1ec420",
+      "title": "欣欣天然氣股份有限公司114年度年報",
+      "url": "https://www.shinshingas.com.tw/upfile/5-114%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-30",
+      "effective_period": "114年度（2025年）；年報載明截至刊印日的供應關係",
+      "locator": "PDF第82–83頁（年報頁碼74–75），「市場未來供需狀況及成長性」及「主要原料之供應狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱台灣中油為國內天然氣唯一供應商，並明載公司所供應氣源由台灣中油獨家供應。供應商表另列其他採購來源，因此獨家性應限於天然氣氣源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得發行人114年度官方年報，直接支持該關係及其範圍，無需以其他年份或不同採購分母替代。",
+    "採用發行人官方年報；其披露支持欣欣天然氣的天然氣氣源獨家供應關係。",
+    "年報的其他供應商採購金額不否定氣源獨家性，因該表涉及公司整體進貨，而非只統計天然氣氣源。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9918/1278/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "456cbb50308631638be7f1e45e21523e40b924ba55452937b79fb77f38f0ad14",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9918/1278/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "4500b913cd0ae20b7bc608b95dfdc24cfd16881d181e16254a740f2de545ccbe",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001278/manifest.json",
+  "supersedes_manifest_sha256": "d0bf2fb67c1da76722b0085d55d3dd0da9ed413ea26d73dec9df4d1fd2ce597e",
+  "corrected_at": "2026-10-08T09:59:38Z"
+}

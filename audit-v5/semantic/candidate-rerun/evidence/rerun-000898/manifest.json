@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000898",
+  "claim_id": "4551:material_named_relationship:385fd2464812bbda",
+  "normalized_claim_hash": "385fd2464812bbda9248d707fa12f6197bd510fd734b632a4d99ef59721cd2e4",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d870d58dae93bebb",
+      "title": "關於智伸－智伸科技股份有限公司",
+      "url": "https://global.com.tw/%E9%97%9C%E6%96%BC%E6%99%BA%E4%BC%B8/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司主要產品應用說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司確認產品應用涵蓋半導體設備流量控制系統；未單獨披露 EUV 零件。"
+    },
+    {
+      "source_id": "src-b05fb3779d3db5dc",
+      "title": "智伸科技2025年度Q1財務成果",
+      "url": "https://mopsov.twse.com.tw/nas/STR/455120250520M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-20",
+      "effective_period": "2025Q1 vs. 2024Q1",
+      "locator": "PDF第10頁；營運概況－增減幅圖表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "圖表列出2024Q1與2025Q1各產品類別營收，標示醫療類 +409%；單位為新台幣千元。"
+    },
+    {
+      "source_id": "src-06b8be64216e3aa1",
+      "title": "智伸科打入 AI 鏈 出貨放量",
+      "url": "https://udn.com/news/amp/story/7252/9500981",
+      "source_level": 2,
+      "publication_date": "2026-05-14",
+      "effective_period": "截至2026-05",
+      "locator": "報導首段及 EUV／DUV 零組件段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導明確稱智伸科打入艾司摩爾（ASML）供應鏈，並描述其 EUV／DUV 微影設備零組件。"
+    },
+    {
+      "source_id": "src-704111e69745cbdb",
+      "title": "《汽車股》智伸科除息前股價大漲 第三季有望重返成長",
+      "url": "https://www.yuanta.com.tw/eYuanta/Securities/News/GetAPItem?Type=StockHotNews&id=202507210112317",
+      "source_level": 2,
+      "publication_date": "2025-07-21",
+      "effective_period": "2025Q2",
+      "locator": "第二季營運與水冷散熱零件段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱水冷散熱零件訂單開始小量出貨，AI水冷頭供應鏈第二季起逐步進入量產。"
+    },
+    {
+      "source_id": "src-89b897a020e38470",
+      "title": "智伸科產品放量 挹注動能",
+      "url": "https://money.udn.com/money/story/5710/8879649",
+      "source_level": 2,
+      "publication_date": "2025-07-18",
+      "effective_period": "2025Q2",
+      "locator": "報導中公司對AI伺服器零組件量產及出貨的說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述公司表示，AI伺服器相關關鍵零組件自2025年第二季起正式量產並穩健出貨。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已取得公司官方法說簡報與公司產品應用資料，並以同期及後續媒體報導交叉核對細項；各原子主張均有支持，按候選接受提交最終裁定。",
+    "醫療產品409%為公司法說簡報披露的2025Q1對2024Q1產品類別營收年增率，分母是2024Q1醫療類營收。",
+    "2025Q2液冷出貨的時點由同期媒體報導支持；報導描述為小量出貨或逐步量產，不應解讀為當季已大規模放量。",
+    "EUV／DUV零組件及ASML供應鏈關係由經濟日報報導支持；所查公司官方頁面確認相關半導體設備應用，但未點名ASML或披露EUV零件細節。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4551/898/hermes-attempt-1.stdout.txt"
+}

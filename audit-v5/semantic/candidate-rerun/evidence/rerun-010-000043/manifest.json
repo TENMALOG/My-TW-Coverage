@@ -1,0 +1,86 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000043",
+  "claim_id": "2105:objective_ranking_or_market_share:daa2ec046bdc0d7f",
+  "normalized_claim_hash": "daa2ec046bdc0d7f53225ae92621fec1cabb8166a168371d5beb2b7f8b37dfb3",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-9ab8481ebcd1aaa8ef76",
+      "title": "正新陳榮華：旗下印尼及印度產能利用率先力拚滿載",
+      "url": "https://www.ctee.com.tw/news/20260402700548-430503",
+      "source_level": 2,
+      "publication_date": "2026-04-02",
+      "effective_period": "2025年全球排名；依2024年輪胎銷售額",
+      "locator": "報導中段，全球輪胎排名段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱正新以2024年銷售額29.98億美元列2025年全球第16名，並仍是台灣輪胎廠排名最高者。"
+    },
+    {
+      "source_id": "src-6323c18147c3cf0536df",
+      "title": "全球輪胎業營收 正新居第16",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_more.aspx?nsl_id=4cf28f5073454e3894c5ef9ef0c152be",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年全球排名；依2024年營收",
+      "locator": "文章摘要及排名敘述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "工研院產科國際所報導指出正新以2024年營收29.98億美元列第16名，且仍居台灣廠商之首。"
+    },
+    {
+      "source_id": "src-cda4dfa7dcb530d4ed09",
+      "title": "正新陳榮華：旗下印尼及印度產能利用率先力拚滿載",
+      "url": "https://www.ctee.com.tw/news/20260402700548-430503",
+      "source_level": 2,
+      "publication_date": "2026-04-02",
+      "effective_period": "2025年全球排名；依2024年輪胎銷售額",
+      "locator": "報導中段，全球輪胎排名段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確列出正新全球第16名、輪胎銷售額29.98億美元。"
+    },
+    {
+      "source_id": "src-9567c526b96003fd1fe9",
+      "title": "2025 Global Tire Report",
+      "url": "https://www.tirebusiness.com/data-lists/2025-global-tire-report",
+      "source_level": 2,
+      "publication_date": "2025-08-27",
+      "effective_period": "2024年度全球輪胎銷售額",
+      "locator": "報告頁面說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Tire Business說明此報告包含全球前75大輪胎製造商名單；該報告是上述年度排名的來源。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已取得近期排名資料，足以支持台灣廠商中排名最高及反證最新全球前十說法；停止進一步查找。",
+    "原句未指定排名年份、衡量指標或「台灣最大」的市場範圍；本次將最大解讀為台灣輪胎製造商按全球輪胎銷售額排名最高。",
+    "全球排名衡量輪胎銷售額，不是台灣境內市占率、產量或出貨量排名。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2105/43/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "8d08f48b4faab540391571117cfdb70c61d88478e011f6106d9fec1e6c49f83a",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2105/43/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "0336c56d59e0b653dbc06018c3f37ed27f147deaa3b0274416d8b612e2760366",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000176",
+  "claim_id": "2356:objective_ranking_or_market_share:ed253454231d412c",
+  "normalized_claim_hash": "ed253454231d412c6080efdfc4ad9fdddccc86391af62d2e28e6fdd3bf464ffb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c923efcd4fab4247a848",
+      "title": "DIGITIMES Research: Notebook Tracker – Nov 2022",
+      "url": "https://www.digitimes.com/reports/PDF/Notebook_NOV_2022_RS400221228.pdf",
+      "source_level": 2,
+      "publication_date": "December 2022",
+      "effective_period": "November 2022",
+      "locator": "Page 4, “Top-3 notebook ODMs,” paragraph beginning “Inventec’s notebook shipments slipped 14%...”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States Inventec’s notebook shipments declined year over year as “HP, its largest client,” cut more than 60% of its orders. This supports the dated client ranking, not an undated or continuing ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found direct, time-scoped support for November 2022, but did not establish whether the ranking held during the original claim’s unspecified reference period.",
+    "The evidence is industry research, not an Inventec filing or disclosure.",
+    "The source supports a November 2022 ranking only. It provides no quantified customer share and does not establish the ranking for the unspecified reference period of the original claim."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2356/176/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "93e0075cc53ba08fad351d9f09237fe5158e3944034cf423a6ecf33cf27ef86a",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2356/176/isolated-prompt.txt",
+  "prompt_sha256": "ceef672e9c8172b3a5a02657e057cc521349f26f3da81890659567ecbf29f8f7",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000176/manifest.json",
+  "supersedes_manifest_sha256": "a4f519550397aed4625b4c39f740c3d337ad553e590137f9cd8f3aa9600011f9",
+  "corrected_at": "2026-10-08T09:57:52Z"
+}

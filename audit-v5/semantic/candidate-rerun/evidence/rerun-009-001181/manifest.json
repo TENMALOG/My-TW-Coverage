@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001181",
+  "claim_id": "6953:identity_changing_event:c73ead2e44eb21b3",
+  "normalized_claim_hash": "c73ead2e44eb21b346359138037f8ad6128f9332d8e72d28014ed3905abba4f5",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8804100330154d261e2e",
+      "title": "經濟部商工登記公示資料查詢：家碩科技股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/47086838",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023-02-10",
+      "locator": "公司基本資料及歷史資料；記載112年2月10日變更名稱，前名稱為家登自動化股份有限公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公司登記資料，直接支持更名日期與前後名稱。"
+    },
+    {
+      "source_id": "src-b713792dd9b02da9aa49",
+      "title": "家碩科技股份有限公司公開說明書，櫃買中心",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2023/06/1686552011_5808_CH_6953.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國112年（2023年）",
+      "locator": "公司簡介「歷史沿革」表，112年度紀事",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方櫃買中心文件記載公司更名為家碩科技股份有限公司。"
+    },
+    {
+      "source_id": "src-763476a49e6f6e3e1812",
+      "title": "公告家碩科技股份有限公司初次申請上櫃普通股股票開始櫃檯買賣日期，證券櫃檯買賣中心",
+      "url": "https://dsp.tpex.org.tw/web/announcement/announcement_detail.php?content_file=MTEzMDAwMzEwMjEuaHRtbA%3D%3D&content_number=MTEzMDAwMzEwMjE%3D",
+      "source_level": 3,
+      "publication_date": "2024-05-10",
+      "effective_period": "2024-05-13起",
+      "locator": "公告事項第1、3及10點",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公告載明初次上櫃，並明確列出上櫃股票開始買賣日期為民國113年5月13日。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩項原子主張均由官方公司登記或櫃買中心資料支持；完成聚焦查證後停止。",
+    "更名日期由經濟部公司登記資料直接確認；櫃買中心公開說明書以民國112年記載更名年度。",
+    "櫃買中心公告確認2024年5月13日開始上櫃交易；公司於2023年曾登錄興櫃，與2024年初次上櫃是不同市場階段。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6953/1181/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "90b863a625628ec39b349fc40875622c2bbe983f5ea8acbe4f27becc9fd1db49",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6953/1181/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "16e0426f42fc391c21b3117b6fee4c809ab6afce786707440dadbb2e6bb403ed",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001181/manifest.json",
+  "supersedes_manifest_sha256": "a0ad1467d5874fac0b2b0e93ad6f0cc66a1fa67ec313881092652e76abdc897d",
+  "corrected_at": "2026-10-08T09:59:27Z"
+}

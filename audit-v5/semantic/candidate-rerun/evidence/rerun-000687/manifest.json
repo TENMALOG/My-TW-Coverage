@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000687",
+  "claim_id": "2103:objective_ranking_or_market_share:d3bfe3d982942ba8",
+  "normalized_claim_hash": "d3bfe3d982942ba811d37ca5b281107ab779c6a266a97d6d9746ef3eeca0543e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9cc05251089e3247",
+      "title": "台橡股份有限公司-MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=430fd75c-6bf2-41f2-8f9d-e68b448c4d82",
+      "source_level": 2,
+      "publication_date": "2025-07-08",
+      "effective_period": null,
+      "locator": "「沿革與背景」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱台橡「位居全球第七大橡膠生產公司」，未交代排名年度、排名指標或市場分母；來源頁並註明內容由嘉實投顧提供。"
+    },
+    {
+      "source_id": "src-a6d8970f04d7ca03",
+      "title": "台橡(2103) 是 亞洲最大橡膠公司，還供應正新、建大等輪胎大廠，卻可能「不適合」存股，因為...",
+      "url": "https://cmnews.com.tw/article/emily-3d7215f0-75a5-11e7-b092-cd34c0ed5086",
+      "source_level": 1,
+      "publication_date": "2017-07-31",
+      "effective_period": null,
+      "locator": "「台橡個股報告」—「公司基本資料」及「競爭狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱台橡為「亞洲最大之橡膠生產公司」及「亞洲…最大的橡膠製造商」，但未界定合成橡膠市場、比較對象、排名指標或排名年份。"
+    },
+    {
+      "source_id": "src-a39a4d02fddcaf75",
+      "title": "TSRC FACT SHEET",
+      "url": "https://www.tsrc.com.tw/app/uploads/2017/10/171110_FactSheet_EN.pdf",
+      "source_level": 3,
+      "publication_date": "2017-10",
+      "effective_period": "Fact sheet includes 2016 revenue and capacity figures",
+      "locator": "Page 1, opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方稱台橡已成為全球「one of the largest synthetic rubber and elastomer companies」之一，未提供第七名或可核對的排名指標。"
+    },
+    {
+      "source_id": "src-2748aea5e2b19210",
+      "title": "關於我們 - TSRC 台橡股份有限公司",
+      "url": "https://www.tsrc.com.tw/tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「國際級的合成橡膠領導者」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方稱台橡是「亞洲市場舉足輕重的合成橡膠產業領導者」，並列出年產量資料；未聲稱亞洲第一或最大，也未提供排名比較。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視台橡官方公司介紹、官方 Fact Sheet、年報相關資料與二手公司介紹；未找到能確認兩項排名所需年份、指標及市場分母的可靠比較排名，因此停止，未解決的原子主張維持 UNKNOWN。",
+    "可找到的全球第七大與亞洲最大說法主要見於二手公司介紹，措辭指向較廣義的「橡膠生產公司」，而非具有明確範圍與比較基準的合成橡膠製造商排名。",
+    "官方資料中的「領導者」或「全球大型公司之一」不能替代「最大」或「第七大」排名；產能／產量數字本身也未提供排名分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2103/687/hermes-attempt-1.stdout.txt"
+}

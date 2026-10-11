@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000440",
+  "claim_id": "3158:objective_ranking_or_market_share:6f3b16014ede3133",
+  "normalized_claim_hash": "6f3b16014ede31338d6da9a75f61d228b20e38cc93941d1d07fa390f862ca738",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-381ee369e26b914a",
+      "title": "簽約資訊公司名冊 - TWSE 臺灣證券交易所",
+      "url": "https://www.twse.com.tw/zh/products/information/list.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查核時的現行名冊；生效日期未載明",
+      "locator": "簽約資訊公司名冊 > 國內資訊公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "名冊列出嘉實資訊股份有限公司；TWSE 英文版頁面說明核准資訊商經銷臺灣證券交易所市場資料。"
+    },
+    {
+      "source_id": "src-f7b2e4d6db0ce23c",
+      "title": "資訊購買專區 - 證券櫃檯買賣中心",
+      "url": "https://www.tpex.org.tw/zh-tw/service/data/other/list.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "查核時的現行名冊；生效日期未載明",
+      "locator": "簽約資訊公司名冊 > 國內資訊廠商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "名冊列出嘉實資訊股份有限公司；該頁屬櫃買中心資訊購買專區。"
+    },
+    {
+      "source_id": "src-c34834a676efe5e1",
+      "title": "資訊廠商 - 臺灣期貨交易所",
+      "url": "https://www.taifex.com.tw/cht/3/inforVendor",
+      "source_level": 3,
+      "publication_date": "2026-08-28",
+      "effective_period": "頁面標示更新日期2026-08-28",
+      "locator": "國內行情資訊公司名冊，代碼D03；頁尾更新日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "名冊列出嘉實資訊股份有限公司。"
+    },
+    {
+      "source_id": "src-b3581f52dcde5067",
+      "title": "XQ全球贏家 - 嘉實資訊股份有限公司",
+      "url": "https://www.sysjust.com.tw/Products/XQM.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品特色 > 全球財經資訊：「全球報價一手掌握」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官網僅概述全球報價，未點名 NYSE、資料直接來源或報價即時性；不足以支持原子主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱嘉實官網及台灣三個交易所的官方資訊供應商名冊，並以聚焦搜尋查找 NASDAQ、NYSE 來源證據；仍未找到可確認這兩個市場第一手報價的資料，故保留為 UNKNOWN。",
+    "台灣三個交易所的官方名冊證明嘉實列為簽約資訊或行情資訊廠商；名冊未完整界定每項報價產品的即時性、資料層級或授權範圍。",
+    "NASDAQ、NYSE部分僅找到嘉實官網對全球報價的概述，沒有足以確認這兩個市場及第一手來源的證據。",
+    "此 claim 是來源/服務範圍描述，不是數值指標；沒有可適用的分母或統計單位。報價幣別、頻率及延遲亦未界定。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3158/440/hermes-attempt-1.stdout.txt"
+}

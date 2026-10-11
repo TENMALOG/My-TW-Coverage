@@ -1,0 +1,41 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000899",
+  "claim_id": "2890:profitability_assertion:87eb0db69c8e92ab",
+  "normalized_claim_hash": "87eb0db69c8e92ab308d1b5925733c28248d608011cb9c02989a4eddd88a84c1",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-74905c346be12a11",
+      "title": "永豐金控 2025年第四季公司簡介",
+      "url": "https://www.sinopac.com/upload/sinopac/spfcMenu/19cd142885e0000013e7.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-06",
+      "effective_period": "FY2025; profit-contribution data through 2025",
+      "locator": "PDF p. 5, slide 6,「銀證雙引擎的營運模式」and「各子公司獲利佔比」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Shows 永豐金證券 at 23% of subsidiary profit contribution."
+    },
+    {
+      "source_id": "src-6a01787f9880f03a",
+      "title": "永豐金控 2025年第四季營運報告",
+      "url": "https://www.sinopac.com/investors/20211210153457585149/20211210153458742624/20260309141442543244.html",
+      "source_level": 3,
+      "publication_date": "2026-03-10",
+      "effective_period": "FY2025",
+      "locator": "2025年第四季營運報告, paragraphs on 永豐金證券",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports the securities subsidiary’s 2025 after-tax net profit as NT$6.47 billion."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Sufficient official issuer evidence supports both engines and the issuer’s dual-engine characterization; stopped before the research-turn limit.",
+    "The issuer’s 2025 profit-contribution breakdown also includes 京城銀行 at 4% and other subsidiaries at 3%;「雙獲利引擎」is supported as a description of the two principal engines, not as a claim that they are the group’s only profit contributors."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2890/899/hermes-attempt-1.stdout.txt"
+}

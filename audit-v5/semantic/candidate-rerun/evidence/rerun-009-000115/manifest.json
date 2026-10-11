@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000115",
+  "claim_id": "6005:objective_ranking_or_market_share:083b365bd1c581fa",
+  "normalized_claim_hash": "083b365bd1c581fa0150bc3ad8c4b66454055a3ab9c66bbf7e3565d93f67787c",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-cc07cce857e8c0263d96",
+      "title": "群益金鼎證券2024年度永續報告書",
+      "url": "https://capitalfile.capital.com.tw/4b89132c-1907-4b92-94e6-531e21d9a4f5/%E7%BE%A4%E7%9B%8A%E9%87%91%E9%BC%8E%E8%AD%89%E5%88%B82024%E5%B9%B4%E5%BA%A6%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01/2024-12-31",
+      "locator": "PDF p. 13, 留存經濟價值分析—經紀業務",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露集中市場與櫃買市場合計市占率為 3.58%。"
+    },
+    {
+      "source_id": "src-535dcf1705e485ed473e",
+      "title": "群益金鼎證券2024年度永續報告書",
+      "url": "https://capitalfile.capital.com.tw/4b89132c-1907-4b92-94e6-531e21d9a4f5/%E7%BE%A4%E7%9B%8A%E9%87%91%E9%BC%8E%E8%AD%89%E5%88%B82024%E5%B9%B4%E5%BA%A6%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08",
+      "effective_period": "2024-01-01/2024-12-31",
+      "locator": "PDF p. 13, 留存經濟價值分析—經紀業務",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司披露其經紀業務排名國內券商第六名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達研究／工具迭代上限。現有官方來源支持兩項內容在 2024 年成立，但原 claim 缺少期間，因此不將未限定期間的原文判為完整支持。",
+    "可核實的官方資料對應 2024 年；原 claim 未標示期間，不能據此確認其在其他期間仍成立。",
+    "「約 4%」是對 3.58% 的概括表述；官方披露的市場範圍為集中市場與櫃買市場合計。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6005/115/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "988d9ed4bcf10969f4e50e1bd7668b12035a39910226dc61a7e6ac346762b665",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6005/115/isolated-prompt.txt",
+  "prompt_sha256": "8320f04a929af6eed3c95ab7bab633e9189e9beda2f8cdc7dad008ebe5acaaa5",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000115/manifest.json",
+  "supersedes_manifest_sha256": "343b568a42fcf036f2f4ef30ba313557e37bb3570dc2bf1700af0047c2d81ee5",
+  "corrected_at": "2026-10-08T09:57:47Z"
+}

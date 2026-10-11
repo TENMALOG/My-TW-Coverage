@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000082",
+  "claim_id": "2892:objective_ranking_or_market_share:a7669e207f28c0b5",
+  "normalized_claim_hash": "a7669e207f28c0b555c137ce34131f866c6975eee11a55666aa6e3a0eab4d2cc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-beecb72d987ae3ff",
+      "title": "第一金融控股股份有限公司－主要股東名單",
+      "url": "https://ir.firstholding.com.tw/c/ir_major.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "基準日：2026-04-20",
+      "locator": "主要股東名單；財政部及臺灣銀行各自列項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財政部11.49%與臺灣銀行7.45%分別列示，且財政部持股比例較高。"
+    },
+    {
+      "source_id": "src-fd997b3bb1380fa7",
+      "title": "臺銀簡介",
+      "url": "https://wwwap.bot.com.tw/ESG/about-us.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "臺銀簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "臺灣銀行官方頁面稱臺灣金控持有臺灣銀行100%股權，財政部持有臺灣金控100%股權。"
+    },
+    {
+      "source_id": "src-b0c4eb2dc682e4bc",
+      "title": "臺灣銀行公司治理運作情形及與銀行業公司治理實務守則差異情形及原因（114年）",
+      "url": "https://www.bot.com.tw/Images/File/GetFileId/f2b5054c-14c5-43d3-9893-c2e1d2f9ae14",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年（民國114年）",
+      "locator": "第1頁「銀行股權結構及股東權益」；第4頁「投資者關係、利益相關者權益」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載臺灣金控為臺灣銀行100%股東，且臺灣金控由財政部100%持有。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方股東名單與臺灣銀行官方所有權資料已足以核實最新可見期間的直接持股、另行持股及控制鏈。原主張未標期間，且官方資料未提供最終受益人合併排名，故不將該快照外推至其他期間或推定合併排名。",
+    "原始主張沒有指定時間；目前核實的是第一金控官方股東名單的2026年4月20日快照，不能據此推定其他期間。",
+    "第一金控主要股東名單只列持股達1%以上者；該限制不影響本快照中財政部與臺灣銀行持股比例的直接比較。",
+    "若「最大股東」意指將直接與間接持股合併計算的最終受益人，官方名單沒有提供合併排名或該排名口徑；已核實的是分別列示的登記股東及所有權鏈。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2892/82/hermes-attempt-1.stdout.txt"
+}

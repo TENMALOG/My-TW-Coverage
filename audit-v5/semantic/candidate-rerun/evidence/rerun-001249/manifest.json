@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001249",
+  "claim_id": "5016:material_named_relationship:f7cc475a704a35de",
+  "normalized_claim_hash": "f7cc475a704a35de955580d8ffb4ab1ef6448592e59d7c4d04a8c6e3ae91378d",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ed89ff816227b4d3",
+      "title": "松和工業股份有限公司—2025年4月法說會簡報",
+      "url": "https://www.songho.com/files/2025%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04",
+      "effective_period": "2025年4月公司營業項目說明",
+      "locator": "第4頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱台灣廠營業項目包括鋼線、鋼纜等之製造及銷售；該頁未按鋼纜用途或客戶拆分。"
+    },
+    {
+      "source_id": "src-852bc08a7f66bc06",
+      "title": "松和（5016）年報查詢—114年度年報內容轉載",
+      "url": "https://treelazy.com/stock/5016",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "114年度（2025年）",
+      "locator": "114年度年報摘錄／未來公司發展策略",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載內容稱公司將持續深耕「國內電梯鋼纜龍頭地位」；屬二手年報摘錄，且沒有列出市場定義、排名依據或市占分母。"
+    },
+    {
+      "source_id": "src-1fada74d8d87fce5",
+      "title": "松和工業股份有限公司—8股鋼纜（電梯用）",
+      "url": "https://www.songho.com/zh-tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至檢視時的官方產品目錄",
+      "locator": "官方網站產品介紹：鋼纜／8股鋼纜－電梯用、鋼纜心8股鋼纜－電梯用",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方產品目錄列出電梯用鋼纜。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視松和官方產品目錄與2025年法說會簡報，並搜尋具名客戶及供應商關係；市場排名缺少同口徑分母，具名客戶關係缺少可靠披露，依證據標準停止並保留為UNKNOWN。",
+    "官方產品目錄證明產品供應，不等同於實際銷售、國內市場排名或指定客戶關係。",
+    "松和官方簡報所述國內鋼線、鋼纜供應地位涵蓋較廣產品類別，不能直接替代電梯用鋼纜市場的排名證據。",
+    "114年度年報摘錄由第三方網站轉載；其中「龍頭地位」措辭未附可核對的市占率、數量或市場分母。",
+    "未檢得崇友或永大與松和之間具名供應關係的官方披露；未找到不代表兩者不存在交易。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5016/1249/hermes-attempt-1.stdout.txt"
+}

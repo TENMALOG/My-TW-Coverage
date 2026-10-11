@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000467",
+  "claim_id": "8454:objective_ranking_or_market_share:831fc9adc6fce229",
+  "normalized_claim_hash": "831fc9adc6fce229abb0ff96d8d919c8c617d7e02f05ec070957e6c7344ea11e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ca8d1cf341ab68ce",
+      "title": "富邦媒體科技股份有限公司 2024 年報",
+      "url": "https://corp.momo.com.tw/file/investor/shareholdersMeeting/202501141851/20250508172658.pdf",
+      "source_level": 3,
+      "publication_date": "2025-02-21",
+      "effective_period": "2024年12月31日股東資料",
+      "locator": "主要股東表及主要法人股東之主要股東表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出大富媒體科技為主要股東，並列明其股東為台灣大哥大（100%）。"
+    },
+    {
+      "source_id": "src-05bcb1cbe9e45812",
+      "title": "公司簡介－富邦媒體科技",
+      "url": "https://corp.momo.com.tw/about/aboutmomo/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於momo」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明旗下包含 momo購物網及電視購物。"
+    },
+    {
+      "source_id": "src-74101d6f05a036cd",
+      "title": "經營團隊－富邦媒體科技",
+      "url": "https://corp.momo.com.tw/about/managementTeam",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "董事長蔡明忠介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱富邦媒體科技為富邦集團旗下三家上市公司之一。"
+    },
+    {
+      "source_id": "src-8b9c02e714522067",
+      "title": "營運概況－富邦媒體科技",
+      "url": "https://corp.momo.com.tw/CSR/operationalOverview",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023年度",
+      "locator": "2023年全年合併營收及營運績效段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露2023年全年合併營收新台幣1,092.4億元。"
+    },
+    {
+      "source_id": "src-f3926a601435e516",
+      "title": "momo富邦媒公告114年財報：全年營收1,087億元",
+      "url": "https://corp.momo.com.tw/welcome/view/95",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "114年度財報公告內容",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "披露2025年全年合併營收新台幣1,086.7億元。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱富邦媒官方公司簡介、管理團隊頁、營運概況、投資人資料及2024年年報；營收與核心通路獲得支持。未找到具有明確期間、比較範圍與排名指標的獨立資料來核實「台灣最大」，且集團隸屬口徑在官方材料間不一致，因此保留為UNKNOWN並停止。",
+    "「最大」的市場定義、比較期間及分母未明；公司自述的「龍頭」不能單獨確定特定排名。",
+    "「隸屬富邦集團」與「最終母公司為台灣大哥大」出現在不同官方材料中，可能使用不同的集團關係口徑。",
+    "2023年網路購物營收占比支持網路購物是核心通路，但不等於 momo購物網單一網站的獨立營收占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8454/467/hermes-attempt-1.stdout.txt"
+}

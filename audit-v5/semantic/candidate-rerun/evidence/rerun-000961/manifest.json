@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000961",
+  "claim_id": "2405:identity_changing_event:994e9d09f13f0b0a",
+  "normalized_claim_hash": "994e9d09f13f0b0ad8d09ee52e8778c02e2e8638f17496acf95a60f2969a349f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-f6017aa939948978",
+      "title": "聯絡我們 - 輔信科技Shuttle",
+      "url": "https://tw1.shuttle.com/AboutShuttle/ContactUs",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile",
+      "locator": "Company description and product/solution list",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists mini computers alongside industrial computers and customized IoT integration design, without asserting a completed transformation."
+    },
+    {
+      "source_id": "src-1062b6c8ed2012a0",
+      "title": "About Shuttle - Shuttle",
+      "url": "https://global1.shuttle.com/AboutShuttle/CompanyProfile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current company profile",
+      "locator": "Company profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the issuer as Shuttle Inc."
+    },
+    {
+      "source_id": "src-3e0d14c795b40b32",
+      "title": "輔信科技股份有限公司及子公司 2023 年第一季合併財務報告",
+      "url": "https://global1.shuttle.com/ShuttleWebIMG/Investors/RevenueReport/Chinese/2023Q1-ConsolidatedFinancialStatements.pdf",
+      "source_level": 3,
+      "publication_date": "2023-05-09",
+      "effective_period": "2023 Q1",
+      "locator": "附註一、公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Documents mini-barebone manufacturing as a main activity; it does not describe a completed transition away from it."
+    },
+    {
+      "source_id": "src-947916513766c580",
+      "title": "2022 永續報告書",
+      "url": "https://global1.shuttle.com/ShuttleWebIMG/Investors/SustainabilityReport/2022-SustainabilityReport.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Report year 2022; describes history since 1983",
+      "locator": "Section 2.1, innovation and intellectual property management",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that Shuttle has been established since 1983."
+    },
+    {
+      "source_id": "src-044a980eba04e4f3",
+      "title": "Contact Us - Shuttle",
+      "url": "https://global1.shuttle.com/AboutShuttle/ContactUs?LOCATION_Code=HQ",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current headquarters listing",
+      "locator": "Shuttle HeadQuarters",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists the headquarters at an address in Taipei, Taiwan."
+    },
+    {
+      "source_id": "src-b805ee8b3b62a5e2",
+      "title": "News - Shuttle, COMPUTEX 2026",
+      "url": "https://global1.shuttle.com/News/Details?location_code=HQ&newsid=1794&year=2026",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 event disclosure",
+      "locator": "Product and application description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes industrial platforms designed for AIoT environments."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對發行人公司資料、總部頁面及2023年第一季合併財務報告。2020更名與官方記載的2022年更名日期相矛盾；「已轉型」的方向性與完成程度仍未由官方資料明確證實，故保留為UNKNOWN。",
+    "公司沿革及更名日期以發行人發布的合併財務報告為依據；報告中的原名是法定名稱「浩鑫股份有限公司」。",
+    "「轉型」是描述業務方向變化的表述；已查的官方資料證明業務範圍包含迷你準系統、工業電腦及IoT整合，但沒有直接證明已完成由前者轉向後者的轉型。",
+    "官方資料對現行業務多為公司自述或產品介紹；這些資料可支持產品與服務範圍，不等同於市場占比或營收結構證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2405/961/hermes-attempt-1.stdout.txt"
+}

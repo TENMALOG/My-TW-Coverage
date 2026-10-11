@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001238",
+  "claim_id": "4566:control_acquisition:fa2a1362aff34e3b",
+  "normalized_claim_hash": "fa2a1362aff34e3b2bc238e6fee6b023a35ee57082f0e8c96ce10df1df310463",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ae1e56e8dc6c81fc",
+      "title": "時碩工業股份有限公司及其子公司109年度年報",
+      "url": "https://www.globaltekww.com/wp-content/uploads/2020/06/109%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "記載2018年董事會決議及2019年完成登記",
+      "locator": "第113頁，擴充廠房相關說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載時碩科技（無錫）有限公司與無錫時碩金屬製品製造有限公司合併，並明稱該合併屬公司組織架構重組。"
+    },
+    {
+      "source_id": "src-26eeac5295c21e7e",
+      "title": "時碩工業股份有限公司公開說明書",
+      "url": "https://www.osc.com.tw/Upload/20231117/45663%E6%99%82%E7%A2%A9%E5%B7%A5%E6%A5%AD%E4%B8%89%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+      "source_level": 3,
+      "publication_date": "2023-11-17",
+      "effective_period": "2018-01-17至2019-01-15",
+      "locator": "第8節「擴充廠房之預期效益、可能風險及因應措施」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載合併於2019-01-15完成變更登記，且屬組織架構重組；文件由承銷商網站提供。"
+    },
+    {
+      "source_id": "src-b42acae6273149de",
+      "title": "時碩工業董事會通過時碩科技（無錫）合併無錫時碩金屬製品製造案（公開資訊觀測站公告轉載）",
+      "url": "https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=58db19aa-644a-4aaf-bd94-b5294c5f3586",
+      "source_level": 2,
+      "publication_date": "2018-08-09",
+      "effective_period": "2018-08-09董事會決議；公告稱預計一年內完成合併",
+      "locator": "公告第1、3、4及11項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告轉載內容稱交易種類為合併，且參與合併公司均為時碩持股100%的子公司；這不是100%收購標的的證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索並核對公司年報、公開說明書及2018年重大訊息轉載。原 claim 缺少期間與標的定義，現有資料只核實到相關的合併重組，故未將其推定為收購；未解決原 claim。",
+    "找到的2018至2019年無錫交易資料描述的是兩家子公司合併及組織重整，不能替代原 claim 所稱的收購。",
+    "100%在公告中指合併參與公司的子公司持股狀態；原 claim 未說明標的法律實體、權益分母或交易期間。",
+    "2018年公告由MoneyDJ轉載公開資訊觀測站重大訊息；合併及完成登記資訊另由時碩年報和公開說明書佐證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4566/1238/hermes-attempt-1.stdout.txt"
+}

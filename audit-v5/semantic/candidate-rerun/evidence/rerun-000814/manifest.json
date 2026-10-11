@@ -1,0 +1,95 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000814",
+  "claim_id": "5007:objective_ranking_or_market_share:4847fe2cc4ab7293",
+  "normalized_claim_hash": "4847fe2cc4ab7293bbfb3725a9ce72ebf22826af1dd1581b162b230fce311ea9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2c9c5a08f57c2713",
+      "title": "San Shing Fastech Corp. 2021 Annual Report",
+      "url": "https://www.sanshing.com.tw/download/en/2021%20Annual%20Report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021年",
+      "locator": "Market Share; nut-product export volume",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司報告稱其螺帽出口重量占台灣螺帽出口總重量16.15%；此為市場占比，不是出口商排名。"
+    },
+    {
+      "source_id": "src-e71e19b6cd604570",
+      "title": "San Shing’s 2024 ESG Report",
+      "url": "https://www.sanshing.com.tw/download/2024SANSHING-ESG-REPORT-EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年報告中的公司現況描述",
+      "locator": "Getting to Know San Shing Fastech Corp., p. 6",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為全球最大的專業鋼鐵螺帽製造商；未提供可驗證排名的比較市場、競爭者資料或排名指標。"
+    },
+    {
+      "source_id": "src-4f0156159ae6f83e",
+      "title": "San Shing Fastech Corp. Articles of Incorporation / Handbook 2021",
+      "url": "https://www.sanshing.com.tw/download/en/Handbook2021.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021年章程",
+      "locator": "Articles of Incorporation, Article 3",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "章程明定公司的登記總公司設於台灣台南。"
+    },
+    {
+      "source_id": "src-143fb3592d44388a",
+      "title": "San Shing Fastech Corp. Company Profile",
+      "url": "https://www.sanshing.com.tw/en/company2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "目前官方公司資料",
+      "locator": "Company Profile; company address",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方資料列出的公司地址為台灣台南市歸仁區。"
+    },
+    {
+      "source_id": "src-9be1608642ea6b1a",
+      "title": "San Shing Fastech Corp. Company Description",
+      "url": "https://www.sanshing.com.tw/en/company.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "目前官方公司介紹",
+      "locator": "Description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司網站同樣作出「全球最大專業鋼鐵螺帽製造商」的自我描述，未列比較分母或排名依據。"
+    },
+    {
+      "source_id": "src-4b5eb95e5b66fa13",
+      "title": "San Shing Fastech Corp. 2025-11-19 MasterLink Securities Corporate Presentation (Chinese)",
+      "url": "https://sanshing.com.tw/download/investor5-20251119-TW.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-19",
+      "effective_period": "2025年1月至9月",
+      "locator": "Market Position (Taiwan Exports), p. 26; item 731816 (nuts)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "表格以噸為單位，列出台灣螺帽出口重量160,725噸、三星出口重量26,876噸及占比16.72%；未列出出口商排名或競爭者明細。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱官方公司介紹、公司章程、年報、永續報告及最新可查公司簡報。成立年份可確認，所在地與原主張不符；全球製造商排名及台灣出口商排名缺少可比較的排名證據，相關原子主張保留為UNKNOWN。",
+    "全球排名資料來自公司自述；所查資料沒有提供全球競爭者比較、排名方法或市場分母。",
+    "台灣出口資料是2025年1月至9月、按螺帽出口重量計算的占比，不能直接推成最大出口商排名，也不能代表按出口金額排名。",
+    "所在地判定依據包括公司章程中的登記總公司地址、年報總公司地址及目前官方公司資料；均指向台南，而非高雄。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5007/814/hermes-attempt-1.stdout.txt"
+}

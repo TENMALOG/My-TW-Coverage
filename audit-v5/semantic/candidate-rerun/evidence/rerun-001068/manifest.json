@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001068",
+  "claim_id": "3426:control_acquisition:a589bf991e484ce3",
+  "normalized_claim_hash": "a589bf991e484ce3a640dc210360c6e18644f9237f46e4f55bf071d797a35c9f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8f0f9498de1cfa2f",
+      "title": "新上市公司：松川精密股份有限公司(7788)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d6993bf1510199a7f960ce01c9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司介紹資料；來源頁未標示資料基準日",
+      "locator": "「公司簡介」及「主要競爭優勢」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "臺灣證券交易所資料稱松川為全球繼電器領導品牌，並稱其在全球產業具有重要地位。"
+    },
+    {
+      "source_id": "src-19d62f8c41e623df",
+      "title": "本公司董事會決議擬取得頤盛投資股份有限公司普通股",
+      "url": "https://www.songchuan.com/sc/index.php/news_tw/20260209tw/",
+      "source_level": 3,
+      "publication_date": "2026-02-09",
+      "effective_period": "2026-02-09公告的擬議交易",
+      "locator": "第5至9段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "松川公司新聞稿確認頤盛將與台興進行股份轉換，由頤盛向台興全體股東收購全部已發行股份。"
+    },
+    {
+      "source_id": "src-242206723f1f2b76",
+      "title": "台興：為提升經營綜效等，擬由頤盛以現金對價48元、取得公司100%股權",
+      "url": "https://just.honsec.com.tw/z/zf/zfz/zfz_11EA5EAB-7633-4313-89AD-6D3B1ED6B6FD.djhtm",
+      "source_level": 2,
+      "publication_date": "2026-02-09",
+      "effective_period": "2026-02-09董事會通過的擬議股份轉換",
+      "locator": "第9至11行；轉載公開資訊觀測站重大訊息",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告載明頤盛擬以每股新台幣48元現金收購台興100%股權，並列出完成交易所需條件。"
+    },
+    {
+      "source_id": "src-3d8cc5e9beaf7c9f",
+      "title": "晶技旗下台興電子 獲松川結合閎鼎溢價13.91%收購全數股權",
+      "url": "https://news.cnyes.com/news/id/6338570",
+      "source_level": 2,
+      "publication_date": "2026-02-09",
+      "effective_period": "報導所稱台興此前30日成交均價",
+      "locator": "內文「以30天的台興電子成交均價42.14元計算」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鉅亨網報導將48元對價與42.14元30日成交均價比較，報為溢價13.91%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "核心交易條款已由公司公告及松川公司新聞稿核實；溢價數字有具名二手媒體來源。剩餘未決事項是「重大轉折」的主觀評語，來源研究無法替它建立客觀判準，故停止並保留UNKNOWN。",
+    "直接買方為頤盛，不是松川；松川是頤盛的48%投資人。",
+    "「與晶技合資」省略了持股預計47%的基金共同投資人。",
+    "13.91%溢價及42.14元比較均價依鉅亨網報導；本次未找到公司公告中同列該計算基準的材料。",
+    "台興100%股權及每股48元是當時公告的擬議股份轉換條件，公告亦列明完成交易所需先決條件。",
+    "「重大轉折」屬未定義的主觀評價，不能由交易條款本身客觀判定。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3426/1068/hermes-attempt-1.stdout.txt"
+}

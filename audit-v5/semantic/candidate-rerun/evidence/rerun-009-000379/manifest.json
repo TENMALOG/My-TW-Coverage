@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000379",
+  "claim_id": "6691:objective_ranking_or_market_share:4a06f569d516bc7a",
+  "normalized_claim_hash": "4a06f569d516bc7a989c8d0704dc0bda204d3e56a9a9c1cf6b93491ec3082dd4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-fa4d3f341924cff23049",
+      "title": "〈洋基工程上市〉在手訂單約170億元創新高 估1月上旬掛牌上市",
+      "url": "https://today.line.me/tw/v3/article/RBgNMJz",
+      "source_level": 2,
+      "publication_date": "2021-11-30",
+      "effective_period": "報導日期前後的當時狀況；報導並述及2021年前三季營收。",
+      "locator": "內文第三段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "LINE TODAY轉載鉅亨網報導；明確稱「單一最大客戶為台積電」。"
+    },
+    {
+      "source_id": "src-3eb9fa83be6926e8abdc",
+      "title": "台積電貢獻一年45%訂單！無塵室設備二哥洋基工程笑納大立光、旺宏長單",
+      "url": "https://today.line.me/tw/v3/article/Op8mNrm",
+      "source_level": 2,
+      "publication_date": "2021-11-30",
+      "effective_period": "報導日期前後的當時狀況；文中亦提及2021年營運。",
+      "locator": "內文第三段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "LINE TODAY轉載《數位時代》報導；正文稱台積電「目前貢獻洋基工程45%營收」。標題提及訂單，但正文的45%明確指營收。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到同期報導直接支持最大客戶排名及45%營收占比；剩餘口徑與目前狀況未由該證據確定，依研究範圍停止。",
+    "支持證據來自同期媒體報導，非洋基工程官方申報文件；其中一篇轉載鉅亨網報導，另一篇為《數位時代》報導。",
+    "原 claim 未標明期間；找到的直接證據指向2021年11月底的當時情況，不證明比例或排名目前仍然成立。",
+    "45%來源未說明營收分母的會計期間或合併／個體口徑。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6691/379/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "53c31fc3c061fd3aa8d04e7c0e732e1659ed42d2eec48265fcfcfeddc745d247",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6691/379/isolated-prompt.txt",
+  "prompt_sha256": "41eb0c82045f6eae786db84f3fbe77d15e0e3e5c4641c5740bab65f49276527d",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000379/manifest.json",
+  "supersedes_manifest_sha256": "5066747fff7dc656d5056c88d8e9b91e94d6f9072dc5030cec997b11319b570a",
+  "corrected_at": "2026-10-08T09:58:07Z"
+}

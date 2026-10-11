@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000691",
+  "claim_id": "4702:objective_ranking_or_market_share:1977e5e4d2e51aaf",
+  "normalized_claim_hash": "1977e5e4d2e51aaf352fb13cd863eca2eecd420678b80652284d599330bebb5f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b188e1516b323336",
+      "title": "中美聯合實業股份有限公司（官方網站）",
+      "url": "https://www.aicgroup.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方網站目前列示的產品資訊；未標示年度",
+      "locator": "首頁「關於我們」：主要產品包括分散性染料、反應性染料及酸性染料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述產品組合；另列染整助劑。"
+    },
+    {
+      "source_id": "src-85fb1f25368b0ba1",
+      "title": "中美聯合實業股份有限公司 113年度年報",
+      "url": "https://www.aicgroup.com.tw/upload/files/2024.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-13",
+      "effective_period": "公司沿革；年報於2025年刊印",
+      "locator": "年報封面及公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報記載成立於1964年。"
+    },
+    {
+      "source_id": "src-dc3d79148ee690d6",
+      "title": "產業價值鏈資訊平台-資料(單欄)",
+      "url": "https://ic.tpex.org.tw/company_data.php?table=company_vision&column=vision_story&userId=4702",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司品牌歷史；具體期間未載",
+      "locator": "ALLILON品牌段落：「以『ALLILON』的自有品牌」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "平台公司敘述直接支持品牌歸屬。"
+    },
+    {
+      "source_id": "src-c26939d85c4c0a11",
+      "title": "中美聯合實業股份有限公司 2024年度永續報告書",
+      "url": "https://aicgroup.com.tw/upload/files/202510220727324ph4d.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度報告期間",
+      "locator": "第2.5.1節「市場概況」及染料產業鏈說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "僅支持客戶類型及一般產業鏈，未指名客戶或提及遠東新世紀、力麗與個別染整廠的供應關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方網站、年報與永續報告，以及櫃買中心產業價值鏈平台的公司敘述。公開資料支持成立年份、歷史排名敘述、自有品牌、產品類別及一般國內染整廠客戶類型；具名纖維廠與其下游染整客戶的具體關係仍無可靠佐證，故保留為UNKNOWN。",
+    "櫃買中心平台的歷史排名敘述未提供具體排名年份、比較母體、銷量或產能等排名依據；因此只能確認公開資料曾如此描述，不能獨立量化驗證排名。",
+    "公司網站、年報與永續報告屬公司自述；客戶類型的披露未提供具名染整廠清單。",
+    "沒有資料可將具名纖維廠與中美實供應的染整廠連結；未將一般染料產業鏈或纖維廠資料替代為特定供應關係證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4702/691/hermes-attempt-1.stdout.txt"
+}

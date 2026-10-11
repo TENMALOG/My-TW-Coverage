@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000534",
+  "claim_id": "8478:objective_ranking_or_market_share:1d158029ffa49cb9",
+  "normalized_claim_hash": "1d158029ffa49cb9fe19b3ca983cbe6542b20d0c33c0c5c619829dc7530ef14b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f969828f813fe084",
+      "title": "關於東哥",
+      "url": "https://oceanalexander.com.tw/%E9%97%9C%E6%96%BC%E6%9D%B1%E5%93%A5/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司自述自1978年起；公司介紹頁目前列載",
+      "locator": "公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人自述其以Ocean Alexander自有品牌生產及行銷。"
+    },
+    {
+      "source_id": "src-cd6de99830d6e8eb",
+      "title": "Global Order Book 2023",
+      "url": "https://cdn.boatinternational.com/files/2022/12/edf4f390-7c73-11ed-95d7-7f7e68557a45-global-order-book-2023.pdf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2022-09-01在建或已接單項目；報告列2023排名",
+      "locator": "Top builders 排名表及規則與方法",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ocean Alexander列第3，總長2,382米、73個項目；排名依在建/已接單總長度。"
+    },
+    {
+      "source_id": "src-b0556508caade7d8",
+      "title": "【獲獎】《Boat》雜誌評選2022全球第三大遊艇公司",
+      "url": "https://oceanalexander.com.tw/%E3%80%90%E7%8D%B2%E7%8D%8E%E3%80%91%E3%80%8Aboat%E3%80%8B%E9%9B%9C%E8%AA%8C%E8%A9%95%E9%81%B82022%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%89%E5%A4%A7%E9%81%8A%E8%89%87%E5%85%AC%E5%8F%B8/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司稱《Boat》雜誌評選2022年",
+      "locator": "文章正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司對排名的轉述；文中未詳述計量口徑。"
+    },
+    {
+      "source_id": "src-0146ded1fd76e5ea",
+      "title": "The Global Order Book 2025",
+      "url": "https://www.boatinternational.com/boat-pro/global-order-book/global-order-book-2025-report",
+      "source_level": 2,
+      "publication_date": "2024-12-05",
+      "effective_period": "合約於2024-09-01前簽訂、24米以上在建或已接單遊艇",
+      "locator": "Top builders by total length of construction 排名表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ocean Alexander列第8，33個項目、總長1,064米；口徑是超級遊艇訂單/在建總長度，不是所有豪華遊艇製造商的通用排名。"
+    },
+    {
+      "source_id": "src-6d41877ad802880b",
+      "title": "Global Order Book 2022",
+      "url": "https://cdn.boatinternational.com/files/2022/12/0e4280a0-7afc-11ed-8e45-0322c51bb577-global-order-book-2022.pdf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2021-09-01在建或已接單項目；報告列2022排名",
+      "locator": "Global Order Book排名表及Rules and Methodology",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ocean Alexander列第3；口徑為24米以上超級遊艇在建或已接單項目。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "研究已依工具迭代上限停止；已取得發行人品牌與排名資料，以及BOAT International 2022、2023和2025年訂單簿資料。",
+    "亞洲第一的說法來自發行人自述；可查到的排名資料未能完整確認該說法所指的市場範圍及分母。",
+    "全球第三名有2022及2023年的超級遊艇訂單簿排名證據，但排名按24米以上在建/已接單遊艇總長度計算，不代表各類豪華遊艇製造商的普遍排名。",
+    "2025年Global Order Book列Ocean Alexander第8，不能把過往第三名當作未限定期間的現況排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8478/534/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001044",
+  "claim_id": "3591:material_named_relationship:6e1ffde648a67afa",
+  "normalized_claim_hash": "6e1ffde648a67afaaf485ff12ef28a9d038090128d135fa4a37a472ccc9c7ee9",
+  "accessed_date": "2026-10-07",
+  "sources": [],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "因內容擷取工具回報目前後端不支援 URL 擷取，且收到停止進一步查證的執行限制通知，未完成研究上限內的查證；未解決事項維持 UNKNOWN。",
+    "辨識到艾笛森官方年報 PDF，但本次內容擷取工具不支援目前的搜尋後端，無法檢視年報內容；因此未將文件目錄或連結當作主張證據。",
+    "未以缺少可核實證據推論相關產品、客戶關係或營收趨勢不存在。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3591/1044/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "48a73587d4305dd6d7ef2da1f07fcc82852906dbdb19e0df81440eb1be30aaf1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3591/1044/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "30cf612c32ab9b205313c276f286b96c7538b33c8fe354333b8aed438b1cfeac",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001044/manifest.json",
+  "supersedes_manifest_sha256": "383ba4d3125206b5d03d31a6196bc821fc57c5fe58a68da095f2ccf6e2bc933c",
+  "corrected_at": "2026-10-08T09:59:11Z"
+}

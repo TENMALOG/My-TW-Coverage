@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001129",
+  "claim_id": "6616:material_named_relationship:ef25aff8ea336307",
+  "normalized_claim_hash": "ef25aff8ea33630705f806187a7a3bf86dcdf627b3ed0ba45723c295ef94b200",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-cd76adc7eb802520",
+      "title": "Techcential International Ltd. Investor Presentation, updated 2025-11-13",
+      "url": "https://www.techcential-international.com/vi-content/uploads/2025/11/19.11.2025_%E6%B3%95%E8%AA%AA%E6%9C%83%E7%B0%A1%E5%A0%B1%E2%80%94%E8%8B%B1%E6%96%87%E7%89%8819nov.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-13",
+      "effective_period": "2025-01 through 2025-09",
+      "locator": "PDF p. 20, lines 171-190",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Customer-sales chart identifies ASHLEY as 12% of group sales for 2025 January-September."
+    },
+    {
+      "source_id": "src-f46fde779f7b7349",
+      "title": "Products in TIL, Techcential International Ltd.",
+      "url": "https://www.techcential-international.com/product_details/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Product description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer webpage states TC's products are mainly five-piece wooden American bedroom furniture; page gives no measurement period."
+    },
+    {
+      "source_id": "src-7c0dc71412576f93",
+      "title": "北美客戶需求旺，特昇-KY今年拚雙位數成長, MoneyDJ",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=f0352b9f-5977-422f-a3b1-d3d5112edc38",
+      "source_level": 2,
+      "publication_date": "2021-02-03",
+      "effective_period": "Business model reported as of 2021-02-03",
+      "locator": "Article opening company-description paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes the business model as mainly ODM/OEM, not OEM alone, and is secondary reporting."
+    },
+    {
+      "source_id": "src-294a4b9075463db0",
+      "title": "美最大家具連鎖通路供應業者, 理財周刊",
+      "url": "https://www.moneyweekly.com.tw/Magazine/Info/%E7%90%86%E8%B2%A1%E5%91%A8%E5%88%8A/30287/",
+      "source_level": 2,
+      "publication_date": "2017-12-14",
+      "effective_period": "Orders reported as beginning in 2017",
+      "locator": "Paragraph 19",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports Rooms To Go began ordering that year; secondary, period-specific evidence."
+    },
+    {
+      "source_id": "src-c5374629e887eb5f",
+      "title": "Products Picture, Techcential International Ltd.",
+      "url": "https://www.techcential-international.com/our-products_eng/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening product-market statement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer webpage says major sales are to the United States, Canada, etc.; no period or market-share figures are stated."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司官方網站、官方簡報及公開年報的重點查核，並以二手報導補查OEM模式與Rooms To Go。仍缺乏能確認目前OEM範圍及Rooms To Go持續客戶關係的證據。",
+    "官方產品頁未標示發布日期或統計期間，且沒有提供美國、加拿大銷售占比。",
+    "OEM證據來自歷史二手報導；一篇描述ODM/OEM，一篇稱子公司負責OEM貿易，未充分證明目前主要業務為OEM製造與銷售。",
+    "Ashley的官方銷售資料僅覆蓋2025年1月至9月；Rooms To Go的可得證據僅指向2017年開始下單。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6616/1129/hermes-attempt-1.stdout.txt"
+}

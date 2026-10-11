@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001116",
+  "claim_id": "5536:material_named_relationship:77eb22555b4e78ed",
+  "normalized_claim_hash": "77eb22555b4e78ed50efd2a0244aaa617066ef1937131e9649b6842802abd974",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-99f8c66fc113058d",
+      "title": "台積電－聖暉工程科技股份有限公司工程實績",
+      "url": "https://www.acter.com.tw/achievements/q2/detail",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "工程概要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認一項具名工程實績，但未提供核心客戶判定資料。"
+    },
+    {
+      "source_id": "src-b4aa616c0f6413e0",
+      "title": "聖暉工程科技股份有限公司2020年度年報",
+      "url": "https://www.acter.com.tw/investors/shareholder-service/annual/download/y7/annual_report_109.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2020年度及截至該年報刊印日",
+      "locator": "年報第100頁，進貨或銷貨集中所面臨之風險及因應措施",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱公司以專案方式承攬，服務對象與一般製造業相較並無固定客戶；未提供客戶重要性排序或客戶營收占比。"
+    },
+    {
+      "source_id": "src-64b6930927d8aae6",
+      "title": "日月光－聖暉工程科技股份有限公司工程實績",
+      "url": "https://www.acter.com.tw/achievements/rE/detail",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "工程概要",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認一項具名工程實績，但未提供核心客戶判定資料。"
+    },
+    {
+      "source_id": "src-e028e8aa3d028612",
+      "title": "IC半導體產業－聖暉工程科技股份有限公司",
+      "url": "https://www.acter.com.tw/achievements/k5",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "IC半導體產業實績名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官網列出多家半導體業公司。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到發行人官網工程實績與年報，足以支持部分客戶關係及明列工程範圍；官方材料未解決核心客戶定義、日月光封測廠機電範圍及台積電無塵室範圍，故保留相關原子主張為UNKNOWN並停止擴展搜尋。",
+    "工程實績頁未標示專案日期或是否仍在執行，適合確認發行人披露的工程項目，不足以確認目前客戶狀態。",
+    "年報列出歷年承攬工程服務，不能單獨證明特定年度的客戶關係、收入重要性或排名。",
+    "「核心客戶」缺乏該 claim 所需的量化門檻、期間及客戶分母；年報並指出服務對象並無固定客戶。",
+    "日月光個案頁所列工程名稱與服務項目未說明封測廠用途，不能據此把個案改述為封測廠機電工程。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5536/1116/hermes-attempt-1.stdout.txt"
+}

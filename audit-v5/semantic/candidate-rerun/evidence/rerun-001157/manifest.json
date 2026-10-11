@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001157",
+  "claim_id": "8411:export_concentration:84faf34240131cbc",
+  "normalized_claim_hash": "84faf34240131cbc7babd176974923f7393f8aa555ee4281c7f62afbe38a8ce6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-6a707e2c1b205aaf",
+      "title": "飲料罐廠福貞併新竹廠挹注 今年營收挑戰百億規模",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/3860430",
+      "source_level": 2,
+      "publication_date": "2022-03-15",
+      "effective_period": "Reported at the Hsinchu plant’s 2022-03-15 unveiling",
+      "locator": "Paragraph beginning「因鄰近多家飲料品牌大廠」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that exports accounted for 15% of revenue and identifies the export markets."
+    },
+    {
+      "source_id": "src-10bab2185daae7ae",
+      "title": "新竹廠鋁罐居台灣前三大，福貞今年營收拚百億",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0686325d-ee5e-446d-ac8f-fed7c5787a82",
+      "source_level": 2,
+      "publication_date": "2022-03-15",
+      "effective_period": "Reported at the Hsinchu plant’s 2022-03-15 unveiling",
+      "locator": "Article text stating「外銷佔比約15%」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Corroborates the approximate 15% figure, but does not specify the denominator in that sentence."
+    },
+    {
+      "source_id": "src-fbca531a017ab6f6",
+      "title": "福貞3月營收月增5% 陜西廠預計9月投產",
+      "url": "https://www.cna.com.tw/news/afe/202304070349.aspx",
+      "source_level": 2,
+      "publication_date": "2023-04-07",
+      "effective_period": "2023 reporting",
+      "locator": "Paragraph beginning「新竹廠部分」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes product and lid developments intended to help open export markets; it neither confirms nor contradicts the 15% figure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到對2022年時點各子句的同期佐證，並檢查後續報導；未找到可核實新竹廠目前出口占比與主要出口市場的資料，因此不把歷史數據延伸為現況。",
+    "關鍵客戶、出口市場與約15%營收占比的直接佐證來自2022年3月15日的同期媒體報導，而非本次找到的福貞官方披露。",
+    "原 claim 未標明期間；資料支持的是2022年報導時點，不能據此認定截至2026年仍維持相同出口占比或市場分布。",
+    "2023年中央社報導提到新產品有利開拓外銷市場，但未提供新竹廠後續出口占比；這是發展方向，不是15%已改變的證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8411/1157/hermes-attempt-1.stdout.txt"
+}

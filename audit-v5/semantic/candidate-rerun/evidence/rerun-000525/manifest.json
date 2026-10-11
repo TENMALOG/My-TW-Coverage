@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000525",
+  "claim_id": "5292:objective_ranking_or_market_share:b7b5d29e96b2972f",
+  "normalized_claim_hash": "b7b5d29e96b2972f8179f6555d2a8974980b05f47bc97d45857904bfcbd0a6b5",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c38802c187005be6",
+      "title": "華懋科技股份有限公司上市前業績發表會簡報",
+      "url": "https://www.dtech.com.tw/storage/files/%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83/%E6%A5%AD%E7%B8%BE%E7%99%BC%E8%A1%A8%E6%9C%83%E7%B0%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司沿革所述1996–2001年；簡報發布日期未標明",
+      "locator": "第4頁「公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報記載「正式成為台積電VOCs防治污染設備供應商」。"
+    },
+    {
+      "source_id": "src-a9cdb71118608b61",
+      "title": "VOCs污染防治系統－華懋(5292)，在半導體先進製程市佔超過9成",
+      "url": "https://vocus.cc/article/66f2445afd89780001741e5a",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「其中半導體產業以黃光製程、封裝製程為主要VOCs污染來源」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "貢獻者文章說明黃光製程與 VOCs 的一般關係，未提供華懋設備用於該製程的客戶、工廠或設備部署證據。"
+    },
+    {
+      "source_id": "src-bb4a79dd3be8b65c",
+      "title": "華懋年底轉上市，在手訂單創高、明年看正向",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=cc8cf0b6-2243-4d95-a9d0-80164af09128",
+      "source_level": 2,
+      "publication_date": "2023-10-12",
+      "effective_period": "報導所述2023年；台灣半導體VOCs污染防治處理工程，另提及7奈米以下先進製程",
+      "locator": "「華懋目前在台灣半導體市場中」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱工程市佔率達七成以上、7奈米以下先進製程達九成以上；未提供市佔分母、計算方法或該比例是否特指沸石轉輪設備。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司原始簡報及聚焦二手報導；仍缺乏公司或客戶原始資料確認黃光製程部署，亦缺乏可界定沸石轉輪設備市佔分母與計算方法的資料。未以一般製程描述或不同市場範圍替代未證實主張。",
+    "產品與供應商資訊有公司原始簡報支持；簡報確切發布日期未標明。",
+    "市佔率資料來自二手報導，指涉的是台灣半導體 VOCs 防治工程，未揭露計算分母或方法，且不能直接等同沸石轉輪設備市佔率。",
+    "黃光製程的來源說明來自貢獻者文章，並非華懋客戶或公司對設備部署位置的確認。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5292/525/hermes-attempt-1.stdout.txt"
+}

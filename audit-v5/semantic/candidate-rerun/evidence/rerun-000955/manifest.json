@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000955",
+  "claim_id": "6546:profitability_assertion:8eb8781a7d220316",
+  "normalized_claim_hash": "8eb8781a7d220316c64b4bf5822619d6978d53a111fb02cae625d0fd80c5cd27",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-0ef8d97ebaed5c7d",
+      "title": "正基科技股份有限公司 2024 年報",
+      "url": "https://www.ampak.com.tw/uploads/files/shares/stock/113%E5%B9%B4_%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-06",
+      "effective_period": "2024年度市場論述",
+      "locator": "印刷頁90（PDF頁93）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及萬物互聯情境下無線模組需求將擴大，但未直接證明這是公司跨足各領域的原因。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到並核對公司2024年報中對應的領域、應用、高毛利定位及消費性電子披露；未披露的分市場財務指標與「擺脫紅海」範圍仍無法由現有材料確認。",
+    "主要依據為公司2024年報，屬發行人一級來源；產品應用及「高毛利」定位為公司披露，不等同獨立驗證的分市場財務數據。",
+    "年報未提供工業控制、醫療、車用或充電樁應用的個別營收、出貨量或毛利率。",
+    "「擺脫紅海競爭」未定義判斷門檻；公司仍披露消費性電子產品應用，故不能把市場拓展直接等同完全退出或消除競爭。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6546/955/hermes-attempt-1.stdout.txt"
+}

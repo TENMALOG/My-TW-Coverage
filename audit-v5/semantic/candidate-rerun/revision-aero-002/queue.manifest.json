@@ -1,0 +1,21 @@
+{
+  "schema": "revision-batch-queue-1",
+  "batch": "revision-aero-002",
+  "selection": {
+    "rule": "narrower alternatives proposed in revision-aero-001 for non-passed revisions"
+  },
+  "created_at": "2026-10-10T18:51:16.813525+00:00",
+  "assessment_date": "2026-10-08",
+  "count": 10,
+  "queue_sha256": "a63f96be2d86844c49fd0df7cffd65df0bab319815935df0396fcce0bf6703e7",
+  "inputs": {
+    "audit-v5/semantic/candidate-rerun/revision-aero-001/delivery/outcomes.jsonl": "cf2d8b226e2f2ffa51dca6f21efa2ec7afaf802ef044692da42dbe16eb731490",
+    "audit-v5/semantic/candidate-rerun/revision-aero-001/queue.jsonl": "fcba9b7117c332cbb3ee707ce99c0c7ea126d92b4a32620ff570ae04eb520a5a"
+  },
+  "prompt_template_sha256": "ba7c75bbe269eec6e3ca6d213254d7caf2f46de8a1cde188fac9a6ff2a7b0a73",
+  "model": "gpt-6-sol",
+  "effort": "high",
+  "controller_sha256": "919c88254e989cb45d7a4db89d0217671c49b2b7ef539d57b968af20905bdfef",
+  "prior_verdicts_withheld": true,
+  "original_acceptance_authority": false
+}

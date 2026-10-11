@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000526",
+  "claim_id": "1808:objective_ranking_or_market_share:ee0f0ac169c03e89",
+  "normalized_claim_hash": "ee0f0ac169c03e895134c9d41dbd514cf24e446ea505689157ac57c709708348",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-79296825e02af7fe",
+      "title": "潤隆：明年完工交屋將呈爆炸量！4大案總銷337.11億元力拚入帳",
+      "url": "https://www.ctee.com.tw/news/20241121701946-430503",
+      "source_level": 2,
+      "publication_date": "2024-11-21",
+      "effective_period": "2025年預計交屋及營運展望",
+      "locator": "報導首段及2025年業績展望段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導談及交屋與營收展望，沒有提供獲利成長數值或預測。"
+    },
+    {
+      "source_id": "src-4bb442649c2b767a",
+      "title": "潤隆(1808) 累計EPS年衰退40.35%！為何差異大？",
+      "url": "https://readmo.cmoney.tw/article/2c5928d6-61cf-4be4-b920-20e9b772a653",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度，與2024年度比較",
+      "locator": "「累計營收與 EPS 反而年減」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手財經文章稱2025年累計營收年減26.08%；用作預期是否實現的後續參照，不足以否定2024年當時曾作出該展望。"
+    },
+    {
+      "source_id": "src-07333ae79077cfe8",
+      "title": "潤隆(1808) 累計EPS年衰退40.35%！為何差異大？",
+      "url": "https://readmo.cmoney.tw/article/2c5928d6-61cf-4be4-b920-20e9e772a653",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度，與2024年度比較",
+      "locator": "「累計營收與 EPS 反而年減」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手文章稱2025年稅後淨利年減42.37%、EPS年減40.35%；為實際結果參照，非同期獲利預測的證據。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對公司法說會展望、歷史最大比較基準及2025年度結果的聚焦檢索；未取得足以確認歷史最大交屋量或同期獲利成長預測的官方比較資料，未解部分保留為UNKNOWN。",
+    "未找到潤隆官方資料或監管申報資料，能建立公司歷年完工交屋量的比較基準；「史上最大」的市場範圍、指標與分母亦未明確。",
+    "337.11億元是四案合計總銷金額，不等同於2025年實際完工量、交屋入帳營收或獲利。",
+    "法說會內容由工商時報報導轉述；2025年度營收與獲利變化所引來源為二手財經文章，未在本次研究中取得可核對的官方年度比較報表。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1808/526/hermes-attempt-1.stdout.txt"
+}

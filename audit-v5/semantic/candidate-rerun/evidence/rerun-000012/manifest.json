@@ -1,0 +1,38 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000012",
+  "claim_id": "6175:objective_ranking_or_market_share:6b1aff5b9f087151",
+  "normalized_claim_hash": "6b1aff5b9f0871512323ef9e85860901e331e9c2c6ff20e008ab013b740c37ef",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "lelon-2026-h1-consolidated-financial-statements",
+      "title": "立隆電子工業股份有限公司及子公司合併財務報告暨會計師核閱報告（民國115年上半年）",
+      "url": "https://www.lelon.com.tw/upload/inves31/178911589557.pdf",
+      "source_level": 2,
+      "publication_date": "2026-08-14",
+      "effective_period": "截至民國115年6月30日（2026-06-30）的合併個體及持股；報告涵蓋2026上半年。",
+      "locator": "PDF第14–15頁，附註「合併概況」：立隆對立敦直接持股29.13%，將其列為子公司；註明立敦董事長兼任立隆董事長及總經理、立隆為單一最大股東等實質控制理由。",
+      "source_sha256": "25d5798d6a3137c8f4847950fd7dd7937ed378ba16a83058e1e28d30f00d2c6c",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/lelon-2026-h1-financial-statements.pdf",
+      "note": "立隆官方網站刊載的會計師核閱合併財務報告，直接支持母子公司關係和截至2026-06-30的29.13%持股。"
+    },
+    {
+      "source_id": "lelon-2025-annual-report",
+      "title": "立隆電子工業股份有限公司114年度年報",
+      "url": "https://www.lelon.com.tw/upload/inves32/178056495090.pdf",
+      "source_level": 2,
+      "publication_date": "2026-06-04",
+      "effective_period": "民國114年度（2025）；市場及產銷概況第54頁引用Paumanok於2024年3月的全球市場調查。",
+      "locator": "PDF第58頁（印刷頁54），「二、市場及產銷概況／（一）市場分析／2.公司主要商品（服務）之市場占有率」：列稱立隆為台灣營收最高的鋁質電解電容器廠商、V-chip產能和產品線情況，以及2024年全球前十大；沒有台灣車用電容市占百分比或逾七成數字。PDF第63頁轉投資資料列立敦為子公司，持股29.13%，主要業務為電蝕箔加工及化成鋁箔製造買賣。",
+      "source_sha256": "1d326f373bf53acbaacaa586a3e39cb9db811e00678d4c0de33c89164c848f0a",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/6175/lelon-2025-annual-report.pdf",
+      "note": "發行人正式年報及市場占有率欄位。年報中的定性領先或全球排名不能替代未列示的台灣車用電容市占率。"
+    }
+  ],
+  "search_notes": [
+    "立隆官方2026年上半年合併財務報告列立敦科技為子公司，持股29.13%（截至2026-06-30）；並逐項揭露實質控制原因。原句「母公司、約30%」在目前期間可成立，但更精確寫法應帶日期與29.13%。",
+    "立隆2025年報的正式「市場占有率」欄只披露鋁質電解電容器整體市場地位、V-chip產能和全球前十大，沒有「台灣車用電容市占逾七成」的數字。缺少揭露不等於已證明市占低於70%，因此該原子主張維持UNKNOWN。",
+    "立敦本身的業務是電蝕箔加工與化成鋁箔製造買賣，屬電容上游材料；依上下文若車用電容市占指立隆，主體仍需在改寫中明確限定為立隆。沒有把立敦的鋁箔業務推論成其電容成品市占。"
+  ]
+}

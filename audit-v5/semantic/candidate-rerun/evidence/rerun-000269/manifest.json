@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000269",
+  "claim_id": "2355:objective_ranking_or_market_share:45cccbbebc446916",
+  "normalized_claim_hash": "45cccbbebc44691658055b82ad5efd960de796bfcf17f85ce99809f1e123af39",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a82e30b92b2db323",
+      "title": "焦點股：敬鵬(2355)Q3財報超亮眼，雙率雙升，EPS達1.71元，激勵股價大漲逾6%",
+      "url": "https://tw.stock.yahoo.com/news/%E7%84%A6%E9%BB%9E%E8%82%A1-%E6%95%AC%E9%B5%AC-2355-q3%E8%B2%A1%E5%A0%B1%E8%B6%85%E4%BA%AE%E7%9C%BC-%E9%9B%99%E7%8E%87%E9%9B%99%E5%8D%87-013541052.html",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article excerpt; exact customer-list sentence",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Makes the top-20 characterization without identifying its source or ranking methodology."
+    },
+    {
+      "source_id": "src-46f3c9394b8d7087",
+      "title": "敬鵬成功跨足車用電路板 專注本業 用專業深耕客戶",
+      "url": "https://www.chinpoon.com/news/1/24",
+      "source_level": 3,
+      "publication_date": "2011-05-11",
+      "effective_period": "By 2011-05-11; exact relationship dates not stated",
+      "locator": "“通過驗證 全球市占上看10%” section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-hosted article; its closing note says the material is excerpted from the March 2011 Trade Magazine."
+    },
+    {
+      "source_id": "src-9894bae7e1acdca7",
+      "title": "敬鵬獲得美國汽車電子大廠 Visteon 遴選為其2022年最佳品質供應商",
+      "url": "https://www.chinpoon.com/news/2/127",
+      "source_level": 3,
+      "publication_date": "2022-12-01",
+      "effective_period": "2022 supplier recognition",
+      "locator": "Article body describing Visteon's 2022 Strategic Supplier Awards",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer announcement identifies Chin Poon as Visteon's 2022 Best Quality Supplier."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found the exact secondary-source assertion and dated issuer evidence for historical Bosch engagement and Visteon's 2022 supplier award. The missing article date, major-customer basis, and ranking methodology remain unresolved.",
+    "The Yahoo Finance page reproduces a 財訊快報-attributed article excerpt naming the six firms, but the retrieved page did not expose its publication date or an underlying ranking source.",
+    "The phrase “全球前20大汽車電子系統大廠” has no identified ranking period, category definition, or denominator in the retrieved evidence.",
+    "Issuer evidence for Bosch and Visteon establishes historical commercial/supplier relationships only; it does not establish major-customer status."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2355/269/hermes-attempt-1.stdout.txt"
+}

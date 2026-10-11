@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000971",
+  "claim_id": "3611:identity_changing_event:aa5964a64033c216",
+  "normalized_claim_hash": "aa5964a64033c2164e8ae546e2b43f9189e0dc9d0b9461417d9b420ebd75be43",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-50d8c05ec34cdd50",
+      "title": "公司簡介 | TSC Printers",
+      "url": "https://apac.tscprinters.com/zh-TW/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行公司簡介；沿革列有2016及2022事件",
+      "locator": "關於我們及重要里程碑",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及2016年併購Printronix Auto ID及2022年合併美國子公司與Printronix Auto ID；未明確陳述該品牌目前全球行銷範圍。"
+    },
+    {
+      "source_id": "src-7400cf86158695e4",
+      "title": "台灣半導體股份有限公司及子公司民國112年第三季合併財務報告",
+      "url": "https://www.taiwansemi.com/zh_tw/wp-content/uploads/2023/11/%E5%8F%B0%E5%8D%8A-112Q3_%E5%90%88%E4%BD%B5%E8%B2%A1%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": "2023-11-08",
+      "effective_period": "分割基準日2007-08-01",
+      "locator": "第8頁，公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "台半財報記載將條碼印表機事業處以新設分割方式分割予新設鼎翰科技。"
+    },
+    {
+      "source_id": "src-dc9812096411e5b0",
+      "title": "鼎翰科技2025年度年報",
+      "url": "https://fs.tscprinters.com/system/files/2025-annual-report_tw.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "PDF第88頁（年報印刷頁碼85），公司市場與行銷說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載TSC Auto ID以TSC Auto ID自有品牌銷售於全球市場。"
+    },
+    {
+      "source_id": "src-aa62ee0105a94933",
+      "title": "獨家：將我們的品牌整合在一起並對公司產生影響 | TSC Printers",
+      "url": "https://www.chinatsc.cn/zh-CN/blog/brands-together",
+      "source_level": 3,
+      "publication_date": "2020-12-22",
+      "effective_period": "截至2020-12-22的品牌組合及整合情況",
+      "locator": "文章第517、531、539-544行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "鼎翰官方文章將TSC及Printronix Auto ID描述為兩個品牌，並說明將其產品組合整合至共同平台；不足以單獨證明目前仍以Printronix Auto ID獨立品牌在全球行銷。"
+    },
+    {
+      "source_id": "src-0f9e62efbc4115de",
+      "title": "TSC Auto ID Technology Co., Ltd. 2023 Annual Report",
+      "url": "https://fs.tscprinters.com/system/files/2023-annual-reporten.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2023年報所述市場策略",
+      "locator": "PDF第151-152頁，Flexible marketing strategy",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載公司起步時曾採用國際OEM/ODM聯盟，並稱目前主要專注於自有產品行銷；沒有列出現行OEM客戶或確認OEM服務已終止。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對鼎翰與台半官方公司資料、年報及品牌公告；剩餘未決事項涉及Printronix Auto ID目前的全球品牌行銷狀態，以及現行OEM服務與客戶範圍，公開資料未提供足以確認的期間及客戶證據，依規則保留UNKNOWN並停止研究。",
+    "「自台半分割獨立」由雙方官方資料支持為事業分割及新公司成立；不應延伸解讀為台半此後完全沒有股權或控制關係。",
+    "Printronix Auto ID品牌組合的明確官方資料為2020年；目前全球行銷狀態未獲年報明確確認。",
+    "OEM/ODM歷史策略披露不能替代現行OEM服務、客戶身份或服務規模的證據。資料不足不構成已停止OEM服務的反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3611/971/hermes-attempt-1.stdout.txt"
+}

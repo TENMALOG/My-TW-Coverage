@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000480",
+  "claim_id": "8467:objective_ranking_or_market_share:9a6071b2054ff71b",
+  "normalized_claim_hash": "9a6071b2054ff71b9b3b2562539861969d8aee1513984115acb2cf43f05110bc",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-decaf7ba160b7435",
+      "title": "波力-KY 2025Q4 法人說明會簡報重點與營運摘要",
+      "url": "https://finmoconf.diveinvest.net/presentation/6911e686bab52fb5c8767d77",
+      "source_level": 2,
+      "publication_date": "2025-11-10",
+      "effective_period": "2025-11-10 簡報；市佔率觀察期間未註明",
+      "locator": "I.2「經營理念與核心技術」— OEM/ODM 實績",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第三方摘要稱 Bauer 市佔率超過 50%，但未界定產品、地區、觀察期間或分母。"
+    },
+    {
+      "source_id": "src-59977602563df03f",
+      "title": "波力環球2025年度股東會年報",
+      "url": "https://bonnyworldwide.com/tw/investment/index.aspx?kind=8",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2025",
+      "locator": "年報下載項目「波力環球2025年度股東會年報」；致股東報告書「代工營運面」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報將 Bauer Hockey 稱為主要客戶，並提及其品牌知名度與領先市場地位；未證實客戶排名第一。"
+    },
+    {
+      "source_id": "src-b7ed25796730643c",
+      "title": "波力仍看今年營收雙位數增；柬埔寨廠明年初試產",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3ee11a11-01f5-4bc3-bc8e-5a40a75289b3",
+      "source_level": 2,
+      "publication_date": "2025-11-11",
+      "effective_period": "報導所述 2025 年；市佔率統計口徑及觀察期間未詳",
+      "locator": "內文「洪進山指出」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述波力總經理稱 Bauer 在「高階冰球市場」占有率由 8% 升至逾五成。這是特定高階市場的說法，沒有給出市場分母或方法，不等同於未限定範圍的整體冰球市場市佔率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查找；仍缺少可確認頭盔客戶關係、最大客戶排名及逾 50% 市佔率明確市場範圍與分母的可靠證據，故未將未解項目推定為成立或不成立。",
+    "2025Q4 簡報內容來自第三方存檔與摘要，並非直接檢視公司原始簡報檔。",
+    "「主要客戶」不能直接等同「最大客戶」；年報未提供該排名所需的客戶營收比較。",
+    "逾 50% 的報導口徑涉及高階冰球市場，不能替代未限定產品與分母的市場份額主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8467/480/hermes-attempt-1.stdout.txt"
+}

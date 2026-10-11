@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000465",
+  "claim_id": "5287:objective_ranking_or_market_share:b429f32154c5e076",
+  "normalized_claim_hash": "b429f32154c5e0768b3e2e7069697ea256d24ba31f3377d642e2100922f8c9d8",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6308beb59b6c0111",
+      "title": "addcn.com 數字科技－數字科技簡介",
+      "url": "https://www.addcn.com/about-info.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司主要營業專案：100室內設計",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持平台存在，不含市佔率或市場排名資料。"
+    },
+    {
+      "source_id": "src-2c5b7f1c507e5a1b",
+      "title": "數字科技全平台啟動收費 看好二大服務成長潛力",
+      "url": "https://www.addcn.com/investment-details-669.html",
+      "source_level": 2,
+      "publication_date": "2024-01-10",
+      "effective_period": "報導刊載於2024-01-10；所述市佔排名的統計期間未說明",
+      "locator": "文章中段：「591房屋、8891汽車穩居國內市占第一」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載報導稱8891市佔第一，但未定義市場、分母或排名依據。"
+    },
+    {
+      "source_id": "src-3140629675abd7bd",
+      "title": "數字台港591營收 雙創新高 5月分別年增13％、24％，新網站「結婚吧」、「小雞上工」也穩健成長",
+      "url": "https://www.addcn.com/investment-details-485.html",
+      "source_level": 2,
+      "publication_date": "2019-06-12",
+      "effective_period": "報導所述2019年",
+      "locator": "文章中段：8591寶物交易網市佔率約90%",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "數字為轉載自工商時報的報導；分母及測量方法未說明，且資料為歷史性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢視公司官方平台清單及其轉載的歷史市佔與排名報導；目前缺少原 claim 對應期間、若干垂直市場的分母及人力與室內設計領域的市佔證據。進一步資料不足以消除這些範圍與期間缺口，未將歷史數字外推為當前結論。",
+    "addcn.com官方公司簡介可證明公司自述的業務及平台清單，但公司自述本身不是整體市場排名的獨立驗證。",
+    "2019年市佔數字來自公司投資人專區轉載的工商時報報導；其中591數字涉及刊登物件，8591及8891數字未交代明確分母或測量方法，且年代較早。",
+    "2024年「國內市佔第一」表述來自公司投資人專區轉載的鉅亨網報導，未定義市場範圍、指標、分母或統計期間。",
+    "營收占比、會員數或平台存在本身不能替代市佔率證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5287/465/hermes-attempt-1.stdout.txt"
+}

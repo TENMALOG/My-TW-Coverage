@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001168",
+  "claim_id": "9902:profitability_assertion:cd32bb294e021dbb",
+  "normalized_claim_hash": "cd32bb294e021dbbbda6cd70516906ea68ae4a8d2af08a26a340160b98441095",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-839f25f07a55f246",
+      "title": "台火開發股份有限公司2026年法人說明會",
+      "url": "https://www.tidehold.com/investor/text/legal_briefing_session/2026_0514_cht.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-14",
+      "effective_period": "2024及2025年度",
+      "locator": "第16頁，財務績效（年度）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示兩年度合併損益總額，但沒有各業務對獲利的貢獻分解，無法確認租金是否為主要獲利來源。"
+    },
+    {
+      "source_id": "src-d58e9be86863be2c",
+      "title": "台火開發—士林官邸專案頁",
+      "url": "https://www.tidehold.com/business/shilin.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "基本資料；基地位置與台火持有面積",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司頁面列明台火持有面積392.26坪及合建分屋安排；「精華」判斷仍屬公司描述。"
+    },
+    {
+      "source_id": "src-18d7c8082dd4a557",
+      "title": "台火開發股份有限公司2025年法人說明會",
+      "url": "https://www.tidehold.com/investor/text/legal_briefing_session/2025_1126_cht.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-26",
+      "effective_period": "簡報所述近期營運方向",
+      "locator": "第18頁，未來展望",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同樣表述將持續維持穩定租金收益；未提供可驗證穩定性的租金時間序列。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦查核；未找到能證明租金收入跨期穩定或構成主要獲利來源的直接資料，相關原子主張維持UNKNOWN。",
+    "台火對士林地段的「精華」描述來自公司自身專案頁，沒有獨立區位評級佐證。",
+    "公司簡報中的「穩定租金收益」是管理層表述，未配有多期租金收入數列。",
+    "已查到的年度損益資料沒有租金對淨利的來源分解；營收占比不能直接證明獲利占比。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9902/1168/hermes-attempt-1.stdout.txt"
+}

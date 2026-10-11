@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000255",
+  "claim_id": "6940:objective_ranking_or_market_share:a339a04db47953d6",
+  "normalized_claim_hash": "a339a04db47953d61aa219d9c44c13f04aff98f06c05a083e1e3b70f5343987d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8ddf0d0bba7032f5",
+      "title": "格斯科技股份有限公司公司概況資料表",
+      "url": "https://www.tpex.org.tw/storage/emerging_register/2023/05/1683075019_15036_CH_6940.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司資料截至2023-04-21；營收資料為2022年度",
+      "locator": "第2頁「公司介紹」；第6頁「電池芯」產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "櫃買中心官方刊載的公司提供資料載明高鎳三元電池芯研發、製造，產品包括軟包高鎳三元電芯。"
+    },
+    {
+      "source_id": "src-681fd30386b0ec6c",
+      "title": "Who We Are - GUS Technology",
+      "url": "https://www.gustech.com/language/en",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "頁面首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官網稱其以LTO電芯聞名，並稱在台灣設有1 GW級工廠；未按化學體系拆分工廠產能。"
+    },
+    {
+      "source_id": "src-cef67c7fdac6efdf",
+      "title": "格斯鋰電池10年磨一劍 生產及應用市場發光",
+      "url": "https://money.udn.com/money/story/5722/9494421",
+      "source_level": 2,
+      "publication_date": "2026-05-11",
+      "effective_period": "2026年報導",
+      "locator": "報導前段，策略長許志帆談格斯的LTO製造商身分",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述公司策略長稱格斯是「台灣唯二LTO鈦酸鋰電池製造商」；沒有提供另一家廠商的產能，也沒有定義或比較「產業規模」。"
+    },
+    {
+      "source_id": "src-44997e7e82703293",
+      "title": "格斯科技*攜手 TYFAST 開發高效釩鋰離子電池技術",
+      "url": "https://www.gustech.com/en/news/45",
+      "source_level": 3,
+      "publication_date": "2025-06-03",
+      "effective_period": "2024年完成工廠、2025年發布",
+      "locator": "公司新聞中介紹格斯技術與工廠的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為國內唯一具高門檻LTO及高鎳三元電池技術領先地位，並稱2024年完成GWh級軟包電芯廠及進入量產；此處的唯一性是技術領先地位，工廠規模未按LTO產品拆分，不能直接證明原主張。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成限定範圍的查找；截至本次檢索，仍無法確認「產業規模」的可操作定義及台灣各LTO廠的可比產能，因此該限定主張維持UNKNOWN。",
+    "櫃買中心公司概況資料由格斯科技及推薦證券商提供；雖由官方平台刊載，內容仍屬公司提供資料。",
+    "2025年公司新聞所稱「國內唯一」修飾的是技術領先地位，不能等同唯一具產業規模的LTO工廠。",
+    "2026年經濟日報所稱「台灣唯二」是對LTO製造商數量的報導，未揭露兩家廠商各自的LTO產能或產業規模判準。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6940/255/hermes-attempt-1.stdout.txt"
+}

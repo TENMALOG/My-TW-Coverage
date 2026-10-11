@@ -1,0 +1,26 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000015",
+  "claim_id": "8942:objective_ranking_or_market_share:96c34e1e0641bb89",
+  "normalized_claim_hash": "96c34e1e0641bb89db684da10498274e668b5e62efe7cbe501e34eb37e4ac972",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "wabash-2025-form-10k",
+      "title": "Wabash National Corporation, Annual Report on Form 10-K for the fiscal year ended December 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/879526/000087952626000036/wnc-20251231.htm",
+      "source_level": 2,
+      "publication_date": "2026-02-18",
+      "effective_period": "截至2025-12-31的會計年度；公司市場定位為申報當期自述。",
+      "locator": "Form 10-K第12頁「Long-Term Core Customer Relationships」段落：公司稱其為多家大型卡車運輸公司的領先拖車供應商，並稱此使其維持為市場領導者之一；第13頁Item 1 Products列出van、platform及tank trailers等產品。SEC HTML對應段落約在文字行422及461–469。",
+      "source_sha256": "f367586f5fbf62a799c110ece106e2d203ee3d66574127c699bc7f2fcc722cd2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/8942/wabash-2025-10k.html",
+      "note": "Wabash向SEC提交的正式10-K。可直接支持其生產拖車及公司自述領先供應商／市場領導者之一；未披露或聲稱其為北美最大拖車製造商，亦未提供全市場同口徑排名。"
+    }
+  ],
+  "search_notes": [
+    "直接檢視Wabash FY2025 Form 10-K；SEC filing index列示於2026-02-18提交，申報期間截至2025-12-31。",
+    "年報列明Wabash生產van、platform、tank等拖車產品；公司稱向多家大型卡車運輸公司供應拖車，並稱自己是市場領導者之一。這些陳述沒有建立北美製造商第一名。",
+    "未找到該年報所提供的北美同業全體比較、拖車出貨量／銷售額排名或市占率資料；因此最大排名保留UNKNOWN，不把「市場領導者之一」改寫成最大。"
+  ]
+}

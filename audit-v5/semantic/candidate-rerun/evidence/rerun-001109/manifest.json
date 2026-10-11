@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001109",
+  "claim_id": "2354:material_named_relationship:8d538674a3923948",
+  "normalized_claim_hash": "8d538674a39239485f4ccab1bd55d22441d21e1bd5e0e5a2e560dadad707eede",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-d6991a99874336cf",
+      "title": "鴻準精密工業股份有限公司",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=ec375f49-0371-4757-8320-ded3abc402f1",
+      "source_level": 2,
+      "publication_date": "2025-08-21",
+      "effective_period": null,
+      "locator": "主要客戶段落（網頁第28-29行）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列稱遊戲機客戶包括任天堂及Sony；未指定PlayStation型號或供貨期間。"
+    },
+    {
+      "source_id": "src-7997122f4d82bb80",
+      "title": "任天堂下修財測、銷售 鴻準、偉詮電、旺宏等台鏈壓力大",
+      "url": "https://money.udn.com/money/story/5612/9496287?from=edn_next_story",
+      "source_level": 2,
+      "publication_date": "2026-05-12",
+      "effective_period": "報導所述Switch 2供應鏈狀況，截至2026-05-12",
+      "locator": "正文；稱鴻準為Switch 2獨家組裝廠暨機殼供應商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導轉述法人分析，非鴻準或任天堂的一手確認。"
+    },
+    {
+      "source_id": "src-262602c962c229ec",
+      "title": "鴻準精密工業股份有限公司民國一一四年度年報",
+      "url": "https://www.foxconntech.com.tw/media/shareholders_meeting_files/2025%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-%E4%B8%AD%E6%96%87.pdf",
+      "source_level": 3,
+      "publication_date": "2026-02-28",
+      "effective_period": "FY2025",
+      "locator": "第73頁「主要產品銷售地區」表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "日本銷售額新台幣130,003,962仟元，占3C電子產品銷售額新台幣156,064,911仟元的83.30%。"
+    },
+    {
+      "source_id": "src-70528e4c372fa467",
+      "title": "PS5亮相供應鏈進補 競爭對手微軟也將推新機可望再迎拉貨潮",
+      "url": "https://news.cnyes.com/news/id/4492376",
+      "source_level": 2,
+      "publication_date": "2020-06-12",
+      "effective_period": "PS5供應鏈報導截至2020-06-12",
+      "locator": "正文第9、16行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導將鴻準列為Sony PS5相關機殼供應鏈；屬歷史媒體報導，不能證明目前仍有供貨。"
+    },
+    {
+      "source_id": "src-39c0a9bebba8ea33",
+      "title": "鴻準精密工業股份有限公司民國一一三年度年報",
+      "url": "https://www.foxconntech.com.tw/media/annual_reports/2024_2354_20250529F04_20250612_100748.pdf",
+      "source_level": 3,
+      "publication_date": "2025-02-28",
+      "effective_period": "FY2024",
+      "locator": "第77頁「主要產品銷售地區」表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "日本銷售額占3C電子產品銷售額74.57%；該年報以銷售地區列示，不能自行等同終端市場。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對最新FY2025年報、前一年度年報及具體客戶的二級報導；未找到鴻準一手來源具名確認Apple、Nintendo或Sony，且原句缺少日本比例的期間。剩餘問題屬披露範圍與時間範圍限制，停止研究並保留未解原子為UNKNOWN。",
+    "鴻準FY2025年報未具名披露任天堂、Apple或Sony；客戶名稱及產品對應主要由二級來源支持。",
+    "Sony/PlayStation的具體零組件供應證據較舊，未能驗證FY2025或目前的供貨狀態。",
+    "FY2024與FY2025年報的地區表以3C電子產品銷售額為分母，並按銷售地區分類；不是終端消費市場的獨立測量。",
+    "日本營收比例原句沒有期間，最新FY2025數據與FY2024約75%的數字不一致。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2354/1109/hermes-attempt-1.stdout.txt"
+}

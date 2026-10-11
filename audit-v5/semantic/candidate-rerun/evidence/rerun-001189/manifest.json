@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001189",
+  "claim_id": "3073:identity_changing_event:b67945c5e1f8cd60",
+  "normalized_claim_hash": "b67945c5e1f8cd606e13941dfa93c5abbb8825a78ae9fe0e11ffbcd89e91c332",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-047b14066191f6f7",
+      "title": "普格科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=95fea01b-e4f6-4d32-aaae-a4a2f24219bf",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "歷史資料；記載2015年產品營收組成及2017年8月28日更名。",
+      "locator": "「沿革與背景」及「產品與技術簡介」之「消費性IC韌體設計」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "財經資料庫公司簡介，屬二手來源。"
+    },
+    {
+      "source_id": "src-eb1409e7fe2fb421",
+      "title": "天方能源 | Teamphon Energy",
+      "url": "https://tpenergy.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司網站記載其參與澎湖地方風電計畫；頁面未標明該敘述的更新日期。",
+      "locator": "「陸域風電」及「公司簡介」：與台電、天力公司成立澎湖綠電公司並發展地方風電",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人官方網站支持具體地方風電活動，不能單獨證成「分散式能源商機」這一較廣分類。"
+    },
+    {
+      "source_id": "src-13a9c9cbf8d3139b",
+      "title": "天方能源:公告本公司名稱由「凱柏實業股份有限公司」更名為「天方能源科技股份有限公司」",
+      "url": "https://news.cnyes.com/news/id/4489074",
+      "source_level": 3,
+      "publication_date": "2020-06-10",
+      "effective_period": "股東會於2020年4月30日通過；2020年5月22日核准變更。",
+      "locator": "公告正文：更名前後名稱、簡稱及核准日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司重大訊息公告的轉載；支持正式更名，不單獨證明轉型內容。"
+    },
+    {
+      "source_id": "src-410097d396487d22",
+      "title": "天方能源科技股份有限公司 - MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=c8c1debd-d505-4b99-a386-a7ea9a3430d0",
+      "source_level": 2,
+      "publication_date": "2025-08-12",
+      "effective_period": "頁面列示2024年營收概況；購售電合約的起訖期間未載明。",
+      "locator": "「市場銷售與競爭」之「銷售狀況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手公司資料稱旗下合併公司與台電簽訂購售電合約；合約細節及直接簽約主體未明。"
+    },
+    {
+      "source_id": "src-c7b7ba61b658c465",
+      "title": "政府、國營事業及非營業特種基金轉投資（再轉投資）事業概況表",
+      "url": "https://www.moea.gov.tw/MNS/populace/content/wHandMenuFile.ashx?file_id=37292",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "澎湖綠電公司於2022年2月7日成立；台電於2022年6月16日投資入股；資料列示截至2024年12月31日持股。",
+      "locator": "澎湖綠電公司資料：投資目的、主要股東及持股比例",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "經濟部官方資料支持當地風力發電開發目的及天方能源持股；未使用「分散式能源」一詞。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已使用8次聚焦研究／查詢；最後一次針對官方網站及公開資訊觀測站的查詢未返回結果。其餘原子有可用證據，分散式能源的概括表述仍缺乏明確定義或直接支持，故保留 UNKNOWN。",
+    "前身的消費性 IC 韌體設計描述來自二手公司資料，未取得該公司同期年報原文作交叉核對。",
+    "台電購售電合約資料指出簽約主體為旗下合併公司，但未列明合約日期、案場或售電量。",
+    "澎湖風電合資資料證明具體地方風電開發活動，未直接證明「分散式能源商機」這一概括用語。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3073/1189/hermes-attempt-1.stdout.txt"
+}

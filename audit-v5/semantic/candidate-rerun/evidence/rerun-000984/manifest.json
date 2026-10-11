@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000984",
+  "claim_id": "6805:material_named_relationship:c29ff8e8534503e0",
+  "normalized_claim_hash": "c29ff8e8534503e05af704b2b38545ecd433f68e2a1c6a220025f4fbe15abc4e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-fd985117217f982b",
+      "title": "HUAWEI Mate XT 非凡大师 — Huawei official product page",
+      "url": "https://consumer.huawei.com/cn/phones/mate-xt-ultimate-design/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Product information stated as of 2024-09-10",
+      "locator": "Product description and footnotes, including lines 134 and 363–368",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Officially identifies the device as a tri-fold phone; does not identify its hinge supplier."
+    },
+    {
+      "source_id": "src-9c1309722e3b2325",
+      "title": "Huawei’s Tri-Fold Phone Revealed Hours after Apple, with Pre-Orders Reportedly Exceeding 4 Million — TrendForce",
+      "url": "https://www.trendforce.com/news/2024/09/11/news-huaweis-tri-fold-phone-revealed-hours-after-apple-with-pre-orders-reportedly-exceeding-4-million/",
+      "source_level": 2,
+      "publication_date": "2024-09-11",
+      "effective_period": "Mate XT launch period, September 2024",
+      "locator": "Article passage on Fositek as the exclusive hinge supplier",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Also reports exclusivity, attributing the information to sources cited by Economic Daily News."
+    },
+    {
+      "source_id": "src-e6931d18482a8de6",
+      "title": "摺疊產品玩新花樣，富世達、兆利引關注 — MoneyDJ",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=245722c4-1a34-4f02-aaf1-caa36cb3538e",
+      "source_level": 2,
+      "publication_date": "2024-09-23",
+      "effective_period": "Mate XT launch and initial supply reporting, September 2024",
+      "locator": "Article opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Explicitly states that Mate XT's bearing was supplied exclusively by Fositek."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Explicit launch-period supplier and exclusivity claims were found in secondary reporting, with Huawei's official page confirming the device identity. Further searching was not needed for the launch-period candidate; continuation of exclusivity beyond September 2024 remains unverified.",
+    "Supplier identity and exclusivity are supported here by secondary industry reporting, not by a located issuer or regulator disclosure that names Fositek as Mate XT's exclusive supplier.",
+    "Huawei's official page describes the Mate XT and its hinge system but does not name the component supplier.",
+    "富世達2024年永續報告提及獲華為「最佳交付獎」及轉軸開發專案，但未確認Mate XT或其獨家供應地位：https://www.fositek.com/Portals/0/zh-tw/FileUpload/%E4%BC%81%E6%A5%AD%E8%B2%AC%E4%BB%BB/2024%E5%AF%8C%E4%B8%96%E9%81%94%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf?ran=001"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6805/984/hermes-attempt-1.stdout.txt"
+}

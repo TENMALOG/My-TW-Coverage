@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000926",
+  "claim_id": "3596:material_named_relationship:b62201e689d59f0c",
+  "normalized_claim_hash": "b62201e689d59f0c6613ec97652ad7d94f11e32f6aabb675ccc54ebb06fa92e7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-412972cead05566f",
+      "title": "Supply concerns ease as T-Mobile adds Arcadyan to FWA lineup",
+      "url": "https://www.lightreading.com/5g/supply-concerns-ease-as-t-mobile-adds-arcadyan-to-fwa-lineup",
+      "source_level": 2,
+      "publication_date": "2022-04-07",
+      "effective_period": "2022年",
+      "locator": "正文及T-Mobile引述",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只證實Arcadyan與Nokia均在供應組合中，未提供核心供應商地位或份額數據。 ([lightreading.com](https://www.lightreading.com/5g/supply-concerns-ease-as-t-mobile-adds-arcadyan-to-fwa-lineup?utm_source=openai))"
+    },
+    {
+      "source_id": "src-384a5a2b929b8c34",
+      "title": "T-Mobile Internet Gateway Setup",
+      "url": "https://www.t-mobile.com/support/home-internet/t-mobile-gateway",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面檢索時列有Arcadyan KVD21及T-Mobile 5G Gateway產品",
+      "locator": "Gateway Support列表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "T-Mobile官方支援頁列出Arcadyan KVD21。 ([t-mobile.com](https://www.t-mobile.com/support/home-internet/t-mobile-gateway?msockid=37a6bfeb74c16cc916aba921756b6d62&utm_source=openai))"
+    },
+    {
+      "source_id": "src-65b2c079f14f4835",
+      "title": "Federal Communications Commission, DA 26-875",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-875A1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "文件列示2026-06-12至2027-12-12",
+      "locator": "設備範圍表；Arcadyan routers for T-Mobile 5G FWA broadband devices",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "監管文件直接將Arcadyan設備與T-Mobile 5G FWA寬頻設備連結。 ([docs.fcc.gov](https://docs.fcc.gov/public/attachments/DA-26-875A1.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-8e5276fee6124641",
+      "title": "SEC Consult SA-20130805-0: Vodafone EasyBox Default WPS PIN Algorithm Weakness",
+      "url": "https://seclists.org/bugtraq/2013/Aug/25",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "公告所述EasyBox 802/803歷史產品；公告發布於2013年",
+      "locator": "Vendor/product description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公告稱這些DSL home gateways由Arcadyan/Astoria Networks製造，並由Vodafone Germany貼牌；不是目前供貨狀態的證據。 ([seclists.org](https://seclists.org/bugtraq/2013/Aug/25?utm_source=openai))"
+    },
+    {
+      "source_id": "src-4ecb126c06f69c14",
+      "title": "Arcadyan 2023 Sustainability Report",
+      "url": "https://csr.arcadyan.com/media/resources/reports/2023_Arcadyan_SUSTAINABILITY_REPORT_EN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "報告稱自2018年起；報告涵蓋2023年",
+      "locator": "Section 3.4.2, TÜV Green Product Mark",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "智易官方報告明確提及售予Deutsche Telekom的產品型號。 ([csr.arcadyan.com](https://csr.arcadyan.com/media/resources/reports/2023_Arcadyan_SUSTAINABILITY_REPORT_EN.pdf?utm_source=openai))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已檢索T-Mobile官方支援資料、FCC文件、智易官方永續報告及相關次級資料。資料足以確認部分供貨關係，但未找到能證明T-Mobile核心供應商地位、Vodafone目前供貨或其他歐洲客戶具體名單與期間的可靠證據；未解決原子維持UNKNOWN。",
+    "「核心供應商」缺少份額、排名、採購量或明確定義，不能由列入供應商組合推定。",
+    "Vodafone證據是歷史EasyBox產品，不能替代目前供貨或5G FWA供貨的證據。",
+    "Deutsche Telekom證據截止於智易2023年永續報告所述期間；未據此推定2026年仍持續供貨。",
+    "「其他一線電信商」未具體列名，現有來源不足以確認該概括性主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3596/926/hermes-attempt-1.stdout.txt"
+}

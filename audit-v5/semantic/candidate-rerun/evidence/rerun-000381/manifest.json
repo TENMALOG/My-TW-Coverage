@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000381",
+  "claim_id": "6750:objective_ranking_or_market_share:40044574fe259065",
+  "normalized_claim_hash": "40044574fe2590651a4a794b82af73770941b942be4432a508e4be0334794ad2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-6f3089b6cf5cc2ce",
+      "title": "工程實績－泰創工程(6750) Tech-Top Engineering Co., Ltd.",
+      "url": "https://www.tech-top-eng.com/work/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "工程實績列表中「越南晶碩光學無塵室第一期工程」項目及其連結。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "泰創工程官方網站直接列載專案名稱；列表未提供此項目的日期或詳細承攬範圍。"
+    },
+    {
+      "source_id": "src-a6bbde9c52065ed3",
+      "title": "晶碩越南廠房開工典禮",
+      "url": "https://cjsc.vn/news-cn/company-news-cn/-35244247.htm",
+      "source_level": 3,
+      "publication_date": "2024-03-18",
+      "effective_period": "晶碩越南工廠於2024-03-05舉行開工儀式；報導稱整體工廠分兩期。",
+      "locator": "文章正文關於晶碩越南工廠開工、分期及項目實施者的段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "此為CJSC的官方公司消息，可佐證晶碩越南工廠及其分期背景；報導稱CJSC實施該工廠項目，不能據此推定泰創的合約角色或具體工作範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方工程實績列表已直接支持原文的專案名稱關聯；未再延伸核實未出現在原文中的排名、市占率、承攬範圍或日期。",
+    "泰創工程的個別專案頁面未能由頁面擷取工具取得；判斷依據是可直接擷取的官方工程實績列表。",
+    "CJSC資料描述的是晶碩越南工廠整體項目，不能代替泰創工程該無塵室項目的合約或驗收資料。",
+    "提供的原文沒有客觀排名或市場占有率主張，因此未推定或評估此類主張。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6750/381/hermes-attempt-1.stdout.txt"
+}

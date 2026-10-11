@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000402",
+  "claim_id": "9910:objective_ranking_or_market_share:d6ba6478547062ad",
+  "normalized_claim_hash": "d6ba6478547062ad6acf6747e05d6d5f912e4d2bd86f5c07c0a86f83cceea1ef",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-08ceaf2edca996fe",
+      "title": "【研究報告】豐泰(9910) 5月營運亮眼 長線成長動能續強 全年營收可望年增40%",
+      "url": "https://cmnews.com.tw/article/3369-8eea64b5-d8c8-11ef-a574-a8000dbe5c24",
+      "source_level": 2,
+      "publication_date": "2022-06-08",
+      "effective_period": "2021, as specified for the reported customer share",
+      "locator": "Section “豐泰為國內製鞋大廠 NIKE營收佔比近9成”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary research article reports 2021 Nike share as 87% of total revenue; it is not an issuer disclosure and does not establish the share for other periods."
+    },
+    {
+      "source_id": "src-59c211c346208976",
+      "title": "豐泰雙引擎齊發動 營運動能升溫 近期法人大買",
+      "url": "https://money.udn.com/money/story/5710/9064022",
+      "source_level": 2,
+      "publication_date": "2025-10-11",
+      "effective_period": null,
+      "locator": "Article passage stating Feng Tay’s overall footwear shipments are about one-sixth of Nike’s total sales volume",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reputable secondary reporting; specifies footwear shipment volume relative to Nike sales volume, not a capacity denominator, and gives no explicit measurement period for the one-sixth figure."
+    },
+    {
+      "source_id": "src-b8566e66ce1067a2",
+      "title": "About - Feng Tay Group Profile",
+      "url": "https://www.fengtay.com/en/about/detail/Feng_Tay_Group_Profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated current company profile",
+      "locator": "Group profile, final paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer disclosure directly identifies Nike as the primary customer and describes the factory as its only authorized air-sole producer."
+    },
+    {
+      "source_id": "src-1221897759fdd94a",
+      "title": "2024 豐泰企業永續報告書",
+      "url": "https://www.fengtay.com/uploads/images/csr/report/2024ESGreport_cn.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05",
+      "effective_period": "2024-01-01 to 2024-12-31",
+      "locator": "Section 1.1 集團簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer report describes Feng Tay as the primary customer’s only authorized airbag-producing factory; this passage alone does not name Nike, but the company profile does."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found issuer support for the authorized air-sole factory and historical secondary evidence for related revenue and shipment-volume figures. They did not resolve the revenue share for a specified period or establish the one-sixth production-capacity denominator; those atoms remain UNKNOWN.",
+    "The 85%–90% revenue range has no period in the original wording; the available 87% figure is secondary reporting for 2021 and cannot establish the share for other periods.",
+    "The one-sixth figure found in secondary reporting concerns Feng Tay footwear shipment volume relative to Nike sales volume, not Nike installed production capacity.",
+    "The exclusive air-sole/airbag factory statement is an issuer self-description; no independent corroboration of the exclusivity was located."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9910/402/hermes-attempt-1.stdout.txt"
+}

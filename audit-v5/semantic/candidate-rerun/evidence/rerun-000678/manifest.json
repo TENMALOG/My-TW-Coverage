@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000678",
+  "claim_id": "7786:objective_ranking_or_market_share:b764fb96ef27fd17",
+  "normalized_claim_hash": "b764fb96ef27fd176c0d670637ca93210d76eaff45920a8aa5fd752d170980e1",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-1eb9dd0bcbe509df",
+      "title": "新上市公司：東方風能(7786)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d69a3d6cf9019a7198534a0119",
+      "source_level": 3,
+      "publication_date": "2025-11-18",
+      "effective_period": "文章刊載時",
+      "locator": "船隊規模與船型段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出專業船型，但未界定「特種鋼鐵」或提供船體材料資料。"
+    },
+    {
+      "source_id": "src-4b5f3d249a2f7e5d",
+      "title": "東方風能–訂購全新運維作業船(SOV)，並已簽定15年期長期合約",
+      "url": "https://www.dfo.com.tw/news-detail/0__24",
+      "source_level": 3,
+      "publication_date": "2025-05-05",
+      "effective_period": "2025-05-05發布；第三艘SOV建造中",
+      "locator": "新聞標題及正文",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認公司訂造第三艘SOV，並說明其離岸風電服務合約。"
+    },
+    {
+      "source_id": "src-9bc10be688777697",
+      "title": "東方風能宣佈與 Vestas 簽訂長期運維住宿船 (SOV) 合約",
+      "url": "https://www.dfo.com.tw/news-detail/8",
+      "source_level": 3,
+      "publication_date": "2024-11-06",
+      "effective_period": "2024-11-06發布",
+      "locator": "新聞正文末段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為台灣最大規模的離岸船舶營運商；屬公司自我描述，未附比較口徑或獨立排名佐證，也不是整體離岸風電工程船隊規模的直接量化比較。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對交易所資料及公司船隊、SOV公告；最大規模的比較基準與「特種鋼鐵」定義仍無可靠證據，故保留為UNKNOWN。",
+    "船隊數量含建造中船舶；不可直接等同已投入營運的船舶數。",
+    "最大規模排名缺乏量化口徑及同業比較；公司自述及「最大之一」均不足以證實單獨排名第一。",
+    "現有來源確認專業工程船型，但未確認「特種鋼鐵船隊」的材料或技術定義。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/7786/678/hermes-attempt-1.stdout.txt"
+}

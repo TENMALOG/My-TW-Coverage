@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000244",
+  "claim_id": "3484:objective_ranking_or_market_share:e42a3a40cfbcace6",
+  "normalized_claim_hash": "e42a3a40cfbcace60958db0753a323677d5aa27809299b9ed1720eddfdf7e21e",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-a417b97bdd179d5ef2f5",
+      "title": "工具機應用",
+      "url": "https://www.solteam.com.tw/index.php?route=solution/solution&solution_id=23",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「產品特色」；「電動工具機產品機電整合服務」、「高耐受性開關設計」、「開關防塵防水結構設計」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "崧騰官方產品應用頁。產品範圍為電動工具機相關電氣零配件及開關設計；未提供產量或市場排名。"
+    },
+    {
+      "source_id": "src-7a6f52cd258a4c9c95d1",
+      "title": "2024 ANNUAL REPORT",
+      "url": "https://www.solteam.com.tw/download/(%E8%8B%B1%E6%96%87%E7%89%88)%E5%B4%A7%E9%A8%B0-114%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-OK.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-16",
+      "effective_period": "2024會計年度",
+      "locator": "Letter to Shareholders, p. 1, R&D situation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報記載於電動工具及白色家電市場發展開關模組與電子控制器模組；支持產品涉入，但沒有比較競爭者或全球排名資料。"
+    },
+    {
+      "source_id": "src-4fff6776a19d4e135dec",
+      "title": "2024 ANNUAL REPORT",
+      "url": "https://www.solteam.com.tw/download/(%E8%8B%B1%E6%96%87%E7%89%88)%E5%B4%A7%E9%A8%B0-114%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1-OK.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-16",
+      "effective_period": "2024會計年度",
+      "locator": "Letter to Shareholders, p. 1, R&D situation",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報描述產品開發與應用市場，未列全球電動工具開關市場的排名、競爭者比較、分母或市占率。"
+    },
+    {
+      "source_id": "src-37f50eedbe73dbaa6d0d",
+      "title": "工具機應用",
+      "url": "https://www.solteam.com.tw/index.php?route=solution/solution&solution_id=23",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「產品特色」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面證明公司提供相關開關設計與電動工具機整合服務，但不含全球排名或市場規模資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查詢崧騰官方網站、2024年度年報，以及中英文全球排名與市占率相關詞組；找到的官方資料確認產品涉入，但未提供可驗證該全球排名的比較證據。排名原子維持 UNKNOWN。",
+    "官方年報及產品頁可支持產品涉入，不能單獨證明全球第一。",
+    "未找到與原 claim 同期、同產品定義且具可比較分母與衡量單位的全球排名或市場占有率資料。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3484/244/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-003",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "488ae0c2dcc605f086811b057d4ab9b85f70fc93a004ec5afc5977f849134ee0",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3484/244/isolated-prompt.txt",
+  "prompt_sha256": "cdd617510db65982df2a637766391e8be8d5f9c78c127ab99d47d3d5b6af762c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000244/manifest.json",
+  "supersedes_manifest_sha256": "fd8ced5e55fccaf3c7b7e6e725351fe58b640b8588fb3e08eb04d42623961b4d",
+  "corrected_at": "2026-10-08T09:57:56Z"
+}

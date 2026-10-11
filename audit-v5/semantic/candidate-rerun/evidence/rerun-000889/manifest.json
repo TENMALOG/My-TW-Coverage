@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000889",
+  "claim_id": "2252:material_named_relationship:79b3690c5dc4c3d7",
+  "normalized_claim_hash": "79b3690c5dc4c3d7373385745597c14240fc59ecfaf53d8d86ae8436452de7e9",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-507d365fe95aa0c4",
+      "title": "《興櫃股》為昇科 搶當毫米波雷達前三強",
+      "url": "https://tw.stock.yahoo.com/news/%E8%88%88%E6%AB%83%E8%82%A1-%E7%82%BA%E6%98%87%E7%A7%91-%E6%90%B6%E7%95%B6%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E9%81%94%E5%89%8D%E4%B8%89%E5%BC%B7-005151618.html",
+      "source_level": 2,
+      "publication_date": "2021-08-26",
+      "effective_period": "報導描述2021年8月時的 FCW 供應關係。",
+      "locator": "報導正文：兩家獨家供應的系統為 FCW。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "未能確認原主張中的 RCTA 獨家供應部分。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成聚焦檢索；可支持的證據僅限2021年報導中的 FCW 獨家供應關係，未找到 AEB、BSD 或 RCTA 對應的獨家供應證據。依規則保留未解原子為 UNKNOWN。",
+    "查得的獨家供應報導為二手媒體報導，未找到可直接核對該說法的公司原始簡報或正式申報文件。",
+    "報導未列出兩家 OEM 名稱，也未交代「前五大」的排名依據或統計期間。",
+    "FCW 與 AEB、BSD、RCTA 是不同的系統描述；不能把 FCW 的獨家供應證據延伸到原主張列出的其他系統。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2252/889/hermes-attempt-1.stdout.txt"
+}

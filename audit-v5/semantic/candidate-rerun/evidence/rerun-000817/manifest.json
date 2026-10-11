@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000817",
+  "claim_id": "6855:objective_ranking_or_market_share:dbc4554952212ac3",
+  "normalized_claim_hash": "dbc4554952212ac31627a81a1885574987cd308c2731467ac1509de393b42ef3",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-641f566ff1b983c8",
+      "title": "數泓科技股份有限公司111年股東會年報",
+      "url": "https://w3.eclatorq.com/wp-content/uploads/2022/04/111%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "111年股東會年報所述",
+      "locator": "公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持「研發與製造核心能力」，但未明確支持「完整」的範圍。"
+    },
+    {
+      "source_id": "src-590ad01f1abb3eba",
+      "title": "櫃買中心電子報208期：數泓科技公司資料",
+      "url": "https://nweb.tpex.org.tw/tpex208/newstar_1.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "資料截至民國111年9月底",
+      "locator": "股票代號6855公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載其營業項目為數位手工具產品製造、研發及銷售；未認定能力是否「完整」。"
+    },
+    {
+      "source_id": "src-a263b97c13100146",
+      "title": "臺灣手工具走向數位高精度化",
+      "url": "https://www.taichung.gov.tw/media/270777/63118443271.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "文件所述之公司發展資料",
+      "locator": "數泓科技股份有限公司介紹",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持第一家及核心能力的描述，未證明市場排他性。"
+    },
+    {
+      "source_id": "src-d7fd21c0c0305c2a",
+      "title": "數泓科技股份有限公司112年股東會年報",
+      "url": "https://w3.eclatorq.com/wp-content/uploads/2023/06/112%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "自民國111年10月6日起",
+      "locator": "公司沿革",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報記載上櫃起始日。"
+    },
+    {
+      "source_id": "src-4a3ef13806867ca9",
+      "title": "櫃買中心上櫃股票每日收盤行情",
+      "url": "https://www.tpex.org.tw/www/zh-tw/afterTrading/otc?order=0&response=html&sort=asc&type=EW",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行行情資料；查核日2026年10月7日",
+      "locator": "代號6855數泓科",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "櫃買中心上櫃行情資料列出數泓科。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對公司年報、政府刊載資料及櫃買中心資料，足以確認成立年份、來源所述的「第一家」及上櫃狀態；未找到可證明「唯一」或界定並驗證「完整能力」的資料，故相關原子主張保留為UNKNOWN。",
+    "公司年報與櫃買中心公司資料對設立日分別記載為2006年6月30日與2006年6月26日；成立年份一致，日期不一致。",
+    "「第一家」有公司年報及政府刊載資料支持，但現有材料未提供可驗證市場排名的比較方法。",
+    "沒有找到證明「唯一」的市場範圍、比較期間或同業普查資料。",
+    "來源使用「數位手工具」及「研發與製造核心能力」等措辭，未充分界定「數位智能手工具完整能力」的範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6855/817/hermes-attempt-1.stdout.txt"
+}

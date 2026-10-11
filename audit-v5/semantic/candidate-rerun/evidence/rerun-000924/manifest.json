@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000924",
+  "claim_id": "3491:material_named_relationship:01090b65e377130f",
+  "normalized_claim_hash": "01090b65e377130f10e0cdef88a08c4bc8a4a1dce70b75cbbb023d1b9226dd44",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8a1913bdfe8e8ceb",
+      "title": "昇達科技（3491）2026年8月6日法人說明會簡報",
+      "url": "https://www.umt-tw.com/upload/Investors/%283491%29_2026_0806_.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-06",
+      "effective_period": "2026H1",
+      "locator": "第6頁，低軌衛星產品營收佔比由2025H1的59%升至2026H1的77%；第8頁列2026H1低軌衛星營收佔比77.0%。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報披露最新取得的半年度占比為77.0%；簡報註明2026Q2數據為公司自結數，尚未經會計師核閱。"
+    },
+    {
+      "source_id": "src-88581d5cb2e150e5",
+      "title": "昇達科技（3491）2026年4月28日法人說明會簡報",
+      "url": "https://www.umt-tw.com/upload/Investors/3491_20260428.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-28",
+      "effective_period": "2026Q1",
+      "locator": "第15頁，「低軌營收佔比」列2026Q1為80.0%；第11頁列2026Q1低軌產品季營收。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司簡報披露的Q1占比為80.0%，並非「超過80%」；簡報註明2026Q1為公司自結數，尚未經會計師查核。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司2026Q1及2026H1投資人簡報，並核對供應鏈角色與營收占比口徑。占比 claim 缺少參照期間，現有披露不足以判定其是否在其他未指明期間曾高於80%；未以缺乏該期間證據推定為否。",
+    "「關鍵供應商」的證據來自公司自身簡報，沒有獨立全球排名或市占率佐證。",
+    "公司2026Q1簡報列示80.0%，不能等同於「超過80%」。",
+    "2026H1簡報列示77.0%；其簡報註明2026Q2數據為公司自結、尚未經會計師核閱。",
+    "原 claim 未提供參照期間，因此不能把特定季度或半年數據外推為所有期間的結果。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3491/924/hermes-attempt-1.stdout.txt"
+}

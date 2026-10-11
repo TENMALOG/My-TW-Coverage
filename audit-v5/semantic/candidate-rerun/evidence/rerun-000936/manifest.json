@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000936",
+  "claim_id": "5348:identity_changing_event:4a9f2cdb40f3fde5",
+  "normalized_claim_hash": "4a9f2cdb40f3fde50462ad3ea1edc96b8aac8bb7ddd8b7896969cfda25228f55",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-ee69a4b3cbeb2dc3",
+      "title": "經濟部商工登記公示資料：正能量智能股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22099673",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行登記資料；頁面列有2023年7月12日名稱變更",
+      "locator": "公司基本資料及歷史資料",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示股票代號5348、現名及章程所訂外文公司名稱 EMpower Technology Corporation。"
+    },
+    {
+      "source_id": "src-1654f9fd7c567ead",
+      "title": "櫃買中心：正能量智能因更名全面換發新股公告",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11210/11200105801.html",
+      "source_level": 3,
+      "publication_date": "2023-10-26",
+      "effective_period": "2023-11-13起新股票換發及櫃檯買賣",
+      "locator": "公告事項第2、5、6項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明載5348原名系通科技股份有限公司，並更名為正能量智能股份有限公司。"
+    },
+    {
+      "source_id": "src-f33c1a3d75c0a82d",
+      "title": "正能量智能112年度個體財務報告",
+      "url": "https://www.emtgroup.com.tw/wp-content/uploads/2024/08/%E6%AD%A3%E8%83%BD%E9%87%8F%E6%99%BA%E8%83%BD112Q4_%E5%80%8B%E9%AB%94%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年度及2023年度",
+      "locator": "PDF第36頁，附註七「母公司與最終控制者」；PDF第11頁，組織重組說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載能率網通為公司母公司，持有15.63%且依IFRS 10具有實質控制力；另記載2023年公司向母公司購買正能量運動公司股權。"
+    },
+    {
+      "source_id": "src-3e42e594f80f17e1",
+      "title": "正能量智能114年股東常會議事錄及附件",
+      "url": "https://www.emtgroup.com.tw/wp-content/uploads/2025/08/%E6%AD%A3%E8%83%BD%E9%87%8F%E6%99%BA%E8%83%BD114%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "回述2023年6月收購及其後轉型方向",
+      "locator": "附件一營業報告書，PDF第4頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載於民國112年6月收購馬拉松世界公司後開啟轉型，並朝運動整合平台發展。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核櫃買中心公告及公司官方財報、股東會資料；更名、控制關係時間與轉型各原子均有可判定的官方證據，停止研究。",
+    "「入主」可能指取得控制權或納入集團；本次依公司財報的母公司與實質控制披露判讀，該關係在2022年度已存在。",
+    "轉型的官方回述見於2025年股東會資料；其中描述的啟動背景是收購馬拉松世界，而不是能率網通於2023年入主正能量智能。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5348/936/hermes-attempt-1.stdout.txt"
+}

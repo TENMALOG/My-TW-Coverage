@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001029",
+  "claim_id": "3191:identity_changing_event:98fd69deb068be8d",
+  "normalized_claim_hash": "98fd69deb068be8d150a1b638d5e0f09adcee31c0a935ae794645e24d8c315d6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2c56c42ae8e63c12",
+      "title": "經濟部商工登記公示資料查詢：雲嘉南科技股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/86105242",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2023-07-17",
+      "locator": "Lines 28–29; historical entries at lines 203–204",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Records the name change from 和進電子股份有限公司 on 2023-07-17."
+    },
+    {
+      "source_id": "src-1f32481fc872ff8a",
+      "title": "TPEx announcement: 雲嘉南科技股份有限公司 name change and replacement shares",
+      "url": "https://www.tpex.org.tw/storage/eb_data/11301/11300003141.html",
+      "source_level": 3,
+      "publication_date": "2024-01-25",
+      "effective_period": "2024-02-05 through 2024-02-21 for trading suspension and new-share trading arrangements",
+      "locator": "Lines 10–12 and 16–29",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The notice concerns name-change-related share replacement; it states the new shares would begin trading on 2024-02-21."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Official registry and TPEx records resolve the identity and timing distinction; no material atom remains unresolved.",
+    "The official registry establishes the legal name-change date; the TPEx notice describes the subsequent stock-replacement and trading schedule.",
+    "The TPEx notice was issued in 2024, but its issuance date should not be conflated with the 2023 registry date of the corporate name change."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3191/1029/hermes-attempt-1.stdout.txt"
+}

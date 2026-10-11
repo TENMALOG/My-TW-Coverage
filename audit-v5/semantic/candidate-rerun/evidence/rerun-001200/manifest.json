@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001200",
+  "claim_id": "6113:material_named_relationship:aae3976ab7d6df98",
+  "normalized_claim_hash": "aae3976ab7d6df988a5addb57c364921e0de30dd730ea91f8e9adf8ec22ae1e6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9d10fb2fdd8b1809",
+      "title": "亞矽科技 official homepage",
+      "url": "https://www.asec.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Undated issuer description; accessed 2026-10-07.",
+      "locator": "About ASEC and “與上下游建立良好的伙伴關係”; lines 112–139 in the retrieved page.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Direct issuer statement describing technical services and technical support."
+    },
+    {
+      "source_id": "src-f05261151e0f2a1d",
+      "title": "業務工程師－亞矽科技",
+      "url": "https://www.asec.com.tw/careers-detail/1_3/",
+      "source_level": 3,
+      "publication_date": "2022-12-20",
+      "effective_period": "Job posting published 2022-12-20; ongoing service period not specified.",
+      "locator": "Job responsibilities, items 4 and 7; lines 48–55 in the retrieved page.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer posting states responsibility for customer “design-in銷售業務及服務” and sales/promotion of semiconductor chips and modules."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer’s official website and dated issuer job posting support each atom; no further research was needed.",
+    "The distributor and technical-support descriptions are issuer self-descriptions on an undated corporate page.",
+    "“中游” is supported as a supply-chain-position inference from the issuer’s distributor role and supplier/customer relationships; the issuer page does not expressly assign that formal label.",
+    "The Design-in evidence is an issuer job posting dated 2022-12-20. It establishes the service described in that posting, not current project volume or a quantified level of activity."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6113/1200/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000256",
+  "claim_id": "6940:objective_ranking_or_market_share:6cfe81e246b74e61",
+  "normalized_claim_hash": "6cfe81e246b74e61012d05d9c26f3f6c7b538ee1a2afb1aa479f1588287cee8f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f409a22d8b91a7a4",
+      "title": "政府電子採購網－決標公告：嘉義綠能園區行政大樓鈦酸鋰儲能暨能源管理系統(採購帶安裝)一批",
+      "url": "https://web.pcc.gov.tw/tps/atm/AtmAwardWithoutSso/QueryAtmAwardDetail?pkAtmMain=NTM0ODM3MTQ=",
+      "source_level": 3,
+      "publication_date": "110/08/19",
+      "effective_period": "110/08/18至111/01/25（預估履約起迄）",
+      "locator": "標案案號N1E10A040；標案名稱、得標廠商、決標金額及履約起迄日期欄位",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方採購決標公告；決標金額為新台幣18,000,000元。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "因工具呼叫迭代上限停止研究；最大客戶排名所需的期間及客戶營收比較資料仍未取得，該原子主張維持UNKNOWN。",
+    "官方決標公告證實的是單一採購案及其金額，不是客戶銷售額排名。",
+    "原文未指定「最大客戶」的期間、排名指標或比較範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6940/256/hermes-attempt-1.stdout.txt"
+}

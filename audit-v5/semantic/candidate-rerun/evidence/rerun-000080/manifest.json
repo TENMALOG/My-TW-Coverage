@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000080",
+  "claim_id": "2890:objective_ranking_or_market_share:298eb00d61c6591a",
+  "normalized_claim_hash": "298eb00d61c6591a1677bec9925d6535bf55a6b04ebef18e47325af7813d1a80",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-19c8810a70719772",
+      "title": "2024年度履行盡職治理報告書（2025版）",
+      "url": "https://securities.sinopac.com/upload/sinopac/fileResources/19d425f74f3000001ef0.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年度報告；據點數未標明確切統計基準日",
+      "locator": "第2頁「關於永豐金證券」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer report states that the firm had 45 operating locations."
+    },
+    {
+      "source_id": "src-78c96de74fa598f5",
+      "title": "公司簡介 - 永豐金證券",
+      "url": "https://securities.sinopac.com/about/page.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current webpage; page references the October 2025 merger",
+      "locator": "「公司簡介」首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Current issuer profile states 46 operating locations, conflicting with the undated 45-location claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after four focused research turns. Official issuer disclosures establish the historical self-description but give conflicting 45/46 location counts without a clear common as-of date. Extraction of the latest annual-report PDF failed, so the unqualified count remains unresolved.",
+    "The historical first-place statement is supported by issuer disclosures, not independent exchange or regulator verification.",
+    "The 45 and 46 location counts are both from official issuer sources, but their effective dates and scope are not reconciled."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2890/80/hermes-attempt-1.stdout.txt"
+}

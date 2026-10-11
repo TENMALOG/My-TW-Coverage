@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000896",
+  "claim_id": "3552:material_named_relationship:d95c0678e66eda89",
+  "normalized_claim_hash": "d95c0678e66eda89002d4d81ee3c0a4f47b50fa2060bd43944d374c7e0704b64",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1e2132bd70f04f58",
+      "title": "同致電子 2024 法說會",
+      "url": "https://www.tungthih.com/upload/news/20241030004000306.pdf",
+      "source_level": 3,
+      "publication_date": "2024-10-17",
+      "effective_period": "2024年上半年",
+      "locator": "PDF第8頁，「營業額依市場別 / Revenue, by Market」；第7頁財務表列示2024 Q1–Q2營收4,140.8百萬元",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "市場別圖表列示大陸79.4%及3,286.7百萬元。"
+    },
+    {
+      "source_id": "src-4b29004608f11c32",
+      "title": "汽車零組件｜車用電子前景樂觀，同致(3552)漲停亮燈，但仍要注意中國市場的發展。",
+      "url": "https://uanalyze.com.tw/articles/204997628",
+      "source_level": 2,
+      "publication_date": "2024-10-28",
+      "effective_period": "報導時點；底層客戶名單期間未明",
+      "locator": "正文第22行附近，列出主要客戶群及四家公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "明確列出東風日產；屬次級來源。"
+    },
+    {
+      "source_id": "src-999e0f6bcfe4600f",
+      "title": "同致電子企業股份有限公司：品質與環境政策／供應商紀錄",
+      "url": "https://www.tungthih.com.tw/about2_view.php?show=7",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2001年；公司另列2007及2008年東風日產相關紀錄",
+      "locator": "2001年成為東風日產供應商；2007及2008年列有東風日產優秀供應商紀錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "確認歷史供應商關係，不單獨證明2024年的主要客戶地位。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到同致官方法說會、公司歷史供應商紀錄及列出客戶名單的同期次級報導。因原 claim 未指定時間範圍，停止於可直接核實的2024年範圍，未將該證據外推為不限定期間的結論。",
+    "原 claim 未指定期間；2024年上半年營收比例及2024年10月的客戶描述不能證明該說法適用於其他期間或當前。",
+    "同致2024年10月17日法說會支持市場別營收比例，但未列出客戶名稱；四家主要客戶的明確名單來自次級報導。",
+    "公司官方歷史資料只證明與四家相關企業的歷史供應商關係，不能單獨證明其在報導時點仍為主要客戶。",
+    "法說會市場圖表標示「2024Q2」，但4,140.8百萬元與財務表所列Q1–Q2累計營收相符，故採2024年上半年作為有效期間。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3552/896/hermes-attempt-1.stdout.txt"
+}

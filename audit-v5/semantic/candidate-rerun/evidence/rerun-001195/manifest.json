@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001195",
+  "claim_id": "4971:material_named_relationship:1fca6baf1f4e0898",
+  "normalized_claim_hash": "1fca6baf1f4e0898f01c358e5f26dd253b0d00bd02e3e338f1e010870211fd41",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-215dffa4d9620bfb",
+      "title": "IET investor presentation (2015)",
+      "url": "https://www.intelliepi.com/tw/doc/mediaConf/PresesConfPresentation-151008.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2014–2015",
+      "locator": "PDF slide 17, lines 166–172",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer presentation states that IET took over Skyworks' MBE production equipment in 2014 and exclusively supplied its non-mobile high-frequency epitaxial wafers."
+    },
+    {
+      "source_id": "src-684424367dfe7a6f",
+      "title": "IntelliEPI Receives Supplier Award",
+      "url": "https://intelliepi.com/?p=240",
+      "source_level": 3,
+      "publication_date": "2011-02-10",
+      "effective_period": "2010",
+      "locator": "Announcement text",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "IET's U.S. subsidiary reported receiving Skyworks' 2010 Supplier Award for supplying pHEMT epi-wafers to Skyworks' Woburn fab. This corroborates a historical supply relationship, not its later scale."
+    },
+    {
+      "source_id": "src-372c59651d9c3250",
+      "title": "2024 Annual Report",
+      "url": "https://intelliepi.com/wp-content/uploads/2025/12/2025financial_report.pdf",
+      "source_level": 3,
+      "publication_date": "2025-05-12",
+      "effective_period": "2022–2024",
+      "locator": "PDF printed page 130, section 5-6-9",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports top-customer shares of total sales as 16%, 15%, and 12% for 2022, 2023, and 2024, respectively, without identifying the customer."
+    },
+    {
+      "source_id": "src-874bc9f66dc03039",
+      "title": "2026 Q2 Results Presentation",
+      "url": "https://www.intelliepi.com/tw/doc/mediaConf/PresesConfPresentation20260827.pdf",
+      "source_level": 3,
+      "publication_date": "2026-08-27",
+      "effective_period": "2021–2Q 2026",
+      "locator": "PDF slides 9–10, lines 140–165",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports product and application revenue mix, not named customers or customer-level revenue."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Reviewed issuer presentations, the issuer's supplier-award announcement, and the annual report. The historical relationship is supported, but the claim's period and the basis for calling Skyworks a major customer remain unresolved.",
+    "Historical supply evidence is not evidence that the relationship continued or remained material in later periods.",
+    "The annual report's top-customer percentage is a share of total sales, but the customer is unnamed; it cannot be attributed to Skyworks.",
+    "Application-market revenue mix is not customer revenue or customer rank."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4971/1195/hermes-attempt-1.stdout.txt"
+}

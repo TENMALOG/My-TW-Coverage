@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000414",
+  "claim_id": "6629:objective_ranking_or_market_share:011aa453e3809aa4",
+  "normalized_claim_hash": "011aa453e3809aa49a6cfc6e99061aa73fd197b87cd96417655856d27ebdb8e7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-90945331a0227f90e3d8",
+      "title": "Seamless Shopping: Inside Home Depot's Interconnected Retail Revolution",
+      "url": "https://corporate.homedepot.com/news/company/seamless-shopping-inside-home-depots-interconnected-retail-revolution",
+      "source_level": 3,
+      "publication_date": "2014-08-29",
+      "effective_period": "As stated at publication; the article says Home Depot had grown to the largest home improvement retailer in the United States.",
+      "locator": "Opening paragraph: “Since 1978, the brand has grown ... to the largest home improvement retailer in the United States.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer statement directly supports the U.S. ranking as a historical statement, but specifies no sales, store-count, market-share, or other ranking basis."
+    },
+    {
+      "source_id": "src-1c7899e89e59f82d867a",
+      "title": "The Home Depot, Inc. 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Fiscal 2025, ended 2026-02-01",
+      "locator": "Item 1, Business, Introduction: “world’s largest home improvement retailer based on net sales for fiscal 2025.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official filing; ranking is global and based on net sales, so it does not establish the claimed U.S.-specific ranking."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Stopped after focused primary-source searches and review. The available sources do not resolve the claim's unspecified period, U.S. ranking denominator, or the meaning of “mass retailer.”",
+    "The historical U.S. ranking source is an issuer statement and does not specify its comparison set or ranking metric.",
+    "The latest official ranking located is global and based on net sales, not a U.S.-only market denominator.",
+    "A Statista page surfaced in search results with a U.S. ranking, but direct extraction was blocked by a paywall; search snippets were not treated as evidence."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6629/414/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "23c6c97eeb0921697bb198c62e6f28c9df45819940ad1e4ccf7d4954cb6bedaf",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6629/414/isolated-prompt.txt",
+  "prompt_sha256": "6558b83d87a835e4e60536d914a0ed5a500b03c56acf8f9270ac8a99aedfdddf",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000414/manifest.json",
+  "supersedes_manifest_sha256": "405846c23e7960eedffef90fd10c5ab9912b9c8b5b746074914d4a4fe3f6f1c3",
+  "corrected_at": "2026-10-08T09:58:10Z"
+}

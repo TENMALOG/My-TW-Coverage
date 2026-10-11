@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001272",
+  "claim_id": "9931:material_named_relationship:9ee2a3f7848520f1",
+  "normalized_claim_hash": "9ee2a3f7848520f1f867d5cbb5cccc84c71cd446dfb5e4f5f38ce0bbf065de28",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-9c8aee951570b457",
+      "title": "CPC Corporation, Taiwan — official company profile in 2024 sustainability report",
+      "url": "https://ws.cpc.com.tw/Download.ashx?n=MjUwOTA1IOS4reayuTIwMjTmsLjnuozloLHlkYrmm7go5Lit5paH54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5ODkvMTExMTYzL2YxYjMyMTc2LTQ0YWEtNGE2ZS1iYjZlLTVmZTAxMGQxNDY0OS5wZGY%3D",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 company profile",
+      "locator": "Company name and company profile",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official CPC material gives both the Chinese legal name and English name CPC Corporation, Taiwan. ([ws.cpc.com.tw](https://ws.cpc.com.tw/Download.ashx?n=MjUwOTA1IOS4reayuTIwMjTmsLjnuozloLHlkYrmm7go5Lit5paH54mIKS5wZGY%3D&u=LzAwMS9VcGxvYWQvMy9yZWxmaWxlLzg5ODkvMTExMTYzL2YxYjMyMTc2LTQ0YWEtNGE2ZS1iYjZlLTVmZTAxMGQxNDY0OS5wZGY%3D&utm_source=openai))"
+    },
+    {
+      "source_id": "src-457937678c2a1dbb",
+      "title": "欣高公司114年(113年)年報",
+      "url": "https://www.hkgas.com.tw/FileList/%E6%AC%A3%E9%AB%98%E5%85%AC%E5%8F%B8114%E5%B9%B4%28113%E5%B9%B4%29%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Supplier data through 2025 Q1",
+      "locator": "Page 48, supplier table",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "No later dated supplier breakdown was located in this research. ([hkgas.com.tw](https://www.hkgas.com.tw/FileList/%E6%AC%A3%E9%AB%98%E5%85%AC%E5%8F%B8114%E5%B9%B4%28113%E5%B9%B4%29%E5%B9%B4%E5%A0%B1.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-3320b69621fa6038",
+      "title": "欣高石油氣股份有限公司 — 公司產品 / 主要原料之供應狀況",
+      "url": "https://www.hkgas.com.tw/product.aspx",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Section “三、主要原料之供應狀況”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The company describes CPC as its main source and mentions historical procurement from 欣雄石油氣 and mutual gas-support agreements with 欣雄 and 南鎮; this undated page does not establish current actual supply under those agreements. ([hkgas.com.tw](https://www.hkgas.com.tw/product.aspx?utm_source=openai))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches located the issuer’s official annual report with supplier data through 2025 Q1 and its official undated product page, but no later dated supplier evidence resolving exclusivity as of October 7, 2026.",
+    "The annual report presents supplier shares by net purchase amount, in NT$ thousands; it does not present shares by physical gas volume.",
+    "The “other” supplier category is not individually identified, and the cited report does not establish who it comprises.",
+    "The company product page is undated; its mention of historical alternative procurement and reciprocal support agreements does not establish actual current supply from those counterparties."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9931/1272/hermes-attempt-1.stdout.txt"
+}

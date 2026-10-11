@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001161",
+  "claim_id": "2537:identity_changing_event:eb039f3942a9c37c",
+  "normalized_claim_hash": "eb039f3942a9c37c677750134a1b5ba36bddccf6e931382a1d246054a131518c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-59270e1f8d15d31b821e",
+      "title": "聯上開發股份有限公司財務報告暨會計師查核報告（民國112年度及111年度）",
+      "url": "https://www.5v.com.tw/pdf/%E9%99%84%E4%BB%B69-112%E5%B9%B4%E5%BA%A6%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2024-03-13",
+      "effective_period": "Company-name history from establishment through 2008",
+      "locator": "附註一「公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer financial report states the company was originally 春池建設股份有限公司 and later became 春池開發股份有限公司, among other names."
+    },
+    {
+      "source_id": "src-29f307a8f0b74ac97449",
+      "title": "經濟部商工登記公示資料：聯上開發股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22659295",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2008-07-09 name-change registration",
+      "locator": "公司基本資料；097年07月09日變更名稱，前名稱：春池開發股份有限公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Government registry identifies 春池開發, not 春其開發, as the previous registered name."
+    },
+    {
+      "source_id": "src-f40090396b4c41949431",
+      "title": "經濟部商工登記公示資料：聯上開發股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/22659295",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2008-07-09 name-change registration",
+      "locator": "公司名稱及097年07月09日變更名稱紀錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Registry records the company name as 聯上開發股份有限公司 and the 2008 change from 春池開發股份有限公司."
+    },
+    {
+      "source_id": "src-cb7c368834b1e129dc44",
+      "title": "聯上開發股份有限公司財務報告暨會計師查核報告（民國112年度及111年度）",
+      "url": "https://www.5v.com.tw/pdf/%E9%99%84%E4%BB%B69-112%E5%B9%B4%E5%BA%A6%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A.pdf",
+      "source_level": 3,
+      "publication_date": "2024-03-13",
+      "effective_period": "2008 name-change decision",
+      "locator": "附註一「公司沿革」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer report says shareholders resolved on 2008-06-19 to change the name to 聯上開發股份有限公司."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Research complete: the issuer’s audited financial report and the MOEA company registry resolve the name history and the 2008 registered name change.",
+    "The issuer report gives the shareholder-resolution date (2008-06-19); the MOEA registry gives the registered name-change date (2008-07-09).",
+    "The report and registry identify legal company names. The claim’s 春其開發 and 聯上發 wording does not exactly match those names."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2537/1161/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "ebfa530bf5fd5785199e2bce00de91d2527890dd68c010dcd63f9ac49da6440b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2537/1161/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "0c53f10306062bdccda45cc39737b2086152a9333ed208bd92d265ef7a821be9",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001161/manifest.json",
+  "supersedes_manifest_sha256": "51fcb31ceed3cdc04d11b430628abea64dae9c084757cb1cf4807418a2285618",
+  "corrected_at": "2026-10-08T09:59:24Z"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001248",
+  "claim_id": "4904:material_named_relationship:82d2b1e647aca322",
+  "normalized_claim_hash": "82d2b1e647aca3223167998889f6230a1386577d83d6f871d6bbc5514f6aa63f",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b76be6195da7441b",
+      "title": "Far EasTone selects Ericsson for 5G",
+      "url": "https://news.cision.com/ericsson/r/far-eastone-selects-ericsson-for-5g,c3057778",
+      "source_level": 3,
+      "publication_date": "2020-03-13",
+      "effective_period": "5G RAN deployment across Far EasTone’s low-, mid-, and high-band spectrum assets; commercial service planned for summer 2020.",
+      "locator": "Lines 13–26, especially line 21.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Ericsson’s announcement says it was selected as Far EasTone’s 5G RAN vendor and that the deal spans those spectrum bands."
+    },
+    {
+      "source_id": "src-35d8901d00e682aa",
+      "title": "遠傳電信選擇愛立信 持續強化5G網路部署",
+      "url": "https://www.ericsson.com/zh-tw/press-releases/2021/3/far-eastone-taiwan-expands-exclusive-ericsson-5g-partnership",
+      "source_level": 3,
+      "publication_date": "2021-03-02",
+      "effective_period": "Dual-mode SA/NSA 5G core-network deployment announced in 2021.",
+      "locator": "Lines 366–380.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Identifies the dual-mode 5G Core solution and says Far EasTone commissioned Ericsson to expand NSA and add SA network capability."
+    },
+    {
+      "source_id": "src-fe806bbdda716114",
+      "title": "Far EasTone and Ericsson enter three-year strategic partnership to advance AI-ready, high-performing 5G in Taiwan",
+      "url": "https://www.ericsson.com/en/press-releases/2026/3/fet-and-ericsson-sign-three-year-strategic-agreement-to-accelerate-5g-advanced-cooperation-and-move-towards-ai-native-networks-and-6g-development",
+      "source_level": 3,
+      "publication_date": "2026-03-05",
+      "effective_period": "2026–2028.",
+      "locator": "Lines 43, 48, and 55.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Describes RAN and Core modernization and expansion of the deployed dual-mode 5G Core solution to additional sites."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found official evidence of Ericsson’s RAN and Core supplier relationships, including a 2026–2028 agreement. No evidence located defined or quantified “main supplier,” so that qualifier remains unresolved.",
+    "The key supplier and contract announcements are published by Ericsson, the vendor; the 2021 announcement also quotes Far EasTone’s president.",
+    "No source found in this review quantified supplier shares by base-station count, RAN capacity, core-network equipment, or spending.",
+    "The claim does not specify period or market scope. Public commercial mobile-network deployments and dedicated private 5G networks should not be conflated."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4904/1248/hermes-attempt-1.stdout.txt"
+}

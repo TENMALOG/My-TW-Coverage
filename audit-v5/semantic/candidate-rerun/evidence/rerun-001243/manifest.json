@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001243",
+  "claim_id": "2031:material_named_relationship:7b09467cb212b42e",
+  "normalized_claim_hash": "7b09467cb212b42e080ec32c11bc0b4fa85472fb93aac74847ca0f8f433eb9f2",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e419e4629404756f",
+      "title": "新光鋼鐵股份有限公司民國114年年報（2025 Annual Report）",
+      "url": "https://www.hkssteel.com.tw/download/fin/2026/sh_year.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-31（年報刊印日）",
+      "effective_period": "民國114年度（2025年）年報",
+      "locator": "「市場及產銷概況」>「市場未來之供需狀況」>「A.鋼板」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "證實有向中鋼採購鋼板，但該處未披露33%或可判定該比例的採購分母、單位及計算期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核公司官方年報及以中、英文關鍵詞檢索相關比例；找到採購關係證據，但未找到可核驗33%主張的期間與分母。",
+    "年報是公司一手披露，支持採購關係，但不是33%比例的證據。",
+    "未找到可靠來源能界定該比例的年份、採購範圍或計量單位。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2031/1243/hermes-attempt-1.stdout.txt"
+}

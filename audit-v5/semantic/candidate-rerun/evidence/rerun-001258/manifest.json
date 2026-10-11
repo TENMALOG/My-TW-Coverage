@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001258",
+  "claim_id": "1439:identity_changing_event:d6f665a3737f770e",
+  "normalized_claim_hash": "d6f665a3737f770e93942b965bd0ecf8259e9c19b08d078d515d9db2e485bc0c",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-c053c4ea4697e1ee",
+      "title": "雋揚國際股份有限公司：公司沿革",
+      "url": "https://www.ascentglobal.com.tw/about/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2022年；2023年產業分類變更",
+      "locator": "公司沿革，2022及2023年條目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "2022年條目載明轉型為不動產開發業並更名；2023年條目另載上市產業分類變更。"
+    },
+    {
+      "source_id": "src-c00d37f81fc340b7",
+      "title": "經濟部商工登記公示資料：雋揚國際股份有限公司",
+      "url": "https://findbiz.nat.gov.tw/fts/company/11113403",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "更名紀錄日期：2022-07-12",
+      "locator": "公司名稱變更紀錄",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "登記記載2022年7月12日由中和羊毛工業股份有限公司變更名稱。"
+    },
+    {
+      "source_id": "src-e7e3711278c6b2d1",
+      "title": "雋揚國際股份有限公司：首頁公司簡介",
+      "url": "https://www.ascentglobal.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司歷史概述；未明確界定期間",
+      "locator": "首頁頁尾公司簡介",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "自述前身為羊毛產業上游廠商，但未提供國內排名或市場占比。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核發行人公司沿革、公司簡介及經濟部公司登記資料；未找到能證實「國內主要」之排名或市場比較證據，故該原子主張仍為 UNKNOWN。",
+    "公司沿革及公司簡介屬發行人自述；登記機關資料可獨立佐證名稱及更名日期。",
+    "「國內主要」涉及相對市場地位，但目前來源未提供排名依據、比較期間或市場分母。",
+    "公司網站將2022年描述為轉型為不動產開發業；上市產業分類改為建材營造業則記載於2023年，兩者不應混為一談。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1439/1258/hermes-attempt-1.stdout.txt"
+}

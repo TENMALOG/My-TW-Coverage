@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000553",
+  "claim_id": "2455:objective_ranking_or_market_share:c7875bcac9220f55",
+  "normalized_claim_hash": "c7875bcac9220f55a73320231ab9ead104ec7f1785ab1d8b95f77c5aa6c9415f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-28ec3b04534eb5aa",
+      "title": "VPEC rises as top GaAs epiwafer supplier",
+      "url": "https://www.digitimes.com/news/a20211012PD201.html",
+      "source_level": 2,
+      "publication_date": "2021-10-12",
+      "effective_period": "Reported in 2021; underlying market-share measurement period not specified.",
+      "locator": "DIGITIMES article listing and lead; full article is paywalled.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reports VPEC as the world's top GaAs epiwafer supplier, with market share surpassing British peer IQE by 14–15%, citing industry sources. No denominator or market-share calculation is disclosed."
+    },
+    {
+      "source_id": "src-4c59970c9c324758",
+      "title": "全新光電(2455) 1月營收創高只是開始？1.6T放量前的關鍵變數",
+      "url": "https://uanalyze.com.tw/articles/2293048243",
+      "source_level": 2,
+      "publication_date": "2026-03-02",
+      "effective_period": "Report published 2026-03-02; underlying capacity-share measurement date not specified.",
+      "locator": "Section “InP需求進入爆發期,” paragraph beginning “以 GaAs 磊晶產能計算”.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Later report gives a different ranking on a capacity basis: VPEC second at about 26%, IQE first at about 53%. This is not directly comparable to DIGITIMES's undisclosed market-share measure."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused research found a 2021 report supporting historical leadership and a 2026 capacity-based report ranking VPEC second. The periods and market-share bases are not comparable, leaving the unqualified/current leadership claim unresolved.",
+    "No comparable official issuer or regulator disclosure establishing a global GaAs epitaxy supplier ranking or market-share denominator was located.",
+    "The 2021 DIGITIMES report is secondary and paywalled; the accessible listing does not provide the underlying measurement period or methodology.",
+    "The 2026 UAnalyze report gives a capacity-based estimate, not a comparable disclosed market-share measure, and does not specify its full denominator or measurement date."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2455/553/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000543",
+  "claim_id": "3587:objective_ranking_or_market_share:807d8b6094e488c5",
+  "normalized_claim_hash": "807d8b6094e488c57b853a2f108daf736ffc2786ecf7aff817c1442c1c9bfdd7",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e7207e6ca02d18d445be",
+      "title": "MA-tek follows big clients as it expands",
+      "url": "https://taipeitimes.com/News/biz/archives/2023/10/09/2003807399",
+      "source_level": 2,
+      "publication_date": "2023-10-09",
+      "effective_period": "2023年10月受訪時",
+      "locator": "正文段落：'The chairwoman said that the Kumamoto lab is for MA-tek’s biggest client, Taiwan Semiconductor Manufacturing Co (TSMC...)'",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述閎康董事長，直接稱台積電為閎康最大客戶；未揭露排名計量方式或客戶營收分母。"
+    },
+    {
+      "source_id": "src-41afbd771f6975f81c6d",
+      "title": "MA-tek follows big clients as it expands",
+      "url": "https://taipeitimes.com/News/biz/archives/2023/10/09/2003807399",
+      "source_level": 2,
+      "publication_date": "2023-10-09",
+      "effective_period": "熊本實驗室於2023年9月開幕；報導於2023年10月刊出",
+      "locator": "正文段落：'The opening of MA-tek’s lab in Kumamoto last month'；其後段落稱該實驗室是為台積電設立，台積電選擇熊本作為日本製造基地",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社專訪報導閎康董事長的說明，支持實驗室設立目的與台積電熊本據點的關聯。"
+    },
+    {
+      "source_id": "src-71e1dd902c58da9e8d21",
+      "title": "Japan, local demand boost MA-tek",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2024/01/09/2003811808",
+      "source_level": 2,
+      "publication_date": "2024-01-09",
+      "effective_period": "熊本實驗室於2023年9月啟用；報導描述2024年初狀況",
+      "locator": "正文段落：'The lab was launched in September last year in Kumamoto, where its major customer TSMC ... is to launch its first Japanese fab next month.'；下一段：'Materials Analysis usually sets up labs close to its customers’ plants to ensure immediate service and support with cost efficiency.'",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持熊本實驗室所在地、台積電熊本廠關聯及閎康以鄰近客戶廠提供即時服務的做法；未量化距離或服務時效。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到2023年中央社專訪的同時期直接引述，以及2024年對實驗室啟用與就近服務方式的報導，足以支持候選主張；未用滿8輪。客戶排名的計量指標未公開，交由最終裁決確認其是否符合所需排名口徑。",
+    "最大客戶的依據來自董事長受訪陳述，並非公開的客戶營收排名或經查證的占比資料；排名指標及精確客戶範圍未披露。",
+    "證據支持的是2023年受訪時的客戶排序及熊本實驗室設立情形，不應延伸為目前仍是最大客戶。",
+    "就近服務的支持為質性描述；來源沒有實際距離、案件量或交期數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3587/543/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "2fc6eb90b6be00a047ec4849bf4c2e1f5acac0e19b80e96a34ab467ebecf9142",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/3587/543/isolated-prompt.txt",
+  "prompt_sha256": "4e0ddfaa24d9ca132818a182e3da7912dd123d15854d4651120beb9d413dc48e",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000543/manifest.json",
+  "supersedes_manifest_sha256": "c37a8abb9dfe8f34949fd5f147750698013f5f4a64a32c7eaa5adf34c53bf0de",
+  "corrected_at": "2026-10-08T09:58:21Z"
+}

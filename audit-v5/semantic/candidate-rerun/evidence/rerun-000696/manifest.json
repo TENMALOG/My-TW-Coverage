@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000696",
+  "claim_id": "4739:objective_ranking_or_market_share:a8d39b69c3670ca4",
+  "normalized_claim_hash": "a8d39b69c3670ca41f4ea1ee0e0dcdf12b386b3331939ad2438587004bd08f16",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-98abdd8400c1a6b5",
+      "title": "氧化觸媒－康普材料科技",
+      "url": "https://www.coremaxcorp.com/zh-tw/catalyst",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品服務／氧化觸媒；產品用途說明及產品表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面列明多種氧化觸媒用於生產 PTA 等產品。"
+    },
+    {
+      "source_id": "src-c3d272851c48715a",
+      "title": "康普材料科技股份有限公司－MoneyDJ理財網",
+      "url": "https://www.moneydj.com/kmdj/wiki/wikiviewer.aspx?keyid=12de1969-3cb1-47db-b88e-1d0a58eec4e1",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "國內外競爭廠商；PTA氧化觸媒項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出美琪瑪為競爭對象，但未提供康普市佔率、排名或市場分母。"
+    },
+    {
+      "source_id": "src-8f0175d97290527a",
+      "title": "4739 康普年報查詢－歷年年報、營收分布及致股東報告書",
+      "url": "https://treelazy.com/stock/4739",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "民國114年度（2025）股東報告內容",
+      "locator": "致股東報告－114年度；氧化觸媒段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載內容稱中國業者擴產擠壓部分原台廠供應市場；未量化康普市佔率，也不足以證明或否定其市佔率「高」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "研究工具迭代上限已達，依要求停止；市佔率 atom 仍缺少有明確市場範圍、期間及分母的可靠證據。",
+    "康普官方產品頁可佐證產品用途，不能佐證市場地位。",
+    "市場份額相關資料未界定市場範圍、期間、分母或「高」的判定標準。",
+    "第三方資料提及競爭者及供應市場變化，但未提供足以核實康普市佔率的數據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4739/696/hermes-attempt-1.stdout.txt"
+}

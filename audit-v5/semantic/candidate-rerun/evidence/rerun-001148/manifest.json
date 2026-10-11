@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001148",
+  "claim_id": "1532:material_named_relationship:f2fd37357c35dea2",
+  "normalized_claim_hash": "f2fd37357c35dea253d8c918383cb7ed78f9e18da7710dc38ad3a6043304245a",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-330735cc5e521333",
+      "title": "勤美 2025-11-26 投資者簡報，金屬成型事業—國際級客戶",
+      "url": "https://www.cmp.com.tw/uimg/legal/20251124104151978.pdf",
+      "source_level": 3,
+      "publication_date": "2025-11-26（簡報標題日期；檔名日期為 2025-11-24）",
+      "effective_period": "簡報所示客戶名單；未明示合約期間",
+      "locator": "第 2 頁，「Auto parts customers」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出 ADVICS。 ([cmp.com.tw](https://www.cmp.com.tw/uimg/legal/20251124104151978.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-65ef093f9c93b96e",
+      "title": "勤美公司沿革／公司簡介",
+      "url": "https://www.cmp.com.tw/cht/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "頁面列有 2026 年 Bosch Rexroth 獎項",
+      "locator": "CMS 獲 Bosch Rexroth 獎項的公司沿革記載",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "所指為 Bosch Rexroth，不能替代 Bosch 汽車業務的直接供應證據。 ([cmp.com.tw](https://www.cmp.com.tw/en/about?utm_source=openai))"
+    },
+    {
+      "source_id": "src-453ceda3f17031c8",
+      "title": "勤美 2025 永續報告書",
+      "url": "https://www.cmp.com.tw/uimg/responsibilityreport/20250815040312619.pdf",
+      "source_level": 3,
+      "publication_date": "2025-08-15（檔名日期）",
+      "effective_period": "2024 年獎項",
+      "locator": "「顧客服務」績效評估，Knorr 2024 年優秀供應商獎項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告載有 Knorr 頒發的供應商獎項。 ([cmp.com.tw](https://www.cmp.com.tw/uimg/responsibilityreport/20250815040312619.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-9e4c72c1b78e24d2",
+      "title": "勤美 2024 年報",
+      "url": "https://cmp.com.tw/uimg/report/20250626100446481.pdf",
+      "source_level": 3,
+      "publication_date": "2025-06-26（檔名日期）",
+      "effective_period": "112 年度，即 2023 年獎項",
+      "locator": "年度獎項清單，ADVICS（廣州）汽車零部件有限公司頒發的特別貢獻獎",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "佐證相關商業往來，但獎項本身未詳述供貨內容。 ([cmp.com.tw](https://cmp.com.tw/uimg/report/20250626100446481.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-81a86e424813843a",
+      "title": "勤美 2023 永續報告書（英文版）",
+      "url": "https://cmp.com.tw/uimg/responsibilityreport/20241029100347187_en.pdf",
+      "source_level": 3,
+      "publication_date": "2024-10-29（檔名日期）",
+      "effective_period": null,
+      "locator": "CMS 研發成果表中的 Bosch 產品／製程項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "項目名稱不足以確認向 Bosch 汽車事業供貨。 ([cmp.com.tw](https://cmp.com.tw/uimg/responsibilityreport/20241029100347187_en.pdf?utm_source=openai))"
+    },
+    {
+      "source_id": "src-f7359abeaf30f923",
+      "title": "勤美 2022-09-21 法人說明會簡報",
+      "url": "https://www.cmp.com.tw/uimg/legal/20220912095449560.pdf",
+      "source_level": 3,
+      "publication_date": "2022-09-21（簡報標題日期）",
+      "effective_period": "2022 年簡報中的供應鏈示意",
+      "locator": "「汽車產業結構」頁：Tier 1 供應商示例與勤美 Tier 1／Tier 2 資格說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "此圖解說明產業層級及勤美資格，未逐一確認原句列出的客戶與勤美之供應關係或完整 Tier 分類。 ([cmp.com.tw](https://www.cmp.com.tw/uimg/legal/20220912095449560.pdf?utm_source=openai))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪官方簡報、年報、永續報告及公司沿革查核；Bosch 直接供貨關係與五家客戶的完整 Tier 1 分類仍缺少明確證據，故保留為 UNKNOWN。",
+    "客戶名單為發行人簡報中的自我揭露；未提供客戶合約期間、供貨產品、數量或各法律實體的具體供貨範圍。",
+    "Bosch 未出現在該次汽車零部件客戶名單中；這一缺漏不代表 Bosch 不是客戶。",
+    "勤美 2026-05-26 簡報也有「Auto parts customers」類別，但可檢索摘錄未列出具名客戶，不能據此更新各個名字的證據。 ([cmp.com.tw](https://www.cmp.com.tw/uimg/legal/20260521104504416.pdf?utm_source=openai))",
+    "Tier 1 分類證據未涵蓋原句列出的全部公司；勤美自身具 Tier 1／Tier 2 資格，不等於名單中的公司均是勤美的 Tier 1 客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1532/1148/hermes-attempt-1.stdout.txt"
+}

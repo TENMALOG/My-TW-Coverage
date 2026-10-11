@@ -1,0 +1,81 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000009",
+  "claim_id": "2610:objective_ranking_or_market_share:a74fba6da2dc6742",
+  "normalized_claim_hash": "a74fba6da2dc67426c18e6b7fe033c260feb69b0ab1b85ff9ed40857a8898807",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "china-airlines-company-profile-current",
+      "title": "團隊組織 - 中華航空",
+      "url": "https://www.china-airlines.com/nz/zh/about-china-airlines/about-us/organization",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "華航現行公司頁，2026-10-06檢視。",
+      "locator": "頁面列「創始：1959年12月16日」；沒有台灣其他國籍航空的比較表。",
+      "source_sha256": null,
+      "raw_path": null,
+      "note": "公司現行頁可支持創立日期；頁面本身不支持「歷史最悠久」比較。網頁內容透過直接開啟來源檢視；網站拒絕本地原始HTML下載。"
+    },
+    {
+      "source_id": "china-airlines-skyteam-anniversary-2026",
+      "title": "華航加入天合聯盟 15 週年 全球布局再啟新篇章 - 中華航空",
+      "url": "https://www.china-airlines.com/us/zh/about-china-airlines/media/news/20260916",
+      "source_level": 3,
+      "publication_date": "2026-09-16",
+      "effective_period": "2026新聞稿回顧華航2011年加入SkyTeam；並稱加入15週年。",
+      "locator": "新聞稿正文：華航2011年正式加入天合聯盟，並為台灣首家加入國際航空聯盟的業者。",
+      "source_sha256": null,
+      "raw_path": null,
+      "note": "華航官方新聞稿直接支持其2011年加入天合聯盟；網站拒絕本地原始HTML下載，網頁內容由直接開啟來源檢視。"
+    },
+    {
+      "source_id": "caa-national-airline-statistics-2025",
+      "title": "國籍航空公司全球航線客貨運概況 - 交通部民用航空局",
+      "url": "https://www.caa.gov.tw/article.aspx?a=1738&lang=1",
+      "source_level": 1,
+      "publication_date": "統計檔114年度資料於2026-01-26更新；頁面2026-09-29更新。",
+      "effective_period": "2025年度國籍航空全球航線營運資料。",
+      "locator": "民航局官方統計頁提供114年統計下載；相應2025年資料被華信／星宇2025年報引用，該表列華航、長榮等航空公司的班次、載客數及貨運噸數。",
+      "source_sha256": "5aa2e1a577e2c94063a089bd5c0c86b98c485818854aae475e3c51c4a7a18412",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2610/caa-national-airline-traffic-statistics-2025.html",
+      "note": "監理機關統計來源。直接附件已保存；附件為本地PDF，頁面載明其114年統計檔。"
+    },
+    {
+      "source_id": "caa-2025-national-airline-traffic-pdf",
+      "title": "114年國籍航空公司全球航線客貨運概況（民航局統計附件）",
+      "url": "https://www.caa.gov.tw/FileAtt.ashx?id=39622&lang=1",
+      "source_level": 1,
+      "publication_date": "2026-01-26（民航局頁面標示最後更新日）",
+      "effective_period": "2025年度國籍航空全球航線客貨運統計。",
+      "locator": "民航局「國籍航空公司全球航線客貨運概況」頁114年度項目之PDF附件；2025年報引用的統計值為華航68,884班、載客11,419,585人、貨運1,266,861公噸；長榮65,012班、載客13,326,018人、貨運844,932公噸。",
+      "source_sha256": "8d13d789a8c16b18844e7cfbbd1410c617cc22bc41f24f4c5c37bce4fa65ecba",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2610/caa-2025-national-airlines.pdf",
+      "note": "民航局發布的原始統計PDF；表列多種可衡量規模的營運數據，各指標領先者不同。"
+    },
+    {
+      "source_id": "starlux-2025-annual-report-caa-table",
+      "title": "STARLUX Airlines 2025 Annual Report",
+      "url": "https://webassets2.starlux-airlines.com/en-TW/Images/260508-%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA2025%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E7%89%88%29-V2_tcm14-15751.pdf",
+      "source_level": 2,
+      "publication_date": "2026（報告封面標示2025年度年報）",
+      "effective_period": "報告第86頁引用的2025年國籍航空客貨運統計。",
+      "locator": "PDF印刷頁86、章節「Overview of Passenger and Cargo Traffic of International and Cross-Strait Routes by National Airlines」：列華航和長榮的班次、旅客數、貨運噸數；表尾註明來源為民航局2025年12月統計報告。",
+      "source_sha256": "c46b1cbdaf4ae85e4e4a87c3d2c389ff0b78298d389f5cfbb4c997ac4cd28ba6",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2610/starlux-2025-annual-report.pdf",
+      "note": "上市航空公司年報引用民航局統計，作為讀取及交叉定位統計表的secondary reproduction；原始監理資料仍列為主要證據。"
+    }
+  ],
+  "search_notes": [
+    "華航現行公司頁列創立日為1959-12-16；這確認成立日期，但來源沒有與所有國籍航空比較成立時間。「歷史最悠久」仍有「國籍航空」及營運者範圍定義問題，故不直接由公司自述推排名。",
+    "華航2026-09-16新聞稿回顧2011年正式加入天合聯盟，並於2026年慶祝15週年。",
+    "民航局2025年統計及其在星宇航空2025年年報第86頁所引用表格顯示，華航班次68,884高於長榮65,012、貨運量1,266,861噸高於844,932噸；但華航載客11,419,585人低於長榮13,326,018人。故未定義「規模」時無法將其視為不依賴指標的最大排名。"
+  ],
+  "excluded_sources": [
+    {
+      "title": "華航公司沿革",
+      "url": "https://www.china-airlines.com/tw/zh/about-china-airlines/about-us/company-history",
+      "reason": "僅記錄華航自身歷史，不包含台灣國籍航空比較名單或成立時間排序；可支持公司自身成立資訊，不能單獨證明「歷史最悠久」。"
+    }
+  ]
+}

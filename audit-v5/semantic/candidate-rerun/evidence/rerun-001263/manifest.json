@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001263",
+  "claim_id": "4439:material_named_relationship:d5603ffd5698f3d8",
+  "normalized_claim_hash": "d5603ffd5698f3d8d56ab655c0bab27cff96c84080a72f0cd260d8a88902a499",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-7f51e72e27ff07e1",
+      "title": "Taiwan Stock Exchange Corp., TST Group Holding Ltd. company profile",
+      "url": "https://wwwc.twse.com.tw/pdf/en/4439_en.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "公司資料生成日期 2026-08-26",
+      "locator": "PDF p.1，Main Business",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "較新的公司資料仍列 Li Ning 為指定布料品牌。"
+    },
+    {
+      "source_id": "src-a44f0488f3bf01e9",
+      "title": "冠星-KY今以每股158元掛牌上市；明年續拚成長，MoneyDJ",
+      "url": "https://m.moneydj.com/f1a.aspx?a=%7Ba5df593f-7adc-4b09-b0ae-93c6193205bf%7D",
+      "source_level": 2,
+      "publication_date": "2019-12-05",
+      "effective_period": "報導截至 2019 年稱與李寧合作約 15 年",
+      "locator": "內文第 128 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導記載與李寧合作約 15 年。"
+    },
+    {
+      "source_id": "src-51de3fcfe87bb19e",
+      "title": "冠星通過配息4元 看好世足效應激勵今年營運，中央社",
+      "url": "https://www.cna.com.tw/news/afe/202606170045.aspx",
+      "source_level": 2,
+      "publication_date": "2026-06-17",
+      "effective_period": "報導稱截至 2026-06-17 合作逾 15 年",
+      "locator": "第 290–292 行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導引述董事長稱 GAP 合作逾 15 年，並稱冠星為 GAP 集團短纖面料最大供應商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成最多 8 個聚焦研究回合。公司 PDF 擷取失敗，且無可用證據確認 adidas 的正式 Key Supplier 稱號；該原子主張保留 UNKNOWN。",
+    "指定布料供應關係不等於 adidas 正式授予全球核心供應商或 Key Supplier 稱號。",
+    "adidas、PUMA、Decathlon、Li Ning 的合作年限依據 2019 年次級報導；較新的證交所資料確認品牌仍列於公司資料，但未更新各品牌合作年限。",
+    "已嘗試查閱公司 PDF 報告，但可用擷取工具無法取得其全文；未將搜尋摘要當作已核實的來源證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4439/1263/hermes-attempt-1.stdout.txt"
+}

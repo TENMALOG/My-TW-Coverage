@@ -1,0 +1,38 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000016",
+  "claim_id": "1476:objective_ranking_or_market_share:f6132ace76c9ad00",
+  "normalized_claim_hash": "f6132ace76c9ad00b18790c3769665dd32d3b7d06de5625f7afdf1c63e1504ef",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "eclat-2025-annual-report",
+      "title": "Eclat Textile Co., Ltd. 2025 Annual Report",
+      "url": "https://eclatglobal.s3.amazonaws.com/uploads/2026/05/2025_eclat_Annual-Report_en.pdf",
+      "source_level": 2,
+      "publication_date": "2026-05",
+      "effective_period": "2025年度銷售金額；年度報告截至114年度。",
+      "locator": "PDF第120頁／印刷頁117，第4.2.4節「Name of Customers Accounted for More Than 10%」：2025年列示客戶A營收NT$6,244,893千元、占16.44%；客戶B占9.09%。客戶名稱以A/B代碼匿名化，未將A對應至Nike。",
+      "source_sha256": "a490310f9890dc7cdeab7b804260e7028f9e4837d711ac272e7e0c615b2ef323",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1476-eclat-2025-annual-report.pdf",
+      "note": "發行人官網提供的正式年報。數字支持一名匿名最大客戶的披露比例；不能識別客戶A的真實名稱。"
+    },
+    {
+      "source_id": "eclat-nike-customer-2024",
+      "title": "營收破 300 億、Nike 和 Lululemon 都是客戶！紡織大王儒鴻 46 年來未曾虧損的祕訣是？",
+      "url": "https://www.eclat.com.tw/zh-tw/newsroom/unlocking-eclats-secret-to-business-success-chinese/",
+      "source_level": 3,
+      "publication_date": "2024-03-07",
+      "effective_period": "公司官網2024-03-07刊載文章所述客戶關係。",
+      "locator": "文章標題及導言明確稱Nike、Lululemon為儒鴻客戶；沒有說明Nike是最大客戶或其營收排名。",
+      "source_sha256": "1b5fd37fbb6d0a6e22a1c8f80e861bd3552d8eb5a00b9856c96b7ef9ec1fefc2",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/1476/eclat-nike-customer-article.html",
+      "note": "發行人官網刊載文章支持Nike為儒鴻客戶；此頁不提供客戶營收排名。"
+    }
+  ],
+  "search_notes": [
+    "檢視儒鴻官網提供的2025年報及公司2024年官網客戶文章。",
+    "2025年報以A、B代碼揭露超過門檻的客戶，A在2025年占營收16.44%，但名稱匿名；公司官網材料確認Nike為客戶，卻沒有將Nike連結至匿名客戶A。",
+    "不能因Nike是客戶或匿名客戶A占比最高，就推定Nike就是最大客戶；故最大客戶身份保留UNKNOWN。"
+  ]
+}

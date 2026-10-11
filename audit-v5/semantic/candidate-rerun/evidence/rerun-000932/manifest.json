@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000932",
+  "claim_id": "3694:material_named_relationship:dadb426643e6fced",
+  "normalized_claim_hash": "dadb426643e6fced0d5f9bb71030656c8482ec0cc97b0cd5906a57a5dc527585",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2b8c13cb1b48a5f1",
+      "title": "海華科技114年度年報（TWSE電子資料查詢）",
+      "url": "https://doc.twse.com.tw/server-java/t57sb01?co_id=3694&colorchg=1&filename=2025_3694_20260616F04.pdf&kind=F&step=9",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "股東報告書「研究發展方面」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持送樣及穿戴裝置應用布局，不支持「已強勢切入核心供應鏈」這一更強結論。"
+    },
+    {
+      "source_id": "src-136322da842b7205",
+      "title": "海華（3694）年報查詢—114年度股東報告內容",
+      "url": "https://treelazy.com/stock/3694",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "2025年度；含2026年展望",
+      "locator": "頁面「致股東報告—114年度」及年報下載區",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "轉載年報內容；頁面列明其資料來源包括公開資訊觀測站及公司公開申報資料。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成本輪來源核驗並停止；可靠披露支持非PC應用拓展與智慧眼鏡／穿戴裝置送樣，但三星、LG供貨關係、匿名外資採用及核心供應鏈地位仍缺乏足以確認的證據。",
+    "TWSE年報查詢頁可定位海華114年度年報，但本次工具無法直接讀取其PDF；年報相關文字可在年報查詢頁的轉載內容中核對。",
+    "公司披露的「送樣」不等同量產、設計定點或核心供應商資格。",
+    "「市場盛傳」及未具名外資客戶主張未找到可靠來源；未披露不構成反證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3694/932/hermes-attempt-1.stdout.txt"
+}

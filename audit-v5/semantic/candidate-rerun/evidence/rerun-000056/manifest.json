@@ -1,0 +1,96 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000056",
+  "claim_id": "2245:objective_ranking_or_market_share:7ade1b140810fe09",
+  "normalized_claim_hash": "7ade1b140810fe09db8e832ea6d2108522ddfe180b4b1e36272c4f8e8fd3af50",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b1be4d4d26efcbf7",
+      "title": "成熟企業再精進，用系統強化經營體質",
+      "url": "https://www.digiwin.com.tw/case/996.html",
+      "source_level": 2,
+      "publication_date": "2018-10-16",
+      "effective_period": "截至報導日；涵蓋期間未明",
+      "locator": "「眾多知名汽車零配件公司的靈魂供應商」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "只列出公司名稱，未提供客戶別營收或重要性門檻。"
+    },
+    {
+      "source_id": "src-16243b7dd09ce796",
+      "title": "2025 Form 10-K, Standard Motor Products, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/93389/000009338926000012/smp-20251231.htm",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2025-12-31的財年",
+      "locator": "Item 1, Business；北美售後市場銷售與客戶／分銷通路說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方申報文件可確認 SMP 的業務及通路描述，但沒有證實「北美最大 AM 經銷商」排名。"
+    },
+    {
+      "source_id": "src-dd794f81754f122f",
+      "title": "Tenneco Announces Close Of Federal-Mogul Acquisition",
+      "url": "https://www.tenneco.com/news-and-features/newsroom/archive/2018/10/tenneco-announces-close-of-federal-mogul-acquisition",
+      "source_level": 3,
+      "publication_date": "2018-10-01",
+      "effective_period": "2018-10-01 起",
+      "locator": "公告正文：完成 Federal-Mogul 收購；末段重申收購完成日期",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Tenneco 官方公告。"
+    },
+    {
+      "source_id": "src-34cdb602393d52c8",
+      "title": "Tenneco Inc. Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1024725/000119312518289580/d612356d8k.htm",
+      "source_level": 3,
+      "publication_date": "2018-10-01",
+      "effective_period": "2018-10-01 起",
+      "locator": "Item 1.01；記載 Federal-Mogul 併入 Tenneco、Tenneco 為存續公司",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "SEC 官方申報文件。"
+    },
+    {
+      "source_id": "src-6637f0aa192a5c2a",
+      "title": "BorgWarner to Showcase Expanded Aftermarket Portfolio and Unified Customer Offering at Automechanika Frankfurt 2026",
+      "url": "https://www.borgwarner.com/newsroom/press-releases/2026/09/10/borgwarner-to-showcase-expanded-aftermarket-portfolio-and-unified-customer-offering-at-automechanika-frankfurt-2026",
+      "source_level": 3,
+      "publication_date": "2026-09-10",
+      "effective_period": "公告所述2026年品牌及分銷權狀態",
+      "locator": "公告中 BERU 段落：稱品牌相關分銷權已完整回歸，並稱完整品牌所有權再次確立",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "BorgWarner 官方公告；描述品牌權利與品牌定位，未詳述公司法律實體結構。"
+    },
+    {
+      "source_id": "src-25ba694c350fd457",
+      "title": "BorgWarner Agrees to Sell Spark Plug Business to Federal-Mogul",
+      "url": "https://www.borgwarner.com/docs/default-source/press-release-downloads/2012-07-02-borgwarner-agrees-to-sell-spark-plug-business-to-federal-mogul.pdf?sfvrsn=4",
+      "source_level": 3,
+      "publication_date": "2012-07-02",
+      "effective_period": "2012年宣布出售 BERU 業務中的火星塞部分；交易完成時間未由此來源確定",
+      "locator": "公告正文：出售火星塞業務，並稱該業務為2005年收購 BERU 業務的一小部分；BorgWarner 將繼續發展 BERU Systems 核心產品",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方公告顯示 BERU 業務曾拆分，故品牌歸屬須附帶範圍與期間。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦搜尋；未找到可證實 SMP 北美 AM 經銷商排名或詠勝昌各客戶「主要」程度的可靠量化資料，相關原子維持 UNKNOWN。",
+    "詠勝昌客戶關係的依據是鼎新數智2018年案例報導，屬二手來源，並非詠勝昌申報文件或客戶確認；它未披露客戶別銷售額或「主要客戶」門檻。",
+    "SMP「北美最大 AM 經銷商」缺少排名期間、AM 市場界定、比較指標及分母；官方年報中的業務與通路描述不能替代該排名的證據。",
+    "Tenneco 收購 Federal-Mogul 的證據確認2018年的收購及併入，不應解讀為 Federal-Mogul 仍以獨立法律實體存在。",
+    "BERU 的歸屬需按品牌權利及期間理解：BorgWarner 2012年公告曾出售部分火星塞業務，而2026年公告稱品牌相關權利已完整回歸。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2245/56/hermes-attempt-1.stdout.txt"
+}

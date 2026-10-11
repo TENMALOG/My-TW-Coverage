@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000588",
+  "claim_id": "2458:objective_ranking_or_market_share:16cff6fcb439c815",
+  "normalized_claim_hash": "16cff6fcb439c815df5756199fd399dfd1e46a83c013bd05a8a127936e703028",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-298b65d3c856946859d7",
+      "title": "義隆電子2024永續報告書",
+      "url": "https://www.emc.com.tw/upload/2025_08_11/2024_ESG_tw_20250811.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "報告揭露期間為2024年1月1日至12月31日",
+      "locator": "第44–45頁，4.3「已銷售產品對世界趨勢的主要貢獻」及筆電應用智慧輸入方案圖",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報告稱觸控板模組等三項產品名列全球第一；方案圖將 Touchpad Module 標為 WORLD WIDE #1。"
+    },
+    {
+      "source_id": "src-fe0953ea546f3218814e",
+      "title": "義隆電子股份有限公司113年度年報",
+      "url": "https://www.emc.com.tw/upload/2025_11_25/%E7%BE%A9%E9%9A%86113%E5%B9%B4%E5%A0%B1_TWN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年產品開發成果；2025年度營業計畫",
+      "locator": "股東報告書第1–2頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載2024年完成應用於AI PC的指紋辨識方案，並稱2025年持續拓展AI晶片應用、與客戶積極開發AI PC市場。"
+    },
+    {
+      "source_id": "src-7739aa27040208da6837",
+      "title": "義隆電子股份有限公司113年度年報",
+      "url": "https://www.emc.com.tw/upload/2025_11_25/%E7%BE%A9%E9%9A%86113%E5%B9%B4%E5%A0%B1_TWN.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024年產品開發成果；2025年度營業計畫",
+      "locator": "股東報告書第1–2頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載2024年完成應用於車用顯示器的觸控驅動整合晶片，及2025年車用顯示器觸控整合方案開發計畫。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到義隆官方永續報告及年報，逐項支持排名披露與兩項市場布局；沒有剩餘未解原子主張。",
+    "全球第一的依據為公司永續報告中的自述排名；報告未披露市佔率百分比、排名方法或量化分母。",
+    "AI PC與車用觸控布局由公司年報所述產品開發成果及計畫支持，屬定性證據，並不代表已披露相關市場營收或市佔率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2458/588/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-006",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "018ab69b05418af5a07bf75c798f4e92f0d42909f10080ccb17324cdf7fd3aec",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2458/588/isolated-prompt.txt",
+  "prompt_sha256": "eb5593d888db46c57bc713d078313ed8950435ffd152fe34e9cd77770432cd3c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000588/manifest.json",
+  "supersedes_manifest_sha256": "cc7e253d083db9c4311ec9a196e35fb9eeacc09503b2244de96d39ef3ff9472d",
+  "corrected_at": "2026-10-08T09:58:25Z"
+}

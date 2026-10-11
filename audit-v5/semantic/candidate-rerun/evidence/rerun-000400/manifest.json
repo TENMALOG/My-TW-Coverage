@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000400",
+  "claim_id": "9910:objective_ranking_or_market_share:da42301dd92043d2",
+  "normalized_claim_hash": "da42301dd92043d2d99cb530b5e0bfc229aa4add8717da08d11e627f0655b1ee",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f1ff0c26c2f34ded",
+      "title": "About - 集團簡介-豐泰企業股份有限公司",
+      "url": "https://www.fengtay.com/tw/about/detail/%E9%9B%86%E5%9C%98%E7%B0%A1%E4%BB%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "R&D paragraph, phrase「致力於產品結構、設計、材料、製程、模具…等各領域的突破」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Directly supports the listed fields and stated commitment to breakthroughs."
+    },
+    {
+      "source_id": "src-f8a572d13b3c3d41",
+      "title": "Feng Tay Enterprise Co., Ltd.",
+      "url": "https://asia.nikkei.com/Companies/Feng-Tay-Enterprise-Co.-Ltd",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "1992",
+      "locator": "Company Background paragraph describing the 1992 center",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Nikkei likewise qualifies the first as the first facility of its kind in Asia for Nike."
+    },
+    {
+      "source_id": "src-b8566e66ce1067a2",
+      "title": "About - Feng Tay Group Profile-Feng Tay Enterprises Co., Ltd.",
+      "url": "https://www.fengtay.com/en/about/detail/Feng_Tay_Group_Profile",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "1992",
+      "locator": "R&D paragraph beginning “Research and development is one of our core competencies.”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer explicitly calls it NIKE's first Asia-based shoe manufacturing research and development center."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found issuer and Nikkei support for Nike's first Asia-based center and issuer support for the stated R&D fields. No evidence established an all-company Asia-wide first, so that broader ranking remains UNKNOWN; further searches were unlikely to resolve it without a defined comparison universe or contemporaneous records.",
+    "The detailed description of the center's purpose comes from the issuer's own corporate profile, which has no publication date shown.",
+    "Nikkei independently supports the 1992 joint establishment and the Nike-specific first-in-Asia description, but does not establish an all-company Asia-wide first.",
+    "The original wording can be read as an absolute Asia-wide ranking; that broader scope remains unverified."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9910/400/hermes-attempt-1.stdout.txt"
+}

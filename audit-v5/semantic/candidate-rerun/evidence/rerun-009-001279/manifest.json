@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001279",
+  "claim_id": "9918:material_named_relationship:73633ab28e6947bb",
+  "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b53920a1678192b21bc3",
+      "title": "2024 Sustainability Report, 欣欣天然氣股份有限公司",
+      "url": "https://www.shinshingas.com.tw/upfile/1140826-2024%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-%E7%94%B3%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "PDF p. 7, company information (name and stock code); PDF p. 9, natural-gas sourcing paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer report says its natural-gas sources are all purchased from Taiwan CPC."
+    },
+    {
+      "source_id": "src-a82c6720352056d7ce9e",
+      "title": "2024 Sustainability Report, 欣欣天然氣股份有限公司",
+      "url": "https://www.shinshingas.com.tw/upfile/1140826-2024%E5%B9%B4%E6%B0%B8%E7%BA%8C%E5%A0%B1%E5%91%8A%E6%9B%B8-%E7%94%B3%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024",
+      "locator": "PDF p. 9, natural-gas sourcing paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-specific disclosure: its natural-gas sources are all purchased from Taiwan CPC."
+    },
+    {
+      "source_id": "src-93c21a171c58042f63d9",
+      "title": "2026 Q1 Investor Conference presentation transcript, 欣天然 (9918)",
+      "url": "https://finmoconf.diveinvest.net/presentation/69c53284bab52fb5c8b477a0",
+      "source_level": 2,
+      "publication_date": "2026-03-26",
+      "effective_period": "Presentation dated 2026-03-26",
+      "locator": "Presentation p. 12, industry status / gas supply source",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Third-party page transcribes the slide as stating that the gas sources of all 25 domestic pipeline-gas utilities are exclusively supplied by Taiwan CPC."
+    },
+    {
+      "source_id": "src-183548b37e925f6b3de5",
+      "title": "Investor Conference page, 欣欣天然氣股份有限公司",
+      "url": "https://www.shinshingas.com.tw/Investors/info_34/Investor_Conference/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026-03-26 conference",
+      "locator": "115年度上半年 entry",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer page lists the Chinese presentation for the conference held 2026-03-26; the linked PDF could not be fetched during verification."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer-specific relationship and exclusivity are supported by the official 2024 report, with a 2026 presentation transcript providing more recent industry-level corroboration; no further research was needed for candidate review.",
+    "The issuer’s official 2024 report directly supports the company-specific exclusive-sourcing statement for 2024, but does not by itself establish that the arrangement remained unchanged after that period.",
+    "The 2026 conference’s industry-wide slide text was available as a third-party transcript; the issuer’s official page confirms and links the presentation, but its PDF timed out when opened."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9918/1279/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "6613aa73432ed53083d1ff8e994a6b5ce0a91b31544875143af777ad718b6fbb",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9918/1279/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "8da552c3cc140df05cf1eee7e5392f586c920587cd20cf00b1e456372d5353e6",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001279/manifest.json",
+  "supersedes_manifest_sha256": "36acb9dc34a6480d4a5b1dcc3eda6250892c9f4452b4f39987822a4b74fa8187",
+  "corrected_at": "2026-10-08T09:59:38Z"
+}

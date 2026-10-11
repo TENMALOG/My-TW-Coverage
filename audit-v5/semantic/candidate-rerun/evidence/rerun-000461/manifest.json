@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000461",
+  "claim_id": "2607:objective_ranking_or_market_share:8f8f4b26870312a9",
+  "normalized_claim_hash": "8f8f4b26870312a90dae7cb086c6473aba463230f9411f037a097b5b66054bc2",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-e100d181091c4f5b",
+      "title": "主要客戶群｜長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A06-0-Clients.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "主要客戶群名單",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "名單包含多家航運公司，支持尚有其他航運公司客戶；未揭露相關客戶營收、排名或期間。"
+    },
+    {
+      "source_id": "src-7442478a874b7ebf",
+      "title": "業務簡介｜長榮國際儲運：內陸貨櫃運輸",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/B02-1-Intro.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "業務簡介及主要服務項目",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "支持榮運提供船邊及CY貨櫃拖運，未證實此服務由長榮海運採購。"
+    },
+    {
+      "source_id": "src-80096a8c123c4c15",
+      "title": "公司簡介｜長榮國際儲運",
+      "url": "https://www.evergreen-eitc.com.tw/eitchtdocs/zh/A01-0-Profile.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "合併後業務範疇說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列明業務範疇包括船舶租賃；未指出長榮海運與該服務的具體交易關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對榮運官網客戶名單、服務說明及相關揭露的集中查找；能支持客戶名稱與一般服務範疇，但未找到足以確認最大客戶排名或長榮海運與所列具體服務關係的官方證據。",
+    "榮運官網主要客戶名單未標示發布日期、適用期間、排序或客戶交易規模。",
+    "榮運官網的一般服務說明不能單獨證明某一客戶使用了該項服務。",
+    "原 claim 未提供最大客戶排名的比較範圍、期間或分母。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2607/461/hermes-attempt-1.stdout.txt"
+}

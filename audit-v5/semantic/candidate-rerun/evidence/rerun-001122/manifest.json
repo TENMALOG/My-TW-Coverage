@@ -1,0 +1,68 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001122",
+  "claim_id": "2059:material_named_relationship:d71bdb08bb2f9450",
+  "normalized_claim_hash": "d71bdb08bb2f9450b74c8b86b5e61a31e2b3b0c16b778077328e9735f6f39f0e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-4524551d9aa90859",
+      "title": "NVIDIA DGX GB Rack Scale Systems User Guide — Hardware",
+      "url": "https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "DGX GB rack-scale systems; 頁面所列硬體架構",
+      "locator": "Hardware；rack system components",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "NVIDIA 官方資料列出液冷 manifold 等系統部件；不涉及川湖，也不證明川湖受惠。"
+    },
+    {
+      "source_id": "src-e1792d249327a8c5",
+      "title": "〖法說會備忘錄〗川湖 20240508",
+      "url": "https://blog.fugle.tw/post/earnings-call-2059-2024-05-08",
+      "source_level": 1,
+      "publication_date": "2024-05-08",
+      "effective_period": "2024 年 5 月法說會摘要；涉及 GB200 開發規劃",
+      "locator": "「市場與產品發展動態」及「關鍵產品」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "該文自述為依官方影音製作的 AI 摘要，提及川湖參與 GB200 導軌開發；不是原始逐字稿，亦未提供「超高負重」規格或數據。"
+    },
+    {
+      "source_id": "src-51ca0860d28b430d",
+      "title": "川湖：GB200下月出貨，明年營運欲小不易",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=998a3c39-0a32-455f-99b5-4430c4bdd836",
+      "source_level": 2,
+      "publication_date": "2024-11-07",
+      "effective_period": "報導所述預計自 2024 年 12 月開始出貨、2025 年第一季進入量產",
+      "locator": "報導中引述川湖發言人王俊強的 GB200 出貨說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手新聞報導對公司法說會發言的轉述；當時描述的是預定時程。"
+    },
+    {
+      "source_id": "src-5a04e4342df192ab",
+      "title": "飆股幕後》卡位美國製造 川湖飆新天價",
+      "url": "https://ec.ltn.com.tw/article/paper/1708211",
+      "source_level": 2,
+      "publication_date": "2025-05-24",
+      "effective_period": "報導稱川湖 GB200 導軌已量產出貨",
+      "locator": "「GB200伺服器滑軌 市占逾7成」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手新聞報導稱川湖為 NVIDIA 滑軌推薦供應商，且 GB200 導軌已量產出貨；支持 GB200 供應鏈進入，不證明其他 GB 系列機種。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已在研究限額內完成聚焦搜尋；官方 PDF 抓取受限，且剩餘原子缺少直接證據，故停止並保留為 UNKNOWN。",
+    "支持供應鏈進入的資料是二手新聞報導；本次未取得可直接核實具體承載規格及因果受益的川湖原始揭露。",
+    "官方川湖 PDF 抓取遇到逾時；web_extract 使用的後端僅支援搜尋、不能抽取 URL 內容。改用搜尋取得其他資料後，仍未解決上述規格與因果範圍。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2059/1122/hermes-attempt-1.stdout.txt"
+}

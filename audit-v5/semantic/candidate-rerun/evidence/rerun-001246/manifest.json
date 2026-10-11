@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001246",
+  "claim_id": "2221:material_named_relationship:6487ce61487cc293",
+  "normalized_claim_hash": "6487ce61487cc293dd499c3b5eeb444634c269334fcffc2c8768f1453042c6cd",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e56f174984f5993e",
+      "title": "大甲永和機械工業股份有限公司 2025 年法人說明會簡報",
+      "url": "https://www.yhmco.com.tw/news/download/news-20251223.pdf",
+      "source_level": 3,
+      "publication_date": "2025-12-23",
+      "effective_period": "2023 年及 2024 年度",
+      "locator": "第 11 張投影片「合併營收類別」圖；金額單位為新台幣仟元",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列示 2023、2024 年潔淨類別收入及合併營收總額；未將潔淨類別明確界定為 UHP 產品收入。"
+    },
+    {
+      "source_id": "src-4c9a17d9b17cb1a0",
+      "title": "DAJA UHP 潔淨級事業部",
+      "url": "https://www.yhmco.com.tw/daja/daja.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於 DAJA」及「產品和服務」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司說明 DAJA 為潔淨級事業部品牌，並列出 UHP 相關產品。"
+    },
+    {
+      "source_id": "src-8038aee70fc0803d",
+      "title": "大甲永和機械工業股份有限公司 113 年度年報",
+      "url": "https://www.yhmco.com.tw/investor/annual-reports/113-annual-report.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2024 年度",
+      "locator": "致股東報告書，潔淨級事業部說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明潔淨級事業部為半導體、光電等產業提供氣體管路材料。"
+    },
+    {
+      "source_id": "src-2487fdeb840b0aa8",
+      "title": "大甲永和機械公司基本資料",
+      "url": "https://www.yhmco.com.tw/investor/fundamentals.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "主要經營業務，第 1 項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方頁面列示「台積電合格供應商」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱發行人官方網站、2024 年年報及 2025-12-23 法說會簡報。主要業務、產品用途及供應商關係有公司來源支持；比例 claim 的期間、分母及 UHP 範圍仍未明，不能以特定年度潔淨類別營收比例替代。",
+    "「台積電合格供應商」依據發行人官方網站自述，來源未註明資格有效期間，亦非台積電獨立確認。",
+    "公司簡報的潔淨類別營收不能直接等同 UHP 產品營收；比例 claim 未指定期間與分母。",
+    "官方簡報數據中，2023 年潔淨類別約占合併營收 53.6%，2024 年約占 33.2%，期間差異顯著。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2221/1246/hermes-attempt-1.stdout.txt"
+}

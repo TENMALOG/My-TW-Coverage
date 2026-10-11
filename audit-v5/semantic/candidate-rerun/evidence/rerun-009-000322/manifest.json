@@ -1,0 +1,58 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000322",
+  "claim_id": "6120:objective_ranking_or_market_share:e0d35ee261ddca36",
+  "normalized_claim_hash": "e0d35ee261ddca36e13ff124e68e2d361002792bbd69fb0434312e581f04dc50",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8ae0cd68b050954d945b",
+      "title": "達運(6120) company profile",
+      "url": "https://finlab.finance/stocks/6120",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "FY2025 customer sales",
+      "locator": "Company profile, 2025 major sales customers section",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary source reports sales percentages and says the largest customer is anonymized as A company. The underlying primary filing was not independently verified here."
+    },
+    {
+      "source_id": "src-edcf8f489cc06ce76432",
+      "title": "背光模組｜達運精密製造服務",
+      "url": "https://www.darwinprecisions.com/zh-tw/manufacture.php?act=view&id=1",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "背光模組頁面，產品及製造服務說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面說明達運的背光模組製造服務及產品類別，未列出客戶或友達供貨關係。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已用聚焦搜尋查核公司官方產品資料及公開客戶銷售資料；原 claim 未提供期間，且目前沒有可靠證據證明友達最大客戶排名或友達特定背光模組供貨關係。達到本次研究上限後，未解部分保留 UNKNOWN。",
+    "原 claim 未載明期間；「最大客戶」亦未指定按銷售額、出貨量或其他指標排名。",
+    "FY2025 客戶銷售明細僅由二級來源取得；最大客戶名稱以 A 公司匿名揭露，未能在本次查證中以原始年報獨立核對。",
+    "達運官方產品資料證明其製造背光模組，不等於證明友達是該產品的採購客戶。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6120/322/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-004",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "189b79b35675ecf621da3bc67219264ffdb27ff05352de058023a633ba66e2e6",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/6120/322/isolated-prompt.txt",
+  "prompt_sha256": "9601554dd828c623aeb3d7f2940ed0d8ae9deb787ad3424b8cb2819a3b0db74a",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000322/manifest.json",
+  "supersedes_manifest_sha256": "1e0693af67d3b94e66f5bee7bd5c310ac242260fae584d9e8ee2e7fe58ca8fbf",
+  "corrected_at": "2026-10-08T09:58:02Z"
+}

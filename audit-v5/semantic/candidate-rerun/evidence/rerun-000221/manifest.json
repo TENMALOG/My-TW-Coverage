@@ -1,0 +1,69 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000221",
+  "claim_id": "5225:objective_ranking_or_market_share:9878893f3dc16044",
+  "normalized_claim_hash": "9878893f3dc16044e0cf3606bff54646a671fa77813accf9b272731867f615a3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b0adb255864bfb7a",
+      "title": "Eastech Holding Limited 2024 Annual Report",
+      "url": "https://www.eastech.com/sites/default/files/2025-08/20250822_-_2024yingwennianbaokelieyinbukefuzhi.pdf",
+      "source_level": 3,
+      "publication_date": "2025-03-31",
+      "effective_period": "FY2024",
+      "locator": "Principal Activities; Business Plan / Operating Strategy",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Establishes the issuer's speaker-system manufacturing and OEM/ODM business, but provides no global ranking or market-share comparison."
+    },
+    {
+      "source_id": "src-1b80dc952a6c3003",
+      "title": "EASTECH | Premium Drivers, Headphones, Systems, Acoustics",
+      "url": "https://www.eastech.com/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Homepage, company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer describes engineering, design and manufacturing of audio systems and ODM-to-JDM/EMS capabilities; it does not establish a global supplier ranking."
+    },
+    {
+      "source_id": "src-a7e9ecc82f9fe952",
+      "title": "東科法說會／最壞情況已過 第3季起營運回溫",
+      "url": "https://udn.com/news/story/7252/9682443",
+      "source_level": 2,
+      "publication_date": "2026-08-10",
+      "effective_period": "2026; article discusses the company's 2026 first-half results",
+      "locator": "Opening paragraph",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The article calls Eastech a global-largest audiovisual speaker-system ODM manufacturer, but supplies no comparison set, metric, denominator, or source for that ranking."
+    },
+    {
+      "source_id": "src-e9853a973b738d7f",
+      "title": "EASTECH | About Us",
+      "url": "https://www.eastech.com/about-us",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Company description",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "The issuer says its manufacturing model serves the world's largest, most demanding customers; this is not a claim that Eastech itself is the world's largest manufacturer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused checks of issuer annual reports, issuer webpages, and secondary coverage confirmed the contract-manufacturing business but yielded no defined, verifiable global ranking basis; the ranking atom remains UNKNOWN.",
+    "Issuer disclosures support the OEM/ODM and speaker-manufacturing business, not the superlative ranking.",
+    "The issuer website's phrase about serving the world's largest customers refers to customers, not Eastech's position among manufacturers.",
+    "Secondary articles repeat the global-largest label without stating a comparable market definition, ranking metric, denominator, or period."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5225/221/hermes-attempt-1.stdout.txt"
+}

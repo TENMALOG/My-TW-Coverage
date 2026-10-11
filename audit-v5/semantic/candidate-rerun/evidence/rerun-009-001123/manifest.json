@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001123",
+  "claim_id": "2059:material_named_relationship:ce770dad814d7e9c",
+  "normalized_claim_hash": "ce770dad814d7e9cbc0cff171aa35cddf6c1922c10cf81d750c7e3e441cb799e",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-378c65cf15076a3610ab",
+      "title": "川湖：GB200滲透率高，GB300將增新項目",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3939714a-82a0-4a7d-a7f5-cf864f564007",
+      "source_level": 2,
+      "publication_date": "2025-02-21",
+      "effective_period": "報導川湖2025年2月21日法說會說法",
+      "locator": "報導中「川湖擁通用型、GPU、ASIC等完整產品線」及「公司在GB200滲透率很高」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級報導轉述公司說法；未量化「滲透率」的分母或範圍。"
+    },
+    {
+      "source_id": "src-af25421fe69c8b80b915",
+      "title": "川湖：GB200滲透率高，GB300將增新項目",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=3939714a-82a0-4a7d-a7f5-cf864f564007",
+      "source_level": 2,
+      "publication_date": "2025-02-21",
+      "effective_period": "報導川湖2025年2月21日法說會說法",
+      "locator": "全文關於GB200滲透率及與NVIDIA合作的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導未提及正式供應商認證；不足以判定認證資格。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行針對川湖、NVIDIA、GB200及認證供應商的定向檢索；可查資料支持合作與GB200參與，但未找到明確認證證據，因此認證原子維持UNKNOWN。",
+    "關於川湖說法的來源為次級媒體報導，不是川湖或NVIDIA的認證文件。",
+    "「滲透率很高」未提供明確分母或量化數值，且不能單獨證明正式認證資格。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2059/1123/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "568cbf5c4e798eb30e5803273264b43cb5d65b9c27c2b6f39803c8c8704ee583",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/2059/1123/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "b58484c95c0d3a60d3effb48e70e55936264bfc64be20f897b573462d07d7922",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001123/manifest.json",
+  "supersedes_manifest_sha256": "817e4c820f2d34209e2168c79899c0dfe8a9b241fdde5b5c76db090bd2bbe8e8",
+  "corrected_at": "2026-10-08T09:59:20Z"
+}

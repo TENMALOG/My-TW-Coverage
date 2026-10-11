@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000312",
+  "claim_id": "5243:objective_ranking_or_market_share:94480ceb66fb33f4",
+  "normalized_claim_hash": "94480ceb66fb33f4bc86ff3c8cc8b7ea513609eae949208c877f5816f3aadb60",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ef88d0c314a3ffca",
+      "title": "乙盛2026年獲利拚創高",
+      "url": "https://udn.com/news/story/7252/9718529",
+      "source_level": 2,
+      "publication_date": "2026-08-27",
+      "effective_period": "Current status reported alongside 2026 Q2 results",
+      "locator": "Article paragraph beginning「法人指出」; describes Tesla as a main customer for automotive products, without stating a largest-customer rank or customer revenue figures.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Partial contextual evidence only; it does not supply the ranking basis, denominator, or comparative measurement needed to verify the claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches found secondary evidence for Tesla's automotive-customer relationship but no source resolving the largest-customer ranking or its period and denominator; the unresolved ranking remains UNKNOWN.",
+    "No current official issuer disclosure located in this research established Tesla's largest-customer status for an electric-vehicle-specific segment.",
+    "The secondary report's term「主要客戶」does not establish a top-ranked customer by revenue or another specified measure.",
+    "The claim does not specify the comparison period, customer-ranking measure, or whether the denominator is the automotive segment, electric-vehicle products only, or the company overall."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5243/312/hermes-attempt-1.stdout.txt"
+}

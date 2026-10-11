@@ -1,0 +1,111 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000025",
+  "claim_id": "2206:objective_ranking_or_market_share:f1d0e04eae11fc9f",
+  "normalized_claim_hash": "f1d0e04eae11fc9f62864d3e174fe7921cbb5db51dce7da2c66f3885fcae5345",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "sanyang-2026-investor-presentation",
+      "title": "三陽工業2026 QIC CEO Week法人簡報",
+      "url": "https://www.sanyang.com.tw/financial/system/investor/earningscall/2026/SYM_20260429_CN.pdf",
+      "source_level": 3,
+      "publication_date": "2026-04-29",
+      "effective_period": "2025年度銷售與市占資料，以及2026年4月公司簡報。",
+      "locator": "PDF投影片17：汽車市占與品牌排名，列Hyundai 2025年市占4.55%、非豪華乘用車品牌TOP 3。",
+      "source_sha256": "5700fec5d4d8d4620ce2dc085c4bd33ac66578f2349aeb6940d26d43e01d1e38",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/sanyang-2026-investor-presentation.pdf",
+      "note": "發行人法人簡報；此處市占是Hyundai品牌的市場數字，不是三陽工業法人本身的市占。"
+    },
+    {
+      "source_id": "hyundai-2025-full-year-release",
+      "title": "HYUNDAI汽車12月銷售重返二千台　創2025單月新高",
+      "url": "https://www.hyundai-motor.com.tw/news-in-536.html",
+      "source_level": 3,
+      "publication_date": "2026-01-05",
+      "effective_period": "2025年度台灣銷售資料。",
+      "locator": "新聞內文：Hyundai 2025全年銷售突破19,000台、市占率4.6%、非豪華乘用品牌第三；文中指台灣總代理為南陽實業。",
+      "source_sha256": "a4602d4ba22003a5f9ec5b04a0cefead451f4cdec610aef1aef87721e791948d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/hyundai-2025-full-year-release.html",
+      "note": "品牌台灣官網發布之年度銷售新聞；其4.6%為四捨五入值，與三陽法人簡報4.55%接近。"
+    },
+    {
+      "source_id": "hyundai-2024-record-share-release",
+      "title": "新車熱銷市占率創新高　躍居非豪華第三大品牌",
+      "url": "https://www.hyundai-motor.com.tw/news-in-466.html",
+      "source_level": 3,
+      "publication_date": "2025-01-03",
+      "effective_period": "2024年度台灣銷售資料。",
+      "locator": "新聞內文：2024銷售22,682台、總市場約45.8萬台、市占4.95%，創南陽代理Hyundai以來最高；TUCSON L HEV推出後月銷量由450增至680台。",
+      "source_sha256": "dbb9c688c73c54749f39950707f345b5c9faa4d92f1682b57913d116d78672c1",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/hyundai-2024-record-share-release.html",
+      "note": "品牌台灣官網公告；支持2024品牌銷售及市占數字，無法單獨量化休旅車對市占率變化的因果貢獻。"
+    },
+    {
+      "source_id": "hyundai-2023-record-share-release",
+      "title": "年販超過2.2萬台　市占率創新高 成為非豪華第四大品牌！",
+      "url": "https://www.hyundai-motor.com.tw/news-in-408.html",
+      "source_level": 3,
+      "publication_date": "2024-01-02",
+      "effective_period": "2023年度台灣銷售資料。",
+      "locator": "新聞內文：2023新車銷售22,169台、市占4.7%，為品牌代理以來新高；並敘述CUSTIN及TUCSON L Turbo Hybrid上市熱銷。",
+      "source_sha256": "6e198a66d966ba48e44b29608e5a32ba99f9315054f5f609705e7841d54d7e00",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/hyundai-2023-record-share-release.html",
+      "note": "品牌台灣官網公告；CUSTIN是MPV而非休旅車，該材料不支持將品牌市占成長完全歸因於SUV。"
+    },
+    {
+      "source_id": "sanyang-tucson-l-2024-sales",
+      "title": "渦輪油電唯一選擇 科技豪華全面進化 The new TUCSON L 正式上市",
+      "url": "https://www.sanyang.com.tw/productnews-page573",
+      "source_level": 3,
+      "publication_date": "2025-04-28",
+      "effective_period": "該公司新聞回顧TUCSON L截至2024年度的銷售。",
+      "locator": "內文稱TUCSON L於2024年銷量突破8,000台，油電動力約占該車系銷售七成。",
+      "source_sha256": "cec679a4f43046ab73454e2977eb08669dd49a9d120bd024668214a2fcacac5b",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/sanyang-tucson-l-2024-sales.html",
+      "note": "三陽官方產品新聞；銷量是TUCSON L單一車系數字。"
+    },
+    {
+      "source_id": "sanyang-hyundai-assembly",
+      "title": "裝配完檢 - 三陽工業企業網站",
+      "url": "https://www.sanyang.com.tw/hyundai-page72",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行汽車製造流程介紹，頁面未列更新日。",
+      "locator": "頁面列汽車內部裝配、底盤結合、總裝、完成車靜動態測試。",
+      "source_sha256": "3dd2adfa16fa216bcba1679c73071a3f6ff0d1153579f81530c31b568d8e4109",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/sanyang-hyundai-assembly.html",
+      "note": "發行人現行汽車裝配流程介紹；頁面本身未列Hyundai車型名，需與2023年現代汽車工廠稽核資料一併閱讀。"
+    },
+    {
+      "source_id": "sanyang-hyundai-welding-painting",
+      "title": "熔接塗裝 - 三陽工業企業網站",
+      "url": "https://www.sanyang.com.tw/hyundai-page73",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "截至2026-10-06檢視之現行汽車製造流程介紹，頁面未列更新日。",
+      "locator": "頁面列車體點焊及裝配、機器人電弧焊接、車體塗裝生產線。",
+      "source_sha256": "34f8c766da5a2842463e48dd7bdf04e73a0cda40ac88fbb4a6392bc25df848b5",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/sanyang-hyundai-welding-painting.html",
+      "note": "發行人現行汽車生產流程介紹。"
+    },
+    {
+      "source_id": "sanyang-hyundai-2023-factory-audit",
+      "title": "三陽工業2023永續報告書",
+      "url": "https://www.sanyang.com.tw/storage/system/about/csr/SY2023CSR.pdf",
+      "source_level": 3,
+      "publication_date": "2024年發布",
+      "effective_period": "2023年度三陽汽車廠及現代汽車工廠稽核資料。",
+      "locator": "PDF第85頁：韓國現代汽車於2023年派員至三陽工業汽車廠稽核；稽核系統包含生產系統（熔接、塗裝、裝配）及動靜態測試。",
+      "source_sha256": "9b5338ae27ac68d6bc51c2d0026620705b39bc6a33049ad6854ba5f62083ced9",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2206/25/sanyang-hyundai-2023-factory-audit.pdf",
+      "note": "發行人永續報告披露Hyundai對三陽汽車廠的生產品質稽核；支持汽車廠與Hyundai生產協作，但未證明三陽是台灣Hyundai唯一組裝廠。"
+    }
+  ],
+  "search_notes": [
+    "分別查閱Hyundai台灣官網、三陽法人簡報、三陽汽車製造流程及永續報告，不沿用相鄰queue claim的結論。",
+    "Hyundai台灣官網將南陽實業列為總經銷；三陽與Hyundai生產合作及三陽汽車廠組裝能力另有公司文件支持。",
+    "品牌市占率在2023與2024連續寫下當時代理以來新高；2025官方資料為4.55%至約4.6%，低於2024的4.95%。",
+    "TUCSON L單車系2024年銷量逾8,000台，但來源不足以將整體Hyundai市占上升直接歸因於休旅車熱銷。"
+  ]
+}

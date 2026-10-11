@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000714",
+  "claim_id": "1580:objective_ranking_or_market_share:5560d01646da11a1",
+  "normalized_claim_hash": "5560d01646da11a1a0dd618b9b54a6772f923e037ca71121ba72219744c1302f",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-c7b257e089c5feea",
+      "title": "世界級廚房烘焙設備領導品牌｜新麥企業股份有限公司",
+      "url": "https://www.sinmag.com.tw/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於我們 About」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司稱「新麥企業是亞洲最大烘焙機械之世界級品牌公司」；此為公司自述，未附排名依據或市場分母。"
+    },
+    {
+      "source_id": "src-f78b261710ec0452",
+      "title": "新麥企業股份有限公司2026年第1季法人說明會",
+      "url": "https://www.tpex.org.tw/event/web/supervise_115Q2/1.1580%E6%96%B0%E9%BA%A5.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-29",
+      "effective_period": "2025年",
+      "locator": "「2025集團銷貨收入排名佔營收比」圖表附近，標示「2025集團客戶數6884個」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "此數字是集團客戶總數，未分列SINMAG品牌客戶；不能據此確認原文的品牌限定數量。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查核新麥官方網站及公司法人說明會，並以中英文搜尋品牌客戶數相關表述；未找到可直接核實排名方法或SINMAG品牌客戶逾3,000家的來源，故保留未解原子為UNKNOWN。",
+    "亞洲最大排名僅找到公司自述，沒有獨立比較、市場定義、排名期間或量化分母。",
+    "2025年集團客戶數與SINMAG品牌客戶數的範圍並未被來源明確等同。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1580/714/hermes-attempt-1.stdout.txt"
+}

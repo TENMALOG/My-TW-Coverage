@@ -1,0 +1,55 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000996",
+  "claim_id": "3015:material_named_relationship:01056723fc00bfbf",
+  "normalized_claim_hash": "01056723fc00bfbf240eb35d5a2fa4ad1fef7fe4ffd11761f67bcb0fdf093d9b",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-1aaeccb0593cff74",
+      "title": "全漢企業股份有限公司 2026第一季經營績效法人說明會",
+      "url": "https://www.fsp-group.com/download/260330-69CA07D6AF2F0.pdf",
+      "source_level": 3,
+      "publication_date": "2026-03-30",
+      "effective_period": "2026年第一季法說簡報",
+      "locator": "第3頁，公司概況",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報自述「全球前十大交換式電源供應器廠商」；未列名次依據、排名期間或市場分母。"
+    },
+    {
+      "source_id": "src-ff1477871059092a",
+      "title": "About FSP",
+      "url": "https://www.fsplifestyle.com/us/BrandStory.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行頁面；檢索日：2026-10-07",
+      "locator": "About FSP，第64行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方品牌頁明列 FSP Group (3015)。"
+    },
+    {
+      "source_id": "src-61278127d20c7f61",
+      "title": "关于全汉 | FSP",
+      "url": "https://www.fsplifestyle.com/cn/BrandStory.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官網現行頁面；檢索日：2026-10-07，未載明統計基準日",
+      "locator": "第66行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面稱「已超过600个机种通过80PLUS认证」。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到官方2026年第一季法說簡報及官方品牌頁，均直接支持各項自述；停止進一步搜尋。排名方法與官網數字的統計基準未由所查資料交代，已在來源 caveats 中限定。",
+    "「全球前十大」有官方簡報直接支持，但未披露排名依據、排名期間或市場分母，未獲獨立排名資料交叉驗證。",
+    "研發團隊人數及80 PLUS認證機種數來自官方現行品牌頁；頁面未標示統計基準日，也未提供可核對的具日期明細。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3015/996/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000662",
+  "claim_id": "6035:objective_ranking_or_market_share:c0678fc201114b7d",
+  "normalized_claim_hash": "c0678fc201114b7d40c79725ff5622e72d87c740ff8002c28f26514c494db6a4",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-140cf440c97b71d5",
+      "title": "悠遊卡公司2023年永續報告書",
+      "url": "https://www.easycard.com.tw/_upload/files/1226_v22%20Final-small.pdf",
+      "source_level": 3,
+      "publication_date": "2024-09",
+      "effective_period": "2023-01-01至2023-12-31",
+      "locator": "「2023年ESG重點績效」及「營運現況」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提供流通卡數口徑的市占率63%，但未解決原 claim 未說明的分母與期間。"
+    },
+    {
+      "source_id": "src-36237dd616a2bdec",
+      "title": "悠遊卡股份有限公司113年度年報",
+      "url": "https://www.easycard.com.tw/_upload/files/2024annual.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-20",
+      "effective_period": "113年度（2024）",
+      "locator": "第1頁「致股東報告」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": " issuer 年報的排名陳述；未附逐家比較表，且僅涵蓋年報列出的業務指標。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報、永續報告及金管會業務統計；未找到能在原 claim 未明確的分母與期間下，確認電子票證或電子支付市占超過九成的同口徑證據，因此相關原子主張維持 UNKNOWN。",
+    "原 claim 未界定「市占率」的分母、指標或期間；流通卡數、交易金額、使用者人數及代理收付金額不可互換。",
+    "領先地位的電子支付證據來自公司年報自述，且限於報告列出的特定指標；並非監管機關發布的整體市場占比。",
+    "金管會檢視的業務統計分列儲值卡與電子支付帳戶等項目；其總量資料本身不能證明悠遊卡的整體市占率。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6035/662/hermes-attempt-1.stdout.txt"
+}

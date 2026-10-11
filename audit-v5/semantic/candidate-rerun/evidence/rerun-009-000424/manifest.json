@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000424",
+  "claim_id": "9935:objective_ranking_or_market_share:edace39a5abeffd8",
+  "normalized_claim_hash": "edace39a5abeffd89d91ad476b9cfee34418dea7bc62282fd04844685940ce5b",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-187b83a245322c1b6d61",
+      "title": "NRF Releases 2026 Top 100 Retailers",
+      "url": "https://nrf.com/media-center/press-releases/nrf-releases-2026-top-100-retailers",
+      "source_level": 3,
+      "publication_date": "2026-07-01",
+      "effective_period": "2025 U.S. retail sales",
+      "locator": "Press release: ranking scope and methodology; paragraph beginning “Walmart leads again”; ranking-period statement",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "NRF's ranking, compiled by Kantar, identifies Walmart as the top retailer at $579.99 billion in U.S. retail sales. Sales are retail-specific, not overall organizational revenue."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已找到NRF發布的最新2026年美國零售商排名及其指標、期間和方法說明；原主張可在按美國零售銷售額理解時獲支持。",
+    "原主張未明確指定排名指標或年份；證據支持的是按美國零售銷售額排名，並非按門市數、員工數或其他指標。",
+    "NRF說明排名採過去52/53週年度零售銷售額；在幾乎所有情況下，所用銷售額是美國境內零售活動。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/9935/424/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-005",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "c184d928e9e339856352cecf8a948e4bf7e646f0ece9efce627c380d714188e1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/9935/424/isolated-prompt.txt",
+  "prompt_sha256": "705cba3bf9964891c3668445a4abbeb268009f2b8e245a7a2c36e22a6d67b0db",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000424/manifest.json",
+  "supersedes_manifest_sha256": "8f073f696f204a60c7151f365ac87deabe08a228ac4c7627da826c720e237edf",
+  "corrected_at": "2026-10-08T09:58:11Z"
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-010-000027",
+  "claim_id": "1319:objective_ranking_or_market_share:2a6fc80138e4eb21",
+  "normalized_claim_hash": "2a6fc80138e4eb2179ecf54b34dba861d87c5ec99b9a19abc1272d07f3aafb6e",
+  "accessed_date": "2026-10-08",
+  "sources": [
+    {
+      "source_id": "src-34de178f577513033af5",
+      "title": "Case 1:18-cv-00225-GMS, Document 1-1",
+      "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1533124/download-documents?artifactId=n45EIecBMO9ph15ir4r75T1fNhLQxnScgDNGNreZMI5zUZi5Ed4-Z0M",
+      "source_level": 3,
+      "publication_date": "2018-02-07",
+      "effective_period": "2017 supply-chain context referenced in the filing",
+      "locator": "Search-result excerpt quoting page 5: Keystone is identified as an LKQ subsidiary and Tong Yang as one of its manufacturer suppliers.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "A court filing is a primary record, but this is a pleading excerpt, not an adjudicated finding."
+    },
+    {
+      "source_id": "src-b4fda7c35e3d76f5d53f",
+      "title": "東陽Q1每股賺3.1元 登頂",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_more.aspx?nsl_id=669da320377b41feb58f563c7c6c21a7",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Search-result excerpt: reports that State Farm's expanded adoption of AM parts continued to have an effect and mentions Tong Yang's CAPA-certified products.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary reporting; the returned result did not provide a publication date or a precise expansion period."
+    },
+    {
+      "source_id": "src-81c44268b7343a5d0e6b",
+      "title": "Auto Replacement Parts",
+      "url": "https://statefarm.com/claims/auto/replacement-parts",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "Current page; effective date not stated",
+      "locator": "Page section describing CAPA/NSF standards for specified new non-OEM crash parts.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official policy supports the certification requirement for listed parts, not the historical expansion or its commercial impact on Tong Yang."
+    },
+    {
+      "source_id": "src-b7bdd367607c07dcb3da",
+      "title": "東陽Q1每股賺3.1元 登頂",
+      "url": "https://ieknet.iek.org.tw/ieknews/news_more.aspx?nsl_id=669da320377b41feb58f563c7c6c21a7",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Search-result excerpt discussing State Farm's expanded AM-parts use, Tong Yang's CAPA-certified products, and business benefits.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Qualitative secondary attribution; the report does not quantify Tong Yang's benefit."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes CLI request configured for provider=openai-codex, model=gpt-6-luna, reasoning=xhigh, with web tools.",
+    "已用完最多 8 次聚焦研究工具回合；其中一次搜尋工具回傳錯誤。依任務限制停止，未解決的關係、排名及其他保險公司採用範圍保留為 UNKNOWN。",
+    "Keystone 關係的來源是法律文件中的陳述，並非法院認定；其證據只涉及文件所述的歷史供應鏈情境。",
+    "State Farm 官方頁面說明特定非原廠碰撞件的認證政策，但不能單獨證明政策擴大的時間或幅度。",
+    "State Farm 擴大採用及東陽受益的證據來自二手報導，未提供可核對的出版日期、受益量化或因果測量。",
+    "未找到能證實「最大經銷夥伴」排名、排名期間或比較分母的可靠資料。"
+  ],
+  "execution_batch_id": "rerun-010",
+  "successful_attempt": 1,
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1319/27/rerun-010/hermes-attempt-1.stdout.txt",
+  "hermes_raw_output_sha256": "a1d97d0be6420d12b03de4bd682e29e50e053e8aab00030daf29669d13096361",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1319/27/rerun-010/isolated-prompt.txt",
+  "prompt_sha256": "f3cc75a75aff71e1f148665608e4fca457e8f77d6382c5f513db7ee149f5f875",
+  "requested_provider": "openai-codex",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "requested_oneshot": true,
+  "requested_toolsets": [
+    "web"
+  ],
+  "requested_max_turns": 8,
+  "observed_model": null,
+  "resolved_model": null,
+  "run_budget_seconds": 660,
+  "subprocess_timeout_seconds": 705,
+  "warning": null
+}

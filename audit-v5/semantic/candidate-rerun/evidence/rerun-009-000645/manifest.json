@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000645",
+  "claim_id": "8299:objective_ranking_or_market_share:cd78eed6eeac704c",
+  "normalized_claim_hash": "cd78eed6eeac704c6fe1830e602f20e52b21e38b4b839b9cf24104e2876fcbec",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-d40f548d80d02c42d837",
+      "title": "Phison and Kingston Collaborate on NVMe SSD Controller to Accelerate into the Next SSD-era",
+      "url": "https://www.phison.com/phison-and-kingston-collaborate-on-nvme-ssd-controller-to-accelerate-into-the-next-ssd-era",
+      "source_level": 3,
+      "publication_date": "2017-12-06",
+      "effective_period": "Historical collaboration and cumulative shipments reported as of 2017-12-06",
+      "locator": "Opening paragraphs",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Phison reports controller shipments to Kingston exceeding 18 million units and a history of supplying Kingston since 2012. This establishes a customer relationship, not a largest-customer ranking."
+    },
+    {
+      "source_id": "src-8ba3669908a2649b2118",
+      "title": "群聯將出售合資公司股份予金士頓科技",
+      "url": "https://www.kingston.com/tw/company/press/article/58578",
+      "source_level": 3,
+      "publication_date": "2020-07-14",
+      "effective_period": "Statements about the Phison–Kingston relationship and KSI transaction as of 2020-07-14",
+      "locator": "Press release paragraphs describing the KSI share sale and Kingston products using Phison controllers",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Kingston describes Phison as a long-term strategic technology partner and says many Kingston products use Phison controllers. It does not identify Kingston as Phison's largest customer."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and review of official Phison and Kingston materials found relationship evidence but no reliable evidence defining and substantiating the claimed customer ranking; the ranking remains unresolved.",
+    "The cited primary sources document a historical partnership and product relationship; neither supplies a customer ranking.",
+    "The claim has no stated period or ranking measure, and the available relationship evidence cannot substitute for customer-level sales or revenue-share data."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8299/645/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-007",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "7c46cb6ed34a567a1c1690516986f57eed5e2683e6caab28c55a1d926b7c553b",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8299/645/isolated-prompt.txt",
+  "prompt_sha256": "0154a6afcbbc8918d64ffe6a63e1f27e3bf20e1dbe85ae76827520bca71aa13c",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000645/manifest.json",
+  "supersedes_manifest_sha256": "9de44d30d257979bcd77eaa2fb49579cf8a1094dc6813ce4f083a825ea61232e",
+  "corrected_at": "2026-10-08T09:58:31Z"
+}

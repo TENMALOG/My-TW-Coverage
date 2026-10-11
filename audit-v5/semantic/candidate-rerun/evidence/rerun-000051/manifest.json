@@ -1,0 +1,75 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000051",
+  "claim_id": "2231:objective_ranking_or_market_share:53dc6e668cc52c45",
+  "normalized_claim_hash": "53dc6e668cc52c454421a08c70d0c90f06e1305e30690595aee43694072b3df3",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "moneydj-cub-tpms-customers-2014",
+      "title": "MoneyDJ：為升TPMS產能、訂單擴，營運逐季看增",
+      "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=696e9d31-8c61-4533-828c-9149d8a4bd47",
+      "source_level": 2,
+      "publication_date": "2014-09-23",
+      "effective_period": "2014 TPMS business and customer context.",
+      "locator": "在TPMS市場段稱為升TPMS主要供應北美AM市場，約占該產品出貨比重9成；同文列SMP、Pacific、WELLS為客戶。這是出貨目的地／通路占比，不是北美TPMS市場市占率。",
+      "source_sha256": "d55f5b132408af9a2668e4734823d26ac590f45a26fa01365642e73000b8246f",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/51/moneydj-cub-tpms-customers-2014.html",
+      "note": "二手同期新聞報導，敘述2014年資料；未提供TPMS市場總量分母或市占率計算。"
+    },
+    {
+      "source_id": "moneydj-cub-profile-2024",
+      "title": "MoneyDJ：為升電裝工業股份有限公司 company profile",
+      "url": "https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?KeyID=9fb9ceba-8b82-45c8-8b0d-b14131f2449d",
+      "source_level": 2,
+      "publication_date": "2024-11-26",
+      "effective_period": "Profile updated 2024-11-26; customer/product information is primarily 2022 data.",
+      "locator": "列Standard Motor Products於方向燈開關、頭燈開關、感應器及啟動開關客戶名單；稱SMP為整體最大客戶、Wells.MFG第二大客戶，未將其排序拆至TPMS AM。",
+      "source_sha256": "e2d8547a9f4915686f0c2364af0241914bdda920505a50533a6d1362db0b892d",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/51/moneydj-cub-profile-2024.html",
+      "note": "二手公司資料，支持廣義客戶名單及整體客戶排序，不能單獨支持TPMS AM特定客戶關係或排名。"
+    },
+    {
+      "source_id": "fugle-cub-2025-investor-call-summary",
+      "title": "富果直送：法說會備忘錄—為升電裝 20250605",
+      "url": "https://blog.fugle.tw/post/earnings-call-2231-2025-06-05",
+      "source_level": 2,
+      "publication_date": "2025-06-05",
+      "effective_period": "2025-06-05 investor conference; summary updated 2025-06-19.",
+      "locator": "產品組合段寫通用型TPMS約90%為AM市場；沒有說該比例是北美市場市占率。頁面自述使用LLM依官方法說會影音整理，並註明僅供參考。",
+      "source_sha256": "d81372edbbfdc9e6dae24c726b217322ef94385d7359a311bce2179b67946929",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/51/fugle-cub-2025-investor-call.html",
+      "note": "二手LLM生成摘要。只作來源線索及語義比對，不把摘要內容當成已核實的官方逐字稿。"
+    },
+    {
+      "source_id": "twse-cub-2025-investor-call-video-page",
+      "title": "臺灣證券交易所 WebPro：2231_為升_20250605_法說會",
+      "url": "https://webpro.twse.com.tw/WebPortal/vod/101/9BE70567F894-90223220-41ED-11F0-BC66/?categoryId=148",
+      "source_level": 3,
+      "publication_date": "2025-06-05",
+      "effective_period": "2025-06-05 investor conference.",
+      "locator": "官方影音頁確認會議名稱與日期；本次未取得可搜尋逐字稿，該頁本身沒有可核對的90%文字。",
+      "source_sha256": "17ca4831290a65f0a17ceb3897404211c888e93ebf5dfe067350936fe776082b",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/51/twse-2025-investor-call.html",
+      "note": "官方影音來源頁；此筆沒有將其當作已核實百分比主張的直接證據。"
+    },
+    {
+      "source_id": "cub-2025-annual-report-en",
+      "title": "CUB Elecparts Inc. 2025 Annual Report (English)",
+      "url": "https://www.cubelec.com/download/pdf/2026/2026-5.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-11",
+      "effective_period": "FY2025; English report included in 2026 shareholder materials.",
+      "locator": "審閱客戶集中度／銷售風險揭露，未見具名TPMS-AM客戶排名。該處公司層級資料不能用來推出產品別市占率。",
+      "source_sha256": "14a8073383da0ae763fbc05f3f223889f4004cda09fb0eda07596fbbd595dfc7",
+      "raw_path": "audit-v5/source-cache/candidate-rerun/2231/51/cub-2025-annual-report-en.pdf",
+      "note": "發行人主要揭露。僅用來確認可取得的FY2025披露未提供TPMS-AM分項排名；不把未披露視為否定證據。"
+    }
+  ],
+  "search_notes": [
+    "以Hermes Agent隔離第51筆claim，使用gpt-6-luna、xhigh reasoning及web工具；按契約拆成客戶關係、出貨／通路比例與市場市占等原子主張。",
+    "交叉檢查MoneyDJ 2014年TPMS報導、MoneyDJ 2024年客戶資料、2025年法說會LLM摘要及交易所官方影音頁。",
+    "2014年報導中的約90%是為升TPMS出貨進入北美AM通路的比例，不是市場市占率。2025年摘要中的約90%是通用型TPMS對應AM市場的比例，也未稱為北美市占。",
+    "沒有找到具期間、分母及市場定義的北美TPMS AM 90%市占資料；保留UNKNOWN。"
+  ]
+}

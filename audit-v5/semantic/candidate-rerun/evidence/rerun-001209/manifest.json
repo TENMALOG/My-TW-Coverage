@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001209",
+  "claim_id": "2406:material_named_relationship:af4e43774998c8a8",
+  "normalized_claim_hash": "af4e43774998c8a81e432cd41e44a77ee09e3dd569047477744b91ee7a8c36de",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-356027dd76f15f98",
+      "title": "太陽能材料－國碩科技工業股份有限公司",
+      "url": "https://www.gigastorage.com.tw/products_list.aspx?category_id=3",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「太陽能導電銲帶」產品說明",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方產品資料；稱其提供太陽能模組裡電池間電力傳輸的重要功能。"
+    },
+    {
+      "source_id": "src-955920691e089a36",
+      "title": "大尺寸模組需求增 太陽能廠國碩Q4可望轉盈",
+      "url": "https://ec.ltn.com.tw/article/paper/1553220",
+      "source_level": 2,
+      "publication_date": "2022-11-24",
+      "effective_period": "報導所述當時；文中稱導電銲帶已佔營收五成，並預估次年比重",
+      "locator": "正文第3段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "次級媒體轉述公司說法；此數字與期間不等同於原主張未標明期間的約四成，也未界定合併或個體營收口徑。"
+    },
+    {
+      "source_id": "src-a070a13349244a5e",
+      "title": "研究發展－國碩科技工業股份有限公司",
+      "url": "https://www.gigastorage.com.tw/about.aspx?id=4",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "金屬線材與多柵圓型導電銲帶段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司官方資料稱 MBB 技術產品大量導入國內模組廠，但頁面未標明該段所述「今年」是哪一年。"
+    },
+    {
+      "source_id": "src-8968bda36329efae",
+      "title": "國碩迎大尺寸模組升級潮 Ribbon新品Q3放量",
+      "url": "https://gfemobile.cnyes.com/news/id/4927982",
+      "source_level": 2,
+      "publication_date": "2022-08-08",
+      "effective_period": "報導稱上半年已有海外訂單出貨",
+      "locator": "正文第4至5段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導支持海外導電銲帶訂單及出貨，但未披露海外買方類型或名稱。"
+    },
+    {
+      "source_id": "src-656476819ae02b6b",
+      "title": "GIGASTORAGE CORPORATION — Annual Report 2025",
+      "url": "https://financialfilings.com/filings/gsc-2406/annual-report/2026/49098467/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "「Advantageous factors」段落；關於鹽城子公司服務中國太陽能電池製造商",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "發行人年報內容的鏡像頁；描述集團服務電池製造商，但未明確說明該客戶關係所涉產品為導電銲帶。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪針對國碩官方產品資料、研發資料、年報與歷史媒體報導的檢索。功能及國內模組廠導入有支持；營收比例與其餘買方範圍仍缺少足以確認原文的期間及產品層級證據，故保留為 UNKNOWN。",
+    "約四成的營收占比缺少期間、合併或個體口徑及可核對的產品營收分子。",
+    "2022年11月24日媒體報導的五成是特定歷史時點的說法，不能直接替代其他期間的營收比重。",
+    "國內模組廠導入的官方頁面未標明段落所指年份；海外訂單報導未披露買方類型。",
+    "年報所述中國電池製造商服務關係未明確指向導電銲帶產品。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2406/1209/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000175",
+  "claim_id": "2324:objective_ranking_or_market_share:5595511e820cef92",
+  "normalized_claim_hash": "5595511e820cef92c5f896d33a58e2b99490112ca060e5f1303e43f212e56733",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-bc105aba47e4e7be",
+      "title": "Case Study: Laptop DELL",
+      "url": "https://www.compal.com/zh-hant/case-study/laptop-dell/",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Case study text describing Compal's collaboration with Dell on XPS 13.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official issuer source confirms the relationship and notebook work, but does not rank Dell among customers."
+    },
+    {
+      "source_id": "src-211ee0a5c37e80ae",
+      "title": "內幕／仁寶筆電業務遇冷！大客戶戴爾不振、聯想轉單 明年拚回春",
+      "url": "https://tw.news.yahoo.com/%E5%85%A7%E5%B9%95-%E4%BB%81%E5%AF%B6%E7%AD%86%E9%9B%BB%E6%A5%AD%E5%8B%99%E9%81%87%E5%86%B7-%E5%A4%A7%E5%AE%A2%E6%88%B6%E6%88%B4%E7%88%BE%E4%B8%8D%E6%8C%AF-%E8%81%AF%E6%83%B3%E8%BD%89%E5%96%AE-%E6%98%8E%E5%B9%B4%E6%8B%9A%E5%9B%9E%E6%98%A5-225000444.html",
+      "source_level": 2,
+      "publication_date": "2025-09-21",
+      "effective_period": "Reports on 2025 notebook business and orders, with some forward-looking discussion.",
+      "locator": "Article passages describing Dell as a major notebook customer and Lenovo as another major customer.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Supports that Dell was a significant customer, not that it was the largest; no comparative customer figures or ranking are supplied."
+    },
+    {
+      "source_id": "src-39defdc0a0eac416",
+      "title": "PC-Maker Logs Out of Lenovo Joint Venture",
+      "url": "https://caixinglobal.com/2018-08-09/pc-maker-logs-out-of-lenovo-joint-venture-101313369.html",
+      "source_level": 2,
+      "publication_date": "2018-08-09",
+      "effective_period": "2018",
+      "locator": "Article passage stating Lenovo would remain Compal's third-largest customer, contributing 15% of PC-making business revenue.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Refers to the broader PC-making business, not notebook-only customer ranking, and does not identify Dell's rank."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The focused research allowance was exhausted without finding a reliable source that establishes Dell's rank among Compal's notebook ODM customers for a defined period and denominator.",
+    "The claim provides no reference period or measure of customer size, such as notebook shipments, order volume, or revenue.",
+    "The official source establishes the Dell relationship but does not disclose a customer ranking.",
+    "Secondary reporting calling Dell a major customer does not establish it is the largest; broader PC-business rankings cannot substitute for a notebook-only ranking."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2324/175/hermes-attempt-1.stdout.txt"
+}

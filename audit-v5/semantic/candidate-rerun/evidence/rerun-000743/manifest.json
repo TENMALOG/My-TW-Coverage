@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000743",
+  "claim_id": "6618:objective_ranking_or_market_share:43a37be574cd8eb6",
+  "normalized_claim_hash": "43a37be574cd8eb6a26ed3dead049ae2ed0e33d3966bdd4bc6914888249b0d55",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-579a335790175aa0",
+      "title": "公司簡介－永虹先進材料股份有限公司",
+      "url": "https://www.uht.com.tw/zh-tw/company",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司介紹、戰略轉型與核心業務段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "搜尋結果線索稱公司專注航太級熱塑性碳纖維複材研發與量產；未能直接擷取頁面內容，不能作為已核實的支持證據。"
+    },
+    {
+      "source_id": "src-4b90fced94aef70a",
+      "title": "高階航太級熱塑性碳纖維複合材料板材",
+      "url": "https://www.uht.com.tw/zh-tw/service/detail/68",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "產品介紹與材料規格",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "搜尋結果線索列出熱塑性碳纖維板材及規格；未能直接擷取頁面內容，且該產品範圍不等同於原 claim 未限定熱塑性的廣泛表述。"
+    },
+    {
+      "source_id": "src-040cd161165220d1",
+      "title": "永虹先進打入國際航太供應鏈 國防無人機投標添成長引擎",
+      "url": "https://money.udn.com/money/story/5612/9009271",
+      "source_level": 2,
+      "publication_date": "2025-09-17",
+      "effective_period": "報導刊出時所轉述的公司說法；非全台市場盤點",
+      "locator": "報導中轉述董事長對「台灣唯一」的說法",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "搜尋結果線索顯示該報導轉述公司說法；頁面未能直接擷取，且公司人士陳述不能獨立驗證排他性。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已進行多組官方網站、公司資料及台灣航太複材廠商的聚焦查找；關鍵頁面擷取逾時，搜尋結果片段依要求僅作發現線索，故停止並將未能直接核實的原子主張保留為 UNKNOWN。",
+    "官方與新聞網頁擷取均因網頁擷取服務逾時而未取得正文；搜尋結果片段僅作為查找線索，未視為已核實證據。",
+    "「航太級」及「生產技術」的產品／製程邊界未明確界定。",
+    "目前可查得的唯一性說法限定於航太級高階熱塑性碳纖維複材，原 claim 未包含此限制；不得將狹義說法外推至所有航太級碳纖維複材。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6618/743/hermes-attempt-1.stdout.txt"
+}

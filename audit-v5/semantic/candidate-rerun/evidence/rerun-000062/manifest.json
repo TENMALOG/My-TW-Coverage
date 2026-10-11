@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000062",
+  "claim_id": "2256:objective_ranking_or_market_share:8d2c0b8f1fbe9b0c",
+  "normalized_claim_hash": "8d2c0b8f1fbe9b0ca3ff74fb04d8da50d38f2ef505d3854d252be5011ff5f810",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-8671efe19125c798",
+      "title": "視覺 AI 自動停車系統打進小鵬供應鏈！歐特明電子即將登錄興櫃",
+      "url": "https://today.line.me/tw/v3/article/nX1GOoq",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "報導刊出時提出的2023年目標。",
+      "locator": "文中董事長談降低客戶集中度及2023年目標的段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導明載目標為將小鵬汽車營收占比降至五成；屬媒體轉述管理層前瞻性說法。"
+    },
+    {
+      "source_id": "src-fa4f12e073200184",
+      "title": "歐特明今日興櫃！8年新創打進裕隆、小鵬供應鏈，AI打造的自動停車系統厲害在哪？",
+      "url": "https://www.bnext.com.tw/article/66568/otobrite-ipo",
+      "source_level": 2,
+      "publication_date": "2021-12-08",
+      "effective_period": "報導刊出時預估2023年小鵬營收占比降至5至6成。",
+      "locator": "「加入MIH聯盟，布局多元市場」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "同期報導引述董事長所述預估範圍；佐證客戶分散目標，但範圍並非精確等同50%。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "兩個原子主張均有同期媒體報導直接支持，並已區分歷史客戶排名與未來目標；停止於支持證據，未將目標推定為實際達成。",
+    "客戶排名、占比及目標主要來自媒體對公司管理層說法的報導，未找到可直接核實小鵬客戶名稱及其營收占比的公司正式披露。",
+    "公司2023年度年報可佐證其與小鵬的業務關係及客戶多元化方向，但未核實上述特定客戶占比或50%目標是否達成。",
+    "科技新報報導的精確刊出日期未能確認；數位時代文章刊於2021-12-08，提供同期交叉佐證。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2256/62/hermes-attempt-1.stdout.txt"
+}

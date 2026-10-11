@@ -1,0 +1,70 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000847",
+  "claim_id": "8390:objective_ranking_or_market_share:f55fed9eabcb8974",
+  "normalized_claim_hash": "f55fed9eabcb89749001dfa4075a254956ff9d3c34d841fd733df29c4fc3f7d7",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e39406daf15797b83aea",
+      "title": "金益鼎企業股份有限公司113年度年報",
+      "url": "https://www.jyd.com.tw/storage/system/PDF/2025/113-tw-edit.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "113年度（2024）；唯一性主張見年報第7頁。",
+      "locator": "第7頁，競爭優勢第3點；PDF文字行222–224。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報明確稱其為國內取得太陽能板回收處理代碼業者中唯一上市櫃公司，並列出D-2528代碼。"
+    },
+    {
+      "source_id": "src-bde2346523fb64d27c5b",
+      "title": "金益鼎企業股份有限公司113年度年報",
+      "url": "https://www.jyd.com.tw/storage/system/PDF/2025/113-tw-edit.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "113年度年報；研發案預計完成年度為114年度（2025）。",
+      "locator": "第90頁「太陽能板回收」研發說明及第91頁研發計劃表；PDF文字行3710–3729、3738–3746。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "第91頁的98%欄位屬研發案目前進度；表中沒有回收率測量值、單位或分母。"
+    },
+    {
+      "source_id": "src-d0a42d5b68c266232a7b",
+      "title": "金益鼎新竹二廠將商轉，拚放大回收量能",
+      "url": "https://5850web.moneydj.com/z/zf/zufzVIP_124D932C-7F59-4AE3-86F5-B6E02285B85B_E_.djhtm",
+      "source_level": 2,
+      "publication_date": "2025-12-15",
+      "effective_period": "報導稱技術處於研發階段；測量期間未載明。",
+      "locator": "報導正文，太陽能板回收技術回收率近98%的敘述。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "二手報導稱「分析指出」，未提供原始測量來源、回收率定義、分母或物料範圍。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱公司年報、環境部相關資訊及二手報導。唯一性有公司年報直接陳述，但未獨立核對比較母體；回收率的期間、分母與測量口徑仍未解決，故保留UNKNOWN。",
+    "唯一上市櫃公司的比較主張來自金益鼎自身年報，未找到同期完整的代碼持有人名單及上市櫃身分逐一比對資料。",
+    "98%回收率的二手報導未說明測量口徑；公司年報中的同一數字明確位於研發案進度欄，不應替代回收率證據。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8390/847/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "1a36c5bf5d1e7459dd9373a01ab0881f81ae7f2fd2c77f6ddff477272a2a84d1",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8390/847/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "25a471f757530073a4588af80cd24c4fc4f6cfffd1f9673c6cdf7f92f91506c3",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000847/manifest.json",
+  "supersedes_manifest_sha256": "df5ea9195a87916905027428a539b474d5fa8d04dce2d5bdda10e4c3b15b1d73",
+  "corrected_at": "2026-10-08T09:58:50Z"
+}

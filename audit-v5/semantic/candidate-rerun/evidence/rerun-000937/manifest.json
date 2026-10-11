@@ -1,0 +1,57 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000937",
+  "claim_id": "6142:profitability_assertion:10e796816f8274f4",
+  "normalized_claim_hash": "10e796816f8274f4f82bdf7716fd4f88a7d2719ceca15662acc02189f69ceac6",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-2cf86fd4ef27de1a",
+      "title": "友勁轉攻高階商用產品有成 下半年新機種陸續上市",
+      "url": "https://m.cnyes.com/news/id/6044208",
+      "source_level": 2,
+      "publication_date": "2025-06-30",
+      "effective_period": "2025年度產品策略",
+      "locator": "文章第67行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "媒體報導引述總經理；未提供產品市場別營收或占比。([m.cnyes.com](https://m.cnyes.com/news/id/6044208))"
+    },
+    {
+      "source_id": "src-e38d57200fccfae8",
+      "title": "CAMEO COMMUNICATIONS, INC. 2025 Annual Report",
+      "url": "https://www.cameo.com.tw/wp-content/uploads/2026/06/114%E5%B9%B4%E5%BA%A6%E8%8B%B1%E6%96%87%E5%B9%B4%E5%A0%B1-%E5%8F%8B%E5%8B%81%E7%A7%91%E6%8A%800509.3final.pdf",
+      "source_level": 3,
+      "publication_date": "2026-05-09",
+      "effective_period": "2026年度營運計畫",
+      "locator": "PDF第2–3頁，2026 Business Plan之營運政策及預計銷售",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司年報明示高階整合產品、企業接取器等策略與毛利/獲利目標；沒有產品類別別毛利率或營收分母。([cameo.com.tw](https://www.cameo.com.tw/wp-content/uploads/2026/06/114%E5%B9%B4%E5%BA%A6%E8%8B%B1%E6%96%87%E5%B9%B4%E5%A0%B1-%E5%8F%8B%E5%8B%81%E7%A7%91%E6%8A%800509.3final.pdf))"
+    },
+    {
+      "source_id": "src-483f6d8fdae25bd9",
+      "title": "友勁科技股份有限公司一一○年股東常會議事錄",
+      "url": "https://www.cameo.com.tw/wp-content/uploads/2021/08/110%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2021年度營業計畫",
+      "locator": "PDF第7頁，年度經營方針第2項",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "提及產品組合由零售用戶與電信/運營商用戶端市場轉向企業及資料中心市場，並意在擺脫低單價、低毛率競爭；未指出被轉移產品均為消費型網通產品或已全面汰除。([cameo.com.tw](https://www.cameo.com.tw/wp-content/uploads/2021/08/110%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84.pdf))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已核對公司2025年年報、2025年度股東會資料、2021年公司策略文件及2025年法說會報導。未找到可確認低毛利舊產品即為消費型網通產品、或該類產品已全面退出的證據；此範圍與程度維持UNKNOWN。",
+    "MIT及品質/資安優勢的直接佐證來自2025年法說會媒體報導對總經理發言的轉述；未找到公司文件逐項核驗所有產品產地。",
+    "公司年報支持2025年度低毛利舊品逐步汰換，但沒有披露這些舊品的產品類別、銷售占比或毛利率。",
+    "2021年度策略與2025年度產品方向支持朝企業/資料中心及商用市場轉移，不能單獨證明消費型網通產品已全面汰除。",
+    "「高毛利」在年報中是產品策略與目標描述；沒有企業/商用產品別實際毛利率或營收占比可驗證「營運重心集中」的程度。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6142/937/hermes-attempt-1.stdout.txt"
+}

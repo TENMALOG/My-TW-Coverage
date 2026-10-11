@@ -1,0 +1,42 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000583",
+  "claim_id": "2408:objective_ranking_or_market_share:c4377f2679307d07",
+  "normalized_claim_hash": "c4377f2679307d074c31d056e7d4ff5752e0da714c2d7cfea8c39cbe9b7ac25a",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-2677209605f6cf66",
+      "title": "Press Release",
+      "url": "https://nanya.com/en/IR/16/Press%20Release?IRId=655",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "段落 “Nanya upholds the core value of DRAM…”",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述將成為台灣DRAM領導者並「rank No. 4 in the world」；未說明排名基準或適用期間。"
+    },
+    {
+      "source_id": "src-e532d770ea5fb738",
+      "title": "公司簡介",
+      "url": "https://www.nanya.com/tw/About/2/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「值得信任的DRAM公司」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面明載南亞科技「是全球第4大的DRAM公司」；未附排名期間或衡量方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成8個聚焦研究回合。可查得的官方資料未補足台灣排名的指標、母體及期間；依研究限制停止，該原子主張維持UNKNOWN。",
+    "排名主張的官方來源未提供市場排名的計算指標、分母範圍或有效期間。",
+    "官方來源可證明公司作出該排名自述，但不足以獨立驗證「台灣最大」的量化排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2408/583/hermes-attempt-1.stdout.txt"
+}

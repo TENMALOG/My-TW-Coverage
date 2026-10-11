@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000750",
+  "claim_id": "6909:objective_ranking_or_market_share:16496bc64a01509f",
+  "normalized_claim_hash": "16496bc64a01509f190771cf2659ef900068f38c2d6096de8bdb33dd89671214",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-5dadd8b41c0ff850",
+      "title": "創控科技榮獲台積電先進製程高度肯定獎",
+      "url": "https://www.tricorntech.com/news-detail/39/",
+      "source_level": 3,
+      "publication_date": "2015-04-06",
+      "effective_period": "Disclosure dated 2015-04-06; ongoing effective period not specified.",
+      "locator": "頁面副標「唯一認可，可與實驗室數據比對之現地 VOC 監測系統」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "這是產品認可及性能比較範圍的表述，不是投資推薦，也未定義 AMC 監測市場的排名分母。"
+    },
+    {
+      "source_id": "src-216723372ffdef4b",
+      "title": "新上市公司：創控(6909)",
+      "url": "https://www.twse.com.tw/market_insights/zh/detail/8a8216d696b406fc0196cd6fc59e0048",
+      "source_level": 3,
+      "publication_date": "2025-05-21",
+      "effective_period": "Company and product description published 2025-05-21; no longer-term period stated.",
+      "locator": "「市場定位」段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "TWSE article describes MiTAP as a platform for semiconductor AMC monitoring; it does not independently establish TSMC adoption."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱創控官方披露、證交所公司介紹及針對推薦／唯一性表述的變體搜尋；產品與台積電的歷史關係有支持，但沒有可核實「唯一高度推薦」的來源，該原子主張維持 UNKNOWN。",
+    "台積電採用與認證的證據來自創控官方披露，資料日期為 2015-04-06；未找到台積電方面的獨立披露確認。",
+    "證據指向特定 MiTAP VOC 監測系統及歷史關係，不能外推為目前持續採用、完整 AMC 監測產品線採用或市場份額。",
+    "「唯一認可」與「唯一高度推薦」含義及比較範圍不同；目前缺少推薦來源、時間、評等標準及比較對象。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6909/750/hermes-attempt-1.stdout.txt"
+}

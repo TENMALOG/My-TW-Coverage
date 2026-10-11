@@ -1,0 +1,83 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000466",
+  "claim_id": "5287:objective_ranking_or_market_share:ee2db393fbb7a072",
+  "normalized_claim_hash": "ee2db393fbb7a072d6041757298e880c95a24da5d35363d0f282bf846b3a73fe",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-b5b143f13c472ada",
+      "title": "591房屋交易-租屋買屋查房價首選APP App Store",
+      "url": "https://apps.apple.com/jp/app/591%E6%88%BF%E5%B1%8B%E4%BA%A4%E6%98%93-%E7%A7%9F%E5%B1%8B%E8%B2%B7%E5%B1%8B%E6%9F%A5%E6%88%BF%E5%83%B9%E9%A6%96%E9%81%B8app/id448156496?l=en-US",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "App description, section 「租售」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer-controlled promotional copy claims the platform is the most numerous, but supplies no comparative basis or market denominator."
+    },
+    {
+      "source_id": "src-5606aea5ba003603",
+      "title": "平台規模續擴 數字科技啟動異業合作",
+      "url": "https://www.ctee.com.tw/news/20250422700238-439901",
+      "source_level": 2,
+      "publication_date": "2025-04-22",
+      "effective_period": "FY2024",
+      "locator": "Paragraph beginning 「目前各平台營收占比」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Reputable business newspaper reports the company’s FY2024 platform revenue shares; the platform shares sum to 100%."
+    },
+    {
+      "source_id": "src-7f03273f8ff6890a",
+      "title": "數字財報／去年營收、獲利雙創高 連17年賺逾一個股本",
+      "url": "https://addcn.com/investment-details-685.html",
+      "source_level": 2,
+      "publication_date": "2025-03-11",
+      "effective_period": "FY2024",
+      "locator": "Investor-relations article, paragraph beginning 「數字科技2024年各平台營收比重」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Published on the issuer's investor-relations site but explicitly attributed to a reprint of Economic Daily News; reports 591 at 69% and other platform shares."
+    },
+    {
+      "source_id": "src-7533d72995eba154",
+      "title": "591刊登費用說明",
+      "url": "https://www.591.com.tw/help-helpser1_5_2.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Opening fee statement and table rows 「出租(房東)」 and 「出售(房東)」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official 591 help page says posting rental/sale information incurs a fee. Its rental fee amounts conflict within the page; no exact amount is asserted here."
+    },
+    {
+      "source_id": "src-fb33cf6e42fc02db",
+      "title": "售屋套餐宣傳頁",
+      "url": "https://www.591.com.tw/userCenter-rentSaleActDisBuy.html",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「售屋套餐購買」 table, including 「普通套餐（適合：仲介/代理人）」; 「套餐使用規則」 item 1",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Official page lists paid sale-listing packages for brokers/agents and says package points are deducted after purchase."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches and source-page extraction found support for the service scope, FY2024 revenue contribution, and paid listing models. The comparative market-rank claim remains unresolved because no reliable source established its period, market definition, metric, or denominator.",
+    "「台灣最大」僅見於591自有產品宣傳描述，缺少排名期間、同類市場定義、比較對象及分母。",
+    "FY2024的69%營收占比由工商時報報導及刊於公司投資者專區的媒體轉載支持，並非本次找到的經查核分平台財報附表。",
+    "591官方刊登費說明頁對出租刊登費列示不一致；本次只採信其明確表明刊登收費，不引用單一租屋價格。",
+    "591官方經紀人售屋套餐頁及刊登費頁均未標示發布或生效日期。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/5287/466/hermes-attempt-1.stdout.txt"
+}

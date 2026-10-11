@@ -1,0 +1,30 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001254",
+  "claim_id": "4401:material_named_relationship:fd1449426537e15a",
+  "normalized_claim_hash": "fd1449426537e15a91952b8c87e23fca9228f551bcaef23e159c801c14d34a30",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-e884fe19a48169e8",
+      "title": "東隆興業股份有限公司 Investor Conference",
+      "url": "https://mopsov.twse.com.tw/nas/STR/440120251030M001.pdf",
+      "source_level": 3,
+      "publication_date": "2025-10-30",
+      "effective_period": null,
+      "locator": "PDF p. 7, slide titled 產品應用分類 (Product Application Categories)",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Lists Under Armour in the fitness/sports and lifestyle apparel category. ([mopsov.twse.com.tw](https://mopsov.twse.com.tw/nas/STR/440120251030M001.pdf))"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Targeted searches located the issuer's 2025 presentation, which supports the listed product-application associations. The presentation does not substantiate the 'core supplier' qualifier or a direct supplier/customer role, so those points remain unresolved rather than inferred.",
+    "The primary source is an issuer investor-conference presentation filed on the Taiwan Market Observation Post System.",
+    "The presentation labels the brand list as product applications; it does not explicitly identify the brands as direct customers or suppliers.",
+    "The category percentages shown are not brand-specific shares, and the slide does not specify a brand-level denominator or measurement period."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/4401/1254/hermes-attempt-1.stdout.txt"
+}

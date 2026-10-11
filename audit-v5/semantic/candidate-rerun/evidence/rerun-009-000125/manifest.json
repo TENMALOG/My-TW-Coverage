@@ -1,0 +1,71 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-000125",
+  "claim_id": "1714:objective_ranking_or_market_share:849ab16abec60b83",
+  "normalized_claim_hash": "849ab16abec60b83b452d7493713d3958e4e0249fbc3bc223fe39de5e8c24ffb",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-9217eeac7115b60458b3",
+      "title": "基本資料 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/about",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "「關於和桐-基本資料」段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "States that the company is currently Asia’s largest supplier of surfactant raw materials."
+    },
+    {
+      "source_id": "src-2d774b48f0a0e8b54daa",
+      "title": "化工專業廠挺進高值化、電子利基應用",
+      "url": "https://www.ctee.com.tw/news/20261002700844-430503",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Article paragraph beginning「和桐為亞洲正烷屬烴與清潔劑原料的龍頭供應商」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Secondary-source characterization of Asian leadership; no supporting ranking data or denominator is provided."
+    },
+    {
+      "source_id": "src-1f1ca033793ec629cbb5",
+      "title": "責任治理 - 和桐化學股份有限公司",
+      "url": "https://www.htgroup.com.tw/products-33?lang=tw",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Paragraph beginning「和桐所生產之化學品『正烷屬烴』」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Confirms production of normal paraffin and supply to Asian customers, but makes no leadership or market-share claim."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "Focused searches of issuer materials, investor-presentation references, and secondary reporting found an issuer statement supporting the surfactant-supplier claim, but no ranking data or defined denominator that resolves the normal-paraffin leadership atom.",
+    "The surfactant-raw-material ranking is stated by the issuer, without a defined market boundary or disclosed comparison basis.",
+    "The normal-paraffin leadership description appears in secondary reporting, but available evidence does not specify a ranking, market denominator, or units.",
+    "Issuer disclosures about normal-paraffin production and Asian customers establish activity, not leadership."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/1714/125/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-002",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "fc36087fc1a3883546546919663a0bf3dfbe9438f45b8094063c2fba5023780f",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/1714/125/isolated-prompt.txt",
+  "prompt_sha256": "9715588f9df140938800a206a5cef3a3f7879e72cfe50cca77fdf9c584cd29b3",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-000125/manifest.json",
+  "supersedes_manifest_sha256": "d2737045a8f790d06c66e47186357d3e0a21151bed954e3272f50277150d6ea0",
+  "corrected_at": "2026-10-08T09:57:48Z"
+}

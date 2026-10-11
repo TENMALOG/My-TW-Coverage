@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000965",
+  "claim_id": "3231:material_named_relationship:1d9cf38dc03b36db",
+  "normalized_claim_hash": "1d9cf38dc03b36db4bb9472a78620afb502f8ea2ab403e0b9ec3a23ba5090020",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b74ab88672468fba",
+      "title": "台媒：英伟达部分AI服务器订单从纬创转至工业富联",
+      "url": "https://www.thepaper.cn/newsDetail_forward_24095457",
+      "source_level": 2,
+      "publication_date": "2023-08-03",
+      "effective_period": "2023年",
+      "locator": "第41行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "報導稱緯創供應 DGX、HGX 系列 GPU 基板；屬媒體對供應鏈及外資報告的轉述。"
+    },
+    {
+      "source_id": "src-2079b1595b0ff064",
+      "title": "Wistron Uses NVIDIA Omniverse and NVIDIA Modulus to Build Digital Twin Platform, Transforming Factory Planning and Operations",
+      "url": "https://www.wistron.com/en/Newsroom/2024-03-19-1",
+      "source_level": 3,
+      "publication_date": "2024-03-19",
+      "effective_period": "2024年",
+      "locator": "第10–12行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "緯創官方稱其面臨增加供應 NVIDIA DGX 系統的需求；未提及 GPU 基板或獨家供應。"
+    },
+    {
+      "source_id": "src-6e65eb61346d4332",
+      "title": "工業富聯：供輝達AI伺服器晶片基板逾5成",
+      "url": "https://www.cna.com.tw/news/afe/202401030066.aspx",
+      "source_level": 2,
+      "publication_date": "2024-01-03",
+      "effective_period": "報導所述為2023年已取得的 DGX 基板訂單",
+      "locator": "第290–296行",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "中央社報導引述工業富聯主管表示其有 NVIDIA DGX AI 伺服器晶片基板訂單，並稱其為 NVIDIA AI 伺服器晶片基板最大供應商。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成針對官方披露及供應鏈報導的聚焦查核。可核實歷史供應關係，但現行、SKU層級的獨家供應狀態仍缺乏可靠公開證據，故該範圍保留 UNKNOWN。",
+    "緯創官方聲明確認 DGX 系統供應關係，沒有確認 GPU 基板的具體供應範圍或獨家性。",
+    "獨家性反證來自媒體對供應鏈及工業富聯主管說法的報導；公開資料未細分 DGX 世代、板卡版本或 SKU。",
+    "原始 claim 未提供期間；不得將2023至2024年的供應鏈報導外推為2026年現況。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3231/965/hermes-attempt-1.stdout.txt"
+}

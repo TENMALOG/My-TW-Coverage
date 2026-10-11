@@ -1,0 +1,81 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000836",
+  "claim_id": "6803:objective_ranking_or_market_share:d6b824ac14940918",
+  "normalized_claim_hash": "d6b824ac14940918d2ee2969739737a8d5b5c0c4c13bb5d91bd9993b59fef2fd",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-8833c51d86426c6a",
+      "title": "Company Profile — ECOVE",
+      "url": "https://www.ecove.com/csr/page.aspx?C=0101&L=EN",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方公司簡介現況；存取日 2026-10-07",
+      "locator": "About ECOVE",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱 ECOVE 為 CTCI 的 subsidiary。"
+    },
+    {
+      "source_id": "src-9fa83d55505e5565",
+      "title": "公司簡介 — 崑鼎綠能環保股份有限公司",
+      "url": "https://www.ecove.com/?C=0501&L=ch",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方公司簡介現況；存取日 2026-10-07",
+      "locator": "公司簡介首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "說明旗下公司涵蓋能資源、再生能源、循環再利用及系統設施建置與維護等領域。"
+    },
+    {
+      "source_id": "src-65769699406b084c",
+      "title": "創新與供應鏈 — 崑鼎綠能環保股份有限公司",
+      "url": "https://www.ecove.com/csr/page.aspx?C=0204&L=CH",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "官方頁面現況；存取日 2026-10-07",
+      "locator": "頁面首段",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "稱崑鼎為台灣首家以資源循環為主要營運範疇的投資控股公司。"
+    },
+    {
+      "source_id": "src-09bc96ba6277ea69",
+      "title": "崑鼎綠能環保股份有限公司 114 年報",
+      "url": "https://www.ecove.com/upload/comF/0903/%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83/%E5%B4%91%E9%BC%8E-114%E5%B9%B4%E5%A0%B1-%E5%85%A8.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "民國 114 年（2025）",
+      "locator": "第 4.1.2 節「產業概況」；報告 PDF 約第 80 頁",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "列出台灣 27 座大型都市垃圾焚化廠及崑鼎與子公司管理廠的廢棄物進廠量，未列競爭者對照或排名。"
+    },
+    {
+      "source_id": "src-f931228c02e961ac",
+      "title": "ECOVE 2019 Annual Report",
+      "url": "https://www.ecove.com/upload/comF/0903/%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83/%E5%B4%91%E9%BC%8E2019%E5%B9%B4%E5%B9%B4%E5%A0%B1%28%E8%8B%B1%E6%96%87%E5%85%AC%E5%91%8A%E7%89%88%29.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2019 年市場資料",
+      "locator": "第 5.1.2 節 Market Analysis；ECOVE Environment Services Corporation 段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報稱該子公司所營運維護焚化廠的設計容量占全台總設計容量 26%，並稱其在台灣最大；僅支持該期間、該子公司及該容量口徑下的排名。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成多輪聚焦查找並核對官方公司資料、年報及歷史排名材料；仍缺少可確認現況「最大」排名的同口徑市場比較，依規則將該原子主張保留為 UNKNOWN。",
+    "「最大」須界定期間、營運商範圍及排名分母（如管理廠數、設計容量或實際處理量）；現有資料未提供足以確認現況排名的同口徑競爭者比較。",
+    "公司自述或歷史年報中的排名不能直接外推為現況；也不能把單一子公司的歷史設計容量排名等同於崑鼎整體現況排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6803/836/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000267",
+  "claim_id": "2327:objective_ranking_or_market_share:4bc2906c15245aae",
+  "normalized_claim_hash": "4bc2906c15245aae8bafb4a3757c7705b8595784055bf97f1421fc4bbc963621",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-ce0306579db8f69b",
+      "title": "YAGEO Group Overview",
+      "url": "https://yageogroup.com/About/YAGEOGroupOverview",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介；全球排名段落",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "國巨自述電感全球排名第3；未提供排名計算口徑或生效日期。"
+    },
+    {
+      "source_id": "src-408d4c84ff92e3bc",
+      "title": "YAGEO Corporation Company Presentation, November 2024",
+      "url": "https://yageogroup.com/content/Resource%20Library/Financial/YAGEO%20Corporation_202411-E_20241105.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "Leading Market Position，Inductors市場地位圖（簡報第13頁）",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方圖表呈現多個電感供應商百分比，但未標示數據基準日、分母或足以確認國巨為12%的口徑。"
+    },
+    {
+      "source_id": "src-c7ec549d2e1a2dc7",
+      "title": "YAGEO Group Corporate Presentation, 2026 Q1",
+      "url": "https://yageogroup.com/content/Resource%20Library/Governance/YAGEO%20Group%20Corporate%20Presentation%202026Q1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2026 Q1簡報；產能指標",
+      "locator": "Capacitor Product Business Group；MLCC市場地位",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方簡報稱MLCC為全球產能逾15%；這是全球產能占比而非已確認與原主張相同口徑的市場市占率。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已完成六輪聚焦搜尋及官方資料查核；仍未取得能確認MLCC 15%與電感12%之期間、分母及市場定義的可靠證據，依任務限制保留為UNKNOWN並停止。",
+    "排名及市占圖表主要來自國巨自身簡報或公司簡介，屬發行人自述，並非獨立市場調查。",
+    "2024年簡報的市占圖未交代數據基準日、計算方法或分母；市占率、銷量占比與產能占比不可視為同一指標。",
+    "原主張未指定年份或市占口徑，MLCC 15%及電感12%因此無法按同期間、同分母完成核驗。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2327/267/hermes-attempt-1.stdout.txt"
+}

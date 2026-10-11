@@ -1,0 +1,29 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000808",
+  "claim_id": "2063:objective_ranking_or_market_share:6515f294bf11593a",
+  "normalized_claim_hash": "6515f294bf11593afc9cb713ffeb79401d59be351a3dccdc5e8d732915bb6560",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-a26219aabc15d666",
+      "title": "世鎧精密股份有限公司 114年股東會年報（中文版）",
+      "url": "https://www.shehkai.com.tw/uploadfiles/272/06%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/04%E8%82%A1%E6%9D%B1%E6%9C%83%E8%AD%B0%E4%BA%8B%E9%8C%84/04%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1/114%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1%E4%B8%AD%E6%96%87%E7%89%88.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025（民國114年度）",
+      "locator": "PDF p. 84，市場分析「主要產品銷售地區及市場佔有率」表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報以新台幣千元列示各地區銷售額；此處僅比較外銷分區，不包括台灣內銷。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已查閱世鎧官方114年度年報及相關市場資料；市場排名可按官方銷售地區表釐清，但通路客戶類別仍缺乏直接證據。",
+    "原主張未註明「最大市場」的比較分母。年報顯示歐洲是最大外銷區域，但台灣內銷在全部銷售地區中占比更高。",
+    "未找到可靠證據確認歐洲建材通路商及五金經銷商這項通路描述；不能把年報提及品牌代工或一般通路合作視為該客戶類別的證明。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/2063/808/hermes-attempt-1.stdout.txt"
+}

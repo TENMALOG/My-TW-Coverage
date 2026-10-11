@@ -1,0 +1,82 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000321",
+  "claim_id": "6120:objective_ranking_or_market_share:f6aa9a39447d6971",
+  "normalized_claim_hash": "f6aa9a39447d6971f516aae70476f1287c7b8f78d39915499a32a9b5ae07908d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-f64fd4ee11bec7e5",
+      "title": "達運精密工業股份有限公司民國一一四年度年報",
+      "url": "https://www.darwinprecisions.com/data/shareholders/files/1780281051594250749.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "2025年度",
+      "locator": "年報；本次取得的摘錄包含營運及產品資料，未呈現可核對友達客戶排名的表格或段落。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報摘錄未能支持或否定本項客戶排名；不能將未見於摘錄解讀為官方披露中不存在該資訊。"
+    },
+    {
+      "source_id": "src-abf5299455b12a2d",
+      "title": "達運精密（6120）：從背光模組到微米工藝，FMM 與 AIoT 雙引擎驅動的轉型之路",
+      "url": "https://uc913.com/stock-6120",
+      "source_level": 2,
+      "publication_date": null,
+      "effective_period": "頁面提及2024年第三季法說資料及2023年度年報，未明確標示最大客戶說法的適用期間。",
+      "locator": "「客戶結構與供應鏈分析」之「集團客戶」項。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "該二手文章稱友達為最大客戶，但所列參考資料未提供可直接核驗此排名的具體頁碼或客戶銷售數據，故不足以確認原主張。"
+    },
+    {
+      "source_id": "src-63575bbf317ba97f",
+      "title": "達運（6120）公司分析頁",
+      "url": "https://finlab.finance/stocks/6120",
+      "source_level": 1,
+      "publication_date": null,
+      "effective_period": "頁面摘要提及2025年度客戶資料。",
+      "locator": "頁面中客戶與供應鏈摘要。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "搜尋摘要稱2025年最大客戶為未具名A公司，並列友達及友達廈門的銷貨占比；頁面含AI生成內容，未在本次核驗中獲官方原始表格佐證，因此僅作為待核查線索，不據此判定原主張矛盾。"
+    },
+    {
+      "source_id": "src-baf1732b4e38f871",
+      "title": "背光模組－達運精密",
+      "url": "https://www.darwinprecisions.com/zh-tw/component.php?act=list",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "現行產品資訊；網頁未標明資料有效日期。",
+      "locator": "背光模組產品頁。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方頁面明確列出背光模組及相關產品服務。"
+    },
+    {
+      "source_id": "src-4c7df9a4744d7a1c",
+      "title": "DARWIN PRECISIONS CORPORATION Annual Report for Fiscal year 2024",
+      "url": "https://www.darwinprecisions.com/data/shareholders/files/1748225681140302541.pdf",
+      "source_level": 3,
+      "publication_date": "2025-04-13",
+      "effective_period": "2024-01-01至2024-12-31",
+      "locator": "Letter to Shareholders及Business Strategy and Outlook，年報第1至4頁。",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "年報提及背光模組組裝、自動化及車用背光模組業務。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "已達可用研究工具回合上限。背光模組產品事實有官方來源支持；最大客戶排名仍缺少可核實且期間明確的官方客戶銷售資料。",
+    "原主張沒有指定客戶排名所屬年度、銷售範圍或客戶合併口徑。",
+    "二手文章稱友達為最大客戶，但其引用資料不足以直接核驗該排名。",
+    "搜尋摘要中的2025客戶占比線索來自含AI生成內容的頁面，未獲官方原始披露確認，故未用作支持或反駁排名。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/6120/321/hermes-attempt-1.stdout.txt"
+}

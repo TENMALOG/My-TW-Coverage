@@ -1,0 +1,28 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-001180",
+  "claim_id": "3444:export_concentration:1c5cfb21d1b7d9aa",
+  "normalized_claim_hash": "1c5cfb21d1b7d9aa4b9166bbf255910c4344873b9ba728f62d5d8d92a1c3d3ab",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-284138ae7b58661d",
+      "title": "利機企業股份有限公司一一三年度年報",
+      "url": "https://www.niching.com.tw/investors_document-detail/138/",
+      "source_level": 3,
+      "publication_date": "2025-05-16",
+      "effective_period": "113年度（2024年）",
+      "locator": "第55頁（PDF第57頁），「主要商品(服務)之銷售(提供)地區」表",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "官方年報直接列出銷售地區金額及比重；金額單位為新台幣仟元。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "官方113年度年報直接支持原句的年度、銷售地區分類、占比及收入分母；已取得足以評估該原子主張的證據。",
+    "年報將外銷範圍標示為「亞洲及其他地區」；原句的「外銷」在此依年報分類理解。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/3444/1180/hermes-attempt-1.stdout.txt"
+}

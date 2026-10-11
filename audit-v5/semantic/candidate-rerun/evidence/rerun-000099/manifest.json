@@ -1,0 +1,43 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-000099",
+  "claim_id": "8930:objective_ranking_or_market_share:b7304d14590e5873",
+  "normalized_claim_hash": "b7304d14590e5873e695edef06cd2051d5c209dcc8390514aff781a7117b6b8d",
+  "accessed_date": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "src-912f563f1675ce2f",
+      "title": "青鋼應用材料股份有限公司 2022年度年報（民國111年度年報）",
+      "url": "https://ckm.com.tw/data/uploads/5a9c27fc12c03399c0bbb653a1f34874.pdf",
+      "source_level": 3,
+      "publication_date": "2023-05-10",
+      "effective_period": "1980年公司沿革",
+      "locator": "第3頁，貳、公司簡介；二、公司沿革；民國80年",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "記載引進自動化生產設備，但未界定自動化程度。"
+    },
+    {
+      "source_id": "src-2cfbe1a23405625e",
+      "title": "青鋼應用材料公司簡介",
+      "url": "https://ckm.com.tw/zh-hant/about-aboutus.php",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": null,
+      "locator": "公司簡介頁，段落「CKM成立於1982年」",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "公司自述為「唯一上市的金屬建材公司」；頁面未列市場分母或判定方法。"
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "完成五輪聚焦查找並核對公司年報與官網。成立年份、年報所列總公司所在地及導入自動化設備有證據；全自動化程度與兩項市場排名欠缺明確範圍或獨立比較證據，故保留為UNKNOWN並停止查找。",
+    "公司官網的首家與唯一上市說法是 issuer self-claims，未附比較名單、定義或方法。",
+    "年報支持自動化設備導入，但沒有支持「全自動化」的程度描述。",
+    "總公司地址證據來自2022年度年報，不能單獨證明 claim 未指明期間的地址狀態。"
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8930/99/hermes-attempt-1.stdout.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "semantic-candidate-evidence-manifest-1",
+  "rerun_id": "rerun-009-001277",
+  "claim_id": "8917:material_named_relationship:73633ab28e6947bb",
+  "normalized_claim_hash": "73633ab28e6947bb26849609982e3dcfb9c4ca48c2ca373457ad69e2dd2cf135",
+  "accessed_date": "2026-10-07",
+  "sources": [
+    {
+      "source_id": "src-b2c69ca2d4fa73e2450f",
+      "title": "欣泰石油氣股份有限公司 113年度年報",
+      "url": "https://www.htgas.com.tw/webdoc/060000000-%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/060100000-%E6%8A%95%E8%B3%87%E4%BA%BA%E5%B0%88%E5%8D%80/060103000-%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E8%A8%8A/060103011-%E8%82%A1%E6%9D%B1%E6%9C%83%E8%B3%87%E8%A8%8A/zh/114/%E6%AC%A3%E6%B3%B0%E7%9F%B3%E6%B2%B9113%E5%B9%B4%E8%82%A1%E6%9D%B1%E6%9C%83%E5%B9%B4%E5%A0%B1.pdf",
+      "source_level": 3,
+      "publication_date": null,
+      "effective_period": "FY2024; supplier table includes FY2022, FY2023, and Q1 2025.",
+      "locator": "Page 55, sections (三)主要原料之供應狀況 and (四)最近二年度主要供應商資料.",
+      "source_sha256": null,
+      "raw_path": null,
+      "raw_capture_status": "referenced_by_Hermes_web_tool",
+      "note": "Issuer disclosure says 欣泰’s natural-gas source is exclusively 台灣中油 and that its gas is purchased from that company."
+    }
+  ],
+  "search_notes": [
+    "Isolated Hermes Agent run using gpt-6-luna with xhigh reasoning and web tools.",
+    "The issuer’s FY2024 report directly supports the relationship for its disclosure period. Current status beyond that period remains unresolved because the later annual-report PDF could not be retrieved.",
+    "A link to 欣泰’s 2025 (ROC year 114) annual report was located, but the underlying PDF timed out when opened; its contents could not be checked for a newer confirmation.",
+    "The annual report’s aggregate-purchase table is not the denominator for the narrower claim about the source of natural gas."
+  ],
+  "hermes_raw_output": "audit-v5/source-cache/candidate-rerun/8917/1277/rerun-008/hermes-attempt-1.stdout.txt",
+  "execution_batch_id": "rerun-008",
+  "successful_attempt": 1,
+  "hermes_raw_output_sha256": "22da26bc61e89dffd5967fdf91874028b7f39aa188cc76c47d097857accbf1c4",
+  "prompt_path": "audit-v5/source-cache/candidate-rerun/8917/1277/rerun-008/isolated-prompt.txt",
+  "prompt_sha256": "3bd91819046fd0c4a0affd5b0eb69afabf573ac7c0598d472f05b0c52b4425d1",
+  "requested_model": "gpt-6-luna",
+  "requested_reasoning": "xhigh",
+  "observed_model": null,
+  "resolved_model": null,
+  "binding_basis": "Exact historical payload projection and frozen queue prompt match",
+  "request_settings_recovered_from_command": false,
+  "metadata_only": true,
+  "supersedes_manifest": "audit-v5/semantic/candidate-rerun/evidence/rerun-001277/manifest.json",
+  "supersedes_manifest_sha256": "91d0abd6db9dc0dca6baf4904417de7366ab7e505faa6252e599cc2aadf70915",
+  "corrected_at": "2026-10-08T09:59:38Z"
+}
