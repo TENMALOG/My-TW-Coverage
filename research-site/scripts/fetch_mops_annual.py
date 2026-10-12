@@ -23,9 +23,16 @@ BASE = 'https://doc.twse.com.tw'
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; TW-Coverage research)'}
 
 
+class RateLimited(Exception):
+    """MOPS answered 查詢過量; the caller should back off instead of treating the report as missing."""
+
+
 def post(path, data):
     req = urllib.request.Request(BASE + path, data=urllib.parse.urlencode(data).encode(), headers=UA)
-    return urllib.request.urlopen(req, timeout=60).read()
+    body = urllib.request.urlopen(req, timeout=60).read()
+    if '查詢過量'.encode('big5') in body or '查詢過量'.encode() in body:
+        raise RateLimited(path)
+    return body
 
 
 def sha(b):

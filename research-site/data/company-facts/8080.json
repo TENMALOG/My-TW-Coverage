@@ -1,0 +1,281 @@
+{
+ "ticker": "8080",
+ "company": "泰霖",
+ "legal_name": "泰霖事業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=8080&filename=2025_8080_20260617F04.pdf",
+  "fy": 2025,
+  "filename": "2025_8080_20260617F04.pdf",
+  "text_sha256": "5ce06ca7d5a320959a3a140b1033520db71b6dc9b061ccf6bf27b7a2164eaebd",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/5ce06ca7d5a320959a3a140b1033520db71b6dc9b061ccf6bf27b7a2164eaebd.txt"
+ },
+ "facts": [
+  {
+   "id": "8080-AR-01",
+   "field": "business_scope",
+   "statement": "公司主要經營建材批發、零售、住宅及大樓／工業廠房開發租售、投資興建公共建設、都市更新重建、不動產租賃買賣、廢棄物清除處理、營建剩餘土石方資源處理及其他工程業等。",
+   "period": "截至年報刊印日止",
+   "page": 49,
+   "excerpts": [
+    "本公司主要經營建材批發、零售、住宅及大樓/工業廠房開發租售、投資興建公共建設、都市更新重建、不動產租賃/買賣、廢棄物清除/處理、營建剩餘土石方資源處理及其他工程業等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度土石方處理銷售金額為新台幣172,735仟元，占營業比重87.46%。",
+   "period": "114年度（2025）",
+   "page": 50,
+   "excerpts": [
+    "113 年度 114 年度",
+    "土石方 處理",
+    "67,520 41.84 172,735 87.46"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度建材經銷銷售金額為新台幣24,774仟元，占營業比重12.54%。",
+   "period": "114年度（2025）",
+   "page": 50,
+   "excerpts": [
+    "113 年度 114 年度",
+    "建材 經銷 買賣建材 93,872 58.16 24,774 12.54"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售金額為新台幣197,509仟元，占銷售金額比例100.00%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度",
+    "內   銷 197,509 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-05",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶排名第1者為年報代號「甲」，銷貨金額為新台幣59,955仟元，占全年度銷貨淨額29.66%。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年度 114 年度 115 年度截至前一季止（註 2）",
+    "1 甲 38,556 23.89 無 甲 59,955 29.66 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-06",
+   "field": "major_suppliers",
+   "statement": "114年度進貨供應商排名第1者為年報代號「D」，進貨金額為新台幣33,446仟元，占全年度進貨淨額23.66%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位：新台幣千元(%)",
+    "113 年度 114 年度 115 年度截至前一季止（註 1）",
+    "1 A 23,482 16.43 無 D 33,446 23.66 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-07",
+   "field": "major_suppliers",
+   "statement": "114年度進貨供應商排名第2者為年報代號「F」，進貨金額為新台幣16,254仟元，占全年度進貨淨額11.50%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位：新台幣千元(%)",
+    "113 年度 114 年度 115 年度截至前一季止（註 1）",
+    "2 B 23,470 16.42 無 F 16,254 11.50 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-08",
+   "field": "raw_materials",
+   "statement": "年報載明本公司業務主要為土石方開挖及運棄作業，無相關原物料。",
+   "period": "截至年報刊印日止",
+   "page": 56,
+   "excerpts": [
+    "本公司業務主要為土石方開挖及運棄作業，無相關原物料"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-09",
+   "field": "raw_materials",
+   "statement": "年報表示，建材經銷所涉LME鋁期貨2026年3月平均價格較去年同期大漲約39.9%。",
+   "period": "2026年3月",
+   "page": 56,
+   "excerpts": [
+    "LME 鋁期貨價格受到全球經濟活動",
+    "2026 年 3 月平均價格較去年同期大漲約 39.9%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-10",
+   "field": "employees",
+   "statement": "年報載明114年度員工人數為12人。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "年度  113 年度 114 年度 115 年度截至",
+    "員工人數  8 12 13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "id": "8080-AR-11",
+   "field": "group_structure",
+   "statement": "年報揭露轉投資事業城碩開發股份有限公司之投資金額為新台幣50,000仟元，投資損益為3,015仟元。",
+   "period": "114年12月31日",
+   "page": 63,
+   "excerpts": [
+    "城碩開發 股份有限公司",
+    "50,000 3,015"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  }
+ ]
+}

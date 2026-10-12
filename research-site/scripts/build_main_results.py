@@ -28,9 +28,6 @@ def n(x):
 def main():
     cat = load(SITE / 'catalog/catalog-manifest.json')['totals']
     st = load(CR / 'delivery/summary.json')
-    pilot = load(CR / 'revision-pilot-001/delivery/summary.json')
-    a1 = load(CR / 'revision-aero-001/delivery/summary.json')
-    a2 = load(CR / 'revision-aero-002/delivery/summary.json')
     rerun = st['candidate_rerun']['verdicts']
     so, sc = st['strong_adjudication']['original']['verdicts'], st['strong_adjudication']['candidate']['verdicts']
     strong = Counter(so) + Counter(sc)
@@ -46,6 +43,28 @@ def main():
     zh = {'PARTIAL': '部分支持', 'UNKNOWN': '未知', 'CANDIDATE_ACCEPTED': '候選通過', 'ACCEPTED': '原句通過',
           'PARTIALLY_SUPPORTED': '部分支持', 'PERIOD_UNRESOLVED': '期間未解決', 'UNKNOWN_AFTER_RESEARCH': '研究後仍未知',
           'UNSUPPORTED': '不支持', 'REVISED_SUPPORTED': '新句通過', 'PRIMARY_REVIEW_FAILED': '來源覆核未通過'}
+
+    # every finished revision batch: round 2 batches verify narrower alternatives (queue rows supersede a revision)
+    batches = []
+    for d in sorted(CR.glob('revision-*')):
+        out = d / ('delivery/pilot-outcomes.jsonl' if d.name == 'revision-pilot-001' else 'delivery/outcomes.jsonl')
+        if not out.exists():
+            continue
+        q = jsonl(d / 'queue.jsonl')
+        rnd = 2 if q and 'supersedes_revision_id' in q[0] else 1
+        v = Counter(o['verdict'] for o in jsonl(out))
+        batches.append((d.name, rnd, sum(v.values()), v))
+    order = ('revision-pilot', 'revision-aero', 'revision-batch', 'revision-orig-alt', 'revision-alt')
+    batches.sort(key=lambda b: (b[1], next(i for i, p in enumerate(order) if b[0].startswith(p)), b[0]))
+    batch_table = '| 批次 | 輪次 | 驗證數 | 新句通過 | 其他結果 |\n|---|---:|---:|---:|---|\n' + ''.join(
+        f'| {name} | {rnd} | {total} | {v.get("REVISED_SUPPORTED", 0)} | '
+        f'{"、".join(f"{zh.get(k, k)} {c}" for k, c in v.most_common() if k != "REVISED_SUPPORTED") or "—"} |\n'
+        for name, rnd, total, v in batches)
+    rt = {r: [sum(b[2] for b in batches if b[1] == r), sum(b[3].get('REVISED_SUPPORTED', 0) for b in batches if b[1] == r)]
+          for r in (1, 2)}
+    rounds_table = ('| 輪次 | 驗證句數 | 新句通過 |\n|---|---:|---:|\n'
+                    f'| 第一輪（原修正句） | {n(rt[1][0])} | {n(rt[1][1])} |\n'
+                    f'| 第二輪（較窄替代句） | {n(rt[2][0])} | {n(rt[2][1])} |\n')
 
     def table(d):
         rows = ['| 結果 | 條數 |', '|---|---:|'] + [f'| {zh.get(k, k)} | {n(v)} |' for k, v in sorted(d.items(), key=lambda kv: -kv[1])]
@@ -75,17 +94,17 @@ title: "研究結果"
 
 ## 第三階段：修正句獨立驗證 {{#sec-r-stage3}}
 
-前兩階段共產生 {n(st["rewrite_proposals"])} 個修正版本，對應 {n(cat["revision_parents"])} 條原敘述。到目前為止已驗證三批：
+前兩階段共產生 {n(st["rewrite_proposals"])} 個修正版本，對應 {n(cat["revision_parents"])} 條原敘述。每條原敘述的修正句都經過獨立驗證；第一輪未通過者，若裁定時提出更窄的替代句，再驗證一輪，之後不再追查。
 
-| 批次 | 範圍 | 驗證數 | 新句通過 | 其他結果 |
-|---|---|---:|---:|---|
-| revision-pilot-001 | 六類風險各 5 條 | {pilot["reviewed"]} | {pilot["accepted_revisions"]} | {"、".join(f"{zh.get(k, k)} {v}" for k, v in pilot["verdicts"].items() if k != "REVISED_SUPPORTED")} |
-| revision-aero-001 | 航太與國防全部待驗修正句 | {a1["reviewed"]} | {a1["verdicts"].get("REVISED_SUPPORTED", 0)} | {"、".join(f"{zh.get(k, k)} {v}" for k, v in a1["verdicts"].items() if k != "REVISED_SUPPORTED")} |
-| revision-aero-002 | 上一批提出的較窄替代句 | {a2["reviewed"]} | {a2["verdicts"].get("REVISED_SUPPORTED", 0)} | {"、".join(f"{zh.get(k, k)} {v}" for k, v in a2["verdicts"].items() if k != "REVISED_SUPPORTED")} |
+{rounds_table}
+各批次的裁定結果：
 
-新句通過與原句通過分開計算：前者是改寫後的文字在其明示的範圍內成立，不代表原報告的原句正確。
+{batch_table}
+以原敘述計，{n(cat["revision_parents"])} 條中有 {n(cat["revised_supported"])} 條的修正句通過（其中 {n(cat["revised_supported_round2"])} 條在第二輪通過），{n(cat["revisions_not_passed"])} 條經兩輪仍未通過，列為研究限制，待驗證 {n(cat["revisions_pending"])} 條。
 
-在航太與國防產業，{len(all_parents)} 條被選入查核的原敘述中，有 {len(passed_parents)} 條至少有一個修正版本通過。試批次是依風險類別選樣，航太批次則是單一產業的全部敘述，兩者的通過比例都不能推論到全部 {n(cat["revision_parents"])} 條。
+新句通過與原句通過分開計算：前者是改寫後的文字在其明示的範圍內成立，不代表原報告的原句正確。第二輪的替代句範圍更窄，通過比例不能與第一輪直接比較。
+
+在航太與國防產業，{len(all_parents)} 條被選入查核的原敘述中，有 {len(passed_parents)} 條至少有一個修正版本通過。
 
 ## 示範產業 {{#sec-r-demo}}
 

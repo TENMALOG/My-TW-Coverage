@@ -1,0 +1,610 @@
+{
+ "ticker": "6643",
+ "company": "M31",
+ "legal_name": "円星科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6643&filename=2025_6643_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6643_20260522F04.pdf",
+  "text_sha256": "b951a6e38ebdc3049f4e1365103edc360b9573e068a2449eb1f5057e302f6027",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b951a6e38ebdc3049f4e1365103edc360b9573e068a2449eb1f5057e302f6027.txt"
+ },
+ "facts": [
+  {
+   "id": "6643-AR-101",
+   "field": "revenue_mix",
+   "statement": "114年度技術服務收入銷售金額為新臺幣1,537,375千元，營業比重86.26%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "技術服務收入 1,241,408 83.83% 1,537,375 86.26%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-102",
+   "field": "revenue_mix",
+   "statement": "114年度權利金收入銷售金額為新臺幣244,794千元，營業比重13.74%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "權利金收入 239,495 16.17% 244,794 13.74%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-103",
+   "field": "products",
+   "statement": "公司年報載明，基礎元件 IP 之產品類別包含標準元件庫（Standard Cell Library）、記憶體編譯器（Memory Compilers）及 I/O 標準資料庫，主要服務對象為晶圓代工廠及 IC 設計公司。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "主要的服務對象為晶圓代工廠及 IC 設計公 司",
+    "Standard Cell Library(標準元件庫)、Memory Compilers(記 憶體編譯器 )及 I/O 標準資料庫"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-104",
+   "field": "products",
+   "statement": "公司年報載明，高速介面 IP 之產品類別包含 USB、PCIe、SerDes、MIPI、DDR、DisplayPort 及 Controller（UFS）等介面規格，主要服務對象為 IC 設計公司。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "主要的服務對象為 IC 設計公司，產品類別中",
+    "USB：eUSB2",
+    "PCIe：PCI Express",
+    "SerDes：SerDes",
+    "MIPI：M-PHY、C-PHY、D-PHY 及 C/D-PHY Combo",
+    "DDR：LPDDR",
+    "DisplayPort：",
+    "Controller：UFS"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-105",
+   "field": "products",
+   "statement": "公司年報載明，類比 IP 之產品類別包含 PLL、ADC、Temperature Sensor、VDT、POR 等，主要服務對象為 IC 設計公司。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "主要的服務對象為 IC 設計公司，產品類別中",
+    "PLL、ADC、Temperature Sensor、VDT、POR"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-106",
+   "field": "products",
+   "statement": "公司年報載明，IP 整合服務提供 IP 實作、IC 實作與 IP 整合三方面的技術服務。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "提供 IP 實作、 IC 實作與 IP 整合三方面的技術服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-107",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售金額為新臺幣437,939千元，占24.57%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "金 額 % 金 額 %",
+    "內銷 395,282 26.69 437,939 24.57"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-108",
+   "field": "sales_regions",
+   "statement": "114年度外銷至中國銷售金額為新臺幣551,441千元，占30.94%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "金 額 % 金 額 %",
+    "中國 641,237 43.30 551,441 30.94"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-109",
+   "field": "sales_regions",
+   "statement": "114年度外銷至美國銷售金額為新臺幣508,070千元，占28.51%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "金 額 % 金 額 %",
+    "美國 315,844 21.33 508,070 28.51"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-110",
+   "field": "sales_regions",
+   "statement": "114年度外銷至其他地區銷售金額為新臺幣284,719千元，占15.98%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "金 額 % 金 額 %",
+    "其他 128,540 8.68 284,719 15.98"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-111",
+   "field": "export_share",
+   "statement": "114年度外銷小計銷售金額為新臺幣1,344,230千元，占75.43%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "金 額 % 金 額 %",
+    "外銷小計 1,085,621 73.31 1,344,230 75.43"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-112",
+   "field": "market_position",
+   "statement": "公司於年報引用市場調查機構 IPnest 報告並以其推估，2025年全球半導體設計 IP 市場營收規模約為98.9億美元，公司以2025年銷售額美金57,331千元衡量，IP 市場占有率約為0.58%。",
+   "period": "2025年",
+   "page": 72,
+   "excerpts": [
+    "根據市場調查機構 IPnest 最新報告統計",
+    "2025 年全球半導體設計 IP 市場營收規模約為 98.9 億美元",
+    "若以本公司 2025 年銷售額美金 57,331 千元來衡量其市占率，本公司 IP 市場占有率約為 0.58%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-113",
+   "field": "market_position",
+   "statement": "公司於年報表示，目前競爭同業主要為歐美企業，如 Synopsys 和 Cadence。",
+   "period": "截至年報刊印時",
+   "page": 64,
+   "excerpts": [
+    "目前與円星科技的競爭同業主要為歐美企業(如 Synopsys 和 Cadence)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-114",
+   "field": "market_position",
+   "statement": "公司於年報自述，已連續八年榮獲台積電「最佳矽智財夥伴」獎。",
+   "period": "截至年報刊印時",
+   "page": 74,
+   "excerpts": [
+    "円星科技已連續八年榮獲台積電「最佳矽智財夥伴」獎"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-115",
+   "field": "major_customers",
+   "statement": "公司年報載明，114年度客戶A（年報代號）單項收入達營業收入總額10%以上，金額為272,206千元。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "114及113年度單一客戶之收入達本公司營業收入 總額之10%以上者有客戶A，金額為272,206千元及207,309千元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-116",
+   "field": "major_customers",
+   "statement": "公司年報載明，113年度客戶A（年報代號）單項收入達營業收入總額10%以上，金額為207,309千元。",
+   "period": "113年度（2024）",
+   "page": 76,
+   "excerpts": [
+    "114及113年度單一客戶之收入達本公司營業收入 總額之10%以上者有客戶A，金額為272,206千元及207,309千元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-117",
+   "field": "raw_materials",
+   "statement": "公司年報載明，公司為提供專業積體電路矽智財設計服務，故無採購原料之情形。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "本公司為提供專業積體電路矽智財設計服務，故無採購原料之情形"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-118",
+   "field": "employees",
+   "statement": "114年度公司員工人數合計376人。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "年 度 113 年度 114 年度 當年度截至",
+    "115 年 2 月 28 日",
+    "合計 363 376 384"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-119",
+   "field": "employees",
+   "statement": "114年度公司研發員工為331人。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "年 度 113 年度 114 年度 當年度截至",
+    "115 年 2 月 28 日",
+    "研發員工 319 331 339"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-120",
+   "field": "rd",
+   "statement": "114年度公司研發費用為新臺幣1,350,592千元。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "3.最近年度及截至年報刊印日止投入之研發費用",
+    "單位：新臺幣千元",
+    "年度 114 年度 115 年 3 月 25 日",
+    "研發費用 1,350,592"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-121",
+   "field": "established",
+   "statement": "公司年報載明，公司成立於民國100年。",
+   "period": "民國100年（2011）",
+   "page": 77,
+   "excerpts": [
+    "本公司成立於民國 100 年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-122",
+   "field": "outlook",
+   "statement": "公司短期業務發展計畫包括持續擴展與晶圓代工廠的合作計畫，並運用晶圓代工廠夥伴的 IP 平台，加強和客戶之間的連結與推廣的力道。",
+   "period": "短期業務發展計畫",
+   "page": 71,
+   "excerpts": [
+    "1. 公司短期業務發展計畫",
+    "持續擴展與晶圓代工廠的合作計畫，並運用晶圓代工廠夥伴的 IP 平台，加強和 客戶之間的連結與推廣的力道"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-123",
+   "field": "outlook",
+   "statement": "公司長期業務發展計畫包括建構完整的解決方案的 IP 平台，提供客戶多元的服務與完備的產品方案。",
+   "period": "長期業務發展計畫",
+   "page": 71,
+   "excerpts": [
+    "2. 公司長期業務發展計畫",
+    "建構完整的解決方案的 IP 平台，提供客戶多元的服務與完備的產品方案"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  },
+  {
+   "id": "6643-AR-124",
+   "field": "outlook",
+   "statement": "公司年報列示計畫開發之新商品（服務）包括 3nm Standard Cell Library、3nm 及 4nm Memory Compiler、3nm GPIO 等。",
+   "period": "計畫開發",
+   "page": 58,
+   "excerpts": [
+    "4.計畫開發之新商品(服務)",
+    "(1) 3nm Standard Cell Library",
+    "(2) 3nm及4nm Memory Compiler",
+    "(3) 3nm GPIO"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:37+00:00"
+   }
+  }
+ ]
+}

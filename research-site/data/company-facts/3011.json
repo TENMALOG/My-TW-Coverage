@@ -1,0 +1,567 @@
+{
+ "ticker": "3011",
+ "company": "今皓",
+ "legal_name": "今皓實業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3011&filename=2025_3011_20260630F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3011_20260630F04.pdf",
+  "text_sha256": "a3c44b7f06365327bbbf4835784a32ee26547097bef745313b3f1d54a888b50a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/a3c44b7f06365327bbbf4835784a32ee26547097bef745313b3f1d54a888b50a.txt"
+ },
+ "facts": [
+  {
+   "id": "3011-AR-101",
+   "field": "products",
+   "statement": "公司年報列示目前商品項目包括電線電纜加工製造之電線電路板線材組合件、精密電子接頭插座與連接器及相關組件、NB/TV/monitor用之軟排線及極細同軸線等。",
+   "period": "年報刊印時",
+   "page": 62,
+   "excerpts": [
+    "(1)電線、電纜加工製造之電線電路板線材組合件。",
+    "(2)精密電子接頭插座、連接器及相關組件。",
+    "(6)NB/TV/monitor 用之軟排線及極細同軸線。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-102",
+   "field": "business_scope",
+   "statement": "公司年報列示所營業務主要內容包括電線及電纜製造業、電子零組件製造業、電腦及其週邊設備製造業等。",
+   "period": "年報刊印時",
+   "page": 61,
+   "excerpts": [
+    "CC01020 電線及電纜製造業",
+    "CC01080 電子零組件製造業",
+    "CC01110 電腦及其週邊設備製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-103",
+   "field": "products",
+   "statement": "公司年報揭露，產品涵蓋電腦、汽車及通訊設備所需的連接線，包括4G/5G連接線、遊戲機連接線、智慧家居設備連接線及汽車電子連接線。",
+   "period": "年報刊印時",
+   "page": 80,
+   "excerpts": [
+    "我們的產品涵蓋電腦、汽車及通訊設備所需的連接線，包括 4G / 5G",
+    "連接線、遊戲機連接線、智慧家居設備連接線及汽車電子連接線。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 80 頁（或下一頁起始處）：連接線、遊戲機連接線、智慧家居設備連接線及汽車電子連接線。…"
+    ],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-104",
+   "field": "sales_regions",
+   "statement": "114年度外銷亞洲地區銷貨金額為新台幣578,093仟元，占銷貨合計76.61%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元；% 銷售地區 113 年 114 年",
+    "外 銷 亞洲 997,305 86.55 578,093 76.61"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-105",
+   "field": "sales_regions",
+   "statement": "114年度外銷美洲地區銷貨金額為新台幣49,800仟元，占銷貨合計6.60%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元；% 銷售地區 113 年 114 年",
+    "美洲 6,770 0.59 49,800 6.60"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-106",
+   "field": "sales_regions",
+   "statement": "114年度外銷歐洲地區銷貨金額為新台幣30,803仟元，占銷貨合計4.08%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元；% 銷售地區 113 年 114 年",
+    "歐洲 33,034 2.87 30,803 4.08"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-107",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷貨金額為新台幣95,948仟元，占銷貨合計12.71%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元；% 銷售地區 113 年 114 年",
+    "內銷 115,061 9.99 95,948 12.71"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-108",
+   "field": "export_share",
+   "statement": "114年度外銷銷貨金額小計為新台幣658,696仟元，占銷貨合計87.29%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元；% 銷售地區 113 年 114 年",
+    "小計 1,037,109 90.01 658,696 87.29",
+    "合計 1,152,170 100.00 754,644 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-109",
+   "field": "market_position",
+   "statement": "公司年報列示電源線產業別之主要廠商及競爭同業為良得、良維、萬泰、鎰勝。",
+   "period": "年報刊印時",
+   "page": 77,
+   "excerpts": [
+    "電源線 良得、良維、萬泰、鎰勝"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-110",
+   "field": "market_position",
+   "statement": "公司年報列示FFC產業別之主要廠商及競爭同業為樺晟、華力、瀚荃、龍翰。",
+   "period": "年報刊印時",
+   "page": 77,
+   "excerpts": [
+    "FFC 樺晟、華力、瀚荃、龍翰"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-111",
+   "field": "market_position",
+   "statement": "公司年報列示電子傳輸線產業別之主要廠商及競爭同業為樺晟、華力、鴻碩、龍翰。",
+   "period": "年報刊印時",
+   "page": 77,
+   "excerpts": [
+    "電子傳輸線 樺晟、華力、鴻碩、龍翰"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-112",
+   "field": "raw_materials",
+   "statement": "公司年報揭露，主要原料包括CABLE、銅絲、FFC膠膜、PVC粉等。",
+   "period": "年報刊印時",
+   "page": 81,
+   "excerpts": [
+    "本公司主要原料為 CABLE、銅絲、FFC 膠膜、PVC 粉等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-113",
+   "field": "raw_materials",
+   "statement": "公司年報揭露，主要原料CONNECTOR的供應地區為大陸，供應廠商包括廣弘達、美旺、華昌、煜鼎、創興盛、呈泰。",
+   "period": "年報刊印時",
+   "page": 81,
+   "excerpts": [
+    "主要原料 供應地區 供應廠商",
+    "CONNECTOR 大陸 廣弘達、美旺、華昌、煜鼎、創興盛、呈泰"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-114",
+   "field": "raw_materials",
+   "statement": "公司年報揭露，主要原料銅絲的供應地區為大陸，供應廠商包括華昌、創興盛、呈泰、奮飛。",
+   "period": "年報刊印時",
+   "page": 81,
+   "excerpts": [
+    "主要原料 供應地區 供應廠商",
+    "銅 絲 大陸 華昌、創興盛、呈泰、奮飛"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-115",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（代號GHDDZ）列名進貨對象第1項，進貨金額為新台幣175,651仟元，占全年度進貨淨額32.49%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元；％ 113 年 114 年 115 年度截至前一季止(註)",
+    "1 GHDDZ 156,918 19.49 無 GHDDZ 175,651 32.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-116",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號CH416）列名銷貨對象第1項，銷貨金額為新台幣141,607仟元，占全年度銷貨淨額18.76%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元；% 113 年 114 年 115 年度截至前一季止(註)",
+    "1 CH416 168,518 14.63 無 CH416 141,607 18.76 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-117",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號JHT23）列名銷貨對象第2項，銷貨金額為新台幣78,096仟元，占全年度銷貨淨額10.35%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元；% 113 年 114 年 115 年度截至前一季止(註)",
+    "2 CH200 118,054 10.25 無 JHT23 78,096 10.35 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-118",
+   "field": "employees",
+   "statement": "114年度員工人數合計為475人。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "年度 113 年度 114 年度 當年度截至",
+    "合 計 607 475 407"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-119",
+   "field": "employees",
+   "statement": "截至115年5月2日止員工人數合計為407人。",
+   "period": "截至115年5月2日",
+   "page": 82,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至 115 年 5 月 2 日止",
+    "合 計 607 475 407"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-120",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣86,023仟元。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新台幣仟元；% 年度 項目 114 年度 當年度截至",
+    "研發費用 86,023 -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-121",
+   "field": "rd",
+   "statement": "114年度研發費用占營業收入比例為11.40%（營業收入新台幣754,644仟元）。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項目 114 年度 當年度截至",
+    "營業收入 754,644 -",
+    "研發費用占營業收入比例 11.40% -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-122",
+   "field": "outlook",
+   "statement": "公司於年報計劃開發新產品部分表示，將聚焦於高頻、高速及高精度之連接技術，並深耕伺服器與車載電子領域的戰略佈局。",
+   "period": "年報刊印時",
+   "page": 62,
+   "excerpts": [
+    "本公司將聚焦於高頻、高速及高精度之連接技術，並深耕伺服器與車載電子領域的戰略佈局"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  },
+  {
+   "id": "3011-AR-123",
+   "field": "capacity_or_production",
+   "statement": "公司年報揭露，除在中國昆山張浦及泰國設有生產基地外，未來規劃進一步開拓越南據點。",
+   "period": "年報刊印時",
+   "page": 79,
+   "excerpts": [
+    "除在中國昆山張浦及泰國設有生產基地",
+    "未來規劃進一步開拓越南據點"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:15+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "ticker": "5425",
+ "company": "台半",
+ "legal_name": "台灣半導體股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5425&filename=2025_5425_20260617F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5425_20260617F04.pdf",
+  "text_sha256": "6ff29f931fbd9a5caa62a72363a2b845352b825c4020406bbd505214bfd81bf0",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6ff29f931fbd9a5caa62a72363a2b845352b825c4020406bbd505214bfd81bf0.txt"
+ },
+ "facts": [
+  {
+   "field": "business_scope",
+   "statement": "公司及各子公司主要營業項目為整流器及條碼印表機之製造及買賣業務。",
+   "period": "年報所述期間",
+   "page": 116,
+   "excerpts": [
+    "本公司及各子公司主要營業項目為整流器及條碼印表機之製造及買賣業務"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-01",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "114年度整流器銷售值為新臺幣6,425,372仟元，占營業比重35.79%。",
+   "period": "114年度（2025）",
+   "page": 116,
+   "excerpts": [
+    "項    目 整流器 條碼印表機 合  計",
+    "114年度銷售值 6,425,372 11,528,887 17,954,259",
+    "營 業 比 重 35.79% 64.21% 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-02",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "114年度條碼印表機銷售值為新臺幣11,528,887仟元，占營業比重64.21%。",
+   "period": "114年度（2025）",
+   "page": 116,
+   "excerpts": [
+    "114年度銷售值 6,425,372 11,528,887 17,954,259",
+    "營 業 比 重 35.79% 64.21% 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-03",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "114年度（合併）亞洲地區收入為新臺幣7,874,601仟元，收入依客戶所在地理位置歸類。",
+   "period": "114年度（2025）",
+   "page": 120,
+   "excerpts": [
+    "收入係依據客戶所在 地理位置為基礎歸類",
+    "114年度(合併) 113 年度(合併)",
+    "亞     洲 7,874,601 6,665,454"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-04",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 120 頁（或下一頁起始處）：114年度(合併) 113 年度(合併)…",
+     "引文不在第 120 頁（或下一頁起始處）：亞     洲 7,874,601 6,665,454…"
+    ],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "114年度（合併）美洲地區收入為新臺幣4,996,244仟元，收入依客戶所在地理位置歸類。",
+   "period": "114年度（2025）",
+   "page": 120,
+   "excerpts": [
+    "收入係依據客戶所在 地理位置為基礎歸類",
+    "114年度(合併) 113 年度(合併)",
+    "美     洲 4,996,244 4,456,853"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-05",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 120 頁（或下一頁起始處）：114年度(合併) 113 年度(合併)…",
+     "引文不在第 120 頁（或下一頁起始處）：美     洲 4,996,244 4,456,853…"
+    ],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "114年度（合併）歐洲地區收入為新臺幣4,994,312仟元，收入依客戶所在地理位置歸類。",
+   "period": "114年度（2025）",
+   "page": 120,
+   "excerpts": [
+    "收入係依據客戶所在 地理位置為基礎歸類",
+    "114年度(合併) 113 年度(合併)",
+    "歐     洲 4,994,312 3,642,704"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-06",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 120 頁（或下一頁起始處）：114年度(合併) 113 年度(合併)…",
+     "引文不在第 120 頁（或下一頁起始處）：歐     洲 4,994,312 3,642,704…"
+    ],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司年報引述WSTS 2025年資料，公司整流器產品全球市占率約為2.6%。",
+   "period": "2025年",
+   "page": 121,
+   "excerpts": [
+    "依據世界半導體貿易統計協會（WSTS）2025 年資料，本公司整流器產品全球市占率約為 2.6%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "5425-AR-07",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "年報列出整流器及功率半導體領域之主要競爭對手包括Vishay、Nexperia及Infineon等國際半導體大廠。",
+   "period": "年報所述期間",
+   "page": 121,
+   "excerpts": [
+    "主要競爭對手包括 Vishay、 Nexperia 及 Infineon 等國際半導體大廠"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-08",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "最近二年度及115年截至第1季止，並無銷貨收入占總營業收入金額10%以上之客戶。",
+   "period": "最近二年度及115年截至第1季止",
+   "page": 128,
+   "excerpts": [
+    "最近二年度及 115 年截至第 1季止，並無銷貨收入佔總營業收入金額10%以上之客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-09",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "major_suppliers",
+   "statement": "最近二年度及115年截至第1季止，未有占進貨總額百分之十以上之供應商。",
+   "period": "最近二年度及115年截至第1季止",
+   "page": 128,
+   "excerpts": [
+    "最近二年度及 115 年截至第 1季止未有占進貨總額百分之十"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-10",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "employees",
+   "statement": "截至115年04月19日，公司從業員工合計1,491人。",
+   "period": "截至115年04月19日",
+   "page": 128,
+   "excerpts": [
+    "年      度 113 年度 114 年度 截至115年 04月19日",
+    "合     計 1,524 1463 1491"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-11",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "field": "employees",
+   "statement": "114年度公司從業員工合計1,463人。",
+   "period": "114年度（2025）",
+   "page": 128,
+   "excerpts": [
+    "年      度 113 年度 114 年度 截至115年 04月19日",
+    "合     計 1,524 1463 1491"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "5425-AR-12",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  }
+ ]
+}

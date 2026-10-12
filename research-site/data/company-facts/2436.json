@@ -1,0 +1,601 @@
+{
+ "ticker": "2436",
+ "company": "偉詮電",
+ "legal_name": "偉詮電子股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2436&filename=2025_2436_20260529F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2436_20260529F04.pdf",
+  "text_sha256": "74753c693394f9084244fd034d8ab9f0ac05b9b13036df9562c335880652bef8",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/74753c693394f9084244fd034d8ab9f0ac05b9b13036df9562c335880652bef8.txt"
+ },
+ "facts": [
+  {
+   "id": "2436-AR-101",
+   "field": "business_scope",
+   "statement": "公司年報揭露公司所營業務之主要內容為研究、開發、生產、測試、銷售各種應用之積體電路產品。",
+   "period": "截至年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "公司所營業務之主要內容：",
+    "研究、開發、生產、測試、銷售各種應用之積體電路產品。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-102",
+   "field": "revenue_mix",
+   "statement": "114年度電源管理與類比 IC營業收入為新台幣1,188,304仟元，占營業比重33%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 1 1 4 年度營業收入金額 營業比重",
+    "電源管理與類比 IC 1,188,304 33%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-103",
+   "field": "revenue_mix",
+   "statement": "114年度智慧應用 IC營業收入為新台幣1,195,808仟元，占營業比重34%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 1 1 4 年度營業收入金額 營業比重",
+    "智慧應用 IC 1,195,808 34%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-104",
+   "field": "revenue_mix",
+   "statement": "114年度電子元件代銷營業收入為新台幣1,184,528仟元，占營業比重33%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 1 1 4 年度營業收入金額 營業比重",
+    "電子元件代銷 1,184,528 33%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-105",
+   "field": "revenue_mix",
+   "statement": "114年度主要產品營業收入合計為新台幣3,568,640仟元。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 1 1 4 年度營業收入金額 營業比重",
+    "合 計 3,568,640 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-106",
+   "field": "products",
+   "statement": "公司目前自行研發及產銷之產品為電源管理與類比 IC、智慧應用 IC，兼營業務為國際知名品牌電子零組件之整合應用及代理銷售（「國際知名」為公司年報用語）。",
+   "period": "截至年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "(1) 自行研發及產銷之產品：電源管理與類比 IC、智慧應用 IC。",
+    "(2) 兼營業務：國際知名品牌電子零組件之整合應用及代理銷售。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-107",
+   "field": "sales_regions",
+   "statement": "公司年報揭露產品主要銷售地區包括台灣、中國、韓國、東南亞等地。",
+   "period": "截至年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "本公司產品主要銷售地區包括台灣、中國、韓國、東南亞等地"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-108",
+   "field": "sales_regions",
+   "statement": "114年度台灣地區銷售金額為新台幣714,334仟元，比率20%（年報表列113年度與114年度兩欄，數字依序為665,425仟元22%與714,334仟元20%）。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "金額單位：新台幣仟元",
+    "113年度 1 14年度",
+    "台灣 665,425 22% 714,334 20%",
+    "合 計 3,094,619 100% 3,568,640 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-109",
+   "field": "sales_regions",
+   "statement": "114年度中國地區銷售金額為新台幣2,607,000仟元，比率73%（年報表列113年度與114年度兩欄，數字依序為2,306,337仟元74%與2,607,000仟元73%）。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "金額單位：新台幣仟元",
+    "113年度 1 14年度",
+    "中國 2,306,337 74% 2,607,000 73%",
+    "合 計 3,094,619 100% 3,568,640 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-110",
+   "field": "sales_regions",
+   "statement": "114年度其他國家銷售金額為新台幣247,306仟元，比率7%（年報表列113年度與114年度兩欄，數字依序為122,857仟元4%與247,306仟元7%）。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "金額單位：新台幣仟元",
+    "113年度 1 14年度",
+    "其他國家 122,857 4% 247,306 7%",
+    "合 計 3,094,619 100% 3,568,640 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-111",
+   "field": "major_customers",
+   "statement": "114年度某客戶（甲客戶，非關係人）銷貨金額為新台幣415,067仟元，占全年度銷貨淨額11.63%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "最近二年度主要銷貨客戶資料 單位：新台幣仟元",
+    "113年 1 1 4 年",
+    "甲客戶 415,067 11.63% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-112",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（甲供應商，非關係人）進貨金額為新台幣659,247仟元，占全年度進貨淨額31%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113年 1 1 4 年",
+    "1 甲供應商 691,421 40% 非關係人 甲供應商 659,247 31% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-113",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（乙供應商，非關係人）進貨金額為新台幣536,473仟元，占全年度進貨淨額25%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113年 1 1 4 年",
+    "2 乙供應商 451,508 26% 非關係人 乙供應商 536,473 25% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-114",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（丙供應商，非關係人）進貨金額為新台幣367,742仟元，占全年度進貨淨額17%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113年 1 1 4 年",
+    "3 丙供應商 214,267 12% 非關係人 丙供應商 367,742 17% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-115",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（丁供應商，非關係人）進貨金額為新台幣323,730仟元，占全年度進貨淨額15%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113年 1 1 4 年",
+    "丁供應商 323,730 15% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-116",
+   "field": "raw_materials",
+   "statement": "公司年報揭露公司為無晶圓廠之 IC 公司，晶圓製造與 IC 封裝委外生產，因此主要原料係指晶圓與封裝。",
+   "period": "截至年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "至於晶圓製造與 IC 封裝則委外生產，因此主要原料係指晶圓與 封裝。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-117",
+   "field": "employees",
+   "statement": "公司從業員工合計於113年度、114年度及截至115年4月12日止均為368人。",
+   "period": "113年度至115年4月12日",
+   "page": 86,
+   "excerpts": [
+    "年 度 1 1 3 年度 1 1 4 年度 當年度截至",
+    "115年 4月 12 日止",
+    "合 計 368 368 368"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-118",
+   "field": "rd",
+   "statement": "114年度研究發展支出共472,602仟元。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "114年度研究發展支出共 472,602仟元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-119",
+   "field": "rd",
+   "statement": "公司（含子公司陞達科技）截至年報刊印日取得專利總計228件，申請中24件。",
+   "period": "截至年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "取得專利總計共有 228件，申請中",
+    "有 24件"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-120",
+   "field": "market_position",
+   "statement": "公司於年報自述其二次側監控電源管理晶片在 PC 與遊戲機 SPS 的市場佔有率全球第一（年報未交代統計來源與年份）。",
+   "period": "截至年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "本公司的二次側監控電源管理晶片，在 PC 與遊戲機 S P S的市場佔有率全球第一。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-121",
+   "field": "market_position",
+   "statement": "公司於年報自述智慧散熱風扇馬達驅動與控制 IC因結合子公司陞達科技股份有限公司，在伺服器散熱風扇市場佔有超過 30%之市佔率。",
+   "period": "截至年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "智慧散熱風扇馬達驅動與控制 IC因結合子公司陞達科技股份有限公司，在",
+    "伺服器散熱風扇市場佔有超過 30%之市佔率"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-122",
+   "field": "market_position",
+   "statement": "公司年報引述工研院產科國際所預估，2025年台灣 IC 產業產值達新臺幣65,225億元，其中 IC 設計業產值為新臺幣14,245億元。",
+   "period": "2025年（預估）",
+   "page": 77,
+   "excerpts": [
+    "依據工研院產科國際所預估 2025 年台灣 IC 產業產值達新臺幣 65,225 億元",
+    "其 中IC設計業產值為新臺幣 14,245億元"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-123",
+   "field": "outlook",
+   "statement": "公司年報載明長期業務發展計劃包括開拓如印度與越南之新興市場。",
+   "period": "長期計劃（截至年報刊印日）",
+   "page": 81,
+   "excerpts": [
+    "長期：積極拓展客戶群，加強、擴大與代理商和合作廠商的合作，開拓如印度與越南之新興市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  },
+  {
+   "id": "2436-AR-124",
+   "field": "outlook",
+   "statement": "公司年報載明計劃開發之智慧應用 IC包括液冷散熱方案如水泵馬達控制 IC、漏液偵測 IC、水閘門控制 IC等。",
+   "period": "計劃（截至年報刊印日）",
+   "page": 77,
+   "excerpts": [
+    "4 .計劃開發之新產品(服務)：",
+    "- 液冷散熱方案如水泵馬達控制 IC、漏液偵測 IC、水閘門控制 IC等。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:14+00:00"
+   }
+  }
+ ]
+}

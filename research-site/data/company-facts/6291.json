@@ -1,0 +1,604 @@
+{
+ "ticker": "6291",
+ "company": "沛亨",
+ "legal_name": "沛亨半導體股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6291&filename=2025_6291_20260605F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6291_20260605F04.pdf",
+  "text_sha256": "06a0ed8eb2c1c505340110339b31ee730b85e22e74d4b757f4bf6a9e446d2160",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/06a0ed8eb2c1c505340110339b31ee730b85e22e74d4b757f4bf6a9e446d2160.txt"
+ },
+ "facts": [
+  {
+   "id": "6291-AR-101",
+   "field": "business_scope",
+   "statement": "公司年報載明所營業務主要為研究、開發、生產、製造及銷售工業用電子產品、通訊器材、消費性電子產品、光纖產品、電腦網路產品及電腦用類比積體電路及混成式類比積體電路。",
+   "period": "年報營業項目",
+   "page": 64,
+   "excerpts": [
+    "研究、開發、生產、製造及銷售工業用電子產品、通訊器 材 、 消費性電子產品、 光纖產品、電腦網路產品及電腦用類比積體電路(Analog ICs) 及混成式 (Hybrid)類比積體電路"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-102",
+   "field": "business_scope",
+   "statement": "公司年報載明網路與收銀終端產品以委託設計製造／代工為主，非自有品牌。",
+   "period": "年報（2025）",
+   "page": 69,
+   "excerpts": [
+    "網路與收銀終端產品以委託設計製造／代工為主，非自有品牌"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-103",
+   "field": "revenue_mix",
+   "statement": "114年度電腦及周邊設備銷售實績為1,364,660仟元，占全年度銷售比例64.10%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品別 114 年度銷售實績 佔全年度銷售比例(%)",
+    "電腦及周邊設備 1,364,660 64.10%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-104",
+   "field": "revenue_mix",
+   "statement": "114年度網路產品銷售實績為764,205仟元，占全年度銷售比例35.90%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品別 114 年度銷售實績 佔全年度銷售比例(%)",
+    "網路產品 764,205 35.90%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-105",
+   "field": "products",
+   "statement": "公司年報載明目前電腦及周邊產品包括微型電聲元件、汽車用電聲元件、智能電聲元件、石英光纖跳接線線材、室內光纖纜線及塑膠光纖線材。",
+   "period": "年報（2025）",
+   "page": 64,
+   "excerpts": [
+    "電腦及周邊產品：微型電聲元件、汽車用電聲元件、智能電聲元件、石英光纖跳接線線材、室內光纖纜線、塑膠光纖線材"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-106",
+   "field": "products",
+   "statement": "公司年報載明目前網通產品包括交換器、網路閘道器、電子廣告機、查詢機、直流轉換IC、線性穩壓IC、電池管理IC及發光二極體驅動IC。",
+   "period": "年報（2025）",
+   "page": 64,
+   "excerpts": [
+    "網通產品：交換器、網路閘道器、電子廣告機、查詢機、直流轉換 IC、線性穩 壓 IC、電池管理 IC、發光二極體驅動 IC"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-107",
+   "field": "outlook",
+   "statement": "公司年報列示電腦及周邊設備計畫開發之新產品包括3411減振單體、多芯數迷你光纜、特殊材質光纖保護管及消費性光電混合纜等。",
+   "period": "年報計畫",
+   "page": 64,
+   "excerpts": [
+    "預計開發可以藉由材料減少成本的高性價比單體",
+    "3411 減振單體",
+    "多芯數迷你光纜",
+    "特殊材質光纖保護管",
+    "消費性光電混合纜"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-108",
+   "field": "outlook",
+   "statement": "公司年報列示網路產品計畫開發之新產品包括8埠PoE+交換機、16埠PoE+交換機、8吋窄邊框廣告機及15吋窄邊框廣告機等。",
+   "period": "年報計畫",
+   "page": 64,
+   "excerpts": [
+    "8 埠 PoE+ 交換機",
+    "16 埠 PoE+ 交換機",
+    "8 吋窄邊框廣告機",
+    "15 吋窄邊框廣告機"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-109",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區中國金額為949,286千元，占比45%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "中國 676,982 37 949,286 45"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-110",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區臺灣金額為402,148千元，占比19%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "臺灣 442,546 24 402,148 19"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-111",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區美國金額為293,248千元，占比14%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "美國 266,943 15 293,248 14"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-112",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區荷蘭金額為93,466千元，占比4%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "荷蘭 162,002 9 93,466 4"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-113",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區日本金額為51,461千元，占比2%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "日本 83,281 5 51,461 2"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-114",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區其他地區金額為339,256千元，占比16%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113 年 114 年",
+    "其他地區 192,494 10 339,256 16"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-115",
+   "field": "raw_materials",
+   "statement": "公司年報載明所需原物料及關鍵零組件包括面板（Panel）、晶片（IC）、印刷電路板（PCB）、電源供應器外殼、音膜、光纖及晶圓等。",
+   "period": "年報（2025）",
+   "page": 73,
+   "excerpts": [
+    "所需原物料及關鍵零組件包括面板(Panel)、晶片(IC)、印刷電路板(PCB)、電源供應器外殼、音膜、光纖及晶圓等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-116",
+   "field": "major_suppliers",
+   "statement": "114年度進貨廠商西伯重慶進貨金額為311,876仟元，占全年度進貨淨額25%，年報列示其與發行人之關係為「西伯崑山之子公司」。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "西伯重慶 311,876 25 西伯崑山 之子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-117",
+   "field": "major_suppliers",
+   "statement": "114年度進貨廠商西伯昆山進貨金額為187,421仟元，占全年度進貨淨額15%，年報列示其與發行人之關係為「振曜科技之孫公司」。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "西伯昆山 187,421 15 振曜科技 之孫公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-118",
+   "field": "major_suppliers",
+   "statement": "114年度進貨廠商西伯廈門進貨金額為127,625仟元，占全年度進貨淨額10%，年報列示其與發行人之關係為「西伯崑山之子公司」。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "西伯廈門 127,625 10 西伯崑山 之子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-119",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶U客戶（年報代號）銷貨金額為163,249仟元，占全年度銷貨金額比率7.67%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "U 客戶 163,249 7.67 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-120",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶W客戶（年報代號）銷貨金額為128,593仟元，占全年度銷貨金額比率6.04%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "W 客戶 128,593 6.04 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-121",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶WC客戶（年報代號）銷貨金額為104,527仟元，占全年度銷貨金額比率4.91%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年",
+    "WC 客戶 104,527 4.91 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-122",
+   "field": "employees",
+   "statement": "114年度公司員工人數合計376人。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "113 年度 114 年度",
+    "合計 292 376 404"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-123",
+   "field": "rd",
+   "statement": "114年度公司研發費用金額為75,985仟元。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度 114 度 截至 115 年 3 月 31 日止",
+    "研發費用金額 75,985 21,228"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  },
+  {
+   "id": "6291-AR-124",
+   "field": "outlook",
+   "statement": "公司年報長期計畫為除既有IC產品業務外，搭配集團發展策略朝網路通訊及其週邊設備、電聲元件產品、光纖產業及生醫相關領域等發展。",
+   "period": "年報長期計畫",
+   "page": 69,
+   "excerpts": [
+    "除了既有的 IC 產品業務 ， 另搭配集團發展策略朝網路通訊及其週邊設備 、 電 聲元件產品 、 光纖產業及生醫相關領域等發展"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:34+00:00"
+   }
+  }
+ ]
+}

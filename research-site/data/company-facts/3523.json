@@ -1,0 +1,329 @@
+{
+ "ticker": "3523",
+ "company": "迎輝",
+ "legal_name": "迎輝科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3523&filename=2025_3523_20260623F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3523_20260623F04.pdf",
+  "text_sha256": "410764bdde0aa4e4f450084320e8bfc4494ec0215a598682e3c18daa202528f2",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/410764bdde0aa4e4f450084320e8bfc4494ec0215a598682e3c18daa202528f2.txt"
+ },
+ "facts": [
+  {
+   "id": "3523-AR-01",
+   "field": "business_scope",
+   "statement": "公司所營業務包括電子零組件製造業、光學儀器製造業、資料儲存媒體製造業及再生能源自用發電設備業等。",
+   "period": "未註明年度（年報業務章節）",
+   "page": 43,
+   "excerpts": [
+    "A、CC01080 電子零組件製造業",
+    "B、CE01030 光學儀器製造業",
+    "D、D101060 再生能源自用發電設備業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度工程收入為54,171仟元，營業收入合計為106,622仟元。",
+   "period": "114年度（2025）",
+   "page": 43,
+   "excerpts": [
+    "產品別 112 年度 113 年度 114 年度",
+    "工程 72,224 39.77 83,333 45.20 54,171 45.20",
+    "合計 181,609 100.00 184,340 100.00 106,622 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-03",
+   "field": "products",
+   "statement": "公司計畫開發之新產品包括高階金屬銀幕、無溶劑擴散膜及軟性電路板鍍銅種晶膜等。",
+   "period": "未註明（計畫開發之新產品）",
+   "page": 43,
+   "excerpts": [
+    "高階金屬銀幕 控制中心、展覽展示、與企業會議與家庭娛樂市場",
+    "無溶劑擴散膜 塗佈或貼合",
+    "鍍銅種晶膜 高頻通訊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-04",
+   "field": "outlook",
+   "statement": "公司年報引述研究機構資料，全球金屬抗光投影銀幕市場2025年約為4.38億美元，預估2033年將達約7.69億美元，年複合成長率約7.3%。",
+   "period": "2025年",
+   "page": 49,
+   "excerpts": [
+    "全球金屬抗光投影銀幕市場在 2024 年約為 4.08 億美元，2025 年",
+    "約為 4.38 億美元，預估至 2033 年將達約 7.69 億美元，年複合成長率約為 7.3%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-05",
+   "field": "outlook",
+   "statement": "公司年報指出2025年全球軟性電路板產值約達250億美金，每年增幅約6~8%。",
+   "period": "2025年",
+   "page": 49,
+   "excerpts": [
+    "2025 年全球軟性電路板產值約達 250 億美金",
+    "而每年增幅約 6~8% 穩定成長"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度銷售台灣103,641仟元，亞洲2,981仟元。",
+   "period": "114年度（2025）",
+   "page": 49,
+   "excerpts": [
+    "113 年度 114 年度",
+    "台灣 184,340 100.00 103,641 100.00",
+    "亞洲(中國大陸、日、韓..) 0 0 2,981 0.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-07",
+   "field": "major_suppliers",
+   "statement": "114年度進貨淨額中，代號2151占20.38%，代號2224占12.22%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "113 年度 114 年度 截至 115 年度 3月 31 日止",
+    "2151 1,445 20.38",
+    "2224 867 12.22"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-08",
+   "field": "major_customers",
+   "statement": "114年度銷貨淨額中，代號C160客戶占42.33%，代號C041客戶占17.76%。",
+   "period": "114年度（2025）",
+   "page": 55,
+   "excerpts": [
+    "113 年度 114 年度 截至 115 年度 3月 31 日止",
+    "C160 40,977 42.33",
+    "C041 17,193 17.76"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-09",
+   "field": "employees",
+   "statement": "114年度從業員工合計68人，113年度為68人。",
+   "period": "114年度（2025）",
+   "page": 55,
+   "excerpts": [
+    "年 度 113 年度 114 年度",
+    "合計 68 68 63"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-10",
+   "field": "capacity_or_production",
+   "statement": "公司屋頂型太陽能電站已建置發電量為2.3百萬瓦。",
+   "period": "年報刊印時",
+   "page": 48,
+   "excerpts": [
+    "目前已建置的屋頂型電站發電量已有 2.3 百萬瓦"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-11",
+   "field": "capacity_or_production",
+   "statement": "公司申請建置核可的調頻儲能容量為6.5百萬瓦。",
+   "period": "年報刊印時",
+   "page": 48,
+   "excerpts": [
+    "目前申請建置核可的儲存容量為 6.5 百萬瓦"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-12",
+   "field": "group_structure",
+   "statement": "子公司盛暉能源公司積極進行對外租賃場地布建電站。",
+   "period": "未註明年度（年報業務章節）",
+   "page": 48,
+   "excerpts": [
+    "目前子公司盛暉能源公司也積極進行對外租賃場地布建電站"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  },
+  {
+   "id": "3523-AR-13",
+   "field": "outlook",
+   "statement": "公司已停止虧損光學膜產品的生產，並預期膜材銷售量約可達55萬平方米以上。",
+   "period": "未註明（預期未來一年）",
+   "page": 60,
+   "excerpts": [
+    "除停止虧損光學膜產品的生產外",
+    "預期膜材銷售量約可達 55 萬平方米以上"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:21+00:00"
+   }
+  }
+ ]
+}

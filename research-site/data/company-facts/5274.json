@@ -1,0 +1,404 @@
+{
+ "ticker": "5274",
+ "company": "信驊",
+ "legal_name": "信驊科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5274&filename=2025_5274_20260528F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5274_20260528F04.pdf",
+  "text_sha256": "efd5a553866d7487e687475a377b03ae3aea69f56988f69e6756da7a86633f95",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/efd5a553866d7487e687475a377b03ae3aea69f56988f69e6756da7a86633f95.txt"
+ },
+ "facts": [
+  {
+   "id": "5274-AR-01",
+   "field": "business_scope",
+   "statement": "公司營業項目為從事IC之研發、測試與銷售，產品皆委外加工生產。",
+   "period": "截至年報刊印日止",
+   "page": 114,
+   "excerpts": [
+    "信驊科技營業項目為從事IC之研發、測試與銷售",
+    "產品皆委外加工生產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-02",
+   "field": "products",
+   "statement": "公司目前之商品包括多媒體積體電路（應用於伺服器基板管理控制晶片等）、電腦周邊積體電路（應用於遠端個人電腦延伸產品等）及高階影像處理積體電路（應用於720度全景相機等）。",
+   "period": "截至年報刊印日止",
+   "page": 79,
+   "excerpts": [
+    "應用於伺服器基板管理控制晶片",
+    "應用於遠端個人電腦延伸產品",
+    "應用於720度全景相機"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度多媒體積體電路商品產值為新台幣8,750,356仟元，占96.32%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "多媒體積體電路 6,137,357 95.01% 8,750,356 96.32%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-04",
+   "field": "products",
+   "statement": "年報列示第八代伺服器管理晶片（AST2700/AST2720/AST2750）即將進入量產。",
+   "period": "未來（即將量產）",
+   "page": 79,
+   "excerpts": [
+    "所開發出第八代伺服器管理晶片",
+    "(AST2700/AST2720/AST2750) 即將進入量產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 79 頁（或下一頁起始處）：(AST2700/AST2720/AST2750) 即將進入…"
+    ],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-05",
+   "field": "products",
+   "statement": "公司於年報自述該產品為市場上高性能、高安全性及功能最完整的伺服器管理晶片。",
+   "period": "截至年報刊印日止",
+   "page": 80,
+   "excerpts": [
+    "此產品為市場上高性能、高安全性及功能最完整的伺服器管理晶片"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-06",
+   "field": "market_position",
+   "statement": "年報引述工研院產業科技國際策略發展所(ISTI/IEK)統計與預測，2025年台灣IC設計業產值預計為1兆4,565億元。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "2025 年台灣IC設計業產值預計為1兆4,565億元"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-07",
+   "field": "market_position",
+   "statement": "以本公司2025年營業額約新台幣90億元估算，公司於台灣無晶圓廠IC設計業的市佔率約為0.62%。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "若以本公司2025 年營業額約新台幣90億元估算，信驊公司於台灣無晶圓廠IC設計業的市佔率約為0.62%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-08",
+   "field": "capacity_or_production",
+   "statement": "年報載明信驊科技2025年BMC系列晶片出貨量約1,800萬顆。",
+   "period": "2025年",
+   "page": 103,
+   "excerpts": [
+    "信驊科技 2025 年 BMC 系列晶片",
+    "出貨量約 1,800 萬顆"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，2025年全球伺服器遠端管理晶片市場市佔率約80%。",
+   "period": "2025年",
+   "page": 103,
+   "excerpts": [
+    "本公司在2025年全球伺服器遠端管理晶片市場的市佔率",
+    "整體市佔率已攀升至約80%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售金額為新台幣3,266,226仟元，占比35.95%。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元、%",
+    "113 年度 114 年度",
+    "內銷 3,022,926 46.80% 3,266,226 35.95%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度亞洲地區銷售金額為新台幣5,365,980仟元，占比59.07%。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元、%",
+    "113 年度 114 年度",
+    "亞洲 3,260,995 50.48% 5,365,980 59.07%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-12",
+   "field": "sales_regions",
+   "statement": "年報載明Cupola360全景相機已於新加坡、美國、印度、中東及台灣等主要市場有指標性客戶導入相關智慧巡檢方案。",
+   "period": "截至年報刊印日止",
+   "page": 104,
+   "excerpts": [
+    "本公司的 Cupola360 全景相機已迅速佈署",
+    "在新加坡、美國、印度、中東及台灣等主要市場，皆有指標性客戶導入相關智慧巡檢方案"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述提供業界唯一涵蓋高階影像處理晶片之完整一站式解決方案。",
+   "period": "截至年報刊印日止",
+   "page": 104,
+   "excerpts": [
+    "我們提供的是業界唯一涵蓋高階影像處理晶片",
+    "完整一站式解決方案"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-14",
+   "field": "major_customers",
+   "statement": "年報列示114年度銷貨客戶A（年報代號）銷貨淨額為新台幣1,772,115仟元，占全年度銷貨淨額19.51%。",
+   "period": "114年度（2025）",
+   "page": 113,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "B 1,434,123 22.20% 無 A 1,772,115 19.51% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-15",
+   "field": "major_suppliers",
+   "statement": "年報列示114年度進貨廠商A（年報代號）進貨金額為新台幣2,585,513仟元，占全年度進貨淨額98.18%。",
+   "period": "114年度（2025）",
+   "page": 113,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "A 2,149,818 96.12% 無 A 2,585,513 98.18% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  },
+  {
+   "id": "5274-AR-16",
+   "field": "employees",
+   "statement": "年報載明114年度（含子公司）員工合計100人。",
+   "period": "114年度（2025）",
+   "page": 114,
+   "excerpts": [
+    "項目 113 年度 114 年度",
+    "(含子公司)",
+    "合計 124 100 151 101"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:28+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,388 @@
+{
+ "ticker": "5347",
+ "company": "世界",
+ "legal_name": "世界先進積體電路股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5347&filename=2025_5347_20260528F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5347_20260528F04.pdf",
+  "text_sha256": "3e7f7121d8b7abfac941561319fe5cb216bf2a1ec16c31e612616e82a96e9238",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/3e7f7121d8b7abfac941561319fe5cb216bf2a1ec16c31e612616e82a96e9238.txt"
+ },
+ "facts": [
+  {
+   "id": "5347-AR-101",
+   "field": "revenue_mix",
+   "statement": "2025年度世界先進晶圓收入為新台幣46,763,229仟元。",
+   "period": "2025年度",
+   "page": 102,
+   "excerpts": [
+    "2025 年年度度業業務務之之主主要要內內容容及及其其營營業業比比重重",
+    "項目\u0003 名稱\u0003 金額（新台幣仟元）",
+    "（1）\u0003 晶圓收入\u0003 46,763,229"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-102",
+   "field": "revenue_mix",
+   "statement": "2025年度世界先進其他收入為新台幣1,828,016仟元。",
+   "period": "2025年度",
+   "page": 102,
+   "excerpts": [
+    "2025 年年度度業業務務之之主主要要內內容容及及其其營營業業比比重重",
+    "項目\u0003 名稱\u0003 金額（新台幣仟元）",
+    "（2）\u0003 其他\u0003 1,828,016"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-103",
+   "field": "business_scope",
+   "statement": "公司於年報載明主要經營業務範圍為晶圓製造，在CMOS的標準製程上開發HV、Logic、Mixed Mode、Discrete、NVM等核心技術。",
+   "period": "年報營運概況",
+   "page": 102,
+   "excerpts": [
+    "本公司主要經營業務範圍為晶圓製造，在 CMOS 的標準製程上，開發 HV、\nLogic、Mixed Mode、Discrete、NVM 等核心技術"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-104",
+   "field": "products",
+   "statement": "公司於年報載明持續與客戶合作開發BCD、SOI、高壓／超高壓、GaN、SiC、Sensor、MEMS等特殊製程。",
+   "period": "年報營運概況",
+   "page": 102,
+   "excerpts": [
+    "持續與客戶合作開發 BCD、SOI、高壓／超高\n壓、GaN、SiC、Sensor、MEMS 等特殊製程"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-105",
+   "field": "market_position",
+   "statement": "公司年報引述Gartner的2025年全球晶圓代工市場排名（含Pure Player和IDM），世界先進（VIS）2025年營收為1,556百萬美元，市占率0.9%，排名第9。",
+   "period": "2025年",
+   "page": 105,
+   "excerpts": [
+    "根據 Gartner 公布的 2025 年全球晶圓代工市場排名 （含Pure Player和 IDM）",
+    "9 VIS 1,373 1.0% 1,556 0.9% 13%",
+    "資料來源：Gartner (Feb 2026)"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 105 頁（或下一頁起始處）：9 VIS 1,373 1.0% 1,556 0.9% 13…",
+     "引文不在第 105 頁（或下一頁起始處）：資料來源：Gartner (Feb 2026)…"
+    ],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-106",
+   "field": "rd",
+   "statement": "2025年度世界先進研發費用為新台幣2,189,951仟元。",
+   "period": "2025年度",
+   "page": 112,
+   "excerpts": [
+    "年度\u0003 研發費用（新台幣仟元）",
+    "2025 年\u0003 2,189,951"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-107",
+   "field": "rd",
+   "statement": "公司於年報預估2026年度研發費用約占營業額5%左右。",
+   "period": "2026年度（預估）",
+   "page": 114,
+   "excerpts": [
+    "世界先進公司於 2026 年度將持續投入研發，預估研發費用約占營業\n額 5%左右"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-108",
+   "field": "major_suppliers",
+   "statement": "公司年報列示晶圓製造主要原材料矽晶片（Wafer）的主要供應廠商包括台塑勝高科技股份有限公司、台灣信越半導體股份有限公司（崇越科技（股）代理）及環球晶圓股份有限公司等，供應情形為正常。",
+   "period": "年報營運概況",
+   "page": 118,
+   "excerpts": [
+    "矽晶片\u0003 （Wafer）",
+    "台塑勝高科技股份有限公司",
+    "台灣信越半導體股份有限公司\u0003 （崇越科技（股）代理）",
+    "環球晶圓股份有限公司\u0003 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-109",
+   "field": "major_suppliers",
+   "statement": "公司年報列示晶圓製造主要原材料化學品（Chemical）的主要供應廠商包括美商杜邦研磨材料股份有限公司、華立企業股份有限公司、台灣巴斯夫電子材料股份有限公司及關東鑫林科技股份有限公司等，供應情形為正常。",
+   "period": "年報營運概況",
+   "page": 118,
+   "excerpts": [
+    "化學品\u0003 （Chemical）",
+    "美商杜邦研磨材料股份有限公司",
+    "華立企業股份有限公司",
+    "台灣巴斯夫電子材料股份有限公司",
+    "關東鑫林科技股份有限公司\u0003 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-110",
+   "field": "major_suppliers",
+   "statement": "公司年報列示晶圓製造主要原材料光阻劑（Photoresist）的主要供應廠商包括台灣東應化股份有限公司、崇越科技股份有限公司、台灣國際住商電子股份有限公司及台灣富士電子材料股份有限公司等，供應情形為正常。",
+   "period": "年報營運概況",
+   "page": 118,
+   "excerpts": [
+    "光阻劑\u0003 （Photoresist）",
+    "台灣東應化股份有限公司",
+    "崇越科技股份有限公司",
+    "台灣國際住商電子股份有限公司",
+    "台灣富士電子材料股份有限公司\u0003 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-111",
+   "field": "major_suppliers",
+   "statement": "公司年報列示晶圓製造主要原材料氣體（Gas）的主要供應廠商包括聯亞科技股份有限公司、聯華氣體工業股份有限公司、台灣力森諾科特殊氣體股份有限公司及美商英特格有限公司等，供應情形為正常。",
+   "period": "年報營運概況",
+   "page": 118,
+   "excerpts": [
+    "氣體\u0003 （Gas）",
+    "聯亞科技股份有限公司",
+    "聯華氣體工業股份有限公司",
+    "台灣力森諾科特殊氣體股份有限公司",
+    "美商英特格有限公司\u0003 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-112",
+   "field": "major_suppliers",
+   "statement": "2025年度某供應商（供應商A）對世界先進進貨金額為新台幣600,752仟元，占全年度進貨淨額7%，與本公司之關係為無。",
+   "period": "2025年度",
+   "page": 119,
+   "excerpts": [
+    "單位：新台幣仟元 \u0003 2024 年度\u0003 2025 年度",
+    "供應商 A\u0003 600,752\u0003 7 \u0003 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-113",
+   "field": "employees",
+   "statement": "2025年度世界先進員工人數合計7,311人，且2025年起從業員工計算加入新加坡子公司VSMC。",
+   "period": "2025年度",
+   "page": 120,
+   "excerpts": [
+    "年度\u0003 2024 年度\u0003 2025 年度\u0003 當年度截至",
+    "合計\u0003 6,526\u0003 7,311\u0003 7,425",
+    "註：2025 年起從業員工計算加入新加坡子公司 VSMC。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-114",
+   "field": "outlook",
+   "statement": "公司於年報載明預計於2027年量產其與恩智浦半導體於新加坡合資興建的十二吋晶圓廠。",
+   "period": "年報營運概況（預計2027年）",
+   "page": 111,
+   "excerpts": [
+    "本公司與恩智浦半導體於新加坡合資興建的十二吋晶圓廠正按計畫推進",
+    "預計於 2027 年量產後"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  },
+  {
+   "id": "5347-AR-115",
+   "field": "outlook",
+   "statement": "公司於年報載明長期規畫目標之一為建構台灣與新加坡雙核心製造體系。",
+   "period": "年報長期規畫目標",
+   "page": 115,
+   "excerpts": [
+    "建構台灣與新加坡雙核心製造體系，提供具地緣政治韌性之跨國"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:29+00:00"
+   }
+  }
+ ]
+}

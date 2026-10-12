@@ -1,0 +1,478 @@
+{
+ "ticker": "3622",
+ "company": "洋華",
+ "legal_name": "洋華光電股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3622&filename=2025_3622_20260525F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3622_20260525F04.pdf",
+  "text_sha256": "942a6752780ccdc4d35c22f9bfda1df91bed4d17b1c17e1c7956c917fa93893c",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/942a6752780ccdc4d35c22f9bfda1df91bed4d17b1c17e1c7956c917fa93893c.txt"
+ },
+ "facts": [
+  {
+   "id": "3622-AR-101",
+   "field": "business_scope",
+   "statement": "公司主要業務為觸控面板之開發、設計、製造及銷售及電線電纜附屬器材之製造及銷售。",
+   "period": "公司年報載明之主要業務",
+   "page": 69,
+   "excerpts": [
+    "本公司主要業務為觸控面板之開發、設計、製造及銷售及電線電纜附屬器材之製造及銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-102",
+   "field": "revenue_mix",
+   "statement": "114年度觸控面板營業收入淨額為新台幣303,207仟元，占比重17.57%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "113年度 1 14 年度 營業收入淨額 比重(%) 營業收入淨額 比重(%)",
+    "觸控面板 291,840 18.50 303,207 17.57"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-103",
+   "field": "revenue_mix",
+   "statement": "114年度電線電纜器材營業收入淨額為新台幣1,422,426仟元，占比重82.43%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "113年度 1 14 年度 營業收入淨額 比重(%) 營業收入淨額 比重(%)",
+    "電線電纜器材 1,285,452 81.50 1,422,426 82.43"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-104",
+   "field": "products",
+   "statement": "公司目前之商品（服務）項目包括投射式電容觸控面板、四線式電阻觸控面板、五線式電阻觸控面板，以及69kV 及 161kV交連 PE電纜使用之各式接續匣、終端匣等。",
+   "period": "年報揭露之目前商品項目",
+   "page": 69,
+   "excerpts": [
+    "3.公司目前之商品(服務)項目",
+    "(1)投射式電容觸控面板(包括 GFF、G1F、GF1、G1、G1G、GG2 結構)",
+    "(2)四線式電阻觸控面板(包括 GF、IFFP結構)",
+    "(3)五線式電阻觸控面板",
+    "(10)69kV 及 161kV交連 PE電纜使用之各式接續匣",
+    "(11)69kV及 161kV交連 PE電纜使用之各式終端匣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 69 頁（或下一頁起始處）：(3)五線式電阻觸控面板…",
+     "引文不在第 69 頁（或下一頁起始處）：(10)69kV 及 161kV交連 PE電纜使用之各式接續…",
+     "引文不在第 69 頁（或下一頁起始處）：(11)69kV及 161kV交連 PE電纜使用之各式終端匣…"
+    ],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-105",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣1,532,160仟元，占88.79%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "銷售地區 113年度 1 14 年度 金額 % 金額 %",
+    "內 銷 1,403,009 88.95 1,532,160 88.79"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-106",
+   "field": "export_share",
+   "statement": "114年度外銷金額為新台幣193,473仟元，占11.21%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "銷售地區 113年度 1 14 年度 金額 % 金額 %",
+    "外 銷 174,283 11.05 193,473 11.21"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-107",
+   "field": "raw_materials",
+   "statement": "公司年報之主要原料供應狀況表列有ITO FILM、METAL FILM，其供應廠商列為日東、尾池、日久。",
+   "period": "年報揭露之主要原料供應狀況",
+   "page": 77,
+   "excerpts": [
+    "主要原料 供應廠商 供應狀況",
+    "ITO FILM、METAL FILM 日東、尾池、日久"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-108",
+   "field": "raw_materials",
+   "statement": "公司年報之主要原料供應狀況表列有玻璃，其供應廠商列為凱茂/成達。",
+   "period": "年報揭露之主要原料供應狀況",
+   "page": 77,
+   "excerpts": [
+    "主要原料 供應廠商 供應狀況",
+    "玻璃 凱茂/成達"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-109",
+   "field": "raw_materials",
+   "statement": "公司年報之主要原料供應狀況表列有環氧樹脂 Epoxy、應力錐橡膠原料、橡膠組件矽橡膠，其供應廠商列為古河。",
+   "period": "年報揭露之主要原料供應狀況",
+   "page": 77,
+   "excerpts": [
+    "主要原料 供應廠商 供應狀況",
+    "環氧樹脂 Epoxy、應力錐橡膠原料、 橡膠組件矽橡膠 古河"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-110",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A）進貨金額為新台幣231,226仟元，占年度進貨淨額37.49%，與發行人關係為無。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "113年度 1 14年度 名稱 金額 占年度進 貨淨額比 率(%)",
+    "A 231,226 37.49% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-111",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（B）進貨金額為新台幣186,640仟元，占年度進貨淨額30.26%，與發行人關係為無。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "113年度 1 14年度 名稱 金額 占年度進 貨淨額比 率(%)",
+    "B 186,640 30.26% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-112",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C）銷貨金額為新台幣344,971仟元，占全年度銷貨淨額19.99%，與發行人關係為無。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "113年度 1 14年度 名稱 金額 占全年度銷 貨淨額比率 (%)",
+    "C 344,971 19.99% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-113",
+   "field": "major_customers",
+   "statement": "114年度某客戶（D）銷貨金額為新台幣272,705仟元，占全年度銷貨淨額15.80%，與發行人關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "113年度 1 14年度 名稱 金額 占全年度銷 貨淨額比率 (%)",
+    "D 272,705 15.80% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-114",
+   "field": "major_customers",
+   "statement": "114年度某客戶（A）銷貨金額為新台幣267,341仟元，占全年度銷貨淨額15.49%，與發行人關係為無。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "113年度 1 14年度 名稱 金額 占全年度銷 貨淨額比率 (%)",
+    "A 267,341 15.49% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-115",
+   "field": "employees",
+   "statement": "公司員工人數合計於114年度為151人。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "年 度 1 1 3 年度 1 1 4 年度 1 1 5 年 3 月 31 日",
+    "合 計 153 151 150"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-116",
+   "field": "rd",
+   "statement": "公司114年度研發費用為新台幣44,603仟元。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "項 次 1 14 年度",
+    "研發費用(A) 44,603"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-117",
+   "field": "rd",
+   "statement": "公司114年度研發費用占營業額比率為2.58%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "項 次 1 14 年度",
+    "(A)／(B)% 2.58%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-118",
+   "field": "outlook",
+   "statement": "公司計畫開發之新商品（服務）包括電子紙顯示器開發、整機模組加工製造，以及345kV 及 500kV交連 PE電纜使用之各式接續匣、終端匣。",
+   "period": "年報揭露之計畫",
+   "page": 70,
+   "excerpts": [
+    "4.計畫開發之新商品(服務)",
+    "(1)電子紙顯示器開發",
+    "(2)整機模組加工製造",
+    "(3)345kV 及 500kV交連 PE電纜使用之各式接續匣、終端匣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  },
+  {
+   "id": "3622-AR-119",
+   "field": "outlook",
+   "statement": "公司長期行銷策略載明，產品銷售朝中大尺寸及非消費性客戶擴展，著重在車載、電子紙及宅經濟所衍生出來之商機市場。",
+   "period": "年報揭露之長期發展計畫",
+   "page": 75,
+   "excerpts": [
+    "產品銷售朝中大尺寸及非消費性客戶擴展，著重在車載、電子紙及宅經濟所衍生出來之商機市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:23+00:00"
+   }
+  }
+ ]
+}

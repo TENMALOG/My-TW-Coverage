@@ -1,0 +1,381 @@
+{
+ "ticker": "3583",
+ "company": "辛耘",
+ "legal_name": "辛耘企業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3583&filename=2025_3583_20260605F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3583_20260605F04.pdf",
+  "text_sha256": "5999c8af85397c9ae83f40217c5edca6e01fe5f1f1c978edc8f69764c9352e15",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/5999c8af85397c9ae83f40217c5edca6e01fe5f1f1c978edc8f69764c9352e15.txt"
+ },
+ "facts": [
+  {
+   "id": "3583-AR-01",
+   "field": "business_scope",
+   "statement": "公司屬半導體、LED、太陽能與FPD製程設備專業供應商。",
+   "period": "截至年報刊印日止",
+   "page": 74,
+   "excerpts": [
+    "本公司係屬半導體 、LED、 太陽能與FPD製程設備專業供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度營業收入淨額為新台幣11,371,368仟元，其中銷貨收入占95.82%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "114 年度 113 年度",
+    "銷貨收入 10,895,501 95.82 9,400,488 97.03",
+    "營業收入淨額 11,371,368 100.00 9,688,280 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-03",
+   "field": "products",
+   "statement": "公司自製設備包括批次式濕式製程設備、單晶圓濕式製程設備及暫時性貼合及剝離設備(TBDB)，並經營晶圓再生服務及代理半導體、光電等產業設備。",
+   "period": "截至年報刊印日止",
+   "page": 69,
+   "excerpts": [
+    "(A) 批次式濕式製程設備，應用於",
+    "(B) 單晶圓濕式製程設備，應用於",
+    "(C) 暫時性貼合及剝離設備(TBDB)，應用：IGBT 功率器及半導",
+    "B.晶圓再生",
+    "C.代理設備：代理半導體、光電產業、LCD、LED、太陽能等產業量"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-04",
+   "field": "products",
+   "statement": "年報載明公司代理五十餘產品線，產品應用於半導體、光電、測試、封裝與化學分析儀器等產業。",
+   "period": "截至年報刊印日止",
+   "page": 80,
+   "excerpts": [
+    "辛耘公司代理五十餘產品線，產品應用於半導體、光電、測試、封裝與化學分析儀器等產業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 80 頁（或下一頁起始處）：辛耘公司代理五十餘產品線，產品應用於半導體、光電、測試、封裝…"
+    ],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售金額為新台幣5,451,632仟元，占營業淨額比例47.94%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "112 年度 113 年度 114 年度",
+    "內銷  2,264,475 32.76 3,970,027 40.98 5,451,632 47.94",
+    "營業淨額  6,911,981 100.00 9,688,280 100.00 11,371,368 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-06",
+   "field": "market_position",
+   "statement": "公司於年報自述在12吋晶圓再生市場之市占率約為20%。",
+   "period": "截至年報刊印日止",
+   "page": 79,
+   "excerpts": [
+    "另在 12”晶圓再生市場部分，截至目前本公司市佔率約為20%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-07",
+   "field": "market_position",
+   "statement": "年報列示公開發行或上市櫃之競爭對手包括帆宣、均豪、東捷、弘塑、亞智、揚博、崇越、中砂、由田、漢微科、漢民等公司。",
+   "period": "截至年報刊印日止",
+   "page": 75,
+   "excerpts": [
+    "在公開發行公司或是上市櫃公司中包括帆宣、均豪、東捷、弘塑、亞智、揚博、崇越、中砂、由田、漢微科、漢民等公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述目前市場占有率仍處微小。",
+   "period": "截至年報刊印日止",
+   "page": 75,
+   "excerpts": [
+    "目前本公司市場占有率仍處微小"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-09",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣463,325仟元，占營業收入淨額比例4.07%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；％",
+    "項目 114 年度 115/01-115/03",
+    "研發費用 463,325 152,148",
+    "占營業收入淨額比例(%) 4.07 4.88"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-10",
+   "field": "rd",
+   "statement": "年報載明114年共提出國內外專利15件，取得專利證書21件，114年底仍維持有效專利207件。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "辛耘114年共提出國內外專利15件，以及取得21件專利證書；114年底仍維持有效專利有207件"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-11",
+   "field": "employees",
+   "statement": "年報載明114年度從業員工合計1,152人。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "年度 113 年度 114 年度 當年度截 115 年",
+    "合計 931 1,152 1,190"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-12",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶排名第1者為台積電，銷貨金額為新台幣3,166,293仟元，占全年度銷貨淨額27.84%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "113 年 114 年 115 年度截至前一季止",
+    "1 台積電 2,036,490 21.02 無 台積電 3,166,293 27.84 無 台積電 1,188,270 38.08 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度進貨供應商排名第1者為NOVA，進貨金額為新台幣1,211,641仟元，占全年度進貨淨額16.77%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年 115年度截至前一季止",
+    "1 K-T 1,867,290 22.64 無 NOVA 1,211,641 16.77 無 NOVA 278,172 14.39 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度進貨供應商排名第2者為K-T，進貨金額為新台幣905,631仟元，占全年度進貨淨額12.53%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年 115年度截至前一季止",
+    "2 NOVA 1,189,446 14.42 無 K-T 905,631 12.53 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  },
+  {
+   "id": "3583-AR-15",
+   "field": "raw_materials",
+   "statement": "年報載明代理產品由原廠供應，自製機台由國內外廠商供應，原物料尚無供應不足之情形。",
+   "period": "截至年報刊印日止",
+   "page": 86,
+   "excerpts": [
+    "代 理 產 品 部 份 由 原 廠 供 應，自 製 機 台 部 份 由 國 內 外 廠 商 供 應"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:22+00:00"
+   }
+  }
+ ]
+}

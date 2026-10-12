@@ -1,0 +1,63 @@
+{
+ "ticker": "6863",
+ "company": "永道-KY",
+ "legal_name": "Arizon RFID Technology",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6863&filename=2025_6863_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6863_20260527F04.pdf",
+  "text_sha256": "74433d416201074a06fb5176582880ee1ad93f5b603a60914fdcaea73300987c",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/74433d416201074a06fb5176582880ee1ad93f5b603a60914fdcaea73300987c.txt"
+ },
+ "facts": [
+  {
+   "id": "6863-AR-01",
+   "field": "products",
+   "statement": "公司產品包括無膠電子標籤產品Dry Inlay，以及經覆合模切加工而成的有膠電子標籤產品Wet Inlay，包括ClearWet Inlay、Label及Ticket。",
+   "period": "年報刊印時（2025年報）",
+   "page": 62,
+   "excerpts": [
+    "產品，稱為無膠電子標籤產品Dry Inlay，其已具備接收回饋無線射頻信號能力",
+    "模切成為單張有膠電子標籤產品Wet Inlay，包括ClearWet Inlay、 Label、Ticket"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:38+00:00"
+   }
+  },
+  {
+   "id": "6863-AR-02",
+   "field": "history",
+   "statement": "公司於2019年累計銷售超過50億枚Inlay。",
+   "period": "2019年",
+   "page": 6,
+   "excerpts": [
+    "2019",
+    "累計銷售超過50",
+    "億枚Inlay。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:38+00:00"
+   }
+  }
+ ]
+}

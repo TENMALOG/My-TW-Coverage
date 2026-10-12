@@ -1,0 +1,354 @@
+{
+ "ticker": "6924",
+ "company": "榮惠-KY創",
+ "legal_name": "榮惠集團(開曼)股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6924&filename=2024_6924_20250620F04.pdf",
+  "fy": 2024,
+  "filename": "2024_6924_20250620F04.pdf",
+  "text_sha256": "88e9b60fc6b581219e23026d8e569f21ba6c208eb9d7aa2b4c476354f2987a58",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/88e9b60fc6b581219e23026d8e569f21ba6c208eb9d7aa2b4c476354f2987a58.txt"
+ },
+ "facts": [
+  {
+   "field": "revenue_mix",
+   "statement": "2024年度印刷電路板營收為新臺幣1,569,417仟元，占合計1,762,824仟元之89.03%。",
+   "period": "2024年度",
+   "page": 42,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2022年度 2023年度 2024年",
+    "印刷電路板 1,283,548 89.31 1,298,061 91.01 1,569,417 89.03",
+    "合計 1,437,128 100.00 1,426,278 100.00 1,762,824 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-01",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "2024年度工業用零組件營收為新臺幣113,031仟元，占合計之6.41%。",
+   "period": "2024年度",
+   "page": 42,
+   "excerpts": [
+    "2022年度 2023年度 2024年",
+    "工業用零組件 132,355 9.21 108,891 7.63 113,031 6.41"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-02",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "products",
+   "statement": "公司所提供之產品與服務，包括各類利基型PCB、IPC相關電子零組件及其他電子材料等。",
+   "period": "2024年度",
+   "page": 42,
+   "excerpts": [
+    "本公司所提供之產品與服務，包括各類利基型 PCB、IPC相關電子零組件及其他電子材料等"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-03",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "products",
+   "statement": "PCB產品應用層面以車用電子及消費性電子為主，工業用產品暨其他如通信、醫療、電源及航太等產品為輔。",
+   "period": "2024年度",
+   "page": 42,
+   "excerpts": [
+    "PCB產品應用層面以車用電子及消費性電子為主，工業用產品暨其他如通信、醫療、電源及航太等產品為輔"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-04",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "2024年度泰國銷售金額為新臺幣734,165仟元，占銷售地區合計之41.65%。",
+   "period": "2024年度",
+   "page": 13,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "2022年度 2023年度 2024年度",
+    "泰國 595,355 41.43 626,662 43.94 734,165 41.65",
+    "合計 1,437,128 100.00 1,426,278 100.00 1,762,824 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-05",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": false,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [
+     "引文不在第 13 頁（或下一頁起始處）：2022年度 2023年度 2024年度…",
+     "引文不在第 13 頁（或下一頁起始處）：泰國 595,355 41.43 626,662 43.94…",
+     "引文不在第 13 頁（或下一頁起始處）：合計 1,437,128 100.00 1,426,278 …"
+    ],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "2024年度中國銷售金額為新臺幣278,450仟元，占銷售地區合計之15.80%。",
+   "period": "2024年度",
+   "page": 55,
+   "excerpts": [
+    "2022年度 2023年度 2024年度",
+    "中國 222,910 15.51 216,264 15.16 278,450 15.80"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-06",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "2024年度銷貨客戶A公司（代號）之銷貨淨額為新臺幣339,380仟元，占全年度銷貨淨額19.25%。",
+   "period": "2024年度",
+   "page": 61,
+   "excerpts": [
+    "2023年度 2024 年度 2025 年度截至前一季止",
+    "A公司 339,380 19.25 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-07",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "major_suppliers",
+   "statement": "2024年度進貨供應商AA公司（代號）之進貨淨額為新臺幣218,489仟元，占全年度進貨淨額14.60%。",
+   "period": "2024年度",
+   "page": 61,
+   "excerpts": [
+    "2023年度 2024 年度 2025 年度截至前一季止",
+    "AA公司 218,489 14.60 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-08",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "原物料包括樹脂、銅箔、玻璃紗/布等。",
+   "period": "2024年度",
+   "page": 51,
+   "excerpts": [
+    "(1)原物料：",
+    "樹脂、銅箔、玻璃紗/布"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-09",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "以工研院統計之2024年全球PCB總產值809億美元推算，公司2024年度印刷電路板營收0.49億美元，市占率約為0.06%。",
+   "period": "2024年度",
+   "page": 55,
+   "excerpts": [
+    "根據工研院產業科技國際策略發展所研究數據統計顯示，2024 年全球 PCB 總產值為 809 億美元",
+    "以本公司 2024 年度印刷電路板營收 0.49 億美元推算，市占率約為 0.06%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "6924-AR-10",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "employees",
+   "statement": "截至2025年5月20日，公司從業員工合計139人。",
+   "period": "截至2025年5月20日",
+   "page": 62,
+   "excerpts": [
+    "年度 2023年度 2024年度 2025年 截至 5 月 20日",
+    "合 計 131 136 139"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-11",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "group_structure",
+   "statement": "公司於日本、泰國、香港及深圳設有實質營運個體。",
+   "period": "2024年度",
+   "page": 52,
+   "excerpts": [
+    "本公司於日本、泰國、香港及深圳設有實質營運個體"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-12",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "products",
+   "statement": "公司於年報自述2022年已正式打進電動車供應鏈，透過歐系EMS大廠交貨電動車廠專用模組所需之PCB。",
+   "period": "2022年起",
+   "page": 52,
+   "excerpts": [
+    "2022年本公司業已正式打進電動車供應鏈，透過歐系EMS大廠交貨電動車廠專用模組所需之PCB"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "id": "6924-AR-13",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  },
+  {
+   "field": "outlook",
+   "statement": "公司未來將繼續發展車用PCB本業，並以電動車(EV)、大電流轉換器及高功率充電樁等車用PCB產品為開發重點。",
+   "period": "未來",
+   "page": 42,
+   "excerpts": [
+    "持續發展車用PCB本業，並以具備高附加價值且具未來發展性之產品應用為開發重點",
+    "包括電動車(EV)、大電流(AC/DC、DC/DC)轉換器及高功率充電樁等車用PCB產品"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "6924-AR-14",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T04:00:39+00:00"
+   }
+  }
+ ]
+}

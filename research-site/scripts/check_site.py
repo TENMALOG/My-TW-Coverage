@@ -104,15 +104,30 @@ def check_links():
     notes.append(f'links checked across {len(pages)} pages, {bad} problems')
 
 
+def documented_redactions():
+    """{path: (old_sha, new_sha)} from approved redaction logs; only an exact old->new match is accepted."""
+    out = {}
+    for log in CR.glob('REDACTION-*.md'):
+        for m in re.finditer(r'^\| `([^`]+)` \| ([0-9a-f]{64}) \| ([0-9a-f]{64}) \|$', log.read_text(encoding='utf-8'), re.M):
+            out[m[1]] = (m[2], m[3])
+    return out
+
+
 def check_protected():
     base = json.loads(BASELINE.read_text(encoding='utf-8'))['protected_files']
-    mism, missing = [], []
+    redacted = documented_redactions()
+    mism, missing, accepted = [], [], []
     for rel, h in base.items():
         p = ROOT / rel
         if not p.exists():
             missing.append(rel)
         elif sha(p) != h:
-            mism.append(rel)
+            if redacted.get(rel) == (h, sha(p)):
+                accepted.append(rel)
+            else:
+                mism.append(rel)
+    if accepted:
+        notes.append(f'{len(accepted)} protected files differ only by a documented, approved redaction: {accepted}')
     if mism:
         failures.append(f'{len(mism)} protected files changed, e.g. {mism[:3]}')
     if missing:
