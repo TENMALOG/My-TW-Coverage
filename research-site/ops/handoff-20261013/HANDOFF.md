@@ -1,0 +1,40 @@
+# 交接：2026-10-13 進度與下一步（下一次執行：星期六 2026-10-17）
+
+目標：完整產業研究網站，最終取代原專案（1,733 家、98 產業），只用逐字核對過的年報事實。
+
+## 已完成
+| 項目 | 狀態 | 位置 |
+|---|---|---|
+| 年報事實 | 1,733 家、32,083 筆，全數通過 verify_extraction | `research-site/data/company-facts/` |
+| 語意審查 | 17,208 筆已審，347 筆退回（不會呈現） | `company-facts/_semantic-review.jsonl` |
+| 亂碼年報 | 14 家 PyMuPDF 重抽、11 家 Windows OCR（頁面影像保留） | `scripts/annual/reextract_pymupdf.py`、`ocr_annual.py`、`winocr.ps1` |
+| 關係資料 | 7,935 筆；上市櫃間 684 筆經 Sonnet 逐筆審查 → 可公開 554 筆 | `data/relations/`、`scripts/relations/`（`build_relations.py` → `apply_edge_review.py` → `listed_edges.csv`） |
+| 目錄名稱 | 修正 7 家亂碼簡稱（含 8349 恒耀） | `scripts/build_catalog.py` FILENAME_NAME_FIXES |
+| 產業分析草稿 | 97 產業（航太為手寫章，不在內）由 Codex 撰寫，機械檢查全數通過 | `data/industry-analysis/{slug}.md`；檢查／產生：`scripts/generic/build_industry_analysis.py` |
+
+已 commit（本機，未 push）：`5d2d7604`、`a412cf8e`。之後的變更（relations、industry-analysis、build_industry_analysis.py、build_catalog 修正、codex_quota CODEX_HOME 支援）尚未 commit。
+
+## 進行中（10/13 晚間啟動，可能未完成）
+- Sonnet 逐句審查 97 份產業分析：分 12 組，清單 `tools/anarev_list_00..11`，說明 `tools/anarev_brief.md`，
+  輸出原定寫在 session scratchpad 的 `anarev_out_XX.jsonl`。若下次 session 找不到這些輸出，就重新執行審查
+  （事實包已備份在 `ind_facts/`，把 brief 裡的 `<scratchpad>` 換成本資料夾）。
+
+## 下一步（依序）
+1. 套用產業分析審查結果：problem 句依 `fix` 改寫或刪除 → `build_industry_analysis.py` 檢查並產生 `chapters/industries/_analysis/*.qmd`。
+2. 用現有產生器重建全部頁面（目前頁面是年報事實補齊前產生的）：
+   `scripts/generic/build_company_pages_all.py`、`build_industry_chapters.py`、`build_book_config.py`；
+   公司頁加入 `listed_edges.csv` 的已審關係；各產業關係圖（參考 `scripts/build_relation_graph.py`）。
+3. `quarto render research-site` + `scripts/check_site.py`；瀏覽器實測（桌面／375px）。
+4. 本機 commit（需董事長同意的事項見下）。
+5. 之後：未對到名單的具名對象清理（`data/relations/unresolved_named.csv`，品質差，目前不公開）；
+   2412/2884/1589/4406 待 2025 年報（MOPS 尚無 F04）。
+
+## 需董事長決定（push 前）
+網站名稱與署名、部署平台與網域、舊入口處理、原報告封存方式、股.tw（075）匯入；push 前要加 MIT 署名
+（Timeverse/My-TW-Coverage, "Copyright (c) 2026 idk_mostoftime"）、掃描機密、repo 改名。
+
+## 分工與工具
+- Codex 兩個帳號：預設 `~/.codex`、第二帳號 `CODEX_HOME=~/.codex-b`；額度：`audit-v5/semantic/candidate-rerun/codex_quota.py`（支援 CODEX_HOME）。
+  Codex 寫檔只開放新資料夾；擷取任務要寫明 15–25 筆（`tools/codex_extract_task.md`）。
+- Sonnet：擷取審查（`tools/review_brief.md` + `review_rules_v3.md`）、關係審查（`relrev_brief.md`）、分析審查（`anarev_brief.md`）。
+- 修正工具：`fix_edit.py`（改寫陳述，數字不變）、`drop_facts.py`、`merge_review.py`、`select_review.py`，皆在 `tools/`。

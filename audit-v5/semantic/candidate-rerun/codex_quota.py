@@ -9,12 +9,13 @@ then hand back to Codex; use the single saved reset only when the weekly quota i
 """
 from __future__ import annotations
 
+import os
 import json
 import re
 from datetime import datetime
 from pathlib import Path
 
-SESS = Path.home() / '.codex/sessions'
+SESS = Path(os.environ.get('CODEX_HOME') or Path.home() / '.codex') / 'sessions'
 
 
 def latest_limits():

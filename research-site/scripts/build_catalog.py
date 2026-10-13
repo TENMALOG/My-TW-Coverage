@@ -139,11 +139,17 @@ def parse_report(path: Path) -> dict:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
+    # Some original filenames are mojibake (characters such as 碁/恒 lost in a Big5 round trip);
+    # the short names below are confirmed by the legal name printed in each company's annual report.
+    FILENAME_NAME_FIXES = {"6285": "啟碁", "2432": "倚天酷碁-創", "6174": "安碁", "8111": "立碁",
+                           "6908": "宏碁遊戲", "6690": "安碁資訊", "8349": "恒耀"}
+
     # Reports: ticker is ground truth for path mapping (folders were renamed after audit).
     reports = {}
     for f in sorted(glob.glob(str(ROOT / "Pilot_Reports" / "*" / "*.md"))):
         p = Path(f)
         ticker, _, name = p.stem.partition("_")
+        name = FILENAME_NAME_FIXES.get(ticker, name)
         assert ticker not in reports, ticker
         reports[ticker] = {
             "ticker": ticker,
