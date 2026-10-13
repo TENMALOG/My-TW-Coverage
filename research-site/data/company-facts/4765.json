@@ -1,0 +1,535 @@
+{
+ "ticker": "4765",
+ "company": "磐采",
+ "legal_name": "磐采股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=4765&filename=2024_4765_20250617F04.pdf",
+  "fy": 2024,
+  "filename": "2024_4765_20250617F04.pdf",
+  "text_sha256": "e6d5f8bf3a843a91a59eb66ced2c616ebfe1aa7a2eb59abae878209e1ab4d538",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/e6d5f8bf3a843a91a59eb66ced2c616ebfe1aa7a2eb59abae878209e1ab4d538.txt"
+ },
+ "facts": [
+  {
+   "id": "4765-AR-01",
+   "field": "headquarters",
+   "statement": "公司年報載明總公司、二廠之地址為桃園市龜山區文明路72之1號。",
+   "period": "截至113年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司、二廠之地址：桃園市龜山區文明路 72之 1號"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-02",
+   "field": "business_scope",
+   "statement": "公司年報所營業務之主要內容列有塗料、油漆、染料及顏料製造業、其他化學材料製造業、電子零組件製造業等。",
+   "period": "截至113年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "C802200 塗料、油漆、染料及顏料製造業",
+    "C801990 其他化學材料製造業",
+    "CC01080 電子零組件製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-03",
+   "field": "revenue_mix",
+   "statement": "113年度印刷油墨及漿料金額為新台幣249,022仟元，占營業比重81.06%。",
+   "period": "113年度（2024）",
+   "page": 52,
+   "excerpts": [
+    "(2)營業比重 單位：新台幣仟元 年度 112年度 113 年度 產品別 金額 %",
+    "印刷油墨及漿料 233,372 83.15 249,022 81.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-04",
+   "field": "revenue_mix",
+   "statement": "113年度保護塗料金額為新台幣32,215仟元，占營業比重10.49%。",
+   "period": "113年度（2024）",
+   "page": 52,
+   "excerpts": [
+    "(2)營業比重 單位：新台幣仟元 年度 112年度 113 年度 產品別 金額 %",
+    "保護塗料 23,292 8.30 32,215 10.49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-05",
+   "field": "revenue_mix",
+   "statement": "113年度接著劑金額為新台幣16,847仟元，占營業比重5.48%。",
+   "period": "113年度（2024）",
+   "page": 52,
+   "excerpts": [
+    "(2)營業比重 單位：新台幣仟元 年度 112年度 113 年度 產品別 金額 %",
+    "接著劑 18,238 6.50 16,847 5.48"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-06",
+   "field": "revenue_mix",
+   "statement": "112年度印刷油墨及漿料金額為新台幣233,372仟元，占營業比重83.15%。",
+   "period": "112年度（2023）",
+   "page": 52,
+   "excerpts": [
+    "(2)營業比重 單位：新台幣仟元 年度 112年度 113 年度 產品別 金額 %",
+    "印刷油墨及漿料 233,372 83.15 249,022 81.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-07",
+   "field": "products",
+   "statement": "公司目前之商品項目包括印刷油墨、保護塗料、接著劑、漿料及3D列印相關材料等。",
+   "period": "截至113年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "印刷油墨、保護塗料、接著劑、漿料及 3D 列印相關材料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-08",
+   "field": "products",
+   "statement": "公司年報列出計畫開發之新商品，包括工業用耐衝擊3D列印UV光固化樹脂、高效bifacial PERC鋁漿等。",
+   "period": "截至113年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "(4)計畫開發之新商品",
+    "- 工業用耐衝擊 3D列印 UV光固化樹脂",
+    "- 高效 bifacial PERC 鋁漿"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-09",
+   "field": "sales_regions",
+   "statement": "113年度內銷銷貨收入淨額為新台幣249,144仟元，占銷貨收入81.10%。",
+   "period": "113年度（2024）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元；% 年度 112年度 113 年度 銷售區域 銷貨收入 淨額 佔銷貨收入 比例% 銷貨收入 淨額 佔銷貨收入 比例%",
+    "內銷 223,142 79.51 249,144 81.10"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-10",
+   "field": "sales_regions",
+   "statement": "113年度外銷亞洲銷貨收入淨額為新台幣51,754仟元，占銷貨收入16.85%。",
+   "period": "113年度（2024）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元；% 年度 112年度 113 年度 銷售區域 銷貨收入 淨額 佔銷貨收入 比例% 銷貨收入 淨額 佔銷貨收入 比例%",
+    "外銷 亞洲 53,096 18.92 51,754 16.85"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述，光碟相關化學品於2024年銷售總量約380噸，並以現存光碟片製造商的產能估計，推估應有約5成以上的全球市場占有率。",
+   "period": "2024年",
+   "page": 59,
+   "excerpts": [
+    "光碟相關化學品於2024年銷售總量約380噸。以現存光碟片製造商的產能估計，推估應有約5成以上的全球市場占有率。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述，以實際調查目前台灣已裝機的UV平版印刷機數量估算，本公司於總體UV平版印刷油墨市占約3~4成。",
+   "period": "截至113年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "以實際調查目前台灣已裝機的UV平版印刷機數量估算，本公司於總體UV平版印刷油墨市占約3~4成"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述，以實際調查目前台灣已裝機的UV平版印刷機數量估算，本公司在LED-UV平版印刷區塊之市占率約有7成。",
+   "period": "截至113年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "以實際調查目前台灣已裝機的UV平版印刷機數量估算，本公司於總體UV平版印刷油墨市占約3~4成，而在LED-UV平版印刷區塊之市占率則約有7成"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-14",
+   "field": "market_position",
+   "statement": "公司於年報自述，本公司應為台灣最大的光固化樹脂供應商。",
+   "period": "截至113年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "本公司應為台灣最大的光固化樹脂供應商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-15",
+   "field": "raw_materials",
+   "statement": "公司年報載明主要原料包括樹脂、單體、光啟始劑、填充料、色粉、溶劑、玻璃粉、鋁粉及銀粉等。",
+   "period": "截至113年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "本公司主要原料為樹脂、單體、光啟始劑、填充料、色粉、溶劑、玻璃粉、鋁粉、及銀粉等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-16",
+   "field": "major_suppliers",
+   "statement": "113年度某供應商（A公司）進貨金額為新台幣31,883仟元，占全年度進貨淨額18.11%。",
+   "period": "113年度（2024）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元 項目 112年度 113 年度 名稱 金額 占全年度 進貨淨額 比率% 與發行 人之關 係 名稱 金額 占全年度 進貨淨額 比率% 與發行 人之關 係",
+    "1 A公司 21,389 14.20 無 A公司 31,883 18.11 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-17",
+   "field": "major_suppliers",
+   "statement": "112年度某供應商（P公司）進貨金額為新台幣19,534仟元，占全年度進貨淨額12.97%。",
+   "period": "112年度（2023）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元 項目 112年度 113 年度 名稱 金額 占全年度 進貨淨額 比率% 與發行 人之關 係 名稱 金額 占全年度 進貨淨額 比率% 與發行 人之關 係",
+    "2 P 公司 19,534 12.97 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-18",
+   "field": "major_customers",
+   "statement": "113年度某客戶（甲午公司）銷貨金額為新台幣92,812仟元，占全年度銷貨淨額30.21%。",
+   "period": "113年度（2024）",
+   "page": 65,
+   "excerpts": [
+    "單位：新台幣仟元 項目 112年度 113 年度 名稱 金額 占全年度 銷貨淨額 比率% 與發行 人之關 係 名稱 金額 占全年度 銷貨淨額 比率% 與發行 人之關 係",
+    "1 甲午公司 84,231 30.01 無 甲午公司 92,812 30.21 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-19",
+   "field": "major_customers",
+   "statement": "113年度某客戶（己公司）銷貨金額為新台幣43,498仟元，占全年度銷貨淨額14.16%。",
+   "period": "113年度（2024）",
+   "page": 65,
+   "excerpts": [
+    "單位：新台幣仟元 項目 112年度 113 年度 名稱 金額 占全年度 銷貨淨額 比率% 與發行 人之關 係 名稱 金額 占全年度 銷貨淨額 比率% 與發行 人之關 係",
+    "2 己公司 36,713 13.08 無 己公司 43,498 14.16 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-20",
+   "field": "employees",
+   "statement": "113年度員工人數合計為84人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "113年度（2024）",
+   "page": 65,
+   "excerpts": [
+    "年 度 112 年度 113 年度 114 年截至 4月底止",
+    "合 計 83 84 81"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-21",
+   "field": "rd",
+   "statement": "公司年報載明114年度預計投入之研發費用為三千二百萬元。",
+   "period": "114年度（2025）預計",
+   "page": 72,
+   "excerpts": [
+    "114年度預計投入之研發費用為三千二百萬元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  },
+  {
+   "id": "4765-AR-22",
+   "field": "outlook",
+   "statement": "公司年報載明長期發展戰略主要聚焦於新產品開發與全球市場拓展兩大方面。",
+   "period": "截至113年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "本公司長期發展戰略主要聚焦於新產品開發與全球市場拓展兩大方面"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:22+00:00"
+   }
+  }
+ ]
+}

@@ -119,6 +119,12 @@ def check_numbers(statement, period, excerpts):
             if (before in ("(", "（") and after in (")", "）")) or (
                     after in ("、", ".") and (m.start() == 0 or before in " ；;，。")):
                 continue
+        # digits inside a code name such as "B15" or "A1" are part of the label, not a quantity;
+        # the whole code must still appear in the excerpts
+        if before.isascii() and before.isalpha():
+            flat = "".join(re.sub(r"\s+", "", unicodedata.normalize("NFKC", e)) for e in excerpts)
+            if (before + tok) in flat:
+                continue
         if d in period_nums:
             continue
         if d in equiv:
@@ -144,7 +150,12 @@ def _in_flattened(tok, excerpts):
         if group.count(".") == 1:
             continue  # a decimal such as 12.5 never supports the integer 12
         runs.extend(group.split("."))  # dotted dates such as 70.9.05 split into parts
-    return any(int(r) == int(digits) for r in runs if len(r) <= 3)
+    if any(int(r) == int(digits) for r in runs if len(r) <= 3):
+        return True
+    # a thousands-grouped amount ends after its last 3-digit group, so in "272,12624%" the cell
+    # after 272,126 is 24; only digits directly followed by "%" count, so the split is unambiguous
+    rest = re.sub(r"\d{1,3}(?:,\d{3})+", "|", flat)
+    return any(int(m) == int(digits) for m in re.findall(r"(?<![\d.])(\d{1,3})%", rest))
 
 
 # ------------------------------------------------------------------ text checks
@@ -169,6 +180,13 @@ def excerpt_on_page(excerpt, page, pnorm):
             return True
         idx = both.find(ne, idx + 1)
     return False
+
+
+def fact_pages_ok(excerpts, page, pnorm):
+    """First excerpt must start on `page`; later excerpts (e.g. a table header on `page` and its rows
+    continued on the next page) may start on `page` or `page`+1."""
+    return [excerpt_on_page(e, page, pnorm) or (i > 0 and excerpt_on_page(e, page + 1, pnorm))
+            for i, e in enumerate(excerpts)]
 
 
 def registered_names():
@@ -206,8 +224,29 @@ def identity_ok(legal_name, ticker, filename, text, short_name=None):
             # no current MOPS registration (e.g. ceased public offering): the filename ticker plus
             # the short name used throughout the report must confirm identity
             name_ok = identity_confirmed(None, short_name, ticker, filename, text) == "filename_ticker_and_short_name"
+    if not name_ok:
+        # a manual confirmation made by reading the rendered report (e.g. image-only cover) — bound to
+        # this exact report file and legal name, so it cannot carry over to another report
+        conf = manual_confirmations().get(ticker)
+        name_ok = bool(conf) and conf["filename"] == filename and norm(conf["legal_name"]) == norm(legal_name or "")
     fn_ok = f"_{ticker}_" in filename
     return name_ok, fn_ok
+
+
+_MANUAL = None
+
+
+def manual_confirmations():
+    global _MANUAL
+    if _MANUAL is None:
+        _MANUAL = {}
+        path = ROOT / "research-site/data/company-facts/_identity-confirmations.jsonl"
+        if path.exists():
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.strip():
+                    r = json.loads(line)
+                    _MANUAL[r["ticker"]] = r
+    return _MANUAL
 
 
 def verify_doc(doc, text_cache=None, now=None):
@@ -240,7 +279,7 @@ def verify_doc(doc, text_cache=None, now=None):
         for e, ok in zip(f["excerpts"], found):
             if text and not ok:
                 notes.append(f"引文在快照中找不到：{e[:30]}…")
-        pm = [excerpt_on_page(e, f["page"], pnorm) for e in f["excerpts"]]
+        pm = fact_pages_ok(f["excerpts"], f["page"], pnorm)
         checks["page_match"] = bool(text) and all(pm)
         for e, ok in zip(f["excerpts"], pm):
             if text and not ok:

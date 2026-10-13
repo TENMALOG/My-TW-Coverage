@@ -1,0 +1,377 @@
+{
+ "ticker": "2534",
+ "company": "宏盛",
+ "legal_name": "宏盛建設股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2534&filename=2025_2534_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2534_20260526F04.pdf",
+  "text_sha256": "f730dd62de8d4d1e13c34ff8e717553be83ca62ee160e02537283738b13269b9",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/f730dd62de8d4d1e13c34ff8e717553be83ca62ee160e02537283738b13269b9.txt"
+ },
+ "facts": [
+  {
+   "id": "2534-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明所營業務包括委託營造廠興建國民住宅及商業大樓出售出租業務、室內裝潢之設計及施工業務、停車場之投資興闢與經營業務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "委託營造廠興建國民住宅及商業大樓出售出租業務",
+    "室內裝潢之設計及施工業務",
+    "停車場之投資興闢與經營業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度營建類收入為新台幣4,305,995仟元，占營收比重90.82%。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營建類收入 1,682,383 79.82% 4,305,995 90.82%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度租賃收入為新台幣435,077仟元，占營收比重9.18%。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "租賃收入 418,846 19.87% 435,077 9.18%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-04",
+   "field": "market_position",
+   "statement": "公司於年報自述其在大台北地區市場佔有率表（註明目前只在大台北地區推案）中，114年度大台北推出量為7,186億（原文未載幣別），宏盛建設為35.3億（原文未載幣別），佔有率0.49%，年報未載明該統計之資料來源。",
+   "period": "114年度（2025）",
+   "page": 50,
+   "excerpts": [
+    "本公司在大台北地區市場佔有率：(目前只在大台北地區推案)",
+    "年度 區域 推出量 宏盛建設 佔有率",
+    "114 大台北 7,186 億 35.3 億 0.49%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-05",
+   "field": "sales_regions",
+   "statement": "公司於年報自述一直致力於大台北地區優質區域的投資興建開發。",
+   "period": "截至114年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "本公司一直戮力於大台北地區優質區域的投資興建開發"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-06",
+   "field": "products",
+   "statement": "公司年報載明主要產品係委託營造廠興建一般集合住宅及住宅大廈供出售。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "本公司主要產品係委託營造廠興建一般集合住宅及住宅大廈供出售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-07",
+   "field": "raw_materials",
+   "statement": "公司年報載明土地取得主要以自購為主，少部份與地主合建分屋方式。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "本公司土地取得主要以自購為主，少部份與地主合建分屋方式"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-08",
+   "field": "major_suppliers",
+   "statement": "114年度向子公司助群營造(股)公司進貨新台幣467,300仟元，占全年度進貨淨額比率31.62%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "11 3年 114年 115年截至前一 季止(註 2)",
+    "占全年度",
+    "助群營造\n(股)公司 905,457 69.43% 子公司 助群營造\n(股)公司 467,300 31.62% 子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-09",
+   "field": "major_suppliers",
+   "statement": "113年度向子公司助群營造(股)公司進貨新台幣905,457仟元，占全年度進貨淨額比率69.43%。",
+   "period": "113年度（2024）",
+   "page": 54,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "11 3年 114年 115年截至前一 季止(註 2)",
+    "占全年度",
+    "助群營造\n(股)公司 905,457 69.43% 子公司 助群營造\n(股)公司 467,300 31.62% 子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-10",
+   "field": "major_customers",
+   "statement": "公司年報載明113年度及114年度並無銷貨總額占百分之十以上之銷售客戶。",
+   "period": "113及114年度（2024、2025）",
+   "page": 54,
+   "excerpts": [
+    "113 年度及 114 年度",
+    "並無銷貨總額占百分之十以上之銷售客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-11",
+   "field": "employees",
+   "statement": "114年度員工人數合計為75人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 55,
+   "excerpts": [
+    "1 1 3 年度 1 1 4 年度",
+    "合     計  7 4 人 7 5 人 7 5 人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-12",
+   "field": "outlook",
+   "statement": "公司年報載明短期計畫為，因自用住宅將是市場主流，公司擬加強市場調查功能及區域客戶需求之資訊。",
+   "period": "短期計畫（截至114年度年報刊印日）",
+   "page": 49,
+   "excerpts": [
+    "因自用住宅將是市場主流，本公司擬加強市場 調查功能及區域客戶需求之資\n訊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-13",
+   "field": "outlook",
+   "statement": "公司年報載明長期計畫為配合政府都市更新計畫，在舊社區選擇具蛻變潛力及有政府公共政策配合之地點作為開發目標。",
+   "period": "長期計畫（截至114年度年報刊印日）",
+   "page": 49,
+   "excerpts": [
+    "配合政府都市更新計畫，在舊社區選擇具蛻變潛力及有政府公共政策配合之地\n點作為開發目標"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-14",
+   "field": "products",
+   "statement": "公司年報競爭利基載明已推案銷售個案中，台北市南京東路捷運聯開大樓「宏盛國際金融中心」招租已滿租。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "已推案銷售個案",
+    "台北市南京東路捷運聯開大樓「宏盛國際金融中心」 ，招租已滿租"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2534-AR-15",
+   "field": "products",
+   "statement": "公司年報競爭利基載明已推案銷售個案中，新北市淡水區宏盛海洋都心 III招租完成95%。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "已推案銷售個案",
+    "新北市淡水區宏盛海洋都心 III，招租完成 95%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  }
+ ]
+}

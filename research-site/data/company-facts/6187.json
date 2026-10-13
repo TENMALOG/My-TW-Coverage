@@ -1,0 +1,578 @@
+{
+ "ticker": "6187",
+ "company": "萬潤",
+ "legal_name": "萬潤科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6187&filename=2025_6187_20260626F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6187_20260626F04.pdf",
+  "text_sha256": "9cb8fd0c59f2197b74be68e2529c35e3ccdffffbd9573f1a1649aff78c654315",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/9cb8fd0c59f2197b74be68e2529c35e3ccdffffbd9573f1a1649aff78c654315.txt"
+ },
+ "facts": [
+  {
+   "id": "6187-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度半導體設備占營業比重96.13%。",
+   "period": "114年度（2025）",
+   "page": 62,
+   "excerpts": [
+    "期間 項目 營業比重",
+    "113年度 114 年度 115 年第一季",
+    "半導體設備 96.82% 96.13% 96.32%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度被動元件設備占營業比重1.92%。",
+   "period": "114年度（2025）",
+   "page": 62,
+   "excerpts": [
+    "期間 項目 營業比重",
+    "113年度 114 年度 115 年第一季",
+    "被動元件設備 2.00% 1.92% 2.19%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-03",
+   "field": "established",
+   "statement": "公司成立於民國85年。",
+   "period": "民國85年",
+   "page": 63,
+   "excerpts": [
+    "本公司成立於民國85年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-04",
+   "field": "products",
+   "statement": "年報載明主要產品包括切割機、繞線機等被動元件設備，晶片取放、檢量測AOI、點膠塗佈、散熱貼合等先進半導體封裝設備，以及測試分選機及測試包裝機等LED設備及檢測設備。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 66,
+   "excerpts": [
+    "本公司主要產品為切割機、繞線機等被動元件設備；晶片取放、檢量測AOI、點膠塗佈、散熱貼合等先進半導體封裝設備；測試分選機及測試包裝機等 LED 設備及檢測設備"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度台灣地區銷售金額為5,015,259仟元，占比例93.46%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度 115年前一季",
+    "金額 比例(%) 金額 比例(%) 金額 比例(%)",
+    "台灣 4,796,844 86.67 5,015,259 93.46 1,246,471 88.31"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度台灣以外之其他地區銷售金額為350,951仟元，占比例6.54%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度 115年前一季",
+    "金額 比例(%) 金額 比例(%) 金額 比例(%)",
+    "其他 737,776 13.33 350,951 6.54 164,973 11.69"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-07",
+   "field": "market_position",
+   "statement": "年報依經濟部工業產銷存動態調查產品統計資料，2025年全國半導體生產設備銷售值約新台幣2,723億元，公司半導體設備銷售金額為51億元，估算市場佔有率約1.87%。",
+   "period": "2025年",
+   "page": 70,
+   "excerpts": [
+    "2025 年全國半導體生產設備銷售值約新台幣 2,723億元，本公司半導體備銷售金額為51億元，市場佔有率約計 1.87%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述，截至目前為止國內並無與其業務性質完全一致之自動化設備製造同業，主要競爭對手為國外自動化設備製造大廠。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 67,
+   "excerpts": [
+    "國內並無與本公司業務性質完全一致之自動化設備製造同業，主要競爭對手為國外自動化設備製造大廠"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-09",
+   "field": "raw_materials",
+   "statement": "主要原料加工零件的主要供應商包括啟睿、元周、峰允、淞立及綦鋒等。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 73,
+   "excerpts": [
+    "主要商品 主要原料 主要供應商",
+    "加工零件 啟睿、元周、峰允、淞立及綦鋒等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-10",
+   "field": "raw_materials",
+   "statement": "主要原料工業電腦的主要供應商包括凌華、研華等。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 73,
+   "excerpts": [
+    "主要商品 主要原料 主要供應商",
+    "工業電腦 凌華、研華等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-11",
+   "field": "raw_materials",
+   "statement": "主要原料氣壓缸的主要供應商包括SMC、NOK、飛斯妥、金器及CKD等。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 73,
+   "excerpts": [
+    "主要商品 主要原料 主要供應商",
+    "氣壓缸 SMC 、NOK、飛斯妥、金器及 CKD等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-12",
+   "field": "raw_materials",
+   "statement": "主要原料馬達的主要供應商包括安士克、東方馬達、士林、安川及台達等。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 73,
+   "excerpts": [
+    "主要商品 主要原料 主要供應商",
+    "馬達 安士克、東方馬達、士林、安川及台達等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-13",
+   "field": "raw_materials",
+   "statement": "主要原料檢測儀器的主要供應商包括安捷倫、吉時利。",
+   "period": "未註明年度（年報營運概況）",
+   "page": 73,
+   "excerpts": [
+    "主要商品 主要原料 主要供應商",
+    "檢測儀器 安捷倫、吉時利"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-14",
+   "field": "major_suppliers",
+   "statement": "某供應商（甲公司）114年度進貨金額為288,461千元，占全年度進貨淨額11.52%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "占全年度 進貨淨額 比率 （%）",
+    "1 甲公司 307,836 11.43 無 甲公司 288,461 11.52 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-15",
+   "field": "major_customers",
+   "statement": "某客戶（A客戶）114年度銷貨金額為2,382,145千元，占全年度銷貨淨額44.39%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "占全年度 銷貨淨額 比率 （%）",
+    "1 A客戶 1,814,055 32.78 無 A 客戶 2,382,145 44.39 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-16",
+   "field": "major_customers",
+   "statement": "某客戶（C客戶）114年度銷貨金額為1,807,729千元，占全年度銷貨淨額33.69%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "占全年度 銷貨淨額 比率 （%）",
+    "2 B客戶 1,530,703 27.66 無 C 客戶 1,807,729 33.69 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-17",
+   "field": "major_customers",
+   "statement": "某客戶（B客戶）114年度銷貨金額為584,015千元，占全年度銷貨淨額10.88%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "占全年度 銷貨淨額 比率 （%）",
+    "3 C 客戶 1,518,548 27.44 無 B 客戶 584,015 10.88 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-18",
+   "field": "major_customers",
+   "statement": "年報說明A客戶、C客戶增加採購量，主要受惠於先進封後段製程外溢效應，因此積極擴廠而使資本支出持續增加。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "A、C 客戶：主要受惠於先進封後段製程外溢效應，因此積極擴廠而使資本支出持續增加，故增加採購量"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-19",
+   "field": "rd",
+   "statement": "114年度研發費用為766,754仟元。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "110年度 111年度 112年度 113 年度 114 年度",
+    "研發費用 343,764 385,510 340,625 774,537 766,754"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-20",
+   "field": "rd",
+   "statement": "114年度研發費用占營業收入淨額比例為14.29%，營業收入淨額為5,366,210仟元。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "110年度 111年度 112年度 113 年度 114 年度",
+    "營業收入淨額 2,604,316 2,248,713 1,205,311 5,534,620 5,366,210",
+    "比例(%) 13.20% 17.14% 28.26% 13.99% 14.29%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-21",
+   "field": "rd",
+   "statement": "年報列示計劃開發之新產品（服務）包括研發高階AI晶片的封裝製程設備。",
+   "period": "計劃開發（年報未載明時程）",
+   "page": 68,
+   "excerpts": [
+    "計劃開發之新產品(服務)",
+    "研發高階 AI晶片的封裝製程設備"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-22",
+   "field": "rd",
+   "statement": "年報列示計劃開發之新產品（服務）包括光通相關製程設備，即下世代光通封裝設備的開發。",
+   "period": "計劃開發（年報未載明時程）",
+   "page": 68,
+   "excerpts": [
+    "計劃開發之新產品(服務)",
+    "光通相關製程設備 下世代光通封裝設備的開發"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6187-AR-23",
+   "field": "employees",
+   "statement": "114年底員工人數合計531人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年底（2025）",
+   "page": 74,
+   "excerpts": [
+    "年度 113 年底 114 年底 115年截至",
+    "合計 434 531 568"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  }
+ ]
+}

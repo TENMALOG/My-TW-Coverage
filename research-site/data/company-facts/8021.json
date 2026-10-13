@@ -1,0 +1,612 @@
+{
+ "ticker": "8021",
+ "company": "尖點",
+ "legal_name": "尖點科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=8021&filename=2025_8021_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_8021_20260526F04.pdf",
+  "text_sha256": "654089304a003d666b2cca230bdb79afb17e3610cf2998b96bec81fe62dcfcea",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/654089304a003d666b2cca230bdb79afb17e3610cf2998b96bec81fe62dcfcea.txt"
+ },
+ "facts": [
+  {
+   "id": "8021-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度精密金屬製品及加工服務營業收入為新台幣4,295,634仟元，營業比重為97.40%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "營業項目 113年度 1 14年度",
+    "營業收入 營業比重(%) 營業收入 營業比重(%)",
+    "精密金屬製品",
+    "及加工服務 3,472,933 98.08 4,295,634 97.40"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度其他營業項目營業收入為新台幣114,470仟元，營業比重為2.60%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "營業項目 113年度 1 14年度",
+    "營業收入 營業比重(%) 營業收入 營業比重(%)",
+    "其 他 68,166 1.92 114,470 2.60"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-03",
+   "field": "business_scope",
+   "statement": "年報載明所營業務範圍之主要內容為電子線路板專用微型鑽針之研發之製造/銷售、電子線路板專用數控鑽孔機之製造/銷售、電子線路板加工週邊設備之製造/銷售，以及一般進出口貿易及代理。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "1.所營業務範圍之主要內容",
+    "(1)電子線路板專用微型鑽針之研發之製造/銷售。",
+    "(2)電子線路板專用數控鑽孔機之製造/銷售。",
+    "(3)電子線路板加工週邊設備之製造/銷售。",
+    "(4)一般進出口貿易及代理。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-04",
+   "field": "products",
+   "statement": "年報載明公司目前之主要產品為精密鑽針（微尺寸0.25mm以下、小尺寸0.30mm~0.45mm）與精密銑刀（微尺寸0.50mm~0.75mm、小尺寸0.80mm~3.175mm、大尺寸3.175mm以上）。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "3.公司目前之主要產品",
+    "精 密 鑽 針 微 尺 寸 0.25mm以下",
+    "小 尺 寸 0.30mm~0.45mm",
+    "精 密 銑 刀",
+    "微 尺 寸 0.50mm~0.75mm",
+    "小 尺 寸 0.80mm~3.175mm",
+    "大 尺 寸 3.175mm以上"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-05",
+   "field": "outlook",
+   "statement": "年報載明公司計畫開發之新產品包括AI伺服器／HPC高層數板用超高縱橫比微鑽針系列（含深孔穩定化設計）、新一代ABF載板／高填料材料專用耐磨鑽針系列等。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "4.計畫開發之新產品",
+    "(1)AI 伺服器／HPC 高層數板用超高縱橫比微鑽針系列（含深孔穩定化設計）。",
+    "(2)新一代 ABF 載板／高填料材料專用耐磨鑽針系列"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度國內銷售金額為新台幣1,618,654仟元，營收比例為36.70%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地 \\ 年度 113 年度 114 年度",
+    "銷售金額 營收比例(%) 銷售金額 營收比例(%)",
+    "國內 1,267,119 35.78 1,618,654 36.70"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度中國銷售金額為新台幣2,566,831仟元，營收比例為58.20%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地 \\ 年度 113 年度 114 年度",
+    "銷售金額 營收比例(%) 銷售金額 營收比例(%)",
+    "中國 2,123,607 59.97 2,566,831 58.20"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度其他地區銷售金額為新台幣224,619仟元，營收比例為5.10%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地 \\ 年度 113 年度 114 年度",
+    "銷售金額 營收比例(%) 銷售金額 營收比例(%)",
+    "其他 150,373 4.25 224,619 5.10"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，依113年度公司及子公司營業收入新台幣35.4億元，對照Business Research Insights資料所載全球PCB鑽針市場規模8.7億美元，推估占全球鑽針市場規模比率約介於10%~15%之間。",
+   "period": "113年度（2025年年報推估）",
+   "page": 69,
+   "excerpts": [
+    "根據 Business Research Insights 資料顯示，全球",
+    "PCB 鑽針市場規模為 8.7 億美元，依 113 年度本公司及子公司之營業收入新台幣 35.4",
+    "億元計算，推估占全球鑽針市場規模比率約介於 10%~15%之間。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，國內鑽針廠商目前以公司市占率最高（年報未載明計算範圍與數據）。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "國內主要競爭同業為凱崴電子及高僑自\n動化",
+    "國內廠商目前以本公司市",
+    "占率最高"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-11",
+   "field": "raw_materials",
+   "statement": "年報載明公司各項產品所使用之主要原料為碳化鎢（Tungsten Carbide）。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "本公司各項產品所使用之主要原料為碳化鎢（Tungsten Carbide ），"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-12",
+   "field": "major_suppliers",
+   "statement": "年報主要原料表列示碳化鎢的供應廠商包括日本三菱、日本住友、日本京瓷。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "主要原料 供應廠商 供應狀況",
+    "碳化鎢 日本三菱、日本住友、日本京瓷 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-13",
+   "field": "major_suppliers",
+   "statement": "113年度某供應商（A公司）進貨金額為新台幣107,574仟元，占全年度進貨淨額12.90%，與發行人之關係為無。",
+   "period": "113年度（2024）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "進貨淨額",
+    "1 A 公司 107,574 12.90 無 A 公司 68,520 5.92 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A公司）進貨金額為新台幣68,520仟元，占全年度進貨淨額5.92%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "進貨淨額",
+    "1 A 公司 107,574 12.90 無 A 公司 68,520 5.92 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-15",
+   "field": "major_customers",
+   "statement": "113年度某客戶（甲公司）銷貨金額為新台幣597,599仟元，占全年度銷貨淨額16.88%。",
+   "period": "113年度（2024）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "銷貨淨額",
+    "1 甲公司 597,599 16.88 註 1 甲公司 892,567 20.24 註 1"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-16",
+   "field": "major_customers",
+   "statement": "114年度某客戶（甲公司）銷貨金額為新台幣892,567仟元，占全年度銷貨淨額20.24%；年報註明該公司與公司有共同投資成立公司之情事。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "銷貨淨額",
+    "1 甲公司 597,599 16.88 註 1 甲公司 892,567 20.24 註 1",
+    "註 1：該公司與本公司有共同投資成立公司之情事。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-17",
+   "field": "major_customers",
+   "statement": "113年度某客戶（乙公司）銷貨金額為新台幣437,705仟元，占全年度銷貨淨額12.36%。",
+   "period": "113年度（2024）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "銷貨淨額",
+    "2 乙公司 437,705 12.36 - 乙公司 504,544 11.44 -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-18",
+   "field": "major_customers",
+   "statement": "114年度某客戶（乙公司）銷貨金額為新台幣504,544仟元，占全年度銷貨淨額11.44%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度",
+    "銷貨淨額",
+    "2 乙公司 437,705 12.36 - 乙公司 504,544 11.44 -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-19",
+   "field": "employees",
+   "statement": "114年度員工人數合計為385人（年報註明僅計算母公司人數，不包含海內外子公司之人數）。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "年 度 113 年度 114 年度 115 年截至.3月 28 日",
+    "合計 360 385 387",
+    "註：上述資料僅計算母公司人數，不包含海內外子公司之人數。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-20",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣162,944仟元。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "2.最近年度每年投入之研發費用",
+    "單位：新台幣仟元",
+    "項目 113 年度 114 年度",
+    "研發費用 140,713 162,944"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-21",
+   "field": "capacity_or_production",
+   "statement": "年報開發成果表載明，113年度製程精進鑽針月產能合計達3,100萬支。",
+   "period": "113年度（2024）",
+   "page": 68,
+   "excerpts": [
+    "113 年 開發支援高階伺服器用超長刃鍍膜鑽針",
+    "製程精進鑽針月產能合計達 3,100 萬支"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-22",
+   "field": "capacity_or_production",
+   "statement": "年報競爭利基載明，集團鑽針115年第1季達3,500萬支的產能規模。",
+   "period": "115年第1季",
+   "page": 70,
+   "excerpts": [
+    "(2)彈性產能調配能力：集團鑽針 115 年第 1 季達 3,500 萬支的產能規模"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "8021-AR-23",
+   "field": "outlook",
+   "statement": "年報載明公司短期發展計畫包括掌握趨勢持續研發產品、開拓市場深化夥伴關係、擴充產能提升全球市占、成本管控生產效率極大化、整合資源強化系統流程。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "1. 短期發展計畫",
+    "(1) 掌握趨勢，持續研發產品。",
+    "(2) 開拓市場，深化夥伴關係。",
+    "(3) 擴充產能，提升全球市占。",
+    "(4) 成本管控，生產效率極大化。",
+    "(5) 整合資源，強化系統流程。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  }
+ ]
+}

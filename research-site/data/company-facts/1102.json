@@ -1,0 +1,532 @@
+{
+ "ticker": "1102",
+ "company": "亞泥",
+ "legal_name": "亞洲水泥股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1102&filename=2025_1102_20260528F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1102_20260528F04.pdf",
+  "text_sha256": "83cbc1fd05efcbd9e3e29e321b28bd9c4dc339a62aab85f50f1fb7c29ccb9a77",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/83cbc1fd05efcbd9e3e29e321b28bd9c4dc339a62aab85f50f1fb7c29ccb9a77.txt"
+ },
+ "facts": [
+  {
+   "id": "1102-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明營業範圍包括水泥製造業（C901030）、預拌混凝土製造業（C901040）及土石採取業（B601010）等。",
+   "period": "截至114年度年報刊印日",
+   "page": 99,
+   "excerpts": [
+    "01.C901030 水泥製造業",
+    "02.C901040  預拌混凝土製造業",
+    "03.B601010 土石採取業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-02",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明2025年本公司內銷水泥3,325,027公噸。",
+   "period": "2025年度（114年度）",
+   "page": 99,
+   "excerpts": [
+    "2025 年本公\n司內銷水泥 3,325,027 公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-03",
+   "field": "market_position",
+   "statement": "公司於年報自述2025年本公司內銷水泥占國產業者33.79%（同段先載明依據臺灣區水泥工業同業公會統計）。",
+   "period": "2025年度（114年度）",
+   "page": 99,
+   "excerpts": [
+    "依據臺灣區水泥工業同業公會統計",
+    "2025 年本公\n司內銷水泥 3,325,027 公噸，年增 9.22%，占國產業者 33.79%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-04",
+   "field": "rd",
+   "statement": "截至114年12月31日技術及研發概況表所列項目金額合計為新臺幣13,010仟元。",
+   "period": "截至114年12月31日",
+   "page": 101,
+   "excerpts": [
+    "截至 114 年 12 月 31 日",
+    "單位：新台幣仟元",
+    "合      計 13,010"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-05",
+   "field": "rd",
+   "statement": "截至114年12月31日技術及研發概況表列示超重力固碳技術開發金額為新臺幣4,340仟元。",
+   "period": "截至114年12月31日",
+   "page": 101,
+   "excerpts": [
+    "截至 114 年 12 月 31 日",
+    "單位：新台幣仟元",
+    "超重力固碳技術開發 4,340"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-06",
+   "field": "outlook",
+   "statement": "公司年報載明短期業務發展計畫中，本公司將致力於鞏固及強化國內外現有水泥銷售通路，控制成本、維持合理獲利。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "(四)短期業務發展計畫",
+    "本公司將致力於：",
+    "鞏固及強化國內外現有水泥銷售通路，控制成本、維持合理獲利"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-07",
+   "field": "outlook",
+   "statement": "公司年報載明長期業務發展計畫包括「根留臺灣」、「放眼大陸」及「展望全球」三項。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "(五)長期業務發展計畫",
+    "根留臺灣：",
+    "放眼大陸：",
+    "展望全球："
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-08",
+   "field": "sales_regions",
+   "statement": "公司年報載明水泥及熟料內銷涵蓋臺、澎、金、馬等地區，外銷則銷往關島。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "內銷涵蓋臺、澎、金、\n馬等地區，外銷則銷往關島"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-09",
+   "field": "sales_regions",
+   "statement": "公司年報載明外銷方面，本公司目前僅供應關島客戶。",
+   "period": "截至114年度年報刊印日",
+   "page": 104,
+   "excerpts": [
+    "外銷方面，本公司目前僅供應關島客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-10",
+   "field": "products",
+   "statement": "公司年報於主要產品之用途及產製過程列有第一型水泥、第二型水泥及特種規範水泥。",
+   "period": "截至114年度年報刊印日",
+   "page": 105,
+   "excerpts": [
+    "(二)主要產品之用途及產製過程",
+    "第一型水泥",
+    "第二型水泥",
+    "特種規範水泥"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-11",
+   "field": "raw_materials",
+   "statement": "公司年報載明主要原（燃）料包括石灰石、爐石、鐵砂、石膏及燃料用原煤等。",
+   "period": "截至114年度年報刊印日",
+   "page": 105,
+   "excerpts": [
+    "主要原(燃)料包括石灰石、爐石、鐵砂、石膏及燃料用原煤等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-12",
+   "field": "raw_materials",
+   "statement": "公司年報載明石灰石大部分自產，小部分購自國內和仁礦區及國外礦主。",
+   "period": "截至114年度年報刊印日",
+   "page": 105,
+   "excerpts": [
+    "石灰石：大部分自產，小部分購自國內和仁礦區及國外礦主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-13",
+   "field": "raw_materials",
+   "statement": "公司年報載明爐石購自國外鋼廠。",
+   "period": "截至114年度年報刊印日",
+   "page": 105,
+   "excerpts": [
+    "爐 石：購自國外鋼廠"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-14",
+   "field": "major_suppliers",
+   "statement": "113年度向Glencore Coal Sales PTY Limited進貨金額為新臺幣659,439仟元，占全年度進貨淨額17.31%。",
+   "period": "113年度（2024）",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113 年 114 年",
+    "占全年度進貨 \n淨額比率(%)",
+    "Glencore Coal Sales PTY \nLimited 659,439 17.31 原料供應商 Glencore Coal Sales PTY \nLimited 531,793 26.31"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度向Glencore Coal Sales PTY Limited進貨金額為新臺幣531,793仟元，占全年度進貨淨額26.31%。",
+   "period": "114年度（2025）",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113 年 114 年",
+    "占全年度進貨 \n淨額比率(%)",
+    "Glencore Coal Sales PTY \nLimited 659,439 17.31 原料供應商 Glencore Coal Sales PTY \nLimited 531,793 26.31"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-16",
+   "field": "major_suppliers",
+   "statement": "113年度向Taiwan Ya De Ding Co., Ltd進貨金額為新臺幣458,263仟元，占全年度進貨淨額12.03%。",
+   "period": "113年度（2024）",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113 年 114 年",
+    "占全年度進貨 \n淨額比率(%)",
+    "Taiwan Ya De Ding Co., Ltd 458,263 12.03 原料供應商 Taiwan Ya De Ding Co., Ltd 223,480 11.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度向Taiwan Ya De Ding Co., Ltd進貨金額為新臺幣223,480仟元，占全年度進貨淨額11.06%。",
+   "period": "114年度（2025）",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要供應商資料 單位：新台幣仟元",
+    "113 年 114 年",
+    "占全年度進貨 \n淨額比率(%)",
+    "Taiwan Ya De Ding Co., Ltd 458,263 12.03 原料供應商 Taiwan Ya De Ding Co., Ltd 223,480 11.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-18",
+   "field": "major_customers",
+   "statement": "2024年度向亞東預拌混凝土(股)公司銷貨金額為新臺幣2,451,813仟元，占全年度銷貨淨額23.58%，年報列示其與發行人之關係為子公司。",
+   "period": "2024年度",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要銷貨客戶資料 單位：新台幣仟元",
+    "2024 年 2025 年",
+    "占全年度銷貨 \n淨額比率 (%)",
+    "亞東預拌混凝土(股)公司 2,451,813 23.58 子公司 亞東預拌混凝土(股)公司 2,902,221 24.60 子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-19",
+   "field": "major_customers",
+   "statement": "2025年度向亞東預拌混凝土(股)公司銷貨金額為新臺幣2,902,221仟元，占全年度銷貨淨額24.60%，年報列示其與發行人之關係為子公司。",
+   "period": "2025年度",
+   "page": 106,
+   "excerpts": [
+    "最近二年度主要銷貨客戶資料 單位：新台幣仟元",
+    "2024 年 2025 年",
+    "占全年度銷貨 \n淨額比率 (%)",
+    "亞東預拌混凝土(股)公司 2,451,813 23.58 子公司 亞東預拌混凝土(股)公司 2,902,221 24.60 子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計為466人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 107,
+   "excerpts": [
+    "年     度 113 年度 114 年度 當年度截至",
+    "合計  464 466 465"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1102-AR-21",
+   "field": "employees",
+   "statement": "113年度員工人數合計為464人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "113年度（2024）",
+   "page": 107,
+   "excerpts": [
+    "年     度 113 年度 114 年度 當年度截至",
+    "合計  464 466 465"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  }
+ ]
+}

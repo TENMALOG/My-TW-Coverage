@@ -132,6 +132,26 @@ class VerifyTests(unittest.TestCase):
         self.assertTrue(V.excerpt_on_page("子零件及其他", 3, pn))
         self.assertFalse(V.excerpt_on_page("結尾", 2, pn))
 
+    def test_numbers_grouped_amount_then_percent(self):
+        ex = ["無線網絡247,86318%272,12624%"]
+        self.assertEqual(V.check_numbers("114年度營業收入272,126仟元，營業比重24%。", "114年度", ex), [])
+        self.assertEqual(V.check_numbers("113年度營業比重18%。", "113年度", ex), [])
+        self.assertEqual(V.check_numbers("營業比重26%。", "114年度", ex), ["26"])  # 126 is not 26%
+        self.assertEqual(V.check_numbers("營業比重4%。", "114年度", ex), ["4"])    # 24% is not 4%
+
+    def test_numbers_code_names(self):
+        ex = ["1B1546,55717.02無B1532,92217.87無"]
+        self.assertEqual(V.check_numbers("某供應商（B15）進貨金額32,922仟元，占17.87%。", "114年度", ex), [])
+        self.assertEqual(V.check_numbers("某供應商（B16）進貨金額32,922仟元。", "114年度", ex), ["16"])  # code not in excerpt
+
+    def test_fact_pages_table_continued(self):
+        text = ("\n[PDF PAGE 1]\n封面\n\n[PDF PAGE 2]\n單位：仟元 項目 金額\n\n[PDF PAGE 3]\n電子零件 1,234"
+                "\n\n[PDF PAGE 4]\n其他 5")
+        pn = V.page_norms(text)
+        self.assertEqual(V.fact_pages_ok(["單位：仟元", "電子零件 1,234"], 2, pn), [True, True])
+        self.assertEqual(V.fact_pages_ok(["電子零件 1,234", "單位：仟元"], 2, pn), [False, True])  # first must start on page
+        self.assertEqual(V.fact_pages_ok(["單位：仟元", "其他 5"], 2, pn), [True, False])  # page+2 not allowed
+
     def test_identity(self):
         text = "\n[PDF PAGE 1]\n測試實業 股份有限公司\n\n[PDF PAGE 5]\n其他公司股份有限公司"
         self.assertEqual(V.identity_ok("測試實業股份有限公司", "1234", "2025_1234_x_F04.pdf", text), (True, True))

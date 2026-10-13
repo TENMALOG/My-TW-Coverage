@@ -1,0 +1,548 @@
+{
+ "ticker": "2331",
+ "company": "精英",
+ "legal_name": "精英電腦股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2331&filename=2025_2331_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2331_20260527F04.pdf",
+  "text_sha256": "6a2d03a95ee4b671a8e554409585a6b681b88db54b1e7559edce958e07cd5b3e",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6a2d03a95ee4b671a8e554409585a6b681b88db54b1e7559edce958e07cd5b3e.txt"
+ },
+ "facts": [
+  {
+   "field": "revenue_mix",
+   "statement": "2025年電腦及其週邊產品占銷售商品比重99.16%。",
+   "period": "2025年",
+   "page": 82,
+   "excerpts": [
+    "2025 年銷售商品及其比重如下：",
+    "電腦及其週邊產品 99.16%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-01",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "2025年其他商品占銷售商品比重0.84%。",
+   "period": "2025年",
+   "page": 82,
+   "excerpts": [
+    "2025 年銷售商品及其比重如下：",
+    "其他 0.84%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-02",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "products",
+   "statement": "公司年報載明主要產品包括個人電腦主機板、筆記型電腦、桌上型電腦以及介面卡等產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "本公司主要產品為個人電腦主機板、筆記型電腦、桌上型電腦以及介面卡等產品"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-03",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "business_scope",
+   "statement": "公司年報載明自2018年起進入智能充電樁（Smart EV Charger）代工生產。",
+   "period": "2018年起",
+   "page": 93,
+   "excerpts": [
+    "精英電腦自 2018 年起進入智能充電樁(Smart EV Charger)代工生產"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-04",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "2025年（合併）美洲銷售金額為新台幣2,108,179仟元，占10%。",
+   "period": "2025年（合併）",
+   "page": 97,
+   "excerpts": [
+    "2024 年(合併) 2025 年(合併)",
+    "美 洲 2,377,443 13% 2,108,179 10%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-05",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "2025年（合併）亞洲銷售金額為新台幣15,399,966仟元，占77%。",
+   "period": "2025年（合併）",
+   "page": 97,
+   "excerpts": [
+    "2024 年(合併) 2025 年(合併)",
+    "亞 洲 12,214,958 70% 15,399,966 77%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-06",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "2025年（合併）歐洲銷售金額為新台幣2,303,369仟元，占11%。",
+   "period": "2025年（合併）",
+   "page": 97,
+   "excerpts": [
+    "2024 年(合併) 2025 年(合併)",
+    "歐 洲 2,593,914 15% 2,303,369 11%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-07",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司年報載明2025年主機板出貨市佔率約為4.09%，分母為全球出貨量，資料來源為MIC（2026年3月）。",
+   "period": "2025年",
+   "page": 97,
+   "excerpts": [
+    "2025 年主機板出貨市佔率約為 4.09%",
+    "全球出貨量資料來源：MIC，2026 年 3月"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "2331-AR-08",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司年報載明2025年筆記型電腦出貨市佔率約為0.17%，分母為全球出貨量，資料來源為MIC（2026年3月）。",
+   "period": "2025年",
+   "page": 97,
+   "excerpts": [
+    "2025 年主機板出貨市佔率約為 4.09%；筆記型電腦出貨市佔率約為 0.17%",
+    "全球出貨量資料來源：MIC，2026 年 3月"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "2331-AR-09",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司年報載明2025年桌上型電腦出貨市佔率約為1.4%，分母為全球出貨量，資料來源為MIC（2026年3月）。",
+   "period": "2025年",
+   "page": 97,
+   "excerpts": [
+    "2025 年主機板出貨市佔率約為 4.09%；筆記型電腦出貨市佔率約為 0.17%；桌上型電腦出貨市佔率約為 1.4%",
+    "全球出貨量資料來源：MIC，2026 年 3月"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "2331-AR-10",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶客戶 A（年報匿名代號）銷貨金額為新台幣5,674,020仟元，占銷貨淨額28.21%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 104,
+   "excerpts": [
+    "2.主要銷貨客戶資料",
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "客戶 A 5,674,020 28.21 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-11",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶客戶 B（年報匿名代號）銷貨金額為新台幣5,631,256仟元，占銷貨淨額28.00%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 104,
+   "excerpts": [
+    "2.主要銷貨客戶資料",
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "客戶 B 5,631,256 28.00 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-12",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶客戶 C（年報匿名代號）銷貨金額為新台幣2,630,376仟元，占銷貨淨額13.08%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 104,
+   "excerpts": [
+    "2.主要銷貨客戶資料",
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "客戶 C 2,630,376 13.08 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-13",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "major_suppliers",
+   "statement": "114年度供應商廠商 A（年報匿名代號）進貨金額為新台幣3,667,862仟元，占進貨淨額20.00%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 104,
+   "excerpts": [
+    "1.主要供應商資料",
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "廠商 A 3,667,862 20.00 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-14",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "major_suppliers",
+   "statement": "114年度供應商廠商 B（年報匿名代號）進貨金額為新台幣3,239,324仟元，占進貨淨額17.66%，與發行人無關係。",
+   "period": "114年度（2025）",
+   "page": 104,
+   "excerpts": [
+    "1.主要供應商資料",
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "廠商 B 3,239,324 17.66 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-15",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "公司年報載明所用原料中，晶片的供應廠商包括 INTEL、AMD、兆芯。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "種類及供應廠商如下：",
+    "晶片：INTEL、AMD、兆芯"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-16",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "公司年報載明所用原料中，CPU 的供應廠商包括 INTEL、AMD、高通。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "種類及供應廠商如下：",
+    "CPU：INTEL、AMD、高通"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-17",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "公司年報載明所用原料中，電阻電容的供應廠商包括三星、國巨、台灣村田、旺詮。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "種類及供應廠商如下：",
+    "電阻電容：三星、國巨、台灣村田、旺詮"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-18",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "公司年報載明所用原料中，印刷電路板的供應廠商包括南亞、聯茂、生益、台燿、台光、日立、初源、長興等。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "種類及供應廠商如下：",
+    "印刷電路板：南亞、聯茂、生益、台燿、台光、日立、初源、長興等"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-19",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "employees",
+   "statement": "114年度員工人數合計為4,121人。",
+   "period": "114年度（2025）",
+   "page": 105,
+   "excerpts": [
+    "年 度 113年度 114年度 當年度截至 115年3月31日",
+    "合 計 3,956 4,121 3,800"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-20",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "rd",
+   "statement": "2025年度研發費用約為768,411仟元。",
+   "period": "2025年度",
+   "page": 93,
+   "excerpts": [
+    "2025 年度研發費用約 768,411 仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-21",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  },
+  {
+   "field": "outlook",
+   "statement": "公司年報載明印刷電路板的長期計畫為持續開發進入障礙較高的汽車板，成為汽車板專業廠商。",
+   "period": "長期計畫",
+   "page": 95,
+   "excerpts": [
+    "持續開發進入障礙較高的汽車板，成為汽車板專業廠商"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "2331-AR-22",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:56+00:00"
+   }
+  }
+ ]
+}

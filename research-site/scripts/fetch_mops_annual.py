@@ -59,6 +59,8 @@ def fetch(ticker, fy):
     text = '\n'.join(f'\n[PDF PAGE {i+1}]\n' + (p.extract_text() or '') for i, p in enumerate(pdf.pages))
     CACHE.mkdir(parents=True, exist_ok=True)
     (CACHE / f'{sha(raw)}.pdf').write_bytes(raw)
+    # pypdf can emit lone UTF-16 surrogates (half of an emoji); they cannot be stored as UTF-8
+    text = ''.join('�' if '\ud800' <= c <= '\udfff' else c for c in text)
     tb = text.encode('utf-8')
     (CACHE / f'{sha(tb)}.txt').write_bytes(tb)
     meta = {'ticker': ticker, 'fy': fy, 'status': 'captured', 'filename': filename,

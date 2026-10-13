@@ -1,0 +1,556 @@
+{
+ "ticker": "2923",
+ "company": "鼎固-KY",
+ "legal_name": "鼎固控股有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2923&filename=2025_2923_20260617F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2923_20260617F04.pdf",
+  "text_sha256": "5ac35701afef4387c9ef4336e92896b7fb60c880b29ac67114550cf01fd62e5a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/5ac35701afef4387c9ef4336e92896b7fb60c880b29ac67114550cf01fd62e5a.txt"
+ },
+ "facts": [
+  {
+   "id": "2923-AR-01",
+   "field": "established",
+   "statement": "公司年報載明，鼎固控股有限公司（Sino Horizon Holdings Limited）於2007年12月5日成立，並合併持有各中國大陸境內項目公司之股權。",
+   "period": "2007年12月5日",
+   "page": 8,
+   "excerpts": [
+    "2007年12月5日鼎固控股有限公司（ Sino Horizon Holdings",
+    "Limited）成立並合併持有各中國大陸境內項目公司之股權"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-02",
+   "field": "history",
+   "statement": "公司年報載明，張氏昆仲於2001年7月投資成立北京鼎固房地產開發有限公司（現股權已整體出售）。",
+   "period": "2001年7月",
+   "page": 8,
+   "excerpts": [
+    "自張氏昆仲於2001年7月投資成立北京鼎固房地產開發有限公司（現股權已整體出售）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-03",
+   "field": "business_scope",
+   "statement": "公司年報載明，公司係於中國大陸與台灣之主要城市經營房地產開發銷售、商場及辦公室租賃及物業管理等業務，主要營運地點係於上海、重慶及台北。",
+   "period": "截至114年度年報刊印日",
+   "page": 39,
+   "excerpts": [
+    "本公司係於中國大陸與台灣之主要城市經營房地產開發銷售、商場及辦公室租賃及物業管理等業務，主要營運地點係於上海 、重慶及台北"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-04",
+   "field": "revenue_mix",
+   "statement": "2025年度房地產銷售營業收入為新台幣3,296,606仟元，比率為57%（原文表頭為「比率」，未載明分母）。",
+   "period": "2025年度（114年度）",
+   "page": 39,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "營業收入  比率  營業收入  比率",
+    "房地產銷售 5,842,530 69% 3,296,606 57%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-05",
+   "field": "revenue_mix",
+   "statement": "2025年度商辦租賃營業收入為新台幣1,806,552仟元，比率為31%（原文表頭為「比率」，未載明分母）。",
+   "period": "2025年度（114年度）",
+   "page": 39,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "營業收入  比率  營業收入  比率",
+    "商辦租賃 1,995,882 23% 1,806,552 31%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-06",
+   "field": "revenue_mix",
+   "statement": "2025年度物業管理營業收入為新台幣451,018仟元，比率為8%（原文表頭為「比率」，未載明分母）。",
+   "period": "2025年度（114年度）",
+   "page": 39,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "營業收入  比率  營業收入  比率",
+    "物業管理 458,407 5% 451,018 8%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-07",
+   "field": "revenue_mix",
+   "statement": "2025年度其他營業收入為新台幣241,155仟元，比率為4%（原文表頭為「比率」，未載明分母）。",
+   "period": "2025年度（114年度）",
+   "page": 39,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "營業收入  比率  營業收入  比率",
+    "其他 266,842 3% 241,155 4%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-08",
+   "field": "revenue_mix",
+   "statement": "2025年度營業收入合計為新台幣5,795,331仟元。",
+   "period": "2025年度（114年度）",
+   "page": 39,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "營業收入  比率  營業收入  比率",
+    "合計 8,563,661 100% 5,795,331 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-09",
+   "field": "products",
+   "statement": "公司年報載明，公司目前營運獲利來源以商場及辦公樓出租、住宅建案銷售為主，並提供辦公室及商場物業管理服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 39,
+   "excerpts": [
+    "本公司目前營運獲利來源，以商場及辦公樓出租、住宅建案銷售為主，並提供辦公室及商場物業管理服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-10",
+   "field": "outlook",
+   "statement": "公司年報載明，公司未來計劃開發之商品，主要以合適價格投資具發展潛力的地塊。",
+   "period": "截至114年度年報刊印日",
+   "page": 39,
+   "excerpts": [
+    "本公司未來計劃開發之商品，主要以合適價格，投資具發展潛力的地塊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-11",
+   "field": "sales_regions",
+   "statement": "公司年報載明，公司近年來主要推案地區係以中國大陸之上海市、重慶市以及台灣台北為主。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "本公司近年來主要推案地區係以中國大陸之上海市、重慶市以及台灣台北為主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-12",
+   "field": "sales_regions",
+   "statement": "公司年報推案彙總表列示，2025年起上海鼎霖項目公司之日月光科創中心屬項目屬性「商場、辦公」，用途為商場出租及寫字樓出租，銷售地區為上海黃浦區。",
+   "period": "2025年起",
+   "page": 42,
+   "excerpts": [
+    "年度  項目公司  項目屬性  個案名稱  用途  銷售地區",
+    "2025～ 迄今 上海鼎霖 商場、辦公 日月光科創中心 商場出租及寫字樓出租 上海黃浦區"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-13",
+   "field": "business_scope",
+   "statement": "公司年報載明，截至2025年12月底止，公司仍持有13個個案。",
+   "period": "截至2025年12月底",
+   "page": 43,
+   "excerpts": [
+    "截至2025年12月底止，共計本公司仍持有13個個案"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-14",
+   "field": "rd",
+   "statement": "公司年報載明，最近五年度投入之研發費用為「不適用」。",
+   "period": "截至114年度年報刊印日",
+   "page": 41,
+   "excerpts": [
+    "最近五年度投入之研發費用：不適用。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-15",
+   "field": "raw_materials",
+   "statement": "公司年報載明，除上海鼎嘉、上海鼎通、上海鴻翔及上海名龍公司下所擁有之土地係於2007年透過收購其他家項目公司取得外，其餘均於2005年（含）以前向各地中國政府或獨立第三方採購大部分土地。",
+   "period": "截至114年度年報刊印日",
+   "page": 44,
+   "excerpts": [
+    "本公司除上海鼎嘉、上海鼎通、上海鴻翔及上海名龍公司下所擁有之土地係於2007年透過收購其他家項目公司取得外",
+    "其餘均於2005年（含）以前向各地中國政府或獨立第三方採購大部分土地"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-16",
+   "field": "major_customers",
+   "statement": "公司年報載明，2024～2025年度公司並無佔年銷貨總額百分之十以上之客戶。",
+   "period": "2024至2025年度",
+   "page": 45,
+   "excerpts": [
+    "2024～2025年度本公司並無佔年銷貨總額百分之十以上之客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-17",
+   "field": "major_suppliers",
+   "statement": "公司年報載明，宏潤建設集團股份有限公司於2024年度的進貨金額為新台幣709,095仟元，占全年度進貨淨額比率33%，與發行人關係為「無」。",
+   "period": "2024年度（113年度）",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "占 全 年 度 進 貨 淨",
+    "額比率 (%)",
+    "宏潤建設集團 股份有限公司 709,095 33 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-18",
+   "field": "major_suppliers",
+   "statement": "公司年報載明，宏潤建設集團股份有限公司於2025年度的進貨金額為新台幣683,364仟元，占全年度進貨淨額比率35%，與發行人關係為「無」。",
+   "period": "2025年度（114年度）",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "占 全 年 度 進 貨 淨",
+    "額比率 (%)",
+    "宏潤建設集團 股份有限公司 683,364 35 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-19",
+   "field": "major_suppliers",
+   "statement": "公司年報載明，長業建設集團有限公司於2024年度的進貨金額為新台幣252,180仟元，占全年度進貨淨額比率12%，與發行人關係為「無」。",
+   "period": "2024年度（113年度）",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "占 全 年 度 進 貨 淨",
+    "額比率 (%)",
+    "長業建設集團 有限公司 252,180 12 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-20",
+   "field": "major_suppliers",
+   "statement": "公司年報載明，上海市住安建設發展股份有限公司於2024年度的進貨金額為新台幣236,414仟元，占全年度進貨淨額比率11%，與發行人關係為「無」。",
+   "period": "2024年度（113年度）",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "202 4年度  202 5年度",
+    "占 全 年 度 進 貨 淨",
+    "額比率 (%)",
+    "上海市住安建設發展 股份有限公司 236,414 11 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-21",
+   "field": "major_suppliers",
+   "statement": "公司年報載明，2025年進貨達10%以上之廠商僅有宏潤建設集團股份有限公司，該公司為上海鼎霖建案工程之總承包商。",
+   "period": "2025年度（114年度）",
+   "page": 45,
+   "excerpts": [
+    "2025年進貨達10%以上之廠商僅有宏潤建設集團股份有限公司，該公司為上海鼎霖",
+    "建案工程之總承包商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2923-AR-22",
+   "field": "employees",
+   "statement": "公司年報載明，2025年員工人數合計為242人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "2025年",
+   "page": 45,
+   "excerpts": [
+    "年度  202 4年 202 5年",
+    "合計 260 242 231"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  }
+ ]
+}

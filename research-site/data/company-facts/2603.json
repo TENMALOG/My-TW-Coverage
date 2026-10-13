@@ -1,0 +1,527 @@
+{
+ "ticker": "2603",
+ "company": "長榮",
+ "legal_name": "長榮海運股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2603&filename=2025_2603_20260528F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2603_20260528F04.pdf",
+  "text_sha256": "96745f1fe12f2483fd1d2204ca9c0d58069440c26ab475a7323e51db331d586f",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/96745f1fe12f2483fd1d2204ca9c0d58069440c26ab475a7323e51db331d586f.txt"
+ },
+ "facts": [
+  {
+   "id": "2603-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明本公司為國際貨櫃海運航商，主要經營定期貨櫃船航線業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 100,
+   "excerpts": [
+    "本公司為國際貨櫃海運航商",
+    "主要經營定期貨櫃船航線業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-02",
+   "field": "market_position",
+   "statement": "公司於年報自述本公司船隊運能於民國114年底位居全球第七。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "船隊運能於民國 114 年底位居全球第七"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-03",
+   "field": "market_position",
+   "statement": "公司年報引述Alphaliner（202603）全球前十大航商運力統計表，該表將Evergreen列為第7，市場運力為1,973,231（表未載明單位）。",
+   "period": "Alphaliner（202603）統計",
+   "page": 102,
+   "excerpts": [
+    "目前全球前十大航商運力統計",
+    "航商 市場運力 市場份額占比",
+    "7. Evergreen 1,973,231",
+    "資料來源：Alphaliner (202603)"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-04",
+   "field": "market_position",
+   "statement": "公司年報引述Alphaliner（202603）資料，長榮（集團）於115年3月之總運能為1,973,231 TEU。",
+   "period": "115年3月",
+   "page": 107,
+   "excerpts": [
+    "2.主要 ( 國輪 ) 競爭對手及其市場 ( 運能 ) 占有率",
+    "114 年 3 月 115 年 3 月",
+    "總運能 (TEU) 市占率 (%) 總運能 (TEU) 市占率 (%)",
+    "長榮 ( 集團 ) 1,792,468 5.6% 1,973,231 5.8%",
+    "資料來源：Alphaliner (202503) 及 Alphaliner (202603)"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-05",
+   "field": "market_position",
+   "statement": "公司年報引述Alphaliner（202503）資料，長榮（集團）於114年3月之總運能為1,792,468 TEU。",
+   "period": "114年3月",
+   "page": 107,
+   "excerpts": [
+    "2.主要 ( 國輪 ) 競爭對手及其市場 ( 運能 ) 占有率",
+    "114 年 3 月 115 年 3 月",
+    "總運能 (TEU) 市占率 (%) 總運能 (TEU) 市占率 (%)",
+    "長榮 ( 集團 ) 1,792,468 5.6% 1,973,231 5.8%",
+    "資料來源：Alphaliner (202503) 及 Alphaliner (202603)"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-06",
+   "field": "sales_regions",
+   "statement": "公司年報主要服務地區表載明，114年度美洲線貨運收入為新台幣138,063,259仟元。",
+   "period": "114年度（2025）",
+   "page": 107,
+   "excerpts": [
+    "1.主要服務之提供地區及關鍵績效指標 (KPI)",
+    "單位：新台幣仟元",
+    "113 年度貨運收入 114 年度貨運收入",
+    "美洲線 162,647,633 138,063,259"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-07",
+   "field": "sales_regions",
+   "statement": "公司年報主要服務地區表載明，114年度歐洲線貨運收入為新台幣99,122,340仟元。",
+   "period": "114年度（2025）",
+   "page": 107,
+   "excerpts": [
+    "1.主要服務之提供地區及關鍵績效指標 (KPI)",
+    "單位：新台幣仟元",
+    "113 年度貨運收入 114 年度貨運收入",
+    "歐洲線 149,459,987 99,122,340"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-08",
+   "field": "sales_regions",
+   "statement": "公司年報主要服務地區表載明，114年度亞洲線貨運收入為新台幣63,721,504仟元。",
+   "period": "114年度（2025）",
+   "page": 107,
+   "excerpts": [
+    "1.主要服務之提供地區及關鍵績效指標 (KPI)",
+    "單位：新台幣仟元",
+    "113 年度貨運收入 114 年度貨運收入",
+    "亞洲線 61,542,347 63,721,504"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-09",
+   "field": "sales_regions",
+   "statement": "公司年報主要服務地區表載明，114年度其他航線貨運收入為新台幣53,101,253仟元。",
+   "period": "114年度（2025）",
+   "page": 107,
+   "excerpts": [
+    "1.主要服務之提供地區及關鍵績效指標 (KPI)",
+    "單位：新台幣仟元",
+    "113 年度貨運收入 114 年度貨運收入",
+    "其他航線 65,938,229 53,101,253"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-10",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明114年度總貨量為1,076.33萬TEU。",
+   "period": "114年度（2025）",
+   "page": 4,
+   "excerpts": [
+    "1. 114 年預算貨量及實際貨量",
+    "總貨量 1,076.33 萬 TEU"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-11",
+   "field": "sales_regions",
+   "statement": "公司年報載明，海洋聯盟（OCEAN Alliance）目前在泛太平洋航線營運22條航線，其中包含14條美西航線。",
+   "period": "截至114年度年報刊印日",
+   "page": 100,
+   "excerpts": [
+    "目前，聯盟在泛太平洋航線營運 22 條航線，其中包含 14 條美西航線"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-12",
+   "field": "group_structure",
+   "statement": "公司年報載明，本公司與中遠海運（COSCO）、法國達飛（CMA CGM）及香港東方海外（OOCL）所組成的海洋聯盟（OCEAN Alliance）於民國113年2月27日簽署相關協議，將合作期限延長至民國121年3月31日。",
+   "period": "截至114年度年報刊印日",
+   "page": 100,
+   "excerpts": [
+    "本公司與中遠海運 (COSCO)、法國達飛 (CMA CGM) 及香港東方海外 (OOCL) 所組成的海洋聯盟 (OCEAN Alliance) 於民國 113 年 2 月 27 日簽署相關協議，將合作期限延長至民國 121 年 3 月 31 日"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-13",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，112年訂造24艘16,000 TEU甲醇雙燃料貨櫃船。",
+   "period": "112年度（2023）",
+   "page": 69,
+   "excerpts": [
+    "112 年訂造 24 艘 16,000 TEU 甲醇雙燃料貨櫃船"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-14",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，114年再訂造11艘24,000 TEU LNG雙燃料貨櫃船。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "114 年 再訂造 11 艘 24,000 TEU LNG 雙燃料貨櫃船"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-15",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，本公司目前已有200艘、超過90%的營運船舶已經配備有脫硫洗滌器。",
+   "period": "截至114年度年報刊印日",
+   "page": 112,
+   "excerpts": [
+    "本公司目前已有 200 艘、超過 90% 的營運船舶已經配備有脫硫洗滌器"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-16",
+   "field": "history",
+   "statement": "公司年報載明，首艘甲醇雙燃料新船已於2025年交付並投入營運。",
+   "period": "2025年",
+   "page": 112,
+   "excerpts": [
+    "首艘甲醇雙燃料新船已於 2025 年交付並投入營運"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-17",
+   "field": "raw_materials",
+   "statement": "公司年報載明本公司屬於服務業，並無製造業之製造原物料，惟燃油可謂主要物料且為重要營運成本之一。",
+   "period": "截至114年度年報刊印日",
+   "page": 110,
+   "excerpts": [
+    "本公司屬於服務業，並無製造業之製造原物料",
+    "燃油可謂主要物料且為重要營運成本之一"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-18",
+   "field": "major_customers",
+   "statement": "公司年報載明，最近二年度任一年中佔進銷貨總額百分之十以上之客戶：無此情形。",
+   "period": "截至114年度年報刊印日",
+   "page": 110,
+   "excerpts": [
+    "最近二年度任一年中佔進銷貨總額百分之十以上之客戶名稱",
+    "無此情形。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-19",
+   "field": "employees",
+   "statement": "公司年報從業員工資料表載明，114年度員工人數合計13,789人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 111,
+   "excerpts": [
+    "113 年度 114 年度",
+    "合計 13,265 13,789"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-20",
+   "field": "rd",
+   "statement": "公司年報載明，最近年度及截至年報刊印日止本公司投入約新台幣1.40億元之相關研發支出。",
+   "period": "最近年度及截至年報刊印日止",
+   "page": 103,
+   "excerpts": [
+    "最近年度及截至年報刊印日止投入之研發費用與開發之技術或產品",
+    "本公司投入約新台幣 1.40 億元之相關研發支出"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2603-AR-21",
+   "field": "outlook",
+   "statement": "公司年報列示的長期業務計畫之一為建構綠色船隊，支撐低碳營運與永續競爭力。",
+   "period": "截至114年度年報刊印日",
+   "page": 107,
+   "excerpts": [
+    "長期業務計畫",
+    "建構綠色船隊，支撐低碳營運與永續競爭力"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,669 @@
+{
+ "ticker": "4545",
+ "company": "銘鈺",
+ "legal_name": "銘鈺精密工業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=4545&filename=2025_4545_20260624F04.pdf",
+  "fy": 2025,
+  "filename": "2025_4545_20260624F04.pdf",
+  "text_sha256": "c9ed0d4f99a4d7730ef6da5d8ab5a42cc4426a6070b9bcfa6bed85f1a5acccaf",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/c9ed0d4f99a4d7730ef6da5d8ab5a42cc4426a6070b9bcfa6bed85f1a5acccaf.txt"
+ },
+ "facts": [
+  {
+   "id": "4545-AR-01",
+   "field": "business_scope",
+   "statement": "銘鈺公司所營業務主要內容包括工業用塑膠製品製造業、塑膠皮、布、板、管材製造業、塑膠日用品製造業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "銘鈺精密工業：（以下簡稱本公司或銘鈺公司）",
+    "(1) C805050 工業用塑膠製品製造業",
+    "(2) C805010 塑膠皮、布、板、管材製造業",
+    "(3) C805030 塑膠日用品製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度硬碟機沖壓零組件銷售金額為新台幣886,464千元，營業比重37%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "2、 營業比重",
+    "單位:新台幣千元",
+    "主要產品 114年度",
+    "銷售金額 比例",
+    "硬碟機沖壓零組件 886,464 37%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度電子沖壓零組件銷售金額為新台幣628,604千元，營業比重26%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "2、 營業比重",
+    "單位:新台幣千元",
+    "主要產品 114年度",
+    "銷售金額 比例",
+    "電子沖壓零組件 628,604 26%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度塑膠射出件銷售金額為新台幣523,033千元，營業比重22%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "2、 營業比重",
+    "單位:新台幣千元",
+    "主要產品 114年度",
+    "銷售金額 比例",
+    "塑膠射出件 523,033 22%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度自動化機台銷售金額為新台幣172,685千元，營業比重7%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "2、 營業比重",
+    "單位:新台幣千元",
+    "主要產品 114年度",
+    "銷售金額 比例",
+    "自動化機台 172,685 7%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-06",
+   "field": "products",
+   "statement": "年報列示銘鈺公司目前之商品（服務）項目包括硬碟機沖壓零組件、消費性電子零組件、均熱片零件、車用沖壓零件、金屬部品之表面處理與電鍍服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "3、 目前之商品（服務）項目",
+    "銘鈺公司：",
+    "(1) 硬碟機沖壓零組件。",
+    "(2) 消費性電子零組件。",
+    "(3) 均熱片零件。",
+    "(4) 車用沖壓零件。",
+    "(5) 金屬部品之表面處理與電鍍服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-07",
+   "field": "products",
+   "statement": "年報列示MAPP之商品（服務）項目包括醫療用塑膠耗材、生命科學與生物技術實驗所需之塑膠耗材與設備外殼、其他精密塑膠產品、模治具製造、醫療用耗材組裝用自動化設備。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "MAPP：",
+    "(1) 醫療用塑膠耗材。",
+    "(2) 生命科學與生物技術實驗所需之塑膠耗材與設備外殼。",
+    "(3) 其他精密塑膠產品。",
+    "(4) 模治具製造。",
+    "(5) 醫療用耗材組裝用自動化設備。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-08",
+   "field": "products",
+   "statement": "年報列示蘇州億模之商品（服務）項目包括3C產品自動化設備之組裝、測試、原件插裝、鐳射以及流水線，醫療產品自動化設備之檢測、組裝，以及食品、小家電相關產品上下料、組裝、氣密測試、FCT測試等設備。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "蘇州億模：",
+    "(1) 3C 產品自動化設備之組裝、測試、原件插裝、鐳射以及流水線。",
+    "(2) 醫療產品自動化設備之檢測、組裝。",
+    "(3) 食品、小家電相關產品上下料、組裝、氣密測試、FCT測試等設備。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售額為新台幣260,937千元，占銷售地區表合計11%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 1 14 年度",
+    "內銷 201,804 8% 260,937 11%",
+    "合計 2,396,125 100% 2,387,660 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度亞洲外銷銷售額為新台幣2,004,712千元，占銷售地區表合計84%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 1 14 年度",
+    "亞 洲 1,998,633 83% 2,004,712 84%",
+    "合計 2,396,125 100% 2,387,660 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度美洲外銷銷售額為新台幣42,589千元，占銷售地區表合計2%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 1 14 年度",
+    "美 洲 12,085 1% 42,589 2%",
+    "合計 2,396,125 100% 2,387,660 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-12",
+   "field": "sales_regions",
+   "statement": "114年度歐洲外銷銷售額為新台幣79,422千元，占銷售地區表合計3%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 1 14 年度",
+    "歐 洲 183,603 8% 79,422 3%",
+    "合計 2,396,125 100% 2,387,660 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-13",
+   "field": "export_share",
+   "statement": "114年度外銷小計銷售額為新台幣2,126,723千元，占銷售地區表合計89%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 1 14 年度",
+    "小 計 2,194,321 92% 2,126,723 89%",
+    "合計 2,396,125 100% 2,387,660 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-14",
+   "field": "market_position",
+   "statement": "公司於年報自述，以Trendfocus & Storage Newsletter及本公司統計評估資料為來源，2025年音圈馬達上下板（VCM Plate）本公司出貨量43.0百萬台，全球硬碟機出貨量120百萬台，銘鈺市占率為35.8%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "2023 至 2025 年本公司主要產品全球占有率",
+    "音圈馬達上下板（VCM Plate）",
+    "單位：百萬台",
+    "年 度 2023 年 2024 年 2025 年",
+    "本公司出貨量（SET） 26.6 37.3 43.0",
+    "全球硬碟機出貨量 122.8 124 120",
+    "銘鈺市占率 21.6% 30.0% 35.8%",
+    "資料來源：Trendfocus& Storage Newsletter及本公司統計評估"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-15",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶A集團（年報代號）銷貨金額為新台幣618,133千元，占全年度銷貨淨額25.89%，年報註明與發行人之關係為「無」。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "1 A集團 588,647 24.57% 無 A 集團 618,133 25.89% 無",
+    "銷貨淨額 2,396,125 100.00% － 銷貨淨額 2,387,660 100.00% －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-16",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶銘異集團銷貨金額為新台幣524,377千元，占全年度銷貨淨額21.96%，年報註明與發行人之關係為「關係人」。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "2 銘異集團 417,194 17.41% 關係人 銘異集團 524,377 21.96% 關係人",
+    "銷貨淨額 2,396,125 100.00% － 銷貨淨額 2,387,660 100.00% －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-17",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶S集團（年報代號）銷貨金額為新台幣369,605千元，占全年度銷貨淨額15.48%，年報註明與發行人之關係為「無」。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "3 J 公司 344,589 14.38% 無 S 集團 369,605 15.48% 無",
+    "銷貨淨額 2,396,125 100.00% － 銷貨淨額 2,387,660 100.00% －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-18",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶J公司（年報代號）銷貨金額為新台幣246,189千元，占全年度銷貨淨額10.31%，年報註明與發行人之關係為「無」。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "4 S 集團 331,027 13.81% 無 J 公司 246,189 10.31% 無",
+    "銷貨淨額 2,396,125 100.00% － 銷貨淨額 2,387,660 100.00% －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-19",
+   "field": "major_suppliers",
+   "statement": "114年度進貨廠商AB公司（年報代號）進貨金額為新台幣165,768千元，占全年度進貨淨額14.65%。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "1 AB 公司 156,285 15.29 無 A B 公司 165,768 14.65 無",
+    "進貨淨額 1,022,325 100.00 － 進貨淨額 1,131,713 100.00 －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-20",
+   "field": "major_suppliers",
+   "statement": "114年度進貨廠商CD公司（年報代號）進貨金額為新台幣150,101千元，占全年度進貨淨額13.26%。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣千元",
+    "113年度 114 年度",
+    "2 CD 公司 155,805 15.24 無 C D 公司 150,101 13.26 無",
+    "進貨淨額 1,022,325 100.00 － 進貨淨額 1,131,713 100.00 －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-21",
+   "field": "major_suppliers",
+   "statement": "年報說明AB公司與CD公司（年報代號）為公司銅材及鐵材供應商，為公司主要產品之原材。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "增減變動原因：",
+    "AB 公司與 CD 公司為本公司銅材及鐵材供應商，為本公司主要產品之原材"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-22",
+   "field": "raw_materials",
+   "statement": "年報列示銘鈺公司主要原料包括鐵材、電鍍藥水，主要來源為台灣。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "1、 銘鈺公司",
+    "主要原料名稱 主要來源 供應情形",
+    "鐵材 台灣 良好",
+    "電鍍藥水 台灣 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-23",
+   "field": "employees",
+   "statement": "114年度員工人數為863人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 91,
+   "excerpts": [
+    "年 度 113 年度 114 年度 115 年度",
+    "員 工 人 數 893 863 821"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-24",
+   "field": "rd",
+   "statement": "年報列示銘鈺公司計劃開發之新商品（服務）包括配合市場趨勢開發高階伺服器及高容量硬碟機相關沖壓零組件。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "4、 計劃開發之新商品（服務）",
+    "(1) 配合市場趨勢開發高階伺服器及高容量硬碟機相關沖壓零組件。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "4545-AR-25",
+   "field": "rd",
+   "statement": "年報列示銘鈺公司計劃開發之新商品（服務）包括半導體均熱片零組件之開發及製造。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "4、 計劃開發之新商品（服務）",
+    "(3) 半導體均熱片零組件之開發及製造。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  }
+ ]
+}

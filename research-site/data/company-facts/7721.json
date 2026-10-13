@@ -1,0 +1,611 @@
+{
+ "ticker": "7721",
+ "company": "微程式",
+ "legal_name": "微程式資訊股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7721&filename=2025_7721_20260520F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7721_20260520F04.pdf",
+  "text_sha256": "377f417e1e23dac0553a04d7683bb6e316b0a758b9e94f01a043f0ec8b45f0c7",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/377f417e1e23dac0553a04d7683bb6e316b0a758b9e94f01a043f0ec8b45f0c7.txt"
+ },
+ "facts": [
+  {
+   "id": "7721-AR-01",
+   "field": "headquarters",
+   "statement": "年報載明公司總公司地址為407台中市西屯區市政路402號6樓之2。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司：407 台中市西屯區市政路 402 號 6 樓之 2"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度電子支付營業收入為新台幣304,737仟元，營業比重60.01%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "金額 比重(%) 金額 比重(%)",
+    "電子支付 332,229 41.82 304,737 60.01"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度智慧設備營業收入為新台幣132,709仟元，營業比重26.14%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "金額 比重(%) 金額 比重(%)",
+    "智慧設備 386,197 48.62 132,709 26.14"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度半導體感測控制營業收入為新台幣53,061仟元，營業比重10.45%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "金額 比重(%) 金額 比重(%)",
+    "半導體感測控制 54,610 6.88 53,061 10.45"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-05",
+   "field": "business_scope",
+   "statement": "年報載明公司主要聚焦於AIoT智慧服務方案、半導體產業解決方案及其他應用領域之創新升級科技服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "本公司主要聚焦於  AIoT 智慧服務方案、半導體產業解決方案及其\n他應用領域之創新升級科技服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-06",
+   "field": "products",
+   "statement": "截至114年12月31日，年報載明YouBike 2.0系統已涵蓋全台13個縣市、逾7,700個站點，並有10萬台YouBike 2.0及13,000台YouBike 2.0E自行車投入服務。",
+   "period": "截至114年12月31日",
+   "page": 60,
+   "excerpts": [
+    "截至 114 年 12 月 31 日，YouBike 2.0 系統已涵蓋\n全台 13 個縣市、逾 7,700 個站點，提供共 10 萬台 YouBike 2.0 及 \n13,000 台 YouBike 2.0E 自行車投入服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區中，台灣銷售額為新台幣500,053仟元，占銷售地區表合計98.48%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114年度",
+    "銷售額 比率% 銷售額 比率%",
+    "台灣 787,250 99.11 500,053 98.48"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區中，中國銷售額為新台幣5,253仟元，占銷售地區表合計1.03%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114年度",
+    "銷售額 比率% 銷售額 比率%",
+    "中國 6,865 0.87 5,253 1.03"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-09",
+   "field": "market_position",
+   "statement": "年報載明公司研製的產業解決方案屬少量多樣利基市場，尚無具公信力之統計數據可明示公司市場占有率。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "本公司研製的產業解決方案屬少量多樣利基市場，其市場占有率情形，尚無具\n公信力之統計數據可明示本公司市場占有率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-10",
+   "field": "major_customers",
+   "statement": "114年度對微笑單車股份有限公司銷貨金額為新台幣230,937仟元，占全年度銷貨淨額45.48%，與發行人之關係列為其他關係人。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "微笑單車股\n份有限公司 230,937 45.48 其他 \n關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-11",
+   "field": "major_customers",
+   "statement": "114年度對巨大機械工業股份有限公司銷貨金額為新台幣46,950仟元，占全年度銷貨淨額9.25%，與發行人之關係列為其他關係人。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "巨大機械工\n業股份有限\n公司 \n46,950 9.25 其他 \n關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-12",
+   "field": "major_customers",
+   "statement": "113年度對巨大機械工業股份有限公司銷貨金額為新台幣284,090仟元，占全年度銷貨淨額35.77%，與發行人之關係列為其他關係人。",
+   "period": "113年度（2024）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "巨大機械工\n業股份有限\n公司 \n284,090 35.77 其他 \n關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-13",
+   "field": "major_customers",
+   "statement": "113年度對微笑單車股份有限公司銷貨金額為新台幣213,231仟元，占全年度銷貨淨額26.84%，與發行人之關係列為其他關係人。",
+   "period": "113年度（2024）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "微笑單車股\n份有限公司 213,231 26.84 其他 \n關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度對藶峰有限公司進貨金額為新台幣25,326仟元，占全年度進貨淨額15.98%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114年度",
+    "占全年度進\n貨淨額比率\n%",
+    "藶峰有限公\n司 25,326 15.98 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-15",
+   "field": "major_suppliers",
+   "statement": "113年度對信邦電子股份有限公司進貨金額為新台幣46,008仟元，占全年度進貨淨額15.63%，與發行人之關係列為無。",
+   "period": "113年度（2024）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114年度",
+    "占全年度進\n貨淨額比率\n%",
+    "信邦電子股\n份有限公司 46,008 15.63 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-16",
+   "field": "major_suppliers",
+   "statement": "113年度對雅嘉電子股份有限公司進貨金額為新台幣32,714仟元，占全年度進貨淨額11.11%，與發行人之關係列為無。",
+   "period": "113年度（2024）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114年度",
+    "占全年度進\n貨淨額比率\n%",
+    "雅嘉電子股\n份有限公司 32,714 11.11 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-17",
+   "field": "employees",
+   "statement": "114年度員工人數合計為172人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：人；%",
+    "年度 113年度 114年度 115年3月31日",
+    "合計 179 172 178"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-18",
+   "field": "employees",
+   "statement": "115年3月31日員工人數合計為178人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至115年3月31日",
+   "page": 77,
+   "excerpts": [
+    "單位：人；%",
+    "年度 113年度 114年度 115年3月31日",
+    "合計 179 172 178"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-19",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣87,610仟元。",
+   "period": "114年度（2025）",
+   "page": 67,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "年度 \n項目 113年度 114年度",
+    "研發費用(A) 71,811 87,610"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-20",
+   "field": "rd",
+   "statement": "114年度研發費用占營收淨額比率為17.25%。",
+   "period": "114年度（2025）",
+   "page": 67,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "年度 \n項目 113年度 114年度",
+    "研發費用占營收淨額比率(A)/(B) 9.04% 17.25%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-21",
+   "field": "rd",
+   "statement": "年報載明截至目前已取得國內外專利共49項（含36項發明、10項新型及3項設計）。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "截至目前已取得國內外專利共 49 項（含 36 \n項發明、10 項新型及 3 項設計）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-22",
+   "field": "capacity_or_production",
+   "statement": "年報載明公司無工廠，因此無產能產出。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "因本公司無工廠，因此無產能產出"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-23",
+   "field": "outlook",
+   "statement": "年報載明長期業務發展計畫之一為擴大市場規模並佈局海外，配合客戶海外布局，逐步拓展國際市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "擴大市場規模並佈局海外",
+    "配合客戶海外布局，逐步拓展國際市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7721-AR-24",
+   "field": "outlook",
+   "statement": "年報載明公司規劃與微笑單車合作，將臺灣公共自行車租賃之高運量系統解決方案與營運模式推廣至海外市場（YouBike海外版）。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "YouBike 海外版：本公司規劃與微笑單車合作，將臺灣公共自行車\n租賃之高運量系統解決方案與營運模式推廣至海外市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  }
+ ]
+}

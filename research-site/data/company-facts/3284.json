@@ -1,0 +1,473 @@
+{
+ "ticker": "3284",
+ "company": "太普高",
+ "legal_name": "太普高精密影像股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3284&filename=2025_3284_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3284_20260527F04.pdf",
+  "text_sha256": "270a7ed7df4203d394faa4731e02e3145d7663093cfe19ef9959b4f80fca6cbc",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/270a7ed7df4203d394faa4731e02e3145d7663093cfe19ef9959b4f80fca6cbc.txt"
+ },
+ "facts": [
+  {
+   "field": "business_scope",
+   "statement": "公司所營業務包括印刷預塗式平版製造及鋁板素材批發、不動產代銷經紀業、住宅及大樓開發租售業與不動產租賃業等。",
+   "period": "年報未載明期間",
+   "page": 56,
+   "excerpts": [
+    "印刷預塗式平版製造及鋁板素材批發等",
+    "不動產代銷經紀業",
+    "住宅及大樓開發租售業",
+    "不動產租賃業"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-01",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "114年度合併營業收入淨額中，印刷版材為531,351仟元，占營業比重61.16%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位： 新台幣 仟元",
+    "主要產(商)品項目 114 年度",
+    "印刷版材 531,351 61.16%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-02",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "revenue_mix",
+   "statement": "114年度合併營業收入淨額中，不動產代銷為259,911仟元，占營業比重29.92%。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位： 新台幣 仟元",
+    "主要產(商)品項目 114 年度",
+    "不動產代銷 259,911 29.92%"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-03",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "products",
+   "statement": "年報載明印刷平版產品包含PS版（預塗式感光平版）、CTP版（數位版材）及新產品NP環保版（免化學處理的CTP版）等。",
+   "period": "年報未載明期間",
+   "page": 56,
+   "excerpts": [
+    "印刷平版產品包含PS版(預塗式感光平版",
+    "CTP版(數位版材",
+    "NP環保版(免化學處理的CTP版)"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-04",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "group_structure",
+   "statement": "年報載明公司子公司主要為不動產代銷及仲介經紀等相關事業。",
+   "period": "年報未載明期間",
+   "page": 56,
+   "excerpts": [
+    "本公司子公司主要為不動產代銷及仲介經紀等相關事業"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-05",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司引述VERIFIED MARKET RESEARCH全球Computer to Plate數位版材（CTP）市場報告，預測全球CTP市場規模將從2023年的22.1億美元增長到2030年的46.2億美元。",
+   "period": "2023年至2030年（預測）",
+   "page": 58,
+   "excerpts": [
+    "根據VERIFIED MARKET RESEARCH全球Computer to Plate數位版材(CTP)市場報告指出",
+    "預測全球CTP市場規模將從2023年的22.1億美元增長到2030年的46.2億美元"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "id": "3284-AR-06",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "rd",
+   "statement": "年報載明最近年度開發成功之技術或產品為負型雙塗層CTP版。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "最近年度開發成功之技術或產品：負型雙塗層CTP版"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-07",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "rd",
+   "statement": "114年度帳列之合併研發費用為1,715仟元。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "本公司114年度帳列之合併研發費用，分別為1,715仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-08",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "outlook",
+   "statement": "公司於年報載明印刷版材短期發展計劃為積極涉略印刷數位化應用，同時佈局印刷後加工、包裝耗材商機。",
+   "period": "年報刊印時",
+   "page": 69,
+   "excerpts": [
+    "積極涉略印刷數位化應用，同時佈局印刷後加工、包裝耗材商機"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-09",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為484,608仟元，占合計比率55.78%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "內銷 740,553 70.05 484,608 55.78"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-10",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "114年度外銷至美洲的金額為365,290仟元，占合計比率42.05%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "美洲 267,474 25.30 365,290 42.05"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-11",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司於年報自述，其生產之印刷版材在台灣市場佔有率有2~3成以上，在全球市場整體版材銷售量上僅佔1%左右。",
+   "period": "年報未載明期間",
+   "page": 71,
+   "excerpts": [
+    "本公司生產之版材在台灣市場佔有率雖已有2~3成以上",
+    "整體版材銷售量在全球市場上仍僅佔1%左右"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "id": "3284-AR-12",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "market_position",
+   "statement": "公司於年報自述為台灣唯一印刷版材專業研發製造廠。",
+   "period": "年報未載明期間",
+   "page": 74,
+   "excerpts": [
+    "本公司為台灣唯一印刷版材專業研發製造廠"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "id": "3284-AR-13",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "sales_regions",
+   "statement": "公司於年報自述其印刷版材行銷全球70幾個國家及地區。",
+   "period": "年報未載明期間",
+   "page": 74,
+   "excerpts": [
+    "本公司行銷全球70幾個國家及地區"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "id": "3284-AR-14",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "raw_materials",
+   "statement": "年報載明印刷預塗式平版基材原料為A1050H18之鋁材。",
+   "period": "年報未載明期間",
+   "page": 78,
+   "excerpts": [
+    "印刷預塗式平版基材原料為A1050H18之鋁材"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-15",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "major_suppliers",
+   "statement": "114年度自某供應商（A廠商）進貨金額為156,720仟元，占全年度進貨淨額32.49%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114年",
+    "A廠商 375,355 60.41 無 A廠商 156,720 32.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-16",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "114年度對某客戶（F公司）銷貨金額為185,634仟元，占全年度銷貨淨額21.37%，與公司無關係。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114年",
+    "F公司 153,164 14.49 無 F公司 185,634 21.37 無"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-17",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "major_customers",
+   "statement": "114年度對承逸開發建設(股)公司銷貨金額為131,414仟元，占全年度銷貨淨額15.13%，年報載明該公司董事長與本集團為同一人。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114年",
+    "承逸開發建設(股)公司) 131,414 15.13 該公司 董事長與本集團為同一人"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-18",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  },
+  {
+   "field": "employees",
+   "statement": "114年度員工人數合計100人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "年度 113年度 114年度 115年度",
+    "合計 106 100 100"
+   ],
+   "attribution": "公司年報揭露",
+   "id": "3284-AR-19",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:07+00:00"
+   }
+  }
+ ]
+}

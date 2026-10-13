@@ -1,0 +1,360 @@
+{
+ "ticker": "6728",
+ "company": "上洋",
+ "legal_name": "上洋產業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6728&filename=2025_6728_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6728_20260522F04.pdf",
+  "text_sha256": "0947965b0c84c3dce1cc21182c6c4684f2e77686233b0624110627c7d47f8303",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/0947965b0c84c3dce1cc21182c6c4684f2e77686233b0624110627c7d47f8303.txt"
+ },
+ "facts": [
+  {
+   "id": "6728-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明公司主要營收來源為商品銷售收入及商用洗衣服務等，商品銷售收入包括空調設備銷售、洗衣設備銷售及其他電器產品銷售。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "本公司主要營收來源為商品銷售收入及商用洗衣服務等",
+    "空調設備銷售、洗衣設備銷售及其他電器產品銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度商品銷售收入營業收入淨額為3,956,662仟元（新台幣），比重83.56%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入淨額 比重(%) 營業收入淨額 比重(%)",
+    "商品銷售收入 2,926,660 83.35 3,956,662 83.56"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度商用洗衣服務營業收入淨額為531,007仟元（新台幣），比重11.21%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入淨額 比重(%) 營業收入淨額 比重(%)",
+    "商用洗衣服務 483,446 13.77 531,007 11.21"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為4,597,476仟元（新台幣），占銷售地區表合計97.09%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "內銷 3,470,380 98.83 4,597,476 97.09",
+    "合計 3,511,415 100.00 4,735,306 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-05",
+   "field": "export_share",
+   "statement": "114年度外銷金額為137,830仟元（新台幣），占銷售地區表合計2.91%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "外銷 41,035 1.17 137,830 2.91",
+    "合計 3,511,415 100.00 4,735,306 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-06",
+   "field": "market_position",
+   "statement": "公司於年報自述，依經濟部統計處資料，114年度台灣製造業空調及其他家用電器內銷值（含間接外銷）規模約為454億元，公司114年度國內商品銷售收入約為38.2億元，公司推估市場占有率約8.41%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "依經濟部統計處資料顯示，114年度台灣製造業空調及其他家用電器內銷",
+    "值(含間接外銷)規模約為 454 億元，本公司 114 年度國內之商品銷售收入約",
+    "為 38.2 億元，本公司推估市場占有率約8.41 %"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-07",
+   "field": "major_suppliers",
+   "statement": "114年度進貨供應商甲公司（匿名代號）進貨金額為2,211,633仟元（新台幣），占全年度進貨淨額68.22%。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114 年 115 年度截至前一季止",
+    "甲公司 2,211,633 68.22 無",
+    "進貨淨額 3,241,891 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-08",
+   "field": "major_customers",
+   "statement": "公司年報載明最近兩年度主要銷貨客戶為國內家電經銷商，未有銷貨總額百分之十以上客戶。",
+   "period": "最近兩年度（113年度、114年度）",
+   "page": 94,
+   "excerpts": [
+    "113年 114 年 115 年度截至前一季止",
+    "本公司最近兩年度年度主要銷貨客戶為國內家電經銷商",
+    "未有銷貨總額百分之十以上客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-09",
+   "field": "employees",
+   "statement": "114年度員工人數為639人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "年   度 113 年度 114 年度 當年度截至 115",
+    "員工人數 472 639 652"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-10",
+   "field": "rd",
+   "statement": "114年度投入研發費用為6,403仟元（新台幣）。",
+   "period": "114年度（2025）",
+   "page": 7,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 114 年度 113 年度",
+    "投入研發費用 6,403 6,496"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-11",
+   "field": "business_scope",
+   "statement": "公司年報載明公司取得法國強化玻璃餐具品牌「Duralex」台灣獨家代理權。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "取得法國經典強化玻璃餐具品牌「Duralex」台灣獨家代理權"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述國內《SeSA洗衣吧》總店數已達250間規模。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "國內《SeSA洗衣吧》總店數已達 250 間規模"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述宿舍洗衣直營服務擁有超過1,000間大型客戶，維運超過2萬台設備。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "上洋目前擁有超過 1,000 間大型客戶，維運超過 2 萬台設備"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  },
+  {
+   "id": "6728-AR-14",
+   "field": "outlook",
+   "statement": "公司年報揭露長期發展計畫之空調設備及洗衣設備項目包括於台灣市場成為商用空調及VRF變頻空調系統的主要供應商。",
+   "period": "截至114年度年報刊印日",
+   "page": 85,
+   "excerpts": [
+    "2. 長期發展計畫",
+    "於台灣市場成為商用空調及 VRF變頻空調系統的主要供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:28+00:00"
+   }
+  }
+ ]
+}

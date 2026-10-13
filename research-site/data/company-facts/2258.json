@@ -1,0 +1,596 @@
+{
+ "ticker": "2258",
+ "company": "鴻華先進-創",
+ "legal_name": "鴻華先進科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2258&filename=2025_2258_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2258_20260522F04.pdf",
+  "text_sha256": "7d3cb75fd89614a65aff1e636556d84a36f8b09a515eaa204c2703a789e253aa",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/7d3cb75fd89614a65aff1e636556d84a36f8b09a515eaa204c2703a789e253aa.txt"
+ },
+ "facts": [
+  {
+   "id": "2258-AR-01",
+   "field": "business_scope",
+   "statement": "年報列示所營業務項目包括汽車及其零件製造業、模具批發業、汽車批發業、研究發展服務業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "CD01030 汽車及其零件製造業",
+    "F106030 模具批發業",
+    "F114010 汽車批發業",
+    "IG02010 研究發展服務業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度整車銷售營業收入為新臺幣4,104,386仟元，營業比重表列比例為98.98%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "2.營業比重",
+    "單位：新臺幣仟元",
+    "民國 114 年度",
+    "整車銷售 4,104,386 98.98%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度技術服務營業收入為新臺幣42,087仟元，營業比重表列比例為1.02%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "2.營業比重",
+    "單位：新臺幣仟元",
+    "民國 114 年度",
+    "技術服務 42,087 1.02%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-04",
+   "field": "products",
+   "statement": "年報載明公司從事電動車技術研發、整車及零組件製造管理及銷售服務，主要產品涵蓋電動車之平台、成車及零件等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "本公司從事電動車技術研發、整車及零組件製造管理及銷售服務，主要產 品涵蓋電動車之平台、成車及零件等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-05",
+   "field": "products",
+   "statement": "年報列示Model C量產車改款預計2026年第二季量產。",
+   "period": "預計2026年第二季",
+   "page": 73,
+   "excerpts": [
+    "4.計畫開發之新商品(服務)",
+    "Model C 量產車改款 預計 2026 年第二季量產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-06",
+   "field": "products",
+   "statement": "年報列示Model B國外量產車預計2026年第三季量產。",
+   "period": "預計2026年第三季",
+   "page": 74,
+   "excerpts": [
+    "Model B 國外量產車 預計 2026 年第三季量產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-07",
+   "field": "products",
+   "statement": "年報列示Model C國外量產車預計2026年第四季量產。",
+   "period": "預計2026年第四季",
+   "page": 74,
+   "excerpts": [
+    "Model C 國外量產車 預計 2026 年第四季量產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度臺灣地區銷售金額為新臺幣4,146,463仟元，占銷售地區表合計99.99%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "年度 區域別 113 年度 114 年度 金額 比率% 金額 比率%",
+    "臺灣 8,503,766 99.80 4,146,463 99.99"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度亞洲地區銷售金額為新臺幣10仟元，占銷售地區表合計0.01%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "年度 區域別 113 年度 114 年度 金額 比率% 金額 比率%",
+    "亞洲 16,845 0.20 10 0.01"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述2025年於臺灣電動巴士市場占有率為15%。",
+   "period": "2025年",
+   "page": 86,
+   "excerpts": [
+    "2025 年於臺灣電動巴士市場占有率為 15%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述2025年乘用車Model C和Model B新車領牌數共3,473台，占臺灣電動車市場10.7%。",
+   "period": "2025年",
+   "page": 86,
+   "excerpts": [
+    "2025 年乘用車 Model C 和 Model B 新車領牌數共 3,473 台，占臺灣電動車市場 10.7%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-12",
+   "field": "market_position",
+   "statement": "公司年報引述國際能源署（IEA）數據：西元2024年全球電動巴士銷量超過七萬台，年增約30%。",
+   "period": "西元2024年",
+   "page": 79,
+   "excerpts": [
+    "根據國際能源署(IEA)數據，西元 2024 年全球電動巴士銷量超過七萬 台 ， 年增約30%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-13",
+   "field": "raw_materials",
+   "statement": "年報載明公司產品之主要原物料為車用電池模組。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "本公司產品之主要原物料為車用電池模組"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-14",
+   "field": "major_suppliers",
+   "statement": "年報「主要原料」表列車用電池模組之主要供應商為「B1 公司」，公司於年報自述供應情況為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "主要原料 主要供應商 供應情況",
+    "車用電池模組 B1 公司 良好"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（代號B1 公司）進貨金額為新臺幣371,414仟元，占全年度進貨淨額比率21.02%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年度 114 年度",
+    "占全年度進 貨淨額比率 (%)",
+    "B1 公司 371,414 21.02"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（代號B8 公司）進貨金額為新臺幣338,809仟元，占全年度進貨淨額比率19.18%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年度 114 年度",
+    "占全年度進 貨淨額比率 (%)",
+    "B8 公司 338,809 19.18"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-17",
+   "field": "major_customers",
+   "statement": "114年度對納智捷銷貨金額為新臺幣3,391,946仟元，占全年度銷貨淨額81.80%，年報列其與發行人之關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年度 114 年度",
+    "占全年度 銷貨淨額 比率(%)",
+    "納智捷 3,391,946 81.80 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-18",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號A5 公司）銷貨金額為新臺幣611,724仟元，占全年度銷貨淨額14.75%。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年度 114 年度",
+    "占全年度 銷貨淨額 比率(%)",
+    "A5 公司 611,724 14.75"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-19",
+   "field": "group_structure",
+   "statement": "年報註明納智捷為裕隆汽車製造(股)公司之子公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 96,
+   "excerpts": [
+    "納智捷為裕隆汽車製造(股)公司之子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-20",
+   "field": "employees",
+   "statement": "114年底員工人數合計為1,085人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年底",
+   "page": 96,
+   "excerpts": [
+    "年度 113 年底 114 年底 當年度截至",
+    "合計 948 1,085 1,100"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-21",
+   "field": "employees",
+   "statement": "114年底研發人員為770人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年底",
+   "page": 96,
+   "excerpts": [
+    "年度 113 年底 114 年底 當年度截至",
+    "研發人員 673 770 792"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-22",
+   "field": "established",
+   "statement": "年報註載本公司於109年11月6日設立。",
+   "period": "截至114年度年報刊印日",
+   "page": 96,
+   "excerpts": [
+    "本公司於109年11月6日設立"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-23",
+   "field": "history",
+   "statement": "年報載明公司於民國114年第四季宣布收購納智捷汽車股份有限公司之銷售通路。",
+   "period": "114年第四季",
+   "page": 5,
+   "excerpts": [
+    "本公司於民國 114 年第四季宣布收購納智捷汽車股份有限公司之 銷售通路"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2258-AR-24",
+   "field": "outlook",
+   "statement": "年報短期業務發展計畫載明高雄橋頭自建工廠預估於2026年第二季進行投產。",
+   "period": "預估2026年第二季",
+   "page": 86,
+   "excerpts": [
+    "1.短期業務發展計畫",
+    "於高雄橋頭自建工廠，預估於 2026 年第二季進行投產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "ticker": "3564",
+ "company": "其陽",
+ "legal_name": "其陽科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3564&filename=2025_3564_20260612F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3564_20260612F04.pdf",
+  "text_sha256": "22473e1c4152de80601ca2ba8782b431d86d626f34c80401a3bfb794e6d2bd0a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/22473e1c4152de80601ca2ba8782b431d86d626f34c80401a3bfb794e6d2bd0a.txt"
+ },
+ "facts": [
+  {
+   "id": "3564-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度網路通訊設備合併營業收入為新台幣2,264,197仟元，營業比重91%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品種類114 年度合併營業收入 營業比重",
+    "網路通訊設備 2,264,197 91%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度其他類合併營業收入為新台幣232,799仟元，營業比重9%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品種類114 年度合併營業收入 營業比重",
+    "其他 232,799 9%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-03",
+   "field": "products",
+   "statement": "公司目前產品類別包括網路應用平台，其中網路安全平台涵蓋整合式威脅管理（UTM）、防火牆、入侵偵測系統（IDS）、入侵防禦系統（IPS）、網頁應用防火牆（WAF）等。",
+   "period": "截至年報刊印時（2026年）",
+   "page": 70,
+   "excerpts": [
+    "網路安全平台",
+    "整合式威脅管理 (UTM)",
+    "防火牆 (Firewall)",
+    "入侵偵測系統 (IDS)",
+    "入侵防禦系統 (IPS)",
+    "網頁應用防火牆 (WAF)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-04",
+   "field": "products",
+   "statement": "公司目前產品類別包括伺服器及雲端應用，涵蓋物聯網閘道器、軟體定義廣域網路設備（SD-WAN）、邊緣運算伺服器（MEC）、高密度伺服器、雙相散熱系統等。",
+   "period": "截至年報刊印時（2026年）",
+   "page": 70,
+   "excerpts": [
+    "伺服器及雲端應用",
+    "物聯網閘道器 (IoT Gateway)",
+    "軟體定義廣域網路設備 (SD-WAN)",
+    "邊緣運算伺服器 (MEC)",
+    "高密度伺服器 (High Density Server)",
+    "雙相散熱系統 (T wo-Phase Cooling System)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-05",
+   "field": "business_scope",
+   "statement": "公司年報提及，核心業務聚焦於網路安全平台，主要客戶以 ISV 為主，應用在 UTM 與 NGFW 等領域。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "本公司核心業務聚焦於網路安全平台，主要客戶以ISV為主，應用在UTM與NGFW等領域"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-06",
+   "field": "business_scope",
+   "statement": "公司年報提及，與 AMD、Intel、Marvell 保持密切合作，主要產品線在網通領域多以 ODM 專案進行。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "與AMD、Intel、Marvell 保持密切合作，主要的產品線在網通的領域上，多以 ODM 專案進行"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度外銷至美洲金額為新台幣1,152,860仟元，占營業收入46.17%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區113年度 114年度金額 % 金額 %",
+    "美洲 991,227 43.37 1,152,860 46.17"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度外銷至亞洲金額為新台幣1,135,790仟元，占營業收入45.49%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區113年度 114年度金額 % 金額 %",
+    "亞洲 1,103,907 48.30 1,135,790 45.49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度外銷至歐洲金額為新台幣203,963仟元，占營業收入8.17%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區113年度 114年度金額 % 金額 %",
+    "歐洲 180,677 7.91 203,963 8.17"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣4,348仟元，占營業收入0.17%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區113年度 114年度金額 % 金額 %",
+    "內銷 9,669 0.42 4,348 0.17"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-11",
+   "field": "raw_materials",
+   "statement": "年報列示主要原料名稱包括 CPU/Chipset、LAN/PM IC、記憶體、電源、機構，其中記憶體的供應狀況為 AI 需求強勁、市場需求大於供給。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "主要原料名稱 供應狀況",
+    "CPU/Chipset AI 需求強勁、交貨期拉⻑",
+    "LAN/PM IC 良好",
+    "記憶體 AI 需求強勁，市場需求大於供給",
+    "電源 AI 需求強勁、交貨期拉⻑",
+    "機構 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-12",
+   "field": "major_suppliers",
+   "statement": "某供應商（B 廠商）於114年度進貨金額為新台幣229,700仟元，占全年度進貨淨額12.23%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至第⼀季止",
+    "B 廠商 229,700 12.23"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-13",
+   "field": "major_customers",
+   "statement": "某客戶（B 客戶）於114年度銷貨金額為新台幣580,359仟元，占全年度銷貨淨額23.24%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至第⼀季止",
+    "B 客戶 580,359 23.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-14",
+   "field": "major_customers",
+   "statement": "某客戶（A 客戶）於114年度銷貨金額為新台幣433,327仟元，占全年度銷貨淨額17.35%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至第⼀季止",
+    "A 客戶 433,327 17.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計為359人。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "年 度 113 年度 114 年度 115 年 5 月 12 日止",
+    "合計 331 359 373"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-16",
+   "field": "employees",
+   "statement": "114年度研發人員合計為134人。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "研發⼈員與其學經歷",
+    "學歷 113 年度 114 年度 115 年 3 月 31 日",
+    "合計 107 134 147"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣240,713仟元。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目113 年度 114 年度 115 年 3 月 31 日",
+    "研發費用(A) 198,778 240,713 73,249"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-18",
+   "field": "established",
+   "statement": "公司年報提及，公司自2000年創立以來，不斷參與國際晶片大廠在網路應用的平台開發案。",
+   "period": "2000年起",
+   "page": 74,
+   "excerpts": [
+    "本公司自2000年創立以來，不斷參與國際晶片大廠如AMD、Intel、Marvell、Hygon在網路應用的平台開發案"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-19",
+   "field": "market_position",
+   "statement": "公司於年報自述，在台灣工業電腦網路安全平台領域中，年度銷售成長率屬於領先地位，其113及114年度銷售金額分別為2,285,480仟元及2,496,996仟元，年成長率9.25%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "本公司113及114年度銷售金額分別為2,285,480仟元及2,496,996仟元，年成⻑率9.25%，在台灣工業電腦網路安全平台領域中，在年度銷售成⻑率屬於領先地位"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-20",
+   "field": "market_position",
+   "statement": "公司年報引述 Gartner 預測，全球資安市場預計從2023年的1,850億美元成長到2027年的2,870億美元，年複合成長率達11%。",
+   "period": "2023年至2027年",
+   "page": 72,
+   "excerpts": [
+    "根據Gartner 預測，全球資安市場預計從2023年的1,850億美元增⻑到2027年2,870億美元，年複合成⻑率 (CAGR) 達11%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-21",
+   "field": "group_structure",
+   "statement": "公司年報提及，將加速與集團及母公司在統合採購及生產的整合，以期有效降低採購成本並提高生產效率。",
+   "period": "年報刊印時（2026年）",
+   "page": 79,
+   "excerpts": [
+    "年度將加速與集團及⺟公司在統合採購及生產的整合，以期能有效降低採購成本並提高生產效率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  },
+  {
+   "id": "3564-AR-22",
+   "field": "outlook",
+   "statement": "公司短期發展計畫包括積極開發新一代 AI 伺服器專案，打造公司中長期成長動能。",
+   "period": "短期發展計畫（年報刊印時）",
+   "page": 77,
+   "excerpts": [
+    "短期發展計畫",
+    "積極開發新⼀代 AI 伺服器專案，打造公司中⻑期成⻑動能"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:10+00:00"
+   }
+  }
+ ]
+}

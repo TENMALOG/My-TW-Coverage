@@ -1,0 +1,531 @@
+{
+ "ticker": "6215",
+ "company": "和椿",
+ "legal_name": "和椿科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6215&filename=2025_6215_20260529F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6215_20260529F04.pdf",
+  "text_sha256": "b34816f56bad0aa495823dbffcceeafc25b0be9cf035ca3e9a6e9c2714507d9e",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b34816f56bad0aa495823dbffcceeafc25b0be9cf035ca3e9a6e9c2714507d9e.txt"
+ },
+ "facts": [
+  {
+   "id": "6215-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度自動化零件營業收入為新台幣951,373仟元，占營業比重38.11%。",
+   "period": "114年度（2025）",
+   "page": 97,
+   "excerpts": [
+    "單位：新台幣仟元產品114年度金額營業比重(％)",
+    "自動化零件951,37338.11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度設備及模組營業收入為新台幣1,267,990仟元，占營業比重50.79%。",
+   "period": "114年度（2025）",
+   "page": 97,
+   "excerpts": [
+    "單位：新台幣仟元產品114年度金額營業比重(％)",
+    "設備及模組1,267,99050.79"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度機器人及其他營業收入為新台幣277,045仟元，占營業比重11.10%。",
+   "period": "114年度（2025）",
+   "page": 97,
+   "excerpts": [
+    "單位：新台幣仟元產品114年度金額營業比重(％)",
+    "機器人及其他277,04511.10"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度台灣地區銷售金額為新台幣1,959,352仟元，占銷售比重78.49%。",
+   "period": "114年度（2025）",
+   "page": 105,
+   "excerpts": [
+    "單位：新台幣仟元年度113年114年",
+    "台灣1,130,51567.981,959,35278.49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度大陸地區銷售金額為新台幣266,568仟元，占銷售比重10.68%。",
+   "period": "114年度（2025）",
+   "page": 105,
+   "excerpts": [
+    "單位：新台幣仟元年度113年114年",
+    "大陸300,54518.07266,56810.68"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度新加坡地區銷售金額為新台幣70,580仟元，占銷售比重2.83%。",
+   "period": "114年度（2025）",
+   "page": 105,
+   "excerpts": [
+    "單位：新台幣仟元年度113年114年",
+    "新加坡44,1852.6670,5802.83"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-07",
+   "field": "products",
+   "statement": "公司自動化零件主要產品涵蓋伺服馬達、線性馬達、直接驅動馬達、高精密減速機、自潤軸承、滾珠螺桿、雷射模組、感測器、視覺模組等。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "主要產品涵蓋伺服馬達、線性馬達、直接驅動馬達、高精密減速機、自潤軸承、滾珠螺桿、雷射模組、感測器、視覺模組"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-08",
+   "field": "products",
+   "statement": "公司設備及模組主要包括PCBA製程設備，如七化高性能切板機、下切割切板機、雷射切板機、二次除塵設備等。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "主要包括PCBA製程設備（如七化高性能切板機、下切割切板機、雷射切板機、二次除塵設備）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-09",
+   "field": "products",
+   "statement": "公司代理銷售項目包括日本Panasonic伺服馬達、PLC、雷射模組、感測器及視覺模組等。",
+   "period": "截至114年度年報刊印日",
+   "page": 108,
+   "excerpts": [
+    "代理日本Panasonic伺服馬達、PLC、雷射模組、感測器及視覺模組"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-10",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（71-0037）進貨金額為新台幣541,148仟元，占全年度進貨淨額43.85%。",
+   "period": "114年度（2025）",
+   "page": 109,
+   "excerpts": [
+    "單位：新台幣仟元項目113年度114年度",
+    "171-0037418,65835.87-71-0037541,14843.85-"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-11",
+   "field": "major_suppliers",
+   "statement": "113年度某供應商（71-0037）進貨金額為新台幣418,658仟元，占全年度進貨淨額35.87%。",
+   "period": "113年度（2024）",
+   "page": 109,
+   "excerpts": [
+    "單位：新台幣仟元項目113年度114年度",
+    "171-0037418,65835.87-71-0037541,14843.85-"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-12",
+   "field": "major_customers",
+   "statement": "114年度某客戶（71-1384）銷貨金額為新台幣904,004仟元，占全年度銷貨淨額36.21%。",
+   "period": "114年度（2025）",
+   "page": 110,
+   "excerpts": [
+    "單位：新台幣仟元項目113年度114年度",
+    "171-0937369,96222.25-71-1384904,00436.21-"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（71-0937）銷貨金額為新台幣506,160仟元，占全年度銷貨淨額20.28%。",
+   "period": "114年度（2025）",
+   "page": 110,
+   "excerpts": [
+    "單位：新台幣仟元項目113年度114年度",
+    "271-1384322,29119.38-71-0937506,16020.28-"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-14",
+   "field": "raw_materials",
+   "statement": "公司年報載明主要進貨項目為自動化傳動組件及自動化驅動組件商品。",
+   "period": "截至114年度年報刊印日",
+   "page": 109,
+   "excerpts": [
+    "本公司主要進貨項目為自動化傳動組件及自動化驅動組件商品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計為328人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 110,
+   "excerpts": [
+    "三、最近二年度及截至年報刊印日止從業人員資料：年度113年度114年度當年度截至",
+    "合計247328351"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-16",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣45,806仟元。",
+   "period": "114年度（2025）",
+   "page": 103,
+   "excerpts": [
+    "114年之研發費用為新台幣45,806仟元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-17",
+   "field": "rd",
+   "statement": "113年度研發費用為新台幣41,197仟元。",
+   "period": "113年度（2024）",
+   "page": 103,
+   "excerpts": [
+    "113年之研發費用為新台幣41,197仟元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-18",
+   "field": "outlook",
+   "statement": "公司年報載明短期內將致力於組織效能的提升與核心市場的深耕。",
+   "period": "截至114年度年報刊印日",
+   "page": 104,
+   "excerpts": [
+    "本公司短期內將致力於組織效能的提升與核心市場的深耕"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-19",
+   "field": "outlook",
+   "statement": "公司年報載明中長期將以技術自主為核心，積極建構跨領域的產業生態系。",
+   "period": "截至114年度年報刊印日",
+   "page": 104,
+   "excerpts": [
+    "本公司將以技術自主為核心，積極建構跨領域的產業生態系"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-20",
+   "field": "market_position",
+   "statement": "公司於年報自述已在自動化設備供應鏈中確立關鍵核心組件整合領先者的地位。",
+   "period": "截至114年度年報刊印日",
+   "page": 105,
+   "excerpts": [
+    "已在自動化設備供應鏈中確立了關鍵核心組件整合領先者的地位"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-21",
+   "field": "market_position",
+   "statement": "公司於年報自述核心產品Eco Color綠風百葉窗於國內節能建築與綠建築市場具備高度品牌認知度。",
+   "period": "截至114年度年報刊印日",
+   "page": 106,
+   "excerpts": [
+    "核心產品EcoColor綠風百葉窗於國內節能建築與綠建築市場具備高度品牌認知度"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  },
+  {
+   "id": "6215-AR-22",
+   "field": "market_position",
+   "statement": "公司於年報自述其產品多次榮獲「台灣精品標誌」與「國家產品形象獎」之高度肯定。",
+   "period": "截至114年度年報刊印日",
+   "page": 107,
+   "excerpts": [
+    "多次榮獲「台灣精品標誌」與「國家產品形象獎」之高度肯定"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:23:39+00:00"
+   }
+  }
+ ]
+}

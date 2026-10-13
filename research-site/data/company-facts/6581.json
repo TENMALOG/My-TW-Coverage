@@ -1,0 +1,546 @@
+{
+ "ticker": "6581",
+ "company": "鋼聯",
+ "legal_name": "台灣鋼聯股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6581&filename=2025_6581_20260529F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6581_20260529F04.pdf",
+  "text_sha256": "1dcd33bb21ebf0548c9c338c3eed321ff9563d0caecc0e9865256d2812fb8859",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/1dcd33bb21ebf0548c9c338c3eed321ff9563d0caecc0e9865256d2812fb8859.txt"
+ },
+ "facts": [
+  {
+   "id": "6581-AR-01",
+   "field": "revenue_mix",
+   "statement": "年報營業比重表列示114年度氧化鋅銷售金額為新台幣1,489,530仟元，營業比重67%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "氧 化 鋅 銷 售  1,489,530 67 1,619,231 68"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-02",
+   "field": "business_scope",
+   "statement": "年報列示所營業務包括廢棄物清除業、廢棄物處理業、其他非鐵金屬基本工業、水泥製造業、預拌混凝土製造業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "J101030 廢棄物清除業",
+    "J101040 廢棄物處理業",
+    "CA01990 其他非鐵金屬基本工業",
+    "C901030 水泥製造業",
+    "C901040 預拌混凝土製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-03",
+   "field": "products",
+   "statement": "年報列示公司目前之商品（服務）項目包括銷售粗氧化鋅、清除再利用電弧爐煉鋼業所產生之集塵灰、還原碴及氧化碴、資源再生粒料等。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "A. 銷售粗氧化鋅。",
+    "B. 清除再利用電弧爐煉鋼業所產生之集塵灰、還原碴及氧化碴。",
+    "M. 資源再生粒料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-04",
+   "field": "sales_regions",
+   "statement": "年報銷售地區表列示114年度氧化鋅（外銷）日本銷售額為新台幣887,865仟元，比率40.16%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "氧 化 鋅(外 銷)",
+    "日本 887,865 40.16 882,786 37.12",
+    "合 計 2,210,758 100.00 2,378,461 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-05",
+   "field": "sales_regions",
+   "statement": "年報銷售地區表列示114年度氧化鋅（外銷）歐洲銷售額為新台幣187,728仟元，比率8.49%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "氧 化 鋅(外 銷)",
+    "歐洲 187,728 8.49 280,836 11.81",
+    "合 計 2,210,758 100.00 2,378,461 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-06",
+   "field": "sales_regions",
+   "statement": "年報銷售地區表列示114年度氧化鋅（外銷）泰國銷售額為新台幣219,278仟元，比率9.92%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "氧 化 鋅(外 銷)",
+    "泰國 219,278 9.92 278,393 11.7",
+    "合 計 2,210,758 100.00 2,378,461 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-07",
+   "field": "sales_regions",
+   "statement": "年報銷售地區表列示114年度氧化鋅（內銷）銷售額為新台幣159,504仟元，比率7.21%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "氧化鋅(內銷) 159,504 7.21 108,332 4.55",
+    "合 計 2,210,758 100.00 2,378,461 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-08",
+   "field": "export_share",
+   "statement": "年報稱經旋轉窯冶煉後所產出之氧化鋅，114年度約89%出口銷售予日本及歐洲等國家金屬精煉業者，其他11%銷售至台灣。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "收集後，114 年",
+    "度約 89%出口銷售予日本及歐洲等國家金屬精煉業者",
+    "而其他11%銷售至台灣再製成鋅白"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-09",
+   "field": "major_customers",
+   "statement": "年報最近二年度主要銷貨客戶表列示客戶MMS於114年度銷貨金額為新台幣670,954仟元，占全年度銷貨淨額30.35%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年 115 年第 1 季",
+    "1 MMS 653,671 27.48 無 MMS 670,954 30.35 無 MMS 127,238 33.86 無",
+    "銷貨淨額 2,378,461 100.00 銷貨淨額 2,210,758 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-10",
+   "field": "major_customers",
+   "statement": "年報最近二年度主要銷貨客戶表列示客戶MMS於113年度銷貨金額為新台幣653,671仟元，占全年度銷貨淨額27.48%。",
+   "period": "113年度（2024）",
+   "page": 88,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年 115 年第 1 季",
+    "1 MMS 653,671 27.48 無 MMS 670,954 30.35 無 MMS 127,238 33.86 無",
+    "銷貨淨額 2,378,461 100.00 銷貨淨額 2,210,758 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-11",
+   "field": "major_suppliers",
+   "statement": "年報最近二年度主要供應商表列示供應商菱友於114年度進貨金額為新台幣83,987仟元，占全年度進貨淨額22.21%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年 115 年第 1 季",
+    "1 菱友 88,552 25.82 無 菱友 83,987 22.21 無 菱友 32,140 37.84 無",
+    "進貨淨額 342,958 100.00 進貨淨額 378,152 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-12",
+   "field": "major_suppliers",
+   "statement": "年報最近二年度主要供應商表列示供應商珙榮於114年度進貨金額為新台幣42,401仟元，占全年度進貨淨額11.21%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年 115 年第 1 季",
+    "2 達餘 41,212 12.02 無 珙榮 42,401 11.21 無 鑫福晟 10,250 12.07 無",
+    "進貨淨額 342,958 100.00 進貨淨額 378,152 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-13",
+   "field": "major_suppliers",
+   "statement": "年報最近二年度主要供應商表列示供應商長祿於114年度進貨金額為新台幣42,320仟元，占全年度進貨淨額11.19%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年 115 年第 1 季",
+    "3 中鋼碳素 36,499 10.64 無 長祿 42,320 11.19 無 其他 42,539 50.09",
+    "進貨淨額 342,958 100.00 進貨淨額 378,152 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-14",
+   "field": "raw_materials",
+   "statement": "年報列示主要物料焦碳之供應廠商包括菱友、中鋼碳素、達餘、長祿等。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "主要物料 供應廠商 供貨狀況",
+    "焦碳 菱友、中鋼碳素、達餘、長祿 良好、穩定"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-15",
+   "field": "raw_materials",
+   "statement": "年報列示主要物料消石灰之供應廠商包括來冠、和興、鑫福晟、頂烽、珙榮等。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "主要物料 供應廠商 供貨狀況",
+    "消石灰 來冠、和興、鑫福晟、頂烽、珙榮 良好、穩定"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-16",
+   "field": "raw_materials",
+   "statement": "年報列示主要物料生石灰之供應廠商包括來冠、坤硯貿易、鑫福晟、寬餘等。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "主要物料 供應廠商 供貨狀況",
+    "生石灰 來冠、坤硯貿易、鑫福晟、寬餘 良好、穩定"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-17",
+   "field": "employees",
+   "statement": "年報員工人數表列示114年度員工人數合計為184人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "年  度 113 年度 114 年度 115 年 4 月 28 日",
+    "合  計 186 184 185"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-18",
+   "field": "market_position",
+   "statement": "公司於年報自述本公司乃目前亞洲前三大之電弧爐集塵灰鋅資源回收廠。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "本公司乃目前亞洲前三大之電弧爐集塵灰鋅資源回收廠"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-19",
+   "field": "market_position",
+   "statement": "公司於年報自述（引用環境部環境資源署資料，經台灣鋼聯公司整理），114年台灣鋼聯占國內集塵灰總清運量之市占率為91.61%。",
+   "period": "114年（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：噸",
+    "國內集塵灰 總清運量",
+    "114 年 106,363 97,442 8,921 91.61% 8.39%",
+    "資料來源：環境部環境資源署，台灣鋼聯公司整理"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-20",
+   "field": "capacity_or_production",
+   "statement": "年報稱公司二座窯核定年總處理量為198,900公噸。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "二座窯核定年總處理量為 198,900 公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  },
+  {
+   "id": "6581-AR-21",
+   "field": "rd",
+   "statement": "年報最近五年度研發費用表列示112-114年「含鋅副產物低碳冶煉高值化技術」項目金額為新台幣70,178仟元。",
+   "period": "112-114年",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年份 項目 金額",
+    "112-114 含鋅副產物低碳冶煉高值化技術 70,178"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:29+00:00"
+   }
+  }
+ ]
+}

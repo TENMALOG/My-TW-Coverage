@@ -1,0 +1,598 @@
+{
+ "ticker": "8091",
+ "company": "翔名",
+ "legal_name": "翔名科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=8091&filename=2025_8091_20260616F04.pdf",
+  "fy": 2025,
+  "filename": "2025_8091_20260616F04.pdf",
+  "text_sha256": "a816f0aeceb633b140f04f635389d835e528f1ddecb6cb7319537260993c3e97",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/a816f0aeceb633b140f04f635389d835e528f1ddecb6cb7319537260993c3e97.txt"
+ },
+ "facts": [
+  {
+   "id": "8091-AR-01",
+   "field": "headquarters",
+   "statement": "公司總公司位於新竹市牛埔南路221號。",
+   "period": "年報刊印時",
+   "page": 2,
+   "excerpts": [
+    "總 公 司：新竹市牛埔南路 221號"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度真空類產品金額為74,500仟元，占比3.48%。",
+   "period": "114年度（2025）",
+   "page": 42,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "真空類產品 81,267 4.06 74,500 3.48"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度材料類產品金額為1,794,219仟元，占比83.9%。",
+   "period": "114年度（2025）",
+   "page": 42,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "材料類產品 1,646,183 82.22 1,794,219 83.9"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度光電類產品金額為14,330仟元，占比0.67%。",
+   "period": "114年度（2025）",
+   "page": 42,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "光電類產品 32,368 1.62 14,330 0.67"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度勞務收入金額為71,805仟元，占比3.36%。",
+   "period": "114年度（2025）",
+   "page": 42,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "勞務收入 65,972 3.3 71,805 3.36"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度工程收入金額為122,700仟元，占比5.74%。",
+   "period": "114年度（2025）",
+   "page": 42,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 114 年度",
+    "工程收入 75,460 3.77 122,700 5.74"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-07",
+   "field": "business_scope",
+   "statement": "公司年報載明，公司主要從事半導體製程之材料、設備及關鍵零組件之製造、買賣、維修及代理業務，範圍涵蓋氧化、蝕刻、薄膜沉積、擴散、離子植入、微影等製程。",
+   "period": "年報刊印時",
+   "page": 45,
+   "excerpts": [
+    "本公司主要從事半導體製程之材料、設備及關鍵零組件之製造、買賣、維修及代理業務，範圍涵蓋氧化、 蝕刻、薄膜沉積、擴散、離子植入、微影等製程"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-08",
+   "field": "products",
+   "statement": "公司年報列示主要生產產品包括石墨（Graphite）製品、鎢（Tungsten）製品、鉬（Molybdenum）製品及鉭（Tantalum）製品等。",
+   "period": "年報刊印時",
+   "page": 42,
+   "excerpts": [
+    "石墨(Graphite)製品",
+    "鎢(Tungsten)製品",
+    "鉬(Molybdenum)製品",
+    "鉭(Tantalum)製品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-09",
+   "field": "products",
+   "statement": "公司年報列示主要生產產品另包括氮化硼（Boron Nitride）製品及矽（Silicon）與碳化矽（Silicon Carbide）製品等。",
+   "period": "年報刊印時",
+   "page": 43,
+   "excerpts": [
+    "氮化硼(Boron Nitride)製品",
+    "矽(Silicon)及碳化矽(Silicon Carbide)製品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-10",
+   "field": "products",
+   "statement": "公司年報列示代理販售產品包括美國Mass-Vac, INC的真空塵粒（油氣）捕捉器、美國Stanford Research Systems的殘留氣體分析儀及日本SHIMADZU CORP.的渦輪分子幫浦、氦氣測漏儀等。",
+   "period": "年報刊印時",
+   "page": 43,
+   "excerpts": [
+    "代理美國(Mass-Vac, INC；MV)真空塵粒（油氣）捕捉器",
+    "代理美國(Stanford Research Systems；SRS)殘留氣體分析儀",
+    "代理日本（SHIMADZU CORP.,）渦輪分子幫浦、氦氣測漏儀"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為1,084,553仟元，占比51%。",
+   "period": "114年度（2025）",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元、%",
+    "113年度 114 年度",
+    "內銷 941,765 47 1,084,553 51"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-12",
+   "field": "export_share",
+   "statement": "114年度外銷金額為1,054,066仟元，占比49%。",
+   "period": "114年度（2025）",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元、%",
+    "113年度 114 年度",
+    "外銷 1,060,373 53 1,054,066 49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述，已成為台灣半導體離子植入機之關鍵零件最大供應商。",
+   "period": "年報刊印時",
+   "page": 44,
+   "excerpts": [
+    "目前已成為台灣半導體離子植入機之關鍵零件最大供應商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-14",
+   "field": "market_position",
+   "statement": "公司於年報自述，其所聚焦的離子佈植機（Ion Implanter）關鍵零組件領域，公司為此領域領導廠商。",
+   "period": "年報刊印時",
+   "page": 48,
+   "excerpts": [
+    "離子佈植機（Ion Implanter）的關鍵零組件",
+    "本公司為此領域領導廠商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-15",
+   "field": "major_customers",
+   "statement": "公司年報載明，離子佈植機關鍵零組件的主要需求集中在前兩大晶圓廠台積電、聯電，並稱台積電、聯電為主要客戶。",
+   "period": "年報刊印時",
+   "page": 48,
+   "excerpts": [
+    "主要需求集中在前兩大晶圓廠台積電、聯電",
+    "與主要客戶台積電、聯電 合作關係長久"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-16",
+   "field": "major_customers",
+   "statement": "某客戶（甲客戶）114年度銷貨金額為655,635仟元，占全年度銷貨淨額30.66%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度 115 年度截至前一季止",
+    "甲客戶 597,650 29.85 無 甲客戶 655,635 30.66"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-17",
+   "field": "major_customers",
+   "statement": "某客戶（乙客戶）114年度銷貨金額為242,694仟元，占全年度銷貨淨額11.35%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度 115 年度截至前一季止",
+    "乙客戶 233,997 11.69 無 乙客戶 242,694 11.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-18",
+   "field": "major_suppliers",
+   "statement": "某供應商（A供應商）114年度進貨金額為131,291仟元，占全年度進貨淨額19.70%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度 115 年度截至前一季止",
+    "A 供應商 118,312 18.67 無 A 供應商 131,291 19.70"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-19",
+   "field": "raw_materials",
+   "statement": "公司年報載明主要生產原料包括特殊金屬、石墨等，主要供應均來自國外廠商，包括日本、韓國及美國等國家。",
+   "period": "年報刊印時",
+   "page": 51,
+   "excerpts": [
+    "本公司目前主要生產原料為特殊金屬、石墨、 等，主要供應均來自國外廠商，分散全球各地，包括日本、韓國及美國等國家"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計為417人。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至",
+    "合計 428 417 419"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-21",
+   "field": "rd",
+   "statement": "114年度研發費用為61,934仟元。",
+   "period": "114年度（2025）",
+   "page": 45,
+   "excerpts": [
+    "單位:仟元;%",
+    "111 年 112 年 113 年 114 年 115 年 3/31 止",
+    "研發費用 66,577 76,711 76,647 61,934 17,592"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-22",
+   "field": "rd",
+   "statement": "114年度研發費用占營業收入淨額比例為2.90%。",
+   "period": "114年度（2025）",
+   "page": 45,
+   "excerpts": [
+    "111 年 112 年 113 年 114 年 115 年 3/31 止",
+    "研發費用占營業收入淨額比例 3.34% 4.25% 3.83% 2.90% 2.70%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-23",
+   "field": "outlook",
+   "statement": "公司年報載明短期業務發展計畫之行銷策略包括持續加強與設備原廠之合作關係，增加新類型產品的代工，提高公司在原廠供應鏈的佔有率。",
+   "period": "短期計畫",
+   "page": 47,
+   "excerpts": [
+    "持續加強與設備原廠之合作關係，增加新類型產品的代工，提高本公司在原廠供應鏈的佔有率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  },
+  {
+   "id": "8091-AR-24",
+   "field": "outlook",
+   "statement": "公司年報載明短期業務發展計畫之生產策略包括積極擴廠，提高生產產能，有效降低成本。",
+   "period": "短期計畫",
+   "page": 47,
+   "excerpts": [
+    "積極擴廠，提高生產產能，有效降低成本"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:31+00:00"
+   }
+  }
+ ]
+}

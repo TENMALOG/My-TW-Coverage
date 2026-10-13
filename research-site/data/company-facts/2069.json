@@ -1,0 +1,554 @@
+{
+ "ticker": "2069",
+ "company": "運錩",
+ "legal_name": "運錩鋼鐵股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2069&filename=2025_2069_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2069_20260527F04.pdf",
+  "text_sha256": "b57c74bcfa4e3263139689433d1e8e07e8eb11003abb9d69097b8c0edb1c980d",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b57c74bcfa4e3263139689433d1e8e07e8eb11003abb9d69097b8c0edb1c980d.txt"
+ },
+ "facts": [
+  {
+   "id": "2069-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度不銹鋼捲板營業收入為新台幣10,086,640仟元，營業比重99.94%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 比重% 金額 比重%",
+    "不銹鋼捲板 10,713,608 99.99 10,086,640 99.94"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-02",
+   "field": "business_scope",
+   "statement": "公司年報載明主要營業項目為不銹鋼捲板表面處理、分條、裁剪及精密軋延業務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "本公司主要營業項目為不銹鋼捲板表面處理、分條、裁剪及精密軋延業務等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-03",
+   "field": "products",
+   "statement": "公司年報載明主要產品包括各種不銹鋼捲、板等。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "主要產品：各種不銹鋼捲、板"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-04",
+   "field": "products",
+   "statement": "公司年報載明主要服務項目包括不銹鋼板、捲裁切，不銹鋼捲分條，不銹鋼板表面處理及不銹鋼捲、板精密軋延等。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "主要服務項目",
+    "不銹鋼板、捲裁切",
+    "不銹鋼捲分條",
+    "不銹鋼板表面處理",
+    "不銹鋼捲、板精密軋延"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-05",
+   "field": "products",
+   "statement": "公司年報載明不銹鋼捲板的用途包括化學用桶槽、配管(構造管)、五金配件等。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "不銹鋼捲板 化學用桶槽、配管(構造管)、五金配件"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度亞洲地區銷售金額為新台幣3,630,686仟元，占銷售地區表合計35.97%（亞洲不包含來自台灣之收入）。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比率 金額 比率",
+    "亞 洲（註） 3,956,010 36.92 3,630,686 35.97",
+    "註：不包含來自台灣之收入"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度美洲地區銷售金額為新台幣3,303,585仟元，占銷售地區表合計32.73%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比率 金額 比率",
+    "美 洲 3,425,599 31.97 3,303,585 32.73"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度台灣地區銷售金額為新台幣2,466,420仟元，占銷售地區表合計24.44%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比率 金額 比率",
+    "台 灣 2,529,432 23.61 2,466,420 24.44"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，依經濟部統計處工業產銷存-產品統計資料所示114年度冷、熱軋不銹鋼捲板銷售值763.21億元（原文億元未載幣別）及本公司114年個體財務報告營業收入7,444,716仟元，推估國內市場佔有率為9.75%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "依經濟部統計處工業產銷存-產品統計資料",
+    "114年度冷、熱軋不銹鋼捲板銷售值為763.21億元，本公司114年個體財務報告營業收入為7,444,716仟元，推估國內市場佔有率為9.75%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-10",
+   "field": "raw_materials",
+   "statement": "公司年報載明主要原料為不銹鋼捲板，供應廠商以代號列為A公司、B公司、C公司、D公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "不銹鋼捲板 A 公司、B 公司、C 公司、D 公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-11",
+   "field": "raw_materials",
+   "statement": "公司年報載明不銹鋼材占產品成本比重達九成以上。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "不銹鋼材占產品成本比重達九成以上"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-12",
+   "field": "major_suppliers",
+   "statement": "114年度供應商A公司進貨金額為新台幣2,811,843仟元，占全年度進貨淨額35.82%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "占全年度進 貨淨額比率 %",
+    "1 A 公司 3,039,028 33.96 無 A 公司 2,811,843 35.82 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度供應商B公司進貨金額為新台幣1,642,561仟元，占全年度進貨淨額20.93%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "占全年度進 貨淨額比率 %",
+    "2 B 公司 2,832,019 31.64 無 B 公司 1,642,561 20.93 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度供應商D公司進貨金額為新台幣795,412仟元，占全年度進貨淨額10.13%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "占全年度進 貨淨額比率 %",
+    "3 C 公司 1,321,193 14.76 無 D 公司 795,412 10.13 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-15",
+   "field": "major_customers",
+   "statement": "公司年報載明最近兩年度並無任一客戶占銷貨總額百分之十以上。",
+   "period": "113至114年度（2024–2025）",
+   "page": 78,
+   "excerpts": [
+    "本公司最近兩年度並無任一客戶占銷貨總額百分之十以上"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-16",
+   "field": "employees",
+   "statement": "114年底員工人數合計675人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年底（2025）",
+   "page": 79,
+   "excerpts": [
+    "113 年底 114 年底 115 年截至",
+    "合計 588 675 759"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣38,060仟元，占營業淨額之比例0.38%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "項 目 114年度 當年度截至115年4月30日",
+    "研發費用 38,060 31,278",
+    "占營業淨額之比例 0.38 0.99"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-18",
+   "field": "established",
+   "statement": "公司年報載明本公司成立於民國76年。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "本公司成立於民國76年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-19",
+   "field": "group_structure",
+   "statement": "公司年報載明本公司於民國100年12月透過轉投資 QIYI PRECISION METALS CO., LTD 間接取得 Surwin Global Limited (HK) 及寧波奇億金屬有限公司。",
+   "period": "民國100年12月",
+   "page": 76,
+   "excerpts": [
+    "民國 100 年 12 月透過轉投資 QIYI PRECISION METALS CO., LTD間接取得 Surwin Global Limited (HK)及寧波奇億金屬有限公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-20",
+   "field": "outlook",
+   "statement": "公司年報載明計劃開發新產品鈦合金15333，並計劃提升既有產品445汽車裝飾條以取代日本進口料。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "計劃開發之新產品（或服務）與既有產品提升如下",
+    "開發新產品：鈦合金15333開發",
+    "既有產品提升：445汽車裝飾條取代日本進口料"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-21",
+   "field": "outlook",
+   "statement": "公司年報載明擬訂115年產銷售數量約147,038噸。",
+   "period": "115年（預期）",
+   "page": 84,
+   "excerpts": [
+    "擬訂 115 年 產銷售數量約 147,038 噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2069-AR-22",
+   "field": "outlook",
+   "statement": "公司年報載明短期業務發展計劃包括善用保稅優勢，採直接出口方式外銷，避開反傾銷等。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "短期業務發展計劃",
+    "善用保稅優勢，採直接出口方式外銷，避開反傾銷"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  }
+ ]
+}

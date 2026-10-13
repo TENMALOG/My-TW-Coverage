@@ -1,0 +1,485 @@
+{
+ "ticker": "2002",
+ "company": "中鋼",
+ "legal_name": "中國鋼鐵股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2002&filename=2025_2002_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2002_20260522F04.pdf",
+  "text_sha256": "1e4b31f25ae62464f8bfe8ebe580aa7fd7aedb7b500b3ab3bd2153fd8549a69b",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/1e4b31f25ae62464f8bfe8ebe580aa7fd7aedb7b500b3ab3bd2153fd8549a69b.txt"
+ },
+ "facts": [
+  {
+   "id": "2002-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明中鋼集團鋼鐵業包括中鋼公司、中龍公司、中鴻公司等，主要從事鋼鐵製品之製造及銷售。",
+   "period": "截至114年度年報刊印日",
+   "page": 156,
+   "excerpts": [
+    "中鋼集團之主要業務範圍",
+    "鋼鐵業－包括中鋼公司、中龍公司、中鴻公司",
+    "主要從事鋼鐵製品之製 造及銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度中鋼合併商品銷貨收入為278,953,466千元，占營業收入87.95%。",
+   "period": "114年度（2025）",
+   "page": 157,
+   "excerpts": [
+    "中鋼合併 金額單位：新臺幣千元",
+    "114年度 113年度",
+    "商品銷貨收入 278,953,466 87.95 325,832,085 90.37"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度中鋼合併工程、勞務及其他收入為38,201,798千元，占營業收入12.05%。",
+   "period": "114年度（2025）",
+   "page": 157,
+   "excerpts": [
+    "中鋼合併 金額單位：新臺幣千元",
+    "114年度 113年度",
+    "工程、勞務及",
+    "其他收入 38,201,798 12.05 34,703,629 9.63"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度中鋼個體商品銷貨收入為162,310,425千元，占營業收入97.18%。",
+   "period": "114年度（2025）",
+   "page": 157,
+   "excerpts": [
+    "中鋼個體 金額單位：新臺幣千元",
+    "114年度 113年度",
+    "商品銷貨收入 162,310,425 97.18 187,490,138 96.87"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-05",
+   "field": "sales_regions",
+   "statement": "114年中鋼個體鋼品銷售對象為臺灣的數量為4,268,883公噸，占該表合計數量57.87%。",
+   "period": "114年度（2025）",
+   "page": 164,
+   "excerpts": [
+    "114年鋼品內外銷地區分佈-中鋼個體",
+    "銷售對象 數量(公噸) 百分比",
+    "臺 灣 4,268,883 57.87%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-06",
+   "field": "sales_regions",
+   "statement": "114年中鋼個體鋼品銷售對象為東南亞的數量為1,223,733公噸，占該表合計數量16.59%。",
+   "period": "114年度（2025）",
+   "page": 164,
+   "excerpts": [
+    "114年鋼品內外銷地區分佈-中鋼個體",
+    "銷售對象 數量(公噸) 百分比",
+    "東 南 亞 1,223,733 16.59%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-07",
+   "field": "sales_regions",
+   "statement": "114年中鋼合併鋼品銷售對象為臺灣的數量為6,161,238公噸，占該表合計數量54.79%。",
+   "period": "114年度（2025）",
+   "page": 164,
+   "excerpts": [
+    "114年鋼品內外銷地區分佈-中鋼合併",
+    "銷售對象 數量(公噸) 百分比",
+    "臺 灣 6,161,238 54.79%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述114年本公司主要鋼材國內市場占有率分別為鋼板53%、棒線47%、熱軋鋼捲片31%、冷軋鋼捲片43%、電磁鋼60%、熱浸鍍鋅鋼片27%及電鍍鋅鋼片60%。",
+   "period": "114年度（2025）",
+   "page": 165,
+   "excerpts": [
+    "114年本公司主要鋼材國內市場占有率分別為鋼板53%、棒線47%、 熱軋鋼捲片31%、冷軋鋼捲片43%、電磁鋼60%、熱浸鍍鋅鋼片27%及電 鍍鋅鋼片60%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-09",
+   "field": "raw_materials",
+   "statement": "114年中鋼煤礦來源中，澳洲為445萬公噸，占中鋼煤礦來源合計88.29%。",
+   "period": "114年度（2025）",
+   "page": 170,
+   "excerpts": [
+    "1.煤礦來源(114.01.01～114.12.31)",
+    "中鋼 中龍",
+    "國 別 數量(萬公噸) 百分比",
+    "澳洲 445 88.29%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-10",
+   "field": "raw_materials",
+   "statement": "114年中鋼鐵礦來源中，澳洲為893萬公噸，占中鋼鐵礦來源合計76.59%。",
+   "period": "114年度（2025）",
+   "page": 170,
+   "excerpts": [
+    "2.鐵礦來源(114.01.01～114.12.31)",
+    "中鋼 中龍",
+    "國 別 數量(萬公噸) 百分比",
+    "澳洲 893 76.59%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-11",
+   "field": "major_suppliers",
+   "statement": "中鋼個體114年度向某供應商（代號A公司）進貨金額為13,066,405千元，占全年度進貨淨額14.33%。",
+   "period": "114年度（2025）",
+   "page": 171,
+   "excerpts": [
+    "2.占本公司個體進貨總額百分之十以上之供應商資料",
+    "年度 名稱 金額 ( 千元 ) 占全年度進貨 淨額比率 (%)",
+    "114年 A公司 13,066,405 14.33 供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-12",
+   "field": "major_suppliers",
+   "statement": "中鋼與子公司合併114年度向某供應商（代號A公司）進貨金額為19,971,880千元，占全年度進貨淨額10.97%。",
+   "period": "114年度（2025）",
+   "page": 171,
+   "excerpts": [
+    "4.占本公司與子公司合併進貨總額百分之十以上之供應商資料",
+    "年度 名稱 金額 ( 千元 ) 占全年度進貨 淨額比率 (%)",
+    "114年 A公司 19,971,880 10.97 供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-13",
+   "field": "major_customers",
+   "statement": "年報載明本公司並無占個體銷貨總額百分之十以上之客戶，且本公司與子公司並無占合併銷貨總額百分之十以上之客戶。",
+   "period": "截至114年度年報刊印日",
+   "page": 171,
+   "excerpts": [
+    "1.本公司並無占個體銷貨總額百分之十以上之客戶",
+    "3.本公司與子公司並無占合併銷貨總額百分之十以上之客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-14",
+   "field": "employees",
+   "statement": "114年底中鋼個體員工人數為9,263人。",
+   "period": "114年度（2025）",
+   "page": 172,
+   "excerpts": [
+    "中鋼個體員工人數、平 均年齡、平均年資及學歷分布",
+    "年度 113年底 114年底 115.02.28",
+    "員工人數 9,525 9,263 9,249"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-15",
+   "field": "employees",
+   "statement": "114年底中鋼集團員工人數為26,864人。",
+   "period": "114年度（2025）",
+   "page": 172,
+   "excerpts": [
+    "集團員工人數、平均年 齡、平均年資及學歷分布",
+    "年度 113年底 114年底 115.02.28",
+    "員工人數 27,209 26,864 26,715"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-16",
+   "field": "capacity_or_production",
+   "statement": "114年度中鋼個體粗鋼產量為7,959,249公噸。",
+   "period": "114年度（2025）",
+   "page": 172,
+   "excerpts": [
+    "114年度 中鋼個體 中鋼與中龍",
+    "粗鋼產量(公噸) 7,959,249 11,572,711"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-17",
+   "field": "outlook",
+   "statement": "年報載明115年本公司規劃鋼品銷售總量為751萬公噸，其中內銷451萬公噸、外銷300萬公噸。",
+   "period": "截至114年度年報刊印日",
+   "page": 165,
+   "excerpts": [
+    "115年本公司規劃鋼品銷售總量為751萬公噸，其中內銷451萬公噸、 外銷300萬公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-18",
+   "field": "outlook",
+   "statement": "年報長期業務發展計畫載明將發展適合臺灣之次世代低碳冶煉技術，並以139年達成碳中和為努力目標。",
+   "period": "截至114年度年報刊印日",
+   "page": 163,
+   "excerpts": [
+    "2.長期業務發展計畫",
+    "發展適合臺灣之次世代低碳冶煉技術，並以 139 年達成碳中和為努力目標"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  },
+  {
+   "id": "2002-AR-19",
+   "field": "products",
+   "statement": "年報列示之主要產品用途包括：鋼板用於船舶、橋梁、鋼結構等，棒鋼用於螺絲、螺帽、手工具等。",
+   "period": "截至114年度年報刊印日",
+   "page": 168,
+   "excerpts": [
+    "(五)主要產品之用途及產製過程",
+    "鋼 板：船舶、橋梁、鋼結構",
+    "棒 鋼：螺絲、螺帽、手工具"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:41+00:00"
+   }
+  }
+ ]
+}

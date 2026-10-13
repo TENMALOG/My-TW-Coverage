@@ -1,0 +1,638 @@
+{
+ "ticker": "7823",
+ "company": "奧義賽博-KY創",
+ "legal_name": "奧義賽博科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7823&filename=2025_7823_20260630F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7823_20260630F04.pdf",
+  "text_sha256": "bc550149657d2a35d0f41ea1e31aa9794ce4e52b88cf84ffda6d81279032b1b0",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/bc550149657d2a35d0f41ea1e31aa9794ce4e52b88cf84ffda6d81279032b1b0.txt"
+ },
+ "facts": [
+  {
+   "id": "7823-AR-01",
+   "field": "established",
+   "statement": "年報載明公司於2017年8月24日在英屬開曼群島設立，為投資控股公司。",
+   "period": "2017年8月24日",
+   "page": 10,
+   "excerpts": [
+    "於2017 年 8 月 24 日在英屬開曼群島設立之投資控股公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-02",
+   "field": "group_structure",
+   "statement": "年報載明公司於2024年9月9日併購奧義智慧科技股份有限公司，使其成為公司100%持有之子公司。",
+   "period": "2024年9月9日",
+   "page": 10,
+   "excerpts": [
+    "2024 年 9 月 9 日併購奧義智慧科技股份有限公司(中華民國設立公\n司，設立日期 2017 年 7 月 31 日)成為本公司 100%持有之子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-03",
+   "field": "business_scope",
+   "statement": "年報載明公司研發自動化威脅曝險管理平台XCockpit，專注於企業的攻擊面管理與攻擊路徑模擬分析。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "研發出全新的自動化威脅曝險管理平台-XCockpit",
+    "專注於企業的攻擊面管理與攻擊路徑\n模擬分析"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-04",
+   "field": "business_scope",
+   "statement": "年報載明公司主要透過純軟體訂閱制方式，經由各地簽約經銷商銷售予終端客戶。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "主要透過純軟體訂閱制之方\n式，將產黏透過各地之簽約經銷商銷售與終端客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-05",
+   "field": "revenue_mix",
+   "statement": "2025年軟體訂閱收入為新臺幣310,841千元，營業比重84.28%。",
+   "period": "114年度（2025）",
+   "page": 62,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2023年度 2024年度 2025年",
+    "營業收入 比重(%) 營業收入 比重(%) 營業收入 比重(%)",
+    "軟體訂閱收入 267,603 87.80 269,084 89.53 310,841 84.28"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-06",
+   "field": "revenue_mix",
+   "statement": "2025年專案服務收入為新臺幣57,988千元，營業比重15.72%。",
+   "period": "114年度（2025）",
+   "page": 62,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2023年度 2024年度 2025年",
+    "營業收入 比重(%) 營業收入 比重(%) 營業收入 比重(%)",
+    "專案服務收入 37,191 12.20 31,466 10.47 57,988  15.72"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-07",
+   "field": "revenue_mix",
+   "statement": "2024年度軟體訂閱收入為新臺幣269,084千元，營業比重89.53%。",
+   "period": "113年度（2024）",
+   "page": 62,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2023年度 2024年度 2025年",
+    "營業收入 比重(%) 營業收入 比重(%) 營業收入 比重(%)",
+    "軟體訂閱收入 267,603 87.80 269,084 89.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-08",
+   "field": "revenue_mix",
+   "statement": "2024年度專案服務收入為新臺幣31,466千元，營業比重10.47%。",
+   "period": "113年度（2024）",
+   "page": 62,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2023年度 2024年度 2025年",
+    "營業收入 比重(%) 營業收入 比重(%) 營業收入 比重(%)",
+    "專案服務收入 37,191 12.20 31,466 10.47"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-09",
+   "field": "sales_regions",
+   "statement": "2025年內銷（註載係指臺灣地區之銷售）金額為新臺幣347,141千元，占銷售地區表合計94.12%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "項目 2023 年度 2024 年度 2025 年",
+    "金額 % 金額 % 金額 %",
+    "內銷(註) 282,841 92.80 275,443 91.65 347,141 94.12",
+    "內銷係指臺灣地區之銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-10",
+   "field": "sales_regions",
+   "statement": "2025年外銷（註載外銷主要地區為日本及東南亞）金額為新臺幣21,688千元，占銷售地區表合計5.88%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "項目 2023 年度 2024 年度 2025 年",
+    "金額 % 金額 % 金額 %",
+    "外銷(註) 21,953 7.20 25,107 8.35 21,688 5.88",
+    "外銷主要地區為日本及東南亞"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-11",
+   "field": "market_position",
+   "statement": "年報載明由於全球資安科技產業分工日趨專業分工，目前暫無可信之全球市場資料可供計算市場占有率。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "目前暫無可信之\n全球市場資料可供計算市場占有率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報引述中華民國資訊軟體協會調查，截至2024年台灣資安軟體與服務業者共計106家。",
+   "period": "截至2024年",
+   "page": 68,
+   "excerpts": [
+    "根據中華民國資訊軟體協會調查，結至 2024 年，台灣資安軟體與服務業者\n共計 106 家"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述，在台灣與公司提供近似產品或服務（Device-Detect、Device-Respond、User-Detect）的業者家數至多不超過30家，且公司是其中唯一具備自主開發能力的人工智慧資安軟體原廠。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "與CyCraft 提供近似產黏/服務(Device-Detect, Device-Respond, User-Detect)\n的業者家數至多不超過 30 家，且 CyCraft 是其中唯一具備自主開發能力的人工\n智慧資安軟體原廠"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-14",
+   "field": "major_customers",
+   "statement": "年報載明公司在台灣約有200家客戶，包含半導體、金融、一般製造業、運輸、電子商務與公部門等，以B2B為主要商業模式。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "CyCraft 目前在台灣約有 200 家客戶，其中包含半導體、金融、一般製造業、\n運輸、電子商務與公部門，以 B2B 為主要商業模式"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-15",
+   "field": "major_customers",
+   "statement": "2025年度對某客戶（A 公司）銷貨金額為新臺幣192,040千元，占全年度銷貨淨額52.07%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "A 公司 192,040 52.07 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-16",
+   "field": "major_customers",
+   "statement": "2025年度對某客戶（B 公司）銷貨金額為新臺幣62,914千元，占全年度銷貨淨額17.06%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "B 公司 62,914 17.06 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-17",
+   "field": "major_customers",
+   "statement": "2025年度對某客戶（C 公司）銷貨金額為新臺幣51,395千元，占全年度銷貨淨額13.93%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "C 公司 51,395 13.93 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-18",
+   "field": "major_customers",
+   "statement": "2024年度對某客戶（A 公司）銷貨金額為新臺幣122,600千元，占全年度銷貨淨額40.79%，與發行人之關係列為無。",
+   "period": "113年度（2024）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "A 公司 122,600  40.79 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-19",
+   "field": "major_customers",
+   "statement": "2024年度對某客戶（B 公司）銷貨金額為新臺幣83,104千元，占全年度銷貨淨額27.65%，與發行人之關係列為無。",
+   "period": "113年度（2024）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "B 公司 83,104  27.65 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-20",
+   "field": "major_customers",
+   "statement": "年報載明公司銷售對象為國內外經銷代理商。",
+   "period": "截至114年度年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "本公司銷售對象為國內外經銷代理商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-21",
+   "field": "major_suppliers",
+   "statement": "2025年度對某供應商（S 公司）進貨金額為新臺幣23,716千元，占全年度進貨淨額57.06%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年\n度進貨\n淨額比\n率(%)",
+    "S 公司 23,716 57.06 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-22",
+   "field": "major_suppliers",
+   "statement": "2025年度對AWS進貨金額為新臺幣3,440千元，占全年度進貨淨額8.28%，與發行人之關係列為無。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "2024 年度 2025 年度 2026 年度截至第一季止",
+    "占全年\n度進貨\n淨額比\n率(%)",
+    "AWS 3,440 8.28 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-23",
+   "field": "employees",
+   "statement": "2025年度期末員工人數合計為133人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "員 \n工 \n期 \n末 \n人 \n數",
+    "2024 年度 2025 年度 2026 年度截至",
+    "合計 118 133 135"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-24",
+   "field": "rd",
+   "statement": "2025年度研發費用為新臺幣120,804千元。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "年度 \n項目 2021 年度 2022 年度 2023 年度 2024 年度 2025 年度",
+    "研發費用(A) 註 註 99,276 119,737 120,804"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7823-AR-25",
+   "field": "rd",
+   "statement": "2025年度研發費用占營業收入淨額比率（(A)/(B)）為32.75%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "年度 \n項目 2021 年度 2022 年度 2023 年度 2024 年度 2025 年度",
+    "營業收入淨額(B) 註 註 304,794 300,550 368,829",
+    "(A)/(B) 註 註 32.57 39.84 32.75"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  }
+ ]
+}

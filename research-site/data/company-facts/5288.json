@@ -1,0 +1,538 @@
+{
+ "ticker": "5288",
+ "company": "豐祥-KY",
+ "legal_name": "開曼商豐祥控股股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5288&filename=2025_5288_20260529F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5288_20260529F04.pdf",
+  "text_sha256": "115f56ed523bc404992e2a00e9eda6658ba5a564631098c30ba2c6f851087804",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/115f56ed523bc404992e2a00e9eda6658ba5a564631098c30ba2c6f851087804.txt"
+ },
+ "facts": [
+  {
+   "id": "5288-AR-01",
+   "field": "established",
+   "statement": "年報載明豐祥金屬工業股份有限公司（台灣豐祥）於1974年4月19日成立，主要營運項目為機車零組件之金屬加工。",
+   "period": "截至114年度年報刊印日",
+   "page": 10,
+   "excerpts": [
+    "於 1974 年 4 月 19 日成立，主要營運項目為",
+    "機車零組件之金屬加工"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-02",
+   "field": "established",
+   "statement": "年報載明開曼商豐祥控股股份有限公司（本公司）於2011年7月18日設立於英屬開曼群島。",
+   "period": "截至114年度年報刊印日",
+   "page": 10,
+   "excerpts": [
+    "於 2011 年 7 月 18 日設立於英屬開曼群島"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-03",
+   "field": "revenue_mix",
+   "statement": "2025年度機車類營業額為3,117,067仟元，營業比重45.81%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品 2023 年度 2024 年度 2025 年度",
+    "金額 營業比重 金額 營業比重 金額 營業比重",
+    "機車類 3,398,924 46.77% 3,639,954 49.98% 3,117,067 45.81%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-04",
+   "field": "revenue_mix",
+   "statement": "2025年度醫療器材類營業額為475,548仟元，營業比重6.99%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品 2023 年度 2024 年度 2025 年度",
+    "金額 營業比重 金額 營業比重 金額 營業比重",
+    "醫療器材類 470,923 6.48% 509,723 7.00% 475,548 6.99%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-05",
+   "field": "revenue_mix",
+   "statement": "2025年度休閒車輛類營業額為2,792,048仟元，營業比重41.03%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品 2023 年度 2024 年度 2025 年度",
+    "金額 營業比重 金額 營業比重 金額 營業比重",
+    "休閒車輛類 2,826,349 38.89% 2,637,104 36.21% 2,792,048 41.03%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-06",
+   "field": "products",
+   "statement": "年報載明機車零組件業務為製造汽、機車零組件，包括車架、金屬件、車身、前叉及相關金屬件等。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "A.機車零組件",
+    "製造汽、機車零組件，包括車架、金屬件、車身、前叉及相關金屬件等。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-07",
+   "field": "products",
+   "statement": "年報載明醫療器材類商品包括病床、病人吊架、介護床、洗澡椅及便桶椅等。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "B.醫療器材",
+    "包括病床、病人吊架、介護床、洗澡椅及便桶椅。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-08",
+   "field": "products",
+   "statement": "年報載明休閒車輛類商品包括重型機車、雪車、水上摩托車及特殊車輛相關零件等。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "C.休閒車輛類",
+    "包括重型機車、雪車、水上摩托車及特殊車輛相關零件。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-09",
+   "field": "sales_regions",
+   "statement": "2025年度越南銷售地區銷貨金額為3,055,014仟元，比率為44.89%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區 2023 年度 2024 年度 2025 年度",
+    "金額 比率% 金額 比率% 金額 比率%",
+    "越南 3,232,031 44.47 3,411,612 46.84 3,055,014 44.89"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-10",
+   "field": "sales_regions",
+   "statement": "2025年度其他銷售地區銷貨金額為3,750,049仟元，比率為55.11%（占銷售地區表合計）。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "銷售地區 2023 年度 2024 年度 2025 年度",
+    "金額 比率% 金額 比率% 金額 比率%",
+    "其他 4,035,296 55.53 3,871,667 53.16 3,750,049 55.11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-11",
+   "field": "raw_materials",
+   "statement": "年報列示主要原物料鐵捲/鐵板之供應商包括A公司之子公司、世全鋼鐵、河內鋼鐵、越南中貿、VNTEC、SMC等，供應狀況為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 93,
+   "excerpts": [
+    "主要原物料 主要供應商 供應狀況",
+    "鐵捲/鐵板 A公司之子公司、世全鋼鐵、河內鋼",
+    "鐵、越南中貿、VNTEC、SMC 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-12",
+   "field": "major_suppliers",
+   "statement": "2025年度Honda Trading進貨金額為540,694仟元，占全年度進貨淨額比率14.52%，與發行人之關係為非關係人。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年度截至 3 月 31 日止",
+    "占 全 年 度 進 貨 淨 額 比 率〔%〕",
+    "Honda Trading 540,694 14.52% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-13",
+   "field": "major_customers",
+   "statement": "2025年度某客戶（代號甲）銷貨金額為2,037,822仟元，占全年度銷貨淨額比率29.95%，與發行人之關係為非關係人。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年度截至 3 月 31 日止",
+    "占全年 度銷貨 淨額比 率〔%〕",
+    "甲 2,037,822 29.95% 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-14",
+   "field": "major_customers",
+   "statement": "2025年度某客戶（代號乙）銷貨金額為1,247,030仟元，占全年度銷貨淨額比率18.33%，與發行人之關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年度截至 3 月 31 日止",
+    "占全年 度銷貨 淨額比 率〔%〕",
+    "乙 1,247,030 18.33% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-15",
+   "field": "market_position",
+   "statement": "年報載明越南孫公司在當地之競爭對手為Cosmos Industrial Co.,Ltd.及Kyoei Manufacturing Co., Ltd.。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "在當地之競爭對手為 Cosmos Industrial Co.,Ltd. 及 Kyoei Manufacturing",
+    "Co.,Ltd."
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-16",
+   "field": "rd",
+   "statement": "2025年度研發費用為96,853仟元，占營收比例1.42%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "項目/年度 2021 年度 2022 年度 2023 年度 2024 年度 2025 年度",
+    "研發費用 90,278 84,123 85,790 86,312 96,853",
+    "占營收比例 1.58 1.05 1.18 1.19 1.42"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-17",
+   "field": "rd",
+   "statement": "2025年研究發展人員合計為112人。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：人",
+    "項目 2022 年 2023 年 2024 年 2025 年",
+    "合計 115 122 114 112"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-18",
+   "field": "outlook",
+   "statement": "年報載明公司未來將持續投入研發資源，並以每年不低於營收1.5%的金額為目標。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "本公司未來將持續投入研發資源，並以每年不低於營收 1.5%",
+    "的金額為目標"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-19",
+   "field": "history",
+   "statement": "年報公司沿革載明2025年取得美國南卡羅來納州19.8萬平方英尺土地廠房。",
+   "period": "2025年",
+   "page": 11,
+   "excerpts": [
+    "2025 年 取得美國南卡羅來納州 19.8 萬平方英尺土地廠房"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-20",
+   "field": "employees",
+   "statement": "2025年度員工人數合計為4,292人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：人；年；歲",
+    "年度 2024 年度 2025 年度 2026 年 3 月 31 日",
+    "合 計 4,513 4,292 4,534"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  },
+  {
+   "id": "5288-AR-21",
+   "field": "employees",
+   "statement": "2026年3月31日員工人數合計為4,534人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至2026年3月31日",
+   "page": 94,
+   "excerpts": [
+    "單位：人；年；歲",
+    "年度 2024 年度 2025 年度 2026 年 3 月 31 日",
+    "合 計 4,513 4,292 4,534"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:45+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "ticker": "2812",
+ "company": "台中銀",
+ "legal_name": "台中商業銀行股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2812&filename=2025_2812_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2812_20260527F04.pdf",
+  "text_sha256": "1a1babf087c08fabc872938b40ba0a64a19f95712cf36b17ae21f89ca1a3de31",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/1a1babf087c08fabc872938b40ba0a64a19f95712cf36b17ae21f89ca1a3de31.txt"
+ },
+ "facts": [
+  {
+   "id": "2812-AR-01",
+   "field": "headquarters",
+   "statement": "年報前頁載明台中商業銀行股份有限公司地址為臺中市西區民權路87號。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "台中商業銀行股份有限公司 地址｜臺中市西區民權路87號"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-02",
+   "field": "business_scope",
+   "statement": "年報列示各業務別經營之主要業務包括存款業務、企業金融業務、消費金融業務、外匯業務、財富管理業務、數位金融業務、信託業務、投資業務及金融市場業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "(一)各業務別經營之主要業務",
+    "1、存款業務",
+    "2、企業金融業務",
+    "3、消費金融業務",
+    "4、外匯業務",
+    "5、財富管理業務",
+    "6、數位金融業務",
+    "7、信託業務",
+    "8、投資業務",
+    "9、金融市場業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-03",
+   "field": "business_scope",
+   "statement": "截至114年12月31日存款業務合計為新臺幣852,729,027仟元。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "1、存款業務 單位：新臺幣仟元；%",
+    "期間 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "合計 852,729,027 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-04",
+   "field": "business_scope",
+   "statement": "截至114年12月31日活期性存款小計為新臺幣398,817,229仟元，占存款合計46.77%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "期間 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "小計 398,817,229 46.77"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-05",
+   "field": "business_scope",
+   "statement": "截至114年12月31日定期性存款小計為新臺幣446,399,097仟元，占存款合計52.35%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "期間 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "小計 446,399,097 52.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-06",
+   "field": "business_scope",
+   "statement": "截至114年12月31日企業金融業務中，中小企業放款餘額占放款餘額合計(D)+(E)為71.11%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "2、企業金融業務 年度 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "中小企業放款餘額(A) 222,634,346 71.11",
+    "合計(D)+(E) 313,082,109 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-07",
+   "field": "business_scope",
+   "statement": "截至114年12月31日企業金融業務中，外幣放款餘額占放款餘額合計(D)+(E)為17.06%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "2、企業金融業務 年度 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "外幣放款餘額(E) 53,409,142 17.06",
+    "合計(D)+(E) 313,082,109 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-08",
+   "field": "business_scope",
+   "statement": "截至114年12月31日個人授信中，購置住宅貸款為新臺幣94,423,099仟元，占個人授信合計29.02%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "（1）個人授信 單位：新臺幣仟元；% 期間 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "購置住宅貸款 94,423,099 29.02",
+    "合計 325,406,053 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-09",
+   "field": "business_scope",
+   "statement": "截至114年12月31日個人授信中，其他個人非消費貸款為新臺幣219,488,460仟元，占個人授信合計67.44%。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "（1）個人授信 單位：新臺幣仟元；% 期間 項目 114.12.31 113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "其他個人非消費貸款 219,488,460 67.44",
+    "合計 325,406,053 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-10",
+   "field": "business_scope",
+   "statement": "114年度信用卡簽帳金額為新臺幣7,448,643仟元。",
+   "period": "114年度",
+   "page": 98,
+   "excerpts": [
+    "（2）信用卡 單位：新臺幣仟元；卡；% 期間 項目 114 年度/114.12.31 113 年度/113.12.31 增(減)額 增(減)率",
+    "簽帳金額 7,448,643"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-11",
+   "field": "business_scope",
+   "statement": "截至114年12月31日信用卡流通卡數為154,419卡。",
+   "period": "截至114年12月31日",
+   "page": 98,
+   "excerpts": [
+    "（2）信用卡 單位：新臺幣仟元；卡；% 期間 項目 114 年度/114.12.31 113 年度/113.12.31 增(減)額 增(減)率",
+    "流通卡數 154,419"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-12",
+   "field": "business_scope",
+   "statement": "114年度外匯業務進出匯承作額為美金24,804,408仟元。",
+   "period": "114年度",
+   "page": 98,
+   "excerpts": [
+    "4、外匯業務 單位：美金仟元；% 期間 項目 114 年度/114.12.31 113 年度/113.12.31 增(減)額 增(減)率",
+    "進出匯承作額 24,804,408"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-13",
+   "field": "revenue_mix",
+   "statement": "114年度財富管理業務理財手續費收入為新臺幣1,460,102仟元，占財富管理業務手續費收入合計67.50%。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "5、財富管理業務 單位：新臺幣仟元；% 期間 項目 114 年度 113 年度 增(減)額 增(減)率 金額 比率 金額 比率",
+    "理財手續費收入 1,460,102 67.50",
+    "合計 2,163,256 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-14",
+   "field": "revenue_mix",
+   "statement": "114年度財富管理業務保險手續費收入為新臺幣701,216仟元，占財富管理業務手續費收入合計32.41%。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "5、財富管理業務 單位：新臺幣仟元；% 期間 項目 114 年度 113 年度 增(減)額 增(減)率 金額 比率 金額 比率",
+    "保險手續費收入 701,216 32.41",
+    "合計 2,163,256 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-15",
+   "field": "business_scope",
+   "statement": "截至114年12月31日信託資產餘額為新臺幣127,632,067仟元。",
+   "period": "截至114年12月31日",
+   "page": 100,
+   "excerpts": [
+    "7、信託業務 單位：新臺幣仟元；% 期間 項目 114 年度/114.12.31 113 年度/113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "信託資產餘額 127,632,067 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-16",
+   "field": "business_scope",
+   "statement": "截至114年12月31日特定金錢信託投資國內外有價證券業務餘額占信託資產餘額為64.26%。",
+   "period": "截至114年12月31日",
+   "page": 100,
+   "excerpts": [
+    "7、信託業務 單位：新臺幣仟元；% 期間 項目 114 年度/114.12.31 113 年度/113.12.31 增(減)額 增(減)率 金額 比率 金額 比率",
+    "特定金錢信託投資國內外 有價證券業務餘額 82,018,032 64.26",
+    "信託資產餘額 127,632,067 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-17",
+   "field": "revenue_mix",
+   "statement": "114年度投資業務外幣利息收入為新臺幣3,002,302仟元，占投資業務總收入37.61%。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "8、投資業務 單位：新臺幣仟元；% 期間 項目 114 年度 113 年度 增(減)額 增(減)率 金額 比率 金額 比率",
+    "外幣利息收入 3,002,302 37.61",
+    "總收入 7,983,563 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-18",
+   "field": "revenue_mix",
+   "statement": "114年度投資業務臺幣利息收入為新臺幣2,830,537仟元，占投資業務總收入35.46%。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "8、投資業務 單位：新臺幣仟元；% 期間 項目 114 年度 113 年度 增(減)額 增(減)率 金額 比率 金額 比率",
+    "臺幣利息收入 2,830,537 35.46",
+    "總收入 7,983,563 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-19",
+   "field": "employees",
+   "statement": "114年度員工人數合計為3,128人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 112,
+   "excerpts": [
+    "年度 113 年度 114 年度 115 年 (截至 2 月 28 日)",
+    "合計 3,070 3,128 3,112"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-20",
+   "field": "outlook",
+   "statement": "年報115年度經營計畫之數位金融業務列有建置數位品牌「Lolly Bank」數位銀行APP及企業戶專屬使用行動銀行APP。",
+   "period": "115年度（計畫）",
+   "page": 100,
+   "excerpts": [
+    "(三)115 年度經營計畫",
+    "建置數位品牌「Lolly Bank」數位銀行 APP 及企業戶專屬使用行動銀行 APP"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-21",
+   "field": "outlook",
+   "statement": "年報消費金融業務經營計畫載明各地區消金業務推展中心目前共設置七處。",
+   "period": "截至114年度年報刊印日",
+   "page": 102,
+   "excerpts": [
+    "設置各地區消金業務推展中心之發展（目前共設置七處）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  },
+  {
+   "id": "2812-AR-22",
+   "field": "outlook",
+   "statement": "年報外匯業務經營計畫載有持續完善馬來西亞等海外服務據點功能。",
+   "period": "截至114年度年報刊印日",
+   "page": 102,
+   "excerpts": [
+    "持續完善馬來西亞等海外服務據點功能"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:43+00:00"
+   }
+  }
+ ]
+}

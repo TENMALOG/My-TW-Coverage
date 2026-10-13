@@ -1,0 +1,440 @@
+{
+ "ticker": "2897",
+ "company": "王道銀行",
+ "legal_name": "王道商業銀行股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2897&filename=2025_2897_20260612F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2897_20260612F04.pdf",
+  "text_sha256": "d86756bff082fe910c5792b7d53bc9453bc60f7fe3dfcd477e0b7505de86c5f3",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/d86756bff082fe910c5792b7d53bc9453bc60f7fe3dfcd477e0b7505de86c5f3.txt"
+ },
+ "facts": [
+  {
+   "id": "2897-AR-01",
+   "field": "business_scope",
+   "statement": "本行主要業務範圍包括收受各種存款、發行金融債券、辦理放款貼現及承兌業務、財富管理業務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 131,
+   "excerpts": [
+    "本行主要業務範圍如下：",
+    "收受各種存款。",
+    "發行金融債券。",
+    "辦理放款、貼現及承兌業務。",
+    "財富管理業務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-02",
+   "field": "business_scope",
+   "statement": "年報列示本行主要業務別包括企業金融業務（企金）、個人金融業務（個金）、信託業務、投資業務、權益法轉投資業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 131,
+   "excerpts": [
+    "主要業務別 主要經營業務",
+    "企業金融業務",
+    "個人金融業務",
+    "信託業務 包含信託商品",
+    "投資業務 包含金融商品交易",
+    "權益法轉投資業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-03",
+   "field": "revenue_mix",
+   "statement": "2025年度利息淨收益為新台幣3,134,662仟元，在本行各項收益比重表中比重為47%。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "本行各項收益比重： 單位：新台幣仟元",
+    "2025年度 2024年度",
+    "利息淨收益 3,134,662 47 2,646,870 34"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-04",
+   "field": "revenue_mix",
+   "statement": "2025年度手續費淨收益為新台幣885,781仟元，在本行各項收益比重表中比重為13%。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "本行各項收益比重： 單位：新台幣仟元",
+    "2025年度 2024年度",
+    "手續費淨收益 885,781 13 1,055,341 13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-05",
+   "field": "revenue_mix",
+   "statement": "2025年度兌換淨損益為新台幣1,485,732仟元，在本行各項收益比重表中比重為22%。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "本行各項收益比重： 單位：新台幣仟元",
+    "2025年度 2024年度",
+    "兌換淨損益 1,485,732 22 (2,126,189) (27)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-06",
+   "field": "revenue_mix",
+   "statement": "2025年度淨收益合計為新台幣6,690,492仟元。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "本行各項收益比重： 單位：新台幣仟元",
+    "2025年度 2024年度",
+    "淨收益 6,690,492 100 7,787,043 100"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-07",
+   "field": "revenue_mix",
+   "statement": "2025年度企金授信業務收入為新台幣4,418,017仟元，在年報收入表中比重為66%。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "收入 2025 年度 比重(%)",
+    "企金授信業務 4,418,017 66 (8) 4,795,966 62"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-08",
+   "field": "revenue_mix",
+   "statement": "2025年度個金放款業務收入為新台幣1,009,434仟元，在年報收入表中比重為15%。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "收入 2025 年度 比重(%)",
+    "個金放款業務 1,009,434 15 13 895,913 11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-09",
+   "field": "revenue_mix",
+   "statement": "2025年度放款業務-企業金融為新台幣189,675,574仟元，比重為46%（年報註明為各主要營業項目占總資產或總負債之比重）。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "主要營業比重： 單位：新台幣仟元",
+    "項目 2025 年度 比重(%)",
+    "放款業務-企業金融 189,675,574 46 - 189,216,750 46",
+    "註 1：為各主要營業項目占總資產或總負債之比重。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-10",
+   "field": "revenue_mix",
+   "statement": "2025年度放款業務-個人金融為新台幣46,410,224仟元，比重為11%（年報註明為各主要營業項目占總資產或總負債之比重）。",
+   "period": "2025年度",
+   "page": 132,
+   "excerpts": [
+    "主要營業比重： 單位：新台幣仟元",
+    "項目 2025 年度 比重(%)",
+    "放款業務-個人金融 46,410,224 11 17 39,815,040 10",
+    "註 1：為各主要營業項目占總資產或總負債之比重。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-11",
+   "field": "revenue_mix",
+   "statement": "2025年度外匯承作量中，匯兌（匯出／匯入）為美金22,357,973仟元，占該表合計之比重為98.06%。",
+   "period": "2025年度",
+   "page": 133,
+   "excerpts": [
+    "外匯承作量： 單位：美金仟元",
+    "項目 2025 年度 比重(%)",
+    "匯兌(匯出/匯入) 22,357,973 98.06 (4.23) 23,345,776 98.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-12",
+   "field": "business_scope",
+   "statement": "本行首家海外分行香港分行於2009年4月開業。",
+   "period": "截至114年度年報刊印日",
+   "page": 133,
+   "excerpts": [
+    "本行首家海外分行－香港分行於 2009 年 4 月開業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-13",
+   "field": "business_scope",
+   "statement": "本行於2025年3月設立雪梨代表處。",
+   "period": "2025年3月",
+   "page": 133,
+   "excerpts": [
+    "本行於2025 年 3 月設立雪梨代表處"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-14",
+   "field": "business_scope",
+   "statement": "截至2025年底，本行台、外幣存款（不含匯出匯款、應解匯款）總餘額合計約新台幣3,146億元。",
+   "period": "截至2025年底",
+   "page": 135,
+   "excerpts": [
+    "截至 2025 年底，本行台、外幣存款(不含匯出匯款、應解匯款)總餘額",
+    "合計共約達新台幣 3,146 億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-15",
+   "field": "business_scope",
+   "statement": "年報載明，2025年整體授信暴險於扣除本行定存單十足擔保後為新台幣2,573億元，其中以金融及保險業所占之比例24.80%為最高。",
+   "period": "2025年",
+   "page": 134,
+   "excerpts": [
+    "本行2025 年整體",
+    "於扣除本行定存單十足擔保後為新台幣 2,573 億元，以金融及保險業所占之比例 24.80%為最高"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-16",
+   "field": "employees",
+   "statement": "截至2025年12月31日，本行員工人數合計1,264人。",
+   "period": "截至2025年12月31日",
+   "page": 155,
+   "excerpts": [
+    "本行最近二年度及截至年報刊印日止從業員工人數",
+    "2026年4月14日 2025年12月31日 2024年12月31日",
+    "合 計 1,285 1,264 1,242"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  },
+  {
+   "id": "2897-AR-17",
+   "field": "employees",
+   "statement": "截至2026年4月14日，本行員工人數合計1,285人。",
+   "period": "截至2026年4月14日",
+   "page": 155,
+   "excerpts": [
+    "本行最近二年度及截至年報刊印日止從業員工人數",
+    "2026年4月14日 2025年12月31日 2024年12月31日",
+    "合 計 1,285 1,264 1,242"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:52+00:00"
+   }
+  }
+ ]
+}

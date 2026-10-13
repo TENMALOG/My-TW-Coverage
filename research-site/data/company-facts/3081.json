@@ -1,0 +1,609 @@
+{
+ "ticker": "3081",
+ "company": "聯亞",
+ "legal_name": "聯亞光電工業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3081&filename=2025_3081_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3081_20260527F04.pdf",
+  "text_sha256": "6d383433d1a32f33780c0abbdae7bbd83ab58dce087e45e9e1bff704e1a8fe3a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6d383433d1a32f33780c0abbdae7bbd83ab58dce087e45e9e1bff704e1a8fe3a.txt"
+ },
+ "facts": [
+  {
+   "id": "3081-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明所營業務包括光電半導體製造加工買賣，及磷化銦、砷化鎵磊晶片及晶粒製造、加工及買賣等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "光電半導體(各式發光、檢光、微波磊晶片元件)製造加工買賣",
+    "磷化銦(Indium phosphide)磊晶片及晶粒製造、加工及買賣",
+    "砷化鎵(Gallium arsenide)磊晶片及晶粒製造、加工及買賣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度磊晶片及加工品製造銷售之銷售金額為新台幣2,185,509仟元，營業比重99.21%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "磊晶片及加工品製造銷售 1,193,637 98.78% 2,185,509 99.21%",
+    "合計 1,208,422 100.00% 2,202,822 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-03",
+   "field": "products",
+   "statement": "年報載明公司以MOCVD技術生產各式III-V族化合物半導體材料磊晶片。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "以有機金屬氣相磊晶 (MOCVD) 技術，專業生產各式 III-V 族化合物半導體材料磊晶片"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-04",
+   "field": "products",
+   "statement": "年報載明主要產品線包括磷化銦(InP)雷射(LD)磊晶片，波長含括1200nm~1650nm，主要應用於光通訊及資料傳輸所需之雷射二極體。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "磷化銦(InP)雷射(LD)磊晶片 ： 波長含括1200nm~1650nm， 主要應用於光通訊",
+    "及資料傳輸所需之雷射二極體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-05",
+   "field": "products",
+   "statement": "年報載明主要產品線包括光探測器(PD)磊晶片，波長含括650nm~1600nm，主要應用於光通訊器件中所需之光探測器、雪崩式探測器或雷射功率監控及感測器用的檢光器。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "光探測器(PD)磊晶片：波長含括 650nm~1600nm",
+    "主要應用於光通訊器件中",
+    "所需之光探測器、雪崩式探測器或雷射功率監控及感測器用的檢光器"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-06",
+   "field": "products",
+   "statement": "年報載明主要產品線包括砷化鎵(GaAs)雷射(LD)磊晶片，波長含括635nm~1100nm，主要應用於高功率雷射加工、Bar code掃描器、定位系統、3D感測器、LiDAR汽車自動駕駛偵測器、醫療美容及數據中心通訊等設備中所需之雷射二極體。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "砷化鎵(GaAs)雷射(LD)磊晶片：波長含括 635nm~1100nm",
+    "主要應用於高功",
+    "率雷射加工、Bar code 掃描器、定位系統、3D 感測器、LiDAR 汽車自動駕",
+    "駛偵測器、醫療美容及數據中心通訊等設備中所需之雷射二極體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-07",
+   "field": "outlook",
+   "statement": "年報列示計畫開發之新商品包括50Gbit/s以上高速直接調變DFB雷射磊晶片、100Gbit/s以上高速外部調變EML雷射磊晶片等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "計畫開發之新商品(服務)",
+    "50Gbit/s 以上高速直接調變 DFB 雷射磊晶片",
+    "100Gbit/s 以上高速外部調變 EML 雷射磊晶片"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度銷往台灣之銷售金額為新台幣64,852仟元，營業比重2.94%（占該表銷售區域合計）。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "台灣 70,665 5.85 64,852 2.94",
+    "合計 1,208,422 100.00 2,202,822 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度銷往中國之銷售金額為新台幣1,572,837仟元，營業比重71.40%（占該表銷售區域合計）。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "中國 887,035 73.40 1,572,837 71.40",
+    "合計 1,208,422 100.00 2,202,822 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度銷往美國之銷售金額為新台幣472,650仟元，營業比重21.46%（占該表銷售區域合計）。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷售金額 營業比重 銷售金額 營業比重",
+    "美國 113,933 9.43 472,650 21.46",
+    "合計 1,208,422 100.00 2,202,822 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述為全球少數具備高階MOCVD大規模量產能力之「純代工（Pure-play）獨立磊晶廠」。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "本公司作為全球",
+    "少數具備高階有機金屬化學氣相沉積（ MOCVD）大規模量產能力之「純代工",
+    "（Pure-play） 獨立磊晶廠」"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-12",
+   "field": "rd",
+   "statement": "114年度研究發展費用為新台幣271,715仟元。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 113年度 114年度 115年度1-3月",
+    "研究發展費用 220,434 271,715 65,695"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-13",
+   "field": "rd",
+   "statement": "114年度研究發展費用占營業收入淨額12.33%，營業收入淨額為新台幣2,202,822仟元。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 113年度 114年度 115年度1-3月",
+    "營業收入淨額 1,208,422 2,202,822 904,389",
+    "佔營收比例 18.24% 12.33% 7.26%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-14",
+   "field": "raw_materials",
+   "statement": "年報列示主要原料Substrate基板之主要供應商為匿名代號A01公司、A03公司、A10公司，並註明因與公司有營業保密約定而以代號為之。",
+   "period": "截至114年度年報刊印日",
+   "page": 84,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "Substrate 基板 A01 公司(註)、A03 公司(註)、A10 公司(註)",
+    "註：因供應商與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-15",
+   "field": "raw_materials",
+   "statement": "年報列示主要原料Mo-Source之主要供應商為匿名代號A04公司、A05公司及凱信 AKZO。",
+   "period": "截至114年度年報刊印日",
+   "page": 84,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "Mo-Source A04 公司(註)、A05 公司(註)、凱信 AKZO",
+    "註：因供應商與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A01，匿名代號）進貨金額為新台幣128,905仟元，占全年度進貨淨額40.62%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "進貨淨額比率(%)",
+    "1 A01(註) 76,100 34.76 無 A01(註) 128,905 40.62 無",
+    "註：因供應商與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A05，匿名代號）進貨金額為新台幣52,930仟元，占全年度進貨淨額16.68%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "進貨淨額比率(%)",
+    "2 A05(註) 51,803 23.66 無 A05(註) 52,930 16.68 無",
+    "註：因供應商與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-18",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A03，匿名代號）進貨金額為新台幣44,674仟元，占全年度進貨淨額14.08%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "進貨淨額比率(%)",
+    "3 A03(註) 20,321 9.28 無 A03(註) 44,674 14.08 無",
+    "註：因供應商與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-19",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C06公司，匿名代號）銷貨金額為新台幣567,378仟元，占全年度銷貨淨額25.76%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷貨淨額比率(%)",
+    "1 C06 公司(註) 401,820 33.25 無 C06 公司(註) 567,378 25.76 無",
+    "註：因客戶與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-20",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C09公司，匿名代號）銷貨金額為新台幣462,716仟元，占全年度銷貨淨額21.01%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷貨淨額比率(%)",
+    "2 C09 公司(註) 4,183 0.35 無 C09 公司(註) 462,716 21.01 無",
+    "註：因客戶與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-21",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C03公司，匿名代號）銷貨金額為新台幣293,669仟元，占全年度銷貨淨額13.33%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷貨淨額比率(%)",
+    "3 C03 公司(註) 267,354 22.12 無 C03 公司(註) 293,669 13.33 無",
+    "註：因客戶與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-22",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C10公司，匿名代號）銷貨金額為新台幣229,040仟元，占全年度銷貨淨額10.40%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度",
+    "銷貨淨額比率(%)",
+    "4 C10 公司(註) 239 0.02 無 C10 公司(註) 229,040 10.40 無",
+    "註：因客戶與本公司有營業保密約定，故以代號為之"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  },
+  {
+   "id": "3081-AR-23",
+   "field": "employees",
+   "statement": "114年度員工人數合計為397人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "年 度 113 年度 114 年度 截至 115 年 3 月 31 日",
+    "合計 331 397 450"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:35:27+00:00"
+   }
+  }
+ ]
+}

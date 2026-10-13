@@ -1,0 +1,598 @@
+{
+ "ticker": "6161",
+ "company": "捷波",
+ "legal_name": "捷波資訊股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6161&filename=2025_6161_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6161_20260522F04.pdf",
+  "text_sha256": "ddf356732980928b9c27d08de4963453f380eaba45ca72fac0449bd624e71ab6",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/ddf356732980928b9c27d08de4963453f380eaba45ca72fac0449bd624e71ab6.txt"
+ },
+ "facts": [
+  {
+   "id": "6161-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報稱，工業用電腦主機板及相關系統整合、ARM base主機板、Panel PC、All-in-One PC、準系統及AI智能產品為公司營運的核心範圍。",
+   "period": "截至114年度年報",
+   "page": 68,
+   "excerpts": [
+    "工業用電腦主機板及相關系統整合、ARM base 主機板、Panel PC 、 All-in-One PC、準系統及 AI 智能產品為本公司營運的核心範圍"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度IPC產品營業收入為新台幣1,104,016仟元，占營業比重78.49%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 114 年度",
+    "IPC 產品 1,104,016 78.49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度其他產品營業收入為新台幣302,484仟元，占營業比重21.51%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要產品項目 114 年度",
+    "其他 302,484 21.51"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-04",
+   "field": "products",
+   "statement": "公司目前之商品項目主要包括工業用電腦主機板及相關系統整合、準系統、ARM base主機板、Panel PC、All-in-One PC、AI智能產品等。",
+   "period": "截至114年度年報",
+   "page": 68,
+   "excerpts": [
+    "主要為工業用電腦主機板及相關系統整合、準系統、ARM base 主機板、 Panel PC、All-in-One PC、AI 智能產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-05",
+   "field": "products",
+   "statement": "公司年報稱，公司產品線涵蓋無風扇嵌入式系統、豐富擴充型系統、AI邊緣運算平台及Desktop Networking系統。",
+   "period": "截至114年度年報",
+   "page": 73,
+   "excerpts": [
+    "產品線涵蓋無風扇嵌入式系統、豐富擴充型系統、AI 邊緣運算平台、 Desktop Networking 系統"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-06",
+   "field": "products",
+   "statement": "公司計劃開發新世代Networking系統，利用2.5 GbE提供設備接入能力，並透過10GbE SFP+作為高速上行鏈路。",
+   "period": "計劃開發",
+   "page": 69,
+   "excerpts": [
+    "(1) 新世代 Networking 系統",
+    "利用 2.5 GbE 提供廣 泛的設備 接入能力",
+    "透過 10GbE SFP+ 作為 高速上行鏈路"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-07",
+   "field": "products",
+   "statement": "公司計劃開發採用Intel Panther Lake平台的高效能嵌入式運算產品，年報稱可提供高達180 TOPS算力。",
+   "period": "計劃開發",
+   "page": 69,
+   "excerpts": [
+    "(2) 高效能嵌入式運算",
+    "開發 Intel Panther Lake 平台，提供高達 180 TOPS 算力"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度合併報表中，內銷銷售金額為新台幣105,395仟元，占7.49%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "內銷 133,475 10.66 105,395 7.49"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度合併報表中，歐洲地區外銷銷售金額為新台幣401,953仟元，占28.58%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "歐洲 350,249 27.98 401,953 28.58"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度合併報表中，亞洲地區外銷銷售金額為新台幣517,149仟元，占36.77%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "亞洲 154,281 12.33 517,149 36.77"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度合併報表中，美洲地區外銷銷售金額為新台幣374,682仟元，占26.64%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "美洲 424,743 33.94 374,682 26.64"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-12",
+   "field": "sales_regions",
+   "statement": "114年度合併報表中，其他地區外銷銷售金額為新台幣7,321仟元，占0.52%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "其他 188,825 15.09 7,321 0.52"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-13",
+   "field": "export_share",
+   "statement": "114年度合併報表中，外銷合計銷售金額為新台幣1,301,105仟元，占92.51%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "小計 1,118,098 89.34 1,301,105 92.51"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-14",
+   "field": "market_position",
+   "statement": "依GII、Research Nester、The Business Research Company等資料，公司年報稱全球工業電腦市場於2026年至2030年間預計年複合成長率約介於5.5%至7.9%，並將於2030年後達到約90億至120億美元之市場規模。",
+   "period": "2026至2030年預估",
+   "page": 74,
+   "excerpts": [
+    "全球工業電腦市場於 2026 年至 2030 年間預計年複合成長率約介於 5.5%至 7.9%",
+    "2030 年後達到約 90 億至 120 億美元之市場規模",
+    "資料來源：GII/Global Industrial Pc Market 2026 -2030、Research Nester/ Global Industrial PC"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-15",
+   "field": "major_customers",
+   "statement": "114年度公司對代號a的客戶（與公司關係為關係人）銷貨金額為新台幣301,128仟元，占全年度銷貨淨額21.41%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年",
+    "a 301,128 21.41 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度公司向代號A的供應商進貨金額為新台幣178,954仟元，占全年度進貨淨額21.45%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年",
+    "1 A 118,294 19.06 供應商 A 178,954 21.45 供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-17",
+   "field": "raw_materials",
+   "statement": "公司年報列示晶片組（Chipset）的供應廠商包括建智、Fusion、捷毅，供應情形為供給趨緊。",
+   "period": "截至114年度年報",
+   "page": 79,
+   "excerpts": [
+    "原料名稱 供應廠商 供應情形",
+    "晶片組（Chipset） 建智、Fusion、捷毅 供給趨緊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-18",
+   "field": "raw_materials",
+   "statement": "公司年報列示處理器（CPU）的供應廠商包括建智、盛通、勤洋、捷毅，供應情形為供給趨緊。",
+   "period": "截至114年度年報",
+   "page": 79,
+   "excerpts": [
+    "原料名稱 供應廠商 供應情形",
+    "處理器（CPU） 建智、盛通、勤洋、捷毅 供給趨緊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-19",
+   "field": "raw_materials",
+   "statement": "公司年報列示面板（Panel）的供應廠商包括ABLE，供應情形為穩定正常。",
+   "period": "截至114年度年報",
+   "page": 79,
+   "excerpts": [
+    "原料名稱 供應廠商 供應情形",
+    "面板（Panel） ABLE 穩定正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-20",
+   "field": "employees",
+   "statement": "捷波年報員工人數表列114年度員工合計85人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "年度 113 年度 114 年 115 年度截至",
+    "合 計 82 85 87"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-21",
+   "field": "rd",
+   "statement": "114年度公司研究發展費用為新台幣87,799仟元。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 113 年度 114 年度",
+    "研究發展費用 78,844 87,799"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-22",
+   "field": "rd",
+   "statement": "114年度公司研究發展費用占營收淨額比例為6.24%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項目 113 年度 114 年度",
+    "佔營收淨額比例 6.30 6.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-23",
+   "field": "group_structure",
+   "statement": "公司年報提及公司與母公司研揚及最終母公司華碩集團合作。",
+   "period": "截至114年度年報",
+   "page": 77,
+   "excerpts": [
+    "深化與母公司研揚甚至最終母公司華碩集團合作"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  },
+  {
+   "id": "6161-AR-24",
+   "field": "outlook",
+   "statement": "公司年報稱，短期計劃之產品發展方向為加速人工智慧邊緣產品的發展。",
+   "period": "短期計劃",
+   "page": 73,
+   "excerpts": [
+    "加速人工智慧邊緣產品的發展"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:19+00:00"
+   }
+  }
+ ]
+}

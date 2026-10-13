@@ -1,0 +1,564 @@
+{
+ "ticker": "2606",
+ "company": "裕民",
+ "legal_name": "裕民航運股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2606&filename=2025_2606_20260521F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2606_20260521F04.pdf",
+  "text_sha256": "e8d5b353ab6926dec50af14763f37b5140b8088fd8ff1bc209a64b7a78a15949",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/e8d5b353ab6926dec50af14763f37b5140b8088fd8ff1bc209a64b7a78a15949.txt"
+ },
+ "facts": [
+  {
+   "id": "2606-AR-01",
+   "field": "revenue_mix",
+   "statement": "公司年報營業比重表載明，114年度運費收入營業金額為新台幣15,331,293仟元，營業比重98%。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "營業金額 營業比重(%) 營業金額 營業比重(%)",
+    "運費收入 15,995,972 98 15,331,293 98"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-02",
+   "field": "revenue_mix",
+   "statement": "公司年報營業比重表載明，114年度其他營業收入營業金額為新台幣234,527仟元，營業比重2%。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "營業金額 營業比重(%) 營業金額 營業比重(%)",
+    "其他營業收入 346,531 2 234,527 2"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-03",
+   "field": "business_scope",
+   "statement": "公司年報載明裕民航運公司以散裝貨物運輸為核心業務，專門運載鐵礦砂、煤炭、穀物及水泥等大宗物資。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "裕民航運公司以散裝貨物運輸為核心業務，擁有多艘各型乾散貨輪，專門運載",
+    "鐵礦砂、煤炭、穀物及水泥等大宗物資。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-04",
+   "field": "group_structure",
+   "statement": "公司年報載明公司在新加坡、香港及中國設有子公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "公司在新加坡、香港及中國設有子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-05",
+   "field": "sales_regions",
+   "statement": "公司年報載明主要客戶包括澳洲、巴西、非洲及印尼等地的鐵礦石與煤炭供應商，以及台灣、中國與日本等地的鋼鐵廠與電力公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 99,
+   "excerpts": [
+    "主要客戶包括澳洲、巴西、非洲及印尼等地的鐵礦石與煤炭供應商，以及台灣、中國與日本等地的鋼鐵廠與電力公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-06",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，海岬型散裝貨輪船隊共計25艘（含與香港船東合資建造之船舶）。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "(1)海岬型散裝貨輪",
+    "加上香港船東合資建造之「Cape",
+    "海岬型船隊共計25艘"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-07",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，營運管理巴拿馬極限型船隊計24艘（含合資建造及代管船舶）。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "(2)巴拿馬極限型散裝貨輪",
+    "營運管理巴拿馬",
+    "極限型船隊計24艘"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-08",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，截至2026年3月23日，自有及在建中船隊為67艘。",
+   "period": "截至2026年3月23日",
+   "page": 95,
+   "excerpts": [
+    "截至2026年3月23日為止，裕民自有及在建中船隊高達67艘"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-09",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，截至2026年3月23日，若再加合資、代管船隊，船隊運力為84艘，總載重為996萬噸。",
+   "period": "截至2026年3月23日",
+   "page": 95,
+   "excerpts": [
+    "截至2026年3月23日為止",
+    "若再加合資、代管船隊，裕民船隊運力擴展為84艘，總載重達996萬噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-10",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，截至2025年底全年總運載量合計42,943千公噸。",
+   "period": "114年度（2025）",
+   "page": 99,
+   "excerpts": [
+    "截至2025年底，",
+    "全年總運載量合計42,943千公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-11",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明，截至2025年底鐵礦砂運載量為22,637千公噸。",
+   "period": "114年度（2025）",
+   "page": 99,
+   "excerpts": [
+    "截至2025年底，鐵礦砂運載量達22,637千公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-12",
+   "field": "major_customers",
+   "statement": "公司年報合併主要客戶表載明，Rio Tinto Shipping Pty Ltd. 於114年度合併金額為新台幣2,320,092仟元，占全年度營業收入比率15%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "(1)本公司及子公司之主要客戶收入占合併營業收入金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "Rio Tinto Shipping Pty Ltd.",
+    "2,320,092 15 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-13",
+   "field": "major_customers",
+   "statement": "公司年報合併主要客戶表載明，Anglo American Marketing Ltd. 於114年度合併金額為新台幣1,507,010仟元，占全年度營業收入比率10%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "(1)本公司及子公司之主要客戶收入占合併營業收入金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "Anglo American Marketing Ltd.",
+    "1,507,010 10 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-14",
+   "field": "major_customers",
+   "statement": "公司年報合併主要客戶表載明，Vale International SA 於114年度合併金額為新台幣1,075,193仟元，占全年度營業收入比率7%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "(1)本公司及子公司之主要客戶收入占合併營業收入金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "Vale International SA",
+    "1,075,193 7 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-15",
+   "field": "major_customers",
+   "statement": "公司年報母公司（本公司）主要客戶表載明，台灣電力公司於114年度金額為新台幣966,624仟元，占全年度營業收入比率49%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 103,
+   "excerpts": [
+    "(2)本公司之主要客戶收入占全年營業收入金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "台灣電力公司",
+    "966,624 49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-16",
+   "field": "major_customers",
+   "statement": "公司年報母公司（本公司）主要客戶表載明，亞洲水泥公司於114年度金額為新台幣630,910仟元，占全年度營業收入比率32%，與發行人之關係為主要股東。",
+   "period": "114年度（2025）",
+   "page": 103,
+   "excerpts": [
+    "(2)本公司之主要客戶收入占全年營業收入金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "亞洲水泥公司",
+    "630,910 32 主要股東"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-17",
+   "field": "major_suppliers",
+   "statement": "公司年報合併主要供應商表載明，Sinopec Fuel Oil (Singapore) Pte Ltd. 於114年度合併金額為新台幣524,146仟元，占全年度進貨淨額比率5%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 101,
+   "excerpts": [
+    "(1)本公司及子公司之主要進貨成本占合併營業成本金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "Sinopec Fuel Oil (Singapore) Pte Ltd.",
+    "524,146 5 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-18",
+   "field": "major_suppliers",
+   "statement": "公司年報母公司（本公司）主要供應商表載明，台灣中油公司於114年度金額為新台幣138,474仟元，占全年度進貨淨額比率9%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "(2)本公司之主要進貨成本占全年營業成本金額10%以上之明細：",
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "台灣中油公司",
+    "138,474 9 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-19",
+   "field": "employees",
+   "statement": "公司年報從業員工表載明，114年度員工人數合計1,217人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 103,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至",
+    "合   計 1,141 1,217 1,210"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-20",
+   "field": "rd",
+   "statement": "公司年報載明公司已完成智慧航線優化系統之實船測試與油耗分析。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "公司已完成智慧航線優化系統之實船測試與油耗分析"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-21",
+   "field": "outlook",
+   "statement": "公司年報載明公司已下訂單建造液化天然氣（LNG）運輸船與大型風電運維母船（SOV），首艘17.4萬立方米級液化天然氣（LNG）運輸船預計於本年度正式交船。",
+   "period": "截至114年度年報刊印日",
+   "page": 96,
+   "excerpts": [
+    "裕民已下訂單建造液化天然氣（LNG）運輸船與大型風電運維母船",
+    "首艘17.4萬立方米級液化天然氣（LNG）運輸船預計於本年度正式交船"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  },
+  {
+   "id": "2606-AR-22",
+   "field": "outlook",
+   "statement": "公司年報列示的長期目標之一為規劃擴充節能、高效、智能、環保特性的新一代環保船隊。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "裕民長期目標：",
+    "4. 規劃擴充節能、高效、智能、環保特性的新一代環保船隊"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:55:44+00:00"
+   }
+  }
+ ]
+}

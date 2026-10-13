@@ -1,0 +1,447 @@
+{
+ "ticker": "1304",
+ "company": "台聚",
+ "legal_name": "台灣聚合化學品股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1304&filename=2024_1304_20250529F04.pdf",
+  "fy": 2024,
+  "filename": "2024_1304_20250529F04.pdf",
+  "text_sha256": "7f1b60ba5fe7a52a964e5a9c024a739d848ca1453f58e5d5af18c75171191971",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/7f1b60ba5fe7a52a964e5a9c024a739d848ca1453f58e5d5af18c75171191971.txt"
+ },
+ "facts": [
+  {
+   "id": "1304-AR-01",
+   "field": "revenue_mix",
+   "statement": "年報營業比重表（表內未標示年度）列示塑膠原料營業比重為92%。",
+   "period": "截至113年度年報刊印日",
+   "page": 129,
+   "excerpts": [
+    "本公司主要產品收入及比重如下",
+    "產品項目 營業比重(%)",
+    "塑膠原料 92"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-02",
+   "field": "revenue_mix",
+   "statement": "年報營業比重表（表內未標示年度）列示電子材料營業比重為5%。",
+   "period": "截至113年度年報刊印日",
+   "page": 129,
+   "excerpts": [
+    "本公司主要產品收入及比重如下",
+    "產品項目 營業比重(%)",
+    "電子材料 5"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-03",
+   "field": "products",
+   "statement": "公司目前之產品項目包括低密度聚乙烯（LDPE）、乙烯醋酸乙烯酯樹脂（EVA）、高密度聚乙烯（HDPE）、線型低密度聚乙烯（LLDPE）等。",
+   "period": "截至113年度年報刊印日",
+   "page": 129,
+   "excerpts": [
+    "3.公司目前之產品項目",
+    "(1)低密度聚乙烯(LDPE)",
+    "(2)乙烯醋酸乙烯酯樹脂(EV A)",
+    "(3)高密度聚乙烯(HDPE)",
+    "(4)線型低密度聚乙烯(LLDPE)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-04",
+   "field": "products",
+   "statement": "公司目前之PVC建材產品包括塑膠管、管件、塑膠門板、防蝕片。",
+   "period": "截至113年度年報刊印日",
+   "page": 129,
+   "excerpts": [
+    "(8)PVC 建材產品：塑膠管、管件、塑膠門板、防蝕片"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-05",
+   "field": "export_share",
+   "statement": "年報稱台聚公司PE/EVA之銷售，內銷約占37%，外銷占63%（年報未載明年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 143,
+   "excerpts": [
+    "台聚公司 PE/EVA 之銷售，內銷約占 37%，外銷則占 63%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-06",
+   "field": "sales_regions",
+   "statement": "年報稱PVC粉外銷地區為孟加拉、印度、東南亞、中東、南美洲及非洲等地區。",
+   "period": "截至113年度年報刊印日",
+   "page": 143,
+   "excerpts": [
+    "外銷地區為孟加拉、印度、東南亞、中東、南",
+    "美洲及非洲等地區"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-07",
+   "field": "export_share",
+   "statement": "年報稱ABS/PS外銷為主，約占營業額的85%（年報未載明年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 144,
+   "excerpts": [
+    "ABS/PS 外銷為主，約占營業額的 85%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述乙烯醋酸乙烯酯（EVA）內銷市場台聚公司約占41%（年報未載明統計來源與年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 143,
+   "excerpts": [
+    "乙烯醋酸乙烯酯(EVA)內銷市場台聚公司約",
+    "佔 41%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述高密度聚乙烯（HDPE）台聚公司內銷市場佔有率約15%左右（年報未載明統計來源與年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 143,
+   "excerpts": [
+    "高密度聚乙烯(HDPE)方面，台聚公司內銷市場佔有率約 15%左右"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述PVC管內銷市占率約18%（年報未載明統計來源與年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 144,
+   "excerpts": [
+    "內銷市占率為：PVC 管約 18%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述碳化矽粉初估約占全球市場15%（年報未載明統計來源與年度）。",
+   "period": "截至113年度年報刊印日",
+   "page": 144,
+   "excerpts": [
+    "碳化矽粉部分，初估約佔全球市場 15%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-12",
+   "field": "raw_materials",
+   "statement": "年報稱聚乙烯塑膠產品的基本原料為乙烯，主要以國內台灣中油公司為主。",
+   "period": "截至113年度年報刊印日",
+   "page": 159,
+   "excerpts": [
+    "本公司聚乙烯塑膠產品的基本原料為乙烯， 主要以國內台灣中油公司為主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-13",
+   "field": "raw_materials",
+   "statement": "年報稱苯乙烯單體SM固定向台苯、台化、中國石化及中海殼牌購買。",
+   "period": "截至113年度年報刊印日",
+   "page": 160,
+   "excerpts": [
+    "苯乙烯單體 SM 市場供求平衡，固定向台苯、台化、中國石化及中海殼牌購買"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-14",
+   "field": "raw_materials",
+   "statement": "年報列示鐵氧磁鐵粉及鐵芯主要原料氧化鐵的主要供應商為高科磁技。",
+   "period": "截至113年度年報刊印日",
+   "page": 160,
+   "excerpts": [
+    "主 要 原 料 主要供應商名稱",
+    "氧 化 鐵 高科磁技"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-15",
+   "field": "major_suppliers",
+   "statement": "年報供應商表中，113年度供應商台灣中油（股）公司，進貨金額新台幣7,793,707仟元，占全年度進貨淨額20%。",
+   "period": "113年度（2024）",
+   "page": 161,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "一一三年度(查核簽證) 一一二年度(查核簽證)",
+    "占全年度進貨 淨額比率(%)",
+    "台灣中油(股) 公司 7,793,707 20"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-16",
+   "field": "major_suppliers",
+   "statement": "年報供應商表中，112年度供應商台灣中油（股）公司，進貨金額新台幣7,079,911仟元，占全年度進貨淨額19%。",
+   "period": "112年度（2023）",
+   "page": 161,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "一一三年度(查核簽證) 一一二年度(查核簽證)",
+    "占全年度進貨 淨額比率(%)",
+    "台灣中油(股) 公司 7,079,911 19"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-17",
+   "field": "major_customers",
+   "statement": "年報於最近二年度占銷貨總額百分之十以上之客戶項下載明為「無」。",
+   "period": "截至113年度年報刊印日",
+   "page": 161,
+   "excerpts": [
+    "最近二年度任一年度中曾占進（銷）貨總額百分之十以上之客戶名稱",
+    "2.占銷貨總額百分之十以上之客戶名稱及其銷貨金額與比例：無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  },
+  {
+   "id": "1304-AR-18",
+   "field": "employees",
+   "statement": "年報員工人數表列示113年度員工人數合計4,909人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "113年度（2024）",
+   "page": 162,
+   "excerpts": [
+    "年 度 113 年度 112 年度 當 年 度 截 至",
+    "合 計 4,909 4,866 4,837"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:43:21+00:00"
+   }
+  }
+ ]
+}

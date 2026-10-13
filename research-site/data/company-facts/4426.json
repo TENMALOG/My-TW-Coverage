@@ -1,0 +1,555 @@
+{
+ "ticker": "4426",
+ "company": "利勤",
+ "legal_name": "利勤實業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=4426&filename=2025_4426_20260625F04.pdf",
+  "fy": 2025,
+  "filename": "2025_4426_20260625F04.pdf",
+  "text_sha256": "bd3542e90a74d50d3e543412d386758fe6991018bdfdbe8c1a52d364a8d85f24",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/bd3542e90a74d50d3e543412d386758fe6991018bdfdbe8c1a52d364a8d85f24.txt"
+ },
+ "facts": [
+  {
+   "id": "4426-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明公司業務範圍包括布疋、衣著、鞋、帽、傘、服飾品批發業，紡紗業，織布業，印染整理業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 47,
+   "excerpts": [
+    "A.布疋、衣著、鞋、帽、傘、服飾品批發業。",
+    "B.紡紗業。",
+    "C.織布業。",
+    "D.印染整理業。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度針織網布占營業比重為94.89%。",
+   "period": "114年度（2025）",
+   "page": 47,
+   "excerpts": [
+    "產   品 114 年度營業額 佔 114 年度營業比重(%)",
+    "針織網布 835,936 94.89%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-03",
+   "field": "products",
+   "statement": "年報載明公司商品項目應用於運動鞋用品、運動服用品、汽車之內裝及辦公室用椅等。",
+   "period": "截至114年度年報刊印日",
+   "page": 47,
+   "excerpts": [
+    "①運動鞋用品",
+    "②運動服用品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-04",
+   "field": "products",
+   "statement": "公司於年報自述，其立體織物目前被Nike、Salomon、Asics、Converse、NB、Herman Miller等品牌廣泛使用。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "Nike、Salomon、Asics、\nConverse、NB、Herman Miller 等廣泛使用"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度亞洲地區金額為新台幣429,350仟元，占銷售地區表合計的48.74%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "合      計 969,984 100 880,988 100",
+    "亞   洲 536,438 55.30 429,350 48.74"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度歐洲地區金額為新台幣13,951仟元，占銷售地區表合計的1.58%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "合      計 969,984 100 880,988 100",
+    "歐   洲 15,647 1.61 13,951 1.58"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度美洲地區金額為新台幣33,555仟元，占銷售地區表合計的3.81%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "合      計 969,984 100 880,988 100",
+    "美   洲 25,439 2.62 33,555 3.81"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣404,132仟元，占銷售地區表合計的45.87%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "合      計 969,984 100 880,988 100",
+    "內      銷 392,460 40.47 404,132 45.87"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，114年於針織布產業中市場佔有率約0.63%（年報未載明分母之統計來源）。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "公司為生產針織網布之專業公司，114 年於針織布產業中市場佔有率約 0.63%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，公司係國內3D立體織物之專業製造廠商。",
+   "period": "截至114年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "本公司係國內 3D 立體織物之專業製造廠商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-11",
+   "field": "raw_materials",
+   "statement": "年報載明公司之主要原料為原紗，原料供應廠商列有南亞等。",
+   "period": "截至114年度年報刊印日",
+   "page": 57,
+   "excerpts": [
+    "公司之主要原料為原紗",
+    "原  紗 南亞等…"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-12",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（代號A）進貨金額為新台幣137,754仟元，占全年度進貨淨額比率為69%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年 114 年 115 年度截至前一季止(註 1)",
+    "占全年度進貨\n淨額比率(%)",
+    "A 137,754  69"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號A）銷貨金額為新台幣167,318仟元，占全年度銷貨淨額比率為22%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年 114 年 115 度截至前一季止(註 1)",
+    "占全年度銷貨\n淨額比率(%)",
+    "A 167,318  22"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-14",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號B）銷貨金額為新台幣137,136仟元，占全年度銷貨淨額比率為18%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年 114 年 115 度截至前一季止(註 1)",
+    "占全年度銷貨\n淨額比率(%)",
+    "B 137,136  18"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計為406人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "年度 113 年度 114 年度 截至 115 年 3 月 31 日",
+    "合    計 579 406 361"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-16",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣13,577仟元。",
+   "period": "114年度（2025）",
+   "page": 51,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "項目 111 年 112 年 113 年 114 年 115 年 1-3 月",
+    "研發費用 16,585 15,958 15,915 13,577"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-17",
+   "field": "established",
+   "statement": "年報載明公司於民國八十六年九月二十六日奉經濟部核准設立，原名為利冠實業股份有限公司。",
+   "period": "民國八十六年九月二十六日",
+   "page": 87,
+   "excerpts": [
+    "於民國  八\n十六年九月二十六日奉經濟部核准設立",
+    "原名為利冠實業股份有限公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-18",
+   "field": "headquarters",
+   "statement": "年報載明公司登記地址為雲林縣斗六市斗工十二路5號。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "目前公司登記地址為雲林縣斗六市斗工十二路 5\n號"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-19",
+   "field": "history",
+   "statement": "年報載明公司股票自民國一○○年十二月十六日起改在台灣證券交易所上市買賣。",
+   "period": "民國一○○年十二月十六日",
+   "page": 87,
+   "excerpts": [
+    "本公司股票自民國一○○年十二月十六日起改在台灣證券交易所上市買賣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-20",
+   "field": "outlook",
+   "statement": "公司於年報自述，短期計劃期許成為立體織物的領導廠商。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "期許成為立體織物的領\n導廠商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-21",
+   "field": "outlook",
+   "statement": "年報載明公司長期發展計劃之一為加強全球市場之開發，提高國外接單比例。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "加強全球市場之開發，提高國外接單比例"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  },
+  {
+   "id": "4426-AR-22",
+   "field": "outlook",
+   "statement": "年報載明公司長期發展計劃之一為於國外低成本產區設廠。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "於國外低成本產區設廠"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:32:26+00:00"
+   }
+  }
+ ]
+}

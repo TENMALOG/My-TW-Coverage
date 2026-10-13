@@ -1,0 +1,506 @@
+{
+ "ticker": "1519",
+ "company": "華城",
+ "legal_name": "華城電機股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1519&filename=2024_1519_20250613F04.pdf",
+  "fy": 2024,
+  "filename": "2024_1519_20250613F04.pdf",
+  "text_sha256": "cb37d0f43323fe60f4f7b800d1f10c812c7fff7c133c28d4e4c22daa7bce8173",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/cb37d0f43323fe60f4f7b800d1f10c812c7fff7c133c28d4e4c22daa7bce8173.txt"
+ },
+ "facts": [
+  {
+   "id": "1519-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報列示所營業務主要內容包括變壓器、變成器、配電盤、高低壓開關、變電設備、電動車交流充電設備、直流充電設備、電動機車充電設備等之製造加工買賣業務。",
+   "period": "截至113年度年報刊印日",
+   "page": 44,
+   "excerpts": [
+    "變壓器、變成器、配電盤、高低壓開關",
+    "變電設備(包括",
+    "電動車交流充電設備、 直流充電設備 、 電動機車充電設備等之製造加工買賣業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-02",
+   "field": "revenue_mix",
+   "statement": "2024年度變壓器占營業比重72.13%。",
+   "period": "113年度（2024）",
+   "page": 45,
+   "excerpts": [
+    "年度 商品種類 2024 年度",
+    "單位：%",
+    "變 壓 器 72.13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-03",
+   "field": "revenue_mix",
+   "statement": "2024年度配電盤占營業比重8.13%。",
+   "period": "113年度（2024）",
+   "page": 45,
+   "excerpts": [
+    "年度 商品種類 2024 年度",
+    "單位：%",
+    "配 電 盤 8.13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-04",
+   "field": "revenue_mix",
+   "statement": "2024年度工程承包占營業比重6.87%。",
+   "period": "113年度（2024）",
+   "page": 45,
+   "excerpts": [
+    "年度 商品種類 2024 年度",
+    "單位：%",
+    "工程承包 6.87"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-05",
+   "field": "revenue_mix",
+   "statement": "2024年度配電器材占營業比重2.84%。",
+   "period": "113年度（2024）",
+   "page": 45,
+   "excerpts": [
+    "年度 商品種類 2024 年度",
+    "單位：%",
+    "配電器材 2.84"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-06",
+   "field": "revenue_mix",
+   "statement": "2024年度售電收入占營業比重0.07%。",
+   "period": "113年度（2024）",
+   "page": 45,
+   "excerpts": [
+    "年度 商品種類 2024 年度",
+    "單位：%",
+    "售電收入 0.07"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-07",
+   "field": "products",
+   "statement": "公司年報列示目前計劃開發之新商品包括外銷儲能用亭置式變壓器、外銷特殊三繞組亭置式變壓器及AI規範閱讀系統。",
+   "period": "截至113年度年報刊印日",
+   "page": 45,
+   "excerpts": [
+    "3. 公司目前計劃開發之新商品",
+    "外銷儲能用亭置式變壓器、外銷特殊三繞組亭置式變壓器及 AI 規範閱讀系"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-08",
+   "field": "rd",
+   "statement": "2024年度研發費用為新台幣329,867仟元，佔營收百分比為1.63%。",
+   "period": "113年度（2024）",
+   "page": 47,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年 度 金 額 佔營收百分比",
+    "2024 329,867 1.63"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-09",
+   "field": "outlook",
+   "statement": "公司年報載明其長、短期業務發展計畫以國內、北美及東南亞為目標市場。",
+   "period": "截至113年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "以國內、北美及東南亞為目標市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，電力變壓器佔國內產值60%。",
+   "period": "截至113年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "主要產品市場佔有率如下：",
+    "電力變壓器佔國內產值60%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述，電力變壓器佔我國外銷金額90%以上。",
+   "period": "截至113年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "主要產品市場佔有率如下：",
+    "佔我國外銷金額90%以上"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述，配電變壓器佔國內產值30%。",
+   "period": "截至113年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "主要產品市場佔有率如下：",
+    "配電變壓器佔國內產值30%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述，配電變壓器佔我國外銷金額70%以上。",
+   "period": "截至113年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "主要產品市場佔有率如下：",
+    "佔我國外銷金額70%以上"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-14",
+   "field": "market_position",
+   "statement": "公司於年報自述，高低壓配電盤佔國內年產值10%。",
+   "period": "截至113年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "主要產品市場佔有率如下：",
+    "高低壓配電盤佔國內年產值10%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-15",
+   "field": "raw_materials",
+   "statement": "公司年報列示主要原料包括矽鋼片、銅線、絕緣油、開關箱、鐵材（外殼）等。",
+   "period": "截至113年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "(三) 主要原料之供應狀況",
+    "矽 鋼 片 製造變壓器心體",
+    "銅 線 製造變壓器心體",
+    "絕 緣 油 變壓器絕緣",
+    "開 關 箱 裝甲開關箱",
+    "鐵材(外殼) 製造變壓器及配電盤外殼"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-16",
+   "field": "major_suppliers",
+   "statement": "華城重電公司於113年度占全年度進貨淨額20%，進貨金額為新台幣2,214,675仟元，與發行人之關係列為關係人。",
+   "period": "113年度（2024）",
+   "page": 58,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 112 年 114 年度截至前一季止",
+    "華城重電 公司 2,214,675 20 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-17",
+   "field": "group_structure",
+   "statement": "年報載明華城重電公司為本公司100%轉投資公司。",
+   "period": "113年度（2024）",
+   "page": 58,
+   "excerpts": [
+    "華城重電公司為本公司 100%轉投資公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-18",
+   "field": "major_customers",
+   "statement": "某客戶（A）於113年度占全年度銷貨淨額21%，銷貨金額為新台幣3,900,757仟元，年報列為非關係人。",
+   "period": "113年度（2024）",
+   "page": 58,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 112 年 114 年度截至前一季止",
+    "A 3,900,757 21 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-19",
+   "field": "major_customers",
+   "statement": "某客戶（B）於113年度占全年度銷貨淨額20%，銷貨金額為新台幣3,840,771仟元，年報列為非關係人。",
+   "period": "113年度（2024）",
+   "page": 58,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 112 年 114 年度截至前一季止",
+    "B 3,840,771 20 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  },
+  {
+   "id": "1519-AR-20",
+   "field": "employees",
+   "statement": "113年度員工人數合計為1,086人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "113年度（2024）",
+   "page": 59,
+   "excerpts": [
+    "項 目 / 年 度 113 年度 112 年度 截至年報刊印日",
+    "合 計 1,086 933 1,137"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:23+00:00"
+   }
+  }
+ ]
+}

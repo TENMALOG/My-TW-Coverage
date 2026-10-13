@@ -1,0 +1,534 @@
+{
+ "ticker": "2634",
+ "company": "漢翔",
+ "legal_name": "漢翔航空工業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2634&filename=2025_2634_20260522F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2634_20260522F04.pdf",
+  "text_sha256": "9733f0d653c4716bf868cf87ce25a4d60f4bc8efae5bfed96280ccb54d00b18c",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/9733f0d653c4716bf868cf87ce25a4d60f4bc8efae5bfed96280ccb54d00b18c.txt"
+ },
+ "facts": [
+  {
+   "id": "2634-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度飛機及航空器維修類營收金額為新台幣17,886,733仟元，營業比重50.45%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品類別 113 年度 114 年度",
+    "營收金額 比重(%) 營收金額 比重(%)",
+    "飛機及航空器維修類(註 1) 23,672,053 60.17 17,886,733 50.45"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度引擎類營收金額為新台幣16,628,781仟元，營業比重46.90%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品類別 113 年度 114 年度",
+    "營收金額 比重(%) 營收金額 比重(%)",
+    "引擎類(註 2) 13,964,095 35.50 16,628,781 46.90"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度工業技術服務類營收金額為新台幣936,616仟元，營業比重2.65%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "產品類別 113 年度 114 年度",
+    "營收金額 比重(%) 營收金額 比重(%)",
+    "工業技術服務類 1,702,167   4.33 936,616 2.65"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-04",
+   "field": "business_scope",
+   "statement": "公司所營業務之主要內容包括航空器及其零組件製造及維修、引擎及其零組件製造及維修、工業技術服務(能源、軌道、資訊、飛航服務、太空等)。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "航空器及其零組件製造及維修",
+    "引擎及其零組件製造及維修",
+    "工業技術服務(能源、軌道、資訊、飛航服務、太空等)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-05",
+   "field": "products",
+   "statement": "公司目前之軍用業務包含國內軍用飛機之製造、維修、性能提升、機隊商維、軍工廠委託民間經營案以及軍用引擎業務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "軍用業務包含國內軍用飛機之製造、維修、性能提升、機隊商維、軍工廠委託民間經營案",
+    "以及軍用引擎業務等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-06",
+   "field": "products",
+   "statement": "公司目前之民用航空業務包含國際民用飛機機體結構、次組合件之設計加工及代工製造，以及飛機引擎零組件設計加工及代工製造等。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "民用航空業務則包含國際民用飛機機體結構 、 次組合件之設計加工及代工製造 ， 以及飛機",
+    "引擎零組件設計加工及代工製造等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-07",
+   "field": "outlook",
+   "statement": "公司於年報中表示，計劃開發之新商品(服務)在軍用業務方面包括擴大機隊之整機/系統商維、軍工廠委託民間經營業務，並開拓無人機及其反制系統業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "4. 計劃開發之新商品(服務)",
+    "在軍用業務方面，擴大機隊之整機/系統商維、軍工廠委託民間經營業務，開拓無人機及",
+    "其反制系統業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-08",
+   "field": "major_customers",
+   "statement": "114年度A公司（年報代號）之銷貨金額為新台幣17,341,794仟元，占全年度銷貨淨額48.92%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "2.最近二年度佔銷貨淨額 10%以上之客戶名單： \n單位：新台幣仟元；% \n 113 年 114 年 115 年度截至前一季止",
+    "占 \n全年度\n銷貨淨\n額比率",
+    "A 公司 21,548,408 54.78 ─ A 公司 17,341,794 48.92"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-09",
+   "field": "major_customers",
+   "statement": "114年度B公司（年報代號）之銷貨金額為新台幣6,889,805仟元，占全年度銷貨淨額19.43%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "2.最近二年度佔銷貨淨額 10%以上之客戶名單： \n單位：新台幣仟元；% \n 113 年 114 年 115 年度截至前一季止",
+    "占 \n全年度\n銷貨淨\n額比率",
+    "B 公司 5,879,369 14.95 ─ B 公司 6,889,805 19.43"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-10",
+   "field": "major_suppliers",
+   "statement": "114年度A公司（年報代號）之進貨金額為新台幣4,885,023仟元，占全年度進貨淨額24.55%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "1. 最近二年度佔進貨淨額 10%以上之供應商名單： \n單位：新台幣仟元；% \n 113 年 114 年 115 年度截至前一季止",
+    "占 \n全年度\n進貨淨\n額比率",
+    "1 A 公司 4,615,637 21.47 ─ A 公司 4,885,023 24.55"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-11",
+   "field": "raw_materials",
+   "statement": "公司主要原物料中，金屬原料之供應商列有Arconic US LLC、Titanium Industries, Inc.、Universal Alloy Corp.等。",
+   "period": "截至114年度年報刊印日",
+   "page": 85,
+   "excerpts": [
+    "金屬原料 AMI Metals Inc. BRALCO、Arconic US",
+    "LLC、Titanium Industries, Inc.、",
+    "Universal Alloy Corp."
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-12",
+   "field": "raw_materials",
+   "statement": "公司主要原物料中，非金屬原料之供應商列有CYTEC、HEXCEL、PPG、Argosy Advanced Materials等。",
+   "period": "截至114年度年報刊印日",
+   "page": 85,
+   "excerpts": [
+    "非金屬原料 CYTEC、HEXCEL、PPG、Argosy",
+    "Advanced Materials"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-13",
+   "field": "major_customers",
+   "statement": "公司於年報載明，國防業務之銷售地區為國內，顧客包括國防部、國家中山科學研究院、洛馬(Lockheed Martin)等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "產品類別 地區 顧客",
+    "國防業務 國內 國防部、國家中山科學研究院、洛馬(Lockheed Martin)等。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-14",
+   "field": "major_customers",
+   "statement": "公司於年報載明，民用航空業務機體製造部份之銷售地區為國外，顧客為歐、美、日等地區之航太製造大廠，如龐巴迪公司(Bombardier)、空中巴士公司(Airbus)、波音公司(Boeing)等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "產品類別 地區 顧客",
+    "民用航空業務 國外",
+    "機體製造部份： \n歐、美、日等地區之航太製造大廠如龐巴迪公司(Bombardier)、空\n中巴士公司 (Airbus)、波音公司 (Boeing)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-15",
+   "field": "major_customers",
+   "statement": "公司於年報載明，民用航空業務發動機部份之銷售地區為國外，顧客為歐、美、日等地區之發動機製造大廠，如奇異航太公司(GE Aerospace)、漢威聯合公司(Honeywell)、勞斯萊斯公司(Rolls-Royce)等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "產品類別 地區 顧客",
+    "民用航空業務 國外",
+    "發動機部份： \n歐 、 美 、 日等地區之發動機製造大廠奇異航太公司(GE Aerospace)、\n漢威聯合公司(Honeywell)、 勞斯萊斯公司(Rolls-Royce)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-16",
+   "field": "market_position",
+   "statement": "公司於年報自述為全球航太供應鏈重要成員，並為臺灣航太產業龍頭。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "本公司為全球航太供應鏈重要成員，並為臺灣航太產業龍頭"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣537,626仟元，占營收淨額1.52%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 113 年度 114 年度 115年度截至前一季止",
+    "研發費用 624,161 537,626",
+    "佔營收淨額比重 1.59% 1.52%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-18",
+   "field": "employees",
+   "statement": "114年度員工人數合計為5,164人（本表註記不含董事長、總經理、留職資停薪；員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "年度 113年度 114年度 當年度截至115年3月31日",
+    "合計 5,187 5,164 5,110",
+    "註：本表不含董事長、總經理、留職資停薪"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-19",
+   "field": "group_structure",
+   "statement": "截至114年12月31日，公司對翔園文旅股份有限公司之投資持股比例為100.00%（綜合持股比例表）。",
+   "period": "114年12月31日",
+   "page": 71,
+   "excerpts": [
+    "十、綜合持股比例 \n114 年 12 月 31 日 單位：仟股；%",
+    "翔園文旅 \n股份有限公司 1,500 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-20",
+   "field": "group_structure",
+   "statement": "截至114年12月31日，公司對漢翔美國子公司(AIDC USA LLC)之投資持股比例為100.00%（綜合持股比例表）。",
+   "period": "114年12月31日",
+   "page": 71,
+   "excerpts": [
+    "十、綜合持股比例 \n114 年 12 月 31 日 單位：仟股；%",
+    "漢翔美國子公司 \n(AIDC USA LLC) \n(註 1) 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  },
+  {
+   "id": "2634-AR-21",
+   "field": "outlook",
+   "statement": "公司於年報中表示，軍用業務短期計畫包括如期如質執行新式高教機量產交機及維保作業、各項軍機商維專案，強化F-16後勤維修中心能量，並拓展無人機及其反制系統相關業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "(1)短期 ：如期如質執行新式高教機量產交機及維保作業 、 各項軍機商維專案， 強化F-16 後",
+    "勤維修中心能量，拓展無人機及其反制系統相關業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T23:52:55+00:00"
+   }
+  }
+ ]
+}

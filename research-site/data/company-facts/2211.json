@@ -1,0 +1,603 @@
+{
+ "ticker": "2211",
+ "company": "長榮鋼",
+ "legal_name": "長榮鋼鐵股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2211&filename=2025_2211_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2211_20260527F04.pdf",
+  "text_sha256": "76dfe09af3459002811f85e9cde5c82a81adb486daa682f17e94ac9819772ee9",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/76dfe09af3459002811f85e9cde5c82a81adb486daa682f17e94ac9819772ee9.txt"
+ },
+ "facts": [
+  {
+   "id": "2211-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明合併公司主要業務範圍包括鋼構營建工程及轉投資環保事業。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "主要業務範圍包括鋼構營建工程及轉投資環保事業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-02",
+   "field": "products",
+   "statement": "公司年報載明鋼構營建工程主要包括廠房鋼構、大樓鋼構、橋梁鋼構及軌道工程等業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "鋼構營建工程主要包括廠房鋼構、大樓鋼構、橋梁鋼構及軌道工程等業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-03",
+   "field": "products",
+   "statement": "公司年報載明轉投資環保事業包括一般與事業廢棄物處理、清除及汽電共生等業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "轉投資環保事業包括一般與事業廢棄物處理、清除及汽電共生等業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度合併營收中鋼構件營業額為新台幣11,325,264仟元，營業比重73.92%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "2.合併營收比重情形",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業額 營業比重(%) 營業額 營業比重(%)",
+    "鋼構件 9,818,936 76.01 11,325,264 73.92"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度合併營收中一般、事業廢棄物處理營業額為新台幣2,496,477仟元，營業比重16.29%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "2.合併營收比重情形",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業額 營業比重(%) 營業額 營業比重(%)",
+    "一般、事業廢棄物處理 1,975,354 15.29 2,496,477 16.29"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度合併營收中售電營業額為新台幣1,290,392仟元，營業比重8.42%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "2.合併營收比重情形",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業額 營業比重(%) 營業額 營業比重(%)",
+    "售電 942,370 7.30 1,290,392 8.42"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-07",
+   "field": "sales_regions",
+   "statement": "公司年報載明合併公司鋼結構製造營業範圍遍及台灣各區及部分國外地區，環保事業營業範圍則以台灣北區及桃園市為主。",
+   "period": "截至114年度年報刊印日",
+   "page": 96,
+   "excerpts": [
+    "鋼結構製造，營業範圍遍及台灣各區及部分國外地區",
+    "環保事業營業範圍則以台灣北區及桃園市為主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述長榮鋼鐵為國內主要鋼構廠商之一，並載明競爭廠商為中鋼構、春源鋼鐵及東鋼鋼結構等。",
+   "period": "截至114年度年報刊印日",
+   "page": 93,
+   "excerpts": [
+    "長榮鋼鐵為國內主要鋼構廠商之一",
+    "競爭廠商為中鋼構、春源鋼鐵及東鋼鋼結構等"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-09",
+   "field": "raw_materials",
+   "statement": "公司年報載明鋼構事業主要原料鋼板的主要供應商為中鋼、中龍。",
+   "period": "截至114年度年報刊印日",
+   "page": 100,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "鋼板 中鋼、中龍"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-10",
+   "field": "raw_materials",
+   "statement": "公司年報載明鋼構事業主要原料型鋼的主要供應商為中龍、東和。",
+   "period": "截至114年度年報刊印日",
+   "page": 100,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "型鋼 中龍、東和"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-11",
+   "field": "major_suppliers",
+   "statement": "114年度供應商中鋼的進貨金額為新台幣2,313,371仟元，占全年度進貨淨額53.14%（表註：欣榮企業、水美工程及榮鼎綠能為環保服務業，並無生產活動，故不適用）。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度 113 年度 114 年度",
+    "占全年度進貨 淨額比率(%)",
+    "中鋼 1,902,408 44.54 無 中鋼 2,313,371 53.14 無",
+    "欣榮企業、水美工程及榮鼎綠能為環保服務業，並無生產活動"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-12",
+   "field": "major_suppliers",
+   "statement": "114年度供應商中龍的進貨金額為新台幣1,535,407仟元，占全年度進貨淨額35.27%（表註：欣榮企業、水美工程及榮鼎綠能為環保服務業，並無生產活動，故不適用）。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度 113 年度 114 年度",
+    "占全年度進貨 淨額比率(%)",
+    "中龍 1,490,391 34.90 無 中龍 1,535,407 35.27 無",
+    "欣榮企業、水美工程及榮鼎綠能為環保服務業，並無生產活動"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-13",
+   "field": "major_customers",
+   "statement": "114年度客戶A的銷貨金額為新台幣3,031,661仟元，占全年度銷貨淨額19.79%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度 113 年度 114 年度",
+    "占全年度銷貨 淨額比率(%)",
+    "客戶 A 1,071,685 8.30 無 客戶 A 3,031,661 19.79 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-14",
+   "field": "major_customers",
+   "statement": "114年度客戶B的銷貨金額為新台幣1,594,523仟元，占全年度銷貨淨額10.41%，與發行人之關係為無。",
+   "period": "114年度（2025）",
+   "page": 100,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度 113 年度 114 年度",
+    "占全年度銷貨 淨額比率(%)",
+    "客戶 B 84,515 0.65 無 客戶 B 1,594,523 10.41 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計800人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 102,
+   "excerpts": [
+    "年 度 113 年度 114 年度 當年度截至",
+    "合計 784 800 808"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-16",
+   "field": "rd",
+   "statement": "公司年報載明長榮鋼鐵係屬鋼結構製造廠商，無設立專職之研發部門。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "長榮鋼鐵係屬鋼結構製造廠商",
+    "無設立專職之研發部門"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-17",
+   "field": "rd",
+   "statement": "公司年報載明長榮鋼鐵為增加生產效能及安全性，最近年度及截至年報刊印日止已投入新台幣1,736萬元。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "為增加生產效能及安全性，最近年度及截至年報刊印日止已投入新台幣 1,736 萬元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-18",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明水美工程增建「43噸/日焚化爐新產線」，投入金額為8億7,307萬元（原文未載幣別），已於114年5月正式運轉。",
+   "period": "114年5月",
+   "page": 94,
+   "excerpts": [
+    "水美工程增建 「43噸/日焚化爐新產線」 ， 投入金額為8 億 7,307 萬元，已於 114 年 5 月正式運轉"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-19",
+   "field": "outlook",
+   "statement": "公司年報載明欣榮企業短期業務發展方向為滿足桃園市府年處理量372,300公噸及自收一般事業廢棄物年處理量約40,000公噸，並創造最大售電收益。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "欣榮企業",
+    "以滿足桃園市府年處理",
+    "372,300 公噸及自收一般事業廢棄物年處理",
+    "40,000 公噸，並創造最大售電收益"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-20",
+   "field": "outlook",
+   "statement": "公司年報載明榮鼎綠能熱處理單元短期業務發展以滿足年規劃處理量219,000公噸為目標。",
+   "period": "截至114年度年報刊印日",
+   "page": 96,
+   "excerpts": [
+    "熱處理單元以滿足年規劃處理",
+    "219,000 公噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-21",
+   "field": "outlook",
+   "statement": "公司年報載明長榮鋼鐵已有鋼構外銷輸出經驗，並獲得MITSUBISHI HITACHI POWER SYSTEMS品質認證，持續尋求國外業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "長榮鋼鐵已有鋼構外銷輸出經驗 ， 並獲得MITSUBISHI HITACHI POWER SYSTEMS 品質認證",
+    "持續尋求國外業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-22",
+   "field": "group_structure",
+   "statement": "公司年報載明欣榮企業、水美工程及榮鼎綠能為環保服務業。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "欣榮企業、水美工程及榮鼎綠能為環保服務業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-23",
+   "field": "history",
+   "statement": "公司年報載明桃園市政府於107年公開招標興建生質能源中心，榮鼎綠能於同年10月與桃園市政府簽訂BOT契約，特許期25年。",
+   "period": "民國107年",
+   "page": 90,
+   "excerpts": [
+    "桃園市政府於107 年公開招標興建有別於傳統焚化廠之生質能源中心。榮鼎綠能於同年10 月與桃園市政府簽訂 BOT(興建-營運-移轉)契約 ， 特許期25 年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  },
+  {
+   "id": "2211-AR-24",
+   "field": "history",
+   "statement": "公司年報載明欣榮企業與桃園市政府「桃園市家戶垃圾委託處理專業服務」合約於112年3月1日開始執行履約，合約期限為10+5年。",
+   "period": "民國112年3月1日起",
+   "page": 93,
+   "excerpts": [
+    "續於 112 年 3 月 1 日依市政府通知開始執行履約工作，合約期限為 10+5 年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:52:12+00:00"
+   }
+  }
+ ]
+}

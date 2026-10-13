@@ -1,0 +1,558 @@
+{
+ "ticker": "8473",
+ "company": "山林水",
+ "legal_name": "山林水環境工程股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=8473&filename=2025_8473_20260615F04.pdf",
+  "fy": 2025,
+  "filename": "2025_8473_20260615F04.pdf",
+  "text_sha256": "be4fc88fbd35656cb62cc7c006cd910907e3dae133a306c49d1874d878837ed5",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/be4fc88fbd35656cb62cc7c006cd910907e3dae133a306c49d1874d878837ed5.txt"
+ },
+ "facts": [
+  {
+   "id": "8473-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明公司主營業務橫跨污水、再生水、海水淡化等工程以及廢棄物、生質能等多元工程領域。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "本公司主營業務橫跨污水、再生水、海水淡化等工程以及廢棄物、生\n質能等多元工程領域"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度水處理工程承攬的營業收入為新台幣2,308,228仟元，營業比重45.05%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "2. 所營業務之營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入 營業比重 營業收入 營業比重",
+    "水處理工程承攬 1,078,529 31.84% 2,308,228 45.05%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度水處理操作維護的營業收入為新台幣1,594,511仟元，營業比重31.11%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "2. 所營業務之營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入 營業比重 營業收入 營業比重",
+    "水處理操作維護 1,185,337 35.00%  1,594,511  31.11%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度服務特許權的營業收入為新台幣819,499仟元，營業比重15.99%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "2. 所營業務之營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入 營業比重 營業收入 營業比重",
+    "服務特許權 643,807 19.01%  819,499  15.99%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度廢棄物處理的營業收入為新台幣345,513仟元，營業比重6.74%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "2. 所營業務之營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "營業收入 營業比重 營業收入 營業比重",
+    "廢棄物處理 458,065 13.53%  345,513  6.74%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-06",
+   "field": "products",
+   "statement": "公司目前之商品（服務）項目包括水處理工程承攬、水處理操作維護、服務特許權、一般事業廢棄物處理、再生綠能。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "(1) 水處理工程承攬：都市污水下水道系統、工業廢水處理廠、",
+    "(2) 水處理操作維護：都市污水下水道系統、工業廢水處理廠、",
+    "(3) 服務特許權：與政府機構（授予人）簽訂服務特許權協議，",
+    "(4) 一般事業廢棄物處理：焚化爐底渣處理及回收再利用、污泥",
+    "(5) 再生綠能：有機事業廢棄物回收處理廠建置及生質能廠建置並予"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-07",
+   "field": "products",
+   "statement": "公司年報載明未來將整合集團內資源開發高科技／高階水處理及回收再利用工程、一般廢棄物處理及回收再利用工程、廚餘去化及資源循環服務、AI智慧水務服務等業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "未來將整合集團內資源進行下列業務之開發：",
+    "(1) 高科技∕高階水處理及回收再利用工程。",
+    "(2) 一般廢棄物處理及回收再利用工程。",
+    "(3)廚餘去化及資源循環服務",
+    "(4)AI智慧水務服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述，目前在營運與操作的水處理場域遍布全台，在污水處理廠操作市場市佔率已超過13%。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "目前在營運與操作的水處理場域",
+    "遍布全台，在污水處理廠操作市場市佔率已超過 13%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，深耕水處理市場已超過20年。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "本公司\n深耕水處理市場已超過20年"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-10",
+   "field": "major_customers",
+   "statement": "114年度客戶高雄市政府的銷貨金額為新台幣1,811,832仟元，占全年度銷貨淨額35.36%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "2. 最近二年度任一年度中曾占銷貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度銷\n貨淨額比率",
+    "1 高雄市政府 568,588 16.79% 無 高雄市政府 1,811,832 35.36% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-11",
+   "field": "major_customers",
+   "statement": "114年度客戶國家科學及技術委員會新竹科學園區管理局的銷貨金額為新台幣1,244,973仟元，占全年度銷貨淨額24.29%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "2. 最近二年度任一年度中曾占銷貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度銷\n貨淨額比率",
+    "國家科學及\n技術委員會\n新竹科學園\n區管理局 \n1,244,973 24.29%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-12",
+   "field": "major_customers",
+   "statement": "114年度客戶宜蘭縣政府的銷貨金額為新台幣613,735仟元，占全年度銷貨淨額11.98%。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "2. 最近二年度任一年度中曾占銷貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度銷\n貨淨額比率",
+    "2 宜蘭縣政府 609,549 18.00% 無 宜蘭縣政府 613,735 11.98% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-13",
+   "field": "major_customers",
+   "statement": "113年度客戶宜蘭縣政府的銷貨金額為新台幣609,549仟元，占全年度銷貨淨額18.00%。",
+   "period": "113年度（2024）",
+   "page": 85,
+   "excerpts": [
+    "2. 最近二年度任一年度中曾占銷貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度銷\n貨淨額比率",
+    "2 宜蘭縣政府 609,549 18.00% 無 宜蘭縣政府 613,735 11.98% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度供應商新宏興營造股份有限公司的進貨金額為新台幣366,235仟元，占全年度進貨淨額17.25%，表列與發行人之關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "1. 最近二年度任一年度中曾占進貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度進\n貨淨額比率",
+    "新宏興營\n造股份有\n限公司 \n366,235 17.25% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度供應商傑和機電工程股份有限公司的進貨金額為新台幣272,682仟元，占全年度進貨淨額12.85%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "1. 最近二年度任一年度中曾占進貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度進\n貨淨額比率",
+    "傑和機電\n工程股份\n有限公司 \n272,682 12.85%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度供應商環鼎國際股份有限公司的進貨金額為新台幣220,480仟元，占全年度進貨淨額10.39%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "1. 最近二年度任一年度中曾占進貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度進\n貨淨額比率",
+    "環鼎國際\n股份有限\n公司 \n220,480 10.39%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-17",
+   "field": "major_suppliers",
+   "statement": "113年度供應商振偉開發股份有限公司的進貨金額為新台幣243,838仟元，占全年度進貨淨額18.80%。",
+   "period": "113年度（2024）",
+   "page": 84,
+   "excerpts": [
+    "1. 最近二年度任一年度中曾占進貨總額百分之十以上之客戶名稱及",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "占全年度進\n貨淨額比率",
+    "振偉開發\n股份有限\n公司  \n243,838 18.80%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-18",
+   "field": "raw_materials",
+   "statement": "公司年報載明機電設備項目採購主要包括閘門、機械式細攔污柵、閥件、加藥機、污泥濃縮脫水機、鼓風機、抽水機、膜元件等機電材料設備。",
+   "period": "截至114年度年報刊印日",
+   "page": 84,
+   "excerpts": [
+    "機電設備項目採購依各工程案件屬性主要包括閘門、機械式細攔污\n柵、閥件、加藥機、污泥濃縮脫水機、鼓風機、抽水機、膜元件"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-19",
+   "field": "group_structure",
+   "statement": "公司年報載明旗下有綠山林公司（高雄楠梓污水下水道系統）與東山林公司（宜蘭羅東污水下水道系統）。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "旗下綠\n山林公司（高雄楠梓污水下水道系統）與東山林公司（宜蘭羅東污水\n下水道系統）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計為724人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "三、從業員工資料",
+    "113年度 114年度",
+    "員工人數",
+    "合計 692 724 723"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  },
+  {
+   "id": "8473-AR-21",
+   "field": "outlook",
+   "statement": "公司年報載明短期計畫（114年）中，新竹科學園區寶山污水工程案與臺中福田再生水工程案預計將於115年完成。",
+   "period": "114年度短期計畫",
+   "page": 75,
+   "excerpts": [
+    "短期計畫（114年）",
+    "新竹科學園\n區寶山污水工程案與臺中福田\n再生水工程案，預計將於115\n年完成"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:30+00:00"
+   }
+  }
+ ]
+}

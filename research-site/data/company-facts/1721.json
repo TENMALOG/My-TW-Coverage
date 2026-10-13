@@ -1,0 +1,596 @@
+{
+ "ticker": "1721",
+ "company": "三晃",
+ "legal_name": "國慶科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1721&filename=2025_1721_20260616F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1721_20260616F04.pdf",
+  "text_sha256": "a95d512202562eb71a15eca93d96068ed0efc181a2acc0b1511841c55ab0be6a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/a95d512202562eb71a15eca93d96068ed0efc181a2acc0b1511841c55ab0be6a.txt"
+ },
+ "facts": [
+  {
+   "id": "1721-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明公司業務主要內容包括植物保護用藥原料藥、橡塑膠添加劑、化粧品原料、熱可塑彈性體、塑膠粒等。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "（1）植物保護用藥原料藥。",
+    "（2）橡塑膠添加劑。",
+    "（3）化粧品原料。",
+    "（4）熱可塑彈性體、塑膠粒。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度特用化學品金額為新臺幣1,014,978仟元，營業比重57.19%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "2.產品主要類別及其營業比重",
+    "單位：新台幣仟元",
+    "產品項目/年度 113 年度 114 年度",
+    "金額 % 金額 %",
+    "特用化學品 1,570,268 68.67 1,014,978 57.19"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度植物保護用藥金額為新臺幣473,924仟元，營業比重26.70%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "2.產品主要類別及其營業比重",
+    "單位：新台幣仟元",
+    "產品項目/年度 113 年度 114 年度",
+    "金額 % 金額 %",
+    "植物保護用藥 423,844 18.54 473,924 26.70"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度熱可塑性聚胺脂膠粒金額為新臺幣199,564仟元，營業比重11.24%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "2.產品主要類別及其營業比重",
+    "單位：新台幣仟元",
+    "產品項目/年度 113 年度 114 年度",
+    "金額 % 金額 %",
+    "熱可塑性聚胺脂膠粒 204,196 8.93 199,564 11.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度樹脂金額為新臺幣72,204仟元，營業比重4.07%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "2.產品主要類別及其營業比重",
+    "單位：新台幣仟元",
+    "產品項目/年度 113 年度 114 年度",
+    "金額 % 金額 %",
+    "樹        脂 80,311 3.51 72,204 4.07"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-06",
+   "field": "products",
+   "statement": "年報載明公司主要生產之特化產品包括抗氧化劑、成核劑、無鹵阻燃劑、交聯劑、電子化學品等。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "本公司主要生產 \n之特化產品為：抗氧化劑、成核劑、無鹵阻燃劑、交聯劑、電子化學品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-07",
+   "field": "business_scope",
+   "statement": "年報載明公司主要與國外大廠策略合作代工生產各項農藥原體供應外銷，並維持少量生產供國內市場所需之農藥原體。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "本公司主要與國外大廠策略合作代工生產各項農藥原體\n供應外銷，並維持少量生產供國內市場所需之農藥原體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新臺幣917,059仟元，占銷售地區表合計之51.67%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "最近二年度主要產品銷售地區及金額",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 % 金額 %",
+    "內    銷  1,401,049 61.64 917,059 51.67",
+    "合   計 2,286,720 100.00 1,774,757 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度外銷美洲金額為新臺幣293,177仟元，占銷售地區表合計之16.52%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "最近二年度主要產品銷售地區及金額",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 % 金額 %",
+    "美洲  263,069 11.30 293,177 16.52",
+    "合   計 2,286,720 100.00 1,774,757 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度外銷亞洲金額為新臺幣213,673仟元，占銷售地區表合計之12.04%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "最近二年度主要產品銷售地區及金額",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 % 金額 %",
+    "亞洲  159,741 6.82 213,673 12.04",
+    "合   計 2,286,720 100.00 1,774,757 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度外銷歐洲金額為新臺幣320,702仟元，占銷售地區表合計之18.07%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "最近二年度主要產品銷售地區及金額",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "金額 % 金額 %",
+    "歐洲  325,903 14.25 320,702 18.07",
+    "合   計 2,286,720 100.00 1,774,757 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-12",
+   "field": "market_position",
+   "statement": "公司年報引述經濟部產業技術司石化暨特化產業年鑑，2025年總體特用化學品規模估計約77,807百萬美元（原文未載地區範圍）。",
+   "period": "2025年",
+   "page": 72,
+   "excerpts": [
+    "以經濟部產業技術司石化暨特化產業年鑑",
+    "2025 年總體特用化學品規模估計約 77,807 百萬美元"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-13",
+   "field": "raw_materials",
+   "statement": "年報載明原料己二酸（AA）目前僅向中國購買。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "（三）主要原料之供應狀況",
+    "己二酸（AA）：目前僅向中國購買。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-14",
+   "field": "raw_materials",
+   "statement": "年報載明原料丁酮（MEK）100%向國內經銷商購買。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "（三）主要原料之供應狀況",
+    "丁酮（MEK）：100%向國內經銷商購買。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-15",
+   "field": "raw_materials",
+   "statement": "年報載明原料異氰酸酯（MDI）主要向日本、韓國、中國購買。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "異氰酸酯（MDI） ：主要向日本、韓國、中國購買。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-16",
+   "field": "raw_materials",
+   "statement": "年報載明原料三氯化磷主要向歐洲、印度購買。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "三氯化磷：主要向歐洲、印度購買。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-17",
+   "field": "raw_materials",
+   "statement": "年報載明原料硼氫化鉀（KBH）100%向中國購買。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "硼氫化鉀(KBH) 100%向中國購買。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-18",
+   "field": "major_customers",
+   "statement": "某客戶（甲客戶）114年度銷貨金額為新臺幣319,920仟元，占全年度銷貨淨額比率18.03%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年\n度銷貨\n淨額比\n率〔%〕",
+    "1 甲客戶 318,393 13.92 - 甲客戶 319,920 18.03 無 甲客戶 32,290 8.21 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-19",
+   "field": "major_suppliers",
+   "statement": "某供應商（代號11065）114年度進貨金額為新臺幣90,766仟元，占全年度進貨淨額比率11.47%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年度進\n貨淨額比率\n〔%〕",
+    "2 11065 28,742 2.46 無 11065 90,766 11.47 無 11065 4,541 2.56 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-20",
+   "field": "major_suppliers",
+   "statement": "某供應商（代號10243）113年度進貨金額為新臺幣186,747仟元，占全年度進貨淨額比率16.00%。",
+   "period": "113年度（2024）",
+   "page": 78,
+   "excerpts": [
+    "單位:新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年度進\n貨淨額比率",
+    "1 10243 186,747 16.00 無 10243 42,013 5.31 無 10243 12,416 7.02 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-21",
+   "field": "employees",
+   "statement": "114年度員工人數合計429人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "113 年度 114 年度 當年度 截至 止",
+    "合     計 468 429 420"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-22",
+   "field": "rd",
+   "statement": "114年度投入研發費用為新臺幣42,323仟元。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "114 年度投入研發費用：新台幣 42,323 仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1721-AR-23",
+   "field": "outlook",
+   "statement": "年報載明公司短期計劃為加速新產品開發及推廣上市以提升營收與獲利，項目包括Triazine UV吸收劑、BMI、PPE等。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "1.短期計劃：",
+    "加速新產品開發及推廣上市提升營收與獲利：Triazine UV吸收劑、BMI、\nPPE"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  }
+ ]
+}

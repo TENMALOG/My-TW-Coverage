@@ -1,0 +1,354 @@
+{
+ "ticker": "1442",
+ "company": "名軒",
+ "legal_name": "名軒開發股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1442&filename=2025_1442_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1442_20260527F04.pdf",
+  "text_sha256": "d6870d4e45b84c8736de94060a578749794e1b1917b787701754780bd4aefabb",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/d6870d4e45b84c8736de94060a578749794e1b1917b787701754780bd4aefabb.txt"
+ },
+ "facts": [
+  {
+   "id": "1442-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明所營業務之主要內容為委託營造廠商興建集合住宅大樓及商業大樓出租、出售業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "本公司所營業務之主要內容為委託營造廠商興建集合住宅大樓及商業大樓出租、出\n售業務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-02",
+   "field": "sales_regions",
+   "statement": "公司年報載明近年來房屋之推案銷售分佈於台北市、新北市、桃園市、苗栗縣、台中市、高雄市及宜蘭縣等區域。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "公司近年來房屋之推案銷售分佈於台北市、新北市、桃園市、苗栗縣、台中\n巿、高雄巿及宜蘭縣等區域"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-03",
+   "field": "sales_regions",
+   "statement": "114年度新北市淡水區住宅案營業收入為3,238,395仟元。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要商品 銷售區域 113 年度 114 年度 近二年度\n營收合計 占比(%)營業收入 營業收入",
+    "新北市住宅案 淡水區 6,645,436 3,238,395 9,883,831 81.47"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-04",
+   "field": "sales_regions",
+   "statement": "近二年度（113、114年度）新北市淡水區住宅案營業收入合計9,883,831仟元，占近二年度營收合計81.47%。",
+   "period": "113至114年度（2024至2025）",
+   "page": 77,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "主要商品 銷售區域 113 年度 114 年度 近二年度\n營收合計 占比(%)營業收入 營業收入",
+    "新北市住宅案 淡水區 6,645,436 3,238,395 9,883,831 81.47",
+    "總    計 8,801,948 3,330,041 12,131,989 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-05",
+   "field": "market_position",
+   "statement": "公司於年報自述，依公開資訊觀測站資料所列114年度上市建材營造類別公司營業收入排名，名軒營業收入為新台幣3,330,041仟元，排名第35，市場占有率為0.71%（與建材營造類總收入比，四捨五入）。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "114年度上市建材營造類別公司營業收入排名前四十名及市場占有率",
+    "資料來源：公開資訊觀測站",
+    "排名 公司名稱 \n營業收入 巿場占有率 \n單位:新台幣仟元 與建材營造類總收入 \n比四捨五入",
+    "35 1442 名軒 3,330,041 0.71%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-06",
+   "field": "products",
+   "statement": "公司年報載明主要產品之重要用途「建設類」包括住宅、套房、店舖、辦公室及停車位等。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "建設類：住宅、套房、店舖、辦公室及停車位等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-07",
+   "field": "raw_materials",
+   "statement": "公司年報載明營建工程係委託營造廠採「包工包料」方式為原則承攬興建。",
+   "period": "截至114年度年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "本公司營建工程係委託專業營造廠採「包工包料」方式為原則承攬興建"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-08",
+   "field": "major_suppliers",
+   "statement": "114年度供應商名稱欄載為「嘉圓營造(股)公司」，進貨金額為614,401仟元，占全年度進貨淨額44.09%，與發行人之關係欄載為「子公司」。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新臺幣仟元；％",
+    "113 年 114 年 115 年度截至前一季止(註 3)",
+    "占全年度進貨\n淨額比率",
+    "嘉圓營造\n(股)公司 614,401 44.09 子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-09",
+   "field": "major_suppliers",
+   "statement": "114年度供應商名稱欄載為「安生營造(股)公司」，進貨金額為519,666仟元，占全年度進貨淨額37.29%，與發行人之關係欄載為「實質關係人」。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "單位：新臺幣仟元；％",
+    "113 年 114 年 115 年度截至前一季止(註 3)",
+    "占全年度進貨\n淨額比率",
+    "安生營造\n(股)公司 519,666 37.29 實質\n關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-10",
+   "field": "major_suppliers",
+   "statement": "113年度供應商名稱欄載為「財政部國有財產署北區分署」，進貨金額為999,046仟元，占全年度進貨淨額45.34%，與發行人之關係欄載為「無」。",
+   "period": "113年度（2024）",
+   "page": 82,
+   "excerpts": [
+    "單位：新臺幣仟元；％",
+    "113 年 114 年 115 年度截至前一季止(註 3)",
+    "占全年度進貨\n淨額比率",
+    "財政部國有財\n產署北區分署 999,046 45.34 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-11",
+   "field": "major_customers",
+   "statement": "公司年報載明113及114年度單一客戶銷售額未有達營業收入百分之十以上者。",
+   "period": "113至114年度（2024至2025）",
+   "page": 82,
+   "excerpts": [
+    "本公司 113 及 114 年度單一客戶銷售額未有達營業收入百分之十以上者。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-12",
+   "field": "employees",
+   "statement": "114年度員工人數合計58人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "年度 113 年度 114 年度",
+    "合計 41 58 55"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-13",
+   "field": "rd",
+   "statement": "公司年報技術及研發概況（建材設計方面）載明研發新的工法，例如輕隔間、明管施工、後裝式室內門、浴室止水墩、結構安全系統工法等。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "研發新的工法，重視施工細節及方便日後維修，如：輕隔間、明管施\n工、後裝式室內門、浴室止水墩、結構安全系統工法等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "1442-AR-14",
+   "field": "outlook",
+   "statement": "公司年報短期業務發展計畫載明，以投資興建符合市場需求的中型個案為主。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "以投資興建符合市場需求的中型個案為主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  }
+ ]
+}

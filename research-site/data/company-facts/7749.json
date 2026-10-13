@@ -1,0 +1,621 @@
+{
+ "ticker": "7749",
+ "company": "意騰-KY",
+ "legal_name": "意騰科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7749&filename=2025_7749_20260608F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7749_20260608F04.pdf",
+  "text_sha256": "8cc693e6aa67b5904d4feeebcf9dff3cbfd146894ba702f50ab5610494026241",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/8cc693e6aa67b5904d4feeebcf9dff3cbfd146894ba702f50ab5610494026241.txt"
+ },
+ "facts": [
+  {
+   "id": "7749-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明公司主要產品可區分為AI聲學處理與語音識別之ASIC產品，以及AI智財授權暨技術服務產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "主要產品可區分為 AI 聲學處理與語音識別之\nASIC 產品以及提供 AI 智財授權暨技術服務產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-02",
+   "field": "revenue_mix",
+   "statement": "2025年度ASIC產品營業收入為新臺幣932,820仟元，營業比重58.65%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024年度 2025 年度 2026 年第一季",
+    "營業收入 比重 營業收入 比重 營業收入 比重",
+    "ASIC產品 329,402 38.36 932,820 58.65"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-03",
+   "field": "revenue_mix",
+   "statement": "2025年度AI智財授權暨技術服務營業收入為新臺幣657,707仟元，營業比重41.35%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024年度 2025 年度 2026 年第一季",
+    "營業收入 比重 營業收入 比重 營業收入 比重",
+    "AI智財授權暨技術服務 522,880 60.89 657,707 41.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-04",
+   "field": "revenue_mix",
+   "statement": "2024年度ASIC產品營業收入為新臺幣329,402仟元，營業比重38.36%。",
+   "period": "113年度（2024）",
+   "page": 52,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024年度 2025 年度 2026 年第一季",
+    "營業收入 比重 營業收入 比重 營業收入 比重",
+    "ASIC產品 329,402 38.36"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-05",
+   "field": "revenue_mix",
+   "statement": "2024年度AI智財授權暨技術服務營業收入為新臺幣522,880仟元，營業比重60.89%。",
+   "period": "113年度（2024）",
+   "page": 52,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024年度 2025 年度 2026 年第一季",
+    "營業收入 比重 營業收入 比重 營業收入 比重",
+    "AI智財授權暨技術服務 522,880 60.89"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-06",
+   "field": "raw_materials",
+   "statement": "年報載明ASIC產品方面，公司完成晶片前端設計整合後，交由集成電路公司提供佈局服務，最後委託晶圓代工廠進行製造、封裝及測試等製造流程。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "本公司完成晶片前端設計整合後，交由集成電路公\n司提供佈局服務，最後委託晶圓代工廠進行製造、封裝及測試等製造流程"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-07",
+   "field": "sales_regions",
+   "statement": "2025年度內銷金額為新台幣602,893仟元，占銷售區域表合計37.91%（金額以合併營收淨額表示）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度",
+    "金額 %  金額 %",
+    "內銷 412,770 48.07% 602,893 37.91%",
+    "註：上述金額以合併營收淨額表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-08",
+   "field": "sales_regions",
+   "statement": "2025年度外銷亞洲金額為新台幣978,819仟元，占銷售區域表合計61.54%（金額以合併營收淨額表示）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度",
+    "金額 %  金額 %",
+    "亞洲 441,731 51.44% 978,819 61.54%",
+    "註：上述金額以合併營收淨額表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-09",
+   "field": "sales_regions",
+   "statement": "2025年度外銷美洲金額為新台幣4,477仟元，占銷售區域表合計0.28%（金額以合併營收淨額表示）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度",
+    "金額 %  金額 %",
+    "美洲 3,969 0.46% 4,477 0.28%",
+    "註：上述金額以合併營收淨額表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-10",
+   "field": "sales_regions",
+   "statement": "2025年度外銷歐洲金額為新台幣4,338仟元，占銷售區域表合計0.27%（金額以合併營收淨額表示）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度",
+    "金額 %  金額 %",
+    "歐洲 262 0.03% 4,338 0.27%",
+    "註：上述金額以合併營收淨額表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-11",
+   "field": "market_position",
+   "statement": "年報載明公司產品應用領域涵蓋極廣，且市場亦無專業音訊處理晶片廠商，致市場占有率的精確資料取得不易。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "市場亦無專業音訊處理晶片廠商，致市場占有率的精確資料取得不易"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述，公司是市場上最早利用AI技術進行聲學處理的廠商。",
+   "period": "截至114年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "本公司是市\n場上最早利用 AI技術進行聲學處理的廠商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-13",
+   "field": "rd",
+   "statement": "年報載明公司已取得54個專利（美國與臺灣）保護。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "本公司已取得 54 個專利(美國與臺灣)保護"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-14",
+   "field": "rd",
+   "statement": "2025年度研發費用為新臺幣457,691仟元。",
+   "period": "114年度（2025）",
+   "page": 61,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024 年度 2025 年度 2026 年",
+    "研發費用(A) 368,744 457,691 157,515"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-15",
+   "field": "rd",
+   "statement": "2025年度研發費用占營業收入淨額比率（(A)/(B)）為28.78%。",
+   "period": "114年度（2025）",
+   "page": 61,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "2024 年度 2025 年度 2026 年",
+    "營業收入淨額(B) 858,732 1,590,527 533,313",
+    "(A)/(B) 42.94% 28.78% 29.54%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-16",
+   "field": "major_customers",
+   "statement": "2025年度對某客戶（客戶 A）銷貨金額為新台幣647,548仟元，占全年度銷貨淨額40.71%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度銷貨\n淨額比率(%)",
+    "客戶 A 647,548 40.71"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-17",
+   "field": "major_customers",
+   "statement": "2025年度對某客戶（客戶 C）銷貨金額為新台幣274,396仟元，占全年度銷貨淨額17.25%，與發行人之關係列為關係人。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度銷貨\n淨額比率(%)",
+    "客戶 C 274,396 17.25 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-18",
+   "field": "major_customers",
+   "statement": "2024年度對某客戶（客戶 C）銷貨金額為新台幣246,427仟元，占全年度銷貨淨額28.70%，與發行人之關係列為關係人。",
+   "period": "113年度（2024）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度銷貨\n淨額比率(%)",
+    "客戶 C  246,427 28.70 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-19",
+   "field": "major_customers",
+   "statement": "2024年度對某客戶（客戶 A）銷貨金額為新台幣244,838仟元，占全年度銷貨淨額28.51%。",
+   "period": "113年度（2024）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度銷貨\n淨額比率(%)",
+    "客戶 A  244,838 28.51"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-20",
+   "field": "major_suppliers",
+   "statement": "2025年度對某供應商（供應商 甲）進貨金額為新台幣273,152仟元，占全年度進貨淨額63.55%，與發行人之關係列為關係人。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度進\n貨淨額比率\n(%)",
+    "供應商 甲 273,152 63.55 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-21",
+   "field": "major_suppliers",
+   "statement": "2025年度對某供應商（供應商 乙）進貨金額為新台幣154,210仟元，占全年度進貨淨額35.88%，與發行人之關係列為關係人。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度進\n貨淨額比率\n(%)",
+    "供應商 乙 154,210 35.88 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-22",
+   "field": "major_suppliers",
+   "statement": "2024年度對某供應商（供應商 甲）進貨金額為新台幣109,652仟元，占全年度進貨淨額98.17%，與發行人之關係列為關係人。",
+   "period": "113年度（2024）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2024 年度 2025 年度 2026 年第一季",
+    "占全年度進\n貨淨額比率\n(%)",
+    "供應商 甲 109,652 98.17 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-23",
+   "field": "employees",
+   "statement": "2025年度員工人數合計為166人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "2024 年度 2025 年度 2026 年",
+    "合   計 157 166 166"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  },
+  {
+   "id": "7749-AR-24",
+   "field": "outlook",
+   "statement": "年報載明公司已展開與Tier 1車廠的深度合作計畫，目標於一至兩年內實現量產。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "已展開與 T i e r  1  車廠的深度合作計畫，目標於一至兩年內實現\n量產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:42+00:00"
+   }
+  }
+ ]
+}

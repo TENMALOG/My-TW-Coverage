@@ -1,0 +1,617 @@
+{
+ "ticker": "8150",
+ "company": "南茂",
+ "legal_name": "南茂科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=8150&filename=2025_8150_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_8150_20260526F04.pdf",
+  "text_sha256": "24c7657e7630881b657644c28fae4018c7d235639522b8e94d09b4351fe0990a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/24c7657e7630881b657644c28fae4018c7d235639522b8e94d09b4351fe0990a.txt"
+ },
+ "facts": [
+  {
+   "id": "8150-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明公司主要業務為從事各種積體電路之封裝及測試服務，同時也提供客戶全段加工及配貨之服務。",
+   "period": "年報刊印時",
+   "page": 80,
+   "excerpts": [
+    "本公司主要業務為從事各種積體電路之封裝及測試服務，同時也提供客戶 全段加工及配貨之服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度封裝部門營業收入為新台幣6,827,404仟元，占28.53%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "112年度 113 年度 114 年度",
+    "封 裝 4,629,430 21.68 5,390,447 23.75 6,827,404 28.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度測試部門營業收入為新台幣5,677,923仟元，占23.72%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "112年度 113 年度 114 年度",
+    "測 試 4,394,726 20.58 4,967,849 21.89 5,677,923 23.72"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度平面顯示器驅動 IC 部門營業收入為新台幣5,869,849仟元，占24.53%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "112年度 113 年度 114 年度",
+    "平面顯示器驅動 IC 7,821,640 36.62 7,318,997 32.25 5,869,849 24.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度晶圓凸塊部門營業收入為新台幣5,557,724仟元，占23.22%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "112年度 113 年度 114 年度",
+    "晶圓凸塊 4,510,432 21.12 5,018,616 22.11 5,557,724 23.22"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-06",
+   "field": "products",
+   "statement": "年報載明主要產品包括多晶片封裝（Multi-Chip）、TSOP、BGA、DFN/QFN、COF、COG 及 COP 等之封裝及測試代工，以及晶圓凸塊製造（Bumping）、WLCSP／覆晶封裝技術（Flip Chip）。",
+   "period": "年報刊印時",
+   "page": 80,
+   "excerpts": [
+    "本公司主要的產品有多晶片封裝（ Multi-Chip），超薄小型晶粒承載器積體電路（ TSOP）、錫球陣列封裝（ BGA）、DFN/QFN、捲帶式薄膜覆晶封裝（COF）、玻璃覆晶（ COG）及塑膠基板覆晶（ COP）等之封裝及測試代工和晶圓凸塊製造（ Bumping）、晶圓級晶片尺寸封裝（ WLCSP）/覆晶封裝技術（Flip Chip）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣20,784,731仟元，占86.85%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度 金額 比率（%） 金額 比率（%）",
+    "內銷 18,079,388 79.66 20,784,731 86.85"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度外銷亞洲金額為新台幣2,690,379仟元，占11.24%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度 金額 比率（%） 金額 比率（%）",
+    "外銷 亞洲 4,070,863 17.94 2,690,379 11.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區美洲金額為新台幣440,433仟元，占1.84%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度 金額 比率（%） 金額 比率（%）",
+    "美洲 490,561 2.16 440,433 1.84"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-10",
+   "field": "export_share",
+   "statement": "114年度外銷小計金額為新台幣3,148,169仟元，占13.15%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年度 114 年度 金額 比率（%） 金額 比率（%）",
+    "小計 4,616,521 20.34 3,148,169 13.15"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-11",
+   "field": "market_position",
+   "statement": "公司年報引述工研院 IEK 統計，114年台灣 IC 封測產值約為新台幣7,111億元，並稱公司114年合併營收約為新台幣239億元，約占台灣產值3.4%。",
+   "period": "114年（2025）",
+   "page": 89,
+   "excerpts": [
+    "依據工研院 IEK 統計資料顯示，114 年台灣 IC 封測產值約為新台幣 7,111億元，本公司 114年合併營收約為新台幣 239億元，約占台灣產值 3.4%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述現為世界前十大封測廠之一。",
+   "period": "年報刊印時",
+   "page": 84,
+   "excerpts": [
+    "現是世界前十大封測廠之"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報稱，台灣 LCD 驅動 IC 封測產業經整併後，目前主要僅存頎邦和南茂2家廠商。",
+   "period": "年報刊印時",
+   "page": 84,
+   "excerpts": [
+    "經整併後，目前主要僅存頎邦和南茂 2 家廠商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-14",
+   "field": "major_customers",
+   "statement": "公司於年報自述與 Micron 維持長期緊密合作關係，並共同開發下一世代產品。",
+   "period": "年報刊印時",
+   "page": 84,
+   "excerpts": [
+    "本公司與 Micron 維持長期緊密合作關係，並共同開發下一世代產品"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-15",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號：客戶 A）銷貨金額為新台幣5,393,013仟元，占全年度銷貨淨額22.53%。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 1 1 4 年度 1 1 5 年度截至前一季止（註）",
+    "客戶 A 5,376,979 23.69 無 客戶 A 5,393,013 22.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-16",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號：客戶 K）銷貨金額為新台幣3,673,340仟元，占全年度銷貨淨額15.35%。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 1 1 4 年度 1 1 5 年度截至前一季止（註）",
+    "客戶 K 2,487,062 10.96 無 客戶 K 3,673,340 15.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度供應商台灣銀行進貨金額為新台幣3,045,682仟元，占全年度進貨淨額37.66%。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 1 1 4 年度 1 1 5 年度截至前一季止（註）",
+    "1 台灣銀行 2,547,692 40.09 無 台灣銀行 3,045,682 37.66 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-18",
+   "field": "major_suppliers",
+   "statement": "114年度供應商 TANAKA 進貨金額為新台幣821,315仟元，占全年度進貨淨額10.16%。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113年度 1 1 4 年度 1 1 5 年度截至前一季止（註）",
+    "2 TANAKA 458,633 7.22 無 TANAKA 821,315 10.16 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-19",
+   "field": "raw_materials",
+   "statement": "年報載明主要原料有金鹽（氰化金鉀）、基板（Substrate）、金線（Gold Wire）、導線架（Lead Frame）、樹脂（Molding Compound）等。",
+   "period": "年報刊印時",
+   "page": 95,
+   "excerpts": [
+    "本公司主要原料有金鹽（氰化金鉀）、基板（Substrate）、金線（Gold Wire）、導線架（Lead Frame）、樹脂（Molding Compound）等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計為5,740人。",
+   "period": "114年度（2025）",
+   "page": 97,
+   "excerpts": [
+    "年度 1 1 3 年度 1 1 4 年度 當年度截至 115年 3 月 31 日",
+    "合計 5,890 5,740 5,833"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-21",
+   "field": "employees",
+   "statement": "截至115年3月31日員工人數合計為5,833人。",
+   "period": "截至115年3月31日",
+   "page": 97,
+   "excerpts": [
+    "年度 1 1 3 年度 1 1 4 年度 當年度截至 115年 3 月 31 日",
+    "合計 5,890 5,740 5,833"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-22",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣1,077,016仟元。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 114年度 截至 115年 3 月 31 日",
+    "A. 研發費用 1,077,016"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-23",
+   "field": "rd",
+   "statement": "年報載明公司目前已取得國內外515項專利權。",
+   "period": "年報刊印時",
+   "page": 89,
+   "excerpts": [
+    "已取得國內外 515 項專利權"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-24",
+   "field": "established",
+   "statement": "年報載明公司致力封測業務已有30餘年歷史，肇始於民國75年茂矽電子後段工程處，至民國86年正式獨立於茂矽電子之外。",
+   "period": "民國75年至86年",
+   "page": 84,
+   "excerpts": [
+    "本公司及子公司致力於封測業務已有 30 餘年的歷史，肇始於 75 年茂矽電子後段工程處，至 86 年正式獨立於茂矽電子之外"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  },
+  {
+   "id": "8150-AR-25",
+   "field": "outlook",
+   "statement": "年報載明公司及子公司未來除持續增加高階記憶體之封裝測試服務產能外，亦將提升及增加特定領域產品之封裝測試技術與產能。",
+   "period": "年報刊印時（計畫）",
+   "page": 80,
+   "excerpts": [
+    "本公司及子公司未來除了持續增加高階記憶體之封裝測試服務產能"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:32+00:00"
+   }
+  }
+ ]
+}

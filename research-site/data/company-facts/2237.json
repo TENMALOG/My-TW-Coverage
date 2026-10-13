@@ -1,0 +1,584 @@
+{
+ "ticker": "2237",
+ "company": "華德動能",
+ "legal_name": "華德動能科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2237&filename=2025_2237_20260618F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2237_20260618F04.pdf",
+  "text_sha256": "309ef21d863c15a3f1537d6d7014e41b93b3bfe73a032aa4e7b8e9cc9a860656",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/309ef21d863c15a3f1537d6d7014e41b93b3bfe73a032aa4e7b8e9cc9a860656.txt"
+ },
+ "facts": [
+  {
+   "id": "2237-AR-01",
+   "field": "business_scope",
+   "statement": "年報列示公司所營業務項目包括電池製造業、汽車及其零件製造業、汽車批發業、租賃業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "電池製造業",
+    "汽車及其零件製造業",
+    "汽車批發業",
+    "18 租賃業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度電動巴士銷售額為1,921,997仟元（原文未載幣別），營業比重為92%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "民國 114 年",
+    "銷售額 ( 仟元 ) 營業比重",
+    "電動巴士 1,921,997 92%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度「其他」項目銷售額為173,973仟元（原文未載幣別），營業比重為8%。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "民國 114 年",
+    "銷售額 ( 仟元 ) 營業比重",
+    "其他 173,973 8%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-04",
+   "field": "products",
+   "statement": "年報列示公司目前之商品（服務）項目為甲類電動大客車、乙類電動大客車及充電場站智慧電網電能管理系統。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "甲類電動大客車",
+    "乙類電動大客車",
+    "充電場站智慧電網電能管理系統"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-05",
+   "field": "products",
+   "statement": "年報列示計畫開發之新商品（服務）項目為乙類低地板電動大客車、甲類高床電動大客車、18噸環衛車及儲能系統。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "計畫開發之新商品",
+    "乙類低地板電動大客車",
+    "甲類高床電動大客車",
+    "18 噸環衛車",
+    "儲能系統"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣1,966,124仟元，占銷售地區表合計93.80%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位 : 新台幣仟元",
+    "113 年 114 年 項 目 金額 % 金額 %",
+    "內 銷 1,147,826 89% 1,966,124 93.80%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-07",
+   "field": "export_share",
+   "statement": "114年度外銷金額為新台幣129,846仟元，占銷售地區表合計6.20%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位 : 新台幣仟元",
+    "113 年 114 年 項 目 金額 % 金額 %",
+    "外銷 139,389 11% 129,846 6.20%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述累計已生產1,000輛電動巴士，市占率為全台第一。",
+   "period": "截至114年度年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "本公司累 計已生產 1,000 輛電動巴士，市占率為全台第一"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報致股東報告書自述其電巴系統目前已超越日本電動巴士市占率10%。",
+   "period": "截至114年度年報刊印日",
+   "page": 5,
+   "excerpts": [
+    "華德電巴系統目前已超越日本 電動巴士巿占率10％"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-10",
+   "field": "capacity_or_production",
+   "statement": "114年度銷售電動大巴205輛。",
+   "period": "114年度（2025）",
+   "page": 6,
+   "excerpts": [
+    "114 年銷售電動大巴 205 輛"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-11",
+   "field": "capacity_or_production",
+   "statement": "114年度銷售外銷底盤三電系統27套。",
+   "period": "114年度（2025）",
+   "page": 6,
+   "excerpts": [
+    "114 年銷售電動大巴 205 輛及外銷底盤三電系統 27 套"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-12",
+   "field": "history",
+   "statement": "年報載明114年度為公司併購銓鼎科技後的首個完整營運年度。",
+   "period": "114年度（2025）",
+   "page": 5,
+   "excerpts": [
+    "114 年度為本公司併購銓鼎科技後的首個完整營運年度"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-13",
+   "field": "outlook",
+   "statement": "公司於年報表示已於114年12月向台灣證券交易所遞件申請創新板（TIB）上市，預計於115年完成掛牌。",
+   "period": "截至114年度年報刊印日",
+   "page": 6,
+   "excerpts": [
+    "本公司已於 114 年 12 月正式 向台灣證券交易所遞件申請「創新板 (TIB)」上市，預計於 115 年完成掛牌"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-14",
+   "field": "outlook",
+   "statement": "年報列示短期發展計畫包括爭取地區性客運業者之業務、開拓商用貨車之業務及三電底盤車輸出、開拓海外市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "(1) 短期發展計畫",
+    "爭取地區性客運業者之業務",
+    "開拓商用貨車之業務",
+    "三電底盤車輸出，開拓海外市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-15",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣88,349仟元，占營收淨額比例4.21%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "單位 : 新台幣仟元",
+    "年度 110 年 111 年 112 年 113 年 114 年",
+    "研發費用 48,533 37,138 67,970 79,534 88,349",
+    "佔營收淨額比例 15.12% 4.08% 3.58% 6.18% 4.21%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-16",
+   "field": "employees",
+   "statement": "114年度員工人數合計為281人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "年度 113 年 114 年 115 年截至",
+    "合計 238 281 284"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度向車王電子股份有限公司進貨金額為新台幣449,424仟元，占全年度進貨淨額28%，年報載明其為本公司之母公司。",
+   "period": "114年度（2025）",
+   "page": 91,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "113 年 114 年 115 年第一季",
+    "占全年度 進貨淨額 比率〔%〕",
+    "車王電子 股份有限 公司 449,424 28% 本公司之 母公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-18",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號M）銷貨金額為新台幣395,400仟元，占全年度銷貨淨額19%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "113 年 114 年 115 年第一季",
+    "占全年度 銷貨淨額 比率〔%〕",
+    "M 395,400 19%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-19",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號O）銷貨金額為新台幣300,808仟元，占全年度銷貨淨額15%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "113 年 114 年 115 年第一季",
+    "占全年度 銷貨淨額 比率〔%〕",
+    "O 300,808 15%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-20",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號J）銷貨金額為新台幣257,896仟元，占全年度銷貨淨額12%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "113 年 114 年 115 年第一季",
+    "占全年度 銷貨淨額 比率〔%〕",
+    "J 257,896 12%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-21",
+   "field": "major_customers",
+   "statement": "114年度某客戶（代號A）銷貨金額為新台幣235,734仟元，占全年度銷貨淨額11%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單 位 ： 新 台 幣 仟 元 ； %",
+    "113 年 114 年 115 年第一季",
+    "占全年度 銷貨淨額 比率〔%〕",
+    "A 235,734 11%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-22",
+   "field": "raw_materials",
+   "statement": "年報「主要原料之供應狀況」列示電動巴士關鍵零件包括馬達與驅動系統、電池組等，公司於年報自述其中馬達與驅動系統及電池組之供應狀況均為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "主要原料之供應狀況",
+    "馬達與驅動系統整車動力傳動來源 良好",
+    "電池組 提供電動車動力來源 良好"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2237-AR-23",
+   "field": "market_position",
+   "statement": "公司年報引述Markets and Markets 2024年7月出版之研究報告：預期全球電動巴士市場規模將從2024年的170億美元成長到2030年的375億美元，複合年成長率為14.2%。",
+   "period": "2024年至2030年（預期）",
+   "page": 78,
+   "excerpts": [
+    "Markets and Markets 2024年7月出版的研究報告市場預期在2030年的全球電動 巴⼠市場規模將從2024年的170億美元成長到2030年的 375億美元，複合年成長率為14.2%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  }
+ ]
+}

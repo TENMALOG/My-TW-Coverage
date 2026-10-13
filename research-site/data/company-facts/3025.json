@@ -1,0 +1,526 @@
+{
+ "ticker": "3025",
+ "company": "星通",
+ "legal_name": "星通資訊股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3025&filename=2025_3025_20260626F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3025_20260626F04.pdf",
+  "text_sha256": "b5aac8054b4936f0ba4e5b28102a430dc1a15e33dc9813450d86652185274622",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b5aac8054b4936f0ba4e5b28102a430dc1a15e33dc9813450d86652185274622.txt"
+ },
+ "facts": [
+  {
+   "id": "3025-AR-01",
+   "field": "business_scope",
+   "statement": "公司所營業務包括電信管制射頻器材製造業、資訊軟體服務業、資料儲存媒體製造及複製業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "CC01100電信管制射頻器材製造業",
+    "I301010資訊軟體服務業",
+    "CC01120資料儲存媒體製造及複製業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-02",
+   "field": "products",
+   "statement": "公司所營業務包括研究、開發、生產、製造、銷售用戶迴路遙測介面器、保安器及其組件、專線反應器及其組件等產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "一、研究、開發、生產、製造、銷售下列產品：",
+    "1.用戶迴路遙測介面器、保安器及其組件。",
+    "2.專線反應器及其組件。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-03",
+   "field": "sales_regions",
+   "statement": "114年度銷售區域內銷銷售金額為新台幣150,061仟元，占比22%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度112年度113年度114年度",
+    "銷售區域銷售金額%銷售金額%",
+    "內銷204,48032161,23725150,06122"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：22"
+    ],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度銷售區域美洲（外銷）銷售金額為新台幣181,252仟元，占比27%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度112年度113年度114年度",
+    "銷售區域銷售金額%銷售金額%",
+    "外銷美洲118,74118234,41936181,25227"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：27"
+    ],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度銷售區域歐洲銷售金額為新台幣224,409仟元，占比33%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度112年度113年度114年度",
+    "銷售區域銷售金額%銷售金額%",
+    "歐洲209,89432177,65027224,40933"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：33"
+    ],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度銷售區域亞洲銷售金額為新台幣94,668仟元，占比14%。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年度112年度113年度114年度",
+    "銷售區域銷售金額%銷售金額%",
+    "亞洲87,2221461,5161094,66814"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：14"
+    ],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-07",
+   "field": "market_position",
+   "statement": "公司於年報揭露，整體產品占台灣通訊產業整體產值之市占率約為0.05%（市占率或占比為公司依前述統計自行計算）。",
+   "period": "截至114年度年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "b.市場佔有率：",
+    "整體產品佔台灣通訊產業整體產值之市佔率約為0.05%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報列舉其在全球的主要競爭對手包括Hitachi (ABB)、Nokia (Alcatel-Lucent)、Cisco、Huawei等設備大廠。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "本公司在全球的主要競爭對手包括Hitachi(ABB),Nokia(Alcatel-Lucent),Cisco,Huawei等設備大廠"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-09",
+   "field": "major_customers",
+   "statement": "114年度某客戶（E）銷貨金額為新台幣159,422仟元，占全年度銷貨淨額比率23.52%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度銷貨淨額比",
+    "1E208,76332.12無E159,42223.52無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-10",
+   "field": "major_customers",
+   "statement": "114年度某客戶（A）銷貨金額為新台幣129,402仟元，占全年度銷貨淨額比率19.09%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度銷貨淨額比",
+    "2F90,88413.98無A129,40219.09無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-11",
+   "field": "major_customers",
+   "statement": "114年度某客戶（C）銷貨金額為新台幣89,442仟元，占全年度銷貨淨額比率13.20%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度銷貨淨額比",
+    "3A79,15012.18無C89,44213.20無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-12",
+   "field": "major_customers",
+   "statement": "113年度某客戶（E）銷貨金額為新台幣208,763仟元，占全年度銷貨淨額比率32.12%。",
+   "period": "113年度（2024）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度銷貨淨額比",
+    "1E208,76332.12無E159,42223.52無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度供應商文曄進貨金額為新台幣41,199仟元，占全年度進貨淨額比率25.62%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度進貨淨額比",
+    "1安富利19,46018.40無文曄41,19925.62無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度供應商慶生進貨金額為新台幣12,240仟元，占全年度進貨淨額比率7.61%。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度進貨淨額比",
+    "2文曄17,83416.87無慶生12,2407.61無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-15",
+   "field": "major_suppliers",
+   "statement": "113年度供應商安富利進貨金額為新台幣19,460仟元，占全年度進貨淨額比率18.40%。",
+   "period": "113年度（2024）",
+   "page": 88,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年114年",
+    "占全年度進貨淨額比",
+    "1安富利19,46018.40無文曄41,19925.62無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-16",
+   "field": "employees",
+   "statement": "114年度從業員工人數合計為152人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "年度113年度114年度當年度截至",
+    "合計159人152人153人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣167,185仟元。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位:新臺幣仟元",
+    "項目/年度109年度110年度111年度112年度113年度114年度",
+    "研發費用139,363140,729134,715152,224158,505167,185"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-18",
+   "field": "rd",
+   "statement": "114年度研發費用佔營業淨額之比例為25%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "項目/年度109年度110年度111年度112年度113年度114年度",
+    "研發費用佔營業淨額",
+    "23%27%31%23%24%25%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-19",
+   "field": "outlook",
+   "statement": "公司於年報自述其目標是挺進公用事業市場前三大，成為MCC傳輸解決方案的第一品牌。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "我們的目標是挺進公用事業市場前三大，成為MCC傳輸解決方案的第一品牌"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  },
+  {
+   "id": "3025-AR-20",
+   "field": "outlook",
+   "statement": "公司短期業務發展以訂單生產為主，並規劃開發高附加價值之新產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "短期發展以訂單生產為主",
+    "開發高附加價值之新產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:37:06+00:00"
+   }
+  }
+ ]
+}

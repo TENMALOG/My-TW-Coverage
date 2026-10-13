@@ -1,0 +1,606 @@
+{
+ "ticker": "2227",
+ "company": "裕日車",
+ "legal_name": "裕隆日產汽車股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2227&filename=2025_2227_20260626F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2227_20260626F04.pdf",
+  "text_sha256": "6c1fbcf0aef8f919ed1c00a20d56dc334031d95d9495666cb17fd366cb48969e",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6c1fbcf0aef8f919ed1c00a20d56dc334031d95d9495666cb17fd366cb48969e.txt"
+ },
+ "facts": [
+  {
+   "id": "2227-AR-01",
+   "field": "business_scope",
+   "statement": "公司主要營業項目包括汽車產品的設計、研究開發、銷售及其零配件銷售。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "公司主要營業項目包括下述各項汽車產品的設計、研究開發、 銷售及其零配件銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-02",
+   "field": "business_scope",
+   "statement": "公司年報載明其營業項目分為乘用車部分（轎車、休旅車及其零組件）與商用車部分（柴油貨車、柴油底盤車及其零組件）。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "A.乘用車部分：轎車、休旅車及其零組件",
+    "B.商用車部分：柴油貨車、柴油底盤車及其零組件"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度成車營業收入為11,712,339仟元，營業比重為77.40%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "(2)營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "成 車 19,488,401 84.25 11,712,339 77.40"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度零件營業收入為3,235,965仟元，營業比重為21.39%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "(2)營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "零 件 3,432,760 14.84 3,235,965 21.39"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度其他類營業收入為183,769仟元，營業比重為1.21%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "(2)營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "其 他 210,855 0.91 183,769 1.21"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-06",
+   "field": "products",
+   "statement": "公司目前主要產品之 NISSAN 部分包括 KICKS 車系、SENTRA 車系、X-TRAIL 車系及 ARIYA 車系等。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "A. NISSAN 部分：",
+    "KICKS 車系",
+    "SENTRA 車系",
+    "X-TRAIL 車系",
+    "ARIYA 車系：進口電動車"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-07",
+   "field": "products",
+   "statement": "公司目前主要產品之 INFINITI 部分包括 QX50 車系、QX55 車系及 QX60 車系。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "B. INFINITI 部分：",
+    "QX50 車系",
+    "QX55 車系",
+    "QX60 車系"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-08",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣286,250仟元。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "研發費用 351,548 286,250 59,637"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-09",
+   "field": "rd",
+   "statement": "114年度研發費用占銷貨淨額比例為1.9%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "研發費用佔銷貨淨額 比例 1.5% 1.9% 1.3%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-10",
+   "field": "rd",
+   "statement": "公司年報揭露，民國114年5月完成 X-TRAIL、KICKS、SENTRA 涼夏特仕車型開發。",
+   "period": "民國114年5月",
+   "page": 75,
+   "excerpts": [
+    "(40)民國 114 年 5 月完成 X-TRAIL、KICKS、SENTRA 涼夏特仕車型開發"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-11",
+   "field": "business_scope",
+   "statement": "公司年報表示，持續與日本原廠 NISSAN 密切合作與溝通，導入符合市場需求之新產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "持續與日本原廠 NISSAN 密切 合作與溝通，導入符合市場需求之新產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-12",
+   "field": "rd",
+   "statement": "公司年報表示，預計投入之研發費用115年度為新台幣224,379仟元。",
+   "period": "115年度（2026，預計）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "115 年度 116 年度 117 年度",
+    "224,379 334,440 382,650"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-13",
+   "field": "rd",
+   "statement": "公司年報表示，預計投入之研發費用116年度為新台幣334,440仟元。",
+   "period": "116年度（2027，預計）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "115 年度 116 年度 117 年度",
+    "224,379 334,440 382,650"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-14",
+   "field": "rd",
+   "statement": "公司年報表示，預計投入之研發費用117年度為新台幣382,650仟元。",
+   "period": "117年度（2028，預計）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "115 年度 116 年度 117 年度",
+    "224,379 334,440 382,650"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-15",
+   "field": "outlook",
+   "statement": "公司年報表示，未來將於115至116年間完成9個 NPS 旗艦形象據點建置。",
+   "period": "115年至116年（計畫）",
+   "page": 77,
+   "excerpts": [
+    "未來將於115 至 116 年間完成 9 個 NPS 旗艦形象據點建置"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-16",
+   "field": "sales_regions",
+   "statement": "公司年報表示，主要銷售地區係以台灣地區為主，並持續拓展亞洲市場如日本與中國大陸等地區零件外銷。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "主要銷售地區係以台灣地區為主，並持續拓展亞洲市場如日本與中國大陸等地區零 件外銷"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-17",
+   "field": "capacity_or_production",
+   "statement": "114年公司 NISSAN 品牌銷售12,886台。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "本公司 114 年 NISSAN 品牌銷售 12,886 台"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-18",
+   "field": "capacity_or_production",
+   "statement": "114年公司 INFINITI 品牌銷售231台。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "本公司 114 年 NISSAN 品牌銷售 12,886 台，INFINITI 品牌銷售 231 台"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-19",
+   "field": "market_position",
+   "statement": "年報表示，114年總市場銷量為405,358輛。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "114 年總市場銷量 405,358 輛"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-20",
+   "field": "major_suppliers",
+   "statement": "113年度向裕隆汽車製造(股)公司進貨金額為19,723,712仟元，占全年度進貨淨額99%，年報載明與發行人關係為關係人。",
+   "period": "113年度（2024）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年 度進貨 淨額比 率〔%〕",
+    "裕隆汽 車製造 (股)公司 19,723,712 99 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-21",
+   "field": "major_suppliers",
+   "statement": "114年度向裕隆汽車製造(股)公司進貨金額為13,117,387仟元，占全年度進貨淨額99%，年報載明與發行人關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年 度進貨 淨額比 率〔%〕",
+    "裕隆汽 車製造 (股)公司 13,117,387 99 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-22",
+   "field": "major_customers",
+   "statement": "113年度對裕融企業(股)公司的銷貨金額為19,474,010仟元，占全年度銷貨淨額84%，年報載明與發行人關係為關係人。",
+   "period": "113年度（2024）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年 度銷貨 淨額比 率〔%〕",
+    "裕融企 業(股) 公司 19,474,010 84 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-23",
+   "field": "major_customers",
+   "statement": "114年度對裕融企業(股)公司的銷貨金額為11,668,784仟元，占全年度銷貨淨額77%，年報載明與發行人關係為關係人。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年度 114 年度 115 年度截至前一季止",
+    "占全年 度銷貨 淨額比 率〔%〕",
+    "裕融企 業(股) 公司 11,668,784 77 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2227-AR-24",
+   "field": "employees",
+   "statement": "114年度員工人數合計為303人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 81,
+   "excerpts": [
+    "113 年度 114 年度",
+    "合計 366 303 280"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  }
+ ]
+}

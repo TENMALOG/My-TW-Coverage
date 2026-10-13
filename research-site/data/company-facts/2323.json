@@ -1,0 +1,494 @@
+{
+ "ticker": "2323",
+ "company": "中環",
+ "legal_name": "中環股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2323&filename=2025_2323_20260611F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2323_20260611F04.pdf",
+  "text_sha256": "89fd59be56d0831743b976ec535efd8decc124ceb28465375de4aea168e20712",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/89fd59be56d0831743b976ec535efd8decc124ceb28465375de4aea168e20712.txt"
+ },
+ "facts": [
+  {
+   "id": "2323-AR-01",
+   "field": "business_scope",
+   "statement": "公司於年報載明所營業務主要以光電及週邊產品為主。",
+   "period": "年報刊印時",
+   "page": 59,
+   "excerpts": [
+    "本公司所營業務主要以光電及週邊產品為主。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度光電及週邊產品佔營業收入比例為92.39%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "項 目 佔113年度營業收入比例 佔114年度營業收入比例",
+    "光電及週邊產品 92.69% 92.39%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度其他項目佔營業收入比例為7.61%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "項 目 佔113年度營業收入比例 佔114年度營業收入比例",
+    "其 他 7.31% 7.61%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-04",
+   "field": "products",
+   "statement": "公司年報列示主要營業項目及產銷之產品包括光電產品之製造與買賣、其他電子商品買賣，以及影視產品之製作發行與銷售相關業務及商場事業。",
+   "period": "年報刊印時",
+   "page": 59,
+   "excerpts": [
+    "光電產品之製造與買賣",
+    "其他電子商品買賣",
+    "影視產品之製作發行與銷售相關業務及商場事業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-05",
+   "field": "products",
+   "statement": "公司於年報列為未來計畫開發項目之一為研發300GB、500GB多層光碟與1.5TB以上全像光碟。",
+   "period": "年報刊印時之開發計畫",
+   "page": 59,
+   "excerpts": [
+    "4.未來計畫開發之項目",
+    "研發300GB、500GB多層光碟與 1.5TB 以上全像光碟"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-06",
+   "field": "established",
+   "statement": "公司年報載明公司自67年成立以來即致力於儲存媒體之研發生產。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "本公司自 67 年成立以來即致力於儲存媒體之研發生產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-07",
+   "field": "history",
+   "statement": "公司年報載明公司於108年底取得 Verbatim 品牌及全球銷售通路。",
+   "period": "108年底（2019）",
+   "page": 66,
+   "excerpts": [
+    "本公司於 108 年底取得 Verbatim 品牌及全球銷售通路"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述其生產的技術及穩定的品質維持產業龍頭的地位。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "生產的技術及",
+    "穩定的品質維持產業龍頭的地位"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述2025年FTI退出光碟產品之生產與銷售後，公司成功承接其既有客戶與通路資源。",
+   "period": "114年度（2025）",
+   "page": 67,
+   "excerpts": [
+    "2025 年 FTI 亦退出光碟產品之生產與銷售，本公司成功承接其既有客戶與通路資源"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-10",
+   "field": "history",
+   "statement": "公司於年報自述其與國外知名大廠如Mitsubishi Chemical Corportion、Pioneer 等進行技術合作。",
+   "period": "年報刊印時",
+   "page": 67,
+   "excerpts": [
+    "並與國外知名大廠如Mitsubishi Chemical Corportion、Pioneer 等進行技術合作"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-11",
+   "field": "raw_materials",
+   "statement": "公司年報載明其分別向台灣、中東、德國、泰國等地區採購PC料。",
+   "period": "年報刊印時",
+   "page": 73,
+   "excerpts": [
+    "本公司分別向台灣、中東、德國、泰國等地區採購PC 料"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-12",
+   "field": "raw_materials",
+   "statement": "公司年報載明半數以上的靶材由台灣供應商供應，靶材主要直接材料為白銀。",
+   "period": "年報刊印時",
+   "page": 73,
+   "excerpts": [
+    "半數以上的靶材，由台灣供應商供應",
+    "靶材主要直接材料為白銀"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-13",
+   "field": "raw_materials",
+   "statement": "公司年報載明染料的製造商位於大陸，由台灣代理商出貨。",
+   "period": "年報刊印時",
+   "page": 73,
+   "excerpts": [
+    "染料 台灣、大陸",
+    "製造商位於大陸，由台灣代理商出貨"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-14",
+   "field": "major_suppliers",
+   "statement": "年報載明最近兩年度未有單一超過10%之供應商。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "最近兩年度未有單一超過 10%之供應商。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-15",
+   "field": "major_customers",
+   "statement": "114年度某客戶（A）銷貨金額為新台幣833,360仟元，占全年度銷貨淨額12%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷 貨淨額比率 〔%〕",
+    "A 957,657 13 無 A 833,360 12 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-16",
+   "field": "major_customers",
+   "statement": "113年度某客戶（A）銷貨金額為新台幣957,657仟元，占全年度銷貨淨額13%。",
+   "period": "113年度（2024）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷 貨淨額比率 〔%〕",
+    "A 957,657 13 無 A 833,360 12 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-17",
+   "field": "employees",
+   "statement": "114年度公司員工人數合計為485人，年報註明係本公司個體員工平均人數。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "年度 113 年度 114 年度 當年度截至",
+    "合計 546 485 501",
+    "註：上表係本公司個體員工平均人數。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-18",
+   "field": "rd",
+   "statement": "114年度公司研發金額為新台幣87,404仟元。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項 目 113 年 度 114 年 度 當年度截至",
+    "研發金額 $357,499 $87,404 13,585"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-19",
+   "field": "rd",
+   "statement": "114年度公司研發金額佔營業收入百分比為1.22%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "項 目 113 年 度 114 年 度 當年度截至",
+    "佔營業收入百分比 4.81% 1.22% 0.66%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  },
+  {
+   "id": "2323-AR-20",
+   "field": "outlook",
+   "statement": "公司短期業務策略包括持續擴充儲存媒體及電腦周邊產品線。",
+   "period": "年報所述短期業務策略",
+   "page": 65,
+   "excerpts": [
+    "1.短期業務策略",
+    "持續擴充儲存媒體及電腦周邊產品線"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:06:55+00:00"
+   }
+  }
+ ]
+}

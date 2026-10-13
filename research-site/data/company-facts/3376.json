@@ -1,0 +1,512 @@
+{
+ "ticker": "3376",
+ "company": "新日興",
+ "legal_name": "新日興股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3376&filename=2025_3376_20260609F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3376_20260609F04.pdf",
+  "text_sha256": "869b192d0dc402e6c2f8362ea2a5e189841b146a0fb366dfc05ba6fb14e5642d",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/869b192d0dc402e6c2f8362ea2a5e189841b146a0fb366dfc05ba6fb14e5642d.txt"
+ },
+ "facts": [
+  {
+   "id": "3376-AR-01",
+   "field": "business_scope",
+   "statement": "年報所營業務主要內容列有各種線類及板類彈簧製造銷售等。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "(1) 各種線類及板類彈簧製造銷售。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-02",
+   "field": "products",
+   "statement": "年報載明集團所營之主要業務為各類樞紐製件、MIM製件（金屬射出成型）、車铣製件及沖製彈簧製件等之研發、設計、生產及銷售。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "集團所營之主要業務為各類樞紐製件、MIM 製件(金屬射出成型）、車铣製\n件及沖製彈簧製件等之研發、設計、生產及銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度樞紐產品銷售金額為10,261,917仟元，營業比重96%。",
+   "period": "114年度（2025）",
+   "page": 65,
+   "excerpts": [
+    "2. 營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "樞紐產品 12,845,711 96% 10,261,917 96%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度車铣製件產品銷售金額為118,813仟元，營業比重1%。",
+   "period": "114年度（2025）",
+   "page": 65,
+   "excerpts": [
+    "2. 營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "車铣製件產品 112,829 1% 118,813 1%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度MIM（金屬射出成型）銷售金額為200,183仟元，營業比重2%。",
+   "period": "114年度（2025）",
+   "page": 65,
+   "excerpts": [
+    "2. 營業比重",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "MIM（金屬射出成型） 178,218 1% 200,183 2%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度台灣地區銷售額為373,665仟元，占銷售地區表合計4%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "地 區 113 年度 114 年度",
+    "台 灣 271,176 2% 373,665 4%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度亞洲地區銷售額為10,193,708仟元，占銷售地區表合計95%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "地 區 113 年度 114 年度",
+    "亞 洲 12,934,172 97% 10,193,708 95%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度美洲地區銷售額為140,873仟元，占銷售地區表合計1%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元；%",
+    "地 區 113 年度 114 年度",
+    "美 洲 109,401 1% 140,873 1%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-09",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶表列示A公司（年報以代號呈現），銷貨金額為2,015,690仟元，占全年度銷貨淨額19%。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "最近二年度任一年度中曾占銷貨總額 百分之十以上之客戶名稱及其銷貨金額",
+    "單位：新台幣仟元",
+    "113年度 1 14 年度",
+    "占全\n年度\n銷貨\n淨額\n比率",
+    "A 公司 2,015,690 19"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-10",
+   "field": "major_customers",
+   "statement": "114年度銷貨客戶表列示B公司（年報以代號呈現），銷貨金額為1,369,344仟元，占全年度銷貨淨額13%。",
+   "period": "114年度（2025）",
+   "page": 82,
+   "excerpts": [
+    "最近二年度任一年度中曾占銷貨總額 百分之十以上之客戶名稱及其銷貨金額",
+    "單位：新台幣仟元",
+    "113年度 1 14 年度",
+    "占全\n年度\n銷貨\n淨額\n比率",
+    "B 公司 1,369,344 13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-11",
+   "field": "major_customers",
+   "statement": "113年度銷貨客戶表列示B公司（年報以代號呈現），銷貨金額為4,528,682仟元，占全年度銷貨淨額34%。",
+   "period": "113年度（2024）",
+   "page": 82,
+   "excerpts": [
+    "最近二年度任一年度中曾占銷貨總額 百分之十以上之客戶名稱及其銷貨金額",
+    "單位：新台幣仟元",
+    "113年度 1 14 年度",
+    "占全\n年度\n銷貨\n淨額\n比率",
+    "B公司 4,528,682 34"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-12",
+   "field": "major_customers",
+   "statement": "年報稱本公司之主要客戶多為國際性NB及LCD代工大廠，包括和碩、仁寶、廣達、緯創、聯寶、英業達、鴻海、佳世達、立訊、華為及歌爾等。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "本公司之主要客戶多為國際性 NB 及 LCD代工大廠(和碩、仁寶、廣達、\n緯創、聯寶、英業達、鴻海、佳世達、立訊，華為及歌爾等)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-13",
+   "field": "raw_materials",
+   "statement": "年報主要原料之供應狀況表列示承架/固定架/支架的主要供應來源包括紳暉、竟丞、得裕等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "主要原料 主要供應來源 供應狀況",
+    "承架/固定架/支架 紳暉、竟丞、得裕等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-14",
+   "field": "raw_materials",
+   "statement": "年報主要原料之供應狀況表列示轉軸/軸心/軸套的主要供應來源包括蘇州泓銓鑫、正捷、普傑等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "主要原料 主要供應來源 供應狀況",
+    "轉軸/軸心/軸套 蘇州泓銓鑫、正捷、普傑等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-15",
+   "field": "raw_materials",
+   "statement": "年報主要原料之供應狀況表列示彈板/彈簧的主要供應來源包括仟楊、金懌、金勃等。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "主要原料 主要供應來源 供應狀況",
+    "彈板/彈簧 仟楊、金懌、金勃等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-16",
+   "field": "employees",
+   "statement": "114年度員工人數合計為3,390人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "單位：人;歲;年",
+    "113 年度 1\n1 4年度",
+    "合計人數 3,554 3,390 3,192"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為618,658仟元。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項 目 114 年度 115 年截至 3 月 31 日",
+    "研發費用 618,658 159,491"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-18",
+   "field": "rd",
+   "statement": "114年度研發費用佔營收淨額比率為6%。",
+   "period": "114年度（2025）",
+   "page": 74,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項 目 114 年度 115 年截至 3 月 31 日",
+    "佔營收淨額比率(%) 6% 7%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-19",
+   "field": "outlook",
+   "statement": "年報列示計畫開發之新產品包括開發折疊式電子產品樞紐技術、開發用於AR/VR設備的零件及樞紐等。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "4. 計畫開發之新產品",
+    "(4) 開發折疊式電子產品樞紐技術。",
+    "(5) 開發用於 AR/VR設備的零件及樞紐。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  },
+  {
+   "id": "3376-AR-20",
+   "field": "market_position",
+   "statement": "公司於年報自述於全球商業及消費型電子產品之樞紐仍處於領先地位及高佔有率。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "本公司於全球商業及消費型電子產品之樞紐仍處於領先地位及高佔有率"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T18:41:41+00:00"
+   }
+  }
+ ]
+}

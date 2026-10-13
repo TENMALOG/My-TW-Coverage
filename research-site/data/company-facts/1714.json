@@ -1,0 +1,615 @@
+{
+ "ticker": "1714",
+ "company": "和桐",
+ "legal_name": "和桐化學股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1714&filename=2025_1714_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1714_20260527F04.pdf",
+  "text_sha256": "aedff2c3aaf17e7a8370c832299d12fb8cf56384711ac7db0bf4584c2c08cea3",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/aedff2c3aaf17e7a8370c832299d12fb8cf56384711ac7db0bf4584c2c08cea3.txt"
+ },
+ "facts": [
+  {
+   "id": "1714-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明本集團化學品事業包括多元醇醚類、正烷屬烴、正烯烴等三項產品之製造加工及買賣。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "化學品：",
+    "＜1＞ 多元醇醚類、＜2＞正烷屬烴、＜3＞正烯烴等三項產品之製造加工及買賣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-02",
+   "field": "business_scope",
+   "statement": "年報載明公司主要係經營正烷屬烴之產銷業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "本公司主要係經營正烷屬烴之產銷業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-03",
+   "field": "business_scope",
+   "statement": "年報載明本集團油品事業包括化學品及石油製品貨物倉儲管理、碼頭裝卸、儲槽操作、轉口、轉運、摻配加工、海關通關作業等業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "油  品：",
+    "化學品及石油製品貨物倉儲管理、碼頭裝卸、儲槽操作、轉口、轉運、摻配加工、\n海關通關作業等業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度化學品銷售金額為新臺幣22,635,696仟元，占該表合計之比例為94.23%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.公司目前之產品及其營業比重：",
+    "單位：新台幣仟元",
+    "產品項目 114 年度銷售金額 比例",
+    "化學品 22,635,696 94.23%",
+    "合  計 24,021,497 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度油品銷售金額為新臺幣154,262仟元，占該表合計之比例為0.64%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.公司目前之產品及其營業比重：",
+    "單位：新台幣仟元",
+    "產品項目 114 年度銷售金額 比例",
+    "油  品 154,262 0.64%",
+    "合  計 24,021,497 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度水泥銷售金額為新臺幣1,231,539仟元，占該表合計之比例為5.13%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.公司目前之產品及其營業比重：",
+    "單位：新台幣仟元",
+    "產品項目 114 年度銷售金額 比例",
+    "水  泥 1,231,539 5.13%",
+    "合  計 24,021,497 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-07",
+   "field": "products",
+   "statement": "年報載明公司目前之化學品產品項目包括正烷屬烴、直鏈烷基苯、直鏈烷基苯磺酸、脂肪醇聚氧乙烯醚及脂肪醇聚氧乙烯醚硫酸等。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "3.公司目前之產品項目：",
+    "化學品:包含正烷屬烴、直鏈烷基苯、直鏈烷基苯磺酸、脂肪醇聚氧乙烯醚及脂肪醇聚氧乙\n烯醚硫酸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度銷往大陸地區的銷售額為新臺幣17,591,354仟元，占銷售地區表合計之73.23%。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "主要產品銷售地區：",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "銷售額 % 銷售額 %",
+    "大陸地區 15,031,943 72.90 17,591,354 73.23",
+    "合計 20,619,248 100.00 24,021,497 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度銷往東南亞地區的銷售額為新臺幣2,379,764仟元，占銷售地區表合計之9.91%。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "主要產品銷售地區：",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "銷售額 % 銷售額 %",
+    "東南亞地區 1,762,544 8.55 2,379,764 9.91",
+    "合計 20,619,248 100.00 24,021,497 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度銷往台灣的銷售額為新臺幣1,517,694仟元，占銷售地區表合計之6.32%。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "主要產品銷售地區：",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "銷售額 % 銷售額 %",
+    "台灣 1,554,485 7.54 1,517,694 6.32",
+    "合計 20,619,248 100.00 24,021,497 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度銷往其他地區的銷售額為新臺幣2,532,685仟元，占銷售地區表合計之10.54%。",
+   "period": "114年度（2025）",
+   "page": 93,
+   "excerpts": [
+    "主要產品銷售地區：",
+    "單位：新台幣仟元",
+    "113 年度 114 年度",
+    "銷售額 % 銷售額 %",
+    "其他地區 2,270,276 11.01 2,532,685 10.54",
+    "合計 20,619,248 100.00 24,021,497 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述本集團於世界清潔劑原料產業中為亞洲最大原料製造商之一。",
+   "period": "截至114年度年報刊印日",
+   "page": 92,
+   "excerpts": [
+    "目前本集團已於世界清潔劑原料產業中，佔有舉足輕重之地位，為亞洲最大原料製造商之\n一"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-13",
+   "field": "capacity_or_production",
+   "statement": "年報載明公司在大陸的烷基苯及磺化產品生產據點分布於南京、廣州、上海、安徽、天津、惠州及成都，磺化產品產能約年產60萬噸。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "在大陸的烷基苯及磺化產品生產據點分\n布於南京、廣州、上海、安徽、天津、惠州及成都，磺化產品產能約年產 60 萬噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-14",
+   "field": "capacity_or_production",
+   "statement": "年報載明本集團在台中港西碼頭石化專區設有1座專用碼頭，廠區建有多樣式儲槽總計26座，總容積約13萬公秉。",
+   "period": "截至114年度年報刊印日",
+   "page": 91,
+   "excerpts": [
+    "本集團目前在台中港西碼頭石化專區，設有1座專用碼頭",
+    "廠區建有多樣式儲槽總計26座，總容積約13萬公秉"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-15",
+   "field": "raw_materials",
+   "statement": "年報載明正烷屬烴的主要原料來源為國內/國外進口。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "主要產品名稱 主要原料 \n主要來源 供應情形",
+    "正烷屬烴 國內/國外進口 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-16",
+   "field": "raw_materials",
+   "statement": "年報載明異烷屬烴的主要原料來源為國外進口。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "主要產品名稱 主要原料 \n主要來源 供應情形",
+    "異烷屬烴 國外進口 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-17",
+   "field": "raw_materials",
+   "statement": "年報載明烷基苯／烷基苯磺酸的主要原料來源為台灣/大陸/日本。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "主要產品名稱 主要原料 \n主要來源 供應情形",
+    "烷基苯 / 烷基苯磺酸 台灣/大陸/日本 正常"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-18",
+   "field": "raw_materials",
+   "statement": "年報載明本集團所生產正烷屬烴之主要原料煤油與煉油廠供應商簽訂長期合約。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "本集團所生產正烷屬烴之主要原料－煤油與煉油廠供應商簽訂長期合約"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-19",
+   "field": "major_suppliers",
+   "statement": "113年度金陵石化進貨金額為新臺幣2,270,425仟元，占全年度進貨淨額比率12.78%，與發行人之關係為關係人。",
+   "period": "113年度（2024）",
+   "page": 98,
+   "excerpts": [
+    "單位:新台幣仟元;%",
+    "113 年 114 年",
+    "占全年度進貨\n淨額比率",
+    "1 金陵石化 2,270,425 12.78% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-20",
+   "field": "major_customers",
+   "statement": "某客戶（代號S069）114年度銷貨金額為新臺幣2,451,040仟元，占全年度銷貨淨額比率10.20%。",
+   "period": "114年度（2025）",
+   "page": 98,
+   "excerpts": [
+    "單位:新台幣仟元;%",
+    "113 年 114 年",
+    "占全年度銷\n貨淨額比率",
+    "1 S069 2,845,887 13.80% 無 S069 2,451,040 10.20% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-21",
+   "field": "employees",
+   "statement": "114年12月31日集團員工人數為860人。",
+   "period": "114年12月31日",
+   "page": 99,
+   "excerpts": [
+    "三、從業員工最近二年度及截至年報刊印日止之資料(集團人數)",
+    "年 度  1 1 3年1 2月3 1日 1 1 4年1 2月3 1日 1 1 5年3月3 1日",
+    "員工人數 901 860 860"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-22",
+   "field": "outlook",
+   "statement": "年報載明化學品事業計劃開發新品項界面活性劑。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "4.公司目前計劃開發之新產品：",
+    "化學品:開發新品項界面活性劑。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-23",
+   "field": "outlook",
+   "statement": "年報載明油品事業計劃擴充倉儲能力，利用碼頭後線空地開發以提高儲槽容積。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "A.擴充倉儲能力：碼頭後線空地開發，充分運用現有空地提高儲槽容積"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1714-AR-24",
+   "field": "outlook",
+   "statement": "年報載明化學品事業的短期發展計畫為加強本集團之決策機制及業務運作，增強核心競爭力，整合各項資源，發揮經營綜效。",
+   "period": "截至114年度年報刊印日",
+   "page": 92,
+   "excerpts": [
+    "化學品： \n1.短期發展計畫：",
+    "加強本集團之決策機制及業務運作，增強核心競爭力，整合各項資源，發揮經營綜效"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  }
+ ]
+}

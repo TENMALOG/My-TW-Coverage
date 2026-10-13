@@ -1,0 +1,621 @@
+{
+ "ticker": "1710",
+ "company": "東聯",
+ "legal_name": "東聯化學股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1710&filename=2025_1710_20260519F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1710_20260519F04.pdf",
+  "text_sha256": "b187452b8c7cb4d2b39717f96caee134a31a28e0fa316a88c09836dde3e3a6f4",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b187452b8c7cb4d2b39717f96caee134a31a28e0fa316a88c09836dde3e3a6f4.txt"
+ },
+ "facts": [
+  {
+   "id": "1710-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報揭露所營業務主要內容包括基本化學工業、石油化工原料製造業、合成橡膠製造業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "C801010 基本化學工業",
+    "C801020 石油化工原料製造業",
+    "C801060 合成橡膠製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度公司及子公司乙二醇事業營業金額為新臺幣14,585,456仟元，營業比重66%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司營業比重",
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "營業金額 營業比重(%) 營業金額 營業比重(%)",
+    "乙二醇事業  15,110,073 64 14,585,456 66"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度公司及子公司氣體事業營業金額為新臺幣1,625,894仟元，營業比重7%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司營業比重",
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "營業金額 營業比重(%) 營業金額 營業比重(%)",
+    "氣體事業  1,587,539 7 1,625,894 7"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度公司及子公司特化事業營業金額為新臺幣6,037,215仟元，營業比重27%。",
+   "period": "114年度（2025）",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司營業比重",
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "營業金額 營業比重(%) 營業金額 營業比重(%)",
+    "特化事業  7,038,144 29 6,037,215 27"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-05",
+   "field": "products",
+   "statement": "公司及子公司目前之商品項目包括乙二醇、環氧乙烷、二乙二醇等產品之製造與買賣。",
+   "period": "截至114年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司目前之商品項目",
+    "乙二醇、環氧乙烷、二乙二醇等產品之製造與買賣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-06",
+   "field": "products",
+   "statement": "公司及子公司目前之商品項目包括氧氣、氮氣、氬氣、二氧化碳等氣態與液態氣體產品之製造與買賣。",
+   "period": "截至114年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司目前之商品項目",
+    "氧氣、氮氣、氬氣、二氧化碳等氣態與液態氣體產品之製造與買賣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-07",
+   "field": "products",
+   "statement": "公司及子公司目前之商品項目包括乙醇胺、碳酸乙烯酯、乙二醇丁醚、脂肪醇聚氧乙烯醚、聚乙二醇等特用化學品之製造與買賣。",
+   "period": "截至114年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "公司及子公司目前之商品項目",
+    "乙醇胺、碳酸乙烯酯、乙二醇丁醚、脂肪醇聚氧乙烯醚、聚乙二醇、聚乙二醇單甲醚"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述國內乙二醇之市場佔有率約40%（原文未載統計來源）。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "目前國\n內乙二醇之市場佔有率約 40%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述工業氣體產品國內市場佔有率約8%（原文未載統計來源）。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "(2) 工業氣體：",
+    "工業氣體產品方面主要以內銷為主，國內市場佔有率約 8%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述林園廠生產之乙醇胺在台灣市占率約在60%左右（原文未載統計來源）。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "本公司林園廠生產乙醇胺為台灣唯一生產商，目前銷售地區主要在台灣、中國、亞太、中\n東、非洲及歐美等地，其中台灣市占率約在 60%左右"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述其乙二醇丁醚在台灣市占率約在70%左右（原文未載統計來源）。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "本公司生產乙二醇丁醚為目前台灣唯一生產商，目前銷售地區主要在台灣、中國、亞太、\n非洲等地，其中台灣市占率約在 70%左右"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述林園EOD廠所生產產品之國內市場市佔率約為55%（原文未載統計來源）。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "本公司林園 EOD 廠所生產",
+    "國內市場\n市佔率約為 55%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-13",
+   "field": "raw_materials",
+   "statement": "年報載明乙二醇廠主要原料乙烯主要由台灣中油公司供應，不足部份視情況由國外進口。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "(三)主要原料之供應狀況",
+    "乙烯： 主要由台灣中油公司供應，不足部份視情況由國外進口"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-14",
+   "field": "raw_materials",
+   "statement": "年報載明乙二醇丁醚廠之生產原料正丁醇主要由台塑公司供應，不足量視情況由國外進口。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "正丁醇主要由台塑公司供應，不\n足量視情況由國外進口"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-15",
+   "field": "raw_materials",
+   "statement": "年報載明乙醇胺廠之生產原料液氨，東聯林園廠由台灣肥料公司供應。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "液  氨：東聯林園廠由台灣肥料公司供應"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度公司向台灣中油(股)公司進貨金額為新臺幣4,199,702仟元，占全年度進貨淨額比率19%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "占全年度 \n進貨淨額 \n比率 [%]",
+    "1 台灣中油(股)公司 4,734,494 21 無 台灣中油(股)公司 4,199,702 19 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度公司向南京誠志永清能源科技有限公司進貨金額為新臺幣3,831,337仟元，占全年度進貨淨額比率17%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "占全年度 \n進貨淨額 \n比率 [%]",
+    "2 南京誠志永清能源科技有限公司 3,816,129 17 無 南京誠志永清能源科技有限公司 3,831,337 17 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-18",
+   "field": "major_customers",
+   "statement": "某客戶（甲公司）114年度銷貨金額為新臺幣3,210,583仟元，占全年度銷貨淨額比率14%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年 114 年",
+    "占全年度 \n銷貨淨額 \n比率 [%]",
+    "1 甲公司 3,746,797 16 無 甲公司 3,210,583 14 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-19",
+   "field": "employees",
+   "statement": "114年度員工人數為596人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "113 年度 114 年度 115 年度(註)",
+    "員工人數  638 596 590"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-20",
+   "field": "rd",
+   "statement": "年報載明2025年度研發支出為250,816仟元（原文未載幣別）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "2025 年度研發支出為 250,816 仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-21",
+   "field": "capacity_or_production",
+   "statement": "年報載明公司共有兩座EOD廠，一座位於林園廠區，另一座位於轉投資遠東聯石化（揚州）公司，總產能約14.6萬噸。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "本公司共有兩座 EOD 廠，一座位於林園廠區，另外另一座位於轉投資遠東聯石化（揚州）\n公司，總產能約 14.6 萬噸"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-22",
+   "field": "capacity_or_production",
+   "statement": "年報載明乙二醇丁醚（EB）廠設計產能為3萬噸/年。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "本公司乙二醇丁醚（EB）廠設計產能 3萬噸/年"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-23",
+   "field": "outlook",
+   "statement": "年報載明公司計畫配合客戶需求，開發功能型高附加價值的環氧乙烷衍生物產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 58,
+   "excerpts": [
+    "計畫配合客戶需求，開發功能型高附加價值的環氧乙烷衍生物產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-24",
+   "field": "outlook",
+   "statement": "年報載明乙二醇事業的短期業務發展計畫為優化現有生產設備產量，供應國內客戶需求。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "1. 乙二醇事業",
+    "短期：優化現有生產設備產量，供應國內客戶需求。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  },
+  {
+   "id": "1710-AR-25",
+   "field": "outlook",
+   "statement": "年報載明特用化學品事業的長期業務發展計畫為進行新特化品及功能性精細化工等相關產品的發展規劃，以發展多元化新產品，擴大特化營業之銷售與獲利比重。",
+   "period": "截至114年度年報刊印日",
+   "page": 66,
+   "excerpts": [
+    "3. 特用化學品事業",
+    "長期：進行新特化品及功能性精細化工等相關產品的發展規劃，以發展多元化新產品，擴大特化\n營業之銷售與獲利比重。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:13:34+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,618 @@
+{
+ "ticker": "7610",
+ "company": "聯友金屬-創",
+ "legal_name": "聯友金屬科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7610&filename=2025_7610_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7610_20260526F04.pdf",
+  "text_sha256": "936e44aec6acae914a417896bd5a6462af339ebc6eef26d3129b8e32d83e049e",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/936e44aec6acae914a417896bd5a6462af339ebc6eef26d3129b8e32d83e049e.txt"
+ },
+ "facts": [
+  {
+   "id": "7610-AR-01",
+   "field": "established",
+   "statement": "公司年報載明，公司成立於107年05月。",
+   "period": "107年05月",
+   "page": 57,
+   "excerpts": [
+    "本公司成立於 107 年 05 月"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-02",
+   "field": "market_position",
+   "statement": "公司於年報自述，其為台灣首家也是唯一一家以自有研發的鎢金屬循環技術，將二次硬質合金及二次鎢、鈷資源做為原料，還原成為生產鎢、鈷金屬原料之金屬冶煉公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 57,
+   "excerpts": [
+    "為台灣首家也是唯一一家以自有研發的鎢金屬循 環技術，將二次硬質合金及二次鎢、鈷資源做為原料"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-03",
+   "field": "products",
+   "statement": "公司年報載明，現階段主要產品包括鎢酸鈉（Na2WO4）及硫酸鈷液（CoSO4）等。",
+   "period": "截至114年度年報刊印日",
+   "page": 57,
+   "excerpts": [
+    "現階段主要產品為鎢酸鈉 (Na2WO4)及硫酸鈷液 (CoSO4)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-04",
+   "field": "products",
+   "statement": "公司年報載明，115年起將增加精製碳酸鈷（CoCO3）、氧化鈷（Co3O4）及金屬鈷粉。",
+   "period": "115年起",
+   "page": 57,
+   "excerpts": [
+    "115 年起將增加精製碳酸鈷(CoCO3)、氧化鈷(Co3O4)及金屬鈷粉"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度鎢金屬產品金額為新臺幣1,072,256千元，營業比重76.29%。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "產品別 113年度 114年度 金額 % 金額 %",
+    "鎢金屬產品 843,421 76.75 1,072,256 76.29"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度鈷金屬產品金額為新臺幣203,370千元，營業比重14.47%。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "產品別 113年度 114年度 金額 % 金額 %",
+    "鈷金屬產品 45,780 4.17 203,370 14.47"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-07",
+   "field": "revenue_mix",
+   "statement": "114年度加工收入金額為新臺幣105,362千元，營業比重7.50%。",
+   "period": "114年度（2025）",
+   "page": 57,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "產品別 113年度 114年度 金額 % 金額 %",
+    "加工收入 91,415 8.32 105,362 7.50"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度境內銷售金額為新臺幣228,057千元，占銷貨總計16.23%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "年度 地區 113年度 114年度 金額 比率 金額 比率",
+    "境內 132,295 12.04 228,057 16.23",
+    "總計 1,098,913 100.00 1,405,539 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-09",
+   "field": "export_share",
+   "statement": "114年度境外銷售金額為新臺幣1,177,482千元，占銷貨總計83.77%。",
+   "period": "114年度（2025）",
+   "page": 68,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "年度 地區 113年度 114年度 金額 比率 金額 比率",
+    "境外 966,618 87.96 1,177,482 83.77",
+    "總計 1,098,913 100.00 1,405,539 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，其2023年占全球鎢酸鹽出口量約28%（年報圖表資料來源註明為ITC trademap.org）。",
+   "period": "2023年",
+   "page": 68,
+   "excerpts": [
+    "2023 年佔全球鎢酸鹽出口量 約為 28%",
+    "2018-2024全球鎢酸鹽出口量",
+    "資料來源：ITC trademap.org"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述，其在全球以處理廢鎢能力及量能也在前五名內。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "在全球以處理廢鎢能力及量能也在前五名內"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述，其目前為中國市場外專注鎢資源再生最大的公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "本公司目前為中 國市場外專注鎢資源再生最大的公司"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-13",
+   "field": "raw_materials",
+   "statement": "公司年報列示之主要原料包括二次硬質合金、二次鎢、鈷資源。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "原料名稱 供應情形",
+    "二次硬質合金",
+    "二次鎢、鈷資源"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-14",
+   "field": "raw_materials",
+   "statement": "公司年報載明，鎢、鈷金屬冶煉的主要原料包括鎢合金粉料及鎢合金塊料等。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "主要原料為鎢合金粉料及鎢合金塊料等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-15",
+   "field": "rd",
+   "statement": "114年度研發費用為新臺幣8,633千元（資料來源註明為經會計師查核簽證之合併財務報告）。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "資料來源:經會計師查核簽證之合併財務報告",
+    "年度 項目 113年度 114年度",
+    "研發費用 5,954 8,633"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-16",
+   "field": "rd",
+   "statement": "114年度研發費用占營業收入淨額比率為0.61%。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "年度 項目 113年度 114年度",
+    "研發費用占營業收入淨額比率 0.54% 0.61%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（年報代號P1公司）占全年度進貨淨額27.75%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項 目 113年度 114年度 名稱 金額 占全年度 進貨淨額 比率(%) 與發行人之 關係 名稱 金額 占全年度 進貨淨額 比率(%)",
+    "1 P1公司 200,784 28.81 無 P1公司 300,045 27.75"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-18",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（年報代號P2公司）占全年度進貨淨額17.00%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項 目 113年度 114年度 名稱 金額 占全年度 進貨淨額 比率(%) 與發行人之 關係 名稱 金額 占全年度 進貨淨額 比率(%)",
+    "2 P2公司 111,079 15.94 無 P2公司 183,823 17.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-19",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（年報代號P3公司）占全年度進貨淨額12.62%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項 目 113年度 114年度 名稱 金額 占全年度 進貨淨額 比率(%) 與發行人之 關係 名稱 金額 占全年度 進貨淨額 比率(%)",
+    "3 P3公司 80,929 11.61 無 P3公司 136,415 12.62"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-20",
+   "field": "major_customers",
+   "statement": "114年度某客戶（年報代號F客戶）占全年度銷貨淨額20.49%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項目 113年度 114年度 名稱 金額 占全年度 銷貨淨額 比率(%)",
+    "F 客戶 288,037 20.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-21",
+   "field": "major_customers",
+   "statement": "114年度某客戶（年報代號B客戶）占全年度銷貨淨額13.60%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項目 113年度 114年度 名稱 金額 占全年度 銷貨淨額 比率(%)",
+    "B 客戶 191,223 13.60 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-22",
+   "field": "major_customers",
+   "statement": "114年度某客戶（年報代號C客戶）占全年度銷貨淨額12.47%；年報標示其與發行人之關係為關係人，並註記為本公司法人董事。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "項目 113年度 114年度 名稱 金額 占全年度 銷貨淨額 比率(%)",
+    "C 客戶 (註) 175,319 12.47 關係人",
+    "註：係為本公司法人董事"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-23",
+   "field": "employees",
+   "statement": "114年度員工人數合計為157人（年報註明員工人數不包含未兼任員工之董事及監察人；員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "年度 113 年度 114 年度 截至 115 年 3 月 31 日止",
+    "合 計 139 157 162",
+    "註：員工人數不包含未兼任員工之董事及監察人。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-24",
+   "field": "outlook",
+   "statement": "公司年報列示計劃開發之新商品（服務）包括開發仲鎢酸銨（APT）製程技術，以拓展鎢產業鏈下游製程能力。",
+   "period": "計劃開發之新商品（截至114年度年報刊印日）",
+   "page": 57,
+   "excerpts": [
+    "(1) 開發仲鎢酸銨(APT)製程技術，拓展鎢產業鏈下游製程能力。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  },
+  {
+   "id": "7610-AR-25",
+   "field": "outlook",
+   "statement": "公司年報列示長期銷售策略之一為建構公司在歐洲地區及美國的生產營銷據點。",
+   "period": "長期業務發展計畫（截至114年度年報刊印日）",
+   "page": 67,
+   "excerpts": [
+    "建構公司在歐洲地區及美國的生產營銷據點"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:48+00:00"
+   }
+  }
+ ]
+}

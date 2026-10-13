@@ -1,0 +1,406 @@
+{
+ "ticker": "2542",
+ "company": "興富發",
+ "legal_name": "興富發建設股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2542&filename=2025_2542_20260617F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2542_20260617F04.pdf",
+  "text_sha256": "af045bb9dc3199125676bbfe752b1e281e082b8a31b527f87fba2cc1ed63aa26",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/af045bb9dc3199125676bbfe752b1e281e082b8a31b527f87fba2cc1ed63aa26.txt"
+ },
+ "facts": [
+  {
+   "id": "2542-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明，公司以委託營造廠興建商業大樓、國民住宅大樓供出租及出售為主要業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "委託營造廠興建商業大樓、國民住宅大樓供出租及出售為主要業務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度建設營業收入為30,723,732仟元，營業比重為98.93%。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "建設 36,720,803 99.44 30,723,732 98.93"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度營造營業收入為25,056仟元，營業比重為0.08%。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "營造 66,720 0.18 25,056 0.08"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度飯店及其他營業收入為307,309仟元，營業比重為0.99%。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "飯店及其他 140,757 0.38 307,309 0.99"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度營業收入合計為31,056,097仟元。",
+   "period": "114年度（2025）",
+   "page": 83,
+   "excerpts": [
+    "單位：新臺幣仟元；%",
+    "113 年度 114 年度",
+    "金額 比例(%) 金額 比例(%)",
+    "合計 36,928,280 100.00 31,056,097 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-06",
+   "field": "products",
+   "statement": "公司年報載明目前之商品及服務項目包括住宅大樓（住家、套房、停車位）與辦公大樓（辦公、店面、停車位、套房）。",
+   "period": "截至114年度年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "住宅大樓：住家、套房、停車位。",
+    "辦公大樓：辦公、店面、停車位、套房。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-07",
+   "field": "outlook",
+   "statement": "公司年報載明，興富發集團未來除了於基隆、台北、新北、桃園、新竹、台中、台南、高雄等八大區域持續購地推案及參與都市更新外，亦跨足餐飲及飯店等新事業。",
+   "period": "截至114年度年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "興富發集團未來除了於基隆、台北、新北、桃園、新竹、台中、台南、高雄等八大區域持續購地推案及參與都市更新",
+    "亦跨足餐飲及飯店等新事業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-08",
+   "field": "sales_regions",
+   "statement": "公司年報載明，公司業務持續以興建住商電梯大樓或辦公大樓為主，分佈於台北市、新北市、基隆、桃園、新竹、台中市、台南及高雄市等主要都會區。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "本公司業務持續以興建住商電梯大樓或辦公大樓為主，分佈於台北市、新北市、基隆、桃園、新竹、台中市、台南及高雄市等主要都會區"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-09",
+   "field": "market_position",
+   "statement": "公司於年報自述，依其引用公開資訊觀測站資料所列「上市櫃營建同業114年度合併營業收入排名前十名」，興富發排名第4，營業收入311億（原文未載幣別，億以下四捨五入）。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "上市櫃營建同業 114 年度合併營業收入排名前十名",
+    "排名 股票代號 公司名稱 營業收入(億)",
+    "4 2542 興富發 311",
+    "資料來源：公開資訊觀測站，億以下四捨五入。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-10",
+   "field": "rd",
+   "statement": "公司年報載明，公司之營建事業並無專責對生產技術及產品功能進行研發之部門。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "本公司之營建事業並無專責對生產技術及產品功能進行研發之部門。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-11",
+   "field": "business_scope",
+   "statement": "公司年報載明，新北北海溫泉洲際酒店於114年第四季完工並正式營運，共計211間客房。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "新北北海溫泉洲際酒店於114年第四季完工並正式營運，共計211間的客房"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-12",
+   "field": "outlook",
+   "statement": "公司年報載明，高雄Hyatt Regency凱悅酒店共計177間客房，目標於115年第四季正式營運。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "高雄Hyatt Regency凱悅酒店共計177間客房，目標於115年第四季正式營運。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-13",
+   "field": "major_customers",
+   "statement": "公司年報載明，最近二年度（113、114年度）因行業特性，並無固定占銷貨金額10%以上之銷售對象。",
+   "period": "113至114年度（2024至2025）",
+   "page": 94,
+   "excerpts": [
+    "113年度 114 年度",
+    "本公司最近二年度止，因行業特性，並無固定占銷貨金額10%以上之銷售對象。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-14",
+   "field": "employees",
+   "statement": "公司年報載明，114年度合併人力資源資訊中員工人數合計為1,590人。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "(一)本公司及各子公司最近二年度及 115 年 4 月 25 日止之合併人力資源資訊，彙整如下：",
+    "年度 113 年度 114 年度 115 年 4 月 25 日",
+    "合計 1,497 1,590 1,569"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-15",
+   "field": "employees",
+   "statement": "公司年報載明，114年度合併人力資源資訊中職員人數為714人。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "(一)本公司及各子公司最近二年度及 115 年 4 月 25 日止之合併人力資源資訊，彙整如下：",
+    "年度 113 年度 114 年度 115 年 4 月 25 日",
+    "職員 735 714 703"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  },
+  {
+   "id": "2542-AR-16",
+   "field": "employees",
+   "statement": "公司年報載明，114年度合併人力資源資訊中工程人員人數為876人。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "(一)本公司及各子公司最近二年度及 115 年 4 月 25 日止之合併人力資源資訊，彙整如下：",
+    "年度 113 年度 114 年度 115 年 4 月 25 日",
+    "工程人員 762 876 866"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:02:43+00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,621 @@
+{
+ "ticker": "6693",
+ "company": "廣閎科",
+ "legal_name": "廣閎科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6693&filename=2025_6693_20260615F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6693_20260615F04.pdf",
+  "text_sha256": "ea03e208ab75b00dda30dee86170f1629c177a9b44e6ecd5711ca6fa16410bf6",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/ea03e208ab75b00dda30dee86170f1629c177a9b44e6ecd5711ca6fa16410bf6.txt"
+ },
+ "facts": [
+  {
+   "id": "6693-AR-01",
+   "field": "headquarters",
+   "statement": "公司總公司地址為新竹縣竹北市台元二街8號8樓之三。",
+   "period": "年報刊印時",
+   "page": 2,
+   "excerpts": [
+    "總公司之地址及電話：新竹縣竹北市台元二街 8 號 8 樓之三"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-02",
+   "field": "business_scope",
+   "statement": "公司主要業務為IC（積體電路晶片）設計開發、應用服務及銷售，晶片之製造及測試均委由專業晶圓代工及封裝測試廠進行。",
+   "period": "年報刊印時",
+   "page": 77,
+   "excerpts": [
+    "本公司主要業務為 IC(積體電路晶片)設計開發、應用服務及銷售",
+    "晶片之製造及測試均委由專業晶圓代工及封裝測試廠進行晶片生產、封裝及測試"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度功率半導體元件（Power MOSFET功率元件）銷售金額為958,831千元，營業比重67.82%。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "單位：新臺幣千元：%",
+    "113 年度 114 年度",
+    "(Power MOSFET 功率元件) 835,601 76.37 958,831 67.82"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度BLDC Motor Driver無刷直流馬達驅動系統銷售金額為307,311千元，營業比重21.74%。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "單位：新臺幣千元：%",
+    "113 年度 114 年度",
+    "流馬達驅動系統 164,003 14.99 307,311 21.74"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度其他（SoC散熱風扇驅動IC等）銷售金額為147,625千元，營業比重10.44%。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "單位：新臺幣千元：%",
+    "113 年度 114 年度",
+    "其他(SoC 散熱風扇驅動 IC 等) 94,581 8.64 147,625 10.44"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-06",
+   "field": "products",
+   "statement": "公司年報載明產品包括20V~650V Power MOSFET功率元件及碳化矽功率元件產品。",
+   "period": "年報刊印時",
+   "page": 66,
+   "excerpts": [
+    "20V~650V Power MOSFET 功率元件",
+    "碳化矽功率元件產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-07",
+   "field": "products",
+   "statement": "公司年報載明功率半導體元件主要產品應用領域包括雲端資料庫伺服器、5G通訊設備散熱模組、AI伺服器、車用充電樁、節能家電電機驅動、儲能系統、行動載具等。",
+   "period": "年報刊印時",
+   "page": 66,
+   "excerpts": [
+    "主要產品應用領域為雲端資料庫伺服器 、5G 通訊設備散熱模組、AI 伺服器、車用充電樁、節能家電電機驅動、儲能系統、行動載具等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-08",
+   "field": "products",
+   "statement": "公司年報載明BLDC Motor Driver無刷直流馬達驅動系統提供無刷直流變頻電機之智能整合系統，應用於智能家電、AI散熱系統、工具機與其他新興應用。",
+   "period": "年報刊印時",
+   "page": 66,
+   "excerpts": [
+    "提供無刷直流變頻電機之智能整合系統，應用於智能家電、AI 散熱系統、工具機與其他新興應用"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售金額為496,881千元，占銷售比率35.15%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "內銷 342,647 31.32 496,881 35.15"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度外銷中國銷售金額為906,331千元，占銷售比率64.11%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "中國 730,496 66.76 906,331 64.11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-11",
+   "field": "export_share",
+   "statement": "114年度外銷合計銷售金額為916,886千元，占銷售比率64.85%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "小計 751,538 68.68 916,886 64.85"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-12",
+   "field": "market_position",
+   "statement": "依TechSci Research與WSTS（World Semiconductor Trade Statistics）的數據，年報載明114年全球功率半導體市場規模為309億美元。",
+   "period": "114年（2025）",
+   "page": 73,
+   "excerpts": [
+    "依據研 究 調 查 機 構 TechSci Research 與 WSTS((World SEMICONDUCTOR TRADE STATISTICS) 的數據， 114年全球功率半導體市場規模為 309億美元"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述，以114年度整體銷售金額推估，占全球功率半導體市場銷售總額之比率尚未能及1%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "以114年度本公司整體銷售金額推估占全球功率半導體市場銷售總額之比率尚未能及 1%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-14",
+   "field": "market_position",
+   "statement": "依研究機構Fortune Business Insights報告，年報載明114年無刷直流馬達市場規模為240.1億美金。",
+   "period": "114年（2025）",
+   "page": 69,
+   "excerpts": [
+    "根據研究機構 Fortune Business Insights 報告，114 年無刷直流馬達市場規模為 240.1 億美金"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-15",
+   "field": "raw_materials",
+   "statement": "公司於年報自述主要原料磊晶矽晶圓及晶圓代工的供應情況良好。",
+   "period": "年報刊印時",
+   "page": 77,
+   "excerpts": [
+    "磊晶矽晶圓 良好 晶圓代工 良好"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度向力晶積電進貨金額為369,396千元，占全年度進貨淨額33.94%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度 115 年度截至第一季止",
+    "力晶積電 369,396 33.94"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度向微矽電子進貨金額為84,281千元，占全年度進貨淨額7.74%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度 115 年度截至第一季止",
+    "微矽電子 84,281 7.74"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-18",
+   "field": "major_suppliers",
+   "statement": "某供應商（乙公司）114年度進貨金額為82,849千元，占全年度進貨淨額7.61%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度 115 年度截至第一季止",
+    "乙公司 61,392 7.34 無 乙公司 82,849 7.61"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-19",
+   "field": "major_customers",
+   "statement": "某客戶（A公司）114年度銷貨金額為272,425千元，占全年度銷貨淨額19.27%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度 115 年度截至第一季止",
+    "A 公司 272,425 19.27"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-20",
+   "field": "major_customers",
+   "statement": "揚州揚杰電子114年度銷貨金額為163,683千元，占全年度銷貨淨額11.58%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度 115 年度截至第一季止",
+    "揚州揚杰電子 163,683 11.58"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-21",
+   "field": "employees",
+   "statement": "114年底公司員工人數合計為94人。",
+   "period": "114年底（2025）",
+   "page": 80,
+   "excerpts": [
+    "單位：人",
+    "113 年底 114 年底",
+    "合計 89 94 102"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-22",
+   "field": "rd",
+   "statement": "114年度研發費用為114,949千元。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年 114 年",
+    "研發費用(A) 97,102 114,949"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-23",
+   "field": "rd",
+   "statement": "114年度研發費用占營業收入淨額比例為8.13%。",
+   "period": "114年度（2025）",
+   "page": 71,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年 114 年",
+    "占營收淨額比例(A)/(B) 8.87 8.13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-24",
+   "field": "rd",
+   "statement": "公司於年報自述，114年度開發成功之技術或產品包括超低阻抗高電流功率元件導入AI伺服器電源系統、中壓電源與電池管理MOSFET產品導入車用市場及碳化矽（Silicon Carbide）產品推出。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "114 年度 ➢超低阻抗高電流功率元件導入 AI 伺服器電源系統",
+    "中壓電源與電池管理 MOSFET 產品導入車用市場",
+    "碳化矽(Silicon Carbide)產品推出"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  },
+  {
+   "id": "6693-AR-25",
+   "field": "outlook",
+   "statement": "公司年報載明短期業務發展計畫的行銷策略為持續開拓中國、日本、印度、韓國、東南亞、美國及歐洲之節能/儲能相關市場。",
+   "period": "短期計畫",
+   "page": 72,
+   "excerpts": [
+    "持續開拓中國、日本、印度、韓國、東南亞、美國及歐洲之節能/儲能相關市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T05:07:26+00:00"
+   }
+  }
+ ]
+}

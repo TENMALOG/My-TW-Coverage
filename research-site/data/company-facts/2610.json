@@ -1,0 +1,579 @@
+{
+ "ticker": "2610",
+ "company": "華航",
+ "legal_name": "中華航空股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2610&filename=2025_2610_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2610_20260527F04.pdf",
+  "text_sha256": "5b33853dd5f884571d42d025cb679b60d2c99b4eaed29a6f73b01e4253e0589f",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/5b33853dd5f884571d42d025cb679b60d2c99b4eaed29a6f73b01e4253e0589f.txt"
+ },
+ "facts": [
+  {
+   "id": "2610-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明合併公司業務主要內容包括民用航空運輸業、普通航空業、航空站地勤業、航空貨物集散站經營業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "(1)民用航空運輸業。",
+    "(2)普通航空業。",
+    "(3)航空站地勤業。",
+    "(4)航空貨物集散站經營業。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度合併公司客運收入營收淨額為新臺幣124,908,428仟元，營收比重60%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "2.合併公司之營業比重 單位：新臺幣仟元",
+    "114 年度 營收淨額 營收比重",
+    "客運收入 124,908,428 60%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度合併公司貨運收入營收淨額為新臺幣66,830,701仟元，營收比重32%。",
+   "period": "114年度（2025）",
+   "page": 86,
+   "excerpts": [
+    "2.合併公司之營業比重 單位：新臺幣仟元",
+    "114 年度 營收淨額 營收比重",
+    "貨運收入 66,830,701 32%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-04",
+   "field": "products",
+   "statement": "年報載明合併公司服務項目包括客運服務，內容為旅客運輸服務及定期、不定期承攬國際包機業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "(1)客運服務：旅客運輸服務及定期、不定期承攬國際包機業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-05",
+   "field": "products",
+   "statement": "年報載明合併公司服務項目包括貨運服務，內容為貨物及快遞、郵件、包裹之運送服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "(2)貨運服務：貨物及快遞、郵件、包裹之運送服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-06",
+   "field": "products",
+   "statement": "年報載明合併公司服務項目另包括地勤服務、機上商品銷售服務、空廚服務、倉儲物流服務、航機修護服務、飯店觀光服務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "(3)地勤服務：",
+    "(4)機上商品銷售服務：",
+    "(5)空廚服務：",
+    "(6)倉儲物流服務：",
+    "(7)航機修護服務：",
+    "(8)飯店觀光服務："
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度客運航線東北亞地區客運營收為新臺幣45,844百萬元。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "(1)客運航線： 單位：人/百萬公里/新臺幣百萬元",
+    "113 年度 114 年度",
+    "載客人數 RPK 客運營收 載客人數 RPK 客運營收",
+    "東北亞 6,446,656 11,872 45,056 7,099,869 12,813 45,844"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度客運航線東南亞地區客運營收為新臺幣20,142百萬元。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "(1)客運航線： 單位：人/百萬公里/新臺幣百萬元",
+    "113 年度 114 年度",
+    "載客人數 RPK 客運營收 載客人數 RPK 客運營收",
+    "東南亞 3,523,047 8,605 21,461 3,465,488 8,479 20,142"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度客運航線越太平洋地區客運營收為新臺幣22,782百萬元。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "(1)客運航線： 單位：人/百萬公里/新臺幣百萬元",
+    "113 年度 114 年度",
+    "載客人數 RPK 客運營收 載客人數 RPK 客運營收",
+    "越太平洋 1,110,881 11,887 25,133 1,079,562 11,468 22,782"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度貨運航線越太平洋地區貨運營收為新臺幣44,110百萬元。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "(2)貨運航線： 單位：百萬公里/新臺幣百萬元",
+    "113 年度 114 年度",
+    "FRTK 貨運營收 FRTK 貨運營收",
+    "越太平洋 3,509 39,238 3,785 44,110"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-11",
+   "field": "market_position",
+   "statement": "公司年報引述民航局統計：114年臺灣地區各航空公司國際及兩岸航線客運市場占有率（以人數計）中，「中華」欄為19.87%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "臺灣地區各航空公司國際及兩岸航線客貨運市場占有率",
+    "單位：人%、公噸% 中華 長榮 華信 立榮 台灣虎航 星宇 外籍業者",
+    "114 年",
+    "資料來源：民航局 114 年 12 月及 113 年 12 月統計月報",
+    "客運% 19.87 23.16 0.57 0.33 5.32 8.54 42.21"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-12",
+   "field": "market_position",
+   "statement": "公司年報引述民航局統計：114年臺灣地區各航空公司國際及兩岸航線貨運市場占有率（以公噸計）中，「中華」欄為34.86%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "臺灣地區各航空公司國際及兩岸航線客貨運市場占有率",
+    "單位：人%、公噸% 中華 長榮 華信 立榮 台灣虎航 星宇 外籍業者",
+    "114 年",
+    "資料來源：民航局 114 年 12 月及 113 年 12 月統計月報",
+    "貨運% 34.86 29.67 0.22 0.25 0.02 2.88 32.09"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-13",
+   "field": "market_position",
+   "statement": "公司於年報自述華航為臺灣第一家加入全球航空聯盟之國籍業者。",
+   "period": "截至114年度年報刊印日",
+   "page": 92,
+   "excerpts": [
+    "華航為臺灣第一家加入全球航空聯盟之國籍業者"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-14",
+   "field": "raw_materials",
+   "statement": "年報載明本公司於桃園機場係由台灣中油公司及台塑石化公司供應飛行用油，並於全球各航線所至之地向各大油商標購燃油。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "本公司除桃園機場係由台灣中油公司及台塑石化公司供應飛行用油外，並於全球各 航線所至之地向各大油商標購燃油"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度年報進貨名單列有台灣中油，進貨金額為新臺幣17,816,466仟元，占全年度進貨淨額10.36%。",
+   "period": "114年度（2025）",
+   "page": 98,
+   "excerpts": [
+    "單位：新臺幣仟元",
+    "113 年 114 年",
+    "占全年度進貨淨 額比率(%)",
+    "台灣中油 17,816,466 10.36%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-16",
+   "field": "major_customers",
+   "statement": "年報載明本公司為航空服務業，消費對象為一般社會大眾，並無特定主要銷售客戶。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "本公司為航空服務業，消費對象為一般社會大眾，並無特定主要銷售客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-17",
+   "field": "employees",
+   "statement": "114年度員工人數合計為11,642人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 98,
+   "excerpts": [
+    "年度 113 年度 114 年度 截至 115 年 3 月 29 日止",
+    "合計 11,462 11,642 11,834"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-18",
+   "field": "rd",
+   "statement": "年報載明本公司114年度共投入研發費用約新臺幣2億680萬元。",
+   "period": "114年度（2025）",
+   "page": 89,
+   "excerpts": [
+    "本公司 114 年度共投入研發費用約新臺幣 2 億 680 萬元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-19",
+   "field": "rd",
+   "statement": "年報載明本公司預估115年將投入研發費用約新臺幣4億3,897萬元。",
+   "period": "115年度（2026）預估",
+   "page": 90,
+   "excerpts": [
+    "預估 115 年將投入研發費用約新臺幣 4 億 3,897 萬元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-20",
+   "field": "capacity_or_production",
+   "statement": "年報載明於114年5月引進第10架777F貨機後，目前貨機機隊規模為18架（10架777F及8架744F）。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "於114 年 5 月引進第 10 架 777F 貨機後 ， 目前貨機機隊規 模為 18 架（10 架 777F 及 8 架 744F）"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-21",
+   "field": "outlook",
+   "statement": "年報載明規劃引進15架空中巴士A350-1000客機、15架波音777-9客機及8架777-8F貨機，預計自118年開始交付（計畫）。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "規劃引進15 架空中巴士A350-1000 客機、15架波音 777-9 客機及8 架 777-8F 貨機，預計自 118 年開始交付"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-22",
+   "field": "outlook",
+   "statement": "年報載明首架787新廣體客機規劃於115年起陸續交付（計畫）。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "配合首架 787 新廣體客機規劃於 115 年起陸續交付"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  },
+  {
+   "id": "2610-AR-23",
+   "field": "business_scope",
+   "statement": "年報載明華航現為天合聯盟18個成員航空公司之一。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "華航現為天合聯盟 18 個成員航空公司之一"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T00:23:42+00:00"
+   }
+  }
+ ]
+}

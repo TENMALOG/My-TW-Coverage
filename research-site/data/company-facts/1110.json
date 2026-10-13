@@ -1,0 +1,342 @@
+{
+ "ticker": "1110",
+ "company": "東泥",
+ "legal_name": "東南水泥股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1110&filename=2025_1110_20260618F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1110_20260618F04.pdf",
+  "text_sha256": "621df54d76c04dfa0bbf0ec8998645c0ad8811c70fcddac8a24f0be7e9986f89",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/621df54d76c04dfa0bbf0ec8998645c0ad8811c70fcddac8a24f0be7e9986f89.txt"
+ },
+ "facts": [
+  {
+   "id": "1110-AR-01",
+   "field": "business_scope",
+   "statement": "公司年報載明，業務主要內容包括水泥製造業、非金屬礦業、預拌混凝土製造業、水泥及混凝土製品製造業、住宅及大樓開發租售業、不動產租賃業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 90,
+   "excerpts": [
+    "C901030 水泥製造業",
+    "B202010 非金屬礦業",
+    "C901040 預拌混凝土製造業",
+    "C901050 水泥及混凝土製品製造業",
+    "H701010 住宅及大樓開發租售業",
+    "H703100 不動產租賃業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業比重中，水泥金額為1,714,669仟元（原文未載幣別），營業比重60.13%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.114 年營業比重：",
+    "個體 合併",
+    "金額(仟元) 百分比(%) 金額(仟元) 百分比(%)",
+    "水泥 1,817,930 82.73 1,714,669 60.13"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業比重中，預拌混凝土金額為710,932仟元（原文未載幣別），營業比重24.93%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.114 年營業比重：",
+    "個體 合併",
+    "金額(仟元) 百分比(%) 金額(仟元) 百分比(%)",
+    "預 拌 混 凝 土 - - 710,932 24.93"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業比重中，爐石粉金額為181,230仟元（原文未載幣別），營業比重6.36%。",
+   "period": "114年度（2025）",
+   "page": 90,
+   "excerpts": [
+    "2.114 年營業比重：",
+    "個體 合併",
+    "金額(仟元) 百分比(%) 金額(仟元) 百分比(%)",
+    "爐石粉 227,494 10.35 181,230 6.36"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-05",
+   "field": "history",
+   "statement": "公司年報載明，「東南水泥」自45年12月28日成立。",
+   "period": "截至114年度年報刊印日",
+   "page": 93,
+   "excerpts": [
+    "自 4 5年1 2月2 8 日 成立以來"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-06",
+   "field": "market_position",
+   "statement": "公司於年報自述，在袋裝水泥市場中本公司維持高市佔率。",
+   "period": "截至114年度年報刊印日",
+   "page": 93,
+   "excerpts": [
+    "在袋裝水",
+    "泥市場中，本公司維持高市佔率"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-07",
+   "field": "rd",
+   "statement": "公司年報載明，高雄廠將與工研院合作參與經濟部產發署「水泥與建材產業低碳轉型計畫」，預計於115年度導入人工智慧技術，應用於混凝土製程監控。",
+   "period": "截至114年度年報刊印日",
+   "page": 93,
+   "excerpts": [
+    "本公司高雄廠將與工研院合作參與經濟部產發署 「水泥與建材產業低碳",
+    "轉型計畫」 ， 預計於 115 年度導入人工智慧技術 ， 應用於混凝土製程監"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-08",
+   "field": "outlook",
+   "statement": "公司年報載明，目前公司位於高雄市經貿段約16,000坪土地出租予東南米樂進行規畫與應用，其中約10,000坪轉租給好市多作為商場，餘約6,000坪則由東南米樂自行開發，規劃興建商場進行招商。",
+   "period": "截至114年度年報刊印日",
+   "page": 94,
+   "excerpts": [
+    "目前公司位 於 高雄市經貿段約 16,000 坪土地出租予東南米樂進行規畫與應用",
+    "約 10,000 坪轉租給好市多作為商場 ， 餘約 6,000 坪則由東南米樂自行",
+    "開發，規劃興建商場進行招商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-09",
+   "field": "products",
+   "statement": "公司年報載明，主要產品包括第一型卜特蘭水泥與爐石粉。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "(1)、第一型卜特蘭水泥",
+    "(2) 、 爐 石粉"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-10",
+   "field": "raw_materials",
+   "statement": "公司年報載明，水淬爐石與卜特蘭一型水泥均為國內採購。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "水淬爐石 國 內 採購",
+    "卜特蘭一型水泥 國內採購"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-11",
+   "field": "major_suppliers",
+   "statement": "114年度（合併報表資料）供應商台灣水泥進貨金額為1,233,276仟元（原文未載幣別），占全年度進貨淨額比率57.36%。",
+   "period": "114年度（2025）",
+   "page": 98,
+   "excerpts": [
+    "2.最近二年度占進貨總額 10%以上之廠商名單:",
+    "1 1 3 年  1 1 4 年",
+    "( 仟元 )",
+    "占全年度 進貨淨額 比率〔 % 〕",
+    "台灣水泥  1,233,276 57.36",
+    "註：係採用合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-12",
+   "field": "employees",
+   "statement": "年報「(一)本公司」員工人數表列示，114年度員工人數為51人。",
+   "period": "114年度（2025）",
+   "page": 98,
+   "excerpts": [
+    "(一)本公司",
+    "113 年度 114 年度 當年度截至",
+    "員  工  人  數 50 51 50"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  },
+  {
+   "id": "1110-AR-13",
+   "field": "employees",
+   "statement": "年報「(二)財務報告內所有公司」員工人數表列示，114年度員工人數為138人。",
+   "period": "114年度（2025）",
+   "page": 99,
+   "excerpts": [
+    "(二)財務報告內所有公司",
+    "113 年度 114 年度 當年度截至",
+    "員  工  人  數 123 138 139"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T22:14:12+00:00"
+   }
+  }
+ ]
+}

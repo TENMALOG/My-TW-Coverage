@@ -1,0 +1,610 @@
+{
+ "ticker": "5011",
+ "company": "久陽",
+ "legal_name": "久陽精密股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5011&filename=2025_5011_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5011_20260526F04.pdf",
+  "text_sha256": "912f876dcf992840f65f3d31116d35acaf65f91baac699a9fce67abeced6ef28",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/912f876dcf992840f65f3d31116d35acaf65f91baac699a9fce67abeced6ef28.txt"
+ },
+ "facts": [
+  {
+   "id": "5011-AR-01",
+   "field": "business_scope",
+   "statement": "年報載明公司所營事業主要內容包括CA01030鋼鐵鑄造業、CA01040鋼鐵鍛造業、CA02030螺絲、螺帽、螺絲釘及鉚釘等製品製造業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "(1) CA01030 鋼鐵鑄造業。",
+    "(2) CA01040 鋼鐵鍛造業。",
+    "(5) CA02030 螺絲、螺帽、螺絲釘及鉚釘等製品製造業。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-02",
+   "field": "business_scope",
+   "statement": "年報載明公司自114年3月起廠房設備出租予春雨工廠，改以購入螺絲成品出售，不再自行製造螺絲。",
+   "period": "114年度（2025）",
+   "page": 91,
+   "excerpts": [
+    "本公司 114 年 3 月起廠房設備出租予春雨工廠，改以購入螺絲成品出售，不再自行製造螺絲"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-03",
+   "field": "products",
+   "statement": "年報列示久陽的主要產品為螺栓及其組合產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "公司 主要產品 產品規格",
+    "久陽 螺栓及其組合產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-04",
+   "field": "products",
+   "statement": "年報列示台鋼運輸的主要產品為貨運運輸、廢鐵買賣。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "公司 主要產品 產品規格",
+    "台鋼運輸 貨運運輸、廢鐵買賣 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度螺絲收入為新台幣869,682千元，營業比重17.18%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣千元",
+    "產品 114 年度銷售額 營業比重",
+    "螺絲收入 869,682 17.18%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度廢鐵收入為新台幣2,340,566千元，營業比重46.24%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣千元",
+    "產品 114 年度銷售額 營業比重",
+    "廢鐵收入 2,340,566 46.24%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-07",
+   "field": "revenue_mix",
+   "statement": "114年度運輸收入為新台幣462,155千元，營業比重9.13%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣千元",
+    "產品 114 年度銷售額 營業比重",
+    "運輸收入 462,155 9.13%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-08",
+   "field": "revenue_mix",
+   "statement": "114年度承攬收入為新台幣346,448千元，營業比重6.84%。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "單位：新台幣千元",
+    "產品 114 年度銷售額 營業比重",
+    "承攬收入 346,448 6.84%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣4,227,803千元，占銷售地區表合計83.52%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單位：新台幣千元",
+    "年度 114 年度 113 年度",
+    "地區/金額 金額 比率 金額 比率",
+    "內銷 4,227,803 83.52% 3,156,887 76.33%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-10",
+   "field": "export_share",
+   "statement": "114年度外銷至德國之金額為新台幣341,050千元，占銷售地區表合計6.74%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單位：新台幣千元",
+    "年度 114 年度 113 年度",
+    "地區/金額 金額 比率 金額 比率",
+    "外銷\n德國 341,050 6.74% 401,642 9.71%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-11",
+   "field": "export_share",
+   "statement": "114年度外銷至美國之金額為新台幣108,537千元，占銷售地區表合計2.14%。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "單位：新台幣千元",
+    "年度 114 年度 113 年度",
+    "地區/金額 金額 比率 金額 比率",
+    "美國 108,537 2.14% 123,682 2.99%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-12",
+   "field": "market_position",
+   "statement": "公司於年報自述，以我國114年度螺絲、螺帽及鉚釘出口值43.77億美元與公司114年度營業額約0.33億美元估算，占螺絲、螺帽及鉚釘產業總銷售值比重為0.75%（年報未載明出口值之統計來源）。",
+   "period": "114年度（2025）",
+   "page": 92,
+   "excerpts": [
+    "我國113年及114年度螺絲、螺帽及鉚釘出口值分別為為44.88億美元、",
+    "43.77億美元，若以本公司113及114年度之營業額約0.43億美元及0.33億美元估",
+    "算，占螺絲、螺帽及鉚釘產業總銷售值比重分別為0.96%及0.75%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-13",
+   "field": "raw_materials",
+   "statement": "年報載明公司最近年度主要原料係與春雨合作聯合採購鋼胚或盤元、線材來支應，惟114年3月起，改以向春雨採購螺絲成品出貨。",
+   "period": "114年度（2025）",
+   "page": 94,
+   "excerpts": [
+    "本公司最近年度主要原料係與春雨合作聯合採購鋼胚或盤元、線材來支應，惟",
+    "114 年 3 月起，改以向春雨採購螺絲成品出貨"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-14",
+   "field": "major_suppliers",
+   "statement": "年報表列春雨（與發行人之關係為關係人）為主要供應商資料之一，114年度進貨金額為新台幣410,952千元，占全年度進貨淨額11%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年 113 年 115 年度截至 3/31 止",
+    "占全年\n度進貨\n淨額比\n率〔%〕",
+    "1 春雨 410,952 11% 關係人 春雨 591,399 57% 關係人 春雨 106,166 12% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-15",
+   "field": "major_customers",
+   "statement": "年報表列某客戶（代號A公司）為主要銷貨客戶資料之一，114年度銷貨金額為新台幣2,453,374千元，占全年度銷貨淨額48%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年 113 年 115 年度截至 3/31 止",
+    "占全年\n度銷貨\n淨額比\n率〔%〕",
+    "1 A 公司 2,453,374 48% 無 A 公司 935,869 23% 無 A 公司 367,816 32% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-16",
+   "field": "major_customers",
+   "statement": "年報表列某客戶（代號B公司）為主要銷貨客戶資料之一，114年度銷貨金額為新台幣500,556千元，占全年度銷貨淨額10%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年 113 年 115 年度截至 3/31 止",
+    "占全年\n度銷貨\n淨額比\n率〔%〕",
+    "2 B 公司 500,556 10% 無 B 公司 481,309 12% 無 B 公司 349,709 30% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-17",
+   "field": "major_customers",
+   "statement": "年報表列某客戶（代號C公司）為主要銷貨客戶資料之一，114年度銷貨金額為新台幣389,937千元，占全年度銷貨淨額8%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年 113 年 115 年度截至 3/31 止",
+    "占全年\n度銷貨\n淨額比\n率〔%〕",
+    "3 C 公司 389,937 8% 無 C 公司 452,705 11% 無 C 公司 85,105 7% 關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-18",
+   "field": "employees",
+   "statement": "114年度員工人數合計為304人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "年度 114 年度 113 年度",
+    "合計 304      534 317"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-19",
+   "field": "rd",
+   "statement": "114年度研發經費為新台幣1,257千元。",
+   "period": "114年度（2025）",
+   "page": 91,
+   "excerpts": [
+    "單位：新台幣千元",
+    "項目 /  年度  113 年度 114 年度 115 年度截至 3/31",
+    "研發經費 2,930 1,257 0"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-20",
+   "field": "outlook",
+   "statement": "年報「計劃開發之新商品(服務)」表列久陽未來計畫開發新產業，發展未來核心事業。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "公司名稱 計劃開發之新商品(服務)",
+    "久陽 未來計畫開發新產業，發展未來核心事業。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-21",
+   "field": "outlook",
+   "statement": "年報「計劃開發之新商品(服務)」表列榮福積極參與國內陸續招標的焚化爐整改(ROT)和BOT標案。",
+   "period": "截至114年度年報刊印日",
+   "page": 88,
+   "excerpts": [
+    "公司名稱 計劃開發之新商品(服務)",
+    "榮福 積極參與國內陸續招標的焚化爐整改(ROT)和BOT標案"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-22",
+   "field": "group_structure",
+   "statement": "年報載明公司109年6月取得榮福公司99%股權，成為合併報表編製個體。",
+   "period": "109年6月",
+   "page": 89,
+   "excerpts": [
+    "本公司109年6月取得榮福公司99%股權，成為合併報表編製個體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-23",
+   "field": "group_structure",
+   "statement": "年報載明公司成立子公司台鋼環保，初期營運重心在於承接台鋼集團之各鋼鐵廠運作產生之廢棄物清運與處理。",
+   "period": "截至114年度年報刊印日",
+   "page": 89,
+   "excerpts": [
+    "本公司成立子公司台鋼環保，初期營運重心在於承接台鋼集團之各鋼",
+    "鐵廠運作產生之廢棄物清運與處理"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  },
+  {
+   "id": "5011-AR-24",
+   "field": "business_scope",
+   "statement": "年報載明公司113年底取得屏東崁頂焚化爐整改與其後20年的操作合約及新竹焚化爐新一輪20年的操作合約。",
+   "period": "113年底",
+   "page": 89,
+   "excerpts": [
+    "合併報表編製個體。113",
+    "年底取得屏東崁頂焚化爐整改與其後20年的操作合約及新竹焚化爐新一輪",
+    "20年的操作合約"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T14:04:18+00:00"
+   }
+  }
+ ]
+}

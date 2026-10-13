@@ -1,0 +1,562 @@
+{
+ "ticker": "5203",
+ "company": "訊連",
+ "legal_name": "訊連科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5203&filename=2025_5203_20260618F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5203_20260618F04.pdf",
+  "text_sha256": "1af923983b0e42cbaa867bad4f9c69076537ea271aa8be4a1194b8672dc55d23",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/1af923983b0e42cbaa867bad4f9c69076537ea271aa8be4a1194b8672dc55d23.txt"
+ },
+ "facts": [
+  {
+   "id": "5203-AR-01",
+   "field": "products",
+   "statement": "公司年報所列產品包括影音娛樂系列的PowerDVD，以及數位創作系列的PowerDirector、PhotoDirector等。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "(1) 影音娛樂系列 - Media Entertainment 系列軟體，包括 \n–PowerDVD",
+    "(2) 數位創作系列 - Media Creation 系列軟體及線上編輯服務，包括 \n–PowerDirector \n–PhotoDirector"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-02",
+   "field": "products",
+   "statement": "公司年報所列AI臉部辨識引擎及解決方案包括FaceMe SDK、FaceMe Platform、FaceMe eKYC、FaceMe Security及People Tracker等。",
+   "period": "截至114年度年報刊印日",
+   "page": 80,
+   "excerpts": [
+    "(5) AI 臉部辨識引擎及解決方案，包括 \n–FaceMe SDK \n–FaceMe Platform \n–FaceMe eKYC  \n–FaceMe Security \n–People Tracker"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-03",
+   "field": "revenue_mix",
+   "statement": "2025年度數位創作營業比重為76%（全球合併）。",
+   "period": "2025年度（114年度）",
+   "page": 79,
+   "excerpts": [
+    "公司目前之商品(服務)項目及其營業比重(全球合併)",
+    "單位：%",
+    "產品種類/年度 2024 年度 2025 年度",
+    "數位創作 76 76"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-04",
+   "field": "revenue_mix",
+   "statement": "2025年度影音娛樂及其他營業比重為24%（全球合併）。",
+   "period": "2025年度（114年度）",
+   "page": 79,
+   "excerpts": [
+    "公司目前之商品(服務)項目及其營業比重(全球合併)",
+    "單位：%",
+    "產品種類/年度 2024 年度 2025 年度",
+    "影音娛樂及其他 24 24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-05",
+   "field": "sales_regions",
+   "statement": "2025年度（全球合併營收）內銷金額為新台幣117,630仟元，比例4.78%（占銷售地區表總計2,459,506仟元）。",
+   "period": "2025年度（114年度）",
+   "page": 87,
+   "excerpts": [
+    "最近二年度主要商品之銷售地區(全球合併營收)",
+    "單位：新台幣仟元；%",
+    "2024 年度 2025 年度",
+    "金額 比例(%)",
+    "內銷 88,764 4.29 117,630 4.78",
+    "總     計 2,068,359 100.00 2,459,506 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-06",
+   "field": "sales_regions",
+   "statement": "2025年度（全球合併營收）外銷美洲金額為新台幣1,591,862仟元，比例64.72%（占銷售地區表總計2,459,506仟元）。",
+   "period": "2025年度（114年度）",
+   "page": 87,
+   "excerpts": [
+    "最近二年度主要商品之銷售地區(全球合併營收)",
+    "單位：新台幣仟元；%",
+    "2024 年度 2025 年度",
+    "金額 比例(%)",
+    "美洲 1,340,457 64.81 1,591,862 64.72",
+    "總     計 2,068,359 100.00 2,459,506 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-07",
+   "field": "sales_regions",
+   "statement": "2025年度（全球合併營收）外銷亞洲金額為新台幣616,927仟元，比例25.09%（占銷售地區表總計2,459,506仟元）。",
+   "period": "2025年度（114年度）",
+   "page": 87,
+   "excerpts": [
+    "最近二年度主要商品之銷售地區(全球合併營收)",
+    "單位：新台幣仟元；%",
+    "2024 年度 2025 年度",
+    "金額 比例(%)",
+    "亞洲 522,071 25.24 616,927 25.09",
+    "總     計 2,068,359 100.00 2,459,506 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-08",
+   "field": "sales_regions",
+   "statement": "公司年報載明其產品銷售市場涵蓋台灣、美國、日本、韓國及歐洲等國家。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "產品銷售市場涵蓋台灣、美國、日本、韓國及歐洲等國\n家"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-09",
+   "field": "raw_materials",
+   "statement": "公司年報於主要原料之供應狀況列載，使用者手冊、彩盒及包裝的供應商為今勛企業股份有限公司，供應狀況為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 92,
+   "excerpts": [
+    "主要原料名稱 供應商 供應狀況 備註",
+    "使用者手冊、 \n彩盒及包裝 今勛企業股份有限公司 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-10",
+   "field": "raw_materials",
+   "statement": "公司年報於主要原料之供應狀況列載，光碟片的供應商為今勛企業股份有限公司，供應狀況為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 92,
+   "excerpts": [
+    "主要原料名稱 供應商 供應狀況 備註",
+    "光碟片 今勛企業股份有限公司 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-11",
+   "field": "major_customers",
+   "statement": "2025年度某客戶（年報代號甲）的銷貨金額為新台幣490,869仟元，占全年度銷貨淨額的19.96%，與發行人之關係為非關係人。",
+   "period": "2025年度（114年度）",
+   "page": 93,
+   "excerpts": [
+    "2. 最近二年度任一年度中曾佔銷貨總額 10%以上之客戶",
+    "單位:新台幣仟元；%",
+    "2024 年度 2025 年度",
+    "占全年度銷貨\n淨額比率 〔%〕",
+    "甲  490,869  19.96 非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-12",
+   "field": "major_suppliers",
+   "statement": "2025年度某供應商（年報代號甲）的進貨金額為新台幣6,501仟元，占當年度進貨淨額的99.09%，與發行人關係為非關係人。",
+   "period": "2025年度（114年度）",
+   "page": 93,
+   "excerpts": [
+    "1. 最近二年度任一年度中曾佔進貨總額 10%以上之廠商",
+    "單位:新台幣仟元；%",
+    "2024 年度 2025 年度",
+    "占當年度進\n貨淨額比率\n〔%〕",
+    "甲 6,501 99.09  非關係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-13",
+   "field": "employees",
+   "statement": "2025年度員工人數合計為533人（全球合併，含本公司總公司及子公司員工人數）。",
+   "period": "2025年度（114年度）",
+   "page": 94,
+   "excerpts": [
+    "<全球合併>",
+    "項目 年度 2024 年 2025 年 2026/3/31",
+    "合計 517 533 533",
+    "註:含本公司總公司及子公司員工人數"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-14",
+   "field": "employees",
+   "statement": "2025年度技術及研發人員為306人（全球合併，含本公司總公司及子公司員工人數）。",
+   "period": "2025年度（114年度）",
+   "page": 94,
+   "excerpts": [
+    "<全球合併>",
+    "項目 年度 2024 年 2025 年 2026/3/31",
+    "技術及研發人員 289 306 308",
+    "註:含本公司總公司及子公司員工人數"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-15",
+   "field": "rd",
+   "statement": "2025年度研究發展費用為新台幣723,557仟元。",
+   "period": "2025年度（114年度）",
+   "page": 85,
+   "excerpts": [
+    "單位：新台幣仟元；﹪",
+    "年度 研究發展費用金額 佔營業收入比例(%)",
+    "2025 年(註) 723,557 29"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-16",
+   "field": "rd",
+   "statement": "2025年度研究發展費用占營業收入比例為29%。",
+   "period": "2025年度（114年度）",
+   "page": 85,
+   "excerpts": [
+    "年度 研究發展費用金額 佔營業收入比例(%)",
+    "2025 年(註) 723,557 29"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-17",
+   "field": "market_position",
+   "statement": "公司年報引述日本BCN Award統計資料，稱2025年訊連為日本零售市場影片軟體類別的銷售冠軍，並連續10年蟬聯日本市佔第1。",
+   "period": "2025年度（114年度）",
+   "page": 87,
+   "excerpts": [
+    "根據日本 BCN Award 統計資料，2025 年訊連為日本零售市場影片軟體類\n別的銷售冠軍，更連續10 年蟬聯日本市佔第 1 榮耀"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-18",
+   "field": "market_position",
+   "statement": "公司於年報自述訊連是台灣屈指可數成功走向國際的軟體公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 84,
+   "excerpts": [
+    "訊連是台灣屈指可數成功走向國際的軟體公司"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-19",
+   "field": "market_position",
+   "statement": "公司於年報自述FaceMe人臉辨識引擎具有高達99.83%的正確辨識率。",
+   "period": "2025年度（114年度）",
+   "page": 85,
+   "excerpts": [
+    "FaceMe\n人臉辨識引擎具有高達 99.83%的正確辨識率"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-20",
+   "field": "history",
+   "statement": "公司年報載明訊連於2018年推出FaceMe AI人臉辨識引擎。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "於 2018 年推出 FaceMe AI 人臉辨識引擎"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-21",
+   "field": "outlook",
+   "statement": "公司年報所列2026年研發計畫中，影音相片編輯軟體核心技術及產品之開發預計所需經費為250,000仟元。",
+   "period": "2026年（115年度）",
+   "page": 80,
+   "excerpts": [
+    "研發計畫 預計研發時程 所需經費",
+    "影音相片編輯軟體核心\n技術及產品之開發 2026 年全年 250,000 \n(仟元)"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  },
+  {
+   "id": "5203-AR-22",
+   "field": "outlook",
+   "statement": "公司年報所列未來發展計劃之一，為持續將人工智慧技術整合至PowerDirector、PhotoDirector、Promeo、MyEdit等創意編輯軟體。",
+   "period": "截至114年度年報刊印日",
+   "page": 86,
+   "excerpts": [
+    "AI 技術整合創意編輯產品：持續將人工智慧技術整合至\nPowerDirector、PhotoDirector、Promeo、MyEdit 等旗下創意編輯軟體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T21:44:32+00:00"
+   }
+  }
+ ]
+}

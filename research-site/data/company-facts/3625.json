@@ -1,0 +1,456 @@
+{
+ "ticker": "3625",
+ "company": "西勝",
+ "legal_name": "西勝國際股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=3625&filename=2025_3625_20260618F04.pdf",
+  "fy": 2025,
+  "filename": "2025_3625_20260618F04.pdf",
+  "text_sha256": "669ea557e0b8a31d93b6f1f51cb7aceb47d87833a1afd6bad7b3002b5a350d65",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/669ea557e0b8a31d93b6f1f51cb7aceb47d87833a1afd6bad7b3002b5a350d65.txt"
+ },
+ "facts": [
+  {
+   "id": "3625-AR-01",
+   "field": "business_scope",
+   "statement": "公司所營業務項目包括電子零組件製造業、電池製造業、電腦及其週邊設備製造業等。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "CC01080 電子零組件製造業",
+    "CC01090 電池製造業",
+    "CC01110 電腦及其週邊設備製造業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-02",
+   "field": "products",
+   "statement": "公司目前之商品項目包括BBU設備電池模組、UPS設備電池模組、二輪輕型移動載具電池模組、筆記型電腦電池模組、電池模組電源保護板及行動電源等產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "BBU 設備電池模組、UPS 設備電池模組、二輪輕型移動載具電池模組、筆記型電腦電池模組、電池模組電源保護板及行動電源等產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度筆記型電腦電池模組銷貨金額為新台幣116,240仟元，占銷貨比例28.90%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "113 年度 114 年度",
+    "筆記型電腦電池模組 326,623 66.04% 116,240 28.90%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度E-Mobility銷貨金額為新台幣226,373仟元，占銷貨比例56.27%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "113 年度 114 年度",
+    "E-Mobility 143,729 29.06% 226,373 56.27%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度BPS銷貨金額為新台幣44,388仟元，占銷貨比例11.03%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "113 年度 114 年度",
+    "BPS 21,897 4.43% 44,388 11.03%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-06",
+   "field": "revenue_mix",
+   "statement": "113年度筆記型電腦電池模組銷貨金額為新台幣326,623仟元，占銷貨比例66.04%。",
+   "period": "113年度（2024）",
+   "page": 64,
+   "excerpts": [
+    "113 年度 114 年度",
+    "筆記型電腦電池模組 326,623 66.04% 116,240 28.90%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-07",
+   "field": "market_position",
+   "statement": "114年度年報市場佔有率表列示西勝筆記型電腦電池組出貨量為1,148仟組，全球筆記型電腦出貨量為220,400仟組，西勝佔有率為0.52%。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "單位：仟組；%",
+    "年度 西勝筆記型電腦電池組出貨量 全球筆記型電腦出貨量 西勝佔有率",
+    "114 年 1,148 220,400 0.52%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-08",
+   "field": "raw_materials",
+   "statement": "主要原料表列示電池芯、鎳片、TCO、IC、PCB、保護電路版及Case為主要原料。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "電池芯 LG Energy Solution、珠海冠宇",
+    "鎳片 蘇州方林、裕偉精業",
+    "TCO 天津錦泰、蘇州天勢科技",
+    "IC LG Energy Solution、灃村電子",
+    "PCB 蘇州揚宣、定穎電子",
+    "保護電路版 SEOWON、NEXCON",
+    "Case 拓泰電子、重慶思柏"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-09",
+   "field": "major_suppliers",
+   "statement": "主要原料表列示電池芯的主要供應商為LG Energy Solution與珠海冠宇。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "電池芯 LG Energy Solution、珠海冠宇"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-10",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（C公司）進貨金額為新台幣57,038仟元，占全年度進貨淨額比率27.56%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "113 年 114 年 115 年度截至第一季止",
+    "占全年度進貨淨額比率",
+    "1 C 公司 34,382 11.00 無 C 公司 57,038 27.56 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-11",
+   "field": "major_customers",
+   "statement": "114年度某客戶（S公司）銷貨金額為新台幣208,599仟元，占全年度銷貨淨額比率51.86%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "113 年 114 年 115 年度截至第一季止",
+    "占全年度銷貨淨額比率",
+    "1 S 公司 142,126 28.74 無 S 公司 208,599 51.86 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-12",
+   "field": "major_customers",
+   "statement": "114年度某客戶（L公司）銷貨金額為新台幣76,804仟元，占全年度銷貨淨額比率19.09%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "113 年 114 年 115 年度截至第一季止",
+    "占全年度銷貨淨額比率",
+    "2 L 公司 270,108 54.62 無 L 公司 76,804 19.09 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（P公司）銷貨金額為新台幣39,436仟元，占全年度銷貨淨額比率9.80%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "113 年 114 年 115 年度截至第一季止",
+    "占全年度銷貨淨額比率",
+    "3 P 公司 44,236 8.94 無 P 公司 39,436 9.80 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-14",
+   "field": "employees",
+   "statement": "114年度員工人數合計267人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "年度 113 年度 114 年度 當年度截至",
+    "合 計 283 267 249"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-15",
+   "field": "rd",
+   "statement": "114年度研究發展費為新台幣89,993仟元。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "110 年度 111 年度 112 年度 113 年度 114 年度",
+    "研究發展費 79,113 86,873 59,455 61,257 89,993"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-16",
+   "field": "rd",
+   "statement": "114年度研究發展費占營業收入淨額比例為22.37%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "110 年度 111 年度 112 年度 113 年度 114 年度",
+    "佔營收比例 3.64% 5.92% 5.16% 12.39% 22.37%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-17",
+   "field": "rd",
+   "statement": "114年度研究發展人員合計48人。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "113 年度 114 年度 115 年度",
+    "合計 36 100.0% 48 100% 43 100.0%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  },
+  {
+   "id": "3625-AR-18",
+   "field": "outlook",
+   "statement": "公司於年報揭露長期發展計劃之一為持續與國外電芯大廠合作，開發新客戶、新產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "長期發展計劃",
+    "持續與國外電芯大廠合作，開發新客戶、新產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T08:31:24+00:00"
+   }
+  }
+ ]
+}

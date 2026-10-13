@@ -1,0 +1,501 @@
+{
+ "ticker": "1587",
+ "company": "吉茂",
+ "legal_name": "吉茂精密股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1587&filename=2025_1587_20260604F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1587_20260604F04.pdf",
+  "text_sha256": "6e0c9aa50d162d4203fb43e843214d8bf2cd267b245ef789b5a898d3ff695fe9",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6e0c9aa50d162d4203fb43e843214d8bf2cd267b245ef789b5a898d3ff695fe9.txt"
+ },
+ "facts": [
+  {
+   "id": "1587-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度水箱銷貨收入淨額為2,129,559仟元（原文未載幣別），營業比重80.30%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "年度\n主要產品\n114 年度\n銷貨收入淨額（仟元） 營業比重(%)",
+    "水箱 2,129,559 80.30"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度機油冷卻器銷貨收入淨額為127,077仟元（原文未載幣別），營業比重4.79%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "年度\n主要產品\n114 年度\n銷貨收入淨額（仟元） 營業比重(%)",
+    "機油冷卻器 127,077 4.79"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度半成品銷貨收入淨額為153,069仟元（原文未載幣別），營業比重5.77%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "年度\n主要產品\n114 年度\n銷貨收入淨額（仟元） 營業比重(%)",
+    "半成品 153,069 5.77"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-04",
+   "field": "business_scope",
+   "statement": "年報載明公司主要業務內容為各種汽車水箱及冷卻系統、相關零組件之製造、開發與銷售。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "本公司主要業務內容為各種汽車水箱及冷卻系統、相關零組件之製造、開發 \n與銷售"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-05",
+   "field": "products",
+   "statement": "年報列載公司目前之商品項目包括車用冷卻系統，含汽車水箱、中冷器、機油冷卻器、冷凝器等。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "A.車用冷卻系統。包含汽車水箱、中冷器、機油冷卻器、冷凝器"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-06",
+   "field": "products",
+   "statement": "年報列載計劃開發之新商品包括全硬焊式機油冷卻器、跨領域散熱器、新式樣車型之汽車水箱、電動車電機電控熱管理散熱器等。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "4.計劃開發之新商品",
+    "A.全硬焊式機油冷卻器",
+    "B.散熱效率高、輕薄之跨領域散熱器開發運用",
+    "C.新式樣車型之汽車水箱",
+    "D.電動車電機電控熱管理散熱器"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-07",
+   "field": "sales_regions",
+   "statement": "114年度內銷營業收入淨額為新台幣407,075仟元，比重15.35%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "內銷 407,075 15.35 287,716 13.36"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度外銷美洲地區營業收入淨額為新台幣1,739,799仟元，比重65.61%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "美洲地區 1,739,799 65.61 1,408,331 65.38"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度外銷亞洲地區營業收入淨額為新台幣351,023仟元，比重13.24%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "114 年度 113 年度",
+    "亞洲地區 351,023 13.24 299,386 13.90"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，據關稅總局114年度統計汽車用散熱器出口總值2,002,169仟元（原文未載幣別）計算，公司在國內散熱器出口市場佔有率為46.81%。",
+   "period": "114年度（2025）",
+   "page": 76,
+   "excerpts": [
+    "據關稅總局 114 年度統計汽車用散熱器(即為車用冷卻系統)出口總值\n2,002,169 仟元計算，本公司在國內散熱器出口市場佔有率為 46.81%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-11",
+   "field": "raw_materials",
+   "statement": "年報列載主要原料鋁料的供應來源為甲公司、乙公司，塑膠粒的供應來源為丙公司（均為年報代號）。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "鋁料 甲公司、乙公司",
+    "塑膠粒 丙公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-12",
+   "field": "major_suppliers",
+   "statement": "114年度向甲公司（年報代號）進貨占全年度進貨淨額比率為43.28%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "113 年度 114 年度 115 年度截至第一季止",
+    "佔全年度\n進貨淨額\n比率(%)",
+    "1 甲公司 522,428 44.28 無 甲公司 703,701 43.28 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-13",
+   "field": "major_customers",
+   "statement": "114年度A公司（年報代號）占全年度銷貨淨額比率為14.92%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "113 年度 114 年度 115 年度截至第一季止",
+    "佔全年\n度銷貨\n淨額比\n率(%)",
+    "1 A 公司 423,004 19.64 - A 公司 395,763 14.92 -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-14",
+   "field": "major_customers",
+   "statement": "114年度B公司（年報代號）占全年度銷貨淨額比率為11.35%。",
+   "period": "114年度（2025）",
+   "page": 80,
+   "excerpts": [
+    "113 年度 114 年度 115 年度截至第一季止",
+    "佔全年\n度銷貨\n淨額比\n率(%)",
+    "2 B 公司 333,885 15.50 - B 公司 301,032 11.35 -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-15",
+   "field": "employees",
+   "statement": "114年員工人數合計為586人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年",
+   "page": 81,
+   "excerpts": [
+    "員工人數\n（人）",
+    "年度 113 年 114 年",
+    "合計 578 586 593"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-16",
+   "field": "rd",
+   "statement": "年報表列114年度研發費用為新台幣46,426仟元、營業收入淨額2,651,919仟元、研發費用所占比率1.75%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "1 1 5年1至3月 1 1 4年 度",
+    "研發費用 10,070 46,426",
+    "營業收入淨額 754,074 2,651,919",
+    "研發費用所占比率 1.34% 1.75%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-17",
+   "field": "capacity_or_production",
+   "statement": "年報載明公司於臺灣、中國東莞與南京及墨西哥均設有生產基地，並於美國東、西岸設有發貨倉庫。",
+   "period": "截至114年度年報刊印日",
+   "page": 76,
+   "excerpts": [
+    "本公司於臺灣、中國東莞與南京及墨西哥均設有生產基地，並於美國東、西岸亦有發貨倉庫"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-18",
+   "field": "group_structure",
+   "statement": "年報載明公司於民國95年成立美國子公司Cryomax U.S.A. INC.，並於民國102年成立南京吉茂。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "於民國 95 年成立美國子公司 Cryomax U.S.A. INC.",
+    "並於民國 102 年成立南京吉茂"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-19",
+   "field": "group_structure",
+   "statement": "年報載明日本Denso為公司股東。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "日本 Denso 為本公司股東"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  },
+  {
+   "id": "1587-AR-20",
+   "field": "outlook",
+   "statement": "年報短期業務發展計畫載明，公司將藉由墨西哥工廠開拓中南美洲市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "藉由墨西哥工廠開拓中南美洲市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-12T13:42:52+00:00"
+   }
+  }
+ ]
+}
