@@ -3,99 +3,22 @@
  "company": "川湖",
  "legal_name": "川湖科技股份有限公司",
  "source": {
-  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2059&filename=2024_2059_20250627F04.pdf",
-  "fy": 2024,
-  "filename": "2024_2059_20250627F04.pdf",
-  "text_sha256": "099d981e67165351eb37323eb000b7f349b322b35455485bc3f51095483336e4",
-  "text_path": "audit-v5/source-cache/research-site/mops-annual/099d981e67165351eb37323eb000b7f349b322b35455485bc3f51095483336e4.txt"
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2059&filename=2025_2059_20260630F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2059_20260630F04.pdf",
+  "text_sha256": "17d2bc9c74ed0af5bf6e839c5b015acf387c756a92b109a8f2f1ddff2ed4b54b",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/17d2bc9c74ed0af5bf6e839c5b015acf387c756a92b109a8f2f1ddff2ed4b54b.txt"
  },
  "facts": [
   {
-   "field": "revenue_mix",
-   "statement": "113年度導軌的營業比重為96%。",
-   "period": "113年度（2024）",
-   "page": 71,
-   "excerpts": [
-    "2.營業比重：",
-    "產品內容 113 年度",
-    "導軌 96%"
-   ],
    "id": "2059-AR-01",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "revenue_mix",
-   "statement": "113年度鉸鏈的營業比重為2%。",
-   "period": "113年度（2024）",
-   "page": 71,
-   "excerpts": [
-    "2.營業比重：",
-    "產品內容 113 年度",
-    "鉸鏈 2%"
-   ],
-   "id": "2059-AR-02",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "revenue_mix",
-   "statement": "113年度滑軌的營業比重為0%。",
-   "period": "113年度（2024）",
-   "page": 71,
-   "excerpts": [
-    "2.營業比重：",
-    "產品內容 113 年度",
-    "滑軌 0%"
-   ],
-   "id": "2059-AR-03",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
    "field": "business_scope",
-   "statement": "公司所營業務主要內容包括研究、設計、製造和銷售導軌及伺服器週邊零組件、滑軌、隱藏式鉸鏈等。",
-   "period": "截至113年度年報刊印日",
-   "page": 71,
+   "statement": "川湖研究、設計、製造及銷售導軌與伺服器週邊零組件。",
+   "period": "截至114年度年報刊印時",
+   "page": 70,
    "excerpts": [
-    "(1)研究、設計、製造和銷售導軌及伺服器週邊零組件。",
-    "(2)研究、設計、製造和銷售各式用途之滑軌。",
-    "(3)研究、設計、製造和銷售隱藏式鉸鏈。"
+    "研究、設計、製造和銷售導軌及伺服器週邊零組件。"
    ],
-   "id": "2059-AR-04",
    "attribution": "公司年報揭露",
    "verification": {
     "status": "PASS",
@@ -107,347 +30,93 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
+   "id": "2059-AR-02",
    "field": "products",
-   "statement": "商品項目包括1U-7U 伺服器及其週邊設備用等各式導軌、多種用途之滑軌、多種用途之鉸鏈。",
-   "period": "截至113年度年報刊印日",
-   "page": 71,
+   "statement": "川湖的商品包括伺服器及其週邊設備用導軌、多種用途滑軌及鉸鏈。",
+   "period": "截至114年度年報刊印時",
+   "page": 70,
    "excerpts": [
-    "商品項目",
-    "1U-7U 伺服器及其週邊設備用等各式導軌",
-    "2.多種用途之滑軌",
-    "3.多種用途之鉸鏈"
+    "伺服器及其週邊設備用等各式導軌",
+    "多種用途之滑軌",
+    "多種用途之鉸鏈"
    ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度導軌占川湖營業比重98%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "產品內容 114 年度",
+    "導軌 98%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度鉸鏈占川湖營業比重1%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "產品內容 114 年度",
+    "鉸鏈 1%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
    "id": "2059-AR-05",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
    "field": "sales_regions",
-   "statement": "113年度銷售地區表中，美國占銷售地區表合計46%。",
-   "period": "113年度（2024）",
-   "page": 79,
-   "excerpts": [
-    "(1) 113 年度主要商品(服務)之銷售(提供)地區:",
-    " 導軌 滑軌 鉸鏈 其他 合計",
-    "美國 44% 0% 0% 2% 46%"
-   ],
-   "id": "2059-AR-06",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "sales_regions",
-   "statement": "113年度銷售地區表中，台灣占銷售地區表合計19%。",
-   "period": "113年度（2024）",
-   "page": 79,
-   "excerpts": [
-    "(1) 113 年度主要商品(服務)之銷售(提供)地區:",
-    " 導軌 滑軌 鉸鏈 其他 合計",
-    "台灣 17% 0% 2% 0% 19%"
-   ],
-   "id": "2059-AR-07",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "sales_regions",
-   "statement": "113年度銷售地區表中，中國占銷售地區表合計16%。",
-   "period": "113年度（2024）",
-   "page": 79,
-   "excerpts": [
-    "(1) 113 年度主要商品(服務)之銷售(提供)地區:",
-    " 導軌 滑軌 鉸鏈 其他 合計",
-    "中國 16% 0% 0% 0% 16%"
-   ],
-   "id": "2059-AR-08",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "major_suppliers",
-   "statement": "113年度進貨表列的中鋼進貨金額為新台幣753,161千元，占全年度進貨淨額41.83%，與發行人之關係為無。",
-   "period": "113年度（2024）",
-   "page": 85,
-   "excerpts": [
-    "1.主要供應商",
-    "單位：新台幣千元",
-    "113 年度 112 年度 114 年第 1 季",
-    "佔全年\n度進貨\n淨額比\n率(％)",
-    "1 中鋼 753,161 41.83 無 中鋼 526,671 42.77 無 中鋼 130,180 30.01 無"
-   ],
-   "id": "2059-AR-09",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "major_suppliers",
-   "statement": "年報變動分析載明，中鋼為本公司主要原料供應商，最近二年度均位居本公司進貨排行之首。",
-   "period": "113年度及112年度",
-   "page": 85,
-   "excerpts": [
-    "變動分析：中鋼為本公司主要原料供應商",
-    "故最近二年度均位居本公司進貨排行之首"
-   ],
-   "id": "2059-AR-10",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度銷貨表列的某客戶（甲客戶）銷貨金額為新台幣1,205,659千元，占全年度銷貨淨額11.90%，與發行人之關係為無。",
-   "period": "113年度（2024）",
-   "page": 85,
-   "excerpts": [
-    "2.主要銷貨客戶",
-    "單位：新台幣千元",
-    "113 年度 112 年度 114 年第 1 季",
-    "佔全年\n度銷貨\n淨額比\n率(％)",
-    "1 甲客戶 1,205,659 11.90 無 甲客戶 268,576 4.66 無 甲客戶 528,915 13.38 無"
-   ],
-   "id": "2059-AR-11",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度銷貨表列的某客戶（乙客戶）銷貨金額為新台幣1,113,395千元，占全年度銷貨淨額10.99%，與發行人之關係為無。",
-   "period": "113年度（2024）",
-   "page": 85,
-   "excerpts": [
-    "2.主要銷貨客戶",
-    "單位：新台幣千元",
-    "113 年度 112 年度 114 年第 1 季",
-    "佔全年\n度銷貨\n淨額比\n率(％)",
-    "2 乙客戶 1,113,395 10.99 無 乙客戶 818,600 14.20 無 乙客戶 899,430 22.75 無"
-   ],
-   "id": "2059-AR-12",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "年報變動分析載明，甲、乙客戶為國際伺服器大廠指定下單之代工廠，分別位居本公司銷貨排行前二大。",
-   "period": "113年度",
-   "page": 86,
-   "excerpts": [
-    "變動分析：甲、乙客戶為國際伺服器大廠指定下單之代工廠",
-    "分別位居本\n公司銷貨排行前二大"
-   ],
-   "id": "2059-AR-13",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "raw_materials",
-   "statement": "年報載明本公司主要原料為鋼捲，主要向中鋼公司採購，部份由國內裁剪業供應，另亦自國外進口，主要供料來自日本。",
-   "period": "截至113年度年報刊印日",
-   "page": 85,
-   "excerpts": [
-    "本公司主要原料為鋼捲，主要向中鋼公司採購，部份由國內裁剪業供應，另亦自\n國外進口，主要供料來自日本"
-   ],
-   "id": "2059-AR-14",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "employees",
-   "statement": "113年度員工人數合計為1,608人（不含契約工人數200人；員工人數表未載明為母公司或合併範圍）。",
-   "period": "113年度（2024）",
-   "page": 86,
-   "excerpts": [
-    "單位：人；%",
-    "年 度 113 年度 112 年度 11 4 年度截至",
-    "人數 合    計 1,608 (註 1) 1,410 (註 2) 1,641 (註 3)",
-    "註 1：以上人力不含契約工人數 200 人。"
-   ],
-   "id": "2059-AR-15",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "rd",
-   "statement": "113年度研發費用為新台幣348,482千元。",
-   "period": "113年度（2024）",
-   "page": 76,
-   "excerpts": [
-    "單位：新台幣千元",
-    "項 目 年 度 113 年度 11 4 年 度 截 至",
-    "研發費用 348,482 120,607"
-   ],
-   "id": "2059-AR-16",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "rd",
-   "statement": "113年度研發費用佔營收淨額比例為3.44%。",
-   "period": "113年度（2024）",
-   "page": 76,
-   "excerpts": [
-    "項 目 年 度 113 年度 11 4 年 度 截 至",
-    "研發費用佔營收淨額比例 3.44% 3.05%"
-   ],
-   "id": "2059-AR-17",
-   "attribution": "公司年報揭露",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "rd",
-   "statement": "113年度專利申請143案，核准公告171案。",
-   "period": "113年度（2024）",
+   "statement": "114年度美國占川湖主要商品銷售地區表合計57%。",
+   "period": "114年度（2025）",
    "page": 77,
    "excerpts": [
-    "年  度 專 利 件 數",
-    "113 年度 專利申請 143 案，核准公告 171 案。"
+    "114 年度主要商品(服務)之銷售(提供)地區:",
+    "導軌 滑軌 鉸鏈 其他 合計",
+    "美國 56% 0% 0% 1% 57%"
    ],
-   "id": "2059-AR-18",
    "attribution": "公司年報揭露",
    "verification": {
     "status": "PASS",
@@ -459,18 +128,20 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "outlook",
-   "statement": "公司於年報表示，為服務國內外系統整合大廠及消費者，並有效擴展全球化市場，預計於未來增加發貨倉庫、行銷據點，藉以提高市佔率及全球知名度。",
-   "period": "截至113年度年報刊印日",
-   "page": 78,
+   "id": "2059-AR-06",
+   "field": "sales_regions",
+   "statement": "114年度臺灣占川湖主要商品銷售地區表合計18%。",
+   "period": "114年度（2025）",
+   "page": 77,
    "excerpts": [
-    "為服務國內外系統整合大廠及消費者，並有效擴展全球化市場，預計於未來\n增加發貨倉庫、行銷據點，藉以提高市佔率及全球知名度。"
+    "114 年度主要商品(服務)之銷售(提供)地區:",
+    "導軌 滑軌 鉸鏈 其他 合計",
+    "台灣 17% 0% 1% 0% 18%"
    ],
-   "id": "2059-AR-19",
    "attribution": "公司年報揭露",
    "verification": {
     "status": "PASS",
@@ -482,43 +153,20 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "market_position",
-   "statement": "公司於年報自述，公司挾IBM、HP、ORACLE、Fujitsu-Siemens、DELL等國際伺服器大廠對其導軌產品（年報稱「該產品」）之認證通過。",
-   "period": "截至113年度年報刊印日",
-   "page": 83,
-   "excerpts": [
-    "本公司挾其 IBM、HP、ORACLE、Fujitsu-Siemens、DELL 等國際伺服器",
-    "大廠對該產品之認證通過"
-   ],
-   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
-   "id": "2059-AR-20",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
-   }
-  },
-  {
-   "field": "market_position",
-   "statement": "公司於年報自述，在傳統市場被美國列為世界四大品牌之一。",
-   "period": "截至113年度年報刊印日",
+   "id": "2059-AR-07",
+   "field": "raw_materials",
+   "statement": "川湖主要原料為鋼捲，主要向中鋼公司採購，部分由國內裁剪業供應，並自國外進口。",
+   "period": "截至114年度年報刊印時",
    "page": 84,
    "excerpts": [
-    "在傳統市場被美國列\n為世界四大品牌之一"
+    "本公司主要原料為鋼捲，主要 向中鋼公司採購，部份由國內裁剪業供應，另亦自",
+    "國外進口，主要供料來自日本，原料供應狀況良好。"
    ],
-   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
-   "id": "2059-AR-21",
+   "attribution": "公司年報揭露",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -529,7 +177,206 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:52:00+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-08",
+   "field": "major_suppliers",
+   "statement": "114年度中鋼進貨金額為新台幣千元653,260，占川湖全年度進貨淨額33.93%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度 113 年度 115 年度截至前 1 季",
+    "1 中鋼 653,260 33.93 無 中鋼 753,161 41.83 無 中鋼 246,721 36.64 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-09",
+   "field": "major_suppliers",
+   "statement": "114年度A公司進貨金額為新台幣千元240,714，占川湖全年度進貨淨額12.50%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度 113 年度 115 年度截至前 1 季",
+    "2 A 公司 240,714 12.50 無 A 公司 153,595 8.53 無 A 公司 49,450 7.34 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-10",
+   "field": "major_customers",
+   "statement": "114年度甲客戶銷貨金額為新台幣千元3,045,813，占川湖全年度銷貨淨額17.40%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度 113 年度 115 年度截至前 1 季",
+    "1 甲客戶 3,045,813 17.40 無 甲客戶 1,113,395 10.99 無 甲客戶 680,873 12.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-11",
+   "field": "major_customers",
+   "statement": "114年度乙客戶銷貨金額為新台幣千元2,427,108，占川湖全年度銷貨淨額13.87%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度 113 年度 115 年度截至前 1 季",
+    "2 乙客戶 2,427,108 13.87 無 乙客戶 1,205,659 11.90 無 乙客戶 348,490 6.40 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-12",
+   "field": "major_customers",
+   "statement": "114年度丙客戶銷貨金額為新台幣千元2,173,603，占川湖全年度銷貨淨額12.42%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣千元",
+    "114 年度 113 年度 115 年度截至前 1 季",
+    "3 丙客戶 2,173,603 12.42 無 丙客戶 694,860 6.86 無 丙客戶 571,822 10.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-13",
+   "field": "employees",
+   "statement": "114年度川湖從業員工人數表列直接人工1,395人。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "年 度 114 年度 113 年度 11 5 年度截至",
+    "員工 直接人工 1,395 1,220 1,441"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-14",
+   "field": "employees",
+   "statement": "114年度川湖從業員工人數表列合計1,827人，不含契約工793人。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "年 度 114 年度 113 年度 11 5 年度截至",
+    "人數 合 計 1,827 (註 1) 1,608 (註 2) 1,877 (註 3)",
+    "註 1：以上人力不含契約工人數 793 人。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "2059-AR-15",
+   "field": "rd",
+   "statement": "114年度川湖研發費用為新台幣千元476,858。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "單位：新台幣千元",
+    "項 目 年 度 114 年度 11 5 年 度 截 至",
+    "研發費用 476,858 142,471"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   }
  ]

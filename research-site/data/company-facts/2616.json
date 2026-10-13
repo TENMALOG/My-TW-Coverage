@@ -1,0 +1,473 @@
+{
+ "ticker": "2616",
+ "company": "山隆",
+ "legal_name": "山隆通運股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2616&filename=2025_2616_20260618F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2616_20260618F04.pdf",
+  "text_sha256": "c734dca879a4474753ebb8e5c12f916b28bc671b84407ce7a314e5135e53d331",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/c734dca879a4474753ebb8e5c12f916b28bc671b84407ce7a314e5135e53d331.txt"
+ },
+ "facts": [
+  {
+   "id": "2616-AR-01",
+   "field": "business_scope",
+   "statement": "山隆從事貨櫃運輸、散裝運輸、危險物品承運、油運運輸、車輛銷售、汽車修理、車輛代檢及加油站業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "本公司從事貨櫃運輸、散裝運輸、危險物品承運、油運運輸、車輛銷售、汽車修理、車 輛代檢及加油站業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度汽車運輸業占營業額21%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "營業比重（114 年度）",
+    "汽車運輸業 21%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度加油站業務占營業額79%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "營業比重（114 年度）",
+    "加油站業務 79%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-04",
+   "field": "products",
+   "statement": "山隆貨櫃運輸服務承運碼頭櫃場至客戶工廠的進出口貨櫃。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "貨櫃運輸：專業進出口貨櫃承運，從碼頭櫃場到客戶工廠"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-05",
+   "field": "products",
+   "statement": "山隆散裝運輸服務包括平板與傾卸作業。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "散裝運輸：貨物成品原料承運，包括平板、傾卸（斗車）、傾卸作業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-06",
+   "field": "products",
+   "statement": "山隆提供化學槽櫃及各種危險物品運輸服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "提供化學槽櫃及各種危險物品運輸服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-07",
+   "field": "products",
+   "statement": "山隆的加油站業務設置直營加油站。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "山隆於各交通要道及鄰近人口稠密處設置直營加油站"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-08",
+   "field": "raw_materials",
+   "statement": "山隆油品業務的油品來源為國內中油及台塑，均簽訂供貨契約書。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "油品來源為國內中油及台塑兩大供應商，且均簽 訂供貨契約書"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-09",
+   "field": "major_suppliers",
+   "statement": "114年中國石油進貨金額為4,364,777仟元（原文未載幣別），占全年度進貨淨額74.16%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位: 仟元",
+    "114 年",
+    "中國石油 4,364,777 74.16",
+    "進貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-10",
+   "field": "major_suppliers",
+   "statement": "114年台塑石化進貨金額為1,520,744仟元（原文未載幣別），占全年度進貨淨額25.84%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位: 仟元",
+    "114 年",
+    "台塑石化 1,520,744 25.84",
+    "進貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-11",
+   "field": "major_suppliers",
+   "statement": "113年中國石油進貨金額為6,124,105仟元（原文未載幣別），占全年度進貨淨額76.45%。",
+   "period": "113年度（2024）",
+   "page": 63,
+   "excerpts": [
+    "單位: 仟元",
+    "113 年",
+    "中國石油 6,124,105 76.45",
+    "進貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-12",
+   "field": "major_suppliers",
+   "statement": "113年台塑石化進貨金額為1,886,563仟元（原文未載幣別），占全年度進貨淨額23.55%。",
+   "period": "113年度（2024）",
+   "page": 63,
+   "excerpts": [
+    "單位: 仟元",
+    "113 年",
+    "台塑石化 1,886,563 23.55",
+    "進貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-13",
+   "field": "major_customers",
+   "statement": "114年正隆及其子公司等銷貨金額為1,275,030仟元（原文未載幣別），占全年度銷貨淨額15.59%。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "單位: 仟元",
+    "114 年",
+    "正隆及其 子公司等 1,275,030 15.59",
+    "銷貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-14",
+   "field": "major_customers",
+   "statement": "113年正隆及其子公司等銷貨金額為1,623,275仟元（原文未載幣別），占全年度銷貨淨額14.97%。",
+   "period": "113年度（2024）",
+   "page": 64,
+   "excerpts": [
+    "單位: 仟元",
+    "113 年",
+    "正隆及其 子公司等 1,623,275 14.97",
+    "銷貨淨額"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計1,027人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "114 年度",
+    "合 計 1,525 1,027"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-16",
+   "field": "employees",
+   "statement": "截至115年4月20日員工人數合計931人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至115年4月20日",
+   "page": 64,
+   "excerpts": [
+    "115 年4 月20 日止",
+    "合 計 1,525 1,027 931"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-17",
+   "field": "market_position",
+   "statement": "山隆年報記載其加油站有74座，分布於全省各地。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "現已達74 座加油站，分布於全省各 地"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-18",
+   "field": "outlook",
+   "statement": "山隆短期計畫推行智慧加油站及山隆PayApp掃碼支付。",
+   "period": "截至114年度年報刊印日",
+   "page": 61,
+   "excerpts": [
+    "山隆正式推行「智慧加油站」概念：山隆PayApp：普及化掃碼支付"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  },
+  {
+   "id": "2616-AR-19",
+   "field": "outlook",
+   "statement": "山隆長期計畫拓展國內油品據點，並整合船務、倉儲及物流業務。",
+   "period": "截至114年度年報刊印日",
+   "page": 61,
+   "excerpts": [
+    "油品方面：持續拓展國內據點，確保柴油市場之領導地位；運輸方面：船務、倉儲以及物 流一條龍整合業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:42:35+00:00"
+   }
+  }
+ ]
+}

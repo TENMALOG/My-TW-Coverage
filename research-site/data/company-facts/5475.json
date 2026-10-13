@@ -3,24 +3,23 @@
  "company": "德宏",
  "legal_name": "德宏工業股份有限公司",
  "source": {
-  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5475&filename=2024_5475_20250620F04.pdf",
-  "fy": 2024,
-  "filename": "2024_5475_20250620F04.pdf",
-  "text_sha256": "a70811714545364631e98632e046a0c120a927730d90142458400a0afcfdbcbe",
-  "text_path": "audit-v5/source-cache/research-site/mops-annual/a70811714545364631e98632e046a0c120a927730d90142458400a0afcfdbcbe.txt"
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5475&filename=2025_5475_20260601F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5475_20260601F04.pdf",
+  "text_sha256": "d722b1eb9ec5400d32b7e1f613e239ca87fe2a27eadf6c310c85ed967fe9268e",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/d722b1eb9ec5400d32b7e1f613e239ca87fe2a27eadf6c310c85ed967fe9268e.txt"
  },
  "facts": [
   {
+   "id": "5475-AR-01",
    "field": "business_scope",
-   "statement": "公司所營業務主要內容包括電子級玻璃纖維布研究、開發、生產、製造及銷售，以及玻璃纖維紗之製造、加工及買賣業務。",
-   "period": "截至113年度年報刊印日",
+   "statement": "德宏從事電子級玻璃纖維布的研究、開發、生產、製造及銷售。",
+   "period": "截至114年度年報刊印時",
    "page": 43,
    "excerpts": [
-    "（1）電子級玻璃纖維布研究、開發、生產、製造及銷售。",
-    "（2）玻璃纖維紗之製造、加工及買賣業務。"
+    "電子級玻璃纖維布研究、開發、生產、製造及銷售。"
    ],
    "attribution": "公司年報揭露",
-   "id": "5475-AR-01",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -31,21 +30,21 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
+   "id": "5475-AR-02",
    "field": "revenue_mix",
-   "statement": "113年度玻璃纖維布合併營業收入為新台幣533,152仟元，營業比率96.67%。",
-   "period": "113年度（2024）",
+   "statement": "114年度玻璃纖維布合併營業收入為新台幣仟元861,921，占營業比率98.40%。",
+   "period": "114年度（2025）",
    "page": 43,
    "excerpts": [
     "單位：新台幣仟元；%",
-    "產品項目 113 度合併營業收入 營業比率(%)",
-    "玻璃纖維布   533,152  96.67"
+    "產品項目 114 度合併營業收入 營業比率(%)",
+    "玻璃纖維布 861,921 98.40"
    ],
    "attribution": "公司年報揭露",
-   "id": "5475-AR-02",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -56,19 +55,22 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "products",
-   "statement": "公司於年報稱其全系列產品均可供無鉛、無鹵及環保材料製程使用。",
-   "period": "截至113年度年報刊印日",
-   "page": 43,
-   "excerpts": [
-    "本公司全系列產品均可供無鉛、無鹵及環保材料製程使用。"
-   ],
-   "attribution": "公司年報揭露",
    "id": "5475-AR-03",
+   "field": "sales_regions",
+   "statement": "114年度德宏對臺灣內銷金額為新台幣仟元14,010，占產品內外銷售表合計2.06%。",
+   "period": "114年度（2025）",
+   "page": 49,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "年 度 114 年度 113 年度",
+    "項 目 金額 % 金額 %",
+    "內銷 台 灣 14,010 2.06 18,366 3.33"
+   ],
+   "attribution": "公司年報揭露",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -79,352 +81,48 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "sales_regions",
-   "statement": "113年度公司外銷亞洲金額為新台幣533,152仟元，占銷貨收入淨額96.67%。",
-   "period": "113年度（2024）",
-   "page": 49,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "年  度 112 年度 113 年度",
-    "亞  洲  527,924 97.94  533,152 96.67",
-    "銷貨收入淨額   539,014 100.00   551,518 100.00"
-   ],
-   "attribution": "公司年報揭露",
    "id": "5475-AR-04",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
    "field": "sales_regions",
-   "statement": "113年度公司內銷台灣金額為新台幣18,366仟元，占銷貨收入淨額3.33%。",
-   "period": "113年度（2024）",
+   "statement": "114年度德宏對亞洲外銷金額為新台幣仟元861,921，占產品內外銷售表合計97.94%。",
+   "period": "114年度（2025）",
    "page": 49,
    "excerpts": [
     "單位：新台幣仟元",
-    "年  度 112 年度 113 年度",
-    "內銷 台  灣 11,090 2.06 18,366 3.33",
-    "銷貨收入淨額   539,014 100.00   551,518 100.00"
+    "年 度 114 年度 113 年度",
+    "項 目 金額 % 金額 %",
+    "外銷 亞 洲 861,921 97.94 533,152 96.67"
    ],
    "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
    "id": "5475-AR-05",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "raw_materials",
-   "statement": "公司玻纖紗主要向大陸、日本及國內大廠採購。",
-   "period": "截至113年度年報刊印日",
-   "page": 52,
-   "excerpts": [
-    "玻纖紗：主要向大陸、日本及國內大廠採購。"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-06",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "raw_materials",
-   "statement": "公司偶合劑主要向大陸及國內經銷商採購。",
-   "period": "截至113年度年報刊印日",
-   "page": 52,
-   "excerpts": [
-    "偶合劑：主要向大陸及國內經銷商採購。"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-07",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_suppliers",
-   "statement": "113年度公司向某供應商（代號PFGK）進貨金額為新台幣114,975仟元，占全年度進貨淨額比率33.02%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 52,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "項 112 年 113 年 114 年第一季",
-    "占全年\n度進貨\n淨額比\n率(%)",
-    "1 PFGK  98,247  24.71 無 PFGK  114,975  33.02 無 GY  53,872  40.32 無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-08",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_suppliers",
-   "statement": "113年度公司向某供應商（代號TBF）進貨金額為新台幣83,192仟元，占全年度進貨淨額比率23.89%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 52,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "項 112 年 113 年 114 年第一季",
-    "占全年\n度進貨\n淨額比\n率(%)",
-    "2 CTG  90,822  22.84 無 TBF  83,192  23.89 無 PFGK  41,546  31.10 無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-09",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_suppliers",
-   "statement": "113年度公司向某供應商（代號GY）進貨金額為新台幣48,035仟元，占全年度進貨淨額比率13.80%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 52,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "項 112 年 113 年 114 年第一季",
-    "占全年\n度進貨\n淨額比\n率(%)",
-    "3 TBF   51,130  12.86 無 GY   48,035  13.80 無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-10",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度公司對某客戶（代號CDI）銷貨金額為新台幣126,687仟元，占全年度銷貨淨額比率22.97%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 53,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "112 年 113 年 114 年第一季",
-    "占全年度\n銷貨淨額\n比率(%)",
-    "1 JPH  113,665   21.09  無 CDI  126,687   22.97  無 CDI  29,281   17.52  無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-11",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度公司對某客戶（代號SNC）銷貨金額為新台幣78,314仟元，占全年度銷貨淨額比率14.20%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 53,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "112 年 113 年 114 年第一季",
-    "占全年度\n銷貨淨額\n比率(%)",
-    "2 CDI   102,792   19.07  無 SNC   78,314   14.20  無 SNC  26,134  15.64  無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-12",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度公司對某客戶（代號SGL）銷貨金額為新台幣56,445仟元，占全年度銷貨淨額比率10.23%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 53,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "112 年 113 年 114 年第一季",
-    "占全年度\n銷貨淨額\n比率(%)",
-    "3 SNC   90,318   16.76  無 SGL   56,445   10.23  無 JSH 20,806  12.45  無"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-13",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "major_customers",
-   "statement": "113年度公司對某客戶（代號JYE）銷貨金額為新台幣56,331仟元，占全年度銷貨淨額比率10.21%，與發行人關係為無。",
-   "period": "113年度（2024）",
-   "page": 53,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "112 年 113 年 114 年第一季",
-    "占全年度\n銷貨淨額\n比率(%)",
-    "4 - - - - JYE 56,331 10.21 無 - - - -"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-14",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "employees",
-   "statement": "113年度員工人數合計為192人（員工人數表未載明為母公司或合併範圍）。",
-   "period": "113年度（2024）",
-   "page": 53,
-   "excerpts": [
-    "年        度 112 年度 113 年度 114 年 度",
-    "合    計 174 192 197"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-15",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
-   "field": "rd",
-   "statement": "113年度研發費用為新台幣32,344仟元，占營業收入比率5.86%。",
-   "period": "113年度（2024）",
-   "page": 47,
-   "excerpts": [
-    "單位：新台幣仟元",
-    "項    目 112 年度 113 年度 114 年度第一季",
-    "研發費用 44,777 32,344 9,912",
-    "營業收入比率 8.31% 5.86% 5.93%"
-   ],
-   "attribution": "公司年報揭露",
-   "id": "5475-AR-16",
-   "verification": {
-    "status": "PASS",
-    "checks": {
-     "source_hash": true,
-     "excerpt_found": true,
-     "page_match": true,
-     "numbers_supported": true,
-     "identity": true
-    },
-    "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
-   }
-  },
-  {
    "field": "market_position",
-   "statement": "公司於年報自述，113年度兩岸主要玻纖布生產廠商月產能合計37,950萬米，其中德宏工業月產能600萬米、比率1%。",
+   "statement": "公司年報自述，德宏工業113年度月產能為600萬米，占所列表兩岸主要玻纖布生產廠商合計月產能的1%。",
    "period": "113年度（2024）",
    "page": 49,
    "excerpts": [
     "目前兩岸主要玻纖布生產廠商之113 年度之產能占有率如下：",
     "單位：萬米；%",
-    "德宏工業 600 1% 銷大陸地區，少數歐美，日韓。",
-    "合計 37,950 100%"
+    "生產廠商 月產能 比率 備註",
+    "德宏工業 600 1% 銷大陸地區，少數歐美，日韓。"
    ],
    "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
-   "id": "5475-AR-17",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -435,21 +133,22 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "outlook",
-   "statement": "年報載明計劃開發之商品包括新型超薄織物、低介電特種纖維布(LDK)及石英纖維紗等。",
-   "period": "截至113年度年報刊印日",
-   "page": 43,
+   "id": "5475-AR-06",
+   "field": "major_suppliers",
+   "statement": "114年PFGK進貨金額為新台幣仟元172,463，占德宏全年度進貨淨額29.97%。",
+   "period": "114年度（2025）",
+   "page": 52,
    "excerpts": [
-    "（1）新型超薄織物開發量產。",
-    "（4）低介電特種纖維布(LDK ) 開發並量產。",
-    "（5）石英纖維紗進行設計研究開發並量產。"
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "進貨淨額",
+    "1 PFGK 114,975 33.02 無 PFGK 172,463 29.97 無 GY 80,808 45.79 無"
    ],
    "attribution": "公司年報揭露",
-   "id": "5475-AR-18",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -460,19 +159,22 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   },
   {
-   "field": "outlook",
-   "statement": "年報載明長期業務發展計劃擬擴大薄布產能，以提高市場占有率及毛利率。",
-   "period": "截至113年度年報刊印日",
-   "page": 49,
+   "id": "5475-AR-07",
+   "field": "major_suppliers",
+   "statement": "114年TBF進貨金額為新台幣仟元108,150，占德宏全年度進貨淨額18.80%。",
+   "period": "114年度（2025）",
+   "page": 52,
    "excerpts": [
-    "玻纖布，擬擴大薄布產能，以提高市場占有率及毛利率。"
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "進貨淨額",
+    "2 TBF 83,192 23.89 無 TBF 108,150 18.80 無 PFGK 49,855 28.25 無"
    ],
    "attribution": "公司年報揭露",
-   "id": "5475-AR-19",
    "verification": {
     "status": "PASS",
     "checks": {
@@ -483,7 +185,212 @@
      "identity": true
     },
     "notes": [],
-    "verified_at": "2026-10-12T18:32:26+00:00"
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-08",
+   "field": "major_suppliers",
+   "statement": "114年GY進貨金額為新台幣仟元100,874，占德宏全年度進貨淨額17.53%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "進貨淨額",
+    "3 GY 48,035 13.8 無 GY 100,874 17.53 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-09",
+   "field": "major_suppliers",
+   "statement": "114年CTG進貨金額為新台幣仟元90,822，占德宏全年度進貨淨額15.78%。",
+   "period": "114年度（2025）",
+   "page": 52,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "進貨淨額",
+    "4 無 CTG 90,822 15.78 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-10",
+   "field": "major_customers",
+   "statement": "114年CDI銷貨金額為新台幣仟元221,702，占德宏全年度銷貨淨額25.31%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "銷貨淨額",
+    "1 CDI 126,687 22.97 無 CDI 221,702 25.31 無 CDI 73,203 22.96 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-11",
+   "field": "major_customers",
+   "statement": "114年SNC銷貨金額為新台幣仟元137,050，占德宏全年度銷貨淨額15.65%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "銷貨淨額",
+    "2 SNC 78,314 14.2 無 SNC 137,050 15.65 無 SNC 65,335 20.49 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-12",
+   "field": "major_customers",
+   "statement": "114年JPH銷貨金額為新台幣仟元90,312，占德宏全年度銷貨淨額10.31%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "銷貨淨額",
+    "3 SGL 56,445 10.23 無 JPH 90,312 10.31 無 JSH 47,854 15.01 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-13",
+   "field": "major_customers",
+   "statement": "114年JSH銷貨金額為新台幣仟元90,130，占德宏全年度銷貨淨額10.29%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113 年 114 年 115 年第一季",
+    "銷貨淨額",
+    "4 JYE 56,331 10.21 無 JSH 90,130 10.29 無 - - - -"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-14",
+   "field": "employees",
+   "statement": "114年度德宏從業員工人數表列員工合計197人。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "年 度 113 年度 114 年度 115 年 度",
+    "合 計 192 197 200"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
+   }
+  },
+  {
+   "id": "5475-AR-15",
+   "field": "rd",
+   "statement": "114年度德宏研發費用為新台幣仟元55,669。",
+   "period": "114年度（2025）",
+   "page": 47,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項 目 113 年度 114 年度 115 年度第一季",
+    "研發費用 32,344 55,669 22,792"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:52:25+00:00"
    }
   }
  ]

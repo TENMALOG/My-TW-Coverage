@@ -1,0 +1,515 @@
+{
+ "ticker": "5871",
+ "company": "中租-KY",
+ "legal_name": "中租控股股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=5871&filename=2025_5871_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_5871_20260526F04.pdf",
+  "text_sha256": "ae4659f3400de93362a6c68fa24a639225eb058fd39db1416e3628a6e47e2c13",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/ae4659f3400de93362a6c68fa24a639225eb058fd39db1416e3628a6e47e2c13.txt"
+ },
+ "facts": [
+  {
+   "id": "5871-AR-01",
+   "field": "business_scope",
+   "statement": "中租控股的業務包括租賃、分期付款及應收帳款受讓等服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 102,
+   "excerpts": [
+    "本公司除經營傳統租賃、分期付款及應收帳款受讓業務外"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-02",
+   "field": "products",
+   "statement": "租賃業務包含融資租賃與營業租賃。",
+   "period": "截至114年度年報刊印日",
+   "page": 102,
+   "excerpts": [
+    "本公司租賃業務包括融資",
+    "租賃與營業租賃兩類"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-03",
+   "field": "revenue_mix",
+   "statement": "2025年銷貨收入為新台幣仟元8,595,204，營業比重8.8%。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2025 年",
+    "銷貨收入",
+    "8,595,204",
+    "8.8%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-04",
+   "field": "revenue_mix",
+   "statement": "2025年分期付款銷貨利息收入為新台幣仟元22,155,395，營業比重22.7%。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2025 年",
+    "分期付款銷貨利息收入",
+    "22,155,395",
+    "22.7%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-05",
+   "field": "revenue_mix",
+   "statement": "2025年融資租賃利息收入為新台幣仟元29,223,727，營業比重30.0%。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2025 年",
+    "融資租賃利息收入",
+    "29,223,727",
+    "30.0%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-06",
+   "field": "revenue_mix",
+   "statement": "2025年放款利息收入為新台幣仟元13,323,819，營業比重13.7%。",
+   "period": "2025年",
+   "page": 102,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "2025 年",
+    "放款利息收入",
+    "13,323,819",
+    "13.7%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-07",
+   "field": "sales_regions",
+   "statement": "2025年度台灣營業收入為53,370,111（原文未載幣別），占各地區營業收入合計54.7%。",
+   "period": "2025年度",
+   "page": 111,
+   "excerpts": [
+    "2025 年度",
+    "營業收入（註 1)",
+    "台灣 53,370,111",
+    "54.7%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-08",
+   "field": "sales_regions",
+   "statement": "2025年度中國營業收入為29,191,322（原文未載幣別），占各地區營業收入合計29.9%。",
+   "period": "2025年度",
+   "page": 111,
+   "excerpts": [
+    "2025 年度",
+    "營業收入（註 1)",
+    "中國 29,191,322",
+    "29.9%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-09",
+   "field": "sales_regions",
+   "statement": "2025年度東協地區營業收入為14,541,969（原文未載幣別），占各地區營業收入合計14.9%。",
+   "period": "2025年度",
+   "page": 111,
+   "excerpts": [
+    "2025 年度",
+    "營業收入（註 1)",
+    "東協地區",
+    "14,541,969",
+    "14.9%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-10",
+   "field": "sales_regions",
+   "statement": "2025年度其他地區營業收入為463,975（原文未載幣別），占各地區營業收入合計0.5%。",
+   "period": "2025年度",
+   "page": 111,
+   "excerpts": [
+    "2025 年度",
+    "其他地區（註 2)",
+    "463,975",
+    "0.5%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-11",
+   "field": "market_position",
+   "statement": "公司年報自述，子公司中租迪和2025年新增契約金額為新台幣3,590億元，長期居台灣租賃業領先地位。",
+   "period": "2025年",
+   "page": 112,
+   "excerpts": [
+    "依據台北市租賃商業同業公會 2025 年資料統計",
+    "有 限公司 2025 年新增契約金額為新台幣 3,590 億元，長期以來居台灣租賃業之領先地位。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-12",
+   "field": "market_position",
+   "statement": "公司年報推估，截至2025年6月，中國子公司仲利國際融資租賃有限公司合約餘額為552億元（原文未載幣別），占中國全國融資租賃市場約1.02%。",
+   "period": "截至2025年6月",
+   "page": 112,
+   "excerpts": [
+    "中國：截至 2025 年 6 月，仲利國際融資租賃有限公司合約餘額為 552 億元，推估於全國",
+    "融資租賃市場約佔 1.02%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-13",
+   "field": "market_position",
+   "statement": "公司年報推估，截至2025年6月，仲利國際融資租賃有限公司約占中國外資租賃市場6.65%。",
+   "period": "截至2025年6月",
+   "page": 112,
+   "excerpts": [
+    "截至 2025 年 6 月，仲利國際融資租賃有限公司",
+    "約佔外資租賃市",
+    "場 6.65%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-14",
+   "field": "raw_materials",
+   "statement": "公司為非生產事業，無主要原料。",
+   "period": "截至114年度年報刊印日",
+   "page": 116,
+   "excerpts": [
+    "本公司非生產事業，故無主要原料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-15",
+   "field": "major_customers",
+   "statement": "公司表示，最近二年度無單一客戶占營業收入金額10%以上。",
+   "period": "最近二年度",
+   "page": 116,
+   "excerpts": [
+    "最近二年度曾占銷貨總額 10% 以上之客戶",
+    "本公司有廣大客群，無占營業收入金額 10% 以上之客戶。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-16",
+   "field": "employees",
+   "statement": "2025年度員工人數合計9,778人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "2025年度",
+   "page": 116,
+   "excerpts": [
+    "2025 年度",
+    "員工人數",
+    "9,778"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-17",
+   "field": "employees",
+   "statement": "截至2026年03月31日，員工人數合計9,426人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至2026年03月31日",
+   "page": 116,
+   "excerpts": [
+    "2026 年 03 月 31 日",
+    "9,426"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-18",
+   "field": "outlook",
+   "statement": "公司計畫評估在東協市場發展工業區不動產開發營運。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "計畫開發之新商品（服務）",
+    "東協市場評估發展工業區不動產開發營運"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-19",
+   "field": "outlook",
+   "statement": "中國大陸子公司計畫評估發展無形資產融資租賃業務模式。",
+   "period": "截至114年度年報刊印日",
+   "page": 103,
+   "excerpts": [
+    "中國大陸子公司評估發展無",
+    "形資產融資租賃業務模式。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  },
+  {
+   "id": "5871-AR-20",
+   "field": "group_structure",
+   "statement": "集團在台灣、中國、泰國、越南、馬來西亞、柬埔寨、菲律賓、印尼、美國及新加坡列有主要營運公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 111,
+   "excerpts": [
+    "各地區業務項目及主要營運公司",
+    "馬來西亞"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-13T04:45:13+00:00"
+   }
+  }
+ ]
+}
