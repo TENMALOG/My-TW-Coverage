@@ -14,13 +14,11 @@
 
 已 commit（本機，未 push）：`5d2d7604`、`a412cf8e`。之後的變更（relations、industry-analysis、build_industry_analysis.py、build_catalog 修正、codex_quota CODEX_HOME 支援）尚未 commit。
 
-## 進行中（10/13 晚間啟動，可能未完成）
-- Sonnet 逐句審查 97 份產業分析：分 12 組，清單 `tools/anarev_list_00..11`，說明 `tools/anarev_brief.md`，
-  輸出原定寫在 session scratchpad 的 `anarev_out_XX.jsonl`。若下次 session 找不到這些輸出，就重新執行審查
-  （事實包已備份在 `ind_facts/`，把 brief 裡的 `<scratchpad>` 換成本資料夾）。
+## 產業分析（10/13 晚間完成）
+- 97 份草稿經 Sonnet 逐句審查（12 組，結果在 `anarev_out/`），104 句依審查改寫（紀錄 `data/industry-analysis/_review-log.jsonl`，工具 `tools/apply_anarev.py`），
+  再經 `build_industry_analysis.py` 檢查全數通過，已產生 `chapters/industries/_analysis/*.qmd`（97 份，含年報頁碼註腳）。
 
 ## 下一步（依序）
-1. 套用產業分析審查結果：problem 句依 `fix` 改寫或刪除 → `build_industry_analysis.py` 檢查並產生 `chapters/industries/_analysis/*.qmd`。
 2. 用現有產生器重建全部頁面（目前頁面是年報事實補齊前產生的）：
    `scripts/generic/build_company_pages_all.py`、`build_industry_chapters.py`、`build_book_config.py`；
    公司頁加入 `listed_edges.csv` 的已審關係；各產業關係圖（參考 `scripts/build_relation_graph.py`）。
@@ -38,3 +36,7 @@
   Codex 寫檔只開放新資料夾；擷取任務要寫明 15–25 筆（`tools/codex_extract_task.md`）。
 - Sonnet：擷取審查（`tools/review_brief.md` + `review_rules_v3.md`）、關係審查（`relrev_brief.md`）、分析審查（`anarev_brief.md`）。
 - 修正工具：`fix_edit.py`（改寫陳述，數字不變）、`drop_facts.py`、`merge_review.py`、`select_review.py`，皆在 `tools/`。
+
+## 待重新分類（董事長清單）
+- 6536 碩豐：POS 系統業者，原專案歸在 Gambling（博弈）。
+- 2406 國碩／3691 碩禾：主要供應商 E 公司、客戶 AD 公司的進銷貨金額完全相同但百分比不同，擷取可能有誤，需回年報查核。
