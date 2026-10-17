@@ -30,4 +30,4 @@ for i in ids[lo:hi]:
                 hit.update(range(max(0,n-ctx),min(len(lines),n+ctx+1)))
         if q==p+1 and len(hit)>0 and False: pass
         print(f'--- p{q} ({len(hit)} lines)')
-        for n in sorted(hit)[:45]: print(lines[n])
+        for n in sorted(hit)[:28]: print(lines[n])

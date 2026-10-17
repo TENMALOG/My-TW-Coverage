@@ -20,6 +20,6 @@ for id in ids[lo:hi]:
         for k in (e[:12],e[:6]):
             if k in txt: key=txt.index(k);break
         if key is not None:break
-    a=max(0,(key or 0)-150)
-    print('--PAGE',p,'' if key is not None else '(excerpt not found)');print(txt[a:a+650])
+    a=max(0,(key or 0)-80)
+    print('--PAGE',p,'' if key is not None else '(excerpt not found)');print(txt[a:a+520])
     pass

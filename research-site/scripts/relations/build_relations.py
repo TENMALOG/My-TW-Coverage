@@ -43,8 +43,16 @@ def load_facts(facts_dir: Path = FACTS) -> tuple[dict, dict]:
     return facts, companies
 
 
-def name_index(companies: dict, catalog_rows: list[dict]) -> dict[str, list[tuple[str, str]]]:
-    indexes = {rule: defaultdict(set) for rule in ("legal_name", "legal_name_suffix", "catalog_short_name")}
+RULES = ("legal_name", "legal_name_suffix", "catalog_short_name", "former_name", "former_name_suffix")
+
+
+def load_renames() -> dict:
+    path = DATA.parent / "company-renames.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def name_index(companies: dict, catalog_rows: list[dict], renames: dict | None = None) -> dict[str, list[tuple[str, str]]]:
+    indexes = {rule: defaultdict(set) for rule in RULES}
     catalog = {row["ticker"]: row["company"] for row in catalog_rows}
     for ticker, doc in companies.items():
         if ticker not in catalog:
@@ -55,14 +63,24 @@ def name_index(companies: dict, catalog_rows: list[dict]) -> dict[str, list[tupl
         if short_legal != legal:
             indexes["legal_name_suffix"][short_legal].add(ticker)
         indexes["catalog_short_name"][catalog[ticker]].add(ticker)
+    # verified former names (data/company-renames.json); used only after every current-name rule
+    for ticker, items in (load_renames() if renames is None else renames).items():
+        if ticker not in catalog:
+            continue
+        for r in items:
+            former = r.get("former_name", "")
+            if former and r.get("kind") != "english":
+                indexes["former_name"][former].add(ticker)
+                if strip_suffix(former) != former:
+                    indexes["former_name_suffix"][strip_suffix(former)].add(ticker)
     return indexes
 
 
 def resolve(name: str, kind: str, indexes: dict, catalog: dict) -> tuple[str, str, str]:
     if kind != "named" or not name:
         return "", "", ""
-    for rule in ("legal_name", "legal_name_suffix", "catalog_short_name"):
-        candidates = indexes[rule].get(name, set())
+    for rule in RULES:
+        candidates = indexes.get(rule, {}).get(name, set())
         if len(candidates) == 1:
             ticker = next(iter(candidates))
             return ticker, catalog[ticker], rule

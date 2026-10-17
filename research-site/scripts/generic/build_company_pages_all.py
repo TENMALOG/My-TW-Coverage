@@ -141,6 +141,35 @@ def relation_edges() -> dict:
     return _EDGES
 
 
+_RENAMES = None
+
+
+def company_renames() -> dict:
+    """Verified name history per ticker (data/company-renames.json, built by ops/renames/build_renames.py)."""
+    global _RENAMES
+    if _RENAMES is None:
+        path = SITE / 'data/company-renames.json'
+        _RENAMES = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {}
+    return _RENAMES
+
+
+def rename_lines(doc: dict, renames: list[dict], notes) -> list[str]:
+    out = []
+    for r in renames:
+        when = f'{md_escape(r["date_text"])}，' if r.get('date_text') else ''
+        if r.get('former_name'):
+            text = f'{when}由「{md_escape(r["former_name"])}」更名為「{md_escape(r["new_name"])}」'
+        else:
+            text = f'{when}更名為「{md_escape(r["new_name"])}」（年報未載更名前名稱）'
+        if r.get('kind') == 'english':
+            text += '（英文名稱）'
+        src = doc['source']
+        note = (f'{md_escape(doc["legal_name"])} {r["fy"]} 年度年報，第 {r["page"]} 頁'
+                f'（{md_escape(src["filename"])}）。{url_md(r["source"])}')
+        out.append(f'    - {text}{notes.add(note)}')
+    return (['- **名稱沿革**：'] + out) if out else []
+
+
 def render_relations(ticker, edges, notes):
     from company_relations import render_relations as _render
     return _render(ticker, edges, notes)
@@ -303,7 +332,8 @@ def render_page(row: dict, *, fin: dict | None, sentences: list[dict], company_c
     if doc:
         L.append(f'- **公司全名**：{md_escape(doc["legal_name"])}'
                  f'{notes.add(fact_note(doc, None))}')
-    basic = render_facts(doc, facts, SECTION_FIELDS['basic'], notes) if doc else []
+        L += rename_lines(doc, company_renames().get(tk, []), notes)
+    basic =render_facts(doc, facts, SECTION_FIELDS['basic'], notes) if doc else []
     L += basic + ['']
 
     # 2. products

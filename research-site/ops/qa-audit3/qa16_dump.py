@@ -26,4 +26,4 @@ for i in ids[a:b]:
             k=P.find(e[:8])
             if k>=0: break
         s0=max(0,k-300) if k>=0 else 0
-        print('PAGE:',re.sub(r'\n\s*\n+','\n',P[s0:s0+1100]))
+        print('PAGE:',re.sub(r'\n\s*\n+','\n',P[s0:s0+800]))
