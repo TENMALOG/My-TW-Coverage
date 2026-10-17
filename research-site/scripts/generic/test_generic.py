@@ -219,7 +219,7 @@ class TestIndustryChapter(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             text = chapters.render_chapter('Electronic Components', rows, names=names, fins={'9999': fin, '9998': gen},
                                            verified={'9999': [SENTENCE]}, claim_rows=[], analysis_dir=Path(d))
-            self.assertNotIn('include', text)
+            self.assertNotIn('include _analysis', text)
             (Path(d) / 'electronic-components.qmd').write_text('x', encoding='utf-8')
             text2 = chapters.render_chapter('Electronic Components', rows, names=names, fins={'9999': fin, '9998': gen},
                                             verified={}, claim_rows=[], analysis_dir=Path(d))

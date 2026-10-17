@@ -1,0 +1,38 @@
+專業商業服務關係圖顯示 2 筆關係、4 家公司。僅收錄年報載明、逐筆審核的上市公司間關係，並非完整供應鏈。
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div class="relgraph" style="overflow-x:auto"><div style="min-width:1400px">
+<svg viewBox="0 0 1500 260" role="img" aria-labelledby="relgraph-title" style="width:100%;height:auto;font-family:inherit;font-size:14px">
+<title id="relgraph-title">專業商業服務：上市公司關係圖</title>
+<defs>
+<marker id="arrow-supply" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#b45309"/></marker>
+<marker id="arrow-customer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2563eb"/></marker>
+<marker id="arrow-ownership" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#7c3aed"/></marker>
+</defs>
+<text x="190" y="32" text-anchor="middle" font-size="18" font-weight="bold">上游：供應商、母公司</text>
+<text x="750" y="32" text-anchor="middle" font-size="18" font-weight="bold">本產業公司</text>
+<text x="1310" y="32" text-anchor="middle" font-size="18" font-weight="bold">下游：客戶、子公司、被投資公司</text>
+<path data-relation-id="REL-005315" d="M317.0,125.0 C470.0,125.0 470.0,100.0 623.0,100.0" fill="none" stroke="#b45309" stroke-width="2.3" opacity="0.72" marker-end="url(#arrow-supply)"><title>中華電 → 關貿：供應商｜114年度（2025）｜10.01%｜依據 6183-AR-12</title></path>
+<path data-relation-id="REL-006608" d="M877.0,150.0 C1030.0,150.0 1030.0,125.0 1183.0,125.0" fill="none" stroke="#2563eb" stroke-width="2.3" opacity="0.72" marker-end="url(#arrow-customer)"><title>程曦資訊 → 台灣高鐵：客戶｜截至114年度年報刊印日｜—｜依據 6898-AR-10</title></path>
+<a href="../companies/2412.html"><title>中華電（2412）</title><rect x="65.0" y="111.0" width="250" height="28" rx="5" fill="#f8fafc" stroke="#94a3b8"/><text x="190" y="130.0" text-anchor="middle">中華電（2412）</text></a>
+<a href="../companies/6183.html"><title>關貿（6183）</title><rect x="625.0" y="86.0" width="250" height="28" rx="5" fill="#eef2ff" stroke="#4f46e5"/><text x="750" y="105.0" text-anchor="middle">關貿（6183）</text></a>
+<a href="../companies/6898.html"><title>程曦資訊（6898）</title><rect x="625.0" y="136.0" width="250" height="28" rx="5" fill="#eef2ff" stroke="#4f46e5"/><text x="750" y="155.0" text-anchor="middle">程曦資訊（6898）</text></a>
+<a href="../companies/2633.html"><title>台灣高鐵（2633）</title><rect x="1185.0" y="111.0" width="250" height="28" rx="5" fill="#f8fafc" stroke="#94a3b8"/><text x="1310" y="130.0" text-anchor="middle">台灣高鐵（2633）</text></a>
+<line x1="35" y1="236" x2="70" y2="236" stroke="#b45309" stroke-width="3"/><text x="78" y="241">供應</text>
+<line x1="260" y1="236" x2="295" y2="236" stroke="#2563eb" stroke-width="3"/><text x="303" y="241">客戶</text>
+<line x1="485" y1="236" x2="520" y2="236" stroke="#7c3aed" stroke-width="3"/><text x="528" y="241">股權</text>
+<line x1="710" y1="236" x2="745" y2="236" stroke="#64748b" stroke-width="3" stroke-dasharray="6 4"/><text x="753" y="241">關係企業</text>
+</svg>
+</div></div>
+```
+:::
+
+::: {.content-visible unless-format="html"}
+（關係圖僅提供於網站版；完整關係清單如下。）
+:::
+
+| 公司 | 關係 | 對象 | 期間 | 占比/金額 | 依據（fact_id） |
+| --- | --- | --- | --- | --- | --- |
+| [關貿](../companies/6183.qmd) | 供應商 | [中華電](../companies/2412.qmd) | 114年度（2025） | 10.01%；66,915仟元 | 6183-AR-12 |
+| [程曦資訊](../companies/6898.qmd) | 客戶 | [台灣高鐵](../companies/2633.qmd) | 截至114年度年報刊印日 | — | 6898-AR-10 |

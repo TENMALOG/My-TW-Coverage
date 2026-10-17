@@ -101,7 +101,12 @@ def identity_problems(doc: dict, ticker: str, short: str) -> list[str]:
     ft = filename_ticker((doc.get('source') or {}).get('filename', ''))
     if ft != ticker:
         probs.append(f'年報檔名代號 {ft or "無法辨識"} 與本頁代號 {ticker} 不符')
-    if not name_in_order(short, doc.get('legal_name', '')):
+    # verify_extraction.py already confirmed identity against the MOPS registered name for every fact;
+    # that covers variant characters (臺/台、恆/恒), English legal names and renamed companies, which the
+    # short-name heuristic below cannot.
+    facts = doc.get('facts') or []
+    verified = bool(facts) and all(((f.get('verification') or {}).get('checks') or {}).get('identity') for f in facts)
+    if not verified and not name_in_order(short, doc.get('legal_name', '')):
         probs.append(f'年報公司全名「{doc.get("legal_name", "")}」與簡稱「{short}」對不上')
     return probs
 
@@ -125,6 +130,20 @@ def load_company_facts(ticker: str, short: str, facts_dir: Path = FACTS_DIR):
 
 
 _REJECTS = None
+_EDGES = None
+
+
+def relation_edges() -> dict:
+    global _EDGES
+    if _EDGES is None:
+        from company_relations import load_edges  # imported late: company_relations imports this module
+        _EDGES = load_edges()
+    return _EDGES
+
+
+def render_relations(ticker, edges, notes):
+    from company_relations import render_relations as _render
+    return _render(ticker, edges, notes)
 
 
 def semantic_rejects():
@@ -316,6 +335,11 @@ def render_page(row: dict, *, fin: dict | None, sentences: list[dict], company_c
     if not market and not shown:
         L.append('目前沒有已驗證的客戶、供應商或市場地位資料。')
     L.append('')
+
+    # 4b. reviewed relations with other listed companies (data/relations/listed_edges.csv)
+    rel = render_relations(tk, relation_edges().get(tk, []), notes)
+    if rel:
+        L += rel + ['']
 
     # 5. gaps
     not_passed = [c for c in company_claims if c['revision_status'].startswith(NOT_PASSED_PREFIX)]

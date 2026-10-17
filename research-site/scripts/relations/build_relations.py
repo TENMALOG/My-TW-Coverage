@@ -78,18 +78,30 @@ def build(counterparty_path: Path = DATA / "counterparties.jsonl", facts_dir: Pa
         rows = list(csv.DictReader(handle))
     catalog = {row["ticker"]: row["company"] for row in rows}
     indexes = name_index(companies, rows)
+    matches_path = output_dir / "name_matches.jsonl"
+    name_matches = {}
+    if matches_path.exists():
+        for line in matches_path.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                m = json.loads(line)
+                name_matches[(m["fact_id"], m["counterparty"])] = m
     relations = []
     seen = set()
+    skipped = {"unusable": 0, "not_in_statement": 0}
     for line in counterparty_path.read_text(encoding="utf-8").splitlines():
         if not line.strip():
             continue
         entry = json.loads(line)
         fact_id = entry["fact_id"]
-        assert fact_id in facts, f"Unusable fact: {fact_id}"
+        if fact_id not in facts:  # fact rejected by review after counterparties were extracted
+            skipped["unusable"] += 1
+            continue
         ticker, fact = facts[fact_id]
         assert entry["ticker"] == ticker and entry["field"] == fact["field"]
         assert entry["period"] == fact["period"]
-        assert entry["counterparty"] in fact["statement"], f"Not a statement substring: {fact_id}"
+        if entry["counterparty"] not in fact["statement"]:  # statement rewritten by review; counterparty gone
+            skipped["not_in_statement"] += 1
+            continue
         assert entry["counterparty_kind"] in {"named", "code", "none"}
         assert entry["role"] in {"customer", "supplier", "parent", "subsidiary", "affiliate", "investee"}
         assert (entry["counterparty"] == "") == (entry["counterparty_kind"] == "none")
@@ -97,6 +109,12 @@ def build(counterparty_path: Path = DATA / "counterparties.jsonl", facts_dir: Pa
         assert key not in seen, f"Duplicate counterparty: {key}"
         seen.add(key)
         target, target_company, rule = resolve(entry["counterparty"], entry["counterparty_kind"], indexes, catalog)
+        manual = name_matches.get((fact_id, entry["counterparty"]))
+        if not target and manual and manual["counterparty_ticker"] in catalog:
+            # reviewed one-by-one name match (data/relations/name_matches.jsonl), incl. corrected role
+            target, rule = manual["counterparty_ticker"], "reviewed_name_match"
+            target_company = catalog[target]
+            entry = {**entry, "role": manual["role"]}
         if target == ticker:  # the issuer itself (e.g. 冠德 → 冠德建設) is not a relation to another company
             target, target_company, rule = "", "", "self_reference"
         relations.append({
@@ -108,7 +126,8 @@ def build(counterparty_path: Path = DATA / "counterparties.jsonl", facts_dir: Pa
             "period": entry["period"], "share_text": entry["share_text"],
             "amount_text": entry["amount_text"], "fact_id": fact_id, "match_rule": rule,
         })
-    assert set(facts) == {row["fact_id"] for row in relations}, "Counterparties must cover every usable relevant fact"
+    uncovered = set(facts) - {row["fact_id"] for row in relations}
+    print(f"skipped {dict(skipped)}; usable relevant facts without counterparties: {len(uncovered)}")
     output_dir.mkdir(parents=True, exist_ok=True)
     for filename, data in (("relations.csv", relations), ("unresolved_named.csv", [r for r in relations if r["counterparty_kind"] == "named" and not r["counterparty_ticker"]])):
         with (output_dir / filename).open("w", encoding="utf-8-sig", newline="") as handle:

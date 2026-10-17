@@ -40,3 +40,15 @@
 ## 待重新分類（董事長清單）
 - 6536 碩豐：POS 系統業者，原專案歸在 Gambling（博弈）。
 - 2406 國碩／3691 碩禾：主要供應商 E 公司、客戶 AD 公司的進銷貨金額完全相同但百分比不同，擷取可能有誤，需回年報查核。
+
+## 2026-10-18 凌晨狀態（最新，以此為準）
+- 頁面：公司頁加「與其他上市櫃公司的往來關係」（`scripts/generic/company_relations.py`），產業章加關係圖（`build_industry_relation_graphs.py` → `chapters/industries/_relations/`）；`_quarto.yml` 已改為完整版（1,841 頁）。
+- 第二輪審查：未審 14,810 筆全數審完（Codex 49 工作＋Sonnet 124 工作，`ops/codex-review/`）；退回 286＋名次掃描 179 → 複核（`adj_out_*.jsonl`）→ `apply_second_pass.py` 已套用：修正 329、刪除 24。
+- 關係：Sonnet 名稱比對新增 84 筆（`data/relations/name_matches.jsonl`）；可公開 638 筆。國碩／碩禾疑點已查清，無誤。
+- QA 稽核：隨機 400 筆已通過事實，退回 34（8.5%，多為百分比未寫分母）→ 全面掃描 3,154 筆「百分比無分母」：
+  - Sonnet 處理 `ops/bare-percent/jobs_sonnet/bp001-008`（輸出 `ops/bare-percent/out/`）；
+  - Codex 佇列處理 `ops/bare-percent/jobs/bp009-025`（`codex_queue.py --jobs bare-percent/jobs --out bare-percent/out --task bare-percent/codex_task.md`，額度滿會自動睡到重置）。
+  - 完成後：把 `ops/bare-percent/out/*.jsonl` 依 `apply_second_pass.py` 的 FIX/DROP/KEEP 邏輯套用（需複製該腳本改讀 bare-percent/out，batch 標籤另取），再重產頁面。
+- 待複核：`ops/pending_adjudication.json`（32 筆，已暫標 REJECT）。
+- 網站建置：背景執行中（失敗自動重試 3 次）；上次因檔案被占用（可能 pCloud 同步）中斷。建置完要跑 `scripts/check_site.py` 與瀏覽器實測；套用分母修正後需再重產頁面、重建。
+- 額度管理：每輪 Claude 5 小時額度目標用到 95–99%（記憶 pace-claude-5h-quota）；分配 Claude:CodexA:CodexB ≈ 5:1:1。

@@ -129,6 +129,10 @@ def render_chapter(folder: str, rows: list[dict], *, names: dict, fins: dict, ve
         L.append('本產業目前沒有經查核通過的具名客戶或供應關係敘述。')
     L.append('')
 
+    # reviewed listed-company relation graph (scripts/generic/build_industry_relation_graphs.py)
+    if (OUTDIR / '_relations' / f'{slug}.qmd').exists():
+        L += ['## 上市櫃公司之間的年報關係 {.unnumbered}\n', f'{{{{< include _relations/{slug}.qmd >}}}}', '']
+
     # limitations
     tks = {r['ticker'] for r in rows}
     mine = [c for c in claim_rows if c['ticker'] in tks]

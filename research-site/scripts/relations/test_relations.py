@@ -82,7 +82,7 @@ def test_reject_and_fail_excluded():
     assert set(facts) == {"1001-AR-01"}
 
 
-def test_substring_assertion(monkeypatch):
+def test_substring_assertion(monkeypatch, tmp_path):
     import build_relations
 
     facts_dir = fixtures()
@@ -96,5 +96,6 @@ def test_substring_assertion(monkeypatch):
             from io import StringIO
             return StringIO("ticker,company\n1001,福星\n")
 
-    with pytest.raises(AssertionError, match="substring"):
-        build(FakeCounterparty(), facts_dir, FakeCatalog(), Path("unused"))
+    # a counterparty that is no longer in the (reviewed) statement is skipped, never published
+    build(FakeCounterparty(), facts_dir, FakeCatalog(), tmp_path)
+    assert len((tmp_path / "relations.csv").read_text(encoding="utf-8-sig").strip().splitlines()) == 1

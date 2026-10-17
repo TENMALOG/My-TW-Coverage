@@ -1,0 +1,36 @@
+事務設備及用品關係圖顯示 2 筆關係、2 家公司。僅收錄年報載明、逐筆審核的上市公司間關係，並非完整供應鏈。
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div class="relgraph" style="overflow-x:auto"><div style="min-width:1400px">
+<svg viewBox="0 0 1500 260" role="img" aria-labelledby="relgraph-title" style="width:100%;height:auto;font-family:inherit;font-size:14px">
+<title id="relgraph-title">事務設備及用品：上市公司關係圖</title>
+<defs>
+<marker id="arrow-supply" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#b45309"/></marker>
+<marker id="arrow-customer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#2563eb"/></marker>
+<marker id="arrow-ownership" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#7c3aed"/></marker>
+</defs>
+<text x="190" y="32" text-anchor="middle" font-size="18" font-weight="bold">上游：供應商、母公司</text>
+<text x="750" y="32" text-anchor="middle" font-size="18" font-weight="bold">本產業公司</text>
+<text x="1310" y="32" text-anchor="middle" font-size="18" font-weight="bold">下游：客戶、子公司、被投資公司</text>
+<path data-relation-id="REL-001426" d="M317.0,125.0 C470.0,125.0 470.0,125.0 623.0,125.0" fill="none" stroke="#7c3aed" stroke-width="2.3" opacity="0.72" marker-end="url(#arrow-ownership)"><title>宏碁 → 振樺電：子公司｜截至114年底｜—｜依據 2353-AR-19</title></path>
+<path data-relation-id="REL-007285" d="M623.0,125.0 C470.0,125.0 470.0,125.0 317.0,125.0" fill="none" stroke="#64748b" stroke-width="2.3" opacity="0.72" stroke-dasharray="6 4"><title>振樺電 → 宏碁：關係企業｜2025年下半年｜—｜依據 8114-AR-19</title></path>
+<a href="../companies/2353.html"><title>宏碁（2353）</title><rect x="65.0" y="111.0" width="250" height="28" rx="5" fill="#f8fafc" stroke="#94a3b8"/><text x="190" y="130.0" text-anchor="middle">宏碁（2353）</text></a>
+<a href="../companies/8114.html"><title>振樺電（8114）</title><rect x="625.0" y="111.0" width="250" height="28" rx="5" fill="#eef2ff" stroke="#4f46e5"/><text x="750" y="130.0" text-anchor="middle">振樺電（8114）</text></a>
+<line x1="35" y1="236" x2="70" y2="236" stroke="#b45309" stroke-width="3"/><text x="78" y="241">供應</text>
+<line x1="260" y1="236" x2="295" y2="236" stroke="#2563eb" stroke-width="3"/><text x="303" y="241">客戶</text>
+<line x1="485" y1="236" x2="520" y2="236" stroke="#7c3aed" stroke-width="3"/><text x="528" y="241">股權</text>
+<line x1="710" y1="236" x2="745" y2="236" stroke="#64748b" stroke-width="3" stroke-dasharray="6 4"/><text x="753" y="241">關係企業</text>
+</svg>
+</div></div>
+```
+:::
+
+::: {.content-visible unless-format="html"}
+（關係圖僅提供於網站版；完整關係清單如下。）
+:::
+
+| 公司 | 關係 | 對象 | 期間 | 占比/金額 | 依據（fact_id） |
+| --- | --- | --- | --- | --- | --- |
+| [宏碁](../companies/2353.qmd) | 子公司 | [振樺電](../companies/8114.qmd) | 截至114年底 | — | 2353-AR-19 |
+| [振樺電](../companies/8114.qmd) | 關係企業 | [宏碁](../companies/2353.qmd) | 2025年下半年 | — | 8114-AR-19 |
