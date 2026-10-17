@@ -91,13 +91,26 @@ def load_financials(path: Path = FINANCIALS) -> dict[str, dict]:
 # ---------- formatting ----------
 
 _MD_SPECIAL = re.compile(r'([\\`*_\[\]<>#$@|~^])')
+# a natural person's name after a job title, e.g. 「總經理王小明表示」「董事長陳大文先生介紹」 -> 「總經理表示」
+_PERSON_AFTER_TITLE = re.compile(
+    r'(董事長|副董事長|總經理|副總經理|執行長|財務長|技術長|營運長|發言人|創辦人|負責人|總裁|協理|處長)'
+    r'(?![於在及與亦也則曾已將並暨兼])[一-鿿]{2,3}(?:先生|女士|小姐)?'
+    r'(?=表示|指出|說明|強調|認為|介紹|透露|坦言|預估|預期|提到|分享|受訪|致詞)')
+_PERSON_HONORIFIC = re.compile(r'[一-鿿]{2,3}(先生|女士|小姐)')
+
+
+def strip_person_names(text: str) -> str:
+    """Natural-person names are never published (chairman rule), not even masked ones."""
+    t = _PERSON_AFTER_TITLE.sub(r'\1', text)
+    return _PERSON_HONORIFIC.sub('相關人員', t)
 
 
 def md_escape(text: str) -> str:
     """Escape Markdown/Pandoc specials so verified wording renders literally.
     Wikilink brackets [[X]] from original sentences are reduced to X first.
-    Lenticular brackets 〔〕 are reserved for filters/refs.lua markers; they are swapped for （）."""
-    t = re.sub(r'\[\[([^\]]+)\]\]', r'\1', text)
+    Lenticular brackets 〔〕 are reserved for filters/refs.lua markers; they are swapped for （）.
+    Natural-person names after a job title or with an honorific are removed."""
+    t = strip_person_names(re.sub(r'\[\[([^\]]+)\]\]', r'\1', text))
     t = t.replace('〔', '（').replace('〕', '）')
     t = _MD_SPECIAL.sub(r'\\\1', t)
     return re.sub(r'\s*\n\s*', ' ', t).strip()
