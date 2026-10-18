@@ -1,4 +1,72 @@
-/* 表格在窄螢幕內自行橫向捲動，不撐開整頁 */
-main table { display: block; max-width: 100%; overflow-x: auto; }
-main table th, main table td { white-space: nowrap; }
+/* 股.tw 品牌樣式：暖紙白 #F2EFE8／墨黑 #181715／珊瑚橘紅 #FF573F（與 股.tw 前端 index.css 同一套變數） */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@500;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+:root {
+  --paper: #f2efe8;
+  --ink: #181715;
+  --orange: #ff573f;
+  --muted: #706c63;
+  --line: #d4d0c7;
+  --soft: #e8e4da;
+  --link-hover: #b43b2b;
+  --bs-body-bg: var(--paper);
+  --bs-body-color: var(--ink);
+  --bs-link-color: var(--ink);
+  --bs-link-hover-color: var(--link-hover);
+  --bs-border-color: var(--line);
+}
+
+html, body { background: var(--paper); color: var(--ink); font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; font-synthesis: none; }
+::selection { background: var(--orange); color: var(--ink); }
+
+/* 標題：襯線大標＋細線分隔 */
+h1, h2, h3, .quarto-title h1.title, .chapter-title { font-family: "Noto Serif TC", serif; color: var(--ink); letter-spacing: -0.02em; }
+.quarto-title h1.title { font-weight: 700; }
+main h2 { border-top: 1px solid var(--ink); border-bottom: 0; padding-top: 0.8rem; margin-top: 2.6rem; }
+main h3 { font-size: 1.15rem; }
+.quarto-title .subtitle, .quarto-title-meta, .quarto-title-meta-heading { color: var(--muted); }
+
+/* 連結：墨黑文字＋橘紅底線 */
+a, .sidebar-link, .nav-link { color: var(--ink); }
+main a { text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover, main a:hover { color: var(--link-hover); }
+a.footnote-ref { text-decoration: none; color: var(--link-hover); font-weight: 700; }
+
+/* 側欄與目錄：目前位置用橘紅標示 */
+#quarto-sidebar, .sidebar, #quarto-margin-sidebar { background: var(--paper) !important; }
+#quarto-sidebar { border-right: 1px solid var(--line); }
+.sidebar-title a { font-family: "Noto Serif TC", serif; font-weight: 700; color: var(--ink); }
+.sidebar-item-section > .sidebar-item-container .sidebar-item-text { font-weight: 700; }
+.sidebar-link.active, .sidebar-link.active .sidebar-item-text { color: var(--ink) !important; font-weight: 700; }
+.sidebar-link.active { box-shadow: inset 3px 0 0 var(--orange); padding-left: 0.5rem; }
+#TOC .nav-link.active, #TOC a.active { color: var(--ink) !important; border-left-color: var(--orange) !important; font-weight: 700; }
+.breadcrumb, .quarto-page-breadcrumbs { color: var(--muted); }
+
+/* 搜尋框 */
+.aa-DetachedSearchButton, #quarto-search .aa-Autocomplete, .aa-Form { background: var(--paper) !important; border: 1px solid var(--ink) !important; border-radius: 0 !important; }
+.aa-DetachedSearchButtonIcon, .aa-SubmitIcon { color: var(--orange) !important; }
+mark.search-match, .aa-ItemContentTitle mark { background: var(--orange); color: var(--ink); }
+
+/* 表格：細線、數字等寬；在窄螢幕內自行橫向捲動，不撐開整頁 */
+main table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; background: transparent; }
+main table th, main table td { white-space: nowrap; border-color: var(--line) !important; font-variant-numeric: tabular-nums; }
 main table td:last-child, main table th:last-child { white-space: normal; min-width: 12em; }
+main table thead th { border-bottom: 1px solid var(--ink) !important; font-weight: 700; background: transparent; }
+.table, table { --bs-table-bg: transparent; --bs-table-striped-bg: var(--soft); --bs-table-hover-bg: #18171508; }
+
+/* 註腳與來源 */
+.footnotes { border-top: 1px solid var(--ink); color: var(--muted); font-size: 0.88rem; }
+.footnotes a { color: var(--ink); }
+code, kbd, .num { font-family: "Roboto Mono", monospace; }
+code { color: var(--link-hover); background: var(--soft); }
+
+/* 提示框、分頁與頁尾 */
+.callout { border-left-color: var(--orange) !important; background: var(--soft) !important; border-radius: 0 !important; }
+.nav-page a { color: var(--ink); }
+.nav-page a:hover { color: var(--link-hover); }
+.page-footer, .nav-footer { background: var(--orange); color: var(--ink); border-top: 0; }
+.nav-footer a { color: var(--ink); text-decoration: underline; }
+hr { border-color: var(--line); opacity: 1; }
+
+/* 關係圖、章節編號 */
+.header-section-number { color: var(--orange); }

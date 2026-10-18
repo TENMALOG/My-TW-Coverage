@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><title>short</title>
+<style>
+  @font-face{font-family:"RixingSong";src:url("file:///C:/Users/Neo%20Pegasus/AppData/Local/Microsoft/Windows/Fonts/rixingsong-1.0-semibold.otf") format("opentype");font-weight:100 900}
+  *{font-synthesis:none}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#F2EFE8;font-family:"RixingSong","Noto Sans TC",serif}
+  svg{position:absolute;left:0;top:0}
+</style></head>
+<body><svg id="sv" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script>
+const W=1080,H=1920, PAPER='#F2EFE8', INK='#181715', CORAL='#FF573F', CORAL2='#FFD3CA', PAPER2='#E4DFD3', MUT='#6f6a60', WHITE='#ffffff';
+const cl=x=>Math.max(0,Math.min(1,x)), lerp=(a,b,k)=>a+(b-a)*k, pr=(t,a,d)=>cl((t-a)/d);
+const E={o:t=>1-Math.pow(1-t,3), io:t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2, back:t=>{const c=2.2;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)},
+  el:t=>t===0||t===1?t:Math.pow(2,-10*t)*Math.sin((t*10-.75)*2*Math.PI/3)+1};
+const n=v=>Math.round(v).toLocaleString('en-US');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const txt=(x,y,s,size,fill,anchor,extra)=>`<text x="${x}" y="${y}" font-size="${size}" fill="${fill||INK}" text-anchor="${anchor||'start'}" ${extra||''}>${esc(s)}</text>`;
+const rr=(x,y,w,h,r,fill,extra)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${fill}" ${extra||''}/>`;
+const stk=(x,y,w,h,fill,r)=>{r=r==null?24:r;return rr(x+10,y+10,w,h,r,INK)+rr(x,y,w,h,r,fill,`stroke="${INK}" stroke-width="6"`)};
+const pop=k=>E.back(cl(k)), tilt=(k,d)=>lerp(d*3,d,E.o(cl(k)));
+function textW(s,size){let w=0;for(const ch of String(s))w+=/[\x00-\xff]/.test(ch)?size*.55:size;return w}
+function sticker(x,y,label,k,fill,col,size,rot){if(k<=0)return '';const w=textW(label,size)+size*1.4,h=size*1.9;
+  return `<g transform="translate(${x},${y}) rotate(${tilt(k,rot==null?-3:rot)}) scale(${pop(k)})">${stk(-w/2,-h/2,w,h,fill||CORAL,h/2)}${txt(0,size*.36,label,size,col||INK,'middle')}</g>`}
+function wrap(s,size,maxw){const n=Math.ceil(textW(s,size)/maxw);maxw=Math.min(maxw,textW(s,size)/n+size*1.5);const out=[];let cur='';for(const ch of String(s)){if(textW(cur+ch,size)>maxw&&cur){out.push(cur);cur=ch}else cur+=ch}if(cur)out.push(cur);return out}
+function bg(t){let s=rr(0,0,W,H,0,PAPER);const off=(t*24)%60;for(let y=-60+off;y<H;y+=60)for(let x=-60+off*.5;x<W;x+=60)s+=`<circle cx="${x}" cy="${y}" r="3" fill="${INK}" opacity=".08"/>`;return s}
+const big=(x,y,v,size,col)=>txt(x,y,v,size,col||CORAL,'middle',`stroke="${INK}" stroke-width="6" paint-order="stroke"`);
+
+let SB=null, SC=[], START=[], TOTAL=0;
+function head(title,k){return sticker(W/2,250,title,k,INK,PAPER,64,-2)}
+function build(sb){SB=sb;SC=[];const nm=sb.name;
+  // intro
+  SC.push({d:4,draw(t){let s='';s+=sticker(W/2,330,sb.ticker,pr(t,.1,.5),CORAL,INK,80,-4);
+    const lines=wrap(nm,170,900);lines.forEach((l,i)=>{const k=pr(t,.4+i*.15,.6);s+=`<g opacity="${cl(k*2)}" transform="translate(0,${(1-E.o(k))*60})">${big(W/2,640+i*190,l,170,INK)}</g>`});
+    const y0=640+lines.length*190; s+=sticker(W/2,y0,'#'+(sb.industry||'台股'),pr(t,1,.5),WHITE,INK,52,3);
+    if(sb.hook){const hl=wrap(sb.hook.text,64,900);hl.forEach((l,i)=>{const k=pr(t,1.6+i*.2,.5);s+=`<g opacity="${k}">${txt(W/2,y0+200+i*92,l,64,INK,'middle')}</g>`});
+      s+=`<line x1="${W/2-300}" y1="${y0+230+hl.length*92-80}" x2="${lerp(W/2-300,W/2+300,E.o(pr(t,2.4,.8)))}" y2="${y0+230+hl.length*92-80}" stroke="${CORAL}" stroke-width="14" stroke-linecap="round"/>`}
+    return s}});
+  if(sb.what)SC.push({d:5,draw(t){let s=head('在做什麼？🤔',pr(t,0,.5));sb.what.lines.forEach((l,i)=>{s+=sticker(W/2,640+i*270,l,pr(t,.6+i*.6,.5),i==1?CORAL:WHITE,INK,72,i%2?3:-3)});return s}});
+  if(sb.mix)SC.push({d:6.5,draw(t){let s=head((sb.mix.title||'營收從哪來')+' 💰',pr(t,0,.5));const it=sb.mix.items,cx=W/2,cy=720,R=290,k=E.io(pr(t,.6,2.2));
+    const cols=[CORAL,INK,PAPER2,CORAL2,MUT,WHITE];let a0=-Math.PI/2;
+    s+=`<circle cx="${cx+10}" cy="${cy+10}" r="${R+12}" fill="${INK}"/><circle cx="${cx}" cy="${cy}" r="${R+12}" fill="${WHITE}" stroke="${INK}" stroke-width="6"/>`;
+    it.forEach(([l,p],i)=>{const a1=a0+2*Math.PI*p/100*k,la=a1-a0>Math.PI?1:0;
+      s+=`<path d="M${cx} ${cy} L${cx+R*Math.cos(a0)} ${cy+R*Math.sin(a0)} A${R} ${R} 0 ${la} 1 ${cx+R*Math.cos(a1)} ${cy+R*Math.sin(a1)} Z" fill="${cols[i]}" stroke="${INK}" stroke-width="4"/>`;a0=a1});
+    it.forEach(([l,p],i)=>{const kk=pr(t,2.6+i*.35,.4);if(kk<=0)return;const y=1150+i*112;
+      s+=`<g opacity="${kk}" transform="translate(${lerp(160,120,E.o(kk))},${y})">${rr(0,-44,60,60,12,cols[i],`stroke="${INK}" stroke-width="5"`)}${txt(90,4,l,52,INK)}${txt(840,4,p+'%',60,i==0?CORAL:INK,'end',`stroke="${INK}" stroke-width="${i==0?3:0}" paint-order="stroke"`)}</g>`});
+    return s+foot(`${sb.mix.year} 年度｜${sb.mix.basis||''}`)}});
+  if(sb.regions)SC.push({d:5.5,draw(t){let s=head((sb.regions.title||'賣到哪裡')+' 🌏',pr(t,0,.5));const it=sb.regions.items,mx=Math.max(...it.map(x=>x[1]));
+    it.forEach(([l,p],i)=>{const y=560+i*250,k=E.el(pr(t,.6+i*.3,1.4)),w=Math.max(40,700*p/mx*k);
+      s+=`<g transform="translate(140,${y})">${txt(0,0,l,60,INK)}${rr(10,40,w,110,24,INK)}${rr(0,30,w,110,24,i==0?CORAL:WHITE,`stroke="${INK}" stroke-width="5"`)}${txt(w+24,108,(k>=1?String(p):(p*k).toFixed((String(p).split('.')[1]||'').length))+'%',56,INK)}</g>`});
+    return s+foot(`${sb.regions.year} 年度｜${sb.regions.basis||''}`)}});
+  const ys=Object.keys(sb.fin||{}).sort();if(ys.length>=1)SC.push({d:5.5,draw(t){let s=head('賺多少？📈',pr(t,0,.5));
+    const vals=ys.map(y=>sb.fin[y].revenue_k/1e5),mx=Math.max(...vals);const k=E.el(pr(t,.6,1.6));
+    ys.forEach((y,i)=>{const h=620*vals[i]/mx*Math.min(k,1.08),x=ys.length==1?W/2-110:250+i*360;
+      s+=`<g transform="translate(${x},1240)">${rr(12,-h+12,220,h,24,INK)}${rr(0,-h,220,h,24,i==ys.length-1?CORAL:WHITE,`stroke="${INK}" stroke-width="6"`)}${txt(110,-h-30,mx<100?(vals[i]*Math.min(k,1)).toFixed(1):n(vals[i]*Math.min(k,1)),56,INK,'middle')}${txt(110,70,y,52,INK,'middle')}</g>`});
+    s+=txt(W/2,1380,'營收（億元）',44,MUT,'middle');
+    if(ys.length>=2){const g=(vals[1]/vals[0]-1)*100;s+=sticker(gmx(sb)?320:W/2,1465,`年增 ${g>=0?'+':''}${g.toFixed(1)}%`,pr(t,2.4,.5),g>=0?CORAL:WHITE,INK,60,-3)}
+    const gm=sb.fin[ys[ys.length-1]].gross_margin_pct; if(gm!=null)s+=sticker(ys.length>=2?770:W/2,1465,`毛利率 ${gm}%`,pr(t,3,.5),WHITE,INK,52,3);
+    return s+foot('公開資訊觀測站｜綜合損益表彙總')}});
+  if(sb.relations&&sb.relations.length)SC.push({d:6.5,draw(t){let s=head('跟誰做生意？🔗',pr(t,0,.5));const cx=W/2,cy=930,rel=sb.relations.slice(0,6);
+    rel.forEach((r,i)=>{const a=-Math.PI/2+2*Math.PI*i/rel.length,x=cx+360*Math.cos(a),y=cy+400*Math.sin(a),k=E.io(pr(t,.8+i*.3,.8));
+      s+=`<line x1="${cx}" y1="${cy}" x2="${lerp(cx,x,k)}" y2="${lerp(cy,y,k)}" stroke="${r.side=='customer'?CORAL:INK}" stroke-width="6"/>`;
+      if(k>=.95){s+=`<g transform="translate(${x},${y}) scale(${pop(pr(t,1.4+i*.3,.4))})">${stk(-130,-56,260,112,r.side=='customer'?CORAL:WHITE,56)}${txt(0,8,r.name,44,INK,'middle')}${txt(0,46,r.side=='customer'?'客戶':'供應商',28,INK,'middle')}</g>`;
+        if(r.label)s+=`<g opacity="${pr(t,2.2+i*.3,.4)}">${txt(x,y+(y>cy?110:-82),r.label,30,MUT,'middle')}</g>`}});
+    s+=`<g transform="translate(${cx},${cy}) scale(${pop(pr(t,.2,.5))})"><circle cx="10" cy="10" r="120" fill="${INK}"/><circle r="120" fill="${INK}" stroke="${INK}" stroke-width="6"/>${txt(0,22,nm.length>4?nm.slice(0,4):nm,nm.length>3?56:68,PAPER,'middle')}</g>`;
+    return s+foot('上市櫃公司年報明載、逐筆審查')}});
+  (sb.cards||[]).forEach((c,ci)=>SC.push({d:4.5,draw(t){let s=head(ci==0?'重點來了 ⚡':'還有這個 👀',pr(t,0,.5));const lines=wrap(c.text,76,820),h=lines.length*110+140,k=pr(t,.5,.6);
+    s+=`<g transform="translate(${W/2},900) rotate(${tilt(k,ci?2:-2)}) scale(${pop(k)})">${stk(-470,-h/2,940,h,c.self?WHITE:CORAL,36)}${lines.map((l,i)=>txt(0,-h/2+130+i*110,l,76,INK,'middle')).join('')}</g>`;
+    if(c.self)s+=sticker(W/2+260,900-h/2-40,'公司自述・未經驗證',pr(t,1.4,.5),INK,PAPER,36,4);
+    return s}}));
+  const rn=(sb.renames||[]).filter(r=>r.former_name);if(rn.length){const r=rn[rn.length-1];SC.push({d:4.5,draw(t){let s=head('以前叫什麼？🔄',pr(t,0,.5));
+    s+=sticker(W/2,700,r.former_name.replace(/股份有限公司$/,''),pr(t,.5,.5),WHITE,MUT,58,-3);
+    const k=E.io(pr(t,1.3,.8));s+=`<line x1="${W/2}" y1="800" x2="${W/2}" y2="${lerp(800,980,k)}" stroke="${CORAL}" stroke-width="14" stroke-linecap="round"/><polygon points="${W/2-30},980 ${W/2+30},980 ${W/2},1030" fill="${CORAL}" opacity="${k}"/>`;
+    s+=sticker(W/2,1130,r.new_name.replace(/股份有限公司$/,''),pr(t,2,.5),CORAL,INK,64,3);if(r.date_text)s+=txt(W/2,1300,r.date_text,48,MUT,'middle');return s+foot('依年報記載')}})}
+  SC.push({d:4.5,draw(t){let s=sticker(W/2,560,'想看更多？',pr(t,.1,.5),INK,PAPER,80,-3);
+    s+=sticker(W/2,820,'股.tw 研究室',pr(t,.7,.5),CORAL,INK,90,2);s+=sticker(W/2,1060,'每一句都附年報頁碼',pr(t,1.3,.5),WHITE,INK,56,-2);
+    (sb.tags||[]).forEach((g,i)=>{s+=sticker(260+i*280,1280,g,pr(t,1.9+i*.2,.4),PAPER2,INK,40,i%2?3:-3)});
+    return s+`<g opacity="${pr(t,2.4,.6)}">${txt(W/2,1480,'內容整理自公開年報，不構成投資建議',40,MUT,'middle')}</g>`}});
+  START=[];TOTAL=0;SC.forEach(s=>{START.push(TOTAL);TOTAL+=s.d});return TOTAL}
+function foot(s){return `<g>${txt(W/2,1610,s,34,MUT,'middle')}</g>`}
+function gmx(sb){const ys=Object.keys(sb.fin||{}).sort();return ys.length&&sb.fin[ys[ys.length-1]].gross_margin_pct!=null}
+function render(gt){let i=SC.length-1;while(i>0&&START[i]>gt)i--;const sc=SC[i],t=gt-START[i];
+  let s=bg(gt)+sc.draw(t);
+  s+=rr(60,70,W-120,14,7,PAPER2)+rr(60,70,(W-120)*cl(gt/TOTAL),14,7,CORAL);
+  s+=txt(W/2,1660,`資料：${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜股.tw 研究室`,30,MUT,'middle');
+  const f=Math.min(pr(t,0,.18),1-pr(t,sc.d-.18,.18)); if(f<1)s+=rr(0,0,W,H,0,PAPER,`opacity="${1-f}"`);
+  document.getElementById('sv').innerHTML=s}
+window.build=build;window.render=render;window.ready=document.fonts.load('40px "RixingSong"');
+</script></body></html>

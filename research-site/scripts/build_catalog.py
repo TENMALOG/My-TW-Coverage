@@ -142,7 +142,10 @@ def main() -> None:
     # Some original filenames are mojibake (characters such as 碁/恒 lost in a Big5 round trip);
     # the short names below are confirmed by the legal name printed in each company's annual report.
     FILENAME_NAME_FIXES = {"6285": "啟碁", "2432": "倚天酷碁-創", "6174": "安碁", "8111": "立碁",
-                           "6908": "宏碁遊戲", "6690": "安碁資訊", "8349": "恒耀"}
+                           "6908": "宏碁遊戲", "6690": "安碁資訊", "8349": "恒耀",
+                           # renamed companies: current short name from the MOPS FY2025 financial summary
+                           "1721": "國慶科技", "4527": "方方土霖", "4953": "緯致", "5381": "光譜", "6241": "鑫永洋",
+                           "8472": "納維康"}
 
     # Reports: ticker is ground truth for path mapping (folders were renamed after audit).
     reports = {}
