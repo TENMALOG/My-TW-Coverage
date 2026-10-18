@@ -76,7 +76,7 @@ def _norm_short(name: str) -> str:
 
 
 def name_in_order(short: str, legal: str) -> bool:
-    chars, legal = _norm_short(short), legal.lower()
+    chars, legal = _norm_short(short), legal.replace('(方方土)', '堃').lower()
     if not chars:
         return False
     pos = 0

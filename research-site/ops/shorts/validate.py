@@ -63,6 +63,7 @@ def main(paths):
             if not line.strip():
                 continue
             sc = json.loads(line)
+            sc.setdefault('ticker', sc.get('id'))
             base = json.loads((HERE / 'base' / f"{sc['ticker']}.json").read_text(encoding='utf-8'))
             facts = {f['id']: f for f in base['facts']}
             sb = {k: v for k, v in base.items() if k != 'facts'}

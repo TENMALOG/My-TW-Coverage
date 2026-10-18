@@ -111,6 +111,7 @@ def md_escape(text: str) -> str:
     Lenticular brackets 〔〕 are reserved for filters/refs.lua markers; they are swapped for （）.
     Natural-person names after a job title or with an honorific are removed."""
     t = strip_person_names(re.sub(r'\[\[([^\]]+)\]\]', r'\1', text))
+    t = t.replace('(方方土)', '堃')   # MOPS spells 堃 (missing from Big5) as (方方土)
     t = t.replace('〔', '（').replace('〕', '）')
     t = _MD_SPECIAL.sub(r'\\\1', t)
     return re.sub(r'\s*\n\s*', ' ', t).strip()

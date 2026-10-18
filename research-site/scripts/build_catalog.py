@@ -143,8 +143,9 @@ def main() -> None:
     # the short names below are confirmed by the legal name printed in each company's annual report.
     FILENAME_NAME_FIXES = {"6285": "啟碁", "2432": "倚天酷碁-創", "6174": "安碁", "8111": "立碁",
                            "6908": "宏碁遊戲", "6690": "安碁資訊", "8349": "恒耀",
+                           # 堃 is missing from Big5: MOPS prints it as (方方土) and the original filenames split it
                            # renamed companies: current short name from the MOPS FY2025 financial summary
-                           "1721": "國慶科技", "4527": "方方土霖", "4953": "緯致", "5381": "光譜", "6241": "鑫永洋",
+                           "1721": "國慶科技", "4527": "堃霖", "6265": "堃昶", "4953": "緯致", "5381": "光譜", "6241": "鑫永洋",
                            "8472": "納維康"}
 
     # Reports: ticker is ground truth for path mapping (folders were renamed after audit).
