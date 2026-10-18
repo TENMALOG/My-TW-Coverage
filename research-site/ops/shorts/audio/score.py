@@ -214,14 +214,25 @@ def stage_events(ticker):
     return ev, total, starts
 
 
-def mixdown(ticker):
+def mixdown(ticker, voice=None):
     ev, total, starts = stage_events(ticker)
     mark = starts[-1] + .7 + .12                     # outro 「股.tw 研究室」 sticker is fully popped here
     drums_from = starts[1] if len(starts) > 1 else 0
     fx, duck = effects(ev, total, mark)
     mus = music(total, mark, drums_from)
     mus = mus[:len(fx)] if len(mus) >= len(fx) else np.pad(mus, (0, len(fx) - len(mus)))
-    mix = fx * FX_GAIN + mus * duck * .24            # chairman 2026-10-18: effects were too loud, -6 dB
+    mix_fx, mix_mus = fx * FX_GAIN, mus * duck * .24  # chairman 2026-10-18: effects were too loud, -6 dB
+    if voice is not None:                             # narrated trial: voice on top, music and effects step back
+        vo = np.zeros_like(fx); act = np.zeros_like(fx)
+        for st, clip in zip(starts, voice):
+            if len(clip) > 1:
+                i = int(SR * (st + .35)); m = min(len(clip), len(vo) - i)
+                vo[i:i + m] += clip[:m]; act[max(0, i - SR // 10):i + m + SR // 5] = 1
+        act = np.convolve(act, np.ones(SR // 10) / (SR // 10), 'same')     # smooth the ducking edges
+        mix_mus *= 1 - .6 * act
+        mix_fx *= 1 - .35 * act
+        mix_fx += vo * 1.6
+    mix = mix_fx + mix_mus
     n = int(SR * total)
     mix = mix[:n]
     fade = int(SR * .6)
@@ -239,8 +250,8 @@ def loudnorm(src, dst):
     subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-i', str(src), '-af', af, '-ar', str(SR), str(dst)], check=True)
 
 
-def main(ticker, keep=False):
-    mix, ev = mixdown(ticker)
+def main(ticker, keep=False, voice=None):
+    mix, ev = mixdown(ticker, voice)
     raw, norm = HERE / f'_raw_{ticker}.wav', HERE / f'_mix_{ticker}.wav'
     write(raw, mix)
     loudnorm(raw, norm)
@@ -257,4 +268,7 @@ def main(ticker, keep=False):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], '--wav' in sys.argv)
+    vo = None
+    if '--voice' in sys.argv:
+        vo = list(np.load(sys.argv[sys.argv.index('--voice') + 1], allow_pickle=True))
+    main(sys.argv[1], '--wav' in sys.argv, vo)

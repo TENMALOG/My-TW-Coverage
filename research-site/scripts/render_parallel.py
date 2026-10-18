@@ -52,7 +52,11 @@ def main():
     a = ap.parse_args()
     files = chapters()
     n = a.shards
-    parts = [files[i::n] for i in range(n)]
+    # the bibliography page lists only works cited in the same render: keep it with every citing page in shard 0
+    cites = [f for f in files if f == 'references.qmd' or re.search(r'\[@|〔', (SITE / f).read_text(encoding='utf-8'))]
+    rest = [f for f in files if f not in cites]
+    parts = [rest[i::n] for i in range(n)]
+    parts[0] = cites + parts[0]
     print(f'{len(files)} pages in {n} shards', flush=True)
     procs = []
     for i, part in enumerate(parts):
@@ -78,7 +82,13 @@ def main():
         shutil.rmtree(out)
     search = {}
     for d, part, _, _ in procs:
-        shutil.copytree(d / '_site', out, dirs_exist_ok=True)
+        # a shard writes placeholder pages (e.g. a self-redirecting index.html) for chapters it did not render:
+        # copy only its own pages, plus every non-HTML resource
+        mine = {f.replace('.qmd', '.html') for f in part}
+        shutil.copytree(d / '_site', out, dirs_exist_ok=True,
+                        ignore=lambda src, names, d=d, mine=mine: [
+                            n for n in names if n.endswith('.html')
+                            and Path(src, n).relative_to(d / '_site').as_posix() not in mine])
         for e in json.loads((d / '_site' / 'search.json').read_text(encoding='utf-8')):
             search[(e.get('objectID'), e.get('href'))] = e
     own = {f.replace('.qmd', '.html') for f in files}

@@ -80,6 +80,8 @@ function build(sb){SB=sb;SC=[];const nm=sb.name;
     s+=sticker(W/2,820,'股.tw 研究室',pr(t,.7,.5),CORAL,INK,90,2);s+=sticker(W/2,1060,'每一句都附年報頁碼',pr(t,1.3,.5),WHITE,INK,56,-2);
     (sb.tags||[]).forEach((g,i)=>{s+=sticker(260+i*280,1280,g,pr(t,1.9+i*.2,.4),PAPER2,INK,40,i%2?3:-3)});
     return s+`<g opacity="${pr(t,2.4,.6)}">${txt(W/2,1480,'內容整理自公開年報，不構成投資建議',40,MUT,'middle')}</g>`}});
+  // narrated Shorts: a scene is held at least as long as its voice line (sb.dur from audio/voice.py)
+  (sb.dur||[]).forEach((d,i)=>{if(SC[i]&&d>SC[i].d)SC[i].d=d});
   START=[];TOTAL=0;EVENTS=[];SC.forEach((s,i)=>{START.push(TOTAL);EVENTS.push({t:TOTAL,type:'scene',k:i,last:i==SC.length-1});(s.ev||[]).forEach(e=>EVENTS.push({...e,t:TOTAL+e.t}));TOTAL+=s.d});return TOTAL}
 // signature progress bar: one segment per scene; the new segment snaps in (synced with the sound mark)
 function progress(i,t){const N=SC.length,gap=12,sw=(W-120-gap*(N-1))/N,k=pr(t,0,.35),b=E.back(k);let s='';
