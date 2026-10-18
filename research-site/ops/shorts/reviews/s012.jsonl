@@ -1,0 +1,8 @@
+{"id": "1524", "verdict": "OK"}
+{"id": "1525", "verdict": "FIX", "issues": ["hook：銷貨對象方向不清，改成對中華汽車銷貨"], "fixed": {"id": "1525", "ticker": "1525", "hook": {"text": "對中華汽車銷貨占42％", "facts": ["1525-AR-15"]}, "what": {"lines": ["製造汽車車架與底盤零件", "也做沖壓模具和鈑件"], "facts": ["1525-AR-06"]}, "mix": null, "regions": null, "cards": [{"text": "中華汽車是母公司", "self": false, "facts": ["1525-AR-15"]}, {"text": "主要銷售地區是臺灣", "self": false, "facts": ["1525-AR-12"]}], "tags": ["#汽車零件", "#車架", "#江申"]}}
+{"id": "1526", "verdict": "OK"}
+{"id": "1527", "verdict": "OK"}
+{"id": "1528", "verdict": "OK"}
+{"id": "1529", "verdict": "FIX", "issues": ["hook：銷貨對象方向不清；card2：售電主詞是子公司"], "fixed": {"id": "1529", "ticker": "1529", "hook": {"text": "對台電銷貨占全年銷貨淨額66.91%", "facts": ["1529-AR-16"]}, "what": {"lines": ["做配電盤和變壓器", "也經營太陽能電廠"], "facts": ["1529-AR-06", "1529-AR-07"]}, "mix": {"title": "營收從哪來", "year": "2025", "basis": "占營業比重", "items": [["工程收入", 21.97], ["銷貨收入", 54.8], ["售電收入", 21.15]], "facts": ["1529-AR-02", "1529-AR-03", "1529-AR-04"]}, "regions": null, "cards": [{"text": "子公司太陽能電廠容量約40MW", "self": false, "facts": ["1529-AR-07"]}, {"text": "子公司發電後售予台灣電力", "self": false, "facts": ["1529-AR-07"]}], "tags": ["#配電設備", "#太陽能", "#樂事綠能"]}}
+{"id": "1530", "verdict": "OK"}
+{"id": "1531", "verdict": "OK"}

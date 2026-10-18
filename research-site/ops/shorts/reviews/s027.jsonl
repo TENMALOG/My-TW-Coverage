@@ -1,0 +1,8 @@
+{"id": "2072", "verdict": "OK"}
+{"id": "2073", "verdict": "OK"}
+{"id": "2101", "verdict": "FIX", "issues": ["card1：20,000餘條僅指PCR、4x4、LTR車種，未寫範圍", "card2：缺「設備產能」主詞，易被讀成實際產量"], "fixed": {"id": "2101", "ticker": "2101", "hook": {"text": "汽車輪胎占合併營收97.10%", "facts": ["2101-AR-01"]}, "what": {"lines": ["做汽車、機車輪胎", "也有卡車輪胎"], "facts": ["2101-AR-05"]}, "mix": {"title": "合併營收從哪來", "year": "2025", "basis": "合併口徑營業比重", "items": [["汽車輪胎", 97.1], ["機車輪胎", 0.99], ["營建", 1.89]], "facts": ["2101-AR-01", "2101-AR-02", "2101-AR-03"]}, "regions": {"title": "賣到哪裡", "year": "2025", "basis": "合併口徑表中銷售總額", "items": [["歐洲", 40.09], ["美洲", 14.59]], "facts": ["2101-AR-07", "2101-AR-08"]}, "cards": [{"text": "新豐廠PCR等每日產能20,000餘條", "self": false, "facts": ["2101-AR-20"]}, {"text": "張家港廠設備產能每日最高18,000餘條", "self": false, "facts": ["2101-AR-21"]}], "tags": ["#輪胎", "#汽車輪胎", "#南港輪胎"]}}
+{"id": "2102", "verdict": "OK"}
+{"id": "2103", "verdict": "OK"}
+{"id": "2104", "verdict": "OK"}
+{"id": "2105", "verdict": "OK"}
+{"id": "2106", "verdict": "FIX", "issues": ["hook：排名是2024年銷售實績，hook拿掉年份像現況"], "fixed": {"id": "2106", "ticker": "2106", "hook": {"text": "年報自述2024銷售全球前31大", "facts": ["2106-AR-05"]}, "what": {"lines": ["做自行車與機車輪胎", "也做工業車、輕型卡車胎"], "facts": ["2106-AR-02"]}, "mix": null, "regions": null, "cards": [{"text": "在台灣、中國、越南、印尼設廠", "self": false, "facts": ["2106-AR-08"]}, {"text": "以北美市占率5%為目標", "self": true, "facts": ["2106-AR-19"]}], "tags": ["#輪胎", "#自行車胎", "#KENDA"]}}
