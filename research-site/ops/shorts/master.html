@@ -139,10 +139,10 @@ function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].
   else if(b.k==='regions')s+=ranked(t,SB.regions.title||'銷售地區',SB.regions);else if(b.k==='regions2')s+=ranked(t,SB.regions.title||'銷售地區',SB.regions);
   else if(b.k==='rel')s+=rel(t);else if(b.k==='what')s+=what(t);else if(b.k==='close')s+=close(t);else s+=brand(t);
   s+='</g></g>';
-  // 轉場：珊瑚橘光條由左掃到右（整個直式畫面）
-  const out=pr(t,b.d-.32,.32),inn=1-pr(t,0,.32);
-  if(out>0&&i<BEATS.length-1){const x=W*io(out);s+=R(0,0,x,FH,PAPER)+R(x-18,0,18,FH,CORAL)}
-  if(inn>0&&i>0){const x=W*io(1-inn);s+=R(x,0,W-x,FH,PAPER)+R(x,0,18,FH,CORAL)}
+    // 轉場：柔和淡出淡入（不用快速掃過的亮條，避免刺眼；董事長 2026-10-20）
+  const out=pr(t,b.d-.35,.35),inn=1-pr(t,0,.35);
+  if(out>0&&i<BEATS.length-1)s+=R(0,0,W,FH,PAPER,`opacity="${io(out)}"`);
+  if(inn>0&&i>0)s+=R(0,0,W,FH,PAPER,`opacity="${io(inn)}"`);
   s+=outer(gt)+`<g transform="translate(0,${OY})">`+frame(gt,i)+'</g>';
   const f=Math.min(pr(gt,0,.35),1-pr(gt,TOTAL-.45,.45)); if(f<1)s+=R(0,0,W,FH,PAPER,`opacity="${1-f}"`);
   document.getElementById('sv').innerHTML=s}
@@ -159,7 +159,6 @@ function events(){START=[];const ev=[];let st=0;
     if(b.k==='rel'){SB.relations.slice(0,5).forEach((x,j)=>at(.6+j*.22,'pop',.6))}
     if(b.k==='what'){SB.what.lines.forEach((x,j)=>at(.7+j*.4,'pop',.7))}
     if(b.k==='close'){at(.9,'swish',.7);if((SB.hook||SB.cards[0]).self)at(2.1,'stamp')}
-    if(i<BEATS.length-1)at(b.d-.32,'swish',.5);
     st+=b.d});
   return ev}
 window.collect=()=>events();
