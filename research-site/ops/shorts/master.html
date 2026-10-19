@@ -42,11 +42,15 @@ function buildBeats(sb){SB=sb;CLIP=0;BEATS=[{k:'title',d:3.8}];
   const first=sb.mix?'mix':sb.regions?'regions':sb.what?'what':null; if(first)BEATS.push({k:first,d:4.6});
   const second=(first==='mix'&&sb.regions)?'regions2':(sb.relations&&sb.relations.length)?'rel':(sb.cards&&sb.cards.length&&first!=='what'&&sb.what)?'what':null;
   if(second)BEATS.push({k:second,d:4.0});
-  // 結尾只有一段：一句話＋出處＋品牌小字（沒有一句話可用時才放品牌畫面）
-  if(sb.hook||(sb.cards&&sb.cards[0]))BEATS.push({k:'close',d:4.6});else BEATS.push({k:'brand',d:2.6});TOTAL=BEATS.reduce((s,b)=>s+b.d,0);return TOTAL}
+  if(sb.hook||(sb.cards&&sb.cards[0]))BEATS.push({k:'close',d:4.2});
+  BEATS.push({k:'brand',d:2.6});TOTAL=BEATS.reduce((s,b)=>s+b.d,0);return TOTAL}
 
-function frame(gt,i){// 唯一的頁首：一行小字（品牌｜代號 公司），不加分隔線、不放進度刻度
-  return `<g opacity="${cl(gt/.6)}">`+T(M,92,'股.tw 研究室',30,INK)+T(W-M,92,`${SB.ticker}　${SB.name}`,30,MUT,'end')+'</g>'}
+function frame(gt,i){// 固定框：頂端品牌列＋分隔線、底部出處列＋進度刻度
+  let s=`<g opacity="${cl(gt/.6)}">`+T(M,92,'公司速覽',30,CORAL)+T(W-M,92,`${SB.ticker}　${SB.name}`,30,MUT,'end')+'</g>';
+  s+=L(M,116,lerp(M,W-M,io(pr(gt,.1,.9))),116,INK,2.5);
+  const n=BEATS.length,gw=(W-2*M-8*(n-1))/n;
+  for(let j=0;j<n;j++){const x=M+j*(gw+8);s+=R(x,1018,gw,4,j<i?INK:j===i?CORAL:LINE)}
+  return s}
 function foot(t,s){return `<g opacity="${pr(t,.8,.5)}">${T(M,990,s,28,MUT)}</g>`}
 function head(t,title,sub){let s=reveal(M,214,title,44,pr(t,.15,.6),INK);if(sub)s+=`<g opacity="${pr(t,.5,.5)}">${T(M,262,sub,28,MUT)}</g>`;
   return s+L(M,290,lerp(M,W-M,io(pr(t,.3,.8))),290,LINE,2)}
@@ -110,7 +114,6 @@ function close(t){const o=SB.hook||SB.cards[0];let s=reveal(M,330,'一句話記�
   const y2=480+lines.length*size*1.45+40;
   s+=`<g opacity="${pr(t,1.8,.6)}">${L(M,y2-30,M+120,y2-30,INK,2)}${T(M,y2+10,`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,fit(`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,28,W-2*M),MUT)}</g>`;
   if(o.self)s+=`<g opacity="${pr(t,2.1,.5)}">${R(M,y2+40,170,40,INK)}${T(M+85,y2+69,'公司自述',26,PAPER,'middle')}</g>`;
-  s+=`<g opacity="${io(pr(t,2.6,.8))}">${T(W-M,990,'股.tw 研究室',34,INK,'end')}</g>`;   // 品牌小字輕輕浮現，作為結尾
   return s}
 
 function brand(t){let s=reveal(W/2,520,'股.tw 研究室',96,pr(t,.1,.8),INK,'middle');
@@ -121,10 +124,15 @@ function bg(gt){const z=1+.035*(gt/TOTAL);let s=R(0,0,W,H,PAPER);  // 緩慢推�
   s+=`<g transform="translate(${W/2},${H/2}) scale(${z}) translate(${-W/2},${-H/2})" opacity=".55">`;
   for(let x=M;x<=W-M;x+=(W-2*M)/6)s+=L(x,140,x,970,SOFT,1);s+='</g>';return s}
 
-function outer(gt){return ''}   // 正方形以外留白：Shorts 的介面會蓋住，網頁會裁掉
+function outer(gt){// 正方形以外：只在 Shorts 看得到的上、下區。品牌「股.tw」只在最後的品牌畫面出現（董事長 2026-10-20）
+  let s=`<g opacity="${cl(gt/.6)}">`+T(M,226,'年報查核',46,INK)+'</g>';
+  s+=L(M,252,lerp(M,W-M,io(pr(gt,.1,.9))),252,INK,3);
+  s+=`<g opacity="${cl(gt/.8)}">`+T(M,1420,'每一句都附年報頁碼',30,MUT)+'</g>';
+  return s}
 
 function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].d){st+=BEATS[i].d;i++}const b=BEATS[i],t=gt-st;
   let s=R(0,0,W,FH,PAPER);
+  for(let x=M;x<=W-M;x+=(W-2*M)/6)s+=L(x,150,x,1460,SOFT,1);                     // 全幅細格線
   s+=`<g transform="translate(0,${OY})">`;
   s+=`<g transform="translate(0,${(1-io(pr(t,0,.5)))*16})">`;
   if(b.k==='title')s+=title(t);else if(b.k==='numbers')s+=numbers(t);else if(b.k==='mix')s+=stacked(t,SB.mix.title||'營收結構',SB.mix);
@@ -140,7 +148,7 @@ function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].
   document.getElementById('sv').innerHTML=s}
 
 // 音效事件（配樂與音效同步用）：每一拍開頭、轉場、數字定格、長條落地、文字浮現
-let START=[],MARK=0;
+let START=[];
 function events(){START=[];const ev=[];let st=0;
   BEATS.forEach((b,i)=>{START.push(st);ev.push({t:st,type:'scene',k:i});
     const at=(x,type,g)=>ev.push({t:st+x,type,g:g||1});
@@ -151,7 +159,6 @@ function events(){START=[];const ev=[];let st=0;
     if(b.k==='rel'){SB.relations.slice(0,5).forEach((x,j)=>at(.6+j*.22,'pop',.6))}
     if(b.k==='what'){SB.what.lines.forEach((x,j)=>at(.7+j*.4,'pop',.7))}
     if(b.k==='close'){at(.9,'swish',.7);if((SB.hook||SB.cards[0]).self)at(2.1,'stamp')}
-    if(b.k==='close')MARK=st+2.6;if(b.k==='brand')MARK=st+.82;
     st+=b.d});
   return ev}
 window.collect=()=>events();
