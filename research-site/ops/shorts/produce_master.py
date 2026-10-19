@@ -1,4 +1,4 @@
-"""Batch: final 9:16 master for every company → out/master/{t}_youtube.mp4, {t}_web.mp4, out/meta/{t}.txt/.json
+"""Batch: final 9:16 master for every company → out/master/{t}_youtube.mp4 (+ poster), out/meta/{t}.txt/.json
 
   py produce_master.py [--parallel 6] [--workers 3] [tickers...]
 
@@ -31,7 +31,7 @@ def log(msg):
 
 def done(t):
     deps = [HERE / 'master.html', HERE / 'storyboard' / f'{t}.json']
-    outs = [OUT / f'{t}_youtube.mp4', OUT / f'{t}_web.mp4', META / f'{t}.txt']
+    outs = [OUT / f'{t}_youtube.mp4', OUT / f'{t}_poster.jpg', META / f'{t}.txt']
     return all(o.exists() for o in outs) and min(o.stat().st_mtime for o in outs) > max(d.stat().st_mtime for d in deps)
 
 

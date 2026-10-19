@@ -2,7 +2,7 @@
 silent web encode of the same frames (the web page shows only the central 1:1 square with CSS).
 
   py record_master.py stills 2330 2.5 7 12      -> stills/master_2330_t002.5.png ...
-  py record_master.py video 2330 [workers]       -> out/master/2330_youtube.mp4, out/master/2330_web.mp4
+  py record_master.py video 2330 [workers]       -> out/master/2330_youtube.mp4 (+ 2330_poster.jpg; web pages embed the YouTube upload)
 
 Frames are drawn at 2x (2160x3840, lossless PNG) and scaled to 1080x1920. Audio: audio/score.py with
 master.html events, loudness SHORTS_LUFS (default -18 LUFS, true peak -2 dBTP).
@@ -89,13 +89,18 @@ def video(t, workers=4):
     yt = OUT / f'{t}_youtube.mp4'           # upload master: high quality video + AAC 48 kHz
     subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-i', str(silent), '-i', str(norm), '-map', '0:v', '-map', '1:a',
                     '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', '-ar', '48000', '-ac', '2', '-shortest', '-movflags', '+faststart', str(yt)], check=True)
-    web = OUT / f'{t}_web.mp4'               # web: same frames, lighter, silent (the page mutes it anyway)
-    subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-i', str(silent), '-c:v', 'libx264', '-preset', 'slow', '-crf', '24',
-                    '-tune', 'animation', '-pix_fmt', 'yuv420p', '-an', '-movflags', '+faststart', str(web)], check=True)
+    # web pages embed the YouTube upload (chairman 2026-10-20), so only a poster frame is kept for pages whose
+    # video is not uploaded yet; MASTER_WEB=1 still writes the old self-hosted silent encode
+    poster = OUT / f'{t}_poster.jpg'
+    subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-ss', '3.0', '-i', str(silent), '-frames:v', '1', '-q:v', '3', str(poster)], check=True)
+    if os.environ.get('MASTER_WEB') == '1':
+        web = OUT / f'{t}_web.mp4'
+        subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-i', str(silent), '-c:v', 'libx264', '-preset', 'slow', '-crf', '24',
+                        '-tune', 'animation', '-pix_fmt', 'yuv420p', '-an', '-movflags', '+faststart', str(web)], check=True)
     raw.unlink()
     norm.unlink()
     silent.unlink()
-    print(yt, yt.stat().st_size // 1024, 'KB |', web, web.stat().st_size // 1024, 'KB |', round(total, 1), 's')
+    print(yt, yt.stat().st_size // 1024, 'KB |', poster.name, '|', round(total, 1), 's')
 
 
 if __name__ == '__main__':
