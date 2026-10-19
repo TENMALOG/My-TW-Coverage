@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import industries from '../data/industries.json';
+---
+<Base title="首頁（示範版）">
+  <section class="card coral">
+    <span class="kicker">示範版</span>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:34px;margin:4px 0;line-height:1.25">1,733 家台股公司<br />每一句都能回查年報</h1>
+  </section>
+  <section class="card reveal">
+    <h2>先看這三頁</h2>
+    <p><a class="chip on" href="/c/2330/">台積電 公司卡</a> <a class="chip on" href="/i/semiconductors/">半導體 產業頁</a> <a class="chip on" href="/search/">搜尋</a></p>
+  </section>
+  <section class="card reveal">
+    <h2>所有產業</h2>
+    {industries.map((i) => <a class="chip" href={`/i/${i.slug}/`}>{i.name} <span class="num">{i.tickers.length}</span></a>)}
+  </section>
+</Base>

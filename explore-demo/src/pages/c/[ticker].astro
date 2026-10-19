@@ -1,0 +1,150 @@
+---
+// 公司卡片頁：一頁看懂一家公司。所有內容來自 src/data/companies.json（已查核事實＋財務彙總），每張卡都可展開年報出處。
+import fs from 'node:fs';
+import Base from '../../layouts/Base.astro';
+import companies from '../../data/companies.json';
+
+export function getStaticPaths() {
+  return companies.map((c) => ({ params: { ticker: c.ticker }, props: { c } }));
+}
+const { c } = Astro.props;
+const known = new Set(companies.map((x) => x.ticker));
+const hasVideo = fs.existsSync(`public/video/${c.ticker}.mp4`);
+const years = Object.keys(c.fin).sort();
+const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
+const yoy = years.length >= 2 ? (rev[1] / rev[0] - 1) * 100 : null;
+const gm = years.length ? c.fin[years[years.length - 1]].gross_margin_pct : null;
+const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
+const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應用'], ['revenue_mix', '營收結構'], ['sales_regions', '銷售地區'],
+  ['major_customers', '主要客戶'], ['major_suppliers', '主要供應商'], ['raw_materials', '原料'], ['capacity_or_production', '產能與產量'],
+  ['market_position', '市場地位'], ['rd', '研發'], ['employees', '人力'], ['group_structure', '集團結構'], ['outlook', '展望'],
+  ['export_share', '外銷比重'], ['history', '沿革'], ['established', '成立'], ['headquarters', '總部']];
+const ids = (o) => (o?.facts || []).join(',');
+const desc = c.hook?.text || `${c.name}（${c.ticker}）年報重點`;
+const chartData = { mix: c.mix, regions: c.regions, years, rev };
+---
+<Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article">
+  <div data-pagefind-body>
+  <section class="card">
+    <span class="kicker num">{c.ticker}</span>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0;line-height:1.15" data-pagefind-meta="title">{c.name}</h1>
+    <div class="muted">{c.legal_name}</div>
+    <div style="margin-top:10px">
+      <a class="chip on" href={`/i/${c.industry.slug}/`} data-pagefind-filter="產業">{c.industry.name}</a>
+      {c.mops_industry && <span class="chip" title="公司在公開資訊觀測站登記的產業別">證交所：{c.mops_industry}</span>}
+    </div>
+    {c.corrected_from && <p class="muted">原專案歸為「{c.corrected_from}」，本研究依年報主要業務更正分類。</p>}
+    <div style="display:flex;gap:10px;margin-top:12px">
+      <button class="iconbtn" id="watch" data-ticker={c.ticker}>☆ 加入觀察</button>
+      <button class="iconbtn" id="share">↗ 分享</button>
+    </div>
+  </section>
+
+  {c.hook && (
+    <section class="card coral reveal">
+      <span class="kicker">一句話記住它</span>
+      <p style="font-size:26px;font-weight:900;margin:4px 0;line-height:1.35" data-pagefind-weight="5">{c.hook.text}</p>
+      <button data-pagefind-ignore class="src" data-facts={ids(c.hook)} style="color:#181715">年報出處</button>
+    </section>
+  )}
+
+  {hasVideo && (
+    <section class="card reveal" style="padding:10px">
+      <span class="kicker" style="margin:6px 8px">45 秒看懂</span>
+      <video src={`/video/${c.ticker}.mp4`} controls playsinline preload="metadata"
+        style="width:100%;max-height:70vh;border-radius:14px;background:#000"></video>
+    </section>
+  )}
+
+  {c.what && (
+    <section class="card reveal">
+      <h2>在做什麼？</h2>
+      {c.what.lines.map((l, i) => <p class="chip" style={`font-size:17px;padding:6px 14px;transform:rotate(${i % 2 ? 1.5 : -1.5}deg)`}>{l}</p>)}
+      <div><button data-pagefind-ignore class="src" data-facts={ids(c.what)}>年報出處</button></div>
+    </section>
+  )}
+
+  {c.mix && (
+    <section class="card reveal">
+      <h2>{c.mix.title || '營收從哪來'}</h2>
+      <div class="chart" id="mix"></div>
+      <p class="muted">{c.mix.year} 年度｜{c.mix.basis}　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>年報出處</button></p>
+    </section>
+  )}
+
+  {c.regions && (
+    <section class="card reveal">
+      <h2>{c.regions.title || '賣到哪裡'}</h2>
+      <div class="chart" id="regions" style="height:220px"></div>
+      <p class="muted">{c.regions.year} 年度｜{c.regions.basis}　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>年報出處</button></p>
+    </section>
+  )}
+
+  {years.length > 0 && (
+    <section class="card reveal">
+      <h2>賺多少？</h2>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <span class="chip num">營收 {years.at(-1)}：{fmt(rev.at(-1))} 億</span>
+        {yoy !== null && <span class="chip num" style={yoy >= 0 ? 'background:var(--coral);color:#181715' : ''}>年增 {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</span>}
+        {gm != null && <span class="chip num">毛利率 {gm}%</span>}
+      </div>
+      <div class="chart" id="money" style="height:240px"></div>
+      <p class="muted">公開資訊觀測站「綜合損益表彙總」，合併報表；年增率與單位換算由本站計算。</p>
+    </section>
+  )}
+
+  {c.relations.length > 0 && (
+    <section class="card reveal">
+      <h2>跟誰做生意？</h2>
+      <p class="muted">上市櫃公司年報裡明確點名的往來對象（逐筆查核）。</p>
+      <div>
+        {c.relations.map((r) => (
+          <a class="chip" href={known.has(r.ticker) ? `/c/${r.ticker}/` : undefined}
+            style={r.side === 'customer' ? 'background:var(--coral);color:#181715' : ''}>
+            {r.side === 'customer' ? '客戶' : '供應商'}・{r.name}{r.label ? `（${r.label}）` : ''}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {c.cards.map((k) => (
+    <section class="card reveal">
+      {k.self ? <span data-pagefind-ignore class="badge-self">公司自述・未經驗證</span> : <span data-pagefind-ignore class="kicker">重點</span>}
+      <p style="font-size:21px;font-weight:700;margin:8px 0">{k.text}</p>
+      <button data-pagefind-ignore class="src" data-facts={ids(k)}>年報出處</button>
+    </section>
+  ))}
+
+  {c.facts.length > 0 && (
+    <section class="card reveal">
+      <details>
+        <summary style="font-weight:900;font-size:18px;cursor:pointer">年報重點全文（{c.facts.length} 條，逐句查核）</summary>
+        {FIELDS.filter(([k]) => c.facts.some((f) => f.field === k)).map(([k, label]) => (
+          <div>
+            <h3 style="margin:14px 0 4px;font-size:16px">{label}</h3>
+            {c.facts.filter((f) => f.field === k).map((f) => (
+              <p style="margin:4px 0">{f.statement}<span class="muted" data-pagefind-ignore>（第 {f.page} 頁）</span></p>
+            ))}
+          </div>
+        ))}
+      </details>
+    </section>
+  )}
+
+  <p class="muted">
+    資料：{c.legal_name} {c.report.fy} 年度年報（<a href={c.report.url} target="_blank" rel="noopener">{c.report.filename}</a>）。
+    {c.tags.map((t) => <span class="chip">{t}</span>)}
+  </p>
+
+  </div>
+
+  <dialog class="sheet" id="sheet"><div id="sheet-body"></div>
+    <form method="dialog"><button class="iconbtn" style="margin-top:12px">關閉</button></form></dialog>
+
+  <script type="application/json" id="cdata" set:html={JSON.stringify({ ...chartData, sources: c.sources, report: c.report, name: c.name, ticker: c.ticker })}></script>
+  <script>
+    import { initCompany } from '../../components/company.js';
+    initCompany();
+  </script>
+</Base>

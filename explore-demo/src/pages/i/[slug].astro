@@ -1,0 +1,77 @@
+---
+// 產業頁：散點圖（營收×毛利率，點一下進公司）、證交所產業別篩選、公司卡片列表、互動往來關係圖。
+import Base from '../../layouts/Base.astro';
+import companies from '../../data/companies.json';
+import industries from '../../data/industries.json';
+
+export function getStaticPaths() {
+  return industries.map((i) => ({ params: { slug: i.slug }, props: { ind: i } }));
+}
+const { ind } = Astro.props;
+const by = Object.fromEntries(companies.map((c) => [c.ticker, c]));
+const rows = ind.tickers.map((t) => by[t]).map((c) => {
+  const ys = Object.keys(c.fin).sort();
+  const y = ys.at(-1);
+  return { t: c.ticker, n: c.name, m: c.mops_industry || '不繼續公開發行', hook: c.hook?.text || '',
+    rev: y ? c.fin[y].revenue_k / 1e5 : null, gm: y ? c.fin[y].gross_margin_pct : null, moved: !!c.corrected_from };
+}).sort((a, b) => (b.rev ?? -1) - (a.rev ?? -1));
+const inSet = new Set(ind.tickers);
+const edges = [];
+for (const t of ind.tickers) for (const r of by[t].relations) {
+  if (inSet.has(r.ticker)) edges.push({ s: r.side === 'customer' ? t : r.ticker, d: r.side === 'customer' ? r.ticker : t });
+}
+const uniq = [...new Map(edges.map((e) => [`${e.s}>${e.d}`, e])).values()];
+const mops = [...new Set(rows.map((r) => r.m))].sort((a, b) => rows.filter((r) => r.m === b).length - rows.filter((r) => r.m === a).length);
+const withFin = rows.filter((r) => r.rev != null);
+const total = withFin.reduce((s, r) => s + r.rev, 0);
+const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
+---
+<Base title={ind.name} description={`${ind.name}產業 ${rows.length} 家上市櫃公司，一頁看懂`}>
+  <div data-pagefind-body>
+  <section class="card coral">
+    <span class="kicker">產業</span>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0" data-pagefind-meta="title">{ind.name}</h1>
+    <p style="font-size:18px;font-weight:700;margin:6px 0">
+      <span class="num">{rows.length}</span> 家公司・2025 合計營收 <span class="num">{fmt(total)}</span> 億元
+    </p>
+    <p class="muted" style="color:#181715">營收取自公開資訊觀測站綜合損益表彙總（{withFin.length} 家有資料）；合計為本站加總。</p>
+  </section>
+
+  <section class="card reveal">
+    <h2>誰賺得多、誰賺得好？</h2>
+    <p class="muted">橫軸：2025 營收（億元，對數刻度）；縱軸：毛利率。點一下圓點看公司。</p>
+    <div class="chart" id="scatter" style="height:360px"></div>
+  </section>
+
+  {uniq.length > 0 && (
+    <section class="card reveal">
+      <h2>產業內誰跟誰做生意？</h2>
+      <p class="muted">箭頭由供應商指向客戶，只畫年報明確點名、且雙方都在本產業的往來。可拖曳、雙指縮放。</p>
+      <div class="chart" id="graph" style="height:420px"></div>
+    </section>
+  )}
+
+  <section class="card reveal">
+    <h2>公司一覽</h2>
+    <div id="filters" style="margin-bottom:8px">
+      <button class="chip on" data-m="">全部 {rows.length}</button>
+      {mops.map((m) => <button class="chip" data-m={m}>證交所：{m} {rows.filter((r) => r.m === m).length}</button>)}
+    </div>
+    <div id="list">
+      {rows.map((r) => (
+        <a href={`/c/${r.t}/`} data-m={r.m} style="display:block;text-decoration:none;border-top:1px solid var(--line);padding:10px 0">
+          <span class="num" style="font-weight:700">{r.t}</span> <b style="font-size:17px">{r.n}</b>{r.moved && <span class="chip" title="本研究依年報更正分類後移入">＊依年報移入</span>}
+          <span class="muted num" style="float:right">{r.rev != null ? `${fmt(r.rev)} 億｜毛利率 ${r.gm != null ? r.gm + '%' : '—'}` : ''}</span>
+          <div class="muted">{r.hook}</div>
+        </a>
+      ))}
+    </div>
+  </section>
+  </div>
+
+  <script type="application/json" id="idata" set:html={JSON.stringify({ rows: withFin, edges: uniq, names: Object.fromEntries(rows.map((r) => [r.t, r.n])) })}></script>
+  <script>
+    import { initIndustry } from '../../components/industry.js';
+    initIndustry();
+  </script>
+</Base>

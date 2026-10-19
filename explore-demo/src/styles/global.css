@@ -1,0 +1,64 @@
+/* 股.tw 品牌：暖紙白 #F2EFE8／墨黑 #181715／珊瑚橘紅 #FF573F。深色模式：墨黑底、暖紙白字、橘紅不變。 */
+:root {
+  --paper: #f2efe8; --ink: #181715; --coral: #ff573f; --muted: #6f6a60; --line: #d4d0c7; --soft: #e8e4da;
+  --card: #ffffff; --shadow: #181715; --bg: var(--paper); --fg: var(--ink);
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --bg: #181715; --fg: #f2efe8; --card: #24221f; --muted: #a9a398; --line: #3a3733; --soft: #2d2a26; --shadow: #000;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #181715; --fg: #f2efe8; --card: #24221f; --muted: #a9a398; --line: #3a3733; --soft: #2d2a26; --shadow: #000;
+    color-scheme: dark;
+  }
+}
+@view-transition { navigation: auto; }               /* 換頁像 App 一樣滑順（Chrome/Edge/Safari） */
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--fg); overflow-x: clip; }   /* 卡片落地的旋轉動畫不撐寬頁面 */
+body { font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; font-synthesis: none; line-height: 1.6;
+  -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+.num { font-family: "Roboto Mono", monospace; font-variant-numeric: tabular-nums; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 96px; }
+
+/* 頂欄 */
+.top { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.top .in { max-width: 760px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 10px; align-items: center; }
+.logo { font-family: "Noto Serif TC", serif; font-weight: 700; text-decoration: none; font-size: 18px; }
+.logo b { color: var(--coral); }
+.top .sp { flex: 1; }
+.iconbtn { border: 2px solid var(--fg); background: var(--card); color: var(--fg); border-radius: 999px; height: 38px;
+  min-width: 38px; padding: 0 12px; font: inherit; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;
+  text-decoration: none; cursor: pointer; box-shadow: 3px 3px 0 var(--shadow); }
+.iconbtn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+
+/* 貼紙卡片 */
+.card { background: var(--card); border: 2.5px solid var(--fg); border-radius: 22px; padding: 18px 18px 14px;
+  box-shadow: 6px 6px 0 var(--shadow); margin: 18px 0; position: relative; }
+.card.coral { background: var(--coral); color: #181715; }
+.card h2 { margin: 0 0 8px; font-family: "Noto Serif TC", serif; font-size: 20px; }
+.kicker { display: inline-block; background: var(--fg); color: var(--bg); border-radius: 999px; padding: 2px 12px;
+  font-weight: 700; font-size: 13px; margin-bottom: 8px; }
+.chip { display: inline-flex; gap: 4px; align-items: center; border: 2px solid var(--fg); border-radius: 999px;
+  padding: 2px 10px; font-size: 13px; font-weight: 700; background: var(--card); margin: 2px 4px 2px 0; text-decoration: none; }
+.chip.on { background: var(--fg); color: var(--bg); }
+.badge-self { display: inline-block; background: var(--fg); color: var(--bg); font-size: 12px; border-radius: 999px;
+  padding: 1px 10px; transform: rotate(-3deg); }
+.src { border: 0; background: none; color: var(--muted); font: inherit; font-size: 12px; text-decoration: underline;
+  text-decoration-color: var(--coral); cursor: pointer; padding: 4px 0; }
+.muted { color: var(--muted); font-size: 13px; }
+.chart { width: 100%; height: 300px; }
+
+/* 出處抽屜 */
+dialog.sheet { border: 2.5px solid var(--fg); border-radius: 22px 22px 0 0; margin: auto auto 0; width: min(760px, 100%);
+  max-height: 70vh; padding: 18px; background: var(--card); color: var(--fg); }
+dialog.sheet::backdrop { background: #18171566; }
+dialog.sheet blockquote { margin: 8px 0; padding: 8px 12px; border-left: 4px solid var(--coral); background: var(--soft); }
+
+/* 進場動畫：捲到畫面才浮現（尊重「減少動態效果」設定） */
+.reveal { opacity: 0; transform: translateY(28px) rotate(-1deg); }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }

@@ -1,0 +1,52 @@
+---
+// 搜尋：Pagefind 在建置時為 1,733 家公司頁與 96 個產業頁建立索引（中文斷詞），搜尋完全在瀏覽器內進行。
+import Base from '../../layouts/Base.astro';
+const tries = ['CoWoS', '台積電 供應商', '電動機車', '加油站', '光學鏡頭', '餐廳', '再生晶圓'];
+---
+<Base title="搜尋" description="輸入公司、產品、客戶或關鍵字，1,733 家上市櫃公司即時搜尋">
+  <section class="card">
+    <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 8px">找公司、找產品、找供應鏈</h1>
+    <input id="q" type="search" placeholder="例如：CoWoS、台積電、電動機車…" autocomplete="off" enterkeyhint="search"
+      style="width:100%;font:inherit;font-size:20px;padding:12px 16px;border:2.5px solid var(--fg);border-radius:16px;background:var(--bg);color:var(--fg)" />
+    <div style="margin-top:10px">{tries.map((t) => <button class="chip try" data-q={t}>{t}</button>)}</div>
+  </section>
+  <p class="muted" id="status"></p>
+  <div id="results"></div>
+
+  <script>
+    let pf;
+    const box = document.getElementById('q');
+    const out = document.getElementById('results');
+    const status = document.getElementById('status');
+    async function load() {
+      if (!pf) { pf = await import(/* @vite-ignore */ '/pagefind/pagefind.js'); await pf.options({ excerptLength: 40 }); }
+      return pf;
+    }
+    let seq = 0;
+    async function run(q) {
+      const my = ++seq;
+      if (!q.trim()) { out.replaceChildren(); status.textContent = ''; return; }
+      status.textContent = '搜尋中…';
+      const p = await load();
+      const r = await p.debouncedSearch(q, {}, 180);
+      if (r === null || my !== seq) return;
+      status.textContent = `找到 ${r.results.length} 筆，載入前 20 筆…`;
+      const items = await Promise.all(r.results.slice(0, 20).map((x) => x.data()));
+      if (my !== seq) return;
+      status.textContent = `找到 ${r.results.length} 筆` + (r.results.length > 20 ? '，顯示最相關的 20 筆' : '');
+      out.replaceChildren(...items.map((d) => {
+        const a = document.createElement('a');
+        a.href = d.url; a.className = 'card'; a.style.cssText = 'display:block;text-decoration:none;margin:12px 0';
+        const h = document.createElement('b'); h.style.fontSize = '18px'; h.textContent = d.meta.title || d.url;
+        const ex = document.createElement('div'); ex.className = 'muted'; ex.innerHTML = d.excerpt;   // Pagefind 已轉義，只含 <mark>
+        a.append(h, ex);
+        return a;
+      }));
+    }
+    box.addEventListener('input', () => run(box.value));
+    document.querySelectorAll('.try').forEach((b) => b.addEventListener('click', () => { box.value = b.dataset.q; run(box.value); }));
+    const q0 = new URLSearchParams(location.search).get('q');
+    if (q0) { box.value = q0; run(q0); }
+    box.focus();
+  </script>
+</Base>

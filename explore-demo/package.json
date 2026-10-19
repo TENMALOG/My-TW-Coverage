@@ -1,0 +1,18 @@
+{
+  "name": "tw-research-explore-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "py scripts/export_data.py",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview --port 4430 --host 127.0.0.1"
+  },
+  "dependencies": {
+    "astro": "7.3.8",
+    "echarts": "6.1.0",
+    "motion": "14.4.0"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  }
+}
