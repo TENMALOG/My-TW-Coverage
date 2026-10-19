@@ -73,5 +73,7 @@ dialog.player video { height: min(78dvh, calc((100vw - 32px) * 16 / 9)); aspect-
 dialog.player .pbar { display: flex; gap: 10px; }
 
 /* 網頁版動態封面：1:1、無聲循環，貼紙卡片風格 */
+/* 同一支 9:16 母版：網頁只露出中央 1:1 安全區（畫面 y 280–1360 → object-position 33.3%） */
 video.cover { display: block; width: 100%; max-width: 520px; aspect-ratio: 1 / 1; margin: 18px auto 0;
+  object-fit: cover; object-position: 50% 33.333%;
   border: 2.5px solid var(--fg); border-radius: 22px; box-shadow: 6px 6px 0 var(--shadow); background: #F2EFE8; }

@@ -49,7 +49,10 @@ def make_copy(dst):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--shards', type=int, default=16)
+    ap.add_argument('--merge-only', action='store_true', help='merge finished shards (driver process gone)')
     a = ap.parse_args()
+    if a.merge_only:
+        return merge_only()
     files = chapters()
     n = a.shards
     # the bibliography page lists only works cited in the same render: keep it with every citing page in shard 0
@@ -76,14 +79,18 @@ def main():
     print('failed shards', bad, 'missing pages', len(missing), missing[:10], flush=True)
     if bad or missing:
         sys.exit(1)
-    # merge: fresh _site from shard outputs; search index = union by href
+    merge([(d, part) for d, part, _, _ in procs], t0)
+
+
+def merge(shards, t0=None):
+    """Fresh _site from shard outputs (each shard's own pages + all non-HTML resources); search index = union."""
+    t0 = t0 or time.time()
     out = SITE / '_site'
     if out.exists():
         shutil.rmtree(out)
     search = {}
-    for d, part, _, _ in procs:
-        # a shard writes placeholder pages (e.g. a self-redirecting index.html) for chapters it did not render:
-        # copy only its own pages, plus every non-HTML resource
+    for d, part in shards:
+        # a shard writes placeholder pages (e.g. a self-redirecting index.html) for chapters it did not render
         mine = {f.replace('.qmd', '.html') for f in part}
         shutil.copytree(d / '_site', out, dirs_exist_ok=True,
                         ignore=lambda src, names, d=d, mine=mine: [
@@ -91,11 +98,22 @@ def main():
                             and Path(src, n).relative_to(d / '_site').as_posix() not in mine])
         for e in json.loads((d / '_site' / 'search.json').read_text(encoding='utf-8')):
             search[(e.get('objectID'), e.get('href'))] = e
-    own = {f.replace('.qmd', '.html') for f in files}
     (out / 'search.json').write_text(json.dumps(list(search.values()), ensure_ascii=False), encoding='utf-8')
     html = sum(1 for _ in out.rglob('*.html'))
     print(f'merged into {out}: {html} html files, {len(search)} search entries, {int(time.time() - t0) // 60} min',
           flush=True)
+
+
+def merge_only():
+    """Merge finished shards when the driver process is gone (e.g. the session ended mid-render)."""
+    shards = []
+    for d in sorted(WORK.glob('s[0-9][0-9]')):
+        part = (d / 'files.txt').read_text(encoding='utf-8').split()
+        missing = [f for f in part if not (d / '_site' / f.replace('.qmd', '.html')).exists()]
+        if missing:
+            raise SystemExit(f'{d.name}: {len(missing)} pages not rendered yet, e.g. {missing[:3]}')
+        shards.append((d, part))
+    merge(shards)
 
 
 if __name__ == '__main__':

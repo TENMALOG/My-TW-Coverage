@@ -29,6 +29,7 @@ RNG = np.random.default_rng(11)
 BPM = 96
 BEAT = 60 / BPM
 BAR = 4 * BEAT
+LUFS = float(__import__('os').environ.get('SHORTS_LUFS', '-18'))   # chairman 2026-10-20: -14 was louder than other videos
 FX_GAIN = .5                                  # effects bus level relative to the theme
 SWING = .58                                   # off-beat eighth sits at 58% of the beat
 
@@ -206,7 +207,8 @@ def stage_events(ticker):
     sb = json.loads((HERE.parent / 'storyboard' / f'{ticker}.json').read_text(encoding='utf-8'))
     with sync_playwright() as p:
         b = p.chromium.launch(channel='chrome'); pg = b.new_page(viewport={'width': 1080, 'height': 1920})
-        pg.goto((HERE.parent / 'short.html').as_uri()); pg.evaluate('window.ready')
+        stage = __import__('os').environ.get('SHORTS_STAGE', 'short.html')
+        pg.goto((HERE.parent / stage).as_uri()); pg.evaluate('window.ready')
         total = pg.evaluate('sb => build(sb)', sb)
         ev = pg.evaluate('collect()')
         starts = pg.evaluate('START')
@@ -241,11 +243,11 @@ def mixdown(ticker, voice=None):
 
 
 def loudnorm(src, dst):
-    """Two-pass EBU R128 normalisation to YouTube's -14 LUFS, true peak -1.5 dB."""
-    r = subprocess.run([FFMPEG, '-hide_banner', '-i', str(src), '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json',
+    """Two-pass EBU R128 normalisation to LUFS (default -18: music-only content sat louder than other videos at -14), true peak -2 dB."""
+    r = subprocess.run([FFMPEG, '-hide_banner', '-i', str(src), '-af', f'loudnorm=I={LUFS}:TP=-2:LRA=11:print_format=json',
                         '-f', 'null', '-'], capture_output=True, text=True, encoding='utf-8', errors='replace')
     m = json.loads(re.findall(r'\{[^{}]*"input_i"[^{}]*\}', r.stderr)[-1])
-    af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
+    af = (f"loudnorm=I={LUFS}:TP=-2:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
           f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
     subprocess.run([FFMPEG, '-y', '-loglevel', 'error', '-i', str(src), '-af', af, '-ar', str(SR), str(dst)], check=True)
 
