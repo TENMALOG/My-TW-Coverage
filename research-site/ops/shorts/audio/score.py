@@ -212,13 +212,14 @@ def stage_events(ticker):
         total = pg.evaluate('sb => build(sb)', sb)
         ev = pg.evaluate('collect()')
         starts = pg.evaluate('START')
+        mk = pg.evaluate('typeof MARK !== "undefined" ? MARK : null')
         b.close()
-    return ev, total, starts
+    return ev, total, starts, mk
 
 
 def mixdown(ticker, voice=None):
-    ev, total, starts = stage_events(ticker)
-    mark = starts[-1] + .7 + .12                     # outro 「股.tw 研究室」 sticker is fully popped here
+    ev, total, starts, mk = stage_events(ticker)
+    mark = mk or starts[-1] + .7 + .12               # sound mark: stage's MARK, else when the outro 「股.tw 研究室」 sticker has popped
     drums_from = starts[1] if len(starts) > 1 else 0
     fx, duck = effects(ev, total, mark)
     mus = music(total, mark, drums_from)
