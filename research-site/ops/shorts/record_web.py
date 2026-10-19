@@ -16,17 +16,21 @@ from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent
 SITE = HERE.parents[1]
-STAGE = (HERE / 'web.html').as_uri()
+STAGE = (HERE / __import__('os').environ.get('WEB_STAGE', 'web2.html')).as_uri()
 FFMPEG = r'C:\Program Files\ffmpeg-7.1.1\bin\ffmpeg.exe'
 FPS = 30
 
 _ZH = {r['industry_folder']: r['name_zh'].rstrip('?？') for r in csv.DictReader(open(SITE / 'data/industry-names.csv', encoding='utf-8-sig'))}
+_MOPS = {json.loads(l)['ticker']: json.loads(l).get('industry_mops') or '' for l in open(SITE / 'data/basic-data.jsonl', encoding='utf-8')}
 _IND = {r['ticker']: r['industry_folder'] for r in csv.DictReader(open(SITE / 'catalog/release-scope-companies.csv', encoding='utf-8-sig'))}
 
 
 def storyboard(t):
     sb = json.loads((HERE / 'storyboard' / f'{t}.json').read_text(encoding='utf-8'))
     sb['industry_zh'] = _ZH.get(_IND.get(t, ''), '')
+    sb['mops_industry'] = _MOPS.get(t, '')
+    doc = json.loads((SITE / 'data/company-facts' / f'{t}.json').read_text(encoding='utf-8'))
+    sb['pages'] = {f['id']: f.get('page') for f in doc['facts']}          # fact id -> annual-report page (for 出處)
     return sb
 
 

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><title>web cover v2</title>
+<style>
+  @font-face{font-family:"RixingSong";src:url("file:///C:/Users/Neo%20Pegasus/AppData/Local/Microsoft/Windows/Fonts/rixingsong-1.0-semibold.otf") format("opentype")}
+  *{font-synthesis:none}
+  html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#F2EFE8}
+  svg{position:absolute;left:0;top:0;font-family:"RixingSong"}
+</style></head>
+<body><svg id="sv" width="1080" height="1080" viewBox="0 0 1080 1080"></svg>
+<script>
+// 網頁版動態封面 v2（全公司共用模板）：1:1、約 20 秒、無聲、首尾相接可循環。
+// 字型只用日星宋體貳號；版面採固定網格＋細線，珊瑚橘只作重點。內容全部取自已查核的 storyboard 與財務彙總，
+// 每一拍都標出處（年報頁碼或公開資訊觀測站）。
+const W=1080,H=1080,M=84, PAPER='#F2EFE8', INK='#181715', CORAL='#FF573F', MUT='#7a7468', LINE='#cfc9bd', SOFT='#e6e1d6';
+const SEG=[CORAL,INK,'#8a8478','#bdb6a8','#ddd7ca','#ffffff'];
+const cl=x=>Math.max(0,Math.min(1,x)), lerp=(a,b,k)=>a+(b-a)*k, pr=(t,a,d)=>cl((t-a)/d);
+const ex=t=>t>=1?1:1-Math.pow(2,-10*t), io=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const ctx=document.createElement('canvas').getContext('2d');
+const tw=(s,size)=>{ctx.font=`${size}px RixingSong`;return ctx.measureText(String(s)).width};
+const T=(x,y,s,size,fill,anchor,op,extra)=>`<text x="${x}" y="${y}" font-size="${size}" fill="${fill||INK}" text-anchor="${anchor||'start'}" opacity="${op==null?1:op}" ${extra||''}>${esc(s)}</text>`;
+const R=(x,y,w,h,fill,extra)=>`<rect x="${x}" y="${y}" width="${Math.max(0,w)}" height="${Math.max(0,h)}" fill="${fill}" ${extra||''}/>`;
+const L=(x1,y1,x2,y2,c,w)=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c||INK}" stroke-width="${w||2}"/>`;
+let CLIP=0;
+// 遮罩浮現：文字由下方滑入、左到右揭露
+function reveal(x,y,s,size,k,fill,anchor){if(k<=0)return '';const w=tw(s,size)+8,id='c'+(CLIP++);
+  const x0=anchor==='middle'?x-w/2:anchor==='end'?x-w:x;
+  return `<clipPath id="${id}"><rect x="${x0-4}" y="${y-size*1.05}" width="${w*ex(k)}" height="${size*1.4}"/></clipPath>`+
+    `<g clip-path="url(#${id})"><g transform="translate(0,${(1-ex(k))*size*.35})">${T(x,y,s,size,fill,anchor)}</g></g>`}
+function fit(s,size,maxw){const w=tw(s,size);return w>maxw?Math.floor(size*maxw/w):size}
+function wrap(s,size,maxw){const out=[];let cur='';for(const ch of String(s)){if(tw(cur+ch,size)>maxw&&cur){out.push(cur);cur=ch}else cur+=ch}if(cur)out.push(cur);
+  if(out.length>1){const n=out.length,per=Math.ceil([...String(s)].length/n);const o2=[];let a=[...String(s)];while(a.length){o2.push(a.splice(0,per).join(''))}return o2}return out}
+const fmt=v=>Math.round(v).toLocaleString('en-US');
+const pct=(v,k)=>{const d=(String(v).split('.')[1]||'').length;return (v*k).toFixed(d)};
+
+let SB=null,BEATS=[],TOTAL=0,FIN=null;
+function page(ids){const ps=[...new Set((ids||[]).map(i=>(SB.pages||{})[i]).filter(Boolean))];return ps.length?`年報第 ${ps.join('、')} 頁`:'年報'}
+function build(sb){SB=sb;CLIP=0;BEATS=[{k:'title',d:3.8}];
+  const ys=Object.keys(sb.fin||{}).sort();FIN=ys.length?{ys,rev:ys.map(y=>sb.fin[y].revenue_k/1e5),gm:ys.map(y=>sb.fin[y].gross_margin_pct)}:null;
+  if(FIN)BEATS.push({k:'numbers',d:4.6});
+  const first=sb.mix?'mix':sb.regions?'regions':sb.what?'what':null; if(first)BEATS.push({k:first,d:4.6});
+  const second=(first==='mix'&&sb.regions)?'regions2':(sb.relations&&sb.relations.length)?'rel':(sb.cards&&sb.cards.length&&first!=='what'&&sb.what)?'what':null;
+  if(second)BEATS.push({k:second,d:4.0});
+  if(sb.hook||(sb.cards&&sb.cards[0]))BEATS.push({k:'close',d:4.2});
+  BEATS.push({k:'brand',d:2.6});TOTAL=BEATS.reduce((s,b)=>s+b.d,0);return TOTAL}
+
+function frame(gt,i){// 固定框：頂端品牌列＋分隔線、底部出處列＋進度刻度
+  let s=`<g opacity="${cl(gt/.6)}">`+T(M,92,'股.tw 研究室',28,INK)+T(W-M,92,`${SB.ticker}　${SB.name}`,28,MUT,'end')+'</g>';
+  s+=L(M,116,lerp(M,W-M,io(pr(gt,.1,.9))),116,INK,2);
+  const n=BEATS.length,gw=(W-2*M-8*(n-1))/n;
+  for(let j=0;j<n;j++){const x=M+j*(gw+8);s+=R(x,1018,gw,4,j<i?INK:j===i?CORAL:LINE)}
+  return s}
+function foot(t,s){return `<g opacity="${pr(t,.8,.5)}">${T(M,990,s,24,MUT)}</g>`}
+function head(t,title,sub){let s=reveal(M,214,title,44,pr(t,.15,.6),INK);if(sub)s+=`<g opacity="${pr(t,.5,.5)}">${T(M,262,sub,26,MUT)}</g>`;
+  return s+L(M,290,lerp(M,W-M,io(pr(t,.3,.8))),290,LINE,2)}
+
+function title(t){let s='';const sb=SB;
+  s+=reveal(M,300,'公司速覽',32,pr(t,.2,.5),CORAL);
+  s+=reveal(M,400,sb.ticker,76,pr(t,.35,.6),MUT);
+  const ns=fit(sb.name,200,W-2*M);s+=reveal(M,400+ns*1.05,sb.name,ns,pr(t,.55,.8),INK);
+  const y1=400+ns*1.05+50;s+=L(M,y1,lerp(M,W-M,io(pr(t,1.0,.9))),y1,INK,3);
+  if(sb.legal_name)s+=`<g opacity="${pr(t,1.3,.6)}">${T(M,y1+58,sb.legal_name,fit(sb.legal_name,34,W-2*M),MUT)}</g>`;
+  const tags=[['產業',sb.industry_zh],['證交所',sb.mops_industry]].filter(x=>x[1]);
+  let x=M;tags.forEach(([a,b],j)=>{const k=pr(t,1.7+j*.25,.5);if(k<=0)return;
+    s+=`<g opacity="${k}">${R(x,y1+108,14,14,j?INK:CORAL)}${T(x+26,y1+124,a,28,MUT)}${T(x+26+tw(a,28)+12,y1+124,b,28,INK)}</g>`;x+=26+tw(a,28)+12+tw(b,28)+48});
+  return s}
+
+function numbers(t){const f=FIN,n=f.ys.length,last=n-1;let s=head(t,'營運數字',`${f.ys[last]} 年度｜合併報表`);
+  const cols=[{lab:`${f.ys[last]} 營收`,val:f.rev[last],unit:'億',fmtv:v=>fmt(v),sub:n>1?`${f.ys[0]}：${fmt(f.rev[0])} 億`:''}];
+  if(n>1){const g=(f.rev[last]/f.rev[0]-1)*100;cols.push({lab:'營收年增',val:g,unit:'%',fmtv:v=>(g>=0?'+':'')+v.toFixed(1),sub:'由本站計算',hi:g>=0})}
+  if(f.gm[last]!=null)cols.push({lab:'毛利率',val:f.gm[last],unit:'%',fmtv:v=>pct(f.gm[last],v/f.gm[last]),sub:n>1&&f.gm[0]!=null?`${f.ys[0]}：${f.gm[0]}%`:''});
+  const cw=(W-2*M)/cols.length;
+  cols.forEach((c,j)=>{const x=M+j*cw,k=pr(t,.6+j*.25,.6),run=io(pr(t,.7+j*.25,1.4));if(k<=0)return;
+    if(j)s+=L(x-12,360,x-12,lerp(360,590,io(k)),LINE,2);
+    s+=`<g opacity="${k}">${T(x,400,c.lab,32,MUT)}</g>`;
+    const vs=c.fmtv(c.val*run),vsize=fit(vs+c.unit,88,cw-30);
+    s+=`<g opacity="${k}">${T(x,505,vs,vsize,c.hi?CORAL:INK)}${T(x+tw(vs,vsize)+8,505,c.unit,vsize*.42,MUT)}</g>`;
+    if(c.sub)s+=`<g opacity="${pr(t,1.6+j*.2,.5)}">${T(x,555,c.sub,26,MUT)}</g>`});
+  if(n>1){const mx=Math.max(...f.rev);f.ys.forEach((y,j)=>{const yy=680+j*112,k=ex(pr(t,1.8+j*.3,1.1)),w=(W-2*M-220)*f.rev[j]/mx*k;
+      s+=`<g opacity="${pr(t,1.8+j*.3,.3)}">${T(M,yy+46,y,32,MUT)}${R(M+90,yy,w,66,j===n-1?CORAL:INK)}${T(M+90+w+14,yy+46,fmt(f.rev[j]*k)+' 億',30,INK)}</g>`})}
+  return s+foot(t,'資料：公開資訊觀測站 綜合損益表彙總')}
+
+function stacked(t,ttl,obj){const it=obj.items;let s=head(t,ttl,`${obj.year} 年度｜${obj.basis||''}`);
+  const [l0,p0]=it[0],k0=pr(t,.6,.6);
+  if(k0>0){const ps=pct(p0,io(pr(t,.6,1.2)));s+=`<g opacity="${k0}">${T(M,480,ps,160,CORAL)}${T(M+tw(ps,160)+10,480,'%',64,CORAL)}</g>`+reveal(M+tw(String(p0),160)+96,480,l0,fit(l0,58,W-2*M-tw(String(p0),160)-106),pr(t,1.0,.6),INK)}
+  const bw=W-2*M,y=570;let x=M;s+=R(M,y,bw,96,SOFT);
+  it.forEach(([l,p],j)=>{const k=io(pr(t,1.2+j*.28,.5)),w=bw*p/100*k;s+=R(x,y,w,96,SEG[j%SEG.length],j>=4?`stroke="${INK}" stroke-width="1.5"`:'');x+=bw*p/100});
+  s+=L(M,y+96,M+bw,y+96,INK,2);
+  it.slice(1,6).forEach(([l,p],j)=>{const k=pr(t,1.8+j*.2,.45);if(k<=0)return;const col=j%2,row=Math.floor(j/2),xx=M+col*(bw/2),yy=760+row*78;
+    s+=`<g opacity="${k}">${R(xx,yy-24,22,22,SEG[(j+1)%SEG.length],`stroke="${INK}" stroke-width="1.5"`)}${T(xx+36,yy-4,l,fit(l,34,bw/2-150),INK)}${T(xx+bw/2-40,yy-4,p+'%',34,INK,'end')}</g>`});
+  return s+foot(t,`資料：${SB.source&&SB.source.fy||''} 年度年報｜${page(obj.facts)}`)}
+
+function ranked(t,ttl,obj){const it=obj.items.slice(0,5),mx=Math.max(...it.map(x=>x[1]));let s=head(t,ttl,`${obj.year} 年度｜${obj.basis||''}`);
+  it.forEach(([l,p],j)=>{const y=410+j*120,k=ex(pr(t,.6+j*.22,1.0));if(pr(t,.6+j*.22,.2)<=0)return;
+    s+=T(M,y,String(j+1).padStart(2,'0'),30,MUT)+T(M+64,y,l,fit(l,40,420),INK);
+    s+=R(M+64,y+18,(W-2*M-200)*p/mx*k,14,j===0?CORAL:INK)+T(W-M,y,pct(p,k)+'%',40,j===0?CORAL:INK,'end')});
+  return s+foot(t,`資料：${SB.source&&SB.source.fy||''} 年度年報｜${page(obj.facts)}`)}
+
+function rel(t){const rs=SB.relations.slice(0,5);let s=head(t,'往來對象','其他上市櫃公司年報明確點名');
+  rs.forEach((r,j)=>{const y=410+j*116,k=pr(t,.6+j*.22,.5);if(k<=0)return;
+    s+=`<g opacity="${k}" transform="translate(${(1-ex(k))*40},0)">${R(M,y-30,92,40,r.side==='customer'?CORAL:INK)}${T(M+46,y-1,r.side==='customer'?'客戶':'供應商',24,r.side==='customer'?INK:PAPER,'middle')}${T(M+120,y,r.name,fit(r.name,42,360),INK)}${r.label?T(W-M,y,r.label,fit(r.label,26,440),MUT,'end'):''}</g>`;
+    s+=L(M,y+40,W-M,y+40,LINE,1.5)});
+  return s+foot(t,'資料：上市櫃公司年報，逐筆查核')}
+
+function what(t){const ls=SB.what.lines;let s=head(t,'在做什麼','依年報所營業務與產品');
+  ls.forEach((l,j)=>{const y=450+j*160;s+=reveal(M,y,String(j+1).padStart(2,'0'),40,pr(t,.6+j*.4,.5),CORAL)+reveal(M+90,y,l,fit(l,72,W-2*M-90),pr(t,.7+j*.4,.7),INK)+L(M,y+44,lerp(M,W-M,io(pr(t,.9+j*.4,.7))),y+44,LINE,1.5)});
+  return s+foot(t,`資料：${SB.source&&SB.source.fy||''} 年度年報｜${page(SB.what.facts)}`)}
+
+function close(t){const o=SB.hook||SB.cards[0];let s=reveal(M,330,'一句話記住它',36,pr(t,.2,.5),CORAL);
+  const size=fit('字'.repeat(9),84,W-2*M)>=84?84:74,lines=wrap(o.text,size,W-2*M);
+  lines.forEach((l,j)=>{const y=480+j*(size*1.45),hk=io(pr(t,.9+j*.35,.7));
+    s+=R(M-8,y-size*.42,(tw(l,size)+16)*hk,size*.5,CORAL,'opacity=".85"');s+=reveal(M,y,l,size,pr(t,.4+j*.3,.7),INK)});
+  const y2=480+lines.length*size*1.45+40;
+  s+=`<g opacity="${pr(t,1.8,.6)}">${L(M,y2-30,M+120,y2-30,INK,2)}${T(M,y2+10,`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,26,MUT)}</g>`;
+  if(o.self)s+=`<g opacity="${pr(t,2.1,.5)}">${R(M,y2+40,170,40,INK)}${T(M+85,y2+69,'公司自述',24,PAPER,'middle')}</g>`;
+  return s}
+
+function brand(t){let s=reveal(W/2,520,'股.tw 研究室',96,pr(t,.1,.8),INK,'middle');
+  s+=L(lerp(W/2,W/2-200,io(pr(t,.5,.7))),570,lerp(W/2,W/2+200,io(pr(t,.5,.7))),570,CORAL,4);
+  s+=`<g opacity="${pr(t,.9,.6)}">${T(W/2,640,'每一句都附年報頁碼',38,MUT,'middle')}</g>`;return s}
+
+function bg(gt){const z=1+.035*(gt/TOTAL);let s=R(0,0,W,H,PAPER);  // 緩慢推近的細格線背景
+  s+=`<g transform="translate(${W/2},${H/2}) scale(${z}) translate(${-W/2},${-H/2})" opacity=".55">`;
+  for(let x=M;x<=W-M;x+=(W-2*M)/6)s+=L(x,140,x,970,SOFT,1);s+='</g>';return s}
+
+function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].d){st+=BEATS[i].d;i++}const b=BEATS[i],t=gt-st;
+  let s=bg(gt);
+  s+=`<g transform="translate(0,${(1-io(pr(t,0,.5)))*16})">`;
+  if(b.k==='title')s+=title(t);else if(b.k==='numbers')s+=numbers(t);else if(b.k==='mix')s+=stacked(t,SB.mix.title||'營收結構',SB.mix);
+  else if(b.k==='regions')s+=ranked(t,SB.regions.title||'銷售地區',SB.regions);else if(b.k==='regions2')s+=ranked(t,SB.regions.title||'銷售地區',SB.regions);
+  else if(b.k==='rel')s+=rel(t);else if(b.k==='what')s+=what(t);else if(b.k==='close')s+=close(t);else s+=brand(t);
+  s+='</g>';
+  // 轉場：一道珊瑚橘光條由左掃到右，光條後方換成下一拍
+  const out=pr(t,b.d-.32,.32),inn=1-pr(t,0,.32);
+  if(out>0&&i<BEATS.length-1){const x=W*io(out);s+=R(0,0,x,H,PAPER)+R(x-18,0,18,H,CORAL)}
+  if(inn>0&&i>0){const x=W*io(1-inn);s+=R(x,0,W-x,H,PAPER)+R(x,0,18,H,CORAL)}
+  s+=frame(gt,i);
+  // 首尾淡入淡出，循環時無縫
+  const f=Math.min(pr(gt,0,.35),1-pr(gt,TOTAL-.45,.45)); if(f<1)s+=R(0,0,W,H,PAPER,`opacity="${1-f}"`);
+  document.getElementById('sv').innerHTML=s}
+window.build=build;window.render=render;window.ready=document.fonts.load('40px "RixingSong"');
+</script></body></html>
