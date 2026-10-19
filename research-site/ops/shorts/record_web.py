@@ -1,7 +1,7 @@
 """Record the web cover video (1:1, ~13 s, silent, loops) from storyboard/{ticker}.json with web.html.
 
   py record_web.py stills 2330 1 3 6 9 12      -> stills/web_2330_t001.0.png ...
-  py record_web.py video 2330 [2330 ...]       -> out/web/{ticker}.mp4 (720x720 H.264, no audio, faststart)
+  py record_web.py video 2330 [2330 ...]       -> out/web/{ticker}.mp4 (1080x1080 H.264 from 2160 px frames, no audio, faststart)
 
 The industry label uses the corrected class (data/industry-corrections.csv via the catalog), not the
 storyboard's original folder.
@@ -36,7 +36,7 @@ def storyboard(t):
 
 def open_stage(p, t):
     b = p.chromium.launch(channel='chrome')
-    pg = b.new_page(viewport={'width': 1080, 'height': 1080})
+    pg = b.new_page(viewport={'width': 1080, 'height': 1080}, device_scale_factor=2)   # 2160 px supersampling
     pg.goto(STAGE)
     pg.evaluate('window.ready')
     total = pg.evaluate('sb => build(sb)', storyboard(t))
@@ -58,14 +58,14 @@ def video(t):
     out = HERE / 'out' / 'web'
     out.mkdir(parents=True, exist_ok=True)
     dst = out / f'{t}.mp4'
-    ff = subprocess.Popen([FFMPEG, '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS), '-c:v', 'mjpeg',
-                           '-i', '-', '-vf', 'scale=720:720:flags=lanczos', '-c:v', 'libx264', '-preset', 'slow', '-crf', '27',
+    ff = subprocess.Popen([FFMPEG, '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS), '-c:v', 'png',
+                           '-i', '-', '-vf', 'scale=1080:1080:flags=lanczos', '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-tune', 'animation',
                            '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-an', str(dst)], stdin=subprocess.PIPE)
     with sync_playwright() as p:
         b, pg, total = open_stage(p, t)
         for f in range(int(total * FPS)):
             pg.evaluate(f'render({f / FPS})')
-            ff.stdin.write(pg.screenshot(type='jpeg', quality=90))
+            ff.stdin.write(pg.screenshot(type='png'))
         b.close()
     ff.stdin.close()
     ff.wait()

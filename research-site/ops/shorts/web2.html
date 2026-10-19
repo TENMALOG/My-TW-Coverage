@@ -45,13 +45,13 @@ function build(sb){SB=sb;CLIP=0;BEATS=[{k:'title',d:3.8}];
   BEATS.push({k:'brand',d:2.6});TOTAL=BEATS.reduce((s,b)=>s+b.d,0);return TOTAL}
 
 function frame(gt,i){// 固定框：頂端品牌列＋分隔線、底部出處列＋進度刻度
-  let s=`<g opacity="${cl(gt/.6)}">`+T(M,92,'股.tw 研究室',28,INK)+T(W-M,92,`${SB.ticker}　${SB.name}`,28,MUT,'end')+'</g>';
-  s+=L(M,116,lerp(M,W-M,io(pr(gt,.1,.9))),116,INK,2);
+  let s=`<g opacity="${cl(gt/.6)}">`+T(M,92,'股.tw 研究室',30,INK)+T(W-M,92,`${SB.ticker}　${SB.name}`,30,MUT,'end')+'</g>';
+  s+=L(M,116,lerp(M,W-M,io(pr(gt,.1,.9))),116,INK,2.5);
   const n=BEATS.length,gw=(W-2*M-8*(n-1))/n;
   for(let j=0;j<n;j++){const x=M+j*(gw+8);s+=R(x,1018,gw,4,j<i?INK:j===i?CORAL:LINE)}
   return s}
-function foot(t,s){return `<g opacity="${pr(t,.8,.5)}">${T(M,990,s,24,MUT)}</g>`}
-function head(t,title,sub){let s=reveal(M,214,title,44,pr(t,.15,.6),INK);if(sub)s+=`<g opacity="${pr(t,.5,.5)}">${T(M,262,sub,26,MUT)}</g>`;
+function foot(t,s){return `<g opacity="${pr(t,.8,.5)}">${T(M,990,s,28,MUT)}</g>`}
+function head(t,title,sub){let s=reveal(M,214,title,44,pr(t,.15,.6),INK);if(sub)s+=`<g opacity="${pr(t,.5,.5)}">${T(M,262,sub,28,MUT)}</g>`;
   return s+L(M,290,lerp(M,W-M,io(pr(t,.3,.8))),290,LINE,2)}
 
 function title(t){let s='';const sb=SB;
@@ -75,7 +75,7 @@ function numbers(t){const f=FIN,n=f.ys.length,last=n-1;let s=head(t,'營運數�
     s+=`<g opacity="${k}">${T(x,400,c.lab,32,MUT)}</g>`;
     const vs=c.fmtv(c.val*run),vsize=fit(vs+c.unit,88,cw-30);
     s+=`<g opacity="${k}">${T(x,505,vs,vsize,c.hi?CORAL:INK)}${T(x+tw(vs,vsize)+8,505,c.unit,vsize*.42,MUT)}</g>`;
-    if(c.sub)s+=`<g opacity="${pr(t,1.6+j*.2,.5)}">${T(x,555,c.sub,26,MUT)}</g>`});
+    if(c.sub)s+=`<g opacity="${pr(t,1.6+j*.2,.5)}">${T(x,555,c.sub,28,MUT)}</g>`});
   if(n>1){const mx=Math.max(...f.rev);f.ys.forEach((y,j)=>{const yy=680+j*112,k=ex(pr(t,1.8+j*.3,1.1)),w=(W-2*M-220)*f.rev[j]/mx*k;
       s+=`<g opacity="${pr(t,1.8+j*.3,.3)}">${T(M,yy+46,y,32,MUT)}${R(M+90,yy,w,66,j===n-1?CORAL:INK)}${T(M+90+w+14,yy+46,fmt(f.rev[j]*k)+' 億',30,INK)}</g>`})}
   return s+foot(t,'資料：公開資訊觀測站 綜合損益表彙總')}
@@ -98,7 +98,7 @@ function ranked(t,ttl,obj){const it=obj.items.slice(0,5),mx=Math.max(...it.map(x
 
 function rel(t){const rs=SB.relations.slice(0,5);let s=head(t,'往來對象','其他上市櫃公司年報明確點名');
   rs.forEach((r,j)=>{const y=410+j*116,k=pr(t,.6+j*.22,.5);if(k<=0)return;
-    s+=`<g opacity="${k}" transform="translate(${(1-ex(k))*40},0)">${R(M,y-30,92,40,r.side==='customer'?CORAL:INK)}${T(M+46,y-1,r.side==='customer'?'客戶':'供應商',24,r.side==='customer'?INK:PAPER,'middle')}${T(M+120,y,r.name,fit(r.name,42,360),INK)}${r.label?T(W-M,y,r.label,fit(r.label,26,440),MUT,'end'):''}</g>`;
+    s+=`<g opacity="${k}" transform="translate(${(1-ex(k))*40},0)">${R(M,y-30,92,40,r.side==='customer'?CORAL:INK)}${T(M+46,y-1,r.side==='customer'?'客戶':'供應商',26,r.side==='customer'?INK:PAPER,'middle')}${T(M+120,y,r.name,fit(r.name,42,360),INK)}${r.label?T(W-M,y,r.label,fit(r.label,28,440),MUT,'end'):''}</g>`;
     s+=L(M,y+40,W-M,y+40,LINE,1.5)});
   return s+foot(t,'資料：上市櫃公司年報，逐筆查核')}
 
@@ -111,8 +111,8 @@ function close(t){const o=SB.hook||SB.cards[0];let s=reveal(M,330,'一句話記�
   lines.forEach((l,j)=>{const y=480+j*(size*1.45),hk=io(pr(t,.9+j*.35,.7));
     s+=R(M-8,y-size*.42,(tw(l,size)+16)*hk,size*.5,CORAL,'opacity=".85"');s+=reveal(M,y,l,size,pr(t,.4+j*.3,.7),INK)});
   const y2=480+lines.length*size*1.45+40;
-  s+=`<g opacity="${pr(t,1.8,.6)}">${L(M,y2-30,M+120,y2-30,INK,2)}${T(M,y2+10,`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,26,MUT)}</g>`;
-  if(o.self)s+=`<g opacity="${pr(t,2.1,.5)}">${R(M,y2+40,170,40,INK)}${T(M+85,y2+69,'公司自述',24,PAPER,'middle')}</g>`;
+  s+=`<g opacity="${pr(t,1.8,.6)}">${L(M,y2-30,M+120,y2-30,INK,2)}${T(M,y2+10,`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,fit(`${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜${page(o.facts)}`,28,W-2*M),MUT)}</g>`;
+  if(o.self)s+=`<g opacity="${pr(t,2.1,.5)}">${R(M,y2+40,170,40,INK)}${T(M+85,y2+69,'公司自述',26,PAPER,'middle')}</g>`;
   return s}
 
 function brand(t){let s=reveal(W/2,520,'股.tw 研究室',96,pr(t,.1,.8),INK,'middle');
