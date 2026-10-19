@@ -124,10 +124,10 @@ function bg(gt){const z=1+.035*(gt/TOTAL);let s=R(0,0,W,H,PAPER);  // 緩慢推�
   s+=`<g transform="translate(${W/2},${H/2}) scale(${z}) translate(${-W/2},${-H/2})" opacity=".55">`;
   for(let x=M;x<=W-M;x+=(W-2*M)/6)s+=L(x,140,x,970,SOFT,1);s+='</g>';return s}
 
-function outer(gt){// 正方形以外：只在 Shorts 看得到的上、下區。品牌「股.tw」只在最後的品牌畫面出現（董事長 2026-10-20）
+function outer(gt,k){// 正方形以外：只在 Shorts 看得到的上、下區。品牌「股.tw」只在最後的品牌畫面出現（董事長 2026-10-20）
   let s=`<g opacity="${cl(gt/.6)}">`+T(M,226,'年報查核',46,INK)+'</g>';
   s+=L(M,252,lerp(M,W-M,io(pr(gt,.1,.9))),252,INK,3);
-  s+=`<g opacity="${cl(gt/.8)}">`+T(M,1420,'每一句都附年報頁碼',30,MUT)+'</g>';
+  if(k!=='brand')s+=`<g opacity="${cl(gt/.8)}">`+T(M,1420,'每一句都附年報頁碼',30,MUT)+'</g>';   // 品牌畫面已有同一句，不重複
   return s}
 
 function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].d){st+=BEATS[i].d;i++}const b=BEATS[i],t=gt-st;
@@ -143,7 +143,7 @@ function render(gt){CLIP=0;let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].
   const out=pr(t,b.d-.35,.35),inn=1-pr(t,0,.35);
   if(out>0&&i<BEATS.length-1)s+=R(0,0,W,FH,PAPER,`opacity="${io(out)}"`);
   if(inn>0&&i>0)s+=R(0,0,W,FH,PAPER,`opacity="${io(inn)}"`);
-  s+=outer(gt)+`<g transform="translate(0,${OY})">`+frame(gt,i)+'</g>';
+  s+=outer(gt,b.k)+`<g transform="translate(0,${OY})">`+frame(gt,i)+'</g>';
   const f=Math.min(pr(gt,0,.35),1-pr(gt,TOTAL-.45,.45)); if(f<1)s+=R(0,0,W,FH,PAPER,`opacity="${1-f}"`);
   document.getElementById('sv').innerHTML=s}
 
