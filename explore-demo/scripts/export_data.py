@@ -11,6 +11,7 @@ Every number shown by the demo comes from these records, and every card carries 
 """
 import csv
 import json
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -24,6 +25,14 @@ def main():
     cat = list(csv.DictReader(open(SITE / 'catalog/release-scope-companies.csv', encoding='utf-8-sig')))
     basic = {json.loads(l)['ticker']: json.loads(l) for l in open(SITE / 'data/basic-data.jsonl', encoding='utf-8')}
     fixes = {r['ticker']: r for r in csv.DictReader(open(SITE / 'data/industry-corrections.csv', encoding='utf-8-sig'))}
+    # YouTube video ids filled in after upload (ticker,youtube_id); pages embed the upload, else show the poster
+    yt = {r['ticker']: r['youtube_id'].strip() for r in csv.DictReader(open(SITE / 'data/youtube-ids.csv', encoding='utf-8-sig'))
+          if r.get('youtube_id', '').strip()}
+    posters = ROOT / 'research-site/ops/shorts/out/master'
+    pub = ROOT / 'explore-demo/public/poster'
+    pub.mkdir(parents=True, exist_ok=True)
+    for f in posters.glob('*_poster.jpg'):
+        shutil.copy2(f, pub / f.name.replace('_poster', ''))
     comps, inds = [], {}
     for r in cat:
         tk = r['ticker']
@@ -55,6 +64,7 @@ def main():
             'hook': sb.get('hook'), 'what': sb.get('what'), 'mix': sb.get('mix'), 'regions': sb.get('regions'),
             'cards': sb.get('cards') or [], 'tags': sb.get('tags') or [],
             'fin': sb.get('fin') or {}, 'relations': sb.get('relations') or [], 'sources': sources,
+            'youtube_id': yt.get(tk),
             # every verified fact (PASS, not rejected) for the 「年報重點全文」 section and the search index
             'facts': [{'id': f['id'], 'field': f['field'], 'statement': f['statement'], 'page': pages[f['id']].get('page')}
                       for f in base['facts'] if f['id'] in pages],

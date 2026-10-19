@@ -108,12 +108,19 @@ function share(data) {
   });
 }
 
-function cover() {
-  const v = document.querySelector('video.cover');
-  if (!v) return;
-  // 只在畫面內播放；使用者設定「減少動態效果」時不自動播放
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; return; }
-  new IntersectionObserver(([e]) => (e.isIntersecting ? v.play().catch(() => {}) : v.pause()), { threshold: 0.25 }).observe(v);
+function youtube() {
+  // 點了才載入 YouTube（隱私強化模式 youtube-nocookie.com）：沒點之前不連 YouTube、不設 cookie
+  const box = document.querySelector('figure.yt');
+  const id = box?.dataset.yt;
+  if (!id) return;
+  box.querySelector('.ytplay').addEventListener('click', () => {
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0`;
+    f.title = box.querySelector('img')?.alt || 'YouTube';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    box.replaceChildren(f);
+  });
 }
 
 export function initCompany() {
@@ -124,5 +131,5 @@ export function initCompany() {
   sources(data);
   watchlist(data.ticker);
   share(data);
-  cover();
+  youtube();
 }

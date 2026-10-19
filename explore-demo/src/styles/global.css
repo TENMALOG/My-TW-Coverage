@@ -77,3 +77,12 @@ dialog.player .pbar { display: flex; gap: 10px; }
 video.cover { display: block; width: 100%; max-width: 520px; aspect-ratio: 1 / 1; margin: 18px auto 0;
   object-fit: cover; object-position: 50% 33.333%;
   border: 2.5px solid var(--fg); border-radius: 22px; box-shadow: 6px 6px 0 var(--shadow); background: #F2EFE8; }
+
+/* 內嵌 YouTube：直式 9:16，像一支手機螢幕置中；點了才載入播放器 */
+figure.yt { position: relative; width: min(360px, 100%); aspect-ratio: 9 / 16; margin: 18px auto 0; overflow: hidden;
+  border: 2.5px solid var(--fg); border-radius: 22px; box-shadow: 6px 6px 0 var(--shadow); background: #F2EFE8; }
+figure.yt img, figure.yt iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: cover; }
+figure.yt .ytplay, figure.yt .ytsoon { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); white-space: nowrap;
+  border: 2.5px solid #181715; border-radius: 999px; padding: 10px 18px; font: inherit; font-weight: 900; box-shadow: 4px 4px 0 #181715; }
+figure.yt .ytplay { background: #FF573F; color: #181715; cursor: pointer; }
+figure.yt .ytsoon { background: #ffffff; color: #181715; font-size: 14px; }

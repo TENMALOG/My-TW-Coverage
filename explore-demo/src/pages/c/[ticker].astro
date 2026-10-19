@@ -9,7 +9,7 @@ export function getStaticPaths() {
 }
 const { c } = Astro.props;
 const known = new Set(companies.map((x) => x.ticker));
-const hasCover = fs.existsSync(`public/video/${c.ticker}-cover.mp4`);
+const hasPoster = fs.existsSync(`public/poster/${c.ticker}.jpg`);
 const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
 const yoy = years.length >= 2 ? (rev[1] / rev[0] - 1) * 100 : null;
@@ -25,9 +25,13 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
 ---
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article">
   <div data-pagefind-body>
-  {hasCover && (
-    <video class="cover" src={`/video/${c.ticker}-cover.mp4`} poster={`/video/${c.ticker}-cover.jpg`} muted loop playsinline autoplay preload="auto"
-      aria-label={`${c.name} 公司速覽動態封面（無聲）`} data-pagefind-ignore></video>
+  {(c.youtube_id || hasPoster) && (
+    <figure class="yt" data-yt={c.youtube_id || ''} data-pagefind-ignore>
+      {hasPoster && <img src={`/poster/${c.ticker}.jpg`} alt={`${c.name} 公司速覽影片封面`} loading="eager" />}
+      {c.youtube_id
+        ? <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 播放 24 秒速覽</button>
+        : <span class="ytsoon">影片即將上架</span>}
+    </figure>
   )}
   <section class="card">
     <span class="kicker num">{c.ticker}</span>
