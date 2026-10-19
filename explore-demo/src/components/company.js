@@ -108,6 +108,14 @@ function share(data) {
   });
 }
 
+function cover() {
+  const v = document.querySelector('video.cover');
+  if (!v) return;
+  // 只在畫面內播放；使用者設定「減少動態效果」時不自動播放
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; return; }
+  new IntersectionObserver(([e]) => (e.isIntersecting ? v.play().catch(() => {}) : v.pause()), { threshold: 0.25 }).observe(v);
+}
+
 export function initCompany() {
   const data = JSON.parse(document.getElementById('cdata').textContent);
   if (data.mix) mount('mix', () => mixOption(data.mix));
@@ -116,4 +124,5 @@ export function initCompany() {
   sources(data);
   watchlist(data.ticker);
   share(data);
+  cover();
 }

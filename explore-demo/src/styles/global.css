@@ -62,3 +62,16 @@ dialog.sheet blockquote { margin: 8px 0; padding: 8px 12px; border-left: 4px sol
 /* 進場動畫：捲到畫面才浮現（尊重「減少動態效果」設定） */
 .reveal { opacity: 0; transform: translateY(28px) rotate(-1deg); }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+/* 直式影片播放器：點了才開，9:16 置中、預設靜音（不在卡片牆自動出現） */
+dialog.player { border: 0; padding: 0; background: transparent; max-width: none; max-height: none;
+  width: 100vw; height: 100dvh; margin: 0; display: none; }
+dialog.player[open] { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; }
+dialog.player::backdrop { background: #181715ee; }
+dialog.player video { height: min(78dvh, calc((100vw - 32px) * 16 / 9)); aspect-ratio: 9 / 16; width: auto;
+  border-radius: 20px; border: 2.5px solid #f2efe8; background: #000; }
+dialog.player .pbar { display: flex; gap: 10px; }
+
+/* 網頁版動態封面：1:1、無聲循環，貼紙卡片風格 */
+video.cover { display: block; width: 100%; max-width: 520px; aspect-ratio: 1 / 1; margin: 18px auto 0;
+  border: 2.5px solid var(--fg); border-radius: 22px; box-shadow: 6px 6px 0 var(--shadow); background: #F2EFE8; }

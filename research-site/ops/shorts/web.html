@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><title>web cover</title>
+<style>
+  @font-face{font-family:"RixingSong";src:url("file:///C:/Users/Neo%20Pegasus/AppData/Local/Microsoft/Windows/Fonts/rixingsong-1.0-semibold.otf") format("opentype");font-weight:100 900}
+  *{font-synthesis:none}
+  html,body{margin:0;width:1080px;height:1080px;overflow:hidden;background:#F2EFE8;font-family:"RixingSong","Noto Sans TC",serif}
+  svg{position:absolute;left:0;top:0}
+</style></head>
+<body><svg id="sv" width="1080" height="1080" viewBox="0 0 1080 1080"></svg>
+<script>
+// 網頁版動態封面（1:1、約 13 秒、無聲、首尾相接可循環）：三拍——公司與一句話、一張圖落地、品牌收尾。
+// 只用 storyboard 裡已查核的內容（hook／mix／regions／fin／what），不新增任何文字主張。
+const W=1080,H=1080, PAPER='#F2EFE8', INK='#181715', CORAL='#FF573F', CORAL2='#FFD3CA', PAPER2='#E4DFD3', MUT='#6f6a60', WHITE='#ffffff';
+const cl=x=>Math.max(0,Math.min(1,x)), lerp=(a,b,k)=>a+(b-a)*k, pr=(t,a,d)=>cl((t-a)/d);
+const E={bounce:t=>{const n=7.5625,d=2.75;if(t<1/d)return n*t*t;if(t<2/d)return n*(t-=1.5/d)*t+.75;if(t<2.5/d)return n*(t-=2.25/d)*t+.9375;return n*(t-=2.625/d)*t+.984375},
+  o:t=>1-Math.pow(1-t,3), back:t=>{const c=2.2;return 1+(c+1)*Math.pow(t-1,3)+c*Math.pow(t-1,2)}};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const txt=(x,y,s,size,fill,anchor,extra)=>`<text x="${x}" y="${y}" font-size="${size}" fill="${fill||INK}" text-anchor="${anchor||'start'}" ${extra||''}>${esc(s)}</text>`;
+const rr=(x,y,w,h,r,fill,extra)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${fill}" ${extra||''}/>`;
+const stk=(x,y,w,h,fill,r)=>rr(x+9,y+9,w,h,r,INK)+rr(x,y,w,h,r,fill,`stroke="${INK}" stroke-width="6"`);
+const pop=k=>E.back(cl(k)), tilt=(k,d)=>lerp(d*3,d,E.o(cl(k)));
+function textW(s,size){let w=0;for(const ch of String(s))w+=/[\x00-\xff]/.test(ch)?size*.55:size;return w}
+function wrap(s,size,maxw){const n=Math.ceil(textW(s,size)/maxw);maxw=Math.min(maxw,textW(s,size)/n+size*1.5);const out=[];let cur='';for(const ch of String(s)){if(textW(cur+ch,size)>maxw&&cur){out.push(cur);cur=ch}else cur+=ch}if(cur)out.push(cur);return out}
+function sticker(x,y,label,k,fill,col,size,rot){if(k<=0)return '';const w=textW(label,size)+size*1.4,h=size*1.9;
+  return `<g transform="translate(${x},${y}) rotate(${tilt(k,rot==null?-3:rot)}) scale(${pop(k)})">${stk(-w/2,-h/2,w,h,fill||CORAL,h/2)}${txt(0,size*.36,label,size,col||INK,'middle')}</g>`}
+function bg(t){let s=rr(0,0,W,H,0,PAPER);const off=(t*20)%60;for(let y=-60+off;y<H;y+=60)for(let x=-60+off*.5;x<W;x+=60)s+=`<circle cx="${x}" cy="${y}" r="3" fill="${INK}" opacity=".08"/>`;return s}
+const drop=(k)=>(1-E.bounce(cl(k)))*-700;          // 由上方落下、落地回彈
+
+let SB=null, BEATS=[], TOTAL=0;
+function chartBeat(sb){
+  if(sb.mix) return {d:5.6, kind:'mix'};
+  if(sb.regions) return {d:5.2, kind:'regions'};
+  if(Object.keys(sb.fin||{}).length) return {d:5.2, kind:'money'};
+  if(sb.what) return {d:4.6, kind:'what'};
+  return null;
+}
+function build(sb){SB=sb; BEATS=[{d:4.6,kind:'intro'}]; const c=chartBeat(sb); if(c)BEATS.push(c); BEATS.push({d:3.2,kind:'outro'});
+  TOTAL=BEATS.reduce((s,b)=>s+b.d,0); return TOTAL}
+
+function intro(t){const sb=SB;let s='';
+  s+=sticker(W/2,260,sb.ticker,pr(t,.15,.45),CORAL,INK,64,-4);
+  const nm=wrap(sb.name,150,900); nm.forEach((l,i)=>{const k=pr(t,.35+i*.12,1.0);
+    s+=`<g transform="translate(0,${drop(k)})" opacity="${cl(k*4)}">${txt(W/2,490+i*165,l,150,INK,'middle',`stroke="${PAPER}" stroke-width="2"`)}</g>`});
+  const y0=490+(nm.length-1)*165+110;
+  if(sb.industry_zh) s+=sticker(W/2,y0,'#'+sb.industry_zh,pr(t,1.1,.45),WHITE,INK,40,3);
+  if(sb.hook){const hl=wrap(sb.hook.text,58,880);hl.forEach((l,i)=>{const k=pr(t,1.7+i*.18,.5);
+      s+=`<g opacity="${k}" transform="translate(0,${(1-E.o(k))*30})">${txt(W/2,y0+150+i*80,l,58,INK,'middle')}</g>`});
+    const ly=y0+150+(hl.length-1)*80+34, k=E.o(pr(t,2.5,.7));
+    if(k>0)s+=`<line x1="${W/2-280}" y1="${ly}" x2="${lerp(W/2-280,W/2+280,k)}" y2="${ly}" stroke="${CORAL}" stroke-width="14" stroke-linecap="round"/>`}
+  return s}
+
+function mix(t){const it=SB.mix.items,cx=380,cy=600,R=230;let s=sticker(W/2,130,(SB.mix.title||'營收從哪來'),pr(t,0,.45),INK,PAPER,52,-2);
+  const k=Math.pow(pr(t,.5,1.3),2.2), land=E.bounce(pr(t,.5,1.6));
+  const cols=[CORAL,INK,PAPER2,CORAL2,MUT,WHITE];let a0=-Math.PI/2;
+  s+=`<g transform="translate(0,${(1-land)*-60})"><circle cx="${cx+9}" cy="${cy+9}" r="${R+10}" fill="${INK}"/><circle cx="${cx}" cy="${cy}" r="${R+10}" fill="${WHITE}" stroke="${INK}" stroke-width="6"/>`;
+  it.forEach(([l,p],i)=>{const a1=a0+2*Math.PI*p/100*k,la=a1-a0>Math.PI?1:0;
+    s+=`<path d="M${cx} ${cy} L${cx+R*Math.cos(a0)} ${cy+R*Math.sin(a0)} A${R} ${R} 0 ${la} 1 ${cx+R*Math.cos(a1)} ${cy+R*Math.sin(a1)} Z" fill="${cols[i]}" stroke="${INK}" stroke-width="4"/>`;a0=a1});
+  s+=`<circle cx="${cx}" cy="${cy}" r="${R*.42}" fill="${PAPER}" stroke="${INK}" stroke-width="5"/></g>`;
+  const [l0,p0]=it[0], kk=pop(pr(t,2.0,.5));                       // 最大項目：大數字
+  if(kk>0) s+=`<g transform="translate(800,560) scale(${kk})">${txt(0,0,p0+'%',150,CORAL,'middle',`stroke="${INK}" stroke-width="7" paint-order="stroke"`)}${txt(0,80,l0,wrap(l0,48,360).length>1?40:48,INK,'middle')}</g>`;
+  it.slice(1,4).forEach(([l,p],i)=>{const q=pr(t,2.6+i*.25,.4);if(q>0)s+=`<g opacity="${q}">${rr(640,700+i*62-26,30,30,8,cols[i+1],`stroke="${INK}" stroke-width="3"`)}${txt(684,700+i*62,`${l} ${p}%`,34,INK)}</g>`});
+  s+=`<g opacity="${pr(t,1.4,.5)}">${txt(W/2,965,`${SB.mix.year} 年度｜${SB.mix.basis||''}`,30,MUT,'middle')}</g>`;
+  return s}
+
+function bars(t,title,items,unit,foot,hi){let s=sticker(W/2,130,title,pr(t,0,.45),INK,PAPER,52,-2);const mx=Math.max(...items.map(x=>x[1]));
+  items.slice(0,4).forEach(([l,v],i)=>{const y=300+i*150,k=E.bounce(pr(t,.5+i*.3,1)),w=Math.max(30,700*v/mx*k);
+    s+=`<g transform="translate(150,${y})">${txt(0,0,l,44,INK)}${rr(9,26,w,82,20,INK)}${rr(0,17,w,82,20,i===hi?CORAL:WHITE,`stroke="${INK}" stroke-width="5"`)}${k>.98?txt(w+20,76,v+unit,44,INK):''}</g>`});
+  return s+`<g opacity="${pr(t,1.4,.5)}">${txt(W/2,965,foot,30,MUT,'middle')}</g>`}
+
+function what(t){let s=sticker(W/2,150,'在做什麼？',pr(t,0,.45),INK,PAPER,52,-2);
+  SB.what.lines.forEach((l,i)=>{s+=sticker(W/2,380+i*190,l,pr(t,.5+i*.5,.45),i==1?CORAL:WHITE,INK,60,i%2?3:-3)});return s}
+
+function outro(t){let s=sticker(W/2,430,'股.tw 研究室',pr(t,.1,.5),CORAL,INK,96,2);
+  s+=sticker(W/2,640,'每一句都附年報頁碼',pr(t,.6,.5),WHITE,INK,52,-2);return s}
+
+function render(gt){let i=0,st=0;while(i<BEATS.length-1&&gt>=st+BEATS[i].d){st+=BEATS[i].d;i++}const b=BEATS[i],t=gt-st;
+  let s=bg(gt);
+  if(b.kind==='intro')s+=intro(t);
+  else if(b.kind==='mix')s+=mix(t);
+  else if(b.kind==='regions')s+=bars(t,SB.regions.title||'賣到哪裡',SB.regions.items,'%',`${SB.regions.year} 年度｜${SB.regions.basis||''}`,0);
+  else if(b.kind==='money'){const ys=Object.keys(SB.fin).sort();s+=bars(t,'營收（億元）',ys.map(y=>[y,Math.round(SB.fin[y].revenue_k/1e5)]),' 億','公開資訊觀測站｜綜合損益表彙總',ys.length-1)}
+  else if(b.kind==='what')s+=what(t);
+  else s+=outro(t);
+  // 頁腳出處（固定）
+  s+=txt(W/2,1040,`資料：${SB.legal_name||SB.name} ${SB.source&&SB.source.fy||''} 年度年報｜股.tw 研究室`,26,MUT,'middle');
+  // 拍與拍之間淡入淡出；最後 0.45 秒淡回空白紙面，使首尾相接可無縫循環
+  const f=Math.min(pr(t,0,.25),1-pr(t,b.d-.3,.3)); if(f<1)s+=rr(0,0,W,H,0,PAPER,`opacity="${1-f}"`);
+  document.getElementById('sv').innerHTML=s}
+window.build=build;window.render=render;window.ready=document.fonts.load('40px "RixingSong"');
+</script></body></html>

@@ -9,7 +9,7 @@ export function getStaticPaths() {
 }
 const { c } = Astro.props;
 const known = new Set(companies.map((x) => x.ticker));
-const hasVideo = fs.existsSync(`public/video/${c.ticker}.mp4`);
+const hasCover = fs.existsSync(`public/video/${c.ticker}-cover.mp4`);
 const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
 const yoy = years.length >= 2 ? (rev[1] / rev[0] - 1) * 100 : null;
@@ -25,6 +25,10 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
 ---
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article">
   <div data-pagefind-body>
+  {hasCover && (
+    <video class="cover" src={`/video/${c.ticker}-cover.mp4`} poster={`/video/${c.ticker}-cover.jpg`} muted loop playsinline autoplay preload="auto"
+      aria-label={`${c.name} 動態封面（無聲）`} data-pagefind-ignore></video>
+  )}
   <section class="card">
     <span class="kicker num">{c.ticker}</span>
     <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0;line-height:1.15" data-pagefind-meta="title">{c.name}</h1>
@@ -48,13 +52,6 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
     </section>
   )}
 
-  {hasVideo && (
-    <section class="card reveal" style="padding:10px">
-      <span class="kicker" style="margin:6px 8px">45 秒看懂</span>
-      <video src={`/video/${c.ticker}.mp4`} controls playsinline preload="metadata"
-        style="width:100%;max-height:70vh;border-radius:14px;background:#000"></video>
-    </section>
-  )}
 
   {c.what && (
     <section class="card reveal">
@@ -138,6 +135,7 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
   </p>
 
   </div>
+
 
   <dialog class="sheet" id="sheet"><div id="sheet-body"></div>
     <form method="dialog"><button class="iconbtn" style="margin-top:12px">關閉</button></form></dialog>
