@@ -353,7 +353,7 @@ def render_page(row: dict, *, fin: dict | None, sentences: list[dict], company_c
         L.append(f'- **證交所產業別**：{md_escape(mops)}（公司在公開資訊觀測站登記的產業別；'
                  f'本研究的產業分類依年報所載主要業務判斷，兩者不一定相同）{src}')
     else:
-        L.append(f'- **證交所產業別**：查無（公開資訊觀測站顯示公司已停止公開發行）{src}')
+        L.append(f'- **證交所產業別**：查無（公開資訊觀測站顯示「公開發行公司不繼續公開發行」）{src}')
     if doc:
         L.append(f'- **公司全名**：{md_escape(doc["legal_name"])}'
                  f'{notes.add(fact_note(doc, None))}')

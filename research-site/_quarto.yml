@@ -2068,6 +2068,11 @@ format:
     toc: true
     number-sections: true
     css: styles.css
+    grid:                 # 加寬正文：1366px 筆電上正文由約 750px 增為約 900px（董事長 2026-10-19：頁面需左右拉卷軸）
+      sidebar-width: 240px
+      body-width: 900px
+      margin-width: 200px
+      gutter-width: 1.25rem
   typst:
     mainfont: "Microsoft JhengHei"
     fontsize: 10pt

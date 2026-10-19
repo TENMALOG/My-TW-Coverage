@@ -39,7 +39,7 @@ def main():
         counts[tier] += 1
         trs.append(f'<tr data-tier="{tier}"><td>{tk}</td><td>{html.escape(r["company"])}</td>'
                    f'<td>{html.escape(ZH[r["industry_folder"]])}</td>'
-                   f'<td>{html.escape(mops_industry(tk)[0] or "已停止公開發行")}</td><td>{tier}</td><td>{status}</td></tr>')
+                   f'<td>{html.escape(mops_industry(tk)[0] or "不繼續公開發行")}</td><td>{tier}</td><td>{status}</td></tr>')
     page = f'''---
 title: "公司索引"
 ---

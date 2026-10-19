@@ -11,6 +11,7 @@ Writes research-site/errata/:
 Every row is backed by a verified annual-report fact id or a recorded review verdict; nothing is inferred.
 """
 import csv
+import re
 import json
 from collections import Counter
 from pathlib import Path
@@ -59,11 +60,12 @@ def names(cat):
 
 def classification():
     p = SITE / 'data/industry-corrections.csv'
-    zh = {r['industry_folder']: r['name_zh'] for r in csv.DictReader(open(SITE / 'data/industry-names.csv', encoding='utf-8-sig'))}
-    rows = [[r['ticker'], r['company'], f"{zh.get(r['original_folder'], '')}（{r['original_folder']}）",
-             f"{zh.get(r['corrected_folder'], '')}（{r['corrected_folder']}）", r['reason'], r['facts'].replace(';', '、')]
+    zh = {r['industry_folder']: r['name_zh'].rstrip('?？') for r in csv.DictReader(open(SITE / 'data/industry-names.csv', encoding='utf-8-sig'))}
+    rows = [[r['ticker'], r['company'], zh.get(r['original_folder'], ''), r['original_folder'],
+             zh.get(r['corrected_folder'], ''), r['corrected_folder'], r['reason'], r['facts'].replace(';', '、')]
             for r in csv.DictReader(open(p, encoding='utf-8-sig'))]
-    return write('classification.csv', ['股票代號', '公司', '原專案分類', '更正分類', '理由', '依據的年報事實編號'], rows)
+    return write('classification.csv', ['股票代號', '公司', '原專案分類', '原專案分類（英文）', '更正分類', '更正分類（英文）',
+                                         '理由', '依據的年報事實編號'], rows)
 
 
 def claims():
@@ -82,8 +84,8 @@ def claims():
 
 def site_page(n_names, n_cls, n_claims, stats):
     """appendices/errata.qmd: the readable errata on the site (tables for names and classes, CSV downloads)."""
-    def table(name, link_col=1):
-        rows = list(csv.reader(open(OUT / name, encoding='utf-8-sig')))
+    def table(name, link_col=1, drop=()):
+        rows = [[c for i, c in enumerate(r) if i not in drop] for r in csv.reader(open(OUT / name, encoding='utf-8-sig'))]
         head, body = rows[0], rows[1:]
         out = ['| ' + ' | '.join(head) + ' |', '|' + '---|' * len(head)]
         for r in body:
@@ -104,7 +106,7 @@ def site_page(n_names, n_cls, n_claims, stats):
          '', '## 產業分類 {#sec-errata-classes}', '',
          '判定標準：年報明載的主要業務或最大營收部門明確不屬於原分類，且有明顯更貼切的分類才列入；兩個相鄰分類都說得通、'
          '業務橫跨多業或缺少營收占比者，一律維持原分類。依據欄為年報事實編號，可在各公司頁的註腳回查頁碼。', ''] + \
-        table('classification.csv') + [
+        [re.sub(r'、(\d{4})-AR-', '、', l) for l in table('classification.csv', drop=(3, 5))] + [
          '', '## 高風險敘述 {#sec-errata-claims}', '',
          '原報告中風險最高的敘述（排名或市占、客戶與供應商關係、沿革與組織變更等）逐句以一手資料重查，原句結果如下：', '',
          '| 原句查核結果 | 句數 |', '|---|---|'] + [f'| {k} | {v} |' for k, v in stats.most_common()] + [

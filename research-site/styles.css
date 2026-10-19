@@ -47,10 +47,18 @@ a.footnote-ref { text-decoration: none; color: var(--link-hover); font-weight: 7
 .aa-DetachedSearchButtonIcon, .aa-SubmitIcon { color: var(--orange) !important; }
 mark.search-match, .aa-ItemContentTitle mark { background: var(--orange); color: var(--ink); }
 
-/* 表格：細線、數字等寬；在窄螢幕內自行橫向捲動，不撐開整頁 */
-main table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; background: transparent; }
-main table th, main table td { white-space: nowrap; border-color: var(--line) !important; font-variant-numeric: tabular-nums; }
-main table td:last-child, main table th:last-child { white-space: normal; min-width: 12em; }
+/* 表格：細線、數字等寬；文字欄自動換行，表格縮進正文寬度內，不需左右拉卷軸 */
+main table { width: 100%; max-width: 100%; border-collapse: collapse; background: transparent; }
+main table th, main table td { white-space: normal; overflow-wrap: break-word; word-break: normal; vertical-align: top;
+  border-color: var(--line) !important; font-variant-numeric: tabular-nums; }
+main table td:first-child, main table th:first-child,
+main table td[style*="right"], main table th[style*="right"],
+main table td > a:only-child { white-space: nowrap; }   /* 代號、數字與公司名稱不折行 */
+/* 手機：欄位太多時仍可在表格內左右滑動，不撐開整頁 */
+@media (max-width: 767.98px) {
+  main table { display: block; overflow-x: auto; }
+  main table th, main table td { min-width: 4.5em; }
+}
 main table thead th { border-bottom: 1px solid var(--ink) !important; font-weight: 700; background: transparent; }
 .table, table { --bs-table-bg: transparent; --bs-table-striped-bg: var(--soft); --bs-table-hover-bg: #18171508; }
 
@@ -70,3 +78,9 @@ hr { border-color: var(--line); opacity: 1; }
 
 /* 關係圖、章節編號 */
 .header-section-number { color: var(--orange); }
+
+/* 不撐開整頁：正文欄可縮、關係圖在自己的框內左右滑動、長網址可斷行 */
+main, main.content, #quarto-document-content { min-width: 0; }
+.relgraph { max-width: min(100%, calc(100vw - 2.5rem)); overflow-x: auto; }
+a.uri, .footnotes a { overflow-wrap: anywhere; word-break: break-all; }
+.footnotes li, .footnotes p, main p, main li { overflow-wrap: anywhere; }

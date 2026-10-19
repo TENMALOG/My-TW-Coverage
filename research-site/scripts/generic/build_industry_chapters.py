@@ -107,7 +107,7 @@ def render_chapter(folder: str, rows: list[dict], *, names: dict, fins: dict, ve
         gm = fmt_pct(y.get('gross_margin_pct')) if y else '—'
         n = sum(1 for s in verified.get(tk, []) if public_citations(s))
         star = '＊' if tk in corrected else ''
-        mops = mops_industry(tk)[0] or '已停止公開發行'
+        mops = mops_industry(tk)[0] or '不繼續公開發行'
         L.append(f'| {tk} | [{md_escape(name)}](../companies/{tk}.qmd){star} | {md_escape(mops)} | {rev} | {gm} | {n} |')
     L.append('')
 
