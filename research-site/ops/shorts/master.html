@@ -29,8 +29,20 @@ function reveal(x,y,s,size,k,fill,anchor){if(k<=0)return '';const w=tw(s,size)+8
   return `<clipPath id="${id}"><rect x="${x0-4}" y="${y-size*1.05}" width="${w*ex(k)}" height="${size*1.4}"/></clipPath>`+
     `<g clip-path="url(#${id})"><g transform="translate(0,${(1-ex(k))*size*.35})">${T(x,y,s,size,fill,anchor)}</g></g>`}
 function fit(s,size,maxw){const w=tw(s,size);return w>maxw?Math.floor(size*maxw/w):size}
-function wrap(s,size,maxw){const out=[];let cur='';for(const ch of String(s)){if(tw(cur+ch,size)>maxw&&cur){out.push(cur);cur=ch}else cur+=ch}if(cur)out.push(cur);
-  if(out.length>1){const n=out.length,per=Math.ceil([...String(s)].length/n);const o2=[];let a=[...String(s)];while(a.length){o2.push(a.splice(0,per).join(''))}return o2}return out}
+// 斷行：英數字與數字（如 88.29%、AI、CoWoS）視為一個單位不拆開；優先在空格／標點處換行，其次才在中文字之間；各行寬度盡量平均
+function units(s){return String(s).match(/[A-Za-z0-9][A-Za-z0-9.,%+\-\/]*|\s+|./gu)||[]}
+function wrap(s,size,maxw){const u=units(s);if(tw(s,size)<=maxw)return [String(s)];
+  const soft=x=>/^[\s，、。：；！？]$/.test(x);
+  // 逐行：在不超過 maxw 的前提下，於「接近剩餘平均寬度」的位置換行；空格／標點處給予大幅加分
+  const out=[];let i=0;
+  while(i<u.length){let rest=u.slice(i).join('');if(tw(rest,size)<=maxw){out.push(rest.trim());break}
+    const linesLeft=Math.ceil(tw(rest,size)/maxw),target=tw(rest,size)/linesLeft;let best=-1,bestScore=1e9,w='';
+    for(let j=i;j<u.length;j++){w+=u[j];const wd=tw(w,size);if(wd>maxw)break;
+      const nextSoft=j+1<u.length&&soft(u[j+1]),hereSoft=soft(u[j]);
+      const score=Math.abs(wd-target)-(nextSoft||hereSoft?size*3:0);
+      if(score<bestScore){bestScore=score;best=j}}
+    if(best<i)best=i;out.push(u.slice(i,best+1).join('').trim());i=best+1;while(i<u.length&&/^\s+$/.test(u[i]))i++}
+  return out}
 const fmt=v=>Math.round(v).toLocaleString('en-US');
 const pct=(v,k)=>{const d=(String(v).split('.')[1]||'').length;return (v*k).toFixed(d)};
 
@@ -87,8 +99,8 @@ function stacked(t,ttl,obj){const it=obj.items;let s=head(t,ttl,`${obj.year} 年
   const bw=W-2*M,y=570;let x=M;s+=R(M,y,bw,96,SOFT);
   it.forEach(([l,p],j)=>{const k=io(pr(t,1.2+j*.28,.5)),w=bw*p/100*k;s+=R(x,y,w,96,SEG[j%SEG.length],j>=4?`stroke="${INK}" stroke-width="1.5"`:'');x+=bw*p/100});
   s+=L(M,y+96,M+bw,y+96,INK,2);
-  it.slice(1,6).forEach(([l,p],j)=>{const k=pr(t,1.8+j*.2,.45);if(k<=0)return;const col=j%2,row=Math.floor(j/2),xx=M+col*(bw/2),yy=760+row*78;
-    s+=`<g opacity="${k}">${R(xx,yy-24,22,22,SEG[(j+1)%SEG.length],`stroke="${INK}" stroke-width="1.5"`)}${T(xx+36,yy-4,l,fit(l,34,bw/2-150),INK)}${T(xx+bw/2-40,yy-4,p+'%',34,INK,'end')}</g>`});
+  it.slice(1,6).forEach(([l,p],j)=>{const k=pr(t,1.8+j*.2,.45);if(k<=0)return;const one=it.length<=3,col=one?0:j%2,row=one?j:Math.floor(j/2),cw=one?bw:bw/2,xx=M+col*cw,yy=760+row*78;   // 項目少時單欄排列
+    s+=`<g opacity="${k}">${R(xx,yy-24,22,22,SEG[(j+1)%SEG.length],`stroke="${INK}" stroke-width="1.5"`)}${T(xx+36,yy-4,l,fit(l,34,cw-150),INK)}${T(xx+cw-40,yy-4,p+'%',34,INK,'end')}</g>`});
   return s+foot(t,`資料：${SB.source&&SB.source.fy||''} 年度年報｜${page(obj.facts)}`)}
 
 function ranked(t,ttl,obj){const it=obj.items.slice(0,5),mx=Math.max(...it.map(x=>x[1]));let s=head(t,ttl,`${obj.year} 年度｜${obj.basis||''}`);
