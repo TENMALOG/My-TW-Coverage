@@ -30,7 +30,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from industries import (AERO_TICKERS, ASSESSMENT, FACTS_DIR, SITE, claims, companies, display_name,  # noqa: E402
-                        fmt_k, fmt_pct, industry_names, load_financials, load_verified, md_escape, roc_year)
+                        fmt_k, fmt_pct, industry_names, load_financials, load_verified, md_escape, mops_industry,
+                        MOPS_BASIC_URL, roc_year)
 
 OUTDIR = SITE / 'chapters/companies'
 LOG = SITE / '_generated/company-pages-build-log.jsonl'
@@ -346,6 +347,13 @@ def render_page(row: dict, *, fin: dict | None, sentences: list[dict], company_c
                  f'{md_escape(fix["reason"])}）{ev}')
     else:
         L.append(f'- **產業分類**：{md_escape(industry_zh)}（原專案分類 {md_escape(row["industry_folder"])}）')
+    mops, cap = mops_industry(tk)
+    src = notes.add(f'公開資訊觀測站「公司基本資料」（t05st03），擷取日期 {cap}。<{MOPS_BASIC_URL}>') if cap else ''
+    if mops:
+        L.append(f'- **證交所產業別**：{md_escape(mops)}（公司在公開資訊觀測站登記的產業別；'
+                 f'本研究的產業分類依年報所載主要業務判斷，兩者不一定相同）{src}')
+    else:
+        L.append(f'- **證交所產業別**：查無（公開資訊觀測站顯示公司已停止公開發行）{src}')
     if doc:
         L.append(f'- **公司全名**：{md_escape(doc["legal_name"])}'
                  f'{notes.add(fact_note(doc, None))}')

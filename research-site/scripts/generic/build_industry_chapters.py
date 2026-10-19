@@ -16,8 +16,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from industries import (AERO_FOLDER, ASSESSMENT, FACTS_DIR, SITE, claims, companies, fmt_m,  # noqa: E402
-                        fmt_pct, industry_names, load_financials, load_verified, md_escape, ordered_industries)
-from build_company_pages_all import Notes, page_name, public_citations, sentence_note  # noqa: E402
+                        fmt_pct, industry_names, load_financials, load_verified, md_escape, mops_industry,
+                        ordered_industries)
+from build_company_pages_all import Notes, industry_corrections, page_name, public_citations, sentence_note  # noqa: E402
 
 OUTDIR = SITE / 'chapters/industries'
 ANALYSIS = OUTDIR / '_analysis'
@@ -79,11 +80,15 @@ def render_chapter(folder: str, rows: list[dict], *, names: dict, fins: dict, ve
     zh, slug = info['name_zh'], info['slug']
     notes = Notes()
     rows = sorted(rows, key=lambda r: r['ticker'])
+    corrected = industry_corrections()
+    n_in = sum(1 for r in rows if r['ticker'] in corrected)
     fin_mark = notes.add('公開資訊觀測站「合併綜合損益表彙總（t163sb04，第四季＝全年度）」，民國 113、114 年度；'
                          '單位新臺幣仟元，本章換算為百萬元（四捨五入）。<https://mopsov.twse.com.tw/mops/web/ajax_t163sb04>')
     L = [f'---\ntitle: "{zh}"\n---\n', f'<!-- 由 {GENERATOR} 產生；請勿手動修改。 -->\n',
          '## 研究範圍與資料截止 {.unnumbered}\n',
-         f'本章涵蓋原專案「{md_escape(folder)}」分類下的 {len(rows)} 家上市櫃公司，資料截止日 {ASSESSMENT}。'
+         f'本章涵蓋「{md_escape(zh)}」產業的 {len(rows)} 家上市櫃公司（原專案英文分類「{md_escape(folder)}」），資料截止日 {ASSESSMENT}。'
+         + (f'其中 {n_in} 家的產業分類由本研究依年報更正後移入，於下表以＊標示，更正理由見各公司頁與原專案勘誤表。' if n_in else '')
+         + 
          '本章及各公司研究頁只使用三類資料：公開資訊觀測站的綜合損益表彙總、經逐條查核通過的敘述，以及經逐字核對的年報事實；'
          '未通過查核的原報告敘述只計入研究限制，不列入正文。\n']
     if (analysis_dir / f'{slug}.qmd').exists():
@@ -101,7 +106,9 @@ def render_chapter(folder: str, rows: list[dict], *, names: dict, fins: dict, ve
         rev = fmt_m(y['items_k']['營業收入']) if y else '—'
         gm = fmt_pct(y.get('gross_margin_pct')) if y else '—'
         n = sum(1 for s in verified.get(tk, []) if public_citations(s))
-        L.append(f'| {tk} | [{md_escape(name)}](../companies/{tk}.qmd) | {rev} | {gm} | {n} |')
+        star = '＊' if tk in corrected else ''
+        mops = mops_industry(tk)[0] or '已停止公開發行'
+        L.append(f'| {tk} | [{md_escape(name)}](../companies/{tk}.qmd){star} | {md_escape(mops)} | {rev} | {gm} | {n} |')
     L.append('')
 
     # statistics

@@ -99,6 +99,22 @@ _PERSON_AFTER_TITLE = re.compile(
 _PERSON_HONORIFIC = re.compile(r'[一-鿿]{2,3}(先生|女士|小姐)')
 
 
+_BASIC: dict | None = None
+
+
+def mops_industry(ticker: str) -> tuple[str, str]:
+    """(證交所產業別 as registered on MOPS 公司基本資料, capture date YYYY-MM-DD) from data/basic-data.jsonl.
+    The first item is '' when the company has ceased public offering (no registration shown)."""
+    global _BASIC
+    if _BASIC is None:
+        _BASIC = {d['ticker']: d for d in jsonl(SITE / 'data/basic-data.jsonl')}
+    d = _BASIC.get(ticker) or {}
+    return d.get('industry_mops') or '', ((d.get('source') or {}).get('captured_at') or '')[:10]
+
+
+MOPS_BASIC_URL = 'https://mopsov.twse.com.tw/mops/web/t05st03'
+
+
 def strip_person_names(text: str) -> str:
     """Natural-person names are never published (chairman rule), not even masked ones."""
     t = _PERSON_AFTER_TITLE.sub(r'\1', text)

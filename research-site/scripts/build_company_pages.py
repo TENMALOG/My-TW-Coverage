@@ -17,6 +17,15 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent / 'generic'))
+from industries import MOPS_BASIC_URL, mops_industry  # noqa: E402
+
+
+def mops_line(tk: str) -> str:
+    mops, cap = mops_industry(tk)
+    return (f'- **證交所產業別**：{mops or "查無"}（公司在公開資訊觀測站「公司基本資料」登記的產業別，擷取日期 {cap}；'
+            f'<{MOPS_BASIC_URL}>）。')
+
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / 'research-site'
 DATA = SITE / 'data/aerospace-defense'
@@ -119,6 +128,7 @@ def main():
              f'<!-- 由 research-site/scripts/build_company_pages.py 產生；請勿手動修改。 -->\n',
              '## 研究範圍 {.unnumbered}\n',
              f'- **公司**：{full}（股票代號 {tk}），本研究歸入「{seg}」次領域。',
+             mops_line(tk),
              f'- **資料截止**：主要依據 2025 年度年報（{meta["filename"]}），查核評估基準日 {ASSESSMENT}。',
              '- **研究深度**：T2 深入研究頁。本頁只列已驗證的事實與年報數據；未通過查核的原報告敘述不列入正文。\n']
         # financial summary

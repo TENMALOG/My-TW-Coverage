@@ -10,10 +10,17 @@ from __future__ import annotations
 import csv
 import html
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / 'generic'))
+from industries import industry_names, mops_industry  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / 'research-site'
 T2 = {p.stem for p in (SITE / 'chapters/companies').glob('*.qmd')}
+
+
+ZH = {k: v['name_zh'] for k, v in industry_names().items()}
 
 
 def main():
@@ -31,7 +38,8 @@ def main():
             tier, status = 'T0', '尚未深入研究'
         counts[tier] += 1
         trs.append(f'<tr data-tier="{tier}"><td>{tk}</td><td>{html.escape(r["company"])}</td>'
-                   f'<td>{html.escape(r["industry_folder"])}</td><td>{tier}</td><td>{status}</td></tr>')
+                   f'<td>{html.escape(ZH[r["industry_folder"]])}</td>'
+                   f'<td>{html.escape(mops_industry(tk)[0] or "已停止公開發行")}</td><td>{tier}</td><td>{status}</td></tr>')
     page = f'''---
 title: "公司索引"
 ---
@@ -52,7 +60,7 @@ title: "公司索引"
 <label style="margin-left:1em"><input id="ci-t2" type="checkbox"> 只顯示有研究頁的公司</label>
 <p id="ci-count" style="margin:.5em 0"></p>
 <div style="overflow-x:auto"><table class="table table-sm" id="ci-table">
-<thead><tr><th>代號</th><th>公司</th><th>產業（原專案分類）</th><th>等級</th><th>研究狀態</th></tr></thead>
+<thead><tr><th>代號</th><th>公司</th><th>產業（本研究分類）</th><th>證交所產業別</th><th>等級</th><th>研究狀態</th></tr></thead>
 <tbody>
 {chr(10).join(trs)}
 </tbody></table></div>
