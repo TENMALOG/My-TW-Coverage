@@ -2,8 +2,13 @@
 project:
   type: book
   output-dir: _site
+  resources:
+    - errata/*.csv
 
 lang: zh-Hant
+language:
+  crossref-apx-prefix: "附錄"
+  section-title-appendices: "附錄"
 
 book:
   title: "臺灣上市櫃產業研究（年報查核版）"
@@ -27,6 +32,7 @@ book:
     - part: "電子零組件"
       chapters:
         - chapters/industries/electronic-components.qmd
+        - chapters/companies/1336.qmd
         - chapters/companies/1582.qmd
         - chapters/companies/1815.qmd
         - chapters/companies/2308.qmd
@@ -47,9 +53,11 @@ book:
         - chapters/companies/2402.qmd
         - chapters/companies/2409.qmd
         - chapters/companies/2413.qmd
+        - chapters/companies/2421.qmd
         - chapters/companies/2428.qmd
         - chapters/companies/2429.qmd
         - chapters/companies/2431.qmd
+        - chapters/companies/2438.qmd
         - chapters/companies/2459.qmd
         - chapters/companies/2460.qmd
         - chapters/companies/2466.qmd
@@ -77,7 +85,6 @@ book:
         - chapters/companies/3090.qmd
         - chapters/companies/3093.qmd
         - chapters/companies/3095.qmd
-        - chapters/companies/3115.qmd
         - chapters/companies/3117.qmd
         - chapters/companies/3128.qmd
         - chapters/companies/3149.qmd
@@ -103,16 +110,18 @@ book:
         - chapters/companies/3357.qmd
         - chapters/companies/3362.qmd
         - chapters/companies/3390.qmd
-        - chapters/companies/3416.qmd
+        - chapters/companies/3406.qmd
         - chapters/companies/3426.qmd
         - chapters/companies/3441.qmd
-        - chapters/companies/3455.qmd
         - chapters/companies/3481.qmd
+        - chapters/companies/3483.qmd
         - chapters/companies/3492.qmd
+        - chapters/companies/3508.qmd
         - chapters/companies/3511.qmd
         - chapters/companies/3520.qmd
         - chapters/companies/3523.qmd
         - chapters/companies/3526.qmd
+        - chapters/companies/3531.qmd
         - chapters/companies/3533.qmd
         - chapters/companies/3543.qmd
         - chapters/companies/3548.qmd
@@ -121,8 +130,8 @@ book:
         - chapters/companies/3593.qmd
         - chapters/companies/3595.qmd
         - chapters/companies/3597.qmd
-        - chapters/companies/3603.qmd
         - chapters/companies/3605.qmd
+        - chapters/companies/3607.qmd
         - chapters/companies/3609.qmd
         - chapters/companies/3615.qmd
         - chapters/companies/3622.qmd
@@ -143,10 +152,8 @@ book:
         - chapters/companies/3714.qmd
         - chapters/companies/3715.qmd
         - chapters/companies/3717.qmd
-        - chapters/companies/4527.qmd
         - chapters/companies/4529.qmd
         - chapters/companies/4554.qmd
-        - chapters/companies/4555.qmd
         - chapters/companies/4573.qmd
         - chapters/companies/4729.qmd
         - chapters/companies/4909.qmd
@@ -170,10 +177,10 @@ book:
         - chapters/companies/5248.qmd
         - chapters/companies/5251.qmd
         - chapters/companies/5254.qmd
+        - chapters/companies/5271.qmd
         - chapters/companies/5284.qmd
         - chapters/companies/5291.qmd
         - chapters/companies/5315.qmd
-        - chapters/companies/5321.qmd
         - chapters/companies/5328.qmd
         - chapters/companies/5345.qmd
         - chapters/companies/5355.qmd
@@ -186,7 +193,6 @@ book:
         - chapters/companies/5464.qmd
         - chapters/companies/5469.qmd
         - chapters/companies/5474.qmd
-        - chapters/companies/5487.qmd
         - chapters/companies/5493.qmd
         - chapters/companies/6108.qmd
         - chapters/companies/6114.qmd
@@ -194,6 +200,8 @@ book:
         - chapters/companies/6120.qmd
         - chapters/companies/6124.qmd
         - chapters/companies/6126.qmd
+        - chapters/companies/6127.qmd
+        - chapters/companies/6134.qmd
         - chapters/companies/6141.qmd
         - chapters/companies/6153.qmd
         - chapters/companies/6155.qmd
@@ -201,6 +209,7 @@ book:
         - chapters/companies/6158.qmd
         - chapters/companies/6165.qmd
         - chapters/companies/6167.qmd
+        - chapters/companies/6173.qmd
         - chapters/companies/6174.qmd
         - chapters/companies/6176.qmd
         - chapters/companies/6185.qmd
@@ -219,10 +228,12 @@ book:
         - chapters/companies/6226.qmd
         - chapters/companies/6230.qmd
         - chapters/companies/6246.qmd
+        - chapters/companies/6266.qmd
         - chapters/companies/6269.qmd
         - chapters/companies/6272.qmd
         - chapters/companies/6274.qmd
         - chapters/companies/6276.qmd
+        - chapters/companies/6278.qmd
         - chapters/companies/6283.qmd
         - chapters/companies/6284.qmd
         - chapters/companies/6405.qmd
@@ -240,29 +251,28 @@ book:
         - chapters/companies/6560.qmd
         - chapters/companies/6577.qmd
         - chapters/companies/6597.qmd
-        - chapters/companies/6609.qmd
+        - chapters/companies/6642.qmd
         - chapters/companies/6651.qmd
         - chapters/companies/6668.qmd
         - chapters/companies/6672.qmd
         - chapters/companies/6673.qmd
         - chapters/companies/6698.qmd
-        - chapters/companies/6732.qmd
         - chapters/companies/6742.qmd
-        - chapters/companies/6756.qmd
         - chapters/companies/6775.qmd
+        - chapters/companies/6787.qmd
         - chapters/companies/6792.qmd
+        - chapters/companies/6805.qmd
         - chapters/companies/6818.qmd
         - chapters/companies/6821.qmd
+        - chapters/companies/6831.qmd
         - chapters/companies/6834.qmd
-        - chapters/companies/6840.qmd
+        - chapters/companies/6835.qmd
         - chapters/companies/6854.qmd
         - chapters/companies/6862.qmd
         - chapters/companies/6863.qmd
         - chapters/companies/6899.qmd
         - chapters/companies/6916.qmd
         - chapters/companies/6924.qmd
-        - chapters/companies/6927.qmd
-        - chapters/companies/6962.qmd
         - chapters/companies/6988.qmd
         - chapters/companies/7419.qmd
         - chapters/companies/7556.qmd
@@ -274,7 +284,6 @@ book:
         - chapters/companies/8049.qmd
         - chapters/companies/8069.qmd
         - chapters/companies/8074.qmd
-        - chapters/companies/8080.qmd
         - chapters/companies/8085.qmd
         - chapters/companies/8103.qmd
         - chapters/companies/8104.qmd
@@ -285,10 +294,13 @@ book:
         - chapters/companies/8155.qmd
         - chapters/companies/8163.qmd
         - chapters/companies/8171.qmd
+        - chapters/companies/8182.qmd
         - chapters/companies/8183.qmd
         - chapters/companies/8213.qmd
         - chapters/companies/8215.qmd
         - chapters/companies/8240.qmd
+        - chapters/companies/8249.qmd
+        - chapters/companies/8289.qmd
         - chapters/companies/8291.qmd
         - chapters/companies/8358.qmd
         - chapters/companies/8499.qmd
@@ -296,6 +308,8 @@ book:
     - part: "半導體"
       chapters:
         - chapters/industries/semiconductors.qmd
+        - chapters/companies/1410.qmd
+        - chapters/companies/2302.qmd
         - chapters/companies/2303.qmd
         - chapters/companies/2329.qmd
         - chapters/companies/2330.qmd
@@ -314,15 +328,18 @@ book:
         - chapters/companies/2449.qmd
         - chapters/companies/2454.qmd
         - chapters/companies/2458.qmd
+        - chapters/companies/2481.qmd
         - chapters/companies/3006.qmd
         - chapters/companies/3014.qmd
         - chapters/companies/3034.qmd
-        - chapters/companies/3073.qmd
+        - chapters/companies/3035.qmd
+        - chapters/companies/3041.qmd
         - chapters/companies/3094.qmd
         - chapters/companies/3105.qmd
         - chapters/companies/3122.qmd
         - chapters/companies/3135.qmd
         - chapters/companies/3141.qmd
+        - chapters/companies/3150.qmd
         - chapters/companies/3169.qmd
         - chapters/companies/3227.qmd
         - chapters/companies/3228.qmd
@@ -344,19 +361,15 @@ book:
         - chapters/companies/3527.qmd
         - chapters/companies/3529.qmd
         - chapters/companies/3530.qmd
-        - chapters/companies/3531.qmd
         - chapters/companies/3545.qmd
         - chapters/companies/3556.qmd
         - chapters/companies/3567.qmd
         - chapters/companies/3581.qmd
-        - chapters/companies/3583.qmd
         - chapters/companies/3588.qmd
         - chapters/companies/3592.qmd
         - chapters/companies/3661.qmd
-        - chapters/companies/3680.qmd
         - chapters/companies/3707.qmd
         - chapters/companies/3711.qmd
-        - chapters/companies/3712.qmd
         - chapters/companies/4919.qmd
         - chapters/companies/4923.qmd
         - chapters/companies/4925.qmd
@@ -367,10 +380,12 @@ book:
         - chapters/companies/4968.qmd
         - chapters/companies/4971.qmd
         - chapters/companies/4979.qmd
+        - chapters/companies/5222.qmd
         - chapters/companies/5236.qmd
         - chapters/companies/5245.qmd
         - chapters/companies/5262.qmd
         - chapters/companies/5269.qmd
+        - chapters/companies/5272.qmd
         - chapters/companies/5274.qmd
         - chapters/companies/5285.qmd
         - chapters/companies/5299.qmd
@@ -378,17 +393,16 @@ book:
         - chapters/companies/5314.qmd
         - chapters/companies/5344.qmd
         - chapters/companies/5347.qmd
+        - chapters/companies/5351.qmd
         - chapters/companies/5425.qmd
         - chapters/companies/5468.qmd
         - chapters/companies/5471.qmd
+        - chapters/companies/5487.qmd
         - chapters/companies/6103.qmd
         - chapters/companies/6104.qmd
-        - chapters/companies/6113.qmd
-        - chapters/companies/6127.qmd
         - chapters/companies/6129.qmd
         - chapters/companies/6138.qmd
         - chapters/companies/6168.qmd
-        - chapters/companies/6198.qmd
         - chapters/companies/6202.qmd
         - chapters/companies/6229.qmd
         - chapters/companies/6233.qmd
@@ -396,7 +410,6 @@ book:
         - chapters/companies/6239.qmd
         - chapters/companies/6243.qmd
         - chapters/companies/6270.qmd
-        - chapters/companies/6278.qmd
         - chapters/companies/6291.qmd
         - chapters/companies/6411.qmd
         - chapters/companies/6415.qmd
@@ -404,43 +417,47 @@ book:
         - chapters/companies/6435.qmd
         - chapters/companies/6441.qmd
         - chapters/companies/6451.qmd
+        - chapters/companies/6462.qmd
+        - chapters/companies/6485.qmd
         - chapters/companies/6488.qmd
         - chapters/companies/6494.qmd
         - chapters/companies/6515.qmd
         - chapters/companies/6525.qmd
         - chapters/companies/6526.qmd
         - chapters/companies/6531.qmd
+        - chapters/companies/6533.qmd
         - chapters/companies/6548.qmd
         - chapters/companies/6552.qmd
         - chapters/companies/6568.qmd
         - chapters/companies/6573.qmd
         - chapters/companies/6588.qmd
-        - chapters/companies/6642.qmd
         - chapters/companies/6643.qmd
         - chapters/companies/6679.qmd
+        - chapters/companies/6684.qmd
         - chapters/companies/6693.qmd
         - chapters/companies/6695.qmd
+        - chapters/companies/6708.qmd
         - chapters/companies/6716.qmd
         - chapters/companies/6719.qmd
         - chapters/companies/6720.qmd
+        - chapters/companies/6732.qmd
         - chapters/companies/6739.qmd
+        - chapters/companies/6756.qmd
         - chapters/companies/6770.qmd
         - chapters/companies/6786.qmd
         - chapters/companies/6789.qmd
         - chapters/companies/6799.qmd
         - chapters/companies/6819.qmd
         - chapters/companies/6921.qmd
-        - chapters/companies/6937.qmd
-        - chapters/companies/7728.qmd
+        - chapters/companies/6927.qmd
+        - chapters/companies/6962.qmd
         - chapters/companies/7815.qmd
         - chapters/companies/8016.qmd
         - chapters/companies/8024.qmd
         - chapters/companies/8040.qmd
+        - chapters/companies/8054.qmd
         - chapters/companies/8081.qmd
-        - chapters/companies/8084.qmd
         - chapters/companies/8086.qmd
-        - chapters/companies/8091.qmd
-        - chapters/companies/8096.qmd
         - chapters/companies/8102.qmd
         - chapters/companies/8112.qmd
         - chapters/companies/8131.qmd
@@ -449,7 +466,6 @@ book:
         - chapters/companies/8227.qmd
         - chapters/companies/8261.qmd
         - chapters/companies/8271.qmd
-        - chapters/companies/8277.qmd
         - chapters/companies/8299.qmd
     - part: "電腦及週邊設備"
       chapters:
@@ -479,7 +495,6 @@ book:
         - chapters/companies/2397.qmd
         - chapters/companies/2399.qmd
         - chapters/companies/2405.qmd
-        - chapters/companies/2414.qmd
         - chapters/companies/2417.qmd
         - chapters/companies/2425.qmd
         - chapters/companies/2432.qmd
@@ -502,12 +517,12 @@ book:
         - chapters/companies/3272.qmd
         - chapters/companies/3324.qmd
         - chapters/companies/3349.qmd
-        - chapters/companies/3406.qmd
+        - chapters/companies/3416.qmd
         - chapters/companies/3434.qmd
         - chapters/companies/3479.qmd
         - chapters/companies/3494.qmd
         - chapters/companies/3515.qmd
-        - chapters/companies/3535.qmd
+        - chapters/companies/3540.qmd
         - chapters/companies/3564.qmd
         - chapters/companies/3594.qmd
         - chapters/companies/3611.qmd
@@ -517,30 +532,26 @@ book:
         - chapters/companies/3701.qmd
         - chapters/companies/3706.qmd
         - chapters/companies/4916.qmd
-        - chapters/companies/4924.qmd
         - chapters/companies/4938.qmd
         - chapters/companies/4967.qmd
         - chapters/companies/4973.qmd
         - chapters/companies/4977.qmd
         - chapters/companies/4987.qmd
         - chapters/companies/5215.qmd
-        - chapters/companies/5271.qmd
         - chapters/companies/5289.qmd
-        - chapters/companies/5310.qmd
         - chapters/companies/5386.qmd
         - chapters/companies/5410.qmd
         - chapters/companies/5465.qmd
         - chapters/companies/6117.qmd
+        - chapters/companies/6150.qmd
         - chapters/companies/6161.qmd
         - chapters/companies/6166.qmd
         - chapters/companies/6188.qmd
         - chapters/companies/6197.qmd
-        - chapters/companies/6199.qmd
         - chapters/companies/6206.qmd
         - chapters/companies/6228.qmd
         - chapters/companies/6277.qmd
         - chapters/companies/6414.qmd
-        - chapters/companies/6485.qmd
         - chapters/companies/6570.qmd
         - chapters/companies/6579.qmd
         - chapters/companies/6591.qmd
@@ -549,7 +560,6 @@ book:
         - chapters/companies/6680.qmd
         - chapters/companies/6737.qmd
         - chapters/companies/6755.qmd
-        - chapters/companies/6805.qmd
         - chapters/companies/6825.qmd
         - chapters/companies/6884.qmd
         - chapters/companies/6922.qmd
@@ -558,7 +568,6 @@ book:
         - chapters/companies/7711.qmd
         - chapters/companies/8032.qmd
         - chapters/companies/8050.qmd
-        - chapters/companies/8054.qmd
         - chapters/companies/8071.qmd
         - chapters/companies/8076.qmd
         - chapters/companies/8088.qmd
@@ -566,12 +575,12 @@ book:
         - chapters/companies/8119.qmd
         - chapters/companies/8210.qmd
         - chapters/companies/8234.qmd
+        - chapters/companies/8277.qmd
         - chapters/companies/8455.qmd
     - part: "專用工業機械"
       chapters:
         - chapters/industries/specialty-industrial-machinery.qmd
         - chapters/companies/1504.qmd
-        - chapters/companies/1513.qmd
         - chapters/companies/1528.qmd
         - chapters/companies/1530.qmd
         - chapters/companies/1531.qmd
@@ -582,10 +591,9 @@ book:
         - chapters/companies/1590.qmd
         - chapters/companies/1595.qmd
         - chapters/companies/2070.qmd
+        - chapters/companies/2114.qmd
         - chapters/companies/2233.qmd
         - chapters/companies/2236.qmd
-        - chapters/companies/2250.qmd
-        - chapters/companies/2421.qmd
         - chapters/companies/2464.qmd
         - chapters/companies/2467.qmd
         - chapters/companies/2476.qmd
@@ -593,23 +601,23 @@ book:
         - chapters/companies/3219.qmd
         - chapters/companies/3284.qmd
         - chapters/companies/3379.qmd
-        - chapters/companies/3402.qmd
         - chapters/companies/3485.qmd
         - chapters/companies/3498.qmd
         - chapters/companies/3518.qmd
         - chapters/companies/3580.qmd
         - chapters/companies/3616.qmd
-        - chapters/companies/4431.qmd
         - chapters/companies/4506.qmd
         - chapters/companies/4510.qmd
         - chapters/companies/4513.qmd
         - chapters/companies/4526.qmd
+        - chapters/companies/4527.qmd
         - chapters/companies/4532.qmd
         - chapters/companies/4533.qmd
         - chapters/companies/4537.qmd
         - chapters/companies/4542.qmd
         - chapters/companies/4544.qmd
         - chapters/companies/4552.qmd
+        - chapters/companies/4555.qmd
         - chapters/companies/4562.qmd
         - chapters/companies/4563.qmd
         - chapters/companies/4565.qmd
@@ -631,6 +639,7 @@ book:
         - chapters/companies/6438.qmd
         - chapters/companies/6603.qmd
         - chapters/companies/6606.qmd
+        - chapters/companies/6609.qmd
         - chapters/companies/6613.qmd
         - chapters/companies/6618.qmd
         - chapters/companies/6639.qmd
@@ -643,41 +652,39 @@ book:
         - chapters/companies/6793.qmd
         - chapters/companies/6812.qmd
         - chapters/companies/6829.qmd
-        - chapters/companies/6831.qmd
         - chapters/companies/6909.qmd
         - chapters/companies/6982.qmd
         - chapters/companies/7730.qmd
         - chapters/companies/7795.qmd
-        - chapters/companies/7828.qmd
         - chapters/companies/8027.qmd
         - chapters/companies/8047.qmd
         - chapters/companies/8092.qmd
         - chapters/companies/8383.qmd
-        - chapters/companies/8421.qmd
         - chapters/companies/8996.qmd
     - part: "電機設備及零件"
       chapters:
         - chapters/industries/electrical-equipment-parts.qmd
         - chapters/companies/1503.qmd
+        - chapters/companies/1513.qmd
         - chapters/companies/1514.qmd
         - chapters/companies/1519.qmd
         - chapters/companies/1529.qmd
         - chapters/companies/1537.qmd
         - chapters/companies/1597.qmd
+        - chapters/companies/1603.qmd
         - chapters/companies/1608.qmd
         - chapters/companies/1609.qmd
         - chapters/companies/1612.qmd
         - chapters/companies/1615.qmd
         - chapters/companies/1616.qmd
         - chapters/companies/1617.qmd
+        - chapters/companies/1618.qmd
         - chapters/companies/1623.qmd
         - chapters/companies/2061.qmd
         - chapters/companies/2420.qmd
-        - chapters/companies/2438.qmd
         - chapters/companies/2440.qmd
         - chapters/companies/2457.qmd
         - chapters/companies/2483.qmd
-        - chapters/companies/2489.qmd
         - chapters/companies/3002.qmd
         - chapters/companies/3003.qmd
         - chapters/companies/3015.qmd
@@ -687,12 +694,10 @@ book:
         - chapters/companies/3078.qmd
         - chapters/companies/3092.qmd
         - chapters/companies/3211.qmd
-        - chapters/companies/3226.qmd
         - chapters/companies/3290.qmd
         - chapters/companies/3308.qmd
         - chapters/companies/3323.qmd
         - chapters/companies/3332.qmd
-        - chapters/companies/3432.qmd
         - chapters/companies/3484.qmd
         - chapters/companies/3501.qmd
         - chapters/companies/3504.qmd
@@ -706,7 +711,6 @@ book:
         - chapters/companies/4576.qmd
         - chapters/companies/4588.qmd
         - chapters/companies/4931.qmd
-        - chapters/companies/5013.qmd
         - chapters/companies/5227.qmd
         - chapters/companies/5488.qmd
         - chapters/companies/6109.qmd
@@ -725,15 +729,13 @@ book:
         - chapters/companies/6781.qmd
         - chapters/companies/6788.qmd
         - chapters/companies/6833.qmd
-        - chapters/companies/6835.qmd
         - chapters/companies/6895.qmd
         - chapters/companies/6940.qmd
-        - chapters/companies/7704.qmd
+        - chapters/companies/7740.qmd
         - chapters/companies/7750.qmd
         - chapters/companies/7788.qmd
         - chapters/companies/8038.qmd
         - chapters/companies/8109.qmd
-        - chapters/companies/8249.qmd
     - part: "通信網路設備"
       chapters:
         - chapters/industries/communication-equipment.qmd
@@ -765,17 +767,13 @@ book:
         - chapters/companies/3694.qmd
         - chapters/companies/3704.qmd
         - chapters/companies/4903.qmd
-        - chapters/companies/4905.qmd
         - chapters/companies/4906.qmd
         - chapters/companies/4908.qmd
         - chapters/companies/4980.qmd
-        - chapters/companies/5348.qmd
         - chapters/companies/5353.qmd
         - chapters/companies/5388.qmd
-        - chapters/companies/6134.qmd
         - chapters/companies/6142.qmd
         - chapters/companies/6143.qmd
-        - chapters/companies/6148.qmd
         - chapters/companies/6152.qmd
         - chapters/companies/6190.qmd
         - chapters/companies/6216.qmd
@@ -793,7 +791,6 @@ book:
         - chapters/companies/6546.qmd
         - chapters/companies/6638.qmd
         - chapters/companies/6674.qmd
-        - chapters/companies/6708.qmd
         - chapters/companies/6715.qmd
         - chapters/companies/6820.qmd
         - chapters/companies/6858.qmd
@@ -807,72 +804,6 @@ book:
         - chapters/companies/8097.qmd
         - chapters/companies/8101.qmd
         - chapters/companies/8176.qmd
-    - part: "半導體設備及材料"
-      chapters:
-        - chapters/industries/semiconductor-equipment-materials.qmd
-        - chapters/companies/2302.qmd
-        - chapters/companies/2338.qmd
-        - chapters/companies/2351.qmd
-        - chapters/companies/2369.qmd
-        - chapters/companies/2441.qmd
-        - chapters/companies/2455.qmd
-        - chapters/companies/2481.qmd
-        - chapters/companies/2493.qmd
-        - chapters/companies/3016.qmd
-        - chapters/companies/3028.qmd
-        - chapters/companies/3035.qmd
-        - chapters/companies/3041.qmd
-        - chapters/companies/3055.qmd
-        - chapters/companies/3081.qmd
-        - chapters/companies/3131.qmd
-        - chapters/companies/3150.qmd
-        - chapters/companies/3178.qmd
-        - chapters/companies/3189.qmd
-        - chapters/companies/3265.qmd
-        - chapters/companies/3413.qmd
-        - chapters/companies/3444.qmd
-        - chapters/companies/3450.qmd
-        - chapters/companies/3467.qmd
-        - chapters/companies/3490.qmd
-        - chapters/companies/3532.qmd
-        - chapters/companies/3551.qmd
-        - chapters/companies/3563.qmd
-        - chapters/companies/4760.qmd
-        - chapters/companies/4991.qmd
-        - chapters/companies/5222.qmd
-        - chapters/companies/5272.qmd
-        - chapters/companies/5351.qmd
-        - chapters/companies/5443.qmd
-        - chapters/companies/5483.qmd
-        - chapters/companies/6147.qmd
-        - chapters/companies/6173.qmd
-        - chapters/companies/6182.qmd
-        - chapters/companies/6218.qmd
-        - chapters/companies/6223.qmd
-        - chapters/companies/6257.qmd
-        - chapters/companies/6261.qmd
-        - chapters/companies/6266.qmd
-        - chapters/companies/6271.qmd
-        - chapters/companies/6425.qmd
-        - chapters/companies/6510.qmd
-        - chapters/companies/6532.qmd
-        - chapters/companies/6533.qmd
-        - chapters/companies/6640.qmd
-        - chapters/companies/6658.qmd
-        - chapters/companies/6682.qmd
-        - chapters/companies/6683.qmd
-        - chapters/companies/6684.qmd
-        - chapters/companies/6735.qmd
-        - chapters/companies/6787.qmd
-        - chapters/companies/6826.qmd
-        - chapters/companies/6830.qmd
-        - chapters/companies/6877.qmd
-        - chapters/companies/6920.qmd
-        - chapters/companies/6953.qmd
-        - chapters/companies/7769.qmd
-        - chapters/companies/8028.qmd
-        - chapters/companies/8064.qmd
-        - chapters/companies/8110.qmd
     - part: "特用化學品"
       chapters:
         - chapters/industries/specialty-chemicals.qmd
@@ -898,7 +829,6 @@ book:
         - chapters/companies/2108.qmd
         - chapters/companies/3388.qmd
         - chapters/companies/3430.qmd
-        - chapters/companies/3508.qmd
         - chapters/companies/3708.qmd
         - chapters/companies/4306.qmd
         - chapters/companies/4702.qmd
@@ -913,6 +843,7 @@ book:
         - chapters/companies/4738.qmd
         - chapters/companies/4739.qmd
         - chapters/companies/4741.qmd
+        - chapters/companies/4749.qmd
         - chapters/companies/4754.qmd
         - chapters/companies/4755.qmd
         - chapters/companies/4763.qmd
@@ -939,6 +870,65 @@ book:
         - chapters/companies/8410.qmd
         - chapters/companies/8431.qmd
         - chapters/companies/8935.qmd
+    - part: "半導體設備及材料"
+      chapters:
+        - chapters/industries/semiconductor-equipment-materials.qmd
+        - chapters/companies/1560.qmd
+        - chapters/companies/2338.qmd
+        - chapters/companies/2351.qmd
+        - chapters/companies/2369.qmd
+        - chapters/companies/2441.qmd
+        - chapters/companies/2455.qmd
+        - chapters/companies/2493.qmd
+        - chapters/companies/3016.qmd
+        - chapters/companies/3055.qmd
+        - chapters/companies/3081.qmd
+        - chapters/companies/3131.qmd
+        - chapters/companies/3178.qmd
+        - chapters/companies/3189.qmd
+        - chapters/companies/3265.qmd
+        - chapters/companies/3413.qmd
+        - chapters/companies/3444.qmd
+        - chapters/companies/3450.qmd
+        - chapters/companies/3467.qmd
+        - chapters/companies/3490.qmd
+        - chapters/companies/3532.qmd
+        - chapters/companies/3551.qmd
+        - chapters/companies/3563.qmd
+        - chapters/companies/3583.qmd
+        - chapters/companies/3680.qmd
+        - chapters/companies/4760.qmd
+        - chapters/companies/4991.qmd
+        - chapters/companies/5443.qmd
+        - chapters/companies/5483.qmd
+        - chapters/companies/6147.qmd
+        - chapters/companies/6182.qmd
+        - chapters/companies/6218.qmd
+        - chapters/companies/6223.qmd
+        - chapters/companies/6257.qmd
+        - chapters/companies/6261.qmd
+        - chapters/companies/6271.qmd
+        - chapters/companies/6425.qmd
+        - chapters/companies/6510.qmd
+        - chapters/companies/6532.qmd
+        - chapters/companies/6640.qmd
+        - chapters/companies/6658.qmd
+        - chapters/companies/6682.qmd
+        - chapters/companies/6683.qmd
+        - chapters/companies/6735.qmd
+        - chapters/companies/6826.qmd
+        - chapters/companies/6830.qmd
+        - chapters/companies/6877.qmd
+        - chapters/companies/6920.qmd
+        - chapters/companies/6937.qmd
+        - chapters/companies/6953.qmd
+        - chapters/companies/7704.qmd
+        - chapters/companies/7769.qmd
+        - chapters/companies/7828.qmd
+        - chapters/companies/8028.qmd
+        - chapters/companies/8064.qmd
+        - chapters/companies/8091.qmd
+        - chapters/companies/8110.qmd
     - part: "紡織製造"
       chapters:
         - chapters/industries/textile-manufacturing.qmd
@@ -948,14 +938,12 @@ book:
         - chapters/companies/1342.qmd
         - chapters/companies/1402.qmd
         - chapters/companies/1409.qmd
-        - chapters/companies/1410.qmd
         - chapters/companies/1413.qmd
         - chapters/companies/1414.qmd
         - chapters/companies/1418.qmd
         - chapters/companies/1419.qmd
         - chapters/companies/1423.qmd
         - chapters/companies/1434.qmd
-        - chapters/companies/1439.qmd
         - chapters/companies/1440.qmd
         - chapters/companies/1441.qmd
         - chapters/companies/1444.qmd
@@ -965,13 +953,11 @@ book:
         - chapters/companies/1449.qmd
         - chapters/companies/1451.qmd
         - chapters/companies/1452.qmd
-        - chapters/companies/1453.qmd
         - chapters/companies/1454.qmd
         - chapters/companies/1455.qmd
         - chapters/companies/1457.qmd
         - chapters/companies/1459.qmd
         - chapters/companies/1460.qmd
-        - chapters/companies/1463.qmd
         - chapters/companies/1464.qmd
         - chapters/companies/1465.qmd
         - chapters/companies/1466.qmd
@@ -1002,11 +988,9 @@ book:
       chapters:
         - chapters/industries/auto-parts.qmd
         - chapters/companies/1319.qmd
-        - chapters/companies/1336.qmd
         - chapters/companies/1338.qmd
         - chapters/companies/1339.qmd
         - chapters/companies/1506.qmd
-        - chapters/companies/1512.qmd
         - chapters/companies/1521.qmd
         - chapters/companies/1522.qmd
         - chapters/companies/1524.qmd
@@ -1021,10 +1005,8 @@ book:
         - chapters/companies/2105.qmd
         - chapters/companies/2106.qmd
         - chapters/companies/2109.qmd
-        - chapters/companies/2114.qmd
         - chapters/companies/2115.qmd
         - chapters/companies/2228.qmd
-        - chapters/companies/2230.qmd
         - chapters/companies/2231.qmd
         - chapters/companies/2235.qmd
         - chapters/companies/2239.qmd
@@ -1033,14 +1015,17 @@ book:
         - chapters/companies/2245.qmd
         - chapters/companies/2248.qmd
         - chapters/companies/2249.qmd
+        - chapters/companies/2250.qmd
         - chapters/companies/2252.qmd
         - chapters/companies/2254.qmd
         - chapters/companies/2255.qmd
         - chapters/companies/2256.qmd
         - chapters/companies/2497.qmd
         - chapters/companies/3162.qmd
+        - chapters/companies/3226.qmd
         - chapters/companies/3346.qmd
         - chapters/companies/3552.qmd
+        - chapters/companies/3603.qmd
         - chapters/companies/3685.qmd
         - chapters/companies/4305.qmd
         - chapters/companies/4528.qmd
@@ -1048,8 +1033,51 @@ book:
         - chapters/companies/4543.qmd
         - chapters/companies/4551.qmd
         - chapters/companies/4557.qmd
-        - chapters/companies/4559.qmd
         - chapters/companies/4581.qmd
+        - chapters/companies/5309.qmd
+    - part: "不動產開發"
+      chapters:
+        - chapters/industries/real-estate-development.qmd
+        - chapters/companies/1436.qmd
+        - chapters/companies/1439.qmd
+        - chapters/companies/1442.qmd
+        - chapters/companies/1453.qmd
+        - chapters/companies/1463.qmd
+        - chapters/companies/1805.qmd
+        - chapters/companies/1808.qmd
+        - chapters/companies/2442.qmd
+        - chapters/companies/2501.qmd
+        - chapters/companies/2505.qmd
+        - chapters/companies/2506.qmd
+        - chapters/companies/2511.qmd
+        - chapters/companies/2524.qmd
+        - chapters/companies/2534.qmd
+        - chapters/companies/2536.qmd
+        - chapters/companies/2537.qmd
+        - chapters/companies/2538.qmd
+        - chapters/companies/2539.qmd
+        - chapters/companies/2542.qmd
+        - chapters/companies/2548.qmd
+        - chapters/companies/2596.qmd
+        - chapters/companies/2718.qmd
+        - chapters/companies/2923.qmd
+        - chapters/companies/3056.qmd
+        - chapters/companies/3188.qmd
+        - chapters/companies/3489.qmd
+        - chapters/companies/4113.qmd
+        - chapters/companies/4907.qmd
+        - chapters/companies/5206.qmd
+        - chapters/companies/5455.qmd
+        - chapters/companies/5508.qmd
+        - chapters/companies/5522.qmd
+        - chapters/companies/5525.qmd
+        - chapters/companies/5534.qmd
+        - chapters/companies/6171.qmd
+        - chapters/companies/6177.qmd
+        - chapters/companies/6186.qmd
+        - chapters/companies/6198.qmd
+        - chapters/companies/6212.qmd
+        - chapters/companies/9906.qmd
     - part: "工程營造"
       chapters:
         - chapters/industries/engineering-construction.qmd
@@ -1068,16 +1096,16 @@ book:
         - chapters/companies/3018.qmd
         - chapters/companies/3052.qmd
         - chapters/companies/3313.qmd
+        - chapters/companies/3402.qmd
         - chapters/companies/3521.qmd
         - chapters/companies/3703.qmd
-        - chapters/companies/4113.qmd
         - chapters/companies/4550.qmd
+        - chapters/companies/5209.qmd
         - chapters/companies/5511.qmd
         - chapters/companies/5515.qmd
         - chapters/companies/5516.qmd
         - chapters/companies/5519.qmd
         - chapters/companies/5521.qmd
-        - chapters/companies/5531.qmd
         - chapters/companies/5536.qmd
         - chapters/companies/5547.qmd
         - chapters/companies/6122.qmd
@@ -1086,10 +1114,10 @@ book:
         - chapters/companies/6691.qmd
         - chapters/companies/6750.qmd
         - chapters/companies/6873.qmd
+        - chapters/companies/6881.qmd
         - chapters/companies/6903.qmd
         - chapters/companies/7590.qmd
         - chapters/companies/8926.qmd
-        - chapters/companies/9906.qmd
         - chapters/companies/9933.qmd
         - chapters/companies/9945.qmd
     - part: "鋼鐵"
@@ -1125,7 +1153,9 @@ book:
         - chapters/companies/2073.qmd
         - chapters/companies/2211.qmd
         - chapters/companies/2221.qmd
+        - chapters/companies/4950.qmd
         - chapters/companies/5009.qmd
+        - chapters/companies/5013.qmd
         - chapters/companies/5014.qmd
         - chapters/companies/5016.qmd
         - chapters/companies/5538.qmd
@@ -1135,12 +1165,12 @@ book:
     - part: "電子及電腦通路"
       chapters:
         - chapters/industries/electronics-computer-distribution.qmd
-        - chapters/companies/1603.qmd
-        - chapters/companies/1618.qmd
         - chapters/companies/2347.qmd
         - chapters/companies/2354.qmd
+        - chapters/companies/2414.qmd
         - chapters/companies/2450.qmd
         - chapters/companies/3010.qmd
+        - chapters/companies/3028.qmd
         - chapters/companies/3033.qmd
         - chapters/companies/3048.qmd
         - chapters/companies/3224.qmd
@@ -1149,16 +1179,15 @@ book:
         - chapters/companies/3312.qmd
         - chapters/companies/3325.qmd
         - chapters/companies/3360.qmd
-        - chapters/companies/3483.qmd
         - chapters/companies/3528.qmd
-        - chapters/companies/3540.qmd
+        - chapters/companies/3686.qmd
         - chapters/companies/3702.qmd
         - chapters/companies/3709.qmd
         - chapters/companies/5434.qmd
+        - chapters/companies/6113.qmd
         - chapters/companies/6118.qmd
         - chapters/companies/6123.qmd
         - chapters/companies/6140.qmd
-        - chapters/companies/6150.qmd
         - chapters/companies/6154.qmd
         - chapters/companies/6189.qmd
         - chapters/companies/6227.qmd
@@ -1166,47 +1195,10 @@ book:
         - chapters/companies/6265.qmd
         - chapters/companies/6761.qmd
         - chapters/companies/6776.qmd
-        - chapters/companies/8067.qmd
         - chapters/companies/8068.qmd
         - chapters/companies/8070.qmd
         - chapters/companies/8072.qmd
-    - part: "不動產開發"
-      chapters:
-        - chapters/industries/real-estate-development.qmd
-        - chapters/companies/1436.qmd
-        - chapters/companies/1442.qmd
-        - chapters/companies/1805.qmd
-        - chapters/companies/1808.qmd
-        - chapters/companies/2442.qmd
-        - chapters/companies/2501.qmd
-        - chapters/companies/2505.qmd
-        - chapters/companies/2506.qmd
-        - chapters/companies/2511.qmd
-        - chapters/companies/2524.qmd
-        - chapters/companies/2534.qmd
-        - chapters/companies/2536.qmd
-        - chapters/companies/2537.qmd
-        - chapters/companies/2538.qmd
-        - chapters/companies/2539.qmd
-        - chapters/companies/2542.qmd
-        - chapters/companies/2548.qmd
-        - chapters/companies/2596.qmd
-        - chapters/companies/2718.qmd
-        - chapters/companies/2923.qmd
-        - chapters/companies/3056.qmd
-        - chapters/companies/3188.qmd
-        - chapters/companies/3489.qmd
-        - chapters/companies/4907.qmd
-        - chapters/companies/5206.qmd
-        - chapters/companies/5455.qmd
-        - chapters/companies/5508.qmd
-        - chapters/companies/5522.qmd
-        - chapters/companies/5525.qmd
-        - chapters/companies/5534.qmd
-        - chapters/companies/6171.qmd
-        - chapters/companies/6177.qmd
-        - chapters/companies/6186.qmd
-        - chapters/companies/6212.qmd
+        - chapters/companies/8096.qmd
     - part: "金屬加工製品"
       chapters:
         - chapters/industries/metal-fabrication.qmd
@@ -1239,13 +1231,42 @@ book:
         - chapters/companies/6859.qmd
         - chapters/companies/7702.qmd
         - chapters/companies/9958.qmd
+    - part: "消費性電子"
+      chapters:
+        - chapters/industries/consumer-electronics.qmd
+        - chapters/companies/2424.qmd
+        - chapters/companies/2439.qmd
+        - chapters/companies/2462.qmd
+        - chapters/companies/2477.qmd
+        - chapters/companies/2488.qmd
+        - chapters/companies/2489.qmd
+        - chapters/companies/2498.qmd
+        - chapters/companies/3024.qmd
+        - chapters/companies/3050.qmd
+        - chapters/companies/3067.qmd
+        - chapters/companies/3296.qmd
+        - chapters/companies/3465.qmd
+        - chapters/companies/3541.qmd
+        - chapters/companies/3669.qmd
+        - chapters/companies/4609.qmd
+        - chapters/companies/4915.qmd
+        - chapters/companies/5225.qmd
+        - chapters/companies/5283.qmd
+        - chapters/companies/5371.qmd
+        - chapters/companies/5489.qmd
+        - chapters/companies/6201.qmd
+        - chapters/companies/6225.qmd
+        - chapters/companies/6275.qmd
+        - chapters/companies/6728.qmd
+        - chapters/companies/6743.qmd
+        - chapters/companies/6784.qmd
+        - chapters/companies/8201.qmd
     - part: "工具及配件"
       chapters:
         - chapters/industries/tools-accessories.qmd
         - chapters/companies/1527.qmd
         - chapters/companies/1538.qmd
         - chapters/companies/1541.qmd
-        - chapters/companies/1560.qmd
         - chapters/companies/1570.qmd
         - chapters/companies/1591.qmd
         - chapters/companies/2022.qmd
@@ -1270,36 +1291,6 @@ book:
         - chapters/companies/8021.qmd
         - chapters/companies/8349.qmd
         - chapters/companies/8415.qmd
-    - part: "消費性電子"
-      chapters:
-        - chapters/industries/consumer-electronics.qmd
-        - chapters/companies/2424.qmd
-        - chapters/companies/2439.qmd
-        - chapters/companies/2462.qmd
-        - chapters/companies/2477.qmd
-        - chapters/companies/2488.qmd
-        - chapters/companies/2498.qmd
-        - chapters/companies/3024.qmd
-        - chapters/companies/3040.qmd
-        - chapters/companies/3050.qmd
-        - chapters/companies/3067.qmd
-        - chapters/companies/3296.qmd
-        - chapters/companies/3465.qmd
-        - chapters/companies/3541.qmd
-        - chapters/companies/3669.qmd
-        - chapters/companies/4609.qmd
-        - chapters/companies/4749.qmd
-        - chapters/companies/4915.qmd
-        - chapters/companies/5225.qmd
-        - chapters/companies/5283.qmd
-        - chapters/companies/5371.qmd
-        - chapters/companies/5489.qmd
-        - chapters/companies/6225.qmd
-        - chapters/companies/6275.qmd
-        - chapters/companies/6728.qmd
-        - chapters/companies/6743.qmd
-        - chapters/companies/6784.qmd
-        - chapters/companies/8201.qmd
     - part: "家具、居家用品及家電"
       chapters:
         - chapters/industries/furnishings-fixtures-appliances.qmd
@@ -1315,9 +1306,7 @@ book:
         - chapters/companies/3516.qmd
         - chapters/companies/4564.qmd
         - chapters/companies/4930.qmd
-        - chapters/companies/4950.qmd
         - chapters/companies/4972.qmd
-        - chapters/companies/6201.qmd
         - chapters/companies/6222.qmd
         - chapters/companies/6584.qmd
         - chapters/companies/6616.qmd
@@ -1330,30 +1319,32 @@ book:
         - chapters/companies/8482.qmd
         - chapters/companies/9911.qmd
         - chapters/companies/9935.qmd
-    - part: "基礎架構軟體"
+    - part: "資訊服務"
       chapters:
-        - chapters/industries/software-infrastructure.qmd
-        - chapters/companies/3555.qmd
-        - chapters/companies/5212.qmd
-        - chapters/companies/6035.qmd
-        - chapters/companies/6462.qmd
-        - chapters/companies/6565.qmd
-        - chapters/companies/6689.qmd
-        - chapters/companies/6690.qmd
-        - chapters/companies/6741.qmd
-        - chapters/companies/6752.qmd
-        - chapters/companies/6763.qmd
-        - chapters/companies/6791.qmd
-        - chapters/companies/6870.qmd
-        - chapters/companies/6878.qmd
-        - chapters/companies/6925.qmd
-        - chapters/companies/7547.qmd
-        - chapters/companies/7721.qmd
-        - chapters/companies/7722.qmd
-        - chapters/companies/7749.qmd
-        - chapters/companies/7819.qmd
-        - chapters/companies/7823.qmd
-        - chapters/companies/8298.qmd
+        - chapters/industries/information-technology-services.qmd
+        - chapters/companies/1416.qmd
+        - chapters/companies/2427.qmd
+        - chapters/companies/2453.qmd
+        - chapters/companies/2468.qmd
+        - chapters/companies/2471.qmd
+        - chapters/companies/3147.qmd
+        - chapters/companies/3158.qmd
+        - chapters/companies/4953.qmd
+        - chapters/companies/5310.qmd
+        - chapters/companies/6112.qmd
+        - chapters/companies/6148.qmd
+        - chapters/companies/6163.qmd
+        - chapters/companies/6214.qmd
+        - chapters/companies/6221.qmd
+        - chapters/companies/6240.qmd
+        - chapters/companies/6614.qmd
+        - chapters/companies/6697.qmd
+        - chapters/companies/6751.qmd
+        - chapters/companies/6811.qmd
+        - chapters/companies/6906.qmd
+        - chapters/companies/6997.qmd
+        - chapters/companies/7765.qmd
+        - chapters/companies/8099.qmd
     - part: "休閒用品"
       chapters:
         - chapters/industries/leisure.qmd
@@ -1365,6 +1356,7 @@ book:
         - chapters/companies/1736.qmd
         - chapters/companies/2762.qmd
         - chapters/companies/4536.qmd
+        - chapters/companies/5348.qmd
         - chapters/companies/6670.qmd
         - chapters/companies/6804.qmd
         - chapters/companies/8033.qmd
@@ -1377,50 +1369,74 @@ book:
         - chapters/companies/8938.qmd
         - chapters/companies/9914.qmd
         - chapters/companies/9921.qmd
-    - part: "資訊服務"
+    - part: "應用軟體"
       chapters:
-        - chapters/industries/information-technology-services.qmd
-        - chapters/companies/1416.qmd
-        - chapters/companies/2453.qmd
-        - chapters/companies/2468.qmd
-        - chapters/companies/2471.qmd
-        - chapters/companies/3147.qmd
-        - chapters/companies/3158.qmd
-        - chapters/companies/4953.qmd
-        - chapters/companies/5209.qmd
-        - chapters/companies/6112.qmd
-        - chapters/companies/6214.qmd
-        - chapters/companies/6221.qmd
-        - chapters/companies/6614.qmd
-        - chapters/companies/6697.qmd
-        - chapters/companies/6751.qmd
-        - chapters/companies/6811.qmd
-        - chapters/companies/6906.qmd
-        - chapters/companies/6997.qmd
-        - chapters/companies/7765.qmd
-        - chapters/companies/8099.qmd
-    - part: "不動產服務"
+        - chapters/industries/software-application.qmd
+        - chapters/companies/2640.qmd
+        - chapters/companies/3570.qmd
+        - chapters/companies/3632.qmd
+        - chapters/companies/5201.qmd
+        - chapters/companies/5202.qmd
+        - chapters/companies/5203.qmd
+        - chapters/companies/5210.qmd
+        - chapters/companies/5211.qmd
+        - chapters/companies/5403.qmd
+        - chapters/companies/6231.qmd
+        - chapters/companies/6486.qmd
+        - chapters/companies/6516.qmd
+        - chapters/companies/6536.qmd
+        - chapters/companies/6590.qmd
+        - chapters/companies/6738.qmd
+        - chapters/companies/6874.qmd
+        - chapters/companies/6882.qmd
+        - chapters/companies/6902.qmd
+        - chapters/companies/8284.qmd
+        - chapters/companies/8416.qmd
+        - chapters/companies/8932.qmd
+    - part: "基礎架構軟體"
       chapters:
-        - chapters/industries/real-estate-services.qmd
-        - chapters/companies/1316.qmd
-        - chapters/companies/1437.qmd
-        - chapters/companies/1456.qmd
-        - chapters/companies/2348.qmd
-        - chapters/companies/2509.qmd
-        - chapters/companies/2527.qmd
-        - chapters/companies/2528.qmd
-        - chapters/companies/2540.qmd
-        - chapters/companies/3266.qmd
-        - chapters/companies/3512.qmd
-        - chapters/companies/4416.qmd
-        - chapters/companies/5213.qmd
-        - chapters/companies/5514.qmd
-        - chapters/companies/5523.qmd
-        - chapters/companies/5529.qmd
-        - chapters/companies/5533.qmd
-        - chapters/companies/6264.qmd
-        - chapters/companies/9902.qmd
-        - chapters/companies/9940.qmd
+        - chapters/industries/software-infrastructure.qmd
+        - chapters/companies/3555.qmd
+        - chapters/companies/5212.qmd
+        - chapters/companies/6236.qmd
+        - chapters/companies/6565.qmd
+        - chapters/companies/6689.qmd
+        - chapters/companies/6690.qmd
+        - chapters/companies/6741.qmd
+        - chapters/companies/6752.qmd
+        - chapters/companies/6763.qmd
+        - chapters/companies/6791.qmd
+        - chapters/companies/6870.qmd
+        - chapters/companies/6925.qmd
+        - chapters/companies/7547.qmd
+        - chapters/companies/7721.qmd
+        - chapters/companies/7722.qmd
+        - chapters/companies/7749.qmd
+        - chapters/companies/7819.qmd
+        - chapters/companies/7823.qmd
+        - chapters/companies/8298.qmd
+    - part: "廢棄物處理"
+      chapters:
+        - chapters/industries/waste-management.qmd
+        - chapters/companies/5205.qmd
+        - chapters/companies/6581.qmd
+        - chapters/companies/6624.qmd
+        - chapters/companies/6771.qmd
+        - chapters/companies/6803.qmd
+        - chapters/companies/6887.qmd
+        - chapters/companies/6923.qmd
+        - chapters/companies/6947.qmd
+        - chapters/companies/6951.qmd
+        - chapters/companies/6969.qmd
+        - chapters/companies/7507.qmd
+        - chapters/companies/7578.qmd
+        - chapters/companies/8080.qmd
+        - chapters/companies/8341.qmd
+        - chapters/companies/8390.qmd
+        - chapters/companies/8422.qmd
+        - chapters/companies/8440.qmd
+        - chapters/companies/8473.qmd
+        - chapters/companies/8476.qmd
     - part: "化學工業"
       chapters:
         - chapters/industries/chemicals.qmd
@@ -1442,27 +1458,27 @@ book:
         - chapters/companies/6729.qmd
         - chapters/companies/8435.qmd
         - chapters/companies/8438.qmd
-    - part: "應用軟體"
+    - part: "不動產服務"
       chapters:
-        - chapters/industries/software-application.qmd
-        - chapters/companies/3570.qmd
-        - chapters/companies/3632.qmd
-        - chapters/companies/5201.qmd
-        - chapters/companies/5202.qmd
-        - chapters/companies/5203.qmd
-        - chapters/companies/5205.qmd
-        - chapters/companies/5210.qmd
-        - chapters/companies/5211.qmd
-        - chapters/companies/5403.qmd
-        - chapters/companies/6231.qmd
-        - chapters/companies/6486.qmd
-        - chapters/companies/6590.qmd
-        - chapters/companies/6738.qmd
-        - chapters/companies/6874.qmd
-        - chapters/companies/6882.qmd
-        - chapters/companies/6902.qmd
-        - chapters/companies/8284.qmd
-        - chapters/companies/8416.qmd
+        - chapters/industries/real-estate-services.qmd
+        - chapters/companies/1437.qmd
+        - chapters/companies/1456.qmd
+        - chapters/companies/2348.qmd
+        - chapters/companies/2509.qmd
+        - chapters/companies/2527.qmd
+        - chapters/companies/2528.qmd
+        - chapters/companies/2540.qmd
+        - chapters/companies/2724.qmd
+        - chapters/companies/3266.qmd
+        - chapters/companies/3512.qmd
+        - chapters/companies/4416.qmd
+        - chapters/companies/5213.qmd
+        - chapters/companies/5514.qmd
+        - chapters/companies/5523.qmd
+        - chapters/companies/5529.qmd
+        - chapters/companies/5533.qmd
+        - chapters/companies/6264.qmd
+        - chapters/companies/9940.qmd
     - part: "銀行（區域型）"
       chapters:
         - chapters/industries/banks-regional.qmd
@@ -1482,25 +1498,6 @@ book:
         - chapters/companies/5863.qmd
         - chapters/companies/5876.qmd
         - chapters/companies/5880.qmd
-    - part: "廢棄物處理"
-      chapters:
-        - chapters/industries/waste-management.qmd
-        - chapters/companies/6581.qmd
-        - chapters/companies/6624.qmd
-        - chapters/companies/6771.qmd
-        - chapters/companies/6803.qmd
-        - chapters/companies/6887.qmd
-        - chapters/companies/6923.qmd
-        - chapters/companies/6947.qmd
-        - chapters/companies/6951.qmd
-        - chapters/companies/7507.qmd
-        - chapters/companies/7578.qmd
-        - chapters/companies/8341.qmd
-        - chapters/companies/8390.qmd
-        - chapters/companies/8422.qmd
-        - chapters/companies/8440.qmd
-        - chapters/companies/8473.qmd
-        - chapters/companies/8476.qmd
     - part: "建材"
       chapters:
         - chapters/industries/building-materials.qmd
@@ -1518,23 +1515,6 @@ book:
         - chapters/companies/8424.qmd
         - chapters/companies/8463.qmd
         - chapters/companies/9930.qmd
-    - part: "事務設備及用品"
-      chapters:
-        - chapters/industries/business-equipment-supplies.qmd
-        - chapters/companies/1324.qmd
-        - chapters/companies/2427.qmd
-        - chapters/companies/2433.qmd
-        - chapters/companies/2482.qmd
-        - chapters/companies/4503.qmd
-        - chapters/companies/5258.qmd
-        - chapters/companies/5438.qmd
-        - chapters/companies/5490.qmd
-        - chapters/companies/6128.qmd
-        - chapters/companies/6160.qmd
-        - chapters/companies/6593.qmd
-        - chapters/companies/6914.qmd
-        - chapters/companies/8114.qmd
-        - chapters/companies/8342.qmd
     - part: "證券及資本市場"
       chapters:
         - chapters/industries/capital-markets.qmd
@@ -1551,53 +1531,37 @@ book:
         - chapters/companies/6024.qmd
         - chapters/companies/6026.qmd
         - chapters/companies/6027.qmd
-    - part: "科學及技術儀器"
+    - part: "專業商業服務"
       chapters:
-        - chapters/industries/scientific-technical-instruments.qmd
-        - chapters/companies/2360.qmd
-        - chapters/companies/2423.qmd
-        - chapters/companies/3030.qmd
-        - chapters/companies/3059.qmd
-        - chapters/companies/3306.qmd
-        - chapters/companies/3499.qmd
-        - chapters/companies/3587.qmd
-        - chapters/companies/4549.qmd
-        - chapters/companies/5309.qmd
-        - chapters/companies/6516.qmd
-        - chapters/companies/7558.qmd
-        - chapters/companies/8182.qmd
-        - chapters/companies/8289.qmd
-    - part: "太陽能"
+        - chapters/industries/specialty-business-services.qmd
+        - chapters/companies/6146.qmd
+        - chapters/companies/6183.qmd
+        - chapters/companies/6199.qmd
+        - chapters/companies/6721.qmd
+        - chapters/companies/6840.qmd
+        - chapters/companies/6898.qmd
+        - chapters/companies/6914.qmd
+        - chapters/companies/7786.qmd
+        - chapters/companies/8401.qmd
+        - chapters/companies/8481.qmd
+        - chapters/companies/8906.qmd
+        - chapters/companies/8921.qmd
+        - chapters/companies/9929.qmd
+    - part: "事務設備及用品"
       chapters:
-        - chapters/industries/solar.qmd
-        - chapters/companies/2406.qmd
-        - chapters/companies/3576.qmd
-        - chapters/companies/3686.qmd
-        - chapters/companies/3691.qmd
-        - chapters/companies/3713.qmd
-        - chapters/companies/4582.qmd
-        - chapters/companies/4934.qmd
-        - chapters/companies/4949.qmd
-        - chapters/companies/6244.qmd
-        - chapters/companies/6443.qmd
-        - chapters/companies/6477.qmd
-        - chapters/companies/6692.qmd
-        - chapters/companies/6839.qmd
-    - part: "成衣製造"
-      chapters:
-        - chapters/industries/apparel-manufacturing.qmd
-        - chapters/companies/1315.qmd
-        - chapters/companies/1467.qmd
-        - chapters/companies/1473.qmd
-        - chapters/companies/1476.qmd
-        - chapters/companies/1477.qmd
-        - chapters/companies/2916.qmd
-        - chapters/companies/2924.qmd
-        - chapters/companies/4413.qmd
-        - chapters/companies/4414.qmd
-        - chapters/companies/4432.qmd
-        - chapters/companies/4438.qmd
-        - chapters/companies/8932.qmd
+        - chapters/industries/business-equipment-supplies.qmd
+        - chapters/companies/1324.qmd
+        - chapters/companies/2433.qmd
+        - chapters/companies/2482.qmd
+        - chapters/companies/4503.qmd
+        - chapters/companies/5258.qmd
+        - chapters/companies/5438.qmd
+        - chapters/companies/5490.qmd
+        - chapters/companies/6128.qmd
+        - chapters/companies/6160.qmd
+        - chapters/companies/6593.qmd
+        - chapters/companies/8114.qmd
+        - chapters/companies/8342.qmd
     - part: "海運"
       chapters:
         - chapters/industries/marine-shipping.qmd
@@ -1613,6 +1577,64 @@ book:
         - chapters/companies/2641.qmd
         - chapters/companies/5608.qmd
         - chapters/companies/8367.qmd
+    - part: "科學及技術儀器"
+      chapters:
+        - chapters/industries/scientific-technical-instruments.qmd
+        - chapters/companies/2360.qmd
+        - chapters/companies/2423.qmd
+        - chapters/companies/3030.qmd
+        - chapters/companies/3059.qmd
+        - chapters/companies/3306.qmd
+        - chapters/companies/3455.qmd
+        - chapters/companies/3499.qmd
+        - chapters/companies/3535.qmd
+        - chapters/companies/3587.qmd
+        - chapters/companies/4549.qmd
+        - chapters/companies/7558.qmd
+        - chapters/companies/7728.qmd
+    - part: "太陽能"
+      chapters:
+        - chapters/industries/solar.qmd
+        - chapters/companies/2406.qmd
+        - chapters/companies/3576.qmd
+        - chapters/companies/3691.qmd
+        - chapters/companies/3713.qmd
+        - chapters/companies/4582.qmd
+        - chapters/companies/4934.qmd
+        - chapters/companies/4949.qmd
+        - chapters/companies/6244.qmd
+        - chapters/companies/6443.qmd
+        - chapters/companies/6477.qmd
+        - chapters/companies/6692.qmd
+        - chapters/companies/6839.qmd
+    - part: "家用及個人用品"
+      chapters:
+        - chapters/industries/household-personal-products.qmd
+        - chapters/companies/1730.qmd
+        - chapters/companies/1732.qmd
+        - chapters/companies/1817.qmd
+        - chapters/companies/3557.qmd
+        - chapters/companies/6504.qmd
+        - chapters/companies/6671.qmd
+        - chapters/companies/7516.qmd
+        - chapters/companies/8067.qmd
+        - chapters/companies/8929.qmd
+        - chapters/companies/8941.qmd
+        - chapters/companies/9919.qmd
+    - part: "多元化不動產"
+      chapters:
+        - chapters/industries/real-estate-diversified.qmd
+        - chapters/companies/1340.qmd
+        - chapters/companies/1435.qmd
+        - chapters/companies/1438.qmd
+        - chapters/companies/2520.qmd
+        - chapters/companies/2545.qmd
+        - chapters/companies/3040.qmd
+        - chapters/companies/5512.qmd
+        - chapters/companies/5531.qmd
+        - chapters/companies/5604.qmd
+        - chapters/companies/6219.qmd
+        - chapters/companies/9946.qmd
     - part: "保全及安全防護服務"
       chapters:
         - chapters/industries/security-protection-services.qmd
@@ -1627,34 +1649,6 @@ book:
         - chapters/companies/7402.qmd
         - chapters/companies/9917.qmd
         - chapters/companies/9925.qmd
-    - part: "專業商業服務"
-      chapters:
-        - chapters/industries/specialty-business-services.qmd
-        - chapters/companies/5607.qmd
-        - chapters/companies/6146.qmd
-        - chapters/companies/6183.qmd
-        - chapters/companies/6721.qmd
-        - chapters/companies/6898.qmd
-        - chapters/companies/7786.qmd
-        - chapters/companies/8401.qmd
-        - chapters/companies/8481.qmd
-        - chapters/companies/8906.qmd
-        - chapters/companies/8921.qmd
-        - chapters/companies/9929.qmd
-    - part: "專賣零售"
-      chapters:
-        - chapters/industries/specialty-retail.qmd
-        - chapters/companies/2430.qmd
-        - chapters/companies/2616.qmd
-        - chapters/companies/2937.qmd
-        - chapters/companies/2947.qmd
-        - chapters/companies/3045.qmd
-        - chapters/companies/6195.qmd
-        - chapters/companies/6281.qmd
-        - chapters/companies/8433.qmd
-        - chapters/companies/8927.qmd
-        - chapters/companies/9937.qmd
-        - chapters/companies/9960.qmd
     - part: "航太與國防"
       chapters:
         - chapters/industries/aerospace-defense.qmd
@@ -1668,45 +1662,71 @@ book:
         - chapters/companies/2208.qmd
         - chapters/companies/2644.qmd
         - chapters/companies/6753.qmd
-    - part: "鞋類及配件"
+    - part: "成衣製造"
       chapters:
-        - chapters/industries/footwear-accessories.qmd
-        - chapters/companies/1340.qmd
-        - chapters/companies/4303.qmd
-        - chapters/companies/6768.qmd
-        - chapters/companies/6890.qmd
-        - chapters/companies/6965.qmd
-        - chapters/companies/8404.qmd
-        - chapters/companies/9802.qmd
-        - chapters/companies/9904.qmd
-        - chapters/companies/9910.qmd
-        - chapters/companies/9950.qmd
-    - part: "家用及個人用品"
+        - chapters/industries/apparel-manufacturing.qmd
+        - chapters/companies/1315.qmd
+        - chapters/companies/1467.qmd
+        - chapters/companies/1473.qmd
+        - chapters/companies/1476.qmd
+        - chapters/companies/1477.qmd
+        - chapters/companies/2924.qmd
+        - chapters/companies/4413.qmd
+        - chapters/companies/4414.qmd
+        - chapters/companies/4432.qmd
+        - chapters/companies/4438.qmd
+    - part: "綜合貨運物流"
       chapters:
-        - chapters/industries/household-personal-products.qmd
-        - chapters/companies/1730.qmd
-        - chapters/companies/1732.qmd
-        - chapters/companies/1817.qmd
-        - chapters/companies/3557.qmd
-        - chapters/companies/6504.qmd
-        - chapters/companies/6671.qmd
-        - chapters/companies/7516.qmd
-        - chapters/companies/8929.qmd
-        - chapters/companies/8941.qmd
-        - chapters/companies/9919.qmd
+        - chapters/industries/integrated-freight-logistics.qmd
+        - chapters/companies/1443.qmd
+        - chapters/companies/2607.qmd
+        - chapters/companies/2612.qmd
+        - chapters/companies/2636.qmd
+        - chapters/companies/2642.qmd
+        - chapters/companies/2643.qmd
+        - chapters/companies/5601.qmd
+        - chapters/companies/5603.qmd
+        - chapters/companies/5607.qmd
+        - chapters/companies/5609.qmd
     - part: "包裝及容器"
       chapters:
         - chapters/industries/packaging-containers.qmd
         - chapters/companies/1323.qmd
         - chapters/companies/2461.qmd
         - chapters/companies/3171.qmd
-        - chapters/companies/3607.qmd
         - chapters/companies/4304.qmd
         - chapters/companies/8411.qmd
+        - chapters/companies/8421.qmd
         - chapters/companies/8488.qmd
         - chapters/companies/9905.qmd
         - chapters/companies/9907.qmd
         - chapters/companies/9939.qmd
+    - part: "污染防治設備"
+      chapters:
+        - chapters/industries/pollution-treatment-controls.qmd
+        - chapters/companies/1535.qmd
+        - chapters/companies/4556.qmd
+        - chapters/companies/5292.qmd
+        - chapters/companies/6641.qmd
+        - chapters/companies/6723.qmd
+        - chapters/companies/6823.qmd
+        - chapters/companies/6894.qmd
+        - chapters/companies/6944.qmd
+        - chapters/companies/6977.qmd
+        - chapters/companies/9955.qmd
+    - part: "專賣零售"
+      chapters:
+        - chapters/industries/specialty-retail.qmd
+        - chapters/companies/1512.qmd
+        - chapters/companies/2430.qmd
+        - chapters/companies/2937.qmd
+        - chapters/companies/2947.qmd
+        - chapters/companies/3045.qmd
+        - chapters/companies/6195.qmd
+        - chapters/companies/6281.qmd
+        - chapters/companies/6968.qmd
+        - chapters/companies/8433.qmd
+        - chapters/companies/9960.qmd
     - part: "建築產品及設備"
       chapters:
         - chapters/industries/building-products-equipment.qmd
@@ -1719,30 +1739,29 @@ book:
         - chapters/companies/8936.qmd
         - chapters/companies/9924.qmd
         - chapters/companies/9934.qmd
-    - part: "綜合貨運物流"
+    - part: "鞋類及配件"
       chapters:
-        - chapters/industries/integrated-freight-logistics.qmd
-        - chapters/companies/1443.qmd
-        - chapters/companies/2607.qmd
-        - chapters/companies/2612.qmd
-        - chapters/companies/2636.qmd
-        - chapters/companies/2642.qmd
-        - chapters/companies/2643.qmd
-        - chapters/companies/5601.qmd
-        - chapters/companies/5603.qmd
-        - chapters/companies/5609.qmd
-    - part: "污染防治設備"
+        - chapters/industries/footwear-accessories.qmd
+        - chapters/companies/4303.qmd
+        - chapters/companies/6768.qmd
+        - chapters/companies/6890.qmd
+        - chapters/companies/6965.qmd
+        - chapters/companies/8404.qmd
+        - chapters/companies/9802.qmd
+        - chapters/companies/9904.qmd
+        - chapters/companies/9910.qmd
+        - chapters/companies/9950.qmd
+    - part: "網路零售"
       chapters:
-        - chapters/industries/pollution-treatment-controls.qmd
-        - chapters/companies/1535.qmd
-        - chapters/companies/4556.qmd
-        - chapters/companies/5292.qmd
-        - chapters/companies/6641.qmd
-        - chapters/companies/6723.qmd
-        - chapters/companies/6823.qmd
-        - chapters/companies/6894.qmd
-        - chapters/companies/6944.qmd
-        - chapters/companies/9955.qmd
+        - chapters/industries/internet-retail.qmd
+        - chapters/companies/2941.qmd
+        - chapters/companies/2949.qmd
+        - chapters/companies/5321.qmd
+        - chapters/companies/6473.qmd
+        - chapters/companies/8044.qmd
+        - chapters/companies/8454.qmd
+        - chapters/companies/8472.qmd
+        - chapters/companies/8477.qmd
     - part: "汽車製造"
       chapters:
         - chapters/industries/auto-manufacturers.qmd
@@ -1753,34 +1772,43 @@ book:
         - chapters/companies/2227.qmd
         - chapters/companies/2237.qmd
         - chapters/companies/2258.qmd
+    - part: "再生能源發電"
+      chapters:
+        - chapters/industries/utilities-renewable.qmd
+        - chapters/companies/3073.qmd
+        - chapters/companies/3712.qmd
+        - chapters/companies/6806.qmd
+        - chapters/companies/6869.qmd
+        - chapters/companies/6994.qmd
+        - chapters/companies/7833.qmd
+        - chapters/companies/8087.qmd
     - part: "多角化企業集團"
       chapters:
         - chapters/industries/conglomerates.qmd
-        - chapters/companies/1435.qmd
+        - chapters/companies/1316.qmd
         - chapters/companies/2371.qmd
         - chapters/companies/2547.qmd
         - chapters/companies/2614.qmd
         - chapters/companies/3027.qmd
         - chapters/companies/5288.qmd
-        - chapters/companies/6969.qmd
-    - part: "網路零售"
+    - part: "融資及信用服務"
       chapters:
-        - chapters/industries/internet-retail.qmd
-        - chapters/companies/2941.qmd
-        - chapters/companies/2949.qmd
-        - chapters/companies/8044.qmd
-        - chapters/companies/8454.qmd
-        - chapters/companies/8472.qmd
-        - chapters/companies/8477.qmd
-    - part: "多元化不動產"
+        - chapters/industries/credit-services.qmd
+        - chapters/companies/5871.qmd
+        - chapters/companies/6035.qmd
+        - chapters/companies/6592.qmd
+        - chapters/companies/6878.qmd
+        - chapters/companies/6958.qmd
+        - chapters/companies/9941.qmd
+    - part: "工業品通路"
       chapters:
-        - chapters/industries/real-estate-diversified.qmd
-        - chapters/companies/1438.qmd
-        - chapters/companies/2520.qmd
-        - chapters/companies/2545.qmd
-        - chapters/companies/5512.qmd
-        - chapters/companies/6219.qmd
-        - chapters/companies/9946.qmd
+        - chapters/industries/industrial-distribution.qmd
+        - chapters/companies/1516.qmd
+        - chapters/companies/2373.qmd
+        - chapters/companies/3114.qmd
+        - chapters/companies/3115.qmd
+        - chapters/companies/6192.qmd
+        - chapters/companies/8374.qmd
     - part: "天然氣公用事業"
       chapters:
         - chapters/industries/utilities-regulated-gas.qmd
@@ -1790,14 +1818,6 @@ book:
         - chapters/companies/9918.qmd
         - chapters/companies/9926.qmd
         - chapters/companies/9931.qmd
-    - part: "電子遊戲及多媒體"
-      chapters:
-        - chapters/industries/electronic-gaming-multimedia.qmd
-        - chapters/companies/3687.qmd
-        - chapters/companies/4994.qmd
-        - chapters/companies/5478.qmd
-        - chapters/companies/6473.qmd
-        - chapters/companies/6908.qmd
     - part: "娛樂"
       chapters:
         - chapters/industries/entertainment.qmd
@@ -1814,22 +1834,14 @@ book:
         - chapters/companies/2882.qmd
         - chapters/companies/2883.qmd
         - chapters/companies/5859.qmd
-    - part: "電信服務"
+    - part: "休閒車輛（含自行車）"
       chapters:
-        - chapters/industries/telecom-services.qmd
-        - chapters/companies/2412.qmd
-        - chapters/companies/4904.qmd
-        - chapters/companies/6163.qmd
-        - chapters/companies/6170.qmd
-        - chapters/companies/6561.qmd
-    - part: "再生能源發電"
-      chapters:
-        - chapters/industries/utilities-renewable.qmd
-        - chapters/companies/6806.qmd
-        - chapters/companies/6869.qmd
-        - chapters/companies/6994.qmd
-        - chapters/companies/7833.qmd
-        - chapters/companies/8087.qmd
+        - chapters/industries/recreational-vehicles.qmd
+        - chapters/companies/1517.qmd
+        - chapters/companies/3432.qmd
+        - chapters/companies/4559.qmd
+        - chapters/companies/8478.qmd
+        - chapters/companies/8937.qmd
     - part: "航空客貨運輸"
       chapters:
         - chapters/industries/airlines.qmd
@@ -1837,13 +1849,6 @@ book:
         - chapters/companies/2618.qmd
         - chapters/companies/2646.qmd
         - chapters/companies/6757.qmd
-    - part: "融資及信用服務"
-      chapters:
-        - chapters/industries/credit-services.qmd
-        - chapters/companies/5871.qmd
-        - chapters/companies/6592.qmd
-        - chapters/companies/6958.qmd
-        - chapters/companies/9941.qmd
     - part: "教育訓練服務"
       chapters:
         - chapters/industries/education-training-services.qmd
@@ -1851,13 +1856,13 @@ book:
         - chapters/companies/5481.qmd
         - chapters/companies/8437.qmd
         - chapters/companies/8489.qmd
-    - part: "工業品通路"
+    - part: "電子遊戲及多媒體"
       chapters:
-        - chapters/industries/industrial-distribution.qmd
-        - chapters/companies/2373.qmd
-        - chapters/companies/3114.qmd
-        - chapters/companies/6192.qmd
-        - chapters/companies/8374.qmd
+        - chapters/industries/electronic-gaming-multimedia.qmd
+        - chapters/companies/3687.qmd
+        - chapters/companies/4994.qmd
+        - chapters/companies/5478.qmd
+        - chapters/companies/6908.qmd
     - part: "網路內容及資訊"
       chapters:
         - chapters/industries/internet-content-information.qmd
@@ -1865,6 +1870,20 @@ book:
         - chapters/companies/5278.qmd
         - chapters/companies/5287.qmd
         - chapters/companies/7551.qmd
+    - part: "石油煉製及行銷"
+      chapters:
+        - chapters/industries/oil-gas-refining-marketing.qmd
+        - chapters/companies/2616.qmd
+        - chapters/companies/6505.qmd
+        - chapters/companies/8927.qmd
+        - chapters/companies/9937.qmd
+    - part: "電信服務"
+      chapters:
+        - chapters/industries/telecom-services.qmd
+        - chapters/companies/2412.qmd
+        - chapters/companies/4904.qmd
+        - chapters/companies/6170.qmd
+        - chapters/companies/6561.qmd
     - part: "農業資材（肥料、農藥）"
       chapters:
         - chapters/industries/agricultural-inputs.qmd
@@ -1877,6 +1896,12 @@ book:
         - chapters/companies/4558.qmd
         - chapters/companies/6175.qmd
         - chapters/companies/8942.qmd
+    - part: "汽車經銷"
+      chapters:
+        - chapters/industries/auto-truck-dealerships.qmd
+        - chapters/companies/2207.qmd
+        - chapters/companies/2247.qmd
+        - chapters/companies/9902.qmd
     - part: "百貨公司"
       chapters:
         - chapters/industries/department-stores.qmd
@@ -1895,86 +1920,56 @@ book:
         - chapters/companies/2832.qmd
         - chapters/companies/2850.qmd
         - chapters/companies/2852.qmd
-    - part: "包裝食品"
+    - part: "木材及木製品"
       chapters:
-        - chapters/industries/packaged-foods.qmd
-        - chapters/companies/6578.qmd
-        - chapters/companies/6968.qmd
-        - chapters/companies/8905.qmd
-    - part: "休閒車輛（含自行車）"
+        - chapters/industries/lumber-wood-production.qmd
+        - chapters/companies/4924.qmd
+        - chapters/companies/6655.qmd
+        - chapters/companies/8444.qmd
+    - part: "服飾零售"
       chapters:
-        - chapters/industries/recreational-vehicles.qmd
-        - chapters/companies/1517.qmd
-        - chapters/companies/8478.qmd
-        - chapters/companies/8937.qmd
-    - part: "汽車經銷"
-      chapters:
-        - chapters/industries/auto-truck-dealerships.qmd
-        - chapters/companies/2207.qmd
-        - chapters/companies/2247.qmd
+        - chapters/industries/apparel-retail.qmd
+        - chapters/companies/1417.qmd
+        - chapters/companies/2916.qmd
     - part: "銀行"
       chapters:
         - chapters/industries/banks.qmd
         - chapters/companies/2812.qmd
         - chapters/companies/2834.qmd
-    - part: "生物科技"
-      chapters:
-        - chapters/industries/biotechnology.qmd
-        - chapters/companies/4171.qmd
-        - chapters/companies/6236.qmd
-    - part: "顧問服務"
-      chapters:
-        - chapters/industries/consulting-services.qmd
-        - chapters/companies/6754.qmd
-        - chapters/companies/6881.qmd
     - part: "銅業"
       chapters:
         - chapters/industries/copper.qmd
         - chapters/companies/2009.qmd
         - chapters/companies/4989.qmd
+    - part: "食品通路"
+      chapters:
+        - chapters/industries/food-distribution.qmd
+        - chapters/companies/2230.qmd
+        - chapters/companies/5902.qmd
     - part: "保險經紀"
       chapters:
         - chapters/industries/insurance-brokers.qmd
         - chapters/companies/5878.qmd
         - chapters/companies/6028.qmd
-    - part: "旅館住宿"
+    - part: "醫療器材"
       chapters:
-        - chapters/industries/lodging.qmd
-        - chapters/companies/2724.qmd
-        - chapters/companies/5324.qmd
-    - part: "木材及木製品"
-      chapters:
-        - chapters/industries/lumber-wood-production.qmd
-        - chapters/companies/6655.qmd
-        - chapters/companies/8444.qmd
+        - chapters/industries/medical-devices.qmd
+        - chapters/companies/3373.qmd
+        - chapters/companies/4905.qmd
     - part: "其他工業金屬及礦業"
       chapters:
         - chapters/industries/other-industrial-metals-mining.qmd
         - chapters/companies/7610.qmd
         - chapters/companies/9927.qmd
-    - part: "軌道運輸"
+    - part: "包裝食品"
       chapters:
-        - chapters/industries/railroads.qmd
-        - chapters/companies/2633.qmd
-        - chapters/companies/2640.qmd
-    - part: "貨車運輸"
-      chapters:
-        - chapters/industries/trucking.qmd
-        - chapters/companies/2608.qmd
-        - chapters/companies/5604.qmd
-    - part: "電力公用事業"
-      chapters:
-        - chapters/industries/utilities-regulated-electric.qmd
-        - chapters/companies/7740.qmd
-        - chapters/companies/8931.qmd
+        - chapters/industries/packaged-foods.qmd
+        - chapters/companies/6578.qmd
+        - chapters/companies/8905.qmd
     - part: "廣告代理"
       chapters:
         - chapters/industries/advertising-agencies.qmd
         - chapters/companies/6136.qmd
-    - part: "服飾零售"
-      chapters:
-        - chapters/industries/apparel-retail.qmd
-        - chapters/companies/1417.qmd
     - part: "資產管理"
       chapters:
         - chapters/industries/asset-management.qmd
@@ -1987,10 +1982,18 @@ book:
       chapters:
         - chapters/industries/biotech-therapeutics.qmd
         - chapters/companies/4911.qmd
+    - part: "生物科技"
+      chapters:
+        - chapters/industries/biotechnology.qmd
+        - chapters/companies/4171.qmd
     - part: "廣播電視"
       chapters:
         - chapters/industries/broadcasting.qmd
         - chapters/companies/9928.qmd
+    - part: "顧問服務"
+      chapters:
+        - chapters/industries/consulting-services.qmd
+        - chapters/companies/6754.qmd
     - part: "特殊藥品及學名藥製造"
       chapters:
         - chapters/industries/drug-manufacturers-specialty-generic.qmd
@@ -1999,14 +2002,6 @@ book:
       chapters:
         - chapters/industries/financial-conglomerates.qmd
         - chapters/companies/2885.qmd
-    - part: "食品通路"
-      chapters:
-        - chapters/industries/food-distribution.qmd
-        - chapters/companies/5902.qmd
-    - part: "博弈"
-      chapters:
-        - chapters/industries/gambling.qmd
-        - chapters/companies/6536.qmd
     - part: "居家修繕零售"
       chapters:
         - chapters/industries/home-improvement-retail.qmd
@@ -2019,43 +2014,48 @@ book:
       chapters:
         - chapters/industries/insurance-reinsurance.qmd
         - chapters/companies/2851.qmd
-    - part: "醫療器材"
+    - part: "旅館住宿"
       chapters:
-        - chapters/industries/medical-devices.qmd
-        - chapters/companies/3373.qmd
+        - chapters/industries/lodging.qmd
+        - chapters/companies/5324.qmd
     - part: "油氣設備及服務"
       chapters:
         - chapters/industries/oil-gas-equipment-services.qmd
         - chapters/companies/2904.qmd
-    - part: "石油煉製及行銷"
-      chapters:
-        - chapters/industries/oil-gas-refining-marketing.qmd
-        - chapters/companies/6505.qmd
     - part: "個人服務"
       chapters:
         - chapters/industries/personal-services.qmd
         - chapters/companies/5530.qmd
-    - part: "出版"
+    - part: "藥品零售"
       chapters:
-        - chapters/industries/publishing.qmd
-        - chapters/companies/6240.qmd
+        - chapters/industries/pharmaceutical-retailers.qmd
+        - chapters/companies/4431.qmd
+    - part: "軌道運輸"
+      chapters:
+        - chapters/industries/railroads.qmd
+        - chapters/companies/2633.qmd
+    - part: "餐飲"
+      chapters:
+        - chapters/industries/restaurants.qmd
+        - chapters/companies/8084.qmd
     - part: "人力派遣及就業服務"
       chapters:
         - chapters/industries/staffing-employment-services.qmd
         - chapters/companies/3130.qmd
-    - part: "燃料煤"
+    - part: "貨車運輸"
       chapters:
-        - chapters/industries/thermal-coal.qmd
-        - chapters/companies/1516.qmd
-    - part: "自來水公用事業"
+        - chapters/industries/trucking.qmd
+        - chapters/companies/2608.qmd
+    - part: "電力公用事業"
       chapters:
-        - chapters/industries/utilities-regulated-water.qmd
-        - chapters/companies/6977.qmd
+        - chapters/industries/utilities-regulated-electric.qmd
+        - chapters/companies/8931.qmd
     - index-companies.qmd
     - references.qmd
   appendices:
     - appendices/method.qmd
     - appendices/evidence.qmd
+    - appendices/errata.qmd
     - appendices/changelog.qmd
 
 bibliography: references/aerospace-defense.json

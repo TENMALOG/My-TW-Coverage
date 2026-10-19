@@ -80,6 +80,8 @@ title: "研究結果"
 
 原專案 {n(cat["reports"])} 份公司報告分布在 {cat["industry_folders"]} 個產業資料夾。本研究選入查核的敘述共 {n(cat["claims_in_scope"])} 條，涵蓋 {n(cat["companies_with_claims"])} 家公司；其餘 {n(cat["reports"] - cat["companies_with_claims"])} 家公司沒有選入查核的敘述。
 
+原專案的產業分類來自外部資料庫，未曾與年報核對。本研究逐家比對年報所載的主要業務與營收結構，更正 {cat["industry_corrections"]} 家公司的產業分類，更正後共 {cat["industries_corrected"]} 個產業；每一筆更正的理由與年報依據列於原專案勘誤表（`errata/classification.csv`），公司頁的「產業分類」欄亦註明原分類與更正依據。
+
 ## 第一階段：原句重查 {{#sec-r-stage1}}
 
 {n(st["candidate_rerun"]["requested"])} 條原本判定為部分支持或未知的敘述，經逐條重查後結果如下。「候選通過」只代表進入下一階段，不是最終接受。

@@ -164,6 +164,15 @@ def main() -> None:
             **parse_report(p),
         }
 
+    # Industry classes contradicted by the annual report (data/industry-corrections.csv, reviewed 2026-10-19):
+    # the corrected class drives every chapter; the original folder is kept for the errata and the page note.
+    for r in csv.DictReader(open(ROOT / "research-site/data/industry-corrections.csv", encoding="utf-8-sig")):
+        rep = reports[r["ticker"]]
+        assert rep["industry_folder"] == r["original_folder"], r["ticker"]
+        rep["industry_folder"] = r["corrected_folder"]
+    for rep in reports.values():
+        rep["original_industry_folder"] = Path(rep["report_path"]).parent.name
+
     consolidated = jsonl(INPUTS["consolidated"])
     accepted_orig = {r["claim_id"]: r for r in jsonl(INPUTS["accepted_originals"])}
     inventory = {r["parent_claim_id"]: r for r in jsonl(INPUTS["inventory"])}
@@ -249,6 +258,7 @@ def main() -> None:
             "ticker": ticker,
             "company": rep["filename_company"],
             "industry_folder": rep["industry_folder"],
+            "original_industry_folder": rep["original_industry_folder"],
             "sector": rep["sector"],
             "report_path": rep["report_path"],
             "report_sha256": rep["report_sha256"],
@@ -313,7 +323,9 @@ def main() -> None:
 
     totals = {
         "reports": len(reports),
-        "industry_folders": len(ind),
+        "industry_folders": len({r["original_industry_folder"] for r in company_rows}),   # as in the original project
+        "industries_corrected": len(ind),                                                  # after class corrections
+        "industry_corrections": sum(r["original_industry_folder"] != r["industry_folder"] for r in company_rows),
         "claims_in_scope": len(claim_rows),
         "companies_with_claims": sum(1 for r in company_rows if r["claims_in_scope"]),
         "original_accepted": sum(1 for r in claim_rows if r["adoption_basis"] == "原句最終 ACCEPTED"),

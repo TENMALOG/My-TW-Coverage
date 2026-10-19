@@ -20,6 +20,8 @@ otherwise the file is skipped, the reason is written into the page's 資料缺�
 from __future__ import annotations
 
 import argparse
+import csv
+import functools
 import json
 import re
 import sys
@@ -142,6 +144,13 @@ def relation_edges() -> dict:
 
 
 _RENAMES = None
+
+
+@functools.lru_cache(maxsize=None)
+def industry_corrections() -> dict:
+    """{ticker: row} from data/industry-corrections.csv (classes corrected against the annual report)."""
+    with open(SITE / 'data/industry-corrections.csv', encoding='utf-8-sig') as fh:
+        return {r['ticker']: r for r in csv.DictReader(fh)}
 
 
 def company_renames() -> dict:
@@ -328,7 +337,15 @@ def render_page(row: dict, *, fin: dict | None, sentences: list[dict], company_c
     # 1. basic data
     L.append('## 公司基本資料 {.unnumbered}\n')
     L.append(f'- **股票代號**：{tk}')
-    L.append(f'- **產業分類**：{md_escape(industry_zh)}（原專案分類 {md_escape(row["industry_folder"])}）')
+    fix = industry_corrections().get(tk)
+    if fix:   # the original project's class contradicts the annual report: show both, cite the evidence
+        orig = fix['original_folder']
+        orig_zh = industry_names().get(orig, {}).get('name_zh', orig)
+        ev = ''.join(notes.add(fact_note(doc, f)) for f in (doc or {}).get('facts', []) if f['id'] in fix['facts'].split(';'))
+        L.append(f'- **產業分類**：{md_escape(industry_zh)}（依年報更正；原專案歸為{md_escape(orig_zh)}／{md_escape(orig)}。'
+                 f'{md_escape(fix["reason"])}）{ev}')
+    else:
+        L.append(f'- **產業分類**：{md_escape(industry_zh)}（原專案分類 {md_escape(row["industry_folder"])}）')
     if doc:
         L.append(f'- **公司全名**：{md_escape(doc["legal_name"])}'
                  f'{notes.add(fact_note(doc, None))}')
