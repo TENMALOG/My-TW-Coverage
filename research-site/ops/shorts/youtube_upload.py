@@ -34,7 +34,7 @@ def log(msg):
         fh.write(line + '\n')
 
 
-def service():
+def service(interactive=False):
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from google_auth_oauthlib.flow import InstalledAppFlow
@@ -42,9 +42,18 @@ def service():
     tok = CRED / 'token.json'
     creds = Credentials.from_authorized_user_file(str(tok), SCOPES) if tok.exists() else None
     if not creds or not creds.valid:
+        refreshed = False
         if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
+            from google.auth.exceptions import RefreshError
+            try:
+                creds.refresh(Request())
+                refreshed = True
+            except RefreshError as e:
+                log(f'授權已失效（測試模式每 7 天一次），請執行 py youtube_upload.py auth 重新登入：{str(e)[:120]}')
+        if not refreshed:
+            if not interactive:
+                log('需要重新授權：請執行 py youtube_upload.py auth')
+                sys.exit(2)
             secret = CRED / 'client_secret.json'
             if not secret.exists():
                 sys.exit(f'找不到 {secret}：請先把 Google Cloud 下載的 OAuth 用戶端金鑰檔放到這裡（檔名改成 client_secret.json）。')
@@ -121,14 +130,17 @@ def upload(limit):
             r['youtube_id'] = res['id']
             save(rs)
             log(f"{r['代號']} {r['公司']} uploaded {res['id']}")
-            try:
-                yt.playlistItems().insert(part='snippet', body={'snippet': {
-                    'playlistId': playlist_id(yt, r['播放清單'], cache),
-                    'resourceId': {'kind': 'youtube#video', 'videoId': res['id']}}}).execute()
-            except HttpError as e:
-                log(f"{r['代號']} playlist add failed: {str(e)[:160]}")
-                if quota_hit(e):
+            for attempt in range(3):   # 409 "operation was aborted" happens right after a playlist is created
+                try:
+                    yt.playlistItems().insert(part='snippet', body={'snippet': {
+                        'playlistId': playlist_id(yt, r['播放清單'], cache),
+                        'resourceId': {'kind': 'youtube#video', 'videoId': res['id']}}}).execute()
                     break
+                except HttpError as e:
+                    log(f"{r['代號']} playlist add failed ({attempt + 1}/3): {str(e)[:160]}")
+                    if quota_hit(e) or attempt == 2:
+                        break
+                    time.sleep(3)
         except HttpError as e:
             log(f"{r['代號']} upload stopped: {str(e)[:200]}")
             if quota_hit(e):
@@ -186,7 +198,8 @@ if __name__ == '__main__':
     ap.add_argument('--audited', action='store_true', help='Google Cloud project passed the YouTube API audit (otherwise uploads get locked private)')
     a = ap.parse_args()
     if a.cmd == 'auth':
-        service()
+        (CRED / 'token.json').unlink(missing_ok=True)
+        service(interactive=True)
         print('授權完成，金鑰已存在', CRED)
     elif a.cmd == 'upload':
         if not a.audited and a.limit > 1:
