@@ -113,25 +113,35 @@ function share(data) {
 }
 
 function video() {
-  // 網頁只顯示 9:16 影片中間的正方形（y 280–1360，Shorts 版面的核心區）；點了才下載本站存放的影片
+  // 頁面上只放封面；點封面或播放鍵，開全螢幕燈箱放大播放。
+  // 只顯示 9:16 影片中間的正方形（y 280–1360，Shorts 版面的核心區）；打開燈箱才下載影片。
   const box = document.querySelector('figure.yt');
   const src = box?.dataset.video;
   if (!src) return;
-  box.querySelector('.ytplay').addEventListener('click', () => {
-    const v = document.createElement('video');
-    Object.assign(v, { src, autoplay: true, playsInline: true, preload: 'auto' });
-    v.poster = box.querySelector('img')?.src || '';
-    v.setAttribute('aria-label', box.querySelector('img')?.alt || '公司速覽影片');
-    // 點畫面暫停／繼續；播完回到開頭並顯示重播
-    v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
-    v.addEventListener('ended', () => { v.currentTime = 0; box.classList.add('ended'); });
-    v.addEventListener('play', () => box.classList.remove('ended'));
-    box.querySelector('img')?.remove();
-    box.querySelector('.ytplay').textContent = '↻ 重播';
-    box.querySelector('.ytplay').onclick = (e) => { e.stopPropagation(); v.play(); };
-    box.classList.add('playing');
-    box.prepend(v);
-  }, { once: true });
+  const alt = box.querySelector('img')?.alt || '公司速覽影片';
+  const dlg = document.createElement('dialog');
+  dlg.className = 'vbox';
+  dlg.setAttribute('aria-label', alt);
+  dlg.innerHTML = '<div class="vframe"><video playsinline preload="none"></video><button class="vreplay" hidden>↻ 重播</button></div><button class="vclose" aria-label="關閉影片">✕</button>';
+  document.body.append(dlg);
+  const v = dlg.querySelector('video');
+  const replay = dlg.querySelector('.vreplay');
+  v.poster = box.querySelector('img')?.src || '';
+  v.setAttribute('aria-label', alt);
+  v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
+  v.addEventListener('ended', () => { v.currentTime = 0; replay.hidden = false; });
+  v.addEventListener('play', () => { replay.hidden = true; });
+  replay.addEventListener('click', () => v.play());
+  dlg.querySelector('.vclose').addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });   // 點旁邊的暗處關閉
+  dlg.addEventListener('close', () => { v.pause(); v.currentTime = 0; replay.hidden = true; });
+  const open = () => {
+    if (!v.src) v.src = src;
+    dlg.showModal();
+    v.play().catch(() => {});
+  };
+  box.querySelector('.ytplay').addEventListener('click', open);
+  box.querySelector('img')?.addEventListener('click', open);
 }
 
 export function initCompany() {
