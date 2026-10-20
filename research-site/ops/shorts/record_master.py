@@ -24,11 +24,17 @@ from record_web import storyboard  # noqa: E402  (adds corrected industry, 證�
 STAGE = (HERE / 'master.html').as_uri()
 FFMPEG = r'C:\Program Files\ffmpeg-7.1.1\bin\ffmpeg.exe'
 FPS = 30
-OUT = HERE / 'out' / 'master'
+OUT = Path(os.environ.get('MASTER_OUT', HERE / 'out' / 'master'))
+# Default (2026-10-20 A/B test, 4 companies): JPEG frames + NVENC h264 cq 22 — ~17 % faster than PNG + libx264
+# slow crf 14, SSIM 0.9995 vs the CPU encode, files ~40 % larger (upload masters; YouTube re-encodes).
+# The bottleneck is Chrome's frame capture (≈85–126 ms/frame at 2x), not rendering (4 ms) or encoding.
+# MASTER_GPU=0 restores the CPU path.
+GPU = os.environ.get('MASTER_GPU', '1') == '1'
+GPU_ARGS = ['--enable-gpu', '--ignore-gpu-blocklist', '--use-angle=d3d11', '--enable-gpu-rasterization']
 
 
 def open_stage(p, t):
-    b = p.chromium.launch(channel='chrome')
+    b = p.chromium.launch(channel='chrome', args=GPU_ARGS if GPU else [])
     pg = b.new_page(viewport={'width': 1080, 'height': 1920}, device_scale_factor=2)
     pg.goto(STAGE)
     pg.evaluate('window.ready')
@@ -50,14 +56,18 @@ def stills(t, times):
 def segment(args):
     t, idx, f0, f1 = args
     seg = OUT / f'{t}_seg{idx:02d}.mp4'
-    ff = subprocess.Popen([FFMPEG, '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS), '-c:v', 'png',
-                           '-i', '-', '-vf', 'scale=1080:1920:flags=lanczos', '-c:v', 'libx264', '-preset', 'slow',
-                           '-crf', '14', '-tune', 'animation', '-pix_fmt', 'yuv420p', str(seg)], stdin=subprocess.PIPE)
+    if GPU:
+        enc = ['-c:v', 'h264_nvenc', '-preset', 'p7', '-tune', 'hq', '-rc', 'vbr', '-cq', '22', '-b:v', '0', '-profile:v', 'high']
+    else:
+        enc = ['-c:v', 'libx264', '-preset', 'slow', '-crf', '14', '-tune', 'animation']
+    ff = subprocess.Popen([FFMPEG, '-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', str(FPS),
+                           '-c:v', 'mjpeg' if GPU else 'png', '-i', '-', '-vf', 'scale=1080:1920:flags=lanczos', *enc,
+                           '-pix_fmt', 'yuv420p', str(seg)], stdin=subprocess.PIPE)
     with sync_playwright() as p:
         b, pg, _ = open_stage(p, t)
         for f in range(f0, f1):
             pg.evaluate(f'render({f / FPS})')
-            ff.stdin.write(pg.screenshot(type='png'))
+            ff.stdin.write(pg.screenshot(type='jpeg', quality=95) if GPU else pg.screenshot(type='png'))
         b.close()
     ff.stdin.close()
     ff.wait()
