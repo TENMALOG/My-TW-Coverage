@@ -9,12 +9,15 @@ licensed font never leaves this machine), so Pages receives pre-built files only
 """
 import json
 import os
+import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
+PAPER = ROOT.parent / 'research-site' / '_site'    # the Quarto research site (查證層), served at /paper/
 PROJECT = 'gutw-research'
 WRANGLER = 'wrangler@4'
 
@@ -30,13 +33,18 @@ def main():
     if v.is_junction() or v.is_symlink():
         os.rmdir(v) if v.is_junction() else v.unlink()
     run(['npm', 'run', 'build'])
+    # the research site uses relative links only, so it can live under /paper/ unchanged
+    assert (PAPER / 'index.html').exists(), 'render research-site first'
+    shutil.copytree(PAPER, DIST / 'paper', dirs_exist_ok=True)
     files = [p for p in DIST.rglob('*') if p.is_file()]
     big = [p for p in files if p.stat().st_size > 25 * 1024 * 1024]
     assert not (DIST / 'video').exists(), 'dist/video must not be deployed'
     assert len(files) < 20000, f'{len(files)} files exceeds the Pages limit'
     assert not big, f'files over 25 MB: {big[:3]}'
     assert not list(DIST.rglob('*.otf')) and not list(DIST.rglob('*.ttf')), 'font files must never be deployed'
-    leaked = [p for p in DIST.rglob('*.html') if 'localhost' in p.read_text(encoding='utf-8', errors='ignore')]
+    # a real link or asset pointing at a local server (Quarto's own link-filter regex mentions localhost and is fine)
+    local = re.compile(r'(?:href|src|content|action)="https?://(?:localhost|127\.0\.0\.1)')
+    leaked = [p for p in DIST.rglob('*.html') if local.search(p.read_text(encoding='utf-8', errors='ignore'))]
     assert not leaked, f'localhost URLs in {leaked[:3]}'
     print(f'checks ok: {len(files)} files, {sum(p.stat().st_size for p in files) / 1e6:.0f} MB', flush=True)
     if '--check' in sys.argv:
