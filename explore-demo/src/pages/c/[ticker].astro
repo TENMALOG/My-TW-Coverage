@@ -11,6 +11,8 @@ export function getStaticPaths() {
 const { c } = Astro.props;
 const known = new Set(companies.map((x) => x.ticker));
 const hasPoster = fs.existsSync(`public/poster/${c.ticker}.jpg`);
+// 還沒上 YouTube 的公司，播放自己存放的同一支影片（Cloudflare R2）；PUBLIC_VIDEO_URL 例如 https://video.example/{t}.mp4，本機示範用 /video/{t}.mp4
+const videoUrl = (import.meta.env.PUBLIC_VIDEO_URL || '/video/{t}.mp4').replace('{t}', c.ticker);
 const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
 const yoy = years.length >= 2 ? (rev[1] / rev[0] - 1) * 100 : null;
@@ -27,11 +29,9 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`}>
   <div data-pagefind-body>
   {(c.youtube_id || hasPoster) && (
-    <figure class="yt" data-yt={c.youtube_id || ''} data-pagefind-ignore>
+    <figure class="yt" data-yt={c.youtube_id || ''} data-video={c.youtube_id ? '' : videoUrl} data-pagefind-ignore>
       {hasPoster && <img src={`/poster/${c.ticker}.jpg`} alt={`${c.name} 公司速覽影片封面`} loading="eager" />}
-      {c.youtube_id
-        ? <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 播放 24 秒速覽</button>
-        : <span class="ytsoon">影片即將上架</span>}
+      <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 播放 24 秒速覽</button>
     </figure>
   )}
   <section class="card">
