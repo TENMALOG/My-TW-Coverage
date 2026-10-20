@@ -153,6 +153,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
 
   <p class="muted">
     資料：{c.legal_name} {c.report.fy} 年度年報（<a href={c.report.url} target="_blank" rel="noopener">{c.report.filename}</a>）。
+    <a href={`/paper/chapters/companies/${c.ticker}.html`}>看完整研究頁（含每句的查核紀錄與參考資料）→</a>
     {c.tags.map((t) => <span class="chip">{t}</span>)}
   </p>
 

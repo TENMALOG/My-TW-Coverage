@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="隱私權政策" description="股.tw 研究室沒有帳號、沒有 cookie、沒有廣告追蹤；觀察清單只存在你自己的裝置。">
+<Base title="隱私權政策" description="股.tw 研究室沒有帳號、沒有 cookie、沒有廣告追蹤；只用不設 cookie 的 Cloudflare 流量統計；觀察清單只存在你自己的裝置。">
   <article class="card prose">
     <span class="kicker">隱私</span>
     <h1>隱私權政策</h1>
@@ -9,14 +9,15 @@ import Base from '../layouts/Base.astro';
       <b>三秒看懂</b>
       <ul>
         <li>沒有帳號、沒有 cookie、沒有廣告追蹤。</li>
+        <li>只用 Cloudflare 的流量統計看「有多少人看、看哪些頁」，不認得你是誰。</li>
         <li>你的觀察清單只存在你自己的裝置。</li>
         <li>網頁會經過 Cloudflare（主機）和 Google（字型）送到你手上。</li>
       </ul>
     </div>
-    <p class="muted">最後更新：2026 年 10 月</p>
+    <p class="muted">最後更新：2026 年 10 月 21 日</p>
     <ol>
-      <li><b>我們自己不收集你的個人資料。</b>本站沒有註冊、登入、留言，也沒有會送出資料的表單；不使用 cookie，沒有廣告或第三方追蹤碼。</li>
-      <li><b>存在你裝置上的東西。</b>觀察清單（公司代號）和深淺色設定，只存在你這台裝置的瀏覽器裡（技術名稱：localStorage），不會傳給我們。清除瀏覽器資料就會刪除，換裝置也不會跟著走。</li>
+      <li><b>我們不收集能認出你是誰的資料。</b>本站沒有註冊、登入、留言，也沒有會送出資料的表單；不使用 cookie，沒有廣告追蹤碼。</li>
+      <li><b>存在你裝置上的東西。</b>觀察清單（公司代號）、深淺色設定，以及研究報告全文頁（/paper/）的頁面顯示設定（例如分頁選擇），只存在你這台裝置的瀏覽器裡（技術名稱：localStorage），不會傳給我們。清除瀏覽器資料就會刪除，換裝置也不會跟著走。</li>
       <li><b>搜尋。</b>搜尋在你的瀏覽器裡完成，你輸入的字詞本身不會送到伺服器（瀏覽器會向本站下載搜尋用的索引檔）。</li>
       <li><b>網頁送到你手上會經過的服務。</b>
         <ul>
@@ -24,11 +25,12 @@ import Base from '../layouts/Base.astro';
           <li><b>Google Fonts</b>（網頁字型，連線到 fonts.googleapis.com 與 fonts.gstatic.com）：你的瀏覽器會連到 Google，Google 可能看到你的 IP 位址。</li>
         </ul>
       </li>
+      <li><b>流量統計（Cloudflare Web Analytics）。</b>為了知道網站有多少人看、哪些頁面最常被看、載入速度快不快，本站使用 Cloudflare 提供的流量統計。它會在你瀏覽時，把網址、從哪個網站連過來、瀏覽器與裝置類型、大約所在國家、頁面載入時間等資訊送到 Cloudflare（統計程式從 static.cloudflareinsights.com 載入，資料經由本站網址傳給 Cloudflare）；不使用 cookie，也不在你的裝置上儲存任何識別碼。我們只看得到彙總後的數字（例如「上週台積電頁被看了幾次」），看不到個別訪客，也不會拿來辨識個人。如果你的瀏覽器或外掛擋掉這段統計程式，網站功能完全不受影響。</li>
       <li><b>外部連結。</b>點「在 YouTube 看」等外部連結後，就適用該網站的隱私權政策。本站不內嵌 YouTube 播放器。</li>
       <li><b>分享。</b>分享功能使用你裝置內建的分享選單或複製連結，我們不會知道你分享給誰。</li>
       <li><b>你寄信給我們時。</b>你寄來的 email 地址和內容，只用來核對和回覆這次的問題，處理完成後 6 個月內刪除，不提供給第三人；你可以隨時要求查詢或刪除。</li>
       <li><b>經營者與聯絡方式。</b>本站經營者：Tenmalog 尼奧天馬；聯絡信箱：<a href="mailto:neo@rewrite.tw">neo@rewrite.tw</a>。</li>
-      <li>若之後加入流量統計等服務，會先更新本頁；需要你同意的，會在使用前詢問。</li>
+      <li>若之後加入其他服務，會先更新本頁；需要你同意的，會在使用前詢問。</li>
     </ol>
   </article>
 </Base>
