@@ -1,0 +1,29 @@
+---
+// 我的觀察清單：存在這台裝置的瀏覽器（不需登入、不上傳）。
+import Base from '../../layouts/Base.astro';
+---
+<Base title="我的觀察清單" description="你加入觀察的公司（只存在這台裝置）">
+  <section class="card">
+    <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 6px">我的觀察清單</h1>
+    <p class="muted" style="margin:0">清單只存在這台裝置的瀏覽器，不需登入，也不會上傳。在公司頁按「☆ 加入觀察」就會出現在這裡。</p>
+    <div id="pick" style="margin-top:10px"></div>
+  </section>
+  <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="iconbtn" id="cmp" href="/compare/" style="display:none">比較前 3 家</a></div>
+  <div id="res"></div>
+
+  <script>
+    import { byTicker, miniCard, watchlist, setWatchlist, el, picker } from '../../components/tools.js';
+    const map = await byTicker();
+    function render() {
+      const w = watchlist().filter((t) => map[t]);
+      const cmp = document.getElementById('cmp');
+      cmp.style.display = w.length >= 2 ? '' : 'none';
+      cmp.href = `/compare/?c=${w.slice(0, 3).join(',')}`;
+      document.getElementById('res').replaceChildren(...(w.length ? w.map((t) => miniCard(map[t],
+        el('button', { class: 'chip', style: 'margin-top:6px', onclick: () => { setWatchlist(watchlist().filter((x) => x !== t)); render(); } }, '移除')))
+        : [el('p', { class: 'muted' }, '清單是空的。可以在上方輸入公司加入，或到公司頁按「☆ 加入觀察」。')]));
+    }
+    document.getElementById('pick').append(await picker((c) => { const w = watchlist(); if (!w.includes(c.t)) setWatchlist([...w, c.t]); render(); }, '加入公司：輸入代號或名稱'));
+    render();
+  </script>
+</Base>

@@ -99,10 +99,14 @@ function watchlist(ticker) {
 }
 
 function share(data) {
+  // 手機：連同分享卡圖片一起分享（Web Share API level 2）；不支援就只分享連結；桌面則複製連結
   document.getElementById('share')?.addEventListener('click', async () => {
     const payload = { title: `${data.name}（${data.ticker}）｜股.tw 研究室`, url: location.href };
     try {
-      if (navigator.share) await navigator.share(payload);
+      const res = await fetch(`/og/${data.ticker}.jpg`);
+      const file = new File([await res.blob()], `${data.ticker}.jpg`, { type: 'image/jpeg' });
+      if (navigator.canShare?.({ files: [file] })) await navigator.share({ ...payload, files: [file] });
+      else if (navigator.share) await navigator.share(payload);
       else { await navigator.clipboard.writeText(location.href); alert('已複製連結'); }
     } catch (e) { /* 使用者取消分享 */ }
   });

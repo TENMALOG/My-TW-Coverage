@@ -1,0 +1,66 @@
+---
+// 全站供應鏈地圖：上市櫃公司年報明確點名的往來（逐筆查核），從一家公司出發，點節點就展開它的客戶與供應商。
+import Base from '../../layouts/Base.astro';
+---
+<Base title="供應鏈地圖" description="從一家公司出發，一路點開它在年報裡點名的客戶與供應商">
+  <section class="card">
+    <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 6px">供應鏈地圖</h1>
+    <p class="muted" style="margin:0 0 10px">只畫「上市櫃公司年報明確點名、且雙方都是上市櫃公司」的往來，逐筆查核。箭頭由供應商指向客戶。
+      <b>點一下</b>節點展開它的往來對象；下方會顯示該公司的連結。</p>
+    <div id="pick"></div>
+    <div id="info" style="margin-top:10px"></div>
+  </section>
+  <section class="card" style="padding:8px"><div id="g" style="width:100%;height:min(72vh,640px)"></div></section>
+
+  <script>
+    import { summary, byTicker, el, picker, css, fmtRev } from '../../components/tools.js';
+    const all = await summary();
+    const map = await byTicker();
+    const edges = new Map();   // "s>d" -> label   (s 供應給 d)
+    for (const c of all) for (const [t, side, label] of c.rel) {
+      if (!map[t]) continue;
+      const [s, d] = side === 'customer' ? [c.t, t] : [t, c.t];
+      if (!edges.has(`${s}>${d}`) || label) edges.set(`${s}>${d}`, label || edges.get(`${s}>${d}`) || '');
+    }
+    const nbr = {};
+    for (const k of edges.keys()) { const [s, d] = k.split('>'); (nbr[s] ||= new Set()).add(d); (nbr[d] ||= new Set()).add(s); }
+    const shown = new Set(), expanded = new Set();
+    let focus = new URLSearchParams(location.search).get('c') || '2330';
+    if (!nbr[focus]) focus = Object.keys(nbr).sort((a, b) => nbr[b].size - nbr[a].size)[0];
+
+    const echarts = await import('echarts');
+    const chart = echarts.init(document.getElementById('g'), null, { renderer: 'canvas' });
+    addEventListener('resize', () => chart.resize());
+
+    function expand(t) { shown.add(t); expanded.add(t); for (const n of nbr[t] || []) shown.add(n); }
+    function info(t) {
+      const c = map[t];
+      document.getElementById('info').replaceChildren(el('div', {},
+        el('a', { href: `/c/${t}/`, style: 'font-weight:900;font-size:18px' }, `${c.n}（${t}）`), ' ',
+        el('span', { class: 'chip' }, c.in), el('span', { class: 'muted num' }, ` 營收 ${fmtRev(c.rev)}｜往來 ${nbr[t]?.size || 0} 家`)));
+      const u = new URL(location.href); u.searchParams.set('c', t); history.replaceState(null, '', u);
+    }
+    function draw() {
+      const nodes = [...shown].map((t) => ({ id: t, name: map[t].n, t,
+        symbolSize: t === focus ? 46 : 18 + Math.min(20, (nbr[t]?.size || 0) * 2),
+        itemStyle: { color: t === focus ? '#FF573F' : expanded.has(t) ? css('--fg') : css('--card'), borderColor: css('--fg'), borderWidth: 2 },
+        label: { color: css('--fg') } }));
+      const links = [...edges].filter(([k]) => { const [s, d] = k.split('>'); return shown.has(s) && shown.has(d); })
+        .map(([k, label]) => { const [s, d] = k.split('>'); return { source: s, target: d, label }; });
+      chart.setOption({
+        textStyle: { fontFamily: 'Noto Sans TC, sans-serif' },
+        tooltip: { formatter: (p) => p.dataType === 'edge' ? `${map[p.data.source].n} → ${map[p.data.target].n}${p.data.label ? '<br>' + p.data.label : ''}` : `${p.data.name}（${p.data.t}）<br>往來 ${nbr[p.data.t]?.size || 0} 家，點一下展開` },
+        series: [{ type: 'graph', layout: 'force', roam: true, draggable: true, data: nodes, links,
+          force: { repulsion: 220, edgeLength: [70, 160], gravity: 0.06, friction: 0.15 },
+          label: { show: true, position: 'bottom', fontSize: 12 }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
+          lineStyle: { color: css('--muted'), width: 1.4, curveness: 0.12 }, emphasis: { focus: 'adjacency' } }],
+      }, true);
+    }
+    chart.on('click', (p) => { if (p.dataType !== 'node') return; focus = p.data.t; expand(focus); info(focus); draw(); });
+    document.getElementById('pick').append(await picker((c) => {
+      if (!nbr[c.t]) { document.getElementById('info').replaceChildren(el('p', { class: 'muted' }, `${c.n} 的年報沒有點名其他上市櫃公司，或沒有被其他上市櫃公司點名。`)); return; }
+      shown.clear(); expanded.clear(); focus = c.t; expand(focus); info(focus); draw();
+    }, '從哪家公司開始？輸入代號或名稱'));
+    expand(focus); info(focus); draw();
+  </script>
+</Base>

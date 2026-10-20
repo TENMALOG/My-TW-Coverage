@@ -74,7 +74,24 @@ def main():
     (OUT / 'companies.json').write_text(json.dumps(comps, ensure_ascii=False), encoding='utf-8')
     (OUT / 'industries.json').write_text(json.dumps(sorted(inds.values(), key=lambda x: -len(x['tickers'])),
                                                    ensure_ascii=False), encoding='utf-8')
-    print('companies', len(comps), 'industries', len(inds))
+    # slim per-company summary for the client-side tools (compare, screener, watchlist, map): ~0.5 MB
+    summ = []
+    for c in comps:
+        ys = sorted(c['fin'])
+        last = c['fin'][ys[-1]] if ys else None
+        yoy = (c['fin'][ys[-1]]['revenue_k'] / c['fin'][ys[0]]['revenue_k'] - 1) * 100 if len(ys) > 1 and c['fin'][ys[0]]['revenue_k'] else None
+        top_c = max((float(r['share'].rstrip('%')) for r in c['relations'] if r['side'] == 'customer' and r['share'].rstrip('%').replace('.', '', 1).isdigit()), default=None)
+        summ.append({'t': c['ticker'], 'n': c['name'], 'i': c['industry']['slug'], 'in': c['industry']['name'], 'm': c['mops_industry'],
+                     'y': ys[-1] if ys else None, 'rev': round(last['revenue_k'] / 1e5, 2) if last else None,
+                     'gm': last.get('gross_margin_pct') if last else None, 'yoy': round(yoy, 1) if yoy is not None else None,
+                     'mix': (c['mix'] or {}).get('items', [])[:4], 'mixy': (c['mix'] or {}).get('year'), 'mixb': (c['mix'] or {}).get('basis'),
+                     'reg': (c['regions'] or {}).get('items', [])[:4], 'regy': (c['regions'] or {}).get('year'), 'regb': (c['regions'] or {}).get('basis'),
+                     'h': (c['hook'] or {}).get('text', ''), 'rel': [[r['ticker'], r['side'], r['label']] for r in c['relations']],
+                     'moved': bool(c['corrected_from']), 'yt': c.get('youtube_id')})
+    pub_data = ROOT / 'explore-demo/public/data'
+    pub_data.mkdir(parents=True, exist_ok=True)
+    (pub_data / 'summary.json').write_text(json.dumps(summ, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print('companies', len(comps), 'industries', len(inds), 'summary bytes', (pub_data / 'summary.json').stat().st_size)
 
 
 if __name__ == '__main__':

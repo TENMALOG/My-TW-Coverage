@@ -2,6 +2,7 @@
 // 公司卡片頁：一頁看懂一家公司。所有內容來自 src/data/companies.json（已查核事實＋財務彙總），每張卡都可展開年報出處。
 import fs from 'node:fs';
 import Base from '../../layouts/Base.astro';
+import Term from '../../components/Term.astro';
 import companies from '../../data/companies.json';
 
 export function getStaticPaths() {
@@ -23,7 +24,7 @@ const ids = (o) => (o?.facts || []).join(',');
 const desc = c.hook?.text || `${c.name}（${c.ticker}）年報重點`;
 const chartData = { mix: c.mix, regions: c.regions, years, rev };
 ---
-<Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article">
+<Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`}>
   <div data-pagefind-body>
   {(c.youtube_id || hasPoster) && (
     <figure class="yt" data-yt={c.youtube_id || ''} data-pagefind-ignore>
@@ -39,7 +40,7 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
     <div class="muted">{c.legal_name}</div>
     <div style="margin-top:10px">
       <a class="chip on" href={`/i/${c.industry.slug}/`} data-pagefind-filter="產業">{c.industry.name}</a>
-      {c.mops_industry && <span class="chip" title="公司在公開資訊觀測站登記的產業別">證交所：{c.mops_industry}</span>}
+      {c.mops_industry && <span class="chip"><Term term="證交所產業別" label="證交所" />：{c.mops_industry}</span>}
     </div>
     {c.corrected_from && <p class="muted">原專案歸為「{c.corrected_from}」，本研究依年報主要業務更正分類。</p>}
     <div style="display:flex;gap:10px;margin-top:12px">
@@ -69,7 +70,7 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
     <section class="card reveal">
       <h2>{c.mix.title || '營收從哪來'}</h2>
       <div class="chart" id="mix"></div>
-      <p class="muted">{c.mix.year} 年度｜{c.mix.basis}　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>年報出處</button></p>
+      <p class="muted">{c.mix.year} 年度｜<Term term="分母" label={c.mix.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>年報出處</button></p>
     </section>
   )}
 
@@ -77,7 +78,7 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
     <section class="card reveal">
       <h2>{c.regions.title || '賣到哪裡'}</h2>
       <div class="chart" id="regions" style="height:220px"></div>
-      <p class="muted">{c.regions.year} 年度｜{c.regions.basis}　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>年報出處</button></p>
+      <p class="muted">{c.regions.year} 年度｜<Term term="分母" label={c.regions.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>年報出處</button></p>
     </section>
   )}
 
@@ -86,11 +87,11 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
       <h2>賺多少？</h2>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <span class="chip num">營收 {years.at(-1)}：{fmt(rev.at(-1))} 億</span>
-        {yoy !== null && <span class="chip num" style={yoy >= 0 ? 'background:var(--coral);color:#181715' : ''}>年增 {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</span>}
-        {gm != null && <span class="chip num">毛利率 {gm}%</span>}
+        {yoy !== null && <span class="chip num" style={yoy >= 0 ? 'background:var(--coral);color:#181715' : ''}><Term term="營收年增" label="年增" /> {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</span>}
+        {gm != null && <span class="chip num"><Term term="毛利率" /> {gm}%</span>}
       </div>
       <div class="chart" id="money" style="height:240px"></div>
-      <p class="muted">公開資訊觀測站「綜合損益表彙總」，合併報表；年增率與單位換算由本站計算。</p>
+      <p class="muted">公開資訊觀測站「綜合損益表彙總」，<Term term="合併報表" />；年增率與單位換算由本站計算。</p>
     </section>
   )}
 
@@ -111,7 +112,7 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
 
   {c.cards.map((k) => (
     <section class="card reveal">
-      {k.self ? <span data-pagefind-ignore class="badge-self">公司自述・未經驗證</span> : <span data-pagefind-ignore class="kicker">重點</span>}
+      {k.self ? <span data-pagefind-ignore class="badge-self"><Term term="公司自述" label="公司自述・未經驗證" /></span> : <span data-pagefind-ignore class="kicker">重點</span>}
       <p style="font-size:21px;font-weight:700;margin:8px 0">{k.text}</p>
       <button data-pagefind-ignore class="src" data-facts={ids(k)}>年報出處</button>
     </section>

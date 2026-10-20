@@ -1,0 +1,9 @@
+---
+// 名詞小卡：點一下彈出白話解釋（HTML popover，不需 JavaScript）。
+import glossary from '../data/glossary.json';
+const { term, label = term } = Astro.props;
+const id = 'g-' + Math.random().toString(36).slice(2, 9);
+---
+<button type="button" class="term" popovertarget={id} data-pagefind-ignore>{label}</button><div popover id={id} class="termcard" data-pagefind-ignore>
+  <b>{term}</b><p>{glossary[term]}</p>
+</div>

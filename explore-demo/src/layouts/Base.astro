@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
-const { title, description = '每一句都能回查年報的台股產業研究', ogType = 'website' } = Astro.props;
+const { title, description = '每一句都能回查年報的台股產業研究', ogType = 'website', ogImage = null } = Astro.props;
+const img = ogImage ? new URL(ogImage, Astro.site ?? Astro.url).href : null;   // OG 圖需絕對網址：上線後在 astro.config 設 site
 ---
 <!doctype html>
 <html lang="zh-Hant">
@@ -13,6 +14,10 @@ const { title, description = '每一句都能回查年報的台股產業研究',
   <meta property="og:description" content={description} />
   <meta property="og:type" content={ogType} />
   <meta name="theme-color" content="#FF573F" />
+  {img && <meta property="og:image" content={img} />}
+  {img && <meta property="og:image:width" content="1200" />}
+  {img && <meta property="og:image:height" content="630" />}
+  <meta name="twitter:card" content={img ? 'summary_large_image' : 'summary'} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Noto+Serif+TC:wght@700&family=Roboto+Mono:wght@500;700&display=swap" />
   <script is:inline>
@@ -21,9 +26,12 @@ const { title, description = '每一句都能回查年報的台股產業研究',
 </head>
 <body>
   <header class="top"><div class="in">
-    <a class="logo" href="/">股<b>.</b>tw 研究室</a>
+    <a class="logo" href="/">股<b>.</b>tw<span class="logo-sub"> 研究室</span></a>
     <span class="sp"></span>
-    <a class="iconbtn" href="/search/" aria-label="搜尋">🔍 搜尋</a>
+    <a class="iconbtn" href="/search/" aria-label="搜尋">🔍</a>
+    <a class="iconbtn" href="/screen/">篩選</a>
+    <a class="iconbtn" href="/map/">地圖</a>
+    <a class="iconbtn" href="/watch/" aria-label="我的觀察清單">★</a>
     <button class="iconbtn" id="theme" aria-label="切換深色模式">◐</button>
   </div></header>
   <main class="wrap"><slot /></main>

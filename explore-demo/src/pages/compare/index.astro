@@ -1,0 +1,74 @@
+---
+// 比較器：最多 3 家並排。網址 ?c=2330,2454 可分享。數字取自已查核的摘要資料，營收結構／銷售地區附年度與分母。
+import Base from '../../layouts/Base.astro';
+---
+<Base title="公司比較" description="最多三家上市櫃公司並排比較：營收、年增、毛利率、營收結構、銷售地區">
+  <section class="card">
+    <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 8px">公司比較</h1>
+    <p class="muted" style="margin:0 0 10px">最多 3 家。數字取自公開資訊觀測站與各公司年報，營收結構和銷售地區都註明年度與分母。</p>
+    <div id="pick"></div>
+    <div id="chips" style="margin-top:10px"></div>
+  </section>
+  <div id="out"></div>
+
+  <script>
+    import { summary, byTicker, fmtRev, fmtPct, el, picker, css } from '../../components/tools.js';
+    const MAX = 3;
+    const params = new URLSearchParams(location.search);
+    let sel = (params.get('c') || '').split(',').filter(Boolean).slice(0, MAX);
+    const map = await byTicker();
+    sel = sel.filter((t) => map[t]);
+
+    function sync() {
+      const u = new URL(location.href);
+      sel.length ? u.searchParams.set('c', sel.join(',')) : u.searchParams.delete('c');
+      history.replaceState(null, '', u);
+    }
+    function row(label, f) {
+      return el('tr', {}, el('th', { style: 'text-align:left;white-space:nowrap;padding:8px 10px 8px 0;vertical-align:top' }, label),
+        ...sel.map((t) => el('td', { style: 'padding:8px 10px;vertical-align:top;border-left:1px solid var(--line)' }, f(map[t]))));
+    }
+    const list = (items, year, basis) => items && items.length
+      ? el('div', {}, items.map(([a, b]) => el('div', { class: 'num' }, `${a} ${b}%`)), el('div', { class: 'muted' }, `${year} 年度｜${basis || ''}`))
+      : el('span', { class: 'muted' }, '年報未揭露可比資料');
+
+    async function render() {
+      sync();
+      const chips = document.getElementById('chips');
+      chips.replaceChildren(...sel.map((t) => el('button', { class: 'chip on', onclick: () => { sel = sel.filter((x) => x !== t); render(); } }, `${map[t].n} ✕`)));
+      const out = document.getElementById('out');
+      if (!sel.length) { out.replaceChildren(el('p', { class: 'muted' }, '先在上方加入公司。')); return; }
+      const table = el('table', { style: 'width:100%;border-collapse:collapse;font-size:15px' },
+        el('tr', {}, el('th', {}), ...sel.map((t) => el('th', { style: 'text-align:left;padding:8px 10px;border-left:1px solid var(--line)' },
+          el('a', { href: `/c/${t}/`, style: 'font-size:18px' }, `${map[t].n}`), el('div', { class: 'muted num' }, t)))),
+        row('產業', (c) => c.in),
+        row('證交所產業別', (c) => c.m || '—'),
+        row('營收', (c) => el('span', { class: 'num' }, `${fmtRev(c.rev)}（${c.y ?? '—'}）`)),
+        row('營收年增', (c) => el('span', { class: 'num' }, fmtPct(c.yoy, true))),
+        row('毛利率', (c) => el('span', { class: 'num' }, fmtPct(c.gm))),
+        row('營收結構', (c) => list(c.mix, c.mixy, c.mixb)),
+        row('銷售地區', (c) => list(c.reg, c.regy, c.regb)),
+        row('一句話', (c) => c.h || '—'));
+      const chart = el('div', { class: 'chart', style: 'height:260px' });
+      out.replaceChildren(el('section', { class: 'card', style: 'overflow-x:auto' }, table),
+        el('section', { class: 'card' }, el('h2', {}, '營收與毛利率'), chart,
+          el('p', { class: 'muted' }, '公開資訊觀測站「綜合損益表彙總」；年增率由本站計算。')));
+      const echarts = await import('echarts');
+      const c = echarts.init(chart, null, { renderer: 'svg' });
+      const names = sel.map((t) => map[t].n);
+      c.setOption({
+        textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, legend: { textStyle: { color: css('--fg') } },
+        grid: { left: 50, right: 50, top: 40, bottom: 30 }, tooltip: { trigger: 'axis' },
+        xAxis: { type: 'category', data: names, axisLabel: { color: css('--fg') } },
+        yAxis: [{ type: 'value', name: '營收（億）', axisLabel: { color: css('--muted') } }, { type: 'value', name: '毛利率', axisLabel: { color: css('--muted'), formatter: '{value}%' } }],
+        animationEasing: 'bounceOut', animationDuration: 1200,
+        series: [
+          { name: '營收（億）', type: 'bar', data: sel.map((t) => map[t].rev), itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 2 } },
+          { name: '毛利率', type: 'line', yAxisIndex: 1, data: sel.map((t) => map[t].gm), symbolSize: 12, lineStyle: { color: css('--fg'), width: 3 }, itemStyle: { color: css('--fg') } },
+        ],
+      });
+    }
+    document.getElementById('pick').append(await picker((c) => { if (!sel.includes(c.t) && sel.length < MAX) { sel.push(c.t); render(); } }));
+    render();
+  </script>
+</Base>

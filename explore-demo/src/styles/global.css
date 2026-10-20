@@ -86,3 +86,20 @@ figure.yt .ytplay, figure.yt .ytsoon { position: absolute; left: 50%; bottom: 22
   border: 2.5px solid #181715; border-radius: 999px; padding: 10px 18px; font: inherit; font-weight: 900; box-shadow: 4px 4px 0 #181715; }
 figure.yt .ytplay { background: #FF573F; color: #181715; cursor: pointer; }
 figure.yt .ytsoon { background: #ffffff; color: #181715; font-size: 14px; }
+
+/* 名詞小卡 */
+button.term { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help;
+  text-decoration: underline dotted var(--coral); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.termcard { max-width: min(340px, 90vw); border: 2.5px solid var(--fg); border-radius: 16px; padding: 12px 16px;
+  background: var(--card); color: var(--fg); box-shadow: 5px 5px 0 var(--shadow); }
+.termcard p { margin: 6px 0 0; font-size: 15px; line-height: 1.6; }
+.termcard::backdrop { background: #18171533; }
+
+/* 頁首在手機上不擠：按鈕不換行、較緊湊，窄螢幕只顯示「股.tw」 */
+.top .in { gap: 8px; }
+.logo, .iconbtn { white-space: nowrap; }
+@media (max-width: 480px) {
+  .top .in { gap: 6px; padding: 8px 12px; }
+  .logo-sub { display: none; }
+  .iconbtn { height: 36px; min-width: 36px; padding: 0 10px; box-shadow: 2px 2px 0 var(--shadow); }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<style>
+  @font-face{font-family:"RixingSong";src:url("file:///C:/Users/Neo%20Pegasus/AppData/Local/Microsoft/Windows/Fonts/rixingsong-1.0-semibold.otf") format("opentype")}
+  *{margin:0;box-sizing:border-box;font-synthesis:none}
+  html,body{width:1200px;height:630px;overflow:hidden;background:#F2EFE8;color:#181715;font-family:"RixingSong",serif}
+  .card{position:absolute;inset:0;padding:56px 72px;display:flex;flex-direction:column}
+  .top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px solid #181715;padding-bottom:14px;font-size:28px}
+  .top .k{color:#FF573F}
+  .tk{font-size:40px;color:#7a7468;margin-top:34px}
+  .name{font-size:120px;line-height:1.05;margin-top:2px;white-space:nowrap}
+  .hook{font-size:40px;line-height:1.35;margin-top:26px;max-width:1000px}
+  .hook mark{background:linear-gradient(transparent 52%,#FF573Fd9 52%);color:inherit}
+  .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:26px;color:#7a7468}
+  .brand{font-size:40px;color:#181715}
+  .brand::after{content:"";display:block;height:5px;background:#FF573F;margin-top:6px}
+</style></head>
+<body><div class="card" id="c"></div>
+<script>
+// 分享卡（Open Graph 1200×630）：只用已查核的 hook 句與名稱；字型只用日星宋體。
+const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+window.fill=d=>{
+  const fit=(el,max)=>{let s=parseFloat(getComputedStyle(el).fontSize);while(el.scrollWidth>max&&s>40){s-=4;el.style.fontSize=s+'px'}};
+  document.getElementById('c').innerHTML=`
+    <div class="top"><span class="k">${esc(d.kicker)}</span><span>${esc(d.right)}</span></div>
+    ${d.tk?`<div class="tk">${esc(d.tk)}</div>`:'<div style="height:34px"></div>'}
+    <div class="name" id="nm">${esc(d.name)}</div>
+    ${d.hook?`<div class="hook"><mark>${esc(d.hook)}</mark></div>`:''}
+    <div class="foot"><span>${esc(d.foot)}</span><span class="brand">股.tw 研究室</span></div>`;
+  fit(document.getElementById('nm'),1056);
+};
+window.ready=document.fonts.load('40px "RixingSong"');
+</script></body></html>
