@@ -28,13 +28,8 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
 ---
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`}>
   <div data-pagefind-body>
-  {(c.youtube_id || hasPoster) && (
-    <figure class="yt" data-yt={c.youtube_id || ''} data-video={c.youtube_id ? '' : videoUrl} data-pagefind-ignore>
-      {hasPoster && <img src={`/poster/${c.ticker}.jpg`} alt={`${c.name} 公司速覽影片封面`} loading="eager" />}
-      <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 播放 24 秒速覽</button>
-    </figure>
-  )}
-  <section class="card">
+  <section class="card hero">
+   <div class="herotext">
     <span class="kicker num">{c.ticker}</span>
     <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0;line-height:1.15" data-pagefind-meta="title">{c.name}</h1>
     <div class="muted">{c.legal_name}</div>
@@ -47,6 +42,14 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
       <button class="iconbtn" id="watch" data-ticker={c.ticker}>☆ 加入觀察</button>
       <button class="iconbtn" id="share">↗ 分享</button>
     </div>
+   </div>
+  {hasPoster && (
+    <figure class="yt" data-video={videoUrl} data-pagefind-ignore>
+      <img src={`/poster/${c.ticker}.jpg`} alt={`${c.name} 公司速覽影片封面`} loading="eager" />
+      <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 24 秒速覽</button>
+      {c.youtube_id && <a class="ytlink" href={`https://www.youtube.com/shorts/${c.youtube_id}`} target="_blank" rel="noopener">在 YouTube 看 ↗</a>}
+    </figure>
+  )}
   </section>
 
   {c.hook && (

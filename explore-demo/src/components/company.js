@@ -112,29 +112,26 @@ function share(data) {
   });
 }
 
-function youtube() {
-  // 點了才載入 YouTube（隱私強化模式 youtube-nocookie.com）：沒點之前不連 YouTube、不設 cookie
-  // 還沒上 YouTube 的公司：播放本站存放的同一支影片（點了才下載）
+function video() {
+  // 網頁只顯示 9:16 影片中間的正方形（y 280–1360，Shorts 版面的核心區）；點了才下載本站存放的影片
   const box = document.querySelector('figure.yt');
-  const id = box?.dataset.yt;
   const src = box?.dataset.video;
-  if (!id && !src) return;
+  if (!src) return;
   box.querySelector('.ytplay').addEventListener('click', () => {
-    if (!id) {
-      const v = document.createElement('video');
-      Object.assign(v, { src, controls: true, autoplay: true, playsInline: true, preload: 'auto' });
-      v.poster = box.querySelector('img')?.src || '';
-      v.setAttribute('aria-label', box.querySelector('img')?.alt || '公司速覽影片');
-      box.replaceChildren(v);
-      return;
-    }
-    const f = document.createElement('iframe');
-    f.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&playsinline=1&rel=0`;
-    f.title = box.querySelector('img')?.alt || 'YouTube';
-    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
-    f.referrerPolicy = 'strict-origin-when-cross-origin';
-    box.replaceChildren(f);
-  });
+    const v = document.createElement('video');
+    Object.assign(v, { src, autoplay: true, playsInline: true, preload: 'auto' });
+    v.poster = box.querySelector('img')?.src || '';
+    v.setAttribute('aria-label', box.querySelector('img')?.alt || '公司速覽影片');
+    // 點畫面暫停／繼續；播完回到開頭並顯示重播
+    v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
+    v.addEventListener('ended', () => { v.currentTime = 0; box.classList.add('ended'); });
+    v.addEventListener('play', () => box.classList.remove('ended'));
+    box.querySelector('img')?.remove();
+    box.querySelector('.ytplay').textContent = '↻ 重播';
+    box.querySelector('.ytplay').onclick = (e) => { e.stopPropagation(); v.play(); };
+    box.classList.add('playing');
+    box.prepend(v);
+  }, { once: true });
 }
 
 export function initCompany() {
@@ -145,5 +142,5 @@ export function initCompany() {
   sources(data);
   watchlist(data.ticker);
   share(data);
-  youtube();
+  video();
 }

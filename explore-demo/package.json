@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "data": "py scripts/export_data.py",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist && py scripts/link_video.py",
     "preview": "astro preview --port 4430 --host 127.0.0.1"
   },
   "dependencies": {
