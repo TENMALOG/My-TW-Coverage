@@ -35,6 +35,7 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
       <span class="num">{rows.length}</span> 家公司・2025 合計營收 <span class="num">{fmt(total)}</span> 億元
     </p>
     <p class="muted" style="color:#181715">營收取自公開資訊觀測站綜合損益表彙總（{withFin.length} 家有資料）；合計為本站加總。</p>
+    {ind.slug === 'semiconductors' && <p><a class="chip" style="background:#fff;color:#181715" href="/story/semiconductors/">▶ 往下滑五分鐘，看懂這個產業</a></p>}
   </section>
 
   <section class="card reveal">

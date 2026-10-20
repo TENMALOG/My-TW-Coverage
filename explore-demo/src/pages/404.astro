@@ -1,0 +1,22 @@
+---
+// 找不到頁面：給搜尋入口和幾家常被查的公司（營收最大的 8 家，由資料計算）。
+import Base from '../layouts/Base.astro';
+import companies from '../data/companies.json';
+const top = companies.filter((c) => Object.keys(c.fin).length)
+  .map((c) => ({ c, rev: c.fin[Object.keys(c.fin).sort().at(-1)].revenue_k }))
+  .sort((a, b) => b.rev - a.rev).slice(0, 8).map((x) => x.c);
+---
+<Base title="找不到這一頁">
+  <section class="card">
+    <span class="kicker">404</span>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:34px;margin:4px 0">這一頁不見了</h1>
+    <p>網址可能打錯，或這一頁已經搬家。試試搜尋公司名稱、代號或關鍵字：</p>
+    <form action="/search/" method="get" role="search" style="display:flex;gap:8px;flex-wrap:wrap">
+      <input name="q" type="search" placeholder="例如：台積電、2330、CoWoS" aria-label="搜尋" class="input" style="flex:1;min-width:200px" />
+      <button class="iconbtn" type="submit">搜尋</button>
+    </form>
+    <h2>或從這幾家開始</h2>
+    <p>{top.map((c) => <a class="chip" href={`/c/${c.ticker}/`}>{c.name} <span class="num">{c.ticker}</span></a>)}</p>
+    <p><a class="chip on" href="/">回首頁</a></p>
+  </section>
+</Base>

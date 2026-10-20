@@ -18,6 +18,7 @@ import Base from '../../layouts/Base.astro';
     let sel = (params.get('c') || '').split(',').filter(Boolean).slice(0, MAX);
     const map = await byTicker();
     sel = sel.filter((t) => map[t]);
+    let currentChart, chartObserver;
 
     function sync() {
       const u = new URL(location.href);
@@ -33,6 +34,8 @@ import Base from '../../layouts/Base.astro';
       : el('span', { class: 'muted' }, '年報未揭露可比資料');
 
     async function render() {
+      chartObserver?.disconnect();
+      currentChart?.dispose();
       sync();
       const chips = document.getElementById('chips');
       chips.replaceChildren(...sel.map((t) => el('button', { class: 'chip on', onclick: () => { sel = sel.filter((x) => x !== t); render(); } }, `${map[t].n} ✕`)));
@@ -49,12 +52,17 @@ import Base from '../../layouts/Base.astro';
         row('營收結構', (c) => list(c.mix, c.mixy, c.mixb)),
         row('銷售地區', (c) => list(c.reg, c.regy, c.regb)),
         row('一句話', (c) => c.h || '—'));
-      const chart = el('div', { class: 'chart', style: 'height:260px' });
+      const chart = el('div', { class: 'chart', style: 'height:260px', role: 'img',
+        'aria-label': `公司營收與毛利率比較：${sel.map((t) => `${map[t].n}，營收 ${map[t].rev} 億、毛利率 ${map[t].gm ?? '無資料'}${map[t].gm == null ? '' : '%'}`).join('；')}` });
       out.replaceChildren(el('section', { class: 'card', style: 'overflow-x:auto' }, table),
         el('section', { class: 'card' }, el('h2', {}, '營收與毛利率'), chart,
           el('p', { class: 'muted' }, '公開資訊觀測站「綜合損益表彙總」；年增率由本站計算。')));
-      const echarts = await import('echarts');
+      const echarts = await import('../../components/echarts.js');
+      if (!chart.isConnected) return;
       const c = echarts.init(chart, null, { renderer: 'svg' });
+      currentChart = c;
+      chartObserver = new ResizeObserver(() => c.resize());
+      chartObserver.observe(chart);
       const names = sel.map((t) => map[t].n);
       c.setOption({
         textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, legend: { textStyle: { color: css('--fg') } },

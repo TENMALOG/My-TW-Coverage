@@ -10,12 +10,12 @@ export function getStaticPaths() {
 }
 const { c } = Astro.props;
 const known = new Set(companies.map((x) => x.ticker));
-const hasPoster = fs.existsSync(`public/poster/${c.ticker}.jpg`);
+const hasPoster = fs.existsSync(`public/poster/${c.ticker}.webp`);
 // 還沒上 YouTube 的公司，播放自己存放的同一支影片（Cloudflare R2）；PUBLIC_VIDEO_URL 例如 https://video.example/{t}.mp4，本機示範用 /video/{t}.mp4
 const videoUrl = (import.meta.env.PUBLIC_VIDEO_URL || '/video/{t}.mp4').replace('{t}', c.ticker);
 const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
-const yoy = years.length >= 2 ? (rev[1] / rev[0] - 1) * 100 : null;
+const yoy = years.length >= 2 ? (rev.at(-1) / rev.at(-2) - 1) * 100 : null;
 const gm = years.length ? c.fin[years[years.length - 1]].gross_margin_pct : null;
 const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
 const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應用'], ['revenue_mix', '營收結構'], ['sales_regions', '銷售地區'],
@@ -25,8 +25,12 @@ const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應�
 const ids = (o) => (o?.facts || []).join(',');
 const desc = c.hook?.text || `${c.name}（${c.ticker}）年報重點`;
 const chartData = { mix: c.mix, regions: c.regions, years, rev };
+const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline: `${c.name}（${c.ticker}）年報重點`, description: desc,
+  inLanguage: 'zh-Hant-TW', image: new URL(`/og/${c.ticker}.jpg`, Astro.site).href, mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+  about: { '@type': 'Corporation', name: c.legal_name || c.name, tickerSymbol: c.ticker },
+  author: { '@type': 'Organization', name: '股.tw 研究室' }, publisher: { '@type': 'Organization', name: '股.tw 研究室' } };
 ---
-<Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`}>
+<Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`} jsonLd={jsonLd}>
   <div data-pagefind-body>
   <section class="card hero">
    <div class="herotext">
@@ -42,10 +46,11 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
       <button class="iconbtn" id="watch" data-ticker={c.ticker}>☆ 加入觀察</button>
       <button class="iconbtn" id="share">↗ 分享</button>
     </div>
+    <p class="muted" style="font-size:13px;margin:8px 0 0">觀察清單只存在你的裝置，不代表推薦。</p>
    </div>
   {hasPoster && (
     <figure class="yt" data-video={videoUrl} data-pagefind-ignore>
-      <img src={`/poster/${c.ticker}.jpg`} alt={`${c.name} 公司速覽影片封面`} loading="eager" />
+      <img src={`/poster/${c.ticker}.webp`} alt={`${c.name} 公司速覽影片封面`} width="560" height="560" loading="eager" fetchpriority="high" />
       <button class="ytplay" aria-label={`播放 ${c.name} 公司速覽影片`}>▶ 24 秒速覽</button>
       {c.youtube_id && <a class="ytlink" href={`https://www.youtube.com/shorts/${c.youtube_id}`} target="_blank" rel="noopener">在 YouTube 看 ↗</a>}
     </figure>
@@ -91,10 +96,19 @@ const chartData = { mix: c.mix, regions: c.regions, years, rev };
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <span class="chip num">營收 {years.at(-1)}：{fmt(rev.at(-1))} 億</span>
         {yoy !== null && <span class="chip num" style={yoy >= 0 ? 'background:var(--coral);color:#181715' : ''}><Term term="營收年增" label="年增" /> {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</span>}
-        {gm != null && <span class="chip num"><Term term="毛利率" /> {gm}%</span>}
+        {gm != null && <span class="chip num"><Term term="毛利率" /> {years.at(-1)}：{gm}%</span>}
       </div>
       <div class="chart" id="money" style="height:240px"></div>
       <p class="muted">公開資訊觀測站「綜合損益表彙總」，<Term term="合併報表" />；年增率與單位換算由本站計算。</p>
+    </section>
+  )}
+
+  {years.length === 0 && (
+    <section class="card reveal">
+      <h2>賺多少？</h2>
+      <p class="muted">{c.fin_missing === 'format'
+        ? '這家公司的財報格式和一般公司不同（例如銀行、證券、保險），暫時不畫營收圖表。'
+        : '我們還沒取得這家公司的財務彙總資料，所以暫時不畫營收圖表。'}</p>
     </section>
   )}
 

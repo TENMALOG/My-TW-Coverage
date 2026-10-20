@@ -28,9 +28,12 @@ import Base from '../../layouts/Base.astro';
     let focus = new URLSearchParams(location.search).get('c') || '2330';
     if (!nbr[focus]) focus = Object.keys(nbr).sort((a, b) => nbr[b].size - nbr[a].size)[0];
 
-    const echarts = await import('echarts');
-    const chart = echarts.init(document.getElementById('g'), null, { renderer: 'canvas' });
-    addEventListener('resize', () => chart.resize());
+    const echarts = await import('../../components/echarts.js');
+    const graphEl = document.getElementById('g');
+    graphEl.setAttribute('role', 'img');
+    const chart = echarts.init(graphEl, null, { renderer: 'canvas' });
+    const observer = new ResizeObserver(() => chart.resize());
+    observer.observe(graphEl);
 
     function expand(t) { shown.add(t); expanded.add(t); for (const n of nbr[t] || []) shown.add(n); }
     function info(t) {
@@ -47,6 +50,7 @@ import Base from '../../layouts/Base.astro';
         label: { color: css('--fg') } }));
       const links = [...edges].filter(([k]) => { const [s, d] = k.split('>'); return shown.has(s) && shown.has(d); })
         .map(([k, label]) => { const [s, d] = k.split('>'); return { source: s, target: d, label }; });
+      graphEl.setAttribute('aria-label', `公司供應關係圖，以 ${map[focus].n} 為中心；${links.map((link) => `${map[link.source].n} 供應給 ${map[link.target].n}`).join('；') || '目前沒有顯示供應關係'}`);
       chart.setOption({
         textStyle: { fontFamily: 'Noto Sans TC, sans-serif' },
         tooltip: { formatter: (p) => p.dataType === 'edge' ? `${map[p.data.source].n} → ${map[p.data.target].n}${p.data.label ? '<br>' + p.data.label : ''}` : `${p.data.name}（${p.data.t}）<br>往來 ${nbr[p.data.t]?.size || 0} 家，點一下展開` },

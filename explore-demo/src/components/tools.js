@@ -10,10 +10,20 @@ export const fmtRev = (v) => (v == null ? '—' : v >= 100 ? `${Math.round(v).to
 export const fmtPct = (v, sign = false) => (v == null ? '—' : `${sign && v > 0 ? '+' : ''}${v}%`);
 
 export function watchlist() {
-  try { return JSON.parse(localStorage.getItem('watch') || '[]'); } catch (e) { return []; }
+  try {
+    let saved = localStorage.getItem('gutw:watch');
+    if (saved === null) {
+      saved = localStorage.getItem('watch');
+      if (saved !== null) {
+        localStorage.setItem('gutw:watch', saved);
+        localStorage.removeItem('watch');
+      }
+    }
+    return JSON.parse(saved || '[]');
+  } catch (e) { return []; }
 }
 export function setWatchlist(v) {
-  try { localStorage.setItem('watch', JSON.stringify(v)); } catch (e) {}
+  try { localStorage.setItem('gutw:watch', JSON.stringify(v)); } catch (e) {}
 }
 
 export const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
@@ -57,4 +67,11 @@ export async function picker(onPick, placeholder = '輸入代號或公司名，�
     if (hit) { onPick(hit); input.value = ''; }
   });
   return el('div', {}, input, dl);
+}
+
+// 進入畫面時執行一次（原生 IntersectionObserver，不依賴動畫套件）
+export function onVisible(el, cb, rootMargin = '0px') {
+  if (!('IntersectionObserver' in window)) { cb(); return; }
+  const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { io.disconnect(); cb(); } }, { rootMargin });
+  io.observe(el);
 }

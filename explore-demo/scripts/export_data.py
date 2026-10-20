@@ -32,8 +32,17 @@ def main():
     posters = ROOT / 'research-site/ops/shorts/out/master'
     pub = ROOT / 'explore-demo/public/poster'
     pub.mkdir(parents=True, exist_ok=True)
+    # the page shows only the 1:1 core of the 9:16 frame (y 280-1360), so ship a small square WebP, not the 1080x1920 JPEG
+    from PIL import Image
     for f in posters.glob('*_poster.jpg'):
-        shutil.copy2(f, pub / f.name.replace('_poster', ''))
+        dst = pub / f.name.replace('_poster.jpg', '.webp')
+        if dst.exists() and dst.stat().st_mtime >= f.stat().st_mtime:
+            continue
+        im = Image.open(f).convert('RGB')
+        k = im.width / 1080
+        im.crop((0, round(280 * k), im.width, round(1360 * k))).resize((560, 560), Image.LANCZOS).save(dst, 'WEBP', quality=82, method=6)
+    # why a company has no financial chart: the MOPS summary has it in a non-standard format, or not at all
+    fin_all = {r['ticker']: r for r in json.loads((SITE / 'data/financials/fy2025-financials-all.json').read_text(encoding='utf-8'))}
     comps, inds = [], {}
     for r in cat:
         tk = r['ticker']
@@ -66,6 +75,7 @@ def main():
             'cards': sb.get('cards') or [], 'tags': sb.get('tags') or [],
             'fin': sb.get('fin') or {}, 'relations': sb.get('relations') or [], 'sources': sources,
             'youtube_id': yt.get(tk),
+            'fin_missing': None if sb.get('fin') else ('format' if tk in fin_all else 'absent'),
             # every verified fact (PASS, not rejected) for the 「年報重點全文」 section and the search index
             'facts': [{'id': f['id'], 'field': f['field'], 'statement': f['statement'], 'page': pages[f['id']].get('page')}
                       for f in base['facts'] if f['id'] in pages],
@@ -109,7 +119,18 @@ def main():
                      'moved': bool(c['corrected_from']), 'yt': c.get('youtube_id')})
     pub_data = ROOT / 'explore-demo/public/data'
     pub_data.mkdir(parents=True, exist_ok=True)
+    # the full correction tables, downloadable from the 「抓到錯了？」 page
+    (pub_data / 'errata').mkdir(exist_ok=True)
+    for k in ('names', 'classification', 'claims'):
+        shutil.copy2(SITE / f'errata/{k}.csv', pub_data / 'errata' / f'{k}.csv')
     (pub_data / 'summary.json').write_text(json.dumps(summ, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    (OUT / 'meta.json').write_text(json.dumps({'built': __import__('datetime').date.today().isoformat(),
+        'companies': len(comps), 'facts': sum(len(c['facts']) for c in comps),
+        'fy_counts': dict(__import__('collections').Counter(str(c['report']['fy']) for c in comps)),
+        'fin_missing': dict(__import__('collections').Counter(c['fin_missing'] for c in comps if c['fin_missing'])),
+        'errata': {k: sum(1 for _ in csv.DictReader(open(SITE / f'errata/{k}.csv', encoding='utf-8-sig'))) for k in ('names', 'classification', 'claims')},
+        'claims_original': dict(__import__('collections').Counter(r['原句查核結果'] for r in csv.DictReader(open(SITE / 'errata/claims.csv', encoding='utf-8-sig')))),
+        'claims_revised': dict(__import__('collections').Counter(r['更正句結果'] for r in csv.DictReader(open(SITE / 'errata/claims.csv', encoding='utf-8-sig'))))}, ensure_ascii=False), encoding='utf-8')
     print('companies', len(comps), 'industries', len(inds), 'summary bytes', (pub_data / 'summary.json').stat().st_size)
 
 

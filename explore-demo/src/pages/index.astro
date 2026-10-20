@@ -1,19 +1,109 @@
 ---
+// 首頁：第一屏是搜尋；接著「今天認識一家公司」（營收前 120 大輪流，每天換一家）、三條入門路線、依規模排序的產業。
+// 所有數字由 companies.json／industries.json 計算，不手寫。
 import Base from '../layouts/Base.astro';
+import companies from '../data/companies.json';
 import industries from '../data/industries.json';
+import meta from '../data/meta.json';
+
+const n = (v) => v.toLocaleString('en-US');
+const latestRev = (c) => { const ys = Object.keys(c.fin).sort(); return ys.length ? c.fin[ys.at(-1)].revenue_k / 1e5 : 0; };
+const byT = Object.fromEntries(companies.map((c) => [c.ticker, c]));
+const picks = companies.filter((c) => c.hook?.text).sort((a, b) => latestRev(b) - latestRev(a)).slice(0, 120)
+  .map((c) => ({ t: c.ticker, n: c.name, h: c.hook.text, i: c.industry.name }));
+const hot = ['CoWoS', 'HBM', 'AI 伺服器', '電動車', '矽光子', '低軌衛星', 'MLCC', '散熱'];
+const stories = new Set(['semiconductors']);
+const inds = industries.map((i) => ({ ...i, rev: i.tickers.reduce((s, t) => s + latestRev(byT[t]), 0) }))
+  .sort((a, b) => b.rev - a.rev);
+const fmtRev = (v) => (v >= 10000 ? `${(v / 10000).toFixed(1)} 兆` : `${n(Math.round(v))} 億`);
 ---
-<Base title="首頁（示範版）">
-  <section class="card coral">
-    <span class="kicker">示範版</span>
-    <h1 style="font-family:'Noto Serif TC',serif;font-size:34px;margin:4px 0;line-height:1.25">1,733 家台股公司<br />每一句都能回查年報</h1>
+<Base title="看懂台股公司在做什麼">
+  <section class="card coral home-hero">
+    <span class="kicker">{n(meta.companies)} 家上市櫃公司・{n(meta.facts)} 條年報事實</span>
+    <h1>這家公司到底在做什麼？<br />翻年報給你看。</h1>
+    <form action="/search/" method="get" role="search" class="home-search">
+      <input name="q" type="search" placeholder="台積電、2330、CoWoS…" aria-label="搜尋公司或關鍵字" enterkeyhint="search" />
+      <button type="submit" class="iconbtn">搜尋</button>
+    </form>
+    <div class="hot">{hot.map((h) => <a class="chip" href={`/search/?q=${encodeURIComponent(h)}`}>{h}</a>)}</div>
   </section>
+
+  <section class="card reveal" id="today">
+    <span class="kicker">今天認識一家公司</span>
+    <div class="today">
+      <a class="today-cover" id="today-link" href={`/c/${picks[0].t}/`}>
+        <img id="today-img" src={`/poster/${picks[0].t}.webp`} alt="" width="560" height="560" loading="lazy" />
+      </a>
+      <div>
+        <h2 id="today-name" style="font-family:'Noto Serif TC',serif;font-size:30px;margin:4px 0">{picks[0].n} <span class="num muted" style="font-size:18px">{picks[0].t}</span></h2>
+        <p id="today-hook" style="font-size:20px;font-weight:900;line-height:1.45;margin:6px 0">{picks[0].h}</p>
+        <p class="muted" id="today-ind">{picks[0].i}</p>
+        <a class="chip on" id="today-go" href={`/c/${picks[0].t}/`}>看這家公司 →</a>
+      </div>
+    </div>
+  </section>
+
   <section class="card reveal">
-    <h2>先看這三頁</h2>
-    <p><a class="chip on" href="/c/2330/">台積電 公司卡</a> <a class="chip on" href="/i/semiconductors/">半導體 產業頁</a> <a class="chip on" href="/search/">搜尋</a></p>
-    <p><a class="chip" href="/story/semiconductors/">半導體產業故事</a> <a class="chip" href="/map/">供應鏈地圖</a> <a class="chip" href="/screen/">篩選</a> <a class="chip" href="/compare/?c=2330,2454,2303">比較</a> <a class="chip" href="/watch/">觀察清單</a></p>
+    <h2>不知道從哪開始？選一條路</h2>
+    <div class="routes">
+      <a class="route" href="/story/semiconductors/"><b>① 看懂一個產業</b><span>往下滑五分鐘，看懂台灣半導體的規模、獲利和供應鏈。</span></a>
+      <a class="route" href="/map/?c=2330"><b>② 順著供應鏈走</b><span>從台積電出發，一路點開年報裡點名的客戶和供應商。</span></a>
+      <a class="route" href="/screen/"><b>③ 用數字找公司</b><span>依產業、營收、毛利率篩選，最多挑 3 家並排比較。</span></a>
+    </div>
   </section>
+
   <section class="card reveal">
-    <h2>所有產業</h2>
-    {industries.map((i) => <a class="chip" href={`/i/${i.slug}/`}>{i.name} <span class="num">{i.tickers.length}</span></a>)}
+    <h2>所有產業（依營收規模）</h2>
+    <p class="muted">數字是產業內各公司最新年度合併營收直接相加，母子公司都上市時會重複計算，只適合看大致規模。</p>
+    <div class="inds">
+      {inds.map((i) => (
+        <a class="ind" href={`/i/${i.slug}/`}>
+          <b>{i.name}</b>
+          <span class="num muted">{i.tickers.length} 家・{fmtRev(i.rev)}</span>
+          {stories.has(i.slug) && <span class="badge">有產業故事</span>}
+        </a>
+      ))}
+    </div>
   </section>
+
+  <script type="application/json" id="picks" set:html={JSON.stringify(picks)}></script>
+  <script>
+    // 每天換一家（依台灣日期輪流），不需要伺服器
+    const picks = JSON.parse(document.getElementById('picks').textContent);
+    const day = Math.floor((Date.now() + 8 * 3600e3) / 86400e3);
+    const p = picks[day % picks.length];
+    const $ = (id) => document.getElementById(id);
+    $('today-link').href = $('today-go').href = `/c/${p.t}/`;
+    $('today-img').src = `/poster/${p.t}.webp`;
+    $('today-name').firstChild.textContent = `${p.n} `;
+    $('today-name').querySelector('span').textContent = p.t;
+    $('today-hook').textContent = p.h;
+    $('today-ind').textContent = p.i;
+  </script>
+
+  <style>
+    .home-hero h1 { font-family: 'Noto Serif TC', serif; font-size: clamp(30px, 6vw, 46px); line-height: 1.2; margin: 6px 0 16px; }
+    .home-search { display: flex; gap: 8px; }
+    .home-search input { flex: 1; min-width: 0; font: inherit; font-size: 18px; padding: 12px 16px; border: 2.5px solid #181715;
+      border-radius: 16px; background: #fff; color: #181715; }
+    .hot { margin-top: 12px; }
+    .hot .chip { background: #fff; color: #181715; }
+    .today { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
+    @media (min-width: 720px) { .today { grid-template-columns: 220px 1fr; } }
+    .today-cover img { width: 100%; max-width: 320px; height: auto; aspect-ratio: 1; display: block; border: 2.5px solid var(--fg); border-radius: 18px; }
+    .routes { display: grid; gap: 12px; grid-template-columns: 1fr; }
+    @media (min-width: 720px) { .routes { grid-template-columns: repeat(3, 1fr); } }
+    .route { display: block; text-decoration: none; color: inherit; border: 2.5px solid var(--fg); border-radius: 18px; padding: 14px 16px;
+      box-shadow: 4px 4px 0 var(--shadow); background: var(--card); }
+    .route b { display: block; font-size: 19px; margin-bottom: 6px; }
+    .route span { color: var(--muted); }
+    .route:hover { background: var(--coral); color: #181715; }
+    .route:hover span { color: #181715; }
+    .inds { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+    .ind { display: flex; flex-direction: column; gap: 2px; text-decoration: none; color: inherit; border: 2px solid var(--line);
+      border-radius: 14px; padding: 10px 12px; }
+    .ind:hover { border-color: var(--fg); }
+    .badge { align-self: flex-start; margin-top: 4px; font-size: 12px; font-weight: 900; background: var(--coral); color: #181715;
+      border-radius: 999px; padding: 1px 8px; }
+  </style>
 </Base>

@@ -88,9 +88,12 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
   <script>
     import { css } from '../../components/tools.js';
     const d = JSON.parse(document.getElementById('sdata').textContent);
-    const echarts = await import('echarts');
-    const chart = echarts.init(document.getElementById('sc'), null, { renderer: 'canvas' });
-    addEventListener('resize', () => chart.resize());
+    const echarts = await import('../../components/echarts.js');
+    const chartEl = document.getElementById('sc');
+    chartEl.setAttribute('role', 'img');
+    const chart = echarts.init(chartEl, null, { renderer: 'canvas' });
+    const observer = new ResizeObserver(() => chart.resize());
+    observer.observe(chartEl);
     const base = () => ({ textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, animationDuration: 900, animationEasing: 'cubicOut' });
     const bars = (hi) => {
       const top = d.rows.slice(0, 10).reverse();
@@ -121,7 +124,19 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
           label: { show: true, position: 'right', color: css('--fg'), formatter: '+{c}%' }, barWidth: '60%' }] }),
     };
     let cur = null;
-    const show = (k) => { if (k !== cur) { cur = k; chart.setOption(views[k](), true); } };
+    const show = (k) => {
+      if (k === cur) return;
+      cur = k;
+      const descriptions = {
+        top10: () => `營收前十名：${d.rows.slice(0, 10).map((r) => `${r.n} ${Math.round(r.rev)} 億`).join('；')}`,
+        share: () => `營收前十名，標示前五大：${d.rows.slice(0, 10).map((r) => `${r.n} ${Math.round(r.rev)} 億${d.top5.includes(r.t) ? '，前五大' : ''}`).join('；')}`,
+        scatter: () => `公司營收與毛利率散點圖：${d.rows.filter((r) => r.gm != null && r.rev > 0).map((r) => `${r.n}，營收 ${r.rev} 億、毛利率 ${r.gm}%`).join('；')}`,
+        tsmc: () => `${d.tsmc.n} 的供應關係：${d.tsmc.partners.map((p) => `${p.n}，${p.side === 'customer' ? '客戶' : '供應商'}`).join('；')}`,
+        growth: () => `營收成長前五名：${d.growth.map((r) => `${r.n} ${r.yoy}%`).join('；')}`,
+      };
+      chartEl.setAttribute('aria-label', descriptions[k]());
+      chart.setOption(views[k](), true);
+    };
     show('top10');
     // 段落進入畫面中下方時切換圖表
     const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && show(e.target.dataset.k)),

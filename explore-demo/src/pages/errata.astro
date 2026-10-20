@@ -1,0 +1,57 @@
+---
+// 抓到錯了？：公開所有更正（數字由 meta.json 帶入），完整表格可下載，並說明回報方式。
+import Base from '../layouts/Base.astro';
+import meta from '../data/meta.json';
+const n = (v) => v.toLocaleString('en-US');
+const rows = (o) => Object.entries(o).sort((a, b) => b[1] - a[1]);
+const subject = encodeURIComponent('股.tw 研究室 勘誤回報');
+const body = encodeURIComponent('公司代號：\n頁面網址：\n哪一句有問題：\n正確的資料與來源（例如年報第幾頁）：\n');
+---
+<Base title="抓到錯了？" description="股.tw 研究室公開所有更正紀錄；發現錯誤歡迎寄信回報。">
+  <article class="card prose">
+    <span class="kicker">勘誤</span>
+    <h1>抓到錯了？</h1>
+    <div class="tldr">
+      <b>三秒看懂</b>
+      <ul>
+        <li>我們所有的更正都公開，表格可以直接下載。</li>
+        <li>看到錯誤，寄信告訴我們公司代號、網址和正確資料的來源。</li>
+        <li>每次更正都記下改了什麼、原本寫什麼、哪天改的。</li>
+      </ul>
+    </div>
+
+    <h2>已公開的更正</h2>
+    <table>
+      <thead><tr><th>類別</th><th>筆數</th><th>下載</th></tr></thead>
+      <tbody>
+        <tr><td>公司名稱更正</td><td class="num">{n(meta.errata.names)}</td><td><a href="/data/errata/names.csv" download>CSV</a></td></tr>
+        <tr><td>產業分類更正</td><td class="num">{n(meta.errata.classification)}</td><td><a href="/data/errata/classification.csv" download>CSV</a></td></tr>
+        <tr><td>原開源專案敘述查核</td><td class="num">{n(meta.errata.claims)}</td><td><a href="/data/errata/claims.csv" download>CSV</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>原專案 {n(meta.errata.claims)} 句敘述的查核結果</h2>
+    <p>第一步：拿原句對照一手資料。</p>
+    <table>
+      <thead><tr><th>原句查核結果</th><th>句數</th></tr></thead>
+      <tbody>{rows(meta.claims_original).map(([k, v]) => <tr><td>{k}</td><td class="num">{n(v)}</td></tr>)}</tbody>
+    </table>
+    <p>第二步：沒通過的句子改寫後，再用一手資料驗證一次。</p>
+    <table>
+      <thead><tr><th>改寫後結果</th><th>句數</th></tr></thead>
+      <tbody>{rows(meta.claims_revised).map(([k, v]) => <tr><td>{k}</td><td class="num">{n(v)}</td></tr>)}</tbody>
+    </table>
+
+    <h2>怎麼回報</h2>
+    <p>寄信到 <a href={`mailto:neo@rewrite.tw?subject=${subject}&body=${body}`}>neo@rewrite.tw</a>，附上：</p>
+    <ol>
+      <li>公司代號與頁面網址</li>
+      <li>哪一句有問題</li>
+      <li>你認為正確的資料與來源（例如年報第幾頁）</li>
+    </ol>
+    <p>我們會在 14 天內回覆。確認有錯就更正，並記在本頁。你的 email 只用來回覆這次回報，處理完成後 6 個月內刪除（詳見<a href="/privacy/">隱私權政策</a>）。</p>
+
+    <h2>更正紀錄</h2>
+    <p class="muted">網站上線後的更正會記在這裡：日期、公司、原本寫什麼、改成什麼、依據。</p>
+  </article>
+</Base>

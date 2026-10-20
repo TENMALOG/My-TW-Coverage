@@ -15,11 +15,12 @@ const tries = ['CoWoS', '台積電 供應商', '電動機車', '加油站', '光
 
   <script>
     let pf;
+    const TRIES = [...document.querySelectorAll('.try')].map((b) => b.dataset.q);
     const box = document.getElementById('q');
     const out = document.getElementById('results');
     const status = document.getElementById('status');
     async function load() {
-      if (!pf) { pf = await import(/* @vite-ignore */ '/pagefind/pagefind.js'); await pf.options({ excerptLength: 40 }); }
+      if (!pf) { const m = await import(/* @vite-ignore */ '/pagefind/pagefind.js'); await m.options({ excerptLength: 40 }); pf = m; }
       return pf;
     }
     let seq = 0;
@@ -27,9 +28,19 @@ const tries = ['CoWoS', '台積電 供應商', '電動機車', '加油站', '光
       const my = ++seq;
       if (!q.trim()) { out.replaceChildren(); status.textContent = ''; return; }
       status.textContent = '搜尋中…';
-      const p = await load();
+      let p;
+      try { p = await load(); } catch (e) {
+        status.textContent = '搜尋功能載入失敗，請檢查網路後重新整理頁面。';
+        return;
+      }
       const r = await p.debouncedSearch(q, {}, 180);
       if (r === null || my !== seq) return;
+      if (!r.results.length) {
+        status.textContent = `找不到「${q}」。試試更短的關鍵字、公司代號，或下面這些：`;
+        out.replaceChildren(...TRIES.map((t) => { const b = document.createElement('button'); b.className = 'chip'; b.textContent = t;
+          b.addEventListener('click', () => { box.value = t; run(t); }); return b; }));
+        return;
+      }
       status.textContent = `找到 ${r.results.length} 筆，載入前 20 筆…`;
       const items = await Promise.all(r.results.slice(0, 20).map((x) => x.data()));
       if (my !== seq) return;

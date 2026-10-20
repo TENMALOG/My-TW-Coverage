@@ -1,0 +1,50 @@
+---
+// 授權與署名：原專案 MIT 授權全文與 ECharts NOTICE 在建置時原文照錄（讀檔，不手抄）。
+import fs from 'node:fs';
+import Base from '../layouts/Base.astro';
+const mit = fs.readFileSync('../LICENSE', 'utf-8').trim();
+const notice = fs.readFileSync('node_modules/echarts/NOTICE', 'utf-8').trim();
+const libs = [
+  ['Astro', '網站建置', 'MIT'],
+  ['Apache ECharts', '圖表', 'Apache License 2.0（NOTICE 見下方）'],
+  ['Motion', '動畫', 'MIT'],
+  ['Pagefind', '站內搜尋', 'MIT'],
+  ['Noto Sans TC、Noto Serif TC（Google Fonts）', '網頁文字', 'SIL Open Font License 1.1'],
+  ['Roboto Mono（Google Fonts）', '數字', 'Apache License 2.0'],
+  ['日星宋體貳號（justfont）', '影片與分享圖片裡的文字（製成圖片；網頁本身不使用此字型）', 'justfont 通用授權'],
+];
+---
+<Base title="想引用？看這裡" description="股.tw 研究室內容的引用方式、原開源專案授權與第三方軟體字型授權。">
+  <article class="card prose">
+    <span class="kicker">授權與署名</span>
+    <h1>想引用？看這裡</h1>
+    <div class="tldr">
+      <b>三秒看懂</b>
+      <ul>
+        <li>歡迎引用，請註明「股.tw 研究室」並附上連結。</li>
+        <li>年報的著作權屬於各公司，我們只引用並標明頁碼。</li>
+        <li>本站衍生自開源專案 My-TW-Coverage（MIT 授權），並逐句查核更正。</li>
+      </ul>
+    </div>
+
+    <h2>本站內容</h2>
+    <ul>
+      <li>網站上的整理文字、圖表、影片和分享圖片，著作權屬於股.tw 研究室。歡迎引用，請註明「股.tw 研究室」並附上連結。</li>
+      <li>年報的著作權屬於各公司；本站在合理範圍內引用並標明出處與頁碼。公開資訊觀測站是我們取得資料的管道。</li>
+      <li>公司名稱與商標屬於各權利人所有。</li>
+    </ul>
+
+    <h2>衍生自開源專案</h2>
+    <p>本站的公司清單與初始敘述，衍生自開源專案 My-TW-Coverage（MIT 授權）。我們逐句查核、更正和改寫，更正紀錄見<a href="/errata/">「抓到錯了？」</a>頁。原專案授權聲明照錄如下：</p>
+    <pre>{mit}</pre>
+
+    <h2>第三方軟體與字型</h2>
+    <table>
+      <thead><tr><th>名稱</th><th>用途</th><th>授權</th></tr></thead>
+      <tbody>{libs.map(([a, b, c]) => <tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>)}</tbody>
+    </table>
+
+    <h2>Apache ECharts NOTICE</h2>
+    <pre>{notice}</pre>
+  </article>
+</Base>

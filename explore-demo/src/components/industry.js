@@ -1,19 +1,22 @@
+import { onVisible } from './tools.js';
 // 產業頁互動：營收×毛利率散點圖、產業內往來關係力導向圖、證交所產業別篩選。
-import { inView } from 'motion';
 
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
 async function mount(id, makeOption, onClick) {
   const el = document.getElementById(id);
   if (!el) return;
-  inView(el, async () => {
-    const echarts = await import('echarts');
+  onVisible(el, async () => {
+    if (el.dataset.chartMounted) return;
+    el.dataset.chartMounted = 'true';
+    const echarts = await import('./echarts.js');
     const chart = echarts.init(el, null, { renderer: 'canvas' });
     chart.setOption(makeOption());
     if (onClick) chart.on('click', onClick);
-    addEventListener('resize', () => chart.resize());
+    const observer = new ResizeObserver(() => chart.resize());
+    observer.observe(el);
     addEventListener('themechange', () => chart.setOption(makeOption(), true));
-  }, { margin: '0px 0px -15% 0px' });
+  }, '0px 0px -15% 0px');
 }
 
 function scatter(rows) {
@@ -68,7 +71,16 @@ function filters() {
 export function initIndustry() {
   const d = JSON.parse(document.getElementById('idata').textContent);
   const go = (p) => { if (p.data?.t) location.href = `/c/${p.data.t}/`; };
+  const scatterEl = document.getElementById('scatter');
+  scatterEl?.setAttribute('role', 'img');
+  const pts = d.rows.filter((r) => r.rev > 0 && r.gm != null).sort((a, b) => b.rev - a.rev);
+  scatterEl?.setAttribute('aria-label', `公司營收與毛利率散點圖，共 ${pts.length} 家；營收最大的 ${Math.min(10, pts.length)} 家：${pts.slice(0, 10).map((r) => `${r.n}，營收 ${Math.round(r.rev).toLocaleString('en-US')} 億、毛利率 ${r.gm}%`).join('；')}`);
   mount('scatter', () => scatter(d.rows), go);
-  if (d.edges.length) mount('graph', () => graph(d), (p) => p.dataType === 'node' && go(p));
+  if (d.edges.length) {
+    const graphEl = document.getElementById('graph');
+    graphEl?.setAttribute('role', 'img');
+    graphEl?.setAttribute('aria-label', `公司往來關係圖：${d.edges.map((e) => `${d.names[e.s] || e.s} 指向 ${d.names[e.d] || e.d}`).join('；')}`);
+    mount('graph', () => graph(d), (p) => p.dataType === 'node' && go(p));
+  }
   filters();
 }

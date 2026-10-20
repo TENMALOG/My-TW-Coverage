@@ -31,10 +31,36 @@ a { color: inherit; }
 .logo { font-family: "Noto Serif TC", serif; font-weight: 700; text-decoration: none; font-size: 18px; }
 .logo b { color: var(--coral); }
 .top .sp { flex: 1; }
+.desktop-nav { display: flex; gap: 8px; align-items: center; }
+.desktop-nav [aria-current="page"] { background: var(--coral); color: #181715; }
 .iconbtn { border: 2px solid var(--fg); background: var(--card); color: var(--fg); border-radius: 999px; height: 38px;
   min-width: 38px; padding: 0 12px; font: inherit; font-weight: 700; display: inline-flex; align-items: center; gap: 6px;
   text-decoration: none; cursor: pointer; box-shadow: 3px 3px 0 var(--shadow); }
 .iconbtn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+
+/* 頁尾 */
+.site-footer { padding-bottom: 40px; }
+.site-footer p { margin: 0 0 12px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.footer-links a { text-underline-offset: 3px; }
+
+/* 手機底部分頁列：預留硬陰影與 iPhone 安全區的空間。 */
+.bottom-nav { display: none; }
+@media (width < 720px) {
+  body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+  .top .desktop-nav { display: none; }
+  .bottom-nav { position: fixed; inset: auto 0 0; z-index: 20; display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; background: var(--bg);
+    border-top: 2.5px solid var(--fg);
+    padding: 8px max(12px, env(safe-area-inset-right, 0px)) calc(12px + env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px)); }
+  .bottom-nav .bottom-tab { min-width: 0; height: 60px; padding: 4px 0; border: 2.5px solid var(--fg);
+    border-radius: 16px; flex-direction: column; justify-content: center; gap: 0; font-size: 12px;
+    line-height: 1.5; box-shadow: 3px 3px 0 var(--shadow); }
+  .bottom-nav .tab-icon { font-size: 20px; line-height: 1.25; }
+  .bottom-nav [aria-current="page"] { background: var(--coral); color: #181715; }
+  .bottom-nav .bottom-tab:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--shadow); }
+  .bottom-nav .bottom-tab:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
+}
 
 /* 貼紙卡片 */
 .card { background: var(--card); border: 2.5px solid var(--fg); border-radius: 22px; padding: 18px 18px 14px;
@@ -60,8 +86,15 @@ dialog.sheet::backdrop { background: #18171566; }
 dialog.sheet blockquote { margin: 8px 0; padding: 8px 12px; border-left: 4px solid var(--coral); background: var(--soft); }
 
 /* 進場動畫：捲到畫面才浮現（尊重「減少動態效果」設定） */
-.reveal { opacity: 0; transform: translateY(28px) rotate(-1deg); }
-@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+.reveal { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  html.js.reveal-ready .reveal { opacity: 0; transform: translateY(28px) rotate(-1deg);
+    transition: opacity .7s ease, transform .7s cubic-bezier(.22, 1.1, .36, 1); }
+  html.js.reveal-ready .reveal.is-revealed { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; animation: none !important; transition: none !important; }
+}
 
 /* 直式影片播放器：點了才開，9:16 置中、預設靜音（不在卡片牆自動出現） */
 dialog.player { border: 0; padding: 0; background: transparent; max-width: none; max-height: none;
@@ -119,3 +152,16 @@ button.term { font: inherit; color: inherit; background: none; border: 0; paddin
   .logo-sub { display: none; }
   .iconbtn { height: 36px; min-width: 36px; padding: 0 10px; box-shadow: 2px 2px 0 var(--shadow); }
 }
+
+/* 政策與說明頁 */
+.prose { max-width: 720px; margin: 0 auto; line-height: 1.85; }
+.prose h1 { font-family: 'Noto Serif TC', serif; font-size: 34px; margin: 4px 0 12px; line-height: 1.25; }
+.prose h2 { margin: 28px 0 8px; font-size: 22px; }
+.prose ol, .prose ul { padding-left: 1.4em; }
+.prose li { margin: 6px 0; }
+.prose table { width: 100%; border-collapse: collapse; font-size: 15px; display: block; overflow-x: auto; }
+.prose th, .prose td { border-bottom: 1.5px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.prose pre { white-space: pre-wrap; font-size: 13px; background: var(--bg); border: 1.5px solid var(--line); border-radius: 12px; padding: 12px; }
+.tldr { border: 2.5px solid var(--fg); border-radius: 18px; background: var(--coral); color: #181715; padding: 14px 18px; box-shadow: 5px 5px 0 var(--shadow); }
+.tldr b { display: block; margin-bottom: 4px; }
+.tldr ul { margin: 0; padding-left: 1.2em; }

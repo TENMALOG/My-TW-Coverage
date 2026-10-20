@@ -1,5 +1,5 @@
 // 公司卡片頁的互動：圖表（捲到才載入 ECharts）、年報出處抽屜、觀察清單、分享。
-import { inView } from 'motion';
+import { watchlist as getWatchlist, setWatchlist, onVisible } from './tools.js';
 
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const PALETTE = () => ['#FF573F', css('--fg'), '#FFB3A6', css('--muted'), '#E4DFD3', '#8A3324'];
@@ -12,16 +12,20 @@ function base() {
 }
 
 function mixOption(mix) {
+  const total = mix.items.reduce((sum, [, value]) => sum + Number(value), 0);
+  const items = mix.items.map(([name, value]) => ({ name, value }));
+  if (total < 99.5) items.push({ name: '其他／未列', value: +(100 - total).toFixed(2), itemStyle: { color: css('--muted') } });
+  const note = total > 100.5 ? `各項加總 ${+total.toFixed(2)}%，可能有重疊` : '';
   return {
     ...base(), ...gravity,
-    tooltip: { trigger: 'item', formatter: (p) => `${p.name}：${p.value}%` },
+    tooltip: { trigger: 'item', formatter: (p) => `${p.name}：${p.value}%${p.name === '其他／未列' ? '<br>年報未逐項列出的部分' : ''}${note ? `<br>${note}` : ''}` },
     legend: { bottom: 0, textStyle: { color: css('--fg'), fontSize: 13 }, itemWidth: 14, itemHeight: 14 },
     color: PALETTE(),
     series: [{
       type: 'pie', radius: ['38%', '68%'], center: ['50%', '44%'], startAngle: 90,
       itemStyle: { borderColor: css('--fg'), borderWidth: 2.5 },
       label: { formatter: '{d|{c}%}', rich: { d: { fontFamily: 'Roboto Mono', fontWeight: 700, fontSize: 14, color: css('--fg') } } },
-      data: mix.items.map(([n, v]) => ({ name: n, value: v })),
+      data: items,
       animationType: 'expansion',
     }],
   };
@@ -50,13 +54,16 @@ function barOption(labels, values, unit, highlightLast) {
 async function mount(id, makeOption) {
   const el = document.getElementById(id);
   if (!el) return;
-  inView(el, async () => {
-    const echarts = await import('echarts');             // 圖表程式只在捲到時才下載
+  onVisible(el, async () => {
+    if (el.dataset.chartMounted) return;
+    el.dataset.chartMounted = 'true';
+    const echarts = await import('./echarts.js');       // 圖表程式只在捲到時才下載
     const chart = echarts.init(el, null, { renderer: 'svg' });
     chart.setOption(makeOption());
-    addEventListener('resize', () => chart.resize());
+    const observer = new ResizeObserver(() => chart.resize());
+    observer.observe(el);
     addEventListener('themechange', () => chart.setOption(makeOption(), true));
-  }, { margin: '0px 0px -15% 0px' });
+  }, '0px 0px -15% 0px');
 }
 
 function sources(data) {
@@ -66,7 +73,9 @@ function sources(data) {
     const ids = (b.dataset.facts || '').split(',').filter(Boolean);
     body.replaceChildren();
     const h = document.createElement('h3');
+    h.id = 'sheet-title';
     h.textContent = '年報出處';
+    sheet.setAttribute('aria-labelledby', h.id);
     body.append(h);
     ids.forEach((id) => {
       const f = data.sources[id];
@@ -84,17 +93,18 @@ function sources(data) {
     a.className = 'chip'; a.style.marginTop = '10px';
     body.append(a);
     sheet.showModal();
+    h.tabIndex = -1;
+    h.focus();
   }));
 }
 
 function watchlist(ticker) {
   const btn = document.getElementById('watch');
   if (!btn) return;
-  const get = () => { try { return JSON.parse(localStorage.getItem('watch') || '[]'); } catch (e) { return []; } };
-  const set = (v) => { try { localStorage.setItem('watch', JSON.stringify(v)); } catch (e) {} };
-  const paint = () => { const on = get().includes(ticker); btn.textContent = on ? '★ 觀察中' : '☆ 加入觀察';
+  const paint = () => { const on = getWatchlist().includes(ticker); btn.textContent = on ? '★ 觀察中' : '☆ 加入觀察';
+    btn.setAttribute('aria-pressed', String(on));
     btn.style.background = on ? '#FF573F' : ''; btn.style.color = on ? '#181715' : ''; };
-  btn.addEventListener('click', () => { const w = get(); set(w.includes(ticker) ? w.filter((t) => t !== ticker) : [...w, ticker]); paint(); });
+  btn.addEventListener('click', () => { const w = getWatchlist(); setWatchlist(w.includes(ticker) ? w.filter((t) => t !== ticker) : [...w, ticker]); paint(); });
   paint();
 }
 
@@ -122,13 +132,15 @@ function video() {
   const dlg = document.createElement('dialog');
   dlg.className = 'vbox';
   dlg.setAttribute('aria-label', alt);
-  dlg.innerHTML = '<div class="vframe"><video playsinline preload="none"></video><button class="vreplay" hidden>↻ 重播</button></div><button class="vclose" aria-label="關閉影片">✕</button>';
+  dlg.innerHTML = '<div class="vframe"><video playsinline controls preload="none" tabindex="0"></video><button class="vreplay" hidden>↻ 重播</button></div><button class="vclose" aria-label="關閉影片">✕</button>';
   document.body.append(dlg);
   const v = dlg.querySelector('video');
   const replay = dlg.querySelector('.vreplay');
   v.poster = box.querySelector('img')?.src || '';
   v.setAttribute('aria-label', alt);
-  v.addEventListener('click', () => (v.paused ? v.play() : v.pause()));
+  v.addEventListener('keydown', (e) => {
+    if (e.code === 'Space') { e.preventDefault(); v.paused ? v.play() : v.pause(); }
+  });
   v.addEventListener('ended', () => { v.currentTime = 0; replay.hidden = false; });
   v.addEventListener('play', () => { replay.hidden = true; });
   replay.addEventListener('click', () => v.play());
@@ -138,6 +150,7 @@ function video() {
   const open = () => {
     if (!v.src) v.src = src;
     dlg.showModal();
+    v.focus();
     v.play().catch(() => {});
   };
   box.querySelector('.ytplay').addEventListener('click', open);
@@ -146,9 +159,23 @@ function video() {
 
 export function initCompany() {
   const data = JSON.parse(document.getElementById('cdata').textContent);
-  if (data.mix) mount('mix', () => mixOption(data.mix));
-  if (data.regions) mount('regions', () => barOption(data.regions.items.map((x) => x[0]), data.regions.items.map((x) => x[1]), '%', false));
-  if (data.years.length) mount('money', () => barOption(data.years.map((y) => `${y} 營收`), data.rev.map((v) => (v >= 100 ? Math.round(v) : Math.round(v * 10) / 10)), ' 億', true));
+  const describe = (id, label) => {
+    const el = document.getElementById(id);
+    if (el) { el.setAttribute('role', 'img'); el.setAttribute('aria-label', label); }
+  };
+  if (data.mix) {
+    const option = mixOption(data.mix);
+    describe('mix', `營收結構：${option.series[0].data.map(({ name, value }) => `${name} ${value}%`).join('、')}${data.mix.items.reduce((sum, [, v]) => sum + Number(v), 0) > 100.5 ? '；各項可能有重疊' : ''}`);
+    mount('mix', () => mixOption(data.mix));
+  }
+  if (data.regions) {
+    describe('regions', `地區營收結構：${data.regions.items.map(([name, value]) => `${name} ${value}%`).join('、')}`);
+    mount('regions', () => barOption(data.regions.items.map((x) => x[0]), data.regions.items.map((x) => x[1]), '%', false));
+  }
+  if (data.years.length) {
+    describe('money', `歷年營收：${data.years.map((year, i) => `${year} 年 ${data.rev[i]} 億`).join('、')}`);
+    mount('money', () => barOption(data.years.map((y) => `${y} 營收`), data.rev.map((v) => (v >= 100 ? Math.round(v) : Math.round(v * 10) / 10)), ' 億', true));
+  }
   sources(data);
   watchlist(data.ticker);
   share(data);

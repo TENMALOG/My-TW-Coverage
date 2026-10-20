@@ -11,9 +11,9 @@ import Base from '../../layouts/Base.astro';
       <label>營收至少（億）<br /><input name="rmin" type="number" min="0" step="1" class="in" placeholder="例如 100" /></label>
       <label>毛利率至少（%）<br /><input name="gmin" type="number" step="1" class="in" placeholder="例如 40" /></label>
       <label>營收年增至少（%）<br /><input name="ymin" type="number" step="1" class="in" placeholder="例如 10" /></label>
-      <label>排序<br /><select name="s" class="in"><option value="rev">營收高→低</option><option value="gm">毛利率高→低</option><option value="yoy">年增高→低</option></select></label>
+      <label>排序<br /><select name="s" class="in"><option value="t">股票代號</option><option value="rev">營收高→低</option><option value="gm">毛利率高→低</option><option value="yoy">年增高→低</option></select></label>
     </form>
-    <p class="muted" style="margin:10px 0 0">2025 年度合併報表（公開資訊觀測站）；年增率由本站計算。銀行、保險等報表格式不同的公司沒有毛利率。</p>
+    <p class="muted" style="margin:10px 0 0">2025 年度合併報表（公開資訊觀測站）；年增率由本站計算。銀行、保險等報表格式不同的公司沒有毛利率。<b>排序只依公開數字，不代表好壞或投資建議。</b></p>
   </section>
   <p id="count" style="font-weight:900"></p>
   <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="iconbtn" id="cmp" href="/compare/" style="display:none">比較已勾選</a></div>
@@ -34,7 +34,7 @@ import Base from '../../layouts/Base.astro';
       const rmin = num('rmin'), gmin = num('gmin'), ymin = num('ymin');
       let r = all.filter((c) => (!v.i || c.i === v.i) && (!v.m || c.m === v.m)
         && (rmin == null || (c.rev ?? -1) >= rmin) && (gmin == null || (c.gm ?? -1e9) >= gmin) && (ymin == null || (c.yoy ?? -1e9) >= ymin));
-      r.sort((a, b) => (b[v.s] ?? -1e9) - (a[v.s] ?? -1e9));
+      r.sort(v.s === 't' ? (a, b) => a.t.localeCompare(b.t) : (a, b) => (b[v.s] ?? -1e9) - (a[v.s] ?? -1e9));
       document.getElementById('count').textContent = `符合 ${r.length} 家` + (r.length > 60 ? '，顯示前 60 家' : '');
       document.getElementById('res').replaceChildren(...r.slice(0, 60).map((c) => miniCard(c,
         el('label', { style: 'display:inline-flex;gap:6px;align-items:center;margin-top:6px;font-size:14px' },
