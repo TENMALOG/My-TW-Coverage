@@ -1,0 +1,131 @@
+---
+// 產業故事（捲動敘事）：圖表固定在上方，往下捲每一段，圖表跟著換。所有數字在建置時由已查核資料計算並註明來源。
+// 目前示範：半導體。
+import Base from '../../layouts/Base.astro';
+import companies from '../../data/companies.json';
+import industries from '../../data/industries.json';
+
+export function getStaticPaths() {
+  return industries.filter((i) => i.slug === 'semiconductors').map((i) => ({ params: { slug: i.slug }, props: { ind: i } }));
+}
+const { ind } = Astro.props;
+const by = Object.fromEntries(companies.map((c) => [c.ticker, c]));
+const rows = ind.tickers.map((t) => by[t]).map((c) => {
+  const ys = Object.keys(c.fin).sort();
+  const y = ys.at(-1);
+  const yoy = ys.length > 1 && c.fin[ys[0]].revenue_k ? (c.fin[y].revenue_k / c.fin[ys[0]].revenue_k - 1) * 100 : null;
+  return { t: c.ticker, n: c.name, rev: y ? c.fin[y].revenue_k / 1e5 : null, gm: y ? c.fin[y].gross_margin_pct : null, yoy, rel: c.relations };
+}).filter((r) => r.rev != null).sort((a, b) => b.rev - a.rev);
+const total = rows.reduce((s, r) => s + r.rev, 0);
+const pct = (v) => (v * 100).toFixed(1);
+const top1 = rows[0], top5 = rows.slice(0, 5).reduce((s, r) => s + r.rev, 0);
+const gms = rows.filter((r) => r.gm != null).map((r) => r.gm).sort((a, b) => a - b);
+const median = gms.length % 2 ? gms[(gms.length - 1) / 2] : (gms[gms.length / 2 - 1] + gms[gms.length / 2]) / 2;
+const hiGm = gms.filter((g) => g >= 50).length;
+const tsmc = by['2330'];
+// 往來對象：台積電自己年報點名的，加上別家年報點名台積電的（每家資料最多保留 8 筆，兩邊合起來才完整；與供應鏈地圖一致）
+const pm = new Map();
+for (const r of tsmc.relations) if (by[r.ticker]) pm.set(r.ticker, { ticker: r.ticker, name: r.name, side: r.side });
+for (const c of companies) for (const r of c.relations) if (r.ticker === tsmc.ticker && !pm.has(c.ticker))
+  pm.set(c.ticker, { ticker: c.ticker, name: c.name, side: r.side === 'customer' ? 'supplier' : 'customer' });
+const partners = [...pm.values()];
+const sup = partners.filter((r) => r.side === 'supplier'), cus = partners.filter((r) => r.side === 'customer');
+const growth = rows.filter((r) => r.yoy != null && r.rev >= 10).sort((a, b) => b.yoy - a.yoy).slice(0, 5);
+const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
+const SRC = '資料：公開資訊觀測站「綜合損益表彙總」2025 年度合併報表；比例與中位數由本站計算。';
+const SUM = SRC + '合計是各公司合併營收直接相加，母公司與子公司都上市時會重複計算，只適合看大致規模。';
+const steps = [
+  { k: 'top10', h: `${rows.length} 家公司，一年 ${fmt(total)} 億營收`,
+    p: `本站收錄的半導體上市櫃公司中，有 ${rows.length} 家有 2025 年度財務資料，營收加起來約 ${fmt(total)} 億元。圖中是營收最大的 10 家。`, src: SUM },
+  { k: 'share', h: `${top1.n}一家，就占 ${pct(top1.rev / total)}%`,
+    p: `${top1.n}的營收約 ${fmt(top1.rev)} 億元，占上述合計的 ${pct(top1.rev / total)}%；營收前 5 大合計占 ${pct(top5 / total)}%。產業營收高度集中在少數公司。`, src: SUM },
+  { k: 'scatter', h: `毛利率中位數 ${median.toFixed(1)}%`,
+    p: `把每家公司依營收（橫軸）和毛利率（縱軸）畫出來：毛利率的中位數是 ${median.toFixed(1)}%，有 ${hiGm} 家在 50% 以上。規模大不一定毛利高。`, src: SRC },
+  { k: 'tsmc', h: `年報裡，誰跟${tsmc.name}做生意？`,
+    p: `上市櫃公司年報明確點名、且雙方都是上市櫃公司的往來中，${tsmc.name}有 ${sup.length} 家供應商（例如 ${sup.slice(0, 3).map((r) => r.name).join('、')}）和 ${cus.length} 家客戶（例如 ${cus.slice(0, 3).map((r) => r.name).join('、')}）。`,
+    src: '資料：各上市櫃公司 2025 年度年報主要進銷貨對象，逐筆查核。' },
+  { k: 'growth', h: '一年長最快的 5 家',
+    p: `營收 10 億元以上的公司中，2025 年營收年增最多的是 ${growth.map((r) => `${r.n}（+${r.yoy.toFixed(1)}%）`).join('、')}。`, src: SRC },
+];
+const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5: rows.slice(0, 5).map((r) => r.t),
+  tsmc: { t: tsmc.ticker, n: tsmc.name, partners: partners.map((r) => ({ t: r.ticker, n: r.name, side: r.side })) },
+  growth: growth.map((r) => ({ n: r.n, yoy: +r.yoy.toFixed(1) })) };
+---
+<Base title={`${ind.name}產業故事`} description={`五分鐘看懂台灣${ind.name}產業：規模、集中度、獲利、供應鏈與成長`} ogImage={`/og/i-${ind.slug}.jpg`}>
+  <section class="card coral">
+    <span class="kicker">產業故事</span>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:34px;margin:4px 0">往下滑，五分鐘看懂{ind.name}</h1>
+  </section>
+  <div class="story">
+    <div class="stage card"><div id="sc" style="width:100%;height:100%"></div></div>
+    <div class="steps">
+      {steps.map((s, i) => (
+        <section class="card step" data-k={s.k} data-i={i}>
+          <span class="kicker">{i + 1} / {steps.length}</span>
+          <h2>{s.h}</h2>
+          <p>{s.p}</p>
+          <p class="muted">{s.src}</p>
+        </section>
+      ))}
+      <section class="card">
+        <h2>想看更多？</h2>
+        <p><a class="chip on" href={`/i/${ind.slug}/`}>{ind.name} 產業頁</a> <a class="chip on" href="/map/?c=2330">供應鏈地圖</a> <a class="chip on" href="/screen/">篩選公司</a></p>
+      </section>
+    </div>
+  </div>
+  <style>
+    .story { position: relative; }
+    .stage { position: sticky; top: 64px; height: 40vh; z-index: 1; padding: 8px; margin: 12px 0; }
+    .steps { position: relative; z-index: 2; padding-bottom: 30vh; }
+    .step { margin: 0 0 62vh; background: color-mix(in srgb, var(--card) 94%, transparent); }
+    .step h2 { font-size: 22px; }
+    @media (min-width: 900px) {
+      .story { display: grid; grid-template-columns: 1fr 360px; gap: 24px; }
+      .stage { order: 1; height: 70vh; } .steps { order: 2; }
+    }
+  </style>
+  <script type="application/json" id="sdata" set:html={JSON.stringify(chart)}></script>
+  <script>
+    import { css } from '../../components/tools.js';
+    const d = JSON.parse(document.getElementById('sdata').textContent);
+    const echarts = await import('echarts');
+    const chart = echarts.init(document.getElementById('sc'), null, { renderer: 'canvas' });
+    addEventListener('resize', () => chart.resize());
+    const base = () => ({ textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, animationDuration: 900, animationEasing: 'cubicOut' });
+    const bars = (hi) => {
+      const top = d.rows.slice(0, 10).reverse();
+      return { ...base(), grid: { left: 90, right: 70, top: 10, bottom: 10 }, xAxis: { type: 'value', show: false },
+        yAxis: { type: 'category', data: top.map((r) => r.n), axisLabel: { color: css('--fg') }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: top.map((r) => ({ value: Math.round(r.rev), itemStyle: { color: hi(r) ? '#FF573F' : css('--muted') } })),
+          label: { show: true, position: 'right', color: css('--fg'), formatter: (p) => `${p.value.toLocaleString('en-US')} 億` }, barWidth: '60%' }] };
+    };
+    const views = {
+      top10: () => bars(() => true),
+      share: () => bars((r) => d.top5.includes(r.t)),
+      scatter: () => ({ ...base(), grid: { left: 44, right: 16, top: 16, bottom: 36 },
+        xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--muted') }, splitLine: { lineStyle: { color: css('--line') } } },
+        yAxis: { type: 'value', axisLabel: { color: css('--muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--line') } } },
+        tooltip: { formatter: (p) => `${p.data.n}<br>營收 ${p.data.value[0]} 億｜毛利率 ${p.data.value[1]}%` },
+        series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 1 },
+          data: d.rows.filter((r) => r.gm != null && r.rev > 0).map((r) => ({ value: [Math.round(r.rev * 10) / 10, r.gm], n: r.n })) }] }),
+      tsmc: () => ({ ...base(), tooltip: {},
+        series: [{ type: 'graph', layout: 'force', force: { repulsion: 260, edgeLength: 120 }, roam: false,
+          label: { show: true, position: 'bottom', color: css('--fg') }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
+          data: [{ id: d.tsmc.t, name: d.tsmc.n, symbolSize: 50, itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 2 } },
+            ...d.tsmc.partners.map((p) => ({ id: p.t, name: p.n, symbolSize: 22, itemStyle: { color: p.side === 'customer' ? css('--fg') : css('--card'), borderColor: css('--fg'), borderWidth: 2 } }))],
+          links: d.tsmc.partners.map((p) => (p.side === 'customer' ? { source: d.tsmc.t, target: p.t } : { source: p.t, target: d.tsmc.t })),
+          lineStyle: { color: css('--muted'), width: 1.5 } }] }),
+      growth: () => ({ ...base(), grid: { left: 90, right: 70, top: 10, bottom: 10 }, xAxis: { type: 'value', show: false },
+        yAxis: { type: 'category', data: d.growth.map((r) => r.n).reverse(), axisLabel: { color: css('--fg') }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: d.growth.map((r) => r.yoy).reverse(), itemStyle: { color: '#FF573F' },
+          label: { show: true, position: 'right', color: css('--fg'), formatter: '+{c}%' }, barWidth: '60%' }] }),
+    };
+    let cur = null;
+    const show = (k) => { if (k !== cur) { cur = k; chart.setOption(views[k](), true); } };
+    show('top10');
+    // 段落進入畫面中下方時切換圖表
+    const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && show(e.target.dataset.k)),
+      { rootMargin: '-58% 0px -30% 0px' });
+    document.querySelectorAll('.step').forEach((s) => io.observe(s));
+  </script>
+</Base>

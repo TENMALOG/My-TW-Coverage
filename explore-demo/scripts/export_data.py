@@ -11,6 +11,7 @@ Every number shown by the demo comes from these records, and every card carries 
 """
 import csv
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -71,6 +72,24 @@ def main():
         })
         i = inds.setdefault(ind['slug'], {'slug': ind['slug'], 'name': ind['name_zh'].rstrip('?？'), 'tickers': []})
         i['tickers'].append(tk)
+    # complete relation lists: the storyboard keeps at most 8 per company, so add every edge in which the company
+    # is the counterparty of another company's report (role flipped), from the published listed_edges.csv
+    names_by = {c['ticker']: c['name'] for c in comps}
+    full = {c['ticker']: {(r['ticker'], r['side']): r for r in c['relations']} for c in comps}
+    for e in csv.DictReader(open(SITE / 'data/relations/listed_edges.csv', encoding='utf-8-sig')):
+        a, b, role = e['ticker'], e['counterparty_ticker'], e['role']
+        if role not in ('customer', 'supplier') or a not in full or b not in full:
+            continue
+        share = e['share_text'] if re.search(r'\d', e['share_text'] or '') else ''
+        kind = '銷貨' if role == 'customer' else '進貨'
+        # a's report names b: for a, b is `role`; for b, a is the opposite role
+        full[a].setdefault((b, role), {'name': names_by[b], 'ticker': b, 'side': role, 'share': share,
+                                       'label': f'占{names_by[a]}{kind} {share}' if share else '', 'period': e['period']})
+        opp = 'supplier' if role == 'customer' else 'customer'
+        full[b].setdefault((a, opp), {'name': names_by[a], 'ticker': a, 'side': opp, 'share': share,
+                                      'label': f'{names_by[b]}占{names_by[a]}{kind} {share}' if share else '', 'period': e['period']})
+    for c in comps:
+        c['relations'] = list(full[c['ticker']].values())
     (OUT / 'companies.json').write_text(json.dumps(comps, ensure_ascii=False), encoding='utf-8')
     (OUT / 'industries.json').write_text(json.dumps(sorted(inds.values(), key=lambda x: -len(x['tickers'])),
                                                    ensure_ascii=False), encoding='utf-8')
