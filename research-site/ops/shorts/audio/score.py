@@ -129,7 +129,8 @@ def music(total, mark, drums_from):
     add(buf, mark, bass(hz(root), 3.0), .5)
     add(buf, mark, drum('kick'), .6)
     buf = lp(np.tanh(buf * 1.3), 7000)               # lo-fi tape softening
-    buf += vinyl(len(buf) / SR)
+    v = vinyl(len(buf) / SR)                          # float rounding can leave it one sample short
+    buf += np.pad(v, (0, max(0, len(buf) - len(v))))[:len(buf)]
     return buf
 
 
