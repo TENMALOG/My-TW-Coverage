@@ -70,7 +70,7 @@ def stats_rows(fins_in: list[dict]) -> list[str]:
             L.append(f'| {label} | {len(xs)} | {fmt_num(statistics.median(xs))} | '
                      f'{a if a == "—" else fmt_num(a)} | {b if b == "—" else fmt_num(b)} | '
                      f'{fmt_num(min(xs))} | {fmt_num(max(xs))} |')
-    L.append(f'\n合計營業收入 {fmt_m(sum(revs))} 百萬元（{len(revs)} 家加總）。')
+    L.append(f'\n合計營業收入 {fmt_m(sum(revs))} 百萬元（{len(revs)} 家加總）（未消除母子公司重複）。')
     return L
 
 
@@ -98,7 +98,7 @@ def render_chapter(folder: str, rows: list[dict], *, names: dict, fins: dict, ve
     L += ['## 公司一覽 {.unnumbered}\n',
           f'營業收入與毛利率取自 2025 年度綜合損益表彙總{fin_mark}；採銀行、保險、證券等其他報表格式的公司不列毛利率。'
           '「已驗證敘述」為經查核通過且有公開來源的敘述條數。\n',
-          '| 代號 | 公司 | 2025 營業收入（百萬元） | 2025 毛利率 | 已驗證敘述 |', '|---|---|---:|---:|---:|']
+          '| 代號 | 公司 | 證交所產業別 | 2025 營業收入（百萬元） | 2025 毛利率 | 已驗證敘述 |', '|---|---|---|---:|---:|---:|']
     for r in rows:
         tk, fin = r['ticker'], fins.get(r['ticker'])
         name, _ = page_name(r, fin)

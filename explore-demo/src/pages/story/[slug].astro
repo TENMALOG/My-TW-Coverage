@@ -4,6 +4,7 @@
 import Base from '../../layouts/Base.astro';
 import companies from '../../data/companies.json';
 import industries from '../../data/industries.json';
+import { YEAR, revenueSummary, revenueCounts, revenueNote, revenueLabel, exactRevenue } from '../../lib/revenue.js';
 
 export function getStaticPaths() {
   return industries.filter((i) => i.slug === 'semiconductors').map((i) => ({ params: { slug: i.slug }, props: { ind: i } }));
@@ -11,12 +12,12 @@ export function getStaticPaths() {
 const { ind } = Astro.props;
 const by = Object.fromEntries(companies.map((c) => [c.ticker, c]));
 const rows = ind.tickers.map((t) => by[t]).map((c) => {
-  const ys = Object.keys(c.fin).sort();
-  const y = ys.at(-1);
-  const yoy = ys.length > 1 && c.fin[ys[0]].revenue_k ? (c.fin[y].revenue_k / c.fin[ys[0]].revenue_k - 1) * 100 : null;
+  const y = c.fin[YEAR] ? YEAR : null;
+  const yoy = y && c.fin['2024']?.revenue_k ? (c.fin[y].revenue_k / c.fin['2024'].revenue_k - 1) * 100 : null;
   return { t: c.ticker, n: c.name, rev: y ? c.fin[y].revenue_k / 1e5 : null, gm: y ? c.fin[y].gross_margin_pct : null, yoy, rel: c.relations };
 }).filter((r) => r.rev != null).sort((a, b) => b.rev - a.rev);
-const total = rows.reduce((s, r) => s + r.rev, 0);
+const summary = revenueSummary(ind.tickers.map((t) => by[t]));
+const total = summary.rev;
 const pct = (v) => (v * 100).toFixed(1);
 const top1 = rows[0], top5 = rows.slice(0, 5).reduce((s, r) => s + r.rev, 0);
 const gms = rows.filter((r) => r.gm != null).map((r) => r.gm).sort((a, b) => a - b);
@@ -33,10 +34,10 @@ const sup = partners.filter((r) => r.side === 'supplier'), cus = partners.filter
 const growth = rows.filter((r) => r.yoy != null && r.rev >= 10).sort((a, b) => b.yoy - a.yoy).slice(0, 5);
 const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
 const SRC = '資料：公開資訊觀測站「綜合損益表彙總」2025 年度合併報表；比例與中位數由本站計算。';
-const SUM = SRC + '合計是各公司合併營收直接相加，母公司與子公司都上市時會重複計算，只適合看大致規模。';
+const SUM = SRC + revenueNote + `（${revenueCounts(summary)}）` + (summary.negative ? '含營業收入為負的公司。' : '');
 const steps = [
-  { k: 'top10', h: `${rows.length} 家公司，一年 ${fmt(total)} 億營收`,
-    p: `本站收錄的半導體上市櫃公司中，有 ${rows.length} 家有 2025 年度財務資料，營收加起來約 ${fmt(total)} 億元。圖中是營收最大的 10 家。`, src: SUM },
+  { k: 'top10', h: `2025 營業收入加總 ${revenueLabel(summary)}（未去重）`,
+    p: `本站收錄的半導體上市櫃公司中，有 ${rows.length} 家有 2025 年度財務資料，營收加起來${revenueLabel(summary)}。圖中是營收最大的 10 家。`, src: SUM },
   { k: 'share', h: `${top1.n}一家，就占 ${pct(top1.rev / total)}%`,
     p: `${top1.n}的營收約 ${fmt(top1.rev)} 億元，占上述合計的 ${pct(top1.rev / total)}%；營收前 5 大合計占 ${pct(top5 / total)}%。產業營收高度集中在少數公司。`, src: SUM },
   { k: 'scatter', h: `毛利率中位數 ${median.toFixed(1)}%`,
@@ -62,7 +63,7 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
       {steps.map((s, i) => (
         <section class="card step" data-k={s.k} data-i={i}>
           <span class="kicker">{i + 1} / {steps.length}</span>
-          <h2>{s.h}</h2>
+          <h2 title={s.k === 'top10' ? exactRevenue(total) : undefined}>{s.h}</h2>
           <p>{s.p}</p>
           <p class="muted">{s.src}</p>
         </section>

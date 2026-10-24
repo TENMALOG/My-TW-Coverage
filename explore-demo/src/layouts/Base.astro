@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import meta from '../data/meta.json';
+import { researchScope, directoryNote } from '../lib/research-scope.js';
 
 interface Props {
   title: string;
@@ -12,7 +12,7 @@ interface Props {
 
 const {
   title,
-  description = '1,733 家台股上市櫃公司，一句一句附年報出處。用卡片、圖表和 24 秒影片看懂公司在做什麼。',
+  description = `${researchScope}。${directoryNote}公司頁每條事實都附年報頁碼。用卡片、圖表和 24 秒影片看懂公司在做什麼。`,
   ogType = 'website',
   ogImage = null,
   jsonLd,
@@ -87,7 +87,7 @@ const mobileTabs = [
   </div></header>
   <main class="wrap"><slot /></main>
   <footer class="wrap muted site-footer">
-    <p>內容整理自公開資訊觀測站年報與財務資料，公司敘述都附年報出處，歡迎回查。本站不提供任何個股買賣建議，投資請自行判斷。資料截至 {meta.built}。</p>
+    <p>內容整理自公開資訊觀測站年報與財務資料，公司頁每條事實都附年報頁碼，歡迎回查。本站不提供任何個股買賣建議，投資請自行判斷。年報事實評估基準日 2026-10-08；財務快照 2026-10-11（台北時間）。</p>
     <nav class="footer-links" aria-label="網站資訊">
       <a href="/about/">我們怎麼做</a>
       <a href="/paper/">研究報告全文</a>

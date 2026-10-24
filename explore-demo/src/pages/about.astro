@@ -2,6 +2,7 @@
 // 我們怎麼做：資料來源、查核方法、更新頻率與免責聲明。數字都由建置時的 meta.json 帶入，不手寫。
 import Base from '../layouts/Base.astro';
 import meta from '../data/meta.json';
+import { researchScope, directoryNote } from '../lib/research-scope.js';
 const n = (v) => v.toLocaleString('en-US');
 const fy2024 = meta.fy_counts['2024'] || 0;
 ---
@@ -12,8 +13,8 @@ const fy2024 = meta.fy_counts['2024'] || 0;
     <div class="tldr">
       <b>三秒看懂</b>
       <ul>
-        <li>我們把 {n(meta.companies)} 家台股公司的年報，整理成卡片、圖表和 24 秒影片。</li>
-        <li>公司敘述都附年報出處和頁碼，你可以自己回查。</li>
+        <li>{researchScope}。{directoryNote}公司年報整理成卡片、圖表和 24 秒影片。</li>
+        <li>公司頁每條事實都附年報頁碼，你可以自己回查。</li>
         <li>我們不叫你買，也不叫你賣。</li>
       </ul>
     </div>
@@ -38,7 +39,7 @@ const fy2024 = meta.fy_counts['2024'] || 0;
     </ol>
 
     <h2>多久更新</h2>
-    <p>每年各公司年報公布後（約 5–6 月）更新一次。資料截至 {meta.built}。</p>
+    <p>每年各公司年報公布後（約 5–6 月）更新一次。年報事實評估基準日 2026-10-08；財務快照 2026-10-11（台北時間）。</p>
 
     <h2>免責聲明</h2>
     <ol>

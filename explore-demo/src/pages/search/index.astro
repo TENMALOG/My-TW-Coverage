@@ -1,10 +1,12 @@
 ---
-// 搜尋：Pagefind 在建置時為 1,733 家公司頁與 96 個產業頁建立索引（中文斷詞），搜尋完全在瀏覽器內進行。
+// 搜尋：Pagefind 在建置時為 研究涵蓋範圍內的公司頁與產業頁建立索引（中文斷詞），搜尋完全在瀏覽器內進行。
 import Base from '../../layouts/Base.astro';
+import { researchScope, directoryNote } from '../../lib/research-scope.js';
 const tries = ['CoWoS', '台積電 供應商', '電動機車', '加油站', '光學鏡頭', '餐廳', '再生晶圓'];
 ---
-<Base title="搜尋" description="輸入公司、產品、客戶或關鍵字，1,733 家上市櫃公司即時搜尋">
+<Base title="搜尋" description={`輸入公司、產品、客戶或關鍵字搜尋。${researchScope}。${directoryNote}`}>
   <section class="card">
+    <p class="muted">{researchScope}。{directoryNote}</p>
     <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 8px">找公司、找產品、找供應鏈</h1>
     <input id="q" type="search" placeholder="例如：CoWoS、台積電、電動機車…" autocomplete="off" enterkeyhint="search"
       style="width:100%;font:inherit;font-size:20px;padding:12px 16px;border:2.5px solid var(--fg);border-radius:16px;background:var(--bg);color:var(--fg)" />

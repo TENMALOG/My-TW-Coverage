@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import Base from '../../layouts/Base.astro';
 import Term from '../../components/Term.astro';
 import companies from '../../data/companies.json';
+import { hookScope, scopedHook } from '../../lib/hook-scope.js';
 
 export function getStaticPaths() {
   return companies.map((c) => ({ params: { ticker: c.ticker }, props: { c } }));
@@ -23,7 +24,8 @@ const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應�
   ['market_position', '市場地位'], ['rd', '研發'], ['employees', '人力'], ['group_structure', '集團結構'], ['outlook', '展望'],
   ['export_share', '外銷比重'], ['history', '沿革'], ['established', '成立'], ['headquarters', '總部']];
 const ids = (o) => (o?.facts || []).join(',');
-const desc = c.hook?.text || `${c.name}（${c.ticker}）年報重點`;
+const scope = hookScope(c);
+const desc = scopedHook(c) || `${c.name}（${c.ticker}）年報重點`;
 const chartData = { mix: c.mix, regions: c.regions, years, rev };
 const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline: `${c.name}（${c.ticker}）年報重點`, description: desc,
   inLanguage: 'zh-Hant-TW', image: new URL(`/og/${c.ticker}.jpg`, Astro.site).href, mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
@@ -61,6 +63,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     <section class="card coral reveal">
       <span class="kicker">一句話記住它</span>
       <p style="font-size:26px;font-weight:900;margin:4px 0;line-height:1.35" data-pagefind-weight="5">{c.hook.text}</p>
+      {scope && <p class="muted" style="color:#181715">{scope}</p>}
       <button data-pagefind-ignore class="src" data-facts={ids(c.hook)} style="color:#181715">年報出處</button>
     </section>
   )}

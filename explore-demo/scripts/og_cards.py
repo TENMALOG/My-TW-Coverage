@@ -26,12 +26,12 @@ def main(only):
         fy = (c.get('report') or {}).get('fy') or ''
         jobs.append((OUT / f"{c['ticker']}.jpg", {
             'kicker': '公司速覽', 'right': c['industry']['name'], 'tk': c['ticker'], 'name': c['name'],
-            'hook': (c.get('hook') or {}).get('text', ''), 'foot': f'資料：{fy} 年度年報｜每一句都附年報頁碼'}))
+            'hook': (c.get('hook') or {}).get('text', ''), 'foot': f'資料：{fy} 年度年報｜公司頁每條事實都附年報頁碼'}))
     if not only:
         for i in inds:
             jobs.append((OUT / f"i-{i['slug']}.jpg", {
                 'kicker': '產業速覽', 'right': f"{len(i['tickers'])} 家上市櫃公司", 'tk': '', 'name': i['name'],
-                'hook': '', 'foot': '每一家都附年報出處'}))
+                'hook': '', 'foot': '公司頁每條事實都附年報頁碼'}))
     with sync_playwright() as p:
         b = p.chromium.launch(channel='chrome')
         pg = b.new_page(viewport={'width': 1200, 'height': 630})

@@ -2,6 +2,7 @@
 
   py scripts/deploy_pages.py            build + checks + deploy
   py scripts/deploy_pages.py --check    build + checks only
+  ... --archive v0.2=<dir>                also serve a frozen earlier research-site build at /paper/v0.2/ (noindex via _headers)
 
 Credentials stay outside the repo in %USERPROFILE%/.tenmalog-cf/cf.json ({"api_token", "account_id"}); they are passed
 to wrangler through the environment and never printed. The share cards and posters are generated locally (the
@@ -36,6 +37,12 @@ def main():
     # the research site uses relative links only, so it can live under /paper/ unchanged
     assert (PAPER / 'index.html').exists(), 'render research-site first'
     shutil.copytree(PAPER, DIST / 'paper', dirs_exist_ok=True)
+    # superseded editions stay readable for existing citations; the current build must not already use the name
+    for arg in [a.split('=', 1)[1] for a in sys.argv if a.startswith('--archive=')]:
+        name, src = arg.split('=', 1)
+        assert re.fullmatch(r'v\d+(\.\d+)*', name) and (Path(src) / 'index.html').exists(), f'bad --archive {arg}'
+        assert not (PAPER / name).exists(), f'{name} collides with the current research site'
+        shutil.copytree(src, DIST / 'paper' / name)
     files = [p for p in DIST.rglob('*') if p.is_file()]
     big = [p for p in files if p.stat().st_size > 25 * 1024 * 1024]
     assert not (DIST / 'video').exists(), 'dist/video must not be deployed'

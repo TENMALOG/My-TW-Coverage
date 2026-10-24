@@ -1,9 +1,11 @@
 ---
-// 篩選器：依產業、證交所產業別、營收、年增、毛利率篩選 1,733 家；結果可勾選後送進比較器。資料量小，直接在瀏覽器篩選。
+// 篩選器：依產業、證交所產業別、營收、年增、毛利率篩選研究涵蓋範圍內的公司；結果可勾選後送進比較器。資料量小，直接在瀏覽器篩選。
 import Base from '../../layouts/Base.astro';
+import { researchScope, directoryNote } from '../../lib/research-scope.js';
 ---
-<Base title="篩選公司" description="依產業、營收、年增率、毛利率篩選 1,733 家台股上市櫃公司">
+<Base title="篩選公司" description={`依產業、營收、年增率、毛利率篩選。${researchScope}。${directoryNote}`}>
   <section class="card">
+    <p class="muted">{researchScope}。{directoryNote}</p>
     <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 8px">篩選公司</h1>
     <form id="f" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;align-items:end">
       <label>產業<br /><select name="i" class="in"><option value="">全部</option></select></label>

@@ -7,19 +7,20 @@ import industries from '../data/industries.json';
 import meta from '../data/meta.json';
 
 const n = (v) => v.toLocaleString('en-US');
-const latestRev = (c) => { const ys = Object.keys(c.fin).sort(); return ys.length ? c.fin[ys.at(-1)].revenue_k / 1e5 : 0; };
+import { revenueOf, revenueSummary, sortRevenue, exactRevenue, revenueLabel, revenueCounts, revenueNote } from '../lib/revenue.js';
+import { scopedHook } from '../lib/hook-scope.js';
+import { researchScope, directoryNote } from '../lib/research-scope.js';
 const byT = Object.fromEntries(companies.map((c) => [c.ticker, c]));
-const picks = companies.filter((c) => c.hook?.text).sort((a, b) => latestRev(b) - latestRev(a)).slice(0, 120)
-  .map((c) => ({ t: c.ticker, n: c.name, h: c.hook.text, i: c.industry.name }));
+const picks = companies.filter((c) => c.hook?.text).sort((a, b) => (revenueOf(b) ?? -Infinity) - (revenueOf(a) ?? -Infinity)).slice(0, 120)
+  .map((c) => ({ t: c.ticker, n: c.name, h: scopedHook(c), i: c.industry.name }));
 const hot = ['CoWoS', 'HBM', 'AI 伺服器', '電動車', '矽光子', '低軌衛星', 'MLCC', '散熱'];
 const stories = new Set(['semiconductors']);
-const inds = industries.map((i) => ({ ...i, rev: i.tickers.reduce((s, t) => s + latestRev(byT[t]), 0) }))
-  .sort((a, b) => b.rev - a.rev);
-const fmtRev = (v) => (v >= 10000 ? `${(v / 10000).toFixed(1)} 兆` : `${n(Math.round(v))} 億`);
+const inds = industries.map((i) => ({ ...i, ...revenueSummary(i.tickers.map((t) => byT[t])) })).sort(sortRevenue);
 ---
 <Base title="看懂台股公司在做什麼">
   <section class="card coral home-hero">
-    <span class="kicker">{n(meta.companies)} 家上市櫃公司・{n(meta.facts)} 條年報事實</span>
+    <span class="kicker">{researchScope}・{n(meta.facts)} 條年報事實</span>
+    <p>{directoryNote}</p>
     <h1>這家公司到底在做什麼？<br />翻年報給你看。</h1>
     <form action="/search/" method="get" role="search" class="home-search">
       <input name="q" type="search" placeholder="台積電、2330、CoWoS…" aria-label="搜尋公司或關鍵字" enterkeyhint="search" />
@@ -53,13 +54,14 @@ const fmtRev = (v) => (v >= 10000 ? `${(v / 10000).toFixed(1)} 兆` : `${n(Math.
   </section>
 
   <section class="card reveal">
-    <h2>所有產業（依營收規模）</h2>
-    <p class="muted">數字是產業內各公司最新年度合併營收直接相加，母子公司都上市時會重複計算，只適合看大致規模。</p>
+    <h2>所有產業（2025 年度營收加總，未去重）</h2>
+    <p class="muted">{revenueNote}</p>
     <div class="inds">
       {inds.map((i) => (
         <a class="ind" href={`/i/${i.slug}/`}>
           <b>{i.name}</b>
-          <span class="num muted">{i.tickers.length} 家・{fmtRev(i.rev)}</span>
+          <span class="num muted" title={exactRevenue(i.rev)}>{i.tickers.length} 家・2025 營收加總 {revenueLabel(i)}（{revenueCounts(i)}）</span>
+          {i.negative && <span class="muted">含營業收入為負的公司</span>}
           {stories.has(i.slug) && <span class="badge">有產業故事</span>}
         </a>
       ))}
