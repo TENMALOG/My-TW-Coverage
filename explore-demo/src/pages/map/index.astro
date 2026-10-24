@@ -1,11 +1,11 @@
 ---
-// 全站供應鏈地圖：上市櫃公司年報明確點名的往來（逐筆查核），從一家公司出發，點節點就展開它的客戶與供應商。
+// 全站供應鏈地圖：本站收錄公司年報明確點名的往來（逐筆查核），從一家公司出發，點節點就展開它的客戶與供應商。
 import Base from '../../layouts/Base.astro';
 ---
 <Base title="供應鏈地圖" description="從一家公司出發，一路點開它在年報裡點名的客戶與供應商">
   <section class="card">
     <h1 style="font-family:'Noto Serif TC',serif;margin:0 0 6px">供應鏈地圖</h1>
-    <p class="muted" style="margin:0 0 10px">只畫「上市櫃公司年報明確點名、且雙方都是上市櫃公司」的往來，逐筆查核。箭頭由供應商指向客戶。
+    <p class="muted" style="margin:0 0 10px">只畫「年報明確點名、且雙方都是本站收錄的公司（上市、上櫃或興櫃）」的往來，逐筆查核。箭頭由供應商指向客戶。
       <b>點一下</b>節點展開它的往來對象；下方會顯示該公司的連結。</p>
     <div id="pick"></div>
     <div id="info" style="margin-top:10px"></div>
@@ -62,7 +62,7 @@ import Base from '../../layouts/Base.astro';
     }
     chart.on('click', (p) => { if (p.dataType !== 'node') return; focus = p.data.t; expand(focus); info(focus); draw(); });
     document.getElementById('pick').append(await picker((c) => {
-      if (!nbr[c.t]) { document.getElementById('info').replaceChildren(el('p', { class: 'muted' }, `${c.n} 的年報沒有點名其他上市櫃公司，或沒有被其他上市櫃公司點名。`)); return; }
+      if (!nbr[c.t]) { document.getElementById('info').replaceChildren(el('p', { class: 'muted' }, `${c.n} 的年報沒有點名其他本站收錄的公司，或沒有被其他上市櫃公司點名。`)); return; }
       shown.clear(); expanded.clear(); focus = c.t; expand(focus); info(focus); draw();
     }, '從哪家公司開始？輸入代號或名稱'));
     expand(focus); info(focus); draw();

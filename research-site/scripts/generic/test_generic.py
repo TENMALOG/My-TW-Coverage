@@ -225,7 +225,7 @@ class TestIndustryChapter(unittest.TestCase):
                                             verified={}, claim_rows=[], analysis_dir=Path(d))
             self.assertIn('{{< include _analysis/electronic-components.qmd >}}', text2)
         self.assertIn('[測試電](../companies/9999.qmd)', text)
-        self.assertIn('| 9998 | [測試二](../companies/9998.qmd) | 2,000 | 20.00% | 0 |', text)
+        self.assertIn('| 9998 | [測試二](../companies/9998.qmd) | 不繼續公開發行 | 2,000 | 20.00% | 0 |', text)
         self.assertIn('具名客戶與供應關係', text)
         self.assertIn('測試新聞', text)
         for b in BANNED:

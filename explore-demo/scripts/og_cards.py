@@ -30,7 +30,7 @@ def main(only):
     if not only:
         for i in inds:
             jobs.append((OUT / f"i-{i['slug']}.jpg", {
-                'kicker': '產業速覽', 'right': f"{len(i['tickers'])} 家上市櫃公司", 'tk': '', 'name': i['name'],
+                'kicker': '產業速覽', 'right': f"{len(i['tickers'])} 家公司", 'tk': '', 'name': i['name'],
                 'hook': '', 'foot': '公司頁每條事實都附年報頁碼'}))
     with sync_playwright() as p:
         b = p.chromium.launch(channel='chrome')

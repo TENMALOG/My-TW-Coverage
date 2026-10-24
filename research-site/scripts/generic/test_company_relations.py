@@ -88,7 +88,7 @@ def test_table_rows_footnotes_links_and_escaping():
     assert '100\\|元' in table_rows[0]
     assert '[^n1]' in table_rows[0] and '[^n2]' in table_rows[1]
     assert all('example.test/report.pdf' in note for note in notes.items)
-    assert lines[0] == '## 與其他上市櫃公司的往來關係 {.unnumbered}'
+    assert lines[0] == '## 與本研究收錄公司的往來關係 {.unnumbered}'
 
 
 def test_customer_precedes_supplier_and_period_descends():

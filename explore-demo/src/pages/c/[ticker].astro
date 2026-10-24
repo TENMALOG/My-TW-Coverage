@@ -118,7 +118,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   {c.relations.length > 0 && (
     <section class="card reveal">
       <h2>跟誰做生意？</h2>
-      <p class="muted">上市櫃公司年報裡明確點名的往來對象（逐筆查核）。</p>
+      <p class="muted">年報裡明確點名、且對方也在本站收錄範圍內的往來對象（逐筆查核）。</p>
       <div>
         {c.relations.map((r) => (
           <a class="chip" href={known.has(r.ticker) ? `/c/${r.ticker}/` : undefined}

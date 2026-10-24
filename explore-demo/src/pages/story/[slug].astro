@@ -37,14 +37,14 @@ const SRC = '資料：公開資訊觀測站「綜合損益表彙總」2025 年�
 const SUM = SRC + revenueNote + `（${revenueCounts(summary)}）` + (summary.negative ? '含營業收入為負的公司。' : '');
 const steps = [
   { k: 'top10', h: `2025 營業收入加總 ${revenueLabel(summary)}（未去重）`,
-    p: `本站收錄的半導體上市櫃公司中，有 ${rows.length} 家有 2025 年度財務資料，營收加起來${revenueLabel(summary)}。圖中是營收最大的 10 家。`, src: SUM },
+    p: `本站收錄的半導體公司中，有 ${rows.length} 家有 2025 年度財務資料，營收加起來${revenueLabel(summary)}。圖中是營收最大的 10 家。`, src: SUM },
   { k: 'share', h: `${top1.n}一家，就占 ${pct(top1.rev / total)}%`,
     p: `${top1.n}的營收約 ${fmt(top1.rev)} 億元，占上述合計的 ${pct(top1.rev / total)}%；營收前 5 大合計占 ${pct(top5 / total)}%。產業營收高度集中在少數公司。`, src: SUM },
   { k: 'scatter', h: `毛利率中位數 ${median.toFixed(1)}%`,
     p: `把每家公司依營收（橫軸）和毛利率（縱軸）畫出來：毛利率的中位數是 ${median.toFixed(1)}%，有 ${hiGm} 家在 50% 以上。規模大不一定毛利高。`, src: SRC },
   { k: 'tsmc', h: `年報裡，誰跟${tsmc.name}做生意？`,
-    p: `上市櫃公司年報明確點名、且雙方都是上市櫃公司的往來中，${tsmc.name}有 ${sup.length} 家供應商（例如 ${sup.slice(0, 3).map((r) => r.name).join('、')}）和 ${cus.length} 家客戶（例如 ${cus.slice(0, 3).map((r) => r.name).join('、')}）。`,
-    src: '資料：各上市櫃公司 2025 年度年報主要進銷貨對象，逐筆查核。' },
+    p: `年報明確點名、且雙方都是本站收錄公司的往來中，${tsmc.name}有 ${sup.length} 家供應商（例如 ${sup.slice(0, 3).map((r) => r.name).join('、')}）和 ${cus.length} 家客戶（例如 ${cus.slice(0, 3).map((r) => r.name).join('、')}）。`,
+    src: '資料：各公司 2025 年度年報主要進銷貨對象，逐筆查核。' },
   { k: 'growth', h: '一年長最快的 5 家',
     p: `營收 10 億元以上的公司中，2025 年營收年增最多的是 ${growth.map((r) => `${r.n}（+${r.yoy.toFixed(1)}%）`).join('、')}。`, src: SRC },
 ];
