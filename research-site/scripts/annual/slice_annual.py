@@ -298,10 +298,17 @@ _REGISTERED = None
 
 
 def registered_name(ticker):
-    """MOPS 公司基本資料 name for the ticker (research-site/data/basic-data.jsonl), if downloaded."""
+    """Registered legal name for the ticker: MOPS 公司基本資料 (research-site/data/basic-data.jsonl) first,
+    then the TWSE/TPEx official directory (research-site/data/official-directory.json) for companies
+    outside the original catalog."""
     global _REGISTERED
     if _REGISTERED is None:
         _REGISTERED = {}
+        directory = ROOT / "research-site/data/official-directory.json"
+        if directory.exists():
+            for r in json.loads(directory.read_text(encoding="utf-8"))["companies"]:
+                if r.get("legal_name"):
+                    _REGISTERED[r["ticker"]] = r["legal_name"]
         path = ROOT / "research-site/data/basic-data.jsonl"
         if path.exists():
             for line in path.read_text(encoding="utf-8").splitlines():

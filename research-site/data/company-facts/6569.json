@@ -1,0 +1,623 @@
+{
+ "ticker": "6569",
+ "company": "醫揚",
+ "legal_name": "醫揚科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6569&filename=2025_6569_20260526F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6569_20260526F04.pdf",
+  "text_sha256": "e2aadb24fa24f78505d6e5617288d476eb56bf6d11da98f55b934842725adb97",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/e2aadb24fa24f78505d6e5617288d476eb56bf6d11da98f55b934842725adb97.txt"
+ },
+ "facts": [
+  {
+   "id": "6569-AR-01",
+   "field": "established",
+   "statement": "年報股本來源表記載，99.02（民國99年2月）的股本來源為公司募集設立，股數3,000仟股。",
+   "period": "99年2月（2010）",
+   "page": 62,
+   "excerpts": [
+    "年月 \n發行\n價格\n(元) \n核定股本 實收股本 備   註 \n股數 金額 股數 金額 股本來源",
+    "99.02 10 3,000,000 30,000,000 3,000,000 30,000,000 公司募集設立\n3,000 仟股"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-02",
+   "field": "headquarters",
+   "statement": "年報載明總公司地址為新北市新店區寶橋路235巷135號4樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "二、 總公司、分公司、工廠之地址及電話",
+    "總公司  新北市新店區寶橋路 235 巷 135 號 4 樓"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度醫療用電腦及其配件營業收入為新台幣1,292,473仟元，占營收比重98.42%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "2. 營業比重 \n單位：新台幣仟元 \n年度 \n項目 \n113 年度 114 年度 \n金額 營收比重 金額 營收比重",
+    "醫療用電腦及其配件",
+    "1 , 2 9 2 , 4 7 3  9 8 . 4 2 %"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度其他項目（年報註明為勞務及保固收入）營業收入為新台幣20,815仟元，占營收比重1.58%。",
+   "period": "114年度（2025）",
+   "page": 69,
+   "excerpts": [
+    "2. 營業比重 \n單位：新台幣仟元 \n年度 \n項目 \n113 年度 114 年度 \n金額 營收比重 金額 營收比重",
+    "其他(註)",
+    "2 0 , 8 1 5  1 . 5 8 %",
+    "註：其他項目係勞務及保固收入。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-05",
+   "field": "business_scope",
+   "statement": "公司於年報說明，專注於專業醫療電腦設備的研發、製造與銷售，銷售模式包括ODM/OEM服務，以及直接或透過經銷商銷售給終端使用者。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "本公司專注於專業醫療電腦設備的研發、製造與銷售，提供多元化的銷售模\n式，包括ODM/OEM 服務，以及直接或透過經銷商銷售給終端使用者"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-06",
+   "field": "products",
+   "statement": "公司於年報揭露，主要產品為醫療用電腦，其中「生理監測系統」類別內容包括ACCEL、ZEUS及Mate系列醫療專用工作站、醫療級顯示器、智慧手術室方案以及AI人工智慧醫療工作站。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "本公司主要產品為醫療用電腦，依產品的特性及用途可分為以下類別：",
+    "生理監測系統 ACCEL、ZEUS 以及 Mate 系列醫療專用工作站、醫療級顯示\n器、智慧手術室方案以及 AI 人工智慧醫療工作站"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-07",
+   "field": "products",
+   "statement": "公司於年報揭露，產品類別「醫療控制器」內容包括MedPC系列嵌入式醫療等級無風扇電腦、醫療後裝市場專用AI伺服器及醫療主機板。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "產品類別 內容",
+    "醫療控制器 MedPC系列嵌入式醫療等級無風扇電腦 、 醫療後裝市場專用AI\n伺服器及醫療主機板"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-08",
+   "field": "products",
+   "statement": "公司於年報揭露，產品類別「行動護理系統」內容為VENUS系列醫療護理推車專用電腦。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "產品類別 內容",
+    "行動護理系統 V E N U S系列醫療護理推車專用電腦"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-09",
+   "field": "products",
+   "statement": "年報列有計畫開發之新商品(服務)，包括手術室等級醫療顯示器、AI手術機器人運算平台、AI內視鏡系統專用之伺服器與行動平板等。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "4. 計畫開發之新商品(服務)",
+    "手術室等級醫療 \n顯示器",
+    "AI手術機器人 \n運算平台",
+    "AI內視鏡系統專用\n之伺服器與行動平板"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-10",
+   "field": "export_share",
+   "statement": "114年度外銷銷售金額為新台幣1,300,058仟元，占銷售地區表合計的98.99%。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "1. 主要商品(服務)之銷售(提供)地區 \n單位：新台幣仟元；% \n年度別 \n地區別  \n113年度 1 14 年度 \n銷售金額 比例 銷售金額 比例",
+    "外銷 1,228,462 98.97% 1,300,058 98.99%",
+    "合計 1,241,251 100.00%  1,313,288 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-11",
+   "field": "sales_regions",
+   "statement": "公司於年報自述，銷售地區以歐美為最大宗，其中歐洲地區多透過經銷商售予終端客戶，美洲地區則係以ODM/OEM模式居多。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "銷售地區以歐美為最大宗",
+    "其中歐洲地區多\n透過經銷商售予終端客戶，美洲地區則係以ODM/OEM模式居多"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-12",
+   "field": "major_customers",
+   "statement": "某客戶（A 公司，年報因保密合約以代碼表示）113年度銷貨金額為新台幣256,000仟元，占全年度銷貨淨額20.62%。",
+   "period": "113年度（2024）",
+   "page": 79,
+   "excerpts": [
+    "2. 主要銷貨客戶 \n    單位：新台幣仟元  \n項目 \n113 年度 114 年度 \n名稱 金額 \n占全年度銷\n貨淨額比率",
+    "A 公司 256,000 20.62 ─ A 公司 105,393 8.02",
+    "銷貨淨額 1,241,251 100.00 ─ 銷貨淨額 1,313,288 100.00",
+    "因與客戶簽訂保密合約，故以代碼表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-13",
+   "field": "major_customers",
+   "statement": "某客戶（B 公司，年報因保密合約以代碼表示）114年度銷貨金額為新台幣147,057仟元，占全年度銷貨淨額11.20%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "2. 主要銷貨客戶 \n    單位：新台幣仟元  \n項目 \n113 年度 114 年度 \n名稱 金額 \n占全年度銷\n貨淨額比率",
+    "B 公司 11,304 0.91 ─ B 公司 147,057 11.20",
+    "銷貨淨額 1,241,251 100.00 ─ 銷貨淨額 1,313,288 100.00",
+    "因與客戶簽訂保密合約，故以代碼表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-14",
+   "field": "major_customers",
+   "statement": "公司於年報說明，某客戶（B 公司）114年度銷貨金額增加，主要因客戶專案需求出貨增加；某客戶（A 公司）則係因該公司產品策略調整、需求減少所致。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "B 公司 114 年度銷貨金額增加主要因客戶專案需求出貨增加；A 公司係因該公司\n產品策略調整，需求減少所致",
+    "因與客戶簽訂保密合約，故以代碼表示"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-15",
+   "field": "major_suppliers",
+   "statement": "年報進貨對象表載明，研揚科技股份有限公司（與發行人之關係為母公司）114年度進貨金額為新台幣82,303仟元，占全年度進貨淨額10.97%。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "1. 主要進貨對象 \n單位：新台幣仟元 \n項\n目 \n113 年度 114 年度 \n名稱 金額 \n占全年度\n進貨淨額\n比率",
+    "研揚科技股\n份有限公司 63,665 9.00 母公司 研揚科技股\n份有限公司 82,303 10.97 母公司",
+    "進貨淨額 707,327 100 ─ 進貨淨額 750,280 100"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-16",
+   "field": "major_suppliers",
+   "statement": "公司於年報說明，114年對母公司研揚科技股份有限公司進貨增加，主要係因公司接獲訂單備料。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "研揚科技股\n份有限公司 63,665 9.00 母公司 研揚科技股\n份有限公司 82,303 10.97 母公司",
+    "本公司 114 年對研揚科技股份有限公司進貨增加主要係因本公司接獲訂單備料"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-17",
+   "field": "major_suppliers",
+   "statement": "公司於年報風險事項說明，其最近年度最大供應商的主要供應項目為工業用主機板。",
+   "period": "截至114年度年報刊印日",
+   "page": 89,
+   "excerpts": [
+    "本公司最近年度最大供應商為研揚科技股份有限公司",
+    "主要供應項目為工業用主機板"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-18",
+   "field": "raw_materials",
+   "statement": "年報主要原料表列有板卡、液晶顯示器、金屬機殼、觸控螢幕、CPU/GPU/記憶卡/模組及作業系統，公司於年報自述各項原料供應狀況為良好。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "(三) 主要原料之供應狀況 \n主要原料名稱 供應狀況 \n板卡 良好 \n液晶顯示器 良好 \n金屬機殼 良好 \n觸控螢幕 良好 \nCPU、GPU、記憶卡、模組\n良好，因應 SSD與 DDR供應狀況作策略性備料規\n劃，且增加第二供應商或替代料，而價格依據市場\n情況調整  \n作業系統 良好"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-19",
+   "field": "raw_materials",
+   "statement": "公司於年報自述，CPU、GPU、記憶卡、模組的供應狀況為良好，並因應SSD與DDR供應狀況作策略性備料規劃，且增加第二供應商或替代料，價格依據市場情況調整。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "主要原料名稱 供應狀況",
+    "CPU、GPU、記憶卡、模組\n良好，因應 SSD與 DDR供應狀況作策略性備料規\n劃，且增加第二供應商或替代料，而價格依據市場\n情況調整"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-20",
+   "field": "market_position",
+   "statement": "公司於年報說明，醫療電腦設備市場較為封閉，目前並無相關市場研究統計市場規模相關資料，國內外皆尚無確切之數據用以顯示市場占有率。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "醫療電\n腦設備市場較為封閉，目前並無相關市場研究統計市場規模相關資料，故基於銷\n售模式及產業特性因素，國內外皆尚無確切之數據用以顯示市場占有率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-21",
+   "field": "market_position",
+   "statement": "公司於年報自述，旗下「onyx」自有品牌產品在國內和歐美市場已站穩腳步，特別在歐洲成為專業醫療通路之領導品牌。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "旗下「onyx」自有品牌產品在國內和歐\n美市場已站穩腳步，特別在歐洲成為專業醫療通路之領導品牌"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-22",
+   "field": "employees",
+   "statement": "114年度員工人數合計為167人（員工人數表未載明為母公司或合併範圍），表註載明員工人數不含兼任本公司職務之董事。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "三、 從業員工最近二年度及截至年報刊印日止從業員工資料 \n年        度 1 13 年度 1 1 4 年度 當年度截至 \n115年 3 月 31 日止",
+    "合計 162 167 165",
+    "註：以上員工人數不含兼任本公司職務之董事"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-23",
+   "field": "rd",
+   "statement": "114年度研究發展費用為新台幣112,492仟元，占營收淨額比例8.57%。",
+   "period": "114年度（2025）",
+   "page": 5,
+   "excerpts": [
+    "1. 最近二年度研究發展支出\n單位：新台幣仟元；% \n年度\n項目 114年度 113 年度",
+    "研究發展費用 112,492 118,318",
+    "佔營收淨額比例 8.57 9.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-24",
+   "field": "group_structure",
+   "statement": "年報主要股東名單（115年3月28日）列有研揚科技股份有限公司，持有股數18,694,156股，持股比例47.85%。",
+   "period": "截至115年3月28日",
+   "page": 63,
+   "excerpts": [
+    "(二) 主要股東名單 \n115 年 3 月 28 日；單位：股 \n股份\n主要股東名稱 持有股數 持股比例",
+    "研揚科技股份有限公司 18,694,156 47.85%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  },
+  {
+   "id": "6569-AR-25",
+   "field": "outlook",
+   "statement": "年報短期業務發展計畫載明，公司將持續強化與NVIDIA、Intel等關鍵科技夥伴之合作。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "1. 短期業務發展計畫",
+    "本公司將持續強化與 NVIDIA 、Intel 等關鍵科技夥伴之合作"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:54+00:00"
+   }
+  }
+ ]
+}

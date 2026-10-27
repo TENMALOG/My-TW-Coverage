@@ -1,0 +1,634 @@
+{
+ "ticker": "2903",
+ "company": "遠百",
+ "legal_name": "遠東百貨股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2903&filename=2025_2903_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2903_20260527F04.pdf",
+  "text_sha256": "cf4422960da612f43291901079b88298f7dcb017c7f03d998b637412e6bbc9f7",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/cf4422960da612f43291901079b88298f7dcb017c7f03d998b637412e6bbc9f7.txt"
+ },
+ "facts": [
+  {
+   "id": "2903-AR-01",
+   "field": "business_scope",
+   "statement": "年報揭露公司及子公司係屬經營零售百貨及超級市場之單一產業。",
+   "period": "截至114年度年報刊印日",
+   "page": 70,
+   "excerpts": [
+    "本公司及子公司係屬經營零售百貨及超級市場之單一產業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-02",
+   "field": "revenue_mix",
+   "statement": "依合併報表資料，114年度主要業務營業額合計為新台幣34,068,301仟元。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113  年   度 114  年   度",
+    "合計  35,006,753 100 34,068,301 100",
+    "註：係採合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-03",
+   "field": "revenue_mix",
+   "statement": "依合併報表資料，114年度商品銷售收入為新台幣17,954,481仟元，營業比重53%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113  年   度 114  年   度",
+    "商品銷售收入",
+    "17,954,481  \n12,793,465  \n 724,002  \n 1,627,181  \n969,172 \n53  \n37  \n2  \n5  \n3",
+    "註：係採合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-04",
+   "field": "revenue_mix",
+   "statement": "依合併報表資料，114年度專櫃抽成收入為新台幣12,793,465仟元，營業比重37%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113  年   度 114  年   度",
+    "專櫃抽成收入",
+    "17,954,481  \n12,793,465  \n 724,002  \n 1,627,181  \n969,172 \n53  \n37  \n2  \n5  \n3",
+    "註：係採合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-05",
+   "field": "revenue_mix",
+   "statement": "依合併報表資料，114年度不動產租金收入為新台幣1,627,181仟元，營業比重5%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113  年   度 114  年   度",
+    "不動產租金收入",
+    "17,954,481  \n12,793,465  \n 724,002  \n 1,627,181  \n969,172 \n53  \n37  \n2  \n5  \n3",
+    "註：係採合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-06",
+   "field": "revenue_mix",
+   "statement": "依合併報表資料，114年度廣告及促銷收入為新台幣724,002仟元，營業比重2%。",
+   "period": "114年度（2025）",
+   "page": 70,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113  年   度 114  年   度",
+    "廣告及促銷收入",
+    "17,954,481  \n12,793,465  \n 724,002  \n 1,627,181  \n969,172 \n53  \n37  \n2  \n5  \n3",
+    "註：係採合併報表資料。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-07",
+   "field": "sales_regions",
+   "statement": "年報揭露公司主要商品（服務）之銷售（提供）地區為台灣及中國大陸。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "公司主要商品(服務)之銷售(提供)地區：",
+    "台灣及中國大陸。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報自述其在台灣市場佔有率（含遠東SOGO百貨及亞東百貨）為24%。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "本公司在台灣市場佔有率(含遠東 SOGO 百貨及亞東百貨)為 24%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-09",
+   "field": "market_position",
+   "statement": "年報列示公司之主要競爭對手為新光三越百貨公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "主要競爭對手：",
+    "新光三越百貨公司。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-10",
+   "field": "market_position",
+   "statement": "年報致股東報告書揭露114年百貨公司整體營業額為新台幣4,555億元，年增1.4%。",
+   "period": "114年（2025）",
+   "page": 5,
+   "excerpts": [
+    "114 年百貨公司整體營業額為新台幣\n（以下同） 4,555 億元，年增 1.4%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-11",
+   "field": "raw_materials",
+   "statement": "年報揭露公司為百貨業，主要原料之供應狀況不適用。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "(三)主要原料之供應狀況：本公司為百貨業故不適用。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-12",
+   "field": "major_suppliers",
+   "statement": "年報揭露最近二年度任一年度中曾占進貨總額百分之十以上之對象為無。",
+   "period": "113年度至114年度（2024–2025）",
+   "page": 72,
+   "excerpts": [
+    "最近二年度任一年度中曾占進(銷)貨總額百分之十以上之客戶名稱",
+    "1.進貨：無。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-13",
+   "field": "major_customers",
+   "statement": "年報揭露最近二年度任一年度中曾占銷貨總額百分之十以上之客戶為無。",
+   "period": "113年度至114年度（2024–2025）",
+   "page": 72,
+   "excerpts": [
+    "最近二年度任一年度中曾占進(銷)貨總額百分之十以上之客戶名稱",
+    "2.銷貨：無。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-14",
+   "field": "employees",
+   "statement": "114年度本公司員工人數合計1,200人。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至 115 年 3 月 10 日",
+    "本公司 財務報告內 \n所有公司",
+    "合   計 1,241 4,456 1,200 4,308 1,185 4,267"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-15",
+   "field": "employees",
+   "statement": "114年度財務報告內所有公司員工人數合計4,308人。",
+   "period": "114年度（2025）",
+   "page": 72,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至 115 年 3 月 10 日",
+    "本公司 財務報告內 \n所有公司",
+    "合   計 1,241 4,456 1,200 4,308 1,185 4,267"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-16",
+   "field": "employees",
+   "statement": "截至115年3月10日本公司員工人數合計1,185人。",
+   "period": "截至115年3月10日",
+   "page": 72,
+   "excerpts": [
+    "113 年度 114 年度 當年度截至 115 年 3 月 10 日",
+    "本公司 財務報告內 \n所有公司",
+    "合   計 1,241 4,456 1,200 4,308 1,185 4,267"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-17",
+   "field": "market_position",
+   "statement": "公司於年報自述為亞洲首家加入世界百貨公司聯盟（IGDS）之百貨公司，亦為長期唯一代表臺灣參與之會員。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "為亞洲首",
+    "家加入世界百貨公司聯盟 （Intercontinental Group of Department Stores, IGDS） 之百貨公司，亦為長期",
+    "唯一代表臺灣參與之會員"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-18",
+   "field": "outlook",
+   "statement": "公司短期業務發展計畫包括持續優化APP功能，結合顧客關係管理（CRM）系統與數據分析，發展更精準之分眾行銷機制等。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "持續優化APP 功能，結合顧客關係管理 （CRM） 系統與數",
+    "據分析，發展更精準之分眾行銷機制"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-19",
+   "field": "outlook",
+   "statement": "公司長期業務發展計畫包括持續評估各地市場潛力，深化區域布局與市場開發，並優化既有店型與營運模式等。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "擴大零售布局，厚植成長基礎：持續評估各地市場潛力，深化區域布局與市場開發，並優",
+    "化既有店型與營運模式"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-20",
+   "field": "revenue_mix",
+   "statement": "年報致股東報告書揭露，遠百零售集團主要事業體之遠東百貨114年營業額達新台幣600億元。",
+   "period": "114年（2025）",
+   "page": 5,
+   "excerpts": [
+    "新台幣\n（以下同）",
+    "遠百零售集團主要事業體 114 年營業成果說明如下",
+    "114 年營業額達 600 億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-21",
+   "field": "revenue_mix",
+   "statement": "年報致股東報告書揭露，遠百零售集團主要事業體之遠東SOGO於114年營業額達新台幣491億元。",
+   "period": "114年（2025）",
+   "page": 5,
+   "excerpts": [
+    "新台幣\n（以下同）",
+    "遠百零售集團主要事業體 114 年營業成果說明如下",
+    "(二二) 遠遠東東 SOGO",
+    "114 年營業額達 491 億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-22",
+   "field": "revenue_mix",
+   "statement": "年報致股東報告書揭露，遠百零售集團主要事業體之愛買量販店114年營業額為新台幣112.9億元。",
+   "period": "114年（2025）",
+   "page": 5,
+   "excerpts": [
+    "新台幣\n（以下同）",
+    "遠百零售集團主要事業體 114 年營業成果說明如下",
+    "愛愛買買量量販販店店",
+    "114 年營業額為 112.9 億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-23",
+   "field": "group_structure",
+   "statement": "截至114年12月31日，公司直接持有亞東百貨(股)公司51,000仟股，持股比例100%。",
+   "period": "截至114年12月31日",
+   "page": 66,
+   "excerpts": [
+    "114 年 12 月 31 日  單位：仟股；％",
+    "亞東百貨(股)公司 51,000  100 0 0 51,000 100"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-24",
+   "field": "group_structure",
+   "statement": "截至114年12月31日，遠東新世紀(股)公司為公司主要股東，持有241,745,965股，持股比例17.06%。",
+   "period": "截至114年12月31日",
+   "page": 67,
+   "excerpts": [
+    "主主要要股股東東名名單單",
+    "114 年 12 月 31 日",
+    "遠東新世紀(股)公司 241,745,965 17.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2903-AR-25",
+   "field": "history",
+   "statement": "年報揭露遠東SOGO之大巨蛋A棟1樓已於114年5月開幕，同棟影城隨後於10月正式營運。",
+   "period": "114年（2025）",
+   "page": 6,
+   "excerpts": [
+    "大巨蛋 A 棟 1 樓已於 114 年 5 月開幕，同棟影城隨後",
+    "於 10 月正式營運"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  }
+ ]
+}

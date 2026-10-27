@@ -1,0 +1,611 @@
+{
+ "ticker": "7724",
+ "company": "諾亞克",
+ "legal_name": "諾亞克科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7724&filename=2025_7724_20260630F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7724_20260630F04.pdf",
+  "text_sha256": "534053fdfd1f81f98a4ef0d24c1e3eb5028b83af2c0c1e9ed2ba41e7ab474463",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/534053fdfd1f81f98a4ef0d24c1e3eb5028b83af2c0c1e9ed2ba41e7ab474463.txt"
+ },
+ "facts": [
+  {
+   "id": "7724-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度醫療器材銷貨收入為新臺幣329,203千元，營業比重為77.23%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位:新臺幣千元\n年度\n項目\n113年度 1 1 4 年度\n金額 比重(%) 金額 比重(%)",
+    "醫療器材銷貨收入 360,665 86.88 329,203 77.23"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度軟體使用或維護收入為新臺幣27,836千元，營業比重為6.53%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位:新臺幣千元\n年度\n項目\n113年度 1 1 4 年度\n金額 比重(%) 金額 比重(%)",
+    "軟體使用或維護收入 26,771 6.45 27,836 6.53"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度軟體開發收入為新臺幣62,079千元，營業比重為14.56%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位:新臺幣千元\n年度\n項目\n113年度 1 1 4 年度\n金額 比重(%) 金額 比重(%)",
+    "軟體開發收入 21,969 5.27 62,079 14.56"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度其他收入為新臺幣7,147千元，營業比重為1.68%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位:新臺幣千元\n年度\n項目\n113年度 1 1 4 年度\n金額 比重(%) 金額 比重(%)",
+    "其他 5,736 1.40 7,147 1.68"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-05",
+   "field": "business_scope",
+   "statement": "公司及子公司主要營業內容為長照資訊軟體與醫療耗材供應鏈服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "本公司及子公司主要營業內容為長照資訊軟體與醫療耗材供應鏈服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-06",
+   "field": "products",
+   "statement": "uCare長照資訊軟體提供雲端軟體服務，協助管理住宿式機構、居家護理、居家服務與日照中心等場域。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "諾亞克科技的 「uCare長照資訊軟體」是長照單位的核心軟體系統，提供\n一站式雲端軟體服務，助長照客戶一手管理住宿式機構、居家護理、居家服務\n與日照中心等不同場域。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-07",
+   "field": "products",
+   "statement": "醫療耗材供應鏈服務包括醫療耗材銷售、包類製造組合、分裝、貼標、滅菌及代客EO氣體滅菌等。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "a. 醫療耗材銷售：\n銷售非侵入性通規醫療耗材產品於全台各級之長照單位、醫療院所與醫學\n院校，並提供全科別、手術式及動物醫療單位適用之產品規格。\nb. 醫療耗材包類製造組合、分裝、貼標與滅菌：\n提供醫護單位所需之特殊護理用途之醫療耗材組合包。\nc. EO滅菌消毒\n提供代客 EO氣體滅菌所提供產品之滅菌服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新臺幣367,284千元，占銷售地區表合計86.16%。",
+   "period": "114年度",
+   "page": 55,
+   "excerpts": [
+    "單位：新臺幣千元；% \n銷售地區 113 年度 1 14 年度\n金額 銷售佔比 金額 銷售佔比",
+    "內銷 408,236 98.34 367,284 86.16",
+    "合計 415,141 100.00 426,265 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度外銷金額為新臺幣58,981千元，占銷售地區表合計13.84%。",
+   "period": "114年度",
+   "page": 55,
+   "excerpts": [
+    "單位：新臺幣千元；% \n銷售地區 113 年度 1 14 年度\n金額 銷售佔比 金額 銷售佔比",
+    "外銷 6,905 1.66 58,981 13.84",
+    "合計 415,141 100.00 426,265 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-10",
+   "field": "major_suppliers",
+   "statement": "113年度向供應商宏昂進貨占全年度進貨淨額45.15%。",
+   "period": "113年度",
+   "page": 59,
+   "excerpts": [
+    "113年度 114年度 115年度截至 3月 31日止\n名稱 金額 占全年度進\n貨淨額比率\n［%］",
+    "1 宏昂 104,424 45.15% 無 宏昂 100,243 44.20% 無 宏昂 7,110 46.64% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-11",
+   "field": "major_suppliers",
+   "statement": "114年度向供應商宏昂進貨占全年度進貨淨額44.20%。",
+   "period": "114年度",
+   "page": 59,
+   "excerpts": [
+    "113年度 114年度 115年度截至 3月 31日止\n名稱 金額 占全年度進\n貨淨額比率\n［%］",
+    "1 宏昂 104,424 45.15% 無 宏昂 100,243 44.20% 無 宏昂 7,110 46.64% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-12",
+   "field": "major_suppliers",
+   "statement": "113年度向供應商嘉欣進貨占全年度進貨淨額19.04%。",
+   "period": "113年度",
+   "page": 59,
+   "excerpts": [
+    "113年度 114年度 115年度截至 3月 31日止\n名稱 金額 占全年度進\n貨淨額比率\n［%］",
+    "2 嘉欣 44,046 19.04% 無 嘉欣 40,317 17.78% 無 嘉欣 2,818 18.48% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度向供應商嘉欣進貨占全年度進貨淨額17.78%。",
+   "period": "114年度",
+   "page": 59,
+   "excerpts": [
+    "113年度 114年度 115年度截至 3月 31日止\n名稱 金額 占全年度進\n貨淨額比率\n［%］",
+    "2 嘉欣 44,046 19.04% 無 嘉欣 40,317 17.78% 無 嘉欣 2,818 18.48% 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-14",
+   "field": "major_customers",
+   "statement": "114年度對關係人JTC FUND INVESTMENTS, LLC銷貨占全年度銷貨淨額13.84%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "113年度 114年度 115年度截至 3月 31日止\n項目 名稱 金額 占全年度a\n銷貨淨額\n比率［\n%］",
+    "- JTC \nFUND \nINVEST\nMENTS,\nLLC \n58,981 13.84%\n本\n公\n司\n關\n係\n人",
+    "114年因 JTC FUND INVESTMENTS, LLC委託開發軟體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-15",
+   "field": "raw_materials",
+   "statement": "紗布供應商包括宏昂。",
+   "period": "截至114年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況\n紗布 宏昂 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-16",
+   "field": "raw_materials",
+   "statement": "棉棒供應商包括嘉欣。",
+   "period": "截至114年度年報刊印日",
+   "page": 59,
+   "excerpts": [
+    "主要原料 主要供應商 供應狀況",
+    "棉棒 嘉欣 良好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-17",
+   "field": "market_position",
+   "statement": "公司於年報自述，依據自身統計，為全台市占率最高的長照軟體服務商。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "依據諾亞克科技統計，本公司目\n前係全台市占率最高之長照軟體服務商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-18",
+   "field": "employees",
+   "statement": "114年度員工合計108人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 61,
+   "excerpts": [
+    "三、 最近二年度從業員工人數\n115年 5  月 31  日\n年度 1 1 3 年度 1 1 4 年度 115年度截至\n5月 31日止",
+    "合計 118 108 108"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-19",
+   "field": "rd",
+   "statement": "114年度研發費用為新臺幣16,305千元。",
+   "period": "114年度",
+   "page": 53,
+   "excerpts": [
+    "單位：新臺幣千元；% \n年度\n項目 110年度 111 年度 1 1 2年度 1 1 3年度 1 1 4年度\n研發費用 6,247 6,597 6,176 11,690 16,305"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-20",
+   "field": "outlook",
+   "statement": "公司短期計畫透過策略投資的春天藥局，發展租賃式Web版本POS軟體。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "A. 短期（1-3年）計畫開發之新產品與服務",
+    "諾亞克科技將透\n過策略投資之春天藥局，發展租賃式 Web版本 POS軟體"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-21",
+   "field": "outlook",
+   "statement": "公司長期計畫導入生成式AI技術，透過軟體預測長照單位的人力、耗材及經營效率等需求。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "B. 長期（3-5年）計畫開發之新產品與服務",
+    "應用生成式 AI（Generative AI）：諾亞克科技目標透過創立十多年來累積的\n數據，導入生成式 AI技術，未來長照單位的一切需求與疑難雜症，例如：\n需要聘請多少人力、多少耗材、如何提升經營效率，皆可透過諾亞克科技之\n軟體進行預測"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-22",
+   "field": "group_structure",
+   "statement": "114年12月31日，公司持有子公司瑞友生醫股份有限公司100%股權。",
+   "period": "114年12月31日",
+   "page": 70,
+   "excerpts": [
+    "日期：114年 12月 31日\n關係企業名稱 與公司之關\n係\n本公司持有關係企業\n比例 股數 投資金額",
+    "瑞友生醫股份有限公司 子公司 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-23",
+   "field": "group_structure",
+   "statement": "114年12月31日，公司持有子公司建齊股份有限公司100%股權。",
+   "period": "114年12月31日",
+   "page": 70,
+   "excerpts": [
+    "日期：114年 12月 31日\n關係企業名稱 與公司之關\n係\n本公司持有關係企業\n比例 股數 投資金額",
+    "建齊股份有限公司 子公司 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-24",
+   "field": "capacity_or_production",
+   "statement": "114年度包類（人工產品）產量為3,095仟個。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "單位：仟個；仟元\n生產種類 113年度 1 14年度\n年產能 產量 產值 年產能 產量 產值",
+    "包類(人工產品) 3,859 3,230 53,110 3,859 3,095 56,313"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7724-AR-25",
+   "field": "capacity_or_production",
+   "statement": "114年度一般耗材（包裝機）產量為5,547仟個。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "單位：仟個；仟元\n生產種類 113年度 1 14年度\n年產能 產量 產值 年產能 產量 產值",
+    "一般耗材(包裝機) 10,032 7,111 40,132 8,778 5,547 43,269"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  }
+ ]
+}

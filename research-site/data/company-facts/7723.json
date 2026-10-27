@@ -1,0 +1,605 @@
+{
+ "ticker": "7723",
+ "company": "築間",
+ "legal_name": "築間餐飲事業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7723&filename=2025_7723_20260608F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7723_20260608F04.pdf",
+  "text_sha256": "17f8f6f0299903d9a08e86c1866e11101bf0bb4b41f038af86ced934087d6878",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/17f8f6f0299903d9a08e86c1866e11101bf0bb4b41f038af86ced934087d6878.txt"
+ },
+ "facts": [
+  {
+   "id": "7723-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度餐飲收入為新臺幣4,935,090千元，營業比重為99.98%。",
+   "period": "114年度",
+   "page": 54,
+   "excerpts": [
+    "單位：新臺幣千元；% \n主要產品(服務) 113 年度 114 年度 \n營業額 營業比重 營業額 營業比重",
+    "餐飲收入 5,782,744 99.98 4,935,090 99.98"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度其他收入為新臺幣892千元，營業比重為0.02%，主要為存貨銷售收入。",
+   "period": "114年度",
+   "page": 54,
+   "excerpts": [
+    "單位：新臺幣千元；% \n主要產品(服務) 113 年度 114 年度 \n營業額 營業比重 營業額 營業比重",
+    "其他(註) 957 0.02 892 0.02",
+    "註：主係存貨銷售收入。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-03",
+   "field": "business_scope",
+   "statement": "公司主要從事餐飲服務業，提供火鍋、個人式燒肉、和牛火烤吃到飽及燒肉吃到飽等餐飲服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "本公司主要從事餐飲服務業，提供火鍋、個人式燒肉、和牛火烤吃到\n飽、燒肉吃到飽、頂級鍋物等餐飲服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度台灣銷售額為新臺幣4,860,910千元，占銷售地區表合計98.48%。",
+   "period": "114年度",
+   "page": 63,
+   "excerpts": [
+    "單位：新臺幣千元；% \n銷售地區 113 年度 114 年度 \n銷售額 比例 銷售額 比例",
+    "台灣 5,719,903 98.90 4,860,910 98.48",
+    "合計 5,783,701 100.00 4,935,982 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度其他地區銷售額為新臺幣75,072千元，占銷售地區表合計1.52%。",
+   "period": "114年度",
+   "page": 63,
+   "excerpts": [
+    "單位：新臺幣千元；% \n銷售地區 113 年度 114 年度 \n銷售額 比例 銷售額 比例",
+    "其他 63,798 1.10 75,072 1.52",
+    "合計 5,783,701 100.00 4,935,982 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-06",
+   "field": "market_position",
+   "statement": "公司於年報自述，以經濟部統計處的114年度台灣餐館業營業額為分母計算，市場占有率為0.58%。",
+   "period": "114年度",
+   "page": 63,
+   "excerpts": [
+    "2. 市場占有率 \n單位：新臺幣千元；% \n項目/年度 113 年度 114 年度 \n台灣餐館業營業額(A) 838,746,437 853,299,576 \n本公司營業收入(B) 5,783,701 4,935,982 \n本公司市場占有率(%)(B/A) 0.69 0.58 \n資料來源：經濟部統計處。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-07",
+   "field": "raw_materials",
+   "statement": "公司主要原料包括水產、肉品及蔬菜等食材。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "本公司主要原料包括水產、肉品及蔬菜等食材"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-08",
+   "field": "raw_materials",
+   "statement": "公司考量食材生產週期、品質良率、交期及北中南部需求，分散採購風險，不集中於相同供應商。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "因考量各品類生產週期、\n品質良率及交期配合等因素，且因本公司北、中、南部皆有需求，分散採購風\n險不集中於相同供應商"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-09",
+   "field": "major_suppliers",
+   "statement": "113及114年度公司對單一廠商的進貨金額皆未逾進貨總額百分之十。",
+   "period": "113及114年度",
+   "page": 68,
+   "excerpts": [
+    "本公司對單一廠商進貨金額皆未逾進貨總額百分之十，114 年度及 113\n年度進貨淨額分別為 1,885,255 千元及 2,319,614 千元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-10",
+   "field": "major_customers",
+   "statement": "年報揭露公司銷售客戶主要為一般消費者，未有占銷貨總額百分之十以上的客戶。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "本公司為連鎖餐飲服務業，其銷售客戶主要為一般消費者，故未有占\n銷貨總額百分之十以上之客戶。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-11",
+   "field": "employees",
+   "statement": "114年度員工人數表合計為2,671人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 68,
+   "excerpts": [
+    "單位：人 \n年度 113 年度 114 年度 115 年 \n截至 3 月底",
+    "合計 2,911 2,671 2,568"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-12",
+   "field": "rd",
+   "statement": "114年度研發費用為新臺幣20,960千元，占營業收入0.42%。",
+   "period": "114年度",
+   "page": 62,
+   "excerpts": [
+    "單位：新臺幣千元；% \n項目 113 年度 114 年度 \n研發費用(A) 21,094 20,960 \n營業收入(B) 5,783,701 4,935,982 \n比率(A)/(B) 0.36 0.42"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-13",
+   "field": "outlook",
+   "statement": "公司短期計畫包括調整中價位火鍋及燒肉品牌的人均價格，並持續擴張加盟門市等。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "1. 短期業務發展計畫 \n(1) 強化現有品牌門市 \n中價位火鍋、燒肉品牌因應市場調整人均價格，提升產品性價\n比，擴大來客數量。加盟門市持續於不同縣市擴張，增加火鍋、燒肉\n及其他品牌之門店數"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-14",
+   "field": "outlook",
+   "statement": "公司短期計畫與名廚合作開發港式點心及台灣菜等精緻餐飲，並以牛肉麵、茶食與茶飲品牌合作發展複合式品牌。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "1. 短期業務發展計畫",
+    "A.與名廚合作開發具有技術性的精緻餐飲，包含港式點心、台灣\n菜等。以牛肉麵、茶食為商品，加上與茶飲品牌合作店中店，成為複\n合式品牌。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-15",
+   "field": "outlook",
+   "statement": "公司短期計畫包括定期更新菜單、控管門市開辦費用及事務費用等。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "1. 短期業務發展計畫",
+    "(3) 加強成本控管 \n優化食材成本佔比，以具性價比的商品跟適合的食材成本，定期\n更新菜單。加強門市開辦費用與事務費用控管"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-16",
+   "field": "outlook",
+   "statement": "公司長期計畫以美國、歐洲、日本、南韓及東南亞等市場為海外發展目標，並考量當地消費模式及供應鏈整合等因素發展餐飲類型與品項。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "2. 長期業務發展計畫 \n(1) 拓展海外市場 \n積極朝海外市場發展，主要以美國、歐洲、日本、南韓及東南\n亞等市場為發展目標，以現有品牌並綜合考量當地市場消費模式、\n供應鏈整合等因素，發展適合之餐飲類型及品項"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-17",
+   "field": "established",
+   "statement": "公司於民國一○九年十二月十五日奉經濟部核准設立。",
+   "period": "民國一○九年十二月十五日",
+   "page": 96,
+   "excerpts": [
+    "築間餐飲事業股份有限公司(以下稱「本公司」)，原名為「兆晴餐飲事業股份有限公\n司」於民國一○九年十二月十五日奉經濟部核准設立"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-18",
+   "field": "headquarters",
+   "statement": "總公司位於台中市西屯區台灣大道三段789號14樓之2。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司：台中市西屯區台灣大道三段 789 號 14 樓之 2"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-19",
+   "field": "history",
+   "statement": "公司於民國一一一年八月十七日更名為築間餐飲事業股份有限公司。",
+   "period": "民國一一一年八月十七日",
+   "page": 96,
+   "excerpts": [
+    "於民國一一一年八月十七日更名為\n「築間餐飲事業股份有限公司」"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-20",
+   "field": "group_structure",
+   "statement": "114年12月31日公司持有Jhu Jian Catering (HK) Limited股權100.00%，該子公司清算程序尚未完成。",
+   "period": "114年12月31日",
+   "page": 99,
+   "excerpts": [
+    "列入本合併財務報告之子公司包含：\n投資公 業　務 所持股權百分比\n司名稱 子公司名稱 性　質 114.12.31 113.12.31 說明\n本公司 Jhu Jian Catering (HK) Limited\n(以下稱「Jhu Jian HK」)\n餐飲服務 %100.00 %100.00 註1",
+    "截至民國一一四年十二月三十一日止，本公司已注資115,320千元(港幣\n30,000千元)，清算程序尚未完成。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-21",
+   "field": "group_structure",
+   "statement": "114年12月31日公司持有子公司日本築間餐飲株式會社股權51.00%。",
+   "period": "114年12月31日",
+   "page": 99,
+   "excerpts": [
+    "投資公 業　務 所持股權百分比\n司名稱 子公司名稱 性　質 114.12.31 113.12.31 說明",
+    "本公司 日本築間餐飲株式會社\n(以下稱「日本築間」)\n餐飲服務 %51.00 %51.00 註3"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-22",
+   "field": "products",
+   "statement": "築間幸福鍋物以湯底及商品自助吧為產品特色。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "品牌 築間幸福鍋物 燒肉 SMILE",
+    "主打真材實料的湯底與多款獨\n家商品自助吧"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-23",
+   "field": "products",
+   "statement": "燒肉 SMILE主打單人燒肉套餐。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "品牌 築間幸福鍋物 燒肉 SMILE",
+    "主打單人也能輕鬆享用精緻燒\n肉套餐。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-24",
+   "field": "products",
+   "statement": "有之和牛鍋物放題主打澳洲和牛及日本和牛吃到飽火鍋。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "品牌 有之和牛鍋物放題 本格和牛燒肉放題",
+    "主打澳洲和牛、日本和牛吃到\n飽火鍋"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7723-AR-25",
+   "field": "products",
+   "statement": "本格和牛燒肉放題主打澳洲和牛及日本和牛燒肉吃到飽。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "品牌 有之和牛鍋物放題 本格和牛燒肉放題",
+    "主打澳洲和牛、日本和牛燒肉\n吃到飽"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  }
+ ]
+}

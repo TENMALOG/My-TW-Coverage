@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Company facts extracted from one MOPS prospectus (公開說明書) — prospectus rules v2",
+  "description": "One file per company: research-site/data/company-facts-prospectus/{ticker}.json. Used only for companies without an annual report (prospectus rules v2). Every fact must quote the prospectus snapshot verbatim. 'verification' is written only by verify_prospectus.py, never by the extractor.",
+  "type": "object",
+  "required": [
+    "ticker",
+    "company",
+    "legal_name",
+    "source",
+    "facts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "pattern": "^[0-9A-Z]{4,6}$"
+    },
+    "company": {
+      "type": "string",
+      "description": "Short name as in the catalog (release-scope-companies.csv)."
+    },
+    "legal_name": {
+      "type": "string",
+      "description": "Full legal name as printed in the prospectus."
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "doc_type",
+        "doc_label",
+        "filed_month",
+        "citation_url",
+        "filename",
+        "text_sha256",
+        "text_path"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "doc_type": {
+          "type": "string",
+          "enum": [
+            "公開說明書"
+          ]
+        },
+        "doc_label": {
+          "type": "string",
+          "description": "MOPS document label, e.g. 補辦公開發行; never a 稿本 (draft)."
+        },
+        "filed_month": {
+          "type": "string",
+          "pattern": "^20[0-9]{2}-[01][0-9]$"
+        },
+        "citation_url": {
+          "type": "string",
+          "pattern": "kind=B"
+        },
+        "filename": {
+          "type": "string",
+          "pattern": "_B[0-9]+\\.pdf$"
+        },
+        "text_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "text_path": {
+          "type": "string"
+        }
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "field",
+          "statement",
+          "period",
+          "page",
+          "excerpts",
+          "attribution"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9A-Z]{4,6}-PS-[0-9]{2,3}$"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "established",
+              "headquarters",
+              "history",
+              "business_scope",
+              "products",
+              "revenue_mix",
+              "sales_regions",
+              "export_share",
+              "market_position",
+              "raw_materials",
+              "major_suppliers",
+              "major_customers",
+              "capacity_or_production",
+              "employees",
+              "rd",
+              "group_structure",
+              "outlook"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "description": "One Traditional Chinese sentence containing only what the excerpts state; numbers keep the report's unit (仟元, %, etc.)."
+          },
+          "period": {
+            "type": "string",
+            "description": "Period the fact applies to, e.g. '114年度（2025）' or '截至115年4月30日'."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "PDF page number ([PDF PAGE n] marker) where the excerpts appear."
+          },
+          "excerpts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 4
+            }
+          },
+          "attribution": {
+            "type": "string",
+            "enum": [
+              "公司公開說明書揭露",
+              "公司公開說明書自述（未經獨立驗證的排名或評價）",
+              "公司公開說明書引述第三方資料"
+            ]
+          },
+          "verification": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "PASS",
+                  "FAIL"
+                ]
+              },
+              "checks": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "boolean"
+                }
+              },
+              "notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "verified_at": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,467 @@
+{
+ "ticker": "1225",
+ "company": "福懋油",
+ "legal_name": "福懋油脂股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1225&filename=2025_1225_20260626F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1225_20260626F04.pdf",
+  "text_sha256": "6737f49480faa8c39d17f85763378f1d41d62074218fe79a0b45164a5b999134",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6737f49480faa8c39d17f85763378f1d41d62074218fe79a0b45164a5b999134.txt"
+ },
+ "facts": [
+  {
+   "id": "1225-AR-01",
+   "field": "established",
+   "statement": "福懋油脂公司的設立日期為民國75年4月18日。",
+   "period": "民國75年4月18日",
+   "page": 109,
+   "excerpts": [
+    "企業名稱 設立日期 地     址 實收資本額 主 要 營 業",
+    "福懋油脂公司 75.04.18 台中市大肚區沙田路一"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-02",
+   "field": "products",
+   "statement": "福懋油的主要食用產品包括黃豆油、芥花油、棕櫚油、麵粉及小麥胚芽等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "公司主要之產品",
+    "食 用：黃豆油、芥花油、棕櫚油、麵粉、小麥胚芽等產品。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-03",
+   "field": "products",
+   "statement": "福懋油的主要飼料用產品包括玉米、黃豆粉、麩皮、大麥片及配合飼料等。",
+   "period": "截至114年度年報刊印日",
+   "page": 73,
+   "excerpts": [
+    "公司主要之產品",
+    "飼料用：玉米、玉米碎、高熟化玉米粉、黃豆粉、高蛋白脫殼豆\n粉、全脂熟黃豆粉、小麥粉、麩皮、粉頭、大麥片、大麥糠及配\n合飼料等"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度油脂產品占福懋油營業額48.96%。",
+   "period": "114年度",
+   "page": 73,
+   "excerpts": [
+    "按一一四年度營業額計算，油脂產品佔48.96%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度飼料及原料產品占福懋油營業額25.62%。",
+   "period": "114年度",
+   "page": 73,
+   "excerpts": [
+    "飼料及原料產\n品佔25.62%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-06",
+   "field": "revenue_mix",
+   "statement": "114年度麵粉產品占福懋油營業額25.42%。",
+   "period": "114年度",
+   "page": 73,
+   "excerpts": [
+    "按一一四年度營業額計算",
+    "麵粉產品佔25.42%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-07",
+   "field": "market_position",
+   "statement": "公司年報自述，大麥片約占麥片市場35%。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "麥片市場占有率：大麥片約占35%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-08",
+   "field": "market_position",
+   "statement": "公司年報自述，全脂豆粉約占原料市場10%。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "原料市場占有率：全脂豆粉約占10%，麩皮約占20%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-09",
+   "field": "market_position",
+   "statement": "公司年報自述，麩皮約占原料市場20%。",
+   "period": "截至114年度年報刊印日",
+   "page": 79,
+   "excerpts": [
+    "原料市場占有率：全脂豆粉約占10%，麩皮約占20%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-10",
+   "field": "raw_materials",
+   "statement": "福懋油的黃豆由美國及南美採購，玉米主要由美國進口，大麥主要來自澳洲、美國及加拿大。",
+   "period": "截至114年度年報刊印日",
+   "page": 89,
+   "excerpts": [
+    "黃豆：與同業合船採購美國、南美黃豆",
+    "玉米：與飼料同業廠合船進口，主要自美國進口",
+    "大麥：與大麥公會會員廠合船進口，主要來自澳洲、美國及加拿大。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-11",
+   "field": "major_suppliers",
+   "statement": "113年非關係人供應商艾地盟的進貨金額為新台幣1,403,495仟元，占福懋油全年度進貨淨額12.48%。",
+   "period": "113年",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "艾地盟 1,403,495 12.48 非關\n係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-12",
+   "field": "major_suppliers",
+   "statement": "113年非關係人供應商CHS的進貨金額為新台幣1,399,517仟元，占福懋油全年度進貨淨額12.45%。",
+   "period": "113年",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "CHS 1,399,517 12.45 \n非關\n係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-13",
+   "field": "major_suppliers",
+   "statement": "113年非關係人供應商嘉吉的進貨金額為新台幣1,140,164仟元，占福懋油全年度進貨淨額10.14%。",
+   "period": "113年",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "嘉吉 1,140,164 10.14 非關\n係人"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年關聯企業中聯的進貨金額為新台幣1,344,694仟元，占福懋油全年度進貨淨額12.91%。",
+   "period": "114年",
+   "page": 89,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "中聯 1,344,694 12.91 關聯 \n企業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-15",
+   "field": "major_customers",
+   "statement": "114年關聯企業中聯油脂的銷貨金額為新台幣2,015,214仟元，占福懋油全年度銷貨淨額16.72%。",
+   "period": "114年",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "中聯\n油脂 \n2, 015,214 16.72 關聯 \n企業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-16",
+   "field": "major_customers",
+   "statement": "115年度第一季，關聯企業中聯油脂的銷貨金額為新台幣547,840仟元，占福懋油該季銷貨淨額17.01%。",
+   "period": "115年度第一季",
+   "page": 90,
+   "excerpts": [
+    "單位：新台幣仟元 \n 113 年 114 年 115 年度第一季",
+    "中聯\n油脂 \n547,840 17.01 關聯 \n企業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-17",
+   "field": "employees",
+   "statement": "114年福懋油合併員工人數合計408人。",
+   "period": "114年",
+   "page": 90,
+   "excerpts": [
+    "年   度 113 年 114 年 當年度截至 \n115 年 3 月 31 日",
+    "合併員\n工人數",
+    "合計  397 408 401"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-18",
+   "field": "outlook",
+   "statement": "福懋油短期計畫加強現有產品通路推廣、開發新客戶，並推廣桶裝油系列產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "短期發展：",
+    "加強現有產品通路推廣，開發新客戶，提高銷售量及銷售值，推\n廣桶裝油系列產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1225-AR-19",
+   "field": "outlook",
+   "statement": "福懋油長期計畫爭取代加工業務，並結合飼料及原料通路經營市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 78,
+   "excerpts": [
+    "長期發展：",
+    "爭取代加工業務 ； 結合飼料及原料兩通路 ， 經營市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  }
+ ]
+}

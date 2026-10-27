@@ -1,0 +1,629 @@
+{
+ "ticker": "7707",
+ "company": "益芯科",
+ "legal_name": "益芯科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7707&filename=2025_7707_20260625F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7707_20260625F04.pdf",
+  "text_sha256": "b6baae45f6c2433d2b30181fcff44b3abf6614b23285c76ad319e758aff2d401",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/b6baae45f6c2433d2b30181fcff44b3abf6614b23285c76ad319e758aff2d401.txt"
+ },
+ "facts": [
+  {
+   "id": "7707-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度委託設計營業收入為新台幣158,354仟元，營業比重為24.41%。",
+   "period": "114年度",
+   "page": 40,
+   "excerpts": [
+    "單位：新台幣仟元；% \n年度\n產品別\n113年度 114年度\n營業收入\n金 額 比 重",
+    "委託設計 358,741 47.63 158,354 24.41"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度ASIC及晶圓收入為新台幣475,002仟元，營業比重為73.24%。",
+   "period": "114年度",
+   "page": 40,
+   "excerpts": [
+    "單位：新台幣仟元；% \n年度\n產品別\n113年度 114年度\n營業收入\n金 額 比 重",
+    "ASIC及晶圓收入 392,687 52.13 475,002 73.24"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度其他收入為新台幣15,211仟元，營業比重為2.35%。",
+   "period": "114年度",
+   "page": 40,
+   "excerpts": [
+    "單位：新台幣仟元；% \n年度\n產品別\n113年度 114年度\n營業收入\n金 額 比 重",
+    "其他 1,841 0.24 15,211 2.35"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-04",
+   "field": "business_scope",
+   "statement": "主要業務包括系統單晶片及特殊應用積體電路之委託設計服務，以及代客投片、量產等一站式供應鏈管理服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 41,
+   "excerpts": [
+    "本公司所處產業為半導體 IC 設計服務產業，主要提供系統單晶片及特殊應用積體\n電路之委託設計服務及代客投片、量產等一站式供應鏈管理服務(Turnkey)。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-05",
+   "field": "products",
+   "statement": "SoC設計與生產服務包含高效能設計、低功耗設計、DFT測試架構、RTL優化支援及SOC整合平台。",
+   "period": "截至114年度年報刊印日",
+   "page": 40,
+   "excerpts": [
+    "(1)SoC 設計與生產服務：0.5um ~ 6nm process,包含五個主要子設計平台\n–高效能設計平台\n–低功耗設計平台\n–DFT測試架構平台(DC─SCAN,AC─SCAN,MBIST,Boundary SCAN,JTAG) \n–RTL優化支援平台\n–SOC 整合平台"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-06",
+   "field": "products",
+   "statement": "ASIC設計與生產服務包含Spec to GDSII及FPGA to ASIC。",
+   "period": "截至114年度年報刊印日",
+   "page": 40,
+   "excerpts": [
+    "(2)ASIC 設計與生產服務：包含 Spec to GDSII and FPGA to ASIC "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-07",
+   "field": "products",
+   "statement": "IC製造量產服務包括晶圓代工、IC封裝、IC測試，以及IC可靠度驗證與失效分析服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 41,
+   "excerpts": [
+    "(6)IC製造量產服務(Turnkey service) \n–晶圓代工服務：多重晶圓(MPW)共乘、工程樣品、全光罩、客戶樣品、良率\n監控改良、量產及物流管理\n–IC 封裝服務：封裝 type選擇、基板或導線架的開發、打線設計與優化、電性\n/散熱模擬、良率監控改良、量產及物流管理\n–IC 測試服務：晶圓級測試(wafer sorting)與封裝級測試(final test)測試平台選\n擇、測試程式開發與優化、良率監控改良、量產及物流管理\n–IC 可靠度驗證與失效分析服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣240,795仟元，占主要產品銷售地區表總計37.13%。",
+   "period": "114年度",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元\n年度\n地區別\n113 年度 114 年度\n金 額 比率 (%) 金 額 比率(%)",
+    "內 銷 135,218 17.95 240,795 37.13",
+    "總 計 753,269 100.00 648,567 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-09",
+   "field": "export_share",
+   "statement": "114年度外銷金額為新台幣407,772仟元，占主要產品銷售地區表總計62.87%。",
+   "period": "114年度",
+   "page": 45,
+   "excerpts": [
+    "單位：新台幣仟元\n年度\n地區別\n113 年度 114 年度\n金 額 比率 (%) 金 額 比率(%)",
+    "外 銷 618,051 82.05 407,772 62.87",
+    "總 計 753,269 100.00 648,567 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-10",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（代號ASM004）進貨新台幣72,242仟元，占全年度進貨淨額19.52%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度進\n貨淨額比率\n(%) ",
+    "1 世界先進 63,463 21.84 註 2 ASM004 72,242 19.52 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-11",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（代號ASM003）進貨新台幣62,729仟元，占全年度進貨淨額16.94%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度進\n貨淨額比率\n(%) ",
+    "2 ASM004 54,627 18.79 無 ASM003 62,729 16.94 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-12",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（代號ASM002）進貨新台幣62,367仟元，占全年度進貨淨額16.85%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度進\n貨淨額比率\n(%) ",
+    "3 ASM002 45,193 15.55 無 ASM002 62,367 16.85 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度向法人董事世界先進進貨新台幣59,472仟元，占全年度進貨淨額16.07%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度進\n貨淨額比率\n(%) ",
+    "4 － － － － 世界先進 59,472 16.07 註 2 ",
+    "註 2：本公司之法人董事。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-14",
+   "field": "major_customers",
+   "statement": "113年度對某客戶（代號CAB001）銷貨新台幣235,225仟元，占全年度銷貨淨額31.23%。",
+   "period": "113年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷\n貨淨額比率\n(%)",
+    "1 CAB001 235,225 31.23 無 CMC001 149,377 23.03 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-15",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號CMC001）銷貨新台幣149,377仟元，占全年度銷貨淨額23.03%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷\n貨淨額比率\n(%)",
+    "1 CAB001 235,225 31.23 無 CMC001 149,377 23.03 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-16",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號CTA001）銷貨新台幣93,828仟元，占全年度銷貨淨額14.47%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷\n貨淨額比率\n(%)",
+    "2 CMC001 177,357 23.54 無 CTA001 93,828 14.47 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-17",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號CWH001）銷貨新台幣77,403仟元，占全年度銷貨淨額11.93%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷\n貨淨額比率\n(%)",
+    "3 － － － － CWH001 77,403 11.93 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-18",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號CTM001）銷貨新台幣68,805仟元，占全年度銷貨淨額10.61%。",
+   "period": "114年度",
+   "page": 48,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年度銷\n貨淨額比率\n(%)",
+    "4 － － － － CTM001 68,805 10.61 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-19",
+   "field": "raw_materials",
+   "statement": "主要原料為矽晶圓，供應商包括法人董事世界先進，以及代號為ASM004、ASM003及ASM002之供應商。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    " (三)主要原料之供應狀況\n主要原料 主要供應商 供應狀況\n矽晶圓 世界先進、ASM004、\nASM003及ASM002 良好、品質穩定",
+    "註 2：本公司之法人董事。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計為61人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 49,
+   "excerpts": [
+    "三、從業員工\n單位：人；% \n年 度 113年度 114年度 115年截至4月27日",
+    "合計 60 61 63"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-21",
+   "field": "rd",
+   "statement": "114年度合併研發費用為新台幣100,810仟元，占營業收入淨額15.54%。",
+   "period": "114年度",
+   "page": 44,
+   "excerpts": [
+    "單位：新台幣仟元\n項 目 114年度 115年截至4月27日\n研發費用 100,810\n註營業收入淨額 648,567\n研發費用占營業收入淨額\n比例(%) 15.54\n資料來源:經會計師查核簽證之合併財務報告。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-22",
+   "field": "outlook",
+   "statement": "短期計畫持續深耕日本及韓國市場，並運用關聯企業世界先進的客戶資源拓展全球市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 45,
+   "excerpts": [
+    "1.短期發展計劃",
+    "(1)持續深耕日本及韓國市場，把握本公司關聯企業世界先進的客戶資源，積極拓\n展全球市場。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-23",
+   "field": "outlook",
+   "statement": "長期計畫持續增加先進奈米製程專案，並配合現有代理商及合作夥伴持續拓展各地市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 45,
+   "excerpts": [
+    "2.長期發展計劃",
+    "長期而言，本公司將持續增加先進奈米製程專案，並配合現有代理商及合作夥伴，\n持續拓展各地市場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-24",
+   "field": "group_structure",
+   "statement": "日本子公司為益芯科SSB株式会社。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "本公司將透過日本子公司「益芯科 SSB 株\n式会社」"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  },
+  {
+   "id": "7707-AR-25",
+   "field": "outlook",
+   "statement": "計畫針對汽車應用開發相關設計方法與製造服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 41,
+   "excerpts": [
+    "4.計劃開發之新商品(服務) ",
+    "(3)針對汽車應用開發相關設計方法與製造服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:08+00:00"
+   }
+  }
+ ]
+}

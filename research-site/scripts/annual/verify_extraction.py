@@ -190,9 +190,15 @@ def fact_pages_ok(excerpts, page, pnorm):
 
 
 def registered_names():
-    """{ticker: 公司名稱} from MOPS 公司基本資料 snapshots (fetch_basic_data.py), if present."""
+    """{ticker: 公司名稱} from MOPS 公司基本資料 snapshots (fetch_basic_data.py), if present; the TWSE/TPEx
+    official directory fills tickers outside that catalog (same order as slice_annual.registered_name)."""
     path = ROOT / "research-site/data/basic-data.jsonl"
     out = {}
+    directory = ROOT / "research-site/data/official-directory.json"
+    if directory.exists():
+        for r in json.loads(directory.read_text(encoding="utf-8"))["companies"]:
+            if r.get("legal_name"):
+                out[r["ticker"]] = r["legal_name"]
     if path.exists():
         for line in path.read_text(encoding="utf-8").splitlines():
             if line.strip():

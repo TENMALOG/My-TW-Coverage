@@ -1,0 +1,405 @@
+{
+ "ticker": "1234",
+ "company": "黑松",
+ "legal_name": "黑松股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=1234&filename=2025_1234_20260609F04.pdf",
+  "fy": 2025,
+  "filename": "2025_1234_20260609F04.pdf",
+  "text_sha256": "3c11831d45c386cd37a9168dafdd0a26a2df8444bd7f66817443901b1dbe02e7",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/3c11831d45c386cd37a9168dafdd0a26a2df8444bd7f66817443901b1dbe02e7.txt"
+ },
+ "facts": [
+  {
+   "id": "1234-AR-01",
+   "field": "headquarters",
+   "statement": "黑松總公司位於台北市大安區信義路四段296號3樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司：台北市大安區信義路四段 296 號 3 樓"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-02",
+   "field": "products",
+   "statement": "黑松目前的產品可概分為飲料、酒類及保健產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 124,
+   "excerpts": [
+    "本公司產品可概略分為飲料產品、酒類產品及保健產品\n三大類"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-03",
+   "field": "products",
+   "statement": "黑松的飲料產品包括黑松沙士、黑松汽水及黑松C&C等。",
+   "period": "截至114年度年報刊印日",
+   "page": 124,
+   "excerpts": [
+    "黑松\n沙士、黑松汽水、黑松 C&C 等系列碳酸飲料"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-04",
+   "field": "revenue_mix",
+   "statement": "黑松114年度母公司飲料產品含代工代銷的營業收入為新台幣4,375,439仟元，占母公司營業收入淨額54.3%。",
+   "period": "114年度",
+   "page": 124,
+   "excerpts": [
+    "主要產品及其營業比重（母公司個體營收）",
+    "單位：新台幣仟元；％",
+    "主要產品項目 114 年度營業收入 營業比重",
+    "飲料產品(含代工代銷) 4,375,439 54.3%",
+    "營業收入淨額 8,064,046 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-05",
+   "field": "revenue_mix",
+   "statement": "黑松114年度母公司酒類產品營業收入為新台幣3,862,447仟元，占母公司營業收入淨額47.9%。",
+   "period": "114年度",
+   "page": 124,
+   "excerpts": [
+    "主要產品及其營業比重（母公司個體營收）",
+    "單位：新台幣仟元；％",
+    "主要產品項目 114 年度營業收入 營業比重",
+    "酒類產品 3,862,447 47.9%",
+    "營業收入淨額 8,064,046 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-06",
+   "field": "revenue_mix",
+   "statement": "黑松114年度母公司保健產品營業收入為新台幣33,699仟元，占母公司營業收入淨額0.4%。",
+   "period": "114年度",
+   "page": 124,
+   "excerpts": [
+    "主要產品及其營業比重（母公司個體營收）",
+    "單位：新台幣仟元；％",
+    "主要產品項目 114 年度營業收入 營業比重",
+    "保健產品 33,699 0.4%",
+    "營業收入淨額 8,064,046 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-07",
+   "field": "sales_regions",
+   "statement": "黑松年報揭露，其飲料產品除主要在國內銷售，也外銷至亞洲與歐美各地。",
+   "period": "截至114年度年報刊印日",
+   "page": 130,
+   "excerpts": [
+    "各項飲料品之生產銷售，除主要\n於國內銷售外，亦外銷至亞洲與歐美各地"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-08",
+   "field": "market_position",
+   "statement": "公司於年報以114年自有品牌飲料營業淨額約新台幣37億元及台灣整體飲料廠商銷售值683億元，估算市場占有率約5.5%。",
+   "period": "114年",
+   "page": 131,
+   "excerpts": [
+    "本公司 114 年自有品牌飲料營業淨額約 37 億元，以台\n灣整體飲料廠商銷售值 683 億元估算，市場佔有率約 5.5%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-09",
+   "field": "rd",
+   "statement": "黑松114年度投入研發費用58,337仟元；年報此處未載明幣別。",
+   "period": "114年度",
+   "page": 129,
+   "excerpts": [
+    "114年度投入研發費用 58,337 仟元。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-10",
+   "field": "raw_materials",
+   "statement": "黑松飲料生產的主要原料包括砂糖、果糖及包材等。",
+   "period": "截至114年度年報刊印日",
+   "page": 133,
+   "excerpts": [
+    "其主要使用原料為砂糖、\n果糖及鋁罐、塑蓋、 PET 瓶/胚、紙盒、紙箱等包材"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-11",
+   "field": "raw_materials",
+   "statement": "黑松年報列示砂糖供應商包括台糖及芳源。",
+   "period": "截至114年度年報刊印日",
+   "page": 133,
+   "excerpts": [
+    "原   料 供   應   商 供應狀況",
+    "砂 糖 台糖、芳源 良 好"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-12",
+   "field": "major_suppliers",
+   "statement": "黑松民國一一四年度向金門酒廠進料及進貨新台幣3,489,368仟元，占全年度進料及進貨淨額56.86%；表列與發行人關係為無。",
+   "period": "114年度",
+   "page": 134,
+   "excerpts": [
+    "單位：新台幣仟元；％",
+    "113 年度 1\n14 年度",
+    "占全年度進\n料(貨)淨額\n比例",
+    "金門酒廠 3,115,358 51.90 無 金門酒廠 3,489,368 56.86 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-13",
+   "field": "major_customers",
+   "statement": "黑松民國一一四年度對客集銷貨新台幣2,259,413仟元，占全年度銷貨淨額28.02%；黑松採權益法評價的被投資公司為客集的法人董事。",
+   "period": "114年度",
+   "page": 134,
+   "excerpts": [
+    "單位：新台幣仟元；％",
+    "113 年度 1\n14 年度",
+    "占全年度銷\n貨淨額比率",
+    "客集 2,394,874 26.68 註 1 客集 2,259,413 28.02 註 1",
+    "註 1：本公司採權益法評價之被投資公司為該公司之法人董事。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-14",
+   "field": "employees",
+   "statement": "黑松從業員工資料表列示民國一一四年度員工合計588人；該表未註明統計範圍為母公司或合併範圍。",
+   "period": "114年度",
+   "page": 135,
+   "excerpts": [
+    "年度 1 13 年度 1 1 4年度",
+    "合 計 585 588 580"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-15",
+   "field": "outlook",
+   "statement": "黑松的短期發展計畫包括擴展酒類實體通路。",
+   "period": "截至114年度年報刊印日",
+   "page": 130,
+   "excerpts": [
+    "短期發展",
+    "擴展酒類實體通路"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  },
+  {
+   "id": "1234-AR-16",
+   "field": "outlook",
+   "statement": "黑松的長期發展計畫包括提升能源使用效率。",
+   "period": "截至114年度年報刊印日",
+   "page": 130,
+   "excerpts": [
+    "長期發展",
+    "提升能源使用效率"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:27:45+00:00"
+   }
+  }
+ ]
+}

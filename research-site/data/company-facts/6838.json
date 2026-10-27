@@ -1,0 +1,621 @@
+{
+ "ticker": "6838",
+ "company": "台新藥",
+ "legal_name": "台新藥股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6838&filename=2025_6838_20260525F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6838_20260525F04.pdf",
+  "text_sha256": "6f2c69cd9350edf4ac754746158c2d7a1541c0c57dff393a1430e71f62ea205b",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/6f2c69cd9350edf4ac754746158c2d7a1541c0c57dff393a1430e71f62ea205b.txt"
+ },
+ "facts": [
+  {
+   "id": "6838-AR-01",
+   "field": "established",
+   "statement": "年報股本來源表列示99年12月為設立投資，金額新台幣25,000仟元。",
+   "period": "99年12月（2010）",
+   "page": 58,
+   "excerpts": [
+    "單位：千股；新台幣千元",
+    "年月 發行價格",
+    "99.12 10 5,000 50,000 2,500 25,000 設立投資 25,000 仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-02",
+   "field": "headquarters",
+   "statement": "年報載明台新藥股份有限公司地址為105台北市復興北路57號8樓之6。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "台新藥股份有限公司\n地址：105台北市復興北路57號8樓之6"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-03",
+   "field": "business_scope",
+   "statement": "公司年報載明其從事新藥研發業務，營業收入來源主要為授權收入、藥品上市後之權利金收入及供貨予授權夥伴之銷貨收入。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "本公司係從事新藥研發業務，營業收入來源主要為授權收入、藥品上市後之\n權利金收入及供貨予授權夥伴之銷貨收入。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-04",
+   "field": "products",
+   "statement": "年報載明APP13007為治療眼科術後發炎及疼痛的眼科新藥，於113年3月獲得美國新藥上市核准。",
+   "period": "截至114年度年報刊印日",
+   "page": 6,
+   "excerpts": [
+    "APP13007 為治療眼科術後發炎及疼痛為適應症的眼科新藥，於 113年3月\n獲得美國新藥上市核准。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-05",
+   "field": "products",
+   "statement": "公司年報載明以Double A（APNT與ADC）並進作為研發主軸，研發專案橫跨大小分子藥物領域，包括適用APNT技術之眼科、吸入製劑、局部注射劑等小分子藥物，以及ADC生物相似藥及ADC創新藥物等大分子藥物。",
+   "period": "截至114年度年報刊印日",
+   "page": 5,
+   "excerpts": [
+    "藉此 Double A (APNT & ADC)並進作為研發主軸，本公司之研發專案橫跨大小分\n子藥物領域，除適用 APNT 技術之眼科、吸入製劑、局部注射劑等小分子藥物以\n外，還有聚焦 ADC 技術，開發 ADC 生物相似藥及 ADC 創新藥物等大分子藥物。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-06",
+   "field": "products",
+   "statement": "TSY-110為以Roche於102年上市的抗體藥物複合體Kadcyla®為參考藥物所開發之ADC生物相似藥，目標適應症同Kadcyla，為HER2陽性之早期乳癌及轉移性乳癌。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "TSY-110是以Roche\n在 102 年上市的抗體藥物複合體 Kadcyla® (ado-trastuzumab emtansine)為參\n考藥物所開發之 ADC 生物相似藥，目標適應症同 Kadcyla 治療 HER2 陽性之早期\n乳癌及轉移性乳癌。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-07",
+   "field": "products",
+   "statement": "TSY-310為公司於114年自Almac Discovery取得授權的雙特異性Fc融合藥物複合體，鎖定EGFR與ROR1雙靶點。",
+   "period": "114年（2025）",
+   "page": 69,
+   "excerpts": [
+    "TSY-310 係本公司於 114 年自 Almac Discovery 取得授權的創新雙特異性\nFc 融合的藥物複合體。本藥物鎖定 EGFR 與 ROR1 雙靶點"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-08",
+   "field": "history",
+   "statement": "APNT®奈米微粒製劑技術係公司於106年併購日本Activus Pharma Co., Ltd.而取得。",
+   "period": "106年（2017）",
+   "page": 69,
+   "excerpts": [
+    "APNT®奈米微粒製劑技術係本公司於 106 年併購日本 Activus Pharma Co., \nLtd.而取得。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-09",
+   "field": "revenue_mix",
+   "statement": "114年度授權收入為新臺幣4,764千元，營業比重為50.17%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "項目 113 年度 114 年度",
+    "授權收入 128,001 89.29 4,764 50.17"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-10",
+   "field": "revenue_mix",
+   "statement": "114年度勞務收入為新臺幣3,820千元，營業比重為40.23%。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "項目 113 年度 114 年度",
+    "勞務收入 7,534 5.25 3,820 40.23"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-11",
+   "field": "revenue_mix",
+   "statement": "114年度銷售收入為新臺幣911千元。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "項目 113 年度 114 年度",
+    "銷售收入 7,821 5.46 911 9.60"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-12",
+   "field": "major_customers",
+   "statement": "114年度某客戶（年報代號：C公司）銷貨金額為新台幣4,764千元，占全年度銷貨淨額50.17%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元；%",
+    "113年度(查核後) 114年度(查核後)",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "3. C 公司 0 0.00 無 C 公司 4,764 50.17 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（年報代號：B公司）銷貨金額為新台幣3,226千元，占全年度銷貨淨額33.98%。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元；%",
+    "113年度(查核後) 114年度(查核後)",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "2. B 公司 7,164 5.00 無 B 公司 3,226 33.98 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-14",
+   "field": "major_customers",
+   "statement": "113年度某客戶（年報代號：A公司）銷貨金額為新台幣135,621千元，占全年度銷貨淨額94.60%。",
+   "period": "113年度（2024）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元；%",
+    "113年度(查核後) 114年度(查核後)",
+    "占全年度\n銷貨淨額\n比率(%)",
+    "1. A 公司 135,621 94.60 無 A 公司 0 0.00 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度進貨對象為台耀，進貨金額為新台幣3,365千元，占全年度進貨淨額100%，年報載明與發行人之關係為母公司。",
+   "period": "114年度（2025）",
+   "page": 95,
+   "excerpts": [
+    "單位：新台幣千元；%",
+    "1 1 3 年度 1 1 4 年度",
+    "名稱 金額 占全年度進貨\n淨額比率(%) \n與發行\n人之關\n係",
+    "進貨 台耀 3,057 100% 母公司 台耀 3,365 100% 母公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-16",
+   "field": "raw_materials",
+   "statement": "公司年報載明，APP13007奈米懸浮滴眼液主成份來源為歐洲藥廠，TSY-110 ADC生物相似藥由台康生技提供抗體、化學藥物（DM1）來源為亞洲藥廠，相關供應商皆符合PIC/S GMP規範。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "APP13007 奈米懸浮滴眼液主成份來源為歐洲藥廠，TSY-110 ADC 生物相\n似藥由台康生技提供抗體，化學藥物(DM1)來源為亞洲藥廠，相關供應商皆符\n合 PIC/S GMP 規範。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-17",
+   "field": "capacity_or_production",
+   "statement": "公司年報載明其並未建置自有廠房，掌握核心技術Know-how，委託符合cGMP的台灣藥廠（CMO，委託製造機構）生產製造。",
+   "period": "截至114年度年報刊印日",
+   "page": 95,
+   "excerpts": [
+    "故本公司並未建置自有廠房。本\n公司掌握核心技術 Know-how，委託符合 cGMP 台灣藥廠 (CMO, Contract \nManufacturing Organization 委託製造機構)生產製造"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-18",
+   "field": "employees",
+   "statement": "114年度員工人數合計為21人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：人；歲；年；%",
+    "1 1 3 年度 1 1 4 年度 115年度截至",
+    "合計 19 21 23"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-19",
+   "field": "employees",
+   "statement": "114年度技術及研發人員為12人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 96,
+   "excerpts": [
+    "單位：人；歲；年；%",
+    "1 1 3 年度 1 1 4 年度 115年度截至",
+    "技術及研發人員 11 12 14"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-20",
+   "field": "rd",
+   "statement": "114年度研發費用為新臺幣121,379千元。",
+   "period": "114年度（2025）",
+   "page": 85,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "年    度 113年度 114年度",
+    "研發費用 225,998 121,379"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-21",
+   "field": "sales_regions",
+   "statement": "公司重要契約表列有與Harrow之授權合約，主要內容為APP13007於美國之獨家供貨協議。",
+   "period": "截至114年度年報刊印日",
+   "page": 101,
+   "excerpts": [
+    "契約性質 當    事    人 契約起訖日期 主 要 內 容 限制條款",
+    "授權合約 Harrow 1 1 4年6月8日 至 專 利 到 期 或\n出現仿製藥 APP13007 於美國之獨家供貨協議 保密條款"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-22",
+   "field": "sales_regions",
+   "statement": "公司重要契約表列有與遠大醫藥(中國)有限公司之授權合約，主要內容為APP13007於中港澳之開發與商業化專屬授權。",
+   "period": "截至114年度年報刊印日",
+   "page": 101,
+   "excerpts": [
+    "契約性質 當    事    人 契約起訖日期 主 要 內 容 限制條款",
+    "授權合約 遠大醫藥(中國)\n有限公司 \n1 1 0年6月3日 至 首 次 銷 售 日\n起2 0年  \nAPP13007 於中港澳之開發與商業\n化專屬授權 保密條款"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-23",
+   "field": "group_structure",
+   "statement": "截至115年3月27日，主要股東名單列有台耀化學(股)公司，持有61,387,653股，持股比例40.66%。",
+   "period": "截至115年3月27日",
+   "page": 59,
+   "excerpts": [
+    "單位:股；%  日期：115年 3月 27日",
+    "主要股東名稱 持有股數(股) 持股比例(%)",
+    "1.台耀化學(股)公司 61,387,653 40.66"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-24",
+   "field": "group_structure",
+   "statement": "截至115年3月27日，公司對轉投資事業Activus Pharma Co., Ltd.持有1,942股，持股比例99.23%。",
+   "period": "截至115年3月27日",
+   "page": 57,
+   "excerpts": [
+    "115年 3月 27日 單位：股；%",
+    "本公司投資 董事、監察人、經理人及直接或間\n接控制事業之投資 綜合投資",
+    "Activus Pharma Co., Ltd. 1,942 99.23%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  },
+  {
+   "id": "6838-AR-25",
+   "field": "outlook",
+   "statement": "公司年報預期APP13007將透過新授權夥伴Harrow, Inc.，於115年上半年達成美國地區之重新上市。",
+   "period": "預期115年上半年（2026）",
+   "page": 7,
+   "excerpts": [
+    "APP13007 於美國的銷售雖受前授權\n夥伴的影響而暫緩腳步，但透過新授權夥伴 Harrow, Inc.，預期 APP13007 將於\n115 年上半年達成美國地區之重新上市。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:01+00:00"
+   }
+  }
+ ]
+}

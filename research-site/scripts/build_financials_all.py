@@ -59,7 +59,8 @@ def main():
     catalog = list(csv.DictReader(open(ROOT / 'research-site/catalog/release-scope-companies.csv', encoding='utf-8-sig')))
     data, sources = {}, {}
     for year in (113, 114):
-        for typek in ('sii', 'otc'):
+        # rotc = 興櫃; the original catalog includes emerging companies and they file the same summary
+        for typek in ('sii', 'otc', 'rotc'):
             meta = fetch(typek, year, a.refresh)
             for tk, rec in parse_all(meta).items():
                 data.setdefault(tk, {})[year] = rec

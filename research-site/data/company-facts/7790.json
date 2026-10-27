@@ -1,0 +1,626 @@
+{
+ "ticker": "7790",
+ "company": "思必瑞特",
+ "legal_name": "思必瑞特生技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7790&filename=2025_7790_20260612F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7790_20260612F04.pdf",
+  "text_sha256": "0c26ee538dca5c669dc8790a2f3e591d343f952da54a6284b403f0f94ae52e86",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/0c26ee538dca5c669dc8790a2f3e591d343f952da54a6284b403f0f94ae52e86.txt"
+ },
+ "facts": [
+  {
+   "id": "7790-AR-01",
+   "field": "established",
+   "statement": "公司於民國109年12月辦理設立登記。",
+   "period": "截至114年度年報刊印日",
+   "page": 43,
+   "excerpts": [
+    "2.公司成立年度及截至公開說明書刊印日止股本變動之情形",
+    "109.12 10 30,000,000 300,000,000 55,000 550,000 設立登記"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：12"
+    ],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-02",
+   "field": "headquarters",
+   "statement": "公司總公司地址為新北市汐止區新台五路一段93號19樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "1.總公司 \n地  址：新北市汐止區新台五路一段 93號 19樓"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-03",
+   "field": "group_structure",
+   "statement": "公司於民國112年設立持股100%之日本子公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "本公司於 112 年設立持股 100%之日本子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度生長因子凍晶相關產品之營業收入金額為新台幣252,987仟元，營業比重為92.57%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "2.營業比重 \n單位：新台幣仟元 \n項目 \n114年度",
+    "生長因子凍晶相關產品           252,987 92.57%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-05",
+   "field": "products",
+   "statement": "公司提供自體PLT凍晶備製服務，年報載明其核心技術為專利PLT凍晶技術，並可提供6/10/15/20/25瓶套組，效期為可在室溫下保存三年。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "自體 PLT 凍晶備製服務",
+    "核心技術：專利 PLT凍晶技術。 \n4. 規格：依不同需求，可提供不同瓶數套組的選擇，\n如 6/10/15/20/25 瓶套組。可多次療程或多點治療使\n用。 \n5. 效期：可在室溫下保存三年。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-06",
+   "field": "products",
+   "statement": "公司提供自體高濃度血小板凝膠備製服務，年報載明其核心技術為PLT凍晶搭配凝膠劑組合，改良液化的PLT無法長時間在傷口停留的問題，效期為可在室溫下保存三年。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "自體高濃度血小板凝膠\n備製服務",
+    "核心技術：PLT凍晶搭配凝膠劑組合改良液化的 PLT\n無法長時間在傷口停留的問題。 \n4. 效期：可在室溫下保存三年。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-07",
+   "field": "products",
+   "statement": "公司提供血液相關委託製造服務，為接單式與客製化服務，可純化出特定白血球細胞、血小板、生長因子等，另可提供凍晶技術、定量真空封瓶、伽瑪射線滅菌、生長因子檢測等服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "血液相關委託製造服務 \n1. 接單式服務。 \n2. 客製化，可純化出特定白血球細胞、血小板、生長\n因子等。 \n3. 另可提供凍晶技術、定量真空封瓶、伽瑪射線滅\n菌、生長因子檢測等服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-08",
+   "field": "products",
+   "statement": "公司提供生物材料類凍晶測試或委託製造服務，為接單式服務，項目包含冷凍乾燥參數條件測試、伽瑪射線滅菌、無菌測試、內含物尺寸、濃度檢測、批次凍乾滿載條件測試等。",
+   "period": "截至114年度年報刊印日",
+   "page": 54,
+   "excerpts": [
+    "生物材料類凍晶測試或\n委託製造服務 \n1. 接單式服務。 \n2. 各物種的不同組織或細胞來源之衍生物凍晶服務。 \n3. 項目包含冷凍乾燥參數條件測試、伽瑪射線滅菌、\n無菌測試、內含物尺寸、濃度檢測、批次凍乾滿載\n條件測試。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-09",
+   "field": "products",
+   "statement": "公司提供生物材料類型化妝品原料生產服務，年報載明已具有三張原料國際名稱（INCI NAME）認證，動物來源的高濃度血小板血漿與生長因子可應用於皮膚、醫美或整形外科。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "生物材料類型化妝品原\n料生產服務",
+    "2. 已具有三張原料國際名稱 (INCI NAME)認證，動物\n來源的高濃度血小板血漿與生長因子，可應用皮\n膚、醫美或整形外科"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-10",
+   "field": "products",
+   "statement": "年報在「計畫開發之新商品」項下列有聚去氧核糖核苷酸（PDRN）凍晶製備，內容為將從鮭魚生殖細胞中提取的DNA片段之生物材料做成凍晶劑型。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "4.計畫開發之新商品",
+    "聚去氧核糖核苷酸\n(PDRN)凍晶製備 \n本公司成功開發用將一種從鮭魚生殖細胞中提取的\nDNA 片段的生物材料做成凍晶劑型"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣273,286仟元，占銷售地區表合計之100%。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "1.主要商品(服務)之銷售(提供)地區 \n單位：新台幣仟元 \n項目/年度 113年度 114 年度 \n金額 比率 金額 比率",
+    "內銷 226,392 100% 273,286  100%",
+    "合計 226,392 100% 273,286  100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-12",
+   "field": "major_customers",
+   "statement": "113年度某客戶（甲公司）之銷貨金額為新台幣51,239仟元，占全年度銷貨淨額22.63%，年報客戶表「與發行人之關係」欄為「無」。",
+   "period": "113年度（2024）",
+   "page": 64,
+   "excerpts": [
+    "2.主要客戶資料 \n單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年\n度銷貨\n淨額比\n率(%)",
+    "與發行\n人之關\n係",
+    "甲公司 51,239 22.63 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（甲公司）之銷貨金額為新台幣50,791仟元，年報客戶表「與發行人之關係」欄為「無」。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "2.主要客戶資料 \n單位：新台幣仟元",
+    "113年度 114 年度",
+    "與發行\n人之關\n係",
+    "甲公司 50,791 18.58 無"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-14",
+   "field": "major_customers",
+   "statement": "公司年報載明，目前銷售市場多為台灣醫療診所及多家醫院。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "本公司目前銷售市場多為台灣醫療診所及多家醫院"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（A公司）之進貨金額為新台幣3,671仟元，占全年度進貨淨額16.55%，年報供應商表「與發行人之關係」欄為「無」。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "1.主要供應商資料 \n單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年\n度進貨\n淨額比\n率(%)",
+    "與發行\n人之關\n係",
+    "A 公司 3,671 16.55 無",
+    "進貨淨額 22,182 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-16",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（B公司）之進貨金額為新台幣2,800仟元，占全年度進貨淨額12.62%，年報供應商表「與發行人之關係」欄為「無」。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "1.主要供應商資料 \n單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年\n度進貨\n淨額比\n率(%)",
+    "與發行\n人之關\n係",
+    "B公司 2,800 12.62 無",
+    "進貨淨額 22,182 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-17",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（C公司）之進貨金額為新台幣2,267仟元，占全年度進貨淨額10.22%，年報供應商表「與發行人之關係」欄為「無」。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "1.主要供應商資料 \n單位：新台幣仟元",
+    "113年度 114 年度",
+    "占全年\n度進貨\n淨額比\n率(%)",
+    "與發行\n人之關\n係",
+    "C公司 2,267 10.22 無",
+    "進貨淨額 22,182 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-18",
+   "field": "raw_materials",
+   "statement": "公司年報載明，生產製造之原料主要為自體血液。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "(三)主要原料之供應",
+    "生產製造之原料主要自體血液"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-19",
+   "field": "raw_materials",
+   "statement": "公司年報表示，進貨品項多為標準化的試劑、醫療耗材及外盒包材。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "因進貨品項\n多為標準化的試劑、醫療耗材及外盒包材"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-20",
+   "field": "market_position",
+   "statement": "公司於年報自述，以114年度營收2.73億台幣計，在臺灣再生醫療市場市占率約為0.3%。",
+   "period": "114年度（2025）",
+   "page": 60,
+   "excerpts": [
+    "2.市場佔有率",
+    "本公司在 114 年度的營收達到 2.73億台幣。因全球再生醫療\n市場蓬勃發展，雖本公司營收年增 20%，在臺灣再生醫療市場市占率約為 0.3%"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-21",
+   "field": "market_position",
+   "statement": "公司於年報自述，思必瑞特生技屬再生醫療產業中游的生物鑄造廠（Biofundry），提供上游及下游甚至整個產業鏈的一個生物技術平台。",
+   "period": "截至114年度年報刊印日",
+   "page": 57,
+   "excerpts": [
+    "思必瑞特生技屬再生醫療產業中游的生物鑄造廠 (Biofundry)，提供上游及下游甚\n至整個產業鏈的一個生物技術平台"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-22",
+   "field": "market_position",
+   "statement": "公司年報引述Stratistics MRC資料，2023年全球再生醫療市場規模約為396.5億美元，預計到2028年將達到739.4億美元，年均複合增長率（CAGR）約為13.27%。",
+   "period": "2023年至2028年（預測）",
+   "page": 55,
+   "excerpts": [
+    "(2)市場規模與趨勢：",
+    "根據 Stratistics MRC，2023 年全球再生醫療市場規模約為 396.5 億美元，預計\n到 2028年將達到 739.4億美元，年均複合增長率(CAGR)約為 13.27%"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-23",
+   "field": "employees",
+   "statement": "114年度員工人數合計110人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 64,
+   "excerpts": [
+    "三、從業員工最近二年度及截至年報刊印日止，從業員工人數、平均服務年資、平均年齡及\n學歷分布比率 \n年              度 113 年度 114 年度 115年度 \n截至 4月 14日",
+    "合        計 106 110 106"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-24",
+   "field": "rd",
+   "statement": "114年度投入之研發費用為新台幣20,737仟元，占114年度營收比重7.59%。",
+   "period": "114年度（2025）",
+   "page": 8,
+   "excerpts": [
+    "本年度投入之研發費用為新台幣 20,737仟元，佔 114年度營收比重 7.59%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7790-AR-25",
+   "field": "outlook",
+   "statement": "公司年報載明未來發展策略之海外布局方面，初期將以血液相關生物材料凍晶之OEM服務為主，並依日本法規及市場需求提供相對應之CDMO服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 9,
+   "excerpts": [
+    "三、未來公司發展策略",
+    "海外布局方面，初期將以血液相關生物材料凍晶之 OEM 服務為主，\n並依日本法規及市場需求提供相對應之 CDMO 服務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  }
+ ]
+}

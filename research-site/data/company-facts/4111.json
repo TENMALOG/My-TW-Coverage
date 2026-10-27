@@ -1,0 +1,611 @@
+{
+ "ticker": "4111",
+ "company": "濟生",
+ "legal_name": "濟生醫藥生技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=4111&filename=2025_4111_20260610F04.pdf",
+  "fy": 2025,
+  "filename": "2025_4111_20260610F04.pdf",
+  "text_sha256": "c654c7c1a45eb184dd4e9895e963f58a9c72bf120f33de66fddc9b8325f01d4a",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/c654c7c1a45eb184dd4e9895e963f58a9c72bf120f33de66fddc9b8325f01d4a.txt"
+ },
+ "facts": [
+  {
+   "id": "4111-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度注射劑營業金額為新台幣837,416仟元，營業比重為60.84%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "2.民國 114 年度營業比重                        單位：新台幣仟元 \n產品名 稱 營業金 額 營業比 重 \n",
+    "    注射劑 837,416 60.84% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度口服製劑營業金額為新台幣47,237仟元，營業比重為3.43%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "2.民國 114 年度營業比重                        單位：新台幣仟元 \n產品名 稱 營業金 額 營業比 重 \n",
+    "    口服製劑 47,237  3.43% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度外用藥營業金額為新台幣141,577仟元，營業比重為10.28%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "2.民國 114 年度營業比重                        單位：新台幣仟元 \n產品名 稱 營業金 額 營業比 重 \n",
+    "    外用藥 141,577 10.28% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度醫療器材營業金額為新台幣27,777仟元，營業比重為2.02%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "2.民國 114 年度營業比重                        單位：新台幣仟元 \n產品名 稱 營業金 額 營業比 重 \n",
+    "    醫療器材 27,777  2.02% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度代工及其他營業金額為新台幣322,473仟元，營業比重為23.43%。",
+   "period": "114年度",
+   "page": 60,
+   "excerpts": [
+    "2.民國 114 年度營業比重                        單位：新台幣仟元 \n產品名 稱 營業金 額 營業比 重 \n",
+    "    代工及其他 322,473 23.43% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-06",
+   "field": "products",
+   "statement": "注射劑產品包括維生素、抗組織胺、銀杏針劑、美白針劑、腎臟疾病領域治療相關注射液、止吐針劑及胺基酸電解質注射液等。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "3.公司之目前商品(服務)項目 \n類型 主要產品項目 \n注射劑 維生素、抗組織胺、銀杏針劑、美白針劑、腎臟疾病領域治療相關\n注射液、止吐針劑、胺基酸電解質注射液 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-07",
+   "field": "products",
+   "statement": "血液透析製劑產品包括血液透析濃縮液、透析用粉劑及腹膜透析液。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "3.公司之目前商品(服務)項目 \n類型 主要產品項目 \n",
+    "血液透析製劑 血液透析濃縮液、透析用粉劑、腹膜透析液 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-08",
+   "field": "products",
+   "statement": "外用藥產品為沖洗用食鹽水。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "3.公司之目前商品(服務)項目 \n類型 主要產品項目 \n",
+    "外用藥 沖洗用食鹽水 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-09",
+   "field": "products",
+   "statement": "醫療器材產品包括隱形眼鏡沖洗液及保存液。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "3.公司之目前商品(服務)項目 \n類型 主要產品項目 \n",
+    "醫療器材 隱形眼鏡沖洗液、保存液 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-10",
+   "field": "products",
+   "statement": "動物用藥產品為電解質注射液。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "3.公司之目前商品(服務)項目 \n類型 主要產品項目 \n",
+    "動物用藥 電解質注射液 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度內銷銷售額為新台幣1,307,413仟元，占銷售地區表合計94.98%。",
+   "period": "114年度",
+   "page": 65,
+   "excerpts": [
+    "        1.公司主要商品(服務)之銷售(提供)地區 \n單位:新台幣仟元 \n      年度 \n銷售區域 \n114年度 113 年度 \n銷售額 % 銷售額 % \n內  銷 1,307,413 94.98% 1,153,104 98.94% \n",
+    "合  計 1,376,480 100% 1,165,437 100% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-12",
+   "field": "sales_regions",
+   "statement": "114年度外銷銷售額為新台幣69,067仟元，占銷售地區表合計5.02%。",
+   "period": "114年度",
+   "page": 65,
+   "excerpts": [
+    "        1.公司主要商品(服務)之銷售(提供)地區 \n單位:新台幣仟元 \n      年度 \n銷售區域 \n114年度 113 年度 \n銷售額 % 銷售額 % \n",
+    "外  銷 69,067 5.02% 12,333 1.06% \n合  計 1,376,480 100% 1,165,437 100% \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（代號20155）進貨金額為新台幣88,601仟元，占全年度進貨淨額15.63%。",
+   "period": "114年度",
+   "page": 68,
+   "excerpts": [
+    "                                             最近二年度主要供應商資料                                     單位：新台幣仟元 \n 114 年 113 年 115年度截至前一季止 \n項目 代號 金額 \n占全年度進\n貨淨額比率\n% \n",
+    "1 20155  88,601 15.63% 供應商 20155  85,208 15.81% 供應商 20155 20,995 14.51% 供應商 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（代號30043）進貨金額為新台幣65,809仟元，占全年度進貨淨額11.61%。",
+   "period": "114年度",
+   "page": 68,
+   "excerpts": [
+    "                                             最近二年度主要供應商資料                                     單位：新台幣仟元 \n 114 年 113 年 115年度截至前一季止 \n項目 代號 金額 \n占全年度進\n貨淨額比率\n% \n",
+    "2 30043  65,809 11.61% 供應商 10057  57,245 10.62% 供應商 30043 16,728 11.56% 供應商 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-15",
+   "field": "major_suppliers",
+   "statement": "113年度向某供應商（代號10057）進貨金額為新台幣57,245仟元，占全年度進貨淨額10.62%。",
+   "period": "113年度",
+   "page": 68,
+   "excerpts": [
+    "                                             最近二年度主要供應商資料                                     單位：新台幣仟元 \n 114 年 113 年 115年度截至前一季止 \n",
+    "關係 代號 金額 \n占全年度進\n貨淨額比率\n% \n",
+    "2 30043  65,809 11.61% 供應商 10057  57,245 10.62% 供應商 30043 16,728 11.56% 供應商 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-16",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號210116）銷貨金額為新台幣389,689仟元，占全年度銷貨淨額28.31%。",
+   "period": "114年度",
+   "page": 68,
+   "excerpts": [
+    "5.                                                 最近二年度主要銷貨客戶資料                               單位：新台幣仟元 \n 114年 113 年 115年度截至前一季止 \n項目 代號 金額 \n占全年度銷\n貨淨額比率\n% \n",
+    "1 210116 389,689 28.31% 銷貨客戶 210116 369,054 31.67% 銷貨客戶 210116 98,365 27.57% 銷貨客戶 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-17",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（代號410005）銷貨金額為新台幣182,404仟元，占全年度銷貨淨額13.25%。",
+   "period": "114年度",
+   "page": 68,
+   "excerpts": [
+    "5.                                                 最近二年度主要銷貨客戶資料                               單位：新台幣仟元 \n 114年 113 年 115年度截至前一季止 \n項目 代號 金額 \n占全年度銷\n貨淨額比率\n% \n",
+    "2 410005 182,404 13.25% 銷貨客戶 410005 158,631 13.61% 銷貨客戶 410005 45,137 12.65% 銷貨客戶 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-18",
+   "field": "raw_materials",
+   "statement": "原料採購以多家比價、多家供應為原則，大宗原料以半年訂購、分批進口為原則。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "公司採購以多家比價、多家供應為原則。大宗原料則以半年訂購分批進口為原則"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-19",
+   "field": "market_position",
+   "statement": "公司於年報自述，透析液（粉）產品約占國內透析液（粉）市場六成。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "本公司透析液（粉）產品約占國內市場六成"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計313人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 69,
+   "excerpts": [
+    "       年   度 113年度 114年度 115年度截至 \n3月31日 \n員 \n工 \n人 \n數 \n",
+    "合   計   311 313  312 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-21",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣16,507仟元。",
+   "period": "114年度",
+   "page": 64,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目  114年度 115 年1-3 月 \n",
+    "研發費用 16,507 4,934 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-22",
+   "field": "outlook",
+   "statement": "短期計畫包括提升大型輸液供應能力，持續優化產線與產能配置，並強化與醫學中心及區域醫院的長期供應合作關係。",
+   "period": "截至114年度年報刊印日",
+   "page": 64,
+   "excerpts": [
+    "   (四)長、短期業務發展計畫 \n  1.短期計畫： \n 提升大型輸液供應能力 \n",
+    "持續優化產線與產能配置，強化與醫學中心及區域醫院之長期供應合作關係，擴\n大銷售規模並提升營收穩定度。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-23",
+   "field": "outlook",
+   "statement": "長期計畫包括發展CDMO與多元通路布局，擴展醫藥產品委託開發暨製造業務，並開拓醫美與其他專業通路。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "          2.長期計畫： \n",
+    " 發展CDMO與多元通路布局，擴展醫藥產品委託開發暨製造業務，同時開拓醫美與\n其他專業通路，提升產能利用率與附加價值。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-24",
+   "field": "headquarters",
+   "statement": "總公司地址為新竹縣湖口鄉實踐路3號。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司 \n地址：新竹縣湖口鄉實踐路 3 號 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  },
+  {
+   "id": "4111-AR-25",
+   "field": "group_structure",
+   "statement": "截至年報刊印日，公司無關係企業。",
+   "period": "截至114年度年報刊印日",
+   "page": 81,
+   "excerpts": [
+    "一、關係企業相關資料：截至年報刊印日止，本公司無關係企業。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:27+00:00"
+   }
+  }
+ ]
+}

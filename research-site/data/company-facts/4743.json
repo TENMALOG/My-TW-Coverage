@@ -1,0 +1,611 @@
+{
+ "ticker": "4743",
+ "company": "合一",
+ "legal_name": "合一生技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=4743&filename=2025_4743_20260520F04.pdf",
+  "fy": 2025,
+  "filename": "2025_4743_20260520F04.pdf",
+  "text_sha256": "558a116017eeb4cab7cb6f5a76b62596451a1ddd6cdaca8a246413cced961db7",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/558a116017eeb4cab7cb6f5a76b62596451a1ddd6cdaca8a246413cced961db7.txt"
+ },
+ "facts": [
+  {
+   "id": "4743-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度生技新藥銷售金額為新台幣82,700仟元，營業比重為64.05%。",
+   "period": "114年度",
+   "page": 96,
+   "excerpts": [
+    "2. 營業比重 \n單位：新台幣仟元；% \n主 要 產 品  114 年度 \n銷 售 金 額  營業比重 ( ％ ) \n",
+    "生 技 新 藥  82,700 64.05 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度農業科技銷售金額為新台幣9,344仟元，營業比重為7.24%。",
+   "period": "114年度",
+   "page": 96,
+   "excerpts": [
+    "2. 營業比重 \n單位：新台幣仟元；% \n主 要 產 品  114 年度 \n銷 售 金 額  營業比重 ( ％ ) \n",
+    "農 業 科 技  9,344 7.24 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度其他銷售金額為新台幣37,079仟元，營業比重為28.71%。",
+   "period": "114年度",
+   "page": 96,
+   "excerpts": [
+    "2. 營業比重 \n單位：新台幣仟元；% \n主 要 產 品  114 年度 \n銷 售 金 額  營業比重 ( ％ ) \n",
+    "其他  37,079 28.71 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣85,954仟元，占主要商品銷售地區表合計66.57%。",
+   "period": "114年度",
+   "page": 113,
+   "excerpts": [
+    "本公司 114 年度及 113 年度主要商品(服務)之銷售地區別如下： \n單位：新台幣仟元 \n年度 \n項目 \n113 年度 114 年度 \n金額 比率(%) 金額 比率(%) \n",
+    "內銷 89,773 76.13 85,954 66.57 ",
+    "合計 117,926 100.00 129,123 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-05",
+   "field": "sales_regions",
+   "statement": "114年度外銷金額為新台幣43,169仟元，占主要商品銷售地區表合計33.43%。",
+   "period": "114年度",
+   "page": 113,
+   "excerpts": [
+    "本公司 114 年度及 113 年度主要商品(服務)之銷售地區別如下： \n單位：新台幣仟元 \n年度 \n項目 \n113 年度 114 年度 \n金額 比率(%) 金額 比率(%) \n",
+    "外銷 28,153 23.87 43,169 33.43 ",
+    "合計 117,926 100.00 129,123 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-06",
+   "field": "major_suppliers",
+   "statement": "113年度向Bremner Fruits Ltd.進貨新台幣2,124仟元，占全年度進貨淨額13.81%。",
+   "period": "113年度",
+   "page": 122,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 \n",
+    "1 Bremner \nFruits Ltd. 2,124 13.81 無 \nMarine \nGold Prod-\nucts Ltd. \n4,830 12.30 無 ─ ─ ─ ─ \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-07",
+   "field": "major_suppliers",
+   "statement": "113年度向保證責任屏東縣南荔果生產合作社進貨新台幣1,701仟元，占全年度進貨淨額11.07%。",
+   "period": "113年度",
+   "page": 122,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 \n",
+    "3 \n保證責任屏\n東縣南荔果\n生產合作社 \n1,701 11.07 無 ─ ─ ─ ─ ─ ─ ─ ─ \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-08",
+   "field": "major_suppliers",
+   "statement": "114年度子公司中天健康（股）公司向Marine Gold Products Ltd.進口有機商品，進貨金額為新台幣4,830仟元，占年報進貨供應商表所列全年度進貨淨額12.30%。",
+   "period": "114年度",
+   "page": 122,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 名稱 金額 \n占全年度進\n貨淨額比率\n(%) \n與發行人之\n關係 \n",
+    "1 Bremner \nFruits Ltd. 2,124 13.81 無 \nMarine \nGold Prod-\nucts Ltd. \n4,830 12.30 無 ─ ─ ─ ─ \n",
+    "(1)114 年度新增 Marine Gold Products Ltd.係子公司-中天健康(股)公司進口有機商品。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-09",
+   "field": "major_customers",
+   "statement": "113年度對關係企業中天生物科技股份有限公司銷貨新台幣30,383仟元，占全年度銷貨淨額25.76%，該公司為對本公司採權益法評價之投資公司。",
+   "period": "113年度",
+   "page": 123,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 \n",
+    "1 \n中天生物科\n技股份有限\n公司 \n30,383 25.76 \n對本公司採\n權益法評價\n之投資公司 \n棉花田生機\n園地股份有\n限公司 \n45,915 35.56 中天之子公\n司 ─ ─ ─ ─ \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-10",
+   "field": "major_customers",
+   "statement": "113年度對關係企業中天（上海）生物科技有限公司銷貨新台幣16,185仟元，占全年度銷貨淨額13.73%，該公司為本公司採權益法評價之被投資公司。",
+   "period": "113年度",
+   "page": 123,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 \n",
+    "2 \n中天 ( 上海 )\n生物科技有\n限公司 \n16,185 13.73 \n本公司採權\n益法評價之\n被投資公司 \n中天 ( 香港 )\n生物科技有\n限公司 \n35,001 27.11 中天 ( 上海 )\n之子公司 ─ ─ ─ ─ \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-11",
+   "field": "major_customers",
+   "statement": "114年度子公司中天健康（股）公司對關係企業棉花田生機園地股份有限公司銷售有機商品及食品新台幣45,915仟元，占年報銷貨客戶表所列全年度銷貨淨額35.56%，該客戶為中天之子公司。",
+   "period": "114年度",
+   "page": 123,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 \n",
+    "1 \n中天生物科\n技股份有限\n公司 \n30,383 25.76 \n對本公司採\n權益法評價\n之投資公司 \n棉花田生機\n園地股份有\n限公司 \n45,915 35.56 中天之子公\n司 ─ ─ ─ ─ \n",
+    "(1)114年度新增棉花田生機園地股份有限公司係子公司-中天健康(股)公司銷售有機商品及食品。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-12",
+   "field": "major_customers",
+   "statement": "114年度對關係企業中天（香港）生物科技有限公司銷貨新台幣35,001仟元，占全年度銷貨淨額27.11%，該公司為中天（上海）之子公司。",
+   "period": "114年度",
+   "page": 123,
+   "excerpts": [
+    "單位：新台幣仟元；％ \n項\n目 \n113 年度 114 年度 115 年截至前一季止 \n名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 名稱 金額 \n占全年度銷\n貨淨額比率\n(%) \n與發行人 \n之關係 \n",
+    "2 \n中天 ( 上海 )\n生物科技有\n限公司 \n16,185 13.73 \n本公司採權\n益法評價之\n被投資公司 \n中天 ( 香港 )\n生物科技有\n限公司 \n35,001 27.11 中天 ( 上海 )\n之子公司 ─ ─ ─ ─ \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-13",
+   "field": "products",
+   "statement": "「速必一」糖尿病足部傷口潰瘍新藥（ON101）於110年獲台灣新藥藥證。",
+   "period": "110年",
+   "page": 96,
+   "excerpts": [
+    "(1) 「速必一® 」糖尿病足部傷口潰瘍新藥（ON101） \n以多國多中心三期臨床試驗(MRCT)申請，於 110 年獲台灣新藥藥證"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-14",
+   "field": "products",
+   "statement": "Bonvadis為以到手香萃取物開發的傷口外用及疤痕護理乳膏。",
+   "period": "截至114年度年報刊印日",
+   "page": 120,
+   "excerpts": [
+    "(3) 外用醫材：到手香萃取物具多重傷口照護功效及疤痕護理功能，以此項\n原料開發 Bonvadis® 傷口外用及疤痕護理乳膏。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-15",
+   "field": "rd",
+   "statement": "抗體新藥FB825於113年獲美國FDA及台灣TFDA允許執行皮下注射劑型之中重度異位性皮膚炎II期臨床試驗。",
+   "period": "113年",
+   "page": 97,
+   "excerpts": [
+    "FB825 於 113 年獲得美國 FDA 及台\n灣 TFDA 允許執行皮下注射劑型之中重度異位性皮膚炎 II 期臨床試驗"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-16",
+   "field": "rd",
+   "statement": "全人抗體新藥FB704A已取得台灣TFDA及美國FDA嚴重氣喘II期臨床試驗許可，並於台灣進行臨床試驗收案。",
+   "period": "截至114年度年報刊印日",
+   "page": 97,
+   "excerpts": [
+    "(4) FB704A (Anti-IL6) 全人抗體新藥 \n已取得台灣 TFDA 及美國 FDA 嚴重氣喘 II 期臨床試驗許可，並於台灣\n進行臨床試驗，目前持續進行收案。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-17",
+   "field": "raw_materials",
+   "statement": "原料取得包括自行種植之藥材及向供應商取得原料藥、細胞株等，並以多個大規模種植基地穩定原料供應。",
+   "period": "截至114年度年報刊印日",
+   "page": 121,
+   "excerpts": [
+    "本公司之原料取得，包含自行種植之藥材、向供應商取得原料藥、細胞株等，\n自行種植之藥材已有超過 10 年的經驗 ， 並建立多個大規模種植基地 ， 以穩定原\n料供應。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-18",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣605,866仟元。",
+   "period": "114年度",
+   "page": 111,
+   "excerpts": [
+    "單位：新台幣仟元 \n年 度 \n項 目 113年度 114年度 115年第一季 \n",
+    "研發費用 924,895 605,866 － "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-19",
+   "field": "rd",
+   "statement": "114年度研發及技術人員為60人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 124,
+   "excerpts": [
+    "年度  113 年度 114 年度 截至 115 年度 \n03 月 27 日止 \n",
+    "員 \n工 \n人 \n數",
+    "研發及技術人員 74 60 57 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-20",
+   "field": "employees",
+   "statement": "114年度員工人數合計162人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 124,
+   "excerpts": [
+    "年度  113 年度 114 年度 截至 115 年度 \n03 月 27 日止 \n",
+    "員 \n工 \n人 \n數",
+    "合計  165 162 159 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-21",
+   "field": "outlook",
+   "statement": "長期業務發展計畫包括新增到手香種苗保存區並異地保存種苗，以降低「速必一」及Bonvadis主要藥材來源的供應風險。",
+   "period": "截至114年度年報刊印日",
+   "page": 111,
+   "excerpts": [
+    "(四) 長、短期業務發展計畫 \n1. 長期業務發展計畫",
+    "(2) 新增到手香種苗保存區 \n本公司糖尿病足部傷口潰瘍新藥 「速必一® 」及醫材 Bonvadis®， 其主要\n原料為到手香藥材，為掌控藥材來源穩定與一致性，確保供應無虞，建\n立到手香種苗保存區，並進行異地保存種苗，降低風險。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-22",
+   "field": "outlook",
+   "statement": "短期業務發展計畫包括持續推進「速必一」（ON101）於菲律賓及越南之新藥註冊審查。",
+   "period": "截至114年度年報刊印日",
+   "page": 112,
+   "excerpts": [
+    "2. 短期業務發展計畫 \n(1) 「速必一® 」糖尿病足部傷口潰瘍新藥(ON101) \na. 完成東南亞藥證申請 \n持續推進菲律賓食品藥品管理局 (PFDA)、越南衛生部藥品管理局\n(DAV)新藥註冊的審查進度 ， 使此國產創新的自主研發新藥得以早日\n滿足各國糖尿病足潰瘍患者之醫療迫切需求(Unmet Medical Need) 。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-23",
+   "field": "headquarters",
+   "statement": "總公司地址為台北市中正區忠孝西路一段66號35樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總 公 司：合一生技股份有限公司  \n地    址：台北市中正區忠孝西路一段 66 號 35 樓"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-24",
+   "field": "group_structure",
+   "statement": "子公司包括棉花田有機農場股份有限公司及中天健康事業股份有限公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 98,
+   "excerpts": [
+    "子公司「棉花田有機農場股份有限公司」與「中天健康事業股份有限公\n司」"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  },
+  {
+   "id": "4743-AR-25",
+   "field": "business_scope",
+   "statement": "目前以新藥研發為主力。",
+   "period": "截至114年度年報刊印日",
+   "page": 120,
+   "excerpts": [
+    "目前以新藥研發為主力"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:34+00:00"
+   }
+  }
+ ]
+}

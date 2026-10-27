@@ -1,0 +1,603 @@
+{
+ "ticker": "6543",
+ "company": "普惠醫工",
+ "legal_name": "普惠醫工股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=6543&filename=2025_6543_20260506F04.pdf",
+  "fy": 2025,
+  "filename": "2025_6543_20260506F04.pdf",
+  "text_sha256": "f8eb95131cf1c3e7b5c06a4ee94db32dcff85e2492d37c55c5c20fdba14367c7",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/f8eb95131cf1c3e7b5c06a4ee94db32dcff85e2492d37c55c5c20fdba14367c7.txt"
+ },
+ "facts": [
+  {
+   "id": "6543-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度醫療耗材類營業收入為新臺幣779,015仟元，營業比重為100.00%。",
+   "period": "114年度",
+   "page": 61,
+   "excerpts": [
+    "單位:新臺幣仟元；% \n主要產品 \n113年度 114年度 \n金額 比率 金額 比率 \n",
+    "醫療耗材類 744,157  100.00 779,015 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-02",
+   "field": "products",
+   "statement": "公司為醫療耗材製造業者，產品線包括注射針筒、血液透析迴路、輸液套、輸血套、精密輸液套、安全針筒、頭皮針、血醣注射器、採血器、延長管及醫療口罩等。",
+   "period": "截至114年度年報刊印日",
+   "page": 61,
+   "excerpts": [
+    "本公司為一醫療耗材製造業者，公司產品線包括：注射針筒 、血液透析迴路、\n輸液套、輸血套、精密輸液套、安全針筒、洗腎瘻管針、頭皮針、血醣注射器、\n採血器、延長管、醫療口罩等醫療耗材。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-03",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新臺幣482,266仟元，占銷售地區表總計61.91%。",
+   "period": "114年度",
+   "page": 70,
+   "excerpts": [
+    "單位:新臺幣仟元；% \n銷售地區 \n113年度 114年度 \n金額 比率 金額 比率 \n",
+    "內銷 477,700 64.20 482,266 61.91 ",
+    "總計 744,157 100.00 779,015 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-04",
+   "field": "sales_regions",
+   "statement": "114年度外銷金額為新臺幣296,749仟元，占銷售地區表總計38.09%。",
+   "period": "114年度",
+   "page": 70,
+   "excerpts": [
+    "單位:新臺幣仟元；% \n銷售地區 \n113年度 114年度 \n金額 比率 金額 比率 \n",
+    "外銷 266,457 35.80 296,749 38.09 ",
+    "總計 744,157 100.00 779,015 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-05",
+   "field": "major_suppliers",
+   "statement": "114年度向某供應商（J 公司）進貨新臺幣49,663仟元，占全年度進貨淨額17.56%。",
+   "period": "114年度",
+   "page": 77,
+   "excerpts": [
+    "單位:新臺幣仟元；% \n項\n目 \n113年度 114年度 \n名稱   金額 佔全年度進\n貨淨額比率 \n與發行人\n之關係 名稱   金額 佔全年度進\n貨淨額比率 \n與發行人\n之關係 \n",
+    "1 J公司 45,332  16.40 無 J 公司 49,663  17.56 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-06",
+   "field": "major_suppliers",
+   "statement": "113年度向某供應商（J公司）進貨新臺幣45,332仟元，占全年度進貨淨額16.40%。",
+   "period": "113年度",
+   "page": 77,
+   "excerpts": [
+    "單位:新臺幣仟元；% \n項\n目 \n113年度 114年度 \n名稱   金額 佔全年度進\n貨淨額比率 \n與發行人\n之關係 名稱   金額 佔全年度進\n貨淨額比率 \n與發行人\n之關係 \n",
+    "1 J公司 45,332  16.40 無 J 公司 49,663  17.56 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-07",
+   "field": "major_customers",
+   "statement": "113年度對某客戶（甲客戶）銷貨新臺幣93,762仟元，占全年度銷貨淨額12.60%。",
+   "period": "113年度",
+   "page": 77,
+   "excerpts": [
+    "2.最近二年度任一年度中曾佔銷貨總額百分之十以上之客戶名稱及銷貨金額與比\n例，並說明其增減變動原因： \n   單位:新臺幣仟元；% \n項\n目 \n113年度 114年度 \n名稱   金額 佔全年度銷\n貨淨額比率 \n與發行人\n之關係 名稱   金額 佔全年度銷\n貨淨額比率 \n與發行人\n之關係 \n",
+    "1 甲客戶 93,762  12.60 無 甲客戶 65,202  8.37 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-08",
+   "field": "major_customers",
+   "statement": "114年度對某客戶（甲客戶）銷貨新臺幣65,202仟元，占全年度銷貨淨額8.37%。",
+   "period": "114年度",
+   "page": 77,
+   "excerpts": [
+    "2.最近二年度任一年度中曾佔銷貨總額百分之十以上之客戶名稱及銷貨金額與比\n例，並說明其增減變動原因： \n   單位:新臺幣仟元；% \n項\n目 \n113年度 114年度 \n名稱   金額 佔全年度銷\n貨淨額比率 \n與發行人\n之關係 名稱   金額 佔全年度銷\n貨淨額比率 \n與發行人\n之關係 \n",
+    "1 甲客戶 93,762  12.60 無 甲客戶 65,202  8.37 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-09",
+   "field": "raw_materials",
+   "statement": "主要原材料包括塑膠粒、各式塑膠零件及包材紙卷等，多向國內外合格廠商採購，供應廠商及貨源充足且供應穩定。",
+   "period": "截至114年度年報刊印日",
+   "page": 77,
+   "excerpts": [
+    "（三）主要原料之供應狀況: 主要原材料為塑膠粒、各式塑膠零件及包材紙卷等，多向\n國內外合格廠商採購，供應廠商及貨源充足，皆能充份且穩定供應。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-10",
+   "field": "market_position",
+   "statement": "公司於年報自述，塑膠注射筒、輸液套、精密輸液套、輸血套、血液迴路及延長管等主力產品的市場占有率均居國內前三大。",
+   "period": "截至114年度年報刊印日",
+   "page": 67,
+   "excerpts": [
+    "本公司目前之主力產品為塑膠注射筒、輸液套、精密輸液套、輸血套、血液\n迴路、延長管等相關耗材，市場佔有率均居國內前三大。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-11",
+   "field": "market_position",
+   "statement": "公司於年報自述，以114年預估臺灣其他類醫療器材進口值為分母，推估公司國內醫療耗材市占率約2.4%。",
+   "period": "114年度",
+   "page": 70,
+   "excerpts": [
+    "但依 114 年醫療器材產\n業年鑑所示，113年臺灣其他類醫療器材進口值約新台幣 187.7億元，依 109\n年至 113 年平均年成長率為 7.2%估算，114 年預估臺灣其他類醫療器材進口\n值約新台幣 201.2億元，本公司114年國內醫療耗材營收約 4.8億元，推估市\n佔率約 2.4%。 \n"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-12",
+   "field": "employees",
+   "statement": "114年度員工人數表列合計1,055人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 78,
+   "excerpts": [
+    "年              度 113年度 114年度 截至 115 年 \n03月 31日止 \n員 \n工 \n人 \n數 \n",
+    "合 計  964 1,055 1,084 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-13",
+   "field": "rd",
+   "statement": "114年度研發費用為新臺幣15,831仟元。",
+   "period": "114年度",
+   "page": 69,
+   "excerpts": [
+    "單位：新臺幣仟元 \n年度 \n項目 114年度 截至 115年 03月 31日止 \n",
+    "研發費用 15,831 3,677 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-14",
+   "field": "headquarters",
+   "statement": "總公司地址為彰化縣北斗鎮新工一路100號。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司地址：52149彰化縣北斗鎮新工一路 100 號  "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-15",
+   "field": "group_structure",
+   "statement": "114年度轉投資表列公司持有越南普惠醫療工藝責任有限公司100.00%股權。",
+   "period": "114年度",
+   "page": 85,
+   "excerpts": [
+    "轉投資公司 持股 \n比率 \n114年度 \n認列（損）益 \n獲利或虧損 \n之主要原因 改善計劃 未來一年 \n增資計畫 \n",
+    "越南普惠醫療工\n藝責任有限公司 100.00 13,787   \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-16",
+   "field": "group_structure",
+   "statement": "114年度轉投資表列公司持有越南台灣普惠醫療工藝責任有限公司100.00%股權。",
+   "period": "114年度",
+   "page": 85,
+   "excerpts": [
+    "轉投資公司 持股 \n比率 \n114年度 \n認列（損）益 \n獲利或虧損 \n之主要原因 改善計劃 未來一年 \n增資計畫 \n",
+    "越南台灣普惠醫\n療工藝責任有限\n公司 \n100.00 (13,942)  \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-17",
+   "field": "capacity_or_production",
+   "statement": "集團越南二廠一期廠房已於114年下半年正式投產。",
+   "period": "114年下半年",
+   "page": 6,
+   "excerpts": [
+    "本集團越南二廠一期廠房已於114年下半年正式投產。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-18",
+   "field": "outlook",
+   "statement": "集團正規劃並推動越南二廠三期廠房建置工程，預計於116年上半年完工投產。",
+   "period": "預計116年上半年",
+   "page": 6,
+   "excerpts": [
+    "集團現正規劃並推動越南二廠三期廠房建置工程，預計於116年\n上半年完工投產"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-19",
+   "field": "outlook",
+   "statement": "短期業務發展計畫包括維持現有通路、積極推廣安全型產品，以提高相關耗材市占率。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "1.短期業務發展計劃 \n(1)維持現有通路積極推廣安全型產品，提高相關耗材的市佔率。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-20",
+   "field": "outlook",
+   "statement": "長期業務發展計畫包括全球化發展及拓展產品銷售區域。",
+   "period": "截至114年度年報刊印日",
+   "page": 69,
+   "excerpts": [
+    "3.長期業務發展計劃 \n",
+    "(2)全球化發展，拓展產品銷售區域。 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-21",
+   "field": "products",
+   "statement": "塑膠注射筒用於病患藥液注射或從身體抽出液體。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "(1)塑膠注射筒：做為病患藥液注射或從身體抽出液體之用。 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-22",
+   "field": "products",
+   "statement": "輸液套及輸血套用於經靜脈供給藥物、血液，或補充身體所需的液體、營養物及電解質等。",
+   "period": "截至114年度年報刊印日",
+   "page": 71,
+   "excerpts": [
+    "(2)輸液套及輸血套：經由靜脈注射供給藥物，血液或補充個案身體所需的液體、\n營養物、電解質等；"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-23",
+   "field": "products",
+   "statement": "血液迴路提供取得患者血液進行血液透析或其他慢性用途的管道。",
+   "period": "截至114年度年報刊印日",
+   "page": 72,
+   "excerpts": [
+    "(3)血液迴路：提供管道以取得患者血液做血液透析或其他慢性用途者，"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-24",
+   "field": "rd",
+   "statement": "公司已開始評估開發長照類矽管產品，並將進一步研究以外層抗菌塗層防止病患感染。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "(4)長照類矽管類產品 \n隨著長照發展，鼻胃管/導尿管/抽痰管..等侵入性管類產品，基於友善安\n寧的概念，逐漸會轉為矽膠材質讓病患可長期使用，避免重複性插管的痛苦\n與感染，我司已開始評估開發矽管類品，並會進一步研究在外層進行抗菌塗\n層的方式防止病患的感染。 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  },
+  {
+   "id": "6543-AR-25",
+   "field": "history",
+   "statement": "美德來有限公司於115年1月29日清算完結。",
+   "period": "115年1月29日",
+   "page": 85,
+   "excerpts": [
+    "註：美德來有限公司經 114年 06月 09 日董事會決議辦理清算解散，並於 115年 1月 29日清算完結。 \n"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:53+00:00"
+   }
+  }
+ ]
+}

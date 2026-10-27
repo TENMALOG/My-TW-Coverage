@@ -1,0 +1,636 @@
+{
+ "ticker": "2908",
+ "company": "特力",
+ "legal_name": "特力股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=2908&filename=2025_2908_20260527F04.pdf",
+  "fy": 2025,
+  "filename": "2025_2908_20260527F04.pdf",
+  "text_sha256": "d682b797159df84032ec71e7ce0d1030874155e30bebd618a0df9c236372aefe",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/d682b797159df84032ec71e7ce0d1030874155e30bebd618a0df9c236372aefe.txt"
+ },
+ "facts": [
+  {
+   "id": "2908-AR-01",
+   "field": "established",
+   "statement": "公司於年報載明成立於民國67年8月，成立之初為專營手工具五金的外銷貿易商。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "本公司成立於民國67年8月，成立之初為一專營手工具五金之外銷貿易"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業收入中，貿易事業營業項目金額為新台幣53仟元，占合併營業收入53.8%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "貿易事業 19,772,901 53.7% 18,082,683 53.8%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：53"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業收入中，零售事業營業項目金額為新台幣36仟元，占合併營業收入36.3%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "零售事業 13,719,067 37.2% 12,204,933 36.3%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：36"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度合併營業收入中，其他營業項目金額為新台幣9仟元，占合併營業收入9.9%。",
+   "period": "114年度（2025）",
+   "page": 73,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114 年度",
+    "其 他 3,340,081 9.1% 3,334,185 9.9%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：9"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-05",
+   "field": "products",
+   "statement": "年報載明貿易事業為從事生活百貨用品之進出口業務與代理事業，商品內容涵蓋五金工具、DIY手工具、衛浴收納用品、文具用品、家用電器與起居商品、戶外傢俱、園藝、烤肉用品等。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "本公司之貿易事業為從事生活百貨用品之進出口業務與代理事業，商品內",
+    "容涵蓋五金工具、DIY手工具、衛浴收納用品、文具用品、家用電器與起居商",
+    "品、戶外傢俱、園藝、烤肉用品等。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-06",
+   "field": "products",
+   "statement": "年報載明零售事業直接面對消費者從事家居家飾、居家修繕、床墊寢具銷售業務等。",
+   "period": "截至114年度年報刊印日",
+   "page": 74,
+   "excerpts": [
+    "直接面對消費者從事家居家飾、居家修繕、床墊寢具銷售業務"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-07",
+   "field": "business_scope",
+   "statement": "年報載明特力貿易事業群有三大業務模式，分別是貿易、代理、進口。",
+   "period": "截至114年度年報刊印日",
+   "page": 75,
+   "excerpts": [
+    "特力貿易事業群有三大業務模式，分別是：貿易、代理、進口。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-08",
+   "field": "sales_regions",
+   "statement": "114年度合併營業收入中，美洲銷售地區金額為新台幣50仟元，占合併營業收入50.9%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "美 洲  18,763,547 51.0% 17,119,302 50.9%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：50"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度合併營業收入中，亞洲銷售地區金額為新台幣46仟元，占合併營業收入46.5%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "亞 洲  17,191,256 46.6% 15,644,595 46.5%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：46"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度合併營業收入中，歐洲銷售地區金額為新台幣2仟元，占合併營業收入2.4%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "歐 洲  708,882 1.9% 817,032 2.4%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：2"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度合併營業收入中，澳洲及其他地區銷售地區金額為新台幣0仟元，占合併營業收入0.1%。",
+   "period": "114年度（2025）",
+   "page": 84,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "113年度 114年度",
+    "澳洲及其他地區 168,364 0.5% 40,872 0.1%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "FAIL",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": false,
+     "identity": true
+    },
+    "notes": [
+     "陳述中的數字未出現在引文：0"
+    ],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-12",
+   "field": "employees",
+   "statement": "114年度合併範圍（特力股份有限公司及子公司）員工人數合計為4,043人。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "特力股份有限公司及子公司 (合併)",
+    "年              度 113 年度 114 年度 115 年 3月 31日",
+    "合計 4,065 4,043 3,960"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-13",
+   "field": "employees",
+   "statement": "114年度個體（特力股份有限公司）員工人數合計為220人。",
+   "period": "114年度（2025）",
+   "page": 88,
+   "excerpts": [
+    "特力股份有限公司 (個體)",
+    "年              度 113 年度 114 年度 115 年 3月 31日",
+    "合計 355 220 220"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-14",
+   "field": "major_customers",
+   "statement": "年報在「占合併進（銷）貨總額百分之十以上之客戶名單」項下，列示A客戶（代號）114年度比例為17%，並載明與公司無關係。",
+   "period": "114年度（2025）",
+   "page": 87,
+   "excerpts": [
+    "（四）最近二年度任一年度中曾占合併進（銷）貨總額百分之十以上之客戶名單：",
+    "1.主要銷貨客戶：",
+    "客戶 114年度 113 年度",
+    "A 客戶 5,559,232 17% 無關係 5,765,336 16% 無關係"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-15",
+   "field": "major_suppliers",
+   "statement": "年報載明最近二年度主要進貨客戶為「無」，即無占合併進（銷）貨總額百分之十以上之進貨客戶。",
+   "period": "最近二年度（113、114年度）",
+   "page": 87,
+   "excerpts": [
+    "（四）最近二年度任一年度中曾占合併進（銷）貨總額百分之十以上之客戶名單：",
+    "2.主要進貨客戶：無。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-16",
+   "field": "raw_materials",
+   "statement": "年報載明公司並無生產產品，無原料之供應問題，上游供應商以五金、手工具製造商、家庭用品製造商、傢俱及辦公室用製造商及資訊產品製造商為主。",
+   "period": "截至114年度年報刊印日",
+   "page": 87,
+   "excerpts": [
+    "本公司並無生產產品，無原料之供應問題。",
+    "上游供應商以五金、手工具製造",
+    "商、家庭用品製造商、傢俱及辦公室用製造商及資訊產品製造商為主"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-17",
+   "field": "market_position",
+   "statement": "公司於年報自述特力公司為台灣最大的貿易公司，目前並無類似規模之其他競爭者。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "特力公司為台灣最大的貿易公司，目前並無類似規模之其他競爭者"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-18",
+   "field": "business_scope",
+   "statement": "年報載明截至114年12月底止，特力屋有28家店，特力屋小店有37家店。",
+   "period": "截至114年12月底",
+   "page": 84,
+   "excerpts": [
+    "截至114年12月底止，特力屋目前擁有28家店，特力屋小店擁有37家"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-19",
+   "field": "business_scope",
+   "statement": "年報載明截至114年12月底止，和樂家居有23家店。",
+   "period": "截至114年12月底",
+   "page": 84,
+   "excerpts": [
+    "截至114年12月底止",
+    "店，和樂家居則擁有 23家店"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-20",
+   "field": "revenue_mix",
+   "statement": "年報載明貿易業務114年度出貨金額達新台幣180.8億元。",
+   "period": "114年度（2025）",
+   "page": 77,
+   "excerpts": [
+    "貿易業務114年度出貨金額達新台幣180.8億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-21",
+   "field": "revenue_mix",
+   "statement": "年報載明採購代理業務114年度產生的佣金收入達新台幣2.5億元，約占整體貿易營收1.4%。",
+   "period": "114年度（2025）",
+   "page": 78,
+   "excerpts": [
+    "採購代理業務 114年度出貨金額達新台幣 82.5億元",
+    "此代理業務產生的佣",
+    "金收入則達新台幣2.5億元，佔整體貿易營收約1.4%。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-22",
+   "field": "revenue_mix",
+   "statement": "年報載明台灣零售114年度營收為新台幣122億元。",
+   "period": "114年度（2025）",
+   "page": 79,
+   "excerpts": [
+    "台灣零售114年度營收新台幣 122億元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-23",
+   "field": "history",
+   "statement": "年報載明114年度本集團完成首件子公司分拆公開發行案，旗下特力屋股份有限公司已正式登錄興櫃。",
+   "period": "114年度（2025）",
+   "page": 75,
+   "excerpts": [
+    "獨立子公司。 114",
+    "年度，本集團完成首件子公司分拆公開發行案，旗下特力屋股份有限公司已正",
+    "式登錄興櫃。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-24",
+   "field": "rd",
+   "statement": "年報載明公司為貿易、零售批發行業，並無技術與研發上之需要，故不適用。",
+   "period": "截至114年度年報刊印日",
+   "page": 82,
+   "excerpts": [
+    "本公司為貿易、零售批發行業，並無技術與研發上之需要，故",
+    "不適用。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  },
+  {
+   "id": "2908-AR-25",
+   "field": "outlook",
+   "statement": "年報載明集團貿易事業目標希望能成為台灣及中國之全球品牌代理經銷。",
+   "period": "截至114年度年報刊印日",
+   "page": 83,
+   "excerpts": [
+    "貿易事業目標希望能成為台",
+    "灣及中國之全球品牌代理經銷。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:28:12+00:00"
+   }
+  }
+ ]
+}

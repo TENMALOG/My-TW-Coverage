@@ -1,0 +1,615 @@
+{
+ "ticker": "7796",
+ "company": "擷發科",
+ "legal_name": "擷發科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7796&filename=2025_7796_20260629F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7796_20260629F04.pdf",
+  "text_sha256": "8b55058f7327bcaa56b26301fd03fe8d0f9c30a762d8e0c540a6b009c2ed4e77",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/8b55058f7327bcaa56b26301fd03fe8d0f9c30a762d8e0c540a6b009c2ed4e77.txt"
+ },
+ "facts": [
+  {
+   "id": "7796-AR-01",
+   "field": "established",
+   "statement": "年報股本形成經過表列示民國109年6月的股本來源為設立股本。",
+   "period": "民國109年6月",
+   "page": 37,
+   "excerpts": [
+    "109.6 10 10 400,000 4,000,000 150,000 1,500,000 設立股本"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-02",
+   "field": "headquarters",
+   "statement": "年報在中、長期發展計畫中載明，除新竹總部外，公司在高雄、上海、英國倫敦以及美國洛杉磯已設有服務據點。",
+   "period": "截至114年度年報刊印日",
+   "page": 47,
+   "excerpts": [
+    "除新竹總部外，在高雄、上海、英國倫敦以及美國洛杉磯都已設有服務據點"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-03",
+   "field": "business_scope",
+   "statement": "年報載明公司核心產品與服務涵蓋IC設計服務、AI系統設計服務，以及FPGA元件分銷與設計服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "擷發科技持續聚焦於核心產品與服務發展，涵蓋 IC 設計服務、AI 系統設計服務，以\n及 FPGA 元件分銷與設計服務。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-04",
+   "field": "products",
+   "statement": "公司於年報自述提供全面且專業的IC設計服務，涵蓋從架構設計、IP設計與選擇，到前後端設計、晶圓製造及測試與驗證等所有環節。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "本公司提供全面且專業的 IC 設計服務，涵蓋從架構設計、IP 設計與選擇、到前後\n端設計、晶圓製造及測試與驗證等所有環節"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-05",
+   "field": "products",
+   "statement": "公司於年報自述其AI系統設計服務提供端到端的解決方案，支援多種硬體平台，包括CPU+FPGA、SoC、CPU+NPU及GPU。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "端到端的解決方案，支援多種硬體平台，包括 CPU+FPGA、SoC、CPU+NPU 及\nGPU"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-06",
+   "field": "products",
+   "statement": "年報載明公司AI系統設計服務的服務範圍涵蓋硬體規劃、AI模型設計及優化、軟體開發、客製化系統整合服務及測試。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "提供之服務範圍涵\n蓋硬體規劃、AI 模型設計及優化、軟體開發、客製化系統整合服務及測試。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-07",
+   "field": "products",
+   "statement": "公司於年報自述代理美商Efinix, Inc.，提供多樣化且高品質的FPGA元件。",
+   "period": "截至114年度年報刊印日",
+   "page": 42,
+   "excerpts": [
+    "本公司代理美商 Efinix, Inc.提供多樣化且高品質的 FPGA 元件"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-08",
+   "field": "products",
+   "statement": "年報載明AIVO是由公司開發的系統級AI軟體平台，內建基於類神經網路架構的AI演算法。",
+   "period": "截至114年度年報刊印日",
+   "page": 43,
+   "excerpts": [
+    "AIVO 是由擷發開發的系統級 AI 軟體平台，內建基於類神經網路架構的 AI 演算\n法"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-09",
+   "field": "revenue_mix",
+   "statement": "114年度整合技術與服務營業收入淨額為新臺幣48,756千元，營業比重為99%。",
+   "period": "114年度（2025）",
+   "page": 41,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113年度 114年度",
+    "整合技術與服務(註1) (註2) 66,957 99% 48,756 99%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-10",
+   "field": "revenue_mix",
+   "statement": "114年度商品銷售及系統整合營業收入淨額為新臺幣536千元，營業比重為1%。",
+   "period": "114年度（2025）",
+   "page": 41,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113年度 114年度",
+    "商品銷售及系統整合(註1) (註2) 675 1% 536 1%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-11",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新臺幣10,074千元，占銷售地區表合計20%。",
+   "period": "114年度（2025）",
+   "page": 48,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "113年度 114年度",
+    "內銷 4,574 7% 10,074 20%",
+    "合計 67,632 100% 49,292 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-12",
+   "field": "export_share",
+   "statement": "114年度外銷金額為新臺幣39,218千元，占銷售地區表合計80%。",
+   "period": "114年度（2025）",
+   "page": 48,
+   "excerpts": [
+    "單位：新臺幣千元",
+    "113年度 114年度",
+    "外銷 63,058 93% 39,218 80%",
+    "合計 67,632 100% 49,292 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-13",
+   "field": "major_customers",
+   "statement": "114年度某客戶（甲公司）銷貨金額為新臺幣33,574千元，占銷貨淨額68%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "1 甲公司 62,856 93% 無 甲公司 33,574 68% 無",
+    "銷貨\n淨額 67,632 100% - 銷貨\n淨額 49,292 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-14",
+   "field": "major_customers",
+   "statement": "114年度某客戶（乙公司）銷貨金額為新臺幣8,027千元，占銷貨淨額16%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113 年度 114 年度",
+    "2 乙公司 2,850 4% 無 乙公司 8,027 16% 無",
+    "銷貨\n淨額 67,632 100% - 銷貨\n淨額 49,292 100%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度某供應商（甲廠商）進貨金額為新臺幣16,439千元，占進貨淨額97%。",
+   "period": "114年度（2025）",
+   "page": 54,
+   "excerpts": [
+    "單位：新臺幣千元；%",
+    "113年度 114 年度",
+    "1 甲廠商 25,201 95% 無 甲廠商 16,439 97% 無",
+    "進貨\n淨額 26,438 100 - 進貨\n淨額 17,013 100"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-16",
+   "field": "raw_materials",
+   "statement": "公司於年報自述，其以研發設計及設計服務為主，主要原物料係依客戶需求投產到晶圓廠，或依客戶FPGA需求量下單給元件供應商取貨，截至目前尚無供應商缺料之疑慮。",
+   "period": "截至114年度年報刊印日",
+   "page": 53,
+   "excerpts": [
+    "本公司以研發設計及設計服務為主，主要原物料以客戶需求投產到晶圓廠或依\n據客戶FPGA需求量，下單給元件供應商取貨，截至目前尚無供應商缺料之疑慮。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-17",
+   "field": "market_position",
+   "statement": "公司於年報引述工研院產科國際所研究報告，稱目前公司於整體IC設計市場之占有率仍屬有限。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "依據工研院產科國際所研究報告顯示，目前本公司於整體 IC 設計市場之占有率仍\n屬有限。"
+   ],
+   "attribution": "公司年報引述第三方資料",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-18",
+   "field": "market_position",
+   "statement": "公司於年報自述其市場定位在於高複雜度及先進製程的SoC設計服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "擷發科技的市場定位在於高複雜度及先進製程的 SoC 設計服務"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-19",
+   "field": "employees",
+   "statement": "員工人數表列示114年度員工人數合計為73人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 55,
+   "excerpts": [
+    "單位：人；年：%",
+    "113 年度 114 年度 截至 115年 4月 30日",
+    "合 計 50 73 88"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-20",
+   "field": "employees",
+   "statement": "員工人數表列示截至民國115年4月30日員工人數合計為88人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至115年4月30日",
+   "page": 55,
+   "excerpts": [
+    "單位：人；年：%",
+    "113 年度 114 年度 截至 115年 4月 30日",
+    "合 計 50 73 88"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-21",
+   "field": "rd",
+   "statement": "年報載明公司114年度投入之研發費用為新臺幣66,191仟元。",
+   "period": "114年度（2025）",
+   "page": 45,
+   "excerpts": [
+    "本公司 114 年度，投入之研發費用分別為新臺幣 66,191 仟元"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-22",
+   "field": "outlook",
+   "statement": "年報列示公司中、長期發展計畫之一為將AI軟體平台進一步擴展，使其可部署至邊緣硬體，並整合各項硬體資源形成叢集架構。",
+   "period": "截至114年度年報刊印日",
+   "page": 47,
+   "excerpts": [
+    "中、長期發展計畫",
+    "將 AI 軟體平台進一步擴展，使其可部署至邊緣硬體，並整合各項硬體資源形成叢\n集架構。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-23",
+   "field": "group_structure",
+   "statement": "公司於年報自述，高效運用塞席爾Microip Inc.母公司所開發的尖端EDA工具，如MAC架構編譯器與iPROfilerTM效能分析器。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "高效運用塞席爾 Microip Inc.母公司\n(以下簡稱:母公司)所開發的尖端 EDA 工具，如 MAC 架構編譯器與 iPROfilerTM\n效能分析器"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-24",
+   "field": "group_structure",
+   "statement": "董事及獨立董事資料表（民國115年5月1日）列示Microip Inc.現在持有股數為10,807,000股，持股比率為47.06%。",
+   "period": "民國115年5月1日",
+   "page": 7,
+   "excerpts": [
+    "董事及獨立董事資料 115 年 5 月 1 日",
+    "選任時持有股份 現在持有股數",
+    "Microip \nInc. - 114.2.18 3 年 112.3.6 11,011,000 47.95 10,807,000 47.06"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  },
+  {
+   "id": "7796-AR-25",
+   "field": "outlook",
+   "statement": "年報載明公司以AI相關業務營收占全年總營業額20%為年度目標。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "以 AI 相關業務營收占全年總營業額 20% 為年度目標"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:10+00:00"
+   }
+  }
+ ]
+}

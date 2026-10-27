@@ -1,0 +1,618 @@
+{
+ "ticker": "7840",
+ "company": "祥圃",
+ "legal_name": "祥圃實業股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7840&filename=2025_7840_20260629F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7840_20260629F04.pdf",
+  "text_sha256": "fd9da2aea68ffc70ec83cc69048e22139f1473ebb7bda76976cd12d64de5e718",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/fd9da2aea68ffc70ec83cc69048e22139f1473ebb7bda76976cd12d64de5e718.txt"
+ },
+ "facts": [
+  {
+   "id": "7840-AR-01",
+   "field": "business_scope",
+   "statement": "公司於年報載明，主要從事動物營養品、動物保健品、飼料添加物、豬隻及肉品之生產與製造。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "本公司主要從事動物營養品、動物保健品、飼料添加物、豬隻及肉品之生產與製造"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度動物營養品添加劑收入為新台幣1,066,423千元，占營業比重58.75%。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣千元",
+    "主要產品項目 113 年度 114 年度",
+    "營收淨額 營業比重 營收淨額 營業比重",
+    "動物營養品添加劑收入 1,093,532 58.63% 1,066,423 58.75%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度豬隻及肉類加工品收入為新台幣735,839千元，占營業比重40.54%。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣千元",
+    "主要產品項目 113 年度 114 年度",
+    "營收淨額 營業比重 營收淨額 營業比重",
+    "豬隻及肉類加工品收入 758,378 40.66% 735,839 40.54%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度其他營業收入為新台幣12,865千元，占營業比重0.71%。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣千元",
+    "主要產品項目 113 年度 114 年度",
+    "營收淨額 營業比重 營收淨額 營業比重",
+    "其他營業收入 13,332 0.71% 12,865 0.71%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-05",
+   "field": "revenue_mix",
+   "statement": "114年度營收淨額合計為新台幣1,815,127千元。",
+   "period": "114年度（2025）",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣千元",
+    "主要產品項目 113 年度 114 年度",
+    "營收淨額 營業比重 營收淨額 營業比重",
+    "合計 1,865,242 100.00% 1,815,127 100.00%"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-06",
+   "field": "products",
+   "statement": "公司於年報載明，動物營養品及飼料添加劑主要包含飼料原料、飼料添加劑及飼料預拌劑等。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "動物營養品及飼料添加劑：主要包含飼料原料、飼料添加劑及飼料預拌劑"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-07",
+   "field": "products",
+   "statement": "年報說明，在動物營養品及飼料添加劑類別中，飼料原料包含維生素、礦物質、乳製品、脂肪粉及其他大宗原料，飼料添加劑包含藥品及機能性產品，飼料預拌劑包含自有產品、客製或代工產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "飼料原\n料包含維生素、礦物質、乳製品、脂肪粉及其他大宗原料；飼料添加劑包含藥品及\n機能性產品；飼料預拌劑包含自有產品、客製或代工產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-08",
+   "field": "products",
+   "statement": "公司於年報載明，豬隻及肉類加工品主要包含飼養豬隻及豬肉產品分切及調理食品，包含自有產品及代工產品。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "豬隻及肉類加工品 ： 主要包含飼養豬隻及豬肉產品分切及調理食品 ， 包含了自有產\n品及代工產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-09",
+   "field": "outlook",
+   "statement": "公司於年報載明，在動物營養品及飼料添加劑領域將持續進行各種功能性添加劑的代理及自有產品開發，包含非藥抗、治療用藥品及自有品牌產品等。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "在動物營養品及飼料添加劑領域 ， 公司將持續進行各種功能性添加劑的代理及自有\n產品開發，包含非藥抗、治療用藥品及自有品牌產品"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-10",
+   "field": "sales_regions",
+   "statement": "114年度銷售地區表列示內銷金額為新台幣1,815,127千元，占總計100.00%。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "單位：新台幣千元",
+    "銷售地區 113 年度 114 年度",
+    "金額 % 金額 %",
+    "內銷 1,865,242 100.00 1,815,127 100.00",
+    "總計 1,865,242 100.00 1,815,127 100.00"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-11",
+   "field": "export_share",
+   "statement": "114年度銷售地區表中外銷之金額與百分比欄位均為「－」。",
+   "period": "114年度（2025）",
+   "page": 53,
+   "excerpts": [
+    "銷售地區 113 年度 114 年度",
+    "金額 % 金額 %",
+    "外銷 － － － －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-12",
+   "field": "sales_regions",
+   "statement": "公司年報載明，公司肉品部分皆為內需市場。",
+   "period": "截至114年度年報刊印日",
+   "page": 53,
+   "excerpts": [
+    "本公司肉品部份皆為內需巿場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-13",
+   "field": "major_customers",
+   "statement": "公司年報載明，最近二年度主要銷貨對象無占銷貨總額百分之十以上之客戶。",
+   "period": "最近二年度（截至114年度年報）",
+   "page": 56,
+   "excerpts": [
+    "本公司之主要銷貨對象最近二年度無佔銷貨總額百分之十以上之客戶"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-14",
+   "field": "major_customers",
+   "statement": "公司年報於「競爭情形」項下載明，祥圃產品主要銷售予飼料廠、畜禽及水產養殖場。",
+   "period": "截至114年度年報刊印日",
+   "page": 50,
+   "excerpts": [
+    "4.競爭情形：",
+    "祥圃產品主要銷售予飼料廠、畜禽及水產養殖場"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-15",
+   "field": "major_suppliers",
+   "statement": "年報供應商表列示供應商「P1 公司」（年報以代號呈現），114年度進貨金額為新台幣252,475千元，占全年度進貨淨額21.10%，與發行人之關係欄為「－」。",
+   "period": "114年度（2025）",
+   "page": 55,
+   "excerpts": [
+    "單位：新台幣千元；%",
+    "年度 113 年度 114 年度",
+    "供應商名稱及其進貨金額與比",
+    "占全年度\n進貨淨額\n比率(%) \n與發行人\n之關係",
+    "1 P1 公司 290,247 22.46% － P1 公司 252,475 21.10% －"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-16",
+   "field": "major_suppliers",
+   "statement": "公司於年報自述，供應商P1公司為全球頂尖動物營養品集團在臺灣設立之子公司，其母公司總部位於歐洲，是全球最大的維生素、類胡蘿蔔素及其他精細化工產品供應商。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "P1 公司為全球頂尖動物營養品集團在臺灣設立之子公司，其母公司總部位於歐\n洲，是全球最大的維生素、類胡蘿蔔素及其他精細化工產品供應商"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-17",
+   "field": "raw_materials",
+   "statement": "公司年報載明，動物營養品及飼料添加劑主要原料有維生素、礦物質、酵素、益生菌以及其他機能性添加劑。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "動物營養品\n及飼料添加劑主要原料有維生素、礦物質、酵素、益生菌以及其他機能性添加劑"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-18",
+   "field": "raw_materials",
+   "statement": "公司年報載明，豬隻養殖所需飼料之主要原物料為玉米及黃豆，肉品分切主要為豬隻。",
+   "period": "截至114年度年報刊印日",
+   "page": 55,
+   "excerpts": [
+    "豬\n隻養殖所需飼料之主要原物料為玉米及黃豆，肉品分切主要為豬隻"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-19",
+   "field": "market_position",
+   "statement": "公司於年報自述，祥圃實業是臺灣著名的豬肉產業垂直整合開創者，核心模式為打造從「農場到餐桌」的六級化產業鏈。",
+   "period": "截至114年度年報刊印日",
+   "page": 48,
+   "excerpts": [
+    "祥圃實業是 臺灣著\n名的豬肉產業垂直整合開創者 ，核心模式為打造從「農場到餐桌」的六級化產業\n鏈"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-20",
+   "field": "market_position",
+   "statement": "公司於年報自述，與荷商動物營養品大廠公司DSM–Firmenich集團策略聯盟，興建歐規標準廠房，成為全臺第一家「無藥預拌劑廠」。",
+   "period": "截至114年度年報刊印日",
+   "page": 49,
+   "excerpts": [
+    "與荷商動物營養品大廠公司 DSM–Firmenich 集團策略聯盟，\n興建歐規標準廠房，成為全臺第一家「無藥預拌劑廠」"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-21",
+   "field": "employees",
+   "statement": "114年度員工人數合計為267人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 56,
+   "excerpts": [
+    "單位：人；歲；年；%",
+    "年度 113年度 114年度 115年截至",
+    "合計 242 267 264"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-22",
+   "field": "rd",
+   "statement": "114年度研究發展費用為新台幣3,081千元。",
+   "period": "114年度（2025）",
+   "page": 51,
+   "excerpts": [
+    "單位：新台幣千元",
+    "項目 110 年度 111 年度 112 年度 113 年度 114 年度",
+    "研究發展費用(A) 3,805 3,467 3,679 2,842 3,081"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-23",
+   "field": "group_structure",
+   "statement": "年報「轉投資事業」表列示旭圃股份有限公司（主要營業為豬隻飼養）及品鮮璞食股份有限公司（主要營業為餐廳與門市經營）等。",
+   "period": "114年度（2025）",
+   "page": 66,
+   "excerpts": [
+    "轉投資事業 主要營業 114年度",
+    "旭圃股份有限公司 豬隻飼養",
+    "品鮮璞食股份有限公司 餐廳與門市\n經營"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-24",
+   "field": "headquarters",
+   "statement": "公司年報載明，總公司地址為臺北市中山區松江路146號8樓之2。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司   地址：臺北市中山區松江路 146 號 8 樓之 2"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  },
+  {
+   "id": "7840-AR-25",
+   "field": "outlook",
+   "statement": "公司於年報載明，短期業務發展計畫包括提升農場客戶的市佔率、海外市場的資訊收集及評估、國內原料的開發及商品化、品牌產品的開發及推廣。",
+   "period": "截至114年度年報刊印日",
+   "page": 53,
+   "excerpts": [
+    "(1)短期業務發展計畫： \nA. 提升農場客戶的市佔率。 \nB. 海外市場的資訊收集及評估。 \nC. 國內原料的開發及商品化。 \nD. 品牌產品的開發及推廣"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:11+00:00"
+   }
+  }
+ ]
+}

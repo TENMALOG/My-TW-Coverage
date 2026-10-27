@@ -1,0 +1,607 @@
+{
+ "ticker": "7745",
+ "company": "紅陽",
+ "legal_name": "紅陽科技股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7745&filename=2025_7745_20260616F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7745_20260616F04.pdf",
+  "text_sha256": "9d82ac238f5210b63bdc61e9f9474a1b5f3b67b5f4708974da3be61c9e1b1c35",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/9d82ac238f5210b63bdc61e9f9474a1b5f3b67b5f4708974da3be61c9e1b1c35.txt"
+ },
+ "facts": [
+  {
+   "id": "7745-AR-01",
+   "field": "revenue_mix",
+   "statement": "114年度手續費收入為新台幣167,023仟元，營業比重為91.99%。",
+   "period": "114年度",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元；% \n         年度                         \n項目 \n113年度 114年度 \n銷售金額 營業比重 銷售金額 營業比重",
+    "手續費收入 209,128 95.01 167,023 91.99 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-02",
+   "field": "revenue_mix",
+   "statement": "114年度年費收入為新台幣3,954仟元，營業比重為2.18%。",
+   "period": "114年度",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元；% \n         年度                         \n項目 \n113年度 114年度 \n銷售金額 營業比重 銷售金額 營業比重",
+    "年費收入 5,190 2.36 3,954 2.18 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-03",
+   "field": "revenue_mix",
+   "statement": "114年度租賃收入為新台幣3,957仟元，營業比重為2.18%。",
+   "period": "114年度",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元；% \n         年度                         \n項目 \n113年度 114年度 \n銷售金額 營業比重 銷售金額 營業比重",
+    "租賃收入 - - 3,957 2.18 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-04",
+   "field": "revenue_mix",
+   "statement": "114年度其他項目之銷售金額為新台幣6,630仟元，營業比重為3.65%。",
+   "period": "114年度",
+   "page": 46,
+   "excerpts": [
+    "單位：新台幣仟元；% \n         年度                         \n項目 \n113年度 114年度 \n銷售金額 營業比重 銷售金額 營業比重",
+    "其他 5,793 2.63 6,630 3.65 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-05",
+   "field": "business_scope",
+   "statement": "公司主要從事代收代付之第三方支付業務，提供線上、線下及現金類金融收付解決方案。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "本公司主要從事代收代付之第三方支付業務 ， 提供線上 、 線下及現金類全方位金融\n收付解決方案，主要提供以下服務："
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-06",
+   "field": "products",
+   "statement": "公司提供電子式票券服務，整合銀行信託履約保證、QRcode防偽、金流支付與電子發票等功能。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "(2)票券銷售 \n本公司結合銀行信託履約保證並整合系統商 QRcode 防偽專利 ， 改善紙本票券的\n環保污染及儲存盤點的缺點 ， 提供電子式票券服務 ， 加上金流支付與電子發票服\n務 ， 可一站式提供商店發行電子票券 ， 解決中小型商店無法發行電子票券及昂貴\n信託擔保金"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-07",
+   "field": "products",
+   "statement": "公司之應收帳款債權受讓業務主要採有追索權債權轉讓，債務人無法支付時，轉讓方須回購債權。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "本公司主要以有追索權債權轉讓 （With Recourse） 出讓\n的特約商店仍需對應收帳款的回收負責 ， 若債務人無法支付 ， 轉讓方須回購債權"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-08",
+   "field": "products",
+   "statement": "公司之線下多元支付刷卡機提供信用卡一次性支付、電子支付與電子發票，並可擴充串接簡易POS機功能。",
+   "period": "截至114年度年報刊印日",
+   "page": 46,
+   "excerpts": [
+    "(4)線下多元支付刷卡機 \n提供多種支付方式 ， 包括信用卡一次性 、 電子支付(共用 QRcode)、 電子發票及可\n擴充串接簡易 POS 機功能，以滿足餐飲業的支付需求。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-09",
+   "field": "sales_regions",
+   "statement": "114年度內銷金額為新台幣181,564仟元，占主要產品服務銷售地區表合計100.00%。",
+   "period": "114年度",
+   "page": 54,
+   "excerpts": [
+    "1. 主要產品(服務)之銷售(提供)地區 \n單位：新台幣仟元 \n年度 \n銷售區域 \n113 年度 114 年度 \n金額 % 金額 %",
+    "內 銷 220,111 100.00 181,564 100.00 ",
+    "合  計 220,111 100.00 181,564 100.00 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-10",
+   "field": "major_suppliers",
+   "statement": "113年度向聯信進貨新台幣80,768仟元，占全年度進貨淨額51.81%，與發行人之關係列為無。",
+   "period": "113年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "1 聯信 80,768 51.81 無 聯信 68,147 53.67 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-11",
+   "field": "major_suppliers",
+   "statement": "113年度向第一銀行進貨新台幣23,074仟元，占全年度進貨淨額14.80%，與發行人之關係列為無。",
+   "period": "113年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "2 第一銀行 23,074 14.80 無 台新銀行 22,932 18.06 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-12",
+   "field": "major_suppliers",
+   "statement": "113年度向凱基銀行進貨新台幣19,548仟元，占全年度進貨淨額12.54%，與發行人之關係列為無。",
+   "period": "113年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "3 凱基銀行 19,548 12.54 無 聯邦銀行 17,071 13.45 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-13",
+   "field": "major_suppliers",
+   "statement": "114年度向聯信進貨新台幣68,147仟元，占全年度進貨淨額53.67%，與發行人之關係列為無。",
+   "period": "114年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "1 聯信 80,768 51.81 無 聯信 68,147 53.67 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-14",
+   "field": "major_suppliers",
+   "statement": "114年度向台新銀行進貨新台幣22,932仟元，占全年度進貨淨額18.06%，與發行人之關係列為無。",
+   "period": "114年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "2 第一銀行 23,074 14.80 無 台新銀行 22,932 18.06 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-15",
+   "field": "major_suppliers",
+   "statement": "114年度向聯邦銀行進貨新台幣17,071仟元，占全年度進貨淨額13.45%，與發行人之關係列為無。",
+   "period": "114年度",
+   "page": 58,
+   "excerpts": [
+    "1. 最近二年度主要供應商資料  \n單位：新台幣仟元；% \n項\n目 \n113 年度 114 年度 \n名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係 名稱 金額 占全年度進\n貨淨額比率 \n與發行人\n之關係",
+    "3 凱基銀行 19,548 12.54 無 聯邦銀行 17,071 13.45 無 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-16",
+   "field": "raw_materials",
+   "statement": "公司收付服務之主要成本項目為支付給金融機構之手續費支出，收付服務由金融機構及四大便利超商等上游服務商提供。",
+   "period": "截至114年度年報刊印日",
+   "page": 57,
+   "excerpts": [
+    "本公司為第三方支付服務業者，包括線上信用卡與非信用卡金流業務及線下（刷卡\n設備）交易，主要成本項目為支付給金融機構之手續費支出，故本公司收付服務係\n由長期穩定合作且信譽良好的金融機構及四大便利超商等上游服務商所提供"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-17",
+   "field": "market_position",
+   "statement": "公司於年報自述，114年度代理收付交易金額占經濟部統計處公布之同年度零售業網路銷售金額0.99%。",
+   "period": "114年度",
+   "page": 54,
+   "excerpts": [
+    "本公司 114 年度代\n理收付交易金額為 66.3 億元，根據經濟部統計處公布 114 年度零售業網路銷\n售金額為 6,716 億元，本公司占比為 0.99%。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-18",
+   "field": "employees",
+   "statement": "114年度員工人數表合計為42人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度",
+   "page": 58,
+   "excerpts": [
+    "三、最近二年度及截至年報刊印日止從業員工資訊  \n單位：人；歲；年；%  \n年度 113 年度 114 年度 115 年 4 月 30 日",
+    "合    計 38 42 41 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-19",
+   "field": "rd",
+   "statement": "114年研發費用為新台幣0仟元。",
+   "period": "114年",
+   "page": 51,
+   "excerpts": [
+    "1.最近年度及截至年報刊印日止，投入之研發費用： \n單位：新台幣仟元 \n項目 114 年 115 年 4 月 30 日",
+    "研發費用 0 3,242 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-20",
+   "field": "rd",
+   "statement": "115年截至4月30日之研發費用為新台幣3,242仟元。",
+   "period": "115年截至4月30日",
+   "page": 51,
+   "excerpts": [
+    "1.最近年度及截至年報刊印日止，投入之研發費用： \n單位：新台幣仟元 \n項目 114 年 115 年 4 月 30 日",
+    "研發費用 0 3,242 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-21",
+   "field": "outlook",
+   "statement": "公司短期電商金流計畫包括結合雲端POS機、開店平台、捐款平台及動態貨幣轉換等附加功能服務。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "1. 短期業務發展計畫",
+    "(1) 電商金流 \n以現況『MSTS 全方位金流服務』將代收代付、電子發票、多元支付 EDC\n刷卡服務，結合開發雲端功能 POS 機、開店平台、捐款平台、電子票券平\n台、無卡分期串接及動態貨幣轉換(Dynamic Currency Conversion DCC)等附\n加功能服務發展。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-22",
+   "field": "outlook",
+   "statement": "公司長期業務發展計畫包括結合社群軟體、多元支付及電子票券模組，建構生成式AI協助商戶進行社群推廣等行銷活動。",
+   "period": "截至114年度年報刊印日",
+   "page": 53,
+   "excerpts": [
+    "2. 長期業務發展計畫 \n(1) 會員管理行銷平台+金流+電子票券+生成式 AI 運用 \n本公司多年經營深耕線下商戶，蒐集線下商戶痛點，投入發展結合國內社\n群軟體、多元支付串接、電子票券模組化，並在大股東光聚晶電聯合生成\n式 AI 發展支持背景下，建構生成式 AI 幫助商戶以社群推廣、MGM 等行\n銷、活動方式增加其會員"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-23",
+   "field": "headquarters",
+   "statement": "公司總公司地址為台北市大安區敦化南路二段65號13樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總 公司地址：  台北市大安區敦化南路二段 65 號 13 樓 "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-24",
+   "field": "group_structure",
+   "statement": "114年12月31日，公司對紅陽支付(股)公司之直接及間接投資持股比例為100%。",
+   "period": "114年12月31日",
+   "page": 40,
+   "excerpts": [
+    "114 年 12 月 31 日；單位：千股；% \n轉投資事業 \n本公司直接及間接投資 董事、監察人、經理人及直\n接或間接控制事業之投資 綜合投資 \n股數 持股比例 股數 持股比例 股數 持股比例",
+    "紅陽支付(股)公司 10,100 100% - - 10,100 100% "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  },
+  {
+   "id": "7745-AR-25",
+   "field": "group_structure",
+   "statement": "114年12月31日，公司對聲聯網(股)公司之直接及間接投資持股比例為100%。",
+   "period": "114年12月31日",
+   "page": 40,
+   "excerpts": [
+    "114 年 12 月 31 日；單位：千股；% \n轉投資事業 \n本公司直接及間接投資 董事、監察人、經理人及直\n接或間接控制事業之投資 綜合投資 \n股數 持股比例 股數 持股比例 股數 持股比例",
+    "聲聯網(股)公司 282 100% - - 282 100% "
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T18:29:09+00:00"
+   }
+  }
+ ]
+}

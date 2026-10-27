@@ -1,0 +1,614 @@
+{
+ "ticker": "7891",
+ "company": "博研醫藥",
+ "legal_name": "博研醫藥開發股份有限公司",
+ "source": {
+  "citation_url": "https://doc.twse.com.tw/server-java/t57sb01?step=9&kind=F&co_id=7891&filename=2025_7891_20260630F04.pdf",
+  "fy": 2025,
+  "filename": "2025_7891_20260630F04.pdf",
+  "text_sha256": "5d1d49e965b990eb91bbb0e2e347bb3169b63586f304cf80b0cbc0653c56412d",
+  "text_path": "audit-v5/source-cache/research-site/mops-annual/5d1d49e965b990eb91bbb0e2e347bb3169b63586f304cf80b0cbc0653c56412d.txt"
+ },
+ "facts": [
+  {
+   "id": "7891-AR-01",
+   "field": "revenue_mix",
+   "statement": "年報載明本公司處於新藥研發階段，目前尚無營業收入。",
+   "period": "截至114年度年報刊印日",
+   "page": 51,
+   "excerpts": [
+    "2.公司目前主要服務之營業比重:本公司處新藥研發階段，尚無營業收入。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-02",
+   "field": "business_scope",
+   "statement": "本公司主要從事新藥之研發，專注於急性血液癌症、其他癌症及自體免疫疾病相關藥物的研發。",
+   "period": "截至114年度年報刊印日",
+   "page": 51,
+   "excerpts": [
+    "本公司主要係從事新藥之研發，致力於研究及開發具迫切醫療需求的藥品，專注",
+    "於急性血液癌症、其他癌症及自體免疫疾病相關藥物的研發"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-03",
+   "field": "products",
+   "statement": "年報載明本公司目前有三項研發產品計畫：BY-101、BY-102、BY-103。",
+   "period": "截至114年度年報刊印日",
+   "page": 51,
+   "excerpts": [
+    "本公司目前有三項研發產品計畫：BY-101、BY-102、BY-103。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-04",
+   "field": "products",
+   "statement": "年報產品用途表載明BY-101的活性成分為Clofarabine，主要適應症為急性骨髓性白血病，研究進度為台灣臨床二期進行中。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "產品專案名稱 活性成分 主要適應症 研究進度",
+    "BY-101 Clofarabine 急性骨髓性白血病  台灣臨床二期 \n進行中"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-05",
+   "field": "products",
+   "statement": "年報產品用途表載明BY-102的活性成分為BYT-1007，主要適應症為多發性硬化症，研究進度為澳洲臨床一期準備中。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "產品專案名稱 活性成分 主要適應症 研究進度",
+    "BY-102 BYT-1007 多發性硬化症 澳洲臨床一期 \n準備中"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-06",
+   "field": "products",
+   "statement": "年報產品用途表載明BY-103的活性成分為BYT-1007，主要適應症為急性骨髓性白血病，研究進度為澳洲臨床一期準備中。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "產品專案名稱 活性成分 主要適應症 研究進度",
+    "BY-103 BYT-1007 急性骨髓性白血病  澳洲臨床一期 \n準備中"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-07",
+   "field": "products",
+   "statement": "年報載明BY-101研發計畫已獲美國FDA孤兒藥資格認定，目前於台灣啟動第二期多中心臨床試驗。",
+   "period": "截至114年度年報刊印日",
+   "page": 52,
+   "excerpts": [
+    "本公司所開發之 BY-101 產品，為一種濃縮輸注型 clofarabine 注射",
+    "該研發計畫已獲美國 FDA 孤兒藥\n資格認定，目前於台灣啟動第二期多中心"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-08",
+   "field": "major_customers",
+   "statement": "年報載明截至年報刊印日止本公司仍處於新藥研發階段、無營業收入，主要進銷貨客戶名單不適用。",
+   "period": "截至114年度年報刊印日",
+   "page": 63,
+   "excerpts": [
+    "9. 主要進銷貨客戶名單",
+    "截至年報刊印日止仍尚在研發階段，無營業收 \n入，故不適用。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-09",
+   "field": "major_suppliers",
+   "statement": "年報重要契約表列有委託製造生產契約，當事人為「日本 S 公司」（年報以代號表示），主要內容為 Development and CTM Manufacturing 與 CTM stability test。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "契約性質 當事人 契約起訖日期 主要內容 限制條款",
+    "委託製造  \n生產 日本 S 公司",
+    "Development and CTM \nManufacturing \nCTM stability test"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-10",
+   "field": "major_suppliers",
+   "statement": "年報重要契約表列有委託合約，當事人為「台灣 B 公司」（年報以代號表示），主要內容為委託擔任 CRO 執行臨床試驗。",
+   "period": "截至114年度年報刊印日",
+   "page": 65,
+   "excerpts": [
+    "契約性質 當事人 契約起訖日期 主要內容 限制條款",
+    "委託合約 台灣 B 公司 112/03/01~116/03/01 委託擔任 CRO 執行臨床\n試驗"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-11",
+   "field": "raw_materials",
+   "statement": "公司於年報自述BY-101與BY-102/BY-103所需之活性成分及臨床試驗藥品，目前均由經過嚴格篩選且具備國際合規資格的合作廠商供應。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "本公司新藥產品 BY-101 與 BY-102 /BY-103 所需之活性成分及臨床試\n驗藥品，目前均由經過嚴格篩選且具備國際合規資格的合作廠商供應。"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-12",
+   "field": "capacity_or_production",
+   "statement": "年報載明本公司尚未自行設置藥品製造廠房或設備，採取委外生產模式，將活性成分（API）與臨床試驗用製劑（DP）交由合作廠商執行。",
+   "period": "截至114年度年報刊印日",
+   "page": 62,
+   "excerpts": [
+    "尚未自行設置藥品製造廠房或設\n備。",
+    "本公司採取委外生產模式，將活\n性成分（Active Pharmaceutical Ingredient ；API）與臨床試驗用製劑（ Drug \nProduct；DP）交由具備國際藥品優良製造規範（ cGMP 或 PIC/S GMP ）資\n格之合作廠商執行。"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-13",
+   "field": "market_position",
+   "statement": "年報載明本公司各項研發專案仍處於臨床試驗開發階段，尚未取得上市許可或進入商業化銷售市場，故現階段尚無法提供市場占有率之分析或比較。",
+   "period": "截至114年度年報刊印日",
+   "page": 60,
+   "excerpts": [
+    "惟各項研發專案均仍處於臨\n床試驗開發階段，尚未取得上市許可或進入商業化銷售市場，故現階段尚無法\n提供市場占有率之分析或比較"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-14",
+   "field": "outlook",
+   "statement": "年報載明本公司目前仍處於臨床試驗階段、尚未產生新藥相關營收，並稱主要獲利模式來自授權金及權利金的收取。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "本公司係屬新藥研發公司，目前仍處於臨床試驗階段，尚未產生新藥相關營收",
+    "主要獲利模式來自授權金及權利金的收取"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-15",
+   "field": "employees",
+   "statement": "114年度員工人數合計為12人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "114年度（2025）",
+   "page": 63,
+   "excerpts": [
+    "單位:人﹔歲﹔年﹔%",
+    "年度 113年度 114年度 截至115年5月31日",
+    "員工 \n人數 \n管 理 人 員  4 5 5 \n一 般 職 員  7 7 6 \n合 計  11 12 11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-16",
+   "field": "employees",
+   "statement": "截至115年5月31日員工人數合計為11人（員工人數表未載明為母公司或合併範圍）。",
+   "period": "截至115年5月31日",
+   "page": 63,
+   "excerpts": [
+    "單位:人﹔歲﹔年﹔%",
+    "年度 113年度 114年度 截至115年5月31日",
+    "員工 \n人數 \n管 理 人 員  4 5 5 \n一 般 職 員  7 7 6 \n合 計  11 12 11"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-17",
+   "field": "rd",
+   "statement": "114年度研發費用為新台幣23,369仟元。",
+   "period": "114年度（2025）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 109 年度  110 年度 111 年度 112 年度 113 年度 114 年度",
+    "研發費用 1,180  6,124 12,668 11,733 27,276 23,369"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-18",
+   "field": "rd",
+   "statement": "113年度研發費用為新台幣27,276仟元。",
+   "period": "113年度（2024）",
+   "page": 59,
+   "excerpts": [
+    "單位：新台幣仟元",
+    "項目 109 年度  110 年度 111 年度 112 年度 113 年度 114 年度",
+    "研發費用 1,180  6,124 12,668 11,733 27,276 23,369"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-19",
+   "field": "rd",
+   "statement": "公司於年報自述運用自創之 Pro-ZAP 合成技術平台，將既有抗癌學名藥轉化為具新化學結構的「前驅藥物」，並取得智慧財產權專利保護。",
+   "period": "截至114年度年報刊印日",
+   "page": 61,
+   "excerpts": [
+    "本公司運用自創之 Pro-ZAP 合成技術平台，將既有抗癌學名藥轉化為具新\n化學結構的「前驅藥物」，並取得智慧財產權專利保護"
+   ],
+   "attribution": "公司年報自述（未經獨立驗證的排名或評價）",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-20",
+   "field": "outlook",
+   "statement": "年報載明BY-101短期業務發展計畫為推進急性骨髓性白血病（AML）新藥BY-101第二期臨床試驗，並完成受試者收案與試驗執行。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "BY-101 (Clofarabine): \n   (1) 短期業務發展計畫:",
+    "推進急性骨髓性白血病（AML）新藥 BY-101 第二期臨床試驗，並完成受 \n 試者收案與試驗執行"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-21",
+   "field": "outlook",
+   "statement": "年報載明BY-101長期業務發展計畫包括依據第二期試驗成果，推進BY-101至第三期多國、多中心臨床試驗階段，並於試驗設計階段與美國FDA進行SPA協商，以加速藥品開發進程。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "(2) 長期業務發展計畫:",
+    "依據第二期試驗成果，推進 BY-101至第三期多國、多中心臨床試驗階段， \n  並於試驗設計階段與美國 FDA 進行 SPA 協商，以加速藥品開發進程"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-22",
+   "field": "outlook",
+   "statement": "年報載明BY-102/BY-103（BYT-1007）短期業務發展計畫為啟動BYT-1007於我國或海外第一期臨床試驗，並完成受試者的入組作業。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "BY-102/BY-103 (BYT-1007): \n          (1) 短期業務發展計畫:",
+    "啟動 BYT-1007於我國或海外第一期臨床試驗，並完成受試者的入組作業"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-23",
+   "field": "outlook",
+   "statement": "年報載明BY-102/BY-103（BYT-1007）長期業務發展計畫包括完成BYT-1007第一期試驗資料的整合與臨床研究報告，以及啟動BYT-1007第二期初步試驗，進行劑量探索與初步療效評估。",
+   "period": "截至114年度年報刊印日",
+   "page": 7,
+   "excerpts": [
+    "BY-102/BY-103 (BYT-1007):",
+    "(2) 長期業務發展計畫:",
+    "完成 BYT-1007第一期試驗資料的整合與臨床研究報告",
+    "啟動 BYT-1007第二期初步試驗，進行劑量探索與初步療效評估"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-24",
+   "field": "group_structure",
+   "statement": "年報載明為因應新藥在澳洲的臨床試驗，本公司董事會已通過在澳洲成立子公司。",
+   "period": "截至114年度年報刊印日",
+   "page": 68,
+   "excerpts": [
+    "為因應新藥在澳洲的臨床試驗，本公司董事會已通過在澳洲成立子公司"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  },
+  {
+   "id": "7891-AR-25",
+   "field": "headquarters",
+   "statement": "年報載明本公司總公司地址為台北市信義區基隆路一段333號12樓。",
+   "period": "截至114年度年報刊印日",
+   "page": 2,
+   "excerpts": [
+    "總公司地址：台北市信義區基隆路一段333號12樓"
+   ],
+   "attribution": "公司年報揭露",
+   "verification": {
+    "status": "PASS",
+    "checks": {
+     "source_hash": true,
+     "excerpt_found": true,
+     "page_match": true,
+     "numbers_supported": true,
+     "identity": true
+    },
+    "notes": [],
+    "verified_at": "2026-10-25T19:06:57+00:00"
+   }
+  }
+ ]
+}
