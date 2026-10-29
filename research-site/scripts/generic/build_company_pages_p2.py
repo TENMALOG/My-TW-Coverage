@@ -16,7 +16,10 @@ Outputs: chapters/p2/index.qmd, chapters/p2/industry-{code}.qmd, chapters/p2/{ti
 _generated/p2-book-parts.json, _generated/_quarto-with-p2.yml (a copy of _quarto.yml with the P2 section inserted
 before the company index) and _generated/p2-pages-build-log.jsonl.
 
-  python research-site/scripts/generic/build_company_pages_p2.py [--tickers T ...]
+  python research-site/scripts/generic/build_company_pages_p2.py [--tickers T ...] [--check]
+
+--check (run by check_site.py) writes nothing: it regenerates every page in memory and fails when a page on disk
+differs or research-site/_quarto.yml does not list exactly the generated P2 section.
 """
 from __future__ import annotations
 
@@ -246,7 +249,16 @@ def render_page(row, d, ind_code, ind_name, fin, facts_result) -> tuple[str, dic
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument('--tickers', nargs='*', default=None)
+    ap.add_argument('--check', action='store_true', help='compare with the files on disk instead of writing')
     a = ap.parse_args(argv)
+    differ = []
+
+    def emit(path: Path, text: str):
+        if a.check:
+            if not path.exists() or path.read_text(encoding='utf-8') != text:
+                differ.append(path.relative_to(SITE).as_posix())
+        else:
+            path.write_text(text, encoding='utf-8', newline='\n')
     directory = {c['ticker']: c for c in json.loads(DIRECTORY.read_text(encoding='utf-8'))['companies']}
     code_names, isin_only = industry_names_official(directory)
     rows = p2_companies()
@@ -268,7 +280,7 @@ def main(argv=None):
             continue
         facts_result = load_facts(tk, r['company'], accepted)
         text, st = render_page(r, d, code, name, fins.get(tk), facts_result)
-        (OUTDIR / f'{tk}.qmd').write_text(text, encoding='utf-8', newline='\n')
+        emit(OUTDIR / f'{tk}.qmd', text)
         stats_all.append(st)
     stats = {s['ticker']: s for s in stats_all}
     if a.tickers:
@@ -289,7 +301,7 @@ def main(argv=None):
             src = {'annual': '年報', 'prospectus': '公開說明書', None: '—'}[s['source_kind']]
             L.append(f'| {m["ticker"]} | [{md_escape(m["company"])}]({m["ticker"]}.qmd) | {md_escape(directory[m["ticker"]]["market"])} '
                      f'| {src} | {s["facts_shown"]} |')
-        (OUTDIR / f'industry-{code}.qmd').write_text('\n'.join(L) + '\n', encoding='utf-8', newline='\n')
+        emit(OUTDIR / f'industry-{code}.qmd', '\n'.join(L) + '\n')
         parts.append({'title': f'新增公司：{name}',
                       'chapters': [f'chapters/p2/industry-{code}.qmd'] + [f'chapters/p2/{m["ticker"]}.qmd' for m in members]})
     c = Counter(s['source_kind'] for s in stats_all)
@@ -306,17 +318,26 @@ def main(argv=None):
     for (code, name), members in order:
         idx.append(f'| [{md_escape(name)}](industry-{code}.qmd) | {len(members)} | '
                    f'{sum(1 for m in members if stats[m["ticker"]]["facts_shown"])} |')
-    (OUTDIR / 'index.qmd').write_text('\n'.join(idx) + '\n', encoding='utf-8', newline='\n')
-    PARTS.write_text(json.dumps({'intro': 'chapters/p2/index.qmd', 'parts': parts}, ensure_ascii=False, indent=1),
-                     encoding='utf-8')
-    # research-site/_quarto.yml already holds the merged chapter list and is never modified: write a copy with the
-    # P2 section inserted before the company index, for a local render or a later, approved swap
+    emit(OUTDIR / 'index.qmd', '\n'.join(idx) + '\n')
+    # copy of research-site/_quarto.yml with the P2 section (re)inserted before the company index; since the
+    # chairman's approval (2026-10-27) _quarto.yml itself carries the section, so in --check mode the two must match
     q = (SITE / '_quarto.yml').read_text(encoding='utf-8').splitlines()
     at = q.index('    - index-companies.qmd')
+    start = q.index('    - chapters/p2/index.qmd') if '    - chapters/p2/index.qmd' in q else at
     block = ['    - chapters/p2/index.qmd']
     for p in parts:
         block += [f'    - part: "{p["title"]}"', '      chapters:'] + [f'        - {c}' for c in p['chapters']]
-    QUARTO_COPY.write_text('\n'.join(q[:at] + block + q[at:]) + '\n', encoding='utf-8', newline='\n')
+    merged = '\n'.join(q[:start] + block + q[at:]) + '\n'
+    if a.check:
+        if (SITE / '_quarto.yml').read_text(encoding='utf-8') != merged:
+            differ.append('_quarto.yml (P2 section)')
+        print(f'P2 pages regenerated in memory: {len(stats_all) + len(order) + 1}; differing from disk: {len(differ)} {differ[:5]}')
+        if differ:
+            raise SystemExit(1)
+        return stats_all
+    PARTS.write_text(json.dumps({'intro': 'chapters/p2/index.qmd', 'parts': parts}, ensure_ascii=False, indent=1),
+                     encoding='utf-8')
+    QUARTO_COPY.write_text(merged, encoding='utf-8', newline='\n')
     with open(LOG, 'w', encoding='utf-8', newline='\n') as fh:
         for s in stats_all:
             fh.write(json.dumps(s, ensure_ascii=False) + '\n')

@@ -3,7 +3,8 @@
 Hard checks
   1. Every 〔…〕 marker in the manuscripts resolves in ref-map.json; no marker survives in _site HTML text.
   2. Every company-research fact excerpt is re-located in its snapshot (re-runs build_aero_facts.py).
-  3. Identity gate for company pages (re-runs build_company_pages.py).
+  3. Identity gate for company pages (re-runs build_company_pages.py); the P2 section is regenerated in memory
+     (build_company_pages_p2.py --check) and must equal the pages on disk and the section listed in _quarto.yml.
   4. Internal links and #anchors in _site resolve.
   5. Protected files (baseline.json, 7,361 files) and the 6 frozen delivery files are unchanged.
 Soft check (listed for human confirmation, not a failure)
@@ -66,8 +67,8 @@ def check_markers():
             failures.append(f'unconverted marker in {html.relative_to(SITE)}')
 
 
-def rerun(script):
-    r = subprocess.run([PY, '-X', 'utf8', str(SITE / 'scripts' / script)], capture_output=True, text=True, encoding='utf-8')
+def rerun(script, *args):
+    r = subprocess.run([PY, '-X', 'utf8', str(SITE / 'scripts' / script), *args], capture_output=True, text=True, encoding='utf-8')
     if r.returncode != 0:
         failures.append(f'{script} failed: {(r.stdout + r.stderr).strip()[-300:]}')
 
@@ -174,6 +175,7 @@ def main():
     check_markers()
     rerun('build_aero_facts.py')
     rerun('build_company_pages.py')
+    rerun('generic/build_company_pages_p2.py', '--check')
     check_links()
     check_protected()
     unmatched = number_trace()
