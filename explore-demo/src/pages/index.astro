@@ -2,6 +2,7 @@
 // 首頁：第一屏是搜尋；接著「今天認識一家公司」（營收前 120 大輪流，每天換一家）、三條入門路線、依規模排序的產業。
 // 所有數字由 companies.json／industries.json 計算，不手寫。
 import Base from '../layouts/Base.astro';
+import fs from 'node:fs';
 import companies from '../data/companies.json';
 import industries from '../data/industries.json';
 import meta from '../data/meta.json';
@@ -10,8 +11,9 @@ const n = (v) => v.toLocaleString('en-US');
 import { revenueOf, revenueSummary, sortRevenue, exactRevenue, revenueLabel, revenueCounts, revenueNote } from '../lib/revenue.js';
 import { scopedHook } from '../lib/hook-scope.js';
 import { researchScope, directoryNote } from '../lib/research-scope.js';
+import { serializeJsonForHtml } from '../lib/html.js';
 const byT = Object.fromEntries(companies.map((c) => [c.ticker, c]));
-const picks = companies.filter((c) => c.hook?.text).sort((a, b) => (revenueOf(b) ?? -Infinity) - (revenueOf(a) ?? -Infinity)).slice(0, 120)
+const picks = companies.filter((c) => c.hook?.text && fs.existsSync(`public/poster/${c.ticker}.webp`)).sort((a, b) => (revenueOf(b) ?? -Infinity) - (revenueOf(a) ?? -Infinity)).slice(0, 120)
   .map((c) => ({ t: c.ticker, n: c.name, h: scopedHook(c), i: c.industry.name }));
 const hot = ['CoWoS', 'HBM', 'AI 伺服器', '電動車', '矽光子', '低軌衛星', 'MLCC', '散熱'];
 const stories = new Set(['semiconductors']);
@@ -19,7 +21,7 @@ const inds = industries.map((i) => ({ ...i, ...revenueSummary(i.tickers.map((t) 
 ---
 <Base title="看懂台股公司在做什麼">
   <section class="card coral home-hero">
-    <span class="kicker">{researchScope}・{n(meta.facts)} 條年報事實</span>
+    <span class="kicker">{researchScope}・{n(meta.facts)} 條已查核事實</span>
     <p>{directoryNote}</p>
     <h1>這家公司到底在做什麼？<br />翻年報給你看。</h1>
     <form action="/search/" method="get" role="search" class="home-search">
@@ -68,7 +70,7 @@ const inds = industries.map((i) => ({ ...i, ...revenueSummary(i.tickers.map((t) 
     </div>
   </section>
 
-  <script type="application/json" id="picks" set:html={JSON.stringify(picks)}></script>
+  <script type="application/json" id="picks" set:html={serializeJsonForHtml(picks)}></script>
   <script>
     // 每天換一家（依台灣日期輪流），不需要伺服器
     const picks = JSON.parse(document.getElementById('picks').textContent);

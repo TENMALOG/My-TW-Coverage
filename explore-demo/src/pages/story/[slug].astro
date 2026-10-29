@@ -5,6 +5,7 @@ import Base from '../../layouts/Base.astro';
 import companies from '../../data/companies.json';
 import industries from '../../data/industries.json';
 import { YEAR, revenueSummary, revenueCounts, revenueNote, revenueLabel, exactRevenue } from '../../lib/revenue.js';
+import { serializeJsonForHtml } from '../../lib/html.js';
 
 export function getStaticPaths() {
   return industries.filter((i) => i.slug === 'semiconductors').map((i) => ({ params: { slug: i.slug }, props: { ind: i } }));
@@ -85,9 +86,10 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
       .stage { order: 1; height: 70vh; } .steps { order: 2; }
     }
   </style>
-  <script type="application/json" id="sdata" set:html={JSON.stringify(chart)}></script>
+  <script type="application/json" id="sdata" set:html={serializeJsonForHtml(chart)}></script>
   <script>
     import { css } from '../../components/tools.js';
+    import { escapeHtml } from '../../lib/html.js';
     const d = JSON.parse(document.getElementById('sdata').textContent);
     const echarts = await import('../../components/echarts.js');
     const chartEl = document.getElementById('sc');
@@ -109,7 +111,7 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
       scatter: () => ({ ...base(), grid: { left: 44, right: 16, top: 16, bottom: 36 },
         xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--muted') }, splitLine: { lineStyle: { color: css('--line') } } },
         yAxis: { type: 'value', axisLabel: { color: css('--muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--line') } } },
-        tooltip: { formatter: (p) => `${p.data.n}<br>營收 ${p.data.value[0]} 億｜毛利率 ${p.data.value[1]}%` },
+        tooltip: { formatter: (p) => `${escapeHtml(p.data.n)}<br>營收 ${escapeHtml(p.data.value[0])} 億｜毛利率 ${escapeHtml(p.data.value[1])}%` },
         series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 1 },
           data: d.rows.filter((r) => r.gm != null && r.rev > 0).map((r) => ({ value: [Math.round(r.rev * 10) / 10, r.gm], n: r.n })) }] }),
       tsmc: () => ({ ...base(), tooltip: {},

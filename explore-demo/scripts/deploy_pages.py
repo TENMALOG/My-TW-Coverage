@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 PAPER = ROOT.parent / 'research-site' / '_site'    # the Quarto research site (查證層), served at /paper/
 PROJECT = 'gutw-research'
-WRANGLER = 'wrangler@4'
+WRANGLER = 'wrangler@4.155.0'
 
 
 def run(cmd, env=None):

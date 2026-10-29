@@ -13,6 +13,7 @@ import csv
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -43,16 +44,31 @@ def main():
         im.crop((0, round(280 * k), im.width, round(1360 * k))).resize((560, 560), Image.LANCZOS).save(dst, 'WEBP', quality=82, method=6)
     # why a company has no financial chart: the MOPS summary has it in a non-standard format, or not at all
     fin_all = {r['ticker']: r for r in json.loads((SITE / 'data/financials/fy2025-financials-all.json').read_text(encoding='utf-8'))}
+    sys.path.insert(0, str(SITE / 'scripts/generic'))
+    import build_company_pages_p2 as p2
+
+    p2_rows = p2.p2_companies()
+    p2_tickers = {r['ticker'] for r in p2_rows}
+    assert not p2_tickers.intersection(r['ticker'] for r in cat), 'P2 overlaps the catalog'
+    directory = {r['ticker']: r for r in json.loads(p2.DIRECTORY.read_text(encoding='utf-8'))['companies']}
+    code_names, isin_only = p2.industry_names_official(directory)
+    by_name = {v: k for k, v in code_names.items()}
+    fin_p2 = p2.load_financials()
     comps, inds = [], {}
-    for r in cat:
+    for r in cat + p2_rows:
         tk = r['ticker']
+        is_p2 = tk in p2_tickers
+        if is_p2 and tk in p2.UNRESOLVED:
+            continue
         sb_p = ROOT / 'research-site/ops/shorts/storyboard' / f'{tk}.json'
         base_p = ROOT / 'research-site/ops/shorts/base' / f'{tk}.json'
         if not sb_p.exists() or not base_p.exists():
             continue
         sb = json.loads(sb_p.read_text(encoding='utf-8'))
         base = json.loads(base_p.read_text(encoding='utf-8'))
-        doc = json.loads((SITE / 'data/company-facts' / f'{tk}.json').read_text(encoding='utf-8'))
+        kind = base['source'].get('kind', 'annual') if is_p2 else 'annual'
+        folder = 'company-facts-prospectus' if kind == 'prospectus' else 'company-facts'
+        doc = json.loads((SITE / 'data' / folder / f'{tk}.json').read_text(encoding='utf-8'))
         pages = {f['id']: f for f in doc['facts']}
         cited = set()
         for k in ('hook', 'what', 'mix', 'regions'):
@@ -63,19 +79,28 @@ def main():
         src = base['source']
         sources = {i: {'page': pages[i].get('page'), 'period': pages[i].get('period'), 'statement': pages[i]['statement']}
                    for i in cited if i in pages}
-        ind = names[r['industry_folder']]
-        fx = fixes.get(tk)
+        if is_p2:
+            code = directory[tk].get('industry_code') or ''
+            name = code_names.get(code) or isin_only.get(tk) or (f'產業代碼 {code}（官方資料未載名稱）' if code else '未分類')
+            code = code or by_name.get(name, 'unclassified')
+            ind = {'slug': f'n-{code}', 'name_zh': f'{name}（新增公司）'}
+        else:
+            ind = names[r['industry_folder']]
+        fx = None if is_p2 else fixes.get(tk)
+        report = {'fy': src.get('fy'), 'filename': src.get('filename'), 'url': src.get('url'), 'kind': kind}
+        if is_p2:
+            report.update({'doc_label': src.get('doc_label'), 'filed_month': src.get('filed_month')})
         comps.append({
             'ticker': tk, 'name': r['company'], 'legal_name': base.get('legal_name') or '',
             'industry': {'slug': ind['slug'], 'name': ind['name_zh'].rstrip('?？')},
-            'mops_industry': (basic.get(tk) or {}).get('industry_mops') or '',
+            'mops_industry': name if is_p2 else (basic.get(tk) or {}).get('industry_mops') or '',
             'corrected_from': names[fx['original_folder']]['name_zh'].rstrip('?？') if fx else None,
-            'report': {'fy': src.get('fy'), 'filename': src.get('filename'), 'url': src.get('url')},
+            'report': report,
             'hook': sb.get('hook'), 'what': sb.get('what'), 'mix': sb.get('mix'), 'regions': sb.get('regions'),
             'cards': sb.get('cards') or [], 'tags': sb.get('tags') or [],
             'fin': sb.get('fin') or {}, 'relations': sb.get('relations') or [], 'sources': sources,
             'youtube_id': yt.get(tk),
-            'fin_missing': None if sb.get('fin') else ('format' if tk in fin_all else 'absent'),
+            'fin_missing': None if sb.get('fin') else ('format' if tk in (fin_p2 if is_p2 else fin_all) else 'absent'),
             # every verified fact (PASS, not rejected) for the 「年報重點全文」 section and the search index
             'facts': [{'id': f['id'], 'field': f['field'], 'statement': f['statement'], 'page': pages[f['id']].get('page')}
                       for f in base['facts'] if f['id'] in pages],
@@ -125,7 +150,8 @@ def main():
         shutil.copy2(SITE / f'errata/{k}.csv', pub_data / 'errata' / f'{k}.csv')
     (pub_data / 'summary.json').write_text(json.dumps(summ, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'meta.json').write_text(json.dumps({'built': __import__('datetime').date.today().isoformat(),
-        'companies': len(comps), 'facts': sum(len(c['facts']) for c in comps),
+        'companies': len(comps), 'p2_companies': sum(c['ticker'] in p2_tickers for c in comps),
+        'industries': len(inds), 'facts': sum(len(c['facts']) for c in comps),
         'fy_counts': dict(__import__('collections').Counter(str(c['report']['fy']) for c in comps)),
         'fin_missing': dict(__import__('collections').Counter(c['fin_missing'] for c in comps if c['fin_missing'])),
         'errata': {k: sum(1 for _ in csv.DictReader(open(SITE / f'errata/{k}.csv', encoding='utf-8-sig'))) for k in ('names', 'classification', 'claims')},

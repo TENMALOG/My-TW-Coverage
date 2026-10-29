@@ -14,6 +14,7 @@ import Base from '../../layouts/Base.astro';
 
   <script>
     import { summary, byTicker, el, picker, css, fmtRev } from '../../components/tools.js';
+    import { escapeHtml } from '../../lib/html.js';
     const all = await summary();
     const map = await byTicker();
     const edges = new Map();   // "s>d" -> label   (s 供應給 d)
@@ -53,7 +54,7 @@ import Base from '../../layouts/Base.astro';
       graphEl.setAttribute('aria-label', `公司供應關係圖，以 ${map[focus].n} 為中心；${links.map((link) => `${map[link.source].n} 供應給 ${map[link.target].n}`).join('；') || '目前沒有顯示供應關係'}`);
       chart.setOption({
         textStyle: { fontFamily: 'Noto Sans TC, sans-serif' },
-        tooltip: { formatter: (p) => p.dataType === 'edge' ? `${map[p.data.source].n} → ${map[p.data.target].n}${p.data.label ? '<br>' + p.data.label : ''}` : `${p.data.name}（${p.data.t}）<br>往來 ${nbr[p.data.t]?.size || 0} 家，點一下展開` },
+        tooltip: { formatter: (p) => p.dataType === 'edge' ? `${escapeHtml(map[p.data.source].n)} → ${escapeHtml(map[p.data.target].n)}${p.data.label ? '<br>' + escapeHtml(p.data.label) : ''}` : `${escapeHtml(p.data.name)}（${escapeHtml(p.data.t)}）<br>往來 ${escapeHtml(nbr[p.data.t]?.size || 0)} 家，點一下展開` },
         series: [{ type: 'graph', layout: 'force', roam: true, draggable: true, data: nodes, links,
           force: { repulsion: 220, edgeLength: [70, 160], gravity: 0.06, friction: 0.15 },
           label: { show: true, position: 'bottom', fontSize: 12 }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,

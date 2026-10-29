@@ -1,4 +1,5 @@
 import { onVisible } from './tools.js';
+import { escapeHtml } from '../lib/html.js';
 // 產業頁互動：營收×毛利率散點圖、產業內往來關係力導向圖、證交所產業別篩選。
 
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
@@ -24,7 +25,7 @@ function scatter(rows) {
   return {
     textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') },
     grid: { left: 44, right: 16, top: 16, bottom: 36 },
-    tooltip: { formatter: (p) => `${p.data.n}（${p.data.t}）<br>營收 ${p.data.value[0].toLocaleString('en-US', { maximumFractionDigits: 1 })} 億｜毛利率 ${p.data.value[1]}%` },
+    tooltip: { formatter: (p) => `${escapeHtml(p.data.n)}（${escapeHtml(p.data.t)}）<br>營收 ${escapeHtml(p.data.value[0].toLocaleString('en-US', { maximumFractionDigits: 1 }))} 億｜毛利率 ${escapeHtml(p.data.value[1])}%` },
     xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--muted') },
       splitLine: { lineStyle: { color: css('--line') } } },
     yAxis: { type: 'value', axisLabel: { color: css('--muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--line') } } },
@@ -46,7 +47,7 @@ function graph(d) {
     itemStyle: { color: deg[t] > 2 ? '#FF573F' : css('--card'), borderColor: css('--fg'), borderWidth: 2 } }));
   return {
     textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') },
-    tooltip: { formatter: (p) => (p.dataType === 'edge' ? `${d.names[p.data.source]} → ${d.names[p.data.target]}` : `${p.data.name}（${p.data.t}）`) },
+    tooltip: { formatter: (p) => (p.dataType === 'edge' ? `${escapeHtml(d.names[p.data.source])} → ${escapeHtml(d.names[p.data.target])}` : `${escapeHtml(p.data.name)}（${escapeHtml(p.data.t)}）`) },
     series: [{
       type: 'graph', layout: 'force', roam: true, draggable: true,
       force: { repulsion: 180, edgeLength: [60, 140], gravity: 0.08 },

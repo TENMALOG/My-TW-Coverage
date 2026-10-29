@@ -24,14 +24,17 @@ def main(only):
         if only and c['ticker'] not in only:
             continue
         fy = (c.get('report') or {}).get('fy') or ''
+        prospectus = (c.get('report') or {}).get('kind') == 'prospectus'
+        source = '公開說明書' if prospectus else '年報'
+        label = source if prospectus else f'{fy} 年度年報'
         jobs.append((OUT / f"{c['ticker']}.jpg", {
             'kicker': '公司速覽', 'right': c['industry']['name'], 'tk': c['ticker'], 'name': c['name'],
-            'hook': (c.get('hook') or {}).get('text', ''), 'foot': f'資料：{fy} 年度年報｜公司頁每條事實都附年報頁碼'}))
+            'hook': (c.get('hook') or {}).get('text', ''), 'foot': f'資料：{label}｜公司頁每條事實都附{source}頁碼'}))
     if not only:
         for i in inds:
             jobs.append((OUT / f"i-{i['slug']}.jpg", {
                 'kicker': '產業速覽', 'right': f"{len(i['tickers'])} 家公司", 'tk': '', 'name': i['name'],
-                'hook': '', 'foot': '公司頁每條事實都附年報頁碼'}))
+                'hook': '', 'foot': '公司頁每條事實都附來源文件頁碼'}))
     with sync_playwright() as p:
         b = p.chromium.launch(channel='chrome')
         pg = b.new_page(viewport={'width': 1200, 'height': 630})

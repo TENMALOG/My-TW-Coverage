@@ -1,5 +1,7 @@
 // 公司卡片頁的互動：圖表（捲到才載入 ECharts）、年報出處抽屜、觀察清單、分享。
 import { watchlist as getWatchlist, setWatchlist, onVisible } from './tools.js';
+import { reportName, reportLabel } from '../lib/report.js';
+import { escapeHtml } from '../lib/html.js';
 
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const PALETTE = () => ['#FF573F', css('--fg'), '#FFB3A6', css('--muted'), '#E4DFD3', '#8A3324'];
@@ -11,14 +13,14 @@ function base() {
   return { textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, backgroundColor: 'transparent' };
 }
 
-function mixOption(mix) {
+function mixOption(mix, sourceName) {
   const total = mix.items.reduce((sum, [, value]) => sum + Number(value), 0);
   const items = mix.items.map(([name, value]) => ({ name, value }));
   if (total < 99.5) items.push({ name: '其他／未列', value: +(100 - total).toFixed(2), itemStyle: { color: css('--muted') } });
   const note = total > 100.5 ? `各項加總 ${+total.toFixed(2)}%，可能有重疊` : '';
   return {
     ...base(), ...gravity,
-    tooltip: { trigger: 'item', formatter: (p) => `${p.name}：${p.value}%${p.name === '其他／未列' ? '<br>年報未逐項列出的部分' : ''}${note ? `<br>${note}` : ''}` },
+    tooltip: { trigger: 'item', formatter: (p) => `${escapeHtml(p.name)}：${escapeHtml(p.value)}%${p.name === '其他／未列' ? `<br>${escapeHtml(sourceName)}未逐項列出的部分` : ''}${note ? `<br>${escapeHtml(note)}` : ''}` },
     legend: { bottom: 0, textStyle: { color: css('--fg'), fontSize: 13 }, itemWidth: 14, itemHeight: 14 },
     color: PALETTE(),
     series: [{
@@ -74,7 +76,7 @@ function sources(data) {
     body.replaceChildren();
     const h = document.createElement('h3');
     h.id = 'sheet-title';
-    h.textContent = '年報出處';
+    h.textContent = `${reportName(data.report)}出處`;
     sheet.setAttribute('aria-labelledby', h.id);
     body.append(h);
     ids.forEach((id) => {
@@ -84,12 +86,12 @@ function sources(data) {
       q.textContent = f.statement;
       const m = document.createElement('div');
       m.className = 'muted';
-      m.textContent = `${data.report.fy} 年度年報 第 ${f.page} 頁｜期間：${f.period}｜編號 ${id}`;
+      m.textContent = `${reportLabel(data.report)} 第 ${f.page} 頁｜期間：${f.period}｜編號 ${id}`;
       body.append(q, m);
     });
     const a = document.createElement('a');
     a.href = data.report.url; a.target = '_blank'; a.rel = 'noopener';
-    a.textContent = `開啟年報原檔（${data.report.filename}）`;
+    a.textContent = `開啟${reportName(data.report)}原檔（${data.report.filename}）`;
     a.className = 'chip'; a.style.marginTop = '10px';
     body.append(a);
     sheet.showModal();
@@ -164,9 +166,9 @@ export function initCompany() {
     if (el) { el.setAttribute('role', 'img'); el.setAttribute('aria-label', label); }
   };
   if (data.mix) {
-    const option = mixOption(data.mix);
+    const option = mixOption(data.mix, reportName(data.report));
     describe('mix', `營收結構：${option.series[0].data.map(({ name, value }) => `${name} ${value}%`).join('、')}${data.mix.items.reduce((sum, [, v]) => sum + Number(v), 0) > 100.5 ? '；各項可能有重疊' : ''}`);
-    mount('mix', () => mixOption(data.mix));
+    mount('mix', () => mixOption(data.mix, reportName(data.report)));
   }
   if (data.regions) {
     describe('regions', `地區營收結構：${data.regions.items.map(([name, value]) => `${name} ${value}%`).join('、')}`);

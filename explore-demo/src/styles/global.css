@@ -115,6 +115,7 @@ video.cover { display: block; width: 100%; max-width: 520px; aspect-ratio: 1 / 1
 /* 公司速覽影片：只露出 9:16 影片中間的正方形（object-position 50% 33.333% = 280 / (1920-1080)） */
 .hero { display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center; }
 @media (min-width: 720px) { .hero { grid-template-columns: 1fr 280px; } }
+.hero.hero-text-only { grid-template-columns: 1fr; }
 figure.yt { position: relative; width: 100%; max-width: 420px; aspect-ratio: 1 / 1; margin: 0 auto; overflow: hidden;
   border: 2.5px solid var(--fg); border-radius: 18px; background: #F2EFE8; }
 figure.yt img, figure.yt video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; object-fit: cover; object-position: 50% 33.333%; }

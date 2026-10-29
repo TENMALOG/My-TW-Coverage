@@ -5,6 +5,8 @@ import Base from '../../layouts/Base.astro';
 import Term from '../../components/Term.astro';
 import companies from '../../data/companies.json';
 import { hookScope, scopedHook } from '../../lib/hook-scope.js';
+import { reportName, reportLabel } from '../../lib/report.js';
+import { serializeJsonForHtml } from '../../lib/html.js';
 
 export function getStaticPaths() {
   return companies.map((c) => ({ params: { ticker: c.ticker }, props: { c } }));
@@ -12,11 +14,15 @@ export function getStaticPaths() {
 const { c } = Astro.props;
 const known = new Set(companies.map((x) => x.ticker));
 const hasPoster = fs.existsSync(`public/poster/${c.ticker}.webp`);
+const isProspectus = c.report.kind === 'prospectus';
+const sourceName = reportName(c.report);
+const sourceLabel = reportLabel(c.report);
+const researchSection = c.industry.slug.startsWith('n-') ? 'p2' : 'companies';
 // 還沒上 YouTube 的公司，播放自己存放的同一支影片（Cloudflare R2）；PUBLIC_VIDEO_URL 例如 https://video.example/{t}.mp4，本機示範用 /video/{t}.mp4
 const videoUrl = (import.meta.env.PUBLIC_VIDEO_URL || '/video/{t}.mp4').replace('{t}', c.ticker);
 const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
-const yoy = years.length >= 2 ? (rev.at(-1) / rev.at(-2) - 1) * 100 : null;
+const yoy = years.length >= 2 && rev.at(-2) !== 0 ? (rev.at(-1) / rev.at(-2) - 1) * 100 : null;
 const gm = years.length ? c.fin[years[years.length - 1]].gross_margin_pct : null;
 const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
 const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應用'], ['revenue_mix', '營收結構'], ['sales_regions', '銷售地區'],
@@ -25,20 +31,21 @@ const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應�
   ['export_share', '外銷比重'], ['history', '沿革'], ['established', '成立'], ['headquarters', '總部']];
 const ids = (o) => (o?.facts || []).join(',');
 const scope = hookScope(c);
-const desc = scopedHook(c) || `${c.name}（${c.ticker}）年報重點`;
+const desc = scopedHook(c) || `${c.name}（${c.ticker}）${sourceName}重點`;
 const chartData = { mix: c.mix, regions: c.regions, years, rev };
-const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline: `${c.name}（${c.ticker}）年報重點`, description: desc,
+const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline: `${c.name}（${c.ticker}）${sourceName}重點`, description: desc,
   inLanguage: 'zh-Hant-TW', image: new URL(`/og/${c.ticker}.jpg`, Astro.site).href, mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
   about: { '@type': 'Corporation', name: c.legal_name || c.name, tickerSymbol: c.ticker },
   author: { '@type': 'Organization', name: '股.tw 研究室' }, publisher: { '@type': 'Organization', name: '股.tw 研究室' } };
 ---
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`} jsonLd={jsonLd}>
   <div data-pagefind-body>
-  <section class="card hero">
+  <section class:list={['card', 'hero', { 'hero-text-only': !hasPoster }]}>
    <div class="herotext">
     <span class="kicker num">{c.ticker}</span>
     <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0;line-height:1.15" data-pagefind-meta="title">{c.name}</h1>
     <div class="muted">{c.legal_name}</div>
+    {isProspectus && <p class="muted">本公司在公開資訊觀測站上尚無年報，本頁事實取自公司申報的公開說明書（正式版）。</p>}
     <div style="margin-top:10px">
       <a class="chip on" href={`/i/${c.industry.slug}/`} data-pagefind-filter="產業">{c.industry.name}</a>
       {c.mops_industry && <span class="chip"><Term term="證交所產業別" label="證交所" />：{c.mops_industry}</span>}
@@ -64,7 +71,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
       <span class="kicker">一句話記住它</span>
       <p style="font-size:26px;font-weight:900;margin:4px 0;line-height:1.35" data-pagefind-weight="5">{c.hook.text}</p>
       {scope && <p class="muted" style="color:#181715">{scope}</p>}
-      <button data-pagefind-ignore class="src" data-facts={ids(c.hook)} style="color:#181715">年報出處</button>
+      <button data-pagefind-ignore class="src" data-facts={ids(c.hook)} style="color:#181715">{sourceName}出處</button>
     </section>
   )}
 
@@ -73,7 +80,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     <section class="card reveal">
       <h2>在做什麼？</h2>
       {c.what.lines.map((l, i) => <p class="chip" style={`font-size:17px;padding:6px 14px;transform:rotate(${i % 2 ? 1.5 : -1.5}deg)`}>{l}</p>)}
-      <div><button data-pagefind-ignore class="src" data-facts={ids(c.what)}>年報出處</button></div>
+      <div><button data-pagefind-ignore class="src" data-facts={ids(c.what)}>{sourceName}出處</button></div>
     </section>
   )}
 
@@ -81,7 +88,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     <section class="card reveal">
       <h2>{c.mix.title || '營收從哪來'}</h2>
       <div class="chart" id="mix"></div>
-      <p class="muted">{c.mix.year} 年度｜<Term term="分母" label={c.mix.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>年報出處</button></p>
+      <p class="muted">{c.mix.year} 年度｜<Term term="分母" label={c.mix.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>{sourceName}出處</button></p>
     </section>
   )}
 
@@ -89,7 +96,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     <section class="card reveal">
       <h2>{c.regions.title || '賣到哪裡'}</h2>
       <div class="chart" id="regions" style="height:220px"></div>
-      <p class="muted">{c.regions.year} 年度｜<Term term="分母" label={c.regions.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>年報出處</button></p>
+      <p class="muted">{c.regions.year} 年度｜<Term term="分母" label={c.regions.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>{sourceName}出處</button></p>
     </section>
   )}
 
@@ -118,7 +125,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   {c.relations.length > 0 && (
     <section class="card reveal">
       <h2>跟誰做生意？</h2>
-      <p class="muted">年報裡明確點名、且對方也在本站收錄範圍內的往來對象（逐筆查核）。</p>
+      <p class="muted">{sourceName}裡明確點名、且對方也在本站收錄範圍內的往來對象（逐筆查核）。</p>
       <div>
         {c.relations.map((r) => (
           <a class="chip" href={known.has(r.ticker) ? `/c/${r.ticker}/` : undefined}
@@ -134,14 +141,14 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     <section class="card reveal">
       {k.self ? <span data-pagefind-ignore class="badge-self"><Term term="公司自述" label="公司自述・未經驗證" /></span> : <span data-pagefind-ignore class="kicker">重點</span>}
       <p style="font-size:21px;font-weight:700;margin:8px 0">{k.text}</p>
-      <button data-pagefind-ignore class="src" data-facts={ids(k)}>年報出處</button>
+      <button data-pagefind-ignore class="src" data-facts={ids(k)}>{sourceName}出處</button>
     </section>
   ))}
 
   {c.facts.length > 0 && (
     <section class="card reveal">
       <details>
-        <summary style="font-weight:900;font-size:18px;cursor:pointer">年報重點全文（{c.facts.length} 條，逐句查核）</summary>
+        <summary style="font-weight:900;font-size:18px;cursor:pointer">{sourceName}重點全文（{c.facts.length} 條，逐句查核）</summary>
         {FIELDS.filter(([k]) => c.facts.some((f) => f.field === k)).map(([k, label]) => (
           <div>
             <h3 style="margin:14px 0 4px;font-size:16px">{label}</h3>
@@ -155,8 +162,10 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   )}
 
   <p class="muted">
-    資料：{c.legal_name} {c.report.fy} 年度年報（<a href={c.report.url} target="_blank" rel="noopener">{c.report.filename}</a>）。
-    <a href={`/paper/chapters/companies/${c.ticker}.html`}>看完整研究頁（含每句的查核紀錄與參考資料）→</a>
+    資料：{c.legal_name} {isProspectus
+      ? <a href={c.report.url} target="_blank" rel="noopener">{sourceLabel}</a>
+      : <>{sourceLabel}（<a href={c.report.url} target="_blank" rel="noopener">{c.report.filename}</a>）</>}。
+    <a href={`/paper/chapters/${researchSection}/${c.ticker}.html`}>看完整研究頁（含每句的查核紀錄與參考資料）→</a>
     {c.tags.map((t) => <span class="chip">{t}</span>)}
   </p>
 
@@ -166,7 +175,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   <dialog class="sheet" id="sheet"><div id="sheet-body"></div>
     <form method="dialog"><button class="iconbtn" style="margin-top:12px">關閉</button></form></dialog>
 
-  <script type="application/json" id="cdata" set:html={JSON.stringify({ ...chartData, sources: c.sources, report: c.report, name: c.name, ticker: c.ticker })}></script>
+  <script type="application/json" id="cdata" set:html={serializeJsonForHtml({ ...chartData, sources: c.sources, report: c.report, name: c.name, ticker: c.ticker })}></script>
   <script>
     import { initCompany } from '../../components/company.js';
     initCompany();

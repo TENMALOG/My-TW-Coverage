@@ -4,11 +4,13 @@ import Base from '../../layouts/Base.astro';
 import companies from '../../data/companies.json';
 import industries from '../../data/industries.json';
 import { YEAR, revenueSummary, sortRevenue, formatRevenue, exactRevenue, revenueLabel, revenueCounts, revenueNote } from '../../lib/revenue.js';
+import { serializeJsonForHtml } from '../../lib/html.js';
 
 export function getStaticPaths() {
   return industries.map((i) => ({ params: { slug: i.slug }, props: { ind: i } }));
 }
 const { ind } = Astro.props;
+const isP2 = ind.slug.startsWith('n-');
 const by = Object.fromEntries(companies.map((c) => [c.ticker, c]));
 const rows = ind.tickers.map((t) => by[t]).map((c) => {
   const y = c.fin[YEAR] ? YEAR : null;
@@ -31,6 +33,7 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
   <section class="card coral">
     <span class="kicker">產業</span>
     <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0" data-pagefind-meta="title">{ind.name}</h1>
+    {isP2 && <p>新增公司依證交所官方產業別分組。</p>}
     <p style="font-size:18px;font-weight:700;margin:6px 0">
       <span class="num">{rows.length}</span> 家公司・2025 營業收入加總（{revenueCounts(summary)}；未去重）
       <span class="num" title={exactRevenue(summary.rev)}>{revenueLabel(summary)}</span>
@@ -49,7 +52,7 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
   {uniq.length > 0 && (
     <section class="card reveal">
       <h2>產業內誰跟誰做生意？</h2>
-      <p class="muted">箭頭由供應商指向客戶，只畫年報明確點名、且雙方都在本產業的往來。可拖曳、雙指縮放。</p>
+      <p class="muted">箭頭由供應商指向客戶，只畫年報或公開說明書明確點名、且雙方都在本產業的往來。可拖曳、雙指縮放。</p>
       <div class="chart" id="graph" style="height:420px"></div>
     </section>
   )}
@@ -72,7 +75,7 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
   </section>
   </div>
 
-  <script type="application/json" id="idata" set:html={JSON.stringify({ rows: withFin, edges: uniq, names: Object.fromEntries(rows.map((r) => [r.t, r.n])) })}></script>
+  <script type="application/json" id="idata" set:html={serializeJsonForHtml({ rows: withFin, edges: uniq, names: Object.fromEntries(rows.map((r) => [r.t, r.n])) })}></script>
   <script>
     import { initIndustry } from '../../components/industry.js';
     initIndustry();

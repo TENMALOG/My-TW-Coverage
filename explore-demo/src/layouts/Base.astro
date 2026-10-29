@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { researchScope, directoryNote } from '../lib/research-scope.js';
+import { serializeJsonForHtml } from '../lib/html.js';
 
 interface Props {
   title: string;
@@ -12,7 +13,7 @@ interface Props {
 
 const {
   title,
-  description = `${researchScope}。${directoryNote}公司頁每條事實都附年報頁碼。用卡片、圖表和 24 秒影片看懂公司在做什麼。`,
+  description = `${researchScope}。${directoryNote}公司頁每條事實都附來源文件頁碼。用卡片、圖表和公司速覽影片看懂公司在做什麼。`,
   ogType = 'website',
   ogImage = null,
   jsonLd,
@@ -31,8 +32,6 @@ const websiteJsonLd = {
     'query-input': 'required name=search_term_string',
   },
 };
-// 避免 JSON-LD 內容中的 HTML 結束標籤提前關閉 script。
-const serializeJsonLd = (data: unknown) => JSON.stringify(data).replace(/</g, '\\u003c');
 const currentPath = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const isCurrent = (href: string) => currentPath === (href.replace(/\/+$/, '') || '/') || (href !== '/' && currentPath.startsWith(href));
 const mobileTabs = [
@@ -64,8 +63,8 @@ const mobileTabs = [
   {img && <meta property="og:image:width" content="1200" />}
   {img && <meta property="og:image:height" content="630" />}
   <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json" is:inline set:html={serializeJsonLd(websiteJsonLd)} />
-  {jsonLd && <script type="application/ld+json" is:inline set:html={serializeJsonLd(jsonLd)} />}
+  <script type="application/ld+json" is:inline set:html={serializeJsonForHtml(websiteJsonLd)} />
+  {jsonLd && <script type="application/ld+json" is:inline set:html={serializeJsonForHtml(jsonLd)} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Noto+Serif+TC:wght@700&family=Roboto+Mono:wght@500;700&display=swap" />
@@ -87,7 +86,7 @@ const mobileTabs = [
   </div></header>
   <main class="wrap"><slot /></main>
   <footer class="wrap muted site-footer">
-    <p>內容整理自公開資訊觀測站年報與財務資料，公司頁每條事實都附年報頁碼，歡迎回查。本站不提供任何個股買賣建議，投資請自行判斷。年報事實評估基準日 2026-10-08；財務快照 2026-10-11（台北時間）。</p>
+    <p>內容整理自公開資訊觀測站年報、公開說明書與財務資料，公司頁每條事實都附來源文件頁碼，歡迎回查。本站不提供任何個股買賣建議，投資請自行判斷。原專案年報事實評估基準日 2026-10-08；財務快照 2026-10-11（台北時間）。</p>
     <nav class="footer-links" aria-label="網站資訊">
       <a href="/about/">我們怎麼做</a>
       <a href="/paper/">研究報告全文</a>
