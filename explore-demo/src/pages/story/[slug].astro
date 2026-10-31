@@ -79,7 +79,7 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
     .story { position: relative; }
     .stage { position: sticky; top: 64px; height: 40vh; z-index: 1; padding: 8px; margin: 12px 0; }
     .steps { position: relative; z-index: 2; padding-bottom: 30vh; }
-    .step { margin: 0 0 62vh; background: color-mix(in srgb, var(--card) 94%, transparent); }
+    .step { margin: 0 0 62vh; background: color-mix(in srgb, var(--surface) 94%, transparent); }
     .step h2 { font-size: 22px; }
     @media (min-width: 900px) {
       .story { display: grid; grid-template-columns: 1fr 360px; gap: 24px; }
@@ -97,34 +97,34 @@ const chart = { rows: rows.map(({ rel, ...r }) => r), total, top1: top1.t, top5:
     const chart = echarts.init(chartEl, null, { renderer: 'canvas' });
     const observer = new ResizeObserver(() => chart.resize());
     observer.observe(chartEl);
-    const base = () => ({ textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, animationDuration: 900, animationEasing: 'cubicOut' });
+    const base = () => ({ textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--foreground') }, animation: false });
     const bars = (hi) => {
       const top = d.rows.slice(0, 10).reverse();
       return { ...base(), grid: { left: 90, right: 70, top: 10, bottom: 10 }, xAxis: { type: 'value', show: false },
-        yAxis: { type: 'category', data: top.map((r) => r.n), axisLabel: { color: css('--fg') }, axisTick: { show: false } },
-        series: [{ type: 'bar', data: top.map((r) => ({ value: Math.round(r.rev), itemStyle: { color: hi(r) ? '#FF573F' : css('--muted') } })),
-          label: { show: true, position: 'right', color: css('--fg'), formatter: (p) => `${p.value.toLocaleString('en-US')} 億` }, barWidth: '60%' }] };
+        yAxis: { type: 'category', data: top.map((r) => r.n), axisLabel: { color: css('--foreground') }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: top.map((r) => ({ value: Math.round(r.rev), itemStyle: { color: hi(r) ? css('--accent') : css('--text-muted') } })),
+          label: { show: true, position: 'right', color: css('--foreground'), formatter: (p) => `${p.value.toLocaleString('en-US')} 億` }, barWidth: '60%' }] };
     };
     const views = {
       top10: () => bars(() => true),
       share: () => bars((r) => d.top5.includes(r.t)),
       scatter: () => ({ ...base(), grid: { left: 44, right: 16, top: 16, bottom: 36 },
-        xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--muted') }, splitLine: { lineStyle: { color: css('--line') } } },
-        yAxis: { type: 'value', axisLabel: { color: css('--muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--line') } } },
+        xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--text-muted') }, splitLine: { lineStyle: { color: css('--border') } } },
+        yAxis: { type: 'value', axisLabel: { color: css('--text-muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--border') } } },
         tooltip: { formatter: (p) => `${escapeHtml(p.data.n)}<br>營收 ${escapeHtml(p.data.value[0])} 億｜毛利率 ${escapeHtml(p.data.value[1])}%` },
-        series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 1 },
+        series: [{ type: 'scatter', symbolSize: 10, itemStyle: { color: css('--accent'), borderColor: css('--border'), borderWidth: 1 },
           data: d.rows.filter((r) => r.gm != null && r.rev > 0).map((r) => ({ value: [Math.round(r.rev * 10) / 10, r.gm], n: r.n })) }] }),
       tsmc: () => ({ ...base(), tooltip: {},
         series: [{ type: 'graph', layout: 'force', force: { repulsion: 260, edgeLength: 120 }, roam: false,
-          label: { show: true, position: 'bottom', color: css('--fg') }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
-          data: [{ id: d.tsmc.t, name: d.tsmc.n, symbolSize: 50, itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 2 } },
-            ...d.tsmc.partners.map((p) => ({ id: p.t, name: p.n, symbolSize: 22, itemStyle: { color: p.side === 'customer' ? css('--fg') : css('--card'), borderColor: css('--fg'), borderWidth: 2 } }))],
+          label: { show: true, position: 'bottom', color: css('--foreground') }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
+          data: [{ id: d.tsmc.t, name: d.tsmc.n, symbolSize: 50, itemStyle: { color: css('--accent'), borderColor: css('--border'), borderWidth: 1 } },
+            ...d.tsmc.partners.map((p) => ({ id: p.t, name: p.n, symbolSize: 22, itemStyle: { color: p.side === 'customer' ? css('--foreground') : css('--surface'), borderColor: css('--border'), borderWidth: 1 } }))],
           links: d.tsmc.partners.map((p) => (p.side === 'customer' ? { source: d.tsmc.t, target: p.t } : { source: p.t, target: d.tsmc.t })),
-          lineStyle: { color: css('--muted'), width: 1.5 } }] }),
+          lineStyle: { color: css('--text-muted'), width: 1.5 } }] }),
       growth: () => ({ ...base(), grid: { left: 90, right: 70, top: 10, bottom: 10 }, xAxis: { type: 'value', show: false },
-        yAxis: { type: 'category', data: d.growth.map((r) => r.n).reverse(), axisLabel: { color: css('--fg') }, axisTick: { show: false } },
-        series: [{ type: 'bar', data: d.growth.map((r) => r.yoy).reverse(), itemStyle: { color: '#FF573F' },
-          label: { show: true, position: 'right', color: css('--fg'), formatter: '+{c}%' }, barWidth: '60%' }] }),
+        yAxis: { type: 'category', data: d.growth.map((r) => r.n).reverse(), axisLabel: { color: css('--foreground') }, axisTick: { show: false } },
+        series: [{ type: 'bar', data: d.growth.map((r) => r.yoy).reverse(), itemStyle: { color: css('--accent') },
+          label: { show: true, position: 'right', color: css('--foreground'), formatter: '+{c}%' }, barWidth: '60%' }] }),
     };
     let cur = null;
     const show = (k) => {

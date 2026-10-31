@@ -1,5 +1,13 @@
 ---
 import '../styles/global.css';
+// Vite resolves these build-time branches; an unset style imports no theme.
+if (import.meta.env.PUBLIC_STYLE === 'editorial') {
+  await import('../styles/themes/editorial.css');
+} else if (import.meta.env.PUBLIC_STYLE === 'terminal') {
+  await import('../styles/themes/terminal.css');
+} else if (import.meta.env.PUBLIC_STYLE === 'arc') {
+  await import('../styles/themes/arc.css');
+}
 import { researchScope, directoryNote } from '../lib/research-scope.js';
 import { serializeJsonForHtml } from '../lib/html.js';
 
@@ -35,11 +43,11 @@ const websiteJsonLd = {
 const currentPath = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const isCurrent = (href: string) => currentPath === (href.replace(/\/+$/, '') || '/') || (href !== '/' && currentPath.startsWith(href));
 const mobileTabs = [
-  { href: '/', label: '首頁', icon: '⌂' },
-  { href: '/search/', label: '搜尋', icon: '🔍' },
-  { href: '/map/', label: '地圖', icon: '🗺️' },
-  { href: '/screen/', label: '篩選', icon: '☷' },
-  { href: '/watch/', label: '觀察', icon: '★' },
+  { href: '/', label: '首頁', icon: 'M3 10.5 12 3l9 7.5M5 9v12h5v-7h4v7h5V9' },
+  { href: '/search/', label: '搜尋', icon: 'M20.5 20.5 16 16M18 10.5a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z' },
+  { href: '/map/', label: '地圖', icon: 'm3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Zm6-2v16m6-14v16' },
+  { href: '/screen/', label: '篩選', icon: 'M3 6h18M3 12h18M3 18h18M8 3v6m8 0v6m-8 0v6' },
+  { href: '/watch/', label: '觀察', icon: 'm12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3-5.6-3-5.6 3 1.1-6.3L3 9.6l6.2-.9L12 3Z' },
 ];
 ---
 <!doctype html>
@@ -67,7 +75,7 @@ const mobileTabs = [
   {jsonLd && <script type="application/ld+json" is:inline set:html={serializeJsonForHtml(jsonLd)} />}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Noto+Serif+TC:wght@700&family=Roboto+Mono:wght@500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Noto+Serif+TC:wght@600;700&family=Roboto+Mono:wght@500;700&display=swap" />
   <script is:inline>
     try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
@@ -77,12 +85,12 @@ const mobileTabs = [
     <a class="logo" href="/">股<b>.</b>tw<span class="logo-sub"> 研究室</span></a>
     <span class="sp"></span>
     <nav class="desktop-nav" aria-label="主要導覽">
-      <a class="iconbtn" href="/search/" aria-label="搜尋" aria-current={isCurrent('/search/') ? 'page' : undefined}>🔍</a>
+      <a class="iconbtn" href="/search/" aria-label="搜尋" aria-current={isCurrent('/search/') ? 'page' : undefined}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={mobileTabs[1].icon} /></svg></a>
       <a class="iconbtn" href="/screen/" aria-current={isCurrent('/screen/') ? 'page' : undefined}>篩選</a>
       <a class="iconbtn" href="/map/" aria-current={isCurrent('/map/') ? 'page' : undefined}>地圖</a>
-      <a class="iconbtn" href="/watch/" aria-label="我的觀察清單" aria-current={isCurrent('/watch/') ? 'page' : undefined}>★</a>
+      <a class="iconbtn" href="/watch/" aria-label="我的觀察清單" aria-current={isCurrent('/watch/') ? 'page' : undefined}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={mobileTabs[4].icon} /></svg></a>
     </nav>
-    <button class="iconbtn" type="button" id="theme" aria-label="切換深淺色模式">◐</button>
+    <button class="iconbtn" type="button" id="theme" aria-label="切換深淺色模式"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8" /><path d="M12 4v16M12 4a8 8 0 0 1 0 16Z" fill="currentColor" /></svg></button>
   </div></header>
   <main class="wrap"><slot /></main>
   <footer class="wrap muted site-footer">
@@ -99,7 +107,7 @@ const mobileTabs = [
   <nav class="bottom-nav" aria-label="主要導覽">
     {mobileTabs.map(({ href, label, icon }) => (
       <a class="iconbtn bottom-tab" href={href} aria-current={isCurrent(href) ? 'page' : undefined}>
-        <span class="tab-icon" aria-hidden="true">{icon}</span>
+        <svg class="tab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg>
         <span>{label}</span>
       </a>
     ))}
@@ -112,33 +120,7 @@ const mobileTabs = [
       try { localStorage.setItem('theme', r.dataset.theme); } catch (e) {}
       window.dispatchEvent(new Event('themechange'));
     });
-    // 觀察器成功啟動後才隱藏卡片；腳本失敗時維持可閱讀。
-    const root = document.documentElement;
-    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-    if (!reducedMotion.matches && 'IntersectionObserver' in window) {
-      let observer: IntersectionObserver | undefined;
-      try {
-        observer = new IntersectionObserver((entries) => {
-          for (const entry of entries) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-revealed');
-              observer?.unobserve(entry.target);
-            }
-          }
-        }, { rootMargin: '0px 0px -10% 0px' });
-        document.querySelectorAll('.reveal').forEach((el) => observer?.observe(el));
-        root.classList.add('reveal-ready');
-        reducedMotion.addEventListener('change', (event) => {
-          if (event.matches) {
-            observer?.disconnect();
-            root.classList.remove('reveal-ready');
-          }
-        });
-      } catch {
-        observer?.disconnect();
-        root.classList.remove('reveal-ready');
-      }
-    }
+    // Content stays visible from first paint; scrolling never gates a card.
   </script>
 </body>
 </html>

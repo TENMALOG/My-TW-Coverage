@@ -1,6 +1,7 @@
 ---
 // 產業頁：散點圖（營收×毛利率，點一下進公司）、證交所產業別篩選、公司卡片列表、互動往來關係圖。
 import Base from '../../layouts/Base.astro';
+import Figures from '../../components/Figures.astro';
 import companies from '../../data/companies.json';
 import industries from '../../data/industries.json';
 import { YEAR, revenueSummary, sortRevenue, formatRevenue, exactRevenue, revenueLabel, revenueCounts, revenueNote } from '../../lib/revenue.js';
@@ -32,32 +33,32 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
   <div data-pagefind-body>
   <section class="card coral">
     <span class="kicker">產業</span>
-    <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0" data-pagefind-meta="title">{ind.name}</h1>
+    <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0" data-pagefind-meta="title"><Figures text={ind.name} /></h1>
     {isP2 && <p>新增公司依證交所官方產業別分組。</p>}
     <p style="font-size:18px;font-weight:700;margin:6px 0">
-      <span class="num">{rows.length}</span> 家公司・2025 營業收入加總（{revenueCounts(summary)}；未去重）
-      <span class="num" title={exactRevenue(summary.rev)}>{revenueLabel(summary)}</span>
+      <span class="num">{rows.length}</span> 家公司・<Figures text={`2025 營業收入加總（${revenueCounts(summary)}；未去重）`} />
+      <span class="num" title={exactRevenue(summary.rev)}><Figures text={revenueLabel(summary)} /></span>
     </p>
-    <p class="muted" style="color:#181715">營收取自公開資訊觀測站綜合損益表彙總。{revenueNote}</p>
+    <p class="muted">營收取自公開資訊觀測站綜合損益表彙總。<Figures text={revenueNote} /></p>
     {summary.negative && <p>含營業收入為負的公司</p>}
-    {ind.slug === 'semiconductors' && <p><a class="chip" style="background:#fff;color:#181715" href="/story/semiconductors/">▶ 往下滑五分鐘，看懂這個產業</a></p>}
+    {ind.slug === 'semiconductors' && <p><a class="chip" style="background:var(--surface)" href="/story/semiconductors/">▶ 往下滑五分鐘，看懂這個產業</a></p>}
   </section>
 
-  <section class="card reveal">
+  <section class="card reveal data-block">
     <h2>誰賺得多、誰賺得好？</h2>
     <p class="muted">橫軸：2025 營收（億元，對數刻度）；縱軸：毛利率。點一下圓點看公司。</p>
     <div class="chart" id="scatter" style="height:360px"></div>
   </section>
 
   {uniq.length > 0 && (
-    <section class="card reveal">
+    <section class="card reveal data-block">
       <h2>產業內誰跟誰做生意？</h2>
       <p class="muted">箭頭由供應商指向客戶，只畫年報或公開說明書明確點名、且雙方都在本產業的往來。可拖曳、雙指縮放。</p>
       <div class="chart" id="graph" style="height:420px"></div>
     </section>
   )}
 
-  <section class="card reveal">
+  <section class="card reveal data-block">
     <h2>公司一覽</h2>
     <div id="filters" style="margin-bottom:8px">
       <button class="chip on" data-m="">全部 {rows.length}</button>
@@ -65,10 +66,10 @@ const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed
     </div>
     <div id="list">
       {rows.map((r) => (
-        <a href={`/c/${r.t}/`} data-m={r.m} style="display:block;text-decoration:none;border-top:1px solid var(--line);padding:10px 0">
+        <a href={`/c/${r.t}/`} data-m={r.m} style="display:block;text-decoration:none;border-top:1px solid var(--border);padding:10px 0">
           <span class="num" style="font-weight:700">{r.t}</span> <b style="font-size:17px">{r.n}</b>{r.moved && <span class="chip" title="本研究依年報更正分類後移入">＊依年報移入</span>}
-          <span class="muted num" style="float:right" title={exactRevenue(r.rev)}>{r.rev != null ? `${formatRevenue(r.rev)}｜毛利率 ${r.gm != null ? r.gm + '%' : '—'}` : ''}</span>
-          <div class="muted">{r.hook}</div>
+          <span class="muted num" style="float:right" title={exactRevenue(r.rev)}><Figures text={r.rev != null ? `${formatRevenue(r.rev)}｜毛利率 ${r.gm != null ? r.gm + '%' : '—'}` : ''} /></span>
+          <div class="muted"><Figures text={r.hook} /></div>
         </a>
       ))}
     </div>

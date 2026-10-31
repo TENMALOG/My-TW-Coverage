@@ -1,0 +1,16 @@
+---
+// Render only presentation spans; keep the original string and escaping intact.
+import { figureRuns } from '../lib/figures.js';
+interface Props { text?: string | number | null; highlight?: boolean; }
+const { text, highlight = false } = Astro.props;
+const withSource = Astro.slots.has('default');
+const runs = figureRuns(text, highlight);
+---
+<span class:list={{ 'sourced-figure': withSource }}><span class:list={{ 'figure-copy': withSource }}>{runs.map((part) => part.number
+  ? <span class:list={['num', { 'key-figure': part.key }]}>{part.runs.map((run, j) => j === 1 ? <small class="figure-unit">{run}</small> : run)}</span>
+  : part.text)}</span>{withSource && <slot />}</span>
+<style>
+  .sourced-figure { display: grid; grid-template-columns: minmax(0, 1fr) max-content; align-items: end; column-gap: 8px; }
+  .figure-copy { min-width: 0; }
+  .sourced-figure :global(.page-badge) { margin-inline-start: 0; }
+</style>

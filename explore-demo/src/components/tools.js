@@ -59,7 +59,7 @@ export async function picker(onPick, placeholder = '輸入代號或公司名，�
   const all = await summary();
   const id = 'dl' + Math.random().toString(36).slice(2);
   const input = el('input', { list: id, placeholder, autocomplete: 'off',
-    style: 'width:100%;font:inherit;font-size:18px;padding:10px 14px;border:2.5px solid var(--fg);border-radius:14px;background:var(--bg);color:var(--fg)' });
+    style: 'width:100%;font:inherit;font-size:18px;padding:10px 14px;border:1px solid var(--border);border-radius:var(--radius-control);background:var(--background);color:var(--foreground)' });
   const dl = el('datalist', { id }, all.map((c) => el('option', { value: `${c.t} ${c.n}` })));
   input.addEventListener('change', () => {
     const t = input.value.trim().split(/\s+/)[0];

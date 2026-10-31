@@ -3,10 +3,12 @@
 import fs from 'node:fs';
 import Base from '../../layouts/Base.astro';
 import Term from '../../components/Term.astro';
+import Figures from '../../components/Figures.astro';
 import companies from '../../data/companies.json';
 import { hookScope, scopedHook } from '../../lib/hook-scope.js';
 import { reportName, reportLabel } from '../../lib/report.js';
 import { serializeJsonForHtml } from '../../lib/html.js';
+import { formatRevenue, mixItems, mixSegments } from '../../lib/chart-data.js';
 
 export function getStaticPaths() {
   return companies.map((c) => ({ params: { ticker: c.ticker }, props: { c } }));
@@ -24,12 +26,20 @@ const years = Object.keys(c.fin).sort();
 const rev = years.map((y) => c.fin[y].revenue_k / 1e5);            // 仟元 → 億元
 const yoy = years.length >= 2 && rev.at(-2) !== 0 ? (rev.at(-1) / rev.at(-2) - 1) * 100 : null;
 const gm = years.length ? c.fin[years[years.length - 1]].gross_margin_pct : null;
-const fmt = (v) => (v >= 100 ? Math.round(v).toLocaleString('en-US') : v.toFixed(1));
+const mix = c.mix ? mixSegments(c.mix) : [];
+const mixTotal = mix.reduce((sum, item) => sum + item.value, 0);
+const largestRegion = c.regions ? c.regions.items.reduce((best, item, i, items) => item[1] > items[best][1] ? i : best, 0) : -1;
+const regionMax = c.regions ? Math.max(...c.regions.items.map(([, value]) => value), 1) : 1;
 const FIELDS = [['business_scope', '業務範圍'], ['products', '產品與應用'], ['revenue_mix', '營收結構'], ['sales_regions', '銷售地區'],
   ['major_customers', '主要客戶'], ['major_suppliers', '主要供應商'], ['raw_materials', '原料'], ['capacity_or_production', '產能與產量'],
   ['market_position', '市場地位'], ['rd', '研發'], ['employees', '人力'], ['group_structure', '集團結構'], ['outlook', '展望'],
   ['export_share', '外銷比重'], ['history', '沿革'], ['established', '成立'], ['headquarters', '總部']];
 const ids = (o) => (o?.facts || []).join(',');
+const sourcePages = (o) => {
+  const pages = [...new Set((o?.facts || []).map((id) => c.sources[id]?.page)
+    .filter((page) => page != null && String(page).trim() !== ''))];
+  return pages.length ? `p.${pages.join('・')}` : `${sourceName}出處`;
+};
 const scope = hookScope(c);
 const desc = scopedHook(c) || `${c.name}（${c.ticker}）${sourceName}重點`;
 const chartData = { mix: c.mix, regions: c.regions, years, rev };
@@ -39,12 +49,13 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   author: { '@type': 'Organization', name: '股.tw 研究室' }, publisher: { '@type': 'Organization', name: '股.tw 研究室' } };
 ---
 <Base title={`${c.name}（${c.ticker}）`} description={desc} ogType="article" ogImage={`/og/${c.ticker}.jpg`} jsonLd={jsonLd}>
-  <div data-pagefind-body>
+  <div class="company-page" data-pagefind-body>
+  <div class="company-intro">
   <section class:list={['card', 'hero', { 'hero-text-only': !hasPoster }]}>
    <div class="herotext">
     <span class="kicker num">{c.ticker}</span>
-    <h1 style="font-family:'Noto Serif TC',serif;font-size:40px;margin:0;line-height:1.15" data-pagefind-meta="title">{c.name}</h1>
-    <div class="muted">{c.legal_name}</div>
+    <h1 class="company-name" data-pagefind-meta="title"><Figures text={c.name} /></h1>
+    <div class="muted"><Figures text={c.legal_name} /></div>
     {isProspectus && <p class="muted">本公司在公開資訊觀測站上尚無年報，本頁事實取自公司申報的公開說明書（正式版）。</p>}
     <div style="margin-top:10px">
       <a class="chip on" href={`/i/${c.industry.slug}/`} data-pagefind-filter="產業">{c.industry.name}</a>
@@ -67,49 +78,67 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   </section>
 
   {c.hook && (
-    <section class="card coral reveal">
+    <section class="card coral reveal hook-card">
       <span class="kicker">一句話記住它</span>
-      <p style="font-size:26px;font-weight:900;margin:4px 0;line-height:1.35" data-pagefind-weight="5">{c.hook.text}</p>
-      {scope && <p class="muted" style="color:#181715">{scope}</p>}
-      <button data-pagefind-ignore class="src" data-facts={ids(c.hook)} style="color:#181715">{sourceName}出處</button>
+      <p class="hook-sentence" data-pagefind-weight="5"><Figures text={c.hook.text} highlight>
+        {!scope && <button data-pagefind-ignore class="src page-badge" data-facts={ids(c.hook)} aria-label={`${sourceName}出處`}>{sourcePages(c.hook)}</button>}
+      </Figures></p>
+      {scope && <p class="muted hook-scope source-line"><span class="source-copy">{scope.split('｜').map((part, i) => <>{i > 0 && <span class="scope-separator">｜</span>}<Figures text={part} /></>)}</span>
+        <button data-pagefind-ignore class="src page-badge" data-facts={ids(c.hook)} aria-label={`${sourceName}出處`}>{sourcePages(c.hook)}</button>
+      </p>}
     </section>
   )}
-
+  </div>
 
   {c.what && (
     <section class="card reveal">
       <h2>在做什麼？</h2>
-      {c.what.lines.map((l, i) => <p class="chip" style={`font-size:17px;padding:6px 14px;transform:rotate(${i % 2 ? 1.5 : -1.5}deg)`}>{l}</p>)}
-      <div><button data-pagefind-ignore class="src" data-facts={ids(c.what)}>{sourceName}出處</button></div>
+      <ol class="activity-list" role="list">
+        {c.what.lines.map((l, i) => <li><span class="list-marker" aria-hidden="true"></span><span class="activity-copy"><Figures text={l}>
+          {i === c.what.lines.length - 1 && <button data-pagefind-ignore class="src page-badge" data-facts={ids(c.what)} aria-label={`${sourceName}出處`}>{sourcePages(c.what)}</button>}
+        </Figures></span></li>)}
+      </ol>
     </section>
   )}
 
   {c.mix && (
-    <section class="card reveal">
+    <section class="card reveal data-block">
       <h2>{c.mix.title || '營收從哪來'}</h2>
-      <div class="chart" id="mix"></div>
-      <p class="muted">{c.mix.year} 年度｜<Term term="分母" label={c.mix.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.mix)}>{sourceName}出處</button></p>
+      <div id="mix" class="revenue-mix">
+        <div class="mix-bar" role="img" aria-label={`營收結構：${mixItems(c.mix).items.map(({ name, value }) => `${name} ${value}%`).join('、')}`}>
+          {mix.map(({ value }, i) => <span class={`mix-colour mix-colour-${i}`} style={`flex-grow:${value / mixTotal}`} aria-hidden="true"></span>)}
+        </div>
+        <ul class="mix-legend" role="list">
+          {mix.map(({ name, value, components }, i) => <li><span class={`mix-swatch mix-colour mix-colour-${i}`} aria-hidden="true"></span><span class="mix-name">{name}{components && <small class="mix-components muted">（{components.map(({ name, value }) => `${name} ${value}%`).join('、')}）</small>}</span><span class="num">{value}%</span></li>)}
+        </ul>
+      </div>
+      <div class="muted source-line"><div class="source-copy"><span class="num">{c.mix.year}</span> 年度<span class="scope-separator">｜</span><Term term="分母" label={c.mix.basis} /></div><button data-pagefind-ignore class="src page-badge" data-facts={ids(c.mix)} aria-label={`${sourceName}出處`}>{sourcePages(c.mix)}</button></div>
     </section>
   )}
 
   {c.regions && (
-    <section class="card reveal">
+    <section class="card reveal data-block regions-block">
       <h2>{c.regions.title || '賣到哪裡'}</h2>
-      <div class="chart" id="regions" style="height:220px"></div>
-      <p class="muted">{c.regions.year} 年度｜<Term term="分母" label={c.regions.basis} />　<button data-pagefind-ignore class="src" data-facts={ids(c.regions)}>{sourceName}出處</button></p>
+      <div id="regions" class="region-bars" role="img" aria-label={`地區營收結構：${c.regions.items.map(([name, value]) => `${name} ${value}%`).join('、')}`}>
+        {c.regions.items.map(([name, value], i) => <div class="region-row" aria-hidden="true">
+          <span class:list={['region-name', { 'region-name-short': String(name).length <= 8 }]}>{name}</span>
+          <div class="region-track"><span class:list={['region-fill', { 'region-largest': i === largestRegion, 'region-zero': value === 0 }]} style={`width:${value / regionMax * 100}%`}><span class="region-value num">{value}%</span></span></div>
+        </div>)}
+      </div>
+      <div class="muted source-line"><div class="source-copy"><span class="num">{c.regions.year}</span> 年度<span class="scope-separator">｜</span><Term term="分母" label={c.regions.basis} />；灰色為其他地區。</div><button data-pagefind-ignore class="src page-badge" data-facts={ids(c.regions)} aria-label={`${sourceName}出處`}>{sourcePages(c.regions)}</button></div>
     </section>
   )}
 
   {years.length > 0 && (
-    <section class="card reveal">
+    <section class="card reveal data-block money-block">
       <h2>賺多少？</h2>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <span class="chip num">營收 {years.at(-1)}：{fmt(rev.at(-1))} 億</span>
-        {yoy !== null && <span class="chip num" style={yoy >= 0 ? 'background:var(--coral);color:#181715' : ''}><Term term="營收年增" label="年增" /> {yoy >= 0 ? '+' : ''}{yoy.toFixed(1)}%</span>}
-        {gm != null && <span class="chip num"><Term term="毛利率" /> {years.at(-1)}：{gm}%</span>}
-      </div>
-      <div class="chart" id="money" style="height:240px"></div>
-      <p class="muted">公開資訊觀測站「綜合損益表彙總」，<Term term="合併報表" />；年增率與單位換算由本站計算。</p>
+      <div class="metric-wrap"><ol class="activity-list metric-list" role="list">
+        <li class="metric-revenue"><div class="metric-label">營收 <span class="num">{years.at(-1)}</span>：</div><span class="metric-value"><span class="key-figure">{formatRevenue(rev.at(-1))}</span> <small class="figure-unit">億</small></span></li>
+        {yoy !== null && <li><div class="metric-label"><Term term="營收年增" label="年增" /></div><span class="metric-value"><Figures text={`${yoy >= 0 ? '+' : ''}${yoy.toFixed(1)}%`} /></span></li>}
+        {gm != null && <li><div class="metric-label"><Term term="毛利率" /> <span class="num">{years.at(-1)}</span>：</div><span class="metric-value"><Figures text={`${gm}%`} /></span></li>}
+      </ol></div>
+      <div class="chart" id="money" style={`height:calc(var(--money-row-height, 54px) * ${years.length} + var(--money-chart-padding, 16px))`}></div>
+      <div class="muted financial-note source-line"><div class="source-copy">公開資訊觀測站「綜合損益表彙總」，<Term term="合併報表" />；年增率與單位換算由本站計算。</div><a class="source-badge page-badge" href="https://mopsov.twse.com.tw/mops/web/ajax_t163sb04" target="_blank" rel="noopener" aria-label="公開資訊觀測站綜合損益表彙總來源">財報</a></div>
     </section>
   )}
 
@@ -123,16 +152,33 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   )}
 
   {c.relations.length > 0 && (
-    <section class="card reveal">
+    <section class="card reveal data-block relations-block">
       <h2>跟誰做生意？</h2>
       <p class="muted">{sourceName}裡明確點名、且對方也在本站收錄範圍內的往來對象（逐筆查核）。</p>
-      <div>
-        {c.relations.map((r) => (
-          <a class="chip" href={known.has(r.ticker) ? `/c/${r.ticker}/` : undefined}
-            style={r.side === 'customer' ? 'background:var(--coral);color:#181715' : ''}>
-            {r.side === 'customer' ? '客戶' : '供應商'}・{r.name}{r.label ? `（${r.label}）` : ''}
-          </a>
-        ))}
+      <div class="relations-columns">
+        {(['customer', 'supplier'] as const).map((side) => {
+          const rows = c.relations.filter((r) => r.side === side);
+          const renderRow = (r) => (
+            <li class="relation-row">
+              <span class="relation-detail">
+                {known.has(r.ticker) ? <a href={`/c/${r.ticker}/`}>{r.name}</a> : <span>{r.name}</span>}
+                {r.label && <span class="muted relation-context">（<Figures text={r.label} />）</span>}
+              </span>
+              <span class:list={['relation-share', r.share?.trim() ? 'num' : 'muted']}>{r.share?.trim() || '未揭露'}</span>
+            </li>
+          );
+          return (
+          <div class="relations-column">
+            <h3>{side === 'customer' ? '客戶' : '供應商'}</h3>
+            <ul class="relations-list" role="list">
+              {rows.slice(0, 5).map(renderRow)}
+            </ul>
+            {rows.length > 5 && <details class="relations-more">
+              <summary>展開全部（<span class="num">{rows.length}</span> 家）</summary>
+              <ul class="relations-list" role="list">{rows.slice(5).map(renderRow)}</ul>
+            </details>}
+          </div>
+        )})}
       </div>
     </section>
   )}
@@ -140,20 +186,21 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
   {c.cards.map((k) => (
     <section class="card reveal">
       {k.self ? <span data-pagefind-ignore class="badge-self"><Term term="公司自述" label="公司自述・未經驗證" /></span> : <span data-pagefind-ignore class="kicker">重點</span>}
-      <p style="font-size:21px;font-weight:700;margin:8px 0">{k.text}</p>
-      <button data-pagefind-ignore class="src" data-facts={ids(k)}>{sourceName}出處</button>
+      <p class="prose-block" style="font-size:21px;font-weight:700"><Figures text={k.text} highlight>
+        <button data-pagefind-ignore class="src page-badge" data-facts={ids(k)} aria-label={`${sourceName}出處`}>{sourcePages(k)}</button>
+      </Figures></p>
     </section>
   ))}
 
   {c.facts.length > 0 && (
-    <section class="card reveal">
+    <section class="card reveal facts-block">
       <details>
-        <summary style="font-weight:900;font-size:18px;cursor:pointer">{sourceName}重點全文（{c.facts.length} 條，逐句查核）</summary>
+        <summary style="font-weight:900;font-size:18px;cursor:pointer">{sourceName}重點全文（<span class="num">{c.facts.length}</span> 條，逐句查核）</summary>
         {FIELDS.filter(([k]) => c.facts.some((f) => f.field === k)).map(([k, label]) => (
           <div>
             <h3 style="margin:14px 0 4px;font-size:16px">{label}</h3>
             {c.facts.filter((f) => f.field === k).map((f) => (
-              <p style="margin:4px 0">{f.statement}<span class="muted" data-pagefind-ignore>（第 {f.page} 頁）</span></p>
+              <p class="prose-block" style="margin:4px 0"><Figures text={f.statement} /><span class="muted" data-pagefind-ignore>（第 <span class="num">{f.page}</span> 頁）</span></p>
             ))}
           </div>
         ))}
@@ -161,13 +208,13 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     </section>
   )}
 
-  <p class="muted">
+  <p class="muted company-notes">
     資料：{c.legal_name} {isProspectus
       ? <a href={c.report.url} target="_blank" rel="noopener">{sourceLabel}</a>
       : <>{sourceLabel}（<a href={c.report.url} target="_blank" rel="noopener">{c.report.filename}</a>）</>}。
     <a href={`/paper/chapters/${researchSection}/${c.ticker}.html`}>看完整研究頁（含每句的查核紀錄與參考資料）→</a>
-    {c.tags.map((t) => <span class="chip">{t}</span>)}
   </p>
+  <ol class="activity-list tag-list" role="list">{c.tags.map((t) => <li><span class="list-marker" aria-hidden="true"></span><span><Figures text={t} /></span></li>)}</ol>
 
   </div>
 
@@ -180,4 +227,63 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'Article', headline:
     import { initCompany } from '../../components/company.js';
     initCompany();
   </script>
+  <style>
+    /* Keep the new lists readable when no theme is selected, too. */
+    .company-name { font-family: 'Noto Serif TC', serif; font-size: 40px; font-weight: 700; margin: 0; line-height: 1.15; }
+    .revenue-mix { width: 100%; }
+    .mix-bar { display: flex; width: 100%; height: 14px; gap: 1px; background: var(--background); }
+    .mix-bar > span { flex-basis: 0; min-width: 0; }
+    .mix-colour-0 { background: var(--chart-primary, var(--accent-text)); }
+    .mix-colour-1 { background: var(--chart-second, var(--foreground)); }
+    .mix-colour-2 { background: var(--chart-neutral); }
+    .mix-legend { display: grid; grid-template-columns: 10px minmax(0, 1fr) max-content; column-gap: 8px; list-style: none; margin: 12px 0 0; padding: 0; font-size: 14px; }
+    .mix-legend li { display: grid; grid-template-columns: subgrid; grid-column: 1 / -1; align-items: baseline; padding-block: 4px; }
+    .mix-name { min-width: 0; overflow-wrap: anywhere; }
+    .mix-components { margin-inline-start: .5em; font-size: 12px; }
+    .mix-swatch { width: 10px; height: 10px; box-sizing: border-box; }
+    .mix-legend .num { text-align: right; font-size: 14px; white-space: nowrap; }
+    .region-bars { display: grid; gap: 20px; padding-block: 8px; font-size: 14px; }
+    .region-row { display: grid; grid-template-columns: 8em minmax(0, 1fr); align-items: center; gap: 12px; min-height: 34px; }
+    .region-name { font-weight: 700; overflow-wrap: anywhere; }
+    .region-name-short { white-space: nowrap; }
+    .region-track { margin-inline-end: 8ch; }
+    .region-fill { display: block; position: relative; height: 30px; min-width: 4px; background: var(--chart-neutral); border-radius: var(--radius-control); }
+    .region-fill.region-largest { background: var(--chart-primary, var(--accent-text)); }
+    .region-fill.region-zero { min-width: 0; }
+    .region-value { position: absolute; left: 100%; top: 50%; transform: translateY(-50%); margin-inline-start: 8px; color: var(--foreground); white-space: nowrap; font-size: 14px; font-weight: 700; }
+    .activity-list { list-style: none; margin: 8px 0 12px; padding: 0; }
+    .hook-sentence { font-size: 26px; font-weight: 900; margin: 4px 0; line-height: 1.35; }
+    .activity-list li { display: flex; align-items: baseline; gap: 12px; padding: 8px 0; }
+    .list-marker { flex: 0 0 8px; height: 1px; background: var(--text-secondary); align-self: baseline; transform: translateY(-.35em); }
+    .activity-copy { flex: 1; min-width: 0; }
+    .figure-unit { font-size: .8em; }
+    .source-line { display: flex; align-items: flex-end; gap: 12px; margin-block: 8px; }
+    .financial-note { margin-block: 8px; }
+    .source-copy { flex: 1; min-width: 0; }
+    .source-line .page-badge { flex-shrink: 0; }
+    .source-badge { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+    .metric-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .metric-list li { display: flex; flex-direction: column; gap: 4px; }
+    .metric-label { font-size: 13px; color: var(--text-muted); }
+    .metric-value { font-size: 20px; font-weight: 700; line-height: 1.4; font-variant-numeric: tabular-nums; }
+    .metric-revenue .metric-value { font-size: 24px; }
+    .relations-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .relations-column h3 { font-size: 16px; margin: 8px 0; }
+    .relations-list { list-style: none; margin: 0; padding: 0; }
+    .relations-more summary { min-height: 44px; padding-block: 10px; cursor: pointer; }
+    .relation-row { display: grid; grid-template-columns: minmax(0, 1fr) max-content; align-items: baseline; gap: 12px; min-height: 44px; padding-block: 8px; border-bottom: 1px solid var(--border-subtle); }
+    .relation-detail { min-width: 0; overflow-wrap: anywhere; }
+    .relation-detail > a { display: inline-flex; align-items: center; min-height: 44px; }
+    .relation-context { display: block; }
+    .relation-share { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    @media (width < 720px) {
+      .relations-columns { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+      .metric-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .metric-revenue { grid-column: 1 / -1; }
+    }
+    @media (width <= 480px) {
+      .region-row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+      .region-name { white-space: normal; overflow-wrap: anywhere; }
+    }
+  </style>
 </Base>

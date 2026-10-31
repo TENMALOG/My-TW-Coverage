@@ -23,18 +23,18 @@ async function mount(id, makeOption, onClick) {
 function scatter(rows) {
   const pts = rows.filter((r) => r.rev > 0 && r.gm != null);
   return {
-    textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') },
+    textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--foreground') },
     grid: { left: 44, right: 16, top: 16, bottom: 36 },
     tooltip: { formatter: (p) => `${escapeHtml(p.data.n)}（${escapeHtml(p.data.t)}）<br>營收 ${escapeHtml(p.data.value[0].toLocaleString('en-US', { maximumFractionDigits: 1 }))} 億｜毛利率 ${escapeHtml(p.data.value[1])}%` },
-    xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--muted') },
-      splitLine: { lineStyle: { color: css('--line') } } },
-    yAxis: { type: 'value', axisLabel: { color: css('--muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--line') } } },
+    xAxis: { type: 'log', name: '營收（億）', nameLocation: 'middle', nameGap: 24, axisLabel: { color: css('--text-muted') },
+      splitLine: { lineStyle: { color: css('--border') } } },
+    yAxis: { type: 'value', axisLabel: { color: css('--text-muted'), formatter: '{value}%' }, splitLine: { lineStyle: { color: css('--border') } } },
     dataZoom: [{ type: 'inside' }],
-    animationDuration: 1100, animationEasing: 'bounceOut', animationDelay: (i) => i * 6,
+    animation: false,
     series: [{
       type: 'scatter', symbolSize: (v) => 8 + Math.min(26, Math.sqrt(v[0]) / 4),
-      itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 1.5, opacity: 0.9 },
-      emphasis: { label: { show: true, formatter: (p) => p.data.n, color: css('--fg'), fontWeight: 700 } },
+      itemStyle: { color: css('--chart-primary') || css('--accent'), borderColor: css('--border'), borderWidth: 1, opacity: 0.9 },
+      emphasis: { label: { show: true, formatter: (p) => p.data.n, color: css('--foreground'), fontWeight: 700 } },
       data: pts.map((r) => ({ value: [Math.round(r.rev * 10) / 10, r.gm], n: r.n, t: r.t })),
     }],
   };
@@ -44,16 +44,16 @@ function graph(d) {
   const deg = {};
   d.edges.forEach((e) => { deg[e.s] = (deg[e.s] || 0) + 1; deg[e.d] = (deg[e.d] || 0) + 1; });
   const nodes = Object.keys(deg).map((t) => ({ id: t, name: d.names[t] || t, t, symbolSize: 16 + deg[t] * 5,
-    itemStyle: { color: deg[t] > 2 ? '#FF573F' : css('--card'), borderColor: css('--fg'), borderWidth: 2 } }));
+    itemStyle: { color: deg[t] > 2 ? (css('--chart-primary') || css('--accent')) : css('--chart-neutral'), borderColor: css('--border'), borderWidth: 1 } }));
   return {
-    textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') },
+    textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--foreground') },
     tooltip: { formatter: (p) => (p.dataType === 'edge' ? `${escapeHtml(d.names[p.data.source])} → ${escapeHtml(d.names[p.data.target])}` : `${escapeHtml(p.data.name)}（${escapeHtml(p.data.t)}）`) },
     series: [{
       type: 'graph', layout: 'force', roam: true, draggable: true,
       force: { repulsion: 180, edgeLength: [60, 140], gravity: 0.08 },
-      label: { show: true, position: 'bottom', color: css('--fg'), fontSize: 12 },
+      label: { show: true, position: 'bottom', color: css('--foreground'), fontSize: 12 },
       edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
-      lineStyle: { color: css('--muted'), width: 1.5, curveness: 0.15 },
+      lineStyle: { color: css('--chart-second') || css('--text-muted'), width: 1.5, curveness: 0.15 },
       data: nodes, links: d.edges.map((e) => ({ source: e.s, target: e.d })),
     }],
   };

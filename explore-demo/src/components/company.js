@@ -1,71 +1,67 @@
-// 公司卡片頁的互動：圖表（捲到才載入 ECharts）、年報出處抽屜、觀察清單、分享。
-import { watchlist as getWatchlist, setWatchlist, onVisible } from './tools.js';
+// 公司卡片頁的互動：圖表、年報出處抽屜、觀察清單、分享。
+import { watchlist as getWatchlist, setWatchlist } from './tools.js';
 import { reportName, reportLabel } from '../lib/report.js';
-import { escapeHtml } from '../lib/html.js';
+import { formatRevenue, mixItems } from '../lib/chart-data.js';
 
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
-const PALETTE = () => ['#FF573F', css('--fg'), '#FFB3A6', css('--muted'), '#E4DFD3', '#8A3324'];
 
-// 重力落地：長條與圓餅都用 bounceOut，像重物落地後回彈兩下
-const gravity = { animationDuration: 1300, animationEasing: 'bounceOut', animationDelay: (i) => i * 160 };
+// Show final chart geometry immediately, including under reduced motion.
+const chartMotion = { animation: false };
 
 function base() {
-  return { textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, backgroundColor: 'transparent' };
+  return { textStyle: { fontFamily: css('--font-figures') || 'Roboto Mono, Noto Sans TC, monospace', color: css('--foreground') }, backgroundColor: 'transparent' };
 }
 
-function mixOption(mix, sourceName) {
-  const total = mix.items.reduce((sum, [, value]) => sum + Number(value), 0);
-  const items = mix.items.map(([name, value]) => ({ name, value }));
-  if (total < 99.5) items.push({ name: '其他／未列', value: +(100 - total).toFixed(2), itemStyle: { color: css('--muted') } });
-  const note = total > 100.5 ? `各項加總 ${+total.toFixed(2)}%，可能有重疊` : '';
-  return {
-    ...base(), ...gravity,
-    tooltip: { trigger: 'item', formatter: (p) => `${escapeHtml(p.name)}：${escapeHtml(p.value)}%${p.name === '其他／未列' ? `<br>${escapeHtml(sourceName)}未逐項列出的部分` : ''}${note ? `<br>${escapeHtml(note)}` : ''}` },
-    legend: { bottom: 0, textStyle: { color: css('--fg'), fontSize: 13 }, itemWidth: 14, itemHeight: 14 },
-    color: PALETTE(),
-    series: [{
-      type: 'pie', radius: ['38%', '68%'], center: ['50%', '44%'], startAngle: 90,
-      itemStyle: { borderColor: css('--fg'), borderWidth: 2.5 },
-      label: { formatter: '{d|{c}%}', rich: { d: { fontFamily: 'Roboto Mono', fontWeight: 700, fontSize: 14, color: css('--fg') } } },
-      data: items,
-      animationType: 'expansion',
-    }],
-  };
-}
-
-function barOption(labels, values, unit, highlightLast) {
-  return {
-    ...base(), ...gravity,
-    grid: { left: 8, right: 56, top: 8, bottom: 8, containLabel: true },
-    xAxis: { type: 'value', show: false },
+function barOption(labels, values, width, { rowHeight = 0, barHeight = 30, labelSize = 14 } = {}) {
+  const format = (value) => `${formatRevenue(value)} 億`;
+  const labelWidth = Math.min(130, Math.max(98, Math.floor(width * .27)));
+  const valueWidth = Math.max(...values.map((value) => format(value).length)) * 8.5 + 16;
+  const labelGap = values.some((value) => value < 0) ? valueWidth + 8 : 8;
+  const option = {
+    ...base(), ...chartMotion,
+    grid: { left: labelWidth + labelGap, right: valueWidth, top: 8, bottom: 8 },
+    xAxis: { type: 'value', show: false, min: Math.min(0, ...values), max: values.every((value) => value === 0) ? 1 : Math.max(0, ...values) },
     yAxis: { type: 'category', data: labels, inverse: true, axisLine: { show: false }, axisTick: { show: false },
-      axisLabel: { color: css('--fg'), fontSize: 14, fontWeight: 700 } },
+      axisLabel: { color: css('--foreground'), fontSize: 14, fontWeight: 700, width: labelWidth, margin: labelGap, overflow: 'break', lineHeight: 18, interval: 0 } },
     series: [{
       type: 'bar', data: values.map((v, i) => ({
         value: v,
-        itemStyle: { color: (highlightLast ? i === values.length - 1 : i === 0) ? '#FF573F' : css('--card'),
-          borderColor: css('--fg'), borderWidth: 2.5, borderRadius: 12 },
+        itemStyle: { color: i === values.length - 1 ? (css('--chart-primary') || css('--accent-text')) : css('--chart-neutral'),
+          borderWidth: 0, borderRadius: parseFloat(css('--radius-control')) },
+        label: { position: v < 0 ? 'left' : 'right' },
       })),
-      barWidth: 30,
-      label: { show: true, position: 'right', fontFamily: 'Roboto Mono', fontWeight: 700, color: css('--fg'),
-        formatter: (p) => `${p.value.toLocaleString('en-US', { maximumFractionDigits: 2 })}${unit}` },
+      barWidth: 30, barMinHeight: 4, showBackground: false,
+      label: { show: true, position: 'right', distance: 8, fontFamily: css('--font-figures') || 'Roboto Mono', fontSize: 14, fontWeight: 700, color: css('--foreground'),
+        formatter: (p) => format(p.value) },
     }],
+  };
+  if (!rowHeight) return option;
+  // Editorial bars share the regions' label-above-bar layout and 8px insets.
+  // Each row has the same numeric domain, so lengths remain comparable.
+  return {
+    ...option,
+    grid: labels.map((_, i) => ({ left: values.some((v) => v < 0) ? valueWidth + 8 : 0, right: valueWidth, top: (i + 1) * rowHeight - barHeight - 8, height: barHeight })),
+    xAxis: labels.map((_, i) => ({ ...option.xAxis, gridIndex: i })),
+    yAxis: labels.map((label, i) => ({ type: 'category', data: [label], show: false, gridIndex: i })),
+    graphic: labels.map((label, i) => ({ type: 'text', left: 0, top: i * rowHeight + 8,
+      style: { text: label, fill: css('--foreground'), fontFamily: css('--font-figures') || 'Roboto Mono, Noto Sans TC, monospace', fontSize: labelSize, fontWeight: 700, lineHeight: 20 } })),
+    series: values.map((_, i) => ({ ...option.series[0], barWidth: barHeight, xAxisIndex: i, yAxisIndex: i, data: [option.series[0].data[i]] })),
   };
 }
 
 async function mount(id, makeOption) {
   const el = document.getElementById(id);
   if (!el) return;
-  onVisible(el, async () => {
-    if (el.dataset.chartMounted) return;
-    el.dataset.chartMounted = 'true';
-    const echarts = await import('./echarts.js');       // 圖表程式只在捲到時才下載
-    const chart = echarts.init(el, null, { renderer: 'svg' });
-    chart.setOption(makeOption());
-    const observer = new ResizeObserver(() => chart.resize());
-    observer.observe(el);
-    addEventListener('themechange', () => chart.setOption(makeOption(), true));
-  }, '0px 0px -15% 0px');
+  if (el.dataset.chartMounted) return;
+  el.dataset.chartMounted = 'true';
+  // Mount every company chart without waiting for scrolling or a capture to reveal it.
+  const echarts = await import('./echarts.js');
+  const chart = echarts.init(el, null, { renderer: 'svg' });
+  const paint = () => chart.setOption(makeOption(el.clientWidth, el), true);
+  paint();
+  const observer = new ResizeObserver(() => { chart.resize(); paint(); });
+  observer.observe(el);
+  addEventListener('themechange', paint);
 }
 
 function sources(data) {
@@ -89,6 +85,19 @@ function sources(data) {
       m.textContent = `${reportLabel(data.report)} 第 ${f.page} 頁｜期間：${f.period}｜編號 ${id}`;
       body.append(q, m);
     });
+    if (data.mix?.facts?.some((id) => ids.includes(id))) {
+      const breakdown = document.createElement('dl');
+      breakdown.className = 'source-breakdown';
+      mixItems(data.mix).items.forEach(({ name, value }) => {
+        const term = document.createElement('dt');
+        term.textContent = name;
+        const valueEl = document.createElement('dd');
+        valueEl.className = 'num';
+        valueEl.textContent = `${value}%`;
+        breakdown.append(term, valueEl);
+      });
+      body.append(breakdown);
+    }
     const a = document.createElement('a');
     a.href = data.report.url; a.target = '_blank'; a.rel = 'noopener';
     a.textContent = `開啟${reportName(data.report)}原檔（${data.report.filename}）`;
@@ -105,7 +114,7 @@ function watchlist(ticker) {
   if (!btn) return;
   const paint = () => { const on = getWatchlist().includes(ticker); btn.textContent = on ? '★ 觀察中' : '☆ 加入觀察';
     btn.setAttribute('aria-pressed', String(on));
-    btn.style.background = on ? '#FF573F' : ''; btn.style.color = on ? '#181715' : ''; };
+    btn.style.background = on ? 'var(--accent-subtle)' : ''; btn.style.color = on ? 'var(--accent-text)' : ''; };
   btn.addEventListener('click', () => { const w = getWatchlist(); setWatchlist(w.includes(ticker) ? w.filter((t) => t !== ticker) : [...w, ticker]); paint(); });
   paint();
 }
@@ -165,18 +174,16 @@ export function initCompany() {
     const el = document.getElementById(id);
     if (el) { el.setAttribute('role', 'img'); el.setAttribute('aria-label', label); }
   };
-  if (data.mix) {
-    const option = mixOption(data.mix, reportName(data.report));
-    describe('mix', `營收結構：${option.series[0].data.map(({ name, value }) => `${name} ${value}%`).join('、')}${data.mix.items.reduce((sum, [, v]) => sum + Number(v), 0) > 100.5 ? '；各項可能有重疊' : ''}`);
-    mount('mix', () => mixOption(data.mix, reportName(data.report)));
-  }
-  if (data.regions) {
-    describe('regions', `地區營收結構：${data.regions.items.map(([name, value]) => `${name} ${value}%`).join('、')}`);
-    mount('regions', () => barOption(data.regions.items.map((x) => x[0]), data.regions.items.map((x) => x[1]), '%', false));
-  }
   if (data.years.length) {
     describe('money', `歷年營收：${data.years.map((year, i) => `${year} 年 ${data.rev[i]} 億`).join('、')}`);
-    mount('money', () => barOption(data.years.map((y) => `${y} 營收`), data.rev.map((v) => (v >= 100 ? Math.round(v) : Math.round(v * 10) / 10)), ' 億', true));
+    mount('money', (width, el) => {
+      const style = getComputedStyle(el);
+      return barOption(data.years.map((y) => `${y} 營收`), data.rev, width, {
+        rowHeight: parseFloat(style.getPropertyValue('--money-row-height')) || 0,
+        barHeight: parseFloat(style.getPropertyValue('--money-bar-height')) || 30,
+        labelSize: parseFloat(style.getPropertyValue('--money-label-size')) || 14,
+      });
+    });
   }
   sources(data);
   watchlist(data.ticker);

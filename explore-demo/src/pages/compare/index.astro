@@ -27,7 +27,7 @@ import Base from '../../layouts/Base.astro';
     }
     function row(label, f) {
       return el('tr', {}, el('th', { style: 'text-align:left;white-space:nowrap;padding:8px 10px 8px 0;vertical-align:top' }, label),
-        ...sel.map((t) => el('td', { style: 'padding:8px 10px;vertical-align:top;border-left:1px solid var(--line)' }, f(map[t]))));
+        ...sel.map((t) => el('td', { style: 'padding:8px 10px;vertical-align:top;border-left:1px solid var(--border)' }, f(map[t]))));
     }
     const list = (items, year, basis) => items && items.length
       ? el('div', {}, items.map(([a, b]) => el('div', { class: 'num' }, `${a} ${b}%`)), el('div', { class: 'muted' }, `${year} 年度｜${basis || ''}`))
@@ -42,7 +42,7 @@ import Base from '../../layouts/Base.astro';
       const out = document.getElementById('out');
       if (!sel.length) { out.replaceChildren(el('p', { class: 'muted' }, '先在上方加入公司。')); return; }
       const table = el('table', { style: 'width:100%;border-collapse:collapse;font-size:15px' },
-        el('tr', {}, el('th', {}), ...sel.map((t) => el('th', { style: 'text-align:left;padding:8px 10px;border-left:1px solid var(--line)' },
+        el('tr', {}, el('th', {}), ...sel.map((t) => el('th', { style: 'text-align:left;padding:8px 10px;border-left:1px solid var(--border)' },
           el('a', { href: `/c/${t}/`, style: 'font-size:18px' }, `${map[t].n}`), el('div', { class: 'muted num' }, t)))),
         row('產業', (c) => c.in),
         row('證交所產業別', (c) => c.m || '—'),
@@ -65,14 +65,14 @@ import Base from '../../layouts/Base.astro';
       chartObserver.observe(chart);
       const names = sel.map((t) => map[t].n);
       c.setOption({
-        textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--fg') }, legend: { textStyle: { color: css('--fg') } },
+        textStyle: { fontFamily: 'Noto Sans TC, sans-serif', color: css('--foreground') }, legend: { textStyle: { color: css('--foreground') } },
         grid: { left: 50, right: 50, top: 40, bottom: 30 }, tooltip: { trigger: 'axis' },
-        xAxis: { type: 'category', data: names, axisLabel: { color: css('--fg') } },
-        yAxis: [{ type: 'value', name: '營收（億）', axisLabel: { color: css('--muted') } }, { type: 'value', name: '毛利率', axisLabel: { color: css('--muted'), formatter: '{value}%' } }],
-        animationEasing: 'bounceOut', animationDuration: 1200,
+        xAxis: { type: 'category', data: names, axisLabel: { color: css('--foreground') } },
+        yAxis: [{ type: 'value', name: '營收（億）', axisLabel: { color: css('--text-muted') } }, { type: 'value', name: '毛利率', axisLabel: { color: css('--text-muted'), formatter: '{value}%' } }],
+        animation: false,
         series: [
-          { name: '營收（億）', type: 'bar', data: sel.map((t) => map[t].rev), itemStyle: { color: '#FF573F', borderColor: css('--fg'), borderWidth: 2 } },
-          { name: '毛利率', type: 'line', yAxisIndex: 1, data: sel.map((t) => map[t].gm), symbolSize: 12, lineStyle: { color: css('--fg'), width: 3 }, itemStyle: { color: css('--fg') } },
+          { name: '營收（億）', type: 'bar', data: sel.map((t) => map[t].rev), itemStyle: { color: css('--chart-primary') || css('--accent'), borderColor: css('--border'), borderWidth: 1 } },
+          { name: '毛利率', type: 'line', yAxisIndex: 1, data: sel.map((t) => map[t].gm), symbolSize: 12, lineStyle: { color: css('--chart-second') || css('--foreground'), width: 3 }, itemStyle: { color: css('--chart-second') || css('--foreground') } },
         ],
       });
     }

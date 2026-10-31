@@ -47,8 +47,8 @@ import Base from '../../layouts/Base.astro';
     function draw() {
       const nodes = [...shown].map((t) => ({ id: t, name: map[t].n, t,
         symbolSize: t === focus ? 46 : 18 + Math.min(20, (nbr[t]?.size || 0) * 2),
-        itemStyle: { color: t === focus ? '#FF573F' : expanded.has(t) ? css('--fg') : css('--card'), borderColor: css('--fg'), borderWidth: 2 },
-        label: { color: css('--fg') } }));
+        itemStyle: { color: t === focus ? (css('--chart-primary') || css('--accent')) : expanded.has(t) ? (css('--chart-second') || css('--foreground')) : css('--chart-neutral'), borderColor: css('--border'), borderWidth: 1 },
+        label: { color: css('--foreground') } }));
       const links = [...edges].filter(([k]) => { const [s, d] = k.split('>'); return shown.has(s) && shown.has(d); })
         .map(([k, label]) => { const [s, d] = k.split('>'); return { source: s, target: d, label }; });
       graphEl.setAttribute('aria-label', `公司供應關係圖，以 ${map[focus].n} 為中心；${links.map((link) => `${map[link.source].n} 供應給 ${map[link.target].n}`).join('；') || '目前沒有顯示供應關係'}`);
@@ -58,7 +58,7 @@ import Base from '../../layouts/Base.astro';
         series: [{ type: 'graph', layout: 'force', roam: true, draggable: true, data: nodes, links,
           force: { repulsion: 220, edgeLength: [70, 160], gravity: 0.06, friction: 0.15 },
           label: { show: true, position: 'bottom', fontSize: 12 }, edgeSymbol: ['none', 'arrow'], edgeSymbolSize: 8,
-          lineStyle: { color: css('--muted'), width: 1.4, curveness: 0.12 }, emphasis: { focus: 'adjacency' } }],
+          lineStyle: { color: css('--chart-second') || css('--text-muted'), width: 1.4, curveness: 0.12 }, emphasis: { focus: 'adjacency' } }],
       }, true);
     }
     chart.on('click', (p) => { if (p.dataType !== 'node') return; focus = p.data.t; expand(focus); info(focus); draw(); });
